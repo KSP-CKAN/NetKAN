@@ -1,0 +1,33 @@
+{
+	"spec_version": 1,
+	"identifier": "CustomAsteroidsStockOuter",
+	"name": "Custom Asteroids (outer stock system data)",
+	"abstract": "Adds comets outside orbit of Jool",
+	"$kref": "#/ckan/kerbalstuff/251",
+	"release_status": "stable",
+	"depends": [ 
+		{
+			"name": "CustomAsteroids",
+			"min_version": "1.0",
+			"comment": "Version at which config format stabilized."
+		}
+	],
+	"provides": [ "CustomAsteroidsData" ],
+	"conflicts": [
+		{ "name" : "AlternisKerbol" }, 
+		{ "name" : "PlanetFactory" }, 
+		{ "name" : "PlanetFactoryCE" }, 
+		{
+			"name": "RealSolarSystem",
+			"comment": "The 6.4× and 10× Kerbol packs are compatible; how to select for them?"
+		}
+	],
+	"install": [
+		{
+			"file": "GameData/CustomAsteroids",
+			"install_to": "GameData",
+			"filter_regexp": "(?<!Trans-Jool\\.cfg)$"
+		}
+	],
+	"x_maintained_by": "Starstrider42"
+}

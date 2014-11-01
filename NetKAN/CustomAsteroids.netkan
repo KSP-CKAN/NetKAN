@@ -8,10 +8,18 @@
 		"bugtracker": "https://github.com/Starstrider42/Custom-Asteroids/issues",
 		"manual": "http://starstrider42.github.io/Custom-Asteroids/"
 	},
+	"depends": [
+		{ "name": "CustomAsteroidsData"}
+	],
+	"recommends": [
+		{ "name": "CustomAsteroidsStockInner"}, 
+		{ "name": "CustomAsteroidsStockOuter"}
+	],
 	"install": [
 		{
 			"file": "GameData/CustomAsteroids",
-			"install_to": "GameData"
+			"install_to": "GameData",
+			"filter": "config"
 		}
 	],
 	"name": "Custom Asteroids",
