@@ -1,16 +1,23 @@
 {
-	"spec_version" : 1,
-	"identifier" : "CustomAsteroids",
-	"$kref" : "#/ckan/kerbalstuff/251",
-	"release_status" : "stable",
-	"resources" : {
-		"repository" : "https://github.com/Starstrider42/Custom-Asteroids",
-		"bugtracker" : "https://github.com/Starstrider42/Custom-Asteroids/issues"
+	"spec_version": 1,
+	"identifier": "CustomAsteroids",
+	"$kref": "#/ckan/kerbalstuff/251",
+	"release_status": "stable",
+	"resources": {
+		"repository": "https://github.com/Starstrider42/Custom-Asteroids",
+		"bugtracker": "https://github.com/Starstrider42/Custom-Asteroids/issues"
+	"spec_version": 1,
+	"identifier": "CustomAsteroids",
+	"$kref": "#/ckan/kerbalstuff/251",
+	"release_status": "stable",
+	"resources": {
+		"repository": "https://github.com/Starstrider42/Custom-Asteroids",
+		"bugtracker": "https://github.com/Starstrider42/Custom-Asteroids/issues"
 	},
-	"install" : [
+	"install": [
 		{
-			"file" : "GameData/CustomAsteroids",
-			"install_to" : "GameData"
+			"file": "GameData/CustomAsteroids",
+			"install_to": "GameData"
 		}
 	],
 	"name": "Custom Asteroids",
