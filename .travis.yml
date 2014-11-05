@@ -1,0 +1,7 @@
+language: c
+
+install:
+    - sudo apt-get install python-demjson
+
+script:
+    - jsonlint -s -v *.ckan
