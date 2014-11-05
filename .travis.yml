@@ -4,4 +4,4 @@ install:
     - sudo apt-get install python-demjson
 
 script:
-    - jsonlint -s -v *.ckan
+    - jsonlint -s -v NetKAN/*.netkan
