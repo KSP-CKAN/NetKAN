@@ -6,7 +6,8 @@
 	"release_status": "stable",
 	"resources": {
 		"repository": "https://github.com/RemoteTechnologiesGroup/RemoteTech",
-		"bugtracker": "https://github.com/RemoteTechnologiesGroup/RemoteTech/issues"
+		"bugtracker": "https://github.com/RemoteTechnologiesGroup/RemoteTech/issues",
+		"manual": "http://remotetechnologiesgroup.github.io/RemoteTech/"
 	},
 	"depends": [
 		{

@@ -5,14 +5,8 @@
 	"release_status": "stable",
 	"resources": {
 		"repository": "https://github.com/Starstrider42/Custom-Asteroids",
-		"bugtracker": "https://github.com/Starstrider42/Custom-Asteroids/issues"
-	"spec_version": 1,
-	"identifier": "CustomAsteroids",
-	"$kref": "#/ckan/kerbalstuff/251",
-	"release_status": "stable",
-	"resources": {
-		"repository": "https://github.com/Starstrider42/Custom-Asteroids",
-		"bugtracker": "https://github.com/Starstrider42/Custom-Asteroids/issues"
+		"bugtracker": "https://github.com/Starstrider42/Custom-Asteroids/issues",
+		"manual": "http://starstrider42.github.io/Custom-Asteroids/"
 	},
 	"install": [
 		{
