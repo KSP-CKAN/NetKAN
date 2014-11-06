@@ -1883,7 +1883,7 @@ use JSON::PP qw(decode_json);
 use FindBin qw($Bin);
 use Try::Tiny;
 
-my $NETKAN_EXE = "$Bin/../netkan.exe";
+my $NETKAN_EXE = "$Bin/../../CKAN/netkan.exe";
 my $NETKAN_DIR = "$Bin/../NetKAN";
 my $CKAN_META  = "$Bin/../../CKAN-meta";
 
@@ -1892,7 +1892,7 @@ my $CKAN_META  = "$Bin/../../CKAN-meta";
 
 chdir($NETKAN_DIR);
 
-foreach my $file (glob("*.ckan")) {
+foreach my $file (glob("*.netkan")) {
 
     say "$file...";
 
