@@ -12,9 +12,9 @@
     "suggests"       : [ { "name" : "KSP-AVC" } ],
     "install" : [ 
         {
-            "file"       : "GameData/ThunderAerospace",
-            "install_to" : "GameData",
-            "filter"     : "GameData/ThunderAerospace/TacLifeSupport/PluginData/TacLifeSupport/LifeSupport.cfg"
+            "file"          : "GameData/ThunderAerospace",
+            "install_to"    : "GameData",
+            "filter_regexp" : "PluginData/TacLifeSupport/LifeSupport\\.cfg$"
         }
     ]
 }
