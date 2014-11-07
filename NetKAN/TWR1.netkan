@@ -1,0 +1,20 @@
+{
+"spec_version" : 1,
+"$kref" : "#/ckan/github/SirDiazo/TWR1",
+"name" : "Vertical Velocity Controller",
+"identifier" : "TWR1",
+"abstract" : "Control your descent speed in discreet increments for soft, controlled skycrane landings.",
+"license" : "GPL-3.0",
+"release_status" : "stable",
+"ksp_version" : "any",
+"resources" : {
+"homepage" : "http://http://forum.kerbalspaceprogram.com/threads/50736"
+},
+"recommends" : [ { "name" : "Toolbar" } ],
+"install" : [
+{
+"file" : "GameData/Diazo",
+"install_to" : "GameData"
+}
+],
+}
