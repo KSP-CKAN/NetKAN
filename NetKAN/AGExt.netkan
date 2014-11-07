@@ -3,6 +3,7 @@
     "$kref"          : "#/ckan/github/SirDiazo/AGExt",
     "name"           : "Action Groups Extended",
     "identifier"     : "AGExt",
+    "author"         : "Diazo",
     "abstract"       : "Increases the number of action groups to 250 and allows in-flight editing.",
     "license"        : "GPL-3.0",
     "release_status" : "stable",
