@@ -12,6 +12,7 @@
         { "name" : "DeadlyReentry" },
         { "name" : "EngineIgnitor" },
         { "name" : "FerramAerospaceResearch" },
+        { "name" : "KerbalJointReinforcement" },
         { "name" : "ModuleManager" },
         { "name" : "ModuleRCSFX" },
         { "name" : "RealChute" },
@@ -22,7 +23,6 @@
     "recommends" : [
         { "name" : "ActiveTextureManagement" },
         { "name" : "CrossFeedEnabler" },
-        { "name" : "KerbalJointReinforcement" },
         { "name" : "MechJeb" },
         { "name" : "ModuleFixer" },
         { "name" : "PartCatalog" },

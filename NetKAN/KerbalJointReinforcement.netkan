@@ -1,0 +1,11 @@
+{
+    "spec_version"   : 1,
+    "identifier"     : "KerbalJointReinforcement",
+    "$kref"          : "#/ckan/kerbalstuff/53",
+    "$vref"          : "#/ckan/ksp-avc",
+    "license"        : "GPL-3.0",
+    "release_status" : "stable",
+    "resources"      : {
+        "repository"     : "https://github.com/ferram4/Kerbal-Joint-Reinforcement/"
+    }
+}
