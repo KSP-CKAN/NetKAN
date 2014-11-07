@@ -10,7 +10,8 @@
 "resources" : {
 "homepage" : "http://http://forum.kerbalspaceprogram.com/threads/50736"
 },
-"recommends" : [ { "name" : "Toolbar" } ],
+"recommends" : [ { "name" : "Toolbar" }
+{ "name" : "ModuleManager" }],
 "install" : [
 {
 "file" : "GameData/Diazo",
