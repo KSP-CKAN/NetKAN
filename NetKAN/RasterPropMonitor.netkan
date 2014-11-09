@@ -14,8 +14,7 @@
     },
     "depends" : [
         { "name" : "ModuleManager" },
-        { "name" : "RasterPropMonitor-Core" },
-        { "name" : "RasterPropMonitor-Library" }
+        { "name" : "RasterPropMonitor-Core" }
     ],
     "suggests" : [
         { "name" : "VesselView-RasterPropMonitor"},
@@ -24,7 +23,7 @@
     "install" : [
         {
             "file"       : "GameData/JSI",
-            "filter"     : ["Plugins", "Library"],
+            "filter"     : ["RasterPropMonitor"],
             "install_to" : "GameData"
         }
     ]

@@ -5,7 +5,7 @@
     "$kref"          : "#/ckan/github/Mihara/RasterPropMonitor",
     "author"         : "Mihara",
     "abstract"       : "A toolkit for creating interactive IVA experiences.",
-    "comment"        : "This package contains the plugin.",
+    "comment"        : "This package contains the plugin, and the standard parts library.",
     "license"        : "GPL-3.0",
     "release_status" : "stable",
     "resources" : {
@@ -16,7 +16,7 @@
     ],
     "install" : [
         {
-            "file"       : "GameData/JSI/RasterPropMonitor/Plugins",
+            "file"       : "GameData/JSI/RasterPropMonitor",
             "install_to" : "GameData"
         }
     ]
