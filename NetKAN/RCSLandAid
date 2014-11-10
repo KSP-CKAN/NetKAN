@@ -1,0 +1,23 @@
+
+{
+"spec_version" : 1,
+"$kref" : "#/ckan/github/SirDiazo/RCSLandAid",
+"name" : "RCS Landing Aid",
+"identifier" : "RCSLandAid",
+"author" : "Diazo",
+"abstract" : "Cancel your horizontal velocity with your RCS to land. Also allows hovering over a specific point.",
+"license" : "GPL-3.0",
+"release_status" : "stable",
+"ksp_version" : "0.25",
+"author" : "Diazo",
+"resources" : {
+"homepage" : "http://forum.kerbalspaceprogram.com/threads/85838"
+},
+"depends" : [ { "name" : "Toolbar" } ],
+"install" : [
+{
+"file" : "GameData/Diazo",
+"install_to" : "GameData"
+}
+]
+}
