@@ -9,11 +9,11 @@
 		"manual": "http://starstrider42.github.io/Custom-Asteroids/"
 	},
 	"depends": [
-		{ "name": "CustomAsteroids-Data"}
+		{ "name": "CustomAsteroids-Pops"}
 	],
 	"recommends": [
-		{ "name": "CustomAsteroids-Data-Stock-Inner"}, 
-		{ "name": "CustomAsteroids-Data-Stock-Outer"}
+		{ "name": "CustomAsteroids-Pops-Stock-Inner"}, 
+		{ "name": "CustomAsteroids-Pops-Stock-Outer"}
 	],
 	"install": [
 		{

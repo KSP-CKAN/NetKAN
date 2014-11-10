@@ -1,6 +1,6 @@
 {
 	"spec_version": 1,
-	"identifier": "CustomAsteroids-Data-Stock-Outer",
+	"identifier": "CustomAsteroids-Pops-Stock-Outer",
 	"name": "Custom Asteroids (outer stock system data)",
 	"abstract": "Adds comets outside orbit of Jool",
 	"$kref": "#/ckan/kerbalstuff/251",
@@ -12,7 +12,7 @@
 			"comment": "Version at which config format stabilized."
 		}
 	],
-	"provides": [ "CustomAsteroids-Data" ],
+	"provides": [ "CustomAsteroids-Pops" ],
 	"conflicts": [
 		{ "name" : "AlternisKerbol" }, 
 		{ "name" : "PlanetFactory" }, 
