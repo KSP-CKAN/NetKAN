@@ -1,0 +1,30 @@
+{
+    "spec_version"   : 1,
+    "name"           : "RasterPropMonitor",
+    "identifier"     : "RasterPropMonitor",
+    "$kref"          : "#/ckan/github/Mihara/RasterPropMonitor",
+    "author"         : "Mihara",
+    "abstract"       : "Makes Stock IVAs more interactive.",
+    "comment"        : "This package contains the stock IVA patches, the JSI agency, and the ThirdPartySupport folder.",
+    "license"        : "GPL-3.0",
+    "release_status" : "stable",
+    "$vref"          : "#/ckan/ksp-avc",
+    "resources" : {
+        "homepage" : "http://forum.kerbalspaceprogram.com/threads/57603"
+    },
+    "depends" : [
+        { "name" : "ModuleManager" },
+        { "name" : "RasterPropMonitor-Core" }
+    ],
+    "suggests" : [
+        { "name" : "VesselView-RasterPropMonitor"},
+        { "name" : "SCANsat"}
+    ],
+    "install" : [
+        {
+            "file"       : "GameData/JSI",
+            "filter"     : ["RasterPropMonitor"],
+            "install_to" : "GameData"
+        }
+    ]
+}

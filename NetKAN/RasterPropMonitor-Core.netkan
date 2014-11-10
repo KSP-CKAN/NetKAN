@@ -1,0 +1,23 @@
+{
+    "spec_version"   : 1,
+    "name"           : "RasterPropMonitor Core",
+    "identifier"     : "RasterPropMonitor-Core",
+    "$kref"          : "#/ckan/github/Mihara/RasterPropMonitor",
+    "author"         : "Mihara",
+    "abstract"       : "A toolkit for creating interactive IVA experiences.",
+    "comment"        : "This package contains the plugin, and the standard parts library.",
+    "license"        : "GPL-3.0",
+    "release_status" : "stable",
+    "resources" : {
+        "homepage" : "http://forum.kerbalspaceprogram.com/threads/57603"
+    },
+    "depends" : [
+        { "name" : "ModuleManager" }
+    ],
+    "install" : [
+        {
+            "file"       : "GameData/JSI/RasterPropMonitor",
+            "install_to" : "GameData"
+        }
+    ]
+}
