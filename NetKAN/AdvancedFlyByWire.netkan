@@ -1,47 +1,40 @@
 {
     "spec_version": 1,
     "$kref"    : "#/ckan/kerbalstuff/232",
+    "$vref"    : "#/ckan/ksp-avc",
     "name"     : "Advanced Fly-By-Wire",
     "abstract" : "Joystick & Controller mod",
     "identifier": "AdvancedFlyByWire",
     "release_status" : "stable",
     "resources" : {
-        "homepage" : "http://forum.kerbalspaceprogram.com/threads/95022",
-        "github"   : {
-            "url"      : "https://github.com/AlexanderDzhoganov/ksp-advanced-flybywire",
-            "releases" : true
-        }
+        "homepage"   : "http://forum.kerbalspaceprogram.com/threads/95022",
+        "repository" : "https://github.com/AlexanderDzhoganov/ksp-advanced-flybywire",
     },
     "install" : [
         {
             "file"       : "x86/SDL2.dll",
-            "install_to" : "GameRoot",
-            "filter"     : "x86/"
+            "install_to" : "GameRoot"
         },
         {
             "file"       : "x86/SDL_LICENSE",
-            "install_to" : "GameRoot",
-            "filter"     : "x86/"
+            "install_to" : "GameRoot"
         },
         {
             "file"       : "x86/XINPUTDOTNET_LICENSE",
-            "install_to" : "GameRoot",
-            "filter"     : "x86/"
+            "install_to" : "GameRoot"
         },
         {
             "file"       : "x86/XInputInterface.dll",
-            "install_to" : "GameRoot",
-            "filter"     : "x86/"
+            "install_to" : "GameRoot"
         },
         {
             "file"       : "x86/GameData/ksp-advanced-flybywire",
-            "install_to" : "GameData",
-            "filter"     : "x86/"
+            "install_to" : "GameData"
         },
         {
-            "file"       : "x86/GameData/000_Toolbar/img_buttonAdvancedFlyByWire.png",
-            "install_to" : "GameData",
-            "filter"     : "x86/"
+            "file"          : "x86/GameData/000_Toolbar",
+            "install_to"    : "GameData",
+            "filter_regexp" : "(?<!img_buttonAdvancedFlyByWire.png)$"
         }
     ],
     "depends" : [
