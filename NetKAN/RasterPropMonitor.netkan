@@ -5,7 +5,7 @@
     "$kref"          : "#/ckan/github/Mihara/RasterPropMonitor",
     "author"         : "Mihara",
     "abstract"       : "Makes Stock IVAs more interactive.",
-    "comment"        : "This package contains the stock IVA patches, the JSI agency, and the ThirdPartySupport folder.",
+    "comment"        : "This package contains the stock IVA patches and the JSI agency.",
     "license"        : "GPL-3.0",
     "release_status" : "stable",
     "$vref"          : "#/ckan/ksp-avc",
