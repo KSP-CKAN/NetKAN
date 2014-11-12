@@ -4,14 +4,14 @@
     "$kref"        : "#/ckan/github/DaMichel/KerbalFlightIndicators",
     "name"         : "Kerbal Flight Indicators",
     "abstract"     : "Draws a flight vector indicator and other things in your field of view.",
-    "license"      : "CC BY-NC-SA 3.0",
+    "license"      : "CC-BY-NC-SA-3.0",
     "ksp_version"  : "0.25",
     "recommends" : [
         { "name" : "Toolbar" }
     ],
-	"resources" : {
-		"homepage" : "http://forum.kerbalspaceprogram.com/threads/80277"
-	},
-	"author" : "DaMichel",
-	 "release_status" : "stable",
+    "resources" : {
+        "homepage" : "http://forum.kerbalspaceprogram.com/threads/80277"
+    },
+    "author" : "DaMichel",
+    "release_status" : "stable"
 }
