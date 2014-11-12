@@ -10,14 +10,16 @@
     "license"        : "GPL-3.0",
     "release_status" : "stable",
     "resources" : {
-        "homepage" : "http://forum.kerbalspaceprogram.com/threads/57603"
+        "homepage" : "http://forum.kerbalspaceprogram.com/threads/57603",
+        "manual" : "https://github.com/Mihara/RasterPropMonitor/wiki"
     },
     "depends" : [
         { "name" : "ModuleManager" }
     ],
     "install" : [
         {
-            "file"       : "GameData/JSI/RasterPropMonitor",
+            "file"       : "GameData/JSI",
+            "filter": ["Agencies", "RPMPodPatches"],
             "install_to" : "GameData"
         }
     ]

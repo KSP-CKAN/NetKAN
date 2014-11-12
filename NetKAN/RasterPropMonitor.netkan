@@ -10,7 +10,8 @@
     "release_status" : "stable",
     "$vref"          : "#/ckan/ksp-avc",
     "resources" : {
-        "homepage" : "http://forum.kerbalspaceprogram.com/threads/57603"
+        "homepage" : "http://forum.kerbalspaceprogram.com/threads/57603",
+        "manual" : "https://github.com/Mihara/RasterPropMonitor/wiki"
     },
     "depends" : [
         { "name" : "ModuleManager" },
