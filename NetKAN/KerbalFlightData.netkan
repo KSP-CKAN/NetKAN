@@ -1,0 +1,18 @@
+{
+    "spec_version" : 1,
+    "identifier"   : "KerbalFlightData",
+    "$kref"        : "#/ckan/github/DaMichel/KerbalFlightData",
+    "name"         : "Kerbal Flight Data",
+    "abstract"     : "Displays essential information for piloting space planes. Meant to be used in conjunction with Ferram Aerospace Resarch.",
+    "license"      : "GNU General Public License Version 3",
+    "ksp_version"  : "0.25",
+    "recommends" : [
+        { "name" : "Toolbar" },
+		{ "name" : "FerramAerospaceResearch" },
+    ],
+	"resources" : {
+		"homepage" : "http://forum.kerbalspaceprogram.com/threads/80842"
+	},
+	"author" : "DaMichel",
+	"release_status" : "stable",
+}
