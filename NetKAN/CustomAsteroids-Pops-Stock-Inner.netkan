@@ -1,0 +1,31 @@
+{
+	"spec_version": 1,
+	"identifier": "CustomAsteroids-Pops-Stock-Inner",
+	"name": "Custom Asteroids (inner stock system data)",
+	"abstract": "Adds asteroids inside orbit of Jool",
+	"$kref": "#/ckan/kerbalstuff/251",
+	"release_status": "stable",
+	"depends": [ 
+		{
+			"name": "CustomAsteroids",
+			"min_version": "1.0",
+			"comment": "Version at which config format stabilized."
+		}
+	],
+	"provides": [ "CustomAsteroids-Pops" ],
+	"conflicts": [
+		{ "name" : "AlternisKerbol" }, 
+		{
+			"name": "RealSolarSystem",
+			"comment": "The 6.4× and 10× Kerbol packs are compatible; how to allow them?"
+		}
+	],
+	"install": [
+		{
+			"file": "GameData/CustomAsteroids",
+			"install_to": "GameData",
+			"filter_regexp": "(?<!Basic Asteroids\\.cfg)$"
+		}
+	],
+	"x_maintained_by": "Starstrider42"
+}
