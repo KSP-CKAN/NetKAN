@@ -1,0 +1,10 @@
+{
+    "spec_version" : 1,
+    "identifier"   : "SCANsat",
+    "$kref"        : "#/ckan/kerbalstuff/249",
+	
+	"recommends": [
+        { "name": "Toolbar" },
+        { "name": "RasterPropMonitor" }
+    ]
+}
