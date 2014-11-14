@@ -1,0 +1,18 @@
+{
+	"spec_version": 1,
+	"identifier": "LazTek",
+	"ksp_version": "0.25",
+	"resources": 
+	{
+		"homepage": "http://forum.kerbalspaceprogram.com/threads/29388-LazTek-SpaceX-Launch-3-1a-Exploration-2-1a-and-Historic-1-1a-packs-24-2-(9-10-14)"
+	},
+	"name": "LazTek SpaceX Exploration Pack",
+	"license": "restricted",
+	"abstract": "LazTek Temporal Anomalies is pleased to announce the availability of our SpaceX Exploration Pack",
+	"author": "LazarusLuan",
+	"version": "2.1a",
+	"download": "http://www.mediafire.com/download/xv9t5i9cyaqjbps/LazTekSpaceXExploration_2.1a.zip",
+	"comment" : "Hand packaged by Felger, if anything's wrong, it's my fault.",
+    "provides"       : [ "LazTekSpaceXExploration" ],
+    "conflicts"      : [ { "name" : "LazTekSpaceXExploration" } ]
+}

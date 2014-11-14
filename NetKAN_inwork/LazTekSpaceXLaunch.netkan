@@ -1,0 +1,18 @@
+{
+	"spec_version": 1,
+	"identifier": "LazTek",
+	"ksp_version": "0.25",
+	"resources": 
+	{
+		"homepage": "http://forum.kerbalspaceprogram.com/threads/29388-LazTek-SpaceX-Launch-3-1a-Exploration-2-1a-and-Historic-1-1a-packs-24-2-(9-10-14)"
+	},
+	"name": "LazTek SpaceX Launch Pack HD",
+	"license": "Created by Lazarus Luan (Lazarus). Neither this mod, nor any part of it may be redistributed.",
+	"abstract": "LazTek Temporal Anomalies is pleased to announce the availability of our SpaceX Launch Pack, including the new SpaceX Dragon V2 capsule and trunk, SpaceX Falcon 9 v1.1 and Falcon Heavy launch platforms",
+	"author": "LazarusLuan",
+	"version": "3.1a",
+	"download": "http://download713.mediafire.com/clos8l7fyb1g/aaqrzqmwcok1vox/LazTekSpaceXLaunchPack_3.1a.zip",
+	"comment" : "Hand packaged by Felger, if anything's wrong, it's my fault.",
+    "provides"       : [ "LazTekSpaceXLaunch" ],
+    "conflicts"      : [ { "name" : "LazTekSpaceXLaunch" } ]
+}
