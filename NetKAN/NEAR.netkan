@@ -1,0 +1,8 @@
+{
+    "spec_version"   : 1,
+    "identifier"     : "NEAR",
+    "$kref"          : "#/ckan/kerbalstuff/54",
+	"$vref" : "#/ckan/ksp-avc",
+	
+    "depends" : [ { "name" : "ModuleManager" } ]
+}
