@@ -1,5 +1,6 @@
 {
     "spec_version"   : 1,
     "identifier"     : "PlanetShine",
-    "$kref"          : "#/ckan/kerbalstuff/266"
+    "$kref"          : "#/ckan/kerbalstuff/266",
+    "license"        : "Apache-2.0"
 }
