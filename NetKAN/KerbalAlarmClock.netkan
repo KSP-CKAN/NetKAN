@@ -1,0 +1,9 @@
+{
+  "spec_version" : 1,
+  "identifier" : "KerbalAlarmClock",
+  "$kref" : "#/ckan/github/TriggerAu/KerbalAlarmClock",
+  "name" : "Kerbal Alarm Clock",
+  "abstract" : "A time management and utility plugin",
+  "license" : "MIT",
+  "ksp_version" : "0.25"
+}
