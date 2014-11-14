@@ -1,0 +1,9 @@
+{
+	"spec_version" : 1,
+	"identifier"   : "KerbinSide",
+	"$kref"        : "#/ckan/kerbalstuff/77",
+	
+	"depends": [
+        { "name": "KerbalKonstructs" }
+    ]
+}
