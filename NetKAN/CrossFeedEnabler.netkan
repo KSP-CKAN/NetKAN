@@ -3,7 +3,7 @@
     "identifier"   : "CrossFeedEnabler",
     "$kref"        : "#/ckan/github/NathanKell/CrossFeedEnabler",
     "name"         : "Crossfeed Enabler",
-    "abstract"     : "Adds a fuel crossfeed between the part it's added to, and the part this part is surface-attached to. Use it for radial tanks.",
+    "abstract"     : "Adds toggleable fuel crossfeed between the part it's added to, and the part this part is surface-attached to. Use it for radial tanks.",
     "license"      : "CC-BY-SA",
     "ksp_version"  : "0.25"
 }
