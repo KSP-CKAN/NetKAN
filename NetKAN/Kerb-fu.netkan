@@ -1,14 +1,21 @@
 {
     "spec_version" : 1,
-    "author"       : "Kerb-fu",
     "identifier"   : "VerticalPropulsionEmporium",
     "$kref"        : "#/ckan/kerbalstuff/275",
+
     "license"      : "CC-BY-NC-SA-4.0",
+
     "suggests"   : [
         { "name" : "CustomDesignSpacesuits-Steampunk" },
         { "name" : "MechJeb2" }
     ],
     "resources"    : {
         "homepage" : "http://forum.kerbalspaceprogram.com/threads/74625" 
-    }
+    },
+    "install" : [
+        {
+            "file"      : "Kerb-fu",
+            "install_to": "GameData"
+        }
+    ]
 }
