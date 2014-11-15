@@ -2,7 +2,7 @@
 	"spec_version" : 1,
 	"identifier"   : "KerbinSide",
 	"$kref"        : "#/ckan/kerbalstuff/77",
-	
+	"license"      : "BSD-3-clause",
 	"depends": [
         { "name": "KerbalKonstructs" }
     ]
