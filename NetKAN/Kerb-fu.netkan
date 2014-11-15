@@ -3,7 +3,10 @@
     "identifier"   : "Kerb-fu",
     "$kref"        : "#/ckan/kerbalstuff/275",
     "license"      : "CC-BY-NC-SA-4.0",
-    "recommends"   : [ { "name" : "MechJeb2" } ],
+    "recommends"   : [
+        { "name" : "CustomDesignSpacesuits-Steampunk" },
+        { "name" : "MechJeb2" }
+    ],
     "resources"    : {
         "homepage" : "http://forum.kerbalspaceprogram.com/threads/74625" 
     }
