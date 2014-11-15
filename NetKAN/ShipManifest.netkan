@@ -1,0 +1,16 @@
+{
+  "spec_version": 1,
+  "$kref": "#/ckan/kerbalstuff/261",
+  "identifier": "ShipManifest",
+  "release_status": "stable",
+  "resources": {
+    "homepage": "http://forum.kerbalspaceprogram.com/threads/62270",
+    "repository": "https://github.com/PapaJoesSoup/ShipManifest",
+    "x_curse": "http://kerbal.curseforge.com/plugins/220357-ship-manifest"
+  },
+  "suggests": [
+    { "name": "CLS" },
+    { "name": "Toolbar" },
+    { "name": "ModuleManager" }
+  ]
+}
