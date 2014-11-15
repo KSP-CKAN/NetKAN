@@ -7,5 +7,10 @@
             "file"       : "GameData/CrewFiles",
             "install_to" : "GameData"
         }
-    ]
+    ],
+	"resources" : {
+		"bugtracker"   : "https://github.com/Ippo343/CrewFiles/issues",
+		"repository"   : "https://github.com/Ippo343/CrewFiles",
+		"kerbalstuff"  : "https://kerbalstuff.com/mod/39"
+	}
 }
