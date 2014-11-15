@@ -1,0 +1,25 @@
+{
+	"spec_version": 1,
+	"identifier": "PartCatalog",
+	"ksp_version": "0.25",
+	"resources": 
+	{
+		"homepage": "http://forum.kerbalspaceprogram.com/threads/35018-0-25-PartCatalog-3-0-RC8-(2014-10-08)"
+	},
+	"name"    : "Part Catalog",
+	"license" : "CC-BY-SA-3.0",
+	"abstract": "The PartCatalog allows you categorize your parts into Tags in order to make your building experience less frustrating by reducing the time you're looking for that one part.",
+	"author"  : "BlackNecro",
+	"version" : "3.0_RC8",
+	"download": "https://dl.dropboxusercontent.com/u/11467249/PartCatalog/PartCatalog3.0_RC8.zip",
+	"comment" : "Hand packaged by Felger, if anything's wrong, it's my fault.",
+	"install" : 
+	[{
+		"file"		: "KSPLua",
+		"install_to": "GameData"
+	},
+	{
+		"file"		: "PartCatalog",
+		"install_to": "GameData"
+	}]
+}

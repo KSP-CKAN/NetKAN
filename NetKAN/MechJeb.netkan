@@ -1,0 +1,16 @@
+{
+	"spec_version": 1,
+	"identifier": "MechJeb2",
+	"ksp_version": "0.25",
+	"resources": 
+	{
+		"homepage": "http://forum.kerbalspaceprogram.com/threads/12384-PART-0-25-Anatid-Robotics-MuMech-MechJeb-Autopilot-v2-4-0"
+	},
+	"name": "MechJeb 2",
+	"license": "GPL-3.0",
+	"abstract": "Anatid Robotics and Multiversal Mechatronics proudly presents the first flight assistant autopilot: MechJeb",
+	"author": "sarbian",
+	"version": "2.4.0",
+	"download": "http://addons.curse.cursecdn.com/files/2216/245/MechJeb2-2.4.0.0.zip",
+	"comment" : "Hand packaged by Felger, if anything's wrong, it's my fault."
+}
