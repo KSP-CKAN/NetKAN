@@ -7,6 +7,10 @@
     "resources" : {
         "repository" : "https://github.com/ferram4/Ferram-Aerospace-Research"
     },
+	
+	"provides"  : [ "AerodynamicModel", "FAR" ],
+	"conflicts" : [ { "name" : "AerodynamicModel" } ],
+	
     "depends" : [ { "name" : "ModuleManager" } ],
     "install" : [
         {
