@@ -4,7 +4,10 @@
     "$kref"        : "#/ckan/kerbalstuff/249",
 	
 	"recommends": [
-        { "name": "Toolbar" },
-        { "name": "RasterPropMonitor" }
-    ]
+        { "name": "Toolbar" }
+    ],
+	
+	"suggests": [
+		{ "name": "RasterPropMonitor" }
+	]
 }
