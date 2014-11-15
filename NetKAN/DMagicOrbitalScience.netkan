@@ -1,0 +1,12 @@
+{
+    "spec_version" : 1,
+    "identifier"   : "DMagicOrbitalScience",
+    "$kref"        : "#/ckan/kerbalstuff/5",
+    "license"      : "BSD-3-clause",
+	"install": [
+        {
+            "file"       : "GameData/DMagic Orbital Science",
+            "install_to" : "GameData"
+        }
+    ]
+}

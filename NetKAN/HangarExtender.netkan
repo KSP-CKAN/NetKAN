@@ -1,0 +1,12 @@
+{
+    "spec_version" : 1,
+    "identifier"   : "HangarExtender",
+    "$kref"        : "#/ckan/kerbalstuff/18",
+    "license"      : "CC-BY-4.0",
+	"install": [
+        {
+            "file"       : "FShangarExtender",
+            "install_to" : "GameData"
+        }
+    ]
+}

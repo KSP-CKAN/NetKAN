@@ -1,0 +1,16 @@
+{
+  "spec_version": 1,
+  "$kref": "#/ckan/github/TriggerAu/KerbalAlarmClock",
+  "name": "Kerbal Alarm Clock",
+  "identifier": "KerbalAlarmClock",
+  "abstract": "Create reminder alarms to help manage flights and not warp past important times",
+  "license": "MIT",
+  "release_status": "stable",
+  "ksp_version": "0.25",
+  "resources": {
+    "homepage": "http://forum.kerbalspaceprogram.com/threads/24786-0-25-0-Kerbal-Alarm-Clock-v3-0-1-0-%28Oct-26%29",
+    "license": "https://github.com/TriggerAu/KerbalAlarmClock/blob/master/LICENSE",
+    "kerbalstuff": "https://kerbalstuff.com/mod/231/Kerbal%20Alarm%20Clock",
+    "x_curse": "http://kerbal.curseforge.com/ksp-mods/220289-kerbal-alarm-clock"
+  }
+}

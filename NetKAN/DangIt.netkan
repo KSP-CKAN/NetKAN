@@ -1,7 +1,7 @@
 {
     "spec_version"   : 1,
     "identifier"     : "DangIt",
-    "release_status" : "stable",
+    "release_status" : "development",
     "license"        : "GPL-3.0",
     "$kref"          : "#/ckan/kerbalstuff/7",
     "depends" : [
@@ -9,10 +9,10 @@
         { "name" : "ModuleManager" },
         { "name" : "CommunityResourcePack" }
     ],
-    "install" : [
-        {
-            "file"       : "GameData/DangIt",
-            "install_to" : "GameData"
-        }
-    ]
+	"resources" : {
+		"homepage"     : "http://forum.kerbalspaceprogram.com/threads/81794",
+		"bugtracker"   : "https://github.com/Ippo343/DangIt/issues",
+		"repository"   : "https://github.com/Ippo343/DangIt",
+		"kerbalstuff"  : "https://kerbalstuff.com/mod/7"
+	}
 }

@@ -1,0 +1,9 @@
+{
+    "spec_version" : 1,
+    "identifier"   : "Trajectories",
+    "$kref"        : "#/ckan/kerbalstuff/238",
+	
+	"depends": [
+        { "name": "ModuleManager" }
+    ]
+}
