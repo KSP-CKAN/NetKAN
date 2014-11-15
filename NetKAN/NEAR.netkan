@@ -4,5 +4,8 @@
     "$kref"          : "#/ckan/kerbalstuff/54",
 	"$vref" : "#/ckan/ksp-avc",
 	
+	"provides"  : [ "AerodynamicModel" ],
+	"conflicts" : [ { "name" : "AerodynamicModel" } ],
+	
     "depends" : [ { "name" : "ModuleManager" } ]
 }
