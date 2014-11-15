@@ -1,0 +1,19 @@
+{
+    "spec_version" : 1,
+    "identifier"   : "RoversNOthers",
+    "$kref"        : "#/ckan/kerbalstuff/336",
+	"install": [
+        {
+            "file"       : "GameData/Kerbice Group",
+            "install_to" : "GameData"
+        },
+		{
+            "file"       : "crafts/SPH",
+            "install_to" : "Ships"
+        },
+		{
+            "file"       : "crafts/VAB",
+            "install_to" : "Ships"
+        },
+	]
+}
