@@ -1,9 +1,0 @@
-{
-    "spec_version"	:	1,
-    "identifier"	:	"ProceduralFairings",
-    "$kref"			:	"#/ckan/github/rbray89/ActiveTextureManagement",
-    "name"			:	"Active Texture Management",
-    "abstract"		:	"This is a simple mod to reduce texture memory use by compressing/resizing them",
-    "license"		:	"CC-BY-3.0",
-    "ksp_version"	:	"0.25"
-}
