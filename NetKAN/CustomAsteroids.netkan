@@ -3,6 +3,7 @@
 	"identifier": "CustomAsteroids",
 	"$kref": "#/ckan/kerbalstuff/251",
 	"release_status": "stable",
+        "x_netkan_license_ok" : true,
 	"resources": {
 		"repository": "https://github.com/Starstrider42/Custom-Asteroids",
 		"bugtracker": "https://github.com/Starstrider42/Custom-Asteroids/issues",

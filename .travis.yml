@@ -1,7 +1,7 @@
 language: c
 
 install:
-    - sudo apt-get install python-demjson
+    - sudo apt-get install python-demjson libtest-most-perl libjson-any-perl
 
 script:
     - jsonlint -s -v NetKAN/*.netkan

@@ -5,6 +5,7 @@
 	"abstract": "Adds asteroids inside orbit of Jool",
 	"$kref": "#/ckan/kerbalstuff/251",
 	"release_status": "stable",
+        "x_netkan_license_ok" : true,
 	"depends": [ 
 		{
 			"name": "CustomAsteroids",
