@@ -1,0 +1,12 @@
+{
+    "spec_version" : 1,
+    "identifier"   : "KDEX",
+    "$kref"        : "#/ckan/kerbalstuff/337",  
+    "license"      : "CC-BY-NC-SA-3.0",
+    "install": [
+        {
+            "file"       : "GameData/masTerTorch",
+            "install_to" : "GameData"
+        }
+    ]
+}
