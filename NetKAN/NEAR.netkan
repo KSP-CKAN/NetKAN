@@ -6,7 +6,10 @@
 	"$vref" : "#/ckan/ksp-avc",
 	
 	"provides"  : [ "AerodynamicModel" ],
-	"conflicts" : [ { "name" : "AerodynamicModel" } ],
+	"conflicts" : [ 
+            { "name" : "AerodynamicModel" },
+            { "name" : "FerramAerospaceResearch" }
+        ],
 	
     "depends" : [ { "name" : "ModuleManager" } ]
 }
