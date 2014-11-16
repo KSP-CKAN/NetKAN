@@ -1,0 +1,11 @@
+{
+    "spec_version"   : 1,
+    "identifier"     : "AutoAsparagus",
+    "$kref"          : "#/ckan/kerbalstuff/87",
+    "$vref"          : "#/ckan/ksp-avc",
+    "license"        : "Apache-2.0",
+    "resources": {
+        "bugtracker" : "https://github.com/henrybauer/AutoAsparagus/issues",
+        "repository" : "https://github.com/henrybauer/AutoAsparagus"
+    }
+}
