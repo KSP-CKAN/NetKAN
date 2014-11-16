@@ -1,8 +1,10 @@
 {
     "spec_version" : 1,
-    "identifier"   : "RoversNOthers",
+    "identifier"   : "RoversNOthersSet3",
     "$kref"        : "#/ckan/kerbalstuff/336",
-    "license"      : "restricted",
+	
+	"license": "restricted",
+	
 	"install": [
         {
             "file"       : "GameData/Kerbice Group",
@@ -16,5 +18,10 @@
             "file"       : "crafts/VAB",
             "install_to" : "Ships"
         }
-    ]
+	],
+	
+	"suggests": [
+		{ "name": "RoversNOthersSet2" },
+		{ "name": "RoversNOthersSet3" }
+	]
 }
