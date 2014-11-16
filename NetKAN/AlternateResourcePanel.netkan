@@ -1,0 +1,12 @@
+{
+    "spec_version"   : 1,
+    "identifier"     : "AlternateResourcePanel",
+    "$kref"          : "#/ckan/kerbalstuff/195",
+    "ksp_version"    : "0.25",
+    "license"        : "MIT",
+    "install"        : [ {
+        "file"       : "KSPAlternateResourcePanel_2.6.1.0/GameData/TriggerTech",
+        "install_to" : "GameData",
+        "filter"     : "Flags"
+    } ]
+}
