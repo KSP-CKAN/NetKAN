@@ -1,0 +1,20 @@
+{
+    "spec_version"   : 1,
+    "identifier"     : "CIT-Util",
+    "name"           : "CIT Utils",
+    "abstract"       : "Caelum Ire Technologies shared utilities",
+    "$kref"          : "#/ckan/github/pjf/KSP-CIT-Util",
+    "ksp_version"    : "0.25",
+    "author"         : "marce",
+    "license"        : "CC-BY-NC-SA-4.0",
+    "resources"      : {
+        "homepage"   : "https://ksp.marce.at/",
+        "repository" : "https://github.com/marce155/KSP-CIT-Util"
+    },
+    "install" : [
+        {
+            "file"       : "CIT",
+            "install_to" : "GameData"
+        }
+    ]
+}

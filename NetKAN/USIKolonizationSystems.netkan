@@ -4,49 +4,43 @@
   "name": "USI Kolonization Systems (MKS/OKS)",
   "identifier": "USIKolonizationSystems",
   "abstract": "a series of interlocking modules for building long-term, self sustaining colonies on other planets and moons.",
-  "license": "CC BY-NC-SA 4.0",
+  "license": "CC-BY-NC-SA-4.0",
   "release_status": "stable",
   "ksp_version": "0.25",
   "install": [
     {
       "file": "GameData/UmbraSpaceIndustries",
       "install_to": "GameData"
-    },
-    {
-      "file": "GameData/CIT",
-      "install_to": "GameData"
     }
   ],
   "depends": [
     {
       "name": "FirespitterCore",
-      "min_version": "7.0.5398.27328",
-      "comment": "this is available in the zip, so maybe install and provide"
+      "min_version": "7.0.5398.27328"
     },
     {
       "name": "ModuleManager",
-      "min_version": "2.5.1",
-      "comment": "this is available in the zip, so maybe install and provide"
+      "min_version": "2.5.1"
     },
     {
       "name": "USITools",
-      "min_version": "0.2.4",
-      "comment": "this is available in the zip, so maybe install and provide"
+      "min_version": "0.2.4"
     },
     {
       "name": "Toolbar",
-      "min_version": "1.7.7",
-      "comment": "this is available in the zip, so maybe install and provide"
+      "min_version": "1.7.7"
     },
     {
       "name": "CommunityResourcePack",
-      "min_version": "0.2.3",
-      "comment": "this is available in the zip, so maybe install and provide"
+      "min_version": "0.2.3"
     },
     {
       "name": "ORSX",
-      "min_version": "0.1.3",
-      "comment": "this is available in the zip, so maybe install and provide"
+      "min_version": "0.1.3"
+    },
+    {
+      "name" : "CIT-Util",
+      "min_version" : "1.0.4"
     }
   ],
   "suggests": [
@@ -64,7 +58,6 @@
     }
   ],
   "provides": [
-    "CITUtil",
     "MKS",
     "OKS"
   ],
