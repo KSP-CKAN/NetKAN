@@ -1,8 +1,8 @@
 {
-    "spec_version" : 1.01,
+    "spec_version" : 1,
     "identifier"   : "CoherentContracts",
     "$kref"        : "#/ckan/kerbalstuff/333",
     "license"      : "BSD-3-clause"
     "depends" : [
-        { "name" : "ModuleManager" }
+        { "name" : "ModuleManager" },
 }
