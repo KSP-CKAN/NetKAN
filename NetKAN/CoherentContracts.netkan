@@ -1,5 +1,6 @@
 {
     "spec_version" : 1,
     "identifier"   : "CoherentContracts",
-    "$kref"        : "#/ckan/kerbalstuff/333"
+    "$kref"        : "#/ckan/kerbalstuff/333",
+    "license"      : "BSD-3-clause"
 }
