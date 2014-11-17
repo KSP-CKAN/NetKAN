@@ -1,0 +1,22 @@
+{
+    "spec_version" : 1,
+    "identifier" : "RP-0",
+    "name"       : "Realistic Progression Zero",
+    "abstract"   : "Realistic Progression Zero - The lightweight Realism Overhaul tech tree",
+    "license"    : "CC-BY-4.0",
+    "author"     : "RP-0 Group",
+    "$kref"      : "#/ckan/github/KSP-RO/RP-0",
+    "release_status" : "development",
+    "depends" : [
+        { "name" : "ModuleManager" } ,
+        { "name" : "RealismOverhaul" },
+        { "name" : "SXT" },
+        { "name" : "ProceduralFairings" },
+        { "name" : "CommunityTechTree" }
+    ],
+    "recommends" : [
+        { "name" : "ProceduralDyanmics" },
+        { "name" : "TweakScale" },
+        { "name" : "ProceduralParts" }
+    ]
+}
