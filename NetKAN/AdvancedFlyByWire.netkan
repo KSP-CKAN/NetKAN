@@ -40,5 +40,8 @@
     "depends" : [
         { "name" : "Toolbar" }
     ],
+    "conflicts" : [
+        { "name" : "AdvancedFlyByWire-linux" }
+    ],
     "x_netkan_license_ok" : true
 }
