@@ -9,14 +9,11 @@
 		{
 		    "file"       : "RFStockalike/GameData/RealFuels",
 		    "install_to" : "GameData"
-		},
-		{
-		    "file"       : "RFStockalike/GameData/ModuleRCSFX",
-		    "install_to" : "GameData"
 		}
 	],
 	"depends" : [
-		{ "name" : "RealFuels" }
+		{ "name" : "RealFuels" },
+		{ "name" : "ModuleRCSFX" }
 	],
 	"provides" : [ "RealFuels-Engine-Configs" ],
         "comment" : "Multiple configs can be installed; RO disables its engine configs if RFStockalike is detected. KSP-CKAN/NetKAN#55.",
