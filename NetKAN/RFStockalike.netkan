@@ -7,11 +7,11 @@
 	"license"      : "CC-BY-SA",
 	"install" : [
 		{
-		    "file"       : "GameData/RealFuels",
+		    "file"       : "RFStockalike/GameData/RealFuels",
 		    "install_to" : "GameData"
 		},
 		{
-		    "file"       : "GameData/ModuleRCSFX",
+		    "file"       : "RFStockalike/GameData/ModuleRCSFX",
 		    "install_to" : "GameData"
 		}
 	],
