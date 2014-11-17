@@ -1,0 +1,10 @@
+{
+    "spec_version" : 1,
+    "identifier"   : "NearFutureElectrical",
+    "$kref"        : "#/ckan/kerbalstuff/349",
+
+    "suggests": [
+        { "name" : "CommunityTechTree" }
+    ]
+
+}

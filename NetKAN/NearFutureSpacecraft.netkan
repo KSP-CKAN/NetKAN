@@ -1,0 +1,21 @@
+{
+    "spec_version" : 1,
+    "identifier"   : "NearFutureSpacecraft",
+    "$kref"        : "#/ckan/kerbalstuff/350",
+    "depends"      :  [
+        { "name" : "RasterPropMonitor" }
+    ],
+    "suggests"     : [
+        { "name" : "CommunityTechTree" }
+    ],
+    "install"      : [
+        { "file" : "GameData/NearFutureProps",
+          "install_to" : "GameData",
+          "comment" : "IVA props for RPM"
+        },
+        { "file" : "GameData/NearFutureSpacecraft",
+          "install_to" : "GameData"
+        }
+    ]
+
+}
