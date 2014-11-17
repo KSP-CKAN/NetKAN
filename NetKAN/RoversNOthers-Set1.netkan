@@ -1,6 +1,6 @@
 {
     "spec_version" : 1,
-    "identifier"   : "RoversNOthersSet1",
+    "identifier"   : "RoversNOthers-Set1",
     "$kref"        : "#/ckan/kerbalstuff/78",
 	
 	"license": "restricted",
@@ -13,7 +13,7 @@
 	],
 	
 	"suggests": [
-		{ "name": "RoversNOthersSet2" },
-		{ "name": "RoversNOthersSet3" }
+		{ "name": "RoversNOthers-Set1" },
+		{ "name": "RoversNOthers-Set2" }
 	]
 }
