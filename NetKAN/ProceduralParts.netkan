@@ -1,0 +1,9 @@
+{
+    "spec_version"	:	1,
+    "identifier"	:	"ProceduralParts",
+    "$kref"			:	"#/ckan/github/Swamp-Ig/ProceduralParts",
+    "name"			:	"Procedural Parts",
+    "abstract"		:	"ProceduralParts allows you to procedurally generate a number of different parts in a range of sizes and shapes.",
+    "license"		:	"CC-BY-3.0",
+    "ksp_version"	:	"0.25"
+}
