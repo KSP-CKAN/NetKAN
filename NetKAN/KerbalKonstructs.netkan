@@ -2,5 +2,12 @@
 	"spec_version" : 1,
 	"identifier"   : "KerbalKonstructs",
 	"$kref"        : "#/ckan/kerbalstuff/165",
-	"$vref" : "#/ckan/ksp-avc"
+	"$vref" : "#/ckan/ksp-avc",
+	
+	"install": [
+		{
+			"file": "GameData/medsouz",
+			"install_to": "GameData"
+		}
+	]
 }
