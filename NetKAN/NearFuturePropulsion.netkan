@@ -1,0 +1,16 @@
+{
+    "spec_version" : 1,
+    "identifier"   : "NearFuturePropulsion",
+    "$kref"        : "#/ckan/kerbalstuff/347",
+
+    "depends": [
+        { "name": "ModuleManager" },
+        { "name": "CrossFeedEnabler" }
+    ],
+    
+    "suggests": [
+        { "name" : "CommunityTechTree" }
+    ],
+    "license" : "CC-BY-NC-SA-3.0"
+
+}
