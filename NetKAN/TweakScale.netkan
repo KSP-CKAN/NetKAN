@@ -12,11 +12,5 @@
     ],
     "resources" : {
         "homepage" : "http://forum.kerbalspaceprogram.com/threads/80234"
-    },
-    "install" : [
-        {
-            "file"       : "Gamedata/TweakScale",
-            "install_to" : "GameData"
-        }
-    ]
+    }
 }
