@@ -1,0 +1,22 @@
+{
+    "spec_version" : 1,
+    "identifier"   : "SCANsat-dev",
+    "$kref"        : "#/ckan/github/S-C-A-N/SCANsat",
+    "license"      : "restricted",
+	"recommends": [
+        { "name": "Toolbar" }
+    ],
+
+    "name": "SCANsat Development",
+    "abstract": "SCANsat: Real Scanning, Real Science, Warp Speed!",
+
+    "release_status": "development",
+
+	"suggests": [
+		{ "name": "RasterPropMonitor" }
+	],
+
+	"conflicts": [
+		{ "name": "SCANsat" }
+	]
+}
