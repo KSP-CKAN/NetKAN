@@ -7,10 +7,23 @@
         { "name": "Toolbar" }
     ],
 
+    "_comment": "Some additional data that can be obtained from the kerbalstuff API, but not from github",
+    "author": "DMagic",
     "name": "SCANsat Development",
     "abstract": "SCANsat: Real Scanning, Real Science, Warp Speed!",
+    "ksp_version": "0.25",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/80369"
+    },
 
     "release_status": "development",
+
+    "install": [
+        {
+            "file"      : "GameData/SCANsat",
+            "install_to": "GameData"
+        }
+    ],
 
 	"suggests": [
 		{ "name": "RasterPropMonitor" }
