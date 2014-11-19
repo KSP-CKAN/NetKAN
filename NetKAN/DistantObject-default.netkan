@@ -1,0 +1,20 @@
+{
+    "spec_version": 1,
+    "identifier": "DistantObject-default",
+    $kref: "#/ckan/github/MOARdV/DistantObject",
+    "name": " Distant Object Enhancement default config",
+    "abstract": "Default planets colors",
+    "license": "CC-BY-4.0",
+    "ksp_version": "0.25",
+    "depends": [
+        {
+            "name": "DistantObject"
+        }
+    ],
+    "install": [{
+        "file": "GameData/DistantObject",
+        "install_to": "GameData",
+        "filter": ["DistantObject.dll", "Flare", "Icons"]
+    }],
+    "provides": ["DistantObject-config"]
+}
