@@ -16,5 +16,10 @@
         "install_to": "GameData",
         "filter": ["DistantObject.dll", "Flare", "Icons"]
     }],
-    "provides": ["DistantObject-config"]
+    "provides": ["DistantObject-config"],
+    "conflicts": [
+        {
+            "name": "DistantObject-config"
+        }
+    ]
 }
