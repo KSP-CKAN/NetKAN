@@ -1,0 +1,16 @@
+{
+    "spec_version" : 1,
+    "identifier"   : "BDAnimationModules",
+    "$kref"        : "#/ckan/github/BahamutoD/BDAnimationModules",
+    "name"         : "BahamutoD Animation Modules",
+    "abstract"     : "Animation modules plugin for KSP",
+    "license"      : "restricted",
+    "ksp_version"  : "0.25",
+	
+	"install": [
+		{
+			"file": "GameData/BahaSP",
+			"install_to": "GameData"
+		}
+	]
+}
