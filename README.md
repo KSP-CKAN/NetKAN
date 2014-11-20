@@ -6,4 +6,4 @@ The format of NetKAN files is that described in the [CKAN Spec](https://github.c
 
 To inflate a NetKAN file into a CKAN file, simply give it as an argument to the [`netkan.exe`](https://github.com/KSP-CKAN/CKAN/releases) executable. The same executable works on all systems (Mac/Linux/Windows), and requires mono 4.0 to run.
 
-All contributions to this repository *must* me made under a CC-0 license.
+All contributions to this repository *must* be made under a CC-0 license.
