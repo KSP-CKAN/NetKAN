@@ -1,0 +1,18 @@
+{
+    "spec_version" : 1,
+    "identifier"   : "BahamutoDynamicsPartsPack",
+    "$kref"        : "#/ckan/kerbalstuff/101",
+	
+	"depends": [
+		{ "name": "BDAnimationModules" }
+	],
+	
+	"install": [
+		{
+			"file": "BahaSP",
+			"install_to": "GameData",
+			"filter": "Plugins",
+			"comment": "Plugins is the folder where BDAnimationModules is installed"
+		}
+	]
+}
