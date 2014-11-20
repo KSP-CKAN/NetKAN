@@ -12,8 +12,6 @@
         "homepage"      : "http://forum.kerbalspaceprogram.com/threads/81537",
         "kerbalstuff"   : "https://kerbalstuff.com/mod/303"
     },
-    "depends" : [
-    ],
     "suggests" : [
         { "name" : "CommunityTechTree" }
     ],
@@ -23,5 +21,5 @@
             "install_to" : "GameData"
         }
     ],
-    "x_maintained_by": "Julien Rosa (eagleshift)"
+    "x_maintained_by": "eagleshift"
 }
