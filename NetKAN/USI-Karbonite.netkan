@@ -1,7 +1,7 @@
 {
     "spec_version"   : 1,
     "name"           : "Karbonite",
-    "identifier"     : "Karbonite",
+    "identifier"     : "USI-Karbonite",
     "$kref"          : "#/ckan/github/BobPalmer/Karbonite",
     "author"         : "RoverDude",
     "abstract"       : "A newly discovered mineral that has hydrocarbon-like properties and is perfect for processing into a fuel. It's easily mined from the surface, and can be found in liquid or gaseous forms on certain planets.",
@@ -12,7 +12,7 @@
         "homepage" : "http://forum.kerbalspaceprogram.com/threads/87335"
     },
     "depends" : [
-        { "name" : "USITools" },
+        { "name" : "USI-Tools" },
         { "name" : "CommunityResourcePack" },
         { "name" : "FirespitterCore" },
         { "name" : "ORSX" },
