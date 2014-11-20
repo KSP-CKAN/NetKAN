@@ -2,6 +2,7 @@
     "spec_version" : 1,
     "identifier"   : "BahamutoDynamicsPartsPack",
     "$kref"        : "#/ckan/kerbalstuff/101",
+	"license"	   : "CC-BY-SA",
 	
 	"depends": [
 		{ "name": "BDAnimationModules" }
