@@ -2,7 +2,7 @@
     "spec_version" : 1,
     "identifier"   : "BiggerLaunchpads",
     "$kref"        : "#/ckan/kerbalstuff/322",
-    "license"      : "unrestricted",
+    "license"      : "restricted",
     "install"      : [ {
         "file"       : "GameData/KerbiceBuildings",
         "install_to" : "GameData"
