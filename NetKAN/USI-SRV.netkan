@@ -1,0 +1,43 @@
+{
+    "spec_version"   : 1,
+    "name"           : "USI Survival Pack",
+    "identifier"     : "USI-SRV",
+    "$kref"          : "#/ckan/github/BobPalmer/SrvPack",
+    "$vref"          : "#/ckan/UmbraSpaceIndustries/SrvPack/ksp-avc",
+    "author"         : "RoverDude",
+    "abstract"       : "Allows you to remove asteroid mass and attach multiple reconfigurable storage tanks to the asteroid's surface.",
+    "license"        : "CC-BY-NC-SA",
+    "release_status" : "stable",
+    "ksp_version"    : "0.25",
+    "resources" : {
+        "homepage" : "http://forum.kerbalspaceprogram.com/threads/84359"
+    },
+    "depends" : [
+        {
+          "name": "FirespitterCore",
+          "min_version": "7.0.5398.27328"
+        },
+        {
+          "name": "ModuleManager",
+          "min_version": "2.5.1"
+        },
+        {
+          "name": "USI-Tools",
+          "min_version": "0.2.4"
+        },
+        {
+          "name": "CommunityResourcePack",
+          "min_version": "0.2.3"
+        },
+        {
+          "name": "ORSX",
+          "min_version": "0.1.3"
+        }
+    ],
+    "install" : [
+        {
+            "file"       : "Gamedata/UmbraSpaceIndustries",
+            "install_to" : "GameData"
+        }
+    ]
+}

@@ -1,9 +1,10 @@
 {
   "spec_version": 1,
   "$kref": "#/ckan/github/BobPalmer/MKS",
+  "$vref": "#/ckan/UmbraSpaceIndustries/Kolonization/ksp-avc",
   "name": "USI Kolonization Systems (MKS/OKS)",
-  "identifier": "UKS",
-  "abstract": "a series of interlocking modules for building long-term, self sustaining colonies on other planets and moons.",
+  "identifier": "USI-UKS",
+  "abstract": "a series of interlocking modules for building long-term, self sustaining colonies in orbit and on other planets and moons.",
   "license": "CC-BY-NC-SA-4.0",
   "release_status": "stable",
   "ksp_version": "0.25",
@@ -23,7 +24,7 @@
       "min_version": "2.5.1"
     },
     {
-      "name": "USITools",
+      "name": "USI-Tools",
       "min_version": "0.2.4"
     },
     {
