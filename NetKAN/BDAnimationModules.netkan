@@ -4,7 +4,7 @@
     "$kref"        : "#/ckan/github/BahamutoD/BDAnimationModules",
     "name"         : "BahamutoD Animation Modules",
     "abstract"     : "Animation modules plugin for KSP",
-    "license"      : "restricted",
+    "license"      : "CC-BY-SA-3.0",
     "ksp_version"  : "0.25",
 	
 	"install": [
