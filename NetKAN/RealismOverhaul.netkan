@@ -14,7 +14,7 @@
 		{ "name" : "ModuleManager" },
 		{ "name" : "ModuleRCSFX" },
 		{ "name" : "RealFuels" },
-		{ "name" : "RealSolarSystem" },
+		{ "name" : "RealSolarSystem" }
     ],
     "recommends" : [
 		{ "name" : "ActiveTextureManagement" },
@@ -65,7 +65,7 @@
 		{ "name" : "SovietEngines" },
 		{ "name" : "UniversalStorageCore" },
 		{ "name" : "UniversalStorageKAS" },
-		{ "name" : "UniversalStorageTAC" },
+		{ "name" : "UniversalStorageTAC" }
 	],
     "provides" : [ "RealFuels-Engine-Configs" ],
     "resources" : {
