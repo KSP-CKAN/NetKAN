@@ -4,12 +4,12 @@
     "identifier"     : "USI-EXP",
     "$kref"          : "#/ckan/github/BobPalmer/ExplorationPack",
     "author"         : "RoverDude",
-    "abstract"       : "Allows you to remove asteroid mass and attach multiple reconfigurable storage tanks to the asteroid's surface.",
+    "abstract"       : "PackRat Rover and parts geared towards planetary exploration",
     "license"        : "CC-BY-NC-SA",
     "release_status" : "stable",
     "ksp_version"    : "0.25",
     "resources" : {
-        "homepage" : "http://forum.kerbalspaceprogram.com/threads/91790"
+        "homepage" : "http://forum.kerbalspaceprogram.com/threads/86695"
     },
     "depends" : [
         {
