@@ -1,0 +1,21 @@
+{
+  "spec_version" : 1,
+  "identifier"   : "KlockheedMartian-Gimbal",
+  "name"         : "Klockheed Martian General Plugin Functions - Gimbal module",
+  "version"      : "2.1.2",
+  "author"       : "dtobi",
+  "license"      : "CC-BY-NC-ND-3.0",
+  "$kref"        : "#/ckan/kerbalstuff/132",
+  "resources" : {
+    "repository" : "https://github.com/dtobi/km_Gimbal"
+  },
+  "conflicts" : [
+    { "name" : "KlockheedMartian" }
+  ],
+  "install" : [
+    {
+      "file"       : "GameData/Klockheed_Martian",
+      "install_to" : "GameData"
+    }
+  ]
+}
