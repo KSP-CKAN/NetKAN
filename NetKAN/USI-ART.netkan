@@ -3,7 +3,6 @@
     "name"           : "USI Asteroid Recycling Technologies",
     "identifier"     : "USI-ART",
     "$kref"          : "#/ckan/github/BobPalmer/ART",
-    "$vref"          : "#/ckan/ART/ksp-avc",
     "author"         : "RoverDude",
     "abstract"       : "Allows you to remove asteroid mass and attach multiple reconfigurable storage tanks to the asteroid's surface.",
     "license"        : "CC-BY-NC-SA",

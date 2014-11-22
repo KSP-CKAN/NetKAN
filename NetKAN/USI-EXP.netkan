@@ -3,7 +3,6 @@
     "name"           : "USI Exploration Pack",
     "identifier"     : "USI-EXP",
     "$kref"          : "#/ckan/github/BobPalmer/ExplorationPack",
-    "$vref"          : "#/ckan/UmbraSpaceTechnologies/ExpPack/ksp-avc",
     "author"         : "RoverDude",
     "abstract"       : "Allows you to remove asteroid mass and attach multiple reconfigurable storage tanks to the asteroid's surface.",
     "license"        : "CC-BY-NC-SA",
