@@ -1,7 +1,7 @@
 {
     "spec_version"   : 1,
     "name"           : "KarbonitePlus",
-    "identifier"     : "USI-KarbonitePlus",
+    "identifier"     : "KarbonitePlus",
     "$kref"          : "#/ckan/github/BobPalmer/KarbonitePlus",
     "author"         : "RoverDude",
     "abstract"       : "New resources and parts for Karbonite, including the resource Karborundum",
@@ -12,8 +12,10 @@
         "homepage" : "http://forum.kerbalspaceprogram.com/threads/93054"
     },
     "depends" : [
-        { "name" : "USI-Karbonite" }
+        { "name" : "Karbonite" }
     ],
+    "comment" : "This may be renamed to USI-KarbonitePlus in the future",
+    "provides" : [ "USI-KarbonitePlus" ],
     "install" : [
         {
             "file"       : "GameData/UmbraSpaceIndustries",
