@@ -38,20 +38,14 @@
 		{ "name" : "TweakScale" }
     ],
 	"suggests"   : [
-		{ "name" : "6S_Service_Compartments" },
+		{ "name" : "Service-Compartments-6S" },
 		{ "name" : "DMagicOrbitalScience" },
 		{ "name" : "FASA" },
 		{ "name" : "KAS" },
 		{ "name" : "KWRocketry" },
 		{ "name" : "LazTekSpaceXExploration" },
-		{ "name" : "LazTekSpaceXExplorationHD" },
-		{ "name" : "LazTekSpaceXExplorationLR" },
 		{ "name" : "LazTekSpaceXHistoric" },
-		{ "name" : "LazTekSpaceXHistoricHD" },
-		{ "name" : "LazTekSpaceXHistoricLR" },
 		{ "name" : "LazTekSpaceXLaunch" },
-		{ "name" : "LazTekSpaceXLaunchHD" },
-		{ "name" : "LazTekSpaceXLaunchLR" },
 		{ "name" : "NearFutureConstruction" },
 		{ "name" : "NearFutureElectric" },
 		{ "name" : "NearFuturePropulsion" },
@@ -63,9 +57,9 @@
 		{ "name" : "RLA-Stockalike" },
 		{ "name" : "RocketdyneF-1" },
 		{ "name" : "SovietEngines" },
-		{ "name" : "UniversalStorageCore" },
-		{ "name" : "UniversalStorageKAS" },
-		{ "name" : "UniversalStorageTAC" }
+		{ "name" : "UniversalStorage" },
+		{ "name" : "UniversalStorage-KAS" },
+		{ "name" : "UniversalStorage-TAC" }
 	],
     "provides" : [ "RealFuels-Engine-Configs" ],
     "resources" : {
