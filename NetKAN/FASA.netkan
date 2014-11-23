@@ -4,14 +4,10 @@
 	"ksp_version"	:   "0.25",
 	"$kref"			:	"#/ckan/kerbalstuff/27",
 	"license" : "restricted",
+	"depends" : [ { "name" : "RasterPropMonitor"} ],
 	"install" : [
 	{
 		"file"		:	"GameData/FASA",
 		"install_to":	"GameData"
-	},
-	{
-		"file"		:	"GameData/JSI",
-		"install_to":	"GameData",
-		"comment"	:	"Raster Prop Monitor Configs for FASA"
-	}]
+	}
 }
