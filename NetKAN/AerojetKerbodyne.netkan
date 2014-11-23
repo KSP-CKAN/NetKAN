@@ -12,7 +12,7 @@
     "depends" : [
         { "name" : "FirespitterCore" },
         { "name" : "TweakScale" },
-        { "name" : "VirginKalactic-NodeToggle" },
+        { "name" : "VirginKalactic-NodeToggle" }
                 ],
     "recommends" : [
         { "name" : "SmokeScreen" }
