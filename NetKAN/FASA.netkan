@@ -4,7 +4,7 @@
 	"ksp_version"	:   "0.25",
 	"$kref"			:	"#/ckan/kerbalstuff/27",
 	"license" : "restricted",
-	"depends" : [ { "name" : "RasterPropMonitor"} ],
+    	"depends" : [ { "name" : "RasterPropMonitor" } ],
 	"install" : [
 	{
 		"file"		:	"GameData/FASA",
