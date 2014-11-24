@@ -9,6 +9,7 @@
     "release_status" : "stable",
     "depends" : [
 		{ "name" : "AJE" },
+		{ "name" : "CrossFeedEnabler" },
 		{ "name" : "FerramAerospaceResearch" },
 		{ "name" : "KerbalJointReinforcement" },
 		{ "name" : "ModuleManager" },
@@ -19,7 +20,6 @@
     "recommends" : [
 		{ "name" : "ActiveTextureManagement" },
 		{ "name" : "ConnectedLivingSpace" },
-		{ "name" : "CrossFeedEnabler" },
 		{ "name" : "DeadlyReentry" },
 		{ "name" : "EngineIgnitor" },
 		{ "name" : "FShangarExtender" },
