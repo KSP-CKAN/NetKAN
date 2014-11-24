@@ -9,6 +9,7 @@
     "release_status" : "stable",
     "depends" : [
 		{ "name" : "AJE" },
+		{ "name" : "CrossFeedEnabler" },
 		{ "name" : "FerramAerospaceResearch" },
 		{ "name" : "KerbalJointReinforcement" },
 		{ "name" : "ModuleManager" },
@@ -19,7 +20,6 @@
     "recommends" : [
 		{ "name" : "ActiveTextureManagement" },
 		{ "name" : "ConnectedLivingSpace" },
-		{ "name" : "CrossFeedEnabler" },
 		{ "name" : "DeadlyReentry" },
 		{ "name" : "EngineIgnitor" },
 		{ "name" : "FShangarExtender" },
@@ -42,6 +42,8 @@
     ],
 	"suggests"   : [
 		{ "name" : "Service-Compartments-6S" },
+		{ "name" : "AIESAerospace" },
+		{ "name" : "ALCOR" },
 		{ "name" : "DMagicOrbitalScience" },
 		{ "name" : "FASA" },
 		{ "name" : "KAS" },
@@ -54,10 +56,11 @@
 		{ "name" : "NearFuturePropulsion" },
 		{ "name" : "NearFutureSolar" },
 		{ "name" : "NearFutureSpacecraft" },
+		{ "name" : "PorkjetHabitats" },
 		{ "name" : "RLA-Stockalike" },
 		{ "name" : "RocketdyneF-1" },
-		{ "name" : "SXT" },
 		{ "name" : "SovietEngines" },
+		{ "name" : "SXT" },
 		{ "name" : "UniversalStorage" },
 		{ "name" : "UniversalStorage-KAS" },
 		{ "name" : "UniversalStorage-TAC" }
