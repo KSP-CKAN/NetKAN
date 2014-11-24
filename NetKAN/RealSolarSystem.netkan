@@ -9,6 +9,7 @@
     "release_status" : "stable",
     "depends" : [
         { "name" : "RSSTextures" },
+        { "name" : "DDSLoader" },
         { "name" : "ModuleManager", "min_version" : "2.5.0" }
     ],
     "recommends" : [
