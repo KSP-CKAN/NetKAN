@@ -1,0 +1,17 @@
+{
+	"spec_version": 1,
+	"identifier": "UniversalStorage-TAC",
+	"$kref"		: "#/ckan/kerbalstuff/364",
+	"license"   : "restricted",
+    "depends" : [
+        { "name" : "UniversalStorage" },
+        { "name" : "TACLS" }
+    ],
+	"install": [
+		{
+            "file"       : "UniversalStorage",
+            "install_to" : "GameData",
+			"filter"	 : "US License.pdf"
+        }
+    ]
+}

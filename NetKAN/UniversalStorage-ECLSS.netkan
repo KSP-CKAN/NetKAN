@@ -1,0 +1,17 @@
+{
+	"spec_version": 1,
+	"identifier": "UniversalStorage-ECLSS",
+	"$kref"		: "#/ckan/kerbalstuff/366",
+	"license"   : "restricted",
+    "depends" : [
+        { "name" : "UniversalStorage" },
+        { "name" : "ECLSS" }
+    ],
+	"install": [
+		{
+            "file"       : "UniversalStorage",
+            "install_to" : "GameData",
+			"filter"	 : "US License.pdf"
+        }
+    ]
+}

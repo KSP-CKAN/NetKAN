@@ -1,0 +1,17 @@
+{
+	"spec_version": 1,
+	"identifier": "UniversalStorage-SNACKS",
+	"$kref"		: "#/ckan/kerbalstuff/368",
+	"license"   : "restricted",
+    "depends" : [
+        { "name" : "UniversalStorage" },
+        { "name" : "SNACKS" }
+    ],
+	"install": [
+		{
+            "file"       : "UniversalStorage",
+            "install_to" : "GameData",
+			"filter"	 : "US License.pdf"
+        }
+    ]
+}

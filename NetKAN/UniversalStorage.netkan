@@ -1,0 +1,20 @@
+{
+	"spec_version": 1,
+	"identifier": "UniversalStorage",
+	"$kref"		: "#/ckan/kerbalstuff/250",
+	"license"   : "restricted",	
+	"depends" : [ 	{	"name" 	: "USITools" },
+					{	"name"	: "ModuleManager" }
+				],				
+    "install": [
+        {
+            "file"       : "PartCatalog",
+            "install_to" : "GameData",
+            "comment"    : "PartCatalog Data for Universal Storage"
+        },
+        {
+            "file"       : "UniversalStorage",
+            "install_to" : "GameData"
+        }
+    ]
+}

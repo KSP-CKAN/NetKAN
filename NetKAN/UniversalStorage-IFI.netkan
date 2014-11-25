@@ -1,0 +1,17 @@
+{
+	"spec_version": 1,
+	"identifier": "UniversalStorage-IFI",
+	"$kref"		: "#/ckan/kerbalstuff/367",
+	"license"   : "restricted",
+    "depends" : [
+        { "name" : "UniversalStorage" },
+        { "name" : "IFI-LifeSupport" }
+    ],
+	"install": [
+		{
+            "file"       : "UniversalStorage",
+            "install_to" : "GameData",
+			"filter"	 : "US License.pdf"
+        }
+    ]
+}
