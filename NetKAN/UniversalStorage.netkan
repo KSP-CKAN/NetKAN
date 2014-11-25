@@ -2,10 +2,10 @@
 	"spec_version": 1,
 	"identifier": "UniversalStorage",
 	"$kref"		: "#/ckan/kerbalstuff/250",
-	"license": "CC-BY-SA",
+	"license"   : "restricted",	
 	"depends" : [ 	{	"name" 	: "USITools" },
 					{	"name"	: "ModuleManager" }
-				],
+				],				
     "install": [
         {
             "file"       : "PartCatalog",

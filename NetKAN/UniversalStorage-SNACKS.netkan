@@ -2,7 +2,7 @@
 	"spec_version": 1,
 	"identifier": "UniversalStorage-SNACKS",
 	"$kref"		: "#/ckan/kerbalstuff/368",
-	"license": "CC-BY-SA",
+	"license"   : "restricted",
     "depends" : [
         { "name" : "UniversalStorage" },
         { "name" : "SNACKS" }

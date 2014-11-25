@@ -2,7 +2,7 @@
 	"spec_version": 1,
 	"identifier": "UniversalStorage-TAC",
 	"$kref"		: "#/ckan/kerbalstuff/364",
-	"license": "CC-BY-SA",
+	"license"   : "restricted",
     "depends" : [
         { "name" : "UniversalStorage" },
         { "name" : "TACLS" }
