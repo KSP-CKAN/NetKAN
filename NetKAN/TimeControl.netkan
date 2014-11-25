@@ -1,0 +1,16 @@
+{
+    "spec_version"   : 1,
+    "identifier"     : "TimeControl",
+    "$kref"          : "#/ckan/kerbalstuff/21",
+    "license"        : "MIT",
+    "release_status" : "stable",
+    "resources" : {
+        "repository" : "https://github.com/Xaiier/TimeControl"
+    },
+    "install" : [
+        {
+            "file"       : "TimeControl",
+            "install_to" : "GameData"
+        }
+    ]
+}
