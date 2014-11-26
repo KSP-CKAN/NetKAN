@@ -1,0 +1,9 @@
+{
+    "spec_version" : 1,
+    "identifier"   : "notes",
+    "$kref"        : "#/ckan/github/hashashin/ksp_notes",
+    "name"         : "Notepad",
+    "abstract"     : "Adds an ingame notepad",
+    "license"      : "GPL-3.0",
+    "ksp_version"  : "0.25"
+}
