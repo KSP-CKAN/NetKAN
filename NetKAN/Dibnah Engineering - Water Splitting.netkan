@@ -1,0 +1,15 @@
+{
+    "spec_version" : 1,
+    "identifier"   : "WaterSplitting",
+    "$kref"        : "#/ckan/github/Deadpan110/Dibnah-Engineering",
+    "name"         : "Dibnah Engineering - Water Splitting",
+    "abstract"     : "Converts Water into Oxygen and Hydrogen using Electroliser and Hydrogen Container with compressor",
+    "license"      : "CC-BY-NC-SA-3.0",
+    "ksp_version"  : "0.25",
+    "install": [
+        {
+            "file"       : "GameData/DibnahEngineering/WaterSplitting",
+            "install_to" : "GameData/DibnahEngineering"
+        }
+    ]
+}
