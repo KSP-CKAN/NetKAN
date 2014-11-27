@@ -1,17 +1,13 @@
 {
     "spec_version" : 1,
-    "identifier"   : "StationPartsExpansion",
+    "identifier"   : "NearFutureProps",
     "$kref"        : "#/ckan/kerbalstuff/351",
     "license"      : "CC-BY-NC-SA-4.0",
     "install" : [
         {
-            "file"       : "GameData/StationPartsExpansion",
+            "file"       : "GameData/NearFutureProps",
             "install_to" : "GameData"
         }
-                ],
-    "depends" : [
-        { "name" : "RasterPropMonitor-Core" },
-        { "name" : "NearFutureProps" }
                 ],
  "suggests"     : [
         { "name" : "CommunityTechTree" }
