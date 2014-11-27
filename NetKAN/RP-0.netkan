@@ -18,5 +18,17 @@
         { "name" : "ProceduralDynamics" },
         { "name" : "TweakScale" },
         { "name" : "ProceduralParts" }
+    ],
+    "provides"  : [ "FinePrint-Config" ],
+    "conflicts" : [ { "name" : "FinePrint-Config" } ],
+    "install" : [
+        {
+            "file"       : "GameData/RP-0",
+            "install_to" : "GameData"
+        },
+        {
+            "file"       : "GameData/FinePrint",
+            "install_to" : "GameData"
+        }
     ]
 }
