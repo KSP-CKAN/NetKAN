@@ -1,0 +1,9 @@
+{
+    "spec_version" : 1,
+    "identifier"   : "Pilot Assistant",
+    "$kref"        : "#/ckan/github/Crzyrndm/Pilot-Assistant",
+    "name"         : "Pilot Assistant",
+    "abstract"     : "Atmospheric piloting aids",
+    "license"      : "CC-BY-NC-SA-4.0",
+    "ksp_version"  : "0.25"
+}

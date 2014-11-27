@@ -1,0 +1,20 @@
+{
+    "spec_version" : 1,
+    "identifier"   : "ModifiedIVA",
+    "$kref"        : "#/ckan/kerbalstuff/252",
+   // "license"      : "CC-BY-NC-ND-4.0",
+    "install" : [
+        {
+            "file"       : "GameData/AKI/ModifiedIVA",
+            "install_to" : "GameData"
+        }
+                ],
+    "depends" : [
+        { "name" : "ModuleManager" },
+        { "name" : "RasterPropMonitor" },
+        { "name" : "" }
+                ],
+    "recommends" : [
+        { "name" : "SXT" }
+                   ]
+}
