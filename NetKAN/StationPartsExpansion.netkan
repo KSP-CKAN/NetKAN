@@ -10,7 +10,8 @@
         }
                 ],
     "depends" : [
-        { "name" : "RasterPropMonitor-Core" }
+        { "name" : "RasterPropMonitor-Core" },
+        { "name" : "NearFutureProps" }
                 ],
  "suggests"     : [
         { "name" : "CommunityTechTree" }
