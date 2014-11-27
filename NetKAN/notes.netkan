@@ -5,5 +5,8 @@
     "name"         : "Notepad",
     "abstract"     : "Adds an ingame notepad",
     "license"      : "GPL-3.0",
-    "ksp_version"  : "0.25"
+    "ksp_version"  : "0.25",
+    "resources"    : {
+        "homepage" : "http://forum.kerbalspaceprogram.com/threads/55625"
+    }
 }
