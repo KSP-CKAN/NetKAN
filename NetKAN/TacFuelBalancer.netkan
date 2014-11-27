@@ -3,6 +3,7 @@
     "identifier"   : "TacFuelBalancer",
     "$kref"        : "#/ckan/github/taraniselsu/TacFuelBalancer",
     "name"         : "TAC Fuel Balancer",
+    "author"       : "Taranis Elsu",
     "abstract"     : "It transfers, it balances, it mixes, it stirs!",
     "license"      : "CC-BY-NC-SA-3.0",
     "ksp_version"  : "0.25",
