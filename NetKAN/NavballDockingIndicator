@@ -1,0 +1,9 @@
+{
+    "spec_version" : 1,
+    "identifier"   : "NavballDockingIndicator",
+    "$kref"        : "#/ckan/github/mic-e/kspnavballdockingalignmentindicator",
+    "name"         : "Simple Docking Indicator by mic_e",
+    "abstract"     : "Provides a simple navball indicator that is useful for docking",
+    "license"      : "GPL-3.0",
+    "ksp_version"  : "0.25"
+}
