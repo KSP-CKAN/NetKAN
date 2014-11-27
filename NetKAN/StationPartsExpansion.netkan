@@ -1,0 +1,18 @@
+{
+    "spec_version" : 1,
+    "identifier"   : "StationPartsExpansion",
+    "$kref"        : "#/ckan/kerbalstuff/351",
+    "license"      : "CC-BY-NC-SA-4.0",
+    "install" : [
+        {
+            "file"       : "GameData/StationPartsExpansion",
+            "install_to" : "GameData"
+        }
+                ],
+    "depends" : [
+        { "name" : "RasterPropMonitor-Core" }
+                ],
+ "suggests"     : [
+        { "name" : "CommunityTechTree" }
+    ]
+}
