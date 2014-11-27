@@ -1,0 +1,15 @@
+{
+    "spec_version" : 1,
+    "identifier"   : "NearFutureProps",
+    "$kref"        : "#/ckan/kerbalstuff/351",
+    "license"      : "CC-BY-NC-SA-4.0",
+    "install" : [
+        {
+            "file"       : "GameData/NearFutureProps",
+            "install_to" : "GameData"
+        }
+                ],
+ "suggests"     : [
+        { "name" : "CommunityTechTree" }
+    ]
+}
