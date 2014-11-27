@@ -1,0 +1,14 @@
+{
+ "spec_version"   : 1,
+ "identifier"     : "NavballDockingIndicator",
+ "$kref"          : "#/ckan/github/mic-e/kspnavballdockingalignmentindicator",
+ "name"           : "Simple Docking Indicator by mic_e",
+ "author"         : "mic_e"
+ "abstract"       : "Provides a simple navball indicator that is useful for docking",
+ "license"        : "GPL-3.0",
+ "ksp_version"    : "0.25",
+ "resources"      : {
+           "homepage"   : "http://forum.kerbalspaceprogram.com/threads/54303-0-25-Navball-docking-alignment-indicator-v4",
+           "repository" : "https://github.com/mic-e/kspnavballdockingalignmentindicator"
+                     }
+}
