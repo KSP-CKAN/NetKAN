@@ -1,0 +1,20 @@
+{
+    "spec_version"	:	1.2,
+    "identifier"	:	"ProceduralFairingsCore",
+    "$kref"			:	"#/ckan/github/e-dog/ProceduralFairings",
+    "name"			:	"Procedural Fairings Plugin",
+    "abstract"		:	"Fairings that automatically reshape for any attached payload",
+    "license"		:	"CC-BY-3.0",
+    "ksp_version"	:	"0.25",
+	
+	install: [
+		{
+			"file": "GameData/ProceduralFairings/ProceduralFairings.dll",
+			"install_to": "GameData/ProceduralFairings"
+		},
+		{
+			"file": "GameData/ProceduralFairings/KSPAPIExtensions.dll",
+			"install_to": "GameData/ProceduralFairings"
+		}
+	]
+}
