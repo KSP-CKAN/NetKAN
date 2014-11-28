@@ -1,6 +1,10 @@
 {
     "spec_version" : 1,
     "identifier"   : "NearFutureProps",
+    "name"         : "Near Future Props",
+    "abstract"     : "Props used in Near Future Ships and Stockalike Station Parts Expansion by Nertea",
+    "version"      : "0.3.1",
+    "author"       : "Nertea",
     "$kref"        : "#/ckan/kerbalstuff/351",
     "license"      : "CC-BY-NC-SA-4.0",
     "install" : [
