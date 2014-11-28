@@ -1,0 +1,12 @@
+{
+    "spec_version" : 1,
+    "identifier"   : "ResourceOverview",
+    "$kref"        : "#/ckan/kerbalstuff/186",
+    "license"      : "CC-BY-SA-4.0",
+      "install" : [
+       {
+           "file"      : "ResourceOverview_1.0.1.1",
+          "install_to" : "GameData"
+       }
+                ]
+}
