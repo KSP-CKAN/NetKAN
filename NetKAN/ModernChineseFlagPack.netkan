@@ -1,0 +1,13 @@
+{
+    "spec_version" : 1,
+    "identifier"   : "ModernChineseFlagPack",
+    "$kref"        : "#/ckan/kerbalstuff/343",
+    "license"      : "restricted",
+    "install" : [
+        {
+            "file"       : "Bydysawd",
+            "install_to" : "GameData",
+            "filter"     : [ ".DS_Store", "Koumintang:Navy.png" ]
+        }
+    ]
+}
