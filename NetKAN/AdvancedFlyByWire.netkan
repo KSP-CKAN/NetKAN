@@ -30,11 +30,6 @@
         {
             "file"       : "x86/GameData/ksp-advanced-flybywire",
             "install_to" : "GameData"
-        },
-        {
-            "file"          : "x86/GameData/000_Toolbar",
-            "install_to"    : "GameData",
-            "filter_regexp" : "(?<!img_buttonAdvancedFlyByWire.png)$"
         }
     ],
     "depends" : [
