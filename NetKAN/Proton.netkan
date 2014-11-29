@@ -1,0 +1,11 @@
+{
+	"spec_version"	:	1,
+	"identifier"	:	"Proton",
+	"license"		:	"restricted",
+	"$kref"			:	"#/ckan/kerbalstuff/373",
+	"install" : [
+	{
+		"file"		:	"SovietPack",
+		"install_to":	"GameData"
+	}]
+}
