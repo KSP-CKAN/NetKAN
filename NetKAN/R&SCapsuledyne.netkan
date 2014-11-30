@@ -1,0 +1,16 @@
+{
+    "spec_version" : 1,
+    "name"         : "Taurus HCV - 3.75 m Stock-ish Crew Pod",
+    "identifier"   : "R&SCapsuledyne",
+    "$kref"        : "#/ckan/kerbalstuff/13",
+    "license"      : "CC-BY-SA-3.0",
+	"install" : [
+        {
+            "file"       : "GameData/R&SCapsuledyne",
+            "install_to" : "GameData"
+        }
+                ],
+    "depends" : [
+        { "name" : "BDAnimationModules" }
+				]
+}
