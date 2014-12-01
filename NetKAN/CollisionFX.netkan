@@ -1,0 +1,12 @@
+{
+    "spec_version" : 1,
+    "identifier"   : "CollisionFX",
+    "$kref"        : "#/ckan/kerbalstuff/381",
+    "license"      : "GPL-2.0",
+    "install" : [
+        {
+            "file"       : "GameData/CollisionFX",
+            "install_to" : "GameData"
+        }
+    ]
+}
