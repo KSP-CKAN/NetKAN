@@ -1,0 +1,14 @@
+{
+    "spec_version": 1,
+    "identifier": "ContractConfigurator",
+    "$kref": "#/ckan/github/jrossignol/ContractConfigurator",
+    "name": "Contract Configurator",
+    "abstract": "A config-file based solution for creating new contracts!",
+    "license": "CC-BY-NC-SA-4.0",
+    "release_status": "stable",
+    "ksp_version": "0.25",
+    "description": "A config-file based solution for creating new contracts!",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/101604"
+    }
+}
