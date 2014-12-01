@@ -1,0 +1,16 @@
+{
+	"spec_version"  : 1,
+	"identifier"    : "RealEffects",
+	"$kref"         : "#/ckan/kerbalstuff/375",
+	"license"       : "CC-BY-NC-SA-4.0",
+    "depends" : [
+        { "name" : "ModuleManager", "min_version" : "2.5.1" },
+		{ "name" : "SmokeScreen", "min_version" : "2.5.0" }
+    ],
+	"install" : [
+        {
+            "file"       : "GameData/RealEffects",
+            "install_to" : "GameData"
+        }
+    ]
+}

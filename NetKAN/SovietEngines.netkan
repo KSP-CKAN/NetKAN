@@ -1,0 +1,11 @@
+{
+	"spec_version"	:	1,
+	"identifier"	:	"SovietEngines",
+	"$kref"		:	"#/ckan/kerbalstuff/374",
+	"license"	:	"restricted",
+	"install" : [
+	{
+		"file"	:	"BobCatind",
+		"install_to":	"GameData"
+	}]
+}
