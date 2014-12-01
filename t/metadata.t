@@ -20,6 +20,12 @@ foreach my $shortname (sort keys %files) {
         "$shortname.netkan identifer should match filename"
     );
 
+    like(
+        $metadata->{identifier},
+        qr{^[A-Za-z][A-Z-a-z0-9-]*$},
+        "CKAN identifers must consist only of letters, numbers, and dashes, and must start with a letter."
+    );
+
     my $mod_license = $metadata->{license} // "(none)";
 
     ok(
