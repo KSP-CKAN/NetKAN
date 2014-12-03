@@ -3,5 +3,7 @@
     "identifier"   : "Achievements",
     "$kref"        : "#/ckan/kerbalstuff/383",
     "license"      : "GPL-3.0",
-    "version"      : "1.7.0"
+    "depends": [
+        { "name": "Toolbar" }
+    ]
 }
