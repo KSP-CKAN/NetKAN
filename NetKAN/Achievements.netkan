@@ -1,0 +1,9 @@
+{
+    "spec_version" : 1,
+    "identifier"   : "Achievements",
+    "$kref"        : "#/ckan/kerbalstuff/383",
+    "license"      : "GPL-3.0",
+    "depends": [
+        { "name": "Toolbar" }
+    ]
+}
