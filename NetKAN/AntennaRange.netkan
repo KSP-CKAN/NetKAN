@@ -2,5 +2,20 @@
     "spec_version"  : 1,
     "identifier"    : "AntennaRange",
     "$kref"         : "#/ckan/kerbalstuff/254",
-    "license"       : "BSD-3-clause"
+    "license"       : "BSD-3-clause",
+    "install": [
+    {
+      "file": "GameData/AntennaRange",
+      "install_to": "GameData"
+    },
+    {
+      "file": "GameData/ToadicusTools",
+      "install_to": "GameData"
+    }
+    ],
+    "depends": [
+        {
+         "name": "ModuleManager"
+     }
+    ]
 }
