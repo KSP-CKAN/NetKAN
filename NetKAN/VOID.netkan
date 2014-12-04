@@ -7,10 +7,9 @@
         {
             "file": "GameData/VOID",
             "install_to": "GameData"
-        },
-        {
-            "file": "GameData/ToadicusTools",
-            "install_to": "GameData"
         }
+    ],
+    "depends": [
+        { "name": "ToadicusTools" }
     ]
 }
