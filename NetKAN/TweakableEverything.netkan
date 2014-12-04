@@ -2,5 +2,18 @@
     "spec_version" : 1,
     "identifier"   : "TweakableEverything",
     "$kref"        : "#/ckan/kerbalstuff/255",
-    "license"      : "BSD-3-clause"
+    "license"      : "BSD-3-clause",
+    "install": [
+        {
+            "file": "GameData/TweakableEverything",
+            "install_to": "GameData"
+        },
+        {
+            "file": "GameData/ToadicusTools",
+            "install_to": "GameData"
+        }
+    ],
+    "depends": [
+        { "name": "ModuleManager" }
+    ]
 }
