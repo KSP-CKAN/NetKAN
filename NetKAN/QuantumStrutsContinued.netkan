@@ -2,5 +2,15 @@
     "spec_version"  : 1,
     "identifier"    : "QuantumStrutsContinued",
     "$kref"         : "#/ckan/kerbalstuff/168",
-    "license"       : "BSD-2-clause"
+    "license"       : "BSD-2-clause",
+    "install": [
+        {
+            "file": "GameData/QuantumStrutsContinued",
+            "install_to": "GameData"
+        }
+    ],
+    "suggests": [
+        { "name": "ModuleManager" },
+        { "name": "KAS" }
+    ]
 }

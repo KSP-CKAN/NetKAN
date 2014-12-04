@@ -4,18 +4,13 @@
     "$kref"         : "#/ckan/kerbalstuff/254",
     "license"       : "BSD-3-clause",
     "install": [
-    {
-      "file": "GameData/AntennaRange",
-      "install_to": "GameData"
-    },
-    {
-      "file": "GameData/ToadicusTools",
-      "install_to": "GameData"
-    }
+        {
+            "file": "GameData/AntennaRange",
+            "install_to": "GameData"
+        }
     ],
     "depends": [
-        {
-         "name": "ModuleManager"
-     }
+        { "name": "ModuleManager" },
+        { "name": "ToadicusTools" }
     ]
 }

@@ -2,5 +2,14 @@
     "spec_version"  : 1,
     "identifier"    : "VOID",
     "$kref"         : "#/ckan/kerbalstuff/253",
-    "license"       : "BSD-3-clause"
+    "license"       : "BSD-3-clause",
+    "install": [
+        {
+            "file": "GameData/VOID",
+            "install_to": "GameData"
+        }
+    ],
+    "depends": [
+        { "name": "ToadicusTools" }
+    ]
 }
