@@ -1,0 +1,12 @@
+{
+    "spec_version"   : 1,
+    "identifier"     : "NavUtilities",
+    "$kref"          : "#/ckan/kerbalstuff/70",
+    "license"        : "restricted",
+	"install"        : [
+		{
+			"file" : "GameData/KerbalScienceFoundation",
+			"install_to" : "GameData"
+		}
+	]
+}
