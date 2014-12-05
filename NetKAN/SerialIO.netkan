@@ -1,0 +1,12 @@
+{
+    "spec_version" : 1,
+    "identifier"   : "SerialIO",
+    "$kref"        : "#/ckan/kerbalstuff/385",
+    "license"      : "CC-BY",
+    "install": [
+        {
+            "file": "KSPSerialIO",
+            "install_to": "GameData"
+        }
+    ]
+}
