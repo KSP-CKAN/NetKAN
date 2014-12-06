@@ -1,0 +1,12 @@
+{
+    "spec_version" : 1,
+    "identifier"   : "JackOLantern",
+    "$kref"        : "#/ckan/kerbalstuff/296",
+    "license"      : "CC-BY-NC-4.0",
+    "install": [
+        {
+            "file": "GameData/Jack_O_Lantern",
+            "install_to": "GameData"
+        }
+    ]
+}
