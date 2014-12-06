@@ -8,5 +8,30 @@
             "file"       : "GameData/DMagic Orbital Science",
             "install_to" : "GameData"
         }
+    ],
+	"resources"    : {
+		"repository" : "https://github.com/DMagic1/Orbital-Science"
+	},
+	"recommends" : [
+		{ 
+			"name": "ContractsWindowPlus"
+		}
+	],
+	"suggests": [
+	{
+	  "name": "CustomBiomes"
+	},
+	{
+	  "name": "UniversalStorage"
+	},
+	{
+	  "name": "ScienceAlert"
+	},
+	{
+	  "name": "SCANsat"
+	},
+	{
+	  "name": "CommunityTechTree"
+	}
     ]
 }
