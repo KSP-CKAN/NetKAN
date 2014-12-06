@@ -1,0 +1,13 @@
+{
+	"spec_version" 	: 1,
+	"identifier" 	: "ContractsWindowPlus",
+	"$kref"			: "#/ckan/kerbalstuff/99",
+	"x_netkan_license_ok": true,
+	
+	"install": [
+		{
+			"file": "GameData/Contracts Window",
+			"install_to": "GameData"
+		}
+	]
+}
