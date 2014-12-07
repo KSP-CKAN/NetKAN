@@ -12,6 +12,7 @@
 	"conflicts" : [ { "name" : "AerodynamicModel" } ],
 	
     "depends" : [ { "name" : "ModuleManager" } ],
+    "suggests" : [ { "name" : "KerbalIspDifficultyScaler" }],
     "install" : [
         {
             "file"       : "GameData/FerramAerospaceResearch",
