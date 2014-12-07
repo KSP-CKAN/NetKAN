@@ -19,5 +19,8 @@
             "file"       : "GameData/z_Entropy_realchutes",
             "install_to" : "GameData"
         }
+    ],
+    "reccomends" : [
+        { "name" : "Entropy" }
     ]
 }
