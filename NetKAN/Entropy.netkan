@@ -6,6 +6,7 @@
     "$kref"          : "#/ckan/kerbalstuff/388",
     "depends" : [
         { "name" : "DangIt" },
+        { "name" : "ModuleManager" }
     ],
     "resources" : {
         "homepage"     : "http://forum.kerbalspaceprogram.com/threads/102197",
