@@ -7,6 +7,7 @@
     "depends" : [
         { "name" : "DangIt" },
         { "name" : "RealChute" },
+        { "name" : "ModuleManager" }
     ],
     "resources" : {
         "homepage"     : "http://forum.kerbalspaceprogram.com/threads/102197",
