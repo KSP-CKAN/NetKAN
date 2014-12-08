@@ -7,10 +7,7 @@
         { "name" : "ModuleManager", "min_version" : "2.5.1" },
 		{ "name" : "SmokeScreen", "min_version" : "2.5.0" }
     ],
-	"install" : [
-        {
-            "file"       : "GameData/RealEffects",
-            "install_to" : "GameData"
-        }
-    ]
+	"depends": [
+		{ "name": "RealismOverhaul" }
+	]
 }
