@@ -1,0 +1,17 @@
+{
+    "spec_version" : 1,
+    "identifier"   : "AutoAction",
+    "$kref"        : "#/ckan/github/SirDiazo/AutoAction",
+    "name"         : "Auto Action",
+    "abstract"     : "Automatically activate action groups (and RCS/SAS) on vessel launch",
+    "license"      : "GPL-3.0",
+    "ksp_version"  : "0.25",
+	
+	"depends": [
+		{ "name": "ModuleManager" }
+	],
+	
+	"suggests": [
+		{ "name": "Toolbar" }
+	]
+}
