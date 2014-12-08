@@ -1,0 +1,10 @@
+{
+    "spec_version" : 1,
+    "identifier"   : "FreedomTex",
+    "$kref"        : "#/ckan/kerbalstuff/371",
+    "x_netkan_license_ok": true,
+	
+	"depends": [
+		{ "name": "ProceduralParts" }
+	]
+}
