@@ -1,0 +1,18 @@
+{
+	"spec_version" : 1,
+	"identifier" : "ZeroPointInlineFairings-Lite",
+	"$kref" : "#/ckan/kerbalstuff/228",
+	"$vref" : "#/ckan/ksp-avc",
+	"license" : "CC-BY-NC-SA",
+	
+	"install": [
+		{
+			"file": "0PinlineFairingsLite",
+			"install_to": "GameData"
+		}
+	],
+	
+	"conflicts": [
+		{ "name": "ZeroPointInlineFairings" }
+	]
+}

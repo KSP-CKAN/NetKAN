@@ -1,0 +1,14 @@
+{
+	"spec_version" : 1,
+	"identifier" : "ModularRocketSystem",
+	"$kref" : "#/ckan/kerbalstuff/148",
+	"$vref" : "#/ckan/ksp-avc",
+	"license" : "CC-BY-NC-SA",
+	
+	"install": [
+		{
+			"file": "ModRocketSys",
+			"install_to": "GameData"
+		}
+	]
+}
