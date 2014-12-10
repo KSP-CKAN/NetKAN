@@ -35,6 +35,9 @@
     "depends" : [
         { "name" : "Toolbar" }
     ],
+    "recommends" : [
+        { "name" : "KSP-AVC" }
+    ],
     "conflicts" : [
         { "name" : "AdvancedFlyByWire-linux" }
     ],
