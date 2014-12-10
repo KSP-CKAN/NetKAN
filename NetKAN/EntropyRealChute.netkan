@@ -6,7 +6,7 @@
     "name"           : "Entropy extensions for RealChute",
     "$kref"          : "#/ckan/kerbalstuff/388",
     "depends" : [
-        { "name" : "DangIt" },
+        { "name" : "DangIt", "min_version":0.5 },
         { "name" : "RealChute" },
         { "name" : "ModuleManager" }
     ],

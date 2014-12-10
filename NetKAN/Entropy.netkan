@@ -5,7 +5,7 @@
     "license"        : "GPL-3.0",
     "$kref"          : "#/ckan/kerbalstuff/388",
     "depends" : [
-        { "name" : "DangIt" },
+        { "name" : "DangIt", "min_version":0.5 },
         { "name" : "ModuleManager" }
     ],
     "resources" : {
