@@ -1,0 +1,15 @@
+{
+    "spec_version" : 1,
+    "identifier"   : "EntchenFlag",
+    "$kref"        : "#/ckan/kerbalstuff/401",
+    "resources": {
+        "x_curse": "http://kerbal.curseforge.com/shareables/220234-entchen"
+    },
+    "x_netkan_license_ok": true,
+    "install": [
+        {
+            "file": "Entchen",
+            "install_to": "GameData"
+        }
+    ]
+}
