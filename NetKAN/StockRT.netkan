@@ -1,0 +1,25 @@
+{
+	"spec_version" : 1,
+	"identifier" : "StockRT",
+	"$kref" : "#/ckan/kerbalstuff/327",
+	"license": "public-domain",
+	"install": [
+	{
+		"file" : "GameData/RemoteTech_Stock",
+		"install_to" : "GameData"
+	}
+	],
+	"depends": [
+	{
+		"name": "ModuleManager"
+	},
+	{
+		"name": "RemoteTech"
+	}
+	],
+	"suggests": [
+	{
+		"name": "RealSolarSystem"
+	}
+	]
+}
