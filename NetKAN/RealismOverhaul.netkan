@@ -57,6 +57,8 @@
 		{ "name" : "NearFutureSolar" },
 		{ "name" : "NearFutureSpacecraft" },
 		{ "name" : "PorkjetHabitats" },
+		{ "name" : "Proton-Bobcat" },
+		{ "name" : "Proton-OLDD" },
 		{ "name" : "RLA-Stockalike" },
 		{ "name" : "RocketdyneF-1" },
 		{ "name" : "SovietEngines" },
@@ -78,8 +80,8 @@
             "file"       : "KAS",
             "install_to" : "GameData",
             "comment"    : "KAS config, does not overwrite"
-        }
-                {
+        },
+        {
             "file"       : "EngineGroupController",
             "install_to" : "GameData",
             "comment"    : "Engine Group Controller, unique to RO."
