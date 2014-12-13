@@ -71,7 +71,8 @@ sub netkan_validate {
         return 1;
     };
 
-    if ($@) { diag $@ }
+    # If there was a failure, report it.
+    if ($@) { warn "$file: $@" }
 
     ok($valid, $file);
 }
