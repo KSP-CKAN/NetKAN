@@ -35,6 +35,10 @@ if (! -x $netkan) {
 my @changed_files = capture("git diff --name-only FETCH_HEAD^");
 chomp(@changed_files);
 
+if (@changed_files == 0) {
+    plan skip_all => "No .netkan files changed";
+}
+
 # Walk through our changed files. If any of them mention KS, then
 # run netkan over them. (We have @sircmpwn's permission to make KS
 # downloads during CI testing.)
