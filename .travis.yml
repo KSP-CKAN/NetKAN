@@ -1,7 +1,7 @@
-language: c
+language: csharp
 
 install:
-    - sudo apt-get install python-demjson libtest-most-perl libjson-any-perl
+    - sudo apt-get install python-demjson libtest-most-perl libjson-any-perl libwww-mechanize-perl libipc-system-simple-perl
 
 script:
     - jsonlint -s -v NetKAN/*.netkan
