@@ -31,8 +31,8 @@ if (! -x $netkan) {
     chmod(0755, $netkan);
 }
 
-# TODO: What if our PR is against something other than master?
-my @changed_files = capture("git diff --name-only master");
+# FETCH_HEAD^ should always be the branch we're merging into.
+my @changed_files = capture("git diff --name-only FETCH_HEAD^");
 chomp(@changed_files);
 
 # Walk through our changed files. If any of them mention KS, then
