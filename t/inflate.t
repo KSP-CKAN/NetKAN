@@ -4,7 +4,7 @@ use strict;
 use warnings;
 use autodie qw(:all);
 use Test::More;
-use IPC::System::Simple qw(capture);
+use IPC::System::Simple qw(capture $EXITVAL);
 use WWW::Mechanize;
 
 my $pr_branch = $ENV{TRAVIS_PULL_REQUEST};
@@ -40,14 +40,16 @@ chomp(@changed_files);
 # downloads during CI testing.)
 
 foreach my $file (@changed_files) {
-    if (is_ks_file($file)) {
+    if (is_testable_file($file)) {
         netkan_validate($file);
     }
 }
 
 done_testing;
 
-sub is_ks_file {
+# Returns true if this is a file we want to test.
+# We test both KS and github releases for now.
+sub is_testable_file {
     my ($file) = @_;
 
     # Not a netkan file? Not something we want to test.
@@ -59,20 +61,29 @@ sub is_ks_file {
     my $content = <$fh>;
     close($fh);
 
-    return $content =~ m{#/ckan/kerbalstuff};
+    return $content =~ m{#/ckan/(?:kerbalstuff|github)};
 }
 
 # Simply checks to see if netkan.exe runs without errors on this file
 sub netkan_validate {
     my ($file) = @_;
 
-    my $valid = eval {
-        system($netkan, $file);
-        return 1;
-    };
+    my $netkan_output;
 
-    # If there was a failure, report it.
-    if ($@) { warn "$file: $@" }
+    eval { $netkan_output = capture([-1], $netkan, $file) };
 
-    ok($valid, $file);
+    # If there was a failure running netkan.exe, report it
+    if ($@) {
+        ok(0, $file);
+        diag "Something unexpected happened: $@";
+    }
+    # If we didn't get a validation pass, report that too.
+    elsif ($EXITVAL != 0) { 
+        ok(0, $file);
+        diag "$netkan_output"
+    }
+    # Otherwise huzzah, the changes look good.
+    else {
+        ok(1, $file);
+    }
 }
