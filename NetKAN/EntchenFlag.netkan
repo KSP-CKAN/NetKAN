@@ -1,11 +1,13 @@
 {
     "spec_version" : 1,
     "identifier"   : "EntchenFlag",
-    "$kref"        : "#/ckan/kerbalstuff/401",
+    "$kref"        : "#/ckan/github/entchen/EntchenFlag",
+    "name": "Entchen Flag",
+    "abstract": "Official Flag of the Rubber Duck Empire",
+    "license": "CC-BY",
     "resources": {
         "x_curse": "http://kerbal.curseforge.com/shareables/220234-entchen"
     },
-    "x_netkan_license_ok": true,
     "install": [
         {
             "file": "Entchen",
