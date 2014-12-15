@@ -1,0 +1,19 @@
+{
+    "spec_version"          : 1,
+    "identifier"            : "KASAIXSCommandModule",
+    "$kref"                 : "#/ckan/kerbalstuff/138",
+    "license"               : "GPL-3.0",
+    "x_netkan_license_ok"   : true,
+    "x_maintained_by"       : "distantcam",
+
+    "depends": [
+        { "name": "FirespitterCore" }
+    ],
+
+    "install": [
+        {
+            "file"       : "IXS_CommandModule/GameData/KASA",
+            "install_to" : "GameData/KASAIXSCommandModule"
+        }
+    ]
+}
