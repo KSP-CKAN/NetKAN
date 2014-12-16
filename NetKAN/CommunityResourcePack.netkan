@@ -15,10 +15,6 @@
         {
             "file"       : "GameData/CommunityResourcePack",
             "install_to" : "GameData"
-        },
-        {
-            "file"       : "GameData/TextureReplacer",
-            "install_to" : "GameData"
         }
     ]
 }
