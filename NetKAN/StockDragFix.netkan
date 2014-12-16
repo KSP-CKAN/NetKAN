@@ -1,0 +1,13 @@
+{
+    "spec_version" : 1,
+    "identifier"   : "StockDragFix",
+    "$kref"        : "#/ckan/github/Starwaster/StockDragFix",
+    "name"         : "Stock Drag Fix",
+    "abstract"     : "Fixes aerodynamic issues without breaking compatibility",
+    "license"      : "CC-BY-SA-4.0",
+    "ksp_version"  : "0.90",
+    "resources" : {
+        "homepage"     : "http://forum.kerbalspaceprogram.com/threads/84978",
+        "repository"   : "https://github.com/Starwaster/StockDragFix"
+    }
+}
