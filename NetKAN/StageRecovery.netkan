@@ -3,6 +3,7 @@
     "identifier"     : "StageRecovery",
     "$kref"          : "#/ckan/kerbalstuff/97",
     "$vref"          : "#/ckan/ksp-avc",
+    "ksp_version"    : "0.90",
     "suggests" : [
         { "name" : "KerbalConstructionTime" },
         { "name" : "Toolbar" }
