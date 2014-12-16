@@ -12,23 +12,23 @@
     },
     "install" : [
         {
-            "file"       : "x86/SDL2.dll",
+            "file"       : "SDL2.dll",
             "install_to" : "GameRoot"
         },
         {
-            "file"       : "x86/SDL_LICENSE",
+            "file"       : "SDL_LICENSE",
             "install_to" : "GameRoot"
         },
         {
-            "file"       : "x86/XINPUTDOTNET_LICENSE",
+            "file"       : "XINPUTDOTNET_LICENSE",
             "install_to" : "GameRoot"
         },
         {
-            "file"       : "x86/XInputInterface.dll",
+            "file"       : "XInputInterface.dll",
             "install_to" : "GameRoot"
         },
         {
-            "file"       : "x86/GameData/ksp-advanced-flybywire",
+            "file"       : "GameData/ksp-advanced-flybywire",
             "install_to" : "GameData"
         }
     ],
