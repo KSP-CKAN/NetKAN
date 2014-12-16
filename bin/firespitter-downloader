@@ -23,7 +23,7 @@ use JSON;
 my $README          = "https://raw.githubusercontent.com/snjo/Firespitter/master/README.md";
 my $FIRESPITTER_DLL = "https://github.com/snjo/Firespitter/blob/master/For%20release/Firespitter/Plugins/Firespitter.dll?raw=true";
 my $CKAN_META       = "$Bin/../../CKAN-meta";
-my $VALIDATOR       = "$Bin/ckan-validate";
+my $VALIDATOR       = "$Bin/../../CKAN/bin/ckan-validate";
 
 -d $CKAN_META or die "Uh oh, can't find CKAN-meta at $CKAN_META";
 -f $VALIDATOR or die "Uh oh, can't find my validator at $VALIDATOR";
