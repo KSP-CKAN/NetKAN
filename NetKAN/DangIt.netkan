@@ -9,6 +9,9 @@
         { "name" : "ModuleManager" },
         { "name" : "CommunityResourcePack" }
     ],
+	"recommends" : [
+		{ "name" : "Entropy" }
+	],
 	"resources" : {
 		"homepage"     : "http://forum.kerbalspaceprogram.com/threads/81794",
 		"bugtracker"   : "https://github.com/Ippo343/DangIt/issues",
