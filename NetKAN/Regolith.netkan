@@ -1,6 +1,7 @@
  {
     "spec_version" : 1,
     "identifier" : "Regolith",
+    "author": "RoverDude",
     "$kref" : "#/ckan/github/BobPalmer/Regolith",
     "name" : "Regolith",
     "abstract" : "Provides a new resource framework for KSP",
