@@ -1,0 +1,24 @@
+{
+    "spec_version"   : 1,
+    "name"           : "Regolith",
+    "identifier"     : "Regolith",
+    "$kref"          : "#/ckan/github/BobPalmer/Regolith",
+    "author"         : "RoverDude",
+    "abstract"       : "Regolith is an open and extensible ISRU and resource framework.",
+    "license"        : "CC-BY-NC-SA-4.0",
+    "release_status" : "stable",
+    "ksp_version"    : "0.90",
+    "resources" : {
+        "homepage" : "http://forum.kerbalspaceprogram.com/threads/100162"
+    },
+    "install" : [
+        {
+            "file"       : "GameData/CommunityResourcePack",
+            "install_to" : "GameData"
+        },
+        {
+            "file"       : "GameData/Regolith",
+            "install_to" : "GameData"
+        }
+    ]
+}
