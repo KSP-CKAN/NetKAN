@@ -5,7 +5,7 @@
     "name"         : "Crowd Sourced Science",
     "abstract"     : "Provides a nearly inexhaustible supply of science reports in Kerbal Space Program",
     "license"      : "CC-BY-NC-4.0",
-    "ksp_version"  : "0.25",
+    "ksp_version"  : "0.90",
     "depends" : [
     { "name" : "ModuleManager" }
     ]
