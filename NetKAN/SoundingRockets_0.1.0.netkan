@@ -11,14 +11,14 @@
     "ksp_version"    : "0.90",
     "resources" : {
         "homepage"     : "http://forum.kerbalspaceprogram.com/threads/102502-0-90-Sounding-Rockets!-Start-small-Dream-big!-0-0-1-2014-12-16"
-    },
+	},
     "install" : [
         {
-            "file"       : "GameData/UmbraSpaceIndustries/SoundingRockets",
+            "file"       : "UmbraSpaceIndustries/SoundingRockets",
             "install_to" : "GameData"
         }
     ],
     "depends" : [
-        { "name" : "USI-Tools" }
-    ]
+        { "name" : "USITools" },
+				]
 }
