@@ -1,12 +1,12 @@
 {
-    "spec_version"   : 1,
-    "$kref"          : "#/ckan/github/Biotronic/TweakScale",
-    "name"           : "TweakScale",
-    "abstract"       : "Rescale everything!",
-    "identifier"     : "TweakScale",
-    "license"        : "CC-BY-NC-SA-4.0",
-    "release_status" : "stable",
-    "ksp_version"    : "0.25",
+    "spec_version"       : 1,
+    "$kref"              : "#/ckan/github/Biotronic/TweakScale",
+    "name"               : "TweakScale",
+    "abstract"           : "Rescale everything!",
+    "identifier"         : "TweakScale",
+    "license"            : "CC-BY-NC-SA-4.0",
+    "release_status"     : "stable",
+    "ksp_version_min"    : "0.25",
     "depends" : [
         { "name" : "ModuleManager", "min_version" : "2.5.1" }
     ],
