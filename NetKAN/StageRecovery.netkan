@@ -4,6 +4,9 @@
     "$kref"          : "#/ckan/kerbalstuff/97",
     "$vref"          : "#/ckan/ksp-avc",
     "ksp_version"    : "0.90",
+    "resources"      : {
+    "repository"     : "https://github.com/magico13/StageRecovery"
+    },
     "suggests" : [
         { "name" : "KerbalConstructionTime" },
         { "name" : "Toolbar" }
