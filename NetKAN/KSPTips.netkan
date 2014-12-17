@@ -1,0 +1,20 @@
+{
+    "spec_version" : 1,
+    "identifier"   : "KSPTips",
+    "$kref"        : "#/ckan/github/TriggerAu/KSPTips",
+    "name"         : "KSP Tips",
+    "abstract"     : "Adds popup tips to the KSC scene that can give newer players some ideas of useful tips and tricks",
+    "license"      : "MIT",
+    "ksp_version"  : "0.90",
+    "resources" : {
+		"homepage" : "http://forum.kerbalspaceprogram.com/threads/103537"
+    },
+    "author" : "TriggerAu",
+    "release_status" : "stable",
+    "install"      : [
+        {
+           "file": "KSPTips",
+           "install_to": "GameData"
+        }
+    ]
+}
