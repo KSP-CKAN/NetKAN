@@ -1,0 +1,12 @@
+{
+    "spec_version"   : 1,
+    "identifier"     : "KSPTips",
+    "$kref"          : "#/ckan/github/TriggerAu/KSPTips",
+	"name"           : "KSP Tips",
+	"abstract"       : "Some ingame tips to help newer players find stuff",
+    "ksp_version"    : "0.90",
+    "license"        : "MIT",
+    "resources": {
+        "homepage":   "http://forum.kerbalspaceprogram.com/threads/103537"
+    }
+}
