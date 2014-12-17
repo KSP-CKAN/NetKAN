@@ -14,8 +14,10 @@
     "install" : [
         {
             "file"       : "UmbraSpaceIndustries/SoundingRockets",
-			"file"       : "000_USITools"
             "install_to" : "GameData"
         }
+    ],
+    "depends" : [
+        { "name" : "USITools" },
     ]
 }
