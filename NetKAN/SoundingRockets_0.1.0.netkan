@@ -1,0 +1,23 @@
+{
+    "spec_version"   : 1,
+    "name"           : "Sounding Rockets!",
+    "abstract"       : "Adds a series of low tech sounding rockets to the 'start' node.",
+    "identifier"     : "SoundingRockets",
+    "download"       : "https://www.dropbox.com/sh/1fsuzvl35s2gppt/AADTWQ6AbpYrdku0dBgCBtWea/SoundingRockets_0.1.0.zip?dl=1",
+    "license"        : "CC-BY-NC-SA-4.0",
+    "version"        : "0.1.0",
+    "release_status" : "stable",
+    "ksp_version"    : "0.90",
+    "resources" : {
+        "homepage"     : "http://forum.kerbalspaceprogram.com/threads/102502-0-90-Sounding-Rockets!-Start-small-Dream-big!-0-0-1-2014-12-16"
+    },
+    "install" : [
+        {
+            "file"       : "UmbraSpaceIndustries/SoundingRockets",
+            "install_to" : "GameData"
+        }
+    ],
+    "depends" : [
+        { "name" : "USITools" },
+    ]
+}
