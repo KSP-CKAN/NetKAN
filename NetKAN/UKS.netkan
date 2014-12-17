@@ -37,10 +37,6 @@
     {
       "name": "Regolith",
       "min_version": "0.1.0"
-    },
-    {
-      "name" : "CIT-Util",
-      "min_version" : "1.0.4"
     }
   ],
   "suggests": [
