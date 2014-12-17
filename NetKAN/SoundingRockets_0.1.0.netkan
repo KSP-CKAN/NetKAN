@@ -7,7 +7,6 @@
     "license"        : "CC-BY-NC-SA-4.0",
     "version"        : "0.1.0",
     "release_status" : "stable",
-	"author"         : "RoverDude",
     "ksp_version"    : "0.90",
     "resources" : {
         "homepage"     : "http://forum.kerbalspaceprogram.com/threads/102502-0-90-Sounding-Rockets!-Start-small-Dream-big!-0-0-1-2014-12-16"
@@ -19,7 +18,6 @@
         }
     ],
     "depends" : [
-        { "name" : "USITools" }
-				]
-
+        { "name" : "USITools" },
+    ]
 }
