@@ -3,7 +3,7 @@
     "identifier"     : "SafeChute",
     "$kref"          : "#/ckan/kerbalstuff/360",
     "$vref"          : "#/ckan/ksp-avc",
-    "license"        : "BSD",
+    "license"        : "BSD-3-clause",
     "resources": {
         "bugtracker" : "https://github.com/henrybauer/SafeChute/issues",
         "repository" : "https://github.com/henrybauer/SafeChute"
