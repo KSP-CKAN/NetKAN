@@ -2,6 +2,7 @@
 	"$kref": "#/ckan/kerbalstuff/419",
 	"spec_version": 1,
 	"identifier": "ActiveTextureManagement-Aggressive",
+	"name": "Active Texture Management (Aggressive)",
 	"x_netkan_license_ok": true,
     	"conflicts"      : [ { "name" : "ActiveTextureManagement" } ],
     	"install": [
