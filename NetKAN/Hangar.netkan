@@ -1,0 +1,16 @@
+{
+    "spec_version" : 1,
+    "identifier"   : "Hangar",
+    "$kref"        : "#/ckan/kerbalstuff/270",
+    "license"      : "CC-BY-4.0",
+
+    "depends": [
+        { name: "ModuleManager" }
+    ],
+    "install": [
+        {
+            "file"       : "GameData/Hangar",
+            "install_to" : "GameData"
+        }
+    ]
+}
