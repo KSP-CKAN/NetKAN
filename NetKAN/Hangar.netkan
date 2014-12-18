@@ -11,7 +11,7 @@
 		{
 			"file": "GameData/Hangar",
 			"install_to": "GameData",
-			"filter": "GameData/Hangar/Plugins/KSPAPIExtensions.dll",
+			"filter": "KSPAPIExtensions.dll",
 			"comment": "Contains KSPAPIExtensions mod in this distribution"
 		}
 	],
