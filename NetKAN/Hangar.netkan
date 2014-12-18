@@ -3,9 +3,8 @@
     "identifier"   : "Hangar",
     "$kref"        : "#/ckan/kerbalstuff/270",
     "license"      : "CC-BY-4.0",
-
     "depends": [
-        { name: "ModuleManager" }
+        { "name" : "ModuleManager" }
     ],
     "install": [
         {
