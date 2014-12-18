@@ -4,7 +4,7 @@
     "$vref"    : "#/ckan/ksp-avc",
     "name"     : "Advanced Fly-By-Wire (Windows, x86)",
     "abstract" : "Joystick & controller mod with multiple presets and in-flight controls binding",
-    "identifier": "AdvancedFlyByWire",
+    "identifier": "AdvancedFlyByWire", 
     "release_status" : "stable",
     "resources" : {
         "homepage"   : "http://forum.kerbalspaceprogram.com/threads/95022",
