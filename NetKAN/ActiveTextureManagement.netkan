@@ -1,0 +1,8 @@
+{
+	"$kref": "#/ckan/kerbalstuff/418",
+	"spec_version": 1,
+	"identifier": "ActiveTextureManagement",
+	"x_netkan_license_ok": true,
+	"provides"       : [ "ActiveTextureManagement" ],
+    	"conflicts"      : [ { "name" : "ActiveTextureManagement" } ]
+}

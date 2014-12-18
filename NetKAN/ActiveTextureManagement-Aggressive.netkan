@@ -1,0 +1,12 @@
+{
+	"$kref": "#/ckan/kerbalstuff/419",
+	"spec_version": 1,
+	"identifier": "ActiveTextureManagement-Aggressive",
+	"x_netkan_license_ok": true,
+	"provides"       : [ "ActiveTextureManagement" ],
+    	"conflicts"      : [ { "name" : "ActiveTextureManagement" } ],
+    	"install": [
+    		{ "file": "GameData/ActiveTextureManagement",
+    		  "install_to": "GameData" }
+    	]
+}
