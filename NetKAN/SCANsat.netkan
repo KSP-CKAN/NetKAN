@@ -6,8 +6,12 @@
 	"recommends": [
         { "name": "Toolbar" }
     ],
-	
+
 	"suggests": [
 		{ "name": "RasterPropMonitor" }
+	],
+
+	"conflicts": [
+		{ "name": "SCANsat-dev" }
 	]
 }
