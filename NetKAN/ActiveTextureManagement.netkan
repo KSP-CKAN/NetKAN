@@ -3,6 +3,5 @@
 	"spec_version": 1,
 	"identifier": "ActiveTextureManagement",
 	"x_netkan_license_ok": true,
-	"provides"       : [ "ActiveTextureManagement-Config" ],
-    	"conflicts"      : [ { "name" : "ActiveTextureManagement-Config" } ]
+    	"conflicts"      : [ { "name" : "ActiveTextureManagement-Aggressive" } ]
 }
