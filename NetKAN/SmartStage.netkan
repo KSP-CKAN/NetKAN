@@ -2,6 +2,7 @@
     "spec_version" : 1,
     "identifier"   : "SmartStage",
     "$kref"        : "#/ckan/github/xytovl/SmartStage",
+    "ksp_version"  : "0.90",
     "license"      : "GPL-3.0",
 	"abstract"     : "SmartStage attempts to find optimal staging in VAB",
     "name"         : "SmartStage",

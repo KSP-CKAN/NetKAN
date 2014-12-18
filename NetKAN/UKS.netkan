@@ -35,12 +35,8 @@
       "min_version": "0.2.3"
     },
     {
-      "name": "ORSX",
-      "min_version": "0.1.3"
-    },
-    {
-      "name" : "CIT-Util",
-      "min_version" : "1.0.4"
+      "name": "Regolith",
+      "min_version": "0.1.0"
     }
   ],
   "suggests": [

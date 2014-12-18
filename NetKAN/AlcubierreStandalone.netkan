@@ -1,0 +1,21 @@
+{
+    "spec_version": 1,
+    "identifier": "AlcubierreStandalone",
+    "author": "RoverDude",
+    "$kref": "#/ckan/github/BobPalmer/WarpDrive",
+    "name": "Alcubierre Warp Drive (Stand-alone)",
+    "abstract": "The Alcubierre drive works by moving space around your ship, not through acceleration.",
+    "license": "CC-BY-NC-SA-4.0",
+    "ksp_version": "0.90",
+    "install": [
+					{
+						"file": "GameData/UmbraSpaceIndustries",
+						"install_to": "GameData"
+					}
+				],
+    "depends": [
+					{
+						"name": "Regolith"
+					}
+				]
+}
