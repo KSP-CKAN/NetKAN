@@ -4,5 +4,8 @@
     "$kref"        : "#/ckan/kerbalstuff/150",
     "$vref"        : "#/ckan/ksp-avc",
     "license"      : "CC-BY-NC-SA-4.0",
-    "comment"      : "Plugin is MIT, but some parts CC-BY-NC-SA, and we always specify most restrictive in metadata."
+    "comment"      : "Plugin is MIT, but some parts CC-BY-NC-SA, and we always specify most restrictive in metadata.",
+    "resources" : {
+    "repository" : "https://github.com/ducakar/TextureReplacer"
+    },
 }
