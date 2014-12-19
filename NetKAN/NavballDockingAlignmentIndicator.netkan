@@ -1,0 +1,8 @@
+{
+ "spec_version"   : 1,
+ "identifier"     : "NavballDockingAlignmentIndicator",
+ "$kref"          : "#/ckan/kerbalstuff/23",
+ "name"           : "Simple Navball Docking Alignment Indicator",
+ "abstract"       : "Adds a red marker to the Navball, showing the orientation of the selected target docking port",
+ "resources"      : {"repository" : "https://github.com/mic-e/kspnavballdockingalignmentindicator"}
+}
