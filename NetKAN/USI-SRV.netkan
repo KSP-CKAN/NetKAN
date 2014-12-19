@@ -22,11 +22,11 @@
         },
         {
           "name": "USITools",
-          "min_version": "0.2.4"
+          "min_version": "0.3.0"
         },
         {
           "name": "CommunityResourcePack",
-          "min_version": "0.2.3"
+          "min_version": "0.3.1"
         },
         {
           "name": "Regolith",
@@ -35,7 +35,7 @@
     ],
     "install" : [
         {
-            "file"       : "Gamedata/UmbraSpaceIndustries",
+            "file"       : "GameData/UmbraSpaceIndustries",
             "install_to" : "GameData"
         }
     ]
