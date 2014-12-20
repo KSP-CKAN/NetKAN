@@ -1,11 +1,10 @@
 {
     "spec_version": 1,
     "identifier": "DistantObject-default",
-    "$kref": "#/ckan/github/MOARdV/DistantObject",
+    "$kref": "#/ckan/kerbalstuff/403",
     "name": "Distant Object Enhancement default config",
     "abstract": "Default planets colors",
     "license": "CC-BY-4.0",
-    "ksp_version": "0.25",
     "depends": [
         {
             "name": "DistantObject"

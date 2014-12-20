@@ -1,11 +1,10 @@
 {
     "spec_version": 1,
     "identifier": "DistantObject",
-    "$kref": "#/ckan/github/MOARdV/DistantObject",
+    "$kref": "#/ckan/kerbalstuff/403",
     "name": "Distant Object Enhancement",
     "abstract": "Visual enhancement mod that makes objects realistically visible over large distances.",
     "license": "CC-BY-4.0",
-    "ksp_version": "0.25",
     "depends": [
         {
             "name": "DistantObject-config"
