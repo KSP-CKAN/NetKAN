@@ -1,6 +1,16 @@
 {
+    "spec_version": 1,
     "identifier": "FinalFrontier", 
-    "x_netkan_license_ok": true, 
+    "license": "BSD-2-clause",
     "$kref": "#/ckan/kerbalstuff/428", 
-    "spec_version": 1
+    "resources": {
+        "x_curse": "http://www.curse.com/ksp-mods/kerbal/221413-final-frontier"
+    },
+    "install": [
+        {
+            "file": "GameData",
+            "install_to": "GameData",
+            "filter": [ "000_Toolbar", "Source" ]
+       }
+    ]
 }
