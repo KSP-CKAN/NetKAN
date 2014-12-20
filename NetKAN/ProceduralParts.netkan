@@ -6,6 +6,9 @@
     "abstract"          :   "ProceduralParts allows you to procedurally generate a number of different parts in a range of sizes and shapes.",
     "license"           :   "CC-BY-3.0",
     "ksp_version"       :   "0.90",
+	"recommends"		:  [
+		{ "name" : "ModuleManager" }
+	],
     "suggests"          :  [ 
         { "name" : "PPTextures" },
         { "name" : "FreedomTex" }
