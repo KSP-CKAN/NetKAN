@@ -1,6 +1,16 @@
 {
+    "spec_version": 1,
     "identifier": "AVeryKerbalChristmas", 
     "x_netkan_license_ok": true, 
     "$kref": "#/ckan/kerbalstuff/426", 
-    "spec_version": 1
+    "install"        : [ {
+        "file"       : "MP_Nazari",
+        "install_to" : "GameData",
+        "filter"     : "Firespitter"
+    } ],
+    "depends": [
+        {
+            "name": "FirespitterCore"
+        }
+    ]
 }
