@@ -1,0 +1,10 @@
+{
+    "spec_version" : 1,
+    "identifier"   : "Snacks",
+    "$kref"        : "#/ckan/github/tgruetzm/Snacks",
+    "name"         : "Snacks",
+    "abstract"     : "Add a simple life support system based on Snacks!",
+    "license"      : "MIT",
+    "ksp_version"  : "0.25",
+    "depends": [ { "name": "ModuleManager" } ]
+}
