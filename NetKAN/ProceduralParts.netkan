@@ -6,7 +6,7 @@
     "abstract"          :   "ProceduralParts allows you to procedurally generate a number of different parts in a range of sizes and shapes.",
     "license"           :   "CC-BY-SA-3.0",
     "$vref" : "#/ckan/ksp-avc",
-    "depends" : [ 
+    "recommends" : [ 
         { "name" : "ModuleManager" }
     ],
     "suggests" : [ 
