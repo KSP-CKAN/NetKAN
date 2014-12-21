@@ -1,11 +1,10 @@
 {
     "spec_version": 1,
     "identifier": "DistantObject-RealSolarSystem",
-    "$kref": "#/ckan/github/MOARdV/DistantObject",
+    "$kref": "#/ckan/kerbalstuff/403",
     "name": "Distant Object Enhancement Real Solar System config",
     "abstract": "For the basic version of NathanKell's Real Solar System mod",
     "license": "CC-BY-4.0",
-    "ksp_version": "0.25",
     "depends": [
         {
             "name": "DistantObject"
