@@ -1,0 +1,14 @@
+{
+  "spec_version" : 1,
+  "identifier"   : "RKE-Joystick",
+  "$kref"        : "#/ckan/kerbalstuff/171",
+  "$vref" : "#/ckan/ksp-avc",
+  "x_netkan_license_ok": true,
+  "install" : [
+    {
+      "file" : "RKE_Joystick",
+      "install_to" : "GameData"
+    }
+  ]
+
+}
