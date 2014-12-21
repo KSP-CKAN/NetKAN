@@ -20,8 +20,8 @@
         {
             "file"          : "CustomBiomes",
             "install_to"    : "GameData",
-            "comment"       : "This regexp only installs PluginData, and nothing else",
-            "filter_regexp" : "^(?!CustomBiomes/PluginData/)"
+            "comment"       : "This regexp only installs PluginData, and nothing else, skipping PluginData/CustomBiomes/config.xml",
+            "filter_regexp" : "^(?!CustomBiomes/PluginData/)|config.xml"
         }
     ]
 }

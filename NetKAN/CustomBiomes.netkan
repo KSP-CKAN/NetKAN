@@ -1,0 +1,25 @@
+{
+    "spec_version"   : 1,
+    "$kref"          : "#/ckan/github/NathanKell/CustomBiomes",
+    "name"           : "Custom Biomes",
+    "identifier"     : "CustomBiomes",
+    "abstract"       : "Add or replace biomes to any celestial body in KSP",
+    "license"        : "CC-BY-NC-SA-3.0",
+    "release_status" : "stable",
+    "ksp_version"    : "0.90",
+    "depends" : [
+        { "name" : "CustomBiomes-Data" }
+    ],
+    "recommends" : [
+        { "name" : "CustomBiomes-Data-Stock" }
+    ],
+    "resources" : {
+        "homepage" : "http://forum.kerbalspaceprogram.com/threads/66256"
+    },
+    "install" : [
+        {
+            "file"          : "CustomBiomes",
+            "install_to"    : "GameData"
+        }
+    ]
+}
