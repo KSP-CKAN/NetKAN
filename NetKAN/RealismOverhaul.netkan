@@ -42,9 +42,9 @@
 		{ "name" : "Toolbar" },
 		{ "name" : "TweakScale" }
     ],
-	"suggests"   : [
+    "suggests"   : [
 		{ "name" : "Service-Compartments-6S" },
-		{ "name" : "AIESAerospace" },
+		{ "name" : "AIESAerospace-Unofficial" },
 		{ "name" : "ALCOR" },
 		{ "name" : "DMagicOrbitalScience" },
 		{ "name" : "FASA" },
@@ -69,7 +69,7 @@
 		{ "name" : "UniversalStorage" },
 		{ "name" : "UniversalStorage-KAS" },
 		{ "name" : "UniversalStorage-TAC" }
-	],
+    ],
     "provides" : [ "RealFuels-Engine-Configs" ],
     "resources" : {
         "homepage" : "http://forum.kerbalspaceprogram.com/threads/99966"
