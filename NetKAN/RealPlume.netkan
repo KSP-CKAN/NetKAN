@@ -9,7 +9,7 @@
     "release_status" : "stable",
     "depends" : [
 		{ "name" : "RealismOverhaul" },
-		{ "name" : "SmokeScreen" },
+		{ "name" : "SmokeScreen" }
     ],
     "resources" : {
         "homepage" : "http://forum.kerbalspaceprogram.com/threads/99966"
