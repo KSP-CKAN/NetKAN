@@ -85,7 +85,7 @@
             "comment"    : "KAS config, does not overwrite"
         },
         {
-            "file"       : "EngineGroupController",
+            "file"       : "EngineGroupContoller",
             "install_to" : "GameData",
             "comment"    : "Engine Group Controller, unique to RO."
         }
