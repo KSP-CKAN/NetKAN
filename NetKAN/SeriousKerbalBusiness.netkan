@@ -1,0 +1,13 @@
+{
+    "spec_version" : 1,
+    "identifier"   : "SeriousKerbalBusiness", 
+    "$kref"        : "#/ckan/kerbalstuff/274",
+    "license"      : "BSD-3-clause",
+    "x_netkan_license_ok": true,
+    "install": [
+        {
+            "file": "SeriousBusiness",
+            "install_to": "GameData"
+        }
+    ]
+}
