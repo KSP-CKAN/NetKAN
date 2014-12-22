@@ -1,0 +1,14 @@
+{
+    "spec_version" : 1,
+    "identifier"   : "Hand-Glider style wings",
+    "$kref"        : "#/ckan/kerbalstuff/147",
+	
+	"license": "restricted",
+	
+	"install": [
+        {
+            "file"       : "GameData/Kerbice Group",
+            "install_to" : "GameData"
+        }
+	],
+}
