@@ -1,0 +1,12 @@
+{
+    "spec_version" : 1,
+    "identifier"   : "VenStockRevamp",
+    "$kref"        : "#/ckan/github/VenVen/Stock-Revamp",
+    "name"         : "Ven's Stock Part Revamp",
+    "abstract"     : "With this part pack, your rockets/planes/racecars will look at least 20% cooler as they tumble into the ground!",
+    "license"      : "CC-BY-4.0",
+    "$vref"        : "#/ckan/ksp-avc",
+    "depends"      : [
+        { "name" : "ModuleManager" }
+    ]
+}
