@@ -1,0 +1,14 @@
+{
+    "spec_version" : 1,
+    "identifier"   : "Ox-IA Converter",
+    "$kref"        : "#/ckan/kerbalstuff/204",
+	
+	"license": "restricted",
+	
+	"install": [
+        {
+            "file"       : "GameData/Kerbice Group",
+            "install_to" : "GameData"
+        }
+	],
+}
