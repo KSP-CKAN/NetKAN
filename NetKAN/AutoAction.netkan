@@ -1,13 +1,13 @@
 {
-    "spec_version" : 1,
-    "identifier"   : "AutoAction",
-    "$kref"        : "#/ckan/github/SirDiazo/AutoAction",
-    "name"         : "Auto Action",
-    "abstract"     : "Automatically activate action groups (and RCS/SAS) on vessel launch",
-    "license"      : "GPL-3.0",
-    "release_status" : "stable",
-    "ksp_version"  : "any",
-    "author" : "Diazo",
+	"spec_version" : 1,
+	"identifier"   : "AutoAction",
+	"$kref"        : "#/ckan/github/SirDiazo/AutoAction",
+	"name"         : "Auto Action",
+	"abstract"     : "Automatically activate action groups (and RCS/SAS) on vessel launch",
+	"license"      : "GPL-3.0",
+	"release_status" : "stable",
+	"ksp_version"  : "any",
+	"author" : "Diazo",
 
 	"depends": [
 		{ "name": "ModuleManager" }
@@ -22,9 +22,9 @@
 		"repository": "https://github.com/SirDiazo/AutoAction"
 	},
 	"install" : [
-{
-"file" : "GameData/Diazo",
-"install_to" : "GameData"
-}
-]
+		{
+			"file" : "GameData/Diazo",
+			"install_to" : "GameData"
+		}
+	]
 }
