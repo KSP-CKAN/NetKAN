@@ -15,9 +15,10 @@
 		"manual": "http://triggerau.github.io/TransferWindowPlanner/",
 		"x_curse": "http://kerbal.curseforge.com/ksp-mods/224116-transfer-window-planner"
 	},
-	"install" :[
-    {
-        "find"       : "TriggerTech",
-        "install_to" : "GameData"
-    }]
+	"install" : [
+            {
+                "find"       : "TransferWindowPlanner",
+                "install_to" : "GameData/TriggerTech"
+            }
+        ]
 }

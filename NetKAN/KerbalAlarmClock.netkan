@@ -15,9 +15,10 @@
 		"manual": "http://triggerau.github.io/KerbalAlarmClock/",
 		"x_curse": "http://kerbal.curseforge.com/ksp-mods/220289-kerbal-alarm-clock"
 	},
-	"install" :[
-    {
-        "find"       : "TriggerTech",
-        "install_to" : "GameData"
-    }]
+	"install" : [
+            {
+                "find"       : "KerbalAlarmClock",
+                "install_to" : "GameData/TriggerTech"
+            }
+        ]
 }
