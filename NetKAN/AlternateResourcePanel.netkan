@@ -1,9 +1,9 @@
 {
-    "spec_version"   : 1.4,
+    "spec_version"   : "v1.4",
     "$kref"          : "#/ckan/kerbalstuff/195",
     "name"           : "Alternate Resource Panel",
     "identifier"     : "AlternateResourcePanel",
-	"abstract"       : "An alternate view of vessel resources plugin for Kerbal Space Program",
+    "abstract"       : "An alternate view of vessel resources plugin for Kerbal Space Program",
     "license"        : "MIT",
 	"release_status": "stable",
 	"author": "TriggerAu",
