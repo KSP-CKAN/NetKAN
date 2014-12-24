@@ -1,5 +1,5 @@
 {
-	"spec_version": 1,
+	"spec_version": 1.4,
 	"$kref": "#/ckan/github/TriggerAu/KerbalAlarmClock",
 	"name": "Kerbal Alarm Clock",
 	"identifier": "KerbalAlarmClock",
@@ -14,5 +14,10 @@
 		"kerbalstuff": "https://kerbalstuff.com/mod/231/Kerbal%20Alarm%20Clock",
 		"Manual": "http://triggerau.github.io/KerbalAlarmClock/",
 		"x_curse": "http://kerbal.curseforge.com/ksp-mods/220289-kerbal-alarm-clock"
-	}
+	},
+	"install" :[
+    {
+        "find"       : "TriggerTech",
+        "install_to" : "GameData"
+    }]
 }
