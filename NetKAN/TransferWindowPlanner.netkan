@@ -8,11 +8,11 @@
 	"release_status": "stable",
 	"author": "TriggerAu",
 	"resources": {
-		"homepage": "http://forum.kerbalspaceprogram.com/threads/93115-Transfer-Window-Planner",
+		"homepage": "http://forum.kerbalspaceprogram.com/threads/93115",
 		"license": "https://github.com/TriggerAu/TransferWindowPlanner/blob/master/LICENSE",
 		"repository"   : "https://github.com/TriggerAu/TransferWindowPlanner",
 		"kerbalstuff": "https://kerbalstuff.com/mod/268/Transfer%20Window%20Planner",
-		"Manual": "http://triggerau.github.io/TransferWindowPlanner/",
+		"manual": "http://triggerau.github.io/TransferWindowPlanner/",
 		"x_curse": "http://kerbal.curseforge.com/ksp-mods/224116-transfer-window-planner"
 	},
 	"install" : [

@@ -8,11 +8,11 @@
 	"release_status": "stable",
 	"author": "TriggerAu",
 	"resources": {
-		"homepage": "http://forum.kerbalspaceprogram.com/threads/24786-Kerbal-Alarm-Clock",
+		"homepage": "http://forum.kerbalspaceprogram.com/threads/24786",
 		"license": "https://github.com/TriggerAu/KerbalAlarmClock/blob/master/LICENSE",
 		"repository"   : "https://github.com/TriggerAu/KerbalAlarmClock",
 		"kerbalstuff": "https://kerbalstuff.com/mod/231/Kerbal%20Alarm%20Clock",
-		"Manual": "http://triggerau.github.io/KerbalAlarmClock/",
+		"manual": "http://triggerau.github.io/KerbalAlarmClock/",
 		"x_curse": "http://kerbal.curseforge.com/ksp-mods/220289-kerbal-alarm-clock"
 	},
 	"install" : [
