@@ -1,5 +1,5 @@
 {
-	"spec_version": 1.4,
+	"spec_version": "v1.4",
 	"$kref": "#/ckan/github/TriggerAu/TransferWindowPlanner",
 	"name": "Transfer Window Planner",
 	"identifier": "TransferWindowPlanner",
@@ -15,9 +15,10 @@
 		"Manual": "http://triggerau.github.io/TransferWindowPlanner/",
 		"x_curse": "http://kerbal.curseforge.com/ksp-mods/224116-transfer-window-planner"
 	},
-	"install" :[
-    {
-        "find"       : "TriggerTech",
-        "install_to" : "GameData"
-    }]
+	"install" : [
+            {
+                "find"       : "TransferWindowPlanner",
+                "install_to" : "GameData/TriggerTech"
+            }
+        ]
 }
