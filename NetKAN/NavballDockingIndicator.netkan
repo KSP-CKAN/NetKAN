@@ -3,6 +3,7 @@
 	"identifier"     : "NavballDockingIndicator",
 
 	"$kref"          : "#/ckan/kerbalstuff/23",
+	
 	"name"           : "Simple Navball Docking Alignment Indicator",
 	"resources"      : { "repository" : "https://github.com/mic-e/kspnavballdockingalignmentindicator" },
 
@@ -16,5 +17,7 @@
 			"find"       : "NavBallDockingAlignmentIndicator",
 			"install_to" : "GameData"
 		}
-	]
+	],
+	
+	"x_netkan_license_ok" : true
 }
