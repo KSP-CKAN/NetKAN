@@ -1,0 +1,11 @@
+{
+    "spec_version"   : 1,
+    "identifier"     : "TransferWindowPlanner",
+    "$kref"          : "#/ckan/kerbalstuff/268",
+    "x_netkan_license_ok": true, 
+    "install"        : [ {
+        "file"       : "TransferWindowPlanner_1.1.3.0/GameData/TriggerTech",
+        "install_to" : "GameData",
+        "filter"     : "Flags"
+    } ]
+}
