@@ -3,13 +3,13 @@
     "identifier"   : "KerbalXMAS",
     "$kref"        : "#/ckan/kerbalstuff/440",
     "license"      : "CC-BY-NC-SA-4.0",
-    "install" : [
+    "install"      : [
         {
             "file"      : "GameData/XMas",
             "install_to": "GameData"
         }
     ],
-    "requires"     : [
+    "depends"     : [
         { "name": "ModuleManager" },
         { "name": "FirespitterCore" }
     ]
