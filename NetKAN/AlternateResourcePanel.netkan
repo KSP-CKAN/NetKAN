@@ -14,5 +14,10 @@
 		"kerbalstuff": "https://kerbalstuff.com/mod/195/Alternate%20Resource%20Panel",
 		"Manual": "https://sites.google.com/site/kspalternateresourcepanel/",
 		"x_curse": "http://kerbal.curseforge.com/ksp-mods/220649-alternate-resource-panel"
-	}
+	},
+	"install" :[
+    {
+        "find"       : "KSPAlternateResourcePanel",
+        "install_to" : "GameData/TriggerTech"
+    }]
 }
