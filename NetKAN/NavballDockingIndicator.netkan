@@ -1,20 +1,20 @@
 {
- "spec_version"   : 1,
- "identifier"     : "NavballDockingIndicator",
- "$kref"          : "#/ckan/github/mic-e/kspnavballdockingalignmentindicator",
- "name"           : "Simple Docking Indicator by mic_e",
- "author"         : "mic_e",
- "abstract"       : "Provides a simple navball indicator that is useful for docking",
- "license"        : "GPL-3.0",
- "ksp_version"    : "0.90",
- "resources"      : {
-           "homepage"   : "http://forum.kerbalspaceprogram.com/threads/54303-0-25-Navball-docking-alignment-indicator-v4",
-           "repository" : "https://github.com/mic-e/kspnavballdockingalignmentindicator"
-                     },
- "install" : [
-        {
-            "file"       : "NavBallDockingAlignmentIndicator/GameData/NavBallDockingAlignmentIndicator",
-            "install_to" : "GameData"
-        }
-                ]
+	"spec_version"   : "v1.4",
+	"identifier"     : "NavballDockingIndicator",
+
+	"$kref"          : "#/ckan/kerbalstuff/23",
+	"name"           : "Simple Navball Docking Alignment Indicator",
+	"resources"      : { "repository" : "https://github.com/mic-e/kspnavballdockingalignmentindicator" },
+
+	"resources"      : {
+	   "homepage"   : "http://forum.kerbalspaceprogram.com/threads/54303-0-25-Navball-docking-alignment-indicator-v4",
+	   "repository" : "https://github.com/mic-e/kspnavballdockingalignmentindicator"
+	},
+					 
+	"install" : [
+		{
+			"find"       : "NavBallDockingAlignmentIndicator",
+			"install_to" : "GameData"
+		}
+	]
 }
