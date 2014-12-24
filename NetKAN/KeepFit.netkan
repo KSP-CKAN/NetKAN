@@ -1,0 +1,12 @@
+{
+	"spec_version" : 1,
+	"identifier" : "KeepFit",
+	"x_netkan_license_ok": true,
+	
+	"$kref" : "#/ckan/kerbalstuff/295",
+	"$vref" : "#/ckan/ksp-avc",
+	
+	"depends": [
+		{ "name" : "ModuleManager", "min_version" : "2.5.1" }
+	]
+}
