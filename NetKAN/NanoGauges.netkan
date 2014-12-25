@@ -1,0 +1,10 @@
+{
+    "identifier"	: "NanoGauges", 
+    "license"		: "CC-BY-SA-3.0",
+    "$kref"			: "#/ckan/kerbalstuff/429", 
+    "spec_version"	: 1,
+	
+	"recommeds"		: [
+		{ "name"	: "Toolbar" }
+	]
+}
