@@ -1,9 +1,7 @@
 {
-    "spec_version" : 1,
-    "identifier"   : "EditorExtensions",
-    "$kref"        : "#/ckan/github/MachXXV/EditorExtensions",
-    "name"         : "Editor Extensions",
-    "abstract"     : "Adds the ability to build crafts in flight mode to your game.",
-    "license"      : "MIT",
-    "$vref"        : "#/ckan/ksp-avc"
+    "identifier"	: "EditorExtensions",
+	"abstract"  	: "Tweaks and features for the in-game vessel editor, e.g. alignment and symmetry aids.",
+    "x_netkan_license_ok": true, 
+    "$kref": "#/ckan/kerbalstuff/442", 
+    "spec_version": 1
 }
