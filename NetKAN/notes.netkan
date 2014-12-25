@@ -1,12 +1,10 @@
 {
-    "spec_version" : 1,
-    "identifier"   : "notes",
-    "$kref"        : "#/ckan/github/hashashin/ksp_notes",
-    "name"         : "Notepad",
-    "abstract"     : "Adds an ingame notepad",
-    "license"      : "GPL-3.0",
-    "ksp_version"  : "0.25",
-    "resources"    : {
-        "homepage" : "http://forum.kerbalspaceprogram.com/threads/55625"
+    "spec_version" 	: 1,
+    "identifier"   	: "notes",
+    "$kref"        	: "#/ckan/kerbalstuff/74",
+    "license"		: "GPL-3.0",
+	
+    "resources"    	: {
+        "homepage" 	: "http://forum.kerbalspaceprogram.com/threads/55625"
     }
 }
