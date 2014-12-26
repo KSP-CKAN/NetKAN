@@ -21,7 +21,7 @@ if (! -x $netkan) {
     # experimental features.
 
     my $agent = WWW::Mechanize->new( agent => "NetKAN travis testing" );
-    $agent->get("https://github.com/KSP-CKAN/CKAN/releases");
+    $agent->get("https://github.com/KSP-CKAN/CKAN/releases/latest");
     $agent->follow_link(text => 'netkan.exe');
 
     open(my $fh, '>', $netkan);
