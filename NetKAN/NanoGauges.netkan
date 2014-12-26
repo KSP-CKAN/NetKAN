@@ -4,6 +4,13 @@
     "$kref"			: "#/ckan/kerbalstuff/429", 
     "spec_version"	: 1,
 	
+	"install": [
+		{
+			"file": "GameData/Nereid",
+			"install_to": "GameData"
+		}
+	],
+	
 	"recommends"		: [
 		{ "name"	: "Toolbar" }
 	]
