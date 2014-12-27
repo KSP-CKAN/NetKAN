@@ -1,0 +1,14 @@
+{
+    "spec_version" : 1,
+    "identifier"   : "ImageViewer",
+    "$kref"        : "#/ckan/kerbalstuff/76",
+    "x_netkan_license_ok" : true,
+    "license": "GPL-3.0",
+
+    "install": [
+      {
+        "file": "GameData/img_viewer",
+        "install_to": "GameData"
+      }
+    ]
+}
