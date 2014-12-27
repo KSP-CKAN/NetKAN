@@ -2,5 +2,9 @@
 	"spec_version" 	: 1,
 	"identifier" 	: "KerbalWeatherSystems",
 	"$kref" 		: "#/ckan/kerbalstuff/262",
-	"license" 		: "restricted"
+	"license" 		: "restricted",
+	
+	"depends" : [
+		{ "name" : "FerramAerospaceResearch" }
+	]
 }
