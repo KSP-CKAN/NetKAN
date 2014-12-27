@@ -3,21 +3,15 @@
 	"identifier"     : "NavballDockingIndicator",
 
 	"$kref"          : "#/ckan/kerbalstuff/23",
-	
-	"name"           : "Simple Navball Docking Alignment Indicator",
+
 	"resources"      : { "repository" : "https://github.com/mic-e/kspnavballdockingalignmentindicator" },
 
-	"resources"      : {
-	   "homepage"   : "http://forum.kerbalspaceprogram.com/threads/54303-0-25-Navball-docking-alignment-indicator-v4",
-	   "repository" : "https://github.com/mic-e/kspnavballdockingalignmentindicator"
-	},
-					 
 	"install" : [
 		{
-			"find"       : "NavBallDockingAlignmentIndicator",
+			"find"       : "GameData/NavBallDockingAlignmentIndicator",
 			"install_to" : "GameData"
 		}
 	],
-	
+
 	"x_netkan_license_ok" : true
 }
