@@ -22,6 +22,7 @@ use JSON;
 
 my $README          = "https://raw.githubusercontent.com/snjo/Firespitter/master/README.md";
 my $FIRESPITTER_DLL = "https://github.com/snjo/Firespitter/blob/master/For%20release/Firespitter/Plugins/Firespitter.dll?raw=true";
+my $FIRESPITTER_CFG = "https://raw.githubusercontent.com/snjo/Firespitter/master/For%20release/Firespitter/Resources/Firespitter.cfg";
 my $CKAN_META       = "$Bin/../../CKAN-meta";
 my $VALIDATOR       = "$Bin/../../CKAN/bin/ckan-validate";
 
@@ -34,7 +35,10 @@ my $config        = Config::Tiny->read("$s3_config_dir/config.ini");
 my $s3 = Net::Amazon::S3::Client->new(
     s3 => Net::Amazon::S3->new(
         aws_access_key_id     => $config->{s3}{id},
-        aws_secret_access_key => $config->{s3}{secret}
+        aws_secret_access_key => $config->{s3}{secret},
+        secure                => 1,
+        timeout               => 60,
+        retry                 => 1,
     )
 );
 
@@ -64,8 +68,10 @@ seek($firespitter_fh,0,SEEK_SET);
 my $zip = Archive::Zip->new();
 $zip->addDirectory("Firespitter");
 $zip->addDirectory("Firespitter/Plugins");
+$zip->addDirectory("Firespitter/Resources");
 
 $zip->addString( $agent->get($README)->content, "Firespitter/README.md" );
+$zip->addString( $agent->get($FIRESPITTER_CFG)->content, "Firespitter/Resources/Firespitter.cfg" );
 $zip->addString( slurp($firespitter_fh), "Firespitter/Plugins/Firespitter.dll" );
 
 # We no longer need the firespitter tmpfile.
