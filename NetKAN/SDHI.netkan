@@ -8,14 +8,14 @@
     "ksp_version"  : "0.90",
     "resources"    : {
         "homepage"   : "http://forum.kerbalspaceprogram.com/threads/52362",
-        "repository" : "https://github.com/sumghai/SDHI_ServiceModuleSystem",
-	},
+        "repository" : "https://github.com/sumghai/SDHI_ServiceModuleSystem"
+    },
     "depends"      : [
         { "name" : "AnimatedDecouplers" },
         { "name" : "ModuleManager" },
         { "name" : "RealChute" }
     ],
-	"suggests"     : [ // add Klockheed Martian Special Parts, Node Resizer
+    "suggests"     : [ // add Klockheed Martian Special Parts, Node Resizer
         { "name" : "DeadlyReentry" },
         { "name" : "FerramAerospaceResearch" },
         { "name" : "HotRockets" },
