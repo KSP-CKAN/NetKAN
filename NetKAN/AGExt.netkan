@@ -12,6 +12,9 @@
     "resources" : {
         "homepage" : "http://forum.kerbalspaceprogram.com/threads/74195"
     },
+    "depends": [
+{ "name": "ModuleManager" }
+],
     "recommends" : [ { "name" : "Toolbar" } ],
     "install" : [
         {
