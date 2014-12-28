@@ -1,9 +1,11 @@
 {
 	"spec_version": 1,
 	"identifier": "RemoteTech",
-	"$kref": "#/ckan/kerbalstuff/134",
+	"$kref": "#/ckan/github/RemoteTechnologiesGroup/RemoteTech",
+	"ksp_version"  : "0.90",
 	"license": "restricted",
 	"release_status": "stable",
+	"x_netkan_license_ok": true,
 	"resources": {
 		"repository": "https://github.com/RemoteTechnologiesGroup/RemoteTech",
 		"bugtracker": "https://github.com/RemoteTechnologiesGroup/RemoteTech/issues",
@@ -23,7 +25,7 @@
 		}
 	],
 	"name": "RemoteTech",
-	"description": "RemoteTech allows you to construct vast relay networks of communication satellites and remotely controlled unmanned vehicles. Your unmanned vessels require an uplink to a command station to be controlled. This adds a new layer of difficulty that compensates for the lack of live crew members.",
+	"abstract": "RemoteTech allows you to construct vast relay networks of communication satellites and remotely controlled unmanned vehicles. Your unmanned vessels require an uplink to a command station to be controlled. This adds a new layer of difficulty that compensates for the lack of live crew members.",
 	"author": "Remote Technologies Group",
 	"x_maintained_by": "Starstrider42"
 }
