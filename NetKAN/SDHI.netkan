@@ -15,7 +15,7 @@
         { "name" : "ModuleManager" },
         { "name" : "RealChute" }
     ],
-    "suggests"     : [ // add Klockheed Martian Special Parts, Node Resizer
+    "suggests"     : [
         { "name" : "DeadlyReentry" },
         { "name" : "FerramAerospaceResearch" },
         { "name" : "HotRockets" },
