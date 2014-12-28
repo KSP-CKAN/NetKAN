@@ -1,0 +1,12 @@
+{
+    "spec_version" : 1,
+    "identifier"   : "AnimatedDecouplers",
+    "$kref"        : "#/ckan/github/Starwaster/AnimatedDecouplers",
+    "name"         : "Animated Decouplers",
+    "abstract"     : "Extensions of KSP's decouplers that play animations.",
+    "license"      : "CC-BY-SA-4.0",
+    "ksp_version"  : "0.90",
+    "resources"    : {
+        "repository" : "https://github.com/Starwaster/AnimatedDecouplers"
+    }
+}
