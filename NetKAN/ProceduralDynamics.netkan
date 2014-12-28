@@ -6,5 +6,7 @@
     "abstract"     : "Procedural wing (pWing for short) is a wing piece that the user can procedurally manipulate.",
     "license"      : "restricted",
     "ksp_version"  : "0.90",
-    "conflicts"    : "ProceduralWings"
+    "conflicts"    : [
+        { "name" : "ProceduralWings" }
+    ]
 }
