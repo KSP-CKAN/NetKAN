@@ -1,6 +1,12 @@
 {
-	"spec_version"	:	1,
-	"identifier"	:	"ProceduralDynamics",
-	"$kref"		:	"#/ckan/kerbalstuff/64",
-        "license"       :       "restricted"
+    "spec_version" : 1,
+    "identifier"   : "ProceduralDynamics",
+    "$kref"        : "#/ckan/github/NathanKell/ProceduralWings",
+    "name"         : "Procedural Wings",
+    "abstract"     : "Procedural wing (pWing for short) is a wing piece that the user can procedurally manipulate.",
+    "license"      : "restricted",
+    "ksp_version"  : "0.90",
+    "conflicts"    : [
+        { "name" : "ProceduralWings" }
+    ]
 }
