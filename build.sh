@@ -10,7 +10,7 @@ jsonlint -s -v ${COMMIT_CHANGES}
 # fetch latest netkan.exe
 wget -O netkan.exe http://ci.ksp-ckan.org:8080/job/NetKAN/lastSuccessfulBuild/artifact/netkan.exe
 
-for * in ${COMMIT_CHANGES}
+for f in ${COMMIT_CHANGES}
 do
-	mono --debug netkan.exe ${COMMIT_CHANGES} --cachedir="." --outputdir="."
+	mono --debug netkan.exe $f --cachedir="." --outputdir="."
 done
