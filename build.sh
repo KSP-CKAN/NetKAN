@@ -27,6 +27,7 @@ mkdir dummy_ksp/GameData
 
 mono --debug ckan.exe ksp add default "`pwd`/dummy_ksp"
 mono --debug ckan.exe ksp default default
+mono --debug ckan.exe update
 
 for f in built/*.ckan
 do
