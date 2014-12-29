@@ -1,10 +1,11 @@
 #!/bin/sh
 
-jsonlint -s -v NetKAN/*.netkan
-
 echo Commit hash: ${ghprbActualCommit}
-echo Changed files:
+echo Changes in this commit:
 git diff-tree --no-commit-id --name-only -r ${ghprbActualCommit}
 
-# export TRAVIS_PULL_REQUEST=true
-# prove
+jsonlint -s -v `git diff-tree --no-commit-id --name-only -r ${ghprbActualCommit}`
+
+# fetch latest netkan.exe
+wget -O netkan.exe http://ci.ksp-ckan.org:8080/job/NetKAN/lastSuccessfulBuild/artifact/netkan.exe
+
