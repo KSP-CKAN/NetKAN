@@ -29,7 +29,6 @@ mono --debug ckan.exe ksp add default "`pwd`/dummy_ksp"
 mono --debug ckan.exe ksp default default
 
 for f in built/*.ckan
-	mono --debug ckan.exe install -c $f
 do
-
+	mono --debug ckan.exe install -c $f
 done
