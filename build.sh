@@ -18,7 +18,7 @@ do
 done
 
 # fetch latest ckan.exe
-wget -O ckan.exe http://ci.ksp-ckan.org:8080/job/NetKAN/lastSuccessfulBuild/artifact/ckan.exe
+wget -O ckan.exe http://ci.ksp-ckan.org:8080/job/CKAN/lastSuccessfulBuild/artifact/ckan.exe
 
 # create a dummy KSP install
 mkdir dummy_ksp
