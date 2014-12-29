@@ -5,6 +5,6 @@
     "name"         : "Snacks",
     "abstract"     : "Add a simple life support system based on Snacks!",
     "license"      : "MIT",
-    "ksp_version"  : "0.25",
+    "ksp_version"  : "0.90",
     "depends": [ { "name": "ModuleManager" } ]
 }
