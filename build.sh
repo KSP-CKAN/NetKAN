@@ -20,16 +20,19 @@ done
 # fetch latest ckan.exe
 wget -O ckan.exe http://ci.ksp-ckan.org:8080/job/CKAN/lastSuccessfulBuild/artifact/ckan.exe
 
+# fetch latest ckan.exe
+wget --quiet http://ci.ksp-ckan.org:8080/job/CKAN/lastSuccessfulBuild/artifact/ckan.exe -O ckan.exe
+
 # create a dummy KSP install
 mkdir dummy_ksp
 echo Version 0.90.0 > dummy_ksp/readme.txt
 mkdir dummy_ksp/GameData
 
-mono --debug ckan.exe ksp add default "`pwd`/dummy_ksp"
-mono --debug ckan.exe ksp default default
+mono --debug ckan.exe ksp add ${ghprbActualCommit} "`pwd`/dummy_ksp"
+mono --debug ckan.exe ksp default ${ghprbActualCommit}
 mono --debug ckan.exe update
 
 for f in built/*.ckan
 do
-	mono --debug ckan.exe install -c $f
+	mono --debug ckan.exe install -c $f --headless
 done
