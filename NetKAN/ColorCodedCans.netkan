@@ -1,0 +1,10 @@
+{
+"spec_version" : 1,
+"identifier" : "ColorCodedCans",
+"$kref" : "#/ckan/kerbalstuff/465",
+"$vref" : "#/ckan/ksp-avc",
+"license" : "CC-BY-NC-SA",
+"depends" : [
+{ "name" : "ModuleManager", "min_version" : "2.5.6" }
+]
+}
