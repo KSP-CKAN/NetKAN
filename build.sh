@@ -1,5 +1,6 @@
 #!/bin/bash
 set -x
+set -e
 
 echo Commit hash: ${ghprbActualCommit}
 export COMMIT_CHANGES="`git diff --name-only --stat origin/master`"
