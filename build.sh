@@ -18,9 +18,6 @@ do
 done
 
 # fetch latest ckan.exe
-wget -O ckan.exe http://ci.ksp-ckan.org:8080/job/CKAN/lastSuccessfulBuild/artifact/ckan.exe
-
-# fetch latest ckan.exe
 wget --quiet http://ci.ksp-ckan.org:8080/job/CKAN/lastSuccessfulBuild/artifact/ckan.exe -O ckan.exe
 
 # create a dummy KSP install
