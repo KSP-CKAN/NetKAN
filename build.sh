@@ -2,9 +2,7 @@
 set -x
 
 echo Commit hash: ${ghprbActualCommit}
-echo Changes in this commit:
-export COMMIT_CHANGES=`git diff-tree --no-commit-id --name-only -r ${ghprbActualCommit}`
-echo ${COMMIT_CHANGES}
+export COMMIT_CHANGES="`git diff --name-only --stat origin/master`"
 
 echo Running jsonlint on the changed files
 echo If you get an error below you should look for syntax errors in the metadata
