@@ -3,5 +3,7 @@
     "license": "GPL-3.0", 
     "$kref": "#/ckan/kerbalstuff/460", 
     "spec_version": "1.4",
-	{ "file": "GameData/Diazo", "install_to": "GameData/Diazo" }
+	"install": [
+		{ "file": "GameData/Diazo", "install_to": "GameData/Diazo" }
+	]
 }
