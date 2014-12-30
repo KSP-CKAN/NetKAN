@@ -19,7 +19,6 @@ mono --debug ckan.exe ksp default ${ghprbActualCommit}
 
 echo Running ckan update
 mono --debug ckan.exe update
-mkdir dummy_ksp/CKAN/downloads
 
 echo Commit hash: ${ghprbActualCommit}
 export COMMIT_CHANGES="`git diff --name-only --stat origin/master`"
