@@ -1,0 +1,9 @@
+{
+    "identifier": "VerticalVelocityControl", 
+    "license": "GPL-3.0", 
+    "$kref": "#/ckan/kerbalstuff/459", 
+    "spec_version": "1.4",
+	"install": [
+		{ "file": "GameData/Diazo", "install_to": "GameData/Diazo" }
+	]
+}
