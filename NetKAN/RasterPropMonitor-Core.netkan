@@ -6,8 +6,9 @@
     "author"         : "Mihara",
     "abstract"       : "A toolkit for creating interactive IVA experiences.",
     "comment"        : "This package contains the plugin, and the standard parts library.",
-    "$vref"          : "#/ckan/ksp-avc",
+
     "license"        : "GPL-3.0",
+    "ksp_version_min": "0.25.0",
     "release_status" : "stable",
     "resources" : {
         "homepage" : "http://forum.kerbalspaceprogram.com/threads/57603",
