@@ -4,6 +4,6 @@
     "$kref": "#/ckan/kerbalstuff/448", 
     "spec_version": "1.4",
 	"install": [
-		{ "file": "GilB9Shuttle_Wings", "GameData/GilB9Shuttle_Wings" }
+		{ "file": "GilB9Shuttle_Wings", "install_to": "GameData/GilB9Shuttle_Wings" }
 	]
 }
