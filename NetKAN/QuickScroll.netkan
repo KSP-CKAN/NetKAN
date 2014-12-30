@@ -2,5 +2,12 @@
     "identifier": "QuickScroll", 
     "x_netkan_license_ok": true, 
     "$kref": "#/ckan/kerbalstuff/436", 
-    "spec_version": 1
+    "spec_version": 1,
+	 "license" : "GPL-3.0",
+	 "resources":{
+		"repository": "https://github.com/malahx/QuickScroll"
+	 },
+	"conflicts" : [
+		{ "name" : "PartCatalog" }
+	]
 }
