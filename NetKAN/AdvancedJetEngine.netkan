@@ -1,0 +1,17 @@
+{
+    "identifier": "AdvancedJetEngine", 
+    "license": "LGPL-2.1", 
+    "$kref": "#/ckan/kerbalstuff/462", 
+    "spec_version": 1,
+	"depends" : [
+        { "name" : "FerramAerospaceResearch" },
+        { "name" : "ModuleManager" }
+    ],
+    "recommends" : [
+        { "name" : "RealFuels" },
+        { "name" : "HotRockets" }
+    ],
+	"install": [
+		{ "file": "AJE-solver_redo/GameData/AJE", "install_to": "GameData/AJE" }
+	]
+}
