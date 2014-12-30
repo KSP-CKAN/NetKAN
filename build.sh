@@ -8,7 +8,7 @@ echo ${COMMIT_CHANGES}
 jsonlint -s -v ${COMMIT_CHANGES}
 
 # fetch latest netkan.exe
-wget -O netkan.exe http://ci.ksp-ckan.org:8080/job/NetKAN/lastSuccessfulBuild/artifact/netkan.exe
+wget --quiet http://ci.ksp-ckan.org:8080/job/NetKAN/lastSuccessfulBuild/artifact/netkan.exe -O netkan.exe
 
 mkdir built
 
