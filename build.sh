@@ -13,6 +13,9 @@ echo Creating a dummy KSP install
 mkdir dummy_ksp
 echo Version 0.90.0 > dummy_ksp/readme.txt
 mkdir dummy_ksp/GameData
+mkdir dummy_ksp/Ships/
+mkdir dummy_ksp/Ships/VAB
+mkdir dummy_ksp/Ships/SPH
 
 mono --debug ckan.exe ksp add ${ghprbActualCommit} "`pwd`/dummy_ksp"
 mono --debug ckan.exe ksp default ${ghprbActualCommit}
