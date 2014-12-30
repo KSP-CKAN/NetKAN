@@ -1,6 +1,6 @@
 {
-    "identifier": "RoutineMissionManager", 
-    "x_netkan_license_ok": true, 
+    "identifier": "RoutineMissionManager",
     "spec_version": 1, 
-    "$kref": "#/ckan/kerbalstuff/463"
+    "$kref": "#/ckan/kerbalstuff/463",
+	"license": "BSD-4-clause"
 }
