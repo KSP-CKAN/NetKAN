@@ -2,5 +2,8 @@
     "identifier": "K2CommandPod", 
     "x_netkan_license_ok": true, 
     "$kref": "#/ckan/kerbalstuff/445", 
-    "spec_version": 1
+    "spec_version": "1.4",
+	"install": [
+	{ "file": "GameData/JFJohnny5", "install_to": "GameData/FJohnny5" }
+	]
 }
