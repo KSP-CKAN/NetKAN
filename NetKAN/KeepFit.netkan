@@ -1,5 +1,5 @@
 {
-	"spec_version" : 1,
+	"spec_version" : "v1.4",
 	"identifier" : "KeepFit",
 	"x_netkan_license_ok": true,
 	
@@ -8,5 +8,12 @@
 	
 	"depends": [
 		{ "name" : "ModuleManager", "min_version" : "2.5.1" }
+	],
+	
+	"install" : [
+		{
+			"find" : "KeepFit",
+			"install_to": "GameData/Timmers"
+		}
 	]
 }
