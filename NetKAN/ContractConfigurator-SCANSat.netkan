@@ -1,0 +1,20 @@
+{
+    "spec_version" : "v1.4",
+    "identifier"   : "ContractConfigurator-SCANsat", 
+    "$kref"        : "#/ckan/github/SimonTheSourcerer/CCSCANsatMissionPack",
+    "abstract"     : "A Mission pack creating SCANsat contracts",
+    "name"         : "SCANsat mission pack",
+    "license"      : "public-domain",
+    "x_netkan_license_ok": true,
+    "x_maintained_by": "hakan42, who loves to fly missions with contracts in them",
+    "depends": [
+        { "name": "ContractConfigurator" },
+        { "name": "SCANsat" }
+    ],
+    "install" :[
+        {
+            "find"       : "CC_Contracts",
+            "install_to" : "GameData"
+        }
+    ]
+}
