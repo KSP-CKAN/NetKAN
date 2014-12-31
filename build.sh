@@ -46,6 +46,11 @@ done
 
 for f in built/*.ckan
 do
+	echo **********************************************
+	echo 
+	cat %f
+	echo **********************************************
+	echo 
 	echo Running ckan install -c %f
 	mono --debug ckan.exe install -c $f --headless
 done
