@@ -5,6 +5,6 @@
     "spec_version": "1.4",
     "$kref": "#/ckan/kerbalstuff/468",
 	"install": [
-		{ "file": "GameData/NehemiahInc", "install_to": "GameData/NehemiahInc" }
+		{ "file": "NehemiahInc", "install_to": "GameData/NehemiahInc" }
 	]
 }
