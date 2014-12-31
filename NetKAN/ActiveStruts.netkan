@@ -1,5 +1,5 @@
 {
-    "spec_version": 1,
+    "spec_version": "1.4",
     "identifier"  : "ActiveStruts",
     "name"        : "CIT - ActiveStruts",
     "author"      : "marce",
@@ -15,8 +15,8 @@
 	],
 	"install": [
         {
-            "file"       : "CIT",
-            "install_to" : "GameData"
+            "file"       : "CIT/ActiveStruts",
+            "install_to" : "GameData/CIT/ActiveStruts"
         }
     ],
 	"resources": {
