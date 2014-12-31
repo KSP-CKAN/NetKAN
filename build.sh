@@ -48,7 +48,7 @@ for f in built/*.ckan
 do
 	echo **********************************************
 	echo 
-	cat %f
+	cat %f | python -m json.tool
 	echo **********************************************
 	echo 
 	echo Running ckan install -c %f
