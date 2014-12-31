@@ -46,11 +46,11 @@ done
 
 for f in built/*.ckan
 do
-	echo **********************************************
+	echo ----------------------------------------------
 	echo 
-	cat %f | python -m json.tool
-	echo **********************************************
+	cat $f | python -m json.tool
+	echo ----------------------------------------------
 	echo 
-	echo Running ckan install -c %f
+	echo Running ckan install -c $f
 	mono --debug ckan.exe install -c $f --headless
 done
