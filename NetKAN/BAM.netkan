@@ -13,7 +13,7 @@
 	"install": [
 		{
 			"file" : "CIT/BAM",
-			"install_to" : "GameData/CIT/BAM"
+			"install_to" : "GameData/CIT"
 		}
 	],
 	"resources": {
