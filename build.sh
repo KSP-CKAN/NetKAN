@@ -24,7 +24,7 @@ echo Running ckan update
 mono --debug ckan.exe update
 
 echo Commit hash: ${ghprbActualCommit}
-export COMMIT_CHANGES="`git diff --name-only --stat origin/master`"
+export COMMIT_CHANGES="`git diff --diff-filter=M --name-only --stat origin/master`"
 
 echo Running jsonlint on the changed files
 echo If you get an error below you should look for syntax errors in the metadata
