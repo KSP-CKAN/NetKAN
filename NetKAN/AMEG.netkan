@@ -6,6 +6,9 @@
     "license"         : "restricted",
     "release_status"  : "stable",
     "ksp_version_min" : "0.23",
+  "resources": {
+    "kerbalstuff": "https://kerbalstuff.com/mod/279"
+	},
     "install" : [
         {
             "file"       : "GameData/Kerbice Group",
