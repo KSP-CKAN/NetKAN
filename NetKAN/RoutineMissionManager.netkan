@@ -1,6 +1,9 @@
 {
     "identifier": "RoutineMissionManager",
-    "spec_version": 1, 
+    "spec_version": "1.4", 
     "$kref": "#/ckan/kerbalstuff/463",
-	"license": "BSD-4-clause"
+    "license": "BSD-4-clause",
+    "install": [
+        { "file": "GameData/RoutineMissionManager", "install_to": "GameData/RoutineMissionManager", "filter": "ModuleManager.2.5.1.dll" }
+    ]
 }
