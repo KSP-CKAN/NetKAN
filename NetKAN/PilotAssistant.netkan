@@ -1,0 +1,18 @@
+{
+    "spec_version" : 1,
+    "identifier"   : "PilotAssistant",
+    "$kref"        : "#/ckan/github/Crzyrndm/Pilot-Assistant",
+    "name"         : "Pilot Assistant",
+    "abstract"     : "Helpful tool wich controls planes' altitude and heading via autopilot or custom SAS",
+    "license"      : "CC-BY-4.0",
+    "ksp_version"  : "0.90",
+   "resources" : {
+        "homepage" : "http://forum.kerbalspaceprogram.com/threads/100073"
+    },
+    "install": [
+        {
+            "file"       : "GameData/Pilot Assistant",
+            "install_to" : "GameData"
+        }
+    ]
+}
