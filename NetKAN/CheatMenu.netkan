@@ -13,7 +13,7 @@
 	"install": [
 		{
 			"file" : "CIT/CheatMenu",
-			"install_to" : "GameData/CIT/CheatMenu"
+			"install_to" : "GameData/CIT"
 		}
 	],
 	"resources": {
