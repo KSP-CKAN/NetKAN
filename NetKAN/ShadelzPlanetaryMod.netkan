@@ -2,7 +2,7 @@
     "identifier": "ShadelzPlanetaryMod", 
     "$kref": "#/ckan/kerbalstuff/439", 
 	"license"      : "CC-BY-4.0",
-    "spec_version": 1
+    "spec_version": 1,
     "install": [
         {
             "file"       : "GameData/PlanetFactory",
