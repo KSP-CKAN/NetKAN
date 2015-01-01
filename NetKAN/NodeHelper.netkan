@@ -14,7 +14,7 @@
 	"install": [
 		{
 			"file" : "CIT/NodeHelper",
-			"install_to" : "GameData/CIT/NodeHelper"
+			"install_to" : "GameData/CIT"
 		}
 	],
 	"resources": {
