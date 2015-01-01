@@ -4,6 +4,6 @@
     "$kref": "#/ckan/kerbalstuff/458", 
     "spec_version": "1.4",
 	"install": [
-		{ "file": "GameData/Diazo", "install_to": "GameData/Diazo" }
+		{ "file": "GameData/Diazo", "install_to": "GameData" }
 	]
 }
