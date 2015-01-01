@@ -4,6 +4,6 @@
     "$kref": "#/ckan/kerbalstuff/445", 
     "spec_version": "1.4",
 	"install": [
-	{ "file": "GameData/JFJohnny5", "install_to": "GameData/FJohnny5" }
+	{ "file": "GameData/JFJohnny5", "install_to": "GameData" }
 	]
 }
