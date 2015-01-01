@@ -3,22 +3,4 @@
     "$kref": "#/ckan/kerbalstuff/439", 
 	"license"      : "CC-BY-4.0",
     "spec_version": 1
-    "install": [
-        {
-            "file"       : "GameData/PlanetFactory",
-            "install_to" : "GameData"
-        }
-        {
-            "file"       : "GameData/KittopiaSpace",
-            "install_to" : "GameData"
-        }		
-        {
-            "file"       : "GameData/DistantObject",
-            "install_to" : "GameData"
-        }
-        {
-            "file"       : "GameData/CustomBiomes",
-            "install_to" : "GameData"
-        }		
-    ]
-	}
+}
