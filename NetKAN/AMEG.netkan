@@ -6,6 +6,9 @@
     "license"         : "restricted",
     "release_status"  : "stable",
     "ksp_version_min" : "0.23",
+  "resources": {
+    "homepage": "http://forum.kerbalspaceprogram.com/threads/74309"
+	},
     "install" : [
         {
             "file"       : "GameData/Kerbice Group",

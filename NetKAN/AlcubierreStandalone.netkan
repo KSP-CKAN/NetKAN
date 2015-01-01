@@ -7,6 +7,10 @@
     "abstract": "The Alcubierre drive works by moving space around your ship, not through acceleration.",
     "license": "CC-BY-NC-SA-4.0",
     "ksp_version": "0.90",
+  "resources": {
+    "homepage": "http://forum.kerbalspaceprogram.com/threads/100798",
+	 "repository" : "https://github.com/BobPalmer/WarpDrive"
+	},
     "install": [
 					{
 						"file": "GameData/UmbraSpaceIndustries",

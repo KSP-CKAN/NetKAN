@@ -2,7 +2,10 @@
     "spec_version": 1,
     "identifier": "AVeryKerbalChristmas", 
     "x_netkan_license_ok": true, 
-    "$kref": "#/ckan/kerbalstuff/426", 
+    "$kref": "#/ckan/kerbalstuff/426",
+  "resources": {
+    "homepage": "http://forum.kerbalspaceprogram.com/threads/55462"
+  },
     "install"        : [ {
         "file"       : "MP_Nazari",
         "install_to" : "GameData",
