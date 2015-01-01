@@ -14,7 +14,7 @@
 	"install": [
 		{
 			"file" : "CIT/GovFunding",
-			"install_to" : "GameData/CIT/GovFunding"
+			"install_to" : "GameData/CIT"
 		}
 	],
 	"resources": {
