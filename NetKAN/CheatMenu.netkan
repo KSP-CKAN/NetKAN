@@ -1,0 +1,22 @@
+{
+	"spec_version": "1.4",
+	"identifier" : "CheatMenu",
+	"name" : "CIT - CheatMenu",
+	"author" : "marce",
+	"abstract" : "A funds, science & rep cheat menu for testing purposes.",
+	"license" : "CC-BY-NC-SA-4.0",
+	"$kref": "#/ckan/http/https://ksp.marce.at/Home/DownloadMod?modId=7",
+	"$vref" : "#/ckan/ksp-avc/CIT/CheatMenu/CheatMenu.version",
+	"depends": [
+		{ "name": "CIT-Util" }
+	],
+	"install": [
+		{
+			"file" : "CIT/CheatMenu",
+			"install_to" : "GameData/CIT/CheatMenu"
+		}
+	],
+	"resources": {
+		"homepage": "https://ksp.marce.at/"
+	}
+}
