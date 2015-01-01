@@ -13,6 +13,6 @@
 	],
 	
 	"install" : [
-		{ "file" : "GameData/Diazo", "install_to" : "GameData/Diazo" }
+		{ "file" : "GameData/Diazo", "install_to" : "GameData" }
 	]
 }
