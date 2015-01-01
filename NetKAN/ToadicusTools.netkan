@@ -2,6 +2,9 @@
     "$kref": "#/ckan/kerbalstuff/470",
     "x_via": "Automated KerbalStuff CKAN submission",
     "identifier": "ToadicusTools",
-    "license": "BSD",
-    "spec_version": 1
+    "license": "BSD-3-clause",
+	"install": [
+		{ "file": "GameData/ToadicusTools", "install_to": "GameData" }
+	]
+    "spec_version": "1.4"
 }
