@@ -7,18 +7,18 @@
         {
             "file"       : "GameData/PlanetFactory",
             "install_to" : "GameData"
-        }
+        },
         {
             "file"       : "GameData/KittopiaSpace",
             "install_to" : "GameData"
-        }		
+        },	
         {
             "file"       : "GameData/DistantObject",
             "install_to" : "GameData"
-        }
+        },
         {
             "file"       : "GameData/CustomBiomes",
             "install_to" : "GameData"
-        }		
+        }
     ]
 	}
