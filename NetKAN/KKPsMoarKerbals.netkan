@@ -4,6 +4,6 @@
     "$kref": "#/ckan/kerbalstuff/461", 
     "spec_version": "1.4",
 	"install": [
-		{ "file": "GameData/KKP", "install_to": "GameData/KKP" }
+		{ "file": "GameData/KKP", "install_to": "GameData" }
 	]
 }
