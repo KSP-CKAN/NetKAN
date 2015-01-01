@@ -10,7 +10,7 @@
 	"install": [
 		{
 			"file" : "CIT",
-			"install_to" : "GameData/CIT"
+			"install_to" : "GameData"
 		}
 	],
 	"resources": {
