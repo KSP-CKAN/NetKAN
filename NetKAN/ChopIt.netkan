@@ -13,7 +13,7 @@
 	"install": [
 		{
 			"file" : "CIT/ChopIt",
-			"install_to" : "GameData/CIT/ChopIt"
+			"install_to" : "GameData/CIT"
 		}
 	],
 	"resources": {
