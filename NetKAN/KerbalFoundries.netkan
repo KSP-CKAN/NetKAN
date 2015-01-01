@@ -1,0 +1,17 @@
+{
+    "spec_version"   : 1,
+    "identifier"     : "KerbalFoundries",
+    "$kref"          : "#/ckan/kerbalstuff/58",
+    "license"        : "GPL-3.0",
+	"ksp_version_min" : "0.25",
+    "recommends" : [
+        { "name" : "TweakScale" }
+    ],
+	
+ "install" : [
+        {
+            "file"       : "KerbalFoundries",
+            "install_to" : "GameData"
+        }
+    ]
+}
