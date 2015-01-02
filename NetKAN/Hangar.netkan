@@ -1,8 +1,10 @@
 {
-    "spec_version" : 1,
+    "spec_version" : "v1.4",
     "identifier"   : "Hangar",
     "$kref"        : "#/ckan/kerbalstuff/270",
     "x_netkan_license_ok": true,
+	
+	"conflicts": [ { "name": "KSPAPIExtensions" } ],
     
     "depends": 
     [
@@ -14,4 +16,8 @@
         { "name": "Extraplanetary-Launchpads" },
         { "name": "EditorExtensions" },
     ],
+	
+	"install": [
+		{ "file": "GameData/Hangar", "install_to": "GameData" }
+	]
 }
