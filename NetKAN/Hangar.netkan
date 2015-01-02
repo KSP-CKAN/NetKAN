@@ -8,13 +8,13 @@
     
     "depends": 
     [
-        { "name": "ModuleManager" },
+        { "name": "ModuleManager" }
     ],
     
     "suggests": 
     [
         { "name": "Extraplanetary-Launchpads" },
-        { "name": "EditorExtensions" },
+        { "name": "EditorExtensions" }
     ],
 	
 	"install": [
