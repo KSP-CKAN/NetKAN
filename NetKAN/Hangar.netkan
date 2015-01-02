@@ -1,19 +1,23 @@
 {
-	"spec_version" : 1,
-	"identifier" : "Hangar",
-	"$kref" : "#/ckan/kerbalstuff/270",
-	"license" : "CC-BY-4.0",
-	"depends": [
-		{ "name" : "ModuleManager" },
-		{ "name" : "KSPAPIExtensions" }
-	],
+    "spec_version" : "v1.4",
+    "identifier"   : "Hangar",
+    "$kref"        : "#/ckan/kerbalstuff/270",
+    "x_netkan_license_ok": true,
+	
+	"conflicts": [ { "name": "KSPAPIExtensions" } ],
+    
+    "depends": 
+    [
+        { "name": "ModuleManager" }
+    ],
+    
+    "suggests": 
+    [
+        { "name": "Extraplanetary-Launchpads" },
+        { "name": "EditorExtensions" }
+    ],
+	
 	"install": [
-		{
-			"file": "GameData/Hangar",
-			"install_to": "GameData",
-			"filter": "KSPAPIExtensions.dll",
-			"comment": "Contains KSPAPIExtensions mod in this distribution"
-		}
-	],
-	"x_netkan_license_ok": true
+		{ "file": "GameData/Hangar", "install_to": "GameData" }
+	]
 }
