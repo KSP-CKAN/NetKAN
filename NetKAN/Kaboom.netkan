@@ -2,6 +2,10 @@
     "$kref": "#/ckan/kerbalstuff/471",
     "x_via": "Automated KerbalStuff CKAN submission",
     "identifier": "Kaboom",
-    "license": "Kaboom! is released under an open license, feel free to modify and re-release Kaboom! just be sure to link back to the original.",
-    "spec_version": 1
+    "license": "unrestricted",
+    "spec_version": "v1.4",
+	"install": [
+		{ "file": "GameData/Kaboom", "install_to": "GameData" }
+	],
+	"depends": [ { "name": "ModuleManager" } ]
 }
