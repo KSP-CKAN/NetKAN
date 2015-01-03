@@ -30,8 +30,14 @@ mono --debug ckan.exe ksp default ${KSP_NAME}
 echo Running ckan update
 mono --debug ckan.exe update
 
-echo Commit hash: ${ghprbActualCommit}
-export COMMIT_CHANGES="`git diff --diff-filter=AM --name-only --stat origin/master`"
+if [ -z ${ghprbActualCommit} ]
+then
+    echo No commit hash, running all netkan files
+    export COMMIT_CHANGES=NetKAN/*.netkan
+else
+    echo Commit hash: ${ghprbActualCommit}
+    export COMMIT_CHANGES="`git diff --diff-filter=AM --name-only --stat origin/master`"
+fi
 
 echo Running jsonlint on the changed files
 echo If you get an error below you should look for syntax errors in the metadata
