@@ -56,10 +56,11 @@ wget --quiet http://ci.ksp-ckan.org:8080/job/NetKAN/lastSuccessfulBuild/artifact
 
 mkdir built
 
+# additional NETKAN_OPTIONS may be set on jenkins jobs
 for f in ${COMMIT_CHANGES}
 do
 	echo Running NetKAN for $f
-	mono --debug netkan.exe $f --cachedir="dummy_ksp/CKAN/downloads" --outputdir="built"
+	mono --debug netkan.exe $f --cachedir="dummy_ksp/CKAN/downloads" --outputdir="built" ${NETKAN_OPTIONS}
 done
 
 for f in built/*.ckan
