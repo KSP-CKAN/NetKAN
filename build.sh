@@ -10,6 +10,11 @@ wget --quiet http://ci.ksp-ckan.org:8080/job/CKAN/lastSuccessfulBuild/artifact/c
 echo Creating a dummy KSP install
 
 # create a dummy KSP install
+if [ "${USER}" eq "jenkins" ]
+then
+    rm ${HOME}/.mono/registry/CurrentUser/software/ckan/values.xml
+fi
+
 mkdir dummy_ksp
 echo Version 0.90.0 > dummy_ksp/readme.txt
 mkdir dummy_ksp/GameData
