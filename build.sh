@@ -10,7 +10,7 @@ wget --quiet http://ci.ksp-ckan.org:8080/job/CKAN/lastSuccessfulBuild/artifact/c
 echo Creating a dummy KSP install
 
 # create a dummy KSP install
-if [ "${USER}" eq "jenkins" ]
+if [ "${USER}" = "jenkins" ]
 then
     rm ${HOME}/.mono/registry/CurrentUser/software/ckan/values.xml
 fi
