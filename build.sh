@@ -12,7 +12,11 @@ echo Creating a dummy KSP install
 # create a dummy KSP install
 if [ "${USER}" = "jenkins" ]
 then
-    rm ${HOME}/.mono/registry/CurrentUser/software/ckan/values.xml
+    REGISTRY_FILE=${HOME}/.mono/registry/CurrentUser/software/ckan/values.xml
+    if [ -r ${REGISTRY_FILE} ]
+    then
+        rm -f ${REGISTRY_FILE}
+    fi
 fi
 
 mkdir dummy_ksp
