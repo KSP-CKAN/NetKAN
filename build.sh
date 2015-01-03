@@ -17,8 +17,15 @@ mkdir dummy_ksp/Ships/
 mkdir dummy_ksp/Ships/VAB
 mkdir dummy_ksp/Ships/SPH
 
-mono --debug ckan.exe ksp add ${ghprbActualCommit} "`pwd`/dummy_ksp"
-mono --debug ckan.exe ksp default ${ghprbActualCommit}
+if [ -z ${ghprbActualCommit} ]
+then
+    KSP_NAME=dummy
+else
+    KSP_NAME=${ghprbActualCommit}
+fi
+
+mono --debug ckan.exe ksp add ${KSP_NAME} "`pwd`/dummy_ksp"
+mono --debug ckan.exe ksp default ${KSP_NAME}
 
 echo Running ckan update
 mono --debug ckan.exe update
