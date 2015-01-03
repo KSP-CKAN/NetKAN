@@ -15,9 +15,6 @@
 		"manual": "http://triggerau.github.io/TransferWindowPlanner/",
 		"x_curse": "http://kerbal.curseforge.com/ksp-mods/224116-transfer-window-planner"
 	},
-    "recommends" : [
-        { "name" : "TriggerAu-Flags" }
-    ],
 	"install" : [
             {
                 "find"       : "TransferWindowPlanner",
