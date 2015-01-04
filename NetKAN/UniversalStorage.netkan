@@ -8,7 +8,7 @@
         { "name" : "CommunityResourcePack" },
         { "name" : "ModuleManager" }
     ],
-	"conflicts": [
+	"x_conflicts": [
 		{ "name": "UniversalStorage-ECLSS" },
 		{ "name": "UniversalStorage-IFI" },
 		{ "name": "UniversalStorage-KAS" },
