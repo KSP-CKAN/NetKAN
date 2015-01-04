@@ -19,6 +19,7 @@
     ],
     "recommends" : [
 		{ "name" : "ActiveTextureManagement" },
+		{ "name" : "BetterBuoyancy" },
 		{ "name" : "ConnectedLivingSpace" },
 		{ "name" : "DeadlyReentry" },
 		{ "name" : "EngineIgnitor" },
@@ -87,7 +88,7 @@
             "comment"    : "KAS config, does not overwrite"
         },
         {
-            "file"       : "EngineGroupContoller",
+            "file"       : "EngineGroupController",
             "install_to" : "GameData",
             "comment"    : "Engine Group Controller, unique to RO."
         }
