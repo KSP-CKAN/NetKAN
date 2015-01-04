@@ -19,6 +19,7 @@
     ],
     "recommends" : [
 		{ "name" : "ActiveTextureManagement" },
+		{ "name" : "BetterBuoyancy" },
 		{ "name" : "ConnectedLivingSpace" },
 		{ "name" : "DeadlyReentry" },
 		{ "name" : "EngineIgnitor" },
