@@ -2,5 +2,6 @@
     "spec_version" : 1,
     "identifier"   : "KWRocketry",
     "$kref"        : "#/ckan/kerbalstuff/67",
-    "license"      : "CC-BY-SA-3.0"
+    "license"      : "CC-BY-SA-3.0",
+    "ksp_version_min": "0.25"
 }
