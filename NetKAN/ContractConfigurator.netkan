@@ -1,7 +1,7 @@
 {
     "spec_version": 1,
     "identifier": "ContractConfigurator",
-    "$kref": "#/ckan/github/jrossignol/ContractConfigurator",
+    #"$kref": "#/ckan/github/jrossignol/ContractConfigurator",
     "name": "Contract Configurator",
     "abstract": "A config-file based solution for creating new contracts!",
     "license": "CC-BY-NC-SA-4.0",
