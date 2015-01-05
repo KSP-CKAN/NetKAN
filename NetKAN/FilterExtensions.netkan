@@ -9,11 +9,7 @@
 	
     "install": [
         {
-            "file"       : "GameData/Filter Extensions",
-            "install_to" : "GameData"
-        },
-		{
-            "file"       : "GameData/000_Configs and Icons",
+            "file"       : "000_FilterExtensions",
             "install_to" : "GameData"
         }
     ]
