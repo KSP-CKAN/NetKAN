@@ -1,0 +1,11 @@
+{
+    "$kref": "#/ckan/kerbalstuff/480",
+	"$vref": "#/ckan/avc",
+    "x_via": "Automated KerbalStuff CKAN submission",
+    "identifier": "KerbalRPNCalculator",
+    "license": "GPL-3.0",
+    "spec_version": "v1.4",
+	"install": [
+		{ "file": "KerbalRPNCalc", "install_to": "GameData", "filter": "Thumbs.db" }
+	]
+}

@@ -4,7 +4,7 @@
 	"$kref"		: "#/ckan/kerbalstuff/365",
 	"license"   : "restricted",
     "depends" : [
-        { "name" : "UniversalStorage" },
+        { "name" : "UniversalStorage", "max_version": "1.0.0" },
         { "name" : "KAS" }
     ],
 	"install": [
