@@ -1,0 +1,10 @@
+{
+    "$kref": "#/ckan/kerbalstuff/482",
+    "x_via": "Automated KerbalStuff CKAN submission",
+    "identifier": "Mk3Cockpit",
+    "license": "CC-BY-NC-SA-4.0",
+    "spec_version": "v1.4",
+	"install": [
+		{ "file": "GameData/KerbalScienceFoundation", "install_to": "GameData" }
+	]
+}
