@@ -1,0 +1,9 @@
+{
+	"spec_version" : "v1.4",
+	"identifier" : "SETI",
+	"$kref" : "#/ckan/kerbalstuff/484",
+	"$vref" : "#/ckan/ksp-avc",
+	"depends" : [ { "name" : "ModuleManager" }, { "name" : "ProceduralParts" }, { "name" : "StageRecovery" } ],
+	"recommends" : [ { "name" : "KerbalEngineerRedux" }, { "name" : "TweakScale" } ],
+	"install": [ { "file": "SETI", "install_to": "GameData" } ]
+}
