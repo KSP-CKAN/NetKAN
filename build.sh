@@ -77,3 +77,18 @@ do
 	echo Running ckan install -c $f
 	mono --debug ckan.exe install -c $f --headless
 done
+
+
+echo ----------------------------------------------
+echo
+ADDON_LIST=$(mono ckan.exe list --porcelain)
+OFS=${IFS}
+IFS=' '
+echo ${ADDON_LIST} | while read state name version
+do
+    # echo "state name version '${state}' '${name}' '${version}'"
+    mono --debug ckan.exe show ${name}
+    echo ----------------------------------------------
+    echo
+done
+IFS=${OFS}
