@@ -1,0 +1,16 @@
+{
+    "spec_version"  : "v1.4",
+    "identifier"    : "MissionController2",
+    "$kref"         : "#/ckan/kerbalstuff/93",
+    "license"       : "GPL-2.0",
+    "depends": [
+        { "name": "KERT" },
+        { "name": "CommunityResourcePack" }
+    ],
+    "install": [
+        {
+            "find" : "MissionControllerEC",
+            "install_to" : "GameData"
+        }
+    ]
+}
