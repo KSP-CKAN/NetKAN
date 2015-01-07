@@ -1,0 +1,14 @@
+{
+	"spec_version"	: 1,
+	"identifier"	: "SatBatts",
+	"$kref"			: "#/ckan/kerbalstuff/290",
+	"license"		: "unknown",
+	"x_netkan_license_ok": true,
+	 
+	"install": [
+		{
+			"file"			: "Okram",
+			"install_to"	: "GameData"
+		}
+	]
+}
