@@ -5,6 +5,9 @@
 
     "license"      : "CC-BY-NC-SA-4.0",
 
+    "ksp_version"     : "0.90",
+    "ksp_min_version" : "0.25",
+
     "suggests"   : [
         { "name" : "CustomDesignSpacesuits-Steampunk" },
         { "name" : "NebulaEVAHandrails" },
