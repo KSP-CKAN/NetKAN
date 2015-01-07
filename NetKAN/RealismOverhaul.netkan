@@ -8,7 +8,7 @@
     "license"        : "CC-BY-SA",
     "release_status" : "stable",
     "depends" : [
-		{ "name" : "AJE" },
+		{ "name" : "AdvancedJetEngine" },
 		{ "name" : "CrossFeedEnabler" },
 		{ "name" : "FerramAerospaceResearch" },
 		{ "name" : "KerbalJointReinforcement" },
