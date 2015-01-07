@@ -5,9 +5,8 @@
     "x_netkan_license_ok": true,
     "install": [
         {
-            "file"          : "RoutineMissionManager",
-            "install_to"    : "GameData",
-            "filter_regexp" : "*.cs"
+            "file"          : "GameData/RoutineMissionManager",
+            "install_to"    : "GameData"
         }
     ],
     "depends" : [
