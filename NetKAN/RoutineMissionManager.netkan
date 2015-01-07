@@ -2,5 +2,14 @@
     "spec_version": 1, 
     "identifier": "RoutineMissionManager",
     "$kref": "#/ckan/kerbalstuff/463",
-    "x_netkan_license_ok": true
+    "x_netkan_license_ok": true,
+    "install": [
+        {
+            "file"       : "GameData/RoutineMissionManager",
+            "install_to" : "GameData"
+        }
+        ],
+    "depends" : [
+        { "name" : "ModuleManager" }
+        ],
 }
