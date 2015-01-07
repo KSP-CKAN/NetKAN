@@ -1,9 +1,0 @@
-{
-    "identifier": "HorizontalLandingAid", 
-    "license": "GPL-3.0", 
-    "$kref": "#/ckan/kerbalstuff/460", 
-    "spec_version": "v1.4",
-	"install": [
-		{ "file": "GameData/Diazo", "install_to": "GameData/Diazo" }
-	]
-}
