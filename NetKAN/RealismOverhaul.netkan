@@ -67,9 +67,7 @@
 		{ "name" : "SCANsat" },
 		{ "name" : "SovietEngines" },
 		{ "name" : "SXT" },
-		{ "name" : "UniversalStorage" },
-		{ "name" : "UniversalStorage-KAS" },
-		{ "name" : "UniversalStorage-TAC" }
+		{ "name" : "UniversalStorage" }
     ],
     "provides" : [ "RealFuels-Engine-Configs" ],
     "resources" : {
