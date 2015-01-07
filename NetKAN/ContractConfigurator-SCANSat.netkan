@@ -9,7 +9,7 @@
     "x_maintained_by": "hakan42, who loves to fly missions with contracts in them",
     "depends": [
         { "name": "ContractConfigurator" },
-        { "name": "SCANsat" }
+        { "name": "SCANsat", "min_version" : "9.0" }
     ],
     "install" :[
         {
