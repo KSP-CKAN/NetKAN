@@ -5,11 +5,11 @@
     "x_netkan_license_ok": true,
     "install": [
         {
-            "file"       : "GameData/RoutineMissionManager",
-            "install_to" : "GameData"
+            "file"          : "GameData/RoutineMissionManager",
+            "install_to"    : "GameData"
         }
-        ],
+    ],
     "depends" : [
         { "name" : "ModuleManager" }
-        ],
+    ]
 }
