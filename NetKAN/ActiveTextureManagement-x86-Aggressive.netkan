@@ -1,0 +1,25 @@
+{
+    "spec_version"  : 1,
+    "$kref"         : "#/ckan/github/rbray89/ActiveTextureManagement/asset_match/x86-Aggressive-*",
+    "identifier"    : "ActiveTextureManagement-x86-Aggressive",
+    "name"          : "Active Texture Management - X86 - Aggressive",
+    "abstract"      : "x86 aggressive texture compression to DXT1 and DXT5",
+    "author"        : "rbray89",
+    "license"       : "MIT",
+    "x_netkan_license_ok": true,
+    "install": [
+        {
+            "file"       : "GameData/ActiveTextureManagement",
+            "install_to" : "GameData"
+        }
+    ],
+    "provides": [
+        "ActiveTextureManagement"
+    ],
+    "conflicts": [
+        { "name" : "ActiveTextureManagement-Aggressive" },
+        { "name" : "ActiveTextureManagement-x64-Basic" },
+        { "name" : "ActiveTextureManagement-x64-Aggressive" },
+        { "name" : "ActiveTextureManagement-x86-Basic" }
+    ]
+}
