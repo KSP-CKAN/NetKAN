@@ -13,6 +13,11 @@
         { "name": "RemoteTech" },
         { "name": "ModuleManager" }
     ],
+    "install" : [
+    {
+        "file"       : "GameData/ContractPacks/RemoteTech",
+        "install_to" : "GameData/ContractPacks"
+    },
     "resources": {
         "homepage": "http://forum.kerbalspaceprogram.com/threads/106580",
         "bugtracker": "https://github.com/jrossignol/ContractPack-RemoteTech/issues",
