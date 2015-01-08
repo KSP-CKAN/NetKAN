@@ -1,0 +1,28 @@
+{
+    "spec_version" : 1,
+    "identifier"   : "EnvironmentalVisualEnhancements-LR",
+    "$kref"        : "#/ckan/github/rbray89/EnvironmentalVisualEnhancements/asset_match/(?<=-LR)\\.zip$",
+    "name"         : "Environmental Visual Enhancements - Low Resolution",
+    "abstract"     : "City Lights for Kerbin and Clouds for Any planet you wish",
+    "license"      : "MIT",
+    "ksp_version"  : "0.25",
+    "resources"    : {
+        "repository" : "https://github.com/rbray89/EnvironmentalVisualEnhancements"
+    },
+    "install": [
+        {
+            "file"       : "GameData/BoulderCo",
+            "install_to" : "GameData"
+        },
+        {
+            "file"       : "GameData/EnvironmentalVisualEnhancements",
+            "install_to" : "GameData"
+        }
+    ],
+    "provides": [
+        "EnvironmentalVisualEnhancements"
+    ],
+    "conflicts": [
+        { "name" : "EnvironmentalVisualEnhancements-HR" }
+    ]
+}
