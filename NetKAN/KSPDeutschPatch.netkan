@@ -5,6 +5,6 @@
     "license": "restricted",
     "spec_version": "v1.4",
 	"install": [
-		{ "file": "KSP Deutsch Patch", "install_to": "GameData", "filter": "desktop.ini" }
+		{ "file": "GameData/KSP Deutsch Patch", "install_to": "GameData", "filter": "desktop.ini" }
 	]
 }
