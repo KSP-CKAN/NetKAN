@@ -15,7 +15,7 @@
     ],
     "install" : [
     {
-        "file"       : "GameData/ContractPacks/RemoteTech",
+        "find"       : "RemoteTech",
         "install_to" : "GameData/ContractPacks"
     },
     "resources": {
