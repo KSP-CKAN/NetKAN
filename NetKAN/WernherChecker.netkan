@@ -1,0 +1,10 @@
+{
+    "spec_version"    : 1,
+    "$kref"           : "#/ckan/kerbalstuff/91",
+    "x_vref_is_broken" : "#/ckan/ksp-avc",
+    "identifier"      : "WernherChecker",
+    "x_netkan_license_ok": true,
+    "resources" : {
+        "repository": "https://github.com/Magion/WernherChecker"
+    }
+}
