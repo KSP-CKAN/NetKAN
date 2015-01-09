@@ -4,20 +4,34 @@
     "$kref"        : "#/ckan/kerbalstuff/270",
     "x_netkan_license_ok": true,
 	
-	"conflicts": [ { "name": "KSPAPIExtensions" } ],
+    "resources": 
+    {
+		"bugtracker"   : "https://github.com/allista/hangar/issues",
+		"repository"   : "https://github.com/allista/hangar",
+		"kerbalstuff"  : "https://kerbalstuff.com/mod/270/Hangar",
+		"manual"       : "https://github.com/allista/hangar/wiki"
+	},
     
     "depends": 
     [
-        { "name": "ModuleManager" }
+        { "name": "ModuleManager" },
+        { "name" : "KSPAPIExtensions" }
     ],
     
     "suggests": 
     [
         { "name": "Extraplanetary-Launchpads" },
-        { "name": "EditorExtensions" }
+        { "name": "EditorExtensions" },
+        { "name": "KSP-AVC" }
     ],
-	
-	"install": [
-		{ "file": "GameData/Hangar", "install_to": "GameData" }
+    
+    "install": 
+	[
+		{
+			"file": "GameData/Hangar",
+			"install_to": "GameData",
+			"filter": "KSPAPIExtensions.dll",
+			"comment": "Contains KSPAPIExtensions mod in this distribution"
+		}
 	]
 }
