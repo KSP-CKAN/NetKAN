@@ -25,5 +25,10 @@
       "name": "AdvancedFlyByWire"
     }
   ],
+  "recommends": [
+    {
+      "name": "KSP-AVC"
+    }
+ ],
   "x_netkan_license_ok": true
 }
