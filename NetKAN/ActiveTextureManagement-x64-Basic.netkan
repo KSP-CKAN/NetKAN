@@ -1,0 +1,25 @@
+{
+    "spec_version"  : 1,
+    "$kref"         : "#/ckan/github/rbray89/ActiveTextureManagement/asset_match/x64-Basic-*",
+    "identifier"    : "ActiveTextureManagement-x64-Basic",
+    "name"          : "Active Texture Management - X64 - Basic",
+    "abstract"      : "x64 basic texture compression to DXT1 and DXT5",
+    "author"        : "rbray89",
+    "license"       : "MIT",
+    "x_netkan_license_ok": true,
+    "install": [
+        {
+            "file"       : "GameData/ActiveTextureManagement",
+            "install_to" : "GameData"
+        }
+    ],
+    "provides": [
+        "ActiveTextureManagement"
+    ],
+    "conflicts": [
+        { "name" : "ActiveTextureManagement-Aggressive" },
+        { "name" : "ActiveTextureManagement-x64-Aggressive" },
+        { "name" : "ActiveTextureManagement-x86-Basic" },
+        { "name" : "ActiveTextureManagement-x86-Aggressive" }
+    ]
+}

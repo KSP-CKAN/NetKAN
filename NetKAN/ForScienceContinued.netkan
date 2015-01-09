@@ -1,0 +1,10 @@
+{
+    "$kref": "#/ckan/kerbalstuff/477",
+    "x_via": "Automated KerbalStuff CKAN submission",
+    "identifier": "ForScienceContinued",
+    "license": "CC-BY-SA-4.0",
+    "spec_version": "v1.4",
+	"install": [
+		{ "file": "GameData/ForScience", "install_to": "GameData" }
+	]
+}

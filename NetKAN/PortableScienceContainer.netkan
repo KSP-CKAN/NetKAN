@@ -1,0 +1,16 @@
+{
+    "spec_version" : 1,
+    "identifier"   : "PortableScienceContainer",
+    "$kref"        : "#/ckan/kerbalstuff/490",
+    "license"      : "restricted",
+    "install"      :
+    [
+        {
+            "file"       : "VerneTech",
+            "install_to" : "GameData"
+        }
+    ],
+    "depends": [
+        { "name": "KAS" }
+    ]
+}

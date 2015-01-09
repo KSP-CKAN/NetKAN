@@ -1,0 +1,10 @@
+{
+    "$kref": "#/ckan/kerbalstuff/476",
+    "x_via": "Automated KerbalStuff CKAN submission",
+    "identifier": "Kolonists",
+    "license": "GPL-3.0",
+    "spec_version": "v1.4",
+	"install": [
+		{ "file": "Kolonists", "install_to": "GameData" }
+	]
+}

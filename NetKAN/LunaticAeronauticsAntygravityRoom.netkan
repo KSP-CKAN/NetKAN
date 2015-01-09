@@ -1,0 +1,10 @@
+{
+    "$kref": "#/ckan/kerbalstuff/473",
+    "x_via": "Automated KerbalStuff CKAN submission",
+    "identifier": "LunaticAeronauticsAntygravityRoom",
+    "license": "CC-BY-NC-SA-4.0",
+    "spec_version": "v1.4",
+	"install": [
+		{ "file": "room", "install_to": "GameData", "filter": "AntigravityRoom.cs" }
+	]
+}

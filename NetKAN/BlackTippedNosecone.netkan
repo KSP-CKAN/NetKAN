@@ -1,0 +1,14 @@
+{
+    "identifier"   : "BlackTippedNosecone",
+    "$kref"        : "#/ckan/kerbalstuff/434",
+    "spec_version" : 1,
+    "install"      : [
+      {
+        "file": "DarkNosecone/GameData/PhaserLabs",
+        "install_to": "GameData"
+      }
+    ],
+    "depends"      : [
+        { "name" : "ModuleManager" }
+    ]
+}

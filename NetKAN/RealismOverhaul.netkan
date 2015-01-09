@@ -8,7 +8,7 @@
     "license"        : "CC-BY-SA",
     "release_status" : "stable",
     "depends" : [
-		{ "name" : "AJE" },
+		{ "name" : "AdvancedJetEngine" },
 		{ "name" : "CrossFeedEnabler" },
 		{ "name" : "FerramAerospaceResearch" },
 		{ "name" : "KerbalJointReinforcement" },
@@ -19,6 +19,7 @@
     ],
     "recommends" : [
 		{ "name" : "ActiveTextureManagement" },
+		{ "name" : "BetterBuoyancy" },
 		{ "name" : "ConnectedLivingSpace" },
 		{ "name" : "DeadlyReentry" },
 		{ "name" : "EngineIgnitor" },
@@ -66,9 +67,7 @@
 		{ "name" : "SCANsat" },
 		{ "name" : "SovietEngines" },
 		{ "name" : "SXT" },
-		{ "name" : "UniversalStorage" },
-		{ "name" : "UniversalStorage-KAS" },
-		{ "name" : "UniversalStorage-TAC" }
+		{ "name" : "UniversalStorage" }
     ],
     "provides" : [ "RealFuels-Engine-Configs" ],
     "resources" : {
@@ -87,7 +86,7 @@
             "comment"    : "KAS config, does not overwrite"
         },
         {
-            "file"       : "EngineGroupContoller",
+            "file"       : "EngineGroupController",
             "install_to" : "GameData",
             "comment"    : "Engine Group Controller, unique to RO."
         }

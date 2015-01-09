@@ -7,5 +7,12 @@
         { "name" : "Regolith" },
         { "name" : "CommunityResourcePack" },
         { "name" : "ModuleManager" }
-    ]				
+    ],
+	"x_conflicts": [
+		{ "name": "UniversalStorage-ECLSS" },
+		{ "name": "UniversalStorage-IFI" },
+		{ "name": "UniversalStorage-KAS" },
+		{ "name": "UniversalStorage-SNACKS" },
+		{ "name": "UniversalStorage-TAC" }
+	]
 }

@@ -1,8 +1,11 @@
 {
-    "spec_version": 1,
+    "spec_version" : 1,
     "identifier"   : "NebulaEVAHandrails",
     "$kref"        : "#/ckan/kerbalstuff/353",
     "license"      : "CC-BY-NC-ND-4.0",
+
+    "ksp_version"     : "0.90",
+    "ksp_min_version" : "0.25",
  
     "resources": {
         "homepage": "http://forum.kerbalspaceprogram.com/threads/100531"
