@@ -1,0 +1,9 @@
+{
+    "spec_version"    : 1,
+    "$kref"           : "#/ckan/kerbalstuff/91",
+    "identifier"      : "WernherChecker",
+    "x_netkan_license_ok": true,
+    "resources" : {
+        "repository": "https://github.com/Magion/WernherChecker"
+    }
+}
