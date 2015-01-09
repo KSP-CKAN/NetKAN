@@ -9,20 +9,20 @@
 		"bugtracker"   : "https://github.com/allista/hangar/issues",
 		"repository"   : "https://github.com/allista/hangar",
 		"kerbalstuff"  : "https://kerbalstuff.com/mod/270/Hangar",
-		"manual"       : "https://github.com/allista/hangar/wiki",
+		"manual"       : "https://github.com/allista/hangar/wiki"
 	},
     
     "depends": 
     [
         { "name": "ModuleManager" },
-        { "name" : "KSPAPIExtensions" },
+        { "name" : "KSPAPIExtensions" }
     ],
     
     "suggests": 
     [
         { "name": "Extraplanetary-Launchpads" },
         { "name": "EditorExtensions" },
-        { "name": "KSP-AVC" },
+        { "name": "KSP-AVC" }
     ],
     
     "install": 
@@ -33,5 +33,5 @@
 			"filter": "KSPAPIExtensions.dll",
 			"comment": "Contains KSPAPIExtensions mod in this distribution"
 		}
-	],
+	]
 }
