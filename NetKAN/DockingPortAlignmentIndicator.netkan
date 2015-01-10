@@ -1,0 +1,16 @@
+{
+    "spec_version"   : 1,
+    "identifier"     : "DockingPortAlignmentIndicator",
+    "$kref"          : "#/ckan/kerbalstuff/491",
+    "$vref"          : "#/ckan/ksp-avc",
+    "release_status" : "stable",
+    "resources" : {
+        "homepage" : "http://forum.kerbalspaceprogram.com/threads/43901"
+    },
+    "install": [
+        {
+            "file": "GameData/NavyFish",
+            "install_to": "GameData"
+        }
+    ]
+}
