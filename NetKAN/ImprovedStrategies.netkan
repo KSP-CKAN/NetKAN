@@ -1,6 +1,12 @@
 {
+    "spec_version": 1,
     "identifier": "ImprovedStrategies", 
     "x_netkan_license_ok": true, 
     "$kref": "#/ckan/kerbalstuff/423", 
-    "spec_version": 1
+    "install": [
+        {
+            "file": "ImprovedStrategies/Strategies",
+            "install_to": "GameData"
+        }
+    ]
 }
