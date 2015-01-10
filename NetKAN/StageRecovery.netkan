@@ -2,7 +2,7 @@
     "spec_version"   : 1,
     "identifier"     : "StageRecovery",
     "$kref"          : "#/ckan/kerbalstuff/97",
-    "$vref"          : "#/ckan/ksp-avc",
+    "x_broken_check_isue_507_$vref" : "#/ckan/ksp-avc",
     "ksp_version"    : "0.90",
     "resources"      : {
     "repository"     : "https://github.com/magico13/StageRecovery"
