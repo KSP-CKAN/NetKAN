@@ -1,0 +1,21 @@
+{
+    "spec_version" : "v1.4",
+    "identifier"   : "CrewManifest",
+    "$kref"        : "#/ckan/jenkins/CrewManifest",
+    "name"         : "Crew Manifest",
+    "abstract"     : "Anatid Robotics and Multiversal Mechatronics proudly presents the first flight assistant autopilot: MechJeb",
+    "author"       : [ "vXSovereignXv ", "sarbian" ],
+    "license"      : "MIT",
+    "x_ci_version_base" : "0.5.10",
+    "install": [
+        {
+            "find": "CrewManifest",
+            "install_to": "GameData"
+        }
+    ],
+    "resources": {
+        "x_ci"      : "https://ksp.sarbian.com/jenkins/job/CrewManifest/",
+        "homepage"  : "http://forum.kerbalspaceprogram.com/threads/60936",
+        "repository": "https://github.com/sarbian/CrewManifest/"
+    }
+}
