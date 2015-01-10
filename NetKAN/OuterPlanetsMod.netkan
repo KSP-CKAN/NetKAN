@@ -1,6 +1,16 @@
 {
+    "spec_version": "v1.4",
     "identifier": "OuterPlanetsMod", 
-    "x_netkan_license_ok": true, 
     "$kref": "#/ckan/kerbalstuff/437", 
-    "spec_version": 1
+    "x_netkan_license_ok": true, 
+    "license"      : "CC-BY-NC-SA-4.0",
+    "install" : [
+        {
+            "find"       : "GameData/OPM",
+            "install_to" : "GameData"
+        }
+    ],
+    "x_to_be_added" : "Kopernicus and CustomAsteroids from the archive",
+    "x_to_be_added_recommended" : "From the listing...",
+    "x_to_be_added_supported" : "From the listing..."
 }
