@@ -1,6 +1,13 @@
 {
-    "identifier": "Mk3MiniExpansionPack", 
-    "x_netkan_license_ok": true, 
-    "spec_version": 1, 
-    "$kref": "#/ckan/kerbalstuff/449"
+    "spec_version" : 1, 
+    "identifier"   : "Mk3MiniExpansionPack", 
+    "$kref"        : "#/ckan/kerbalstuff/449",
+    "license"      : "CC-BY-NC-SA",
+    "x_netkan_license_ok": true,
+    "install": [
+        {
+            "file": "GameData/OPT",
+            "install_to": "GameData"
+        }
+    ]
 }
