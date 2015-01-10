@@ -1,0 +1,25 @@
+{
+    "spec_version"   : 1,
+    "identifier"     : "PlanetShine-Config-Default",
+    "$kref"          : "#/ckan/kerbalstuff/266",
+    "license"        : "Apache-2.0",
+    "install": [
+        {
+            "file": "GameData/PlanetShine/Config",
+            "install_to": "GameData/PlanetShine"
+        }
+    ],
+    "depends": [
+        {
+            "name": "PlanetShine"
+        }
+    ],
+    "provides": [
+        "PlanetShine-Config"
+    ],
+    "conflicts": [
+        {
+            "name": "PlanetShine-Config"
+        }
+    ]
+}
