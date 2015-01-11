@@ -1,6 +1,7 @@
 {
     "spec_version"   : 1,
     "identifier"     : "PlanetShine-Config-Default",
+    "name"           : "PlanetShine - Default configuration",
     "$kref"          : "#/ckan/kerbalstuff/266",
     "license"        : "Apache-2.0",
     "install": [
