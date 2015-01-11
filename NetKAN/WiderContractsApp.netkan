@@ -1,0 +1,16 @@
+{
+    "spec_version" : "v1.4",
+    "identifier"   : "WiderContractsApp", 
+    "$kref"        : "#/ckan/github/jrossignol/WiderContractsApp",
+    "abstract"     : "The stock contracts app, but 60% wider.",
+    "name"         : "Wider Contracts App",
+    "license"      : "CC-BY-NC-SA-4.0",
+    "release_status": "stable",
+    "author": "nightingale",
+    "$vref": "#/ckan/ksp-avc",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/106892",
+        "bugtracker": "https://github.com/jrossignol/WiderContractsApp/issues",
+        "license": "https://raw.githubusercontent.com/jrossignol/WiderContractsApp/master/GameData/WiderContractsApp/LICENSE.txt"
+    }
+}
