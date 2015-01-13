@@ -11,6 +11,9 @@
         { "name": "ContractConfigurator" },
         { "name": "SCANsat" }
     ],
+    "provides": [
+        "ContractConfigurator-SCANSat"
+    ],
     "install" :[
         {
             "find"       : "CC_Contracts",
