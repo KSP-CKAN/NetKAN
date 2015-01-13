@@ -1,0 +1,24 @@
+{
+    "spec_version"   : 1,
+    "identifier"     : "ExtraPlanetaryLaunchpads-RegolithAdaptation",
+    "$kref"          : "#/ckan/kerbalstuff/494",
+    "license"        : "GPL-3.0",
+    "release_status" : "stable",
+    "resources"      : {
+          "homepage" : "http://forum.kerbalspaceprogram.com/threads/89774"
+    },
+    "depends" : [
+        {"name" : "ModuleManager"},
+        {"name" : "ExtraPlanetaryLaunchpads"},
+        {"name" : "Regolith"}
+    ],
+    "recommends" : [
+        {"name" : "Karbonite"}
+    ],
+    "install" : [
+        {
+            "file"       : "GameData/WombatConversions",
+            "install_to" : "GameData"
+        }
+    ]
+}
