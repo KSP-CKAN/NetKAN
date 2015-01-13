@@ -1,0 +1,13 @@
+{
+    "spec_version"   : 1,
+    "identifier"     : "KerbalMechanics",
+    "release_status" : "development",
+    "license"        : "GPL-3.0",
+    "$kref"          : "#/ckan/kerbalstuff/48",
+    "resources" : {
+        "homepage"     : "http://forum.kerbalspaceprogram.com/threads/85798",
+        "bugtracker"   : "https://github.com/IRnifty/KerbalMechanics/issues",
+        "repository"   : "https://github.com/IRnifty/KerbalMechanics",
+        "kerbalstuff"  : "https://kerbalstuff.com/mod/48"
+    }
+}
