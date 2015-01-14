@@ -1,9 +1,9 @@
 {
     "spec_version"      : 1,
-    "identifier"        : "EnvironmentalVisualEnhancements-Config-Default",
+    "identifier"        : "EnvironmentalVisualEnhancements",
     "$kref"             : "#/ckan/github/rbray89/EnvironmentalVisualEnhancements/asset_match/(?<!-LR)\\.zip$",
-    "name"              : "Environmental Visual Enhancements - Default configuration",
-    "abstract"          : "Default configuration for EVE",
+    "name"              : "Environmental Visual Enhancements",
+    "abstract"     	: "City Lights for Kerbin and Clouds for Any planet you wish",
     "license"           : "MIT",
     "ksp_version_min"   : "0.25",
     "resources"         : {
@@ -15,10 +15,7 @@
             "install_to" : "GameData"
         }
     ],
-    "provides": [
-        "EnvironmentalVisualEnhancements-Config"
-    ],
     "depends": [
-        { "name": "EnvironmentalVisualEnhancements" }
+        { "name": "EnvironmentalVisualEnhancements-Config" }
     ]
 }
