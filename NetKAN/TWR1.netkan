@@ -11,8 +11,9 @@
 "resources" : {
 "homepage" : "http://forum.kerbalspaceprogram.com/threads/50736"
 },
-"recommends" : [ { "name" : "Toolbar" },
-{ "name" : "ModuleManager" }],
+"recommends" : [ { "name" : "Toolbar" }],
+"depends": [
+{ "name": "ModuleManager" }],
 "install" : [
 {
 "file" : "GameData/Diazo",
