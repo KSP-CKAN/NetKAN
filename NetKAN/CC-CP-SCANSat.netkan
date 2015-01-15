@@ -1,0 +1,26 @@
+{
+    "spec_version": "1",
+    "identifier": "ContractConfigurator-ContractPack-SCANsat",
+    "$kref": "#/ckan/github/DBT85/CC-CP-SCANSat",
+    "abstract": "A contract pack containing contracts for SCANSat.",
+    "name": "Contract Pack: SCANSat",
+    "license": "CC-BY-NC-SA-4.0",
+    "release_status": "stable",
+    "author": "DBT85",
+    "$vref": "#/ckan/ksp-avc",
+    "depends": [
+        {
+            "name": "ContractConfigurator"
+        },
+        {
+            "name": "SCANsat",
+            "min_version": "9.0"
+        }
+    ],
+    "install": [
+        {
+            "find": "CC-CP-SCANSat",
+            "install_to": "GameData/ContractPacks"
+        }
+    ]
+}
