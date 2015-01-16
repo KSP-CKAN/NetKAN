@@ -1,0 +1,12 @@
+{
+    "spec_version" : 1,
+    "identifier"   : "ContractScienceModifier",
+    "$kref"        : "#/ckan/kerbalstuff/496",
+    "x_netkan_license_ok": true,
+    "install"      : [
+        {
+            "file"       : "Contract_science_modifier",
+            "install_to" : "GameData"
+        }
+    ]
+}
