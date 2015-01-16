@@ -3,6 +3,7 @@
 	"identifier"	:	"Proton-Bobcat",
 	"license"	:	"restricted",
 	"$kref"		:	"#/ckan/kerbalstuff/373",
+	"ksp_version_min":	"0.25",
 	"install" : [
 	{
 		"file"	    :   "SovietPack",
