@@ -2,6 +2,7 @@
 	"spec_version"	:	1,
 	"identifier"	:	"SovietEngines",
 	"$kref"		:	"#/ckan/kerbalstuff/374",
+	"ksp_version_min":	"0.25",
 	"license"	:	"restricted",
 	"install" : [
 	{
