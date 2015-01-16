@@ -1,0 +1,23 @@
+{
+    "spec_version"   : 1,
+    "identifier"     : "KerbalConfigEditor",
+    "release_status" : "stable",
+    "license"        : "GPL-3.0",
+    "$kref"          : "#/ckan/kerbalstuff/495",
+    "resources" : {
+        "homepage"     : "http://forum.kerbalspaceprogram.com/threads/107085",
+        "bugtracker"   : "https://github.com/IRnifty/KerbalConfigEditor/issues",
+        "repository"   : "https://github.com/IRnifty/KerbalConfigEditor",
+        "kerbalstuff"  : "https://kerbalstuff.com/mod/495"
+    },
+    "install": [
+        {
+            "file"       : "Kerbal Config Editor/Kerbal Config Editor.exe",
+            "install_to" : "GameRoot"
+        },
+        {
+            "file"       : "Kerbal Config Editor/KCE README.txt",
+            "install_to" : "GameRoot"
+        }
+    ]
+}
