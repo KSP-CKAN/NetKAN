@@ -3,7 +3,7 @@
 	"identifier"	:	"FASA",
 	"$kref"			:	"#/ckan/kerbalstuff/27",
 	"license" : "restricted",
-    "depends" : [ { "name" : "RasterPropMonitor" } ],
+    "recommends" : [ { "name" : "RasterPropMonitor" } ],
 	"install" : [
 	{
 		"file"		:	"GameData/FASA",
