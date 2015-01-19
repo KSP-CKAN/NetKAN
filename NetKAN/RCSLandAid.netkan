@@ -8,6 +8,9 @@
   "release_status" : "stable",
   "ksp_version" : "0.90",
   "author" : "Diazo",
+  "depends": [
+{ "name": "ModuleManager" }
+],
   "suggests": [
     { "name": "Toolbar" }
   ],
