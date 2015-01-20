@@ -4,8 +4,7 @@
 	"$kref"		: "#/ckan/kerbalstuff/368",
 	"license"   : "restricted",
     "depends" : [
-        { "name" : "UniversalStorage" },
-        { "name" : "Snacks" }
+        { "name" : "UniversalStorage" }
     ],
 	"install": [
 		{

@@ -4,8 +4,7 @@
 	"$kref"		: "#/ckan/kerbalstuff/366",
 	"license"   : "restricted",
     "depends" : [
-        { "name" : "UniversalStorage" },
-        { "name" : "ECLSS" }
+        { "name" : "UniversalStorage" }
     ],
 	"install": [
 		{

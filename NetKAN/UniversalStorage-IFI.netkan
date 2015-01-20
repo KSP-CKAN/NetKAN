@@ -4,8 +4,7 @@
 	"$kref"		: "#/ckan/kerbalstuff/367",
 	"license"   : "restricted",
     "depends" : [
-        { "name" : "UniversalStorage" },
-        { "name" : "IFI-LifeSupport" }
+        { "name" : "UniversalStorage" }
     ],
 	"install": [
 		{
