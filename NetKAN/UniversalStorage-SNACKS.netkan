@@ -9,8 +9,8 @@
     ],
 	"install": [
 		{
-            "file"       : "UniversalStorage",
-            "install_to" : "GameData",
+            "file"       : "Readme US-SNACKS.txt",
+            "install_to" : "GameData/UniversalStorage",
 			"filter"	 : "US License.pdf"
         }
     ]
