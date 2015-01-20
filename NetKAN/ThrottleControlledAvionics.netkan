@@ -8,11 +8,11 @@
     {
 		"bugtracker"   : "https://github.com/qfeys/ThrottleControlledAvionics/issues",
 		"repository"   : "https://github.com/qfeys/ThrottleControlledAvionics",
-		"kerbalstuff"  : "https://kerbalstuff.com/mod/510/Throttle%20Controlled%20Avionics%20-%20Continued",
+		"kerbalstuff"  : "https://kerbalstuff.com/mod/510/Throttle%20Controlled%20Avionics%20-%20Continued"
 	},
     
     "suggests": 
     [
         { "name": "KSP-AVC" }
-    ],
+    ]
 }
