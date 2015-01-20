@@ -4,13 +4,12 @@
 	"$kref"		: "#/ckan/kerbalstuff/364",
 	"license"   : "restricted",
     "depends" : [
-        { "name" : "UniversalStorage" },
-        { "name" : "TACLS" }
+        { "name" : "UniversalStorage" }
     ],
 	"install": [
 		{
-            "file"       : "UniversalStorage",
-            "install_to" : "GameData",
+            "file"       : "Readme US-TAC.txt",
+            "install_to" : "GameData/UniversalStorage",
 			"filter"	 : "US License.pdf"
         }
     ]

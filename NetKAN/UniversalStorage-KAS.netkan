@@ -4,13 +4,12 @@
 	"$kref"		: "#/ckan/kerbalstuff/365",
 	"license"   : "restricted",
     "depends" : [
-        { "name" : "UniversalStorage" },
-        { "name" : "KAS" }
+        { "name" : "UniversalStorage" }
     ],
 	"install": [
 		{
-            "file"       : "UniversalStorage",
-            "install_to" : "GameData",
+            "file"       : "Readme US-KAS.txt",
+            "install_to" : "GameData/UniversalStorage",
 			"filter"	 : "US License.pdf"
         }
     ]

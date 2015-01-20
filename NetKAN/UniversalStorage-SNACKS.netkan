@@ -4,13 +4,12 @@
 	"$kref"		: "#/ckan/kerbalstuff/368",
 	"license"   : "restricted",
     "depends" : [
-        { "name" : "UniversalStorage" },
-        { "name" : "Snacks" }
+        { "name" : "UniversalStorage" }
     ],
 	"install": [
 		{
-            "file"       : "UniversalStorage",
-            "install_to" : "GameData",
+            "file"       : "Readme US-SNACKS.txt",
+            "install_to" : "GameData/UniversalStorage",
 			"filter"	 : "US License.pdf"
         }
     ]
