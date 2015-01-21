@@ -6,7 +6,7 @@
 	"install": [
 		{
             "file"       : "medsouz",
-            "install_to" : "GameData/medsouz"
+            "install_to" : "GameData"
         }
     ]
 }
