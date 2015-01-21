@@ -2,5 +2,11 @@
 	"spec_version" : 1,
 	"identifier"   : "KerbalKonstructs",
 	"$kref"        : "#/ckan/kerbalstuff/165",
-	"x_netkan_license_ok" : true
+	"x_netkan_license_ok" : true,
+	"install": [
+		{
+            "file"       : "medsouz",
+            "install_to" : "GameData"
+        }
+    ]
 }
