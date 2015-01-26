@@ -5,7 +5,7 @@
     "abstract"       : "Adds life support requirements and resources to all kerbals",
     "$kref"          : "#/ckan/github/taraniselsu/TacLifeSupport",
     "license"        : "CC-BY-NC-SA-3.0",
-    "ksp_version"    : "0.25",
+    "$vref"          : "#/ckan/ksp-avc",
     "release_status" : "stable",
     "depends"        : [ { "name" : "ModuleManager" }, { "name" : "TACLS-Config" } ],
     "recommends"     : [ { "name" : "MiniAVC" } ],
