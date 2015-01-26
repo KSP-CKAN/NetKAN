@@ -1,0 +1,29 @@
+{
+    "spec_version"   : "v1.4",
+    "identifier"     : "SpaceX-HistoricArchive-LR",
+    "$kref"          : "#/ckan/kerbalstuff/525",
+    "license"        : "restricted",
+	"install" :[
+        {
+            "find"          : "LazTek",
+            "install_to"    : "GameData",
+            "filter_regexp" : "Flags"
+        },
+        {
+            "find"       : "VAB",
+            "install_to" : "Ships"
+        }
+    ],
+    "provides": [
+        "SpaceX-HistoricArchive"
+    ],
+    "depends": [
+        { "name": "SpaceX-LaunchPack" },
+        { "name": "SpaceX-ExplorationExtension" }
+    ],
+    "conflicts": [
+        { "name" : "SpaceX-HistoricArchive-Standard" },
+        { "name" : "SpaceX-HistoricArchive-HD" }
+    ]
+
+}
