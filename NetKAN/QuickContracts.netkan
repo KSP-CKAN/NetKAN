@@ -1,0 +1,15 @@
+{
+    "spec_version"   : 1,
+    "identifier"     : "QuickContracts",
+    "$kref"          : "#/ckan/kerbalstuff/539",
+    "$vref"          : "#/ckan/ksp-avc",
+    "license"        : "GPL-3.0",
+    "suggests"       : [
+        { "name" : "Toolbar" }
+    ],
+	"install" :[
+    {
+        "find"       : "QuickContracts",
+        "install_to" : "GameData"
+    }]
+}
