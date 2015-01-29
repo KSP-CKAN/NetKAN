@@ -12,6 +12,6 @@
         { "name" : "HotRockets" }
     ],
 	"install": [
-		{ "file": "AJE-solver_redo/GameData/AJE", "install_to": "GameData/AJE" }
+		{ "file": "AJE-solver_redo/GameData/AJE", "install_to": "GameData" }
 	]
 }
