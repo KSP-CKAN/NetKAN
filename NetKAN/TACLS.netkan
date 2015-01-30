@@ -1,20 +1,30 @@
 {
-    "spec_version"   : 1,
+    "spec_version"   : "v1.2",
     "identifier"     : "TACLS",
     "name"           : "TAC Life Support (TACLS)",
+    "author"          : "Taranis Elsu",
     "abstract"       : "Adds life support requirements and resources to all kerbals",
     "$kref"          : "#/ckan/github/taraniselsu/TacLifeSupport",
+    "$vref"         : "#/ckan/ksp-avc",
     "license"        : "CC-BY-NC-SA-3.0",
-    "ksp_version"    : "0.25",
     "release_status" : "stable",
-    "depends"        : [ { "name" : "ModuleManager" }, { "name" : "TACLS-Config" } ],
-    "recommends"     : [ { "name" : "MiniAVC" } ],
-    "suggests"       : [ { "name" : "KSP-AVC" } ],
-    "install" : [ 
+    "depends" : [
+        {   "name" : "ModuleManager" },
+        {   "name" : "TACLS-Config" }
+    ],
+    "suggests" : [
+        {   "name" : "KSP-AVC" }
+    ],
+    "install" : [
         {
             "file"          : "GameData/ThunderAerospace",
             "install_to"    : "GameData",
             "filter_regexp" : "PluginData/TacLifeSupport/LifeSupport\\.cfg$"
         }
-    ]
+    ],
+    "resources" : {
+        "homepage" : "https://github.com/taraniselsu/TacLifeSupport/wiki",
+        "bugtracker" : "https://github.com/taraniselsu/TacLifeSupport/issues",
+        "repository" : "https://github.com/taraniselsu/TacLifeSupport"
+    }
 }

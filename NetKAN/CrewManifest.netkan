@@ -3,7 +3,7 @@
     "identifier"   : "CrewManifest",
     "$kref"        : "#/ckan/jenkins/CrewManifest",
     "name"         : "Crew Manifest",
-    "abstract"     : "Anatid Robotics and Multiversal Mechatronics proudly presents the first flight assistant autopilot: MechJeb",
+    "abstract"     : "This plugin will allow you to add or remove crew from parts while on the launch pad or transfer crew between parts in the same vessel. You can also edit/add custom crew members in your available crew roster provided that they are not part of an active flight (or dead).",
     "author"       : [ "vXSovereignXv ", "sarbian" ],
     "license"      : "MIT",
     "x_ci_version_base" : "0.5.10",

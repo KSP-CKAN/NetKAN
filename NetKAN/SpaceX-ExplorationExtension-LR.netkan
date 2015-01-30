@@ -1,0 +1,28 @@
+{
+    "spec_version"   : "v1.4",
+    "identifier"     : "SpaceX-ExplorationExtension-LR",
+    "$kref"          : "#/ckan/kerbalstuff/522",
+    "license"        : "restricted",
+	"install" :[
+        {
+            "find"          : "LazTek",
+            "install_to"    : "GameData",
+            "filter_regexp" : "Flags"
+        },
+        {
+            "find"       : "VAB",
+            "install_to" : "Ships"
+        }
+    ],
+    "provides": [
+        "SpaceX-ExplorationExtension"
+    ],
+    "depends": [
+        { "name": "SpaceX-LaunchPack" }
+    ],
+    "conflicts": [
+        { "name" : "SpaceX-ExplorationExtension-Standard" },
+        { "name" : "SpaceX-ExplorationExtension-HD" }
+    ]
+
+}
