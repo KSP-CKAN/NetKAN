@@ -1,0 +1,24 @@
+{
+    "spec_version"   : 1,
+    "name"           : "No more physicsless parts",
+    "abstract"       : "No more physics exploitations",
+    "identifier"     : "Johny",
+    "download"       : "https://github.com/MetalBreaker/ksp-no-more-physicsless-parts/releases/download/1.0/No.more.physicsless.parts.1.0.zip",
+    "license"        : "MIT",
+    "version"        : "1.0",
+    "release_status" : "stable",
+    "ksp_version"    : "0.90",
+    "resources" : {
+        "homepage"     : "",
+        "repository"   : "https://github.com/MetalBreaker/ksp-no-more-physicsless-parts",
+    },
+    "install" : [
+        {
+            "file"       : "GameData",
+            "install_to" : "GameData"
+        }
+    ],
+    "depends" : [
+        { "name" : "ModuleManager", "min_version" : "2.5.9" }
+    ]
+}
