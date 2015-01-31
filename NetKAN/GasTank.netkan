@@ -1,0 +1,27 @@
+{
+    "spec_version"   : 1,
+    "name"           : "No more physicsless parts",
+    "abstract"       : "Makes all parts have physics",
+    "identifier"     : "GasTank",
+    "download"       : "https://github.com/MetalBreaker/ksp-gas-tank/releases/download/v0.02/GasTank-v0.02.zip",
+    "license"        : "MIT",
+    "version"        : "0.02",
+    "release_status" : "stable",
+    "ksp_version"    : "0.90",
+    "resources" : {
+        "homepage"     : "http://forum.kerbalspaceprogram.com/threads/97465",
+        "repository"   : "https://github.com/MetalBreaker/ksp-gas-tank",
+    },
+    "install" : [
+        {
+            "file"       : "GasTank_v0.02/GameData",
+            "install_to" : "GameData"
+        }
+    ],
+    "depends" : [
+        { "name" : "ModuleManager", "min_version" : "2.5.6" }
+    ],
+    "recommends" : [
+        { "name" : "FerramAerospaceResearch" }
+    ]
+}
