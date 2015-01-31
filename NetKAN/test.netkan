@@ -1,0 +1,29 @@
+{
+    "spec_version"   : 1,
+    "name"           : "Advanced Jet Engine (AJE)",
+    "abstract"       : "Realistic jet engines for KSP",
+    "identifier"     : "AJE",
+    "download"       : "https://github.com/camlost2/AJE/archive/1.6.zip",
+    "license"        : "LGPL-2.1",
+    "version"        : "1.6",
+    "release_status" : "stable",
+    "ksp_version"    : "0.25",
+    "resources" : {
+        "homepage"     : "http://forum.kerbalspaceprogram.com/threads/70008",
+        "repository"   : "https://github.com/camlost2/AJE",
+    },
+    "install" : [
+        {
+            "file"       : "AJE-1.6/GameData",
+            "install_to" : "GameData"
+        }
+    ],
+    "depends" : [
+        { "name" : "FerramAerospaceResearch" },
+        { "name" : "ModuleManager", "min_version" : "2.3.5" }
+    ],
+    "recommends" : [
+        { "name" : "RealFuels" },
+        { "name" : "HotRockets" }
+    ]
+}
