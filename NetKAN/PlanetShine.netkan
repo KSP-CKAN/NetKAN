@@ -9,7 +9,9 @@
             "install_to": "GameData/PlanetShine"
         },
         {
-            "file": "GameData/PlanetShine/Plugins",
+            "file": "GameData/PlanetShine/Plugins"
+        },
+        {
             "filter": {
                 "description": {
                     "CelestialBodies.cfg": "Settings.cfg"
