@@ -10,8 +10,11 @@
         },
         {
             "file": "GameData/PlanetShine/Plugins",
-            "filter": "CelestialBodies.cfg",
-            "filter": "Settings.cfg"
+            "filter": {
+                "description": {
+                    "CelestialBodies.cfg": "Settings.cfg"
+                }
+            }
         },
         {
             "file": "GameData/PlanetShine/LICENSE",
