@@ -15,7 +15,11 @@
         {
             "file": "GameData/PlanetShine/LICENSE",
             "install_to": "GameData/PlanetShine"
-        }
+        },
+        {
+            "filter": "Settings.cfg", "CelestialBodies.cfg"
+        },
+            
     ],
     "depends": [
         {
