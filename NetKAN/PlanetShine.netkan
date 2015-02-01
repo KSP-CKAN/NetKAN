@@ -1,8 +1,8 @@
 {
-    "spec_version"   : 1,
-    "identifier"     : "PlanetShine",
-    "$kref"          : "#/ckan/kerbalstuff/266",
-    "license"        : "Apache-2.0",
+    "spec_version": 1,
+    "identifier": "PlanetShine",
+    "$kref": "#/ckan/kerbalstuff/266",
+    "license": "Apache-2.0",
     "install": [
         {
             "file": "GameData/PlanetShine/Icons",
@@ -10,16 +10,13 @@
         },
         {
             "file": "GameData/PlanetShine/Plugins",
-            "install_to": "GameData/PlanetShine"
+            "filter": "CelestialBodies.cfg"
+            "filter": "Settings.cfg",
         },
         {
             "file": "GameData/PlanetShine/LICENSE",
             "install_to": "GameData/PlanetShine"
-        },
-        {
-            "filter": "Settings.cfg", "CelestialBodies.cfg"
-        },
-            
+        }
     ],
     "depends": [
         {
