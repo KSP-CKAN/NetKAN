@@ -1,0 +1,16 @@
+{
+    "spec_version"   : 1,
+    "identifier"     : "ExceptionDetector",
+    "$kref"          : "#/ckan/kerbalstuff/557",
+    "license"        : "public-domain",
+    "release_status" : "stable",
+    "resources"      : {
+        "repository"   : "https://github.com/godarklight/ExceptionDetector"
+    },
+    "install" : [
+        {
+            "file"       : "GameData/ExceptionDetector",
+            "install_to" : "GameData"
+        }
+    ]
+}
