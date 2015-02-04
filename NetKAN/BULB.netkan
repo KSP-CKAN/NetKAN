@@ -2,5 +2,14 @@
     "spec_version" : 1,
     "identifier"   : "Bright Utilitarian Luminescent Beacon (BULB)",
     "$kref"        : "#/ckan/kerbalstuff/170",
-    "x_netkan_license_ok": true
+    "x_netkan_license_ok": true,
+    "install" : [
+        {
+            "file"       : "Bright_Utilitarian_Luminescent_Beacon_BULB-1.1.zip/GameData",
+            "install_to" : "GameData"
+        }
+    ],
+    "depends" : [
+        { "name" : "ModuleManager", "min_version" : "2.5.9" }
+    ]
 }
