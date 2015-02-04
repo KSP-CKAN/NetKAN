@@ -4,7 +4,10 @@
     "license": "GPL-3.0",
     "spec_version": "v1.4",
     "$kref": "#/ckan/kerbalstuff/468",
-	"install": [
-		{ "file": "NehemiahInc", "install_to": "GameData/NehemiahInc" }
-	]
+    "install": [
+        {
+            "file": "NehemiahInc",
+            "install_to": "GameData"
+        }
+    ]
 }
