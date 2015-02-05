@@ -8,6 +8,8 @@
     ],
 	
 	"suggests": [
-		{ "name": "RasterPropMonitor" }
+		{ "name": "RasterPropMonitor" },
+		{ "name": "ContractConfigurator-ContractPack-SCANsat" },
+		{ "name": "CommunityTechTree" }
 	]
 }

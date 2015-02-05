@@ -9,9 +9,5 @@
 			"file": "GameData/Contracts Window",
 			"install_to": "GameData"
 		}
-	],
-	
-	"depends": [
-		{ "name": "Toolbar" }
 	]
 }
