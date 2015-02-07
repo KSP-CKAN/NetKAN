@@ -1,0 +1,32 @@
+{
+    "spec_version"   : "v1.4",
+    "identifier"     : "SpaceX-ColonialTransporter-HD",
+    "$kref"          : "#/ckan/kerbalstuff/526",
+    "license"        : "restricted",
+	"install" :[
+        {
+            "find"          : "LazTek",
+            "install_to"    : "GameData",
+            "filter_regexp" : [
+                "Flags",
+                "LazTekDragonDock"
+            ]
+        },
+        {
+            "find"       : "VAB",
+            "install_to" : "Ships"
+        }
+    ],
+    "provides": [
+        "SpaceX-ColonialTransporter"
+    ],
+    "depends": [
+        { "name": "SpaceX-LaunchPack" },
+        { "name": "SpaceX-ExplorationExtension" }
+    ],
+    "conflicts": [
+        { "name" : "SpaceX-ColonialTransporter-LR" },
+        { "name" : "SpaceX-ColonialTransporter-Standard" }
+    ]
+
+}

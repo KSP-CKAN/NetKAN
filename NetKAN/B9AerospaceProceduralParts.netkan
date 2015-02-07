@@ -1,0 +1,17 @@
+{
+    "spec_version": 1,
+    "$kref": "#/ckan/kerbalstuff/515",
+    "identifier": "B9AerospaceProceduralParts",
+    "license": "CC-BY-NC-SA-4.0",
+    "x_licence_code": "MIT",
+    "x_licence_assets": "CC-BY-NC-SA-4.0",
+    "depends": [
+        { "name": "KSPAPIExtensions" }
+    ],
+    "install": [
+        {
+            "file": "GameData/B9_Aerospace",
+            "install_to": "GameData"
+        }
+    ]
+}

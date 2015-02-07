@@ -1,0 +1,24 @@
+{
+    "spec_version"   : "v1.4",
+    "identifier"     : "SpaceX-LaunchPack-Standard",
+    "$kref"          : "#/ckan/kerbalstuff/518",
+    "license"        : "restricted",
+	"install" :[
+        {
+            "find"          : "LazTek",
+            "install_to"    : "GameData",
+            "filter_regexp" : "Flags"
+        },
+        {
+            "find"       : "VAB",
+            "install_to" : "Ships"
+        }
+    ],
+    "provides": [
+        "SpaceX-LaunchPack"
+    ],
+    "conflicts": [
+        { "name" : "SpaceX-LaunchPack-LR" },
+        { "name" : "SpaceX-LaunchPack-HD" }
+    ]
+}

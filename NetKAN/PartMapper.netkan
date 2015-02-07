@@ -1,0 +1,25 @@
+{
+    "spec_version"   : 1,
+    "identifier"     : "PartMapper",
+    "$kref"          : "#/ckan/github/Sujimichi/KerbalX",
+    "author"         : "katateochi",
+    "name"           : "KerbalX Part Mapper",
+    "abstract"       : "Mapping tool for craft sharing site with Auto Mod Detection and Search-By-Mod feature",
+    "release_status" : "testing",
+    "license"        : "GPL-3.0",
+    "resources" : {
+        "homepage"     : "http://forum.kerbalspaceprogram.com/threads/93548",
+        "bugtracker"   : "https://github.com/Sujimichi/KerbalX/issues",
+        "repository"   : "https://github.com/Sujimichi/KerbalX"
+    },
+    "install": [
+        {
+            "file"       : "PartMapper.exe",
+            "install_to" : "GameRoot"
+        },
+        {
+            "file"       : "ignore_mods.txt",
+            "install_to" : "GameRoot"
+        }
+    ]
+}
