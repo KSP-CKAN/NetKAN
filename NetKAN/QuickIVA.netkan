@@ -11,5 +11,10 @@
   ],
   "resources": {
     "repository": "https://github.com/malahx/QuickIVA"
-  }
+  },
+  "suggests": [
+    {
+      "name": "RasterPropMonitor"
+    }
+  ]
 }
