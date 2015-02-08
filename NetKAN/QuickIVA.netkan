@@ -1,0 +1,20 @@
+{
+  "spec_version": "v1.4",
+  "identifier": "QuickIVA",
+  "$kref": "#/ckan/kerbalstuff/568",
+  "license": "GPL-3.0",
+  "install": [
+    {
+      "find": "QuickIVA",
+      "install_to": "GameData"
+    }
+  ],
+  "resources": {
+    "repository": "https://github.com/malahx/QuickIVA"
+  },
+  "suggests": [
+    {
+      "name": "RasterPropMonitor"
+    }
+  ]
+}
