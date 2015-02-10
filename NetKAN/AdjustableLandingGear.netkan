@@ -4,6 +4,10 @@
     "$kref"        : "#/ckan/kerbalstuff/321",
     "license"      : "CC-BY-SA-3.0",
 
+    "ksp_version_min" : "0.25",
+    "ksp_version_max" : "0.90",
+    "x_comment" : "TEMPORARY! Delete this as soon as official 0.90 comes out!!!",
+
     "depends": [
         { "name": "BDAnimationModules" },
         { "name": "FirespitterCore" }
