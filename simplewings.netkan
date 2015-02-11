@@ -1,0 +1,14 @@
+{
+    "spec_version" : 1,
+    "identifier"   : "Simple Wings",
+    "$kref"        : "#/ckan/kerbalstuff/123",
+	
+	"license": "Whatever License 1.1",
+	
+	"install": [
+        {
+            "file"       : "GameData/Kerbice Group",
+            "install_to" : "GameData"
+        }
+	],
+}
