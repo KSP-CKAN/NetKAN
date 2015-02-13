@@ -2,7 +2,7 @@
     "spec_version" : 1,
     "identifier"   : "MOVAP",
     "$kref"        : "#/ckan/kerbalstuff/581",
-	"license"      : "Whatever License 1.1",
+	"license"      : "WTFPL",
 	"ksp_version"  : "any",
 	"ksp_version_min" : "0.23",
 	
@@ -22,7 +22,7 @@
 	],
 	
 	"suggests ": [
-		{ "name" : "Simple Wings" }
+		{ "name" : "Simple Wings" },
 		{ "name" : "Firespitter" }
 	]
 }
