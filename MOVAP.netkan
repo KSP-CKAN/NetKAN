@@ -16,6 +16,10 @@
 	"depends ": [
 		{ "name" : "FirespitterCore" }
 	],
+		
+	"recommends" : [
+		{ "name" : "EditorExtensions" }
+	],
 	
 	"suggests ": [
 		{ "name" : "Simple Wings" }
