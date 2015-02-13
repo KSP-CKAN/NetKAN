@@ -9,6 +9,12 @@
     "author": "nightingale",
     "$vref": "#/ckan/ksp-avc",
     "description": "Display waypoints while in flight, create custom waypoints.",
+    "install": [
+        {
+            "file"       : "GameData/WaypointManager",
+            "install_to" : "GameData"
+        }
+    ],
     "resources": {
         "homepage": "http://forum.kerbalspaceprogram.com/threads/104758",
         "bugtracker": "https://github.com/jrossignol/WaypointManager/issues",
