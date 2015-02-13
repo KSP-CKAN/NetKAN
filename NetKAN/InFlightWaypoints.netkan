@@ -7,8 +7,14 @@
     "license": "CC-BY-NC-SA-4.0",
     "release_status": "stable",
     "author": "nightingale",
-    "$vref": "#/ckan/ksp-avc",
+    "broken_vref": "#/ckan/ksp-avc",
     "description": "Display waypoints while in flight, create custom waypoints.",
+    "install": [
+        {
+            "file"       : "GameData/WaypointManager",
+            "install_to" : "GameData"
+        }
+    ],
     "resources": {
         "homepage": "http://forum.kerbalspaceprogram.com/threads/104758",
         "bugtracker": "https://github.com/jrossignol/WaypointManager/issues",
