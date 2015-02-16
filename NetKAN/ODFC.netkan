@@ -1,0 +1,36 @@
+{
+    "spec_version"   : 1,
+    "name"           : "On Demand Fuel Cells [ODFC]",
+    "abstract"       : "Fuel cells that provide power by burning fuels only when it is needed.",
+    "identifier"     : "ODFC",
+    "$kref"          : "#/ckan/kerbalstuff/596",
+    "license"        : "unknown",
+    "version"        : "1.0",
+    "release_status" : "stable",
+    "ksp_version"    : "0.90",
+    "resources" : {
+        "homepage"     : "http://forum.kerbalspaceprogram.com/threads/110694"
+    },
+    "install" : [
+        {
+            "file"       : "GameData/Okram",
+            "install_to" : "GameData"
+        },
+        {
+            "file"       : "DocsForModders",
+            "install_to" : "GameData/Okram/ODFC"
+        },
+        {
+            "file"       : "Licenses",
+            "install_to" : "GameData/Okram/ODFC"
+        },
+        {
+            "file"       : "PluginSrc",
+            "install_to" : "GameData/Okram/ODFC"
+        },
+        {
+            "file"       : "faq.txt",
+            "install_to" : "GameData/Okram/ODFC"
+        }
+    ]
+}
