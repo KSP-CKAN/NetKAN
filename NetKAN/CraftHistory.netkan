@@ -1,0 +1,12 @@
+{
+    "spec_version" : 1,
+    "$kref"        : "#/ckan/kerbalstuff/598",
+    "identifier"   : "CraftHistory",
+    "license"      : "restricted",
+    "install" : [
+        {
+            "file"       : "GameData/KerboKatz",
+            "install_to" : "GameData"
+        }
+    ],
+}
