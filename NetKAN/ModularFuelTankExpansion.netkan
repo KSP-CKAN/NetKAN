@@ -1,0 +1,22 @@
+{
+    "spec_version" : "v1.4",
+    "$kref"        : "#/ckan/kerbalstuff/599",
+    "identifier"   : "ModularFuelTankExpansion",
+    "license"      : "CC-BY-SA-4.0",
+    "install" : [
+        {
+            "find"       : "GameData/MunarIndustries",
+            "install_to" : "GameData"
+        },
+        {
+            "find"       : "CrossFeedEnabler",
+            "install_to" : "GameData/CrossFeedEnabler",
+            "filter_regexp" : [ "CrossFeedEnabler.dll", "Readme_CFE.txt" ]
+        }
+    ],
+    "depends" : [
+        { "name" : "CrossFeedEnabler" },
+        { "name" : "FirespitterCore" },
+        { "name" : "ModuleManager" }
+    ]
+}
