@@ -1,17 +1,12 @@
 {
     "spec_version" : 1,
-    "$kref"        : "#/ckan/kerbalstuff/598",
+    "$kref"        : "#/ckan/kerbalstuff/600",
     "identifier"   : "KerboKatzUtilities",
-    "name"         : "KerboKatz Utilities",
     "license"      : "restricted",
     "install" : [
         {
-            "file"       : "GameData/KerboKatz/KerboKatzUtilities.dll",
-            "install_to" : "GameData/KerboKatz"
-        },
-        {
-            "file"       : "GameData/KerboKatz/KerboKatzUtilities.version",
-            "install_to" : "GameData/KerboKatz"
+            "file"       : "GameData/KerboKatz",
+            "install_to" : "GameData"
         }
     ]
 }
