@@ -1,0 +1,17 @@
+{
+    "$kref": "#/ckan/kerbalstuff/536",
+    "identifier": "EnduranceSpaceExplorationSystem",
+    "license": "restricted",
+    "spec_version": 1,
+	
+	"install": [
+		{
+			"file": "Endurance",
+			"install_to": "GameData"
+		},
+		{
+			"file": "Ships",
+			"install_to": "Ships"
+		}
+	]
+}
