@@ -4,7 +4,7 @@
     "$kref": "#/ckan/github/jrossignol/WaypointManager",
     "name": "Waypoint Manager",
     "abstract": "Display waypoints while in flight, create custom waypoints.",
-    "license": "CC-BY-NC-SA-4.0",
+    "license": "MIT",
     "release_status": "stable",
     "author": "nightingale",
     "$vref": "#/ckan/ksp-avc",
