@@ -8,5 +8,11 @@
             "file": "KSPSerialIO",
             "install_to": "GameData"
         }
-    ]
+    ],
+
+	"conflicts": [
+		{
+			"name": "SerialIO-MacLinuxWin"
+		}
+	]
 }
