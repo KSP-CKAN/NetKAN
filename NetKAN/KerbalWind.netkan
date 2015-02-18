@@ -15,6 +15,11 @@
 	"resources" : {
 		"homepage" : "http://forum.kerbalspaceprogram.com/threads/107989"
 	},
+	
+	"comment": "FAR only supports one wind provider at once",
+	"provides" : [ "FARWind" ],
+	"conflicts": [ {"name": "FARWind" } ],
+	
 	"author" : "DaMichel, silverfox8124",
 	"release_status" : "stable"
 }
