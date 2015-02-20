@@ -1,0 +1,14 @@
+{
+    "spec_version" : 1,
+    "identifier"   : "Leadfoot",
+    "$kref"        : "#/ckan/kerbalstuff/606",
+	
+	"license": "restricted",
+	
+	"install": [
+        {
+            "file"       : "GameData/Kerbice Group",
+            "install_to" : "GameData"
+        }
+	]
+}
