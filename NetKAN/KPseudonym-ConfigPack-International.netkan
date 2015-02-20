@@ -1,0 +1,24 @@
+{
+  "spec_version": 1,
+  "name": "KPseudonym Config Pack International",
+  "author": "peadar1987",
+  "identifier": "KPseudonym-ConfigPack-International",
+  "abstract": "This mod is a collection of configs that allow KPsuedonym to create Real World names for your Kerbals. Contains names from various languages.",
+  "$kref": "#/ckan/kerbalstuff/537",
+  "license": "MIT",
+  "depends": [
+    {
+      "name": "KPseudonym"
+    }
+  ],
+  "install": [
+    {
+      "file": "KPSeudonym Files/KPseudonym_International/GameData/KPseudonym",
+      "install_to": "GameData",
+      "filter": [
+        "Plugins",
+        "Default.cfg"
+      ]
+    }
+  ]
+}
