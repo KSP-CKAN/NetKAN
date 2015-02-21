@@ -1,14 +1,26 @@
 {
-	"spec_version"	: 1,
-	"identifier"	: "SatBatts",
-	"$kref"			: "#/ckan/kerbalstuff/290",
-	"license"		: "unknown",
-	"x_netkan_license_ok": true,
-	 
-	"install": [
-		{
-			"file"			: "Okram",
-			"install_to"	: "GameData"
-		}
-	]
+    "spec_version"   : 1,
+    "author"         : "Orum",
+    "name"           : "SatBatts",
+    "identifier"     : "SatBatts",
+    "$kref"          : "#/ckan/kerbalstuff/290",
+    "license"        : "unknown",
+    "release_status" : "stable",
+    "x_netkan_license_ok": true,
+    "resources" : {
+        "homepage"     : "http://forum.kerbalspaceprogram.com/threads/66505"
+    },
+    "install": [
+        {
+            "file"       : "Okram",
+            "install_to" : "GameData",
+            "filter_regexp" : [
+               "Agencies",
+               "Flags"
+            ]
+        }
+    ],
+	 "recommends" : [
+        { "name" : "OkramSA" }
+    ]
 }
