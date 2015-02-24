@@ -1,7 +1,8 @@
 {
-    "license": "GPLv3",
+    "license": "GPL-3.0",
     "identifier": "FantomWorksKAXPartPack",
     "x_via": "Automated KerbalStuff CKAN submission",
     "$kref": "#/ckan/kerbalstuff/565",
-    "spec_version": 1
+    "spec_version": "v1.4",
+	"install": [ { "file": "Fantom Works", "install_to": "GameData" } ]
 }
