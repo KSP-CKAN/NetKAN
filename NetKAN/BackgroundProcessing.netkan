@@ -2,6 +2,9 @@
     "spec_version" : 1,
     "identifier"   : "BackgroundProcessing",
     "$kref"        : "#/ckan/kerbalstuff/302",
+				    "resources" : {
+        "homepage" : "http://forum.kerbalspaceprogram.com/threads/98453"
+    },
     "x_netkan_license_ok" : true,
     "install": [
         {
