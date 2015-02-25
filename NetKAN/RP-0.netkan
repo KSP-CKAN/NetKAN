@@ -17,7 +17,8 @@
     "recommends" : [
         { "name" : "ProceduralDynamics" },
         { "name" : "TweakScale" },
-        { "name" : "ProceduralParts" }
+        { "name" : "ProceduralParts" },
+        { "name" : "TestFlight" }
     ],
     "provides"  : [ "FinePrint-Config" ],
     "conflicts" : [ { "name" : "FinePrint-Config" } ],
