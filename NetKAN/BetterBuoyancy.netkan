@@ -5,5 +5,8 @@
     "name"           : "Better Buoyancy",
     "abstract"       : "Double precision measurements for buoyancy",
     "license"        : "restricted",
-    "ksp_version"    : "0.90"
+    "ksp_version"    : "0.90",
+					    "resources" : {
+        "homepage" : "http://forum.kerbalspaceprogram.com/threads/105094"
+    }
 }
