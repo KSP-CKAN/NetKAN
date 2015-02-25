@@ -8,6 +8,9 @@
     "release_status": "stable",
     "author": "DBT85",
     "$vref": "#/ckan/ksp-avc",
+	"resources" : {
+        "homepage" : "http://forum.kerbalspaceprogram.com/threads/108097"
+    },
     "depends": [
         {
             "name": "ContractConfigurator"

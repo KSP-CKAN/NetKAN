@@ -6,5 +6,8 @@
     "abstract"		:	"Fairings that automatically reshape for any attached payload",
     "license"		:	"CC-BY-3.0",
     "ksp_version"	:	"0.90",
+	"resources" : {
+        "homepage" : "http://forum.kerbalspaceprogram.com/threads/39512"
+    },
     "suggests"          :       [ { "name" : "PFTextures" } ]
 }

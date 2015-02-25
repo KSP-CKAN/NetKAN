@@ -5,5 +5,8 @@
     "name"         : "Crossfeed Enabler",
     "abstract"     : "Adds toggleable fuel crossfeed between the part it's added to, and the part this part is surface-attached to. Use it for radial tanks.",
     "license"      : "CC-BY-SA",
+	"resources" : {
+        "homepage" : "http://forum.kerbalspaceprogram.com/threads/76499"
+    },
     "ksp_version"  : "0.90"
 }
