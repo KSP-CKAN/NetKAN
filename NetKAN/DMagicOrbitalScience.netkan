@@ -5,7 +5,7 @@
     "license"      : "BSD-3-clause",
 	"install": [
         {
-            "file"       : "GameData/DMagic Orbital Science",
+            "file"       : "GameData/DMagicOrbitalScience",
             "install_to" : "GameData"
         }
     ],
