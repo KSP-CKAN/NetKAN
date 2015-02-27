@@ -1,0 +1,17 @@
+{
+    "spec_version" : 1,
+    "identifier"   : "Protractor",
+    "$kref"        : "#/ckan/github/RealGrep/Protractor",
+    "name"         : "Protractor",
+    "abstract"     : "Hohmann transfers to planets and moons, no nodes required.",
+    "license"      : "GPL-3.0",
+    "$vref"        : "#/ckan/ksp-avc",
+    "install"      :
+    [
+        {
+            "find"       : "Protractor",
+            "install_to" : "GameData"
+        }
+    ]
+}
+
