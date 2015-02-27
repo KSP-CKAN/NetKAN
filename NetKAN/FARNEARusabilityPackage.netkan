@@ -1,0 +1,18 @@
+{
+    "spec_version": 1,
+    "identifier": "FARNEARusabilityPackage",
+    "$kref": "#/ckan/kerbalstuff/613",
+    "license": "CC-BY-NC-SA-3.0",
+    "depends": [
+        {"name": "ModuleManager"},
+        {"name": "FirespitterCore"},
+        {"name": "AerodynamicModel"}
+    ],
+    "install": [
+        {
+            "file": "FARuP",
+            "install_to": "GameData",
+            "filter": "FARuP   Basic Jet.craft"
+        }
+    ]
+}
