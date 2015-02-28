@@ -1,7 +1,13 @@
 {
     "identifier": "TheBlackDwarfSkyboxCollection",
     "x_via": "Automated KerbalStuff CKAN submission",
-    "spec_version": 1,
+    "spec_version": "v1.4",
     "$kref": "#/ckan/kerbalstuff/609",
-    "license": "CC"
+    "license": "CC-BY-4.0",
+	"depends": [
+		{ "name": "TextureReplacer" }
+	],
+	"install": [
+		{ "file": "TheBlackDwarf Skybox Collection", "install_to": "GameData" }
+	]
 }
