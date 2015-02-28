@@ -1,0 +1,13 @@
+{
+    "identifier": "CrewPortraits",
+    "x_via": "Automated KerbalStuff CKAN submission",
+    "spec_version": "v1.4",
+    "$kref": "#/ckan/kerbalstuff/575",
+    "license": "CC-BY-SA-4.0",
+	"install": [
+		{ "file": "GameData/FederalProductions", "install_to": "GameData" }
+	],
+	"depends": [
+		{ "name": "ModuleManager" }
+	]
+}
