@@ -1,0 +1,14 @@
+{
+    "$kref": "#/ckan/kerbalstuff/541",
+    "identifier": "MicroFuels",
+    "x_via": "Automated KerbalStuff CKAN submission",
+    "license": "CC-BY-SA-3.0",
+    "spec_version": "v1.4",
+	"install": [
+		{ "file": "MOSOI", "install_to": "GameData" }
+	],
+	"depends": [
+		{ "name": "ModuleManager" },
+		{ "name": "ModularFuelTanks" }
+	]
+}
