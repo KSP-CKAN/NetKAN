@@ -1,0 +1,10 @@
+{
+    "identifier": "RocketWatch",
+    "x_via": "Automated KerbalStuff CKAN submission",
+    "spec_version": "v1.4",
+    "$kref": "#/ckan/kerbalstuff/616",
+    "license": "CC-BY-4.0",
+	"install": [
+		{ "file": "RocketWatch-1.1.0/GameData/RocketWatch", "install_to": "GameData" }
+	]
+}
