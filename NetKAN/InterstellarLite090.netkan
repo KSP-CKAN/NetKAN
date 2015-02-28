@@ -4,8 +4,8 @@
     "spec_version": "v1.4",
     "$kref": "#/ckan/kerbalstuff/593",
     "license": "GPL-3.0",
-	"provides": [ "KSPInterstellar" ],
-    "conflicts": [ { "name" : "KSPInterstellar" } ],
+	"provides": [ "KSPInterstellar", "OpenResourceSystem" ],
+    "conflicts": [ { "name" : "KSPInterstellar" }, { "name": ""OpenResourceSystem" } ],
 	"depends": [
         { "name": "OpenResourceSystem" },
         { "name": "TreeLoader" },
@@ -18,6 +18,10 @@
         {
             "file"       : "Interstellar",
             "install_to" : "GameData"
-        }
+        },
+		{
+			"file": "OpenResourceSystem",
+			"install_to": "GameData"
+		}
     ]
 }
