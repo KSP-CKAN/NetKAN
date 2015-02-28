@@ -3,5 +3,8 @@
     "identifier": "LTechUnofficial",
     "x_via": "Automated KerbalStuff CKAN submission",
     "$kref": "#/ckan/kerbalstuff/563",
-    "spec_version": 1
+    "spec_version": "v1.4",
+	"install": [
+		{ "file": "GameData/LTech", "install_to": "GameData" }
+	]
 }
