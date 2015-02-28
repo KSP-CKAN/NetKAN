@@ -5,7 +5,7 @@
     "$kref": "#/ckan/kerbalstuff/593",
     "license": "GPL-3.0",
 	"provides": [ "KSPInterstellar", "OpenResourceSystem" ],
-    "conflicts": [ { "name" : "KSPInterstellar" }, { "name": ""OpenResourceSystem" } ],
+    "conflicts": [ { "name" : "KSPInterstellar" }, { "name": "OpenResourceSystem" } ],
 	"depends": [
         { "name": "OpenResourceSystem" },
         { "name": "TreeLoader" },
