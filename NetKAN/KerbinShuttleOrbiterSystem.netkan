@@ -13,6 +13,7 @@
 	],
 	"install": [
 		{ "file": "KSOS_v413_All/GameData/KSO", "install_to": "GameData" },
-		{ "file": "KSOS_v413_All/Ships", "install_to": "Ships" }
+		{ "file": "KSOS_v413_All/Ships/SPH", "install_to": "Ships" },
+		{ "file": "KSOS_v413_All/Ships/VAB", "install_to": "Ships" }
 	]
 }
