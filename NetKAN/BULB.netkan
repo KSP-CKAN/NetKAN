@@ -1,0 +1,15 @@
+{
+    "spec_version" : 1,
+    "identifier"   : "Bright Utilitarian Luminescent Beacon (BULB)",
+    "$kref"        : "#/ckan/kerbalstuff/170",
+    "x_netkan_license_ok": true,
+    "install" : [
+        {
+            "file"       : "GameData/AquilaEnterprises",
+            "install_to" : "GameData"
+        }
+    ],
+    "depends" : [
+        { "name" : "ModuleManager", "min_version" : "2.5.9" }
+    ]
+}
