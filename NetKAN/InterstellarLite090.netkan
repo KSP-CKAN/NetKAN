@@ -1,0 +1,26 @@
+{
+    "identifier": "InterstellarLite090",
+    "x_via": "Automated KerbalStuff CKAN submission",
+    "spec_version": "v1.4",
+    "$kref": "#/ckan/kerbalstuff/593",
+    "license": "GPL-3.0",
+	"provides": [ "KSPInterstellar", "OpenResourceSystem" ],
+    "conflicts": [ { "name" : "KSPInterstellar" }, { "name": "OpenResourceSystem" } ],
+	"depends": [
+        { "name": "OpenResourceSystem" },
+        { "name": "TreeLoader" },
+        { "name": "ModuleManager" },
+        { "name": "Toolbar" },
+        { "name": "TweakScale" }
+    ],
+    "install": [
+        {
+            "file"       : "Interstellar",
+            "install_to" : "GameData"
+        },
+		{
+			"file": "OpenResourceSystem",
+			"install_to": "GameData"
+		}
+    ]
+}
