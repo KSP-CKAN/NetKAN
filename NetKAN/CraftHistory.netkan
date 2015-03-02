@@ -5,9 +5,8 @@
     "license"      : "restricted",
     "install" : [
         {
-            "file"          : "GameData/KerboKatz",
-            "install_to"    : "GameData",
-            "filter_regexp" : [ "KerboKatzUtilities.dll", "KerboKatzUtilities.version" ]
+            "file"          : "GameData/KerboKatz/CraftHistory",
+            "install_to"    : "GameData/KerboKatz"
         }
     ],
     "depends" : [
