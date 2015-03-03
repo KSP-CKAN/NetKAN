@@ -7,7 +7,7 @@
 	"install": [
 		{ "file": "CivilianManagement/GameData/CivilianManagement", "install_to": "GameData" }
 	],
-	"depends" [
+	"depends": [
 		{ "name": "CommunityResourcePack" }
 	]
 }
