@@ -3,6 +3,7 @@
     "x_via": "Automated KerbalStuff CKAN submission",
     "spec_version": "v1.4",
     "$kref": "#/ckan/kerbalstuff/620",
+    "name": "Civilian Population",
     "license": "GPL-3.0",
 	"install": [
 		{ "file": "CivilianManagement/GameData/CivilianManagement", "install_to": "GameData" }
