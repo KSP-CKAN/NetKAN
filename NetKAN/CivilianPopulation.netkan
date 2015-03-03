@@ -5,13 +5,9 @@
     "$kref": "#/ckan/kerbalstuff/620",
     "license": "GPL-3.0",
 	"install": [
-		{ "file": "CivilianManagement/GameData/CivilianManagement", "install_to": "GameData" },
-		{ "file": "CivilianManagement/GameData/CommunityResourcePack", "install_to": "GameData" }
+		{ "file": "CivilianManagement/GameData/CivilianManagement", "install_to": "GameData" }
 	],
-	"provides": [
-		{ "name": "CommunityResourcePack" }
-	],
-	"conflicts": [
+	"depends" [
 		{ "name": "CommunityResourcePack" }
 	]
 }
