@@ -1,0 +1,22 @@
+{
+    "identifier": "KiriusPlanetPack",
+    "x_via": "Automated KerbalStuff CKAN submission",
+    "spec_version": "v1.4",
+    "$kref": "#/ckan/kerbalstuff/610",
+    "license": "GPL-3.0",
+	"provides": [ "KittopiaSpace" ],
+	"conflicts": [
+		{ "name": "KittopiaSpace" }
+	],
+	"depends": [
+		{ "name": "Kopernicus" },
+		{ "name": "CustomAsteroids" }
+	],
+	"recommends": [
+		{ "name": "BetterAtmospheres" }
+	],
+	"install": [
+		{ "file": "GameData/KittopiaSpace", "install_to": "GameData" },
+		{ "file": "GameData/Kopernicus", "install_to": "GameData", "filter": "Thumbs.db" }
+	]
+}
