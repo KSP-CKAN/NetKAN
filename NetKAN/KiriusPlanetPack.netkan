@@ -3,5 +3,18 @@
     "x_via": "Automated KerbalStuff CKAN submission",
     "spec_version": 1,
     "$kref": "#/ckan/kerbalstuff/610",
-    "license": "GPLv3"
+    "license": "GPL-3.0",
+	"provides": [ "KittopiaSpace" ],
+	"conflicts": ["KittopiaSpace" ],
+	"depends": [
+		{ "name": "Kopernicus" },
+		{ "name": "CustomAsteroids" }
+	],
+	"recommends": [
+		{ "name": "BetterAtmospheres" }
+	],
+	"install": [
+		{ "file": "GameData/KittopiaSpace", "install_to": "GameData" },
+		{ "file": "GameData/Kopernicus", "install_to": "GameData", "filter": "Thumbs.db" }
+	]
 }
