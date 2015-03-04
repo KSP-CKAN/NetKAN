@@ -7,7 +7,7 @@
     "$kref": "#/ckan/kerbalstuff/625",
     "license": "GPL-3.0",
     "version": "1.0",
-	"install": [
+	 "install": [
 		{ "file": "NehemiahInc/NE_Science_Common", "install_to": "GameData/NehemiahInc" }
 	],
 	"depends": [
