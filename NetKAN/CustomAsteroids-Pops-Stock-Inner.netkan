@@ -4,6 +4,7 @@
 	"name": "Custom Asteroids (inner stock system data)",
 	"abstract": "Adds asteroids inside orbit of Jool",
 	"$kref": "#/ckan/kerbalstuff/251",
+	"ksp_version_min": "0.25",
 	"release_status": "stable",
         "x_netkan_license_ok" : true,
 	"depends": [ 
