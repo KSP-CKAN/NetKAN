@@ -4,6 +4,7 @@
 	"$kref": "#/ckan/kerbalstuff/251",
 	"release_status": "stable",
         "x_netkan_license_ok" : true,
+        "ksp_version_min": "0.25",
 	"resources": {
 		"repository": "https://github.com/Starstrider42/Custom-Asteroids",
 		"bugtracker": "https://github.com/Starstrider42/Custom-Asteroids/issues",
