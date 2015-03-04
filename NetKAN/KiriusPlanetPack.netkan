@@ -5,7 +5,9 @@
     "$kref": "#/ckan/kerbalstuff/610",
     "license": "GPL-3.0",
 	"provides": [ "KittopiaSpace" ],
-	"conflicts": ["KittopiaSpace" ],
+	"conflicts": [
+		{ "name": "KittopiaSpace" }
+	],
 	"depends": [
 		{ "name": "Kopernicus" },
 		{ "name": "CustomAsteroids" }
