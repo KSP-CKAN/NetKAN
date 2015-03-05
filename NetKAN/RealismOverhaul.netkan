@@ -70,7 +70,8 @@
 		{ "name" : "SpaceFactory-Voskhod-unofficial" },
 		{ "name" : "SpaceFactory-Vostok-unofficial" },
 		{ "name" : "SXT" },
-		{ "name" : "UniversalStorage" }
+		{ "name" : "UniversalStorage" },
+		{ "name" : "VenStockRevamp"}
     ],
     "provides" : [ "RealFuels-Engine-Configs" ],
     "resources" : {
