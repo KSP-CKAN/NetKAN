@@ -5,6 +5,6 @@
     "identifier": "TitanEngine",
     "x_via": "Automated KerbalStuff CKAN submission",
 	"install": [
-		{ "file": "GameData/TitanEngine", "install_to": "GameData" }
+		{ "file": "TitanEnginev1.0.1/GameData/TitanEngine", "install_to": "GameData" }
 	]
 }
