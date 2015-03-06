@@ -8,7 +8,8 @@
     "license": "GPL-3.0",
     "version": "1.0",
 	 "install": [
-		{ "file": "NehemiahInc/NE_Science_Common", "install_to": "GameData/NehemiahInc" }
+		{ "file": "NehemiahInc/NE_Science_Common", "install_to": "GameData/NehemiahInc" },
+		{ "file": "NehemiahInc/MultiPurposeParts", "install_to": "GameData/NehemiahInc" }
 	],
 	"depends": [
 		{ "name": "ModuleManager", "min_version": "2.5.9" }

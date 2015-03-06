@@ -6,8 +6,8 @@
     "$kref": "#/ckan/kerbalstuff/468",
     "install": [
         {
-            "file": "NehemiahInc",
-            "install_to": "GameData"
+            "file": "NehemiahInc/OMS",
+            "install_to": "GameData/NehemiahInc"
         }
     ]
 }
