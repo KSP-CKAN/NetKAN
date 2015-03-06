@@ -5,10 +5,10 @@
     "$kref": "#/ckan/kerbalstuff/627",
     "license": "GPL-3.0",
 	"install": [
-		{ "file": "NehemiahInc/KerbalLifeScience", "install_to": "GameData/NehemiahInc" },
-		{ "file": "NehemiahInc/MultiPurposeParts", "install_to": "GameData/NehemiahInc" }
+		{ "file": "NehemiahInc/KerbalLifeScience", "install_to": "GameData/NehemiahInc" }
 	],
 	"depends": [
-		{ "name": "NehemiahScienceCommon" }
+		{ "name": "NehemiahScienceCommon" },
+		{ "name": "NehemiahMultiPurposeParts" }
 	]
 }
