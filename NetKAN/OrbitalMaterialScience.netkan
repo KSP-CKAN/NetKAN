@@ -9,5 +9,8 @@
             "file": "NehemiahInc/OMS",
             "install_to": "GameData/NehemiahInc"
         }
-    ]
+    ],
+	"depends": [
+		{ "name": "NehemiahScienceCommon" }
+	]
 }
