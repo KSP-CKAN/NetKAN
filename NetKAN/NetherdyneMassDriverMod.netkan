@@ -1,0 +1,10 @@
+{
+    "$kref": "#/ckan/kerbalstuff/543",
+    "identifier": "NetherdyneMassDriverMod",
+    "x_via": "Automated KerbalStuff CKAN submission",
+    "license": "unrestricted",
+    "spec_version": "v1.4",
+	"install": [
+		{ "file": "MassAcceleratorMaster", "install_to": "GameData" }
+	]
+}
