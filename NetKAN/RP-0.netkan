@@ -15,6 +15,8 @@
         { "name" : "CommunityTechTree" }
     ],
     "recommends" : [
+        { "name" : "KerbalConstructionTime" },
+        { "name" : "KerbalConstructionTime-RP0-Config"}
         { "name" : "ProceduralDynamics" },
         { "name" : "TweakScale" },
         { "name" : "ProceduralParts" },
