@@ -1,0 +1,26 @@
+{
+	"spec_version"   : 1,
+	"identifier"     : "KerbalConstructionTime-RP-0-Config",
+	"name"           : "Kerbal Construction Time RP-0 Config",
+	"abstract"       : "A Kerbal Construction Time configuration meant to be used for RP-0",
+	"license"        : "CC-BY-4.0",
+	"author"         : "RP-0 Group",
+	"$kref"          : "#/ckan/github/KSP-RO/RP-0",
+	"release_status" : "development",
+	"depends" : [
+		{ "name" : "RP-0" },
+		{ "name" : "KerbalConstructionTime" }
+	],
+	"provides" : [ 
+		"KerbalConstructionTime-Config"
+	],
+	"conflicts" : [ 
+		{ "name" : "KerbalConstructionTime-Config" }
+	],
+	"install" : [
+		{
+			"file"       : "GameData/KerbalConstructionTime",
+			"install_to" : "GameData"
+		}
+	]
+}
