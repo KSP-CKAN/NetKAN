@@ -18,7 +18,8 @@
         { "name" : "ProceduralDynamics" },
         { "name" : "TweakScale" },
         { "name" : "ProceduralParts" },
-        { "name" : "TestFlight" }
+        { "name" : "TestFlight" },
+        { "name" : "VenStockRevamp" }
     ],
     "provides"  : [ "FinePrint-Config" ],
     "conflicts" : [ { "name" : "FinePrint-Config" } ],
