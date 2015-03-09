@@ -1,16 +1,16 @@
 {
     "spec_version"       : 1,
-    "$kref"              : "#/ckan/github/Biotronic/TweakScale",
-    "name"               : "TweakScale",
-    "abstract"           : "Rescale everything!",
+    "$kref"              : "#/ckan/kerbalstuff/344",
+    "$vref"              : "#/ckan/ksp-avc",
     "identifier"         : "TweakScale",
-    "license"            : "CC-BY-NC-SA-4.0",
+    "license"            : "WTFPL",
     "release_status"     : "stable",
-    "ksp_version_min"    : "0.25",
+    "author"             : [ "Biotronic", "pellinor" ],
     "depends" : [
         { "name" : "ModuleManager", "min_version" : "2.5.1" }
     ],
     "resources" : {
-        "homepage" : "http://forum.kerbalspaceprogram.com/threads/80234"
+        "homepage"   : "http://forum.kerbalspaceprogram.com/threads/112693",
+        "repository" : "https://github.com/pellinor0/TweakScale"
     }
 }
