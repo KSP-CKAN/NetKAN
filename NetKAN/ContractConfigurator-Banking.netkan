@@ -1,0 +1,17 @@
+{
+    "$kref": "#/ckan/kerbalstuff/649",
+    "spec_version": 1,
+    "identifier": "ContractConfigurator-Banking",
+    "license": "MIT",
+	"depends":[
+		{	"name": "ContractConfigurator",
+			"min_version": "0.7.0"
+		}
+	],
+	"install": [
+		{
+			"find": "Banking",
+			"install_to": "GameData/ContractPacks"
+		}
+	]
+}
