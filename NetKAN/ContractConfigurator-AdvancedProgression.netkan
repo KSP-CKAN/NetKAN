@@ -1,0 +1,18 @@
+{
+    "$kref": "#/ckan/kerbalstuff/642",
+    "spec_version": 1,
+    "identifier": "ContractConfigurator-AdvancedProgression",
+    "license": "CC-BY-NC-SA-4.0",
+	"depends": [
+		{
+		"name": "ContractConfigurator",
+		"min_version": "0.7.0"
+		}
+	],
+	"install": [
+		{
+		"find": "AdvancedProgression",
+		"install_to": "GameData/ContractPacks"
+		}
+	]
+}
