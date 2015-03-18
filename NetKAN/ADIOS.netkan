@@ -6,6 +6,7 @@
     "ksp_version": "0.90",
 
 	"depends": [
+		{ "name": "ContractConfigurator" },
 		{ "name": "TechManager" }
 	],
 
