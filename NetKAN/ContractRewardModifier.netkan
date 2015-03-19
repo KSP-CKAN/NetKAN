@@ -3,18 +3,18 @@
     "spec_version": 1,
     "identifier": "ContractRewardModifier",
     "x_via": "Automated KerbalStuff CKAN submission",
-    "license": "MIT"
+    "license": "MIT",
 	
 	"install": [
 		{
 			"file": "GameData/ContractRewardModifier",
 			"install_to": "GameData"
 		}
-	]
+	],
 	
 	"recommends" : [
 		{ 
 			"name": "ContractsWindowPlus"
 		}
-	],
+	]
 }
