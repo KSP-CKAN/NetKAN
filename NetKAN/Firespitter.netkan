@@ -17,7 +17,7 @@
         {
             "file"       : "Firespitter",
             "install_to" : "GameData",
-            "filter"     : [ "Firespitter.dll", "Firespitter.cfg" ],
+            "filter"     : [ "Firespitter.dll" ],
             "comment"    : "The DLL is installed from FirespitterCore"
         },
         {
