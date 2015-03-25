@@ -9,8 +9,7 @@
     },
     "depends" : [
         { "name": "ContractConfigurator" },
-        { "name": "ModuleManager" },
-        { "name": "SpacetuxSA" }
+        { "name": "ModuleManager" }
     ],
     "install" : [
         {
