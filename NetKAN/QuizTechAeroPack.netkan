@@ -1,15 +1,17 @@
 {
     "identifier": "QuizTechAeroPack",
-    "x_via": "Automated KerbalStuff CKAN submission",
     "spec_version": "v1.4",
     "$kref": "#/ckan/kerbalstuff/612",
     "license": "CC-BY-4.0",
 	"depends": [
 		{ "name": "FirespitterCore" },
 		{ "name": "ModuleRCSFX" },
-		{ "name": "BDAnimationModules" }
+		{ "name": "BDAnimationModules" },
+        { "name" : "RasterPropMonitor-Core" },
+        { "name": "ModuleManager"},
 	],
 	"install": [
-		{ "file": "[.90] QuizTechAeroPack v1.0/GameData/QuizTechAero", "install_to": "GameData" }
+		{ "find": "QuizTechAero", "install_to": "GameData" },
+        { "find": "Ships/SPH", "install_to": "Ships"}
 	]
 }
