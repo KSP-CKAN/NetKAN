@@ -8,7 +8,7 @@
 		{ "name": "ModuleRCSFX" },
 		{ "name": "BDAnimationModules" },
         { "name" : "RasterPropMonitor-Core" },
-        { "name": "ModuleManager"},
+        { "name": "ModuleManager"}
 	],
 	"install": [
 		{ "find": "QuizTechAero", "install_to": "GameData" },
