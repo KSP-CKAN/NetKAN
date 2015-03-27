@@ -9,6 +9,7 @@
 	        "depends": [
         { "name": "JSIPartUtilities" },
         { "name": "FirespitterCore" },
+		{ "name": "ModuleManager" },
 		{ "name": "InfernalRobotics" }
     ],
 		    "resources" : {
