@@ -9,7 +9,8 @@
     ],
     
     "suggests": [
-        { "name" : "CommunityTechTree" }
+        { "name" : "CommunityTechTree" },
+		{ "name" : "NearFuturePropulsionExtras"}
     ],
     "license" : "CC-BY-NC-SA-3.0"
 
