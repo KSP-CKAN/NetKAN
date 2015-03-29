@@ -1,0 +1,18 @@
+{
+    "spec_version" : 1,
+    "identifier"   : "RemoteTech-Config-64k",
+	"name"			: "RemoteTech 64k Configuration",
+    "$kref"        : "#/ckan/kerbalstuff/573",
+    "license"		: "public-domain",
+	"abstract"		: "Adds Remotetech settings for 64k",
+    "depends" : [
+        { "name" : "RemoteTech" },
+        { "name" : "64k" }
+    ],
+    "provides"  : [ "RemoteTech-Config" ],
+    "conflicts" : [ { "name" : "RemoteTech-Config" } ],
+	"install"	: [ 	{
+						"file" : "RemoteTech",
+						"install_to" : "GameData"
+						} ]
+}

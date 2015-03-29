@@ -1,0 +1,19 @@
+{
+    "spec_version": "v1.4",
+    "identifier"  : "RemoteTech-Config-Kerbol_10",
+    "name"        : "RemoteTech for 10x Kerbol system",
+    "author"      : "jsimmons",
+    "version"     : "3.1.0",
+    "abstract"    : "Adds RemoteTech settings for 10x Kerbol system",
+	"resources"		: { "homepage" : "http://forum.kerbalspaceprogram.com/threads/90547" },
+    "ksp_version" : "0.90",
+    "license"     : "unknown",
+    "download": "http://www.infradead.org/~jsimmons/Eve-7.4-Default.zip",
+    "provides"  : [ "RemoteTech-Config" ],
+    "conflicts" : [ { "name" : "RemoteTech-Config" } ],
+	"depends"		: [ { "name" : "RemoteTech" },
+						{ "name" : "Kerbol_10"} ],
+	"install"		: [ {
+						"find" : "RemoteTech",
+						"install_to" : "GameData" ]
+}

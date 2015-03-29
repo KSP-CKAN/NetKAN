@@ -1,0 +1,23 @@
+{
+    "spec_version" : "v1.4",
+    "identifier"   : "SKRX",
+    "$kref"        : "#/ckan/kerbalstuff/566",
+    "license"		: "CC-BY-NC-SA",
+	"provides"		: [ "RSSConfig" ],
+	"conflicts"		: [ { "name" : "RSSConfig" },
+						{ "name" : "RSSTextures" } ],
+	"depends"		: [ { "name" : "RSS-core" },
+						{ "name" : "ModuleManager"} ],
+	"install"		: [
+						{
+						"find" : "RealSolarSystem",
+						"install_to" : "GameData",
+						"filter_regexp" : [ "RealSolarSystem.dll",
+											"RealSolarSystem/Plugins/Icons" ]
+						},
+						{
+						"find" : "RSSTextures",
+						"install_to" : "GameData"
+						}
+			]
+}

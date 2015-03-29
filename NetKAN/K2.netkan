@@ -1,0 +1,32 @@
+{
+    "spec_version" : "v1.4",
+    "identifier"   : "K2",
+    "$kref"        : "#/ckan/kerbalstuff/633",
+    "license"		: "public-domain",
+	"provides"		: [ "RSSConfig" ],
+	"conflicts"		: [ {"name" : "RSSConfig" } ],
+	"depends"		: [ { "name" : "RSS-core" },
+						{ "name" : "ModuleManager"} ],
+	"recommends"		: [ { "name" : "FerramAerospaceResearch" },
+							{ "name" : "DeadlyReentry" },
+							{ "name" : "SCANsat" },
+							{ "name" : "TransferWindowPlanner" },
+							{ "name" : "Remotetech" }],
+	"comment"		: "recommends duplicated from 64k",
+	"install"		: [
+						{
+						"find" : "RealSolarSystem",
+						"install_to" : "GameData",
+						"filter_regexp" : [ "RealSolarSystem.dll",
+											"RealSolarSystem/Plugins/Icons" ]
+						},
+						{
+						"find" : "2k",
+						"install_to" : "GameData"
+						},
+						{
+						"file" : "K2 License.pdf",
+						"install_to" : "GameData/2k"
+						}
+			]
+}
