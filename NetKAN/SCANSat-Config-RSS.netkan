@@ -1,0 +1,20 @@
+{
+	"spec_version": 1,
+	"identifier": "SCANSat-Config-RSS",
+	"name": "SCANSat Real Solar System config",
+	"abstract": "Tweaks SCANSat parts to better fix the size of the real solar system",
+	"ksp_version_min": "0.25",
+	"$kref": "#/ckan/github/NathanKell/RealSolarSystem",
+	"release_status": "stable",
+	"depends": [ 
+		{ "name": "SCANSat" },
+		{ "name": "RealSolarSystem" }
+	],
+	"provides": [ "SCANSat-Config" ],
+	"install": [
+		{
+			"file": "RealSolarSystem/Compatibility/SCANSat.cfg",
+			"install_to": "GameData/SCANSat"
+		}
+	]
+}
