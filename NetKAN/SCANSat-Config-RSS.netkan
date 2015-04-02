@@ -13,8 +13,9 @@
 	"provides": [ "SCANSat-Config" ],
 	"install": [
 		{
-			"file": "RealSolarSystem/Compatibility/SCANSat.cfg",
-			"install_to": "GameData/SCANSat"
+			"file": "RealSolarSystem/Compatibility/",
+			"install_to": "GameData/SCANSat",
+			"filter": [ "CustomAsteroids.cfg", "RealHeat.cfg" ]
 		}
 	]
 }
