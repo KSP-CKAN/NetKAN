@@ -21,7 +21,8 @@
 		{ 
 			"name": "AlternisKerbol",
 			"comment": "Because that seems to be the common conflict for the stock configs"
-		}
+		},
+		{ "name" : "CustomAsteroids-Pops" }
 	],
 	"install": [
 		{
