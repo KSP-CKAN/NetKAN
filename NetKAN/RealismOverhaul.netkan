@@ -10,6 +10,7 @@
     "depends" : [
 		{ "name" : "AdvancedJetEngine" },
 		{ "name" : "CrossFeedEnabler" },
+		{ "name" : "DDSLoader" },
 		{ "name" : "FerramAerospaceResearch" },
 		{ "name" : "KerbalJointReinforcement" },
 		{ "name" : "ModuleManager" },
@@ -79,20 +80,30 @@
     },
     "install" : [
         {
-            "file"       : "RealismOverhaul",
+            "file"       : "GameData/RealismOverhaul",
             "install_to" : "GameData",
 			"comment"       : "This regexp skips the Smokescreen folders",
 			"filter_regexp" : "SmokeScreen_"
         },
         {
-            "file"       : "KAS",
+            "file"       : "GameData/KAS",
             "install_to" : "GameData",
             "comment"    : "KAS config, does not overwrite"
         },
         {
-            "file"       : "EngineGroupController",
+            "file"       : "GameData/EngineGroupController",
             "install_to" : "GameData",
             "comment"    : "Engine Group Controller, unique to RO."
+        },
+        {
+            "file"       : "Ships/VAB",
+            "install_to" : "Ships",
+            "comment"    : "VAB craft files"
+        },
+        {
+            "file"       : "Ships/SPH",
+            "install_to" : "Ships",
+            "comment"    : "SPH craft files"
         }
     ]
 }
