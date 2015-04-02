@@ -4,7 +4,7 @@
 	"name": "Custom Asteroids (Real Solar System data)",
 	"abstract": "Adds various non-planetary bodies to the solar system",
 	"ksp_version_min": "0.25",
-	"$kref": "#/ckan/kerbalstuff/251",
+	"$kref": "#/ckan/github/NathanKell/RealSolarSystem",
 	"release_status": "stable",
 	"depends": [ 
 		{
