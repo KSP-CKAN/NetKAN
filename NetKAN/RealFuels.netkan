@@ -15,10 +15,6 @@
         {
             "file"       : "RealFuels",
             "install_to" : "GameData"
-        },
-        {
-            "file"       : "TweakScale",
-            "install_to" : "GameData"
         }
     ],
     "depends" : [
