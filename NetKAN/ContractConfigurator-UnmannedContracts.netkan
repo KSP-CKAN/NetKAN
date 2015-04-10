@@ -8,6 +8,7 @@
         "kerbalstuff" : "https://kerbalstuff.com/mod/651/Contract%20Pack:%20Unmanned%20Contracts"
     },
     "depends" : [
+        { "name": "CoherentContracts" },
         { "name": "ContractConfigurator" },
         { "name": "ModuleManager" },
         { "name": "SpacetuxSA" }
