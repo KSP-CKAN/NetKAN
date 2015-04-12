@@ -1,0 +1,12 @@
+{
+	"$kref": "#/ckan/kerbalstuff/648",
+    "spec_version": "v1.4",
+    "identifier": "KerbalizedFlagsandSpaceAgencies",
+    "license": "CC-BY-4.0",
+	"install": [
+		{
+		"find": "KerbalizedFlagpack",
+		"install_to": "GameData"
+		}
+	]
+}
