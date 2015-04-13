@@ -16,7 +16,7 @@
     "install" : [
         {
             "find"       : "Spacetux/GrandTours",
-            "install_to" : "Gamedata/ContractPacks/Spacetux"
+            "install_to" : "Gamedata/ContractPacks"
         }
     ]
 
