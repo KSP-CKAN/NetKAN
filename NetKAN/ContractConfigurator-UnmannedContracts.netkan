@@ -16,7 +16,7 @@
     ],
     "install" : [
         {
-            "find"       : "UnmannedContracts",
+            "find"       : "Spacetux/UnmannedContracts",
             "install_to" : "Gamedata/ContractPacks/Spacetux"
         }
     ],
