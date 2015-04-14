@@ -18,9 +18,16 @@
         {
             "file"       : "RealSolarSystem",
             "install_to" : "GameData",
-			"filter_regexp" : [ "^(?!RealSolarSystem/Readme_RSS.txt)",
-								"RealSolarSystem/Plugins",
-								"RealSolarSystem/Compatibility" ]
+			"filter_regexp" : [ "RealSolarSystem/Compatibility",
+						"RealSolarSystem/Plugins/PluginData",
+						"TextureFix.cfg",
+						"RealSolarSystem.cfg",
+						"RealSolarSystemSettings.cfg",
+						"LaunchSites.cfg"
+						"RealSolarSystem.dll",
+						"RealSolarSystem/Plugins/Icons",
+						"RealSolarSystem.version"
+					]
         }
     ]
 }
