@@ -18,7 +18,7 @@
         {
             "file"       : "RealSolarSystem",
             "install_to" : "GameData",
-			"filter_regexp" : "^(?!Readme_RSS.txt)"
+			"filter_regexp" : "^(?!RealSolarSystem/Readme_RSS.txt)"
         }
     ]
 }
