@@ -7,20 +7,9 @@
     "abstract"       : "Resizes and rearranges the Kerbal system to more closely resemble the Solar System",
     "license"        : "CC-BY-NC-SA",
     "release_status" : "stable",
-	"conflicts"		: [ { "name" : "RSSConfig" },
-						{ "name" : "RSSCore" } ],
     "depends" : [
-        { "name" : "RSSTextures" },
-        { "name" : "DDSLoader" },
-        { "name" : "ModuleManager", "min_version" : "2.5.0" }
-    ],
-    "recommends" : [
-        { "name" : "CustomBiomes-Data-RSS" },
-        { "name" : "RealismOverhaul" },
-        { "name" : "Toolbar" }
-    ],
-    "suggests" : [
-        { "name" : "RemoteTech-Config-RSS" }
+        { "name" : "RSSCore" },
+		{ "name" : "RSSConfig-default" },
     ],
     "resources" : {
         "homepage" : "http://forum.kerbalspaceprogram.com/threads/55145"
@@ -28,7 +17,8 @@
     "install" : [
         {
             "file"       : "RealSolarSystem",
-            "install_to" : "GameData"
+            "install_to" : "GameData",
+			"filter_regexp" : [ ^(?!Readme_RSS.txt).*$ ]
         }
     ]
 }
