@@ -9,7 +9,7 @@
     "release_status" : "stable",
     "depends" : [
         { "name" : "RSSCore" },
-		{ "name" : "RSSConfig-default" },
+		{ "name" : "RSSConfig-default" }
     ],
     "resources" : {
         "homepage" : "http://forum.kerbalspaceprogram.com/threads/55145"
