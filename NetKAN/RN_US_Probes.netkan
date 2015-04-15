@@ -1,0 +1,29 @@
+{
+    "$kref": "#/ckan/kerbalstuff/158",
+    "spec_version": 1,
+    "identifier": "RN_US_Probes",
+    "license": "CC-BY-NC-ND-3.0",
+    "install": [
+      {
+        "file": "GameData/RN_US_Probes",
+        "install_to": "GameData"
+      },
+      {
+        "file": "GameData/US_Probes_TR.cfg",
+        "install_to": "GameData"
+      },
+      {
+        "file": "GameData/MP_Nazari",
+        "install_to": "GameData"
+      },
+      {
+        "file": "Ships",
+        "install_to": "Ships"
+      }
+    ],
+    "depends"      : [
+        { "name" : "BDAnimationModules" },
+        { "name" : "FirespitterCore" },
+        { "name" : "SmokeScreen" }
+    ]
+}
