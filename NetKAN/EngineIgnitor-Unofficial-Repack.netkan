@@ -9,9 +9,11 @@
     "license"        : "MIT",
     "release_status" : "stable",
     "depends" : [
-        { "name" : "RealFuels" },
         { "name" : "ModuleManager" }
     ],
+	"recommends": [ { "name" : "RealFuels" },
+					{ "name" : "KAS" },
+					{ "name" : "RasterPropMonitor" } ],
     "suggests" : [
         { "name" : "RealismOverhaul" }
     ],
