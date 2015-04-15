@@ -5,11 +5,11 @@
     "license": "CC-BY-NC-ND-3.0",
     "install": [
       {
-        "file": "GameData/RN_Salyut",
+        "file": "Gamedata/RN_Salyut",
         "install_to": "GameData"
       },
       {
-        "file": "GameData/RN_Soyuz",
+        "file": "Gamedata/RN_Soyuz",
         "install_to": "GameData"
       },
       {
