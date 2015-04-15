@@ -1,0 +1,29 @@
+{
+    "$kref": "#/ckan/kerbalstuff/686",
+    "spec_version": 1,
+    "identifier": "RN_Solar_Panels",
+    "license": "CC-BY-NC-ND-3.0",
+    "install": [
+      {
+        "file": "GameData/RN_Salyut",
+        "install_to": "GameData"
+      },
+      {
+        "file": "GameData/RN_Soviet_Probes",
+        "install_to": "GameData"
+      },
+      {
+        "file": "GameData/RN_Soyuz",
+        "install_to": "GameData"
+      },
+      {
+        "file": "GameData/RN_US_Probes",
+        "install_to": "GameData"
+      }
+    ],
+    "conflicts"      : [
+        { "name" : "RN_Salyut" },
+        { "name" : "RN_Soviet_Probes" },
+        { "name" : "RN_US_Probes" }
+    ]
+}
