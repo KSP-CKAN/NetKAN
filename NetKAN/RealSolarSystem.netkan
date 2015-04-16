@@ -10,7 +10,7 @@
 	"provides"		:	[ "RSSConfig" ],
 	"conflicts"		: [ { "name" : "RSSConfig" } ],
     "depends" : [
-		{ "name" : "RSS-Core"}
+		{ "name" : "RSS-Core"},
         { "name" : "RSSTextures" },
         { "name" : "ModuleManager" }
     ],
