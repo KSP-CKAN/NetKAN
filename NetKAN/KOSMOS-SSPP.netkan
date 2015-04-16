@@ -3,7 +3,8 @@
     "identifier"   	: "KOSMOS-SSPP",
     "$kref"        	: "#/ckan/kerbalstuff/324",
     "license"		: "CC-BY-NC-ND-3.0",
-	
+	"ksp_version_min"		: "0.25",
+	"ksp_version_max"		: "0.90",
 	"depends" : [
 		{ "name" : "FirespitterCore" }
 	],
@@ -11,7 +12,9 @@
 	"install" : [
 		{
 			"file" : "GameData/KOSMOS",
-			"install_to" : "GameData"
+			"install_to" : "GameData",
+			"filter_regexp"	: [ "Kosmos_Readme.txt" ,
+								"Flags" ]
 		}
 	]
 }
