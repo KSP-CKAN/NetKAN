@@ -7,7 +7,7 @@
 	"abstract"		: "Adds Remotetech settings for 64k",
     "depends" : [
         { "name" : "RemoteTech" },
-        { "name" : "64k" }
+        { "name" : "SixtyFourK" }
     ],
     "provides"  : [ "RemoteTech-Config" ],
     "conflicts" : [ { "name" : "RemoteTech-Config" } ],

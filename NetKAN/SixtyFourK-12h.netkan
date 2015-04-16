@@ -1,11 +1,11 @@
 {
     "spec_version" : 1,
-    "identifier"   : "64k-12h",
+    "identifier"   : "SixtyFourK-12h",
 	"name"			: "64k 12h day config",
     "$kref"        : "#/ckan/kerbalstuff/573",
     "license"		: "public-domain",
 	"abstract"		: "Additional config to change 64k to 12 hour days",
-    "depends" : [ { "name" : "64k" } ],
+    "depends" : [ { "name" : "SixtyFourK" } ],
 	"install"	: [ 	{
 						"file" : "_OPTIONAL",
 						"install_to" : "GameData/64k"
