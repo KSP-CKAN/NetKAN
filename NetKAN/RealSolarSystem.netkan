@@ -1,24 +1,36 @@
 {
-    "spec_version"   : 1,
+    "spec_version"   : "v1.4",
     "$kref"          : "#/ckan/github/NathanKell/RealSolarSystem",
     "$vref"          : "#/ckan/ksp-avc",
-    "name"           : "Real Solar System",
+    "name"           : "Real Solar System - Default config",
     "identifier"     : "RealSolarSystem",
     "abstract"       : "Resizes and rearranges the Kerbal system to more closely resemble the Solar System",
     "license"        : "CC-BY-NC-SA",
     "release_status" : "stable",
+	"provides"		:	[ "RSSConfig" ],
+	"conflicts"		: [ { "name" : "RSSConfig" } ],
     "depends" : [
-        { "name" : "RSSCore" },
-		{ "name" : "RSSConfig-default" }
+		{ "name" : "RSS-Core"}
+        { "name" : "RSSTextures" },
+        { "name" : "ModuleManager" }
+    ],
+    "recommends" : [
+        { "name" : "CustomBiomes-Data-RSS" },
+        { "name" : "RealismOverhaul" },
+        { "name" : "Toolbar" }
+   ],
+    "suggests" : [
+        { "name" : "RemoteTech-Config-RSS" }
     ],
     "resources" : {
         "homepage" : "http://forum.kerbalspaceprogram.com/threads/55145"
     },
     "install" : [
         {
-            "file"       : "RealSolarSystem",
+            "find"       : "RealSolarSystem",
             "install_to" : "GameData",
-			"filter_regexp" : "^(?!RealSolarSystem/Readme_RSS.txt)"
+			"filter_regexp" : [ "RealSolarSystem.dll",
+								"RealSolarSystem/Plugins/Icons" ]
         }
     ]
 }

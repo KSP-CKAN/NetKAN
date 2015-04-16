@@ -3,7 +3,7 @@
     "$kref"          : "#/ckan/github/NathanKell/RealSolarSystem",
     "$vref"          : "#/ckan/ksp-avc",
     "name"           : "Real Solar System - Core",
-    "identifier"     : "RSSCore",
+    "identifier"     : "RSS-Core",
     "abstract"       : "Core plugin for RealSolarSystem, for the whole RSS experience install Real Solar System",
     "license"        : "CC-BY-NC-SA",
     "release_status" : "stable",
@@ -15,15 +15,12 @@
     },
     "install": [
         {
-            "find": "RealSolarSystem",
-            "install_to": "GameData",
-			"filter_regexp" : ["RealSolarSystem/Compatibility",
-						"RealSolarSystem/Plugins/PluginData",
-						"TextureFix.cfg",
-						"RealSolarSystem.cfg",
-						"RealSolarSystemSettings.cfg",
-						"LaunchSites.cfg",
-						"Readme_RSS.txt"]
+            "file"       : "RealSolarSystem/Plugins/RealSolarSystem.dll",
+            "install_to" : "GameData/RealSolarSystem/Plugins"
+        },
+        {
+            "file"       : "RealSolarSystem/Plugins/Icons",
+            "install_to" : "GameData/RealSolarSystem/Plugins"
         }
     ]
 }
