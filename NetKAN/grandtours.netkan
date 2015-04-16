@@ -9,9 +9,9 @@
         "repository"  : "https://github.com/linuxgurugamer/GrandTours"
     },
     "depends" : [
+        { "name": "SpacetuxSA" },
         { "name": "ContractConfigurator" },
-        { "name": "ModuleManager" },
-        { "name": "SpacetuxSA" }
+        { "name": "ModuleManager" }
     ],
     "install" : [
         {
