@@ -2,7 +2,8 @@
     "spec_version" : "(v1.4)",
     "identifier"   : "IR-Model-Rework-Expansion",
     "$kref"        : "#/ckan/kerbalstuff/676",
-    "license"	: "CC-BY-NC-ND-4.0"
+    "license"	: "CC-BY-NC-ND-4.0",
+    "ksp_version"  : "0.90",
 	"depends"	: [ { "name" : "InfernalRobotics-Rework" },
 					{ "name" : "IR-Model-Rework-Core" }],
 	"recommends" : [ { "name" : "IR-Model-Rework-Utility" } ],
