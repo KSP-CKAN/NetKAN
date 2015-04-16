@@ -1,0 +1,24 @@
+{
+    "spec_version": 1,
+    "identifier": "Workshop",
+    "name": "OSE Workshop",
+    "abstract": "In flight part construction",
+    "$kref": "#/ckan/kerbalstuff/693",
+    "author": "obivandamme",
+    "license": "CC-BY-NC-SA",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/108234"
+    },
+    "depends": [
+        { "name": "ModuleManager" },
+        { "name": "KIS" },
+        { "name": "KAS" },
+        { "name": "CommunityResourcePack" }
+    ],
+    "install": [
+        {
+            "file": "GameData/Workshop",
+            "install_to": "GameData"
+        }
+    ]
+}

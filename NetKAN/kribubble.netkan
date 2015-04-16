@@ -1,0 +1,24 @@
+{
+	"spec_version" : 1,
+	"identifier"   : "kribubble",
+	"$kref"        : "#/ckan/kerbalstuff/694",
+	"license"      : "restricted",
+	"ksp_version"  : "any",
+	"ksp_version_min" : "0.90",
+	
+	"install": [
+        {
+            "file"       : "GameData/Kerbice Group",
+            "install_to" : "GameData"
+        }
+	],
+	
+	
+	"recommends" : [
+		{ "name" : "FirespitterCore" }
+	],
+	
+	"suggests ": [
+		{ "name" : "LowProfileMiscEngines" }
+	]
+}
