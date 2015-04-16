@@ -4,8 +4,9 @@
     "$kref"          : "#/ckan/kerbalstuff/651",
     "release_status" : "stable",
     "resources" : {
-        "homepage" : "http://forum.kerbalspaceprogram.com/threads/113417-Spacetux-Unmanned-Missions",
-        "kerbalstuff" : "https://kerbalstuff.com/mod/651/Contract%20Pack:%20Unmanned%20Contracts"
+        "homepage"    : "http://forum.kerbalspaceprogram.com/threads/113417-Spacetux-Unmanned-Missions",
+        "kerbalstuff" : "https://kerbalstuff.com/mod/651/Contract%20Pack:%20Unmanned%20Contracts",
+	"repository"  : "https://github.com/linuxgurugamer/UnmannedContracts"
     },
     "depends" : [
         { "name": "CoherentContracts" },
@@ -15,8 +16,8 @@
     ],
     "install" : [
         {
-            "find"       : "spacetux",
-            "install_to" : "GameData/ContractPacks"
+            "find"       : "UnmannedContracts",
+            "install_to" : "GameData/ContractPacks/Spacetux"
         }
     ],
     "recommends" : [
@@ -24,4 +25,3 @@
     ]
 
 }
-

@@ -4,19 +4,18 @@
     "$kref"          : "#/ckan/kerbalstuff/689",
     "release_status" : "stable",
     "resources" : {
-        "homepage" : "http://forum.kerbalspaceprogram.com/threads/113400-Spacetux-Contract-Pack-Unmanned-Contracts-Rover-Contracts-Grand-Tours",
-        "kerbalstuff" : "https://kerbalstuff.com/mod/689/Contract%20Pack:%20Grand%20Tours"
+        "homepage"    : "http://forum.kerbalspaceprogram.com/threads/113400-Spacetux-Contract-Pack-Unmanned-Contracts-Rover-Contracts-Grand-Tours",
+        "kerbalstuff" : "https://kerbalstuff.com/mod/689/Contract%20Pack:%20Grand%20Tours",
+        "repository"  : "https://github.com/linuxgurugamer/GrandTours"
     },
     "depends" : [
-        { "name": "ContractConfigurator" },
-        { "name": "ModuleManager" },
-        { "name": "SpacetuxSA" }
+        { "name": "SpacetuxSA" },
+        { "name": "ContractConfigurator" }
     ],
     "install" : [
         {
-            "find"       : "spacetux",
-            "install_to" : "GameData/ContractPacks"
+            "find"       : "Grandtours",
+            "install_to" : "GameData/ContractPacks/Spacetux"
         }
     ]
-
 }
