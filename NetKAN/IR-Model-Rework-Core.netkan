@@ -8,6 +8,6 @@
 	"recommends"	: [	{ "name" : "IR-Model-Rework-Expansion" },
 						{ "name" : "IR-Model-Rework-Utility" } ],
 
-	"install"		: [ { "find" : "MagicSmokeIndustries" },
-						{ "install_to" : "GameData" } ]
+	"install"		: [ { "find" : "MagicSmokeIndustries",
+						"install_to" : "GameData" } ]
 }
