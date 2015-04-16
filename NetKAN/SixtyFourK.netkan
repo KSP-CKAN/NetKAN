@@ -5,7 +5,7 @@
     "license"		: "public-domain",
 	"provides"		: [ "RSSConfig" ],
 	"conflicts"		: [ {"name" : "RSSConfig" } ],
-	"depends"		: [ { "name" : "RSS-core" },
+	"depends"		: [ { "name" : "RSS-Core" },
 						{ "name" : "ModuleManager"} ],
 	"recommends"		: [ { "name" : "FerramAerospaceResearch" },
 							{ "name" : "DeadlyReentry" },

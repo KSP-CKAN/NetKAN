@@ -6,7 +6,7 @@
 	"provides"		: [ "RSSConfig" ],
 	"conflicts"		: [ { "name" : "RSSConfig" },
 						{ "name" : "RSSTextures" } ],
-	"depends"		: [ { "name" : "RSS-core" },
+	"depends"		: [ { "name" : "RSS-Core" },
 						{ "name" : "ModuleManager"} ],
 	"install"		: [
 						{
