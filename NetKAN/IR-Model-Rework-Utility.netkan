@@ -1,0 +1,18 @@
+{
+    "spec_version" : (v1.4),
+    "identifier"   : "IR-Model-Rework-Utility",
+    "$kref"        : "#/ckan/kerbalstuff/677",
+    "license"		: "CC-BY-NC-ND-4.0"
+	"depends"		: [ { "name" : "InfernalRobotics-Rework" },
+						{ "name" : "IR-Model-Rework-Core" },
+						{ "name" : "TweakableEverything" },
+						{ "name" : "ToadicusTools" },
+						{ "name" : "CIT-Util" },
+						{ "name" : "ActiveStruts" }	],
+	"recommends"	: [ { "name" : "IR-Model-Rework-Expansion" } ],
+	
+	"install"		: [ { "find" : "MagicSmokeIndustries",
+						"install_to" : "GameData",
+						"filter_regexp" : [	"Rework_License.txt",
+											"Rework_TweakScale.cfg" ] } ]
+}
