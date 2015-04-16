@@ -5,7 +5,7 @@
     "$kref": "#/ckan/kerbalstuff/423", 
     "install": [
         {
-            "find": "000_ImprovedStrategies",
+            "file": "000_ImprovedStrategies",
             "install_to": "GameData"
         }
     ]
