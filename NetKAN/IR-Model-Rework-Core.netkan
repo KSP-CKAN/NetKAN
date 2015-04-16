@@ -6,7 +6,7 @@
     "ksp_version"  : "0.90",
 	"depends"		: [ { "name" : "InfernalRobotics-Rework" } ],
 	"recommends"	: [	{ "name" : "IR-Model-Rework-Expansion" },
-						{ "name" : "IR-Model-Rework-Utility" } ]
+						{ "name" : "IR-Model-Rework-Utility" } ],
 
 	"install"		: [ { "find" : "MagicSmokeIndustries" },
 						{ "install_to" : "GameData" } ]
