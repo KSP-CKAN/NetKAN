@@ -1,0 +1,9 @@
+{
+    "identifier": "RecoverAll",
+    "license": "restricted",
+    "$kref": "#/ckan/kerbalstuff/701",
+    "spec_version": "v1.4",
+	"depends"	:	[ { "name" : "KerboKatzUtilities"} ],
+	"install" : [ { "find" : "RecoverAll",
+					"install_to" : "GameData/KerboKatz" } ]
+}
