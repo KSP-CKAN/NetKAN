@@ -4,7 +4,7 @@
     "identifier": "OMSKSpaceProducts",
     "license": "CC-BY-NC-SA-4.0",
 	"install" : [ 	{
-					"find" : "OMSK"
+					"find" : "OMSK",
 					"install_to" : "GameData"
 					},
 					{
