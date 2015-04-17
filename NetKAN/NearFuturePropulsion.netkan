@@ -5,13 +5,17 @@
 
     "depends": [
         { "name": "ModuleManager" },
-        { "name": "CrossFeedEnabler" }
+        { "name": "CrossFeedEnabler" },
+		{ "name": "KSPAPIExtensions" }
     ],
     
     "suggests": [
         { "name" : "CommunityTechTree" },
 		{ "name" : "NearFuturePropulsionExtras"}
     ],
+	"install" : [ { "file" : "GameData/NearFuturePropulsion",
+					"install_to" : "GameData",
+					"filter_regexp" : "KSPAPIExtensions.dll"} ],
     "license" : "CC-BY-NC-SA-3.0"
 
 }
