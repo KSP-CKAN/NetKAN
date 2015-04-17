@@ -4,7 +4,7 @@
     "$kref"        : "#/ckan/kerbalstuff/675",
     "license"		: "CC-BY-NC-ND-4.0",
     "ksp_version"  : "0.90",
-	"depends"		: [ { "name" : "InfernalRobotics-Rework" } ],
+	"depends"		: [ { "name" : "InfernalRobotics", "version_min" : "0.20c" } ],
 	"recommends"	: [	{ "name" : "IR-Model-Rework-Expansion" },
 						{ "name" : "IR-Model-Rework-Utility" } ],
 
