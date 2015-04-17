@@ -11,6 +11,6 @@
 						{ "name" : "ActiveTextureManagement" } ],
 	"install" : [ { "find" : "KerbalStockLauncherOverhaul",
 					"install_to" : "GameData" },
-					{ "file" : "Modulefixer.dll",
+					{ "file" : "GameData/Modulefixer.dll",
 					 "install_to" : "GameData" } ]
 }
