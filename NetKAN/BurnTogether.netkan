@@ -1,0 +1,10 @@
+{
+    "$kref": "#/ckan/kerbalstuff/658",
+    "spec_version": "v1.4",
+    "identifier": "BurnTogether",
+    "license": "CC-BY-SA-2.0",
+	"install" : [ { "find" : "BurnTogether",
+					"install_to" : "GameData",
+					"filter" : "BTforCommandModules.zip",
+					"comment" : "no way to install files from .zip, it's an MM patch to add functionality to pods without the part"} ]
+}
