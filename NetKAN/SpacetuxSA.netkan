@@ -5,6 +5,7 @@
     "abstract"       : "Shared assets (flags & agency) for use with various Spacetux mods",
     "identifier"     : "SpacetuxSA",
     "$kref"          : "#/ckan/kerbalstuff/656",
+    "x_netkan_license_ok" : true,
     "release_status" : "stable",
     "resources" : {
         "homepage"    : "http://forum.kerbalspaceprogram.com/threads/113417-Spacetux-Unmanned-Missions",
