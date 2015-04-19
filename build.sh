@@ -52,7 +52,7 @@ then
     export COMMIT_CHANGES=NetKAN/*.netkan
 else
     echo Commit hash: ${ghprbActualCommit}
-    export COMMIT_CHANGES="`git diff --diff-filter=AM --name-only --stat origin/master`"
+    export COMMIT_CHANGES="`git diff --diff-filter=AM --name-only --stat origin/master NetKAN`"
 fi
 
 echo Running jsonlint on the changed files
