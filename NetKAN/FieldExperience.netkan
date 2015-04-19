@@ -4,13 +4,10 @@
 	"$kref": "#/ckan/kerbalstuff/505",
 	"license": "restricted",
 	"install": [
-			{
-				"file": "FieldExperience.dll",
-				"install_to": "GameData/FieldExperience"
-			},
-			{
-				"file": "license.txt",
-				"install_to": "GameData/FieldExperience"
-			}
-		]
+                {
+                        "file": "GameData/FieldExperience",
+                        "install_to": "GameData",
+                        "filter" : [ "FieldExperience.cs" ]
+                }
+        ]
 }
