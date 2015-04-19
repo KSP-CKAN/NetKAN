@@ -1,0 +1,8 @@
+{
+    "$kref": "#/ckan/kerbalstuff/681",
+    "spec_version": "v1.4",
+    "identifier": "MoarEggs",
+    "license": "CC-BY-NC-SA-4.0",
+	"install" : [ { "find" : "MoarEggs",
+					"install_to" : "GameData" } ]
+}
