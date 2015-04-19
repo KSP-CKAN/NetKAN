@@ -1,0 +1,12 @@
+{
+"spec_version" : 1,
+"identifier" : "QuickGoTo",
+"$kref" : "#/ckan/kerbalstuff/653",
+"license" : "GPL-3.0",
+"install": [
+{
+"file" : "GameData/QuickGoTo",
+"install_to" : "GameData"
+}
+]
+}
