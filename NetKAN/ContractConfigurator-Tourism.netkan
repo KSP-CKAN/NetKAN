@@ -1,0 +1,29 @@
+{
+    "spec_version" : "v1.4",
+    "identifier"   : "ContractConfigurator-Tourism", 
+    "$kref"        : "#/ckan/github/jrossignol/ContractPack-Tourism",
+    "abstract"     : "Space tourism! Take tourists to space and to visit the stations and bases that you've already created. Build new tourist attractions like the space casino mega-project.",
+    "name"         : "Contract Pack: Tourism",
+    "license"      : "CC-BY-NC-SA-4.0",
+    "release_status": "stable",
+    "author": "nightingale",
+    "$vref": "#/ckan/ksp-avc",
+    "depends": [
+        { "name": "ContractConfigurator" },
+        { "name": "ModuleManager" }
+    ],
+    "suggests": [
+        { "name": "WaypointManager" }
+    ],
+    "install" : [
+        {
+            "find"       : "Tourism",
+            "install_to" : "GameData/ContractPacks"
+        }
+    ],
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/113621",
+        "bugtracker": "https://github.com/jrossignol/ContractPack-Tourism/issues",
+        "license": "https://raw.githubusercontent.com/jrossignol/ContractPack-Tourism/master/GameData/ContractPacks/Tourism/LICENSE.txt"
+    }
+}

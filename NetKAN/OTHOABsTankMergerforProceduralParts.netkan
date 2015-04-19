@@ -1,0 +1,18 @@
+{
+    "spec_version" : "v1.2",
+    "$kref"        : "#/ckan/kerbalstuff/486",
+    "identifier"   : "OTHOABsTankMergerforProceduralParts",
+    "abstract"     : "Merge procedural rcs, xenon and karbonite tanks into one procedural tank.",
+    "license"      : "CC-BY-SA-3.0",
+    "depends"      :
+    [
+        { "name" : "ProceduralParts" }
+    ],
+    "install"      :
+    [
+        {
+            "file"       : "OTHOABtextures/Optional/TankMerger.cfg",
+            "install_to" : "GameData/OTHOABmisc"
+        }
+    ]
+}

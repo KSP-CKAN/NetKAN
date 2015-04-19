@@ -1,5 +1,5 @@
 {
-    "spec_version" : 1,
+    "spec_version" : "v1.4",
     "identifier"   : "MFS",
     "$kref"        : "#/ckan/github/riocrokite/MobileFrameSystem",
     "name"         : "Mobile Frame System",
@@ -9,6 +9,7 @@
 	        "depends": [
         { "name": "JSIPartUtilities" },
         { "name": "FirespitterCore" },
+		{ "name": "ModuleManager" },
 		{ "name": "InfernalRobotics" }
     ],
 		    "resources" : {
@@ -23,7 +24,7 @@
     ],
 	    "install" : [
         {
-            "file"       : "KermangeddonIndustries",
+            "find"       : "KermangeddonIndustries",
             "install_to" : "GameData"
         }
     ]
