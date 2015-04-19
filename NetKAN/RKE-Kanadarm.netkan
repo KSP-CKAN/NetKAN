@@ -3,6 +3,7 @@
     "identifier"     : "RKE-Kanadarm",
     "$kref"          : "#/ckan/kerbalstuff/637",
     "$vref"          : "#/ckan/ksp-avc",
+    "x_netkan_license_ok" : true,
     "install": [
         {
             "find"       : "RKE_Kanadarm",

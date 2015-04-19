@@ -2,6 +2,7 @@
     "identifier"   : "BlackTippedNosecone",
     "$kref"        : "#/ckan/kerbalstuff/434",
     "spec_version" : 1,
+    "x_netkan_license_ok" : true,
     "install"      : [
       {
         "file": "DarkNosecone/GameData/PhaserLabs",

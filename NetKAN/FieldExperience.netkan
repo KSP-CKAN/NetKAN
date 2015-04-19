@@ -1,16 +1,13 @@
 {
-	"spec_version": 1,
+	"spec_version": "v1.4",
 	"identifier": "FieldExperience",
 	"$kref": "#/ckan/kerbalstuff/505",
 	"license": "restricted",
 	"install": [
-			{
-				"file": "FieldExperience.dll",
-				"install_to": "GameData/FieldExperience"
-			},
-			{
-				"file": "license.txt",
-				"install_to": "GameData/FieldExperience"
-			}
-		]
+                {
+                        "file": "GameData/FieldExperience",
+                        "install_to": "GameData",
+                        "filter" : [ "FieldExperience.cs" ]
+                }
+        ]
 }
