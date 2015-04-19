@@ -1,0 +1,8 @@
+{
+    "$kref": "#/ckan/kerbalstuff/644",
+    "spec_version": 1,
+    "identifier": "Mk2CockpitExpansion",
+    "license": "CC-BY-NC-SA-3.0",
+	"install" : [ { "file" : "AoATech",
+					"install_to" : "GameData" } ]
+}
