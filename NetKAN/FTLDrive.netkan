@@ -1,0 +1,8 @@
+{
+    "$kref": "#/ckan/kerbalstuff/666",
+    "spec_version": "v1.4",
+    "identifier": "FTLDrive",
+    "license": "CC-BY-NC-SA-3.0",
+	"install" : [ { "find" : "FTLDrive",
+					"install_to" : "GameData" } ]
+}
