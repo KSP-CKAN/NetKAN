@@ -9,12 +9,12 @@
     "license"        : "MIT",
     "release_status" : "stable",
     "depends" : [
-        { "name" : "RealFuels" },
         { "name" : "ModuleManager" }
     ],
-    "suggests" : [
-        { "name" : "RealismOverhaul" }
-    ],
+	"suggests": [ { "name" : "RealFuels" },
+					{ "name" : "KAS" },
+					{ "name" : "RasterPropMonitor" },
+					{ "name" : "RealismOverhaul" } ],
     "provides" : [ "EngineIgnitor" ],
     "resources" : {
         "homepage" : "http://forum.kerbalspaceprogram.com/threads/51880"
