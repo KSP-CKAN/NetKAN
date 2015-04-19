@@ -2,6 +2,11 @@
 set -x
 set -e
 
+echo Running basic sanity tests on metadata.
+echo If these fail, then fix whatever\'s causing them first.
+
+prove
+
 echo Fetching latest ckan.exe
 
 # fetch latest ckan.exe
