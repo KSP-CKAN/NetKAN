@@ -6,13 +6,16 @@
 	"depends"		: [ { "name" : "InfernalRobotics-Rework" },
 						{ "name" : "IR-Model-Rework-Core" },
 						{ "name" : "TweakableEverything" },
-						{ "name" : "ToadicusTools" },
-						{ "name" : "CIT-Util" },
-						{ "name" : "ActiveStruts" }	],
+						{ "name" : "ToadicusTools" } ],
 	"recommends"	: [ { "name" : "IR-Model-Rework-Expansion" } ],
-	
+	"conflicts"		: [ { "name" : "CIT-Util"},
+						{ "name" : "ActiveStruts"},
+						{ "comment" : "These should be dependencies but https://github.com/KSP-CKAN/NetKAN/issues/932 happened"} ],
 	"install"		: [ { "find" : "MagicSmokeIndustries",
 						"install_to" : "GameData",
 						"filter_regexp" : [	"Rework_License.txt",
-											"Rework_TweakScale.cfg" ] } ]
+											"Rework_TweakScale.cfg" ] },
+						{ "find" : "CIT",
+						"install_to" : "GameData",
+						"comment" : "ugly hack to get this pack working for now. This will bite me (Daz) in the ass down the line for sure" } ]
 }
