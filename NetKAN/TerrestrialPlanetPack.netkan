@@ -6,7 +6,7 @@
 	"depends" : [ { "name" : "KopernicusTech" },
 					{ "name" : "ModuleManager" },
 					{ "name" : "DDSLoader" } ],
-	"install" :	[ { "find" : "TerrestrialPlanetPacl",
+	"install" :	[ { "find" : "TerrestrialPlanetPack",
 					"install_to" : "GameData" },
 					{ "find" : "KittopiaSpace",
 						"install_to" : "GameData",
