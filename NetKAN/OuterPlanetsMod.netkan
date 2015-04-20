@@ -10,7 +10,7 @@
 					{ "name" : "NearFutureElectrical" },
 					{ "name" : "NearFutureSolar" },
 					{ "name" : "TransferWindowPlanner"},
-					{ "name" : "TimeControl" } ]
+					{ "name" : "TimeControl" } ],
 	"suggests"	:	[ { "name" : "SCANsat" },
 					{ "name" : "FinalFrontier" },
 					{ "name" : "Karbonite" },
