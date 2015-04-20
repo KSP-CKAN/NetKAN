@@ -6,7 +6,7 @@
 	"depends"	:	[ { "name" : "ModuleManager" },
 					{ "name" : "DDSLoader" },
 					{ "name" : "KopernicusTech" } ],
-	"recommends":	[ { "name" : "NearFuturePropulsion" }.
+	"recommends":	[ { "name" : "NearFuturePropulsion" },
 					{ "name" : "NearFutureElectrical" },
 					{ "name" : "NearFutureSolar" },
 					{ "name" : "TransferWindowPlanner"},
