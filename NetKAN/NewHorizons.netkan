@@ -18,7 +18,7 @@
 						"install_to" : "GameData" },
 						{ "find" : "KittopiaSpace",
 						"install_to" : "GameData",
-						"filter" : [ "StarFix.cfg", "Help.cr_help", "plugins" ]
+						"filter" : [ "StarFix.cfg", "Help.cr_help", "plugins", "Textures" ]
 						} 
 					]
 }
