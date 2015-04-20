@@ -13,7 +13,7 @@
 	"supports"	:	[ { "name" : "Regolith"} ],
 	"conflicts"	:	[ { "name" : "KopernicusTech" },
 					{ "name" : "PlanetFactoryCE" },
-					{ "name" : ""}]
+					],
 	"install"		:	[ { "find" : "New_Horizons",
 						"install_to" : "GameData" },
 						{ "find" : "KittopiaSpace",
