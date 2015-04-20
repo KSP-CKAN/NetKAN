@@ -4,7 +4,7 @@
     "identifier": "TerrestrialPlanetPack",
     "license": "CC-BY-NC-SA-4.0",
 	"depends" : [ { "name" : "KopernicusTech" },
-					{ "name" : "ModuleManager", },
+					{ "name" : "ModuleManager" },
 					{ "name" : "DDSLoader" } ],
 	"install" :	[ { "find" : "TerrestrialPlanetPack",
 					"install_to" : "GameData" },
