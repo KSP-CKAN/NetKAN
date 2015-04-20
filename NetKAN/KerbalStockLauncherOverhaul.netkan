@@ -20,7 +20,5 @@
 	"recommends" : [ 	{ "name" : "AerojetKerbodyne" } ],
 	"suggests"	:	[ { "name" : "ActiveTextureManagement" } ],
 	"install" : [ { "find" : "KerbalStockLauncherOverhaul",
-					"install_to" : "GameData" },
-					{ "file" : "GameData/Modulefixer.dll",
-					 "install_to" : "GameData" } ]
+					"install_to" : "GameData" } ]
 }
