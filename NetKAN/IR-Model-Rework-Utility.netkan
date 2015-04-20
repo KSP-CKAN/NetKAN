@@ -3,7 +3,7 @@
     "identifier"   : "IR-Model-Rework-Utility",
     "$kref"        : "#/ckan/kerbalstuff/677",
     "license"		: "CC-BY-NC-ND-4.0",
-	"depends"		: [ { "name" : "InfernalRobotics-Rework" },
+	"depends"		: [ { "name" : "InfernalRobotics" },
 						{ "name" : "IR-Model-Rework-Core" },
 						{ "name" : "TweakableEverything" },
 						{ "name" : "ToadicusTools" } ],
