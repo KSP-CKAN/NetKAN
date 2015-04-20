@@ -1,0 +1,19 @@
+{
+    "$kref": "#/ckan/kerbalstuff/628",
+    "spec_version": "v1.4",
+    "identifier": "KerbolPlus",
+    "license": "CC-BY-NC-SA",
+	"depends"	:	[ { "name" : "KopernicusTech" },
+					{ "name" : "ModuleManager" } ],
+	"conflicts"	:	[ { "name" : "Kopernicus" },
+					{ "name" : "KittopiaTech" },
+					{ "name" : "PlanetFactoryCE" }
+					],
+	"install"		:	[ { "find" : "Kerbol+",
+						"install_to" : "GameData" },
+						{ "find" : "KittopiaSpace",
+						"install_to" : "GameData",
+						"filter" : [ "StarFix.cfg", "Help.cr_help", "plugins", "KittopiaSpace/Textures/Default" ]
+						} 
+					]
+}
