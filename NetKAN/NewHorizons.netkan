@@ -11,8 +11,9 @@
 					{ "name" : "RemoteTech" },
 					{ "name" : "DeadlyReentry" } ],
 	"supports"	:	[ { "name" : "Regolith"} ],
+	"provides": [ "PlanetPack" ],
 	"conflicts"	:	[ { "name" : "KopernicusTech" },
-					{ "name" : "PlanetFactoryCE" }
+					{ "name" : "PlanetPack" }
 					],
 	"install"		:	[ { "find" : "New_Horizons",
 						"install_to" : "GameData" },
