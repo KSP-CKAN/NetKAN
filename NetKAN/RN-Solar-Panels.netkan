@@ -1,7 +1,7 @@
 {
     "$kref": "#/ckan/kerbalstuff/686",
     "spec_version": 1,
-    "identifier": "RN_Solar_Panels",
+    "identifier": "RN-Solar-Panels",
     "license": "CC-BY-NC-ND-3.0",
     "install": [
       {
@@ -22,8 +22,8 @@
       }
     ],
     "conflicts"      : [
-        { "name" : "RN_Salyut" },
-        { "name" : "RN_Soviet_Probes" },
-        { "name" : "RN_US_Probes" }
+        { "name" : "RN-Salyut" },
+        { "name" : "RN-Soviet-Probes" },
+        { "name" : "RN-US-Probes" }
     ]
 }
