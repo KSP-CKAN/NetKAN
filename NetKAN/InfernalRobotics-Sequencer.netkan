@@ -1,0 +1,16 @@
+{
+    "identifier": "InfernalRobotics-Sequencer",
+    "license": "GPL-3.0",
+    "$kref": "#/ckan/kerbalstuff/708",
+    "spec_version": "v1.4",
+	"depends" : [
+        { "name" : "InfernalRobotics" },
+        { "name" : "ModuleManager" }
+    ],
+    "install" : [
+        {
+            "find" : "IRSequencer",
+            "install_to" : "GameData/MagicSmokeIndustries"
+        }
+    ]
+}
