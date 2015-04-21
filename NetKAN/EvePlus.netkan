@@ -5,6 +5,7 @@
     "license": "CC-BY",
 	"depends" : [ { "name" : "KopernicusTech" },
 					{ "name" : "ModuleManager" } ],
+	"suggests":	[ {	"name" : "DunaPlus" } ],
 	"install" :	[ { "find" : "EvePlus",
 					"install_to" : "GameData" },
 					{ "find" : "KittopiaSpace",
