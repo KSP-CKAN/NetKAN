@@ -11,7 +11,7 @@ my $pr_branch = $ENV{TRAVIS_PULL_REQUEST};
 my $netkan = "./netkan.exe";
 
 if (! $pr_branch or $pr_branch eq "false") {
-    plan skip_all => "Not a pull request";
+    plan skip_all => "Not a travis pull request";
 }
 
 if (! -x $netkan) {

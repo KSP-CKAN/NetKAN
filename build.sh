@@ -2,12 +2,27 @@
 set -x
 set -e
 
-# TODO: We need to install the dependencies for our tests before
-# these can run. @hakan42 will save the day!
-# echo Running basic sanity tests on metadata.
-# echo If these fail, then fix whatever\'s causing them first.
-# 
-# prove
+echo Running basic sanity tests on metadata.
+echo If these fail, then fix whatever\'s causing them first.
+ 
+prove
+
+echo "Finding changes to test..."
+
+if [ -z ${ghprbActualCommit} ]
+then
+    echo No commit hash, running all netkan files
+    export COMMIT_CHANGES=NetKAN/*.netkan
+else
+    echo Commit hash: ${ghprbActualCommit}
+    export COMMIT_CHANGES="`git diff --diff-filter=AM --name-only --stat origin/master NetKAN`"
+fi
+
+if [ "${COMMIT_CHANGES}" = "" ]
+then
+    echo "No .netkan changes, skipping further tests."
+    exit 0
+fi
 
 echo Fetching latest ckan.exe
 
@@ -45,15 +60,6 @@ mono --debug ckan.exe ksp default ${KSP_NAME}
 
 echo Running ckan update
 mono --debug ckan.exe update
-
-if [ -z ${ghprbActualCommit} ]
-then
-    echo No commit hash, running all netkan files
-    export COMMIT_CHANGES=NetKAN/*.netkan
-else
-    echo Commit hash: ${ghprbActualCommit}
-    export COMMIT_CHANGES="`git diff --diff-filter=AM --name-only --stat origin/master NetKAN`"
-fi
 
 echo Running jsonlint on the changed files
 echo If you get an error below you should look for syntax errors in the metadata
