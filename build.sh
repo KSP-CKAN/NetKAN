@@ -2,12 +2,10 @@
 set -x
 set -e
 
-# TODO: We need to install the dependencies for our tests before
-# these can run. @hakan42 will save the day!
-# echo Running basic sanity tests on metadata.
-# echo If these fail, then fix whatever\'s causing them first.
-# 
-# prove
+echo Running basic sanity tests on metadata.
+echo If these fail, then fix whatever\'s causing them first.
+ 
+prove
 
 echo Fetching latest ckan.exe
 
