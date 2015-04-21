@@ -1,0 +1,25 @@
+{
+    "$kref": "#/ckan/kerbalstuff/661",
+    "spec_version": "v1.4",
+    "identifier": "NewHorizons",
+    "license": "CC-BY-NC-SA-4.0",
+	"depends"	:	[ { "name" : "Kopernicus" },
+					{ "name" : "Kopernicus-Config-Default" },
+					{ "name" : "ModuleManager" },
+					{ "name" : "KittopiaTech"} ],
+	"recommends":	[ { "name" : "ADIOS" },
+					{ "name" : "RemoteTech" },
+					{ "name" : "DeadlyReentry" } ],
+	"supports"	:	[ { "name" : "Regolith"} ],
+	"provides": [ "PlanetPack" ],
+	"conflicts"	:	[ { "name" : "KopernicusTech" },
+					{ "name" : "PlanetPack" }
+					],
+	"install"		:	[ { "find" : "New_Horizons",
+						"install_to" : "GameData" },
+						{ "find" : "KittopiaSpace",
+						"install_to" : "GameData",
+						"filter" : [ "StarFix.cfg", "Help.cr_help", "plugins", "Textures" ]
+						} 
+					]
+}
