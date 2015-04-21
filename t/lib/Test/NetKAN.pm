@@ -21,7 +21,7 @@ sub netkan_files {
 
     my %files;
 
-    foreach my $filename (glob("$Bin/../NetKAN/*.netkan")) {
+    foreach my $filename (glob(qq{"$Bin/../NetKAN/*.netkan"})) {
         my ($shortname) = ($filename =~ m{([^/]+)\.netkan$});
 
         if (!$shortname) {
