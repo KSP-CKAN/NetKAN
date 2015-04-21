@@ -1,0 +1,16 @@
+{
+    "identifier": "KerbalStockLauncherOverhaul",
+    "license": "CC-BY-NC-ND-4.0",
+    "$kref": "#/ckan/kerbalstuff/435",
+    "spec_version": "v1.4",
+	"depends" : [ 	{ "name" : "FirespitterCore"},
+					{ "name" : "SmokeScreen" },
+					{ "name" : "TweakScale" },
+					{ "name" : "ModuleManager" },
+					{ "name" : "ModuleFixer" } ],
+	"comment"	: "ModuleFixer dependency might not be needed and currently makes this mod incompatible with all USI stuff, need confirmation from author.",
+	"recommends" : [ 	{ "name" : "AerojetKerbodyne" } ],
+	"suggests"	:	[ { "name" : "ActiveTextureManagement" } ],
+	"install" : [ { "find" : "KerbalStockLauncherOverhaul",
+					"install_to" : "GameData" } ]
+}
