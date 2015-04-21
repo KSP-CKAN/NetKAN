@@ -3,7 +3,7 @@
     "spec_version": "v1.4",
     "identifier": "TundraExploration",
     "license": "CC-BY-NC-SA-4.0",
-	"recommends" :	[{ "name" : "RasterPropMonitor-Core" } ],
+	"suggests" :	[{ "name" : "RasterPropMonitor-Core" } ],
 	"install" : [ { "find" : "TundraExploration",
 					"install_to" : "GameData",
 					"comment" : "Ven-Patch not included since it requires overwriting of Rodan_Capsule.cfg" } ]
