@@ -8,7 +8,7 @@
 					{ "name" : "TweakScale" },
 					{ "name" : "ModuleManager" },
 					{ "name" : "ModuleFixer" } ],
-	"comment"	: "ModuleFixer dependency might not be needed and currently makes this mod incompatible with all USI stuff, need confirmation from author."
+	"comment"	: "ModuleFixer dependency might not be needed and currently makes this mod incompatible with all USI stuff, need confirmation from author.",
 	"recommends" : [ 	{ "name" : "AerojetKerbodyne" } ],
 	"suggests"	:	[ { "name" : "ActiveTextureManagement" } ],
 	"install" : [ { "find" : "KerbalStockLauncherOverhaul",
