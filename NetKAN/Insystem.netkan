@@ -1,0 +1,14 @@
+{
+    "$kref": "#/ckan/kerbalstuff/645",
+    "spec_version": "v1.4",
+    "identifier": "Insystem",
+    "license": "CC-BY-NC-SA-4.0",
+	"depends"	:	[ { "name" : "Kopernicus" },
+					{ "name" : "DDSLoader" },
+					{ "name" : "Kopernicus-Config-Default" },
+					{ "name" : "ModuleManager" } ],
+	"provides": [ "PlanetPack" ],
+	"conflicts": [ { "name" : "PlanetPack" } ],
+	"install"		:	[ { "find" : "Insystem",
+						"install_to" : "GameData" } ]
+}
