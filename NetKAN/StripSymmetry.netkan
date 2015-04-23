@@ -9,6 +9,7 @@
 	
 	"release_status"	: "stable",
     "ksp_version_min"	: "0.25",
+	"ksp_version_max" : "0.90",
 	
 	"resources": {
 		"homepage": "http://forum.kerbalspaceprogram.com/threads/80654",
