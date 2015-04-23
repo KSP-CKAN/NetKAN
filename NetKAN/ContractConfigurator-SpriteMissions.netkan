@@ -16,7 +16,7 @@
     "install" : [
         {
             "find"       : "SpriteMissions",
-            "install_to" : "GameData/ContractPacks/SpriteMissions"
+            "install_to" : "GameData/ContractPacks/Spacetux/SpriteMissions"
         }
     ]
 }
