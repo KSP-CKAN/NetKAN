@@ -1,0 +1,18 @@
+{
+    "identifier": "CapCom",
+    "license": "MIT",
+    "x_via": "Automated KerbalStuff CKAN submission",
+    "$kref": "#/ckan/kerbalstuff/710",
+    "spec_version": 1,
+	"install": [
+		{
+			"file": "GameData/CapCom",
+			"install_to": "GameData"
+		}
+	],
+	"recommends" : [
+		{ 
+			"name": "ContractsWindowPlus"
+		}
+	]
+}
