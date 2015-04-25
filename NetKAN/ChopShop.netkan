@@ -1,0 +1,23 @@
+{
+    "identifier": "ChopShop",
+    "license": "GPL-3.0",
+    "$kref": "#/ckan/kerbalstuff/709",
+    "spec_version": "v1.4",
+    "depends": [
+        { "name": "ModuleManager" }
+    ],
+	"recommends": [
+        { "name": "TweakScale" }
+    ],
+	"supports": [
+        { "name": "RemoteTech" },
+		{ "name": "RealFuels" },
+		{ "name": "ModularFuelTanks" },
+		{ "name": "FerramAerospaceResearch" },
+		{ "name": "NEAR" }
+    ],
+	"install" : [ { "find" : "ChopShop",
+					"install_to" : "GameData" },
+				{ "find" : "Ships",
+					"install_to" : "Ships" } ]
+}
