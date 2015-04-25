@@ -1,0 +1,9 @@
+{
+    "identifier": "CapCom",
+    "license": "MIT",
+    "$kref": "#/ckan/kerbalstuff/710",
+    "spec_version": "v1.4",
+	"install"	:	[ { "find" : "CapCom",
+						"install_to" : "GameData" } ]
+}
+	
