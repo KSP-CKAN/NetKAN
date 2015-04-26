@@ -3,7 +3,7 @@
 	"$kref": "#/ckan/github/TriggerAu/TransferWindowPlanner",
 	"name": "Transfer Window Planner",
 	"identifier": "TransferWindowPlanner",
-	"ksp_version" : "0.90",
+    "$vref"          : "#/ckan/ksp-avc",
 	"abstract": "An ingame implementation of Alexmun's Launch Window Planner",
 	"license": "MIT",
 	"release_status": "stable",
