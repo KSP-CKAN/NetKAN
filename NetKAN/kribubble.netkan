@@ -3,6 +3,8 @@
 	"identifier"   : "kribubble",
 	"$kref"        : "#/ckan/kerbalstuff/694",
 	"license"      : "restricted",
+	"ksp_version"  : "any",
+	"ksp_version_min" : "0.90",
 	
 	"install": [
         {

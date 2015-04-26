@@ -4,7 +4,6 @@
 	"name": "Custom Asteroids (outer stock system data)",
 	"abstract": "Adds comets outside orbit of Jool",
 	"ksp_version_min": "0.25",
-	"ksp_version_max" : "0.90",
 	"$kref": "#/ckan/kerbalstuff/251",
 	"release_status": "stable",
 	"depends": [ 
