@@ -5,6 +5,7 @@
 	"abstract": "Adds asteroids inside orbit of Jool",
 	"$kref": "#/ckan/kerbalstuff/251",
 	"ksp_version_min": "0.25",
+	"ksp_version_max" : "0.90",
 	"release_status": "stable",
         "x_netkan_license_ok" : true,
 	"depends": [ 
