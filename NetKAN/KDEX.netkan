@@ -4,7 +4,6 @@
     "$kref"        : "#/ckan/kerbalstuff/337",  
     "license"      : "CC-BY-NC-SA-3.0",
     "ksp_version_min": "0.25",
-	"ksp_version_max" : "0.90",
     "install": [
         {
             "file"       : "GameData/masTerTorch",

@@ -1,8 +1,8 @@
 {
     "spec_version" : 1,
     "identifier"   : "RealRoster",
-    "$kref"        : "#/ckan/github/fingerboxes/RealRoster",
-	"ksp_version_max" : "0.90",
+    "$kref"        : "#/ckan/github/fingerboxes/KSPRealRoster",
+
     "license"      : "CC-BY-NC-SA-4.0",
 
 	"author"       : "enneract",
