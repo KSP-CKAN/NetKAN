@@ -11,6 +11,7 @@
 		{ "name" : "RealismOverhaul" },
 		{ "name" : "SmokeScreen" }
     ],
+	"conflicts" : [ { "name" : "HotRockets" } ],
     "resources" : {
         "homepage" : "http://forum.kerbalspaceprogram.com/threads/99966"
     },
