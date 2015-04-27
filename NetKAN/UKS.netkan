@@ -6,7 +6,7 @@
   "abstract": "a series of interlocking modules for building long-term, self sustaining colonies in orbit and on other planets and moons.",
   "license": "CC-BY-NC-SA-4.0",
   "release_status": "stable",
-  "ksp_version": "0.90",
+    "$vref"          : "#/ckan/ksp-avc",
   "install": [
     {
       "file": "GameData/UmbraSpaceIndustries",
@@ -24,7 +24,7 @@
     },
     {
       "name": "USITools",
-      "min_version": "0.2.4"
+      "min_version": "0.4.0"
     },
     {
       "name": "Toolbar",
@@ -33,10 +33,6 @@
     {
       "name": "CommunityResourcePack",
       "min_version": "0.2.3"
-    },
-    {
-      "name": "Regolith",
-      "min_version": "0.1.0"
     }
   ],
   "suggests": [
