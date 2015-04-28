@@ -1,5 +1,5 @@
 {
-    "spec_version" : 1,
+    "spec_version" : 1.4,
     "identifier"   : "AeroGUI",
     "$kref"        : "#/ckan/github/NathanKell/AeroGUI",
     "name"         : "AeroGUI",
@@ -9,8 +9,8 @@
 
     "install"      : [
         {
-            "file"       : "GameData/AeroGUI/Plugins",
-            "install_to" : "GameData/AeroGUI/Plugins"
+            "find"       : "AeroGUI",
+            "install_to" : "GameData"
         }
     ]
 }
