@@ -2,6 +2,7 @@
 "spec_version" : 1,
 "identifier" : "Targetron",
 "$kref" : "#/ckan/github/jinks/targetron",
+"ksp_version" : "1.0",
 "name" : "Targetron",
 "abstract" : "Target or command vessel from a list of active flights!",
 "license" : "GPL-3.0"
