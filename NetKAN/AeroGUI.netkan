@@ -6,11 +6,4 @@
     "abstract"     : "A small GUI that displays aero-related information.",
     "license"      : "MIT",
     "ksp_version"  : "1.0",
-
-    "install"      : [
-        {
-            "find"       : "AeroGUI",
-            "install_to" : "GameData"
-        }
-    ]
 }
