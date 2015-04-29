@@ -1,7 +1,8 @@
 {
 	"spec_version"	:	"v1.2",
-	"identifier"	:	"FASA-Reflection-Plugin",
+	"identifier"	:	"Reflection-Plugin-Continued",
 	"$kref"			:	"#/ckan/kerbalstuff/27",
+	"author"		: "Starwaster",
 	"license" : "restricted",
 	"install" : [
 	{
