@@ -3,7 +3,7 @@
     "name"           : "RasterPropMonitor",
     "identifier"     : "RasterPropMonitor",
     "$kref"          : "#/ckan/github/Mihara/RasterPropMonitor",
-    "author"         : [ "MOARdV", Mihara" ],
+    "author"         : [ "MOARdV", "Mihara" ],
     "abstract"       : "Makes Stock IVAs more interactive.",
     "comment"        : "This package contains the stock IVA patches and the JSI agency.",
     "license"        : "GPL-3.0",

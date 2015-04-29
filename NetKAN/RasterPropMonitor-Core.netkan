@@ -3,7 +3,7 @@
     "name"           : "RasterPropMonitor Core",
     "identifier"     : "RasterPropMonitor-Core",
     "$kref"          : "#/ckan/github/Mihara/RasterPropMonitor",
-    "author"         : [ "MOARdV", Mihara" ],
+    "author"         : [ "MOARdV", "Mihara" ],
     "abstract"       : "A toolkit for creating interactive IVA experiences.",
     "comment"        : "This package contains the plugin, and the standard parts library.",
 
