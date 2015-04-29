@@ -1,0 +1,9 @@
+{
+    "spec_version" : 1,
+    "identifier"   : "SmokeScreen",
+    "$kref"        : "#/ckan/github/sarbian/SmokeScreen",
+    "name"         : "SmokeScreen",
+    "abstract"     : "Plugin required by various FX mods",
+    "license"      : "BSD-2-clause",
+    "ksp_version"  : "1.0.0"
+}
