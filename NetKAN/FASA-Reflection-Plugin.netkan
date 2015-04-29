@@ -1,0 +1,12 @@
+{
+	"spec_version"	:	"v1.2",
+	"identifier"	:	"FASA-Reflection-Plugin",
+	"$kref"			:	"#/ckan/kerbalstuff/27",
+	"license" : "restricted",
+	"install" : [
+	{
+		"file"		:	"GameData/FASA/Plugins",
+		"install_to":	"GameData/FASA",
+		"filter"	:	"ReflectionPlugin.Source"
+	} ]
+}
