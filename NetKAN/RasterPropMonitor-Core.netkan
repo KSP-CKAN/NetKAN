@@ -3,7 +3,7 @@
     "name"           : "RasterPropMonitor Core",
     "identifier"     : "RasterPropMonitor-Core",
     "$kref"          : "#/ckan/github/Mihara/RasterPropMonitor",
-    "author"         : "Mihara",
+    "author"         : [ "MOARdV", Mihara" ],
     "abstract"       : "A toolkit for creating interactive IVA experiences.",
     "comment"        : "This package contains the plugin, and the standard parts library.",
 
@@ -11,7 +11,7 @@
     "ksp_version_min": "0.25.0",
     "release_status" : "stable",
     "resources" : {
-        "homepage" : "http://forum.kerbalspaceprogram.com/threads/57603",
+        "homepage" : "http://forum.kerbalspaceprogram.com/threads/117471",
         "manual" : "https://github.com/Mihara/RasterPropMonitor/wiki"
     },
     "depends" : [
