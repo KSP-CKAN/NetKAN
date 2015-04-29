@@ -3,7 +3,4 @@
 	"abstract"  	: "Tweaks and features for the in-game vessel editor, e.g. alignment and symmetry aids.",
     "x_netkan_license_ok": true, 
     "$kref": "#/ckan/kerbalstuff/442", 
-    "spec_version": "v1.4",
-	"install"		: [ { "find" : "EditorExtensions",
-						"install_to" : "GameData" } ]
-}
+    "spec_version": 1,
