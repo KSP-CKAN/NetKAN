@@ -6,7 +6,7 @@
 "abstract" : "Automatically activate action groups (and RCS/SAS) on vessel launch",
 "license" : "GPL-3.0",
 "release_status" : "stable",
-"ksp_version" : "0.90",
+"ksp_version" : "1.0",
 "author" : "Diazo",
 "depends": [
 { "name": "ModuleManager" }
