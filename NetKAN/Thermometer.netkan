@@ -4,7 +4,7 @@
     "license": "MIT",
     "identifier": "Thermometer",
 	"depends"	:	[ { "name" : "ModuleManager" } ],
-	"install"	: "[ { "find" : "Thermometer",
+	"install"	: [ { "find" : "Thermometer",
 					"install_to" : "GameData",
 					"filter" : ".DS_Store" } ]
 }
