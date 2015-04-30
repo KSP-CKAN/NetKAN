@@ -10,7 +10,7 @@
 		"install_to":	"GameData",
 		"filter"	:	"Plugins"
 	}],
-	"depends"	:	[ { "name" : "Reflection-Plugin-Continued" } ],
+	"depends"	:	[ { "name" : "ReflectionPlugin" } ],
     "conflicts" : [
         { "name": "FASALaunchClamps" }
     ]
