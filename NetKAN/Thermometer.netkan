@@ -1,0 +1,10 @@
+{
+    "spec_version": "v1.4",
+    "$kref": "#/ckan/kerbalstuff/719",
+    "license": "MIT",
+    "identifier": "Thermometer",
+	"depends"	:	[ { "name" : "ModuleManager" } ],
+	"install"	: [ { "find" : "Thermometer",
+					"install_to" : "GameData",
+					"filter" : ".DS_Store" } ]
+}
