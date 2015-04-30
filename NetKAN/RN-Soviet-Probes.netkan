@@ -21,9 +21,13 @@
         "install_to": "Ships"
       }
     ],
-    "depends"      : [
+    "depends" : [
         { "name" : "ModuleManager" },
         { "name" : "FirespitterCore" },
-        { "name" : "KlockheedMartian-Gimbal" }
+        { "name" : "KlockheedMartian-Gimbal" },
+        { "name" : "ReflectionPlugin" }
+    ],
+    "suggests": [
+        { "name" : "RN-Salyut" }
     ]
 }
