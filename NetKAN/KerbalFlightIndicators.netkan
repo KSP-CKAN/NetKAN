@@ -5,7 +5,7 @@
     "name"         : "Kerbal Flight Indicators",
     "abstract"     : "Draws a flight vector indicator and other things in your field of view.",
     "license"      : "CC-BY-NC-SA-3.0",
-    "ksp_version"  : "0.90",
+    "ksp_version"  : "1.0",
     "recommends" : [
         { "name" : "Toolbar" }
     ],
