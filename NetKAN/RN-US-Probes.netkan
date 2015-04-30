@@ -13,10 +13,6 @@
         "install_to": "GameData"
       },
       {
-        "file": "GameData/MP_Nazari",
-        "install_to": "GameData"
-      },
-      {
         "file": "Ships",
         "install_to": "Ships"
       }
@@ -24,7 +20,7 @@
     "depends" : [
         { "name" : "BDAnimationModules" },
         { "name" : "FirespitterCore" },
-        { "name" : "SmokeScreen" },
-        { "name" : "ReflectionPlugin" }
+        { "name" : "ReflectionPlugin" },
+        { "name" : "HotRockets" }
     ]
 }
