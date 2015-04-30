@@ -21,9 +21,10 @@
         "install_to": "Ships"
       }
     ],
-    "depends"      : [
+    "depends" : [
         { "name" : "BDAnimationModules" },
         { "name" : "FirespitterCore" },
-        { "name" : "SmokeScreen" }
+        { "name" : "SmokeScreen" },
+        { "name" : "ReflectionPlugin" }
     ]
 }
