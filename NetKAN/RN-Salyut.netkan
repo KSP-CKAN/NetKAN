@@ -13,6 +13,14 @@
         "install_to": "GameData"
       },
       {
+        "file": "Gamedata/KOSMOS",
+        "install_to": "GameData"
+      },
+      {
+        "file": "Gamedata/SovietPack",
+        "install_to": "GameData"
+      },
+      {
         "file": "Ships",
         "install_to": "Ships"
       }
