@@ -17,7 +17,14 @@
         "install_to": "Ships"
       }
     ],
-    "depends"      : [
-        { "name" : "FirespitterCore" }
+    "depends": [
+        { "name" : "FirespitterCore" },
+        { "name" : "ReflectionPlugin" }
+    ],
+    "suggests": [
+        { "name" : "RN-Soviet-Probes" }
+    ],
+    "conflicts": [
+        { "name" : "KOSMOS-SSPP" }
     ]
 }
