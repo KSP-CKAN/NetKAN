@@ -5,7 +5,7 @@
     "license": "CC-BY-NC-SA-4.0",
 	"depends"	:	[ { "name" : "Tantares" } ],
 	
-	"recommends":	[ { "name" : " OMSKSpaceProducts" },
+	"recommends":	[ { "name" : "OMSKSpaceProducts" },
 					{ "name" : "DMagicOrbitalScience" } ],
 	
 	"suggests"	:	[ { "name" : "NewHorizons" } ],
