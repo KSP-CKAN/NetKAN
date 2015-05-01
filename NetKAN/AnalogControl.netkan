@@ -1,0 +1,20 @@
+{
+    "spec_version" : 1,
+    "identifier"   : "Analog Control",
+    "$kref"        : "#/ckan/github/Crzyrndm/Analog-Control",
+    "name"         : "Analog Control",
+    "abstract"     : "Mouse Yoke",
+    "license"      : "GPL-3.0",
+    "ksp_version"  : "1.0"
+	"$vref" : "#/ckan/ksp-avc"
+	
+	"resources" : {
+        "homepage" : "http://forum.kerbalspaceprogram.com/threads/116888"
+    },
+    "install" : [
+        {
+            "file"       : "GameData/Analog Control",
+            "install_to" : "GameData"
+        }
+    ]
+}
