@@ -1,6 +1,6 @@
 {
     "spec_version" : 1,
-    "identifier"   : "(Semi)Saturatable Reaction Wheels",
+    "identifier"   : "SemiSaturatableReactionWheels",
     "$kref"        : "#/ckan/github/Crzyrndm/RW-Saturatable",
     "name"         : "(Semi)Saturatable Reaction Wheels",
     "abstract"     : "Torque from reaction wheels decays with use and slowly recovers when idle",
