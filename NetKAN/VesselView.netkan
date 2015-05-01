@@ -1,0 +1,9 @@
+{
+    "spec_version": 1,
+    "$kref": "#/ckan/kerbalstuff/731",
+    "license": "MIT",
+    "identifier": "VesselView",
+	"depends"	: [ { "name" : "Toolbar" },
+					{ "name" : "RasterPropMonitor-Core" } ],
+	"recommends":	[ { "name" : "RasterPropMonitor" } ]
+}
