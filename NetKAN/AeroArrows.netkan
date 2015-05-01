@@ -1,0 +1,8 @@
+{
+    "spec_version": 1,
+    "$kref": "#/ckan/kerbalstuff/729",
+    "license": "BSD-2-clause",
+    "identifier": "AeroArrows",
+	"install"	:	[ { "file" : "Aerrows/GameData/AeroArrows",
+						"install_to" : "GameData" } ]
+}
