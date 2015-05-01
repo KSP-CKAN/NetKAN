@@ -1,0 +1,10 @@
+{
+    "spec_version": "v1.2",
+    "$kref": "#/ckan/kerbalstuff/720",
+    "license": "CC-BY-4.0",
+    "identifier": "CactEye2",
+	"comment"	: "identifier set to CactEye2 rather than CactEye in case the original mod ever returns",
+	"install"	:	[ { "find"	:	"CactEye",
+						"install_to" : "GameData",
+						"filter" : "MiniAVC.dll" } ]
+}

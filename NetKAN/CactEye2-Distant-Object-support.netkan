@@ -1,0 +1,11 @@
+{
+    "spec_version": "v1.4",
+    "$kref": "#/ckan/kerbalstuff/720",
+    "license": "CC-BY-4.0",
+    "identifier": "CactEye2-DistantObject-support",
+	"name"		: "CactEye2 DistantObject support"
+	"depends"	: [ { "name" : "CactEye2" },
+					{ "name" : "DistantObject" } ],
+	"install"	:	[ { "find"	:	"DistantObjectHook.dll",
+						"install_to" : "GameData/CactEye/Plugins" } ]
+}
