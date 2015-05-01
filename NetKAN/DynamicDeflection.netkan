@@ -1,6 +1,6 @@
 {
     "spec_version" : 1,
-    "identifier"   : "Dynamic Deflection",
+    "identifier"   : "DynamicDeflection",
     "$kref"        : "#/ckan/github/Crzyrndm/DynamicControls",
     "name"         : "Dynamic Deflection",
     "abstract"     : "Configure maximum control surface deflection to vary with dynamic pressure",
