@@ -5,6 +5,7 @@
     "name"          : "Active Texture Management - X64 - Basic",
     "abstract"      : "x64 basic texture compression to DXT1 and DXT5",
     "author"        : "rbray89",
+	"ksp_version"	: "0.90",
     "license"       : "MIT",
     "x_netkan_license_ok": true,
     "install": [
