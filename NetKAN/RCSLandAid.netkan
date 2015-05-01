@@ -6,7 +6,7 @@
   "abstract" : "Kill your horizontal velocity to land, or hover over a specific point on the ground",
   "license" : "GPL-3.0",
   "release_status" : "stable",
-  "ksp_version" : "0.90",
+  "ksp_version" : "1.0",
   "author" : "Diazo",
   "depends": [
 { "name": "ModuleManager" }
