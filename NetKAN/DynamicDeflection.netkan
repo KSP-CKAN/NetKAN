@@ -5,8 +5,7 @@
     "name"         : "Dynamic Deflection",
     "abstract"     : "Configure maximum control surface deflection to vary with dynamic pressure",
     "license"      : "GPL-3.0",
-    "ksp_version"  : "1.0"
-	"$vref" : "#/ckan/ksp-avc"
+	"$vref" : "#/ckan/ksp-avc",
 	
 	"resources" : {
         "homepage" : "http://forum.kerbalspaceprogram.com/threads/116888"
