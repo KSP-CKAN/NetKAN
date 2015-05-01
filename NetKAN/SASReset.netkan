@@ -1,6 +1,6 @@
 {
     "spec_version" : 1,
-    "identifier"   : "SAS Reset",
+    "identifier"   : "SASReset",
     "$kref"        : "#/ckan/github/Crzyrndm/SAS-Reset",
     "name"         : "SAS Reset",
     "abstract"     : "Automatically reset SAS to stability assistance on ground contact, or when SAS keybinds are pressed",
