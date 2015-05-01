@@ -1,6 +1,6 @@
 {
     "spec_version" : 1,
-    "identifier"   : "Thermal Monitor",
+    "identifier"   : "ThermalMonitor",
     "$kref"        : "#/ckan/github/Crzyrndm/Thermal-Monitor",
     "name"         : "Thermal Monitor",
     "abstract"     : "Show part temperature, thermal mass, and total flux in right click menu",
