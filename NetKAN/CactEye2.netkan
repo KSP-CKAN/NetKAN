@@ -6,5 +6,6 @@
 	"comment"	: "identifier set to CactEye2 rather than CactEye in case the original mod ever returns",
 	"install"	:	[ { "find"	:	"CactEye",
 						"install_to" : "GameData",
-						"filter" : "MiniAVC.dll" } ]
+						"filter" : "MiniAVC.dll" } ],
+	"comment"	:	"No DistantObject support added since the foldername is hardcoded to a certain DistObj version and would soon break"
 }
