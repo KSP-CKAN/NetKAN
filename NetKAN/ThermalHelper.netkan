@@ -1,0 +1,8 @@
+{
+    "spec_version": 1,
+    "$kref": "#/ckan/kerbalstuff/728",
+    "license": "BSD-2-clause",
+    "identifier": "ThermalHelper",
+	"install"	:	[ { "file" : "ThermalHelp/GameData/ThermalHelper",
+						"install_to" : "GameData" } ]
+}
