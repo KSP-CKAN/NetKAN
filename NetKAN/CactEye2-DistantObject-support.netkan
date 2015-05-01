@@ -6,6 +6,7 @@
 	"name"		: "CactEye2 DistantObject support",
 	"depends"	: [ { "name" : "CactEye2" },
 					{ "name" : "DistantObject" } ],
-	"install"	:	[ { "find"	:	"DistantObjectHook.dll",
-						"install_to" : "GameData/CactEye/Plugins" } ]
+	"install"	:	[ { "find"	:	"Compatibility Patch*",
+						"install_to" : "GameData/CactEye/Plugins",
+						"filter_regexp" : "^(?!DistantObjectHook.dll).*$" } ]
 }
