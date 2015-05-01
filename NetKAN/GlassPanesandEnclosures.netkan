@@ -4,6 +4,6 @@
     "license": "GPL-3.0",
     "identifier": "GlassPanesandEnclosures",
 	"install"	:	[ { "find" : "Parts",
-						"install_to" : "GameData/GlassPanesandEnclosures" },
-						"filter" : ".DS_Store" ]
+						"install_to" : "GameData/GlassPanesandEnclosures",
+						"filter" : ".DS_Store" } ]
 }
