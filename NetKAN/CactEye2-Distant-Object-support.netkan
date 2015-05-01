@@ -3,7 +3,7 @@
     "$kref": "#/ckan/kerbalstuff/720",
     "license": "CC-BY-4.0",
     "identifier": "CactEye2-DistantObject-support",
-	"name"		: "CactEye2 DistantObject support"
+	"name"		: "CactEye2 DistantObject support",
 	"depends"	: [ { "name" : "CactEye2" },
 					{ "name" : "DistantObject" } ],
 	"install"	:	[ { "find"	:	"DistantObjectHook.dll",
