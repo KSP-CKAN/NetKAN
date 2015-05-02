@@ -5,7 +5,7 @@
     "name"         : "Contract Pack: Kerbin Space Station",
     "abstract"     : "A contract pack to replace the default Squad build a Space Station missions",
     "license"      : "CC-BY-SA-3.0",
-    "ksp_version"  : "1.0",
+    "ksp_version"  : "1.0.2",
     "depends" : [
         { "name": "ContractConfigurator" },
         { "name": "ModuleManager" }
