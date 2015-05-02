@@ -2,10 +2,13 @@
 use v5.010;
 use lib 't/lib';
 use autodie;
+use strict;
 use Test::Most;
 use Test::NetKAN qw(netkan_files read_netkan licenses);
 
 use Data::Dumper;
+
+my $ident_qr = qr{^[A-Za-z][A-Z-a-z0-9-]*$};
 
 my %licenses = licenses();
 
@@ -22,9 +25,19 @@ foreach my $shortname (sort keys %files) {
 
     like(
         $metadata->{identifier},
-        qr{^[A-Za-z][A-Z-a-z0-9-]*$},
-        "CKAN identifers must consist only of letters, numbers, and dashes, and must start with a letter."
+        $ident_qr,
+        "$shortname: CKAN identifers must consist only of letters, numbers, and dashes, and must start with a letter."
     );
+
+    foreach my $relation (qw(depends recommends suggests conflicts)) {
+        foreach my $mod (@{$metadata->{$relation}}) {
+            like(
+                $mod->{name},
+                $ident_qr,
+                "$shortname: $mod->{name} in $relation is not a valid CKAN identifier"
+            );
+        }
+    }
 
     my $mod_license = $metadata->{license} // "(none)";
 

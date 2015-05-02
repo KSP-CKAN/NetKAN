@@ -1,0 +1,9 @@
+{
+    "spec_version": "v1.4",
+    "$kref": "#/ckan/kerbalstuff/716",
+    "license": "GPL-3.0",
+    "identifier": "SensibleScreenshot",
+	"install"	:	[ { "find" : "SensibleScreenshot",
+					"install_to" : "GameData",
+					"filter" : "SensibleScreenshot.cs"} ]
+}

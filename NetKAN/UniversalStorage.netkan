@@ -4,7 +4,6 @@
     "$kref"        : "#/ckan/kerbalstuff/250",
     "license"      : "restricted",	
     "depends"      : [
-        { "name" : "Regolith" },
         { "name" : "CommunityResourcePack" },
         { "name" : "ModuleManager" }
     ],

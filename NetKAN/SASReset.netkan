@@ -1,0 +1,19 @@
+{
+    "spec_version" : 1,
+    "identifier"   : "SASReset",
+    "$kref"        : "#/ckan/github/Crzyrndm/SAS-Reset",
+    "name"         : "SAS Reset",
+    "abstract"     : "Automatically reset SAS to stability assistance on ground contact, or when SAS keybinds are pressed",
+    "license"      : "GPL-3.0",
+	"$vref" : "#/ckan/ksp-avc",
+	
+	"resources" : {
+        "homepage" : "http://forum.kerbalspaceprogram.com/threads/116888"
+    },
+    "install" : [
+        {
+            "file"       : "GameData/SASReset",
+            "install_to" : "GameData"
+        }
+    ]
+}

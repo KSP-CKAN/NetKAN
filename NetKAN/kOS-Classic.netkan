@@ -3,15 +3,6 @@
     "license": "GPL-3.0",
     "$kref": "#/ckan/kerbalstuff/702",
     "spec_version": "v1.4",
-	"install" :	[ { "file" : "Flags",
-					"install_to" : "GameData/kOSClassic"},
-					{ "file" : "GFX",
-					"install_to" : "GameData/kOSClassic"},
-					{ "file" : "Parts",
-					"install_to" : "GameData/kOSClassic"},
-					{ "file" : "Props",
-					"install_to" : "GameData/kOSClassic"},
-					{ "file" : "kOS.dll",
-					"install_to" : "GameData/kOSClassic"} ],
-	"comment"	: "ugly installation solution that is forced by the lack of a top-level folder in the version at time of writing"
+	"install" :	[ { "file" : "kOS",
+				"install_to" : "GameData" } ]
 }
