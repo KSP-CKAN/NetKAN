@@ -5,7 +5,7 @@
     "name"         : "Mobile Frame System",
     "abstract"     : "Parts for planetary mobile engineering and hauling",
     "license"      : "CC-BY-NC-SA-4.0",
-    "ksp_version"  : "0.90",
+    "$vref"			:	"#/ckan/ksp-avc",
 	        "depends": [
         { "name": "JSIPartUtilities" },
         { "name": "FirespitterCore" },

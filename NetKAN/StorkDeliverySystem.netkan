@@ -1,11 +1,11 @@
 {
-    "spec_version" : 1,
+    "spec_version" : "v1.4",
     "identifier"   : "StorkDeliverySystem",
     "$kref"        : "#/ckan/github/riocrokite/StorkDeliverySystem",
     "name"         : "Stork Delivery System",
     "abstract"     : "Deliver your big cargo to the planet surface without flipping!",
     "license"      : "CC-BY-NC-SA-4.0",
-    "ksp_version"  : "0.90",
+    "$vref"			:	"#/ckan/ksp-avc",
 		    "resources" : {
         "homepage" : "http://forum.kerbalspaceprogram.com/threads/112526"
     },
@@ -14,7 +14,7 @@
     ],
 	    "install" : [
         {
-            "file"       : "KermangeddonIndustries",
+            "find"       : "KermangeddonIndustries",
             "install_to" : "GameData"
         }
     ]
