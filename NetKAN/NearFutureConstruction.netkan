@@ -2,10 +2,10 @@
     "spec_version" : 1,
     "identifier"   : "NearFutureConstruction",
     "$kref"        : "#/ckan/kerbalstuff/348",
-
+	"depends"	:	[ { "name" : "InterstellarFuelSwitch" },
+					{ "name" : "CommunityResourcePack" } ],
     "suggests": [
         { "name" : "CommunityTechTree" }
     ],
     "license" : "CC-BY-NC-SA-3.0"
-
 }
