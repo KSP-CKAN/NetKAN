@@ -1,0 +1,10 @@
+{
+    "identifier": "KerbalNRAP",
+    "x_via": "Automated KerbalStuff CKAN submission",
+    "spec_version": "v1.4",
+    "$kref": "#/ckan/kerbalstuff/89",
+    "license": "CC-BY-SA",
+	"install": [
+		{ "file": "GameData/NRAP", "install_to": "GameData" }
+	]
+}
