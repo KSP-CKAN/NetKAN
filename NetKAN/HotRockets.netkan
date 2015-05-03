@@ -1,0 +1,16 @@
+{
+    "spec_version": 1,
+    "$kref": "#/ckan/kerbalstuff/741",
+    "license": "CC-BY-NC-4.0",
+    "identifier": "HotRockets",
+    "install" : [
+        {
+            "file"       : "MP_Nazari",
+            "install_to" : "GameData"
+        }
+    ],
+    "depends" : [
+        { "name" : "ModuleManager"},
+		{ "name" : "SmokeScreen" }
+    ]
+}
