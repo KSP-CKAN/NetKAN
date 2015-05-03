@@ -11,7 +11,8 @@
 		},
 		{
 			"find": "Ships",
-			"install_to": "Ships"
+			"install_to": "Ships",
+			"filter" : "@thumbs"
 		}
 	]
 }
