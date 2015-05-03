@@ -1,5 +1,5 @@
 {
-    "spec_version" : 1,
+    "spec_version" : "v1.4",
     "identifier"   : "LSPFlags",
     "$kref"        : "#/ckan/github/ual002/Lorefriendly-Serious-Parody-Flags",
     "name"         : "LoreFriendly Serious Parody Flag Pack",
@@ -9,7 +9,7 @@
 
     "install": [
         {
-            "file"       : "GameData/UAL002",
+            "find"       : "UAL002",
             "install_to" : "GameData"
         }
     ]
