@@ -1,6 +1,7 @@
 {
     "spec_version"   : 1,
     "identifier"     : "RasterPropMonitor-Core",
+	"name"			:	"RasterPropMonitor-Core",
     "$kref"          : "#/ckan/kerbalstuff/734",
     "author"         : [ "MOARdV", "Mihara" ],
     "comment"        : "This package contains the plugin, and the standard parts library.",
