@@ -8,7 +8,7 @@
     "comment"        : "This package contains the stock IVA patches and the JSI agency.",
     "license"        : "GPL-3.0",
     "release_status" : "stable",
-    "$vref"          : "#/ckan/ksp-avc",
+    "ksp_version": "1.0",
     "resources" : {
         "homepage" : "http://forum.kerbalspaceprogram.com/threads/117471",
         "manual" : "https://github.com/Mihara/RasterPropMonitor/wiki"
