@@ -3,5 +3,6 @@
 	"identifier" : "SpaceY-Lifters",
 	"$kref" : "#/ckan/kerbalstuff/352",
 	"$vref" : "#/ckan/ksp-avc",
-	"license" : "CC-BY-NC-SA"
+	"license" : "CC-BY-NC-SA",
+	"recommends" :	[ { "name" : "ModuleManager" } ]
 }
