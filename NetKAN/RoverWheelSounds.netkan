@@ -1,0 +1,15 @@
+{
+    "spec_version": 1,
+    "identifier": "RoverWheelSounds",
+    "$kref": "#/ckan/kerbalstuff/224",
+    "license": "GPL-2.0",
+    "depends": [
+        { "name": "ModuleManager" }
+    ],
+    "install": [
+        {
+            "file": "GameData/WheelSounds",
+            "install_to": "GameData"
+        }
+    ]
+}
