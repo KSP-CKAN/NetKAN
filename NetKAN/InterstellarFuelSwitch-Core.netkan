@@ -5,5 +5,5 @@
     "identifier": "InterstellarFuelSwitch",
 	"install"	:	[ { "find" : "InterstellarFuelSwitch",
 						"install_to" : "GameData",
-						"filter" : "InterstellarFuelSwitch.dll" } ]
+						"filter_regexp" : "^(!?InterstellarFuelSwitch.dll).*$" } ]
 }
