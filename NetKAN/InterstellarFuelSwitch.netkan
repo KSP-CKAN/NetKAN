@@ -3,7 +3,8 @@
     "$kref": "#/ckan/kerbalstuff/718",
     "license": "CC-BY-NC",
     "identifier": "InterstellarFuelSwitch",
+	"depends"	:	[ { "name" : "InterstellarFuelSwitch-Core" } ],
 	"install"	:	[ { "find" : "InterstellarFuelSwitch",
 						"install_to" : "GameData",
-						"filter" : "InterstellarFuelSwitch.dll" } ]
+						"filter" : "Plugins" } ]
 }
