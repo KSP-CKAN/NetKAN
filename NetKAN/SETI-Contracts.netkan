@@ -1,0 +1,10 @@
+{
+"spec_version" : 1,
+"$kref": "#/ckan/kerbalstuff/742",
+"$vref" : "#/ckan/ksp-avc",
+"identifier": "SETI-Contracts",
+"x_netkan_license_ok" : true,
+"depends" : [ { "name" : "ContractConfigurator" }, { "name" : "ModuleManager" } ],
+"install" : [ { "file" : "SETIcontracts",
+"install_to" : "GameData" } ]
+}
