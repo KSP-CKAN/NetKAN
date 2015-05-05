@@ -1,0 +1,20 @@
+{
+    "spec_version"    : 1,
+    "identifier"      : "FirespitterCore",
+    "$kref"           : "#/ckan/github/snjo/Firespitter",
+    "license"         : "restricted",
+	"$vref"			:	"#/ckan/ksp-avc",
+    "resources" : {
+        "repository"  : "https://github.com/snjo/Firespitter"
+    },
+    "install"  : [
+        {
+            "file"       : "Firespitter/Plugins",
+            "install_to" : "GameData"
+        },
+		{
+			"file" : "Firespitter/Firespitter.version",
+			"install_to" : "GameData/Firespitter"
+		}
+    ]
+}
