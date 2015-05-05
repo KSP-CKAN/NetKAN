@@ -1,15 +1,15 @@
 {
     "spec_version"    : 1,
     "identifier"      : "Firespitter",
-    "$kref"           : "#/ckan/kerbalstuff/63",
+    "$kref"           : "#/ckan/github/snjo/Firespitter",
     "license"         : "restricted",
-	"ksp_version:min"	: "0.24.2"
+	"ksp_version"	:	"1.0.2",
     "resources" : {
         "repository"  : "https://github.com/snjo/Firespitter"
     },
     "depends" : [ {
         "name"        : "FirespitterCore",
-        "min_version" : "7.0.5398.27328"
+        "min_version" : "7.1"
     } ],
     "x_supports" : [ { "name" : "PartCatalog" } ],
     "install"  : [
