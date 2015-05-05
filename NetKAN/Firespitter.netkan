@@ -3,9 +3,6 @@
     "identifier"      : "Firespitter",
     "$kref"           : "#/ckan/kerbalstuff/63",
     "license"         : "restricted",
-    "comment"         : "Our version really depends on FirespitterCore",
-    "ksp_version_min" : "1.0.2",
-	"comment"		: "hardcoded since firespitter.version is currently being installed through FirespitterCore",
     "resources" : {
         "repository"  : "https://github.com/snjo/Firespitter"
     },
