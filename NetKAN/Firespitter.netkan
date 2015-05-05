@@ -3,7 +3,10 @@
     "identifier"      : "Firespitter",
     "$kref"           : "#/ckan/github/snjo/Firespitter",
     "license"         : "restricted",
+<<<<<<< HEAD
 	"ksp_version"	:	"1.0.2",
+=======
+>>>>>>> upstream/master
     "resources" : {
         "repository"  : "https://github.com/snjo/Firespitter"
     },
