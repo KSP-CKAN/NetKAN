@@ -3,6 +3,8 @@
     "identifier"      : "FirespitterCore",
     "$kref"           : "#/ckan/github/snjo/Firespitter",
     "license"         : "restricted",
+   "name" : "Firespitter Core",
+   "abstract" : "Core Firespitter.dll. Install `Firespitter` for the whole shebang",
 	"$vref"			:	"#/ckan/ksp-avc",
     "resources" : {
         "repository"  : "https://github.com/snjo/Firespitter"
