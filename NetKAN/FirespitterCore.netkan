@@ -12,7 +12,7 @@
     "install"  : [
         {
             "file"       : "Firespitter/Plugins",
-            "install_to" : "GameData"
+            "install_to" : "GameData/Firespitter"
         },
 		{
 			"file" : "Firespitter/Firespitter.version",
