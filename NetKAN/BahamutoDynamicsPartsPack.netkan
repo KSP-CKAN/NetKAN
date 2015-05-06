@@ -12,8 +12,9 @@
 		{
 			"file": "BahaSP",
 			"install_to": "GameData",
-			"filter": "Plugins",
-			"comment": "Plugins is the folder where BDAnimationModules is installed"
+			"filter": [ "Plugins", "Changelog.txt", "License.txt" ],
+			"comment": "Plugins is the folder where BDAnimationModules is installed",
+			"comment": "License and Changelog collide with BDAnimationModules"
 		}
 	]
 }
