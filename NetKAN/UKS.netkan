@@ -54,8 +54,8 @@
   
   "suggests" : [
     {
-      "name": "TACLS",
-      "min_version": "v0.10.1"
+      "name": "USI-LS",
+      "min_version": "v0.1.0"
     }
   ],
   
