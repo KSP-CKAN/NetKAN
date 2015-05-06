@@ -1,0 +1,9 @@
+{
+    "$kref": "#/ckan/kerbalstuff/747",
+    "identifier": "TankLock",
+    "spec_version": 1,
+    "license": "BSD-2-clause",
+	"depends":	[ { "name" : "ModuleManager" } ],
+	"install": [ { "file" : "ModuleTankLock/GameData/TankLock",
+				"install_to" : "GameData" } ]
+}
