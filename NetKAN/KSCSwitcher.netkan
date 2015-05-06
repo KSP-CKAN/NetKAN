@@ -1,0 +1,8 @@
+{
+    "$kref": "#/ckan/kerbalstuff/749",
+    "identifier": "KSCSwitcher",
+    "spec_version": 1,
+    "license": "BSD-2-clause",
+	"install": [ { "file" : "Switcher/GameData/KSCSwitcher",
+				"install_to" : "GameData" } ]
+}
