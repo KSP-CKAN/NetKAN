@@ -5,7 +5,7 @@
     "spec_version": "v1.4",
 	"depends": [
 		{ "name" : "ModuleManager" },
-		{ "name" : "KopernicusTech" }
+		{ "name" : "Kopernicus" }
 	],
 	"conflicts": [
 		{ "name": "CustomBiomes" },
