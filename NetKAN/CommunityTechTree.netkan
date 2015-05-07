@@ -5,9 +5,6 @@
     "license"        : "CC-BY-NC-4.0",
     "release_status" : "stable",
     "depends" : [
-        { "name" : "TechManager" }
-    ],
-    "recommends" : [
         { "name" : "ModuleManager" }
     ]
 }

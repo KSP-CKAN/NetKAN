@@ -1,13 +1,9 @@
 {
     "spec_version"   : "v1.2",
     "identifier"     : "TACLS",
-    "name"           : "TAC Life Support (TACLS)",
-    "author"          : "Taranis Elsu",
-    "abstract"       : "Adds life support requirements and resources to all kerbals",
-    "$kref"          : "#/ckan/github/taraniselsu/TacLifeSupport",
+    "$kref"          : "#/ckan/kerbalstuff/733",
     "$vref"         : "#/ckan/ksp-avc",
     "license"        : "CC-BY-NC-SA-3.0",
-    "release_status" : "stable",
     "depends" : [
         {   "name" : "ModuleManager" },
         {   "name" : "TACLS-Config" }
