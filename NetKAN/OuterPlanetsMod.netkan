@@ -1,43 +1,47 @@
 {
-	"spec_version": "v1.4",
-    "identifier": "OuterPlanetsMod",
-	"$kref": "#/ckan/kerbalstuff/437",
-    "license": "CC-BY-NC-SA-4.0",    
-	"depends": [
-		{ "name" : "ModuleManager" },
-		{ "name" : "Kopernicus" }
-	],
-	"conflicts": [
-		{ "name": "CustomBiomes" },
-		{ "name": "PlanetPack" },
-		{ "name": "PlanetShine-Config" },
-		{ "name": "Kopernicus" }
-	],
-	"provides": [ "PlanetPack", "PlanetShine-Config", "Kopernicus" ],
-	"suggests": [
-		{ "name": "JDiminishingRTG" },
-		{ "name": "NearFuturePropulsion" },
-		{ "name": "NearFutureElectrical" },
-		{ "name": "NearFutureSolar" },
-		{ "name": "NearFutureConstruction" },
-		{ "name": "NearFutureSpacecraft" },
-		{ "name": "TransferWindowPlanner"}
-	],
-	"supports":	[
-		{ "name": "PlanetShine" },
-		{ "name": "DistantObjectEnhancement" },
-		{ "name": "FinalFrontier" },
-		{ "name": "SCANsat" },
-		{ "name": "DeadlyReentry" },
-		{ "name": "MunarSurfaceExperimentPackage" },
-		{ "name": "Karbonite" },
-		{ "name": "TextureReplacer" }
-	],
-	"install" : [
-		{ "find": "OPM", "install_to" : "GameData", "filter": ".svn" },
-		{ "find": "Kopernicus", "install_to": "GameData" },
-		{ "find": "Nereid", "install_to": "GameData", "filter": ".svn" },
-		{ "find": "PlanetShine", "install_to": "GameData" },
-		{ "find": "TextureReplacer", "install_to" : "GameData" }
-	]
+  "spec_version": "v1.4",
+  "identifier": "OuterPlanetsMod",
+  "$kref": "#/ckan/kerbalstuff/437",
+  "license": "CC-BY-NC-SA-4.0",
+  "depends": [
+    { "name" : "ModuleManager" },
+    { "name" : "Kopernicus" }
+  ],
+  "conflicts": [
+    { "name": "CustomBiomes" },
+    { "name": "PlanetPack" },
+    { "name": "PlanetShine-Config" },
+    { "name": "Kopernicus" }
+  ],
+  "provides": [
+    "PlanetPack",
+    "PlanetShine-Config",
+    "Kopernicus"
+  ],
+  "suggests": [
+    { "name": "JDiminishingRTG" },
+    { "name": "NearFuturePropulsion" },
+    { "name": "NearFutureElectrical" },
+    { "name": "NearFutureSolar" },
+    { "name": "NearFutureConstruction" },
+    { "name": "NearFutureSpacecraft" },
+    { "name": "TransferWindowPlanner"}
+  ],
+  "supports": [
+    { "name": "PlanetShine" },
+    { "name": "DistantObjectEnhancement" },
+    { "name": "FinalFrontier" },
+    { "name": "SCANsat" },
+    { "name": "DeadlyReentry" },
+    { "name": "MunarSurfaceExperimentPackage" },
+    { "name": "Karbonite" },
+    { "name": "TextureReplacer" }
+  ],
+  "install" : [
+    { "find": "OPM", "install_to" : "GameData", "filter": ".svn" },
+    { "find": "Kopernicus", "install_to": "GameData" },
+    { "find": "Nereid", "install_to": "GameData", "filter": ".svn" },
+    { "find": "PlanetShine", "install_to": "GameData" },
+    { "find": "TextureReplacer", "install_to" : "GameData" }
+  ]
 }
