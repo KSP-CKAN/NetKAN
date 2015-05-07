@@ -34,9 +34,9 @@
 		{ "name": "TextureReplacer" }
 	],
 	"install" : [
-		{ "find": "OPM", "install_to" : "GameData" },
+		{ "find": "OPM", "install_to" : "GameData", "filter": ".svn" },
 		{ "find": "Kopernicus", "install_to": "GameData" },
-		{ "find": "Nereid", "install_to": "GameData" },
+		{ "find": "Nereid", "install_to": "GameData", "filter": ".svn" },
 		{ "find": "PlanetShine", "install_to": "GameData" },
 		{ "find": "TextureReplacer", "install_to" : "GameData" }
 	]
