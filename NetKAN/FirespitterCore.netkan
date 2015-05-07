@@ -7,6 +7,7 @@
    "abstract" : "Core Firespitter.dll. Install `Firespitter` for the whole shebang",
 	"$vref"			:	"#/ckan/ksp-avc",
     "resources" : {
+        "homepage" : "http://snjo.github.io/",
         "repository"  : "https://github.com/snjo/Firespitter"
     },
     "install"  : [
