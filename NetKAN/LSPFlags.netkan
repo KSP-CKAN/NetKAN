@@ -6,7 +6,9 @@
     "abstract"     : "A set of seriously parody flags for your KSP install",
     "license"      : "restricted",
     "ksp_version_min"  : "0.20",
-
+    "resources" : {
+        "homepage" : "http://forum.kerbalspaceprogram.com/threads/86957"
+    },
     "install": [
         {
             "find"       : "UAL002",

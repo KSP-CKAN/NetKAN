@@ -3,6 +3,9 @@
     "$kref": "#/ckan/kerbalstuff/726",
     "license": "BSD-2-clause",
     "identifier": "EVAManager",
+    "resources"         : {
+        "repository" : "https://github.com/toadicus/EVAManager"
+    },
 	"install"	:	[ { "file" : "GameData/EVAManager",
 						"install_to" : "GameData" } ]
 }
