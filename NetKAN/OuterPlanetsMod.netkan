@@ -1,17 +1,18 @@
 {
-    "identifier": "OuterPlanetsMod", 
-    "license": "CC-BY-NC-SA-4.0", 
-    "$kref": "#/ckan/kerbalstuff/437", 
-    "spec_version": "v1.4",
+	"spec_version": "v1.4",
+    "identifier": "OuterPlanetsMod",
+	"$kref": "#/ckan/kerbalstuff/437",
+    "license": "CC-BY-NC-SA-4.0",    
 	"depends": [
 		{ "name" : "ModuleManager" },
 		{ "name" : "Kopernicus" }
 	],
 	"conflicts": [
 		{ "name": "CustomBiomes" },
-		{ "name": "PlanetPack" }
+		{ "name": "PlanetPack" },
+		{ "name": "PlanetShine-Config" }
 	],
-	"provides": [ "PlanetPack" ],
+	"provides": [ "PlanetPack", "PlanetShine-Config" ],
 	"suggests": [
 		{ "name": "JDiminishingRTG" },
 		{ "name": "NearFuturePropulsion" },
@@ -34,6 +35,7 @@
 	"install" : [
 		{ "find": "OPM", "install_to" : "GameData" },
 		{ "find": "Nereid", "install_to": "GameData" },
+		{ "find": "PlanetShine", "install_to": "GameData" },
 		{ "find": "TextureReplacer", "install_to" : "GameData" }
 	]
 }
