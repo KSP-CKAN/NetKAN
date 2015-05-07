@@ -1,0 +1,12 @@
+{
+	"spec_version": 1,
+	"identifier": "ImprovedChaseCamera",
+	"$kref": "#/ckan/kerbalstuff/743",
+	"license": "GPL-3.0",
+	"install": [
+		{
+			"file": "ImprovedChaseCamera",
+			"install_to": "GameData"
+		}
+	]
+}
