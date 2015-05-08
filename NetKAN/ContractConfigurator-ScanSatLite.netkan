@@ -4,7 +4,7 @@
     "$kref"        : "#/ckan/github/severedsolo/ScanSatLite",
     "name"         : "Contract Pack: SCANSat Lite",
     "abstract"     : "A set of contracts for the SCANSat mod",
-    "license"      : "CC BY-NC-SA 4.0",
+    "license"      : "CC-BY-NC-SA-4.0",
     "ksp_version"  : "1.0.2",
     "depends" : [
         { "name": "ContractConfigurator" },
