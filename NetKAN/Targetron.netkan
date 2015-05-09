@@ -5,5 +5,8 @@
 "ksp_version" : "1.0",
 "name" : "Targetron",
 "abstract" : "Target or command vessel from a list of active flights!",
-"license" : "GPL-3.0"
+"license" : "GPL-3.0",
+"resources" : {
+    "homepage" : "http://forum.kerbalspaceprogram.com/threads/117371"
+}
 }
