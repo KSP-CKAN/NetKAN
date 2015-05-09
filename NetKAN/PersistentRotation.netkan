@@ -6,8 +6,5 @@
     "license": "GPL-3.0",
 	"install": [ 
 		{ "file": "GameData/PersistentRotation", "install_to": "GameData" }
-	],
-	"depends": [
-		{ "name": "Toolbar" }
 	]
 }
