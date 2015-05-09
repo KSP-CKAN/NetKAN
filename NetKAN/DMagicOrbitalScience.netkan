@@ -19,7 +19,13 @@
 	],
 	"suggests": [
 	{
-	  "name": "CustomBiomes"
+	  "name": "CapCom"
+	},
+	{
+	  "name": "ContractRewardModifier"
+	},
+	{
+	  "name": "OuterPlanetsMod"
 	},
 	{
 	  "name": "UniversalStorage"
