@@ -5,10 +5,6 @@
 	"license": "public-domain",
 	"install": [
 	{
-		"file" : "GameData/Engineer_Stock",
-		"install_to" : "GameData"
-	},
-	{
 		"file" : "GameData/KerbalEngineer_Stock",
 		"install_to" : "GameData"
 	},
@@ -17,15 +13,19 @@
 		"install_to" : "GameData"
 	},
 	{
+		"file" : "GameData/Kerbaltek_Stock",
+		"install_to" : "GameData"
+	},
+	{
+		"file" : "GameData/kOS_Stock",
+		"install_to" : "GameData"
+	},
+	{
 		"file" : "GameData/MechJeb2_Stock",
 		"install_to" : "GameData"
 	},
 	{
 		"file" : "GameData/Protractor_Stock",
-		"install_to" : "GameData"
-	},
-	{
-		"file" : "GameData/Telemachus_Stock",
 		"install_to" : "GameData"
 	}
 	],
@@ -42,10 +42,13 @@
 		"name": "KerbalEngineerRedux"
 	},
 	{
+		"name": "kOS"
+	},
+	{
 		"name": "MechJeb2"
 	},
 	{
-		"name": "Telemachus"
+		"name": "Protractor"
 	}
 	]
 }
