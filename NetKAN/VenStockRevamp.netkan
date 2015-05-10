@@ -8,5 +8,6 @@
     "$vref"        : "#/ckan/ksp-avc",
     "depends"      : [
         { "name" : "ModuleManager" }
-    ]
+    ],
+    "ksp_version"  : "1.0.2"
 }
