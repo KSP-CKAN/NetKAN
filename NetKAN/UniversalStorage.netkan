@@ -7,6 +7,13 @@
         { "name" : "CommunityResourcePack" },
         { "name" : "ModuleManager" }
     ],
+    "install" : [
+        {
+            "file" : "UniversalStorage",
+            "install_to" : "GameData/UniversalStorage",
+            "filter" : "MiniAVC.xml"
+        }
+    ],
 	"x_conflicts": [
 		{ "name": "UniversalStorage-ECLSS" },
 		{ "name": "UniversalStorage-IFI" },
