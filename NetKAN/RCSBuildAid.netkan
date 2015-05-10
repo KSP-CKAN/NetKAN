@@ -5,7 +5,8 @@
 	"author": "m4v",
 	"name": "RCS Build Aid",
 	"license": "LGPL-3.0",
-	"ksp_version": "0.90",
+	"ksp_version_min": "0.90",
+	"ksp_version_max": "1.0.2",
 	"resources": 
 	{
 		"homepage": "http://forum.kerbalspaceprogram.com/threads/35996"
