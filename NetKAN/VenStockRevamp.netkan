@@ -9,5 +9,6 @@
     "depends"      : [
         { "name" : "ModuleManager" }
     ],
-    "ksp_version"  : "1.0.2"
+    "ksp_version"  : "1.0.2",
+    "comment"      : ".version file currently has accurate mod version but incorrect KSP version"
 }
