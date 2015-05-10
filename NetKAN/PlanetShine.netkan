@@ -10,7 +10,8 @@
         },
         {
             "file": "GameData/PlanetShine/Plugins",
-            "install_to": "GameData/PlanetShine"
+            "install_to": "GameData/PlanetShine",
+            "filter": "MiniAVC.xml"
         },
         {
             "file": "GameData/PlanetShine/LICENSE",
