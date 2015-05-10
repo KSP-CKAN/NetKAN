@@ -18,6 +18,10 @@
 		{
 			"file" : "Firespitter/Firespitter.version",
 			"install_to" : "GameData/Firespitter"
+		},
+		{
+			"file": "Firespitter/Resources/Firespitter.cfg",
+			"install_to": "GameData/Firespitter/Resources/"
 		}
     ]
 }
