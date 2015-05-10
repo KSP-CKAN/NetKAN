@@ -11,7 +11,10 @@
 	"provides"  : [ "AerodynamicModel", "FAR" ],
 	"conflicts" : [ { "name" : "AerodynamicModel" } ],
 	
-    "depends" : [ { "name" : "ModuleManager" } ],
+    "depends" : [
+    	{ "name" : "ModuleManager" },
+    	{ "name" : "ModularFlightIntegrator" }
+    ],
     "install" : [
         {
             "file"       : "GameData/FerramAerospaceResearch",

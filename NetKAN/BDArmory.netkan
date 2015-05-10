@@ -1,6 +1,9 @@
 {
     "spec_version" : 1,
     "identifier"   : "BDArmory",
+    "resources" : {
+        "homepage" : "http://forum.kerbalspaceprogram.com/threads/85209"
+    },
     "$kref"        : "#/ckan/kerbalstuff/90",
 	"license"	   : "CC-BY-SA-2.0"
 }
