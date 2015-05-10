@@ -1,5 +1,5 @@
 {
-    "spec_version" : 1.2,
+    "spec_version" : v1.2,
     "identifier"   : "UniversalStorage",
     "$kref"        : "#/ckan/kerbalstuff/250",
     "license"      : "restricted",	
@@ -14,11 +14,11 @@
             "filter" : "MiniAVC.xml"
         }
     ],
-	"x_conflicts": [
-		{ "name": "UniversalStorage-ECLSS" },
-		{ "name": "UniversalStorage-IFI" },
-		{ "name": "UniversalStorage-KAS" },
-		{ "name": "UniversalStorage-SNACKS" },
-		{ "name": "UniversalStorage-TAC" }
-	]
+    "x_conflicts": [
+        { "name": "UniversalStorage-ECLSS" },
+        { "name": "UniversalStorage-IFI" },
+        { "name": "UniversalStorage-KAS" },
+        { "name": "UniversalStorage-SNACKS" },
+        { "name": "UniversalStorage-TAC" }
+    ]
 }
