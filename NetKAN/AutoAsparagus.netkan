@@ -8,4 +8,7 @@
         "bugtracker" : "https://github.com/henrybauer/AutoAsparagus/issues",
         "repository" : "https://github.com/henrybauer/AutoAsparagus"
     }
+    "recommends" : [
+        { "name" : "SmartStage" }
+    ],
 }
