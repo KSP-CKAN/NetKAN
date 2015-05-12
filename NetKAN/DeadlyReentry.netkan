@@ -4,11 +4,20 @@
     "abstract"       : "Makes re-entry much more dangerous",
     "identifier"     : "DeadlyReentry",
     "$kref"          : "#/ckan/github/Starwaster/DeadlyReentry",
+    "$vref"          : "#/ckan/ksp-avc",
     "license"        : "CC-BY-SA",
-    "release_status" : "stable",
-    "ksp_version"    : "0.90",
     "resources"      : {
         "homepage"   : "http://forum.kerbalspaceprogram.com/threads/54954",
-        "repository" : "https://github.com/Starwaster/DeadlyReentry"
+        "repository" : "https://github.com/Starwaster/DeadlyReentry",
     }
+    "depends": [
+        { "name" : "ModuleManager" },
+    	{ "name" : "ModularFlightIntegrator" }
+    ]
+       "install": [
+        {
+            "file"       : "DeadlyReentry",
+            "install_to" : "GameData"
+        }
+    ]
 }
