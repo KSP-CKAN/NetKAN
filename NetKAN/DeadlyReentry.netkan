@@ -4,6 +4,7 @@
     "abstract"       : "Makes re-entry much more dangerous",
     "identifier"     : "DeadlyReentry",
     "$kref"          : "#/ckan/github/Starwaster/DeadlyReentry",
+    "$vref"          : "#/ckan/ksp-avc",
     "license"        : "CC-BY-SA",
     "release_status" : "stable",
     "ksp_version"    : "1.0",
@@ -14,5 +15,11 @@
     "depends": [
         { "name" : "ModuleManager" },
     	{ "name" : "ModularFlightIntegrator" }
+    ]
+       "install": [
+        {
+            "file"       : "DeadlyReentry",
+            "install_to" : "GameData"
+        }
     ]
 }
