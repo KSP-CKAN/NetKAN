@@ -1,0 +1,8 @@
+{
+    "$kref": "#/ckan/kerbalstuff/782",
+    "spec_version": 1,
+    "license": "MIT",
+    "identifier": "JettisonFuel",
+    "depends" : [ { "name" : "ModuleManager" } ]
+} 
+
