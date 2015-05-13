@@ -2,9 +2,8 @@
 	"spec_version" : 1,
 	"identifier" : "ZeroPointInlineFairings",
 	"$kref" : "#/ckan/kerbalstuff/196",
-	"$vref" : "#/ckan/ksp-avc",
 	"license" : "CC-BY-NC-SA",
-	"ksp_version" : "0.90",
+	"ksp_version_max" : "0.90",
 	"resources" : {
 	"homepage"  : "http://forum.kerbalspaceprogram.com/threads/94427"
 	},
