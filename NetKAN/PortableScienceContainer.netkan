@@ -6,7 +6,7 @@
     "install"      :
     [
         {
-            "file"       : "VerneTech",
+            "file"       : "GameData/VerneTech",
             "install_to" : "GameData"
         }
     ],
