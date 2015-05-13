@@ -5,6 +5,6 @@
     "$kref": "#/ckan/kerbalstuff/608",
     "license": "MIT",
 	"install": [
-		{ "file": "TarsierSpaceTech", "install_to": "GameData" }
+		{ "file": "GameData/TarsierSpaceTech", "install_to": "GameData" }
 	]
 }
