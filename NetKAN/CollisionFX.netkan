@@ -3,6 +3,9 @@
     "identifier"   : "CollisionFX",
     "$kref"        : "#/ckan/kerbalstuff/381",
     "license"      : "GPL-2.0",
+    "depends"      : [
+        { "name": "ModuleManager" }
+    ],
     "install" : [
         {
             "file"       : "GameData/CollisionFX",
