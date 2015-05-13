@@ -10,16 +10,21 @@
         "homepage" : "http://snjo.github.io/",
         "repository"  : "https://github.com/snjo/Firespitter"
     },
-    "depends" : [ {
-        "name"        : "FirespitterCore",
-        "min_version" : "7.1"
-    } ],
+    "depends" : [
+        {
+            "name"        : "FirespitterCore",
+            "min_version" : "7.1"
+        },
+        {
+            "name" : "FirespitterResourcesConfig"
+        }
+    ],
     "x_supports" : [ { "name" : "PartCatalog" } ],
     "install"  : [
         {
             "file"       : "Firespitter",
             "install_to" : "GameData",
-            "filter"     : [ "Firespitter.dll", "FSFuelSwitchTweakScale.cfg", "Firespitter.version" ],
+            "filter"     : [ "Firespitter.dll", "FSFuelSwitchTweakScale.cfg", "Firespitter.version", "Firespitter.cfg" ],
             "comment"    : "The DLL is installed from FirespitterCore"
         },
         {
