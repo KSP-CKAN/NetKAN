@@ -8,22 +8,22 @@
     "install": [
     {
          "file" : "Textures",
-         "install_to": "GameData/KerbalRPNCalc",
+         "install_to": "GameData/KerbalRPNCalc"
     },
     {
          "file" : "KerbalRPNCalc.dll",
-         "install_to": "GameData/KerbalRPNCalc",
+         "install_to": "GameData/KerbalRPNCalc"
     },
     {
          "file" : "KerbalRPNCalculator.version",
-         "install_to": "GameData/KerbalRPNCalc",
+         "install_to": "GameData/KerbalRPNCalc"
     },
     {
          "file" : "MiniAVC.dll",
-         "install_to": "GameData/KerbalRPNCalc",
+         "install_to": "GameData/KerbalRPNCalc"
     },
     {
          "file" : "PartsAPI.dll",
-         "install_to": "GameData/KerbalRPNCalc",
+         "install_to": "GameData/KerbalRPNCalc"
     } ]
 }
