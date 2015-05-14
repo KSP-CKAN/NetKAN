@@ -1,11 +1,11 @@
 {
-    "spec_version"    : 1,
-    "identifier"      : "Firespitter",
-	"name"			: "Firespitter",
-	"abstract"		: "Propeller plane and helicopter parts",
-    "$kref"           : "#/ckan/github/snjo/Firespitter",
-    "license"         : "restricted",
-	"ksp_version"	:	"1.0.2",
+    "spec_version" : 1,
+    "identifier"   : "Firespitter",
+	"name"         : "Firespitter",
+	"abstract"     : "Propeller plane and helicopter parts",
+    "$kref"        : "#/ckan/github/snjo/Firespitter",
+    "license"      : "restricted",
+	"$vref"        : "#/ckan/ksp-avc",
     "resources" : {
         "homepage" : "http://snjo.github.io/",
         "repository"  : "https://github.com/snjo/Firespitter"
@@ -19,18 +19,12 @@
             "name" : "FirespitterResourcesConfig"
         }
     ],
-    "x_supports" : [ { "name" : "PartCatalog" } ],
     "install"  : [
         {
             "file"       : "Firespitter",
             "install_to" : "GameData",
-            "filter"     : [ "Firespitter.dll", "FSFuelSwitchTweakScale.cfg", "Firespitter.version", "Firespitter.cfg" ],
+            "filter"     : [ "Firespitter.dll", "FSFuelSwitchTweakScale.cfg", "Firespitter.version", "Firespitter.cfg", "Old Example Craft.zip" ],
             "comment"    : "The DLL is installed from FirespitterCore"
-        },
-        {
-            "file"       : "PartCatalog",
-            "install_to" : "GameData",
-            "comment"    : "Firespitter graphics for PartCatalog"
         }
     ]
 }
