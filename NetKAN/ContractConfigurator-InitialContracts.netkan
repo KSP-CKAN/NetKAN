@@ -11,7 +11,7 @@
     ],
     "install" : [
         {
-            "find"       : "CC-SETI",
+            "find"       : "InitialContracts",
             "install_to" : "GameData/ContractPacks"
         }
     ]
