@@ -9,7 +9,6 @@
     "install" : [
         {
             "file"       : "GameData/JSI",
-            "filter": ["Agencies", "PartUtilities"],
             "install_to" : "GameData"
         }
     ]
