@@ -1,7 +1,7 @@
 {
     "$kref" : "#/ckan/kerbalstuff/765",
     "identifier" : "PIDTuner",
-    "spec_version" : "v1.4",
+    "spec_version" : 1,
     "license" : "BSD-2-clause",
     "depends" : [
         { "name" : "ModuleManager" }
@@ -13,11 +13,11 @@
         },
         {
             "file" : "Tuner/LICENSE.txt",
-            "install_to" : "GameData/PIDTune/LICENSE.txt"
+            "install_to" : "GameData/PIDTune"
         },
         {
             "file" : "Tuner/README.txt",
-            "install_to" : "GameData/PIDTune/README.txt"
+            "install_to" : "GameData/PIDTune"
         }
     ]
 }
