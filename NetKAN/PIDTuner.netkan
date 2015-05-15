@@ -5,6 +5,19 @@
     "license" : "BSD-2-clause",
     "depends" : [
         { "name" : "ModuleManager" }
+    ],
+    "install" : [
+        {
+            "find" : "Tuner/GameData",
+            "install_to" : "GameData"
+        },
+        {
+            "find" : "Tuner/LICENSE.txt",
+            "install_to" : "GameData/PIDTune/LICENSE.txt"
+        },
+        {
+            "find" : "Tuner/README.txt",
+            "install_to" : "GameData/PIDTune/README.txt"
+        }
     ]
-} 
-
+}
