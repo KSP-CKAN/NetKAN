@@ -2,8 +2,7 @@
     "$kref" : "#/ckan/kerbalstuff/765",
     "identifier" : "PIDTuner",
     "spec_version" : 1,
-    "license" : "BSD 2-clause",
-    "x_netkan_license_ok" : true,
+    "license" : "BSD-2-clause",
     "depends" : [
         { "name" : "ModuleManager" }
     ]
