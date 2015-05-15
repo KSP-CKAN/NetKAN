@@ -9,11 +9,11 @@
     ],
     "install" : [
         {
-            "find" : "GameData/Intstell Inc",
+            "file" : "GameData/Intstell Inc",
             "install_to" : "GameData"
         },
         {
-            "find" : "Ships",
+            "file" : "Ships",
             "install_to" : "Ships"
         }
     ]
