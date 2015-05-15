@@ -1,0 +1,17 @@
+{
+    "spec_version" : 1,
+    "identifier"   : "HooliganLabsAirships",
+    "$kref"        : "#/ckan/kerbalstuff/769",
+
+    "depends": [
+        { "name": "Toolbar" };
+    ]
+
+    "install": [
+        {
+           "file"       : "HooliganLabs",
+           "install_to" : "GameData"
+        }
+    ]
+    "x_netkan_license_ok": true
+}
