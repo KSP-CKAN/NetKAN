@@ -4,14 +4,14 @@
     "$kref"        : "#/ckan/kerbalstuff/769",
 
     "depends": [
-        { "name": "Toolbar" };
-    ]
+        { "name": "Toolbar" }
+    ], 
 
     "install": [
         {
            "file"       : "HooliganLabs",
            "install_to" : "GameData"
         }
-    ]
+    ], 
     "x_netkan_license_ok": true
 }
