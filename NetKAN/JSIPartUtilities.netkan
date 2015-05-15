@@ -1,0 +1,16 @@
+{
+    "spec_version" : 1,
+    "identifier"   : "JSIPartUtilities",
+    "$kref"        : "#/ckan/github/Mihara/PartUtilities",
+    "name"         : "JSIPartUtilities",
+    "abstract"     : "Utility functions for making complex animated and mutable parts.",
+    "license"      : "GPL-3.0",
+    "ksp_version_min"  : "1.0.2",
+    "install" : [
+        {
+            "file"       : "GameData/JSI",
+            "filter": ["Agencies", "PartUtilities"],
+            "install_to" : "GameData"
+        }
+    ]
+}
