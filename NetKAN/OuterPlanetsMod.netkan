@@ -10,12 +10,10 @@
   "conflicts": [
     { "name": "CustomBiomes" },
     { "name": "PlanetPack" },
-    { "name": "PlanetShine-Config" },
     { "name": "Kopernicus" }
   ],
   "provides": [
     "PlanetPack",
-    "PlanetShine-Config",
     "Kopernicus"
   ],
   "suggests": [
@@ -38,10 +36,8 @@
     { "name": "TextureReplacer" }
   ],
   "install" : [
-    { "find": "OPM", "install_to" : "GameData", "filter": ".svn" },
+    { "find": "OPM", "install_to" : "GameData" },
     { "find": "Kopernicus", "install_to": "GameData" },
-    { "find": "Nereid", "install_to": "GameData", "filter": ".svn" },
-    { "find": "PlanetShine", "install_to": "GameData" },
     { "find": "TextureReplacer", "install_to" : "GameData" }
   ]
 }
