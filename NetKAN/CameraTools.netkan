@@ -2,5 +2,9 @@
     "spec_version" : 1,
     "identifier"   : "CameraTools",
     "license"      : "GPL-3.0",
-    "$kref"        : "#/ckan/kerbalstuff/190"
+    "$kref"        : "#/ckan/kerbalstuff/190",
+    "resources"    : { 
+                      "repository" : "https://github.com/BahamutoD/CameraTools",
+                      "kerbalstuff" : "https://kerbalstuff.com/mod/190/Camera%20Tools"
+                     }
 }
