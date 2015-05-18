@@ -8,7 +8,7 @@
     ],
     "install" : [
         {
-            "file" : "Tuner/GameData",
+            "file" : "Tuner/GameData/PIDTune",
             "install_to" : "GameData"
         },
         {
