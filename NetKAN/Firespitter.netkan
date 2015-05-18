@@ -19,7 +19,7 @@
         {
             "file"       : "Firespitter",
             "install_to" : "GameData",
-            "filter"     : [ "Firespitter.dll", "FSFuelSwitchTweakScale.cfg", "Firespitter.version" ],
+            "filter"     : [ "Firespitter.dll", "FSFuelSwitchTweakScale.cfg", "Firespitter.version", "Firespitter.cfg" ],
             "comment"    : "The DLL is installed from FirespitterCore"
         },
         {

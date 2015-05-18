@@ -8,10 +8,6 @@
 		{
 			"file" : "KAX",
 			"install_to" : "GameData"
-		},
-		{
-			"file": "Firespitter/Resources/Firespitter.cfg",
-			"install_to": "GameData/Firespitter/Resources/"
 		}
 	],
 	"depends": [
