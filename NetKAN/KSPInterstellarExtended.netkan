@@ -1,0 +1,37 @@
+{
+    "spec_version"       : "v1.6",
+    "identifier"         : "KSPInterstellarExtended",
+    "$kref"              : "#/ckan/kerbalstuff/791",
+    "license"            : "GPL-3.0",
+    "install" : [
+        {
+            "file"       : "GameData/WarpPlugin",
+            "install_to" : "GameData"
+        },
+        {
+            "file"       : "GameData/OpenResourceSystem",
+            "install_to" : "GameData"
+        },
+        {
+            "file"       : "GameData/ORSResourcePack",
+            "install_to" : "GameData"
+        }
+    ],
+    "depends" : [
+        { "name"         : "CommunityTechTree" },
+        { "name"         : "CommunityResourcePack" },
+        { "name"         : "ModuleManager", "min_version" : "2.6.3" }
+    ],
+    "recommends": [
+        { "name"         : "Toolbar" },
+        { "name"         : "InterstellarFuelSwitch" }
+    ],
+    "suggests": [
+        { "name"         : "FilterExtensions" }
+    ],
+    "provides": [
+        "OpenResourceSystem",
+        "ORSResourcePack"
+    ]
+}
+
