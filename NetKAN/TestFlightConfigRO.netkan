@@ -25,7 +25,7 @@
 
     ],
     "provides" : [
-    	{ "name" : "TestFlightConfig" }
+    	{ "TestFlightConfig" }
     ],
     "conflicts" : [
     	{ "name" : "TestFlightConfig" }
