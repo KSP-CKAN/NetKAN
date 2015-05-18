@@ -1,0 +1,19 @@
+{
+    "$kref" : "#/ckan/kerbalstuff/758",
+    "identifier" : "MiniAirbrakes",
+    "spec_version" : "v1.4",
+    "license" : "CC-BY-4.0",
+    "depends" : [
+        { "name" : "ModuleManager" }
+    ],
+    "install" : [
+        {
+            "file" : "GameData/MiniAirbrakes",
+            "install_to" : "GameData"
+        },
+        {
+            "file" : "GameData/README.txt",
+            "install_to" : "GameData/MiniAirbrakes"
+        }
+    ]
+}
