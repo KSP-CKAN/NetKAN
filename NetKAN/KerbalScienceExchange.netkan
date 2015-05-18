@@ -1,0 +1,15 @@
+{
+    "spec_version" : "v1.2",
+    "$kref"        : "#/ckan/kerbalstuff/597",
+    "identifier"   : "KerbalScienceExchange",
+    "license"      : "restricted",
+    "install" : [
+        {
+            "file"          : "GameData/KerboKatz/KerbalScienceExchange",
+            "install_to"    : "GameData/KerboKatz"
+        }
+    ],
+    "depends" : [
+        { "name" : "KerboKatzUtilities" }
+    ]
+}

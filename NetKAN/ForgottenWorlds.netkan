@@ -1,0 +1,15 @@
+{
+    "identifier": "ForgottenWorlds",
+    "license": "MIT",
+    "$kref": "#/ckan/kerbalstuff/707",
+    "spec_version": "v1.4",
+	"depends"		:	[ { "name" : "KopernicusTech" },
+						{ "name" : "ModuleManager" } ],
+	"provides": [ "PlanetPack" ],
+	"conflicts": [ { "name" : "PlanetPack" } ],
+	"install"		:	[ { "find" : "ForgottenWorlds",
+							"install_to" : "GameData" },
+						{ "find" : "KittopiaSpace",
+						"install_to" : "GameData",
+						"filter" : [ "plugins", "StarFix.cfg", "Help.cr_help" ] } ]
+}

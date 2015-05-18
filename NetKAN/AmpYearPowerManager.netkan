@@ -1,0 +1,10 @@
+{
+    "identifier": "AmpYearPowerManager",
+    "x_via": "Automated KerbalStuff CKAN submission",
+    "spec_version": "v1.4",
+    "$kref": "#/ckan/kerbalstuff/630",
+    "license": "GPL-3.0",
+	"install": [
+		{ "find": "REPOSoftTech", "install_to": "GameData" }
+	]
+}

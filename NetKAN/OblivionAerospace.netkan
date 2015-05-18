@@ -6,20 +6,24 @@
     "abstract"       : "A small parts package of heat shields for Kerbal Space Program.",
     "license"        : "CC-BY-SA-4.0",
     "ksp_version_min": "0.25",
-    "ksp_version_max": "0.90",
+    "ksp_version_max": "1.0",
     "resources" : {
         "homepage"     : "http://forum.kerbalspaceprogram.com/threads/91920",
         "repository"   : "https://github.com/LostOblivion/OblivionAerospace"
     },
     "install" : [
         {
-            "file"       : "GameData",
-            "install_to" : "GameData"
+            "file"          : "OblivionAerospace/GameData/OblivionAerospace",
+            "install_to"    : "GameData",
+            "filter_regexp" : "ModuleManager.*dll$"
         },
         {
-            "file"       : "Ships",
+            "file"       : "OblivionAerospace/Ships/VAB",
             "install_to" : "Ships"
         }
+    ],
+    "depends" : [
+        { "name" : "ModuleManager" }
     ],
     "recommends" : [
         { "name" : "DeadlyReentry" }

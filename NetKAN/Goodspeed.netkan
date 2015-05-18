@@ -1,0 +1,9 @@
+{
+    "spec_version": "v1.4",
+    "$kref": "#/ckan/kerbalstuff/722",
+    "license": "GPL-3.0",
+    "identifier": "Goodspeed",
+	"install"	:	[ { "find" : "GPOSpeedFuelPump",
+						"install_to" : "GameData",
+						"filter" : "sourcecode" } ]
+}

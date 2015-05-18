@@ -10,6 +10,7 @@
     "depends" : [
 		{ "name" : "AdvancedJetEngine" },
 		{ "name" : "CrossFeedEnabler" },
+		{ "name" : "DDSLoader" },
 		{ "name" : "FerramAerospaceResearch" },
 		{ "name" : "KerbalJointReinforcement" },
 		{ "name" : "ModuleManager" },
@@ -24,7 +25,7 @@
 		{ "name" : "DeadlyReentry" },
 		{ "name" : "EngineIgnitor" },
 		{ "name" : "FilterExtensions" },
-		{ "name" : "FShangarExtender" },
+		{ "name" : "HangarExtender" },
 		{ "name" : "KSP-AVC" },
 		{ "name" : "MechJeb2" },
 		{ "name" : "ModuleFixer" },
@@ -37,7 +38,7 @@
 		{ "name" : "RealPlume" },
 		{ "name" : "RealHeat" },
 		{ "name" : "RemoteTech" },
-		{ "name" : "RT2RSSSettingsFile" },
+		{ "name" : "RemoteTech-Config-RSS" },
 		{ "name" : "TACLS" },
 		{ "name" : "TACLS-Config-RealismOverhaul" },
 		{ "name" : "TextureReplacer" },
@@ -70,7 +71,8 @@
 		{ "name" : "SpaceFactory-Voskhod-unofficial" },
 		{ "name" : "SpaceFactory-Vostok-unofficial" },
 		{ "name" : "SXT" },
-		{ "name" : "UniversalStorage" }
+		{ "name" : "UniversalStorage" },
+		{ "name" : "VenStockRevamp"}
     ],
     "provides" : [ "RealFuels-Engine-Configs" ],
     "resources" : {
@@ -78,20 +80,30 @@
     },
     "install" : [
         {
-            "file"       : "RealismOverhaul",
+            "file"       : "GameData/RealismOverhaul",
             "install_to" : "GameData",
 			"comment"       : "This regexp skips the Smokescreen folders",
 			"filter_regexp" : "SmokeScreen_"
         },
         {
-            "file"       : "KAS",
+            "file"       : "GameData/KAS",
             "install_to" : "GameData",
             "comment"    : "KAS config, does not overwrite"
         },
         {
-            "file"       : "EngineGroupController",
+            "file"       : "GameData/EngineGroupController",
             "install_to" : "GameData",
             "comment"    : "Engine Group Controller, unique to RO."
+        },
+        {
+            "file"       : "Ships/VAB",
+            "install_to" : "Ships",
+            "comment"    : "VAB craft files"
+        },
+        {
+            "file"       : "Ships/SPH",
+            "install_to" : "Ships",
+            "comment"    : "SPH craft files"
         }
     ]
 }

@@ -1,16 +1,45 @@
 {
-    "spec_version": "v1.4",
-    "identifier": "OuterPlanetsMod", 
-    "$kref": "#/ckan/kerbalstuff/437", 
-    "x_netkan_license_ok": true, 
-    "license"      : "CC-BY-NC-SA-4.0",
-    "install" : [
-        {
-            "find"       : "GameData/OPM",
-            "install_to" : "GameData"
-        }
-    ],
-    "x_to_be_added" : "Kopernicus and CustomAsteroids from the archive",
-    "x_to_be_added_recommended" : "From the listing...",
-    "x_to_be_added_supported" : "From the listing..."
+  "spec_version": "v1.4",
+  "identifier": "OuterPlanetsMod",
+  "$kref": "#/ckan/kerbalstuff/437",
+  "license": "CC-BY-NC-SA-4.0",
+  "depends": [
+    { "name" : "ModuleManager" },
+    { "name" : "Kopernicus" }
+  ],
+  "conflicts": [
+    { "name": "CustomBiomes" },
+    { "name": "PlanetPack" },
+    { "name": "Kopernicus" }
+  ],
+  "provides": [
+    "PlanetPack",
+    "Kopernicus"
+  ],
+  "suggests": [
+    { "name": "JDiminishingRTG" },
+    { "name": "NearFuturePropulsion" },
+    { "name": "NearFutureElectrical" },
+    { "name": "NearFutureSolar" },
+    { "name": "NearFutureConstruction" },
+    { "name": "NearFutureSpacecraft" },
+    { "name": "TransferWindowPlanner"}
+  ],
+  "supports": [
+    { "name": "PlanetShine" },
+    { "name": "DistantObjectEnhancement" },
+    { "name": "FinalFrontier" },
+    { "name": "AntennaRange" },
+    { "name": "RemoteTech" },
+    { "name": "SCANsat" },
+    { "name": "DeadlyReentry" },
+    { "name": "MunarSurfaceExperimentPackage" },
+    { "name": "Karbonite" },
+    { "name": "TextureReplacer" }
+  ],
+  "install" : [
+    { "find": "OPM", "install_to" : "GameData" },
+    { "find": "Kopernicus", "install_to": "GameData" },
+    { "find": "TextureReplacer", "install_to" : "GameData" }
+  ]
 }

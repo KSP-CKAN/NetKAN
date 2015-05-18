@@ -1,0 +1,9 @@
+{
+    "spec_version" : 1,
+    "identifier"   : "Kerbulator",
+    "$kref"        : "#/ckan/github/wmvanvliet/Kerbulator",
+    "name"         : "Kerbulator",
+    "abstract"     : "Calculator plugin for Kerbal Space Program",
+    "license"      : "GPL-3.0",
+    "ksp_version"  : "1.0.2"
+}

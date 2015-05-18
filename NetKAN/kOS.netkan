@@ -8,6 +8,7 @@
         "manual"       : "http://ksp-kos.github.io/KOS_DOC/",
         "repository"   : "https://github.com/KSP-KOS/KOS"
     },
+	"conflicts"		:	[ { "name" : "kOS-Classic" } ],
     "install" : [
         {
             "file"       : "GameData/kOS",

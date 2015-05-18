@@ -15,7 +15,7 @@
     "conflicts"      : [ { "name" : "TACLS-Config" } ],
     "install" : [
         {
-            "file"       : "ThunderAerospace",
+            "file"       : "GameData/ThunderAerospace",
             "install_to" : "GameData"
         }
     ]

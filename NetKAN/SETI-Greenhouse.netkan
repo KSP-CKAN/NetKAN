@@ -1,0 +1,9 @@
+{
+    "$kref" : "#/ckan/kerbalstuff/663",
+    "spec_version" : 1,
+    "identifier": "SETI-Greenhouse",
+    "license"	: "CC-BY-NC-SA-3.0",
+	"depends"	: [ { "name" : "ModuleManager" } ],
+	"install" : [ { "file" : "SETIgreenhouse",
+				"install_to" : "GameData" } ]
+}

@@ -1,0 +1,9 @@
+{
+    "spec_version" : 1,
+    "identifier"   : "Impact",
+    "$kref"        : "#/ckan/github/tomforwood/kerbal-impact",
+    "name"         : "Impact!",
+    "abstract"     : "Impact experiments for science and profit",
+    "license"      : "MIT",
+    "ksp_version"  : "0.90"
+}

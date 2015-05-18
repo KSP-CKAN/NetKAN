@@ -7,7 +7,7 @@
     "abstract"       : "Common libraries for USI mods",
     "license"        : "CC-BY-NC-SA-4.0",
     "release_status" : "stable",
-    "ksp_version"    : "0.90",
+	"ksp_version" : "1.0",
     "provides"       : [ "USI-Tools" ],
     "comment"        : "May be renamed to USI-Tools in the future",
     "install" : [

@@ -1,0 +1,43 @@
+{
+    "spec_version"   : "v0.1",
+    "$kref"          : "#/ckan/kerbalstuff/698",
+    "name"           : "Road To Kosmos Core",
+    "identifier"     : "RoadToCosmosCore",
+    "abstract"       : "Soviet and American-style tech trees",
+    "license"        : "CC-BY-NC-SA-4.0",
+    "release_status" : "stable",
+    "depends" : [
+		{ "name" : "DMagicOrbitalScience" },
+		{ "name" : "ModuleManager" },
+		{ "name" : "TechManager" },
+		{ "name" : "ProceduralFairings" }
+    ],
+    "recommends" : [
+		{ "name" : "Tantares" },
+		{ "name" : "TantaresLV" },
+		{ "name" : "SXT" },
+		{ "name" : "SpaceY-Lifters" },
+		{ "name" : "MechJeb2" },
+		{ "name" : "PartCatalog" },
+		{ "name" : "VenStockRevamp" },
+		{ "name" : "SDHI-ServiceModuleSystem" }
+    ],
+    "suggests"   : [
+		{ "name" : "KAS" }
+    ],
+    "resources" : {
+        "homepage" : "http://forum.kerbalspaceprogram.com/threads/115671"
+    },
+    "install" : [
+        {
+            "file"       : "RoadToKosmos",
+            "install_to" : "GameData",
+			"comment"       : "Core"
+        },
+        {
+            "file"       : "TechManager",
+            "install_to" : "GameData",
+            "comment"    : "Tech tree data"
+        }
+    ]
+}

@@ -5,7 +5,7 @@
     "x_netkan_license_ok" : true,
     "install": [
         {
-            "file"      : "BackgroundProcessing.dll",
+            "file"      : "BackgroundProcessing-0.4.0.1.dll",
             "install_to": "GameData"
         }
     ]

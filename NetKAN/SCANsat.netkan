@@ -4,12 +4,15 @@
     "$kref"        : "#/ckan/kerbalstuff/249",
     "license"      : "restricted",
 	"recommends": [
-        { "name": "Toolbar" }
+        { "name": "Toolbar" },
+		{ "name": "ModuleManager" }
     ],
+	"resources" : {
+		"repository"   : "https://github.com/S-C-A-N/SCANsat"
+	},
 	
 	"suggests": [
 		{ "name": "RasterPropMonitor" },
-		{ "name": "ContractConfigurator-ContractPack-SCANsat" },
-		{ "name": "CommunityTechTree" }
+		{ "name": "ContractConfigurator-ContractPack-SCANsat" }
 	]
 }

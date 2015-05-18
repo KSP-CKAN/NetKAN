@@ -3,6 +3,7 @@
     "identifier"   : "OPTMk3MiniExpansion",
     "license": "CC-BY-NC-SA-4.0",
     "$kref": "#/ckan/kerbalstuff/449",
+	"ksp_version"	:	"0.90",
 	"install": [
 		{
 		"file": "GameData/OPT/Parts",

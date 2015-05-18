@@ -1,0 +1,10 @@
+{
+    "identifier": "SolarScience",
+    "x_via": "Automated KerbalStuff CKAN submission",
+    "spec_version": "v1.4",
+    "$kref": "#/ckan/kerbalstuff/611",
+    "license": "MIT",
+	"install": [
+		{ "file": "Solar Science", "install_to": "GameData" }
+	]
+}

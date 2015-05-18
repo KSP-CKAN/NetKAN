@@ -1,0 +1,28 @@
+{
+    "spec_version" : 1,
+    "identifier"   : "MOVAP",
+    "$kref"        : "#/ckan/kerbalstuff/581",
+	"license"      : "restricted",
+	"ksp_version"  : "any",
+	"ksp_version_min" : "0.23",
+	
+	"install": [
+        {
+            "file"       : "GameData/Kerbice Group",
+            "install_to" : "GameData"
+        }
+	],
+	
+	"depends ": [
+		{ "name" : "FirespitterCore" }
+	],
+		
+	"recommends" : [
+		{ "name" : "EditorExtensions" }
+	],
+	
+	"suggests ": [
+		{ "name" : "simplewings" },
+		{ "name" : "Firespitter" }
+	]
+}

@@ -6,5 +6,9 @@
 	
 	"depends" : [
 		{ "name" : "FerramAerospaceResearch" }
-	]
+	],
+	
+	"comment": "FAR only supports one wind provider at once",
+	"provides" : [ "FARWind" ],
+	"conflicts": [ {"name": "FARWind" } ]
 }

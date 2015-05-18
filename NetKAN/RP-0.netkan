@@ -15,9 +15,13 @@
         { "name" : "CommunityTechTree" }
     ],
     "recommends" : [
+        { "name" : "KerbalConstructionTime" },
+        { "name" : "KerbalConstructionTime-RP-0-Config"},
         { "name" : "ProceduralDynamics" },
         { "name" : "TweakScale" },
-        { "name" : "ProceduralParts" }
+        { "name" : "ProceduralParts" },
+        { "name" : "TestFlight" },
+        { "name" : "VenStockRevamp" }
     ],
     "provides"  : [ "FinePrint-Config" ],
     "conflicts" : [ { "name" : "FinePrint-Config" } ],

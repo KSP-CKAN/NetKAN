@@ -7,7 +7,7 @@
     "abstract"       : "A newly discovered mineral that has hydrocarbon-like properties and is perfect for processing into a fuel. It's easily mined from the surface, and can be found in liquid or gaseous forms on certain planets.",
     "license"        : "CC-BY-NC-SA",
     "release_status" : "stable",
-    "ksp_version"    : "0.90",
+    "$vref"          : "#/ckan/ksp-avc",
     "resources" : {
         "homepage" : "http://forum.kerbalspaceprogram.com/threads/87335"
     },
@@ -15,7 +15,6 @@
         { "name" : "USITools" },
         { "name" : "CommunityResourcePack" },
         { "name" : "FirespitterCore" },
-        { "name" : "Regolith" },
         { "name" : "ModuleManager" }
     ],
     "suggests" : [

@@ -1,0 +1,16 @@
+{
+    "$kref": "#/ckan/kerbalstuff/590",
+    "spec_version": "v1.4",
+    "identifier": "TerrestrialPlanetPack",
+    "license": "CC-BY-NC-SA-4.0",
+	"depends" : [ { "name" : "KopernicusTech" },
+					{ "name" : "ModuleManager" },
+					{ "name" : "DDSLoader" } ],
+	"provides": [ "PlanetPack" ],
+	"conflicts": [ { "name" : "PlanetPack" } ],
+	"install" :	[ { "find" : "TerrestrialPlanetPack",
+					"install_to" : "GameData" },
+					{ "find" : "KittopiaSpace",
+						"install_to" : "GameData",
+						"filter" : [ "Help.cr_help", "StarFix.cfg", "plugins" ] } ]
+}

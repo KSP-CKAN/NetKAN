@@ -1,0 +1,12 @@
+{
+    "$kref": "#/ckan/kerbalstuff/659",
+    "spec_version": "v1.4",
+    "identifier": "NetherdyneRnD",
+    "license": "CC-BY-4.0",
+	"depends" : [ { "name" : "CivilianPopulation" },
+					{ "name" : "Regolith" },
+					{ "name" : "CommunityResourcePack" },
+					{ "name" : "HangarExtender" } ],
+	"install" : [ { "file" : "NetherdyneRnD/GameData/NetherdyneRnD",
+					"install_to" : "GameData" } ]
+}

@@ -1,5 +1,5 @@
 {
-    "spec_version"   : "v1.2",
+    "spec_version"   : "v1.4",
     "$kref"          : "#/ckan/github/KSP-RO/RealismOverhaul",
     "$vref"          : "#/ckan/ksp-avc",
     "name"           : "Real Plume",
@@ -11,20 +11,21 @@
 		{ "name" : "RealismOverhaul" },
 		{ "name" : "SmokeScreen" }
     ],
+	"conflicts" : [ { "name" : "HotRockets" } ],
     "resources" : {
         "homepage" : "http://forum.kerbalspaceprogram.com/threads/99966"
     },
     "install" : [
         {
-            "file"       : "RealismOverhaul/SmokeScreen_EffectCfgs",
+            "find"       : "SmokeScreen_EffectCfgs",
             "install_to" : "GameData/RealismOverhaul"
         },
         {
-            "file"       : "RealismOverhaul/SmokeScreen_MP_Nazari_FX",
+            "find"       : "SmokeScreen_MP_Nazari_FX",
             "install_to" : "GameData/RealismOverhaul"
         },
         {
-            "file"       : "RealismOverhaul/SmokeScreen_RE_Sounds",
+            "find"       : "SmokeScreen_RE_Sounds",
             "install_to" : "GameData/RealismOverhaul"
         }
     ]

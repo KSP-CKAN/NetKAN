@@ -1,0 +1,16 @@
+{
+    "identifier": "CivilianPopulation",
+    "x_via": "Automated KerbalStuff CKAN submission",
+    "spec_version": "v1.4",
+    "$kref": "#/ckan/kerbalstuff/620",
+    "name": "Civilian Population",
+    "license": "GPL-3.0",
+	"install": [
+		{ "find": "CivilianManagement", "install_to": "GameData", "filter": ["Regolith.dll", "CivilianManagement.pdb"] }
+	],
+	"depends": [
+		{ "name": "CommunityResourcePack" },
+		{ "name": "ModuleManager"},
+		{ "name": "Regolith"}
+	]
+}

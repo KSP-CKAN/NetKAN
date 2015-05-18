@@ -1,0 +1,14 @@
+{
+    "spec_version" : 1,
+    "identifier"   : "simplewings",
+    "$kref"        : "#/ckan/kerbalstuff/123",
+	
+	"license"      : "restricted",
+	
+	"install": [
+        {
+            "file"       : "GameData/Kerbice Group",
+            "install_to" : "GameData"
+        }
+	]
+}

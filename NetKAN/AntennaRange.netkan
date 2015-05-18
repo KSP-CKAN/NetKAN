@@ -3,7 +3,6 @@
     "identifier"    : "AntennaRange",
     "$kref"         : "#/ckan/kerbalstuff/254",
     "license"       : "BSD-3-clause",
-    "ksp_version"   : "0.90",
     "install": [
         {
             "file": "GameData/AntennaRange",
@@ -12,6 +11,7 @@
     ],
     "depends": [
         { "name": "ModuleManager" },
-        { "name": "ToadicusTools" }
+        { "name": "ToadicusTools" },
+	{ "name": "EVAManager" }
     ]
 }

@@ -1,14 +1,25 @@
 {
-    "spec_version" : 1,
-    "identifier"   : "TacFuelBalancer",
-    "$kref"        : "#/ckan/github/taraniselsu/TacFuelBalancer",
-    "name"         : "TAC Fuel Balancer",
-    "author"       : "Taranis Elsu",
-    "abstract"     : "It transfers, it balances, it mixes, it stirs!",
-    "license"      : "CC-BY-NC-SA-3.0",
-    "ksp_version"  : "0.25",
-    "resources"      : {
-        "homepage"   : "http://forum.kerbalspaceprogram.com/threads/25823-0-25-TAC-Fuel-Balancer-v2-4-1-10Oct",
+    "spec_version"   : "v1.2",
+    "identifier"     : "TacFuelBalancer",
+    "name"           : "TAC Fuel Balancer",
+    "author"          : "Taranis Elsu",
+    "abstract"       : "It transfers, it balances, it mixes, it stirs!",
+    "$kref"          : "#/ckan/github/taraniselsu/TacFuelBalancer",
+    "$vref"         : "#/ckan/ksp-avc",
+    "license"        : "CC-BY-NC-SA-3.0",
+    "release_status" : "stable",
+    "suggests" : [
+        {   "name" : "KSP-AVC" }
+    ],
+    "install" : [
+        {
+            "file"          : "GameData/TacFuelBalancer",
+            "install_to"    : "GameData"
+        }
+    ],
+    "resources" : {
+        "homepage" : "http://forum.kerbalspaceprogram.com/threads/25823",
+        "bugtracker" : "https://github.com/taraniselsu/TacFuelBalancer/issues",
         "repository" : "https://github.com/taraniselsu/TacFuelBalancer"
-                       }
+    }
 }

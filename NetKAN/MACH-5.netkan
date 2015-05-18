@@ -1,0 +1,10 @@
+{
+    "identifier": "MACH-5",
+    "x_via": "Automated KerbalStuff CKAN submission",
+    "spec_version": "v1.4",
+    "$kref": "#/ckan/kerbalstuff/587",
+    "license": "MIT",
+	"install": [
+		{ "file": "CrazyFuelTank", "install_to": "GameData" }
+	]
+}

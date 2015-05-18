@@ -2,7 +2,7 @@
     "identifier": "AdvancedJetEngine", 
     "license": "LGPL-2.1", 
     "$kref": "#/ckan/kerbalstuff/462", 
-    "spec_version": 1,
+    "spec_version": "v1.4",
 	"depends" : [
         { "name" : "FerramAerospaceResearch" },
         { "name" : "ModuleManager" }
@@ -12,6 +12,7 @@
         { "name" : "HotRockets" }
     ],
 	"install": [
-		{ "file": "AJE-solver_redo/GameData/AJE", "install_to": "GameData" }
-	]
+		{ "find": "GameData/AJE", "install_to": "GameData" }
+	],
+    "comment": "The full path in the mod archive can change. I.e. it was AJE-2.0.3/GameData/AJE at some point. The CKAN needs to deal with this. Hence using 'find'"
 }

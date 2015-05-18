@@ -2,6 +2,28 @@
 set -x
 set -e
 
+echo Running basic sanity tests on metadata.
+echo If these fail, then fix whatever\'s causing them first.
+ 
+prove
+
+echo "Finding changes to test..."
+
+if [ -z ${ghprbActualCommit} ]
+then
+    echo No commit hash, running all netkan files
+    export COMMIT_CHANGES=NetKAN/*.netkan
+else
+    echo Commit hash: ${ghprbActualCommit}
+    export COMMIT_CHANGES="`git diff --diff-filter=AM --name-only --stat origin/master NetKAN`"
+fi
+
+if [ "${COMMIT_CHANGES}" = "" ]
+then
+    echo "No .netkan changes, skipping further tests."
+    exit 0
+fi
+
 echo Fetching latest ckan.exe
 
 # fetch latest ckan.exe
@@ -20,11 +42,12 @@ then
 fi
 
 mkdir dummy_ksp
-echo Version 0.90.0 > dummy_ksp/readme.txt
+echo Version 1.0.2 > dummy_ksp/readme.txt
 mkdir dummy_ksp/GameData
 mkdir dummy_ksp/Ships/
 mkdir dummy_ksp/Ships/VAB
 mkdir dummy_ksp/Ships/SPH
+mkdir dummy_ksp/Ships/@thumbs
 
 if [ -z ${ghprbActualCommit} ]
 then
@@ -38,15 +61,6 @@ mono --debug ckan.exe ksp default ${KSP_NAME}
 
 echo Running ckan update
 mono --debug ckan.exe update
-
-if [ -z ${ghprbActualCommit} ]
-then
-    echo No commit hash, running all netkan files
-    export COMMIT_CHANGES=NetKAN/*.netkan
-else
-    echo Commit hash: ${ghprbActualCommit}
-    export COMMIT_CHANGES="`git diff --diff-filter=AM --name-only --stat origin/master`"
-fi
 
 echo Running jsonlint on the changed files
 echo If you get an error below you should look for syntax errors in the metadata

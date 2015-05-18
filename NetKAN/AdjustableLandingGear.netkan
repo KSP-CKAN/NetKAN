@@ -3,18 +3,13 @@
     "identifier"   : "AdjustableLandingGear",
     "$kref"        : "#/ckan/kerbalstuff/321",
     "license"      : "CC-BY-SA-3.0",
-
     "depends": [
-        { "name": "BDAnimationModules" },
-        { "name": "FirespitterCore" }
+        { "name": "BDAnimationModules" }
     ],
-
     "install": [
         {
-            "file": "GameData/BahaSP",
-            "install_to": "GameData",
-            "filter": "Plugins",
-            "comment": "Plugins is the folder where BDAnimationModules is installed"
+            "file": "AdjustableLandingGear",
+            "install_to": "GameData"
         }
     ]
 }

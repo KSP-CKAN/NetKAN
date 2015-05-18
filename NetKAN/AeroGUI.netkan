@@ -1,0 +1,13 @@
+{
+    "spec_version" : "v1.4",
+    "identifier"   : "AeroGUI",
+    "$kref"        : "#/ckan/github/NathanKell/AeroGUI",
+    "name"         : "AeroGUI",
+    "abstract"     : "A small GUI that displays aero-related information.",
+    "license"      : "MIT",
+    "ksp_version"  : "1.0",
+	"resources": {
+        "homepage" : "http://forum.kerbalspaceprogram.com/threads/117141",
+        "repository" : "https://github.com/NathanKell/AeroGUI"
+    }
+}

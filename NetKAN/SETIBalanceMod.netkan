@@ -1,9 +1,0 @@
-{
-	"spec_version" : "v1.4",
-	"identifier" : "SETI",
-	"$kref" : "#/ckan/kerbalstuff/484",
-	"$vref" : "#/ckan/ksp-avc",
-	"depends" : [ { "name" : "B9AerospaceProceduralParts" }, { "name" : "ContractConfigurator" }, { "name" : "ContractScienceModifier" }, { "name" : "ModuleManager" }, { "name" : "ProceduralParts" }, { "name" : "StageRecovery" }, { "name" : "StockBugFixModules" } ],
-	"recommends" : [ { "name" : "DockingPortAlignmentIndicator" }, { "name" : "KerbalAlarmClock" }, { "name" : "KerbalEngineerRedux" }, { "name" : "TweakableEverything" }, { "name" : "TweakScale" } ],
-	"install": [ { "file": "SETI", "install_to": "GameData" } ]
-}

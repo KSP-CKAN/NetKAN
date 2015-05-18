@@ -1,5 +1,5 @@
 {
-    "spec_version"   : 1,
+    "spec_version"   : "v1.4",
     "$kref"          : "#/ckan/github/pjf/EngineIgnitor",
     "$vref"          : "#/ckan/ksp-avc",
     "identifier"     : "EngineIgnitor-Unofficial-Repack",
@@ -9,19 +9,19 @@
     "license"        : "MIT",
     "release_status" : "stable",
     "depends" : [
-        { "name" : "RealFuels" },
         { "name" : "ModuleManager" }
     ],
-    "suggests" : [
-        { "name" : "RealismOverhaul" }
-    ],
+	"suggests": [ { "name" : "RealFuels" },
+					{ "name" : "KAS" },
+					{ "name" : "RasterPropMonitor" },
+					{ "name" : "RealismOverhaul" } ],
     "provides" : [ "EngineIgnitor" ],
     "resources" : {
         "homepage" : "http://forum.kerbalspaceprogram.com/threads/51880"
     },
     "install" : [
         {
-            "file" : "EngineIgnitor-3.4.1.1/GameData/EngineIgnitor",
+            "find"       : "EngineIgnitor",
             "install_to" : "GameData"
         }
     ]

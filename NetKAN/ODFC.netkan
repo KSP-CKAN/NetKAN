@@ -1,0 +1,42 @@
+{
+    "spec_version"   : "v1.2",
+    "author"         : "Orum",
+    "name"           : "On Demand Fuel Cells [ODFC]",
+    "identifier"     : "ODFC",
+    "$kref"          : "#/ckan/kerbalstuff/596",
+    "license"        : "unknown",
+    "release_status" : "stable",
+    "x_netkan_license_ok": true,
+    "resources" : {
+        "homepage"     : "http://forum.kerbalspaceprogram.com/threads/110694"
+    },
+    "install" : [
+        {
+            "file"       : "GameData/Okram",
+            "install_to" : "GameData",
+            "filter_regexp" : [
+               "Agencies",
+               "Flags"
+            ]
+        },
+        {
+            "file"       : "DocsForModders",
+            "install_to" : "GameData/Okram/ODFC"
+        },
+        {
+            "file"       : "Licenses",
+            "install_to" : "GameData/Okram/ODFC"
+        },
+        {
+            "file"       : "PluginSrc",
+            "install_to" : "GameData/Okram/ODFC"
+        },
+        {
+            "file"       : "faq.txt",
+            "install_to" : "GameData/Okram/ODFC"
+        }
+    ],
+	 "recommends" : [
+        { "name" : "OkramSA" }
+    ]
+}

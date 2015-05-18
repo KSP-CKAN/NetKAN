@@ -1,18 +1,9 @@
 {
     "spec_version"   : 1,
-    "name"           : "RasterPropMonitor",
     "identifier"     : "RasterPropMonitor",
-    "$kref"          : "#/ckan/github/Mihara/RasterPropMonitor",
-    "author"         : "Mihara",
-    "abstract"       : "Makes Stock IVAs more interactive.",
-    "comment"        : "This package contains the stock IVA patches and the JSI agency.",
+    "$kref"          : "#/ckan/kerbalstuff/734",
+    "author"         : [ "MOARdV", "Mihara" ],
     "license"        : "GPL-3.0",
-    "release_status" : "stable",
-    "$vref"          : "#/ckan/ksp-avc",
-    "resources" : {
-        "homepage" : "http://forum.kerbalspaceprogram.com/threads/57603",
-        "manual" : "https://github.com/Mihara/RasterPropMonitor/wiki"
-    },
     "depends" : [
         { "name" : "ModuleManager" },
         { "name" : "RasterPropMonitor-Core" }

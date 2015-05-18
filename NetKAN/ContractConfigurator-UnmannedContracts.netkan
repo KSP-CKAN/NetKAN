@@ -1,0 +1,28 @@
+{
+    "spec_version"   : "v1.4",
+    "identifier"     : "ContractConfigurator-UnmannedContracts", 
+    "$kref"          : "#/ckan/kerbalstuff/651",
+    "release_status" : "stable",
+    "x_netkan_license_ok" : "true",
+    "resources" : {
+        "homepage"    : "http://forum.kerbalspaceprogram.com/threads/113417-Spacetux-Unmanned-Missions",
+        "kerbalstuff" : "https://kerbalstuff.com/mod/651/Contract%20Pack:%20Unmanned%20Contracts",
+	"repository"  : "https://github.com/linuxgurugamer/UnmannedContracts"
+    },
+    "depends" : [
+        { "name": "CoherentContracts" },
+        { "name": "ContractConfigurator" },
+        { "name": "ModuleManager" },
+        { "name": "SpacetuxSA" }
+    ],
+    "install" : [
+        {
+            "find"       : "UnmannedContracts",
+            "install_to" : "GameData/ContractPacks/Spacetux"
+        }
+    ],
+    "recommends" : [
+        { "name" : "ContractConfigurator-AdvancedProgression" }
+    ]
+
+}

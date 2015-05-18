@@ -1,0 +1,13 @@
+{
+    "$kref": "#/ckan/kerbalstuff/662",
+    "spec_version": "v1.4",
+    "identifier": "ProceduralParts-Extended",
+    "license": "GPL-3.0",
+	"depends" :	[ { "name" : "ProceduralParts"}],
+	"install" : [ { "find" : "77Industries",
+					"install_to" : "GameData" },
+				{ "find" : "ProceduralParts",
+				"install_to" : "GameData",
+				"filter" : [ "Licence.txt", "Optional texture-put in Parts folder" ],
+				"comment" : "The optional texture requires overwriting an already existing PP texture and is therefore excluded" } ]
+}

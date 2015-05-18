@@ -2,10 +2,10 @@
     "spec_version" : 1,
     "identifier"   : "PilotAssistant",
     "$kref"        : "#/ckan/github/Crzyrndm/Pilot-Assistant",
+	"$vref"          : "#/ckan/ksp-avc",
     "name"         : "Pilot Assistant",
-    "abstract"     : "Helpful tool wich controls planes' altitude and heading via autopilot or custom SAS",
-    "license"      : "CC-BY-4.0",
-    "ksp_version"  : "0.90",
+    "abstract"     : "Helpful tool which controls planes altitude, heading, and airspeed via autopilot or custom SAS",
+    "license"      : "CC-BY-SA-4.0",
    "resources" : {
         "homepage" : "http://forum.kerbalspaceprogram.com/threads/100073"
     },

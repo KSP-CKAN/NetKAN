@@ -6,6 +6,7 @@ use parent 'Exporter';
 
 use FindBin qw($Bin);
 use JSON::Any;
+use Test::More;
 
 our @EXPORT_OK = qw(netkan_files read_netkan licenses);
 
@@ -20,8 +21,13 @@ sub netkan_files {
 
     my %files;
 
-    foreach my $filename (glob("$Bin/../NetKAN/*.netkan")) {
+    foreach my $filename (glob(qq{"$Bin/../NetKAN/*.netkan"})) {
         my ($shortname) = ($filename =~ m{([^/]+)\.netkan$});
+
+        if (!$shortname) {
+            diag "Skipping oddly named file - $filename\n";
+            next;
+        }
 
         $files{$shortname} = $filename;
     }

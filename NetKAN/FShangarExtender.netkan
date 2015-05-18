@@ -2,5 +2,7 @@
 	"spec_version"	: 1,
 	"identifier"	: "FShangarExtender",
 	"$kref"        	: "#/ckan/kerbalstuff/18",
-	"license"		: "CC-BY-4.0"
+	"license"		: "CC-BY-4.0",
+	"ksp_version"	: "0.90",
+	"abstract"		: "Please use the other Hangar Extender mod, this is the wrong one"
 }

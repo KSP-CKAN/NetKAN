@@ -6,5 +6,8 @@
     "$vref"          : "#/ckan/ksp-avc",
     "resources"      : {
         "repository" : "https://github.com/StupidChris/RealChute"
-    }
+    },
+    "depends" : [
+        { "name" : "ModuleManager", "min_version" : "2.6.0" }
+    ]
 }

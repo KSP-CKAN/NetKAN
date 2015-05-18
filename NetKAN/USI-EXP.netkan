@@ -7,7 +7,7 @@
     "abstract"       : "PackRat Rover and parts geared towards planetary exploration",
     "license"        : "CC-BY-NC-SA",
     "release_status" : "stable",
-    "ksp_version"    : "0.90",
+	"ksp_version" : "1.0",
     "resources" : {
         "homepage" : "http://forum.kerbalspaceprogram.com/threads/86695"
     },
@@ -22,15 +22,11 @@
         },
         {
           "name": "USITools",
-          "min_version": "0.2.4"
+          "min_version": "0.4.0"
         },
         {
           "name": "CommunityResourcePack",
           "min_version": "0.2.3"
-        },
-        {
-          "name": "Regolith",
-          "min_version": "0.1.0"
         },
         {
           "name": "ModuleRCSFX"

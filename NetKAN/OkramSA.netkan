@@ -1,0 +1,24 @@
+{
+    "spec_version"   : "v1.2",
+    "author"         : "Orum",
+    "name"           : "Okram Shared Assets",
+    "abstract"       : "Shared assets (flags & agency) for use with various Okram Industries mods",
+    "identifier"     : "OkramSA",
+    "$kref"          : "#/ckan/github/Orum/OkramSharedAssets",
+    "license"        : "unknown",
+    "release_status" : "stable",
+    "x_netkan_license_ok": true,
+    "resources" : {
+        "repository"   : "https://github.com/Orum/OkramSharedAssets"
+    },
+    "install" : [
+        {
+            "file"       : "Agencies",
+            "install_to" : "GameData/Okram"
+        },
+        {
+            "file"       : "Flags",
+            "install_to" : "GameData/Okram"
+        }
+    ]
+}

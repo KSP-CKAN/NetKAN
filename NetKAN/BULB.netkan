@@ -1,0 +1,15 @@
+{
+    "spec_version" : "v1.4",
+    "identifier"   : "BULB",
+    "$kref"        : "#/ckan/kerbalstuff/170",
+    "x_netkan_license_ok": true,
+    "install" : [
+        {
+            "file"       : "GameData/AquilaEnterprises",
+            "install_to" : "GameData"
+        }
+    ],
+    "depends" : [
+        { "name" : "ModuleManager", "min_version" : "2.5.9" }
+    ]
+}

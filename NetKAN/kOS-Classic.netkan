@@ -1,0 +1,8 @@
+{
+    "identifier": "kOS-Classic",
+    "license": "GPL-3.0",
+    "$kref": "#/ckan/kerbalstuff/702",
+    "spec_version": "v1.4",
+	"install" :	[ { "file" : "kOS",
+				"install_to" : "GameData" } ]
+}

@@ -5,7 +5,7 @@
     "license"      : "BSD-3-clause",
 	"install": [
         {
-            "file"       : "GameData/DMagic Orbital Science",
+            "file"       : "GameData/DMagicOrbitalScience",
             "install_to" : "GameData"
         }
     ],
@@ -19,7 +19,13 @@
 	],
 	"suggests": [
 	{
-	  "name": "CustomBiomes"
+	  "name": "CapCom"
+	},
+	{
+	  "name": "ContractRewardModifier"
+	},
+	{
+	  "name": "OuterPlanetsMod"
 	},
 	{
 	  "name": "UniversalStorage"

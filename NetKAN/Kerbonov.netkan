@@ -1,0 +1,8 @@
+{
+    "spec_version": "v1.4",
+    "$kref": "#/ckan/kerbalstuff/732",
+    "license": "CC-BY-SA-3.0",
+    "identifier": "Kerbonov",
+	"install"	:	[ { "find" : "SH_mods",
+						"install_to" : "GameData" } ]
+}

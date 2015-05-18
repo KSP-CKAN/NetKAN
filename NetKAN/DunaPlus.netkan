@@ -1,0 +1,14 @@
+{
+    "$kref": "#/ckan/kerbalstuff/690",
+    "spec_version": "v1.4",
+    "identifier": "DunaPlus",
+    "license": "CC-BY",
+	"depends" : [ { "name" : "KopernicusTech" },
+					{ "name" : "ModuleManager" } ],
+	"suggests":	[ {	"name" : "EvePlus" } ],
+	"install" :	[ { "find" : "DunaPlus",
+					"install_to" : "GameData" },
+					{ "find" : "KittopiaSpace",
+						"install_to" : "GameData",
+						"filter" : [ "Help.cr_help", "StarFix.cfg", "plugins" ] } ]
+}

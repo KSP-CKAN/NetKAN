@@ -11,8 +11,10 @@
 	"provides"  : [ "AerodynamicModel", "FAR" ],
 	"conflicts" : [ { "name" : "AerodynamicModel" } ],
 	
-    "depends" : [ { "name" : "ModuleManager" } ],
-    "suggests" : [ { "name" : "KerbalIspDifficultyScaler" }],
+    "depends" : [
+    	{ "name" : "ModuleManager" },
+    	{ "name" : "ModularFlightIntegrator" }
+    ],
     "install" : [
         {
             "file"       : "GameData/FerramAerospaceResearch",

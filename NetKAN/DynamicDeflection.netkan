@@ -1,0 +1,19 @@
+{
+    "spec_version" : 1,
+    "identifier"   : "DynamicDeflection",
+    "$kref"        : "#/ckan/github/Crzyrndm/DynamicControls",
+    "name"         : "Dynamic Deflection",
+    "abstract"     : "Configure maximum control surface deflection to vary with dynamic pressure",
+    "license"      : "GPL-3.0",
+	"$vref" : "#/ckan/ksp-avc",
+	
+	"resources" : {
+        "homepage" : "http://forum.kerbalspaceprogram.com/threads/116888"
+    },
+    "install" : [
+        {
+            "file"       : "GameData/Dynamic Controls",
+            "install_to" : "GameData"
+        }
+    ]
+}

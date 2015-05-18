@@ -1,0 +1,16 @@
+{
+    "$kref": "#/ckan/kerbalstuff/683",
+    "spec_version": 1,
+    "identifier": "MoonRocketfromTinTin",
+    "license": "CC-BY-NC-4.0",
+	"install": [ 
+				{ 
+					"file" : "HM",
+					"install_to" : "GameData" 
+				},
+				{
+					"file" : "Ships",
+					"install_to" : "Ships"
+				}
+			]
+}

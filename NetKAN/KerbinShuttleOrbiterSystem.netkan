@@ -1,0 +1,19 @@
+{
+    "identifier": "KerbinShuttleOrbiterSystem",
+    "x_via": "Automated KerbalStuff CKAN submission",
+    "spec_version": "v1.4",
+    "$kref": "#/ckan/kerbalstuff/591",
+    "license": "GPL-3.0",
+	"depends": [
+		{ "name": "ModuleManager" },
+		{ "name": "FirespitterCore" },
+		{ "name": "RasterPropMonitor-Core" },
+		{ "name": "KlockheedMartian-Gimbal" },
+		{ "name": "SmokeScreen" }
+	],
+	"install": [
+		{ "file": "KSOS_v413_All/GameData/KSO", "install_to": "GameData" },
+		{ "file": "KSOS_v413_All/Ships/SPH", "install_to": "Ships" },
+		{ "file": "KSOS_v413_All/Ships/VAB", "install_to": "Ships" }
+	]
+}

@@ -1,0 +1,20 @@
+{
+    "$kref": "#/ckan/kerbalstuff/540",
+    "identifier": "SerialIO-MacLinuxWin",
+    "x_via": "Automated KerbalStuff CKAN submission",
+    "license": "GPL-3.0",
+    "spec_version": 1,
+
+	"install": [
+		{
+			"file": "KSPSerialIO",
+			"install_to": "GameData"
+		}
+	],
+
+	"conflicts": [ 
+		{
+			"name": "SerialIO" 
+		}
+	]
+}

@@ -1,0 +1,11 @@
+{
+    "spec_version": "v1.4",
+    "$kref": "#/ckan/kerbalstuff/717",
+    "license": "CC-BY-NC-SA-4.0",
+    "identifier": "CryoEngines",
+	"depends"	:	[ { "name" : "InterstellarFuelSwitch" },
+					{ "name" : "CommunityResourcePack" },
+					{ "name" : "ModuleManager" } ],
+	"install"	: 	[ { "find" : "CryoEngines",
+						"install_to" : "GameData" } ]
+}

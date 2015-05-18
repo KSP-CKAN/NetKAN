@@ -1,0 +1,27 @@
+{
+    "spec_version"   : "v1.4",
+    "identifier"     : "Kopernicus",
+    "$kref"          : "#/ckan/github/BryceSchroeder/Kopernicus",
+    "name"           : "Kopernicus Planetary System Modifier",
+    "abstract"       : "Kopernicus Planetary System Modifier",
+    "description"    : "Kopernicus Planetary System Modifier",
+    "release_status" : "development",
+    "license"        : "LGPL-2.0",
+    "author"         : "BryceSchroeder",
+    "resources"      : {
+        "homepage"   : "http://forum.kerbalspaceprogram.com/threads/88168",
+        "repository" : "http://github.com/BryceSchroeder/Kopernicus"
+    },
+    "depends": [
+        {
+            "name": "Kopernicus-Config"
+        }
+    ],
+    "install": [
+        {
+            "find"       : "Kopernicus",
+            "install_to" : "GameData",
+            "filter"     : [ "System.cfg" ]
+        }
+    ]
+}

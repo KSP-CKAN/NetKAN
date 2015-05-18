@@ -1,0 +1,14 @@
+{
+    "spec_version" : 1,
+    "$kref"        : "#/ckan/kerbalstuff/592",
+    "identifier"   : "KAINET",
+    "license"      : "Apache-2.0",
+    "x_todo_1"     : "Add Infernal robotics rework when available through CKAN",
+    "x_todo_2"     : "Add Probe Science patches when available through CKAN",
+    "recommends"   : [
+        { "name" : "ContractConfigurator" },
+        { "name" : "ContractConfigurator-InitialContracts" },
+        { "name" : "InfernalRobotics" },
+        { "name" : "ShipManifest" }
+    ]
+}

@@ -7,8 +7,10 @@
 	"install" : [
 	{
 		"file"		:	"GameData/FASA",
-		"install_to":	"GameData"
+		"install_to":	"GameData",
+		"filter"	:	"Plugins"
 	}],
+	"depends"	:	[ { "name" : "ReflectionPlugin" } ],
     "conflicts" : [
         { "name": "FASALaunchClamps" }
     ]

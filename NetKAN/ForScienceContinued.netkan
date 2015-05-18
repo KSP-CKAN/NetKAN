@@ -4,7 +4,8 @@
     "identifier": "ForScienceContinued",
     "license": "CC-BY-SA-4.0",
     "spec_version": "v1.4",
+	"depends" :	[ { "name" : "KerboKatzUtilities" } ],
 	"install": [
-		{ "file": "GameData/ForScience", "install_to": "GameData" }
+		{ "file": "GameData/KerboKatz/ForScienceContinued", "install_to": "GameData/KerboKatz" }
 	]
 }
