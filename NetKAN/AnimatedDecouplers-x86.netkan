@@ -11,7 +11,7 @@
     },
     "install": [
         {
-            "file"       : "AnimatedDecouplers/GameData/AnimatedDecouplers",
+            "file"       : "GameData/AnimatedDecouplers",
             "install_to" : "GameData"
         }
     ],
