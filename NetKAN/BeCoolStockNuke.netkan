@@ -1,0 +1,21 @@
+{
+    "$kref"       : "#/ckan/kerbalstuff/813",
+    "spec_version": "v1.4",
+    "license"     : "BSD",
+    "identifier"  : "BeCoolStockNuke",
+
+    "install"     : [
+        { 
+            "file"       : "UberDyneAstronautics",
+            "install_to" : "GameData"
+        } 
+    ],
+    "depends"     : [
+        { "name"       : "ModuleManager"
+        }
+    ],
+    "resources"   : {
+        "kerbalstuff"  : "https://kerbalstuff.com/mod/813/Be%20Cool%20Stock%20Nuke"
+    }
+}
+
