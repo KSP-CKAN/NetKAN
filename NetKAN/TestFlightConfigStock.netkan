@@ -23,7 +23,7 @@
         { "name" : "TestFlight", "min_version" : "1.3.0" }
     ],
     "provides" : [
-    	[ "TestFlightConfig" ]
+    	"TestFlightConfig"
     ],
     "conflicts" : [
     	{ "name" : "TestFlightConfig" }
