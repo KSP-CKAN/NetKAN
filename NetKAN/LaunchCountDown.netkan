@@ -1,0 +1,9 @@
+{
+    "spec_version" : 1,
+    "identifier"   : "LaunchCountDown",
+    "$kref"        : "#/ckan/kerbalstuff/102",
+	  "license": "CC-BY-3.0",
+    "depends": [
+        { "name": "ModuleManager" },
+    ]
+}
