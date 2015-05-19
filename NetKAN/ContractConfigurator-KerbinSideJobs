@@ -7,7 +7,7 @@
     "depends": [
         { "name": "ContractConfigurator" },
         { "name": "KerbinSide" }
-    ]
+    ],
     "install" : [
        {
            "file" : "GameData/ContractPacks/KerbinSideJobs",
