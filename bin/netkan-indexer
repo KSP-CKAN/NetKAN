@@ -1,0 +1,138 @@
+#!/usr/bin/perl
+use 5.010;
+use strict;
+use warnings;
+use autodie qw(:all);
+use File::Basename qw(basename);
+use FindBin qw($Bin);
+use File::chdir;
+use File::Path 'rmtree';
+use Try::Tiny;
+use HTTP::Tiny;
+use Log::Tiny;
+
+# Convert KerbalStuff and GitHub releases into CKAN metadata!
+# It's the Networked Kerbal Archive Network. (NetKAN) :)
+
+our $DEBUG = 0;
+if ($ARGV[0]) {
+    $DEBUG = 1 if $ARGV[0] eq '--debug';
+}
+
+my $NETKAN_DATA = "$ENV{HOME}/.NetKAN";
+my $NETKAN_DIR = "$Bin/../NetKAN";
+my $CKAN_META  = "$NETKAN_DATA/CKAN-meta";
+
+if ( ! -d $NETKAN_DATA ) {
+    mkdir $NETKAN_DATA;
+}
+if ( ! -d "$NETKAN_DATA/cache" ) {
+    mkdir "$NETKAN_DATA/cache";
+}
+
+my $log = Log::Tiny->new( "$NETKAN_DATA/NetKAN.log" );
+
+my $token;
+if ( -e "$NETKAN_DATA/github.token" ) {
+    # This makes the brash assumption there is just a token
+    # string in the first line of the file.
+    open(my $fh, "<", "$NETKAN_DATA/github.token");
+    $token = <$fh>;
+}
+
+# Update our External Dependencies
+mirror_file( "http://ci.ksp-ckan.org:8080/job/NetKAN/lastSuccessfulBuild/artifact/netkan.exe", "$NETKAN_DATA/netkan.exe" );
+mirror_file( "https://raw.githubusercontent.com/KSP-CKAN/CKAN/master/bin/ckan-validate.py", "$NETKAN_DATA/ckan-validate.py" );
+mirror_file( "https://raw.githubusercontent.com/KSP-CKAN/CKAN/master/CKAN.schema", "$NETKAN_DATA/CKAN.schema" );
+
+# Make them executable
+chmod 0755, "$NETKAN_DATA/netkan.exe";
+chmod 0755, "$NETKAN_DATA/ckan-validate.py";
+
+# Get Fresh MetaData
+chdir($NETKAN_DATA);
+if (-d "CKAN-meta/") {
+  $log->DEBUG("Removing CKAN-meta") if $DEBUG;
+  rmtree("CKAN-meta");
+}
+system("git", "clone", "--recursive", 'git@github.com:KSP-CKAN/CKAN-meta');
+
+# Download NetKAN Meta Data
+chdir($NETKAN_DIR);
+system("git", "pull", "-X", "theirs");
+
+foreach my $file (glob("*.netkan")) {
+    my $basename = basename($file,  ".netkan");
+
+    $log->DEBUG("Downloading metadata for $basename...") if $DEBUG;
+    
+    if (! -d "$CKAN_META/$basename" ) {
+        mkdir "$CKAN_META/$basename";
+    }
+    
+    # TODO: It'd be nice to catch the errors and report them or at least log them.
+    try {
+        if ($token) {
+            system("$NETKAN_DATA/netkan.exe", "--outputdir=$CKAN_META/$basename",  "--cachedir=$NETKAN_DATA/cache", "--github-token=$token" , $file);
+        }
+        else {
+            system("$NETKAN_DATA/netkan.exe", "--outputdir=$CKAN_META/$basename",  "--cachedir=$NETKAN_DATA/cache", $file);
+        }
+    }
+    catch {
+        $log->WARN("Processing $file FAILED");
+    };
+}
+
+# Process Chagnes
+chdir($CKAN_META);
+system("git", "add", "-A");
+my @changes = `git diff --name-only --stat origin/master`;
+chomp(@changes);
+
+foreach my $changed (@changes) {
+    if ( ! validate("$CKAN_META/$changed") ) {
+        $log->WARN("Failed to Parse $changed");
+        system("git", "reset", $changed);
+    }
+    else {
+        $log->INFO("Commiting $changed");
+        system("git", "commit", $changed, "-m", "'NetKAN generated mods - $changed'");
+    }
+}
+
+unless  ($DEBUG) {
+    system("git", "pull", "-X", "ours");
+    system("git", "push");
+}
+
+# Shortcuts
+sub mirror_file {
+    my ($url, $output) = @_;
+    my $http = HTTP::Tiny->new( timeout => 15, verify_SSL => 1 );
+    my $response = $http->mirror( $url, $output );
+  
+    if ( ! $response->{success} ) {
+        $log->WARN("Downloading '$url' failed: $response->{reason}");
+    }
+}
+
+sub validate {
+    my ($file) = @_;
+    local $CWD = $NETKAN_DATA;
+
+    my $return; # Return in finally will not return out of the Sub, just itself.
+    try {
+        system("python", "ckan-validate.py", "$file");
+    } 
+    finally {
+        if (@_) {
+            $log->DEBUG(@_);
+            $return = 0;
+        }
+        else {
+            $return = 1;
+        }
+    };
+    return $return;
+}
