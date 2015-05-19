@@ -2,13 +2,10 @@
     "$kref": "#/ckan/kerbalstuff/812",
     "spec_version": "v1.4",
     "license": "BSD-3-clause",
-    "identifier": "KerbinSideJobs",
+    "identifier": "ContractConfigurator-KerbinSideJobs",
     "name": "Contract Pack: Kerbin-Side Jobs",
     "depends" : [
         { "name" : "ContractConfigurator" },
-        { "name" : "KerbalKonstructs" }
-    ],
-    "recommends" [
         { "name" : "KerbinSide" }
     ],
     "install" : [
@@ -16,5 +13,6 @@
             "file" : "GameData/ContractPacks/KerbinSideJobs",
             "install_to" : "GameData/ContractPacks"
         }
-    ]
+    ], 
+    "x_netkan_license_ok": true
 }
