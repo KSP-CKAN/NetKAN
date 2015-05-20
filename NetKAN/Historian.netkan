@@ -6,7 +6,7 @@
 	
 	"install": [
     {
-      "file"       : "GameData/KSEA/Historian",
+      "file"       : "GameData/KSEA",
       "install_to" : "GameData"
     }
   ]
