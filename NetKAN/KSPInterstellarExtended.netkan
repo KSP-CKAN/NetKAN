@@ -13,7 +13,7 @@
         { "name"         : "CommunityResourcePack" },
         { "name"         : "Toolbar" },
         { "name"         : "InterstellarFuelSwitch" },
-        { "name"         : "Tweakscale"},
+        { "name"         : "TweakScale"},
         { "name"         : "ModuleManager", "min_version" : "2.6.3" }
     ],
     "recommends": [
