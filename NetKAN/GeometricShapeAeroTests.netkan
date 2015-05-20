@@ -3,5 +3,11 @@
     "x_via": "Automated KerbalStuff CKAN submission",
     "identifier": "GeometricShapeAeroTests",
     "spec_version": 1,
-    "license": "MIT"
+    "license": "MIT",
+    "install": [
+        {
+            "file": "AeroScience",
+            "install_to": "GameData"
+        }
+    ]
 }
