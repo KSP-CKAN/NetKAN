@@ -2,6 +2,12 @@
     "x_via": "Automated KerbalStuff CKAN submission",
     "$kref": "#/ckan/kerbalstuff/802",
     "spec_version": 1,
-    "license": "All right reserved.",
-    "identifier": "ElectricThrustEngineETE"
+    "license": "restricted",
+    "identifier": "ElectricThrustEngineETE",
+    "install": [
+        {
+            "file": "GameData/JarDev",
+            "install_to": "GameData"
+        }
+    ]
 }
