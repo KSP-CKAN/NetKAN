@@ -6,8 +6,12 @@
     "spec_version": "v1.4",
     "install": [
 	{
-	    "file": "FW/GameData/Fantom Works", "install_to": "GameData",
-	    "file": "FW/Ships", "install_to": "Ships"
+	    "file": "FW/GameData/Fantom Works",
+	    "install_to": "GameData"
+	},
+	{
+	    "file": "FW/Ships/SPH",
+	    "install_to": "Ships"
 	}
     ]
 }
