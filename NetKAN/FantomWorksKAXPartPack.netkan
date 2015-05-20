@@ -4,5 +4,14 @@
     "x_via": "Automated KerbalStuff CKAN submission",
     "$kref": "#/ckan/kerbalstuff/565",
     "spec_version": "v1.4",
-	"install": [ { "file": "Fantom Works", "install_to": "GameData" } ]
+    "install": [
+	{
+	    "file": "FW/GameData/Fantom Works",
+	    "install_to": "GameData"
+	},
+	{
+	    "file": "FW/Ships/SPH",
+	    "install_to": "Ships"
+	}
+    ]
 }
