@@ -9,5 +9,13 @@
             "file": "Mkerb",
             "install_to": "GameData"
         }
+    ],
+    "depends": [
+        {
+            "name": "CommunityResourcePack"
+        },
+        {
+            "name": "ModuleManager"
+        }
     ]
 }
