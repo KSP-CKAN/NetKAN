@@ -9,7 +9,7 @@
 					{ "name" : "KerbalJointReinforcement" },
 					{ "name" : "AntennaRange" },
 					{ "name" : "ProceduralFairings" } ],
-	"install"	:	[ { "find" : "SquiggySpaceResearch",
+	"install"	:	[ { "find" : "SquiggsySpaceResearch",
 						"install_to" : "GameData",
 						"comment" : ".craft file not included due to demanding installation to a subfolder of Ships" } ]
 }
