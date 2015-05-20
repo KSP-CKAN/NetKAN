@@ -6,7 +6,7 @@
     "license": "CC-BY-NC-SA",
     "install": [
         {
-            "file": "PlanetScrambler.dll",
+            "file": "GameData/PlanetScrambler.dll",
             "install_to": "GameData"
         }
     ]
