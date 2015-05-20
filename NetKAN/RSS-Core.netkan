@@ -1,0 +1,26 @@
+{
+    "spec_version"   : "v1.4",
+    "$kref"          : "#/ckan/github/NathanKell/RealSolarSystem",
+    "$vref"          : "#/ckan/ksp-avc",
+    "name"           : "Real Solar System - Core",
+    "identifier"     : "RSS-Core",
+    "abstract"       : "Core plugin for RealSolarSystem, for the whole RSS experience install Real Solar System",
+    "license"        : "CC-BY-NC-SA",
+    "release_status" : "stable",
+    "depends" : [
+        { "name" : "DDSLoader" }
+    ],
+    "resources" : {
+        "homepage" : "http://forum.kerbalspaceprogram.com/threads/55145"
+    },
+    "install": [
+        {
+            "file"       : "RealSolarSystem/Plugins/RealSolarSystem.dll",
+            "install_to" : "GameData/RealSolarSystem/Plugins"
+        },
+        {
+            "file"       : "RealSolarSystem/Plugins/Icons",
+            "install_to" : "GameData/RealSolarSystem/Plugins"
+        }
+    ]
+}
