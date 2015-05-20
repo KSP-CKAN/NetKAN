@@ -2,6 +2,18 @@
     "$kref": "#/ckan/kerbalstuff/767",
     "x_via": "Automated KerbalStuff CKAN submission",
     "identifier": "epicsuits",
-    "spec_version": 1,
-    "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en_US"
+    "spec_version": "v1.4",
+    "license": "CC-BY-NC-SA-4.0",
+    "depends": [
+        {
+            "name": "TextureReplacer"
+        }
+    ],
+    "install": [
+        {
+            "file": "epic suits",
+            "install_to": "GameData",
+            "filter": ".DS_Store"
+        }
+    ]
 }
