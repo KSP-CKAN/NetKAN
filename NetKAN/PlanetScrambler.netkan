@@ -3,5 +3,11 @@
     "x_via": "Automated KerbalStuff CKAN submission",
     "identifier": "PlanetScrambler",
     "spec_version": 1,
-    "license": "CC-BY-NC-SA"
+    "license": "CC-BY-NC-SA",
+    "install": [
+        {
+            "file": "PlanetScrambler.dll",
+            "install_to": "GameData"
+        }
+    ]
 }
