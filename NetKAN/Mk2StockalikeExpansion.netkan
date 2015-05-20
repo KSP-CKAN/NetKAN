@@ -1,0 +1,10 @@
+{
+    "$kref": "#/ckan/kerbalstuff/790",
+    "spec_version": 1,
+    "license": "CC-BY-NC-SA-4.0",
+    "identifier": "Mk2StockalikeExpansion",
+	"depends"	:	[ { "name" : "KlockheedMartian-Gimbal" },
+					{ "name" : "KineTechAnimation" } ],
+	"install"	:	[ { "find" : "Mk2Expansion",
+						"install_to" : "GameData" } ]
+}
