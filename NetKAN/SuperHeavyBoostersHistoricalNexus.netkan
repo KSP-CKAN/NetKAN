@@ -1,0 +1,13 @@
+{
+    "$kref": "#/ckan/kerbalstuff/781",
+    "spec_version": 1,
+    "x_via": "Automated KerbalStuff CKAN submission",
+    "license": "MIT",
+    "identifier": "SuperHeavyBoostersHistoricalNexus",
+    "install": [
+        {
+            "file": "Nexus",
+            "install_to": "GameData"
+        }
+    ]
+}
