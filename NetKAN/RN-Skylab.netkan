@@ -1,0 +1,20 @@
+{
+    "$kref": "#/ckan/kerbalstuff/50",
+    "spec_version": 1,
+    "identifier": "RN-Skylab",
+    "license": "CC-BY-NC-ND-3.0",
+    "install": [
+      {
+        "file": "GameData/RN_Skylab",
+        "install_to": "GameData"
+      },
+      {
+        "file": "Ships",
+        "install_to": "Ships"
+      }
+    ],
+    "depends" : [
+        { "name" : "FirespitterCore" },
+        { "name" : "ModuleManager" }
+    ]
+}
