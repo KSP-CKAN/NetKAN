@@ -1,6 +1,6 @@
 {
     "$kref": "#/ckan/kerbalstuff/790",
-    "spec_version": 1,
+    "spec_version": "v1.4",
     "license": "CC-BY-NC-SA-4.0",
     "identifier": "Mk2StockalikeExpansion",
 	"depends"	:	[ { "name" : "KlockheedMartian-Gimbal" },
