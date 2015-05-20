@@ -1,0 +1,13 @@
+{
+  "$kref": "#/ckan/kerbalstuff/821",
+  "spec_version": 1,
+  "license": "GPL-3.0",
+  "identifier": "Historian",
+	
+	"install": [
+    {
+      "file"       : "GameData/KSEA/Historian",
+      "install_to" : "GameData"
+    }
+  ]
+}
