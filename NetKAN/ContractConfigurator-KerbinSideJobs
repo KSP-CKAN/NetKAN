@@ -1,0 +1,17 @@
+{
+    "spec_version" : "v1.4",
+    "identifier"   : "KerbinSideJobs",
+    "$kref"        : "#/ckan/kerbalstuff/812",
+    "x_netkan_license_ok": true,
+    
+    "depends": [
+        { "name": "ContractConfigurator" },
+        { "name": "KerbinSide" }
+    ],
+    "install" : [
+       {
+           "file" : "GameData/ContractPacks/KerbinSideJobs",
+           "install_to" : "GameData/ContractPacks"
+       }
+    ]
+}
