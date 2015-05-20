@@ -6,10 +6,10 @@
     "identifier": "StockFuelSwitch",
     "depends": [
         {
-            "name": "FirespitterCore",
+            "name": "FirespitterCore"
         },
         {
-            "name": "ModuleManager",
+            "name": "ModuleManager"
         }
     ],
     "install": [
