@@ -7,7 +7,12 @@
     "install": [
         {
             "find": "OPT",
-            "install_to": "GameData"
+            "install_to": "GameData",
+            "filter": "License.txt"
+        },
+        {
+            "find": "License.txt",
+            "install_to": "GameData/OPT/LicenseMk3.txt",
         },
         {
             "find": "Ships/SPH",
