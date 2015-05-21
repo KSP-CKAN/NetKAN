@@ -1,0 +1,19 @@
+{
+    "$kref": "#/ckan/kerbalstuff/826",
+    "spec_version": 1,
+    "license": "GPL-3.0",
+    "identifier": "OxidizerFlameanator",
+
+	"resources" : {
+        "homepage"     : "http://forum.kerbalspaceprogram.com/threads/122360"
+    },
+	
+    "install": [
+        {
+            "file"       : "KlearlyAeroSpace",
+            "install_to" : "GameData"
+        }
+    ]
+	
+
+}
