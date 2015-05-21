@@ -7,13 +7,19 @@
     "author"       : "Nertea",
     "$kref"        : "#/ckan/kerbalstuff/351",
     "license"      : "CC-BY-NC-SA-4.0",
+    
     "install" : [
         {
             "file"       : "GameData/NearFutureProps",
             "install_to" : "GameData"
         }
                 ],
- "suggests"     : [
+    
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/52042"
+    },
+    
+    "suggests"     : [
         { "name" : "CommunityTechTree" }
     ]
 }
