@@ -1,7 +1,22 @@
 {
-    "x_via": "Automated KerbalStuff CKAN submission",
     "$kref": "#/ckan/kerbalstuff/810",
-    "spec_version": 1,
-    "license": "GPLv3",
-    "identifier": "A7Corsair2"
+    "spec_version": "v1.2",
+    "license": "GPL-3.0",
+    "identifier": "A7Corsair2",
+    "depends": [
+        { "name" : "AdjustableLandingGear" }
+    ],
+    "suggests": [
+        { "name" : "BDArmory" }
+    ],
+    "install": [
+        {
+            "file"       : "A7CorsairII",
+            "install_to" : "GameData"
+        },
+        {
+            "file"       : "A7 Corsair II.craft",
+            "install_to" : "Ships"
+        }
+    ]
 }
