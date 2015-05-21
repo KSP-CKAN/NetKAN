@@ -1,0 +1,21 @@
+{
+    "spec_version" : 1,
+    "identifier"   : "StarTrekEngines",
+    "$kref"        : "#/ckan/kerbalstuff/640",
+    "license" : "CC-BY-NC-SA-4.0",
+	"depends"	:	[ { "name" : "HotRockets" },
+					{ "name" : "KSPInterstellarExtended" } ],
+	"install": [
+        {
+            "file"       : "GameData/SimianEndeavors",
+            "install_to" : "GameData",
+			"filter"	: "~$engineplan.xlsx",
+            "comment"    : "The parts and models by Bobsyeruncle"
+        },
+        {
+            "file"       : "GameData/StarLionIndustries",
+            "install_to" : "GameData",
+            "comment"    : "The KSPI MM Configs"
+        }
+    ]
+}
