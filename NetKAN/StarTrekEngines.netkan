@@ -9,6 +9,7 @@
         {
             "file"       : "GameData/SimianEndeavors",
             "install_to" : "GameData",
+			"filter"	: "~$engineplan.xlsx",
             "comment"    : "The parts and models by Bobsyeruncle"
         },
         {
