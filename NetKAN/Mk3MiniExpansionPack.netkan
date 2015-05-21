@@ -6,16 +6,16 @@
     "x_netkan_license_ok": true,
     "install": [
         {
-            "find": "OPT",
+            "file": "Mk3_Mini_Expansion_Pack_V1.1.5/GameData/OPT",
             "install_to": "GameData",
             "filter": "License.txt"
         },
         {
-            "find": "License.txt",
+            "file": "Mk3_Mini_Expansion_Pack_V1.1.5/GameData/OPT/License.txt",
             "install_to": "GameData/OPT/LicenseMk3.txt"
         },
         {
-            "find": "Ships/SPH",
+            "find": "Mk3_Mini_Expansion_Pack_V1.1.5/Ships/SPH",
             "install_to": "Ships"
         }
     ]
