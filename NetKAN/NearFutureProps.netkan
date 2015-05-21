@@ -13,7 +13,10 @@
             "install_to" : "GameData"
         }
                 ],
- "suggests"     : [
+	"resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/52042"
+    },
+	"suggests"     : [
         { "name" : "CommunityTechTree" }
     ]
 }
