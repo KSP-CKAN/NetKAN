@@ -3,7 +3,7 @@
     "identifier"   : "StarTrekEngines",
     "$kref"        : "#/ckan/kerbalstuff/640",
     "license" : "CC-BY-NC-SA-4.0",
-	"depends",	:	[ { "name" : "HotRockets" },
+	"depends"	:	[ { "name" : "HotRockets" },
 					{ "name" : "KSPInterstellarExtended" } ],
 	"install": [
         {
