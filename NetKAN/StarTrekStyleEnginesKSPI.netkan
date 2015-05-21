@@ -1,0 +1,18 @@
+﻿{
+    "spec_version" : 1,
+    "identifier"   : "Star-Trek Style Engines for KSPI",
+    "$kref"        : "#/ckan/kerbalstuff/640",
+    "x_netkan_license_ok": true
+	"install": [
+        {
+            "file"       : "GameData/SimianEndeavors",
+            "install_to" : "GameData",
+            "comment"    : "The parts and models by Bobsyeruncle"
+        },
+        {sss
+            "file"       : "GameData/StarLionIndustries",
+            "install_to" : "GameData",
+            "comment"    : "The KSPI MM Configs"
+        }
+    ]
+}
