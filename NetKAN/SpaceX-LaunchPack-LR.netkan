@@ -17,8 +17,7 @@
         "SpaceX-LaunchPack"
     ],
     "conflicts": [
-        { "name" : "SpaceX-LaunchPack-Standard" },
-        { "name" : "SpaceX-LaunchPack-HD" }
+        { "name" : "SpaceX-LaunchPack" }
     ]
 
 }
