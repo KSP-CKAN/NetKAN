@@ -6,8 +6,7 @@
 	"install" :[
         {
             "find"          : "LazTek",
-            "install_to"    : "GameData",
-            "filter_regexp" : "Flags"
+            "install_to"    : "GameData"
         },
         {
             "find"       : "VAB",
