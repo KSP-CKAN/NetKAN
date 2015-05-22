@@ -4,7 +4,10 @@
     "spec_version": "v1.4",
     "$kref": "#/ckan/kerbalstuff/611",
     "license": "MIT",
+	"resources" : {
+        "homepage"     : "http://forum.kerbalspaceprogram.com/threads/111678"
+    },
 	"install": [
 		{ "file": "Solar Science", "install_to": "GameData" }
 	]
-}
+} 

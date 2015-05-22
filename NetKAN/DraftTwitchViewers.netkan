@@ -2,6 +2,10 @@
     "spec_version" : 1,
     "$kref"        : "#/ckan/kerbalstuff/601",
     "identifier"   : "DraftTwitchViewers",
-    "license"      : "CC-BY-SA-3.0"
+    "license"      : "CC-BY-SA-3.0",
+    "resources" : {
+        "homepage"     : "http://forum.kerbalspaceprogram.com/threads/110812",
+        "repository"   : "https://github.com/IRnifty/DraftTwitchViewers"
+    }
 }
 

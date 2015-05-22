@@ -4,6 +4,9 @@
     "identifier": "StarTrekTOSSpaceSuits",
     "name": "Star Trek:TOS colored Space Suits",
     "license": "MIT",
+	"resources" : {
+        "homepage"     : "https://kerbalstuff.com/mod/803/Star%20Trek:%20TOS%20colored%20Space%20Suits%20Pack%20for%20TextureReplacer"
+    },
     "depends": [
         { "name" : "TextureReplacer" }
     ],
