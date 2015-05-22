@@ -14,20 +14,8 @@
     ],
     "install": [
         {
-            "file": "Changelog.txt",
-            "install_to": "GameData/WarpShip"
-        },
-        {
-            "file": "KASA_readme.txt",
-            "install_to": "GameData/WarpShip"
-        },
-        {
-            "file": "LICENSE.txt",
-            "install_to": "GameData/WarpShip"
-        },
-        {
-            "file": "Readme.txt",
-            "install_to": "GameData/WarpShip"
+            "file": "GameData/WarpShip",
+            "install_to": "GameData"
         }
     ]
 }
