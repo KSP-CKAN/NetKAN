@@ -1,0 +1,12 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "Mk2Expansion-Ships",
+    "$kref": "#/ckan/kerbalstuff/790",
+    "license": "CC-BY-4.0",
+    "depends": [
+        { "name": "Mk2Expansion" }
+    ],
+    "install": [
+        { "find": "Ships", "install_to": "Ships" }
+    ]
+}

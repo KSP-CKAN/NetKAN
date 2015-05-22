@@ -1,0 +1,17 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "Mk2Expansion",
+    "$kref": "#/ckan/kerbalstuff/790",
+    "license": "CC-BY-4.0",
+    "depends": [
+        { "name": "KineTechAnimation" },
+        { "name": "KlockheedMartian-Gimbal" },
+        { "name": "ModuleManager", "min_version": "2.5.1" }
+    ],
+    "suggests": [
+        { "name": "InterstellarFuelSwitch" }
+    ],
+    "install": [
+        { "find": "Mk2Expansion", "install_to": "GameData" }
+    ]
+}
