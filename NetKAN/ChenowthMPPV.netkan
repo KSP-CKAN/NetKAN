@@ -1,5 +1,5 @@
 {
-    "spec_version": 1,
+    "spec_version": "v1.2",
     "identifier": "ChenowthMPPV",
     "$kref": "#/ckan/kerbalstuff/824",
     "license": "GPL-3.0",
@@ -7,7 +7,7 @@
         {
             "filter"     : "Thumbs.db",
             "file"       : "DPV",
-            "install_to" : "GameData/ChenowthMPPV",
+            "install_to" : "GameData/ChenowthMPPV"
         },
         {
             "filter"     : "Thumbs.db",
