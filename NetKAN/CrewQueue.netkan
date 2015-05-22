@@ -1,0 +1,20 @@
+{
+    "spec_version" : 1,
+    "identifier"   : "CrewQueue",
+    "$kref"        : "#/ckan/fingerboxes/CrewQueue",
+    "$vref"        : "#/ckan/ksp-avc",
+    "name"         : "Crew Queue",
+    "abstract"     : "Crew Rotation and Variety - This mod is focused around the idea of encouraging the player to keep a deeper roster of crew, and to increase the value of individual experienced crew. ",
+    "license"      : "MIT"
+    
+     "depends": [
+        { "name": "FingerBoxCore" },
+    ]
+    
+     "install": [
+        {
+            "file"       : "GameData/Fingerboxes/CrewQueue",
+            "install_to" : "GameData/Fingerboxes"
+        }
+    ]
+}
