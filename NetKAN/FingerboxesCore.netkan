@@ -1,5 +1,5 @@
 {
-    "spec_version" : "v1.4",
+    "spec_version" : 1,
     "identifier"   : "FingerboxesCore",
     "$kref"        : "#/ckan/github/fingerboxes/CrewQueue",
     "name"         : "Fingerboxes Core Plugin",
@@ -9,7 +9,7 @@
     
         "install": [
         {
-            "find"       : "FingerboxLib.dll",
+            "file"       : "GameData/Fingerboxes/Common/Plugins",
             "install_to" : "GameData/Fingerboxes/Common/Plugins"
         }
     ]
