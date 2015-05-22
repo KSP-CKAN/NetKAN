@@ -10,7 +10,7 @@
         "install": [
         {
             "file"       : "GameData/Fingerboxes/Common/Plugins",
-            "install_to" : "GameData/Fingerboxes/Common/Plugins"
+            "install_to" : "GameData/Fingerboxes/Common"
         }
     ]
 }
