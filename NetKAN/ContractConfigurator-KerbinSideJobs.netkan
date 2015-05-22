@@ -14,5 +14,8 @@
             "install_to" : "GameData/ContractPacks"
         }
     ], 
+	"resources" : {
+        "homepage"     : "http://forum.kerbalspaceprogram.com/threads/82785"
+    },
     "x_netkan_license_ok": true
 }

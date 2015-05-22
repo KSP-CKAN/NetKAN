@@ -3,5 +3,8 @@
     "spec_version": 1,
     "identifier": "MinkTechnologies",
     "x_via": "Automated KerbalStuff CKAN submission",
-    "license": "MIT"
+    "license": "MIT",
+	"resources" : {
+        "homepage"     : "https://kerbalstuff.com/mod/696/Mink%20Technologies"
+    }
 }

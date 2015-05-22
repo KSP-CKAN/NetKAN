@@ -4,6 +4,11 @@
 	"$kref"		:	"#/ckan/kerbalstuff/374",
 	"ksp_version_min":	"0.25",
 	"license"	:	"restricted",
+	
+	"resources" : {
+        "homepage"     : "http://forum.kerbalspaceprogram.com/threads/81754"
+    },
+	
 	"install" : [
 	{
 		"file"	:	"BobCatind",

@@ -6,6 +6,9 @@
     "name"              :   "Procedural Parts",
     "abstract"          :   "ProceduralParts allows you to procedurally generate a number of different parts in a range of sizes and shapes.",
     "license"           :   "CC-BY-SA-3.0",
+	"resources" : {
+        "homepage"     : "https://github.com/Swamp-Ig/ProceduralParts"
+    },
     "recommends" : [ 
         { "name" : "ModuleManager" }
     ],

@@ -4,5 +4,8 @@
     "spec_version": 1,
     "license": "MIT",
     "identifier": "TACLSMining",
-    "depends" : [{"name":"TACLS"}]
+    "depends" : [{"name":"TACLS"}],
+	"resources" : {
+        "homepage"     : "https://kerbalstuff.com/mod/787/TACLS%20Mining"
+    }
 }

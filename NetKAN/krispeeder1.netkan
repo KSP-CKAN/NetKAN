@@ -6,6 +6,10 @@
 	"ksp_version"  : "any",
 	"ksp_version_min" : "0.90",
 	
+	"resources" : {
+        "homepage"     : "https://kerbalstuff.com/mod/657/Speeder-1"
+    },
+	
 	"install": [
         {
             "file"       : "GameData/Kerbice Group",
