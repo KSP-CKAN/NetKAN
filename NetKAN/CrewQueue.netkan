@@ -5,7 +5,7 @@
     "$vref"        : "#/ckan/ksp-avc",
     "name"         : "Crew Queue",
     "abstract"     : "Crew Rotation and Variety - This mod is focused around the idea of encouraging the player to keep a deeper roster of crew, and to increase the value of individual experienced crew. ",
-    "license"      : "MIT"
+    "license"      : "MIT",
     
      "depends": [
         { "name": "FingerBoxCore" },
