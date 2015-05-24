@@ -11,8 +11,48 @@
     ],
     "install": [
         {
-            "file": "epic suits",
-            "install_to": "GameData",
+            "file": "epic suits/EVAtexture.png",
+            "install_to": "GameData/TextureReplacer/Default",
+            "filter": ".DS_Store"
+        },
+        {
+            "file": "epic suits/Red shirt and suit",
+            "install_to": "GameData/TextureReplacer/Suits",
+            "filter": ".DS_Store"
+        },
+        {
+            "file": "epic suits/blue suit",
+            "install_to": "GameData/TextureReplacer/Suits",
+            "filter": ".DS_Store"
+        },
+        {
+            "file": "epic suits/cyan suit",
+            "install_to": "GameData/TextureReplacer/Suits",
+            "filter": ".DS_Store"
+        },
+        {
+            "file": "epic suits/orange suit",
+            "install_to": "GameData/TextureReplacer/Suits",
+            "filter": ".DS_Store"
+        },
+        {
+            "file": "epic suits/purple suit",
+            "install_to": "GameData/TextureReplacer/Suits",
+            "filter": ".DS_Store"
+        },
+        {
+            "file": "epic suits/red suit",
+            "install_to": "GameData/TextureReplacer/Suits",
+            "filter": ".DS_Store"
+        },
+        {
+            "file": "epic suits/white suit",
+            "install_to": "GameData/TextureReplacer/Suits",
+            "filter": ".DS_Store"
+        },
+        {
+            "file": "epic suits/yellow suit",
+            "install_to": "GameData/TextureReplacer/Suits",
             "filter": ".DS_Store"
         }
     ]
