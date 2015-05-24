@@ -54,6 +54,10 @@
             "file": "epic suits/yellow suit",
             "install_to": "GameData/TextureReplacer/Suits",
             "filter": ".DS_Store"
+        },
+        {
+            "file": "epic suits/license and legal.txt",
+            "install_to": "GameData/TextureReplacer/EpicSuitsLicense"
         }
     ]
 }
