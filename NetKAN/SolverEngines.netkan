@@ -9,5 +9,5 @@
 	"depends"		:	[ { "name" : "ModuleAnimateEmissive" } ],
 	"install"		:	[ { "find" : "SolverEngines",
 							"install_to" : "GameData",
-							"filter" : "ModuleAnimateEmissive.dll" } ]
+							"filter" : [ "ModuleAnimateEmissive.dll", "PluginData" ] } 
 }
