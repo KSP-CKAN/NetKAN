@@ -11,15 +11,15 @@
     "install": [
         {
             "find"       : "Agency",
-            "install_to" : "GameData"
+            "install_to" : "GameData/NinjaTechEnterprises"
         },
         {
             "find"       : "Flags",
-            "install_to" : "GameData"
+            "install_to" : "GameData/NinjaTechEnterprises"
         },
         {
             "find"       : "Parts",
-            "install_to" : "GameData"
+            "install_to" : "GameData/NinjaTechEnterprises"
         }
     ]
 }
