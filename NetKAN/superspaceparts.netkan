@@ -1,0 +1,17 @@
+{
+    "spec_version": 1,
+    "$kref": "#/ckan/kerbalstuff/846",
+    "identifier": "superspaceparts",
+    "license": "unrestricted",
+    
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/122462"
+    },
+    
+    "install": [
+        {
+            "file"       : "Super space co",
+            "install_to" : "GameData"
+        }
+    ]
+}
