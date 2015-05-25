@@ -1,0 +1,12 @@
+{
+    "$kref": "#/ckan/kerbalstuff/847",
+    "license": "GPL-3.0",
+    "spec_version": 1,
+    "identifier": "MrFusionmk3",
+    "install" : [
+        {
+            "file"       : "Mr_Fusion_MK1",
+            "install_to" : "GameData"
+        }
+    ]
+}
