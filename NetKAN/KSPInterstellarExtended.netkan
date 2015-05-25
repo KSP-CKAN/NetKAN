@@ -13,7 +13,7 @@
     "depends" : [
         { "name"         : "CommunityResourcePack" },
         { "name"         : "Toolbar" },
-        { "name"         : "InterstellarFuelSwitch" },
+        { "name"         : "InterstellarFuelSwitch", "min_version" : "1.4" },
         { "name"         : "TweakScale"},
         { "name"         : "ModuleManager", "min_version" : "2.6.3" }
     ],
