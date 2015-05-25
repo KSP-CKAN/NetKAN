@@ -1,0 +1,10 @@
+{
+    "$kref": "#/ckan/kerbalstuff/840",
+    "license": "GPL-3.0",
+    "spec_version": 1,
+    "identifier": "F18ASuperHornet",
+	"depends"	:	[ { "name"	:	"AdjustableLandingGear" } ],
+	"recommends"	:	[ { "name" : "BDArmory" } ],
+	"install"		:	[ { "file"	:	"F18A_Hornet",
+							"install_to" : "GameData" } ]
+}
