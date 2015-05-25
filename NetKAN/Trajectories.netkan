@@ -5,6 +5,7 @@
     "x_netkan_license_ok" : true,
 	
 	"depends": [
-        { "name": "ModuleManager" }
+        { "name" : "ModuleManager" },
+		{ "name" : "FerramAerospaceResearch" }
     ]
 }
