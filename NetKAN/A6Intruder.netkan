@@ -1,0 +1,10 @@
+{
+    "$kref": "#/ckan/kerbalstuff/839",
+    "license": "GPL-3.0",
+    "spec_version": 1,
+    "identifier": "A6Intruder",
+	"depends"	:	[ { "name" : "AdjustableLandingGear" },
+					{ "name" : "BDArmory" } ],
+	"install"	:	[ { "file" : "A6Intruder",
+						"install_to" : "GameData" } ]
+}
