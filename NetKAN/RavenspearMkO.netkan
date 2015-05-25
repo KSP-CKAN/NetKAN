@@ -2,7 +2,7 @@
     "$kref": "#/ckan/kerbalstuff/800",
     "spec_version": 1,
     "license": "restricted",
-    "identifier": "RavenspearMkO"
+    "identifier": "RavenspearMkO",
 	"install"	: [ { "find" : "ravenspear",
 					"install_to" : GameData } ]
 }
