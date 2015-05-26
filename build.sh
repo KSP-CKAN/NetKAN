@@ -109,11 +109,11 @@ create_dummy_ksp $KSP_VERSION_DEFAULT $KSP_NAME_DEFAULT
 echo "Running basic sanity tests on metadata."
 echo "If these fail, then fix whatever is causing them first."
 
-#if ! prove
-#then
-    #echo "prove step failed."
-    #exit 1
-#fi
+if ! prove
+then
+    echo "prove step failed."
+    exit 1
+fi
 
 # Find the changes to test.
 echo "Finding changes to test..."
