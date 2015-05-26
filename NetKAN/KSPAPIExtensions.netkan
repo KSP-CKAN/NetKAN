@@ -5,7 +5,7 @@
     "name"         : "KAE - KSPAPIExtensions",
     "abstract"     : "This package contains a bunch of utility methods for general use to modders.",
     "license"      : "CC-BY-3.0",
-    "ksp_version"  : "1.0.2",
+    "ksp_version"  : "0.90",
 	"install" : [
 		{
 			"file" : "KSPAPIExt",
