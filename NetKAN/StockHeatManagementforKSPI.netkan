@@ -13,5 +13,9 @@
             "file"       : "GameData/KSPIHeatManagement",
             "install_to" : "GameData"
         }
-    ]
+    ],
+    
+    "resources": {
+        "homepage": "https://kerbalstuff.com/mod/850/Stock%20Heat%20Management%20for%20KSPI"
+    }
 }
