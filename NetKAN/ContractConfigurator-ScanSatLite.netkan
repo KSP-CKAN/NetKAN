@@ -11,8 +11,8 @@
             "name" : "ContractConfigurator",
             "min_version" : "1.1.0"
         },
-        {   "name" : "SCANsat" },
-        {   "name" : "ModuleManager" }
+        { "name" : "SCANsat" },
+        { "name" : "ModuleManager" }
     ],
     "install" : [
         {
