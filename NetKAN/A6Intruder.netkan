@@ -1,6 +1,6 @@
 {
     "$kref": "#/ckan/kerbalstuff/839",
-    "license": "GPL-3.0",
+    "license": [ "GPL-3.0", "WTFPL" ],
     "spec_version": 1,
     "identifier": "A6Intruder",
 	"depends"	:	[ { "name" : "AdjustableLandingGear" },

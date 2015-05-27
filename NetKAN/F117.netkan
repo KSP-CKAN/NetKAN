@@ -2,7 +2,7 @@
     "spec_version": 1,
     "$kref": "#/ckan/kerbalstuff/848",
     "identifier": "F117",
-    "license": "GPL-3.0",
+    "license": [ "GPL-3.0", "WTFPL" ],
    
     "depends": [
         { "name": "FirespitterCore" },
