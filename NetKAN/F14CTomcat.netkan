@@ -2,7 +2,7 @@
     "spec_version": 1,
     "$kref": "#/ckan/kerbalstuff/849",
     "identifier": "F14CTomcat",
-    "license": [ "GPL-3.0", "WTFPL" ],
+    "license": "WTFPL",
    
     "depends": [
         { "name": "FirespitterCore" },
