@@ -5,19 +5,28 @@
     "name"         : "Contract Pack: SCANSat Lite",
     "abstract"     : "A set of contracts for the SCANSat mod",
     "license"      : "CC-BY-NC-SA-4.0",
-    "ksp_version"  : "1.0.2",
+    "$vref"        : "#/ckan/ksp-avc",
     "depends" : [
-        { "name": "ContractConfigurator" },
-        { "name": "SCANsat" },
-        { "name": "ModuleManager"}
+        {
+            "name" : "ContractConfigurator",
+            "min_version" : "1.1.0"
+        },
+        {
+            "name" : "SCANsat",
+            "min_version" : "v12.0"
+        },
+        {
+            "name" : "ModuleManager",
+            "min_version" : "2.6.1"
+        }
     ],
-	"install" : [
-				{
-				"find" : "ScanSatLite",
-				"install_to" : "GameData/ContractPacks"
-				}
-	],
-	"resources": {
-    "homepage": "http://forum.kerbalspaceprogram.com/threads/120127"
-	}
+    "install" : [
+        {
+            "find" : "ScanSatLite",
+            "install_to" : "GameData/ContractPacks"
+        }
+    ],
+    "resources" : {
+        "homepage"   : "http://forum.kerbalspaceprogram.com/threads/120127"
+    }
 }
