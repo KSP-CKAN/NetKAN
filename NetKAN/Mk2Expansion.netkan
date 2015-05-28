@@ -18,9 +18,7 @@
         },
         {
             "file"        : "Ships",
-            "install_to"  : "Ships",
-            "optional"    : true,
-            "description" : "Mk2 Expansion example craft"
+            "install_to"  : "Ships"
         }
     ]
 }
