@@ -7,8 +7,11 @@
     "license"      : "CC-BY-SA-3.0",
     "$vref"        : "#/ckan/ksp-avc",
     "depends" : [
-        { "name": "ContractConfigurator" },
-        { "name": "ModuleManager" }
+        {
+            "name" : "ContractConfigurator",
+            "min_version" : "0.7.12"
+        },
+        { "name" : "ModuleManager" }
     ],
     "install" : [
         {
@@ -16,7 +19,7 @@
             "install_to" : "GameData/ContractPacks"
         }
     ],
-    "resources": {
-        "homepage": "http://forum.kerbalspaceprogram.com/threads/113642"
+    "resources" : {
+        "homepage" : "http://forum.kerbalspaceprogram.com/threads/113642"
     }
 }
