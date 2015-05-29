@@ -2,10 +2,9 @@
     "spec_version" : 1,
     "identifier"   : "BackgroundProcessing",
     "$kref"        : "#/ckan/kerbalstuff/302",
-    "x_netkan_license_ok" : true,
     "install": [
         {
-            "file"      : "BackgroundProcessing-0.4.0.1.dll",
+            "file"      : "BackgroundProcessing-0.4.1.0.dll",
             "install_to": "GameData"
         }
     ]
