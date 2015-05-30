@@ -1,0 +1,21 @@
+{
+    "identifier": "AntaresCygnus",
+    "spec_version": 1,
+    "$kref": "#/ckan/kerbalstuff/855",
+    "license": "CC-BY-NC-ND-3.0",
+    
+    "install": [
+        {
+            "file"       : "GameData/KK_Antares",
+            "install_to" : "GameData"
+        },
+        {
+            "file"       : "GameData/RN_Cygnus",
+            "install_to" : "GameData"
+        },
+        {
+            "file"       : "Ships",
+            "install_to" : "Ships"
+        }
+    ]
+}
