@@ -1,7 +1,6 @@
 {
     "spec_version": "v1.4",
     "$kref": "#/ckan/kerbalstuff/724",
-    "x_via": "Automated KerbalStuff CKAN submission",
     "license": "MIT",
     "identifier": "ElectricalParts",
     "depends": [
@@ -14,9 +13,8 @@
     ],
     "install": [
         {
-            "file": "GameData/ElectricalEngines",
-            "install_to": "GameData",
-            "filter": "Firespitter.dll"
+            "find": "ElectricalEngines",
+            "install_to": "GameData"
         }
     ]
 }
