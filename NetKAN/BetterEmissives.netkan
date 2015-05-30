@@ -1,0 +1,17 @@
+{
+    "spec_version": 1,
+    "identifier": "BetterEmissives",
+    "$kref": "#/ckan/kerbalstuff/833",
+    "license": "CC-BY-SA-4.0",
+    
+    "depends": [
+        { "name": "ModuleManager" }
+    ],
+    
+    "install": [
+        {
+            "file"       : "GameData/BetterEmissive",
+            "install_to" : "GameData"
+        }
+    ]
+}

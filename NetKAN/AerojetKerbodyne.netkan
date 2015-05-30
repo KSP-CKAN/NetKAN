@@ -12,7 +12,8 @@
     "depends" : [
         { "name" : "FirespitterCore" },
         { "name" : "TweakScale" },
-        { "name" : "VirginKalactic-NodeToggle" }
+        { "name" : "VirginKalactic-NodeToggle" },
+        { "name" : "ModuleManager" }
                 ],
     "recommends" : [
         { "name" : "SmokeScreen" }

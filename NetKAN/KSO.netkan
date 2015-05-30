@@ -15,6 +15,14 @@
         {
             "file"       : "KSO",
             "install_to" : "GameData"
+        },
+        {
+            "file": "KSO_craftfiles/Ships/SPH",
+            "install_to": "Ships"
+        },
+        {
+            "file": "KSO_craftfiles/Ships/VAB",
+            "install_to": "Ships"
         }
     ],
     "depends" : [

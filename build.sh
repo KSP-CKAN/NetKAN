@@ -48,6 +48,8 @@ mkdir dummy_ksp/Ships/
 mkdir dummy_ksp/Ships/VAB
 mkdir dummy_ksp/Ships/SPH
 mkdir dummy_ksp/Ships/@thumbs
+mkdir dummy_ksp/Ships/@thumbs/VAB
+mkdir dummy_ksp/Ships/@thumbs/SPH
 
 if [ -z ${ghprbActualCommit} ]
 then

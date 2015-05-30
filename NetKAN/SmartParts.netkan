@@ -11,6 +11,7 @@
 },
     "install"      : [{
         "file"       : "GameData/SmartParts",
-        "install_to" : "GameData"
+        "install_to" : "GameData",
+        "filter"     : "MiniAVC.xml"
     }]
 }
