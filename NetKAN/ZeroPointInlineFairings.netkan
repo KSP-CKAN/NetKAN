@@ -19,7 +19,7 @@
 		{ "name": "ZeroPointInlineFairings-Lite" }
 	],
     
-    "recommends": [
+    "depends": [
         { "name": "FerramAerospaceResearch"}
     ],
     
