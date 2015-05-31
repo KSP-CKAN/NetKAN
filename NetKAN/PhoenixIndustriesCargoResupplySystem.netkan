@@ -10,5 +10,6 @@
         { "name": "MechJeb2" }
     ],
 	"install"	:	[	{ "find"	:	"CTN",
-						"install_to":	"GameData" } ]
+						"install_to":	"GameData",
+						"filter"	:	"Thumds.db"} ]
 }
