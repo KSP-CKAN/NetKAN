@@ -1,5 +1,5 @@
 {
-    "spec_version": 1,
+    "spec_version": "v1.4",
     "x_netkan_license_ok": true,
     "identifier": "PhoenixIndustriesCargoResupplySystem",
     "license": "CC-BY-NC-SA-4.0",
@@ -8,5 +8,7 @@
     "recommends": [
         { "name": "KIS" },
         { "name": "MechJeb2" }
-    ]
+    ],
+	"install"	:	[	{ "find"	:	"CTN"
+						"install_to":	"GameData" } ]
 }
