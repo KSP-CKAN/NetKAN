@@ -2,7 +2,7 @@
     "identifier": "KerboKatzSmallUtilities",
     "license": "restricted",
     "$kref": "#/ckan/kerbalstuff/704",
-    "spec_version": 1,
+    "spec_version": "v1.2",
 	
 	"recommends"	: [
 					{ "name" : "KerboKatzSmallUtilities-AfterBurner" },
