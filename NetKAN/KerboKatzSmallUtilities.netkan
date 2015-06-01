@@ -4,7 +4,7 @@
     "$kref": "#/ckan/kerbalstuff/704",
     "spec_version": 1,
 	
-	"depends"	:	[ { "name" : "KerboKatzUtilities" },
+	"recommends"	: [
 					{ "name" : "KerboKatzSmallUtilities-AfterBurner" },
 					{ "name" : "KerboKatzSmallUtilities-DisableTempGauges" },
 					{ "name" : "KerboKatzSmallUtilities-EditorCamUtilities" },
