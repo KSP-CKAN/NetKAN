@@ -2,8 +2,18 @@
     "identifier": "KerboKatzSmallUtilities",
     "license": "restricted",
     "$kref": "#/ckan/kerbalstuff/704",
-    "spec_version": "v1.4",
-	"depends"	:	[ { "name" : "KerboKatzUtilities" } ],
-	"install"	:	[ { "find" : "SmallUtilities",
-					 "install_to" : "GameData/KerboKatz" } ]
+    "spec_version": 1,
+	
+	"depends"	:	[ { "name" : "KerboKatzUtilities" },
+					{ "name" : "KerboKatzSmallUtilities-AfterBurner" },
+					{ "name" : "KerboKatzSmallUtilities-DisableTempGauge" },
+					{ "name" : "KerboKatzSmallUtilities-EditorCamUtilities" },
+					{ "name" : "KerboKatzSmallUtilities-FillSpotsWithTourists" },
+					{ "name" : "KerboKatzSmallUtilities-FPSLimiter" },
+					{ "name" : "KerboKatzSmallUtilities-FPSViewer" },
+					{ "name" : "KerboKatzSmallUtilities-ModifiedExplosionPotential" } ],
+
+	"install"	:	[ { "file" : "GameData/KerboKatz/SmallUtilities/SmallUtilities.version",
+						"comment" : "we need to install something",
+					 "install_to" : "GameData/KerboKatz/SmallUtilities" } ]
 }
