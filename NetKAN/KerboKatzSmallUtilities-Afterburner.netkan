@@ -5,5 +5,5 @@
     "license": "restricted",
 	"depends"	:	[ { "name" :	"KerboKatzUtilities" } ],
 	"install"	:	[ { "find"	:	"Afterburner",
-					"install_to" :	"GameData" } ]
+					"install_to" :	"GameData/KerboKatz/SmallUtilities" } ]
 }
