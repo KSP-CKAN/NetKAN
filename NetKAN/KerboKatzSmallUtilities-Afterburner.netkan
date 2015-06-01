@@ -1,0 +1,9 @@
+{
+    "identifier": "KerboKatzSmallUtilities-Afterburner",
+    "spec_version": 1,
+    "$kref": "#/ckan/kerbalstuff/862",
+    "license": "restricted",
+	"depends"	:	[ { "name" :	"KerboKatzUtilities" } ],
+	"install"	:	[ { "find"	:	"Afterburner",
+					"install_to" :	"GameData" } ]
+}
