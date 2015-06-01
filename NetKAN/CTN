@@ -1,0 +1,17 @@
+
+{ 
+    "spec_version": 1, 
+    "x_netkan_license_ok": true, 
+    "identifier": "CTN", 
+    "license": "CC-BY-NC-SA", 
+    "release_status" : "stable", 
+    "$kref": "#/ckan/kerbalstuff/831", 
+    "recommends": [ 
+        { 
+            "name": "KIS" 
+        }, 
+        {
+            "name": "MechJeb2" 
+        }
+    ]
+}
