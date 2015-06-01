@@ -1,0 +1,9 @@
+{
+    "identifier": "KerboKatzSmallUtilities-FPSLimiter",
+    "spec_version": 1,
+    "$kref": "#/ckan/kerbalstuff/866",
+    "license": "restricted",
+	"depends"	:	[ { "name" :	"KerboKatzUtilities" } ],
+	"install"	:	[ { "find"	:	"FPSLimiter",
+					"install_to" :	"GameData" } ]
+}
