@@ -1,0 +1,9 @@
+{
+    "identifier": "KerboKatzSmallUtilities-DisableTempGagues",
+    "spec_version": 1,
+    "$kref": "#/ckan/kerbalstuff/863",
+    "license": "restricted",
+	"depends"	:	[ { "name" :	"KerboKatzUtilities" } ],
+	"install"	:	[ { "find"	:	"DisableTempGagues",
+					"install_to" :	"GameData" } ]
+}

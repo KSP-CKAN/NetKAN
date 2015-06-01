@@ -6,7 +6,7 @@
 	
 	"depends"	:	[ { "name" : "KerboKatzUtilities" },
 					{ "name" : "KerboKatzSmallUtilities-AfterBurner" },
-					{ "name" : "KerboKatzSmallUtilities-DisableTempGauge" },
+					{ "name" : "KerboKatzSmallUtilities-DisableTempGauges" },
 					{ "name" : "KerboKatzSmallUtilities-EditorCamUtilities" },
 					{ "name" : "KerboKatzSmallUtilities-FillSpotsWithTourists" },
 					{ "name" : "KerboKatzSmallUtilities-FPSLimiter" },
