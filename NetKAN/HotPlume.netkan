@@ -9,7 +9,7 @@
     "resources"     : { "homepage" : "https://github.com/Felger/HotPlume/wiki"},
     "install" : [
         {
-            "file"       : "GameData/MP_Nazari/HotPlumeConfigs",
+            "file"       : "GameData/MP_Nazari",
             "install_to" : "GameData"
         }
     ],
