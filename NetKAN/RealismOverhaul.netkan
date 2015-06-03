@@ -74,6 +74,9 @@
 		{ "name" : "UniversalStorage" },
 		{ "name" : "VenStockRevamp"}
     ],
+	"conflicts"	:	[
+		{ "name" : "TweakableEverything" }
+	],
     "provides" : [ "RealFuels-Engine-Configs" ],
     "resources" : {
         "homepage" : "http://forum.kerbalspaceprogram.com/threads/99966"
