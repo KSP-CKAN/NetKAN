@@ -14,8 +14,7 @@
         {
             "file"       : "EuroFighter2000",
             "install_to" : "GameData",
-            "filter"     : "Cockpit",
-            "filter"     : "Thumbs.db"
+            "filter"     : [ "Cockpit", "Thumbs.db" ]
         }
     ]
 }
