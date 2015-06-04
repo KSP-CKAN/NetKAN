@@ -1,0 +1,9 @@
+{
+    "identifier": "KerboKatzSmallUtilities-FillSpotsWithTourists",
+    "spec_version": "v1.4",
+    "$kref": "#/ckan/kerbalstuff/865",
+    "license": "restricted",
+	"depends"	:	[ { "name" :	"KerboKatzUtilities" } ],
+	"install"	:	[ { "find"	:	"FillSpotsWithTourists",
+					"install_to" :	"GameData/KerboKatz/SmallUtilities" } ]
+}
