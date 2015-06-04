@@ -4,7 +4,8 @@
     "license": "GPL-3.0",
     "identifier": "A7Corsair2",
     "depends": [
-        { "name" : "AdjustableLandingGear" }
+        { "name" : "AdjustableLandingGear" },
+        { "name": "AircraftIVAHelmet"}
     ],
     "suggests": [
         { "name" : "BDArmory" }
