@@ -3,8 +3,8 @@
     "license": "restricted",
     "$kref": "#/ckan/kerbalstuff/704",
     "spec_version": "v1.2",
-	
-	"recommends"	: [
+	"depends"	:	[ { "name" : "KerboKatzUtilites"}]
+	"conflicts"	: [
 					{ "name" : "KerboKatzSmallUtilities-AfterBurner" },
 					{ "name" : "KerboKatzSmallUtilities-DisableTempGauges" },
 					{ "name" : "KerboKatzSmallUtilities-EditorCamUtilities" },
@@ -13,7 +13,6 @@
 					{ "name" : "KerboKatzSmallUtilities-FPSViewer" },
 					{ "name" : "KerboKatzSmallUtilities-ModifiedExplosionPotential" } ],
 
-	"install"	:	[ { "file" : "GameData/KerboKatz/SmallUtilities/SmallUtilities.version",
-						"comment" : "we need to install something",
-					 "install_to" : "GameData/KerboKatz/SmallUtilities" } ]
+	"install"	:	[ { "find" : "SmallUtilities",
+					 "install_to" : "GameData/KerboKatz" } ]
 }
