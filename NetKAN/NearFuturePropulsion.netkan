@@ -1,0 +1,20 @@
+{
+    "spec_version" : 1,
+    "identifier"   : "NearFuturePropulsion",
+    "$kref"        : "#/ckan/kerbalstuff/347",
+
+    "depends": [
+        { "name": "ModuleManager" },
+        { "name": "CommunityResourcePack" }
+    ],
+    
+    "suggests": [
+        { "name" : "CommunityTechTree" },
+		{ "name" : "CrossFeedEnabler"},
+		{ "name" : "NearFuturePropulsionExtras" },
+		{ "name" : "NearFuturePropulsionExtras-ReducedElectricalEngineThrust" }
+    ],
+	
+    "license" : "CC-BY-NC-SA-3.0"
+
+}

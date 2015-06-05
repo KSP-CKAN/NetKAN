@@ -1,0 +1,14 @@
+{
+    "spec_version" : 1,
+    "identifier"   : "NearFutureElectrical",
+    "$kref"        : "#/ckan/kerbalstuff/349",
+	
+	"depends"	:	[
+		{ "name" : "HeatControl-Core" },
+		{ "name" : "CommunityResourcePack" } ],
+
+    "suggests": [
+        { "name" : "CommunityTechTree" }
+    ],
+    "license" : "CC-BY-NC-SA-3.0"
+}
