@@ -8,6 +8,11 @@
         { "name": "CommunityResourcePack" }
     ],
     
+	"recommends" : [
+		{ "name" : "NearFutureElectrical" },
+		{ "name" : "NearFutureSolar" }
+	],
+	
     "suggests": [
         { "name" : "CommunityTechTree" },
 		{ "name" : "CrossFeedEnabler"},
