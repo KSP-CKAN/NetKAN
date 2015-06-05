@@ -1,0 +1,10 @@
+{
+    "spec_version": "v1.4",
+    "license": "CC-BY-SA-NC-4.0",
+    "$kref": "#/ckan/kerbalstuff/890",
+	"abstract"	:	"The HeatControl.dll, for the whole shebang download Heat Control",
+    "identifier": "HeatControl-Core",
+	"depends"	:	[ { "name" : "ModuleManager" } ],
+	"install"	:	[ { "find" : "Plugin",
+					"install_to" : "GameData/HeatControl" } ]
+}
