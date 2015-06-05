@@ -13,10 +13,11 @@
             "install_to" : "GameData/Extras"
         }
                 ],
+	"conflicts" : [ { "name" : "HotRockets" } ],
     "depends" : [
         { "name" : "NearFuturePropulsion" }
                 ],
- "suggests"     : [
+	"suggests"     : [
         { "name" : "CommunityTechTree" }
     ]
 }

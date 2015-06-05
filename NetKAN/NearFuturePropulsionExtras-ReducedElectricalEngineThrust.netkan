@@ -16,6 +16,8 @@
         { "name" : "NearFuturePropulsion" }
     ],
 
+	"conflicts" : [ { "name" : "HotRockets" } ],
+
  "suggests"     : [
         { "name" : "CommunityTechTree" }
     ]
