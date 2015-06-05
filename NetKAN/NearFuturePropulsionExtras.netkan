@@ -9,8 +9,8 @@
     "license"      : "CC-BY-NC-SA-3.0",
     "install" : [
         {
-            "file"       : "Extras/Hydrogen NTRs",
-            "install_to" : "GameData"
+            "file"       : "Extras/HydrogenNTRs",
+            "install_to" : "GameData/Extras"
         }
                 ],
     "depends" : [
