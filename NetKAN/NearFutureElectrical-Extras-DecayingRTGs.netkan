@@ -1,0 +1,13 @@
+{
+    "spec_version" : 1,
+    "identifier"   : "NearFutureElectrical-Extras-DecayingRTGs",
+    "$kref"        : "#/ckan/kerbalstuff/349",
+	
+	"install"	:	[ { "find" : "DecayingRTGs",
+					"install_to" : "GameData/Extras"}]
+	
+    "suggests": [
+        { "name" : "CommunityTechTree" }
+    ],
+    "license" : "CC-BY-NC-SA-3.0"
+}
