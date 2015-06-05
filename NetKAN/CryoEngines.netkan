@@ -6,7 +6,7 @@
 	"depends"	:	[ { "name" : "InterstellarFuelSwitch-Core", "min_version" : "1.5" },
 					{ "name" : "CommunityResourcePack" },
 					{ "name" : "BDAnimationModules" },
-					{ "name" : "ModuleManager } ],
+					{ "name" : "ModuleManager" } ],
 	"install"	: 	[ { "find" : "CryoEngines",
 						"install_to" : "GameData" } ]
 }
