@@ -3,8 +3,10 @@
     "identifier"   : "FreedomTex",
     "$kref"        : "#/ckan/kerbalstuff/371",
     "x_netkan_license_ok": true,
-	
+    "ksp_version_min": "0.90",
+
 	"depends": [
-		{ "name": "ProceduralParts" }
+		{ "name": "ProceduralParts" },
+        { "name": "ModuleManager"}
 	]
 }
