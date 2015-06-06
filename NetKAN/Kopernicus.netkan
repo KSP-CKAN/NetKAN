@@ -12,16 +12,13 @@
         "homepage"   : "http://forum.kerbalspaceprogram.com/threads/88168",
         "repository" : "http://github.com/BryceSchroeder/Kopernicus"
     },
-    "depends": [
-        {
-            "name": "Kopernicus-Config"
-        }
-    ],
+	"depends":	[
+		{ "name" : "ModuleManager" }
+	],
     "install": [
         {
             "find"       : "Kopernicus",
-            "install_to" : "GameData",
-            "filter"     : [ "System.cfg" ]
+            "install_to" : "GameData"
         }
     ]
 }
