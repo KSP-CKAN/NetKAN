@@ -1,0 +1,27 @@
+{
+    "spec_version"  : 1,
+    "$kref"         : "#/ckan/github/KSP-64k/64k",
+    "license"       : "CC-BY-NC-4.0",
+    "identifier"    : "KSP-64k",
+    "name"          : "64k - 6.4x Kerbin System Rescale",
+	"abstract"      : "Stock parts are scaled to roughly 64% of their real world equivalent, so by picking 6.4x scale up (the stock game is about 10% of the real solar system) you have rockets that match the size of the system they are working in.",
+    "ksp_min_version" : "1.0",
+    "resources"     : { "homepage" : "http://www.kingtiger.co.uk/kingtiger/wordpress/64k/"},
+    "install" : [
+        {
+            "file"       : "GameData/64k",
+            "install_to" : "GameData"
+        }
+    ],
+    "depends" : [
+        { "name" : "ModuleManager"},
+		{ "name" : "Kopernicus"}
+    ],
+    "suggests" : [
+        { "name" : "ProceduralParts"},
+		{ "name" : "ImageViewer"},
+		{ "name" : "KSP-64k-Optional"},
+        { "name" : "KSP-64k-imgviewer"},
+		{ "name" : "RemoteTech"}
+    ]
+}
