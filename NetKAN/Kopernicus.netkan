@@ -18,7 +18,9 @@
     "install": [
         {
             "find"       : "Kopernicus",
-            "install_to" : "GameData"
+            "install_to" : "GameData",
+			"filter"	:	"Cache",
+			"comment"	:	"At time of writing the Cache folder does not exist, but it may in the future so we filter it"
         }
     ]
 }
