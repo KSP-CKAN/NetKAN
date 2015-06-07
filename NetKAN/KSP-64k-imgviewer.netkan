@@ -2,7 +2,7 @@
     "spec_version"  : 1,
     "$kref"         : "#/ckan/github/KSP-64k/64k",
     "license"       : "CC-BY-NC-4.0",
-    "identifier"    : "64k-imgviewer",
+    "identifier"    : "KSP-64k-imgviewer",
     "name"          : "64k - 6.4x Delta-V Map - ImageViewer",
     "abstract"      : "Adds the delta-V map for the 6.4x scaled Kerbin System to the game as an in-game viewable item using the ImageViewer mod.",
     "ksp_min_version" : "1.0",
