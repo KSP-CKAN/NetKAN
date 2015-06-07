@@ -2,7 +2,7 @@
     "spec_version"  : 1,
     "$kref"         : "#/ckan/github/KSP-64k/64k",
     "license"       : "CC-BY-NC-4.0",
-    "identifier"    : "64k",
+    "identifier"    : "KSP-64k",
     "name"          : "64k - 6.4x Kerbin System Rescale",
     "abstract"      : "Stock parts are scaled to roughly 64% of their real world equivalent, so by picking 6.4x scale up (the stock game is about 10% of the real solar system) you have rockets that match the size of the system they are working in.",
     "ksp_min_version" : "1.0",
