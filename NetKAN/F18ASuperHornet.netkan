@@ -3,8 +3,9 @@
     "license"	:	"WTFPL",
     "spec_version": "v1.2",
     "identifier": "F18ASuperHornet",
-	"depends"	:	[ { "name"	:	"AdjustableLandingGear" } ],
+	"depends"	:	[ { "name"	:	"AdjustableLandingGear" }, { "name": "AircraftIVAHelmet"} ],
 	"recommends"	:	[ { "name" : "BDArmory" } ],
 	"install"		:	[ { "file"	:	"F18A_Hornet",
-							"install_to" : "GameData" } ]
+							"install_to" : "GameData",
+                            "filter"     : "Thumbs.db" } ]
 }

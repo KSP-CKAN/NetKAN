@@ -1,10 +1,13 @@
 {
-    "spec_version" : 1,
+    "spec_version" : "v1.4",
     "$kref"        : "#/ckan/kerbalstuff/592",
     "identifier"   : "KAINET",
     "license"      : "Apache-2.0",
     "x_todo_1"     : "Add Infernal robotics rework when available through CKAN",
+	"comment"		: "IR rework has the same identifier as old IR so 1 should be in the clear?",
     "x_todo_2"     : "Add Probe Science patches when available through CKAN",
+	"install"		:	[ { "find" : "NoAstronautsNeedApply",
+							"install_to" : "GameData" } ],
     "recommends"   : [
         { "name" : "ContractConfigurator" },
         { "name" : "ContractConfigurator-InitialContracts" },

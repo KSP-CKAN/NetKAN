@@ -12,16 +12,15 @@
         "homepage"   : "http://forum.kerbalspaceprogram.com/threads/88168",
         "repository" : "http://github.com/BryceSchroeder/Kopernicus"
     },
-    "depends": [
-        {
-            "name": "Kopernicus-Config"
-        }
-    ],
+	"depends":	[
+		{ "name" : "ModuleManager" }
+	],
     "install": [
         {
             "find"       : "Kopernicus",
             "install_to" : "GameData",
-            "filter"     : [ "System.cfg" ]
+			"filter"	:	"Cache",
+			"comment"	:	"At time of writing the Cache folder does not exist, but it may in the future so we filter it"
         }
     ]
 }

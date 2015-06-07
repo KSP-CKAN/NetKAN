@@ -1,7 +1,7 @@
 {
     "spec_version": 1,
-    "$kref": "#/ckan/kerbalstuff/848",
-    "identifier": "F117",
+    "$kref": "#/ckan/kerbalstuff/877",
+    "identifier": "AV8HarrierWITHTRUEVTOLFlight",
     "license": "WTFPL",
    
     "depends": [
@@ -10,7 +10,11 @@
         { "name": "BahamutoDynamicsPartsPack"},
         { "name": "AircraftIVAHelmet"}
     ],
-	
-	"install":	[ { "file" : "F117",
-					"install_to" : "GameData" } ]
+
+    "install": [
+        {
+            "file"       : "Av8C",
+            "install_to" : "GameData"
+        }
+    ]
 }
