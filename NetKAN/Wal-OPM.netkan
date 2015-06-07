@@ -1,0 +1,24 @@
+{
+    "spec_version": "v1.2",
+    "identifier": "Wal-OPM",
+    "$kref": "#/ckan/kerbalstuff/437",
+    "license": "CC-BY-NC-SA-4.0",
+    "abstract": "This is the Outer Planets Mod version of the planet Wal.",
+
+    "depends": [
+        { "name" : "OuterPlanetsMod" }
+    ],
+
+    "conflicts": [
+        { "name": "Wal" }
+    ],
+
+    "provides": [ "Wal" ],
+
+    "install": [
+        { 
+            "file"       : "GameData/Kopernicus/Cache/Wal.bin",
+            "install_to" : "GameData/Kopernicus/Cache"
+        }
+    ]
+}

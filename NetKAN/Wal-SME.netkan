@@ -1,0 +1,24 @@
+{
+    "spec_version": "v1.2",
+    "identifier": "Wal-SME",
+    "$kref": "#/ckan/kerbalstuff/816",
+    "license": "CC-BY-NC-SA-4.0",
+    "abstract": "This is the Sigma Mod Expansions version of the planet Wal.",
+
+    "depends": [
+        { "name" : "SigmaModExpansions" }
+    ],
+
+    "conflicts": [
+        { "name": "Wal" }
+    ],
+
+    "provides": [ "Wal" ],
+
+    "install": [
+        {
+            "file"       : "GameData/Kopernicus/Cache/Wal.bin",
+            "install_to" : "GameData/Kopernicus/Cache"
+        }
+    ]
+}
