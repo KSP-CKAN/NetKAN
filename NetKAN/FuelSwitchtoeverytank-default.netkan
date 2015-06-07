@@ -4,7 +4,7 @@
     "$kref": "#/ckan/kerbalstuff/861",
     "license": "CC-BY-SA-2.0",
     
-    "provides"  : "FuelSwitchtoeverytank",
+    "provides"  : [ "FuelSwitchtoeverytank" ],
     
     "depends": [
         { "name": "ModuleManager" },
