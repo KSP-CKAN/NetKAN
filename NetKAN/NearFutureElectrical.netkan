@@ -2,8 +2,10 @@
     "spec_version" : 1,
     "identifier"   : "NearFutureElectrical",
     "$kref"        : "#/ckan/kerbalstuff/349",
-	"ksp_version" : "0.90",
-
+    "depends": [
+        { "name" : "CommunityResourcePack" },
+        { "name" : "HeatControlCore" }
+    ],
     "suggests": [
         { "name" : "CommunityTechTree" }
     ],
