@@ -4,8 +4,7 @@
   "$kref": "#/ckan/kerbalstuff/437",
   "license": "CC-BY-NC-SA-4.0",
   "depends": [
-    { "name" : "ModuleManager" },
-    { "name" : "Kopernicus" }
+    { "name" : "ModuleManager" }
   ],
   "conflicts": [
     { "name": "CustomBiomes" },
@@ -13,8 +12,7 @@
     { "name": "Kopernicus" }
   ],
   "provides": [
-    "PlanetPack",
-    "Kopernicus"
+    "PlanetPack"
   ],
   "suggests": [
     { "name": "JDiminishingRTG" },
