@@ -1,0 +1,24 @@
+{
+    "spec_version" : "v1.2",
+    "identifier"   : "NearFuturePropulsionExtras-ReducedElectricalEngineThrust",
+    "name"         : "Near Future Propulsion - Reduced Electrical Engine Thrust",
+    "abstract"     : "Halves the thrust of all Electrical engines in the NearFuture Propulsion mod",
+    "author"       : "Nertea",
+    "$kref"        : "#/ckan/kerbalstuff/347",
+    "license"      : "CC-BY-NC-SA-3.0",
+    "install" : [
+        {
+            "file"       : "Extras/ReducedElectricalEngineThrust",
+            "install_to" : "GameData/Extras"
+        }
+    ],
+    "depends" : [
+        { "name" : "NearFuturePropulsion" }
+    ],
+
+	"conflicts" : [ { "name" : "HotRockets" } ],
+
+ "suggests"     : [
+        { "name" : "CommunityTechTree" }
+    ]
+}
