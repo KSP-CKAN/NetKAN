@@ -16,6 +16,6 @@
     "depends" : [
         { "name" : "ModuleManager"},
 	{ "name" : "Kopernicus"},
-        { "name" : "KSP-64k"}
+        { "name" : "64k"}
     ]
 }
