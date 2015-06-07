@@ -21,8 +21,8 @@
     "suggests" : [
         { "name" : "ProceduralParts"},
 	{ "name" : "ImageViewer"},
-	{ "name" : "64k-Optional"},
-        { "name" : "64k-imgviewer"},
+	{ "name" : "KSP-64k-Optional"},
+        { "name" : "KSP-64k-imgviewer"},
 	{ "name" : "RemoteTech"}
     ]
 }
