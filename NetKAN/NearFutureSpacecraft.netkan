@@ -3,17 +3,27 @@
     "identifier"   : "NearFutureSpacecraft",
     "$kref"        : "#/ckan/kerbalstuff/350",
     "depends"      :  [
-        { "name" : "RasterPropMonitor-Core" },
         { "name" : "NearFutureProps" }
     ],
+	
     "suggests"     : [
-        { "name" : "CommunityTechTree" }
+        { "name" : "CommunityTechTree" },
+		{ "name" : "NearFutureSolar" },
+		{ "name" : "NEarFutureConstruction"},
+		{ "name" : "NearFutureElectrical" },
+		{ "name" : "NearFuturePropulsion" }
     ],
+	
+	"supports"	: [
+		{ "name" : "ConnectedLivingSpace" },
+		{ "name" : "RasterPropMonitor" }
+	],
+	
     "install"      : [
         { "file" : "GameData/NearFutureSpacecraft",
           "install_to" : "GameData"
         }
     ],
-    "license" : "CC-BY-NC-SA-3.0"
+    "license" : "CC-BY-NC-SA-4.0"
 
 }

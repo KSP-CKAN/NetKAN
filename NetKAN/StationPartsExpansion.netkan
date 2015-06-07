@@ -10,10 +10,25 @@
         }
                 ],
     "depends" : [
-        { "name" : "RasterPropMonitor-Core" },
-        { "name" : "NearFutureProps" }
+        { "name" : "NearFutureProps" },
+		{ "name" : "ModuleManager"}
                 ],
- "suggests"     : [
+				
+	"recommends" : [
         { "name" : "CommunityTechTree" }
-    ]
+    ],
+
+	"suggests"	: [ 
+		{ "name" : "ContractConfigurator-KerbinSpaceStation" },
+		{ "name" : "ContractConfigurator-Tourism" },
+		{ "name" : "NearFutureSolar" },
+		{ "name" : "NEarFutureConstruction"},
+		{ "name" : "NearFutureSpacecraft" },
+		{ "name" : "NearFutureElectrical" },
+		{ "name" : "NearFuturePropulsion" }
+	],
+	
+	"supports"	: [
+		{ "name" : "RasterPropMonitor" },
+		{ "name" : "ConnectedLivingSpace" } ]
 }
