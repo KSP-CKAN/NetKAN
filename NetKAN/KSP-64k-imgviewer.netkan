@@ -14,9 +14,7 @@
         }
     ],
     "depends" : [
-        { "name" : "ModuleManager"},
         { "name" : "64k"},
-	{ "name" : "Kopernicus"}
 	{ "name" : "ImageViewer"}
     ],
 }
