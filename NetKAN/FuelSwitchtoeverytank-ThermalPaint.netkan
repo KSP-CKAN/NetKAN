@@ -4,6 +4,8 @@
     "$kref": "#/ckan/kerbalstuff/861",
     "license": "CC-BY-SA-2.0",
     
+    "provides"  : "FuelSwitchtoeverytank",
+    
     "depends": [
         { "name": "ModuleManager" },
         { "name": "FirespitterCore" },
@@ -13,7 +15,7 @@
     "conflicts": [
         { "name": "InterstellarFuelSwitch-Core" },
         { "name": "StockFuelSwitch" },
-        { "name": "FuelSwitchtoeverytank-Default" }
+        { "name": "FuelSwitchtoeverytank" }
     ],
     
     "install": [
