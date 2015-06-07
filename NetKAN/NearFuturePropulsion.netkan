@@ -10,14 +10,15 @@
     
 	"recommends" : [
 		{ "name" : "NearFutureElectrical" },
-		{ "name" : "NearFutureSolar" }
+		{ "name" : "CommunityTechTree" }
 	],
 	
     "suggests": [
-        { "name" : "CommunityTechTree" },
-		{ "name" : "CrossFeedEnabler"},
-		{ "name" : "NearFuturePropulsionExtras" },
-		{ "name" : "NearFuturePropulsionExtras-ReducedElectricalEngineThrust" }
+        { "name" : "NearFutureSolar" },
+		{ "name" : "NEarFutureConstruction"},
+		{ "name" : "contractConfigurator-GrandTours" },
+		{ "name" : "NearFutureSpacecraft" },
+		{ "name" : "OuterPlanetsMod" }
     ],
 	
     "license" : "CC-BY-NC-SA-3.0"
