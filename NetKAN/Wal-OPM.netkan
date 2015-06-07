@@ -3,7 +3,8 @@
     "identifier": "Wal-OPM",
     "$kref": "#/ckan/kerbalstuff/437",
     "license": "CC-BY-NC-SA-4.0",
-    "abstract": "This is the Outer Planets Mod version of the planet Wal.",
+    "name": "Outer Planets Mod - Planet Wal",
+    "abstract": "This is the Outer Planets Mod version of the planet Wal. This should only be installed/removed if you're getting conflicts with the Sigma Mod Expansions version of the planet Wal.",
 
     "depends": [
         { "name" : "OuterPlanetsMod" }
