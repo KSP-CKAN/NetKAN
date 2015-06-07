@@ -1,0 +1,26 @@
+{
+    "spec_version" : 1,
+    "identifier"   : "NearFutureElectrical",
+    "$kref"        : "#/ckan/kerbalstuff/349",
+	
+	"depends"	:	[
+		{ "name" : "NearFutureElectrical-Core" },
+		{ "name" : "HeatControl-Core" },
+		{ "name" : "CommunityResourcePack" },
+		{ "name" : "ModuleManager" } 
+	],
+
+    "recommends": [
+        { "name" : "CommunityTechTree" }
+    ],
+	
+	"suggests"	: [ 
+		{ "name" : "NearFutureConstruction" },
+		{ "name" : "NearFutureElectrical-DecayingRTGs" },
+		{ "name" : "NearFuturePropulsion" },
+		{ "name" : "NearFutureSolar" },
+		{ "name" : "NearFutureSpacecraft" }
+	],
+	
+    "license" : "CC-BY-NC-SA-3.0"
+}
