@@ -3,6 +3,7 @@
     "identifier"   : "SCANsat",
     "$kref"        : "#/ckan/kerbalstuff/249",
     "license"      : "restricted",
+	"x_netkan_force_v"	:	"true",
 	"recommends": [
         { "name": "Toolbar" },
 		{ "name": "ModuleManager" }

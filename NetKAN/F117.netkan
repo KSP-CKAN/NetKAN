@@ -7,7 +7,8 @@
     "depends": [
         { "name": "FirespitterCore" },
         { "name": "BDArmory" },
-        { "name": "BahamutoDynamicsPartsPack"}
+        { "name": "BahamutoDynamicsPartsPack"},
+        { "name": "AircraftIVAHelmet"}
     ],
 	
 	"install":	[ { "file" : "F117",

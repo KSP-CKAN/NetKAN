@@ -4,7 +4,8 @@
     "spec_version": 1,
     "identifier": "A6Intruder",
 	"depends"	:	[ { "name" : "AdjustableLandingGear" },
-					{ "name" : "BDArmory" } ],
+					{ "name" : "BDArmory" },
+                    { "name": "AircraftIVAHelmet"}],
 	"install"	:	[ { "file" : "A6Intruder",
 						"install_to" : "GameData" } ]
 }

@@ -5,13 +5,22 @@
 
     "depends": [
         { "name": "ModuleManager" },
-        { "name": "CrossFeedEnabler" }
+        { "name": "CommunityResourcePack" }
     ],
     
+	"recommends" : [
+		{ "name" : "NearFutureElectrical" },
+		{ "name" : "CommunityTechTree" }
+	],
+	
     "suggests": [
-        { "name" : "CommunityTechTree" },
-		{ "name" : "NearFuturePropulsionExtras"}
+        { "name" : "NearFutureSolar" },
+		{ "name" : "NearFutureConstruction"},
+		{ "name" : "contractConfigurator-GrandTours" },
+		{ "name" : "NearFutureSpacecraft" },
+		{ "name" : "OuterPlanetsMod" }
     ],
-    "license" : "CC-BY-NC-SA-3.0"
+	
+    "license" : "CC-BY-NC-SA-4.0"
 
 }

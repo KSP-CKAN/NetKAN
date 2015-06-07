@@ -1,0 +1,25 @@
+{
+    "spec_version": 1,
+    "identifier": "BehemothAerospaceEngineeringLargeParts",
+    "$kref": "#/ckan/kerbalstuff/880",
+    "$vref" : "#/ckan/ksp-avc",
+    "license": "CC-BY-NC-SA-4.0",
+    "abstract": "This parts pack contains engines, tanks, and other part categories in three sizes that do not exist in stock KSP, namely 5m, 7.5m, and 10m.",
+    
+    "depends": [
+        { "name": "FirespitterCore" }
+    ],
+    
+    "recommends": [
+        { "name": "CommunityTechTree" },
+        { "name": "KerbalJointReinforcement" },
+        { "name": "KSP-AVC" }
+    ],
+    
+    "install": [
+        {
+            "file"       : "BAE",
+            "install_to" : "GameData"
+        }
+    ]
+}
