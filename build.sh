@@ -26,8 +26,8 @@ fi
 
 echo Fetching latest ckan.exe
 
-# fetch latest ckan.exe
-wget --quiet http://ci.ksp-ckan.org:8080/job/CKAN/lastSuccessfulBuild/artifact/ckan.exe -O ckan.exe
+# fetch latest ckan.exe (corresponding to CKAN/master)
+wget --quiet https://ckan-travis.s3.amazonaws.com/ckan.exe
 
 echo Creating a dummy KSP install
 
@@ -71,8 +71,8 @@ jsonlint -s -v ${COMMIT_CHANGES}
 
 echo Fetching latest netkan.exe
 
-# fetch latest netkan.exe
-wget --quiet http://ci.ksp-ckan.org:8080/job/NetKAN/lastSuccessfulBuild/artifact/netkan.exe -O netkan.exe
+# fetch latest netkan.exe (corresponding to CKAN/master)
+wget --quiet https://ckan-travis.s3.amazonaws.com/netkan.exe
 
 mkdir built
 
