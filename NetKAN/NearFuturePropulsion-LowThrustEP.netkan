@@ -1,0 +1,22 @@
+{
+    "spec_version" : 1,
+    "identifier"   : "NearFuturePropulsion-LowThrustEP",
+    "name"         : "Near Future Propulsion - Reduced Electric Engine Thrust",
+    "abstract"     : "Reduces engine thrust to make the engines a little more realistic.",
+    "version"      : "0.5.0",
+    "author"       : "Nertea",
+    "$kref"        : "#/ckan/kerbalstuff/347",
+    "license"      : "CC-BY-NC-SA-4.0",
+    "install" : [
+        {
+            "file"       : "Extras/ReducedElectricEngineThrust",
+            "install_to" : "GameData/NearFuturePropulsion"
+        }
+                ],
+    "depends" : [
+        { "name" : "NearFuturePropulsion" }
+                ],
+    "suggests"     : [
+        { "name" : "CommunityTechTree" }
+    ]
+}
