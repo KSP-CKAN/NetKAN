@@ -1,8 +1,8 @@
 {
     "spec_version" : "v1.4",
     "identifier"   : "NearFutureElectrical-DecayingRTGs",
-	"name"         : "NearFutureElectrical Decaying RTGs"
-	"abstract"     : "Adds decay to RTGs from NearFuture Electrical"
+	"name"         : "NearFutureElectrical Decaying RTGs",
+	"abstract"     : "Adds decay to RTGs from NearFuture Electrical",
     "$kref"        : "#/ckan/kerbalstuff/349",
 	
 	"depends"	: [ 
