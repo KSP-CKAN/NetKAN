@@ -1,5 +1,5 @@
 {
-    "spec_version" : 1,
+    "spec_version" : 1.2,
     "identifier"   : "NearFuturePropulsion-HydrogenNTRs",
     "name"         : "Near Future Propulsion - Hydrogen NTRs",
     "abstract"     : "Converts your nuclear engines into using Liquid Hydrogen",
@@ -10,7 +10,7 @@
     "install" : [
         {
             "file"       : "Extras/HydrogenNTRs",
-            "install_to" : "GameData"
+            "install_to" : "GameData/NearFuturePropulsion"
         }
                 ],
     "depends" : [
