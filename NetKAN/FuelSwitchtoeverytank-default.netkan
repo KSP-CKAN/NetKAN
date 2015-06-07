@@ -3,6 +3,8 @@
     "identifier": "FuelSwitchtoeverytank-default",
     "$kref": "#/ckan/kerbalstuff/861",
     "license": "CC-BY-SA-2.0",
+    "name": "FuelSwitch to every tank-default",
+    "abstract": "This small ModuleManager config adds module FSfuelSwitch to every fuel tank in game, including non-stock",
     
     "provides"  : [ "FuelSwitchtoeverytank" ],
     
