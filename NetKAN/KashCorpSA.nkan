@@ -1,0 +1,20 @@
+{
+        "spec_version" : "v1.4",
+        "identifier" : "KashcorpSA",
+        "name" : "Kash Corp Shared Assets (Virtual mod)",
+        "abstract" : "Shared assets for KashCorp mods, based off KAP",
+        "comment" : "KashCorp Shared Assets based off KAP zip file",
+        "license" : "BSD-3-clause",
+        "version" : "virtual-1.0",
+        "$kref" : "#/ckan/kerbalstuff/96",
+        "depends" : [
+                { "name"        : "ModuleManager" },
+        ],
+        "install" : [
+                {
+                        "find" : "KashCorp",
+                        "install_to" : "GameData",
+                        "filter" : "KAP"
+                }
+        ]
+}
