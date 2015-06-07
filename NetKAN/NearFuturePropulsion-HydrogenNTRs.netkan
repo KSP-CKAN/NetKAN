@@ -1,0 +1,22 @@
+{
+    "spec_version" : v1.2,
+    "identifier"   : "NearFuturePropulsion-HydrogenNTRs",
+    "name"         : "Near Future Propulsion - Hydrogen NTRs",
+    "abstract"     : "Converts your nuclear engines into using Liquid Hydrogen",
+    "version"      : "0.5.0",
+    "author"       : "Nertea",
+    "$kref"        : "#/ckan/kerbalstuff/347",
+    "license"      : "CC-BY-NC-SA-4.0",
+    "install" : [
+        {
+            "file"       : "Extras/HydrogenNTRs",
+            "install_to" : "GameData/NearFuturePropulsion"
+        }
+                ],
+    "depends" : [
+        { "name" : "NearFuturePropulsion" }
+                ],
+    "suggests"     : [
+        { "name" : "CommunityTechTree" }
+    ]
+}
