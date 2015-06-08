@@ -5,7 +5,7 @@ A primary goal of the Comprehensive Kerbal Archive Network (CKAN) is to be inclu
 All participants and contributors are expected to follow our
 [code of conduct](https://github.com/KSP-CKAN/CKAN/wiki/Code-of-Conduct).
 
-### Submission of CKAN metadata files (.ckan files)
+### Submission of CKAN metadata files (.netkan and .ckan files)
 
 Contributions of CKAN and NetKAN metadata files *must* be be contributed under the
 [CC-0](LICENSE.md) license.
