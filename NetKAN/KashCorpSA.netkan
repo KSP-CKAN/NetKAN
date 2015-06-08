@@ -6,10 +6,15 @@
         "comment" : "KashCorp Shared Assets based off KAP zip file",
         "license" : "BSD-3-clause",
         "version" : "1.0v",
+		"resources": 
+		{ 
+			"homepage": "http://forum.kerbalspaceprogram.com/threads/87546" 
+		}
         "$kref" : "#/ckan/kerbalstuff/96",
         "depends" : [
                 { "name"        : "ModuleManager" }
         ],
+		
         "install" : [
                 {
                         "find" : "KashCorp",
