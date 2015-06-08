@@ -9,7 +9,7 @@
 		"resources": 
 		{ 
 			"homepage": "http://forum.kerbalspaceprogram.com/threads/87546" 
-		}
+		},
         "$kref" : "#/ckan/kerbalstuff/96",
         "depends" : [
                 { "name"        : "ModuleManager" }
