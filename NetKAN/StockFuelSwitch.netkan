@@ -1,0 +1,24 @@
+{
+    "x_via": "Automated KerbalStuff CKAN submission",
+    "$kref": "#/ckan/kerbalstuff/795",
+    "spec_version": 1,
+    "license": "CC-BY-NC-SA-4.0",
+    "identifier": "StockFuelSwitch",
+    "depends": [
+        {
+            "name": "FirespitterCore"
+        },
+        {
+            "name": "ModuleManager"
+        }
+    ],
+	"resources" : {
+        "homepage"     : "http://forum.kerbalspaceprogram.com/threads/121321"
+    },
+    "install": [
+        {
+            "file": "FSfuelSwitchPatch.cfg",
+            "install_to": "GameData"
+        }
+    ]
+}

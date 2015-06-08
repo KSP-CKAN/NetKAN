@@ -1,0 +1,87 @@
+{
+    "$kref": "#/ckan/kerbalstuff/767",
+    "identifier": "EpicSuits",
+    "spec_version": "v1.4",
+    "license": "CC-BY-NC-SA-4.0",
+    "depends": [
+        {
+            "name": "TextureReplacer"
+        }
+    ],
+    "install": [
+        {
+            "file": "epic suits/blue shirt and suit",
+            "install_to": "GameData/TextureReplacer/Suits",
+            "filter": ".DS_Store"
+        },
+        {
+            "file": "epic suits/blue suit",
+            "install_to": "GameData/TextureReplacer/Suits",
+            "filter": ".DS_Store"
+        },
+        {
+            "file": "epic suits/cyan suit",
+            "install_to": "GameData/TextureReplacer/Suits",
+            "filter": ".DS_Store"
+        },
+        {
+            "file": "epic suits/gold ish  suit",
+            "install_to": "GameData/TextureReplacer/Suits",
+            "filter": ".DS_Store"
+        },
+        {
+            "file": "epic suits/murica suit",
+            "install_to": "GameData/TextureReplacer/Suits",
+            "filter": ".DS_Store"
+        },
+        {
+            "file": "epic suits/orange shirt and suit",
+            "install_to": "GameData/TextureReplacer/Suits",
+            "filter": ".DS_Store"
+        },
+        {
+            "file": "epic suits/orange suit",
+            "install_to": "GameData/TextureReplacer/Suits",
+            "filter": ".DS_Store"
+        },
+        {
+            "file": "epic suits/purple suit",
+            "install_to": "GameData/TextureReplacer/Suits",
+            "filter": ".DS_Store"
+        },
+        {
+            "file": "epic suits/Red shirt and suit",
+            "install_to": "GameData/TextureReplacer/Suits",
+            "filter": ".DS_Store"
+        },
+                {
+            "file": "epic suits/red suit",
+            "install_to": "GameData/TextureReplacer/Suits",
+            "filter": ".DS_Store"
+        },
+                {
+            "file": "epic suits/white shirt and suit",
+            "install_to": "GameData/TextureReplacer/Suits",
+            "filter": ".DS_Store"
+        },
+                {
+            "file": "epic suits/white suit",
+            "install_to": "GameData/TextureReplacer/Suits",
+            "filter": ".DS_Store"
+        },
+                {
+            "file": "epic suits/yellow shirt and suit",
+            "install_to": "GameData/TextureReplacer/Suits",
+            "filter": ".DS_Store"
+        },
+                {
+            "file": "epic suits/yellow suit",
+            "install_to": "GameData/TextureReplacer/Suits",
+            "filter": ".DS_Store"
+        },
+        {
+            "file": "epic suits/license and legal.txt",
+            "install_to": "GameData/TextureReplacer/EpicSuitsLicense"
+        }
+    ]
+}

@@ -3,6 +3,13 @@
     "identifier"   : "KWRocketry",
     "$kref"        : "#/ckan/kerbalstuff/67",
     "license"      : "CC-BY-SA-3.0",
-    "ksp_version_min": "0.25",
-	"ksp_version_max": "0.90"
+    "depends"      : [
+        { "name": "ModuleAnimateEmissive" }
+    ],
+    "install"      : [
+        {
+            "file": "KW Release Package v2.7 (Open this, don't extract it)/GameData/KWRocketry",
+            "install_to": "GameData"
+        }
+    ]
 }

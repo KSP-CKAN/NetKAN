@@ -4,6 +4,9 @@
 	"license"	:	"restricted",
 	"$kref"		:	"#/ckan/kerbalstuff/373",
 	"ksp_version_min":	"0.25",
+        "resources" : {
+            "homepage"     : "http://forum.kerbalspaceprogram.com/threads/81754"
+        },
 	"install" : [
 	{
 		"file"	    :   "SovietPack",

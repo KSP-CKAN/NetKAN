@@ -5,11 +5,5 @@
     "license"      : "CC-BY-SA-3.0",
     "depends": [
         { "name": "BDAnimationModules" }
-    ],
-    "install": [
-        {
-            "file": "AdjustableLandingGear",
-            "install_to": "GameData"
-        }
     ]
 }

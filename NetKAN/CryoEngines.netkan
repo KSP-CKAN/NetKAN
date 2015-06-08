@@ -3,9 +3,17 @@
     "$kref": "#/ckan/kerbalstuff/717",
     "license": "CC-BY-NC-SA-4.0",
     "identifier": "CryoEngines",
-	"depends"	:	[ { "name" : "InterstellarFuelSwitch" },
-					{ "name" : "CommunityResourcePack" },
-					{ "name" : "ModuleManager" } ],
+	
+	"depends"	:	[ 
+		{ "name" : "InterstellarFuelSwitch-Core", "min_version" : "1.5" },
+		{ "name" : "CommunityResourcePack" },
+		{ "name" : "BDAnimationModules" },
+		{ "name" : "ModuleManager" } ],
+	
+	"suggests"	:	[
+		{ "name" : "CommunityTechTree" }
+	],
+	
 	"install"	: 	[ { "find" : "CryoEngines",
 						"install_to" : "GameData" } ]
 }

@@ -3,8 +3,9 @@
     "identifier"   : "Trajectories",
     "$kref"        : "#/ckan/kerbalstuff/238",
     "x_netkan_license_ok" : true,
-	
-	"depends": [
-        { "name": "ModuleManager" }
+    "depends"             : [
+        {
+            "name" : "ModuleManager"
+        }
     ]
 }

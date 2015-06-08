@@ -3,10 +3,14 @@
     "identifier"   : "SCANsat",
     "$kref"        : "#/ckan/kerbalstuff/249",
     "license"      : "restricted",
+	"x_netkan_force_v"	:	"true",
 	"recommends": [
         { "name": "Toolbar" },
 		{ "name": "ModuleManager" }
     ],
+	"resources" : {
+		"repository"   : "https://github.com/S-C-A-N/SCANsat"
+	},
 	
 	"suggests": [
 		{ "name": "RasterPropMonitor" },

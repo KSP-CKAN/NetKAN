@@ -1,0 +1,9 @@
+{
+    "spec_version": "v1.4",
+    "license": "restricted",
+    "$kref": "#/ckan/kerbalstuff/883",
+    "identifier": "KerboKatzSmallUtilities-PhysicalTimeRatioViewer",
+	"depends"	:	[ { "name" : "KerboKatzUtilities" } ],
+	"install"	:	[ { "find" : "PhysicalTimeRatioViewer",
+					"install_to" : "GameData/KerboKatz/SmallUtilities"} ]
+}

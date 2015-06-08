@@ -3,5 +3,8 @@
     "x_via": "Automated KerbalStuff CKAN submission",
     "spec_version": 1,
     "$kref": "#/ckan/kerbalstuff/588",
-    "license": "MIT"
+    "license": "MIT",
+	"resources" : {
+        "homepage"     : "http://forum.kerbalspaceprogram.com/threads/110438"
+    }
 }

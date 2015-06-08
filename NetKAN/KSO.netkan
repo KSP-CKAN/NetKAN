@@ -1,0 +1,39 @@
+{
+    "x_via": "Automated KerbalStuff CKAN submission",
+    "spec_version"   : 1,
+    "$kref": "#/ckan/kerbalstuff/799",
+    "name"           : "KSO",
+    "abstract"       : "Kerbin Shuttle Orbiter complete asset pack without plugin dependencies",
+    "author" : ["nazari", "helldiver"],
+    "identifier"     : "KSO",
+    "license"        : "CC-BY-NC-ND-4.0",
+    "resources" : {
+        "homepage"     : "http://forum.kerbalspaceprogram.com/threads/68429",
+    	"kerbalstuff": "https://kerbalstuff.com/mod/799/Kerbin%20Shuttle%20Orbiter%20System%20%28No%20Plugins%29"
+    },
+    "install" : [
+        {
+            "file"       : "KSO",
+            "install_to" : "GameData"
+        },
+        {
+            "file": "KSO_craftfiles/Ships/SPH",
+            "install_to": "Ships"
+        },
+        {
+            "file": "KSO_craftfiles/Ships/VAB",
+            "install_to": "Ships"
+        }
+    ],
+    "depends" : [
+        { "name" : "KlockheedMartian-Gimbal" },
+        { "name" : "SmokeScreen" },
+        { "name" : "RasterPropMonitor-Core" },
+        { "name" : "FirespitterCore" },
+        { "name" : "ModuleManager", "min_version" : "2.3.5" }
+    ],
+    "recommends" : [
+        { "name" : "RealFuels" },
+        { "name" : "HotRockets" }
+    ]
+}

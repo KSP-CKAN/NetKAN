@@ -1,0 +1,23 @@
+{
+    "spec_version": 1,
+    "identifier": "MissionBasedRD",
+    "$kref": "#/ckan/kerbalstuff/885",
+    "license": "MIT",
+    "abstract": "The objective of this mod is to overhaul the R&D system of career mode by neutralizing the science points and unlocking tech nodes as a reward for completing missions.",
+    
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/124326"
+    },
+    
+    "depends": [
+        { "name": "ModuleManager" },
+        { "name": "ContractConfigurator" }
+    ],
+    
+    "install": [
+        {
+            "file"       : "GameData/ContractPacks",
+            "install_to" : "GameData"
+        }
+    ]
+}

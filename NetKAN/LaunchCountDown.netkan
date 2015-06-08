@@ -1,0 +1,10 @@
+{
+    "spec_version" : 1,
+    "identifier"   : "LaunchCountDown",
+    "$kref"        : "#/ckan/kerbalstuff/102",
+    "$vref"        : "#/ckan/ksp-avc",
+    "license": "CC-BY-3.0",
+    "depends": [
+        { "name": "ModuleManager" }
+    ]
+}

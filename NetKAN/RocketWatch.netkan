@@ -4,7 +4,11 @@
     "spec_version": "v1.4",
     "$kref": "#/ckan/kerbalstuff/616",
     "license": "CC-BY-4.0",
-	"install": [
-		{ "file": "RocketWatch-1.1.0/GameData/RocketWatch", "install_to": "GameData" }
-	]
+    "install": [
+        {
+            "file" : "RocketWatch 1.1.1/GameData/RocketWatch",
+            "install_to" : "GameData",
+            "filter" : ".DS_Store"
+        }
+    ]
 }

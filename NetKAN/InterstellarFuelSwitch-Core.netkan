@@ -1,0 +1,14 @@
+{
+    "spec_version": "v1.4",
+    "$kref": "#/ckan/kerbalstuff/718",
+    "license": "CC-BY-NC",
+    "identifier": "InterstellarFuelSwitch-Core",
+    "name"	: "Interstellar Fuel Switch Core",
+    "install": [
+        {
+            "file" : "GameData/InterstellarFuelSwitch/Plugins",
+            "install_to" : "GameData/InterstellarFuelSwitch",
+            "filter": "MiniAVC.xml"
+        }
+    ]
+}

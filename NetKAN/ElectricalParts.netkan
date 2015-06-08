@@ -1,0 +1,20 @@
+{
+    "spec_version": "v1.4",
+    "$kref": "#/ckan/kerbalstuff/724",
+    "license": "MIT",
+    "identifier": "ElectricalParts",
+    "depends": [
+        {
+            "name": "FirespitterCore"
+        },
+        {
+            "name": "ModuleManager"
+        }
+    ],
+    "install": [
+        {
+            "find": "ElectricalEngines",
+            "install_to": "GameData"
+        }
+    ]
+}

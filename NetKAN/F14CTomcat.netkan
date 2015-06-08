@@ -1,0 +1,16 @@
+{
+    "spec_version": 1,
+    "$kref": "#/ckan/kerbalstuff/849",
+    "identifier": "F14CTomcat",
+    "license": "WTFPL",
+   
+    "depends": [
+        { "name": "FirespitterCore" },
+        { "name": "BDArmory" },
+        { "name": "BahamutoDynamicsPartsPack"},
+        { "name": "AircraftIVAHelmet"}
+    ],
+   "install":	[ { "file" : "F14CTomcat",
+					"install_to" : "GameData" } ]
+   
+}

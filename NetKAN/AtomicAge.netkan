@@ -4,9 +4,11 @@
     "identifier": "AtomicAge",
     "spec_version": 1,
     "resources" : {
-        "homepage" : "http://forum.kerbalspaceprogram.com/threads/100932"
+        "homepage" : "http://forum.kerbalspaceprogram.com/threads/104855"
     },
     "license": "CC-BY-NC-SA-4.0",
-	"depends" : [ { "name" : "CommunityTechTree" },
-				{ "name" : "ModuleManager" } ]
+    "depends": [
+        { "name": "CommunityTechTree" },
+        { "name": "ModuleManager" }
+    ]
 }

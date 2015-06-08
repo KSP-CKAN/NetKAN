@@ -1,0 +1,21 @@
+{
+    "spec_version" : "v1.4",
+    "identifier"   : "NearFutureElectrical-DecayingRTGs",
+	"name"         : "NearFutureElectrical Decaying RTGs",
+	"abstract"     : "Adds decay to RTGs from NearFuture Electrical",
+    "$kref"        : "#/ckan/kerbalstuff/349",
+	
+	"depends"	: [ 
+		{ "name" : "NearFutureElectrical" }
+	],
+	
+	"conflicts"	: [
+		{ "name" : "JDiminishingRTG" }
+	],
+	
+	"install"	: [
+		{ "find" : "DecayingRTGs",
+		"install_to" : "GameData/NearFutureElectrical" } ],
+
+    "license" : "CC-BY-NC-SA-4.0"
+}

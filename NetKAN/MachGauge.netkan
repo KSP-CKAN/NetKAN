@@ -1,0 +1,15 @@
+{
+    "spec_version": 1,
+    "identifier": "MachGauge",
+    "$kref": "#/ckan/kerbalstuff/886",
+    "license": "MIT",
+    "abstract": "The Mach Gauge Measures the Mach number of the current craft, taking into account of altitude. The gauge will not work without the part, it's a stock radial ladder. Just look at the names and you'll know which one it is.",
+    
+    "install": [
+        {
+            "file"       : "Mach",
+            "install_to" : "GameData"
+        }
+    ]
+    
+}
