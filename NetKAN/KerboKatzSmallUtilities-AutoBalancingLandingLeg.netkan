@@ -1,0 +1,9 @@
+{
+    "identifier": "KerboKatzSmallUtilities-AutoBalancingLandingLeg",
+    "spec_version": "v1.4",
+    "$kref": "#/ckan/kerbalstuff/893",
+    "license": "restricted",
+	"depends"	:	[ { "name" :	"KerboKatzUtilities" } ],
+	"install"	:	[ { "find"	:	"AutoBalancingLandingLeg",
+					"install_to" :	"GameData/KerboKatz/SmallUtilities" } ]
+}
