@@ -1,11 +1,10 @@
 {
         "spec_version" : "v1.4",
         "identifier" : "KashCorpSA",
-        "name" : "KashCorp Shared Assets (Virtual mod)",
-        "abstract" : "Shared assets for KashCorp mods, based off KAP",
+        "name" : "KashCorp Shared Assets",
+        "abstract" : "Shared assets for KashCorp mods",
         "comment" : "KashCorp Shared Assets based off KAP zip file",
         "license" : "BSD-3-clause",
-        "version" : "1.0v",
 		"resources": 
 		{ 
 			"homepage": "http://forum.kerbalspaceprogram.com/threads/87546" 
