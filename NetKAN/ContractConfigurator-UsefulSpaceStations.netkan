@@ -2,14 +2,14 @@
     "spec_version" : "v1.4",
     "identifier"   : "ContractConfigurator-UsefulSpaceStations",
     "$kref"        : "#/ckan/github/severedsolo/UsefulSpaceStations",
-    "name"         : "Contract Pack: Kerbin Space Station",
+    "name"         : "Contract Pack: Useful Space Stations",
     "abstract"     : "Adds maintenance missions to your Space Stations",
     "license"      : "CC-BY-SA-4.0",
     "$vref"        : "#/ckan/ksp-avc",
     "depends" : [
         {
             "name" : "ContractConfigurator",
-            "min_version" : "0.1.25"
+            "min_version" : "1.2.5"
         },
         { "name" : "ModuleManager" }
     ],
