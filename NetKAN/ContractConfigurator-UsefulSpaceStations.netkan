@@ -1,0 +1,25 @@
+{
+    "spec_version" : "v1.4",
+    "identifier"   : "ContractConfigurator-UsefulSpaceStations",
+    "$kref"        : "#/ckan/github/severedsolo/UsefulSpaceStations",
+    "name"         : "Contract Pack: Kerbin Space Station",
+    "abstract"     : "Adds maintenance missions to your Space Stations",
+    "license"      : "CC-BY-SA-4.0",
+    "$vref"        : "#/ckan/ksp-avc",
+    "depends" : [
+        {
+            "name" : "ContractConfigurator",
+            "min_version" : "0.1.25"
+        },
+        { "name" : "ModuleManager" }
+    ],
+    "install" : [
+        {
+            "find" : "UsefulSpaceStations",
+            "install_to" : "GameData/ContractPacks"
+        }
+    ],
+    "resources" : {
+        "homepage" : "http://forum.kerbalspaceprogram.com/threads/113642"
+    }
+}
