@@ -13,6 +13,11 @@
         },
         { "name" : "ModuleManager" }
     ],
+    "conflicts" : [
+        {
+            "name" : "ContractConfigurator-UsefulSpaceStations"
+        }
+    ],
     "install" : [
         {
             "find" : "KerbinSpaceStation",
