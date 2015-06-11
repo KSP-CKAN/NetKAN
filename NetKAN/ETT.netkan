@@ -1,0 +1,19 @@
+{
+    "spec_version" : 1,
+    "identifier"   : "ETT",
+    "$kref"        : "#/ckan/kerbalstuff/901",
+    "x_netkan_license_ok": true,
+    "depends": [
+        { "name": "ModuleManager" }
+    ],
+    "recommends":[
+        { "name": "DMagicOrbitalScience" }
+    ],
+    "suggests":[
+        { "name": "KSPInterstellarExtended" },
+        { "name": "FASA" },
+        { "name": "KWRocketry" },
+        { "name": "AIESAerospace-Unofficial" },
+        { "name": "Firespitter" }
+		]	
+}
