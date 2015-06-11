@@ -1,6 +1,6 @@
 {
     "spec_version"   : "v1.4",
-    "identifier"     : "HeatControlCore",
+    "identifier"     : "HeatControl-Core",
     "$kref"          : "#/ckan/kerbalstuff/890",
     "name"           : "HeatControl Core",
     "abstract"       : "This is the HeatControl plugin stand-alone, for adding functionality to other mods. It contains no parts and does nothing by itself.",
