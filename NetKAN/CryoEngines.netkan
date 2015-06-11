@@ -14,7 +14,7 @@
         { "name" : "CommunityTechTree" }
     ],
     "supports" : [
-        { "name" : "CryoEnginesLFO" }
+        { "name" : "CryoEngines-LFO" }
     ],
     "install" : [
         { "find" : "CryoEngines", "install_to" : "GameData" }
