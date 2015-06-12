@@ -1,7 +1,7 @@
 {
     "spec_version"   : "v1.4",
     "author"         : "Linuxgurugamer",
-    "name"           : "Spacetux Shared Assets",
+    "name"           : "Better Science Labs Continued",
     "abstract"       : "More science labs",
     "identifier"     : "BetterScienceLabsContinued",
     "$kref"          : "#/ckan/kerbalstuff/903",
@@ -9,7 +9,7 @@
     "release_status" : "stable",
     "resources" : {
         "homepage"    : "http://forum.kerbalspaceprogram.com/threads/125193",
-        "kerbalstuff" : "https://kerbalstuff.com/mod/903/Better%20Science%20Labs%20Continued",
+        "kerbalstuff" : "https://kerbalstuff.com/mod/903/Better%20Science%20Labs%20Continued"
     },
     "install": [
         {
