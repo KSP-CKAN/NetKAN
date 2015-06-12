@@ -14,11 +14,11 @@
     "suggests" : [
         { "name" : "ContractConfigurator-Tourism" },
         { "name" : "ContractConfigurator-KerbinSpaceStation" },
-        { "name" : "ContractConfigurator-UsefulSpaceStations" },
         { "name" : "NearFutureConstruction" },
         { "name" : "NearFutureSolar" },
         { "name" : "NearFutureSpacecraft" }
     ],
+    "comment" : "Eventually suggest ContractConfigurator-UsefulSpaceStations after conflict checking works in suggestion wizard",
     "supports" : [
         { "name" : "RasterPropMonitor-Core" },
         { "name" : "ConnectedLivingSpace" }
