@@ -22,7 +22,7 @@
     "depends"      : [
         { "name" : "AnimatedDecouplers" },
         { "name" : "ModuleManager" },
-        { "name" : "RealChute" }
+        { "name" : "RealChute" },
         { "name" : "SDHI-SharedAssets" },
     ],
     "suggests"     : [
