@@ -14,7 +14,7 @@
       {
         "file": "GameData/SDHI",
         "install_to": "GameData",
-        "filter_regexp" : [
+        "filter" : [
                "Agencies"
         ]
       }
