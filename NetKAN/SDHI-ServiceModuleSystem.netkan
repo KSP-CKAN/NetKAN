@@ -1,5 +1,5 @@
 {
-    "spec_version" : 1,
+    "spec_version" : "v1.4",
     "identifier"   : "SDHI-ServiceModuleSystem",
     "$kref"        : "#/ckan/github/sumghai/SDHI_ServiceModuleSystem",
     "name"         : "Sum Dum Heavy Industries - Service Module System",
@@ -13,19 +13,22 @@
     "install": [
       {
         "file": "GameData/SDHI",
-        "install_to": "GameData"
+        "install_to": "GameData",
+        "filter_regexp" : [
+               "Agencies"
+        ]
       }
     ],
     "depends"      : [
         { "name" : "AnimatedDecouplers" },
         { "name" : "ModuleManager" },
-        { "name" : "RealChute" }
+        { "name" : "RealChute" },
+        { "name" : "SDHI-SharedAssets" }
     ],
     "suggests"     : [
         { "name" : "DeadlyReentry" },
         { "name" : "FerramAerospaceResearch" },
         { "name" : "HotRockets" },
-        { "name" : "NodeResizer" },
         { "name" : "TACLS" },
         { "name" : "ShipManifest" },
         { "name" : "ConnectedLivingSpace" }
