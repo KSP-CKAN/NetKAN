@@ -1,9 +1,9 @@
 {
-    "spec_version"   : 1,
+    "spec_version"   : "1.4",
     "identifier"     : "SDHI-SharedAssets",
     "$kref"          : "#/ckan/github/sumghai/SDHI_SharedAssets",
     "name"           : "Sum Dum Heavy Industries - Shared Assets",
-    "abstract"       : "Agency folders shared by multiple SDHI-branded add-ons for Kerbal Space Program ",
+    "abstract"       : "Agency folders shared by multiple SDHI-branded add-ons for Kerbal Space Program",
     "license"        : "unknown",
     "release_status" : "stable",
     "x_netkan_license_ok": true,
