@@ -13,7 +13,7 @@
     "install": [
       {
         "file": "GameData/SDHI",
-        "install_to": "GameData"
+        "install_to": "GameData",
         "filter" : [
                "Agencies"
         ]
