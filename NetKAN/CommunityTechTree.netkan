@@ -7,27 +7,11 @@
     "depends" : [
         { "name" : "ModuleManager", "min_version" : "2.6.2" }
     ],
-    "supports" : [
-        { "name" : "AlcubierreStandalone" },
-        { "name" : "AtomicAge" },
-        { "name" : "CryoEngines" },
-        { "name" : "DMagicOrbitalScience" },
-        { "name" : "HeatControl" },
-        { "name" : "Karbonite" },
-        { "name" : "KarbonitePlus" },
-        { "name" : "KSPInterstellarExtended" },
-        { "name" : "NearFutureConstruction" },
-        { "name" : "NearFutureElectrical" },
-        { "name" : "NearFuturePropulsion" },
-        { "name" : "NearFutureSolar" },
-        { "name" : "NearFutureSpacecraft" },
-        { "name" : "SpaceY-Lifters" },
-        { "name" : "StationPartsExpansion" },
-        { "name" : "UKS" },
-        { "name" : "USI-EXP" },
-        { "name" : "USI-FTT" },
-        { "name" : "USI-LS" },
-        { "name" : "USI-SRV" }
+    "conflicts" : [
+        { "name" : "ETT" },
+        { "name" : "ModOrientedTechTree" },
+        { "name" : "ModOrientedTechTree-Unmanned" },
+        { "name" : "OpenTree" }
     ],
     "install" : [
         { "find" : "CommunityTechTree", "install_to" : "GameData" }
