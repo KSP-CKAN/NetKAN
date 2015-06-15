@@ -10,40 +10,33 @@
     "depends" : [
 		{ "name" : "AdvancedJetEngine" },
 		{ "name" : "CrossFeedEnabler" },
-		{ "name" : "DDSLoader" },
 		{ "name" : "FerramAerospaceResearch" },
 		{ "name" : "KerbalJointReinforcement" },
 		{ "name" : "ModuleManager" },
 		{ "name" : "ModuleRCSFX" },
 		{ "name" : "RealFuels" },
-		{ "name" : "RealSolarSystem" }
+		{ "name" : "RealSolarSystem" },
+		{ "name" : "SmokeScreen" }
     ],
     "recommends" : [
-		{ "name" : "ActiveTextureManagement" },
+		{ "name" : "B9AerospaceProceduralParts" },
 		{ "name" : "BetterBuoyancy" },
 		{ "name" : "ConnectedLivingSpace" },
 		{ "name" : "DeadlyReentry" },
-		{ "name" : "EngineIgnitor" },
 		{ "name" : "FilterExtensions" },
 		{ "name" : "HangarExtender" },
 		{ "name" : "KSP-AVC" },
 		{ "name" : "MechJeb2" },
 		{ "name" : "ModuleFixer" },
-		{ "name" : "NBody" },
-		{ "name" : "PartCatalog" },
-		{ "name" : "ProceduralDynamics" },
 		{ "name" : "ProceduralFairings" },
 		{ "name" : "ProceduralParts" },
 		{ "name" : "RealChute" },
-		{ "name" : "RealPlume" },
-		{ "name" : "RealHeat" },
 		{ "name" : "RemoteTech" },
 		{ "name" : "RemoteTech-Config-RSS" },
 		{ "name" : "TACLS" },
 		{ "name" : "TACLS-Config-RealismOverhaul" },
 		{ "name" : "TextureReplacer" },
-		{ "name" : "Toolbar" },
-		{ "name" : "TweakScale" }
+		{ "name" : "Toolbar" }
     ],
     "suggests"   : [
 		{ "name" : "Service-Compartments-6S" },
@@ -85,8 +78,6 @@
         {
             "file"       : "GameData/RealismOverhaul",
             "install_to" : "GameData",
-			"comment"       : "This regexp skips the Smokescreen folders",
-			"filter_regexp" : "SmokeScreen_"
         },
         {
             "file"       : "GameData/KAS",
