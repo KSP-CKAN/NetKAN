@@ -77,7 +77,7 @@
     "install" : [
         {
             "file"       : "GameData/RealismOverhaul",
-            "install_to" : "GameData",
+            "install_to" : "GameData"
         },
         {
             "file"       : "GameData/KAS",
