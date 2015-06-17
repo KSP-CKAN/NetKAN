@@ -1,6 +1,6 @@
 {
-    "spec_version"   : 1,
-    "$kref"          : "#/ckan/github/NathanKell/RealSolarSystem",
+    "spec_version"   : "v1.4",
+    "$kref"          : "#/ckan/github/KSP-RO/RealSolarSystem",
     "$vref"          : "#/ckan/ksp-avc",
     "name"           : "Real Solar System",
     "identifier"     : "RealSolarSystem",
@@ -8,12 +8,10 @@
     "license"        : "CC-BY-NC-SA",
     "release_status" : "stable",
     "depends" : [
-        { "name" : "RSSTextures" },
-        { "name" : "DDSLoader" },
-        { "name" : "ModuleManager", "min_version" : "2.5.0" }
+		{ "name" : "Kopernicus" },
+        { "name" : "RSSTextures" }
     ],
     "recommends" : [
-        { "name" : "CustomBiomes-Data-RSS" },
         { "name" : "RealismOverhaul" },
         { "name" : "Toolbar" }
     ],
@@ -25,8 +23,12 @@
     },
     "install" : [
         {
-            "file"       : "RealSolarSystem",
+            "find"       : "RealSolarSystem",
             "install_to" : "GameData"
-        }
+        },
+		{
+			"find"		 : "Cache",
+			"install_to" : "GameData/Kopernicus"
+		}
     ]
 }
