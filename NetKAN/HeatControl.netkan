@@ -12,9 +12,6 @@
     "suggests" : [
         { "name" : "CommunityTechTree" }
     ],
-    "conflicts" : [
-        { "name" : "DeadlyReentry" }
-    ],
     "install" : [
         { "find"       : "HeatControl",
           "install_to" : "GameData",
