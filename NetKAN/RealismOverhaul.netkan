@@ -4,7 +4,7 @@
     "$vref"          : "#/ckan/ksp-avc",
     "name"           : "Realism Overhaul",
     "identifier"     : "RealismOverhaul",
-    "abstract"       : "Multipatch to KSP to give things realistic stats and sizes",
+    "abstract"       : "Multipatch to KSP to give spacecraft components realistic stats and sizes",
     "license"        : "CC-BY-SA",
     "release_status" : "stable",
     "depends" : [
