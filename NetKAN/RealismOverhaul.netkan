@@ -15,7 +15,6 @@
 		{ "name" : "ModuleManager" },
 		{ "name" : "ModuleRCSFX" },
 		{ "name" : "RealFuels" },
-		{ "name" : "RealSolarSystem" },
 		{ "name" : "SmokeScreen" }
     ],
     "recommends" : [
@@ -31,6 +30,7 @@
 		{ "name" : "ProceduralFairings" },
 		{ "name" : "ProceduralParts" },
 		{ "name" : "RealChute" },
+		{ "name" : "RealSolarSystem" },
 		{ "name" : "RemoteTech" },
 		{ "name" : "RemoteTech-Config-RSS" },
 		{ "name" : "SemiSaturatableRW" },
