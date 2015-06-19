@@ -17,9 +17,9 @@
     ],
     "suggests" : [
         { "name" : "SCANsat" }
+        { "name" : "HangarExtender" }
+        { "name" : "ExtraPlanetaryLaunchpads" }
     ],
-    "comment"  : "Also recommend ExtraPlanetaryLaunchpads, and Hanger Extender (not on CKAN)",
- 
     "install" : [
         {
             "file"       : "GameData/NetherdyneAerospace",
