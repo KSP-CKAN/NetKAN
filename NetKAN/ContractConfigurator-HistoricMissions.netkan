@@ -7,7 +7,5 @@
 	"install"	: [ { "find" : "HistoricMissions",
 					"install_to" : "GameData/ContractPacks",
 					"filter_regexp" : [ "StockCraft", "EXAMPLECRAFT" ],
-					"comment" : "EXAMPLECRAFT requires SCANsat and RemoteTech while the rest of the mod does not" },
-					{ "find" : "StockCraft",
-					"install_to" : "Ships/VAB" } ]
+					"comment" : "EXAMPLECRAFT requires SCANsat and RemoteTech while the rest of the mod does not" } ]
 }
