@@ -1,0 +1,9 @@
+{
+    "spec_version" : 1,
+    "identifier"   : "NMSG",
+    "$kref"        : "#/ckan/kerbalstuff/924",
+    "x_netkan_license_ok": true,
+	"depends": [
+        { "name": "ModuleManager", "min_version": "2.6.0" }
+    ]
+}
