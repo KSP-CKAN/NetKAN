@@ -6,7 +6,7 @@
 	"depends"	:	{ "name" : "ContractConfigurator", "min_version" : "1.0.2" },
 	"install"	: [ { "find" : "HistoricMissions",
 					"install_to" : "GameData/ContractPacks",
-					"filter" : ["StockCraft", "EXAMPLECRAFT" ]
+					"filter" : ["StockCraft", "EXAMPLECRAFT" ],
 					"comment" : "EXAMPLECRAFT requires SCANsat and RemoteTech while the rest of the mod does not" },
 					{ "find" : "StockCraft",
 					"install_to" : "Ships/VAB" } ]
