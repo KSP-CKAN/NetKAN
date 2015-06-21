@@ -1,0 +1,20 @@
+{
+    "spec_version": 1,
+    "identifier": "EVAHandrailsPackContinued",
+    "$kref": "#/ckan/kerbalstuff/929",
+    "license": "CC-BY-SA-3.0",
+    "conflicts": [
+        { "name": "NebulaEVAHandrails" }
+    ],
+    "provides": [ "NebulaEVAHandrails" ],
+    "depends" : [
+        { "name": "ModuleManager", "min_version": "2.6.5" }
+    ],
+    "install": [
+        {
+            "file": "NEBULA",
+            "install_to": "GameData",
+            "filter_regexp": "ModuleManger.+\\.dll"
+        }
+    ]
+}
