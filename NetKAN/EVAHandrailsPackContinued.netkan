@@ -14,7 +14,7 @@
         {
             "file": "NEBULA",
             "install_to": "GameData",
-            "filter_regexp": "ModuleManger.+\\.dll"
+            "filter_regexp": "ModuleManager.+\\.dll"
         }
     ]
 }
