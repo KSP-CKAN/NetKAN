@@ -1,0 +1,17 @@
+{
+    "spec_version"   : "v1.4",
+    "abstract"       : "EVA Handrails",
+    "identifier"     : "EVAHandrailsPackContinued",
+    "$kref"          : "#/ckan/kerbalstuff/929",
+    "x_netkan_license_ok" : true,
+    "release_status" : "stable",
+    "depends" : [
+        { "name": "ModuleManager" }
+    ],
+    "install": [
+        {
+            "file"       : "NEBULA",
+            "install_to" : "GameData"
+        }
+    ]
+}
