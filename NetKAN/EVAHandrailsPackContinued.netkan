@@ -5,6 +5,7 @@
     "$kref"          : "#/ckan/kerbalstuff/929",
     "x_netkan_license_ok" : true,
     "release_status" : "stable",
+    "license": "CC-BY-SA-3.0",
     "depends" : [
         { "name": "ModuleManager" }
     ],
