@@ -4,6 +4,7 @@
 	"$kref" : "#/ckan/kerbalstuff/933",
 	"$vref" : "#/ckan/ksp-avc",
 	"release_status" : "stable",
+	"x_netkan_license_ok": true,
 	"depends" : 
 	[
 		{ "name": "CommunityResourcePack" },
