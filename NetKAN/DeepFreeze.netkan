@@ -4,7 +4,6 @@
     "spec_version": "v1.4",
     "$kref": "#/ckan/kerbalstuff/895",
     "license": "CC-BY-NC-SA-4.0",
-	"x_netkan_epoch"	:	"1",	
 	"recommends" : [ 
 	{ "name" : "Toolbar" },
 	{ "name" : "ShipManifest" },
