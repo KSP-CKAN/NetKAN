@@ -16,5 +16,8 @@
             "install_to": "GameData",
             "filter_regexp": "ModuleManager.+\\.dll"
         }
-    ]
+    ],
+    "resources": {
+        "homepage": "https://kerbalstuff.com/mod/929/EVA%20Handrails%20Pack%20Continued"
+    }
 }
