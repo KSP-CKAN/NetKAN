@@ -6,5 +6,11 @@
     "license": "MIT",
 	"install": [
 		{ "find": "TarsierSpaceTech", "install_to": "GameData" }
-	]
+	],
+	"recommends": [
+		{ "name": "KAS" },
+        { "name": "KIS" },
+		{ "name": "ModuleManager" },
+		{ "name": "Toolbar" }
+	]	
 }
