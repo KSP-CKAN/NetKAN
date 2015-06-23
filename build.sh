@@ -42,7 +42,7 @@ then
 fi
 
 mkdir dummy_ksp
-echo Version 1.0.3 > dummy_ksp/readme.txt
+echo Version 1.0.4 > dummy_ksp/readme.txt
 mkdir dummy_ksp/GameData
 mkdir dummy_ksp/Ships/
 mkdir dummy_ksp/Ships/VAB
