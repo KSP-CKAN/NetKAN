@@ -1,0 +1,9 @@
+{
+    "spec_version": 1,
+    "identifier": "HotSpot",
+    "$kref": "#/ckan/kerbalstuff/937",
+    "x_netkan_license_ok": true,
+    "depends": [
+        { "name": "ModuleManager", "min_version": "2.6.5" }
+    ]
+}
