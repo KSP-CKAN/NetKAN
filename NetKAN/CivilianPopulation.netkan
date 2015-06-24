@@ -8,6 +8,7 @@
     "license"        : "CC-BY-NC-SA",
     "release_status" : "stable",
     "$vref"          : "#/ckan/ksp-avc",
+    "x_netkan_epoch" : "1",
     "resources" : {
         "homepage" : "http://forum.kerbalspaceprogram.com/threads/124162-1-0-2-Civilian-Population-1-5-1-%28update-6-4-15%29"
     },
