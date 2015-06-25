@@ -3,13 +3,14 @@
     "identifier"     : "FerramAerospaceResearch",
     "$kref"          : "#/ckan/kerbalstuff/52",
     "license"        : "GPL-3.0",
+    "x_netkan_epoch" : "1",
     "release_status" : "stable",
     "resources" : {
         "repository" : "https://github.com/ferram4/Ferram-Aerospace-Research"
     },
 	
-	"provides"  : [ "AerodynamicModel", "FAR" ],
-	"conflicts" : [ { "name" : "AerodynamicModel" } ],
+    "provides"  : [ "AerodynamicModel", "FAR" ],
+    "conflicts" : [ { "name" : "AerodynamicModel" } ],
 	
     "depends" : [
     	{ "name" : "ModuleManager" },
