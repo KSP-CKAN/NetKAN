@@ -7,7 +7,7 @@
     "license"      : "CC-BY-SA",
     "author"       : [ "ialdabaoth", "NathanKell" ],
     "release_status" : "stable",
-    "ksp_version"  : "1.0.2",
+    "ksp_version"  : "1.0.",4
     "resources" : { "homepage" : "http://forum.kerbalspaceprogram.com/threads/64118" },
     "install" : [
         {
@@ -27,12 +27,10 @@
         { "name" : "ModularFuelTanks"  },
         { "name" : "InterstellarFuelSwitch" },
         { "name" : "Fuelswitchtoeverytank" },
-        { "name" : "StockFuelSwitch" }
+        { "name" : "StockFuelSwitch" },
+        { "name" : "EngineIgnitor" }
     ],
     "recommends" : [
         { "name" : "CrossFeedEnabler" }
-    ],
-    "suggests" : [
-        { "name" : "EngineIgnitor" }
     ]
 }
