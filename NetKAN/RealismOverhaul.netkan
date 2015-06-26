@@ -14,6 +14,7 @@
 		{ "name" : "KerbalJointReinforcement" },
 		{ "name" : "ModuleManager" },
 		{ "name" : "ModuleRCSFX" },
+		{ "name" : "RealChute" },
 		{ "name" : "RealFuels" },
 		{ "name" : "SmokeScreen" }
     ],
@@ -29,7 +30,6 @@
 		{ "name" : "ModuleFixer" },
 		{ "name" : "ProceduralFairings" },
 		{ "name" : "ProceduralParts" },
-		{ "name" : "RealChute" },
 		{ "name" : "RealSolarSystem" },
 		{ "name" : "RemoteTech" },
 		{ "name" : "RemoteTech-Config-RSS" },
