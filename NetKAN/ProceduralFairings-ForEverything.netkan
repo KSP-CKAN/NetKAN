@@ -9,7 +9,7 @@
     "resources"     : {
         "homepage"  : "http://forum.kerbalspaceprogram.com/threads/126788"
     },
-    "provides"      : [ "PFTextures" ]
+    "provides"      : [ "PFTextures" ],
     "depends"       : [
         { "name"    : "ModuleManager" },
         { "name"    : "FirespitterCore" },
