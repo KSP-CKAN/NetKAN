@@ -1,0 +1,39 @@
+{
+    "spec_version" : 1,
+	"author"      : [ "CosmoBro" ],
+    "identifier"   : "ContractConfigurator-BaseConstuction",
+    "name"         : "Contract Pack: Base Construction",
+    "abstract"     : "This add contracts for base construction. This can be done in any planet or moon that you want even supports planet packs. Also the bases doesn't need to dock just to land very close to the main base",
+    "license"      : "MIT",
+	"$vref"        : "#/ckan/ksp-avc"
+	"$kref"        : "#/ckan/github/CosmoBro/BaseConstruction",
+	"depends": [
+        {
+            "name": "ContractConfigurator",
+            "min_version": "1.5.0"
+        },
+        {
+            "name": "ModuleManager"
+        }
+    ],
+	"install": [
+        {
+            "find": "BaseConstuction",
+            "install_to": "GameData/ContractPacks"
+        }
+    ],
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/124301"
+    }
+	"suggests": [
+        {
+            "name": "KAS",
+        },
+        {
+            "name": "TACLS"
+        },
+		{
+            "name": "UKS"
+        }
+    ],
+}
