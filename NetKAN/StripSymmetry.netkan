@@ -1,17 +1,16 @@
 {
     "spec_version" 	: "v1.4",
     "identifier"   	: "StripSymmetry",
-	"author"		: "Biotronic",
+    "author"		: "Biotronic",
     "$kref"        	: "#/ckan/github/Biotronic/StripSymmetry",
     "name"         	: "Strip Symmetry",
     "abstract"     	: "Remove Symmetry!",
     "license"      	: "WTFPL",
-	
-	"release_status"	: "stable",
-    "ksp_version_min"	: "0.25",
-	
-	"resources": {
-		"homepage": "http://forum.kerbalspaceprogram.com/threads/80654",
-		"repository": "https://github.com/Biotronic/StripSymmetry"
-	}
+    "release_status"	: "stable",
+    "ksp_version_min"	: "1.0.0",
+    "ksp_version_max"   : "1.0.99",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/80654",
+        "repository": "https://github.com/Biotronic/StripSymmetry"
+    }
 }
