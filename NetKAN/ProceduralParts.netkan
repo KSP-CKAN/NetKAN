@@ -15,5 +15,13 @@
     "suggests" : [ 
         { "name" : "PPTextures" },
         { "name" : "FreedomTex" }
+    ],
+    "x_netkan_override": [
+    	{
+    		"version": "v1.1.4",
+    		"override": {
+    			"ksp_version": "1.0.4"
+    		}
+    	}
     ]
 }
