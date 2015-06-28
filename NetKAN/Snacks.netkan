@@ -6,5 +6,15 @@
     "abstract"     : "Add a simple life support system based on Snacks!",
     "license"      : "MIT",
     "ksp_version"  : "0.90",
-    "depends": [ { "name": "ModuleManager" } ]
+    "depends": [ { "name": "ModuleManager" } ],
+    "x_netkan_override" : [
+        {
+            "version" : "v0.11.1.20",
+            "delete" : [ "ksp_version" ],
+            "override" : {
+                "ksp_version_min" : "1.0.2",
+                "ksp_version_max" : "1.0.4"
+            }
+        }
+    ]
 }
