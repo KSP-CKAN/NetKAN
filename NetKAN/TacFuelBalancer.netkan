@@ -22,4 +22,14 @@
         "bugtracker" : "https://github.com/taraniselsu/TacFuelBalancer/issues",
         "repository" : "https://github.com/taraniselsu/TacFuelBalancer"
     }
+    "x_netkan_override" : [
+        {
+            "version" : "2.5.1",
+            "delete" : [ "ksp_version" ],
+            "override" : {
+                "ksp_version_min" : "1.0.2",
+                "ksp_version_max" : "1.0.4"
+            }
+        }
+    ]
 }
