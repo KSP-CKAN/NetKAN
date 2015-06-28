@@ -13,7 +13,8 @@
     "install" : [
         {
             "file"       : "GameData/000_FilterExtensions Configs",
-            "install_to" : "GameData"
+            "install_to" : "GameData",
+            "filter"	 : "StockRework"
         }
     ]
 }
