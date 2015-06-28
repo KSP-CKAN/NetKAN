@@ -8,8 +8,9 @@
     "license"      	: "WTFPL",
     "release_status"	: "stable",
     "ksp_version_min"	: "1.0.0",
+    "ksp_version_max"   : "1.0.99",
     "resources": {
         "homepage": "http://forum.kerbalspaceprogram.com/threads/80654",
         "repository": "https://github.com/Biotronic/StripSymmetry"
-    },
+    }
 }
