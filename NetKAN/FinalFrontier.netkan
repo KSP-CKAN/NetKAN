@@ -10,7 +10,7 @@
         {
             "file": "GameData",
             "install_to": "GameData",
-            "filter": [ "000_Toolbar", "Source" ]
+            "filter": [ "000_Toolbar", "Source", ]
        }
     ]
     "x_netkan_override" : [
@@ -19,7 +19,7 @@
             "delete" : [ "ksp_version" ],
             "override" : {
                 "ksp_version_min" : "1.0.2",
-                "ksp_version_max" : "1.0.4",
+                "ksp_version_max" : "1.0.4"
             }
         }
     ]
