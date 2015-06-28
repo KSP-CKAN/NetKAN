@@ -9,7 +9,7 @@
     "depends": [ { "name": "ModuleManager" } ],
     "x_netkan_override" : [
         {
-            "version" : "v0.11.1.20",
+            "version" : "0.3.4",
             "delete" : [ "ksp_version" ],
             "override" : {
                 "ksp_version_min" : "1.0.2",
