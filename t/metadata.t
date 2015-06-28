@@ -51,6 +51,28 @@ foreach my $shortname (sort keys %files) {
         "$shortname has no \$kref/\$vref field. It belongs in CKAN-meta"
     );
 
+    if (my $overrides = $metadata->{x_netkan_override}) {
+
+        my $is_array = ref($overrides) eq "ARRAY";
+
+        ok($is_array, "Netkan overrides require an array");
+
+        # If we don't have an array, then skip this next part.
+        $overrides = [] if not $is_array;
+
+        foreach my $override (@$overrides) {
+            ok(
+                $override->{version},
+                "$shortname - Netkan overrides require a version"
+            );
+
+            ok(
+                $override->{delete} || $override->{override},
+                "$shortname - Netkan overrides require a delete or override section"
+            );
+        }
+    }
+
     my $spec_version = $metadata->{spec_version};
     foreach my $install (@{$metadata->{install}}) {
         if ($install->{install_to} =~ m{^GameData/}) {
