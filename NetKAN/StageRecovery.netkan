@@ -2,6 +2,7 @@
     "spec_version"   : 1,
     "identifier"     : "StageRecovery",
     "$kref"          : "#/ckan/kerbalstuff/97",
+    "$vref"          : "#/ckan/ksp-avc",
     "resources"      : {
     "repository"     : "https://github.com/magico13/StageRecovery"
     },
@@ -18,5 +19,12 @@
             "install_to" : "GameData"
         }
     ],
-    "x_netkan_license_ok" : true
+    "x_netkan_license_ok" : true,
+    "x_netkan_override": [{
+        "version": "1.5.6",
+        "override": {
+            "ksp_version_min": "1.0.2",
+            "ksp_version_max": "1.0.4"
+        }
+    }]
 }
