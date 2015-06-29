@@ -8,7 +8,9 @@
         "SigmaRTExpansion"
     ],
     "depends": [
-        { "name": "ModuleManager" },
+        { "name": "ModuleManager" }
+    ],
+    "recommends": [
         { "name": "OuterPlanetsMod" },
         { "name": "RemoteTech" }
     ],
