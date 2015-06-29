@@ -1,0 +1,22 @@
+{
+    "spec_version"   : 1,
+    "identifier"     : "Fingerboxes",
+    "$kref"          : "#/ckan/github/fingerboxes/HoloDeck",
+    "name"           : "HoloDeck",
+    "abstract"       : "Holodeck lets you launch flights from the VAB/SPH, and when the flight is over, it restores the game to the exact state that it was in before the simulation started. It handles restoring the state of any mod which stores its data in the vanilla persistence file (basically any of them worth their salt), and even handles it if you exit the game during a simulation.",
+    "license"        : "MIT",
+    "resources"      : {
+                          "homepage": "http://forum.kerbalspaceprogram.com/threads/118575-1-0-x-HoloDeck-Sandboxed-Flight-Simulations"
+                       },
+    "comment"        : "Added by user blnk2007",
+    "x_netkan_override" : [
+        {
+            "version" : "0.1.0",
+            "delete" : [ "ksp_version" ],
+            "override" : {
+                "ksp_version_min" : "1.0.0",
+                "ksp_version_max" : "1.0.4"
+            }
+        }
+    ]
+}
