@@ -9,6 +9,8 @@
     ],
     "depends": [
         { "name": "ModuleManager" },
+    ],
+    "recommends": [
         { "name": "OuterPlanetsMod" },
         { "name": "RemoteTech" }
     ],
