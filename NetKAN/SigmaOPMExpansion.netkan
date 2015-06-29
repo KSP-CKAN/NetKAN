@@ -7,6 +7,12 @@
         { "name": "ModuleManager" },
         { "name": "OuterPlanetsMod" }
     ],
+    "supports": [
+    { "name": "PlanetShine" },
+    { "name": "DistantObjectEnhancement" },
+    { "name": "AntennaRange" },
+    { "name": "SCANsat" }
+    ],
     "install": [
         {
             "file": "GameData/Sigma",
