@@ -3,6 +3,10 @@
     "identifier"     : "KerbalFoundries",
     "$kref"          : "#/ckan/kerbalstuff/58",
     "license"        : "GPL-3.0",
+	"resources": 
+	{
+		"repository": " https://kerbalstuff.com/mod/58/"
+    },
     "recommends" : [
         { "name" : "TweakScale" }
     ],
