@@ -14,7 +14,7 @@
         { "name": "ToadicusTools" },
 	{ "name": "EVAManager" }
     ],
-    "suggests": [
+    "recommends": [
     	{ "name": "TweakableEverythingExtras" }
     ]
 }
