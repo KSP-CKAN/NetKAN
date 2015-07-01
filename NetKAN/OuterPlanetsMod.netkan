@@ -5,8 +5,8 @@
   "x_netkan_epoch": "1",
   "license": "CC-BY-NC-SA-4.0",
   "depends": [
-    { "name": "ModuleManager", "min_version": "2.6.5" },
-    { "name": "Kopernicus", "min_version": "pre-alpha-09" }
+    { "name": "ModuleManager", "min_version": "2.6.6" },
+    { "name": "Kopernicus", "min_version": "1:beta-01" }
   ],
   "conflicts": [
     { "name": "CustomBiomes" },
