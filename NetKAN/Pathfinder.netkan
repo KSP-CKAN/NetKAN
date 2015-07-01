@@ -3,6 +3,7 @@
     "identifier": "Pathfinder",
     "$kref": "#/ckan/kerbalstuff/933",
     "$vref": "#/ckan/ksp-avc",
+    "x_netkan_license_ok": true,
     "depends" : [
         { "name": "CommunityResourcePack", "min_version": "0.4.2" },
         { "name": "WildBlueTools", "min_version": "1.0.4" },
