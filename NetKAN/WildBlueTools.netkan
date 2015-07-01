@@ -3,7 +3,7 @@
     "identifier": "WildBlueTools",
     "$kref": "#/ckan/kerbalstuff/947",
     "$vref": "#/ckan/ksp-avc",
-    "x_netkan_license_ok": true,
+    "license": "CC-BY-NC-SA-4.0",
     "install" : [
         {
             "file": "GameData/WildBlueIndustries",
