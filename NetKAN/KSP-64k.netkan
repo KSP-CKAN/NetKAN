@@ -1,0 +1,23 @@
+{
+    "spec_version": 1,
+    "identifier": "KSP-64k",
+    "$kref": "#/ckan/kerbalstuff/573",
+    "license": "CC-BY-NC-4.0",
+    "install": [
+        {
+            "file": "GameData/64k",
+            "install_to": "GameData"
+        }
+    ],
+    "depends": [
+        { "name": "ModuleManager", "min_version": "2.6.6" },
+        { "name": "Kopernicus", "min_version": "pre-alpha-07" }
+    ],
+    "suggests": [
+        { "name": "ProceduralParts" },
+        { "name": "ImageViewer" },
+        { "name": "KSP-64k-12HourDay" },
+        { "name": "KSP-64k-imgviewer" },
+        { "name": "RemoteTech" }
+    ]
+}
