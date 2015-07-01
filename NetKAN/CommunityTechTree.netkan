@@ -10,8 +10,7 @@
     "conflicts" : [
         { "name" : "ETT" },
         { "name" : "ModOrientedTechTree" },
-        { "name" : "ModOrientedTechTree-Unmanned" },
-        { "name" : "OpenTree" }
+        { "name" : "ModOrientedTechTree-Unmanned" }
     ],
     "install" : [
         { "find" : "CommunityTechTree", "install_to" : "GameData" }
