@@ -14,7 +14,8 @@
         { "name": "ToadicusTools" },
 	{ "name": "EVAManager" }
     ],
-    "suggests": [
-    	{ "name": "TweakableEverythingExtras" }
+    "recommends": [
+    	{ "name": "TweakableEverything-EngineStagingToggle" },
+    	{ "name": "TweakableEverything-FairingStagingToggle" }
     ]
 }
