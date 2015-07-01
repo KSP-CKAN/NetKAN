@@ -2,5 +2,14 @@
     "spec_version" : 1,
     "identifier"   : "Chatterer",
     "license"      : "GPL-3.0",
-    "$kref"        : "#/ckan/kerbalstuff/124"
+    "$kref"        : "#/ckan/kerbalstuff/124",
+    "x_netkan_override" : [
+        {
+            "version" : "0.9.5",
+            "delete" : [ "ksp_version" ],
+            "override" : {
+                "ksp_version_min" : "1.0.2",
+                "ksp_version_max" : "1.0.4"
+            }
+        }
 }
