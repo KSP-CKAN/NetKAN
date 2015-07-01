@@ -10,7 +10,8 @@
         {
             "file"       : "GameData/CollisionFX",
             "install_to" : "GameData"
-        },
+        }
+    ],
     "x_netkan_override" : [
         {
             "version" : "3.2",
