@@ -1,0 +1,14 @@
+{
+    "spec_version"   : "v1.4",
+    "identifier"     : "WildBlueTools",
+    "$kref"          : "#/ckan/kerbalstuff/947",
+    "$vref"          : "#/ckan/ksp-avc",
+    "release_status" : "stable",
+    "x_netkan_license_ok" : true,
+    "install" : [
+        {
+            "find"       : "WildBlueIndustries",
+            "install_to" : "GameData/WildBlueIndustries"
+        }
+    ]
+}

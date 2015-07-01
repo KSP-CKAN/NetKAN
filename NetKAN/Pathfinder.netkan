@@ -1,0 +1,19 @@
+{
+    "spec_version"   : "v1.4",
+    "identifier"     : "Pathfinder",
+    "$kref"          : "#/ckan/kerbalstuff/933",
+    "$vref"          : "#/ckan/ksp-avc",
+    "release_status" : "stable",
+    "x_netkan_license_ok" : true,
+    "depends" : [
+        { "name": "CommunityResourcePack" },
+        { "name": "WildBlueTools" },
+        { "name": "ModuleManager" }
+    ],
+    "install" : [
+        {
+            "find"       : "WildBlueIndustries",
+            "install_to" : "GameData/WildBlueIndustries"
+        }
+    ]
+}
