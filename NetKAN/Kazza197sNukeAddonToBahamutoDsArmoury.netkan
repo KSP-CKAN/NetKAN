@@ -1,0 +1,15 @@
+{
+    "spec_version": 1,
+    "license": "CC-BY-4.0",
+    "$kref": "#/ckan/kerbalstuff/438",
+    "identifier": "Kazza197sNukeAddonToBahamutoDsArmoury",
+    "depends": [
+        { "name": "BDArmory" }
+    ],
+    "install": [
+        {
+            "file"       : "littleboyBomb",
+            "install_to" : "GameData/BDArmory/Parts"
+        }
+    ]
+}
