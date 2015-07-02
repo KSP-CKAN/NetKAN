@@ -1,0 +1,15 @@
+{
+    "spec_version": "v1.2",
+    "license": "CC-BY-4.0",
+    "$kref": "#/ckan/kerbalstuff/904",
+    "identifier": "Super100ShootingStarCommandPod",
+    "install": [
+        {
+            "find"       : "RaptorAerospacial",
+            "install_to" : "GameData"
+        }
+    ],
+    "depends": [
+        { "name": "RasterPropMonitor-Core" }
+    ]
+}
