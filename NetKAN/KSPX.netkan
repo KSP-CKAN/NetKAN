@@ -1,12 +1,22 @@
  {
-    "identifier": "KSPX",
     "spec_version": "v1.4",
+    "identifier": "KSPX",
     "$kref": "#/ckan/kerbalstuff/191",
     "license": "restricted",
-	"install": [
-		{ "file": "GameData/KSPX", "install_to": "GameData" }
-	],
-	"depends": [
-		{ "name": "ModuleManager" }
-	]
+    "install": [
+        { "file": "GameData/KSPX", "install_to": "GameData" }
+    ],
+    "depends": [
+        { "name": "ModuleManager" }
+    ],
+    "x_netkan_override": [
+        {
+            "version": "0.2.9b",
+            "delete": [ "ksp_version" ],
+            "override": {
+                "ksp_version_min": "1.0.2",
+                "ksp_version_max": "1.0.4"
+            }
+        }
+    ]
 }
