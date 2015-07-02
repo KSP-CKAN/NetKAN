@@ -1,0 +1,16 @@
+{
+    "spec_version": "v1.10",
+    "$kref": "#/ckan/kerbalstuff/887",
+    "identifier"  : "TrizzleAeroSpaceCompany",
+    "license"     : "MIT",
+    "resources": {
+        "homepage": "https://kerbalstuff.com/mod/887/Trizzle%20AeroSpace%20Company"
+    },
+    "install": [
+        {
+            "find_regexp": "TrizzleAeroSpace_v\\d\\d*\\.\\d\\d*",
+            "install_to" : "GameData/TrizzleAeroSpace",
+            "filter"     : ".DS_Store"
+        }
+    ]
+}
