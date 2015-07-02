@@ -1,10 +1,19 @@
 {
-    "identifier": "KerbalNRAP",
-    "x_via": "Automated KerbalStuff CKAN submission",
     "spec_version": "v1.4",
+    "identifier": "KerbalNRAP",
     "$kref": "#/ckan/kerbalstuff/89",
     "license": "CC-BY-SA",
-	"install": [
-		{ "file": "GameData/NRAP", "install_to": "GameData" }
-	]
+    "install": [
+        { "file": "GameData/NRAP", "install_to": "GameData" }
+    ],
+    "x_netkan_override": [
+        {
+            "version": "1.5.0.4",
+            "delete": [ "ksp_version" ],
+            "override": {
+                "ksp_version_min": "1.0.2",
+                "ksp_version_max": "1.0.4"
+            }
+        }
+    ]
 }
