@@ -5,7 +5,7 @@
     "identifier": "ModularComputerPackage",
     "install": [
         {
-            "file"       : "GameData/ChromaWorks",
+            "file"       : "ChromaWorks",
             "install_to" : "GameData",
             "comment" : "The 2 following filters can be removed if the archive no longer contains backup/duplicate files",
             "filter"     : "license (CC-BY-NC-SA)~",
