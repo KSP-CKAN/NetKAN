@@ -6,7 +6,7 @@
     "name": "LLL Extra Parts",
     "depends": [
         { "name": "LLL" }
-    ]
+    ],
     "install": [
         {
             "file"       : "GameData/LLL-Extra/Parts",
