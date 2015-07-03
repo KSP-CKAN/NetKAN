@@ -6,7 +6,7 @@
     "abstract"    : "Stockalike VASIMR and argon tanks",
     "install": [
         {
-            "file"       : "Place in Gamedata/SmallFatTechnology\",
+            "file"       : "Place in Gamedata/SmallFatTechnology",
             "install_to" : "GameData",
             "filter"     : ".DS_Store"
         }
