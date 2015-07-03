@@ -4,6 +4,9 @@
     "spec_version": "v1.4",
     "$kref": "#/ckan/kerbalstuff/575",
     "license": "CC-BY-SA-4.0",
+	"resources": {
+		"homepage": "http://forum.kerbalspaceprogram.com/threads/110172"
+	},
 	"install": [
 		{ "file": "GameData/FederalProductions", "install_to": "GameData" }
 	],
