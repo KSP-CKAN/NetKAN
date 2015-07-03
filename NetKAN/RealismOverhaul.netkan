@@ -16,6 +16,7 @@
 		{ "name" : "ModuleRCSFX" },
 		{ "name" : "RealChute" },
 		{ "name" : "RealFuels" },
+		{ "name" : "RealPlume" },
 		{ "name" : "SmokeScreen" }
     ],
     "recommends" : [
@@ -70,8 +71,12 @@
 		{ "name" : "UniversalStorage" },
 		{ "name" : "VenStockRevamp"}
     ],
+        "provides"	:	[
+		{ "name" : "RealPlumeConfigs" }
+	],
 	"conflicts"	:	[
-		{ "name" : "TweakableEverything" }
+		{ "name" : "TweakableEverything" },
+		{ "name" : "RealPlumeConfigs" }
 	],
     "provides" : [ "RealFuels-Engine-Configs" ],
     "resources" : {
