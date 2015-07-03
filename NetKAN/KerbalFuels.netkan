@@ -6,5 +6,8 @@
     "depends": [
         { "name": "ModuleManager" },
         { "name": "ProceduralParts"}
-    ]
+    ],
+        "resources": {
+        "homepage": "https://kerbalstuff.com/mod/941/Kerbal%20Fuels"
+    }
 }
