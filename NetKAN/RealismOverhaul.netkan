@@ -73,13 +73,13 @@
 		{ "name" : "VenStockRevamp"}
     ],
         "provides"	:	[
-		{ "name" : "RealPlumeConfigs" }
+		{ "name" : "RealPlumeConfigs" },
+		{ "name" : "RealFuels-Engine-Configs" }
 	],
 	"conflicts"	:	[
 		{ "name" : "TweakableEverything" },
 		{ "name" : "RealPlumeConfigs" }
 	],
-    "provides" : [ "RealFuels-Engine-Configs" ],
     "resources" : {
         "homepage" : "http://forum.kerbalspaceprogram.com/threads/99966"
     },
