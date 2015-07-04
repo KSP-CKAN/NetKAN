@@ -10,5 +10,15 @@
 	"install"	: [ { "find" : "MagicSmokeIndustries",
 					"install_to" : "GameData",
 					"filter_regexp" : [	"Rework_License.txt",
-										"Rework_TweakScale.cfg" ] } ]
+										"Rework_TweakScale.cfg" ] } ],
+    "x_netkan_override" : [
+		{
+			"version" : "v01b",
+			"delete" : [ "ksp_version" ],
+			"override" : {
+				"ksp_version_min" : "1.0.2",
+				"ksp_version_max" : "1.0.4"
+			}
+		}
+    ]
 }
