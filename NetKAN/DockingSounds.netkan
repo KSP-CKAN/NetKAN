@@ -1,0 +1,15 @@
+{
+    "spec_version": 1,
+    "license": "CC-BY-SA-4.0",
+    "$kref": "#/ckan/kerbalstuff/927",
+    "identifier": "DockingSounds",
+    "install": [
+        {
+            "file"       : "GameData/DPSoundFX",
+            "install_to" : "GameData"
+        }
+    ],
+    "depends": [
+        { "name": "ModuleManager" }
+    ]
+}
