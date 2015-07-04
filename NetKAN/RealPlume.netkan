@@ -12,6 +12,9 @@
         { "name" : "SmokeScreen" },
         { "name" : "RealPlumeConfigs" }
     ],
+    "conflicts" : [
+        { "name" : "HotRockets" }
+    ],
     "resources" : {
         "homepage" : "https://github.com/KSP-RO/RealPlume/wiki"
     },
