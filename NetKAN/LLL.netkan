@@ -5,7 +5,7 @@
     "identifier": "LLL",
     "depends": [
         { "name": "ModuleManager" },
-        { "name": "FireSpitterCore"}
+        { "name": "FirespitterCore"}
     ],
     "recommends": [
         { "name": "TweakScale" },
