@@ -1,0 +1,15 @@
+{
+    "spec_version": 1,
+    "license": "GPL-3.0",
+    "$kref": "#/ckan/kerbalstuff/900",
+    "identifier": "SolarisHypernautics",
+    "install": [
+        {
+            "file"       : "Solaris Hypernautics",
+            "install_to" : "GameData"
+        }
+    ],
+    "recommends": [
+        { "name": "ModuleManager" }
+    ]
+}
