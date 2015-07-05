@@ -1,5 +1,5 @@
 {
-    "spec_version": 1,
+    "spec_version": "v1.10",
     "license": "MIT",
     "$kref": "#/ckan/kerbalstuff/946",
     "identifier": "EBRCPartspack",
@@ -8,7 +8,7 @@
     },
     "install": [
         {
-            "file"       : "EBRC-PACKS_PACK-1/EBRC",
+            "find_regexp": "EBRC-PACKS_PACK-\\d+/EBRC",
             "install_to" : "GameData",
             "filter"     : ".DS_Store"
         }
