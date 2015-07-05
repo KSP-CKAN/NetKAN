@@ -1,0 +1,12 @@
+{
+    "spec_version": 1,
+    "license": "CC-BY-4.0",
+    "$kref": "#/ckan/kerbalstuff/944",
+    "identifier": "EasyLaunchpads",
+    "resources": {
+        "homepage": "https://kerbalstuff.com/mod/944/ExtraPlanetary%20Launchpad%20Simplifier."
+    },
+    "depends": [
+        { "name": "ExtraPlanetaryLaunchpads" }
+    ]
+}
