@@ -1,6 +1,6 @@
 The NetKAN consists of CKAN fragments which are used by our indexing bots to generate metadata for use by the CKAN client and other tools. The files themselves live [in the `NetKAN` directory](https://github.com/KSP-CKAN/NetKAN/tree/master/NetKAN).
 
-Contributing to the NetKAN is the preferred way to add CKAN support for a mod, as it needs only be done once, and our bots will automatically pick up new release.
+Contributing to the NetKAN is the preferred way to add CKAN support for a mod, as it needs only be done once, and our bots will automatically pick up new releases.
 
 The format of NetKAN files is that described in the [CKAN Spec](https://github.com/KSP-CKAN/CKAN/blob/master/Spec.md), *including* the special use fields at the end.
 
