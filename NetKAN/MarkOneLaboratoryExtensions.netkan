@@ -1,0 +1,18 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "MarkOneLaboratoryExtensions",
+    "$kref": "#/ckan/kerbalstuff/964",
+    "$vref": "#/ckan/ksp-avc",
+    "license": "CC-BY-NC-SA-4.0",
+    "depends" : [
+        { "name": "CommunityResourcePack", "min_version": "0.4.2" },
+        { "name": "WildBlueTools", "min_version": "1.0.4" },
+        { "name": "ModuleManager", "min_version": "2.6.5" }
+    ],
+    "install" : [
+        {
+            "find": "MOLE",
+            "install_to": "GameData/WildBlueIndustries"
+        }
+    ]
+}
