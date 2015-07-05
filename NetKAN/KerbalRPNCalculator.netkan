@@ -3,7 +3,7 @@
     "identifier": "KerbalRPNCalculator",
     "$kref": "#/ckan/kerbalstuff/480",
     "license": "GPL-3.0",
-    "$vref": "#/ckan/avc",
+    "$vref": "#/ckan/ksp-avc",
     "install": [
 		{
 			"file" : "Textures",
