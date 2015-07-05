@@ -1,15 +1,15 @@
 {
     "spec_version": 1,
-    "license": "GPL-3.0",
+    "identifier": "HotRocketsFireworksPack",
     "$kref": "#/ckan/kerbalstuff/972",
-    "identifier": "HotRocketsFireworkspack"
+    "license": "GPL-3.0",
+    "depends" : [
+        { "name" : "SmokeScreen" }
+    ],
     "install" : [
         {
             "file"       : "MP_Nazari",
             "install_to" : "GameData"
         }
-    ],
-    "depends" : [
-		{ "name" : "SmokeScreen" }
     ]
 }
