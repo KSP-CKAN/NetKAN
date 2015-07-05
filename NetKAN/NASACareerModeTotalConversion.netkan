@@ -5,7 +5,7 @@
     "identifier": "NASACareerModeTotalConversion",
     "install": [
         {
-            "file"       : "GameData/USAConversion",
+            "file"       : "GameData/USAconversion",
             "install_to" : "GameData",
             "filter"     : "Thumbs.db"
         },
