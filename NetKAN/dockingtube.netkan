@@ -2,7 +2,7 @@
     "identifier": "dockingtube",
     "spec_version": 1,
     "$kref": "#/ckan/kerbalstuff/619",
-    "license": "unknown",
+    "license": "unrestricted",
 	
 	"depends" : [ { "name": "KAS" } ]
 }
