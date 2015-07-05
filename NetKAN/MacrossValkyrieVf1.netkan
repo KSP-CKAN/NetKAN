@@ -1,0 +1,16 @@
+{
+    "spec_version": 1,
+    "license": "MIT",
+    "$kref": "#/ckan/kerbalstuff/961",
+    "identifier": "MacrossValkyrieVf1",
+    "depends": [
+        { "name": "InfernalRobotics" }
+    ],
+    "install": [
+        {
+            "file"       : "Y",
+            "install_to" : "GameData",
+            "filter"     : [ "Vf1.zip", "VF1.craft" ] 
+        }
+    ]
+}
