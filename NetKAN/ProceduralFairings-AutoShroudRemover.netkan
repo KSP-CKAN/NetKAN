@@ -1,7 +1,7 @@
 {
     "spec_version"   : "v1.4",
     "$kref"          : "#/ckan/github/Felger/FelgerFixes",
-	"ksp_version"    : "1.0"
+    "ksp_version"    : "1.0",
     "name"           : "Procedural Fairings - Auto-Shroud Remover",
     "identifier"     : "ProceduralFairings-AutoShroudRemover",
     "abstract"       : "Optional ModuleManager patch by Felger to remove the auto-shrouds that spawn when engines are attached to parts, to allow for a more clean use of the Procedural Interstage Fairings.",
