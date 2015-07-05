@@ -72,8 +72,7 @@
 		{ "name" : "UniversalStorage" },
 		{ "name" : "VenStockRevamp"}
     ],
-        "provides"  : [ "RealPlumeConfigs" ],
-        "provides"  : [ "RealFuels-Engine-Configs" ],
+        "provides"  : [ "RealPlumeConfigs", "RealFuels-Engine-Configs" ],
 	"conflicts"	:	[
 		{ "name" : "TweakableEverything" },
 		{ "name" : "RealPlumeConfigs" }
