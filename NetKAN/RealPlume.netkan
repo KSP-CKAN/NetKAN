@@ -6,7 +6,7 @@
     "identifier"        : "RealPlume",
     "abstract"          : "A set of effects and basic configs that can be attached to any engine as appropriate.  Requires secondary configs to function correctly.",
     "license"           : "CC-BY-NC-SA",
-    "release_status"    : "WIP",
+    "release_status"    : "stable",
     "depends" : [
         { "name" : "ModuleManager" },
         { "name" : "SmokeScreen" },
