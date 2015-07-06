@@ -3,6 +3,7 @@
     "license": "GPL-3.0",
     "$kref": "#/ckan/kerbalstuff/900",
     "identifier": "SolarisHypernautics",
+    "x_netkan_epoch": 1,
     "install": [
         {
             "file"       : "Solaris Hypernautics",
