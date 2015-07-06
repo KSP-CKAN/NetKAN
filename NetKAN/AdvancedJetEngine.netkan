@@ -9,7 +9,9 @@
         { "name" : "ModuleManager" }
     ],
     "recommends" : [
-        { "name" : "RealFuels" },
+        { "name" : "RealFuels" }
+    ],
+    "suggests" : [
         { "name" : "HotRockets" }
     ],
     "install": [

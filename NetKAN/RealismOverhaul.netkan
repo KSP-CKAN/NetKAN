@@ -16,6 +16,7 @@
 		{ "name" : "ModuleRCSFX" },
 		{ "name" : "RealChute" },
 		{ "name" : "RealFuels" },
+		{ "name" : "RealPlume" },
 		{ "name" : "SmokeScreen" }
     ],
     "recommends" : [
@@ -29,6 +30,7 @@
 		{ "name" : "MechJeb2" },
 		{ "name" : "ModuleFixer" },
 		{ "name" : "ProceduralFairings" },
+		{ "name" : "ProceduralFairings-ForEverything" },
 		{ "name" : "ProceduralParts" },
 		{ "name" : "RealSolarSystem" },
 		{ "name" : "RemoteTech" },
@@ -70,10 +72,11 @@
 		{ "name" : "UniversalStorage" },
 		{ "name" : "VenStockRevamp"}
     ],
+        "provides"  : [ "RealPlumeConfigs", "RealFuels-Engine-Configs" ],
 	"conflicts"	:	[
-		{ "name" : "TweakableEverything" }
+		{ "name" : "TweakableEverything" },
+		{ "name" : "RealPlumeConfigs" }
 	],
-    "provides" : [ "RealFuels-Engine-Configs" ],
     "resources" : {
         "homepage" : "http://forum.kerbalspaceprogram.com/threads/99966"
     },
