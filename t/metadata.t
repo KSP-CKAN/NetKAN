@@ -77,18 +77,41 @@ foreach my $shortname (sort keys %files) {
     foreach my $install (@{$metadata->{install}}) {
         if ($install->{install_to} =~ m{^GameData/}) {
             ok(
-                $spec_version ge "v1.2",
+                compare_version($spec_version,"v1.2"),
                 "$shortname - spec_version v1.2+ required for GameData with path."
             );
         }
 
         if ($install->{find}) {
             ok(
-                $spec_version ge "v1.4",
+                compare_version($spec_version,"v1.4"),
                 "$shortname - spec_version v1.4+ required for install with 'find'"
             );
         }
+        if ($install->{find_regexp}) {
+            ok(
+                compare_version($spec_version,"v1.10"),
+                "$shortname - spec_version v1.10+ required for install with 'find_regexp'"
+            );
+        }
     }
+}
+
+# 1.10 is < 1.2 our number comparisons don't work now :( 
+# TODO: Do something better than this quick hack
+sub compare_version {
+  my ($spec_version, $min_version) = @_;
+
+  $spec_version =~ s/v1\.([2|4])$/v1.0$1/;
+  $min_version =~ s/v1\.([2|4])$/v1.0$1/;
+
+  print "Spec: $spec_version, Min: $min_version\n";
+
+  if ($spec_version ge $min_version) {
+    return 1;
+  } else {
+    return 0;
+  }
 }
 
 done_testing;
