@@ -1,0 +1,18 @@
+{
+    "spec_version": "v1.2",
+    "license": "GPL-3.0",
+    "$kref": "#/ckan/kerbalstuff/907",
+    "identifier": "EmDrive-TweakPatch",
+    "name"        : "EmDrive - TweakScale Patch",
+    "abstract"    : "A patch for compatibility between EmDrive and TweakScale.",
+    "depends": [
+        { "name": "EmDrive" },
+        { "name": "TweakScale" }
+    ],
+    "install": [
+        {
+            "file": "GameData/TweakScale",
+            "install_to" : "GameData"
+        }
+    ]
+}
