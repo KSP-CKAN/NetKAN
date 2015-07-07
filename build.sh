@@ -1,29 +1,38 @@
 #!/bin/bash
 
+# Default flags.
 KSP_VERSION_DEFAULT="1.0.2"
 KSP_NAME_DEFAULT="dummy"
 
+# Locations of CKAN and NetKAN.
 LATEST_CKAN_URL="http://ckan-travis.s3.amazonaws.com/ckan.exe"
 LATEST_NETKAN_URL="http://ckan-travis.s3.amazonaws.com/netkan.exe"
 
-# Function for creating dummy KSP directories to test on. Takes version as an argument.
+# Third party utilities.
+JQ_PATH="./jq-linux-x86_64-static"
+
+# ------------------------------------------------
+# Function for creating dummy KSP directories to
+# test on. Takes version as an argument.
+# ------------------------------------------------
 create_dummy_ksp () {
-    # Set the version to the requested KSP version if supplied.
-    _KSP_VERSION=$KSP_VERSION_DEFAULT
-    _KSP_NAME=$KSP_NAME_DEFAULT
+    KSP_VERSION=$KSP_VERSION_DEFAULT
+    KSP_NAME=$KSP_NAME_DEFAULT
     
+    # Set the version to the requested KSP version if supplied.
     if [ $# -eq 2 ]
     then
-        _KSP_VERSION=$1
-        _KSP_NAME=$2
+        KSP_VERSION=$1
+        KSP_NAME=$2
     fi
     
-    if [ "$_KSP_VERSION" == "0.90" ]
+    # TODO: Manual hack, a better way to handle this kind of identifiers may be needed.
+    if [ "$KSP_VERSION" == "0.90" ]
     then
-        _KSP_VERSION="0.90.0"
+        KSP_VERSION="0.90.0"
     fi
     
-    echo "Creating a dummy KSP ${_KSP_VERSION} install"
+    echo "Creating a dummy KSP $KSP_VERSION install"
     
     # Remove any existing KSP dummy install.
     rm -rf dummy_ksp
@@ -39,26 +48,26 @@ create_dummy_ksp () {
     mkdir dummy_ksp/Ships/@thumbs/VAB
     mkdir dummy_ksp/Ships/@thumbs/SPH
     
-    echo "Version ${_KSP_VERSION}" > dummy_ksp/readme.txt
+    echo "Version $KSP_VERSION" > dummy_ksp/readme.txt
     
     # Copy in resources.
     cp ckan.exe dummy_ksp/ckan.exe
     
     # Reset the Mono registry.
-    if [ "${USER}" = "jenkins" ]
+    if [ "$USER" = "jenkins" ]
     then
         REGISTRY_FILE=${HOME}/.mono/registry/CurrentUser/software/ckan/values.xml
-        if [ -r ${REGISTRY_FILE} ]
+        if [ -r $REGISTRY_FILE ]
         then
-            rm -f ${REGISTRY_FILE}
+            rm -f $REGISTRY_FILE
         fi
     fi
     
     # Register the new dummy install.
-    mono ckan.exe ksp add ${_KSP_NAME} "`pwd`/dummy_ksp"
+    mono ckan.exe ksp add ${KSP_NAME} "`pwd`/dummy_ksp"
     
     # Set the instance to default.
-    mono ckan.exe ksp default ${_KSP_NAME}
+    mono ckan.exe ksp default ${KSP_NAME}
     
     # Point to the local metadata instead of GitHub.
     mono ckan.exe repo add local "file://`pwd`/master.tar.gz"
@@ -68,8 +77,10 @@ create_dummy_ksp () {
     ln -s downloads_cache dummy_ksp/CKAN/downloads
 }
 
-# Function for injecting metadata into a tar.gz archive.
-# Assummes metadata.tar.gz to be present.
+# ------------------------------------------------
+# Function for injecting metadata into a tar.gz
+# archive. Assummes metadata.tar.gz to be present.
+# ------------------------------------------------
 inject_metadata () {
     # Check input, requires at least 1 argument.
     if [ $# -ne 1 ]
@@ -96,9 +107,9 @@ inject_metadata () {
     tar -czf master.tar.gz CKAN-meta-master
 }
 
-# ----------------------------------------------
+# ------------------------------------------------
 # Main entry point.
-# ----------------------------------------------
+# ------------------------------------------------
 
 # Make sure we start from a clean slate.
 rm -rf built
@@ -106,31 +117,29 @@ rm -rf downloads_cache
 rm -f master.tar.gz
 rm -f metadata.tar.gz
 
-create_dummy_ksp $KSP_VERSION_DEFAULT $KSP_NAME_DEFAULT
-
 # Run basic tests.
 echo "Running basic sanity tests on metadata."
 echo "If these fail, then fix whatever is causing them first."
 
 if ! prove
 then
-    echo "prove step failed."
+    echo "Prove step failed."
     exit 1
 fi
 
 # Find the changes to test.
 echo "Finding changes to test..."
 
-if [ -z ${ghprbActualCommit} ]
+if [ -z $ghprbActualCommit ]
 then
     echo "No commit hash, running all netkan files"
     export COMMIT_CHANGES=NetKAN/*.netkan
 else
-    echo "Commit hash: ${ghprbActualCommit}"
+    echo "Commit hash: $ghprbActualCommit"
     export COMMIT_CHANGES="`git diff --diff-filter=AM --name-only --stat origin/master NetKAN`"
 fi
 
-if [ "${COMMIT_CHANGES}" = "" ]
+if [ "$COMMIT_CHANGES" = "" ]
 then
     echo "No .netkan changes, skipping further tests."
     exit 0
@@ -140,7 +149,7 @@ fi
 echo "Running jsonlint on the changed files"
 echo "If you get an error below you should look for syntax errors in the metadata"
 
-jsonlint -s -v ${COMMIT_CHANGES}
+jsonlint -s -v $COMMIT_CHANGES
 
 # Create folders.
 mkdir built
@@ -148,21 +157,21 @@ mkdir downloads_cache # TODO: Point to cache folder here instead if possible.
 
 # Fetch latest ckan and netkan executable.
 echo "Fetching latest ckan.exe"
-wget --quiet ${LATEST_CKAN_URL} -O ckan.exe
+wget --quiet $LATEST_CKAN_URL -O ckan.exe
 
 echo "Fetching latest netkan.exe"
-wget --quiet ${LATEST_NETKAN_URL} -O netkan.exe
+wget --quiet $LATEST_NETKAN_URL -O netkan.exe
 
 # Fetch the latest metadata.
 echo "Fetching latest metadata"
 wget --quiet https://github.com/KSP-CKAN/CKAN-meta/archive/master.tar.gz -O metadata.tar.gz
 
 # Determine KSP dummy name.
-if [ -z ${ghprbActualCommit} ]
+if [ -z $ghprbActualCommit ]
 then
     KSP_NAME=dummy
 else
-    KSP_NAME=${ghprbActualCommit}
+    KSP_NAME=$ghprbActualCommit
 fi
 
 mono --debug ckan.exe ksp add ${KSP_NAME} "`pwd`/dummy_ksp"
@@ -185,8 +194,7 @@ mkdir built
 
 # Build all the passed .netkan files.
 # Note: Additional NETKAN_OPTIONS may be set on jenkins jobs
-
-for f in ${COMMIT_CHANGES}
+for f in $COMMIT_CHANGES
 do
     echo "Running NetKAN for $f"
     mono netkan.exe $f --cachedir="downloads_cache" --outputdir="built" ${NETKAN_OPTIONS}
@@ -220,18 +228,18 @@ do
     inject_metadata $OTHER_FILES
     
     # Extract identifier and KSP version.
-    CURRENT_IDENTIFIER=$(./jq '.identifier' $f)
-    CURRENT_KSP_VERSION=$(./jq 'if .ksp_version then .ksp_version else .ksp_version_min end' $f)
+    CURRENT_IDENTIFIER=$($JQ_PATH '.identifier' $f)
+    CURRENT_KSP_VERSION=$($JQ_PATH 'if .ksp_version then .ksp_version else .ksp_version_min end' $f)
     
     # Strip "'s.
-    CURRENT_IDENTIFIER=${CURRENT_IDENTIFIER//'"'}
-    CURRENT_KSP_VERSION=${CURRENT_KSP_VERSION//'"'}
+    CURRENT_IDENTIFIER=$CURRENT_IDENTIFIER//'"'
+    CURRENT_KSP_VERSION=$CURRENT_KSP_VERSION//'"'
     
-    echo "Extracted ${CURRENT_IDENTIFIER} as identifier."
-    echo "Extracted ${CURRENT_KSP_VERSION} as KSP version."
+    echo "Extracted $CURRENT_IDENTIFIER as identifier."
+    echo "Extracted $CURRENT_KSP_VERSION as KSP version."
     
     # Create a dummy KSP install.
-    create_dummy_ksp ${CURRENT_KSP_VERSION} ${KSP_NAME}
+    create_dummy_ksp $CURRENT_KSP_VERSION $KSP_NAME
     
     echo "Running ckan update"
     mono ckan.exe update
@@ -243,8 +251,8 @@ do
     mono ckan.exe list --porcelain
     
     # Check the installed files for this .ckan file.
-    mono ckan.exe show ${CURRENT_IDENTIFIER}
+    mono ckan.exe show $CURRENT_IDENTIFIER
     
     # Cleanup.
-    mono ckan.exe ksp forget ${KSP_NAME}
+    mono ckan.exe ksp forget $KSP_NAME
 done
