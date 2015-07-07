@@ -13,5 +13,15 @@
     "comment"      : ".version file currently has accurate mod version but incorrect KSP version",
 	"resources" : {
         "homepage"     : "http://forum.kerbalspaceprogram.com/threads/92764"
-    }
+    },
+        "x_netkan_override" : [
+        {
+            "version" : "v1.2",
+            "delete" : [ "ksp_version" ],
+            "override" : {
+                "ksp_version_min" : "1.0.0",
+                "ksp_version_max" : "1.0.4"
+            }
+        }
+    ]
 }
