@@ -11,8 +11,7 @@
     },
     "depends": [
         { "name": "ModuleManager" },
-        { "name": "KIS" },
-        { "name": "UKS" }
+        { "name": "KIS" }
     ],
     "install": [
         {
