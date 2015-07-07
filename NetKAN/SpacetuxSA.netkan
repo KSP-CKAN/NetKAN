@@ -5,6 +5,7 @@
     "abstract"       : "Shared assets (flags & agency) for use with various Spacetux mods",
     "identifier"     : "SpacetuxSA",
     "$kref"          : "#/ckan/kerbalstuff/656",
+    "$vref"          : "#/ckan/ksp-avc",
     "x_netkan_license_ok" : true,
     "release_status" : "stable",
     "resources" : {
