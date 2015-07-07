@@ -3,6 +3,9 @@
 KSP_VERSION_DEFAULT="1.0.2"
 KSP_NAME_DEFAULT="dummy"
 
+LATEST_CKAN_URL="http://ckan-travis.s3.amazonaws.com/ckan.exe"
+LATEST_NETKAN_URL="http://ckan-travis.s3.amazonaws.com/netkan.exe"
+
 # Function for creating dummy KSP directories to test on. Takes version as an argument.
 create_dummy_ksp () {
     # Set the version to the requested KSP version if supplied.
@@ -145,10 +148,10 @@ mkdir downloads_cache # TODO: Point to cache folder here instead if possible.
 
 # Fetch latest ckan and netkan executable.
 echo "Fetching latest ckan.exe"
-wget --quiet http://ci.ksp-ckan.org:8080/job/CKAN/lastSuccessfulBuild/artifact/ckan.exe -O ckan.exe
+wget --quiet ${LATEST_CKAN_URL} -O ckan.exe
 
 echo "Fetching latest netkan.exe"
-wget --quiet http://ci.ksp-ckan.org:8080/job/NetKAN/lastSuccessfulBuild/artifact/netkan.exe -O netkan.exe
+wget --quiet ${LATEST_NETKAN_URL} -O netkan.exe
 
 # Fetch the latest metadata.
 echo "Fetching latest metadata"
