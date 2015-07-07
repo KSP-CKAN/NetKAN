@@ -9,7 +9,7 @@ LATEST_CKAN_URL="http://ckan-travis.s3.amazonaws.com/ckan.exe"
 LATEST_NETKAN_URL="http://ckan-travis.s3.amazonaws.com/netkan.exe"
 
 # Third party utilities.
-JQ_PATH="./jq-linux-x86_64-static"
+JQ_PATH="jq"
 
 # ------------------------------------------------
 # Function for creating dummy KSP directories to
