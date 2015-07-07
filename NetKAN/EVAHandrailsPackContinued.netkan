@@ -2,6 +2,7 @@
     "spec_version": 1,
     "identifier": "EVAHandrailsPackContinued",
     "$kref": "#/ckan/kerbalstuff/929",
+    "$vref" : "#/ckan/ksp-avc",
     "license": "CC-BY-SA-3.0",
     "conflicts": [
         { "name": "NebulaEVAHandrails" }
