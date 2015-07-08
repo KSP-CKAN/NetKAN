@@ -232,8 +232,8 @@ do
     CURRENT_KSP_VERSION=$($JQ_PATH 'if .ksp_version then .ksp_version else .ksp_version_min end' $f)
     
     # Strip "'s.
-    CURRENT_IDENTIFIER=$CURRENT_IDENTIFIER//'"'
-    CURRENT_KSP_VERSION=$CURRENT_KSP_VERSION//'"'
+    CURRENT_IDENTIFIER=${CURRENT_IDENTIFIER//'"'}
+    CURRENT_KSP_VERSION=${CURRENT_KSP_VERSION//'"'}
     
     echo "Extracted $CURRENT_IDENTIFIER as identifier."
     echo "Extracted $CURRENT_KSP_VERSION as KSP version."
