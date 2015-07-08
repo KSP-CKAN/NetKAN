@@ -7,6 +7,10 @@
     "resources": {
         "homepage": "http://forum.kerbalspaceprogram.com/threads/128042"
     },
+    "depends": [
+        { "name": "ModuleManager" },
+        { "name": "FirespitterCore"}
+    ],
     "install": [
         {
             "file"       : "ColorfulFuelLines",
