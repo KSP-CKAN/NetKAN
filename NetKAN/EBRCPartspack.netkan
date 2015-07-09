@@ -1,0 +1,16 @@
+{
+    "spec_version": "v1.10",
+    "license": "MIT",
+    "$kref": "#/ckan/kerbalstuff/946",
+    "identifier": "EBRCPartspack",
+    "resources": {
+        "homepage": "https://kerbalstuff.com/mod/946/EBRC%20Parts%20pack"
+    },
+    "install": [
+        {
+            "find_regexp": "EBRC-PACKS_PACK-\\d+/EBRC",
+            "install_to" : "GameData",
+            "filter"     : ".DS_Store"
+        }
+    ]
+}

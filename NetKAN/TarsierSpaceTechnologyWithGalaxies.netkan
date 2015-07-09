@@ -1,10 +1,16 @@
 {
     "identifier": "TarsierSpaceTechnologyWithGalaxies",
     "spec_version": "v1.4",
-    "x_netkan_force_v" : "true",
+    "x_netkan_force_v" : true,
     "$kref": "#/ckan/kerbalstuff/608",
     "license": "MIT",
 	"install": [
 		{ "find": "TarsierSpaceTech", "install_to": "GameData" }
-	]
+	],
+	"recommends": [
+		{ "name": "KAS" },
+        { "name": "KIS" },
+		{ "name": "ModuleManager" },
+		{ "name": "Toolbar" }
+	]	
 }

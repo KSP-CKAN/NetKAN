@@ -32,5 +32,6 @@
         { "name" : "TACLS" },
         { "name" : "ShipManifest" },
         { "name" : "ConnectedLivingSpace" }
-    ]
+    ],
+    "x_netkan_force_v" : true
 }

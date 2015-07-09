@@ -1,0 +1,15 @@
+{
+    "spec_version": 1,
+    "license": "MIT",
+    "$kref": "#/ckan/kerbalstuff/926",
+    "identifier": "Deathstarwithlaser",
+    "install": [
+        {
+            "file"       : "de/Parts/death star",
+            "install_to" : "GameData"
+        }
+    ],
+    "resources": {
+        "homepage": "https://kerbalstuff.com/mod/926/Death%20star%20with%20laser"
+    }
+}

@@ -6,7 +6,7 @@
     "abstract": "Adds layers to KSP's ModuleAnimateGeneric",
     "license": "public-domain",
     "ksp_version_min": "0.90",
-    "ksp_version_max": "1.0.2",
+    "ksp_version_max": "1.0.4",
     "install": [
         {
             "file": "LayeredAnimations",

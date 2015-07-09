@@ -1,0 +1,12 @@
+{
+    "spec_version": 1,
+    "license": "restricted",
+    "$kref": "#/ckan/kerbalstuff/935",
+    "identifier": "AirAugmentedRockets",
+    "install": [
+        {
+            "file"       : "KourouSpaceIndustries",
+            "install_to" : "GameData"
+        }
+    ]
+}

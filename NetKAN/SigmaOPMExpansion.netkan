@@ -1,0 +1,16 @@
+{
+    "spec_version": 1,
+    "identifier": "SigmaOPMExpansion",
+    "$kref": "#/ckan/kerbalstuff/912",
+    "license": "CC-BY-NC-SA-4.0",
+    "depends": [
+        { "name": "ModuleManager" },
+        { "name": "OuterPlanetsMod" }
+    ],
+    "install": [
+        {
+            "file": "GameData/Sigma",
+            "install_to": "GameData"
+        }
+    ]
+}

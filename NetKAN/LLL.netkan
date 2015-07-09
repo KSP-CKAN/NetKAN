@@ -1,0 +1,25 @@
+{
+    "spec_version": "v1.2",
+    "license": "CC-BY-NC-SA-4.0",
+    "$kref": "#/ckan/kerbalstuff/954",
+    "identifier": "LLL",
+    "depends": [
+        { "name": "ModuleManager" },
+        { "name": "FirespitterCore"}
+    ],
+    "recommends": [
+        { "name": "TweakScale" },
+        { "name": "CrewManifest"}
+    ],
+    "install": [
+        {
+            "file"       : "GameData/LLL",
+            "install_to" : "GameData"
+        },
+        {
+            "file"       : "GameData/LLL-Extra",
+            "install_to" : "GameData/LLL",
+            "filter"     : "Parts"
+        }
+    ]
+}

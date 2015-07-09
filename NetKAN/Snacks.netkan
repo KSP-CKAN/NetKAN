@@ -5,6 +5,12 @@
     "name"         : "Snacks",
     "abstract"     : "Add a simple life support system based on Snacks!",
     "license"      : "MIT",
-    "ksp_version"  : "0.90",
-    "depends": [ { "name": "ModuleManager" } ]
+    "depends": [ 
+        { 
+            "name": "ModuleManager" 
+        }
+    ],
+    "comment" : "2015-06-28 Netkan version was hard coded 0.90, changed to min max, see PR discussion re: pjf",
+    "ksp_version_min" : "0.90",
+    "ksp_version_max" : "1.0.99"
 }

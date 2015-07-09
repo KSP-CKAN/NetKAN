@@ -4,11 +4,22 @@
 	"$kref"			:	"#/ckan/kerbalstuff/34",
 	"license" : "restricted",
 	"install" : [
-	{
-		"file"		:	"GameData/FASA",
-		"install_to":	"GameData"
-	}],
+		{
+			"file" : "GameData/FASA",
+			"install_to" : "GameData"
+		}
+	],
     "conflicts" : [
         { "name": "FASA" }
+    ],
+	"x_netkan_override" : [
+		{
+			"version" : "5.34",
+			"delete" : [ "ksp_version" ],
+			"override" : {
+				"ksp_version_min" : "1.0.2",
+				"ksp_version_max" : "1.0.4"
+			}
+		}
     ]
 }

@@ -1,0 +1,18 @@
+{
+    "spec_version" : 1,
+    "identifier"   : "ExtensiveEngineerReport",
+    "$kref"        : "#/ckan/github/jkoritzinsky/Extensive-Engineer-Report",
+    "name"         : "Extensive Engineer Report",
+    "abstract"     : "Kerbal Space Program mod to add more extensive checks to the Engineers' Report in the VAB and SPH.",
+    "license"      : "MIT",
+    "ksp_version"  : "1.0.4",
+    "resources": {
+        "homepage": "https://github.com/jkoritzinsky/Extensive-Engineer-Report"
+    },
+    "install" : [
+        {
+            "file" : "Extensive Engineer Report",
+            "install_to" : "GameData"
+        }
+    ]
+}

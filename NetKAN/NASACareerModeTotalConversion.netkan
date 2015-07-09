@@ -1,0 +1,27 @@
+{
+    "spec_version": 1,
+    "license": "CC-BY-NC-SA-4.0",
+    "$kref": "#/ckan/kerbalstuff/962",
+    "identifier": "NASACareerModeTotalConversion",
+    "install": [
+        {
+            "file"       : "GameData/USAconversion",
+            "install_to" : "GameData",
+            "filter"     : "Thumbs.db"
+        },
+        {
+            "file"       : "Ships",
+            "install_to" : "Ships"
+        }
+    ],
+    "depends": [
+        { "name": "ModuleManager" },
+        { "name": "Tantares"},
+        { "name": "TantaresLV"},
+        { "name": "OMSKSpaceProducts"}
+    ],
+    "suggests": [
+        { "name": "RemoteTech" },
+        { "name": "ContractConfigurator-AdvancedProgression"}
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "spec_version"   : "v1.4",
+    "$kref"          : "#/ckan/github/Crzyrndm/FilterExtension",
+    "$vref"          : "#/ckan/ksp-avc",
+    "name"           : "Filter Extensions - Stock Filter Rework",
+    "identifier"     : "FilterExtensionsStockRework",
+    "abstract"       : "Rearrangement of parts in the stock categories",
+    "license"        : "CC-BY-NC-SA-4.0",
+    "release_status" : "stable",
+    "depends" : [
+		{ "name" : "FilterExtensions" }
+    ],
+    "install" : [
+        {
+            "file"       : "GameData/000_FilterExtensions Configs/StockRework",
+            "install_to" : "GameData/000_FilterExtensions Configs"
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "spec_version": 1,
+    "license": "CC-BY-NC-SA-3.0",
+    "$kref": "#/ckan/kerbalstuff/956",
+    "identifier": "ModularComputerPackage",
+    "install": [
+        {
+            "file"       : "ChromaWorks",
+            "install_to" : "GameData",
+            "comment" : "The 2 following filters can be removed if the archive no longer contains backup/duplicate files",
+            "filter"     : "license (CC-BY-NC-SA)~",
+            "filter_regexp": ".*\\.cfg~$"
+        }
+    ],
+    "depends": [
+        { "name": "FirespitterCore" },
+        { "name": "ModuleManager"}
+    ]
+}

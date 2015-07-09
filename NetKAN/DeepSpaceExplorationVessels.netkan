@@ -1,0 +1,18 @@
+{
+    "spec_version": "v1.2",
+    "identifier": "DeepSpaceExplorationVessels",
+    "$kref": "#/ckan/kerbalstuff/932",
+    "$vref": "#/ckan/ksp-avc",
+    "x_netkan_license_ok" : true,
+    "depends" : [
+        { "name": "CommunityResourcePack", "min_version": "0.4.2" },
+        { "name": "WildBlueTools", "min_version": "1.0.4" },
+        { "name": "ModuleManager", "min_version": "2.6.5" }
+    ],
+    "install" : [
+        {
+            "file": "GameData/WildBlueIndustries/DSEV",
+            "install_to": "GameData/WildBlueIndustries"
+        }
+    ]
+}

@@ -3,9 +3,10 @@
     "identifier"      : "FirespitterCore",
     "$kref"           : "#/ckan/kerbalstuff/777",
     "license"         : "restricted",
-   "name" : "Firespitter Core",
-   "abstract" : "Core Firespitter.dll. Install `Firespitter` for the whole shebang",
-	"$vref"			:	"#/ckan/ksp-avc",
+    "name"            : "Firespitter Core",
+    "abstract"        : "Core Firespitter.dll. Install `Firespitter` for the whole shebang",
+    "$vref"           : "#/ckan/ksp-avc",
+    "x_netkan_force_v" : true,
     "resources" : {
         "homepage" : "http://snjo.github.io/",
         "repository"  : "https://github.com/snjo/Firespitter"
@@ -15,9 +16,9 @@
             "file"       : "Firespitter/Plugins",
             "install_to" : "GameData/Firespitter"
         },
-		{
-			"file" : "Firespitter/Firespitter.version",
-			"install_to" : "GameData/Firespitter"
-		}
+        {
+            "file" : "Firespitter/Firespitter.version",
+            "install_to" : "GameData/Firespitter"
+        }
     ]
 }

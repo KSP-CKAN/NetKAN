@@ -4,12 +4,22 @@
     "$kref": "#/ckan/kerbalstuff/224",
     "license": "GPL-2.0",
     "depends": [
-        { "name": "ModuleManager" }
+        { "name": "ModuleManager", "min_version": "2.5.1" }
     ],
     "install": [
         {
             "file": "GameData/WheelSounds",
             "install_to": "GameData"
+        }
+    ],
+    "x_netkan_override": [
+        {
+            "version": "1.2",
+            "delete": [ "ksp_version" ],
+            "override": {
+                "ksp_version_min": "0.25",
+                "ksp_version_max": "1.0.4"
+            }
         }
     ]
 }
