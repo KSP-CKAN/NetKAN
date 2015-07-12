@@ -6,8 +6,6 @@
     "name"        : "Sigma Binary - Duna + Ike Binary",
     "abstract"    : "Contains a Duna + Ike binary system.",
     "depends": [
-        { "name": "ModuleManager" },
-        { "name": "Kopernicus"},
         { "name": "SigmaBinary-core"}
     ],
     "install": [
