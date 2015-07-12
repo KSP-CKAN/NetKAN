@@ -1,0 +1,12 @@
+{
+    "spec_version": 1,
+    "license": "restricted",
+    "$kref": "#/ckan/kerbalstuff/993",
+    "identifier": "LolexCar",
+    "install": [
+        {
+            "file"       : "Lolex",
+            "install_to" : "GameData"
+        }
+    ]
+}
