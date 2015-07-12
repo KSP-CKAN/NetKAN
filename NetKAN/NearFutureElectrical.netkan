@@ -6,11 +6,11 @@
     "license"        : "CC-BY-NC-SA-4.0",
     "depends" : [
         { "name" : "CommunityResourcePack" },
-        { "name" : "HeatControl-Core" },
         { "name" : "NearFutureElectrical-Core" },
         { "name" : "ModuleManager" }
     ],
     "recommends": [
+        { "name" : "HeatControl-Core" },
         { "name" : "CommunityTechTree" }
     ],
     "suggests": [
