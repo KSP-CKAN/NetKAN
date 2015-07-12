@@ -30,5 +30,13 @@
             "file"       : "GameData/RP-0",
             "install_to" : "GameData"
         }
+    ],
+    "x_netkan_override" : [
+        {
+            "version" : "<= v0.33",
+            "override" : {
+                "ksp_version" : "0.90"
+            }
+        }
     ]
 }
