@@ -1,0 +1,18 @@
+{
+    "spec_version": 1,
+    "license": "CC-BY-SA-2.0",
+    "$kref": "#/ckan/kerbalstuff/990",
+    "identifier": "MrScienceMeistersNuclearWarfare",
+    "depends": [
+        {
+            "name": "BDArmory"
+        }
+    ],
+    "install": [
+        {
+            "file"       : "NuclearWarfare/Gamedata/NuclearWarfare",
+            "install_to" : "GameData",
+            "filter"     : ".DS_Store"
+        }
+    ]
+}
