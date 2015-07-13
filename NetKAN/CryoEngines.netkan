@@ -4,6 +4,7 @@
     "$kref"          : "#/ckan/kerbalstuff/717",
     "release_status" : "stable",
     "license"        : "CC-BY-NC-SA-4.0",
+    "x_netkan_epoch": "1",
     "depends" : [
         { "name" : "InterstellarFuelSwitch-Core", "min_version" : "1.5" },
         { "name" : "CommunityResourcePack" },
