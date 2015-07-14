@@ -1,0 +1,13 @@
+{
+    "spec_version": 1,
+    "license": "MIT",
+    "$kref": "#/ckan/kerbalstuff/994",
+    "identifier": "MrScienceMeistersSimpleNuclearReactor",
+    "install": [
+        {
+            "file"       : "Simplereactor",
+            "install_to" : "GameData",
+            "filter"     : ".DS_Store"
+        }
+    ]
+}
