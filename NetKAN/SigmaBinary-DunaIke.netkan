@@ -1,0 +1,17 @@
+{
+    "spec_version": "v1.4",
+    "license": "CC-BY-NC-SA-4.0",
+    "$kref": "#/ckan/kerbalstuff/992",
+    "identifier": "SigmaBinary-DunaIke",
+    "name"        : "Sigma Binary - Duna + Ike Binary",
+    "abstract"    : "Contains a Duna + Ike binary system.",
+    "depends": [
+        { "name": "SigmaBinary-core"}
+    ],
+    "install": [
+        {
+            "find"       : "DunaIke Binary",
+            "install_to" : "GameData/Sigma/BinaryExpansion"
+        }
+    ]
+}
