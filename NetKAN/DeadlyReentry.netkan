@@ -11,13 +11,13 @@
         "repository" : "https://github.com/Starwaster/DeadlyReentry"
     },
     "depends"        : [
-        { "name": "ModuleManager", "min_version" : "2.6.5" },
-        { "name": "ModularFlightIntegrator" }
+        { "name": "ModuleManager", "min_version" : "2.6.5" }
     ],
     "install"        : [
         {
             "find": "DeadlyReentry",
             "install_to": "GameData"
         }
-    ]
+    ],
+    "x_netkan_force_v": true
 }
