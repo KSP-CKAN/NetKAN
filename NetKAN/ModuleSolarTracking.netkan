@@ -1,0 +1,13 @@
+{
+    "spec_version": "v1.4",
+    "license": "unrestricted",
+    "$kref": "#/ckan/kerbalstuff/1004",
+    "identifier": "ModuleSolarTracking",
+    "install": [
+        {
+            "find"       : "ModuleSolarTracking",
+            "install_to" : "GameData",
+            "filter"     : "ModuleSolarTracking.cs"
+        }
+    ]
+}
