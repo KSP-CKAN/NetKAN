@@ -19,6 +19,10 @@
             "install_to" : "GameData/KerbinSide/Parts/Static"
         },
         {
+            "file"       : "GameData/KerbinSide/Parts/Static/kscgravel.dds",
+            "install_to" : "GameData/KerbinSide/Parts/Static"
+        },
+        {
             "file"       : "GameData/KerbinSide/Parts/Static/kscgrill.dds",
             "install_to" : "GameData/KerbinSide/Parts/Static"
         },
@@ -31,7 +35,15 @@
             "install_to" : "GameData/KerbinSide/Parts/Static"
         },
         {
+            "file"       : "GameData/KerbinSide/Parts/Static/kscsteelgrey.dds",
+            "install_to" : "GameData/KerbinSide/Parts/Static"
+        },
+        {
             "file"       : "GameData/KerbinSide/Parts/Static/kscyellow.dds",
+            "install_to" : "GameData/KerbinSide/Parts/Static"
+        },
+        {
+            "file"       : "GameData/KerbinSide/Parts/Static/kspgrey77.dds",
             "install_to" : "GameData/KerbinSide/Parts/Static"
         },
         {
@@ -52,6 +64,10 @@
         },
         {
             "file"       : "GameData/KerbinSide/Parts/Static/metalred.dds",
+            "install_to" : "GameData/KerbinSide/Parts/Static"
+        },
+        {
+            "file"       : "GameData/KerbinSide/Parts/Static/newkscgrass2.dds",
             "install_to" : "GameData/KerbinSide/Parts/Static"
         },
         {
