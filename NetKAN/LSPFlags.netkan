@@ -5,7 +5,8 @@
     "name"         : "LoreFriendly Serious Parody Flag Pack",
     "abstract"     : "A set of seriously parody flags for your KSP install",
     "license"      : "restricted",
-    "ksp_version_min"  : "0.20",
+    "ksp_version"  : "any",
+    "comment"      : "flagmod",
     "resources" : {
         "homepage" : "http://forum.kerbalspaceprogram.com/threads/86957"
     },
