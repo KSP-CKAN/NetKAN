@@ -19,6 +19,10 @@
             "install_to" : "GameData/KerbinSide/Parts/Static"
         },
         {
+            "file"       : "GameData/KerbinSide/Parts/Static/glasssafetyemissive.dds",
+            "install_to" : "GameData/KerbinSide/Parts/Static"
+        },
+        {
             "file"       : "GameData/KerbinSide/Parts/Static/kscgravel.dds",
             "install_to" : "GameData/KerbinSide/Parts/Static"
         },
@@ -27,7 +31,15 @@
             "install_to" : "GameData/KerbinSide/Parts/Static"
         },
         {
+            "file"       : "GameData/KerbinSide/Parts/Static/kscmarble2.dds",
+            "install_to" : "GameData/KerbinSide/Parts/Static"
+        },
+        {
             "file"       : "GameData/KerbinSide/Parts/Static/kscmarkingwhite.dds",
+            "install_to" : "GameData/KerbinSide/Parts/Static"
+        },
+        {
+            "file"       : "GameData/KerbinSide/Parts/Static/kscwalkway.dds",
             "install_to" : "GameData/KerbinSide/Parts/Static"
         },
         {
