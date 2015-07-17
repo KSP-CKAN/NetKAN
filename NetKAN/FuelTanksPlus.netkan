@@ -6,6 +6,6 @@
     "spec_version": 1,
     "depends": [
         { "name": "ModuleManager" },
-        { "name": "FirespitterCore"}
+        { "name": "InterstellarFuelSwitch-Core"}
     ]
 }
