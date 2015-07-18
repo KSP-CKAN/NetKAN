@@ -10,7 +10,7 @@
         {
             "find"          : "OldSchoolTurrets",
             "install_to"    : "GameData",
-            "filter_regexp" : "(^|/)[\\s\\S]*\\.meta$"
+            "filter_regexp" : "(^|/).*\\.meta$"
         }
     ]
 }
