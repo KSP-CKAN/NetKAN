@@ -1,0 +1,30 @@
+{
+    "spec_version"      : "v1.4",
+    "$kref"             : "#/ckan/github/KSP-RO/RealPlume-StockConfigs",
+    "ksp_version"       : "1.0",
+    "name"              : "Real Plume - Stock Configs",
+    "identifier"        : "RealPlume-StockConfigs",
+    "abstract"          : "A set of effects and basic configs that can be attached to any engine as appropriate.  Requires secondary configs to function correctly.",
+    "license"           : "CC-BY-NC-SA",
+    "depends" : [
+        { "name" : "RealPlume" }
+    ],
+    "suggests" : [
+        { "name" : "ABLaunchers" },
+        { "name" : "FASA" },
+        { "name" : "KWRocketry" },
+        { "name" : "SpaceY-Lifters" },
+        { "name" : "TantaresLV" },
+        { "name" : "VenStockRevamp" }
+    ],
+    "provides"  : [ "RealPlumeConfigs" ],
+    "resources" : {
+        "homepage" : "https://github.com/KSP-RO/RealPlume/wiki"
+    },
+    "install" : [
+        {
+            "find"       : "RealPlume-Stock",
+            "install_to" : "GameData/RealPlume"
+        }
+    ]
+}
