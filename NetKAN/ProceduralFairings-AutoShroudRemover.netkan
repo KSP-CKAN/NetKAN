@@ -12,7 +12,7 @@
     ],
     "install" : [
         {
-            "file"       : "GameData/ZZZ_FelgerFixes/RT_ProbeRemover.cfg",
+            "file"       : "GameData/ZZZ_FelgerFixes/EngineShroudRemover.cfg",
             "install_to" : "GameData/ZZZ_FelgerFixes"
         }
     ]
