@@ -252,6 +252,12 @@ done
 # Test all the built files.
 for f in built/*.ckan
 do
+    if [ ! -e "$f" ]
+    then
+        echo "No ckan files to test"
+        continue
+    fi
+
     echo "Checking $f"
     echo "----------------------------------------------"
     echo ""
