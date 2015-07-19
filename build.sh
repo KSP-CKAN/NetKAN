@@ -9,7 +9,12 @@ LATEST_CKAN_URL="http://ckan-travis.s3.amazonaws.com/ckan.exe"
 LATEST_NETKAN_URL="http://ckan-travis.s3.amazonaws.com/netkan.exe"
 
 # Third party utilities.
-JQ_PATH="jq"
+JQ_PATH="./jq"
+
+# Return codes.
+EXIT_OK=0
+EXIT_FAILED_PROVE_STEP=1
+EXIT_FAILED_JSON_VALIDATION=2
 
 # ------------------------------------------------
 # Function for creating dummy KSP directories to
@@ -99,7 +104,7 @@ inject_metadata () {
     # Copy in the files to inject.
     for f in $1
     do
-        cp f CKAN-meta-master
+        cp $f CKAN-meta-master
     done
     
     # Recompress the archive.
@@ -124,32 +129,58 @@ echo "If these fail, then fix whatever is causing them first."
 if ! prove
 then
     echo "Prove step failed."
-    exit 1
+    exit $EXIT_FAILED_PROVE_STEP
 fi
 
 # Find the changes to test.
 echo "Finding changes to test..."
 
+# Check if we are called with a CLI argument.
+if [ -n $1 ]
+then
+    echo "Using CLI argument of $1"
+    ghprbActualCommit=$1
+fi
+    
 if [ -z $ghprbActualCommit ]
 then
     echo "No commit hash, running all netkan files"
     export COMMIT_CHANGES=NetKAN/*.netkan
 else
     echo "Commit hash: $ghprbActualCommit"
-    export COMMIT_CHANGES="`git diff --diff-filter=AM --name-only --stat origin/master NetKAN`"
+    export COMMIT_CHANGES="`git diff --diff-filter=AM --name-only --stat origin/master`"
 fi
 
 if [ "$COMMIT_CHANGES" = "" ]
 then
     echo "No .netkan changes, skipping further tests."
-    exit 0
+    exit $EXIT_OK
 fi
+
+# Print the changes.
+echo "Detected file changes:"
+for f in $COMMIT_CHANGES
+do
+    echo "$f"
+done
+echo ""
 
 # Check JSON.
 echo "Running jsonlint on the changed files"
 echo "If you get an error below you should look for syntax errors in the metadata"
 
-jsonlint -s -v $COMMIT_CHANGES
+for f in $COMMIT_CHANGES
+do
+    echo "Validating $f..."
+    jsonlint -s -q $COMMIT_CHANGES
+    
+    if [ $? -ne 0 ]
+    then
+        echo "Failed to validate $f"
+        exit $EXIT_FAILED_JSON_VALIDATION
+    fi
+done
+echo ""
 
 # Create folders.
 mkdir built
@@ -173,24 +204,6 @@ then
 else
     KSP_NAME=$ghprbActualCommit
 fi
-
-mono --debug ckan.exe ksp add ${KSP_NAME} "`pwd`/dummy_ksp"
-mono --debug ckan.exe ksp default ${KSP_NAME}
-
-echo Running ckan update
-mono --debug ckan.exe update
-
-echo Running jsonlint on the changed files
-echo If you get an error below you should look for syntax errors in the metadata
-
-jsonlint -s -v ${COMMIT_CHANGES}
-
-echo Fetching latest netkan.exe
-
-# fetch latest netkan.exe (corresponding to CKAN/master)
-wget --quiet https://ckan-travis.s3.amazonaws.com/netkan.exe
-
-mkdir built
 
 # Build all the passed .netkan files.
 # Note: Additional NETKAN_OPTIONS may be set on jenkins jobs
