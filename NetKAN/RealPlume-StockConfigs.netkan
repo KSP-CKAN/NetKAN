@@ -7,8 +7,6 @@
     "abstract"          : "A set of effects and basic configs that can be attached to any engine as appropriate.  Requires secondary configs to function correctly.",
     "license"           : "CC-BY-NC-SA",
     "depends" : [
-        { "name" : "ModuleManager" },
-        { "name" : "SmokeScreen" },
         { "name" : "RealPlume" }
     ],
     "suggests" : [
@@ -26,7 +24,7 @@
     "install" : [
         {
             "find"       : "RealPlume-Stock",
-            "install_to" : "GameData"
+            "install_to" : "GameData/RealPlume"
         }
     ]
 }
