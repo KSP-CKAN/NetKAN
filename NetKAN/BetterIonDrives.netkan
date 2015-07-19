@@ -1,0 +1,13 @@
+{
+    "spec_version": 1,
+    "license": "MIT",
+    "$kref": "#/ckan/kerbalstuff/995",
+    "identifier": "BetterIonDrives",
+    "install": [
+        {
+            "file"       : "BetterIonEngine ",
+            "install_to" : "GameData",
+            "filter"     : ".DS_Store"
+        }
+    ]
+}
