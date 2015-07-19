@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -e
+
 # Default flags.
 KSP_VERSION_DEFAULT="1.0.2"
 KSP_NAME_DEFAULT="dummy"
@@ -7,15 +9,23 @@ KSP_NAME_DEFAULT="dummy"
 # Locations of CKAN and NetKAN.
 LATEST_CKAN_URL="http://ckan-travis.s3.amazonaws.com/ckan.exe"
 LATEST_NETKAN_URL="http://ckan-travis.s3.amazonaws.com/netkan.exe"
+LATEST_CKAN_META="https://github.com/KSP-CKAN/CKAN-meta/archive/master.tar.gz"
 
 # Third party utilities.
-JQ_PATH="./jq"
+JQ_PATH="jq"
 
 # Return codes.
 EXIT_OK=0
 EXIT_FAILED_PROVE_STEP=1
 EXIT_FAILED_JSON_VALIDATION=2
 
+# Allow us to specify a commit id as the first argument
+if [ -n "$1" ]
+then
+    echo "Using CLI argument of $1"
+    ghprbActualCommit=$1
+fi
+    
 # ------------------------------------------------
 # Function for creating dummy KSP directories to
 # test on. Takes version as an argument.
@@ -32,15 +42,28 @@ create_dummy_ksp () {
     fi
     
     # TODO: Manual hack, a better way to handle this kind of identifiers may be needed.
-    if [ "$KSP_VERSION" == "0.90" ]
-    then
+    case $KSP_VERSION in
+    "0.90")
+        echo "Overiding '0.90' with '0.90.0'"
         KSP_VERSION="0.90.0"
-    fi
+        ;;
+    "any")
+        echo "Overriding any with $KSP_VERSION_DEFAULT"
+        KSP_VERSION=$KSP_VERSION_DEFAULT
+        ;;
+    *)
+        echo "No override, Running with $KSP_VERSION"
+        ;;
+    esac
+    
     
     echo "Creating a dummy KSP $KSP_VERSION install"
     
     # Remove any existing KSP dummy install.
-    rm -rf dummy_ksp
+    if [ -d "dummy_ksp/" ]
+    then
+        rm -rf dummy_ksp
+    fi
     
     # Create a new dummy KSP.
     mkdir dummy_ksp
@@ -116,11 +139,58 @@ inject_metadata () {
 # Main entry point.
 # ------------------------------------------------
 
+if [ -n "$ghprbActualCommit" ]
+then
+    echo "Commit hash: $ghprbActualCommit"
+    export COMMIT_CHANGES="`git diff --diff-filter=AM --name-only --stat origin/master`"
+else
+    echo "No commit provided, skipping further tests."
+    exit $EXIT_OK
+fi
+
 # Make sure we start from a clean slate.
-rm -rf built
-rm -rf downloads_cache
-rm -f master.tar.gz
-rm -f metadata.tar.gz
+if [ -d "built/" ]
+then
+    rm -rf built
+fi
+
+if [ -d "downloads_cache/" ]
+then
+    rm -rf downloads_cache
+fi
+
+if [ -e "master.tar.gz" ]
+then
+    rm -f master.tar.gz
+fi
+
+if [ -e "metadata.tar.gz" ]
+then
+    rm -f metadata.tar.gz
+fi
+
+# Check JSON.
+echo "Running jsonlint on the changed files"
+echo "If you get an error below you should look for syntax errors in the metadata"
+
+for f in $COMMIT_CHANGES
+do
+    if [ "$f" == "build.sh" ]
+    then
+        echo "Lets try not to validate our build script with jsonlint"
+        continue
+    fi
+
+    echo "Validating $f..."
+    jsonlint -s -v $f
+    
+    if [ $? -ne 0 ]
+    then
+        echo "Failed to validate $f"
+        exit $EXIT_FAILED_JSON_VALIDATION
+    fi
+done
+echo ""
 
 # Run basic tests.
 echo "Running basic sanity tests on metadata."
@@ -135,50 +205,11 @@ fi
 # Find the changes to test.
 echo "Finding changes to test..."
 
-# Check if we are called with a CLI argument.
-if [ -n $1 ]
-then
-    echo "Using CLI argument of $1"
-    ghprbActualCommit=$1
-fi
-    
-if [ -z $ghprbActualCommit ]
-then
-    echo "No commit hash, running all netkan files"
-    export COMMIT_CHANGES=NetKAN/*.netkan
-else
-    echo "Commit hash: $ghprbActualCommit"
-    export COMMIT_CHANGES="`git diff --diff-filter=AM --name-only --stat origin/master`"
-fi
-
-if [ "$COMMIT_CHANGES" = "" ]
-then
-    echo "No .netkan changes, skipping further tests."
-    exit $EXIT_OK
-fi
-
 # Print the changes.
 echo "Detected file changes:"
 for f in $COMMIT_CHANGES
 do
     echo "$f"
-done
-echo ""
-
-# Check JSON.
-echo "Running jsonlint on the changed files"
-echo "If you get an error below you should look for syntax errors in the metadata"
-
-for f in $COMMIT_CHANGES
-do
-    echo "Validating $f..."
-    jsonlint -s -q $COMMIT_CHANGES
-    
-    if [ $? -ne 0 ]
-    then
-        echo "Failed to validate $f"
-        exit $EXIT_FAILED_JSON_VALIDATION
-    fi
 done
 echo ""
 
@@ -195,7 +226,7 @@ wget --quiet $LATEST_NETKAN_URL -O netkan.exe
 
 # Fetch the latest metadata.
 echo "Fetching latest metadata"
-wget --quiet https://github.com/KSP-CKAN/CKAN-meta/archive/master.tar.gz -O metadata.tar.gz
+wget --quiet $LATEST_CKAN_META -O metadata.tar.gz
 
 # Determine KSP dummy name.
 if [ -z $ghprbActualCommit ]
@@ -209,12 +240,14 @@ fi
 # Note: Additional NETKAN_OPTIONS may be set on jenkins jobs
 for f in $COMMIT_CHANGES
 do
+    if [ "$f" = "build.sh" ]; then
+        echo "Lets try not to validate our build script with netkan"
+        continue
+    fi
+
     echo "Running NetKAN for $f"
     mono netkan.exe $f --cachedir="downloads_cache" --outputdir="built" ${NETKAN_OPTIONS}
 done
-
-# Reset KSP.
-mono ckan.exe ksp forget $KSP_NAME_DEFAULT
 
 # Test all the built files.
 for f in built/*.ckan
