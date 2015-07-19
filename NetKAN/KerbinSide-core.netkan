@@ -1,0 +1,90 @@
+{
+	"spec_version" : "v1.4",
+	"identifier"   : "KerbinSide-core",
+    "name"         : "KerbinSide core",
+    "abstract"     : "Files that KerbinSide and KerbinSideAirRace share in common.",
+	"$kref"        : "#/ckan/kerbalstuff/77",
+	"license"      : "BSD-3-clause",
+	"suggests": [
+        { "name": "KerbinSide" },
+        { "name": "KerbinSideAirRace"}
+    ],
+    "install": [
+        {
+            "file"       : "GameData/KerbinSide/Parts/Static/citywindowsemissive.dds",
+            "install_to" : "GameData/KerbinSide/Parts/Static"
+        },
+        {
+            "file"       : "GameData/KerbinSide/Parts/Static/generatorstripes.dds",
+            "install_to" : "GameData/KerbinSide/Parts/Static"
+        },
+        {
+            "file"       : "GameData/KerbinSide/Parts/Static/glasssafetyemissive.dds",
+            "install_to" : "GameData/KerbinSide/Parts/Static"
+        },
+        {
+            "file"       : "GameData/KerbinSide/Parts/Static/kscgravel.dds",
+            "install_to" : "GameData/KerbinSide/Parts/Static"
+        },
+        {
+            "file"       : "GameData/KerbinSide/Parts/Static/kscgrill.dds",
+            "install_to" : "GameData/KerbinSide/Parts/Static"
+        },
+        {
+            "file"       : "GameData/KerbinSide/Parts/Static/kscmarble2.dds",
+            "install_to" : "GameData/KerbinSide/Parts/Static"
+        },
+        {
+            "file"       : "GameData/KerbinSide/Parts/Static/kscmarkingwhite.dds",
+            "install_to" : "GameData/KerbinSide/Parts/Static"
+        },
+        {
+            "file"       : "GameData/KerbinSide/Parts/Static/kscwalkway.dds",
+            "install_to" : "GameData/KerbinSide/Parts/Static"
+        },
+        {
+            "file"       : "GameData/KerbinSide/Parts/Static/kscpanelyellow.dds",
+            "install_to" : "GameData/KerbinSide/Parts/Static"
+        },
+        {
+            "file"       : "GameData/KerbinSide/Parts/Static/kscsteelgrey.dds",
+            "install_to" : "GameData/KerbinSide/Parts/Static"
+        },
+        {
+            "file"       : "GameData/KerbinSide/Parts/Static/kscyellow.dds",
+            "install_to" : "GameData/KerbinSide/Parts/Static"
+        },
+        {
+            "file"       : "GameData/KerbinSide/Parts/Static/kspgrey77.dds",
+            "install_to" : "GameData/KerbinSide/Parts/Static"
+        },
+        {
+            "file"       : "GameData/KerbinSide/Parts/Static/lightblue.dds",
+            "install_to" : "GameData/KerbinSide/Parts/Static"
+        },
+        {
+            "file"       : "GameData/KerbinSide/Parts/Static/lightgreen.dds",
+            "install_to" : "GameData/KerbinSide/Parts/Static"
+        },
+        {
+            "file"       : "GameData/KerbinSide/Parts/Static/lightyellow.dds",
+            "install_to" : "GameData/KerbinSide/Parts/Static"
+        },
+        {
+            "file"       : "GameData/KerbinSide/Parts/Static/lightyellow_emiss.dds",
+            "install_to" : "GameData/KerbinSide/Parts/Static"
+        },
+        {
+            "file"       : "GameData/KerbinSide/Parts/Static/metalred.dds",
+            "install_to" : "GameData/KerbinSide/Parts/Static"
+        },
+        {
+            "file"       : "GameData/KerbinSide/Parts/Static/newkscgrass2.dds",
+            "install_to" : "GameData/KerbinSide/Parts/Static"
+        },
+        {
+            "find"       : "Flags",
+            "install_to" : "GameData/KerbinSide"
+        }
+    ]
+}

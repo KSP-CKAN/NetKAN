@@ -3,13 +3,37 @@
     "spec_version": "v1.4",
     "$kref": "#/ckan/kerbalstuff/851",
     "license": "BSD-3-clause",
+    "depends": [
+        { "name": "KerbinSide-core" },
+        { "name": "KerbalKonstructs"}
+    ],
     "install": [
         {
             "find"       : "KerbinSide",
-            "install_to" : "GameData"
+            "install_to" : "GameData",
+            "filter"     : 
+            [
+                "Flags",
+                "citywindowsemissive.dds",
+                "generatorstripes.dds",
+                "glasssafetyemissive.dds",
+                "kscgravel.dds",
+                "kscgrill.dds",
+                "kscmarble2.dds",
+                "kscmarkingwhite.dds",
+                "kscpanelyellow.dds",
+                "kscsteelgrey.dds",
+                "kscwalkway.dds",
+                "kscyellow.dds",
+                "kspgrey77.dds",
+                "lightblue.dds",
+                "lightgreen.dds",
+                "lightyellow.dds",
+                "lightyellow_emiss.dds",
+                "metalred.dds",
+                "newkscgrass2.dds",
+                "licence.txt"
+            ]
         }
-    ],
-    "depends" : [
-        { "name" : "KerbalKonstructs" }
     ]
 }
