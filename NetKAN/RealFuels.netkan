@@ -16,6 +16,7 @@
 			"filter"	: ".DS_Store"
         }
     ],
+    "provides": [ "KSPIE-fuelswitch" ],
     "depends" : [
         { "name" : "ModuleManager" },
         { "name" : "RealFuels-Engine-Configs" },
