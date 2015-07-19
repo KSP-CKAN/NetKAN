@@ -12,6 +12,9 @@
         { "name" : "SmokeScreen" },
         { "name" : "RealPlumeConfigs" }
     ],
+    "recommends" : [
+        { "name" : "EngineLighting" }
+    ],
     "conflicts" : [
         { "name" : "HotRockets" }
     ],
