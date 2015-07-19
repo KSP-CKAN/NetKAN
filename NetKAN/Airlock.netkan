@@ -5,5 +5,12 @@
     "identifier": "Airlock",
     "suggests": [
         { "name": "TACLS" }
+    ],
+    "install": [
+        {
+            "file"       : "Airlock",
+            "install_to" : "GameData",
+            "filter"     : "ModuleAirlock.cs"
+        }
     ]
 }
