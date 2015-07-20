@@ -4,7 +4,10 @@
     "$kref": "#/ckan/kerbalstuff/1014",
     "identifier": "ContractConfigurator-RoverMissionsbyWhyren",
     "depends": [
-        { "name": "ContractConfigurator" }
+        { "name": "ContractConfigurator", "min_version": "1.5.3" }
+    ],
+    "recommends": [
+        { "name": "WaypointManager" }
     ],
     "install": [
         {
