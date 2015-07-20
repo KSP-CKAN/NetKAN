@@ -122,6 +122,10 @@ create_dummy_ksp () {
 # archive. Assummes metadata.tar.gz to be present.
 # ------------------------------------------------
 inject_metadata () {
+    # TODO: Arrays + Bash Functions aren't fun. This needs
+    # Improvement but appears to work. The variables are
+    # available to the called functions.
+
     # Check input, requires at least 1 argument.
     if [ $# -ne 1 ]
     then
@@ -137,7 +141,9 @@ inject_metadata () {
     tar -xzf metadata.tar.gz
     
     # Copy in the files to inject.
-    for f in $1
+    # TODO: Unsure why this suddenly needs [*] declaration
+    # but it does work
+    for f in ${OTHER_FILES[*]}
     do
         cp $f CKAN-meta-master
     done
