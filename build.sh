@@ -48,28 +48,28 @@ create_dummy_ksp () {
         KSP_VERSION="0.90.0"
         ;;
     "1.0")
-        echo "Overiding '1.0.0' with '1.0.0'"
-        KSP_VERSION="1.0.0"
+        echo "Overidding '1.0' with '$KSP_VERSION_DEFAULT'"
+        KSP_VERSION=$KSP_VERSION_DEFAULT
         ;;
     "any")
-        echo "Overriding any with $KSP_VERSION_DEFAULT"
+        echo "Overridding any with '$KSP_VERSION_DEFAULT'"
         KSP_VERSION=$KSP_VERSION_DEFAULT
         ;;
     "null")
-        echo "Overriding 'null' with $KSP_VERSION_DEFAULT"
+        echo "Overriding 'null' with '$KSP_VERSION_DEFAULT'"
         KSP_VERSION=$KSP_VERSION_DEFAULT
         ;;
     "")
-        echo "Overriding empty version with $KSP_VERSION_DEFAULT"
+        echo "Overriding empty version with '$KSP_VERSION_DEFAULT'"
         KSP_VERSION=$KSP_VERSION_DEFAULT
         ;;
     *)
-        echo "No override, Running with $KSP_VERSION"
+        echo "No override, Running with '$KSP_VERSION'"
         ;;
     esac
     
     
-    echo "Creating a dummy KSP $KSP_VERSION install"
+    echo "Creating a dummy KSP '$KSP_VERSION' install"
     
     # Remove any existing KSP dummy install.
     if [ -d "dummy_ksp/" ]
@@ -96,7 +96,7 @@ create_dummy_ksp () {
     # Reset the Mono registry.
     if [ "$USER" = "jenkins" ]
     then
-        REGISTRY_FILE=${HOME}/.mono/registry/CurrentUser/software/ckan/values.xml
+        REGISTRY_FILE=$HOME/.mono/registry/CurrentUser/software/ckan/values.xml
         if [ -r $REGISTRY_FILE ]
         then
             rm -f $REGISTRY_FILE
@@ -104,10 +104,10 @@ create_dummy_ksp () {
     fi
     
     # Register the new dummy install.
-    mono ckan.exe ksp add ${KSP_NAME} "`pwd`/dummy_ksp"
+    mono ckan.exe ksp add $KSP_NAME "`pwd`/dummy_ksp"
     
     # Set the instance to default.
-    mono ckan.exe ksp default ${KSP_NAME}
+    mono ckan.exe ksp default $KSP_NAME
     
     # Point to the local metadata instead of GitHub.
     mono ckan.exe repo add local "file://`pwd`/master.tar.gz"
@@ -258,7 +258,7 @@ do
     fi
 
     echo "Running NetKAN for $f"
-    mono netkan.exe $f --cachedir="downloads_cache" --outputdir="built" ${NETKAN_OPTIONS}
+    mono netkan.exe $f --cachedir="downloads_cache" --outputdir="built" $NETKAN_OPTIONS
 done
 
 # Test all the built files.
