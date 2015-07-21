@@ -114,7 +114,7 @@ create_dummy_ksp () {
     mono ckan.exe repo remove default
     
     # Link to the downloads cache.
-    ln -s downloads_cache dummy_ksp/CKAN/downloads
+    ln -s ../../downloads_cache/ dummy_ksp/CKAN/downloads
 }
 
 # ------------------------------------------------
