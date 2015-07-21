@@ -6,6 +6,8 @@
     "abstract"       : "Flags contained in TriggerAu's Addons",
     "license"        : "MIT",
 	"release_status" : "stable",
+    "ksp_version"    : "any",
+    "comment"        : "flagmod",
 	"author": "TriggerAu",
     "resources": {
         "license"      : "https://github.com/TriggerAu/AlternateResourcePanel/blob/master/LICENSE",

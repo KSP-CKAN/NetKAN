@@ -5,6 +5,7 @@
     "$kref"        : "#/ckan/kerbalstuff/13",
     "author"       : [ "jnrobinson", "bsquiklehausen" ],
     "license"      : "CC-BY-SA-3.0",
+    "x_netkan_epoch" : "1",
     "install" : [
         {
             "file"       : "GameData/RSCapsuledyne",

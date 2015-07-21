@@ -2,12 +2,15 @@
     "spec_version"   : "v1.4",
     "identifier"     : "QuickMute",
     "$kref"          : "#/ckan/kerbalstuff/509",
-    "$vref"          : "#/ckan/ksp-avc",
     "license"        : "GPL-3.0",
+    "resources": {
+    	"homepage": 	"http://forum.kerbalspaceprogram.com/threads/95168#QuickMute",
+    	"repository": 	"https://github.com/malahx/QuickMute"
+    },    
     "suggests"       : [
         { "name" : "Toolbar" }
     ],
-	"install" :[
+    "install" :[
     {
         "find"       : "QuickMute",
         "install_to" : "GameData"

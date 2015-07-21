@@ -5,9 +5,9 @@
     "identifier"   : "RealFuels",
     "$kref"        : "#/ckan/github/NathanKell/ModularFuelSystem",
     "license"      : "CC-BY-SA",
-    "author"       : [ "ialdabaoth", "NathanKell" ],
+    "author"       : [ "ialdabaoth", "NathanKell", "taniwha" ],
     "release_status" : "stable",
-    "ksp_version"  : "1.0.2",
+    "ksp_version"  : "1.0.4",
     "resources" : { "homepage" : "http://forum.kerbalspaceprogram.com/threads/64118" },
     "install" : [
         {
@@ -24,12 +24,13 @@
     ],
     "conflicts" : [
         { "name" : "ModularFuelSystem" },
-        { "name" : "ModularFuelTanks"  }
+        { "name" : "ModularFuelTanks"  },
+        { "name" : "InterstellarFuelSwitch" },
+        { "name" : "Fuelswitchtoeverytank" },
+        { "name" : "StockFuelSwitch" },
+        { "name" : "EngineIgnitor" }
     ],
     "recommends" : [
         { "name" : "CrossFeedEnabler" }
-    ],
-    "suggests" : [
-        { "name" : "EngineIgnitor" }
     ]
 }

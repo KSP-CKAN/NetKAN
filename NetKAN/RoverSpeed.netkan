@@ -1,0 +1,9 @@
+{
+    "spec_version" : 1,
+    "identifier"   : "RoverSpeed",
+    "$kref"        : "#/ckan/kerbalstuff/936",
+    "x_netkan_license_ok": true,
+	"depends": [
+        { "name": "ModuleManager", "min_version": "2.6.0" }
+    ]
+}

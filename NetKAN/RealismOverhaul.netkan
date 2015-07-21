@@ -4,46 +4,45 @@
     "$vref"          : "#/ckan/ksp-avc",
     "name"           : "Realism Overhaul",
     "identifier"     : "RealismOverhaul",
-    "abstract"       : "Multipatch to KSP to give things realistic stats and sizes",
+    "abstract"       : "Multipatch to KSP to give spacecraft components realistic stats and sizes, and performance based on real-world spacecraft.",
     "license"        : "CC-BY-SA",
     "release_status" : "stable",
     "depends" : [
 		{ "name" : "AdvancedJetEngine" },
 		{ "name" : "CrossFeedEnabler" },
-		{ "name" : "DDSLoader" },
 		{ "name" : "FerramAerospaceResearch" },
 		{ "name" : "KerbalJointReinforcement" },
 		{ "name" : "ModuleManager" },
 		{ "name" : "ModuleRCSFX" },
+		{ "name" : "RealChute" },
 		{ "name" : "RealFuels" },
-		{ "name" : "RealSolarSystem" }
+		{ "name" : "RealHeat" },
+		{ "name" : "RealPlume" },
+		{ "name" : "SmokeScreen" }
     ],
     "recommends" : [
-		{ "name" : "ActiveTextureManagement" },
+		{ "name" : "B9AerospaceProceduralParts" },
 		{ "name" : "BetterBuoyancy" },
 		{ "name" : "ConnectedLivingSpace" },
 		{ "name" : "DeadlyReentry" },
-		{ "name" : "EngineIgnitor" },
 		{ "name" : "FilterExtensions" },
 		{ "name" : "HangarExtender" },
 		{ "name" : "KSP-AVC" },
 		{ "name" : "MechJeb2" },
 		{ "name" : "ModuleFixer" },
-		{ "name" : "NBody" },
-		{ "name" : "PartCatalog" },
-		{ "name" : "ProceduralDynamics" },
 		{ "name" : "ProceduralFairings" },
+		{ "name" : "ProceduralFairings-ForEverything" },
 		{ "name" : "ProceduralParts" },
-		{ "name" : "RealChute" },
-		{ "name" : "RealPlume" },
-		{ "name" : "RealHeat" },
+		{ "name" : "RealSolarSystem" },
 		{ "name" : "RemoteTech" },
 		{ "name" : "RemoteTech-Config-RSS" },
+		{ "name" : "SemiSaturatableRW" },
 		{ "name" : "TACLS" },
 		{ "name" : "TACLS-Config-RealismOverhaul" },
+		{ "name" : "TestFlight" },
+		{ "name" : "TestFlightConfigRO" },
 		{ "name" : "TextureReplacer" },
-		{ "name" : "Toolbar" },
-		{ "name" : "TweakScale" }
+		{ "name" : "Toolbar" }
     ],
     "suggests"   : [
 		{ "name" : "Service-Compartments-6S" },
@@ -74,16 +73,18 @@
 		{ "name" : "UniversalStorage" },
 		{ "name" : "VenStockRevamp"}
     ],
-    "provides" : [ "RealFuels-Engine-Configs" ],
+        "provides"  : [ "RealPlumeConfigs", "RealFuels-Engine-Configs" ],
+	"conflicts"	:	[
+		{ "name" : "TweakableEverything" },
+		{ "name" : "RealPlumeConfigs" }
+	],
     "resources" : {
         "homepage" : "http://forum.kerbalspaceprogram.com/threads/99966"
     },
     "install" : [
         {
             "file"       : "GameData/RealismOverhaul",
-            "install_to" : "GameData",
-			"comment"       : "This regexp skips the Smokescreen folders",
-			"filter_regexp" : "SmokeScreen_"
+            "install_to" : "GameData"
         },
         {
             "file"       : "GameData/KAS",
@@ -107,3 +108,4 @@
         }
     ]
 }
+

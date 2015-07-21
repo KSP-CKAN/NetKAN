@@ -1,0 +1,13 @@
+{
+    "x_via": "Automated KerbalStuff CKAN submission",
+    "spec_version": 1,
+    "license": "MIT",
+    "$kref": "#/ckan/kerbalstuff/930",
+    "identifier": "CelestialBodyScienceEditor",
+	"install": [
+		{
+			"file": "GameData/ScienceParamModifier",
+			"install_to": "GameData"
+		}
+	]
+}

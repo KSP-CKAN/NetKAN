@@ -1,0 +1,19 @@
+{
+    "spec_version": 1,
+    "identifier": "MeatlessIndustries",
+    "$kref": "#/ckan/kerbalstuff/889",
+    "$vref" : "#/ckan/ksp-avc",
+    "license": "CC-BY-NC-SA-4.0",
+    
+    "resources": {
+        "homepage": "https://kerbalstuff.com/mod/889/Meatless%20Industries"
+    },
+    
+    "install": [
+        {
+            "file"       : "MeatlessIndustries",
+            "install_to" : "GameData"
+        }
+    ]
+    
+}

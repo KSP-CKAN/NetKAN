@@ -1,0 +1,17 @@
+{
+        "spec_version" : "v1.4",
+        "identifier" : "RoversAndRoadsters",
+        "license" : "BSD-3-clause",
+        "comment" : "Common assets in KashCorpSA virtual mod, based off KAP zip",
+        "$kref" : "#/ckan/kerbalstuff/94",
+        "depends" : [
+                { "name"        : "ModuleManager" },
+                { "name"        : "KashCorpSA" }
+        ],
+        "install" : [
+                {      
+                        "find" : "RoversAndRoadsters",
+                        "install_to" : "GameData/KashCorp"
+                }
+        ]
+}

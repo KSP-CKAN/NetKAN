@@ -1,0 +1,15 @@
+{
+    "spec_version": 1,
+    "license": "CC-BY-SA-4.0",
+    "$kref": "#/ckan/kerbalstuff/1002",
+    "identifier": "ClampOTronAPAS",
+    "depends": [
+        { "name": "HullcamVDS" }
+    ],
+    "install": [
+        {
+            "file"       : "GameData/FederalProductions",
+            "install_to" : "GameData"
+        }
+    ]
+}

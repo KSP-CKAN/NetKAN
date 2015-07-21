@@ -2,7 +2,7 @@
 	"spec_version" : 1,
 	"identifier" : "ZeroPointInlineFairings",
 	"$kref" : "#/ckan/kerbalstuff/196",
-	"ksp_version_max" : "0.90",
+    "$vref" : "#/ckan/ksp-avc",
 	"license" : "CC-BY-NC-SA",
 	"resources" : {
 	"homepage"  : "http://forum.kerbalspaceprogram.com/threads/94427"
@@ -17,5 +17,16 @@
 	
 	"conflicts": [
 		{ "name": "ZeroPointInlineFairings-Lite" }
-	]
+	],
+    
+    "depends": [
+        { "name": "FerramAerospaceResearch"}
+    ],
+    
+    "suggests": [
+        { "name": "ModularRocketSystem" },
+        { "name": "SpaceY-Lifters" },
+        { "name": "ColorCodedCans"},
+        { "name": "FuelTanksPlus"}
+    ]
 }

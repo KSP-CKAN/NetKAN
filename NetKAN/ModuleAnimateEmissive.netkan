@@ -8,5 +8,5 @@
 	"release_status":	"stable",
 	"install"		:	[ { "find" : "SolverEngines",
 							"install_to" : "GameData",
-							"filter" : [ "Icons", "PluginData" , "SolverEngines.dll", "Readme_SolverEngines.txt" ] } ]
+							"filter" : [ "Icons", "PluginData" , "SolverEngines.dll", "Readme_SolverEngines.txt", "SolverEngines.version" ] } ]
 }

@@ -1,0 +1,18 @@
+{
+    "identifier": "DeepFreeze",
+    "x_via": "Author JPLRepo",
+    "spec_version": "v1.4",
+    "$kref": "#/ckan/kerbalstuff/895",
+    "license": "CC-BY-NC-SA-4.0",
+	"recommends" : [ 
+	{ "name" : "Toolbar" },
+	{ "name" : "ShipManifest" },
+	{ "name" : "ConnectedLivingSpace" },
+	{ "name" : "TACLS" },
+	{ "name" : "Snacks" },
+	{ "name" : "AmpYearPowerManager"}
+	],
+	"install": [
+		{ "find": "REPOSoftTech", "install_to": "GameData" }
+	]
+}

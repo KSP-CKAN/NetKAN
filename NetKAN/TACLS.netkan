@@ -22,5 +22,15 @@
         "homepage" : "https://github.com/taraniselsu/TacLifeSupport/wiki",
         "bugtracker" : "https://github.com/taraniselsu/TacLifeSupport/issues",
         "repository" : "https://github.com/taraniselsu/TacLifeSupport"
-    }
+    },
+    "x_netkan_override" : [
+        {
+            "version" : "v0.11.1.20",
+            "delete" : [ "ksp_version" ],
+            "override" : {
+                "ksp_version_min" : "1.0.2",
+                "ksp_version_max" : "1.0.4"
+            }
+        }
+    ]
 }

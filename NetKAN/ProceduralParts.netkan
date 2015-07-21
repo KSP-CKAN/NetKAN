@@ -9,11 +9,19 @@
 	"resources" : {
         "homepage"     : "https://github.com/Swamp-Ig/ProceduralParts"
     },
-    "recommends" : [ 
+    "depends" : [ 
         { "name" : "ModuleManager" }
     ],
     "suggests" : [ 
         { "name" : "PPTextures" },
         { "name" : "FreedomTex" }
+    ],
+    "x_netkan_override": [
+    	{
+    		"version": "v1.1.4",
+    		"override": {
+    			"ksp_version": "1.0.4"
+    		}
+    	}
     ]
 }

@@ -1,19 +1,25 @@
 {
-    "spec_version" : 1,
-    "identifier"   : "NearFutureSpacecraft",
-    "$kref"        : "#/ckan/kerbalstuff/350",
+    "spec_version"   : "v1.4",
+    "identifier"     : "NearFutureSpacecraft",
+    "$kref"          : "#/ckan/kerbalstuff/350",
+    "release_status" : "stable",
+    "license"        : "CC-BY-NC-SA-4.0",
     "depends"      :  [
-        { "name" : "RasterPropMonitor-Core" },
         { "name" : "NearFutureProps" }
     ],
-    "suggests"     : [
-        { "name" : "CommunityTechTree" }
+    "suggests" : [
+        { "name" : "CommunityTechTree" },
+        { "name" : "NearFutureConstruction" },
+        { "name" : "NearFutureElectrical" },
+        { "name" : "NearFuturePropulsion" },
+        { "name" : "NearFutureSolar" },
+        { "name" : "StationPartsExpansion" }
     ],
-    "install"      : [
-        { "file" : "GameData/NearFutureSpacecraft",
-          "install_to" : "GameData"
-        }
+    "supports" : [
+        { "name" : "RasterPropMonitor-Core" },
+        { "name" : "ConnectedLivingSpace" }
     ],
-    "license" : "CC-BY-NC-SA-3.0"
-
+    "install" : [
+        { "find" : "NearFutureSpacecraft", "install_to" : "GameData" }
+    ]
 }

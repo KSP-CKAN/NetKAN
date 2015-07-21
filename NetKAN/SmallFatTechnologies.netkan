@@ -1,0 +1,17 @@
+{
+    "spec_version": 1,
+    "license": "MIT",
+    "$kref": "#/ckan/kerbalstuff/940",
+    "identifier": "SmallFatTechnologies",
+    "abstract"    : "Stockalike VASIMR and argon tanks",
+    "install": [
+        {
+            "file"       : "Place in Gamedata/SmallFatTechnology",
+            "install_to" : "GameData",
+            "filter"     : ".DS_Store"
+        }
+    ],
+    "depends": [
+        { "name": "ModuleManager" }
+    ]
+}

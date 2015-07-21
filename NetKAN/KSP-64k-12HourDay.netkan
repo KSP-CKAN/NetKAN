@@ -1,0 +1,19 @@
+{
+    "spec_version": 1,
+    "identifier": "KSP-64k-12HourDay",
+    "$kref": "#/ckan/kerbalstuff/573",
+    "name": "64K - 12 Hour Day",
+    "asbtract": "Add-on to 64k to scale the rotation period of Kerbin and other worlds appropriately to the size of the system.",
+    "license": "CC-BY-NC-4.0",
+    "install": [
+        {
+            "file": "Optional 12 hour day/GameData/64k",
+            "install_to": "GameData"
+        }
+    ],
+    "depends": [
+        { "name": "ModuleManager", "min_version": "2.6.6" },
+        { "name": "Kopernicus", "min_version": "pre-alpha-07" },
+        { "name": "KSP-64k" }
+    ]
+}

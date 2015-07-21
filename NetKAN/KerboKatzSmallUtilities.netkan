@@ -4,6 +4,18 @@
     "$kref": "#/ckan/kerbalstuff/704",
     "spec_version": "v1.4",
 	"depends"	:	[ { "name" : "KerboKatzUtilities" } ],
+	"conflicts"	: [
+					{ "name" : "KerboKatzSmallUtilities-AfterBurner" },
+					{ "name" : "KerboKatzSmallUtilities-DisableTempGauges" },
+					{ "name" : "KerboKatzSmallUtilities-EditorCamUtilities" },
+					{ "name" : "KerboKatzSmallUtilities-FillSpotsWithTourists" },
+					{ "name" : "KerboKatzSmallUtilities-FPSLimiter" },
+					{ "name" : "KerboKatzSmallUtilities-FPSViewer" },
+					{ "name" : "KerboKatzSmallUtilities-ModifiedExplosionPotential" },
+					{ "name" : "KerboKatzSmallUtilities-PhysicalTimeRatioViewer" },
+                    { "name" : "KerboKatzSmallUtilities-AutoBalancingLandingLeg" }
+                ],
+
 	"install"	:	[ { "find" : "SmallUtilities",
 					 "install_to" : "GameData/KerboKatz" } ]
 }

@@ -2,5 +2,15 @@
     "$kref": "#/ckan/kerbalstuff/421", 
     "spec_version": 1, 
     "identifier": "AmbientLightAdjustment",
-    "license" : "GPL-3.0"
+    "license" : "GPL-3.0",
+    "x_netkan_override" : [
+        {
+            "version" : "1.4.4.1",
+            "delete" : [ "ksp_version" ],
+            "override" : {
+                "ksp_version_min" : "1.0.2",
+                "ksp_version_max" : "1.0.4"
+            }
+        }
+    ]
 }

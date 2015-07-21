@@ -1,0 +1,16 @@
+{
+    "spec_version": 1,
+    "license": "MIT",
+    "$kref": "#/ckan/kerbalstuff/1011",
+    "identifier": "Airlock",
+    "suggests": [
+        { "name": "TACLS" }
+    ],
+    "install": [
+        {
+            "file"       : "Airlock",
+            "install_to" : "GameData",
+            "filter"     : "ModuleAirlock.cs"
+        }
+    ]
+}

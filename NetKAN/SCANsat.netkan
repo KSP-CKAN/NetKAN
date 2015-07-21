@@ -3,9 +3,12 @@
     "identifier"   : "SCANsat",
     "$kref"        : "#/ckan/kerbalstuff/249",
     "license"      : "restricted",
+	"x_netkan_force_v"	:	true,
+	"depends" : [
+        { "name" : "ModuleManager" }
+    ],
 	"recommends": [
-        { "name": "Toolbar" },
-		{ "name": "ModuleManager" }
+        { "name": "Toolbar" }
     ],
 	"resources" : {
 		"repository"   : "https://github.com/S-C-A-N/SCANsat"
@@ -14,5 +17,15 @@
 	"suggests": [
 		{ "name": "RasterPropMonitor" },
 		{ "name": "ContractConfigurator-ContractPack-SCANsat" }
+	],
+	"x_netkan_override" : [
+		{
+			"version" : "v12.1",
+			"delete" : [ "ksp_version" ],
+			"override" : {
+				"ksp_version_min" : "1.0.2",
+				"ksp_version_max" : "1.0.4"
+			}
+		}
 	]
 }

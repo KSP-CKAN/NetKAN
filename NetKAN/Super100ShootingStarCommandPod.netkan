@@ -1,0 +1,22 @@
+{
+    "spec_version": "v1.2",
+    "license": "CC-BY-4.0",
+    "$kref": "#/ckan/kerbalstuff/904",
+    "identifier": "Super100ShootingStarCommandPod",
+    "install": [
+        {
+            "file"       : "Super100/RaptorAerospacial/Super100",
+            "install_to" : "GameData/RaptorAerospacial"
+        },
+        {
+            "file"       : "Super100/RaptorAerospacial/Spaces",
+            "install_to" : "GameData/RaptorAerospacial"
+        }
+    ],
+    "depends": [
+        { "name": "RasterPropMonitor-Core" }
+    ],
+    "recommends": [
+        { "name": "Super100ShootingStarCommandPod-heatshield" }
+    ]
+}

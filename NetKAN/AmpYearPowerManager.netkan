@@ -5,6 +5,10 @@
     "$kref": "#/ckan/kerbalstuff/630",
     "license": "GPL-3.0",
 	"x_netkan_epoch"	:	"1",
+	"depends" : [
+		{"name" : "ModuleManager", "min_version" : "2.3.5" }
+	],
+	"recommends" : [ { "name" : "Toolbar" } ],
 	"install": [
 		{ "find": "REPOSoftTech", "install_to": "GameData" }
 	]

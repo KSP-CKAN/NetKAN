@@ -1,17 +1,12 @@
 {
     "license": "GPL-3.0",
     "identifier": "FantomWorksKAXPartPack",
-    "x_via": "Automated KerbalStuff CKAN submission",
     "$kref": "#/ckan/kerbalstuff/565",
     "spec_version": "v1.4",
     "install": [
 	{
-	    "file": "FW/GameData/Fantom Works",
+	    "find": "Fantom Works",
 	    "install_to": "GameData"
-	},
-	{
-	    "file": "FW/Ships/SPH",
-	    "install_to": "Ships"
 	}
     ]
 }

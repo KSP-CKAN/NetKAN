@@ -3,5 +3,9 @@
     "identifier": "FuelTanksPlus",
     "x_via": "Automated KerbalStuff CKAN submission",
     "license": "CC-BY-NC-SA",
-    "spec_version": 1
+    "spec_version": 1,
+    "depends": [
+        { "name": "ModuleManager" },
+        { "name": "InterstellarFuelSwitch-Core"}
+    ]
 }
