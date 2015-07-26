@@ -1,0 +1,20 @@
+{
+    "spec_version": "v1.4",
+    "license": "restricted",
+    "$kref": "#/ckan/kerbalstuff/1031",
+    "identifier": "KerdiAutoCavalcade",
+    "install": [
+        {
+            "find"       : "Kerdi Auto Cavalcade",
+            "install_to" : "GameData/Kerdi Auto Cavalcade"
+        },
+        {
+            "find"       : "Kerdi Auto Cavalcade (Black Green Edition)",
+            "install_to" : "GameData/Kerdi Auto Cavalcade"
+        },
+        {
+            "find"       : "Kerdi Auto Cavalcade (White Blue Edition)",
+            "install_to" : "GameData/Kerdi Auto Cavalcade"
+        }
+    ]
+}
