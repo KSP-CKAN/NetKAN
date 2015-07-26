@@ -1,0 +1,17 @@
+{
+    "spec_version": "v1.4",
+    "license": "CC-BY-SA-4.0",
+    "$kref": "#/ckan/kerbalstuff/1026",
+    "$vref" : "#/ckan/ksp-avc",
+    "identifier": "CargoTransportationSolutions",
+    "depends": [
+        { "name": "FirespitterCore" }
+    ],
+    "install": [
+        {
+            "find"       : "TalisarParts",
+            "install_to" : "GameData",
+            "filter"     : "Crap.tt"
+        }
+    ]
+}
