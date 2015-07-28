@@ -8,8 +8,9 @@
     "license"        : "CC-BY-NC-SA",
     "release_status" : "stable",
     "depends" : [
-		{ "name" : "Kopernicus" },
-        { "name" : "RSSTextures" }
+	{ "name" : "Kopernicus" },
+        { "name" : "RSSTextures" },
+        { "name" : "BetterBuoyancy" }
     ],
     "recommends" : [
         { "name" : "RealismOverhaul" },
