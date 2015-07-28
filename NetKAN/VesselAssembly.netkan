@@ -10,8 +10,7 @@
     "install": [
         {
             "find"       : "KeridianDynamics",
-            "install_to" : "GameData",
-            "filter"     : "Crap.tt"
+            "install_to" : "GameData"
         }
     ]
 }
