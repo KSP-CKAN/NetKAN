@@ -1,24 +1,23 @@
 {
-	"spec_version"		: "v1.4",
-	"name"				: "ClampsBeGone",
-	"abstract"			: "Prevents launch clamps following vessels on their way to orbit by removing them as soon as the vessel launches.",
-	"identifier"		: "ClampsBeGone",
-	"$kref"				: "#/ckan/github/iPeer/ClampsBeGone",
-	"license"      		: "GPL-3.0",
-	"$vref"				: "#/ckan/ksp-avc",
-	"install"			:
-	[
-		{
-			"find"				: "iPeer",
-			"install_to"		: "GameData",
-			"filter"			: ["MiniAVC.dll", "LICENSE-MiniAVC.txt"]
-		}
-	],
-	"resources"			:
-	{
-		"homepage"		: "http://forum.kerbalspaceprogram.com/threads/129870",
-		"repository"	: "https://github.com/iPeer/ClampsBeGone",
-		"bugtracker"	: "https://github.com/iPeer/ClampsBeGone/issues"
-	}
+    "spec_version"      : "v1.4",
+    "name"              : "ClampsBeGone",
+    "abstract"          : "Prevents launch clamps following vessels on their way to orbit by removing them as soon as the vessel launches.",
+    "identifier"        : "ClampsBeGone",
+    "$kref"             : "#/ckan/github/iPeer/ClampsBeGone",
+    "license"           : "GPL-3.0",
+    "$vref"             : "#/ckan/ksp-avc",
+    "install"           :
+    [
+        {
+            "find"              : "iPeer",
+            "install_to"        : "GameData",
+            "filter"            : ["MiniAVC.dll", "LICENSE-MiniAVC.txt"]
+        }
+    ],
+    "resources"         :
+    {
+        "homepage"      : "http://forum.kerbalspaceprogram.com/threads/129870",
+        "repository"    : "https://github.com/iPeer/ClampsBeGone",
+        "bugtracker"    : "https://github.com/iPeer/ClampsBeGone/issues"
+    }
 }
-			
