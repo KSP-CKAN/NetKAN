@@ -1,0 +1,21 @@
+{
+    "spec_version"   : "v1.4",
+    "identifier"     : "AutomatedScreenshots",
+    "author"         : "Linuxgurugamer",
+    "name"           : "Automated Screenshots",
+    "abstract"       : "Take automated screenshots",
+    "$kref"          : "#/ckan/kerbalstuff/1030",
+    "$vref"          : "#/ckan/ksp-avc",
+    "license"        : "GPL-3.0",
+    "resources" : {
+        "homepage"    : "http://forum.kerbalspaceprogram.com/threads/129908",
+        "kerbalstuff" : "https://kerbalstuff.com/mod/1030/AutomatedScreenshots",
+        "repository"  : "https://github.com/linuxgurugamer/AutomatedScreenshots"
+    },
+    "install" : [
+        {
+            "find"       : "AutomatedScreenshots",
+            "install_to" : "GameData"
+        }
+    ]
+}
