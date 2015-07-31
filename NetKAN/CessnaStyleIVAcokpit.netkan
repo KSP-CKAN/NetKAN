@@ -3,6 +3,8 @@
     "license": "MIT",
     "$kref": "#/ckan/kerbalstuff/1045",
     "identifier": "CessnaStyleIVAcokpit",
+    "name"        : "Cessna Style IVA cockpit",
+    "abstract"    : "A Cessna style IVA cockpit",
     "depends": [
         { "name": "FirespitterCore" },
         { "name": "ASETAvionics" },
