@@ -6,7 +6,7 @@
     "license"    : "CC-BY-4.0",
     "author"     : "RP-0 Group",
     "$kref"      : "#/ckan/github/KSP-RO/RP-0",
-    "$vref" : "#/ckan/ksp-avc",
+    "ksp_version" : "1.0.4",
     "release_status" : "development",
     "depends" : [
         { "name" : "ModuleManager" } ,
