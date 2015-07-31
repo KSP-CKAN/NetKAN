@@ -1,0 +1,13 @@
+{
+    "spec_version": 1,
+    "license": "unrestricted",
+    "$kref": "#/ckan/kerbalstuff/1040",
+    "identifier": "RadialHeatShields",
+    "install": [
+        {
+            "find"       : "Radial Heat Shields",
+            "install_to" : "GameData",
+            "filter"     : ".DS_Store"
+        }
+    ]
+}
