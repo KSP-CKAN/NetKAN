@@ -5,7 +5,7 @@
     "identifier": "RadialHeatShields",
     "install": [
         {
-            "find"       : "Radial Heat Shields",
+            "find"       : "RadialHeatShields",
             "install_to" : "GameData",
             "filter"     : ".DS_Store"
         }
