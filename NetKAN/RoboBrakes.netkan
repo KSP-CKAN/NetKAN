@@ -8,7 +8,7 @@
     ],
     "install": [
         {
-            "find"       : "RoboBrakes",
+            "file"       : "RoboBrakes",
             "install_to" : "GameData"
         }
     ]
