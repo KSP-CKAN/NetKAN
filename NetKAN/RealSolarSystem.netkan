@@ -2,6 +2,7 @@
     "spec_version"   : "v1.4",
     "$kref"          : "#/ckan/github/KSP-RO/RealSolarSystem",
     "$vref"          : "#/ckan/ksp-avc",
+    "x_netkan_force_v": true,
     "name"           : "Real Solar System",
     "identifier"     : "RealSolarSystem",
     "abstract"       : "Resizes and rearranges the Kerbal system to more closely resemble the Solar System",
