@@ -1,0 +1,18 @@
+{
+    "spec_version" : 1,
+    "identifier"   : "PartUpgrade",
+    "$kref"        : "#/ckan/github/supermerill/KspPartUpgrade",
+    "name"         : "Part Upgrade",
+    "abstract"     : "This mod is about unlocking upgrades of existing parts when researching tech nodes.",
+    "license"      : "CC-BY-4.0",
+    "ksp_version"  : "1.0.4",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/123323"
+    },
+    "install": [
+        {
+            "file"       : "GameData",
+            "install_to" : "GameData"
+        }
+    ]
+}
