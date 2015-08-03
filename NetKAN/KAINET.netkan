@@ -1,18 +1,22 @@
 {
-    "spec_version" : "v1.4",
-    "$kref"        : "#/ckan/kerbalstuff/592",
-    "identifier"   : "KAINET",
-    "name"         : "No Astronauts Need Apply",
-    "license"      : "Apache-2.0",
-    "x_todo"       : "Add Probe Science patches when available through CKAN",
-    "install"      : [ 
+    "spec_version"  : "v1.4",
+    "identifier"    : "KAINET",
+    "$kref"         : "#/ckan/github/Kerbas-ad-astra/No-Astronauts-Need-Apply",
+    "$vref"         : "#/ckan/ksp-avc",
+    "name"          : "No Astronauts Need Apply",
+    "abstract"      : "Kerbal-less Space Program",
+    "license"       : "Apache-2.0",
+    "resources": {
+        "homepage"  : "http://forum.kerbalspaceprogram.com/threads/110584"
+    },
+    "install"       : [ 
         {
-            "find" : "NoAstronautsNeedApply",
+            "find"  : "NoAstronautsNeedApply",
             "install_to" : "GameData" 
         } 
     ],
-    "recommends"   : [
-        { "name" : "InfernalRobotics" },
-        { "name" : "ShipManifest" }
+    "recommends"    : [
+        { "name"    : "InfernalRobotics" },
+        { "name"    : "ShipManifest" }
     ]
 }
