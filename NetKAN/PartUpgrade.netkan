@@ -1,6 +1,6 @@
 {
     "spec_version" : 1,
-    "identifier"   : "kspPartUpgrade",
+    "identifier"   : "PartUpgrade",
     "$kref"        : "#/ckan/github/supermerill/KspPartUpgrade",
     "name"         : "Part Upgrade",
     "abstract"     : "This mod is about unlocking upgrades of existing parts when researching tech nodes.",
