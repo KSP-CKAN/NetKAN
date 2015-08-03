@@ -1,0 +1,15 @@
+{
+    "spec_version": 1,
+    "license": "MIT",
+    "$kref": "#/ckan/kerbalstuff/1047",
+    "identifier": "X77AssaultDrone",
+    "suggests": [
+        { "name": "BDArmory"}
+    ],
+    "install": [
+        {
+            "file"       : "x77craft",
+            "install_to" : "GameData"
+        }
+    ]
+}
