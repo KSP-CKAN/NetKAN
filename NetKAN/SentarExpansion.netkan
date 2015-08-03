@@ -2,9 +2,9 @@
     "spec_version"  : 1,
     "identifier"    : "SentarExpansion",
     "$kref"         : "#/ckan/kerbalstuff/1029",
-    "license"       : "GPL-3.0",
+    "license"       : "GPL-2.0",
 	"depends": [
         { "name": "Kopernicus", "min_version": "1:beta-02-4"},
-        { "name" : "ModuleManager", "min_version": "2.6.6" },
+        { "name" : "ModuleManager", "min_version": "2.6.6" }
     ]
 }
