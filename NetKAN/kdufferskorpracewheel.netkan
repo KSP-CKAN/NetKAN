@@ -1,0 +1,12 @@
+{
+    "spec_version": 1,
+    "license": "MIT",
+    "$kref": "#/ckan/kerbalstuff/1051",
+    "identifier": "kdufferskorpracewheel",
+    "install": [
+        {
+            "file"       : "kdufferskorp",
+            "install_to" : "GameData"
+        }
+    ]
+}
