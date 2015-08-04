@@ -4,4 +4,7 @@
     "identifier": "SolarSailNavigator",
     "spec_version": 1,
     "license": "unrestricted"
+    "depends": [
+        { "name": "ModuleManager" }
+        ]
 }
