@@ -16,6 +16,10 @@
             "find"       : "Mk3HypersonicSystems",
             "install_to" : "GameData",
             "filter"     : "Thumbs.db"
+        },
+        {
+            "find"       : "SPH",
+            "install_to" : "Ships"
         }
     ]
 }
