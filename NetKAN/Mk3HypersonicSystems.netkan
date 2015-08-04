@@ -11,6 +11,9 @@
         { "name": "CrossFeedEnabler" },
         { "name": "ModuleManager"}
     ],
+    "recommends": [
+        { "name": "B9AerospaceProceduralParts" }
+    ],
     "install": [
         {
             "find"       : "Mk3HypersonicSystems",
