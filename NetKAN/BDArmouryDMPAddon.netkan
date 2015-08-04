@@ -1,0 +1,26 @@
+{
+    "spec_version"      : "v1.4",
+    "license"           : "CC0",
+    "$kref"             : "#/ckan/kerbalstuff/1050",
+    "identifier"        : "BDArmouryDMPAddon",
+    "name"              : "BahamutoD's Armory-DarkMultiPlayer addon",
+    "abstract"          : "A BDArmory install for use in DarkMultiPlayer (install this instead of BDArmory if you're playing multiplayer)(not written by BahamutoD)",
+    "provides": [ "BDArmory-turret" ],
+    "depends": [
+        { "name": "DarkMultiPlayer" },
+        { "name": "BDArmory-common" }
+    ],
+    "conflicts": [
+        { "name": "BDArmory-turret" }
+    ],
+    "install": [
+        {
+            "find"       : "z_BDDMP",
+            "install_to" : "GameData"
+        },
+        {
+            "file"       : "GameData/BDArmory/Plugins/BahaTurret.dll",
+            "install_to" : "GameData/BDArmory/Plugins"
+        }
+    ]
+}

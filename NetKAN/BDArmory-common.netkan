@@ -1,0 +1,32 @@
+{
+    "spec_version" : "v1.4",
+    "identifier"   : "BDArmory-common",
+    "name"         : "BahamutoD's Armory-common",
+    "abstract"     : "This is just a module that provides files BDArmory uses in common with other mods",
+    "resources"    : {
+        "homepage" : "http://forum.kerbalspaceprogram.com/threads/85209"
+    },
+    "$kref"        : "#/ckan/kerbalstuff/90",
+	"license"	   : "CC-BY-SA-2.0",
+    "provides" : [ "BDArmory" ],
+    "depends": [
+        { "name": "BDArmory-turret" }
+    ],
+    "install": [
+        {
+            "find"       : "BDArmory",
+            "install_to" : "GameData",
+            "filter"     : "BahaTurret.dll"
+        }
+    ],
+    "x_netkan_override" : [
+		{
+			"version" : "v0.8.3",
+			"delete" : [ "ksp_version" ],
+			"override" : {
+				"ksp_version_min" : "1.0.2",
+				"ksp_version_max" : "1.0.4"
+			}
+		}
+    ]
+}
