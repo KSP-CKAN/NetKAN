@@ -5,6 +5,8 @@
     "identifier": "FederalProductions-Flags",
     "name"        : "Federal Productions Flags",
     "abstract"    : "A set of flags by TG626.",
+    "ksp_version"    : "any",
+    "comment"        : "flagmod",
     "install": [
         {
             "find"       : "Flags",
