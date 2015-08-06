@@ -14,8 +14,8 @@
         {
             "version" : "0.11.0",
             "override" : {
-                "ksp_min_version" : "1.0.2",
-                "ksp_max_version" : "1.0.4"
+                "ksp_version_min" : "1.0.2",
+                "ksp_version_max" : "1.0.4"
             },
             "delete" : [ "ksp_version" ],
             "comment" : "The AVC file really wants to say it's 1.0.2"
