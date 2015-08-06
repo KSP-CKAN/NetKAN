@@ -3,6 +3,9 @@
     "license": "CC-BY-SA-4.0",
     "$kref": "#/ckan/kerbalstuff/1044",
     "identifier": "DockingTarget",
+    "recommends": [
+        { "name": "FederalProductions-Flags" }
+    ],
     "suggests": [
         { "name": "HullcamVDS" }
     ],
@@ -12,7 +15,8 @@
 "install": [
         {
             "find"       : "FederalProductions",
-            "install_to" : "GameData"
+            "install_to" : "GameData",
+            "filter"     : "Flags"
         }
     ]
 }
