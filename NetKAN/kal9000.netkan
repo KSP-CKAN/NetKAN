@@ -10,14 +10,14 @@
         "homepage"    : "http://forum.kerbalspaceprogram.com/threads/98348",
         "kerbalstuff" : "https://kerbalstuff.com/mod/299/KAL9000"
     },
- "depends": [
+    "depends": [
         { "name": "KAS" }
     ],
-
     "install" : [
         {
             "find"       : "NAU",
-            "install_to" : "GameData"
+            "install_to" : "GameData",
+            "filter": ".DS_Store"
         }
     ]
 }
