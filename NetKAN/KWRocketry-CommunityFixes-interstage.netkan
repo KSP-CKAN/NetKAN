@@ -6,8 +6,7 @@
     "license"       : "GPL-3.0",
     "depends": [
         {
-            "name": "KWRocketry-CommunityFixes",
-            "version": "0.1.0"
+            "name": "KWRocketry-CommunityFixes"
         }
     ],
     "install": [
