@@ -10,6 +10,10 @@
         "homepage"    : "http://forum.kerbalspaceprogram.com/threads/98348",
         "kerbalstuff" : "https://kerbalstuff.com/mod/299/KAL9000"
     },
+ "depends": [
+        { "name": "KAS" }
+    ],
+
     "install" : [
         {
             "find"       : "NAU",
