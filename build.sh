@@ -114,7 +114,7 @@ create_dummy_ksp () {
     mono ckan.exe repo remove default
     
     # Link to the downloads cache.
-    ln -s ../../downloads_cache/ dummy_ksp/CKAN/downloads
+    ln -s ../../downloads_cache/ dummy_ksp/CKAN/downloads/
 }
 
 # ------------------------------------------------
@@ -145,6 +145,7 @@ inject_metadata () {
     # but it does work
     for f in ${OTHER_FILES[*]}
     do
+        echo "Injecting: $f"
         cp $f CKAN-meta-master
     done
     
@@ -288,10 +289,7 @@ do
     
     for o in built/*.ckan
     do
-        if [ "$f" != "$o" ]
-        then
-            OTHER_FILES+=($o)
-        fi
+        OTHER_FILES+=($o)
     done
     
     # Inject into metadata.
