@@ -1,11 +1,25 @@
 {
-    "spec_version" : 1,
+    "spec_version" : "v1.2",
     "identifier"   : "BDArmory",
     "resources" : {
         "homepage" : "http://forum.kerbalspaceprogram.com/threads/85209"
     },
     "$kref"        : "#/ckan/kerbalstuff/90",
 	"license"	   : "CC-BY-SA-2.0",
+    "provides" : [ "BDArmory-turret" ],
+    "depends": [
+        { "name": "BDArmory-common" }
+    ],
+    "conflicts": [
+        { "name": "BDArmouryDMPAddon" }
+    ],
+    "comment": "With the addition of BDArmouryDMPAddon, this module now only installs the turret .dll on its own while `BDArmory-core` actually contains the majority of the mod",
+    "install": [
+        {
+            "file"       : "GameData/BDArmory/Plugins/BahaTurret.dll",
+            "install_to" : "GameData/BDArmory/Plugins"
+        }
+    ],
     "x_netkan_override" : [
 		{
 			"version" : "v0.8.3",
