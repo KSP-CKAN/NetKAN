@@ -74,6 +74,11 @@ foreach my $shortname (sort keys %files) {
     }
 
     my $spec_version = $metadata->{spec_version};
+    ok(
+        $spec_version =~ m/^1$|^v\d\.\d\d?$/, 
+        "spec version must be 1 or in the 'vX.X' format"
+    );
+
     foreach my $install (@{$metadata->{install}}) {
         if ($install->{install_to} =~ m{^GameData/}) {
             ok(
