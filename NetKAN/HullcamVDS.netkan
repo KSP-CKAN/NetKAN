@@ -10,8 +10,18 @@
     "install" : [
         {
             "file"       : "HullCameraVDS",
-            "install_to" : "GameData"
+            "install_to" : "GameData",
+            "filter": [
+                "Thumbs.db",
+                "Thumbs.db:encryptable"
+            ],
+            "filter_regexp": [
+                "ModuleManager.*dll$"
+            ]
         }
+    ],
+    "depends": [
+        { "name": "ModuleManager" }
     ],
     "x_netkan_override" : [
 		{
