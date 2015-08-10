@@ -14,9 +14,6 @@
             "filter": [
                 "Thumbs.db",
                 "Thumbs.db:encryptable"
-            ],
-            "filter_regexp": [
-                "ModuleManager.*dll$"
             ]
         }
     ],
