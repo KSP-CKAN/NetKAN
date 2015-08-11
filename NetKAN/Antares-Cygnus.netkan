@@ -1,0 +1,22 @@
+{
+    "spec_version"  : "v1.2",
+    "identifier"    : "Antares-Cygnus",
+    "name"          : "Antares-Cygnus",
+    "author"        : ["Raidernick","Kartoffelkuchen"],
+    "abstract"      : "A joint release between Kartoffelkuchen and Raidernick combining our Cygnus and Antares mods.",
+    "resources": {
+        "homepage"  : "https://github.com/KSP-RO/Antares-Cygnus",
+    },
+    "$kref"         : "#/ckan/github/KSP-RO/Antares-Cygnus",
+    "license"       : "CC-BY-NC-ND-3.0",
+    "ksp_version"   : "1.0"
+    "install"       : [
+    {
+        "find"      : "KK_Antares",
+        "install_to": "GameData",
+    },
+    {
+        "find"      : "RN_Cygnus",
+        "install_to": "GameData",
+    }]
+}
