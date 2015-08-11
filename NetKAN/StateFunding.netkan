@@ -3,6 +3,9 @@
     "$kref": "#/ckan/kerbalstuff/1069",
     "license": "MIT",
     "identifier": "StateFunding",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/131233"
+    },
     "install": [
         {
             "find"       : "StateFunding",
