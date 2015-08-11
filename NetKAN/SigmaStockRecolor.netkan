@@ -1,0 +1,12 @@
+{
+    "spec_version": "v1.4",
+    "$kref": "#/ckan/kerbalstuff/1067",
+    "license": "CC-BY-NC-SA-4.0",
+    "identifier": "SigmaStockRecolor",
+    "install": [
+        {
+            "find"       : "StockRecolor",
+            "install_to" : "GameData/Sigma"
+        }
+    ]
+}
