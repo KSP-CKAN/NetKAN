@@ -1,17 +1,15 @@
 {
-    "spec_version": "v1.4",
+    "spec_version": "v1.5",
     "identifier": "Mk2Expansion",
     "$kref": "#/ckan/kerbalstuff/790",
     "license": "CC-BY-4.0",
     "depends": [
         { "name": "KlockheedMartian-Gimbal" },
-        { "name": "ModuleManager", "min_version": "2.5.1" },
-        { "name": "CommunityResourcePack" }
-        
+	{ "name": "CommunityResourcePack" },
+        { "name": "ModuleManager", "min_version": "2.5.3" }
     ],
     "suggests": [
 	{ "name": "FerramAerospaceResearch" },
-	{ "name": "HotRockets" },
 	{ "name": "InterstellarFuelSwitch" }
     ],
     "install" : [
