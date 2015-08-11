@@ -10,7 +10,7 @@
         {
             "find"       : "StateFunding",
             "install_to" : "GameData",
-            "filter"     : [ "Assembly-CSharp-firstpass.dll", "Assembly-CSharp.dll", "UnityEngine.dll" ]
+            "filter"     : [ "Assembly-CSharp-firstpass.dll", "Assembly-CSharp.dll", "UnityEngine.dll", "StateFunding.dll.mdb" ]
         }
     ]
 }
