@@ -9,14 +9,14 @@
     },
     "$kref"         : "#/ckan/github/KSP-RO/Antares-Cygnus",
     "license"       : "CC-BY-NC-ND-3.0",
-    "ksp_version"   : "1.0"
+    "ksp_version"   : "1.0",
     "install"       : [
     {
         "find"      : "KK_Antares",
-        "install_to": "GameData",
+        "install_to": "GameData"
     },
     {
         "find"      : "RN_Cygnus",
-        "install_to": "GameData",
+        "install_to": "GameData"
     }]
 }
