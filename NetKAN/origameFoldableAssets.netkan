@@ -1,9 +1,7 @@
 {
     "spec_version"   : "v1.4",
     "identifier"     : "origameFoldableAssets",
-    "author"         : "IGNOBIL",
     "name"           : "ORIGAME Foldable Assets RT Dishes",
-    "abstract"       : "Foldable radial mounted Antennas to complement RemoteTech's needs, mostly inspired by NASA's TDRS! http://en.wikipedia.org/wiki/Tracking_and_data_relay_satellite.",
     "$kref"          : "#/ckan/kerbalstuff/294",
     "license"        : "GPL-2.0",
     "resources" : {
