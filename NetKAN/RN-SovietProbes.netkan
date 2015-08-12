@@ -22,7 +22,7 @@
     }],
     "depends"       : [
         { "name"      : "FirespitterCore"  },
-        { "name"      : "ReflectionPlugin" },
+        { "name"      : "ReflectionPlugin" }
     ],
     "recommends"    : [
     {
