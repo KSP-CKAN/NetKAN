@@ -24,15 +24,15 @@
         "find"      : "Soviet_Rockets_TR.cfg",
         "install_to": "GameData"
     }],
-    "depends"       : [
-    {
-        "name"      : "FirespitterCore",
-        "name"      : "ReflectionPlugin",
-        "name"      : "KlockheedMartian-Gimbal"
-    }],
-    "recommends"    : [
-    {
-        "name"      : "RN-SalyutStations-SoyuzFerries",
-        "name"      : "RN-SovietProbes"
-    }]
+    "depends"       : 
+    [
+        { "name"    : "FirespitterCore"  },
+        { "name"    : "ReflectionPlugin" },
+        { "name"    : "KlockheedMartian-Gimbal"   }
+    ],
+    "recommends"    : 
+    [
+        { "name"    : "RN-SalyutStations-SoyuzFerries" },
+        { "name"    : "RN-SovietProbes"                }
+    ]
 }
