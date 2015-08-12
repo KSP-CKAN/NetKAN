@@ -1,9 +1,6 @@
 {
     "spec_version"   : "v1.4",
     "identifier"     : "AutomatedScreenshots",
-    "author"         : "Linuxgurugamer",
-    "name"           : "Automated Screenshots",
-    "abstract"       : "Take automated screenshots",
     "$kref"          : "#/ckan/kerbalstuff/1030",
     "$vref"          : "#/ckan/ksp-avc",
     "license"        : "GPL-3.0",
