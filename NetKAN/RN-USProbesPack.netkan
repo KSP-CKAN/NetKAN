@@ -1,0 +1,30 @@
+{
+    "spec_version"  : "v1.4",
+    "x_netkan_epoch": "1",
+    "identifier"    : "RN-USProbesPack",
+    "name"          : "US Probes Pack",
+    "author"        : "Raidernick",
+    "abstract"      : "This mod comes with everything you need to create your own Skylab, broken solar panels and all!",
+    "resources": {
+        "homepage"  : "https://github.com/KSP-RO/USProbesPack"
+    },
+    "$kref"         : "#/ckan/github/KSP-RO/USProbesPack",
+    "license"       : "CC-BY-NC-ND-3.0",
+    "ksp_version"   : "1.0",
+    "install"       : [
+    {
+        "find"      : "RN_US_Probes",
+        "install_to": "GameData"
+    },
+    {
+        "file"      : "GameData/US_Probes_TR.cfg",
+        "install_to": "GameData"
+    }],
+    "depends"       : [
+    {
+        "name"      : "BDAnimationModules",
+        "name"      : "ReflectionPlugin",
+        "name"      : "FirespitterCore",
+        "name"      : "SmokeScreen",
+    }]
+}
