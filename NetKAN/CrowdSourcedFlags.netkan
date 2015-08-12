@@ -9,11 +9,11 @@
   "ksp_version": "any",
   "comment": "flagmod",
   "suggests": [
-  {"name": "CanadianFlags"},
-  {"name": "DogeCoinFlag"},
-  {"name": "EntchenFlag"},
-  {"name": "LSPFlags"},
-  {"name": "ModernChineseFlagPack"}
+   {"name": "CanadianFlags"},
+   {"name": "DogeCoinFlag"},
+   {"name": "EntchenFlag"},
+   {"name": "LSPFlags"},
+   {"name": "ModernChineseFlagPack"}
   ],
   "resources": {
     "repository": "https://github.com/dmxz/CrowdSourcedFlags/",
