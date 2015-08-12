@@ -1,0 +1,13 @@
+{
+	"spec_version": 1,
+	"identifier": "CrowdSourcedFlags",
+	"$kref": "#/ckan/github/dmxz/CrowdSourcedFlags",
+	"name": "Crowd Sourced Flags",
+	"abstract": "A collection of community-created flags, including Kerbal flags, Earth countries and more!",
+	"license": "CC-BY-SA-4.0",
+  "$vref": "#/ckan/ksp-avc",
+  "resources": {
+    "repository": "https://github.com/dmxz/CrowdSourcedFlags/",
+	  "homepage": "https://www.reddit.com/r/KSP_CrowdSourcedFlags/"
+  }
+}
