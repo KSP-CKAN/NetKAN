@@ -33,5 +33,9 @@
         "name"      : "FirespitterCore",
         "name"      : "ReflectionPlugin",
         "name"      : "SovietPackCore"
+    }],
+    "recommends"    : [
+    {
+        "name"      : "RN-SovietRockets"
     }]
 }
