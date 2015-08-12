@@ -21,10 +21,9 @@
         "install_to": "GameData"
     }],
     "depends"       : [
-    {
-        "name"      : "FirespitterCore",
-        "name"      : "ReflectionPlugin",
-    }],
+        { "name"      : "FirespitterCore"  },
+        { "name"      : "ReflectionPlugin" },
+    ],
     "recommends"    : [
     {
         "name"      : "RN-SovietRockets"
