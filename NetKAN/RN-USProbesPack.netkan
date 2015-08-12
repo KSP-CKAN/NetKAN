@@ -1,6 +1,5 @@
 {
     "spec_version"  : "v1.4",
-    "x_netkan_epoch": "1",
     "identifier"    : "RN-USProbesPack",
     "name"          : "US Probes Pack",
     "author"        : "Raidernick",
@@ -11,20 +10,22 @@
     "$kref"         : "#/ckan/github/KSP-RO/USProbesPack",
     "license"       : "CC-BY-NC-ND-3.0",
     "ksp_version"   : "1.0",
-    "install"       : [
-    {
+    "install"       : 
+    [
+      {
         "find"      : "RN_US_Probes",
         "install_to": "GameData"
-    },
-    {
+      },
+      {
         "file"      : "GameData/US_Probes_TR.cfg",
         "install_to": "GameData"
-    }],
+      }
+    ],
     "depends"       : [
     {
         "name"      : "BDAnimationModules",
         "name"      : "ReflectionPlugin",
         "name"      : "FirespitterCore",
-        "name"      : "SmokeScreen",
+        "name"      : "SmokeScreen"
     }]
 }
