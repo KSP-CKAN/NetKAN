@@ -21,7 +21,7 @@
         "install_to": "GameData"
     },
     {
-        "find"      : "Soviet_Rockets_TR.cfg",
+        "file"      : "GameData/Soviet_Rockets_TR.cfg",
         "install_to": "GameData"
     }],
     "depends"       : 
