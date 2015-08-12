@@ -4,6 +4,7 @@
     "name"          : "Soviet Pack Core",
     "author"        : "Bobcat",
     "abstract"      : "Core plugins needed by several packs.",
+    "comment"       : "Ships explicitly not installed by author request (he no longer maintains them)",
     "resources": {
         "homepage"  : "https://github.com/KSP-RO/SalyutStations-SoyuzFerries"
     },
