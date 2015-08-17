@@ -1,12 +1,12 @@
 {
     "spec_version"   : "v1.4",
     "identifier"     : "AutomatedScreenshots",
-    "$kref"          : "#/ckan/kerbalstuff/1030",
+    "$kref"          : "#/ckan/kerbalstuff/1086",
     "$vref"          : "#/ckan/ksp-avc",
     "license"        : "GPL-3.0",
     "resources" : {
         "homepage"    : "http://forum.kerbalspaceprogram.com/threads/129908",
-        "kerbalstuff" : "https://kerbalstuff.com/mod/1030/AutomatedScreenshots",
+ "kerbalstuff" : "https://kerbalstuff.com/mod/1086/Automated%20Screenshots%20and%20Saves",
         "repository"  : "https://github.com/linuxgurugamer/AutomatedScreenshots"
     },
     "install" : [
