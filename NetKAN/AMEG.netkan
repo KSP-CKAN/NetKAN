@@ -7,7 +7,7 @@
     "release_status"  : "stable",
     "resources": {
         "homepage": "http://forum.kerbalspaceprogram.com/threads/74309"
-	},
+    },
     "install" : [
         {
             "file"       : "GameData/Kerbice Group",
@@ -21,7 +21,7 @@
                 "ksp_version_min": "0.23",
                 "ksp_version_max": "1.0.99"
             },
-            "delete" : [ "ksp_version" ],
+            "delete" : [ "ksp_version" ]
         }
     ]
 }

@@ -28,7 +28,7 @@
             "ksp_version_min": "0.25",
             "ksp_version_max": "1.0.4"
         },
-        "delete" : [ "ksp_version" ],
+        "delete" : [ "ksp_version" ]
     }
    ]
 }
