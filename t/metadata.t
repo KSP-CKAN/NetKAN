@@ -87,6 +87,13 @@ foreach my $shortname (sort keys %files) {
             );
         }
 
+        if ($install->{install_to} =~ m{^Ships/}) {
+            ok(
+                compare_version($spec_version,"v1.12"),
+                "$shortname - spec_version v.12+ required to install to Ships/ with path."
+            );
+        }
+
         if ($install->{find}) {
             ok(
                 compare_version($spec_version,"v1.4"),
