@@ -5,13 +5,11 @@
     "license": "CC-BY-4.0",
     "depends": [
         { "name": "KlockheedMartian-Gimbal" },
-        { "name": "ModuleManager", "min_version": "2.5.1" },
+        { "name": "ModuleManager", "min_version": "2.5.3" },
         { "name": "CommunityResourcePack" }
-        
     ],
     "suggests": [
 	{ "name": "FerramAerospaceResearch" },
-	{ "name": "HotRockets" },
 	{ "name": "InterstellarFuelSwitch" }
     ],
     "install" : [
