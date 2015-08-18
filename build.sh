@@ -43,6 +43,14 @@ create_dummy_ksp () {
     
     # TODO: Manual hack, a better way to handle this kind of identifiers may be needed.
     case $KSP_VERSION in
+    "0.23")
+        echo "Overidding '0.23' with '0.23.0'"
+        KSP_VERSION="0.23.0"
+        ;;
+    "0.25")
+        echo "Overidding '0.25' with '0.25.0'"
+        KSP_VERSION="0.25.0"
+        ;;
     "0.90")
         echo "Overiding '0.90' with '0.90.0'"
         KSP_VERSION="0.90.0"
