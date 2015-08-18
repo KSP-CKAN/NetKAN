@@ -3,7 +3,7 @@
     "license"     : "CC-BY-NC-SA-3.0",
     "$kref": "#/ckan/kerbalstuff/1015",
     "identifier": "ALCOR",
-    "depends": [
+    "recommends": [
         { "name": "ALCORIVAPatch" }
     ],
     "install": [
