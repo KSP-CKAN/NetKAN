@@ -10,7 +10,7 @@
             "find"       : "TalisarParts",
             "install_to" : "GameData"
         }
-    ]
+    ],
     "depends" :
     [
         { "name" : "FirespitterCore" }
