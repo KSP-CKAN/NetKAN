@@ -2,19 +2,8 @@
     "spec_version"   : 1,
     "$kref"          : "#/ckan/kerbalstuff/1026",
     "$vref"          : "#/ckan/ksp-avc",
-    "name"           : "Cargo Transportation Solutions",
     "identifier"     : "CargoTransportationSolutions",
-    "abstract"       : "Transport 2.5 to 3.75m parts to space and other bodies",
     "license"        : "CC-BY-SA-4.0",
-    "author"         : "Olympic1",
-    "ksp_version"    : "1.0.4",
-    "resources" :
-    {
-        "homepage"    : "http://forum.kerbalspaceprogram.com/threads/77505",
-        "license"     : "https://github.com/Olympic1/Unofficial_LTech/blob/master/License.txt",
-        "repository"  : "https://github.com/Olympic1/TalisarParts",
-        "kerbalstuff" : "https://kerbalstuff.com/mod/1026/Cargo%20Transportation%20Solutions"
-    },
     "install" :
     [
         {

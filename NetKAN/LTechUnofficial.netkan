@@ -1,20 +1,8 @@
 {
     "spec_version"   : 1,
     "$kref"          : "#/ckan/kerbalstuff/563",
-    "$vref"          : "#/ckan/ksp-avc",
-    "name"           : "L-Tech Unofficial",
     "identifier"     : "LTechUnofficial",
-    "abstract"       : "An unofficial fix for L-Tech Sciencific Industries",
     "license"        : "MIT",
-    "author"         : "Olympic1",
-    "ksp_version"    : "0.90.0",
-    "resources" :
-    {
-        "homepage"    : "http://forum.kerbalspaceprogram.com/threads/53813",
-        "license"     : "https://github.com/Olympic1/Unofficial_LTech/blob/master/LICENSE.txt",
-        "repository"  : "https://github.com/Olympic1/Unofficial_LTech",
-        "kerbalstuff" : "https://kerbalstuff.com/mod/563/L-Tech%20Unofficial"
-    },
     "install" :
     [
         {
