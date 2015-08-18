@@ -1,10 +1,37 @@
 {
-    "license": "MIT",
-    "identifier": "LTechUnofficial",
-    "x_via": "Automated KerbalStuff CKAN submission",
-    "$kref": "#/ckan/kerbalstuff/563",
-    "spec_version": "v1.4",
-	"install": [
-		{ "file": "GameData/LTech", "install_to": "GameData" }
-	]
+    "spec_version"   : 1,
+    "$kref"          : "#/ckan/kerbalstuff/563",
+    "$vref"          : "#/ckan/ksp-avc",
+    "name"           : "L-Tech Unofficial",
+    "identifier"     : "LTechUnofficial",
+    "abstract"       : "An unofficial fix for L-Tech Sciencific Industries",
+    "license"        : "MIT",
+    "author"         : "Olympic1",
+    "ksp_version"    : "0.90.0",
+    "resources" :
+    {
+        "homepage"    : "http://forum.kerbalspaceprogram.com/threads/53813",
+        "license"     : "https://github.com/Olympic1/Unofficial_LTech/blob/master/LICENSE.txt",
+        "repository"  : "https://github.com/Olympic1/Unofficial_LTech",
+        "kerbalstuff" : "https://kerbalstuff.com/mod/563/L-Tech%20Unofficial"
+    },
+    "install" :
+    [
+        {
+            "find"       : "LTech",
+            "install_to" : "GameData"
+        }
+    ],
+    "depends" :
+    [
+        { "name" : "ModuleManager" }
+    ],
+    "suggests" :
+    [
+        { "name" : "ConnectedLivingSpace" },
+        { "name" : "HullcamVDS" },
+        { "name" : "KIS" },
+        { "name" : "RasterPropMonitor-Core" },
+        { "name" : "TweakScale" }
+    ]
 }

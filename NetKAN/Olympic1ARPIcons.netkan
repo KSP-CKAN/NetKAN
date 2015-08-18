@@ -1,0 +1,47 @@
+{
+    "spec_version"   : 1,
+    "$kref"          : "#/ckan/github/Olympic1/Icon_Packs_KSP",
+    "$vref"          : "#/ckan/ksp-avc",
+    "name"           : "Olympic1 ARP Icons",
+    "identifier"     : "Olympic1ARPIcons",
+    "abstract"       : "Adds extra ARP icons for popular mods",
+    "license"        : "CC-BY-NC-SA-4.0",
+    "author"         : "Olympic1",
+    "ksp_version"    : "1.0.4",
+    "resources" :
+    {
+        "homepage"   : "http://forum.kerbalspaceprogram.com/threads/102980",
+        "license"    : "https://github.com/Olympic1/Icon_Packs_KSP/blob/master/License.txt",
+        "repository" : "https://github.com/Olympic1/Icon_Packs_KSP"
+    },
+    "install" :
+    [
+        {
+            "find"       : "Olympic1ARPIcons",
+            "install_to" : "GameData"
+        }
+    ],
+    "depends" :
+    [
+        { "name" : "AlternateResourcePanel" },
+        { "name" : "ModuleManager" }
+    ],
+    "recommends" :
+    [
+        { "name" : "AlcubierreStandalone" },
+        { "name" : "CommunityResourcePack" },
+        { "name" : "DangIt" },
+        { "name" : "DeadlyReentry" },
+        { "name" : "ExtraPlanetaryLaunchpads" },
+        { "name" : "Karbonite" },
+        { "name" : "KarbonitePlus" },
+        { "name" : "MissionController2" },
+        { "name" : "Snacks" },
+        { "name" : "SoundingRockets" },
+        { "name" : "UKS" },
+        { "name" : "USI-EXP" },
+        { "name" : "USI-FTT" },
+        { "name" : "USI-LS" },
+        { "name" : "USI-SRV" }
+    ]
+}
