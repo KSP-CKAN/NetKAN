@@ -4,11 +4,17 @@
     "spec_version": "v1.4",
     "$kref": "#/ckan/kerbalstuff/895",
     "license": "CC-BY-NC-SA-4.0",
-	"x_netkan_epoch"	:	"1",	
+	"x_netkan_epoch"	:	"1",
+	"depends" : [
+		{"name" : "ModuleManager", "min_version" : "2.3.5" }
+	],	
 	"recommends" : [ 
 	{ "name" : "Toolbar" },
+	{ "name" : "BackgroundProcessing" },
+	{ "name" : "RasterPropMonitor" },	
 	{ "name" : "ShipManifest" },
 	{ "name" : "ConnectedLivingSpace" },
+	{ "name" : "USI-LS" },	
 	{ "name" : "TACLS" },
 	{ "name" : "Snacks" },
 	{ "name" : "AmpYearPowerManager"}
