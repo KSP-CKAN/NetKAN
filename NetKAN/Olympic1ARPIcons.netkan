@@ -8,7 +8,7 @@
     [
         {
             "find"       : "Olympic1ARPIcons",
-            "install_to" : "GameData"
+            "install_to" : "GameData",
             "filter"     : "thumbs.db"
         }
     ],
