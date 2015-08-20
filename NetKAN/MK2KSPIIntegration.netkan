@@ -1,7 +1,7 @@
 {
     "spec_version": "v1.4",
     "$kref": "#/ckan/kerbalstuff/1080",
-    "license": "CC-BY-4.0",
+    "license": "CC-BY-NC-SA-4.0",
     "identifier": "MK2KSPIIntegration",
     "depends": [
         { "name": "InterstellarFuelSwitch"}
@@ -14,7 +14,8 @@
     "install": [
         {
             "find"       : "StarLionIndustries",
-            "install_to" : "GameData"
+            "install_to" : "GameData",
+            "filter"     : "Deprecated"
         }
     ]
 }
