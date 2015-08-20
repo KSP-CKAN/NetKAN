@@ -4,15 +4,21 @@
     "spec_version": "v1.4",
     "$kref": "#/ckan/kerbalstuff/895",
     "license": "CC-BY-NC-SA-4.0",
-	"recommends" : [ 
+    "depends" : [
+	{"name" : "ModuleManager", "min_version" : "2.3.5" }
+    ],
+    "recommends" : [ 
 	{ "name" : "Toolbar" },
+	{ "name" : "RasterPropMonitor" },
+	{ "name" : "BackgroundProcessing" },
 	{ "name" : "ShipManifest" },
 	{ "name" : "ConnectedLivingSpace" },
+	{ "name" : "USI-LS" },
 	{ "name" : "TACLS" },
 	{ "name" : "Snacks" },
 	{ "name" : "AmpYearPowerManager"}
-	],
-	"install": [
-		{ "find": "REPOSoftTech", "install_to": "GameData" }
-	]
+    ],
+    "install": [
+	{ "find": "REPOSoftTech", "install_to": "GameData" }
+    ]
 }
