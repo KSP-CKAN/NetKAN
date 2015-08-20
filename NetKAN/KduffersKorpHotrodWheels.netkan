@@ -6,8 +6,7 @@
     "install": [
         {
             "file"       : "kduffers korp hotrod wheels",
-            "install_to" : "GameData/Kduffers",
-            "filter"     : "Crap.tt"
+            "install_to" : "GameData/Kduffers"
         }
     ]
 }
