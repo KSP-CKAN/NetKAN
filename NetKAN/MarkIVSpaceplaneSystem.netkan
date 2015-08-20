@@ -1,22 +1,23 @@
 {
-    "spec_version" : 1,
-    "identifier"   : "MarkIVSpaceplaneSystem",
-    "$kref"        : "#/ckan/kerbalstuff/380",
-    "license"      : "CC-BY-NC-SA-4.0",
-	
-	"install": [
-		{
-			"file": "GameData/MarkIVSystem",
-			"install_to": "GameData"
-		}
-	],
-	
-	"depends": [
-		{ "name": "NearFutureProps" }
-	],
-	
-	"recommends": [
-		{ "name": "RasterPropMonitor" },
-		{ "name": "ModuleManager", "comment": "MM is needed to apply the compatibility patches, but not strictly required." }
-	]
+    "spec_version"   : "v1.4",
+    "identifier"     : "MarkIVSpaceplaneSystem",
+    "$kref"          : "#/ckan/kerbalstuff/380",
+    "release_status" : "stable",
+    "license"        : "CC-BY-NC-SA-4.0",
+    "install": [
+        { "file": "GameData/MarkIVSystem", "install_to": "GameData" }
+    ],
+    "depends": [
+        { "name" : "BDAnimationModules" },
+        { "name" : "InterstellarFuelSwitch-Core" },
+    	{ "name" : "NearFutureProps" }
+    ],
+    "suggests": [
+        { "name" : "CommunityTechTree" },
+    	{ "name" : "RasterPropMonitor" }
+    ],
+    "supports": [
+        { "name" : "ConnectedLivingSpace" },
+        { "name" : "FerramAerospaceResearch" }
+    ]
 }

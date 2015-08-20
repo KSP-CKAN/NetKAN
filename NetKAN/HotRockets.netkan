@@ -12,5 +12,8 @@
     "depends" : [
         { "name" : "ModuleManager"},
 		{ "name" : "SmokeScreen" }
+    ],
+    "conflicts" : [
+    	{ "name" : "RealPlume" }
     ]
 }
