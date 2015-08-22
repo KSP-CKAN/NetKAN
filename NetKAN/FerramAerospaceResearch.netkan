@@ -3,7 +3,8 @@
     "identifier"     : "FerramAerospaceResearch",
     "$kref"          : "#/ckan/kerbalstuff/52",
     "license"        : "GPL-3.0",
-    "x_netkan_epoch" : "2",
+    "x_netkan_epoch" : "3",
+    "x_netkan_version_edit": "^[vV]?(?<version>\d+(?:\.\d+){0,3}[A-Za-z]?)(?:_[A-Za-z0-9]+)?$",
     "release_status" : "stable",
     "resources" : {
         "repository" : "https://github.com/ferram4/Ferram-Aerospace-Research"
