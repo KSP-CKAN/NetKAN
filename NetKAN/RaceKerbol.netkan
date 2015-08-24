@@ -1,0 +1,27 @@
+{
+    "spec_version" : "v1.14",
+    "identifier"   : "RaceKerbol",
+    "name"         : "Race Kerbol",
+    "abstract"     : "Race Kerbol (the sun) in a series of scenarios from start to finish while trying to keep as close to the ground as possible to get a higher score! Your craft is solar powered, so make sure to keep your panels exposed to the sun as much as possible.",
+    "license"      : "CC-BY-NC-SA",
+    "comment"      : "Contains both GPL and CC-BY-NC-SA sections",
+    "$kref"        : "#/ckan/github/Lyneira/RaceKerbol",
+    "ksp_version"  : "1.0.4",
+    "resources" : {
+        "homepage" : "http://forum.kerbalspaceprogram.com/threads/131060"
+    },
+    "depends" : [
+        { "name" : "ModuleManager" },
+        { "name" : "KerbalFoundries" }
+    ],
+    "install" : [
+        {
+            "file"       : "saves/scenarios",
+            "install_to" : "Scenarios"
+        },
+        {
+            "file"       : "GameData/RaceKerbol",
+            "install_to" : "GameData"
+        }
+    ]
+}
