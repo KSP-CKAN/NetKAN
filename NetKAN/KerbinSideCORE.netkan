@@ -1,0 +1,18 @@
+{
+    "spec_version": 1,
+    "$kref": "#/ckan/kerbalstuff/1099",
+    "license": "BSD-3-clause",
+    "identifier": "KerbinSideCORE",
+    "conflicts": [
+        { "name": "KerbinSide" }
+    ],
+    "depends"        : [
+        { "name": "KerbalKonstructs" }
+    ],
+        "install": [
+        {
+            "find"       : "KerbinSide",
+            "install_to" : "GameData"
+        }
+    ]
+}
