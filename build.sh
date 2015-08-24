@@ -247,9 +247,11 @@ mkdir downloads_cache # TODO: Point to cache folder here instead if possible.
 # Fetch latest ckan and netkan executable.
 echo "Fetching latest ckan.exe"
 wget --quiet $LATEST_CKAN_URL -O ckan.exe
+mono ckan.exe version
 
 echo "Fetching latest netkan.exe"
 wget --quiet $LATEST_NETKAN_URL -O netkan.exe
+mono netkan.exe --version
 
 # Fetch the latest metadata.
 echo "Fetching latest metadata"
