@@ -3,6 +3,7 @@
     "$kref": "#/ckan/kerbalstuff/1099",
     "license": "BSD-3-clause",
     "identifier": "KerbinSide-NoBases",
+    "name": "KerbinSide - No Default Bases",
     "conflicts": [
         { "name": "KerbinSide" }
     ],
