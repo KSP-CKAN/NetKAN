@@ -1,0 +1,27 @@
+{
+    "spec_version" : "v1.4",
+    "identifier"   : "RcsSounds",
+    "name"         : "RCS Sound Effects",
+    "abstract"     : "A plugin for Kerbal Space Program which adds sound effects to RCS thrusters.",
+    "author"       : "pizzaoverhead",
+    "license"      : "GPL-2.0",
+    "version"      : "4.3a",
+    "ksp_version"  : "1.0.4",
+    "download"     : "http://addons-origin.cursecdn.com/files/2252/83/RcsSoundsV4.3a.zip",
+    "resources":
+    {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/52896",
+        "repository": "http://github.com/pizzaoverhead/RcsSounds"
+    },
+    "depends":
+    [
+        { "name": "ModuleManager" }
+    ],
+    "install":
+    [
+        {
+            "find"       : "RcsSounds",
+            "install_to" : "GameData"
+        }
+    ]
+}
