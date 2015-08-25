@@ -5,13 +5,13 @@
     "abstract"     : "A plugin for Kerbal Space Program which adds sound effects to RCS thrusters.",
     "author"       : "pizzaoverhead",
     "license"      : "GPL-2.0",
-	"version"      : "4.3a"
+    "version"      : "4.3a",
     "ksp_version"  : "1.0.4",
     "download"     : "http://kerbal.curseforge.com/ksp-mods/220521-rcs-sounds/files/2252083/download",
     "resources":
     {
         "homepage": "http://forum.kerbalspaceprogram.com/threads/52896",
-		"repository": "http://github.com/pizzaoverhead/RcsSounds"
+        "repository": "http://github.com/pizzaoverhead/RcsSounds"
     },
     "depends":
     [
@@ -25,4 +25,3 @@
         }
     ]
 }
-
