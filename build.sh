@@ -307,7 +307,7 @@ do
     
     # Extract identifier and KSP version.
     CURRENT_IDENTIFIER=$($JQ_PATH '.identifier' $f)
-    CURRENT_KSP_VERSION=$($JQ_PATH 'if .ksp_version then .ksp_version else .ksp_version_min end' $f)
+    CURRENT_KSP_VERSION=$($JQ_PATH 'if .ksp_version then .ksp_version else .ksp_version_max end' $f)
     
     # Strip "'s.
     CURRENT_IDENTIFIER=${CURRENT_IDENTIFIER//'"'}
