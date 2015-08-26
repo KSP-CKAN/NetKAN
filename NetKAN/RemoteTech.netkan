@@ -1,5 +1,5 @@
 {
-	"spec_version": 1,
+	"spec_version": "v1.2",
 	"identifier": "RemoteTech",
 	"$kref": "#/ckan/kerbalstuff/134",
 	"license": "restricted",
@@ -11,17 +11,18 @@
 		"bugtracker": "https://github.com/RemoteTechnologiesGroup/RemoteTech/issues",
 		"manual": "http://remotetechnologiesgroup.github.io/RemoteTech/"
 	},
-	"depends": [
-		{
-			"name": "ModuleManager",
-			"min_version": "2.3.1",
-			"comment": "Earlier versions of MM have forward compatibility problems, according to the MM release notes."
-		}
-	],
+	"provides" : [ "RemoteTech-dll" ],
+    "depends": [
+        { "name": "RemoteTech-common" }
+    ],
+    "conflicts": [
+        { "name": "RemoteTechXF" }
+    ],
+    "comment": "With the addition of RemoteTechXF, this module now only installs the .dll on its own while `RemoteTech-common` actually contains the majority of the mod",
 	"install": [
 		{
-			"file": "GameData/RemoteTech",
-			"install_to": "GameData"
+			"file": "GameData/RemoteTech/Plugins/RemoteTech.dll",
+			"install_to": "GameData/RemoteTech/Plugins"
 		}
 	],
 	"name": "RemoteTech",

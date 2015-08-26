@@ -1,0 +1,35 @@
+{
+	"spec_version": "v1.4",
+	"identifier": "RemoteTech-common",
+	"$kref": "#/ckan/kerbalstuff/134",
+	"license": "restricted",
+	"release_status": "stable",
+	"x_netkan_license_ok": true,
+    "x_netkan_force_v": true,
+	"resources": {
+		"repository": "https://github.com/RemoteTechnologiesGroup/RemoteTech",
+		"bugtracker": "https://github.com/RemoteTechnologiesGroup/RemoteTech/issues",
+		"manual": "http://remotetechnologiesgroup.github.io/RemoteTech/"
+	},
+	"provides" : [ "RemoteTech" ],
+    "depends": [
+		{
+			"name": "ModuleManager",
+			"min_version": "2.3.1",
+			"comment": "Earlier versions of MM have forward compatibility problems, according to the MM release notes."
+		},
+        { "name": "RemoteTech-dll" }
+	],
+
+	"install": [
+		{
+			"find": "RemoteTech",
+			"install_to": "GameData",
+            "filter": "RemoteTech.dll"
+		}
+	],
+	"name": "RemoteTech - common",
+	"abstract": "This is just a module that provides files RemoteTech uses in common with other mods",
+	"author": "Remote Technologies Group",
+	"x_maintained_by": "Peppie23"
+}
