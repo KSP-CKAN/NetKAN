@@ -1,11 +1,11 @@
 {
 	"spec_version"	:	"v1.4",
 	"$kref"			:	"#/ckan/github/KSP-RO/SolverEngines",
+    "$vref"         :   "#/ckan/ksp-avc",
 	"identifier"	:	"SolverEngines",
 	"name"			:	"Solver Engines plugin",
 	"abstract"		:	"SolverEngines is at its heart a replacement paradigm for how KSP deals with engines",
 	"license"		:	"LGPL-2.1",
-    "ksp_version"   :   "1.0",
 	"release_status":	"stable",
 	"depends"		:	[ { "name" : "ModuleAnimateEmissive" } ],
 	"install"		:	[ { "find" : "SolverEngines",
