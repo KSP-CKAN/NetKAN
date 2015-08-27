@@ -10,6 +10,8 @@
     },
     "license"       : "MIT",
     "x_netkan_license_ok": true,
+    "ksp_version_min": "0.90",
+    "ksp_version_max": "1.0.99",
     "install": [
         {
             "file"       : "GameData/ActiveTextureManagement",
