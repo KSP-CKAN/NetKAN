@@ -1,0 +1,11 @@
++{
++    "x_via": "Automated KerbalStuff CKAN submission",
++    "spec_version": 1,
++    "$kref": "#/ckan/kerbalstuff/1116",
++    "license": "MIT",
++    "identifier": "BDArmory Sorting",
++    "depends": [
++        { "name": "ModuleManager" },
++        { "name": "BDArmory" }
++    ]
++}
