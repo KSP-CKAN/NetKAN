@@ -3,5 +3,10 @@
     "spec_version": 1,
     "$kref": "#/ckan/kerbalstuff/1072",
     "license": "MIT",
-    "identifier": "ElectricCost"
+    "identifier": "ElectricCost",
+    "depends": [
+        {
+            "name": "ModuleManager"
+        }
+    ]
 }
