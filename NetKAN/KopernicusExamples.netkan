@@ -21,7 +21,7 @@
     },
     "ksp_version": "1.0",
     "depends":	[
-        { "name" : "ModuleManager", "min_version": "2.6.6" }
+        { "name" : "ModuleManager", "min_version": "2.6.6" },
 		{ "name" : "Kopernicus", "min_version": "0.3.2" }
     ],
     "install": [
