@@ -8,15 +8,14 @@
         { "name" : "ModuleManager" }
     ],
 	"recommends": [
-        { "name": "Toolbar" }
+        { "name": "Toolbar" },
+		{ "name": "ContractConfigurator" }
     ],
 	"resources" : {
 		"repository"   : "https://github.com/S-C-A-N/SCANsat"
-	},
-	
+	},	
 	"suggests": [
-		{ "name": "RasterPropMonitor" },
-		{ "name": "ContractConfigurator-ContractPack-SCANsat" }
+		{ "name": "RasterPropMonitor" }
 	],
 	"x_netkan_override" : [
 		{
