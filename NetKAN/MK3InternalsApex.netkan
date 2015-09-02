@@ -1,0 +1,26 @@
+{
+    "spec_version": 1,
+    "license"     : "CC-BY-NC-SA-3.0",
+    "$kref"        : "#/ckan/kerbalstuff/1120",
+    "identifier"   : "MK3InternalsApex",
+    "x_netkan_license_ok": true,
+
+
+    "depends": [
+        { "name": "ASETProps" },
+        { "name": "RasterPropMonitor-Core", "min_version" : "0.21.2" }
+    ],
+    "suggests": [
+        { "name": "SCANsat" },
+        { "name": "MechJeb2" },
+        { "name": "VesselView" },
+        { "name": "DockingPortAlignmentIndicator"},
+        { "name": "MK12PodIVAReplacementbyASET"}
+    ],
+    "install": [
+        {
+            "file"       : "GameData/Apex",
+            "install_to" : "GameData"
+        }
+    ]
+}
