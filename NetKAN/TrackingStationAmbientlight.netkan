@@ -1,0 +1,16 @@
+{
+    "spec_version" : 1,
+    "identifier"   : "TrackingStationAmbientlight",
+    "$kref"        : "#/ckan/kerbalstuff/1136",
+    "$vref" : "#/ckan/ksp-avc",
+    "x_netkan_license_ok": true,
+    "install" : [
+        {
+            "file"          : "GameData/TrackingStationAmbientlight",
+            "install_to"    : "GameData"
+        }
+    ],
+    "resources" : {
+        "bugtracker" : "https://github.com/mhoram-kerbin/TrackingStationAmbientlight/issues"
+    },
+}
