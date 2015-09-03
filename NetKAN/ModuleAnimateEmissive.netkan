@@ -1,6 +1,7 @@
 {
 	"spec_version"	:	"v1.4",
 	"$kref"			:	"#/ckan/github/KSP-RO/SolverEngines",
+    "$vref"         :   "#/ckan/ksp-avc",
 	"identifier"	:	"ModuleAnimateEmissive",
 	"name"			:	"Animate Emissive Module",
 	"abstract"		:	"ModuleAnimateEmissive replaces ModuleAnimateHeat with a more flexible, configurable module.",
@@ -8,5 +9,5 @@
 	"release_status":	"stable",
 	"install"		:	[ { "find" : "SolverEngines",
 							"install_to" : "GameData",
-							"filter" : [ "Icons", "PluginData" , "SolverEngines.dll", "Readme_SolverEngines.txt" ] } ]
+							"filter" : [ "Icons", "PluginData" , "SolverEngines.dll", "Readme_SolverEngines.txt", "SolverEngines.version" ] } ]
 }

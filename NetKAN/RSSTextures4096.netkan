@@ -1,0 +1,19 @@
+{
+	"spec_version"	:	"v1.4",
+	"license"		:	"CC-BY-NC-SA",
+	"name"			:	"Real Solar System Textures - 4096 x 2048",
+	"identifier"	:	"RSSTextures4096",
+	"$kref"			:	"#/ckan/github/KSP-RO/RSS-Textures/asset_match/4096",
+    "abstract"		:	"Textures for Real Solar Systems",
+	"ksp_version"	:	"1.0",
+	"release_status":	"stable",
+	"resources"		:	{ "repository" : "https://github.com/KSP-RO/RSS-Textures" },
+	"provides"		:	[ "RSSTextures" ],
+    "conflicts"		:	[
+        { "name" : "RSSTextures" }
+    ],
+	
+	"install"		:	[ 
+		{ "find" : "RSS-Textures",
+		"install_to" : "GameData" } ]
+}

@@ -1,0 +1,27 @@
+{
+    "spec_version": "v1.2",
+    "license": "MIT",
+    "$kref": "#/ckan/kerbalstuff/1025",
+    "identifier": "SteampunkColorCodedSpaceSuits",
+    "depends": [
+        { "name" : "TextureReplacer" }
+    ],
+    "install": [
+        {
+            "file"       : "SteamSuitCommand",
+            "install_to" : "GameData/TextureReplacer/suits"
+        },
+        {
+            "file"       : "SteamSuitEngineer",
+            "install_to" : "GameData/TextureReplacer/suits"
+        },
+        {
+            "file"       : "SteamSuitScience",
+            "install_to" : "GameData/TextureReplacer/suits"
+        },
+        {
+            "file"       : "SteampunkStarTrekSuits.cfg",
+            "install_to" : "GameData/TextureReplacer"
+        }
+    ]
+}

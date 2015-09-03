@@ -10,7 +10,24 @@
     "install" : [
         {
             "file"       : "HullCameraVDS",
-            "install_to" : "GameData"
+            "install_to" : "GameData",
+            "filter": [
+                "Thumbs.db",
+                "Thumbs.db:encryptable"
+            ]
         }
+    ],
+    "depends": [
+        { "name": "ModuleManager" }
+    ],
+    "x_netkan_override" : [
+		{
+			"version" : "0.40",
+			"delete" : [ "ksp_version" ],
+			"override" : {
+				"ksp_version_min" : "1.0.2",
+				"ksp_version_max" : "1.0.4"
+			}
+		}
     ]
 }

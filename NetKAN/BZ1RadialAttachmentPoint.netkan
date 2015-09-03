@@ -1,0 +1,12 @@
+{
+    "spec_version": 1,
+    "license": "CC0",
+    "$kref": "#/ckan/kerbalstuff/1003",
+    "identifier": "BZ1RadialAttachmentPoint",
+    "install": [
+        {
+            "file"       : "BZ-1",
+            "install_to" : "GameData"
+        }
+    ]
+}

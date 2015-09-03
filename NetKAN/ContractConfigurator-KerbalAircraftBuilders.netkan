@@ -1,0 +1,17 @@
+{
+    "spec_version" : "v1.4",
+    "identifier"   : "ContractConfigurator-KerbalAircraftBuilders",
+    "$kref"        : "#/ckan/kerbalstuff/955",
+    "x_netkan_license_ok": true,
+    "depends": [
+        {
+            "name": "ContractConfigurator"
+        }
+    ],
+    "install": [
+        {
+            "find": "KerbalAircraftBuilders",
+            "install_to": "GameData/ContractPacks"
+        }
+    ]
+}

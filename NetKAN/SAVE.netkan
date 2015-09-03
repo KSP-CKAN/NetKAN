@@ -5,7 +5,20 @@
     "$kref": "#/ckan/kerbalstuff/466",
     "license": "GPL-3.0",
 	"install": [
-	{ "file": "GameData/Nereid",
-	  "install_to": "GameData" }
-	]
+        {
+            "file": "GameData/Nereid",
+            "install_to": "GameData",
+            "filter": "source"
+        }
+	],
+	"x_netkan_override" : [
+		{
+			"version" : "1.0.1-672",
+			"delete" : [ "ksp_version" ],
+			"override" : {
+				"ksp_version_min" : "1.0.2",
+				"ksp_version_max" : "1.0.4"
+			}
+		}
+    ]
 }

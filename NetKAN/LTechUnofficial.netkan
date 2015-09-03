@@ -1,10 +1,25 @@
 {
-    "license": "MIT",
-    "identifier": "LTechUnofficial",
-    "x_via": "Automated KerbalStuff CKAN submission",
-    "$kref": "#/ckan/kerbalstuff/563",
-    "spec_version": "v1.4",
-	"install": [
-		{ "file": "GameData/LTech", "install_to": "GameData" }
-	]
+    "spec_version"   : "v1.4",
+    "$kref"          : "#/ckan/kerbalstuff/563",
+    "identifier"     : "LTechUnofficial",
+    "license"        : "MIT",
+    "install" :
+    [
+        {
+            "find"       : "LTech",
+            "install_to" : "GameData"
+        }
+    ],
+    "depends" :
+    [
+        { "name" : "ModuleManager" }
+    ],
+    "suggests" :
+    [
+        { "name" : "ConnectedLivingSpace" },
+        { "name" : "HullcamVDS" },
+        { "name" : "KIS" },
+        { "name" : "RasterPropMonitor-Core" },
+        { "name" : "TweakScale" }
+    ]
 }

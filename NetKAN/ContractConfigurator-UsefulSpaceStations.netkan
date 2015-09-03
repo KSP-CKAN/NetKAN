@@ -13,10 +13,16 @@
         },
         { "name" : "ModuleManager" }
     ],
+    "conflicts" : [
+        {
+            "name" : "ContractConfigurator-KerbinSpaceStation"
+        }
+    ],
     "install" : [
         {
             "find" : "UsefulSpaceStations",
-            "install_to" : "GameData/ContractPacks"
+            "install_to" : "GameData/ContractPacks",
+            "filter" : "MiniAVC.xml"
         }
     ],
     "resources" : {

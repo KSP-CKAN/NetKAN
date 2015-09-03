@@ -3,15 +3,27 @@
     "identifier"     : "KerbalFoundries",
     "$kref"          : "#/ckan/kerbalstuff/58",
     "license"        : "GPL-3.0",
-	"ksp_version_min" : "0.25",
+	"resources": 
+	{
+		"repository": " https://kerbalstuff.com/mod/58/"
+    },
     "recommends" : [
         { "name" : "TweakScale" }
     ],
-	
- "install" : [
+    "install" : [
         {
             "find"       : "KerbalFoundries",
             "install_to" : "GameData"
+        }
+    ],
+    "x_netkan_override" : [
+        {
+            "version" : "Beta_1.8g",
+            "delete" : [ "ksp_version" ],
+            "override" : {
+                "ksp_version_min" : "1.0.2",
+                "ksp_version_max" : "1.0.4"
+            }
         }
     ]
 }

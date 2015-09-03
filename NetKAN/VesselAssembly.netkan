@@ -1,0 +1,16 @@
+{
+    "spec_version": "v1.4",
+    "license": "restricted",
+    "$kref": "#/ckan/kerbalstuff/1035",
+    "identifier": "VesselAssembly",
+    "depends": [
+        { "name": "ModuleManager" },
+        { "name": "ExtraPlanetaryLaunchpads"}
+    ],
+    "install": [
+        {
+            "find"       : "KeridianDynamics",
+            "install_to" : "GameData"
+        }
+    ]
+}

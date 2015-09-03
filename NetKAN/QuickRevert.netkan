@@ -2,8 +2,11 @@
     "spec_version"   : 1,
     "identifier"     : "QuickRevert",
     "$kref"          : "#/ckan/kerbalstuff/237",
-    "$vref"          : "#/ckan/ksp-avc",
     "license"        : "GPL-3.0",
+    "resources": {
+    	"homepage": 	"http://forum.kerbalspaceprogram.com/threads/95168#QuickRevert",
+    	"repository": 	"https://github.com/malahx/QuickRevert"
+    },
     "conflicts"      : [
         { "name" : "SRL" }
     ]

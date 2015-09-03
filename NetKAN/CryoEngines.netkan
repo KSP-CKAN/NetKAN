@@ -1,19 +1,23 @@
 {
-    "spec_version": "v1.4",
-    "$kref": "#/ckan/kerbalstuff/717",
-    "license": "CC-BY-NC-SA-4.0",
-    "identifier": "CryoEngines",
-	
-	"depends"	:	[ 
-		{ "name" : "InterstellarFuelSwitch-Core", "min_version" : "1.5" },
-		{ "name" : "CommunityResourcePack" },
-		{ "name" : "BDAnimationModules" },
-		{ "name" : "ModuleManager" } ],
-	
-	"suggests"	:	[
-		{ "name" : "CommunityTechTree" }
-	],
-	
-	"install"	: 	[ { "find" : "CryoEngines",
-						"install_to" : "GameData" } ]
+    "spec_version"   : "v1.4",
+    "identifier"     : "CryoEngines",
+    "$kref"          : "#/ckan/kerbalstuff/717",
+    "release_status" : "stable",
+    "license"        : "CC-BY-NC-SA-4.0",
+    "x_netkan_epoch": "1",
+    "depends" : [
+        { "name" : "InterstellarFuelSwitch-Core", "min_version" : "1.5" },
+        { "name" : "CommunityResourcePack" },
+        { "name" : "BDAnimationModules" },
+        { "name" : "ModuleManager" }
+    ],
+    "suggests" : [
+        { "name" : "CommunityTechTree" }
+    ],
+    "supports" : [
+        { "name" : "CryoEngines-LFO" }
+    ],
+    "install" : [
+        { "find" : "CryoEngines", "install_to" : "GameData" }
+    ]
 }

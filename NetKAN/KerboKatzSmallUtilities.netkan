@@ -12,7 +12,9 @@
 					{ "name" : "KerboKatzSmallUtilities-FPSLimiter" },
 					{ "name" : "KerboKatzSmallUtilities-FPSViewer" },
 					{ "name" : "KerboKatzSmallUtilities-ModifiedExplosionPotential" },
-					{ "name" : "KerboKatzSmallUtilities-PhysicalTimeRatioViewer" } ],
+					{ "name" : "KerboKatzSmallUtilities-PhysicalTimeRatioViewer" },
+                    { "name" : "KerboKatzSmallUtilities-AutoBalancingLandingLeg" }
+                ],
 
 	"install"	:	[ { "find" : "SmallUtilities",
 					 "install_to" : "GameData/KerboKatz" } ]

@@ -51,22 +51,79 @@ foreach my $shortname (sort keys %files) {
         "$shortname has no \$kref/\$vref field. It belongs in CKAN-meta"
     );
 
+    if (my $overrides = $metadata->{x_netkan_override}) {
+
+        my $is_array = ref($overrides) eq "ARRAY";
+
+        ok($is_array, "Netkan overrides require an array");
+
+        # If we don't have an array, then skip this next part.
+        $overrides = [] if not $is_array;
+
+        foreach my $override (@$overrides) {
+            ok(
+                $override->{version},
+                "$shortname - Netkan overrides require a version"
+            );
+
+            ok(
+                $override->{delete} || $override->{override},
+                "$shortname - Netkan overrides require a delete or override section"
+            );
+        }
+    }
+
     my $spec_version = $metadata->{spec_version};
+    ok(
+        $spec_version =~ m/^1$|^v\d\.\d\d?$/, 
+        "spec version must be 1 or in the 'vX.X' format"
+    );
+
     foreach my $install (@{$metadata->{install}}) {
         if ($install->{install_to} =~ m{^GameData/}) {
             ok(
-                $spec_version ge "v1.2",
+                compare_version($spec_version,"v1.2"),
                 "$shortname - spec_version v1.2+ required for GameData with path."
+            );
+        }
+
+        if ($install->{install_to} =~ m{^Ships/}) {
+            ok(
+                compare_version($spec_version,"v1.12"),
+                "$shortname - spec_version v.12+ required to install to Ships/ with path."
             );
         }
 
         if ($install->{find}) {
             ok(
-                $spec_version ge "v1.4",
+                compare_version($spec_version,"v1.4"),
                 "$shortname - spec_version v1.4+ required for install with 'find'"
             );
         }
+        if ($install->{find_regexp}) {
+            ok(
+                compare_version($spec_version,"v1.10"),
+                "$shortname - spec_version v1.10+ required for install with 'find_regexp'"
+            );
+        }
     }
+}
+
+# 1.10 is < 1.2 our number comparisons don't work now :( 
+# TODO: Do something better than this quick hack
+sub compare_version {
+  my ($spec_version, $min_version) = @_;
+
+  $spec_version =~ s/v1\.([2|4])$/v1.0$1/;
+  $min_version =~ s/v1\.([2|4])$/v1.0$1/;
+
+  print "Spec: $spec_version, Min: $min_version\n";
+
+  if ($spec_version ge $min_version) {
+    return 1;
+  } else {
+    return 0;
+  }
 }
 
 done_testing;

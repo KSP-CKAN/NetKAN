@@ -1,31 +1,29 @@
 {
-    "spec_version" : "v1.4",
-    "identifier"   : "NearFutureElectrical",
-    "$kref"        : "#/ckan/kerbalstuff/349",
-	
-	"depends"	:	[
-		{ "name" : "NearFutureElectrical-Core" },
-		{ "name" : "HeatControl-Core" },
-		{ "name" : "CommunityResourcePack" },
-		{ "name" : "ModuleManager" } 
-	],
-
+    "spec_version"   : "v1.4",
+    "identifier"     : "NearFutureElectrical",
+    "$kref"          : "#/ckan/kerbalstuff/349",
+    "release_status" : "stable",
+    "license"        : "CC-BY-NC-SA-4.0",
+    "depends" : [
+        { "name" : "CommunityResourcePack" },
+        { "name" : "NearFutureElectrical-Core" },
+        { "name" : "ModuleManager" }
+    ],
     "recommends": [
+        { "name" : "HeatControl-Core" },
         { "name" : "CommunityTechTree" }
     ],
-	
-	"suggests"	: [ 
-		{ "name" : "NearFutureConstruction" },
-		{ "name" : "NearFutureElectrical-DecayingRTGs" },
-		{ "name" : "NearFuturePropulsion" },
-		{ "name" : "NearFutureSolar" },
-		{ "name" : "NearFutureSpacecraft" }
-	],
-	
-	"install"	: [
-		{ "find" : "NearFutureElectrical",
-		"install_to" : "GameData",
-		"filter" : "Plugins" } ],
-	
-    "license" : "CC-BY-NC-SA-4.0"
+    "suggests": [
+        { "name" : "NearFutureConstruction" },
+        { "name" : "NearFutureElectrical-DecayingRTGs" },
+        { "name" : "NearFuturePropulsion" },
+        { "name" : "NearFutureSolar" },
+        { "name" : "NearFutureSpacecraft" }
+    ],
+    "install" : [
+        { "find"       : "NearFutureElectrical",
+          "install_to" : "GameData",
+          "filter"     : "NearFutureElectrical.dll"
+        }
+    ]
 }
