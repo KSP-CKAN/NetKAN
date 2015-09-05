@@ -4,9 +4,7 @@
     "identifier": "NewHorizons",
     "license": "CC-BY-NC-SA-4.0",
 	"depends"	:	[ { "name" : "Kopernicus" },
-					{ "name" : "Kopernicus-Config-Default" },
-					{ "name" : "ModuleManager" },
-					{ "name" : "KittopiaTech"} ],
+					{ "name" : "ModuleManager" } ],
 	"recommends":	[ { "name" : "ADIOS" },
 					{ "name" : "RemoteTech" },
 					{ "name" : "DeadlyReentry" } ],
@@ -16,10 +14,6 @@
 					{ "name" : "PlanetPack" }
 					],
 	"install"		:	[ { "find" : "New_Horizons",
-						"install_to" : "GameData" },
-						{ "find" : "KittopiaSpace",
-						"install_to" : "GameData",
-						"filter" : [ "StarFix.cfg", "Help.cr_help", "plugins", "Textures" ]
-						} 
+						"install_to" : "GameData" }
 					]
 }
