@@ -14,7 +14,7 @@
         { "name" : "DeadlyReentry" } 
     ],
     "supports"     : [
-        { "name"   : "Regolith"}
+        { "name"   : "CommunityResourcePack"}
     ],
     "provides"     : [ "PlanetPack" ],
     "conflicts"    : [
