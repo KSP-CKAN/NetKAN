@@ -16,10 +16,9 @@
     "supports"     : [
         { "name"   : "CommunityResourcePack"}
     ],
-    "provides"     : [ "PlanetPack" ],
     "conflicts"    : [
         { "name" : "KopernicusTech" },
-        { "name" : "PlanetPack" }
+        { "name" : "RealSolarSystem" }
     ],
     "install"      : [
         {
