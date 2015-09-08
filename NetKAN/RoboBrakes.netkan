@@ -1,5 +1,5 @@
 {
-    "spec_version": 1,
+    "spec_version": "v1.10",
     "license": "MIT",
     "$kref": "#/ckan/kerbalstuff/1041",
     "identifier": "RoboBrakes",
@@ -8,8 +8,8 @@
     ],
     "install": [
         {
-            "file"       : "RoboBrakes",
-            "install_to" : "GameData"
+            "find_regexp"   : "RoboBrakes.v[\\d+.]{5}",
+            "install_to"    : "GameData"
         }
     ]
 }
