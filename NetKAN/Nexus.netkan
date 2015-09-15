@@ -3,11 +3,16 @@
     "spec_version": 1,
     "x_via": "Automated KerbalStuff CKAN submission",
     "license": "MIT",
-    "identifier": "SuperHeavyBoostersHistoricalNexus",
+    "x_netkan_license_ok": true
+    "identifier": "Nexus",
     "install": [
         {
-            "file": "Nexus",
+            "file": "GameData/Nexus",
             "install_to": "GameData"
         }
     ]
+    "depends": [
+        { "name": "CommunityResourcePack" }
+        ]
+        
 }
