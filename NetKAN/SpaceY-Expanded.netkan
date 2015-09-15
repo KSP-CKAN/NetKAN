@@ -9,6 +9,6 @@
 		{ "name": "ModuleManager" }
 	],
 	"recommends": [
-		{ "name": "InterstellarFuelSwitch" }
+		{ "name": "InterstellarFuelSwitch-Core" }
 	]
 }
