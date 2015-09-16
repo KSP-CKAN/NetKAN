@@ -9,5 +9,8 @@
             "find": "Nexus",
             "install_to": "GameData"
         }
+    ],
+    "depends": [
+        { "name": "CommunityResourcePack" }
     ]
 }
