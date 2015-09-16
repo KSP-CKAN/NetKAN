@@ -1,0 +1,20 @@
+{
+    "spec_version"   : "v1.4",
+    "identifier"     : "WasdEditorCameraContinued",
+    "$kref"          : "#/ckan/kerbalstuff/1157",
+    "$vref"          : "#/ckan/ksp-avc",
+    "license"        : "MIT",
+    "resources" : {
+        "kerbalstuff" : "https://kerbalstuff.com/mod/1157/WASDEditorCameraContinued",
+        "repository"  : "https://github.com/linuxgurugamer/WasdEditorCameraContinued"
+    },
+    "conflicts" : [
+        { "name" : "WasdEditorCamera" }
+    ],
+    "install" : [
+        {
+            "find"       : "WasdEditorCamera",
+            "install_to" : "GameData"
+        }
+    ]
+}
