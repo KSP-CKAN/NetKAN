@@ -12,10 +12,5 @@
     ],
     "resources" : {
         "bugtracker" : "https://github.com/mhoram-kerbin/TrackingStationAmbientlight/issues"
-    },
-    "conflicts": [
-        {
-            "name": "AmbientLightAdjustment"
-        }
-    ]
+    }
 }
