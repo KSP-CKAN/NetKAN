@@ -1,9 +1,6 @@
 {
     "spec_version": 1,
     "identifier": "PlaneMode",
-    "$kref": "#/ckan/kerbalstuff/493",
-    "x_netkan_license_ok": true,
-    "depends": [
-        { "name": "ModuleManager" }
-    ]
+    "$kref": "#/ckan/netkan/https://raw.githubusercontent.com/Apokee/PlaneMode/master/PlaneMode.netkan",
+    "x_netkan_license_ok": true
 }

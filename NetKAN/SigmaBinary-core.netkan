@@ -1,0 +1,22 @@
+{
+    "spec_version": "v1.4",
+    "license": "CC-BY-NC-SA-4.0",
+    "$kref": "#/ckan/github/Sigma88/Sigma-Binary",
+    "$vref" : "#/ckan/ksp-avc",
+    "identifier": "SigmaBinary-core",
+    "name"        : "Sigma Binary",
+    "abstract"    : "This mod enables the creation of binary systems but does not contain any binary systems itself.",
+    "depends": [
+        { "name": "ModuleManager" },
+        { "name": "Kopernicus"}
+    ],
+    "suggests": [
+        { "name": "SigmaBinary-DunaIke" }
+    ],
+    "install": [
+        {
+            "find"       : "Sigma",
+            "install_to" : "GameData"
+        }
+    ]
+}

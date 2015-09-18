@@ -11,17 +11,16 @@
         }
     ],
     "depends" : [
-        { "name"         : "CommunityResourcePack" },
-        { "name"         : "Toolbar" },
-        { "name"         : "InterstellarFuelSwitch", "min_version" : "1.4" },
-        { "name"         : "TweakScale"},
+        { "name"         : "CommunityResourcePack", "min_version" : "0.4.2" },
+        { "name"         : "Toolbar", "min_version" : "1.7.9" },
+        { "name"         : "InterstellarFuelSwitch", "min_version" : "1.7" },
+        { "name"         : "TweakScale", "min_version" : "2.1"},
         { "name"         : "ModuleManager", "min_version" : "2.6.3" }
     ],
    "recommends": [
         { "name"         : "FilterExtensions" }
     ],
     "suggests": [
-        { "name"         : "CommunityTechTree" },
         { "name"         : "CrossFeedEnabler" }
     ]
 }

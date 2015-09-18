@@ -1,0 +1,12 @@
+{
+    "spec_version": 1,
+    "license": "BSD-2-clause",
+    "identifier": "Multiports",
+    "$kref": "#/ckan/kerbalstuff/1107",
+    "install": [
+        {
+            "file"       : "Multiports",
+            "install_to" : "GameData"
+        }
+    ]
+}

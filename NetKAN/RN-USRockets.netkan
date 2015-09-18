@@ -1,0 +1,18 @@
+{
+    "spec_version"  : "v1.4",
+    "identifier"    : "RN-USRockets",
+    "name"          : "US Rockets",
+    "author"        : "Raidernick",
+    "abstract"      : "This mod contains some obscure US rockets. I will be adding to it occasionally.",
+    "resources": {
+        "homepage"  : "https://github.com/KSP-RO/USRockets"
+    },
+    "$kref"         : "#/ckan/github/KSP-RO/USRockets",
+    "license"       : "CC-BY-NC-ND-3.0",
+    "ksp_version"   : "1.0",
+    "install"       : [
+    {
+        "find"      : "RN_US_Rockets",
+        "install_to": "GameData"
+    }]
+}

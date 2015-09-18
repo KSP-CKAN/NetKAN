@@ -6,6 +6,7 @@
     "abstract"     : "Utility functions for making complex animated and mutable parts.",
     "license"      : "GPL-3.0",
     "ksp_version_min"  : "1.0.2",
+    "ksp_version_max"  : "1.0.99",
     "resources" : {
         "homepage"     : "https://github.com/Mihara/PartUtilities/wiki"
     },

@@ -1,0 +1,26 @@
+{
+    "spec_version": "v1.4",
+    "license": "CC-BY-NC-SA-4.0",
+    "$kref": "#/ckan/kerbalstuff/1121",
+    "identifier": "ContractConfigurator-MaritimeMissionsandBoatNavigationPlugin",
+    "depends": [
+        { "name": "ContractConfigurator" },
+        { "name": "MaritimePack" }
+        
+    ],
+    "recommends": [
+        { "name": "KAS" },
+        { "name": "BDArmory" }
+        
+    ],
+    "install": [
+        {
+            "find"       : "MaritimeMissions",
+            "install_to" : "GameData/ContractPacks"
+        },
+        {
+            "find"       : "BoatNavigation",
+            "install_to" : "GameData"
+        }
+    ]
+}

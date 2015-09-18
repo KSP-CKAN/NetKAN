@@ -1,0 +1,12 @@
+{
+    "spec_version": 1,
+    "$kref": "#/ckan/kerbalstuff/1104",
+    "license": "GPL-3.0",
+    "identifier": "RemoteEverything",
+    "install": [
+        {
+            "file"       : "RemoteEverything",
+            "install_to" : "GameData"
+        }
+    ]
+}

@@ -4,5 +4,6 @@
 	"$kref" : "#/ckan/kerbalstuff/352",
 	"$vref" : "#/ckan/ksp-avc",
 	"license" : "CC-BY-NC-SA",
-	"recommends" :	[ { "name" : "ModuleManager" } ]
+	"recommends" :	[ { "name" : "ModuleManager" } ],
+	"suggests" : [ { "name" : "SpaceY-Expanded" } ]
 }

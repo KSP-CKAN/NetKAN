@@ -2,19 +2,21 @@
   "spec_version": "v1.4",
   "identifier": "OuterPlanetsMod",
   "$kref": "#/ckan/kerbalstuff/437",
+  "x_netkan_epoch": "1",
   "license": "CC-BY-NC-SA-4.0",
   "depends": [
-    { "name" : "ModuleManager" },
-    { "name" : "Kopernicus" }
+    { "name": "ModuleManager", "min_version": "2.6.7" },
+    { "name": "Kopernicus", "min_version": "1:beta-03-3" }
+  ],
+  "recommends": [
+    { "name": "KopernicusExpansion" }
   ],
   "conflicts": [
     { "name": "CustomBiomes" },
-    { "name": "PlanetPack" },
-    { "name": "Kopernicus" }
+    { "name": "PlanetPack" }
   ],
   "provides": [
-    "PlanetPack",
-    "Kopernicus"
+    "PlanetPack"
   ],
   "suggests": [
     { "name": "JDiminishingRTG" },
@@ -38,8 +40,18 @@
     { "name": "TextureReplacer" }
   ],
   "install" : [
-    { "find": "OPM", "install_to" : "GameData" },
-    { "find": "Kopernicus", "install_to": "GameData" },
-    { "find": "TextureReplacer", "install_to" : "GameData" }
+    { "find": "OPM", "install_to" : "GameData" }
+  ],
+  "x_netkan_override": [
+    {
+      "version": "<1:1.8",
+      "delete": [ "depends", "recommends" ],
+      "override": {
+        "depends": [
+          { "name": "ModuleManager", "min_version": "2.6.6" },
+          { "name": "Kopernicus", "min_version": "1:beta-01" }
+        ]
+      }
+    }
   ]
 }

@@ -16,6 +16,9 @@
 		"manual": "https://sites.google.com/site/kspalternateresourcepanel/",
 		"x_curse": "http://kerbal.curseforge.com/ksp-mods/220649-alternate-resource-panel"
 	},
+    "suggests" :[
+        { "name" : "Olympic1ARPIcons" }
+    ],
 	"install" :[
     {
         "find"       : "KSPAlternateResourcePanel",

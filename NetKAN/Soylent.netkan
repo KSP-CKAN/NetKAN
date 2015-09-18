@@ -1,0 +1,25 @@
+{
+    "spec_version": 1,
+    "identifier": "Soylent",
+    "$kref": "#/ckan/kerbalstuff/891",
+    "license": "BSD-2-clause",
+    
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/124501"
+    },
+    
+    "depends": [
+        { "name": "ModuleManager" }
+    ],
+    
+    "recommends": [
+        { "name": "TACLS" }
+    ],
+    
+    "install": [
+        {
+            "file"       : "UberDyneAstronautics",
+            "install_to" : "GameData"
+        }
+    ]   
+}

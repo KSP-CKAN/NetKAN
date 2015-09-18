@@ -7,7 +7,6 @@
   "abstract" : "Stockalike Proton & More",
   "license" : "CC-BY-NC-SA-4.0",
   "release_status" : "stable",
-  "ksp_version_min": "0.25",
   "resources" : {
     "homepage" : "http://forum.kerbalspaceprogram.com/threads/81537",
     "kerbalstuff" : "https://kerbalstuff.com/mod/362"
@@ -21,5 +20,15 @@
     "file" : "GameData/TantaresLV",
     "install_to" : "GameData"
     }
-  ]
+  ],
+  "x_netkan_override" : [
+    {
+        "version" : "12.1",
+        "override" : {
+            "ksp_version_min": "0.25",
+            "ksp_version_max": "1.0.4"
+        },
+        "delete" : [ "ksp_version" ]
+    }
+   ]
 }

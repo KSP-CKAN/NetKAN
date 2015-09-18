@@ -1,0 +1,9 @@
+{
+    "spec_version": "v1.4",
+    "license": "GPL-3.0",
+    "$kref": "#/ckan/kerbalstuff/875",
+    "identifier": "Mk3KISCargoContainers",
+	"install"	:	[ { "find" : "RocketWorks",
+						"install_to" : "GameData" } ],
+	"depends"	:	[ { "name" : "KIS" } ]
+}

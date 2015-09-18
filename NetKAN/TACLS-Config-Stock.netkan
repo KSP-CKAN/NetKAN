@@ -16,5 +16,15 @@
             "comment"       : "This installs only the LifeSupport.cfg file",
             "filter_regexp" : "^(?!GameData/ThunderAerospace/TacLifeSupport/PluginData/TacLifeSupport/LifeSupport.cfg)"
         }
+    ],
+    "x_netkan_override" : [
+        {
+            "version" : "v0.11.1.20",
+            "delete" : [ "ksp_version" ],
+            "override" : {
+                "ksp_version_min" : "1.0.2",
+                "ksp_version_max" : "1.0.4"
+            }
+        }
     ]
 }

@@ -1,0 +1,16 @@
+{
+    "spec_version": "v1.4",
+    "license": "CC-BY-NC-ND-1.0",
+    "$kref": "#/ckan/kerbalstuff/1011",
+    "identifier": "Airlock",
+    "suggests": [
+        { "name": "TACLS" }
+    ],
+    "install": [
+        {
+            "find"       : "Airlock",
+            "install_to" : "GameData",
+            "filter"     : "ModuleAirlock.cs"
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "spec_version": "v1.4",
+    "license": "CC-BY-4.0",
+    "$kref": "#/ckan/kerbalstuff/923",
+    "identifier": "Super67LittleStarCommandPod-heatshield",
+    "name"        : "Super 67 Little Star Command Pod-heatshield",
+    "abstract"    : "A heatshield for the Super 67 Little Star Command Pod",
+    "install": [
+        {
+            "find"       : "Extras",
+            "install_to" : "GameData/RaptorAerospacial",
+            "filter"     : [ "Fairing.dds", "heatshield.dds", "Heatshield.mu" ]
+        }
+    ],
+    "depends": [
+        { "name": "RaptorAerospacial-Textures" },
+        { "name": "Super67LittleStarCommandPod" }
+    ]
+}

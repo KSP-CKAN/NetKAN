@@ -1,0 +1,21 @@
+{
+    "spec_version": 1,
+    "$kref": "#/ckan/kerbalstuff/870",
+    "identifier": "F15DCStrikeEagle",
+    "license": "WTFPL",
+   
+    "depends": [
+        { "name": "FirespitterCore" },
+        { "name": "BDArmory" },
+        { "name": "BahamutoDynamicsPartsPack"},
+        { "name": "AircraftIVAHelmet"}
+    ],
+
+    "install": [
+        {
+            "file"       : "F_15D",
+            "install_to" : "GameData",
+            "filter"     : "Thumbs.db"
+        }
+    ]
+}

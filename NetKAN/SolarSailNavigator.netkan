@@ -3,5 +3,8 @@
     "x_via": "Automated KerbalStuff CKAN submission",
     "identifier": "SolarSailNavigator",
     "spec_version": 1,
-    "license": "unrestricted"
+    "license": "unrestricted",
+    "depends": [
+        { "name": "ModuleManager" }
+        ]
 }

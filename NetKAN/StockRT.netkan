@@ -1,25 +1,18 @@
 {
-	"spec_version" : 1,
-	"identifier" : "StockRT",
-	"$kref" : "#/ckan/kerbalstuff/327",
-	"license": "public-domain",
-	"install": [
-	{
-		"file" : "GameData/RemoteTech_Stock",
-		"install_to" : "GameData"
-	}
-	],
-	"depends": [
-	{
-		"name": "ModuleManager"
-	},
-	{
-		"name": "RemoteTech"
-	}
-	],
-	"suggests": [
-	{
-		"name": "RealSolarSystem"
-	}
-	]
+    "spec_version": "v1.2",
+    "identifier": "StockRT",
+    "$kref": "#/ckan/kerbalstuff/327",
+    "license": "public-domain",
+    "resources": {
+        "repository": "https://github.com/malahx/StockRT"
+    },
+    "depends": [
+        { "name": "ModuleManager", "min_version": "2.6.0" },
+        { "name": "RemoteTech", "min_version": "1.6.0" }
+    ],
+    "supports": [
+        { "name": "RealSolarSystem" },
+        { "name": "OuterPlanetsMod" },
+        { "name": "ContractConfigurator-RemoteTech" }
+    ]
 }

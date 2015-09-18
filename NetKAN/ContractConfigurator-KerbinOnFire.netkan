@@ -1,0 +1,17 @@
+{
+    "spec_version": "v1.4",
+    "license": "CC-BY-NC-SA-4.0",
+    "$kref": "#/ckan/kerbalstuff/1039",
+    "identifier": "ContractConfigurator-KerbinOnFire",
+    "depends": [
+        { "name": "BDArmory" },
+        { "name": "ContractConfigurator"}
+    ],
+    "install": [
+        {
+            "find"       : "KoF",
+            "install_to" : "GameData/ContractPacks"
+        }
+    ],
+    "x_netkan_force_v": true
+}

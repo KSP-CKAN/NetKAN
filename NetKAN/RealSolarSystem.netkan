@@ -1,21 +1,21 @@
 {
-    "spec_version"   : 1,
-    "$kref"          : "#/ckan/github/NathanKell/RealSolarSystem",
+    "spec_version"   : "v1.4",
+    "$kref"          : "#/ckan/github/KSP-RO/RealSolarSystem",
     "$vref"          : "#/ckan/ksp-avc",
+    "x_netkan_force_v": true,
     "name"           : "Real Solar System",
     "identifier"     : "RealSolarSystem",
     "abstract"       : "Resizes and rearranges the Kerbal system to more closely resemble the Solar System",
     "license"        : "CC-BY-NC-SA",
     "release_status" : "stable",
     "depends" : [
+	{ "name" : "Kopernicus" },
         { "name" : "RSSTextures" },
-        { "name" : "DDSLoader" },
-        { "name" : "ModuleManager", "min_version" : "2.5.0" }
+        { "name" : "BetterBuoyancy" }
     ],
     "recommends" : [
-        { "name" : "CustomBiomes-Data-RSS" },
         { "name" : "RealismOverhaul" },
-        { "name" : "Toolbar" }
+        { "name" : "KSCSwitcher" }
     ],
     "suggests" : [
         { "name" : "RemoteTech-Config-RSS" }
@@ -25,8 +25,12 @@
     },
     "install" : [
         {
-            "file"       : "RealSolarSystem",
+            "find"       : "RealSolarSystem",
             "install_to" : "GameData"
-        }
+        },
+		{
+			"find"		 : "Cache",
+			"install_to" : "GameData/Kopernicus"
+		}
     ]
 }

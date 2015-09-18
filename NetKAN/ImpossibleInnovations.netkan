@@ -6,8 +6,7 @@
     
     	"depends": [
     		{"name" : "TweakScale"},
-    		{"name" : "ModuleManager"},
-    		{"name" : "TechManager"}
+    		{"name" : "ModuleManager"}
     	],
     
 	"install": [

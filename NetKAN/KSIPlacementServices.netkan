@@ -1,0 +1,17 @@
+{
+    "spec_version": 1,
+    "$kref": "#/ckan/kerbalstuff/871",
+    "$vref" : "#/ckan/ksp-avc",
+    "license": "GPL-3.0",
+    "comment": "archive contains GPL3 license as well as MIT",
+    "identifier": "KSIPlacementServices",
+    "abstract": "This mod overwrites part of the Astronaut Complex with a new hiring platform. This mod is BETA at best.",
+    "comment": "abstract source: https://github.com/OakTree42/KSI-Hiring/blob/master/ReadME.txt",
+    
+    "install": [
+        {
+            "file"       : "KSI",
+            "install_to" : "GameData"
+        }
+    ]
+}

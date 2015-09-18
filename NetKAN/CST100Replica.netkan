@@ -1,0 +1,12 @@
+{
+    "spec_version": 1,
+    "license": "CC-BY-NC-4.0",
+    "identifier": "CST100Replica",
+    "$kref": "#/ckan/kerbalstuff/1111",
+    "install": [
+        {
+            "file"       : "CST-100",
+            "install_to" : "GameData"
+        }
+    ]
+}

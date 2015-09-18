@@ -5,6 +5,7 @@
 	"license": "restricted",
 	"release_status": "stable",
 	"x_netkan_license_ok": true,
+    "x_netkan_force_v": true,
 	"resources": {
 		"repository": "https://github.com/RemoteTechnologiesGroup/RemoteTech",
 		"bugtracker": "https://github.com/RemoteTechnologiesGroup/RemoteTech/issues",

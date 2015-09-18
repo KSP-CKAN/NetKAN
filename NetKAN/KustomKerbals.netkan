@@ -1,0 +1,14 @@
+{
+    "spec_version": 1,
+    "$kref": "#/ckan/kerbalstuff/1101",
+    "$vref" : "#/ckan/ksp-avc",
+    "license": "MIT",
+    "identifier": "KustomKerbals",
+    "install": [
+        {
+            "file"       : "KustomKerbals",
+            "install_to" : "GameData",
+            "filter"     : ".DS_Store"
+        }
+    ]
+}

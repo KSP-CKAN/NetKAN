@@ -1,0 +1,21 @@
+{
+    "spec_version": "v1.4",
+    "$kref": "#/ckan/kerbalstuff/1080",
+    "license": "CC-BY-NC-SA-4.0",
+    "identifier": "MK2KSPIIntegration",
+    "depends": [
+        { "name": "InterstellarFuelSwitch"}
+    ],
+    "recommends": [
+        { "name": "B9AerospaceProceduralParts" },
+        { "name": "KSPInterstellarExtended"},
+        { "name": "Mk2Expansion"}
+    ],
+    "install": [
+        {
+            "find"       : "StarLionIndustries",
+            "install_to" : "GameData",
+            "filter"     : "Deprecated"
+        }
+    ]
+}

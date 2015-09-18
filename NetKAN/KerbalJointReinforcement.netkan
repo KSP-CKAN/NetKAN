@@ -7,5 +7,15 @@
     "release_status" : "stable",
     "resources"      : {
         "repository"     : "https://github.com/ferram4/Kerbal-Joint-Reinforcement/"
-    }
+    },
+    "x_netkan_override" : [
+        {
+            "version" : "v3.1.4",
+            "delete" : [ "ksp_version" ],
+            "override" : {
+                "ksp_version_min" : "1.0.2",
+                "ksp_version_max" : "1.0.4"
+            }
+        }
+    ]
 }
