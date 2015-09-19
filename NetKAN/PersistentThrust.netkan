@@ -6,16 +6,15 @@
     "$kref"        : "#/ckan/github/bld/PersistentThrust",
     "license"      : "open-source",
     "author"       : "mrsolarsail",
-    "release_status" : "stable",
+    "release_status" : "development",
     "ksp_version"  : "1.0.4",
     "resources" : { "homepage" : "http://forum.kerbalspaceprogram.com/threads/133735" },
+    "depends" : [ { "name" : "ModuleManager" } ],
+    "recommends" : [ { "name" : "SolarSailNavigator" } ],
     "install" : [
         {
             "file"       : "PersistentThrust",
             "install_to" : "GameData",
         }
-    ],
-    "recommends" : [
-        { "name" : "SolarSailNavigator" }
     ]
 }
