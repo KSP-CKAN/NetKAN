@@ -5,6 +5,8 @@
     "spec_version": 1,
     "license": "unrestricted",
     "depends": [
-        { "name": "ModuleManager" }
-        ]
+        { 
+            "name": "ModuleManager",
+            "name": "PersistentEngines",
+        }]
 }
