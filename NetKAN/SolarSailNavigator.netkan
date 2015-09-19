@@ -1,7 +1,7 @@
 {
     "spec_version" : 1,
-    "name"         : "Persistent Thrust",
-    "abstract"     : "PersistentThrust is a plugin that allows propulsion systems to operate during timewarp. The plugin includes a new solar sail part and module that allows a spacecraft to be propelled only by sunlight. It also adds a module with a patch to the stock ion engine that allows engines to thrust during timewarp.",
+    "name"         : "Solar Sail Navigator",
+    "abstract"     : "SolarSailNavigator is a new plugin (ALPHA: you have been warned) to navigate continuous thrust spacecraft with sunlight-propelled solar sails and ion engines. The sail model and force models are derived from KSP Interstellar. The goal of this plugin is to make solar sailing and continuous thrust engines a practical means of travel throughout the KSP solar system.",
     "identifier"   : "SolarSailNavigator",
     "$kref"        : "#/ckan/github/bld/SolarSailNavigator",
     "license"      : "LGPL-2.1",
