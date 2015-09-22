@@ -11,5 +11,9 @@
 		{
 			"name" : "BDArmory"
 		}
+    "recommends" : [
+		{
+			"name" : "KerbalJointReinforcment"
+		}
     ]
 }
