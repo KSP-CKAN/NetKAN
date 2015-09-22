@@ -1,0 +1,17 @@
+{
+    "spec_version"   : "v1.4",
+    "identifier"     : "TotalTime",
+    "$kref"          : "#/ckan/kerbalstuff/1163",
+    "$vref"          : "#/ckan/ksp-avc",
+    "license"        : "MIT",
+    "resources" : {
+        "kerbalstuff" : "https://kerbalstuff.com/mod/1163",
+        "repository"  : "https://github.com/linuxgurugamer/TotalTime"
+    },
+    "install" : [
+        {
+            "find"       : "TotalTime",
+            "install_to" : "GameData"
+        }
+    ]
+}
