@@ -27,6 +27,9 @@
         { "name" : "Taerobee" },
         { "name" : "KerbalRenamer" }
     ],
+    "conflicts" : [
+        { "name" : "CrowdSourcedScience" }
+    ],
     "install" : [
         {
             "file"       : "GameData/RP-0",
