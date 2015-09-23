@@ -19,8 +19,7 @@
     "install": [
         {
             "find"       : "LGMFM",
-            "install_to" : "GameData",
-            "filter"     : "Crap"
+            "install_to" : "GameData"
         }
     ]
 }
