@@ -1,0 +1,17 @@
+{
+    "spec_version": "v1.4",
+    "license": "CC-BY-NC-SA-3.0",
+    "identifier": "MK3PodIVAReplacementbyApex",
+    "$kref": "#/ckan/kerbalstuff/1120",
+    "depends": [
+        { "name": "RasterPropMonitor-Core" },
+        { "name": "ModuleManager" },
+        { "name": "ASETProps" }
+    ],
+    "install": [
+        {
+            "find"       : "Apex",
+            "install_to" : "GameData"
+        }
+    ]
+}
