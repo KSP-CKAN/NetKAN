@@ -1,0 +1,16 @@
+{
+    "identifier": "KerbalPlanetaryExpansion",
+    "spec_version": "v1.4",
+    "license": "CC-BY-NC-SA",
+    "$kref": "#/ckan/kerbalstuff/1140",
+    "depends": [
+        { "name": "Kopernicus" },
+        { "name": "ModuleManager" }
+    ],
+"install": [
+        {
+            "find"       : "KerbalPlanetaryExpansion",
+            "install_to" : "GameData"
+        }
+    ]
+}
