@@ -1,0 +1,12 @@
+{
+    "identifier": "ShuttleLiftingBodyCormorantAeronology",
+    "spec_version": 1,
+    "license": "CC-BY-NC-SA-4.0",
+    "$kref": "#/ckan/kerbalstuff/1134",
+    "install": [
+        {
+            "file"       : "Cormorant Aeronology",
+            "install_to" : "GameData"
+        }
+    ]
+}
