@@ -1,5 +1,5 @@
 {
-    "spec_version": "v1.10",
+    "spec_version": "v1.4",
     "license": "CC-BY-NC-SA-4.0",
     "$kref": "#/ckan/kerbalstuff/988",
     "identifier": "ShadowWorksStockalikeSLSandMore",
@@ -9,12 +9,12 @@
     ],
     "install": [
         {
-            "find_regexp"   : "ShadowWorks_Stockalike_SLS.+/GameData/ShadowWorks",
+            "find"          : "ShadowWorks",
             "install_to"    : "GameData",
             "filter"        : ".DS_Store"
         },
         {
-            "find_regexp"   : "ShadowWorks_Stockalike_SLS.+/Ships/VAB",
+            "find"          : "VAB",
             "install_to"    : "Ships",
             "filter"        : ".DS_Store"
         }
