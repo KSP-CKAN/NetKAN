@@ -4,4 +4,10 @@
     "identifier": "NyrathsUSAFOrion",
     "license": "Creative Commons Attribution - Share Alike 3.0 Unported 3.0 Unported License. http://creativecommons.org/licenses/by-sa/3.0/",
     "$kref": "#/ckan/kerbalstuff/1170"
+     "install": [
+        {
+            "file": "USAFOrionMod/GameData/Nyrath",
+            "install_to": "GameData"
+        }
+    ]
 }
