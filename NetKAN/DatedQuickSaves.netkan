@@ -9,5 +9,8 @@
             "install_to" : "GameData",
             "filter"     : "DatedQuickSaves.cs"
         }
+    ],
+	"depends": [
+        { "name": "MagiCore" }
     ]
 }
