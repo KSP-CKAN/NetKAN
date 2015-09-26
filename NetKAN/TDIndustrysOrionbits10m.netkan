@@ -5,6 +5,9 @@
     "$kref": "#/ckan/kerbalstuff/586",
     "license": "MIT",
 	"install": [
-		{ "file": "GameData/TD-Orion-10m", "install_to": "GameData" }
-	]
+		{ "find": "TD-Orion-10m", "install_to": "GameData" }
+	],
+     "recommends": [
+                { "name": "USAFOrionMod-TD-subedition"}
+        ]
 }
