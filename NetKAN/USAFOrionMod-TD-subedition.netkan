@@ -1,0 +1,21 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "USAFOrionMod-TD-subedition",
+    "abstract"  : "Orion drive for KSP based on Nyraths work",
+    "name"      : "Orion TD edition",
+    "license"   : "MIT",
+    "$kref"     : "#/ckan/kerbalstuff/679",
+    "install"   : [
+        {
+            "find"       : "USAFOrionTD",
+            "install_to" : "GameData"
+        }
+    ],
+    "resources" : {
+        "homepage"       : "http://forum.kerbalspaceprogram.com/threads/112077-TD-Industries-Orion-bits-Alpha",
+        "repository"     : "https://github.com/cerebrate/USAFOrion"
+        },
+    "recommends" : [
+        { "name" : "TDIndustrysOrionbits10m" }
+    ]
+}
