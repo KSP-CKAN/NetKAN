@@ -1,0 +1,9 @@
+{
+  "spec_version" : 1,
+  "identifier" : "Kosmodrome",
+  "$kref" : "#/ckan/kerbalstuff/208",
+  "license" : "CC-BY-4.0",
+  "depends" : [
+    { "name": "KerbalKonstructs" }
+  ]
+}
