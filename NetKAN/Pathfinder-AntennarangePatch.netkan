@@ -9,7 +9,8 @@
 		"repository"  : "https://github.com/linuxgurugamer/Pathfinder-AntennarangePatch"
 	},
 	"depends" : [
-		{ "name": "Pathfinder" }
+		{ "name": "Pathfinder" },
+		{ "name": "AntennaRange" }
 	],
 	"conflicts" : [
 		{ "name": "RemoteTech" }
