@@ -1,0 +1,21 @@
+{
+	"spec_version"   : "v1.4",
+	"identifier"	 : "Pathfinder-RemotetechPatch",
+	"$kref"		  : "#/ckan/kerbalstuff/1181",
+	"$vref"		  : "#/ckan/ksp-avc",
+	"x_netkan_license_ok" : true,
+	"release_status" : "stable",
+	"resources" : {
+		"repository"  : "https://github.com/linuxgurugamer/Pathfinder-AntennarangePatch"
+	},
+	"depends" : [
+		{ "name": "Pathfinder" },
+		{ "name": "RemoteTech" }
+	],
+	"install": [
+		{
+			"file"	   : "GameData/Pathfinder",
+			"install_to" : "GameData"
+		}
+	]
+}
