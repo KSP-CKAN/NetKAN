@@ -4,6 +4,7 @@
     "$kref"          : "#/ckan/kerbalstuff/1180",
     "$vref"          : "#/ckan/ksp-avc",
     "release_status" : "stable",
+    "x_netkan_license_ok": true,
     "resources" : {
         "kerbalstuff" : "https://kerbalstuff.com/mod/1180/Pathfinder-USILS-CommunityPatch",
         "repository"  : "https://github.com/linuxgurugamer/Pathfinder-USILS-CommunityPatch"
