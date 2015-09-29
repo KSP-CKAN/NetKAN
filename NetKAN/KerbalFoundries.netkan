@@ -5,7 +5,7 @@
     "license"        : "GPL-3.0",
 	"resources": 
 	{
-		"repository": " https://kerbalstuff.com/mod/58/"
+		"repository": "https://kerbalstuff.com/mod/58/Kerbal%20Foundries%20Wheels%20and%20Repulsors%20ALPHA"
     },
     "recommends" : [
         { "name" : "TweakScale" }
@@ -16,6 +16,7 @@
             "install_to" : "GameData"
         }
     ],
+    "x_netkan_epoch": "1",
     "x_netkan_override" : [
         {
             "version" : "Beta_1.8g",
