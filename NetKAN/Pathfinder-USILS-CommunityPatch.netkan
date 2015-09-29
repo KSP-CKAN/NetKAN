@@ -19,7 +19,7 @@
     ],
     "install": [
         {
-            "file"       : "Pathfinder",
+            "file"       : "GameData/Pathfinder",
             "install_to" : "GameData"
         }
     ]
