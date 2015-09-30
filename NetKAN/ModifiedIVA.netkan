@@ -1,0 +1,20 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "ModifiedIVA",
+    "license": "CC-BY-NC-SA-3.0",
+    "$kref": "#/ckan/kerbalstuff/252",
+    "depends": [
+        { "name": "RasterPropMonitor-Core" },
+        { "name": "ASETAvionics" },
+        { "name": "ASETProps" }
+    ],
+    "suggests": [
+        { "name": "NavUtilities" }
+    ],
+    "install": [
+        {
+            "find"       : "AKI",
+            "install_to" : "GameData"
+        }
+    ]
+}
