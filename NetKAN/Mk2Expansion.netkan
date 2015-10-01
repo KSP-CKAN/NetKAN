@@ -6,11 +6,11 @@
     "depends": [
         { "name": "KlockheedMartian-Gimbal" },
         { "name": "ModuleManager", "min_version": "2.5.3" },
-        { "name": "CommunityResourcePack" }
+        { "name": "CommunityResourcePack" },
+        { "name": "InterstellarFuelSwitch" }
     ],
     "suggests": [
-	{ "name": "FerramAerospaceResearch" },
-	{ "name": "InterstellarFuelSwitch" }
+	{ "name": "FerramAerospaceResearch" }
     ],
     "install" : [
         {
@@ -18,7 +18,7 @@
             "install_to" : "GameData"
         },
         {
-            "file"        : "Ships",
+            "find"        : "Ships",
             "install_to"  : "Ships"
         }
     ]
