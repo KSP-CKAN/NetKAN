@@ -9,6 +9,7 @@
         "repository"  : "https://github.com/linuxgurugamer/AntennaPatch4AntennaRange"
     },
     "depends" : [
+        { "name": "ModuleManager" },
         { "name": "AntennaRange" },
         { "name": "Antennas" }
     ],
