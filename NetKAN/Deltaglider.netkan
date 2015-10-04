@@ -1,10 +1,11 @@
 {
-    "spec_version" : 1,
-    "identifier"   : "Deltaglider",
-    "$kref"        : "#/ckan/kerbalstuff/1165",
-    "license"      : "CC-BY-NC-ND",
+    "spec_version"  : 1,
+    "identifier"    : "Deltaglider",
+    "$kref"         : "#/ckan/kerbalstuff/1165",
+    "license"       : "CC-BY-NC-ND-4.0",
+    "x_netkan_epoch": "1",
     "depends" : [
-        { "name" : "ModuleManager" } ,
+        { "name" : "ModuleManager" },
         { "name" : "ASETProps" },
         { "name" : "AGExt" },
         { "name" : "RasterPropMonitor" },
