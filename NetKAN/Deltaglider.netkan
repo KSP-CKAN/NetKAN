@@ -1,8 +1,9 @@
 {
-    "spec_version" : 1,
-    "identifier"   : "Deltaglider",
-    "$kref"        : "#/ckan/kerbalstuff/1165",
-    "license"      : "CC-BY-NC-ND",
+    "spec_version"  : 1,
+    "identifier"    : "Deltaglider",
+    "$kref"         : "#/ckan/kerbalstuff/1165",
+    "license"       : "CC-BY-NC-ND",
+    "x_netkan_epoch": "1",
     "depends" : [
         { "name" : "ModuleManager" } ,
         { "name" : "ASETProps" },
