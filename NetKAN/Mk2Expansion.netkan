@@ -7,7 +7,7 @@
         { "name": "KlockheedMartian-Gimbal" },
         { "name": "ModuleManager", "min_version": "2.5.3" },
         { "name": "CommunityResourcePack" },
-        { "name": "InterstellarFuelSwitch" }
+        { "name": "InterstellarFuelSwitch-Core" }
     ],
     "suggests": [
 	{ "name": "FerramAerospaceResearch" }
