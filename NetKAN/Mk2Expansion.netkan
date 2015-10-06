@@ -14,7 +14,7 @@
     ],
     "install" : [
         {
-            "find"       : "Mk2Expansion",
+            "find"       : "GameData/Mk2Expansion",
             "install_to" : "GameData"
         },
         {
