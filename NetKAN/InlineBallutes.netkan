@@ -2,7 +2,7 @@
     "spec_version" : "v1.4",
     "identifier"   : "InlineBallutes",
     "$kref"        : "#/ckan/kerbalstuff/1166",
-    "x_netkan_license_ok": true,
+    "license": "CC-BY-NC-SA-4.0",
     "install" : [
         {
             "find"       : "KermangeddonIndustries",
