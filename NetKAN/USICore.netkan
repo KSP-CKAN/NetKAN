@@ -3,5 +3,15 @@
     "x_via": "Automated KerbalStuff CKAN submission",
     "identifier": "USICore",
     "license": "CC-BY-NC-SA-4.0",
-    "$kref": "#/ckan/kerbalstuff/1194"
+    "$kref": "#/ckan/kerbalstuff/1194",
+    "install" : [
+        {
+            
+            "find": "UmbraSpaceIndustries"
+            "install_to": "GameData"
+        }
+    ],
+    "depends" : [
+        {"name" : "USITools"}
+    ]
 }
