@@ -24,10 +24,6 @@
         {
             "find"        : "SPH",
             "install_to"  : "Ships"
-        },
-        {
-            "find"        : "@thumbs",
-            "install_to"  : "Ships"
         }
     ]
 }
