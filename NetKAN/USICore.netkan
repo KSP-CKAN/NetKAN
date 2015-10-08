@@ -6,8 +6,7 @@
     "$kref": "#/ckan/kerbalstuff/1194",
     "install" : [
         {
-            
-            "find": "UmbraSpaceIndustries"
+            "file": "GameData/UmbraSpaceIndustries",
             "install_to": "GameData"
         }
     ],
