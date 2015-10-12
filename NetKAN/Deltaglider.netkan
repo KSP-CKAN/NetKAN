@@ -1,24 +1,65 @@
 {
-    "spec_version"  : 1,
-    "identifier"    : "Deltaglider",
-    "$kref"         : "#/ckan/kerbalstuff/1165",
-    "license"       : "CC-BY-NC-ND-4.0",
-    "x_netkan_epoch": "1",
-    "depends" : [
-        { "name" : "ModuleManager" },
-        { "name" : "ASETProps" },
-        { "name" : "AGExt" },
-        { "name" : "RasterPropMonitor" },
-        { "name" : "RasterPropMonitor-Core" },
-        { "name" : "KAS" },
-        { "name" : "KIS" },
-        { "name" : "ShipManifest" },
-        { "name" : "ThrottleControlledAvionics" },
-        { "name" : "Toolbar" }
+    "spec_version": 1,
+    "identifier": "Deltaglider",
+    "name": "Deltaglider XR-1 for KSP",
+    "abstract": "A variant of Orbiter space flight simulator Deltaglider and Altea Aerospace Deltaglider XR-1 Thanks to Dr. Martin Schweiger,Doug Beachy,Frying Tiger for permission and use of meshes and textures ",
+    "author": "Redneck",
+    "license": "CC-BY-NC-ND",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/130783-WIP-Deltaglider-XR-1",
+        "kerbalstuff": "https://kerbalstuff.com/mod/1165/Deltaglider%20XR-1%20for%20KSP",
+        "x_screenshot": "https://kerbalstuff.com/content/Redneck_14905/Deltaglider_XR-1_for_KSP/Deltaglider_XR-1_for_KSP-1442889113.8541472.png"
+    },
+    "version": "v0.5",
+    "ksp_version": "1.0.4",
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "ASETProps"
+        },
+        {
+            "name": "AGExt"
+        },
+        {
+            "name": "RasterPropMonitor"
+        },
+        {
+            "name": "RasterPropMonitor-Core"
+        },
+        {
+            "name": "KAS"
+        },
+        {
+            "name": "KIS"
+        },
+        {
+            "name": "ShipManifest"
+        },
+        {
+            "name": "ThrottleControlledAvionics"
+        },
+        {
+            "name": "Toolbar"
+        },
+        {
+            "name": "TMSTACLSRetexture"
+        },
+        {
+            "name": "VesselViewer"
+        },
+        {
+            "name": "SCANsat"
+        },
+        {
+            "name": "DockingSounds"
+        },
+        {
+            "name": "DockingPortAlignmentIndicator"
+        }
     ],
-     "recommends" : [
-        { "name" : "TMSTACLSRetexture" },
-        { "name" : "VesselViewer"},
-        { "name" : "SCANsat" }
-    ]
+    "download": "https://kerbalstuff.com/mod/1165/Deltaglider%20XR-1%20for%20KSP/download/v0.5",
+    "download_size": 25783158,
+    "x_generated_by": "netkan"
 }
