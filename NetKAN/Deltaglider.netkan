@@ -14,11 +14,11 @@
         { "name" : "KIS" },
         { "name" : "ShipManifest" },
         { "name" : "ThrottleControlledAvionics" },
-        { "name" : "Toolbar" }
-    ],
-     "recommends" : [
+        { "name" : "Toolbar" },
         { "name" : "TMSTACLSRetexture" },
         { "name" : "VesselViewer"},
-        { "name" : "SCANsat" }
+        { "name" : "SCANsat" },
+        { "name" : "DockingSounds" },
+        { "name" : "DockingPortAlignmentIndicator" },
     ]
 }
