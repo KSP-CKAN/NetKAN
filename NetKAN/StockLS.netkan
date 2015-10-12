@@ -6,7 +6,8 @@
     "download"       : "https://raw.githubusercontent.com/vosechu/StockLS/master/StockLS.version",
     "license"        : "MIT",
     "release_status" : "stable",
-    "$vref"          : "#/ckan/ksp-avc",
+    "version"        : "1.0.0",
+    "ksp_version"    : "1.0.4",
     "$kref"          : "#/ckan/github/vosechu/StockLS",
     "resources" : {
         "homepage"     : "https://github.com/vosechu/StockLS",
