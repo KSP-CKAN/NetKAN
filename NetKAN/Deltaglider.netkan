@@ -13,7 +13,9 @@
         { "name" : "KAS" },
         { "name" : "KIS" },
         { "name" : "ShipManifest" },
-        { "name" : "ThrottleControlledAvionics" },
+        { "name" : "ThrottleControlledAvionics" }
+    ],
+    "recommends": [
         { "name" : "Toolbar" },
         { "name" : "TMSTACLSRetexture" },
         { "name" : "VesselViewer"},
