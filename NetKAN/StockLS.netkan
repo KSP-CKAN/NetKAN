@@ -3,7 +3,7 @@
     "name"           : "StockLS",
     "abstract"       : "Life support applied to stock parts so ksp updates don't break functionality",
     "identifier"     : "StockLS",
-    "download"       : "https://github.com/vosechu/StockLS/edit/master/StockLS.version",
+    "download"       : "https://raw.githubusercontent.com/vosechu/StockLS/master/StockLS.version",
     "license"        : "MIT",
     "release_status" : "stable",
     "$vref"          : "#/ckan/ksp-avc",
