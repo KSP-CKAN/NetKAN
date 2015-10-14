@@ -13,7 +13,7 @@
     },
     "install" : [
         {
-            "file"       : "StockLS-1.0.0/GameData/StockLS",
+            "file"       : "StockLS-1.0.0",
             "install_to" : "GameData"
         }
     ],
