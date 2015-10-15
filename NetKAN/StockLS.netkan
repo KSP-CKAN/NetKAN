@@ -1,0 +1,33 @@
+{
+    "spec_version"   : "v1.4",
+    "name"           : "StockLS",
+    "abstract"       : "Life support applied to stock parts so ksp updates don't break functionality",
+    "identifier"     : "StockLS",
+    "license"        : "MIT",
+    "$vref"          : "#/ckan/ksp-avc",
+    "$kref"          : "#/ckan/github/vosechu/StockLS",
+    "resources" : {
+        "homepage"     : "https://github.com/vosechu/StockLS",
+        "repository"   : "https://github.com/vosechu/StockLS"
+    },
+    "install" : [
+        {
+            "file"       : "StockLS",
+            "install_to" : "GameData"
+        }
+    ],
+    "depends" : [
+        { "name" : "ModuleManager", "min_version" : "2.6.0" }
+    ],
+    "recommends" : [
+        { "name" : "USILifeSupport" }
+    ],
+    "suggests" : [
+        { "name" : "StockPlugins" },
+        { "name" : "StockRT" },
+        { "name" : "StockSCANSat" }
+    ],
+    "supports" : [
+        { "name" : "USILifeSupport" }
+    ]
+}
