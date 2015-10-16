@@ -1,0 +1,27 @@
+{
+    "spec_version": "v1.4",
+    "x_via": "Automated KerbalStuff CKAN submission",
+    "identifier": "StockLS",
+    "license": "MIT",
+    "$kref": "#/ckan/kerbalstuff/1210",
+    "install": [
+        {
+            "file"       : "StockLS/GameData/StockLS",
+            "install_to" : "GameData"
+        }
+    ],
+    "depends": [
+        { "name": "ModuleManager", "min_version" : "2.6.0" }
+    ],
+    "recommends": [
+        { "name": "USILifeSupport" }
+    ],
+    "suggests": [
+        { "name": "StockPlugins" },
+        { "name": "StockRT" },
+        { "name": "StockSCANSat" }
+    ],
+    "supports": [
+        { "name": "USILifeSupport" }
+    ]
+}
