@@ -1,0 +1,14 @@
+{
+    "spec_version": "v1.4",
+    "$kref": "#/ckan/kerbalstuff/720",
+    "license": "CC-BY-4.0",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/136040-1-0-4-BETA-CactEye-Telescopes-Continued-0-6-8?p=2231950#post2231950"
+    },
+    "identifier": "CactEyeTelescopes",
+	"comment"	: "identifier set to CactEyeTelescopes rather than CactEye in case the original mod ever returns",
+	"install"	:	[ { "find"	:	"CactEye2",
+						"install_to" : "GameData",
+						"filter" : "MiniAVC.dll" } ],
+	"comment"	:	"No DistantObject support added since the foldername is hardcoded to a certain DistObj version and would soon break"
+}
