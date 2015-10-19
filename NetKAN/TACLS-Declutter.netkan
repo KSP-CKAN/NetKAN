@@ -1,0 +1,12 @@
+{
+    "spec_version" : 1,
+    "identifier"   : "TACLS-Declutter",
+    "$kref"        : "#/ckan/kerbalstuff/1216",
+	"$vref"        : "#/ckan/ksp-avc",
+    "x_netkan_license_ok": true,
+	"depends": [
+		{"name": "TACLS"},
+		{"name": "InterstellarFuelSwitch-Core"},
+		{"name": "ModuleManager"}
+	]
+}
