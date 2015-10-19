@@ -2,7 +2,7 @@
     "spec_version" : 1,
     "identifier"   : "Kronkus",
     "$kref"        : "#/ckan/kerbalstuff/1152",
-    "license"      : "CC-BY-NC-ND-4.0",
+    "license"      : "CC0",
     "x_netkan_license_ok": true,
     "depends": [
         { "name": "Kopernicus" },
