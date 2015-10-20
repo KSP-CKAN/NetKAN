@@ -7,7 +7,7 @@
 	"resources"	:
 	{
 		"kerbalstuff" : "https://kerbalstuff.com/mod/1220",
-		"repository"  : "https://github.com/linuxgurugamer/AntennaRangePatches",
+		"repository"  : "https://github.com/linuxgurugamer/AntennaRangePatches"
 	},
 	"depends": [
 		{ "name": "AntennaRange" },
