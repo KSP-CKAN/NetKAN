@@ -14,7 +14,7 @@
     "install" : [
         {
             "find"       : "Buffalo",
-            "install_to" : "GameData"
+            "install_to" : "GameData/WildBlueIndustries"
         }
     ]
 }
