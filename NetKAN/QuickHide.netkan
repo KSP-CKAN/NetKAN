@@ -9,7 +9,7 @@
 		"install_to" : "GameData"
 	}
 	],
-	"depends": [
+	"suggests": [
 	{
 	"name": "Toolbar"
 	}
