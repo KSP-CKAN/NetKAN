@@ -11,6 +11,9 @@
     "depends" : [
         { "name": "ModuleManager", "min_version": "2.6.5" }
     ],
+    "suggests": [
+        { "name": "EvaHandrailsKISCompatibility" }
+    ],
     "install": [
         {
             "file": "NEBULA",
@@ -32,3 +35,4 @@
 		}
     ]
 }
+EvaHandrailsKISCompatibility
