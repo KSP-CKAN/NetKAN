@@ -1,12 +1,9 @@
 {
     "spec_version"   : 1,
     "identifier"     : "BetterBuoyancy",
-    "$kref"          : "#/ckan/github/ferram4/BetterBuoyancy",
-    "name"           : "Better Buoyancy",
-    "abstract"       : "Double precision measurements for buoyancy",
-    "license"        : "restricted",
-    "ksp_version"    : "0.90",
-					    "resources" : {
-        "homepage" : "http://forum.kerbalspaceprogram.com/threads/105094"
-    }
+    "$kref"          : "#/ckan/kerbalstuff/464",
+    "license"        : "MIT",
+    "depends":	[
+        { "name" : "ModuleManager", "min_version": "2.6.6" }
+    ]
 }

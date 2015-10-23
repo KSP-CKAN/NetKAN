@@ -1,0 +1,21 @@
+{
+    "spec_version": 1,
+    "$kref": "#/ckan/kerbalstuff/850",
+    "identifier": "StockHeatManagementforKSPI",
+    "license": "GPL-3.0",
+    
+    "depends": [
+        { "name": "KSPInterstellarExtended" }
+    ],
+    
+    "install": [
+        {
+            "file"       : "GameData/KSPIHeatManagement",
+            "install_to" : "GameData"
+        }
+    ],
+    
+    "resources": {
+        "homepage": "https://kerbalstuff.com/mod/850/Stock%20Heat%20Management%20for%20KSPI"
+    }
+}

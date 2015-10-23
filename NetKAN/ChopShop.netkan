@@ -13,8 +13,7 @@
         { "name": "RemoteTech" },
 		{ "name": "RealFuels" },
 		{ "name": "ModularFuelTanks" },
-		{ "name": "FerramAerospaceResearch" },
-		{ "name": "NEAR" }
+		{ "name": "FerramAerospaceResearch" }
     ],
 	"install" : [ { "find" : "ChopShop",
 					"install_to" : "GameData" },

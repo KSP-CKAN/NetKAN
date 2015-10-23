@@ -3,5 +3,8 @@
     "$kref": "#/ckan/kerbalstuff/725",
     "x_via": "Automated KerbalStuff CKAN submission",
     "license": "MIT",
-    "identifier": "FairingWithMass"
+    "identifier": "FairingWithMass",
+	"resources" : {
+        "homepage"     : "https://kerbalstuff.com/mod/725/Fairing%20With%20Mass"
+    }
 }

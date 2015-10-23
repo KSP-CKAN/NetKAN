@@ -1,0 +1,16 @@
+{
+    "$kref": "#/ckan/kerbalstuff/757",
+    "x_via": "Automated KerbalStuff CKAN submission",
+    "identifier": "GeometricShapeAeroTests",
+    "spec_version": 1,
+    "license": "MIT",
+	    "resources" : {
+        "homepage"     : "https://kerbalstuff.com/mod/757/GeometricShapeAeroTests"
+    },
+    "install": [
+        {
+            "file": "AeroScience",
+            "install_to": "GameData"
+        }
+    ]
+}

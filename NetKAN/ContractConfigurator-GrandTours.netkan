@@ -2,10 +2,12 @@
     "spec_version"   : "v1.4",
     "identifier"     : "ContractConfigurator-GrandTours", 
     "$kref"          : "#/ckan/kerbalstuff/689",
+    "$vref"          : "#/ckan/ksp-avc",
     "release_status" : "stable",
     "x_netkan_license_ok" : true,
+    "x_netkan_epoch" : "1",
     "resources" : {
-        "homepage"    : "http://forum.kerbalspaceprogram.com/threads/113400-Spacetux-Contract-Pack-Unmanned-Contracts-Rover-Contracts-Grand-Tours",
+        "homepage"    : "http://forum.kerbalspaceprogram.com/threads/113400",
         "kerbalstuff" : "https://kerbalstuff.com/mod/689/Contract%20Pack:%20Grand%20Tours",
         "repository"  : "https://github.com/linuxgurugamer/GrandTours"
     },
@@ -18,5 +20,15 @@
             "find"       : "Grandtours",
             "install_to" : "GameData/ContractPacks/Spacetux"
         }
+    ],
+	"x_netkan_override" : [
+		{
+			"version" : "1:0.1.7",
+			"delete" : [ "ksp_version" ],
+			"override" : {
+				"ksp_version_min" : "1.0.2",
+				"ksp_version_max" : "1.0.4"
+			}
+		}
     ]
 }

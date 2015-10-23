@@ -5,9 +5,13 @@
     "name"         : "Smart Parts",
     "abstract"     : "Smart Parts can trigger all 10 action groups, as well as various other functionality such as SAS, lights, stage, or abort.",
     "license"      : "CC-BY-NC-SA-3.0",
-    "ksp_version"  : "0.90",
+    "ksp_version"  : "1.0",
+    "resources" : {
+"homepage" : "http://forum.kerbalspaceprogram.com/threads/64227"
+},
     "install"      : [{
         "file"       : "GameData/SmartParts",
-        "install_to" : "GameData"
+        "install_to" : "GameData",
+        "filter"     : "MiniAVC.xml"
     }]
 }

@@ -1,0 +1,27 @@
+{
+    "spec_version": 1,
+    "identifier": "SigmaModExpansions",
+    "$kref": "#/ckan/kerbalstuff/816",
+    "license": "CC-BY-NC-SA-4.0",
+    "provides": [
+        "SigmaOPMExpansion",
+        "SigmaRTExpansion"
+    ],
+    "depends": [
+        { "name": "ModuleManager" }
+    ],
+    "recommends": [
+        { "name": "OuterPlanetsMod" },
+        { "name": "RemoteTech" }
+    ],
+    "conflicts": [
+        { "name": "SigmaOPMExpansion" },
+        { "name": "SigmaRTExpansion" }
+    ],
+    "install": [
+        {
+            "file": "GameData/Sigma",
+            "install_to": "GameData"
+        }
+    ]
+}

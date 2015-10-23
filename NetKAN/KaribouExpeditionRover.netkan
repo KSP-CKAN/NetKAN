@@ -1,0 +1,17 @@
+{
+    "identifier": "KaribouExpeditionRover",
+    "spec_version": "v1.4",
+    "license": "CC-BY-NC-SA-4.0",
+    "$kref": "#/ckan/kerbalstuff/1132",
+    "depends": [
+        { "name": "FirespitterCore" },
+        { "name": "CommunityResourcePack" },
+        { "name": "USITools" }
+    ],
+    "install": [
+        {
+            "find"       : "Karibou",
+            "install_to" : "GameData/UmbraSpaceIndustries"
+        }
+    ]
+}

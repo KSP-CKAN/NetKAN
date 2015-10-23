@@ -1,8 +1,12 @@
 {
     "$kref": "#/ckan/kerbalstuff/684",
+    "$vref": "#/ckan/ksp-avc",
     "spec_version": "v1.4",
     "identifier": "KabinKraziness",
     "license": "CC-BY-NC-SA-3.0",
+    "resources" : {
+        "homepage"     : "http://forum.kerbalspaceprogram.com/threads/81496"
+    },
 	"depends" : [	{ "name" : "ModuleManager" },
 					{ "name" : "AmpYearPowerManager" } ],
 	"recommends" : [ { "name" : "Toolbar" } ],

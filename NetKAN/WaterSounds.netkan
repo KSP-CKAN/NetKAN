@@ -1,0 +1,24 @@
+{
+    "x_via": "Automated KerbalStuff CKAN submission",
+    "$kref": "#/ckan/kerbalstuff/823",
+    "spec_version": "v1.4",
+    "license": "GPL-2.0",
+    "identifier": "WaterSounds",
+    "abstract": "Adds the sound of water gently lapping at the sides of your craft when splashed down.",
+    "install" : [
+        {
+            "file"       : "GameData/WaterSounds",
+            "install_to" : "GameData"
+        }
+    ],
+    "x_netkan_override": [
+        {
+            "version": "1.1",
+            "delete": [ "ksp_version" ],
+            "override": {
+                "ksp_version_min": "1.0.2",
+                "ksp_version_max": "1.0.4"
+            }
+        }
+    ]
+}

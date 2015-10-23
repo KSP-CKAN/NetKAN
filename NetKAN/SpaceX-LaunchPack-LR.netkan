@@ -6,8 +6,7 @@
 	"install" :[
         {
             "find"          : "LazTek",
-            "install_to"    : "GameData",
-            "filter_regexp" : "Flags"
+            "install_to"    : "GameData"
         },
         {
             "find"       : "VAB",
@@ -18,8 +17,7 @@
         "SpaceX-LaunchPack"
     ],
     "conflicts": [
-        { "name" : "SpaceX-LaunchPack-Standard" },
-        { "name" : "SpaceX-LaunchPack-HD" }
+        { "name" : "SpaceX-LaunchPack" }
     ]
 
 }

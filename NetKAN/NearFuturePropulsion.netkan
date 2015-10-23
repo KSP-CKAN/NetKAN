@@ -1,17 +1,30 @@
 {
-    "spec_version" : 1,
-    "identifier"   : "NearFuturePropulsion",
-    "$kref"        : "#/ckan/kerbalstuff/347",
-
+    "spec_version"   : "v1.4",
+    "identifier"     : "NearFuturePropulsion",
+    "$kref"          : "#/ckan/kerbalstuff/347",
+    "release_status" : "stable",
+    "license"        : "CC-BY-NC-SA-4.0",
     "depends": [
-        { "name": "ModuleManager" },
-        { "name": "CrossFeedEnabler" }
+        { "name" : "CommunityResourcePack" },
+        { "name" : "ModuleManager" }
     ],
-    
-    "suggests": [
+    "recommends": [
         { "name" : "CommunityTechTree" },
-		{ "name" : "NearFuturePropulsionExtras"}
+        { "name" : "NearFutureElectrical" }
     ],
-    "license" : "CC-BY-NC-SA-3.0"
-
+    "suggests": [
+        { "name" : "ContractConfigurator-GrandTours" },
+        { "name" : "NearFutureConstruction" },
+        { "name" : "NearFuturePropulsionNTRConfigs" },
+        { "name" : "NearFuturePropulsion-LowThrustEP" },
+        { "name" : "NearFutureSolar" },
+        { "name" : "NearFutureSpacecraft" },
+        { "name" : "OuterPlanetsMod" }
+    ],
+    "supports": [
+        { "name" : "CrossFeedEnabler" }
+    ],
+    "install" : [
+        { "find" : "NearFuturePropulsion", "install_to" : "GameData" }
+    ]
 }

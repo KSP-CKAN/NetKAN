@@ -1,0 +1,12 @@
+{
+    "spec_version": 1,
+    "license": "CC-BY-NC-SA-3.0",
+    "$kref": "#/ckan/kerbalstuff/915",
+    "identifier": "LaunchCountDownextended",
+    "install": [
+        {
+            "file"       : "LaunchCountDownEx/GameData/LaunchCountDownEx",
+            "install_to" : "GameData"
+        }
+    ]
+}

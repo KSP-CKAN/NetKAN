@@ -1,0 +1,41 @@
+{
+	"spec_version" : "v1.2",
+	"name" : "TestFlight Config Stock",
+	"abstract" : "Config pack for the TestFlight plugin.  This config pack adds TestFlight support for Stock parts.",
+	"identifier" : "TestFlightConfigStock",
+	"$vref" : "#/ckan/ksp-avc",
+	"$kref" : "#/ckan/github/jwvanderbeck/TestFlight/asset_match/TestFlightConfigStock*",
+	"license" : "CC-BY-NC-SA-4.0",
+	"release_status" : "stable",
+	"resources" : {
+		"homepage" : "http://forum.kerbalspaceprogram.com/threads/88187",
+		"repository" : "https://github.com/jwvanderbeck/TestFlight",
+		"bugtracker" : "https://github.com/jwvanderbeck/TestFlight/issues"
+	},
+	"install" : [
+        {
+            "file"       : "GameData/TestFlight",
+            "install_to" : "GameData"
+        }
+    ],
+	"depends" : [
+        { "name" : "ModuleManager", "min_version" : "2.6.1" },
+        { "name" : "TestFlight", "min_version" : "1.3.1" }
+    ],
+    "provides" : [
+    	"TestFlightConfig"
+    ],
+    "conflicts" : [
+    	{ "name" : "TestFlightConfig" }
+    ],
+    "x_netkan_override" : [
+		{
+			"version" : "1.3.1.1",
+			"delete" : [ "ksp_version" ],
+			"override" : {
+				"ksp_version_min" : "1.0.2",
+				"ksp_version_max" : "1.0.4"
+			}
+		}
+    ]
+}

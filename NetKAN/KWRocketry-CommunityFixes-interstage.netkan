@@ -1,0 +1,26 @@
+{
+    "spec_version"  : "v1.2",
+    "identifier"    : "KWRocketry-CommunityFixes-interstage",
+    "$kref"         : "#/ckan/kerbalstuff/1036",
+    "$vref"         : "#/ckan/ksp-avc",
+    "license"       : "GPL-3.0",
+    "depends": [
+        {
+            "name": "KWRocketry-CommunityFixes"
+        }
+    ],
+    "install": [
+        {
+            "file": "Gamedata/KWCommunityFixes/KWPatch-interstage.cfg",
+            "install_to": "GameData/KWCommunityFixes"
+        }
+    ],
+    "name": "KW Rocketry - Community Fixes - Interstage config",
+    "abstract": "Optional config for KW Community Fixes. THIS IS CONVCEIVABLY CRAFT BREAKING! This file switches the interstage fairings over to omni decouplers and removes the finicky extra node on engines/shrouds.",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/129918-KW-Rocketry-Community-Fixes",
+        "kerbalstuff": "https://kerbalstuff.com/mod/1036/KW-Rocketry-Community-Fixes",
+        "repository":"https://github.com/linuxgurugamer/KW-Rocketry-Community-Fixes",
+        "x_screenshot": "https://kerbalstuff.com/content/Winston_229/KW_Rocketry/KW_Rocketry-1431743324.7172647.jpg"
+    }
+}

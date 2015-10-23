@@ -5,7 +5,6 @@
     "license"        : "GPL-3.0",
     "$kref"          : "#/ckan/kerbalstuff/7",
     "depends" : [
-        { "name" : "CrewFiles" },
         { "name" : "ModuleManager" },
         { "name" : "CommunityResourcePack" }
     ],

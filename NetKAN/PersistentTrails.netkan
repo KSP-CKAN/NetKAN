@@ -1,0 +1,10 @@
+{
+    "$kref" : "#/ckan/kerbalstuff/796",
+    "spec_version" : 1,
+    "license" : "MIT",
+    "identifier" : "PersistentTrails",
+    "depends" : [
+        { "name" : "Toolbar" }
+    ]
+} 
+

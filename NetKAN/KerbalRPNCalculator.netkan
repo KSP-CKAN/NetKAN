@@ -1,11 +1,39 @@
 {
-    "$kref": "#/ckan/kerbalstuff/480",
-	"$vref": "#/ckan/avc",
-    "x_via": "Automated KerbalStuff CKAN submission",
-    "identifier": "KerbalRPNCalculator",
-    "license": "GPL-3.0",
     "spec_version": "v1.4",
-	"install": [
-		{ "file": "KerbalRPNCalc", "install_to": "GameData", "filter": "Thumbs.db" }
+    "identifier": "KerbalRPNCalculator",
+    "$kref": "#/ckan/kerbalstuff/480",
+    "license": "GPL-3.0",
+    "$vref": "#/ckan/ksp-avc",
+    "install": [
+		{
+			"file" : "Textures",
+			"install_to": "GameData/KerbalRPNCalc"
+		},
+		{
+			"file" : "KerbalRPNCalc.dll",
+			"install_to": "GameData/KerbalRPNCalc"
+		},
+		{
+			"file" : "KerbalRPNCalculator.version",
+			"install_to": "GameData/KerbalRPNCalc"
+		},
+		{
+			"file" : "MiniAVC.dll",
+			"install_to": "GameData/KerbalRPNCalc"
+		},
+		{
+			"file" : "PartsAPI.dll",
+			"install_to": "GameData/KerbalRPNCalc"
+		} 
+	],
+	"x_netkan_override": [
+		{
+			"version": "1.4",
+			"delete": [ "ksp_version" ], 
+			"override": {
+				"ksp_version_min": "1.0",
+				"ksp_version_max": "1.0.4"
+			}
+		}
 	]
 }

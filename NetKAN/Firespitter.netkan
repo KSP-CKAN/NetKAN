@@ -1,29 +1,31 @@
 {
-    "spec_version"    : 1,
-    "identifier"      : "Firespitter",
-    "$kref"           : "#/ckan/kerbalstuff/63",
-    "license"         : "restricted",
-    "comment"         : "Our version really depends on FirespitterCore",
-    "ksp_version_min" : "0.24.2",
+    "spec_version" : 1,
+    "identifier"   : "Firespitter",
+    "name"         : "Firespitter",
+    "abstract"     : "Propeller plane and helicopter parts",
+    "$kref"        : "#/ckan/github/snjo/Firespitter",
+    "license"      : "restricted",
+    "$vref"        : "#/ckan/ksp-avc",
+    "x_netkan_force_v" : true,
     "resources" : {
+        "homepage" : "http://snjo.github.io/",
         "repository"  : "https://github.com/snjo/Firespitter"
     },
-    "depends" : [ {
-        "name"        : "FirespitterCore",
-        "min_version" : "7.0.5398.27328"
-    } ],
-    "x_supports" : [ { "name" : "PartCatalog" } ],
+    "depends" : [
+        {
+            "name"        : "FirespitterCore",
+            "min_version" : "7.1"
+        },
+        {
+            "name" : "FirespitterResourcesConfig"
+        }
+    ],
     "install"  : [
         {
             "file"       : "Firespitter",
             "install_to" : "GameData",
-            "filter"     : [ "Firespitter.dll" ],
+            "filter"     : [ "Firespitter.dll", "FSFuelSwitchTweakScale.cfg", "Firespitter.version", "Resources", "Old Example Craft.zip" ],
             "comment"    : "The DLL is installed from FirespitterCore"
-        },
-        {
-            "file"       : "PartCatalog",
-            "install_to" : "GameData",
-            "comment"    : "Firespitter graphics for PartCatalog"
         }
     ]
 }

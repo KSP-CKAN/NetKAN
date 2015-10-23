@@ -1,0 +1,21 @@
+{
+    "spec_version"   : 1,
+    "name"           : "ESLD Jump Beacons",
+    "author"	     : "TMarkos",
+    "$kref"          : "#/ckan/kerbalstuff/127",
+    "identifier"     : "ESLDCore",
+    "license"        : "GPL-2.0",
+    "resources" : {
+        "repository"   : "https://github.com/TMarkos/ESLDBeacons"
+    },
+    "install" : [
+        {
+            "file"       : "ESLDBeacons/GameData/ESLDBeacons",
+            "install_to" : "GameData"
+        }
+    ],
+    "depends" : [
+        { "name" : "CommunityResourcePack" },
+        { "name" : "ModuleManager" }
+    ]
+}

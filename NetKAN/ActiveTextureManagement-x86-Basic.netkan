@@ -5,8 +5,13 @@
     "name"          : "Active Texture Management - X86 - Basic",
     "abstract"      : "x86 basic texture compression to DXT1 and DXT5",
     "author"        : "rbray89",
+    "resources" : {
+        "homepage" : "http://forum.kerbalspaceprogram.com/threads/59005"
+    },
     "license"       : "MIT",
     "x_netkan_license_ok": true,
+    "ksp_version_min": "0.90",
+    "ksp_version_max": "1.0.99",
     "install": [
         {
             "file"       : "GameData/ActiveTextureManagement",

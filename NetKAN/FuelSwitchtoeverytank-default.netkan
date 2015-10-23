@@ -1,0 +1,29 @@
+{
+    "spec_version": 1,
+    "identifier": "FuelSwitchtoeverytank-default",
+    "$kref": "#/ckan/kerbalstuff/861",
+    "license": "CC-BY-SA-2.0",
+    "name": "FuelSwitch to every tank-default",
+    "abstract": "This small ModuleManager config adds module FSfuelSwitch to every fuel tank in game, including non-stock",
+    
+    "provides"  : [ "FuelSwitchtoeverytank" ],
+    
+    "depends": [
+        { "name": "ModuleManager" },
+        { "name": "FirespitterCore" }
+    ],
+    
+    "conflicts": [
+        { "name": "StockFuelSwitch" },
+        { "name": "FuelSwitchtoeverytank" },
+        { "name": "ThermalPaint" }
+    ],
+    
+    "install": [
+        {
+            "file"       : "FSfuelSwitchForEveryTank.cfg",
+            "install_to" : "GameData"
+        }
+    ]
+    
+}

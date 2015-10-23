@@ -1,0 +1,17 @@
+{
+    "$kref": "#/ckan/kerbalstuff/768",
+    "x_via": "Automated KerbalStuff CKAN submission",
+    "identifier": "PlanetScrambler",
+    "spec_version": 1,
+    "license": "CC-BY-NC-SA",
+    "resources" : {
+        "homepage"     : "http://forum.kerbalspaceprogram.com/threads/120311",
+        "repository"   : "https://github.com/CelMech/PlanetScrambler"
+    },
+    "install": [
+        {
+            "file": "GameData/PlanetScrambler.dll",
+            "install_to": "GameData"
+        }
+    ]
+}

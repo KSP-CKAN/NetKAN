@@ -8,9 +8,6 @@
     "suggests" : [
         { "name" : "Toolbar" }
     ],
-    "conflicts" : [
-        { "name" : "TarsierSpaceTech" }
-    ],
     "install" : [
         {
             "file"       : "GameData/KerbalConstructionTime",

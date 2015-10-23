@@ -1,0 +1,19 @@
+{
+    "spec_version"   : "v1.4",
+    "$kref"          : "#/ckan/github/Felger/FelgerFixes",
+    "ksp_version"    : "1.0",
+    "name"           : "RemoteTech - Probe Control Enabler",
+    "identifier"     : "RemoteTech-ProbeControlEnabler",
+    "abstract"       : "Optional ModuleManager patch by Felger to re-enable probe control when a link is not present.  You will still need a link to transmit science data.",
+    "license"        : "CC-BY-SA",
+    "release_status" : "stable",
+    "depends" : [
+        { "name" : "ModuleManager" }
+    ],
+    "install" : [
+        {
+            "file"       : "GameData/ZZZ_FelgerFixes/RT_ProbeRemover.cfg",
+            "install_to" : "GameData/ZZZ_FelgerFixes"
+        }
+    ]
+}

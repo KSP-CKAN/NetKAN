@@ -1,0 +1,22 @@
+{
+    "spec_version": "v1.4",
+    "license": "CC-BY-NC-SA-4.0",
+    "$kref": "#/ckan/kerbalstuff/988",
+    "identifier": "ShadowWorksStockalikeSLSandMore",
+    "recommends": [
+        { "name": "BaconLabs" },
+        { "name": "Tantares"}
+    ],
+    "install": [
+        {
+            "find"          : "ShadowWorks",
+            "install_to"    : "GameData",
+            "filter"        : ".DS_Store"
+        },
+        {
+            "find"          : "VAB",
+            "install_to"    : "Ships",
+            "filter"        : ".DS_Store"
+        }
+    ]
+}

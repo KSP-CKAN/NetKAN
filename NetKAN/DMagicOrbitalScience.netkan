@@ -13,25 +13,25 @@
 		"repository" : "https://github.com/DMagic1/Orbital-Science"
 	},
 	"recommends" : [
-		{ 
-			"name": "ContractsWindowPlus"
-		}
+		{ "name": "ContractsWindowPlus" }
 	],
 	"suggests": [
-	{
-	  "name": "CustomBiomes"
-	},
-	{
-	  "name": "UniversalStorage"
-	},
-	{
-	  "name": "ScienceAlert"
-	},
-	{
-	  "name": "SCANsat"
-	},
-	{
-	  "name": "CommunityTechTree"
-	}
+		{ "name": "CapCom" },
+		{ "name": "ContractRewardModifier" },
+		{ "name": "OuterPlanetsMod"	},
+		{ "name": "UniversalStorage" },
+		{ "name": "ScienceAlert" },
+		{ "name": "SCANsat" },
+		{ "name": "CommunityTechTree" }
+    ],
+	"x_netkan_override" : [
+		{
+			"version" : "1.0.4",
+			"delete" : [ "ksp_version" ],
+			"override" : {
+				"ksp_version_min" : "1.0.2",
+				"ksp_version_max" : "1.0.4"
+			}
+		}
     ]
 }

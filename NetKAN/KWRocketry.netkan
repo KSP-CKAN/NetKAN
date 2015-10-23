@@ -1,8 +1,19 @@
 {
-    "spec_version" : 1,
+    "spec_version" : "v1.4",
     "identifier"   : "KWRocketry",
     "$kref"        : "#/ckan/kerbalstuff/67",
     "license"      : "CC-BY-SA-3.0",
-    "ksp_version_min": "0.25",
-	"ksp_version_max": "0.90"
+    "depends"      : [
+        { "name": "ModuleAnimateEmissive" }
+    ],
+    "conflicts" : [
+        { "name" : "KWRocketry-CommunityFixes" },
+        { "name" : "KWRocketry-CommunityFixes-interstage"  }
+    ],
+    "install"      : [
+        {
+            "find"      : "KWRocketry",
+            "install_to": "GameData"
+        }
+    ]
 }

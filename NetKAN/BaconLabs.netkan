@@ -3,9 +3,8 @@
     "spec_version": "v1.4",
     "identifier": "BaconLabs",
     "license": "CC-BY-NC-SA-4.0",
-	"depends"	:	[ { "name" : "Tantares" } ],
 	
-	"recommends":	[ { "name" : "OMSKSpaceProducts" },
+	"recommends":	[ { "name" : "NearFutureSolar" },
 					{ "name" : "DMagicOrbitalScience" } ],
 	
 	"suggests"	:	[ { "name" : "NewHorizons" } ],

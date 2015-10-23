@@ -1,0 +1,38 @@
+{
+    "spec_version" : "v1.4",
+    "$kref"        : "#/ckan/kerbalstuff/1095",
+    "$vref"        : "#/ckan/ksp-avc",
+    "identifier"   : "Olympic1ARPIcons",
+    "license"      : "CC-BY-SA-4.0",
+    "install" :
+    [
+        {
+            "find"       : "Olympic1ARPIcons",
+            "install_to" : "GameData",
+            "filter"     : "thumbs.db"
+        }
+    ],
+    "depends" :
+    [
+        { "name" : "AlternateResourcePanel" },
+        { "name" : "ModuleManager" }
+    ],
+    "suggests" :
+    [
+        { "name" : "AlcubierreStandalone" },
+        { "name" : "CommunityResourcePack" },
+        { "name" : "DangIt" },
+        { "name" : "DeadlyReentry" },
+        { "name" : "ExtraPlanetaryLaunchpads" },
+        { "name" : "Karbonite" },
+        { "name" : "KarbonitePlus" },
+        { "name" : "MissionController2" },
+        { "name" : "Snacks" },
+        { "name" : "SoundingRockets" },
+        { "name" : "UKS" },
+        { "name" : "USI-EXP" },
+        { "name" : "USI-FTT" },
+        { "name" : "USI-LS" },
+        { "name" : "USI-SRV" }
+    ]
+}

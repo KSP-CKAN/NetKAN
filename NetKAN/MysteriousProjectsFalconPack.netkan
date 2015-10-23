@@ -1,0 +1,21 @@
+{
+    "$kref": "#/ckan/kerbalstuff/779",
+    "spec_version": 1,
+    "x_via": "Automated KerbalStuff CKAN submission",
+    "license": "CC-BY-NC-ND-4.0",
+    "identifier": "MysteriousProjectsFalconPack",
+    "install": [
+        {
+            "file": "MP_Nazari",
+            "install_to": "GameData"
+        }
+    ],
+    "depends": [
+        {
+            "name": "FirespitterCore"
+        },
+        {
+            "name": "RasterPropMonitor"
+        }
+    ]
+}

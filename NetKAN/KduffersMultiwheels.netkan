@@ -1,0 +1,20 @@
+{
+    "spec_version": "v1.2",
+    "$kref": "#/ckan/kerbalstuff/1090",
+    "license": "MIT",
+    "identifier": "KduffersMultiwheels",
+    "install": [
+        {
+            "file"       : "cartwheel",
+            "install_to" : "GameData/Kduffers/Multiwheels"
+        },
+        {
+            "file"       : "hog wheel",
+            "install_to" : "GameData/Kduffers/Multiwheels"
+        },
+        {
+            "file"       : "race wheel",
+            "install_to" : "GameData/Kduffers/Multiwheels"
+        }
+    ]
+}

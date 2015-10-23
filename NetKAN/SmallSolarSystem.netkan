@@ -1,0 +1,10 @@
+{
+    "spec_version": 1,
+    "license": "MIT",
+    "$kref": "#/ckan/kerbalstuff/1017",
+    "identifier": "SmallSolarSystem",
+    "depends": [
+        { "name": "RealSolarSystem" },
+        { "name": "ModuleManager" }
+    ]
+}

@@ -5,30 +5,46 @@
     "identifier"   : "RealFuels",
     "$kref"        : "#/ckan/github/NathanKell/ModularFuelSystem",
     "license"      : "CC-BY-SA",
-    "author"       : [ "ialdabaoth", "NathanKell" ],
+    "author"       : [ "ialdabaoth", "NathanKell", "taniwha" ],
     "release_status" : "stable",
-    "ksp_version"  : "0.90",
-    "resources" : {
-        "homepage" : "http://forum.kerbalspaceprogram.com/threads/64118"
-    },
+    "ksp_version"  : "1.0.4",
+    "resources" : { "homepage" : "http://forum.kerbalspaceprogram.com/threads/64118" },
     "install" : [
         {
             "file"       : "RealFuels",
-            "install_to" : "GameData"
+            "install_to" : "GameData",
+			"filter"	: ".DS_Store"
         }
     ],
     "depends" : [
         { "name" : "ModuleManager" },
-        { "name" : "RealFuels-Engine-Configs" }
+        { "name" : "RealFuels-Engine-Configs" },
+		{ "name" : "CommunityResourcePack" },
+		{ "name" : "SolverEngines" }
     ],
     "conflicts" : [
         { "name" : "ModularFuelSystem" },
-        { "name" : "ModularFuelTanks"  }
+        { "name" : "ModularFuelTanks"  },
+        { "name" : "Fuelswitchtoeverytank" },
+        { "name" : "StockFuelSwitch" },
+        { "name" : "EngineIgnitor" }
     ],
     "recommends" : [
         { "name" : "CrossFeedEnabler" }
     ],
-    "suggests" : [
-        { "name" : "EngineIgnitor" }
+    "x_netkan_override" : [
+		{
+			"version" : "<=rf-v10.4.9",
+			"override" : { 
+				"conflicts" : [
+                    { "name" : "ModularFuelSystem" },
+                    { "name" : "ModularFuelTanks"  },
+                    { "name" : "InterstellarFuelSwitch" },
+                    { "name" : "Fuelswitchtoeverytank" },
+                    { "name" : "StockFuelSwitch" },
+                    { "name" : "EngineIgnitor" }
+                ]
+			}
+		}
     ]
 }

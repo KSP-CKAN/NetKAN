@@ -1,0 +1,19 @@
+{
+    "spec_version"   : "v1.4",
+    "$kref"          : "#/ckan/github/Crzyrndm/FilterExtension",
+    "$vref"          : "#/ckan/ksp-avc",
+    "name"           : "Filter Extensions - Default Configuration",
+    "identifier"     : "FilterExtensionsDefaultConfig",
+    "abstract"       : "Configuration files using Filter Extensions to create a large array of new part categories in the Editor",
+    "license"        : "CC-BY-NC-SA-4.0",
+    "release_status" : "stable",
+    "depends" : [
+		{ "name" : "FilterExtensions" }
+    ],
+    "install" : [
+        {
+            "file"       : "GameData/000_FilterExtensions Configs/Default",
+            "install_to" : "GameData/000_FilterExtensions Configs"
+        }
+    ]
+}

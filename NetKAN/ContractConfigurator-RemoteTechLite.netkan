@@ -1,0 +1,16 @@
+{
+    "spec_version": "v1.2",
+    "license": "CC-BY-NC-SA-4.0",
+    "$kref": "#/ckan/kerbalstuff/938",
+    "identifier": "ContractConfigurator-RemoteTechLite",
+    "install": [
+        {
+            "file"       : "GameData/ContractPacks/RemoteTechLite",
+            "install_to" : "GameData/ContractPacks"
+        }
+    ],
+    "depends": [
+        { "name": "ContractConfigurator" },
+        { "name": "RemoteTech"}
+    ]
+}

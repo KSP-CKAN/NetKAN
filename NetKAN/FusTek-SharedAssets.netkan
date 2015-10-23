@@ -1,0 +1,21 @@
+{
+    "spec_version"   : "v1.4",
+    "identifier"     : "FusTek-SharedAssets",
+    "$kref"          : "#/ckan/github/sumghai/FusTek_SharedAssets",
+    "name"           : "FusTek Aerospace - Shared Assets",
+    "abstract"       : "Agency folders shared by multiple FusTek-branded add-ons for Kerbal Space Program ",
+    "license"        : "CC-BY-SA-4.0",
+    "release_status" : "stable",
+    "ksp_version"    : "any",
+    "comment"        : "agencymod",
+    "x_netkan_license_ok": true,
+    "resources" : {
+        "repository"   : "https://github.com/sumghai/FusTek_SharedAssets"
+    },
+    "install" : [
+        {
+            "file"       : "Agencies",
+            "install_to" : "GameData/FusTek"
+        }
+    ]
+}

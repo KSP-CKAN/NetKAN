@@ -1,0 +1,13 @@
+{
+    "spec_version": 1,
+    "$kref": "#/ckan/kerbalstuff/872",
+    "identifier": "AircraftIVAHelmet",
+    "license": "WTFPL",
+
+    "install": [
+        {
+            "file"       : "Cockpit",
+            "install_to" : "GameData"
+        }
+    ]
+}

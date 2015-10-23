@@ -3,49 +3,20 @@
 	"identifier" : "StockPlugins",
 	"$kref" : "#/ckan/kerbalstuff/402",
 	"license": "public-domain",
-	"install": [
-	{
-		"file" : "GameData/Engineer_Stock",
-		"install_to" : "GameData"
-	},
-	{
-		"file" : "GameData/KerbalEngineer_Stock",
-		"install_to" : "GameData"
-	},
-	{
-		"file" : "GameData/KerbalGPS_Stock",
-		"install_to" : "GameData"
-	},
-	{
-		"file" : "GameData/MechJeb2_Stock",
-		"install_to" : "GameData"
-	},
-	{
-		"file" : "GameData/Protractor_Stock",
-		"install_to" : "GameData"
-	},
-	{
-		"file" : "GameData/Telemachus_Stock",
-		"install_to" : "GameData"
-	}
-	],
-	"depends": [
-	{
-		"name": "ModuleManager"
-	}
-	],
-	"suggests": [
-	{
-		"name": "StockRT"
-	},
-	{
-		"name": "KerbalEngineerRedux"
-	},
-	{
-		"name": "MechJeb2"
-	},
-	{
-		"name": "Telemachus"
-	}
-	]
+    	"resources": {
+        	"homepage": "http://forum.kerbalspaceprogram.com/threads/99869",
+        	"repository": "https://github.com/malahx/StockPlugins"
+    	},
+    	"depends": [
+		{ "name": "ModuleManager", "min_version": "2.6.0" }
+    	],
+	 "suggests": [
+        	{ "name": "DeadlyReentry" },
+        	{ "name": "Graphotron" },
+        	{ "name": "KerbalEngineerRedux" },
+        	{ "name": "kOS" },
+        	{ "name": "MechJeb2" },
+        	{ "name": "Protractor" },
+        	{ "name": "Telemachus" }
+    ]
 }

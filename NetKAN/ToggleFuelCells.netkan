@@ -1,0 +1,15 @@
+{
+    "spec_version": "v1.4",
+    "license": "unrestricted",
+    "$kref": "#/ckan/kerbalstuff/1046",
+    "identifier": "ToggleFuelCells",
+    "depends": [
+        { "name": "ModuleManager"}
+    ],
+    "install": [
+        {
+            "find"       : "AquilaEnterprises",
+            "install_to" : "GameData"
+        }
+    ]
+}

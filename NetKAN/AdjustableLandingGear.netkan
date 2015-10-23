@@ -1,24 +1,19 @@
 {
-    "spec_version" : 1,
-    "identifier"   : "AdjustableLandingGear",
-    "$kref"        : "#/ckan/kerbalstuff/321",
-    "license"      : "CC-BY-SA-3.0",
-
-    "ksp_version_min" : "0.25",
-    "ksp_version_max" : "0.90",
-    "x_comment" : "TEMPORARY! Delete this as soon as official 0.90 comes out!!!",
-
+    "spec_version"     : "v1.2",
+    "identifier"       : "AdjustableLandingGear",
+    "$kref"            : "#/ckan/kerbalstuff/321",
+    "license"          : "CC-BY-SA-3.0",
     "depends": [
-        { "name": "BDAnimationModules" },
-        { "name": "FirespitterCore" }
+        { "name": "BDAnimationModules" }
     ],
-
-    "install": [
+    "x_netkan_override" : [
         {
-            "file": "GameData/BahaSP",
-            "install_to": "GameData",
-            "filter": "Plugins",
-            "comment": "Plugins is the folder where BDAnimationModules is installed"
+            "version" : "v1.2.0",
+            "delete" : [ "ksp_version" ],
+            "override" : {
+                "ksp_version_min" : "1.0.2",
+                "ksp_version_max" : "1.0.4"
+            }
         }
     ]
 }

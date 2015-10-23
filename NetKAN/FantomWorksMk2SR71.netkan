@@ -1,0 +1,16 @@
+{
+    "spec_version": "v1.4",
+    "license": "GPL-3.0",
+    "$kref": "#/ckan/kerbalstuff/977",
+    "identifier": "FantomWorksMk2SR71",
+    "install": [
+        {
+            "find"       : "FantomWorks",
+            "install_to" : "GameData"
+        },
+        {
+            "find"       : "SPH",
+            "install_to" : "Ships"
+        }
+    ]
+}

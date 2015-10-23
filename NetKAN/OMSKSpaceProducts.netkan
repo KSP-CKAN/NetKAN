@@ -3,6 +3,9 @@
     "spec_version": "v1.4",
     "identifier": "OMSKSpaceProducts",
     "license": "CC-BY-NC-SA-4.0",
+    "resources" : {
+        "homepage" : "http://forum.kerbalspaceprogram.com/threads/112419"
+    },
 	"install" : [ 	{
 					"find" : "OMSK",
 					"install_to" : "GameData"

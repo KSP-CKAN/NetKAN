@@ -15,8 +15,7 @@
     
     "depends": 
     [
-        { "name": "ModuleManager" },
-        { "name" : "KSPAPIExtensions" }
+        { "name": "ModuleManager" }
     ],
     
     "suggests": 
@@ -31,9 +30,7 @@
 	[
 		{
 			"file": "GameData/Hangar",
-			"install_to": "GameData",
-			"filter": "KSPAPIExtensions.dll",
-			"comment": "Contains KSPAPIExtensions mod in this distribution"
+			"install_to": "GameData"
 		}
 	]
 }

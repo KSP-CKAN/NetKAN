@@ -9,16 +9,31 @@
     "resources": {
         "homepage": "http://forum.kerbalspaceprogram.com/threads/108234"
     },
-    "depends": [
-        { "name": "ModuleManager" },
-        { "name": "KIS" },
-        { "name": "KAS" },
-        { "name": "CommunityResourcePack" }
-    ],
     "install": [
         {
             "file": "GameData/Workshop",
             "install_to": "GameData"
+        }
+    ],
+    "x_netkan_override": [
+        {
+            "version": "<0.9.0",
+            "override": {
+                "depends": [
+                    { "name": "ModuleManager" },
+                    { "name": "KIS" },
+                    { "name": "UKS" }
+                ]
+            }
+        },
+        {
+            "version": ">=0.9.0",
+            "override": {
+                "depends": [
+                    { "name": "ModuleManager" },
+                    { "name": "KIS" }
+                ]
+            }
         }
     ]
 }

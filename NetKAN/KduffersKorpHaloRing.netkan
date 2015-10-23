@@ -1,0 +1,15 @@
+{
+    "spec_version": "v1.2",
+    "$kref": "#/ckan/kerbalstuff/1097",
+    "license": "MIT",
+    "identifier": "KduffersKorpHaloRing",
+    "depends": [
+        { "name": "KerbalKonstructs"}
+    ],
+    "install": [
+        {
+            "file"       : "ring",
+            "install_to" : "GameData/Kduffers"
+        }
+    ]
+}

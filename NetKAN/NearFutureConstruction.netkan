@@ -1,11 +1,25 @@
 {
-    "spec_version" : 1,
-    "identifier"   : "NearFutureConstruction",
-    "$kref"        : "#/ckan/kerbalstuff/348",
-	"depends"	:	[ { "name" : "InterstellarFuelSwitch" },
-					{ "name" : "CommunityResourcePack" } ],
-    "suggests": [
-        { "name" : "CommunityTechTree" }
+    "spec_version"   : "v1.4",
+    "identifier"     : "NearFutureConstruction",
+    "$kref"          : "#/ckan/kerbalstuff/348",
+    "release_status" : "stable",
+    "license"        : "CC-BY-NC-SA-4.0",
+    "depends" : [
+        { "name" : "InterstellarFuelSwitch-Core" },
+        { "name" : "CommunityResourcePack" }
     ],
-    "license" : "CC-BY-NC-SA-3.0"
+    "suggests": [
+        { "name" : "CommunityTechTree" },
+        { "name" : "NearFutureElectrical" },
+        { "name" : "NearFuturePropulsion" },
+        { "name" : "NearFutureSolar" },
+        { "name" : "NearFutureSpacecraft" },
+        { "name" : "StationPartsExpansion" }
+    ],
+    "supports": [
+        { "name" : "ConnectedLivingSpace" }
+    ],
+    "install" : [
+        { "find" : "NearFutureConstruction", "install_to" : "GameData" }
+    ]
 }

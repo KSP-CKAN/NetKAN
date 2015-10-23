@@ -1,0 +1,18 @@
+{
+    "spec_version"   : "v1.4",
+    "identifier"     : "CraftImport",
+    "$kref"          : "#/ckan/kerbalstuff/1118",
+    "$vref"          : "#/ckan/ksp-avc",
+    "license"        : "GPL-3.0",
+    "resources" : {
+        "homepage"    : "http://forum.kerbalspaceprogram.com/threads/132828",
+ 	"kerbalstuff" : "https://kerbalstuff.com/mod/1118/Craft%20Import",
+        "repository"  : "https://github.com/linuxgurugamer/CraftImport"
+    },
+    "install" : [
+        {
+            "find"       : "CraftImport",
+            "install_to" : "GameData"
+        }
+    ]
+}

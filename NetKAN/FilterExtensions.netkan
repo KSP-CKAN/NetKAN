@@ -2,14 +2,14 @@
     "spec_version"   : "v1.4",
     "$kref"          : "#/ckan/github/Crzyrndm/FilterExtension",
     "$vref"          : "#/ckan/ksp-avc",
-    "name"           : "Filter Extensions",
+    "name"           : "Filter Extensions - Plugin",
     "identifier"     : "FilterExtensions",
-    "abstract"       : "Custom, configurable filters for the VAB/SPH.",
-    "description"    : "With the stock editor now supporting custom filters in a reasonable way, creating more and better filters is the next logical step. However, the requirement for categories to be managed via code is just a terrible idea. Not to mention that there is no easy way to be compatible with anyone else. Filter extensions allows the usage of .cfg files to create, edit, or delete all categories and sub-categories. It uses standard config files, and as such patches can be applied, and dependencies allowed for using Module Manager.",
+    "abstract"       : "Plugin allowing for configurable filters for the VAB/SPH using .cfg files.",
     "license"        : "CC-BY-NC-SA-4.0",
     "release_status" : "stable",
-    "depends" : [
-		{ "name" : "ModuleManager" }
+    "recommends" : [
+		{ "name" : "ModuleManager" },
+		{ "name" : "FilterExtensionsDefaultConfig" }
     ],
     "resources" : {
         "homepage" : "http://forum.kerbalspaceprogram.com/threads/104231"
@@ -18,6 +18,11 @@
         {
             "file"       : "GameData/000_FilterExtensions",
             "install_to" : "GameData"
+        },
+        {
+            "file"       : "GameData/000_FilterExtensions Configs",
+            "install_to" : "GameData",
+            "filter"     : [ "Default", "StockRework" ]
         }
     ]
 }

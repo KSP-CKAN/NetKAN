@@ -1,0 +1,9 @@
+{
+    "$kref": "#/ckan/kerbalstuff/762",
+    "x_via": "Automated KerbalStuff CKAN submission",
+    "identifier": "AutoSmartParts",
+    "spec_version": 1,
+    "license": "MIT",
+    "depends" : [{ "name": "ModuleManager" }]
+}
+

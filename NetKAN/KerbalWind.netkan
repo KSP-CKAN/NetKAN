@@ -5,7 +5,7 @@
     "name"         : "Kerbal Wind",
     "abstract"     : "Adds wind to the game. It opens a dialog box where you can set wind direction and speed. Inspired by KerbalWeatherSystem by silverfox8124. But this is much simpler, omitting the actual weather simulation.",
     "license"      : "MIT",
-    "ksp_version"  : "0.90",
+    "ksp_version"  : "1.0",
     "recommends" : [
         { "name" : "Toolbar" }
     ],
@@ -20,6 +20,6 @@
 	"provides" : [ "FARWind" ],
 	"conflicts": [ {"name": "FARWind" } ],
 	
-	"author" : "DaMichel, silverfox8124",
+	"author" : [ "DaMichel", "silverfox8124" ],
 	"release_status" : "stable"
 }

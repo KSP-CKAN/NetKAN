@@ -1,0 +1,8 @@
+{
+    "$kref": "#/ckan/kerbalstuff/754",
+    "identifier": "CriticalTemperatureGauge",
+    "spec_version": "v1.4",
+    "license": "GPL-3.0",
+	"install": [ { "find" : "Ravien",
+				"install_to" : "GameData" } ]
+}

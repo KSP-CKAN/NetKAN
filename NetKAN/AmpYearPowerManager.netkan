@@ -1,10 +1,18 @@
 {
     "identifier": "AmpYearPowerManager",
-    "x_via": "Automated KerbalStuff CKAN submission",
     "spec_version": "v1.4",
     "$kref": "#/ckan/kerbalstuff/630",
+    "$vref": "#/ckan/ksp-avc",
     "license": "GPL-3.0",
+	"x_netkan_epoch": "1",
+	"depends" : [
+		{ "name": "ModuleManager", "min_version" : "2.3.5" },
+        { "name": "REPOSoftTech-Agencies" }
+	],
+	"recommends": [
+        { "name": "Toolbar" }
+    ],
 	"install": [
-		{ "find": "REPOSoftTech", "install_to": "GameData" }
+		{ "find": "REPOSoftTech", "install_to": "GameData", "filter": "Agencies" }
 	]
 }

@@ -1,0 +1,19 @@
+{
+    "$kref" : "#/ckan/kerbalstuff/750",
+    "identifier" : "InstellIncorporatedExperimentalEngines",
+    "spec_version" : 1,
+    "license" : "CC-BY-NC-SA-4.0",
+    "depends" : [
+        { "name" : "FirespitterCore" }
+    ],
+    "install" : [
+        {
+            "file" : "GameData/Intstell",
+            "install_to" : "GameData"
+        },
+        {
+            "file" : "Ships",
+            "install_to" : "Ships"
+        }
+    ]
+}

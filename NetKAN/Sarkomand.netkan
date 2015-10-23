@@ -1,0 +1,12 @@
+{
+    "spec_version"   : 1,
+    "identifier"     : "Sarkomand",
+    "name"           : "Sarkomand Aeronautics Flag",
+    "abstract"       : "Nothing to see here. You probably aren't interested in this.",
+    "description"    : "A flag for your craft with an 'S' graphic and a rocket.",
+    "$kref"          : "#/ckan/github/politas/Sarkomand",
+    "ksp_version"    : "any",
+    "comment"        : "flagmod",
+    "license"        : "CC-BY-SA-4.0",
+    "author"         : "politas"
+}

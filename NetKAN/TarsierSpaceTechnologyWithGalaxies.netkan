@@ -1,10 +1,24 @@
 {
     "identifier": "TarsierSpaceTechnologyWithGalaxies",
-    "x_via": "Automated KerbalStuff CKAN submission",
     "spec_version": "v1.4",
+    "x_netkan_version_edit": {
+        "find": "^[vV]?(?<version>.+)$",
+        "replace": "${version}"
+    },
+    "x_netkan_epoch": "1",
     "$kref": "#/ckan/kerbalstuff/608",
+    "$vref": "#/ckan/ksp-avc",
     "license": "MIT",
 	"install": [
-		{ "file": "TarsierSpaceTech", "install_to": "GameData" }
-	]
+		{ 
+            "find": "TarsierSpaceTech", 
+            "install_to": "GameData"
+        }
+	],
+	"recommends": [
+		{ "name": "KAS" },
+        { "name": "KIS" },
+		{ "name": "ModuleManager" },
+		{ "name": "Toolbar" }
+	]	
 }

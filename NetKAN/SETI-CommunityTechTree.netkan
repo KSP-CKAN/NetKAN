@@ -1,0 +1,34 @@
+{
+    "spec_version" : 1,
+    "$kref": "#/ckan/kerbalstuff/748",
+    "$vref" : "#/ckan/ksp-avc",
+    "identifier": "SETI-CommunityTechTree",
+    "x_netkan_license_ok" : true,
+    "depends" : [ 
+        { "name": "CommunityTechTree" },
+		{ "name": "KSP-AVC"	},
+        { "name": "ModuleManager" } 
+    ],
+    "recommends": [
+		{ "name": "AdjustableLandingGear" },
+		{ "name": "CustomBarnKit" },
+		{ "name": "Mk3MiniExpansionPack" },
+		{ "name": "StockBugFixModules" },
+		{ "name": "TakeCommand"	},
+		{ "name": "VenStockRevamp" }
+    ],
+	"suggests": [
+		{ "name": "SETI-Contracts" }
+	],
+    "install" : [ { "file" : "SETIctt", "install_to" : "GameData" } ],
+    "x_netkan_override": [
+        {
+            "version": "0.8.4",
+            "delete": [ "ksp_version" ],
+            "override": {
+                "ksp_version_min": "1.0.2",
+                "ksp_version_max": "1.0.4"
+            }
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "$kref": "#/ckan/kerbalstuff/761",
+    "x_via": "Automated KerbalStuff CKAN submission",
+    "identifier": "FogOfTech",
+    "spec_version": 1,
+    "license": "MIT",
+    "install": [
+        {
+            "file": "FogOfTech",
+            "install_to": "GameData",
+            "filter": "src.zip"
+        }
+    ]
+}

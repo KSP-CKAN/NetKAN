@@ -1,0 +1,19 @@
+{
+    "spec_version"  : "v1.4",
+    "identifier"    : "SovietPackCore",
+    "name"          : "Soviet Pack Core",
+    "author"        : "Bobcat",
+    "abstract"      : "Core plugins needed by several packs.",
+    "comment"       : "Ships explicitly not installed by author request (he no longer maintains them)",
+    "resources": {
+        "homepage"  : "https://github.com/KSP-RO/SalyutStations-SoyuzFerries"
+    },
+    "$kref"         : "#/ckan/github/KSP-RO/SalyutStations-SoyuzFerries",
+    "license"       : "CC-BY-NC-ND-3.0",
+    "ksp_version"   : "1.0",
+    "install"       : [
+    {
+        "find"      : "SovietPack",
+        "install_to": "GameData"
+    }]
+}

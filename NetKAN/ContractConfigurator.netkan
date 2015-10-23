@@ -11,7 +11,9 @@
     "description": "A config-file based solution for creating new contracts!",
     "suggests": [
         { "name": "CoherentContracts" },
-        { "name": "ContractsWindowPlus" }
+        { "name": "ContractsWindowPlus" },
+        { "name": "WaypointManager" },
+        { "name": "WiderContractsApp" }
     ],
     "resources": {
         "homepage": "http://forum.kerbalspaceprogram.com/threads/101604",

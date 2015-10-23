@@ -1,0 +1,15 @@
+{
+    "spec_version": 1,
+    "license": "CC-BY-NC-SA-4.0",
+    "$kref": "#/ckan/kerbalstuff/996",
+    "identifier": "KineticPenetratorbyVanguardAstrodynamics",
+    "depends": [
+        { "name": "KAS"}
+    ],
+    "install": [
+        {
+            "file"       : "GameData/VanguardAstrodynamics",
+            "install_to" : "GameData"
+        }
+    ]
+}

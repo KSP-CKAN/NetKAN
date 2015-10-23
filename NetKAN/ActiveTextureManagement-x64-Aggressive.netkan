@@ -6,6 +6,9 @@
     "abstract"      : "x64 aggressive texture compression to DXT1 and DXT5",
     "author"        : "rbray89",
 	"ksp_version"	: "0.90",
+    "resources" : {
+        "homepage" : "http://forum.kerbalspaceprogram.com/threads/59005"
+    },
     "license"       : "MIT",
     "x_netkan_license_ok": true,
     "install": [

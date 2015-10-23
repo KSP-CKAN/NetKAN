@@ -1,0 +1,12 @@
+{
+    "spec_version": "v1.4",
+    "license": "CC-BY-SA-2.0",
+    "identifier": "ShockwaveScramjetEngine",
+    "$kref": "#/ckan/kerbalstuff/1112",
+    "install": [
+        {
+            "find"       : "Zaddy",
+            "install_to" : "GameData"
+        }
+    ]
+}

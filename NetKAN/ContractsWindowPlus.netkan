@@ -9,5 +9,13 @@
 			"file": "GameData/ContractsWindow",
 			"install_to": "GameData"
 		}
+	],
+	"suggests": [
+	{
+	  "name": "CapCom"
+	},
+	{
+	  "name": "ContractRewardModifier"
+	}
 	]
 }

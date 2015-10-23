@@ -9,7 +9,7 @@
         { "name" : "RasterPropMonitor-Core" }
     ],
     "suggests" : [
-        { "name" : "VesselView-RasterPropMonitor"},
+        { "name" : "VesselView"},
         { "name" : "SCANsat"}
     ],
     "install" : [

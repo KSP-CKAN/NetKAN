@@ -5,9 +5,11 @@
     "name"         : "BahamutoD Animation Modules",
     "abstract"     : "Animation modules plugin for KSP",
     "license"      : "CC-BY-SA-3.0",
-    "ksp_version_min"  : "0.25",
-    "ksp_version_max"  : "1.0",
-
+    "ksp_version_min"  : "1.0.0",
+    "ksp_version_max"  : "1.0.2",
+	"resources": {
+        "homepage": "https://github.com/BahamutoD/BDAnimationModules"
+    },
 	"install": [
 		{
 			"file": "GameData/BahaSP",

@@ -1,0 +1,20 @@
+
+{
+    "spec_version" : 1,
+    "identifier"   : "SASTuningFix",
+    "$kref"        : "#/ckan/github/Crzyrndm/SASTuningFix",
+    "name"         : "SAS Tuning Fix",
+    "abstract"     : "Stops vector SAS modes being twitchy fuel wasting annoyances",
+    "license"      : "GPL-3.0",
+	  "$vref" : "#/ckan/ksp-avc",
+	
+	"resources" : {
+        "homepage" : "http://forum.kerbalspaceprogram.com/threads/116888"
+    },
+    "install" : [
+        {
+            "file"       : "GameData/SASTuningFix",
+            "install_to" : "GameData"
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "$kref"       : "#/ckan/kerbalstuff/813",
+    "spec_version": "v1.4",
+    "license"     : "BSD-3-clause",
+    "identifier"  : "BeCoolStockNuke",
+    "install"     : [
+        { 
+            "file"       : "UberDyneAstronautics",
+            "install_to" : "GameData"
+        } 
+    ],
+    "depends"     : [
+        { "name"       : "ModuleManager"
+        }
+    ],
+    "resources"   : {
+        "homepage"     : "http://forum.kerbalspaceprogram.com/threads/122096",
+        "kerbalstuff"  : "https://kerbalstuff.com/mod/813/Be%20Cool%20Stock%20Nuke"
+    },
+    "x_netkan_license_ok": true
+}
+

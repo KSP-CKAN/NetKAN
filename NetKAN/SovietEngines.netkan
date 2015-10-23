@@ -2,11 +2,25 @@
 	"spec_version"	:	1,
 	"identifier"	:	"SovietEngines",
 	"$kref"		:	"#/ckan/kerbalstuff/374",
-	"ksp_version_min":	"0.25",
 	"license"	:	"restricted",
+	
+	"resources" : {
+            "homepage"     : "http://forum.kerbalspaceprogram.com/threads/81754"
+        },
+	
 	"install" : [
 	{
 		"file"	:	"BobCatind",
 		"install_to":	"GameData"
-	}]
+	}],
+        "x_netkan_override" : [
+            {
+                "version" : "1.1",
+                "delete" : [ "ksp_version" ],
+                "override" : {
+                    "ksp_version_min" : "0.25",
+                    "ksp_version_max" : "1.0.99"
+                }
+            }
+        ]
 }

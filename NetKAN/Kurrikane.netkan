@@ -1,0 +1,15 @@
+{
+    "spec_version": 1,
+    "license": "CC-BY-NC-SA-4.0",
+    "$kref": "#/ckan/kerbalstuff/939",
+    "identifier": "Kurrikane",
+    "install": [
+        {
+            "file"       : "Kurrikane",
+            "install_to" : "GameData"
+        }
+    ],
+    "depends": [
+        { "name": "FMRS" }
+    ]
+}

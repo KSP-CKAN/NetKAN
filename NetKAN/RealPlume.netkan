@@ -1,32 +1,6 @@
 {
-    "spec_version"   : "v1.4",
-    "$kref"          : "#/ckan/github/KSP-RO/RealismOverhaul",
-    "$vref"          : "#/ckan/ksp-avc",
-    "name"           : "Real Plume",
-    "identifier"     : "RealPlume",
-    "abstract"       : "Option install for Realism Overhaul, adds realistic plume expansion to engines.  See thread for currently configured engines.",
-    "license"        : "CC-BY-SA",
-    "release_status" : "stable",
-    "depends" : [
-		{ "name" : "RealismOverhaul" },
-		{ "name" : "SmokeScreen" }
-    ],
-	"conflicts" : [ { "name" : "HotRockets" } ],
-    "resources" : {
-        "homepage" : "http://forum.kerbalspaceprogram.com/threads/99966"
-    },
-    "install" : [
-        {
-            "find"       : "SmokeScreen_EffectCfgs",
-            "install_to" : "GameData/RealismOverhaul"
-        },
-        {
-            "find"       : "SmokeScreen_MP_Nazari_FX",
-            "install_to" : "GameData/RealismOverhaul"
-        },
-        {
-            "find"       : "SmokeScreen_RE_Sounds",
-            "install_to" : "GameData/RealismOverhaul"
-        }
-    ]
+    "spec_version": "v1.4",
+    "identifier"  : "RealPlume",
+    "$kref"       : "#/ckan/netkan/https://raw.githubusercontent.com/KSP-RO/RealPlume/master/RealPlume.netkan",
+    "x_netkan_license_ok": true
 }

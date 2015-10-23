@@ -2,5 +2,11 @@
     "spec_version" : 1,
     "identifier"   : "RadialEngineMountsPPI",
     "$kref"        : "#/ckan/kerbalstuff/153",
-    "x_netkan_license_ok": true
+    "x_netkan_license_ok" : true,
+    "install"      : [
+        {
+            "file"       : "RadialEngineMountsPPI",
+            "install_to" : "GameData"
+        }
+    ]
 }

@@ -1,7 +1,19 @@
 {
     "identifier"	: "EditorExtensions",
-	"abstract"  	: "Tweaks and features for the in-game vessel editor, e.g. alignment and symmetry aids.",
+    "abstract"  	: "Tweaks and features for the in-game vessel editor, e.g. alignment and symmetry aids.",
     "x_netkan_license_ok": true, 
     "$kref": "#/ckan/kerbalstuff/442", 
-    "spec_version": 1
+    "resources" : {
+        "homepage" : "http://forum.kerbalspaceprogram.com/threads/38768",
+        "repository" : "https://github.com/MachXXV/EditorExtensions"
+    },
+    "spec_version": 1,
+    "x_netkan_override" : [{
+        "version" : "2.12",
+        "delete" : [ "ksp_version" ],
+        "override" : {
+            "ksp_version_min" : "1.0.3",
+            "ksp_version_max" : "1.0.4"
+        }
+    }]
 }

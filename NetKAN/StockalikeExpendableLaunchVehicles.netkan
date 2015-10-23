@@ -1,0 +1,11 @@
+{
+    "$kref": "#/ckan/kerbalstuff/830",
+    "spec_version": "v1.4",
+    "license": "CC-BY-NC-ND",
+    "identifier": "StockalikeExpendableLaunchVehicles",
+	"install"	:	[ { "find" : "SELV",
+						"install_to" : "GameData" },
+					{ "find" : "VAB",
+					"install_to" : "Ships" } ],
+	"resources"	:	{ "homepage" : "http://forum.kerbalspaceprogram.com/threads/122576" }
+}
