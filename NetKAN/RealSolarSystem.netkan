@@ -9,7 +9,7 @@
     "license"        : "CC-BY-NC-SA",
     "release_status" : "stable",
     "depends" : [
-	{ "name" : "Kopernicus" },
+        { "name" : "Kopernicus" },
         { "name" : "RSSTextures" },
         { "name" : "BetterBuoyancy" }
     ],
@@ -23,14 +23,18 @@
     "resources" : {
         "homepage" : "http://forum.kerbalspaceprogram.com/threads/55145"
     },
+    "conflicts" : [
+        { "name" : "PlanetPack" }
+    ],
+    "provides"  : [ "PlanetPack" ],
     "install" : [
         {
             "find"       : "RealSolarSystem",
             "install_to" : "GameData"
         },
-		{
-			"find"		 : "Cache",
-			"install_to" : "GameData/Kopernicus"
-		}
+        {
+            "find"       : "Cache",
+            "install_to" : "GameData/Kopernicus"
+        }
     ]
 }
