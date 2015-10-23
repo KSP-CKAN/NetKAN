@@ -3,6 +3,7 @@
     "identifier": "UnmannedBeforeManned",
     "license": "restricted",
     "$kref": "#/ckan/kerbalstuff/1198",
+    "$vref": "#/ckan/ksp-avc",
     "depends": [
         { "name": "ModuleManager" }
     ]
