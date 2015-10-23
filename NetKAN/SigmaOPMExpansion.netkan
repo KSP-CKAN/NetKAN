@@ -12,7 +12,7 @@
         { "name": "OuterPlanetsMod" },
         { "name": "Kopernicus" }
     ],
-    "recommends": [
+    "suggests": [
         { "name": "SigmaOPMRecolor" }
     ],
     "resources": {
