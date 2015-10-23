@@ -12,6 +12,9 @@
         { "name": "OuterPlanetsMod" },
         { "name": "Kopernicus" }
     ],
+    "recommends": [
+        { "name": "SigmaOPMExpansion" }
+    ],
     "resources": {
         "homepage": "http://forum.kerbalspaceprogram.com/threads/112095"
     },
