@@ -1,0 +1,21 @@
+{
+    "identifier": "NebiaAndShomma",
+    "spec_version": "v1.4",
+    "$kref": "#/ckan/kerbalstuff/1219",
+    "license": "CC-BY-NC-SA-4.0",
+    "depends": [
+        { "name": "Kopernicus" }
+    ],
+    "recommends": [
+        { "name": "EnvironmentalVisualEnhancements" }
+    ],
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/136903-1-0-4-Kopernicus-Nebia-and-Shomma-100-procedural-planets-with-moons-19-oct"
+    },
+    "install": [
+        {
+            "find"       : "Planets",
+            "install_to" : "GameData"
+        }
+    ]
+}
