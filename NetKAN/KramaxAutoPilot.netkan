@@ -5,7 +5,7 @@
     "$kref": "#/ckan/kerbalstuff/1190",
     "install": [
         {
-            "file"       : "KramaxAutoPilot",
+            "find"       : "KramaxAutoPilot",
             "install_to" : "GameData",
             "filter"     : "KramaxAutoPilot.pdb"
         }
