@@ -7,7 +7,7 @@
         { "name": "Kopernicus" },
         { "name": "ModuleManager" }
     ],
-"install": [
+    "install": [
         {
             "find"       : "KerbalPlanetaryExpansion",
             "install_to" : "GameData"
