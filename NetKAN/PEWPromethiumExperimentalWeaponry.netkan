@@ -4,7 +4,8 @@
     "license": "CC-BY-SA-2.0",
     "$kref": "#/ckan/kerbalstuff/1131",
     "depends": [
-        { "name": "BDArmory" }
+        { "name": "BDArmory" },
+        { "name": "CommunityAmmunitionLibrary" }
     ],
     "install": [
         {
