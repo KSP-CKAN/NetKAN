@@ -1,0 +1,24 @@
+{
+    "identifier": "AlternisKerbolRekerjiggered",
+    "spec_version": "v1.4",
+    "license": "CC-BY-NC-4.0",
+    "$kref": "#/ckan/kerbalstuff/1143",
+    "depends": [
+        { "name": "Kopernicus" }
+    ],
+    "recommends": [
+        { "name": "DistantObject" },
+        { "name": "PlanetShine" },
+        { "name": "AlternisKerbolRekerjiggered-flags" }
+    ],
+    "install": [
+        {
+            "find"       : "AlternisKerbol",
+            "install_to" : "GameData"
+        },
+        {
+            "find"       : "Kopernicus/Cache",
+            "install_to" : "GameData/Kopernicus"
+        }
+    ]
+}
