@@ -5,7 +5,7 @@
     "license": "CC-BY-NC-4.0",
     "install": [
         {
-            "file": "GameData/64k",
+            "file": "64k/GameData/64k",
             "install_to": "GameData"
         }
     ],

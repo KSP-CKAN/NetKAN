@@ -25,7 +25,9 @@
     "install" : [
         {
             "file"       : "GameData/UmbraSpaceIndustries",
-            "install_to" : "GameData"
+            "install_to" : "GameData",
+            "filter"     : "USICore.version",
+            "comment"    : "The filter is just a hacky solution until RoverDude's mod restructuring is complete."
         }
     ],
     "x_netkan_override" : [

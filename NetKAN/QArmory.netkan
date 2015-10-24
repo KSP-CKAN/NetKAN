@@ -8,7 +8,7 @@
     ],
     "install": [
         {
-            "find"       : "QArmory",
+            "file"       : "QArmory",
             "install_to" : "GameData"
         }
     ]

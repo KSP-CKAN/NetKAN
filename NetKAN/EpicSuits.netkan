@@ -10,78 +10,64 @@
     ],
     "install": [
         {
-            "file": "epic suits/blue shirt and suit",
+            "file": "epic suits/the orginal suits /blue shirt and suit",
             "install_to": "GameData/TextureReplacer/Suits",
             "filter": ".DS_Store"
         },
         {
-            "file": "epic suits/blue suit",
+            "file": "epic suits/the orginal suits /blue suit",
             "install_to": "GameData/TextureReplacer/Suits",
             "filter": ".DS_Store"
         },
         {
-            "file": "epic suits/cyan suit",
+            "file": "epic suits/the orginal suits /cyan suit",
             "install_to": "GameData/TextureReplacer/Suits",
             "filter": ".DS_Store"
         },
         {
-            "file": "epic suits/gold ish  suit",
+            "file": "epic suits/the orginal suits /orange shirt and suit",
             "install_to": "GameData/TextureReplacer/Suits",
             "filter": ".DS_Store"
         },
         {
-            "file": "epic suits/murica suit",
+            "file": "epic suits/the orginal suits /orange suit",
             "install_to": "GameData/TextureReplacer/Suits",
             "filter": ".DS_Store"
         },
         {
-            "file": "epic suits/orange shirt and suit",
+            "file": "epic suits/the orginal suits /purple suit",
             "install_to": "GameData/TextureReplacer/Suits",
             "filter": ".DS_Store"
         },
         {
-            "file": "epic suits/orange suit",
-            "install_to": "GameData/TextureReplacer/Suits",
-            "filter": ".DS_Store"
-        },
-        {
-            "file": "epic suits/purple suit",
-            "install_to": "GameData/TextureReplacer/Suits",
-            "filter": ".DS_Store"
-        },
-        {
-            "file": "epic suits/Red shirt and suit",
+            "file": "epic suits/the orginal suits /Red shirt and suit",
             "install_to": "GameData/TextureReplacer/Suits",
             "filter": ".DS_Store"
         },
                 {
-            "file": "epic suits/red suit",
+            "file": "epic suits/the orginal suits /red suit",
             "install_to": "GameData/TextureReplacer/Suits",
             "filter": ".DS_Store"
         },
                 {
-            "file": "epic suits/white shirt and suit",
+            "file": "epic suits/the orginal suits /white shirt and suit",
             "install_to": "GameData/TextureReplacer/Suits",
             "filter": ".DS_Store"
         },
                 {
-            "file": "epic suits/white suit",
+            "file": "epic suits/the orginal suits /white suit",
             "install_to": "GameData/TextureReplacer/Suits",
             "filter": ".DS_Store"
         },
                 {
-            "file": "epic suits/yellow shirt and suit",
+            "file": "epic suits/the orginal suits /yellow shirt and suit",
             "install_to": "GameData/TextureReplacer/Suits",
             "filter": ".DS_Store"
         },
                 {
-            "file": "epic suits/yellow suit",
+            "file": "epic suits/the orginal suits /yellow suit",
             "install_to": "GameData/TextureReplacer/Suits",
             "filter": ".DS_Store"
-        },
-        {
-            "file": "epic suits/license and legal.txt",
-            "install_to": "GameData/TextureReplacer/EpicSuitsLicense"
         }
     ]
 }
