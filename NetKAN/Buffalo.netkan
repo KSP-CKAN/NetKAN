@@ -1,9 +1,11 @@
 {
     "spec_version": "v1.4",
-    "x_via": "Automated KerbalStuff CKAN submission",
     "identifier": "Buffalo",
     "license": "CC-BY-NC-SA-4.0",
     "$kref": "#/ckan/kerbalstuff/1199",
+    "depends": [
+        { "name": "WildBlueTools" }
+    ],
     "recommends" : [
         { "name" : "RasterPropMonitor-Core" },
         { "name" : "ASETProps" },
@@ -11,8 +13,8 @@
     ],
     "install" : [
         {
-            "file"       : "GameData/WildBlueIndustries",
-            "install_to" : "GameData"
+            "find"       : "Buffalo",
+            "install_to" : "GameData/WildBlueIndustries"
         }
     ]
 }
