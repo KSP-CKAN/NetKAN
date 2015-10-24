@@ -1,0 +1,12 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "TheSeparon",
+    "license": "BSD-2-clause",
+    "$kref": "#/ckan/kerbalstuff/1209",
+    "install": [
+        {
+            "file"       : "The Separon",
+            "install_to" : "GameData"
+        }
+    ]
+}
