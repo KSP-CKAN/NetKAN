@@ -9,11 +9,14 @@
     "author": "nightingale",
     "$vref": "#/ckan/ksp-avc",
     "description": "A config-file based solution for creating new contracts!",
+    "ksp_version_strict" : "true",
     "suggests": [
         { "name": "CoherentContracts" },
         { "name": "ContractsWindowPlus" },
-        { "name": "WaypointManager" },
         { "name": "WiderContractsApp" }
+    ],
+    "recommends": [
+        { "name": "WaypointManager" }
     ],
     "resources": {
         "homepage": "http://forum.kerbalspaceprogram.com/threads/101604",
