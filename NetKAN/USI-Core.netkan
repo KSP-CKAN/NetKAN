@@ -6,6 +6,10 @@
     "identifier"     : "USI-Core",
     "abstract"       : "Reactors, Containers, and other common USI bits and pieces.",
     "license"        : "CC-BY-NC-SA-4.0",
+    "resources"      : {
+        "bugtracker"   : "https://github.com/BobPalmer/USI_Core/issues",
+        "repository"   : "https://github.com/BobPalmer/USI_Core" 
+    },
     "release_status" : "stable",
 	"ksp_version" : "1.0",
     "provides"       : [ "USI-Core" ],

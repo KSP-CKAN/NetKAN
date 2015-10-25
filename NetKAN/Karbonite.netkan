@@ -9,7 +9,11 @@
     "release_status" : "stable",
     "$vref"          : "#/ckan/ksp-avc",
     "resources" : {
-        "homepage" : "http://forum.kerbalspaceprogram.com/threads/89401"
+        "homepage" : "http://forum.kerbalspaceprogram.com/threads/89401",
+        "license"      : "https://github.com/BobPalmer/Karbonite/blob/master/FOR_RELEASE/license.txt",
+        "bugtracker"   : "https://github.com/BobPalmer/Karbonite/issues",
+        "repository"   : "https://github.com/BobPalmer/Karbonite" ,
+        "kerbalstuff"  : "https://kerbalstuff.com/mod/759/Karbonite"
     },
     "depends" : [
         { "name" : "USITools" },

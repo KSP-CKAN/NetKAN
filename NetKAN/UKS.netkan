@@ -19,7 +19,10 @@
   
   "resources" : {
     "homepage"     : "http://forum.kerbalspaceprogram.com/threads/79588",
-    "license"      : "https://github.com/BobPalmer/MKS/blob/master/license.txt"
+    "license"      : "https://github.com/BobPalmer/MKS/blob/master/license.txt",
+    "bugtracker"   : "https://github.com/BobPalmer/MKS/issues",
+    "repository"   : "https://github.com/BobPalmer/MKS",
+    "kerbalstuff"  : "https://kerbalstuff.com/mod/788/USI%20Kolonization%20Systems%20%28MKS/OKS%29"
   },
   
   "install" : [
