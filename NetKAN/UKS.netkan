@@ -1,5 +1,5 @@
 {
-  "spec_version"   : 1,
+  "spec_version"   : "v1.4",
   "name"           : "USI Kolonization Systems (MKS/OKS)",
   "identifier"     : "UKS",
   "$kref"          : "#/ckan/github/BobPalmer/MKS",
@@ -24,10 +24,8 @@
   
   "install" : [
     {
-      "file"       : "GameData/UmbraSpaceIndustries",
-      "install_to" : "GameData",
-      "filter"     : [ "CHANGELOG.txt", "USICore.version", "Kontainers", "ReactorPack"],
-      "comment"    : "The filter is just a hacky solution until RoverDude's mod restructuring is complete."
+      "find"       : "UmbraSpaceIndustries/Kolonization",
+      "install_to" : "GameData/UmbraSpaceIndustries"
     }
   ],
 
@@ -45,8 +43,7 @@
       "min_version": "0.4.0"
     },
     {
-      "name": "USI-Core",
-      "min_version": "0.0.1.0"
+      "name": "USI-Core"
     },
     {
       "name": "CommunityResourcePack",

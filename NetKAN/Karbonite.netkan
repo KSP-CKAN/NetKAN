@@ -1,5 +1,5 @@
 {
-    "spec_version"   : 1,
+    "spec_version"   : "v1.4",
     "name"           : "Karbonite",
     "identifier"     : "Karbonite",
     "$kref"          : "#/ckan/github/BobPalmer/Karbonite",
@@ -25,10 +25,8 @@
     "provides" : [ "USI-Karbonite" ],
     "install" : [
         {
-            "file"       : "GameData/UmbraSpaceIndustries",
-            "install_to" : "GameData",
-            "filter"     : ["USICore.version", "CHANGELOG.txt", "Kontainers", "ReactorPack"],
-            "comment"    : "The filter is just a hacky solution until RoverDude's mod restructuring is complete."
+            "find"       : "UmbraSpaceIndustries/Karbonite",
+            "install_to" : "GameData/UmbraSpaceIndustries"
         }
     ],
     "x_netkan_override" : [
