@@ -1,0 +1,15 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "QArmory",
+    "license": "BSD-3-clause",
+    "$kref": "#/ckan/kerbalstuff/1150",
+    "depends": [
+        { "name": "BDArmory" }
+    ],
+    "install": [
+        {
+            "file"       : "QArmory",
+            "install_to" : "GameData"
+        }
+    ]
+}

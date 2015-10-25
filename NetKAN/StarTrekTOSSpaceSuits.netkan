@@ -1,6 +1,6 @@
 {
     "$kref": "#/ckan/kerbalstuff/803",
-    "spec_version": "v1.2",
+    "spec_version": "v1.10",
     "identifier": "StarTrekTOSSpaceSuits",
     "name": "Star Trek:TOS colored Space Suits",
     "license": "MIT",
@@ -12,12 +12,8 @@
     ],
     "install": [
         {
-            "file"       : "Suits",
-            "install_to" : "GameData/TextureReplacer"
-        },
-        {
-            "file"       : "@TOStrekSuits.cfg",
-            "install_to" : "GameData/TextureReplacer"
+            "find_regexp": "StarTrekSuits",
+            "install_to" : "GameData/TextureReplacer/Suits"
         }
     ],
 	"x_netkan_override" : [

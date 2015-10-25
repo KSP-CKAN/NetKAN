@@ -1,0 +1,16 @@
+{
+    "spec_version": 1,
+    "license": "CC-BY-3.0",
+    "$kref": "#/ckan/kerbalstuff/1054",
+    "identifier": "ProbeSASUpgrades",
+    "depends": [
+        { "name": "PartUpgrade" },
+        { "name": "ModuleManager"}
+    ],
+    "install": [
+        {
+            "file"       : "ProbeSASUpgrade",
+            "install_to" : "GameData"
+        }
+    ]
+}

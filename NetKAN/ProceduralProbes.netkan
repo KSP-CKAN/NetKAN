@@ -1,0 +1,16 @@
+{
+    "spec_version": 1,
+    "$kref": "#/ckan/kerbalstuff/1068",
+    "license": "CC-BY-SA-3.0",
+    "identifier": "ProceduralProbes",
+    "name": "Procedural Probes",
+    "depends": [
+        { "name": "ProceduralParts" }
+    ],
+    "install": [
+        {
+            "file"       : "ProceduralProbes",
+            "install_to" : "GameData"
+        }
+    ]
+}

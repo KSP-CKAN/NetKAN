@@ -1,0 +1,19 @@
+{
+    "spec_version": "v1.2",
+    "identifier": "StockSCANsat",
+    "$kref": "#/ckan/kerbalstuff/1126",
+    "license": "public-domain",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/99869#StockSCANsat",
+        "repository": "https://github.com/malahx/StockSCANsat"
+    },
+    "depends": [
+        { "name": "ModuleManager", "min_version": "2.6.0" },
+        { "name": "SCANsat", "min_version": "v14.0"}
+    ],
+    "supports": [
+        { "name": "ContractConfigurator-ContractPack-SCANsat" },
+        { "name": "PartUpgrade" },
+        { "name": "AsteroidDay" }
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "spec_version": 1,
+    "license": "restricted",
+    "$kref": "#/ckan/kerbalstuff/1024",
+    "identifier": "AestheticallyUnbalanced",
+    "install": [
+        {
+            "file"       : "AU_Base",
+            "install_to" : "GameData"
+        }
+    ],
+    "resources": {
+        "homepage": "https://kerbalstuff.com/mod/1024/Aesthetically%20Unbalanced%20-%20Complete%20Pack",
+        "repository": ""
+    }
+}

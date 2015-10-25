@@ -6,6 +6,7 @@
     },
     "$kref"        : "#/ckan/kerbalstuff/90",
 	"license"	   : "CC-BY-SA-2.0",
+    "x_netkan_force_v": true,
     "x_netkan_override" : [
 		{
 			"version" : "v0.8.3",

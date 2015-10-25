@@ -1,0 +1,18 @@
+{
+    "spec_version": 1,
+    "$kref": "#/ckan/kerbalstuff/1063",
+    "license": "MIT",
+    "identifier": "UH144Falcon",
+    "depends": [
+        { "name": "Firespitter" }
+    ],
+    "recommends": [
+        { "name": "InfernalRobotics" }
+    ],
+    "install": [
+        {
+            "file"       : "HALO falcon",
+            "install_to" : "GameData"
+        }
+    ]
+}

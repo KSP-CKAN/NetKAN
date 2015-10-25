@@ -1,12 +1,12 @@
 {
-	"spec_version" : 1,
+	"spec_version" : "v1.4",
 	"identifier"   : "KerbalKonstructs",
 	"$kref"        : "#/ckan/kerbalstuff/165",
 	"$vref"        : "#/ckan/ksp-avc",
 	"x_netkan_license_ok" : true,
 	"install": [
 		{
-            "file"       : "medsouz",
+            "find"       : "KerbalKonstructs",
             "install_to" : "GameData"
         }
     ]

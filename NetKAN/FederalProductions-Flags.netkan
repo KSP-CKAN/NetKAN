@@ -1,0 +1,16 @@
+{
+    "spec_version": "v1.4",
+    "license": "CC-BY-SA-4.0",
+    "$kref": "#/ckan/kerbalstuff/1044",
+    "identifier": "FederalProductions-Flags",
+    "name"        : "Federal Productions Flags",
+    "abstract"    : "A set of flags by TG626.",
+    "ksp_version"    : "any",
+    "comment"        : "flagmod",
+    "install": [
+        {
+            "find"       : "Flags",
+            "install_to" : "GameData/FederalProductions"
+        }
+    ]
+}

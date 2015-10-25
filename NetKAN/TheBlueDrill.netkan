@@ -1,0 +1,18 @@
+{
+    "spec_version": "v1.4",
+    "$kref": "#/ckan/kerbalstuff/1070",
+    "license": "MIT",
+    "identifier": "TheBlueDrill",
+    "depends": [
+        { "name": "CommunityResourcePack" }
+    ],
+    "recommends": [
+        { "name": "NearFuturePropulsion"}
+    ],
+    "install": [
+        {
+            "find"       : "BlueTech",
+            "install_to" : "GameData"
+        }
+    ]
+}

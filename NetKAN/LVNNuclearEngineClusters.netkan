@@ -4,7 +4,10 @@
     "spec_version": "v1.4",
     "$kref": "#/ckan/kerbalstuff/574",
     "license": "restricted",
-	"install": [
-		{ "file": "GameData/LVN_Clusters", "install_to": "GameData" }
-	]
+    "install": [
+    	{ 
+          "find": "LVN_Clusters",
+          "install_to": "GameData" 
+        }
+    ]
 }

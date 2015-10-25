@@ -1,0 +1,12 @@
+{
+    "x_via": "Automated KerbalStuff CKAN submission",
+    "spec_version": 1,
+    "$kref": "#/ckan/kerbalstuff/1072",
+    "license": "MIT",
+    "identifier": "ElectricCost",
+    "depends": [
+        {
+            "name": "ModuleManager"
+        }
+    ]
+}

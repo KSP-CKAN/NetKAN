@@ -1,9 +1,10 @@
 {
-	"spec_version" : 1,
-	"identifier"   : "KerbinSide",
-	"$kref"        : "#/ckan/kerbalstuff/77",
-	"license"      : "BSD-3-clause",
-	"depends": [
+    "spec_version"   : 1,
+    "identifier"     : "KerbinSide",
+    "$kref"          : "#/ckan/kerbalstuff/77",
+    "license"        : "BSD-3-clause",
+    "x_netkan_epoch" : "1",
+    "depends"        : [
         { "name": "KerbalKonstructs" }
     ]
 }

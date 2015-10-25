@@ -1,0 +1,28 @@
+{
+    "spec_version"   : "v1.4",
+    "$kref"          : "#/ckan/kerbalstuff/1026",
+    "$vref"          : "#/ckan/ksp-avc",
+    "identifier"     : "CargoTransportationSolutions",
+    "license"        : "CC-BY-SA-4.0",
+    "install" :
+    [
+        {
+            "find"       : "TalisarParts",
+            "install_to" : "GameData"
+        }
+    ],
+    "depends" :
+    [
+        { "name" : "FirespitterCore" }
+    ],
+    "suggests" :
+    [
+        { "name" : "ExtraPlanetaryLaunchpads" },
+        { "name" : "Karbonite" },
+        { "name" : "KarbonitePlus" },
+        { "name" : "UKS" },
+        { "name" : "USI-EXP" },
+        { "name" : "USI-LS" },
+        { "name" : "USI-SRV" }
+    ]
+}

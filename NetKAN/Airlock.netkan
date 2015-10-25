@@ -1,6 +1,6 @@
 {
-    "spec_version": 1,
-    "license": "MIT",
+    "spec_version": "v1.4",
+    "license": "CC-BY-NC-ND-1.0",
     "$kref": "#/ckan/kerbalstuff/1011",
     "identifier": "Airlock",
     "suggests": [
@@ -8,7 +8,7 @@
     ],
     "install": [
         {
-            "file"       : "Airlock",
+            "find"       : "Airlock",
             "install_to" : "GameData",
             "filter"     : "ModuleAirlock.cs"
         }

@@ -3,15 +3,23 @@
     "license"		: "CC-BY-SA-3.0",
     "$kref"			: "#/ckan/kerbalstuff/429", 
     "spec_version"	: 1,
-	
 	"install": [
 		{
 			"file": "GameData/Nereid",
 			"install_to": "GameData"
 		}
 	],
-	
 	"recommends"		: [
 		{ "name"	: "Toolbar" }
-	]
+	],
+    "x_netkan_override" : [
+		{
+			"version" : "0.7.10-1312",
+			"delete" : [ "ksp_version" ],
+			"override" : {
+				"ksp_version_min" : "1.0.2",
+				"ksp_version_max" : "1.0.4"
+			}
+		}
+    ]
 }

@@ -1,0 +1,25 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "LittleGreenMenFromMars",
+    "license": "CC-BY-NC-4.0",
+    "$kref": "#/ckan/kerbalstuff/1153",
+    "depends": [
+        { "name": "RealSolarSystem" },
+        { "name": "ModuleManager" }
+    ],
+    "recommends": [
+        { "name": "ETT" },
+        { "name": "KSPInterstellarExtended" },
+        { "name": "NearFutureConstruction" },
+        { "name": "NearFutureElectrical" },
+        { "name": "NearFuturePropulsion" },
+        { "name": "NearFutureSolar" },
+        { "name": "USI-SRV" }
+    ],
+    "install": [
+        {
+            "find"       : "LGMFM",
+            "install_to" : "GameData"
+        }
+    ]
+}

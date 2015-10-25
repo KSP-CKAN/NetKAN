@@ -10,7 +10,7 @@
     
     "install": [
         {
-            "file"       : "GameData/KSPIHeatManagement",
+            "file"       : "KSPIHeatManagement",
             "install_to" : "GameData"
         }
     ],

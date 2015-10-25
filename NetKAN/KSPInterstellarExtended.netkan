@@ -21,7 +21,6 @@
         { "name"         : "FilterExtensions" }
     ],
     "suggests": [
-        { "name"         : "CommunityTechTree" },
         { "name"         : "CrossFeedEnabler" }
     ]
 }

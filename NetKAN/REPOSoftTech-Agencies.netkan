@@ -1,0 +1,20 @@
+{
+    "spec_version" : "v1.4",
+    "identifier"   : "REPOSoftTech-Agencies",
+    "$kref"        : "#/ckan/kerbalstuff/630",
+    "name"         : "REPOSoftTech-Agencies",
+    "abstract"     : "This adds the agencies required by JPLRepo's mods.",
+    "x_netkan_license_ok": true,
+    "ksp_version"  : "any",
+    "comment"      : "agencymod",
+    "recommend": [
+        { "name": "AmpYearPowerManager" },
+        { "name": "DeepFreeze" }
+    ],
+    "install": [
+        {
+            "find"       : "Agencies",
+            "install_to" : "GameData/REPOSoftTech"
+        }
+    ]
+}

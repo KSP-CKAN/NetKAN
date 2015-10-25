@@ -6,7 +6,7 @@
     "release_status" : "stable",
     "x_netkan_license_ok" : "true",
     "resources" : {
-        "homepage"    : "http://forum.kerbalspaceprogram.com/threads/113417",
+        "homepage"    : "http://forum.kerbalspaceprogram.com/threads/113400",
         "kerbalstuff" : "https://kerbalstuff.com/mod/651/Contract%20Pack:%20Unmanned%20Contracts",
 		"repository"  : "https://github.com/linuxgurugamer/UnmannedContracts"
     },
@@ -24,6 +24,15 @@
     ],
     "recommends" : [
         { "name" : "ContractConfigurator-AdvancedProgression" }
+    ],
+	"x_netkan_override" : [
+		{
+			"version" : "0.3.10",
+			"delete" : [ "ksp_version" ],
+			"override" : {
+				"ksp_version_min" : "1.0.2",
+				"ksp_version_max" : "1.0.4"
+			}
+		}
     ]
-
 }

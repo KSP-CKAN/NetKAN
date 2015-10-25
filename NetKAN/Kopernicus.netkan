@@ -1,12 +1,12 @@
 {
     "spec_version": "v1.4",
     "identifier": "Kopernicus",
-    "$kref": "#/ckan/github/BryceSchroeder/Kopernicus",
+    "$kref": "#/ckan/github/Kopernicus/Kopernicus",
     "x_netkan_epoch": "1",
     "name": "Kopernicus Planetary System Modifier",
     "abstract": "Allows users to replace the planetary system used by the game.",
     "release_status": "development",
-    "license": "LGPL-2.0",
+    "license": "LGPL-3.0",
     "author": [
         "BryceSchroeder",
         "Teknoman117",
@@ -17,7 +17,7 @@
     ],
     "resources": {
         "homepage": "http://forum.kerbalspaceprogram.com/threads/114649",
-        "repository": "http://github.com/BryceSchroeder/Kopernicus"
+        "repository": "http://github.com/Kopernicus/Kopernicus"
     },
     "ksp_version": "1.0",
     "depends":	[

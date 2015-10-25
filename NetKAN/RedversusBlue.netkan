@@ -1,0 +1,16 @@
+{
+    "spec_version": "v1.4",
+    "$kref": "#/ckan/kerbalstuff/1077",
+    "license": "CC-BY-SA-4.0",
+    "identifier": "RedversusBlue",
+    "depends": [
+        { "name": "BDArmory"}
+    ],
+    "install": [
+        {
+            "find"       : "KerbalDynamics",
+            "install_to" : "GameData",
+            "filter"     : ".DS_Store"
+        }
+    ]
+}
