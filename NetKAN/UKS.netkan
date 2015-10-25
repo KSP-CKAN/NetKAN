@@ -25,7 +25,9 @@
   "install" : [
     {
       "file"       : "GameData/UmbraSpaceIndustries",
-      "install_to" : "GameData"
+      "install_to" : "GameData",
+      "filter"     : [ "CHANGELOG.txt", "USICore.version", "Kontainers", "ReactorPack"],
+      "comment"    : "The filter is just a hacky solution until RoverDude's mod restructuring is complete."
     }
   ],
 
@@ -41,6 +43,10 @@
     {
       "name": "USITools",
       "min_version": "0.4.0"
+    },
+    {
+      "name": "USI-Core",
+      "min_version": "0.0.1.0"
     },
     {
       "name": "CommunityResourcePack",

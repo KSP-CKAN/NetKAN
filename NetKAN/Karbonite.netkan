@@ -13,6 +13,7 @@
     },
     "depends" : [
         { "name" : "USITools" },
+        { "name" : "USI-Core" },
         { "name" : "CommunityResourcePack" },
         { "name" : "FirespitterCore" },
         { "name" : "ModuleManager" }
@@ -26,7 +27,7 @@
         {
             "file"       : "GameData/UmbraSpaceIndustries",
             "install_to" : "GameData",
-            "filter"     : "USICore.version",
+            "filter"     : ["USICore.version", "CHANGELOG.txt", "Kontainers", "ReactorPack"],
             "comment"    : "The filter is just a hacky solution until RoverDude's mod restructuring is complete."
         }
     ],

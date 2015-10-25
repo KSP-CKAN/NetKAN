@@ -1,0 +1,21 @@
+{
+    "spec_version"   : 1,
+    "$kref"          : "#/ckan/github/BobPalmer/USI_Core",
+    "name"           : "USI Core",
+    "author"         : "RoverDude",
+    "identifier"     : "USI-Core",
+    "abstract"       : "Reactors, Containers, and other common USI bits and pieces.",
+    "license"        : "CC-BY-NC-SA-4.0",
+    "release_status" : "stable",
+	"ksp_version" : "1.0",
+    "provides"       : [ "USI-Core" ],
+    "install" : [
+        {
+            "file"       : "GameData/UmbraSpaceIndustries",
+            "install_to" : "GameData"
+        }
+    ],
+    "depends" : [
+        {"name" : "USITools"}
+    ]
+}
