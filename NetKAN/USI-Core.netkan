@@ -9,7 +9,7 @@
     "license"        : "CC-BY-NC-SA-4.0",
     "release_status" : "stable",
     "resources": {
-        "homepage": "http://bobpalmer.github.io/UmbraSpaceIndustries/",
+        "homepage": "http://bobpalmer.github.io/UmbraSpaceIndustries/"
     },
     "depends" : [
         { "name" : "USITools" }
