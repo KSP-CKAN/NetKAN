@@ -1,20 +1,22 @@
 {
     "spec_version"   : 1,
-    "$kref"          : "#/ckan/github/BobPalmer/UmbraSpaceIndustries",
+    "$kref"          : "#/ckan/github/BobPalmer/USI_Core",
     "$vref"          : "#/ckan/ksp-avc",
-    "name"           : "USI Tools",
+    "name"           : "USI Core",
     "author"         : "RoverDude",
-    "identifier"     : "USITools",
-    "abstract"       : "Common libraries for Umbra Space Industries mods",
+    "identifier"     : "USI-Core",
+    "abstract"       : "Kontainers and Reactors and shared tools for USI mods",
     "license"        : "CC-BY-NC-SA-4.0",
     "release_status" : "stable",
     "resources": {
         "homepage": "http://bobpalmer.github.io/UmbraSpaceIndustries/",
     },
-    "provides"       : [ "USI-Tools" ],
+    "depends" : [
+        { "name" : "USITools" }
+    ],
     "install" : [
         {
-            "file"       : "GameData/000_USITools",
+            "file"       : "GameData/UmbraSpaceIndustries",
             "install_to" : "GameData"
         }
     ]

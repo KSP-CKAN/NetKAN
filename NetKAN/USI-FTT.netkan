@@ -1,13 +1,13 @@
 {
-    "spec_version"   : 1,
+    "spec_version"   : "v1.4",
     "name"           : "USI Freight Transport Technologies",
     "identifier"     : "USI-FTT",
     "$kref"          : "#/ckan/github/BobPalmer/FTT",
+    "$vref"          : "#/ckan/ksp-avc",
     "author"         : "RoverDude",
     "abstract"       : "A series of modular parts for all of your hauling, mining, and exploration needs!",
-    "license"        : "CC-BY-NC-SA",
+    "license"        : "CC-BY-NC-SA-4.0",
     "release_status" : "stable",
-	"ksp_version" : "1.0",
     "resources" : {
         "homepage" : "http://forum.kerbalspaceprogram.com/threads/91706"
     },
@@ -31,8 +31,8 @@
     ],
     "install" : [
         {
-            "file"       : "GameData/UmbraSpaceIndustries",
-            "install_to" : "GameData"
+            "find"       : "UmbraSpaceIndustries/FTT",
+            "install_to" : "GameData/UmbraSpaceIndustries"
         }
     ]
 }
