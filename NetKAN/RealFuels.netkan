@@ -22,7 +22,7 @@
         { "name" : "CommunityResourcePack" },
         { "name" : "SolverEngines" }
     ],
-    "conflicts" : 
+    "conflicts" : [
         { "name" : "ModularFuelSystem" },
         { "name" : "ModularFuelTanks"  },
         { "name" : "Fuelswitchtoeverytank" },
