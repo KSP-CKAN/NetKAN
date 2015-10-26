@@ -10,7 +10,7 @@
     "depends": [
         { "name": "ModuleManager" },
         { "name": "RemoteTech" }
-	],
+    ],
     "recommends": [
         { "name": "OuterPlanetsMod" }
     ],
