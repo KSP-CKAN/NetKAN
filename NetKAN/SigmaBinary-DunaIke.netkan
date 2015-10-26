@@ -2,7 +2,6 @@
     "spec_version" : "v1.4",
     "identifier"   : "SigmaBinary-DunaIke",
     "$kref"        : "#/ckan/github/Sigma88/Sigma-Binary",
-    "$vref"        : "#/ckan/ksp-avc",
     "name"         : "Sigma Binary - Duna + Ike Binary",
     "abstract"     : "Contains a Duna + Ike binary system.",
     "license"      : "CC-BY-NC-SA-4.0",
@@ -16,7 +15,7 @@
     "install": [
         {
             "find": "DunaIke Binary",
-            "install_to": "GameData/Sigma"
+            "install_to": "GameData/Sigma/Binary"
         }
     ]
 }
