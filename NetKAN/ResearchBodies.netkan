@@ -1,7 +1,9 @@
 {
     "spec_version": "v1.4",
-    "x_via": "Automated KerbalStuff CKAN submission",
     "identifier": "ResearchBodies",
-    "license": "MIT",
-    "$kref": "#/ckan/kerbalstuff/1203"
+    "license": "CC-BY-NC-SA-4.0",
+    "$kref": "#/ckan/kerbalstuff/1203",
+    "depends": [
+        { "name": "ModuleManager" }
+    ]
 }
