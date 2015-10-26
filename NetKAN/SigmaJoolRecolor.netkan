@@ -1,10 +1,10 @@
 {
     "spec_version" : "v1.4",
-    "identifier"   : "SigmaStockRecolor",
-    "$kref"        : "#/ckan/github/Sigma88/Sigma-EveRecolor",
+    "identifier"   : "SigmaJoolRecolor",
+    "$kref"        : "#/ckan/github/Sigma88/Sigma-JoolRecolor",
     "$vref"        : "#/ckan/ksp-avc",
-    "name"         : "Sigma: Eve Recolor",
-    "abstract"     : "This mod changes the color of Eve to make it more similar to Venus.",
+    "name"         : "Sigma: Jool Recolor",
+    "abstract"     : "This mod changes the color of Jool to make it more similar to Jupiter.",
     "license"      : "CC-BY-NC-SA-4.0",
     "author"       : "Sigma88",
     "depends": [
@@ -16,10 +16,8 @@
     },
     "install": [
         {
-            "find": "EveRecolor",
+            "find": "JoolRecolor",
             "install_to": "GameData/Sigma"
         }
-    ],
-    "x_netkan_epoch": "1",
-    "comment": "This mod used to be packaged differently but is now repackaged to allow an upgrade path."
+    ]
 }
