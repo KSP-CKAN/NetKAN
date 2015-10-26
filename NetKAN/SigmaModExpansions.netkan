@@ -19,7 +19,7 @@
     },
     "install": [
         {
-            "file": "OuterSpaceComms",
+            "find": "OuterSpaceComms",
             "install_to": "GameData/Sigma"
         }
     ],
