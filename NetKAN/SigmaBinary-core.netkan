@@ -22,5 +22,7 @@
             "find": "Binary",
             "install_to": "GameData/Sigma"
         }
-    ]
+    ],
+    "x_netkan_epoch": "1",
+    "comment": "This mod used to be packaged differently but is now repackaged to allow an upgrade path."
 }

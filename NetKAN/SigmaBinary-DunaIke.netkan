@@ -6,6 +6,7 @@
     "abstract"     : "Contains a Duna + Ike binary system.",
     "license"      : "CC-BY-NC-SA-4.0",
     "author"       : "Sigma88",
+    "ksp_version"  : "1.0",
     "depends": [
         { "name": "SigmaBinary-core" }
     ],
@@ -17,5 +18,7 @@
             "find": "DunaIke Binary",
             "install_to": "GameData/Sigma/Binary"
         }
-    ]
+    ],
+    "x_netkan_epoch": "1",
+    "comment": "This mod used to be packaged differently but is now repackaged to allow an upgrade path."
 }
