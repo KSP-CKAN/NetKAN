@@ -11,7 +11,7 @@
         { "name": "ModuleManager" },
         { "name": "RemoteTech" }
     ],
-    "recommends": [
+    "suggests": [
         { "name": "OuterPlanetsMod" }
     ],
     "resources": {
