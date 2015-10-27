@@ -21,14 +21,9 @@
 		{
 			"find"		: "AntennaRangePatches",
 			"install_to"	: "GameData"
-		},
-		{
-			"find"		: "AutoPruner",
-			"install_to"	: "GameRoot"
 		}
 	],
 	"recommends": [
-		{ "name": "RemoteTech" },
 		{ "name": "Antennas" }
 	]
 }
