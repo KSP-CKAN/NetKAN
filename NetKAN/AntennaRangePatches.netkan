@@ -14,7 +14,8 @@
 		{ "name": "ModuleManager" }
 	],
 	"conflicts": [
-		{ "name": "AntennaPatch4AntennaRange"}
+		{ "name": "AntennaPatch4AntennaRange"},
+		{ "name": "RemoteTech"}
 	],
 	"install": [
 		{
