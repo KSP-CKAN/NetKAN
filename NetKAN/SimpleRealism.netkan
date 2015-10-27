@@ -11,7 +11,7 @@
     ],
     "install": [
         {
-            "file"       : "SimpleRealismv2",
+            "find"       : "GameData/SimpleRealism",
             "install_to" : "GameData"
         }
     ]
