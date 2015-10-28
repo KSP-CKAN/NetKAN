@@ -1,11 +1,11 @@
 {
-    "spec_version": 1,
+    "spec_version": "v1.4",
     "license": "CC-BY-NC-SA-4.0",
     "$kref": "#/ckan/kerbalstuff/920",
     "identifier": "Antennas",
     "install": [
         {
-            "file"       : "GameData/PhantomAerospace",
+            "find"       : "GameData/PhantomAerospace",
             "install_to" : "GameData",
             "filter"     : "Thumbs.db"
         }
