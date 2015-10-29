@@ -1,0 +1,12 @@
+{
+    "identifier": "UNSCPillarofAutumn",
+    "spec_version": "v1.4",
+    "license": "MIT",
+    "$kref": "#/ckan/kerbalstuff/1138",
+    "install": [
+        {
+            "file"       : "pilla of autumn",
+            "install_to" : "GameData/kdufferskorp"
+        }
+    ]
+}
