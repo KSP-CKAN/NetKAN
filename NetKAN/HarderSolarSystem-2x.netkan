@@ -5,21 +5,28 @@
     "name"         : "Harder Solar System - 2x Scale",
     "abstract"     : "Same as stock scale Harder Solar System, but double scale.",
     "license"      : "public-domain",
-    "ksp_version" : "1.0.4",
-    "resources"     : {
-		"homepage" : "http://forum.kerbalspaceprogram.com/threads/137931"
-	},
+    "ksp_version"  : "1.0.4",
+    "resources"    : {
+        "homepage" : "http://forum.kerbalspaceprogram.com/threads/137931"
+    },
+    "install" : [
+        {
+            "find"       : "2x/GameData/HarderSolarSystem-2x",
+            "install_to" : "GameData"
+        }
+    ],
     "depends" : [
-		{ "name" : "Kopernicus"},
+        { "name" : "Kopernicus"},
         { "name" : "ModuleManager"}
     ],
-	"suggests" : [
+    "suggests" : [
         { "name" : "OuterPlanetsMod", "min_version" : "1:1.8"},
-		{ "name" : "RemoteTech"}
+        { "name" : "RemoteTech"}
     ],
-	"conflicts" : [
-        { "name" : "HarderSolarSystem-1x"},
-		{ "name" : "HarderSolarSystem-3x"},
-		{ "name" : "HarderSolarSystem-4x"}
+    "provides": [
+        "HarderSolarSystem"
     ],
+    "conflicts" : [
+        { "name" : "HarderSolarSystem"}
+    ]
 }
