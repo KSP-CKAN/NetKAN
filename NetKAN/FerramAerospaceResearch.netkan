@@ -13,15 +13,11 @@
     "conflicts" : [ { "name" : "AerodynamicModel" } ],
     "depends" : [
     	{ "name" : "ModuleManager" },
-    	{ "name" : "ModularFlightIntegrator" }
+    	{ "name" : "ModularFlightIntegrator", "min_version": "1.1.1" }
     ],
     "install" : [
         {
             "file"       : "GameData/FerramAerospaceResearch",
-            "install_to" : "GameData"
-        },
-        {
-            "file"       : "GameData/ModularFlightIntegrator",
             "install_to" : "GameData"
         },
         {
