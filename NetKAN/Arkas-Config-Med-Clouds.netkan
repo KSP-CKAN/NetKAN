@@ -1,0 +1,21 @@
+{
+	"spec_version"	:	1,
+	"identifier"	:	"Arkas-Config-Med-Clouds",
+	"name"		:	"Arkas Med Cloud configuration",
+	"$kref"		:	"#/ckan/kerbalstuff/1158",
+	"license"  	:	"CC-BY-NC-SA",
+	"abstract"	:	"Optional cloud support.  This includes the medium level cloud cover",
+	"install"	:	[
+		{
+			"file"		:	"Arkas/Cloud Support/Med Cloud Cover Config/GameData/BoulderCo",
+			"install_to"	:	"GameData"
+		},
+		{
+			"file"		:	"Arkas/Cloud Support/GameData/BoulderCo",
+			"install_to"	:	"GameData"
+		}
+	],
+	"depends"	:	[ { "name"	:	"Arkas" } ],
+	"provides"	:	[ "Arkas-Config" ],
+	"conflicts"	:	[ { "name"	:	"Arkas-Config" } ]
+}
