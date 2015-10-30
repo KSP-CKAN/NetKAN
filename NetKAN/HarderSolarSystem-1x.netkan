@@ -5,21 +5,28 @@
     "name"         : "Harder Solar System - Stock Scale",
     "abstract"     : "Inclines entire Solar System to simulate axial tilt on Kerbin, relocates KSC, and makes slight inclination adjustments to Mun/Minmus. Everything else remains stock.",
     "license"      : "public-domain",
-    "ksp_version" : "1.0.4",
-    "resources"     : {
-		"homepage" : "http://forum.kerbalspaceprogram.com/threads/137931"
-	},
+    "ksp_version"  : "1.0.4",
+    "resources"    : {
+        "homepage" : "http://forum.kerbalspaceprogram.com/threads/137931"
+    },
+    "install" : [
+        {
+            "find"       : "1x/GameData/HarderSolarSystem-1x",
+            "install_to" : "GameData"
+        }
+    ],
     "depends" : [
-		{ "name" : "Kopernicus"},
+        { "name" : "Kopernicus"},
         { "name" : "ModuleManager"}
     ],
-	"suggests" : [
+    "suggests" : [
         { "name" : "OuterPlanetsMod", "min_version" : "1:1.8"},
-		{ "name" : "RemoteTech"}
+        { "name" : "RemoteTech"}
     ],
-	"conflicts" : [
-        { "name" : "HarderSolarSystem-2x"},
-		{ "name" : "HarderSolarSystem-3x"},
-		{ "name" : "HarderSolarSystem-4x"}
+    "provides": [
+        "HarderSolarSystem"
     ],
+    "conflicts" : [
+        { "name" : "HarderSolarSystem"}
+    ]
 }
