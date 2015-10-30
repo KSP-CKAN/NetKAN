@@ -4,13 +4,8 @@
 	"spec_version"	:	"v1.4",
 	"license"  	:	"CC-BY-NC-SA-4.0",
 	"comment"	:	"PlanetPack",
-	"resources" :
-	{
-		"homepage"	:	"http://forum.kerbalspaceprogram.com/threads/134547",
-		"kerbalstuff"	:	"https://kerbalstuff.com/mod/1158/Arkas%20-%20A%20Thick%20Atmosphere%20on%20a%20Desert%20World"
-	},
 	"depends"	:	[ { "name"	:	"Kopernicus", "min version": "0.4" } ],
-	"recommends"	:	[ { "name"	:	"Arkas-Config" } ],
+	"recommends"	:	[ { "name"	:	"Arkas-Clouds" } ],
 	"install"	:	[
 		{
 			"find"		:	"GameData/Arkas",
