@@ -9,10 +9,8 @@
     "resources" : {
         "repository" : "https://github.com/ferram4/Ferram-Aerospace-Research"
     },
-	
     "provides"  : [ "AerodynamicModel", "FAR" ],
     "conflicts" : [ { "name" : "AerodynamicModel" } ],
-	
     "depends" : [
     	{ "name" : "ModuleManager" },
     	{ "name" : "ModularFlightIntegrator" }
@@ -20,6 +18,10 @@
     "install" : [
         {
             "file"       : "GameData/FerramAerospaceResearch",
+            "install_to" : "GameData"
+        },
+        {
+            "file"       : "GameData/ModularFlightIntegrator",
             "install_to" : "GameData"
         },
         {
