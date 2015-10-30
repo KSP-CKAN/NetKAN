@@ -2,9 +2,8 @@
 	"identifier"	:	"Arkas",
 	"$kref"		:	"#/ckan/kerbalstuff/1158",
 	"spec_version"	:	"v1.4",
-	"license"  	:	"CC-BY-NC-SA",
+	"license"  	:	"CC-BY-NC-SA-4.0",
 	"comment"	:	"PlanetPack",
-	"abstract"	:	"This Mod adds a single planet to the Kerbol system between the orbits of Moho and Eve.  A thick atmosphere on a desert world with 17 unique biomes - Optional Cloud Support",
 	"resources" :
 	{
 		"homepage"	:	"http://forum.kerbalspaceprogram.com/threads/134547",
@@ -14,7 +13,7 @@
 	"recommends"	:	[ { "name"	:	"Arkas-Config" } ],
 	"install"	:	[
 		{
-			"find"		:	"Arkas",
+			"find"		:	"GameData/Arkas",
 			"install_to"	:	"GameData"
 		}
 	],
