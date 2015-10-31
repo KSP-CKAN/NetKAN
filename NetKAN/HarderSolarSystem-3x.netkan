@@ -5,7 +5,7 @@
     "name"         : "Harder Solar System - 3x Scale",
     "abstract"     : "Same as stock scale Harder Solar System, but triple scale.",
     "license"      : "public-domain",
-    "ksp_version"  : "1.0.4",
+    "$vref"        : "#/ckan/ksp-avc",
     "resources"    : {
         "homepage" : "http://forum.kerbalspaceprogram.com/threads/137931"
     },
