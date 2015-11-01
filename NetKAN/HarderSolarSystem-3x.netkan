@@ -1,0 +1,32 @@
+{
+    "spec_version" : "v1.4",
+    "identifier"   : "HarderSolarSystem-3x",
+    "$kref"        : "#/ckan/github/SteveheadSpaceAgency/HarderSolarSystem",
+    "name"         : "Harder Solar System - 3x Scale",
+    "abstract"     : "Same as stock scale Harder Solar System, but triple scale.",
+    "license"      : "public-domain",
+    "$vref"        : "#/ckan/ksp-avc",
+    "resources"    : {
+        "homepage" : "http://forum.kerbalspaceprogram.com/threads/137931"
+    },
+    "install" : [
+        {
+            "find"       : "3x/GameData/HarderSolarSystem-3x",
+            "install_to" : "GameData"
+        }
+    ],
+    "depends" : [
+        { "name" : "Kopernicus"},
+        { "name" : "ModuleManager"}
+    ],
+    "suggests" : [
+        { "name" : "OuterPlanetsMod", "min_version" : "1:1.8"},
+        { "name" : "RemoteTech"}
+    ],
+    "provides": [
+        "HarderSolarSystem"
+    ],
+    "conflicts" : [
+        { "name" : "HarderSolarSystem"}
+    ]
+}
