@@ -1,24 +1,16 @@
 {
-    "spec_version": "v1.2",
-    "license": "WTFPL",
+    "spec_version": "v1.4",
+    "license": "GPL-2.0",
     "$kref": "#/ckan/kerbalstuff/957",
     "identifier": "EagleTransporterSP1999",
     "install": [
         {
-            "file"       : "Booster",
-            "install_to" : "GameData/Eagle Transporter/Booster"
-        },
-        {
-            "file"       : "Eagle_Transporter",
-            "install_to" : "GameData/Eagle Transporter/Eagle_Transporter"
-        },
-        {
-            "file"       : "PODS",
-            "install_to" : "GameData/Eagle Transporter/PODS"
+            "find"       : "Eagle_Transporter/Eagle_Transporter",
+            "install_to" : "GameData"
         }
     ],
     "depends": [
         { "name": "BDAnimationModules" },
-        { "name": "RCSLandAid"}
+        { "name": "RCSLandAid" }
     ]
 }
