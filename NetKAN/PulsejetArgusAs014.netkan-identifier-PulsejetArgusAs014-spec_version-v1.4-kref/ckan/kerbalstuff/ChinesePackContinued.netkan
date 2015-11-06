@@ -1,0 +1,16 @@
+{
+    "identifier": "ChinesePackContinued",
+    "spec_version": "v1.4",
+    "$kref": "#/ckan/kerbalstuff/1244",
+    "license": "CC-BY-NC-SA-4.0",
+    "install": [
+        {
+            "find"       : "KFStudios",
+            "install_to" : "GameData"
+        },
+        {
+            "find"       : "ships",
+            "install_to" : "Ships"
+        }
+    ]
+}
