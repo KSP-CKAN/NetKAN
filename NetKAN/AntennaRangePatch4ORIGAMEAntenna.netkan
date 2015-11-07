@@ -4,7 +4,8 @@
     "$kref": "#/ckan/kerbalstuff/1245",
     "license": "WTFPL",
     "depends": [
-        { "name": "origameFoldableAssets" }
+        { "name": "origameFoldableAssets" },
+        { "name": "ModuleManager" }
     ],
     "install": [
         {
