@@ -1,0 +1,13 @@
+{
+    "identifier": "SkyTonemapper",
+    "spec_version": "v1.4",
+    "$kref": "#/ckan/kerbalstuff/1250",
+    "license": "WTFPL",
+    "install": [
+        {
+            "find"       : "SkyTonemapper",
+            "install_to" : "GameData",
+            "filter"     : "source"
+        }
+    ]
+}
