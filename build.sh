@@ -3,7 +3,7 @@
 set -e
 
 # Default flags.
-KSP_VERSION_DEFAULT="1.0.4"
+KSP_VERSION_DEFAULT="1.0.5"
 KSP_NAME_DEFAULT="dummy"
 
 # Locations of CKAN and NetKAN.
