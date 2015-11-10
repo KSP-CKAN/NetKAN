@@ -3,6 +3,7 @@
     "name"           : "SETI",
     "abstract"       : "The old SETI-BalanceMod for KSP 0.90",
     "identifier"     : "SETI",
+	"$vref" : "#/ckan/ksp-avc",
     "download"       : "https://kerbalstuff.com/mod/484/SETI-BalanceMod/download/0.9.0",
     "license"        : "restricted",
     "version"        : "0.9.0",
