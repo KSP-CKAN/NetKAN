@@ -20,7 +20,7 @@
 			"filter"			: ["MiniAVC.dll", "LICENSE-MiniAVC.txt"]
 		}
 	],
-	"recommends"		:
+	"suggests"		:
 	[
 		{ 
 			"name"		: "AGExt"
