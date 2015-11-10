@@ -1,6 +1,7 @@
 {
     "spec_version"   : 1,
     "name"           : "SETI",
+    "author"         : "Yemo",
     "abstract"       : "The old SETI-BalanceMod for KSP 0.90",
     "identifier"     : "SETI",
     "$vref" 	     : "#/ckan/ksp-avc",
