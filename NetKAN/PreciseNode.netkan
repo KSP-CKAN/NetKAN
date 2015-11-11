@@ -1,0 +1,12 @@
+{
+    "spec_version" : 1,
+    "identifier"   : "PreciseNode",
+    "$kref"        : "#/ckan/github/blizzy78/ksp-precisenode",
+    "name"         : "Precise Node",
+    "abstract"     : "Provides a more precise widget for maneuver node editing",
+    "license"      : "BSD-2-clause",
+    "ksp_version"  : "1.0.5",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/47863"
+    }
+}
