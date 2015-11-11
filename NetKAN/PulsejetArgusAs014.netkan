@@ -2,7 +2,7 @@
     "identifier": "PulsejetArgusAs014",
     "spec_version": "v1.4",
     "$kref": "#/ckan/kerbalstuff/1238",
-    "license": "MIT",
+    "license": "restricted",
     "install": [
         {
             "find"       : "PSSI",
