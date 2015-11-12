@@ -13,7 +13,7 @@
     ],
     "install": [
         {
-            "file"       : "A6Intruder",
+            "find"       : "A6Intruder",
             "install_to" : "GameData/Skunk_Works",
             "filter"     : [ "Thumbs.db" ]
         }
