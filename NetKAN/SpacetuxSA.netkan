@@ -13,7 +13,8 @@
     "install" : [
         {
             "find"       : "spacetux",
-            "install_to" : "GameData"
+            "install_to" : "GameData",
+            "filter"     : "SharedAssets"
         }
     ],
 	"x_netkan_override" : [
