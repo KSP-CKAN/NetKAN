@@ -1,0 +1,30 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "Mk2Expansion",
+    "$kref": "#/ckan/kerbalstuff/790",
+    "license": "CC-BY-4.0",
+    "depends": [
+        { "name": "KlockheedMartian-Gimbal" },
+        { "name": "FirespitterCore" },
+        { "name": "ModuleManager", "min_version": "2.5.3" },
+        { "name": "CommunityResourcePack" },
+        { "name": "InterstellarFuelSwitch-Core" }
+    ],
+    "suggests": [
+	{ "name": "FerramAerospaceResearch" }
+    ],
+    "install" : [
+        {
+            "find"       : "GameData/Mk2Expansion",
+            "install_to" : "GameData"
+        },
+        {
+            "find"        : "VAB",
+            "install_to"  : "Ships"
+        },
+        {
+            "find"        : "SPH",
+            "install_to"  : "Ships"
+        }
+    ]
+}
