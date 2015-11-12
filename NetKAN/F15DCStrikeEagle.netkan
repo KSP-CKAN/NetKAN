@@ -3,7 +3,7 @@
     "$kref": "#/ckan/kerbalstuff/870",
     "identifier": "F15DCStrikeEagle",
     "license": "WTFPL",
-   "depends": [
+    "depends": [
         { "name": "FirespitterCore" },
         { "name": "BahamutoDynamicsPartsPack"}
     ],

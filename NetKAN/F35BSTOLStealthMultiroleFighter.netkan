@@ -3,7 +3,7 @@
     "$kref": "#/ckan/kerbalstuff/881",
     "identifier": "F35BSTOLStealthMultiroleFighter",
     "license": "WTFPL",
-   "depends": [
+    "depends": [
         { "name": "FirespitterCore" },
         { "name": "BahamutoDynamicsPartsPack"}
     ],

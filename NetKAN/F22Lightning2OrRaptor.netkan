@@ -3,7 +3,7 @@
     "$kref": "#/ckan/kerbalstuff/852",
     "identifier": "F22Lightning2OrRaptor",
     "license": "WTFPL",
-   "depends": [
+    "depends": [
         { "name": "FirespitterCore" },
         { "name": "BahamutoDynamicsPartsPack"}
     ],

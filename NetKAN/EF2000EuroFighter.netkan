@@ -3,7 +3,7 @@
     "$kref": "#/ckan/kerbalstuff/860",
     "identifier": "EF2000EuroFighter",
     "license": "WTFPL",
-   "depends": [
+    "depends": [
         { "name": "FirespitterCore" },
         { "name": "BahamutoDynamicsPartsPack"}
     ],

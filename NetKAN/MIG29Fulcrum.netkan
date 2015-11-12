@@ -3,7 +3,7 @@
     "$kref": "#/ckan/kerbalstuff/876",
     "identifier": "MIG29Fulcrum",
     "license": "WTFPL",
-   "depends": [
+    "depends": [
         { "name": "FirespitterCore" },
         { "name": "BahamutoDynamicsPartsPack"}
     ],

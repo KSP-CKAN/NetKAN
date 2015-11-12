@@ -3,7 +3,7 @@
     "$kref": "#/ckan/kerbalstuff/849",
     "identifier": "F14CTomcat",
     "license": "WTFPL",
-   "depends": [
+    "depends": [
         { "name": "FirespitterCore" },
         { "name": "BahamutoDynamicsPartsPack"}
     ],

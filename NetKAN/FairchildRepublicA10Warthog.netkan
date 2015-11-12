@@ -3,7 +3,7 @@
     "$kref": "#/ckan/kerbalstuff/853",
     "identifier": "FairchildRepublicA10Warthog",
     "license": "WTFPL",
-   "depends": [
+    "depends": [
         { "name": "FirespitterCore" },
         { "name": "BahamutoDynamicsPartsPack"}
     ],
