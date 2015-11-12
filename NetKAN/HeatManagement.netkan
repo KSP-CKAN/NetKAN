@@ -9,7 +9,7 @@
     ],
     "install": [
         {
-            "find" : "GameData/HeatManagement",
+            "file" : "GameData/HeatManagement",
             "install_to" : "GameData"
         }
     ]
