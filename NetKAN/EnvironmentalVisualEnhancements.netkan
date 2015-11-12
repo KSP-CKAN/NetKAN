@@ -18,5 +18,9 @@
     ],
     "depends": [
         { "name": "EnvironmentalVisualEnhancements-Config" }
-    ]
+    ],
+    "conflicts": [
+        { "name" : "EnvironmentalVisualEnhancements-LR" }
+    ],
+    "x_netkan_epoch": "1"
 }
