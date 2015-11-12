@@ -1,16 +1,16 @@
 {
-    "spec_version": 1,
+    "spec_version": "v1.2",
     "$kref": "#/ckan/kerbalstuff/848",
     "identifier": "F117",
     "license": "WTFPL",
-   
-    "depends": [
+   "depends": [
         { "name": "FirespitterCore" },
-        { "name": "BDArmory" },
-        { "name": "BahamutoDynamicsPartsPack"},
-        { "name": "AircraftIVAHelmet"}
+        { "name": "BahamutoDynamicsPartsPack"}
     ],
-	
+    "recommends": [
+        { "name": "BDArmory" },
+        { "name": "AdjustableLandingGear"}
+    ],
 	"install":	[ { "file" : "F117",
-					"install_to" : "GameData" } ]
+					"install_to" : "GameData/Skunk_Works" } ]
 }
