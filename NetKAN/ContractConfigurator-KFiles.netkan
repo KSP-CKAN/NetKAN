@@ -9,7 +9,7 @@
     "depends" : [
         {
             "name" : "ContractConfigurator",
-            "min_version" : "1.8.0"
+            "min_version" : "1.7.8"
         }
 ],		
     "install" : [
