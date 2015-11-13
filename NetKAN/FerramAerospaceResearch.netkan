@@ -9,13 +9,11 @@
     "resources" : {
         "repository" : "https://github.com/ferram4/Ferram-Aerospace-Research"
     },
-	
     "provides"  : [ "AerodynamicModel", "FAR" ],
     "conflicts" : [ { "name" : "AerodynamicModel" } ],
-	
     "depends" : [
     	{ "name" : "ModuleManager" },
-    	{ "name" : "ModularFlightIntegrator" }
+    	{ "name" : "ModularFlightIntegrator", "min_version": "1.1.1" }
     ],
     "install" : [
         {
