@@ -1,10 +1,6 @@
 {
-    "spec_version": "v1.4",
+    "spec_version": "v1.2",
     "identifier": "UnmannedBeforeManned",
-    "license": "restricted",
-    "$kref": "#/ckan/kerbalstuff/1198",
-    "$vref": "#/ckan/ksp-avc",
-    "depends": [
-        { "name": "ModuleManager" }
-    ]
+    "$kref": "#/ckan/netkan/https://raw.githubusercontent.com/Y3mo/UnmannedBeforeManned/master/UnmannedBeforeManned.netkan",
+    "x_netkan_license_ok": true
 }
