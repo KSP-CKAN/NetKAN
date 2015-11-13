@@ -1,18 +1,6 @@
 {
-    "spec_version"   : "v1.4",
-    "identifier"     : "ContractConfigurator-InitialContracts", 
-    "name"           : "Contract Pack: Initial Contracts",
-    "$kref"          : "#/ckan/kerbalstuff/577",
-    "x_netkan_license_ok" : true,
-    "release_status" : "stable",
-    "depends" : [
-        { "name": "ContractConfigurator" },
-        { "name": "ModuleManager" }
-    ],
-    "install" : [
-        {
-            "find"       : "InitialContracts",
-            "install_to" : "GameData/ContractPacks"
-        }
-    ]
+    "spec_version": "v1.2",
+    "identifier": "ContractConfigurator-InitialContracts",
+    "$kref": "#/ckan/netkan/https://raw.githubusercontent.com/Y3mo/InitialContracts/master/InitialContracts.netkan",
+    "x_netkan_license_ok": true
 }
