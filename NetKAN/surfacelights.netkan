@@ -1,8 +1,11 @@
 {
-    "identifier": "SurfaceMountedLights",
+    "identifier": "surfacelights",
     "spec_version": "v1.4",
     "$kref": "#/ckan/kerbalstuff/1255",
     "license": "CC-BY-NC-ND-3.0",
+    "conflicts": [
+        { "name": "SurfaceMountedLights" }
+    ],
     "install": [
         {
             "find"       : "SurfaceLights",
