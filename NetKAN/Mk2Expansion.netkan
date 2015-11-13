@@ -5,6 +5,7 @@
     "license": "CC-BY-4.0",
     "depends": [
         { "name": "KlockheedMartian-Gimbal" },
+        { "name": "FirespitterCore" },
         { "name": "ModuleManager", "min_version": "2.5.3" },
         { "name": "CommunityResourcePack" },
         { "name": "InterstellarFuelSwitch-Core" }
