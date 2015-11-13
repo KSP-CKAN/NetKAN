@@ -20,7 +20,8 @@
     "install" : [
         {
             "file"       : "GameData/FerramAerospaceResearch",
-            "install_to" : "GameData"
+            "install_to" : "GameData",
+            "filter"     : "config.xml"
         },
         {
             "file"        : "Ships",
