@@ -1,7 +1,7 @@
 {
     "spec_version"   : 1,
     "identifier"     : "StockBugFixModules",
-    "$kref"          : "#/ckan/github/ClawKSP/KSP-Stock-Bug-Fix-Modules/asset_match/StockBugFixModules.*?\\.zip",
+    "$kref"          : "#/ckan/github/ClawKSP/KSP-Stock-Bug-Fix-Modules/asset_match/StockBugFixPlus.*?\\.zip",
     "name"           : "Stock Bug Fix Modules",
     "abstract"       : "Stand alone fixes for common stock KSP bugs",
     "license"        : "CC-BY-NC-SA-4.0",
