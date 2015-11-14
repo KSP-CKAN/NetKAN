@@ -12,7 +12,7 @@
     },
     "install": [
         {
-            "file": "StockBugFixModules",
+            "file": "StockBugFixPlus",
             "install_to": "GameData"
         }
     ],
