@@ -16,8 +16,7 @@
 		}
 	],
 	"depends" : [
-		{ "name" : "RealFuels" },
-		{ "name" : "ModuleRCSFX" }
+		{ "name" : "RealFuels" }
 	],
 	"provides" : [ "RealFuels-Engine-Configs" ],
         "comment" : "Multiple configs can be installed; RO disables its engine configs if RFStockalike is detected. KSP-CKAN/NetKAN#55.",
