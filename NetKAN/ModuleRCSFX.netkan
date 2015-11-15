@@ -6,6 +6,7 @@
     "identifier"     : "ModuleRCSFX",
     "license"        : "CC-BY-SA",
     "author"         : [ "ialdabaoth", "NathanKell" ],
+    "release_status" : "stable",
     "ksp_version_min" : "1.0.0",
     "ksp_version_max" : "1.0.4",
     "resources" : {
