@@ -15,8 +15,7 @@
         { "name": "FirespitterCore", "min_version": "7.0.5398.27328" },
         { "name": "ModuleManager", "min_version": "2.5.1" },
         { "name": "USITools", "min_version": "0.4.0" },
-        { "name": "CommunityResourcePack", "min_version": "0.2.3" },
-        { "name": "ModuleRCSFX" }
+        { "name": "CommunityResourcePack", "min_version": "0.2.3" }
     ],
     "install" : [
         {
