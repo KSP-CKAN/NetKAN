@@ -5,14 +5,17 @@
     "name"           : "USI Core",
     "author"         : "RoverDude",
     "identifier"     : "USI-Core",
-    "abstract"       : "Kontainers and Reactors and shared tools for USI mods",
+    "abstract"       : "Kontainers, Reactors and shared tools for USI mods",
     "license"        : "CC-BY-NC-SA-4.0",
     "release_status" : "stable",
     "resources": {
         "homepage": "http://bobpalmer.github.io/UmbraSpaceIndustries/"
     },
     "depends" : [
-        { "name" : "USITools" }
+        { "name" : "USITools" },
+        { "name" : "CommunityResourcePack" },
+        { "name" : "FirespitterCore" },
+        { "name" : "ModuleManager" }
     ],
     "install" : [
         {
