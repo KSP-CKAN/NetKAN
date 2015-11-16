@@ -1,0 +1,12 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "Sirens",
+    "$kref": "#/ckan/kerbalstuff/1258",
+    "license": "CC-BY-SA-3.0",
+    "install": [
+        {
+            "find"       : "77Industries",
+            "install_to" : "GameData"
+        }
+    ]
+}
