@@ -8,7 +8,7 @@
     ],
     "install": [
         {
-            "file"       : "ActivateWhenShielded.cfg",
+            "file"       : "GameData/ActivateWhenShielded.cfg",
             "install_to" : "GameData"
         }
     ]
