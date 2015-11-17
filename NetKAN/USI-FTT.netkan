@@ -3,6 +3,7 @@
     "name"           : "USI Freight Transport Technologies",
     "identifier"     : "USI-FTT",
     "$kref"          : "#/ckan/github/BobPalmer/FTT",
+    "$vref"          : "#/ckan/ksp-avc",
     "ksp_version"    : "1.0",
     "author"         : "RoverDude",
     "abstract"       : "A series of modular parts for all of your hauling, mining, and exploration needs!",
