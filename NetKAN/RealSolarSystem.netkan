@@ -10,7 +10,7 @@
     "release_status" : "stable",
     "depends" : [
 	{ "name" : "Kopernicus" },
-        { "name" : "BetterBuoyancy" }
+        { "name" : "RSSTextures" }
     ],
     "recommends" : [
         { "name" : "RealismOverhaul" },
