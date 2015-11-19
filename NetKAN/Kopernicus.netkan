@@ -1,12 +1,12 @@
 {
-    "spec_version": "v1.4",
-    "identifier": "Kopernicus",
-    "$kref": "#/ckan/github/Kopernicus/Kopernicus",
+    "spec_version"  : "v1.4",
+    "identifier"    : "Kopernicus",
+    "$kref"         : "#/ckan/github/Kopernicus/Kopernicus",
     "x_netkan_epoch": "1",
-    "name": "Kopernicus Planetary System Modifier",
-    "abstract": "Allows users to replace the planetary system used by the game.",
+    "name"          : "Kopernicus Planetary System Modifier",
+    "abstract"      : "Allows users to replace the planetary system used by the game.",
     "release_status": "development",
-    "license": "LGPL-3.0",
+    "license"       : "LGPL-3.0",
     "author": [
         "BryceSchroeder",
         "Teknoman117",
@@ -17,16 +17,18 @@
         "KCreator"
     ],
     "resources": {
-        "homepage": "http://forum.kerbalspaceprogram.com/threads/114649",
-        "repository": "http://github.com/Kopernicus/Kopernicus"
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/114649"
     },
     "ksp_version": "1.0.5",
-    "depends":	[
+    "depends": [
         { "name" : "ModuleManager", "min_version": "2.6.13" }
+    ],
+    "recommends": [
+        { "name": "PlanetPack" }
     ],
     "install": [
         {
-            "find": "Kopernicus",
+            "find"      : "Kopernicus",
             "install_to": "GameData"
         }
     ]
