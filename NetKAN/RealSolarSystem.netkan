@@ -22,6 +22,9 @@
     "resources" : {
         "homepage" : "http://forum.kerbalspaceprogram.com/threads/55145"
     },
+    "provides": [
+        "PlanetPack"
+    ],
     "install" : [
         {
             "find"       : "RealSolarSystem",
