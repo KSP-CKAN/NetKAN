@@ -5,15 +5,14 @@
   "x_netkan_epoch": "1",
   "license": "CC-BY-NC-SA-4.0",
   "depends": [
-    { "name": "ModuleManager", "min_version": "2.6.7" },
-    { "name": "Kopernicus", "min_version": "1:beta-03-3" }
+    { "name": "ModuleManager" },
+    { "name": "Kopernicus", "version": "1:beta-05-2" }
   ],
   "recommends": [
     { "name": "KopernicusExpansion" }
   ],
   "conflicts": [
     { "name": "CustomBiomes" },
-    { "name": "PlanetPack" }
   ],
   "provides": [
     "PlanetPack"
@@ -39,6 +38,9 @@
     { "name": "Karbonite" },
     { "name": "TextureReplacer" }
   ],
+    "provides": [
+        "PlanetPack"
+    ],
   "install" : [
     { "find": "OPM", "install_to" : "GameData" }
   ],
