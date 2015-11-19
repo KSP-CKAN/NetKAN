@@ -12,7 +12,7 @@
     { "name": "KopernicusExpansion" }
   ],
   "conflicts": [
-    { "name": "CustomBiomes" },
+    { "name": "CustomBiomes" }
   ],
   "provides": [
     "PlanetPack"
