@@ -7,8 +7,6 @@
 					{ "name" : "DDSLoader" },
 					{ "name" : "Kopernicus-Config-Default" },
 					{ "name" : "ModuleManager" } ],
-	"provides": [ "PlanetPack" ],
-	"conflicts": [ { "name" : "PlanetPack" } ],
 	"install"		:	[ { "find" : "Insystem",
 						"install_to" : "GameData" } ]
 }
