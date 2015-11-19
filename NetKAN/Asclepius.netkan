@@ -5,10 +5,13 @@
     "identifier": "Asclepius",
     "depends": [
         { "name": "ModuleManager" },
-        { "name": "Kopernicus"}
+        { "name": "Kopernicus", "version": "1:beta-05-2" }
     ],
     "suggests": [
         { "name": "Asclepius-clouds" }
+    ],
+    "provides": [
+        "PlanetPack"
     ],
     "install": [
         {
