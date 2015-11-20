@@ -1,10 +1,13 @@
 {
     "spec_version"    : 1,
     "$kref"           : "#/ckan/kerbalstuff/91",
-    "x_vref_is_broken" : "#/ckan/ksp-avc",
+    "$vref"           : "#/ckan/ksp-avc",
     "identifier"      : "WernherChecker",
     "x_netkan_license_ok": true,
+    "ksp_version_min" : "1.0.4",
+    "ksp_version_max" : "1.0.5",
     "resources" : {
-        "repository": "https://github.com/Magion/WernherChecker"
+        "repository": "https://github.com/Magion/WernherChecker",
+        "bugtracker": "https://github.com/Magion/WernherChecker/issues"
     }
 }
