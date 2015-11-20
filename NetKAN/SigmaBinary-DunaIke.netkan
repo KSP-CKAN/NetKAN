@@ -15,8 +15,8 @@
     },
     "install": [
         {
-            "find": "DunaIke Binary",
-            "install_to": "GameData/Sigma/Binary"
+            "file": "SigmaDunaIke/DunaIke.cfg",
+            "install_to": "GameData/Sigma"
         }
     ],
     "x_netkan_epoch": "1",
