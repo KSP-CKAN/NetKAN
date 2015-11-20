@@ -20,7 +20,7 @@
     ],
     "comment": "The full path in the mod archive can change. I.e. it was AJE-2.0.3/GameData/AJE at some point. The CKAN needs to deal with this. Hence using 'find'",
     "name": "Advanced Jet Engine",
-    "abstract": "Realism for turbojet, turbofans, air-breathing rockets, propellers and rotors in KSP.",
+    "abstract": "Realism for turbojet, turbofans, air-breathing rockets, propellers, and rotors in KSP.",
     "author": "camlost",
     "resources": {
         "homepage": "http://forum.kerbalspaceprogram.com/threads/70008"
