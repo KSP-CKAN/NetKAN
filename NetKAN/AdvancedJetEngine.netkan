@@ -2,6 +2,7 @@
     "identifier": "AdvancedJetEngine", 
     "license": "LGPL-2.1", 
     "$kref": "#/ckan/github/camlost2/AJE", 
+    "$vref" : "#/ckan/ksp-avc",
     "spec_version": "v1.4",
     "depends" : [
         { "name" : "FerramAerospaceResearch" },
@@ -18,13 +19,11 @@
         { "find": "GameData/AJE", "install_to": "GameData" }
     ],
     "comment": "The full path in the mod archive can change. I.e. it was AJE-2.0.3/GameData/AJE at some point. The CKAN needs to deal with this. Hence using 'find'",
-    "ksp_version": "1.0.4",
     "name": "Advanced Jet Engine",
-    "abstract": "Realism for turbojet, turbofans, air-breathing rockets, propellers and rotors in KSP.",
+    "abstract": "Realism for turbojet, turbofans, air-breathing rockets, propellers, and rotors in KSP.",
     "author": "camlost",
     "resources": {
-        "homepage": "http://forum.kerbalspaceprogram.com/threads/70008",
-        "kerbalstuff": "https://kerbalstuff.com/mod/462/Advanced%20Jet%20Engine"
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/70008"
     },
     "release_status" : "stable"
 }
