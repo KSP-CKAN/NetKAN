@@ -3,14 +3,19 @@
     "spec_version": "v1.4",
     "$kref": "#/ckan/kerbalstuff/1244",
     "license": "CC-BY-NC-SA-4.0",
+    "depends": [
+        { "name": "CommunityResourcePack" },
+        { "name": "ModuleManager" }
+    ],
     "install": [
         {
             "find"       : "KFStudios",
-            "install_to" : "GameData"
+            "install_to" : "GameData",
+            "filter"     : ".DS_Store"
         },
         {
-            "find"       : "ships",
-            "install_to" : "Ships"
+            "find"       : "VAB",
+            "install_to" : "Ships/VAB"
         }
     ]
 }
