@@ -10,8 +10,8 @@
     "suggests": [
         { "name": "Asclepius-clouds" }
     ],
-    "provides": [
-        "PlanetPack"
+    "conflicts": [
+        { "name": "RealSolarSystem" }
     ],
     "install": [
         {

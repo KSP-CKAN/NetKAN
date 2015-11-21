@@ -7,6 +7,7 @@
 					{ "name" : "DDSLoader" },
 					{ "name" : "Kopernicus-Config-Default" },
 					{ "name" : "ModuleManager" } ],
+	"conflicts"	:	[ { "name" : "Kopernicus" } ],
 	"install"		:	[ { "find" : "Insystem",
 						"install_to" : "GameData" } ]
 }

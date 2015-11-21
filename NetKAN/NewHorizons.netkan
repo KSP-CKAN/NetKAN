@@ -24,8 +24,8 @@
         { "name": "ResearchBodies" },
         { "name": "TextureReplacer" }
     ],
-    "provides": [
-        "PlanetPack"
+    "conflicts": [
+        { "name": "RealSolarSystem" }
     ],
     "install": [
         {

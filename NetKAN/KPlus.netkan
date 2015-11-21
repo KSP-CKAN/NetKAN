@@ -20,12 +20,10 @@
         { "name": "PlanetShine" },
         { "name": "TextureReplacer" }
     ],
-    "provides": [
-        "PlanetPack"
+    "conflicts": [
+        { "name": "RealSolarSystem" },
+        { "name": "KerbolPlus" }
     ],
-	"conflicts": [
-		{ "name": "KerbolPlus" }
-	],
     "install": [
         {
             "find": "KPlus",
