@@ -7,6 +7,15 @@
         { "name": "CommunityResourcePack" },
         { "name": "ModuleManager" }
     ],
+    "recommends": [
+        { "name": "RealSolarSystem" },
+        { "name": "FerramAerospaceResearch" },
+        { "name": "KerbalJointReinforcement" },
+        { "name": "CrewManifest" },
+        { "name": "RealFuels" },
+        { "name": "RealChute" },
+        { "name": "RealPlume" }
+    ],
     "install": [
         {
             "find"       : "KFStudios",
