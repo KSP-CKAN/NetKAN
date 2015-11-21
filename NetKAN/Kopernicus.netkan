@@ -24,7 +24,8 @@
         { "name" : "ModuleManager", "min_version": "2.6.13" }
     ],
     "recommends": [
-        { "name": "PlanetPack" }
+        { "name": "PlanetPack" },
+        { "name": "KittopiaTech" }
     ],
     "install": [
         {
