@@ -4,7 +4,6 @@
     "$kref"        : "#/ckan/kerbalstuff/1152",
     "license"      : "CC0",
     "x_netkan_license_ok": true,
-    "ksp_version": "1.0.4",
     "depends": [
         { "name": "Kopernicus", "version": "1:beta-04" },
         { "name": "ModuleManager" }
