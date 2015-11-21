@@ -6,7 +6,7 @@
     "license": "CC-BY-NC-SA-4.0",
     "depends": [
         { "name": "ModuleManager" },
-        { "name": "Kopernicus", "version": "1:beta-05-2" }
+        { "name": "Kopernicus", "min_version": "1:beta-05-2" }
     ],
     "recommends": [
         { "name": "KopernicusExpansion" }

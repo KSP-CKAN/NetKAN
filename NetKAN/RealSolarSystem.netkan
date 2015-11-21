@@ -13,7 +13,7 @@
     },
     "depends": [
         { "name": "ModuleManager" },
-        { "name": "Kopernicus", "version": "1:beta-05-2" },
+        { "name": "Kopernicus", "min_version": "1:beta-05-2" },
         { "name": "RSSTextures" }
     ],
     "recommends": [
