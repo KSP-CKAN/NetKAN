@@ -1,6 +1,6 @@
 {
     "spec_version" : 1,
-    "identifier"   : "samv_server",
+    "identifier"   : "samv-server",
     "$kref"        : "#/ckan/github/danielkinsman/stand-alone-map-view",
     "name"         : "Stand alone map view server",
     "abstract"     : "Allows you to open a new window (on a separator monitor) to display the map view, using two separate copies of the game. One copy should install the client, the other (your main game) should install the server. All other mods should be the same.",
