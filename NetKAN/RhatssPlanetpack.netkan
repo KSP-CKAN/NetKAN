@@ -3,7 +3,6 @@
     "$kref": "#/ckan/kerbalstuff/1074",
     "license": "MIT",
     "identifier": "RhatssPlanetpack",
-    "ksp_version": "1.0.4",
     "depends": [
         { "name": "Kopernicus", "version": "1:beta-02-4" }
     ],
@@ -11,6 +10,16 @@
         {
             "find"       : "RPM",
             "install_to" : "GameData"
+        }
+    ],
+    "x_netkan_override" : [
+        {
+            "version" : "1.2",
+            "delete" : [ "ksp_version" ],
+            "override" : {
+                "ksp_version_min" : "1.0.2",
+                "ksp_version_max" : "1.0.4"
+            }
         }
     ]
 }

@@ -7,7 +7,6 @@
     {
         "homepage"  : "http://forum.kerbalspaceprogram.com/threads/66882"
     },
-    "ksp_version": "1.0.4",
     "depends" : 
     [
         { "name"    : "Kopernicus", "version": "1:beta-04" },
@@ -25,5 +24,15 @@
         { "name" : "EnvironmentalVisualEnhancements-LR" },
         { "name" : "EnvironmentalVisualEnhancements-HR" },
         { "name" : "SentarExpansion" } 
+    ],
+    "x_netkan_override" : [
+        {
+            "version" : "0.8",
+            "delete" : [ "ksp_version" ],
+            "override" : {
+                "ksp_version_min" : "1.0.2",
+                "ksp_version_max" : "1.0.4"
+            }
+        }
     ]
 }
