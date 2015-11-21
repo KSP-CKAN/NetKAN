@@ -1,7 +1,7 @@
 {
     "spec_version" : "v1.4",
     "identifier"   : "SigmaBinary-core",
-    "$kref"        : "#/ckan/github/Sigma88/Sigma-Binary",
+    "$kref"        : "#/ckan/github/Sigma88/Sigma-Binary/asset_match/Sigma-Binary.*?\\.zip",
     "$vref"        : "#/ckan/ksp-avc",
     "name"         : "Sigma Binary",
     "abstract"     : "This mod will let you turn custom and/or stock bodies into binary systems, without the need to do all the calculations yourself.",
