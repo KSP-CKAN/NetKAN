@@ -3,8 +3,9 @@
     "spec_version": "v1.4",
     "license": "CC-BY-NC-4.0",
     "$kref": "#/ckan/kerbalstuff/1143",
+    "ksp_version": "1.0.4",
     "depends": [
-        { "name": "Kopernicus" }
+        { "name": "Kopernicus", "version": "1:beta-04" }
     ],
     "recommends": [
         { "name": "DistantObject" },

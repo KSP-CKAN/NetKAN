@@ -3,8 +3,10 @@
     "spec_version": "v1.4",
     "$kref": "#/ckan/kerbalstuff/1219",
     "license": "CC-BY-NC-SA-4.0",
+	"name": "Keridani",
+    "ksp_version": "1.0.4",
     "depends": [
-        { "name": "Kopernicus" }
+        { "name": "Kopernicus", "version": "1:beta-04" }
     ],
     "recommends": [
         { "name": "EnvironmentalVisualEnhancements" }
@@ -17,5 +19,6 @@
             "find"       : "Planets",
             "install_to" : "GameData"
         }
-    ]
+    ],
+    "x_netkan_epoch": "1"
 }

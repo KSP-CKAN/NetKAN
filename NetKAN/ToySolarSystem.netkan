@@ -3,7 +3,8 @@
     "spec_version": "v1.4",
     "identifier": "ToySolarSystem",
     "license": "MIT",
+    "ksp_version" : "1.0.4",
     "depends": [
-        { "name": "Kopernicus" }
+        { "name": "Kopernicus", "version": "1:beta-04" }
     ]
 }
