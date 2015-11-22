@@ -1,0 +1,33 @@
+{
+    "spec_version"  : "v1.4",
+    "identifier"    : "KPlus",
+    "$kref"         : "#/ckan/github/KillAshley/KPlus",
+    "name"          : "Kerbol Plus Remade",
+    "abstract"      : "Kerbol Plus is a planetary expansion for KSP adding in 6 new planets and 6 moons for players to discover. Note: This version is a revisioned version of KerbolPlus.",
+    "license"       : "CC-BY-NC-SA-4.0",
+    "author"        : [ "KillAshley", "Thomas P." ],
+    "release_status": "stable",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/138438"
+    },
+    "ksp_version": "1.0.5",
+    "depends": [
+        { "name": "ModuleManager" },
+        { "name": "Kopernicus", "min_version": "1:beta-05-2" }
+    ],
+    "suggests": [
+        { "name": "DistantObject" },
+        { "name": "PlanetShine" },
+        { "name": "TextureReplacer" }
+    ],
+    "conflicts": [
+        { "name": "RealSolarSystem" },
+        { "name": "KerbolPlus" }
+    ],
+    "install": [
+        {
+            "find": "KPlus",
+            "install_to": "GameData"
+        }
+    ]
+}
