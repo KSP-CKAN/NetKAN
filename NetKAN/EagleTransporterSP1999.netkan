@@ -1,16 +1,21 @@
 {
-    "spec_version": "v1.4",
+    "spec_version": "v1.2",
     "license": "WTFPL",
     "$kref": "#/ckan/kerbalstuff/957",
     "identifier": "EagleTransporterSP1999",
     "install": [
         {
-            "find"       : "Eagle_Transporter/Eagle_Transporter",
-            "install_to" : "GameData"
+            "file"       : "Eagle_Transporter/Eagle_Transporter",
+            "install_to" : "GameData/Skunk_Works"
         }
     ],
     "depends": [
-        { "name": "BDAnimationModules" },
+        { "name": "FirespitterCore" },
+        { "name": "BahamutoDynamicsPartsPack"},
         { "name": "RCSLandAid" }
+    ],
+    "recommends": [
+        { "name": "BDArmory" },
+        { "name": "AdjustableLandingGear"}
     ]
 }
