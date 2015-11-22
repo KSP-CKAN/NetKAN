@@ -10,7 +10,7 @@
             "install_to": "GameData"
         }
     ],
-    "depends": [
+    "recommends": [
         { "name": "CommunityResourcePack" }
     ]
 }
