@@ -11,7 +11,11 @@
     ],
     "depends": [
         { "name": "FirespitterCore" },
-        { "name": "BDAnimationModules" },
+        { "name": "BahamutoDynamicsPartsPack"},
         { "name": "RCSLandAid" }
-    ]
+    ],
+    "recommends": [
+        { "name": "BDArmory" },
+        { "name": "AdjustableLandingGear"}
+    ],
 }
