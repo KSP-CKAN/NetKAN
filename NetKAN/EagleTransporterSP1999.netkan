@@ -10,6 +10,7 @@
         }
     ],
     "depends": [
+        { "name": "FirespitterCore" },
         { "name": "BDAnimationModules" },
         { "name": "RCSLandAid" }
     ]
