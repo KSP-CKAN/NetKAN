@@ -1,5 +1,5 @@
 {
-    "spec_version": "v1.2",
+    "spec_version": "v1.4",
     "$kref": "#/ckan/kerbalstuff/848",
     "identifier": "F117",
     "license": "WTFPL",
@@ -11,6 +11,10 @@
         { "name": "BDArmory" },
         { "name": "AdjustableLandingGear"}
     ],
-	"install":	[ { "file" : "F117",
-					"install_to" : "GameData/Skunk_Works" } ]
+    "install": [
+        {
+            "find"       : "F117_NightHawk",
+            "install_to" : "GameData/Skunk_Works"
+        }
+    ]
 }
