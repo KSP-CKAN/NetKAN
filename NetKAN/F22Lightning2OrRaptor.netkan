@@ -1,5 +1,5 @@
 {
-    "spec_version": "v1.2",
+    "spec_version": "v1.4",
     "$kref": "#/ckan/kerbalstuff/852",
     "identifier": "F22Lightning2OrRaptor",
     "license": "WTFPL",
@@ -13,7 +13,7 @@
     ],
     "install": [
         {
-            "file"       : "F22Lightning2",
+            "find"       : "F22Lightning2",
             "install_to" : "GameData/Skunk_Works",
             "filter"     : "Thumbs.db"
         }
