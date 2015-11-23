@@ -20,9 +20,6 @@
         { "name": "RealismOverhaul" },
         { "name": "KSCSwitcher" }
     ],
-    "suggests": [
-        { "name": "RemoteTech-Config-RSS" }
-    ],
     "install": [
         {
             "find"      : "RealSolarSystem",
