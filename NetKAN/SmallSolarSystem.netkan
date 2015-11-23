@@ -6,10 +6,10 @@
     "depends": [
         { "name": "RSSTextures" },
         { "name": "ModuleManager" }
-    ]
+    ],
     "recommends": [
         { "name": "KSCSwitcher" }
-    ]
+    ],
     "install": [
         {
             "find"      : "SmallSolarSystem",
