@@ -4,11 +4,7 @@
 	"abstract" : "Config pack for the TestFlight plugin.  This config pack adds TestFlight support for Stock parts.",
 	"identifier" : "TestFlightConfigStock",
 	"$vref" : "#/ckan/ksp-avc",
-<<<<<<< HEAD
 	"$kref" : "#/ckan/github/KSP-RO/TestFlight/asset_match/TestFlightConfigStock*",
-=======
-	"$kref" : "#/ckan/github/jwvanderbeck/TestFlight/asset_match/TestFlightConfigStock*",
->>>>>>> origin/master
 	"license" : "CC-BY-NC-SA-4.0",
 	"release_status" : "stable",
 	"resources" : {
