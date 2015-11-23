@@ -4,7 +4,7 @@
 	"abstract" : "Config pack for the TestFlight plugin.  This config pack adds TestFlight support for Realism Overhaul parts.",
 	"identifier" : "TestFlightConfigRO",
 	"$vref" : "#/ckan/ksp-avc",
-	"$kref" : "#/ckan/github/jwvanderbeck/TestFlight/asset_match/TestFlightConfigRO*",
+	"$kref" : "#/ckan/github/KSP-RO/TestFlight/asset_match/TestFlightConfigRO*",
 	"license" : "CC-BY-NC-SA-4.0",
 	"release_status" : "stable",
 	"resources" : {
