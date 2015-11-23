@@ -3,8 +3,7 @@
 	"$kref"		:	"#/ckan/kerbalstuff/1158",
 	"spec_version"	:	"v1.4",
 	"license"  	:	"CC-BY-NC-SA-4.0",
-	"comment"	:	"PlanetPack",
-	"depends"	:	[ { "name"	:	"Kopernicus", "min version": "0.4" } ],
+	"depends"	:	[ { "name"	:	"Kopernicus", "version": "1:beta-04" } ],
 	"recommends"	:	[ { "name"	:	"Arkas-Clouds" } ],
 	"install"	:	[
 		{

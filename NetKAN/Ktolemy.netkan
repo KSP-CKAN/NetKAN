@@ -7,6 +7,6 @@
         "homepage": "http://forum.kerbalspaceprogram.com/threads/137299"
     },
     "depends": [
-        { "name": "Kopernicus" }
+        { "name": "Kopernicus", "version": "1:beta-04" }
     ]
 }

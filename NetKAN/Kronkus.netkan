@@ -5,7 +5,7 @@
     "license"      : "CC0",
     "x_netkan_license_ok": true,
     "depends": [
-        { "name": "Kopernicus" },
+        { "name": "Kopernicus", "version": "1:beta-04" },
         { "name": "ModuleManager" }
     ]
 }
