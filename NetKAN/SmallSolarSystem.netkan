@@ -1,15 +1,16 @@
 {
-    "spec_version": 1,
+    "spec_version": 1.4,
     "license": "MIT",
     "$kref": "#/ckan/kerbalstuff/1017",
     "identifier": "SmallSolarSystem",
     "depends": [
-        { "name": "RSSTextures" },
-        { "name": "ModuleManager" }
+        { "name": "ModuleManager" },
+        { "name": "Kopernicus", "min_version": "1:beta-05-2" },
+        { "name": "RSSTextures" }
     ],
     "recommends": [
         { "name": "KSCSwitcher" }
-    ]
+    ],
     "install": [
         {
             "find"      : "SmallSolarSystem",
