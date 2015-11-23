@@ -1,20 +1,20 @@
 {
-    "spec_version": 1,
+    "spec_version": "v1.4",
     "$kref": "#/ckan/kerbalstuff/852",
     "identifier": "F22Lightning2OrRaptor",
     "license": "WTFPL",
-   
     "depends": [
         { "name": "FirespitterCore" },
-        { "name": "BahamutoDynamicsPartsPack"},
-        { "name": "AdjustableLandingGear"},
-        { "name": "AircraftIVAHelmet"}
+        { "name": "BahamutoDynamicsPartsPack"}
     ],
-
+    "recommends": [
+        { "name": "BDArmory" },
+        { "name": "AdjustableLandingGear"}
+    ],
     "install": [
         {
-            "file"       : "F22Lightning2",
-            "install_to" : "GameData",
+            "find"       : "F22Lightning2",
+            "install_to" : "GameData/Skunk_Works",
             "filter"     : "Thumbs.db"
         }
     ]
