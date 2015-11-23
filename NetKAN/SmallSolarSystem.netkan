@@ -4,7 +4,16 @@
     "$kref": "#/ckan/kerbalstuff/1017",
     "identifier": "SmallSolarSystem",
     "depends": [
-        { "name": "RealSolarSystem" },
+        { "name": "RSSTextures" },
         { "name": "ModuleManager" }
+    ]
+    "recommends": [
+        { "name": "KSCSwitcher" }
+    ]
+    "install": [
+        {
+            "find"      : "SmallSolarSystem",
+            "install_to": "GameData"
+        }
     ]
 }
