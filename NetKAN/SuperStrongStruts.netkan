@@ -1,11 +1,11 @@
 {
-    "spec_version": "v1.4",
+    "spec_version": 1,
     "identifier": "SuperStrongStruts",
     "$kref": "#/ckan/kerbalstuff/1292",
     "license": "restricted",
     "install": [
         {
-            "find"       : "Aquila Aerospace",
+            "file"       : "Aquila Aerospace",
             "install_to" : "GameData"
         }
     ]
