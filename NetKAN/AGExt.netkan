@@ -21,14 +21,5 @@
 "file" : "GameData/Diazo",
 "install_to" : "GameData"
 }
-],
-"x_supports" : [
-{ "name" : "SCANsat" },
-{ "name" : "Kethane" },
-{ "name" : "FerramAerospaceResearch" },
-{ "name" : "Firespitter" },
-{ "name" : "InfernalRobotics" },
-{ "name" : "TACLS" },
-{ "name" : "WarpPlugin" }
 ]
 }
