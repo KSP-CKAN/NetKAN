@@ -3,6 +3,11 @@
     "identifier": "StrykersAerospaceandIVAs",
     "$kref": "#/ckan/kerbalstuff/1307",
     "license": "CC-BY-SA-2.0",
+    "depends": [
+        { "name": "RasterPropMonitor" },
+        { "name": "ASETProps" },
+        { "name": "ASETAvionics" }
+    ],
     "install": [
         {
             "find"       : "Stryker Aerospace (ASET)",
