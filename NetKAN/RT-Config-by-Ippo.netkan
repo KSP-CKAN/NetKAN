@@ -3,7 +3,7 @@
     "identifier"   : "rt-config-by-ippo",
     "$kref"        : "#/ckan/github/Ippo343/rt-config",
     "name"         : "Ippo's configuration for Remote Tech",
-    "abstract"     : "This settings file for Remote Tech makes it both more realistic and a bit easier by giving nearly infinite range to the ground stations.",
+    "abstract"     : "This settings file for Remote Tech makes it both more realistic and a bit easier by giving nearly infinite range to the ground stations. Manually delete RemoteTech/RemoteTech_Settings.cfg first or this will not install.",
     "license"      : "public-domain",
     "ksp_version_min"  : "0.25",
     "resources": {
