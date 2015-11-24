@@ -1,0 +1,12 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "StrykersAerospaceandIVAs",
+    "$kref": "#/ckan/kerbalstuff/1307",
+    "license": "CC-BY-SA-2.0",
+    "install": [
+        {
+            "find"       : "Stryker Aerospace (ASET)",
+            "install_to" : "GameData"
+        }
+    ]
+}
