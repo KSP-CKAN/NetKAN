@@ -1,0 +1,9 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "Outboardmotor",
+    "$kref": "#/ckan/kerbalstuff/1302",
+    "license": "MIT",
+    "depends": [
+        { "name": "FirespitterCore" }
+    ]
+}
