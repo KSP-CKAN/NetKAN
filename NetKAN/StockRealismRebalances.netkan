@@ -1,0 +1,25 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "StockRealismRebalances",
+    "$kref": "#/ckan/kerbalstuff/1295",
+    "license": "CC-BY-NC-SA-4.0",
+    "depends": [
+        { "name": "ModuleManager" },
+        { "name": "CommunityResourcePack" }
+    ],
+    "recommends": [
+        { "name": "ModularFuelTanks" },
+        { "name": "InterstellarFuelSwitch-Core" }
+    ],
+    "install": [
+        {
+            "find"       : "CryoEngines",
+            "install_to" : "GameData/SRR"
+        },
+        {
+            "find"       : "WAST",
+            "install_to" : "GameData/SRR",
+            "filter"     : [ "._SquadEngines.cfg", "._WAST_Resources.cfg", "._Resources" ]
+        }
+    ]
+}
