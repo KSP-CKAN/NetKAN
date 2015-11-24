@@ -1,0 +1,15 @@
+{
+    "spec_version": 1,
+    "identifier": "BalastanksExtended",
+    "$kref": "#/ckan/kerbalstuff/1297",
+    "license": "MIT",
+    "depends": [
+        { "name": "Ballistanks" }
+    ],
+    "install": [
+        {
+            "file"       : "subaqua systems",
+            "install_to" : "GameData"
+        }
+    ]
+}
