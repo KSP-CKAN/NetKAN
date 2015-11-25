@@ -3,6 +3,14 @@
     "identifier": "WW2Warships",
     "$kref": "#/ckan/kerbalstuff/1308",
     "license": "CC-BY-SA-3.0",
+    "depends": [
+        { "name": "BDArmory" },
+        { "name": "NAS" }
+    ],
+    "suggests": [
+        { "name": "Hyperedit" },
+        { "name": "HangarExtender" }
+    ],
     "install": [
         {
             "find"       : "77Industries",
