@@ -1,0 +1,12 @@
+{
+    "spec_version": 1,
+    "identifier": "KerbalTubes",
+    "$kref": "#/ckan/kerbalstuff/1298",
+    "license": "MIT",
+    "install": [
+        {
+            "file"       : "Kerbal Tubes",
+            "install_to" : "GameData"
+        }
+    ]
+}
