@@ -1,0 +1,13 @@
+{
+    "spec_version": 1,
+    "identifier": "Mari-HighTorqueRW",
+    "$kref": "#/ckan/kerbalstuff/1303",
+    "license": "MIT",
+    "install": [
+        {
+            "file"       : "Mari",
+            "install_to" : "GameData",
+            "filter"     : "Thumbs.db"
+        }
+    ]
+}
