@@ -14,7 +14,7 @@
     ],    
     "install"      : [
         {
-            "file"       : "GameData/EngineLight",
+            "find"       : "GameData/EngineLight",
             "install_to" : "GameData"
         }
     ],
