@@ -10,7 +10,7 @@
     "depends": [
         { "name": "ModuleManager" },
         { "name": "OuterPlanetsMod" },
-        { "name": "Kopernicus", "version": "1:beta-04" }
+        { "name": "Kopernicus", "min_version": "1:beta-05-2" }
     ],
     "suggests": [
         { "name": "SigmaOPMExpansion" }
