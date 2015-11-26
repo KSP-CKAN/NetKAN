@@ -1,27 +1,17 @@
 {
-    "spec_version"   : "v1.2",
+    "spec_version"   : "v1.4",
     "identifier"     : "PlanetShine",
     "$kref"          : "#/ckan/kerbalstuff/266",
+    "$vref"          : "#/ckan/ksp-avc",
     "license"        : "Apache-2.0",
     "install": [
         {
-            "file": "GameData/PlanetShine/Icons",
-            "install_to": "GameData/PlanetShine"
-        },
-        {
-            "file": "GameData/PlanetShine/Plugins",
-            "install_to": "GameData/PlanetShine",
-            "filter": "MiniAVC.xml"
-        },
-        {
-            "file": "GameData/PlanetShine/LICENSE",
+            "find": "GameData/PlanetShine",
             "install_to": "GameData/PlanetShine"
         }
     ],
     "depends": [
-        {
-            "name": "PlanetShine-Config"
-        }
+        { "name": "PlanetShine-Config" }
     ],
     "x_netkan_override": [
         {
