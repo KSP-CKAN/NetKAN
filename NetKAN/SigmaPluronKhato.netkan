@@ -9,7 +9,7 @@
     "author"       : "Sigma88",
     "depends": [
         { "name": "ModuleManager" },
-        { "name": "Kopernicus", "version": "1:beta-04" }
+        { "name": "Kopernicus", "min_version": "1:beta-05-2" }
     ],
     "resources": {
         "homepage": "http://forum.kerbalspaceprogram.com/threads/112095"
