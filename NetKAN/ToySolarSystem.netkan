@@ -4,15 +4,30 @@
     "identifier": "ToySolarSystem",
     "license": "MIT",
     "depends": [
-        { "name": "Kopernicus", "version": "1:beta-04" }
+        { "name": "Kopernicus", "min_version": "1:beta-05-2" }
+    ],
+    "conflicts": [
+        { "name": "KPlus" },
+        { "name": "Asclepius" },
+        { "name": "NewHorizons" },
+        { "name": "OuterPlanetsMod" },
+        { "name": "RealSolarSystem" },
+        { "name": "SigmaBinary-core" },
+        { "name": "SigmaJoolRecolor" },
+        { "name": "SigmaPluronKhato" },
+        { "name": "SigmaStockRecolor" },
+        { "name": "SmallSolarSystem" }
     ],
     "x_netkan_override" : [
         {
             "version" : "1.0",
-            "delete" : [ "ksp_version" ],
+            "delete" : [ "ksp_version", "depends" ],
             "override" : {
                 "ksp_version_min" : "1.0.2",
-                "ksp_version_max" : "1.0.4"
+                "ksp_version_max" : "1.0.4",
+                "depends": [
+                    { "name": "Kopernicus", "version": "1:beta-04" }
+                ]
             }
         }
     ]
