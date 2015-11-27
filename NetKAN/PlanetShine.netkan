@@ -14,6 +14,18 @@
     "depends": [
         { "name": "PlanetShine-Config" }
     ],
+    "conflicts": [
+	{ "name": "AmbientLightAdjustment" }
+    ],
+    "suggests": [
+	{ "name": "EngineLighting" },
+	{ "name": "surfacelights" },
+	{ "name": "EnvironmentalVisualEnhancements" },
+	{ "name": "Chatterer" }
+    ],
+    "supports": [
+	{ "name": "Toolbar" }
+    ],
     "x_netkan_override": [
         {
             "version": "0.2.3.1",
