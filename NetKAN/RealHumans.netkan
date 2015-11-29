@@ -9,8 +9,8 @@
     "install": [
         {
             "find"       : "TextureReplacer",
-            "install_to" : "GameData/TextureReplacer",
-            "filter"     : ".DS_Store"
+            "install_to" : "GameData",
+            "filter"     : [ ".DS_Store", "license" ]
         }
     ]
 }
