@@ -16,8 +16,18 @@
     ],
     "resources"         :
     {
-        "homepage"      : "http://forum.kerbalspaceprogram.com/threads/129870",
+        "homepage"      : "http://forum.kerbalspaceprogram.com/index.php?/topic/116945-/",
         "repository"    : "https://github.com/iPeer/ClampsBeGone",
         "bugtracker"    : "https://github.com/iPeer/ClampsBeGone/issues"
-    }
+    },
+    "x_netkan_override": [
+        {
+            "version": "1.2",
+            "delete": [ "ksp_version" ],
+            "override": {
+                "ksp_version_min": "1.0.0",
+                "ksp_version_max": "1.0.4"
+            }
+        }
+    ]
 }
