@@ -3,6 +3,9 @@
     "identifier": "StarTrekTOSTunics",
     "$kref": "#/ckan/kerbalstuff/1322",
     "license": "MIT",
+    "depends": [
+        { "name": "TextureReplacer" }
+    ],
     "install": [
         {
             "file"       : "TextureReplacer",
