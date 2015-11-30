@@ -10,7 +10,10 @@
 		{ "name" : "Mk1-1A2Textures" }
 	], 
 
-	
+    "depends" : [
+        { "name" : "Mk1-1A2"}
+    ],
+
     "install": [
         {
             "find"       : "Yarbrough08",
