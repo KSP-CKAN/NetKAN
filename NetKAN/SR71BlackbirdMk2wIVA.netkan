@@ -1,0 +1,12 @@
+{
+    "spec_version": 1,
+    "identifier": "SR71BlackbirdMk2wIVA",
+    "$kref": "#/ckan/kerbalstuff/1321",
+    "license": "CC-BY-SA-2.0",
+    "install": [
+        {
+            "file"       : "Stryker Blackbird",
+            "install_to" : "GameData"
+        }
+    ]
+}
