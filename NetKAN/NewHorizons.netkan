@@ -25,7 +25,9 @@
         { "name": "TextureReplacer" }
     ],
     "conflicts": [
-        { "name": "RealSolarSystem" }
+        { "name": "BilliardsPlanetPack" },
+        { "name": "RealSolarSystem" },
+        { "name": "ToySolarSystem" }
     ],
     "install": [
         {

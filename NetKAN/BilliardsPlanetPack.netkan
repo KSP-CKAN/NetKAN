@@ -1,14 +1,14 @@
 {
-    "$kref": "#/ckan/kerbalstuff/1222",
     "spec_version": "v1.4",
-    "identifier": "ToySolarSystem",
+    "identifier": "BilliardsPlanetPack",
+    "$kref": "#/ckan/kerbalstuff/1239",
     "license": "MIT",
     "depends": [
+        { "name": "ModuleManager" },
         { "name": "Kopernicus", "min_version": "1:beta-05-2" }
     ],
     "conflicts": [
         { "name": "Asclepius" },
-        { "name": "BilliardsPlanetPack" },
         { "name": "KPlus" },
         { "name": "NewHorizons" },
         { "name": "OuterPlanetsMod" },
@@ -17,19 +17,13 @@
         { "name": "SigmaJoolRecolor" },
         { "name": "SigmaPluronKhato" },
         { "name": "SigmaStockRecolor" },
-        { "name": "SmallSolarSystem" }
+        { "name": "SmallSolarSystem" },
+        { "name": "ToySolarSystem" }
     ],
-    "x_netkan_override" : [
+    "install": [
         {
-            "version" : "1.0",
-            "delete" : [ "ksp_version", "depends" ],
-            "override" : {
-                "ksp_version_min" : "1.0.2",
-                "ksp_version_max" : "1.0.4",
-                "depends": [
-                    { "name": "Kopernicus", "version": "1:beta-04" }
-                ]
-            }
+            "find"       : "BilliardSolarSystem",
+            "install_to" : "GameData"
         }
     ]
 }
