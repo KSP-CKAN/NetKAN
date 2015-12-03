@@ -7,13 +7,19 @@
     "abstract"     : "This mod changes the color of Jool to make it more similar to Jupiter.",
     "license"      : "CC-BY-NC-SA-4.0",
     "author"       : "Sigma88",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/112095"
+    },
     "depends": [
         { "name": "ModuleManager" },
         { "name": "Kopernicus", "min_version": "1:beta-05-2" }
     ],
-    "resources": {
-        "homepage": "http://forum.kerbalspaceprogram.com/threads/112095"
-    },
+    "conflicts": [
+        { "name": "BilliardsPlanetPack" },
+        { "name": "NewHorizons" },
+        { "name": "RealSolarSystem" },
+        { "name": "ToySolarSystem" }
+    ],
     "install": [
         {
             "find": "JoolRecolor",

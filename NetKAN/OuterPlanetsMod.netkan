@@ -12,8 +12,9 @@
         { "name": "KopernicusExpansion" }
     ],
     "conflicts": [
+        { "name": "BilliardsPlanetPack" },
         { "name": "RealSolarSystem" },
-        { "name": "CustomBiomes" }
+        { "name": "ToySolarSystem" }
     ],
     "suggests": [
         { "name": "JDiminishingRTG" },

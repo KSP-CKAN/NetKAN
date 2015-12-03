@@ -21,8 +21,10 @@
         { "name": "TextureReplacer" }
     ],
     "conflicts": [
+        { "name": "BilliardsPlanetPack" },
+        { "name": "KerbolPlus" },
         { "name": "RealSolarSystem" },
-        { "name": "KerbolPlus" }
+        { "name": "ToySolarSystem" }
     ],
     "install": [
         {
