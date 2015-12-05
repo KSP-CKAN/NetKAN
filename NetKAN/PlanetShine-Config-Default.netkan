@@ -1,27 +1,24 @@
 {
-    "spec_version"   : "v1.2",
+    "spec_version"   : "v1.4",
     "identifier"     : "PlanetShine-Config-Default",
     "name"           : "PlanetShine - Default configuration",
     "$kref"          : "#/ckan/kerbalstuff/266",
+    "$vref"          : "#/ckan/ksp-avc",
     "license"        : "Apache-2.0",
     "install": [
         {
-            "file": "GameData/PlanetShine/Config",
+            "find": "GameData/PlanetShine/Config",
             "install_to": "GameData/PlanetShine"
         }
     ],
     "depends": [
-        {
-            "name": "PlanetShine"
-        }
+        { "name": "PlanetShine" }
     ],
     "provides": [
         "PlanetShine-Config"
     ],
     "conflicts": [
-        {
-            "name": "PlanetShine-Config"
-        }
+        { "name": "PlanetShine-Config" }
     ],
     "x_netkan_override": [
         {

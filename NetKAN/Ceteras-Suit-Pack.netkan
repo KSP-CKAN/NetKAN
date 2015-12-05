@@ -1,0 +1,17 @@
+{
+"spec_version" : "v1.4", 
+"identifier"   : "Ceteras-Suit-Pack",
+"$kref"        : "#/ckan/kerbalstuff/1309",
+"x_netkan_license_ok": true,
+"license": "CC-BY-NC-SA-4.0",
+"install": [
+        {
+            "find"       : "TextureReplacer",
+            "install_to" : "GameData"
+        }
+],
+"depends": [
+        { "name": "TextureReplacer" }
+	]
+
+}

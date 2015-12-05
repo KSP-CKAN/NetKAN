@@ -3,5 +3,9 @@
     "x_via": "Automated KerbalStuff CKAN submission",
     "identifier": "EngineerLevelFixer",
     "license": "MIT",
-    "$kref": "#/ckan/kerbalstuff/1155"
+    "$kref": "#/ckan/kerbalstuff/1155",
+    "$vref": "#/ckan/ksp-avc",
+    "depends" : [
+      { "name" : "ModuleManager" }
+    ]
 }

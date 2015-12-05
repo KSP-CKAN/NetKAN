@@ -1,0 +1,23 @@
+{
+    "spec_version" : 1,
+    "identifier"   : "ShipSections",
+    "$kref"        : "#/ckan/github/jkoritzinsky/ShipSections",
+    "name"         : "Extensive Engineer Report",
+    "abstract"     : "Section your ships for accurate analysis!",
+    "license"      : "MIT",
+    "ksp_version"  : "1.0.4",
+    "resources": {
+        "homepage": "https://github.com/jkoritzinsky/ShipSections"
+    },
+    "install" : [
+        {
+            "file" : "ShipSections",
+            "install_to" : "GameData"
+        }
+    ],
+    "depends": [
+        { "name": "ModuleManager",
+	  "min_version": "2.6.7",
+	  "comment": "This mod uses the notification feature added in 2.6.7." }
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "spec_version": "v1.4",
+    "$kref": "#/ckan/kerbalstuff/1296",
+    "identifier": "YT1300StockLightFreighter",
+    "license": "WTFPL",
+    "depends": [
+        { "name": "FirespitterCore" },
+        { "name": "BahamutoDynamicsPartsPack"}
+    ],
+    "recommends": [
+        { "name": "BDArmory" },
+        { "name": "AdjustableLandingGear"}
+    ],
+    "install": [
+        {
+            "find"       : "YT1300",
+            "install_to" : "GameData/Skunk_Works"
+        }
+    ]
+}

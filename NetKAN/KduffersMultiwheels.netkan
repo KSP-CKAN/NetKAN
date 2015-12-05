@@ -5,16 +5,12 @@
     "identifier": "KduffersMultiwheels",
     "install": [
         {
-            "file"       : "cartwheel",
-            "install_to" : "GameData/Kduffers/Multiwheels"
+            "file"       : "kdufferskorp",
+            "install_to" : "GameData"
         },
         {
-            "file"       : "hog wheel",
-            "install_to" : "GameData/Kduffers/Multiwheels"
-        },
-        {
-            "file"       : "race wheel",
-            "install_to" : "GameData/Kduffers/Multiwheels"
+            "file"       : "monsta",
+            "install_to" : "GameData/kdufferskorp"
         }
     ]
 }

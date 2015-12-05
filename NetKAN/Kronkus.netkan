@@ -1,0 +1,11 @@
+{
+    "spec_version" : 1,
+    "identifier"   : "Kronkus",
+    "$kref"        : "#/ckan/kerbalstuff/1152",
+    "license"      : "CC0",
+    "x_netkan_license_ok": true,
+    "depends": [
+        { "name": "Kopernicus", "version": "1:beta-04" },
+        { "name": "ModuleManager" }
+    ]
+}

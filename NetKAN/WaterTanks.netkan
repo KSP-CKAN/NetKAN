@@ -1,0 +1,9 @@
+{
+    "spec_version": 1,
+    "$kref": "#/ckan/kerbalstuff/1276",
+    "license": "MIT",
+    "identifier": "WaterTanks",
+    "depends": [
+        { "name": "ModuleManager" }        
+    ]
+}

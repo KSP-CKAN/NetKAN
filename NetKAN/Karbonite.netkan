@@ -1,18 +1,19 @@
 {
-    "spec_version"   : 1,
+    "spec_version"   : "v1.4",
     "name"           : "Karbonite",
     "identifier"     : "Karbonite",
     "$kref"          : "#/ckan/github/BobPalmer/Karbonite",
+    "$vref"          : "#/ckan/ksp-avc",
     "author"         : "RoverDude",
     "abstract"       : "A newly discovered mineral that has hydrocarbon-like properties and is perfect for processing into a fuel. It's easily mined from the surface, and can be found in liquid or gaseous forms on certain planets.",
-    "license"        : "CC-BY-NC-SA",
+    "license"        : "CC-BY-NC-SA-4.0",
     "release_status" : "stable",
-    "$vref"          : "#/ckan/ksp-avc",
     "resources" : {
         "homepage" : "http://forum.kerbalspaceprogram.com/threads/89401"
     },
     "depends" : [
         { "name" : "USITools" },
+        { "name" : "USI-Core" },
         { "name" : "CommunityResourcePack" },
         { "name" : "FirespitterCore" },
         { "name" : "ModuleManager" }
@@ -24,8 +25,8 @@
     "provides" : [ "USI-Karbonite" ],
     "install" : [
         {
-            "file"       : "GameData/UmbraSpaceIndustries",
-            "install_to" : "GameData"
+            "find"       : "UmbraSpaceIndustries/Karbonite",
+            "install_to" : "GameData/UmbraSpaceIndustries"
         }
     ],
     "x_netkan_override" : [
@@ -37,5 +38,6 @@
                 "ksp_version_max" : "1.0.4"
             }
         }
-    ]
+    ],
+    "x_netkan_epoch": "1"
 }

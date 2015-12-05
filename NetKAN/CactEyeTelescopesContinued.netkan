@@ -1,0 +1,33 @@
+{
+    "identifier": "CactEyeTelescopesContinued",
+    "spec_version": "v1.4",
+    "$kref": "#/ckan/github/Angel-125/CactEye-2",
+    "$vref": "#/ckan/ksp-avc",
+    "name": "CactEye Telescopes Continued",
+    "abstract": "CactEye is a plugin and set of parts that allow for modular orbital telescopes.",
+    "license": "CC-BY-4.0",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/136040"
+    },
+    "conflicts": [
+        { "name": "CactEye2" }
+    ],
+    "install": [
+        {
+            "file"       : "CactEyeOptics/GameData/CactEye",
+            "install_to" : "GameData",
+            "filter"     : "MiniAVC.dll"
+        }
+    ],
+    "x_netkan_override" : [
+		{
+			"version" : "v0.6.10",
+			"delete" : [ "ksp_version" ],
+			"override" : {
+				"ksp_version_min" : "1.0.4",
+				"ksp_version_max" : "1.0.5"
+			}
+		}
+    ],
+    "x_netkan_force_v": true
+}

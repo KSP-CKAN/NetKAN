@@ -1,0 +1,26 @@
+{
+    "spec_version"  : 1,
+    "identifier"    : "Deltaglider",
+    "$kref"         : "#/ckan/kerbalstuff/1165",
+    "license"       : "CC-BY-NC-ND-4.0",
+    "x_netkan_epoch": "1",
+    "depends" : [
+        { "name" : "ModuleManager" },
+        { "name" : "ASETProps" },
+        { "name" : "AGExt" },
+        { "name" : "RasterPropMonitor" },
+        { "name" : "RasterPropMonitor-Core" },
+        { "name" : "KAS" },
+        { "name" : "KIS" },
+        { "name" : "ShipManifest" },
+        { "name" : "ThrottleControlledAvionics" }
+    ],
+    "recommends": [
+        { "name" : "Toolbar" },
+        { "name" : "TMSTACLSRetexture" },
+        { "name" : "VesselViewer"},
+        { "name" : "SCANsat" },
+        { "name" : "DockingSounds" },
+        { "name" : "DockingPortAlignmentIndicator" }
+    ]
+}

@@ -12,5 +12,11 @@
     "release-status" : "stable",
     "depends" : [
         { "name" : "ModuleManager" }
+    ],
+    "install": [
+        {
+            "file"       : "Crowd Sourced Science",
+            "install_to" : "GameData"
+        }
     ]
 }

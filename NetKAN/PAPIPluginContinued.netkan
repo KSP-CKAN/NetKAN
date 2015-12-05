@@ -2,7 +2,7 @@
     "spec_version" : 1,
     "identifier"   : "PAPIPluginContinued",
     "$kref"        : "#/ckan/github/bssthu/PAPIPlugin",
-        "$vref"        : "#/ckan/ksp-avc",
+    "$vref"        : "#/ckan/ksp-avc",
     "name"         : "PAPIPlugin Continued",
     "abstract"     : "Adds PAPI arrays to the runway to aid landing",
     "license"      : "MIT",
@@ -14,5 +14,15 @@
             "file"          : "GameData/PAPIPlugin",
             "install_to"    : "GameData"
         }
+    ],
+    "x_netkan_override" : [
+		{
+			"version" : "v0.4.4",
+			"delete" : [ "ksp_version" ],
+			"override" : {
+				"ksp_version_min" : "1.0.0",
+				"ksp_version_max" : "1.0.4"
+			}
+		}
     ]
 }

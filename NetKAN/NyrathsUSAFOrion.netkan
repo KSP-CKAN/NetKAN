@@ -1,0 +1,18 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "NyrathsUSAFOrion",
+    "abstract"  : "Orion drive for KSP",
+    "name"      : "USAF Orion Mod",
+    "license"   : "CC-BY-SA-3.0",
+    "$kref"     : "#/ckan/kerbalstuff/1170",
+    "install"   : [
+        {
+            "find"       : "Nyrath",
+            "install_to" : "GameData"
+        }
+    ],
+    "resources" : {
+        "homepage"       : "http://forum.kerbalspaceprogram.com/threads/28428-Orion-aka-Ol-Boom-boom",
+        "repository"     : "https://github.com/cerebrate/USAFOrion"
+        }
+}

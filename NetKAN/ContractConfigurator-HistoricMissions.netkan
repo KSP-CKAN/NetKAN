@@ -8,7 +8,7 @@
     ],
     "install": [
         {
-            "file"       : "RegularVersion/Full Pack/ContractPacks/HistoricMissions",
+            "file"       : "HistoricMissions/RegularVersion/Full Pack/ContractPacks/HistoricMissions",
             "install_to" : "GameData/ContractPacks",
             "filter_regexp" : "EXAMPLECRAFT",
             "comment" : "EXAMPLECRAFT requires SCANsat and RemoteTech while the rest of the mod does not"

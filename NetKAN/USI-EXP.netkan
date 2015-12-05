@@ -1,41 +1,26 @@
 {
-    "spec_version"   : 1,
+    "spec_version"   : "v1.4",
     "name"           : "USI Exploration Pack",
     "identifier"     : "USI-EXP",
     "$kref"          : "#/ckan/github/BobPalmer/ExplorationPack",
+    "$vref"          : "#/ckan/ksp-avc",
     "author"         : "RoverDude",
     "abstract"       : "PackRat Rover and parts geared towards planetary exploration",
-    "license"        : "CC-BY-NC-SA",
+    "license"        : "CC-BY-NC-SA-4.0",
     "release_status" : "stable",
-	"ksp_version" : "1.0",
     "resources" : {
         "homepage" : "http://forum.kerbalspaceprogram.com/threads/86695"
     },
     "depends" : [
-        {
-          "name": "FirespitterCore",
-          "min_version": "7.0.5398.27328"
-        },
-        {
-          "name": "ModuleManager",
-          "min_version": "2.5.1"
-        },
-        {
-          "name": "USITools",
-          "min_version": "0.4.0"
-        },
-        {
-          "name": "CommunityResourcePack",
-          "min_version": "0.2.3"
-        },
-        {
-          "name": "ModuleRCSFX"
-        }
+        { "name": "FirespitterCore", "min_version": "7.0.5398.27328" },
+        { "name": "ModuleManager", "min_version": "2.5.1" },
+        { "name": "USITools", "min_version": "0.4.0" },
+        { "name": "CommunityResourcePack", "min_version": "0.2.3" }
     ],
     "install" : [
         {
-            "file"       : "GameData/UmbraSpaceIndustries",
-            "install_to" : "GameData"
+            "find"       : "UmbraSpaceIndustries/ExpPack",
+            "install_to" : "GameData/UmbraSpaceIndustries"
         }
     ]
 }

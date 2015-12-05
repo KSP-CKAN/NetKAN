@@ -9,6 +9,16 @@
         { "name": "WildBlueTools", "min_version": "1.0.4" },
         { "name": "ModuleManager", "min_version": "2.6.5" }
     ],
+    "x_netkan_override": [
+    {
+      "version": ">=0.8.1",
+      "override": {
+        "conflicts": [
+          { "name": "Pathfinder-AntennarangePatch" }
+        ]
+      }
+    }
+   ],
     "install": [
         {
             "file": "GameData/WildBlueIndustries/Pathfinder",

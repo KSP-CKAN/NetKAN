@@ -1,0 +1,27 @@
+{
+    "spec_version" : "v1.4",
+    "identifier"   : "SigmaOPMRecolor",
+    "$kref"        : "#/ckan/github/Sigma88/Sigma-OPMRecolor",
+    "$vref"        : "#/ckan/ksp-avc",
+    "name"         : "Sigma: OPM Recolor",
+    "abstract"     : "This mod changes the colors of the OPM Gas Giants: Sarnus, Urlum and Neidon are now light blue, red and orange.",
+    "license"      : "CC-BY-NC-SA-4.0",
+    "author"       : "Sigma88",
+    "depends": [
+        { "name": "ModuleManager" },
+        { "name": "OuterPlanetsMod" },
+        { "name": "Kopernicus", "min_version": "1:beta-05-2" }
+    ],
+    "suggests": [
+        { "name": "SigmaOPMExpansion" }
+    ],
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/112095"
+    },
+    "install": [
+        {
+            "find": "OPMRecolor",
+            "install_to": "GameData/Sigma"
+        }
+    ]
+}

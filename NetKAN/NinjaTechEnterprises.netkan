@@ -4,22 +4,10 @@
     "$kref": "#/ckan/kerbalstuff/834",
     "license": "GPL-3.0",
  
-    "depends": [
-        { "name": "ModuleManager" }
-    ],
- 
     "install": [
         {
-            "find"       : "Agency",
-            "install_to" : "GameData/NinjaTechEnterprises"
-        },
-        {
-            "find"       : "Flags",
-            "install_to" : "GameData/NinjaTechEnterprises"
-        },
-        {
-            "find"       : "Parts",
-            "install_to" : "GameData/NinjaTechEnterprises"
+            "find"       : "NinjaTechEnterprises",
+            "install_to" : "GameData"
         }
     ]
 }

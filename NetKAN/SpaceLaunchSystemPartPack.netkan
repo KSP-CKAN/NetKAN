@@ -1,0 +1,12 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "SpaceLaunchSystemPartPack",
+    "$kref": "#/ckan/kerbalstuff/1278",
+    "license": "MIT",
+    "install": [
+        {
+            "find"       : "SpaceLaunchSystem",
+            "install_to" : "GameData"
+        }
+    ]
+}

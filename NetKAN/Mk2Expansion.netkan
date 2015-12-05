@@ -5,20 +5,25 @@
     "license": "CC-BY-4.0",
     "depends": [
         { "name": "KlockheedMartian-Gimbal" },
+        { "name": "FirespitterCore" },
         { "name": "ModuleManager", "min_version": "2.5.3" },
-        { "name": "CommunityResourcePack" }
+        { "name": "CommunityResourcePack" },
+        { "name": "InterstellarFuelSwitch-Core" }
     ],
     "suggests": [
-	{ "name": "FerramAerospaceResearch" },
-	{ "name": "InterstellarFuelSwitch" }
+	{ "name": "FerramAerospaceResearch" }
     ],
     "install" : [
         {
-            "find"       : "Mk2Expansion",
+            "find"       : "GameData/Mk2Expansion",
             "install_to" : "GameData"
         },
         {
-            "file"        : "Ships",
+            "find"        : "VAB",
+            "install_to"  : "Ships"
+        },
+        {
+            "find"        : "SPH",
             "install_to"  : "Ships"
         }
     ]

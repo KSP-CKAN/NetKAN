@@ -1,13 +1,13 @@
 {
     "spec_version"   : 1,
     "$kref"          : "#/ckan/github/BobPalmer/CommunityResourcePack",
+    "$vref"          : "#/ckan/ksp-avc",
     "name"           : "Community Resource Pack",
     "author"         : "RoverDude",
     "identifier"     : "CommunityResourcePack",
     "abstract"       : "Common resources for KSP mods",
     "license"        : "CC-BY-NC-SA-4.0",
     "release_status" : "stable",
-    "ksp_version"    : "1.0",
     "resources" : {
         "homepage" : "http://forum.kerbalspaceprogram.com/threads/91998"
     },

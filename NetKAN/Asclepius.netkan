@@ -5,10 +5,15 @@
     "identifier": "Asclepius",
     "depends": [
         { "name": "ModuleManager" },
-        { "name": "Kopernicus"}
+        { "name": "Kopernicus", "min_version": "1:beta-05-2" }
     ],
     "suggests": [
         { "name": "Asclepius-clouds" }
+    ],
+    "conflicts": [
+        { "name": "BilliardsPlanetPack" },
+        { "name": "RealSolarSystem" },
+        { "name": "ToySolarSystem" }
     ],
     "install": [
         {

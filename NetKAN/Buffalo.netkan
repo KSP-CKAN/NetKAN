@@ -1,0 +1,20 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "Buffalo",
+    "license": "CC-BY-NC-SA-4.0",
+    "$kref": "#/ckan/kerbalstuff/1199",
+    "depends": [
+        { "name": "WildBlueTools" }
+    ],
+    "recommends" : [
+        { "name" : "RasterPropMonitor-Core" },
+        { "name" : "ASETProps" },
+        { "name" : "ASETAvionics" }
+    ],
+    "install" : [
+        {
+            "find"       : "Buffalo",
+            "install_to" : "GameData/WildBlueIndustries"
+        }
+    ]
+}

@@ -5,5 +5,8 @@
     "identifier": "SensibleScreenshot",
 	"install"	:	[ { "find" : "SensibleScreenshot",
 					"install_to" : "GameData",
-					"filter" : "SensibleScreenshot.cs"} ]
+					"filter" : "SensibleScreenshot.cs"} ],
+	"depends": [
+        { "name": "MagiCore" }
+    ]
 }

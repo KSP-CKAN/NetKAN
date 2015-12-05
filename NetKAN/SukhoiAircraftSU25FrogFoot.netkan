@@ -1,0 +1,20 @@
+{
+    "spec_version": "v1.4",
+    "$kref": "#/ckan/kerbalstuff/1247",
+    "identifier": "SukhoiAircraftSU25FrogFoot",
+    "license": "WTFPL",
+    "depends": [
+        { "name": "FirespitterCore" },
+        { "name": "BahamutoDynamicsPartsPack"}
+    ],
+    "recommends": [
+        { "name": "BDArmory" },
+        { "name": "AdjustableLandingGear"}
+    ],
+    "install": [
+        {
+            "find"       : "SU25_Frog_Foot",
+            "install_to" : "GameData/Skunk_Works"
+        }
+    ]
+}

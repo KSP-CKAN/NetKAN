@@ -1,20 +1,26 @@
 {
-    "spec_version"   : 1,
+    "spec_version"   : "v1.4",
     "name"           : "USI Life Support",
     "identifier"     : "USI-LS",
     "$kref"          : "#/ckan/github/BobPalmer/USI-LS",
+    "$vref"          : "#/ckan/ksp-avc",
     "author"         : "RoverDude",
     "abstract"       : "UmbraSpaceIndustries take on life support",
     "license"        : "CC-BY-NC-SA-4.0",
     "release_status" : "stable",
-    "$vref"          : "#/ckan/ksp-avc",
     "resources" : {
         "homepage" : "http://forum.kerbalspaceprogram.com/threads/116790"
     },
     "install" : [
         {
-            "file"       : "GameData/UmbraSpaceIndustries",
-            "install_to" : "GameData"
+            "find"       : "UmbraSpaceIndustries/LifeSupport",
+            "install_to" : "GameData/UmbraSpaceIndustries"
+        }
+    ],
+    "depends" : [
+        {
+            "name": "ModuleManager",
+            "min_version": "2.5.1"
         }
     ]
 }

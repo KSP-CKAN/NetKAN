@@ -1,27 +1,28 @@
 {
-    "spec_version": 1,
-    "identifier": "SigmaModExpansions",
-    "$kref": "#/ckan/kerbalstuff/816",
-    "license": "CC-BY-NC-SA-4.0",
-    "provides": [
-        "SigmaOPMExpansion",
-        "SigmaRTExpansion"
-    ],
+    "spec_version" : "v1.4",
+    "identifier"   : "SigmaModExpansions",
+    "$kref"        : "#/ckan/github/Sigma88/Sigma-OuterSpaceComms",
+    "$vref"        : "#/ckan/ksp-avc",
+    "name"         : "Sigma: OuterSpaceComms",
+    "abstract"     : "A set of 3 antennas designed to probe deep into outer space.",
+    "license"      : "CC-BY-NC-SA-4.0",
+    "author"       : "Sigma88",
     "depends": [
-        { "name": "ModuleManager" }
-    ],
-    "recommends": [
-        { "name": "OuterPlanetsMod" },
+        { "name": "ModuleManager" },
         { "name": "RemoteTech" }
     ],
-    "conflicts": [
-        { "name": "SigmaOPMExpansion" },
-        { "name": "SigmaRTExpansion" }
+    "suggests": [
+        { "name": "OuterPlanetsMod" }
     ],
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/112095"
+    },
     "install": [
         {
-            "file": "GameData/Sigma",
-            "install_to": "GameData"
+            "find": "OuterSpaceComms",
+            "install_to": "GameData/Sigma"
         }
-    ]
+    ],
+    "x_netkan_epoch": "1",
+    "comment": "This mod used to be packaged differently but is now repackaged to allow an upgrade path."
 }

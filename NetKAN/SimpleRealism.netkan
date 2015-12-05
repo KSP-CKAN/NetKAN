@@ -1,0 +1,18 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "SimpleRealism",
+    "license": "MIT",
+    "$kref": "#/ckan/kerbalstuff/1205",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/135782"
+    },
+    "depends": [
+        { "name": "RealismOverhaul" }
+    ],
+    "install": [
+        {
+            "find"       : "GameData/SimpleRealism",
+            "install_to" : "GameData"
+        }
+    ]
+}

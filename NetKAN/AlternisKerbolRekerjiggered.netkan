@@ -1,0 +1,34 @@
+{
+    "identifier": "AlternisKerbolRekerjiggered",
+    "spec_version": "v1.4",
+    "license": "CC-BY-NC-4.0",
+    "$kref": "#/ckan/kerbalstuff/1143",
+    "depends": [
+        { "name": "Kopernicus", "version": "1:beta-04" }
+    ],
+    "recommends": [
+        { "name": "DistantObject" },
+        { "name": "PlanetShine" },
+        { "name": "AlternisKerbolRekerjiggered-flags" }
+    ],
+    "install": [
+        {
+            "find"       : "AlternisKerbol",
+            "install_to" : "GameData"
+        },
+        {
+            "find"       : "Kopernicus/Cache",
+            "install_to" : "GameData/Kopernicus"
+        }
+    ],
+    "x_netkan_override" : [
+        {
+            "version" : "1.4.2",
+            "delete" : [ "ksp_version" ],
+            "override" : {
+                "ksp_version_min" : "1.0.2",
+                "ksp_version_max" : "1.0.4"
+            }
+        }
+    ]
+}

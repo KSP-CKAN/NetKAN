@@ -1,0 +1,18 @@
+{
+    "$kref": "#/ckan/kerbalstuff/1232",
+    "spec_version": "v1.4",
+    "identifier": "KSAIVAUpgrade",
+    "license": "MIT",
+    "depends": [
+        { "name": "RasterPropMonitor" },
+        { "name": "ASETProps" },
+        { "name": "ASETAvionics" },
+        { "name": "ModuleManager" }
+    ],
+    "install": [
+        {
+            "find"       : "IVAUpgrade",
+            "install_to" : "GameData/KSA"
+        }
+    ]
+}

@@ -1,13 +1,16 @@
 {
     "spec_version"   : 1,
     "$kref"          : "#/ckan/github/BobPalmer/UmbraSpaceIndustries",
+    "$vref"          : "#/ckan/ksp-avc",
     "name"           : "USI Tools",
     "author"         : "RoverDude",
     "identifier"     : "USITools",
     "abstract"       : "Common libraries for Umbra Space Industries mods",
     "license"        : "CC-BY-NC-SA-4.0",
     "release_status" : "stable",
-	"ksp_version" : "1.0",
+    "resources": {
+        "homepage": "http://bobpalmer.github.io/UmbraSpaceIndustries/"
+    },
     "provides"       : [ "USI-Tools" ],
     "install" : [
         {

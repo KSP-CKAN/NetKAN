@@ -4,16 +4,17 @@
     "license": "WTFPL",
     "identifier": "A7Corsair2",
     "depends": [
-        { "name" : "AdjustableLandingGear" },
-        { "name": "AircraftIVAHelmet"}
+        { "name": "FirespitterCore" },
+        { "name": "BahamutoDynamicsPartsPack"}
     ],
-    "suggests": [
-        { "name" : "BDArmory" }
+    "recommends": [
+        { "name": "BDArmory" },
+        { "name": "AdjustableLandingGear"}
     ],
     "install": [
         {
             "file"       : "A7CorsairII",
-            "install_to" : "GameData"
+            "install_to" : "GameData/Skunk_Works"
         }
     ]
 }

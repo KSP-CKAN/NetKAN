@@ -1,0 +1,17 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "StrykersAerospaceandIVAs",
+    "$kref": "#/ckan/kerbalstuff/1289",
+    "license": "CC-BY-SA",
+    "depends": [
+        { "name": "RasterPropMonitor" },
+        { "name": "ASETProps" },
+        { "name": "ASETAvionics" }
+    ],
+    "install": [
+        {
+            "find"       : "Stryker Aerospace",
+            "install_to" : "GameData"
+        }
+    ]
+}

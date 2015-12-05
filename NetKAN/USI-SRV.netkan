@@ -1,13 +1,13 @@
 {
-    "spec_version"   : 1,
+    "spec_version"   : "v1.4",
     "name"           : "USI Survival Pack",
     "identifier"     : "USI-SRV",
     "$kref"          : "#/ckan/github/BobPalmer/SrvPack",
+    "$vref"          : "#/ckan/ksp-avc",
     "author"         : "RoverDude",
     "abstract"       : "Deployable Emergency Reentry Pod (DERP)",
-    "license"        : "CC-BY-NC-SA",
+    "license"        : "CC-BY-NC-SA-4.0",
     "release_status" : "stable",
-	"ksp_version" : "1.0",
     "resources" : {
         "homepage" : "http://forum.kerbalspaceprogram.com/threads/84359"
     },
@@ -31,8 +31,8 @@
     ],
     "install" : [
         {
-            "file"       : "GameData/UmbraSpaceIndustries",
-            "install_to" : "GameData"
+            "find"       : "UmbraSpaceIndustries/SrvPack",
+            "install_to" : "GameData/UmbraSpaceIndustries"
         }
     ]
 }

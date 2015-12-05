@@ -1,0 +1,15 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "TheMartianRockets",
+    "license": "CC-BY-NC-SA-3.0",
+    "$kref": "#/ckan/kerbalstuff/1192",
+    "depends": [
+        { "name": "ProceduralFairings" }
+    ],
+    "install": [
+        {
+            "file"       : "TheDunatian",
+            "install_to" : "GameData"
+        }
+    ]
+}

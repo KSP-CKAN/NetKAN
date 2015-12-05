@@ -5,13 +5,13 @@
     "license": "CC-BY-NC-4.0",
     "install": [
         {
-            "file": "GameData/64k",
+            "file": "64k/GameData/64k",
             "install_to": "GameData"
         }
     ],
     "depends": [
-        { "name": "ModuleManager", "min_version": "2.6.6" },
-        { "name": "Kopernicus", "min_version": "pre-alpha-07" }
+        { "name": "ModuleManager" },
+        { "name": "Kopernicus", "version": "1:beta-04" }
     ],
     "suggests": [
         { "name": "ProceduralParts" },

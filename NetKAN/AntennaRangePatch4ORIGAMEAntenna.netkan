@@ -1,0 +1,17 @@
+{
+    "identifier": "AntennaRangePatch4ORIGAMEAntenna",
+    "spec_version": "v1.4",
+    "$kref": "#/ckan/kerbalstuff/1245",
+    "license": "WTFPL",
+    "depends": [
+        { "name": "origameFoldableAssets" },
+        { "name": "ModuleManager" },
+        { "name": "AntennaRange" }
+    ],
+    "install": [
+        {
+            "find"      : "AntennaRangePatch4ORIGAMEAntenna",
+            "install_to": "GameData"
+        }
+    ]
+}

@@ -5,20 +5,17 @@
     "identifier": "EagleTransporterSP1999",
     "install": [
         {
-            "file"       : "Booster",
-            "install_to" : "GameData/Eagle Transporter/Booster"
-        },
-        {
-            "file"       : "Eagle_Transporter",
-            "install_to" : "GameData/Eagle Transporter/Eagle_Transporter"
-        },
-        {
-            "file"       : "PODS",
-            "install_to" : "GameData/Eagle Transporter/PODS"
+            "file"       : "Eagle_Transporter/Eagle_Transporter",
+            "install_to" : "GameData/Skunk_Works"
         }
     ],
     "depends": [
-        { "name": "BDAnimationModules" },
-        { "name": "RCSLandAid"}
+        { "name": "FirespitterCore" },
+        { "name": "BahamutoDynamicsPartsPack"},
+        { "name": "RCSLandAid" }
+    ],
+    "recommends": [
+        { "name": "BDArmory" },
+        { "name": "AdjustableLandingGear"}
     ]
 }
