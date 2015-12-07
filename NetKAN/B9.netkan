@@ -4,12 +4,11 @@
   "$kref"        : "#/ckan/kerbalstuff/132",
   "license"      : "CC-BY-NC-SA-3.0",
   "depends" : [
+    { "name" : "B9-props" },
     { "name" : "CrossFeedEnabler" },
-    { "name" : "FirespitterCore" },
     { "name" : "KineTechAnimation" },
     { "name" : "KlockheedMartian-Gimbal" },
     { "name" : "ModuleManager", "min_version" : "2.5.1" },
-    { "name" : "RasterPropMonitor-Core" },
     { "name" : "ResGen" },
     { "name" : "VirginKalactic-NodeToggle" }
   ],
@@ -20,7 +19,8 @@
   "install" : [
     {
       "file"       : "GameData/B9_Aerospace",
-      "install_to" : "GameData"
+      "install_to" : "GameData",
+      "filter"     : "Props"
     },
     {
       "file"        : "Ships",
