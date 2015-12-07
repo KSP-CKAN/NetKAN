@@ -4,8 +4,8 @@
     "identifier": "Mk2CockpitExpansion",
     "license": "CC-BY-NC-SA-4.0",
     "depends": [
-        { "name": "RasterPropMonitor" },
-        { "name": "B9" }
+        { "name": "RasterPropMonitor-Core" },
+        { "name": "B9-props" }
     ],
     "recommends": [
         { "name": "BDArmory" },
