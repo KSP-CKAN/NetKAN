@@ -6,11 +6,15 @@
     "depends": [
         { "name": "ModuleManager" },
         { "name": "CommunityResourcePack" },
+        { "name": "InterstellarFuelSwitch-Core" },
+        { "name": "DavonTCsystemsMod" },
         { "name": "CryoEngines" }
     ],
     "recommends": [
-        { "name": "ModularFuelTanks" },
-        { "name": "InterstellarFuelSwitch-Core" }
+        { "name": "HotRockets" },
+        { "name": "FerramAerospaceResearch" },
+        { "name": "KerbalJointReinforcement" },
+        { "name": "RealChute" }
     ],
     "conflicts": [
         { "name": "RealismOverhaul" },
