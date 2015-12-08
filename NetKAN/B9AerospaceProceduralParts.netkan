@@ -16,5 +16,15 @@
             "file": "GameData/B9_Aerospace",
             "install_to": "GameData"
         }
+    ],
+    "x_netkan_override" : [
+        {
+            "version" : "0.40",
+            "delete" : [ "ksp_version" ],
+            "override" : {
+                "ksp_version_min" : "1.0.4",
+                "ksp_version_max" : "1.0.5"
+            }
+        }
     ]
 }
