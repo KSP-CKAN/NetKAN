@@ -1,42 +1,43 @@
 {
-    "spec_version"   : 1,
+    "spec_version"   : "v1.4",
     "name"           : "USI Asteroid Recycling Technologies",
     "identifier"     : "USI-ART",
     "$kref"          : "#/ckan/github/BobPalmer/ART",
+    "$vref"          : "#/ckan/ksp-avc",
     "author"         : "RoverDude",
     "abstract"       : "Allows you to remove asteroid mass and attach multiple reconfigurable storage tanks to the asteroid's surface.",
-    "license"        : "CC-BY-NC-SA",
+    "license"        : "CC-BY-NC-SA-4.0",
     "release_status" : "stable",
-    "ksp_version"    : "0.90",
     "resources" : {
         "homepage" : "http://forum.kerbalspaceprogram.com/threads/91790"
     },
     "depends" : [
         {
           "name": "FirespitterCore",
-          "min_version": "7.0.5398.27328"
+          "min_version": "v7.1.5"
         },
         {
           "name": "ModuleManager",
-          "min_version": "2.5.1"
+          "min_version": "2.6.13"
         },
         {
           "name": "USITools",
-          "min_version": "0.2.4"
+          "min_version": "0.5.4"
         },
         {
           "name": "CommunityResourcePack",
-          "min_version": "0.2.3"
+          "min_version": "0.4.8"
         },
         {
-          "name": "Regolith",
-          "min_version": "0.1.0"
+          "name": "USI-Core",
+          "min_version": "0.1.2"
         }
     ],
     "install" : [
         {
-            "file"       : "GameData/ART",
-            "install_to" : "GameData"
+            "find"       : "UmbraSpaceIndustries/ART",
+            "install_to" : "GameData/UmbraSpaceIndustries"
         }
-    ]
+    ],
+    "x_netkan_epoch": "1"
 }
