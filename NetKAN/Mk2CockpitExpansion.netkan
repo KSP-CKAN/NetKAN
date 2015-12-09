@@ -1,8 +1,21 @@
 {
     "$kref": "#/ckan/kerbalstuff/644",
-    "spec_version": 1,
+    "spec_version": "v1.4",
     "identifier": "Mk2CockpitExpansion",
-    "license": "CC-BY-NC-SA-3.0",
-	"install" : [ { "file" : "AoATech",
-					"install_to" : "GameData" } ]
+    "license": "CC-BY-NC-SA-4.0",
+    "depends": [
+        { "name": "RasterPropMonitor-Core" },
+        { "name": "B9-props" }
+    ],
+    "recommends": [
+        { "name": "BDArmory" },
+        { "name": "FerramAerospaceResearch" }
+    ],
+    "install": [
+        {
+            "find" : "AoATech",
+            "install_to" : "GameData",
+            "filter" : "Thumbs.db"
+        }
+    ]
 }
