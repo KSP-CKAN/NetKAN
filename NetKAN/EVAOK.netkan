@@ -1,0 +1,12 @@
+{
+    "$kref": "#/ckan/kerbalstuff/1326",
+    "spec_version": "v1.10",
+    "license": "MIT",
+    "identifier": "EVAOK",
+    "install": [
+        {
+            "find_regexp": "EVAOK.*",
+            "install_to" : "GameData"
+        }
+    ]
+}
