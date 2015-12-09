@@ -5,16 +5,20 @@
   "license"      : "CC-BY-NC-SA-3.0",
   "depends" : [
     { "name" : "B9-props" },
-    { "name" : "CrossFeedEnabler" },
-    { "name" : "KineTechAnimation" },
+    { "name" : "FirespitterCore" },
     { "name" : "KlockheedMartian-Gimbal" },
-    { "name" : "ModuleManager", "min_version" : "2.5.1" },
-    { "name" : "ResGen" },
-    { "name" : "VirginKalactic-NodeToggle" }
+    { "name" : "ModuleManager", "min_version" : "2.6.13" },
+    { "name" : "RasterPropMonitor-Core" },
+    { "name" : "SmokeScreen" },
+    { "name" : "B9AnimationModules" }
   ],
   "recommends" : [
-    { "name" : "HotRockets" },
+    { "name" : "AdjustableLandingGear" },
+    { "name" : "B9AerospaceProceduralParts" },
     { "name" : "AerodynamicModel" }
+  ],
+  "conflicts" : [
+    { "name" : "VirginKalactic-NodeToggle" }
   ],
   "install" : [
     {
@@ -23,10 +27,8 @@
       "filter"     : "Props"
     },
     {
-      "file"        : "Ships",
-      "install_to"  : "Ships",
-      "optional"    : true,
-      "description" : "B9 example crafts"
+      "file"       : "GameData/Virgin Kalactic",
+      "install_to" : "GameData"
     }
   ]
 }
