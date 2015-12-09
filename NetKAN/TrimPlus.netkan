@@ -2,7 +2,7 @@
     "spec_version" : 1,
     "identifier"   : "TrimPlus",
     "$kref"        : "#/ckan/github/ItMustBeACamel/KSP_TrimPlus",
-	"$vref"		   : "#/ckan/ksp-avc",
+    "$vref"        : "#/ckan/ksp-avc",
     "name"         : "TrimPlus",
     "abstract"     : "Key bindings for trim controls",
     "license"      : "GPL-3.0",
