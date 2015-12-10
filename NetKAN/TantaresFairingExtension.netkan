@@ -6,5 +6,11 @@
     "depends": [
         { "name": "ModuleManager" },
         { "name": "TantaresLV" }
+    ],
+    "install": [
+        {
+            "file"       : "TantaresFairings",
+            "install_to" : "GameData"
+        }
     ]
 }
