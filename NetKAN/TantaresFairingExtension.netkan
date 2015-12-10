@@ -1,0 +1,16 @@
+{
+    "spec_version": 1,
+    "identifier": "TantaresFairingExtension",
+    "$kref": "#/ckan/kerbalstuff/1341",
+    "license": "MIT",
+    "depends": [
+        { "name": "ModuleManager" },
+        { "name": "TantaresLV" }
+    ],
+    "install": [
+        {
+            "file"       : "TantaresFairings",
+            "install_to" : "GameData"
+        }
+    ]
+}
