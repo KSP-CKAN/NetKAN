@@ -1,0 +1,15 @@
+{
+    "spec_version": 1,
+    "identifier": "PossiblePropulsion",
+    "$kref": "#/ckan/kerbalstuff/1331",
+    "license": "unknown",
+    "depends": [
+        { "name": "ModuleManager" }
+    ],
+    "install": [
+        {
+            "file"       : "PossiblePropulsion",
+            "install_to" : "GameData"
+        }
+    ]
+}
