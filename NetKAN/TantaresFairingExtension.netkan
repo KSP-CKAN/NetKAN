@@ -10,7 +10,8 @@
     "install": [
         {
             "file"       : "TantaresFairings",
-            "install_to" : "GameData"
+            "install_to" : "GameData",
+            "filter"     : "Source Code.txt"
         }
     ]
 }
