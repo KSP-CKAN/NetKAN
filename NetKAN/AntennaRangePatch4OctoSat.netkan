@@ -1,0 +1,17 @@
+{
+    "spec_version": 1,
+    "identifier": "AntennaRangePatch4OctoSat",
+    "$kref": "#/ckan/kerbalstuff/1339",
+    "license": "WTFPL",
+    "depends": [
+        { "name": "ModuleManager" },
+        { "name": "AntennaRange" },
+        { "name": "OctoSat" }
+    ],
+    "install": [
+        {
+            "file"       : "OctoSat.cfg",
+            "install_to" : "GameData"
+        }
+    ]
+}
