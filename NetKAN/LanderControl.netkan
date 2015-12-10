@@ -1,0 +1,12 @@
+{
+    "spec_version" : 1,
+    "identifier"   : "LanderControl",
+    "$kref"        : "#/ckan/kerbalstuff/1343",
+
+    "install": [
+        {
+            "file"       : "HAIT",
+            "install_to" : "GameData"
+	}
+    ]
+}
