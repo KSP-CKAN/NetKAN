@@ -1,0 +1,15 @@
+{
+    "spec_version": 1,
+    "identifier": "BetterCrewAssignment",
+    "$kref": "#/ckan/kerbalstuff/1340",
+    "license": "MIT",
+    "depends": [
+        { "name": "ModuleManager" }
+    ],
+    "install": [
+        {
+            "find"       : "BetterCrewAssignment",
+            "install_to" : "GameData"
+        }
+    ]
+}
