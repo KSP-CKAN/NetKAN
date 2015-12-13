@@ -9,7 +9,7 @@
     "author": "nightingale",
     "$vref": "#/ckan/ksp-avc",
     "description": "A config-file based solution for creating new contracts!",
-    "ksp_version_strict" : "true",
+    "ksp_version_strict" : true,
     "suggests": [
         { "name": "CoherentContracts" },
         { "name": "ContractsWindowPlus" },
