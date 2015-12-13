@@ -36,7 +36,7 @@
 			"override" : {
 				"comment": "Compatible with any KSP version with the same planets.",
 				"ksp_version_min": "0.18.2",
-				"ksp_version_max": "1.1"
+				"ksp_version_max": "1.0.5"
 			},
 			"delete" : [ "ksp_version" ]
 		}
