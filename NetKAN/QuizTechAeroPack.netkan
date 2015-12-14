@@ -5,7 +5,6 @@
     "license": "CC-BY-4.0",
 	"depends": [
 		{ "name": "FirespitterCore" },
-		{ "name": "ModuleRCSFX" },
 		{ "name": "BDAnimationModules" },
         { "name": "RasterPropMonitor-Core" },
         { "name": "ModuleManager"}

@@ -1,16 +1,11 @@
 {
     "spec_version": "v1.4",
-    "license": "LGPL-3.0",
-    "$kref": "#/ckan/kerbalstuff/1000",
-    "identifier": "Asclepius",
-    "x_netkan_epoch": "1",
-    "x_netkan_force_v": true,
+    "identifier": "SaruPlanetPack",
+    "$kref": "#/ckan/kerbalstuff/1335",
+    "license": "CC-BY-NC-SA-4.0",
     "depends": [
         { "name": "ModuleManager" },
         { "name": "Kopernicus", "min_version": "1:beta-05-2" }
-    ],
-    "suggests": [
-        { "name": "Asclepius-clouds" }
     ],
     "conflicts": [
         { "name": "BilliardsPlanetPack" },
@@ -19,8 +14,9 @@
     ],
     "install": [
         {
-            "find"       : "Asclepius",
-            "install_to" : "GameData"
+            "find"       : "SaruPack",
+            "install_to" : "GameData",
+            "filter"     : "Thumbs.db"
         }
     ]
 }

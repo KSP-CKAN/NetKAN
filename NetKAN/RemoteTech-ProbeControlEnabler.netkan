@@ -1,5 +1,5 @@
 {
-    "spec_version"   : "v1.4",
+    "spec_version"   : "v1.16",
     "$kref"          : "#/ckan/github/Felger/FelgerFixes",
     "ksp_version"    : "1.0",
     "name"           : "RemoteTech - Probe Control Enabler",
@@ -12,8 +12,9 @@
     ],
     "install" : [
         {
-            "file"       : "GameData/ZZZ_FelgerFixes/RT_ProbeRemover.cfg",
-            "install_to" : "GameData/ZZZ_FelgerFixes"
+            "find"               : "RT_ProbeRemover.cfg",
+            "find_matches_files" : true,
+            "install_to"         : "GameData/ZZZ_FelgerFixes"
         }
     ]
 }

@@ -4,14 +4,14 @@
     "$kref"        : "#/ckan/github/Alewx/FShangarExtender",
     "name"         : "Hangar Extender",
     "abstract"     : "Extends the usable area when building in the SPH or VAB, so you can build outside or above the building. Useful for building large aircraft carriers or tall rockets.",
-    "author"       : "Alewx",
+    "author"       : [ "Snjo", "Alewx" ],
     "license"      : "CC-BY-4.0",
-    "ksp_version"  : "1.0.4",
+    "ksp_version"  : "1.0.5",
     "resources": {
         "homepage": "https://github.com/Alewx/FShangarExtender",
         "repository": "https://github.com/Alewx/FShangarExtender"
     },
-	"install": [
+    "install": [
         {
             "file"       : "FShangarExtender",
             "install_to" : "GameData"
