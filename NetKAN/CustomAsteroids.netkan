@@ -38,7 +38,8 @@
 		{
 			"version" : "v1.2.0",
 			"override" : {
-				"ksp_version_min": "1.0.0"
+				"ksp_version_min": "1.0.0",
+				"ksp_version_max": "1.0.5"
 			},
 			"delete" : [ "ksp_version" ]
 		}
