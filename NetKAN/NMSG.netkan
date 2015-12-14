@@ -2,18 +2,18 @@
     "spec_version" : 1,
     "identifier"   : "NMSG",
     "$kref"        : "#/ckan/kerbalstuff/924",
-    "x_netkan_license_ok": true,
-	"depends": [
+    "depends": [
         { "name": "ModuleManager", "min_version": "2.6.0" }
     ],
+    "x_netkan_license_ok": true,
     "x_netkan_override" : [
 	{
 	    "version" : "1.3",
 	    "delete" : [ "ksp_version" ],
 	    "override" : {
-		"ksp_version_min" : "1.0.4",
+		"ksp_version_min" : "1.0.3",
 		"ksp_version_max" : "1.0.5"
 	    }
 	}
-    ],
+    ]
 }
