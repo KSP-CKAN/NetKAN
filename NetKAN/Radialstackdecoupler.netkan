@@ -1,0 +1,12 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "Radialstackdecoupler",
+    "$kref": "#/ckan/kerbalstuff/1348",
+    "license": "CC-BY-NC-SA-3.0",
+    "install": [
+        {
+            "find"       : "GameData/M22Ind",
+            "install_to" : "GameData"
+        }
+    ]
+}
