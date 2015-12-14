@@ -1,0 +1,12 @@
+{
+    "spec_version": 1,
+    "identifier": "BearPodMKI",
+    "$kref": "#/ckan/kerbalstuff/1347",
+    "license": "restricted",
+    "install": [
+        {
+            "file"       : "BearPod_MKI",
+            "install_to" : "GameData"
+        }
+    ]
+}
