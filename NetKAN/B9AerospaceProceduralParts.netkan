@@ -11,6 +11,9 @@
     "depends": [
         { "name": "CrossFeedEnabler" }
     ],
+    "conflicts": [
+	    { "name": "B9-PWings-Fork" }
+    ],
     "install": [
         {
             "file": "GameData/B9_Aerospace",
