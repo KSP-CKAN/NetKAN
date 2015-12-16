@@ -1,0 +1,27 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "Joshwoo69sRandommods",
+    "$kref": "#/ckan/kerbalstuff/1256",
+    "license": "GPL-2.0",
+    "recommends": [
+        { "name": "B9" },
+        { "name": "BDArmory" },
+        { "name": "DeepFreeze" },
+        { "name": "ExtraPlanetaryLaunchpads" },
+        { "name": "Karbonite" },
+        { "name": "KarbonitePlus" },
+        { "name": "KSPInterstellarExtended" },
+        { "name": "KWRocketry" },
+        { "name": "NearFutureElectrical" },
+        { "name": "NearFuturePropulsion" },
+        { "name": "RemoteTech" },
+        { "name": "TACLS" },
+        { "name": "TweakScale" }
+    ],
+    "install": [
+        {
+            "find"       : "JWpatches",
+            "install_to" : "GameData"
+        }
+    ]
+}
