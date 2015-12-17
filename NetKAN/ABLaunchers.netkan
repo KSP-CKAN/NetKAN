@@ -5,7 +5,7 @@
     "identifier": "ABLaunchers",
     "install": [
         {
-            "file"       : "GameData/AB_Launchers",
+            "find"       : "GameData/AB_Launchers",
             "install_to" : "GameData"
         }
     ]
