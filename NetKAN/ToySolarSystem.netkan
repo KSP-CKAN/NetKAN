@@ -7,17 +7,22 @@
         { "name": "Kopernicus", "min_version": "1:beta-05-2" }
     ],
     "conflicts": [
+        { "name": "AlternisKerbolRekerjiggered" },
         { "name": "Asclepius" },
         { "name": "BilliardsPlanetPack" },
         { "name": "KPlus" },
         { "name": "NewHorizons" },
+        { "name": "OtherWorlds" },
         { "name": "OuterPlanetsMod" },
         { "name": "RealSolarSystem" },
+        { "name": "SaruPlanetPack" },
         { "name": "SigmaBinary-core" },
         { "name": "SigmaJoolRecolor" },
         { "name": "SigmaPluronKhato" },
         { "name": "SigmaStockRecolor" },
-        { "name": "SmallSolarSystem" }
+        { "name": "SmallSolarSystem" },
+        { "name": "UnchartedLands" },
+        { "name": "WinterKerbol" }
     ],
     "x_netkan_override" : [
         {
