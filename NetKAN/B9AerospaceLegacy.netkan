@@ -1,0 +1,21 @@
+{
+    "spec_version"   : 1,
+    "identifier"     : "B9AerospaceLegacy",
+	"$kref"          : "#/ckan/kerbalstuff/1356",
+	"$vref"          : "#/ckan/ksp-avc",
+    "author"         : "bac9",
+    "abstract"       : "B9 parts which will no longer be updated and minimally maintained - modular wings, landing gear",
+    "license"        : "CC-BY-NC-SA-3.0",
+    "resources": {
+        "homepage" : "http://forum.kerbalspaceprogram.com/threads/92630"
+    },
+    "depends" : [
+        { "name" : "B9", "min_version" : "5.4.0" }
+    ],
+    "install" : [
+        {
+            "file"       : "GameData/B9_Aerospace_Legacy",
+            "install_to" : "GameData"
+        }
+    ]
+}
