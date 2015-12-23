@@ -2,7 +2,11 @@
     "identifier": "AlternisKerbolRekerjiggered",
     "spec_version": "v1.4",
     "license": "CC-BY-NC-4.0",
-    "$kref": "#/ckan/kerbalstuff/1143",
+    "$kref": "#/ckan/github/GregroxMun/Alternis-Kerbol-Rekerjiggered",
+    "ksp_version": "1.0.5",
+    "name": "Alternis Kerbol Rekerjiggered",
+    "abstract": "Alternis, God of Change and Difference decided to smite the hell out of the Kerbals' home solar system, and this is what happened.",
+    "author": "GregroxMun",    
     "depends": [
         { "name": "ModuleManager" },
         { "name": "Kopernicus", "min_version": "1:beta-05-2" }
