@@ -1,19 +1,15 @@
 {
-    "spec_version" : 1,
+    "spec_version" : "v1.4",
     "identifier"   : "CoherentContracts",
     "$kref"        : "#/ckan/kerbalstuff/333",
     "license"      : "BSD-3-clause",
+    "release_status" : "stable",
     "depends" : [
         { "name" : "ModuleManager" }
     ],
-    "x_netkan_override": [
+    "install" : [
         {
-            "version": "1.02",
-            "delete": [ "ksp_version" ],
-            "override": {
-                "ksp_version_min": "1.0.2",
-                "ksp_version_max": "1.0.4"
-            }
+            "install_to" : "GameData/CoherentContracts"
         }
     ]
 }
