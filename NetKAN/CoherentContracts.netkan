@@ -3,13 +3,13 @@
     "identifier"   : "CoherentContracts",
     "$kref"        : "#/ckan/kerbalstuff/333",
     "license"      : "BSD-3-clause",
+    "release_status" : "stable",
     "depends" : [
         { "name" : "ModuleManager" }
     ],
     "install" : [
         {
-            "find"       : "CoherentContracts",
-            "install_to" : "GameData"
+            "install_to" : "GameData/CoherentContracts"
         }
     ]
 }
