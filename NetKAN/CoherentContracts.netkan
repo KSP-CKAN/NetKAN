@@ -6,14 +6,4 @@
     "depends" : [
         { "name" : "ModuleManager" }
     ],
-    "x_netkan_override": [
-        {
-            "version": "1.02",
-            "delete": [ "ksp_version" ],
-            "override": {
-                "ksp_version_min": "1.0.2",
-                "ksp_version_max": "1.0.4"
-            }
-        }
-    ]
 }
