@@ -1,9 +1,9 @@
 {
     "spec_version" : 1,
-    "identifier"   : "CoherentContracts",
-    "$kref"        : "#/ckan/kerbalstuff/333",
-    "license"      : "BSD-3-clause",
+    "identifier"   : "Coherent Contracts",
+    "$kref"        : "#ckan/kerbalstuff/333",
+    "x_netkan_license_ok": true,
     "depends" : [
         { "name" : "ModuleManager" }
-    ],
+    ]
 }
