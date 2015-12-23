@@ -1,19 +1,9 @@
 {
     "spec_version" : 1,
-    "identifier"   : "CoherentContracts",
+    "identifier"   : "Coherent Contracts",
     "$kref"        : "#/ckan/kerbalstuff/333",
-    "license"      : "BSD-3-clause",
+    "x_netkan_license_ok": true,
     "depends" : [
         { "name" : "ModuleManager" }
-    ],
-    "x_netkan_override": [
-        {
-            "version": "1.02",
-            "delete": [ "ksp_version" ],
-            "override": {
-                "ksp_version_min": "1.0.2",
-                "ksp_version_max": "1.0.4"
-            }
-        }
     ]
 }
