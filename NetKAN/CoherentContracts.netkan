@@ -9,7 +9,7 @@
     "install": [
         {
             "file"       : "CoherentContracts.cfg",
-            "install_to" : "GameData"
+            "install_to" : "GameData/CoherentContracts"
         }
     ],
     "x_netkan_override": [
