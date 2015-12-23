@@ -6,16 +6,6 @@
     "depends" : [
         { "name" : "ModuleManager" }
     ],
-    "x_netkan_override": [
-        {
-            "version": "1.03",
-            "delete": [ "ksp_version" ],
-            "override": {
-                "ksp_version_min": "1.0.2",
-                "ksp_version_max": "1.0.5"
-            }
-        }
-    ],
     "install" : [
         {
             "find"       : "CoherentContracts",
