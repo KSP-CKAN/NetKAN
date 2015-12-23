@@ -6,6 +6,12 @@
     "depends" : [
         { "name" : "ModuleManager" }
     ],
+    "install": [
+        {
+            "file"       : "CoherentContracts.cfg",
+            "install_to" : "GameData"
+        }
+    ],
     "x_netkan_override": [
         {
             "version": "1.02",
