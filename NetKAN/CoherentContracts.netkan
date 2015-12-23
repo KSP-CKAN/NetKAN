@@ -15,5 +15,11 @@
                 "ksp_version_max": "1.0.5"
             }
         }
+    ],
+    "install" : [
+        {
+            "find"       : "CoherentContracts",
+            "install_to" : "GameData"
+        }
     ]
 }
