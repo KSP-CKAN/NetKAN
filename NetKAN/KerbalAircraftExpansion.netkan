@@ -13,7 +13,8 @@
 			"comment": "Example crafts are installed to SPH subdirectory instead."
 		},
 		{
-			"find": "Example Craft",
+			"find_regexp": "Example.Craft.*craft",
+			"find_matches_files": true,
 			"install_to": "Ships/SPH"
 		}
 	],
