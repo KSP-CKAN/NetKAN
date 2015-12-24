@@ -2,10 +2,14 @@
     "$kref": "#/ckan/kerbalstuff/1361",
     "spec_version": "v1.4",
     "license": "CC-BY-NC-SA-4.0",
-    "identifier": "USISubmarinePack",
+    "identifier": "USI-Submarine",
     "install": [
       {
-        "find" : ["FX", "SubPack"],
+        "find" : "FX",
+        "install_to" : "GameData/UmbraSpaceIndustries"
+      },
+      {
+        "find" : "SubPack",
         "install_to" : "GameData/UmbraSpaceIndustries"
       }
     ],
