@@ -9,6 +9,7 @@
             "install_to" : "GameData/Skunk_Works"
         }
     ],
+    "x_netkan_epoch": "1",
     "depends": [
         { "name": "FirespitterCore" },
         { "name": "BahamutoDynamicsPartsPack"},
