@@ -1,0 +1,18 @@
+{
+    "$kref": "#/ckan/kerbalstuff/1361",
+    "spec_version": "v1.4",
+    "license": "CC-BY-NC-SA-4.0",
+    "identifier": "USISubmarinePack",
+    "install": [
+      {
+        "find" : ["FX", "SubPack"],
+        "install_to" : "GameData/UmbraSpaceIndustries"
+      }
+    ],
+    "depends" : [
+      { "name" : "USITools", "min_version": "0.5.5.0"  },
+      { "name": "FirespitterCore", "min_version": "v7.1.5" },
+      { "name": "ModuleManager", "min_version": "2.6.2" },
+      { "name": "CommunityResourcePack", "min_version": "0.4.8.0" }
+    ]
+}
