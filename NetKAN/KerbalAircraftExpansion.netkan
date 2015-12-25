@@ -11,11 +11,6 @@
 			"install_to": "GameData",
 			"filter" : "Example Craft",
 			"comment": "Example crafts are installed to SPH subdirectory instead."
-		},
-		{
-			"find_regexp": "Example.Craft.*craft",
-			"find_matches_files": true,
-			"install_to": "Ships/SPH"
 		}
 	],
 	"depends": [
