@@ -4,6 +4,16 @@
     "release_status" : "development",
     "license"        : "GPL-3.0",
     "$kref"          : "#/ckan/kerbalstuff/48",
+    "x_netkan_override" : [
+	    {
+	        "version" : "v0.6.4.1",
+	        "delete" : [ "ksp_version" ],
+	        "override" : {
+	    	    "ksp_version_min" : "1.0.0",
+	    	    "ksp_version_max" : "1.0.99"
+	        }
+	    }
+    ],
     "resources" : {
         "homepage"     : "http://forum.kerbalspaceprogram.com/threads/85798",
         "bugtracker"   : "https://github.com/IRnifty/KerbalMechanics/issues",
