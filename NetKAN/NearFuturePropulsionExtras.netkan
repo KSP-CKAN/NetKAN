@@ -14,6 +14,6 @@
         { "name" : "NearFuturePropulsion" }
     ],
     "install" : [
-        { "find" : "HydrogenNTRs", "install_to" : "GameData/NearFuturePropulsion/Extras" }
+        { "find" : "Extras", "install_to" : "GameData/NearFuturePropulsion" }
     ]
 }
