@@ -9,7 +9,8 @@
         { "name": "Kopernicus", "min_version": "1:beta-05-2" }
     ],
     "recommends": [
-        { "name": "KopernicusExpansion" }
+        { "name": "KopernicusExpansion" },
+        { "name": "SigmaBinary-core", "min_version": "1:v1.3.2" }
     ],
     "conflicts": [
         { "name": "BilliardsPlanetPack" },
