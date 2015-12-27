@@ -10,7 +10,6 @@
         { "name" : "ModuleManager" }
     ],
     "recommends": [
-        { "name" : "HeatControl-Core" },
         { "name" : "CommunityTechTree" }
     ],
     "suggests": [
