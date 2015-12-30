@@ -6,7 +6,7 @@
 	"name": "Chang Zheng 2 Launch System",
 	"abstract": "Chang Zheng (Long March) 2 launch system from China",
 	"depends": [
-		{ "name": "ProceduralFairings-Textures" },
+		{ "name": "ProceduralFairings" },
 		{ "name": "ProceduralFairings-Textures-TJCCA" }
 	],
 	"recommends": [
