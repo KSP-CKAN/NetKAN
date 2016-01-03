@@ -10,9 +10,12 @@
     },
     "depends" : [
         { "name": "SpacetuxSA" },
-	{ "name": "ContractConfigurator", "min_version": "1.9.2" },
+	{ "name": "ContractConfigurator", "min_version": "1.9.2.1" },
         { "name": "ModuleManager" }
 
+    ],
+    "recommends": [
+        { "name": "WaypointManager" }
     ],
     "install" : [
         {
