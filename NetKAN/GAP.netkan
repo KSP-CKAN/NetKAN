@@ -1,0 +1,29 @@
+{
+	"spec_version" : 1,
+	"identifier"   : "GAP",
+	"$kref"        : "#/ckan/kerbalstuff/1385",
+	"x_netkan_license_ok": true,
+
+	"depends": [
+		{ "name": "ContractConfigurator" }
+	],
+
+	"recommends": [
+		{ "name": "TakeCommand" },
+		{ "name": "KerbalAircraftExpansion" }
+	],
+
+	"suggests": [
+		{ "name": "WaypointManager" },
+		{ "name": "KAS" },
+		{ "name": "Ceteras-Suit-Pack" }
+	],
+
+	"install": [
+		{
+			"file"       : "GameData/ContractPacks",
+			"install_to" : "GameData"
+		}
+	]
+
+}
