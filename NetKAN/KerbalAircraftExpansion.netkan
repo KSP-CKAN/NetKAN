@@ -4,6 +4,7 @@
 	"$kref" : "#/ckan/kerbalstuff/391",
 	"license" : "GPL-3.0",
 	"x_netkan_license_ok": true,
+    "x_netkan_epoch": "1",
 	"install" : [
 		{
 			"file": "KAX",
