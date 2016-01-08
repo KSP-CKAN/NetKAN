@@ -2,11 +2,11 @@
     "identifier": "AlternisKerbolRekerjiggered-flags",
     "spec_version": "v1.4",
     "license": "CC-BY-NC-4.0",
-    "$kref": "#/ckan/kerbalstuff/1143",
+    "$kref": "#/ckan/github/GregroxMun/Alternis-Kerbol-Rekerjiggered",
     "ksp_version": "any",
     "name": "Alternis Kerbol Rekerjiggered Flags",
     "abstract": "Provides flags from Alternis Kerbol Rekerjiggered",
-    "comments": "flagmod",
+    "author": "GregoxMun",
     "install": [
         {
             "find"       : "AlternisKerbolFlags",
