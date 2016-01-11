@@ -21,8 +21,8 @@
 
 	"install": [
 		{
-			"file"       : "GameData/ContractPacks",
-			"install_to" : "GameData"
+			"find"       : "GAP",
+			"install_to" : "GameData/ContractPacks"
 		}
 	]
 
