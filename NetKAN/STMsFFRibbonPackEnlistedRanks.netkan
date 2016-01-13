@@ -1,0 +1,17 @@
+
+{
+    "license": "CC-BY-NC-SA-3.0",
+    "comment": "Kerbalstuff licence string is jurisdictional CC BY-NC-SA AU 3.0",
+    "$kref": "#/ckan/kerbalstuff/1394",
+    "spec_version": "v1.4",
+    "identifier": "STMsFFRibbonPackEnlistedRanks",
+    "install": [
+      { 
+        "find": "GameData/STMRankRibbons",
+        "install_to": "GameData"
+      }
+    ],
+    "depends": [
+      { "name": "FinalFrontier" }
+    ]
+}
