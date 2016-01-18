@@ -1,5 +1,5 @@
 {
-	"spec_version" : 1,
+	"spec_version" : "v1.4",
 	"identifier"   : "GAP",
 	"$kref"        : "#/ckan/kerbalstuff/1385",
 	"x_netkan_license_ok": true,
@@ -10,7 +10,8 @@
 
 	"recommends": [
 		{ "name": "TakeCommand" },
-		{ "name": "KerbalAircraftExpansion" }
+		{ "name": "KerbalAircraftExpansion" },
+		{ "name": "VNG-Parachute-EVALoading" }
 	],
 
 	"suggests": [
@@ -21,8 +22,8 @@
 
 	"install": [
 		{
-			"file"       : "GameData/ContractPacks",
-			"install_to" : "GameData"
+			"find"       : "GAP",
+			"install_to" : "GameData/ContractPacks"
 		}
 	]
 
