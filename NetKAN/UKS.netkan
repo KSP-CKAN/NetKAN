@@ -23,6 +23,14 @@
         {
             "find"       : "UmbraSpaceIndustries/Kolonization",
             "install_to" : "GameData/UmbraSpaceIndustries"
+        },
+        {
+            "find"       : "UmbraSpaceIndustries/UKS",
+            "install_to" : "GameData/UmbraSpaceIndustries"
+        },
+        {
+            "file"       : "GameData/UmbraSpaceIndustries/EL_USI.cfg",
+            "install_to" : "GameData/UmbraSpaceIndustries"
         }
     ],
     "depends" : [
@@ -58,6 +66,9 @@
         },
         {
             "name": "OKS"
+        },
+        {
+            "name": "USI-MKSLite"
         }
     ],
     "x_netkan_epoch": "1"
