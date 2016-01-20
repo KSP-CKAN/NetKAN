@@ -5,7 +5,7 @@
     "identifier": "STMsFFRibbonPackOperationsRoles",
     "install": [
       { 
-        "find": "GameData/STMRankRibbons",
+        "find": "GameData/STMRibbons",
         "install_to": "GameData"
       }
     ],
