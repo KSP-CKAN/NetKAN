@@ -5,7 +5,7 @@
     "identifier": "STMsFFRibbonPackExpeditionRibbons",
     "install": [
       { 
-        "find": "GameData/STMRankRibbons",
+        "find": "GameData/STMRibbons",
         "install_to": "GameData"
       }
     ],
