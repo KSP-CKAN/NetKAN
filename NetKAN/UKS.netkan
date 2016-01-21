@@ -21,15 +21,7 @@
     },
     "install" : [
         {
-            "find"       : "UmbraSpaceIndustries/Kolonization",
-            "install_to" : "GameData/UmbraSpaceIndustries"
-        },
-        {
             "find"       : "UmbraSpaceIndustries/UKS",
-            "install_to" : "GameData/UmbraSpaceIndustries"
-        },
-        {
-            "file"       : "GameData/UmbraSpaceIndustries/EL_USI.cfg",
             "install_to" : "GameData/UmbraSpaceIndustries"
         }
     ],
@@ -52,6 +44,9 @@
         },
         {
             "name": "USI-Core"
+        },
+        {
+            "name": "USI-Kolonization"
         }
     ],
     "suggests" : [
