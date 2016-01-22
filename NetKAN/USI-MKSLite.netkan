@@ -10,6 +10,7 @@
     "depends": [
         { "name": "USITools" },
         { "name": "USI-Core" },
+        { "name": "USI-Kolonization" },
         { "name": "FirespitterCore" },
         { "name": "ModuleManager" }
     ],
