@@ -20,7 +20,7 @@
         { "name" : "KerbalAtomics" }
     ],
     "supports" : [
-        { "name" : "CryoEngines-LFO" }
+        { "name" : "CryoEngines-LFO" },
         { "name" : "CryoEngines-SurfaceAttach" }
     ],
     "install" : [
