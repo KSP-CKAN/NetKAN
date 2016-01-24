@@ -5,7 +5,7 @@
     "identifier": "STMsFFRibbonPackEnlistedRanks",
     "install": [
       { 
-        "find": "GameData/STMRankRibbons",
+        "find": "GameData/STMRibbons",
         "install_to": "GameData",
         "filter": "README.txt"
       }
