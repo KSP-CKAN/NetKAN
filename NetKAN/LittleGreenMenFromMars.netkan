@@ -4,7 +4,7 @@
     "license": "CC-BY-NC-4.0",
     "$kref": "#/ckan/kerbalstuff/1412",
     "depends": [
-        { "name": "RealSolarSystem" },
+        { "name": "Kopernicus" },
         { "name": "ModuleManager" }
     ],
     "recommends": [
@@ -14,7 +14,8 @@
         { "name": "NearFutureElectrical" },
         { "name": "NearFuturePropulsion" },
         { "name": "NearFutureSolar" },
-        { "name": "USI-SRV" }
+        { "name": "USI-SRV" },
+        { "name": "InlineBallutes" }        
     ],
     "install": [
         {
