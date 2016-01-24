@@ -6,10 +6,12 @@
     "install": [
       { 
         "find": "GameData/STMRankRibbons",
-        "install_to": "GameData"
+        "install_to": "GameData",
+        "filter": "README.txt"
       }
     ],
     "depends": [
-      { "name": "FinalFrontier" }
+      { "name": "FinalFrontier",
+        "min_version": "0.9.1" }
     ]
 }
