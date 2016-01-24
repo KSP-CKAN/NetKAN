@@ -1,7 +1,18 @@
 {
-    "x_via": "Automated KerbalStuff CKAN submission",
-    "license": "None",
+    "license": "MIT",
     "$kref": "#/ckan/kerbalstuff/1389",
     "spec_version": "v1.4",
-    "identifier": "KerbalKrashSystem"
+    "identifier": "KerbalKrashSystem",
+    "install": [
+        {
+            "find": "KerbalKrashSystem",
+            "install_to": "GameData"
+        }
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager",
+            "min_version": "2.6.17"
+        }
+    ]
 }
