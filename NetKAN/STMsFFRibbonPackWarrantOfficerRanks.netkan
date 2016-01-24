@@ -5,7 +5,7 @@
     "identifier": "STMsFFRibbonPackWarrantOfficerRanks",
     "install": [
       { 
-        "find": "GameData/STMRankRibbons",
+        "find": "GameData/STMRibbons",
         "install_to": "GameData",
         "filter": "README.txt"
       }
