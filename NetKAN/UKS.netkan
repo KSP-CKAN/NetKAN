@@ -24,6 +24,10 @@
             "find"       : "UmbraSpaceIndustries/Kolonization",
             "install_to" : "GameData/UmbraSpaceIndustries"
         }
+        {
+            "find"       : "UmbraSpaceIndustries/UKS",
+            "install_to" : "GameData/UmbraSpaceIndustries"
+        }
     ],
     "depends" : [
         {
