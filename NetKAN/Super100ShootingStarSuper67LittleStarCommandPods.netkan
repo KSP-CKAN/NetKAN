@@ -1,7 +1,12 @@
 {
     "$kref": "#/ckan/kerbalstuff/1368",
-    "x_via": "Automated KerbalStuff CKAN submission",
     "spec_version": "v1.4",
-    "license": "Creative Commons Attribution 4.0",
-    "identifier": "Super100ShootingStarSuper67LittleStarCommandPods"
+    "license": "CC-BY-4.0",
+    "identifier": "Super100ShootingStarSuper67LittleStarCommandPods",
+    "install": [
+        { 
+            "find" : "RaptorAerospacial",
+            "install_to" : "GameData"
+        }
+    ]
 }
