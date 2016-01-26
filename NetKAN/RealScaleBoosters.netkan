@@ -1,0 +1,18 @@
+{
+	"spec_version" : 1,
+	"identifier"   : "RealScaleBoosters",
+	"$kref"         : "#/ckan/kerbalstuff/1435",
+	"$vref" : "#/ckan/ksp-avc",
+	"x_netkan_license_ok": true,
+	"depends": [
+		{ "name": "ModuleManager" }
+	],
+	"recommends": [
+		{ "name": "HangarExtender" },
+		{ "name": "KerbalJointReinforcement" }
+	],
+	"suggests": [
+	  { "name": "RealSolarSystem" },
+	  { "name": "CommunityTechTree" }
+	]
+}
