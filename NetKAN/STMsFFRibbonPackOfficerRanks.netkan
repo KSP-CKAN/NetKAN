@@ -6,8 +6,7 @@
     "install": [
       { 
         "find": "GameData/STMRibbons",
-        "install_to": "GameData",
-        "filter": "README.txt"
+        "install_to": "GameData"
       }
     ],
     "depends": [
