@@ -5,7 +5,8 @@
     "$kref": "#/ckan/kerbalstuff/1412",
     "depends": [
         { "name": "Kopernicus" },
-        { "name": "ModuleManager" }
+        { "name": "ModuleManager" },
+        { "name": "RSSTextures" } 
     ],
     "recommends": [
         { "name": "ETT" },
@@ -16,6 +17,9 @@
         { "name": "NearFutureSolar" },
         { "name": "USI-SRV" },
         { "name": "InlineBallutes" }        
+    ],
+    "conflicts": [
+        { "name": "RealSolarSystem"}
     ],
     "install": [
         {
