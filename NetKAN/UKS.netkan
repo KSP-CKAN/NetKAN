@@ -1,5 +1,5 @@
 {
-    "spec_version"   : "v1.4",
+    "spec_version"   : "v1.5",
     "name"           : "USI Kolonization Systems (MKS/OKS)",
     "identifier"     : "UKS",
     "$kref"          : "#/ckan/github/BobPalmer/MKS",
@@ -22,6 +22,9 @@
     "install" : [
         {
             "find"       : "UmbraSpaceIndustries/Kolonization",
+            "install_to" : "GameData/UmbraSpaceIndustries"
+            
+            "find"       : "UmbraSpaceIndustries/UKS",
             "install_to" : "GameData/UmbraSpaceIndustries"
         }
     ],
