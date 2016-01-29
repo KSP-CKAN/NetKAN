@@ -1,0 +1,26 @@
+{
+    "spec_version"   : "v1.4",
+    "$kref"          : "#/ckan/github/BobPalmer/Kolonization",
+    "$vref"          : "#/ckan/ksp-avc",
+    "name"           : "USI Kolonization",
+    "author"         : "RoverDude",
+    "identifier"     : "USI-Kolonization",
+    "abstract"       : "All of the shared resources used by UKS and MKS-Lite",
+    "license"        : "CC-BY-NC-SA-4.0",
+    "release_status" : "stable",
+    "resources": {
+        "homepage": "http://bobpalmer.github.io/UmbraSpaceIndustries/"
+    },
+    "depends" : [
+        { "name" : "USITools" },
+        { "name" : "CommunityResourcePack" },
+        { "name" : "FirespitterCore" },
+        { "name" : "ModuleManager" }
+    ],
+    "install" : [
+        {
+            "find"       : "UmbraSpaceIndustries/Kolonization",
+            "install_to" : "GameData/UmbraSpaceIndustries"
+        }
+    ]
+}
