@@ -1,7 +1,21 @@
 {
     "$kref": "#/ckan/kerbalstuff/1362",
     "x_via": "Automated KerbalStuff CKAN submission",
-    "spec_version": "v1.4",
+    "spec_version": 1,
     "license": "MIT",
-    "identifier": "ZPEPropulsionSystem"
+    "identifier": "ZPEPropulsionSystem",
+    "suggests": [
+        {
+            "name": "RustyStarRockets"
+        },
+        {
+            "name": "RustyTexturesForProceduralParts"
+        }
+    ],
+    "install": [
+        {
+            "file": "RSR_ZPE",
+            "install_to": "GameData"
+        }
+    ]
 }
