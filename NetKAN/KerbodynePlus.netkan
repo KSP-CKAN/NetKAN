@@ -2,6 +2,23 @@
     "$kref": "#/ckan/kerbalstuff/1437",
     "identifier": "KerbodynePlus",
     "spec_version": "v1.4",
-    "x_via": "Automated KerbalStuff CKAN submission",
-    "license": "CC BY 3.0"
+    "license": "CC-BY-NC-SA-3.0"
+    "resources": {
+        "github": "https://github.com/bonus-eventus/kerbodynePlus",
+        "x_screenshot": "https://kerbalstuff.com/content/BonusEventus_11562/Kerbodyne_Plus/Kerbodyne_Plus-1453861859.7761555.png"
+    },
+    "conflicts": [
+        { "name": "KerbodynePlus01Alpha" }
+    ],
+    "install": [
+        {
+            "file": "kerbodynePlus/GameData/kerbodynePlus",
+            "install_to": "GameData",
+            "filter": ".DS_Store"
+        },
+        {
+            "file": "kerbodynePlus/README.md",
+            "install_to": "GameData/kerbodynePlus"
+        }
+    ]
 }
