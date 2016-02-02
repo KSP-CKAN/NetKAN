@@ -3,6 +3,9 @@
     "identifier": "BearPodMKI",
     "$kref": "#/ckan/kerbalstuff/1347",
     "license": "restricted",
+    "resources": {
+        "homepage": "http://www.samuelesnow.com"
+    },
     "install": [
         {
             "file"       : "BearPod_MK1",
