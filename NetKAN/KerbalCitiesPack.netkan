@@ -1,0 +1,15 @@
+{
+    "license": "MIT",
+    "$kref": "#/ckan/kerbalstuff/1384",
+    "spec_version": "v1.4",
+    "identifier": "KerbalCitiesPack",
+    "depends": [
+        { "name": "KerbalKonstructs" }
+    ],
+    "install": [
+        {
+            "find": "hogrun",
+            "install_to":"GameData"
+        }
+    ]
+}
