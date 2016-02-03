@@ -3,6 +3,9 @@
     "$kref": "#/ckan/kerbalstuff/1380",
     "spec_version": "v1.4",
     "identifier": "Aerostats",
+    "depends": [
+        { "name": "CommunityResourcePack" }
+    ],
     "install": [
         {
             "find": "Aerostat",
