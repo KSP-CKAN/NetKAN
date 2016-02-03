@@ -6,7 +6,7 @@
     "depends": [
         { "name": "KAS" },
         { "name": "KIS" }
-    ]
+    ],
     "install": [
         {
             "find": "ExtraKerbinAssembly",
