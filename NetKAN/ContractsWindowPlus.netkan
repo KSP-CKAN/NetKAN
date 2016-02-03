@@ -10,6 +10,11 @@
 			"install_to": "GameData"
 		}
 	],
+	"depends": [
+		{
+			"name": "ProgressParser"
+		}
+	],
 	"suggests": [
 	{
 	  "name": "CapCom"
