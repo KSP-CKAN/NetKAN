@@ -1,7 +1,16 @@
 {
     "$kref": "#/ckan/kerbalstuff/1378",
-    "x_via": "Automated KerbalStuff CKAN submission",
     "spec_version": "v1.4",
     "license": "BSD",
-    "identifier": "KASAssembledAreobrakingShield"
+    "identifier": "KASAssembledAreobrakingShield",
+    "depends": [
+        { "name": "KAS" },
+        { "name": "KIS" }
+    ]
+    "install": [
+        {
+            "find": "ExtraKerbinAssembly",
+            "install_to": "GameData"
+        }
+    ]
 }
