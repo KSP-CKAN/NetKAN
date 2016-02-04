@@ -13,12 +13,12 @@
     },
     "depends": [
         { "name": "ModuleManager" },
-        { "name": "Kopernicus", "min_version": "1:beta-05-2" }
+        { "name": "Kopernicus", "min_version": "1:beta-05-2" },
+        { "name": "RSSTextures" }
     ],
     "recommends": [
         { "name": "RealismOverhaul" },
-        { "name": "KSCSwitcher" },
-        { "name": "RSSTextures" }
+        { "name": "KSCSwitcher" }
     ],
     "install": [
         {
