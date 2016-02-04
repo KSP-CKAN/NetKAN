@@ -5,7 +5,7 @@
     "$kref": "#/ckan/kerbalstuff/700",
     "x_netkan_force_v": true,
     "spec_version": "v1.4",
-    "x_netkan_epoch": "1",
+    "x_netkan_epoch": "2",
     "install" : [ {
         "find" : "scatterer",
         "install_to" : "GameData"
