@@ -2,6 +2,11 @@
     "$kref": "#/ckan/kerbalstuff/1426",
     "identifier": "WalkAbout",
     "spec_version": "v1.4",
-    "x_via": "Automated KerbalStuff CKAN submission",
-    "license": "GPLv3"
+    "license": "GPL-3.0",
+    "install": [
+        {
+            "find": "WalkAbout",
+            "install_to": "GameData",
+            "filter": "source"
+        }
 }
