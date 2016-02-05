@@ -1,23 +1,7 @@
 {
-  "spec_version": 1,
-  "identifier": "SoundingRockets",
-  "author": "RoverDude",
-  "$kref": "#/ckan/github/BobPalmer/SoundingRockets",
-  "name": "Sounding Rockets!",
-  "abstract": "Adds a series of low tech sounding rockets to the 'start' node.",
-  "license": "CC-BY-NC-SA-4.0",
-  "ksp_version": "1.0",
-  "resources": {
-    "homepage": "http://forum.kerbalspaceprogram.com/threads/102502",
-    "repository": "https://github.com/BobPalmer/SoundingRockets"
-  },
-  "install": [
-    {
-      "file": "GameData/UmbraSpaceIndustries",
-      "install_to": "GameData"
-    }
-  ],
-  "depends": [
-    { "name": "USITools" }
-  ]
+    "spec_version": "v1.2",
+	"identifier"		: "SoundingRockets",
+	"author"			: "RoverDude",
+	"$kref"				: "#/ckan/netkan/https://raw.githubusercontent.com/BobPalmer/CKAN/master/SoundingRockets.netkan",
+    "x_netkan_license_ok": true
 }
