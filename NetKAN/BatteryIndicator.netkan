@@ -1,7 +1,29 @@
 {
-    "x_via": "Automated KerbalStuff CKAN submission",
-    "license": "GPLv2",
+    "license": "GPL-2.0",
     "$kref": "#/ckan/kerbalstuff/1408",
-    "spec_version": "v1.4",
-    "identifier": "BatteryIndicator"
+    "spec_version": "v1.16",
+    "author": [ "pizzaoverhead", "darkona" ],
+    "identifier": "BatteryIndicator",
+    "depends": [
+        {
+            "name": "ModuleManager",
+            "min_version": "2.6.13"
+        }
+    ],
+    "install": [
+        {
+            "find":"GameData/BatteryIndicator",
+            "install_to": "GameData"
+        },
+        {
+            "find":"Readme - BatteryIndicator.txt",
+            "install_to": "GameData/BatteryIndicator",
+            "find_matches_files": true
+        },
+        {
+            "find": "BatteryIndicator.txt",
+            "install_to": "GameData/BatteryIndicator",
+            "find_matches_files": true
+        }
+    ]
 }
