@@ -1,7 +1,12 @@
 {
-    "x_via": "Automated KerbalStuff CKAN submission",
-    "license": "Creative Commons  Attribution-NonCommercial-ShareAlike 4.0 International License.",
+    "license": "CC-BY-NC-SA-4.0",
     "$kref": "#/ckan/kerbalstuff/1406",
     "spec_version": "v1.4",
-    "identifier": "PrakasaAeroworks"
+    "identifier": "PrakasaAeroworks",
+    "resources": {
+	    "homepage":"http://forum.kerbalspaceprogram.com/index.php?/topic/129967-105-prakasa-aeroworks/"
+    },
+    "recommends": [
+	    { "name": "RasterPropMonitor" }
+    ]
 }
