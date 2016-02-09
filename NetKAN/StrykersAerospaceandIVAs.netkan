@@ -6,11 +6,17 @@
     "depends": [
         { "name": "RasterPropMonitor" },
         { "name": "ASETProps" },
-        { "name": "ASETAvionics" }
+        { "name": "ASETAvionics" },
+        { "name": "FirespitterCore" },
+        { "name": "BDArmory" }
     ],
     "install": [
         {
-            "find"       : "Stryker Aerospace",
+            "find"       : "StrykerAerospace",
+            "install_to" : "GameData"
+        },
+        {
+            "find"       : "StrykerArmory",
             "install_to" : "GameData"
         }
     ]
