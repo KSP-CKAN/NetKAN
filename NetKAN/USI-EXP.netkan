@@ -2,5 +2,6 @@
     {
         "spec_version" : "v1.16",
         "identifier" : "USI-EXP",
-        "$kref" : "#/ckan/netkan/https://raw.githubusercontent.com/BobPalmer/CKAN/master/USI-EXP.netkan"
+        "$kref" : "#/ckan/netkan/https://raw.githubusercontent.com/BobPalmer/CKAN/master/USI-EXP.netkan",
+        "x_netkan_license_ok": true
     }

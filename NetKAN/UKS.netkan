@@ -2,5 +2,6 @@
     {
         "spec_version" : "v1.16",
         "identifier" : "UKS",
-        "$kref" : "#/ckan/netkan/https://raw.githubusercontent.com/BobPalmer/CKAN/master/UKS.netkan"
+        "$kref" : "#/ckan/netkan/https://raw.githubusercontent.com/BobPalmer/CKAN/master/UKS.netkan",
+        "x_netkan_license_ok": true
     }

@@ -2,5 +2,6 @@
     {
         "spec_version" : "v1.16",
         "identifier" : "CommunityResourcePack",
-        "$kref" : "#/ckan/netkan/https://raw.githubusercontent.com/BobPalmer/CKAN/master/CommunityResourcePack.netkan"
+        "$kref" : "#/ckan/netkan/https://raw.githubusercontent.com/BobPalmer/CKAN/master/CommunityResourcePack.netkan",
+        "x_netkan_license_ok": true
     }

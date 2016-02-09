@@ -2,5 +2,6 @@
     {
         "spec_version" : "v1.16",
         "identifier" : "Karbonite",
-        "$kref" : "#/ckan/netkan/https://raw.githubusercontent.com/BobPalmer/CKAN/master/Karbonite.netkan"
+        "$kref" : "#/ckan/netkan/https://raw.githubusercontent.com/BobPalmer/CKAN/master/Karbonite.netkan",
+        "x_netkan_license_ok": true
     }
