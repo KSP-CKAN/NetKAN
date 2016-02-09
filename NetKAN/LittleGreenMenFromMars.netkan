@@ -2,10 +2,11 @@
     "spec_version": "v1.4",
     "identifier": "LittleGreenMenFromMars",
     "license": "CC-BY-NC-4.0",
-    "$kref": "#/ckan/kerbalstuff/1153",
+    "$kref": "#/ckan/kerbalstuff/1412",
     "depends": [
-        { "name": "RealSolarSystem" },
-        { "name": "ModuleManager" }
+        { "name": "Kopernicus" },
+        { "name": "ModuleManager" },
+        { "name": "RSSTextures" } 
     ],
     "recommends": [
         { "name": "ETT" },
@@ -14,7 +15,11 @@
         { "name": "NearFutureElectrical" },
         { "name": "NearFuturePropulsion" },
         { "name": "NearFutureSolar" },
-        { "name": "USI-SRV" }
+        { "name": "USI-SRV" },
+        { "name": "InlineBallutes" }        
+    ],
+    "conflicts": [
+        { "name": "RealSolarSystem"}
     ],
     "install": [
         {

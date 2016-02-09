@@ -1,0 +1,20 @@
+{
+    "spec_version": "v1.4",
+    "$kref": "#/ckan/kerbalstuff/1268",
+    "identifier": "Mq9PredatorDrone",
+    "license": "WTFPL",
+    "depends": [
+        { "name": "FirespitterCore" },
+        { "name": "BahamutoDynamicsPartsPack"}
+    ],
+    "recommends": [
+        { "name": "BDArmory" },
+        { "name": "AdjustableLandingGear"}
+    ],
+    "install": [
+        {
+            "find"       : "Drone_Predator",
+            "install_to" : "GameData/Skunk_Works"
+        }
+    ]
+}

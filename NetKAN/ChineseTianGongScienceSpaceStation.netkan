@@ -1,0 +1,12 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "ChineseTianGongScienceSpaceStation",
+    "$kref": "#/ckan/kerbalstuff/1273",
+    "license": "CC-BY-NC-SA-4.0",
+    "install": [
+        {
+            "find"       : "tiangong",
+            "install_to" : "GameData"
+        }
+    ]
+}

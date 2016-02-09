@@ -1,0 +1,16 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "EvaHandrailsKISCompatibility",
+    "license": "GPL-2.0",
+    "$kref": "#/ckan/kerbalstuff/1196",
+    "depends": [
+        { "name": "KIS" },
+        { "name": "EVAHandrailsPackContinued" }
+    ],
+    "install": [
+        {
+            "file"       : "EVA-Handrail-KIS-master",
+            "install_to" : "GameData"
+        }
+    ]
+}

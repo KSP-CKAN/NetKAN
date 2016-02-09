@@ -1,0 +1,12 @@
+{
+    "spec_version" : 1,
+    "identifier"   : "TrimPlus",
+    "$kref"        : "#/ckan/github/ItMustBeACamel/KSP_TrimPlus",
+    "$vref"        : "#/ckan/ksp-avc",
+    "name"         : "TrimPlus",
+    "abstract"     : "Key bindings for trim controls",
+    "license"      : "GPL-3.0",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/127318-105-trimplus-key-bindings-for-trim-controls"
+    }
+}

@@ -1,5 +1,6 @@
 {
     "$kref": "#/ckan/kerbalstuff/817",
+    "$vref": "#/ckan/ksp-avc",
     "spec_version" : "v1.4",
     "license"      : "MIT",
     "identifier"   : "EngineLighting",
@@ -13,7 +14,7 @@
     ],    
     "install"      : [
         {
-            "file"       : "EngineLight/GameData/EngineLight",
+            "find"       : "GameData/EngineLight",
             "install_to" : "GameData"
         }
     ],

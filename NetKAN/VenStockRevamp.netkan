@@ -1,5 +1,5 @@
 {
-    "spec_version" : 1,
+    "spec_version" : "v1.4",
     "identifier"   : "VenStockRevamp",
     "$kref"        : "#/ckan/github/VenVen/Stock-Revamp",
     "name"         : "Ven's Stock Part Revamp",
@@ -12,7 +12,13 @@
 	"resources" : {
         "homepage"     : "http://forum.kerbalspaceprogram.com/threads/92764"
     },
-        "x_netkan_override" : [
+    "install": [
+        {
+            "find"       : "VenStockRevamp",
+            "install_to" : "GameData"
+        }
+    ],
+    "x_netkan_override" : [
         {
             "version" : "v1.8.1",
             "delete" : [ "ksp_version" ],

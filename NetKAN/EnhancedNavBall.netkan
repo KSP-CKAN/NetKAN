@@ -2,5 +2,16 @@
 	"spec_version" : 1,
 	"identifier" : "EnhancedNavBall",
 	"$kref" : "#/ckan/kerbalstuff/411",
+	"x_netkan_override" : 
+	[
+		{
+			"version" : "1.3.6.0",
+			"delete" : [ "ksp_version" ],
+			"override" : {
+				"ksp_version_min" : "1.0.2",
+				"ksp_version_max" : "1.0.5"
+			}
+		}
+	],
 	"x_netkan_license_ok": true
 }

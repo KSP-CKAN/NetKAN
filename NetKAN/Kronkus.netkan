@@ -1,16 +1,12 @@
 {
-    "spec_version": "v1.4",
-    "identifier": "Kronkus",
-    "license": "CC0",
-    "$kref": "#/ckan/kerbalstuff/1152",
+    "spec_version" : 1,
+    "identifier"   : "Kronkus",
+    "$kref"        : "#/ckan/kerbalstuff/1152",
+    "license"      : "CC0",
+    "x_netkan_license_ok": true,
+    "x_netkan_force_v": true,
     "depends": [
-        { "name": "Kopernicus", "version": "1:beta-03-1" },
+        { "name": "Kopernicus", "min_version": "1:beta-05-2" },
         { "name": "ModuleManager" }
-    ],
-    "install": [
-        {
-            "find"       : "Kronkus",
-            "install_to" : "GameData"
-        }
     ]
 }

@@ -2,20 +2,27 @@
     "spec_version"   : "v1.4",
     "identifier"     : "CryoEngines",
     "$kref"          : "#/ckan/kerbalstuff/717",
+    "name"           : "Cryogenic Engines",
+    "abstract"       : "Several new rocket engines, running on liquid hydrogen/oxygen mix. High Isp, comes with simple boiloff mechanics. Extras available.",
     "release_status" : "stable",
     "license"        : "CC-BY-NC-SA-4.0",
-    "x_netkan_epoch": "1",
-    "depends" : [
-        { "name" : "InterstellarFuelSwitch-Core", "min_version" : "1.5" },
+    "x_netkan_epoch" : "1",
+    "depends": [
         { "name" : "CommunityResourcePack" },
-        { "name" : "BDAnimationModules" },
+        { "name" : "CryoTanks" },
+        { "name" : "DeployableEngines" },
+        { "name" : "InterstellarFuelSwitch-Core" },
         { "name" : "ModuleManager" }
     ],
-    "suggests" : [
+    "recommends" : [
         { "name" : "CommunityTechTree" }
     ],
+    "suggests" : [
+        { "name" : "KerbalAtomics" }
+    ],
     "supports" : [
-        { "name" : "CryoEngines-LFO" }
+        { "name" : "CryoEngines-LFO" },
+        { "name" : "CryoEngines-SurfaceAttach" }
     ],
     "install" : [
         { "find" : "CryoEngines", "install_to" : "GameData" }

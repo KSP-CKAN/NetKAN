@@ -1,0 +1,30 @@
+{
+    "spec_version" : "v1.2",
+    "identifier"   : "B9-props",
+    "name"         : "B9 Aerospace Props",
+    "$kref"        : "#/ckan/kerbalstuff/132",
+    "license"      : "CC-BY-NC-SA-3.0",
+    "depends" : [
+        { "name": "RasterPropMonitor-Core" },
+        { "name": "FirespitterCore" }
+    ],
+    "recommends": [
+        { "name": "B9" }
+    ],
+    "install" : [
+        {
+            "file"       : "GameData/B9_Aerospace/Props",
+            "install_to" : "GameData/B9_Aerospace"
+        }
+    ],
+    "x_netkan_override": [
+        {
+            "version": "R5.2.8",
+            "delete": [ "ksp_version" ],
+            "override": {
+                "ksp_version_min": "1.0.0",
+                "ksp_version_max": "1.0.5"
+            }
+        }
+    ]
+}

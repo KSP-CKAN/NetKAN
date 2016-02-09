@@ -5,8 +5,6 @@
     "spec_version": "v1.4",
 	"depends"		:	[ { "name" : "KopernicusTech" },
 						{ "name" : "ModuleManager" } ],
-	"provides": [ "PlanetPack" ],
-	"conflicts": [ { "name" : "PlanetPack" } ],
 	"install"		:	[ { "find" : "ForgottenWorlds",
 							"install_to" : "GameData" },
 						{ "find" : "KittopiaSpace",

@@ -1,0 +1,53 @@
+{
+    "identifier": "AlternisKerbolRekerjiggered",
+    "spec_version": "v1.4",
+    "license": "CC-BY-NC-4.0",
+    "$kref": "#/ckan/github/GregroxMun/Alternis-Kerbol-Rekerjiggered",
+    "ksp_version": "1.0.5",
+    "name": "Alternis Kerbol Rekerjiggered",
+    "abstract": "Alternis, God of Change and Difference decided to smite the hell out of the Kerbals' home solar system, and this is what happened.",
+    "author": "GregroxMun",    
+    "depends": [
+        { "name": "ModuleManager" },
+        { "name": "Kopernicus", "min_version": "1:beta-05-2" }
+    ],
+    "recommends": [
+        { "name": "DistantObject" },
+        { "name": "PlanetShine" },
+        { "name": "AlternisKerbolRekerjiggered-flags" }
+    ],
+    "conflicts": [
+        { "name": "Asclepius" },
+        { "name": "BilliardsPlanetPack" },
+        { "name": "KPlus" },
+        { "name": "NewHorizons" },
+        { "name": "OtherWorlds" },
+        { "name": "OuterPlanetsMod" },
+        { "name": "RealSolarSystem" },
+        { "name": "SaruPlanetPack" },
+        { "name": "SigmaBinary-core" },
+        { "name": "SigmaJoolRecolor" },
+        { "name": "SigmaPluronKhato" },
+        { "name": "SigmaStockRecolor" },
+        { "name": "SmallSolarSystem" },
+        { "name": "ToySolarSystem" },
+        { "name": "UnchartedLands" },
+        { "name": "WinterKerbol" }
+    ],
+    "install": [
+        {
+            "find"       : "AlternisKerbol",
+            "install_to" : "GameData"
+        }
+    ],
+    "x_netkan_override" : [
+        {
+            "version" : "1.4.2",
+            "delete" : [ "ksp_version" ],
+            "override" : {
+                "ksp_version_min" : "1.0.2",
+                "ksp_version_max" : "1.0.4"
+            }
+        }
+    ]
+}

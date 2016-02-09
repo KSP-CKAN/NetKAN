@@ -1,11 +1,12 @@
 {
     "spec_version"   : 1,
     "identifier"     : "StockPlus",
-    "$kref"          : "#/ckan/github/ClawKSP/KSP-Stock-Bug-Fix-Modules/asset_match/StockPlusController\\.zip",
+    "$kref"          : "#/ckan/github/ClawKSP/KSP-Stock-Bug-Fix-Modules/asset_match/StockPlusController.zip",
     "name"           : "Stock Plus",
     "abstract"       : "Enhancements of stock functionality",
     "license"        : "CC-BY-NC-SA-4.0",
-    "ksp_version"    : "1.0",
+    "ksp_version_min": "1.0.3",
+    "ksp_version_max": "1.0.4",
     "resources" : {
         "homepage" : "http://forum.kerbalspaceprogram.com/threads/97285",
         "repository": "https://github.com/ClawKSP/KSP-Stock-Bug-Fix-Modules"

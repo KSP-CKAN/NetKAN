@@ -1,0 +1,19 @@
+{
+    "spec_version": 1,
+    "identifier": "WernhersOldBits",
+    "$kref": "#/ckan/kerbalstuff/1345",
+    "license": "MIT",
+    "depends": [
+        { "name": "ModuleManager" }
+    ],
+    "recommends": [
+        { "name": "CommunityResourcePack" },
+        { "name": "RealPlume" }
+    ],
+    "install": [
+        {
+            "file"       : "WernhersOldStuff",
+            "install_to" : "GameData"
+        }
+    ]
+}

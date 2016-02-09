@@ -1,0 +1,13 @@
+{
+    "spec_version" : "v1.10",
+    "identifier"   : "KerbodynePlus01Alpha",
+    "license"      : "CC-BY-NC-SA-4.0",
+    "$kref"        : "#/ckan/kerbalstuff/906",
+    "install" : [
+        {
+            "file"       : "Custom",
+            "install_to" : "GameData",
+            "filter"     : ".DS_Store"
+        }
+    ]
+}

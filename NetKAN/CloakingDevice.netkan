@@ -1,0 +1,12 @@
+{
+    "identifier": "CloakingDevice",
+    "spec_version": "v1.4",
+    "$kref": "#/ckan/kerbalstuff/1217",
+    "license": "CC-BY-NC-SA-4.0",
+    "install": [
+        {
+            "find"       : "Cloak",
+            "install_to" : "GameData"
+        }
+    ]
+}

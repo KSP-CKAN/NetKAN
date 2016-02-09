@@ -1,0 +1,15 @@
+{
+    "spec_version": "v1.2",
+    "identifier": "Outboardmotor",
+    "$kref": "#/ckan/kerbalstuff/1302",
+    "license": "MIT",
+    "depends": [
+        { "name": "FirespitterCore" }
+    ],
+    "install": [
+        {
+            "file"       : "outboardmotor",
+            "install_to" : "GameData/kdufferskorp"
+        }
+    ]
+}

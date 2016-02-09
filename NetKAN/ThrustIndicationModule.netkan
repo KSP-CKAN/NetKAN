@@ -1,0 +1,12 @@
+{
+    "spec_version": "v1.10",
+    "identifier": "ThrustIndicationModule",
+    "$kref": "#/ckan/kerbalstuff/1319",
+    "license": "MIT",
+    "install": [
+        {
+            "find_regexp"   : "ThrustIndicationModule.v[\\d+.]{3,5}",
+            "install_to"    : "GameData"
+        }
+    ]
+}

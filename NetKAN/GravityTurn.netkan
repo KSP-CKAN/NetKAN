@@ -1,0 +1,20 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "GravityTurn",
+    "$kref": "#/ckan/github/johnfink8/GravityTurn",
+    "name"        : "GravityTurn",
+    "author"      : [ "Overengineer1" ],
+    "abstract"    : "Automated highly efficient launches",
+    "ksp_version" : "1.0.5",
+    "license"     : "GPL-3.0",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/129607-105-gravityturn-version-110-automated-efficient-launches/",
+        "repository": "https://github.com/johnfink8/GravityTurn"
+    },
+    "install" : [
+	{
+	    "find"       : "GravityTurn",
+	    "install_to" : "GameData"
+	}
+    ]
+}

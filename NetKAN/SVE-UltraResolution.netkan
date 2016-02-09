@@ -1,0 +1,24 @@
+{
+    "spec_version"   : "v1.2",
+    "$kref"          : "#/ckan/github/Nhawks1717/StockVisualEnhancements/asset_match/(?<=-UR)\\.zip$",
+    "identifier"     : "SVE-UltraResolution",
+    "name"           : "Stock Visual Enhancements - Ultra Resolution",
+    "abstract"       : "Ultra resolution textures for Stock Visual Enhancements",
+    "author"         : "Nhawks1717",
+    "license"        : "CC-BY-NC-SA",
+    "release_status" : "stable",
+    "resources": {
+        "repository": "https://github.com/Nhawks1717/StockVisualEnhancements"
+    },
+    "ksp_version": "1.0.5",
+    "provides": [ "SVE-Textures" ],
+    "conflicts": [
+        { "name": "SVE-Textures" }
+    ],
+    "install": [
+        {
+            "file"       : "GameData/StockVisualEnhancements/EVE",
+            "install_to" : "GameData/StockVisualEnhancements"
+        }
+    ]
+}

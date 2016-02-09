@@ -4,11 +4,12 @@
     "license": "CC-BY-SA-2.0",
     "$kref": "#/ckan/kerbalstuff/1131",
     "depends": [
-        { "name": "BDArmory" }
+        { "name": "BDArmory" },
+        { "name": "CommunityAmmunitionLibrary" }
     ],
     "install": [
         {
-            "find"       : "P.E.W",
+            "find"       : "PEW",
             "install_to" : "GameData"
         }
     ]
