@@ -5,6 +5,8 @@
     "identifier": "Asclepius-clouds",
     "name"        : "Asclepius Clouds",
     "abstract"    : "Provides clouds to Asclepius (requires Environmental Visual Enhancements)",
+    "x_netkan_epoch": "1",
+    "x_netkan_force_v": true,
     "depends": [
         { "name": "Asclepius" },
         { "name": "EnvironmentalVisualEnhancements"}

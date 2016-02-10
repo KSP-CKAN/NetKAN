@@ -8,8 +8,8 @@
     ],
     "install": [
         {
-            "find_regexp"   : "RoboBrakes.v[\\d+.]{5}",
-            "install_to"    : "GameData"
+            "find"       : "RoboBrakes",
+            "install_to" : "GameData"
         }
     ]
 }

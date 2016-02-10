@@ -3,6 +3,6 @@
     "spec_version": 1,
     "$kref": "#/ckan/kerbalstuff/619",
     "license": "unrestricted",
-	
-	"depends" : [ { "name": "KAS" } ]
+    "x_netkan_epoch" : "1",
+    "depends" : [ { "name": "KAS" } ]
 }

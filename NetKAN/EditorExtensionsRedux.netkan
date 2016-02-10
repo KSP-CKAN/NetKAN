@@ -1,0 +1,8 @@
+{
+    "identifier"          : "EditorExtensionsRedux",
+    "abstract"            : "Tweaks and features for the in-game vessel editor, e.g. alignment and symmetry aids. Now includes SelectRoot mod",
+    "x_netkan_license_ok" : true, 
+    "$kref"               : "#/ckan/kerbalstuff/1342", 
+    "$vref"               : "#/ckan/ksp-avc",
+    "spec_version"        : 1
+}

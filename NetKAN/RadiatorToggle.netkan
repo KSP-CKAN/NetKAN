@@ -1,0 +1,9 @@
+{
+    "$kref": "#/ckan/kerbalstuff/1274",
+    "spec_version": "v1.4",
+    "license": "MIT",
+    "identifier": "RadiatorToggle",
+    "depends": [
+        { "name": "ModuleManager" }
+    ]
+}

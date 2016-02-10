@@ -1,0 +1,13 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "FrozenTechnologies125mExpansion",
+    "$kref": "#/ckan/kerbalstuff/1287",
+    "license": "CC-BY-NC-SA-4.0",
+    "install": [
+        {
+            "find"       : "FrozenTechnologies",
+            "install_to" : "GameData",
+            "filter"     : "Source.txt"
+        }
+    ]
+}

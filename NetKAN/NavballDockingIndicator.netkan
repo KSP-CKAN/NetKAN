@@ -18,15 +18,16 @@
     ],
     
     "x_netkan_license_ok" : true,
+    "x_netkan_force_v": true,
     "x_netkan_override" :
     [
         {
-            "version" : "7",
+            "version" : "v7",
             "delete" : [ "ksp_version" ],
             "override" : 
             {
                 "ksp_version_min" : "1.0.2",
-                "ksp_version_max" : "1.0.4"
+                "ksp_version_max" : "1.0.5"
             }
         }
     ]

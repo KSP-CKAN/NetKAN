@@ -4,7 +4,7 @@
     "$kref"         : "#/ckan/kerbalstuff/1029",
     "license"       : "GPL-2.0",
 	"depends": [
-        { "name": "Kopernicus", "min_version": "1:beta-02-4"},
-        { "name" : "ModuleManager", "min_version": "2.6.6" }
+        { "name": "Kopernicus", "version": "1:beta-03-3" },
+        { "name" : "ModuleManager" }
     ]
 }

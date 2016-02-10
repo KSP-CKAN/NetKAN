@@ -12,8 +12,6 @@
         }
     ],
     "depends": [
-        { "name": "ModuleManager", "min_version": "2.6.6" },
-        { "name": "Kopernicus", "min_version": "pre-alpha-07" },
         { "name": "KSP-64k" }
     ]
 }

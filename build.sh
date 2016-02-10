@@ -3,7 +3,7 @@
 set -e
 
 # Default flags.
-KSP_VERSION_DEFAULT="1.0.4"
+KSP_VERSION_DEFAULT="1.0.5"
 KSP_NAME_DEFAULT="dummy"
 
 # Locations of CKAN and NetKAN.
@@ -283,18 +283,18 @@ do
 done
 
 # Test all the built files.
-for f in built/*.ckan
+for ckan in built/*.ckan
 do
-    if [ ! -e "$f" ]
+    if [ ! -e "$ckan" ]
     then
         echo "No ckan files to test"
         continue
     fi
 
-    echo "Checking $f"
+    echo "Checking $ckan"
     echo "----------------------------------------------"
     echo ""
-    cat $f | python -m json.tool
+    cat $ckan | python -m json.tool
     echo "----------------------------------------------"
     echo ""
     
@@ -310,8 +310,8 @@ do
     inject_metadata $OTHER_FILES
     
     # Extract identifier and KSP version.
-    CURRENT_IDENTIFIER=$($JQ_PATH '.identifier' $f)
-    CURRENT_KSP_VERSION=$($JQ_PATH 'if .ksp_version then .ksp_version else .ksp_version_max end' $f)
+    CURRENT_IDENTIFIER=$($JQ_PATH '.identifier' $ckan)
+    CURRENT_KSP_VERSION=$($JQ_PATH 'if .ksp_version then .ksp_version else .ksp_version_max end' $ckan)
     
     # Strip "'s.
     CURRENT_IDENTIFIER=${CURRENT_IDENTIFIER//'"'}
@@ -326,8 +326,8 @@ do
     echo "Running ckan update"
     mono ckan.exe update
     
-    echo "Running ckan install -c $f"
-    mono ckan.exe install -c $f --headless
+    echo "Running ckan install -c $ckan"
+    mono ckan.exe install -c $ckan --headless
     
     # Print list of installed mods.
     mono ckan.exe list --porcelain

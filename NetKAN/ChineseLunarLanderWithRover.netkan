@@ -1,0 +1,20 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "ChineseLunarLanderWithRover",
+    "$kref": "#/ckan/kerbalstuff/1350",
+    "license": "CC-BY-NC-SA-4.0",
+    "install": [
+        {
+            "find"       : "GameData/change",
+            "install_to" : "GameData"
+        },
+        {
+            "find"       : "SPH",
+            "install_to" : "Ships"
+        },
+        {
+            "find"       : "VAB",
+            "install_to" : "Ships"
+        }
+    ]
+}

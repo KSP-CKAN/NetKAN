@@ -1,20 +1,7 @@
-{
-    "spec_version"   : 1,
-    "$kref"          : "#/ckan/github/BobPalmer/CommunityResourcePack",
-    "name"           : "Community Resource Pack",
-    "author"         : "RoverDude",
-    "identifier"     : "CommunityResourcePack",
-    "abstract"       : "Common resources for KSP mods",
-    "license"        : "CC-BY-NC-SA-4.0",
-    "release_status" : "stable",
-    "ksp_version"    : "1.0",
-    "resources" : {
-        "homepage" : "http://forum.kerbalspaceprogram.com/threads/91998"
-    },
-    "install" : [
-        {
-            "file"       : "GameData/CommunityResourcePack",
-            "install_to" : "GameData"
-        }
-    ]
-}
+
+    {
+        "spec_version" : "v1.16",
+        "identifier" : "CommunityResourcePack",
+        "$kref" : "#/ckan/netkan/https://raw.githubusercontent.com/BobPalmer/CKAN/master/CommunityResourcePack.netkan",
+        "x_netkan_license_ok": true
+    }

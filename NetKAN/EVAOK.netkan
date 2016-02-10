@@ -1,0 +1,12 @@
+{
+    "$kref": "#/ckan/kerbalstuff/1326",
+    "spec_version": 1,
+    "license": "MIT",
+    "identifier": "EVAOK",
+    "install": [
+        {
+            "file"       : "EVA_OK",
+            "install_to" : "GameData"
+        }
+    ]
+}

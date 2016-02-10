@@ -4,8 +4,9 @@
     "$kref"        : "#/ckan/kerbalstuff/1152",
     "license"      : "CC0",
     "x_netkan_license_ok": true,
+    "x_netkan_force_v": true,
     "depends": [
-        { "name": "Kopernicus" },
+        { "name": "Kopernicus", "min_version": "1:beta-05-2" },
         { "name": "ModuleManager" }
     ]
 }

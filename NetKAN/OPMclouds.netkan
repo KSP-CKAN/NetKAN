@@ -9,10 +9,6 @@
     ],
     "install": [
         {
-            "find"       : "BoulderCo",
-            "install_to" : "GameData"
-        },
-        {
             "find"       : "OPMclouds",
             "install_to" : "GameData"
         }

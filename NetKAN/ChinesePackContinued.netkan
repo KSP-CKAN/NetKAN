@@ -1,0 +1,30 @@
+{
+    "identifier": "ChinesePackContinued",
+    "spec_version": "v1.4",
+    "$kref": "#/ckan/kerbalstuff/1244",
+    "license": "CC-BY-NC-SA-4.0",
+    "depends": [
+        { "name": "CommunityResourcePack" },
+        { "name": "ModuleManager" }
+    ],
+    "recommends": [
+        { "name": "RealSolarSystem" },
+        { "name": "FerramAerospaceResearch" },
+        { "name": "KerbalJointReinforcement" },
+        { "name": "CrewManifest" },
+        { "name": "RealFuels" },
+        { "name": "RealChute" },
+        { "name": "RealPlume" }
+    ],
+    "install": [
+        {
+            "find"       : "KFStudios",
+            "install_to" : "GameData",
+            "filter"     : ".DS_Store"
+        },
+        {
+            "find"       : "VAB",
+            "install_to" : "Ships"
+        }
+    ]
+}

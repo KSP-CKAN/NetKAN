@@ -1,20 +1,20 @@
 {
-    "spec_version": 1,
+    "spec_version": "v1.2",
     "$kref": "#/ckan/kerbalstuff/870",
     "identifier": "F15DCStrikeEagle",
     "license": "WTFPL",
-   
     "depends": [
         { "name": "FirespitterCore" },
-        { "name": "BDArmory" },
-        { "name": "BahamutoDynamicsPartsPack"},
-        { "name": "AircraftIVAHelmet"}
+        { "name": "BahamutoDynamicsPartsPack"}
     ],
-
+    "recommends": [
+        { "name": "BDArmory" },
+        { "name": "AdjustableLandingGear"}
+    ],
     "install": [
         {
             "file"       : "F_15D",
-            "install_to" : "GameData",
+            "install_to" : "GameData/Skunk_Works",
             "filter"     : "Thumbs.db"
         }
     ]

@@ -1,0 +1,17 @@
+{
+    "identifier": "OctoSat",
+    "spec_version": "v1.4",
+    "$kref": "#/ckan/kerbalstuff/1252",
+    "license": "CC-BY-NC-SA-4.0",
+    "depends": [
+        { "name": "ModuleManager" },
+        { "name": "FirespitterCore" },
+        { "name": "BDAnimationModules" }
+    ],
+    "install": [
+        {
+            "find"       : "NSS",
+            "install_to" : "GameData"
+        }
+    ]
+}

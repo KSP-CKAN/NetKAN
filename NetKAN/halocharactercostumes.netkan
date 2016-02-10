@@ -1,0 +1,16 @@
+{
+    "identifier": "halocharactercostumes",
+    "spec_version": "v1.4",
+    "license": "MIT",
+    "$kref": "#/ckan/kerbalstuff/1149",
+    "depends": [
+        { "name": "TextureReplacer" }
+    ],
+    "install": [
+        {
+            "find"       : "Suits",
+            "install_to" : "GameData/TextureReplacer",
+            "filter"     : ".DS_Store"
+        }
+    ]
+}

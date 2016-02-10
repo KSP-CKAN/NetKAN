@@ -1,0 +1,15 @@
+{
+    "spec_version": 1,
+    "identifier": "ActivateWhenShielded",
+    "$kref": "#/ckan/kerbalstuff/1269",
+    "license": "WTFPL",
+    "depends": [
+        { "name": "ModuleManager" }
+    ],
+    "install": [
+        {
+            "file"       : "GameData/ActivateWhenShielded.cfg",
+            "install_to" : "GameData"
+        }
+    ]
+}

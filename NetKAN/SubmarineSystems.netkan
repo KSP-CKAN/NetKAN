@@ -1,0 +1,18 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "SubmarineSystems",
+    "$kref": "#/ckan/kerbalstuff/1261",
+    "license": "MIT",
+    "depends": [
+        { "name": "FirespitterCore" },
+        { "name": "CommunityResourcePack" },
+        { "name": "StockFuelSwitch" },
+        { "name": "ModuleManager" }
+    ],
+    "install": [
+        {
+            "find"       : "Sub Systems",
+            "install_to" : "GameData"
+        }
+    ]
+}

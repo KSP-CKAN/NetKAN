@@ -1,0 +1,30 @@
+{
+    "spec_version"  : "v1.4",
+    "identifier"    : "KittopiaTech",
+    "$kref"         : "#/ckan/github/Kopernicus/KittopiaTech",
+    "name"          : "KittopiaTech",
+    "abstract"      : "A Kopernicus visual editor for ingame planet editing and exporting.",
+    "release_status": "development",
+    "license"       : "LGPL-3.0",
+    "author": [
+        "Thomas P.",
+        "BorisBee",
+        "Kragrathea",
+        "KCreator",
+        "Gravitasi",
+        "joedavis"
+    ],
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/129186"
+    },
+    "ksp_version": "1.0.5",
+    "depends": [
+        { "name" : "Kopernicus", "min_version": "1:beta-05-2" }
+    ],
+    "install": [
+        {
+            "find"      : "KittopiaTech",
+            "install_to": "GameData"
+        }
+    ]
+}
