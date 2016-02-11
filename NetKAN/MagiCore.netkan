@@ -1,0 +1,19 @@
+{
+    "spec_version" : 1,
+    "identifier"   : "MagiCore",
+    "$kref"        : "#/ckan/github/magico13/MagiCore",
+    "name"         : "MagiCore",
+    "abstract"     : "A common set of utilities for magico13's mods",
+    "license"      : "MIT",
+    "ksp_version"  : "1.0.5",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/97033-10x"
+    },
+	
+	"install": [
+        {
+            "file"       : "GameData",
+            "install_to" : "GameData"
+        }
+    ]
+}

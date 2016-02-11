@@ -1,0 +1,21 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "SlingShotter",
+    "$kref": "#/ckan/github/johnfink8/KerbalSlingshotter",
+    "name"        : "Kerbal SlingShotter",
+    "author"      : [ "Overengineer1" ],
+    "abstract"    : "Display positions in the map for ships, planets, and moons at a selected time.",
+    "ksp_version" : "1.0.5",
+    "license"     : "GPL-2.0",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/128952-105-kerbal-slingshotter-visualize-ship-and-all-planetmoon-positions-at-a-selected-time/",
+        "repository": "https://github.com/johnfink8/KerbalSlingshotter"
+    },
+    "ksp_version": "1.0.5",
+	    "install" : [
+            {
+                "find"       : "SlingShotter",
+                "install_to" : "GameData"
+            }
+        ]
+}

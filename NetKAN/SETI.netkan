@@ -1,10 +1,47 @@
 {
-	"spec_version" : "v1.4",
-	"identifier" : "SETI",
-	"$kref" : "#/ckan/kerbalstuff/484",
-	"$vref" : "#/ckan/ksp-avc",
-	"x_netkan_license_ok" : true,
-	"depends" : [ { "name" : "BackgroundProcessing" }, { "name" : "ContractConfigurator" }, { "name" : "ContractScienceModifier" }, { "name" : "ModuleManager" }, { "name" : "StockBugFixModules" } ],
-	"recommends" : [ { "name" : "AGExt" }, { "name" : "B9AerospaceProceduralParts" }, { "name" : "CommunityTechTree" }, { "name" : "DockingPortAlignmentIndicator" }, { "name" : "KerbalAlarmClock" }, { "name" : "KerbalEngineerRedux" }, { "name" : "ProceduralParts" }, { "name" : "SAVE" }, { "name" : "ShipManifest" }, { "name" : "StageRecovery" }, { "name" : "TweakScale" }, { "name" : "VenStockRevamp" }, { "name" : "WaypointManager" } ],
-	"install": [ { "file": "SETI", "install_to": "GameData" } ]
+    "spec_version"   : 1,
+    "name"           : "SETI",
+    "author"         : "Yemo",
+    "abstract"       : "The old SETI-BalanceMod for KSP 0.90",
+    "identifier"     : "SETI",
+    "$vref" 	     : "#/ckan/ksp-avc",
+    "download"       : "https://kerbalstuff.com/mod/484/SETI-BalanceMod/download/0.9.0",
+    "license"        : "restricted",
+    "version"        : "0.9.0",
+    "release_status" : "stable",
+    "ksp_version"    : "0.90",
+    "resources" : {
+        "homepage"     : "http://forum.kerbalspaceprogram.com/threads/106130"
+    },
+    "install" : [
+        {
+            "file"       : "SETI",
+            "install_to" : "GameData"
+        }
+    ],
+    "depends" : [
+        { "name": "BackgroundProcessing" },
+        { "name": "ContractConfigurator" },
+        { "name": "ContractScienceModifier" },
+        { "name": "ModuleManager" },
+        { "name": "StockBugFixModules" }
+    ],
+    "recommends" : [
+        { "name": "AGExt" },
+        { "name": "B9AerospaceProceduralParts" },
+        { "name": "CommunityTechTree" },
+        { "name": "DockingPortAlignmentIndicator" },
+        { "name": "KerbalAlarmClock" },
+        { "name": "KerbalEngineerRedux" },
+        { "name": "ProceduralParts" },
+        { "name": "SAVE" },
+        { "name": "ShipManifest" },
+        { "name": "StageRecovery" },
+        { "name": "TweakScale" },
+        { "name": "VenStockRevamp" },
+        { "name": "WaypointManager" }
+    ],
+    "suggests"   : [
+        { "name": "SETI-Greenhouse" }
+    ]
 }

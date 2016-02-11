@@ -1,0 +1,20 @@
+{
+    "spec_version": "v1.4",
+    "$kref": "#/ckan/kerbalstuff/1286",
+    "identifier": "MiG21Fishbed",
+    "license": "WTFPL",
+    "depends": [
+        { "name": "FirespitterCore" },
+        { "name": "BahamutoDynamicsPartsPack"}
+    ],
+    "recommends": [
+        { "name": "BDArmory" },
+        { "name": "AdjustableLandingGear"}
+    ],
+    "install": [
+        {
+            "find"       : "Mig_21_Fishbed",
+            "install_to" : "GameData/Skunk_Works"
+        }
+    ]
+}

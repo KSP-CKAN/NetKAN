@@ -3,16 +3,24 @@
     "x_via": "Author JPLRepo",
     "spec_version": "v1.4",
     "$kref": "#/ckan/kerbalstuff/895",
+    "$vref": "#/ckan/ksp-avc",
     "license": "CC-BY-NC-SA-4.0",
-	"recommends" : [ 
-	{ "name" : "Toolbar" },
-	{ "name" : "ShipManifest" },
-	{ "name" : "ConnectedLivingSpace" },
-	{ "name" : "TACLS" },
-	{ "name" : "Snacks" },
-	{ "name" : "AmpYearPowerManager"}
-	],
-	"install": [
-		{ "find": "REPOSoftTech", "install_to": "GameData" }
-	]
+    "depends" : [
+        { "name" : "ModuleManager", "min_version" : "2.3.5" },
+        { "name" : "REPOSoftTech-Agencies" }
+    ],
+    "recommends" : [ 
+        { "name" : "Toolbar" },
+        { "name" : "RasterPropMonitor" },
+        { "name" : "BackgroundProcessing" },
+        { "name" : "ShipManifest" },
+        { "name" : "ConnectedLivingSpace" },
+        { "name" : "USI-LS" },
+        { "name" : "TACLS" },
+        { "name" : "Snacks" },
+        { "name" : "AmpYearPowerManager"}
+    ],
+    "install": [
+        { "find": "REPOSoftTech", "install_to": "GameData", "filter": "Agencies" }
+    ]
 }

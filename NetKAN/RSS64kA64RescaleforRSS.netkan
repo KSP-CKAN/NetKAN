@@ -1,0 +1,27 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "RSS64kA64RescaleforRSS",
+    "license": "CC-BY-NC-SA-4.0",
+    "$kref": "#/ckan/kerbalstuff/1197",
+    "depends": [
+        { "name": "RealSolarSystem" }
+    ],
+    "recommends": [
+        { "name": "KSCSwitcher" },
+        { "name": "RealFuels" },
+        { "name": "SCANsat" },
+        { "name": "RealismOverhaul" },
+        { "name": "KWRocketry" },
+        { "name": "Tantares" },
+        { "name": "FASA" }
+    ],
+    "suggests": [
+        { "name": "RemoteTech-Config-RSS" }
+    ],
+    "install": [
+        {
+            "file"       : "RSS64k",
+            "install_to" : "GameData"
+        }
+    ]
+}

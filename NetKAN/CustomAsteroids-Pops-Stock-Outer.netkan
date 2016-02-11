@@ -3,9 +3,9 @@
 	"identifier": "CustomAsteroids-Pops-Stock-Outer",
 	"name": "Custom Asteroids (outer stock system data)",
 	"abstract": "Adds comets outside orbit of Jool",
-	"ksp_version_min": "0.25",
 	"$kref": "#/ckan/kerbalstuff/251",
-	"release_status": "stable",
+	"$vref" : "#/ckan/ksp-avc",
+	"x_netkan_license_ok" : true,
 	"depends": [ 
 		{
 			"name": "CustomAsteroids",
@@ -30,6 +30,15 @@
 			"filter_regexp": "(?<!Trans-Jool\\.cfg)$"
 		}
 	],
-	"x_maintained_by": "Starstrider42",
-        "x_netkan_license_ok" : true
+	"x_netkan_override" : [
+		{
+			"version" : [ ">= v1.0", "< v2.0" ],
+			"override" : {
+				"comment": "Compatible with any KSP version with the same planets.",
+				"ksp_version_min": "0.18.2"
+			},
+			"delete" : [ "ksp_version" ]
+		}
+	],
+	"x_maintained_by": "Starstrider42"
 }

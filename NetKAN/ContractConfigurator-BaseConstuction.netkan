@@ -10,7 +10,7 @@
         "homepage": "http://forum.kerbalspaceprogram.com/threads/127138"
     },
     "depends": [
-        { "name": "ContractConfigurator", "min_version": "1.5.0" },
+        { "name": "ContractConfigurator", "min_version": "1.5.1" },
         { "name": "ModuleManager" }
     ],
     "install": [
@@ -21,7 +21,6 @@
     ],
     "suggests": [
         { "name": "KAS" },
-        { "name": "USI-LS" },
-        { "name": "UKS" }
+        { "name": "USI-LS" }
     ]
 }

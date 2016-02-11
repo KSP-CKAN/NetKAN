@@ -1,14 +1,14 @@
 {
-    "spec_version" 	: 1,
-    "identifier"   	: "EnvironmentalVisualEnhancements-HR",
-    "$kref"        	: "#/ckan/github/rbray89/EnvironmentalVisualEnhancements/asset_match/(?<!-LR)\\.zip$",
-    "name"         	: "Environmental Visual Enhancements - High Resolution",
-    "abstract"          : "Default configuration for EVE",
-    "license"      	: "MIT",
-    "ksp_version_min"	: "0.25",
-    "resources"		: {
-        "homepage"     : "http://forum.kerbalspaceprogram.com/threads/55905",
-		"repository" : "https://github.com/rbray89/EnvironmentalVisualEnhancements"
+    "spec_version" : 1,
+    "identifier"   : "EnvironmentalVisualEnhancements-HR",
+    "$kref"        : "#/ckan/github/rbray89/EnvironmentalVisualEnhancements/asset_match/x86-Configs-Release",
+    "name"         : "Environmental Visual Enhancements - Config files",
+    "abstract"     : "Default configuration for EVE",
+    "license"      : "MIT",
+    "ksp_version"  : "1.0.5",
+    "resources": {
+        "homepage"   : "http://forum.kerbalspaceprogram.com/threads/55905",
+        "repository" : "https://github.com/rbray89/EnvironmentalVisualEnhancements"
     },
     "install": [
         {
@@ -24,5 +24,6 @@
     ],
     "conflicts": [
         { "name" : "EnvironmentalVisualEnhancements-Config" }
-    ]
+    ],
+    "x_netkan_epoch": "1"
 }

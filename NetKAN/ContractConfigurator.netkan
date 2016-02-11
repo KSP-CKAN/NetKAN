@@ -1,5 +1,5 @@
 {
-    "spec_version": 1,
+    "spec_version": "v1.16",
     "identifier": "ContractConfigurator",
     "$kref": "#/ckan/github/jrossignol/ContractConfigurator",
     "name": "Contract Configurator",
@@ -9,9 +9,14 @@
     "author": "nightingale",
     "$vref": "#/ckan/ksp-avc",
     "description": "A config-file based solution for creating new contracts!",
+    "ksp_version_strict" : true,
     "suggests": [
         { "name": "CoherentContracts" },
-        { "name": "ContractsWindowPlus" }
+        { "name": "ContractsWindowPlus" },
+        { "name": "WiderContractsApp" }
+    ],
+    "recommends": [
+        { "name": "WaypointManager" }
     ],
     "resources": {
         "homepage": "http://forum.kerbalspaceprogram.com/threads/101604",

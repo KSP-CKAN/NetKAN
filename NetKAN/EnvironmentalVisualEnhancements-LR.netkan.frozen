@@ -1,0 +1,29 @@
+{
+    "spec_version" : 1,
+    "identifier"   : "EnvironmentalVisualEnhancements-LR",
+    "$kref"        : "#/ckan/github/rbray89/EnvironmentalVisualEnhancements/asset_match/(?<=-LR)\\.zip$",
+    "name"         : "Environmental Visual Enhancements - Low Resolution",
+    "abstract"     : "Default configuration for EVE",
+    "license"      : "MIT",
+    "ksp_version_min" : "0.25",
+    "ksp_version_max" : "1.0.4",
+    "resources": {
+        "homepage"   : "http://forum.kerbalspaceprogram.com/threads/55905",
+        "repository" : "https://github.com/rbray89/EnvironmentalVisualEnhancements"
+	},
+    "install": [
+        {
+            "file"       : "GameData/BoulderCo",
+            "install_to" : "GameData"
+        }
+    ],
+    "provides": [
+        "EnvironmentalVisualEnhancements-Config"
+    ],
+    "depends": [
+        { "name" : "EnvironmentalVisualEnhancements" }
+    ],
+    "conflicts": [
+        { "name" : "EnvironmentalVisualEnhancements-Config" }
+    ]
+}

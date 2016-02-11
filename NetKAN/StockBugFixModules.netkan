@@ -5,7 +5,8 @@
     "name"           : "Stock Bug Fix Modules",
     "abstract"       : "Stand alone fixes for common stock KSP bugs",
     "license"        : "CC-BY-NC-SA-4.0",
-    "ksp_version"    : "1.0",
+    "ksp_version_min": "1.0.3",
+    "ksp_version_max": "1.0.4",
     "resources" : {
         "homepage" : "http://forum.kerbalspaceprogram.com/threads/97285",
         "repository" : "https://github.com/ClawKSP/KSP-Stock-Bug-Fix-Modules"

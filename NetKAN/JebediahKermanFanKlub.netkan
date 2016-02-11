@@ -1,0 +1,16 @@
+{
+    "spec_version": 1,
+    "$kref": "#/ckan/kerbalstuff/1078",
+    "license": "unrestricted",
+    "identifier": "JebediahKermanFanKlub",
+    "depends": [
+        { "name": "KerbalKonstructs"}
+    ],
+    "install": [
+        {
+            "file"       : "JKFK",
+            "install_to" : "GameData",
+            "filter"     : ".DS_Store"
+        }
+    ]
+}

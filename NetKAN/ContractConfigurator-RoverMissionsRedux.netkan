@@ -1,0 +1,27 @@
+{
+    "spec_version"   : "v1.4",
+    "identifier"     : "ContractConfigurator-RoverMissionsRedux", 
+    "$kref"          : "#/ckan/kerbalstuff/1383",
+    "$vref"          : "#/ckan/ksp-avc",
+    "release_status" : "stable",
+    "x_netkan_license_ok" : true,
+    "resources" : {
+        "kerbalstuff" : "https://kerbalstuff.com/mod/1383/Contract%20Pack:%20Rover%20Missions%20Redux"
+    },
+    "depends" : [
+        { "name": "SpacetuxSA" },
+	{ "name": "ContractConfigurator", "min_version": "1.9.2.1" },
+        { "name": "ModuleManager" }
+
+    ],
+    "recommends": [
+        { "name": "WaypointManager" }
+    ],
+    "install" : [
+        {
+            "find"       : "RoverMissions",
+            "install_to" : "GameData/ContractPacks/Spacetux"
+        }
+    ]
+}
+

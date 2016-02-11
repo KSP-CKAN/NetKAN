@@ -1,34 +1,25 @@
 {
-"spec_version" : 1,
-"$kref" : "#/ckan/github/SirDiazo/AGExt",
-"name" : "Action Groups Extended",
-"identifier" : "AGExt",
-"author" : "Diazo",
-"abstract" : "Increases the number of action groups to 250 and allows in-flight editing.",
-"license" : "GPL-3.0",
-"release_status" : "stable",
-"ksp_version" : "1.0",
-"author" : "Diazo",
-"resources" : {
-"homepage" : "http://forum.kerbalspaceprogram.com/threads/74195"
-},
-"depends": [
-{ "name": "ModuleManager" }
-],
-"recommends" : [ { "name" : "Toolbar" } ],
-"install" : [
-{
-"file" : "GameData/Diazo",
-"install_to" : "GameData"
-}
-],
-"x_supports" : [
-{ "name" : "SCANsat" },
-{ "name" : "Kethane" },
-{ "name" : "FerramAerospaceResearch" },
-{ "name" : "Firespitter" },
-{ "name" : "InfernalRobotics" },
-{ "name" : "TACLS" },
-{ "name" : "WarpPlugin" }
-]
+    "spec_version" : 1,
+    "$kref" : "#/ckan/github/SirDiazo/AGExt",
+    "name" : "Action Groups Extended",
+    "identifier" : "AGExt",
+    "author" : "Diazo",
+    "abstract" : "Increases the number of action groups to 250 and allows in-flight editing.",
+    "license" : "GPL-3.0",
+    "release_status" : "stable",
+    "ksp_version" : "1.0",
+    "author" : "Diazo",
+    "resources" : {
+        "homepage" : "http://forum.kerbalspaceprogram.com/threads/74195"
+    },
+    "depends": [
+        { "name": "ModuleManager" }
+    ],
+    "recommends" : [ { "name" : "Toolbar" } ],
+    "install" : [
+        {
+            "file" : "GameData/Diazo",
+            "install_to" : "GameData"
+        }
+    ]
 }

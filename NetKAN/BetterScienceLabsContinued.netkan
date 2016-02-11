@@ -1,8 +1,5 @@
 {
     "spec_version"   : "v1.4",
-    "author"         : "Linuxgurugamer",
-    "name"           : "Better Science Labs Continued",
-    "abstract"       : "More science labs",
     "identifier"     : "BetterScienceLabsContinued",
     "$kref"          : "#/ckan/kerbalstuff/903",
     "$vref"          : "#/ckan/ksp-avc",
@@ -19,7 +16,7 @@
     ],
     "install": [
         {
-            "file"       : "Better Science Labs Continued",
+            "find"       : "Better Science Labs Continued",
             "install_to" : "GameData"
         }
     ]

@@ -1,0 +1,15 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "GimbalForAll",
+    "$kref": "#/ckan/kerbalstuff/1290",
+    "license": "MIT",
+    "depends": [
+        { "name": "ModuleManager" }
+    ],
+    "install": [
+        {
+            "find"       : "The_Sea_Four",
+            "install_to" : "GameData"
+        }
+    ]
+}

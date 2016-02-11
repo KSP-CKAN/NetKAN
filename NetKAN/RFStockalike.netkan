@@ -1,19 +1,22 @@
 {
-	"spec_version" : 1,
+	"spec_version" : "v1.2",
 	"identifier"   : "RFStockalike",
 	"$kref"        : "#/ckan/github/Raptor831/RFStockalike",
-	"name"         : "RealFuels: Stockalike RF Configs",
+	"name"         : "Real Fuels: Stockalike RF Configs",
 	"abstract"     : "Adds RealFuels configs to stock and many mods' engines, keeping engine role as designed to fit with stock and stock-aligned mods.",
 	"license"      : "CC-BY-SA",
 	"install" : [
 		{
-		    "file"       : "RFStockalike/GameData/RealFuels",
+		    "file"       : "RFStockalike/GameData/RealFuels-Stockalike",
 		    "install_to" : "GameData"
+		},
+		{
+		    "file"       : "RFStockalike/GameData/RealPlume/RealPlume-RFStockalike",
+				"install_to" : "GameData/RealPlume"
 		}
 	],
 	"depends" : [
-		{ "name" : "RealFuels" },
-		{ "name" : "ModuleRCSFX" }
+		{ "name" : "RealFuels" }
 	],
 	"provides" : [ "RealFuels-Engine-Configs" ],
         "comment" : "Multiple configs can be installed; RO disables its engine configs if RFStockalike is detected. KSP-CKAN/NetKAN#55.",

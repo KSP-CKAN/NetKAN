@@ -1,0 +1,31 @@
+{
+    "spec_version"  : "v1.4",
+    "identifier"    : "RN-SovietProbes",
+    "name"          : "Soviet Probes",
+    "author"        : "Raidernick",
+    "abstract"      : "So here is yet another project. This time I am working on the series of soviet probes, focusing on the luna and sputnik probes. I will also do Molniya and Polyot probes.",
+    "comment"       : "Ships explicitly not installed by author request (he no longer maintains them)",
+    "resources": {
+        "homepage"  : "https://github.com/KSP-RO/SovietProbes"
+    },
+    "$kref"         : "#/ckan/github/KSP-RO/SovietProbes",
+    "license"       : "CC-BY-NC-ND-3.0",
+    "ksp_version"   : "1.0",
+    "install"       : [
+    {
+        "find"      : "RN_Soviet_Probes",
+        "install_to": "GameData"
+    },
+    {
+        "file"      : "GameData/Soviet_Probes_TR.cfg",
+        "install_to": "GameData"
+    }],
+    "depends"       : [
+        { "name"      : "FirespitterCore"  },
+        { "name"      : "ReflectionPlugin" }
+    ],
+    "recommends"    : [
+    {
+        "name"      : "RN-SovietRockets"
+    }]
+}

@@ -1,14 +1,14 @@
 {
-    "spec_version"      : 1,
-    "identifier"        : "EnvironmentalVisualEnhancements",
-    "$kref"             : "#/ckan/github/rbray89/EnvironmentalVisualEnhancements/asset_match/(?<!-LR)\\.zip$",
-    "name"              : "Environmental Visual Enhancements",
-    "abstract"     	: "City Lights for Kerbin and Clouds for Any planet you wish",
-    "license"           : "MIT",
-    "ksp_version_min"   : "0.25",
-    "resources"         : {
-        "homepage"     : "http://forum.kerbalspaceprogram.com/threads/55905",
-		"repository" : "https://github.com/rbray89/EnvironmentalVisualEnhancements"
+    "spec_version" : 1,
+    "identifier"   : "EnvironmentalVisualEnhancements",
+    "$kref"        : "#/ckan/github/rbray89/EnvironmentalVisualEnhancements/asset_match/x86-EVE-Release",
+    "name"         : "Environmental Visual Enhancements",
+    "abstract"     : "City Lights for Kerbin and Clouds for Any planet you wish",
+    "license"      : "MIT",
+    "ksp_version"  : "1.0.5",
+    "resources": {
+        "homepage"   : "http://forum.kerbalspaceprogram.com/threads/55905",
+        "repository" : "https://github.com/rbray89/EnvironmentalVisualEnhancements"
     },
     "install": [
         {
@@ -18,5 +18,9 @@
     ],
     "depends": [
         { "name": "EnvironmentalVisualEnhancements-Config" }
-    ]
+    ],
+    "conflicts": [
+        { "name" : "EnvironmentalVisualEnhancements-LR" }
+    ],
+    "x_netkan_epoch": "1"
 }

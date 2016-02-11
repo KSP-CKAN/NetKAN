@@ -1,0 +1,12 @@
+{
+    "$kref": "#/ckan/kerbalstuff/1223",
+    "spec_version": "v1.4",
+    "identifier": "Ktolemy",
+    "license": "CC-BY-SA",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/137299"
+    },
+    "depends": [
+        { "name": "Kopernicus", "version": "1:beta-04" }
+    ]
+}

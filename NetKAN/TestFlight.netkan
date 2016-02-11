@@ -4,13 +4,13 @@
 	"abstract" : "Flight Testing of your space hardware in KSP!  Fly your parts to gain flight data and make them more reliable and less likely to fail.  THIS IS THE PLUGIN ONLY.  You will need a TestFlight Config pack in order for any parts to actually be controlled by TestFlight.",
 	"identifier" : "TestFlight",
 	"$vref" : "#/ckan/ksp-avc",
-	"$kref" : "#/ckan/github/jwvanderbeck/TestFlight/asset_match/TestFlightCore*",
+	"$kref" : "#/ckan/github/KSP-RO/TestFlight/asset_match/TestFlightCore*",
 	"license" : "CC-BY-NC-SA-4.0",
 	"release_status" : "stable",
 	"resources" : {
 		"homepage" : "http://forum.kerbalspaceprogram.com/threads/88187",
-		"repository" : "https://github.com/jwvanderbeck/TestFlight",
-		"bugtracker" : "https://github.com/jwvanderbeck/TestFlight/issues"
+		"repository" : "https://github.com/KSP-RO/TestFlight",
+		"bugtracker" : "https://github.com/KSP-RO/TestFlight/issues"
 	},
 	"install" : [
         {
@@ -22,5 +22,15 @@
         { "name" : "ModuleManager", "min_version" : "2.6.1" },
         { "name" : "TestFlightConfig" }
 
+    ],
+    "x_netkan_override" : [
+		{
+			"version" : "1.3.1.1",
+			"delete" : [ "ksp_version" ],
+			"override" : {
+				"ksp_version_min" : "1.0.2",
+				"ksp_version_max" : "1.0.4"
+			}
+		}
     ]
 }

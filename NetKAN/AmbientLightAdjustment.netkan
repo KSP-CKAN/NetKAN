@@ -3,6 +3,9 @@
     "spec_version": 1, 
     "identifier": "AmbientLightAdjustment",
     "license" : "GPL-3.0",
+    "depends": [
+        { "name": "Toolbar" }
+    ],
     "x_netkan_override" : [
         {
             "version" : "1.4.4.1",

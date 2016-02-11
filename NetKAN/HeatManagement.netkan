@@ -3,7 +3,14 @@
     "$kref": "#/ckan/kerbalstuff/723",
     "license": "CC-BY-NC-SA-4.0",
     "identifier": "HeatManagement",
-	"install"	:	[ { "find" : "HeatManagement",
-						"install_to" : "GameData",
-						"filter" : "Deprecated" } ]
+    "depends": [
+        { "name": "ModuleManager" },
+        { "name": "WildBlueTools" }
+    ],
+    "install": [
+        {
+            "file" : "GameData/HeatManagement",
+            "install_to" : "GameData"
+        }
+    ]
 }

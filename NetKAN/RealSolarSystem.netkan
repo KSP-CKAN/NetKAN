@@ -1,34 +1,33 @@
 {
-    "spec_version"   : "v1.4",
-    "$kref"          : "#/ckan/github/KSP-RO/RealSolarSystem",
-    "$vref"          : "#/ckan/ksp-avc",
-    "name"           : "Real Solar System",
-    "identifier"     : "RealSolarSystem",
-    "abstract"       : "Resizes and rearranges the Kerbal system to more closely resemble the Solar System",
-    "license"        : "CC-BY-NC-SA",
-    "release_status" : "stable",
-    "depends" : [
-		{ "name" : "Kopernicus" },
-        { "name" : "RSSTextures" }
-    ],
-    "recommends" : [
-        { "name" : "RealismOverhaul" },
-        { "name" : "Toolbar" }
-    ],
-    "suggests" : [
-        { "name" : "RemoteTech-Config-RSS" }
-    ],
-    "resources" : {
-        "homepage" : "http://forum.kerbalspaceprogram.com/threads/55145"
+    "spec_version"    : "v1.4",
+    "$kref"           : "#/ckan/github/KSP-RO/RealSolarSystem",
+    "$vref"           : "#/ckan/ksp-avc",
+    "x_netkan_force_v": true,
+    "name"            : "Real Solar System",
+    "identifier"      : "RealSolarSystem",
+    "abstract"        : "Resizes and rearranges the Kerbal system to more closely resemble the Solar System",
+    "license"         : "CC-BY-NC-SA",
+    "release_status"  : "stable",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/55145"
     },
-    "install" : [
+    "depends": [
+        { "name": "ModuleManager" },
+        { "name": "Kopernicus", "min_version": "1:beta-05-2" },
+        { "name": "RSSTextures" }
+    ],
+    "recommends": [
+        { "name": "RealismOverhaul" },
+        { "name": "KSCSwitcher" }
+    ],
+    "install": [
         {
-            "find"       : "RealSolarSystem",
-            "install_to" : "GameData"
+            "find"      : "RealSolarSystem",
+            "install_to": "GameData"
         },
-		{
-			"find"		 : "Cache",
-			"install_to" : "GameData/Kopernicus"
-		}
+        {
+            "find"      : "Cache",
+            "install_to": "GameData/Kopernicus"
+        }
     ]
 }

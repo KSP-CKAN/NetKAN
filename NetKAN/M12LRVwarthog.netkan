@@ -1,0 +1,19 @@
+{
+    "identifier": "M12LRVwarthog",
+    "spec_version": "v1.4",
+    "license": "MIT",
+    "$kref": "#/ckan/kerbalstuff/1133",
+    "depends": [
+        { "name": "BDArmory" }
+    ],
+    "install": [
+        {
+            "file"       : "hog wheel",
+            "install_to" : "GameData/kdufferskorp"
+        },
+        {
+            "file"       : "kdufferskorp",
+            "install_to" : "GameData"
+        }
+    ]
+}

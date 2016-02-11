@@ -1,0 +1,21 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "Farscape",
+    "license": "MIT",
+    "$kref": "#/ckan/kerbalstuff/1176",
+    "install": [
+        {
+            "find"       : "Mike_NZ_Crafts",
+            "install_to" : "GameData",
+            "filter"     : "Thumbs.db"
+        },
+        {
+            "find"       : "SPH",
+            "install_to" : "Ships"
+        },
+        {
+            "find"       : "Flags",
+            "install_to" : "GameData/Mike_NZ_Crafts"
+        }
+    ]
+}

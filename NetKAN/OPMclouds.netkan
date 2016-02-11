@@ -1,0 +1,16 @@
+{
+    "spec_version": "v1.4",
+    "$kref": "#/ckan/kerbalstuff/1065",
+    "license": "CC-BY-NC-SA-4.0",
+    "identifier": "OPMclouds",
+    "depends": [
+        { "name": "OuterPlanetsMod" },
+        { "name": "ModuleManager"}
+    ],
+    "install": [
+        {
+            "find"       : "OPMclouds",
+            "install_to" : "GameData"
+        }
+    ]
+}

@@ -1,0 +1,15 @@
+{
+    "spec_version": "v1.4",
+    "$kref": "#/ckan/kerbalstuff/1081",
+    "license": "CC-BY-NC-SA-4.0",
+    "identifier": "FASTCORPRoadsandBridges",
+    "depends": [
+        { "name": "KerbalKonstructs"}
+    ],
+    "install": [
+        {
+            "find"       : "FASTCORP",
+            "install_to" : "GameData"
+        }
+    ]
+}

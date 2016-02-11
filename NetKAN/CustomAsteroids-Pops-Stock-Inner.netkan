@@ -4,9 +4,8 @@
 	"name": "Custom Asteroids (inner stock system data)",
 	"abstract": "Adds asteroids inside orbit of Jool",
 	"$kref": "#/ckan/kerbalstuff/251",
-	"ksp_version_min": "0.25",
-	"release_status": "stable",
-        "x_netkan_license_ok" : true,
+	"$vref" : "#/ckan/ksp-avc",
+	"x_netkan_license_ok" : true,
 	"depends": [ 
 		{
 			"name": "CustomAsteroids",
@@ -27,6 +26,16 @@
 			"file": "GameData/CustomAsteroids",
 			"install_to": "GameData",
 			"filter_regexp": "(?<!Basic Asteroids\\.cfg)$"
+		}
+	],
+	"x_netkan_override" : [
+		{
+			"version" : [ ">= v1.0", "< v2.0" ],
+			"override" : {
+				"comment": "Compatible with any KSP version with the same planets.",
+				"ksp_version_min": "0.18"
+			},
+			"delete" : [ "ksp_version" ]
 		}
 	],
 	"x_maintained_by": "Starstrider42"

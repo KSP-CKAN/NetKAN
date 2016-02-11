@@ -1,0 +1,15 @@
+{
+    "spec_version": "v1.4",
+    "$kref": "#/ckan/kerbalstuff/1088",
+    "license": "BSD-2-clause",
+    "identifier": "lxnRTlxnResourceTransfer",
+    "resources": {
+        "repository": "http://forum.kerbalspaceprogram.com/threads/131825"
+    },
+    "install": [
+        {
+            "find"       : "lxnAddon",
+            "install_to" : "GameData"
+        }
+    ]
+}

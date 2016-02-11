@@ -1,0 +1,19 @@
+{
+    "identifier": "MysteriousProjectsDrLiriusRover",
+    "spec_version": "v1.4",
+    "$kref": "#/ckan/kerbalstuff/1215",
+    "license": "CC-BY-NC-ND-4.0",
+    "depends": [
+        { "name": "FirespitterCore" }
+    ],
+    "conflicts": [
+        { "name": "HotRocketsFireworksPack" },
+        { "name": "MysteriousProjectsFalconPack" }
+    ],
+    "install": [
+        {
+            "file"       : "MP_Nazari",
+            "install_to" : "GameData"
+        }
+    ]
+}

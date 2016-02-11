@@ -1,0 +1,20 @@
+{
+    "spec_version": "v1.4",
+    "license": "LGPL-3.0",
+    "$kref": "#/ckan/kerbalstuff/1000",
+    "identifier": "Asclepius-clouds",
+    "name"        : "Asclepius Clouds",
+    "abstract"    : "Provides clouds to Asclepius (requires Environmental Visual Enhancements)",
+    "x_netkan_epoch": "1",
+    "x_netkan_force_v": true,
+    "depends": [
+        { "name": "Asclepius" },
+        { "name": "EnvironmentalVisualEnhancements"}
+    ],
+    "install": [
+        {
+            "find"       : "BoulderCo",
+            "install_to" : "GameData"
+        }
+    ]
+}

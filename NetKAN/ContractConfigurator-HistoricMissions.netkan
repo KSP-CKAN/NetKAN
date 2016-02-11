@@ -1,0 +1,17 @@
+{
+    "spec_version": "v1.2",
+    "license": "CC-BY-NC-SA-4.0",
+    "$kref": "#/ckan/kerbalstuff/928",
+    "identifier": "ContractConfigurator-HistoricMissions",
+    "depends": [
+        { "name": "ContractConfigurator" }
+    ],
+    "install": [
+        {
+            "file"       : "HistoricMissions/RegularVersion/Full Pack/ContractPacks/HistoricMissions",
+            "install_to" : "GameData/ContractPacks",
+            "filter_regexp" : "EXAMPLECRAFT",
+            "comment" : "EXAMPLECRAFT requires SCANsat and RemoteTech while the rest of the mod does not"
+        }
+    ]
+}

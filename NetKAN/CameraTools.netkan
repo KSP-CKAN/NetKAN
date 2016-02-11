@@ -3,6 +3,16 @@
     "identifier"   : "CameraTools",
     "license"      : "GPL-3.0",
     "$kref"        : "#/ckan/kerbalstuff/190",
+    "x_netkan_override": [
+        {
+            "version": "v1.3",
+            "delete": [ "ksp_version" ],
+            "override": {
+                "ksp_version_min": "1.0.2",
+                "ksp_version_max": "1.0.5"
+            }
+        }
+    ],
     "resources"    : { 
                       "repository" : "https://github.com/BahamutoD/CameraTools",
                       "kerbalstuff" : "https://kerbalstuff.com/mod/190/Camera%20Tools"

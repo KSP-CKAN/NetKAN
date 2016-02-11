@@ -1,0 +1,15 @@
+{
+    "spec_version": "v1.4",
+    "license": "CC-BY-NC-SA-4.0",
+    "identifier": "CarcharothAeronautics",
+    "$kref": "#/ckan/kerbalstuff/1127",
+    "depends": [
+        { "name": "BDArmory" }
+    ],
+    "install": [
+        {
+            "find"       : "Carcharoth Aeronautics",
+            "install_to" : "GameData"
+        }
+    ]
+}

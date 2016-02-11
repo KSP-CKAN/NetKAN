@@ -1,0 +1,28 @@
+{
+    "spec_version"  : "v1.4",
+    "identifier"    : "RN-Skylab",
+    "name"          : "Skylab",
+    "author"        : "Raidernick",
+    "abstract"      : "This mod comes with everything you need to create your own Skylab, broken solar panels and all!",
+    "comment"       : "Ships explicitly not installed by author request (he no longer maintains them)",
+    "resources": 
+    {
+        "homepage"  : "https://github.com/KSP-RO/Skylab"
+    },
+    "$kref"         : "#/ckan/github/KSP-RO/Skylab",
+    "license"       : "CC-BY-NC-ND-3.0",
+    "ksp_version"   : "1.0",
+    "install"       : 
+    [
+      {
+        "find"      : "RN_Skylab",
+        "install_to": "GameData"
+      }
+    ],
+    "depends"       : 
+    [
+      {
+        "name"      : "FirespitterCore" 
+      }
+    ]
+}

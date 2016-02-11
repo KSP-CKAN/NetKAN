@@ -2,31 +2,34 @@
   "spec_version" : 1,
   "identifier"   : "B9",
   "$kref"        : "#/ckan/kerbalstuff/132",
+  "$vref"        : "#/ckan/ksp-avc",
   "license"      : "CC-BY-NC-SA-3.0",
   "depends" : [
-    { "name" : "CrossFeedEnabler" },
+    { "name" : "B9-props" },
     { "name" : "FirespitterCore" },
-    { "name" : "KineTechAnimation" },
     { "name" : "KlockheedMartian-Gimbal" },
-    { "name" : "ModuleManager", "min_version" : "2.5.1" },
+    { "name" : "ModuleManager", "min_version" : "2.6.13" },
     { "name" : "RasterPropMonitor-Core" },
-    { "name" : "ResGen" },
-    { "name" : "VirginKalactic-NodeToggle" }
+    { "name" : "SmokeScreen" },
+    { "name" : "B9AnimationModules" }
   ],
   "recommends" : [
-    { "name" : "HotRockets" },
+    { "name" : "AdjustableLandingGear" },
+    { "name" : "B9-PWings-Fork" },
     { "name" : "AerodynamicModel" }
+  ],
+  "conflicts" : [
+    { "name" : "VirginKalactic-NodeToggle" }
   ],
   "install" : [
     {
       "file"       : "GameData/B9_Aerospace",
-      "install_to" : "GameData"
+      "install_to" : "GameData",
+      "filter"     : "Props"
     },
     {
-      "file"        : "Ships",
-      "install_to"  : "Ships",
-      "optional"    : true,
-      "description" : "B9 example crafts"
+      "file"       : "GameData/Virgin Kalactic",
+      "install_to" : "GameData"
     }
   ]
 }

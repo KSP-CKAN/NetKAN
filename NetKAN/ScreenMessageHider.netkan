@@ -1,0 +1,15 @@
+{
+    "spec_version": 1,
+    "$kref": "#/ckan/kerbalstuff/1060",
+    "license": "GPL-3.0",
+    "identifier": "ScreenMessageHider",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/130759"
+    },
+    "install": [
+        {
+            "file"       : "ScreenMessageHider.dll",
+            "install_to" : "GameData"
+        }
+    ]
+}

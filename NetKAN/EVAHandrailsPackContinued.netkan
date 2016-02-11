@@ -11,6 +11,9 @@
     "depends" : [
         { "name": "ModuleManager", "min_version": "2.6.5" }
     ],
+    "suggests": [
+        { "name": "EvaHandrailsKISCompatibility" }
+    ],
     "install": [
         {
             "file": "NEBULA",
@@ -20,5 +23,15 @@
     ],
     "resources": {
         "homepage": "https://kerbalstuff.com/mod/929/EVA%20Handrails%20Pack%20Continued"
-    }
+    },
+	"x_netkan_override" : [
+		{
+			"version" : "0.2.0",
+			"delete" : [ "ksp_version" ],
+			"override" : {
+				"ksp_version_min" : "1.0.2",
+				"ksp_version_max" : "1.0.4"
+			}
+		}
+    ]
 }

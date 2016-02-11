@@ -1,0 +1,29 @@
+{
+	"spec_version" : "v1.4",
+	"identifier"   : "RealScaleBoosters",
+	"$kref"        : "#/ckan/kerbalstuff/1435",
+	"$vref"        : "#/ckan/ksp-avc",
+	"x_netkan_license_ok": true,
+	"depends": [
+		{ "name": "ModuleManager" }
+	],
+	"recommends": [
+		{ "name": "HangarExtender" },
+		{ "name": "KerbalJointReinforcement" }
+	],
+	"suggests": [
+	  { "name": "RealSolarSystem" },
+	  { "name": "CommunityTechTree" }
+	],
+    "install": [
+        {
+            "find"       : "RealScaleBoosters",
+            "install_to" : "GameData",
+            "filter"     : "Ships"
+        },
+        {
+            "find"       : "VAB",
+            "install_to" : "Ships"
+        }
+    ]
+}

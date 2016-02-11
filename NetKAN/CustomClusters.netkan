@@ -1,0 +1,16 @@
+{
+    "spec_version": "v1.4",
+    "$kref": "#/ckan/kerbalstuff/1058",
+    "license": "CC-BY-NC-SA-4.0",
+    "identifier": "CustomClusters",
+    "recommends": [
+        { "name": "KerbalJointReinforcement"}
+    ],
+    "install": [
+        {
+            "find"       : "VanguardAstrodynamics",
+            "install_to" : "GameData",
+            "filter"     : "Thumbs.db"
+        }
+    ]
+}

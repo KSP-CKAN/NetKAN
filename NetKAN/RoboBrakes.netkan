@@ -1,0 +1,15 @@
+{
+    "spec_version": "v1.10",
+    "license": "MIT",
+    "$kref": "#/ckan/kerbalstuff/1041",
+    "identifier": "RoboBrakes",
+    "depends": [
+        { "name": "ModuleManager"}
+    ],
+    "install": [
+        {
+            "find"       : "RoboBrakes",
+            "install_to" : "GameData"
+        }
+    ]
+}

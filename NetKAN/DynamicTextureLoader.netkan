@@ -1,0 +1,12 @@
+{
+    "spec_version" : 1,
+    "identifier"   : "DynamicTextureLoader",
+    "$kref"        : "#/ckan/github/rbray89/DynamicTextureLoader",
+    "name"         : "Dynamic Texture Loader",
+    "abstract"     : "Without sacrificing parts or texture quality, this mod unloads and loads textures on the fly! Increase texture resolution to max again!",
+    "license"      : "MIT",
+    "ksp_version"  : "1.0.5",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/128660-1051-0-dec-25-2015-dynamic-texture-loader/"
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "spec_version": 1,
+    "identifier": "StarTrekTOSTunics",
+    "$kref": "#/ckan/kerbalstuff/1322",
+    "license": "MIT",
+    "depends": [
+        { "name": "TextureReplacer" }
+    ],
+    "install": [
+        {
+            "file"       : "TextureReplacer",
+            "install_to" : "GameData",
+            "filter"     : "Thumbs.db"
+        }
+    ]
+}

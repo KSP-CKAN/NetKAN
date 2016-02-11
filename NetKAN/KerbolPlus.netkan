@@ -1,20 +1,29 @@
 {
-    "$kref": "#/ckan/kerbalstuff/628",
+    "$kref"       : "#/ckan/github/Amarius1/Kerbol-Plus",
     "spec_version": "v1.4",
-    "identifier": "KerbolPlus",
-    "license": "CC-BY-NC-SA",
-	"depends"	:	[ { "name" : "KopernicusTech" },
-					{ "name" : "ModuleManager" } ],
-	"provides": [ "PlanetPack" ],
-	"conflicts"	:	[ { "name" : "Kopernicus" },
-					{ "name" : "KittopiaTech" },
-					{ "name" : "PlanetPack" }
-					],
-	"install"		:	[ { "find" : "Kerbol+",
-						"install_to" : "GameData" },
-						{ "find" : "KittopiaSpace",
-						"install_to" : "GameData",
-						"filter" : [ "StarFix.cfg", "Help.cr_help", "plugins", "KittopiaSpace/Textures/Default" ]
-						} 
-					]
+    "identifier"  : "KerbolPlus",
+    "license"     : "CC-BY-NC-SA-4.0",
+    "name"        : "Kerbol Origins",
+    "abstract"    : "This mod aims to expand the stock Kerbol System with 2 more gas giants and lots of moons.",
+    "ksp_version" : "1.0.4",
+	"depends": [
+		{ "name" : "Kopernicus", "version": "1:beta-04" },
+		{ "name" : "ModuleManager" }
+	],
+	"conflicts": [
+		{ "name" : "KPlus" },
+		{ "name" : "RealSolarSystem" }
+	],
+	"install": [
+		{
+			"find"      : "KerbolPlus",
+			"install_to": "GameData"
+		},
+		{
+			"find"      : "Kopernicus/Cache",
+			"install_to": "GameData/Kopernicus"
+		} 
+    ],
+    "x_netkan_epoch": "1",
+    "x_netkan_force_v": true
 }

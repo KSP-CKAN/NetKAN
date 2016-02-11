@@ -1,0 +1,18 @@
+{
+    "spec_version": 1,
+    "identifier": "RustyTexturesForProceduralParts",
+    "$kref": "#/ckan/kerbalstuff/1306",
+    "license": "CC-BY-NC-ND-4.0",
+    "depends": [
+        { "name": "ProceduralParts" }
+    ],
+    "suggests": [
+        { "name": "RustyStarRockets" }
+    ],
+    "install": [
+        {
+            "file"       : "RustyProceduralParts",
+            "install_to" : "GameData"
+        }
+    ]
+}

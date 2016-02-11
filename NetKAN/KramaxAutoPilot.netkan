@@ -1,0 +1,13 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "KramaxAutoPilot",
+    "license": "CC-BY-NC-SA-4.0",
+    "$kref": "#/ckan/kerbalstuff/1190",
+    "install": [
+        {
+            "find"       : "KramaxAutoPilot",
+            "install_to" : "GameData",
+            "filter"     : "KramaxAutoPilot.pdb"
+        }
+    ]
+}

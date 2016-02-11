@@ -1,0 +1,12 @@
+{
+    "identifier": "covenantcapitalship",
+    "spec_version": "v1.4",
+    "license": "MIT",
+    "$kref": "#/ckan/kerbalstuff/1141",
+    "install": [
+        {
+            "file"       : "covenant carrier",
+            "install_to" : "GameData/kdufferskorp"
+        }
+    ]
+}

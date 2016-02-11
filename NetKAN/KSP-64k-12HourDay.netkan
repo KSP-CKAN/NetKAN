@@ -7,13 +7,11 @@
     "license": "CC-BY-NC-4.0",
     "install": [
         {
-            "file": "Optional 12 hour day/GameData/64k",
+            "file": "64k/Optional 12 hour day/GameData/64K",
             "install_to": "GameData"
         }
     ],
     "depends": [
-        { "name": "ModuleManager", "min_version": "2.6.6" },
-        { "name": "Kopernicus", "min_version": "pre-alpha-07" },
         { "name": "KSP-64k" }
     ]
 }

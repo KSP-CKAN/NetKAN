@@ -5,11 +5,29 @@
     "license": "CC-BY-NC-SA-4.0",
     "release_status" : "stable",
     "$kref": "#/ckan/kerbalstuff/831",
+    "depends": [
+        { "name": "PhoenixIndustriesFlags" }
+    ],
     "recommends": [
         { "name": "KIS" },
         { "name": "MechJeb2" }
     ],
-	"install"	:	[	{ "find"	:	"CTN",
-						"install_to":	"GameData",
-						"filter"	:	"Thumds.db"} ]
+	"install"	:	[	
+		{ 
+			"find"	:	"CTN",
+			"install_to":	"GameData",
+			"filter"	:	[ "Thumds.db", "flags" ]
+		} 
+	],
+	"x_netkan_override" : [
+		{
+			"version" : "1.5.0",
+			"delete" : [ "ksp_version" ],
+			"override" : {
+				"ksp_version_min" : "1.0.2",
+				"ksp_version_max" : "1.0.4"
+			}
+		}
+    ]
+	
 }

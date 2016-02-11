@@ -1,0 +1,31 @@
+{
+    "spec_version" : "v1.4",
+    "identifier"   : "SigmaPluronKhato",
+    "$kref"        : "#/ckan/github/Sigma88/Sigma-PluronKhato",
+    "$vref"        : "#/ckan/ksp-avc",
+    "name"         : "Sigma: PluronKhato",
+    "abstract"     : "This mod will add a Kerbal analogue to the Pluto-Charon system.",
+    "license"      : "CC-BY-NC-SA-4.0",
+    "author"       : "Sigma88",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/112095"
+    },
+    "depends": [
+        { "name": "ModuleManager" },
+        { "name": "Kopernicus", "min_version": "1:beta-05-2" }
+    ],
+    "recommends": [
+        { "name": "SigmaBinary-core" }
+    ],
+    "conflicts": [
+        { "name": "BilliardsPlanetPack" },
+        { "name": "RealSolarSystem" },
+        { "name": "ToySolarSystem" }
+    ],
+    "install": [
+        {
+            "find": "PluronKhato",
+            "install_to": "GameData/Sigma"
+        }
+    ]
+}

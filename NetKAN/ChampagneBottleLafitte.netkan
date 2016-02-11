@@ -1,0 +1,16 @@
+{
+    "spec_version": 1,
+    "license": "GPL-3.0",
+    "$kref": "#/ckan/kerbalstuff/1053",
+    "identifier": "ChampagneBottleLafitte",
+    "depends": [
+        { "name": "Toolbar"}
+    ],
+    "install": [
+        {
+            "file"       : "Champagne",
+            "install_to" : "GameData",
+            "filter"     : "Source"
+        }
+    ]
+}

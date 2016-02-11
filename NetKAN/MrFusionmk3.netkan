@@ -1,12 +1,12 @@
 {
     "$kref": "#/ckan/kerbalstuff/847",
-    "license": "GPL-3.0",
-    "spec_version": 1,
+    "license": "WTFPL",
+    "spec_version": "v1.2",
     "identifier": "MrFusionmk3",
     "install" : [
         {
             "file"       : "Mr_Fusion_MK1",
-            "install_to" : "GameData"
+            "install_to" : "GameData/Skunk_Works"
         }
     ]
 }

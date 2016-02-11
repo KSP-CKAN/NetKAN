@@ -1,9 +1,17 @@
 {
-	"spec_version" : 1,
-	"identifier"   : "KerbinSide",
-	"$kref"        : "#/ckan/kerbalstuff/77",
-	"license"      : "BSD-3-clause",
-	"depends": [
+    "spec_version"   : "v1.2",
+    "identifier"     : "KerbinSide",
+    "$kref"          : "#/ckan/kerbalstuff/77",
+    "license"        : "BSD-3-clause",
+    "x_netkan_epoch" : "1",
+    "depends"        : [
         { "name": "KerbalKonstructs" }
+    ],
+    "install"        : [
+      {
+        "file"  : "GameData/KerbinSide",
+        "install_to" : "GameData",
+        "filter": "AirRace"
+      }
     ]
 }

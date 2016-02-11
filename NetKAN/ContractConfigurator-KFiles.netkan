@@ -1,0 +1,24 @@
+{
+    "spec_version" : "v1.4",
+    "identifier"   : "ContractConfigurator-KFiles",
+    "$kref"        : "#/ckan/github/severedsolo/ContractPackKFiles",
+    "name"         : "Contract Pack: The K-Files",
+    "abstract"     : "Story based contract pack for KSP. The truth is out there!",
+    "license"      : "CC-BY-SA-4.0",
+    "$vref"        : "#/ckan/ksp-avc",
+    "depends" : [
+        {
+            "name" : "ContractConfigurator",
+            "min_version" : "1.7.8"
+        }
+],		
+    "install" : [
+        {
+            "find" : "KFiles",
+            "install_to" : "GameData/ContractPacks"
+        }
+    ],
+    "resources" : {
+        "homepage" : "http://forum.kerbalspaceprogram.com/threads/138681"
+    }
+}

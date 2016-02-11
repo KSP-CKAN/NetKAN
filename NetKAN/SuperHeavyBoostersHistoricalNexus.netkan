@@ -1,13 +1,16 @@
 {
     "$kref": "#/ckan/kerbalstuff/781",
-    "spec_version": 1,
+    "spec_version": "v1.4",
     "x_via": "Automated KerbalStuff CKAN submission",
     "license": "MIT",
     "identifier": "SuperHeavyBoostersHistoricalNexus",
     "install": [
         {
-            "file": "Nexus",
+            "find": "Nexus",
             "install_to": "GameData"
         }
+    ],
+    "recommends": [
+        { "name": "CommunityResourcePack" }
     ]
 }

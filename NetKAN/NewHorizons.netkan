@@ -1,25 +1,38 @@
 {
-    "$kref": "#/ckan/kerbalstuff/661",
-    "spec_version": "v1.4",
-    "identifier": "NewHorizons",
-    "license": "CC-BY-NC-SA-4.0",
-	"depends"	:	[ { "name" : "Kopernicus" },
-					{ "name" : "Kopernicus-Config-Default" },
-					{ "name" : "ModuleManager" },
-					{ "name" : "KittopiaTech"} ],
-	"recommends":	[ { "name" : "ADIOS" },
-					{ "name" : "RemoteTech" },
-					{ "name" : "DeadlyReentry" } ],
-	"supports"	:	[ { "name" : "Regolith"} ],
-	"provides": [ "PlanetPack" ],
-	"conflicts"	:	[ { "name" : "KopernicusTech" },
-					{ "name" : "PlanetPack" }
-					],
-	"install"		:	[ { "find" : "New_Horizons",
-						"install_to" : "GameData" },
-						{ "find" : "KittopiaSpace",
-						"install_to" : "GameData",
-						"filter" : [ "StarFix.cfg", "Help.cr_help", "plugins", "Textures" ]
-						} 
-					]
+    "spec_version"  : "v1.4",
+    "identifier"    : "NewHorizons",
+    "x_netkan_epoch": "1",
+    "$kref"         : "#/ckan/github/KillAshley/New_Horizons",
+    "name"          : "New Horizons",
+    "abstract"      : "Rearranges the stock system and introduces 19 more bodies to visit and explore.",
+    "license"       : "CC-BY-NC-SA-4.0",
+    "author"        : "KillAshley",
+    "release_status": "stable",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/114092"
+    },
+    "ksp_version": "1.0.5",
+    "depends": [
+        { "name": "ModuleManager" },
+        { "name": "Kopernicus", "min_version": "1:beta-05-2" }
+    ],
+    "suggests": [
+        { "name": "ActiveTextureManagement" },
+        { "name": "DMagicOrbitalScience" },
+        { "name": "DistantObject" },
+        { "name": "PlanetShine" },
+        { "name": "ResearchBodies" },
+        { "name": "TextureReplacer" }
+    ],
+    "conflicts": [
+        { "name": "BilliardsPlanetPack" },
+        { "name": "RealSolarSystem" },
+        { "name": "ToySolarSystem" }
+    ],
+    "install": [
+        {
+            "find": "New_Horizons",
+            "install_to": "GameData"
+        }
+    ]
 }

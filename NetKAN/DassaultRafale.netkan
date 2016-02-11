@@ -1,0 +1,20 @@
+{
+    "spec_version": "v1.4",
+    "$kref": "#/ckan/kerbalstuff/1271",
+    "identifier": "DassaultRafale",
+    "license": "WTFPL",
+    "depends": [
+        { "name": "FirespitterCore" },
+        { "name": "BahamutoDynamicsPartsPack"}
+    ],
+    "recommends": [
+        { "name": "BDArmory" },
+        { "name": "AdjustableLandingGear"}
+    ],
+    "install": [
+        {
+            "find"       : "Rafale",
+            "install_to" : "GameData/Skunk_Works"
+        }
+    ]
+}
