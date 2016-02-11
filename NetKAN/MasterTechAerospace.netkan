@@ -5,7 +5,7 @@
     "identifier": "MasterTechAerospace",
     "depends": [
         { "name": "ModuleManager" },
-        { "name": "QuizTech" }
+        { "name": "QuizTechAeroPack" }
     ],
     "suggests": [
         { "name": "RasterPropMonitor" }
