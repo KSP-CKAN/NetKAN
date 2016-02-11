@@ -3,9 +3,16 @@
     "$kref": "#/ckan/kerbalstuff/1079",
     "license": "CC-BY-SA-2.0",
     "identifier": "MasterTechAerospace",
+    "depends": [
+        { "name": "ModuleManager" },
+        { "name": "QuizTech" }
+    ],
+    "suggests": [
+        { "name": "RasterPropMonitor" }
+    ],
     "install": [
         {
-            "find"       : "MTA",
+            "find"       : "MTA Stock-a-like",
             "install_to" : "GameData"
         }
     ]
