@@ -8,7 +8,7 @@
     "$vref"        : "#/ckan/ksp-avc",
     "resources": {
         "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/131706-1",
-        "github": "https://github.com/zentarul/abcors"
+        "repository": "https://github.com/zentarul/abcors"
     },
     "suggests": [
         { "name": "KSP-AVC" }
