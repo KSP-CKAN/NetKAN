@@ -13,9 +13,7 @@
     "suggests": [
 	{ "name": "FerramAerospaceResearch" }
     ],
-    "provides": [
-	{ "name": "InsanityAerospace" }
-    ],
+    "provides": [ "InsanityAerospace" ],
     "install" : [
         {
             "find"       : "GameData/Mk2Expansion",
