@@ -13,6 +13,9 @@
     "suggests": [
 	{ "name": "FerramAerospaceResearch" }
     ],
+    "conflicts": [
+	{ "name": "InsanityAerospace" }
+    ],
     "provides": [ "InsanityAerospace" ],
     "install" : [
         {
