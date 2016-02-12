@@ -1,0 +1,21 @@
+{
+    "license": "CC-BY-4.0",
+    "$kref": "#/ckan/kerbalstuff/1413",
+    "spec_version": "v1.4",
+    "identifier": "VaporosBlueGalaxySkybox",
+    "abstract": "A Skybox for TextureReplacer",
+    "provides": [ "Skybox" ],
+    "conflicts": [
+        { "name": "Skybox" }
+    ],
+    "install": [
+        {
+            "find": "TextureReplacer/Default",
+            "install_to": "GameData/TextureReplacer"
+        },
+        {
+            "find": "TextureReplacer/EnvMap",
+            "install_to": "GameData/TextureReplacer"
+        }
+    ]
+}
