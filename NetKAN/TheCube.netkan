@@ -1,0 +1,15 @@
+{
+    "$kref": "#/ckan/kerbalstuff/1373",
+    "spec_version": 1,
+    "license": "CC-BY-SA-4.0",
+    "identifier": "TheCube",
+    "depends": [
+        { "name": "FirespitterCore" }
+    ],
+    "install": [
+        {
+            "file": "Pupstar",
+            "install_to": "GameData"
+        }
+    ]
+}
