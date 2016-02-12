@@ -3,7 +3,7 @@
     "$kref": "#/ckan/kerbalstuff/1413",
     "spec_version": "v1.4",
     "identifier": "VaporosBlueGalaxySkybox",
-    "abstract": "A Skybox for TextureReplacer - No helmet reflections",
+    "abstract": "A Skybox for TextureReplacer",
     "provides": [ "Skybox" ],
     "conflicts": [
         { "name": "Skybox" }
