@@ -7,6 +7,15 @@
         { "name": "ModuleManager" },
         { "name": "CommunityResourcePack" }
     ],
+    "recommends": [
+        { "name": "RasterPropMonitor" },
+        { "name": "ASET Avionics Pack" },
+        { "name": "ASET Props Pack" }
+    ],
+    "suggests": [
+        { "name": "B9-PWings-Fork" },
+        { "name": "AdjustableLandingGear" }
+    ],
     "install": [
         {
             "find": "AUCadtech",
