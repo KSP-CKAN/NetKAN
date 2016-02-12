@@ -9,8 +9,8 @@
     ],
     "recommends": [
         { "name": "RasterPropMonitor" },
-        { "name": "ASET Avionics Pack" },
-        { "name": "ASET Props Pack" }
+        { "name": "ASETAvionics" },
+        { "name": "ASETProps" }
     ],
     "suggests": [
         { "name": "B9-PWings-Fork" },
