@@ -2,6 +2,17 @@
     "$kref": "#/ckan/kerbalstuff/1427",
     "identifier": "KSCShipyard",
     "spec_version": "v1.4",
-    "x_via": "Automated KerbalStuff CKAN submission",
-    "license": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International "
+    "license": "CC-BY-NC-SA-4.0",
+    "depends": [
+        {
+            "name": "KerbalKonstructs",
+            "min_version": "0.9.5.0.1"
+        }
+    ],
+    "install": [
+        {
+            "file": "KSCshipyard",
+            "install_to": "GameData"
+        }
+    ]
 }
