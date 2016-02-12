@@ -9,7 +9,14 @@
     "author"         : "Selfish Meme",
     "resources"      : {
         "homepage"   : "http://forum.kerbalspaceprogram.com/index.php?/topic/130365-105-nofuel-all-tanks-defueled"
-    },
+    },    
+    "install": [
+        {
+            "file": "nofuel",
+            "install_to": "GameData",
+            "filter": ".DS_Store"
+        }
+    ],
     "depends": [
         { "name": "ModuleManager" }
     ]
