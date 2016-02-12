@@ -1,0 +1,23 @@
+{
+    "license": "MIT",
+    "$kref": "#/ckan/kerbalstuff/1418",
+    "spec_version": 1,
+    "identifier": "RSSVisualTweaks",
+    "depends": [
+        { "name": "RealSolarSystem" }
+    ],
+    "install": [
+        {
+            "file": "RSSVisualTweaks",
+            "install_to": "GameData"
+        },
+        {
+            "file": "RSS-ScienceDefs",
+            "install_to": "GameData"
+        },
+        {
+            "file": "RSS-TitanFix",
+            "install_to": "GameData"
+        }
+    ]
+}
