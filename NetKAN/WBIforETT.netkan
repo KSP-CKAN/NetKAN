@@ -7,7 +7,7 @@
         { "name": "ModuleManager" },
         { "name": "ETT" }
     ],
-    "supports": [
+    "recommends": [
         { "name": "WildBlueTools" },
         { "name": "Buffalo" },
         { "name": "Pathfinder" },
