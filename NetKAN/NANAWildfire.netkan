@@ -10,7 +10,7 @@
     "install": [
         {
             "find": "NANA",
-            "install_to: "GameData"
+            "install_to": "GameData"
         }
     ]
 }
