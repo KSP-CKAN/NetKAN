@@ -1,7 +1,17 @@
 {
     "identifier": "JoolBiomes",
+    "name": "Jool Biomes",
+    "abstract": "Adds a Great Green Spot and four distinct biomes to Jool (for atmospheric and space science)"
     "license": "MIT",
     "spec_version": "v1.4",
-    "x_via": "Automated KerbalStuff CKAN submission",
-    "$kref": "#/ckan/kerbalstuff/1445"
+    "$kref": "#/ckan/kerbalstuff/1445",
+    "depends": [
+        { "name": "Kopernicus" }
+    ],
+    "install": [
+        {
+            "find": "GameData/JoolBiomes",
+            "install_to": "GameData"
+        }
+    ]
 }
