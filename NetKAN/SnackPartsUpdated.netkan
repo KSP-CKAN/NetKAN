@@ -8,7 +8,7 @@
     "$kref": "#/ckan/kerbalstuff/1452",
     "resources: {
         "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/131531-snack-parts-by-whyren-updated"
-    }
+    },
     "depends": [
         { "name": "Snacks" }
     ],
