@@ -1,0 +1,21 @@
+{
+    "license": "WTFPL",
+    "identifier": "SnackPartsUpdated",
+    "author": [ "cain071546", "Whyren" ],
+    "x_via": "Automated KerbalStuff CKAN submission",
+    "spec_version": "v1.4",
+    "$kref": "#/ckan/kerbalstuff/1452",
+    "depends": [
+        { "name": "Snacks" }
+    ],
+    "conflicts": [
+        { "name": "SnacksPartsByWhyren"}
+    ],
+    "comment": "SnacksPartsByWhyren has not been added to CKAN at this time, but if it ever is, this will conflict",
+    "install": [
+        {
+            "file": "SnacksPartsByWhyren",
+            "install_to": "GameData"
+        }
+    ]
+}
