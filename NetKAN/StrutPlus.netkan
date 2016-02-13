@@ -1,0 +1,12 @@
+{
+    "identifier": "StrutPlus",
+    "license": "CC-BY-SA-4.0",
+    "spec_version": "v1.4",
+    "$kref": "#/ckan/kerbalstuff/1447",
+    "install": [
+        {
+            "find": "Strut+",
+            "install_to": "GameData"
+        }
+    ]
+}
