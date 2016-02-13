@@ -1,0 +1,9 @@
+{
+    "$kref": "#/ckan/kerbalstuff/1438",
+    "identifier": "UKCLSSM",
+    "spec_version": "v1.4",
+    "license": "MIT",
+    "depends": [
+        { "name": "KerbalKonstructs" }
+    ]
+}
