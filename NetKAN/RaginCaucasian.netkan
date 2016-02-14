@@ -1,0 +1,11 @@
+{
+    "license": "MIT",
+    "identifier": "RaginCaucasian",
+    "spec_version": "v1.4",
+    "$kref": "#/ckan/kerbalstuff/1450",
+    "install": [
+        {
+            "find": "GameData/RaginCaucasian",
+            "install_to": "GameData"
+        }
+}
