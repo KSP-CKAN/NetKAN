@@ -1,0 +1,15 @@
+{
+    "spec_version" : 1,
+    "identifier"   : "DMagicScienceAnimate",
+    "$kref"        : "#/ckan/github/DMagic1/DMModuleScienceAnimateGeneric",
+    "name"         : "DMModuleScienceAnimateGeneric",
+    "abstract"     : "A replacement for ModuleScienceExperiment and ModuleAnimateGeneric",
+    "license"      : "BSD-2-clause",
+    "ksp_version"  : "1.0.5",
+    "install": [
+	{
+            "file": "GameData/DMagicScienceAnimate",
+	    "install_to": "GameData"
+	}
+    ]
+}
