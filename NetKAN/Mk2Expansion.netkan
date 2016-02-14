@@ -8,19 +8,17 @@
         { "name": "FirespitterCore" },
         { "name": "ModuleManager", "min_version": "2.5.3" },
         { "name": "CommunityResourcePack" },
-        { "name": "InterstellarFuelSwitch-Core" }
+        { "name": "InterstellarFuelSwitch-Core" },
+	{ "name": "InsanityAerospace" }
     ],
     "suggests": [
 	{ "name": "FerramAerospaceResearch" }
     ],
-    "conflicts": [
-	{ "name": "InsanityAerospace" }
-    ],
-    "provides": [ "InsanityAerospace" ],
     "install" : [
         {
             "find"       : "GameData/Mk2Expansion",
-            "install_to" : "GameData"
+            "install_to" : "GameData",
+            "filter"     : "Agencies"
         },
         {
             "find"        : "VAB",
