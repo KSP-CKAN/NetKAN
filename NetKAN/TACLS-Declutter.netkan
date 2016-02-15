@@ -1,12 +1,19 @@
 {
     "spec_version" : 1,
     "identifier"   : "TACLS-Declutter",
-    "$kref"        : "#/ckan/kerbalstuff/1216",
-	"$vref"        : "#/ckan/ksp-avc",
-    "x_netkan_license_ok": true,
-	"depends": [
-		{"name": "TACLS"},
-		{"name": "InterstellarFuelSwitch-Core"},
-		{"name": "ModuleManager"}
-	]
+    "author"       : "Farix",
+    "$kref"        : "#/ckan/github/TheFarix/TACLS-Declutter-Revised",
+    "$vref"        : "#/ckan/ksp-avc",
+    "name"         : "TAC Life Support Declutter Revised",
+    "abstract"     : "Reduces 30 TAC Life Support parts down to 6, or even 2 if using TweekScale.",
+    "license"      : "MIT",
+    "x_netkan_version_edit": "^[vV]?(?<version>.+)$",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/37449-105-tac-life-support-v01121-12dec/&page=116#comment-1985285"
+    },
+    "depends": [
+        {"name": "TACLS"},
+        {"name": "InterstellarFuelSwitch-Core"},
+        {"name": "ModuleManager"}
+    ]
 }
