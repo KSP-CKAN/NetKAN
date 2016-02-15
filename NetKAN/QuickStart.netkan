@@ -1,10 +1,15 @@
 {
-    "$kref": "#/ckan/kerbalstuff/763",
+    "$kref": "#/ckan/github/malahx/QuickStart",
+    "$vref" : "#/ckan/ksp-avc",
     "x_via": "Automated KerbalStuff CKAN submission",
     "identifier": "QuickStart",
+    "resources": {
+    	"homepage": 	"http://forum.kerbalspaceprogram.com/index.php?/topic/85834-",
+    	"repository": 	"https://github.com/malahx/QuickStart"
+    },
     "license": "GPL-3.0",
     "spec_version": "v1.01",
-	"install": [
-		{ "file": "GameData/QuickStart", "install_to": "GameData" }
-	]
+    "install": [
+	{ "file": "GameData/QuickStart", "install_to": "GameData" }
+    ]
 }
