@@ -1,12 +1,16 @@
 {
-"spec_version" : 1,
-"identifier" : "QuickGoTo",
-"$kref" : "#/ckan/kerbalstuff/653",
-"license" : "GPL-3.0",
-"install": [
-{
-"file" : "GameData/QuickGoTo",
-"install_to" : "GameData"
-}
-]
+      "spec_version" : 1,
+      "identifier" : "QuickGoTo",
+    	"$kref": "#/ckan/github/malahx/QuickGoTo",
+    	"$vref" : "#/ckan/ksp-avc",
+      "license" : "GPL-3.0",
+    	"resources": {
+    		"homepage": 	"http://forum.kerbalspaceprogram.com/index.php?/topic/85834-",
+    		"repository": 	"https://github.com/malahx/QuickGoTo"
+    	},
+      "install": [
+      {
+          "file" : "GameData/QuickGoTo",
+          "install_to" : "GameData"
+      }]
 }
