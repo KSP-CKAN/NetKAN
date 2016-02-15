@@ -1,15 +1,27 @@
 {
-    "identifier": "QuickScroll", 
-    "x_netkan_license_ok": true, 
-    "$kref": "#/ckan/github/malahx/QuickScroll",
-    "$vref" : "#/ckan/ksp-avc",
-    "spec_version": 1,
-    "license" : "GPL-3.0",
-    "resources": {
-    	"homepage": 	"http://forum.kerbalspaceprogram.com/index.php?/topic/85834-",
-    	"repository": 	"https://github.com/malahx/QuickScroll"
-    },
-    "conflicts" : [
-	{ "name" : "PartCatalog" }
-    ]
+	"spec_version"		: "v1.00",
+	"identifier"		: "QuickScroll",
+	"$kref"			: "#/ckan/github/malahx/QuickScroll",
+	"name"			: "QuickScroll",
+	"author"		: "Malah",
+	"abstract"		: "Adds the possibility to scroll the parts pages, the categories and the filters on the editor with the mouse wheel and with keyboard shortcuts.",
+	"license"		: "GPL-3.0",
+	"$vref"			: "#/ckan/ksp-avc",
+	"x_netkan_epoch"	: 1,
+	"resources": {
+    		"homepage"	: "http://forum.kerbalspaceprogram.com/index.php?/topic/85834-"
+	},
+	"install": [
+	{ 
+		"file"		: "GameData/QuickScroll", 
+		"install_to"	: "GameData" 
+	}],
+	"suggests": [
+	{
+		"name"		: "Toolbar"
+	}],
+    	"conflicts"     : [
+	{ 
+        	"name"      	: "PartCatalog" 
+    	}]
 }
