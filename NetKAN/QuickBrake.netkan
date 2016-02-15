@@ -1,10 +1,15 @@
 {
-    "$kref": "#/ckan/kerbalstuff/764",
+    "$kref": "#/ckan/github/malahx/QuickBrake",
+    "$vref" : "#/ckan/ksp-avc"
     "x_via": "Automated KerbalStuff CKAN submission",
     "identifier": "QuickBrake",
     "license": "GPL-3.0",
+    "resources": {
+    	"homepage": 	"http://forum.kerbalspaceprogram.com/index.php?/topic/85834-",
+    	"repository": 	"https://github.com/malahx/QuickBrake"
+    },
     "spec_version": "v1.00",
-	"install": [
-		{ "file": "GameData/QuickBrake", "install_to": "GameData" }
-	]
+    "install": [
+	{ "file": "GameData/QuickBrake", "install_to": "GameData" }
+    ]
 }
