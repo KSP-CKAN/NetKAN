@@ -17,8 +17,7 @@
 		"install_to"	: "GameData" 
 	}],
 	"suggests": [
-	{
-		{ "name"		: "Toolbar" },
-		{ "name"    : "RasterPropMonitor" }
-	}]
+		{ "name"	: "Toolbar" },
+		{ "name"    	: "RasterPropMonitor" }
+	]
 }
