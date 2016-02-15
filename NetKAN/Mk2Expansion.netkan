@@ -18,7 +18,7 @@
         {
             "find"       : "GameData/Mk2Expansion",
             "install_to" : "GameData",
-            "filter"     : "Agencies"
+            "filter"     : [ "Agencies", "Thumbs.db" ]
         },
         {
             "find"        : "VAB",
