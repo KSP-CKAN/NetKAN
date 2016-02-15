@@ -6,7 +6,7 @@
     "$vref"          : "#/ckan/ksp-avc",
     "abstract"       : "A set of Kerbal Space Program PartModules designed to control animations in B9 Aerospace.",
     "author"         : "blowfish",
-    "license"        : "GPL-3.0",
+    "license"        : "LGPL-3.0",
     "release_status" : "stable",
     "resources": {
         "homepage" : "http://forum.kerbalspaceprogram.com/threads/92630"
