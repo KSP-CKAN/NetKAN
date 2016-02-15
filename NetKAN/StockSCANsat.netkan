@@ -1,10 +1,11 @@
 {
     "spec_version": "v1.2",
     "identifier": "StockSCANsat",
-    "$kref": "#/ckan/kerbalstuff/1126",
+    "$kref": "#/ckan/github/malahx/StockSCANsat",
+    "$vref" : "#/ckan/ksp-avc",
     "license": "public-domain",
     "resources": {
-        "homepage": "http://forum.kerbalspaceprogram.com/threads/99869#StockSCANsat",
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/90061-",
         "repository": "https://github.com/malahx/StockSCANsat"
     },
     "depends": [
