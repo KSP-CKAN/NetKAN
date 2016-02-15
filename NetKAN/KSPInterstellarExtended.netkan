@@ -1,7 +1,10 @@
 {
     "spec_version"       : 1,
     "identifier"         : "KSPInterstellarExtended",
-    "$kref"              : "#/ckan/kerbalstuff/791",
+    "$kref"              : "#/ckan/github/sswelm/KSPInterstellar",
+    "$vref" 		 : "#/ckan/ksp-avc",
+    "name"		 : "KSP Interstellar Extended",
+    "abstract"		 : "KSP Interstellar Extended is a plugin for Kerbal Space Program, designed to encourage bootstrapping toward ever more advanced levels of technology as well as utilizing In-Situ resources to expand the reach of Kerbal civilization. KSP Interstellar Extended aims to continue in Fractals original KSPI vision in providing a realistic road to the stars.",
     "license"            : "GPL-3.0",
     "install" : [
         {
