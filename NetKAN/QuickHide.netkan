@@ -1,17 +1,20 @@
 {
 	"spec_version" : 1,
 	"identifier" : "QuickHide",
-	"$kref" : "#/ckan/kerbalstuff/396",
+    	"$kref": "#/ckan/github/malahx/QuickHide",
+    	"$vref" : "#/ckan/ksp-avc",
 	"license" : "GPL-3.0",
+    	"resources": {
+    		"homepage": 	"http://forum.kerbalspaceprogram.com/index.php?/topic/85834-",
+    		"repository": 	"https://github.com/malahx/QuickHide"
+    	},
 	"install": [
 	{
 		"file" : "GameData/QuickHide",
 		"install_to" : "GameData"
-	}
-	],
+	}],
 	"suggests": [
 	{
-	"name": "Toolbar"
-	}
-	]
+		"name": "Toolbar"
+	}]
 }
