@@ -18,11 +18,11 @@
 	}],
     	"depends": [
 		{ "name"	: "ModuleManager", "min_version": "2.6.0" },
-        	{ "name": "SCANsat", "min_version": "v14.0"}
+        	{ "name"	: "SCANsat", "min_version": "v14.0"}
     	],
     	"supports": [
-	        { "name": "ContractConfigurator-ContractPack-SCANsat" },
-            { "name": "PartUpgrade" },
-            { "name": "AsteroidDay" }
+	        { "name"	: "ContractConfigurator-ContractPack-SCANsat" },
+            	{ "name"	: "PartUpgrade" },
+            	{ "name"	: "AsteroidDay" }
     	]
 }
