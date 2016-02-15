@@ -1,0 +1,23 @@
+{
+    "spec_version"   : "v1.4",
+    "identifier"     : "B9PartSwitch",
+    "name"           : "B9 Part Switch",
+    "$kref"          : "#/ckan/github/blowfishpro/B9PartSwitch",
+    "$vref"          : "#/ckan/ksp-avc",
+    "abstract"       : "A module which allows parts to switch objects, resources, nodes, attach points, temperature, add mass and cost, and more.",
+    "author"         : "blowfish",
+    "license"        : "LGPL-3.0",
+    "release_status" : "stable",
+    "resources": {
+        "homepage" : "http://forum.kerbalspaceprogram.com/threads/92630"
+    },
+  "depends" : [
+    { "name" : "ModuleManager" }
+  ],
+    "install": [
+        {
+            "find"       : "B9PartSwitch",
+            "install_to" : "GameData"
+        }
+    ]
+}
