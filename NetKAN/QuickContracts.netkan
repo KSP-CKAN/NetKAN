@@ -1,16 +1,19 @@
 {
-    "spec_version"   : "v1.4",
-    "identifier"     : "QuickContracts",
-    "$kref": "#/ckan/github/malahx/QuickContracts",
-    "$vref" : "#/ckan/ksp-avc",
-    "license"        : "GPL-3.0",
-    "resources": {
-    	"homepage": 	"http://forum.kerbalspaceprogram.com/index.php?/topic/85834-",
-    	"repository": 	"https://github.com/malahx/QuickContracts"
-    },
-    "install" :[
-    {
-        "find"       : "QuickContracts",
-        "install_to" : "GameData"
-    }]
+	"spec_version"		: "v1.00",
+	"identifier"		: "QuickContracts",
+	"$kref"				: "#/ckan/github/malahx/QuickContracts",
+	"name"				: "QuickContracts",
+	"author"			: "Malah",
+	"abstract"			: "Adds the possibility to have keyboard's shortcuts on the mission control.",
+	"license"			: "GPL-3.0",
+	"$vref"				: "#/ckan/ksp-avc",
+	"x_netkan_epoch"	: 1,
+	"resources": {
+    		"homepage"	: "http://forum.kerbalspaceprogram.com/index.php?/topic/85834-"
+	},
+    "install": [
+	{ 
+		"file"  		: "GameData/QuickContracts", 
+		"install_to"	: "GameData" 
+	}]
 }
