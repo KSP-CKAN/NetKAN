@@ -4,6 +4,7 @@
     "license": "CC-BY-SA-4.0",
     "spec_version": "v1.4",
     "$kref": "#/ckan/kerbalstuff/1447",
+    "$vref" : "#/ckan/ksp-avc",
     "install": [
         {
             "find": "Strut+",
