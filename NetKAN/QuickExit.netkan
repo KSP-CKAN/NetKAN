@@ -1,17 +1,20 @@
 {
-	"spec_version" : 1,
-	"identifier" : "QuickExit",
-    	"$kref": "#/ckan/github/malahx/QuickExit",
-    	"$vref" : "#/ckan/ksp-avc",
-	"license" : "GPL-3.0",
-    	"resources": {
-    		"homepage": 	"http://forum.kerbalspaceprogram.com/index.php?/topic/85834-",
-    		"repository": 	"https://github.com/malahx/QuickExit"
-    	},
+	"spec_version"		: "v1.00",
+	"identifier"		: "QuickExit",
+	"$kref"			: "#/ckan/github/malahx/QuickExit",
+	"name"			: "QuickExit",
+	"author"		: "Malah",
+	"abstract"		: "Adds the possibility to exit KSP at any time.",
+	"license"		: "GPL-3.0",
+	"$vref"			: "#/ckan/ksp-avc",
+	"x_netkan_epoch"	: 1,
+	"resources": {
+    		"homepage"	: "http://forum.kerbalspaceprogram.com/index.php?/topic/85834-"
+	},
 	"install": [
-	{
-		"file" : "GameData/QuickExit",
-		"install_to" : "GameData"
+	{ 
+		"file"  	: "GameData/QuickExit", 
+		"install_to"	: "GameData" 
 	}],
 	"suggests": [
 	{
