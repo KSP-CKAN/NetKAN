@@ -8,7 +8,8 @@
     "install":[
 	{
 	    "find": "Mk2Expansion/Agencies",
-	    "install_to": "GameData/Mk2Expansion"
+	    "install_to": "GameData/Mk2Expansion",
+	    "filter": "Thumbs.db"
 	}
     ]
 }
