@@ -1,7 +1,21 @@
 {
     "identifier": "SurfaceExperimentPack",
-    "license": "BSD",
+    "license": "BSD-2-clause",
     "spec_version": "v1.4",
-    "x_via": "Automated KerbalStuff CKAN submission",
-    "$kref": "#/ckan/kerbalstuff/1444"
+    "author": [ "AlbertKermin", "CobaltWolf" ],
+    "$kref": "#/ckan/kerbalstuff/1444",
+    "depends": [
+        { "name": "DMagicScienceAnimate" },
+        { "name": "KAS" },
+        { "name": "KIS" }
+    ],
+    "supports": [
+        { "name": "OuterPlanets" }
+    ],
+    "install": [
+        {
+            "find": "SurfaceExperimentPackage",
+            "install_to": "GameData"
+        }
+    ]
 }
