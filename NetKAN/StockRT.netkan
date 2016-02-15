@@ -16,13 +16,13 @@
 		"file"		: "GameData/StockRT", 
 		"install_to"	: "GameData" 
 	}],
-    "depends": [
-        { "name": "ModuleManager", "min_version": "2.6.0" },
-        { "name": "RemoteTech", "min_version": "1.6.0" }
-    ],
-    "supports": [
-        { "name": "RealSolarSystem" },
-        { "name": "OuterPlanetsMod" },
-        { "name": "ContractConfigurator-RemoteTech" }
-    ]
+    	"depends": [
+		{ "name"	: "ModuleManager", "min_version": "2.6.0" },
+        	{ "name"	: "RemoteTech", "min_version": "1.6.0" }
+    	],
+    	"supports": [
+	        { "name"	: "RealSolarSystem" },
+        	{ "name"	: "OuterPlanetsMod" },
+        	{ "name"	: "ContractConfigurator-RemoteTech" }
+    	]
 }
