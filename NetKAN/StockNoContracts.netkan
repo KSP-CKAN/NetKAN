@@ -1,8 +1,13 @@
 {
     "spec_version": 1,
-    "$kref": "#/ckan/kerbalstuff/897",
+    "$kref": "#/ckan/github/malahx/StockNoContracts",
+    "$vref" : "#/ckan/ksp-avc",
     "identifier": "StockNoContracts",
     "license": "public-domain",
+    "resources": {
+    	"homepage": 	"http://forum.kerbalspaceprogram.com/index.php?/topic/90061-",
+    	"repository": 	"https://github.com/malahx/StockNoContracts"
+    },
     "depends": [
         { "name": "ModuleManager", "min_version": "2.6.0" }
     ]
