@@ -5,7 +5,7 @@
     "name"         : "TAC Life Support Declutter Revised",
     "abstract"     : "Reduces 30 TAC Life Support parts down to 6, or even 2 if using TweekScale.",
     "license"      : "MIT",
-    "x_netkan_version_edit": "^[vV]?(?<version>.+)$"
+    "x_netkan_version_edit": "^[vV]?(?<version>.+)$",
     "resources": {
         "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/37449-105-tac-life-support-v01121-12dec/&page=116#comment-1985285"
     },
