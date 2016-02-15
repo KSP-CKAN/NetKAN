@@ -1,10 +1,12 @@
 {
     "spec_version": "v1.2",
     "identifier": "StockRT",
-    "$kref": "#/ckan/kerbalstuff/327",
+    "$kref": "#/ckan/github/malahx/StockRT",
+    "$vref" : "#/ckan/ksp-avc",
     "license": "public-domain",
     "resources": {
-        "repository": "https://github.com/malahx/StockRT"
+    	"homepage": 	"http://forum.kerbalspaceprogram.com/index.php?/topic/90061-",
+    	"repository": 	"https://github.com/malahx/StockRT"
     },
     "depends": [
         { "name": "ModuleManager", "min_version": "2.6.0" },
