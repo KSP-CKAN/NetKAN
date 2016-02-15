@@ -1,7 +1,9 @@
 {
     "spec_version" : 1,
     "identifier"   : "TACLS-Declutter",
+    "author"       : "Farix",
     "$kref"        : "#/ckan/github/TheFarix/TACLS-Declutter-Revised",
+    "$vref"        : "#/ckan/ksp-avc",
     "name"         : "TAC Life Support Declutter Revised",
     "abstract"     : "Reduces 30 TAC Life Support parts down to 6, or even 2 if using TweekScale.",
     "license"      : "MIT",
