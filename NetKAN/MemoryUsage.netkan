@@ -1,8 +1,13 @@
 {
 	"spec_version" : 1,
 	"identifier" : "MemoryUsage",
-	"$kref" : "#/ckan/kerbalstuff/317",
-	"license": "GPL-3.0",
+	"$kref": "#/ckan/github/malahx/MemoryUsage",
+    	"$vref" : "#/ckan/ksp-avc",
+    	"resources": {
+    		"homepage": 	"http://forum.kerbalspaceprogram.com/index.php?/topic/89720-",
+    		"repository": 	"https://github.com/malahx/MemoryUsage"
+    	},
+    	"license": "GPL-3.0",
 	"install": [
 	{
 		"file" : "Kerbal Space Program/GameData/MemoryUsage",
