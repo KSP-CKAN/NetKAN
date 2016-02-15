@@ -1,14 +1,22 @@
 {
-    "spec_version": 1,
-    "$kref": "#/ckan/github/malahx/StockNoContracts",
-    "$vref" : "#/ckan/ksp-avc",
-    "identifier": "StockNoContracts",
-    "license": "public-domain",
-    "resources": {
-    	"homepage": 	"http://forum.kerbalspaceprogram.com/index.php?/topic/90061-",
-    	"repository": 	"https://github.com/malahx/StockNoContracts"
-    },
-    "depends": [
-        { "name": "ModuleManager", "min_version": "2.6.0" }
-    ]
+	"spec_version"		: "v1.00",
+	"identifier"		: "StockNoContracts",
+	"$kref"			: "#/ckan/github/malahx/StockNoContracts",
+	"name"			: "StockNoContracts",
+	"author"		: "Malah",
+	"abstract"		: "A ModuleManager config file which disables all stock contracts types.",
+	"license"		: "public-domain",
+	"$vref"			: "#/ckan/ksp-avc",
+	"x_netkan_epoch"	: 1,
+	"resources": {
+    		"homepage"	: "http://forum.kerbalspaceprogram.com/index.php?/topic/90061-"
+	},
+	"install": [
+	{ 
+		"file"		: "GameData/StockNoContracts", 
+		"install_to"	: "GameData" 
+	}],
+    	"depends": [
+		{ "name"	: "ModuleManager", "min_version": "2.6.0" }
+    	]
 }
