@@ -1,17 +1,20 @@
 {
 	"spec_version" : 1,
 	"identifier" : "QuickExit",
-	"$kref" : "#/ckan/kerbalstuff/341",
+    	"$kref": "#/ckan/github/malahx/QuickExit",
+    	"$vref" : "#/ckan/ksp-avc",
 	"license" : "GPL-3.0",
+    	"resources": {
+    		"homepage": 	"http://forum.kerbalspaceprogram.com/index.php?/topic/85834-",
+    		"repository": 	"https://github.com/malahx/QuickExit"
+    	},
 	"install": [
 	{
 		"file" : "GameData/QuickExit",
 		"install_to" : "GameData"
-	}
-	],
+	}],
 	"suggests": [
 	{
 		"name": "Toolbar"
-	}
-	]
+	}]
 }
