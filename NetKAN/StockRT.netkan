@@ -1,13 +1,21 @@
 {
-    "spec_version": "v1.2",
-    "identifier": "StockRT",
-    "$kref": "#/ckan/github/malahx/StockRT",
-    "$vref" : "#/ckan/ksp-avc",
-    "license": "public-domain",
-    "resources": {
-    	"homepage": 	"http://forum.kerbalspaceprogram.com/index.php?/topic/90061-",
-    	"repository": 	"https://github.com/malahx/StockRT"
-    },
+	"spec_version"		: "v1.2",
+	"identifier"		: "StockRT",
+	"$kref"			: "#/ckan/github/malahx/StockRT",
+	"name"			: "StockRT",
+	"author"		: "Malah",
+	"abstract"		: "Adds the possibility to use the RemoteTech mod without the additional parts.",
+	"license"		: "public-domain",
+	"$vref"			: "#/ckan/ksp-avc",
+	"x_netkan_epoch"	: 1,
+	"resources": {
+    		"homepage"	: "http://forum.kerbalspaceprogram.com/index.php?/topic/90061-"
+	},
+	"install": [
+	{ 
+		"file"		: "GameData/StockRT", 
+		"install_to"	: "GameData" 
+	}],
     "depends": [
         { "name": "ModuleManager", "min_version": "2.6.0" },
         { "name": "RemoteTech", "min_version": "1.6.0" }
