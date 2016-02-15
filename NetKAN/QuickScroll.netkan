@@ -1,13 +1,15 @@
 {
     "identifier": "QuickScroll", 
     "x_netkan_license_ok": true, 
-    "$kref": "#/ckan/kerbalstuff/436", 
+    "$kref": "#/ckan/github/malahx/QuickScroll",
+    "$vref" : "#/ckan/ksp-avc",
     "spec_version": 1,
-	 "license" : "GPL-3.0",
-	 "resources":{
-		"repository": "https://github.com/malahx/QuickScroll"
-	 },
-	"conflicts" : [
-		{ "name" : "PartCatalog" }
-	]
+    "license" : "GPL-3.0",
+    "resources": {
+    	"homepage": 	"http://forum.kerbalspaceprogram.com/index.php?/topic/85834-",
+    	"repository": 	"https://github.com/malahx/QuickScroll"
+    },
+    "conflicts" : [
+	{ "name" : "PartCatalog" }
+    ]
 }
