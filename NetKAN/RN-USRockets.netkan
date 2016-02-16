@@ -14,5 +14,11 @@
     {
         "find"      : "RN_US_Rockets",
         "install_to": "GameData"
+    }],
+	"depends"       : [
+    {
+        "name"      : "KlockheedMartian-Gimbal",
+        "name"      : "ReflectionPlugin",
+        "name"      : "SmokeScreen"
     }]
 }
