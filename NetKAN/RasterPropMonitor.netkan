@@ -1,7 +1,10 @@
 {
     "spec_version"   : 1,
     "identifier"     : "RasterPropMonitor",
-    "$kref"          : "#/ckan/kerbalstuff/734",
+    "$kref"          : "#/ckan/github/Mihara/RasterPropMonitor",
+    "$vref"          : "#/ckan/ksp-avc",
+    "name"           : "RasterPropMonitor",
+    "abstract"       : "RasterPropMonitor is a plugin and toolkit that provides functional props within your IVA.",
     "author"         : [ "MOARdV", "Mihara" ],
     "license"        : "GPL-3.0",
     "depends" : [
@@ -18,5 +21,9 @@
             "filter"     : ["RasterPropMonitor"],
             "install_to" : "GameData"
         }
-    ]
+    ],
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/117471",
+        "repository": "https://github.com/Mihara/RasterPropMonitor"
+    }
 }

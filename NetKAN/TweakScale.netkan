@@ -1,9 +1,15 @@
 {
     "spec_version"       : 1,
-    "$kref"              : "#/ckan/kerbalstuff/344",
+    "$kref"              : "#/ckan/github/pellinor0/TweakScale",
     "$vref"              : "#/ckan/ksp-avc",
     "identifier"         : "TweakScale",
     "license"            : "WTFPL",
+    "name"               : "TweakScale - Rescale Everything!",
+    "abstract"           : "TweakScale lets you change the size of a part. Not just that, but it will figure out how much fuel is in the resized part. And if it's an engine, it will become more powerful by scaling it bigger, or weaker by scaling it smaller.",
+    "author": [
+        "Biotronic",
+        "pellinor"
+    ],
     "release_status"     : "stable",
     "author"             : [ "Biotronic", "pellinor" ],
     "depends" : [
