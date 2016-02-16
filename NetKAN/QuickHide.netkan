@@ -1,17 +1,23 @@
 {
-	"spec_version" : 1,
-	"identifier" : "QuickHide",
-	"$kref" : "#/ckan/kerbalstuff/396",
-	"license" : "GPL-3.0",
+	"spec_version"		: 1,
+	"identifier"		: "QuickHide",
+	"$kref"			: "#/ckan/github/malahx/QuickHide",
+	"name"			: "QuickHide",
+	"author"		: "Malah",
+	"abstract"		: "Adds the possibility to hide the stock toolbar and the mods of the stock toolbar.",
+	"license"		: "GPL-3.0",
+	"$vref"			: "#/ckan/ksp-avc",
+	"x_netkan_epoch"	: 1,
+	"resources": {
+    		"homepage"	: "http://forum.kerbalspaceprogram.com/index.php?/topic/85834-"
+	},
 	"install": [
-	{
-		"file" : "GameData/QuickHide",
-		"install_to" : "GameData"
-	}
-	],
+	{ 
+		"file"		: "GameData/QuickHide", 
+		"install_to"	: "GameData" 
+	}],
 	"suggests": [
 	{
-	"name": "Toolbar"
-	}
-	]
+		"name"		: "Toolbar"
+	}]
 }

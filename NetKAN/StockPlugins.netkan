@@ -1,16 +1,25 @@
 {
-	"spec_version" : 1,
-	"identifier" : "StockPlugins",
-	"$kref" : "#/ckan/kerbalstuff/402",
-	"license": "public-domain",
-    	"resources": {
-        	"homepage": "http://forum.kerbalspaceprogram.com/threads/99869",
-        	"repository": "https://github.com/malahx/StockPlugins"
-    	},
+	"spec_version"		: 1,
+	"identifier"		: "StockPlugins",
+	"$kref"			: "#/ckan/github/malahx/StockPlugins",
+	"name"			: "StockPlugins",
+	"author"		: "Malah",
+	"abstract"		: "Adds the possibility to use a plugin without the additional parts (supports DeadlyReentry, Graphotron, KerbalEngineer, KerbalGPS, kOS, MechJeb, Protractor and Telemachus).",
+	"license"		: "public-domain",
+	"$vref"			: "#/ckan/ksp-avc",
+	"x_netkan_epoch"	: 1,
+	"resources": {
+    		"homepage"	: "http://forum.kerbalspaceprogram.com/index.php?/topic/90061-"
+	},
+	"install": [
+	{ 
+		"file"		: "GameData/StockPlugins", 
+		"install_to"	: "GameData" 
+	}],
     	"depends": [
-		{ "name": "ModuleManager", "min_version": "2.6.0" }
-    	],
-	 "suggests": [
+		{ "name"	: "ModuleManager", "min_version": "2.6.0" }
+	],
+    	"suggests": [
         	{ "name": "DeadlyReentry" },
         	{ "name": "Graphotron" },
         	{ "name": "KerbalEngineerRedux" },
@@ -18,5 +27,5 @@
         	{ "name": "MechJeb2" },
         	{ "name": "Protractor" },
         	{ "name": "Telemachus" }
-    ]
+    	]
 }

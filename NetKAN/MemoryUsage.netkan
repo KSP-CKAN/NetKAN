@@ -1,16 +1,23 @@
 {
-	"spec_version" : 1,
-	"identifier" : "MemoryUsage",
-	"$kref" : "#/ckan/kerbalstuff/317",
-	"license": "GPL-3.0",
+	"spec_version"		: 1,
+	"identifier"		: "MemoryUsage",
+	"$kref"			: "#/ckan/github/malahx/MemoryUsage",
+	"name"			: "MemoryUsage",
+	"author"		: "Malah",
+	"abstract"		: "Adds the possibility to see the memory usage, the cpu usage and the count of threads used by KSP.",
+	"license"		: "GPL-3.0",
+	"$vref"			: "#/ckan/ksp-avc",
+	"x_netkan_epoch"	: 1,
+	"resources": {
+    		"homepage"	: "http://forum.kerbalspaceprogram.com/index.php?/topic/89720-"
+	},
 	"install": [
 	{
-		"file" : "Kerbal Space Program/GameData/MemoryUsage",
-		"install_to" : "GameData"
+		"file" 		: "Kerbal Space Program/GameData/MemoryUsage",
+		"install_to" 	: "GameData"
 	},
 	{
-		"file" : "Kerbal Space Program/MemoryUsage.exe",
-		"install_to" : "GameRoot"
-	}
-	]
+		"file" 		: "Kerbal Space Program/MemoryUsage.exe",
+		"install_to" 	: "GameRoot"
+	}]
 }

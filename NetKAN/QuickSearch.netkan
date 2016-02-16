@@ -1,10 +1,19 @@
 {
-    "$kref": "#/ckan/kerbalstuff/472",
-    "x_via": "Automated KerbalStuff CKAN submission",
-    "identifier": "QuickSearch",
-    "license": "GPL-3.0",
-    "spec_version": "v1.4",
+	"spec_version"		: 1,
+	"identifier"		: "QuickSearch",
+	"$kref"			: "#/ckan/github/malahx/QuickSearch",
+	"name"			: "QuickSearch",
+	"author"		: "Malah",
+	"abstract"		: "Adds the possibility to search parts and subassembly on the editor and on the tech tree.",
+	"license"		: "GPL-3.0",
+	"$vref"			: "#/ckan/ksp-avc",
+	"x_netkan_epoch"	: 1,
+	"resources": {
+    		"homepage"	: "http://forum.kerbalspaceprogram.com/index.php?/topic/85834-"
+	},
 	"install": [
-		{ "file": "GameData/QuickSearch", "install_to": "GameData" }
-	]
+	{ 
+		"file"		: "GameData/QuickSearch", 
+		"install_to"	: "GameData" 
+	}]
 }

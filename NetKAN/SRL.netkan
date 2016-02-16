@@ -1,10 +1,23 @@
 {
-    "spec_version"   : 1,
-    "identifier"     : "SRL",
-    "$kref"          : "#/ckan/kerbalstuff/145",
-    "$vref"          : "#/ckan/ksp-avc",
-    "license"        : "GPL-3.0",
-    "conflicts"      : [
-        { "name" : "QuickRevert" }
-    ]
+	"spec_version"		: 1,
+	"identifier"		: "SRL",
+	"$kref"			: "#/ckan/github/malahx/SRL",
+	"name"			: "Simulate, Revert & Launch",
+	"author"		: "Malah",
+	"abstract"		: "Adds the possibility to simulate a launch in hardmode",
+	"license"		: "GPL-3.0",
+	"$vref"			: "#/ckan/ksp-avc",
+	"x_netkan_epoch"	: 1,
+	"resources": {
+    		"homepage"	: "http://forum.kerbalspaceprogram.com/index.php?/topic/84540-"
+	},
+	"install": [
+	{ 
+		"file"		: "GameData/SRL", 
+		"install_to"	: "GameData" 
+	}],
+    	"conflicts"     : [
+	{ 
+        	"name"      	: "QuickRevert" 
+    	}]
 }

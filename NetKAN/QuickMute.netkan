@@ -1,18 +1,23 @@
 {
-    "spec_version"   : "v1.4",
-    "identifier"     : "QuickMute",
-    "$kref"          : "#/ckan/kerbalstuff/509",
-    "license"        : "GPL-3.0",
-    "resources": {
-    	"homepage": 	"http://forum.kerbalspaceprogram.com/threads/95168#QuickMute",
-    	"repository": 	"https://github.com/malahx/QuickMute"
-    },    
-    "suggests"       : [
-        { "name" : "Toolbar" }
-    ],
-    "install" :[
-    {
-        "find"       : "QuickMute",
-        "install_to" : "GameData"
-    }]
+	"spec_version"		: 1,
+	"identifier"		: "QuickMute",
+	"$kref"			: "#/ckan/github/malahx/QuickMute",
+	"name"			: "QuickMute",
+	"author"		: "Malah",
+	"abstract"		: "Adds the possibility to mute all the KSP sounds.",
+	"license"		: "GPL-3.0",
+	"$vref"			: "#/ckan/ksp-avc",
+	"x_netkan_epoch"	: 1,
+	"resources": {
+    		"homepage"	: "http://forum.kerbalspaceprogram.com/index.php?/topic/85834-"
+	},
+	"install": [
+	{ 
+		"file"		: "GameData/QuickMute", 
+		"install_to"	: "GameData" 
+	}],
+	"suggests": [
+	{
+		"name"		: "Toolbar"
+	}]
 }

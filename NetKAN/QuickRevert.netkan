@@ -1,13 +1,27 @@
 {
-    "spec_version"   : 1,
-    "identifier"     : "QuickRevert",
-    "$kref"          : "#/ckan/kerbalstuff/237",
-    "license"        : "GPL-3.0",
-    "resources": {
-    	"homepage": 	"http://forum.kerbalspaceprogram.com/threads/95168#QuickRevert",
-    	"repository": 	"https://github.com/malahx/QuickRevert"
-    },
-    "conflicts"      : [
-        { "name" : "SRL" }
-    ]
+	"spec_version"		: 1,
+	"identifier"		: "QuickRevert",
+	"$kref"			: "#/ckan/github/malahx/QuickRevert",
+	"name"			: "QuickRevert",
+	"author"		: "Malah",
+	"abstract"		: "Adds the possibility to keep/pay the revert function.",
+	"license"		: "GPL-3.0",
+	"$vref"			: "#/ckan/ksp-avc",
+	"x_netkan_epoch"	: 1,
+	"resources": {
+    		"homepage"	: "http://forum.kerbalspaceprogram.com/index.php?/topic/85834-"
+	},
+	"install": [
+	{ 
+		"file"		: "GameData/QuickRevert", 
+		"install_to"	: "GameData" 
+	}],
+	"suggests": [
+	{
+		"name"		: "Toolbar"
+	}],
+    	"conflicts"     : [
+	{ 
+        	"name"      	: "SRL" 
+    	}]
 }
