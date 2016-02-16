@@ -1,8 +1,12 @@
 {
     "spec_version": "v1.4",
     "identifier": "Mk2Expansion",
-    "$kref": "#/ckan/kerbalstuff/790",
+    "$kref": "#/ckan/github/SuicidalInsanity/Mk2Expansion",
     "license": "CC-BY-4.0",
+    "ksp_version": "1.0.5",
+    "resources": {
+	"homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/109145-105"
+    },
     "depends": [
         { "name": "KlockheedMartian-Gimbal" },
         { "name": "FirespitterCore" },
