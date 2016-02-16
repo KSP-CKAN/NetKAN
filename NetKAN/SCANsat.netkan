@@ -1,7 +1,11 @@
 {
     "spec_version" : 1,
     "identifier"   : "SCANsat",
-    "$kref"        : "#/ckan/kerbalstuff/249",
+    "$kref"        : "#/ckan/github/S-C-A-N/SCANsat",
+    "$vref"        : "#/ckan/ksp-avc",
+    "name"         : "SCANsat",
+    "abstract"     : "SCANsat: Real Scanning, Real Science, Warp Speed!",
+    "author"       : "DMagic",
     "license"      : "restricted",
 	"x_netkan_force_v"	:	true,
 	"depends" : [
@@ -17,9 +21,10 @@
     "conflicts": [
 		{ "name": "ContractConfigurator-ScanSatLite" }
 	],
-	"resources" : {
-		"repository"   : "https://github.com/S-C-A-N/SCANsat"
-	},	
+	"resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/80369",
+        "repository": "https://github.com/S-C-A-N/SCANsat"
+    },
 	"x_netkan_override" : [
 		{
 			"version" : "v12.1",
