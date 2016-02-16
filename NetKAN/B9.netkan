@@ -1,35 +1,6 @@
 {
   "spec_version" : 1,
   "identifier"   : "B9",
-  "$kref"        : "#/ckan/kerbalstuff/132",
-  "$vref"        : "#/ckan/ksp-avc",
-  "license"      : "CC-BY-NC-SA-3.0",
-  "depends" : [
-    { "name" : "B9-props" },
-    { "name" : "FirespitterCore" },
-    { "name" : "KlockheedMartian-Gimbal" },
-    { "name" : "ModuleManager", "min_version" : "2.6.13" },
-    { "name" : "RasterPropMonitor-Core" },
-    { "name" : "SmokeScreen" },
-    { "name" : "B9AnimationModules" }
-  ],
-  "recommends" : [
-    { "name" : "AdjustableLandingGear" },
-    { "name" : "B9-PWings-Fork" },
-    { "name" : "AerodynamicModel" }
-  ],
-  "conflicts" : [
-    { "name" : "VirginKalactic-NodeToggle" }
-  ],
-  "install" : [
-    {
-      "file"       : "GameData/B9_Aerospace",
-      "install_to" : "GameData",
-      "filter"     : "Props"
-    },
-    {
-      "file"       : "GameData/Virgin Kalactic",
-      "install_to" : "GameData"
-    }
-  ]
+  "$kref"        : "#/ckan/netkan/https://raw.githubusercontent.com/blowfishpro/B9-Aerospace/master/NetKAN/B9.netkan",
+  "x_netkan_license_ok": true
 }
