@@ -1,6 +1,9 @@
 {
     "spec_version": "v1.4",
     "identifier": "Mk2Expansion",
+    "name": "Mk2 Stock-a-like Expansion",
+    "abstract": "Adds new mk2 formfactor parts",
+    "author": "Suicidalinsanity",
     "$kref": "#/ckan/github/SuicidalInsanity/Mk2Expansion",
     "license": "CC-BY-4.0",
     "ksp_version": "1.0.5",
