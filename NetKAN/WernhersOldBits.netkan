@@ -1,8 +1,12 @@
 {
     "spec_version": 1,
     "identifier": "WernhersOldBits",
-    "$kref": "#/ckan/spacedock/42",
+    "resources": {
+        "homepage": "http://spacedock.info/mod/42/Wernher's%20Old%20Bits"
+    },
+    "download": "http://spacedock.info/mod/42/Wernher%27s%20Old%20Bits/download/0.7",
     "license": "MIT",
+    "version": "0.7",
     "depends": [
         { "name": "ModuleManager" }
     ],
