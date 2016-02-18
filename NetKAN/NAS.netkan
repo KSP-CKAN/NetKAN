@@ -2,16 +2,15 @@
     "spec_version" : 1,
     "identifier"   : "NAS",
     "resources" : {
-        "homepage" : "http://forum.kerbalspaceprogram.com/threads/131605"
+        "homepage" : "http://forum.kerbalspaceprogram.com/index.php?/topic/118521-nas-naval-artillery-system/"
     },
-    "$kref"        : "#/ckan/kerbalstuff/1084",
+    "$kref"        : "#/ckan/spacedock/83",
 	"license"	   : "CC-BY-SA-4.0",
     "x_netkan_force_v": true,
     "depends": [
         { "name": "BDArmory" }
     ],
     "recommends": [
-        { "name": "MaritimePack" },
         { "name": "KerbalJointReinforcement" }
     ]
 }
