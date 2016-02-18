@@ -7,7 +7,7 @@
     "ksp_version"  : "1.0.5",
     "$kref"        : "#/ckan/github/ProbusThrax/ETT",
     "x_netkan_epoch": "1",
-    "x_netkan_license_ok": true,
+    "license": "CC-BY-4.0",
     "install": [
         {
             "find"       : "GameData/ETT",
