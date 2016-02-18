@@ -1,8 +1,9 @@
 {
     "spec_version": "v1.4",
-    "$kref": "#/ckan/kerbalstuff/1080",
+     "$kref": "#/ckan/github/ABZB/Mk2_Extended_KSPI_Integration",
     "license": "CC-BY-NC-SA-4.0",
     "identifier": "MK2KSPIIntegration",
+    "ksp_version": "1.0.5",
     "depends": [
         { "name": "InterstellarFuelSwitch"}
     ],
