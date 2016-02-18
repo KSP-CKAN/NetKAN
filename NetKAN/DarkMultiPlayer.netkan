@@ -1,7 +1,7 @@
 {
     "spec_version"   : 1,
     "identifier"     : "DarkMultiPlayer",
-    "$kref"          : "#/ckan/kerbalstuff/4",
+    "$kref"          : "#/ckan/spacedock/10",
     "release_status" : "development",
     "resources"      : {
         "manual"       : "https://github.com/godarklight/DarkMultiPlayer/blob/master/README.md",
