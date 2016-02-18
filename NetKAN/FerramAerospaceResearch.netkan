@@ -1,7 +1,10 @@
 {
     "spec_version"   : 1,
+    "author"		: "ferram4",
+    "name"		: "Ferram Aerospace Research",
+    "abstract"		: "FAR replaces KSP's stock part-centered aerodynamics model with one based on real-life physics.",
     "identifier"     : "FerramAerospaceResearch",
-    "$kref"          : "#/ckan/kerbalstuff/52",
+    "$kref"          : "#/ckan/github/ferram4/Ferram-Aerospace-Research",
     "license"        : "GPL-3.0",
     "x_netkan_epoch" : "3",
     "x_netkan_version_edit": "^[vV]?(?<version>\\d+(?:\\.\\d+){0,3}[A-Za-z]?)(?:_[A-Za-z0-9_]+)?$",
