@@ -1,0 +1,30 @@
+{
+    "spec_version" : "v1.4",
+    "identifier"   : "ETT",
+    "name"         : "Engineering Tech Tree",
+    "abstract"     : "A tech tree based on engineering/scientific principles that is challenging to unlock yet fun to play through.",
+    "author"       : "Probus",
+    "ksp_version"  : "1.0.5",
+    "$kref"        : "#/ckan/github/ProbusThrax/ETT",
+    "x_netkan_epoch": "1",
+    "x_netkan_license_ok": true,
+    "install": [
+        {
+            "find"       : "GameData/ETT",
+            "install_to" : "GameData/ETT"
+        }
+    ],
+    "depends": [
+        { "name": "ModuleManager" }
+    ],
+    "recommends":[
+        { "name": "DMagicOrbitalScience" }
+    ],
+    "suggests":[
+        { "name": "KSPInterstellarExtended" },
+        { "name": "FASA" },
+        { "name": "KWRocketry" },
+        { "name": "AIESAerospace-Unofficial" },
+        { "name": "Firespitter" }
+		]	
+}
