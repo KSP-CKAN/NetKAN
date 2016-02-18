@@ -10,9 +10,10 @@
     "x_netkan_version_edit": "^[vV]?(?<version>\\d+(?:\\.\\d+){0,3}[A-Za-z]?)(?:_[A-Za-z0-9_]+)?$",
     "release_status" : "stable",
     "resources" : {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/19321-/",
         "repository" : "https://github.com/ferram4/Ferram-Aerospace-Research"
     },
-	
+	"ksp_version"  : "1.0.5",
     "provides"  : [ "AerodynamicModel", "FAR" ],
     "conflicts" : [ { "name" : "AerodynamicModel" } ],
 	
