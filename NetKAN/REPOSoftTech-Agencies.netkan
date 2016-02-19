@@ -4,7 +4,7 @@
     "$kref"        : "#/ckan/spacedock/142",
     "name"         : "REPOSoftTech-Agencies",
     "abstract"     : "This adds the agencies required by JPLRepo's mods.",
-    "x_netkan_license_ok": true,
+     "license": "CC-BY-NC-SA-4.0",
     "ksp_version"  : "any",
     "comment"      : "agencymod",
     "recommend": [
