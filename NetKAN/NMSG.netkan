@@ -19,5 +19,11 @@
 		"ksp_version_max" : "1.0.5"
 	    }
 	}
+    ],
+    "install": [
+        {
+            "find"       : "Science-Full-reward",
+            "install_to" : "GameData"
+        }
     ]
 }
