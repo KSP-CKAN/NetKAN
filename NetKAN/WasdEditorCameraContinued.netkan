@@ -5,7 +5,7 @@
     "$vref"          : "#/ckan/ksp-avc",
     "license"        : "MIT",
     "resources" : {
-        "spacedock"   : "https://kerbalstuff.com/mod/1157/WASDEditorCameraContinued",
+        "spacedock"   : "http://spacedock.info/mod/56/WasdEditorCameraContinued",
         "repository"  : "https://github.com/linuxgurugamer/WasdEditorCameraContinued"
     },
     "conflicts" : [
