@@ -1,7 +1,7 @@
 {
     "spec_version"  : "v1.2",
     "identifier"    : "KWRocketry-CommunityFixes-interstage",
-    "$kref"         : "#/ckan/spacedoc/51",
+    "$kref"         : "#/ckan/spacedock/51",
     "$vref"         : "#/ckan/ksp-avc",
     "license"       : "GPL-3.0",
     "depends": [
