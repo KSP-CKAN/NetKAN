@@ -1,0 +1,22 @@
+{
+    "spec_version" : "v1.4",
+    "$kref"        : "#/ckan/spacedock/175",
+    "identifier"   : "InterstellarFuelSwitch",
+    "name"         : "Interstellar Fuel Switch",
+    "install": [
+        {
+            "find" : "InterstellarFuelSwitch",
+            "install_to" : "GameData",
+            "filter" : "Plugins"
+        }
+    ],
+    "depends" : [
+        { "name" : "CommunityResourcePack", "min_version" : "0.4.5" },
+        { "name" : "InterstellarFuelSwitch-Core", "min_version" : "1.18" },
+        { "name" : "ModuleManager" }
+    ],
+    "abstract" : "Library that enables switching the contents, meshes, and textures of tanks.",
+    "resources" : {
+        "bugtracker"   : "https://github.com/sswelm/KSPInterstellar/issues"
+    }
+}
