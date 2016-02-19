@@ -1,0 +1,19 @@
+{
+	"spec_version": 1,
+	"identifier": "ContractsWindowPlus",
+	"$kref": "#/ckan/spacedock/130",
+    "license": "MIT",
+	"depends": [
+		{ "name": "ProgressParser" }
+	],
+	"suggests": [
+        { "name": "CapCom" },
+        { "name": "ContractRewardModifier" }
+	],
+	"install": [
+		{
+			"file": "GameData/ContractsWindow",
+			"install_to": "GameData"
+		}
+	]
+}
