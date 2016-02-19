@@ -1,15 +1,12 @@
 {
-    "spec_version" : 1,
-    "identifier"   : "SCANsat",
-    "$kref"        : "#/ckan/github/S-C-A-N/SCANsat",
-    "$vref"        : "#/ckan/ksp-avc",
-    "name"         : "SCANsat",
-    "abstract"     : "SCANsat: Real Scanning, Real Science, Warp Speed!",
-    "author"       : "DMagic",
-    "license"      : "restricted",
-	"x_netkan_force_v"	:	true,
-	"depends" : [
-        { "name" : "ModuleManager" }
+    "spec_version": 1,
+    "identifier": "SCANsat",
+    "$kref": "#/ckan/spacedock/129",
+    "$vref": "#/ckan/ksp-avc",
+    "license": [ "BSD-3-clause", "restricted", "CC0", "public-domain", "MIT", "Apache-2.0", "CC-BY-SA-3.0", "CC-BY-NC-SA-4.0" ],
+	"x_netkan_force_v": true,
+	"depends": [
+        { "name": "ModuleManager" }
     ],
 	"recommends": [
         { "name": "Toolbar" },
@@ -22,16 +19,15 @@
 		{ "name": "ContractConfigurator-ScanSatLite" }
 	],
 	"resources": {
-        "homepage": "http://forum.kerbalspaceprogram.com/threads/80369",
         "repository": "https://github.com/S-C-A-N/SCANsat"
     },
-	"x_netkan_override" : [
+	"x_netkan_override": [
 		{
-			"version" : "v12.1",
-			"delete" : [ "ksp_version" ],
-			"override" : {
-				"ksp_version_min" : "1.0.2",
-				"ksp_version_max" : "1.0.4"
+			"version": "v12.1",
+			"delete": [ "ksp_version" ],
+			"override": {
+				"ksp_version_min": "1.0.2",
+				"ksp_version_max": "1.0.4"
 			}
 		}
 	]
