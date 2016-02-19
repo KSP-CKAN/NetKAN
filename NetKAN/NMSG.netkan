@@ -22,7 +22,7 @@
     ],
     "install": [
         {
-            "find"       : "Science-Full-reward",
+            "file"       : "Science-Full-reward",
             "install_to" : "GameData"
         }
     ]
