@@ -1,13 +1,13 @@
 {
     "spec_version"   : "v1.4",
     "identifier"     : "BetterScienceLabsContinued",
-    "$kref"          : "#/ckan/kerbalstuff/903",
+    "$kref"          : "#/ckan/kerbalstuff/45",
     "$vref"          : "#/ckan/ksp-avc",
     "x_netkan_license_ok" : true,
     "release_status" : "stable",
     "resources" : {
         "homepage"    : "http://forum.kerbalspaceprogram.com/threads/125193",
-        "kerbalstuff" : "https://kerbalstuff.com/mod/903/Better%20Science%20Labs%20Continued",
+        "spacedock"   : "http://spacedock.info/mod/45/Better%20Science%20Labs%20Continued",
         "repository"  : "https://github.com/linuxgurugamer/BetterScienceLabsContinued"
     },
     "depends" : [

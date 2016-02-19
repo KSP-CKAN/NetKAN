@@ -1,14 +1,14 @@
 {
     "spec_version"   : "v1.4",
     "identifier"     : "ContractConfigurator-GrandTours", 
-    "$kref"          : "#/ckan/kerbalstuff/689",
+    "$kref"          : "#/ckan/spacedock/50",
     "$vref"          : "#/ckan/ksp-avc",
     "release_status" : "stable",
     "x_netkan_license_ok" : true,
     "x_netkan_epoch" : "1",
     "resources" : {
         "homepage"    : "http://forum.kerbalspaceprogram.com/threads/113400",
-        "kerbalstuff" : "https://kerbalstuff.com/mod/689/Contract%20Pack:%20Grand%20Tours",
+        "spacedock"   : "http://spacedock.info/mod/50/Contract%20Pack:%20Grand%20Tours?new=True",
         "repository"  : "https://github.com/linuxgurugamer/GrandTours"
     },
     "depends" : [

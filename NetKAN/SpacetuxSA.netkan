@@ -1,14 +1,14 @@
 {
     "spec_version"   : "v1.4",
     "identifier"     : "SpacetuxSA",
-    "$kref"          : "#/ckan/kerbalstuff/656",
+    "$kref"          : "#/ckan/spacedock/53",
     "$vref"          : "#/ckan/ksp-avc",
     "x_netkan_license_ok" : true,
     "release_status" : "stable",
     "resources" : {
         "homepage"    : "http://forum.kerbalspaceprogram.com/threads/113400",
-        "kerbalstuff" : "https://kerbalstuff.com/mod/656/Spacetux%20Shared%20Assets",
-		"repository"  : "https://github.com/linuxgurugamer/SpaceTux"
+        "spacedock"   : "http://spacedock.info/mod/53/SpacetuxSA",
+	"repository"  : "https://github.com/linuxgurugamer/SpaceTux"
     },
     "install" : [
         {
@@ -22,7 +22,7 @@
 			"delete" : [ "ksp_version" ],
 			"override" : {
 				"ksp_version_min" : "1.0.2",
-				"ksp_version_max" : "1.0.4"
+				"ksp_version_max" : "1.0.5"
 			}
 		}
     ]

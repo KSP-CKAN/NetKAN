@@ -1,11 +1,11 @@
 {
     "spec_version"   : "v1.4",
     "identifier"     : "TotalTime",
-    "$kref"          : "#/ckan/kerbalstuff/1163",
+    "$kref"          : "#/ckan/spacedock/54",
     "$vref"          : "#/ckan/ksp-avc",
     "license"        : "MIT",
     "resources" : {
-        "kerbalstuff" : "https://kerbalstuff.com/mod/1163",
+        "spacedock"   : "http://spacedock.info/mod/54/TotalTime",
         "repository"  : "https://github.com/linuxgurugamer/TotalTime"
     },
     "install" : [
