@@ -10,5 +10,11 @@
     ],
     "suggests": [
         { "name": "ColorCodedCans" }
+    ],
+    "install": [
+        {
+            "file": "FuelTanksPlus",
+            "install_to": "GameData"
+        }
     ]
 }
