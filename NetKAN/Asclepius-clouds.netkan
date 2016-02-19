@@ -16,10 +16,10 @@
     "depends": [
         { "name" : "ModuleManager", "min_version": "2.6.13" },
 	{ "name" : "Kopernicus", "min_version": "1:beta-05-2" },
-        { "name": "Asclepius" },
+        { "name": "Asclepius" }
     ],
     "recommends": [
-        { "name": "EnvironmentalVisualEnhancements" },
+        { "name": "EnvironmentalVisualEnhancements" }
     ],
     "install": [
         {
