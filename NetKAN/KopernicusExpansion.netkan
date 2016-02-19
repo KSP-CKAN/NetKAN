@@ -1,17 +1,17 @@
 {
-    "spec_version": 1,
-    "identifier": "KopernicusExpansion",
-    "$kref": "#/ckan/github/HappyFaceIndustries/KopernicusExpansion/asset_match/KopernicusExpansion.+\\.zip",
-    "name": "Kopernicus Expansion",
-    "abstract": "An expansion for Kopernicus",
-    "author": [ "MrHappyFace" ],
-    "license": "GPL-3.0",
+    "spec_version" : 1,
+    "identifier"   : "KopernicusExpansion",
+    "$kref"        : "#/ckan/github/HappyFaceIndustries/KopernicusExpansion",
+    "name"         : "Kopernicus Expansion",
+    "abstract"     : "KopernicusExpansion is an expansion mod for Kopernicus so that planet creators can have more fancy features and effects for their planets.",
+    "license"      : "GPL-3.0",
+    "ksp_version"  : "1.0.5",
+
     "release_status": "development",
     "resources": {
-        "homepage": "http://forum.kerbalspaceprogram.com/threads/132390"
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/119211-KopernicusExpansion"
     },
-    "ksp_version": "1.0.4",
     "depends":	[
-        { "name" : "Kopernicus", "version": "1:beta-04" }
+        { "name" : "Kopernicus", "min_version": "1:beta-06-3" }
     ]
 }
