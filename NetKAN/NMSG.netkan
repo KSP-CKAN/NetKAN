@@ -1,11 +1,15 @@
 {
     "spec_version" : 1,
     "identifier"   : "NMSG",
-    "$kref"        : "#/ckan/kerbalstuff/924",
+    "$kref"        : "#/ckan/spacedock/74",
     "depends": [
         { "name": "ModuleManager", "min_version": "2.6.0" }
     ],
-    "x_netkan_license_ok": true,
+    "recommends": [
+        { "name": "xScience" },
+        { "name": "ContractConfigurator" }
+    ],
+    "license": "MIT",
     "x_netkan_override" : [
 	{
 	    "version" : "1.3",
