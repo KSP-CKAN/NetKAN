@@ -1,0 +1,20 @@
+{
+    "spec_version" : 1,
+    "identifier"   : "ScreenMessageHider",
+    "$kref"        : "#/ckan/github/HappyFaceIndustries/ScreenMessageHider/asset_match/ScreenMessageHider(.*).zip",
+    "name"         : "ScreenMessageHider",
+    "author"       : "MrHappyFace",
+    "abstract"     : "ScreenMessageHider is a very simple mod that hides ScreenMessages that don't normally get hidden when pressing F2",
+    "license"      : "GPL-3.0",
+    "ksp_version"  : "1.0.5",
+
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/117753-ScreenMessageHider"
+    },
+    "install": [
+        {
+            "file"       : "ScreenMessageHider.dll",
+            "install_to" : "GameData"
+        }
+    ]
+}
