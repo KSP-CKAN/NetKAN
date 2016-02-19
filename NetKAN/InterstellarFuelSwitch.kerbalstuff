@@ -1,6 +1,6 @@
 {
     "spec_version": "v1.4",
-    "$kref": "#/ckan/kerbalstuff/718",
+    "$kref": "#/ckan/spacedock/175",
     "license": "CC-BY-NC",
     "identifier": "InterstellarFuelSwitch",
 	"depends"	:	[ { "name" : "InterstellarFuelSwitch-Core" },
