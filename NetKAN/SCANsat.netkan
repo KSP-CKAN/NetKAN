@@ -3,8 +3,7 @@
     "identifier": "SCANsat",
     "$kref": "#/ckan/spacedock/129",
     "$vref": "#/ckan/ksp-avc",
-    "license": [ "BSD-3-clause", "restricted", "CC0", "public-domain", "MIT", "Apache-2.0", "CC-BY-SA-3.0", "CC-BY-NC-SA-4.0" ],
-    "x_netkan_license_ok": true,
+    "license": "restricted",
 	"x_netkan_force_v": true,
 	"depends": [
         { "name": "ModuleManager" }
