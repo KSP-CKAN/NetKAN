@@ -5,7 +5,7 @@
     "$vref"          : "#/ckan/ksp-avc",
     "license"        : "MIT",
     "resources" : {
-        "kerbalstuff" : "https://kerbalstuff.com/mod/1163",
+        "homepage"    : "http://forum.kerbalspaceprogram.com/index.php?/topic/121366-/",
         "repository"  : "https://github.com/linuxgurugamer/TotalTime"
     },
     "install" : [
