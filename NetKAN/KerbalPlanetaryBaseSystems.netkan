@@ -1,7 +1,8 @@
 {
     "spec_version": "v1.4",
     "license": "CC-BY-NC-4.0",
-    "$kref": "#/ckan/kerbalstuff/991",
+    "$kref": "#/ckan/spacedock/173",
+    "$vref": "#/ckan/ksp-avc",
     "identifier": "KerbalPlanetaryBaseSystems",
     "install": [
         {
