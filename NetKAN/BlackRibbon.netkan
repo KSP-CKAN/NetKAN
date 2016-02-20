@@ -1,6 +1,9 @@
 {
     "spec_version"   : "v1.4",
     "identifier"     : "BlackRibbon",
+    "resources" : {
+        "homepage" : "http://spacedock.info/mod/35/BlackRibbon-BDA"
+    },
     "name"           : "BlackRibbon-BDA",
     "$kref"          : "#/ckan/spacedock/35",
     "abstract"       : "This is an add-on for BDArmory. It adds new weapons and parts.",
