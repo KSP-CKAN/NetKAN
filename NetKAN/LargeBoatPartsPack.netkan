@@ -1,0 +1,16 @@
+{
+    "spec_version": "v1.4",
+    "$kref": "#/ckan/spacedock/167",
+    "license": "CC-BY-SA-4.0",
+    "identifier": "LargeBoatPartsPack",
+    "suggests": [
+        { "name": "WasdEditorCameraContinued" },
+        { "name": "VesselMover" }
+    ],
+    "install": [
+        {
+            "find": "LShipParts",
+            "install_to": "GameData"
+        }
+    ]
+} 
