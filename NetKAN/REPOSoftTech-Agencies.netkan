@@ -11,6 +11,9 @@
         { "name": "AmpYearPowerManager" },
         { "name": "DeepFreeze" }
     ],
+    {
+    "x_netkan_epoch": "1"
+    },
     "install": [
         {
             "find"       : "Agencies",
