@@ -9,6 +9,9 @@
         { "name": "ASETAvionics" },
         { "name": "ModuleManager" }
     ],
+    "recommends": [
+        { "name": "FerramAerospaceResearch" }
+    ],
     "install": [
         {
             "find"       : "IVAUpgrade",
