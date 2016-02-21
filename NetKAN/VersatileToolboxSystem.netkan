@@ -6,6 +6,10 @@
     "depends": [
         { "name": "KIS" }
     ],
+    "recommends": [
+        { "name": "USI-LS" },
+        { "name": "Karbonite" }
+    ],
     "install": [
         {
             "file"       : "MP_Nazari",
