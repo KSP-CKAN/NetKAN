@@ -1,7 +1,8 @@
 {
     "spec_version"   : 1,
     "identifier"     : "KerbalConstructionTime",
-    "$kref"          : "#/ckan/kerbalstuff/125",
+    "$kref"          : "#/ckan/spacedock/222",
+    "license"        : "GPL-3.0",
     "recommends" : [
         { "name" : "StageRecovery" }
     ],
@@ -13,6 +14,5 @@
             "file"       : "GameData/KerbalConstructionTime",
             "install_to" : "GameData"
         }
-    ],
-    "x_netkan_license_ok" : true
+    ]
 }
