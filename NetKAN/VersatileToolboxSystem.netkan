@@ -1,0 +1,15 @@
+{
+    "license": "CC-BY-NC-SA-4.0",
+    "spec_version": "v1.4",
+    "identifier": "VersatileToolboxSystem",
+    "$kref": "#/ckan/spacedock/204",
+    "depends": [
+        { "name": "KIS" }
+    ],
+    "install": [
+        {
+            "file"       : "MP_Nazari",
+            "install_to" : "GameData"
+        }
+    ]
+}
