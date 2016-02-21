@@ -1,7 +1,7 @@
 {
 	"spec_version": 1,
 	"identifier": "CustomAsteroids",
-	"$kref": "#/ckan/kerbalstuff/251",
+	"$kref": "#/ckan/spacedock/210",
 	"$vref" : "#/ckan/ksp-avc",
 	"x_netkan_license_ok" : true,
 	"resources": {
@@ -15,9 +15,6 @@
 	"recommends": [
 		{ "name": "CustomAsteroids-Pops-Stock-Inner"}, 
 		{ "name": "CustomAsteroids-Pops-Stock-Outer"}
-	],
-	"conflicts": [
-		{ "name" : "Kopernicus", "min_version": "1:beta-06" }
 	],
 	"install": [
 		{
@@ -42,6 +39,14 @@
 				"ksp_version_max": "1.0.5"
 			},
 			"delete" : [ "ksp_version" ]
+		},
+		{
+			"version" : "< v1.2.0",
+			"override" : {
+				"conflicts": [
+					{ "name" : "Kopernicus", "min_version": "1:beta-06" }
+				]
+			}
 		}
 	],
 	"x_maintained_by": "Starstrider42"
