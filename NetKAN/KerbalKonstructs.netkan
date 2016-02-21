@@ -3,7 +3,7 @@
 	"identifier"   : "KerbalKonstructs",
 	"$kref"        : "#/ckan/spacedock/124",
 	"$vref"        : "#/ckan/ksp-avc",
-        "licence"      : [ "MIT", "BSD-3-clause" ],
+        "license"      : [ "MIT", "BSD-3-clause" ],
 	"x_netkan_license_ok" : true,
 	"install": [
 		{
