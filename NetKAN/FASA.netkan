@@ -1,22 +1,23 @@
 {
-	"spec_version"	:	1,
-	"identifier"	:	"FASA",
-	"$kref"			:	"#/ckan/spacedock/188",
-	"license"       :   "restricted",
-    "suggests" : [
-        { "name" : "ReflectionPlugin" }
+    "spec_version"  :   1,
+    "identifier"    :   "FASA",
+    "$kref"         :   "#/ckan/spacedock/188",
+    "license"       :   "restricted",
+    "conflicts" : [
+        { "name": "FASALaunchClamps" }
     ],
     "recommends" : [
         { "name" : "RasterPropMonitor" }
     ],
-    "conflicts" : [
-        { "name": "FASALaunchClamps" }
+    "suggests" : [
+        { "name" : "ReflectionPlugin" }
     ],
-	"install" : [
+    "install" : [
         {
-            "file"		:	"GameData/FASA",
-            "install_to":	"GameData",
-            "filter"	:	"Plugins"
+            "file"      :   "GameData/FASA",
+            "install_to":   "GameData",
+            "filter"    :   "Plugins"
         }
-    ]
+    ],
+    "x_netkan_epoch": "1"
 }
