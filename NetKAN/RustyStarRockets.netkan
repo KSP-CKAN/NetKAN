@@ -2,5 +2,6 @@
     "license": "CC-BY-NC-ND-4.0",
     "identifier": "RustyStarRockets",
     "spec_version": "v1.4",
-    "$kref": "#/ckan/spacedock/207"
+    "$kref": "#/ckan/spacedock/207",
+    "x_netkan_force_v": true
 }
