@@ -6,6 +6,7 @@
     "name": "Taerobee - Stockalike X-1 & More",
     "abstract": "Stockalike Historic (Pre-Sputnik) Rocket and Aircraft Parts.",
     "ksp_version": "1.0.5",
+    "x_netkan_version_edit": "^[vV]?(?<version>.+)$",
     "resources": {
         "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/119858-/"
     },
