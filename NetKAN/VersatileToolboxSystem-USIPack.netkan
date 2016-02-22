@@ -25,6 +25,11 @@
             "find_matches_files": "true"
         },
         {
+            "find"       : "Parts/vts_nazari/vtskarbonite.mu",
+            "install_to" : "GameData/MP_Nazari/Parts/vts_nazari/",
+            "find_matches_files": "true"
+        },
+        {
             "find"       : "Parts/vts_nazari/vtsmulch.cfg",
             "install_to" : "GameData/MP_Nazari/Parts/vts_nazari/",
             "find_matches_files": "true"
