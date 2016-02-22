@@ -1,0 +1,63 @@
+{
+    "license": "CC-BY-NC-SA-4.0",
+    "spec_version": "v1.16",
+    "identifier": "VersatileToolboxSystem-USIPack",
+    "$kref": "#/ckan/spacedock/204",
+    "depends": [
+        { "name": "VersatileToolboxSystem-core" },
+        { "name": "USI-LS" },
+        { "name": "Karbonite" }
+    ],
+    "install": [
+        {
+            "find"       : "Parts/vts_nazari/vtsfertilizer.cfg",
+            "install_to" : "GameData/MP_Nazari/Parts/vts_nazari/",
+            "find_matches_files": "true"
+        },
+        {
+            "find"       : "Parts/vts_nazari/vtsfertilizer.mu",
+            "install_to" : "GameData/MP_Nazari/Parts/vts_nazari/",
+            "find_matches_files": "true"
+        },
+        {
+            "find"       : "Parts/vts_nazari/vtskarbonite.cfg",
+            "install_to" : "GameData/MP_Nazari/Parts/vts_nazari/",
+            "find_matches_files": "true"
+        },
+        {
+            "find"       : "Parts/vts_nazari/vtskarbonite.mu",
+            "install_to" : "GameData/MP_Nazari/Parts/vts_nazari/",
+            "find_matches_files": "true"
+        },
+        {
+            "find"       : "Parts/vts_nazari/vtsmulch.cfg",
+            "install_to" : "GameData/MP_Nazari/Parts/vts_nazari/",
+            "find_matches_files": "true"
+        },
+        {
+            "find"       : "Parts/vts_nazari/vtsmulch.mu",
+            "install_to" : "GameData/MP_Nazari/Parts/vts_nazari/",
+            "find_matches_files": "true"
+        },
+        {
+            "find"       : "Parts/vts_nazari/vtssupplies.cfg",
+            "install_to" : "GameData/MP_Nazari/Parts/vts_nazari/",
+            "find_matches_files": "true"
+        },
+        {
+            "find"       : "Parts/vts_nazari/vtssupplies.mu",
+            "install_to" : "GameData/MP_Nazari/Parts/vts_nazari/",
+            "find_matches_files": "true"
+        },
+        {
+            "find"       : "Parts/vts_nazari/vtstankKarbonite.png",
+            "install_to" : "GameData/MP_Nazari/Parts/vts_nazari/",
+            "find_matches_files": "true"
+        },
+        {
+            "find"       : "Parts/vts_nazari/vtstankLabelKarbonite.png",
+            "install_to" : "GameData/MP_Nazari/Parts/vts_nazari/",
+            "find_matches_files": "true"
+        }
+    ]
+}
