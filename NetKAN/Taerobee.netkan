@@ -1,0 +1,29 @@
+{
+    "spec_version": 1,
+    "identifier": "Taerobee",
+    "$kref": "#/ckan/github/Tantares/Taerobee",
+    "license": "CC-BY-NC-SA-4.0",
+    "name": "Taerobee - Stockalike X-1 & More",
+    "abstract": "Stockalike Historic (Pre-Sputnik) Rocket and Aircraft Parts.",
+    "ksp_version": "1.0.5",
+    "x_netkan_version_edit": "^[vV]?(?<version>.+)$",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/119858-/"
+    },
+    "install": [
+        {
+            "file": "Taerobee",
+            "install_to": "GameData"
+        }
+    ],
+    "x_netkan_override" : [
+        {
+            "version" : "2.1",
+            "delete" : [ "ksp_version" ],
+            "override" : {
+                "ksp_version_min" : "1.0.4",
+                "ksp_version_max" : "1.0.5"
+            }
+        }
+    ]
+}
