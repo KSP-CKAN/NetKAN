@@ -6,6 +6,7 @@
     "abstract"     : "Integrates InterstellarFuelSwitch (as appropriate) into both Stock & Mod Fueltanks. If any of various compatible mods (noted in mod summary) are installed, further integration is applied. Each portion is independent of the others, and each is crafted to avoid conflicts.",
     "license"      : "CC-BY-NC-SA-4.0",
     "ksp_version"  : "1.0.5",
+    "x_netkan_epoch": "1",
     "x_netkan_github": {
         "use_source_archive": true
     },
