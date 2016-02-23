@@ -3,7 +3,7 @@
     "identifier": "FantomWorksKAXPartPack",
     "$kref": "#/ckan/spacedock/229",
     "spec_version": "v1.4",
-    "suggests": [
+    "recommends": [
     	{ "name": "KerbalAircraftExpansion" }
     ],
     "install": [
