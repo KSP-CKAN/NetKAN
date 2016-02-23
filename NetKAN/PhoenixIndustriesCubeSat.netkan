@@ -1,0 +1,16 @@
+{
+    "$kref": "#/ckan/spacedock/247",
+    "spec_version": "v1.4",
+    "license": "CC-BY-NC-SA-4.0",
+    "identifier": "PhoenixIndustriesCubeSat",
+    "depends": [
+        { "name": "MechJeb2" },
+        { "name": "TweakScale" }
+    ],
+    "install"	:	[	
+		{ 
+			"find"	:	"CTN",
+			"install_to":	"GameData"
+		} 
+	]
+}
