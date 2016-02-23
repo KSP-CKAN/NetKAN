@@ -5,10 +5,11 @@
         "homepage" : "http://forum.kerbalspaceprogram.com/index.php?/topic/118521-nas-naval-artillery-system/"
     },
     "$kref"        : "#/ckan/spacedock/83",
-	"license"	   : "CC-BY-SA-4.0",
+    "license"	   : "CC-BY-SA-4.0",
     "x_netkan_force_v": true,
     "depends": [
-        { "name": "BDArmory" }
+        { "name": "BDArmory" },
+        { "name": "CommunityAmmunitionLibrary" }
     ],
     "recommends": [
         { "name": "KerbalJointReinforcement" }
