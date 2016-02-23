@@ -2,14 +2,14 @@
     "identifier": "PEWPromethiumExperimentalWeaponry",
     "spec_version": "v1.4",
     "license": "CC-BY-SA-2.0",
-    "$kref": "#/ckan/kerbalstuff/1131",
+    "$kref": "#/ckan/spacedock/237",
     "depends": [
         { "name": "BDArmory" },
         { "name": "CommunityAmmunitionLibrary" }
     ],
     "install": [
         {
-            "find"       : "PEW",
+            "find"       : "P.E.W",
             "install_to" : "GameData"
         }
     ]
