@@ -13,5 +13,11 @@
             "find_regexp": "RealisticScale/GameData/ExtraSolar/",
             "install_to": "GameData"
         }
+    ],
+    "recommends":[
+        { "name" : "KSP-64k" },
+        { "name" : "KSPInterstellarExtended" },
+        { "name" : "BetterTimeWarp" },
+        { "name" : "USI-NuclearRockets" }
     ]
 }
