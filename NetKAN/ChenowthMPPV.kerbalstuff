@@ -1,0 +1,25 @@
+{
+    "spec_version": "v1.2",
+    "identifier": "ChenowthMPPV",
+    "$kref": "#/ckan/kerbalstuff/824",
+    "license": "WTFPL",
+    "recommends": [
+        { "name": "BDArmory" }
+    ],
+    "install" : [
+        {
+            "filter"     : "Thumbs.db",
+            "file"       : "DPV",
+            "install_to" : "GameData/Skunk_Works/ChenowthMPPV"
+        },
+        {
+            "filter"     : "Thumbs.db",
+            "file"       : "DPVWHEEL",
+            "install_to" : "GameData/Skunk_Works/ChenowthMPPV"
+        },
+        {
+            "file"       : "LICENSE.txt",
+            "install_to" : "GameData/Skunk_Works/ChenowthMPPV"
+        }
+    ]
+}

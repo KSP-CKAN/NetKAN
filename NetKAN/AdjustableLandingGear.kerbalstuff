@@ -1,0 +1,19 @@
+{
+    "spec_version"     : "v1.2",
+    "identifier"       : "AdjustableLandingGear",
+    "$kref"            : "#/ckan/kerbalstuff/321",
+    "license"          : "CC-BY-SA-3.0",
+    "depends": [
+        { "name": "BDAnimationModules" }
+    ],
+    "x_netkan_override" : [
+        {
+            "version" : "v1.2.0",
+            "delete" : [ "ksp_version" ],
+            "override" : {
+                "ksp_version_min" : "1.0.2",
+                "ksp_version_max" : "1.0.5"
+            }
+        }
+    ]
+}

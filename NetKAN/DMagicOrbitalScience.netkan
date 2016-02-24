@@ -1,18 +1,18 @@
 {
-    "spec_version" : 1,
-    "identifier"   : "DMagicOrbitalScience",
-    "$kref"        : "#/ckan/kerbalstuff/5",
-    "license"      : "BSD-3-clause",
+    "spec_version": 1,
+    "identifier": "DMagicOrbitalScience",
+    "$kref": "#/ckan/spacedock/128",
+    "license": "BSD-3-clause",
 	"install": [
         {
-            "file"       : "GameData/DMagicOrbitalScience",
-            "install_to" : "GameData"
+            "file": "GameData/DMagicOrbitalScience",
+            "install_to": "GameData"
         }
     ],
-	"resources"    : {
-		"repository" : "https://github.com/DMagic1/Orbital-Science"
+	"resources": {
+		"repository": "https://github.com/DMagic1/Orbital-Science"
 	},
-	"recommends" : [
+	"recommends": [
 		{ "name": "ContractsWindowPlus" }
 	],
 	"suggests": [
@@ -24,13 +24,13 @@
 		{ "name": "SCANsat" },
 		{ "name": "CommunityTechTree" }
     ],
-	"x_netkan_override" : [
+	"x_netkan_override": [
 		{
-			"version" : "1.0.4",
-			"delete" : [ "ksp_version" ],
-			"override" : {
-				"ksp_version_min" : "1.0.2",
-				"ksp_version_max" : "1.0.4"
+			"version": "1.0.4",
+			"delete": [ "ksp_version" ],
+			"override": {
+				"ksp_version_min": "1.0.2",
+				"ksp_version_max": "1.0.4"
 			}
 		}
     ]

@@ -1,0 +1,23 @@
+{
+    "identifier": "NebiaAndShomma",
+    "spec_version": "v1.4",
+    "$kref": "#/ckan/kerbalstuff/1219",
+    "license": "CC-BY-NC-SA-4.0",
+	"name": "Keridani",
+    "depends": [
+        { "name": "Kopernicus", "version": "1:beta-04" }
+    ],
+    "recommends": [
+        { "name": "EnvironmentalVisualEnhancements" }
+    ],
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/136903"
+    },
+    "install": [
+        {
+            "find"       : "Planets",
+            "install_to" : "GameData"
+        }
+    ],
+    "x_netkan_epoch": "1"
+}

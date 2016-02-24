@@ -1,0 +1,32 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "StockRealismRebalances",
+    "$kref": "#/ckan/kerbalstuff/1295",
+    "license": "CC-BY-NC-SA-4.0",
+    "depends": [
+        { "name": "ModuleManager" },
+        { "name": "CommunityResourcePack" },
+        { "name": "InterstellarFuelSwitch-Core" },
+        { "name": "DavonTCsystemsMod" },
+        { "name": "CryoEngines" }
+    ],
+    "recommends": [
+        { "name": "HotRockets" },
+        { "name": "FerramAerospaceResearch" },
+        { "name": "KerbalJointReinforcement" },
+        { "name": "RealChute" }
+    ],
+    "conflicts": [
+        { "name": "RealismOverhaul" },
+        { "name": "HotRockets" },
+        { "name": "RealPlumes" },
+        { "name": "RealPlume-StockConfigs" }
+    ],
+    "install": [
+        {
+            "find"         : "WAST",
+            "install_to"   : "GameData/SRR",
+            "filter_regexp": "\\._.+"
+        }
+    ]
+}

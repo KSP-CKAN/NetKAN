@@ -1,17 +1,7 @@
-{
-    "spec_version": "v1.4",
-    "identifier": "USI-NuclearRockets",
-    "license": "CC-BY-NC-SA-4.0",
-    "$kref": "#/ckan/kerbalstuff/1175",
-    "$vref": "#/ckan/ksp-avc",
-    "depends": [
-        { "name": "USI-Tools" },
-        { "name": "USI-Core" }
-    ],
-    "install": [
-        {
-            "find"       : "UmbraSpaceIndustries/Orion",
-            "install_to" : "GameData/UmbraSpaceIndustries"
-        }
-    ]
-}
+
+    {
+        "spec_version" : "v1.16",
+        "identifier" : "USI-NuclearRockets",
+        "$kref" : "#/ckan/netkan/https://raw.githubusercontent.com/BobPalmer/CKAN/master/USI-NuclearRockets.netkan",
+        "x_netkan_license_ok": true
+    }

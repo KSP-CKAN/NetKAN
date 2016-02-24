@@ -1,0 +1,22 @@
+{
+    "$kref": "#/ckan/kerbalstuff/817",
+    "$vref": "#/ckan/ksp-avc",
+    "spec_version" : "v1.4",
+    "license"      : "MIT",
+    "identifier"   : "EngineLighting",
+    "name"         : "Engine Lighting",
+    "resources"    : {
+        "homepage"   : "http://forum.kerbalspaceprogram.com/threads/121987",
+        "repository" : "https://github.com/tatjam/KSP-EngineLight"
+    },
+    "depends"      : [
+        { "name" : "ModuleManager", "min_version" : "2.6.3" }
+    ],    
+    "install"      : [
+        {
+            "find"       : "GameData/EngineLight",
+            "install_to" : "GameData"
+        }
+    ],
+    "x_netkan_license_ok": true
+}

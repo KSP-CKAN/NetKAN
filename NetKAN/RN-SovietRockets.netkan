@@ -9,7 +9,7 @@
     },
     "$kref"         : "#/ckan/github/KSP-RO/SovietRockets",
     "license"       : "CC-BY-NC-ND-3.0",
-    "ksp_version"   : "1.0",
+    "ksp_version"   : "1.0.5",
     "install"       : [
     {
         "find"      : "RN_Proton",
@@ -17,6 +17,10 @@
     },
     {
         "find"      : "RN_R7",
+        "install_to": "GameData"
+    },
+	{
+        "find"      : "RN_Zenit",
         "install_to": "GameData"
     },
     {

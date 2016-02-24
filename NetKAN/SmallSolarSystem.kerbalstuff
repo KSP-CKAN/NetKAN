@@ -1,0 +1,20 @@
+{
+    "spec_version": "v1.4",
+    "license": "MIT",
+    "$kref": "#/ckan/kerbalstuff/1017",
+    "identifier": "SmallSolarSystem",
+    "depends": [
+        { "name": "ModuleManager" },
+        { "name": "Kopernicus", "min_version": "1:beta-05-2" },
+        { "name": "RSSTextures" }
+    ],
+    "recommends": [
+        { "name": "KSCSwitcher" }
+    ],
+    "install": [
+        {
+            "find"      : "SmallSolarSystem",
+            "install_to": "GameData"
+        }
+    ]
+}

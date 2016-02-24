@@ -1,10 +1,15 @@
 {
     "spec_version": "v1.4",
-    "x_via": "Automated KerbalStuff CKAN submission",
     "identifier": "EngineerLevelFixer",
+    "abstract": "Small mod that allows Engineers to fix tires and landing gear at any level you want (default 1)",
+    "release_status": "stable",
     "license": "MIT",
-    "$kref": "#/ckan/kerbalstuff/1155",
+    "$kref": "#/ckan/spacedock/205",
     "$vref": "#/ckan/ksp-avc",
+    "resources": {
+      "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/121379-105-engineer-level-fixer-fix-tires-at-any-level-you-want/",
+      "repository": "https://github.com/civilwargeeky/EngineerLevelFixer/"
+    },
     "depends" : [
       { "name" : "ModuleManager" }
     ]

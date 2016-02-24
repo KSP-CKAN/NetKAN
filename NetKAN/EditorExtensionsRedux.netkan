@@ -1,0 +1,12 @@
+{
+    "identifier"          : "EditorExtensionsRedux",
+    "abstract"            : "Tweaks and features for the in-game vessel editor, e.g. alignment and symmetry aids. Now includes SelectRoot mod",
+    "x_netkan_license_ok" : true, 
+    "$kref"               : "#/ckan/spacedock/48", 
+    "$vref"               : "#/ckan/ksp-avc",
+    "spec_version"        : 1,
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/127378-/",
+        "repository":"https://github.com/linuxgurugamer/EditorExtensionsRedux"
+    }
+}

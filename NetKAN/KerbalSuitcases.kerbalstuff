@@ -1,0 +1,12 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "KerbalSuitcases",
+    "$kref": "#/ckan/kerbalstuff/1312",
+    "license": "restricted",
+    "install": [
+        {
+            "find"       : "Kerbal Suitcase",
+            "install_to" : "GameData"
+        }
+    ]
+}

@@ -1,8 +1,11 @@
 {
-    "license": "GPL-3.0",
+    "license": "CC-BY-NC-ND-4.0",
     "identifier": "FantomWorksKAXPartPack",
-    "$kref": "#/ckan/kerbalstuff/565",
+    "$kref": "#/ckan/spacedock/229",
     "spec_version": "v1.4",
+    "recommends": [
+    	{ "name": "KerbalAircraftExpansion" }
+    ],
     "install": [
 	{
 	    "find": "Fantom Works",

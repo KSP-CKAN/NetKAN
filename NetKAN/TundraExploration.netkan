@@ -1,10 +1,18 @@
 {
-    "$kref": "#/ckan/kerbalstuff/671",
+    "$kref": "#/ckan/spacedock/223",
     "spec_version": "v1.4",
     "identifier": "TundraExploration",
     "license": "CC-BY-NC-SA-4.0",
-	"suggests" :	[{ "name" : "RasterPropMonitor-Core" } ],
-	"install" : [ { "find" : "TundraExploration",
-					"install_to" : "GameData",
-					"comment" : "Ven-Patch not included since it requires overwriting of Rodan_Capsule.cfg" } ]
+    "recommends" : [
+	{ "name" : "RasterPropMonitor-Core" },
+	{ "name" : "RealPlume-StockConfigs" }
+    ],
+    "install" : [
+	{
+	    "find"       : "TundraExploration",
+	    "install_to" : "GameData",
+	    "filter"     : "Thumbs.db",
+	    "comment"    : "Ven-Patch not included since it requires overwriting of Rodan_Capsule.cfg" 
+	}
+    ]
 }

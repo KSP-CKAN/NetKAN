@@ -1,0 +1,15 @@
+{
+    "spec_version": "v1.2",
+    "identifier": "kspboatparts",
+    "$kref": "#/ckan/kerbalstuff/1328",
+    "license": "MIT",
+    "depends": [
+        { "name": "FirespitterCore" }
+    ],
+    "install": [
+        {
+            "file"       : "ships",
+            "install_to" : "GameData/kdufferskorp"
+        }
+    ]
+}

@@ -1,0 +1,27 @@
+{
+    "spec_version": 1,
+    "identifier": "BahamutoDynamicsPartsPack",
+    "$kref": "#/ckan/kerbalstuff/101",
+    "license": "CC-BY-SA",
+    "depends": [
+        { "name": "BDAnimationModules" }
+    ],
+    "install": [
+        {
+            "file": "BahaSP",
+            "install_to": "GameData",
+            "filter": [ "Plugins", "Changelog.txt", "License.txt" ],
+            "comment": "Plugins is the folder where BDAnimationModules is installed. License and Changelog collide with BDAnimationModules."
+        }
+    ],
+    "x_netkan_override": [
+        {
+            "version": "v1.2.0",
+            "delete": [ "ksp_version" ],
+            "override": {
+                "ksp_version_min": "1.0.2",
+                "ksp_version_max": "1.0.5"
+            }
+        }
+    ]
+}

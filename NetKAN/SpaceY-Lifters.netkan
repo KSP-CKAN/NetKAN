@@ -1,7 +1,7 @@
 {
 	"spec_version" : 1,
 	"identifier" : "SpaceY-Lifters",
-	"$kref" : "#/ckan/kerbalstuff/352",
+	"$kref" : "#/ckan/spacedock/88",
 	"$vref" : "#/ckan/ksp-avc",
 	"license" : "CC-BY-NC-SA",
 	"recommends" :	[ { "name" : "ModuleManager" } ],

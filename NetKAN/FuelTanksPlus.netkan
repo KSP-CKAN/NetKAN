@@ -1,5 +1,5 @@
 {
-    "$kref": "#/ckan/kerbalstuff/529",
+    "$kref": "#/ckan/spacedock/92",
     "$vref" : "#/ckan/ksp-avc",
     "identifier": "FuelTanksPlus",
     "license": "CC-BY-NC-SA",
@@ -10,5 +10,11 @@
     ],
     "suggests": [
         { "name": "ColorCodedCans" }
+    ],
+    "install": [
+        {
+            "file": "FuelTanksPlus",
+            "install_to": "GameData"
+        }
     ]
 }

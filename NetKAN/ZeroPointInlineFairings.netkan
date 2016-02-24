@@ -1,11 +1,11 @@
 {
 	"spec_version" : 1,
 	"identifier" : "ZeroPointInlineFairings",
-	"$kref" : "#/ckan/kerbalstuff/196",
-    "$vref" : "#/ckan/ksp-avc",
+	"$kref" : "#/ckan/spacedock/97",
+	"$vref" : "#/ckan/ksp-avc",
 	"license" : "CC-BY-NC-SA",
 	"resources" : {
-	"homepage"  : "http://forum.kerbalspaceprogram.com/threads/94427"
+	"homepage"  : "http://forum.kerbalspaceprogram.com/index.php?/topic/85178-ZeroPointInlineFairings"
 	},
 	
 	"install": [

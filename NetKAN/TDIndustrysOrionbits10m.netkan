@@ -2,7 +2,7 @@
     "identifier": "TDIndustrysOrionbits10m",
     "x_via": "Automated KerbalStuff CKAN submission",
     "spec_version": "v1.4",
-    "$kref": "#/ckan/kerbalstuff/586",
+    "$kref": "#/ckan/spacedock/148",
     "license": "MIT",
 	"install": [
 		{ "find": "TD-Orion-10m", "install_to": "GameData" }

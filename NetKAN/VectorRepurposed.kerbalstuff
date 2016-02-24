@@ -1,0 +1,9 @@
+{
+    "$kref": "#/ckan/kerbalstuff/1264",
+    "spec_version": "v1.4",
+    "license": "CC-BY-NC-SA-4.0",
+    "identifier": "VectorRepurposed",
+    "depends"      : [
+        { "name" : "ModuleManager" }
+    ]
+}

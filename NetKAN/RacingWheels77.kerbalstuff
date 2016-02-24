@@ -1,0 +1,17 @@
+{
+    "spec_version": "v1.4",
+    "$kref": "#/ckan/kerbalstuff/1369",
+    "license": "LGPL-3.0",
+    "x_netkan_license_ok": true,
+    "identifier": "RacingWheels77",
+    "install": [
+	{
+		"find": "77Industries",
+		"install_to": "GameData"
+	}
+    ],
+    "depends": [
+	{ "name": "RoverWheelSounds" },
+	{ "name": "ModuleManager" }
+    ]
+}

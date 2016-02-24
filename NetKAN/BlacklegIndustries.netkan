@@ -1,14 +1,24 @@
 {
     "identifier": "BlacklegIndustries",
-    "x_via": "Automated KerbalStuff CKAN submission",
     "spec_version": "v1.4",
-    "$kref": "#/ckan/kerbalstuff/615",
+    "$kref": "#/ckan/github/blackleg/blackleg-industries",
     "license": "CC0",
+    "name": "Blackleg Industries",
     "abstract": "Blackleg Industries SatBus and ProbeBus extensible satellite and probe bodies with matching accessories.",
+    "ksp_version" : "1.0.5",
+	"resources"    : {
+        "homepage"   : "https://www.blackleg.es",
+        "repository" : "https://github.com/blackleg/blackleg-industries"
+    },
     "install": [
         {
             "file" : "blackind",
             "install_to" : "GameData"
         }
+    ],
+	"suggests"     : [
+        { "name" : "ModuleManager" },
+		{ "name" : "MechJeb2" },
+		{ "name" : "RemoteTech"} 
     ]
 }

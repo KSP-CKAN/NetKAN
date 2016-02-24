@@ -2,14 +2,13 @@
     "spec_version"   : 1,
     "name"           : "Tantares",
     "identifier"     : "Tantares",
-    "$kref"          : "#/ckan/kerbalstuff/303",
+    "$kref"          : "#/ckan/spacedock/174",
     "author"         : "Beale",
     "abstract"       : "Stockalike Soyuz and MIR",
     "license"        : "CC-BY-NC-SA-4.0",
     "release_status" : "stable",
     "resources" : {
-        "homepage"      : "http://forum.kerbalspaceprogram.com/threads/81537",
-        "kerbalstuff"   : "https://kerbalstuff.com/mod/303"
+        "homepage"      : "http://forum.kerbalspaceprogram.com/threads/81537"
     },
     "suggests" : [
         { "name" : "CommunityTechTree" }

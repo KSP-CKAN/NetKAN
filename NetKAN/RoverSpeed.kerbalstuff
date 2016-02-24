@@ -1,0 +1,19 @@
+{
+    "spec_version" : 1,
+    "identifier"   : "RoverSpeed",
+    "$kref"        : "#/ckan/kerbalstuff/936",
+    "x_netkan_license_ok": true,
+    "x_netkan_override" : [
+	{
+	    "version" : "0.9.2",
+	    "delete" : [ "ksp_version" ],
+	    "override" : {
+		"ksp_version_min" : "1.0.4",
+		"ksp_version_max" : "1.0.5"
+	     }
+	}
+    ],
+    "depends": [
+        { "name": "ModuleManager", "min_version": "2.6.0" }
+    ]
+}

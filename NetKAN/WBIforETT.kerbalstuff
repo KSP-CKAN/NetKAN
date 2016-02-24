@@ -1,0 +1,24 @@
+{
+    "$kref": "#/ckan/kerbalstuff/1434",
+    "identifier": "WBIforETT",
+    "spec_version": "v1.16",
+    "license": "MIT",
+    "depends": [
+        { "name": "ModuleManager" },
+        { "name": "ETT" }
+    ],
+    "recommends": [
+        { "name": "WildBlueTools" },
+        { "name": "Buffalo" },
+        { "name": "Pathfinder" },
+        { "name": "MarkOneLaboratoryExtensions" },
+        { "name": "CactEyeTelescopesContinued" }
+    ],
+    "install": [
+        {
+            "find": "WBIforETT.cfg",
+            "install_to": "GameData/ETT",
+            "find_matches_files": true
+        }
+    ]
+}

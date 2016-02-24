@@ -1,0 +1,28 @@
+{
+    "spec_version"   : "v1.4",
+    "identifier"     : "NearFutureElectrical",
+    "$kref"          : "#/ckan/kerbalstuff/349",
+    "release_status" : "stable",
+    "license"        : "CC-BY-NC-SA-4.0",
+    "depends" : [
+        { "name" : "CommunityResourcePack" },
+        { "name" : "NearFutureElectrical-Core" },
+        { "name" : "ModuleManager" }
+    ],
+    "recommends": [
+        { "name" : "CommunityTechTree" }
+    ],
+    "suggests": [
+        { "name" : "NearFutureConstruction" },
+        { "name" : "NearFutureElectrical-DecayingRTGs" },
+        { "name" : "NearFuturePropulsion" },
+        { "name" : "NearFutureSolar" },
+        { "name" : "NearFutureSpacecraft" }
+    ],
+    "install" : [
+        { "find"       : "NearFutureElectrical",
+          "install_to" : "GameData",
+          "filter"     : "NearFutureElectrical.dll"
+        }
+    ]
+}

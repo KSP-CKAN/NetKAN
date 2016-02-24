@@ -5,6 +5,9 @@
     "name"         : "Snacks",
     "abstract"     : "Add a simple life support system based on Snacks!",
     "license"      : "MIT",
+    "resources" : {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/81929-105-snacks-kerbal-simplified-life-support"
+    },
     "depends": [ 
         { 
             "name": "ModuleManager" 

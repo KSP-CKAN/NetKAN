@@ -1,0 +1,33 @@
+{
+    "spec_version": 1,
+    "$kref": "#/ckan/kerbalstuff/515",
+    "identifier": "B9AerospaceProceduralParts",
+    "license": "CC-BY-NC-SA-4.0",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/104966"
+    },
+    "x_licence_code": "MIT",
+    "x_licence_assets": "CC-BY-NC-SA-4.0",
+    "depends": [
+        { "name": "CrossFeedEnabler" }
+    ],
+    "conflicts": [
+	    { "name": "B9-PWings-Fork" }
+    ],
+    "install": [
+        {
+            "file": "GameData/B9_Aerospace",
+            "install_to": "GameData"
+        }
+    ],
+    "x_netkan_override" : [
+        {
+            "version" : "0.40",
+            "delete" : [ "ksp_version" ],
+            "override" : {
+                "ksp_version_min" : "1.0.2",
+                "ksp_version_max" : "1.0.4"
+            }
+        }
+    ]
+}

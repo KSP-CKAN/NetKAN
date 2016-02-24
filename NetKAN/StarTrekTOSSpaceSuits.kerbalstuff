@@ -1,0 +1,30 @@
+{
+    "$kref": "#/ckan/kerbalstuff/803",
+    "spec_version": "v1.10",
+    "identifier": "StarTrekTOSSpaceSuits",
+    "name": "Star Trek:TOS colored Space Suits",
+    "license": "MIT",
+	"resources" : {
+        "homepage"     : "https://kerbalstuff.com/mod/803/Star%20Trek:%20TOS%20colored%20Space%20Suits%20Pack%20for%20TextureReplacer"
+    },
+    "depends": [
+        { "name" : "TextureReplacer" }
+    ],
+    "install": [
+        {
+            "find_regexp": "StarTrekSuits",
+            "install_to" : "GameData/TextureReplacer/Suits"
+        }
+    ],
+    "x_netkan_epoch": "1",
+    "x_netkan_override" : [
+	{
+	    "version" : "1:0.4",
+	    "delete" : [ "ksp_version" ],
+	    "override" : {
+		"ksp_version_min" : "1.0.4",
+		"ksp_version_max" : "1.0.5"
+	    }
+	}
+    ]
+}

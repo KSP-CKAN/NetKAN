@@ -1,0 +1,38 @@
+{
+    "spec_version"  : "v1.4",
+    "identifier"    : "UnchartedLands",
+    "$kref"         : "#/ckan/github/KillAshley/UL",
+    "name"          : "Uncharted Lands",
+    "abstract"      : "Uncharted Lands is a procedurally created planet overhaul for KSP, designed to change things up in the stock system for a whole new game.",
+    "license"       : "CC-BY-NC-SA-4.0",
+    "author"        : "KillAshley",
+    "release_status": "stable",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/120111-/"
+    },
+    "ksp_version": "1.0.5",
+    "depends": [
+        { "name": "ModuleManager" },
+        { "name": "Kopernicus", "min_version": "1:beta-06" }
+    ],
+    "recommends": [
+        { "name": "SigmaBinary-core" }
+    ],
+    "suggests": [
+        { "name": "DistantObject" },
+        { "name": "PlanetShine" },
+        { "name": "RemoteTech" },
+        { "name": "TextureReplacer" }
+    ],
+    "conflicts": [
+        { "name": "BilliardsPlanetPack" },
+        { "name": "RealSolarSystem" },
+        { "name": "ToySolarSystem" }
+    ],
+    "install": [
+        {
+            "find": "UnchartedLands",
+            "install_to": "GameData"
+        }
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "spec_version": 1,
+    "$kref": "#/ckan/spacedock/161",
+    "license": "MIT",
+    "identifier": "OScienceLaboratories",
+    "install": [
+        {
+            "file": "OScience",
+            "install_to": "GameData"
+        }
+    ]
+}

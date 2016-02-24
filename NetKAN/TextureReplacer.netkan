@@ -1,11 +1,15 @@
 {
     "spec_version" : 1,
     "identifier"   : "TextureReplacer",
-    "$kref"        : "#/ckan/kerbalstuff/150",
+    "$kref"        : "#/ckan/github/ducakar/TextureReplacer",
     "$vref"        : "#/ckan/ksp-avc",
     "license"      : "CC-BY-NC-SA-4.0",
+    "name"         : "TextureReplacer",
+    "abstract"     : "Kerbal personalisation, IVA suits on Kerbin and texture replacement and improvements.",
+    "author"       : "shaw",
     "comment"      : "Plugin is MIT, but some parts CC-BY-NC-SA, and we always specify most restrictive in metadata.",
-    "resources" : {
-    "repository" : "https://github.com/ducakar/TextureReplacer"
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/107471",
+        "repository": "https://github.com/ducakar/TextureReplacer"
     }
 }

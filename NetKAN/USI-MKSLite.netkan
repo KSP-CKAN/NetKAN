@@ -1,25 +1,7 @@
-{
-    "spec_version": "v1.4",
-    "identifier": "USI-MKSLite",
-    "license": "CC-BY-NC-SA-4.0",
-    "$kref": "#/ckan/kerbalstuff/1184",
-    "$vref": "#/ckan/ksp-avc",
-    "resources": {
-        "homepage": "http://forum.kerbalspaceprogram.com/threads/135640"
-    },
-    "depends": [
-        { "name": "USITools" },
-        { "name": "USI-Core" },
-        { "name": "FirespitterCore" },
-        { "name": "ModuleManager" }
-    ],
-    "conflicts": [
-        { "name": "UKS" }
-    ],
-    "install": [
-        {
-            "find"       : "UmbraSpaceIndustries/MKS-LITE",
-            "install_to" : "GameData/UmbraSpaceIndustries"
-        }
-    ]
-}
+
+    {
+        "spec_version" : "v1.16",
+        "identifier" : "USI-MKSLite",
+        "$kref" : "#/ckan/netkan/https://raw.githubusercontent.com/BobPalmer/CKAN/master/USI-MKSLite.netkan",
+        "x_netkan_license_ok": true
+    }

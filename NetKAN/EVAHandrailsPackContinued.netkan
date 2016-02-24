@@ -1,9 +1,12 @@
 {
     "spec_version": 1,
     "identifier": "EVAHandrailsPackContinued",
-    "$kref": "#/ckan/kerbalstuff/929",
+    "$kref": "#/ckan/spacedock/49",
     "$vref" : "#/ckan/ksp-avc",
     "license": "CC-BY-SA-3.0",
+    "resources": {
+        "repository":"https://github.com/linuxgurugamer/EVAHandrailsPack"
+    },
     "conflicts": [
         { "name": "NebulaEVAHandrails" }
     ],
@@ -21,9 +24,6 @@
             "filter_regexp": "ModuleManager.+\\.dll"
         }
     ],
-    "resources": {
-        "homepage": "https://kerbalstuff.com/mod/929/EVA%20Handrails%20Pack%20Continued"
-    },
 	"x_netkan_override" : [
 		{
 			"version" : "0.2.0",

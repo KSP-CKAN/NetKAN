@@ -1,14 +1,16 @@
 {
-    "spec_version": "v1.4",
-    "$kref": "#/ckan/kerbalstuff/718",
-    "license": "CC-BY-NC",
-    "identifier": "InterstellarFuelSwitch-Core",
-    "name"	: "Interstellar Fuel Switch Core",
+    "spec_version" : "v1.4",
+    "$kref"        : "#/ckan/spacedock/175",
+    "identifier"   : "InterstellarFuelSwitch-Core",
+    "license"      : "GPL-2.0",
     "install": [
         {
-            "file" : "GameData/InterstellarFuelSwitch/Plugins",
+            "file"       : "GameData/InterstellarFuelSwitch/Plugins",
             "install_to" : "GameData/InterstellarFuelSwitch",
-            "filter": "MiniAVC.xml"
+            "filter"     : "MiniAVC.xml"
         }
+    ],
+    "depends" : [
+        { "name"         : "CommunityResourcePack", "min_version" : "0.4.5" }
     ]
 }
