@@ -1,8 +1,9 @@
 {
-    "spec_version" : "v1.4",
-    "$kref"        : "#/ckan/spacedock/258",
-    "identifier"   : "DraftTwitchViewers",
-    "license"      : "GPL-3.0",
+    "spec_version"   : "v1.4",
+    "$kref"          : "#/ckan/spacedock/258",
+    "identifier"     : "DraftTwitchViewers",
+    "release_status" : "stable",
+    "license"        : "GPL-3.0",
     "resources" : {
         "homepage"     : "http://forum.kerbalspaceprogram.com/index.php?/topic/99876-ksp-103-105-draft-twitch-viewers-v213-draft-or-rescue-your-viewers-as-kerbals/",
         "bugtracker"   : "https://github.com/IRnifty/DraftTwitchViewers/issues",
