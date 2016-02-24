@@ -32,6 +32,6 @@
         { "name" : "CrossFeedEnabler" }
     ],
     "install" : [
-        { "find" : "NearFuturePropulsion", "install_to" : "GameData" }
+        { "find" : "NearFuturePropulsion", "install_to" : "GameData", "filter" : ".DS_Store" }
     ]
 }
