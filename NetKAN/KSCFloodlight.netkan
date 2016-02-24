@@ -2,13 +2,14 @@
     "spec_version": "v1.4",
     "identifier": "KSCFloodlight",
     "license": "CC-BY-NC-SA-4.0",
-    "$kref": "#/ckan/kerbalstuff/1188",
+    "$kref": "#/ckan/spacedock/264",
     "depends": [
         { "name": "KerbalKonstructs" }
     ],
     "install": [
         {
             "find"       : "KSCFloodlight",
+            "filter"     : "Thumbs.db",
             "install_to" : "GameData"
         }
     ]
