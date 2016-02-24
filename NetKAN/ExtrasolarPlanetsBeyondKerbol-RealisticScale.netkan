@@ -1,7 +1,7 @@
 {
     "license": "BSD-3-clause",
     "spec_version": "v1.4",
-    "identifier": "ExtrasolarPlanetsBeyondKerbol-stock",
+    "identifier": "ExtrasolarPlanetsBeyondKerbol-RealisticScale",
     "$kref": "#/ckan/spacedock/202",
     "depends": [
          { "name" : "Kopernicus" }
