@@ -9,6 +9,7 @@
     "install": [
         {
             "find"       : "KSCFloodlight",
+            "filter"     : "Thumbs.db",
             "install_to" : "GameData"
         }
     ]
