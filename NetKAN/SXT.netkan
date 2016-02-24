@@ -1,0 +1,15 @@
+{
+    "spec_version" : 1,
+    "identifier"   : "SXT",
+    "$kref"        : "#/ckan/github/Signatum/SXT",
+    "name"         : "SXT - Stock eXTension",
+    "abstract"     : "A collection of stockalike parts, including rockets, planes, and utilities.",
+    "license"      : "CC-BY-NC-SA-4.0",
+    "ksp_version"  : "1.0.5",
+      	"depends": [
+		{ "name" : "FirespitterCore" },
+		{ "name" : "FirespitterResourcesConfig"},
+		{ "name" : "ModuleManager"}
+	]
+    }
+}
