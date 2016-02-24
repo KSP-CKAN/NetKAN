@@ -1,0 +1,12 @@
+{
+    "spec_version"   : "v1.4",
+    "$kref"          : "#/ckan/spacedock/257",
+    "identifier"     : "KerbalMechanics",
+    "release_status" : "development",
+    "license"        : "GPL-3.0",
+    "resources" : {
+        "homepage"     : "http://forum.kerbalspaceprogram.com/index.php?/topic/77449-ksp-10x-kerbal-mechanics-part-failures-and-repairs-v0641/",
+        "bugtracker"   : "https://github.com/IRnifty/KerbalMechanics/issues",
+        "repository"   : "https://github.com/IRnifty/KerbalMechanics"
+    }
+}
