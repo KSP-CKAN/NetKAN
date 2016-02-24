@@ -1,0 +1,15 @@
+{
+    "license": "BSD-3-clause",
+    "spec_version": "v1.4",
+    "identifier": "ExtrasolarPlanetsBeyondKerbol-stock",
+    "$kref": "#/ckan/spacedock/202",
+    "depends": [
+         { "name" : "Kopernicus" }
+    ],
+    "install": [
+        {
+            "file": "RealisticScale/GameData/ExtraSolar",
+            "install_to": "GameData"
+        }
+    ]
+}
