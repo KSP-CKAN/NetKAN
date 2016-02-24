@@ -2,8 +2,8 @@
     "license": "BSD-3-clause",
     "spec_version": "v1.10",
     "identifier": "ExtrasolarPlanetsBeyondKerbol-RealisticScale",
-    "name": "Extrasolar Planets Byond Kerbol - RSS configs",
-    "abstract": "Adds a new star system in orbit around the Kerbol System, RSS edition",
+    "name": "Extrasolar Planets Byond Kerbol - Realistic scale",
+    "abstract": "Adds a new star system in orbit around the Kerbol System, realistic scale edition",
     "$kref": "#/ckan/spacedock/202",
     "depends": [
          { "name" : "Kopernicus" }
