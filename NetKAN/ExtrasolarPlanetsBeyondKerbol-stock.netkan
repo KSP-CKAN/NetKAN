@@ -8,7 +8,7 @@
     ],
     "install": [
         {
-            "file": "Stock Scale/GameData/ExtraSolar",
+            "find_regexp": "Stock Scale/GameData/ExtraSolar",
             "install_to": "GameData"
         }
     ]
