@@ -1,9 +1,16 @@
 {
     "spec_version"   : "v1.4",
     "identifier"     : "NearFuturePropulsion",
-    "$kref"          : "#/ckan/kerbalstuff/347",
+    "$kref"          : "#/ckan/github/ChrisAdderley/NearFuturePropulsion",
+    "name"           : "Near Future Propulsion",
+    "abstract"       : "Advanced engine technologies in a stockalike aesthetic",
+    "author"         : "Nertea",
     "release_status" : "stable",
     "license"        : "CC-BY-NC-SA-4.0",
+    "ksp_version"    : "1.0.5",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/52042-0-21"
+    },
     "depends": [
         { "name" : "CommunityResourcePack" },
         { "name" : "ModuleManager" }
