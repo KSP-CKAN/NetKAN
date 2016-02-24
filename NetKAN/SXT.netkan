@@ -14,6 +14,13 @@
     ],
     "resources"      : {
         "homepage"   : "http://forum.kerbalspaceprogram.com/index.php?/topic/71992-105-sxt-lacks-stock-extension-sxt-24-09dec15kscv3"
-    }
+    },
+    "install"        : [
+        {
+            "find" : "SXT",
+            "install_to" : "GameData",
+            "filter" : "Thumbs.db"
+        }
+    ]
 }
 
