@@ -15,7 +15,6 @@
         }
     ],
     "recommends":[
-        { "name" : "KSP-64k" },
         { "name" : "KSPInterstellarExtended" },
         { "name" : "BetterTimeWarp" },
         { "name" : "USI-NuclearRockets" }
