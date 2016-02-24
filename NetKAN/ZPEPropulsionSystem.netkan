@@ -1,7 +1,7 @@
 {
-    "$kref": "#/ckan/kerbalstuff/1362",
+    "$kref": "#/ckan/spacedock/270",
     "spec_version": 1,
-    "license": "MIT",
+    "license": "CC-BY-NC-ND-4.0",
     "identifier": "ZPEPropulsionSystem",
     "suggests": [
         {
@@ -16,5 +16,6 @@
             "file": "RSR_ZPE",
             "install_to": "GameData"
         }
-    ]
+    ],
+    "x_netkan_force_v" : true
 }
