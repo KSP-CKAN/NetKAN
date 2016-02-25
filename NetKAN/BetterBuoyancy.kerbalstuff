@@ -3,7 +3,7 @@
     "identifier"     : "BetterBuoyancy",
     "$kref"          : "#/ckan/kerbalstuff/464",
     "license"        : "MIT",
-    "depends":	[
+    "depends":  [
         { "name" : "ModuleManager", "min_version": "2.6.6" }
     ]
 }

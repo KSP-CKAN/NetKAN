@@ -3,9 +3,9 @@
     "identifier": "DefaultActionGroups",
     "$kref": "#/ckan/kerbalstuff/1275",
     "license": "MIT",
-	"depends": [
-		{ "name": "ModuleManager" }
-	],
+    "depends": [
+        { "name": "ModuleManager" }
+    ],
     "install": [
         {
             "file"       : "GameData/DefaultActionGroups",

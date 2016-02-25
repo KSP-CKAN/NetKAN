@@ -6,17 +6,17 @@
     "depends": [
         { "name": "ModuleManager" }
     ],
-	"recommends": [
+    "recommends": [
         { "name": "TweakScale" }
     ],
-	"supports": [
+    "supports": [
         { "name": "RemoteTech" },
-		{ "name": "RealFuels" },
-		{ "name": "ModularFuelTanks" },
-		{ "name": "FerramAerospaceResearch" }
+        { "name": "RealFuels" },
+        { "name": "ModularFuelTanks" },
+        { "name": "FerramAerospaceResearch" }
     ],
-	"install" : [ { "find" : "ChopShop",
-					"install_to" : "GameData" },
-				{ "find" : "Ships",
-					"install_to" : "Ships" } ]
+    "install" : [ { "find" : "ChopShop",
+                    "install_to" : "GameData" },
+                { "find" : "Ships",
+                    "install_to" : "Ships" } ]
 }

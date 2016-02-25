@@ -8,13 +8,13 @@
             "file"       : "GameData/KerboKatz/Textures",
             "install_to" : "GameData/KerboKatz"
         },
-		{
-			"file": "GameData/KerboKatz/KerboKatzUtilities.dll",
-			"install_to": "GameData/KerboKatz"
-		},
-		{
-			"file": "GameData/KerboKatz/KerboKatzUtilities.version",
-			"install_to": "GameData/KerboKatz"
-		}
+        {
+            "file": "GameData/KerboKatz/KerboKatzUtilities.dll",
+            "install_to": "GameData/KerboKatz"
+        },
+        {
+            "file": "GameData/KerboKatz/KerboKatzUtilities.version",
+            "install_to": "GameData/KerboKatz"
+        }
     ]
 }

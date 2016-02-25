@@ -1,14 +1,14 @@
 {
-    "spec_version"			: "v1.4",
-    "identifier"			: "Mk1-1A2Textures1024",
-    "$kref"					: "#/ckan/kerbalstuff/1316",
-    "x_netkan_license_ok"	: true,
-	
-    "provides"				: [ "Mk1-1A2Textures" ],
+    "spec_version"          : "v1.4",
+    "identifier"            : "Mk1-1A2Textures1024",
+    "$kref"                 : "#/ckan/kerbalstuff/1316",
+    "x_netkan_license_ok"   : true,
 
-	"conflicts"      		: [ 
-		{ "name" : "Mk1-1A2Textures" }
-	], 
+    "provides"              : [ "Mk1-1A2Textures" ],
+
+    "conflicts"             : [
+        { "name" : "Mk1-1A2Textures" }
+    ],
 
     "depends" : [
         { "name" : "Mk1-1A2"}

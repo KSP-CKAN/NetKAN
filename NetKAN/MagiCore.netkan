@@ -9,8 +9,8 @@
     "resources": {
         "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/97033-10x"
     },
-	
-	"install": [
+
+    "install": [
         {
             "file"       : "GameData",
             "install_to" : "GameData"

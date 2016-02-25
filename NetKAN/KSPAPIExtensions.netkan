@@ -6,10 +6,10 @@
     "abstract"     : "This package contains a bunch of utility methods for general use to modders.",
     "license"      : "CC-BY-3.0",
     "ksp_version"  : "0.90",
-	"install" : [
-		{
-			"file" : "KSPAPIExt",
-			"install_to" : "GameData"
-		}
-	]
+    "install" : [
+        {
+            "file" : "KSPAPIExt",
+            "install_to" : "GameData"
+        }
+    ]
 }

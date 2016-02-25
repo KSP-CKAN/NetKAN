@@ -3,7 +3,7 @@
     "identifier"     : "SpaceX-ColonialTransporter-LR",
     "$kref"          : "#/ckan/kerbalstuff/528",
     "license"        : "restricted",
-	"install" :[
+    "install" :[
         {
             "find"          : "LazTek",
             "install_to"    : "GameData",

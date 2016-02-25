@@ -1,5 +1,5 @@
 {
-"spec_version" : "v1.4", 
+"spec_version" : "v1.4",
 "identifier"   : "Ceteras-Suit-Pack",
 "$kref"        : "#/ckan/kerbalstuff/1309",
 "x_netkan_license_ok": true,
@@ -12,6 +12,6 @@
 ],
 "depends": [
         { "name": "TextureReplacer" }
-	]
+    ]
 
 }

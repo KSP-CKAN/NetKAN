@@ -2,13 +2,13 @@
     "spec_version" : 1,
     "identifier"   : "kgnosecones",
     "$kref"        : "#/ckan/kerbalstuff/31",
-	
-	"license": "restricted",
-	
-	"install": [
+
+    "license": "restricted",
+
+    "install": [
         {
             "file"       : "GameData/Kerbice Group",
             "install_to" : "GameData"
         }
-	]
+    ]
 }

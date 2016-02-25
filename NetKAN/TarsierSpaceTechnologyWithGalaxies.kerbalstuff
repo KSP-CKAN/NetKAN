@@ -9,16 +9,16 @@
     "$kref": "#/ckan/kerbalstuff/608",
     "$vref": "#/ckan/ksp-avc",
     "license": "MIT",
-	"install": [
-		{ 
-            "find": "TarsierSpaceTech", 
+    "install": [
+        {
+            "find": "TarsierSpaceTech",
             "install_to": "GameData"
         }
-	],
-	"recommends": [
-		{ "name": "KAS" },
+    ],
+    "recommends": [
+        { "name": "KAS" },
         { "name": "KIS" },
-		{ "name": "ModuleManager" },
-		{ "name": "Toolbar" }
-	]	
+        { "name": "ModuleManager" },
+        { "name": "Toolbar" }
+    ]
 }

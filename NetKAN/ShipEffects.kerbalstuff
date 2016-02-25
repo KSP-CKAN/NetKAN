@@ -3,7 +3,7 @@
     "spec_version": "v1.4",
     "identifier": "ShipEffects",
     "license": "CC-BY-NC-SA-4.0",
-	"install" : [ { "find" : "ShipEffects",
-					"install_to" : "GameData",
-					"filter" : "Source" } ]
+    "install" : [ { "find" : "ShipEffects",
+                    "install_to" : "GameData",
+                    "filter" : "Source" } ]
 }

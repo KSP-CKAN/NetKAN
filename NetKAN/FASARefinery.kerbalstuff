@@ -3,7 +3,7 @@
     "identifier"     : "FASARefinery",
     "$kref"          : "#/ckan/kerbalstuff/535",
     "license"        : "restricted",
-	"install" :[
+    "install" :[
     {
         "find"       : "FASA",
         "install_to" : "GameData"

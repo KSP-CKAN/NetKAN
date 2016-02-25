@@ -3,16 +3,16 @@
     "spec_version" : 1,
     "$kref"        : "#/ckan/kerbalstuff/631",
     "license"      : "CC-BY-SA-3.0",
-	
-	"depends" : [
-		{ "name" : "FirespitterCore" },
-		{ "name" : "CommunityResourcePack" }
-	],
-	
-	"install" : [
-		{
-			"file" : "GameData/Snarfster",
-			"install_to": "GameData"
-		}
-	]
+
+    "depends" : [
+        { "name" : "FirespitterCore" },
+        { "name" : "CommunityResourcePack" }
+    ],
+
+    "install" : [
+        {
+            "file" : "GameData/Snarfster",
+            "install_to": "GameData"
+        }
+    ]
 }

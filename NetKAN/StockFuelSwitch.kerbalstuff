@@ -12,7 +12,7 @@
             "name": "ModuleManager"
         }
     ],
-	"resources" : {
+    "resources" : {
         "homepage"     : "http://forum.kerbalspaceprogram.com/threads/121321"
     },
     "install": [
@@ -21,14 +21,14 @@
             "install_to": "GameData"
         }
     ],
-	"x_netkan_override" : [
-		{
-			"version" : "1.1",
-			"delete" : [ "ksp_version" ],
-			"override" : {
-				"ksp_version_min" : "1.0.2",
-				"ksp_version_max" : "1.0.5"
-			}
-		}
+    "x_netkan_override" : [
+        {
+            "version" : "1.1",
+            "delete" : [ "ksp_version" ],
+            "override" : {
+                "ksp_version_min" : "1.0.2",
+                "ksp_version_max" : "1.0.5"
+            }
+        }
     ]
 }

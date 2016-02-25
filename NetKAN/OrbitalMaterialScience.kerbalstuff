@@ -10,8 +10,8 @@
             "install_to": "GameData/NehemiahInc"
         }
     ],
-	"depends": [
-		{ "name": "NehemiahScienceCommon" },
-		{ "name": "NehemiahMultiPurposeParts" }
-	]
+    "depends": [
+        { "name": "NehemiahScienceCommon" },
+        { "name": "NehemiahMultiPurposeParts" }
+    ]
 }

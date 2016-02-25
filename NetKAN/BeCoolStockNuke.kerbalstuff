@@ -4,10 +4,10 @@
     "license"     : "BSD-3-clause",
     "identifier"  : "BeCoolStockNuke",
     "install"     : [
-        { 
+        {
             "file"       : "UberDyneAstronautics",
             "install_to" : "GameData"
-        } 
+        }
     ],
     "depends"     : [
         { "name"       : "ModuleManager"

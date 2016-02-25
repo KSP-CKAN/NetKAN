@@ -7,10 +7,10 @@
     "resources" : {
         "homepage"     : "http://forum.kerbalspaceprogram.com/threads/81496"
     },
-	"depends" : [	{ "name" : "ModuleManager" },
-					{ "name" : "AmpYearPowerManager" } ],
-	"recommends" : [ { "name" : "Toolbar" } ],
-	"install" : [ { "find" : "REPOSoftTech",
-					"install_to" : "GameData",
-					"filter_regexp" : "KKInterfaces.dll" } ]
+    "depends" : [   { "name" : "ModuleManager" },
+                    { "name" : "AmpYearPowerManager" } ],
+    "recommends" : [ { "name" : "Toolbar" } ],
+    "install" : [ { "find" : "REPOSoftTech",
+                    "install_to" : "GameData",
+                    "filter_regexp" : "KKInterfaces.dll" } ]
 }

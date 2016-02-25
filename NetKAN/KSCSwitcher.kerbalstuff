@@ -3,6 +3,6 @@
     "identifier": "KSCSwitcher",
     "spec_version": 1,
     "license": "BSD-2-clause",
-	"install": [ { "file" : "Switcher/GameData/KSCSwitcher",
-				"install_to" : "GameData" } ]
+    "install": [ { "file" : "Switcher/GameData/KSCSwitcher",
+                "install_to" : "GameData" } ]
 }

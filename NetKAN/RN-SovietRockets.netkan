@@ -19,7 +19,7 @@
         "find"      : "RN_R7",
         "install_to": "GameData"
     },
-	{
+    {
         "find"      : "RN_Zenit",
         "install_to": "GameData"
     },
@@ -27,13 +27,13 @@
         "file"      : "GameData/Soviet_Rockets_TR.cfg",
         "install_to": "GameData"
     }],
-    "depends"       : 
+    "depends"       :
     [
         { "name"    : "FirespitterCore"  },
         { "name"    : "ReflectionPlugin" },
         { "name"    : "KlockheedMartian-Gimbal"   }
     ],
-    "recommends"    : 
+    "recommends"    :
     [
         { "name"    : "RN-SalyutStations-SoyuzFerries" },
         { "name"    : "RN-SovietProbes"                }

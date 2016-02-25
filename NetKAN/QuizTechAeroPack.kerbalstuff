@@ -3,14 +3,14 @@
     "spec_version": "v1.4",
     "$kref": "#/ckan/kerbalstuff/612",
     "license": "CC-BY-4.0",
-	"depends": [
-		{ "name": "FirespitterCore" },
-		{ "name": "BDAnimationModules" },
+    "depends": [
+        { "name": "FirespitterCore" },
+        { "name": "BDAnimationModules" },
         { "name": "RasterPropMonitor-Core" },
         { "name": "ModuleManager"}
-	],
-	"install": [
-		{ "find": "QuizTechAero", "install_to": "GameData" },
+    ],
+    "install": [
+        { "find": "QuizTechAero", "install_to": "GameData" },
         { "find": "Ships/SPH", "install_to": "Ships"}
-	]
+    ]
 }

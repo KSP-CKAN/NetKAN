@@ -1,10 +1,10 @@
 {
-    "identifier": "B9StyleShuttleWings", 
-	"license": "CC-BY-NC-SA-4.0",
-    "$kref": "#/ckan/kerbalstuff/448", 
+    "identifier": "B9StyleShuttleWings",
+    "license": "CC-BY-NC-SA-4.0",
+    "$kref": "#/ckan/kerbalstuff/448",
     "spec_version": "v1.4",
     "depends" : [ { "name" : "FirespitterCore" } ],
-	"install": [
-		{ "file": "GilB9Shuttle_Wings", "install_to": "GameData" }
-	]
+    "install": [
+        { "file": "GilB9Shuttle_Wings", "install_to": "GameData" }
+    ]
 }

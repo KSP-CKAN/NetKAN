@@ -11,7 +11,7 @@
     },
     "depends"      : [
         { "name" : "ModuleManager", "min_version" : "2.6.3" }
-    ],    
+    ],
     "install"      : [
         {
             "find"       : "GameData/EngineLight",

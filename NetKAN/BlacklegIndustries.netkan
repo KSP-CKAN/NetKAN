@@ -6,7 +6,7 @@
     "name": "Blackleg Industries",
     "abstract": "Blackleg Industries SatBus and ProbeBus extensible satellite and probe bodies with matching accessories.",
     "ksp_version" : "1.0.5",
-	"resources"    : {
+    "resources"    : {
         "homepage"   : "https://www.blackleg.es",
         "repository" : "https://github.com/blackleg/blackleg-industries"
     },
@@ -16,9 +16,9 @@
             "install_to" : "GameData"
         }
     ],
-	"suggests"     : [
+    "suggests"     : [
         { "name" : "ModuleManager" },
-		{ "name" : "MechJeb2" },
-		{ "name" : "RemoteTech"} 
+        { "name" : "MechJeb2" },
+        { "name" : "RemoteTech"}
     ]
 }

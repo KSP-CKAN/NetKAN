@@ -4,7 +4,7 @@
     "license": "MIT",
     "identifier": "CommandInventory",
     "depends": [
-        {	"name": "ModuleManager" },{	"name": "KIS"	}
-        
+        {   "name": "ModuleManager" },{ "name": "KIS"   }
+
     ]
 }

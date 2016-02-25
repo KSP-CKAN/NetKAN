@@ -1,26 +1,26 @@
 {
-	"spec_version": "v1.4",
-	"$kref": "#/ckan/kerbalstuff/722",
-	"license": "GPL-3.0",
-	"identifier": "Goodspeed",
-	"resources" : {
-		"homepage" : "http://forum.kerbalspaceprogram.com/threads/118176"
-	},
-	"install" : [ 
-		{ 
-			"find" : "GPOSpeedFuelPump",
-			"install_to" : "GameData",
-			"filter" : "sourcecode"
-		}
-	],
-	"x_netkan_override" : [
-		{
-			"version" : "1.4",
-			"delete" : [ "ksp_version" ],
-			"override" : {
-				"ksp_version_min" : "1.0.2",
-				"ksp_version_max" : "1.0.4"
-			}
-		}
+    "spec_version": "v1.4",
+    "$kref": "#/ckan/kerbalstuff/722",
+    "license": "GPL-3.0",
+    "identifier": "Goodspeed",
+    "resources" : {
+        "homepage" : "http://forum.kerbalspaceprogram.com/threads/118176"
+    },
+    "install" : [
+        {
+            "find" : "GPOSpeedFuelPump",
+            "install_to" : "GameData",
+            "filter" : "sourcecode"
+        }
+    ],
+    "x_netkan_override" : [
+        {
+            "version" : "1.4",
+            "delete" : [ "ksp_version" ],
+            "override" : {
+                "ksp_version_min" : "1.0.2",
+                "ksp_version_max" : "1.0.4"
+            }
+        }
     ]
 }

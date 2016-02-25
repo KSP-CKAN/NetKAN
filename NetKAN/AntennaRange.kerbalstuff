@@ -12,6 +12,6 @@
     "depends": [
         { "name": "ModuleManager" },
         { "name": "ToadicusTools" },
-	{ "name": "EVAManager" }
+    { "name": "EVAManager" }
     ]
 }

@@ -5,22 +5,22 @@
     "license"      : "restricted",
     "ksp_version_min" : "0.90",
     "ksp_version_max" : "1.0.99",
-    
+
     "resources" : {
         "homepage"     : "https://kerbalstuff.com/mod/657/Speeder-1"
     },
-    
+
     "install": [
         {
             "file"       : "GameData/Kerbice Group",
             "install_to" : "GameData"
         }
     ],
-    
+
     "recommends" : [
         { "name" : "KerbalFoundries" }
     ],
-    
+
     "suggests ": [
         { "name" : "HyperEdit" },
         { "name" : "ExtraPlanetaryLaunchpads" }

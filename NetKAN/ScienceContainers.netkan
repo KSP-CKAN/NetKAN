@@ -6,11 +6,11 @@
     "abstract"     : "Allows transfer of science without EVA.",
     "license"      : "CC-BY-SA-3.0",
     "ksp_version"  : "0.90",
-	"resources" : {
+    "resources" : {
         "homepage"     : "http://forum.kerbalspaceprogram.com/threads/90678",
         "repository"   : "https://github.com/SirDargon/ScienceContainers"
     },
-	
+
     "install": [
         {
             "file"       : "GameData/SirDargon",

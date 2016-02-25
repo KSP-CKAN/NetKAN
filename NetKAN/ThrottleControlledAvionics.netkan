@@ -4,12 +4,12 @@
     "$kref"        : "#/ckan/spacedock/198",
     "$vref"        : "#/ckan/ksp-avc",
     "license"      : "CC-BY-SA-4.0",
-    "resources": 
+    "resources":
     {
         "bugtracker"   : "https://github.com/qfeys/ThrottleControlledAvionics/issues",
         "repository"   : "https://github.com/qfeys/ThrottleControlledAvionics"
     },
-    "suggests": 
+    "suggests":
     [
         { "name" : "KSP-AVC" },
         { "name" : "Toolbar" }

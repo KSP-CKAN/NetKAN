@@ -3,7 +3,7 @@
     "identifier"   : "LunaticAeronauticsAntygravityRoom",
     "$kref"        : "#/ckan/kerbalstuff/473",
     "license": "CC-BY-NC-SA-4.0",
-	"install": [
+    "install": [
         {
             "file": "room",
             "install_to": "GameData",

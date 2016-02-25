@@ -12,10 +12,10 @@
     "depends": [
         { "name": "ModuleManager" },
         { "name": "ToadicusTools" },
-	{ "name": "EVAManager" }
+    { "name": "EVAManager" }
     ],
     "recommends": [
-    	{ "name": "TweakableEverything-EngineStagingToggle" },
-    	{ "name": "TweakableEverything-FairingStagingToggle" }
+        { "name": "TweakableEverything-EngineStagingToggle" },
+        { "name": "TweakableEverything-FairingStagingToggle" }
     ]
 }

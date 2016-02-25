@@ -3,9 +3,9 @@
     "identifier"     : "KerbalFoundries",
     "$kref"          : "#/ckan/kerbalstuff/58",
     "license"        : "GPL-3.0",
-	"resources": 
-	{
-		"repository": "https://kerbalstuff.com/mod/58/Kerbal%20Foundries%20Wheels%20and%20Repulsors%20ALPHA"
+    "resources":
+    {
+        "repository": "https://kerbalstuff.com/mod/58/Kerbal%20Foundries%20Wheels%20and%20Repulsors%20ALPHA"
     },
     "recommends" : [
         { "name" : "TweakScale" }

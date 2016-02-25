@@ -6,12 +6,12 @@
     "depends": [
         { "name": "ContractConfigurator" },
         { "name": "MaritimePack" }
-        
+
     ],
     "recommends": [
         { "name": "KAS" },
         { "name": "BDArmory" }
-        
+
     ],
     "install": [
         {

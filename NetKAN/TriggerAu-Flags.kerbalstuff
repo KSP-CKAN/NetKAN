@@ -5,15 +5,15 @@
     "identifier"     : "TriggerAu-Flags",
     "abstract"       : "Flags contained in TriggerAu's Addons",
     "license"        : "MIT",
-	"release_status" : "stable",
+    "release_status" : "stable",
     "ksp_version"    : "any",
     "comment"        : "flagmod",
-	"author": "TriggerAu",
+    "author": "TriggerAu",
     "resources": {
         "license"      : "https://github.com/TriggerAu/AlternateResourcePanel/blob/master/LICENSE",
         "repository"   : "https://github.com/TriggerAu/AlternateResourcePanel"
     },
-	"install" :[
+    "install" :[
     {
         "find"       : "Flags",
         "install_to" : "GameData/TriggerTech"

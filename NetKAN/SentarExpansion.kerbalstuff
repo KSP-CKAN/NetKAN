@@ -3,7 +3,7 @@
     "identifier"    : "SentarExpansion",
     "$kref"         : "#/ckan/kerbalstuff/1029",
     "license"       : "GPL-2.0",
-	"depends": [
+    "depends": [
         { "name": "Kopernicus", "version": "1:beta-03-3" },
         { "name" : "ModuleManager" }
     ]

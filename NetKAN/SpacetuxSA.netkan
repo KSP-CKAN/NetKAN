@@ -7,7 +7,7 @@
     "release_status" : "stable",
     "resources" : {
         "homepage"    : "http://forum.kerbalspaceprogram.com/threads/113400",
-		"repository"  : "https://github.com/linuxgurugamer/SpaceTux"
+        "repository"  : "https://github.com/linuxgurugamer/SpaceTux"
     },
     "install" : [
         {
@@ -15,24 +15,24 @@
             "install_to" : "GameData"
         }
     ],
-	"x_netkan_override" : [
-		{
-			"version" : "0.3.6",
-			"delete" : [ "ksp_version" ],
-			"override" : {
-				"ksp_version_min" : "1.0.2",
-				"ksp_version_max" : "1.0.4"
-			}
-		}
+    "x_netkan_override" : [
+        {
+            "version" : "0.3.6",
+            "delete" : [ "ksp_version" ],
+            "override" : {
+                "ksp_version_min" : "1.0.2",
+                "ksp_version_max" : "1.0.4"
+            }
+        }
     ],
-	"x_netkan_override" : [
-		{
-			"version" : "0.3.9",
-			"delete" : [ "ksp_version" ],
-			"override" : {
-				"ksp_version_min" : "1.0.2",
-				"ksp_version_max" : "1.0.5"
-			}
-		}
+    "x_netkan_override" : [
+        {
+            "version" : "0.3.9",
+            "delete" : [ "ksp_version" ],
+            "override" : {
+                "ksp_version_min" : "1.0.2",
+                "ksp_version_max" : "1.0.5"
+            }
+        }
     ]
 }

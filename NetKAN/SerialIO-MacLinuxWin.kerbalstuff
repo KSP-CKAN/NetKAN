@@ -5,16 +5,16 @@
     "license": "GPL-3.0",
     "spec_version": 1,
 
-	"install": [
-		{
-			"file": "KSPSerialIO",
-			"install_to": "GameData"
-		}
-	],
+    "install": [
+        {
+            "file": "KSPSerialIO",
+            "install_to": "GameData"
+        }
+    ],
 
-	"conflicts": [ 
-		{
-			"name": "SerialIO" 
-		}
-	]
+    "conflicts": [
+        {
+            "name": "SerialIO"
+        }
+    ]
 }

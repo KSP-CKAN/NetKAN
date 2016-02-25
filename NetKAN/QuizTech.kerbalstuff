@@ -3,15 +3,15 @@
     "$kref": "#/ckan/kerbalstuff/530",
     "identifier": "QuizTech",
     "license": "CC-BY-4.0",
-	
-	"depends" : [
-		{ "name": "ModuleManager" }
-	],
-	
-	"install": [
-		{
-			"find": "QuizTech",
-			"install_to": "GameData"
-		}
-	]
+
+    "depends" : [
+        { "name": "ModuleManager" }
+    ],
+
+    "install": [
+        {
+            "find": "QuizTech",
+            "install_to": "GameData"
+        }
+    ]
 }

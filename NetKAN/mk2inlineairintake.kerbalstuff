@@ -2,13 +2,13 @@
     "spec_version" : 1,
     "identifier"   : "mk2inlineairintake",
     "$kref"        : "#/ckan/kerbalstuff/10",
-	
-	"license": "restricted",
-	
-	"install": [
+
+    "license": "restricted",
+
+    "install": [
         {
             "file"       : "GameData/Kerbice Group",
             "install_to" : "GameData"
         }
-	]
+    ]
 }

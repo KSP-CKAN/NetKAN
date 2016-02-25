@@ -7,7 +7,7 @@
         {
             "find"       : "AtmosphericStuff",
             "install_to" : "GameData",
-			"filter"     : ".DS_Store"
+            "filter"     : ".DS_Store"
         }
     ]
 }

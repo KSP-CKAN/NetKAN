@@ -1,16 +1,16 @@
 {
-	"spec_version"	:	1,
-	"identifier"	:	"Proton-Bobcat",
-	"license"	:	"restricted",
-	"$kref"		:	"#/ckan/kerbalstuff/373",
+    "spec_version"  :   1,
+    "identifier"    :   "Proton-Bobcat",
+    "license"   :   "restricted",
+    "$kref"     :   "#/ckan/kerbalstuff/373",
         "resources" : {
             "homepage"     : "http://forum.kerbalspaceprogram.com/threads/81754"
         },
-	"install" : [
-	{
-		"file"	    :   "SovietPack",
-		"install_to":   "GameData"
-	}],
+    "install" : [
+    {
+        "file"      :   "SovietPack",
+        "install_to":   "GameData"
+    }],
         "x_netkan_override" : [
             {
                 "version" : "1.0",

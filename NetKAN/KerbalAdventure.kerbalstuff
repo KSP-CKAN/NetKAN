@@ -3,10 +3,10 @@
     "identifier"   : "KerbalAdventure",
     "$kref"        : "#/ckan/kerbalstuff/390",
     "license"      : "CC-BY-NC-SA-3.0",
-	"resources": {
+    "resources": {
         "x_curse": "http://www.curse.com/ksp-mods/kerbal/225951-kerbal-adventure"
     },
-	"install": [
+    "install": [
         {
             "file":        "KerbalAdventure",
             "install_to":  "GameData",

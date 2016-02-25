@@ -7,7 +7,7 @@
         { "name": "RasterPropMonitor-Core" }
     ],
     "install": [
-        { 
+        {
             "find" : "RaptorAerospacial",
             "install_to" : "GameData",
             "filter": "StockIVA"

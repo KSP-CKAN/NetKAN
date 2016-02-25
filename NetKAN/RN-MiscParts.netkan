@@ -4,14 +4,14 @@
     "name"          : "RNMisc",
     "author"        : "Raidernick",
     "abstract"      : "This mod contains miscellaneous parts I have fixed or re-textured and can re-release under authors original license terms",
-    "resources": 
+    "resources":
     {
         "homepage"  : "https://github.com/KSP-RO/RNMisc"
     },
     "$kref"         : "#/ckan/github/KSP-RO/RNMisc",
     "license"       : "CC-BY-NC-ND-3.0",
     "ksp_version"   : "1.0.5",
-    "install"       : 
+    "install"       :
     [
       {
         "find"      : "RN_Misc",

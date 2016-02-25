@@ -3,7 +3,7 @@
     "identifier"   : "NovaPunch",
     "$kref"        : "#/ckan/kerbalstuff/26",
     "license"      : "CC-BY-SA-3.0",
-	"install": [
+    "install": [
         {
             "file"       : "GameData/NovaPunch2",
             "install_to" : "GameData"

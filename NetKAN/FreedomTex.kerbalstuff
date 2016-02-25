@@ -12,8 +12,8 @@
         }
     ],
 
-	"depends": [
-		{ "name": "ProceduralParts" },
+    "depends": [
+        { "name": "ProceduralParts" },
         { "name": "ModuleManager"}
-	]
+    ]
 }

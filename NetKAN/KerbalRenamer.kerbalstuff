@@ -3,6 +3,6 @@
     "$kref": "#/ckan/kerbalstuff/730",
     "license": "BSD-2-clause",
     "identifier": "KerbalRenamer",
-	"install"	:	[ { "file" : "KerbalRenamer/GameData/KerbalRenamer",
-						"install_to" : "GameData" } ]
+    "install"   :   [ { "file" : "KerbalRenamer/GameData/KerbalRenamer",
+                        "install_to" : "GameData" } ]
 }

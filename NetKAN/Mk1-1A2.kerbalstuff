@@ -1,9 +1,9 @@
 {
-    "spec_version"			: "v1.4",
-    "identifier"			: "Mk1-1A2",
-    "$kref"					: "#/ckan/kerbalstuff/301",
-    "x_netkan_license_ok"	: true,
-	
+    "spec_version"          : "v1.4",
+    "identifier"            : "Mk1-1A2",
+    "$kref"                 : "#/ckan/kerbalstuff/301",
+    "x_netkan_license_ok"   : true,
+
     "depends" : [
         { "name" : "Mk1-1A2Textures"}
     ],

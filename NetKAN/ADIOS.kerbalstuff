@@ -5,10 +5,10 @@
     "license": "GPL-3.0",
     "ksp_version": "0.90",
 
-	"depends": [
-		{ "name": "ContractConfigurator" },
-		{ "name": "TechManager" }
-	],
+    "depends": [
+        { "name": "ContractConfigurator" },
+        { "name": "TechManager" }
+    ],
 
     "install": [
         {

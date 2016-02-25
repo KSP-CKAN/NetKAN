@@ -3,7 +3,7 @@
     "identifier"     : "SpaceX-ExplorationExtension-Standard",
     "$kref"          : "#/ckan/kerbalstuff/521",
     "license"        : "restricted",
-	"install" :[
+    "install" :[
         {
             "find"          : "LazTek",
             "install_to"    : "GameData",

@@ -11,9 +11,9 @@
     ],
     "depends" : [
         { "name" : "ModuleManager"},
-		{ "name" : "SmokeScreen" }
+        { "name" : "SmokeScreen" }
     ],
     "conflicts" : [
-    	{ "name" : "RealPlume" }
+        { "name" : "RealPlume" }
     ]
 }

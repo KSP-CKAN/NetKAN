@@ -3,5 +3,5 @@
     "spec_version": 1,
     "license": "MIT",
     "identifier": "OpenTree",
-	"depends"	:	[ { "name" : "ModuleManager" } ]
+    "depends"   :   [ { "name" : "ModuleManager" } ]
 }

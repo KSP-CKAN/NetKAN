@@ -3,7 +3,7 @@
     "$kref": "#/ckan/kerbalstuff/736",
     "license": "GPL-3.0",
     "identifier": "Sentinel",
-	"conflicts" : [ { "name" : "GCMonitor" } ],
-	"install" : [ { "find" : "KSEA",
-					"install_to" : "GameData" } ]
+    "conflicts" : [ { "name" : "GCMonitor" } ],
+    "install" : [ { "find" : "KSEA",
+                    "install_to" : "GameData" } ]
 }

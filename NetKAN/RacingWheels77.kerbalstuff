@@ -5,13 +5,13 @@
     "x_netkan_license_ok": true,
     "identifier": "RacingWheels77",
     "install": [
-	{
-		"find": "77Industries",
-		"install_to": "GameData"
-	}
+    {
+        "find": "77Industries",
+        "install_to": "GameData"
+    }
     ],
     "depends": [
-	{ "name": "RoverWheelSounds" },
-	{ "name": "ModuleManager" }
+    { "name": "RoverWheelSounds" },
+    { "name": "ModuleManager" }
     ]
 }

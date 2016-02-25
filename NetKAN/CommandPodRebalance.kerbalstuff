@@ -3,11 +3,11 @@
     "$kref": "#/ckan/kerbalstuff/467",
     "identifier": "CommandPodRebalance",
     "license": "MIT",
-	
-	"install": [
-		{
-			"find": "Spheniscine",
-			"install_to": "GameData"
-		}
-	]
+
+    "install": [
+        {
+            "find": "Spheniscine",
+            "install_to": "GameData"
+        }
+    ]
 }

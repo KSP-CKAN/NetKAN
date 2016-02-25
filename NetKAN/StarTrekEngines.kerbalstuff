@@ -3,16 +3,16 @@
     "identifier"   : "StarTrekEngines",
     "$kref"        : "#/ckan/kerbalstuff/640",
     "license" : "CC-BY-NC-SA-4.0",
-	"resources" : {
+    "resources" : {
         "homepage"     : "https://kerbalstuff.com/mod/640/Star-Trek%20Style%20Engines%20for%20KSPI"
     },
-	"depends"	:	[ { "name" : "HotRockets" },
-					{ "name" : "KSPInterstellarExtended" } ],
-	"install": [
+    "depends"   :   [ { "name" : "HotRockets" },
+                    { "name" : "KSPInterstellarExtended" } ],
+    "install": [
         {
             "file"       : "GameData/SimianEndeavors",
             "install_to" : "GameData",
-			"filter"	: "~$engineplan.xlsx",
+            "filter"    : "~$engineplan.xlsx",
             "comment"    : "The parts and models by Bobsyeruncle"
         },
         {

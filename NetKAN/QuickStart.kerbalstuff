@@ -4,7 +4,7 @@
     "identifier": "QuickStart",
     "license": "GPL-3.0",
     "spec_version": "v1.01",
-	"install": [
-		{ "file": "GameData/QuickStart", "install_to": "GameData" }
-	]
+    "install": [
+        { "file": "GameData/QuickStart", "install_to": "GameData" }
+    ]
 }

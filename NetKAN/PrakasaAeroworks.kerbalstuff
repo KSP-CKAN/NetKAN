@@ -4,9 +4,9 @@
     "spec_version": "v1.4",
     "identifier": "PrakasaAeroworks",
     "resources": {
-	    "homepage":"http://forum.kerbalspaceprogram.com/index.php?/topic/129967-105-prakasa-aeroworks/"
+        "homepage":"http://forum.kerbalspaceprogram.com/index.php?/topic/129967-105-prakasa-aeroworks/"
     },
     "recommends": [
-	    { "name": "RasterPropMonitor" }
+        { "name": "RasterPropMonitor" }
     ]
 }

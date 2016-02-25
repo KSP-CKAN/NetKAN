@@ -4,9 +4,9 @@
     "$kref"          : "#/ckan/kerbalstuff/509",
     "license"        : "GPL-3.0",
     "resources": {
-    	"homepage": 	"http://forum.kerbalspaceprogram.com/threads/95168#QuickMute",
-    	"repository": 	"https://github.com/malahx/QuickMute"
-    },    
+        "homepage":     "http://forum.kerbalspaceprogram.com/threads/95168#QuickMute",
+        "repository":   "https://github.com/malahx/QuickMute"
+    },
     "suggests"       : [
         { "name" : "Toolbar" }
     ],

@@ -7,23 +7,23 @@
     "license"        : "CC-BY-NC-SA-4.0",
     "release_status" : "stable",
     "depends" : [
-		{ "name" : "DMagicOrbitalScience" },
-		{ "name" : "ModuleManager" },
-		{ "name" : "TechManager" },
-		{ "name" : "ProceduralFairings" }
+        { "name" : "DMagicOrbitalScience" },
+        { "name" : "ModuleManager" },
+        { "name" : "TechManager" },
+        { "name" : "ProceduralFairings" }
     ],
     "recommends" : [
-		{ "name" : "Tantares" },
-		{ "name" : "TantaresLV" },
-		{ "name" : "SXT" },
-		{ "name" : "SpaceY-Lifters" },
-		{ "name" : "MechJeb2" },
-		{ "name" : "PartCatalog" },
-		{ "name" : "VenStockRevamp" },
-		{ "name" : "SDHI-ServiceModuleSystem" }
+        { "name" : "Tantares" },
+        { "name" : "TantaresLV" },
+        { "name" : "SXT" },
+        { "name" : "SpaceY-Lifters" },
+        { "name" : "MechJeb2" },
+        { "name" : "PartCatalog" },
+        { "name" : "VenStockRevamp" },
+        { "name" : "SDHI-ServiceModuleSystem" }
     ],
     "suggests"   : [
-		{ "name" : "KAS" }
+        { "name" : "KAS" }
     ],
     "resources" : {
         "homepage" : "http://forum.kerbalspaceprogram.com/threads/115671"
@@ -32,7 +32,7 @@
         {
             "file"       : "RoadToKosmos",
             "install_to" : "GameData",
-			"comment"       : "Core"
+            "comment"       : "Core"
         },
         {
             "file"       : "TechManager",

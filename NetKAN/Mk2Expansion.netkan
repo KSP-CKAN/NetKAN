@@ -8,7 +8,7 @@
     "license": "CC-BY-4.0",
     "ksp_version": "1.0.5",
     "resources": {
-	"homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/109145-105"
+    "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/109145-105"
     },
     "depends": [
         { "name": "KlockheedMartian-Gimbal" },
@@ -18,7 +18,7 @@
         { "name": "InterstellarFuelSwitch-Core" }
     ],
     "suggests": [
-	{ "name": "FerramAerospaceResearch" }
+    { "name": "FerramAerospaceResearch" }
     ],
     "install" : [
         {

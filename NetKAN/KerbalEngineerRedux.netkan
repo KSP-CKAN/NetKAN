@@ -9,15 +9,15 @@
     "license" : "GPL-3.0",
     "release_status" : "testing",
     "resources" : {
-    	"homepage" : "http://forum.kerbalspaceprogram.com/threads/18230",
-    	"github" : {
-    		"url" : "https://github.com/CYBUTEK/KerbalEngineer"
-    	}
+        "homepage" : "http://forum.kerbalspaceprogram.com/threads/18230",
+        "github" : {
+            "url" : "https://github.com/CYBUTEK/KerbalEngineer"
+        }
     },
     "install" : [
-    	{
-    		"file" : "KerbalEngineer",
-    		"install_to" : "GameData"
-    	}
+        {
+            "file" : "KerbalEngineer",
+            "install_to" : "GameData"
+        }
     ]
 }

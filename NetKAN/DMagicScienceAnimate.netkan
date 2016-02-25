@@ -7,9 +7,9 @@
     "license"      : "BSD-2-clause",
     "ksp_version"  : "1.0.5",
     "install": [
-	{
+    {
             "file": "GameData/DMagicScienceAnimate",
-	    "install_to": "GameData"
-	}
+        "install_to": "GameData"
+    }
     ]
 }

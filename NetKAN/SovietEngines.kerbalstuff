@@ -1,18 +1,18 @@
 {
-	"spec_version"	:	1,
-	"identifier"	:	"SovietEngines",
-	"$kref"		:	"#/ckan/kerbalstuff/374",
-	"license"	:	"restricted",
-	
-	"resources" : {
+    "spec_version"  :   1,
+    "identifier"    :   "SovietEngines",
+    "$kref"     :   "#/ckan/kerbalstuff/374",
+    "license"   :   "restricted",
+
+    "resources" : {
             "homepage"     : "http://forum.kerbalspaceprogram.com/threads/81754"
         },
-	
-	"install" : [
-	{
-		"file"	:	"BobCatind",
-		"install_to":	"GameData"
-	}],
+
+    "install" : [
+    {
+        "file"  :   "BobCatind",
+        "install_to":   "GameData"
+    }],
         "x_netkan_override" : [
             {
                 "version" : "1.1",

@@ -10,11 +10,11 @@
     "depends": [
         { "name" : "BDAnimationModules" },
         { "name" : "InterstellarFuelSwitch-Core" },
-    	{ "name" : "NearFutureProps" }
+        { "name" : "NearFutureProps" }
     ],
     "suggests": [
         { "name" : "CommunityTechTree" },
-    	{ "name" : "RasterPropMonitor" }
+        { "name" : "RasterPropMonitor" }
     ],
     "supports": [
         { "name" : "ConnectedLivingSpace" },

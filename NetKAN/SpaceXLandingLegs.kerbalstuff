@@ -4,9 +4,9 @@
     "license": "MIT",
     "identifier": "SpaceXLandingLegs",
     "install": [
-	    {
-	        "find": "SpaceXLegs",
-	        "install_to": "GameData"
-	    }
+        {
+            "find": "SpaceXLegs",
+            "install_to": "GameData"
+        }
     ]
 }

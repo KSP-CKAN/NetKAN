@@ -3,7 +3,7 @@
     "spec_version": "v1.4",
     "$kref": "#/ckan/kerbalstuff/1219",
     "license": "CC-BY-NC-SA-4.0",
-	"name": "Keridani",
+    "name": "Keridani",
     "depends": [
         { "name": "Kopernicus", "version": "1:beta-04" }
     ],

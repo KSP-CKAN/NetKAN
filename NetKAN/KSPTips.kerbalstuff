@@ -1,18 +1,18 @@
 {
-    "spec_version": 1, 
-    "$kref": "#/ckan/kerbalstuff/416", 
+    "spec_version": 1,
+    "$kref": "#/ckan/kerbalstuff/416",
     "name": "KSP Tips",
-    "identifier": "KSPTips", 
+    "identifier": "KSPTips",
     "abstract": "Plugin that provides 'Helpful' in game tips and tricks",
     "license": "MIT",
     "release_status": "stable",
-	"author": "TriggerAu",
-	"resources": {
+    "author": "TriggerAu",
+    "resources": {
         "homepage": "http://forum.kerbalspaceprogram.com/threads/103537",
         "license": "https://github.com/TriggerAu/KSPTips/blob/master/LICENSE",
         "repository": "https://github.com/TriggerAu/KSPTips",
         "kerbalstuff": "https://kerbalstuff.com/mod/416/KSP%20Tips",
         "x_curse": "http://kerbal.curseforge.com/ksp-mods/226245-ksp-tips"
-	},
+    },
     "x_netkan_license_ok": true
 }

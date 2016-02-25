@@ -3,10 +3,10 @@
     "$kref": "#/ckan/kerbalstuff/727",
     "license": "GPL-3.0",
     "identifier": "GlassPanesandEnclosures",
-	"resources" : {
+    "resources" : {
         "homepage"     : "http://forum.kerbalspaceprogram.com/threads/118387"
     },
-	"install"	:	[ { "find" : "Parts",
-						"install_to" : "GameData/GlassPanesandEnclosures",
-						"filter" : ".DS_Store" } ]
+    "install"   :   [ { "find" : "Parts",
+                        "install_to" : "GameData/GlassPanesandEnclosures",
+                        "filter" : ".DS_Store" } ]
 }

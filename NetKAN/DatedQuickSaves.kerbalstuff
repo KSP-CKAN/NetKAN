@@ -10,7 +10,7 @@
             "filter"     : "DatedQuickSaves.cs"
         }
     ],
-	"depends": [
+    "depends": [
         { "name": "MagiCore" }
     ]
 }

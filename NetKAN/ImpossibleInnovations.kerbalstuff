@@ -3,20 +3,20 @@
     "identifier"   : "ImpossibleInnovations",
     "$kref"        : "#/ckan/kerbalstuff/116",
     "x_netkan_license_ok" : true,
-    
-    	"depends": [
-    		{"name" : "TweakScale"},
-    		{"name" : "ModuleManager"}
-    	],
-    
-	"install": [
-		{
-			"file": "GameData/ImpossibleInnovations",
-			"install_to": "GameData"
-		},
-		{
-			"file": "Ships",
-			"install_to": "Ships"
-		}
-	]
+
+        "depends": [
+            {"name" : "TweakScale"},
+            {"name" : "ModuleManager"}
+        ],
+
+    "install": [
+        {
+            "file": "GameData/ImpossibleInnovations",
+            "install_to": "GameData"
+        },
+        {
+            "file": "Ships",
+            "install_to": "Ships"
+        }
+    ]
 }

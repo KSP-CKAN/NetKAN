@@ -4,5 +4,5 @@
     "spec_version": "v1.4",
     "$kref": "#/ckan/kerbalstuff/589",
     "license": "GPL-3.0",
-	"install": [ { "file": "GameData/rss_stock_parts", "install_to": "GameData" } ]
+    "install": [ { "file": "GameData/rss_stock_parts", "install_to": "GameData" } ]
 }

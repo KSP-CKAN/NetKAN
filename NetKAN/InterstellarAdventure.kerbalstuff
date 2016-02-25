@@ -3,7 +3,7 @@
     "spec_version": 1,
     "identifier": "InterstellarAdventure",
     "license": "CC-BY-NC-SA",
-	"depends" : [ { "name" : "Kopernicus" },
-				{ "name" : "Kopernicus-Config-Default" },
-				{ "name" : "ModuleManager" } ]
+    "depends" : [ { "name" : "Kopernicus" },
+                { "name" : "Kopernicus-Config-Default" },
+                { "name" : "ModuleManager" } ]
 }

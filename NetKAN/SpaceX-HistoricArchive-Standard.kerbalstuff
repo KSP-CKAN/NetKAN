@@ -3,7 +3,7 @@
     "identifier"     : "SpaceX-HistoricArchive-Standard",
     "$kref"          : "#/ckan/kerbalstuff/524",
     "license"        : "restricted",
-	"install" :[
+    "install" :[
         {
             "find"          : "LazTek",
             "install_to"    : "GameData",

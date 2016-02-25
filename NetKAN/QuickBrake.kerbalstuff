@@ -4,7 +4,7 @@
     "identifier": "QuickBrake",
     "license": "GPL-3.0",
     "spec_version": "v1.00",
-	"install": [
-		{ "file": "GameData/QuickBrake", "install_to": "GameData" }
-	]
+    "install": [
+        { "file": "GameData/QuickBrake", "install_to": "GameData" }
+    ]
 }

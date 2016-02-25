@@ -36,7 +36,7 @@
             "install_to" : "GameData/Okram/ODFC"
         }
     ],
-	 "recommends" : [
+     "recommends" : [
         { "name" : "OkramSA" }
     ]
 }

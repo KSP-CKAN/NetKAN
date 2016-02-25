@@ -3,14 +3,14 @@
     "identifier": "CapCom",
     "$kref": "#/ckan/spacedock/131",
     "license": "MIT",
-	"suggests": [
+    "suggests": [
         { "name": "ContractRewardModifier" },
         { "name": "ContractsWindowPlus" }
-	],
-	"install": [
-		{
-			"file": "GameData/CapCom",
-			"install_to": "GameData"
-		}
-	]
+    ],
+    "install": [
+        {
+            "file": "GameData/CapCom",
+            "install_to": "GameData"
+        }
+    ]
 }

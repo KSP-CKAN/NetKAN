@@ -15,16 +15,16 @@
         { "name": "PlanetShine-Config" }
     ],
     "conflicts": [
-	{ "name": "AmbientLightAdjustment" }
+    { "name": "AmbientLightAdjustment" }
     ],
     "suggests": [
-	{ "name": "EngineLighting" },
-	{ "name": "surfacelights" },
-	{ "name": "EnvironmentalVisualEnhancements" },
-	{ "name": "Chatterer" }
+    { "name": "EngineLighting" },
+    { "name": "surfacelights" },
+    { "name": "EnvironmentalVisualEnhancements" },
+    { "name": "Chatterer" }
     ],
     "supports": [
-	{ "name": "Toolbar" }
+    { "name": "Toolbar" }
     ],
     "x_netkan_override": [
         {

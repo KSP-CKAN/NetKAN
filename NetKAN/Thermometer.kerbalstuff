@@ -3,8 +3,8 @@
     "$kref": "#/ckan/kerbalstuff/719",
     "license": "MIT",
     "identifier": "Thermometer",
-	"depends"	:	[ { "name" : "ModuleManager" } ],
-	"install"	: [ { "find" : "Thermometer",
-					"install_to" : "GameData",
-					"filter" : ".DS_Store" } ]
+    "depends"   :   [ { "name" : "ModuleManager" } ],
+    "install"   : [ { "find" : "Thermometer",
+                    "install_to" : "GameData",
+                    "filter" : ".DS_Store" } ]
 }

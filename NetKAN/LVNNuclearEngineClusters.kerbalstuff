@@ -5,9 +5,9 @@
     "$kref": "#/ckan/kerbalstuff/574",
     "license": "restricted",
     "install": [
-    	{ 
+        {
           "find": "LVN_Clusters",
-          "install_to": "GameData" 
+          "install_to": "GameData"
         }
     ]
 }

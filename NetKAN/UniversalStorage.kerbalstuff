@@ -2,7 +2,7 @@
     "spec_version" : "v1.4",
     "identifier"   : "UniversalStorage",
     "$kref"        : "#/ckan/kerbalstuff/250",
-    "license"      : "restricted",	
+    "license"      : "restricted",
     "depends"      : [
         { "name" : "CommunityResourcePack" },
         { "name" : "ModuleManager" }

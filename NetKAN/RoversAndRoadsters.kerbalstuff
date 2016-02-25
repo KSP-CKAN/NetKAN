@@ -9,7 +9,7 @@
                 { "name"        : "KashCorpSA" }
         ],
         "install" : [
-                {      
+                {
                         "find" : "RoversAndRoadsters",
                         "install_to" : "GameData/KashCorp"
                 }

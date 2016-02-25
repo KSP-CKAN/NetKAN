@@ -6,7 +6,7 @@
     "ksp_version": "1.0.5",
     "name": "Alternis Kerbol Rekerjiggered",
     "abstract": "Alternis, God of Change and Difference decided to smite the hell out of the Kerbals' home solar system, and this is what happened.",
-    "author": "GregroxMun",    
+    "author": "GregroxMun",
     "depends": [
         { "name": "ModuleManager" },
         { "name": "Kopernicus", "min_version": "1:beta-05-2" }

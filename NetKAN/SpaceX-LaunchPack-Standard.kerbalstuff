@@ -3,7 +3,7 @@
     "identifier"     : "SpaceX-LaunchPack-Standard",
     "$kref"          : "#/ckan/kerbalstuff/518",
     "license"        : "restricted",
-	"install" :[
+    "install" :[
         {
             "find"          : "LazTek",
             "install_to"    : "GameData"

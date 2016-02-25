@@ -4,31 +4,31 @@
     "$kref": "#/ckan/spacedock/129",
     "$vref": "#/ckan/ksp-avc",
     "license": "restricted",
-	"x_netkan_force_v": true,
-	"depends": [
+    "x_netkan_force_v": true,
+    "depends": [
         { "name": "ModuleManager" }
     ],
-	"recommends": [
+    "recommends": [
         { "name": "Toolbar" },
-		{ "name": "ContractConfigurator" }
+        { "name": "ContractConfigurator" }
     ],
     "suggests": [
-		{ "name": "RasterPropMonitor" }
-	],
+        { "name": "RasterPropMonitor" }
+    ],
     "conflicts": [
-		{ "name": "ContractConfigurator-ScanSatLite" }
-	],
-	"resources": {
+        { "name": "ContractConfigurator-ScanSatLite" }
+    ],
+    "resources": {
         "repository": "https://github.com/S-C-A-N/SCANsat"
     },
-	"x_netkan_override": [
-		{
-			"version": "v12.1",
-			"delete": [ "ksp_version" ],
-			"override": {
-				"ksp_version_min": "1.0.2",
-				"ksp_version_max": "1.0.4"
-			}
-		}
-	]
+    "x_netkan_override": [
+        {
+            "version": "v12.1",
+            "delete": [ "ksp_version" ],
+            "override": {
+                "ksp_version_min": "1.0.2",
+                "ksp_version_max": "1.0.4"
+            }
+        }
+    ]
 }

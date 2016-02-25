@@ -12,7 +12,7 @@
     "resources": {
         "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/119211-KopernicusExpansion"
     },
-    "depends":	[
+    "depends":  [
         { "name" : "Kopernicus", "min_version": "1:beta-06-3" }
     ]
 }

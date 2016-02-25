@@ -7,10 +7,10 @@
     "resources" : {
         "homepage" : "http://forum.kerbalspaceprogram.com/threads/116064"
     },
-	"recommends"	: [ { "name" : "IR-Model-Rework-Core" },
-						{ "name" : "IR-Model-Rework-Expansion" },
-						{ "name" : "IR-Model-Rework-Utility" },
-						{ "name" : "TweakScale" } ],
-	"install"		: [ { "find" : "MagicSmokeIndustries",
-						"install_to" : "GameData" } ]
+    "recommends"    : [ { "name" : "IR-Model-Rework-Core" },
+                        { "name" : "IR-Model-Rework-Expansion" },
+                        { "name" : "IR-Model-Rework-Utility" },
+                        { "name" : "TweakScale" } ],
+    "install"       : [ { "find" : "MagicSmokeIndustries",
+                        "install_to" : "GameData" } ]
 }

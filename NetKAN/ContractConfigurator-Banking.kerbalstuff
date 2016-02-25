@@ -4,15 +4,15 @@
     "identifier": "ContractConfigurator-Banking",
     "name": "Contract Pack: Banking",
     "license": "MIT",
-	"depends":[
-		{	"name": "ContractConfigurator",
-			"min_version": "0.7.0"
-		}
-	],
-	"install": [
-		{
-			"find": "Banking",
-			"install_to": "GameData/ContractPacks"
-		}
-	]
+    "depends":[
+        {   "name": "ContractConfigurator",
+            "min_version": "0.7.0"
+        }
+    ],
+    "install": [
+        {
+            "find": "Banking",
+            "install_to": "GameData/ContractPacks"
+        }
+    ]
 }

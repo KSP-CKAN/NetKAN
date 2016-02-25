@@ -2,18 +2,18 @@
     "spec_version" : 1,
     "identifier"   : "RoversNOthers-Set2",
     "$kref"        : "#/ckan/kerbalstuff/107",
-	
-	"license": "restricted",
-	
-	"install": [
+
+    "license": "restricted",
+
+    "install": [
         {
             "file"       : "GameData/Kerbice Group",
             "install_to" : "GameData"
         }
-	],
-	
-	"suggests": [
-		{ "name": "RoversNOthers-Set1" },
-		{ "name": "RoversNOthers-Set3" }
-	]
+    ],
+
+    "suggests": [
+        { "name": "RoversNOthers-Set1" },
+        { "name": "RoversNOthers-Set3" }
+    ]
 }

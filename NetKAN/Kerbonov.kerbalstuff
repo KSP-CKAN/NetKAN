@@ -6,9 +6,9 @@
     "identifier": "Kerbonov",
     "x_netkan_epoch": "1",
     "install" : [
-		{ 
-			"find" : "Kerbonov",
-			"install_to" : "GameData" 
-		} 
+        {
+            "find" : "Kerbonov",
+            "install_to" : "GameData"
+        }
     ]
 }

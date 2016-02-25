@@ -6,12 +6,12 @@
     "depends": [
         { "name": "KIS" },
         { "name": "RasterPropMonitor" }
-	],
-	"install": [
-		{
-			"find": "Endurance",
-			"install_to": "GameData",
-			"filter": ".DS_Store"
-		}
-	]
+    ],
+    "install": [
+        {
+            "find": "Endurance",
+            "install_to": "GameData",
+            "filter": ".DS_Store"
+        }
+    ]
 }

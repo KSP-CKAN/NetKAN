@@ -9,7 +9,7 @@
                 { "name"        : "KashCorpSA" }
         ],
         "install" : [
-                {      
+                {
                         "find" : "KAP",
                         "install_to" : "GameData/KashCorp"
                 }
