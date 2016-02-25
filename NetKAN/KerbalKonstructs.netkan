@@ -1,16 +1,16 @@
 {
-	"spec_version" : "v1.4",
-	"identifier"   : "KerbalKonstructs",
-	"$kref"        : "#/ckan/spacedock/124",
-	"$vref"        : "#/ckan/ksp-avc",
+    "spec_version" : "v1.4",
+    "identifier"   : "KerbalKonstructs",
+    "$kref"        : "#/ckan/spacedock/124",
+    "$vref"        : "#/ckan/ksp-avc",
         "license"      : "restricted",
-	"comment"      : "Plugin is MIT, but Static Assets, Artwork & Models are ARR",
-	"x_netkan_license_ok" : true,
-	"depends"      : [
+    "comment"      : "Plugin is MIT, but Static Assets, Artwork & Models are ARR",
+    "x_netkan_license_ok" : true,
+    "depends"      : [
             { "name"   : "ModuleManager" }
-	],
-	"install": [
-		{
+    ],
+    "install": [
+        {
             "find"       : "KerbalKonstructs",
             "install_to" : "GameData"
         }
