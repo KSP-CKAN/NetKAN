@@ -7,9 +7,9 @@
     "author": "SpaceTiger",
     "license": "CC-BY-SA-4.0",
     "ksp_version": "1.0.5",
-    "resources": [
+    "resources": {
         "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/95531-/"
-    ],
+    },
     "depends": [
         { "name" : "KerboKatzUtilities" }
     ],
