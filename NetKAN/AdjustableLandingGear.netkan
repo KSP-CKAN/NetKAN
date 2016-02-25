@@ -1,7 +1,7 @@
 {
     "spec_version"     : "v1.2",
     "identifier"       : "AdjustableLandingGear",
-    "$kref"            : "#/ckan/kerbalstuff/321",
+    "$kref"            : "#/ckan/spacedock/235",
     "license"          : "CC-BY-SA-3.0",
     "depends": [
         { "name": "BDAnimationModules" }
