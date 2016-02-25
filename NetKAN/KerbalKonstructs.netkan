@@ -3,8 +3,12 @@
 	"identifier"   : "KerbalKonstructs",
 	"$kref"        : "#/ckan/spacedock/124",
 	"$vref"        : "#/ckan/ksp-avc",
-        "license"      : [ "MIT", "BSD-3-clause" ],
+        "license"      : "restricted",
+	"comment"      : "Plugin is MIT, but Static Assets, Artwork & Models are ARR",
 	"x_netkan_license_ok" : true,
+	"depends"      : [
+            { "name"   : "ModuleManager" }
+	],
 	"install": [
 		{
             "find"       : "KerbalKonstructs",
