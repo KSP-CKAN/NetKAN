@@ -1,0 +1,13 @@
+{
+    "$kref": "#/ckan/kerbalstuff/1372",
+    "spec_version": 1,
+    "license": "restricted",
+    "x_netkan_license_ok": true,
+    "identifier": "BearLandingLegLTB",
+    "install": [
+        {
+            "file": "Bear_Landing_Leg_LT-B",
+            "install_to": "GameData"
+        }
+    ]
+}
