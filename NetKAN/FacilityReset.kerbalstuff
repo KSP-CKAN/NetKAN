@@ -8,6 +8,9 @@
     "resources" : {
         "homepage" : "http://forum.kerbalspaceprogram.com/index.php?/topic/131454-facility-reset-for-64-bit-ksp/"
     },
+    "conflicts": [
+        { "name": "KerbalConstructionTime" }
+    ],
     "install" : [
         {
             "file": "FacilityReset",
