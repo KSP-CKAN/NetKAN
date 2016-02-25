@@ -13,7 +13,7 @@
     "install": [
         {
             "find": "SimpleNuclear",
-            "install_to": "GameData",
+            "install_to": "GameData"
         }
     ]
 }
