@@ -1,0 +1,19 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "SimpleNuclear",
+    "$kref": "#/ckan/spacedock/62",
+    "license": "CC-BY-NC-SA-4.0",
+    "depends": [
+        { "name": "ModuleManager" },
+        { "name": "TweakScale" }
+    ],
+    "recommends": [
+        { "name": "SimpleNuclear-NFT" }
+    ],
+    "install": [
+        {
+            "find": "SimpleNuclear",
+            "install_to": "GameData"
+        }
+    ]
+}
