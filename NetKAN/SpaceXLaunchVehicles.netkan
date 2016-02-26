@@ -1,0 +1,32 @@
+{
+    "spec_version": 1,
+    "identifier": "SpaceXLaunchVehicles",
+    "$kref": "#/ckan/spacedock/269",
+    "license": "CC-BY-NC-ND",
+    "depends": [
+        { "name": "ModuleManager" },
+        { "name": "FirespitterCore" }
+    ],
+    "recommends": [
+        { "name": "SpaceXLaunchVehicles-Extras" },
+        { "name": "EditorExtensions" },
+        { "name": "TextureReplacer" },
+        { "name": "MechJeb2" },
+        { "name": "Trajectories" },
+        { "name": "KSP-64k" }
+    ],
+    "install": [
+        {
+            "file": "GameData/Launchers Pack",
+            "install_to": "GameData"
+        },
+        {
+            "file": "GameData/AeroHider.dll",
+            "install_to": "GameData"
+        },
+        {
+            "file": "Ships/VAB",
+            "install_to": "Ships"
+        }
+    ]
+}

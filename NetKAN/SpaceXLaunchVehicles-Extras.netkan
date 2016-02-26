@@ -1,0 +1,17 @@
+{
+    "spec_version": 1,
+    "identifier": "SpaceXLaunchVehicles-Extras",
+    "$kref": "#/ckan/spacedock/269",
+    "name": "SpaceX Launch Vehicles Extras",
+    "abstract": "Adds the SpaceX Barge, SpaceX On-shore Landing Pad and extra payload fairing textures.",
+    "license": "CC-BY-NC-ND",
+    "depends": [
+        { "name": "SpaceXLaunchVehicles" }
+    ],
+    "install": [
+        {
+            "file": "Extras/GameData/Launchers Pack",
+            "install_to": "GameData"
+        }
+    ]
+}
