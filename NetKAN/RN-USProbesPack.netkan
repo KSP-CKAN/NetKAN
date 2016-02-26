@@ -22,11 +22,10 @@
         "install_to": "GameData"
       }
     ],
-    "depends"       : [
-    {
-        "name"      : "BDAnimationModules",
-        "name"      : "ReflectionPlugin",
-        "name"      : "FirespitterCore",
-        "name"      : "SmokeScreen"
-    }]
+    "depends": [
+        { "name": "BDAnimationModules" },
+        { "name": "ReflectionPlugin" },
+        { "name": "FirespitterCore" },
+        { "name": "SmokeScreen" }
+    ]
 }
