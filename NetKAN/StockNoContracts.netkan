@@ -1,0 +1,9 @@
+{
+    "spec_version": 1,
+    "$kref": "#/ckan/spacedock/111",
+    "identifier": "StockNoContracts",
+    "license": "public-domain",
+    "depends": [
+        { "name": "ModuleManager", "min_version": "2.6.0" }
+    ]
+}

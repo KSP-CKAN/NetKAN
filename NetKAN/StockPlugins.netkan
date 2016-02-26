@@ -1,0 +1,19 @@
+{
+    "spec_version" : 1,
+    "identifier" : "StockPlugins",
+    "$kref" : "#/ckan/spacedock/112",
+    "license": "public-domain",
+    "depends": [
+        { "name": "ModuleManager", "min_version": "2.6.0" }
+    ],
+    "suggests": [
+        { "name": "DeadlyReentry" },
+        { "name": "Graphotron" },
+        { "name": "KerbalEngineerRedux" },
+        { "name": "KerbalGPS" },
+        { "name": "kOS" },
+        { "name": "MechJeb2" },
+        { "name": "Protractor" },
+        { "name": "Telemachus" }
+    ]
+}
