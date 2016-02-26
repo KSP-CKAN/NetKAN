@@ -11,11 +11,10 @@
         "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/120111-/"
     },
     "ksp_version": "1.0.5",
+    "x_netkan_force_v": true,
     "depends": [
         { "name": "ModuleManager" },
-        { "name": "Kopernicus", "min_version": "1:beta-06" }
-    ],
-    "recommends": [
+        { "name": "Kopernicus", "min_version": "1:beta-06" },
         { "name": "SigmaBinary-core" }
     ],
     "suggests": [
