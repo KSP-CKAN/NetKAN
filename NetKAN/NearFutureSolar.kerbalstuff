@@ -4,6 +4,9 @@
     "$kref"          : "#/ckan/kerbalstuff/346",
     "release_status" : "stable",
     "license"        : "CC-BY-NC-SA-4.0",
+    "depends": [
+        { "name" : "NearFutureSolar-Core" }
+    ],
     "suggests": [
         { "name" : "CommunityTechTree" },
         { "name" : "NearFutureConstruction" },
@@ -12,6 +15,10 @@
         { "name" : "NearFutureSpacecraft" }
     ],
     "install" : [
-        { "find" : "NearFutureSolar", "install_to" : "GameData" }
+        {
+            "find"       : "NearFutureSolar",
+            "install_to" : "GameData",
+            "filter"     : "NearFutureSolar.dll"
+        }
     ]
 }
