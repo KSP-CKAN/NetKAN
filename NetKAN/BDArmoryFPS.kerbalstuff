@@ -6,7 +6,8 @@
     "depends": [
         { "name": "KIS" },
         { "name": "ModuleManager" },
-        { "name": "BDArmory" }
+        { "name": "BDArmory" },
+        { "name": "EVAManager" }
     ],
     "install": [
         {
