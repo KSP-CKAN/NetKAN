@@ -15,7 +15,7 @@
     "depends": [
         { "name": "ModuleManager" },
         { "name": "Kopernicus", "min_version": "1:beta-06" },
-        { "name": "SigmaBinary-DunaIke" }
+        { "name": "SigmaBinary-Core" }
     ],
     "suggests": [
         { "name": "DistantObject" },
