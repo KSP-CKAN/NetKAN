@@ -1,10 +1,17 @@
 {
     "spec_version": "v1.4",
-    "$kref": "#/ckan/kerbalstuff/1058",
+    "$kref": "#/ckan/spacedock/66",
     "license": "CC-BY-NC-SA-4.0",
     "identifier": "CustomClusters",
+    "depends": [
+        { "name": "ModuleManager" },
+        { "name": "InterstellarFuelSwitch" }
+    ],
     "recommends": [
         { "name": "KerbalJointReinforcement"}
+    ],
+    "conflicts": [
+        { "name": "CustomClusters-StockAdapterStandalone" }
     ],
     "install": [
         {
