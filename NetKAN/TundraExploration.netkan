@@ -3,16 +3,19 @@
     "spec_version": "v1.4",
     "identifier": "TundraExploration",
     "license": "CC-BY-NC-SA-4.0",
+    "depends": [
+        { "name": "NearFutureSolar-Core" }
+    ],
     "recommends" : [
-    { "name" : "RasterPropMonitor-Core" },
-    { "name" : "RealPlume-StockConfigs" }
+        { "name" : "RasterPropMonitor-Core" },
+        { "name" : "RealPlume-StockConfigs" }
     ],
     "install" : [
-    {
-        "find"       : "TundraExploration",
-        "install_to" : "GameData",
-        "filter"     : "Thumbs.db",
-        "comment"    : "Ven-Patch not included since it requires overwriting of Rodan_Capsule.cfg"
-    }
+        {
+            "find"       : "TundraExploration",
+            "install_to" : "GameData",
+            "filter"     : "Thumbs.db",
+            "comment"    : "Ven-Patch not included since it requires overwriting of Rodan_Capsule.cfg"
+        }
     ]
 }
