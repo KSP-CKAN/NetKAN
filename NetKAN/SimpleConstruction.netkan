@@ -14,7 +14,7 @@
         {
             "find": "SimpleConstruction",
             "install_to": "GameData",
-            "filter": [ "Thumbs.db", "InterstellarFuelSwitch.version" "InterstellarFuelSwitch.dll" ]
+            "filter": [ "Thumbs.db", "InterstellarFuelSwitch.version", "InterstellarFuelSwitch.dll" ]
         }
     ]
 }
