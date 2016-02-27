@@ -1,10 +1,10 @@
 {
     "spec_version": "v1.4",
-    "$kref": "#/ckan/kerbalstuff/1070",
+    "$kref": "#/ckan/spacedock/294",
     "license": "MIT",
-    "identifier": "TheBlueDrill",
+    "identifier": "TheBlueScoop",
     "depends": [
-        { "name": "CommunityResourcePack" }
+        { "name": "CommunityResourcePack"}
     ],
     "recommends": [
         { "name": "NearFuturePropulsion"}
