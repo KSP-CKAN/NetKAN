@@ -1,0 +1,20 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "SimpleConstruction",
+    "$kref": "#/ckan/spacedock/59",
+    "license": "CC-BY-NC-SA-4.0",
+    "depends": [
+        { "name": "ModuleManager" },
+        { "name": "InterstellarFuelSwitch-Core" },
+    ],
+    "conflicts": [
+        { "name": "ExtraPlanetaryLaunchpads" },
+    ],
+    "install": [
+        {
+            "find": "SimpleConstruction",
+            "install_to": "GameData",
+            "filter": [ "Thumbs.db", "InterstellarFuelSwitch.version" "InterstellarFuelSwitch.dll" ]
+        }
+    ]
+}
