@@ -9,6 +9,7 @@
     ],
     "recommends": [
         { "name": "SimpleNuclear-NFT" }
+        { "name": "SimpleNuclear-NFTBalanced" }
     ],
     "install": [
         {
