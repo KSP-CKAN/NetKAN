@@ -1,7 +1,7 @@
 {
     "spec_version": "v1.4",
-    "identifier": "SimpleNuclear-NFT",
-    "$kref": "#/ckan/spacedock/259",
+    "identifier": "SimpleNuclear-NFTBalanced",
+    "$kref": "#/ckan/spacedock/275",
     "license": "CC-BY-NC-SA-4.0",
     "depends": [
         { "name": "SimpleNuclear" },
@@ -9,11 +9,11 @@
         { "name": "NearFuturePropulsion" }
     ],
     "conflicts": [
-        { "name": "SimpleNuclear-NFTBalanced" }
+        { "name": "SimpleNuclear-NFT" }
     ],
     "install": [
         {
-            "find": "SimpleNuclearNearFuture",
+            "find": "SimpleNuclearNearFuturePB",
             "install_to": "GameData"
         }
     ]
