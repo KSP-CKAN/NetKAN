@@ -12,5 +12,9 @@
     ],
     "conflicts": [
         { "name": "SRL" }
+    ],
+    
+    "suggests": [
+        { "name": "Toolbar" }
     ]
 }
