@@ -1,0 +1,13 @@
+{
+    "spec_version" : 1,
+    "identifier"   : "BackgroundProcessing",
+    "$kref"        : "#/ckan/spacedock/288",
+    "license"      : "MIT",
+    "install": [
+        {
+            "find_regexp": "BackgroundProcessing.*\\.dll$",
+            "find_matches_files": true,
+            "install_to": "GameData"
+        }
+    ]
+}
