@@ -1,0 +1,15 @@
+{
+    "spec_version" : 1,
+    "identifier"   : "QuickRevert",
+    "$kref"        : "#/ckan/spacedock/109",
+    "license"      : "GPL-3.0",
+    "install": [
+        {
+            "find"       : "GameData/QuickRevert",
+            "install_to" : "GameData"
+        }
+    ],
+    "conflicts": [
+        { "name": "SRL" }
+    ]
+}

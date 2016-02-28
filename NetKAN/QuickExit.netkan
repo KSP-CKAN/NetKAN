@@ -1,0 +1,15 @@
+{
+    "spec_version" : 1,
+    "identifier"   : "QuickExit",
+    "$kref"        : "#/ckan/spacedock/105",
+    "license"      : "GPL-3.0",
+    "install": [
+        {
+            "file"       : "GameData/QuickExit",
+            "install_to" : "GameData"
+        }
+    ],
+    "suggests": [
+        { "name": "Toolbar" }
+    ]
+}

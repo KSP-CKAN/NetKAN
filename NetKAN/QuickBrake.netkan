@@ -1,0 +1,12 @@
+{
+    "spec_version" : 1,
+    "identifier"   : "QuickBrake",
+    "$kref"        : "#/ckan/spacedock/103",
+    "license"      : "GPL-3.0",
+    "install": [
+        {
+            "file"       : "GameData/QuickBrake",
+            "install_to" : "GameData"
+        }
+    ]
+}

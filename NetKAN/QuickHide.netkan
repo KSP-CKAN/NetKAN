@@ -1,0 +1,15 @@
+{
+    "spec_version" : 1,
+    "identifier"   : "QuickHide",
+    "$kref"        : "#/ckan/spacedock/106",
+    "license"      : "GPL-3.0",
+    "install": [
+        {
+            "file"       : "GameData/QuickHide",
+            "install_to" : "GameData"
+        }
+    ],
+    "suggests": [
+        { "name": "Toolbar" }
+    ]
+}

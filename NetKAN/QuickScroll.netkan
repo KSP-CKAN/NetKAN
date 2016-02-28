@@ -1,0 +1,15 @@
+{
+    "spec_version" : 1,
+    "identifier"   : "QuickScroll",
+    "$kref"        : "#/ckan/spacedock/100",
+    "license"      : "GPL-3.0",
+    "install": [
+        {
+            "file"       : "GameData/QuickScroll",
+            "install_to" : "GameData"
+        }
+    ],
+    "conflicts": [
+        { "name": "PartCatalog" }
+    ]
+}

@@ -1,0 +1,15 @@
+{
+    "spec_version" : 1,
+    "identifier"   : "QuickMute",
+    "$kref"        : "#/ckan/spacedock/108",
+    "license"      : "GPL-3.0",
+    "install": [
+        {
+            "find"       : "GameData/QuickMute",
+            "install_to" : "GameData"
+        }
+    ],
+    "suggests": [
+        { "name": "Toolbar" }
+    ]
+}
