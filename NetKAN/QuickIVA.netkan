@@ -11,6 +11,7 @@
         }
     ],
     "suggests": [
-        { "name": "RasterPropMonitor" }
+        { "name": "RasterPropMonitor" },
+        { "name": "Toolbar" }
     ]
 }
