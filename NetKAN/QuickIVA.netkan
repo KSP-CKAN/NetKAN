@@ -1,0 +1,17 @@
+{
+    "spec_version" : 1,
+    "identifier"   : "QuickIVA",
+    "$kref"        : "#/ckan/spacedock/107",
+    "$vref"        : "#/ckan/ksp-avc",
+    "license"      : "GPL-3.0",
+    "install": [
+        {
+            "file"       : "GameData/QuickIVA",
+            "install_to" : "GameData"
+        }
+    ],
+    "suggests": [
+        { "name": "RasterPropMonitor" },
+        { "name": "Toolbar" }
+    ]
+}
