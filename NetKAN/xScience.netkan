@@ -10,7 +10,7 @@
 	},
     "install": [
         {
-            "find": "GameData/[x] Science!",
+            "file": "GameData/[x] Science!",
             "install_to": "GameData"
         }
     ]
