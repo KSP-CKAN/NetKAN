@@ -2,6 +2,7 @@
     "spec_version" : "v1.4",
     "identifier"   : "KerboKatzSmallUtilities-FPSViewer",
     "$kref"        : "#/ckan/spacedock/85",
+    "name"         : "KerboKatz - SmallUtilities - FPSViewer",
     "license"      : "restricted",
     "depends": [
         { "name": "KerboKatzUtilities", "min_version": "1.2.6" }
