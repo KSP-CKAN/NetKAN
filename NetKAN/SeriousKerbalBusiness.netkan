@@ -3,6 +3,9 @@
     "identifier"   : "SeriousKerbalBusiness",
     "$kref"        : "#/ckan/spacedock/76",
     "license"      : "BSD-3-clause",
+    "resources"    : {
+        "homepage" : "http://forum.kerbalspaceprogram.com/index.php?/topic/87783-105-serious-kerbal-business"
+    },
     "install": [
         {
             "file": "SeriousBusiness",
