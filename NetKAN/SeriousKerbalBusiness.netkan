@@ -1,9 +1,8 @@
 {
     "spec_version" : 1,
     "identifier"   : "SeriousKerbalBusiness",
-    "$kref"        : "#/ckan/kerbalstuff/274",
+    "$kref"        : "#/ckan/spacedock/76",
     "license"      : "BSD-3-clause",
-    "x_netkan_license_ok": true,
     "install": [
         {
             "file": "SeriousBusiness",
