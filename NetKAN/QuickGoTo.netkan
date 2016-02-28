@@ -2,6 +2,7 @@
     "spec_version" : 1,
     "identifier"   : "QuickGoTo",
     "$kref"        : "#/ckan/spacedock/102",
+    "$vref"        : "#/ckan/ksp-avc",
     "license"      : "GPL-3.0",
     "install": [
         {

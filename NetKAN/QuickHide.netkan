@@ -2,6 +2,7 @@
     "spec_version" : 1,
     "identifier"   : "QuickHide",
     "$kref"        : "#/ckan/spacedock/106",
+    "$vref"        : "#/ckan/ksp-avc",
     "license"      : "GPL-3.0",
     "install": [
         {

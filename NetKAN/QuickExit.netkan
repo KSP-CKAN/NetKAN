@@ -2,6 +2,7 @@
     "spec_version" : 1,
     "identifier"   : "QuickExit",
     "$kref"        : "#/ckan/spacedock/105",
+    "$vref"        : "#/ckan/ksp-avc",
     "license"      : "GPL-3.0",
     "install": [
         {
