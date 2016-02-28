@@ -9,5 +9,8 @@
             "file"       : "GameData/QuickGoTo",
             "install_to" : "GameData"
         }
+    ],
+    "suggests": [
+        { "name": "Toolbar" }
     ]
 }
