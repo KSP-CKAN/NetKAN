@@ -5,7 +5,7 @@
     "license"      : "GPL-3.0",
     "install": [
         {
-            "find"       : "GameData/QuickIVA",
+            "file"       : "GameData/QuickIVA",
             "install_to" : "GameData"
         }
     ],

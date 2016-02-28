@@ -5,7 +5,7 @@
     "license"      : "GPL-3.0",
     "install": [
         {
-            "find"       : "GameData/QuickMute",
+            "file"       : "GameData/QuickMute",
             "install_to" : "GameData"
         }
     ],

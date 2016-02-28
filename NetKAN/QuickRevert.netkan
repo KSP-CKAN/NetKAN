@@ -5,7 +5,7 @@
     "license"      : "GPL-3.0",
     "install": [
         {
-            "find"       : "GameData/QuickRevert",
+            "file"       : "GameData/QuickRevert",
             "install_to" : "GameData"
         }
     ],
