@@ -1,7 +1,7 @@
 {
     "spec_version" : 1,
     "identifier"   : "TweakableEverything",
-    "$kref"        : "#/ckan/kerbalstuff/255",
+    "$kref"        : "#/ckan/spacedock/287",
     "license"      : "BSD-3-clause",
     "install": [
         {
@@ -12,10 +12,6 @@
     "depends": [
         { "name": "ModuleManager" },
         { "name": "ToadicusTools" },
-    { "name": "EVAManager" }
-    ],
-    "recommends": [
-        { "name": "TweakableEverything-EngineStagingToggle" },
-        { "name": "TweakableEverything-FairingStagingToggle" }
+        { "name": "EVAManager" }
     ]
 }
