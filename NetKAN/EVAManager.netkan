@@ -1,0 +1,15 @@
+{
+    "spec_version": 1,
+    "$kref": "#/ckan/spacedock/290",
+    "license": "BSD-3-clause",
+    "identifier": "EVAManager",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/109071-/"
+    },
+    "install": [
+        {
+            "file" : "GameData/EVAManager",
+            "install_to" : "GameData"
+        }
+    ]
+}

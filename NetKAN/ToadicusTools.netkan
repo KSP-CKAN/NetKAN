@@ -1,8 +1,8 @@
 {
     "spec_version"  : "v1.4",
     "identifier"    : "ToadicusTools",
-    "$kref"         : "#/ckan/kerbalstuff/470",
-    "license"       : "BSD-2-clause",
+    "$kref"         : "#/ckan/spacedock/289",
+    "license"       : "BSD-3-clause",
     "install"       : [
         {
             "file"  : "GameData/ToadicusTools",
