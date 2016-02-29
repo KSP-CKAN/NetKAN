@@ -3,15 +3,18 @@
     "identifier": "SimpleNuclear-NFTBalanced",
     "$kref": "#/ckan/spacedock/275",
     "license": "CC-BY-NC-SA-4.0",
+    "provides": [
+        "SimpleNuclear-NearFuture"
+    ],
+    "conflicts": [
+        { "name": "SimpleNuclear-NearFuture" }
+    ],
     "depends": [
         { "name": "SimpleNuclear" }
     ],
     "recommends": [
         { "name": "NearFutureElectrical" },
         { "name": "NearFuturePropulsion" }
-    ],
-    "conflicts": [
-        { "name": "SimpleNuclear-NFT" }
     ],
     "install": [
         {
