@@ -1,0 +1,16 @@
+{
+    "spec_version" : "v1.4",
+    "identifier"   : "RecoverAll",
+    "$kref"        : "#/ckan/spacedock/84",
+    "$vref"        : "#/ckan/ksp-avc",
+    "license"      : "restricted",
+    "depends": [
+        { "name": "KerboKatzUtilities", "min_version": "1.2.0" }
+    ],
+    "install": [
+        {
+            "find"       : "RecoverAll",
+            "install_to" : "GameData/KerboKatz"
+        }
+    ]
+}
