@@ -14,5 +14,13 @@
             "file": "GameData/[x] Science!",
             "install_to": "GameData"
         }
+    ],
+    "x_netkan_override": [
+        {
+            "version": "4.14",
+            "override": {
+                "download": "https://themoose.co.uk/ksp/x-science-v4.14.zip"
+            }
+        }
     ]
 }
