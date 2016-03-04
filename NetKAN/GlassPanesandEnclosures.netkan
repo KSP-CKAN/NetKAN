@@ -7,6 +7,9 @@
     "resources" : {
         "homepage"     : "http://forum.kerbalspaceprogram.com/index.php?/topic/106633-105-glass-panes-and-enclosures"
     },
+    "depends": [
+        { "name": "ModuleManager" }
+    ],
     "install"   :   [ 
         { 
             "find" : "GlassThings",
