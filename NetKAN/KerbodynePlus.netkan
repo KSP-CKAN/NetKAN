@@ -1,11 +1,11 @@
 {
-    "$kref": "#/ckan/kerbalstuff/1437",
+    "$kref": "#/ckan/spacedock/300",
     "identifier": "KerbodynePlus",
     "spec_version": "v1.4",
     "license": "CC-BY-NC-SA-3.0",
     "resources": {
-        "repository": "https://github.com/bonus-eventus/kerbodynePlus",
-        "x_screenshot": "https://kerbalstuff.com/content/BonusEventus_11562/Kerbodyne_Plus/Kerbodyne_Plus-1453861859.7761555.png"
+        "homepage"  : "http://forum.kerbalspaceprogram.com/index.php?/topic/130809-105-kerbodyne-plus",
+        "repository": "https://github.com/bonus-eventus/kerbodynePlus"
     },
     "conflicts": [
         { "name": "KerbodynePlus01Alpha" }
