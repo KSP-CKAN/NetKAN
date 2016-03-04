@@ -4,7 +4,8 @@
     "$kref": "#/ckan/spacedock/130",
     "license": "MIT",
     "depends": [
-        { "name": "ProgressParser" }
+        { "name": "ProgressParser" },
+		{ "name": "ContractParser" }
     ],
     "suggests": [
         { "name": "CapCom" },
@@ -12,8 +13,8 @@
     ],
     "install": [
         {
-            "file": "GameData/ContractsWindow",
-            "install_to": "GameData"
+            "file": "GameData/DMagicUtilities/ContractsWindow",
+            "install_to": "GameData/DMagicUtilities"
         }
     ]
 }

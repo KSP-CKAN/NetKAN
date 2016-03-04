@@ -10,8 +10,8 @@
 
         "install": [
         {
-            "file": "GameData/ProgressParser",
-            "install_to": "GameData"
+            "file": "GameData/DMagicUtilities/ProgressParser",
+            "install_to": "GameData/DMagicUtilities"
         }
     ]
 }
