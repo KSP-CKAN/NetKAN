@@ -1,0 +1,16 @@
+{
+    "spec_version": "v1.4",
+    "$kref": "#/ckan/spacedock/312",
+    "author": [ "2001kraft", "Nazari1382" ],
+    "license": "CC-BY",
+    "identifier": "GlassPanesandEnclosures",
+    "resources" : {
+        "homepage"     : "http://forum.kerbalspaceprogram.com/index.php?/topic/106633-105-glass-panes-and-enclosures"
+    },
+    "install"   :   [ 
+        { 
+            "find" : "GlassThings",
+            "install_to" : "GameData"
+        }
+    ]
+}
