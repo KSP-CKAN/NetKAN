@@ -1,8 +1,7 @@
 {
     "spec_version": 1,
     "identifier": "WildBlueTools",
-    "$kref": "#/ckan/kerbalstuff/947",
-    "$vref": "#/ckan/ksp-avc",
+    "$kref": "#/ckan/github/Angel-125/WildBlueTools",
     "license": "CC-BY-NC-SA-4.0",
     "depends": [
         { "name": "CommunityResourcePack" }
