@@ -1,0 +1,36 @@
+{
+    "spec_version"  : "v1.4",
+    "identifier"    : "RN-SovietSpacecraft",
+    "name"          : "Salyut Stations",
+    "author"        : "Raidernick",
+    "abstract"      : "Soviet spacecraft pack that contains Soyuz 7K-T, 7K-OKA, 7K-OKP 7K-T-AF and Progress 7K-TG, and Vostok/Voskhod spacecraft, and TKS/VA",
+    "comment"       : "Ships explicitly not installed by author request (he no longer maintains them)",
+    "resources": {
+        "homepage"  : "https://github.com/KSP-RO/SovietSpacecraft"
+    },
+    "$kref"         : "#/ckan/github/KSP-RO/SovietSpacecraft",
+    "license"       : "CC-BY-NC-ND-3.0",
+    "ksp_version"   : "1.0.5",
+    "install"       : [
+    {
+        "find"      : "RN_Soyuz",
+        "install_to": "GameData"
+    },
+    {
+        "file"      : "Gamedata/RN_FAR_overrides_soyuz.cfg",
+        "install_to": "GameData"
+    }],
+    "depends"       : [
+        { "name"      : "FirespitterCore"  },
+		{ "name"      : "KOSMOS-SSPP"  },
+        { "name"      : "ReflectionPlugin" },
+		{ "name"      : "SovietPackCore" }
+    ],
+    "recommends"    : [
+	{
+        "name"      : "RN-SalyutStations"
+    },
+    {
+        "name"      : "RN-SovietRockets"
+    }]
+}

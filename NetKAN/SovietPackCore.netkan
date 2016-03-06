@@ -6,9 +6,9 @@
     "abstract"      : "Core plugins needed by several packs.",
     "comment"       : "Ships explicitly not installed by author request (he no longer maintains them)",
     "resources": {
-        "homepage"  : "https://github.com/KSP-RO/SalyutStations-SoyuzFerries"
+        "homepage"  : "https://github.com/KSP-RO/SovietSpacecraft"
     },
-    "$kref"         : "#/ckan/github/KSP-RO/SalyutStations-SoyuzFerries",
+    "$kref"         : "#/ckan/github/KSP-RO/SovietSpacecraft",
     "license"       : "CC-BY-NC-ND-3.0",
     "ksp_version"   : "1.0",
     "install"       : [
