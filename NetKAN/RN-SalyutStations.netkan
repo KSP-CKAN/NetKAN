@@ -20,7 +20,10 @@
         "file"      : "Gamedata/RN_FAR_overrides_salyut.cfg",
         "install_to": "GameData"
     }],
-    "depends"       : [
+	"conflicts"     : [
+		{ "name	    : "RN-SalyutStations-SoyuzFerries" }
+	],
+    "depends"         : [
         { "name"      : "FirespitterCore"  },
 		{ "name"      : "KOSMOS-SSPP"  },
         { "name"      : "ReflectionPlugin" }
