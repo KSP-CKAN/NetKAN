@@ -12,7 +12,7 @@
     ],
     "install" : [
         {
-            "file" : "GameData/KOSMOS",
+            "find" : "KOSMOS",
             "install_to" : "GameData"
         }
     ]
