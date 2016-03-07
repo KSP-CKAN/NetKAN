@@ -5,6 +5,7 @@
     "author"        : "Bobcat",
     "abstract"      : "Core plugins needed by several packs.",
     "comment"       : "Ships explicitly not installed by author request (he no longer maintains them)",
+	"x_netkan_epoch": "1",
     "resources": {
         "homepage"  : "https://github.com/KSP-RO/SovietSpacecraft"
     },
