@@ -25,7 +25,6 @@
         { "name"      : "ReflectionPlugin" }
     ],
     "recommends"    : [
-    {
-        "name"      : "RN-SovietRockets"
-    }]
+        { "name"      : "RN-SovietRockets" }
+    ]
 }

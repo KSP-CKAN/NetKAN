@@ -20,18 +20,15 @@
         "file"      : "Gamedata/RN_FAR_overrides_salyut.cfg",
         "install_to": "GameData"
     }],
-	"conflicts"     : [
-		{ "name"	    : "RN-SalyutStations-SoyuzFerries" }
-	],
-    "depends"         : [
+    "conflicts"     : [
+        { "name"    : "RN-SalyutStations-SoyuzFerries" }
+    ],
+    "depends"       : [
         { "name"      : "FirespitterCore"  },
         { "name"      : "ReflectionPlugin" }
     ],
     "recommends"    : [
-	{
-        "name"      : "RN-SovietSpacecraft"
-    },
-    {
-        "name"      : "RN-SovietRockets"
-    }]
+        { "name"      : "RN-SovietSpacecraft" },
+        { "name"      : "RN-SovietRockets" }
+    ]
 }
