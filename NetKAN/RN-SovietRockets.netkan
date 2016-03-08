@@ -1,11 +1,11 @@
 {
     "spec_version"  : "v1.4",
     "identifier"    : "RN-SovietRockets",
-    "name"          : "Soviet Rockets",
+    "name"          : "Soviet Rockets - R7/Proton/Zenit Rockets",
     "author"        : "Raidernick",
     "abstract"      : "This mod contains my rockets that were originally part of the Soviet Probes mod. I split them off into their own mod for people who only want to use the rockets.",
     "resources": {
-        "homepage"  : "https://github.com/KSP-RO/SovietRockets"
+        "homepage"  : "http://forum.kerbalspaceprogram.com/threads/88045"
     },
     "$kref"         : "#/ckan/github/KSP-RO/SovietRockets",
     "license"       : "CC-BY-NC-ND-3.0",
