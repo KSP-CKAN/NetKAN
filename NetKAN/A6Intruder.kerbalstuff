@@ -1,0 +1,21 @@
+{
+    "spec_version": "v1.4",
+    "$kref": "#/ckan/kerbalstuff/1243",
+    "identifier": "A6Intruder",
+    "license": "WTFPL",
+    "depends": [
+        { "name": "FirespitterCore" },
+        { "name": "BahamutoDynamicsPartsPack"}
+    ],
+    "recommends": [
+        { "name": "BDArmory" },
+        { "name": "AdjustableLandingGear"}
+    ],
+    "install": [
+        {
+            "find"       : "A6Intruder",
+            "install_to" : "GameData/Skunk_Works",
+            "filter"     : [ "Thumbs.db" ]
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "spec_version" : 1,
+    "identifier"   : "PalverZ-Recycler",
+    "$kref"        : "#/ckan/kerbalstuff/1432",
+    "ksp_version"  : "1.0.5",
+    "license"      : "CC-BY-NC-SA-4.0",
+    "install": [
+        {
+            "file"       : "GameData/PalverZ",
+            "install_to" : "GameData",
+            "comment"    : "This is hard to work with"
+        }
+    ]
+}

@@ -7,13 +7,21 @@
     "abstract"     : "This mod will add a Kerbal analogue to the Pluto-Charon system.",
     "license"      : "CC-BY-NC-SA-4.0",
     "author"       : "Sigma88",
-    "depends": [
-        { "name": "ModuleManager" },
-        { "name": "Kopernicus", "version": "1:beta-04" }
-    ],
     "resources": {
         "homepage": "http://forum.kerbalspaceprogram.com/threads/112095"
     },
+    "depends": [
+        { "name": "ModuleManager" },
+        { "name": "Kopernicus", "min_version": "1:beta-05-2" }
+    ],
+    "recommends": [
+        { "name": "SigmaBinary-core" }
+    ],
+    "conflicts": [
+        { "name": "BilliardsPlanetPack" },
+        { "name": "RealSolarSystem" },
+        { "name": "ToySolarSystem" }
+    ],
     "install": [
         {
             "find": "PluronKhato",

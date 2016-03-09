@@ -1,13 +1,17 @@
 {
     "spec_version": "v1.2",
     "identifier": "Pathfinder",
-    "$kref": "#/ckan/kerbalstuff/933",
+    "$kref": "#/ckan/spacedock/336",
     "$vref": "#/ckan/ksp-avc",
-    "x_netkan_license_ok": true,
+    "license": "CC-BY-NC-SA-4.0",
     "depends" : [
         { "name": "CommunityResourcePack", "min_version": "0.4.2" },
         { "name": "WildBlueTools", "min_version": "1.0.4" },
         { "name": "ModuleManager", "min_version": "2.6.5" }
+    ],
+    "recommends" : [
+        { "name": "KAS" },
+        { "name": "KIS" }
     ],
     "x_netkan_override": [
     {

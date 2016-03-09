@@ -1,20 +1,13 @@
 {
     "spec_version" : "v1.4",
-    "$kref"        : "#/ckan/kerbalstuff/600",
     "identifier"   : "KerboKatzUtilities",
+    "$kref"        : "#/ckan/spacedock/81",
+    "$vref"        : "#/ckan/ksp-avc",
     "license"      : "restricted",
     "install" : [
         {
-            "file"       : "GameData/KerboKatz/Textures",
-            "install_to" : "GameData/KerboKatz"
-        },
-		{
-			"file": "GameData/KerboKatz/KerboKatzUtilities.dll",
-			"install_to": "GameData/KerboKatz"
-		},
-		{
-			"file": "GameData/KerboKatz/KerboKatzUtilities.version",
-			"install_to": "GameData/KerboKatz"
-		}
+            "find"       : "KerboKatz",
+            "install_to" : "GameData"
+        }
     ]
 }

@@ -1,13 +1,20 @@
 {
-    "spec_version"   : 1,
-    "identifier"     : "QuickRevert",
-    "$kref"          : "#/ckan/kerbalstuff/237",
-    "license"        : "GPL-3.0",
-    "resources": {
-    	"homepage": 	"http://forum.kerbalspaceprogram.com/threads/95168#QuickRevert",
-    	"repository": 	"https://github.com/malahx/QuickRevert"
-    },
-    "conflicts"      : [
-        { "name" : "SRL" }
+    "spec_version" : 1,
+    "identifier"   : "QuickRevert",
+    "$kref"        : "#/ckan/spacedock/109",
+    "$vref"        : "#/ckan/ksp-avc",
+    "license"      : "GPL-3.0",
+    "install": [
+        {
+            "file"       : "GameData/QuickRevert",
+            "install_to" : "GameData"
+        }
+    ],
+    "conflicts": [
+        { "name": "SRL" }
+    ],
+    
+    "suggests": [
+        { "name": "Toolbar" }
     ]
 }

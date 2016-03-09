@@ -1,22 +1,31 @@
+
 {
-    "spec_version": "v1.4",
-    "license": "LGPL-3.0",
-    "$kref": "#/ckan/kerbalstuff/1000",
-    "identifier": "Asclepius",
+    "spec_version"  : "v1.4",
+    "identifier"    : "Asclepius",
+    "$kref"         : "#/ckan/github/MrChumley/Asclepius",
+    "x_netkan_epoch": "1",
+    "name"          : "Asclepius",
+    "abstract"      : "Asclepius a Kopernicus planet SSTO playground",
+    "license"       : "CC0",
+    "author": [
+        "MrChumley"
+    ],
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/113949-105-asclepius-a-kopernicus-planet-ssto-playground/"
+    },
+    "ksp_version": "1.0.5",
     "depends": [
-        { "name": "ModuleManager" },
-        { "name": "Kopernicus", "min_version": "1:beta-05-2" }
+        { "name" : "ModuleManager", "min_version": "2.6.13" },
+        { "name" : "Kopernicus", "min_version": "1:beta-05-2" }
     ],
-    "suggests": [
-        { "name": "Asclepius-clouds" }
-    ],
-    "conflicts": [
-        { "name": "RealSolarSystem" }
+    "recommends": [
+        { "name": "Asclepius-clouds" },
+        { "name": "ContractConfigurator-Asclepius"}
     ],
     "install": [
         {
-            "find"       : "Asclepius",
-            "install_to" : "GameData"
+            "find"      : "Asclepius",
+            "install_to": "GameData"
         }
     ]
 }

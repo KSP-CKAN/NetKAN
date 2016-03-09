@@ -1,20 +1,20 @@
 {
-    "spec_version" 	: 1,
-    "identifier"   	: "notes",
-    "$kref"        	: "#/ckan/kerbalstuff/74",
-    "license"		: "GPL-3.0",
-	
-    "resources"    	: {
-        "homepage" 	: "http://forum.kerbalspaceprogram.com/threads/55625"
+    "spec_version"  : 1,
+    "identifier"    : "notes",
+    "$kref"         : "#/ckan/spacedock/77",
+    "license"       : "GPL-3.0",
+
+    "resources"     : {
+        "homepage"  : "http://forum.kerbalspaceprogram.com/threads/55625"
     },
     "x_netkan_override" : [
-		{
-			"version" : "0.10.1",
-			"delete" : [ "ksp_version" ],
-			"override" : {
-				"ksp_version_min" : "1.0.2",
-				"ksp_version_max" : "1.0.4"
-			}
-		}
+        {
+            "version" : "0.10.1",
+            "delete" : [ "ksp_version" ],
+            "override" : {
+                "ksp_version_min" : "1.0.2",
+                "ksp_version_max" : "1.0.4"
+            }
+        }
     ]
 }

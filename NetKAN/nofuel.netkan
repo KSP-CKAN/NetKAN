@@ -1,0 +1,23 @@
+{
+    "spec_version"   : 1,
+    "identifier"     : "nofuel",
+    "name"           : "NoFuel",
+    "abstract"       : "Defuels all tanks to add an extra dimension to gameplay, the player is encouraged to build infrastructure to fuel their space program.",
+    "$kref"          : "#/ckan/github/leocadle/nofuel",
+    "ksp_version"    : "1.0.5",
+    "license"        : "CC-BY-4.0",
+    "author"         : "Selfish Meme",
+    "resources"      : {
+        "homepage"   : "http://forum.kerbalspaceprogram.com/index.php?/topic/130365-105-nofuel-all-tanks-defueled"
+    },
+    "install": [
+        {
+            "file": "nofuel",
+            "install_to": "GameData",
+            "filter": ".DS_Store"
+        }
+    ],
+    "depends": [
+        { "name": "ModuleManager" }
+    ]
+}

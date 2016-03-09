@@ -1,9 +1,17 @@
 {
-    "identifier": "KerboKatzSmallUtilities-AutoBalancingLandingLeg",
-    "spec_version": "v1.4",
-    "$kref": "#/ckan/kerbalstuff/893",
-    "license": "restricted",
-	"depends"	:	[ { "name" :	"KerboKatzUtilities" } ],
-	"install"	:	[ { "find"	:	"AutoBalancingLandingLeg",
-					"install_to" :	"GameData/KerboKatz/SmallUtilities" } ]
+    "spec_version" : "v1.4",
+    "identifier"   : "KerboKatzSmallUtilities-AutoBalancingLandingLeg",
+    "$kref"        : "#/ckan/spacedock/85",
+    "name"         : "KerboKatz - SmallUtilities - AutoBalancingLandingLeg",
+    "license"      : "restricted",
+    "depends": [
+        { "name": "ModuleManager" },
+        { "name": "KerboKatzUtilities", "min_version": "1.2.6" }
+    ],
+    "install": [
+        {
+            "find"       : "AutoBalancingLandingLeg",
+            "install_to" : "GameData/KerboKatz/SmallUtilities"
+        }
+    ]
 }

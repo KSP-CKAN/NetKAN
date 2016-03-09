@@ -1,22 +1,16 @@
 {
-    "$kref": "#/ckan/kerbalstuff/646",
     "spec_version": 1,
     "identifier": "ContractRewardModifier",
-    "x_via": "Automated KerbalStuff CKAN submission",
+    "$kref": "#/ckan/spacedock/132",
     "license": "MIT",
-	
-	"install": [
-		{
-			"file": "GameData/ContractRewardModifier",
-			"install_to": "GameData"
-		}
-	],
-	"suggests": [
-	{
-	  "name": "CapCom"
-	},
-	{
-	  "name": "ContractsWindowPlus"
-	}
-	]
+    "suggests": [
+        { "name": "CapCom" },
+        { "name": "ContractsWindowPlus" }
+    ],
+    "install": [
+        {
+            "file": "GameData/ContractRewardModifier",
+            "install_to": "GameData"
+        }
+    ]
 }

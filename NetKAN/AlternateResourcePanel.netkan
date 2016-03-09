@@ -1,25 +1,24 @@
 {
     "spec_version"   : "v1.4",
-    "$kref"          : "#/ckan/kerbalstuff/195",
+    "$kref"          : "#/ckan/github/TriggerAu/AlternateResourcePanel",
     "$vref"          : "#/ckan/ksp-avc",
     "name"           : "Alternate Resource Panel",
     "identifier"     : "AlternateResourcePanel",
     "abstract"       : "An alternate view of vessel resources plugin for Kerbal Space Program",
     "license"        : "MIT",
-	"release_status": "stable",
-	"author": "TriggerAu",
-	"resources": {
-		"homepage": "http://forum.kerbalspaceprogram.com/threads/60227",
-		"license": "https://github.com/TriggerAu/AlternateResourcePanel/blob/master/LICENSE",
-		"repository"   : "https://github.com/TriggerAu/AlternateResourcePanel",
-		"kerbalstuff": "https://kerbalstuff.com/mod/195/Alternate%20Resource%20Panel",
-		"manual": "https://sites.google.com/site/kspalternateresourcepanel/",
-		"x_curse": "http://kerbal.curseforge.com/ksp-mods/220649-alternate-resource-panel"
-	},
+    "release_status": "stable",
+    "author": "TriggerAu",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/60227",
+        "license": "https://github.com/TriggerAu/AlternateResourcePanel/blob/master/LICENSE",
+        "repository"   : "https://github.com/TriggerAu/AlternateResourcePanel",
+        "manual": "https://sites.google.com/site/kspalternateresourcepanel/",
+        "x_curse": "http://kerbal.curseforge.com/ksp-mods/220649-alternate-resource-panel"
+    },
     "suggests" :[
         { "name" : "Olympic1ARPIcons" }
     ],
-	"install" :[
+    "install" :[
     {
         "find"       : "KSPAlternateResourcePanel",
         "install_to" : "GameData/TriggerTech"

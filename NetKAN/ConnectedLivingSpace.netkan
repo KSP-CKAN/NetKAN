@@ -1,10 +1,9 @@
 {
-	"spec_version"	: 1,
-	"identifier"	: "ConnectedLivingSpace",
-	"$kref"			: "#/ckan/kerbalstuff/11",
-	"license"		: "CC-BY-NC-SA-4.0",
-	
-	"depends" : [
-		{ "name" : "ModuleManager" }
-	]
+    "spec_version": 1,
+    "identifier": "ConnectedLivingSpace",
+    "$kref": "#/ckan/spacedock/190",
+    "license": "CC-BY-NC-SA-4.0",
+    "depends": [
+        { "name": "ModuleManager" }
+    ]
 }

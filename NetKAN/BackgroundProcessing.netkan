@@ -1,12 +1,23 @@
 {
-    "spec_version" : 1,
+    "spec_version" : "v1.10",
     "identifier"   : "BackgroundProcessing",
-    "$kref"        : "#/ckan/kerbalstuff/302",
-    "x_netkan_license_ok" : true,
+    "$kref"        : "#/ckan/spacedock/288",
+    "license"      : "MIT",
     "install": [
         {
-            "file"      : "BackgroundProcessing-0.4.1.0.dll",
+            "find_regexp": "BackgroundProcessing.*\\.dll$",
+            "find_matches_files": true,
             "install_to": "GameData"
+        }
+    ],
+    "x_netkan_override" : [
+        {
+            "version" : "0.4.1.0",
+            "delete" : [ "ksp_version" ],
+            "override" : {
+                "ksp_version_min" : "1.0.2",
+                "ksp_version_max" : "1.0.5"
+            }
         }
     ]
 }

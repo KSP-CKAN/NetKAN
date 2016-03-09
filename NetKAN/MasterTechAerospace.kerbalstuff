@@ -1,0 +1,19 @@
+{
+    "spec_version": "v1.4",
+    "$kref": "#/ckan/kerbalstuff/1079",
+    "license": "CC-BY-SA-2.0",
+    "identifier": "MasterTechAerospace",
+    "depends": [
+        { "name": "ModuleManager" },
+        { "name": "QuizTechAeroPack" }
+    ],
+    "suggests": [
+        { "name": "RasterPropMonitor" }
+    ],
+    "install": [
+        {
+            "find"       : "MTA Stock-a-like",
+            "install_to" : "GameData"
+        }
+    ]
+}

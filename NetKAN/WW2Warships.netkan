@@ -1,0 +1,24 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "WW2Warships",
+    "$kref": "#/ckan/spacedock/232",
+    "license": "CC-BY-SA-3.0",
+    "depends": [
+        { "name": "BDArmory" },
+        { "name": "NAS" }
+    ],
+    "recommends": [
+        { "name": "KerbalJointReinforcement" }
+    ],
+    "suggests": [
+        { "name": "HyperEdit" },
+        { "name": "HangarExtender" },
+        { "name": "KerboKatzSmallUtilities-PhysicalTimeRatioViewer" }
+    ],
+    "install": [
+        {
+            "find"       : "77Industries",
+            "install_to" : "GameData"
+        }
+    ]
+}

@@ -1,9 +1,8 @@
 {
     "spec_version" : 1,
     "identifier"   : "TMSTACLSRetexture",
-    "$kref"        : "#/ckan/kerbalstuff/28",
+    "$kref"        : "#/ckan/spacedock/206",
     "x_netkan_license_ok": true,
-    
     "depends": [
         { "name": "TACLS" },
         { "name": "ModuleManager" }

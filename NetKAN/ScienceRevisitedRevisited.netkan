@@ -1,10 +1,16 @@
 {
     "identifier": "ScienceRevisitedRevisited",
-    "x_via": "Automated KerbalStuff CKAN submission",
+    "author": [ "Zekew11", "CaptRobau" ],
     "spec_version": "v1.4",
-    "$kref": "#/ckan/kerbalstuff/617",
-    "license": "CC-BY-SA-2.0",
-	"install": [
-		{ "file": "GameData/Science_Revisited", "install_to": "GameData" }
-	]
+    "$kref": "#/ckan/spacedock/317",
+    "license": "CC-BY-NC-SA-2.0",
+    "depends": [
+        { "name": "ModuleManager" }
+    ],
+    "install": [
+        { 
+            "file": "GameData/Science_Revisited",
+            "install_to": "GameData" 
+        }
+    ]
 }

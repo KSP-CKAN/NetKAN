@@ -1,13 +1,12 @@
 {
     "spec_version": "v1.4",
     "license": "CC-BY-NC-SA-4.0",
-    "$kref": "#/ckan/kerbalstuff/920",
+    "$kref": "#/ckan/spacedock/98",
     "identifier": "Antennas",
     "install": [
         {
             "find"       : "GameData/PhantomAerospace",
-            "install_to" : "GameData",
-            "filter"     : "Thumbs.db"
+            "install_to" : "GameData"
         }
     ],
     "depends": [

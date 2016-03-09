@@ -7,16 +7,16 @@
     "abstract"     : "This mod will let you turn custom and/or stock bodies into binary systems, without the need to do all the calculations yourself.",
     "license"      : "CC-BY-NC-SA-4.0",
     "author"       : "Sigma88",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/127820"
+    },
     "depends": [
         { "name": "ModuleManager" },
-        { "name": "Kopernicus", "version": "1:beta-05-2" }
+        { "name": "Kopernicus", "min_version": "1:beta-05-2" }
     ],
     "suggests": [
         { "name": "SigmaBinary-DunaIke" }
     ],
-    "resources": {
-        "homepage": "http://forum.kerbalspaceprogram.com/threads/127820"
-    },
     "install": [
         {
             "find": "Binary",

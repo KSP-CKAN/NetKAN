@@ -1,0 +1,9 @@
+{
+    "spec_version"   : 1,
+    "identifier"     : "BetterBuoyancy",
+    "$kref"          : "#/ckan/kerbalstuff/464",
+    "license"        : "MIT",
+    "depends":  [
+        { "name" : "ModuleManager", "min_version": "2.6.6" }
+    ]
+}

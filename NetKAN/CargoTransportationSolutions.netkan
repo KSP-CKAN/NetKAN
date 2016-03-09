@@ -1,6 +1,6 @@
 {
     "spec_version"   : "v1.4",
-    "$kref"          : "#/ckan/kerbalstuff/1026",
+    "$kref"          : "#/ckan/spacedock/28",
     "$vref"          : "#/ckan/ksp-avc",
     "identifier"     : "CargoTransportationSolutions",
     "license"        : "CC-BY-SA-4.0",
@@ -20,6 +20,7 @@
         { "name" : "ExtraPlanetaryLaunchpads" },
         { "name" : "Karbonite" },
         { "name" : "KarbonitePlus" },
+        { "name" : "KaribouExpeditionRover" },
         { "name" : "UKS" },
         { "name" : "USI-EXP" },
         { "name" : "USI-LS" },

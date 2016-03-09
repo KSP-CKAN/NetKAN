@@ -1,6 +1,5 @@
 {
-    "$kref": "#/ckan/kerbalstuff/761",
-    "x_via": "Automated KerbalStuff CKAN submission",
+    "$kref": "#/ckan/spacedock/145",
     "identifier": "FogOfTech",
     "spec_version": 1,
     "license": "MIT",
@@ -9,6 +8,16 @@
             "file": "FogOfTech",
             "install_to": "GameData",
             "filter": "src.zip"
+        }
+    ],
+    "x_netkan_override" : [
+        {
+            "version" : "<=0.2",
+            "delete" : [ "ksp_version" ],
+            "override" : {
+                "ksp_version_min" : "1.0.2",
+                "ksp_version_max" : "1.0.5"
+            }
         }
     ]
 }

@@ -5,14 +5,19 @@
     "author"        : "Raidernick",
     "abstract"      : "This mod contains some obscure US rockets. I will be adding to it occasionally.",
     "resources": {
-        "homepage"  : "https://github.com/KSP-RO/USRockets"
+        "homepage"  : "http://forum.kerbalspaceprogram.com/index.php?/topic/98791-105"
     },
     "$kref"         : "#/ckan/github/KSP-RO/USRockets",
     "license"       : "CC-BY-NC-ND-3.0",
-    "ksp_version"   : "1.0",
+    "ksp_version"   : "1.0.5",
     "install"       : [
     {
         "find"      : "RN_US_Rockets",
         "install_to": "GameData"
-    }]
+    }],
+    "depends": [
+        { "name": "KlockheedMartian-Gimbal" },
+        { "name": "ReflectionPlugin" },
+        { "name": "SmokeScreen" }
+    ]
 }

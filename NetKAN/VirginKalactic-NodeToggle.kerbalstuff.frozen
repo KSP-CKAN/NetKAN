@@ -1,0 +1,26 @@
+{
+  "spec_version" : 1,
+  "identifier"   : "VirginKalactic-NodeToggle",
+  "name"         : "VirginKalactic NodeToggle",
+  "abstract"     : "Allows the user to toggle the availability of AttachNodes in the Editor individually",
+  "version"      : "1.6.2",
+  "author"       : "Greys",
+  "license"      : "unrestricted",
+  "$kref"        : "#/ckan/kerbalstuff/132",
+  "resources" : {
+    "repository" : "https://github.com/Greys0/Virgin-Kalactic",
+    "license"    : "https://raw.githubusercontent.com/Greys0/Virgin-Kalactic/VK_v1.6.1/GameData/Virgin%20Kalactic/Licenses/VirginGeneric.dll.License"
+  },
+  "depends" : [
+    { "name" : "ModuleManager", "min_version" : "2.6.13" }
+  ],
+  "conflicts" : [
+    { "name" : "VirginKalactic" }
+  ],
+  "install" : [
+    {
+      "file"       : "GameData/Virgin Kalactic",
+      "install_to" : "GameData"
+    }
+  ]
+}

@@ -1,13 +1,16 @@
 {
-    "$kref": "#/ckan/kerbalstuff/1232",
+    "$kref": "#/ckan/spacedock/211",
     "spec_version": "v1.4",
     "identifier": "KSAIVAUpgrade",
-    "license": "MIT",
+    "license": "CC-BY-SA-2.0",
     "depends": [
         { "name": "RasterPropMonitor" },
         { "name": "ASETProps" },
         { "name": "ASETAvionics" },
         { "name": "ModuleManager" }
+    ],
+    "recommends": [
+        { "name": "FerramAerospaceResearch" }
     ],
     "install": [
         {

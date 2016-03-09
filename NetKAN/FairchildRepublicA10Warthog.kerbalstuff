@@ -1,0 +1,21 @@
+{
+    "spec_version": "v1.4",
+    "$kref": "#/ckan/kerbalstuff/853",
+    "identifier": "FairchildRepublicA10Warthog",
+    "license": "WTFPL",
+    "depends": [
+        { "name": "FirespitterCore" },
+        { "name": "BahamutoDynamicsPartsPack"}
+    ],
+    "recommends": [
+        { "name": "BDArmory" },
+        { "name": "AdjustableLandingGear"}
+    ],
+    "install": [
+        {
+            "find"       : "A10C_Warthog_Plane",
+            "install_to" : "GameData/Skunk_Works",
+            "filter"     : "Thumbs.db"
+        }
+    ]
+}

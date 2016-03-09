@@ -1,18 +1,15 @@
 {
     "spec_version" : "v1.4",
     "identifier"   : "ThrottleControlledAvionics",
-    "$kref"        : "#/ckan/kerbalstuff/510",
+    "$kref"        : "#/ckan/spacedock/198",
     "$vref"        : "#/ckan/ksp-avc",
-    "x_netkan_license_ok": true,
-	
-    "resources": 
+    "license"      : "CC-BY-SA-4.0",
+    "resources":
     {
-		"bugtracker"   : "https://github.com/qfeys/ThrottleControlledAvionics/issues",
-		"repository"   : "https://github.com/qfeys/ThrottleControlledAvionics",
-		"kerbalstuff"  : "https://kerbalstuff.com/mod/510/Throttle%20Controlled%20Avionics%20-%20Continued"
-	},
-    
-    "suggests": 
+        "bugtracker"   : "https://github.com/qfeys/ThrottleControlledAvionics/issues",
+        "repository"   : "https://github.com/qfeys/ThrottleControlledAvionics"
+    },
+    "suggests":
     [
         { "name" : "KSP-AVC" },
         { "name" : "Toolbar" }

@@ -1,0 +1,13 @@
+{
+    "$kref": "#/ckan/spacedock/228",
+    "identifier": "WalkAbout",
+    "spec_version": "v1.4",
+    "license": "GPL-3.0",
+    "install": [
+        {
+            "find": "WalkAbout",
+            "install_to": "GameData",
+            "filter": "source"
+        }
+    ]
+}

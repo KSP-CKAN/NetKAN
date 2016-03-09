@@ -1,0 +1,15 @@
+{
+    "license": "restricted",
+    "$kref": "#/ckan/kerbalstuff/1404",
+    "spec_version": "v1.4",
+    "identifier": "KerbalTimer",
+    "resources": {
+        "homepage":"http://forum.kerbalspaceprogram.com/index.php?/topic/129879-kerbal-timer"
+    },
+    "install": [
+        {
+            "find": "KerbalTimer",
+            "install_to": "GameData"
+        }
+    ]
+}

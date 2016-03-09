@@ -3,9 +3,9 @@
     "identifier"   : "ExtensiveEngineerReport",
     "$kref"        : "#/ckan/github/jkoritzinsky/Extensive-Engineer-Report",
     "name"         : "Extensive Engineer Report",
-    "abstract"     : "Kerbal Space Program mod to add more extensive checks to the Engineers' Report in the VAB and SPH.",
+    "abstract"     : "Adds extensive checks in the VAB and SPH to your ship so you don't forget important stuff.",
     "license"      : "MIT",
-    "ksp_version"  : "1.0.4",
+    "ksp_version"  : "1.0.5",
     "resources": {
         "homepage": "https://github.com/jkoritzinsky/Extensive-Engineer-Report"
     },
@@ -14,5 +14,10 @@
             "file" : "Extensive Engineer Report",
             "install_to" : "GameData"
         }
+    ],
+    "depends": [
+        { "name": "ModuleManager"},
+        { "name": "ShipSections",
+      "min_version": "1.1"}
     ]
 }

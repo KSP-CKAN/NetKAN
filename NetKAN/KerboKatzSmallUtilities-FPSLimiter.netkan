@@ -1,9 +1,16 @@
 {
-    "identifier": "KerboKatzSmallUtilities-FPSLimiter",
-    "spec_version": "v1.4",
-    "$kref": "#/ckan/kerbalstuff/866",
-    "license": "restricted",
-	"depends"	:	[ { "name" :	"KerboKatzUtilities" } ],
-	"install"	:	[ { "find"	:	"FPSLimiter",
-					"install_to" :	"GameData/KerboKatz/SmallUtilities" } ]
+    "spec_version" : "v1.4",
+    "identifier"   : "KerboKatzSmallUtilities-FPSLimiter",
+    "$kref"        : "#/ckan/spacedock/85",
+    "name"         : "KerboKatz - SmallUtilities - FPSLimiter",
+    "license"      : "restricted",
+    "depends": [
+        { "name": "KerboKatzUtilities", "min_version": "1.2.6" }
+    ],
+    "install": [
+        {
+            "find"       : "FPSLimiter",
+            "install_to" : "GameData/KerboKatz/SmallUtilities"
+        }
+    ]
 }

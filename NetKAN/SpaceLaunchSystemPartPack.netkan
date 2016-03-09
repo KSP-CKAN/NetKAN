@@ -1,8 +1,17 @@
 {
     "spec_version": "v1.4",
     "identifier": "SpaceLaunchSystemPartPack",
-    "$kref": "#/ckan/kerbalstuff/1278",
-    "license": "MIT",
+    "$kref": "#/ckan/spacedock/325",
+    "license": "GPL-3.0",
+    "depends": [
+        { "name": "HangarExtender" },
+        { "name": "KerbalJointReinforcement" }
+    ],
+    "recommends": [
+        { "name": "AerojetKerbodyne" },
+        { "name": "SDHI-ServiceModuleSystem" },
+        { "name": "RandSCapsuledyne" }
+    ],
     "install": [
         {
             "find"       : "SpaceLaunchSystem",

@@ -1,0 +1,23 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "StrykersAerospaceandIVAs",
+    "$kref": "#/ckan/kerbalstuff/1289",
+    "license": "CC-BY-SA",
+    "depends": [
+        { "name": "RasterPropMonitor" },
+        { "name": "ASETProps" },
+        { "name": "ASETAvionics" },
+        { "name": "FirespitterCore" },
+        { "name": "BDArmory" }
+    ],
+    "install": [
+        {
+            "find"       : "StrykerAerospace",
+            "install_to" : "GameData"
+        },
+        {
+            "find"       : "StrykerArmory",
+            "install_to" : "GameData"
+        }
+    ]
+}

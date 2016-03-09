@@ -1,0 +1,17 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "AlternisRealSolarSystem",
+    "$kref": "#/ckan/kerbalstuff/1214",
+    "license": "MIT",
+    "depends": [
+        { "name": "ModuleManager" },
+        { "name": "Kopernicus", "min_version": "1:beta-05-2" },
+        { "name": "RSSTextures" }
+    ],
+    "install": [
+        {
+            "find"       : "AlternisSolarSystem",
+            "install_to" : "GameData"
+        }
+    ]
+}

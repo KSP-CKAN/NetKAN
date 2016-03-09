@@ -1,0 +1,34 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "BilliardsPlanetPack",
+    "$kref": "#/ckan/kerbalstuff/1239",
+    "license": "MIT",
+    "depends": [
+        { "name": "ModuleManager" },
+        { "name": "Kopernicus", "min_version": "1:beta-05-2" }
+    ],
+    "conflicts": [
+        { "name": "AlternisKerbolRekerjiggered" },
+        { "name": "Asclepius" },
+        { "name": "KPlus" },
+        { "name": "NewHorizons" },
+        { "name": "OtherWorlds" },
+        { "name": "OuterPlanetsMod" },
+        { "name": "RealSolarSystem" },
+        { "name": "SaruPlanetPack" },
+        { "name": "SigmaBinary-core" },
+        { "name": "SigmaJoolRecolor" },
+        { "name": "SigmaPluronKhato" },
+        { "name": "SigmaStockRecolor" },
+        { "name": "SmallSolarSystem" },
+        { "name": "ToySolarSystem" },
+        { "name": "UnchartedLands" },
+        { "name": "WinterKerbol" }
+    ],
+    "install": [
+        {
+            "find"       : "BilliardSolarSystem",
+            "install_to" : "GameData"
+        }
+    ]
+}

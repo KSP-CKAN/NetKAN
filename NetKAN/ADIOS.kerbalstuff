@@ -1,0 +1,19 @@
+{
+    "spec_version": 1,
+    "identifier": "ADIOS",
+    "$kref": "#/ckan/kerbalstuff/545",
+    "license": "GPL-3.0",
+    "ksp_version": "0.90",
+
+    "depends": [
+        { "name": "ContractConfigurator" },
+        { "name": "TechManager" }
+    ],
+
+    "install": [
+        {
+            "file": "GameData/ADIOS",
+            "install_to": "GameData"
+        }
+    ]
+}

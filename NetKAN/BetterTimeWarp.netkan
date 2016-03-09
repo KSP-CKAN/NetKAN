@@ -1,7 +1,14 @@
 {
-    "$kref": "#/ckan/kerbalstuff/770",
-    "x_via": "Automated KerbalStuff CKAN submission",
-    "identifier": "BetterTimeWarp",
-    "spec_version": 1,
-    "license": "CC-BY-4.0"
+    "spec_version" : 1,
+    "identifier"   : "BetterTimeWarp",
+    "$kref"        : "#/ckan/github/HappyFaceIndustries/BetterTimeWarp/asset_match/BetterTimeWarp(.*).zip",
+    "name"         : "BetterTimeWarp",
+    "author"       : "MrHappyFace",
+    "abstract"     : "BetterTimeWarp allows you to customize your time warp",
+    "license"      : "GPL-3.0",
+    "ksp_version"  : "1.0.5",
+
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/77565-BetterTimeWarp"
+    }
 }

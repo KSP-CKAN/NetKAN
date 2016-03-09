@@ -1,9 +1,17 @@
 {
-    "identifier": "KerboKatzSmallUtilities-Afterburner",
-    "spec_version": "v1.4",
-    "$kref": "#/ckan/kerbalstuff/862",
-    "license": "restricted",
-	"depends"	:	[ { "name" :	"KerboKatzUtilities" } ],
-	"install"	:	[ { "find"	:	"Afterburner",
-					"install_to" :	"GameData/KerboKatz/SmallUtilities" } ]
+    "spec_version" : "v1.4",
+    "identifier"   : "KerboKatzSmallUtilities-Afterburner",
+    "$kref"        : "#/ckan/spacedock/85",
+    "name"         : "KerboKatz - SmallUtilities - Afterburner",
+    "license"      : "restricted",
+    "depends": [
+        { "name": "ModuleManager" },
+        { "name": "KerboKatzUtilities", "min_version": "1.2.6" }
+    ],
+    "install": [
+        {
+            "find"       : "Afterburner",
+            "install_to" : "GameData/KerboKatz/SmallUtilities"
+        }
+    ]
 }

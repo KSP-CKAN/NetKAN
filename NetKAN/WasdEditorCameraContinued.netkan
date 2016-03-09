@@ -1,11 +1,11 @@
 {
     "spec_version"   : "v1.4",
     "identifier"     : "WasdEditorCameraContinued",
-    "$kref"          : "#/ckan/kerbalstuff/1157",
+    "$kref"          : "#/ckan/spacedock/56",
     "$vref"          : "#/ckan/ksp-avc",
     "license"        : "MIT",
     "resources" : {
-        "kerbalstuff" : "https://kerbalstuff.com/mod/1157/WASDEditorCameraContinued",
+        "homepage"    : "http://forum.kerbalspaceprogram.com/index.php?/topic/121386-/",
         "repository"  : "https://github.com/linuxgurugamer/WasdEditorCameraContinued"
     },
     "conflicts" : [

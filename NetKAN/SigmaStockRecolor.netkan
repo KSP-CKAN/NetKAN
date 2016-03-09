@@ -7,13 +7,19 @@
     "abstract"     : "This mod changes the color of Eve to make it more similar to Venus.",
     "license"      : "CC-BY-NC-SA-4.0",
     "author"       : "Sigma88",
-    "depends": [
-        { "name": "ModuleManager" },
-        { "name": "Kopernicus", "version": "1:beta-04" }
-    ],
     "resources": {
         "homepage": "http://forum.kerbalspaceprogram.com/threads/112095"
     },
+    "depends": [
+        { "name": "ModuleManager" },
+        { "name": "Kopernicus", "min_version": "1:beta-05-2" }
+    ],
+    "conflicts": [
+        { "name": "BilliardsPlanetPack" },
+        { "name": "NewHorizons" },
+        { "name": "RealSolarSystem" },
+        { "name": "ToySolarSystem" }
+    ],
     "install": [
         {
             "find": "EveRecolor",

@@ -1,0 +1,21 @@
+{
+    "spec_version": "v1.4",
+    "$kref": "#/ckan/kerbalstuff/840",
+    "identifier": "F18ASuperHornet",
+    "license": "WTFPL",
+    "depends": [
+        { "name": "FirespitterCore" },
+        { "name": "BahamutoDynamicsPartsPack"}
+    ],
+    "recommends": [
+        { "name": "BDArmory" },
+        { "name": "AdjustableLandingGear"}
+    ],
+    "install": [
+        {
+            "find"       : "F18A_Hornet",
+            "install_to" : "GameData/Skunk_Works",
+            "filter"     : "Thumbs.db"
+        }
+    ]
+}

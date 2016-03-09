@@ -1,0 +1,13 @@
+{
+    "$kref": "#/ckan/kerbalstuff/1358",
+    "spec_version": "v1.4",
+    "license": "MIT",
+    "identifier": "Mk1RocketFuelFuselage",
+    "install": [
+      {
+        "file": "Mk1 LFO Fuselage",
+        "install_to": "GameData",
+        "filter": "Source Code.txt"
+      }
+    ]
+}

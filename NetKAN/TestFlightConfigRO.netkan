@@ -1,46 +1,46 @@
 {
-	"spec_version" : "v1.2",
-	"name" : "TestFlight Config Realism Overhaul",
-	"abstract" : "Config pack for the TestFlight plugin.  This config pack adds TestFlight support for Realism Overhaul parts.",
-	"identifier" : "TestFlightConfigRO",
-	"$vref" : "#/ckan/ksp-avc",
-	"$kref" : "#/ckan/github/jwvanderbeck/TestFlight/asset_match/TestFlightConfigRO*",
-	"license" : "CC-BY-NC-SA-4.0",
-	"release_status" : "stable",
-	"resources" : {
-		"homepage" : "http://forum.kerbalspaceprogram.com/threads/88187",
-		"repository" : "https://github.com/KSP-RO/TestFlight",
-		"bugtracker" : "https://github.com/KSP-RO/TestFlight/issues"
-	},
-	"install" : [
+    "spec_version" : "v1.2",
+    "name" : "TestFlight Config Realism Overhaul",
+    "abstract" : "Config pack for the TestFlight plugin.  This config pack adds TestFlight support for Realism Overhaul parts.",
+    "identifier" : "TestFlightConfigRO",
+    "$vref" : "#/ckan/ksp-avc",
+    "$kref" : "#/ckan/github/KSP-RO/TestFlight/asset_match/TestFlightConfigRO*",
+    "license" : "CC-BY-NC-SA-4.0",
+    "release_status" : "stable",
+    "resources" : {
+        "homepage" : "http://forum.kerbalspaceprogram.com/threads/88187",
+        "repository" : "https://github.com/KSP-RO/TestFlight",
+        "bugtracker" : "https://github.com/KSP-RO/TestFlight/issues"
+    },
+    "install" : [
         {
             "file"       : "GameData/TestFlight",
             "install_to" : "GameData"
         }
     ],
-	"depends" : [
+    "depends" : [
         { "name" : "ModuleManager", "min_version" : "2.6.1" },
         { "name" : "TestFlight", "min_version" : "1.3.1" },
         { "name" : "RealismOverhaul" }
 
     ],
     "provides" : [
-    	"TestFlightConfig"
+        "TestFlightConfig"
     ],
     "conflicts" : [
-    	{ "name" : "TestFlightConfig" }
+        { "name" : "TestFlightConfig" }
     ],
     "suggests" : [
-    	{ "name" : "RP-0" }
+        { "name" : "RP-0" }
     ],
     "x_netkan_override" : [
-		{
-			"version" : "1.3.1.1",
-			"delete" : [ "ksp_version" ],
-			"override" : {
-				"ksp_version_min" : "1.0.2",
-				"ksp_version_max" : "1.0.4"
-			}
-		}
+        {
+            "version" : "1.3.1.1",
+            "delete" : [ "ksp_version" ],
+            "override" : {
+                "ksp_version_min" : "1.0.2",
+                "ksp_version_max" : "1.0.4"
+            }
+        }
     ]
 }

@@ -1,32 +1,6 @@
 {
   "spec_version" : 1,
   "identifier"   : "B9",
-  "$kref"        : "#/ckan/kerbalstuff/132",
-  "license"      : "CC-BY-NC-SA-3.0",
-  "depends" : [
-    { "name" : "CrossFeedEnabler" },
-    { "name" : "FirespitterCore" },
-    { "name" : "KineTechAnimation" },
-    { "name" : "KlockheedMartian-Gimbal" },
-    { "name" : "ModuleManager", "min_version" : "2.5.1" },
-    { "name" : "RasterPropMonitor-Core" },
-    { "name" : "ResGen" },
-    { "name" : "VirginKalactic-NodeToggle" }
-  ],
-  "recommends" : [
-    { "name" : "HotRockets" },
-    { "name" : "AerodynamicModel" }
-  ],
-  "install" : [
-    {
-      "file"       : "GameData/B9_Aerospace",
-      "install_to" : "GameData"
-    },
-    {
-      "file"        : "Ships",
-      "install_to"  : "Ships",
-      "optional"    : true,
-      "description" : "B9 example crafts"
-    }
-  ]
+  "$kref"        : "#/ckan/netkan/https://raw.githubusercontent.com/blowfishpro/B9-Aerospace/master/NetKAN/B9.netkan",
+  "x_netkan_license_ok": true
 }

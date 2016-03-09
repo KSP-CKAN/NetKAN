@@ -1,0 +1,21 @@
+{
+    "$kref": "#/ckan/spacedock/270",
+    "spec_version": 1,
+    "license": "CC-BY-NC-ND-4.0",
+    "identifier": "ZPEPropulsionSystem",
+    "suggests": [
+        {
+            "name": "RustyStarRockets"
+        },
+        {
+            "name": "RustyTexturesForProceduralParts"
+        }
+    ],
+    "install": [
+        {
+            "file": "RSR_ZPE",
+            "install_to": "GameData"
+        }
+    ],
+    "x_netkan_force_v" : true
+}

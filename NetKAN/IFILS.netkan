@@ -9,16 +9,16 @@
     "resources"    : {
         "homepage" : "http://forum.kerbalspaceprogram.com/threads/92011"
     },
-	"depends"      : [
-		{
-			"name" : "ModuleManager"
-		}
-	],
-	"install"      : [
-		{
-			"file"          : "IFILS",
-			"install_to"    : "GameData",
-			"filter_regexp" : "ModuleManager.*dll$"
-		}
-	]
+    "depends"      : [
+        {
+            "name" : "ModuleManager"
+        }
+    ],
+    "install"      : [
+        {
+            "file"          : "IFILS",
+            "install_to"    : "GameData",
+            "filter_regexp" : "ModuleManager.*dll$"
+        }
+    ]
 }

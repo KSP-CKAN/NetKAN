@@ -1,16 +1,22 @@
 {
     "spec_version"   : "v1.4",
     "identifier"     : "NearFutureElectrical",
-    "$kref"          : "#/ckan/kerbalstuff/349",
+    "$kref"          : "#/ckan/github/ChrisAdderley/NearFutureElectrical",
+    "name"           : "Near Future Electrical",
+    "abstract"       : "Nuclear reactors, capacitors and more batteries that fit right in with stock",
+    "author"         : "Nertea",
     "release_status" : "stable",
     "license"        : "CC-BY-NC-SA-4.0",
+    "ksp_version"    : "1.0.5",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/52042-0-21"
+    },
     "depends" : [
         { "name" : "CommunityResourcePack" },
         { "name" : "NearFutureElectrical-Core" },
         { "name" : "ModuleManager" }
     ],
     "recommends": [
-        { "name" : "HeatControl-Core" },
         { "name" : "CommunityTechTree" }
     ],
     "suggests": [
