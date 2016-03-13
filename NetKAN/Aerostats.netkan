@@ -18,12 +18,5 @@
             "find": "Aerostat",
             "install_to": "GameData"
         }
-    ],
-    "comment": "Below override not functional",
-    "x_netkan_override": [
-        {
-            "version" : "any",
-            "delete"  : [ "resources.repository" ]
-        }
     ]
 }
