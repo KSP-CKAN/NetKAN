@@ -1,8 +1,8 @@
 {
     "license": "CC-BY-NC-SA-4.0",
-    "$kref": "#/ckan/kerbalstuff/1397",
+    "$kref": "#/ckan/spacedock/397",
     "spec_version": "v1.4",
-    "identifier": "STMsFFRibbonPackExpeditionRibbons",
+    "identifier": "STMsFFRibbonPackOperationsRoles",
     "install": [
       {
         "find": "GameData/STMRibbons",
