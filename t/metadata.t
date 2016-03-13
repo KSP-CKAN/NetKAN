@@ -8,7 +8,7 @@ use Test::NetKAN qw(netkan_files read_netkan licenses);
 
 use Data::Dumper;
 
-my $ident_qr = qr{^[A-Za-z][A-Z-a-z0-9-]*$};
+my $ident_qr = qr{^[A-Z-a-z0-9-]+$};
 
 my %licenses = licenses();
 
