@@ -2,6 +2,8 @@
     "spec_version" : "v1.4",
     "$kref"        : "#/ckan/spacedock/175",
     "identifier"   : "InterstellarFuelSwitch-Core",
+    "name"         : "Interstellar Fuel Switch Core",
+    "abstract"     : "Core plugin for Interstellar Fuel Switch",
     "license"      : "GPL-2.0",
     "install": [
         {
