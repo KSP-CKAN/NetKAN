@@ -1,0 +1,29 @@
+{
+    "license": "CC-BY-SA-4.0",
+    "$kref": "#/ckan/spacedock/367",
+    "spec_version": "v1.4",
+    "identifier": "Aerostats",
+    "depends": [
+        { "name": "CommunityResourcePack" }
+    ],
+    "recommends": [
+        { "name": "TweakScale" }
+    ],
+    "suggests": [
+        { "name": "KAS" },
+        { "name": "AirPark" }
+    ],
+    "install": [
+        {
+            "find": "Aerostat",
+            "install_to": "GameData"
+        }
+    ],
+    "comment": "Below override not functional"
+    "x_netkan_override": [
+        {
+            "version" : "any",
+            "delete"  : [ "resources.repository" ]
+        }
+    ]
+}
