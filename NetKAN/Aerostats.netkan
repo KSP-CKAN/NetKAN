@@ -19,7 +19,7 @@
             "install_to": "GameData"
         }
     ],
-    "comment": "Below override not functional"
+    "comment": "Below override not functional",
     "x_netkan_override": [
         {
             "version" : "any",
