@@ -24,10 +24,6 @@
         {
             "find"      : "RealSolarSystem",
             "install_to": "GameData"
-        },
-        {
-            "find"      : "Cache",
-            "install_to": "GameData/Kopernicus"
         }
     ]
 }
