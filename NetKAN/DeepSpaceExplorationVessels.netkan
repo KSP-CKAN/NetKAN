@@ -1,0 +1,24 @@
+{
+    "spec_version": "v1.2",
+    "identifier": "DSEV",
+    "name": "Deep Space Exploration Vessels",
+    "author": "Angel125",
+    "abstract": "Build spacecraft inspired by NASA's exploration studies",
+    "resources": {
+        "homepage": "https://github.com/Angel-125/DSEV"
+    },
+    "$kref": "#/ckan/github/Angel-125/DSEV",
+    "$vref": "#/ckan/ksp-avc",
+    "x_netkan_license_ok" : true,
+    "depends" : [
+        { "name": "CommunityResourcePack", "min_version": "0.4.9" },
+        { "name": "WildBlueTools", "min_version": "1.0.32" },
+        { "name": "ModuleManager", "min_version": "2.6.18" }
+    ],
+    "install" : [
+        {
+            "file": "GameData/WildBlueIndustries/DSEV",
+            "install_to": "GameData/WildBlueIndustries"
+        }
+    ]
+}

@@ -12,11 +12,12 @@
     "license": "CC-BY-NC-SA-4.0",
     "depends": [
         { "name": "CommunityResourcePack" }
+        { "name": "ModuleManager", "min_version": "2.6.18" }
     ],
     "install" : [
         {
-            "file": "GameData/WildBlueIndustries",
-            "install_to": "GameData",
+            "file": "GameData/WildBlueIndustries/000WildBlueTools",
+            "install_to": "GameData/WildBlueIndustries",
             "filter": [
                 "MiniAVC.xml"
             ]
