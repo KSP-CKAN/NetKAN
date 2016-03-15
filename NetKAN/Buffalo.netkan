@@ -2,11 +2,11 @@
     "spec_version": "v1.4",
     "identifier": "Buffalo",
     "$kref": "#/ckan/github/Angel-125/Buffalo",
+    "$vref": "#/ckan/ksp-avc",
     "name": "Buffalo: NASA Inspired MSEV - Explore In Style",
     "abstract": "If you're inspired by NASA's Multimission Modular Space Exploration Vehicle and want one in KSP, then this mod is for you.",
     "author": "Angel125",
     "license": "CC-BY-NC-SA-4.0",
-    "ksp_version": "1.0.5",
     "resources": {
         "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/122617-105-buffalo-nasa-inspired-msev"
     },
