@@ -5,7 +5,7 @@
     "author": "Angel125",
     "abstract": "Space camping & geoscience",
     "resources": {
-        "homepage": "https://github.com/Angel-125/Pathfinder"
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/121397-105-beta-pathfinder-0910-space-camping-geoscience/&page=1"
     },
     "$kref": "#/ckan/github/Angel-125/Pathfinder",
     "$vref": "#/ckan/ksp-avc",
@@ -13,12 +13,18 @@
     "depends" : [
         { "name": "CommunityResourcePack", "min_version": "0.4.9" },
         { "name": "WildBlueTools", "min_version": "1.0.32" },
-        { "name": "ModuleManager", "min_version": "2.6.18" }
+        { "name": "ModuleManager", "min_version": "2.6.18" },
         { "name": "Buffalo", "min_version": "0.2.7" }
     ],
     "recommends" : [
         { "name": "KAS" },
         { "name": "KIS" }
+    ],
+    "supports" : [
+    { "name" : "ConnectedLivingSpace" },
+    { "name" : "TACLS" },
+    { "name" : "USI-LS" },
+    { "name" : "Snacks" }
     ],
     "x_netkan_override": [
     {
