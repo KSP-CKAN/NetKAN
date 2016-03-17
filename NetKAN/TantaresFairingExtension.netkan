@@ -1,8 +1,8 @@
 {
     "spec_version": 1,
     "identifier": "TantaresFairingExtension",
-    "$kref": "#/ckan/kerbalstuff/1341",
-    "license": "MIT",
+    "$kref": "#/ckan/spacedock/123",
+    "x_netkan_license_ok": true,
     "depends": [
         { "name": "ModuleManager" },
         { "name": "TantaresLV" }
