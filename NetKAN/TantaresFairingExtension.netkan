@@ -3,6 +3,7 @@
     "identifier": "TantaresFairingExtension",
     "$kref": "#/ckan/spacedock/123",
     "x_netkan_license_ok": true,
+    "x_netkan_epoch": 1,
     "depends": [
         { "name": "ModuleManager" },
         { "name": "TantaresLV" }
