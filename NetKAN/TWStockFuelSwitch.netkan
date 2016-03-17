@@ -3,6 +3,7 @@
     "spec_version": 1,
     "identifier": "TWStockFuelSwitch",
     "name": "TesserWreck's Stock Fuel Switch",
+    "x_netkan_license_ok": true,
     "depends": [
         {
             "name": "InterstellarFuelSwitch"
