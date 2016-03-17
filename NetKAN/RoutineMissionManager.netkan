@@ -1,25 +1,16 @@
 {
     "spec_version": 1,
     "identifier": "RoutineMissionManager",
-    "$kref": "#/ckan/kerbalstuff/463",
-    "x_netkan_license_ok": true,
+    "$kref": "#/ckan/spacedock/362",
+    "license": "BSD-3-clause",
     "install": [
         {
             "file"          : "GameData/RoutineMissionManager",
-            "install_to"    : "GameData"
+            "install_to"    : "GameData",
+            "filter_regexp" : "^Licences.and.Source$"
         }
     ],
     "depends" : [
         { "name" : "ModuleManager" }
-    ],
-    "x_netkan_override" : [
-        {
-            "version" : [ ">=012", "<=013" ],
-            "delete" : [ "ksp_version" ],
-            "override" : {
-                "ksp_version_min" : "1.0.2",
-                "ksp_version_max" : "1.0.4"
-            }
-        }
     ]
 }
