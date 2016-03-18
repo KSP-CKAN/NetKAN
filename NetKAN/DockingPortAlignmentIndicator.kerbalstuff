@@ -1,9 +1,11 @@
 {
-    "spec_version"   : 1,
+    "spec_version"   : "v1.2",
     "identifier"     : "DockingPortAlignmentIndicator",
-    "$kref"          : "#/ckan/kerbalstuff/491",
+    "abstract"       : "The Docking Port Alignment Indicator is designed to help you dock manually, by presenting target alignment and relative position in a clean and intuitive manner.",
+    "author"         : "NavyFish",
+    "$kref"          : "#/ckan/curse/220299",
     "$vref"          : "#/ckan/ksp-avc",
-    "x_netkan_license_ok" : true,
+    "license"        : "MIT",
     "release_status" : "stable",
     "resources" : {
         "homepage" : "http://forum.kerbalspaceprogram.com/threads/43901"
@@ -15,6 +17,9 @@
         {
             "file": "GameData/NavyFish",
             "install_to": "GameData"
+        }
+            "file": "GameData/JSI/RPMPodPatches",
+            "install_to": "GameData/JSI"
         }
     ],
     "x_netkan_override" : [
