@@ -17,7 +17,7 @@
         {
             "find"              : "iPeer",
             "install_to"        : "GameData",
-            "filter"            : ["MiniAVC.dll", "LICENSE-MiniAVC.txt"]
+            "comment"           : "MiniAVC included"
         }
     ],
     "suggests"      :
