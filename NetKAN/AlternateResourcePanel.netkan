@@ -18,6 +18,9 @@
     "suggests" :[
         { "name" : "Olympic1ARPIcons" }
     ],
+    "depends"  :[
+        { "name" : "TriggerAU-Flags" }
+    ],
     "install" :[
     {
         "find"       : "KSPAlternateResourcePanel",
