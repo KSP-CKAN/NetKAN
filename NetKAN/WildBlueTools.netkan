@@ -1,5 +1,5 @@
 {
-    "spec_version": 1,
+    "spec_version": "v1.2",
     "identifier": "WildBlueTools",
     "name": "WildBlueTools",
     "author": "Angel125",
@@ -11,12 +11,13 @@
     "$vref": "#/ckan/ksp-avc",
     "license": "CC-BY-NC-SA-4.0",
     "depends": [
-        { "name": "CommunityResourcePack" }
+        { "name": "CommunityResourcePack" },
+        { "name": "ModuleManager", "min_version": "2.6.18" }
     ],
     "install" : [
         {
-            "file": "GameData/WildBlueIndustries",
-            "install_to": "GameData",
+            "file": "GameData/WildBlueIndustries/000WildBlueTools",
+            "install_to": "GameData/WildBlueIndustries",
             "filter": [
                 "MiniAVC.xml"
             ]
