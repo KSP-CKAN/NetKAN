@@ -10,7 +10,7 @@
         {
             "file"          : "GameData/DavonTCsystemsMod",
             "install_to"    : "GameData",
-            "filter_regexp" : "^license.and.source$"
+            "filter_regexp" : "license\ and\ source"
         }
     ]
 }
