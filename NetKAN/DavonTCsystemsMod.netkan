@@ -10,7 +10,7 @@
         {
             "file"          : "GameData/DavonTCsystemsMod",
             "install_to"    : "GameData",
-            "filter_regexp" : "source$"
+            "filter_regexp" : "source"
         }
     ]
 }
