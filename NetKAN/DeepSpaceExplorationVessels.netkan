@@ -19,6 +19,10 @@
         {
             "file": "GameData/WildBlueIndustries/DSEV",
             "install_to": "GameData/WildBlueIndustries"
+        },
+        {
+            "file": "GameData/Squad/Resources/RDSimpleIcons",
+            "install_to": "GameData/Squad/Resources"
         }
     ]
 }
