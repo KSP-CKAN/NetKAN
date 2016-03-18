@@ -10,7 +10,7 @@
     "depends": [
         { "name": "ModuleManager" },
         { "name": "FirespitterCore"},
-        { "name": "InterStellarFuelSwitch" }
+        { "name": "InterstellarFuelSwitch" }
     ],
     "install": [
         {
