@@ -15,7 +15,7 @@
         "x_curse": "http://kerbal.curseforge.com/ksp-mods/224116-transfer-window-planner"
     },
     "depends"  :[
-        { "name" : "TriggerAU-Flags" }
+        { "name" : "TriggerAu-Flags" }
     ],
     "install" : [
             {

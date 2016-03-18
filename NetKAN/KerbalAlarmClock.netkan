@@ -16,7 +16,7 @@
         "x_curse": "http://kerbal.curseforge.com/ksp-mods/220289-kerbal-alarm-clock"
     },
     "depends"  :[
-        { "name" : "TriggerAU-Flags" }
+        { "name" : "TriggerAu-Flags" }
     ],
     "install" : [
             {
