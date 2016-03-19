@@ -11,16 +11,13 @@
         "homepage" : "http://forum.kerbalspaceprogram.com/threads/43901"
     },
     "depends" : [
-        { "name" : "ModuleManager", "min_version" : "2.5.1" }
+        { "name" : "ModuleManager", "min_version" : "2.5.1" },
+        { "name" : "RasterPropMonitor" }
     ],
     "install": [
         {
             "file": "GameData/NavyFish",
             "install_to": "GameData"
-        },
-        {
-            "file": "GameData/JSI/RPMPodPatches",
-            "install_to": "GameData/JSI"
         }
     ],
     "x_netkan_override" : [
