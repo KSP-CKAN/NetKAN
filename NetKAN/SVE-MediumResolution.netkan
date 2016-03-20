@@ -1,12 +1,13 @@
 {
     "spec_version"   : "v1.2",
-    "$kref"          : "#/ckan/github/Nhawks1717/StockVisualEnhancements/asset_match/(?<=-MR)\\.zip$",
+    "$kref"          : "#/ckan/spacedock/58",
     "identifier"     : "SVE-MediumResolution",
     "name"           : "Stock Visual Enhancements - Medium Resolution",
     "abstract"       : "Medium resolution textures for Stock Visual Enhancements",
     "author"         : "Nhawks1717",
     "license"        : "CC-BY-NC-SA",
     "release_status" : "stable",
+    "x_netkan_epoch" : "1",
     "resources": {
         "repository": "https://github.com/Nhawks1717/StockVisualEnhancements"
     },

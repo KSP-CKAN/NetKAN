@@ -1,12 +1,13 @@
 {
     "spec_version"   : "v1.2",
-    "$kref"          : "#/ckan/github/Nhawks1717/StockVisualEnhancements/asset_match/(?<=-LR)\\.zip$",
+    "$kref"          : "#/ckan/spacedock/58",
     "identifier"     : "SVE-LowResolution",
     "name"           : "Stock Visual Enhancements - Low Resolution",
     "abstract"       : "Low resolution textures for Stock Visual Enhancements",
     "author"         : "Nhawks1717",
     "license"        : "CC-BY-NC-SA",
     "release_status" : "stable",
+    "x_netkan_epoch" : "1",
     "resources": {
         "repository": "https://github.com/Nhawks1717/StockVisualEnhancements"
     },
