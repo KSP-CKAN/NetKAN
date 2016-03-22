@@ -1,5 +1,5 @@
 {
-    "spec_version" : "1.4",
+    "spec_version" : 1,
     "license"      : "CC-BY-NC-SA-4.0",
     "$kref"        : "#/ckan/spacedock/313",
     "identifier"   : "OrbitalTug",
@@ -10,11 +10,5 @@
 	    {
 	        "name": "ModuleManager"
 	    }
-	],
-	
-	"install": [
-	{
-	    "install_to" : "GameData"
-        }
-        ],
+	]
 }
