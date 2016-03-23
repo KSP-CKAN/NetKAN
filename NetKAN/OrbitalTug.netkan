@@ -4,11 +4,11 @@
     "$kref"        : "#/ckan/spacedock/313",
     "identifier"   : "OrbitalTug",
     "depends": [
-	    {
-	        "name": "FirespitterCore"
-	    },
-	    {
-	        "name": "ModuleManager"
-	    }
-	]
+        {
+            "name": "FirespitterCore"
+        },
+        {
+            "name": "ModuleManager"
+        }
+    ]
 }
