@@ -3,5 +3,15 @@
     "identifier": "KerbolOrigins",
     "$kref": "#/ckan/spacedock/99",
     "spec_version": "v1.4",
-    "x_via": "Automated SpaceDock CKAN submission"
+    "depends": [
+        { "name": "Kopernicus" },
+        { "name": "KopernicusExpansion" },
+        { "name": "ModuleManager" }
+    ],
+    "install": [
+        {
+            "find": "KerbolOrigins",
+            "install_to": "GameData"
+        }
+    ]
 }
