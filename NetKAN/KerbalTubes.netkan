@@ -3,5 +3,11 @@
     "identifier": "KerbalTubes",
     "x_via": "Automated SpaceDock CKAN submission",
     "spec_version": "v1.4",
-    "$kref": "#/ckan/spacedock/34"
+    "$kref": "#/ckan/spacedock/34",
+    "install": [
+        {
+            "file"       : "KerbalTubes",
+            "install_to" : "GameData"
+        }
+    ]
 }
