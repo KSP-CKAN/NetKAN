@@ -1,7 +1,18 @@
 {
-    "spec_version": "v1.4",
-    "$kref": "#/ckan/spacedock/346",
+    "spec_version": 1,
     "identifier": "RustyTexturesforProceduralParts",
-    "x_via": "Automated SpaceDock CKAN submission",
-    "license": "MIT"
+    "$kref": "#/ckan/spacedock/346",
+    "license": "MIT",
+    "depends": [
+        { "name": "ProceduralParts" }
+    ],
+    "suggests": [
+        { "name": "RustyStarRockets" }
+    ],
+    "install": [
+        {
+            "file"       : "RustyProceduralParts",
+            "install_to" : "GameData"
+        }
+    ]
 }
