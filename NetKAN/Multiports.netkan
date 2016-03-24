@@ -1,7 +1,12 @@
 {
     "license": "MIT",
     "identifier": "Multiports",
-    "x_via": "Automated SpaceDock CKAN submission",
-    "spec_version": "v1.4",
-    "$kref": "#/ckan/spacedock/360"
+    "spec_version": 1,
+    "$kref": "#/ckan/spacedock/360",
+    "install": [
+        {
+            "file"       : "Multiports",
+            "install_to" : "GameData"
+        }
+    ]
 }
