@@ -1,20 +1,5 @@
 {
     "license": "BSD-2-clause",
-<<<<<<< HEAD:NetKAN/Soylent.kerbalstuff
-
-    "resources": {
-        "homepage": "http://forum.kerbalspaceprogram.com/threads/124501"
-    },
-
-    "depends": [
-        { "name": "ModuleManager" }
-    ],
-
-    "recommends": [
-        { "name": "TACLS" }
-    ],
-
-=======
     "identifier": "Soylent",
     "spec_version": "v1.4",
     "$kref": "#/ckan/spacedock/355",
@@ -24,15 +9,10 @@
     "recommends": [
         { "name": "TACLS" }
     ],
->>>>>>> 3fd3be00da8eb68bfd68b32c56652b95c7cf1a24:NetKAN/Soylent.netkan
     "install": [
         {
             "file"       : "UberDyneAstronautics",
             "install_to" : "GameData"
         }
     ]
-<<<<<<< HEAD:NetKAN/Soylent.kerbalstuff
 }
-=======
-}
->>>>>>> 3fd3be00da8eb68bfd68b32c56652b95c7cf1a24:NetKAN/Soylent.netkan
