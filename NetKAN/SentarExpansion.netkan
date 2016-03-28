@@ -6,5 +6,6 @@
     "depends": [
         { "name": "Kopernicus", "version_min": "1:beta-03-3" },
         { "name" : "ModuleManager" }
-    ]
+    ],
+    "x_netkan_epoch": 1
 }
