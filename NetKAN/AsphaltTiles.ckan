@@ -1,0 +1,29 @@
+{
+    "spec_version": 1,
+    "identifier": "AsphaltTiles",
+    "name": "Asphalt Tiles",
+    "abstract": "A useful set of three parts which are building bricks for offworld landing pads and roads.",
+    "author": "Enceos",
+    "license": "CC-BY-NC-SA-4.0",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/134889-KerbalHacks",
+        "spacedock": "https://spacedock.info/mod/445/Asphalt%20Tiles",
+        "x_screenshot": "https://spacedock.info/content/Enceos_856/Asphalt_Tiles/Asphalt_Tiles-1459095332.8268569.jpg"
+    },
+    "version": "1.1",
+    "ksp_version": "1.0.5",
+    "suggests": [
+        {
+            "name": "KIS"
+        }
+    ],
+    "install": [
+        {
+            "file": "GameData/KerbalHacks/AsphaltTiles",
+            "install_to": "GameData/KerbalHacks"
+        }
+    ],
+    "download": "https://spacedock.info/mod/445/Asphalt%20Tiles/download/1.1",
+    "download_size": 332813,
+    "x_generated_by": "netkan"
+}
