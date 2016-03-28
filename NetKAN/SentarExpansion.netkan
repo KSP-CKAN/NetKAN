@@ -1,7 +1,10 @@
 {
-    "$kref": "#/ckan/spacedock/238",
-    "license": "GPLv3",
-    "spec_version": "v1.4",
-    "x_via": "Automated SpaceDock CKAN submission",
-    "identifier": "SentarExpansion"
+    "spec_version"  : 1,
+    "identifier"    : "SentarExpansion",
+    "$kref"         : "#/ckan/spacedock/238",
+    "license"       : "GPL-3.0",
+    "depends": [
+        { "name": "Kopernicus", "version_min": "1:beta-03-3" },
+        { "name" : "ModuleManager" }
+    ]
 }
