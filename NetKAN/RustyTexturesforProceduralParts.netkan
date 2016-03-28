@@ -1,8 +1,8 @@
 {
     "spec_version": 1,
-    "identifier": "RustyTexturesForProceduralParts",
-    "$kref": "#/ckan/kerbalstuff/1306",
-    "license": "CC-BY-NC-ND-4.0",
+    "identifier": "RustyTexturesforProceduralParts",
+    "$kref": "#/ckan/spacedock/346",
+    "license": "MIT",
     "depends": [
         { "name": "ProceduralParts" }
     ],
