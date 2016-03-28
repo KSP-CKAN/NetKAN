@@ -1,0 +1,29 @@
+{
+    "spec_version": 1,
+    "identifier": "VensStylePPTextures",
+    "name": "Procedural Parts - Ven's Revamp Style Textures",
+    "abstract": "Stockalike textures for the Procedural Parts mod in Ven's Stock Revamp style.",
+    "author": "Enceos",
+    "license": "CC-BY-NC-SA-4.0",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/134889-KerbalHacks",
+        "spacedock": "https://spacedock.info/mod/439/Ven's%20Style%20Procedural%20Part%20Textures",
+        "x_screenshot": "https://spacedock.info/content/Enceos_856/Vens_Style_Procedural_Part_Textures/Vens_Style_Procedural_Part_Textures-1458917514.829847.jpg"
+    },
+    "version": "1.1",
+    "ksp_version": "1.0.5",
+    "depends": [
+        {
+            "name": "ProceduralParts"
+        }
+    ],
+    "install": [
+        {
+            "file": "GameData/KerbalHacks",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://spacedock.info/mod/439/Ven%27s%20Style%20Procedural%20Part%20Textures/download/1.1",
+    "download_size": 1551810,
+    "x_generated_by": "netkan"
+}
