@@ -3,6 +3,9 @@
     "license": "MIT",
     "$kref": "#/ckan/kerbalstuff/1051",
     "identifier": "kdufferskorpracewheel",
+    "conflicts": [
+        { "name": "KduffersMultiwheels" }
+    ],
     "install": [
         {
             "file"       : "kdufferskorp",
