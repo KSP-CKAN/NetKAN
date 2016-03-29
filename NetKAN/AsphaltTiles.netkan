@@ -1,23 +1,19 @@
 {
     "spec_version" : "v1.2",
     "identifier"   : "AsphaltTiles",
-	"name"         : "Asphalt Tiles",
+    "name"         : "Asphalt Tiles",
     "$kref"        : "#/ckan/spacedock/445",
     "x_netkan_license_ok": true,
-	
-	"resources" : {
+    "resources" : {
         "homepage" : "http://forum.kerbalspaceprogram.com/index.php?/topic/134889-KerbalHacks"
     },
-	
-		"recommends": [
-		{ "name": "AsphaltTilesWelded" }
-	],
-	
-	    "suggests": [
+    "recommends": [
+        { "name": "AsphaltTilesWelded" }
+    ],
+    "suggests": [
         { "name": "KIS" }
     ],
-	
-	"install": [
+    "install": [
         {
             "file"       : "GameData/KerbalHacks/AsphaltTiles",
             "install_to" : "GameData/KerbalHacks"
