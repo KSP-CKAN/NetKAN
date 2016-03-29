@@ -4,19 +4,16 @@
     "name"         : "Procedural Parts - Ven's Revamp Style Textures",
     "$kref"        : "#/ckan/spacedock/439",
     "x_netkan_license_ok": true,
-	
-	"resources" : {
+    "resources" : {
         "homepage" : "http://forum.kerbalspaceprogram.com/index.php?/topic/134889-KerbalHacks"
     },
-	
-  "depends": [
+    "depends": [
         { "name": "ProceduralParts" }
     ],
-	
-  "install": [
+    "install": [
         {
-        "file"       : "GameData/KerbalHacks/PP_Textures",
-        "install_to" : "GameData/KerbalHacks"
+            "file"       : "GameData/KerbalHacks/PP_Textures",
+            "install_to" : "GameData/KerbalHacks"
         }
     ]
 }
