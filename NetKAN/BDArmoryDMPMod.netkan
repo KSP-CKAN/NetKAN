@@ -1,7 +1,23 @@
 {
     "$kref": "#/ckan/spacedock/253",
-    "x_via": "Automated SpaceDock CKAN submission",
     "spec_version": "v1.4",
     "license": "MIT",
-    "identifier": "BDArmoryDMPMod"
+    "identifier": "BDArmoryDMPMod",
+    "conflicts": [
+        { "name" : "BDArmory" }
+    ],
+    "provides": [
+        "BDArmory"
+    ],
+    "comment": "Includes a modified version of BDArmory with DMP hooks",
+    "install": [
+        {
+            "find": "BDArmory",
+            "install_to": "GameData"
+        },
+        {
+            "find": "z_BDDMP",
+            "install_to": "GameData"
+        }
+    ]
 }
