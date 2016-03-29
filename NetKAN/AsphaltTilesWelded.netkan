@@ -16,7 +16,7 @@
 	
 	"install": [
         {
-            "find"       : "GameData/KerbalHacks/Extras",
+            "file"       : "GameData/KerbalHacks/Extras",
             "install_to" : "GameData/KerbalHacks"
         }
     ]
