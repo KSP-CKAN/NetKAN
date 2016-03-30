@@ -8,14 +8,13 @@
         { "name": "ModuleManager" }
     ],
     "recommends": [
-        { "name": "QuickSearch" },
         { "name": "HangarExtender" },
         { "name": "KerbalJointReinforcement" }
     ],
     "suggests": [
-      { "name": "FerramAerospaceResearch" },
-      { "name": "RealSolarSystem" },
-      { "name": "CommunityTechTree" }
+        { "name": "FerramAerospaceResearch" },
+        { "name": "RealSolarSystem" },
+        { "name": "CommunityTechTree" }
     ],
     "install": [
         {
