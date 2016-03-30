@@ -1,0 +1,17 @@
+{
+    "$kref": "#/ckan/spacedock/335",
+    "$vref": "#/ckan/ksp-avc",
+    "spec_version": "v1.4",
+    "identifier": "HotContents",
+    "depends": [
+        { "name": "RealPlume-StockConfigs" }
+    ],
+    "license": "CC-BY-NC-SA",
+    "install": [
+        {
+            "find": "HotContents",
+            "install_to": "GameData",
+            "filter": "MiniAVC.xml"
+        }
+    ]
+}
