@@ -9,7 +9,6 @@
         { "name": "ModuleManager" }
     ],
     "recommends": [
-        { "name": "QuickSearch" },
         { "name": "KerbalJointReinforcement" }
     ],
     "suggests": [
