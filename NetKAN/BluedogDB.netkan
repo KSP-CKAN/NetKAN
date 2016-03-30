@@ -6,6 +6,12 @@
     "depends": [
         { "name": "DMagicScienceAnimate" }
     ],
+    "supports": [
+        { "name": "HullcamVDS" },
+        { "name": "RealPlume" },
+        { "name": "RemoteTech" },
+        { "name": "TweakScale" }
+    ],
     "install": [
         {
             "find": "Bluedog_DB",
