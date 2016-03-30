@@ -1,6 +1,6 @@
 {
     "$kref": "#/ckan/spacedock/335",
-    "$vref": "#/ckan/ksp-avc",
+    "comment": "AVC .version file is missing a comma",
     "spec_version": "v1.4",
     "identifier": "HotContents",
     "depends": [
