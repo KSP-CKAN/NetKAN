@@ -1,8 +1,12 @@
 {
     "identifier": "ChinesePackContinued",
     "spec_version": "v1.4",
-    "$kref": "#/ckan/kerbalstuff/1244",
+    "$kref": "#/ckan/spacedock/303",
     "license": "CC-BY-NC-SA-4.0",
+    "release_status": "development",
+    "resources": {
+        "repository": "https://github.com/Wavechaser/ChinesePackContinued"
+    },
     "depends": [
         { "name": "CommunityResourcePack" },
         { "name": "ModuleManager" }
@@ -26,5 +30,6 @@
             "find"       : "VAB",
             "install_to" : "Ships"
         }
-    ]
+    ],
+    "x_netkan_force_v": true
 }
