@@ -5,7 +5,7 @@
     "license": "MIT",
     "depends": [
         { "name": "ProgressParser" },
-		{ "name": "ContractParser" }
+        { "name": "ContractParser" }
     ],
     "suggests": [
         { "name": "CapCom" },

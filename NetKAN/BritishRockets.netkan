@@ -4,25 +4,25 @@
     "$kref"        : "#/ckan/github/TheWire/British_Rockets",
     "name"         : "British Rockets",
     "abstract"     : "Collection of British launch vehicles",
-	"author": "TheWire",
+    "author": "TheWire",
     "license"      : "CC-BY-NC-SA-4.0",
     "ksp_version"  : "1.0.5",
     "resources": {
         "homepage": "http://www.curse.com/ksp-mods/kerbal/233347-british-rockets",
-		"x_screenshot": "http://media-curse.cursecdn.com/attachments/156/35/8fa1dfc59ce122f755502543ea6c5d7d.png",
-		"repository": "https://github.com/TheWire/British_Rockets"
+        "x_screenshot": "http://media-curse.cursecdn.com/attachments/156/35/8fa1dfc59ce122f755502543ea6c5d7d.png",
+        "repository": "https://github.com/TheWire/British_Rockets"
     },
-	"install": [
+    "install": [
         {
             "find": "British Rockets",
             "install_to": "GameData"
         },
-		{
+        {
             "file": "Ships",
             "install_to": "Ships"
         }
     ],
-	"depends": [
+    "depends": [
         {"name": "KlockheedMartian-Gimbal"}
     ]
 }

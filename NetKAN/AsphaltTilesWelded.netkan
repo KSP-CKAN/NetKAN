@@ -2,16 +2,16 @@
     "spec_version" : "v1.2",
     "identifier"   : "AsphaltTilesWelded",
     "name"         : "Asphalt Tiles - Welded Parts",
-    "abstract"	   : "An assortment of welded landing pads.",
+    "abstract"     : "An assortment of welded landing pads.",
     "$kref"        : "#/ckan/spacedock/445",
     "x_netkan_license_ok": true,
-	"resources" : {
+    "resources" : {
         "homepage" : "http://forum.kerbalspaceprogram.com/index.php?/topic/134889-KerbalHacks"
     },
     "depends": [
         { "name": "AsphaltTiles" }
     ],
-	"install": [
+    "install": [
         {
             "file"       : "GameData/KerbalHacks/Extras",
             "install_to" : "GameData/KerbalHacks"

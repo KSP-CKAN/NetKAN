@@ -3,9 +3,9 @@
     "identifier": "CapCom",
     "$kref": "#/ckan/spacedock/131",
     "license": "MIT",
-	"depends": [
+    "depends": [
         { "name": "ProgressParser" },
-		{ "name": "ContractParser" }
+        { "name": "ContractParser" }
     ],
     "suggests": [
         { "name": "ContractRewardModifier" },
