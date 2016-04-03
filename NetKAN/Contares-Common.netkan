@@ -3,6 +3,7 @@
     "identifier": "Contares-Common",
     "license": "CC-BY-NC-4.0",
     "$kref": "#/ckan/spacedock/180",
+    "ksp_version": "any",
     "install":{
         {
             "find": "Agencies",
