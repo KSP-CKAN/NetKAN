@@ -1,0 +1,13 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "Contares-Common",
+    "license": "CC-BY-NC-4.0",
+    "$kref": "#/ckan/spacedock/180",
+    "install":{
+        {
+            "find": "Agencies",
+            "install_to": "GameData",
+            "filter": "Contares"
+        }
+    ]
+}
