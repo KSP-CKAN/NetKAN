@@ -1,5 +1,5 @@
 {
-    "spec_version" : 1,
+    "spec_version" : "v1.4",
     "identifier"   : "ForgottenRealEngines",
     "$kref"        : "#/ckan/spacedock/456",
     "license": "CC-BY-NC-SA-4.0",
@@ -9,7 +9,7 @@
     ],
     	"install": [
         {
-            "file"       : "GameData/ForgottenRealEngines",
+            "find"       : "GameData/ForgottenRealEngines",
             "install_to" : "GameData"
         }
     ]
