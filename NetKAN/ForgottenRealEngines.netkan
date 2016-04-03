@@ -6,5 +6,11 @@
 	"$vref" : "#/ckan/ksp-avc",
 	"depends": [
         { "name": "RealismOverhaul"}
+    ],
+    	"install": [
+        {
+            "file"       : "GameData/ForgottenRealEngines",
+            "install_to" : "GameData"
+        }
     ]
 }
