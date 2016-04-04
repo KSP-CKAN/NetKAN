@@ -2,11 +2,12 @@
     "spec_version"    : 1,
     "identifier"      : "NavballUpDefault",
     "$kref"           : "#/ckan/github/BrianErikson/KSP",
+    "download"        : "https://github.com/BrianErikson/KSP/releases/download/V0.1/NavballUpDefault-V0.1.zip",
     "name"            : "Navball Up Default",
     "abstract"        : "Triggers the Navball to be up by default in the map view.",
     "license"         : "open-source",
-    "ksp_version_min" : "1.0.4",
-    "ksp_version_max" : "1.0.5",
+    "ksp_version_min" : "1.0.2",
+    "ksp_version_max" : "1.1",
     "resources": {
         "homepage": "https://github.com/BrianErikson/KSP/tree/master/HUDTweaks/NavballUpDefault"
     }
