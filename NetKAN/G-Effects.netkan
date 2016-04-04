@@ -8,7 +8,7 @@
             "find"       : "G-Effects",
             "install_to" : "GameData"
         }
-    ]
+    ],
     "x_netkan_override" : [
         {
             "version" : "<=0.3.1",
