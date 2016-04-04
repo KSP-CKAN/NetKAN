@@ -2,10 +2,7 @@
     "spec_version": "v1.16",
     "identifier": "ModularFlightIntegrator",
     "$kref": "#/ckan/jenkins/https://ksp.sarbian.com/jenkins/job/ModularFlightIntegrator/",
-    "x_netkan_jenkins": {
-        "use_filename_version": true
-    },
-    "x_netkan_version_edit": "^ModularFlightIntegrator-(?<version>\\d+\\.\\d+\\.\\d+\\.\\d+)\\.zip$",
+    "$vref": "#/ckan/ksp-avc",
     "name": "ModularFlightIntegrator",
     "abstract": "This is an amazing addon that will Modularly Integrate your Flight Models.",
     "author": "Sarbian",
@@ -18,36 +15,6 @@
         {
             "find": "ModularFlightIntegrator",
             "install_to": "GameData"
-        }
-    ],
-    "x_netkan_override": [
-        {
-            "version": "<1.1.0.0",
-            "override": {
-                "ksp_version_min": "1.0.0",
-                "ksp_version_max": "1.0.3"
-            }
-        },
-        {
-            "version": [ ">=1.1.0.0" ],
-            "override": {
-                "ksp_version_min": "1.0.4",
-                "ksp_version_max": "1.0.4"
-            }
-        },
-        {
-            "version": ">=1.1.2.0",
-            "override": {
-                "ksp_version_min": "1.0.5",
-                "ksp_version_max": "1.0.5"
-            }
-        },
-        {
-            "version": ">=1.1.3.0",
-            "override": {
-                "ksp_version_min": "1.1.0",
-                "ksp_version_max": "1.1.0"
-            }
         }
     ]
 }
