@@ -44,11 +44,11 @@ create_dummy_ksp () {
     # TODO: Manual hack, a better way to handle this kind of identifiers may be needed.
     case $KSP_VERSION in
     "0.23")
-        echo "Overidding '0.23' with '0.23.0'"
+        echo "Overriding '0.23' with '0.23.0'"
         KSP_VERSION="0.23.0"
         ;;
     "0.25")
-        echo "Overidding '0.25' with '0.25.0'"
+        echo "Overriding '0.25' with '0.25.0'"
         KSP_VERSION="0.25.0"
         ;;
     "0.90")
@@ -56,15 +56,15 @@ create_dummy_ksp () {
         KSP_VERSION="0.90.0"
         ;;
     "1.0")
-        echo "Overidding '1.0' with '$KSP_VERSION_DEFAULT'"
+        echo "Overriding '1.0' with '$KSP_VERSION_DEFAULT'"
         KSP_VERSION=$KSP_VERSION_DEFAULT
         ;;
     "1.0.99")
-        echo "Overidding '1.0.99' with '$KSP_VERSION_DEFAULT'"
+        echo "Overriding '1.0.99' with '$KSP_VERSION_DEFAULT'"
         KSP_VERSION=$KSP_VERSION_DEFAULT
         ;;
     "any")
-        echo "Overridding any with '$KSP_VERSION_DEFAULT'"
+        echo "Overriding any with '$KSP_VERSION_DEFAULT'"
         KSP_VERSION=$KSP_VERSION_DEFAULT
         ;;
     "null")
