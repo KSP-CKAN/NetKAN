@@ -24,7 +24,7 @@
         {
             "find"       : "Firespitter",
             "install_to" : "GameData",
-            "filter"     : [ "Firespitter.dll", "FSFuelSwitchTweakScale.cfg", "Firespitter.version", "Resources", "Old Example Craft.zip" ],
+            "filter"     : [ "Plugins", "Resources", "Old Example Craft.zip" ],
             "comment"    : "The DLL is installed from FirespitterCore"
         }
     ]
