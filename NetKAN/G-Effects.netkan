@@ -3,6 +3,12 @@
     "identifier": "G-Effects",
     "$kref": "#/ckan/spacedock/140",
     "license": "GPL-3.0",
+    "install": [
+        {
+            "file"       : "G-Effects",
+            "install_to" : "GameData"
+        }
+    ],
     "x_netkan_override" : [
         {
             "version" : "<=0.3.1",
