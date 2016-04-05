@@ -24,8 +24,8 @@
         {
             "find"       : "Firespitter",
             "install_to" : "GameData",
-            "filter"     : [ "Plugins", "Resources", "Old Example Craft.zip" ],
-            "comment"    : "The DLL is installed from FirespitterCore"
+            "filter"     : [ "Firespitter.version", "Plugins", "Resources", "Old Example Craft.zip" ],
+            "comment"    : "Plugins and version file are installed from FirespitterCore, Resources from FirespitterResourcesConfig"
         }
     ]
 }
