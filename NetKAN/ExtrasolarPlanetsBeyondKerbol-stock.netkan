@@ -1,6 +1,6 @@
 {
     "license": "BSD-3-clause",
-    "spec_version": "v1.10",
+    "spec_version": "v1.4",
     "name": "Extrasolar Planets Byond Kerbol - Stock configuration",
     "abstract": "Adds a new star system in orbit around the Kerbol System",
     "identifier": "ExtrasolarPlanetsBeyondKerbol-stock",
@@ -10,7 +10,7 @@
     ],
     "install": [
         {
-            "find_regexp": "Stock Scale/GameData/ExtraSolar",
+            "find": "StockScale/GameData/ExtraSolar",
             "install_to": "GameData"
         }
     ],
