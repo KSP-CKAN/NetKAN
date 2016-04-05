@@ -18,7 +18,7 @@
             "install_to" : "GameData/Firespitter"
         },
         {
-            "find" : "Firespitter/Firespitter.version",
+            "find" : "Firespitter.version",
             "find_matches_files" : true,
             "install_to" : "GameData/Firespitter"
         }
