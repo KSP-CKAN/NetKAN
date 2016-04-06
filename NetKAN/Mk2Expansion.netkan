@@ -4,9 +4,7 @@
     "$kref": "#/ckan/spacedock/473",
     "license": "CC-BY-NC-4.0",
     "depends": [
-        { "name": "KlockheedMartian-Gimbal" },
-        { "name": "FirespitterCore" },
-        { "name": "ModuleManager", "min_version": "2.5.3" },
+        { "name": "ModuleManager" },
         { "name": "CommunityResourcePack" },
         { "name": "InterstellarFuelSwitch" }
     ],
