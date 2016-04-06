@@ -1,7 +1,12 @@
 {
     "license": "BY-NC-SA-4.0",
     "identifier": "StockalikeMiningExtension",
-    "x_via": "Automated SpaceDock CKAN submission",
     "spec_version": "v1.4",
-    "$kref": "#/ckan/spacedock/354"
+    "$kref": "#/ckan/spacedock/354",
+    "install": [
+        {
+            "find": "MiningExpansion",
+            "install_to": "GameData"
+        }
+    ]
 }
