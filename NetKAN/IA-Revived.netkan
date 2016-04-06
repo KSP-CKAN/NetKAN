@@ -1,0 +1,16 @@
+{
+    "license": "MIT",
+    "identifier": "IA-Revived",
+    "$kref": "#/ckan/spacedock/254",
+    "spec_version": "v1.4",
+    "depends": [
+        { "name": "Kopernicus" },
+        { "name": "ModuleManager" }
+    ],
+    "install": [
+        {
+            "find": "IA-Revived",
+            "install_to": "GameData"
+        }
+    ]
+}
