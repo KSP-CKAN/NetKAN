@@ -1,7 +1,15 @@
 {
     "license": "MIT",
     "identifier": "EveBiomesPlus",
-    "x_via": "Automated SpaceDock CKAN submission",
-    "spec_version": "v1.4",
-    "$kref": "#/ckan/spacedock/376"
+    "spec_version": 1,
+    "$kref": "#/ckan/spacedock/376",
+    "depends": [
+        { "name": "Kopernicus" }
+    ],
+    "install": [
+        {
+            "file": "GameData/EveBiomesPlus",
+            "install_to": "GameData"
+        }
+    ]
 }
