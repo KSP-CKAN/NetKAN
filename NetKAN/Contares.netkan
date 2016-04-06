@@ -9,7 +9,7 @@
         { "name": "RealPlume" },
         { "name": "Contares-Common" }
     ],
-    "install":{
+    "install": [
         {
             "file": "Contares",
             "install_to": "GameData",
