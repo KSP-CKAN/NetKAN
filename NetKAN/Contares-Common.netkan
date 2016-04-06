@@ -8,7 +8,7 @@
     "install": [
         {
             "find": "Agencies",
-            "install_to": "GameData",
+            "install_to": "GameData/Contares",
             "filter": "Contares"
         }
     ]
