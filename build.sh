@@ -208,7 +208,7 @@ for f in $COMMIT_CHANGES
 do
     if [[ "$f" =~ build.sh|metadata.t ]]
     then
-        echo "Lets try not to validate our build script with jsonlint"
+        echo "Lets try not to validate '$f' with jsonlint"
         continue
     fi
 
