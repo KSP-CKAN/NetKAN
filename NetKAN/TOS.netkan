@@ -1,0 +1,18 @@
+{
+    "identifier": "TOS",
+    "spec_version": "v1.4",
+    "$kref": "#/ckan/spacedock/327",
+    "license": "GPL-3.0",
+    "depends": [
+        { "name": "BDArmory" }
+    ],
+    "recommends": [
+        { "name": "RasterPropMonitor" }
+    ],
+    "install": [
+        {
+            "file": "TOS",
+            "install_to": "GameData"
+        }
+    ]
+}
