@@ -206,7 +206,7 @@ echo "If you get an error below you should look for syntax errors in the metadat
 
 for f in $COMMIT_CHANGES
 do
-    if [ "$f" == "build.sh" ]
+    if [[ "$f" =~ build.sh|metadata.t ]]
     then
         echo "Lets try not to validate our build script with jsonlint"
         continue
