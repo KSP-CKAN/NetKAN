@@ -2,6 +2,13 @@
     "$kref": "#/ckan/spacedock/405",
     "spec_version": "v1.4",
     "identifier": "ScienceMod",
-    "x_via": "Automated SpaceDock CKAN submission",
-    "license": "Academic Free License"
+    "license": "open-source",
+    "install":
+        {
+            "file": "Science!",
+            "install_to": "GameData",
+            "filter": "Extras (Delete me if not needed)",
+            "comment": "Extras has an edited version of CommunityResourcePack and parts that use it"
+        }
+    ]
 }
