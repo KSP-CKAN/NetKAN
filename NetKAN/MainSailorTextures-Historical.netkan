@@ -1,0 +1,25 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "MainSailorTextures-Historical",
+    "ksp_version": "any",
+    "$kref": "#/ckan/spacedock/487",
+    "name": "Procedural Parts - MainSailor's Procedural Textures - Historic Textures",
+    "license": "CC-BY-NC-SA-4.0",
+    "abstract": "Procedural Parts textures by MainSailor with a simple, historically-inspired look",
+    "depends": [
+        { "name": "ProceduralParts" },
+        { "name": "MainSailorTextures-Essentials" }
+    ],
+    "conflicts": [
+        { "name": "MainSailorTextures-Complete" }
+    ],
+    "provides": [
+        "PPTextures"
+    ],
+    "install": [
+        {
+            "file": "MainSailor/Historical",
+            "install_to": "GameData/MainSailor"
+        }
+    ]
+}

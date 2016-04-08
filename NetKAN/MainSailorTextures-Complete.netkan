@@ -1,0 +1,23 @@
+{
+    "spec_version": 1,
+    "identifier": "MainSailorTextures-Complete",
+    "ksp_version": "any",
+    "$kref": "#/ckan/spacedock/487",
+    "name": "Procedural Parts - MainSailor's Procedural Textures - Complete Texture Pack",
+    "license": "CC-BY-NC-SA-4.0",
+    "abstract": "Procedural Parts textures by MainSailor - Includes Gamma, Historical, Theta and Fairings packs",
+    "depends": [
+        { "name": "ProceduralParts" },
+        { "name": "MainSailorTextures-Essentials" }
+    ],
+    "provides": [
+        "PPTextures"
+    ],
+    "install": [
+        {
+            "file": "MainSailor",
+            "install_to": "GameData",
+            "filter": [ "Essentials", "Flags" ]
+        }
+    ]
+}
