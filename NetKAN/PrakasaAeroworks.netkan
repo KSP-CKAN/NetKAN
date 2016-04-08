@@ -1,7 +1,12 @@
 {
-    "license": "This work is Licensed under a Creative Commons  Attribution-NonCommercial-ShareAlike 4.0 International License. ",
-    "identifier": "PrakasaAeroworks",
+    "license": "CC-BY-NC-SA-4.0",
     "$kref": "#/ckan/spacedock/443",
     "spec_version": "v1.4",
-    "x_via": "Automated SpaceDock CKAN submission"
+    "identifier": "PrakasaAeroworks",
+    "resources": {
+        "homepage":"http://forum.kerbalspaceprogram.com/index.php?/topic/129967-105-prakasa-aeroworks/"
+    },
+    "recommends": [
+        { "name": "RasterPropMonitor" }
+    ]
 }
