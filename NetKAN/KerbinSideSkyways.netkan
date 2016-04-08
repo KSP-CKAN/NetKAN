@@ -1,7 +1,22 @@
 {
-    "license": "BSD",
     "identifier": "KerbinSideSkyways",
-    "x_via": "Automated SpaceDock CKAN submission",
     "spec_version": "v1.4",
-    "$kref": "#/ckan/spacedock/374"
+    "$kref": "#/ckan/spacedock/374",
+    "license": "BSD-3-clause",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/74776-11-kerbin-side"
+    },
+    "depends": [
+        { "name": "KerbalKonstructs" }
+    ],
+    "conflicts": [
+        { "name": "KerbinSideAirRace" },
+        { "name": "KerbinSide" }
+    ],
+    "install": [
+        {
+            "find": "KerbinSide",
+            "install_to": "GameData"
+        }
+    ]
 }
