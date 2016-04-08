@@ -274,7 +274,7 @@ fi
 for f in $COMMIT_CHANGES
 do
     if [[ "$f" =~ build.sh|metadata.t ]];then
-        echo "Lets try not to build $f with netkan"
+        echo "Lets try not to build '$f' with netkan"
         continue
     fi
 
