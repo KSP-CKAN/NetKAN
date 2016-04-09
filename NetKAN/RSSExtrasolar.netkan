@@ -1,0 +1,20 @@
+{
+    "$kref": "#/ckan/spacedock/410",
+    "spec_version": "v1.4",
+    "identifier": "RSSExtrasolar",
+    "license": "BSD-3-clause",
+    "depends":[
+        { "name": "Kopernicus" }
+    ],
+    "recommends": [
+        { "name": "KSPInterstellarExtended" },
+        { "name": "BetterTimeWarp" },
+        { "name": "USI-NuclearRockets" }
+    ],
+    "install": [
+        {
+            "find": "RSSExtrasolar",
+            "install_to": "GameData"
+        }
+    ]
+}
