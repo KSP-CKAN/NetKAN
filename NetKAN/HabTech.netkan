@@ -1,7 +1,16 @@
 {
-    "license": "CC BY-NC-SA 4.0.",
+    "license": "CC-BY-NC-SA-4.0.",
     "identifier": "HabTech",
     "$kref": "#/ckan/spacedock/449",
     "spec_version": "v1.4",
-    "x_via": "Automated SpaceDock CKAN submission"
+    "supports": [
+        { "name": "USI-LS" }
+    ],
+    "install": [
+        {
+            "find": "HabTech",
+            "install_to": "GameData",
+            "filter": ".DS_Store"
+        }
+    ]
 }
