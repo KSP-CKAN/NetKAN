@@ -4,7 +4,8 @@
     "$kref": "#/ckan/spacedock/449",
     "spec_version": "v1.4",
     "supports": [
-        { "name": "USI-LS" }
+        { "name": "USI-LS" },
+        { "name": "ConnectedLivingSpace" }
     ],
     "install": [
         {
