@@ -1,7 +1,7 @@
 {
     "spec_version": 1,
-    "identifier": "KronalVesselViewer",
-    "$kref": "#/ckan/spacedock/452",
+    "identifier"  : "KronalVesselViewer",
+    "$kref"       : "#/ckan/spacedock/452",
     "install": [
         { "file" : "GameData/KronalUtils",
           "install_to" : "GameData"
