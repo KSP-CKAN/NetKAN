@@ -9,7 +9,7 @@
     "suggests": [
         { "name": "RemoteTech" }
     ],
-    "install":
+    "install": [
         {
             "find": "PanzerLabs",
             "install_to": "GameData",
