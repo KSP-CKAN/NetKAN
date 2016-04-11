@@ -1,0 +1,19 @@
+{
+    "$kref": "#/ckan/spacedock/471",
+    "identifier": "PL-KSat",
+    "license": "CC-BY-SA-4.0",
+    "spec_version": "v1.4",
+    "depends": [
+        { "name": "ModuleManager" }
+    ],
+    "suggests": [
+        { "name": "RemoteTech" }
+    ],
+    "install":
+        {
+            "find": "PanzerLabs",
+            "install_to": "GameData",
+            "filter": "Flags"
+        }
+    ]
+}
