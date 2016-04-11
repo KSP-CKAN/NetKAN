@@ -1,9 +1,13 @@
 {
     "$kref": "#/ckan/spacedock/460",
     "identifier": "DepthCharge",
-    "license": "MIT",
+    "license": "CC-BY-SA-4.0",
     "spec_version": "v1.4",
+    "author": [ "Kerwis", "BahamutoD" ],
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/135771-11-v155-moduledepthcharge"
+    },
     "depends": [
-        { "name": "BDArmory" }
+        { "name": "BDArmory", "min_version": "v0.10.1" }
     ]
 }
