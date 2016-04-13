@@ -1,6 +1,7 @@
 {
     "$kref": "#/ckan/spacedock/520",
     "identifier": "RemoteTech",
+    "author": "Remote Technologies Group",
     "spec_version": 1,
     "license": "GPL-2.0",
     "release_status": "stable",
@@ -17,5 +18,5 @@
             "file": "GameData/RemoteTech",
             "install_to": "GameData"
         }
-    ],
+    ]
 }
