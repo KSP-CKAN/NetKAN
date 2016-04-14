@@ -1,7 +1,16 @@
 {
     "$kref": "#/ckan/spacedock/474",
-    "x_via": "Automated SpaceDock CKAN submission",
     "identifier": "DockingPortSoundFX",
-    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
-    "spec_version": "v1.4"
+    "license": "CC-BY-SA-4.0",
+    "spec_version": "v1.4",
+    "depends": [
+        { "name": "ModuleManager" }
+    ],
+    "install": [
+        {
+            "find": "DPSoundsFX",
+            "install_to": "GameData",
+            "filter": ["Source", "CustomExample" ]
+        }
+    ]
 }
