@@ -1,7 +1,12 @@
 {
-    "spec_version": "v1.4",
-    "x_via": "Automated SpaceDock CKAN submission",
-    "license": "GPLv3",
     "$kref": "#/ckan/spacedock/475",
-    "identifier": "MkerbIncScienceInstruments"
+    "identifier": "MkerbIncScienceInstruments",
+    "spec_version": 1,
+    "license": "GPL-3.0",
+    "install": [
+        {
+            "file": "Mkerb",
+            "install_to": "GameData"
+        }
+    ]
 }
