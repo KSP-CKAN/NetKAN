@@ -12,6 +12,7 @@
     ],
     "conflicts": [
         { "name": "KerbinSideAirRace" },
+        { "name": "KerbinSideGroundControl" },
         { "name": "KerbinSideSkyways" }
     ],
     "install": [
