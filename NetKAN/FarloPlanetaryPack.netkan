@@ -1,7 +1,19 @@
 {
-    "license": "CC BY-NC-SA 4.0",
+    "license": "CC-BY-NC-SA-4.0",
     "identifier": "FarloPlanetaryPack",
     "$kref": "#/ckan/spacedock/436",
     "spec_version": "v1.4",
-    "x_via": "Automated SpaceDock CKAN submission"
+    "depends": [
+        { "name": "Kopernicus", "min_version": "1:beta-05" },
+        { "name": "ModuleManager" }
+    ],
+    "conflicts": [
+        { "name": "OuterPlanetsMod" }
+    ],
+    "install": [
+        {
+            "file": "PlanetPack_Farlo",
+            "install_to": "GameData"
+        }
+    ]
 }
