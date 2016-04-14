@@ -8,7 +8,7 @@
     ],
     "install": [
         {
-            "find": "DPSoundsFX",
+            "find": "DPSoundFX",
             "install_to": "GameData",
             "filter": ["Source", "CustomExample" ]
         }
