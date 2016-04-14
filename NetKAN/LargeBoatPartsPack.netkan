@@ -3,14 +3,18 @@
     "$kref": "#/ckan/spacedock/167",
     "license": "CC-BY-SA-4.0",
     "identifier": "LargeBoatPartsPack",
-    "suggests": [
+    "name"        : "Large Boat Parts Pack - Common",
+    "abstract"    : "Common files for a less parts, More FPS, Naval experience.",
+    "recommends": [
         { "name": "WasdEditorCameraContinued" },
-        { "name": "VesselMover" }
+        { "name": "VesselMover" },
+        { "name": "LargeBoatPartsPack-Modern" },
+        { "name": "LargeBoatPartsPack-WW2" }
     ],
     "install": [
         {
-            "find": "LShipParts",
-            "install_to": "GameData"
+            "find": "LShipPartsRequired",
+            "install_to": "GameData/LShipParts"
         }
     ]
 }

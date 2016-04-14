@@ -1,0 +1,17 @@
+{
+    "spec_version": "v1.4",
+    "$kref": "#/ckan/spacedock/167",
+    "license": "CC-BY-SA-4.0",
+    "identifier": "LargeBoatPartsPack-Modern",
+    "name": "Large Boat Parts Pack - Modern",
+    "abstract": "Modern ships for a less parts, More FPS, Naval experience.",
+    "depends": [
+        { "name": "LargeBoatPartsPack" }
+    ],
+    "install": [
+        {
+            "find": "LShipPartsModern",
+            "install_to": "GameData/LShipParts"
+        }
+    ]
+}
