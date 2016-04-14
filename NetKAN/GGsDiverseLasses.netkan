@@ -1,0 +1,23 @@
+{
+    "spec_version": 1,
+    "identifier"  : "GGsDiverseLasses",
+    "name"        : "Diverse Lasses",
+    "author"      : [ "GreeningGalaxy" ],
+    "abstract"    : "A head pack for Texture Replacer, which includes relatively 'normal'-looking kerbal heads for the default 'female' model. These heads are have several different skin and hair colors, as well as a few different colors and styles of makeup. ",
+    "version"     : "1.0",
+    "min_ksp_version" : "1.0.5",
+    "license"     : "BY-NC-SA-4.0",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/96851-105-texturereplacer-2412-1722016/&do=findComment&comment=2049913"
+    },
+    "download": "https://www.dropbox.com/s/gmhawvcwkimjg29/GGsDiverseLasses-Base-1.zip?dl=1",
+    "install": [
+        {
+            "file"       : "GameData/TextureReplacer",
+            "install_to" : "GameData"
+        }
+    ],
+	"depends": [
+        { "name": "TextureReplacer"}
+    ]
+}
