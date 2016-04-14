@@ -12,7 +12,7 @@
     ],
     "install": [
         {
-            "find": "RcsSounds",
+            "find": "GameData/RcsSounds",
             "install_to": "GameData"
         }
     ]
