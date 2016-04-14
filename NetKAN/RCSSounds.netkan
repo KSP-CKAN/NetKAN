@@ -1,6 +1,6 @@
 {
     "$kref": "#/ckan/spacedock/525",
-    "$vref" : "#/ckan/ksp-avc",
+    "$vref": "#/ckan/ksp-avc",
     "identifier": "RCSSounds",
     "spec_version": "v1.4",
     "license": "GPL-2.0",
@@ -14,10 +14,6 @@
         {
             "find": "RcsSounds",
             "install_to": "GameData"
-        },
-        {
-            "file": "RCSSounds.version",
-            "install_to": "GameData/RcsSounds"
         }
     ]
 }
