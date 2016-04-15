@@ -1,0 +1,12 @@
+{
+    "identifier": "ItsTheLittleThings",
+    "spec_version": 1,
+    "$kref": "#/ckan/spacedock/462",
+    "license": "CC-BY-SA-2.0",
+    "install": [
+        {
+            "file": "its the little things/game data/Its the little things",
+            "install_to": "GameData"
+        }
+    ]
+}

@@ -206,9 +206,9 @@ echo "If you get an error below you should look for syntax errors in the metadat
 
 for f in $COMMIT_CHANGES
 do
-    if [ "$f" == "build.sh" ]
+    if [[ "$f" =~ build.sh|metadata.t ]]
     then
-        echo "Lets try not to validate our build script with jsonlint"
+        echo "Lets try not to validate '$f' with jsonlint"
         continue
     fi
 
@@ -273,8 +273,8 @@ fi
 # Note: Additional NETKAN_OPTIONS may be set on jenkins jobs
 for f in $COMMIT_CHANGES
 do
-    if [ "$f" = "build.sh" ]; then
-        echo "Lets try not to validate our build script with netkan"
+    if [[ "$f" =~ build.sh|metadata.t ]];then
+        echo "Lets try not to build '$f' with netkan"
         continue
     fi
 

@@ -50,7 +50,7 @@ foreach my $shortname (sort keys %files) {
         $metadata->{'$kref'} || $metadata->{'$vref'},
         "$shortname has no \$kref/\$vref field. It belongs in CKAN-meta"
     );
-
+        
     if (my $overrides = $metadata->{x_netkan_override}) {
 
         my $is_array = ref($overrides) eq "ARRAY";
@@ -79,6 +79,13 @@ foreach my $shortname (sort keys %files) {
         "spec version must be 1 or in the 'vX.X' format"
     );
 
+    if ($metadata->{ksp_version_strict}) {
+        ok(
+            compare_version($spec_version,"v1.16"),
+            "$shortname - spec_version v1.16+ required for 'ksp_version_strict'"
+        );
+    }
+
     foreach my $install (@{$metadata->{install}}) {
         if ($install->{install_to} =~ m{^GameData/}) {
             ok(
@@ -90,7 +97,14 @@ foreach my $shortname (sort keys %files) {
         if ($install->{install_to} =~ m{^Ships/}) {
             ok(
                 compare_version($spec_version,"v1.12"),
-                "$shortname - spec_version v.12+ required to install to Ships/ with path."
+                "$shortname - spec_version v1.12+ required to install to Ships/ with path."
+            );
+        }
+
+        if ($install->{install_to} =~ m{^Ships/\@thumbs}) {
+            ok(
+                compare_version($spec_version,"v1.16"),
+                "$shortname - spec_version v1.16+ required to install to Ships/\@thumbs with path."
             );
         }
 
@@ -100,10 +114,18 @@ foreach my $shortname (sort keys %files) {
                 "$shortname - spec_version v1.4+ required for install with 'find'"
             );
         }
+
         if ($install->{find_regexp}) {
             ok(
                 compare_version($spec_version,"v1.10"),
                 "$shortname - spec_version v1.10+ required for install with 'find_regexp'"
+            );
+        }
+
+        if ($install->{find_matches_files}) {
+            ok(
+                compare_version($spec_version,"v1.16"),
+                "$shortname - spec_version v1.16+ required for 'find_matches_files'"
             );
         }
     }
@@ -114,8 +136,8 @@ foreach my $shortname (sort keys %files) {
 sub compare_version {
   my ($spec_version, $min_version) = @_;
 
-  $spec_version =~ s/v1\.([2|4])$/v1.0$1/;
-  $min_version =~ s/v1\.([2|4])$/v1.0$1/;
+  $spec_version =~ s/v1\.([2|4|6])$/v1.0$1/;
+  $min_version =~ s/v1\.([2|4|6])$/v1.0$1/;
 
   print "Spec: $spec_version, Min: $min_version\n";
 

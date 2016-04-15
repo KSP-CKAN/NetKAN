@@ -1,0 +1,24 @@
+{
+    "spec_version": "v1.4",
+    "$kref": "#/ckan/spacedock/150",
+    "license": "BSD-3-clause",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/74776-11-kerbin-side"
+    },
+    "identifier": "KerbinSide",
+    "x_netkan_epoch" : "1",
+    "depends": [
+        { "name": "KerbalKonstructs" }
+    ],
+    "conflicts": [
+        { "name": "KerbinSideAirRace" },
+        { "name": "KerbinSideGroundControl" },
+        { "name": "KerbinSideSkyways" }
+    ],
+    "install": [
+        {
+            "find": "KerbinSide",
+            "install_to": "GameData"
+        }
+    ]
+}
