@@ -11,5 +11,9 @@
     ],
     "depends" : [
         { "name" : "KerbalKonstructs" }
+    ],
+    "provides" : [ "KerbinSide-meta" ],
+    "conflicts": [
+        { "name": "KerbinSide-meta" }
     ]
 }
