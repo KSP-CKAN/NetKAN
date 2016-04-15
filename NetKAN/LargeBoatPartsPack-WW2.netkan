@@ -13,5 +13,15 @@
             "find": "LShipPartsWW2",
             "install_to": "GameData/LShipParts"
         }
+    ],
+    "x_netkan_override": [
+        {
+            "version": "3.2",
+            "delete": [ "ksp_version" ],
+            "override": {
+                "ksp_version_min" : "1.0.5",
+                "ksp_version_max" : "1.1.0"
+            }
+        }
     ]
 }
