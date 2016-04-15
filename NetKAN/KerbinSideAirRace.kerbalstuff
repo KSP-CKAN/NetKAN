@@ -11,5 +11,9 @@
     ],
     "depends" : [
         { "name" : "KerbalKonstructs" }
+    ],
+    "provides" : [ "KerbinSide-virt" ],
+    "conflicts": [
+        { "name": "KerbinSide-virt" }
     ]
 }

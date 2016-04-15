@@ -10,10 +10,9 @@
     "depends": [
         { "name": "KerbalKonstructs" }
     ],
+    "provides" : [ "KerbinSide-virt" ],
     "conflicts": [
-        { "name": "KerbinSideAirRace" },
-        { "name": "KerbinSideGroundControl" },
-        { "name": "KerbinSideSkyways" }
+        { "name": "KerbinSide-virt" }
     ],
     "install": [
         {
