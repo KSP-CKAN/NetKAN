@@ -10,9 +10,9 @@
     "depends": [
         { "name": "KerbalKonstructs" }
     ],
-    "provides" : [ "KerbinSide-meta" ],
+    "provides" : [ "KerbinSide-virt" ],
     "conflicts": [
-        { "name": "KerbinSide-meta" }
+        { "name": "KerbinSide-virt" }
     ],
     "install": [
         {
