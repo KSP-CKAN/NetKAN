@@ -6,13 +6,13 @@
     "resources": {
         "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/74776-11-kerbin-side"
     },
+    
     "depends": [
         { "name": "KerbalKonstructs" }
     ],
+    "provides" : [ "KerbinSide-meta" ],
     "conflicts": [
-        { "name": "KerbinSideAirRace" },
-        { "name": "KerbinSideGroundControl" },
-        { "name": "KerbinSide" }
+        { "name": "KerbinSide-meta" }
     ],
     "install": [
         {

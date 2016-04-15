@@ -9,10 +9,9 @@
     "depends": [
         { "name": "KerbalKonstructs" }
     ],
+    "provides" : [ "KerbinSide-meta" ],
     "conflicts": [
-        { "name": "KerbinSideAirRace" },
-        { "name": "KerbinSideSkyways" },
-        { "name": "KerbinSide" }
+        { "name": "KerbinSide-meta" }
     ],
     "install": [
         {
