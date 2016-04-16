@@ -1,7 +1,14 @@
 {
-    "x_via": "Automated SpaceDock CKAN submission",
     "$kref": "#/ckan/spacedock/529",
     "identifier": "XKOM",
     "spec_version": "v1.4",
-    "license": "njmksr's XKOM Licence"
+    "license": "restricted",
+    "comment": "The license is a custom job. The assets are probably ok to distribute in this form, but best if we stay out of it",
+    "install": [
+        {
+            "file": "XKOM",
+            "install_to": "GameData",
+            "filter": "SkyRangerBaySeating.zip"
+        }
+    ]
 }
