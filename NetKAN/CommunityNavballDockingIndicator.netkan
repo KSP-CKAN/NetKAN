@@ -6,9 +6,7 @@
     "conflicts": [
         { "name": "NavballDockingIndicator"}
     ],
-    "provides": [
-        { "name": "NavballDockingIndicator"}
-    ],
+    "provides": [ "NavballDockingIndicator" ],
     "install": [
         {
             "find": "NavBallDockingAlignmentIndicator",
