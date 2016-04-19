@@ -6,6 +6,9 @@
     "depends":[
         { "name": "Contares-Common" }
     ],
+    "conflicts": [
+        { "name": "Contares" }
+    ],
     "install":[
         {
             "find": "Contares",
