@@ -5,9 +5,9 @@
 	"license"		: "CC-BY-SA-3.0",
 	"name"			: "KWRocketry Instant Power Response Configs",
 	"abstract"		: "For instant power response on engines",
-	"provides"		: [ "KWPowerResponse" ],
+	"provides"		: [ "KWRocketryRedux-power" ],
 	"conflicts" : [
-		{ "name" : "KWRocketryRedux-GraduatedPwr" }
+		{ "name" : "KWRocketryRedux-power" }
 	],
 	"depends" : [
 		{ "name" : "KWRocketryRedux" }

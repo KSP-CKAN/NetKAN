@@ -10,7 +10,7 @@
 	},
 	"depends": [
 		{ "name" : "ModuleManager" },
-		{ "name" : "KWPowerResponse" }
+		{ "name" : "KWRocketryRedux-power" }
 	],
 	"conflicts" : [
 		{ "name" : "KWRocketry" },
@@ -19,7 +19,7 @@
 	],
 	"install"	  : [
 		{
-			"find"	  : "KWRocketry",
+			"find"	  : "KWRocketry/GameData/KWRocketry",
 			"install_to": "GameData"
 		}
 	]
