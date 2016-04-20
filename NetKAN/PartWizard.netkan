@@ -1,0 +1,22 @@
+{
+	"spec_version": "v1.4",
+	"$kref": "#/ckan/github/ozraven/PartWizard",
+	"identifier": "PartWizard",
+	"release_status": "stable",
+	"license" : "BSD-3-clause",
+	"author": "ozraven",
+	"resources": {
+		"homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/72468-11-part-wizard-124-20-apr-2016/",
+		"repository": "https://github.com/ozraven/PartWizard",
+		"x_curse": "http://kerbal.curseforge.com/projects/part-wizard"
+	},
+	"suggests": [
+		{ "name": "Toolbar" }
+	],
+    "install" : [
+        {
+            "find"       : "PartWizard",
+            "install_to" : "GameData"
+        }
+    ]
+}
