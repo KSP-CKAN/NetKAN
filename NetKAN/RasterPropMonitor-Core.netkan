@@ -1,5 +1,5 @@
 {
-    "spec_version"   : 1,
+    "spec_version"   : "v1.4",
     "identifier"     : "RasterPropMonitor-Core",
     "name"           : "RasterPropMonitor Core",
     "$kref"          : "#/ckan/github/Mihara/RasterPropMonitor",
@@ -14,8 +14,7 @@
     ],
     "install" : [
         {
-            "file"       : "GameData/JSI",
-            "filter": ["Agencies", "RPMPodPatches"],
+            "find"       : "JSI/RasterPropMonitor",
             "install_to" : "GameData"
         }
     ],
