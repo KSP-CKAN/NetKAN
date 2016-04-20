@@ -1,20 +1,12 @@
 {
     "spec_version"   : 1,
-    "$kref"          : "#/ckan/github/Nhawks1717/StockVisualEnhancements/asset_match/(?<=-MR)\\.zip$",
+    "$kref"          : "#/ckan/spacedock/58",
     "identifier"     : "StockVisualEnhancements",
-    "name"           : "Stock Visual Enhancements",
-    "abstract"       : "Think your planets are dull and boring in stock? Well think no more! Let your mind wander free in the beauty that is Stock Visual Enhancements!",
-    "author"         : "Nhawks1717",
     "license"        : "CC-BY-NC-SA",
     "release_status" : "stable",
-    "resources": {
-        "homepage": "http://forum.kerbalspaceprogram.com/threads/137223",
-        "repository": "https://github.com/Nhawks1717/StockVisualEnhancements"
-    },
-    "ksp_version": "1.0.5",
+    "x_netkan_epoch" : "1",
     "depends": [
-        { "name": "EnvironmentalVisualEnhancements" },
-        { "name": "SVE-Textures" }
+        { "name": "EnvironmentalVisualEnhancements" }
     ],
     "recommends": [
         { "name": "Kopernicus" },
@@ -23,9 +15,7 @@
     "install": [
         {
             "file"       : "GameData/StockVisualEnhancements",
-            "install_to" : "GameData",
-            "filter"     : "EVE",
-            "comment"    : "Filter the EVE folder so that the textures can be chosen by the user and to prevent installation problems."
+            "install_to" : "GameData"
         }
     ]
 }
