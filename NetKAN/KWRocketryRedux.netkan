@@ -2,6 +2,7 @@
 	"spec_version"	: "v1.4",
 	"identifier"	: "KWRocketryRedux",
 	"$kref"			: "#/ckan/github/linuxgurugamer/KWRocketryRedux",
+	"$vref"           : "#/ckan/ksp-avc",
 	"license"		: "CC-BY-SA-3.0",
 	"name"			: "KW Rocketry Redux, including the Community Fixes",
 	"abstract"		: "This is the full KW Rocketry with the Community Fixes included.  Repackaged so that the power configs are selecteable in CKAN",
