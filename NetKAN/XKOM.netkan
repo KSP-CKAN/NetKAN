@@ -2,8 +2,7 @@
     "$kref": "#/ckan/spacedock/529",
     "identifier": "XKOM",
     "spec_version": "v1.4",
-    "license": "restricted",
-    "comment": "The license is a custom job. The assets are probably ok to distribute in this form, but best if we stay out of it",
+    "license": "unknown",
     "install": [
         {
             "file": "XKOM",
