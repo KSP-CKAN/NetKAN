@@ -4,7 +4,7 @@
 	"$kref"			: "#/ckan/github/linuxgurugamer/KWRocketryRedux",
 	"$vref"           : "#/ckan/ksp-avc",
 	"license"		: "CC-BY-SA-3.0",
-	"name"			: "KWRocketry Instant Power Response Configs",
+	"name"			: "KW Rocketry Redux - Instant Power Response Configs",
 	"abstract"		: "For instant power response on engines",
 	"provides"		: [ "KWRocketryRedux-power" ],
 	"conflicts" : [
