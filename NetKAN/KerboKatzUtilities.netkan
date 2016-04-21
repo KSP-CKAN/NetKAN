@@ -2,7 +2,9 @@
     "spec_version" : "v1.4",
     "identifier"   : "KerboKatzUtilities",
     "$kref"        : "#/ckan/github/Xarun/KerboKatzUtilities",
-    "ksp_version": "1.1.0",
+    "name"         : "KerboKatzUtilities",
+    "abstract"     : "Utilities used in all KerboKatz mods.",
+    "ksp_version"  : "1.1.0",
     "license"      : "restricted",
     "resources": {
         "bugtracker"   : "https://github.com/Xarun/KerboKatzUtilities/issues",
