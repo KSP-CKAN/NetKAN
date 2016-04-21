@@ -1,22 +1,20 @@
 {
-    "spec_version"   : 1,
-    "author"        : "ferram4",
-    "name"      : "Ferram Aerospace Research",
-    "abstract"      : "FAR replaces KSP's stock part-centered aerodynamics model with one based on real-life physics.",
-    "identifier"     : "FerramAerospaceResearch",
-    "$kref"          : "#/ckan/github/ferram4/Ferram-Aerospace-Research",
-    "license"        : "GPL-3.0",
-    "x_netkan_epoch" : "3",
+    "spec_version": 1,
+    "identifier": "FerramAerospaceResearch",
+    "$kref": "#/ckan/github/ferram4/Ferram-Aerospace-Research",
+    "$vref": "#/ckan/ksp-avc",
+    "x_netkan_epoch": "3",
     "x_netkan_version_edit": "^[vV]?(?<version>\\d+(?:\\.\\d+){0,3}[A-Za-z]?)(?:_[A-Za-z0-9_]+)?$",
-    "release_status" : "stable",
+    "name": "Ferram Aerospace Research",
+    "abstract": "FAR replaces KSP's stock part-centered aerodynamics model with one based on real-life physics.",
+    "author": "ferram4",
+    "license": "GPL-3.0",
     "resources" : {
         "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/19321-/",
-        "repository" : "https://github.com/ferram4/Ferram-Aerospace-Research"
+        "repository": "https://github.com/ferram4/Ferram-Aerospace-Research"
     },
-    "ksp_version"  : "1.0.5",
     "provides"  : [ "AerodynamicModel", "FAR" ],
     "conflicts" : [ { "name" : "AerodynamicModel" } ],
-
     "depends" : [
         { "name" : "ModuleManager" },
         { "name" : "ModularFlightIntegrator" }
