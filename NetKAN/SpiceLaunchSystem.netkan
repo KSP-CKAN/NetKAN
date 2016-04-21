@@ -1,7 +1,9 @@
 {
-    "$kref": "#/ckan/kerbalstuff/635",
-    "spec_version": 1,
+    "license": "restricted",
     "identifier": "SpiceLaunchSystem",
-    "x_via": "Automated KerbalStuff CKAN submission",
-    "license": "WTFPL"
+    "$kref": "#/ckan/spacedock/434",
+    "spec_version": 1,
+    "recommends": [
+        { "name": "RealismOverhaul" }
+    ]
 }

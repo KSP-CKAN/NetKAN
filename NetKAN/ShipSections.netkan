@@ -17,7 +17,7 @@
     ],
     "depends": [
         { "name": "ModuleManager",
-	  "min_version": "2.6.7",
-	  "comment": "This mod uses the notification feature added in 2.6.7." }
+      "min_version": "2.6.7",
+      "comment": "This mod uses the notification feature added in 2.6.7." }
     ]
 }

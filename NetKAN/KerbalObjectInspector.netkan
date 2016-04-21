@@ -1,6 +1,11 @@
 {
-    "$kref": "#/ckan/kerbalstuff/1377",
-    "spec_version": "v1.4",
-    "license": "GPL-3.0",
-    "identifier": "KerbalObjectInspector"
+    "spec_version" : "v1.4",
+    "$kref"        : "#/ckan/spacedock/261",
+    "identifier"   : "KerbalObjectInspector",
+    "license"      : "GPL-3.0",
+    "resources" : {
+        "homepage"     : "http://forum.kerbalspaceprogram.com/index.php?/topic/129030-ksp-10x-kerbal-object-inspector-view-all-game-objects-in-ksp/",
+        "bugtracker"   : "https://github.com/Nifty255/KerbalObjectInspector/issues",
+        "repository"   : "https://github.com/Nifty255/KerbalObjectInspector"
+    }
 }

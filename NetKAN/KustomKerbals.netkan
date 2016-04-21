@@ -1,14 +1,14 @@
 {
     "spec_version": 1,
-    "$kref": "#/ckan/kerbalstuff/1101",
+    "$kref": "#/ckan/spacedock/423",
     "$vref" : "#/ckan/ksp-avc",
-    "license": "MIT",
+    "x_netkan_license_ok": true,
     "identifier": "KustomKerbals",
     "install": [
         {
             "file"       : "KustomKerbals",
             "install_to" : "GameData",
-            "filter"     : ".DS_Store"
+            "filter"     : [ ".DS_Store", "MiniAVC.xml" ]
         }
     ]
 }

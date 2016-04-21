@@ -1,7 +1,7 @@
 {
     "spec_version": "v1.2",
     "identifier": "AlternatorsForAll",
-    "$kref": "#/ckan/kerbalstuff/1291",
+    "$kref": "#/ckan/spacedock/186",
     "license": "MIT",
     "depends": [
         { "name": "ModuleManager" }
@@ -19,5 +19,6 @@
             "file"       : "Optional/SRB alternators/GameData/The_Sea_Four",
             "install_to" : "GameData"
         }
-    ]
+    ],
+    "x_netkan_epoch": "1"
 }

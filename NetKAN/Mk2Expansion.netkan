@@ -1,17 +1,15 @@
 {
     "spec_version": "v1.4",
     "identifier": "Mk2Expansion",
-    "$kref": "#/ckan/kerbalstuff/790",
-    "license": "CC-BY-4.0",
+    "$kref": "#/ckan/spacedock/473",
+    "license": "CC-BY-NC-4.0",
     "depends": [
-        { "name": "KlockheedMartian-Gimbal" },
-        { "name": "FirespitterCore" },
-        { "name": "ModuleManager", "min_version": "2.5.3" },
+        { "name": "ModuleManager" },
         { "name": "CommunityResourcePack" },
-        { "name": "InterstellarFuelSwitch-Core" }
+        { "name": "InterstellarFuelSwitch" }
     ],
     "suggests": [
-	{ "name": "FerramAerospaceResearch" }
+    { "name": "FerramAerospaceResearch" }
     ],
     "install" : [
         {

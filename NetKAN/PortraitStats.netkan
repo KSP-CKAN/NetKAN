@@ -1,7 +1,6 @@
 {
-    "x_via": "Automated KerbalStuff CKAN submission",
     "spec_version": 1,
-    "license": "MIT",
-    "$kref": "#/ckan/kerbalstuff/899",
-    "identifier": "PortraitStats"
+    "identifier": "PortraitStats",
+    "$kref": "#/ckan/spacedock/133",
+    "license": "MIT"
 }

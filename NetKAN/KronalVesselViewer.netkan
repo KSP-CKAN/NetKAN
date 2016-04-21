@@ -1,12 +1,11 @@
 {
-    "spec_version" : 1,
-    "identifier"   : "KronalVesselViewer",
-    "$kref"        : "#/ckan/kerbalstuff/211",
-    "install"      : [
+    "spec_version": 1,
+    "identifier"  : "KronalVesselViewer",
+    "$kref"       : "#/ckan/spacedock/452",
+    "install": [
         { "file" : "GameData/KronalUtils",
           "install_to" : "GameData"
         }
     ],
-    "license" : "unrestricted"
-
+    "license": "unrestricted"
 }

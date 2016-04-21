@@ -3,16 +3,21 @@
     "identifier"    : "RN-USRockets",
     "name"          : "US Rockets",
     "author"        : "Raidernick",
-    "abstract"      : "This mod contains some obscure US rockets. I will be adding to it occasionally.",
+    "abstract"      : "This mod contains older, more obscure US rockets like Thor, Delta, Vanguard, Juno, Scout and even sounding rockets such as Aerobee.",
     "resources": {
-        "homepage"  : "https://github.com/KSP-RO/USRockets"
+        "homepage"  : "http://forum.kerbalspaceprogram.com/index.php?/topic/98791-105"
     },
     "$kref"         : "#/ckan/github/KSP-RO/USRockets",
     "license"       : "CC-BY-NC-ND-3.0",
-    "ksp_version"   : "1.0",
+    "ksp_version"   : "1.0.5",
     "install"       : [
     {
         "find"      : "RN_US_Rockets",
         "install_to": "GameData"
-    }]
+    }],
+    "depends": [
+        { "name": "KlockheedMartian-Gimbal" },
+        { "name": "ReflectionPlugin" },
+        { "name": "SmokeScreen" }
+    ]
 }

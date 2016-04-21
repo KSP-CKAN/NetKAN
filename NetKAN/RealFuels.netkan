@@ -29,9 +29,6 @@
         { "name" : "StockFuelSwitch" },
         { "name" : "EngineIgnitor" }
     ],
-    "recommends" : [
-        { "name" : "CrossFeedEnabler" }
-    ],
     "x_netkan_override" : [
         {
             "version" : "<=rf-v10.4.9",

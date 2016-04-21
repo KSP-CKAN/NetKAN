@@ -1,0 +1,16 @@
+{
+    "spec_version": "v1.2",
+    "identifier": "UniversalStorage-TAC",
+    "$kref"     : "#/ckan/kerbalstuff/364",
+    "license"   : "restricted",
+    "depends" : [
+        { "name" : "UniversalStorage" }
+    ],
+    "install": [
+        {
+            "file"       : "Readme US-TAC.txt",
+            "install_to" : "GameData/UniversalStorage",
+            "filter"     : "US License.pdf"
+        }
+    ]
+}

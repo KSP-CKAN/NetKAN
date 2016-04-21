@@ -1,15 +1,16 @@
 {
-    "spec_version" : "v1.2",
-    "$kref"        : "#/ckan/kerbalstuff/598",
+    "spec_version" : "v1.4",
     "identifier"   : "CraftHistory",
+    "$kref"        : "#/ckan/spacedock/82",
+    "$vref"        : "#/ckan/ksp-avc",
     "license"      : "restricted",
-    "install" : [
-        {
-            "file"          : "GameData/KerboKatz/CraftHistory",
-            "install_to"    : "GameData/KerboKatz"
-        }
+    "depends": [
+        { "name": "KerboKatzUtilities", "min_version": "1.2.0" }
     ],
-    "depends" : [
-        { "name" : "KerboKatzUtilities" }
+    "install": [
+        {
+            "find"       : "CraftHistory",
+            "install_to" : "GameData/KerboKatz"
+        }
     ]
 }

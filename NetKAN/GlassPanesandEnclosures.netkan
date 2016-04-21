@@ -1,12 +1,19 @@
 {
     "spec_version": "v1.4",
-    "$kref": "#/ckan/kerbalstuff/727",
-    "license": "GPL-3.0",
+    "$kref": "#/ckan/spacedock/312",
+    "author": [ "2001kraft", "Nazari1382" ],
+    "license": "restricted",
     "identifier": "GlassPanesandEnclosures",
-	"resources" : {
-        "homepage"     : "http://forum.kerbalspaceprogram.com/threads/118387"
+    "resources" : {
+        "homepage"     : "http://forum.kerbalspaceprogram.com/index.php?/topic/106633-105-glass-panes-and-enclosures"
     },
-	"install"	:	[ { "find" : "Parts",
-						"install_to" : "GameData/GlassPanesandEnclosures",
-						"filter" : ".DS_Store" } ]
+    "depends": [
+        { "name": "ModuleManager" }
+    ],
+    "install"   :   [ 
+        { 
+            "find" : "GlassThings",
+            "install_to" : "GameData"
+        }
+    ]
 }

@@ -1,7 +1,7 @@
 {
     "spec_version": "v1.4",
     "identifier": "KerbalNRAP",
-    "$kref": "#/ckan/kerbalstuff/89",
+    "$kref": "#/ckan/spacedock/386",
     "license": "CC-BY-SA",
     "install": [
         { "file": "GameData/NRAP", "install_to": "GameData" }

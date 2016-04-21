@@ -8,11 +8,11 @@
     "ksp_version"  : "1.0",
     "recommends" : [
         { "name" : "Toolbar" },
-		{ "name" : "FerramAerospaceResearch" }
+        { "name" : "FerramAerospaceResearch" }
     ],
-	"resources" : {
-		"homepage" : "http://forum.kerbalspaceprogram.com/threads/80842"
-	},
-	"author" : "DaMichel",
-	"release_status" : "stable"
+    "resources" : {
+        "homepage" : "http://forum.kerbalspaceprogram.com/threads/80842"
+    },
+    "author" : "DaMichel",
+    "release_status" : "stable"
 }

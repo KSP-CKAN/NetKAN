@@ -4,7 +4,7 @@
     "abstract"  : "Orion drive for KSP based on Nyraths work",
     "name"      : "Orion TD edition",
     "license"   : "MIT",
-    "$kref"     : "#/ckan/kerbalstuff/679",
+    "$kref"     : "#/ckan/spacedock/149",
     "install"   : [
         {
             "find"       : "USAFOrionTD",
@@ -17,5 +17,8 @@
         },
     "recommends" : [
         { "name" : "TDIndustrysOrionbits10m" }
+    ],
+    "conflicts"  : [
+        { "name" : "NyrathsUSAFOrion"}
     ]
 }

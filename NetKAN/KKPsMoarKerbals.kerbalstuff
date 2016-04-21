@@ -1,0 +1,9 @@
+{
+    "identifier": "KKPsMoarKerbals",
+    "license": "CC-BY-NC-SA-4.0",
+    "$kref": "#/ckan/kerbalstuff/461",
+    "spec_version": "v1.4",
+    "install": [
+        { "file": "GameData/KKP", "install_to": "GameData" }
+    ]
+}

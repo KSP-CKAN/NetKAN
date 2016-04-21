@@ -1,11 +1,11 @@
 {
-    "spec_version": 1,
-    "license": "BSD-2-clause",
+    "license": "MIT",
     "identifier": "Multiports",
-    "$kref": "#/ckan/kerbalstuff/1107",
+    "spec_version": "v1.4",
+    "$kref": "#/ckan/spacedock/360",
     "install": [
         {
-            "file"       : "Multiports",
+            "find"       : "Multiports",
             "install_to" : "GameData"
         }
     ]

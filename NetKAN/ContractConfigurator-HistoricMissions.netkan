@@ -1,14 +1,15 @@
 {
     "spec_version": "v1.2",
     "license": "CC-BY-NC-SA-4.0",
-    "$kref": "#/ckan/kerbalstuff/928",
+    "$kref": "#/ckan/spacedock/450",
     "identifier": "ContractConfigurator-HistoricMissions",
+    "abstract": "This pack currently adds 541... yes you read correctly... 541 contracts to the base game following the historic progression of both NASA and its Russian counterparts, each mission has been made into a contract for the game. This version is for non RSS/RO KSP",
     "depends": [
         { "name": "ContractConfigurator" }
     ],
     "install": [
         {
-            "file"       : "HistoricMissions/RegularVersion/Full Pack/ContractPacks/HistoricMissions",
+            "file"       : "HistoricMissions/RegularVersion/4. Full Pack (1940 - Present)/ContractPacks/HistoricMissions",
             "install_to" : "GameData/ContractPacks",
             "filter_regexp" : "EXAMPLECRAFT",
             "comment" : "EXAMPLECRAFT requires SCANsat and RemoteTech while the rest of the mod does not"

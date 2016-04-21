@@ -1,17 +1,20 @@
 {
   "spec_version": 1,
-  "$kref": "#/ckan/kerbalstuff/261",
+  "$kref": "#/ckan/spacedock/189",
+  "$vref": "#/ckan/ksp-avc",
   "identifier": "ShipManifest",
   "release_status": "stable",
   "license" : "CC-BY-NC-SA-4.0",
   "resources": {
-    "homepage": "http://forum.kerbalspaceprogram.com/threads/62270",
+    "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/56643-/",
     "repository": "https://github.com/PapaJoesSoup/ShipManifest",
     "x_curse": "http://kerbal.curseforge.com/plugins/220357-ship-manifest"
   },
   "suggests": [
-    { "name": "CLS" },
+    { "name": "ConnectedLivingSpace" },
     { "name": "Toolbar" },
+    { "name": "DeepFreeze" },
+    { "name": "RemoteTech" },
     { "name": "ModuleManager" }
   ]
 }

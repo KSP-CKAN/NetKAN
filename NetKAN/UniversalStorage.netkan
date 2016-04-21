@@ -1,11 +1,16 @@
 {
     "spec_version" : "v1.4",
     "identifier"   : "UniversalStorage",
-    "$kref"        : "#/ckan/kerbalstuff/250",
-    "license"      : "restricted",	
+    "$kref"        : "#/ckan/spacedock/329",
+    "license"      : "restricted",
     "depends"      : [
         { "name" : "CommunityResourcePack" },
         { "name" : "ModuleManager" }
+    ],
+    "suggests"     : [
+        { "name" : "KIS" },
+        { "name" : "DMagicOrbitalScience" },
+        { "name" : "ConnectedLivingSpace" }
     ],
     "x_conflicts": [
         { "name": "UniversalStorage-ECLSS" },

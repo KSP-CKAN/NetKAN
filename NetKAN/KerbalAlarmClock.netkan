@@ -1,22 +1,24 @@
 {
-	"spec_version": "v1.4",
-	"$kref": "#/ckan/github/TriggerAu/KerbalAlarmClock",
-    "$vref"          : "#/ckan/ksp-avc",
-	"name": "Kerbal Alarm Clock",
-	"identifier": "KerbalAlarmClock",
-	"abstract": "An in-game alarm clock to help you stop missing important moments",
-	"license": "MIT",
-	"release_status": "stable",
-	"author": "TriggerAu",
-	"resources": {
-		"homepage": "http://forum.kerbalspaceprogram.com/threads/24786",
-		"license": "https://github.com/TriggerAu/KerbalAlarmClock/blob/master/LICENSE",
-		"repository"   : "https://github.com/TriggerAu/KerbalAlarmClock",
-		"kerbalstuff": "https://kerbalstuff.com/mod/231/Kerbal%20Alarm%20Clock",
-		"manual": "http://triggerau.github.io/KerbalAlarmClock/",
-		"x_curse": "http://kerbal.curseforge.com/ksp-mods/220289-kerbal-alarm-clock"
-	},
-	"install" : [
+    "spec_version": "v1.4",
+    "$kref": "#/ckan/github/TriggerAu/KerbalAlarmClock",
+    "$vref": "#/ckan/ksp-avc",
+    "name": "Kerbal Alarm Clock",
+    "identifier": "KerbalAlarmClock",
+    "abstract": "An in-game alarm clock to help you stop missing important moments",
+    "license": "MIT",
+    "release_status": "stable",
+    "author": "TriggerAu",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/24786",
+        "license": "https://github.com/TriggerAu/KerbalAlarmClock/blob/master/LICENSE",
+        "repository"   : "https://github.com/TriggerAu/KerbalAlarmClock",
+        "manual": "http://triggerau.github.io/KerbalAlarmClock/",
+        "x_curse": "http://kerbal.curseforge.com/ksp-mods/220289-kerbal-alarm-clock"
+    },
+    "depends"  :[
+        { "name" : "TriggerAu-Flags" }
+    ],
+    "install" : [
             {
                 "find"       : "KerbalAlarmClock",
                 "install_to" : "GameData/TriggerTech"

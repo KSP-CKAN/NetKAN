@@ -1,22 +1,22 @@
 {
-    "spec_version": "v1.4",
-    "$kref": "#/ckan/kerbalstuff/718",
-    "license": "CC-BY-NC",
-    "identifier": "InterstellarFuelSwitch",
-	"depends"	:	[ { "name" : "InterstellarFuelSwitch-Core" },
-				{ "name" : "ModuleManager" } ],
-	"install"	:	[ { "find" : "InterstellarFuelSwitch",
-						"install_to" : "GameData",
-						"filter" : "Plugins" } ],
-	"abstract"       : "Library that enables switching the contents, meshes, and textures of tanks.",
-	"description"    : "Interstellar Fuel Switch is mend for mod makers which want to add resource/mesh/texture switching to their tanks\nInterstellar Fuel Switch is an improved version of FSFuelSwitch, FSMeshSwitch and FSTextureSwitch, FSTextureSwitch2 made by Snjo",
-    "suggests":[
-	{ "name" : "CommunityResourcePack" }
+    "spec_version" : "v1.4",
+    "$kref"        : "#/ckan/spacedock/175",
+    "identifier"   : "InterstellarFuelSwitch",
+    "license"      : "GPL-2.0",
+    "install": [
+        {
+            "find" : "InterstellarFuelSwitch",
+            "install_to" : "GameData",
+            "filter" : "Plugins"
+        }
     ],
-	"resources" : {
-		"homepage"     : "http://forum.kerbalspaceprogram.com/threads/117932",
-		"bugtracker"   : "https://github.com/sswelm/KSPInterstellar/issues",
-		"repository"   : "https://github.com/sswelm/KSPInterstellar/tree/master/FuelSwitch",
-		"kerbalstuff"  : "https://kerbalstuff.com/mod/718"
-	}
+    "depends" : [
+        { "name" : "CommunityResourcePack", "min_version" : "0.4.5" },
+        { "name" : "InterstellarFuelSwitch-Core", "min_version" : "1.18" },
+        { "name" : "ModuleManager" }
+    ],
+    "abstract" : "Library that enables switching the contents, meshes, and textures of tanks.",
+    "resources" : {
+        "bugtracker"   : "https://github.com/sswelm/KSPInterstellar/issues"
+    }
 }

@@ -1,10 +1,10 @@
 {
     "license": "CC-BY-NC-SA-4.0",
-    "$kref": "#/ckan/kerbalstuff/1395",
+    "$kref": "#/ckan/spacedock/401",
     "spec_version": "v1.4",
     "identifier": "STMsFFRibbonPackOfficerRanks",
     "install": [
-      { 
+      {
         "find": "GameData/STMRibbons",
         "install_to": "GameData"
       }

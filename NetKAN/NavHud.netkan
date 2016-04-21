@@ -2,14 +2,14 @@
     "spec_version"   : 1,
     "identifier"     : "NavHud",
     "$kref"          : "#/ckan/github/Ninenium/NavHud",
-    "ksp_version"    : "1.0",
+    "ksp_version"    : "1.1.0",
     "license"        : "MIT",
     "name"           : "NavHud",
     "abstract"       : "a NavBall inspired Heads Up Display",
     "resources": {
         "homepage": "http://forum.kerbalspaceprogram.com/threads/81543"
     },
-	"install": [
+    "install": [
         {
             "file": "GameData/NavHud",
             "install_to": "GameData"

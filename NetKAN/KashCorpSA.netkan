@@ -5,15 +5,10 @@
         "abstract" : "Shared assets for KashCorp mods",
         "comment" : "KashCorp Shared Assets based off KAP zip file",
         "license" : "BSD-3-clause",
-		"resources": 
-		{ 
-			"homepage": "http://forum.kerbalspaceprogram.com/threads/87546" 
-		},
-        "$kref" : "#/ckan/kerbalstuff/96",
+        "$kref": "#/ckan/spacedock/122",
         "depends" : [
                 { "name"        : "ModuleManager" }
         ],
-		
         "install" : [
                 {
                         "find" : "KashCorp",

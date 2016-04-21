@@ -1,48 +1,53 @@
 {
-	"spec_version": 1,
-	"identifier": "CustomAsteroids",
-	"$kref": "#/ckan/kerbalstuff/251",
-	"$vref" : "#/ckan/ksp-avc",
-	"x_netkan_license_ok" : true,
-	"resources": {
-		"repository": "https://github.com/Starstrider42/Custom-Asteroids",
-		"bugtracker": "https://github.com/Starstrider42/Custom-Asteroids/issues",
-		"manual": "http://starstrider42.github.io/Custom-Asteroids/"
-	},
-	"depends": [
-		{ "name": "CustomAsteroids-Pops"}
-	],
-	"recommends": [
-		{ "name": "CustomAsteroids-Pops-Stock-Inner"}, 
-		{ "name": "CustomAsteroids-Pops-Stock-Outer"}
-	],
-	"conflicts": [
-		{ "name" : "Kopernicus", "min_version": "1:beta-06" }
-	],
-	"install": [
-		{
-			"file": "GameData/CustomAsteroids",
-			"install_to": "GameData",
-			"filter": "config"
-		}
-	],
-	"x_netkan_override" : [
-		{
-			"version" : "v1.1.0",
-			"override" : {
-				"ksp_version_min": "0.25",
-				"ksp_version_max": "1.0.4"
-			},
-			"delete" : [ "ksp_version" ]
-		},
-		{
-			"version" : "v1.2.0",
-			"override" : {
-				"ksp_version_min": "1.0.0",
-				"ksp_version_max": "1.0.5"
-			},
-			"delete" : [ "ksp_version" ]
-		}
-	],
-	"x_maintained_by": "Starstrider42"
+    "spec_version": 1,
+    "identifier": "CustomAsteroids",
+    "$kref": "#/ckan/spacedock/210",
+    "$vref" : "#/ckan/ksp-avc",
+    "x_netkan_license_ok" : true,
+    "resources": {
+        "repository": "https://github.com/Starstrider42/Custom-Asteroids",
+        "bugtracker": "https://github.com/Starstrider42/Custom-Asteroids/issues",
+        "manual": "http://starstrider42.github.io/Custom-Asteroids/"
+    },
+    "depends": [
+        { "name": "CustomAsteroids-Pops"}
+    ],
+    "recommends": [
+        { "name": "CustomAsteroids-Pops-Stock-Inner"},
+        { "name": "CustomAsteroids-Pops-Stock-Outer"}
+    ],
+    "install": [
+        {
+            "file": "GameData/CustomAsteroids",
+            "install_to": "GameData",
+            "filter": "config"
+        }
+    ],
+    "x_netkan_override" : [
+        {
+            "version" : "v1.1.0",
+            "override" : {
+                "ksp_version_min": "0.25",
+                "ksp_version_max": "1.0.4"
+            },
+            "delete" : [ "ksp_version" ]
+        },
+        {
+            "version" : "v1.2.0",
+            "override" : {
+                "ksp_version_min": "1.0.0",
+                "ksp_version_max": "1.0.5"
+            },
+            "delete" : [ "ksp_version" ]
+        },
+        {
+            "version" : "< v1.2.0",
+            "override" : {
+                "conflicts": [
+                    { "name" : "Kopernicus", "min_version": "1:beta-06" }
+                ]
+            }
+        }
+    ],
+    "x_maintained_by": "Starstrider42"
 }

@@ -1,0 +1,22 @@
+{
+    "$kref": "#/ckan/spacedock/518",
+    "identifier": "KerbinSideGroundControl",
+    "spec_version": "v1.4",
+    "license": "BSD-3-clause",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/74776-11-kerbin-side"
+    },
+    "depends": [
+        { "name": "KerbalKonstructs" }
+    ],
+    "provides" : [ "KerbinSide-virt" ],
+    "conflicts": [
+        { "name": "KerbinSide-virt" }
+    ],
+    "install": [
+        {
+            "find": "KerbinSide",
+            "install_to": "GameData"
+        }
+    ]
+}

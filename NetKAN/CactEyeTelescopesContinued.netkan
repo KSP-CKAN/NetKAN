@@ -20,14 +20,14 @@
         }
     ],
     "x_netkan_override" : [
-		{
-			"version" : "v0.6.10",
-			"delete" : [ "ksp_version" ],
-			"override" : {
-				"ksp_version_min" : "1.0.4",
-				"ksp_version_max" : "1.0.5"
-			}
-		}
+        {
+            "version" : "v0.6.10",
+            "delete" : [ "ksp_version" ],
+            "override" : {
+                "ksp_version_min" : "1.0.4",
+                "ksp_version_max" : "1.0.5"
+            }
+        }
     ],
     "x_netkan_force_v": true
 }

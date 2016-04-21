@@ -1,0 +1,17 @@
+{
+    "spec_version" : 1,
+    "identifier"   : "SpannersBoomsticks",
+    "$kref"        : "#/ckan/kerbalstuff/225",
+    "license": "restricted",
+
+    "depends": [
+        { "name": "BDArmory" }
+    ],
+
+    "install": [
+        {
+            "file": "SpannersBoomSticks1",
+            "install_to": "GameData"
+        }
+    ]
+}

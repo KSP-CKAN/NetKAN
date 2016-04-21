@@ -1,8 +1,7 @@
 {
     "spec_version" : 1,
     "identifier"   : "ImageViewer",
-    "$kref"        : "#/ckan/kerbalstuff/76",
-    "x_netkan_license_ok" : true,
+    "$kref"        : "#/ckan/spacedock/80",
     "license": "GPL-3.0",
 
     "install": [

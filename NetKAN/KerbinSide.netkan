@@ -1,17 +1,23 @@
 {
-    "spec_version"   : "v1.2",
-    "identifier"     : "KerbinSide",
-    "$kref"          : "#/ckan/kerbalstuff/77",
-    "license"        : "BSD-3-clause",
+    "spec_version": "v1.4",
+    "$kref": "#/ckan/spacedock/150",
+    "license": "BSD-3-clause",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/74776-11-kerbin-side"
+    },
+    "identifier": "KerbinSide",
     "x_netkan_epoch" : "1",
-    "depends"        : [
+    "depends": [
         { "name": "KerbalKonstructs" }
     ],
-    "install"        : [
-      {
-        "file"  : "GameData/KerbinSide",
-        "install_to" : "GameData",
-        "filter": "AirRace"
-      }
+    "provides" : [ "KerbinSide-virt" ],
+    "conflicts": [
+        { "name": "KerbinSide-virt" }
+    ],
+    "install": [
+        {
+            "find": "KerbinSide",
+            "install_to": "GameData"
+        }
     ]
 }

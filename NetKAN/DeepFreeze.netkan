@@ -2,14 +2,14 @@
     "identifier": "DeepFreeze",
     "x_via": "Author JPLRepo",
     "spec_version": "v1.4",
-    "$kref": "#/ckan/kerbalstuff/895",
+    "$kref": "#/ckan/spacedock/142",
     "$vref": "#/ckan/ksp-avc",
     "license": "CC-BY-NC-SA-4.0",
     "depends" : [
         { "name" : "ModuleManager", "min_version" : "2.3.5" },
         { "name" : "REPOSoftTech-Agencies" }
     ],
-    "recommends" : [ 
+    "recommends" : [
         { "name" : "Toolbar" },
         { "name" : "RasterPropMonitor" },
         { "name" : "BackgroundProcessing" },

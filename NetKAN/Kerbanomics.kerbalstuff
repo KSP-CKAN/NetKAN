@@ -1,0 +1,13 @@
+{
+    "spec_version"  : 1,
+    "identifier"    : "Kerbanomics",
+    "license"       : "GPL-3.0",
+    "$kref": "#/ckan/kerbalstuff/427",
+
+    "install": [
+        {
+            "file": "EvilCorp",
+            "install_to": "GameData"
+        }
+    ]
+}

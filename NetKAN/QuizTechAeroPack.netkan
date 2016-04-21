@@ -1,16 +1,26 @@
 {
     "identifier": "QuizTechAeroPack",
     "spec_version": "v1.4",
-    "$kref": "#/ckan/kerbalstuff/612",
+    "$kref": "#/ckan/spacedock/378",
     "license": "CC-BY-4.0",
-	"depends": [
-		{ "name": "FirespitterCore" },
-		{ "name": "BDAnimationModules" },
-        { "name": "RasterPropMonitor-Core" },
-        { "name": "ModuleManager"}
-	],
-	"install": [
-		{ "find": "QuizTechAero", "install_to": "GameData" },
+    "depends" : [
+        { "name": "ModuleManager" },
+        { "name": "FirespitterCore" },
+        { "name": "BDAnimationModules" },
+        { "name": "KlockheedMartian-Gimbal" }
+    ],
+    "recommends": [
+        { "name": "RasterPropMonitor-Core" }
+    ],
+    "suggests"     : [
+        { "name": "RasterPropMonitor" },
+        { "name": "ThrottleControlledAvionics" },
+        { "name": "B9AerospaceProceduralParts" },
+        { "name": "AdjustableLandingGear" },
+        { "name": "Mk2Essentials" }
+    ],
+    "install": [
+        { "find": "QuizTechAero", "install_to": "GameData" },
         { "find": "Ships/SPH", "install_to": "Ships"}
-	]
+    ]
 }

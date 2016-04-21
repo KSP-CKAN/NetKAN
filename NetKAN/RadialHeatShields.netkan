@@ -1,13 +1,17 @@
 {
     "spec_version": "v1.4",
     "license": "unrestricted",
-    "$kref": "#/ckan/kerbalstuff/1040",
+    "$kref": "#/ckan/spacedock/428",
     "identifier": "RadialHeatShields",
+    "depends": [
+        { "name": "ModuleManager" },
+        { "name": "TweakScale" }
+    ],
     "install": [
         {
-            "find"       : "RadialHeatShields",
+            "find"       : "OrionSpaceIndustries",
             "install_to" : "GameData",
-            "filter"     : ".DS_Store"
+            "filter"     : [ ".DS_Store", "Plugins" ]
         }
     ]
 }

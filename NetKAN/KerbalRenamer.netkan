@@ -1,8 +1,16 @@
 {
     "spec_version": 1,
-    "$kref": "#/ckan/kerbalstuff/730",
+    "$kref": "#/ckan/github/KSP-RO/KerbalRenamer",
     "license": "BSD-2-clause",
+    "name": "Kerbal Renamer",
+    "abstract": "Renames, re-stats, even gender-bends Kerbals procedurally.",
+    "author": "regex",
+    "license": "BSD-2-clause",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/117893"
+    },
+    "ksp_version": "1.0.5",
     "identifier": "KerbalRenamer",
-	"install"	:	[ { "file" : "KerbalRenamer/GameData/KerbalRenamer",
-						"install_to" : "GameData" } ]
+    "install"   :   [ { "file" : "KerbalRenamer/GameData/KerbalRenamer",
+                        "install_to" : "GameData" } ]
 }

@@ -1,0 +1,9 @@
+{
+    "$kref": "#/ckan/spacedock/533",
+    "spec_version": 1,
+    "identifier": "Kerbalism",
+    "license": "public-domain",
+    "depends": [
+        { "name": "ModuleManager" }
+    ]
+}

@@ -5,9 +5,12 @@
     "name"         : "Snacks",
     "abstract"     : "Add a simple life support system based on Snacks!",
     "license"      : "MIT",
-    "depends": [ 
-        { 
-            "name": "ModuleManager" 
+    "resources" : {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/81929-105-snacks-kerbal-simplified-life-support"
+    },
+    "depends": [
+        {
+            "name": "ModuleManager"
         }
     ],
     "comment" : "2015-06-28 Netkan version was hard coded 0.90, changed to min max, see PR discussion re: pjf",

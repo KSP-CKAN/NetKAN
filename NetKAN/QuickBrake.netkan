@@ -1,10 +1,16 @@
 {
-    "$kref": "#/ckan/kerbalstuff/764",
-    "x_via": "Automated KerbalStuff CKAN submission",
-    "identifier": "QuickBrake",
-    "license": "GPL-3.0",
-    "spec_version": "v1.00",
-	"install": [
-		{ "file": "GameData/QuickBrake", "install_to": "GameData" }
-	]
+    "spec_version" : 1,
+    "identifier"   : "QuickBrake",
+    "$kref"        : "#/ckan/spacedock/103",
+    "$vref"        : "#/ckan/ksp-avc",
+    "license"      : "GPL-3.0",
+    "install": [
+        {
+            "file"       : "GameData/QuickBrake",
+            "install_to" : "GameData"
+        }
+    ],
+    "suggests": [
+        { "name": "Toolbar" }
+    ]
 }

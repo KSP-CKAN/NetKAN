@@ -7,13 +7,13 @@
     "license"      : "CC-BY-SA-3.0",
     "ksp_version_min"  : "1.0.0",
     "ksp_version_max"  : "1.0.2",
-	"resources": {
+    "resources": {
         "homepage": "https://github.com/BahamutoD/BDAnimationModules"
     },
-	"install": [
-		{
-			"file": "GameData/BahaSP",
-			"install_to": "GameData"
-		}
-	]
+    "install": [
+        {
+            "file": "GameData/BahaSP",
+            "install_to": "GameData"
+        }
+    ]
 }

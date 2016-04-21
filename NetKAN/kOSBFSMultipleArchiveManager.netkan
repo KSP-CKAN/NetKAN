@@ -1,15 +1,20 @@
 {
-    "spec_version": "v1.4",
+    "spec_version": "v1.16",
     "identifier": "kOSBFSMultipleArchiveManager",
     "license": "GPL-3.0",
-    "$kref": "#/ckan/kerbalstuff/1167",
+    "$kref": "#/ckan/spacedock/433",
     "depends": [
         { "name": "kOS" }
     ],
     "install": [
         {
-            "find"       : "kos_ma",
+            "file"       : "GameData/kos_ma",
             "install_to" : "GameData"
+        },
+        {
+            "find_regexp"        : "^git.*dll$",
+            "install_to"         : "GameRoot",
+            "find_matches_files" : true
         }
     ]
 }

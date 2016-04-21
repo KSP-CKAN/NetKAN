@@ -1,10 +1,7 @@
 {
-    "$kref": "#/ckan/kerbalstuff/782",
+    "$kref": "#/ckan/spacedock/171",
     "spec_version": 1,
     "license": "MIT",
     "identifier": "JettisonFuel",
-    "resources" : {
-        "homepage"     : "https://kerbalstuff.com/mod/782/Jettison%20Fuel"
-    },
     "depends" : [ { "name" : "ModuleManager" } ]
-} 
+}

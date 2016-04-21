@@ -1,15 +1,20 @@
 {
     "spec_version": "v1.4",
     "identifier": "WW2Warships",
-    "$kref": "#/ckan/kerbalstuff/1308",
+    "$kref": "#/ckan/spacedock/232",
     "license": "CC-BY-SA-3.0",
+    "x_netkan_epoch": 1,
     "depends": [
         { "name": "BDArmory" },
         { "name": "NAS" }
     ],
+    "recommends": [
+        { "name": "KerbalJointReinforcement" }
+    ],
     "suggests": [
-        { "name": "Hyperedit" },
-        { "name": "HangarExtender" }
+        { "name": "HyperEdit" },
+        { "name": "HangarExtender" },
+        { "name": "KerboKatzSmallUtilities-PhysicalTimeRatioViewer" }
     ],
     "install": [
         {

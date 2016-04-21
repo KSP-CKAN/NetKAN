@@ -23,5 +23,15 @@
         }
     ],
     "x_netkan_epoch": "1",
-    "comment": "This mod used to be packaged differently but is now repackaged to allow an upgrade path."
+    "comment": "This mod used to be packaged differently but is now repackaged to allow an upgrade path.",
+    "x_netkan_override": [
+        {
+            "version": "1:v1.1.0",
+            "delete": [ "ksp_version" ],
+            "override": {
+                "ksp_version_min" : "1.0.4",
+                "ksp_version_max" : "1.0.5"
+            }
+        }
+    ]
 }

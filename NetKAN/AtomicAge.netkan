@@ -1,6 +1,5 @@
 {
-    "$kref": "#/ckan/kerbalstuff/744",
-    "x_via": "Automated KerbalStuff CKAN submission",
+    "$kref": "#/ckan/spacedock/316",
     "identifier": "AtomicAge",
     "spec_version": 1,
     "resources" : {
@@ -17,7 +16,7 @@
             "delete": [ "ksp_version" ],
             "override": {
                 "ksp_version_min": "1.0.2",
-                "ksp_version_max": "1.0.4"
+                "ksp_version_max": "1.0.5"
             }
         }
     ]

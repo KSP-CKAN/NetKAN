@@ -1,12 +1,30 @@
+
 {
-    "spec_version" : 1,
-    "identifier"   : "Kronkus",
-    "$kref"        : "#/ckan/kerbalstuff/1152",
-    "license"      : "CC0",
-    "x_netkan_license_ok": true,
-    "x_netkan_force_v": true,
+    "spec_version"  : "v1.4",
+    "identifier"    : "Kronkus",
+    "$kref"         : "#/ckan/github/MrChumley/Kronkus",
+    "x_netkan_epoch": "1",
+    "name"          : "Kronkus Planet Pack",
+    "abstract"      : "Kronkus planetary system",
+    "license"       : "CC0",
+    "author": [
+        "MrChumley"
+    ],
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/119202"
+    },
+    "ksp_version": "1.0.5",
     "depends": [
-        { "name": "Kopernicus", "min_version": "1:beta-05-2" },
-        { "name": "ModuleManager" }
+        { "name" : "ModuleManager", "min_version": "2.6.13" },
+        { "name" : "Kopernicus", "min_version": "1:beta-05-2" }
+    ],
+    "recommends": [
+        { "name": "Kronkus-clouds" }
+    ],
+    "install": [
+        {
+            "find"      : "Kronkus",
+            "install_to": "GameData"
+        }
     ]
 }

@@ -1,22 +1,37 @@
 {
+    "$kref": "#/ckan/spacedock/530",
+    "spec_version": "v1.4",
     "identifier": "ChopShop",
     "license": "GPL-3.0",
-    "$kref": "#/ckan/kerbalstuff/709",
-    "spec_version": "v1.4",
     "depends": [
         { "name": "ModuleManager" }
     ],
-	"recommends": [
-        { "name": "TweakScale" }
+    "recommends": [
+        { "name": "TweakScale" },
+        { "name": "RealFuels" },
+        { "name": "RemoteTech" }
     ],
-	"supports": [
-        { "name": "RemoteTech" },
-		{ "name": "RealFuels" },
-		{ "name": "ModularFuelTanks" },
-		{ "name": "FerramAerospaceResearch" }
+    "suggests": [
+        { "name": "ModuleSolarTracking" },
+        { "name": "SETI-BalanceMod" },
+        { "name": "SETI-CommunityTechTree" }
     ],
-	"install" : [ { "find" : "ChopShop",
-					"install_to" : "GameData" },
-				{ "find" : "Ships",
-					"install_to" : "Ships" } ]
+    "supports": [
+        { "name": "FerramAerospaceResearch" },
+        { "name": "ModularFuelTanks" }
+    ],
+    "install": [
+        {
+            "find": "ChopShop",
+            "install_to": "GameData"
+        },
+        {
+            "find": "SPH",
+            "install_to": "Ships"
+        },
+        {
+            "find": "VAB",
+            "install_to": "Ships"
+        }
+    ]
 }

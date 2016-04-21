@@ -1,9 +1,16 @@
 {
-    "spec_version": "v1.4",
-    "license": "restricted",
-    "$kref": "#/ckan/kerbalstuff/883",
-    "identifier": "KerboKatzSmallUtilities-PhysicalTimeRatioViewer",
-	"depends"	:	[ { "name" : "KerboKatzUtilities" } ],
-	"install"	:	[ { "find" : "PhysicalTimeRatioViewer",
-					"install_to" : "GameData/KerboKatz/SmallUtilities"} ]
+    "spec_version" : "v1.4",
+    "identifier"   : "KerboKatzSmallUtilities-PhysicalTimeRatioViewer",
+    "$kref"        : "#/ckan/spacedock/85",
+    "name"         : "KerboKatz - SmallUtilities - PhysicalTimeRatioViewer",
+    "license"      : "restricted",
+    "depends": [
+        { "name": "KerboKatzUtilities", "min_version": "1.2.6" }
+    ],
+    "install": [
+        {
+            "find"       : "PhysicalTimeRatioViewer",
+            "install_to" : "GameData/KerboKatz/SmallUtilities"
+        }
+    ]
 }

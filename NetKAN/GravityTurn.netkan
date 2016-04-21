@@ -12,9 +12,9 @@
         "repository": "https://github.com/johnfink8/GravityTurn"
     },
     "install" : [
-	{
-	    "find"       : "GravityTurn",
-	    "install_to" : "GameData"
-	}
+    {
+        "find"       : "GravityTurn",
+        "install_to" : "GameData"
+    }
     ]
 }

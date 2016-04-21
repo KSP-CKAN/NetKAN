@@ -1,21 +1,20 @@
 {
+    "spec_version": "v1.2",
     "identifier": "CapCom",
+    "$kref": "#/ckan/spacedock/131",
     "license": "MIT",
-    "x_via": "Automated KerbalStuff CKAN submission",
-    "$kref": "#/ckan/kerbalstuff/710",
-    "spec_version": 1,
-	"install": [
-		{
-			"file": "GameData/CapCom",
-			"install_to": "GameData"
-		}
-	],
-	"suggests": [
-	{
-	  "name": "ContractRewardModifier"
-	},
-	{
-	  "name": "ContractsWindowPlus"
-	}
-	]
+    "depends": [
+        { "name": "ProgressParser" },
+        { "name": "ContractParser" }
+    ],
+    "suggests": [
+        { "name": "ContractRewardModifier" },
+        { "name": "ContractsWindowPlus" }
+    ],
+    "install": [
+        {
+            "file": "GameData/DMagicUtilities/CapCom",
+            "install_to": "GameData/DMagicUtilities"
+        }
+    ]
 }

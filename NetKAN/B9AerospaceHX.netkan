@@ -1,21 +1,6 @@
 {
-    "spec_version"   : 1,
-    "identifier"     : "B9AerospaceHX",
-	"$kref"          : "#/ckan/kerbalstuff/1354",
-	"$vref"          : "#/ckan/ksp-avc",
-    "author"         : "bac9",
-    "abstract"       : "A set of large, futuristic parts for space stations and interplanetary ships",
-    "license"        : "CC-BY-NC-SA-3.0",
-    "resources": {
-        "homepage" : "http://forum.kerbalspaceprogram.com/threads/92630"
-    },
-    "depends" : [
-        { "name" : "B9", "min_version" : "5.4.0" }
-    ],
-    "install" : [
-        {
-            "file"       : "GameData/B9_Aerospace_HX",
-            "install_to" : "GameData"
-        }
-    ]
+  "spec_version" : 1,
+  "identifier"   : "B9AerospaceHX",
+  "$kref"        : "#/ckan/netkan/https://raw.githubusercontent.com/blowfishpro/B9-Aerospace/master/NetKAN/B9AerospaceHX.netkan",
+  "x_netkan_license_ok": true
 }

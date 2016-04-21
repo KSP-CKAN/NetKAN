@@ -1,8 +1,8 @@
 {
     "spec_version" : 1,
     "identifier"   : "RLA-Stockalike",
-    "$kref"        : "#/ckan/kerbalstuff/103",
-    "license"      : "CC-BY-SA-3.0",
+    "$kref"        : "#/ckan/spacedock/178",
+    "license"      : "CC-BY-SA-4.0",
     "install"      : [{
         "file"       : "GameData/RLA_Stockalike",
         "install_to" : "GameData"

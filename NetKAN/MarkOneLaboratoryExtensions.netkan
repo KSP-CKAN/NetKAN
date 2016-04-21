@@ -1,17 +1,23 @@
 {
     "spec_version": "v1.4",
     "identifier": "MarkOneLaboratoryExtensions",
-    "$kref": "#/ckan/kerbalstuff/964",
+    "name": "Mark One Laboratory Extensions",
+    "author": "Angel125",
+    "abstract": "Build spacecraft inspired by the Manned Orbiting Laboratory (MOL)",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/94352-alpha-105-mark-one-laboratory-extensions-mole-v042/&page=1"
+    },
+    "$kref": "#/ckan/github/Angel-125/MOLE",
     "$vref": "#/ckan/ksp-avc",
     "license": "CC-BY-NC-SA-4.0",
     "depends" : [
-        { "name": "CommunityResourcePack", "min_version": "0.4.2" },
-        { "name": "WildBlueTools", "min_version": "1.0.4" },
-        { "name": "ModuleManager", "min_version": "2.6.5" }
+        { "name": "CommunityResourcePack", "min_version": "0.4.9" },
+        { "name": "WildBlueTools", "min_version": "1.0.32" },
+        { "name": "ModuleManager", "min_version": "2.6.18" }
     ],
     "install" : [
         {
-            "find": "MOLE",
+            "find": "GameData/WildBlueIndustries/MOLE",
             "install_to": "GameData/WildBlueIndustries"
         }
     ]

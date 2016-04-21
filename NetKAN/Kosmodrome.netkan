@@ -1,9 +1,15 @@
 {
-  "spec_version" : 1,
+  "spec_version" : "v1.4",
   "identifier" : "Kosmodrome",
-  "$kref" : "#/ckan/kerbalstuff/208",
-  "license" : "CC-BY-4.0",
+  "$kref" : "#/ckan/spacedock/263",
+  "license" : "CC-BY-NC-SA-4.0",
   "depends" : [
     { "name": "KerbalKonstructs" }
-  ]
+  ],
+  "Install" : [ {
+    "find" : "Kosmodrome",
+    "install_to" : "GameData",
+    "filter" : "Thumbs.db"
+  } ],
+  "x_netkan_force_v" : true
 }

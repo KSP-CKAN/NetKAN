@@ -1,0 +1,17 @@
+{
+    "spec_version"   : "v1.4",
+    "identifier"     : "KRASH",
+    "$kref"          : "#/ckan/spacedock/302",
+    "$vref"          : "#/ckan/ksp-avc",
+    "license"        : "MIT",
+    "resources" : {
+        "homepage"    : "http://forum.kerbalspaceprogram.com/index.php?/topic/133082-krash-kerbal-ramification-artifical-simulation-hub-simulation-mod-for-ksp/",
+        "repository"  : "https://github.com/linuxgurugamer/KRASH"
+    },
+    "install" : [
+        {
+            "find"       : "KRASH",
+            "install_to" : "GameData"
+        }
+    ]
+}

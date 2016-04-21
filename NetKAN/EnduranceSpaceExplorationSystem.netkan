@@ -1,17 +1,25 @@
 {
-    "$kref": "#/ckan/kerbalstuff/536",
+    "$kref": "#/ckan/spacedock/357",
     "identifier": "EnduranceSpaceExplorationSystem",
     "license": "CC-BY-NC-4.0",
     "spec_version": "v1.4",
     "depends": [
+        { "name": "HabitatPlugin" }
+    ],
+    "recommends": [
         { "name": "KIS" },
+        { "name": "KAS" },
         { "name": "RasterPropMonitor" }
-	],
-	"install": [
-		{
-			"find": "Endurance",
-			"install_to": "GameData",
-			"filter": ".DS_Store"
-		}
-	]
+    ],
+    "suggests": [
+        { "name": "TACLS" },
+        { "name": "USI-LS" }
+    ],
+    "install": [
+        {
+            "find": "Endurance",
+            "install_to": "GameData",
+            "filter": [".DS_Store", "MiniAVC.xml" ]
+        }
+    ]
 }
