@@ -1,0 +1,24 @@
+{
+   "spec_version":1,
+   "identifier":"KSPLogiRGB",
+   "$kref":"#/ckan/github/Kaeltis/ksp-logirgb",
+   "license":"GPL-3.0",
+   "name":"KSP Logitech RGB Control",
+   "abstract":"Lights up your keyboard to show you all the functions your vessel actually has. Requires a Logitech Full-RGB keyboard to work.",
+   "ksp_version_min":"1.1.0",
+   "ksp_version_max":"1.1.0",
+   "resources":{
+      "homepage":"https://github.com/Kaeltis/ksp-logirgb",
+      "repository":"https://github.com/Kaeltis/ksp-logirgb"
+   },
+   "install":[
+      {
+         "file":"GameData/KSPLogiRGB",
+         "install_to":"GameData"
+      },
+      {
+         "file":"lib64/LogitechLedEnginesWrapper.dll",
+         "install_to":"GameRoot"
+      }
+   ]
+}
