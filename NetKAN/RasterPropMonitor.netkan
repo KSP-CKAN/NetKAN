@@ -7,6 +7,7 @@
     "abstract"       : "RasterPropMonitor is a plugin and toolkit that provides functional props within your IVA.",
     "author"         : [ "MOARdV", "Mihara" ],
     "license"        : "GPL-3.0",
+    "x_netkan_epoch" : "1",
     "depends" : [
         { "name" : "ModuleManager" },
         { "name" : "RasterPropMonitor-Core" }

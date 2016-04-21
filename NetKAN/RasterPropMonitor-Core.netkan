@@ -9,13 +9,14 @@
     "author"         : [ "MOARdV", "Mihara" ],
     "comment"        : "This package contains the plugin, and the standard parts library.",
     "license"        : "GPL-3.0",
+    "x_netkan_epoch" : "1",
     "depends" : [
         { "name" : "ModuleManager" }
     ],
     "install" : [
         {
             "find"       : "JSI/RasterPropMonitor",
-            "install_to" : "GameData"
+            "install_to" : "GameData/JSI"
         }
     ],
     "resources": {
