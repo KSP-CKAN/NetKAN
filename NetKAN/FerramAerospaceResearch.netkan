@@ -13,7 +13,6 @@
         "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/19321-/",
         "repository" : "https://github.com/ferram4/Ferram-Aerospace-Research"
     },
-    "ksp_version"  : "1.0.5",
     "provides"  : [ "AerodynamicModel", "FAR" ],
     "conflicts" : [ { "name" : "AerodynamicModel" } ],
 
