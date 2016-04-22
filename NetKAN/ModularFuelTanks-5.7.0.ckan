@@ -1,0 +1,23 @@
+{
+    "spec_version": 1,
+    "identifier": "ModularFuelTanks",
+    "name": "Modular Fuel Tanks",
+    "abstract": "Modular Fuel Tanks allows any supported tank to be filled with exactly how much or how little fuel you want, of whatever type you want ",
+    "author": [
+        "taniwha"
+    ],
+    "license": "CC-BY-SA",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/58235-11-modular-fuel-tanks-v570/"
+    },
+    "version": "5.7.0",
+    "ksp_version": "1.1.0",
+    "depends": [
+        {
+            "name": "ModuleManager"
+        }
+    ],
+    "download": "http://taniwha.org/~bill/ModularFuelTanks_v5.7.0.zip",
+    "download_size": 36265,
+    "x_generated_by": "netkan"
+}
