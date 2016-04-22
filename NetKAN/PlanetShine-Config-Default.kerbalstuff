@@ -5,6 +5,7 @@
     "$kref"          : "#/ckan/kerbalstuff/266",
     "$vref"          : "#/ckan/ksp-avc",
     "license"        : "Apache-2.0",
+    "x_netkan_epoch": "1",
     "install": [
         {
             "find": "GameData/PlanetShine/Config",

@@ -1,8 +1,8 @@
 {
     "spec_version"   : "v1.4",
     "identifier"     : "HeatControl",
-    "name"           : "HeatControl",
-    "$kref"          : "#/ckan/kerbalstuff/890",
+    "$kref"          : "#/ckan/spacedock/537",
+    "$vref"          : "#/ckan/ksp-avc",
     "release_status" : "stable",
     "license"        : "CC-BY-NC-SA-4.0",
     "depends" : [
@@ -14,7 +14,7 @@
     "install" : [
         { "find"       : "HeatControl",
           "install_to" : "GameData",
-          "filter"     : "HeatControl.dll"
+          "filter"     : "MiniAVC.xml"
         }
     ]
 }
