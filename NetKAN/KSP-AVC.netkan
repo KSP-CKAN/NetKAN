@@ -1,0 +1,15 @@
+{
+    "spec_version": 1,
+    "identifier": "KSP-AVC",
+    "$kref"        : "#/ckan/github/CYBUTEK/KSPAddonVersionChecker/asset_match/KSP-AVC-.*.zip",
+    "comment"      : "$vref : #/ckan/ksp-avc",
+    "ksp_version"  : "1.1",
+    "name"         : "KSP AVC",
+    "abstract"     : "In-Game GUI for KSP Addon Version Checker",
+    "license"      : "GPL-3.0",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/79745",
+        "repository": "https://github.com/CYBUTEK/KSPAddonVersionChecker"
+    },
+    "author": "cybutek"
+}
