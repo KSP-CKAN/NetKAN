@@ -3,6 +3,9 @@
     "identifier"   : "SerialIO",
     "$kref"        : "#/ckan/spacedock/567",
     "license"      : "CC-BY",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/60281-hardware-plugin-arduino-based-physical-display-serial-port-io"
+    },
     "install": [
         {
             "file": "KSPSerialIO",
