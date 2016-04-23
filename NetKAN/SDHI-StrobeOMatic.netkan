@@ -19,5 +19,8 @@
         ]
       }
     ],
+    "depends"      : [
+        { "name" : "SDHI-SharedAssets" }
+    ],
     "x_netkan_force_v" : true
 }
