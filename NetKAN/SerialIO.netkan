@@ -1,0 +1,21 @@
+{
+    "spec_version" : 1,
+    "identifier"   : "SerialIO",
+    "$kref"        : "#/ckan/spacedock/567",
+    "license"      : "CC-BY",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/60281-hardware-plugin-arduino-based-physical-display-serial-port-io"
+    },
+    "install": [
+        {
+            "file": "KSPSerialIO",
+            "install_to": "GameData"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "SerialIO-MacLinuxWin"
+        }
+    ],
+    "x_netkan_force_v" : true
+}
