@@ -1,12 +1,17 @@
 {
     "$kref": "#/ckan/spacedock/549",
-    "spec_version": "v1.4",
+    "spec_version": "v1.16",
     "identifier": "SpaceshuttleSRB",
     "license": "MIT",
     "install": [
         {
-            "find"       : "Shuttle SRB",
-            "install_to" : "GameData"
+            "find_regexp": "Not [Ee]n[uo][uo]gh Engines",
+            "install_to": "GameData"
+        },
+        {
+            "find": "Plasma-powerd SSTO.craft",
+            "find_matches_files": true,
+            "install_to" : "Ships/VAB"
         }
     ]
 }
