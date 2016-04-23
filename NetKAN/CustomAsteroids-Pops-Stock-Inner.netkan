@@ -4,13 +4,13 @@
     "name": "Custom Asteroids (inner stock system data)",
     "abstract": "Adds asteroids inside orbit of Jool",
     "$kref": "#/ckan/spacedock/210",
-    "$vref" : "#/ckan/ksp-avc",
     "x_netkan_license_ok" : true,
     "depends": [
         {
             "name": "CustomAsteroids",
-            "min_version": "1.0",
-            "comment": "Version at which config format stabilized."
+            "min_version": "v1.3.0",
+            "max_version": "v1.99.99",
+            "comment": "Requires beta distribution and new zip layout."
         }
     ],
     "provides": [ "CustomAsteroids-Pops" ],
@@ -23,19 +23,39 @@
     ],
     "install": [
         {
-            "file": "GameData/CustomAsteroids",
+            "file": "Standard Setup",
             "install_to": "GameData",
             "filter_regexp": "(?<!Basic Asteroids\\.cfg)$"
         }
     ],
     "x_netkan_override" : [
         {
-            "version" : [ ">= v1.0", "< v2.0" ],
+            "version" : [ ">= v1.0.0", "< v2.0.0" ],
             "override" : {
                 "comment": "Compatible with any KSP version with the same planets.",
                 "ksp_version_min": "0.18"
             },
             "delete" : [ "ksp_version" ]
+        },
+        {
+            "version" : "< v1.3.0",
+            "override" : {
+                "depends": [
+                    {
+                        "name": "CustomAsteroids",
+                        "min_version": "v1.0.0",
+                        "max_version": "v1.99.99",
+                        "comment": "Version at which config format stabilized."
+                    }
+                ],
+                "install": [
+                    {
+                        "file": "GameData/CustomAsteroids",
+                        "install_to": "GameData",
+                        "filter_regexp": "(?<!Basic Asteroids\\.cfg)$"
+                    }
+                ]
+            }
         }
     ],
     "x_maintained_by": "Starstrider42"

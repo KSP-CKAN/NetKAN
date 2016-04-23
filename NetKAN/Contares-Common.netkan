@@ -1,5 +1,5 @@
 {
-    "spec_version": "v1.4",
+    "spec_version": "v1.16",
     "identifier": "Contares-Common",
     "name": "Contares Common",
     "abstract": "Agency details common to Contares mods",
@@ -11,6 +11,11 @@
         {
             "find": "Agencies",
             "install_to": "GameData/Contares"
+        },
+        {
+            "find": "CONTARES_TweakScale.cfg",
+            "find_matches_files": true,
+            "install_to": "GameData/Contares/Patches"
         }
     ]
 }

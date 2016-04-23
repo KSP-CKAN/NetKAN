@@ -1,9 +1,11 @@
 {
     "spec_version" : "v1.4",
     "identifier"   : "KerboKatzSmallUtilities-PhysicalTimeRatioViewer",
-    "$kref"        : "#/ckan/spacedock/85",
+    "$kref"        : "#/ckan/github/Xarun/SmallUtilities/asset_match/SmallUtilities.PhysicalTimeRatioViewer.zip",
     "name"         : "KerboKatz - SmallUtilities - PhysicalTimeRatioViewer",
+    "abstract"     : "Displays a simple layer much like FPSViewer to compare ingame vs real time speed.",
     "license"      : "restricted",
+    "ksp_version"  : "1.1",
     "depends": [
         { "name": "KerboKatzUtilities", "min_version": "1.2.6" }
     ],
