@@ -9,6 +9,7 @@
         {
             "name": "CustomAsteroids",
             "min_version": "1.3",
+            "max_version": "1.99",
             "comment": "Requires beta distribution and new zip layout."
         }
     ],
@@ -43,6 +44,7 @@
                     {
                         "name": "CustomAsteroids",
                         "min_version": "1.0",
+                        "max_version": "1.99",
                         "comment": "Version at which config format stabilized."
                     }
                 ],
