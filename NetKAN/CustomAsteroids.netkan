@@ -10,11 +10,20 @@
         "manual": "http://starstrider42.github.io/Custom-Asteroids/"
     },
     "depends": [
-        { "name": "CustomAsteroids-Pops"}
+        { "name": "CustomAsteroids-Pops"},
+        {
+            "name": "ModuleManager",
+            "min_version": "2.6.14",
+            "comment": "Requires indices."
+        }
     ],
     "recommends": [
+        { "name": "CustomAsteroids-Pops-Stock-Stockalike"},
         { "name": "CustomAsteroids-Pops-Stock-Inner"},
         { "name": "CustomAsteroids-Pops-Stock-Outer"}
+    ],
+    "suggests": [
+        { "name": "CommunityResourcePack"}
     ],
     "install": [
         {
@@ -47,7 +56,19 @@
                     { "name" : "Kopernicus", "min_version": "1:beta-06" }
                 ]
             }
-        }
+        },
+        {
+            "version" : "< v1.3.0",
+            "override" : {
+                "depends": [
+                    { "name": "CustomAsteroids-Pops"}
+                ],
+                "recommends": [
+                    { "name": "CustomAsteroids-Pops-Stock-Inner"},
+                    { "name": "CustomAsteroids-Pops-Stock-Outer"}
+                ],
+            }
+        },
     ],
     "x_maintained_by": "Starstrider42"
 }
