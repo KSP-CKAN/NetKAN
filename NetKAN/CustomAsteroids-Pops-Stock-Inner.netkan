@@ -52,9 +52,9 @@
                         "install_to": "GameData",
                         "filter_regexp": "(?<!Basic Asteroids\\.cfg)$"
                     }
-                ],
+                ]
             }
-        },
+        }
     ],
     "x_maintained_by": "Starstrider42"
 }

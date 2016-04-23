@@ -66,9 +66,9 @@
                 "recommends": [
                     { "name": "CustomAsteroids-Pops-Stock-Inner"},
                     { "name": "CustomAsteroids-Pops-Stock-Outer"}
-                ],
+                ]
             }
-        },
+        }
     ],
     "x_maintained_by": "Starstrider42"
 }
