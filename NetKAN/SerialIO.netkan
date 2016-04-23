@@ -1,0 +1,18 @@
+{
+    "spec_version" : 1,
+    "identifier"   : "SerialIO",
+    "$kref"        : "#/ckan/spacedock/567",
+    "license"      : "CC-BY",
+    "install": [
+        {
+            "file": "KSPSerialIO",
+            "install_to": "GameData"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "SerialIO-MacLinuxWin"
+        }
+    ],
+    "x_netkan_force_v" : true
+}
