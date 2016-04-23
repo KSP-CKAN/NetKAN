@@ -5,7 +5,7 @@
     "license": "MIT",
     "install": [
         {
-            "find_regexp": "Not [Ee]n[uo][uo]gh Engines",
+            "find_regexp": "Not [Ee]n[uo][uo]gh [Ee]ngines",
             "install_to": "GameData"
         },
         {
