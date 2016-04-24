@@ -5,7 +5,7 @@
     "name"                : "Near Future Solar Core",
     "abstract"            : "This is the Near Future Solar plugin stand-alone, for adding functionality to other mods. It contains no parts and does nothing by itself.",
     "author"              : "Nertea",
-    "license"             : "CC-BY-SA-NC-4.0",
+    "license"             : "CC-BY-NC-SA-4.0",
     "$vref"               : "#/ckan/ksp-avc",
     "x_netkan_license_ok" : true,
     "recommends": [
