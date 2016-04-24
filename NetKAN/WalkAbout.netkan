@@ -1,8 +1,11 @@
 {
+    "spec_version": "v1.4",
     "$kref": "#/ckan/spacedock/228",
     "identifier": "WalkAbout",
-    "spec_version": "v1.4",
-    "license": "GPL-3.0",
+    "x_netkan_license_ok": true,
+    "resources" : {
+    "homepage" : "http://forum.kerbalspaceprogram.com/index.php?/topic/130575-105-walkabout-v11-16-01-23/"
+    },
     "install": [
         {
             "find": "WalkAbout",
