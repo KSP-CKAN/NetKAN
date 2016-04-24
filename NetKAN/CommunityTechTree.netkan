@@ -1,8 +1,7 @@
 {
     "spec_version"   : "v1.4",
     "identifier"     : "CommunityTechTree",
-    "$kref"          : "#/ckan/kerbalstuff/345",
-    "release_status" : "stable",
+    "$kref"          : "#/ckan/spacedock/563",
     "license"        : "CC-BY-NC-4.0",
     "depends" : [
         { "name" : "ModuleManager", "min_version" : "2.6.2" }
