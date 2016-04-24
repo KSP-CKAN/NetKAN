@@ -6,8 +6,8 @@
     "$vref": "#/ckan/ksp-avc",
     "install": [
         {
-            "find": "Nereid",
-            "install_to": "GameData",
+            "find": "FinalFrontier",
+            "install_to": "GameData/Nereid",
             "filter": "Source"
        }
     ]
