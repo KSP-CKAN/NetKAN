@@ -20,7 +20,7 @@
     ],
     "install": [
         {
-            "file": "GameData/HideEmptyTechNodes",
+            "file": "GameData/HideEmptyTechTreeNodes",
             "install_to": "GameData"
         }
     ]
