@@ -6,7 +6,6 @@
     "abstract"            : "This optional patch makes the power output of RTGs (both stock and Near Future's) shrink over time, like they would in real life.",
     "author"              : "Nertea",
     "license"             : "CC-BY-NC-SA-4.0",
-    "$vref"               : "#/ckan/ksp-avc",
     "depends" : [
         { "name" : "NearFutureElectrical" }
     ],
