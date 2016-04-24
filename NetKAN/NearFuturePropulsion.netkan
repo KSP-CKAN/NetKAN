@@ -6,7 +6,7 @@
     "abstract"            : "Advanced electric engines in a stockalike aesthetic.",
     "author"              : "Nertea",
     "license"             : "CC-BY-NC-SA-4.0",
-    "$vref"               : "#/ckan/ksp-avc"
+    "$vref"               : "#/ckan/ksp-avc",
     "x_netkan_license_ok" : true
     "depends": [
         { "name" : "CommunityResourcePack" },
