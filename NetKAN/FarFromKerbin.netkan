@@ -1,0 +1,19 @@
+{
+    "license": "CC-BY-NC-SA-4.0",
+    "identifier": "FarFromKerbin",
+    "$kref": "#/ckan/spacedock/579",
+    "$vref": "#/ckan/ksp-avc",
+    "spec_version": "v1.4",
+    "depends": [
+        { "name": "CommunityResourcePack" },
+        { "name": "KIS" },
+        { "name": "ModuleManager" }
+    ],
+    "install": [
+        {
+            "find"       : "FarFromKerbin",
+            "install_to" : "GameData",
+            "filter"     : "KSPBuildYourDream.pdb"
+        }
+    ]
+}
