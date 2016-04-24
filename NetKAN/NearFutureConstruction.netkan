@@ -1,11 +1,14 @@
 {
-    "spec_version"   : "v1.4",
-    "identifier"     : "NearFutureConstruction",
-    "$kref"          : "#/ckan/kerbalstuff/348",
-    "release_status" : "stable",
-    "license"        : "CC-BY-NC-SA-4.0",
+    "spec_version"        : "v1.4",
+    "identifier"          : "NearFutureConstruction",
+    "$kref"               : "#/ckan/spacedock/563",
+    "abstract"            : "Structural components and truss segments for building deep space vessels and bases. Includes various skeletal adapters and docking ports.",
+    "author"              : "Nertea",
+    "license"             : "CC-BY-SA-NC-4.0",
+    "$vref"               : "#/ckan/ksp-avc",
+    "x_netkan_license_ok" : true,
     "depends" : [
-        { "name" : "InterstellarFuelSwitch-Core" },
+        { "name" : "B9PartSwitch" },
         { "name" : "CommunityResourcePack" }
     ],
     "suggests": [
