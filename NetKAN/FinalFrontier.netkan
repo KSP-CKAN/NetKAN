@@ -1,0 +1,14 @@
+{
+    "spec_version": 1,
+    "identifier": "FinalFrontier",
+    "license": "BSD-2-clause",
+    "$kref": "#/ckan/kerbalstuff/580",
+    "$vref": "#/ckan/ksp-avc",
+    "install": [
+        {
+            "find": "Nereid",
+            "install_to": "GameData",
+            "filter": "Source"
+       }
+    ]
+}
