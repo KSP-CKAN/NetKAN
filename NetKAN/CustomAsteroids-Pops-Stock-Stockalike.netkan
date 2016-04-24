@@ -1,0 +1,42 @@
+{
+    "spec_version": 1,
+    "identifier": "CustomAsteroids-Pops-Stock-Stockalike",
+    "name": "Custom Asteroids (stockalike config)",
+    "abstract": "Emulates stock asteroids with Custom Asteroids groups.",
+    "$kref": "#/ckan/spacedock/210",
+    "$vref" : "#/ckan/ksp-avc",
+    "x_netkan_license_ok" : true,
+    "depends": [
+        {
+            "name": "CustomAsteroids",
+            "min_version": "v1.3.0",
+            "max_version": "v1.99.99",
+            "comment": "Requires intercept blocks and conditional spawning."
+        }
+    ],
+    "provides": [ "CustomAsteroids-Pops" ],
+    "conflicts": [
+        {
+            "name": "RealSolarSystem",
+            "comment": "The 6.4× and 10× Kerbol packs are compatible; how to allow them?"
+        }
+    ],
+    "install": [
+        {
+            "file": "GameData/CustomAsteroids",
+            "install_to": "GameData",
+            "filter_regexp": "(?<!Stockalike\\.cfg)$"
+        }
+    ],
+    "x_netkan_override" : [
+        {
+            "version" : [ ">= v1.0.0", "< v2.0.0" ],
+            "override" : {
+                "comment": "Compatible with any KSP version with the same planets.",
+                "ksp_version_min": "0.18"
+            },
+            "delete" : [ "ksp_version" ]
+        }
+    ],
+    "x_maintained_by": "Starstrider42"
+}

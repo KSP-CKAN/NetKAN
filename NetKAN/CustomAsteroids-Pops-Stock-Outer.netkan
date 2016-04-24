@@ -4,13 +4,14 @@
     "name": "Custom Asteroids (outer stock system data)",
     "abstract": "Adds comets outside orbit of Jool",
     "$kref": "#/ckan/spacedock/210",
+    "$vref" : "#/ckan/ksp-avc",
     "x_netkan_license_ok" : true,
     "depends": [
         {
             "name": "CustomAsteroids",
             "min_version": "v1.3.0",
             "max_version": "v1.99.99",
-            "comment": "Requires new zip layout."
+            "comment": "Requires asteroid types."
         }
     ],
     "provides": [ "CustomAsteroids-Pops" ],
