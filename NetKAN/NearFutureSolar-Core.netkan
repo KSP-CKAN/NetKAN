@@ -12,6 +12,6 @@
         { "name" : "NearFutureSolar" }
     ],
     "install" : [
-        { "find": "GameData/NearFutureSolar/Plugins/NearFutureSolar.dll", "install_to" : "GameData/NearFutureSolar/Plugins" }
+        { "file": "GameData/NearFutureSolar/Plugins/NearFutureSolar.dll", "install_to" : "GameData/NearFutureSolar/Plugins" }
     ]
 }
