@@ -13,7 +13,7 @@
             "min_version": "2.6.2"
         }
     ],
-    "recommends": [
+    "suggests": [
         {
             "name": "CommunityTechTree"
         }
