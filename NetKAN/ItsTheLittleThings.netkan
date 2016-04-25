@@ -1,11 +1,11 @@
 {
     "identifier": "ItsTheLittleThings",
-    "spec_version": 1,
+    "spec_version": "v1.10",
     "$kref": "#/ckan/spacedock/462",
     "license": "CC-BY-SA-2.0",
     "install": [
         {
-            "file": "its the little things/game data/Its the little things",
+            "find_regexp": "[Gg]ame\\s{0,1}[Dd]ata/It'{0,1}s\\s{0,1}[Tt]he\\s{0,1}[Ll]ittle\\s{0,1}[Tt]hings",
             "install_to": "GameData"
         }
     ]
