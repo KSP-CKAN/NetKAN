@@ -1,0 +1,12 @@
+{
+    "license": "MIT",
+    "identifier": "Trails-StandaloneGeminiandBigG",
+    "$kref": "#/ckan/spacedock/593",
+    "spec_version": "v1.4",
+    "install": [
+        {
+            "find"       : "McDonnell",
+            "install_to" : "GameData"
+        }
+    ]
+}
