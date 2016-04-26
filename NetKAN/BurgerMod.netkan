@@ -1,9 +1,17 @@
 {
     "spec_version": "v1.4",
+    "identifier": "BurgerMod",
     "license": "CC-BY-NC-SA-4.0",
     "$kref": "#/ckan/spacedock/96",
-    "identifier": "BurgerMod",
-	"resources" : {
-        "homepage"     : "http://forum.kerbalspaceprogram.com/index.php?/topic/85379-10511-burger-mod-03-2015-04-28/"
-    }
+    "$vref": "#/ckan/ksp-avc",
+    "license" : "CC-BY-NC-SA",
+    "resources" : {
+        "homepage"     : "http://forum.kerbalspaceprogram.com/index.php?/topic/85379-BurgerMod"
+    },
+    "install": [
+        {
+            "find": "BurgerMod",
+            "install_to": "GameData"
+        }
+    ]
 }
