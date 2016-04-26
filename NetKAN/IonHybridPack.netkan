@@ -1,0 +1,15 @@
+{
+    "license": "GPL-3.0",
+    "identifier": "IonHybridPack",
+    "$kref": "#/ckan/spacedock/595",
+    "spec_version": "v1.4",
+    "recommends": [
+        { "name": "ModuleManager" }
+    ],
+    "install": [
+        {
+            "file"       : "Ion-Hybrid Pack",
+            "install_to" : "GameData"
+        }
+    ]
+}
