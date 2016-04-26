@@ -2,7 +2,7 @@
     "spec_version": 1,
     "identifier": "FinalFrontier",
     "license": "BSD-2-clause",
-    "$kref": "#/ckan/kerbalstuff/428",
+    "$kref": "#/ckan/github/Nereid42/FinalFrontier",
     "resources": {
         "x_curse": "http://www.curse.com/ksp-mods/kerbal/221413-final-frontier"
     },
@@ -16,12 +16,12 @@
     "x_netkan_override" :
     [
         {
-            "version" : "0.8.6-1370",
+            "version" : "1.0.2-2131",
             "delete" : [ "ksp_version" ],
             "override" :
             {
-                "ksp_version_min" : "1.0.2",
-                "ksp_version_max" : "1.0.4"
+                "ksp_version_min" : "1.1",
+                "ksp_version_max" : "1.1"
             }
         }
     ]
