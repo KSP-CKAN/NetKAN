@@ -7,6 +7,9 @@
         { "name": "ModuleManager" },
         { "name": "BDArmory" }
     ],
+    "recommends": [
+        { "name": "NorthKerbinDynamics" }
+    ],
     "install": [
         {
             "find": "MTW",
