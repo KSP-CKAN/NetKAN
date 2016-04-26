@@ -1,0 +1,19 @@
+{
+    "$kref": "#/ckan/spacedock/394",
+    "spec_version": "v1.4",
+    "identifier": "MasterTechWeapons",
+    "license": "CC-BY-SA-2.0",
+    "depends": [
+        { "name": "ModuleManager" },
+        { "name": "BDArmory" }
+    ],
+    "recommends": [
+        { "name": "NorthKerbinDynamics" }
+    ],
+    "install": [
+        {
+            "find": "MTW",
+            "install_to": "GameData"
+        }
+    ]
+}
