@@ -2,21 +2,12 @@
     "spec_version": "v1.4",
     "identifier": "HideEmptyTechNodes",
     "$kref": "#/ckan/spacedock/577",
-    "release_status": "stable",
-    "license": "CC-BY-NC-4.0",
-    "resources": {
-        "homepage": "http://forum.kerbalspaceprogram.com/threads/131367"
-    },
+    "license": "MIT",
     "depends": [
-        {
-            "name": "ModuleManager",
-            "min_version": "2.6.2"
-        }
+        { "name": "ModuleManager" }
     ],
     "suggests": [
-        {
-            "name": "CommunityTechTree"
-        }
+        { "name": "CommunityTechTree" }
     ],
     "install": [
         {
