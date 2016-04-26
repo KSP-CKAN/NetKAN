@@ -17,7 +17,7 @@
     ],
     "install": [
         {
-            "find"       : "GameData/Mk3HypersonicSystems",
+            "find"       : "Mk3HypersonicSystems",
             "install_to" : "GameData",
             "filter"     : "Thumbs.db"
         },
