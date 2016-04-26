@@ -9,6 +9,7 @@
     },
     "depends": [
         { "name": "FirespitterCore" },
+        { "name": "RasterPropMonitor" },
         { "name": "ModuleManager"}
     ],
     "recommends": [
