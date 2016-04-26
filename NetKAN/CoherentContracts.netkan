@@ -1,7 +1,7 @@
 {
     "spec_version" : "v1.2",
     "identifier"   : "CoherentContracts",
-    "$kref"        : "#/ckan/kerbalstuff/333",
+    "$kref"        : "#/ckan/SpaceDock/594",
     "license"      : "BSD-3-clause",
     "depends" : [
         { "name" : "ModuleManager" }
@@ -12,14 +12,4 @@
             "install_to" : "GameData/CoherentContracts"
         }
     ],
-    "x_netkan_override": [
-        {
-            "version": "1.02",
-            "delete": [ "ksp_version" ],
-            "override": {
-                "ksp_version_min": "1.0.2",
-                "ksp_version_max": "1.0.4"
-            }
-        }
-    ]
 }
