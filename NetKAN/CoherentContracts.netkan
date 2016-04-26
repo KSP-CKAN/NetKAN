@@ -5,11 +5,5 @@
     "license"      : "BSD-3-clause",
     "depends" : [
         { "name" : "ModuleManager" }
-    ],
-    "install": [
-        {
-            "file"       : "CoherentContracts.cfg",
-            "install_to" : "GameData/CoherentContracts"
-        }
     ]
 }
