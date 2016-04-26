@@ -1,0 +1,16 @@
+{
+    "$kref": "#/ckan/spacedock/521",
+    "identifier": "EskandareHeavyIndustries",
+    "name": "Eskandare Heavy Industries",
+    "abstract": "A corporation known for experimental technologies, urban development, and having top secret black projects",
+    "spec_version": "v1.4",
+    "license": "CC-BY-NC-SA-4.0",
+    "comment": "agencymod",
+    "ksp_version": "any",
+    "install": [
+        {
+            "find": "Eskandare_Heavy_Industries/Agencies",
+            "install_to": "GameData/Eskandare_Heavy_Industries"
+        }
+    ]
+}
