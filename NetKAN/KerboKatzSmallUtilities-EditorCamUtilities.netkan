@@ -1,17 +1,6 @@
 {
-    "spec_version" : "v1.4",
+    "spec_version" : "v1.2",
     "identifier"   : "KerboKatzSmallUtilities-EditorCamUtilities",
-    "$kref"        : "#/ckan/spacedock/85",
-    "name"         : "KerboKatz - SmallUtilities - EditorCamUtilities",
-    "license"      : "restricted",
-    "depends": [
-        { "name": "KerboKatzUtilities", "min_version": "1.2.6" }
-    ],
-    "install": [
-        {
-            "find"       : "EditorCamUtilities",
-            "install_to" : "GameData/KerboKatz/SmallUtilities"
-        }
-    ],
-    "x_netkan_epoch": 1
+    "$kref": "#/ckan/netkan/https://raw.githubusercontent.com/KerboKatz/Netkan/master/KerboKatzSmallUtilities-EditorCamUtilities.netkan",
+    "x_netkan_license_ok": true
 }
