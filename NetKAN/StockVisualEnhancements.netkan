@@ -15,7 +15,6 @@
         { "name": "SVE-Textures" },
         { "name" : "EnvironmentalVisualEnhancements-Config" }
     ],
-    "conflicts": [
     "recommends": [
         { "name": "Scatterer" }
     ],
