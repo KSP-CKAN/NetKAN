@@ -7,11 +7,9 @@
     "x_netkan_epoch" : "1",
     "conflicts": [
         {
-            "name": "SVE-Textures"
+            "name": "SVE-Textures",
+            "name": "EnvironmentalVisualEnhancements"
         }
-    ],
-    "depends": [
-        { "name": "EnvironmentalVisualEnhancements" }
     ],
     "recommends": [
         { "name": "Kopernicus" },
