@@ -13,7 +13,7 @@
         {
             "find"       : "FarFromKerbin",
             "install_to" : "GameData",
-            "filter"     : "KSPBuildYourDream.pdb"
+            "filter"     : [ "KSPBuildYourDream.pdb", MiniAVC.xml ]
         }
     ]
 }
