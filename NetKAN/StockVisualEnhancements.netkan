@@ -5,20 +5,23 @@
     "license"        : "CC-BY-NC-SA",
     "release_status" : "stable",
     "x_netkan_epoch" : "1",
+    "depends": [
+        { "name" : "EnvironmentalVisualEnhancements" }
+    ],
+    "provides": [
+        "EnvironmentalVisualEnhancements-Config"
+    ],
     "conflicts": [
         { "name": "SVE-Textures" },
-        { "name": "EnvironmentalVisualEnhancements" }
+        { "name" : "EnvironmentalVisualEnhancements-Config" }
     ],
+    "conflicts": [
     "recommends": [
         { "name": "Scatterer" }
     ],
     "install": [
         {
             "find_regexp"       : "Game[dD]ata/StockVisualEnhancements",
-            "install_to" : "GameData"
-        },
-        {
-            "find_regexp"       : "Game[dD]ata/EnvironmentalVisualEnhancements",
             "install_to" : "GameData"
         }
     ]
