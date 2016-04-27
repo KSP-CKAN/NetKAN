@@ -4,9 +4,6 @@
     "$kref": "#/ckan/spacedock/562",
     "identifier": "Mk3HypersonicSystems",
     "x_netkan_epoch": "1",
-    "resources": {
-        "homepage": "http://forum.kerbalspaceprogram.com/threads/130548"
-    },
     "depends": [
         { "name": "FirespitterCore" },
         { "name": "RasterPropMonitor" },
