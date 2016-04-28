@@ -9,7 +9,7 @@
     ],
     "install": [
         {
-            "file": "Blue Hawk Industries",
+            "find_regexp": "Blue.?Hawk.?Industries$",
             "install_to": "GameData"
         }
     ]
