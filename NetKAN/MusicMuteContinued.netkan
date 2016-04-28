@@ -9,4 +9,10 @@
     "resources": {
         "homepage": "https://github.com/nimobeeren/MusicMute"
     }
+    "install": [
+        {
+            "find"       : "MusicMute",
+            "install_to" : "GameData"
+        }
+    ]
 }
