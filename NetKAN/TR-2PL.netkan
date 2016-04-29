@@ -1,0 +1,15 @@
+{
+    "license": "restricted",
+    "identifier": "TR-2PL",
+    "$kref": "#/ckan/spacedock/601",
+    "spec_version": "v1.4",
+    "depends": [
+        { "name": "SunshineRover" }
+    ],
+    "install": [
+        {
+            "file"       : "TR-2PL",
+            "install_to" : "GameData"
+        }
+    ]
+}
