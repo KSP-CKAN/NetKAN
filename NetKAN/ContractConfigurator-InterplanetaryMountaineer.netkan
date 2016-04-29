@@ -1,0 +1,16 @@
+{
+    "license": "MIT",
+    "identifier": "ContractConfigurator-InterplanetaryMountaineer",
+    "$kref": "#/ckan/spacedock/611",
+    "spec_version": "v1.4",
+    "depends": [
+        { "name": "ContractConfigurator" },
+        { "name": "ModuleManager" }
+    ],
+    "install": [
+        {
+            "find"       : "InterplanetaryMountaineer",
+            "install_to" : "GameData/ContractPacks"
+        }
+    ]
+}
