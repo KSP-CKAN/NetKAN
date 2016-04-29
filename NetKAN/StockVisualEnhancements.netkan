@@ -6,20 +6,19 @@
     "release_status" : "stable",
     "x_netkan_epoch" : "1",
     "conflicts": [
-        {
-            "name": "SVE-Textures"
-        }
-    ],
-    "depends": [
-        { "name": "EnvironmentalVisualEnhancements" }
+        { "name": "SVE-Textures" },
+        { "name" : "EnvironmentalVisualEnhancements" }
     ],
     "recommends": [
-        { "name": "Kopernicus" },
         { "name": "Scatterer" }
     ],
     "install": [
         {
             "find_regexp"       : "Game[dD]ata/StockVisualEnhancements",
+            "install_to" : "GameData"
+        },
+        {
+            "find_regexp"       : "Game[dD]ata/EnvironmentalVisualEnhancements",
             "install_to" : "GameData"
         }
     ]
