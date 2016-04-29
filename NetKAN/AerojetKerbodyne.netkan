@@ -1,0 +1,19 @@
+{
+    "spec_version" : 1,
+    "identifier"   : "AerojetKerbodyne",
+    "$kref"        : "#/ckan/spacedock/578",
+    "license"      : "CC-BY-NC-ND-4.0",
+    "install" : [
+        {
+            "file"       : "GameData/AerojetKerbodyne",
+            "install_to" : "GameData"
+        }
+    ],
+    "depends" : [
+        { "name" : "FirespitterCore" },
+        { "name" : "TweakScale" },
+        { "name" : "SDHI-ServiceModuleSystem" },
+        { "name" : "ModuleManager" },
+        { "name" : "SmokeScreen" }
+    ]
+}

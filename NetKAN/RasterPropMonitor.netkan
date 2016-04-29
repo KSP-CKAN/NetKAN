@@ -1,5 +1,5 @@
 {
-    "spec_version"   : 1,
+    "spec_version"   : "v1.4",
     "identifier"     : "RasterPropMonitor",
     "$kref"          : "#/ckan/github/Mihara/RasterPropMonitor",
     "$vref"          : "#/ckan/ksp-avc",
@@ -7,6 +7,7 @@
     "abstract"       : "RasterPropMonitor is a plugin and toolkit that provides functional props within your IVA.",
     "author"         : [ "MOARdV", "Mihara" ],
     "license"        : "GPL-3.0",
+    "x_netkan_epoch" : "1",
     "depends" : [
         { "name" : "ModuleManager" },
         { "name" : "RasterPropMonitor-Core" }
@@ -17,7 +18,7 @@
     ],
     "install" : [
         {
-            "file"       : "GameData/JSI",
+            "find"       : "JSI",
             "filter"     : ["RasterPropMonitor"],
             "install_to" : "GameData"
         }

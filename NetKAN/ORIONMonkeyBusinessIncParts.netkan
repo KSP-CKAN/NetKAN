@@ -1,0 +1,28 @@
+{
+    "$kref": "#/ckan/spacedock/584",
+    "identifier": "ORIONMonkeyBusinessIncParts",
+    "spec_version": 1,
+    "license": "CC-BY-NC-SA-4.0",
+    "depends": [
+        { "name": "ModuleManager" }
+    ],
+    "recommends": [
+        { "name": "TweakScale" },
+        { "name": "InterstellarFuelSwitch-Core" },
+        { "name": "Tantares" },
+        { "name": "CommunityResourcePack" },
+        { "name": "VenStockRevamp" },
+        { "name": "NearFutureConstruction" },
+        { "name": "NearFutureElectrical" },
+        { "name": "NearFutureElectrical-DecayingRTGs" },
+        { "name": "NearFuturePropulsion" },
+        { "name": "NearFutureSolar" },
+        { "name": "NearFutureSpacecraft" }
+    ],
+    "install": [
+        {
+            "file": "MBI",
+            "install_to": "GameData"
+        }
+    ]
+}

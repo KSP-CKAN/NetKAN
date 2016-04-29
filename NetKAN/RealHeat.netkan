@@ -9,15 +9,22 @@
         "homepage"   : "http://forum.kerbalspaceprogram.com/threads/127769",
         "repository" : "https://github.com/KSP-RO/RealHeat"
     },
-    "ksp_version"  : "1.0.5",
+    "ksp_version"  : "1.1",
      "depends"        : [
-        { "name": "ModuleManager", "min_version" : "2.6.5" },
         { "name": "ModularFlightIntegrator" }
     ],
     "install"        : [
         {
             "file": "RealHeat",
             "install_to": "GameData"
+        }
+    ],
+    "x_netkan_override" : [
+        {
+            "version" : "<= v3",
+            "override" : {
+                "ksp_version" : "1.0.5"
+            }
         }
     ]
 }

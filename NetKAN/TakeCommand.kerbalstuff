@@ -1,9 +1,0 @@
-{
-    "spec_version" : 1,
-    "identifier"   : "TakeCommand",
-    "$kref"        : "#/ckan/kerbalstuff/776",
-    "x_netkan_license_ok": true,
-    "depends": [
-        { "name": "ModuleManager" }
-    ]
-}

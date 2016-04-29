@@ -1,0 +1,37 @@
+{
+    "$kref": "#/ckan/spacedock/530",
+    "spec_version": "v1.4",
+    "identifier": "ChopShop",
+    "license": "GPL-3.0",
+    "depends": [
+        { "name": "ModuleManager" }
+    ],
+    "recommends": [
+        { "name": "TweakScale" },
+        { "name": "RealFuels" },
+        { "name": "RemoteTech" }
+    ],
+    "suggests": [
+        { "name": "ModuleSolarTracking" },
+        { "name": "SETI-BalanceMod" },
+        { "name": "SETI-CommunityTechTree" }
+    ],
+    "supports": [
+        { "name": "FerramAerospaceResearch" },
+        { "name": "ModularFuelTanks" }
+    ],
+    "install": [
+        {
+            "find": "ChopShop",
+            "install_to": "GameData"
+        },
+        {
+            "find": "SPH",
+            "install_to": "Ships"
+        },
+        {
+            "find": "VAB",
+            "install_to": "Ships"
+        }
+    ]
+}

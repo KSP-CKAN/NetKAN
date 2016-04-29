@@ -18,7 +18,7 @@
     "suggests" :[
         { "name" : "Olympic1ARPIcons" }
     ],
-    "depends"  :[
+    "recommends"  :[
         { "name" : "TriggerAu-Flags" }
     ],
     "install" :[

@@ -5,6 +5,8 @@
     "name"           : "Sum Dum Heavy Industries - Shared Assets",
     "abstract"       : "Agency folders shared by multiple SDHI-branded add-ons for Kerbal Space Program",
     "license"        : "CC-BY-SA-4.0",
+    "ksp_version"    : "any",
+    "comment"        : "agencymod",
     "release_status" : "stable",
     "x_netkan_license_ok": true,
     "resources" : {

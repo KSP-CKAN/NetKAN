@@ -1,0 +1,18 @@
+{
+    "spec_version" : "v1.4",
+    "identifier"   : "MusicMuteContinued",
+    "$kref"        : "#/ckan/github/nimobeeren/MusicMute",
+    "name"         : "MusicMute",
+    "abstract"     : "A simple mod that toggles the game's music with a hotkey.",
+    "license"      : "GPL-3.0",
+    "ksp_version"  : "1.1",
+    "resources": {
+        "homepage": "https://github.com/nimobeeren/MusicMute"
+    },
+    "install": [
+        {
+            "find"       : "MusicMute",
+            "install_to" : "GameData"
+        }
+    ]
+}
