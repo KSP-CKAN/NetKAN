@@ -12,7 +12,7 @@
     ],
     "install": [
         {
-            "find": "SimpleConstruction",
+            "file": "SimpleConstruction",
             "install_to": "GameData",
             "filter": [ "Thumbs.db", "InterstellarFuelSwitch.version", "InterstellarFuelSwitch.dll" ]
         }
