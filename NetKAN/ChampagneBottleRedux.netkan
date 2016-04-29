@@ -1,0 +1,18 @@
+{
+    "spec_version"  : "v1.4",
+    "license"       : "CC-BY-NC-SA",
+    "$kref"         : "#/ckan/spacedock/613",
+    "$vref"         : "#/ckan/ksp-avc",
+    "identifier"    : "ChampagneBottleRedux",
+    "recommends"    : [ { "name": "Toolbar"} ],
+    "resources": {
+        "homepage":"http://forum.kerbalspaceprogram.com/index.php?/topic/138349-champagne-bottle-redux/",
+        "repository":"https://github.com/linuxgurugamer/ChampagneBottleRedux"
+    },
+    "install": [
+        {
+            "find": "Champagne",
+            "install_to": "GameData"
+        }
+    ]
+}
