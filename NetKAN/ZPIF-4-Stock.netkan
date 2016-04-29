@@ -7,11 +7,11 @@
     "depends": [
         { "name": "ModuleManager" },
         { "name": "ZeroPointInlineFairings" },
-		{ "name" : "AnimatedDecouplers" }
+        { "name" : "AnimatedDecouplers" }
     ],
     "install": [
         {
-			"find"		:	"0PIF_4_Stock",
+            "find"      :   "0PIF_4_Stock",
             "install_to": "GameData"
         }
     ],
@@ -20,7 +20,7 @@
         { "name": "SpaceY-Lifters" },
         { "name": "ColorCodedCans"},
         { "name": "FuelTanksPlus"}
-	],
+    ],
     "name": "Zero Point Inline Fairings for Stock (no FAR)",
     "abstract": "This is a patch which lets ZPIF be used without FAR",
     "resources": {
