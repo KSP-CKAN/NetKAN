@@ -1,5 +1,5 @@
 {
-    "spec_version": "v1.2",
+    "spec_version": "v1.4",
     "license": "CC-BY-NC-SA-4.0",
     "$kref": "#/ckan/spacedock/450",
     "identifier": "ContractConfigurator-HistoricMissionsRSS",
@@ -11,7 +11,7 @@
     ],
     "install": [
         {
-            "file"       : "HistoricMissions/RSSVersion/4. Full Pack (1940 - Present)/ContractPacks/HistoricMissions",
+            "find"       : "RSSVersion/4. Full Pack (1940 - Present)/ContractPacks/HistoricMissions",
             "install_to" : "GameData/ContractPacks",
             "filter_regexp" : "EXAMPLECRAFT",
             "comment" : "EXAMPLECRAFT requires SCANsat and RemoteTech while the rest of the mod does not"
