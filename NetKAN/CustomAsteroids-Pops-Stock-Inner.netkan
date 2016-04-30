@@ -1,5 +1,5 @@
 {
-    "spec_version": 1,
+    "spec_version": "v1.2",
     "identifier": "CustomAsteroids-Pops-Stock-Inner",
     "name": "Custom Asteroids (inner stock system data)",
     "abstract": "Adds asteroids inside orbit of Jool",
@@ -37,8 +37,8 @@
     ],
     "install": [
         {
-            "file": "Standard Setup",
-            "install_to": "GameData",
+            "file": "Standard Setup/config",
+            "install_to": "GameData/CustomAsteroids",
             "filter_regexp": "(?<!Basic Asteroids\\.cfg)$"
         }
     ],
