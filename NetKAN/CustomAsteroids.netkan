@@ -23,7 +23,8 @@
         { "name": "CustomAsteroids-Pops-Stock-Outer"}
     ],
     "suggests": [
-        { "name": "CommunityResourcePack"}
+        { "name": "CommunityResourcePack"},
+        { "name": "KSP-AVC"}
     ],
     "supports": [
         {
