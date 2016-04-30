@@ -16,10 +16,17 @@
     ],
     "provides": [ "CustomAsteroids-Pops" ],
     "conflicts": [
-        {
-            "name": "RealSolarSystem",
-            "comment": "The 6.4× and 10× Kerbol packs are compatible; how to allow them?"
-        }
+        { "name": "AlienSpaceProgram", "comment": "No Kerbin." },
+        { "name": "AlternisKerbolRekerjiggered", "comment": "Completely different system." },
+        { "name": "AlternisRealSolarSystem", "comment": "Completely different system."},
+        { "name": "Ktolemy", "comment": "Completely different system." },
+        { "name": "LittleGreenMenFromMars", "comment": "Completely different system." },
+        { "name": "NewHorizons", "comment": "Completely different system." },
+        { "name": "RealSolarSystem", "comment": "Completely different system."},
+        { "name": "SigmaBinary-core", "comment": "Can change any planet's orbit."},
+        { "name": "SmallSolarSystem", "comment": "Completely different system."},
+        { "name": "StockAlikeSolarSystem", "comment": "Completely different system."},
+        { "name": "UnchartedLands", "comment": "Completely different system."}
     ],
     "install": [
         {

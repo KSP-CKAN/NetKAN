@@ -16,13 +16,26 @@
     ],
     "provides": [ "CustomAsteroids-Pops" ],
     "conflicts": [
-        { "name" : "AlternisKerbol" },
-        { "name" : "PlanetFactory" },
-        { "name" : "PlanetFactoryCE" },
-        {
-            "name": "RealSolarSystem",
-            "comment": "The 6.4× and 10× Kerbol packs are compatible; how to select for them?"
-        }
+        { "name": "AlternisKerbolRekerjiggered", "comment": "Completely different system." },
+        { "name": "AlternisRealSolarSystem", "comment": "Completely different system."},
+        { "name": "BorisSystem", "comment": "Giant planet in Kuper belt." },
+        { "name": "FarloPlanetaryPack", "comment": "Giant planet in scattered disk." },
+        { "name": "HarderSolarSystem", "comment": "Stock orbits not inclined." },
+        { "name": "JungisPlanetPack", "comment": "Giant planet in Kuper belt." },
+        { "name": "KerbolOrigins", "comment": "Giant planet in scattered disk." },
+        { "name": "KPlus", "comment": "Giant planet in scattered disk." },
+        { "name": "Ktolemy", "comment": "Completely different system." },
+        { "name": "LittleGreenMenFromMars", "comment": "Completely different system." },
+        { "name": "NewHorizons", "comment": "Completely different system." },
+        { "name": "OuterPlanetsMod", "comment": "Giant planets in Kuper belt and scattered disk." },
+        { "name": "RealSolarSystem", "comment": "Completely different system."},
+        { "name": "SaruPlanetPack", "comment": "Giant planet in Kuper belt." },
+        { "name": "SentarExpansion", "comment": "Giant planet in scattered disk." },
+        { "name": "SigmaBinary-core", "comment": "Can change any planet's orbit."},
+        { "name": "SmallSolarSystem", "comment": "Completely different system."},
+        { "name": "StockAlikeSolarSystem", "comment": "Completely different system."},
+        { "name": "TerrestrialPlanetPack", "comment": "Terrestrial planets in Kuper belt and scattered disk." },
+        { "name": "UnchartedLands", "comment": "Completely different system."}
     ],
     "install": [
         {
