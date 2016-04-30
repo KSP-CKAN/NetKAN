@@ -1,0 +1,23 @@
+
+{
+    "spec_version" : "v1.4",
+    "identifier"   : "RealScaleBoostersStockalike",
+    "$kref"        : "#/ckan/spacedock/561",
+    "$vref"        : "#/ckan/ksp-avc",
+    "x_netkan_license_ok": true,
+    "depends": [
+        { "name": "RealScaleBoosters" },
+        { "name": "ModuleManager" }
+    ],
+    "install": [
+        {
+            "find"       : "RealScaleBoostersStockalike",
+            "install_to" : "GameData",
+            "filter"     : "Ships"
+        },
+        {
+            "find"       : "VAB",
+            "install_to" : "Ships"
+        }
+    ]
+}

@@ -1,17 +1,20 @@
 {
-    "spec_version" : "v1.4",
-    "identifier"   : "SmartParts",
-    "$kref"        : "#/ckan/github/BrettWebb/KerbalSmartParts",
-    "name"         : "Smart Parts",
-    "abstract"     : "Smart Parts can trigger all 10 action groups, as well as various other functionality such as SAS, lights, stage, or abort.",
-    "license"      : "CC-BY-NC-SA-3.0",
-    "ksp_version"  : "1.0",
+    "spec_version"    : "v1.4",
+    "identifier"      : "SmartParts",
+    "$kref"           : "#/ckan/spacedock/614",
+    "$vref"           : "#/ckan/ksp-avc",
+    "license"         : "CC-BY-NC-SA-3.0",
+    "name"            : "Smart Parts",
+    "abstract"        : "Smart Parts can trigger all 10 action groups, as well as various other functionality such as SAS, lights, stage, or abort.",
     "resources" : {
-"homepage" : "http://forum.kerbalspaceprogram.com/threads/64227"
-},
-    "install"      : [{
-        "file"       : "GameData/SmartParts",
-        "install_to" : "GameData",
-        "filter"     : "MiniAVC.xml"
-    }]
+        "homepage" : "http://forum.kerbalspaceprogram.com/threads/64227"
+    },
+    "depends" : [ { "name": "ModuleManager" } ],
+    "install" : [
+        {
+            "find"          : "SmartParts",
+            "install_to"    : "GameData"
+        }
+    ]
 }
+

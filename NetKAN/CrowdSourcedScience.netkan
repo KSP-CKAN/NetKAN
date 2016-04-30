@@ -7,8 +7,9 @@
         "homepage" : "http://forum.kerbalspaceprogram.com/threads/102373"
     },
     "abstract"     : "Provides a nearly inexhaustible supply of science reports in Kerbal Space Program",
+    "author"       : "DuoDex",
     "license"      : "CC-BY-NC-SA-4.0",
-    "ksp_version"  : "1.0",
+    "ksp_version"  : "1.1",
     "release-status" : "stable",
     "depends" : [
         { "name" : "ModuleManager" }

@@ -1,0 +1,9 @@
+{
+    "$kref": "#/ckan/spacedock/566",
+    "spec_version": "v1.4",
+    "identifier": "IndicatorLights",
+    "license": "MIT",
+    "depends": [
+        { "name": "ModuleManager" }
+    ]
+}

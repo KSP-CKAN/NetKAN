@@ -16,9 +16,9 @@
     ],
     "install": [
         {
-            "file": "GameData/B9_Aerospace",
+            "file": "GameData/B9_Aerospace_ProceduralWings",
             "install_to": "GameData"
         }
     ],
-    "ksp_version" : "1.0.5"
+    "ksp_version" : "1.1.0"
 }

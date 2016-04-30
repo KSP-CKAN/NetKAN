@@ -9,8 +9,16 @@
     "resources": {
         "homepage": "http://forum.kerbalspaceprogram.com/threads/117893"
     },
-    "ksp_version": "1.0.5",
+    "ksp_version": "1.1",
     "identifier": "KerbalRenamer",
     "install"   :   [ { "file" : "KerbalRenamer/GameData/KerbalRenamer",
-                        "install_to" : "GameData" } ]
+                        "install_to" : "GameData" } ],
+    "x_netkan_override" : [
+        {
+            "version" : "<= 0.5",
+            "override" : {
+                "ksp_version" : "1.0"
+            }
+        }
+    ]
 }

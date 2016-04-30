@@ -5,16 +5,20 @@
     "license"        : "CC-BY-NC-SA",
     "release_status" : "stable",
     "x_netkan_epoch" : "1",
-    "depends": [
-        { "name": "EnvironmentalVisualEnhancements" }
+    "conflicts": [
+        { "name": "SVE-Textures" },
+        { "name" : "EnvironmentalVisualEnhancements" }
     ],
     "recommends": [
-        { "name": "Kopernicus" },
         { "name": "Scatterer" }
     ],
     "install": [
         {
             "find_regexp"       : "Game[dD]ata/StockVisualEnhancements",
+            "install_to" : "GameData"
+        },
+        {
+            "find_regexp"       : "Game[dD]ata/EnvironmentalVisualEnhancements",
             "install_to" : "GameData"
         }
     ]

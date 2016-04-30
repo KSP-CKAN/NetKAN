@@ -13,7 +13,7 @@
         {
             "file": "Contares",
             "install_to": "GameData",
-            "filter": "Agencies"
+            "filter": ["Agencies", "CONTARES_TweakScale.cfg"]
         }
     ]
 }
