@@ -24,8 +24,8 @@
     ],
     "install": [
         {
-            "file": "Standard Setup",
-            "install_to": "GameData",
+            "file": "Standard Setup/config",
+            "install_to": "GameData/CustomAsteroids",
             "filter_regexp": "(?<!Basic Asteroids\\.cfg)$"
         }
     ],
