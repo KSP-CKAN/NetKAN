@@ -25,6 +25,16 @@
     "suggests": [
         { "name": "CommunityResourcePack"}
     ],
+    "supports": [
+        {
+            "name": "ART",
+            "min_version": "0.8.2.0"
+        },
+        {
+            "name": "DMagicOrbitalScience",
+            "min_version": "1.2.4"
+        }
+    ],
     "install": [
         {
             "file": "GameData/CustomAsteroids",
