@@ -11,8 +11,5 @@
             "install_to" : "GameData/InterstellarFuelSwitch",
             "filter"     : "MiniAVC.xml"
         }
-    ],
-    "depends" : [
-        { "name"         : "CommunityResourcePack", "min_version" : "0.4.5" }
     ]
 }
