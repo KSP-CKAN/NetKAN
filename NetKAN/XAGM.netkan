@@ -1,0 +1,13 @@
+{
+    "spec_version" : 1,
+    "identifier"   : "XAGM",
+    "$kref"        : "#/ckan/spacedock/389",
+    "license"      : "CC-BY-SA-2.0",
+    "suggests": [
+        { "name": "RedVersusBlue" }
+    ],
+    "depends": [
+        {"name": "BDArmory"}
+    ],
+    "x_netkan_force_v": true
+}
