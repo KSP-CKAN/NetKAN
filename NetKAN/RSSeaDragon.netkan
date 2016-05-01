@@ -5,10 +5,10 @@
     "$vref"        : "#/ckan/ksp-avc",
     "x_netkan_license_ok": true,
     "depends": [
-        { "name": "HangarExtender" },
         { "name": "ModuleManager" }
     ],
     "recommends": [
+        { "name": "HangarExtender" },
         { "name": "KerbalJointReinforcement" }
     ],
     "suggests": [
