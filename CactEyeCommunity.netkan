@@ -1,0 +1,13 @@
+{
+  "spec_version" : 1,
+  "identifier"   : "CactEyeCommunity",
+  "$kref"        : "#/ckan/spacedock/629",
+  "license": "CC-BY-4.0",
+  "install": [
+    {
+      "file"     : "CactEyeOptics/GameData/CactEye",
+      "install_to": "GameData"
+    }
+  ]
+
+}
