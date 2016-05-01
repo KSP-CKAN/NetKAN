@@ -46,10 +46,10 @@
     ],
     "x_netkan_override" : [
         {
-            "version" : [ ">= v1.0.0", "< v2.0.0" ],
+            "version" : [ ">= v1.3.0", "< v2.0.0" ],
             "override" : {
-                "comment": "Compatible with any KSP version with the same planets.",
-                "ksp_version_min": "0.18.2"
+                "comment": "Match to Custom Asteroids v1.3.0, see NetKAN#3841.",
+                "ksp_version_min": "1.1.0"
             },
             "delete" : [ "ksp_version" ]
         },
@@ -70,8 +70,11 @@
                         "install_to": "GameData",
                         "filter_regexp": "(?<!Trans-Jool\\.cfg)$"
                     }
-                ]
-            }
+                ],
+                "comment": "Match to Custom Asteroids v1.0.0, see NetKAN#3841.",
+                "ksp_version_min": "1.0.0"
+            },
+            "delete" : [ "ksp_version" ]
         }
     ],
     "x_maintained_by": "Starstrider42"
