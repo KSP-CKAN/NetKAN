@@ -3,6 +3,9 @@
     "identifier": "AllYAll",
     "$kref": "#/ckan/spacedock/628",
     "spec_version": "v1.4",
+    "depends": [
+        { "name": "ModuleManager" }
+    ],
     "x_netkan_override": [
         {
             "version": "0.3",
