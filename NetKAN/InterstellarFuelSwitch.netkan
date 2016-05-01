@@ -11,8 +11,8 @@
         }
     ],
     "depends" : [
-        { "name" : "CommunityResourcePack", "min_version" : "0.5.0" },
-        { "name" : "InterstellarFuelSwitch-Core", "min_version" : "1.25" },
+        { "name" : "CommunityResourcePack", "min_version" : "0.5.1" },
+        { "name" : "InterstellarFuelSwitch-Core", "min_version" : "1.28" },
         { "name" : "ModuleManager" }
     ],
     "abstract" : "Library that enables switching the contents, meshes, and textures of tanks.",
