@@ -6,7 +6,7 @@
     "license": "public-domain",
     "depends": [
         { "name": "ModuleManager", "min_version": "2.6.0" },
-        { "name": "RemoteTech", "min_version": "1.6.0" }
+        { "name": "RemoteTech", "min_version": "v1.6.0" }
     ],
     "supports": [
         { "name": "RealSolarSystem" },
