@@ -1,6 +1,7 @@
 {
     "spec_version": 1,
     "$kref": "#/ckan/spacedock/111",
+    "$vref" : "#/ckan/ksp-avc",
     "identifier": "StockNoContracts",
     "license": "public-domain",
     "depends": [
