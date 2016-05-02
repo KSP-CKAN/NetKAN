@@ -9,7 +9,7 @@
     },
     "$kref"         : "#/ckan/github/KSP-RO/SovietRockets",
     "license"       : "CC-BY-NC-ND-3.0",
-    "ksp_version"   : "1.0.5",
+    "ksp_version"   : "1.1.2",
     "install"       : [
     {
         "find"      : "RN_Proton",
@@ -22,16 +22,11 @@
     {
         "find"      : "RN_Zenit",
         "install_to": "GameData"
-    },
-    {
-        "file"      : "GameData/Soviet_Rockets_TR.cfg",
-        "install_to": "GameData"
     }],
     "depends"       :
     [
         { "name"    : "FirespitterCore"  },
-        { "name"    : "ReflectionPlugin" },
-        { "name"    : "KlockheedMartian-Gimbal"   }
+        { "name"    : "TextureReplacer" }
     ],
     "recommends"    :
     [
