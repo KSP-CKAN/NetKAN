@@ -1,0 +1,17 @@
+{
+    "license": "restricted",
+    "identifier": "TR-2PL",
+    "$kref": "#/ckan/spacedock/601",
+    "name": "TR-2PL wheel",
+    "abstract": "TR-2PL is the modified version of TR-2L.  Instead of sticking to the car body with surface attachment, now it is nodal stack (the green circle thing).  So the car can travel much faster without worrying it falling apart.",
+    "spec_version": "v1.4",
+    "depends": [
+        { "name": "SunshineRover" }
+    ],
+    "install": [
+        {
+            "file"       : "TR-2PL",
+            "install_to" : "GameData"
+        }
+    ]
+}
