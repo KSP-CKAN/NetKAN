@@ -1,7 +1,8 @@
 {
-    "spec_version": "v1.2",
+    "spec_version": 1,
     "identifier": "StockRT",
     "$kref": "#/ckan/spacedock/113",
+    "$vref" : "#/ckan/ksp-avc",
     "license": "public-domain",
     "depends": [
         { "name": "ModuleManager", "min_version": "2.6.0" },
