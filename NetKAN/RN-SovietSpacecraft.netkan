@@ -25,8 +25,6 @@
     ],
     "depends"       : [
         { "name"      : "FirespitterCore"  },
-        { "name"      : "ReflectionPlugin" },
-        { "name"      : "SovietPackCore" }
         { "name"      : "TextureReplacer" }
     ],
     "recommends"    : [
