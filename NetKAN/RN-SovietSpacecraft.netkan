@@ -25,12 +25,7 @@
     ],
     "depends"       : [
         { "name"      : "FirespitterCore"  },
-<<<<<<< HEAD
-        { "name"      : "ReflectionPlugin" },
-        { "name"      : "SovietPackCore" }
-=======
         { "name"      : "TextureReplacer" }
->>>>>>> 7e27be2f77391c9ecd4709d5adead4b06fcbc740
     ],
     "recommends"    : [
         { "name"      : "RN-SalyutStations" },
