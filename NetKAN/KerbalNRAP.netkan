@@ -4,6 +4,7 @@
     "$kref": "#/ckan/spacedock/386",
     "$vref": "#/ckan/ksp-avc",
     "license": "CC-BY-SA",
+    "author": [ "stupid_chris", "kotysoft" ],
     "install": [
         { "file": "GameData/NRAP", "install_to": "GameData" }
     ],
