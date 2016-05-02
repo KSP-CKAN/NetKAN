@@ -36,7 +36,7 @@
     "install": [
         {
             "find": "ASET/MK1-2_InternalsASET",
-            "install_to": "GameData"
+            "install_to": "GameData/ASET"
         }
     ],
     "x_netkan_override": [
