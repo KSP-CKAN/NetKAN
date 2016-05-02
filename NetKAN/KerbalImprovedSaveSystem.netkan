@@ -1,0 +1,16 @@
+{
+    "license": "MIT",
+    "identifier": "KerbalImprovedSaveSystem",
+    "$kref": "#/ckan/spacedock/583",
+    "spec_version": "v1.4",
+    "x_netkan_override": [
+        {
+            "version": "1.1.0",
+            "delete": [ "ksp_version" ],
+            "override": {
+                "ksp_version_min": "1.0.5",
+                "ksp_version_max": "1.1.0"
+            }
+        }
+    ]
+}

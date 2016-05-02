@@ -7,6 +7,7 @@
     "license": "MIT",
     "release_status": "stable",
     "author": "TriggerAu",
+    "ksp_version": "1.0.5",
     "resources": {
         "homepage": "http://forum.kerbalspaceprogram.com/threads/93115",
         "license": "https://github.com/TriggerAu/TransferWindowPlanner/blob/master/LICENSE",
@@ -14,6 +15,9 @@
         "manual": "http://triggerau.github.io/TransferWindowPlanner/",
         "x_curse": "http://kerbal.curseforge.com/ksp-mods/224116-transfer-window-planner"
     },
+    "recommends"  :[
+        { "name" : "TriggerAu-Flags" }
+    ],
     "install" : [
             {
                 "find"       : "TransferWindowPlanner",

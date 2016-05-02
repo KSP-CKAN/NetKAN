@@ -1,5 +1,5 @@
 {
-    "spec_version": 1,
+    "spec_version": "v1.2",
     "identifier": "CustomAsteroids-Pops-Stock-Outer",
     "name": "Custom Asteroids (outer stock system data)",
     "abstract": "Adds comets outside orbit of Jool",
@@ -9,33 +9,70 @@
     "depends": [
         {
             "name": "CustomAsteroids",
-            "min_version": "1.0",
-            "comment": "Version at which config format stabilized."
+            "min_version": "v1.3.0",
+            "max_version": "v1.99.99",
+            "comment": "Requires asteroid types."
         }
     ],
     "provides": [ "CustomAsteroids-Pops" ],
     "conflicts": [
-        { "name" : "AlternisKerbol" },
-        { "name" : "PlanetFactory" },
-        { "name" : "PlanetFactoryCE" },
-        {
-            "name": "RealSolarSystem",
-            "comment": "The 6.4× and 10× Kerbol packs are compatible; how to select for them?"
-        }
+        { "name": "AlternisKerbolRekerjiggered", "comment": "Completely different system." },
+        { "name": "AlternisRealSolarSystem", "comment": "Completely different system."},
+        { "name": "BorisSystem", "comment": "Giant planet in Kuper belt." },
+        { "name": "FarloPlanetaryPack", "comment": "Giant planet in scattered disk." },
+        { "name": "HarderSolarSystem", "comment": "Stock orbits not inclined." },
+        { "name": "JungisPlanetPack", "comment": "Giant planet in Kuper belt." },
+        { "name": "KerbolOrigins", "comment": "Giant planet in scattered disk." },
+        { "name": "KPlus", "comment": "Giant planet in scattered disk." },
+        { "name": "Ktolemy", "comment": "Completely different system." },
+        { "name": "LittleGreenMenFromMars", "comment": "Completely different system." },
+        { "name": "NewHorizons", "comment": "Completely different system." },
+        { "name": "OuterPlanetsMod", "comment": "Giant planets in Kuper belt and scattered disk." },
+        { "name": "RealSolarSystem", "comment": "Completely different system."},
+        { "name": "SaruPlanetPack", "comment": "Giant planet in Kuper belt." },
+        { "name": "SentarExpansion", "comment": "Giant planet in scattered disk." },
+        { "name": "SigmaBinary-core", "comment": "Can change any planet's orbit."},
+        { "name": "SmallSolarSystem", "comment": "Completely different system."},
+        { "name": "StockAlikeSolarSystem", "comment": "Completely different system."},
+        { "name": "TerrestrialPlanetPack", "comment": "Terrestrial planets in Kuper belt and scattered disk." },
+        { "name": "UnchartedLands", "comment": "Completely different system."}
     ],
     "install": [
         {
-            "file": "GameData/CustomAsteroids",
-            "install_to": "GameData",
+            "file": "Standard Setup/config",
+            "install_to": "GameData/CustomAsteroids",
             "filter_regexp": "(?<!Trans-Jool\\.cfg)$"
         }
     ],
     "x_netkan_override" : [
         {
-            "version" : [ ">= v1.0", "< v2.0" ],
+            "version" : [ ">= v1.3.0", "< v2.0.0" ],
             "override" : {
-                "comment": "Compatible with any KSP version with the same planets.",
-                "ksp_version_min": "0.18.2"
+                "comment": "Match to Custom Asteroids v1.3.0, see NetKAN#3841.",
+                "ksp_version_min": "1.1.0"
+            },
+            "delete" : [ "ksp_version" ]
+        },
+        {
+            "version" : "< v1.3.0",
+            "override" : {
+                "depends": [
+                    {
+                        "name": "CustomAsteroids",
+                        "min_version": "v1.0.0",
+                        "max_version": "v1.99.99",
+                        "comment": "Version at which config format stabilized."
+                    }
+                ],
+                "install": [
+                    {
+                        "file": "GameData/CustomAsteroids",
+                        "install_to": "GameData",
+                        "filter_regexp": "(?<!Trans-Jool\\.cfg)$"
+                    }
+                ],
+                "comment": "Match to Custom Asteroids v1.0.0, see NetKAN#3841.",
+                "ksp_version_min": "1.0.0"
             },
             "delete" : [ "ksp_version" ]
         }

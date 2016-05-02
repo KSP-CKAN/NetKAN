@@ -1,0 +1,23 @@
+{
+    "$kref": "#/ckan/spacedock/316",
+    "identifier": "AtomicAge",
+    "spec_version": 1,
+    "resources" : {
+        "homepage" : "http://forum.kerbalspaceprogram.com/threads/104855"
+    },
+    "license": "CC-BY-NC-SA-4.0",
+    "depends": [
+        { "name": "CommunityTechTree" },
+        { "name": "ModuleManager" }
+    ],
+    "x_netkan_override": [
+        {
+            "version": "2.0",
+            "delete": [ "ksp_version" ],
+            "override": {
+                "ksp_version_min": "1.0.2",
+                "ksp_version_max": "1.0.5"
+            }
+        }
+    ]
+}

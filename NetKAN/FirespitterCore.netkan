@@ -1,5 +1,5 @@
 {
-    "spec_version"    : "v1.2",
+    "spec_version"    : "v1.16",
     "identifier"      : "FirespitterCore",
     "$kref"           : "#/ckan/github/snjo/Firespitter",
     "license"         : "restricted",
@@ -14,11 +14,12 @@
     },
     "install"  : [
         {
-            "file"       : "Firespitter/Plugins",
+            "find"       : "Firespitter/Plugins",
             "install_to" : "GameData/Firespitter"
         },
         {
-            "file" : "Firespitter/Firespitter.version",
+            "find" : "Firespitter.version",
+            "find_matches_files" : true,
             "install_to" : "GameData/Firespitter"
         }
     ]

@@ -25,7 +25,6 @@
         { "name"      : "TextureReplacer" }
     ],
     "recommends"    : [
-    {
-        "name"      : "RN-SovietRockets"
-    }]
+        { "name"      : "RN-SovietRockets" }
+    ]
 }

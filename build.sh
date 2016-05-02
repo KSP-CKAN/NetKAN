@@ -3,7 +3,7 @@
 set -e
 
 # Default flags.
-KSP_VERSION_DEFAULT="1.0.5"
+KSP_VERSION_DEFAULT="1.1.2"
 KSP_NAME_DEFAULT="dummy"
 
 # Locations of CKAN and NetKAN.
@@ -44,27 +44,35 @@ create_dummy_ksp () {
     # TODO: Manual hack, a better way to handle this kind of identifiers may be needed.
     case $KSP_VERSION in
     "0.23")
-        echo "Overidding '0.23' with '0.23.0'"
+        echo "Overriding '0.23' with '0.23.0'"
         KSP_VERSION="0.23.0"
         ;;
     "0.25")
-        echo "Overidding '0.25' with '0.25.0'"
+        echo "Overriding '0.25' with '0.25.0'"
         KSP_VERSION="0.25.0"
         ;;
     "0.90")
-        echo "Overiding '0.90' with '0.90.0'"
+        echo "Overriding '0.90' with '0.90.0'"
         KSP_VERSION="0.90.0"
         ;;
     "1.0")
-        echo "Overidding '1.0' with '$KSP_VERSION_DEFAULT'"
-        KSP_VERSION=$KSP_VERSION_DEFAULT
+        echo "Overriding '1.0' with '1.0.5'"
+        KSP_VERSION="1.0.5"
         ;;
     "1.0.99")
-        echo "Overidding '1.0.99' with '$KSP_VERSION_DEFAULT'"
+        echo "Overriding '1.0.99' with '1.0.5'"
+        KSP_VERSION="1.0.5"
+        ;;
+    "1.1")
+        echo "Overriding '1.1' with '$KSP_VERSION_DEFAULT'"
+        KSP_VERSION=$KSP_VERSION_DEFAULT
+        ;;
+    "1.1.99")
+        echo "Overriding '1.1.99' with '$KSP_VERSION_DEFAULT'"
         KSP_VERSION=$KSP_VERSION_DEFAULT
         ;;
     "any")
-        echo "Overridding any with '$KSP_VERSION_DEFAULT'"
+        echo "Overriding any with '$KSP_VERSION_DEFAULT'"
         KSP_VERSION=$KSP_VERSION_DEFAULT
         ;;
     "null")
@@ -206,9 +214,9 @@ echo "If you get an error below you should look for syntax errors in the metadat
 
 for f in $COMMIT_CHANGES
 do
-    if [ "$f" == "build.sh" ]
+    if [[ "$f" =~ build.sh|metadata.t ]]
     then
-        echo "Lets try not to validate our build script with jsonlint"
+        echo "Lets try not to validate '$f' with jsonlint"
         continue
     fi
 
@@ -273,8 +281,8 @@ fi
 # Note: Additional NETKAN_OPTIONS may be set on jenkins jobs
 for f in $COMMIT_CHANGES
 do
-    if [ "$f" = "build.sh" ]; then
-        echo "Lets try not to validate our build script with netkan"
+    if [[ "$f" =~ build.sh|metadata.t ]];then
+        echo "Lets try not to build '$f' with netkan"
         continue
     fi
 

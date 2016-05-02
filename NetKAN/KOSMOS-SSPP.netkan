@@ -1,17 +1,15 @@
 {
     "spec_version"  : "v1.4",
     "identifier"    : "KOSMOS-SSPP",
-	"name"         : "KOSMOS Space Station Parts Pack",
-	"abstract"     : "Contains station parts and solar panels for older soviet style spacecraft.",
+    "name"          : "KOSMOS Space Station Parts Pack",
+    "abstract"      : "Contains station parts and solar panels for older soviet style spacecraft.",
     "$kref"         : "#/ckan/github/raidernick/KOSMOS",
     "license"       : "CC-BY-NC-ND-3.0",
-    "ksp_version"   : "1.0.5",
-	"resources": {
+    "ksp_version_min"   : "1.0.5",
+    "ksp_version_max"   : "1.1.1",
+    "resources": {
         "homepage"  : "https://github.com/raidernick/KOSMOS"
     },
-    "depends" : [
-        { "name" : "FirespitterCore" }
-    ],
     "install" : [
         {
             "find" : "KOSMOS",

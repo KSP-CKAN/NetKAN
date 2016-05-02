@@ -1,0 +1,20 @@
+{
+    "spec_version": 1,
+    "$kref": "#/ckan/spacedock/431",
+    "$vref" : "#/ckan/ksp-avc",
+    "license": "GPL-3.0",
+    "comment": "archive contains GPL3 license as well as MIT",
+    "identifier": "KSIPlacementServices",
+    "abstract": "This mod overwrites part of the Astronaut Complex with a new hiring platform. This mod is BETA at best.",
+    "comment": "abstract source: https://github.com/OakTree42/KSI-Hiring/blob/master/ReadME.txt",
+    "resources" : {
+         "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/111412-105-ksi-astronaut-complex-overhaul",
+         "repository": "https://raw.githubusercontent.com/OakTree42/KSI-Hiring"
+    },
+    "install": [
+        {
+            "file"       : "KSI",
+            "install_to" : "GameData"
+        }
+    ]
+}

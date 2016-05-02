@@ -1,0 +1,8 @@
+{
+    "spec_version" : 1,
+    "identifier"   : "CareerManager",
+    "$kref"        : "#/ckan/spacedock/424",
+    "$vref" : "#/ckan/ksp-avc",
+    "license": "GPL-3.0",
+    "x_netkan_license_ok": true
+}

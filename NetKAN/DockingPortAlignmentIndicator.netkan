@@ -1,0 +1,22 @@
+{
+    "$kref": "#/ckan/spacedock/543",
+    "$vref": "#/ckan/ksp-avc",
+    "spec_version": "v1.4",
+    "identifier": "DockingPortAlignmentIndicator",
+    "license": "MIT",
+    "depends": [
+        {
+            "name": "ModuleManager",
+            "min_version": "2.6.22"
+        }
+    ],
+    "recommends": [
+        { "name": "RasterPropMonitor" }
+    ],
+    "install": [
+        {
+            "file": "GameData/NavyFish",
+            "install_to": "GameData"
+        }
+    ]
+}

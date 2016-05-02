@@ -1,0 +1,12 @@
+{
+    "license": "restricted",
+    "identifier": "KerbalSuitcases",
+    "spec_version": "v1.4",
+    "$kref": "#/ckan/spacedock/368",
+    "install": [
+        {
+            "find"       : "Kerbal Suitcase",
+            "install_to" : "GameData"
+        }
+    ]
+}

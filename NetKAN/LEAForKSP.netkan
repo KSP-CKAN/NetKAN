@@ -1,0 +1,17 @@
+{
+    "identifier": "LEAForKSP",
+    "spec_version": "v1.4",
+    "$kref": "#/ckan/spacedock/321",
+    "abstract": "Use your Tablet to control KSP, get 6 analog axis, invert axis on the fly, drive your rover with tilt sensors and Much more!!! - for Windows only, requires server. See homepage for details.",
+    "license": "MIT",
+    "install": [
+        {
+            "find": "GameData/LEAForKSP",
+            "install_to": "GameData"
+        },
+        {
+            "file": "LEAForKSP/LEAForKSPEMTags.xml",
+            "install_to": "GameRoot"
+        }
+    ]
+}

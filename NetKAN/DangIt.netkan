@@ -16,10 +16,10 @@
         "bugtracker"   : "https://github.com/Ippo343/DangIt/issues",
         "repository"   : "https://github.com/Ippo343/DangIt"
     },
-	"install":[
-		{
-			"file":"GameData/DangIt",
-			"install_to":"GameData"
-		}
-	]
+    "install":[
+        {
+            "file":"GameData/DangIt",
+            "install_to":"GameData"
+        }
+    ]
 }

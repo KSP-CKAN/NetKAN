@@ -1,0 +1,19 @@
+{
+    "$kref": "#/ckan/spacedock/372",
+    "spec_version": 1,
+    "license": "CC-BY-SA-4.0",
+    "identifier": "TheCube",
+    "depends": [
+        { "name": "FirespitterCore" }
+    ],
+    "recommends": [
+        { "name": "KerbalJointReinforcement" }
+    ],
+    "x_netkan_epoch": 1,
+    "install": [
+        {
+            "file": "Pupstar",
+            "install_to": "GameData"
+        }
+    ]
+}

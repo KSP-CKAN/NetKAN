@@ -1,0 +1,54 @@
+{
+    "identifier": "OuterPlanetsMod",
+    "spec_version": "v1.4",
+    "$kref": "#/ckan/spacedock/233",
+    "x_netkan_epoch": "1",
+    "license": "CC-BY-NC-SA-4.0",
+    "depends": [
+        { "name": "ModuleManager" },
+        { "name": "Kopernicus", "min_version": "1:beta-05-2" }
+    ],
+    "recommends": [
+        { "name": "OPMClouds" },
+        { "name": "SigmaOPMRecolor" },
+        { "name": "SigmaOPMExpansion" },
+        { "name": "CustomAsteroids" },
+        { "name": "KopernicusExpansion" },
+        { "name": "SigmaBinary-core", "min_version": "1:v1.3.2" }
+    ],
+    "conflicts": [
+        { "name": "BilliardsPlanetPack" },
+        { "name": "RealSolarSystem" },
+        { "name": "ToySolarSystem" }
+    ],
+    "suggests": [
+        { "name": "JDiminishingRTG" },
+        { "name": "AtomicAge" },
+        { "name": "BetterTimeWarp" },
+        { "name": "NearFuturePropulsion" },
+        { "name": "NearFutureElectrical" },
+        { "name": "NearFutureSolar" },
+        { "name": "NearFutureConstruction" },
+        { "name": "NearFutureSpacecraft" },
+        { "name": "TransferWindowPlanner"}
+    ],
+    "supports": [
+        { "name": "PlanetShine" },
+        { "name": "DistantObjectEnhancement" },
+        { "name": "FinalFrontier" },
+        { "name": "ResearchBodies" },
+        { "name": "AntennaRange" },
+        { "name": "RemoteTech" },
+        { "name": "SCANsat" },
+        { "name": "DeadlyReentry" },
+        { "name": "MunarSurfaceExperimentPackage" },
+        { "name": "Karbonite" },
+        { "name": "TextureReplacer" }
+    ],
+    "install": [
+        {
+            "find": "OPM",
+            "install_to" : "GameData"
+        }
+    ]
+}

@@ -1,0 +1,25 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "MainSailorTextures-Essentials",
+    "ksp_version": "any",
+    "$kref": "#/ckan/spacedock/487",
+    "name": "Procedural Parts - MainSailor's Procedural Textures - Essential Textures and Flag",
+    "license": "CC-BY-NC-SA-4.0",
+    "abstract": "Procedural Parts textures required for all MainSailor Texture packs",
+    "depends": [
+        { "name": "ProceduralParts" }
+    ],
+    "provides": [
+        "PPTextures"
+    ],
+    "install": [
+        {
+            "file": "MainSailor/Essentials",
+            "install_to": "GameData/MainSailor"
+        },
+        {
+            "file": "MainSailor/Flags",
+            "install_to": "GameData/MainSailor"
+        }
+    ]
+}

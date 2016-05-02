@@ -1,0 +1,35 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "Buffalo",
+    "name": "Buffalo",
+    "author": "Angel125",
+    "abstract": "A modular rover parts pack based upon NASA's MMSEV. Explore in style.",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/122617-105-buffalo-nasa-inspired-msev-fly-like-jetman-yves-rossy-with-the-jetwing/&page=1"
+    },
+    "license": "CC-BY-NC-SA-4.0",
+    "$kref": "#/ckan/github/Angel-125/Buffalo",
+    "$vref": "#/ckan/ksp-avc",
+    "depends": [
+        { "name": "CommunityResourcePack", "min_version": "0.4.9" },
+        { "name": "WildBlueTools", "min_version": "1.0.32" },
+        { "name": "ModuleManager", "min_version": "2.6.18" }
+    ],
+    "supports" : [
+    { "name" : "ConnectedLivingSpace" },
+    { "name" : "TACLS" },
+    { "name" : "USI-LS" },
+    { "name" : "Snacks" }
+    ],
+    "recommends" : [
+        { "name" : "RasterPropMonitor-Core" },
+        { "name" : "ASETProps" },
+        { "name" : "ASETAvionics" }
+    ],
+    "install" : [
+        {
+            "find"       : "GameData/WildBlueIndustries/Buffalo",
+            "install_to" : "GameData/WildBlueIndustries"
+        }
+    ]
+}

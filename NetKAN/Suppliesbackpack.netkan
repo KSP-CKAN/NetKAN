@@ -1,0 +1,16 @@
+{
+    "license": "CC-BY-NC-SA-4.0",
+    "identifier": "Suppliesbackpack",
+    "spec_version": "v1.4",
+    "$kref": "#/ckan/spacedock/379",
+    "depends": [
+        { "name": "USI-LS" },
+        { "name": "KIS" }
+    ],
+    "install": [
+        {
+            "find"       : "Bloody_looser",
+            "install_to" : "GameData"
+        }
+    ]
+}

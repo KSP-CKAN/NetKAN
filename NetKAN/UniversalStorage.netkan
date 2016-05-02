@@ -1,0 +1,27 @@
+{
+    "spec_version" : "v1.4",
+    "identifier"   : "UniversalStorage",
+    "$kref"        : "#/ckan/spacedock/329",
+    "license"      : "restricted",
+    "depends"      : [
+        { "name" : "CommunityResourcePack" },
+        { "name" : "ModuleManager" }
+    ],
+    "suggests"     : [
+        { "name" : "KIS" },
+        { "name" : "DMagicOrbitalScience" },
+        { "name" : "ConnectedLivingSpace" }
+    ],
+    "x_conflicts": [
+        { "name": "UniversalStorage-ECLSS" },
+        { "name": "UniversalStorage-IFI" },
+        { "name": "UniversalStorage-KAS" },
+        { "name": "UniversalStorage-SNACKS" },
+        { "name": "UniversalStorage-TAC" }
+    ],
+    "install" : [ {
+        "find"       : "UniversalStorage",
+        "install_to" : "GameData",
+        "filter"     : [ "MiniAVC.xml" ]
+    } ]
+}

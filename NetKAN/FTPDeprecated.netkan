@@ -1,0 +1,16 @@
+{
+    "$kref": "#/ckan/spacedock/387",
+    "$vref" : "#/ckan/ksp-avc",
+    "identifier": "FTPDeprecated",
+    "license": "CC-BY-NC-SA",
+    "spec_version": 1,
+    "depends": [
+        { "name": "FuelTanksPlus" }
+    ],
+    "install": [
+        {
+            "file": "FTPDeprecated",
+            "install_to": "GameData"
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "identifier": "SurfaceExperimentPack",
+    "license": "BSD-2-clause",
+    "spec_version": "v1.4",
+    "author": [ "AlbertKermin", "CobaltWolf" ],
+    "$kref": "#/ckan/spacedock/318",
+    "depends": [
+        { "name": "DMagicScienceAnimate" },
+        { "name": "KAS" },
+        { "name": "KIS" }
+    ],
+    "supports": [
+        { "name": "OuterPlanets" }
+    ],
+    "install": [
+        {
+            "find": "SurfaceExperimentPackage",
+            "install_to": "GameData"
+        }
+    ]
+}

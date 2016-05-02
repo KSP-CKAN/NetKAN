@@ -12,8 +12,8 @@
             "install_to" : "GameData"
         },
         {
-            "file"       : "Optional/GameData/DefaultActionGroups/DefaultSolarPanelGroups.cfg",
-            "install_to" : "GameData/DefaultActionGroups"
+            "file"       : "Optional/GameData/DefaultActionGroups",
+            "install_to" : "GameData"
         }
     ]
 }

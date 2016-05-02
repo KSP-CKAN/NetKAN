@@ -1,0 +1,22 @@
+{
+    "$kref": "#/ckan/spacedock/520",
+    "identifier": "RemoteTech",
+    "author": "Remote Technologies Group",
+    "spec_version": 1,
+    "license": "GPL-2.0",
+    "release_status": "stable",
+    "x_netkan_force_v": true,
+    "depends": [
+        {
+            "name": "ModuleManager",
+            "min_version": "2.3.1",
+            "comment": "Earlier versions of MM have forward compatibility problems, according to the MM release notes."
+        }
+    ],
+    "install": [
+        {
+            "file": "GameData/RemoteTech",
+            "install_to": "GameData"
+        }
+    ]
+}

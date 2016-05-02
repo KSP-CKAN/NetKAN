@@ -1,0 +1,51 @@
+{
+    "spec_version": "v1.2",
+    "identifier": "Pathfinder",
+    "name": "Pathfinder",
+    "author": "Angel125",
+    "abstract": "Space camping & geoscience",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/121397-105-beta-pathfinder-0910-space-camping-geoscience/&page=1"
+    },
+    "$kref": "#/ckan/github/Angel-125/Pathfinder",
+    "$vref": "#/ckan/ksp-avc",
+    "license": "CC-BY-NC-SA-4.0",
+    "depends" : [
+        { "name": "CommunityResourcePack", "min_version": "0.4.9" },
+        { "name": "WildBlueTools", "min_version": "1.0.32" },
+        { "name": "ModuleManager", "min_version": "2.6.18" },
+        { "name": "Buffalo", "min_version": "0.2.7" }
+    ],
+    "recommends" : [
+        { "name": "KAS" },
+        { "name": "KIS" }
+    ],
+    "supports" : [
+    { "name" : "ConnectedLivingSpace" },
+    { "name" : "TACLS" },
+    { "name" : "USI-LS" },
+    { "name" : "Snacks" }
+    ],
+    "x_netkan_override": [
+    {
+      "version": ">=0.8.1",
+      "override": {
+        "conflicts": [
+          { "name": "Pathfinder-AntennarangePatch" }
+        ]
+      }
+    },
+    {
+      "version": "v0.9.13",
+      "override": {
+          "ksp_version": "1.1.0"
+      }
+    }
+   ],
+    "install": [
+        {
+            "file": "GameData/WildBlueIndustries/Pathfinder",
+            "install_to": "GameData/WildBlueIndustries"
+        }
+    ]
+}

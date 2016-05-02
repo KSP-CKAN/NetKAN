@@ -1,0 +1,13 @@
+{
+    "spec_version" : 1,
+    "identifier"   : "ODFC",
+    "$kref"        : "#/ckan/spacedock/618",
+    "x_netkan_license_ok": true,
+    
+    "install": [
+        {
+            "file"       : "GameData/Okram",
+            "install_to" : "GameData"
+        }
+    ]
+}

@@ -6,6 +6,14 @@
     "depends": [
         { "name": "Tantares" },
         { "name": "TantaresLV" },
-        { "name": "RealPlume" }
+        { "name": "RealPlume" },
+        { "name": "Contares-Common" }
+    ],
+    "install": [
+        {
+            "file": "Contares",
+            "install_to": "GameData",
+            "filter": ["Agencies", "CONTARES_TweakScale.cfg"]
+        }
     ]
 }

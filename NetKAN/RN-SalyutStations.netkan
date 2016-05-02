@@ -20,18 +20,15 @@
         "file"      : "Ships/VAB",
         "install_to": "Ships"
     }],
-	"conflicts"     : [
-		{ "name"	    : "RN-SalyutStations-SoyuzFerries" }
-	],
-    "depends"         : [
+    "conflicts"     : [
+        { "name"    : "RN-SalyutStations-SoyuzFerries" }
+    ],
+    "depends"       : [
         { "name"      : "FirespitterCore"  },
         { "name"      : "TextureReplacer" }
     ],
     "recommends"    : [
-	{
-        "name"      : "RN-SovietSpacecraft"
-    },
-    {
-        "name"      : "RN-SovietRockets"
-    }]
+        { "name"      : "RN-SovietSpacecraft" },
+        { "name"      : "RN-SovietRockets" }
+    ]
 }

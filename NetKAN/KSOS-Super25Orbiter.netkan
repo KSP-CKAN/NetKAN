@@ -1,0 +1,29 @@
+{
+    "spec_version" : "v1.2",
+    "identifier"   : "KSOS-Super25Orbiter",
+    "$kref"        : "#/ckan/spacedock/240",
+    "license"      : "CC-BY-NC-ND-4.0",
+    "name"         : "KSOS: Super 25 Orbiter",
+    "author"       : [ "Nazari", "helldiver" ],
+    "x_netkan_license_ok": true,
+    "depends" : [
+        { "name": "KSOS-Common" }
+    ],
+    "install": [
+        {
+            "file": "KSO",
+            "install_to": "GameData",
+            "filter": [ 
+                "FX", 
+                "RPM",
+                "User Manual and Credits.pdf",
+                "kerbin_orbiter_engines.dds",
+                "kerbin_orbiter_engines_emis.dds",
+                "kerbin_orbiter_engines_norm_NRM.dds",
+                "KSOflag.dds",
+                "omskso.cfg",
+                "omskso.mu"
+            ]
+        }
+    ]
+}

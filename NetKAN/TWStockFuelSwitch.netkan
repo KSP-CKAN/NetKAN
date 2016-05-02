@@ -1,0 +1,32 @@
+{
+    "$kref": "#/ckan/spacedock/366",
+    "spec_version": 1,
+    "identifier": "TWStockFuelSwitch",
+    "name": "TesserWreck's Stock Fuel Switch",
+    "x_netkan_license_ok": true,
+    "depends": [
+        {
+            "name": "InterstellarFuelSwitch"
+        },
+        {
+            "name": "CommunityResourcePack"
+        },
+        {
+            "name": "ModuleManager"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "StockFuelSwitch"
+        }
+    ],
+    "resources" : {
+        "homepage"     : "http://forum.kerbalspaceprogram.com/index.php?/topic/133655-stock-fuel-switch"
+    },
+    "install": [
+        {
+            "file": "GameData/StockFuelSwitch",
+            "install_to": "GameData"
+        }
+    ]
+}
