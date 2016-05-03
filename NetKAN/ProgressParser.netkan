@@ -6,7 +6,7 @@
     "identifier"    : "ProgressParser",
     "license"       : "MIT",
     "$kref"         : "#/ckan/github/DMagic1/KSP_Progress_Parser",
-	"$vref"			: "#/ckan/ksp-avc",
+    "$vref"         : "#/ckan/ksp-avc",
 
         "install": [
         {
