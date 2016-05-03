@@ -6,6 +6,9 @@
     "suggests": [
         { "name": "ConnectedLivingSpace" }
     ],
+    "depends": [
+        { "name": "KipEng-Agency" }
+    ],
     "install": [
         {
             "find": "parts",
