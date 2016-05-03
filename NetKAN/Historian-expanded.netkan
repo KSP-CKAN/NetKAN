@@ -1,0 +1,19 @@
+{
+  "spec_version" : 1,
+  "identifier"   : "Historian-Expanded",
+  "$kref"        : "#/ckan/github/Aelfhe1m/Historian-Expanded",
+  "name"         : "Historian-Expanded",
+  "abstract"     : "Adds fully configurable and dynamic captions and overlay graphics to screenshots to better describe the context of screenshots and record your Kerbal adventures.",
+  "license"      : "GPL-3.0",
+  "ksp_version"  : "1.1.2",
+  "resources": {
+      "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/138848-112-historian-expanded/",
+      "repository"  : "https://github.com/Aelfhe1m/Historian-Expanded"
+  },
+	"install": [
+        {
+            "file"       : "GameData/KSEA",
+            "install_to" : "GameData"
+        }
+    ]
+}
