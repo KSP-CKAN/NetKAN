@@ -1,0 +1,30 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "ActiveStruts",
+    "name": "CIT - ActiveStruts",
+    "author": "marce",
+    "abstract": "Allows struts to be created and removed in the editor & in flight. Plus automatic strutting, flexible struts and a Kerbal-Tether",
+    "license": "CC-BY-NC-SA-4.0",
+    "depends": [
+        {
+            "name": "CIT-Util"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "KAS"
+        }
+    ],
+    "install": [
+        {
+            "file": "CIT/ActiveStruts",
+            "install_to": "GameData/CIT"
+        }
+    ],
+    "resources": {
+        "homepage": "https://ksp.marce.at/"
+    },
+    "download": "XXX",
+    "version": "XXX",
+    "ksp_version": "XXX"
+}

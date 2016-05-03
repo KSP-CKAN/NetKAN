@@ -1,0 +1,52 @@
+{
+    "spec_version": "v1.4",
+    "comment": "Ships explicitly not installed by author request (he no longer maintains them)",
+    "identifier": "RN-SalyutStations-SoyuzFerries",
+    "name": "Salyut Stations and Soyuz Ferries",
+    "abstract": "This is a salyut mod for the DOS & OPS style stations. It contains fully functional replicas of Salyut 1, 4, 6 and 7. It also now contains Almaz 2, 3 and 5, as well as Soyuz 7K-T, 7K-OKA, 7K-OKP 7K-T-AF and Progress 7K-TG, and Vostok and Voskhod spacecraft, and TKS/VA spacecraft",
+    "author": "Raidernick",
+    "license": "CC-BY-NC-ND-3.0",
+    "resources": {
+        "homepage": "https://github.com/KSP-RO/SalyutStations-SoyuzFerries",
+        "repository": "https://github.com/KSP-RO/SalyutStations-SoyuzFerries"
+    },
+    "version": "v2.2",
+    "ksp_version": "1.0.5",
+    "depends": [
+        {
+            "name": "FirespitterCore"
+        },
+        {
+            "name": "ReflectionPlugin"
+        },
+        {
+            "name": "SovietPackCore"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "RN-SovietRockets"
+        }
+    ],
+    "install": [
+        {
+            "find": "KOSMOS",
+            "install_to": "GameData"
+        },
+        {
+            "find": "RN_Salyut",
+            "install_to": "GameData"
+        },
+        {
+            "find": "RN_Soyuz",
+            "install_to": "GameData"
+        },
+        {
+            "file": "Gamedata/RN_FAR_overrides.cfg",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/KSP-RO/SalyutStations-SoyuzFerries/releases/download/v2.2/RN_SalyutStations_v2.2.zip",
+    "download_size": 119616829,
+    "x_generated_by": "netkan"
+}

@@ -1,0 +1,21 @@
+{
+    "spec_version": 1,
+    "identifier": "KerBalloons",
+    "name": "KerBalloons",
+    "abstract": "Adds various balloons to KSP",
+    "author": "JoePatrick1",
+    "license": "restricted",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/107432-11-kerballoons-v032-balloons-for-ksp/"
+    },
+    "version": "v0.3.2",
+    "ksp_version": "1.1",
+    "install": [
+        {
+            "file": "KerBalloons",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "http://kerbal.curseforge.com/projects/kerballoons-v0-3-2/files/2296334/download",
+    "download_size": 2260878
+}

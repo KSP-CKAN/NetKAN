@@ -1,0 +1,40 @@
+{
+  "spec_version": 1,
+  "identifier": "CustomDesignSpacesuits-Steampunk",
+  "ksp_version": "0.90",
+  "license": "CC-BY-NC-SA-4.0",
+  "resources": {
+    "homepage": "http://forum.kerbalspaceprogram.com/threads/72115"
+  },
+  "depends": [
+    {
+      "name": "TextureReplacer",
+      "min_version": "2.1"
+    }
+  ],
+  "install": [
+    {
+      "file": "Steam-Punk-Pack-v0.38/Green Skull Inc/GameData/TextureReplacer",
+      "install_to": "GameData",
+	  "filter": [
+        "NegativeX.png",
+        "NegativeY.png",
+        "NegativeZ.png",
+        "PositiveX.png",
+        "PositiveY.png",
+        "PositiveZ.png",
+        "Visor.shader",
+        "TextureReplacer.dll",
+        "Readme.md"
+      ]
+    }
+  ],
+  "release_status": "testing",
+  "name": "Steam Punk Pack v0.38",
+  "abstract": "Steampunk Space Suits",
+  "description": "Provides Space Suits in a Steampunky flavour",
+  "author": "Green Skull",
+  "version": "0.38",
+  "download": "http://ksp.gurkensalat.com/archive/Steam-Punk-Pack-v0.38.zip",
+  "download_size": 53953879
+}
