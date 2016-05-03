@@ -9,8 +9,8 @@
     "resources": {
         "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/138848-112-historian-expanded/",
         "repository"  : "https://github.com/Aelfhe1m/Historian-Expanded"
-    }
-	"install": [
+    },
+    "install": [
         {
             "file"       : "GameData/KSEA",
             "install_to" : "GameData"
