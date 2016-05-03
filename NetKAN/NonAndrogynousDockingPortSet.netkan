@@ -1,7 +1,15 @@
 {
-    "license": "Attribution-NonCommercial-ShareAlike 4.0 International license ",
-    "identifier": "NonAndrogynousDockingPortSet",
-    "x_via": "Automated SpaceDock CKAN submission",
+    "license": "CC-BY-NC-SA-4.0",
+    "identifier": "NonAndrogynousDockingPorts",
     "$kref": "#/ckan/spacedock/635",
-    "spec_version": "v1.4"
+    "spec_version": "v1.4",
+    "suggests": [
+        { "name": "ConnectedLivingSpace" }
+    ],
+    "install": [
+        {
+            "find": "parts",
+            "install_to": "GameData/KipEng"
+        }
+    ]
 }
