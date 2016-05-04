@@ -10,7 +10,7 @@
     "install": [
         {
             "file"       : "System",
-            "install_to" : "GameData"
+            "install_to" : "GameData/Kopernicus/Config"
         }
     ]
 }
