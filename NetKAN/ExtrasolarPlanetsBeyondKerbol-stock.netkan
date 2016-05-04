@@ -8,9 +8,10 @@
     "depends": [
          { "name" : "Kopernicus" }
     ],
+    "provides": [ "CustomAsteroids-Pops" ],
     "install": [
         {
-            "find": "StockScale/ExtraSolar",
+            "find": "StockScale/GameData/ExtraSolar",
             "install_to": "GameData"
         }
     ],
