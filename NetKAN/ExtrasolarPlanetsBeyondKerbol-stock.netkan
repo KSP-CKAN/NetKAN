@@ -10,7 +10,7 @@
     ],
     "install": [
         {
-            "find": "StockScale/ExtraSolar",
+            "find": "StockScale/GameData/ExtraSolar",
             "install_to": "GameData"
         }
     ],
