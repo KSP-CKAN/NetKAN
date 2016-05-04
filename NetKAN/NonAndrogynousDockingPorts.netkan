@@ -1,0 +1,19 @@
+{
+    "license": "CC-BY-NC-SA-4.0",
+    "identifier": "NonAndrogynousDockingPorts",
+    "$kref": "#/ckan/spacedock/635",
+    "spec_version": "v1.4",
+    "suggests": [
+        { "name": "ConnectedLivingSpace" }
+    ],
+    "depends": [
+        { "name": "KipEng-Agency" }
+    ],
+    "install": [
+        {
+            "find": "KipEng",
+            "install_to": "GameData/KipEng",
+            "filter": "agencies"
+        }
+    ]
+}
