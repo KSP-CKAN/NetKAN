@@ -3,9 +3,6 @@
     "identifier": "KSPX",
     "$kref": "#/ckan/spacedock/385",
     "license": "restricted",
-    "resources"      : {
-        "homepage" : "http://forum.kerbalspaceprogram.com/index.php?/topic/96464-11x-kspx-kerbal-stock-part-expansion-mod-reposted-v02101-20416/"
-    },
     "install": [
         { "file": "GameData/KSPX", "install_to": "GameData" }
     ],

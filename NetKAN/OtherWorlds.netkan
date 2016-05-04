@@ -1,12 +1,13 @@
 {
     "spec_version": "v1.4",
     "identifier": "OtherWorlds",
-    "$kref": "#/ckan/kerbalstuff/1056",
+    "$kref": "#/ckan/spacedock/343",
     "license": "CC-BY-NC-SA-4.0",
     "depends": [
         { "name": "ModuleManager" },
         { "name": "Kopernicus", "min_version": "1:beta-05-2" }
     ],
+    "provides": [ "CustomAsteroids-Pops" ],
     "suggests": [
         { "name": "PlanetShine" },
         { "name": "DistantObjectEnhancement" },
