@@ -1,5 +1,5 @@
 {
-    "spec_version": "v1.4",
+    "spec_version": "v1.10",
     "identifier": "KerbinSideGAP",
     "$kref": "#/ckan/github/Keniamin/KerbinSideGAP",
     "name": "Kerbin Side GAP",
@@ -24,7 +24,7 @@
     },
     "install" : [
         {
-            "file": "KerbinSideGAP",
+            "find_regexp": "Kerbin.?Side.?GAP",
             "install_to": "GameData/ContractPacks"
         },
         {
