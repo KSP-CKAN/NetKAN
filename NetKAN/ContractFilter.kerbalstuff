@@ -1,9 +1,0 @@
-{
-    "$kref": "#/ckan/kerbalstuff/789",
-    "spec_version": 1,
-    "license": "restricted",
-    "identifier": "ContractFilter",
-    "conflicts": [
-        {"name" : "ContractController"}
-    ]
-}
