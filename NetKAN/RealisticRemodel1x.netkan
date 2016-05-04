@@ -5,7 +5,8 @@
     "spec_version": "v1.4",
     "depends": [
         { "name": "Kopernicus" },
-        { "name": "SigmaDimensions" }
+        { "name": "SigmaDimensions" },
+        { "name": "ModuleManager" }
     ],
     "recommends": [
         { "name": "SigmaBinary-core" }
