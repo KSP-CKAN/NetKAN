@@ -11,8 +11,9 @@
     ],
     "install": [
         {
-            "find": "parts",
-            "install_to": "GameData/KipEng"
+            "find": "KipEng",
+            "install_to": "GameData/KipEng",
+            "filter": "agencies"
         }
     ]
 }
