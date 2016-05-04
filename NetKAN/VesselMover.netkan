@@ -1,0 +1,13 @@
+{
+    "spec_version" : 1,
+    "identifier"   : "VesselMover",
+    "$kref"        : "#/ckan/github/BahamutoD/VesselMover",
+    "name"         : "Vessel Mover",
+    "resources": {
+        "homepage" : "http://forum.kerbalspaceprogram.com/index.php?/topic/123646-11-vesselmover-v15-vessel-spawning-toolbar-ui-apr-25/"
+    },
+    "abstract"     : "A quick and easy way to move vessels around in KSP. Press alt+P to activate while landed.",
+    "license"      : "MIT",
+    "ksp_version"  : "1.1",
+    "release-status" : "stable"
+}

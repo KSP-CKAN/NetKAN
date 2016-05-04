@@ -1,0 +1,16 @@
+{
+    "identifier": "InfernalRobotics-Sequencer",
+    "license": "GPL-3.0",
+    "$kref": "#/ckan/spacedock/72",
+    "spec_version": "v1.4",
+    "depends" : [
+        { "name" : "InfernalRobotics", "min_version" : "0.21.3" },
+        { "name" : "ModuleManager" }
+    ],
+    "install" : [
+        {
+            "find" : "IRSequencer",
+            "install_to" : "GameData/MagicSmokeIndustries"
+        }
+    ]
+}

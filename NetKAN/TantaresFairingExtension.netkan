@@ -1,0 +1,18 @@
+{
+    "spec_version": 1,
+    "identifier": "TantaresFairingExtension",
+    "$kref": "#/ckan/spacedock/123",
+    "x_netkan_license_ok": true,
+    "x_netkan_epoch": 1,
+    "depends": [
+        { "name": "ModuleManager" },
+        { "name": "TantaresLV" }
+    ],
+    "install": [
+        {
+            "file"       : "TantaresFairings",
+            "install_to" : "GameData",
+            "filter"     : "Source Code.txt"
+        }
+    ]
+}

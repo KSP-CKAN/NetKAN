@@ -1,0 +1,12 @@
+{
+    "spec_version" : 1,
+    "identifier"   : "TimeControl",
+    "$kref"        : "#/ckan/github/ntwest/TimeControl",
+    "name"         : "Time Control",
+    "abstract"     : "Slow Motion, Hyper Warp, and Rails Warp Controls",
+    "license"      : "MIT",
+    "ksp_version"  : "1.1.2",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/62946-025-time-control-92314-v132/&do=findComment&comment=2557201"
+    }
+}

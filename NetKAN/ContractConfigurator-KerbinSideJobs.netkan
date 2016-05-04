@@ -1,0 +1,19 @@
+{
+    "identifier": "ContractConfigurator-KerbinSideJobs",
+    "$kref": "#/ckan/spacedock/503",
+    "name": "Contract Pack: Kerbin-Side Jobs",
+    "spec_version": "v1.4",
+    "license": "BSD-3-clause",
+    "depends": [
+        { "name": "ContractConfigurator" }
+    ],
+    "recommends": [
+        { "name": "KerbinSide"}
+    ],
+    "install" : [
+        {
+            "find"       : "KerbinSideJobs",
+            "install_to" : "GameData/ContractPacks"
+        }
+    ]
+}

@@ -1,0 +1,9 @@
+{
+    "$kref": "#/ckan/spacedock/472",
+    "identifier": "DecoupleFromHeatshield",
+    "license": "MIT",
+    "spec_version": 1,
+    "depends": [
+        { "name": "ModuleManager" }
+    ]
+}

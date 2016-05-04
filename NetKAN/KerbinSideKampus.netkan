@@ -1,0 +1,19 @@
+{
+    "identifier": "KerbinSideKampus",
+    "spec_version": "v1.4",
+    "$kref": "#/ckan/spacedock/555",
+    "license": "BSD-3-clause",
+    "install": [
+        {
+            "find"       : "KerbinSide",
+            "install_to" : "GameData/KerbinSideAirRace"
+        }
+    ],
+    "depends" : [
+        { "name" : "KerbalKonstructs" }
+    ],
+    "provides" : [ "KerbinSide-virt" ],
+    "conflicts": [
+        { "name": "KerbinSide-virt" }
+    ]
+}

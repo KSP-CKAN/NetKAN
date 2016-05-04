@@ -1,0 +1,26 @@
+{
+    "spec_version": "v1.4",
+    "license": "CC-BY-NC-SA-4.0",
+    "$kref": "#/ckan/spacedock/562",
+    "identifier": "Mk3HypersonicSystems",
+    "x_netkan_epoch": "1",
+    "depends": [
+        { "name": "FirespitterCore" },
+        { "name": "RasterPropMonitor" },
+        { "name": "ModuleManager"}
+    ],
+    "recommends": [
+        { "name": "B9-PWings-Fork" }
+    ],
+    "install": [
+        {
+            "find"       : "GameData/Mk3HypersonicSystems",
+            "install_to" : "GameData",
+            "filter"     : "Thumbs.db"
+        },
+        {
+            "find"       : "SPH",
+            "install_to" : "Ships"
+        }
+    ]
+}

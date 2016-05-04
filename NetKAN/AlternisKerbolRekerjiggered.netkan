@@ -1,9 +1,9 @@
 {
     "identifier": "AlternisKerbolRekerjiggered",
-    "spec_version": "v1.4",
+    "spec_version": "v1.10",
     "license": "CC-BY-NC-4.0",
     "$kref": "#/ckan/github/GregroxMun/Alternis-Kerbol-Rekerjiggered",
-    "ksp_version": "1.0.5",
+    "ksp_version": "1.1.0",
     "name": "Alternis Kerbol Rekerjiggered",
     "abstract": "Alternis, God of Change and Difference decided to smite the hell out of the Kerbals' home solar system, and this is what happened.",
     "author": "GregroxMun",
@@ -36,7 +36,7 @@
     ],
     "install": [
         {
-            "find"       : "AlternisKerbol",
+            "find_regexp" : "AlternisKerbol",
             "install_to" : "GameData"
         }
     ],

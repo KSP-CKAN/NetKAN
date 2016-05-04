@@ -1,0 +1,15 @@
+{
+    "license": "MIT",
+    "identifier": "EveBiomesPlus",
+    "spec_version": 1,
+    "$kref": "#/ckan/spacedock/376",
+    "depends": [
+        { "name": "Kopernicus" }
+    ],
+    "install": [
+        {
+            "file": "GameData/EveBiomesPlus",
+            "install_to": "GameData"
+        }
+    ]
+}

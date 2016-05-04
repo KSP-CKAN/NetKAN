@@ -2,7 +2,7 @@
     "spec_version": 1,
     "$kref"    : "#/ckan/spacedock/192",
     "$vref"    : "#/ckan/ksp-avc",
-    "name"     : "Advanced Fly-By-Wire (Windows, x86)",
+    "name"     : "Advanced Fly-By-Wire (Windows, x64)",
     "abstract" : "Joystick & controller mod with multiple presets and in-flight controls binding!",
     "identifier": "AdvancedFlyByWire",
     "release_status" : "stable",

@@ -1,0 +1,13 @@
+{
+    "spec_version" : 1,
+    "identifier"   : "QuickStart",
+    "$kref"        : "#/ckan/spacedock/110",
+    "$vref"        : "#/ckan/ksp-avc",
+    "license"      : "GPL-3.0",
+    "install": [
+        {
+            "file"       : "GameData/QuickStart",
+            "install_to" : "GameData"
+        }
+    ]
+}

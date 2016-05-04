@@ -5,8 +5,7 @@
     "$kref": "#/ckan/spacedock/204",
     "depends": [
         { "name": "VersatileToolboxSystem-core" },
-        { "name": "USI-LS" },
-        { "name": "Karbonite" }
+        { "name": "USI-LS" }
     ],
     "install": [
         {

@@ -1,0 +1,29 @@
+{
+    "spec_version": "v1.16",
+    "identifier": "InfernalRobotics",
+    "$kref": "#/ckan/github/MagicSmokeIndustries/InfernalRobotics/asset_match/IR-2.0.0-Final-Core\\.zip",
+    "$vref": "#/ckan/ksp-avc",
+    "license": "GPL-3.0",
+    "name": "Magic Smoke Industries Infernal Robotics",
+    "abstract": "Making stuff move.",
+    "author": "sirkut",
+    "x_netkan_force_v": true,
+    "ksp_version_strict": true,
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/116064",
+        "repository": "https://github.com/MagicSmokeIndustries/InfernalRobotics"
+    },
+    "recommends": [
+        { "name": "InfernalRobotics-LegacyParts" },
+        { "name": "IR-Model-Rework-Core" },
+        { "name": "IR-Model-Rework-Expansion" },
+        { "name": "IR-Model-Rework-Utility" },
+        { "name": "TweakScale" }
+    ],
+    "install": [
+        {
+            "find"       : "MagicSmokeIndustries",
+            "install_to" : "GameData"
+        }
+    ]
+}

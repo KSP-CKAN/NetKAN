@@ -1,0 +1,19 @@
+{
+    "$kref": "#/ckan/spacedock/388",
+    "spec_version": "v1.4",
+    "license": "CC-BY-NC-SA-4.0",
+    "identifier": "PhoenixIndustriesAres",
+    "depends": [
+        { "name": "PhoenixIndustriesFlags" }
+    ],
+    "recommends": [
+        { "name": "KIS" }
+    ],
+    "install"   :   [
+        {
+            "find"  :   "CTN",
+            "install_to":   "GameData",
+            "filter": "phoenix.png"
+        }
+    ]
+}

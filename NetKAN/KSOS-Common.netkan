@@ -1,0 +1,55 @@
+{
+    "spec_version" : "v1.2",
+    "identifier"   : "KSOS-Common",
+    "$kref"        : "#/ckan/spacedock/239",
+    "license"      : "CC-BY-NC-ND-4.0",
+    "name"         : "KSOS: Common Resources",
+    "abstract"     : "Resources shared by KSOS Orbiter mods",
+    "author"       : [ "Nazari", "helldiver" ],
+    "x_netkan_license_ok": true,
+    "depends" : [
+        { "name": "RasterPropMonitor" },
+        { "name": "SmokeScreen" },
+        { "name": "Firespitter" },
+        { "name": "KlockheedMartian-Gimbal" },
+        { "name": "ModuleManager" }
+    ],
+    "install": [
+        {
+            "file": "KSO/FX",
+            "install_to": "GameData/KSO"
+        },
+        {
+            "file": "KSO/RPM",
+            "install_to": "GameData/KSO"
+        },
+        {
+            "file": "KSO/User Manual and Credits.pdf",
+            "install_to": "GameData/KSO"
+        },
+        {
+            "file": "KSO/Parts/kerbin_orbiter_engines.dds",
+            "install_to": "GameData/KSO/Parts"
+        },
+        {
+            "file": "KSO/Parts/kerbin_orbiter_engines_emis.dds",
+            "install_to": "GameData/KSO/Parts"
+        },
+        {
+            "file": "KSO/Parts/kerbin_orbiter_engines_norm_NRM.dds",
+            "install_to": "GameData/KSO/Parts"
+        },
+        {
+            "file": "KSO/Parts/KSOflag.dds",
+            "install_to": "GameData/KSO/Parts"
+        },
+        {
+            "file": "KSO/Parts/omskso.cfg",
+            "install_to": "GameData/KSO/Parts"
+        },
+        {
+            "file": "KSO/Parts/omskso.mu",
+            "install_to": "GameData/KSO/Parts"
+        }
+    ]
+}

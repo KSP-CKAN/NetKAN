@@ -1,0 +1,27 @@
+{
+    "spec_version": "v1.4",
+    "$kref": "#/ckan/spacedock/167",
+    "license": "CC-BY-SA-4.0",
+    "identifier": "LargeBoatPartsPack-WW2",
+    "name": "Large Boat Parts Pack - WW2",
+    "abstract": "World War 2 era ships for a less parts, More FPS, Naval experience.",
+    "depends": [
+        { "name": "LargeBoatPartsPack" }
+    ],
+    "install": [
+        {
+            "find": "LShipPartsWW2",
+            "install_to": "GameData/LShipParts"
+        }
+    ],
+    "x_netkan_override": [
+        {
+            "version": "3.2",
+            "delete": [ "ksp_version" ],
+            "override": {
+                "ksp_version_min" : "1.0.5",
+                "ksp_version_max" : "1.1.0"
+            }
+        }
+    ]
+}

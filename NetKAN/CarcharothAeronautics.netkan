@@ -1,0 +1,15 @@
+{
+    "license": "GPL-3.0",
+    "identifier": "CarcharothAeronautics",
+    "spec_version": "v1.4",
+    "$kref": "#/ckan/spacedock/371",
+    "depends": [
+        { "name": "BDArmory" }
+    ],
+    "install": [
+        {
+            "find"       : "Carcharoth Aeronautics",
+            "install_to" : "GameData"
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "identifier": "KerbinSideCore",
+    "spec_version": "v1.4",
+    "$kref": "#/ckan/spacedock/150",
+    "license": "BSD-3-clause",
+    "depends": [
+        { "name": "KerbalKonstructs" }
+    ],
+    "provides" : [ "KerbinSide-virt" ],
+    "conflicts": [
+        { "name": "KerbinSide-virt" }
+    ],
+    "install": [
+        {
+            "find": "KerbinSide",
+            "install_to": "GameData"
+        }
+    ]
+}

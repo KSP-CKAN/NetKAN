@@ -1,0 +1,12 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "CommunityAmmunitionLibrary",
+    "license": "CC-BY-SA-4.0",
+    "$kref": "#/ckan/spacedock/291",
+    "install": [
+        {
+            "find"       : "CAL",
+            "install_to" : "GameData"
+        }
+    ]
+}

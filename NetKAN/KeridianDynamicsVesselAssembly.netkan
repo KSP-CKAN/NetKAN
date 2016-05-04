@@ -1,0 +1,22 @@
+{
+    "identifier": "KeridianDynamicsVesselAssembly",
+    "spec_version": "v1.4",
+    "$kref": "#/ckan/spacedock/308",
+    "$vref": "#/ckan/ksp-avc",
+    "license": "CC-BY-SA-4.0",
+    "release_status": "development",
+    "depends": [
+        { "name": "ModuleManager" },
+        { "name": "ExtraPlanetaryLaunchpads" }
+    ],
+    "supports": [
+        { "name": "CommunityTechTree" },
+        { "name": "KSP-AVC" }
+    ],
+    "install": [
+        {
+            "find": "KeridianDynamics",
+            "install_to": "GameData"
+        }
+    ]
+}

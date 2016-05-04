@@ -3,6 +3,7 @@
     "identifier": "WW2Warships",
     "$kref": "#/ckan/spacedock/232",
     "license": "CC-BY-SA-3.0",
+    "x_netkan_epoch": 1,
     "depends": [
         { "name": "BDArmory" },
         { "name": "NAS" }

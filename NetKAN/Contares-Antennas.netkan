@@ -1,0 +1,19 @@
+{
+    "identifier": "Contares-Antennas",
+    "spec_version": "v1.4",
+    "$kref": "#/ckan/spacedock/465",
+    "license": "CC-BY-NC-4.0",
+    "depends":[
+        { "name": "Contares-Common" }
+    ],
+    "conflicts": [
+        { "name": "Contares" }
+    ],
+    "install":[
+        {
+            "find": "Contares",
+            "install_to": "GameData",
+            "filter": ["Agencies", "CONTARES_TweakScale.cfg"]
+        }
+    ]
+}

@@ -1,0 +1,25 @@
+{
+    "spec_version": 1,
+    "identifier": "B9-PWings-Modified",
+    "name": "B9 Procedural Wings Modified",
+    "abstract": "Fork of Bac9 and Crzyrndm's Procedural Wings mod for KSP",
+    "author": [ "01010101lzy", "Crzyrndm", "bac9" ],
+    "license": "CC-BY-NC-SA-4.0",
+    "$kref": "#/ckan/github/01010101lzy/B9-PWings-Fork",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/126997-plugin11b9-procedural-parts-modified-v030-edge-alignments-apr22/"
+    },
+    "x_licence_code": "MIT",
+    "x_licence_assets": "CC-BY-NC-SA-4.0",
+    "conflicts": [
+        { "name": "B9AerospaceProceduralParts" },
+        { "name": "B9-PWings-Fork" }
+    ],
+    "install": [
+        {
+            "file": "GameData/B9_Aerospace_ProceduralWings",
+            "install_to": "GameData"
+        }
+    ],
+    "ksp_version" : "1.1.0"
+}

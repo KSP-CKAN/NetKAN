@@ -1,0 +1,13 @@
+{
+    "spec_version" : 1,
+    "identifier"   : "QuickSearch",
+    "$kref"        : "#/ckan/spacedock/101",
+    "$vref"        : "#/ckan/ksp-avc",
+    "license"      : "GPL-3.0",
+    "install": [
+        {
+            "file"       : "GameData/QuickSearch",
+            "install_to" : "GameData"
+        }
+    ]
+}

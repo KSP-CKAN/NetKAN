@@ -1,0 +1,16 @@
+{
+    "spec_version" : 1,
+    "identifier"   : "DavonTCsystemsMod",
+    "$kref"        : "#/ckan/spacedock/363",
+    "resources" : {
+        "homepage" : "http://forum.kerbalspaceprogram.com/threads/38069"
+    },
+    "license": "GPL-2.0",
+    "install": [
+        {
+            "file"          : "GameData/DavonTCsystemsMod",
+            "install_to"    : "GameData",
+            "filter_regexp" : "license and source"
+        }
+    ]
+}

@@ -1,0 +1,9 @@
+{
+    "license": "unrestricted",
+    "identifier": "Mk1RPMInternal",
+    "spec_version": "v1.4",
+    "$kref": "#/ckan/spacedock/377",
+    "depends": [
+        { "name": "ModuleManager" }
+    ]
+}

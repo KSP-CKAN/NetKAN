@@ -12,8 +12,10 @@
         { "name": "KerbalJointReinforcement" }
     ],
     "suggests": [
-      { "name": "RealSolarSystem" },
-      { "name": "CommunityTechTree" }
+        { "name": "RSSeaDragon" },
+        { "name": "FerramAerospaceResearch" },
+        { "name": "RealSolarSystem" },
+        { "name": "CommunityTechTree" }
     ],
     "install": [
         {

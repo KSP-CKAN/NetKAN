@@ -1,0 +1,47 @@
+{
+    "spec_version"   : "v1.4",
+    "identifier"     : "KerbalAtomics",
+    "$kref"          : "#/ckan/github/ChrisAdderley/KerbalAtomics",
+    "name"           : "Kerbal Atomics",
+    "abstract"       : "Several new nuclear thermal rockets, running on liquid hydrogen tanks with simple boiloff mechanics. ATTENTION: Will convert all other NTRs it finds to use this fuel!",
+    "license"        : "CC-BY-NC-SA-4.0",
+    "x_netkan_force_v": true,
+    "ksp_version"    : "1.0.5",
+    "depends": [
+        { "name" : "CommunityResourcePack" },
+        { "name" : "CryoTanks" },
+        { "name" : "DeployableEngines" },
+        { "name" : "InterstellarFuelSwitch-Core" },
+        { "name" : "ModuleManager" }
+    ],
+    "recommends" : [
+        { "name" : "CommunityTechTree" }
+    ],
+    "suggests" : [
+        { "name" : "CryoEngines" },
+        { "name" : "NearFutureConstruction" },
+        { "name" : "NearFutureElectrical" },
+        { "name" : "NearFuturePropulsion" },
+        { "name" : "NearFutureSolar" },
+        { "name" : "NearFutureSpacecraft" }
+    ],
+    "install" : [
+        { "find" : "KerbalAtomics", "install_to" : "GameData" }
+    ],
+    "x_netkan_override" : [
+        {
+            "version" : ">=v0.2.0",
+            "delete" : [ "depends" ],
+            "override" : {
+                
+                "depends": [
+                    { "name" : "CommunityResourcePack" },
+                    { "name" : "CryoTanks" },
+                    { "name" : "DeployableEngines" },
+                    { "name" : "ModuleManager" },
+                    { "name" : "B9PartSwitch" }
+                ]
+            }
+        }
+    ]
+}

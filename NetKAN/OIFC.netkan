@@ -1,0 +1,27 @@
+{
+    "spec_version"   : 1,
+    "identifier"     : "OIFC",
+    "$kref"          : "#/ckan/spacedock/620",
+    "license"        : "restricted",
+    "x_netkan_license_ok": true,
+
+    "install" : [
+        {
+            "file"       : "GameData/Okram",
+            "install_to" : "GameData",
+            "filter_regexp" : [
+               "Agencies",
+               "Flags",
+               "Plugins"
+            ]
+        }
+    ],
+     
+    "depends" : [
+        { "name" : "ODFC" }
+    ],
+     
+    "recommends" : [
+        { "name" : "OkramSA" }
+    ]
+}

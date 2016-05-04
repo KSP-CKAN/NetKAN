@@ -6,7 +6,7 @@
   "abstract" : "Kill your horizontal velocity to land, or hover over a specific point on the ground",
   "license" : "GPL-3.0",
   "release_status" : "stable",
-  "ksp_version" : "1.0",
+  "ksp_version" : "1.1",
   "author" : "Diazo",
   "depends": [
 { "name": "ModuleManager" }
@@ -16,7 +16,6 @@
   ],
   "resources": {
     "homepage": "http://forum.kerbalspaceprogram.com/threads/85838",
-    "kerbalstuff": "https://kerbalstuff.com/mod/460/Horizontal%20Landing%20Aid",
     "repository": "https://github.com/SirDiazo/RCSLandAid"
   },
   "install" : [

@@ -1,0 +1,22 @@
+{
+    "$kref": "#/ckan/spacedock/532",
+    "spec_version": "v1.16",
+    "identifier": "CommunityNavballDockingIndicator",
+    "license": "GPL-3.0",
+    "conflicts": [
+        { "name": "NavballDockingIndicator"}
+    ],
+    "provides": [ "NavballDockingIndicator" ],
+    "install": [
+        {
+            "find": "NavBallDockingAlignmentIndicator.dll",
+            "find_matches_files": true,
+            "install_to": "GameData/NavBallDockingAlignmentIndicator"
+        },
+        {
+            "find": "license.txt",
+            "find_matches_files": true,
+            "install_to": "GameData/NavBallDockingAlignmentIndicator"
+        }
+    ]
+}

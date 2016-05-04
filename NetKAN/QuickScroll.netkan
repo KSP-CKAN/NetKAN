@@ -1,0 +1,20 @@
+{
+    "spec_version" : 1,
+    "identifier"   : "QuickScroll",
+    "$kref"        : "#/ckan/spacedock/100",
+    "$vref"        : "#/ckan/ksp-avc",
+    "license"      : "GPL-3.0",
+    "install": [
+        {
+            "file"       : "GameData/QuickScroll",
+            "install_to" : "GameData"
+        }
+    ],
+    "conflicts": [
+        { "name": "PartCatalog" }
+    ],
+    
+    "suggests": [
+        { "name": "Toolbar" }
+    ]
+}
