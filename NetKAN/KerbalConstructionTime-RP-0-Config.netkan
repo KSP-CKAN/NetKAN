@@ -28,11 +28,9 @@
         }
     ],
     "download": "https://github.com/KSP-RO/RP-0/releases/download/v0.36/RP-0-v0.36.zip",
-    "download_size": 135166,
     "conflicts": [
         {
             "name": "KerbalConstructionTime-Config"
         }
     ],
-    "x_generated_by": "netkan"
 }
