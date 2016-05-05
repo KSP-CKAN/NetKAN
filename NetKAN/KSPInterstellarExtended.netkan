@@ -6,8 +6,7 @@
     "install" : [
         {
             "find"       : "GameData/WarpPlugin",
-            "install_to" : "GameData",
-            "filter"    : "MiniAVC.xml"
+            "install_to" : "GameData"
         }
     ],
     "depends" : [
