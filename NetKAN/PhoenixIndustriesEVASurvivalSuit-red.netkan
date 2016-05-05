@@ -1,0 +1,33 @@
+{
+    "license": "CC-BY-NC-ND-4.0",
+    "identifier": "PhoenixIndustriesEVASurvivalSuit-red",
+    "$kref": "#/ckan/spacedock/659",
+    "spec_version": "v1.16",
+    "name": "Phoenix Industries EVA Survival Suit - red",
+    "abstract": "Militarized looking EVA suit loosely based on The Martian. This version of the mod is coloured red",
+    "provides": [ "PhoenixIndustriesEVASurvivalSuit-colour" ],
+    "conflicts": [
+        { "name": "PhoenixIndustriesEVASurvivalSuit-colour" }
+    ],
+    "depends": [
+        { "name": "TextureReplacer" },
+        { "name": "ModuleManager" }
+    ],
+    "install": [
+        {
+            "find"       : "Red/EVAtextureNRM.png",
+            "find_matches_files": true,
+            "install_to" : "GameData/TextureReplacer/Default"
+        },
+        {
+            "find"       : "Red/EVAtexture.png",
+            "find_matches_files": true,
+            "install_to" : "GameData/TextureReplacer/Default"
+        },
+        {
+            "find"       : "Red/EVAhelmet.png",
+            "find_matches_files": true,
+            "install_to" : "GameData/TextureReplacer/Default"
+        }
+    ]
+}
