@@ -16,8 +16,7 @@
     [
         {
             "find"              : "iPeer",
-            "install_to"        : "GameData",
-            "comment"           : "MiniAVC included"
+            "install_to"        : "GameData"
         }
     ],
     "suggests"      :
