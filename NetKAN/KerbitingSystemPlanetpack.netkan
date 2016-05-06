@@ -9,7 +9,7 @@
     ],
     "install": [
         {
-            "file"       : "System",
+            "find"       : "System",
             "install_to" : "GameData/Kopernicus/Config"
         }
     ]
