@@ -1,0 +1,19 @@
+{
+    "license": "CC-BY-NC-SA-4.0",
+    "identifier": "AstronikiSunflareforScatterer",
+    "$kref": "#/ckan/spacedock/408",
+    "spec_version": "v1.4",
+    "provides": [ "Scatterer-sunflare" ],
+    "conflicts": [
+        { "name": "Scatterer-sunflare" }
+    ],
+    "depends": [
+        { "name": "Scatterer" }
+    ],
+    "install": [
+        {
+            "find"       : "sunflare",
+            "install_to" : "GameData/scatterer"
+        }
+    ]
+}
