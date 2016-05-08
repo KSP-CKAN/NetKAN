@@ -14,6 +14,10 @@
     {
         "find"      : "RN_US_Rockets",
         "install_to": "GameData"
+    },
+	{
+        "file"      : "Ships/VAB",
+        "install_to": "Ships"
     }],
     "depends": [
         { "name": "TextureReplacer" },
