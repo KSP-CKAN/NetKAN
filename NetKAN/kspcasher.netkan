@@ -1,0 +1,13 @@
+{
+    "spec_version" : 1,
+    "identifier"   : "KSPCasher",
+    "$kref"        : "#/ckan/github/a-stat/kspcasher",
+    "name"         : "KSP-Casher: Cash Economy Rebalance",
+    "author"       : [ "astat"],
+    "abstract"     : "Buy tech nodes for cash, get cash for science and a daily budget for reputation.",
+    "license"      : "CC-BY-4.0",
+    "$vref"        : "#/ckan/ksp-avc",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/139279-112-kspcasher-cash-economy-rebalance/"
+    }
+}
