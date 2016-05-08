@@ -1,9 +1,36 @@
 {
-    "$kref": "#/ckan/spacedock/533",
     "spec_version": 1,
+    "$kref": "#/ckan/spacedock/533",
     "identifier": "Kerbalism",
     "license": "public-domain",
     "depends": [
-        { "name": "ModuleManager" }
+        { "name": "ModuleManager", "min_version": "2.6.24" }
+    ],
+    "recommends": [
+        { "name": "Kerbalism-Profile" }
+    ],
+    "supports": [
+        { "name": "AntennaRange" },
+        { "name": "CommunityResourcePack" },
+        { "name": "ConnectedLivingSpace" },
+        { "name": "CryoTanks" },
+        { "name": "DangIt" },
+        { "name": "DeepFreeze" },
+        { "name": "KerbalAtomics" },
+        { "name": "KerbalPlanetaryBaseSystems" },
+        { "name": "NearFutureElectrical" },
+        { "name": "NearFutureSolar" },
+        { "name": "NearFutureSpacecraft" },
+        { "name": "origameFoldableAssets" },
+        { "name": "RemoteTech" },
+        { "name": "SCANsat" },
+        { "name": "VenStockRevamp" }
+    ],
+    "install": [
+        {
+            "file": "GameData/Kerbalism",
+            "install_to": "GameData",
+            "filter_regexp": [ "GameData/Kerbalism/Profiles/.+\\.cfg$" ]
+        }
     ]
 }
