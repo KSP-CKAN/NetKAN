@@ -1,9 +1,15 @@
 {
-    "$kref": "#/ckan/spacedock/474",
+    "$kref": "#/ckan/github/TedThompson/Docking-Sounds",
     "$vref": "#/ckan/ksp-avc",
     "identifier": "DockingPortSoundFX",
+    "name": "Docking Port Sound FX",
+    "abstract": "Add docking sounds to stock docking ports! Works with mods too using simple API (a few lines added to a config file)",
+    "author": "TG626",
     "license": "CC-BY-SA-4.0",
     "spec_version": "v1.10",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/113390-*"
+    },
     "depends": [
         { "name": "ModuleManager" }
     ],
