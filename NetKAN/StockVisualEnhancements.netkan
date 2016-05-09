@@ -22,15 +22,5 @@
             "find_regexp"       : "Game[dD]ata/EnvironmentalVisualEnhancements",
             "install_to" : "GameData"
         }
-    ],
-    "x_netkan_override": [
-        {
-            "version": "1:0.6.4",
-            "delete": [ "ksp_version" ],
-            "override": {
-                "ksp_version_min": "1.1.0",
-                "ksp_version_max": "1.1.2"
-            }
-        }
     ]
 }
