@@ -1,0 +1,21 @@
+{
+	"spec_version" : "v1.2",
+	"name" : "RSS DateTime Formatter",
+	"abstract" : "This is a very basic mod with one function, to replace the stock KSP displays of times and dates with an approach better suited for RSS players.  This includes things like showing calendar dates rather than awkward formats like 'Year 5, Day 200'.",
+	"identifier" : "RSSDateTimeFormatter",
+	"$vref" : "#/ckan/ksp-avc",
+	"$kref" : "#/ckan/github/KSP-RO/RSSTimeFormatter",
+	"license" : "CC-BY-NC-SA-4.0",
+	"release_status" : "stable",	
+	"resources" : {
+		"homepage" : "http://forum.kerbalspaceprogram.com/index.php?/topic/139335-ksp-112-rss-datetime-formatter-v10/",
+		"repository" : "https://github.com/KSP-RO/RSSTimeFormatter",
+		"bugtracker" : "https://github.com/KSP-RO/RSSTimeFormatter/issues"
+	},
+	"install" : [
+        {
+            "file"       : "GameData/RSSDateTime",
+            "install_to" : "GameData"
+        }
+    ]
+}
