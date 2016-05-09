@@ -3,5 +3,14 @@
     "license": "MIT",
     "spec_version": "v1.4",
     "$kref": "#/ckan/spacedock/670",
-    "x_via": "Automated SpaceDock CKAN submission"
+    "install": [
+        {
+            "file": "KerbinScaledSpace300.png",
+            "install_to": "GameData/TextureReplacer/Default"
+        },
+        {
+            "file": "KerbinScaledSpace401.png",
+            "install_to": "GameData/TextureReplacer/Default"
+        }
+    ]
 }
