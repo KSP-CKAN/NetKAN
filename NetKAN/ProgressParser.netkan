@@ -5,8 +5,8 @@
     "description"   : "This addon is a dependency of Contracts Window Plus and is used to parse the progress tree and to cache reward and completion data",
     "identifier"    : "ProgressParser",
     "license"       : "MIT",
-    "ksp_version"   : "1.1.0",
     "$kref"         : "#/ckan/github/DMagic1/KSP_Progress_Parser",
+    "$vref"         : "#/ckan/ksp-avc",
 
         "install": [
         {

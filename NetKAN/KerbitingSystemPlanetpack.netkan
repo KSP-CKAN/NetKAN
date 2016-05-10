@@ -1,0 +1,16 @@
+{
+    "license": "MIT",
+    "identifier": "KerbitingSystemPlanetpack",
+    "$kref": "#/ckan/spacedock/647",
+    "spec_version": "v1.4",
+    "depends": [
+        { "name": "Kopernicus" },
+        { "name": "ModuleManager" }
+    ],
+    "install": [
+        {
+            "find"       : "System",
+            "install_to" : "GameData/Kopernicus/Config"
+        }
+    ]
+}

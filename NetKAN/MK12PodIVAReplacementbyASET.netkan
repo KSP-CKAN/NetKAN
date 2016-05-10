@@ -1,0 +1,52 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "MK12PodIVAReplacementbyASET",
+    "name": "'MK1-2  Pod' IVA Replacement by ASET",
+    "abstract": "Whole brand new interior for the Mk1-2 Pod (WIP)",
+    "author": "alexustas",
+    "license": "CC-BY-NC-SA-3.0",
+    "$kref": "#/ckan/spacedock/599",
+    "comment": "An annoyingly large download, but it's the only place this is available",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/116440-iva104-mk1-2-pod-iva-replacement-by-aset-wip"
+    },
+    "depends": [
+        {
+            "name": "ASETProps"
+        },
+        {
+            "name": "RasterPropMonitor-Core",
+            "min_version": "0.21.2"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "SCANsat"
+        },
+        {
+            "name": "MechJeb2"
+        },
+        {
+            "name": "VesselView"
+        },
+        {
+            "name": "DockingPortAlignmentIndicator"
+        }
+    ],
+    "install": [
+        {
+            "find": "ASET/MK1-2_InternalsASET",
+            "install_to": "GameData/ASET"
+        }
+    ],
+    "x_netkan_override": [
+        {
+            "version": "1.1_BETA",
+            "delete" : [ "ksp_version" ],
+            "override" : {
+                "ksp_version_min" : "1.0.4",
+                "ksp_version_max" : "1.1.2"
+            }
+        }
+    ]
+}

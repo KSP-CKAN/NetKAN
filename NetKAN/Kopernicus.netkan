@@ -19,7 +19,7 @@
     "resources": {
         "homepage": "http://forum.kerbalspaceprogram.com/index.php/topic/103277-/"
     },
-    "ksp_version": "1.1.0",
+    "ksp_version": "1.1.2",
     "depends": [
         { "name" : "ModuleManager", "min_version": "2.6.16" }
     ],

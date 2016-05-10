@@ -10,8 +10,7 @@
     "install": [
         {
             "find": "HotContents",
-            "install_to": "GameData",
-            "filter": "MiniAVC.xml"
+            "install_to": "GameData"
         }
     ]
 }

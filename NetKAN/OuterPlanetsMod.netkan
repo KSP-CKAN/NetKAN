@@ -8,6 +8,7 @@
         { "name": "ModuleManager" },
         { "name": "Kopernicus", "min_version": "1:beta-05-2" }
     ],
+    "provides": [ "CustomAsteroids-Pops" ],
     "recommends": [
         { "name": "OPMClouds" },
         { "name": "SigmaOPMRecolor" },

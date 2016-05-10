@@ -4,6 +4,7 @@
     "$kref" : "#/ckan/spacedock/88",
     "$vref" : "#/ckan/ksp-avc",
     "license" : "CC-BY-NC-SA",
-    "recommends" :  [ { "name" : "ModuleManager" } ],
+    "depends" :  [ { "name" : "ModuleManager" } ],
+    "recommends" :  [ { "name" : "IndicatorLights" } ],
     "suggests" : [ { "name" : "SpaceY-Expanded" } ]
 }

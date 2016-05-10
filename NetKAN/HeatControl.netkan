@@ -13,8 +13,7 @@
     ],
     "install" : [
         { "find"       : "HeatControl",
-          "install_to" : "GameData",
-          "filter"     : "MiniAVC.xml"
+          "install_to" : "GameData"
         }
     ]
 }

@@ -1,0 +1,19 @@
+{
+    "license": "GPL-3.0",
+    "identifier": "Biomatic",
+    "$kref": "#/ckan/spacedock/634",
+    "spec_version": "v1.4",
+    "depends": [
+        { "name": "ModuleManager" }
+    ],
+    "suggests": [
+        { "name": "BiomaticForAll" }
+    ],
+    "install": [
+        {
+            "file"       : "Biomatic",
+            "install_to" : "GameData",
+            "filter"     : [ "Source", "BiomaticConfig.cfg" ]
+        }
+    ]
+}

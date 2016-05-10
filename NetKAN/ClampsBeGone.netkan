@@ -10,8 +10,7 @@
     [
         {
             "find"              : "iPeer",
-            "install_to"        : "GameData",
-            "filter"            : ["MiniAVC.dll", "LICENSE-MiniAVC.txt"]
+            "install_to"        : "GameData"
         }
     ],
     "resources"         :

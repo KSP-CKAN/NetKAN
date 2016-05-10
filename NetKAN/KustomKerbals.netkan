@@ -8,7 +8,7 @@
         {
             "file"       : "KustomKerbals",
             "install_to" : "GameData",
-            "filter"     : [ ".DS_Store", "MiniAVC.xml" ]
+            "filter"     : ".DS_Store"
         }
     ]
 }
