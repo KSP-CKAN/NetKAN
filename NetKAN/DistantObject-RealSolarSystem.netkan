@@ -5,7 +5,8 @@
     "name": "Distant Object Enhancement Real Solar System config",
     "abstract": "For the basic version of NathanKell's Real Solar System mod",
     "license": "CC-BY-4.0",
-    "ksp_version": "1.1.0",
+    "ksp_version_min": "1.1.0",
+    "ksp_version_max": "1.1.2",
     "depends": [
         {
             "name": "DistantObject"
