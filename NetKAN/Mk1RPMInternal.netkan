@@ -5,6 +5,6 @@
     "$kref": "#/ckan/spacedock/377",
     "depends": [
         { "name": "ModuleManager" },
-        { "name": "RasterPropMonitor" }
+        { "name": "RasterPropMonitor-Core" }
     ]
 }
