@@ -1,13 +1,13 @@
 {
     "spec_version" : 1,
-    "identifier"   : "HooliganLabs",
-    "$kref"        : "#/ckan/github/dunclaw/HLAirships",
+    "identifier"   : "HooliganLabsAirships",
+    "$kref"        : "#/ckan/spacedock/638",
     "name"         : "Hooligan Labs Airship Parts",
     "abstract"     : "Various parts for Lighter-than-air creations",
     "author"       : [ "Hooligan Labs", "JewelShisen", "SpannerMonkey", "DuncLaw" ],
-    "license"      : "MIT",
+    "license"      : "All Rights reserved",
     "ksp_version"  : "1.1.2",
     "resources": {
-        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/22008-021-hooligan-labs-airship-submarines-and-more/"
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/49443-airships-in-112-hooliganlabs-mods/"
     }
 }
