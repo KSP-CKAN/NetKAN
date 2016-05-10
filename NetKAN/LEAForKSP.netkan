@@ -6,7 +6,7 @@
     "license": "MIT",
     "install": [
         {
-            "file": "LEAForKSP",
+            "find": "LEAForKSP",
             "install_to": "GameData"
         }
     ]
