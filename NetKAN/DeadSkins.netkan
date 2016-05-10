@@ -2,5 +2,8 @@
     "spec_version" : "1.4",
     "identifier"   : "DeadSkins",
     "$kref"        : "#/ckan/spacedock/46",
-    "license"      : "CC-BY-NC-SA-4.0"
+    "license"      : "CC-BY-NC-SA-4.0",
+    "depends": [
+        { "name": "AviationLights" }
+    ]
 }
