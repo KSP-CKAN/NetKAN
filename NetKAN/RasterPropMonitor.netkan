@@ -14,6 +14,7 @@
     ],
     "suggests" : [
         { "name" : "VesselView"},
+        { "name" : "JSIAdvancedTransparentPods"},
         { "name" : "SCANsat"}
     ],
     "install" : [
