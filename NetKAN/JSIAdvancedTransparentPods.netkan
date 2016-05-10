@@ -10,8 +10,7 @@
         "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/138433-*"
     },
     "depends" : [
-        { "name" : "ModuleManager" },
-        { "name" : "RasterPropMonitor-Core" }
+        { "name" : "ModuleManager" }
     ],
     "recommends" : [
         { "name" : "KerbalPlanetaryBaseSystems" },
