@@ -10,7 +10,7 @@
             "file"       : "GameData/InterstellarFuelSwitch/Plugins",
             "install_to" : "GameData/InterstellarFuelSwitch"
         }
-    ]
+    ],
     "recommends": [
         { "name"         : "TweakScale", "min_version" : "2.2.10" }
     ]
