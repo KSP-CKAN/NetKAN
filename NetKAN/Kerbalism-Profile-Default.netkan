@@ -7,7 +7,8 @@
     "license": "public-domain",
     "provides": [ "Kerbalism-Profile" ],
     "depends": [
-        { "name": "Kerbalism" }
+        { "name": "Kerbalism" },
+        { "name": "CommunityResourcePack" }
     ],
     "conflicts": [
         { "name": "Kerbalism-Profile" }
