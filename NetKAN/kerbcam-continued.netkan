@@ -7,6 +7,13 @@
     "abstract"     : "Update and continuation of huin's Kerbcam for KSP 1.1",
     "license"      : "BSD-3-clause",
     "ksp_version"  : "1.1.99",
+    "install": [
+    {
+            "file"       : "Kerbcam",
+            "install_to" : "GameData"
+    }
+    ]
+}
     "resources": {
         "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/22781-0235-kerbcam-v013-camera-pathing-tool-for-videos/&do=findComment&comment=2571620"
     }
