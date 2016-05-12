@@ -1,0 +1,15 @@
+{
+    "license": "restricted",
+    "identifier": "StarWarsBDAddon",
+    "spec_version": "v1.4",
+    "$kref": "#/ckan/spacedock/298",
+    "depends": [
+        { "name": "BDArmory" }
+    ],
+    "install": [
+        {
+            "find": "StarWarsMod",
+            "install_to": "GameData"
+        }
+    ]
+}

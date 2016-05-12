@@ -1,0 +1,31 @@
+{
+    "spec_version"  : "v1.4",
+    "identifier"    : "ZPIF-4-Stock",
+    "$kref"         : "#/ckan/spacedock/616",
+    "$vref"         : "#/ckan/ksp-avc",
+    "license"       : "GPL-3.0",
+    "depends": [
+        { "name": "ModuleManager" },
+        { "name": "ZeroPointInlineFairings" },
+        { "name" : "AnimatedDecouplers" }
+    ],
+    "install": [
+        {
+            "find"      :   "0PIF_4_Stock",
+            "install_to": "GameData"
+        }
+    ],
+    "suggests": [
+        { "name": "ModularRocketSystem" },
+        { "name": "SpaceY-Lifters" },
+        { "name": "ColorCodedCans"},
+        { "name": "FuelTanksPlus"}
+    ],
+    "name": "Zero Point Inline Fairings for Stock (no FAR)",
+    "abstract": "This is a patch which lets ZPIF be used without FAR",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/85178-104revived-zero-point-inline-fairings-v101-2015-06-09",
+        "repository":"https://github.com/linuxgurugamer/0PIF_4_Stock"
+    }
+}
+

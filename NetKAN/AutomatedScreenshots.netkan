@@ -1,0 +1,17 @@
+{
+    "spec_version"   : "v1.4",
+    "identifier"     : "AutomatedScreenshots",
+    "$kref"          : "#/ckan/spacedock/43",
+    "$vref"          : "#/ckan/ksp-avc",
+    "license"        : "GPL-3.0",
+    "resources" : {
+        "homepage"    : "http://forum.kerbalspaceprogram.com/threads/129908",
+        "repository"  : "https://github.com/linuxgurugamer/AutomatedScreenshots"
+    },
+    "install" : [
+        {
+            "find"       : "AutomatedScreenshots",
+            "install_to" : "GameData"
+        }
+    ]
+}

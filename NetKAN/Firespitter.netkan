@@ -1,5 +1,5 @@
 {
-    "spec_version" : 1,
+    "spec_version" : "v1.4",
     "identifier"   : "Firespitter",
     "name"         : "Firespitter",
     "abstract"     : "Propeller plane and helicopter parts",
@@ -22,10 +22,10 @@
     ],
     "install"  : [
         {
-            "file"       : "Firespitter",
+            "find"       : "Firespitter",
             "install_to" : "GameData",
-            "filter"     : [ "Firespitter.dll", "FSFuelSwitchTweakScale.cfg", "Firespitter.version", "Resources", "Old Example Craft.zip" ],
-            "comment"    : "The DLL is installed from FirespitterCore"
+            "filter"     : [ "Firespitter.version", "Plugins", "Resources", "Old Example Craft.zip" ],
+            "comment"    : "Plugins and version file are installed from FirespitterCore, Resources from FirespitterResourcesConfig"
         }
     ]
 }

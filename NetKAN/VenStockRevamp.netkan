@@ -9,7 +9,7 @@
     "depends"      : [
         { "name" : "ModuleManager" }
     ],
-	"resources" : {
+    "resources" : {
         "homepage"     : "http://forum.kerbalspaceprogram.com/threads/92764"
     },
     "install": [
@@ -25,6 +25,14 @@
             "override" : {
                 "ksp_version_min" : "1.0.0",
                 "ksp_version_max" : "1.0.4"
+            }
+        },
+        {
+            "version" : "v1.9.2",
+            "delete" : [ "ksp_version" ],
+            "override" : {
+                "ksp_version_min" : "1.1.0",
+                "ksp_version_max" : "1.1.99"
             }
         }
     ]

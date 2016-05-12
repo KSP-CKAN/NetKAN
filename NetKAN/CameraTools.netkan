@@ -1,0 +1,17 @@
+{
+    "spec_version" : 1,
+    "identifier"   : "CameraTools",
+    "license"      : "GPL-3.0",
+    "$kref"        : "#/ckan/spacedock/274",
+    "x_netkan_force_v": true,
+    "x_netkan_override": [
+        {
+            "version": "v1.3",
+            "delete": [ "ksp_version" ],
+            "override": {
+                "ksp_version_min": "1.0.2",
+                "ksp_version_max": "1.0.5"
+            }
+        }
+    ]
+}

@@ -1,0 +1,26 @@
+{
+    "spec_version"   : "v1.4",
+    "identifier"     : "ContractConfigurator-RoverMissionsRedux",
+    "$kref"          : "#/ckan/spacedock/52",
+    "$vref"          : "#/ckan/ksp-avc",
+    "release_status" : "stable",
+    "x_netkan_license_ok" : true,
+    "resources" : {
+        "homepage"    : "http://forum.kerbalspaceprogram.com/index.php?/topic/129173-/",
+        "repository"  : "https://github.com/linuxgurugamer/RoverContracts"
+    },
+    "depends" : [
+        { "name": "SpacetuxSA" },
+        { "name": "ContractConfigurator", "min_version": "1.9.2.1" },
+        { "name": "ModuleManager" }
+    ],
+    "recommends": [
+        { "name": "WaypointManager" }
+    ],
+    "install" : [
+        {
+            "find"       : "RoverMissions",
+            "install_to" : "GameData/ContractPacks/Spacetux"
+        }
+    ]
+}

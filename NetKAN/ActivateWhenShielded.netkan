@@ -1,0 +1,15 @@
+{
+    "spec_version": 1,
+    "identifier": "ActivateWhenShielded",
+    "$kref": "#/ckan/spacedock/200",
+    "license": "WTFPL",
+    "depends": [
+        { "name": "ModuleManager" }
+    ],
+    "install": [
+        {
+            "file"       : "GameData/ActivateWhenShielded.cfg",
+            "install_to" : "GameData"
+        }
+    ]
+}

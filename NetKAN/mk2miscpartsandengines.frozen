@@ -1,0 +1,14 @@
+{
+    "spec_version" : 1,
+    "identifier"   : "mk2miscpartsandengines",
+    "$kref"        : "#/ckan/kerbalstuff/85",
+
+    "license": "restricted",
+
+    "install": [
+        {
+            "file"       : "GameData/Kerbice Group",
+            "install_to" : "GameData"
+        }
+    ]
+}

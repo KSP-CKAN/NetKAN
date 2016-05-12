@@ -2,10 +2,7 @@
     "spec_version": "v1.16",
     "identifier": "CustomBarnKit",
     "$kref": "#/ckan/jenkins/https://ksp.sarbian.com/jenkins/job/CustomBarnKit/",
-    "x_netkan_jenkins": {
-        "use_filename_version": true
-    },
-    "x_netkan_version_edit": "^CustomBarnKit-(?<version>\\d+\\.\\d+\\.\\d+\\.\\d+)\\.zip$",
+    "$vref": "#/ckan/ksp-avc",
     "name": "Custom Barn Kit",
     "abstract": "A small plugin to change a bunch of parameters related to career, science, the buildings upgrade cost and when various features are unlocked.",
     "author": "Sarbian",
@@ -14,7 +11,6 @@
         "homepage": "http://forum.kerbalspaceprogram.com/threads/121100",
         "repository": "https://github.com/sarbian/CustomBarnKit"
     },
-    "ksp_version": "1.0.5",
     "install": [
         {
             "find": "CustomBarnKit",

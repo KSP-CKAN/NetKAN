@@ -5,14 +5,14 @@
     "name"         : "Kerbal Flight Data",
     "abstract"     : "Displays essential information for piloting space planes. Meant to be used in conjunction with Ferram Aerospace Resarch.",
     "license"      : "GPL-3.0",
-    "ksp_version"  : "1.0",
+    "ksp_version"  : "1.1",
     "recommends" : [
         { "name" : "Toolbar" },
-		{ "name" : "FerramAerospaceResearch" }
+        { "name" : "FerramAerospaceResearch" }
     ],
-	"resources" : {
-		"homepage" : "http://forum.kerbalspaceprogram.com/threads/80842"
-	},
-	"author" : "DaMichel",
-	"release_status" : "stable"
+    "resources" : {
+        "homepage" : "http://forum.kerbalspaceprogram.com/threads/80842"
+    },
+    "author" : "DaMichel",
+    "release_status" : "stable"
 }

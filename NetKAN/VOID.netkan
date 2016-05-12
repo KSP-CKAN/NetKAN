@@ -1,0 +1,15 @@
+{
+    "spec_version"  : 1,
+    "identifier"    : "VOID",
+    "$kref"         : "#/ckan/spacedock/285",
+    "license"       : "BSD-3-clause",
+    "install": [
+        {
+            "file": "GameData/VOID",
+            "install_to": "GameData"
+        }
+    ],
+    "depends": [
+        { "name": "ToadicusTools" }
+    ]
+}

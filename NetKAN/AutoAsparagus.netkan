@@ -1,0 +1,24 @@
+{
+    "spec_version"   : 1,
+    "identifier"     : "AutoAsparagus",
+    "$kref"          : "#/ckan/spacedock/281",
+    "$vref"          : "#/ckan/ksp-avc",
+    "license"        : "Apache-2.0",
+    "resources": {
+        "bugtracker" : "https://github.com/henrybauer/AutoAsparagus/issues",
+        "repository" : "https://github.com/henrybauer/AutoAsparagus"
+    },
+    "recommends" : [
+        { "name" : "SmartStage" }
+    ],
+    "x_netkan_override" : [
+        {
+            "version" : "v0.9.1",
+            "delete" : [ "ksp_version" ],
+            "override" : {
+                "ksp_version_min" : "1.0.2",
+                "ksp_version_max" : "1.0.4"
+            }
+        }
+    ]
+}

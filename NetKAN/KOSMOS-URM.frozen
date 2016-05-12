@@ -1,0 +1,18 @@
+{
+    "spec_version"  : "v1.4",
+    "identifier"    : "KOSMOS-URM",
+    "$kref"         : "#/ckan/kerbalstuff/323",
+    "license"       : "CC-BY-NC-ND-3.0",
+
+    "depends" : [
+        { "name" : "FirespitterCore" },
+        { "name" : "ProceduralFairings" }
+    ],
+
+    "install" : [
+        {
+            "find" : "KOSMOS",
+            "install_to" : "GameData"
+        }
+    ]
+}

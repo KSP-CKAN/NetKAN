@@ -1,0 +1,19 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "DefaultActionGroups",
+    "$kref": "#/ckan/spacedock/24",
+    "license": "MIT",
+    "depends": [
+        { "name": "ModuleManager" }
+    ],
+    "install": [
+        {
+            "file"       : "GameData/DefaultActionGroups",
+            "install_to" : "GameData"
+        },
+        {
+            "file"       : "Optional/GameData/DefaultActionGroups",
+            "install_to" : "GameData"
+        }
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "$kref": "#/ckan/spacedock/475",
+    "identifier": "MkerbIncScienceInstruments",
+    "spec_version": 1,
+    "license": "GPL-3.0",
+    "install": [
+        {
+            "file": "Mkerb",
+            "install_to": "GameData"
+        }
+    ]
+}

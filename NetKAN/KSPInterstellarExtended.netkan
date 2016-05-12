@@ -1,29 +1,22 @@
 {
-    "spec_version"       : 1,
+    "spec_version"       : "v1.4",
     "identifier"         : "KSPInterstellarExtended",
-    "$kref"              : "#/ckan/github/sswelm/KSPInterstellar",
-    "$vref" 		 : "#/ckan/ksp-avc",
-    "name"		 : "KSP Interstellar Extended",
-    "abstract"		 : "KSP Interstellar Extended is a plugin for Kerbal Space Program, designed to encourage bootstrapping toward ever more advanced levels of technology as well as utilizing In-Situ resources to expand the reach of Kerbal civilization. KSP Interstellar Extended aims to continue in Fractals original KSPI vision in providing a realistic road to the stars.",
+    "$kref"              : "#/ckan/spacedock/172",
     "license"            : "GPL-3.0",
     "install" : [
         {
-            "file"       : "GameData/WarpPlugin",
-            "install_to" : "GameData",
-			"filter"	: "MiniAVC.xml"
+            "find"       : "GameData/WarpPlugin",
+            "install_to" : "GameData"
         }
     ],
     "depends" : [
-        { "name"         : "CommunityResourcePack", "min_version" : "0.4.2" },
-        { "name"         : "Toolbar", "min_version" : "1.7.9" },
-        { "name"         : "InterstellarFuelSwitch", "min_version" : "1.7" },
-        { "name"         : "TweakScale", "min_version" : "2.1"},
-        { "name"         : "ModuleManager", "min_version" : "2.6.3" }
+        { "name"         : "CommunityResourcePack", "min_version" : "0.5.1.1" },
+        { "name"         : "Toolbar", "min_version" : "1.7.12" },
+        { "name"         : "InterstellarFuelSwitch", "min_version" : "2.0.4" },
+        { "name"         : "TweakScale", "min_version" : "2.2.10"},
+        { "name"         : "ModuleManager", "min_version" : "2.6.24" }
     ],
    "recommends": [
-        { "name"         : "FilterExtensions" }
-    ],
-    "suggests": [
-        { "name"         : "CrossFeedEnabler" }
+        { "name"         : "FilterExtensions", "min_version" : "2.5" }
     ]
 }

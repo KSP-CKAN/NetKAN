@@ -13,30 +13,30 @@
             "filter"     : "Source"
         }
     ],
-	"resources" : {
+    "resources" : {
         "homepage"     : "https://github.com/Swamp-Ig/ProceduralParts"
     },
-    "depends" : [ 
+    "depends" : [
         { "name" : "ModuleManager" }
     ],
-    "suggests" : [ 
+    "suggests" : [
         { "name" : "PPTextures" },
         { "name" : "FreedomTex" }
     ],
     "x_netkan_override": [
-    	{
-    		"version": "v1.1.4",
-    		"override": {
-    			"ksp_version": "1.0.4"
-    		}
-    	},
-    	{
-    		"version": "v1.1.7",
-    		"delete" : [ "ksp_version" ],
-    		"override": {
-            		"ksp_version_min" : "1.0.4",
-        		"ksp_version_max" : "1.0.5"
-    		}
-    	}
+        {
+            "version": "v1.1.4",
+            "override": {
+                "ksp_version": "1.0.4"
+            }
+        },
+        {
+            "version": "v1.1.7",
+            "delete" : [ "ksp_version" ],
+            "override": {
+                    "ksp_version_min" : "1.0.4",
+                "ksp_version_max" : "1.0.5"
+            }
+        }
     ]
 }

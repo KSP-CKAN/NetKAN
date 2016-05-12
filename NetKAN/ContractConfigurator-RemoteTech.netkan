@@ -1,6 +1,6 @@
 {
     "spec_version" : "v1.4",
-    "identifier"   : "ContractConfigurator-RemoteTech", 
+    "identifier"   : "ContractConfigurator-RemoteTech",
     "$kref"        : "#/ckan/github/jrossignol/ContractPack-RemoteTech",
     "abstract"     : "A contract pack containing contracts for RemoteTech.",
     "name"         : "Contract Pack: RemoteTech",

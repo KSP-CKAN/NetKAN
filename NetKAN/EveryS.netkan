@@ -1,0 +1,13 @@
+{
+    "license": "GPL-3.0",
+    "identifier": "EveryS",
+    "$kref": "#/ckan/spacedock/612",
+    "spec_version": "v1.4",
+    "install": [
+        {
+            "find": "EveryS",
+            "install_to": "GameData",
+            "filter": "Source"
+        }
+    ]
+}

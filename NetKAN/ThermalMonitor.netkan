@@ -5,9 +5,9 @@
     "name"         : "Thermal Monitor",
     "abstract"     : "Show part temperature, thermal mass, and total flux in right click menu",
     "license"      : "GPL-3.0",
-	"$vref" : "#/ckan/ksp-avc",
-	
-	"resources" : {
+    "$vref" : "#/ckan/ksp-avc",
+
+    "resources" : {
         "homepage" : "http://forum.kerbalspaceprogram.com/threads/116888"
     },
     "install" : [

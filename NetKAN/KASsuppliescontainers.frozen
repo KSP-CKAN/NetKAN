@@ -1,0 +1,18 @@
+{
+    "spec_version" : 1,
+    "identifier"   : "KASsuppliescontainers",
+    "$kref"        : "#/ckan/kerbalstuff/387",
+
+    "license": "restricted",
+
+    "install": [
+            {
+                "file"       : "GameData/Kerbice Group",
+                "install_to" : "GameData"
+            }
+    ],
+
+    "depends": [
+        { "name": "KAS" }
+    ]
+}

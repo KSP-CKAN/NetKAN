@@ -1,0 +1,33 @@
+{
+    "spec_version": 1,
+    "identifier": "HullcamVDS",
+    "x_netkan_license_ok": true,
+    "$kref": "#/ckan/kerbalstuff/450",
+    "license"        : "LGPL-3.0",
+    "resources" : {
+        "x_curse"  : "http://kerbal.curseforge.com/ksp-mods/220258-hullcam-vds"
+    },
+    "install" : [
+        {
+            "file"       : "HullCameraVDS",
+            "install_to" : "GameData",
+            "filter": [
+                "Thumbs.db",
+                "Thumbs.db:encryptable"
+            ]
+        }
+    ],
+    "depends": [
+        { "name": "ModuleManager" }
+    ],
+    "x_netkan_override" : [
+        {
+            "version" : "0.40",
+            "delete" : [ "ksp_version" ],
+            "override" : {
+                "ksp_version_min" : "1.0.2",
+                "ksp_version_max" : "1.0.4"
+            }
+        }
+    ]
+}

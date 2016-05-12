@@ -1,0 +1,15 @@
+{
+    "license": "CC-BY-NC-SA-4.0",
+    "identifier": "USArmyEnlistedRanksFinalFrontierAddOn",
+    "$kref": "#/ckan/spacedock/652",
+    "spec_version": "v1.4",
+    "depends": [
+        { "name": "FinalFrontier" }
+    ],
+    "install": [
+        {
+            "find": "USRankRibbons",
+            "install_to": "GameData"
+        }
+    ]
+}

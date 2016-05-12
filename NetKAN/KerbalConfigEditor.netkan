@@ -1,0 +1,22 @@
+{
+    "spec_version"   : "v1.4",
+    "$kref"          : "#/ckan/spacedock/446",
+    "identifier"     : "KerbalConfigEditor",
+    "release_status" : "stable",
+    "license"        : "GPL-3.0",
+    "resources" : {
+        "homepage"     : "http://forum.kerbalspaceprogram.com/index.php?/topic/96493-win-kerbal-config-editor-v104-release/",
+        "bugtracker"   : "https://github.com/IRnifty/KerbalConfigEditor/issues",
+        "repository"   : "https://github.com/IRnifty/KerbalConfigEditor"
+    },
+    "install": [
+        {
+            "file"       : "Kerbal Config Editor/Kerbal Config Editor.exe",
+            "install_to" : "GameRoot"
+        },
+        {
+            "file"       : "Kerbal Config Editor/KCE README.txt",
+            "install_to" : "GameRoot"
+        }
+    ]
+}

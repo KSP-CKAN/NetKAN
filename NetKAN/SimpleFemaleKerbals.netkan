@@ -1,0 +1,15 @@
+{
+    "license": "CC-BY-NC-SA-4.0",
+    "spec_version": "v1.4",
+    "identifier": "SimpleFemaleKerbals",
+    "$kref": "#/ckan/spacedock/215",
+    "depends": [
+        { "name": "TextureReplacer" }
+    ],
+    "install": [
+        {
+            "find"       : "TextureReplacer",
+            "install_to" : "GameData"
+        }
+    ]
+}

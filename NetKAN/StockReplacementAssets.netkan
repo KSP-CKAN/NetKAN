@@ -1,0 +1,18 @@
+{
+    "$kref": "#/ckan/spacedock/183",
+    "identifier": "StockReplacementAssets",
+    "spec_version": "v1.4",
+    "license": "CC-BY-4.0",
+    "depends": [
+        { "name": "ModuleManager" }
+    ],
+    "supports": [
+        { "name": "VenStockRevamp" }
+    ],
+    "install": [
+        {
+            "find": "GameData/StockReplacementAssets",
+            "install_to": "GameData"
+        }
+    ]
+}

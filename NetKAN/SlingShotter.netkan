@@ -12,7 +12,7 @@
         "repository": "https://github.com/johnfink8/KerbalSlingshotter"
     },
     "ksp_version": "1.0.5",
-	    "install" : [
+        "install" : [
             {
                 "find"       : "SlingShotter",
                 "install_to" : "GameData"

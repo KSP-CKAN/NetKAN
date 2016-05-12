@@ -5,9 +5,9 @@
     "$kref": "#/ckan/spacedock/87",
     "license": "CC-BY-NC-SA-4.0",
     "conflicts": [
-    	{ "name": "ModularRocketSystem" }
+        { "name": "ModularRocketSystem" }
     ],
-	"install": [
-		{ "file": "ModRocketSysLite", "install_to": "GameData" }
-	]
+    "install": [
+        { "file": "ModRocketSysLite", "install_to": "GameData" }
+    ]
 }

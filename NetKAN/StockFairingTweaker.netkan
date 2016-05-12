@@ -1,0 +1,10 @@
+{
+    "$kref": "#/ckan/spacedock/575",
+    "spec_version": 1,
+    "license": "MIT",
+    "identifier": "StockFairingTweaker",
+
+    "depends": [
+        { "name": "ModuleManager" }
+    ]
+}

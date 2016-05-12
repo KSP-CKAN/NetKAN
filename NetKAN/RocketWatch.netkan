@@ -1,0 +1,13 @@
+{
+    "identifier": "RocketWatch",
+    "spec_version": "v1.4",
+    "$kref": "#/ckan/spacedock/375",
+    "license": "CC-BY-4.0",
+    "install": [
+        {
+            "find" : "GameData/RocketWatch",
+            "install_to" : "GameData",
+            "filter": ".DS_Store"
+        }
+    ]
+}

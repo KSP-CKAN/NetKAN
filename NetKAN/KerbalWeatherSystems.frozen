@@ -1,0 +1,14 @@
+{
+    "spec_version"  : 1,
+    "identifier"    : "KerbalWeatherSystems",
+    "$kref"         : "#/ckan/kerbalstuff/262",
+    "license"       : "restricted",
+
+    "depends" : [
+        { "name" : "FerramAerospaceResearch" }
+    ],
+
+    "comment": "FAR only supports one wind provider at once",
+    "provides" : [ "FARWind" ],
+    "conflicts": [ {"name": "FARWind" } ]
+}

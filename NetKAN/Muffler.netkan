@@ -1,0 +1,16 @@
+{
+    "spec_version": 1,
+    "$kref"       : "#/ckan/spacedock/262",
+    "identifier"  : "Muffler",
+    "license"     : "CC-BY-4.0",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/50236"
+    },
+    "install": [
+        {
+            "file"       : "SiliskoIndustries",
+            "install_to" : "GameData"
+        }
+    ],
+    "x_netkan_force_v": true
+}

@@ -11,10 +11,10 @@
     "depends" : [
         { "name" : "ModuleManager" }
     ],
-	"suggests": [ { "name" : "RealFuels" },
-					{ "name" : "KAS" },
-					{ "name" : "RasterPropMonitor" },
-					{ "name" : "RealismOverhaul" } ],
+    "suggests": [ { "name" : "RealFuels" },
+                    { "name" : "KAS" },
+                    { "name" : "RasterPropMonitor" },
+                    { "name" : "RealismOverhaul" } ],
     "provides" : [ "EngineIgnitor" ],
     "resources" : {
         "homepage" : "http://forum.kerbalspaceprogram.com/threads/51880"

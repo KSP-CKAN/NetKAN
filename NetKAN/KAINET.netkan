@@ -9,11 +9,11 @@
     "resources": {
         "homepage"  : "http://forum.kerbalspaceprogram.com/threads/110584"
     },
-    "install"       : [ 
+    "install"       : [
         {
             "find"  : "NoAstronautsNeedApply",
-            "install_to" : "GameData" 
-        } 
+            "install_to" : "GameData"
+        }
     ],
     "recommends"    : [
         { "name"    : "InfernalRobotics" },
