@@ -5,11 +5,11 @@
     "name"         : "Kerbcam",
     "author"       : "cartman09",
     "abstract"     : "Update and continuation of huin's Kerbcam for KSP 1.1",
-    "license"      : "BSD-3-clause",
+    "license"      : "BSD-2-clause",
     "ksp_version"  : "1.1",
     "install": [
     {
-            "file"       : "Kerbcam",
+            "file"       : "KerbCam",
             "install_to" : "GameData"
     }
     ],
