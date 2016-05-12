@@ -1,7 +1,8 @@
 {
-    "spec_version"   : "v1.2",
+    "spec_version"   : "v1.4",
     "identifier"     : "TACLS",
     "author"         : ["KSP-RO Group/danfarnsy", "Taranis Elsu" ], 
+    "name"           : "TAC Life Support (TACLS)",
     "$kref"          : "#/ckan/github/KSP-RO/TacLifeSupport",
     "$vref"          : "#/ckan/ksp-avc",
     "license"        : "CC-BY-NC-SA-3.0",
@@ -14,7 +15,7 @@
     ],
     "install" : [
         {
-            "file"          : "GameData/ThunderAerospace",
+            "find"          : "GameData/ThunderAerospace",
             "install_to"    : "GameData",
             "filter_regexp" : "PluginData/TacLifeSupport/LifeSupport\\.cfg$"
         }
