@@ -1,7 +1,7 @@
 {
     "$kref": "#/ckan/spacedock/686",
-    "spec_version": "v1.4",
-    "identifier": "MilitaryVehicleChassis",,
+    "spec_version": 1
+    "identifier": "MilitaryVehicleChassis",
     "license": "MIT",
     "install": [
         {
