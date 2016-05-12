@@ -1,16 +1,15 @@
 {
     "license": "MIT",
     "identifier": "KerbolOrigins",
-    "$kref": "#/ckan/spacedock/99",
+    "$kref": "#/ckan/spacedock/682",
     "spec_version": "v1.4",
     "depends": [
         { "name": "Kopernicus" },
-        { "name": "KopernicusExpansion" },
         { "name": "ModuleManager" }
     ],
     "install": [
         {
-            "find": "KerbolOrigins",
+            "find": "GameData/KerbolOrigins",
             "install_to": "GameData"
         }
     ]
