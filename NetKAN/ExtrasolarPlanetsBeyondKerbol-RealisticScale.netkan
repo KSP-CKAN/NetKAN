@@ -8,6 +8,7 @@
     "depends": [
          { "name" : "Kopernicus" }
     ],
+    "provides": [ "CustomAsteroids-Pops" ],
     "install": [
         {
             "find_regexp": "RealisticScale/GameData/ExtraSolar/",

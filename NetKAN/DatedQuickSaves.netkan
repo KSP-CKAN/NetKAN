@@ -1,0 +1,15 @@
+{
+    "spec_version": 1,
+    "license": "GPL-3.0",
+    "$kref": "#/ckan/spacedock/643",
+    "identifier": "DatedQuickSaves",
+    "install": [
+        {
+            "file"       : "GameData/DatedQuickSaves",
+            "install_to" : "GameData"
+        }
+    ],
+    "depends": [
+        { "name": "MagiCore" }
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "identifier": "PoliticalMap4kTexture",
+    "license": "MIT",
+    "spec_version": "v1.4",
+    "$kref": "#/ckan/spacedock/670",
+    "depends": [
+        { "name": "TextureReplacer" }
+    ],
+    "conflicts": [
+        { "name": "PoliticalMap8kTexture" },
+        { "name": "PoliticalMapMilitaryTexture" }
+    ],
+    "install": [
+        {
+            "file": "KerbinScaledSpace300.png",
+            "install_to": "GameData/TextureReplacer/Default"
+        },
+        {
+            "file": "KerbinScaledSpace401.png",
+            "install_to": "GameData/TextureReplacer/Default"
+        }
+    ]
+}
