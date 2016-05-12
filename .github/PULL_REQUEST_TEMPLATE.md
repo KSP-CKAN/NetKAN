@@ -1,1 +1,0 @@
-Even if your submission tested fine locally there are several errors that only the bots will note and reject. This should be expected.
