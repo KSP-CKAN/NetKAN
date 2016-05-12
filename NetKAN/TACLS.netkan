@@ -1,5 +1,5 @@
 {
-    "spec_version"   : "v1.2",
+    "spec_version"   : "v1.4",
     "identifier"     : "TACLS",
     "author"         : ["KSP-RO Group/danfarnsy", "Taranis Elsu" ], 
     "name"           : "TAC Life Support (TACLS)",
@@ -15,7 +15,7 @@
     ],
     "install" : [
         {
-            "file"          : "GameData/ThunderAerospace",
+            "find"          : "GameData/ThunderAerospace",
             "install_to"    : "GameData",
             "filter_regexp" : "PluginData/TacLifeSupport/LifeSupport\\.cfg$"
         }
