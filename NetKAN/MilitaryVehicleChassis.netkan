@@ -1,0 +1,12 @@
+{
+    "$kref": "#/ckan/spacedock/686",
+    "spec_version": 1,
+    "identifier": "MilitaryVehicleChassis",
+    "license": "MIT",
+    "install": [
+        {
+            "file": "Forrest Design",
+            "install_to": "GameData"
+        }
+    ]
+}
