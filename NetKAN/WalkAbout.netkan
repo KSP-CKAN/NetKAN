@@ -4,8 +4,9 @@
     "identifier": "WalkAbout",
     "x_netkan_license_ok": true,
     "resources" : {
-    "homepage" : "http://forum.kerbalspaceprogram.com/index.php?/topic/130575-105-walkabout-v11-16-01-23/"
+    "homepage" : "http://forum.kerbalspaceprogram.com/index.php?/topic/130575-*"
     },
+    "x_netkan_force_v": true,
     "install": [
         {
             "find": "WalkAbout",
