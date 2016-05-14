@@ -1,0 +1,28 @@
+{
+    "spec_version": 1,
+    "identifier": "SpaceXLaunchVehicles",
+    "$kref": "#/ckan/spacedock/269",
+    "license": "CC-BY-NC-ND",
+    "depends": [
+        { "name": "ModuleManager" },
+        { "name": "FirespitterCore" },
+        { "name": "OldSchoolFairings" }
+    ],
+    "recommends": [
+        { "name": "EditorExtensions" },
+        { "name": "TextureReplacer" },
+        { "name": "MechJeb2" },
+        { "name": "Trajectories" },
+        { "name": "KSP-64k" }
+    ],
+    "install": [
+        {
+            "file": "GameData/Launchers Pack",
+            "install_to": "GameData"
+        },
+        {
+            "file": "Ships/VAB",
+            "install_to": "Ships"
+        }
+    ]
+}
