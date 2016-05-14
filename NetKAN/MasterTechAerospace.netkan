@@ -5,7 +5,7 @@
     "license": "CC-BY-SA-2.0",
     "depends": [
         { "name": "ModuleManager" },
-        { "name": "QuizTechAeroPack" }
+        { "name": "QuizTechAeroPack-internals" }
     ],
     "recommends": [
         { "name": "BDArmory" }
