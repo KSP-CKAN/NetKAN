@@ -7,7 +7,7 @@
     "license"      : "GPL-2.0",
     "install": [
         {
-            "file"       : "GameData/InterstellarFuelSwitch/Plugins",
+            "find"       : "InterstellarFuelSwitch/Plugins",
             "install_to" : "GameData/InterstellarFuelSwitch"
         }
     ],
