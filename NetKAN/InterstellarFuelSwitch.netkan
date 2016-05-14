@@ -16,7 +16,7 @@
         { "name" : "ModuleManager" }
     ],
     "recommends": [
-        { "name"         : "KSPInterstellarExtended, "min_version" : "1.8.16" }
+        { "name"         : "KSPInterstellarExtended }
     ],
     "abstract" : "Library that enables switching the contents, meshes, and textures of tanks.",
     "resources" : {
