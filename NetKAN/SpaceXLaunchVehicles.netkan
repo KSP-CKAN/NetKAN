@@ -5,10 +5,10 @@
     "license": "CC-BY-NC-ND",
     "depends": [
         { "name": "ModuleManager" },
-        { "name": "FirespitterCore" }
+        { "name": "FirespitterCore" },
+        { "name": "OldSchoolFairings" }
     ],
     "recommends": [
-        { "name": "SpaceXLaunchVehicles-Extras" },
         { "name": "EditorExtensions" },
         { "name": "TextureReplacer" },
         { "name": "MechJeb2" },
@@ -18,10 +18,6 @@
     "install": [
         {
             "file": "GameData/Launchers Pack",
-            "install_to": "GameData"
-        },
-        {
-            "file": "GameData/AeroHider.dll",
             "install_to": "GameData"
         },
         {
