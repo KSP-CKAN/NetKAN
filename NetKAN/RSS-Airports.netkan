@@ -1,0 +1,30 @@
+{
+    "spec_version" : 1,
+    "identifier"   : "RSS-Airports",
+    "$kref"        : "#/ckan/github/miki-g/RSS-Airports",
+    "$vref"        : "#/ckan/ksp-avc",
+    "name"         : "RSS Airports",
+    "author"       : [ "Miki" ],
+    "abstract"     : "Add launch sites on real airports locations (for Real Solar System & KSC Switcher)",
+    "license"      : "unknown",
+    "depends": [
+			{
+				"name": "KSCSwitcher"
+			},
+			{
+				"name": "RealSolarSystem"
+			}
+		],
+    "recommends": [
+        { "name": "RSS-FictionalKSC" }
+    ],          
+    "install": [
+       {
+          "file" : "RSS-Airports",
+          "install_to" : "GameData"
+       }
+    ],
+    "resources": {
+        "homepage": "https://github.com/miki-g/RSS-Airports"
+    }
+}
