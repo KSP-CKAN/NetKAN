@@ -3,12 +3,10 @@
     "identifier"   : "RSS-Airports",
     "$kref"        : "#/ckan/github/miki-g/RSS-Airports",
     "$vref"        : "#/ckan/ksp-avc",
-    "ksp_version_min": "1.0.0",
-    "ksp_version_max": "1.1.2",
     "name"         : "RSS Airports",
     "author"       : [ "Miki" ],
     "abstract"     : "Add launch sites on real airports locations (for Real Solar System & KSC Switcher)",
-    "license"      : "unknown",
+    "license"      : "CC0",
     "depends": [
 			{
 				"name": "KSCSwitcher"
