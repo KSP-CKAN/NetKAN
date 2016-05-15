@@ -3,6 +3,7 @@
     "identifier"     : "CommunityTechTree",
     "$kref"          : "#/ckan/spacedock/534",
     "license"        : "CC-BY-NC-4.0",
+    "x_netkan_epoch" : "1",
     "depends" : [
         { "name" : "ModuleManager", "min_version" : "2.6.2" }
     ],
@@ -23,7 +24,7 @@
             }
         },
         {
-            "version" : "2.4",
+            "version" : "1:2.4",
             "delete" : [ "ksp_version" ],
             "override" : {
                 "ksp_version_min" : "1.1.0",
