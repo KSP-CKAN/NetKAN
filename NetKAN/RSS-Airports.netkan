@@ -1,5 +1,5 @@
 {
-    "spec_version" : v1.4,
+    "spec_version" : 1,
     "identifier"   : "RSS-Airports",
     "$kref"        : "#/ckan/github/miki-g/RSS-Airports",
     "$vref"        : "#/ckan/ksp-avc",
@@ -20,7 +20,7 @@
     ],          
     "install": [
        {
-          "find" : "GameData/RSS-Airports",
+          "file" : "RSS-Airports",
           "install_to" : "GameData"
        }
     ],
