@@ -8,16 +8,16 @@
     "abstract"     : "Add launch sites on real airports locations (for Real Solar System & KSC Switcher)",
     "license"      : "CC0",
     "depends": [
-			{
-				"name": "KSCSwitcher"
-			},
-			{
-				"name": "RealSolarSystem"
-			}
-		],
+            {
+                "name": "KSCSwitcher"
+            },
+            {
+                "name": "RealSolarSystem"
+            }
+        ],
     "recommends": [
         { "name": "RSS-FictionalKSC" }
-    ],          
+    ],
     "install": [
        {
           "file" : "RSS-Airports",

@@ -10,7 +10,7 @@
     "install": [
         {
             "find_regexp": "KIEFighter",
-            "install_to": "GameData" 
+            "install_to": "GameData"
         }
     ]
 }

@@ -3,10 +3,10 @@
     "$kref": "#/ckan/spacedock/642",
     "license": "GPL-3.0",
     "identifier": "SensibleScreenshot",
-    "install"   : [ 
-        { 
+    "install"   : [
+        {
             "find" : "SensibleScreenshot",
-            "install_to" : "GameData" 
+            "install_to" : "GameData"
         }
     ],
     "depends": [
