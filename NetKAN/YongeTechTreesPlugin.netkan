@@ -18,5 +18,13 @@
     ],
     "suggests":[
         { "name": "ETT" }
+    ],
+    "x_netkan_override" : [
+        {
+            "version": "v20160515",
+            "override": {
+                "version": "1.4"
+            }
+        }
     ]
 }
