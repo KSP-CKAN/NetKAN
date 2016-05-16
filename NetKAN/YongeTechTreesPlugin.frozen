@@ -1,7 +1,8 @@
 {
     "spec_version" : "v1.4",
     "identifier"   : "YongeTechTreesPlugin",
-    "$kref"        : "#/ckan/spacedock/199",
+    "$kref"        : "#/ckan/spacedock/TBA",
+    "comment"      : "Probus has indicated an intention to upload this as a separate mod, rather than bundling in ETT",
     "author"       : [ "yongedevil", "Probus" ],
     "name"         : "YongeTech Tech Trees Plugin",
     "abstract"     : "Provides support to make creating and using custom tech trees easier. Allows part unlocks to be listed in the TechTree ConfigNode rather than having to edit every Part ConfigNode. Adds support for using custom textures to create icons for the tech tree. Adds a tree selection window to let the player select a tree for each new game.",
@@ -18,13 +19,5 @@
     ],
     "suggests":[
         { "name": "ETT" }
-    ],
-    "x_netkan_override" : [
-        {
-            "version": "v20160515",
-            "override": {
-                "version": "1.4"
-            }
-        }
     ]
 }
