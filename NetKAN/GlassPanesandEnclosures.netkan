@@ -10,8 +10,8 @@
     "depends": [
         { "name": "ModuleManager" }
     ],
-    "install"   :   [ 
-        { 
+    "install"   :   [
+        {
             "find" : "GlassThings",
             "install_to" : "GameData"
         }

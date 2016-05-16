@@ -4,17 +4,17 @@
     "$kref"          : "#/ckan/spacedock/222",
     "license"        : "GPL-3.0",
     "recommends" : [
-        { 
-			"name" : "StageRecovery" 
-		},
-		{
-			"name" : "KRASH"
-		}
+        {
+            "name" : "StageRecovery"
+        },
+        {
+            "name" : "KRASH"
+        }
     ],
     "suggests" : [
-        { 
-			"name" : "Toolbar" 
-		}
+        {
+            "name" : "Toolbar"
+        }
     ],
     "install" : [
         {
@@ -22,9 +22,9 @@
             "install_to" : "GameData"
         }
     ],
-	"depends" : [
-		{
-			"name" : "MagiCore"
-		}
-	]
+    "depends" : [
+        {
+            "name" : "MagiCore"
+        }
+    ]
 }

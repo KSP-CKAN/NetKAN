@@ -8,7 +8,7 @@
     "depends" : [
         { "name": "SigmaDimensions" }
     ],
-	"suggests": [
+    "suggests": [
         { "name": "KerbalEngineerRedux" }
     ],
     "install": [
