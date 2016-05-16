@@ -1,0 +1,24 @@
+{
+    "spec_version": "v1.4",
+    "$kref": "#/ckan/spacedock/694",
+    "license": "CC-BY-NC-SA-4.0",
+    "identifier": "Canadarm",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/118906-*"
+    },
+    "depends": [
+        { "name": "InfernalRobotics" },
+        { "name": "KAS" },
+        { "name": "ModuleManager" }
+    ],
+    "recommends": [
+        { "name": "RasterPropMonitor" },
+        { "name": "KerbalJointReinforcement" }
+    ],
+    "install": [
+        {
+            "find"       : "Gamedata/Canadarm",
+            "install_to" : "GameData"
+        }
+    ]
+}

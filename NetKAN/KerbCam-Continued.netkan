@@ -1,0 +1,19 @@
+{
+    "spec_version" : 1,
+    "identifier"   : "KerbCam-Continued",
+    "$kref"        : "#/ckan/github/cartman09/kerbcam",
+    "name"         : "KerbCam Continued",
+    "author"       : "cartman09",
+    "abstract"     : "Update and continuation of huin's Kerbcam for KSP 1.1",
+    "license"      : "BSD-2-clause",
+    "ksp_version"  : "1.1",
+    "install": [
+    {
+            "file"       : "KerbCam",
+            "install_to" : "GameData"
+    }
+    ],
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/22781-0235-kerbcam-v013-camera-pathing-tool-for-videos/&do=findComment&comment=2571620"
+    }
+}
