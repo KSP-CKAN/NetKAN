@@ -1,0 +1,58 @@
+{
+    "spec_version": "v1.2",
+    "identifier": "AstronomersPack",
+    "name": "Astronomer's Visual Pack",
+    "abstract": "Meta-package for Astronomer's Visual Pack and its options",
+    "license": "restricted",
+    "ksp_version_min": "0.25",
+    "ksp_version_max": "1.0.4",
+    "resources": {
+        "homepage": "http://kerbal.curseforge.com/ksp-mods/220335"
+    },
+    "install": [
+        {
+            "comment": "this is a workaround, since we have to copy something",
+            "file": "10 License.txt",
+            "install_to": "GameData/BoulderCo"
+        }
+    ],
+    "depends": [
+        {
+            "name": "AstronomersPack-Clouds"
+        },
+        {
+            "name": "AstronomersPack-DistantObjectEnhancement"
+        },
+        {
+            "name": "AstronomersPack-PlanetShine"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "AstronomersPack-AtmosphericScattering"
+        },
+        {
+            "name": "AstronomersPack-Auroras-4K"
+        },
+        {
+            "name": "AstronomersPack-Eve-Jool-Clouds-4K"
+        },
+        {
+            "name": "AstronomersPack-Sandstorms"
+        },
+        {
+            "name": "AstronomersPack-Snow"
+        },
+        {
+            "name": "AstronomersPack-SurfaceGlow"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "AstronomersPack-Lightning"
+        }
+    ],
+    "author": "Astronomer",
+    "version": "Interstellar.V2",
+    "download": "http://kerbal.curseforge.com/ksp-mods/220335-astronomers-visual-pack-interstellar-v2/files/2221625/download"
+}

@@ -17,10 +17,10 @@
         "find"      : "RN_US_Probes",
         "install_to": "GameData"
       },
-	  {
+      {
         "file"      : "Ships/VAB",
         "install_to": "Ships"
-	  }
+      }
     ],
     "depends": [
         { "name": "BDAnimationModules" },
