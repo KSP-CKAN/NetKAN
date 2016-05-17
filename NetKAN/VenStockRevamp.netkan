@@ -9,6 +9,9 @@
     "depends"      : [
         { "name" : "ModuleManager" }
     ],
+    "suggests"      : [
+        { "name" : "VensStockPartRevamp-CTTPatch" }
+    ],
     "resources" : {
         "homepage"     : "http://forum.kerbalspaceprogram.com/threads/92764"
     },
