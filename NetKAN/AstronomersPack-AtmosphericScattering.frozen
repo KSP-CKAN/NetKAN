@@ -1,0 +1,26 @@
+{
+    "spec_version": 1,
+    "identifier": "AstronomersPack-AtmosphericScattering",
+    "name": "Astronomer's Pack: Atmospheric Scattering",
+    "abstract": "Astronomer's Pack option",
+    "license": "restricted",
+    "ksp_version_min": "0.25",
+    "ksp_version_max": "1.0.4",
+    "resources": {
+        "homepage": "http://kerbal.curseforge.com/ksp-mods/220335"
+    },
+    "install": [
+        {
+            "file": "4th Step - Optional Features/Essential Features (still optional though)/0MB Atmospheric Scattering (tinted glow)/~ Medium (recommended)/GameData/BoulderCo",
+            "install_to": "GameData"
+        }
+    ],
+    "depends": [
+        {
+            "name": "AstronomersPack-Clouds"
+        }
+    ],
+    "author": "Astronomer",
+    "version": "Interstellar.V2",
+    "download": "http://kerbal.curseforge.com/ksp-mods/220335-astronomers-visual-pack-interstellar-v2/files/2221625/download"
+}

@@ -1,0 +1,20 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "CIT-Util",
+    "name": "CIT - CITUtil",
+    "author": "marce",
+    "abstract": "Shared utilities library.",
+    "license": "CC-BY-NC-SA-4.0",
+    "install": [
+        {
+            "file": "CIT",
+            "install_to": "GameData"
+        }
+    ],
+    "resources": {
+        "homepage": "https://ksp.marce.at/"
+    },
+    "download": "https://ksp.marce.at/Home/DownloadMod?modId=4",
+    "version": "1.2.1",
+    "ksp_version": "0.90.0"
+}

@@ -1,0 +1,30 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "GovFunding",
+    "name": "CIT - GovFunding",
+    "author": "marce",
+    "abstract": "Allows to set fixed costs & fixed funding to play with funds without bothering about boring contracts. Also allows for science and reputation conversion if required.",
+    "license": "CC-BY-NC-SA-4.0",
+    "depends": [
+        {
+            "name": "CIT-Util"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "Toolbar"
+        }
+    ],
+    "install": [
+        {
+            "file": "CIT/GovFunding",
+            "install_to": "GameData/CIT"
+        }
+    ],
+    "resources": {
+        "homepage": "https://ksp.marce.at/"
+    },
+    "download": "https://ksp.marce.at/Home/DownloadMod?modId=6",
+    "version": "1.2.2",
+    "ksp_version": "0.90.0"
+}
