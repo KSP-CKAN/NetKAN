@@ -1,5 +1,5 @@
 {
-    "spec_version"  	: 1,
+    "spec_version"  	: "v1.4",
     "name"          	: "Toolbar",
     "author"        	: "blizzy78",
     "identifier"    	: "Toolbar",
@@ -12,11 +12,11 @@
     },
     "install" : [
         {
-            "file"       : "Toolbar-1.7.11/GameData/000_Toolbar",
+            "find"       : "GameData/000_Toolbar",
             "install_to" : "GameData"
         }
     ],
-    "version"       	: "1.7.11",
-    "ksp_version"   	: "1.1.0",
-    "download"      	: "https://www.blizzy.de/toolbar/Toolbar-1.7.11.zip"
+    "version"       	: "1.7.12",
+    "ksp_version"   	: "1.1.2",
+    "download"      	: "https://www.blizzy.de/toolbar/Toolbar-1.7.12.zip"
 }
