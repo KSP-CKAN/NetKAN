@@ -1,0 +1,40 @@
+{
+    "spec_version"   : 1,
+    "name"           : "Modular Fuel Tanks",
+    "abstract"       : "Refit tank with different fuel or other contents",
+    "identifier"     : "ModularFuelTanks",
+    "license"        : "CC-BY-SA",
+    "release_status" : "stable",
+    "author"         : ["taniwha", "NathanKell", "Swamp Ig", "ChestBurster", "ialdabaoth"],
+    "description"    : "Modular Fuel Tanks allows any supported tank to be filled with exactly how much or how little fuel you want, of whatever type you want (though different tanks may allow or disallow certain fuels; jet fuel tanks won't take oxidizer for instance).",
+    "resources" : {
+        "homepage"     : "http://forum.kerbalspaceprogram.com/index.php?/topic/58235-11-modular-fuel-tanks-v570/",
+        "repository"   : "https://github.com/NathanKell/ModularFuelSystem"
+    },
+    "depends": [
+        { "name": "ModuleManager" }
+    ],
+    "supports" : [
+        { "name" : "AIESAerospace-Unofficial" },
+        { "name" : "AIESAerospace" },
+        { "name" : "FASA" },
+        { "name" : "Firespitter" },
+        { "name" : "KOSMOS" },
+        { "name" : "KSPX" },
+        { "name" : "KWRocketry" },
+        { "name" : "MFSSettings" },
+        { "name" : "NASAmission" },
+        { "name" : "NovaPunch" },
+        { "name" : "RLA-Stockalike" },
+        { "name" : "SDHI" },
+        { "name" : "SpaceShuttleEngines" },
+        { "name" : "Squad" },
+        { "name" : "Stretchy" },
+        { "name" : "THHS" },
+        { "name" : "TT" },
+        { "name" : "TVPP" }
+    ],
+    "version"        : "5.7.0",
+    "ksp_version"    : "1.1.0",
+    "download"       : "http://taniwha.org/~bill/ModularFuelTanks_v5.7.0.zip"
+}
