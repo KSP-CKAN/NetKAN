@@ -1,0 +1,25 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "BAM",
+    "name": "CIT - BAM",
+    "author": "marce",
+    "abstract": "Modifies the blast awesomness of all parts based on their resources.",
+    "license": "CC-BY-NC-SA-4.0",
+    "depends": [
+        {
+            "name": "CIT-Util"
+        }
+    ],
+    "install": [
+        {
+            "file": "CIT/BAM",
+            "install_to": "GameData/CIT"
+        }
+    ],
+    "resources": {
+        "homepage": "https://ksp.marce.at/"
+    },
+    "download": "https://ksp.marce.at/Home/DownloadMod?modId=9",
+    "version": "1.1.1",
+    "ksp_version": "0.90.0"
+}

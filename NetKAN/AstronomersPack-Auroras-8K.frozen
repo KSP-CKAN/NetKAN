@@ -1,0 +1,41 @@
+{
+    "spec_version": 1,
+    "identifier": "AstronomersPack-Auroras-8K",
+    "name": "Astronomer's Pack: Auroras - 8K",
+    "abstract": "Astronomer's Pack option",
+    "license": "restricted",
+    "ksp_version_min": "0.25",
+    "ksp_version_max": "1.0.4",
+    "resources": {
+        "homepage": "http://kerbal.curseforge.com/ksp-mods/220335"
+    },
+    "install": [
+        {
+            "file": "4th Step - Optional Features/Essential Features (still optional though)/Auroras/Step 1/With PlanetShine/GameData/BoulderCo",
+            "install_to": "GameData"
+        },
+        {
+            "file": "4th Step - Optional Features/Essential Features (still optional though)/Auroras/Step 2/22MB 8K Auroras/GameData/BoulderCo",
+            "install_to": "GameData"
+        }
+    ],
+    "depends": [
+        {
+            "name": "AstronomersPack-PlanetShine"
+        },
+        {
+            "name": "AstronomersPack-Clouds"
+        }
+    ],
+    "provides": [
+        "AstronomersPack-Auroras"
+    ],
+    "conflicts": [
+        {
+            "name": "AstronomersPack-Auroras"
+        }
+    ],
+    "author": "Astronomer",
+    "version": "Interstellar.V2",
+    "download": "http://kerbal.curseforge.com/ksp-mods/220335-astronomers-visual-pack-interstellar-v2/files/2221625/download"
+}
