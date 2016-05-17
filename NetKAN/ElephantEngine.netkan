@@ -1,0 +1,16 @@
+{
+    "spec_version": 1,
+    "license": "CC-BY-NC-SA",
+    "$kref": "#/ckan/spacedock/664",
+    "$vref" : "#/ckan/ksp-avc",
+    "identifier": "ElephantEngine",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/139162-ElephantEngine"
+    },
+    "install": [
+        {
+            "file"       : "ElephantEngine",
+            "install_to" : "GameData"
+        }
+    ]
+}

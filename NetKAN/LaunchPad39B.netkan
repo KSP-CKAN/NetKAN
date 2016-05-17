@@ -1,0 +1,18 @@
+{
+    "identifier": "LaunchPad39B",
+    "license": "GPL-3.0",
+    "spec_version": "v1.4",
+    "$kref": "#/ckan/spacedock/669",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/126067-*"
+    },
+    "depends": [
+        { "name": "KerbalKonstructs" }
+    ],
+    "install": [
+        {
+            "find": "SLSLC39B",
+            "install_to": "GameData"
+        }
+    ]
+}

@@ -21,7 +21,6 @@
     ],
     "install" : [ {
         "find"       : "UniversalStorage",
-        "install_to" : "GameData",
-        "filter"     : [ "MiniAVC.xml" ]
+        "install_to" : "GameData"
     } ]
 }

@@ -33,7 +33,7 @@
             "version" : ">=v0.2.0",
             "delete" : [ "depends" ],
             "override" : {
-                
+
                 "depends": [
                     { "name" : "CommunityResourcePack" },
                     { "name" : "CryoTanks" },

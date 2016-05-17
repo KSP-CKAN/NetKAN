@@ -1,0 +1,27 @@
+{
+    "identifier": "QuizTechAeroPack-internals",
+    "spec_version": "v1.4",
+    "$kref": "#/ckan/spacedock/378",
+    "license": "CC-BY-4.0",
+    "name": "QuizTech Aero Pack Internals",
+    "abstract": "The cockpit and props from QuizTech Aero Pack",
+    "depends" : [
+        { "name": "ModuleManager" },
+        { "name": "RasterPropMonitor-Core" }
+    ],
+    "recommends": [
+        { "name": "QuizTechAeroPack" }
+    ],
+    "install": [
+        {
+            "find"       : "QuizTechAero/Props",
+            "install_to" : "GameData/QuizTechAero"
+        },
+        {
+            "find"       : "QuizTechAero/Spaces",
+            "install_to" : "GameData/QuizTechAero"
+        }
+    ],
+    "ksp_version": "any",
+    "comment": "InternalsMod"
+}

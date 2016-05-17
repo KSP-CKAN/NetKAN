@@ -17,10 +17,7 @@
     "install" : [
         {
             "file": "GameData/WildBlueIndustries/000WildBlueTools",
-            "install_to": "GameData/WildBlueIndustries",
-            "filter": [
-                "MiniAVC.xml"
-            ]
+            "install_to": "GameData/WildBlueIndustries"
         }
     ]
 }

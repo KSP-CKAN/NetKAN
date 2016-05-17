@@ -1,0 +1,14 @@
+{
+    "spec_version"  : "v1.4",
+    "identifier"    : "Mk3MiniExpansionPack",
+    "$kref"         : "#/ckan/spacedock/666",
+    "author"        : [ "Andem", "kyeon" ],
+    "license"       : "CC-BY-NC-SA-4.0",
+    "x_netkan_epoch": 1,
+    "install": [
+        {
+            "find": "Mk3MiniExpansion",
+            "install_to": "GameData"
+        }
+    ]
+}

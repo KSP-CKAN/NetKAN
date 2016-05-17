@@ -1,0 +1,22 @@
+{
+    "$kref": "#/ckan/spacedock/393",
+    "spec_version": "v1.4",
+    "identifier": "MasterTechAerospace",
+    "license": "CC-BY-SA-2.0",
+    "depends": [
+        { "name": "ModuleManager" },
+        { "name": "QuizTechAeroPack-internals" }
+    ],
+    "recommends": [
+        { "name": "BDArmory" }
+    ],
+    "suggests": [
+        { "name": "RasterPropMonitor" }
+    ],
+    "install": [
+        {
+            "find"       : "MTA Stock-a-like",
+            "install_to" : "GameData"
+        }
+    ]
+}

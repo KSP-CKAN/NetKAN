@@ -1,0 +1,22 @@
+{
+    "spec_version"  : "v1.4",
+    "identifier"    : "DMTanks-AeroRTG",
+    "name"          : "DaMichel's AeroRTG",
+    "abstract"      : "This is a radially attached, streamlined RTG, with otherwise the same stats as the stock RTG.",
+    "$kref"         : "#/ckan/github/ColorCurves/AeroRTG",
+    "license"       : "CC-BY-SA-3.0",
+    "author"        : [
+        "Bezzier", "DaMichel"
+    ],
+    "ksp_version_min"   : "1.0.5",
+    "ksp_version_max"   : "1.1",
+    "resources": {
+        "homepage"  : "http://colorcurves.github.io/AeroRTG/"
+    },
+    "install" : [
+        {
+            "find" : "DMTanks",
+            "install_to" : "GameData"
+        }
+    ]
+}

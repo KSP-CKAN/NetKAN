@@ -1,0 +1,20 @@
+{
+    "identifier": "Scatterer-sunflare",
+    "license": "GPL-3.0",
+    "release_status": "development",
+    "$kref": "#/ckan/spacedock/141",
+    "name": "scatterer - sunflare",
+    "abstract": "The sunflare component of scatterer",
+    "x_netkan_force_v": true,
+    "spec_version": "v1.4",
+    "x_netkan_epoch": "2",
+    "conflicts": [
+        { "name": "Scatterer-sunflare" }
+    ],
+    "install": [
+        {
+            "find"       : "sunflare",
+            "install_to" : "GameData/scatterer"
+        }
+    ]
+}

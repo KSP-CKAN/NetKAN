@@ -1,0 +1,21 @@
+{
+    "license": "CC-BY-4.0",
+    "identifier": "RealSolarSystemExpanded",
+    "$kref": "#/ckan/spacedock/685",
+    "spec_version": "v1.4",
+    "depends": [
+        { "name": "Kopernicus" },
+        { "name": "SigmaBinary-core" },
+        { "name": "RealSolarSystem" }
+    ],
+    "install": [
+        {
+            "file"       : "RSSExpansion",
+            "install_to" : "GameData"
+        },
+        {
+            "file"       : "RSSEx-Textures",
+            "install_to" : "GameData"
+        }
+    ]
+}
