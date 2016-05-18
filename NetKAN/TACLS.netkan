@@ -8,7 +8,6 @@
     "license"        : "CC-BY-NC-SA-3.0",
     "depends" : [
         {   "name" : "ModuleManager" },
-        {   "name" : "TACLS-Config" },
         {   "name" : "CommunityResourcePack" }
     ],
     "suggests" : [
