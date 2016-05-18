@@ -13,7 +13,7 @@
         { "name": "LaunchPad39B" },
         { "name": "KerbalKonstructs" }
     ],
-    "conflicts" [
+    "conflicts" : [
         { "name": "SpaceLaunchSystemPartPack" }
     ],
     "install": [
