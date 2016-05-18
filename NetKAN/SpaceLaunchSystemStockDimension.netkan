@@ -13,10 +13,17 @@
         { "name": "LaunchPad39B" },
         { "name": "KerbalKonstructs" }
     ],
+    "conflicts" [
+        { "name": "SpaceLaunchSystemPartPack" }
+    ],
     "install": [
         {
             "find"       : "SpaceLaunchSystem",
             "install_to" : "GameData"
+        },
+        {
+            "file"       : "VAB",
+            "install_to" : "Ships"
         }
     ]
 }
