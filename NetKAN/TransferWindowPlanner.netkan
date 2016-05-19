@@ -1,27 +1,20 @@
 {
     "spec_version": "v1.4",
-    "$kref": "#/ckan/github/TriggerAu/TransferWindowPlanner",
-    "name": "Transfer Window Planner",
     "identifier": "TransferWindowPlanner",
-    "abstract": "An ingame implementation of Alexmun's Launch Window Planner",
+    "$kref": "#/ckan/github/TriggerAu/TransferWindowPlanner",
+    "$vref": "#/ckan/ksp-avc",
+    "name": "Transfer Window Planner",
     "license": "MIT",
-    "release_status": "stable",
-    "author": "TriggerAu",
-    "ksp_version": "1.0.5",
     "resources": {
-        "homepage": "http://forum.kerbalspaceprogram.com/threads/93115",
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/84005-/",
         "license": "https://github.com/TriggerAu/TransferWindowPlanner/blob/master/LICENSE",
-        "repository"   : "https://github.com/TriggerAu/TransferWindowPlanner",
         "manual": "http://triggerau.github.io/TransferWindowPlanner/",
-        "x_curse": "http://kerbal.curseforge.com/ksp-mods/224116-transfer-window-planner"
+        "x_curse": "http://kerbal.curseforge.com/projects/transfer-window-planner"
     },
-    "recommends"  :[
+    "recommends": [
         { "name" : "TriggerAu-Flags" }
     ],
-    "install" : [
-            {
-                "find"       : "TransferWindowPlanner",
-                "install_to" : "GameData/TriggerTech"
-            }
-        ]
+    "install": [
+        { "find": "TransferWindowPlanner", "install_to" : "GameData/TriggerTech" }
+    ]
 }
