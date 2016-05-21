@@ -1,0 +1,23 @@
+{
+    "spec_version": 1,
+    "identifier": "NoCrewRequirementContinued",
+    "name": "No Crew Requirement Continued",
+    "abstract": "A simple ModuleManager plugin that eliminates crew requirements for manned vessels and/or the need to attach an unmanned probe to your spacecraft. Useful for automatic launches and docking of space station modules, rescue missions etc. Requires ModuleManager.",
+    "author": "RealGecko",
+    "license": "GPL-3.0",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/140244-no-crew-requirement-continued/",
+        "spacedock": "https://spacedock.info/mod/715/No%20Crew%20Requirement%20Continued",
+        "repository": "https://github.com/Real-Gecko/NoCrewRequirementContinued"
+    },
+    "version": "1.0.0",
+    "ksp_version": "1.1.2",
+    "download": "https://spacedock.info/mod/715/No%20Crew%20Requirement%20Continued/download/1.0.0",
+    "download_size": 562,
+    "download_hash": {
+        "sha1": "FEEFC36D2B031D6E0D02507A2F292AA2FD115A19",
+        "sha256": "7C699F81B333647F80FB8EC57DD90E8D4830B16223200B9ADF6121823C927A80"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}
