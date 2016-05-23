@@ -1,0 +1,26 @@
+{
+    "spec_version": 1,
+    "identifier": "KerbalAircraftExpansion",
+    "name": "Kerbal Aircraft Expansion",
+    "abstract": "A pack of select vanilla-inspired parts for your aircrafting needs.",
+    "author": "keptin",
+    "license" : "restricted",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/69426-/"
+    },
+    "version": "2:2.6.3",
+    "ksp_version": "1.1.2",
+    "depends": [
+        { "name" : "FirespitterCore" },
+        { "name" : "FirespitterResourcesConfig" },
+        { "name" : "ModuleManager" }
+    ],
+    "install" : [
+        {
+            "file": "KAX",
+            "install_to": "GameData",
+            "filter" : [ "Example Craft" ]
+        }
+    ],
+    "download": "http://addons-origin.cursecdn.com/files/2301/866/KAX_v2.6.3.zip"
+}
