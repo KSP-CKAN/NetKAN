@@ -20,6 +20,8 @@
     ],
     "suggests": [
         { "name": "ProceduralParts" },
-        { "name": "RemoteTech" }
+        { "name": "RemoteTech" },
+        { "name": "DeadlyReentry" },
+        { "name": "SCANSat" }
     ]
 }
