@@ -1,0 +1,15 @@
+{
+    "spec_version": 1,
+    "license": "CC0",
+    "identifier": "HeatShieldfortheMk1CommandPod",
+    "$kref": "#/ckan/spacedock/63",
+    "depends": [
+        { "name": "ModuleManager" }
+    ],
+    "install": [
+        {
+            "file"       : "Mk1HeatShield.cfg",
+            "install_to" : "GameData"
+        }
+    ]
+}

@@ -1,0 +1,15 @@
+{
+    "license": "CC-BY-NC-SA-4.0",
+    "identifier": "LarinaxSolarSystem",
+    "$kref": "#/ckan/spacedock/438",
+    "spec_version": "v1.4",
+    "depends": [
+        { "name": "Kopernicus" }
+    ],
+    "install": [
+        {
+            "file"       : "LarinaxSolarSystem",
+            "install_to" : "GameData"
+        }
+    ]
+}

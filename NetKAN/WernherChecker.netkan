@@ -1,0 +1,11 @@
+{
+    "spec_version"    : 1,
+    "$kref"           : "#/ckan/spacedock/648",
+    "$vref"           : "#/ckan/ksp-avc",
+    "identifier"      : "WernherChecker",
+    "x_netkan_license_ok": true,
+    "resources" : {
+        "repository": "https://github.com/Magion/WernherChecker",
+        "bugtracker": "https://github.com/Magion/WernherChecker/issues"
+    }
+}

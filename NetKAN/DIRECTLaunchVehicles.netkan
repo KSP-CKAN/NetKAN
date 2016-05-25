@@ -11,11 +11,6 @@
             "find"       : "DIRECT_LV",
             "install_to" : "GameData",
             "filter"     : ".DS_Store"
-        },
-        {
-            "find"       : "VAB",
-            "install_to" : "Ships",
-            "filter"     : ".DS_Store"
         }
     ]
 }

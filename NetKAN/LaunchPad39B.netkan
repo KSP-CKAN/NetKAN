@@ -11,10 +11,6 @@
     ],
     "install": [
         {
-            "find": "KerbalKonstructs",
-            "install_to": "GameData"
-        },
-        {
             "find": "SLSLC39B",
             "install_to": "GameData"
         }

@@ -6,7 +6,7 @@
     "abstract"     : "Contains a Duna + Ike binary system.",
     "license"      : "CC-BY-NC-SA-4.0",
     "author"       : "Sigma88",
-    "ksp_version"  : "1.0",
+    "ksp_version"  : "1.1.2",
     "depends": [
         { "name": "SigmaBinary-core" }
     ],

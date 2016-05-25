@@ -1,0 +1,36 @@
+{
+    "spec_version": 1,
+    "identifier": "AstronomersPack-Lightning",
+    "name": "Astronomer's Pack: Lightning",
+    "abstract": "Astronomer's Pack option",
+    "license": "restricted",
+    "ksp_version_min": "0.25",
+    "ksp_version_max": "1.0.4",
+    "resources": {
+        "homepage": "http://kerbal.curseforge.com/ksp-mods/220335"
+    },
+    "install": [
+        {
+            "file": "4th Step - Optional Features/Extra Features (make sure KSP can run first)/29MB Lightning (Kerbin, Duna, Eve, Laythe)/Step 1/With PlanetShine/GameData/BoulderCo",
+            "install_to": "GameData"
+        },
+        {
+            "file": "4th Step - Optional Features/Extra Features (make sure KSP can run first)/29MB Lightning (Kerbin, Duna, Eve, Laythe)/Step 2/GameData/BoulderCo",
+            "install_to": "GameData"
+        }
+    ],
+    "depends": [
+        {
+            "name": "PlanetShine"
+        },
+        {
+            "name": "AstronomersPack-PlanetShine"
+        },
+        {
+            "name": "AstronomersPack-Clouds"
+        }
+    ],
+    "author": "Astronomer",
+    "version": "Interstellar.V2",
+    "download": "http://kerbal.curseforge.com/ksp-mods/220335-astronomers-visual-pack-interstellar-v2/files/2221625/download"
+}

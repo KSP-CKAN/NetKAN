@@ -1,0 +1,16 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "CryoEngines-SurfaceAttach",
+    "$kref": "#/ckan/spacedock/709",
+    "$vref": "#/ckan/ksp-avc/GameData/CryoEngines/Versioning/CryoEngines.version",
+    "name": "Cryogenic Engines Extras: Surface Attachment",
+    "abstract": "Optional patch to make the engines surface attaching.",
+    "license": "CC-BY-NC-SA-4.0",
+    "x_netkan_epoch": 1,
+    "depends" : [
+        { "name" : "CryoEngines" }
+    ],
+    "install" : [
+        { "find" : "CryoEnginesSurfaceAttach", "install_to" : "GameData/CryoEngines/Extras" }
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "$kref": "#/ckan/spacedock/717",
+    "spec_version": "v1.4",
+    "identifier": "HexTruss",
+    "license": "CC-BY-NC-SA",
+    "install": [
+        {
+            "find"       : "SPD",
+            "install_to" : "GameData"
+        }
+    ]
+}

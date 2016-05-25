@@ -1,0 +1,34 @@
+{
+    "spec_version": 1,
+    "identifier": "AstronomersPack-DistantObjectEnhancement",
+    "name": "Astronomer's Pack - Distant Object Enhancement config",
+    "abstract": "Distant Object Enhancement Configuration from Astronomer's Pack.",
+    "license": "restricted",
+    "ksp_version_min": "0.25",
+    "ksp_version_max": "1.0.4",
+    "resources": {
+        "homepage": "http://kerbal.curseforge.com/ksp-mods/220335"
+    },
+    "install": [
+        {
+            "file": "3rd Step - Core Mod (just clouds)/Core Mod/GameData/DistantObject",
+            "install_to": "GameData"
+        }
+    ],
+    "provides": [
+        "DistantObject-config"
+    ],
+    "depends": [
+        {
+            "name": "DistantObject"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "DistantObject-config"
+        }
+    ],
+    "author": "Astronomer",
+    "version": "Interstellar.V2",
+    "download": "http://kerbal.curseforge.com/ksp-mods/220335-astronomers-visual-pack-interstellar-v2/files/2221625/download"
+}

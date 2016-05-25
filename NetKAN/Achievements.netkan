@@ -13,7 +13,7 @@
     },
     "install"      :
     [
-        { 
+        {
             "find": "Achievements",
             "install_to": "GameData"
         }

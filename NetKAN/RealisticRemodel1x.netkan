@@ -2,19 +2,19 @@
     "license": "MIT",
     "identifier": "RealisticRemodel1x",
     "$kref": "#/ckan/spacedock/637",
-    "spec_version": "v1.4",
+    "spec_version": "v1.10",
     "depends": [
         { "name": "Kopernicus" },
         { "name": "SigmaDimensions" },
         { "name": "ModuleManager" }
     ],
     "recommends": [
-        { "name": "SigmaBinary-core" }
+        { "name": "OuterPlanetsMod" }
     ],
     "install": [
         {
-            "find"       : "RealisticRemodel-1x",
-            "install_to" : "GameData"
+            "find_regexp": "RealisticRemodel.?1x",
+            "install_to": "GameData"
         }
     ]
 }

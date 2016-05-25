@@ -1,0 +1,34 @@
+{
+    "spec_version": 1,
+    "identifier": "AstronomersPack-Eve-Jool-Clouds-2K",
+    "name": "Astronomer's Pack: Clouds for Eve & Jool - 2K",
+    "abstract": "Astronomer's Pack option",
+    "license": "restricted",
+    "ksp_version_min": "0.25",
+    "ksp_version_max": "1.0.4",
+    "resources": {
+        "homepage": "http://kerbal.curseforge.com/ksp-mods/220335"
+    },
+    "install": [
+        {
+            "file": "4th Step - Optional Features/Essential Features (still optional though)/Clouds for Eve & Jool/11MB 2K (if you crash with 4K)/GameData/BoulderCo",
+            "install_to": "GameData"
+        }
+    ],
+    "depends": [
+        {
+            "name": "AstronomersPack-Clouds"
+        }
+    ],
+    "provides": [
+        "AstronomersPack-Eve-Jool-Clouds"
+    ],
+    "conflicts": [
+        {
+            "name": "AstronomersPack-Eve-Jool-Clouds"
+        }
+    ],
+    "author": "Astronomer",
+    "version": "Interstellar.V2",
+    "download": "http://kerbal.curseforge.com/ksp-mods/220335-astronomers-visual-pack-interstellar-v2/files/2221625/download"
+}
