@@ -2,7 +2,7 @@
     "spec_version"  : "v1.4",
     "identifier"    : "DMTanks-SphericalTanks",
     "name"          : "DaMichel's Spherical Tanks",
-    "abstract"      : "This is a set of spherical fuel tanks, from 122.5 units to 2000 units in capacity, with a size 1 base.",
+    "abstract"      : "This is a set of spherical fuel tanks, from 122.5 units to 2000 units in capacity, with a size 1 (1.25m) base.",
     "$kref"         : "#/ckan/github/ColorCurves/SphericalTanks",
     "license"       : "CC-BY-SA-3.0",
     "author"        : [
