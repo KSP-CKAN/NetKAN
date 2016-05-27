@@ -6,7 +6,7 @@
   "depends" : [
     { "name": "KerbalKonstructs" }
   ],
-  "Install" : [ {
+  "install" : [ {
     "find" : "Kosmodrome",
     "install_to" : "GameData",
     "filter" : "Thumbs.db"
