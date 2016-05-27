@@ -8,7 +8,7 @@
     "resources": {
         "homepage": "http://forum.kerbalspaceprogram.com/threads/68196"
     },
-    "status": "development",
+    "release_status": "development",
     "depends": [
         { "name": "SmokeScreen", "min_version": "2.5.2" },
         { "name": "ModuleManager" }
