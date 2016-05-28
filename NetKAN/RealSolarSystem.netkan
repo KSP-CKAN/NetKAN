@@ -19,7 +19,8 @@
     "provides": [ "CustomAsteroids-Pops" ],
     "recommends": [
         { "name": "RealismOverhaul" },
-        { "name": "KSCSwitcher" }
+        { "name": "KSCSwitcher" },
+        { "name": "RSSDateTimeFormatter" }
     ],
     "install": [
         {
