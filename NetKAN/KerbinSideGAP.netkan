@@ -8,7 +8,7 @@
 
     "depends": [
         {"name": "KerbinSide-virt"},
-        {"name": "ContractConfigurator", "min_version": "1.9.6"},
+        {"name": "ContractConfigurator", "min_version": "1.12.1"},
         {"name": "ContractConfigurator-KerbinSideJobs", "min_version": "2.0"}
     ],
     "recommends": [
