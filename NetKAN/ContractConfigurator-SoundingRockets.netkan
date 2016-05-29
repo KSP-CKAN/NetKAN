@@ -1,0 +1,16 @@
+{
+    "identifier": "ContractConfigurator-SoundingRockets",
+    "$kref": "#/ckan/spacedock/728",
+    "comment": "avc .version file is malformed. Hopefully it will be fixed soon.",
+    "spec_version": "v1.4",
+    "license": "MIT",
+    "depends": [
+        { "name": "ContractConfigurator" }
+    ],
+    "install": [
+        {
+            "find": "SoundingRockets",
+            "install_to": "GameData/ContractPacks"
+        }
+    ]
+}
