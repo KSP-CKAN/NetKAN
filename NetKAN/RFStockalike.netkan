@@ -7,8 +7,12 @@
     "license"      : "CC-BY-SA",
     "install" : [
         {
-            "file"       : "GameData",
+            "file"       : "GameData/RealFuels-Stockalike",
             "install_to" : "GameData"
+        },
+        {
+            "file"       : "GameData/RealPlume/RealPlume-RFStockalike",
+                "install_to" : "GameData/RealPlume"
         }
     ],
     "depends" : [
