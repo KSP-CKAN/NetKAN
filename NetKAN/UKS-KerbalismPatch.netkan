@@ -1,0 +1,14 @@
+{
+    "spec_version" : 1,
+    "identifier"   : "UKS-KerbalismPatch",
+    "$kref"        : "#/ckan/spacedock/730",
+    "x_netkan_license_ok": true,
+	"depends": [
+        { "name": "ModuleManager" },
+		{ "name": "UKS" },
+		{ "name": "Kerbalism", "min_version": "1.0.0" }
+    ],
+	"conflicts": [
+		{"name": "USI-LS"}
+	],
+}
