@@ -1,0 +1,21 @@
+{
+    "spec_version": 1,
+    "identifier": "ElectricThrustEngineETE",
+    "name": "Electric Thrust Engine (ETE)",
+    "abstract": "Electric tecnology",
+    "author": "JarDev",
+    "license": "restricted",
+    "resources": {
+        "homepage": "http://felicetti-a.eu/"
+    },
+    "version": "3.0",
+    "ksp_version": "1.0.2",
+    "install": [
+        {
+            "file": "GameData/JarDev",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "http://addons-origin.cursecdn.com/files/2242/693/ETE.zip"
+}
+

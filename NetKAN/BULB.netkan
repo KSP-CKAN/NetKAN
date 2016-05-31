@@ -1,0 +1,15 @@
+{
+    "spec_version" : "v1.4",
+    "identifier"   : "BULB",
+    "$kref"        : "#/ckan/spacedock/552",
+    "license"      : "GPL-3.0",
+    "depends" : [
+        { "name" : "ModuleManager", "min_version" : "2.6.22" }
+    ],
+    "install" : [
+        {
+            "file"       : "AquilaEnterprises",
+            "install_to" : "GameData"
+        }
+    ]
+}
