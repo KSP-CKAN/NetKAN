@@ -1,7 +1,7 @@
 {
     "identifier": "ContractConfigurator-SoundingRockets",
     "$kref": "#/ckan/spacedock/728",
-    "comment": "avc .version file is malformed. Hopefully it will be fixed soon.",
+    "$vref": "#/ckan/ksp-avc",
     "spec_version": "v1.4",
     "license": "MIT",
     "depends": [
