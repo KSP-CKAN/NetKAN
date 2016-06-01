@@ -1,0 +1,35 @@
+{
+    "spec_version" : 1,
+    "identifier"   : "USI-MalemuteRover",
+    "$kref"        : "#/ckan/github/BobPalmer/Malemute",
+    "$vref"        : "#/ckan/ksp-avc",
+    "name"         : "USI Malemute Rover",
+    "author"       : "RoverDude",
+    "abstract"     : "A short description of what the mod does",
+    "license"      : "restricted",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/139668-112-the-malemute-rover/",
+        "repository": "https://github.com/BobPalmer/Malemute"
+    },
+    "install": [
+        {
+            "find"       : "UmbraSpaceIndustries/Malemute",
+            "install_to" : "GameData/UmbraSpaceIndustries"
+        }
+    ],
+    "depends": [
+        {
+            "name": "USITools"
+        },
+        {
+            "name": "USI-Core"
+        },
+        {
+            "name": "FirespitterCore"
+        },
+        {
+            "name": "USI-UKS-Shared"
+        }
+    ]
+
+}
