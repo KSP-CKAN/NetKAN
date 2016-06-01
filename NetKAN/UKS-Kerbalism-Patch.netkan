@@ -1,0 +1,24 @@
+{
+    "spec_version": 1,
+    "identifier": "UKS-Kerbalism-Patch",
+    "$kref": "#/ckan/spacedock/730",
+    "$vref": "#/ckan/ksp-avc",
+    "x_netkan_license_ok": true,
+    "depends": [
+        { "name": "ModuleManager" },
+        { "name": "UKS" },
+        { "name": "Kerbalism", "min_version": "1.0.0" }
+    ],
+    "recommends": [
+        { "name": "KSP-AVC" }
+    ],
+    "conflicts": [
+        { "name": "USI-LS" }
+    ],
+    "install": [
+        {
+            "file": "GameData/UKS-KerbalismPatch",
+    	    "install_to": "GameData"
+        }
+    ]
+}
