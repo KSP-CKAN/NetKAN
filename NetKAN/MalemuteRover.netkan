@@ -1,0 +1,29 @@
+{
+    "spec_version"   : "v1.4",
+    "identifier"     : "MalemuteRover",
+    "author"         : "RoverDude",
+    "$kref"          : "#/ckan/github/BobPalmer/Malemute",
+    "$vref"          : "#/ckan/ksp-avc",
+    "name"           : "Malemute Rover",
+    "abstract"       : "A 1.25m rover platform for exploration and science collecting!",
+    "license"        : "restricted",
+    "release_status" : "stable",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/139668-112"
+    },
+    "depends" : [
+        { "name": "FirespitterCore" },
+        { "name": "USITools" },
+        { "name": "CommunityResourcePack" }
+    ],
+    "conflicts" : [
+        { "name": "SETI-CommunityTechTree" }
+    ],
+    "install" : [
+        {
+            "find"       : "UmbraSpaceIndustries/Malemute",
+            "install_to" : "GameData/UmbraSpaceIndustries"
+        }
+    ],
+    "x_last_revision_by": "Olympic1"
+}
