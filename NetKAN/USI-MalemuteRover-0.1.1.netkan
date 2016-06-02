@@ -1,35 +1,29 @@
 {
-    "spec_version" : 1,
-    "identifier"   : "USI-MalemuteRover",
-    "$kref"        : "#/ckan/github/BobPalmer/Malemute",
-    "$vref"        : "#/ckan/ksp-avc",
-    "name"         : "USI Malemute Rover",
-    "author"       : "RoverDude",
-    "abstract"     : "Based on the Mars rover from 'Last Days on Mars' (great rover, horrible movie), this pack includes parts for cargo, geo-science (no more awkward Narrow Band Scanners sticking out!), crew transport, and general shenanigans.",
-    "license"      : "restricted",
+    "spec_version"   : "v1.4",
+    "identifier"     : "MalemuteRover",
+    "author"         : "RoverDude",
+    "$kref"          : "#/ckan/github/BobPalmer/Malemute",
+    "$vref"          : "#/ckan/ksp-avc",
+    "name"           : "Malemute Rover",
+    "abstract"       : "A 1.25m rover platform for exploration and science collecting!",
+    "license"        : "restricted",
+    "release_status" : "stable",
     "resources": {
-        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/139668-112-the-malemute-rover/",
-        "repository": "https://github.com/BobPalmer/Malemute"
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/139668-112"
     },
-    "install": [
+    "depends" : [
+        { "name": "FirespitterCore" },
+        { "name": "USITools" },
+        { "name": "CommunityResourcePack" }
+    ],
+    "conflicts" : [
+        { "name": "SETI-CommunityTechTree" }
+    ],
+    "install" : [
         {
             "find"       : "UmbraSpaceIndustries/Malemute",
             "install_to" : "GameData/UmbraSpaceIndustries"
         }
     ],
-    "depends": [
-        {
-            "name": "USITools"
-        },
-        {
-            "name": "USI-Core"
-        },
-        {
-            "name": "FirespitterCore"
-        },
-        {
-            "name": "USI-UKS-Shared"
-        }
-    ]
-
+    "x_last_revision_by": "Olympic1"
 }
