@@ -7,6 +7,9 @@
     "license"      : "CC-BY-NC-SA-4.0",
     "ksp_version"  : "1.1.2",
 	"author"       : "mm",
+	"x_netkan_github": {
+        "use_source_archive": true
+    },
     "resources" : {
         "homepage" : "http://forum.kerbalspaceprogram.com/index.php?/topic/128204-105-kerbal-research-development/"
     },
