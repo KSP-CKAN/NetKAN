@@ -11,6 +11,17 @@
     "depends" : [
         { "name" : "ModuleManager" }
     ],
+    "conflicts" : [
+        { "name" : "B9AerospaceProceduralParts"},
+        { "name" : "InterstellarFuelSwitch"},
+        { "name" : "ProceduralAirships"},
+        { "name" : "ProceduralDynamics"},
+        { "name" : "ProceduralFairings"},
+        { "name" : "ProceduralParts"},
+        { "name" : "ProceduralParts-Extended"},
+        { "name" : "ProceduralProbes"},
+        { "name" : "TweakScale" }
+    ],
     "install" : [
         { 
             "find" : "KRnD", 
