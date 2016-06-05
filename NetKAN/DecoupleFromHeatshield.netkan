@@ -1,9 +1,26 @@
 {
-    "$kref": "#/ckan/spacedock/472",
-    "identifier": "DecoupleFromHeatshield",
-    "license": "MIT",
-    "spec_version": 1,
-    "depends": [
-        { "name": "ModuleManager" }
-    ]
+	"name": "DecoupleFromHeatshield",
+	"identifier": "DecoupleFromHeatshield",
+	"abstract": "Enable decoupling from bottom of heatshield, no need to add extra decouplers!",
+	"license": "MIT",
+	"author": [
+		"John Tackman"
+	],
+	"resources" : {
+        "homepage"     : "http://forum.kerbalspaceprogram.com/index.php?/topic/136054-112-decouple-from-heatshield/",
+        "repository"   : "http://spacedock.info/mod/472/Decouple%20from%20heatshield"
+    },
+	"download": "http://spacedock.info/mod/472/Decouple%20from%20heatshield/download/1.1.2",
+	"$kref": "#/ckan/spacedock/472",
+	"release_status": "stable",
+	"version" : "1.1.2",
+	"install": [],
+	"ksp_version_min": "1.1.2",
+	"depends": [
+		{
+			"name": "ModuleManager"
+		}
+	],
+	"spec_version": 1
+	"x_netkan_license_ok": true
 }
