@@ -1,0 +1,15 @@
+{
+    "spec_version": 1,
+    "identifier": "Kethane",
+    "name": "Kethane Mining",
+    "abstract": "Adds a new resource that you can mine and convert into fuels.",
+    "author": "taniwha",
+    "license": "restricted",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/119480-105-kethane-plugin-and-parts-094-new-maintainer/",
+        "repository": "https://github.com/taniwha-qf/Kethane"
+    },
+    "version": "0.9.6",
+    "ksp_version": "1.1.2",
+    "download": "http://taniwha.org/~bill/Kethane-0.9.6.zip"
+}
