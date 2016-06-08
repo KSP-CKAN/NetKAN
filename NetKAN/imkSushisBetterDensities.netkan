@@ -10,7 +10,7 @@
     ],
     "install": [
         {
-            "file":"imkSushi's Better Densities Mod",
+            "find_regexp":"imkSushi.*Better.Densities.Mod",
             "install_to": "GameData"
         }
     ]
