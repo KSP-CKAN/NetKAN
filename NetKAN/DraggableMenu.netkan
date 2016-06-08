@@ -2,5 +2,12 @@
     "spec_version" : 1,
     "identifier"   : "DraggableMenu",
     "$kref"        : "#/ckan/spacedock/311",
-    "x_netkan_license_ok": true
+    "x_netkan_license_ok": true,
+    "install": [
+        {
+            "file": "DraggableMenu",
+            "install_to": "GameData",
+            "filter": "Sources"
+        }
+    ]
 }
