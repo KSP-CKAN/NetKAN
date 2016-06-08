@@ -1,0 +1,25 @@
+{
+    "identifier": "KerbalStockLauncherOverhaul",
+    "$kref": "#/ckan/spacedock/748",
+    "spec_version": "v1.4",
+    "license": "CC-BY-NC-ND-4.0",
+    "depends": [
+        { "name": "Firespitter" },
+        { "name": "SmokeScreen" },
+        { "name": "TweakScale" },
+        { "name": "ModuleManager" }
+    ],
+    "recommends": [
+        { "name": "AerojetKerbodyne" }
+    ],
+    "suggests": [
+        { "name": "ActiveTextureManagement" }
+    ],
+    "install": [
+        {
+            "find":"KerbalStockLauncherOverhaul",
+            "install_to": "GameData",
+            "filter": "ignore"
+        }
+    ]
+}
