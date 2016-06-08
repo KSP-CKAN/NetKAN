@@ -5,7 +5,8 @@
     "license": "MIT",
     "depends": [
         { "name": "SigmaDimensions" },
-        { "name": "Kopernicus" }
+        { "name": "Kopernicus" },
+        { "name": "ModuleManager" }
     ],
     "install": [
         {
