@@ -3,11 +3,12 @@
     "identifier": "Workshop",
     "name": "OSE Workshop",
     "abstract": "In flight part construction",
-    "$kref": "#/ckan/kerbalstuff/693",
+    "$kref": "#/ckan/github/obivandamme/Workshop",
+    "$vref": "#/ckan/ksp-avc",
     "author": "obivandamme",
     "license": "CC-BY-NC-SA",
     "resources": {
-        "homepage": "http://forum.kerbalspaceprogram.com/threads/108234"
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/97537-11-ose-workshop-kis-addon-v0130-20160426/"
     },
     "install": [
         {
