@@ -2,7 +2,8 @@
     "spec_version": "v1.4",
     "identifier": "OPTSpacePlaneParts",
     "license": "CC-BY-NC-SA-4.0",
-    "$kref": "#/ckan/kerbalstuff/340",
+    "$kref": "#/ckan/spacedock/711",
+    "x_netkan_license_ok" : false,
     "install": [
         {
             "find": "OPT",
@@ -10,11 +11,7 @@
         }
     ],
     "depends": [
-        {
-            "name": "FirespitterCore"
-        },
-        {
-            "name": "ModuleManager"
-        }
+        { "name": "FirespitterCore" },
+        { "name": "ModuleManager" }
     ]
 }
