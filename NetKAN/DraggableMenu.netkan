@@ -3,9 +3,12 @@
     "identifier"   : "DraggableMenu",
     "$kref"        : "#/ckan/spacedock/311",
     "x_netkan_license_ok": true,
+    "conflicts": [
+        { "name": "MenuStabilizer" }
+    ],
     "install": [
         {
-            "file": "DraggableMenu",
+            "file": "GameData/DraggableMenu",
             "install_to": "GameData",
             "filter": "Sources"
         }
