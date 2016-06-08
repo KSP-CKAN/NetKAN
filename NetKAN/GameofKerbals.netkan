@@ -1,0 +1,19 @@
+{
+    "identifier": "GameofKerbals",
+    "$kref": "#/ckan/spacedock/749",
+    "spec_version": "v1.4",
+    "license": "CC-BY-SA-2.0",
+    "depends": [
+        { "name": "TextureReplacer" }
+    ],
+    "install": [
+        {
+            "find":"medieval",
+            "install_to": "GameData"
+        },
+        {
+            "find":"TextureReplacer/Suits",
+            "install_to": "GameData/TextureReplacer"
+        }
+    ]
+}
