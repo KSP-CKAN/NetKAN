@@ -1,0 +1,17 @@
+{
+    "identifier": "imkSushisBetterDensities",
+    "$kref": "#/ckan/spacedock/751",
+    "spec_version": "v1.10",
+    "license": "MIT",
+    "depends": [
+        { "name": "SigmaDimensions" },
+        { "name": "Kopernicus" },
+        { "name": "ModuleManager" }
+    ],
+    "install": [
+        {
+            "find_regexp":"imkSushi.*Better.Densities.Mod",
+            "install_to": "GameData"
+        }
+    ]
+}
