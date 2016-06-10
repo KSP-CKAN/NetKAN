@@ -1,8 +1,9 @@
 {
     "identifier": "DockingcameraKURSstyle",
     "spec_version": "v1.4",
-    "$kref": "#/ckan/kerbalstuff/1242",
+    "$kref": "#/ckan/spacedock/756",
     "license": "CC-BY-SA-3.0",
+    "comment": "Taking license from forum thread",
     "install": [
         {
             "find"       : "OLDD",
