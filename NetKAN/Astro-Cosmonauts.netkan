@@ -1,0 +1,15 @@
+{
+    "identifier": "Astro-Cosmonauts",
+    "$kref": "#/ckan/spacedock/759",
+    "spec_version": "v1.4",
+    "license": "MIT",
+    "depends": [
+        { "name": "TextureReplacer" }
+    ],
+    "install": [
+        {
+            "find":"TextureReplacer",
+            "install_to": "GameData"
+        }
+    ]
+}
