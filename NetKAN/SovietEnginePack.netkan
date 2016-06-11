@@ -6,6 +6,9 @@
     "license": "MIT",
     "development_status": "development",
     "comment": "No current forum thread for this version I can find for homepage.",
+    "conflicts": [
+        { "name": "SovietEngines" }
+    ],
     "install" : [
         {
             "file": "Sovietengines",
