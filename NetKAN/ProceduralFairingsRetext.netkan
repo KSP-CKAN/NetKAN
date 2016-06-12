@@ -1,0 +1,11 @@
+{
+    "spec_version" : 1,
+    "identifier"   : "ProceduralFairingsRetext",
+    "$kref"        : "#/ckan/spacedock/762",
+    "license"      : "CC-BY-NC-SA-4.0",
+    "x_netkan_license_ok": false,
+    "depends" : [
+        { "name" : "FirespitterCore" },
+        { "name" : "ProceduralFairings" }
+    ]
+}
