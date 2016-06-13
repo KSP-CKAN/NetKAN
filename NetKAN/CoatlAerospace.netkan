@@ -6,7 +6,8 @@
 	"ksp_version": "1.1.2",
 	"resources": {"homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/131145-wip-coatl-aerospace-probesplus-dev-thread-v013-beta-61316/",
 				"repository": "https://github.com/raveloda/Coatl-Aerospace"},
-	"depends": [{"name": "DMagicScienceAnimate"}],
+	"depends": [{"name": "DMagicScienceAnimate"},
+		{"name": "DMagicOrbitalScience"}],
 	"suggests": [{"name": "AntennaRange"}, {"name": "RemoteTech"}, {"name": "TweakScale"}],
 	"install": [{"file": "GameData/Coatl Aerospace",
 		"install_to": "GameData"}]
