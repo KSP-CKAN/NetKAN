@@ -1,0 +1,20 @@
+{
+    "spec_version" : 1,
+    "identifier"   : "LaserDist",
+    "$kref"        : "#/ckan/github/Dunbaratu/LaserDist",
+    "name"         : "LaserDist",
+    "author"       : "Steven Mading",
+    "abstract"     : "Gives exact laser distances for use with kOS and other scripted autopilot systems.",
+    "license"      : "GPL-3.0",
+    "ksp_version"  : "1.1.2",
+    "resources": {
+        "homepage": "https://github.com/Dunbaratu/LaserDist"
+    },
+    "suggests": [
+        {
+          "name": "kOS",
+          "min_version": "0.20",
+          "comment" : "LaserDist was intended to give distance data to kOS scripts."
+        }
+    ]
+}
