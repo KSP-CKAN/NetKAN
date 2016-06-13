@@ -1,0 +1,12 @@
+{
+    "$kref": "#/ckan/spacedock/738",
+    "spec_version": "v1.4",
+    "identifier": "JW-Patches",
+    "license": "MIT",
+    "install": [
+        {
+            "find":"JWpatches",
+            "install_to": "GameData"
+        }
+    ]
+}
