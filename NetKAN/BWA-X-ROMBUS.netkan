@@ -7,7 +7,7 @@
         "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/141153-112-bwa-x-rombus-pack/",
         "repository": "https://github.com/Lupinarius/BWA-X/"
     },
-    "ksp_version_min": "1.0",
+    "ksp_version_min": "1.0.5",
 	"ksp_version_max": "1.1.2",
     "depends": [
         { "name": "ModuleManager" },
