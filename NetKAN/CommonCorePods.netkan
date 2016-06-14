@@ -1,0 +1,13 @@
+{
+    "identifier": "CommonCorePods",
+    "$kref": "#/ckan/spacedock/750",
+    "spec_version": "v1.4",
+    "license": "CC-BY-4.0",
+    "install": [
+        {
+            "find":"RaptorAerospacial",
+            "install_to": "GameData",
+            "filter": "ignore"
+        }
+    ]
+}
