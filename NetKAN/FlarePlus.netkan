@@ -1,0 +1,13 @@
+{
+    "identifier": "FlarePlus",
+    "$kref": "#/ckan/spacedock/761",
+    "spec_version": "v1.4",
+    "license": "unknown",
+    "install": [
+        {
+            "file":"Flare+",
+            "install_to": "GameData",
+            "filter": ".DS_Store"
+        }
+    ]
+}
