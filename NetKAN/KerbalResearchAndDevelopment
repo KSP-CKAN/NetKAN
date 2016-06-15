@@ -1,0 +1,30 @@
+{
+    "spec_version" : 1,
+    "identifier"   : "KerbalResearchAndDevelopment",
+    "$kref"        : "#/ckan/github/mmoench/KRnD",
+    "name"         : "Kerbal Research & Development",
+    "abstract"     : "This mod allows the player to invest science points to improve the stats of parts such as the mass or engine-efficiency.",
+    "license"      : "CC-BY-NC-SA-4.0",
+    "ksp_version"  : "1.1.2",
+	"author"       : "mm",
+    "resources" : {
+        "homepage" : "http://forum.kerbalspaceprogram.com/index.php?/topic/128204-105-kerbal-research-development/"
+    },
+    "depends" : [
+        { "name" : "ModuleManager" }
+    ],
+    "conflicts" : [
+        { "name" : "B9AerospaceProceduralParts"},
+        { "name" : "InterstellarFuelSwitch"},
+        { "name" : "ProceduralAirships"},
+        { "name" : "ProceduralDynamics"},
+        { "name" : "ProceduralFairings"},
+        { "name" : "ProceduralParts"},
+        { "name" : "ProceduralParts-Extended"},
+        { "name" : "ProceduralProbes"},
+        { "name" : "TweakScale" }
+    ],
+    "install" : [
+        { "find" : "KRnD", "install_to" : "GameData"}
+    ]
+}
