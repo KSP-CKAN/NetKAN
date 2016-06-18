@@ -1,10 +1,10 @@
 {
     "spec_version" : 1,
-    "identifier"   : "Telemachus",
+    "identifier"   : "Telemachus-2",
     "$kref"        : "#/ckan/spacedock/742",
     "license"      : "BSD-4-clause",
     "conflicts"    : [
-        { "name" : "Telemachus-2" }
+        { "name" : "Telemachus" }
     ],
     "install"      : [
         { "file"       : "GameData/Telemachus"},
