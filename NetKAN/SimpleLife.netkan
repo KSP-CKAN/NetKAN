@@ -1,0 +1,14 @@
+{
+    "spec_version" : "v1.4",
+    "identifier"   : "SimpleLife",
+    "$kref"        : "#/ckan/spacedock/766",
+    "x_netkan_license_ok" : true,
+    "depends" : [
+        { "name" : "CommunityResourcePack" },
+        { "name" : "ModuleManager" },
+        { "name" : "SimpleConstruction" }
+    ],
+    "suggests" : [
+        { "name" : "AlternateResourcePanel" }
+    ]
+}
