@@ -6,8 +6,10 @@
     "conflicts"    : [
         { "name" : "Telemachus" }
     ],
-    "install"      : [
-        { "file"       : "GameData/Telemachus"},
-        { "install_to" : "GameData" }
+    "install" : [
+        {
+            "file"       : "GameData/Telemachus",
+            "install_to" : "GameData"
+        }
     ]
 }
