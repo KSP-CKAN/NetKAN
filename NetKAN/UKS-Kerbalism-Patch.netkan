@@ -6,7 +6,6 @@
     "x_netkan_license_ok": true,
     "depends": [
         { "name": "ModuleManager" },
-        { "name": "UKS" },
         { "name": "Kerbalism", "min_version": "1.0.0" }
     ],
     "recommends": [
