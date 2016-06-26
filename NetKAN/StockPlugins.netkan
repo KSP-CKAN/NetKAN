@@ -12,7 +12,7 @@
         {
             "file"       : "GameData/ModuleManager.2.6.25.dll",
             "install_to" : "GameData"
-        },
+        }
     ],
     "suggests": [
         { "name": "DeadlyReentry" },
