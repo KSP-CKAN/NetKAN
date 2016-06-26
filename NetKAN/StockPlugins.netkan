@@ -4,8 +4,15 @@
     "$kref" : "#/ckan/spacedock/112",
     "$vref" : "#/ckan/ksp-avc",
     "license": "public-domain",
-    "depends": [
-        { "name": "ModuleManager", "min_version": "2.6.0" }
+    "install" : [
+        {
+            "file"       : "GameData/StockPlugins",
+            "install_to" : "GameData"
+        },
+        {
+            "file"       : "GameData/ModuleManager.2.6.25.dll",
+            "install_to" : "GameData"
+        },
     ],
     "suggests": [
         { "name": "DeadlyReentry" },
