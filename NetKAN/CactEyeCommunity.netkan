@@ -6,7 +6,7 @@
   "license"      : "CC-BY-4.0",
   "install": [
     {
-      "file"     : "CactEyeOptics/GameData/CactEye",
+      "file"     : "GameData/CactEye",
       "install_to": "GameData"
     }
   ],
