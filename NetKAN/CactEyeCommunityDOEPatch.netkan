@@ -17,7 +17,7 @@
     }
   ],
   "depends": [
-  { "name" : "CactEyeCommunity" },
-  { "name" : "DistantObject" }
+    { "name" : "CactEyeCommunity" },
+    { "name" : "DistantObject" }
   ]
 }
