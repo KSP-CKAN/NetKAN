@@ -1,8 +1,8 @@
 {
   "spec_version" : 1,
-  "identifier"   : "CactEyeCommunity",
+  "identifier"   : "CactEyeCommunityDOEPatch",
   "$kref"        : "#/ckan/spacedock/629",
-  "name"         : "CactEye Optics Community",
+  "name"         : "CactEye Distant Object Enhancement Compatibility Patch",
   "license"      : "CC-BY-4.0",
   "resources"    : [
     { "homepage"   : "http://forum.kerbalspaceprogram.com/index.php?/topic/141280-113-cacteye-optics-community-takeover/" },
@@ -12,16 +12,12 @@
   ],
   "install": [
     {
-      "file"     : "GameData/CactEye",
+      "file"     : "DistantObjectHook/GameData/CactEye",
       "install_to": "GameData"
     }
   ],
-  "conflicts": [
-  { "name" : "CactEyeTelescopesContinued" },
-  { "name" : "CactEye2" }
-  ],
-  "recommends": [
-    { "name" : "CactEyeCommunityDOEPatch" },
-	{ "name" : "DistantObject" }
+  "depends": [
+    { "name" : "CactEyeCommunity" },
+    { "name" : "DistantObject" }
   ]
 }
