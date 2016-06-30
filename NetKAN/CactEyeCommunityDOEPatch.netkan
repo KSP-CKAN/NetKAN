@@ -1,0 +1,17 @@
+{
+  "spec_version" : 1,
+  "identifier"   : "CactEyeCommunityDOEPatch",
+  "$kref"        : "#/ckan/spacedock/629",
+  "name"         : "CactEye Distant Object Enhancement Compatibility Patch",
+  "license"      : "CC-BY-4.0",
+  "install": [
+    {
+      "file"     : "DistantObjectHook/GameData/CactEye",
+      "install_to": "GameData"
+    }
+  ],
+  "depends": [
+  { "name" : "CactEyeCommunity" },
+  { "name" : "DistantObjectEnhancement" }
+  ]
+}
