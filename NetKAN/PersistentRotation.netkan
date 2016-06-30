@@ -7,6 +7,6 @@
         { "name": "Toolbar" }
     ],
     "install": [
-        { "file": "GameData/PersistentRotation", "install_to": "GameData" }
+        { "file": "PersistentRotation/GameData/PersistentRotation", "install_to": "GameData" }
     ]
 }
