@@ -1,0 +1,21 @@
+{
+    "spec_version": 1,
+    "identifier": "KerbinCup",
+    "name": "Kerbin Cup",
+    "abstract": "While the World Cup kicks off in Brazil, Squad is launching festivities up in the stars with an official mod and community competition centered around the familiar planet of Kerbin. It’s time to celebrate the Kerbin Cup!",
+    "author": "Squad",
+    "version": "1.1.3",
+    "ksp_version": "1.1.3",
+    "license": "public-domain",
+    "resources": {
+        "homepage": "http://kerbal.curseforge.com/projects/kerbin-cup"
+    },
+    "install": [
+        {
+            "file"       : "WorldCup2014",
+            "install_to" : "GameData",
+            "filter"     : "Source"
+        }
+    ],
+    "download": "http://kerbal.curseforge.com/projects/kerbin-cup/files/2311694/download"
+}
