@@ -15,9 +15,6 @@
     "install": [{
         "file": "GameData/DistantObject",
         "install_to": "GameData",
-        "filter": [
-			"PlanetColors.cfg",
-			"Settings.cfg"
-		]
+        "filter": "PlanetColors.cfg"
     }]
 }
