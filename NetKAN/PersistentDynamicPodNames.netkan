@@ -10,7 +10,7 @@
         "homepage"  :   "https://github.com/linuxgurugamer/PersistentDynamicPodNames"
     },
     "depends": [
-        { "name" : "ModuleManager" },
+        { "name" : "ModuleManager" }
     ],
     "install"     : [
         {
