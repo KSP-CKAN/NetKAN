@@ -1,0 +1,19 @@
+{
+    "spec_version"  : "v1.4",
+    "identifier"    : "ContractFilterContinued",
+    "$kref"         : "#/ckan/github/linuxgurugamer/ContractFilterContinued",
+    "$vref"           : "#/ckan/ksp-avc",
+    "license"       : "CC-BY-SA-4.0",
+    "name"          : "Contract Filter Continue",
+    "abstract"      : "Filter your contracts for what you want",
+    "resources" : {
+        "homepage"  :   "https://github.com/linuxgurugamer/ContractFilterContinued"
+    },
+    "install"     : [
+        {
+            "find"    : "ContractFilterContinued",
+            "install_to": "GameData"
+        }
+    ]
+}
+
