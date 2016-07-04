@@ -22,9 +22,9 @@
     "x_netkan_override" : [
         {
             "version" : "v7.4.5.1",
-            "override" : {
+            "override"  : {
                 "ksp_version_min" : "1.1.2",
-                "ksp_version_min" : "1.1.3"
+                "ksp_version_max" : "1.1.3"
             }
         }
     ],
