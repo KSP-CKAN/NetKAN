@@ -9,6 +9,9 @@
     "resources" : {
         "homepage"  :   "https://github.com/linuxgurugamer/ContractFilterContinued"
     },
+    "conflicts" : [
+            { "name" : "ContractFilter" }
+        ],
     "install"     : [
         {
             "find"    : "ContractFilterContinued",
