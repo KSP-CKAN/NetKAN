@@ -1,6 +1,7 @@
 {
     "identifier": "ReentryParticleEffect",
     "$kref": "#/ckan/spacedock/819",
+    "$vref": "#/ckan/ksp-avc",
     "license": "restricted",
     "spec_version": "v1.4",
     "install": [
