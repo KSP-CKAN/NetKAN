@@ -5,6 +5,7 @@
     "name"           : "Filter Extensions - Default Configuration",
     "identifier"     : "FilterExtensionsDefaultConfig",
     "abstract"       : "Configuration files using Filter Extensions to create a large array of new part categories in the Editor",
+    "comment"        : "test",
     "license"        : "CC-BY-NC-SA-4.0",
     "release_status" : "stable",
     "depends" : [
