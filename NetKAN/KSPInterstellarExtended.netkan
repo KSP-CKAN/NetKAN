@@ -14,7 +14,9 @@
         { "name"         : "Toolbar", "min_version" : "1.7.12" },
         { "name"         : "InterstellarFuelSwitch", "min_version" : "2.1.0" },
         { "name"         : "TweakScale", "min_version" : "2.2.13"},
-        { "name"         : "ModuleManager", "min_version" : "2.6.25" },
-        { "name"         : "FilterExtensions", "min_version" : "2.6" }
+        { "name"         : "ModuleManager", "min_version" : "2.6.25" }
+    ],
+    "recommends": [
+        { "name"         : "FilterExtensions", "min_version" : "2.5" }
     ]
 }
