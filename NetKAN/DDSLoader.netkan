@@ -1,0 +1,15 @@
+{
+  "spec_version": 1,
+  "identifier": "DDSLoader",
+  "ksp_version": "0.90",
+  "resources": {
+    "homepage"   : "http://forum.kerbalspaceprogram.com/threads/96729",
+    "repository" : "https://github.com/sarbian/DDSLoader/"
+  },
+  "name": "DDSLoader",
+  "license": "CC-BY-NC-SA-4.0",
+  "abstract": "Loads DDS Textures boringly fast!",
+  "author": "sarbian",
+  "version": "1.9.0.0",
+  "download": "https://ksp.sarbian.com/jenkins/job/DDSLoader/lastSuccessfulBuild/artifact/DDSLoader-1.9.0.0.zip"
+}

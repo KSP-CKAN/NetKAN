@@ -1,0 +1,25 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "ChopIt",
+    "name": "CIT - ChopIt",
+    "author": "marce",
+    "abstract": "Detach parts in flight! And let them explode!",
+    "license": "CC-BY-NC-SA-4.0",
+    "depends": [
+        {
+            "name": "CIT-Util"
+        }
+    ],
+    "install": [
+        {
+            "file": "CIT/ChopIt",
+            "install_to": "GameData/CIT"
+        }
+    ],
+    "resources": {
+        "homepage": "https://ksp.marce.at/"
+    },
+    "download": "https://ksp.marce.at/Home/DownloadMod?modId=2",
+    "version": "2.6.1",
+    "ksp_version": "0.90.0"
+}

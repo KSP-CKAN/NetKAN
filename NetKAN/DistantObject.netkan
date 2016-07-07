@@ -5,7 +5,8 @@
     "name": "Distant Object Enhancement",
     "abstract": "Visual enhancement mod that makes objects realistically visible over large distances.",
     "license": "CC-BY-4.0",
-    "ksp_version": "1.1.0",
+    "ksp_version_min": "1.1.0",
+    "ksp_version_max": "1.1.3",
     "depends": [
         {
             "name": "DistantObject-config"

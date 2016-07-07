@@ -1,0 +1,9 @@
+{
+    "spec_version" : "v1.2",
+    "identifier"   : "CoherentContracts",
+    "$kref"        : "#/ckan/spacedock/594",
+    "license"      : "BSD-3-clause",
+    "depends" : [
+        { "name" : "ModuleManager" }
+    ]
+}

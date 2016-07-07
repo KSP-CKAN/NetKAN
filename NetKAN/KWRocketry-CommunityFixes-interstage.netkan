@@ -1,5 +1,5 @@
 {
-    "spec_version"  : "v1.2",
+    "spec_version"  : "v1.16",
     "identifier"    : "KWRocketry-CommunityFixes-interstage",
     "$kref"         : "#/ckan/spacedock/51",
     "$vref"         : "#/ckan/ksp-avc",
@@ -11,7 +11,8 @@
     ],
     "install": [
         {
-            "file": "Gamedata/KWCommunityFixes/KWPatch-interstage.cfg",
+            "find": "KWPatch-interstage.cfg",
+            "find_matches_files": true,
             "install_to": "GameData/KWCommunityFixes"
         }
     ],

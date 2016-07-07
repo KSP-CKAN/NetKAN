@@ -14,5 +14,15 @@
             "file"       : "GameData/Pilot Assistant",
             "install_to" : "GameData"
         }
+    ],
+    "x_netkan_override": [
+        {
+            "version": "1.12.5",
+            "delete": [ "ksp_version" ],
+            "override": {
+                "ksp_version_min": "1.1.0",
+                "ksp_version_max": "1.1.2"
+            }
+        }
     ]
 }

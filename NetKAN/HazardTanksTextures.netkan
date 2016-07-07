@@ -5,7 +5,8 @@
     "spec_version": "v1.4",
     "ksp_version": "any",
     "depends": [
-        { "name": "ProceduralParts" }
+        { "name": "ProceduralParts" },
+        { "name": "VensStylePPTextures" }
     ],
     "provides": [
         "PPTextures"
@@ -13,7 +14,8 @@
      "install": [
         {
             "find": "KerbalHacks",
-            "install_to": "GameData"
+            "install_to": "GameData",
+            "filter": "PPVensTankEnds.dds"
         }
     ]
 }

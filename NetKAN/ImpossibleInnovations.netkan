@@ -22,7 +22,7 @@
         }
     ],
     "x_netkan_override" : [
-    { 
+    {
             "version"  : "0.8.7.2",
             "delete"   : [ "ksp_version" ],
             "override" : {

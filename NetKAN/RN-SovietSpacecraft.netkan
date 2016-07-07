@@ -1,32 +1,32 @@
 {
     "spec_version"  : "v1.4",
     "identifier"    : "RN-SovietSpacecraft",
-    "name"          : "Salyut Stations - Soyuz, Progress, Vostok/Voskhod, TKS/VA",
+    "name"          : "Soviet Spacecraft - Soyuz, Progress, Vostok/Voskhod, TKS/VA",
     "author"        : "Raidernick",
     "abstract"      : "Soviet spacecraft pack that contains Soyuz 7K-T, 7K-OKA, 7K-OKP 7K-T-AF and Progress 7K-TG, and Vostok/Voskhod spacecraft, and TKS/VA",
-    "comment"       : "Ships explicitly not installed by author request (he no longer maintains them)",
+    "comment"       : "Ships installed again",
     "resources": {
         "homepage"  : "http://forum.kerbalspaceprogram.com/index.php?/topic/133579-105"
     },
     "$kref"         : "#/ckan/github/KSP-RO/SovietSpacecraft",
     "license"       : "CC-BY-NC-ND-3.0",
-    "ksp_version"   : "1.0.5",
+    "ksp_version_min"   : "1.1.1",
+    "ksp_version_max"   : "1.1.3",
     "install"       : [
     {
         "find"      : "RN_Soyuz",
         "install_to": "GameData"
     },
     {
-        "file"      : "Gamedata/RN_FAR_overrides_soyuz.cfg",
-        "install_to": "GameData"
+        "file"      : "Ships/VAB",
+        "install_to": "Ships"
     }],
     "conflicts"     : [
         { "name"    : "RN-SalyutStations-SoyuzFerries" }
     ],
     "depends"       : [
         { "name"      : "FirespitterCore"  },
-        { "name"      : "ReflectionPlugin" },
-        { "name"      : "SovietPackCore" }
+        { "name"      : "TextureReplacer" }
     ],
     "recommends"    : [
         { "name"      : "RN-SalyutStations" },

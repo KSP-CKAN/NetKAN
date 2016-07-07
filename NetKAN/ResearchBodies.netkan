@@ -1,0 +1,13 @@
+{
+    "$kref": "#/ckan/spacedock/684",
+    "$vref": "#/ckan/ksp-avc",
+    "identifier": "ResearchBodies",
+    "license": "CC-BY-NC-SA-4.0",
+    "spec_version": "v1.4",
+    "suggests": [
+        { "name": "AsteroidDay" }
+    ],
+    "depends": [
+        { "name": "ModuleManager" }
+    ]
+}

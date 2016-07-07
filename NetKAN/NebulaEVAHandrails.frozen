@@ -1,0 +1,17 @@
+{
+    "spec_version" : 1,
+    "identifier"   : "NebulaEVAHandrails",
+    "$kref"        : "#/ckan/kerbalstuff/353",
+    "license"      : "CC-BY-NC-ND-4.0",
+
+    "ksp_version"     : "0.90",
+
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/100531"
+    },
+
+    "install"      : [ {
+        "file"       : "NEBULA",
+        "install_to" : "GameData"
+    } ]
+}

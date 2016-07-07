@@ -7,12 +7,11 @@
     "license"      : "GPL-2.0",
     "install": [
         {
-            "file"       : "GameData/InterstellarFuelSwitch/Plugins",
-            "install_to" : "GameData/InterstellarFuelSwitch",
-            "filter"     : "MiniAVC.xml"
+            "find"       : "InterstellarFuelSwitch/Plugins",
+            "install_to" : "GameData/InterstellarFuelSwitch"
         }
     ],
-    "depends" : [
-        { "name"         : "CommunityResourcePack", "min_version" : "0.4.5" }
+    "recommends": [
+        { "name"         : "TweakScale", "min_version" : "2.2.10" }
     ]
 }

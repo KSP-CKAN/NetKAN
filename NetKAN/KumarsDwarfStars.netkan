@@ -1,0 +1,16 @@
+{
+    "identifier": "KumarsDwarfStars",
+    "$kref": "#/ckan/spacedock/737",
+    "spec_version": "v1.4",
+    "license": "MIT",
+    "depends": [
+        { "name": "Kopernicus" },
+        { "name": "ModuleManager" }
+    ],
+    "install": [
+        {
+            "find":"KDS",
+            "install_to": "GameData"
+        }
+    ]
+}

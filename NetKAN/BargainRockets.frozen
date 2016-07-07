@@ -1,0 +1,22 @@
+{
+  "spec_version": 1,
+  "identifier": "BargainRockets",
+  "license": "CC-BY-SA-4.0",
+  "install": [
+    {
+      "file": "GameData/BargainRockets",
+      "install_to": "GameData"
+    }
+  ],
+  "depends" : [ { "name" : "ModuleManager" } ],
+  "resources": {
+    "homepage": "http://forum.kerbalspaceprogram.com/threads/58639"
+  },
+  "ksp_version": "0.90",
+  "name": "Bargain Rocket Parts",
+  "abstract": "A popular part pack, originally by RubberDucky.",
+  "author": "Rubber Ducky",
+  "version": "1.1.2",
+  "download": "https://www.dropbox.com/sh/1fsuzvl35s2gppt/AACl7hgDMeTqYMEronUxA_yDa/BargainRockets_1.1.2.zip?dl=1",
+  "x_maintained_by": "hakan42"
+}

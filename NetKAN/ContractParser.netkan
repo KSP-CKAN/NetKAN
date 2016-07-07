@@ -5,8 +5,8 @@
     "description"   : "This addon is a dependency of Contracts Window Plus and CapCom and is used to cache reward, completion, and other data on contracts",
     "identifier"    : "ContractParser",
     "license"       : "MIT",
-    "ksp_version"   : "1.1.0",
     "$kref"         : "#/ckan/github/DMagic1/KSP_Contract_Parser",
+    "$vref"         : "#/ckan/ksp-avc",
 
         "install": [
         {

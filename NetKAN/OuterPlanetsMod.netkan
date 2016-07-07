@@ -1,13 +1,16 @@
 {
-    "identifier": "OuterPlanetsMod",
     "spec_version": "v1.4",
+    "identifier": "OuterPlanetsMod",
     "$kref": "#/ckan/spacedock/233",
+    "$vref": "#/ckan/ksp-avc",
     "x_netkan_epoch": "1",
     "license": "CC-BY-NC-SA-4.0",
     "depends": [
+        { "name": "CommunityTerrainTexturePack" },
         { "name": "ModuleManager" },
-        { "name": "Kopernicus", "min_version": "1:beta-05-2" }
+        { "name": "Kopernicus", "min_version": "2:release-1-0-4" }
     ],
+    "provides": [ "CustomAsteroids-Pops" ],
     "recommends": [
         { "name": "OPMClouds" },
         { "name": "SigmaOPMRecolor" },

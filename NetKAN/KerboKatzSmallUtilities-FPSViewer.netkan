@@ -1,18 +1,6 @@
 {
-    "spec_version" : "v1.4",
+    "spec_version" : "v1.2",
     "identifier"   : "KerboKatzSmallUtilities-FPSViewer",
-    "$kref"        : "#/ckan/github/Xarun/SmallUtilities/asset_match/SmallUtilities.FPSViewer.zip",
-    "name"         : "KerboKatz - SmallUtilities - FPSViewer",
-    "abstract"     : "A simple and easy way to display the current game fps",
-    "license"      : "restricted",
-    "ksp_version"  : "1.1",
-    "depends": [
-        { "name": "KerboKatzUtilities", "min_version": "1.2.6" }
-    ],
-    "install": [
-        {
-            "find"       : "FPSViewer",
-            "install_to" : "GameData/KerboKatz/SmallUtilities"
-        }
-    ]
+    "$kref": "#/ckan/netkan/https://raw.githubusercontent.com/KerboKatz/Netkan/master/KerboKatzSmallUtilities-FPSViewer.netkan",
+    "x_netkan_license_ok": true
 }

@@ -1,0 +1,19 @@
+{
+    "$kref": "#/ckan/spacedock/721",
+    "spec_version": "v1.4",
+    "identifier": "Races",
+    "license": "MIT",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/139829-/"
+    },
+    "install": [
+        {
+            "find": "Races!",
+            "install_to": "GameData"
+        },
+        {
+            "find": "RaceTracks",
+            "install_to": "GameData"
+        }
+    ]
+}

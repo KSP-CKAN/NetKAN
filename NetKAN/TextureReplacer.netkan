@@ -11,5 +11,15 @@
     "resources": {
         "homepage": "http://forum.kerbalspaceprogram.com/threads/107471",
         "repository": "https://github.com/ducakar/TextureReplacer"
-    }
+    },
+    "x_netkan_override" : [
+        {
+            "version" : "v2.4.13",
+            "delete" : [ "ksp_version" ],
+            "override" : {
+                "ksp_version_min" : "1.1.0",
+                "ksp_version_max" : "1.1.3"
+            }
+        }
+    ]
 }

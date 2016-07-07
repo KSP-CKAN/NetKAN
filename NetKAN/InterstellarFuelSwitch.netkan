@@ -11,12 +11,15 @@
         }
     ],
     "depends" : [
-        { "name" : "CommunityResourcePack", "min_version" : "0.4.5" },
-        { "name" : "InterstellarFuelSwitch-Core", "min_version" : "1.18" },
+        { "name" : "CommunityResourcePack", "min_version" : "0.5.1" },
+        { "name" : "InterstellarFuelSwitch-Core", "min_version" : "1.28" },
         { "name" : "ModuleManager" }
+    ],
+    "recommends": [
+        { "name"         : "KSPInterstellarExtended" }
     ],
     "abstract" : "Library that enables switching the contents, meshes, and textures of tanks.",
     "resources" : {
-        "bugtracker"   : "https://github.com/sswelm/KSPInterstellar/issues"
+        "bugtracker"   : "https://github.com/sswelm/KSP-Interstellar-Extended/issues"
     }
 }

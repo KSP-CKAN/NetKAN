@@ -1,0 +1,24 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "InfernalRobotics-LegacyParts",
+    "$kref": "#/ckan/github/MagicSmokeIndustries/InfernalRobotics/asset_match/IR-LegacyParts\\.zip",
+    "ksp_version": "1.1",
+    "license": "GPL-3.0",
+    "name": "Magic Smoke Industries Infernal Robotics - Legacy Parts",
+    "abstract": "Making stuff move.",
+    "author": "sirkut",
+    "x_netkan_force_v": true,
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/116064",
+        "repository": "https://github.com/MagicSmokeIndustries/InfernalRobotics"
+    },
+    "depends": [
+        { "name": "InfernalRobotics" }
+    ],
+    "install": [
+        {
+            "find"       : "MagicSmokeIndustries/Parts",
+            "install_to" : "GameData/MagicSmokeIndustries"
+        }
+    ]
+}

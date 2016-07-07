@@ -11,7 +11,8 @@
     },
     "$kref"         : "#/ckan/github/KSP-RO/Antares-Cygnus",
     "license"       : "CC-BY-NC-ND-3.0",
-    "ksp_version"   : "1.0",
+    "ksp_version_min"   : "1.1.1",
+    "ksp_version_max"   : "1.1.3",
     "install"       : [
     {
         "find"      : "KK_Antares",
@@ -20,5 +21,9 @@
     {
         "find"      : "RN_Cygnus",
         "install_to": "GameData"
+    },
+    {
+        "file"      : "Ships/VAB",
+        "install_to": "Ships"
     }]
 }

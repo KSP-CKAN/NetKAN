@@ -3,11 +3,10 @@
     "license": "CC-BY-NC-SA-4.0",
     "$kref": "#/ckan/spacedock/562",
     "identifier": "Mk3HypersonicSystems",
-    "resources": {
-        "homepage": "http://forum.kerbalspaceprogram.com/threads/130548"
-    },
+    "x_netkan_epoch": "1",
     "depends": [
         { "name": "FirespitterCore" },
+        { "name": "RasterPropMonitor" },
         { "name": "ModuleManager"}
     ],
     "recommends": [
@@ -15,7 +14,7 @@
     ],
     "install": [
         {
-            "find"       : "Mk3HypersonicSystems",
+            "find"       : "GameData/Mk3HypersonicSystems",
             "install_to" : "GameData",
             "filter"     : "Thumbs.db"
         },

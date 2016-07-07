@@ -1,5 +1,5 @@
 {
-    "spec_version" : "v1.2",
+    "spec_version" : "v1.4",
     "identifier"   : "RFStockalike",
     "$kref"        : "#/ckan/github/Raptor831/RFStockalike",
     "name"         : "Real Fuels: Stockalike RF Configs",
@@ -7,12 +7,16 @@
     "license"      : "CC-BY-SA",
     "install" : [
         {
-            "file"       : "RFStockalike/GameData/RealFuels-Stockalike",
+            "find"       : "GameData/RealFuels-Stockalike",
             "install_to" : "GameData"
         },
         {
-            "file"       : "RFStockalike/GameData/RealPlume/RealPlume-RFStockalike",
-                "install_to" : "GameData/RealPlume"
+            "find"       : "GameData/RealPlume-RFStockalike",
+            "install_to" : "GameData"
+        },
+        {
+            "find"       : "GameData/zzRFStockalike",
+            "install_to" : "GameData"
         }
     ],
     "depends" : [

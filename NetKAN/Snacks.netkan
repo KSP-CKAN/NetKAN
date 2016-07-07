@@ -1,19 +1,18 @@
 {
     "spec_version" : 1,
     "identifier"   : "Snacks",
-    "$kref"        : "#/ckan/github/tgruetzm/Snacks",
+    "$kref"        : "#/ckan/github/Angel-125/Snacks",
+    "$vref"        : "#/ckan/ksp-avc",
     "name"         : "Snacks",
     "abstract"     : "Add a simple life support system based on Snacks!",
+    "author"       : [ "tgruetzm", "Angel-125"],
     "license"      : "MIT",
-    "resources" : {
+    "resources": {
         "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/81929-105-snacks-kerbal-simplified-life-support"
     },
     "depends": [
         {
             "name": "ModuleManager"
         }
-    ],
-    "comment" : "2015-06-28 Netkan version was hard coded 0.90, changed to min max, see PR discussion re: pjf",
-    "ksp_version_min" : "0.90",
-    "ksp_version_max" : "1.0.99"
+    ]
 }

@@ -1,0 +1,12 @@
+{
+    "license": "restricted",
+    "identifier": "ProjectCaseyCarcopter",
+    "$kref": "#/ckan/spacedock/587",
+    "spec_version": "v1.4",
+    "install": [
+        {
+            "file"       : "Casey",
+            "install_to" : "GameData"
+        }
+    ]
+}

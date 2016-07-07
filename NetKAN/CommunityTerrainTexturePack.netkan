@@ -1,0 +1,16 @@
+{
+    "spec_version": "v1.4",
+    "comment": "CommunityTerrainTexturePack does not have its own release. Sourced from the OuterPlanetsMod archive.",
+    "identifier": "CommunityTerrainTexturePack",
+    "name": "Community Terrain Texture Pack",
+    "abstract": "High-quality textures for use by planet creators.",
+    "$kref": "#/ckan/spacedock/233",
+    "$vref": "#/ckan/ksp-avc/GameData/OPM/OuterPlanetsMod.version",
+    "license": "CC-BY-NC-SA-4.0",
+    "install": [
+        {
+            "find": "CTTP",
+            "install_to": "GameData"
+        }
+    ]
+}

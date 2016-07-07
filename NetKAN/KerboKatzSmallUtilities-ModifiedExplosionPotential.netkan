@@ -1,16 +1,6 @@
 {
-    "spec_version" : "v1.4",
+    "spec_version" : "v1.2",
     "identifier"   : "KerboKatzSmallUtilities-ModifiedExplosionPotential",
-    "$kref"        : "#/ckan/spacedock/85",
-    "name"         : "KerboKatz - SmallUtilities - ModifiedExplosionPotential",
-    "license"      : "restricted",
-    "depends": [
-        { "name": "KerboKatzUtilities", "min_version": "1.2.6" }
-    ],
-    "install": [
-        {
-            "find"       : "ModifiedExplosionPotential",
-            "install_to" : "GameData/KerboKatz/SmallUtilities"
-        }
-    ]
+    "$kref": "#/ckan/netkan/https://raw.githubusercontent.com/KerboKatz/Netkan/master/KerboKatzSmallUtilities-ModifiedExplosionPotential.netkan",
+    "x_netkan_license_ok": true
 }

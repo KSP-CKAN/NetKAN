@@ -6,12 +6,8 @@
     "license": "MIT",
     "install": [
         {
-            "find": "GameData/LEAForKSP",
+            "find": "LEAForKSP",
             "install_to": "GameData"
-        },
-        {
-            "file": "LEAForKSP/LEAForKSPEMTags.xml",
-            "install_to": "GameRoot"
         }
     ]
 }

@@ -1,0 +1,16 @@
+{
+    "$kref": "#/ckan/spacedock/693",
+    "spec_version": "v1.4",
+    "identifier": "EPL-MKSLite-Patch",
+    "license": "CC0",
+    "depends": [
+        { "name": "ExtraPlanetaryLaunchpads" },
+        { "name": "USI-MKSLite" }
+    ],
+    "install": [
+        {
+            "find"       : "EL-Lite",
+            "install_to" : "GameData"
+        }
+    ]
+}

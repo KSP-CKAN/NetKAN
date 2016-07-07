@@ -1,30 +1,28 @@
 {
-    "identifier": "AdvancedJetEngine",
-    "license": "LGPL-2.1",
-    "$kref": "#/ckan/github/camlost2/AJE",
-    "$vref" : "#/ckan/ksp-avc",
     "spec_version": "v1.4",
-    "depends" : [
-        { "name" : "FerramAerospaceResearch" },
-        { "name" : "SolverEngines" },
-        { "name" : "ModuleManager" }
+    "identifier": "AdvancedJetEngine",    
+    "$kref": "#/ckan/github/KSP-RO/AJE",
+    "$vref": "#/ckan/ksp-avc",
+    "x_netkan_force_v": true,
+    "name": "Advanced Jet Engine",
+    "abstract": "Gives jets, propellers, and rotors realistic performance.",
+    "author": [ "blowfish", "NathanKell", "camlost" ],
+    "license": "LGPL-2.0",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/139868-/"
+    },
+    "depends": [
+        { "name": "FerramAerospaceResearch" },
+        { "name": "SolverEngines" },
+        { "name": "ModuleManager" }
     ],
-    "recommends" : [
-        { "name" : "RealFuels" }
+    "recommends": [
+        { "name": "RealFuels" }
     ],
-    "suggests" : [
-        { "name" : "HotRockets" }
+    "suggests": [
+        { "name": "HotRockets" }
     ],
     "install": [
         { "find": "GameData/AJE", "install_to": "GameData" }
-    ],
-    "x_netkan_force_v": true,
-    "comment": "The full path in the mod archive can change. I.e. it was AJE-2.0.3/GameData/AJE at some point. The CKAN needs to deal with this. Hence using 'find'",
-    "name": "Advanced Jet Engine",
-    "abstract": "Realism for turbojet, turbofans, air-breathing rockets, propellers, and rotors in KSP.",
-    "author": "camlost",
-    "resources": {
-        "homepage": "http://forum.kerbalspaceprogram.com/threads/70008"
-    },
-    "release_status" : "stable"
+    ]    
 }

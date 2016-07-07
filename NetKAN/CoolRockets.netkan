@@ -1,0 +1,20 @@
+{
+    "spec_version": 1,
+    "identifier": "CoolRockets",
+    "name": "CoolRockets",
+    "abstract": "Cryo and Launch Particle Effects",
+    "author": [ "sarbian", "dtobi" ],
+    "license": "public-domain",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/68196"
+    },
+    "release_status": "development",
+    "depends": [
+        { "name": "SmokeScreen", "min_version": "2.5.2" },
+        { "name": "ModuleManager" }
+    ],
+    "version": "0.08",
+    "ksp_version_min": "1.0.0",
+    "ksp_version_max": "1.0.4",
+    "download": "https://ksp.sarbian.com/jenkins/job/ColdRockets/4/artifact/CoolRockets.zip"
+}

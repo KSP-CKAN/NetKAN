@@ -1,13 +1,18 @@
 {
-    "spec_version" : 1,
-    "identifier"   : "DestructionEffects",
-    "$kref"        : "#/ckan/github/Wicloz/DestructionEffects-Semi-Continued",
-    "name"         : "Destruction Effects Semi-Continued",
-    "abstract"     : "This mod adds flames and smoke to certain parts' joint break event.",
-    "license"      : "CC0",
-    "ksp_version"  : "1.1.0",
+    "spec_version"      : 1,
+    "identifier"        : "DestructionEffects",
+    "$kref"             : "#/ckan/github/jrodrigv/DestructionEffects",
+    "name"              : "Destruction Effects",
+    "abstract"          : "This mod adds flames and smoke to certain parts' joint break event.",
+    "license"           : "CC0",
+    "ksp_version_min"   : "1.1.0",
+    "ksp_version_max"   : "1.1.99",
+    "x_netkan_epoch"    : 1,
+    "conflicts": [
+        { "name": "DestructionEffects-SemiContinued" }
+    ],
     "resources": {
-        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/99088-10xdestruction-effects-flames-and-smoke-on-joint-breaks",
-        "repository": "https://github.com/Wicloz/DestructionEffects-Semi-Continued"
+        "homepage"      : "http://forum.kerbalspaceprogram.com/index.php?/topic/99088-10xdestruction-effects-flames-and-smoke-on-joint-breaks",
+        "repository"    : "https://github.com/Wicloz/DestructionEffects"
     }
 }

@@ -1,0 +1,17 @@
+{
+    "spec_version" : 1,
+    "identifier"   : "PartAngleDisplay",
+    "$kref"        : "#/ckan/github/Gerry1135/PartAngleDisplay",
+    "name"         : "Part Angle Display",
+    "abstract"     : "This is a simple KSP plugin that allows you to surface attach parts at accurate angles.",
+    "license"      : "MIT",
+    "resources": {
+        "homepage"    : "http://forum.kerbalspaceprogram.com/index.php?/topic/73551-110-part-angle-display-including-seamless-highly-accurate-rotation-v0311",
+        "repository" : "https://github.com/Gerry1135/PartAngleDisplay"
+    },
+    "$vref" : "#/ckan/ksp-avc",
+    "supports" : [
+        { "name" : "Toolbar" }
+    ]
+}
+

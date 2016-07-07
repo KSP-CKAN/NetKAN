@@ -1,0 +1,9 @@
+{
+    "spec_version" : "v1.4",
+    "identifier"   : "LCFP",
+    "$kref"        : "#/ckan/spacedock/769",
+    "x_netkan_license_ok" : true,
+    "depends" : [
+        { "name" : "ModuleManager" }
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "HeatManagement",
+    "name": "Heat Management",
+    "abstract": "Heatsinks, Radiator Panels, and Active Heat Management Systems",
+    "author": "Randazzo",
+    "license": "CC-BY-NC-SA-4.0",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/118189",
+        "kerbalstuff": "https://kerbalstuff.com/mod/723/Heat%20Management",
+        "x_screenshot": "https://kerbalstuff.com/content/Randazzo_9223/Heat_Management/Heat_Management-1433314874.6989393.png"
+    },
+    "version": "0.26",
+    "ksp_version": "1.0.4",
+    "install": [
+        {
+            "find": "HeatManagement",
+            "install_to": "GameData",
+            "filter": "Deprecated"
+        }
+    ],
+    "download": "http://ckan1.spacedock.info/storage/Randazzo_9223/Heat_Management/Heat_Management-0.26.zip"
+}

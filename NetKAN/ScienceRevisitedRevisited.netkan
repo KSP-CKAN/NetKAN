@@ -8,9 +8,9 @@
         { "name": "ModuleManager" }
     ],
     "install": [
-        { 
+        {
             "file": "GameData/Science_Revisited",
-            "install_to": "GameData" 
+            "install_to": "GameData"
         }
     ]
 }

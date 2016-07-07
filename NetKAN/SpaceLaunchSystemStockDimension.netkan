@@ -1,0 +1,29 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "SpaceLaunchSystemStockDimension",
+    "$kref": "#/ckan/spacedock/706",
+    "license": "GPL-3.0",
+    "depends": [
+        { "name": "HangarExtender" },
+        { "name": "KerbalJointReinforcement" },
+        { "name": "RealChute" }
+    ],
+    "recommends": [
+        { "name": "TextureReplacer" },
+        { "name": "LaunchPad39B" },
+        { "name": "KerbalKonstructs" }
+    ],
+    "conflicts" : [
+        { "name": "SpaceLaunchSystemPartPack" }
+    ],
+    "install": [
+        {
+            "find"       : "SpaceLaunchSystem",
+            "install_to" : "GameData"
+        },
+        {
+            "file"       : "VAB",
+            "install_to" : "Ships"
+        }
+    ]
+}
