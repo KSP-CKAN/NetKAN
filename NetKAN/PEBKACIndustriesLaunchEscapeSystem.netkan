@@ -21,8 +21,8 @@
             "filter"     : "Source"
         },
         {
-            "find"       : "Saves/PEBKAC",
-            "install_to" : "Saves",
+            "find"       : "Saves/PEBKAC/Ships/VAB",
+            "install_to" : "Ships/VAB",
             "filter"     : "Source"
         }
     ]
