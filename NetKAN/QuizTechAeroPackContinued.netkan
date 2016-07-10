@@ -5,6 +5,11 @@
     "$vref"       : "#/ckan/ksp-avc",
     "license": "CC-BY-4.0",
     "name" : "QuizTech Aero Pack",
+    "conflicts" : [
+        { "name" : "QuizTechAeroPack-internals" },
+        { "name" : "QuizTechAeroPack" }
+    ],
+
     "depends" : [
         { "name": "ModuleManager" },
         { "name": "FirespitterCore" },
