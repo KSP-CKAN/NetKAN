@@ -8,7 +8,9 @@
      "resources" : {
         "repository"  : "https://github.com/linuxgurugamer/FTLDriveContinued"
     },
-
+    "conflicts" : [
+        { "name" : "FTLDrive" }
+    ],
     "install" : [ 
 	{ 
 		"find" : "FTLDriveContinued",

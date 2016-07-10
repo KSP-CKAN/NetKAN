@@ -9,7 +9,6 @@
         { "name" : "QuizTechAeroPack-internals" },
         { "name" : "QuizTechAeroPack" }
     ],
-
     "depends" : [
         { "name": "ModuleManager" },
         { "name": "FirespitterCore" },
