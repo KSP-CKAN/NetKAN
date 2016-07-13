@@ -3,7 +3,6 @@
 	"identifier": "KerbQuakeExtended",
 	"$kref": "#/ckan/github/N70/KerbQuakeExtended",
 	"$vref": "#/ckan/ksp-avc",
-	"x_netkan_license_ok": true,
 	"recommends": [{
 		"name": "KSP-AVC"
 	}],
@@ -13,7 +12,7 @@
 	}],
 	"name": "KerbQuake Extended",
 	"abstract": "Adds IVA shaking and reentry IVA sound effects!",
-	"license": "BSD-3 clause",
+	"license": "BSD-3-clause",
 	"resources": {
 		"homepage": "https://github.com/N70/KerbQuakeExtended"
 	},
