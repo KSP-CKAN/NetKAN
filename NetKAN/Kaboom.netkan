@@ -1,8 +1,11 @@
 {
-    "license": "Kaboom! is released under an open license, feel free to modify and re-release Kaboom! just be sure to link back to the original.",
     "$kref": "#/ckan/spacedock/833",
+    "identifier": "Kaboom2",
+    "license": "unrestricted",
     "spec_version": "v1.4",
-    "identifier": "Kaboom",
-    "x_netkan_license_ok": true,
-    "x_via": "Automated SpaceDock CKAN submission"
+    "install": [
+        { "file": "GameData/Kaboom", "install_to": "GameData" }
+    ],
+    "depends": [ { "name": "ModuleManager" } ]
 }
+
