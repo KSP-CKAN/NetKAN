@@ -10,5 +10,11 @@
 	"install": [{
 		"file": "KerbQuake",
 		"install_to": "GameData"
-	}]
+	}],
+	"name": "KerbQuake Extended",
+	"abstract": "Adds IVA shaking and reentry IVA sound effects!",
+	"license": "BSD-3 clause",
+	"resources": {
+		"homepage": "https://github.com/N70/KerbQuakeExtended"
+	}
 }
