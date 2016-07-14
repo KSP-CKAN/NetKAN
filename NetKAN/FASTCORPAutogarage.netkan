@@ -1,0 +1,13 @@
+{
+    "$kref": "#/ckan/spacedock/771",
+    "spec_version": "v1.4",
+    "identifier": "FASTCORPAutogarage",
+    "install": [
+        {
+            "find"      :   "Autogarage",
+            "install_to": "GameData"
+        }
+    ],
+
+    "license": "CC-BY-NC-ND"
+}
