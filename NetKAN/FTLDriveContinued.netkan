@@ -1,0 +1,20 @@
+{
+    "identifier": "FTLDriveContinued",
+    "abstract" : "Ever wished you where somewhere else instantly. With the Kerbin Science Foundry faster than light (FTL) drive you can! Just spin it up to create an instant reality dysfunction that might, just might transport you instantly to another point in space.",
+    "$kref": "#/ckan/spacedock/835",
+    "$vref" : "#/ckan/ksp-avc",
+    "spec_version": "v1.4",
+    "license": "CC-BY-NC-SA-3.0",
+     "resources" : {
+        "repository"  : "https://github.com/linuxgurugamer/FTLDriveContinued"
+    },
+    "conflicts" : [
+        { "name" : "FTLDrive" }
+    ],
+    "install" : [ 
+	{ 
+		"find" : "FTLDriveContinued",
+                    "install_to" : "GameData" 
+	}
+    ]
+}
