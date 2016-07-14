@@ -4,6 +4,7 @@
     "$kref": "#/ckan/spacedock/378",
     "license": "CC-BY-4.0",
     "depends" : [
+        { "name": "QuizTechAeroPack-internals" },
         { "name": "ModuleManager" },
         { "name": "FirespitterCore" },
         { "name": "BDAnimationModules" },
@@ -20,7 +21,14 @@
         { "name": "Mk2Essentials" }
     ],
     "install": [
-        { "find": "QuizTechAero", "install_to": "GameData" },
-        { "find": "Ships/SPH", "install_to": "Ships"}
+        {
+            "find"       : "QuizTechAero",
+            "install_to" : "GameData",
+            "filter"     : [ "Props", "Spaces" ]
+        },
+        {
+            "find"       : "Ships/SPH",
+            "install_to" : "Ships"
+        }
     ]
 }

@@ -1,11 +1,12 @@
 {
     "spec_version": 1,
     "identifier": "B9-PWings-Fork",
-    "name": "B9 Aerospace Procedural Parts - Fork",
+    "name": "B9 Aerospace Procedural Wings - Fork",
     "abstract": "Fork of Bac9's Procedural Wings mod for KSP",
     "author": [ "bac9", "Crzyrndm" ],
     "license": "CC-BY-NC-SA-4.0",
     "$kref": "#/ckan/github/Crzyrndm/B9-PWings-Fork",
+    "x_netkan_epoch": 1,
     "resources": {
         "homepage": "http://forum.kerbalspaceprogram.com/threads/104966"
     },
@@ -20,5 +21,6 @@
             "install_to": "GameData"
         }
     ],
-    "ksp_version" : "1.1.2"
+    "ksp_version_min" : "1.1.2",
+    "ksp_version_max" : "1.1.3"
 }

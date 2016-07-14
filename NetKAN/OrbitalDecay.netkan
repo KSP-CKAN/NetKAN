@@ -4,7 +4,7 @@
     "$kref": "#/ckan/spacedock/437",
     "spec_version": "v1.4",
     "resources": {
-        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/116818-104-orbital-decay" 
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/116818-104-orbital-decay"
     },
     "depends": [
         { "name": "ModuleManager"}

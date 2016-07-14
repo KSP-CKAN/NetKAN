@@ -1,0 +1,26 @@
+{
+    "spec_version"   : "v1.10",
+    "$kref"          : "#/ckan/spacedock/58",
+    "$vref"          : "#/ckan/ksp-avc",
+    "identifier"     : "StockVisualEnhancements",
+    "license"        : "CC-BY-NC-SA",
+    "release_status" : "stable",
+    "x_netkan_epoch" : "1",
+    "conflicts": [
+        { "name": "SVE-Textures" },
+        { "name" : "EnvironmentalVisualEnhancements" }
+    ],
+    "recommends": [
+        { "name": "Scatterer" }
+    ],
+    "install": [
+        {
+            "find_regexp"       : "Game[dD]ata/StockVisualEnhancements",
+            "install_to" : "GameData"
+        },
+        {
+            "find_regexp"       : "Game[dD]ata/EnvironmentalVisualEnhancements",
+            "install_to" : "GameData"
+        }
+    ]
+}

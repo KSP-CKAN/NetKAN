@@ -6,18 +6,17 @@
     "install" : [
         {
             "find"       : "GameData/WarpPlugin",
-            "install_to" : "GameData",
-            "filter"    : "MiniAVC.xml"
+            "install_to" : "GameData"
         }
     ],
     "depends" : [
-        { "name"         : "CommunityResourcePack", "min_version" : "0.5.1.1" },
+        { "name"         : "CommunityResourcePack", "min_version" : "0.5.4" },
         { "name"         : "Toolbar", "min_version" : "1.7.12" },
-        { "name"         : "InterstellarFuelSwitch", "min_version" : "1.29" },
-        { "name"         : "TweakScale", "min_version" : "2.2.9"},
-        { "name"         : "ModuleManager", "min_version" : "2.6.24" }
+        { "name"         : "InterstellarFuelSwitch", "min_version" : "2.1.0" },
+        { "name"         : "TweakScale", "min_version" : "2.2.13"},
+        { "name"         : "ModuleManager", "min_version" : "2.6.25" }
     ],
-   "recommends": [
+    "recommends": [
         { "name"         : "FilterExtensions", "min_version" : "2.5" }
     ]
 }

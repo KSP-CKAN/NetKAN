@@ -15,8 +15,7 @@
     "install": [
         {
             "file"       : "CactEyeOptics/GameData/CactEye",
-            "install_to" : "GameData",
-            "filter"     : "MiniAVC.dll"
+            "install_to" : "GameData"
         }
     ],
     "x_netkan_override" : [

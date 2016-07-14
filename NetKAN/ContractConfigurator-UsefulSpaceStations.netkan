@@ -21,8 +21,7 @@
     "install" : [
         {
             "find" : "UsefulSpaceStations",
-            "install_to" : "GameData/ContractPacks",
-            "filter" : "MiniAVC.xml"
+            "install_to" : "GameData/ContractPacks"
         }
     ],
     "resources" : {

@@ -1,5 +1,5 @@
 {
-    "spec_version"  : 1,
+    "spec_version"  : "v1.4",
     "identifier"    : "KWRocketry-CommunityFixes",
     "$kref"         : "#/ckan/spacedock/51",
     "$vref"         : "#/ckan/ksp-avc",
@@ -20,7 +20,7 @@
     ],
     "install": [
         {
-            "file": "Gamedata/KWCommunityFixes",
+            "find": "KWCommunityFixes",
             "install_to": "GameData",
             "filter": "KWPatch-interstage.cfg"
         }

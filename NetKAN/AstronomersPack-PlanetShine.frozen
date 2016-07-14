@@ -1,0 +1,34 @@
+{
+    "spec_version": 1,
+    "identifier": "AstronomersPack-PlanetShine",
+    "name": "Astronomer's Pack - PlanetShine configuration",
+    "abstract": "Astronomer's Pack PlanetShine configuration.",
+    "license": "restricted",
+    "ksp_version_min": "0.25",
+    "ksp_version_max": "1.0.4",
+    "resources": {
+        "homepage": "http://kerbal.curseforge.com/ksp-mods/220335"
+    },
+    "install": [
+        {
+            "file": "3rd Step - Core Mod (just clouds)/Core Mod/GameData/PlanetShine",
+            "install_to": "GameData"
+        }
+    ],
+    "provides": [
+        "PlanetShine-Config"
+    ],
+    "depends": [
+        {
+            "name": "PlanetShine"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "PlanetShine-Config"
+        }
+    ],
+    "author": "Astronomer",
+    "version": "Interstellar.V2",
+    "download": "http://kerbal.curseforge.com/ksp-mods/220335-astronomers-visual-pack-interstellar-v2/files/2221625/download"
+}

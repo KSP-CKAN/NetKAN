@@ -1,0 +1,22 @@
+{
+    "spec_version": 1,
+    "identifier": "VanguardAstrodynamicsVXSeries",
+    "name": "Vanguard Astrodynamics VX Series Stockalike Engine Pack",
+    "abstract": "Small parts pack to fill in some gaps and introduce some specialty engines",
+    "author": "Randazzo",
+    "license": "CC-BY-NC-SA-4.0",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/127803-1-0-4-Vanguard-Astrodynamics-VX-series-stockalike-engine-pack-(1-0)",
+        "kerbalstuff": "https://kerbalstuff.com/mod/973/Vanguard%20Astrodynamics%20VX%20Series%20Stockalike%20Engine%20Pack",
+        "x_screenshot": "https://kerbalstuff.com/content/Randazzo_9223/Vanguard_Astrodynamics_VX_Series_Stockalike_Engine_Pack/Vanguard_Astrodynamics_VX_Series_Stockalike_Engine_Pack-1436088954.0255756.png"
+    },
+    "version": "1.2.1",
+    "ksp_version": "1.0.5",
+    "install": [
+        {
+            "file": "GameData/VanguardAstrodynamics",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "http://ckan1.spacedock.info/storage/Randazzo_9223/Vanguard_Astrodynamics_VX_Series_Stockalike_Engine_Pack/Vanguard_Astrodynamics_VX_Series_Stockalike_Engine_Pack-1.2.1.zip"
+}

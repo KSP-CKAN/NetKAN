@@ -1,0 +1,25 @@
+{
+    "spec_version" : 1,
+    "identifier"   : "VerticalPropulsionEmporium",
+    "$kref"        : "#/ckan/kerbalstuff/275",
+
+    "license"      : "CC-BY-NC-SA-4.0",
+
+    "ksp_version"     : "0.90",
+
+    "suggests"   : [
+        { "name" : "CustomDesignSpacesuits-Steampunk" },
+        { "name" : "NebulaEVAHandrails" },
+        { "name" : "HooliganLabsAirships" },
+        { "name" : "MechJeb2" }
+    ],
+    "resources"    : {
+        "homepage" : "http://forum.kerbalspaceprogram.com/threads/74625"
+    },
+    "install" : [
+        {
+            "file"      : "Kerb-fu",
+            "install_to": "GameData"
+        }
+    ]
+}

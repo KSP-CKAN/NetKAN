@@ -1,0 +1,12 @@
+{
+    "identifier": "RedOktober",
+    "$kref": "#/ckan/spacedock/753",
+    "spec_version": 1,
+    "license": "MIT",
+    "install": [
+        {
+            "file":"Red October",
+            "install_to": "GameData"
+        }
+    ]
+}

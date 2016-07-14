@@ -1,0 +1,19 @@
+{
+    "license": "GPL-3.0",
+    "identifier": "BiomaticForAll",
+    "name": "Biomatic For All Command Modules",
+    "abstract": "A config that adds Biomatic to all command modules.",
+    "$kref": "#/ckan/spacedock/634",
+    "spec_version": "v1.16",
+    "depends": [
+        { "name": "Biomatic" },
+        { "name": "ModuleManager" }
+    ],
+    "install": [
+        {
+            "find"       : "BiomaticConfig.cfg",
+            "install_to" : "GameData/Biomatic",
+            "find_matches_files": true
+        }
+    ]
+}

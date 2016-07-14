@@ -1,19 +1,28 @@
 {
-    "spec_version" : 1,
+    "spec_version" : "v1.16",
     "identifier"   : "MagiCore",
     "$kref"        : "#/ckan/github/magico13/MagiCore",
+    "$vref"        : "#/ckan/ksp-avc",
     "name"         : "MagiCore",
     "abstract"     : "A common set of utilities for magico13's mods",
     "license"      : "MIT",
-    "ksp_version"  : "1.1.1",
     "resources": {
         "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/97033-10x"
     },
-
     "install": [
         {
-            "file"       : "GameData",
-            "install_to" : "GameData"
+            "find": "MagiCore",
+            "install_to": "GameData"
         }
-    ]
+    ],
+    "x_netkan_override" : [
+        {
+            "version" : "1.1.1",
+            "delete" : [ "ksp_version" ],
+            "override" : {
+                "ksp_version_min" : "1.1.2",
+                "ksp_version_max" : "1.1.3"
+            }
+        }
+   ]
 }

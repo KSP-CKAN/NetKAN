@@ -4,7 +4,7 @@
     "name"           : "Stock Extension",
     "abstract"       : "Low RAM Stock-a-like expansion using squad models for reference.",
     "$kref"          : "#/ckan/github/Signatum/SXT",
-    "ksp_version"    : "1.1.0",
+    "ksp_version"    : "1.1",
     "license"        : "CC-BY-NC-SA-4.0",
     "author"         : "Lack",
     "depends": [

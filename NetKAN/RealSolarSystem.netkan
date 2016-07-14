@@ -16,9 +16,11 @@
         { "name": "Kopernicus", "min_version": "1:beta-05-2" },
         { "name": "RSSTextures" }
     ],
+    "provides": [ "CustomAsteroids-Pops" ],
     "recommends": [
         { "name": "RealismOverhaul" },
-        { "name": "KSCSwitcher" }
+        { "name": "KSCSwitcher" },
+        { "name": "RSSDateTimeFormatter" }
     ],
     "install": [
         {

@@ -1,0 +1,23 @@
+{
+    "spec_version"  	: "v1.4",
+    "name"          	: "Toolbar",
+    "author"        	: "blizzy78",
+    "identifier"    	: "Toolbar",
+    "abstract"      	: "API for third-party plugins to provide toolbar buttons",
+    "license"       	: "BSD-2-clause",
+    "release_status"	: "stable",
+    "resources" : {
+        "homepage"	: "http://forum.kerbalspaceprogram.com/threads/60863",
+        "repository"	: "https://github.com/blizzy78/ksp_toolbar"
+    },
+    "install" : [
+        {
+            "find"       : "GameData/000_Toolbar",
+            "install_to" : "GameData"
+        }
+    ],
+    "version"       	: "1.7.12",
+	"ksp_version_min"	: "1.1.2",
+    "ksp_version_max"  	: "1.1.3",
+    "download"      	: "https://www.blizzy.de/toolbar/Toolbar-1.7.12.zip"
+}

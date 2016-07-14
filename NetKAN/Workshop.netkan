@@ -1,0 +1,45 @@
+{
+    "spec_version": 1,
+    "identifier": "Workshop",
+    "name": "OSE Workshop",
+    "abstract": "In flight part construction",
+    "$kref": "#/ckan/github/obivandamme/Workshop",
+    "$vref": "#/ckan/ksp-avc",
+    "author": "obivandamme",
+    "license": "CC-BY-NC-SA",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/97537-11-ose-workshop-kis-addon-v0130-20160426/"
+    },
+    "x_netkan_override": [
+        {
+            "version": "<0.9.0",
+            "override": {
+                "depends": [
+                    { "name": "ModuleManager" },
+                    { "name": "KIS" },
+                    { "name": "UKS" }
+                ]
+            }
+        },
+        {
+            "version": ">=0.9.0",
+            "override": {
+                "depends": [
+                    { "name": "ModuleManager" },
+                    { "name": "KIS" }
+                ]
+            }
+        },
+    {
+            "version": ">=0.11.0",
+            "override": {
+                "depends": [
+                    { "name": "ModuleManager" },
+                    { "name": "CommunityResourcePack", "min_version": "0.4.7" },
+                    { "name": "FirespitterCore" },
+                    { "name": "KIS" }
+                ]
+            }
+        }
+    ]
+}

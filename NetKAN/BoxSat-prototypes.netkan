@@ -1,0 +1,28 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "BoxSat-prototypes",
+    "name": "BoxSat prototype parts",
+    "release_status": "development",
+    "license": "restricted",
+    "abstract": "A modular, stackable, serviceable, & customizable satellite in a box!",
+    "author": [ "DasPenguin85", "orcmaul" ],
+    "resources": {
+        "x_curse": "http://kerbal.curseforge.com/ksp-mods/224250-boxsat",
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/91616"
+    },
+    "version": "A.02f",
+    "ksp_version_min": "1.0.4",
+    "ksp_version_max": "1.0.5",
+    "download": "http://addons-origin.cursecdn.com/files/2257/195/BoxSat%20vA.02f.zip",
+    "depends" : [
+        { "name": "ModuleManager" },
+        { "name": "BoxSat" }
+    ],
+    "install": [
+        {
+            "find": "BoxSatPrototypes",
+            "install_to": "GameData",
+            "filter_regexp": "\\.ddsified$"
+        }
+    ]
+}

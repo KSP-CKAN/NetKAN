@@ -1,15 +1,16 @@
 {
     "$kref": "#/ckan/spacedock/357",
+    "$vref": "#/ckan/ksp-avc",
     "identifier": "EnduranceSpaceExplorationSystem",
     "license": "CC-BY-NC-4.0",
     "spec_version": "v1.4",
-    "depends": [
-        { "name": "HabitatPlugin" }
-    ],
     "recommends": [
         { "name": "KIS" },
         { "name": "KAS" },
-        { "name": "RasterPropMonitor" }
+        { "name": "RasterPropMonitor" },
+        { "name": "JSIAdvancedTransparentPods" },
+        { "name": "ThrottleControlledAvionics" },
+        { "name": "ModuleManager" }
     ],
     "suggests": [
         { "name": "TACLS" },
@@ -19,7 +20,7 @@
         {
             "find": "Endurance",
             "install_to": "GameData",
-            "filter": [".DS_Store", "MiniAVC.xml" ]
+            "filter": [".DS_Store" ]
         }
     ]
 }

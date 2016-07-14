@@ -1,9 +1,0 @@
-{
-    "spec_version": "v1.4",
-    "identifier": "ResearchBodies",
-    "license": "CC-BY-NC-SA-4.0",
-    "$kref": "#/ckan/kerbalstuff/1203",
-    "depends": [
-        { "name": "ModuleManager" }
-    ]
-}

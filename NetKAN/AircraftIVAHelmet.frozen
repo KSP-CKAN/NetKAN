@@ -1,0 +1,22 @@
+{
+    "spec_version": 1,
+    "identifier": "AircraftIVAHelmet",
+    "name": "Aircraft IVA Helmet",
+    "abstract": "The Helmet needed for IVA on the PLanes",
+    "author": "LuizChacon",
+    "license": "WTFPL",
+    "resources": {
+        "homepage": "http://kscsm.freeforums.net/",
+        "kerbalstuff": "https://kerbalstuff.com/mod/872/Aircraft%20IVA%20Helmet",
+        "x_screenshot": "https://kerbalstuff.com/content/LuizChacon_128/Aircraft_IVA_Helmet/Aircraft_IVA_Helmet-1433178221.4523973.jpg"
+    },
+    "version": "1.0",
+    "ksp_version": "0.90.0",
+    "install": [
+        {
+            "file": "Cockpit",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://kerbalstuff.com/mod/872/Aircraft%20IVA%20Helmet/download/1.0"
+}

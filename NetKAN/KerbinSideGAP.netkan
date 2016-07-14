@@ -1,5 +1,5 @@
 {
-    "spec_version": "v1.4",
+    "spec_version": "v1.10",
     "identifier": "KerbinSideGAP",
     "$kref": "#/ckan/github/Keniamin/KerbinSideGAP",
     "name": "Kerbin Side GAP",
@@ -7,8 +7,9 @@
     "license": "CC-BY-NC-4.0",
 
     "depends": [
-        {"name": "ContractConfigurator", "min_version": "1.9.6"},
-        {"name": "KerbinSide"}
+        {"name": "KerbinSide-virt"},
+        {"name": "ContractConfigurator", "min_version": "1.12.1"},
+        {"name": "ContractConfigurator-KerbinSideJobs", "min_version": "2.0"}
     ],
     "recommends": [
         {"name": "NavUtilities"},

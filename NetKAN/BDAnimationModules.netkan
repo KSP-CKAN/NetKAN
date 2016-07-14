@@ -1,18 +1,19 @@
 {
-    "spec_version" : 1,
+    "spec_version" : "v1.4",
     "identifier"   : "BDAnimationModules",
-    "$kref"        : "#/ckan/github/BahamutoD/BDAnimationModules",
+    "$kref"        : "#/ckan/github/KSP-RO/USProbesPack",
     "name"         : "BahamutoD Animation Modules",
     "abstract"     : "Animation modules plugin for KSP",
+    "comment"      : "Original mod is not updated in over a year, author has likely abandoned it, this is an update to make it work in 1.1.+, license is CC-BY-SA",
     "license"      : "CC-BY-SA-3.0",
-    "ksp_version_min"  : "1.0.0",
-    "ksp_version_max"  : "1.0.2",
+    "ksp_version_min"  : "1.1.0",
+    "ksp_version_max"  : "1.1.3",
     "resources": {
         "homepage": "https://github.com/BahamutoD/BDAnimationModules"
     },
     "install": [
         {
-            "file": "GameData/BahaSP",
+            "find": "BahaSP",
             "install_to": "GameData"
         }
     ]

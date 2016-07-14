@@ -1,0 +1,17 @@
+{
+    "identifier": "SAVE",
+    "spec_version": "v1.4",
+    "$kref": "#/ckan/spacedock/674",
+    "$vref": "#/ckan/ksp-avc",
+    "license": "LGPL-3.0",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/94997-/"
+    },
+    "install": [
+        {
+            "file": "GameData/Nereid",
+            "install_to": "GameData",
+            "filter": "source"
+        }
+    ]
+}
