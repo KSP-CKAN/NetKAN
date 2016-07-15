@@ -5,7 +5,8 @@
     "$vref"        : "#/ckan/ksp-avc",
 	"name"         : "Time Control",
     "abstract"     : "Slow Motion, Hyper Warp, and Rails Warp Controls",
-    "license"      : "MIT",    
+    "license"      : "MIT",
+    "x_netkan_epoch": 1,
     "resources": {
         "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/143763-113-time-control-202/"
     }
