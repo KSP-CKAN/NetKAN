@@ -16,10 +16,10 @@
         { "name": "Scatterer" }
     ],
     "depends": [
-        { "name": "Scatterer-sunflare" },
-        { "name": "DistantObject" },
-        { "name": "PlanetShine" },
-        { "name": "TextureReplacer" }
+        { "name": "Scatterer-sunflare" }
+    ],
+    "recommends": [
+        { "name": "SVE-Terrain" }
     ],
     "install": [
         {

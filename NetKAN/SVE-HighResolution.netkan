@@ -1,7 +1,6 @@
 {
-    "spec_version"   : "v1.10",
+    "spec_version"   : "v1.4",
     "$kref"          : "#/ckan/spacedock/58",
-    "$vref"          : "#/ckan/ksp-avc",
     "identifier"     : "SVE-HighResolution",
     "license"        : "CC-BY-NC-SA",
     "release_status" : "stable",
@@ -16,10 +15,10 @@
         { "name": "Scatterer" }
     ],
     "depends": [
-        { "name": "Scatterer-sunflare" },
-        { "name": "DistantObject" },
-        { "name": "PlanetShine" },
-        { "name": "TextureReplacer" }
+        { "name": "Scatterer-sunflare" }
+    ],
+    "recommends": [
+        { "name": "SVE-Terrain" }
     ],
     "install": [
         {
