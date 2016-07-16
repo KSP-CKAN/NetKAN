@@ -3,7 +3,8 @@
     "identifier": "QuickCursorHider",
     "license": "GPL-3.0",
     "$kref": "#/ckan/spacedock/783",
- "install": [
+    "$vref"           : "#/ckan/ksp-avc",
+    "install": [
         {
             "find": "QuickCursorHider",
             "install_to": "GameData"
