@@ -2,15 +2,15 @@
     "$kref": "#/ckan/spacedock/771",
     "spec_version": "v1.4",
     "identifier": "FASTCORPAutogarage",
-     "abstract": "You MUST read the first forum page for proper instructions:\n
-\n
-WHEEL_CLIP_OFFSET = \n
-WHEEL_CLIP_RANGE = \n
-WHEEL_CLIP_MULTIPLIER = \n
-and change every value to 0, like so:\n
-\n
-WHEEL_CLIP_OFFSET = 0\n
-WHEEL_CLIP_RANGE = 0\n
+     "abstract": "You MUST read the first forum page for proper instructions:
+
+WHEEL_CLIP_OFFSET = 
+WHEEL_CLIP_RANGE = 
+WHEEL_CLIP_MULTIPLIER = 
+and change every value to 0, like so:
+
+WHEEL_CLIP_OFFSET = 0
+WHEEL_CLIP_RANGE = 0
 WHEEL_CLIP_MULTIPLIER = 0",
     "depends": [
         { "name": "RasterPropMonitor-Core" },
