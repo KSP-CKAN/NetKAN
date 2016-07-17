@@ -1,0 +1,13 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "QuickFineControl",
+    "license": "GPL-3.0",
+    "$kref": "#/ckan/spacedock/784",
+ "install": [
+        {
+            "find": "QuickFineControl",
+            "install_to": "GameData"
+        }
+    ]
+
+}
