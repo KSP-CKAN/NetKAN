@@ -2,6 +2,9 @@
     "$kref": "#/ckan/spacedock/771",
     "spec_version": "v1.4",
     "identifier": "FASTCORPAutogarage",
+    "depends": [
+        { "name": "RasterPropMonitor-Core" }
+    ],
     "install": [
         {
             "find"      :   "Autogarage",
