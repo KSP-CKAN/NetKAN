@@ -1,0 +1,18 @@
+{
+    "$kref": "#/ckan/spacedock/771",
+    "spec_version": "v1.4",
+    "identifier": "FASTCORPAutogarage",
+     "abstract": "You MUST read the first forum page for proper instructions:\n\nWHEEL_CLIP_OFFSET = \nWHEEL_CLIP_RANGE = \nWHEEL_CLIP_MULTIPLIER = \nand change every value to 0, like so:\nWHEEL_CLIP_OFFSET = 0\nWHEEL_CLIP_RANGE = 0\nWHEEL_CLIP_MULTIPLIER = 0",
+    "depends": [
+        { "name": "RasterPropMonitor-Core" },
+        { "name": "FirespitterCore" }
+    ],
+    "install": [
+        {
+            "find"      :   "Autogarage",
+            "install_to": "GameData"
+        }
+    ],
+
+    "license": "CC-BY-NC-ND"
+}
