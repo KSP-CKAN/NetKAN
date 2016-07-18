@@ -11,10 +11,7 @@
         { "name": "Scatterer" },
         { "name": "EnvironmentalVisualEnhancements" }
     ],
-    "provides": [
-        { "name": "StockVisualEnhancements" },
-        { "name": "Scatterer" }
-    ],
+    "provides": [ "StockVisualEnhancements","Scatterer" ],
     "depends": [
         { "name": "Scatterer-sunflare" }
     ],

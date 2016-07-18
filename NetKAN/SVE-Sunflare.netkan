@@ -8,9 +8,7 @@
     "license"        : "CC-BY-NC-SA",
     "release_status" : "stable",
     "x_netkan_epoch" : "1",
-    "provides": [
-        { "name": "Scatterer-sunflare" }
-    ],
+    "provides": [ "Scatterer-sunflare" ],
     "conflicts": [
         { "name": "Scatterer-sunflare" }
     ],
