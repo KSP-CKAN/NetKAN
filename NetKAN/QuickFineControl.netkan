@@ -3,7 +3,8 @@
     "identifier": "QuickFineControl",
     "license": "GPL-3.0",
     "$kref": "#/ckan/spacedock/784",
- "install": [
+    "$vref": "#/ckan/ksp-avc",
+    "install": [
         {
             "find": "QuickFineControl",
             "install_to": "GameData"
