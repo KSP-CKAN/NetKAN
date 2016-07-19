@@ -1,0 +1,36 @@
+{
+    "spec_version"   : "v1.4",
+    "$kref"          : "#/ckan/spacedock/827",
+    "$vref"          : "#/ckan/ksp-avc",
+    "identifier"     : "SVE-LowResolution",
+    "license"        : "CC-BY-NC-SA",
+    "release_status" : "stable",
+    "x_netkan_epoch" : "1",
+    "conflicts": [
+        { "name": "StockVisualEnhancements" },
+        { "name": "Scatterer" },
+        { "name": "EnvironmentalVisualEnhancements" }
+    ],
+    "provides": [ "StockVisualEnhancements","Scatterer" ],
+    "depends": [
+        { "name": "Scatterer-sunflare" }
+    ],
+    "recommends": [
+        { "name": "SVE-Terrain" }
+    ],
+    "install": [
+        {
+            "find"       : "GameData/StockVisualEnhancements",
+            "install_to" : "GameData"
+        },
+        {
+            "find"       : "GameData/scatterer",
+            "install_to" : "GameData",
+            "filter"     : "sunflare"
+        },
+        {
+            "find"       : "GameData/EnvironmentalVisualEnhancements",
+            "install_to" : "GameData"
+        }
+    ]
+}
