@@ -10,6 +10,10 @@
         "bugtracker"   : "https://github.com/qfeys/ThrottleControlledAvionics/issues",
         "repository"   : "https://github.com/qfeys/ThrottleControlledAvionics"
     },
+    "depends": [
+        { "name": "ModuleManager" },
+        { "name": "AT-Utils" }
+    ],    
     "suggests":
     [
         { "name" : "KSP-AVC" },
