@@ -8,8 +8,11 @@
         { "file": "GameData/MarkIVSystem", "install_to": "GameData" }
     ],
     "depends": [
-        { "name" : "BDAnimationModules" },
-        { "name" : "InterstellarFuelSwitch-Core" },
+        { "name" : "B9PartSwitch" },
+        { "name" : "CommunityResourcePack" },
+        { "name" : "DeployableEngines" },
+        { "name" : "FirespitterCore" },
+        { "name" : "ModuleManager" },
         { "name" : "NearFutureProps" }
     ],
     "suggests": [
