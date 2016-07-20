@@ -3,5 +3,14 @@
     "$kref": "#/ckan/spacedock/849",
     "spec_version": "v1.4",
     "identifier": "JDBallisback",
-    "x_via": "Automated SpaceDock CKAN submission"
+    "recommends: [
+        {"name": "KAS"},
+        {"name": "KIS"}
+    ],
+    "install": [
+        {
+           "file": "JatwaaDemolitionsCo",
+           "install_to": "GameData"
+        }
+    ] 
 }
