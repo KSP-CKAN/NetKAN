@@ -4,8 +4,8 @@
     "spec_version": "v1.4",
     "identifier": "JDBallisback",
     "recommends: [
-        {"name": "KAS"},
-        {"name": "KIS"}
+        { "name": "KAS" },
+        { "name": "KIS" }
     ],
     "install": [
         {
