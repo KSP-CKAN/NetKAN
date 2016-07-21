@@ -2,6 +2,7 @@
 	"identifier": "Year2200",
 	"$kref": "#/ckan/spacedock/722",
 	"release_status": "testing",
+	"x_netkan_license_ok": true,
 	"depends": [
 		{
 			"name": "CommunityResourcePack"
