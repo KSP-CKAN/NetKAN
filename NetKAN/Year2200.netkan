@@ -19,6 +19,9 @@
 	],
 	"recommends": [
 		{
+			"name": "RealSolarSystem"
+		},
+		{
 			"name": "ThermalMonitor"
 		}
 	],
