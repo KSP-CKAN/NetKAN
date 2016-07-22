@@ -1,0 +1,12 @@
+{
+	"spec_version": "v1.4",
+	"identifier": "CorrectCoL",
+	"license": "MIT",
+	"$kref": "#/ckan/spacedock/789",
+	"install": [
+        {
+		"find": "CorrectCol",
+		"install_to": "GameData"
+	}
+	]
+}
