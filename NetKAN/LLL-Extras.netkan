@@ -1,7 +1,7 @@
 {
-    "spec_version": "v1.2",
+    "spec_version": "v1.4",
     "license": "CC-BY-NC-SA-4.0",
-    "$kref": "#/ckan/kerbalstuff/954",
+    "$kref": "#/ckan/spacedock/856",
     "identifier": "LLL-Extras",
     "name": "LLL Extra Parts",
     "depends": [
@@ -9,7 +9,7 @@
     ],
     "install": [
         {
-            "file"       : "GameData/LLL-Extra/Parts",
+            "find"       : "GameData/LLL-Extra/Parts",
             "install_to" : "GameData/LLL-Extra"
         }
     ]
