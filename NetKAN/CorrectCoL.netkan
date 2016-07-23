@@ -3,6 +3,9 @@
 	"identifier": "CorrectCoL",
 	"license": "MIT",
 	"$kref": "#/ckan/spacedock/789",
+	"conflicts": [
+	    { "name": "FerramAerospaceResearch" }
+	],
 	"install": [
         {
 		"find": "CorrectCoL",
