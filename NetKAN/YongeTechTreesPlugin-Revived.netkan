@@ -12,6 +12,9 @@
         "repository" : "https://github.com/yongedevil/YTK_TechTrees"
     },
     "provides": [ "YongeTechTreesPlugin" ],
+    "conflicts": [
+        { "name": "YongeTechTreesPlugin" }
+    ],
     "install": [
         {
             "find"       : "GameData/YongeTech_TechTreesPlugin",
