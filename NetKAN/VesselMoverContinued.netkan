@@ -1,0 +1,15 @@
+{
+    "spec_version": 1,
+    "identifier": "VesselMoverContinued",
+    "name": "VesselMover Continued",
+    "$kref": "#/ckan/spacedock/860",
+    "suggests": [
+        { "name": "KSP-AVC" }
+    ],
+    "install": [
+        {
+            "file": "GameData/VesselMover",
+            "install_to": "GameData"
+        }
+    ]
+}
