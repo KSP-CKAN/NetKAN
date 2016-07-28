@@ -7,6 +7,9 @@
     "suggests": [
         { "name": "KSP-AVC" }
     ],
+    "conflicts": [
+        { "name": "VesselMover" }
+    ],
     "install": [
         {
             "file": "GameData/VesselMover",
