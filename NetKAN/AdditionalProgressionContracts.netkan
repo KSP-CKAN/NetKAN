@@ -1,7 +1,7 @@
 {
   "license": "CC-BY-NC-SA-4.0",
   "identifier": "AdditionalProgressionContracts",
-  "x_via": "Automated SpaceDock CKAN submission",
+  "x_via": "Automated Linuxgurugamer CKAN script",
   "$kref": "#/ckan/spacedock/857",
   "depends": [
     {
@@ -10,8 +10,8 @@
   ],
   "install": [
     {
-      "find": "ContractPacks",
-      "install_to": "GameData"
+      "find": "additionalprogressioncontracts",
+      "install_to": "GameData/ContractPacks"
     }
   ],
   "spec_version": "v1.4"
