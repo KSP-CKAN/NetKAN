@@ -1,0 +1,13 @@
+{
+  "license": "MIT",
+  "identifier": "KerbalCitiesPack",
+  "x_via": "Automated Linuxgurugamer CKAN script",
+  "$kref": "#/ckan/spacedock/839",
+  "install": [
+    {
+      "find": "citypack",
+      "install_to": "GameData"
+    }
+  ],
+  "spec_version": "v1.4"
+}
