@@ -5,7 +5,7 @@
   "$kref": "#/ckan/spacedock/842",
   "depends": [
     {
-      "name": "ContractConfigurator"
+      "name": "ModuleManager"
     }
   ],
   "install": [
