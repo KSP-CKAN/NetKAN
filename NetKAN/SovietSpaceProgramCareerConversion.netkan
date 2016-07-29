@@ -1,0 +1,21 @@
+{
+  "license": "CC-BY-NC-SA-4.0",
+  "identifier": "SovietSpaceProgramCareerConversion",
+  "x_via": "Automated SpaceDock CKAN submission",
+  "$kref": "#/ckan/spacedock/858",
+  "install": [
+    {
+      "find": "Subassemblies",
+      "install_to": "GameData"
+    },
+    {
+      "find": "Ships",
+      "install_to": "GameData"
+    },
+    {
+      "find": "SovietConversion",
+      "install_to": "GameData"
+    }
+  ],
+  "spec_version": "v1.4"
+}
