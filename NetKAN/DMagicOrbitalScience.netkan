@@ -15,6 +15,9 @@
     "recommends": [
         { "name": "ContractsWindowPlus" }
     ],
+    "conflicts": [
+        { "name": "ForScience" }
+    ],
     "suggests": [
         { "name": "CapCom" },
         { "name": "ContractRewardModifier" },
