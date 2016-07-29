@@ -1,18 +1,18 @@
 {
   "license": "CC-BY-NC-SA",
   "identifier": "HalfSizeRSS",
-  "x_via": "Automated SpaceDock CKAN submission",
-  "$kref": "#/ckan/spacedock/",
+  "x_via": "Automated Linuxgurugamer CKAN script",
+  "$kref": "#/ckan/spacedock/787",
   "$vref": "#/ckan/ksp-avc",
   "depends": [
-    {
-      "name": "Kopernicus"
-    },
     {
       "name": "ModularFlightIntegrator"
     },
     {
       "name": "ModuleManager"
+    },
+    {
+      "name": "Kopernicus"
     }
   ],
   "install": [
