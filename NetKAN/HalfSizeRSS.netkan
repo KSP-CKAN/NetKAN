@@ -1,0 +1,29 @@
+{
+  "license": "CC-BY-NC-SA",
+  "identifier": "HalfSizeRSS",
+  "x_via": "Automated SpaceDock CKAN submission",
+  "$kref": "#/ckan/spacedock/",
+  "$vref": "#/ckan/ksp-avc",
+  "depends": [
+    {
+      "name": "Kopernicus"
+    },
+    {
+      "name": "ModularFlightIntegrator"
+    },
+    {
+      "name": "ModuleManager"
+    }
+  ],
+  "install": [
+    {
+      "find": "HalfRSS",
+      "install_to": "GameData"
+    },
+    {
+      "find": "HalfRSS",
+      "install_to": "GameData"
+    }
+  ],
+  "spec_version": "v1.4"
+}
