@@ -1,0 +1,19 @@
+{
+  "license": "CC-BY-NC-SA",
+  "identifier": "Pledna",
+  "x_via": "Automated SpaceDock CKAN submission",
+  "$kref": "#/ckan/spacedock/862",
+  "$vref": "#/ckan/ksp-avc",
+  "depends": [
+    {
+      "name": "Kopernicus"
+    }
+  ],
+  "install": [
+    {
+      "find": "Pledna",
+      "install_to": "GameData"
+    }
+  ],
+  "spec_version": "v1.4"
+}
