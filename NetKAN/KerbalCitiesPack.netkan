@@ -3,9 +3,12 @@
   "identifier": "KerbalCitiesPack",
   "x_via": "Automated Linuxgurugamer CKAN script",
   "$kref": "#/ckan/spacedock/839",
+  "depends": [
+        { "name": "KerbalKonstructs" }
+   ],
   "install": [
     {
-      "find": "citypack",
+      "file": "citypack",
       "install_to": "GameData"
     }
   ],
