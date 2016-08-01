@@ -9,7 +9,7 @@
   },
   "install": [
     {
-      "find": "GameData",
+      "find": "BDArmory",
       "install_to": "GameData"
     }
   ],
