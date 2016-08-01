@@ -3,6 +3,9 @@
   "identifier": "KerbalCitiesPack",
   "x_via": "Automated Linuxgurugamer CKAN script",
   "$kref": "#/ckan/spacedock/839",
+  "resources": {
+     "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/144012-kerbal-cities-pack"
+  },
   "depends": [
         { "name": "KerbalKonstructs" }
    ],
