@@ -25,5 +25,9 @@
     {
       "name": "HalfRSS-Textures"
     }
-  ]
+  ],
+  {
+        "file"       : "GameData/RSS-Textures",
+        "install_to" : "GameData"
+  }
 }
