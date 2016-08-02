@@ -1,5 +1,5 @@
 {
-  "spec_version": 1,
+  "spec_version":  "v1.4",
   "identifier": "HalfRSS-Textures8192",
   "$kref": "#/ckan/github/pap1723/HalfRSS-Textures/asset_match/HalfRSS-8192",
   "name": "Half Size Real Solar System Textures - 8192 x 4096",
@@ -26,8 +26,10 @@
       "name": "HalfRSS-Textures"
     }
   ],
+  "install": [
   {
         "file"       : "GameData/RSS-Textures",
         "install_to" : "GameData"
   }
+  ]
 }
