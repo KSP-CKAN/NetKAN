@@ -5,7 +5,6 @@
     "identifier": "KerbalGalaxyRevamped",
     "name": "Kerbal Galaxy Revamped",
     "depends": [
-        { "name": "ModuleManager" },
         { "name": "Kopernicus" }
     ],
     "install": [
