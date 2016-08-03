@@ -4,13 +4,9 @@
   "x_via": "Automated SpaceDock CKAN submission",
   "$kref": "#/ckan/spacedock/858",
    "conflicts" : [ { "name" : "RemoteTech" } ],
-  "install": [
+   "install" : [
     {
-      "find": "Subassemblies",
-      "install_to": "GameData"
-    },
-    {
-      "find": "Ships",
+      "file": "Ships",
       "install_to": "GameData"
     },
     {
