@@ -3,6 +3,7 @@
   "identifier": "SovietSpaceProgramCareerConversion",
   "x_via": "Automated SpaceDock CKAN submission",
   "$kref": "#/ckan/spacedock/858",
+   "conflicts" : [ { "name" : "RemoteTech" } ],
   "install": [
     {
       "find": "Subassemblies",
