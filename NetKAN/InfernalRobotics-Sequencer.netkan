@@ -2,6 +2,9 @@
     "identifier": "InfernalRobotics-Sequencer",
     "license": "GPL-3.0",
     "$kref": "#/ckan/github/MagicSmokeIndustries/IR-Sequencer",
+    "name": "Sequencer for Infernal Robotics",
+    "author": "ZiwKerman",
+    "abstract": "This add-on serves as an example on how to use Infernal Robotics's API. With this mod you can create and play sequences of servo movement commands and special commands, like GoTo, Toggle ActionGroup, Delay and Wait."
     "$vref": "#/ckan/ksp-avc",
     "spec_version": "v1.4",
     "depends" : [
