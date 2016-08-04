@@ -3,6 +3,9 @@
     "spec_version": 1,
     "identifier": "BDRailgun",
     "license": "restricted",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/134499-bd-railgun/"
+    },
     "depends": [
         { "name": "BDArmory" }
     ],
