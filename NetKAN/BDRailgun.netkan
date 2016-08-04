@@ -1,0 +1,15 @@
+{
+    "$kref": "#/ckan/spacedock/427",
+    "spec_version": 1,
+    "identifier": "BDRailgun",
+    "license": "restricted",
+    "depends": [
+        { "name": "BDArmory" }
+    ],
+    "install": [
+        {
+            "file":"GameData/BD Railgun",
+            "install_to": "GameData"
+        }
+    ]
+}
