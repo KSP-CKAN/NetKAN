@@ -25,7 +25,9 @@
         { "name"    : "RN-SalyutStations-SoyuzFerries" }
     ],
     "depends"       : [
+		{ "name"	  : "AnimatedDecouplers" },
         { "name"      : "FirespitterCore"  },
+		{ "name" 	  : "ModuleManager" },
         { "name"      : "TextureReplacer" }
     ],
     "recommends"    : [

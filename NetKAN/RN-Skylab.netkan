@@ -22,8 +22,7 @@
     ],
     "depends"       :
     [
-      {
-        "name"      : "FirespitterCore"
-      }
+      { "name"      : "FirespitterCore" },
+	  { "name" 	  : "ModuleManager" }
     ]
 }
