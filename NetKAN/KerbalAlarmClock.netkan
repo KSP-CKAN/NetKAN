@@ -19,9 +19,18 @@
         { "name" : "TriggerAu-Flags" }
     ],
     "install" : [
-            {
-                "find"       : "KerbalAlarmClock",
-                "install_to" : "GameData/TriggerTech"
+        {
+            "find"       : "KerbalAlarmClock",
+            "install_to" : "GameData/TriggerTech"
+        }
+    ],
+    "x_netkan_override": [
+        {
+            "version": [ ">=v3.7.0.0","<v3.7.2.0" ],
+            "after": "avc",
+            "override": {
+                "ksp_version_min" : "1.1.3"
             }
-        ]
+        }
+    ]
 }
