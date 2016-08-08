@@ -21,7 +21,9 @@
         "install_to": "Ships"
     }],
     "depends": [
+		{ "name": "AnimatedDecouplers" },
         { "name": "TextureReplacer" },
+		{ "name": "ModuleManager" },
         { "name": "SmokeScreen" }
     ]
 }
