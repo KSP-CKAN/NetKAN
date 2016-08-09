@@ -3,7 +3,7 @@
 	"identifier"   : "universalstorage-lfox-fuelcell",
 	"$kref"        : "#/ckan/github/QuickBASIC/universalstorage-lfox-fuelcell",
 	"name"         : "Universal Storage - Stock Resource Fuelcell",
-	"author"       : [ "QuickBASIC"],
+	"author"       : "QuickBASIC",
 	"abstract"     : "ModuleManager Script for converting the Universal Storage Fuel Cell to use Liquid Fuel and Oxidizer instead of other resources.",
 	"license"      : "MIT",
 	"ksp_version"  : "1.1.3",
