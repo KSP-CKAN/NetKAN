@@ -6,6 +6,7 @@
     "license"        : "CC-BY-NC-SA",
     "release_status" : "stable",
     "x_netkan_epoch" : "1",
+    "x_netkan_staging": true,
     "conflicts": [
         { "name": "StockVisualEnhancements" },
         { "name": "Scatterer" },
