@@ -9,7 +9,7 @@
     ],
     "install": [
         {
-            "file": "KerbalGalaxy",
+            "find": "KerbalGalaxy",
             "install_to": "GameData"
         }
     ]
