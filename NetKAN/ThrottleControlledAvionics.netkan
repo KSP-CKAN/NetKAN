@@ -10,13 +10,15 @@
         "bugtracker"   : "https://github.com/qfeys/ThrottleControlledAvionics/issues",
         "repository"   : "https://github.com/qfeys/ThrottleControlledAvionics"
     },
-    "depends": [
+    "depends": 
+    [
         { "name": "ModuleManager" },
         { "name": "AT-Utils" }
     ],    
     "suggests":
     [
         { "name" : "KSP-AVC" },
-        { "name" : "Toolbar" }
+        { "name" : "Toolbar" },
+        { "name" : "KerbalJointReinforcement" }
     ]
 }
