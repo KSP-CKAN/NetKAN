@@ -10,6 +10,20 @@
         { "name": "CommunityTechTree" },
         { "name": "ModuleManager" }
     ],
+    "install": [
+        {
+            "find":"AtomicAge",
+            "install_to": "GameData"
+        },
+        {
+            "find":"SPH",
+            "install_to": "Ships"
+        },
+        {
+            "find":"VAB",
+            "install_to": "Ships"
+        }
+    ],
     "x_netkan_override": [
         {
             "version": "3.2",
