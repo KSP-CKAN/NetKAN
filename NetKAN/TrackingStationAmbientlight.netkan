@@ -3,7 +3,7 @@
     "identifier"   : "TrackingStationAmbientlight",
     "$kref"        : "#/ckan/spacedock/895",
     "$vref" : "#/ckan/ksp-avc",
-    "licence" : "GPL-3.0",
+    "license" : "GPL-3.0",
     "install" : [
         {
             "file"          : "GameData/TrackingStationAmbientlight",
