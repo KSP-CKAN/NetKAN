@@ -7,6 +7,8 @@
     "depends": [
         { "name": "ContractConfigurator", "min_version": "1.15.1" }
     ],
+    "x_netkan_staging": true,
+    "comment": "This mod has historically messed up our install instructions as the contents are reorganised",
     "install": [
         {
             "find"       : "RegularVersion/ContractPacks/HistoricMissions",
