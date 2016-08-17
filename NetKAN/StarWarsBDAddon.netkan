@@ -8,8 +8,9 @@
     ],
     "install": [
         {
-            "file": "StarWarsMod",
-            "install_to": "GameData"
+            "find": "StarWarsMod",
+            "install_to": "GameData",
+            "filter": ".DS_Store"
         }
     ]
 }
