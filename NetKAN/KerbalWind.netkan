@@ -3,9 +3,9 @@
     "identifier"   : "KerbalWind",
     "$kref"        : "#/ckan/github/DaMichel/KerbalWind",
     "name"         : "Kerbal Wind",
-    "abstract"     : "Adds wind to the game. It opens a dialog box where you can set wind direction and speed. Inspired by KerbalWeatherSystem by silverfox8124. But this is much simpler, omitting the actual weather simulation.",
+    "abstract"     : "Implements wind and a continuous-gusts model for Ferram Aerospace Research. Provides GUI with settings for wind direction, speed and turbulence magnitude.",
     "license"      : "MIT",
-    "ksp_version"  : "1.0",
+    "ksp_version"  : "1.1",
     "recommends" : [
         { "name" : "Toolbar" }
     ],
