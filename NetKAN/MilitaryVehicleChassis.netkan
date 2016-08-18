@@ -3,10 +3,56 @@
     "spec_version": 1,
     "identifier": "MilitaryVehicleChassis",
     "license": "MIT",
+    "x_netkan_staging": true,
+    "comment": "Mod author decided to take out the mod directory from the zipfile. Hopefully it will come back",
     "install": [
         {
-            "file": "Forrest Design",
-            "install_to": "GameData"
+            "file": "A310",
+            "install_to": "GameData/Forrest Design"
+        },
+        {
+            "file": "c160",
+            "install_to": "GameData/Forrest Design"
+        },
+        {
+            "file": "ec130",
+            "install_to": "GameData/Forrest Design"
+        },
+        {
+            "file": "F22",
+            "install_to": "GameData/Forrest Design"
+        },
+        {
+            "file": "gr1",
+            "install_to": "GameData/Forrest Design"
+        },
+        {
+            "file": "leopard",
+            "install_to": "GameData/Forrest Design"
+        },
+        {
+            "file": "M113",
+            "install_to": "GameData/Forrest Design"
+        },
+        {
+            "file": "M113d",
+            "install_to": "GameData/Forrest Design"
+        },
+        {
+            "file": "MLRS",
+            "install_to": "GameData/Forrest Design"
+        },
+        {
+            "file": "MLRSd",
+            "install_to": "GameData/Forrest Design"
+        },
+        {
+            "file": "Red October",
+            "install_to": "GameData/Forrest Design"
+        },
+        {
+            "file": "RHIB",
+            "install_to": "GameData/Forrest Design"
         }
     ]
 }
