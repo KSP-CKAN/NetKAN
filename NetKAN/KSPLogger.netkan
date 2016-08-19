@@ -1,0 +1,16 @@
+{
+  "license": "restricted",
+  "identifier": "KSPLogger",
+  "x_via": "Automated Linuxgurugamer CKAN script",
+  "$kref"        : "#/ckan/github/linuxgurugamer/KSPLogger",
+  "resources": {
+    "repository": "https://github.com/linuxgurugamer/KSPLogger"
+  },
+  "install": [
+    {
+      "find": "KSPLogger",
+      "install_to": "GameData"
+    }
+  ],
+  "spec_version": "v1.4"
+}
