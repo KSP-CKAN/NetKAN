@@ -2,19 +2,31 @@
     "$kref": "#/ckan/spacedock/410",
     "spec_version": "v1.4",
     "identifier": "RSSExtrasolar",
+    "name": "Constellations",
     "license": "BSD-3-clause",
+    "x_netkan_staging": true,
+    "comment": "If we get the chance to stop installing to GameRoot, we should do it",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/134208-constellations/"
+    },
     "depends":[
+        { "name": "KSPInterstellarExtended" },
+        { "name": "TweakScale" },
+        { "name": "RealSolarSystem" },
         { "name": "Kopernicus" }
     ],
     "recommends": [
-        { "name": "KSPInterstellarExtended" },
         { "name": "BetterTimeWarp" },
         { "name": "USI-NuclearRockets" }
     ],
     "install": [
         {
-            "find": "RSSExtrasolar",
-            "install_to": "GameData"
+            "file": "GameData",
+            "install_to": "GameRoot"
+        },
+        {
+            "find": "VAB",
+            "install_to": "Ships"
         }
     ]
 }
