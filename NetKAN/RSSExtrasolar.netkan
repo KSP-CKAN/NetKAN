@@ -4,8 +4,6 @@
     "identifier": "RSSExtrasolar",
     "name": "Constellations",
     "license": "BSD-3-clause",
-    "x_netkan_staging": true,
-    "comment": "If we get the chance to stop installing to GameRoot, we should do it",
     "resources": {
         "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/134208-constellations/"
     },
@@ -22,7 +20,7 @@
     "install": [
         {
             "file": "GameData",
-            "install_to": "GameRoot"
+            "install_to": "GameData"
         },
         {
             "find": "VAB",
