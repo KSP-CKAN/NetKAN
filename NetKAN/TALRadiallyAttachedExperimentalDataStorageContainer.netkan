@@ -5,7 +5,7 @@
   "$kref": "#/ckan/spacedock/910",
   "install": [
     {
-      "find": "ModsByTal",
+      "file": "ModsByTal",
       "install_to": "GameData"
     }
   ],
