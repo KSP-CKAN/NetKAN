@@ -1,0 +1,21 @@
+{
+  "license": "GPL-3.0",
+  "identifier": "RPMEnhancedDockingPorts",
+  "x_via": "Automated Linuxgurugamer CKAN script",
+  "$kref": "#/ckan/spacedock/888",
+  "depends": [
+    {
+      "name": "ModuleManager"
+    },
+    {
+      "name": "RasterPropMonitor" 
+    }
+  ],
+  "install": [
+    {
+      "find": "RPM Enhanced Docking Ports
+      "install_to": "GameData"
+    },
+  ],
+  "spec_version": "v1.4"
+}
