@@ -5,7 +5,7 @@
   "$kref": "#/ckan/spacedock/909",
   "install": [
     {
-      "file": "Parts",
+      "find": "Parts",
       "install_to": "GameRoot"
     }
   ],
