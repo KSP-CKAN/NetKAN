@@ -5,8 +5,8 @@
   "$kref": "#/ckan/spacedock/909",
   "install": [
     {
-      "find": "ModsByTal",
-      "install_to": "GameData"
+      "file": "Parts",
+      "install_to": "GameRoot"
     }
   ],
   "spec_version": "v1.4"
