@@ -13,7 +13,7 @@
   ],
   "install": [
     {
-      "find": "RPM Enhanced Docking Ports
+      "find": "RPM Enhanced Docking Ports",
       "install_to": "GameData",
       "filter": ".DS_Store"
     },
