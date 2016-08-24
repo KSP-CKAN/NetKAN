@@ -1,0 +1,13 @@
+{
+  "license": "CC-BY-SA-3.0",
+  "identifier": "TALRadiallyAttachedExperimentalDataStorageContainer",
+  "x_via": "Automated Linuxgurugamer CKAN script",
+  "$kref": "#/ckan/spacedock/910",
+  "install": [
+    {
+      "find": "ModsByTal",
+      "install_to": "GameData"
+    }
+  ],
+  "spec_version": "v1.4"
+}
