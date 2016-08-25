@@ -1,0 +1,14 @@
+{
+  "license": "restricted",
+  "identifier": "L-Tech",
+  "x_via": "Automated Linuxgurugamer CKAN script",
+  "$kref": "#/ckan/spacedock/227",
+  "$vref": "#/ckan/ksp-avc",
+  "install": [
+    {
+      "find": "LTech",
+      "install_to": "GameData"
+    }
+  ],
+  "spec_version": "v1.4"
+}
