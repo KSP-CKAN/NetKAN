@@ -1,0 +1,24 @@
+{
+    "spec_version": 1,
+    "identifier": "AustrianSpaceAgency",
+    "name": "Austrian Space Agency",
+    "abstract": "Containing Flags for the Austrian Space Agency",
+    "author": [
+        "brama0309"
+    ],
+    "license": "MIT",
+    "resources": {
+        "homepage": "https://github.com/brama0309/AustrianSpaceAgency",
+        "repository": "https://github.com/brama0309/AustrianSpaceAgency"
+    },
+    "version": "1.0",
+    "ksp_version": "1.1.3",
+    "download": "https://github.com/brama0309/AustrianSpaceAgency/releases/download/1.0/AustrianSpaceAgency.zip",
+    "download_size": 157607,
+    "download_hash": {
+        "sha1": "8E93C1CE07960CC6DC3A93FDF7C74C526DB94008",
+        "sha256": "06C77F628116CD1D606833CB383AFAE1C9F3A38ABA229DED11D94454A3CC780D"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}
