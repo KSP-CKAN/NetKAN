@@ -5,7 +5,6 @@
     "name"         : "Austrian Space Agency",
     "author"       : [ "brama0309" ],
     "license"      : "MIT",
-    "$vref" : "#/ckan/ksp-avc",
     "ksp_version"  : "any",
     "comment": "flagmod",
     "resources": {
