@@ -11,7 +11,7 @@
         "use_source_archive": true
     },
     "resources":  {
-        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/118688-/"
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/118688-*"
     },
     "depends": [
         { "name": "InterstellarFuelSwitch" }
