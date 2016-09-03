@@ -1,0 +1,22 @@
+{
+    "spec_version" : "v1.4",
+    "identifier"   : "ContractConfigurator-KerbinSpaceStation",
+    "$kref"        : "#/ckan/github/severedsolo/MonthlyBudgets",
+    "name"         : "Monthly Budgets",
+    "abstract"     : "Allocates monthly budgets to your career mode games",
+    "license"      : "MIT",
+    "$vref"        : "#/ckan/ksp-avc",
+    
+"recommends": [
+        { "name": "KerbalConstructionTime" }
+    ],
+    "install" : [
+        {
+            "find" : "MonthlyBudgets",
+            "install_to" : "GameData"
+        }
+    ],
+    "resources" : {
+        "homepage" : "http://forum.kerbalspaceprogram.com/index.php?/topic/147010-monthly-budgets"
+    }
+}
