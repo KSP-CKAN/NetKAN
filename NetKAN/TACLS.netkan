@@ -8,7 +8,8 @@
     "license"        : "CC-BY-NC-SA-3.0",
     "depends" : [
         {   "name" : "ModuleManager" },
-        {   "name" : "CommunityResourcePack" }
+        {   "name" : "CommunityResourcePack" },
+        {   "name" : "TACLS-Config" }
     ],
     "suggests" : [
         {   "name" : "KSP-AVC" }
@@ -17,7 +18,7 @@
         {
             "find"          : "GameData/ThunderAerospace",
             "install_to"    : "GameData",
-            "filter_regexp" : "PluginData/TacLifeSupport/LifeSupport\\.cfg$"
+            "filter_regexp" : "LifeSupport\\.cfg$"
         }
     ],
     "resources" : {
