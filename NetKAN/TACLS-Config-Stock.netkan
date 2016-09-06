@@ -1,5 +1,5 @@
 {
-    "spec_version"   : "v1.4",
+    "spec_version"   : "v1.16",
     "identifier"     : "TACLS-Config-Stock",
     "author"         : ["KSP-RO Group/JPLRepo", "Taranis Elsu" ],
     "name"           : "TAC Life Support (TACLS) - stock config",
@@ -13,8 +13,9 @@
     "conflicts"      : [ { "name" : "TACLS-Config" } ],
     "install" : [
         {
-            "find"          : "ThunderAerospace/TacLifeSupport/LifeSupport.cfg",
-            "install_to"    : "GameData/ThunderAerospace/TacLifeSupport"
+            "find"               : "ThunderAerospace/TacLifeSupport/LifeSupport.cfg",
+            "find_matches_files" : true,
+            "install_to"         : "GameData/ThunderAerospace/TacLifeSupport"
         }
     ]
 }
