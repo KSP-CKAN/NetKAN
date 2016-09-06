@@ -8,8 +8,13 @@
 				"repository": "https://github.com/raveloda/Coatl-Aerospace"},
 	"depends": [{"name": "DMagicScienceAnimate"},
 		{"name": "DMagicOrbitalScience"},
-		{"name": "ModuleManager"}{"name": "Firespitter"}],
-	"suggests": [{"name": "AntennaRange"}, {"name": "RemoteTech"}, {"name": "TweakScale"}],
+		{"name": "ModuleManager"},
+		{"name": "Firespitter"}],
+	"suggests": [{"name": "AntennaRange"},
+		{"name": "RemoteTech"},
+		{"name": "TweakScale"},
+		("name": "BluedogDB")],
 	"install": [{"file": "GameData/Coatl Aerospace",
 		"install_to": "GameData"}]
+	"conflicts": [{ "name": "CoatlAerospace" }],
 }
