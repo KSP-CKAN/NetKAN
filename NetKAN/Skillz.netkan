@@ -1,0 +1,18 @@
+{
+  "license": "CC-BY-NC-SA-4.0",
+  "identifier": "Skillz",
+  "x_via": "Automated Linuxgurugamer CKAN script",
+  "$kref": "#/ckan/spacedock/906",
+  "depends": [
+    {
+      "name": "ModuleManager"
+    }
+  ],
+  "install": [
+    {
+      "find": "Skillz",
+      "install_to": "GameData"
+    }
+  ],
+  "spec_version": "v1.4"
+}
