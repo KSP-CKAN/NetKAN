@@ -9,7 +9,7 @@
     "x_netkan_version_edit": "^[vV]?(?<version>.+)$",
     "x_netkan_epoch": "1",
     "resources": {
-        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/119858-/"
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/119858-*"
     },
     "install": [
         {
