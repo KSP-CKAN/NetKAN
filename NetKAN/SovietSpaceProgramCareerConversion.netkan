@@ -1,0 +1,32 @@
+{
+    "license": "CC-BY-NC-SA-4.0",
+    "identifier": "SovietSpaceProgramCareerConversion",
+    "$kref": "#/ckan/spacedock/858",
+    "spec_version": "v1.4",
+    "conflicts" : [ 
+        { "name" : "RemoteTech" } 
+    ],
+    "depends": [
+        { "name": "Tantares" },
+        { "name": "TantaresLV" },
+        { "name": "ABLaunchers" },
+        { "name": "Contares", "max_version" : "1.7.4" },
+        { "name": "ModuleManager" },
+        { "name": "AdditionalProgressionContracts" }
+    ],
+    "recommends": [
+        { "name": "AsteroidDay" },
+        { "name": "Taerobee" },
+        { "name": "Kosmodrome" }
+    ],
+    "install" : [
+        {
+            "file": "Ships",
+            "install_to": "Ships"
+        },
+        {
+            "find": "SovietConversion",
+            "install_to": "GameData"
+        }
+    ]
+}
