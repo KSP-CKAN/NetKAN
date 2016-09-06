@@ -1,0 +1,19 @@
+{
+    "identifier": "PlanetWiki-OPM",
+    "$kref": "#/ckan/spacedock/881",
+    "license": "CC-BY-NC-SA-4.0",
+    "spec_version": 1,
+    "depends": [
+        { "name": "OuterPlanetsMod" }
+    ],
+    "ksp_version_min": "1.1.0",
+    "ksp_version_max": "1.1.99",
+    "x_netkan_staging": true,
+    "comment": "Staging turned on to check overridden KSP version",
+    "install": [
+        {
+            "file": "GameData/planetwiki_opm.ksp",
+            "install_to": "GameData"
+        }
+    ]
+}
