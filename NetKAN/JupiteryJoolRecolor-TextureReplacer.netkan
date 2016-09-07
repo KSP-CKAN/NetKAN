@@ -1,0 +1,18 @@
+{
+    "$kref": "#/ckan/spacedock/775",
+    "spec_version": 1,
+    "name": "GregroxMun's Jupitery Jool Recolor for TextureReplacer",
+    "identifier": "JupiteryJoolRecolor-TextureReplacer",
+    "license": "All Rights Reserved",
+    "depends": [
+        { "name": "TextureReplacer" }
+    ],
+    "provides": [ "JoolRecolor" ],
+    "conflicts": [ { "name": "JoolRecolor" } ],
+    "install": [
+        {
+            "file":"Jool Recolor For Texture Replacer/GameData",
+            "install_to": "GameData"
+        }
+    ]
+}
