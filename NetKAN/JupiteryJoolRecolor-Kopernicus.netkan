@@ -5,7 +5,8 @@
     "identifier": "JupiteryJoolRecolor-Kopernicus",
     "license": "restricted",
     "depends": [
-        { "name": "Kopernicus" }
+        { "name": "Kopernicus" },
+        { "name": "ModuleManager" }
     ],
     "provides": [ "JoolRecolor" ],
     "conflicts": [ { "name": "JoolRecolor" } ],
