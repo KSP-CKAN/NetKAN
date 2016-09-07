@@ -21,6 +21,9 @@
         { "name": "Taerobee" },
         { "name": "Kosmodrome" }
     ],
+    "suggests": [
+        { "name": "ContractConfigurator-AdvancedProgression"}
+    ]
     "install" : [
         {
             "file": "Ships",
