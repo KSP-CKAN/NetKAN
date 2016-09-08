@@ -3,7 +3,7 @@
     "$kref": "#/ckan/spacedock/849",
     "spec_version": "v1.4",
     "identifier": "JDBallisback",
-    "recommends: [
+    "recommends": [
         { "name": "KAS" },
         { "name": "KIS" }
     ],
