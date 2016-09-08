@@ -3,5 +3,16 @@
     "$kref": "#/ckan/spacedock/868",
     "spec_version": "v1.4",
     "identifier": "VaranAddon",
-    "x_via": "Automated SpaceDock CKAN submission"
+    "depends": [
+        { "name": "Kopernicus" }
+    ],
+    "recommends": [
+        { "name": "KumarsDwarfStars" }
+    ],
+    "install" : [
+        {
+            "find"       : "Varan Add-on",
+            "install_to" : "GameData"
+        }
+    ]
 }
