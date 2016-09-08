@@ -1,7 +1,19 @@
 {
-    "license": "CC BY-SA 2.0",
+    "license": "CC-BY-SA-2.0",
     "$kref": "#/ckan/spacedock/411",
     "spec_version": "v1.4",
     "identifier": "ModifiedMK22IVAASETAvionics",
-    "x_via": "Automated SpaceDock CKAN submission"
+    "depends": [
+        { "name": "BDynamicsMk22Cockpits" },
+        { "name": "ASETProps" },
+        { "name": "ASETAvionics" },
+        { "name": "RasterPropMonitor-Core" },
+        { "name": "ModuleManager" }
+    ],
+    "install" : [
+        {
+            "find"       : "speedio",
+            "install_to" : "GameData"
+        }
+    ]
 }
