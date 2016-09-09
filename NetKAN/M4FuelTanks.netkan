@@ -2,7 +2,7 @@
     "license": "MIT",
     "$kref": "#/ckan/spacedock/877",
     "spec_version": "v1.16",
-    "identifier": "TheModularModuleManagerModularFuelTanksMod",
+    "identifier": "M4FuelTanks",
     "depends": [
         { "name": "ModularFuelTanks" }
     ],
