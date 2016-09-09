@@ -4,7 +4,8 @@
     "spec_version": "v1.4",
     "identifier": "VaranAddon",
     "depends": [
-        { "name": "Kopernicus" }
+        { "name": "Kopernicus" },
+        { "name": "ModuleManager" }
     ],
     "recommends": [
         { "name": "KumarsDwarfStars" }
