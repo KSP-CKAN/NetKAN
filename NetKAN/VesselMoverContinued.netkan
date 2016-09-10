@@ -3,10 +3,12 @@
     "identifier": "VesselMoverContinued",
     "name": "VesselMover Continued",
     "$kref": "#/ckan/spacedock/860",
+    "$vref": "#/ckan/ksp-avc",
     "license": "MIT",
     "suggests": [
         { "name": "KSP-AVC" }
     ],
+    "provides": [ "VesselMover" ],
     "conflicts": [
         { "name": "VesselMover" }
     ],
