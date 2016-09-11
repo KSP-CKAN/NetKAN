@@ -8,7 +8,7 @@
     "ksp_version_min": "1.1.2",
     "ksp_version_max": "1.1.3",
     "resources" : {
-        "homepage" : "http://forum.kerbalspaceprogram.com/index.php?/topic/36371-/"
+        "homepage" : "http://forum.kerbalspaceprogram.com/index.php?/topic/36371-*"
     },
     "suggests": [
         { "name" : "PFTextures" }

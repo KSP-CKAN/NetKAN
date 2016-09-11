@@ -9,6 +9,9 @@
     "depends": [
         { "name": "Scatterer-sunflare" }
     ],
+    "conflicts": [
+        { "name": "Scatterer" }
+    ],
     "install": [
         {
             "find"       : "scatterer",

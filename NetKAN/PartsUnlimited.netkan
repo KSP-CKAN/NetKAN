@@ -1,0 +1,22 @@
+{
+  "license": "CC-BY",
+  "identifier": "PartsUnlimited",
+  "x_via": "Automated Linuxgurugamer CKAN script",
+  "$kref": "#/ckan/spacedock/927",
+  "depends": [
+    {
+      "name": "ModuleManager"
+    },
+    {
+      "name": "ContractConfigurator",
+      "min_version": "1.18.2"
+    }
+  ],
+  "install": [
+    {
+      "find": "PartsUnlimited",
+      "install_to": "GameData/ContractPacks"
+    }
+  ],
+  "spec_version": "v1.4"
+}

@@ -9,7 +9,7 @@
     "license": "restricted",
     "release_status": "development",
     "resources": {
-        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/126548-/"
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/126548-*"
     },
     "depends": [
         { "name": "ModuleManager", "min_version": "2.6.23" },

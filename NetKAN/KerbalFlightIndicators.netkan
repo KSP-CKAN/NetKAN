@@ -3,12 +3,9 @@
     "identifier"   : "KerbalFlightIndicators",
     "$kref"        : "#/ckan/github/DaMichel/KerbalFlightIndicators",
     "name"         : "Kerbal Flight Indicators",
-    "abstract"     : "Draws a flight vector indicator and other things in your field of view.",
+    "abstract"     : "Displays indicators for the flight vector and other things. Works like a HUD. In external view, too!",
     "license"      : "CC-BY-NC-SA-3.0",
-    "ksp_version"  : "1.1.2",
-    "recommends" : [
-        { "name" : "Toolbar" }
-    ],
+    "ksp_version"  : "1.1",
     "resources" : {
         "homepage" : "http://forum.kerbalspaceprogram.com/threads/80277"
     },
