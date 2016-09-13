@@ -1,0 +1,17 @@
+{
+  "license": "unknown",
+  "identifier": "PWBFuelBalancer",
+  "x_via": "Automated Linuxgurugamer CKAN script",
+    "$kref" : "#/ckan/github/codepoetpbowden/PWBFuelBalancer",
+  "resources": {
+    "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/147144-113-pwb-fuel-balancer-revived-07-sep-2016/",
+    "repository": "https://github.com/codepoetpbowden/PWBFuelBalancer"
+  },
+  "install": [
+    {
+      "find": "PWBFuelBalancer",
+      "install_to": "GameData"
+    }
+  ],
+  "spec_version": "v1.4"
+}
