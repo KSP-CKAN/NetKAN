@@ -4,10 +4,9 @@
     "$kref"        : "#/ckan/github/raidernick/BDAnimationModules",
     "name"         : "BahamutoD Animation Modules",
     "abstract"     : "Animation modules plugin for KSP",
-    "comment"      : "I have taken to updating the mod again instead of Papa Joe, made changes accordingly",
+	"author"       : [ "BahamutoD", "Papa_Joe", "RaiderNick" ],
     "license"      : "CC-BY-SA-2.0",
-    "ksp_version_min"  : "1.2",
-    "ksp_version_max"  : "1.2",
+    "$vref"        : "#/ckan/ksp-avc",
 	"x_netkan_epoch"   : 1,
     "resources": {
         "homepage": "https://github.com/raidernick/BDAnimationModules"
