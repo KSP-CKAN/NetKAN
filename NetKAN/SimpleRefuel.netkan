@@ -1,0 +1,12 @@
+{
+    "$kref": "#/ckan/spacedock/947",
+    "identifier": "SimpleRefuel",
+    "spec_version": "v1.4",
+    "license": "GPL-3.0",
+    "install": [
+        {
+            "find":"GameData/SimpleRefuel",
+            "install_to": "GameData"
+        }
+    ]
+}
