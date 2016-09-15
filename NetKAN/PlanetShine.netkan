@@ -5,6 +5,7 @@
     "$vref": "#/ckan/ksp-avc",
     "abstract": "Planets and moons reflects their light to your vessel + other ambient light improvements",
     "author": "Valerian",
+    "x_netkan_license_ok": true,
     "resources": {
         "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/87012-12-/",
         "repository": "https://github.com/valerian/ksp-planetshine"
