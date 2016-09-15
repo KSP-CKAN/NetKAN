@@ -5,7 +5,7 @@
   "$kref": "#/ckan/spacedock/947",
   "install": [
     {
-      "find": "SimpleRefuel",
+      "find": "GameData/SimpleRefuel",
       "install_to": "GameData"
     }
   ],
