@@ -1,8 +1,8 @@
 {
     "spec_version" : 1,
     "identifier"   : "LanderControl",
-    "$kref"        : "#/ckan/kerbalstuff/1343",
-    "x_netkan_license_ok": true,
+    "$kref"        : "#/ckan/curse/238277",
+    "license"      : "restricted",
     "install": [
         {
             "file"       : "HAIT",
