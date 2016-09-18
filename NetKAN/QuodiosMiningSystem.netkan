@@ -1,6 +1,12 @@
 {
     "$kref": "#/ckan/spacedock/951",
     "identifier": "QuodiosMiningSystem",
-    "spec_version": "v1.4",
-    "license": "GPL-3.0"
+    "spec_version": 1,
+    "license": "GPL-3.0",
+    "install":[
+        {
+            "file"      : "QuodiosMiningSystem",
+            "install_to": "GameData"
+        }
+    ]
 }
