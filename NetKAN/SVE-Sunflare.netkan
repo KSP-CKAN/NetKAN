@@ -1,6 +1,6 @@
 {
     "spec_version"   : "v1.10",
-    "$kref"          : "#/ckan/spacedock/827",
+    "$kref"          : "#/ckan/github/Galileo88/StockVisualEnhancements/asset_match/Low.Resolution.zip",
     "$vref"          : "#/ckan/ksp-avc",
     "identifier"     : "SVE-Sunflare",
     "name"           : "Stock Visual Enhancements: Sunflare",
@@ -8,6 +8,9 @@
     "license"        : "CC-BY-NC-SA",
     "release_status" : "stable",
     "x_netkan_epoch" : "1",
+    "depends": [
+        { "name": "Scatterer" }
+    ],
     "provides": [ "Scatterer-sunflare" ],
     "conflicts": [
         { "name": "Scatterer-sunflare" }
