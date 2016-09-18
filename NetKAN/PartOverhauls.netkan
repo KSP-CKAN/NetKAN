@@ -1,0 +1,29 @@
+{
+    "spec_version"   : 1,
+    "name"           : "Part Overhauls",
+    "abstract"       : "Porkjet's in-progress part overhauls",
+    "identifier"     : "PartOverhauls",
+    "download"       : "http://bengarner.me/files/PartOverhaulsDistribution.zip",
+    "license"        : "CC-BY-NC-3.0",
+    "version"        : "0.1.0",
+	
+    "author"         : "Porkjet",
+    "release_status" : "development",
+    "ksp_version": "1.2.0",
+	
+    "resources" : {
+        "homepage" : "http://forum.kerbalspaceprogram.com/index.php?/topic/147582-update-12-pre-release-is-here/"
+    },
+	
+    "install" : [
+        {
+            "file"       : "PartOverhauls/GameData/PartOverhauls",
+            "install_to" : "GameData"
+        }
+    ],
+	
+    "download_size"  : "3292803",
+    "download_hash"  : {
+        "sha1": "A061D132388D6E5E7D829DDAAAC1EEDE815B4EA9"
+    }
+}
