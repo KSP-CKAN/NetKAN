@@ -1,6 +1,6 @@
 {
     "spec_version"   : "v1.4",
-    "$kref"          : "#/ckan/spacedock/828",
+    "$kref"          : "#/ckan/github/Galileo88/StockVisualEnhancements/asset_match/Medium.Resolution.zip",
     "$vref"          : "#/ckan/ksp-avc",
     "identifier"     : "SVE-MediumResolution",
     "license"        : "CC-BY-NC-SA",
@@ -17,7 +17,10 @@
         { "name": "Scatterer-sunflare" }
     ],
     "recommends": [
-        { "name": "SVE-Terrain" }
+        { "name": "DistantObject" },
+        { "name": "SVE-Terrain" },
+        { "name": "PlanetShine" },
+        { "name": "TextureReplacer" }
     ],
     "install": [
         {
