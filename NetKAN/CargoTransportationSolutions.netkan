@@ -1,19 +1,21 @@
 {
     "spec_version"   : "v1.4",
-    "$kref"          : "#/ckan/spacedock/28",
+    "$kref"          : "#/ckan/github/Olympic1/TalisarParts",
     "$vref"          : "#/ckan/ksp-avc",
     "identifier"     : "CargoTransportationSolutions",
+    "name"           : "Cargo Transportation Solutions",
+    "abstract"       : "Transport 2.5 to 3.75m parts to space and other bodies",
     "license"        : "CC-BY-SA-4.0",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/70203-cargo-/",
+        "spacedock": "https://spacedock.info/mod/28/Cargo%20Transportation%20Solutions"
+    },
     "install" :
     [
         {
             "find"       : "TalisarParts",
             "install_to" : "GameData"
         }
-    ],
-    "depends" :
-    [
-        { "name" : "FirespitterCore" }
     ],
     "suggests" :
     [
