@@ -1,6 +1,6 @@
 {
     "spec_version"   : "v1.10",
-    "$kref"          : "#/ckan/github/Galileo88/StockVisualEnhancements/asset_match/Low.Resolution.zip",
+    "$kref"          : "#/ckan/github/Galileo88/StockVisualEnhancements/asset_match/Low.Resolution.*zip",
     "$vref"          : "#/ckan/ksp-avc",
     "identifier"     : "SVE-Sunflare",
     "name"           : "Stock Visual Enhancements: Sunflare",
