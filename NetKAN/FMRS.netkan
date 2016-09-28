@@ -1,0 +1,19 @@
+{
+    "spec_version": 1,
+    "identifier": "FMRS",
+    "name": "Flight Manager for Reusable Stages [FMRS]",
+    "abstract": "FMRS lets you jump back and forth in time. So you can land an recover your launch vehicles.",
+    "$kref": "#/ckan/curse/220566",
+    "$vref": "#/ckan/ksp-avc",
+    "version": "v1.1.0.1",
+    "ksp_version_max": "1.1.99",
+    "x_netkan_license_ok" : true,
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/72605-110-flight-manager-for-reusable-stages-fmrs-x110-experimental/",
+        "repository": "https://github.com/SIT89/FMRS",
+        "x_preview": "http://i.imgur.com/gTgNAPj.png?1"
+    },
+    "depends": [
+        { "name": "ModuleManager" }
+    ]
+}
