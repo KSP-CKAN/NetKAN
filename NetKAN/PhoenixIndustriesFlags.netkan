@@ -8,7 +8,8 @@
     "install": [
         {
             "find"       : "Flags",
-            "install_to" : "GameData/CTN"
+            "install_to" : "GameData/CTN",
+            "filter"     : "Thumbs.db"
         }
     ]
 }
