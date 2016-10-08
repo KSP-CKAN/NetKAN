@@ -4,14 +4,18 @@
     "license": "CC-BY-NC-SA-4.0",
     "identifier": "PhoenixIndustriesCubeSat",
     "name": "Phoenix Industries - CubeSat",
+    "depends": [
+        { "name": "PhoenixIndustriesFlags" }
+    ],
     "recommends": [
         { "name": "MechJeb2" },
         { "name": "TweakScale" }
     ],
     "install"   :   [
         {
-            "find"  :   "CTN",
-            "install_to":   "GameData"
+            "find"  :     "CTN",
+            "install_to": "GameData",
+            "filter":     [ "Thumbs.db", "Flags" ]
         }
     ]
 }
