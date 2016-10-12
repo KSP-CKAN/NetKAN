@@ -4,10 +4,22 @@
     "$kref": "#/ckan/spacedock/841",
     "license": "MIT",
     
-        "install": [
+        "install": 
+        [
         {
             "file"       : "KerbalReusabilityExpansion",
             "install_to" : "GameData"
         }
+        ],
+        
+        "depends":
+        [
+        { "name": "ModuleManager" }
+         ],
+         
+        "suggests":
+        [
+        { "name": "FirespitterCore" },
         ]
+    
 }
