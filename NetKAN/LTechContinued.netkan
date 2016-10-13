@@ -1,36 +1,6 @@
 {
-    "spec_version"   : "v1.4",
-    "$kref"          : "#/ckan/github/Olympic1/L-Tech",
-    "$vref"          : "#/ckan/ksp-avc",
-    "identifier"     : "LTechContinued",
-    "name"           : "L-Tech Scientific Industries Continued",
-    "author": [
-        "Olympic1",
-        "linuxgurugamer"
-    ],
-    "resources": {
-        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/49319-0240-l-tech-scientific-industries-v220/&do=findComment&comment=2760771",
-        "spacedock": "https://spacedock.info/mod/227/L-Tech%20Scientific%20Industries%20Continued"
-    },
-    "license"        : "MIT",
-    "x_netkan_force_v": true,
-    "install" :
-    [
-        {
-            "find"       : "LTech",
-            "install_to" : "GameData"
-        }
-    ],
-    "depends" :
-    [
-        { "name" : "ModuleManager", "min_version" : "2.7.0" }
-    ],
-    "suggests" :
-    [
-        { "name" : "ConnectedLivingSpace" },
-        { "name" : "HullcamVDS" },
-        { "name" : "KIS" },
-        { "name" : "RasterPropMonitor-Core" },
-        { "name" : "TweakScale" }
-    ]
+    "spec_version": "v1.4",
+    "identifier": "LTechContinued",
+    "$kref": "#/ckan/netkan/https://raw.githubusercontent.com/Olympic1/L-Tech/master/LTechContinued.netkan",
+    "x_netkan_license_ok": true
 }
