@@ -1,33 +1,6 @@
 {
-    "spec_version" : "v1.4",
-    "$kref"        : "#/ckan/spacedock/15",
-    "$vref"        : "#/ckan/ksp-avc",
-    "identifier"   : "Olympic1ARPIcons",
-    "license"      : "CC-BY-SA-4.0",
-    "install" :
-    [
-        {
-            "find"       : "Olympic1ARPIcons",
-            "install_to" : "GameData",
-            "filter"     : "thumbs.db"
-        }
-    ],
-    "depends" :
-    [
-        { "name" : "AlternateResourcePanel" },
-        { "name" : "ModuleManager" }
-    ],
-    "suggests" :
-    [
-        { "name" : "AlcubierreStandalone" },
-        { "name" : "CommunityResourcePack" },
-        { "name" : "DangIt" },
-        { "name" : "DeadlyReentry" },
-        { "name" : "ExtraPlanetaryLaunchpads" },
-        { "name" : "Firespitter" },
-        { "name" : "MissionController2" },
-        { "name" : "Snacks" },
-        { "name" : "USI-LS" },
-        { "name" : "USI-NuclearRockets" }
-    ]
+    "spec_version": "v1.4",
+    "identifier": "Olympic1ARPIcons",
+    "$kref": "#/ckan/netkan/https://raw.githubusercontent.com/Olympic1/Icon_Packs_KSP/master/Olympic1ARPIcons.netkan",
+    "x_netkan_license_ok": true
 }
