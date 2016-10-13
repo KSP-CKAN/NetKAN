@@ -4,14 +4,14 @@
     "name"          : "US Probes Pack",
     "author"        : "Raidernick",
     "abstract"      : "This pack will include pretty much all probes ever launched by NASA and the US military. It is a long term project and I will be adding to it slowly over time.",
-    "comment"       : "Ships explicitly not installed by author request (he no longer maintains them)",
+    "comment"       : "Ships installed again",
     "resources": {
         "homepage"  : "http://forum.kerbalspaceprogram.com/threads/93389"
     },
     "$kref"         : "#/ckan/github/KSP-RO/USProbesPack",
     "license"       : "CC-BY-NC-ND-3.0",
     "ksp_version_min"   : "1.1.1",
-    "ksp_version_max"   : "1.1.3",
+    "ksp_version_max"   : "1.2",
     "install"       :
     [
       {
@@ -26,8 +26,6 @@
     "depends": [
         { "name": "BDAnimationModules" },
         { "name": "TextureReplacer" },
-        { "name": "FirespitterCore" },
-		{ "name": "ModuleManager" },
-        { "name": "SmokeScreen" }
+		{ "name": "ModuleManager" }
     ]
 }
