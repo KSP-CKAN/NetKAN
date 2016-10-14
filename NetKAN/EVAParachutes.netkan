@@ -1,0 +1,14 @@
+{
+  "license": "CC-BY-3.0",
+  "identifier": "EVAParachutes",
+  "x_via": "Automated Linuxgurugamer CKAN script",
+  "$kref": "#/ckan/spacedock/991",
+  "$vref": "#/ckan/ksp-avc",
+  "install": [
+    {
+      "find": "VanguardTechnologies",
+      "install_to": "GameData"
+    }
+  ],
+  "spec_version": "v1.4"
+}
