@@ -5,15 +5,7 @@
   "$kref": "#/ckan/spacedock/983",
   "install": [
     {
-      "find": "Redux",
-      "install_to": "GameData"
-    },
-    {
-      "find": "Muffle",
-      "install_to": "GameData"
-    },
-    {
-      "find": "Audi",
+      "find": "Audio Muffler Redux",
       "install_to": "GameData"
     }
   ],
