@@ -15,11 +15,10 @@
         }
     ],
     "depends" : [
-        { "name"        : "CommunityResourcePack", "min_version" : "0.5.4" },
-        { "name"        : "Toolbar", "min_version" : "1.7.12" },
-        { "name"        : "InterstellarFuelSwitch", "min_version" : "2.1.0" },
+        { "name"        : "CommunityResourcePack", "min_version" : "0.6.0" },
+        { "name"        : "InterstellarFuelSwitch", "min_version" : "2.2.3" },
         { "name"        : "TweakScale", "min_version" : "2.2.13"},
-        { "name"        : "ModuleManager", "min_version" : "2.6.25" }
+        { "name"        : "ModuleManager", "min_version" : "2.7.1" }
     ],
     "recommends": [
         { "name"        : "FilterExtensions" },
