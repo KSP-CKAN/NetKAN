@@ -13,7 +13,7 @@
     ],
     "install": [
         {
-            "find_regexp": "RealisticRemodel.?1x",
+            "find": "RealisticRemodel",
             "install_to": "GameData"
         }
     ]
