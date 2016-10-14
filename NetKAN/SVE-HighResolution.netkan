@@ -1,6 +1,6 @@
 {
     "spec_version"   : "v1.4",
-    "$kref"          : "#/ckan/github/Galileo88/StockVisualEnhancements/asset_match/High.Resolution.zip",
+    "$kref"          : "#/ckan/github/Galileo88/StockVisualEnhancements/asset_match/SVE.HR.*zip",
     "$vref"          : "#/ckan/ksp-avc",
     "identifier"     : "SVE-HighResolution",
     "license"        : "CC-BY-NC-SA",
