@@ -1,15 +1,15 @@
 {
     "spec_version" : 1,
     "identifier"   : "EnvironmentalVisualEnhancements-HR",
-    "$kref"        : "#/ckan/github/rbray89/EnvironmentalVisualEnhancements/asset_match/AnyCPU-Configs-Release",
+    "$kref"        : "#/ckan/github/WazWaz/EnvironmentalVisualEnhancements/asset_match/AnyCPU-Configs-Release",
     "name"         : "Environmental Visual Enhancements - Config files",
     "abstract"     : "Default configuration for EVE",
     "license"      : "MIT",
-    "ksp_version_min"  : "1.1.0",
-    "ksp_version_max"  : "1.1.2",
+    "ksp_version_min"  : "1.2.0",
+    "ksp_version_max"  : "1.2.0",
     "resources": {
-        "homepage"   : "http://forum.kerbalspaceprogram.com/threads/55905",
-        "repository" : "https://github.com/rbray89/EnvironmentalVisualEnhancements"
+        "homepage"   : "http://forum.kerbalspaceprogram.com/index.php?/topic/149733-EVE",
+        "repository" : "https://github.com/WazWaz/EnvironmentalVisualEnhancements"
     },
     "install": [
         {
