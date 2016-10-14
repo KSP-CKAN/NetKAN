@@ -1,0 +1,13 @@
+{
+  "license": "MIT",
+  "identifier": "Colonists",
+  "x_via": "Automated Linuxgurugamer CKAN script",
+  "$kref": "#/ckan/spacedock/972",
+  "install": [
+    {
+      "find": "Colonist",
+      "install_to": "GameData"
+    }
+  ],
+  "spec_version": "v1.4"
+}
