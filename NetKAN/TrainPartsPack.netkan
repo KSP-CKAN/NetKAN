@@ -1,0 +1,13 @@
+{
+  "license": "MIT",
+  "identifier": "TrainPartsPack",
+  "x_via": "Automated Linuxgurugamer CKAN script",
+  "$kref": "#/ckan/spacedock/946",
+  "install": [
+    {
+      "find": "Railway Pack",
+      "install_to": "GameData"
+    }
+  ],
+  "spec_version": "v1.4"
+}
