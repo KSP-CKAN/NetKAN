@@ -9,7 +9,9 @@
         { "name": "ModuleManager" }
     ],
     "recommends": [
-        { "name": "OuterPlanetsMod" }
+        { "name": "OuterPlanetsMod" },
+        { "name": "KSCSwitcher" },
+        { "name": "RemoteTech" }
     ],
     "install": [
         {
