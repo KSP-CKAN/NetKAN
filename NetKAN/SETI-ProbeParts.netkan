@@ -1,19 +1,6 @@
 {
-  "license": "restricted",
-  "identifier": "SETI-ProbeParts",
-  "x_via": "Automated SpaceDock CKAN submission",
-  "$kref": "#/ckan/spacedock/848",
-  "$vref": "#/ckan/ksp-avc",
-  "depends": [
-    {
-      "name": "ModuleManager"
-    }
-  ],
-  "install": [
-    {
-      "find": "SETIprobeParts",
-      "install_to": "GameData"
-    }
-  ],
-  "spec_version": "v1.4"
+    "spec_version": "v1.2",
+    "identifier": "SETI-ProbeParts",
+    "$kref": "#/ckan/netkan/https://raw.githubusercontent.com/Y3mo/SETI-NetKAN/master/SETI-ProbeParts.netkan",
+    "x_netkan_license_ok": true
 }
