@@ -2,11 +2,7 @@
   "license": "unknown",
   "identifier": "JanitorsCloset",
   "x_via": "Automated Linuxgurugamer CKAN script",
-  "$kref": "#/ckan/spacedock/944",
-   "recommends" : [
-     { "name"        : "FilterExtensions" },
-     { "name"        : "KSP-AVC" }
-  ],
+  "$kref": "#/ckan/spacedock/990",
   "install": [
     {
       "find": "JanitorsCloset",
