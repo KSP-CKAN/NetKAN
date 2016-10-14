@@ -1,0 +1,21 @@
+{
+  "license": "CC-BY-NC-SA",
+  "identifier": "AudioMufflerRedux",
+  "x_via": "Automated Linuxgurugamer CKAN script",
+  "$kref": "#/ckan/spacedock/983",
+  "install": [
+    {
+      "find": "Redux",
+      "install_to": "GameData"
+    },
+    {
+      "find": "Muffle",
+      "install_to": "GameData"
+    },
+    {
+      "find": "Audi",
+      "install_to": "GameData"
+    }
+  ],
+  "spec_version": "v1.4"
+}
