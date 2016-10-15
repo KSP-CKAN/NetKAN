@@ -23,7 +23,11 @@
     "depends": [
 		{ "name": "BDAnimationModules" },
         { "name": "TextureReplacer" },
-		{ "name": "ModuleManager" },
-        { "name": "SmokeScreen" }
+		{ "name": "ModuleManager" }
+    ],
+	"recommends"    :
+    [
+        { "name"    : "SmokeScreen" },
+        { "name"    : "RN-USProbesPack" }
     ]
 }

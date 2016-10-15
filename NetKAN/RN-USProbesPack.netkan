@@ -28,4 +28,8 @@
         { "name": "TextureReplacer" },
 		{ "name": "ModuleManager" }
     ]
+	"recommends"    :
+    [
+        { "name"    : "RN-USRockets" }
+    ]
 }
