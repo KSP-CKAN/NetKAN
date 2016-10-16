@@ -8,20 +8,23 @@
     "license"      : "MIT",
     "$vref"        : "#/ckan/ksp-avc",
     
-    "install": [
+    "install": 
+    [
         {
             "file"       : "GameData/000_AT_Utils",
-            "install_to" : "GameData"
-        },
-        {
-            "file"       : "GameData/ConfigurableContainers",
             "install_to" : "GameData"
         }
     ],
     
-    "resources": {
+    "resources": 
+    {
         "bugtracker"   : "https://github.com/allista/AT_Utils/issues",
         "homepage"     : "https://github.com/allista/AT_Utils",
         "repository"   : "https://github.com/allista/AT_Utils"
-    }
+    },
+    
+    "depends": 
+    [
+        { "name": "ConfigurableContainers-Core" }
+    ]
 }
