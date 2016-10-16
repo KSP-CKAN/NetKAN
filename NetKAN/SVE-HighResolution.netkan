@@ -1,6 +1,6 @@
 {
     "spec_version"   : "v1.4",
-    "$kref"          : "#/ckan/github/Galileo88/StockVisualEnhancements/asset_match/High.Resolution.zip",
+    "$kref"          : "#/ckan/github/Galileo88/StockVisualEnhancements/asset_match/SVE\\.HR\\.1\\.0",
     "$vref"          : "#/ckan/ksp-avc",
     "identifier"     : "SVE-HighResolution",
     "license"        : "CC-BY-NC-SA",
@@ -35,6 +35,14 @@
         {
             "find"       : "GameData/EnvironmentalVisualEnhancements",
             "install_to" : "GameData"
+        }
+    ],
+    "x_netkan_override": [
+        {
+            "version": "1:1.0.83",
+            "override": {
+                "ksp_version" : "1.1.3"
+            }
         }
     ]
 }
