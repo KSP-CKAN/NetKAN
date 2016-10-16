@@ -1,21 +1,26 @@
 {
     "spec_version" : "v1.4",
     "identifier"   : "Hangar",
-    "$kref"        : "#/ckan/kerbalstuff/270",
+    "$kref"        : "#/ckan/spacedock/1000",
     "$vref"        : "#/ckan/ksp-avc",
-    "x_netkan_license_ok": true,
+    "abstract"     : "Hangars are parts that can store whole ships inside. Stored ships are not docked but unloaded, which reduces part count considerably, improving framerate and memory footprint while allowing to carry out missions of great complexity.",
+    "author"       : [ "allista" ],
+    "license"      : "MIT",
 
     "resources":
     {
+    	"homepage"     : "http://forum.kerbalspaceprogram.com/index.php?/topic/80225-12-hangar",
         "bugtracker"   : "https://github.com/allista/hangar/issues",
         "repository"   : "https://github.com/allista/hangar",
-        "kerbalstuff"  : "https://kerbalstuff.com/mod/270/Hangar",
         "manual"       : "https://github.com/allista/hangar/wiki"
     },
 
     "depends":
     [
-        { "name": "ModuleManager" }
+        { "name": "ModuleManager" },
+        { "name": "AT-Utils" },
+        { "name": "ConfigurableContainers-Core" },
+        { "name": "CommunityResourcePack" }
     ],
 
     "suggests":
@@ -23,6 +28,7 @@
         { "name": "Extraplanetary-Launchpads" },
         { "name": "EditorExtensions" },
         { "name": "ThrottleControlledAvionics" },
+        { "name": "ConfigurableContainers" },
         { "name": "KSP-AVC" }
     ],
 
