@@ -11,7 +11,7 @@
     },
     "install": [
         {
-            "find"       : "MusicMute",
+            "find"       : "GameData/MusicMute",
             "install_to" : "GameData"
         }
     ]
