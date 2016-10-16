@@ -1,7 +1,7 @@
 {
     "spec_version"   : "v1.4",
-    "$kref"          : "#/ckan/github/Galileo88/StockVisualEnhancements/asset_match/SVE\\.HR\\.1\\.0",
-    "$vref"          : "#/ckan/ksp-avc",
+    "$kref"          : "#/ckan/github/Galileo88/StockVisualEnhancements/asset_match/SVE\\.HR\\.1\\.1",
+    "$vref"          : "#/ckan/ksp-avc/SVE HR 1.1.1/StockVisualEnhancements.version",
     "identifier"     : "SVE-HighResolution",
     "license"        : "CC-BY-NC-SA",
     "release_status" : "stable",
@@ -30,7 +30,7 @@
         {
             "find"       : "GameData/scatterer",
             "install_to" : "GameData",
-            "filter"     : "sunflare"
+            "filter"     : "Sunflares"
         },
         {
             "find"       : "GameData/EnvironmentalVisualEnhancements",
