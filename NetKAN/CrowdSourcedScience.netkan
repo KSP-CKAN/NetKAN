@@ -10,7 +10,7 @@
     "author"       : "DuoDex",
     "license"      : "CC-BY-NC-SA-4.0",
     "ksp_version_min": "1.0.2",
-    "ksp_version_max": "1.2.99",
+    "ksp_version_max": "1.1.99",
     "release_status" : "stable",
     "depends" : [
         { "name" : "ModuleManager" }
