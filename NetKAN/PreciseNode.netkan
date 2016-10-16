@@ -1,5 +1,6 @@
 {
     "spec_version"   : "v1.4",
+    "$vref"          : "#/ckan/ksp-avc",
     "name"           : "Precise Node",
     "identifier"     : "PreciseNode",
     "abstract"       : "Provides a more precise widget for maneuver node editing",
@@ -19,7 +20,5 @@
             "install_to" : "GameData"
         }
     ],
-    "version": "1.2.3",
-    "ksp_version": "1.1.2",
-    "download": "https://www.blizzy.de/precise-node/PreciseNode-1.2.3.zip"
+    "download": "https://www.blizzy.de/precise-node/PreciseNode-1.2.4.zip"
 }
