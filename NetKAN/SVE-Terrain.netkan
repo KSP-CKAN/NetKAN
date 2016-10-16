@@ -1,6 +1,7 @@
 {
     "spec_version"   : "v1.4",
     "$kref"          : "#/ckan/github/Galileo88/Stock-Visual-Terrain",
+    "$vref"          : "#/ckan/ksp-avc",
     "identifier"     : "SVE-Terrain",
     "license"        : "MIT",
     "release_status" : "stable",
