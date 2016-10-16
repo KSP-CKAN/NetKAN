@@ -7,7 +7,7 @@
     "license"       	: "BSD-2-clause",
     "release_status"	: "stable",
     "resources" : {
-        "homepage"	: "http://forum.kerbalspaceprogram.com/threads/60863",
+        "homepage"  	: "http://forum.kerbalspaceprogram.com/index.php?/topic/55420-120/",
         "repository"	: "https://github.com/blizzy78/ksp_toolbar"
     },
     "install" : [
@@ -16,8 +16,8 @@
             "install_to" : "GameData"
         }
     ],
-    "version"       	: "1.7.12",
-	"ksp_version_min"	: "1.1.2",
-    "ksp_version_max"  	: "1.1.3",
-    "download"      	: "https://www.blizzy.de/toolbar/Toolbar-1.7.12.zip"
+    "version"       	: "1.7.13",
+    "ksp_version_min"	: "1.2.0",
+    "ksp_version_max"	: "1.2.9",
+    "download"       	: "https://www.blizzy.de/toolbar/Toolbar-1.7.13.zip"
 }
