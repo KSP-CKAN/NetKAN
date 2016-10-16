@@ -1,21 +1,33 @@
 {
     "spec_version"   : "v1.10",
-    "$kref"          : "#/ckan/spacedock/827",
-    "$vref"          : "#/ckan/ksp-avc",
+    "$kref"          : "#/ckan/github/Galileo88/StockVisualEnhancements/asset_match/SVE\\.LR\\.1\\.1",
+    "$vref"          : "#/ckan/ksp-avc/SVE LR 1.1.1/StockVisualEnhancements.version",
     "identifier"     : "SVE-Sunflare",
+    "abstract"       : "A visual enhancement pack using EVE and Scatterer for the stock planets. ",
     "name"           : "Stock Visual Enhancements: Sunflare",
     "abstract"       : "Stock Visual Enhancements version of the sunflare component of scatterer",
     "license"        : "CC-BY-NC-SA",
     "release_status" : "stable",
     "x_netkan_epoch" : "1",
+    "depends": [
+        { "name": "Scatterer" }
+    ],
     "provides": [ "Scatterer-sunflare" ],
     "conflicts": [
         { "name": "Scatterer-sunflare" }
     ],
     "install": [
         {
-            "find"       : "GameData/scatterer/sunflare",
-            "install_to" : "GameData/scatterer"
+            "find"       : "GameData/scatterer/config/Sunflares",
+            "install_to" : "GameData/scatterer/config"
+        }
+    ],
+    "x_netkan_override": [
+        {
+            "version": "1:1.0.83",
+            "override": {
+                "ksp_version" : "1.1.3"
+            }
         }
     ]
 }

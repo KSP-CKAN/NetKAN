@@ -1,27 +1,6 @@
 {
-    "spec_version"   : "v1.4",
-    "$kref"          : "#/ckan/spacedock/227",
-    "$vref"          : "#/ckan/ksp-avc",
-    "identifier"     : "LTechContinued",
-    "license"        : "MIT",
-    "x_netkan_force_v": true,
-    "install" :
-    [
-        {
-            "find"       : "LTech",
-            "install_to" : "GameData"
-        }
-    ],
-    "depends" :
-    [
-        { "name" : "ModuleManager" }
-    ],
-    "suggests" :
-    [
-        { "name" : "ConnectedLivingSpace" },
-        { "name" : "HullcamVDS" },
-        { "name" : "KIS" },
-        { "name" : "RasterPropMonitor-Core" },
-        { "name" : "TweakScale" }
-    ]
+    "spec_version": "v1.4",
+    "identifier": "LTechContinued",
+    "$kref": "#/ckan/netkan/https://raw.githubusercontent.com/Olympic1/L-Tech/master/LTechContinued.netkan",
+    "x_netkan_license_ok": true
 }

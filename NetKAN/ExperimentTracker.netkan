@@ -7,6 +7,7 @@
     "resources": {
         "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/146984-113-experimenttracker/"
     },
+    "x_netkan_force_v": true,
 	  "install": [ 
         {
             "file"       : "ExperimentTracker",

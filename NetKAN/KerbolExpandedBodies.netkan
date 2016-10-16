@@ -1,16 +1,19 @@
 {
-  "license": "CC-BY-NC-SA-4.0",
-  "identifier": "Skillz",
+  "license": "CC-BY-NC-4.0",
+  "identifier": "KerbolExpandedBodies",
   "x_via": "Automated Linuxgurugamer CKAN script",
-  "$kref": "#/ckan/spacedock/906",
+  "$kref": "#/ckan/spacedock/949",
   "depends": [
     {
       "name": "ModuleManager"
+    },
+    {
+      "name": "Kopernicus"
     }
   ],
   "install": [
     {
-      "find": "Skillz",
+      "find": "KerbolExpandedBodies",
       "install_to": "GameData"
     }
   ],

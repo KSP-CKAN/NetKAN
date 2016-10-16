@@ -1,8 +1,9 @@
 {
     "spec_version"   : "v1.4",
-    "$kref"          : "#/ckan/spacedock/828",
-    "$vref"          : "#/ckan/ksp-avc",
+    "$kref"          : "#/ckan/github/Galileo88/StockVisualEnhancements/asset_match/SVE\\.MR\\.1\\.1",
+    "$vref"          : "#/ckan/ksp-avc/SVE MR 1.1.1/StockVisualEnhancements.version",
     "identifier"     : "SVE-MediumResolution",
+    "abstract"       : "A visual enhancement pack using EVE and Scatterer for the stock planets. ",
     "license"        : "CC-BY-NC-SA",
     "release_status" : "stable",
     "x_netkan_epoch" : "1",
@@ -17,7 +18,10 @@
         { "name": "Scatterer-sunflare" }
     ],
     "recommends": [
-        { "name": "SVE-Terrain" }
+        { "name": "DistantObject" },
+        { "name": "SVE-Terrain" },
+        { "name": "PlanetShine" },
+        { "name": "TextureReplacer" }
     ],
     "install": [
         {
@@ -27,11 +31,19 @@
         {
             "find"       : "GameData/scatterer",
             "install_to" : "GameData",
-            "filter"     : "sunflare"
+            "filter"     : "Sunflares"
         },
         {
             "find"       : "GameData/EnvironmentalVisualEnhancements",
             "install_to" : "GameData"
+        }
+    ],
+    "x_netkan_override": [
+        {
+            "version": "1:1.0.83",
+            "override": {
+                "ksp_version" : "1.1.3"
+            }
         }
     ]
 }

@@ -1,0 +1,14 @@
+{
+  "license": "MIT",
+  "identifier": "KerbnetController",
+  "x_via": "Automated Linuxgurugamer CKAN script",
+  "$kref": "#/ckan/spacedock/986",
+  "$vref": "#/ckan/ksp-avc",
+  "install": [
+    {
+      "find": "KerbNetController",
+      "install_to": "GameData"
+    }
+  ],
+  "spec_version": "v1.4"
+}
