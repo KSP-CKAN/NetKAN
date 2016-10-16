@@ -19,7 +19,7 @@
     "install": [
         {
             "find"       : "GameData/scatterer/config/Sunflares",
-            "install_to" : "GameData/scatterer"
+            "install_to" : "GameData/scatterer/config"
         }
     ],
     "x_netkan_override": [
