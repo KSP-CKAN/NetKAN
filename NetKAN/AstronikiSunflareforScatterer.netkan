@@ -12,8 +12,8 @@
     ],
     "install": [
         {
-            "find"       : "sunflare",
-            "install_to" : "GameData/scatterer"
+            "find"       : "Sunflares",
+            "install_to" : "GameData/scatterer/config"
         }
     ]
 }
