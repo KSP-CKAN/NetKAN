@@ -3,5 +3,11 @@
     "identifier": "IndicatorLightsCommunityExtensions",
     "spec_version": "v1.4",
     "license": "MIT",
-    "x_via": "Automated SpaceDock CKAN submission"
+    "depends": [
+        { "name": "IndicatorLights" }
+    ],
+    "recommends": [
+        { "name": "VenStockRevamp" },
+        { "name": "ImpossibleInnovations" }
+    ]
 }
