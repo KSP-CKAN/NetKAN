@@ -12,8 +12,8 @@
         }
     ],
     "depends" : [
-        { "name" : "CommunityCategoryKit" }
-        { "name" : "CommunityResourcePack" },
+        { "name" : "CommunityCategoryKit" },
+        { "name" : "CommunityResourcePack" }
     ],
     "x_netkan_force_v": true
 }
