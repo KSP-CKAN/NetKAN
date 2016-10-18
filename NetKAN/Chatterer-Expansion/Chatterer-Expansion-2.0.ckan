@@ -7,7 +7,7 @@
     "license": "unknown",
     "release_status": "stable",
     "resources": {
-        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/83290-11-chatterer-v098-keep-talking-19-apr-2016/&do=findComment&comment=2562690",
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/83290-11-chatterer-v098-keep-talking-19-apr-2016/&do=findComment&comment=2562690"
     },
     "install": [
         {
@@ -16,11 +16,11 @@
         }
     ],
     "requires" : [
-        { "name" : "Chatterer" },
+        { "name" : "Chatterer" }
     ],
     "version": "2.0",
     "ksp_version_min": "1.0.0",
     "ksp_version_max": "1.2.99",
     "download": "https://rawgit.com/rkagerer/KSP-Fwiffo-Repository/master/Mods/Chatterer-Expansion-2.0.zip",
-    "x_generated_by": "Fwiffo",
+    "x_generated_by": "Fwiffo"
 }
