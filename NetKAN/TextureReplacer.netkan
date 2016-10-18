@@ -12,6 +12,13 @@
         "homepage": "http://forum.kerbalspaceprogram.com/threads/107471",
         "repository": "https://github.com/RangeMachine/TextureReplacer"
     },
+    "install": [
+        {
+            "file": "TextureReplacer",
+            "install_to": "GameData",
+            "filter": "EnvMap"
+        }
+    ],
     "x_netkan_override" : [
         {
             "version" : ">=v2.5.0",
