@@ -1,0 +1,26 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "Chatterer-Expansion",
+    "name": "Chatterer extra sounds",
+    "abstract": "Adds an additional chatterset to Chatterer.\n\nCreated by Fwiffo, by manually editing / reversing sounds from the NASA chatterer pack put together by KingNeberkenezer (BeeMeister on Twitch).\n\nIMPORTANT: After installing this pack, put a MANNED ship on the launch pad, open Chatterer settings, ensure Advanced Settings are enabled, then go to the Chatter tab, and load the set by typing the folder name 'expansion' (no quotes) and clicking Load.",
+    "author": [ "Fwiffo", "KingNeberkenezer"],
+    "license": "unknown",
+    "release_status": "stable",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/83290-11-chatterer-v098-keep-talking-19-apr-2016/&do=findComment&comment=2562690"
+    },
+    "install": [
+        {
+            "file": "GameData/Chatterer/Sounds/chatter/expansion",
+            "install_to": "GameData/Chatterer/Sounds/chatter"
+        }
+    ],
+    "requires" : [
+        { "name" : "Chatterer" }
+    ],
+    "version": "2.0",
+    "ksp_version_min": "1.0.0",
+    "ksp_version_max": "1.2.99",
+    "download": "https://rawgit.com/rkagerer/KSP-Fwiffo-Repository/master/Mods/Chatterer-Expansion-2.0.zip",
+    "x_generated_by": "Fwiffo"
+}
