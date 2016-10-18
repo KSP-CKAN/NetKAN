@@ -21,7 +21,7 @@
         {
             "version": "1.4.3",
             "override": {
-                "conflicts": [ "KEI" ]
+                "conflicts": [ { "name": "KEI" } ]
             }
         }
     ]
