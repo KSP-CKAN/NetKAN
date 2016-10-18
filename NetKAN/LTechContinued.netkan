@@ -7,7 +7,7 @@
         {
             "version": "v4.1",
             "override": {
-                "conflicts": [ "KEI" ]
+                "conflicts": [ { "name": "KEI" } ]
             }
         }
     ]
