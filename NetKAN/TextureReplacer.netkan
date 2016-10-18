@@ -12,6 +12,9 @@
         "homepage": "http://forum.kerbalspaceprogram.com/threads/107471",
         "repository": "https://github.com/RangeMachine/TextureReplacer"
     },
+    "depends": [
+        { "name": "Skybox" }
+    ],
     "install": [
         {
             "file": "TextureReplacer",
