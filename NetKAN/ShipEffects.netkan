@@ -1,5 +1,24 @@
 {
-    "spec_version"   :  "v1.4",
-    "identifier"     :  "ShipEffects",
-    "$kref"          :  "#/ckan/netkan/https://raw.githubusercontent.com/rkagerer/KSP-Fwiffo-Repository/master/CKAN-meta-fwiffo/ShipEffects/ShipEffects-1.0.5.ckan"
+    "spec_version": "v1.4",
+    "identifier": "ShipEffects",
+    "name": "ShipEffects-Sound-Mod: Dynamic Sound Effects (Maintenance)",
+    "abstract": "Dynamic IVA Sound Effects, add drama to your IVAs and hear your ship's fuselage Shake, Rattle and Rumble!  Note this has the exact same functionality as version 1.0.5, but was recompiled for the KSP 1.2 prerelease.",
+    "author": [ "ensouensou", "CoriW", "Fwiffo"],
+    "license": "CC-BY-NC-SA-4.0",
+    "release_status": "stable",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/132289-1-0-4-ShipEffects-Sound-Mod-Dynamic-Sound-Effects-(Maintenance)-v1-0-1-08-23-2015"
+    },
+    "version": "1.0.7",
+    "ksp_version_min": "1.2.0",
+    "ksp_version_max": "1.2.99",
+    "install": [
+        {
+            "find": "ShipEffects",
+            "install_to": "GameData",
+            "filter": "Source"
+        }
+    ],
+    "download": "https://rawgit.com/rkagerer/KSP-Fwiffo-Repository/master/Mods/ShipEffects/ShipEffects-Sound-Mod-1.0.7-for-KSP-1.2.zip",
+    "x_generated_by": "Fwiffo"
 }
