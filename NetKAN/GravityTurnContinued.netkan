@@ -1,0 +1,23 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "GravityTurnContinued",
+    "$kref": "#/ckan/github/AndyMt/GravityTurn",
+    "name": "GravityTurn Continued",
+    "author": [ "AndyMt", "Overengineer1" ],
+    "abstract": "Automated highly efficient launches",
+    "ksp_version": "1.2",
+    "license": "GPL-3.0",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/148448-12161-gravityturn-continued-automated-efficient-launches/",
+        "repository": "https://github.com/AndyMt/GravityTurn/"
+    },
+    "conflicts": [
+        { "name": "GravityTurn" }
+    ],
+    "install": [
+        {
+            "find": "GravityTurn",
+            "install_to": "GameData"
+        }
+    ]
+}
