@@ -1,0 +1,14 @@
+{
+  "license": "GPL-3.0",
+  "identifier": "PartCommanderCont",
+  "x_via": "Automated Linuxgurugamer CKAN script",
+  "$kref": "#/ckan/spacedock/1004",
+  "$vref": "#/ckan/ksp-avc",
+  "install": [
+    {
+      "find": "PartCommanderContinued",
+      "install_to": "GameData"
+    }
+  ],
+  "spec_version": "v1.4"
+}
