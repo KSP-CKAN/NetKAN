@@ -1,0 +1,13 @@
+{
+    "$kref": "#/ckan/spacedock/974",
+    "identifier": "IndicatorLightsCommunityExtensions",
+    "spec_version": "v1.4",
+    "license": "MIT",
+    "depends": [
+        { "name": "IndicatorLights" }
+    ],
+    "recommends": [
+        { "name": "VenStockRevamp" },
+        { "name": "ImpossibleInnovations" }
+    ]
+}
