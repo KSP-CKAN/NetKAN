@@ -1,7 +1,7 @@
 {
     "spec_version"   : "v1.4",
     "$kref"          : "#/ckan/github/Galileo88/StockVisualEnhancements/asset_match/SVE.HR.*.zip",
-    "$vref"          : "#/ckan/ksp-avc/SVE HR 1.1.21/GameData/StockVisualEnhancements/StockVisualEnhancements.version",
+    "ksp_version"    : "1.2",
     "identifier"     : "SVE-HighResolution",
     "abstract"       : "A visual enhancement pack using EVE and Scatterer for the stock planets. ",
     "license"        : "CC-BY-NC-SA",
