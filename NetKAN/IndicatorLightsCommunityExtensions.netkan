@@ -6,7 +6,7 @@
     "depends": [
         { "name": "IndicatorLights" }
     ],
-    "recommends": [
+    "supports": [
         { "name": "VenStockRevamp" },
         { "name": "ImpossibleInnovations" }
     ]
