@@ -6,7 +6,6 @@
     "author"         : "taniwha",
     "license"        : "GPL-3.0",
     "release_status" : "stable",
-	"$vref" : "#/ckan/ksp-avc",
     "resources"      : {
         "homepage" : "http://forum.kerbalspaceprogram.com/threads/59545",
         "repository" : "https://github.com/taniwha-qf/Extraplanetary-Launchpads"
@@ -29,5 +28,7 @@
             "filter"     : "Ships"
         }
     ],
+    "version": "5.5.1",
+    "ksp_version": "1.2.0",
     "download": "http://taniwha.org/~bill/Extraplanetary_Launchpads_v5.5.1.zip"
 }
