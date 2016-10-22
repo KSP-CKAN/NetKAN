@@ -9,14 +9,18 @@
     "release_status" : "stable",
     "x_netkan_epoch" : "2",
     "x_netkan_staging": true,
+    "provides": [ 
+        "StockVisualEnhancements",
+        "EnvironmentalVisualEnhancements-Config"
+     ],
     "conflicts": [
         { "name": "StockVisualEnhancements" },
+        { "name" : "EnvironmentalVisualEnhancements-Config" }
+    ],
+    "depends": [
         { "name": "Scatterer" },
         { "name": "EnvironmentalVisualEnhancements" }
-    ],
-    "provides": [ "StockVisualEnhancements","Scatterer" ],
-    "depends": [
-        { "name": "Scatterer-sunflare" }
+        { "name": "SVE-ScattererConfig" }
     ],
     "recommends": [
         { "name": "DistantObject" },
@@ -28,23 +32,6 @@
         {
             "find"       : "GameData/StockVisualEnhancements",
             "install_to" : "GameData"
-        },
-        {
-            "find"       : "GameData/scatterer",
-            "install_to" : "GameData",
-            "filter"     : "Sunflares"
-        },
-        {
-            "find"       : "GameData/EnvironmentalVisualEnhancements",
-            "install_to" : "GameData"
-        }
-    ],
-    "x_netkan_override": [
-        {
-            "version": "1:1.0.83",
-            "override": {
-                "ksp_version" : "1.1.3"
-            }
         }
     ]
 }

@@ -7,7 +7,8 @@
     "spec_version": "v1.4",
     "x_netkan_epoch": "2",
     "depends": [
-        { "name": "Scatterer-sunflare" }
+        { "name": "Scatterer-sunflare" },
+        { "name": "Scatterer-config" }
     ],
     "conflicts": [
         { "name": "Scatterer" }
@@ -16,7 +17,7 @@
         {
             "find"       : "scatterer",
             "install_to" : "GameData",
-            "filter"     : "Sunflares"
+            "filter"     : "config"
         }
     ]
 }
