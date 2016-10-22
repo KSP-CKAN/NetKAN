@@ -19,7 +19,7 @@
     ],
     "depends": [
         { "name": "Scatterer" },
-        { "name": "EnvironmentalVisualEnhancements" }
+        { "name": "EnvironmentalVisualEnhancements" },
         { "name": "SVE-ScattererConfig" }
     ],
     "recommends": [
