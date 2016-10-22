@@ -7,7 +7,7 @@
     "abstract"       : "A visual enhancement pack using EVE and Scatterer for the stock planets. ",
     "license"        : "CC-BY-NC-SA",
     "release_status" : "stable",
-    "x_netkan_epoch" : "1",
+    "x_netkan_epoch" : "2",
     "x_netkan_staging": true,
     "conflicts": [
         { "name": "StockVisualEnhancements" },
