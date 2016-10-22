@@ -20,7 +20,7 @@
     "depends": [
         { "name": "Scatterer" },
         { "name": "EnvironmentalVisualEnhancements" },
-        { "name": "SVE-ScattererConfig" }
+        { "name": "SVE-Scatterer-Config" }
     ],
     "recommends": [
         { "name": "DistantObject" },
