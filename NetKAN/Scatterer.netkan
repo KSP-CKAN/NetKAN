@@ -15,9 +15,9 @@
     ],
     "install": [
         {
-            "find"       : "scatterer",
-            "install_to" : "GameData",
-            "filter"     : "config"
+            "find"          : "scatterer",
+            "install_to"    : "GameData",
+            "filter_regexp" : "config\\/.*"
         }
     ]
 }
