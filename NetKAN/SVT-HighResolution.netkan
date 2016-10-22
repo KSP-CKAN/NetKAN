@@ -3,6 +3,7 @@
     "$kref"          : "#/ckan/github/Galileo88/Stock-Visual-Terrain/asset_match/SVT.High.*.zip",
     "$vref"          : "#/ckan/ksp-avc",
     "identifier"     : "SVT-HighResolution",
+    "name"           : "Stock Visual Terrain-High Res",
     "abstract"       : "A terrain enhancement pack using Kopernicus for the stock planets.",
     "license"        : "CC-BY-NC-ND",
     "release_status" : "stable",
