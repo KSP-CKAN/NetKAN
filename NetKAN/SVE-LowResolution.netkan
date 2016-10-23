@@ -1,21 +1,27 @@
 {
     "spec_version"   : "v1.4",
     "$kref"          : "#/ckan/github/Galileo88/StockVisualEnhancements/asset_match/SVE.LR.*.zip",
+    "$vref"          : "#/ckan/ksp-avc",
     "ksp_version"    : "1.2",
     "identifier"     : "SVE-LowResolution",
+    "name"           : "Stock Visual Enhancements-Low Res",
     "abstract"       : "A visual enhancement pack using EVE and Scatterer for the stock planets. ",
     "license"        : "CC-BY-NC-SA",
     "release_status" : "stable",
-    "x_netkan_epoch" : "1",
+    "x_netkan_epoch" : "2",
     "x_netkan_staging": true,
+    "provides": [ 
+        "StockVisualEnhancements",
+        "EnvironmentalVisualEnhancements-Config"
+     ],
     "conflicts": [
         { "name": "StockVisualEnhancements" },
-        { "name": "Scatterer" },
-        { "name": "EnvironmentalVisualEnhancements" }
+        { "name" : "EnvironmentalVisualEnhancements-Config" }
     ],
-    "provides": [ "StockVisualEnhancements","Scatterer" ],
     "depends": [
-        { "name": "Scatterer-sunflare" }
+        { "name": "Scatterer" },
+        { "name": "EnvironmentalVisualEnhancements" },
+        { "name": "SVE-Scatterer-Config" }
     ],
     "recommends": [
         { "name": "DistantObject" },
@@ -27,23 +33,6 @@
         {
             "find"       : "GameData/StockVisualEnhancements",
             "install_to" : "GameData"
-        },
-        {
-            "find"       : "GameData/scatterer",
-            "install_to" : "GameData",
-            "filter"     : "Sunflares"
-        },
-        {
-            "find"       : "GameData/EnvironmentalVisualEnhancements",
-            "install_to" : "GameData"
-        }
-    ],
-    "x_netkan_override": [
-        {
-            "version": "1:1.0.83",
-            "override": {
-                "ksp_version" : "1.1.3"
-            }
         }
     ]
 }
