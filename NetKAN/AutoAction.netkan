@@ -2,6 +2,7 @@
   "spec_version" : 1,
   "identifier"   : "AutoAction",
   "$kref"        : "#/ckan/github/formicant/AutoAction",
+  "$vref"        : "#/ckan/ksp-avc",
   "name"         : "Auto Actions",
   "author"       : [ "Diazo", "Teilnehmer" ],
   "abstract"     : "Automatically activate action groups (and RCS/SAS) on vessel launch",
