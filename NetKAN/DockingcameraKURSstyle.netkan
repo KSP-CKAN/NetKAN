@@ -1,17 +1,20 @@
 {
-    "identifier": "DockingcameraKURSstyle",
-    "spec_version": "v1.4",
-    "$kref": "#/ckan/spacedock/756",
-    "license": "CC-BY-SA-3.0",
-    "comment": "Taking license from forum thread",
-    "install": [
-        {
-            "find"       : "OLDD",
-            "install_to" : "GameData",
-            "filter"     : "Thumbs.db"
-        }
-    ],
-    "depends": [
-        { "name" : "ModuleManager" }
-    ]
+  "license": "CC-BY-NC-SA-3.0",
+  "identifier": "DockingcameraKURSstyle",
+  "x_via": "Automated Linuxgurugamer CKAN script",
+  "$kref": "#/ckan/spacedock/756",
+  "$vref": "#/ckan/ksp-avc",
+  "depends": [
+    {
+      "name": "ModuleManager"
+    }
+  ],
+  "install": [
+    {
+      "find": "OLDD",
+      "install_to": "GameData"
+    }
+  ],
+  "spec_version": "v1.4"
 }
+
