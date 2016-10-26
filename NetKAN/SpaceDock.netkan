@@ -3,6 +3,7 @@
     "spec_version"   : 1,
     "name"           : "SpaceDock",
     "abstract"       : "SpaceDock in different sizes, usable as orbital shipyard.",
+    "author"         : "Fendrin",
     "identifier"     : "SpaceDock",
     "$kref"          : "#/ckan/github/fendrin/SpaceDock",
     "download"       : "https://github.com/fendrin/SpaceDock/archive/v0.2.0.zip",
