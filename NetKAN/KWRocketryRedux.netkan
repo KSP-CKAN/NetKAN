@@ -7,7 +7,7 @@
     "name"          : "KW Rocketry Redux",
     "abstract"      : "This is the full KW Rocketry with the Community Fixes included.  Repackaged so that the power configs are selecteable in CKAN",
     "resources" : {
-        "homepage"  :   "https://github.com/linuxgurugamer/KWRocketryRedux"
+        "homepage"  :   "http://forum.kerbalspaceprogram.com/index.php?/topic/137762-kw-rocketry-redux/"
     },
     "depends": [
         { "name" : "ModuleManager" },
