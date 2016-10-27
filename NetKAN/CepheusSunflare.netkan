@@ -1,8 +1,8 @@
 {
-    "license": "CC-BY-NC-SA-4.0",
-    "identifier": "AstronikiSunflareforScatterer",
-    "$kref": "#/ckan/spacedock/408",
     "spec_version": "v1.4",
+    "identifier": "CepheusSunflare",
+    "$kref": "#/ckan/spacedock/997",
+    "license": "CC-BY-NC-SA-4.0",
     "provides": [ "Scatterer-sunflare" ],
     "conflicts": [
         { "name": "Scatterer-sunflare" }
