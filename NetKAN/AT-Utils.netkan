@@ -1,30 +1,6 @@
 {
-    "spec_version" : 1,
-    "identifier"   : "AT-Utils",
-    "$kref"        : "#/ckan/github/allista/AT_Utils",
-    "name"         : "AT Utils",
-    "author"       : [ "allista" ],
-    "abstract"     : "A common library for a set of plugins made by Allista.",
-    "license"      : "MIT",
-    "$vref"        : "#/ckan/ksp-avc",
-    
-    "install": 
-    [
-        {
-            "file"       : "GameData/000_AT_Utils",
-            "install_to" : "GameData"
-        }
-    ],
-    
-    "resources": 
-    {
-        "bugtracker"   : "https://github.com/allista/AT_Utils/issues",
-        "homepage"     : "https://github.com/allista/AT_Utils",
-        "repository"   : "https://github.com/allista/AT_Utils"
-    },
-    
-    "depends": 
-    [
-        { "name": "ConfigurableContainers-Core" }
-    ]
+	"spec_version" : "v1.16",
+	"identifier" : "AT-Utils",
+	"$kref" : "#/ckan/netkan/https://raw.githubusercontent.com/allista/AT_Utils/master/AT-Utils.netkan",
+	"x_netkan_license_ok": true
 }
