@@ -1,38 +1,6 @@
 {
-    "spec_version" : "v1.4",
-    "identifier"   : "ConfigurableContainers",
-    "$kref"        : "#/ckan/spacedock/1002",
-    "$vref"        : "#/ckan/ksp-avc",
-    "abstract"     : "This mod converts all the stock fuel tanks and resource containers so that you can change the resource(s) they hold in Editor and in Flight.",
-    "author"       : [ "allista" ],
-    "license"      : "MIT",
-
-    "resources":
-    {
-    	"homepage"     : "http://forum.kerbalspaceprogram.com/index.php?/topic/150104-12-configurable-containers",
-        "bugtracker"   : "https://github.com/allista/ConfigurableContainers/issues",
-        "repository"   : "https://github.com/allista/ConfigurableContainers"
-    },
-
-    "depends":
-    [
-        { "name": "ModuleManager" },
-        { "name": "AT-Utils" },
-        { "name": "ConfigurableContainers-Core" },
-        { "name": "CommunityResourcePack" }
-    ],
-
-    "suggests":
-    [
-        { "name": "KSP-AVC" }
-    ],
-
-    "install":
-    [
-        {
-            "file": "GameData/ConfigurableContainers",
-            "install_to": "GameData",
-            "filter": [ "TankTypes.cfg", "TankConfigs.cfg" ]
-        }
-    ]
+	"spec_version" : "v1.16",
+	"identifier" : "ConfigurableContainers",
+	"$kref" : "#/ckan/netkan/https://raw.githubusercontent.com/allista/ConfigurableContainers/master/ConfigurableContainers.netkan",
+	"x_netkan_license_ok": true
 }
