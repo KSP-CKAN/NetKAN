@@ -16,7 +16,7 @@
     },
     "install" : [
         {
-            "file"       : "SpaceDock-0.2.0/GameData/SpaceDock",
+            "find"       : "GameData/SpaceDock",
             "install_to" : "GameData"
         }
     ],
