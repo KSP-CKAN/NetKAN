@@ -1,13 +1,17 @@
 {
-    "spec_version" : 1,
-    "identifier"   : "NKRsDEM",
-    "$kref"        : "#/ckan/spacedock/425",
+    "spec_version"   : 1,
+    "identifier"     :"NKRsDEM",
+    "$kref"          : "#/ckan/spacedock/425",
     "release_status" : "development",
-    "x_netkan_license_ok": true,
+    "license"        : "CC-BY-SA-4.0",
     "install":[
         {
-            "file"           : "GameData/NAR_MEM",
-            "install_to"     : "GameData"
+            "file"       : "GameData/NAR_MEM",
+            "install_to" : "GameData"
+        },
+        {
+            "file"       : "Ships/VAB",
+            "install_to" : "Ships"
         }
     ]
 }
