@@ -5,7 +5,7 @@
     "license"       : "BSD-3-clause",
     "install"       : [
         {
-            "file"  : "GameData/ToadicusTools",
+            "find"  : "GameData/ToadicusTools",
             "install_to": "GameData"
         }
     ]
