@@ -12,7 +12,8 @@
     "recommends": [
         { "name": "TakeCommand" },
         { "name": "KerbalAircraftExpansion" },
-        { "name": "VNG-Parachute-EVALoading" }
+        { "name": "KRXKerbalRotorExpansion" },
+        { "name": "EVAParachutes" }
     ],
 
     "suggests": [
