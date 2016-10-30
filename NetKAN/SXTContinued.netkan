@@ -10,10 +10,12 @@
         { "name" : "ModuleManager"},
         { "name": "RetractableLiftingSurface" }
   ],
-  "install"        : 
+  "install" :
   [
-        "find"       : "SXT",
+	{
+        "find" : "SXT",
         "install_to" : "GameData"
+	}
   ],
   "spec_version": "v1.4"
 }
