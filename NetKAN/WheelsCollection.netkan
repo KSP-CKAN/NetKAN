@@ -5,7 +5,7 @@
   "$kref": "#/ckan/spacedock/1027",
   "install": [
     {
-      "find": "WheelsCollection",
+      "file": "WheelsCollection",
       "install_to": "GameData"
     }
   ],
