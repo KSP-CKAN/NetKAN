@@ -8,7 +8,7 @@
         { "name" : "FirespitterCore" },
         { "name" : "FirespitterResourcesConfig"},
         { "name" : "ModuleManager"},
-    	{ "name": "RetractableLiftingSurface" },
+    	{ "name": "RetractableLiftingSurface" }
   ],
   "install"        : [
         "find" 		: "SXT",
