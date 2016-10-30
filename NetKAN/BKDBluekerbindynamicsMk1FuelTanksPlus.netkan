@@ -1,0 +1,14 @@
+{
+  "spec_version": "v1.4",
+  "install": [
+    {
+      "install_to": "GameData",
+      "find": "Blue_Kerbin_Dynamics"
+    }
+  ],
+  "$vref": "#/ckan/ksp-avc",
+  "$kref": "#/ckan/spacedock/909",
+  "x_via": "Automated Linuxgurugamer CKAN script",
+  "identifier": "BKDBluekerbindynamicsMk1FuelTanksPlus",
+  "license": "MIT"
+}
