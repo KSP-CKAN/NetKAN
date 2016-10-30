@@ -5,13 +5,15 @@
   "$kref": "#/ckan/spacedock/197",
   "depends": [
     {
-      "name": "ModuleManager"
+      "name": "ModuleManager",
+      "name": "FirespitterCore"
     }
   ],
   "install": [
     {
       "find": "RetroFuture",
-      "install_to": "GameData"
+      "install_to": "GameData",
+      "filter"     : "Firespitter"
     }
   ],
   "spec_version": "v1.4"
