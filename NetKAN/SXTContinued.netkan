@@ -1,0 +1,17 @@
+{
+  "license": "unknown",
+  "identifier": "SXTContinued",
+  "x_via": "Automated Linuxgurugamer CKAN script",
+  "$kref": "#/ckan/spacedock/1030",
+  "$vref": "#/ckan/ksp-avc",
+  "depends": [
+    { "name": "ModuleManager" },
+    { "name": "RetractableLiftingSurface" },
+    { "name": "FirespitterCore" }
+  ],
+  "install": [
+  	"find"		: "SXT",
+	"install_to" 	: "GameData"
+  ],
+  "spec_version": "v1.4"
+}
