@@ -6,8 +6,8 @@
     "license"      : "GPL-3.0",
     "install": [
         {
-            "file"       : "GameData/QuickRevert",
-            "install_to" : "GameData"
+            "file"       : "GameData/QuickMods/QuickRevert",
+            "install_to" : "GameData/QuickMods"
         }
     ],
     "conflicts": [

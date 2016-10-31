@@ -6,8 +6,8 @@
     "license"      : "GPL-3.0",
     "install": [
         {
-            "file"       : "GameData/QuickSearch",
-            "install_to" : "GameData"
+            "file"       : "GameData/QuickMods/QuickSearch",
+            "install_to" : "GameData/QuickMods"
         }
     ]
 }

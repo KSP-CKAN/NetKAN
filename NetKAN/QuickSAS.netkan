@@ -6,8 +6,8 @@
     "license"      : "GPL-3.0",
     "install": [
         {
-            "file"       : "GameData/QuickSAS",
-            "install_to" : "GameData"
+            "file"       : "GameData/QuickMods/QuickSAS",
+            "install_to" : "GameData/QuickMods"
         }
     ],
     "suggests": [

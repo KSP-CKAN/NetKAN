@@ -6,8 +6,8 @@
     "license"      : "GPL-3.0",
     "install": [
         {
-            "file"       : "GameData/QuickMute",
-            "install_to" : "GameData"
+            "file"       : "GameData/QuickMods/QuickMute",
+            "install_to" : "GameData/QuickMods"
         }
     ],
     "suggests": [
