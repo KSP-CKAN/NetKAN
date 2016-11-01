@@ -1,9 +1,9 @@
 {
-    "spec_version"	: 1,
-    "identifier"	: "QuickCursorHider",
-    "license"		: "GPL-3.0",
-    "$kref"			: "#/ckan/spacedock/783",
-    "$vref"			: "#/ckan/ksp-avc",
+    "spec_version"  : "v1.2",
+    "identifier"    : "QuickCursorHider",
+    "license"       : "GPL-3.0",
+    "$kref"         : "#/ckan/spacedock/783",
+    "$vref"         : "#/ckan/ksp-avc",
     "install": [
         {
             "file"       : "GameData/QuickMods/QuickCursorHider",
