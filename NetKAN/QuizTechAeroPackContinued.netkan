@@ -12,7 +12,9 @@
     "depends" : [
         { "name": "ModuleManager" },
         { "name": "FirespitterCore" },
-        { "name": "BDAnimationModules" },
+        { "name": "BDAnimationModules" }
+    ],
+    "recommends": [
         { "name": "RasterPropMonitor-Core" }
     ],
     "suggests"     : [
