@@ -1,8 +1,8 @@
 {
-  "license": "CC-BY-NC-SA-3.0",
-  "identifier": "DockingcameraKURSstyle",
+  "license": "unknown",
+  "identifier": "StructuralDisks",
   "x_via": "Automated Linuxgurugamer CKAN script",
-  "$kref": "#/ckan/spacedock/756",
+  "$kref": "#/ckan/spacedock/1020",
   "$vref": "#/ckan/ksp-avc",
   "depends": [
     {
@@ -11,10 +11,9 @@
   ],
   "install": [
     {
-      "find": "OLDD",
+      "find": "StructuralDisks",
       "install_to": "GameData"
     }
   ],
   "spec_version": "v1.4"
 }
-
