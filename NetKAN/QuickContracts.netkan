@@ -1,13 +1,13 @@
 {
-    "spec_version" : 1,
+    "spec_version" : "v1.2",
     "identifier"   : "QuickContracts",
     "$kref"        : "#/ckan/spacedock/104",
     "$vref"        : "#/ckan/ksp-avc",
     "license"      : "GPL-3.0",
     "install": [
         {
-            "file"       : "GameData/QuickContracts",
-            "install_to" : "GameData"
+            "file"       : "GameData/QuickMods/QuickContracts",
+            "install_to" : "GameData/QuickMods"
         }
     ]
 }
