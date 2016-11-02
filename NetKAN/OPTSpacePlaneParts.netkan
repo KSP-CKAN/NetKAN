@@ -1,13 +1,19 @@
 {
     "spec_version": "v1.4",
-    "identifier": "OPTSpacePlaneParts",
-    "license": "CC-BY-NC-SA-4.0",
-    "$kref": "#/ckan/spacedock/711",
+    "identifier"  : "OPTSpacePlaneParts",
+    "name"        : "Orbit Portal Technology [OPT] Spaceplane Parts (Legacy)",
+    "abstract"    : "Parts from previous OPT versions, recommended to avoid game breaking if you used v1.8.6",
+    "license"     : "CC-BY-NC-SA-4.0",
+    "$kref"       : "#/ckan/spacedock/711",
+    "$vref"       : "#/ckan/ksp-avc/GameData/OPT_Legacy/OPTLegacySpaceplaneParts.version",
     "install": [
         {
-            "find": "OPT",
+            "find": "OPT_Legacy",
             "install_to": "GameData"
         }
+    ],
+    "recommends": [
+        { "name": "OPTSpacePlaneMain" }
     ],
     "depends": [
         {
