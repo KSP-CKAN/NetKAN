@@ -28,6 +28,10 @@
             "file"       : "ExtraplanetaryLaunchpads",
             "install_to" : "GameData",
             "filter"     : "Ships"
+        },
+        {
+            "file"       : "ExtraplanetaryLaunchpads/Ships",
+            "install_to" : "Ships"
         }
     ]
 }
