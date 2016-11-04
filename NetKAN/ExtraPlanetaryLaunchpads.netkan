@@ -30,7 +30,11 @@
             "filter"     : "Ships"
         },
         {
-            "file"       : "ExtraplanetaryLaunchpads/Ships",
+            "file"       : "ExtraplanetaryLaunchpads/Ships/SPH",
+            "install_to" : "Ships"
+        },
+        {
+            "file"       : "ExtraplanetaryLaunchpads/Ships/VAB",
             "install_to" : "Ships"
         }
     ]
