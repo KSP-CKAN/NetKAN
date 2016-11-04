@@ -15,5 +15,15 @@
             "find": "BDArmory",
             "install_to": "GameData"
         }
+    ],
+    "x_netkan_override": [
+        {
+            "version": "v0.11.1.5",
+            "delete": [ "ksp_version" ],
+            "override": {
+                "ksp_version_min" : "1.2.0",
+                "ksp_version_max" : "1.2.1"
+            }
+        }
     ]
 }
