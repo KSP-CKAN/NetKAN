@@ -1,6 +1,8 @@
 {
     "spec_version"   : 1,
     "name"           : "Extraplanetary Launchpads",
+    "$kref"          : "#/ckan/http/http://taniwha.org/~bill/Extraplanetary_Launchpads_v5.5.3.zip",
+    "$vref"          : "#/ckan/ksp-avc/ExtraplanetaryLaunchpads/Plugins/EL.version",
     "abstract"       : "Adds the ability to build crafts in flight mode to your game.",
     "identifier"     : "ExtraPlanetaryLaunchpads",
     "author"         : "taniwha",
@@ -27,8 +29,5 @@
             "install_to" : "GameData",
             "filter"     : "Ships"
         }
-    ],
-    "version": "5.5.3",
-    "ksp_version": "1.2",
-    "download": "http://taniwha.org/~bill/Extraplanetary_Launchpads_v5.5.3.zip"
+    ]
 }
