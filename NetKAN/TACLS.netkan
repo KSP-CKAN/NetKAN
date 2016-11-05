@@ -15,6 +15,9 @@
     "suggests" : [
         {   "name" : "KSP-AVC" }
     ],
+    "supports": [
+        {   "name" : "CommunityCategoryKit" }
+    ],
     "install" : [
         {
             "find"          : "GameData/ThunderAerospace",
