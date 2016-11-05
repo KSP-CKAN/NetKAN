@@ -1,0 +1,23 @@
+{
+    "spec_version" : 1,
+    "identifier"   : "SigmaBinary",
+    "$kref"        : "#/ckan/github/Sigma88/Sigma-Binary",
+    "install": [
+       {
+           "file"       : "GameData/Sigma",
+           "install_to" : "GameData"
+       }
+   ],
+    "license"      : "restricted",
+    "ksp_version"  : "1.2.1",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/127820"
+    },
+    "depends": [
+            { "name": "ModuleManager" },
+            { "name": "Kopernicus" }
+        ],
+    "suggests": [
+            { "name": "KSP-AVC" }
+        ]
+}
