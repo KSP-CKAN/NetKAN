@@ -27,7 +27,6 @@
         {
             "find"          : "GameData/REPOSoftTech/RSTKSPUtils",
             "install_to"    : "GameData",
-            "filter_regexp" : "TacLifeSupport\\/LifeSupport\\.cfg$"
         }
     ],
     "resources" : {
