@@ -17,7 +17,8 @@
     "supports": [
         {
             "name": "CommunityCategoryKit"
-        },
+        }
+    ],
     "install" : [
         {
             "find"          : "GameData/ThunderAerospace",
@@ -26,7 +27,7 @@
         }
         {
             "find"          : "GameData/REPOSoftTech/RSTKSPUtils",
-            "install_to"    : "GameData",
+            "install_to"    : "GameData"
         }
     ],
     "resources" : {
