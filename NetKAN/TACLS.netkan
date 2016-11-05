@@ -14,9 +14,14 @@
     "suggests" : [
         {   "name" : "KSP-AVC" }
     ],
+    "supports": [
+        {
+            "name": "CommunityCategoryKit"
+        },
     "install" : [
         {
             "find"          : "GameData/ThunderAerospace",
+            "find"          : "GameData/REPOSoftTech/RSTKSPUtils",
             "install_to"    : "GameData",
             "filter_regexp" : "TacLifeSupport\\/LifeSupport\\.cfg$"
         }
