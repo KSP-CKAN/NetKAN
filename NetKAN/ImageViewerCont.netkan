@@ -6,7 +6,7 @@
       "find": "ImageViewer"
     }
   ],
-  "$vref": "#/ckan/ksp-avc",
+  "$vref": "#/ckan/ksp-avc/GameData/ImageViewer/ImageViewerCont.version",
   "$kref": "#/ckan/spacedock/1037",
   "x_via": "Automated Linuxgurugamer CKAN script",
   "identifier": "ImageViewerCont",
