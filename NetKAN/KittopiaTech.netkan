@@ -17,9 +17,9 @@
     "resources": {
         "homepage": "http://forum.kerbalspaceprogram.com/threads/129186"
     },
-    "ksp_version": "1.0.5",
+    "ksp_version": "1.2",
     "depends": [
-        { "name" : "Kopernicus", "min_version": "1:beta-05-2" }
+        { "name" : "Kopernicus", "min_version": "2:release-1.2.0-1" }
     ],
     "install": [
         {
