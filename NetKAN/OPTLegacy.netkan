@@ -1,0 +1,28 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "OPTLegacy",
+    "license": "CC-BY-NC-SA-4.0",
+    "$kref": "#/ckan/spacedock/711",
+    "$vref": "#/ckan/ksp-avc",
+    "install": [
+        {
+            "find": "OPT_Legacy",
+            "install_to": "GameData"
+        },
+        {
+            "find": "SPH",
+            "install_to": "Ships"
+        }
+    ],
+    "depends": [
+        { "name": "FirespitterCore" },
+        { "name": "ModuleManager" }
+    ],
+    "suggests": [
+        { "name": "ConnectedLivingSpace" },
+        { "name": "ModularFuelTanks" },
+        { "name": "RasterPropMonitor" },
+        { "name": "RealFuels" },
+        { "name": "TACLS" }
+    ]
+}
