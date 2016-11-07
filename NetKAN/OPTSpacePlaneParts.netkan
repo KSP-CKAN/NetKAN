@@ -2,19 +2,30 @@
     "spec_version": "v1.4",
     "identifier": "OPTSpacePlaneParts",
     "license": "CC-BY-NC-SA-4.0",
-    "$kref": "#/ckan/spacedock/711",
+    "$kref": "#/ckan/spacedock/1028",
     "install": [
         {
             "find": "OPT",
             "install_to": "GameData"
+        },
+        {
+            "find": "SPH",
+            "install_to": "Ships"
         }
     ],
     "depends": [
-        {
-            "name": "FirespitterCore"
-        },
-        {
-            "name": "ModuleManager"
-        }
+        { "name": "ASETAvionics" },
+        { "name": "ASETProps" },
+        { "name": "CommunityResourcePack" },
+        { "name": "FirespitterCore" },
+        { "name": "InterstellarFuelSwitch" },
+        { "name": "RasterPropMonitor" },
+        { "name": "ModuleManager" }
+    ],
+    "suggests": [
+        { "name": "ConnectedLivingSpace" },
+        { "name": "ModularFuelTanks" },
+        { "name": "RealFuels" },
+        { "name": "TACLS" }
     ]
 }
