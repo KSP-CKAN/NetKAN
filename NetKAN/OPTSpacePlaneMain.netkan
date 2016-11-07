@@ -15,8 +15,8 @@
     "suggests": [
         { "name": "RasterPropMonitor" },
         { "name": "ASETAvionics" },
-        { "name": "ASETProps" }
-
+        { "name": "ASETProps" },
+        { "name": "CommunityResourcePack" }
     ],
     "supports": [
         { "name" : "ConnectedLivingSpace" },
