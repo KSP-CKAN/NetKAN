@@ -3,5 +3,12 @@
     "identifier"   : "NanoGauges",
     "$kref"        : "#/ckan/spacedock/581",
     "$vref"        : "#/ckan/ksp-avc",
-    "license"      : "CC-BY-SA-3.0"
+    "license"      : "CC-BY-SA-3.0",
+    "install": [
+        {
+            "find"          : "NanoGauges",
+            "install_to"    : "GameData",
+            "filter"        : "Source"
+        }
+    ]
 }
