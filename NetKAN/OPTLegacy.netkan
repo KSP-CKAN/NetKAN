@@ -18,6 +18,9 @@
         { "name": "FirespitterCore" },
         { "name": "ModuleManager" }
     ],
+    "recommends": [
+        { "name": "OPTSpacePlaneParts" }
+    ],
     "suggests": [
         { "name": "ConnectedLivingSpace" },
         { "name": "ModularFuelTanks" },

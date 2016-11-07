@@ -14,13 +14,16 @@
         }
     ],
     "depends": [
+        { "name": "FirespitterCore" },
+        { "name": "InterstellarFuelSwitch" },
+        { "name": "ModuleManager" }
+    ],
+    "recommends": [
         { "name": "ASETAvionics" },
         { "name": "ASETProps" },
         { "name": "CommunityResourcePack" },
-        { "name": "FirespitterCore" },
-        { "name": "InterstellarFuelSwitch" },
+        { "name": "OPTLegacy" },
         { "name": "RasterPropMonitor" },
-        { "name": "ModuleManager" }
     ],
     "suggests": [
         { "name": "ConnectedLivingSpace" },
