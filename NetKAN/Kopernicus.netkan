@@ -25,9 +25,6 @@
         { "name": "ModuleManager", "min_version": "2.6.16" },
         { "name": "ModularFlightIntegrator" }
     ],
-    "suggests": [
-        { "name": "KittopiaTech" }
-    ],
     "install": [
         {
             "find"      : "Kopernicus",
