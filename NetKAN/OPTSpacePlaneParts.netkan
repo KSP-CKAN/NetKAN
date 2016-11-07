@@ -23,7 +23,7 @@
         { "name": "ASETProps" },
         { "name": "CommunityResourcePack" },
         { "name": "OPTLegacy" },
-        { "name": "RasterPropMonitor" },
+        { "name": "RasterPropMonitor" }
     ],
     "suggests": [
         { "name": "ConnectedLivingSpace" },
