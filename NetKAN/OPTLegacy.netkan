@@ -1,11 +1,12 @@
 {
     "spec_version": "v1.4",
-    "identifier": "OPTSpacePlaneParts",
+    "identifier": "OPTLegacy",
     "license": "CC-BY-NC-SA-4.0",
-    "$kref": "#/ckan/spacedock/1028",
+    "$kref": "#/ckan/spacedock/711",
+    "$vref": "#/ckan/ksp-avc",
     "install": [
         {
-            "find": "OPT",
+            "find": "OPT_Legacy",
             "install_to": "GameData"
         },
         {
@@ -15,19 +16,15 @@
     ],
     "depends": [
         { "name": "FirespitterCore" },
-        { "name": "InterstellarFuelSwitch" },
         { "name": "ModuleManager" }
     ],
     "recommends": [
-        { "name": "ASETAvionics" },
-        { "name": "ASETProps" },
-        { "name": "CommunityResourcePack" },
-        { "name": "OPTLegacy" },
-        { "name": "RasterPropMonitor" }
+        { "name": "OPTSpacePlaneParts" }
     ],
     "suggests": [
         { "name": "ConnectedLivingSpace" },
         { "name": "ModularFuelTanks" },
+        { "name": "RasterPropMonitor" },
         { "name": "RealFuels" },
         { "name": "TACLS" }
     ]
