@@ -3,5 +3,11 @@
     "$kref": "#/ckan/spacedock/913",
     "spec_version": "v1.4",
     "identifier": "HospitalShip",
-    "x_via": "Automated SpaceDock CKAN submission"
+    "x_via": "Automated SpaceDock CKAN submission",
+    "install": [
+        {
+            "find":"Hospital Ship",
+            "install_to": "GameData"
+        }
+    ]
 }
