@@ -7,7 +7,7 @@
     "install": [
         {
             "find"          : "NanoGauges",
-            "install_to"    : "GameData",
+            "install_to"    : "GameData/Nereid",
             "filter"        : "Source"
         }
     ]
