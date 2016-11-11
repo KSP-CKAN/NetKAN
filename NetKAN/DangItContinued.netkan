@@ -1,0 +1,19 @@
+{
+  "spec_version": "v1.4",
+  "install": [
+    {
+      "install_to": "GameData",
+      "find": "DangIt"
+    }
+  ],
+  "depends": [
+    {
+      "name": "ModuleManager"
+    }
+  ],
+  "$vref": "#/ckan/ksp-avc",
+  "$kref": "#/ckan/spacedock/1054",
+  "x_via": "Automated Linuxgurugamer CKAN script",
+  "identifier": "DangItContinued",
+  "license": "GPL-3.0"
+}
