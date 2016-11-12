@@ -1,16 +1,16 @@
-{
+
     "spec_version" : 1,
     "identifier"   : "CameraTools",
     "license"      : "GPL-3.0",
-    "$kref"        : "#/ckan/spacedock/274",
+    "$kref"        : "#https://github.com/jrodrigv/CameraTools/releases/download/v1.7.0/CameraTools.1.7.0_11092016.zip",
     "x_netkan_force_v": true,
     "x_netkan_override": [
         {
-            "version": "v1.3",
+            "version": "v1.7",
             "delete": [ "ksp_version" ],
             "override": {
                 "ksp_version_min": "1.0.2",
-                "ksp_version_max": "1.0.5"
+                "ksp_version_max": "1.1.2"
             }
         }
     ]
