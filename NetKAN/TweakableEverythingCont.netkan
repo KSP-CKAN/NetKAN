@@ -1,0 +1,21 @@
+{
+    "spec_version" : 1,
+    "identifier"   : "TweakableEverythingCont",
+    "$kref"        : "#/ckan/spacedock/1059",
+    "license"      : "BSD-3-clause",
+    "install": [
+        {
+            "file": "GameData/TweakableEverything",
+            "install_to": "GameData"
+        }
+    ],
+    "install": [
+        {
+            "file": "GameData/ToadicusTools",
+            "install_to": "GameData"
+        }
+    ],
+    "depends": [
+        { "name": "ModuleManager" }
+    ]
+}
