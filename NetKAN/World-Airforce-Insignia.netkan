@@ -1,0 +1,11 @@
+{
+    "spec_version" : 1,
+    "identifier"   : "World-Airforce-Insignia",
+    "$kref"        : "#/ckan/github/chaseAEd/World-Airforce-Insignia",
+     "name"         : "World Airforce Insignia",
+    "abstract"     : "A simple mod that adds a range of current, or historic airforce roundels to add to your planes.",
+    "license"      : "MIT",
+    "ksp_version"  : "1.2.99",
+    "resources": {
+        "homepage": "https://github.com/chaseAEd/World-Airforce-Insignia"
+    }
