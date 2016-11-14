@@ -1,0 +1,22 @@
+{
+    "spec_version" : "v1.2",
+    "identifier"   : "KSP-Slovakia-flags",
+    "$kref"        : "#/ckan/github/miki-g/KSP-Slovakia-Flags",
+    "ksp_version"    : "any",
+    "comment"        : "flagmod",
+    "name"         : "KSP Slovakia Flags",
+    "author"       : [ "Miki" ],
+    "abstract"     : "Slovakia Flags",
+    "license"      : "WTFPL",
+
+    "install": [
+          {
+           "file" : "KSP Slovakia Flags",
+           "install_to" : "GameData"
+          }
+    ],
+
+    "resources": {
+        "homepage": "https://github.com/miki-g/KSP-Slovakia-Flags"
+    }
+}
