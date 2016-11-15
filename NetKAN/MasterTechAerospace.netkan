@@ -16,14 +16,14 @@
     ],
     "comment": "Author has advised no further releases expected. Update compatibility as per user reports",
     "depends": [
-        { "name": "ModuleManager" },
-        { "name": "QuizTechAeroPack-internals" }
+        { "name": "ModuleManager" }
     ],
     "recommends": [
         { "name": "BDArmory" }
     ],
     "suggests": [
-        { "name": "RasterPropMonitor" }
+        { "name": "RasterPropMonitor" },
+        { "name": "QuizTechAeroPack-internals" }
     ],
     "install": [
         {
