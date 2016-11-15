@@ -2,6 +2,8 @@
     "spec_version": "v1.4",
     "$kref": "#/ckan/spacedock/1032",
     "license": "CC-BY-NC-SA",
-    "x_via": "Automated SpaceDock CKAN submission",
-    "identifier": "SensibleTechTree"
+    "depends" : [ { "name" : "ModuleManager" } ],
+    "identifier": "SensibleTechTree",
+    "install" : [ { "find" : "Sensible Tech Tree",
+                    "install_to" : "GameData" } ]
 }
