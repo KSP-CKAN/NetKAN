@@ -1,7 +1,10 @@
 {
-    "x_via": "Automated SpaceDock CKAN submission",
+    "depends" : [ { "name" : "ModuleManager" } ],
     "$kref": "#/ckan/spacedock/1031",
     "spec_version": "v1.4",
     "license": "MIT",
-    "identifier": "ShowAllFuelsContinued"
+    "$vref" : "#/ckan/ksp-avc",
+    "identifier": "ShowAllFuelsContinued",
+    "install" : [ { "find" : "ShowAllFuels",
+                    "install_to" : "GameData" } ]
 }
