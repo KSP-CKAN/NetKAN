@@ -1,7 +1,17 @@
 {
     "identifier": "CopiedPlanetoidMod",
     "x_via": "Automated SpaceDock CKAN submission",
-    "license": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License",
+    "license": "CC-BY-NC-SA-4.0",
     "$kref": "#/ckan/spacedock/1001",
-    "spec_version": "v1.4"
+    "spec_version": "v1.4",
+    "depends": [
+        { "name": "Kopernicus" },
+        { "name": "ModuleManager" }
+    ],
+    "install": [
+        {
+            "find":"CPM",
+            "install_to": "GameData"
+        }
+    ]
 }
