@@ -3,6 +3,18 @@
     "spec_version": "v1.4",
     "identifier": "MasterTechAerospace",
     "license": "CC-BY-SA-2.0",
+    "x_netkan_epoch": 1,
+    "x_netkan_override": [
+        {
+            "version": "1:1",
+            "delete": [ "ksp_version" ],
+            "override": {
+                "ksp_version_min" : "1.2",
+                "ksp_version_max" : "1.2"
+            }
+        }
+    ],
+    "comment": "Author has advised no further releases expected. Update compatibility as per user reports",
     "depends": [
         { "name": "ModuleManager" },
         { "name": "QuizTechAeroPack-internals" }
