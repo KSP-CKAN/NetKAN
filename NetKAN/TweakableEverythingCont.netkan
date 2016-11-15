@@ -10,7 +10,7 @@
         }
     ],
     "depends": [
-    	{ "name": "ToadicusToolsCont" },
+    	{ "name": "ToadicusToolsContinued" },
         { "name": "ModuleManager" }
     ],
     "conflicts": [
