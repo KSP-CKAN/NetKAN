@@ -7,7 +7,8 @@
     "license": "CC-BY-NC-SA-4.0",
     "depends" : [
         { "name" : "ModuleManager", "min_version" : "2.3.5" },
-        { "name" : "REPOSoftTech-Agencies" }
+        { "name" : "REPOSoftTech-Agencies" },
+        { "name" : "RSTKSPUtils" }
     ],
     "recommends" : [
         { "name" : "Toolbar" },
@@ -21,6 +22,13 @@
         { "name" : "AmpYearPowerManager"}
     ],
     "install": [
-        { "find": "REPOSoftTech", "install_to": "GameData", "filter": "Agencies" }
+        { 
+            "find": "REPOSoftTech", 
+            "install_to": "GameData", 
+            "filter": [ 
+                "Agencies",
+                "RSTKSPUtils"
+            ]
+        }
     ]
 }
