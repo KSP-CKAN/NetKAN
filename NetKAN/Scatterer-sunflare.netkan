@@ -16,5 +16,13 @@
             "find"       : "Sunflares",
             "install_to" : "GameData/scatterer/config"
         }
+    ],
+    "x_netkan_override": [
+        {
+            "version": "2:v0.0256",
+            "override": {
+                "ksp_version" : "1.2"
+            }
+        }
     ]
 }
