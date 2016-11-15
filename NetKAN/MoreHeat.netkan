@@ -1,7 +1,7 @@
 {
-    "x_via": "Automated SpaceDock CKAN submission",
+    "depends" : [ { "ModuleManager" } ],
     "$kref": "#/ckan/spacedock/1043",
     "spec_version": "v1.4",
     "license": "Unlicense",
-    "identifier": "MoreHeat"
+    "identifier": "MoreHeat!"
 }
