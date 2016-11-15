@@ -3,5 +3,7 @@
     "$kref": "#/ckan/spacedock/1043",
     "spec_version": "v1.4",
     "license": "Unlicense",
-    "identifier": "MoreHeat!"
+    "identifier": "MoreHeat",
+    "install" : [ { "find" : "MoreHeat!",
+                    "install_to" : "GameData" } ]
 }
