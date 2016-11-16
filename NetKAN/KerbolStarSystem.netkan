@@ -7,7 +7,8 @@
     "identifier": "KerbolStarSystem",
     "depends": [
         { "name": "Kopernicus" },
-        { "name": "ModuleManager" }
+        { "name": "ModuleManager" },
+        { "name": "Scatterer" }
     ],
     "install": [
         {
