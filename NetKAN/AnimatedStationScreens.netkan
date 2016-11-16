@@ -1,7 +1,8 @@
 {
-    "x_via": "Automated SpaceDock CKAN submission",
-    "license": "CC-BY-NC-CA 4.0",
+    "license": "CC-BY-NC-SA-4.0",
     "identifier": "AnimatedStationScreens",
     "$kref": "#/ckan/spacedock/1057",
-    "spec_version": "v1.4"
+    "spec_version": "v1.4",
+    "install" : [ { "find" : "KerbalHacks",
+                    "install_to" : "GameData" } ]
 }
