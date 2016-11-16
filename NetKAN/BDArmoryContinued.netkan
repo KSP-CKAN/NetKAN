@@ -1,0 +1,29 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "BDArmoryContinued",
+    "$kref": "#/ckan/spacedock/867",
+    "author": [ "BahamutoD", "Papa_Joe", "jrodrigv", "ouloul" ],
+    "license": "CC-BY-SA-2.0",
+    "provides": [
+	    "BDArmory"
+	],
+    "conflicts": [
+        { "name": "BDArmory" }
+    ],
+    "install": [
+        {
+            "find": "BDArmory",
+            "install_to": "GameData"
+        }
+    ],
+    "x_netkan_override": [
+        {
+            "version": "v0.11.1.5",
+            "delete": [ "ksp_version" ],
+            "override": {
+                "ksp_version_min" : "1.2.0",
+                "ksp_version_max" : "1.2.1"
+            }
+        }
+    ]
+}

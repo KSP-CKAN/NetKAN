@@ -16,6 +16,10 @@
         {
             "find"       : "SpaceLaunchSystem",
             "install_to" : "GameData"
+        },
+        {
+            "find"        : "VAB",
+            "install_to"  : "Ships"
         }
     ]
 }

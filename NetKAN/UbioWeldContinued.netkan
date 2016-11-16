@@ -14,5 +14,15 @@
             "file"       : "GameData/UbioWeldingLtd",
             "install_to" : "GameData"
         }
+    ],
+    "x_netkan_override": [
+        {
+            "version": "2.3.3",
+            "delete": [ "ksp_version" ],
+            "override": {
+                "ksp_version_min" : "1.1.2",
+                "ksp_version_max" : "1.1.3"
+            }
+        }
     ]
 }

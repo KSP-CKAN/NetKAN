@@ -1,0 +1,24 @@
+{
+    "spec_version" : 1,
+    "identifier"   : "LanderControl",
+    "$kref"        : "#/ckan/curse/238277",
+    "abstract"     : "This mod allows the user to fly the lander with a proper IVA configuration to make landing in IVA much better.",
+    "license"      : "restricted",
+    "install": [
+        {
+            "file"       : "HAIT",
+            "install_to" : "GameData"
+        }
+    ],
+    "x_netkan_override": [
+        {
+            "version": "814",
+            "delete": [ "ksp_version" ],
+            "override": {
+                "ksp_version_min" : "1.1.3",
+                "ksp_version_max" : "1.2"
+            },
+            "comment": "https://github.com/KSP-CKAN/NetKAN/issues/4770"
+        }
+    ]
+}

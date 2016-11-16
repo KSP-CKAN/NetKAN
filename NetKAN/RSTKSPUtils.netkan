@@ -1,0 +1,18 @@
+{
+    "spec_version" : "v1.4",
+    "identifier"   : "RSTKSPUtils",
+    "$kref"        : "#/ckan/spacedock/142",
+    "name"         : "REPOSoftTech-KSP Utils",
+    "abstract"     : "Shared library required by JPLRepo's mods",
+    "license"      : "CC-BY-NC-SA-4.0",
+    "recommends": [
+        { "name": "AmpYearPowerManager" },
+        { "name": "DeepFreeze" }
+    ],
+    "install": [
+        {
+            "find"       : "RSTKSPUtils",
+            "install_to" : "GameData/REPOSoftTech"
+        }
+    ]
+}

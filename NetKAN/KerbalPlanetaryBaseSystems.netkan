@@ -11,5 +11,9 @@
             "filter"     : "_src.zip"
         }
     ],
+    "depends" : [
+        { "name" : "CommunityCategoryKit" },
+        { "name" : "CommunityResourcePack" }
+    ],
     "x_netkan_force_v": true
 }

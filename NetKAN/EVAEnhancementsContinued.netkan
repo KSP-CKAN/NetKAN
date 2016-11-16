@@ -1,0 +1,14 @@
+{
+  "license": "MIT",
+  "identifier": "EVAEnhancementsContinued",
+  "x_via": "Automated Linuxgurugamer CKAN script",
+  "$kref": "#/ckan/spacedock/994",
+  "$vref": "#/ckan/ksp-avc",
+  "install": [
+    {
+      "find": "EVAEnhancementsContinued",
+      "install_to": "GameData"
+    }
+  ],
+  "spec_version": "v1.4"
+}

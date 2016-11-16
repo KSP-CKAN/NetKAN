@@ -1,0 +1,21 @@
+{
+  "license": "Unlicense",
+  "identifier": "PartOrganizer",
+  "x_via": "Automated Linuxgurugamer CKAN script",
+  "$kref": "#/ckan/spacedock/929",
+  "resources": {
+    "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/146758-113-partorganizer/"
+  },
+  "depends": [
+    {
+      "name": "ModuleManager"
+    }
+  ],
+  "install": [
+    {
+      "find": "PartOrganizer",
+      "install_to": "GameData"
+    }
+  ],
+  "spec_version": "v1.18"
+}
