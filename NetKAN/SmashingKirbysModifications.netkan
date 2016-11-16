@@ -1,7 +1,17 @@
 {
-    "license": "CC",
+    "license": "CC-BY",
     "spec_version": "v1.4",
     "x_via": "Automated SpaceDock CKAN submission",
     "identifier": "SmashingKirbysModifications",
-    "$kref": "#/ckan/spacedock/1049"
+    "$kref": "#/ckan/spacedock/1049",
+    "depends": [
+        { "name": "Kopernicus" },
+        { "name": "ModuleManager" }
+    ],
+    "install": [
+        {
+            "file":"JoolSystemTweaks",
+            "install_to": "GameData"
+        }
+    ]
 }
