@@ -1,0 +1,24 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "Overdrive",
+    "name": "Overdrive",
+    "abstract": "Make KSP UI ROCK!",
+    "author": "RealGecko",
+    "license": "BSD-3-clause",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/152007-ksp-121-overdrive-lets-rock-revamp-ksp-ui/",
+        "spacedock": "http://spacedock.info/mod/1063/Overdrive",
+        "repository": "https://github.com/Real-Gecko/KSP-Overdrive",
+        "x_screenshot": "http://spacedock.info/content/RealGecko_4471/Overdrive/Overdrive-1479085975.0556216.png"
+    },
+    "version": "1.0.0",
+    "ksp_version": "1.2.1",
+    "download": "http://spacedock.info/mod/1063/Overdrive/download/1.0.0",
+    "download_size": 8464,
+    "download_hash": {
+        "sha1": "3ba60152ef2e1a566852953f677e898028196a92",
+        "sha256": "bb70e238445775db24a313dc6d9f58b4fff9215af568a040e36e77f030131a70"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "RealGecko"
+}
