@@ -1,6 +1,7 @@
 {
     "spec_version": "v1.4",
     "$kref": "#/ckan/spacedock/1032",
+    "x_netkan_version_edit": "^.*[vV](?<version>.+)$",
     "license": "CC-BY-NC-SA",
     "depends" : [ { "name" : "ModuleManager" } ],
     "identifier": "SensibleTechTree",
