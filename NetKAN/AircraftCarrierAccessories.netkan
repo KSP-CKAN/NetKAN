@@ -1,7 +1,8 @@
 {
-    "x_via": "Automated SpaceDock CKAN submission",
     "license": "MIT",
     "identifier": "AircraftCarrierAccessories",
     "spec_version": "v1.4",
-    "$kref": "#/ckan/spacedock/1068"
+    "$kref": "#/ckan/spacedock/1068",
+    "install": [ { "find" : "KFC",
+                   "install_to" : "GameData"} ]
 }
