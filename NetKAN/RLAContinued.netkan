@@ -11,6 +11,7 @@
       "name": "ModuleManager"
     }
   ],
+  "$vref": "#/ckan/ksp-avc",
   "$kref": "#/ckan/spacedock/1071",
   "x_via": "Automated Linuxgurugamer CKAN script",
   "identifier": "RLAContinued",
