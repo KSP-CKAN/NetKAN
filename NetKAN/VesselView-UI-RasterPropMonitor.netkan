@@ -24,10 +24,10 @@
 				"license.txt",
 				"README.txt",
 				"VesselView.version",
-				"Plugins/VesselView.dll",
-				"Plugins/VesselViewPlugin.dll",
-				"Plugins/VVPartSelector.dll",
-				"Plugins/VVDiscoDisplay.dll"
+				"VesselView.dll",
+				"VesselViewPlugin.dll",
+				"VVPartSelector.dll",
+				"VVDiscoDisplay.dll"
 			]
         }
     ]
