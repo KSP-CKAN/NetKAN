@@ -11,8 +11,8 @@
 		{
 			"find": "VesselView",
 			"filter": [
-				"Plugins/VesselViewRPM.dll",
-				"Plugins/VesselViewPlugin.dll"
+				"VesselViewRPM.dll",
+				"VesselViewPlugin.dll"
 	  		],
 			"install_to": "GameData"
 		}
