@@ -6,9 +6,6 @@
     "x_netkan_epoch": 1,
     "depends": [
 		{ "name": "VesselView" },
-        { "name": "RasterPropMonitor-Core" }
-    ],
-    "recommends": [
         { "name": "RasterPropMonitor" }
     ],
 	"provides"  : [ "VesselView-UI" ],
