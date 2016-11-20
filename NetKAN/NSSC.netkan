@@ -12,8 +12,14 @@
          },
          {
              "name": "ModuleManager"
+         },
+         {
+             "name": "KIS"
          }
      ],
+    "recommends"     : [
+        {"name" : "KAS"}
+    ],
     "conflicts": [
         { "name": "ExtraPlanetaryLaunchpads" }
     ]
