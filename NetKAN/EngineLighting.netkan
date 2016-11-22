@@ -15,7 +15,7 @@
     ],
     "install"      : [
         {
-            "find"       : "GameData/EngineLight",
+            "find"       : "EngineLight",
             "install_to" : "GameData"
         }
     ],
