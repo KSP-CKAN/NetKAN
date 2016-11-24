@@ -5,17 +5,13 @@
     "x_via": "Manual SpaceDock CKAN submission",
     "license": "GPL-3.0",
     "author": "RealGecko",
-    "ksp_version" : "any",
     "depends": [
-         {
-             "name": "USITools"
-         },
          {
              "name": "ModuleManager"
          }
      ],
     "recommends"     : [
         {"name" : "EasyVesselSwitch"},
-        {"name" : "EVATransfer"}
+        {"name" : "AlternateResourcePanel"}
     ]
 }
