@@ -1,7 +1,13 @@
 {
-    "license": "CC-BY-SA 2.0 https://creativecommons.org/licenses/by-sa/2.0/",
+    "license": "CC-BY-SA-2.0",
     "$kref": "#/ckan/spacedock/1090",
-    "x_via": "Automated SpaceDock CKAN submission",
     "spec_version": "v1.4",
-    "identifier": "ContractPackDefenseCombatAdvisors"
+    "name" : "Contract Pack: Defense Combat Advisors (Legacy Aim)",
+    "identifier": "ContractConfigurato-DefenseCombatAdvisors-LegacyAim",
+    "depends": [ { "name" : "ContractConfigurator" },
+                 { "name" : "BDArmoryContinued" } ],
+    "recommends": [ { "name" : "MechJeb2" },
+                    { "name" : "MechJebForAll" } ],
+    "install": [ { "find": "Legacy Aim Mode",
+                   "install_to" : "GameData/ContractPacks/DCA } ]
 }
