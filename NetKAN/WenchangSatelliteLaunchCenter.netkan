@@ -4,6 +4,6 @@
     "$kref": "#/ckan/spacedock/1091",
     "spec_version": "v1.4",
     "depends": [ { "name" : "KerbalKonstructs" } ],
-    "install" [ { "find" : "Wenchang_Satellite_Launch_Center",
+    "install": [ { "find" : "Wenchang_Satellite_Launch_Center",
                   "install_to" : "GameData" } ]
 }
