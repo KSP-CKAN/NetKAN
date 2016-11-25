@@ -8,6 +8,6 @@
                  { "name" : "BDArmoryContinued" } ],
     "recommends": [ { "name" : "MechJeb2" },
                     { "name" : "MechJebForAll" } ],
-    "install": [ { "find": "Legacy Aim Mode",
-                   "install_to" : "GameData/ContractPacks/DCA" } ]
+    "install": [ { "find": "DCA (Legacy Aim)",
+                   "install_to" : "GameData/ContractPacks" } ]
 }
