@@ -1,7 +1,9 @@
 {
-    "x_via": "Automated SpaceDock CKAN submission",
-    "license": "CC BY-SA 4.0",
+    "license": "CC-BY-SA-4.0",
     "identifier": "WenchangSatelliteLaunchCenter",
     "$kref": "#/ckan/spacedock/1091",
-    "spec_version": "v1.4"
+    "spec_version": "v1.4",
+    "depends": [ { "name" : "KerbalKonstructs" } ],
+    "install" [ { "find" : "Wenchang_Satellite_Launch_Center",
+                  "install_to" : "GameData" } ]
 }
