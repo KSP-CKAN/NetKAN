@@ -9,5 +9,5 @@
     "recommends": [ { "name" : "MechJeb2" },
                     { "name" : "MechJebForAll" } ],
     "install": [ { "find": "Legacy Aim Mode",
-                   "install_to" : "GameData/ContractPacks/DCA } ]
+                   "install_to" : "GameData/ContractPacks/DCA" } ]
 }
