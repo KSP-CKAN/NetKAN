@@ -3,7 +3,7 @@
     "$kref": "#/ckan/spacedock/1090",
     "spec_version": "v1.4",
     "name" : "Contract Pack: Defense Combat Advisors (Default Aim)",
-    "identifier": "ContractConfigurator-DefenseCombatAdvisors-LegacyAim",
+    "identifier": "ContractConfigurator-DefenseCombatAdvisors-DefaultAim",
     "depends": [ { "name" : "ContractConfigurator" },
                  { "name" : "BDArmoryContinued" } ],
     "recommends": [ { "name" : "MechJeb2" },
