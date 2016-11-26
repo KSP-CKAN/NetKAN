@@ -6,6 +6,7 @@
     "depends": [ { "name" : "ModuleManager" },
                  { "name" : "ExtraPlanetaryLaunchpads" } ],
     "install": [ { "find" : "GameData/IrishmanIndustries",
-                   "install_to" : "GameData" } ],
+                   "install_to" : "GameData",
+                   "filter" : ".DS_Store" } ],
     "suggests": [ { "name" : "UKS" } ]
 }
