@@ -1,7 +1,11 @@
 {
     "spec_version": "v1.4",
-    "x_via": "Automated SpaceDock CKAN submission",
-    "license": "Released to the public domain",
-    "identifier": "ExtraplanetaryLaunchpadsNoMoreProduction",
-    "$kref": "#/ckan/spacedock/1085"
+    "license": "public-domain",
+    "identifier": "ExtraplanetaryLaunchpads-NoMoreProduction",
+    "$kref": "#/ckan/spacedock/1085",
+    "depends": [ { "name" : "ModuleManager" },
+                 { "name" : "ExtraPlanetaryLaunchpads" } ],
+    "install": [ { "find" : "GameData/IrishmanIndustries",
+                   "install_to" : "GameData" } ],
+    "suggests": [ { "name" : "UKS" } ]
 }
