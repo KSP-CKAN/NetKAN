@@ -1,16 +1,31 @@
 {
-    "$kref": "#/ckan/spacedock/519",
-    "identifier": "BlueHawkIndustries",
     "spec_version": "v1.10",
+    "identifier": "BlueHawkIndustries",
+    "name": "Blue Hawk Industries",
+    "abstract": "Blue Hawk Industries is a mod pack for 1970's era weapons. An emphasis on the F-14 Tomcat is obvious with the mod but other parts are and will be included outside of the Tomcat stuff.",
+    "author": "TMasterson5",
     "license": "CC-BY-SA-2.0",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/136721-blue-hawk-industries/",
+        "spacedock": "https://spacedock.info/mod/519/Blue%20Hawk%20Industries",
+        "x_screenshot": "https://spacedock.info/content/TMasterson5_2247/Blue_Hawk_Industries/Blue_Hawk_Industries-1462038324.262715.png"
+    },
+    "version": "1:1.5",
+    "ksp_version": "1.2.1",
     "depends": [
-        { "name": "BDArmory" },
-        { "name": "ModuleManager" }
+        {
+            "name": "BDArmory"
+        },
+        {
+            "name": "ModuleManager"
+        }
     ],
     "install": [
         {
             "find_regexp": "Blue.?Hawk.?Industries$",
             "install_to": "GameData"
         }
-    ]
+    ],
+    "download": "https://www.dropbox.com/sh/okudbdq1w0b3cob/AADlmWKyiXu1aHFTMemqJG8Ta/Blue%20Hawk%20Industries%20V%201.5.zip?dl=1",
+    "download_content_type": "application/zip",
 }
