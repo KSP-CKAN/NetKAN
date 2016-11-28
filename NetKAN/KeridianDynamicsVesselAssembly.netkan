@@ -6,11 +6,19 @@
     "license": "CC-BY-SA-4.0",
     "release_status": "development",
     "depends": [
-        { "name": "ModuleManager" },
-        { "name": "ExtraPlanetaryLaunchpads" }
+        { "name": "ModuleManager" }
     ],
     "supports": [
-        { "name": "CommunityTechTree" },
+        { "name": "ExtraPlanetaryLaunchpads" },
+        { "name": "ConnectedLivingSpace" },
+        { "name": "CommunityResourcePack" },
+        { "name": "CommunityTechTree" }
+    ],
+    "recommends":[
+        { "name": "KIS" },
+        { "name": "JSIAdvancedTransparentPods" },
+        { "name": "Firespitter" },
+        { "name": "InterstellarFuelSwitch" },
         { "name": "KSP-AVC" }
     ],
     "install": [
