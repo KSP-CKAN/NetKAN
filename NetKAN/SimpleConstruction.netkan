@@ -3,6 +3,7 @@
     "identifier": "SimpleConstruction",
     "$kref": "#/ckan/spacedock/59",
     "license": "MIT",
+    "x_netkan_epoch": 1,
     "depends": [
         { "name": "ModuleManager" },
         { "name": "InterstellarFuelSwitch-Core" }
