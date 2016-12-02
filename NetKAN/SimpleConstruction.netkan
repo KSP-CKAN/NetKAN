@@ -19,11 +19,11 @@
     "install" : [
         {
             "find": "SimpleConstruction",
-            "install_to": "GameData",
+            "install_to": "GameData"
         },
         {
             "find": "ExtraplanetaryLaunchpads",
-            "install_to": "GameData",
+            "install_to": "GameData"
         }
     ]
 }
