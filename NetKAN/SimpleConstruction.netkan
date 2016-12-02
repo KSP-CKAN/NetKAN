@@ -2,8 +2,12 @@
     "spec_version": "v1.4",
     "identifier": "SimpleConstruction",
     "$kref": "#/ckan/spacedock/59",
-    "license": "CC-BY-NC-SA-4.0",
-    "x_netkan_force_v": true,
+    "license": "MIT",
+    "x_netkan_version_edit": {
+        "find": "[Version_]?",
+        "replace": "",
+        "strict": false
+    },
     "depends": [
         { "name": "ModuleManager" },
         { "name": "InterstellarFuelSwitch-Core" }
@@ -11,11 +15,15 @@
     "conflicts": [
         { "name": "ExtraPlanetaryLaunchpads" }
     ],
-    "install": [
+    "provides"  : [ "ExtraPlanetaryLaunchpads" ],
+    "install" : [
         {
             "find": "SimpleConstruction",
-            "install_to": "GameData",
-            "filter": [ "Thumbs.db", "InterstellarFuelSwitch.version", "InterstellarFuelSwitch.dll" ]
+            "install_to": "GameData"
+        },
+        {
+            "find": "ExtraplanetaryLaunchpads",
+            "install_to": "GameData"
         }
     ]
 }
