@@ -8,6 +8,7 @@
         "replace": "",
         "strict": false
     },
+    "x_netkan_epoch": 1,
     "depends": [
         { "name": "ModuleManager" },
         { "name": "InterstellarFuelSwitch-Core" }
