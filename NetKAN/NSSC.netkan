@@ -19,8 +19,5 @@
      ],
     "recommends"     : [
         {"name" : "KAS"}
-    ],
-    "conflicts": [
-        { "name": "ExtraPlanetaryLaunchpads" }
     ]
 }
