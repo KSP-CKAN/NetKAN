@@ -6,8 +6,10 @@
     "depends": [
         { "name": "IndicatorLights" }
     ],
-    "supports": [
-        { "name": "VenStockRevamp" },
-        { "name": "ImpossibleInnovations" }
+    "supports": [        
+        { "name": "ImpossibleInnovations" },
+        { "name": "Mk1CabinHatch" },
+        { "name": "PartOverhauls" },
+        { "name": "VenStockRevamp" }
     ]
 }
