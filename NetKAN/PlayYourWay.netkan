@@ -1,7 +1,8 @@
 {
-    "x_via": "Automated SpaceDock CKAN submission",
-    "license": "Public Domain",
     "identifier": "PlayYourWay",
     "$kref": "#/ckan/spacedock/1101",
-    "spec_version": "v1.4"
+    "$vref": "#/ckan/ksp-avc",
+    "spec_version": "v1.4",
+    "license": "public-domain",
+    "x_via": "Automated SpaceDock CKAN submission"
 }
