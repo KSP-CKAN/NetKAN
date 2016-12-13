@@ -8,7 +8,7 @@
   ],
     "depends": [
         { "name": "ModuleManager" }
-    ]
+    ],
   "$vref": "#/ckan/ksp-avc",
   "$kref": "#/ckan/spacedock/1112",
   "x_via": "Automated Linuxgurugamer CKAN script",
