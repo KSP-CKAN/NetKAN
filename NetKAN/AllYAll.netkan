@@ -1,19 +1,19 @@
 {
-    "license": "CC-BY-SA",
-    "identifier": "AllYAll",
-    "$kref": "#/ckan/spacedock/628",
-    "spec_version": "v1.4",
-    "depends": [
-        { "name": "ModuleManager" }
-    ],
-    "x_netkan_override": [
-        {
-            "version": "0.3",
-            "delete" : [ "ksp_version" ],
-            "override" : {
-                "ksp_version_min" : "1.1.0",
-                "ksp_version_max" : "1.1.2"
-            }
-        }
-    ]
+  "spec_version": "v1.4",
+  "install": [
+    {
+      "install_to": "GameData",
+      "find": "AllYAll"
+    }
+  ],
+  "depends": [
+    {
+      "name": "ModuleManager"
+    }
+  ],
+  "$vref": "#/ckan/ksp-avc",
+  "$kref": "#/ckan/github/5thHorseman/AllYAll",
+  "x_via": "Automated Linuxgurugamer CKAN script",
+  "identifier": "AllYAll",
+  "license": "CC-BY"
 }
