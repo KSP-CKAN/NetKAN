@@ -4,6 +4,7 @@
     "$kref" : "#/ckan/github/Li0n-0/Real-Time-Clock-2",
     "name" : "Real Time Clock 2",
     "author" : "Li0n",
+    "abstract" : "In-game clock",
     "license" : "GPL-3.0",
     "$vref" : "#/ckan/ksp-avc",
     "resources": {
