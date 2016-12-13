@@ -1,0 +1,14 @@
+{
+  "spec_version": "v1.4",
+  "install": [
+    {
+      "install_to": "GameData",
+      "find": "RealTimeClock2"
+    }
+  ],
+  "$vref": "#/ckan/ksp-avc",
+  "$kref": "#/ckan/spacedock/1111",
+  "x_via": "Automated Linuxgurugamer CKAN script",
+  "identifier": "RealTimeClock2",
+  "license": "GPL-3.0"
+}
