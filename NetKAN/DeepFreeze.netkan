@@ -7,8 +7,7 @@
     "license": "CC-BY-NC-SA-4.0",
     "depends" : [
         { "name" : "ModuleManager", "min_version" : "2.3.5" },
-        { "name" : "REPOSoftTech-Agencies" },
-        { "name" : "RSTKSPUtils" }
+        { "name" : "REPOSoftTech-Agencies" }
     ],
     "recommends" : [
         { "name" : "Toolbar" },

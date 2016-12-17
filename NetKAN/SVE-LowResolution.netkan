@@ -34,5 +34,14 @@
             "find"       : "GameData/StockVisualEnhancements",
             "install_to" : "GameData"
         }
+    ],
+    "x_netkan_override": [
+        {
+            "version": "2:1.1.4",
+            "delete": [ "ksp_version_min", "ksp_version_max" ],
+            "override": {
+                "ksp_version" : "1.2"
+            }
+        }
     ]
 }

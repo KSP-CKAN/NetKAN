@@ -1,0 +1,15 @@
+{
+    "license": "unrestricted",
+    "$kref": "#/ckan/spacedock/1104",
+    "spec_version": "v1.4",
+    "identifier": "ELMKSDepartsing",
+    "depends": [
+        { "name": "ModuleManager"  }
+     ],
+     "install": [
+    {
+      "install_to": "GameData",
+      "find": "EL-MKS Departsing"
+    }
+  ]
+} 
