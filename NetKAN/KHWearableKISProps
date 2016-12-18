@@ -1,0 +1,20 @@
+{
+    "spec_version" : "v1.0",
+    "ksp_version": "any",
+    "identifier"   : "KHWearableKISProps",
+    "name"         : "Kerbal Hacks: Wearable KIS Props",
+    "$kref"        : "#/ckan/spacedock/1120",
+    "x_netkan_license_ok": true,
+    "resources" : {
+        "homepage" : "http://forum.kerbalspaceprogram.com/index.php?/topic/153654-1xx-kerbal-hacks-wearable-kis-props/"
+    },
+    "depends": [
+        { "name": "KIS" }
+    ],
+    "install": [
+        {
+            "file"       : "GameData/KerbalHacks/KISProps",
+            "install_to" : "GameData/KerbalHacks"
+        }
+    ]
+}
