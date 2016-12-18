@@ -1,13 +1,13 @@
 {
-    "identifier": "BlacklegIndustriesMM",
+    "identifier": "BlacklegIndustriesMM_TantaresTACLS",
     "spec_version": "v1.4",
     "$kref": "#/ckan/github/blackleg/blackind-mmpatches",
     "license": "CC0",
-    "name": "Blackleg Industries MM",
-    "abstract": "Blackleg Industries Module Manager Patches",
+    "name": "BlackInd MM Tantares TACLifeSupport",
+    "abstract": "Blackleg Industries Module Manager Patches (Tantares TACLifeSupport)",
     "ksp_version" : "1.2",
     "resources"    : {
-        "homepage"   : "https://www.blackleg.es",
+        "homepage"   : "http://www.blackleg.es",
         "repository" : "https://github.com/blackleg/blackind-mmpatches"
     },
     "install": [
@@ -17,10 +17,8 @@
         }
     ],
     "depends": [
-        { "name": "ModuleManager" }
-    ],
-    "suggests"     : [
-        { "name" : "MechJeb2" },
-		{ "name" : "TACLS" }
+        { "name" : "ModuleManager" },
+		{ "name" : "TACLS" },
+		{ "name" : "Tantares"}
     ]
 }
