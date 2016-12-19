@@ -1,0 +1,25 @@
+{
+    "identifier": "BlacklegIndustriesMM-TantaresTACLS",
+    "spec_version": "v1.4",
+    "$kref": "#/ckan/github/blackleg/blackind-mmpatches",
+    "license": "CC0",
+    "name": "BlackInd MM Tantares TACLifeSupport",
+    "abstract": "Blackleg Industries Module Manager Patches (Tantares TACLifeSupport)",
+    "ksp_version" : "1.2",
+    "resources"    : {
+        "homepage"   : "https://www.blackleg.es"
+    },
+    "install": [
+        {
+            "file" : "blackind/MMPatches/Tantares_TACLifeSupport.cfg",
+            "install_to" : "GameData/blackind/MMPatches/"
+        }
+    ],
+    "depends": [
+        { "name": "ModuleManager" }
+    ],
+    "suggests"     : [
+        { "name" : "MechJeb2" },
+		{ "name" : "TACLS" }
+    ]
+}
