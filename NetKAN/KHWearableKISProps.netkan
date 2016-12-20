@@ -9,7 +9,11 @@
         "homepage" : "http://forum.kerbalspaceprogram.com/index.php?/topic/153654-1xx-kerbal-hacks-wearable-kis-props/"
     },
     "depends": [
-        { "name": "KIS" }
+        { "name": "KIS" },
+        { "name": "CommunityCategoryKit" }
+    ],
+    "suggests" : [
+        { "name" : "FirespitterCore" }
     ],
     "install": [
         {
