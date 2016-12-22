@@ -22,8 +22,14 @@
     "depends" : [
         { "name" : "RealFuels" }
     ],
-    "provides" : [ "RealFuels-Engine-Configs" ],
-        "comment" : "Multiple configs can be installed; RO disables its engine configs if RFStockalike is detected. KSP-CKAN/NetKAN#55.",
+    "provides" : [
+        "RealPlumeConfigs",
+        "RealFuels-Engine-Configs"
+    ],
+    "recommends" : [
+        { "name" : "RealPlume" }
+    ],
+    "comment" : "Multiple configs can be installed; RO disables its engine configs if RFStockalike is detected. KSP-CKAN/NetKAN#55.",
     "resources" : {
         "homepage" : "http://forum.kerbalspaceprogram.com/threads/81239"
     }
