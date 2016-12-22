@@ -7,8 +7,8 @@
     "resources"    : {
         "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/151118-120-opt-space-plane-v190/"
     },
-    "ksp_version_min": "1.2.0",
-    "ksp_version_max": "1.2.1",
+    "ksp_version_min": "1.2.2",
+    "ksp_version_max": "1.2.2",
     "depends": [
         { "name" : "FirespitterCore" },
         { "name" : "ModuleManager" }
