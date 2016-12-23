@@ -1,20 +1,20 @@
 {
-    "spec_version": "v1.4",
-    "$kref": "#/ckan/spacedock/923",
-    "license": "MIT",
-    "identifier": "VesselView",
-    "x_netkan_epoch": 1,
-    "depends": [
-        { "name": "Toolbar" }, 
-        { "name": "RasterPropMonitor-Core" }
-    ],
-    "recommends": [
-        { "name": "RasterPropMonitor" }
-    ],
-    "install": [
-        {
-            "find": "VesselView",
-            "install_to": "GameData"
-        }
-    ]
+	"spec_version": "v1.4",
+	"$kref": "#/ckan/spacedock/923",
+	"license": "MIT",
+	"identifier": "VesselView",
+	"x_netkan_epoch": 1,
+	"depends": [
+		{ "name": "VesselView-UI" }
+	],
+	"install": [
+		{
+			"find": "VesselView",
+			"filter": [
+				"VesselViewRPM.dll",
+				"VesselViewPlugin.dll"
+	  		],
+			"install_to": "GameData"
+		}
+	]
 }
