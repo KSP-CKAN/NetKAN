@@ -1,0 +1,21 @@
+{
+    "spec_version" : 1,
+	"identifier"       : "MagicSmokeIndustries",
+	"name"             : "Magic Smoke Industries Infernal Robotics - Core Beta!",
+	"abstract"         : "Core mod no parts.",
+	"author"           : "sirkut",
+	"description"      : "Magic Smoke Industries presents Infernal Robotics core!",
+	"$kref"            : "#/ckan/github/MagicSmokeIndustries/InfernalRobotics",
+	"license"          : "GPL-3.0",
+	"version"          : "2.0.10",
+    "release_status"   : "beta",
+	"ksp_version"      : "1.2.2",
+
+	"resources" : {
+		"homepage"     : "http://forum.kerbalspaceprogram.com/index.php?/topic/104535-112-magic-smoke-industries-infernal-robotics-202/"
+	},
+    "suggests" : [
+            { "name": "MagicSmokeIndustriesLegacy" },
+            { "name": "MagicSmokeIndustriesModelRework" },
+        ]
+}
