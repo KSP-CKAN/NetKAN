@@ -1,0 +1,29 @@
+{
+    "spec_version": 1,
+    "identifier"  : "MagicSmokeIndustriesModelRework",
+    "name"        : "Magic Smoke Industries Infernal Robotics - Model Rework",
+	"author"      : ["ZodiusInfuser","Ziw"],
+	"abstract"    : "More robotic parts!",
+    "version"     : "1.1.2",
+    "ksp_version" : "1.2.2",
+    "license"     : "GPL-3.0",
+	    "depends": [
+        { "name": "MagicSmokeIndustries" }
+        ],
+        "recommends": [
+        { "name": "MagicSmokeIndustriesLegacy" }
+        ],
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/59359-wip-msis-infernal-robotics-model-rework-v02-pre-release-beta/"
+    },
+
+    "download" : "https://drive.google.com/uc?export=download&id=0B9f5PHcywXQINzQ3UC1aLVNBZk0",
+	"comment" : "Compatability thanks to https://sites.google.com/site/gdocs2direct/",
+
+    "install": [
+        {
+            "file"       : "GameData/MagicSmokeIndustries",
+            "install_to" : "GameData/"
+        }
+    ]	
+}
