@@ -9,8 +9,7 @@
     "depends" : [
         {   "name" : "ModuleManager" },
         {   "name" : "CommunityResourcePack" },
-        {   "name" : "TACLS-Config" },
-        {   "name" : "RSTKSPUtils" }
+        {   "name" : "TACLS-Config" }
     ],
     "suggests" : [
         {   "name" : "KSP-AVC" }
