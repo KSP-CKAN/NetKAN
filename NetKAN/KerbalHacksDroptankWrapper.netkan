@@ -1,0 +1,16 @@
+{
+  "spec_version": "v1.4",
+ "suggests" : [
+        { "name" : "TweakScale" }
+    ],
+  "install": [
+    {
+      "install_to": "GameData",
+      "find": "KerbalHacks"
+    }
+  ],
+  "$kref": "#/ckan/spacedock/1127",
+  "x_via": "Automated Linuxgurugamer CKAN script",
+  "identifier": "KerbalHacksDroptankWrapper",
+  "license": "CC-BY-NC-SA-4.0"
+}
