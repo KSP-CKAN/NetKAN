@@ -1,10 +1,15 @@
 {
     "spec_version": 1,
+    "name": "Vessel Mover Continued"
+    "abstract": "A continuation of BahamutoD's Vessel Mover."
+    "author": "Papa_Joe"
     "identifier": "VesselMoverContinued",
     "name": "VesselMover Continued",
-    "$kref": "#/ckan/spacedock/860",
+    "$kref": "#/ckan/github/PapaJoesSoup/VesselMover",
     "$vref": "#/ckan/ksp-avc",
     "license": "MIT",
+    "ksp_version_min": "1.2.0",
+    "ksp_version_max": "1.2.2",
     "suggests": [
         { "name": "KSP-AVC" }
     ],
