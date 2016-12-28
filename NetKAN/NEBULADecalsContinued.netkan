@@ -10,7 +10,7 @@
     "depends": [ { "name": "FirespitterCore" } ],
     "install": [
         {
-            "file": "NEBULA",
+            "find": "NEBULA",
             "install_to": "GameData"
         }
     ]
