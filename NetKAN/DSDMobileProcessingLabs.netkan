@@ -1,0 +1,22 @@
+{
+    "spec_version" : 1,
+    "identifier"   : "DSDMobileProcessingLabs",
+    "$kref"        : "#/ckan/github/MrKiel/Data-Storage-Device",
+    "name"         : "DSD Mobile Labs",
+    "abstract"     : "This mod allows the player to invest science points to improve the stats of parts such as the mass or engine-efficiency.",
+    "license"      : "CC-BY-NC-SA-4.0",
+    "$vref" : "#/ckan/ksp-avc",
+    "author"       : "Kielm",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/150973-12-dsd-mobile-labs/"
+    },
+    "install": [
+        {
+            "file" : "GameData/DSD",
+            "install_to" : "GameData"
+        }
+    ],
+    "depends": [
+        { "name": "ModuleManager" }
+    ]
+}

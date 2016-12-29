@@ -4,11 +4,19 @@
     "$kref": "#/ckan/spacedock/589",
     "spec_version": "v1.4",
     "depends": [
-        { "name": "AlcubierreStandalone" }
+        { "name": "AlcubierreStandalone" },
+        { "name": "CommunityResourcePack" }
+    ],
+    "suggests": [
+    	{ "name": "SpaceDock" }
+    ],
+    "conflicts": [
+        { "name": "WarpShip" },
+        { "name": "KSPInterstellarExtended" }
     ],
     "install": [
         {
-            "find"       : "WarpShip",
+            "find"       : "IXSWarpShipOS",
             "install_to" : "GameData",
             "filter"     : ".DS_Store"
         }

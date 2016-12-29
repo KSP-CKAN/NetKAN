@@ -2,7 +2,9 @@
     "spec_version"      : "v1.4",
     "identifier"        : "KSPInterstellarExtended",
     "$kref"             : "#/ckan/spacedock/172",
-    "$vref"             : "#/ckan/ksp-avc",
+    "comment"           : "$vref           : #/ckan/ksp-avc",
+    "x_netkan_staging"  : true,
+    "comment"           : "return vref when .version file is valid",
     "resources": {
         "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/100190-113/&page=1",
         "repository": "https://github.com/sswelm/KSP-Interstellar-Extended"
@@ -15,10 +17,10 @@
         }
     ],
     "depends" : [
-        { "name"        : "CommunityResourcePack", "min_version" : "0.6.1" },
-        { "name"        : "InterstellarFuelSwitch", "min_version" : "2.2.5" },
-        { "name"        : "TweakScale", "min_version" : "2.3.1"},
-        { "name"        : "ModuleManager", "min_version" : "2.7.1" },
+        { "name"        : "CommunityResourcePack", "min_version" : "0.6.4" },
+        { "name"        : "InterstellarFuelSwitch", "min_version" : "2.3.1" },
+        { "name"        : "TweakScale", "min_version" : "2.3.3"},
+        { "name"        : "ModuleManager", "min_version" : "2.7.4" },
         { "name"        : "CommunityTechTree", "min_version" : "3.0.1"}
     ],
     "recommends": [

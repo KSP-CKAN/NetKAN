@@ -1,0 +1,28 @@
+{
+  "spec_version": "v1.4",
+  "install": [
+    {
+      "install_to": "GameData",
+      "find": "NSS"
+    }
+  ],
+  "depends": [
+    {
+      "name": "FirespitterResourcesConfig"
+    },
+    {
+      "name": "BDAnimationModules"
+    },
+    {
+      "name": "ModuleManager"
+    },
+    {
+      "name": "FirespitterCore"
+    }
+  ],
+  "$vref": "#/ckan/ksp-avc",
+  "$kref": "#/ckan/spacedock/1074",
+  "x_via": "Automated Linuxgurugamer CKAN script",
+  "identifier": "OctosatContinued",
+  "license": "CC-BY-NC-SA-4.0"
+}

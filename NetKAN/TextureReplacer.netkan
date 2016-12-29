@@ -15,10 +15,8 @@
     "x_netkan_override" : [
         {
             "version" : ">=v2.5.0",
-            "delete" : [ "ksp_version" ],
             "override" : {
-                "ksp_version_min" : "1.2",
-                "ksp_version_max" : "1.2"
+                "ksp_version" : "1.2.2"
             }
         }
     ]
