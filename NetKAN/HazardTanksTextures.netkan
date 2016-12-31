@@ -1,6 +1,7 @@
 {
     "$kref": "#/ckan/spacedock/467",
     "identifier": "HazardTanksTextures",
+    "name": "Procedural Parts - Hazard Tanks Textures",
     "license": "CC-BY-NC-4.0",
     "spec_version": "v1.4",
     "ksp_version": "any",
@@ -13,8 +14,8 @@
      ],
      "install": [
         {
-            "find": "KerbalHacks",
-            "install_to": "GameData",
+            "file"       : "GameData/KerbalHacks/PP_Textures",
+            "install_to" : "GameData/KerbalHacks",
             "filter": "PPVensTankEnds.dds"
         }
     ]
