@@ -13,6 +13,7 @@
     { "name": "SelectableDataTransmitter" },
     { "name": "FirespitterCore" }
   ],
+  "x_netkan_epoch": "1",
   "$vref": "#/ckan/ksp-avc",
   "$kref": "#/ckan/spacedock/1074",
   "x_via": "Automated Linuxgurugamer CKAN script",
