@@ -7,18 +7,11 @@
     }
   ],
   "depends": [
-    {
-      "name": "FirespitterResourcesConfig"
-    },
-    {
-      "name": "BDAnimationModules"
-    },
-    {
-      "name": "ModuleManager"
-    },
-    {
-      "name": "FirespitterCore"
-    }
+    { "name": "FirespitterResourcesConfig" },
+    { "name": "BDAnimationModules" },
+    { "name": "ModuleManager" },
+    { "name": "SelectableDataTransmitter" },
+    { "name": "FirespitterCore" }
   ],
   "$vref": "#/ckan/ksp-avc",
   "$kref": "#/ckan/spacedock/1074",
