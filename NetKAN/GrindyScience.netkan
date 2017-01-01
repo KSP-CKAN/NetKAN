@@ -1,7 +1,12 @@
 {
     "$kref": "#/ckan/spacedock/1141",
+    "$vref": "#/ckan/ksp-avc",
     "identifier": "GrindyScience",
-    "x_via": "Automated SpaceDock CKAN submission",
     "spec_version": "v1.4",
-    "license": "MIT"
+    "license": "MIT",
+    "x_netkan_epoch": 1,
+    "conflicts": [
+        { "name": "LessGrindyScience" }
+    ],
+    "comment": "Both mods change the baseValue of scienceCap"
 }
