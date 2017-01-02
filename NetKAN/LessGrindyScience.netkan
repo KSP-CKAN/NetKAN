@@ -5,6 +5,9 @@
     "spec_version": "v1.4",
     "license": "MIT",
     "x_netkan_epoch": 1,
+    "depends": [
+        { "name": "ModuleManager" }
+    ],
     "conflicts": [
         { "name": "GrindyScience" }
     ],
