@@ -2,11 +2,11 @@
     "spec_version": "v1.16",
     "$kref": "#/ckan/spacedock/923",
     "license": "MIT",
+    "name": "VesselView-UI-Toolbar",
     "identifier": "VesselView-UI-Toolbar",
     "x_netkan_epoch": 1,
     "depends": [
-		{ "name": "VesselView" },
-        { "name": "Toolbar" }
+		{ "name": "VesselView" }
     ],
 	"provides"  : [ "VesselView-UI" ],
 	"comment" : "Providing but not conflicting is deliberate, as both UIs can be installed at the same time.",
