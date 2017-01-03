@@ -3,6 +3,7 @@
     "$kref": "#/ckan/spacedock/923",
     "license": "MIT",
     "identifier": "VesselView-UI-RasterPropMonitor",
+    "name": "VesselView-UI-RasterPropMonitor",
     "x_netkan_epoch": 1,
     "depends": [
 		{ "name": "VesselView" },
