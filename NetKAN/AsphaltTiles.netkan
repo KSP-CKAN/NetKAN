@@ -2,17 +2,16 @@
     "spec_version" : "v1.2",
     "ksp_version": "any",
     "identifier"   : "AsphaltTiles",
-    "name"         : "Asphalt Tiles",
+    "name"         : "Kerbal Hacks: Asphalt Tiles",
     "$kref"        : "#/ckan/spacedock/445",
     "x_netkan_license_ok": true,
     "resources" : {
         "homepage" : "http://forum.kerbalspaceprogram.com/index.php?/topic/134889-KerbalHacks"
     },
-    "recommends": [
-        { "name": "AsphaltTilesWelded" }
-    ],
+    
     "suggests": [
-        { "name": "KIS" }
+        { "name": "KIS",
+        "name": "AsphaltTilesWelded" }
     ],
     "install": [
         {
