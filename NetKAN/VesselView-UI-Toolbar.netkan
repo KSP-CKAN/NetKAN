@@ -6,8 +6,7 @@
     "name": "VesselView-UI-Toolbar",
     "x_netkan_epoch": 1,
     "depends": [
-		{ "name": "VesselView" },
-        { "name": "Toolbar" }
+		{ "name": "VesselView" }
     ],
 	"provides"  : [ "VesselView-UI" ],
 	"comment" : "Providing but not conflicting is deliberate, as both UIs can be installed at the same time.",
