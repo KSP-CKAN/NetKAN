@@ -7,8 +7,12 @@
     "resources": {
         "repository":"https://github.com/linuxgurugamer/NEBULA_Decals"
     },
-    "depends": [ { "name": "FirespitterCore" } ],
-    "recommends": [ { "name": "TweakScale" } ],
+    "depends": [
+        { "name": "FirespitterCore" }
+    ],
+    "recommends": [
+        { "name": "TweakScale" }
+    ],
     "install": [
         {
             "find": "NEBULA",
