@@ -19,7 +19,7 @@
     ],
     "install": [
         {
-            "file": "NEBULA",
+            "find": "NEBULA",
             "install_to": "GameData",
             "filter_regexp": "ModuleManager.+\\.dll"
         }
