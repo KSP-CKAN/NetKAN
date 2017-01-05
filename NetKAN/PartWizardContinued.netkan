@@ -1,0 +1,21 @@
+{
+  "spec_version": "v1.4",
+  "install": [
+    {
+      "install_to": "GameData",
+      "find": "PartWizard"
+    }
+  ],
+  "suggests": [
+        { "name": "JanitorsCloset" },
+        { "name": "Toolbar" }
+  ],
+  "conflicts": [
+        { "name": "PartWizard" }
+    ],
+  "$vref": "#/ckan/ksp-avc",
+  "$kref": "#/ckan/spacedock/1148",
+  "x_via": "Automated Linuxgurugamer CKAN script",
+  "identifier": "PartWizardContinued",
+  "license": "unknown"
+}
