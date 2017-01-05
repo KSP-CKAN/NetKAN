@@ -9,6 +9,7 @@
       "name": "ModuleManager"
     }
   ],
+  "x_netkan_force_v": true,
   "install": [
     {
       "find": "OLDD",
