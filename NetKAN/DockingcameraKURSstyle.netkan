@@ -4,12 +4,12 @@
   "x_via": "Automated Linuxgurugamer CKAN script",
   "$kref": "#/ckan/spacedock/756",
   "$vref": "#/ckan/ksp-avc",
+  "x_netkan_epoch": 1,
   "depends": [
     {
       "name": "ModuleManager"
     }
   ],
-  "x_netkan_force_v": true,
   "install": [
     {
       "find": "OLDD",
