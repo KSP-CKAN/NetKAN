@@ -14,5 +14,9 @@
     "suggests": [
         { "name": "RLAContinued" },
         { "name": "RCSBuildAid" }
+    ],
+    "conflicts": [
+        { "name": "PersistentRotation" },
+        { "name": "SemiSaturatableRW" }
     ]
 }
