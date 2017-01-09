@@ -6,7 +6,8 @@
     "author"       : [ "Venthe" ],
     "abstract"     : "Small pack of Polish flags",
     "license"      : "CC-BY-SA-4.0",
-    "ksp_version"  : "1.2.2",
+    "ksp_version" : "any",
+	"comment"     : "flagmod",
     "resources": {
         "homepage": "https://github.com/Venthe/KSP-Polish-Flag-Pack"
     }
