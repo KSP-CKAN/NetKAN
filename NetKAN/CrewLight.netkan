@@ -11,6 +11,6 @@
         "homepage": "http://forum.kerbalspaceprogram.com/"
     },
 	"depends" : [
-	    { name : "ModuleManager" }
+	    { "name" : "ModuleManager" }
     ]
 }
