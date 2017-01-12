@@ -4,4 +4,10 @@
     "x_via": "Automated SpaceDock CKAN submission",
     "spec_version": "v1.4",
     "license": "public-domain"
+    "install" : [
+        {
+            "file"       : "SimpleMk2LanderCanPatch.cfg",
+            "install_to" : "GameData"
+        }
+    ]
 }
