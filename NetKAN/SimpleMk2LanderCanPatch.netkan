@@ -3,7 +3,7 @@
     "identifier": "SimpleMk2LanderCanPatch",
     "x_via": "Automated SpaceDock CKAN submission",
     "spec_version": "v1.4",
-    "license": "public-domain"
+    "license": "public-domain",
     "install" : [
         {
             "file"       : "SimpleMk2LanderCanPatch.cfg",
