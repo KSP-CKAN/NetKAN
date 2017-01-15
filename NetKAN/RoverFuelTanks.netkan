@@ -7,9 +7,9 @@
     "install": [
         {
             "find":"Parts",
-            "install_to": "GameData/RoverFuelTanks"
+            "install_to": "GameData/RoverFuelTanks",
             "comment": "something odd about that zip file"
         }
     ],
-    "x_netkan_staging": true,
+    "x_netkan_staging": true
 }
