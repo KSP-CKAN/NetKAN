@@ -1,9 +1,14 @@
 {
     "license": "CC-BY-NC-SA-4.0",
+    "name": "Kerbal Hacks: Animated Station Screens",
     "identifier": "AnimatedStationScreens",
     "$kref": "#/ckan/spacedock/1057",
     "spec_version": "v1.4",
     "ksp_version": "any",
-    "install" : [ { "find" : "KerbalHacks",
-                    "install_to" : "GameData" } ]
+    "install": [
+        {
+            "file"       : "GameData/KerbalHacks/StationScreens",
+            "install_to" : "GameData/KerbalHacks"
+        }
+    ]
 }
