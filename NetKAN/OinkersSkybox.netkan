@@ -1,0 +1,22 @@
+{
+    "spec_version": "v1.4",
+    "x_via": "Automated SpaceDock CKAN submission",
+    "license": "MIT",
+    "identifier": "OinkersSkybox",
+    "$kref": "#/ckan/spacedock/1131",
+    "ksp_version": "any",
+    "comment": "Texture only",
+    "depends": [
+        { "name": "TextureReplacer" }
+    ],
+    "install": [
+        {
+            "find":"Default",
+            "install_to": "GameData/TextureReplacer/"
+        },
+        {
+            "find":"EnvMap",
+            "install_to": "GameData/TextureReplacer/"
+        }
+    ]
+}
