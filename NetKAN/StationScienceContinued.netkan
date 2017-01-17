@@ -8,7 +8,6 @@
         "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/154629-122-station-science-contunued-v210/",
         "x_preview": "http://i.imgur.com/63DTlDLl.png"
     },
-    "ksp_version" : "1.2.2",
     "name": "Station Science Continued",
     "abstract": "Station Science mod adds several large parts designed to be integrated into a permanent space station.",
     
@@ -23,6 +22,5 @@
         }
     ],
     "author": "tomf",
-    "version": "2.1.0",
     "$kref"        : "#/ckan/github/tomforwood/StationScience"
 }
