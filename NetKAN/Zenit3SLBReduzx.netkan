@@ -1,0 +1,29 @@
+{
+  "spec_version": "v1.4",
+  "install": [
+    {
+      "filter": [
+        ".DS_Store",
+        "__MACOSX"
+      ],
+      "install_to": "GameData",
+      "find": "HorizonAeronautics"
+    },
+    {
+      "install_to": "Ships",
+      "find": "VAB"
+    }
+  ],
+  "depends": [
+    {
+      "name": "SmokeScreen"
+    },
+    {
+      "name": "AnimatedDecouplers"
+    }
+  ],
+  "$kref": "#/ckan/spacedock/1095",
+  "x_via": "Automated Linuxgurugamer CKAN script",
+  "identifier": "Zenit3SLBReduzx",
+  "license": "CC-BY-NC"
+}

@@ -1,0 +1,29 @@
+{
+    "identifier": "Scatterer-config",
+    "license": "GPL-3.0",
+    "release_status": "development",
+    "$kref": "#/ckan/spacedock/141",
+    "name": "scatterer - default config",
+    "abstract": "The default configuration files for scatterer",
+    "x_netkan_force_v": true,
+    "spec_version": "v1.4",
+    "x_netkan_epoch": "2",
+    "conflicts": [
+        { "name": "Scatterer-config" }
+    ],
+    "install": [
+        {
+            "find"       : "scatterer/config",
+            "install_to" : "GameData/scatterer",
+            "filter"     : "Sunflares"
+        }
+    ],
+    "x_netkan_override": [
+        {
+            "version": "2:v0.0256",
+            "override": {
+                "ksp_version" : "1.2"
+            }
+        }
+    ]
+}

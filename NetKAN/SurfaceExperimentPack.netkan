@@ -2,10 +2,9 @@
     "identifier": "SurfaceExperimentPack",
     "license": "BSD-2-clause",
     "spec_version": "v1.4",
-    "author": [ "AlbertKermin", "CobaltWolf" ],
+    "author": [ "AlbertKermin", "CobaltWolf", "DMagic1" ],
     "$kref": "#/ckan/spacedock/318",
     "depends": [
-        { "name": "DMagicScienceAnimate" },
         { "name": "KAS" },
         { "name": "KIS" }
     ],

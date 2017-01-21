@@ -7,13 +7,22 @@
     "resources" : {
         "homepage" : "http://forum.kerbalspaceprogram.com/index.php?/topic/134889-KerbalHacks"
     },
-    "depends": [
+    "suggests": [
         { "name": "ProceduralParts" }
     ],
     "install": [
         {
             "file"       : "GameData/KerbalHacks/PP_Textures",
             "install_to" : "GameData/KerbalHacks"
+        }
+    ],
+    "x_netkan_override": [
+        {
+            "version": "1.1",
+            "override": {
+                "ksp_version" : "any",
+                "comment" : "Only textures"
+            }
         }
     ]
 }

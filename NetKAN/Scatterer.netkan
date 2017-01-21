@@ -7,16 +7,25 @@
     "spec_version": "v1.4",
     "x_netkan_epoch": "2",
     "depends": [
-        { "name": "Scatterer-sunflare" }
+        { "name": "Scatterer-sunflare" },
+        { "name": "Scatterer-config" }
     ],
     "conflicts": [
         { "name": "Scatterer" }
     ],
     "install": [
         {
-            "find"       : "scatterer",
-            "install_to" : "GameData",
-            "filter"     : "Sunflares"
+            "find"          : "scatterer",
+            "install_to"    : "GameData",
+            "filter_regexp" : "config\\/.*"
+        }
+    ],
+    "x_netkan_override": [
+        {
+            "version": "2:v0.0256",
+            "override": {
+                "ksp_version" : "1.2"
+            }
         }
     ]
 }

@@ -9,5 +9,16 @@
             "file"       : "HAIT",
             "install_to" : "GameData"
         }
+    ],
+    "x_netkan_override": [
+        {
+            "version": "814",
+            "delete": [ "ksp_version" ],
+            "override": {
+                "ksp_version_min" : "1.1.3",
+                "ksp_version_max" : "1.2"
+            },
+            "comment": "https://github.com/KSP-CKAN/NetKAN/issues/4770"
+        }
     ]
 }

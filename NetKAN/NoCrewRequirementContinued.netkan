@@ -3,5 +3,17 @@
     "spec_version": "v1.4",
     "identifier": "NoCrewRequirementContinued",
     "x_via": "Automated SpaceDock CKAN submission",
-    "license": "GPL-3.0"
+    "license": "GPL-3.0",
+    "author": [ "RealGecko", "Orbinaut" ],
+    "ksp_version" : "any",
+    "depends": [
+         {
+             "name": "ModuleManager"
+         }
+     ],
+     "recommends": [
+         {
+             "name": "RadioFreeKerbin"
+         }
+    ]
 }
