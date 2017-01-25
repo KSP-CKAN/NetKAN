@@ -7,8 +7,8 @@
   "install": [
     {
       "install_to": "GameData",
-      "find": "REKT-",
-      "filter": ["RetractableLiftingSurface"]
+      "find_regexp": "REKT-",
+      "filter": "RetractableLiftingSurface"
     }
   ],
   "$vref": "#/ckan/ksp-avc/rekt.version",
