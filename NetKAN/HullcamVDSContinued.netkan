@@ -6,7 +6,7 @@
   "$vref": "#/ckan/ksp-avc",
   "conflicts" : [
      { "name": "HullcamVDS" } ,
-     { "name": "KEI" } 
+     { "name": "Kerbalism" } 
   ],
   "provides": [ "HullcamVDS" ],
   "depends": [
