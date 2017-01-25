@@ -5,7 +5,8 @@
   "$kref": "#/ckan/spacedock/885",
   "$vref": "#/ckan/ksp-avc",
   "conflicts" : [
-     { "name": "HullcamVDS" } 
+     { "name": "HullcamVDS" } ,
+     { "name": "KEI" } 
   ],
   "provides": [ "HullcamVDS" ],
   "depends": [
