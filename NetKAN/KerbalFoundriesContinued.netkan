@@ -1,0 +1,22 @@
+{
+  "spec_version": "v1.4",
+  "install": [
+    {
+      "install_to": "GameData",
+      "find": "KerbalFoundries"
+    }
+  ],
+  "depends": [
+    {
+      "name": "KSPWheel"
+    },
+    {
+      "name": "ModuleManager"
+    }
+  ],
+  "$vref": "#/ckan/ksp-avc",
+  "$kref": "#/ckan/github/shadowmage45/KerbalFoundries2",
+  "x_via": "Automated Linuxgurugamer CKAN script",
+  "identifier": "KerbalFoundriesContinued",
+  "license": "CC-BY-NC-SA-4.0"
+}
