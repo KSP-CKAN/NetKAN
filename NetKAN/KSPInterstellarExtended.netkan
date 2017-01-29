@@ -21,7 +21,8 @@
         { "name"        : "InterstellarFuelSwitch", "min_version" : "2.3.2" },
         { "name"        : "TweakScale", "min_version" : "2.3.3"},
         { "name"        : "ModuleManager", "min_version" : "2.7.5" },
-        { "name"        : "CommunityTechTree", "min_version" : "3.0.3"}
+        { "name"        : "CommunityTechTree", "min_version" : "3.0.3" },
+        { "name"        : "UniversalStorage", "min_version" : "1.2.2" }
     ],
     "recommends": [
         { "name"        : "FilterExtensions" },
