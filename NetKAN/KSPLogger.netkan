@@ -7,6 +7,7 @@
   "resources": {
     "repository": "https://github.com/linuxgurugamer/KSPLogger"
   },
+  "recommends": [ { "name": "JanitorsCloset" } ],
   "install": [
     {
       "find": "KSPLogger",

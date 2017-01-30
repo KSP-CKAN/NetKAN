@@ -9,6 +9,7 @@
         "homepage"    : "http://forum.kerbalspaceprogram.com/threads/125193",
         "repository"  : "https://github.com/linuxgurugamer/BetterScienceLabsContinued"
     },
+    "recommends": [ { "name": "JanitorsCloset" } ],
     "depends" : [
         { "name": "ModuleManager" },
         { "name": "SpacetuxSA" }

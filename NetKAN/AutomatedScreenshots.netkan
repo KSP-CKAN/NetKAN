@@ -8,6 +8,7 @@
         "homepage"    : "http://forum.kerbalspaceprogram.com/threads/129908",
         "repository"  : "https://github.com/linuxgurugamer/AutomatedScreenshots"
     },
+    "recommends": [ { "name": "JanitorsCloset" } ],
     "install" : [
         {
             "find"       : "AutomatedScreenshots",
