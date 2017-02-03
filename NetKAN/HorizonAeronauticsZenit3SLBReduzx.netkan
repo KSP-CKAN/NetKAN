@@ -1,0 +1,25 @@
+{
+  "spec_version": "v1.4",
+  "install": [
+    {
+      "install_to": "GameData",
+      "find": "HorizonAeronautics"
+    }
+  ],
+  "depends": [
+    {
+      "name": "SmokeScreen"
+    },
+    {
+      "name": "CZ2LaunchSystem"
+    },
+    {
+      "name": "AnimatedDecouplers"
+    }
+  ],
+  "$vref": "#/ckan/ksp-avc",
+  "$kref": "#/ckan/spacedock/1095",
+  "x_via": "Automated Linuxgurugamer CKAN script",
+  "identifier": "HorizonAeronauticsZenit3SLBReduzx",
+  "license": "CC-BY-NC"
+}
