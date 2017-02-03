@@ -1,0 +1,34 @@
+{
+	"spec_version": 1,
+	"identifier": "CustomAsteroids-Pops-RSS",
+	"name": "Custom Asteroids (Real Solar System data)",
+	"abstract": "Adds various non-planetary bodies to the solar system",
+	"ksp_version_min": "0.25",
+	"$kref": "#/ckan/github/NathanKell/RealSolarSystem",
+	"release_status": "stable",
+	"depends": [ 
+		{
+			"name": "CustomAsteroids",
+			"min_version": "1.0"
+		},
+		{ 
+			"name": "RealSolarSystem",
+			"min_version": "6.0"
+		}
+	],
+	"provides": [ "CustomAsteroids-Pops" ],
+	"conflicts": [
+		{ 
+			"name": "AlternisKerbol",
+			"comment": "Because that seems to be the common conflict for the stock configs"
+		},
+		{ "name" : "CustomAsteroids-Pops" }
+	],
+	"install": [
+		{
+			"file": "RealSolarSystem/Compatibility/",
+			"install_to": "GameData/CustomAsteroids",
+			"filter": [ "SCANSat.cfg", "RealHeat.cfg" ]
+		}
+	]
+}
