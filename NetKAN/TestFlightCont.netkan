@@ -1,0 +1,22 @@
+{
+  "spec_version": "v1.4",
+  "install": [
+    {
+      "install_to": "GameData",
+      "find": "TestFlight"
+    }
+  ],
+  "depends": [
+    {
+      "name": "ModuleManager"
+    }
+  ],
+  "conflicts": [
+    { "name": "TestFlight" }
+  ],
+  "$vref": "#/ckan/ksp-avc",
+  "$kref": "#/ckan/spacedock/1193",
+  "x_via": "Automated Linuxgurugamer CKAN script",
+  "identifier": "TestFlightCont",
+  "license": "CC-BY-NC-SA-4.0"
+}
