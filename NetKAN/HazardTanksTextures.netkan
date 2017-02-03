@@ -5,11 +5,12 @@
     "license": "CC-BY-NC-4.0",
     "spec_version": "v1.4",
     "ksp_version": "any",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/134889-KerbalHacks"
+    },
     "depends": [
-        { "name": "VensStylePPTextures" }
-    ],
-    "suggests": [
-            { "name": "ProceduralParts" }
+        { "name": "VensStylePPTextures" },
+        { "name": "ProceduralParts" }
     ],
     "provides": [
         "PPTextures"
