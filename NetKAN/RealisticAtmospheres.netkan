@@ -10,6 +10,12 @@
         { "name": "Kopernicus" },
         { "name": "ModuleManager" }
     ],
+    "install": [
+        {
+            "file": "GameData/RealisticAtmospheres",
+            "install_to": "GameData"
+        }
+    ],
     "x_netkan_license_ok": true,
     "x_netkan_override": [
         {
