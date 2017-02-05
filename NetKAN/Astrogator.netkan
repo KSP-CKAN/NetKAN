@@ -1,13 +1,5 @@
 {
     "spec_version": 1,
     "identifier": "Astrogator",
-    "name": "Astrogator",
-    "abstract": "Space navigation assistant",
-    "$kref": "#/ckan/github/HebaruSan/Astrogator",
-    "license": "GPL-3.0",
-    "ksp_version_min": "1.2.2",
-    "ksp_version_max": "1.2.99",
-    "resources": {
-        "homepage": "https://github.com/HebaruSan/Astrogator"
-    }
+    "$kref": "#/ckan/netkan/https://raw.githubusercontent.com/HebaruSan/Astrogator/master/Astrogator.netkan"
 }
