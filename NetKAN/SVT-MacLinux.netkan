@@ -1,6 +1,6 @@
 {
     "spec_version"   : "v1.4",
-    "$kref"          : "#/ckan/github/Galileo88/Stock-Visual-Terrain/asset_match/SVT.*(?i).Mac.Linux.zip",
+    "$kref"          : "#/ckan/github/Galileo88/Stock-Visual-Terrain/asset_match/SVT.*Mac.Linux.zip",
     "$vref"          : "#/ckan/ksp-avc",
     "identifier"     : "SVT-MacLinux",
     "name"           : "Stock Visual Terrain (for Mac & Linux)",
