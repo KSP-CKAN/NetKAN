@@ -1,0 +1,16 @@
+{
+    "$kref": "#/ckan/kerbalstuff/682",
+    "spec_version": "v1.4",
+    "identifier": "Jumbo32",
+    "license": "CC-BY-NC-4.0",
+	"provides"		: [ "RSSConfig" ],
+	"conflicts"		: [ {"name" : "RSSConfig" } ],
+	"depends"		: [ { "name" : "RSS-Core" },
+						{ "name" : "ModuleManager"} ],
+	"install"		: [ {
+						"find" : "RealSolarSystem",
+						"install_to" : "GameData",
+						"filter_regexp" : [ "RealSolarSystem.dll",
+											"RealSolarSystem/Plugins/Icons" ]
+						} ]
+}
