@@ -1,0 +1,24 @@
+{
+  "spec_version": "v1.4",
+  "install": [
+    {
+      "install_to": "GameData",
+      "find": "ASET"
+    }
+  ],
+  "depends": [
+      { "name": "RasterPropMonitor-Core", "min_version" : "0.28.0" }
+  ],
+  "supports": [
+     { "name": "MechJeb2" },
+     { "name": "SCANsat" },
+     { "name": "VesselView" },
+     { "name": "DockingPortAlignmentIndicator" },
+     { "name": "RealChute" },
+     { "name": "TACLS" }
+  ],
+  "$kref": "#/ckan/spacedock/1204",
+  "x_via": "Automated Linuxgurugamer CKAN script",
+  "identifier": "ASETProps",
+  "license"     : "CC-BY-NC-SA-3.0"
+}
