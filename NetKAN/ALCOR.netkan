@@ -7,9 +7,8 @@
     }
   ],
   "depends": [
-    {
-      "name": "ModuleManager"
-    }
+      { "name": "ASETAgency" },
+      { "name": "ModuleManager" }
   ],
   "supports": [
      { "name": "KIS" },

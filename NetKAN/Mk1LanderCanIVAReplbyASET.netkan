@@ -7,6 +7,7 @@
     }
   ],
   "depends": [
+       { "name": "ASETAgency" },
        { "name": "ModuleManager" },
        { "name": "ASETProps" , "min_version": "1.4"},
        { "name": "RasterPropMonitor-Core", "min_version": "0.28.0" }
