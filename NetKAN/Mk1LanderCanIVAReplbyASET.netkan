@@ -8,7 +8,7 @@
   ],
   "depends": [
        { "name": "ModuleManager" },
-       { "name": "ASETProps" , "min_version": "1.4.0"},
+       { "name": "ASETProps" , "min_version": "1.4"},
        { "name": "RasterPropMonitor-Core", "min_version": "0.28.0" }
   ],
   "$kref": "#/ckan/spacedock/1208",

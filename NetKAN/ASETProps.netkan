@@ -2,8 +2,8 @@
   "spec_version": "v1.4",
   "install": [
     {
-      "install_to": "GameData",
-      "find": "ASET"
+      "install_to": "GameData/ASET",
+      "find": "ASET/ASET_Props"
     }
   ],
   "depends": [
