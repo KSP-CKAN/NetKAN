@@ -1,0 +1,31 @@
+{
+    "spec_version" : "v1.4",
+    "identifier"   : "64k",
+    "$kref"        : "#/ckan/kerbalstuff/573",
+    "license"		: "public-domain",
+	"provides"		: [ "RSSConfig" ],
+	"conflicts"		: [ {"name" : "RSSConfig" } ],
+	"depends"		: [ { "name" : "RSS-core" },
+						{ "name" : "ModuleManager"} ],
+	"recommends"		: [ { "name" : "FerramAerospaceResearch" },
+							{ "name" : "DeadlyReentry" },
+							{ "name" : "SCANsat" },
+							{ "name" : "TransferWindowPlanner" },
+							{ "name" : "Remotetech" }],
+	"install"		: [
+						{
+						"find" : "RealSolarSystem",
+						"install_to" : "GameData",
+						"filter_regexp" : [ "RealSolarSystem.dll",
+											"RealSolarSystem/Plugins/Icons" ]
+						},
+						{
+						"find" : "64k",
+						"install_to" : "GameData"
+						},
+						{
+						"file" : "64k License.pdf",
+						"install_to" : "GameData/64k"
+						}
+			]
+}
