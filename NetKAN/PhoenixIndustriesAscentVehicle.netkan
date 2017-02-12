@@ -5,7 +5,6 @@
     "identifier": "PhoenixIndustriesAscentVehicle",
     "depends": [
         { "name": "PhoenixIndustriesFlags" },
-        { "name": "PhoenixIndustriesAgencies" },
         { "name": "CommunityResourcePack" }
     ],
     "recommends": [
@@ -15,7 +14,7 @@
         {
             "find"  :   "CTN",
             "install_to":   "GameData",
-	        "filter": ["Flags", "Agencies" ]
+	        "filter": ["Flags" ]
         }
     ]
 }
