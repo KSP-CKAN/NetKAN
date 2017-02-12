@@ -3,7 +3,7 @@
   "install": [
     {
       "install_to": "GameData/ASET",
-      "find": "ASET/Mk1_Cockpit_IVA_Replacement_by_ASET"
+      "find": "ASET/Mk1-2_IVA_Replacement_by_ASET"
     }
   ],
   "depends": [
@@ -20,7 +20,7 @@
         { "name": "VesselView" },
         { "name": "DockingPortAlignmentIndicator" }
    ],
-  "$kref": "#/ckan/spacedock/1214",
+  "$kref": "#/ckan/spacedock/1206",
   "x_via": "Automated Linuxgurugamer CKAN script",
   "identifier": "MK12PodIVAReplacementbyASET",
   "license": "CC-BY-NC-SA-3.0"
