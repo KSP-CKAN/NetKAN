@@ -9,7 +9,7 @@
     ],
     "install": [
         {
-            "file"       : "Wraithforge",
+            "find"       : "Wraithforge",
             "install_to" : "GameData"
         }
     ]
