@@ -7,8 +7,7 @@
     }
   ],
   "conflicts": [
-    { "name": "KronalVesselViewer" },
-    { "name": "Kerbalism" } 
+    { "name": "KronalVesselViewer" }
   ],
   "$vref": "#/ckan/ksp-avc",
   "$kref": "#/ckan/spacedock/1092",
