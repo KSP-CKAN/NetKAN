@@ -5,6 +5,6 @@
     "license": "CC-BY-NC-SA",
     "depends" : [ { "name" : "ModuleManager" } ],
     "identifier": "SensibleTechTree",
-    "install" : [ { "find" : "Sensible Tech Tree",
+    "install" : [ { "find" : "Senisible Tech Tree",
                     "install_to" : "GameData" } ]
 }
