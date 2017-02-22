@@ -18,6 +18,7 @@
         { "name" : "KWRocketry-CommunityFixes" },
         { "name" : "KWRocketry-CommunityFixes-interstage"  }
     ],
+    "recommends": [ { "name": "JanitorsCloset" } ],
     "install"     : [
         {
             "find"    : "KWRocketry/GameData/KWRocketry",
@@ -25,4 +26,3 @@
         }
     ]
 }
-

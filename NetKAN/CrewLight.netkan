@@ -1,0 +1,16 @@
+{
+    "spec_version" : 1,
+    "identifier" : "CrewLight",
+    "$kref" : "#/ckan/github/Li0n-0/CrewLight",
+    "name" : "Crew Light",
+    "author" : "Li0n",
+    "abstract" : "An automatic light manager",
+    "license" : "MIT",
+    "$vref" : "#/ckan/ksp-avc",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/154901-122-crew-light-an-automatic-light-manager-11-14-jan-2017/"
+    },
+	"depends" : [
+	    { "name" : "ModuleManager" }
+    ]
+}

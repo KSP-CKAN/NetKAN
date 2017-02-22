@@ -14,7 +14,7 @@
         {
             "find"  :   "CTN",
             "install_to":   "GameData",
-            "filter": "Flags"
+	        "filter": ["Flags" ]
         }
     ]
 }

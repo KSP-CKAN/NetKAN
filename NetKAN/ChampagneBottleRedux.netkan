@@ -9,6 +9,7 @@
         "homepage":"http://forum.kerbalspaceprogram.com/index.php?/topic/138349-champagne-bottle-redux/",
         "repository":"https://github.com/linuxgurugamer/ChampagneBottleRedux"
     },
+    "recommends": [ { "name": "JanitorsCloset" } ],
     "install": [
         {
             "find": "Champagne",

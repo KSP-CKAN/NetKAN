@@ -1,0 +1,21 @@
+{
+  "spec_version": "v1.4",
+  "install": [
+    {
+      "install_to": "GameData",
+      "find": "SHED"
+    }
+  ],
+  "depends" : [
+        { "name" : "ModuleManager" },
+        { "name" : "PicoPort" }
+    ],
+
+  "$vref": "#/ckan/ksp-avc",
+  "$kref": "#/ckan/github/linuxgurugamer/PicoPort4AllSizes",
+  "x_via": "Automated Linuxgurugamer CKAN script",
+  "identifier": "PicoPort4AllSizes",
+  "name": "PicoPort for all sizes",
+  "abstract": "This is a patch which makes the PicoPort available in many sizes",
+  "license": "MIT"
+}

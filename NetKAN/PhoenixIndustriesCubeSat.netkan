@@ -5,6 +5,7 @@
     "identifier": "PhoenixIndustriesCubeSat",
     "name": "Phoenix Industries - CubeSat",
     "depends": [
+        { "name": "PhoenixIndustriesAgencies" },
         { "name": "PhoenixIndustriesFlags" }
     ],
     "recommends": [
@@ -15,7 +16,7 @@
         {
             "find"  :     "CTN",
             "install_to": "GameData",
-            "filter":     [ "Thumbs.db", "Flags" ]
+            "filter":     [ "Thumbs.db", "Flags", "Agencies" ]
         }
     ]
 }

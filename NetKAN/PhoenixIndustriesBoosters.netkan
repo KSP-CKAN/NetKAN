@@ -4,13 +4,14 @@
     "license": "CC-BY-NC-SA-4.0",
     "$kref": "#/ckan/spacedock/246",
     "depends": [
-        { "name": "PhoenixIndustriesFlags" }
+        { "name": "PhoenixIndustriesFlags" },
+        { "name": "PhoenixIndustriesAgencies" }
     ],
     "install": [
         {
             "find"       : "CTN",
             "install_to" : "GameData",
-            "filter"     : "Flags"
+	    "filter": ["Flags", "Agencies" ]
         }
     ]
 }

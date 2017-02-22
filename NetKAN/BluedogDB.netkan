@@ -4,13 +4,19 @@
     "$kref": "#/ckan/spacedock/442",
     "spec_version": "v1.4",
     "depends": [
+        { "name": "CommunityResourcePack" },
         { "name": "DMagicScienceAnimate" }
     ],
     "supports": [
         { "name": "HullcamVDS" },
         { "name": "RealPlume" },
         { "name": "RemoteTech" },
-        { "name": "TweakScale" }
+        { "name": "TweakScale" },
+        { "name": "HullcamVDSContinued" },
+	{ "name": "KIS" },
+        { "name": "CommunityTechTree" },
+        { "name": "RealChute" },
+        { "name": "USI-LS" }
     ],
     "install": [
         {
