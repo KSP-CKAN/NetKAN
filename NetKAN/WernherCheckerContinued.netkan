@@ -1,0 +1,22 @@
+{
+  "spec_version": "v1.4",
+  "install": [
+    {
+      "filter_regexp": [
+        ".*~$"
+      ],
+      "install_to": "GameData",
+      "find": "WernherChecker"
+    }
+  ],
+  "depends": [
+    {
+      "name": "FirespitterCore"
+    }
+  ],
+  "$vref": "#/ckan/ksp-avc",
+  "$kref": "#/ckan/spacedock/1237",
+  "x_via": "Automated Linuxgurugamer CKAN script",
+  "identifier": "WernherCheckerContinued",
+  "license": "MIT"
+}
