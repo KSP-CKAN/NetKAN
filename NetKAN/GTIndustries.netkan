@@ -3,7 +3,7 @@
   "install": [
     {
       "install_to": "GameData",
-      "find": "StockAntennaBalance"
+      "find": "GTI_Utilities"
     }
   ],
   "depends": [
@@ -11,8 +11,8 @@
       "name": "ModuleManager"
     }
   ],
-  "$kref": "#/ckan/spacedock/1161",
+  "$kref": "#/ckan/spacedock/1189",
   "x_via": "Automated Linuxgurugamer CKAN script",
-  "identifier": "StockAntennaBalance",
-  "license": "GPL-3.0"
+  "identifier": "GTIndustries",
+  "license": "MIT"
 }
