@@ -7,13 +7,14 @@
     "license"      : "MIT",
     "$vref"        : "#/ckan/ksp-avc",
     "resources": {
-        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/155313-wip-122-kerbalhealth-044-2017-02-01-even-more-health-factors/"
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/155313-122-kerbal-health-047-2017-03-01"
     },
 	    "depends": [
         { "name": "ModuleManager" }
     ],
 	    "suggests": [
         { "name": "KSP-AVC" },
+        { "name": "Toolbar" },
         { "name": "USI-LS" },
 		    { "name": "UKS" }
     ]
