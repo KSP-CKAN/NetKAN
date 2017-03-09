@@ -7,9 +7,8 @@
     }
   ],
   "depends": [
-    {
-      "name": "ModuleManager"
-    }
+    { "name": "ModuleManager" },
+    { "name": "RemoteTech" }
   ],
   "$kref": "#/ckan/spacedock/1218",
   "x_via": "Automated Linuxgurugamer CKAN script",
