@@ -1,0 +1,20 @@
+{
+    "spec_version" : 1,
+    "identifier"   : "TheMaritimePack",
+    "$kref"        : "#/ckan/curse/235314",
+    "license"      : "BSD-2-clause",
+    "abstract"     : "The Maritime Pack - Yachts, Cargo Ships, Paddlewheelers, RoRo's, Carriers and lots more parts to create you own armada.  With over (currently) 40 parts, the Maritime Pack is a modular parts pack that allows you to design boats for KSP the way you want them.",
+    "resources"    : {
+        "homepage" : "https://kerbal.curseforge.com/projects/the-maritime-pack"
+    },
+    "install"      : [
+      {
+        "file"     : "MP Game Data/GameData/Maritime Pack",
+        "install_to" : "GameData"
+      }
+    ],
+    "depends"      : [
+      { "name"     : "FirespitterCore" },
+      { "name"     : "1869" }
+    ]
+}
