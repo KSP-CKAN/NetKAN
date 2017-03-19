@@ -1,0 +1,24 @@
+{
+    "spec_version" : 1,
+    "identifier"   : "RSSVE",
+    "$kref"        : "#/ckan/github/PhineasFreak/RSSVE",
+    "name"         : "RSS Visual Enhancements",
+    "abstract"     : "Visual enhancements for RSS to make your game look a hundred times better!",
+    "license"      : "CC-BY-SA-4.0",
+    "ksp_version"  : "1.2.2",
+    "depends"      : [
+      { "name"     : "ModuleManager" },
+      { "name"     : "EnvironmentalVisualEnhancements" },
+      { "name"     : "RealSolarSystem" },
+      { "name"     : "Scatterer"}
+    ],
+    "recommends"   : [
+      { "name"     : "DistantObjectEnhancement" },
+      { "name"     : "PlanetShine" },
+      { "name"     : "TextureReplacer" }
+    ],
+    "resources"    : {
+        "homepage" : "https://github.com/PhineasFreak/RSSVE",
+        "repository": "https://github.com/PhineasFreak/RSSVE"
+    }
+}
