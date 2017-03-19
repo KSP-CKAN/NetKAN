@@ -11,6 +11,7 @@
       "name": "ModuleManager"
     }
   ],
+  "conflicts" : [ { "name" : "AmpYearPowerManager" } ],
   "$vref": "#/ckan/ksp-avc",
   "$kref": "#/ckan/spacedock/1263",
   "x_via": "Automated Linuxgurugamer CKAN script",
