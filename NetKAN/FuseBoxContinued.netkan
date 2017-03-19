@@ -1,0 +1,19 @@
+{
+  "spec_version": "v1.4",
+  "install": [
+    {
+      "install_to": "GameData",
+      "find": "Fusebox"
+    }
+  ],
+  "depends": [
+    {
+      "name": "ModuleManager"
+    }
+  ],
+  "$vref": "#/ckan/ksp-avc",
+  "$kref": "#/ckan/spacedock/1263",
+  "x_via": "Automated Linuxgurugamer CKAN script",
+  "identifier": "FuseBoxContinued",
+  "license": "GPL-2.0"
+}
