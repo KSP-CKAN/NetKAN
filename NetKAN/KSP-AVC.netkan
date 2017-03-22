@@ -3,8 +3,8 @@
     "identifier": "KSP-AVC",
     "$kref"        : "#/ckan/github/CYBUTEK/KSPAddonVersionChecker/asset_match/KSP-AVC-.*.zip",
     "$vref"        : "#/ckan/ksp-avc",
-    "name"         : "KSP AVC",
-    "abstract"     : "In-Game GUI for KSP Addon Version Checker",
+    "name"         : "KSP-AVC",
+    "abstract"     : "This plugin checks for mod compatibility with the installed KSP version and provides an in-game GUI. It will also notify you when updates are available for certain mods.",
     "license"      : "GPL-3.0",
     "resources": {
         "homepage": "http://forum.kerbalspaceprogram.com/threads/79745",
