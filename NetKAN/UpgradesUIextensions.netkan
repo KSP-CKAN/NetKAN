@@ -1,0 +1,12 @@
+{
+  "spec_version" : "v1.20",
+  "identifier"   : "UpgradesUIExtensions",
+  "$kref"        : "#/ckan/github/gotmachine/UpgradesUIExtensions",
+  "license"      : "Unlicense",
+	"abstract"     : "VAB/SPH & TechTree interface tweaks for modules/part upgrades",
+	"$vref"        : "#/ckan/ksp-avc",
+  "resources"    : 
+	{
+    "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/158081-122-upgradesuiextensions-v10-qol-vabsph-tweaks-for-part-upgrades/"
+  }
+}
