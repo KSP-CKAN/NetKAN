@@ -15,7 +15,7 @@
     ],
     "install"        : [
         {
-            "file": "RealHeat",
+            "find": "RealHeat",
             "install_to": "GameData"
         }
     ],
