@@ -5,7 +5,7 @@
     "license": "CC-BY-NC-SA-4.0",
     "name": "Taerobee - Stockalike X-1 & More",
     "abstract": "Stockalike Historic (Pre-Sputnik) Rocket and Aircraft Parts.",
-    "ksp_version": "1.1",
+    "ksp_version": "1.2.2",
     "x_netkan_version_edit": "^[vV]?(?<version>.+)$",
     "x_netkan_epoch": "1",
     "resources": {
@@ -15,16 +15,6 @@
         {
             "find": "Taerobee",
             "install_to": "GameData"
-        }
-    ],
-    "x_netkan_override" : [
-        {
-            "version" : "2.1",
-            "delete" : [ "ksp_version" ],
-            "override" : {
-                "ksp_version_min" : "1.0.4",
-                "ksp_version_max" : "1.0.5"
-            }
         }
     ]
 }
