@@ -1,0 +1,13 @@
+{
+    "spec_version" : 1,
+    "identifier"   : "KSPScienceRedone",
+    "$kref"        : "#/ckan/github/ValynEritai/KSPScienceRedone",
+    "license"      : "GPL-3.0",
+    "$vref" : "#/ckan/ksp-avc"
+    "resources": {
+        "homepage": "https://github.com/ValynEritai/ksp-science-redone"
+    }
+    "depends": [
+        { "name": "ModuleManager" }
+    ],
+}
