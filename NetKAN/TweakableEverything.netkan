@@ -10,7 +10,7 @@
         }
     ],
     "conflicts": [
-    	{ "name" : "TweakScale" },
+    	{ "name" : "TweakScale" }
     ],
     "depends": [
         { "name": "ModuleManager" },
