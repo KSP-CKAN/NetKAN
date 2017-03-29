@@ -1,0 +1,23 @@
+{
+  "spec_version": "v1.4",
+  "install": [
+    {
+      "install_to": "GameData",
+      "find": "SSRSS"
+    }
+  ],
+  "depends": [
+    {
+      "name": "ModuleManager"
+    },
+    {
+      "name": "Kopernicus"
+    }
+  ],
+  "abstract"     : "Stock Size Real Solar System.",
+  "$vref": "#/ckan/ksp-avc",
+  "$kref": "#/ckan/github/Galileo88/SSRSSContinued",
+  "x_via": "Automated Linuxgurugamer CKAN script",
+  "identifier": "SSRSS-Cont",
+  "license": "CC-BY-NC-ND"
+}
