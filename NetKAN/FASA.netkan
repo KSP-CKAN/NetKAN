@@ -21,6 +21,9 @@
 		{ "name" 	  : "ModuleManager" },
         { "name"      : "TextureReplacer" }
     ],
+	"recommends" : [
+        { "name" : "RasterPropMonitor" }
+    ],
     "conflicts" : [
         { "name": "FASALaunchClamps" }
     ]
