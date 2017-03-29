@@ -14,6 +14,7 @@
       "name": "Kopernicus"
     }
   ],
+  "abstract"     : "Stock Size Real Solar System.",
   "$vref": "#/ckan/ksp-avc",
   "$kref": "#/ckan/github/Galileo88/SSRSSContinued",
   "x_via": "Automated Linuxgurugamer CKAN script",
