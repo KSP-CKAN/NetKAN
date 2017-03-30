@@ -1,0 +1,29 @@
+{
+    "spec_version" : "v1.4",
+    "identifier"   : "TextureReplacer-Skybox",
+    "$kref"        : "#/ckan/github/RangeMachine/TextureReplacer",
+    "$vref"        : "#/ckan/ksp-avc",
+    "license"      : "CC-BY-NC-SA-4.0",
+    "name"         : "TextureReplacer - Skybox",
+    "abstract"     : "The default skybox of TextureReplacer.",
+    "author"       : [ "shaw", "RangeMachine" ],
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/107471",
+        "repository": "https://github.com/RangeMachine/TextureReplacer"
+    },
+    "provides": [
+        "Skybox"
+    ],
+    "conflicts": [
+        { "name": "Skybox" }
+    ],
+    "depends": [
+        { "name": "TextureReplacer" }
+    ],
+    "install": [
+        {
+            "find": "EnvMap",
+            "install_to": "GameData/TextureReplacer"
+        }
+    ]
+}
