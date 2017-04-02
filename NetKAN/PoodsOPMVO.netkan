@@ -13,7 +13,7 @@
 		{ "name"     : "Kopernicus", "min_version" : "2:release-1.2.2-5" },
 		{ "name"     : "OuterPlanetsMod", "min_version" : "1:2.1" },
 		{ "name"     : "EnvironmentalVisualEnhancements", "min_version" : "2:EVE-1.2-2" },
-		{ "name"     : "scatterer", "min_version" : "2:v0.0300" }
+		{ "name"     : "Scatterer", "min_version" : "2:v0.0300" }
 	],
 	"install"        : [
 		{ "find"     : "PoodsOPMVO", "install_to" : "GameData" }
