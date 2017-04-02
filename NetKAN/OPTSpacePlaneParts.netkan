@@ -5,7 +5,7 @@
     "abstract"    : "Parts from previous OPT versions, recommended to avoid game breaking if you used v1.8.6",
     "license"     : "CC-BY-NC-SA-4.0",
     "$kref"       : "#/ckan/spacedock/711",
-    "$vref"       : "#/ckan/ksp-avc/GameData/OPT_Legacy/OPTLegacySpaceplaneParts.version",
+    "$vref"       : "#/ckan/ksp-avc/OPTLegacySpaceplaneParts.version",
     "install": [
         {
             "find": "OPT_Legacy",
