@@ -6,6 +6,9 @@
     "license"     : "CC-BY-NC-SA-4.0",
     "$kref"       : "#/ckan/spacedock/711",
     "$vref"       : "#/ckan/ksp-avc/OPTLegacySpaceplaneParts.version",
+    "resources"    : {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/87956-opt-space-plane-temporary-thread"
+    },
     "install": [
         {
             "find": "OPT_Legacy",
