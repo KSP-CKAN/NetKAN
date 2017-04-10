@@ -3,5 +3,22 @@
     "identifier": "MacLukysSpaceSolutions",
     "x_via": "Automated SpaceDock CKAN submission",
     "spec_version": "v1.4",
-    "license": "differs per mod. mostly https://creativecommons.org/licenses/by-nc-sa/3.0/us/"
+    "license": "CC-BY-NC-SA-3.0",
+    "depends": [
+        { "name": "ModuleManager" }
+    ],
+    "recommends": [
+        { "name": "BluedogDB" },
+        { "name": "CommunityTechTree" },
+        { "name": "TarsierSpaceTechnologyWithGalaxies" },
+        { "name": "BetterScienceLabsContinued" },
+        { "name": "FilterExtensions" }
+    ],
+    "install": [
+        {
+            "find": "MacLuky",
+            "install_to": "GameData",
+            "filter": [ ".DS_Store" ]
+        }
+    ]
 }
