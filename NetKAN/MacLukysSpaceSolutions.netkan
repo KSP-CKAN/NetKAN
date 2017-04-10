@@ -16,7 +16,7 @@
     ],
     "install": [
         {
-            "find": "MacLuky",
+            "find": "GameData/MacLuky",
             "install_to": "GameData",
             "filter": [ ".DS_Store" ]
         }
