@@ -9,22 +9,20 @@
     "resources": {
         "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/97033-10x"
     },
-
     "install": [
         {
-            "find": "MagiCore-License.txt",
-            "find_matches_files": true,
-            "install_to": "GameData"
-        },
-        {
-            "find": "MagiCore.dll",
-            "find_matches_files": true,
-            "install_to": "GameData"
-        },
-        {
-            "find": "MagiCore.version",
-            "find_matches_files": true,
+            "find": "MagiCore",
             "install_to": "GameData"
         }
-    ]
+    ],
+    "x_netkan_override" : [
+        {
+            "version" : "1.1.1",
+            "delete" : [ "ksp_version" ],
+            "override" : {
+                "ksp_version_min" : "1.1.2",
+                "ksp_version_max" : "1.1.3"
+            }
+        }
+   ]
 }

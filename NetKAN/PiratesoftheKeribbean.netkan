@@ -1,0 +1,16 @@
+{
+  "license": "CC-BY-NC-SA-4.0",
+  "identifier": "PiratesoftheKeribbean",
+  "x_via": "Automated Linuxgurugamer CKAN script",
+  "$kref": "#/ckan/spacedock/903",
+  "resources": {
+    "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/146068-113-*"
+  },
+  "install": [
+    {
+      "find": "PoK",
+      "install_to": "GameData"
+    }
+  ],
+  "spec_version": "v1.4"
+}

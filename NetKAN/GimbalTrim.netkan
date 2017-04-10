@@ -1,0 +1,20 @@
+{
+    "spec_version": "v1.16",
+    "identifier": "GimbalTrim",
+    "$kref": "#/ckan/jenkins/https://ksp.sarbian.com/jenkins/job/GimbalTrim/",
+    "$vref": "#/ckan/ksp-avc",
+    "name": "GimbalTrim",
+    "abstract": "A module to trim your engines",
+    "author": "Sarbian",
+    "license": "MIT",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/142982-0",
+        "repository": "https://github.com/sarbian/GimbalTrim"
+    },
+    "install": [
+        {
+            "find": "GimbalTrim",
+            "install_to": "GameData"
+        }
+    ]
+}

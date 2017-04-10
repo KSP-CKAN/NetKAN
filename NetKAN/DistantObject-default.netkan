@@ -2,11 +2,10 @@
     "spec_version": 1,
     "identifier": "DistantObject-default",
     "$kref": "#/ckan/github/MOARdV/DistantObject",
+	"$vref": "#/ckan/ksp-avc",
     "name": "Distant Object Enhancement default config",
     "abstract": "Default planets colors",
     "license": "CC-BY-4.0",
-    "ksp_version_min": "1.1.0",
-    "ksp_version_max": "1.1.2",
     "depends": [
         {
             "name": "DistantObject"
@@ -15,7 +14,7 @@
     "install": [{
         "file": "GameData/DistantObject",
         "install_to": "GameData",
-        "filter": ["DistantObject.dll", "Flare", "Icons"]
+        "filter": ["DistantObject.dll", "Flare", "Icons", "Settings.cfg", "DistantObject.version"]
     }],
     "provides": ["DistantObject-config"],
     "conflicts": [

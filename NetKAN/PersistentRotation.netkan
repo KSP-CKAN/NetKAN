@@ -7,6 +7,14 @@
         { "name": "Toolbar" }
     ],
     "install": [
-        { "file": "GameData/PersistentRotation", "install_to": "GameData" }
+        { "file": "PersistentRotation/GameData/PersistentRotation", "install_to": "GameData" }
+    ],
+	"x_netkan_override": [
+        {
+            "version": "1.8.1",
+            "override": {
+                "ksp_version": "1.2"
+            }
+        }
     ]
 }

@@ -1,22 +1,35 @@
 {
-    "spec_version"       : "v1.4",
-    "identifier"         : "KSPInterstellarExtended",
-    "$kref"              : "#/ckan/spacedock/172",
+    "spec_version"      : "v1.4",
+    "identifier"        : "KSPInterstellarExtended",
+    "$kref"             : "#/ckan/spacedock/172",
+    "comment"           : "$vref           : #/ckan/ksp-avc",
+    "x_netkan_staging"  : true,
+    "comment"           : "return vref when .version file is valid",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/100190-113/&page=1",
+        "repository": "https://github.com/sswelm/KSP-Interstellar-Extended"
+    },
     "license"            : "GPL-3.0",
     "install" : [
         {
-            "find"       : "GameData/WarpPlugin",
-            "install_to" : "GameData"
+            "find"      : "GameData/WarpPlugin",
+            "install_to": "GameData"
         }
     ],
     "depends" : [
-        { "name"         : "CommunityResourcePack", "min_version" : "0.5.2" },
-        { "name"         : "Toolbar", "min_version" : "1.7.12" },
-        { "name"         : "InterstellarFuelSwitch", "min_version" : "2.0.4" },
-        { "name"         : "TweakScale", "min_version" : "2.2.10"},
-        { "name"         : "ModuleManager", "min_version" : "2.6.24" }
+        { "name"        : "CommunityResourcePack", "min_version" : "0.6.4" },
+        { "name"        : "InterstellarFuelSwitch", "min_version" : "2.3.2" },
+        { "name"        : "TweakScale", "min_version" : "2.3.3"},
+        { "name"        : "ModuleManager", "min_version" : "2.7.5" },
+        { "name"        : "CommunityTechTree", "min_version" : "3.0.3" },
+        { "name"        : "UniversalStorage", "min_version" : "1.2.2" }
     ],
-   "recommends": [
-        { "name"         : "FilterExtensions", "min_version" : "2.5" }
+    "recommends": [
+        { "name"        : "FilterExtensions" },
+        { "name"        : "KSP-AVC" },
+        { "name"        : "HideEmptyTechNodes" },
+        { "name"        : "KerbalJointReinforcement" },
+        { "name"        : "UniversalStorage" },
+        { "name"        : "PersistentRotation" }
     ]
 }

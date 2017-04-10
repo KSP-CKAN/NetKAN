@@ -1,0 +1,34 @@
+{
+    "spec_version" : "v1.9",
+    "identifier"   : "OPTSpacePlaneMain",
+    "$kref"        : "#/ckan/curse/225018",
+    "license"      : "CC-BY-NC-SA-4.0",
+    "abstract"     : "Over 50 stock-a-like, large space plane oriented parts",
+    "resources"    : {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/87956-opt-space-plane-temporary-thread"
+    },
+    "ksp_version_min": "1.2.2",
+    "ksp_version_max": "1.2.2",
+    "depends": [
+        { "name" : "FirespitterCore" },
+        { "name" : "ModuleManager" }
+    ],
+    "suggests": [
+        { "name": "RasterPropMonitor" },
+        { "name": "ASETAvionics" },
+        { "name": "ASETProps" },
+        { "name": "CommunityResourcePack" }
+    ],
+    "supports": [
+        { "name" : "ConnectedLivingSpace" },
+        { "name" : "ModularFuelTanks" },
+        { "name" : "RealFuels" },
+        { "name" : "TacLifeSupport" }
+    ],
+    "install": [
+        {
+            "find"       : "OPT",
+            "install_to" : "GameData"
+        }
+    ]
+}

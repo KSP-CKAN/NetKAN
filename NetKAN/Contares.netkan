@@ -7,11 +7,12 @@
         { "name": "Tantares" },
         { "name": "TantaresLV" },
         { "name": "RealPlume" },
-        { "name": "Contares-Common" }
+        { "name": "Contares-Common" },
+	{ "name": "RetractableLiftingSurface" }
     ],
     "install": [
         {
-            "file": "Contares",
+            "find": "Contares",
             "install_to": "GameData",
             "filter": ["Agencies", "CONTARES_TweakScale.cfg"]
         }

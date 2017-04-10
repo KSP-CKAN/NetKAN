@@ -1,0 +1,15 @@
+{
+    "identifier": "SolarScience",
+    "x_via": "Automated KerbalStuff CKAN submission",
+    "spec_version": "v1.4",
+    "$kref": "#/ckan/spacedock/811",
+    "license": "MIT",
+    "resources" : {
+        "homepage"     : "http://forum.kerbalspaceprogram.com/threads/111678"
+    },
+    "install": [
+        { "find": "Solar Science", "install_to": "GameData" }
+    ]
+}
+
+

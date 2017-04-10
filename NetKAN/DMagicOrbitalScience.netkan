@@ -24,6 +24,9 @@
         { "name": "SCANsat" },
         { "name": "CommunityTechTree" }
     ],
+	"conflicts": [
+        { "name": "ForScience" }
+    ],
     "x_netkan_override": [
         {
             "version": "1.0.4",

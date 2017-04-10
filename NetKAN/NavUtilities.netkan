@@ -8,5 +8,15 @@
             "file" : "GameData/KerbalScienceFoundation",
             "install_to" : "GameData"
         }
+    ],
+    "x_netkan_override": [
+        {
+            "version": ">=0.6.0",
+            "delete": [ "ksp_version" ],
+            "override": {
+                "ksp_version_min" : "1.1.0",
+                "ksp_version_max" : "1.1.99"
+            }
+        }
     ]
 }

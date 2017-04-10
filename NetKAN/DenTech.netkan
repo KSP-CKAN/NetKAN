@@ -1,0 +1,7 @@
+{
+    "depends" : [ { "name" : "ModuleManager" } ],
+    "spec_version": "v1.4",
+    "identifier": "DenTech",
+    "$kref": "#/ckan/spacedock/1023",
+    "license": "MIT"
+}

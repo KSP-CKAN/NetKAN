@@ -8,12 +8,13 @@
     "abstract": "Brings fuel mass fractions closer to reality, while staying simple.",
     "license": "Apache-2.0",
     "resources": {
-        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/117992-/"
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/117992-*"
     },
     "depends": [
         { "name": "ModuleManager", "min_version": "2.6.16" }
     ],
     "suggests": [
+        { "name": "SMURFF-Extras-VenStockRevamp" },
         { "name": "AntennaRange" },
         { "name": "BehemothAerospaceEngineeringLargeParts" },
         { "name": "CryoEngines" },

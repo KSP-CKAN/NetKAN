@@ -1,9 +1,10 @@
 {
-    "spec_version"      : "v1.4",
+    "spec_version"      : 1,
     "name"              : "InFlightFlagSwitcher",
     "abstract"          : "Allows players to change their flag at any point during flight",
     "identifier"        : "InFlightFlagSwitcher",
-    "$kref"             : "#/ckan/github/iPeer/InFlightFlagSwitcher",
+    "author"            : [ "adsii1970", "iPeer" ],
+    "$kref"             : "#/ckan/github/adsii1970/InFlightFlagSwitcher",
     "license"           : "GPL-3.0",
     "$vref"             : "#/ckan/ksp-avc",
     "depends"           :
@@ -15,14 +16,14 @@
     "install"           :
     [
         {
-            "find"              : "iPeer",
+            "file"              : "InFlightFlagSwitcher",
             "install_to"        : "GameData"
         }
     ],
     "resources"         :
     {
-        "homepage"      : "http://forum.kerbalspaceprogram.com/index.php?/topic/115192-/",
-        "repository"    : "https://github.com/iPeer/InFlightFlagSwitcher",
-        "bugtracker"    : "https://github.com/iPeer/InFlightFlagSwitcher/issues"
+        "homepage"      : "http://forum.kerbalspaceprogram.com/index.php?/topic/151525-121-in-flight-flag-switcher",
+        "repository"    : "https://github.com/adsii1970/InFlightFlagSwitcher",
+        "bugtracker"    : "https://github.com/adsii1970/InFlightFlagSwitcher/issues"
     }
 }

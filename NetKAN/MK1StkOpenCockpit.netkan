@@ -1,0 +1,13 @@
+{
+  "spec_version": "v1.4",
+  "install": [
+    {
+      "install_to": "GameData",
+      "find": "NESDparts"
+    }
+  ],
+  "$kref": "#/ckan/spacedock/1126",
+  "x_via": "Automated Linuxgurugamer CKAN script",
+  "identifier": "MK1StkOpenCockpit",
+  "license": "MIT"
+}

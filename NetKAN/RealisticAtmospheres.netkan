@@ -1,0 +1,30 @@
+{
+    "spec_version": 1,
+    "identifier": "RealisticAtmospheres",
+    "$kref": "#/ckan/curse/239249",
+    "abstract": "Modifies the atmospheres of all planets and moons to conform to a more lifelike model.",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/128858-RealisticAtmospheres/"
+    },    
+    "depends": [
+        { "name": "Kopernicus" },
+        { "name": "ModuleManager" }
+    ],
+    "install": [
+        {
+            "file": "GameData/RealisticAtmospheres",
+            "install_to": "GameData"
+        }
+    ],
+    "x_netkan_license_ok": true,
+    "x_netkan_override": [
+        {
+            "version": "1.2.2",
+            "delete": [ "ksp_version" ],
+            "override": {
+                "ksp_version_min": "1.1.3",
+                "ksp_version_max": "1.2.2"
+            }
+        }
+    ]
+}

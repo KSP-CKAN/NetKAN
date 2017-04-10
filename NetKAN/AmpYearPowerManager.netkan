@@ -13,6 +13,13 @@
         { "name": "Toolbar" }
     ],
     "install": [
-        { "find": "REPOSoftTech", "install_to": "GameData", "filter": "Agencies" }
+        { 
+            "find": "REPOSoftTech", 
+            "install_to": "GameData", 
+            "filter": [ 
+                "Agencies",
+                "RSTKSPUtils"
+            ]
+        }
     ]
 }

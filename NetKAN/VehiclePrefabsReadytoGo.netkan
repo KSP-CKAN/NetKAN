@@ -1,0 +1,15 @@
+{
+    "$kref": "#/ckan/spacedock/875",
+    "spec_version": 1,
+    "identifier": "VehiclePrefabsReadytoGo",
+    "license": "MIT",
+    "depends": [
+        { "name": "BDAnimationModules" }
+     ],
+    "install": [
+        {
+            "file": "Forrest Design",
+            "install_to": "GameData"
+        }
+    ]
+}

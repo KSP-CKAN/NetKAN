@@ -1,0 +1,19 @@
+{
+  "license": "restricted",
+  "identifier": "CentauriDreams",
+  "x_via": "Automated SpaceDock CKAN submission",
+  "$kref": "#/ckan/spacedock/812",
+  "$vref": "#/ckan/ksp-avc",
+  "depends": [
+    {
+      "name": "Kopernicus"
+    }
+  ],
+  "install": [
+    {
+      "find": "CentauriDreams",
+      "install_to": "GameData"
+    }
+  ],
+  "spec_version": "v1.4"
+}

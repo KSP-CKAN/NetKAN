@@ -1,0 +1,22 @@
+{
+    "spec_version": "v1.4",
+    "identifier"  : "ASETProps-CE",
+    "$kref"       : "#/ckan/spacedock/1180",
+    "$vref"       : "#/ckan/ksp-avc",
+    "license"     : "CC-BY-NC-SA-3.0",
+    "author": [
+        "alexustas",
+        "Olympic1"
+    ],
+    "depends": [
+        { "name": "RasterPropMonitor-Core", "min_version" : "1:v0.28.0" }
+    ],
+    "install": [
+        {
+            "find"       : "ASET",
+            "install_to" : "GameData"
+        }
+    ],
+    "provides": [ "ASETProps" ],
+    "conflicts": [ { "name": "ASETProps" } ]
+}

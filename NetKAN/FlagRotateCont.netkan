@@ -1,0 +1,14 @@
+{
+  "spec_version": "v1.4",
+  "install": [
+    {
+      "install_to": "GameData",
+      "find": "FlagRotate"
+    }
+  ],
+  "$vref": "#/ckan/ksp-avc",
+  "$kref": "#/ckan/spacedock/1209",
+  "x_via": "Automated Linuxgurugamer CKAN script",
+  "identifier": "FlagRotateCont",
+  "license": "MIT"
+}

@@ -3,14 +3,14 @@
     "$kref": "#/ckan/spacedock/337",
     "identifier": "MethaneRockets",
     "license": "restricted",
-    "release_status": "development",
+    "release_status": "stable",
     "depends": [
         { "name": "RealPlume" },
         { "name": "ModuleManager" }
     ],
     "install": [
         {
-            "file": "MR",
+            "file": "Methane_Rockets",
             "install_to": "GameData"
         }
     ]

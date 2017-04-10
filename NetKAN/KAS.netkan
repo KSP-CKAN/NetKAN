@@ -1,25 +1,6 @@
 {
-    "spec_version"   : 1,
-    "name"           : "Kerbal Attachment System",
-    "identifier"     : "KAS",
-    "abstract"       : "KAS introduces new gameplay mechanics by adding winches, containers, dynamic struts/pipes and grabbable & attachable parts.",
-    "resources"      : {
-        "homepage": "http://forum.kerbalspaceprogram.com/threads/92514",
-        "repository": "https://github.com/KospY/KAS"
-    },
-    "license"        : "restricted",
-    "author"         : [ "KospY", "Winn75", "zzz", "Majiir", "a.g.", "IgorZ" ],
-    "depends" : [
-        {
-            "name": "ModuleManager"
-        }
-    ],
-    "recommends" : [
-        {
-            "name": "KIS"
-        }
-    ],
-    "version": "0.5.7",
-    "ksp_version": "1.1",
-    "download": "http://kerbal.curseforge.com/projects/kerbal-attachment-system-kas/files/2297485/download"
+    "spec_version"    : 1,
+    "identifier"      : "KAS",
+    "$kref"           : "#/ckan/netkan/https://raw.githubusercontent.com/ihsoft/KAS/master/KAS.netkan",
+    "license"         : "restricted"
 }

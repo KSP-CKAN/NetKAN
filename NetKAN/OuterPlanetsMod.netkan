@@ -8,7 +8,8 @@
     "depends": [
         { "name": "CommunityTerrainTexturePack" },
         { "name": "ModuleManager" },
-        { "name": "Kopernicus", "min_version": "2:release-1-0-4" }
+        { "name": "Kopernicus", "min_version": "2:release-1.2.1-1" },
+        { "name": "CustomBarnKit" }
     ],
     "provides": [ "CustomAsteroids-Pops" ],
     "recommends": [
@@ -16,7 +17,6 @@
         { "name": "SigmaOPMRecolor" },
         { "name": "SigmaOPMExpansion" },
         { "name": "CustomAsteroids" },
-        { "name": "KopernicusExpansion" },
         { "name": "SigmaBinary-core", "min_version": "1:v1.3.2" }
     ],
     "conflicts": [
@@ -45,13 +45,21 @@
         { "name": "SCANsat" },
         { "name": "DeadlyReentry" },
         { "name": "MunarSurfaceExperimentPackage" },
-        { "name": "Karbonite" },
+        { "name": "CommunityResourcePack" },
         { "name": "TextureReplacer" }
     ],
     "install": [
         {
             "find": "OPM",
             "install_to" : "GameData"
+        }
+    ],
+    "x_netkan_override": [
+        {
+            "version": "1:2.1",
+            "override": {
+                "ksp_version_max" : "1.2.2"
+            }
         }
     ]
 }

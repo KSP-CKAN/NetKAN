@@ -1,0 +1,20 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "EdenSunflare",
+    "$kref": "#/ckan/spacedock/998",
+    "abstract": "Sci-fi styled anamorphic sunflare for Scatterer",
+    "license": "CC-BY-NC-SA-4.0",
+    "provides": [ "Scatterer-sunflare" ],
+    "conflicts": [
+        { "name": "Scatterer-sunflare" }
+    ],
+    "depends": [
+        { "name": "Scatterer" }
+    ],
+    "install": [
+        {
+            "find"       : "Sunflares",
+            "install_to" : "GameData/scatterer/config"
+        }
+    ]
+}

@@ -17,11 +17,13 @@
         "KCreator"
     ],
     "resources": {
-        "homepage": "http://forum.kerbalspaceprogram.com/index.php/topic/103277-/"
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/140580-Kopernicus"
     },
-    "ksp_version": "1.1.2",
+    "ksp_version": "1.2.2",
+    "x_netkan_staging": true,
     "depends": [
-        { "name" : "ModuleManager", "min_version": "2.6.16" }
+        { "name": "ModuleManager", "min_version": "2.6.16" },
+        { "name": "ModularFlightIntegrator" }
     ],
     "suggests": [
         { "name": "KittopiaTech" }

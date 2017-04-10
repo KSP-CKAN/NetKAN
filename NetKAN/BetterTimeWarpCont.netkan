@@ -1,0 +1,14 @@
+{
+  "spec_version": "v1.4",
+  "install": [
+    {
+      "install_to": "GameData",
+      "find": "BetterTimeWarp"
+    }
+  ],
+  "$vref": "#/ckan/ksp-avc",
+  "$kref": "#/ckan/spacedock/1162",
+  "x_via": "Automated Linuxgurugamer CKAN script",
+  "identifier": "BetterTimeWarpCont",
+  "license": "GPL-3.0"
+}

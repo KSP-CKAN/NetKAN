@@ -1,0 +1,12 @@
+{
+    "identifier": "GameofKerbals",
+    "$kref": "#/ckan/spacedock/749",
+    "spec_version": "v1.4",
+    "license": "CC-BY-SA-2.0",
+    "install": [
+        {
+            "find":"medieval",
+            "install_to": "GameData"
+        }
+    ]
+}

@@ -1,0 +1,32 @@
+{
+    "spec_version": 1,
+    "identifier"  : "ProbeControlRoom",
+    "license"     : "CC-BY-NC-SA-3.0",
+    "$vref" 	  : "#/ckan/ksp-avc",
+    "$kref"       : "#/ckan/github/icedown/KSP-ProbeControlRoom",
+    
+	
+	"install"	  : [
+	{
+		"file"    : "GameData/ProbeControlRoom",
+		"install_to": "GameData"
+	}
+	],
+	"depends" 	  : [
+		{ "name"  : "ModuleManager" },
+		{ "name"  : "RasterPropMonitor"}
+	],
+	"recommends"  : [
+	{
+		"name"	  : "Toolbar"
+	}],
+	"suggests"    : [
+		{ "name"  : "SCANSat"},
+		{ "name"  : "VesselViewer"},
+		{ "name"  : "MechJeb2"},
+		{ "name"  : "DockingPortAlignment"},
+		{ "name"  : "kOS"},
+		{ "name"  : "KPS-AVC"}
+	]
+	
+}

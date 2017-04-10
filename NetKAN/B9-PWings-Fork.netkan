@@ -6,6 +6,7 @@
     "author": [ "bac9", "Crzyrndm" ],
     "license": "CC-BY-NC-SA-4.0",
     "$kref": "#/ckan/github/Crzyrndm/B9-PWings-Fork",
+    "$vref": "#/ckan/ksp-avc",
     "x_netkan_epoch": 1,
     "resources": {
         "homepage": "http://forum.kerbalspaceprogram.com/threads/104966"
@@ -20,6 +21,5 @@
             "file": "GameData/B9_Aerospace_ProceduralWings",
             "install_to": "GameData"
         }
-    ],
-    "ksp_version" : "1.1.2"
+    ]
 }

@@ -1,0 +1,22 @@
+{
+  "license": "MIT",
+  "identifier": "KepsilonKeridani",
+  "x_via": "Automated Linuxgurugamer CKAN script",
+  "$kref": "#/ckan/spacedock/843",
+  "$vref": "#/ckan/ksp-avc",
+  "depends": [
+    {
+      "name": "ModularFlightIntegrator"
+    },
+    {
+      "name": "Kopernicus"
+    }
+  ],
+  "install": [
+    {
+      "find": "Kepsilon",
+      "install_to": "GameData"
+    }
+  ],
+  "spec_version": "v1.4"
+}

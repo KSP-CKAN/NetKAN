@@ -1,0 +1,13 @@
+{
+    "$kref": "#/ckan/spacedock/780",
+    "spec_version": "v1.16",
+    "identifier": "PlanetWiki",
+    "license": "CC-BY-NC-ND-4.0",
+    "install": [
+        {
+            "find_regexp": "GameData/planetwikiv[0-9]*.ksp",
+            "find_matches_files": true,
+            "install_to": "GameData"
+        }
+    ]
+}

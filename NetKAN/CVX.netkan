@@ -1,0 +1,24 @@
+{
+    "spec_version" : "v1.4",
+    "identifier"   : "CVX",
+    "$kref"        : "#/ckan/spacedock/954",
+    "license"      : "CC-BY-NC-SA-4.0",
+    "depends": [
+        { "name": "CommunityResourcePack" },
+        { "name": "FirespitterCore" }
+    ],
+    "install": [
+        {
+            "find":"Eskandare_Heavy_Industries",
+            "install_to": "GameData"
+        }
+    ],
+    "x_netkan_override": [
+        {
+            "version": "0.12",
+            "override": {
+                "ksp_version" : "1.2"
+            }
+        }
+    ]
+}

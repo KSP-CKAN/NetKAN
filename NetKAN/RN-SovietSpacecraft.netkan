@@ -10,7 +10,8 @@
     },
     "$kref"         : "#/ckan/github/KSP-RO/SovietSpacecraft",
     "license"       : "CC-BY-NC-ND-3.0",
-    "ksp_version"   : "1.1.2",
+    "ksp_version_min"   : "1.2.0",
+    "ksp_version_max"   : "1.2.2",
     "install"       : [
     {
         "find"      : "RN_Soyuz",
@@ -24,7 +25,8 @@
         { "name"    : "RN-SalyutStations-SoyuzFerries" }
     ],
     "depends"       : [
-        { "name"      : "FirespitterCore"  },
+		{ "name"	  : "BDAnimationModules" },
+		{ "name" 	  : "ModuleManager" },
         { "name"      : "TextureReplacer" }
     ],
     "recommends"    : [

@@ -1,0 +1,27 @@
+{
+    "identifier"     : "LLL",
+    "spec_version"   : "v1.4",
+    "license"        : "CC-BY-NC-SA-4.0",
+    "$kref"          : "#/ckan/spacedock/856",
+    "$vref"          : "#/ckan/ksp-avc",
+    "x_netkan_epoch" : 1,
+    "depends": [
+        { "name": "ModuleManager" },
+        { "name": "FirespitterCore"}
+    ],
+    "recommends": [
+        { "name": "TweakScale" },
+        { "name": "CrewManifest"}
+    ],
+    "install": [
+        {
+            "find"       : "GameData/LLL",
+            "install_to" : "GameData"
+        },
+        {
+            "find"       : "GameData/LLL-Extra",
+            "install_to" : "GameData/LLL",
+            "filter"     : "Parts"
+        }
+    ]
+}

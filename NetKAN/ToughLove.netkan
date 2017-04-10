@@ -1,0 +1,18 @@
+{
+  "license": "public-domain",
+  "identifier": "ToughLove",
+  "x_via": "Automated Linuxgurugamer CKAN script",
+  "$kref": "#/ckan/spacedock/919",
+  "depends": [
+    {
+      "name": "ModuleManager"
+    }
+  ],
+  "install": [
+    {
+      "find": "XyphosAerospace",
+      "install_to": "GameData"
+    }
+  ],
+  "spec_version": "v1.4"
+}

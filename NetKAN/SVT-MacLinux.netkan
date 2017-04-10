@@ -1,0 +1,26 @@
+{
+    "spec_version"   : "v1.4",
+    "$kref"          : "#/ckan/github/Galileo88/Stock-Visual-Terrain/asset_match/SVT.*Mac.Linux.zip",
+    "$vref"          : "#/ckan/ksp-avc",
+    "identifier"     : "SVT-MacLinux",
+    "name"           : "Stock Visual Terrain (for Mac & Linux)",
+    "abstract"       : "A terrain enhancement pack using Kopernicus for the stock planets.",
+    "license"        : "CC-BY-NC-ND",
+    "release_status" : "stable",
+    "provides": [ "SVE-Terrain" ],
+    "conflicts": [
+        { "name": "SVE-Terrain" }
+    ],
+    "depends": [
+        { "name": "Kopernicus" }
+    ],
+    "recommends": [
+        { "name": "StockVisualEnhancements" }
+    ],
+    "install": [
+        {
+            "find"       : "GameData/SVT",
+            "install_to" : "GameData"
+        }
+    ]
+}
