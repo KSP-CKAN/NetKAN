@@ -3,7 +3,7 @@
     "license": "GPL-3.0",
     "identifier": "KeslaBoxvilleRover",
     "spec_version": "v1.4",
-    "$kref": "#/ckan/spacedock/1300"
+    "$kref": "#/ckan/spacedock/1300",
     "install": [
         {
             "find": "Boxville",
