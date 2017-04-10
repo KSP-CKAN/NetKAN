@@ -6,5 +6,11 @@
     "license": "CC-BY-NC-SA-4.0",
     "depends": [
         { "name": "DMagicOrbitalScience" }
+    ],
+    "install": [
+        {
+            "file": "BuzzardCollector",
+            "install_to": "GameData"
+        }
     ]
 }
