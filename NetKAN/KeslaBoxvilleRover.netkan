@@ -1,7 +1,18 @@
 {
     "x_via": "Automated SpaceDock CKAN submission",
-    "license": "GPLv3",
+    "license": "GPL-3.0",
     "identifier": "KeslaBoxvilleRover",
     "spec_version": "v1.4",
     "$kref": "#/ckan/spacedock/1300"
+    "install": [
+        {
+            "find": "Boxville",
+            "install_to": "GameData"
+        },
+        {
+            "find": "roverWheelTR-2L.cfg",
+            "find_matches_files": true,
+            "install_to": "GameData/Boxville"
+        }
+    ]
 }
