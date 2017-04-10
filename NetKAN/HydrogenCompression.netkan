@@ -3,5 +3,10 @@
     "license": "MIT",
     "$kref": "#/ckan/spacedock/1299",
     "spec_version": "v1.4",
-    "identifier": "HydrogenCompression"
+    "identifier": "HydrogenCompression",
+    "recommends": [
+        { "name": "KerbalPlanetaryBaseSystems" },
+        { "name": "CryoEngines" },
+        { "name": "TACLS" }
+    ]
 }
