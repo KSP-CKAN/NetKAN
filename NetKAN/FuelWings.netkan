@@ -3,5 +3,15 @@
     "identifier": "FuelWings",
     "x_via": "Automated SpaceDock CKAN submission",
     "spec_version": "v1.4",
-    "license": "All Rights Reserved."
+    "license": "restricted",
+    "depends": [
+        { "name": "ModuleManager" },
+        { "name": "ModularFuelTanks" }
+    ],
+    "install": [
+        {
+            "find": "GameData/FuelWings",
+            "install_to": "GameData"
+        }
+    ]
 }

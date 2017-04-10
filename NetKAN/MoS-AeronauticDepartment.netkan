@@ -1,12 +1,12 @@
 {
-    "$kref": "#/ckan/spacedock/1287",
-    "identifier": "PortalCoreBattery",
+    "$kref": "#/ckan/spacedock/1289",
+    "identifier": "MoS-AeronauticDepartment",
     "x_via": "Automated SpaceDock CKAN submission",
     "spec_version": "v1.4",
     "license": "GPL-3.0",
     "install": [
         {
-            "find": "PortalCoreBattery",
+            "find": "MoS",
             "install_to": "GameData"
         }
     ]
