@@ -2,6 +2,16 @@
     "x_via": "Automated SpaceDock CKAN submission",
     "spec_version": "v1.4",
     "identifier": "KeslaRebelRover",
-    "license": "GPLv3",
-    "$kref": "#/ckan/spacedock/1312"
+    "license": "GPL-3.0",
+    "$kref": "#/ckan/spacedock/1312",
+    "install": [
+        {
+            "find": "Rebel",
+            "install_to": "GameData"
+        },
+        {
+            "find": "roverWheelTR-2L.cfg",
+            "install_to": "GameData"
+        }
+    ]
 }
