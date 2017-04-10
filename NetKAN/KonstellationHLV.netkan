@@ -3,5 +3,14 @@
     "identifier": "KonstellationHLV",
     "x_via": "Automated SpaceDock CKAN submission",
     "spec_version": "v1.4",
-    "license": "GPLv2"
+    "license": "GPL-2.0",
+    "depends": [
+        { "name": "KIS" }
+    ],
+    "install": [
+        {
+            "find": "Moonprint",
+            "install_to": "GameData"
+        }
+    ]
 }
