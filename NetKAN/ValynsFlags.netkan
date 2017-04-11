@@ -1,0 +1,14 @@
+{
+    "x_via": "Automated SpaceDock CKAN submission",
+    "spec_version": "v1.4",
+    "identifier": "ValynsFlags",
+    "license": "restricted",
+    "$kref": "#/ckan/spacedock/1271",
+    "ksp_version": "any",
+    "install": [
+        {
+            "find": "ValynEritai",
+            "install_to": "GameData"
+        }
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "x_via": "Automated SpaceDock CKAN submission",
+    "license": "CC-BY-SA",
+    "identifier": "BeautifiedDres",
+    "$kref": "#/ckan/spacedock/1292",
+    "spec_version": "v1.4",
+    "depends": [
+        { "name": "Kopernicus" }
+    ],
+    "install": [
+        {
+            "file": "BeautyDres",
+            "install_to": "GameData"
+        }
+    ]
+}
