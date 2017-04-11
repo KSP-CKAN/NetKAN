@@ -1,0 +1,12 @@
+{
+    "x_via": "Automated SpaceDock CKAN submission",
+    "license": "MIT",
+    "$kref": "#/ckan/spacedock/1299",
+    "spec_version": "v1.4",
+    "identifier": "HydrogenCompression",
+    "recommends": [
+        { "name": "KerbalPlanetaryBaseSystems" },
+        { "name": "CryoEngines" },
+        { "name": "TACLS" }
+    ]
+}
