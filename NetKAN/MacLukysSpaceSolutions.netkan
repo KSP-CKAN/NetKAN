@@ -1,0 +1,24 @@
+{
+    "$kref": "#/ckan/spacedock/1279",
+    "identifier": "MacLukysSpaceSolutions",
+    "x_via": "Automated SpaceDock CKAN submission",
+    "spec_version": "v1.4",
+    "license": "CC-BY-NC-SA-3.0",
+    "depends": [
+        { "name": "ModuleManager" }
+    ],
+    "recommends": [
+        { "name": "BluedogDB" },
+        { "name": "CommunityTechTree" },
+        { "name": "TarsierSpaceTechnologyWithGalaxies" },
+        { "name": "BetterScienceLabsContinued" },
+        { "name": "FilterExtensions" }
+    ],
+    "install": [
+        {
+            "find": "GameData/MacLuky",
+            "install_to": "GameData",
+            "filter": [ ".DS_Store" ]
+        }
+    ]
+}
