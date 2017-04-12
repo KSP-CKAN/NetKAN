@@ -4,6 +4,7 @@
   "x_via": "Automated Linuxgurugamer CKAN script",
   "$kref": "#/ckan/spacedock/994",
   "$vref": "#/ckan/ksp-avc",
+  "suggests": [{"name": "EvaFuelCont"}],
   "install": [
     {
       "find": "EVAEnhancementsContinued",
