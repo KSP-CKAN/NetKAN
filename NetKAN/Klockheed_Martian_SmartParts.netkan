@@ -1,0 +1,9 @@
+{
+    "spec_version" : 1,
+    "identifier"   : "Klockheed_Martian_SmartParts",
+    "$kref"        : "#/ckan/github/BrettWebb/KerbalSmartParts",
+    "name"         : "Smart Parts",
+    "abstract"     : "Smart Parts can trigger all 10 action groups, as well as various other functionality such as SAS, lights, stage, or abort.",
+    "license"      : "CC-BY-NC-SA-3.0",
+    "ksp_version"  : "0.90"
+}
