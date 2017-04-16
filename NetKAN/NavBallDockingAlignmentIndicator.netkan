@@ -1,0 +1,12 @@
+{
+  "spec_version" : 1,
+  "identifier" : "NavBallDockingAlignmentIndicator",
+  "$kref" : "#/ckan/kerbalstuff/23",
+  "x_netkan_license_ok": true,
+  "install": [
+        {
+            "file"       : "GameData/NavBallDockingAlignmentIndicator",
+            "install_to" : "GameData"
+        }
+  ]
+}
