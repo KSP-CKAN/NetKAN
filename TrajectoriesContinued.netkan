@@ -1,0 +1,9 @@
+{
+    "spec_version" : 1,
+    "identifier"   : "TrajectoriesContinued",
+    "$kref"        : "#/ckan/github/fat-lobyte/KSPTrajectories",
+    "name"         : "Trajectories Continued",
+    "abstract"     : "A continuation of Youen's Trajectories mod",
+    "license"      : "MIT",
+    "ksp_version"  : "0.90"
+}
