@@ -7,7 +7,7 @@
     "name"          : "Persistent Dynamic Pod Names",
     "abstract"      : "Configurable names for pods and ships",
     "resources" : {
-        "homepage"  :   "https://github.com/linuxgurugamer/PersistentDynamicPodNames"
+        "homepage"  :   "http://forum.kerbalspaceprogram.com/index.php?/topic/142900-12-persistent-dynamic-pod-names-release/"
     },
     "recommends": [ { "name": "JanitorsCloset" } ],
     "depends": [
