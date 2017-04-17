@@ -3,7 +3,7 @@
   "install": [
     {
       "install_to": "GameData",
-      "find": "CrewQueue"
+      "find": "CrewRandR"
     }
   ],
   "depends": [
@@ -12,7 +12,7 @@
     }
   ],
   "$vref": "#/ckan/ksp-avc",
-  "$kref": "#/ckan/spacedock/1323",
+  "$kref": "#/ckan/spacedock/1324",
   "x_via": "Automated Linuxgurugamer CKAN script",
   "identifier": "CrewQueueTwo",
   "license": "MIT"
