@@ -11,6 +11,11 @@
       "name": "ModuleManager"
     }
   ],
+  "conflicts": [
+        { "name" : "BetterCrewAssignment" },
+        { "name" : "KerbalConstructionTime" },
+        { "name" : "CrewQueue" }
+   ],
   "$vref": "#/ckan/ksp-avc",
   "$kref": "#/ckan/spacedock/1324",
   "x_via": "Automated Linuxgurugamer CKAN script",
