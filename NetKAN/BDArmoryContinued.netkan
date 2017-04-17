@@ -25,9 +25,10 @@
             "install_to": "GameData"
         }
     ],
+    "x_netkan_epoch": 1,
     "x_netkan_override": [
         {
-            "version": "v0.11.1.6",
+            "version": "v0.2.1.0",
             "delete": [ "ksp_version" ],
             "override": {
                 "ksp_version_min" : "1.2.0",
