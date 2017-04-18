@@ -1,9 +1,9 @@
 {
   "spec_version" : "v1.20",
-  "identifier"   : "UpgradesUIextensions",
+  "identifier"   : "UpgradesGUI",
   "$kref"        : "#/ckan/github/gotmachine/UpgradesUIExtensions",
   "license"      : "Unlicense",
-  "abstract"     : "VAB/SPH & TechTree interface tweaks for modules/part upgrades",
+  "abstract"     : "GUI tweaks to show upgraded stats in VAB/SPH part tooltips. Also allow to customize which upgrades are enabled.",
   "$vref"        : "#/ckan/ksp-avc",
   "resources"    : 
   {
