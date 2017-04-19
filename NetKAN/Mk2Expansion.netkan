@@ -6,8 +6,9 @@
     "depends": [
         { "name": "ModuleManager" },
         { "name": "CommunityResourcePack" },
-        { "name": "InterstellarFuelSwitch" }
+        { "name": "InterstellarFuelSwitch-Core" }
     ],
+    "x_netkan_epoch": 1,
     "suggests": [
     { "name": "FerramAerospaceResearch" }
     ],

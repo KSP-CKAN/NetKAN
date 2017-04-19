@@ -1,30 +1,21 @@
 {
-    "spec_version"   : "v1.2",
+    "spec_version"   : "v1.16",
     "identifier"     : "TACLS-Config-Stock",
-    "name"           : "TAC Life Support (TACLS) - stock config",
+    "author"         : ["KSP-RO Group/JPLRepo", "Taranis Elsu" ],
+    "name"           : "TAC Life Support (TACLS) - Stock Config",
     "abstract"       : "Stock configuration for TACLS",
-    "$kref"          : "#/ckan/kerbalstuff/733",
-    "$vref"         : "#/ckan/ksp-avc",
+    "$kref"          : "#/ckan/github/KSP-RO/TacLifeSupport",
     "license"        : "CC-BY-NC-SA-3.0",
+    "ksp_version"    : "any",
+    "release_status" : "stable",
     "depends"        : [ { "name" : "TACLS" } ],
     "provides"       : [ "TACLS-Config" ],
     "conflicts"      : [ { "name" : "TACLS-Config" } ],
     "install" : [
         {
-            "file"          : "GameData/ThunderAerospace",
-            "install_to"    : "GameData",
-            "comment"       : "This installs only the LifeSupport.cfg file",
-            "filter_regexp" : "^(?!GameData/ThunderAerospace/TacLifeSupport/PluginData/TacLifeSupport/LifeSupport.cfg)"
-        }
-    ],
-    "x_netkan_override" : [
-        {
-            "version" : "v0.11.1.20",
-            "delete" : [ "ksp_version" ],
-            "override" : {
-                "ksp_version_min" : "1.0.2",
-                "ksp_version_max" : "1.0.4"
-            }
+            "find"               : "ThunderAerospace/TacLifeSupport/LifeSupport.cfg",
+            "find_matches_files" : true,
+            "install_to"         : "GameData/ThunderAerospace/TacLifeSupport"
         }
     ]
 }

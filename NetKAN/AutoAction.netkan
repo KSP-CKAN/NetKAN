@@ -1,27 +1,17 @@
 {
-"spec_version" : 1,
-"identifier" : "AutoAction",
-"$kref" : "#/ckan/github/SirDiazo/AutoAction",
-"name" : "Auto Action",
-"abstract" : "Automatically activate action groups (and RCS/SAS) on vessel launch",
-"license" : "GPL-3.0",
-"release_status" : "stable",
-"ksp_version" : "1.0",
-"author" : "Diazo",
-"depends": [
-{ "name": "ModuleManager" }
-],
-"suggests": [
-{ "name": "Toolbar" }
-],
-"resources": {
-"homepage": "http://forum.kerbalspaceprogram.com/threads/101994",
-"repository": "https://github.com/SirDiazo/AutoAction"
-},
-"install" : [
-{
-"file" : "GameData/Diazo",
-"install_to" : "GameData"
-}
-]
+  "spec_version" : 1,
+  "identifier"   : "AutoAction",
+  "$kref"        : "#/ckan/github/formicant/AutoAction",
+  "$vref"        : "#/ckan/ksp-avc",
+  "name"         : "Auto Actions",
+  "author"       : [ "Diazo", "Teilnehmer" ],
+  "abstract"     : "Automatically activate action groups (and RCS/SAS) on vessel launch",
+  "license"      : "GPL-3.0",
+  "depends"      : [
+    { "name"     : "ModuleManager" }
+  ],
+  "resources"    : {
+    "homepage"   : "http://forum.kerbalspaceprogram.com/index.php?/topic/150666-12-auto-actions-continued",
+    "repository" : "https://github.com/formicant/AutoAction"
+  }
 }

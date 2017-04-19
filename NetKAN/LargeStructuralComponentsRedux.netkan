@@ -1,0 +1,18 @@
+{
+  "license": "CC-BY-NC-ND-4.0",
+  "identifier": "LargeStructuralComponentsRedux",
+  "x_via": "Automated Linuxgurugamer CKAN script",
+  "$kref": "#/ckan/spacedock/940",
+  "depends": [
+    {
+      "name": "ModuleManager"
+    }
+  ],
+  "install": [
+    {
+      "find": "udk_lethal_d0se",
+      "install_to": "GameData"
+    }
+  ],
+  "spec_version": "v1.4"
+}

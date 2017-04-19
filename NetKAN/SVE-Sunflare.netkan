@@ -1,21 +1,25 @@
 {
     "spec_version"   : "v1.10",
-    "$kref"          : "#/ckan/spacedock/827",
+    "$kref"          : "#/ckan/github/Galileo88/StockVisualEnhancements/asset_match/(?i)Scatterer",
     "$vref"          : "#/ckan/ksp-avc",
+    "ksp_version"    : "1.2",
     "identifier"     : "SVE-Sunflare",
     "name"           : "Stock Visual Enhancements: Sunflare",
     "abstract"       : "Stock Visual Enhancements version of the sunflare component of scatterer",
     "license"        : "CC-BY-NC-SA",
     "release_status" : "stable",
-    "x_netkan_epoch" : "1",
+    "x_netkan_epoch" : "2",
+    "depends": [
+        { "name": "Scatterer" }
+    ],
     "provides": [ "Scatterer-sunflare" ],
     "conflicts": [
         { "name": "Scatterer-sunflare" }
     ],
     "install": [
         {
-            "find"       : "GameData/scatterer/sunflare",
-            "install_to" : "GameData/scatterer"
+            "find"       : "GameData/scatterer/config/Sunflares",
+            "install_to" : "GameData/scatterer/config"
         }
     ]
 }

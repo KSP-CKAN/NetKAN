@@ -16,5 +16,13 @@
             "find" : "MissionControllerEC",
             "install_to" : "GameData"
         }
+    ],
+    "x_netkan_override": [
+        {
+            "version": "1.4.3",
+            "override": {
+                "conflicts": [ { "name": "KEI" } ]
+            }
+        }
     ]
 }

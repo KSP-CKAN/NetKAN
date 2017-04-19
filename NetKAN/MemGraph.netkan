@@ -1,0 +1,12 @@
+{
+    "spec_version" : "v1.4",
+    "identifier"   : "MemGraph",
+    "$kref"        : "#/ckan/github/Gerry1135/MemGraph",
+    "name"         : "MemGraph",
+    "abstract"     : "This is a simple plugin to display of graph of memory allocation and garbage collection. It is intended as a troubleshooting and development aid rather than for general use.",
+    "license"      : "MIT",
+    "ksp_version"  : "1.2",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/139128-memgraph"
+    }
+}

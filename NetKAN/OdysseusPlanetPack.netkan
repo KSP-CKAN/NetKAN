@@ -1,0 +1,21 @@
+{
+  "license": "CC-BY-SA-4.0",
+  "identifier": "OdysseusPlanetPack",
+  "x_via": "Automated Linuxgurugamer CKAN script",
+  "$kref": "#/ckan/spacedock/798",
+  "depends": [
+    {
+      "name": "ModuleManager"
+    },
+    {
+      "name": "Kopernicus"
+    }
+  ],
+  "install": [
+    {
+      "find": "Odysseus",
+      "install_to": "GameData"
+    }
+  ],
+  "spec_version": "v1.4"
+}

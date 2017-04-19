@@ -1,0 +1,13 @@
+{
+    "spec_version" : 1,
+    "identifier"   : "KspCraftOrganizer",
+    "$kref"        : "#/ckan/spacedock/866",
+    "license"      : "MIT",
+	
+	"install": [
+        {
+            "file"       : "KspCraftOrganizer",
+            "install_to" : "GameData"
+        }
+    ]
+}

@@ -1,0 +1,15 @@
+{
+	"spec_version": "v1.4",
+	"identifier": "CorrectCoL",
+	"license": "MIT",
+	"$kref": "#/ckan/spacedock/789",
+	"conflicts": [
+	    { "name": "FerramAerospaceResearch" }
+	],
+	"install": [
+        {
+		"find": "CorrectCoL",
+		"install_to": "GameData"
+	}
+	]
+}

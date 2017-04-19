@@ -1,0 +1,13 @@
+{
+  "license": "MIT",
+  "identifier": "WheelsCollection",
+  "x_via": "Automated Linuxgurugamer CKAN script",
+  "$kref": "#/ckan/spacedock/1027",
+  "install": [
+    {
+      "file": "WheelsCollection",
+      "install_to": "GameData"
+    }
+  ],
+  "spec_version": "v1.4"
+}

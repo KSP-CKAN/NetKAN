@@ -1,19 +1,25 @@
 {
-    "$kref": "#/ckan/spacedock/410",
+    "$kref": "#/ckan/spacedock/1003",
     "spec_version": "v1.4",
     "identifier": "RSSExtrasolar",
+    "name": "Constellations",
     "license": "BSD-3-clause",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/134208-constellations/"
+    },
     "depends":[
+        { "name": "KSPInterstellarExtended" },
+        { "name": "TweakScale" },
+        { "name": "RealSolarSystem" },
         { "name": "Kopernicus" }
     ],
     "recommends": [
-        { "name": "KSPInterstellarExtended" },
         { "name": "BetterTimeWarp" },
         { "name": "USI-NuclearRockets" }
     ],
     "install": [
         {
-            "find": "RSSExtrasolar",
+            "file": "GameData/Constellations",
             "install_to": "GameData"
         }
     ]

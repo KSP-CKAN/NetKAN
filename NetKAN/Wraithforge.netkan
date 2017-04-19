@@ -4,12 +4,12 @@
     "identifier": "Wraithforge",
     "spec_version": "v1.4",
     "depends": [
-        { "name": "BDArmory" },
+        { "name": "BDArmoryContinued" },
         { "name": "ModuleManager" }
     ],
     "install": [
         {
-            "file"       : "Wraithforge",
+            "find"       : "Wraithforge",
             "install_to" : "GameData"
         }
     ]

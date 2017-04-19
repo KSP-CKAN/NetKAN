@@ -1,0 +1,31 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "SpaceShuttleSystem",
+    "$kref": "#/ckan/spacedock/1178",
+    "license": "GPL-2.0",
+    "depends": [
+        { "name": "ASETAvionics" },
+        { "name": "CommunityResourcePack" },
+        { "name": "RasterPropMonitor"},
+        { "name": "KSPWheel" },
+        { "name": "ModuleManager" }
+    ],
+    "recommends": [
+        { "name": "Canadarm" }
+    ],
+    "suggests": [
+        { "name": "RealPlume" },
+        { "name": "SmokeSreen" },
+        { "name": "HotRockets" }
+    ],
+    "install": [
+        {
+            "find": "SSTU",
+            "install_to": "GameData"
+        },
+        {
+            "find": "SPACE_SHUTTLE_SYSTEM",
+            "install_to": "GameData"
+        }
+    ]
+}

@@ -1,0 +1,13 @@
+{
+  "license": "MIT",
+  "identifier": "ThroughTheEyesOfaKerbal",
+  "x_via": "Automated Linuxgurugamer CKAN script",
+  "$kref": "#/ckan/spacedock/1013",
+  "install": [
+    {
+      "find": "ThroughTheEyes",
+      "install_to": "GameData"
+    }
+  ],
+  "spec_version": "v1.4"
+}

@@ -1,0 +1,16 @@
+{
+    "$kref": "#/ckan/spacedock/1262",
+    "identifier": "JoolOrbitalis",
+    "x_via": "Automated SpaceDock CKAN submission",
+    "spec_version": "v1.4",
+    "license": "MIT",
+    "depends": [
+        { "name": "Kopernicus" }
+    ],
+    "install": [
+        {
+            "find": "JoolOrbitalis",
+            "install_to": "GameData"
+        }
+    ]
+}

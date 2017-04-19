@@ -1,0 +1,21 @@
+{
+  "license": "CC-BY-NC-4.0",
+  "identifier": "KerbolExpandedBodies",
+  "x_via": "Automated Linuxgurugamer CKAN script",
+  "$kref": "#/ckan/spacedock/949",
+  "depends": [
+    {
+      "name": "ModuleManager"
+    },
+    {
+      "name": "Kopernicus"
+    }
+  ],
+  "install": [
+    {
+      "find": "KerbolExpandedBodies",
+      "install_to": "GameData"
+    }
+  ],
+  "spec_version": "v1.4"
+}

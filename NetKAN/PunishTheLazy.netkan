@@ -1,0 +1,13 @@
+{
+  "license": "LGPL-3.0",
+  "identifier": "PunishTheLazy",
+  "x_via": "Automated Linuxgurugamer CKAN script",
+  "$kref": "#/ckan/spacedock/956",
+  "install": [
+    {
+      "find": "PunishTheLazy",
+      "install_to": "GameData"
+    }
+  ],
+  "spec_version": "v1.4"
+}

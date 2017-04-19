@@ -1,0 +1,20 @@
+{
+  "spec_version": "v1.4",
+  "install": [
+    {
+      "install_to": "GameData",
+      "find": "EvaFuel"
+    }
+  ],
+  "depends": [
+    {
+      "name": "ModuleManager"
+    }
+  ],
+  "conflicts" : [ { "name" : "EvaFuel" } ],
+  "$vref": "#/ckan/ksp-avc",
+  "$kref": "#/ckan/spacedock/1274",
+  "x_via": "Automated Linuxgurugamer CKAN script",
+  "identifier": "EvaFuelCont",
+  "license": "MIT"
+}

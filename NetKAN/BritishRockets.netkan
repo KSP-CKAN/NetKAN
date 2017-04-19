@@ -1,16 +1,13 @@
 {
-    "spec_version" : "v1.4",
-    "identifier"   : "BritishRockets",
-    "$kref"        : "#/ckan/github/TheWire/British_Rockets",
-    "name"         : "British Rockets",
-    "abstract"     : "Collection of British launch vehicles",
-    "author": "TheWire",
-    "license"      : "CC-BY-NC-SA-4.0",
-    "ksp_version"  : "1.0.5",
+    "spec_version": "v1.4",
+    "identifier": "BritishRockets",
+    "name": "British Rockets",
+    "$kref": "#/ckan/spacedock/921",
+    "abstract": "This mod adds the Black Arrow rocket and Prospero satellite. It is an update from The Barbed Wire's British rockets mod on Curse which is not compatible with 1.1.3.",
+    "author": [ "TheWire", "Wardstone111" ],
+    "license": "CC-BY-NC-SA-4.0",
     "resources": {
-        "homepage": "http://www.curse.com/ksp-mods/kerbal/233347-british-rockets",
-        "x_screenshot": "http://media-curse.cursecdn.com/attachments/156/35/8fa1dfc59ce122f755502543ea6c5d7d.png",
-        "repository": "https://github.com/TheWire/British_Rockets"
+        "spacedock": "https://spacedock.info/mod/921/British%20Rockets"
     },
     "install": [
         {
@@ -21,8 +18,5 @@
             "file": "Ships",
             "install_to": "Ships"
         }
-    ],
-    "depends": [
-        {"name": "KlockheedMartian-Gimbal"}
     ]
 }

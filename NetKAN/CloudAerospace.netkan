@@ -1,0 +1,13 @@
+{
+  "spec_version": "v1.4",
+  "install": [
+    {
+      "install_to": "GameData",
+      "find": "CA"
+    }
+  ],
+  "$kref": "#/ckan/spacedock/1122",
+  "x_via": "Automated Linuxgurugamer CKAN script",
+  "identifier": "CloudAerospace",
+  "license": "restricted"
+}

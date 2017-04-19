@@ -7,7 +7,7 @@
     "license"      : "CC-BY-SA",
     "author"       : [ "ialdabaoth", "NathanKell", "taniwha", "Starwaster" ],
     "release_status" : "stable",
-    "ksp_version"  : "1.1.3",
+    "ksp_version"  : "1.2.2",
     "resources" : { "homepage" : "http://forum.kerbalspaceprogram.com/threads/64118" },
     "install" : [
         {
@@ -49,6 +49,22 @@
             "version" : "<= rf-v10.8.5",
             "override" : {
                 "ksp_version" : "1.0.5"
+            }
+        }
+    ],
+    "x_netkan_override": [
+        {
+            "version" : "<= rf-v11.2.0",
+            "override" : {
+                "ksp_version" : "1.1.2"
+            }
+        }
+    ],
+    "x_netkan_override": [
+        {
+            "version" : "<= rf-v11.3.1",
+            "override" : {
+                "ksp_version" : "1.1.3"
             }
         }
     ]

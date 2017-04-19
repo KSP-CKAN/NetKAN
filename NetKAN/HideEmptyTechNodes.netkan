@@ -3,9 +3,6 @@
     "identifier": "HideEmptyTechNodes",
     "$kref": "#/ckan/spacedock/577",
     "license": "CC-BY-NC-4.0",
-    "depends": [
-        { "name": "ModuleManager" }
-    ],
     "suggests": [
         { "name": "CommunityTechTree" }
     ],

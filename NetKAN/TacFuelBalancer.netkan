@@ -5,6 +5,7 @@
     "author"          : [ "Z-Key Aerospace", "Taranis Elsu" ],
     "$kref"          : "#/ckan/spacedock/640",
     "$vref"         : "#/ckan/ksp-avc",
+    "x_netkan_force_v" : true,
     "license"        : "CC-BY-NC-SA-3.0",
     "release_status" : "stable",
     "suggests" : [
