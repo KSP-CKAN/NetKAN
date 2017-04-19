@@ -3,10 +3,16 @@
   "identifier"   : "UpgradesUIextensions",
   "$kref"        : "#/ckan/github/gotmachine/UpgradesUIExtensions",
   "license"      : "Unlicense",
-  "abstract"     : "VAB/SPH & TechTree interface tweaks for modules/part upgrades",
+  "abstract"     : "GUI tweaks to show upgraded stats in VAB/SPH part tooltips. Also allow to customize which upgrades are enabled.",
   "$vref"        : "#/ckan/ksp-avc",
   "resources"    : 
   {
     "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/158081-122-upgradesuiextensions-v10-qol-vabsph-tweaks-for-part-upgrades/"
-  }
+  },
+  "install": [
+        {
+            "install_to" : "GameData",
+            "find": "UpgradesGUI"
+        }
+    ]
 }
