@@ -11,12 +11,10 @@
     "x_netkan_staging": true,
     "provides": [
         "EnvironmentalVisualEnhancements-Config",
-        "SVE-Scatterer-Config"
+        "Scatterer-config",
+        "Scatterer-sunflare"
      ],
     "conflicts": [
-        { "name": "SVE-HighResolution", "max_version": "<=2:1.1.6"  },
-        { "name": "SVE-MediumResolution", "max_version": "<=2:1.1.6"  },
-        { "name": "SVE-LowResolution", "max_version": "<=2:1.1.6"  },
         { "name" : "EnvironmentalVisualEnhancements-Config" }
     ],
     "depends": [
