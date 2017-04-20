@@ -10,9 +10,7 @@
     "x_netkan_epoch" : "3",
     "x_netkan_staging": true,
     "provides": [
-        "EnvironmentalVisualEnhancements-Config",
-        "Scatterer-config",
-        "Scatterer-sunflare"
+        "EnvironmentalVisualEnhancements-Config"
      ],
     "conflicts": [
         { "name" : "EnvironmentalVisualEnhancements-Config" }
