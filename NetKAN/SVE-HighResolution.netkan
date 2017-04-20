@@ -1,47 +1,28 @@
 {
     "spec_version"   : "v1.4",
-    "$kref"          : "#/ckan/github/Galileo88/StockVisualEnhancements/asset_match/SVE.HR.*.zip",
-    "$vref"          : "#/ckan/ksp-avc",
-    "ksp_version"    : "1.2",
+    "$kref"          : "#/ckan/github/Galileo88/StockVisualEnhancements/asset_match/SVE_HighResTextures.zip",
+    "ksp_version_min": "1.2",
+    "comment"        : "Textures only",
     "identifier"     : "SVE-HighResolution",
-    "name"           : "Stock Visual Enhancements-High Res",
-    "abstract"       : "A visual enhancement pack using EVE and Scatterer for the stock planets. ",
+    "name"           : "Stock Visual Enhancements-High Res Textures",
+    "abstract"       : "Textures for Stock Visual Enhancements",
     "license"        : "CC-BY-NC-SA",
     "release_status" : "stable",
-    "x_netkan_epoch" : "2",
+    "x_netkan_epoch" : "3",
     "x_netkan_staging": true,
-    "provides": [ 
-        "StockVisualEnhancements",
-        "EnvironmentalVisualEnhancements-Config"
+    "provides": [
+        "SVE-Textures"
      ],
     "conflicts": [
-        { "name": "StockVisualEnhancements" },
-        { "name" : "EnvironmentalVisualEnhancements-Config" }
+        { "name": "SVE-Textures" }
     ],
     "depends": [
-        { "name": "Scatterer" },
-        { "name": "EnvironmentalVisualEnhancements" },
-        { "name": "SVE-Scatterer-Config" }
-    ],
-    "recommends": [
-        { "name": "DistantObject" },
-        { "name": "SVE-Terrain" },
-        { "name": "PlanetShine" },
-        { "name": "TextureReplacer" }
+        { "name": "StockVisualEnhancements" }
     ],
     "install": [
         {
             "find"       : "GameData/StockVisualEnhancements",
             "install_to" : "GameData"
-        }
-    ],
-    "x_netkan_override": [
-        {
-            "version": "2:1.1.4",
-            "delete": [ "ksp_version_min", "ksp_version_max" ],
-            "override": {
-                "ksp_version" : "1.2"
-            }
         }
     ]
 }
