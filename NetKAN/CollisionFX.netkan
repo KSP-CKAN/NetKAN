@@ -2,7 +2,11 @@
     "spec_version" : 1,
     "identifier"   : "CollisionFX",
     "$kref"        : "#/ckan/github/pizzaoverhead/CollisionFX",
+    "$vref" : "#/ckan/ksp-avc",
     "license"      : "GPL-2.0",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/91537-122/"
+    },
     "depends"      : [
         { "name": "ModuleManager" }
     ],
