@@ -1,0 +1,20 @@
+{
+    "spec_version" : "v1.2",
+    "identifier"   : "M_ISPx2",
+    "$kref"        : "#/ckan/github/miki-g/M_ISPx2",
+    "$vref"        : "#/ckan/ksp-avc",
+    "name"         : "Engine ISP x2",
+    "author"       : [ "Miki" ],
+    "abstract"     : "Simple engine tweak for improved efficiency.",
+    "license"      : "WTFPL",
+    
+    "install": [
+       {
+          "file" : "M_ISPx2",
+          "install_to" : "GameData"
+       }
+    ],
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/139827-*/#comment-2583173"
+    }
+}
