@@ -1,7 +1,7 @@
 {
     "spec_version" : "v1.2",
     "identifier"   : "M-ISPx2",
-    "$kref"        : "#/ckan/github/miki-g/M_ISPx2",
+    "$kref"        : "#/ckan/github/miki-g/M-ISPx2",
     "$vref"        : "#/ckan/ksp-avc",
     "name"         : "Engine ISP x2",
     "author"       : [ "Miki" ],
@@ -10,7 +10,7 @@
     
     "install": [
        {
-          "file" : "M_ISPx2",
+          "file" : "M-ISPx2",
           "install_to" : "GameData"
        }
     ],
