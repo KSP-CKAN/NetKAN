@@ -5,7 +5,7 @@
     "name"         : "Kerbal Flight Data",
     "abstract"     : "Displays essential information for piloting space planes. Will be most useful with Ferram Aerospace Research.",
     "license"      : "GPL-3.0",
-    "ksp_version"  : "1.1",
+    "ksp_version"  : "1.2",
     "recommends" : [
         { "name" : "FerramAerospaceResearch" }
     ],
