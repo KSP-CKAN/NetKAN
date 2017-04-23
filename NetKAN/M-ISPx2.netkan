@@ -7,7 +7,9 @@
     "author"       : [ "Miki" ],
     "abstract"     : "Simple engine tweak for improved efficiency.",
     "license"      : "WTFPL",
-    
+    "depends": [
+    { "name" : "ModuleManager" }
+    ],
     "install": [
        {
           "file" : "M-ISPx2",
