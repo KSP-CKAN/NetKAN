@@ -3,16 +3,16 @@
     "spec_version": "v1.16",
     "identifier": "KeslaRebelRover",
     "license": "GPL-3.0",
-    "$kref": "#/ckan/spacedock/1312",
+    "$kref": "#/ckan/spacedock/1320",
     "install": [
         {
-            "find": "Rebel",
+            "find": "RebelLux",
             "install_to": "GameData"
         },
         {
             "find": "roverWheelTR-2L.cfg",
             "find_matches_files": true,
-            "install_to": "GameData/Rebel"
+            "install_to": "GameData/RebelLux"
         }
     ]
 }
