@@ -1,7 +1,7 @@
 {
     "name"         : "New TantaresLV",
     "author"       : "Beale",
-    "spec_version" : 1,
+    "spec_version" : "v1.4",
     "identifier"   : "NewTantaresLV",
     "$kref"        : "#/ckan/github/Tantares/TantaresLV",
     "license"      : "CC-BY-NC-SA-4.0",
@@ -18,7 +18,7 @@
     ],
     "install": [
         {
-            "file"       : "TantaresLV",
+            "find"       : "TantaresLV",
             "install_to" : "GameData"
         }
     ]
