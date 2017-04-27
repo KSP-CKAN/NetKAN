@@ -5,14 +5,14 @@
     "$vref"        : "#/ckan/ksp-avc",
     "name"         : "Sigma: PluronKhato",
     "abstract"     : "This mod will add a Kerbal analogue to the Pluto-Charon system.",
-    "license"      : "CC-BY-NC-SA-4.0",
+    "license"      : "restricted",
     "author"       : "Sigma88",
     "resources": {
-        "homepage": "http://forum.kerbalspaceprogram.com/threads/112095"
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/101015-mod/"
     },
     "depends": [
         { "name": "ModuleManager" },
-        { "name": "Kopernicus", "min_version": "1:beta-05-2" }
+        { "name": "Kopernicus" }
     ],
     "recommends": [
         { "name": "SigmaBinary-core" }

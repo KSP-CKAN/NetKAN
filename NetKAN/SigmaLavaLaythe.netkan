@@ -1,0 +1,23 @@
+{
+    "spec_version" : "v1.4",
+    "identifier"   : "SigmaLavaLaythe",
+    "$kref"        : "#/ckan/github/Sigma88/Sigma-LavaLaythe",
+    "$vref"        : "#/ckan/ksp-avc",
+    "name"         : "Sigma: Lava Laythe",
+    "abstract"     : "This mod changes Laythe into a lava planet.",
+    "license"      : "restricted",
+    "author"       : "Sigma88",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/130418-wip/"
+    },
+    "depends": [
+        { "name": "ModuleManager" },
+        { "name": "Kopernicus" }
+    ],
+    "install": [
+        {
+            "find": "LavaLaythe",
+            "install_to": "GameData/Sigma"
+        }
+    ]
+}

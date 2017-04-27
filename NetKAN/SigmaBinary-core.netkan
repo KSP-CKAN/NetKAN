@@ -8,11 +8,11 @@
     "license"      : "restricted",
     "author"       : "Sigma88",
     "resources": {
-        "homepage": "http://forum.kerbalspaceprogram.com/threads/127820"
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/115114-sb/"
     },
     "depends": [
-        { "name": "ModuleManager", "min_version": "2.6.23" },
-        { "name": "Kopernicus", "min_version": "2:release-1-0-3" }
+        { "name": "ModuleManager" },
+        { "name": "Kopernicus" }
     ],
     "suggests": [
         { "name": "SigmaBinary-DunaIke" }
@@ -23,6 +23,5 @@
             "install_to": "GameData/Sigma"
         }
     ],
-    "x_netkan_epoch": "1",
-    "comment": "This mod used to be packaged differently but is now repackaged to allow an upgrade path."
+    "x_netkan_epoch": "1"
 }

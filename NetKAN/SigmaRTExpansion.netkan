@@ -1,0 +1,27 @@
+{
+    "spec_version" : "v1.4",
+    "identifier"   : "SigmaRTExpansion",
+    "$kref"        : "#/ckan/github/Sigma88/Sigma-Antennas",
+    "$vref"        : "#/ckan/ksp-avc",
+    "name"         : "Sigma: Antennas",
+    "abstract"     : "A set of 4 antennas, recolored and resized versions of the stock Comms DTS-M1 because color coding is fun!",
+    "license"      : "CC-BY-NC-SA-4.0",
+    "author"       : "Sigma88",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/101015-mod/"
+    },
+    "depends": [
+        { "name": "ModuleManager" }
+    ],
+    "suggests": [
+        { "name": "AntennaRange" },
+        { "name": "RemoteTech" }
+    ],
+    "install": [
+        {
+            "find": "Antennas",
+            "install_to": "GameData/Sigma"
+        }
+    ],
+    "x_netkan_epoch": "1"
+}

@@ -1,0 +1,27 @@
+{
+    "spec_version" : "v1.4",
+    "identifier"   : "SigmaModExpansions",
+    "$kref"        : "#/ckan/github/Sigma88/Sigma-OuterSpaceComms",
+    "$vref"        : "#/ckan/ksp-avc",
+    "name"         : "Sigma: OuterSpaceComms",
+    "abstract"     : "A set of 3 antennas designed to probe deep into outer space.",
+    "license"      : "CC-BY-NC-SA-4.0",
+    "author"       : "Sigma88",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/101015-mod/"
+    },
+    "depends": [
+        { "name": "ModuleManager" },
+        { "name": "RemoteTech" }
+    ],
+    "suggests": [
+        { "name": "OuterPlanetsMod" }
+    ],
+    "install": [
+        {
+            "find": "OuterSpaceComms",
+            "install_to": "GameData/Sigma"
+        }
+    ],
+    "x_netkan_epoch": "1"
+}
