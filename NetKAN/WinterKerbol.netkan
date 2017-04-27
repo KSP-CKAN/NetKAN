@@ -1,11 +1,11 @@
 {
     "spec_version": "v1.4",
     "identifier": "WinterKerbol",
-    "$kref": "#/ckan/kerbalstuff/1333",
-    "license": "MIT",
+    "$kref": "#/ckan/spacedock/1110",
+    "license": "restricted",
     "depends": [
         { "name": "ModuleManager" },
-        { "name": "Kopernicus", "min_version": "1:beta-05-2" },
+        { "name": "Kopernicus" },
         { "name": "TextureReplacer" }
     ],
     "conflicts": [
@@ -16,7 +16,7 @@
     ],
     "install": [
         {
-            "find"       : "ChristmasKerbol",
+            "find"       : "WinterKerbol",
             "install_to" : "GameData"
         },
         {
