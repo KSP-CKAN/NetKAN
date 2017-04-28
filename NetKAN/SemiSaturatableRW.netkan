@@ -15,5 +15,7 @@
             "file"       : "GameData/RW Saturatable",
             "install_to" : "GameData"
         }
-    ]
+    ],
+    "ksp_version_min": "1.2.0",
+    "ksp_version_max": "1.2.8"
 }
