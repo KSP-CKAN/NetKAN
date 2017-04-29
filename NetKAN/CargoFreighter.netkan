@@ -42,8 +42,8 @@
       "name": "FirespitterCore"
     }
   ],
-  "$vref": "#/ckan/ksp-avc",
   "$kref": "#/ckan/spacedock/1332",
+  "$vref": "#/ckan/ksp-avc/GameData/CoyoteSpaceIndustries/Freighter/CSIFreighter.version",
   "x_via": "Automated Linuxgurugamer CKAN script",
   "identifier": "CargoFreighter",
   "license": "restricted"
