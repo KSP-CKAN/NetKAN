@@ -27,7 +27,7 @@
     "install":
     [
         {
-            "find": "SSRSS",
+            "file": "GameData/SSRSS",
             "install_to": "GameData"
         }
     ]
