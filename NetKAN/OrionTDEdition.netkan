@@ -3,5 +3,11 @@
     "identifier": "OrionTDEdition",
     "x_via": "Automated SpaceDock CKAN submission",
     "spec_version": "v1.4",
-    "license": "MIT"
+    "license": "MIT",
+    "install": [
+        {
+            "file": "GameData/USAFOrionTD",
+            "install_to": "GameData"
+        }
+    ]
 }
