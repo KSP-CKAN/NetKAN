@@ -19,8 +19,7 @@
     "install" : [
         {
             "find"          : "GameData/ThunderAerospace",
-            "install_to"    : "GameData",
-            "filter_regexp" : "TacLifeSupport\\/LifeSupport\\.cfg$"
+            "install_to"    : "GameData"
         }
     ],
     "resources" : {
