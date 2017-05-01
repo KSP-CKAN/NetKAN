@@ -1,0 +1,11 @@
+{
+    "spec_version" : 1,
+    "identifier"   : "StationKeeping",
+    "$kref"        : "#/ckan/github/swilbur/StationKeeping",
+    "license"      : "CC-BY-4.0",
+    "abstract"     : "Adds a button in the Tracking Station to set a ship's orbit. If you are with 1% (configurable) of your target orbit, you can simply push the button to set the orbit's semi-major axis to exactly what you want, so it won't drift out of alignment as you time warp.",
+    "ksp_version"  : "1.2.2",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/158348-122-stationkeeping-precise-synchronous-orbits/"
+    }
+}
