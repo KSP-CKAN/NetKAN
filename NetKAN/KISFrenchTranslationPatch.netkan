@@ -4,6 +4,13 @@
     "$kref": "#/ckan/spacedock/1157",
     "license": "restricted",
     "depends": [
+        { "name": "ModuleManager" },
         { "name": "KIS" }
+    ],
+    "install": [
+        {
+            "find": "KIS trad fr",
+            "install_to": "GameData"
+        }
     ]
 }
