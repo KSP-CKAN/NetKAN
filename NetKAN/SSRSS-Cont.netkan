@@ -5,6 +5,12 @@
     "$vref": "#/ckan/ksp-avc",
     "abstract": "Stock Size Real Solar System.",
     "license": "CC-BY-NC-ND",
+    "provides": [
+        "EnvironmentalVisualEnhancements-Config"
+    ],
+    "conflicts": [
+        { "name": "EnvironmentalVisualEnhancements-Config" }
+    ],
     "depends":
     [
         { "name": "ModuleManager" },
