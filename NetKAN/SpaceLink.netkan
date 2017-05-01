@@ -1,0 +1,12 @@
+{
+    "spec_version": 1,
+    "identifier": "SpaceLink",
+    "$kref": "#/ckan/spacedock/1342",
+    "license": "WTFPL",
+    "install": [
+        {
+            "file": "SpaceLink.dll",
+            "install_to": "GameData"
+        }
+    ]
+}
