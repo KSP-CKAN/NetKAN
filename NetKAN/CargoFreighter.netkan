@@ -6,21 +6,7 @@
         ".*\\.pdb$"
       ],
       "install_to": "GameData",
-      "find": "UmbraSpaceIndustries"
-    },
-    {
-      "filter_regexp": [
-        ".*\\.pdb$"
-      ],
-      "install_to": "GameData",
       "find": "CoyoteSpaceIndustries"
-    },
-    {
-      "filter_regexp": [
-        ".*\\.pdb$"
-      ],
-      "install_to": "GameData",
-      "find": "000_USITools"
     },
     {
       "install_to": "Ships",
@@ -31,16 +17,22 @@
       "find": "SPH"
     }
   ],
+  "recommends": [
+    { "name": "Hanger" },
+    { "name": "USI-LS" },
+    { "name": "UKS" },
+    { "name": "ExtraplanetaryLaunchpads" }
+  ],
+  "suggests": [
+    { "name": "KIS" },
+    { "name": "Workshop" }
+  ],
   "depends": [
-    {
-      "name": "CommunityResourcePack"
-    },
-    {
-      "name": "ModuleManager"
-    },
-    {
-      "name": "FirespitterCore"
-    }
+    { "name": "USITools" },
+    { "name": "CommunityResourcePack" },
+    { "name": "CommunityCategoryKit" },
+    { "name": "ModuleManager" },
+    { "name": "FirespitterCore" }
   ],
   "$kref": "#/ckan/spacedock/1332",
   "$vref": "#/ckan/ksp-avc/GameData/CoyoteSpaceIndustries/Freighter/CSIFreighter.version",
