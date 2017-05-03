@@ -1,10 +1,10 @@
 {
     "identifier": "KerbinSideSkyways",
     "spec_version": "v1.4",
-    "$kref": "#/ckan/spacedock/374",
-    "license": "BSD-3-clause",
+    "$kref": "#/ckan/spacedock/1350",
+    "license": "restricted",
     "resources": {
-        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/74776-11-kerbin-side"
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/160099-122-kerbin-side-continued/"
     },
 
     "depends": [
@@ -19,5 +19,6 @@
             "find": "KerbinSide",
             "install_to": "GameData"
         }
-    ]
+    ],
+    "x_netkan_epoch": "1"
 }
