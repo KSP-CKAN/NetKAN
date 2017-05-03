@@ -7,10 +7,12 @@
     "abstract": "Clouds for Stock Size Real Solar System.",
     "license": "CC-BY-NC-ND",
     "provides": [
-        "SSRSS-Clouds"
+        "SSRSS-Clouds",
+        "EnvironmentalVisualEnhancements-Config"
     ],
     "conflicts": [
-        { "name": "SSRSS-Clouds" }
+        { "name": "SSRSS-Clouds" },
+        { "name": "EnvironmentalVisualEnhancements-Config" }
     ],
     "depends":
     [

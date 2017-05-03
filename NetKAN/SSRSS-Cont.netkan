@@ -6,10 +6,10 @@
     "abstract": "Stock Size Real Solar System.",
     "license": "CC-BY-NC-ND",
     "provides": [
-        "EnvironmentalVisualEnhancements-Config"
+        "Scatterer-config"
     ],
     "conflicts": [
-        { "name": "EnvironmentalVisualEnhancements-Config" }
+        { "name": "Scatterer-config" }
     ],
     "depends":
     [
