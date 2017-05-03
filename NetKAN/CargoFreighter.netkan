@@ -17,9 +17,20 @@
       "find": "SPH"
     }
   ],
+  "recommends": [
+    { "name": "Hanger" },
+    { "name": "USI-LS" },
+    { "name": "UKS" },
+    { "name": "ExtraplanetaryLaunchpads" }
+  ],
+  "suggests": [
+    { "name": "KIS" },
+    { "name": "Workshop" }
+  ],
   "depends": [
     { "name": "USITools" },
     { "name": "CommunityResourcePack" },
+    { "name": "CommunityCategoryKit" },
     { "name": "ModuleManager" },
     { "name": "FirespitterCore" }
   ],
