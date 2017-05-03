@@ -1,8 +1,8 @@
 {
     "identifier": "KerbinSideAirRace",
     "spec_version": "v1.4",
-    "$kref": "#/ckan/spacedock/560",
-    "license": "BSD-3-clause",
+    "$kref": "#/ckan/spacedock/1348",
+    "license": "restricted",
     "install": [
         {
             "find"       : "KerbinSide",
@@ -15,5 +15,6 @@
     "provides" : [ "KerbinSide-virt" ],
     "conflicts": [
         { "name": "KerbinSide-virt" }
-    ]
+    ],
+    "x_netkan_epoch": "1"
 }
