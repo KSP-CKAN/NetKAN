@@ -1,8 +1,8 @@
 {
     "identifier": "KerbinSideKampus",
     "spec_version": "v1.4",
-    "$kref": "#/ckan/spacedock/555",
-    "license": "BSD-3-clause",
+    "$kref": "#/ckan/spacedock/1351",
+    "license": "restricted",
     "install": [
         {
             "find"       : "KerbinSide",
@@ -15,5 +15,6 @@
     "provides" : [ "KerbinSide-virt" ],
     "conflicts": [
         { "name": "KerbinSide-virt" }
-    ]
+    ],
+    "x_netkan_epoch": "1"
 }
