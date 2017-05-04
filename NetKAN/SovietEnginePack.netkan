@@ -9,7 +9,7 @@
     ],
     "install" : [
         {
-            "file": "SovietEngines",
+            "file": "GameData/SovietEngines",
             "install_to": "GameData"
         }
     ]
