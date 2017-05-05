@@ -19,7 +19,7 @@
     "conflicts": [
         { "name": "BDArmory" }
     ],
-    "recommends": [
+    "depends": [
         { "name": "PhysicsRangeExtender" }
     ],
     "install": [
