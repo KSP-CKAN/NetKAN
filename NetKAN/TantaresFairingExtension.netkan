@@ -6,7 +6,7 @@
     "x_netkan_epoch": 1,
     "depends": [
         { "name": "ModuleManager" },
-        { "name": "TantaresLV" }
+        { "name": "NewTantaresLV" }
     ],
     "install": [
         {
