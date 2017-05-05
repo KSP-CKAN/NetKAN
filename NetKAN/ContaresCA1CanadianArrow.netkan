@@ -4,8 +4,8 @@
     "identifier": "ContaresCA1CanadianArrow",
     "license": "CC-BY-NC-4.0",
     "recommends": [
-        { "name": "Tantares" },
-        { "name": "TantaresLV" }
+        { "name": "NewTantares" },
+        { "name": "NewTantaresLV" }
     ],
     "depends": [
         { "name": "RealPlume" },
