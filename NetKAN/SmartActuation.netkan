@@ -6,6 +6,7 @@
       "find": "SmartActuation"
     }
   ],
+  "$vref": "#/ckan/ksp-avc",
   "$kref": "#/ckan/github/theRagingIrishman/SmartActuation",
   "x_via": "Automated Linuxgurugamer CKAN script",
   "identifier": "SmartActuation",
