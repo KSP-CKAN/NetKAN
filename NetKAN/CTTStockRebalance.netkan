@@ -1,0 +1,17 @@
+{
+    "x_via": "Automated SpaceDock CKAN submission",
+    "$kref": "#/ckan/spacedock/1361",
+    "license": "GPL-3.0",
+    "spec_version": "v1.4",
+    "identifier": "CTTStockRebalance",
+    "depends": [
+        { "name": "CommunityTechTree" },
+        { "name": "ModuleManager" }
+    ],
+    "install": [
+        {
+            "find":"GameData/CTTStockRebalance",
+            "install_to": "GameData"
+        }
+    ]
+}
