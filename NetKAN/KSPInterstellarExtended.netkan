@@ -17,8 +17,8 @@
         }
     ],
     "depends" : [
-        { "name"        : "CommunityResourcePack", "min_version" : "0.6.4" },
-        { "name"        : "InterstellarFuelSwitch", "min_version" : "2.3.2" },
+        { "name"        : "CommunityResourcePack", "min_version" : "0.6.5" },
+        { "name"        : "InterstellarFuelSwitch", "min_version" : "2.5.0" },
         { "name"        : "TweakScale", "min_version" : "2.3.3"},
         { "name"        : "ModuleManager", "min_version" : "2.7.5" },
         { "name"        : "CommunityTechTree", "min_version" : "3.0.3" },
