@@ -8,6 +8,7 @@
   ],
   "depends" : [ { "name" : "Chatterer" } ],
   "$kref": "#/ckan/spacedock/1367",
+  "$vref"        : "#/ckan/ksp-avc",
   "x_via": "Automated Linuxgurugamer CKAN script",
   "identifier": "ChattererExtended",
   "license": "CC-BY-4.0"
