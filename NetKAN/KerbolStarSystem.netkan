@@ -1,0 +1,19 @@
+{
+    "x_via": "Automated SpaceDock CKAN submission",
+    "$kref": "#/ckan/spacedock/1025",
+    "$vref": "#/ckan/ksp-avc",
+    "spec_version": "v1.4",
+    "license": "CC-BY-NC-SA-4.0",
+    "identifier": "KerbolStarSystem",
+    "depends": [
+        { "name": "Kopernicus" },
+        { "name": "ModuleManager" },
+        { "name": "Scatterer" }
+    ],
+    "install": [
+        {
+            "find":"Step 2 Main Mod/GameData/Kerbol Starsystem",
+            "install_to": "GameData"
+        }
+    ]
+}
