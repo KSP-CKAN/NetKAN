@@ -1,0 +1,17 @@
+{
+    "spec_version" : "v1.4",
+    "identifier"   : "SpearofLonginus",
+    "$kref"        : "#/ckan/github/satoi8080/KSP-Spear-of-Longinus",
+    "license"      : "CC BY-NC-ND 4.0",
+    "abstract"     : "This is a fan-made MOD. Inspired by the official 20th anniversary plan. This mod includes a Spear of Longinus and a flag of Nerv.",
+    "ksp_version"  : "1.2.2",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/99734-122spear-of-longinus/"
+    },
+    "install" : [
+        {
+            "find"       : "GameData/Spear Of Longinus",
+            "install_to" : "GameData"
+        }
+    ]
+}
