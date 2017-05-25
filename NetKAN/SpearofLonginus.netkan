@@ -6,8 +6,9 @@
      "license"      : "CC-BY-NC-ND",
      "abstract"     : "A fan-made MOD of Neon Genesis Evangelion inspired by the official 20th anniversary plan.",
      "ksp_version"  : "1.2.2",
+     "x_netkan_force_v": true,
      "resources": {
-         "homepage": "https://github.com/satoi8080/KSP-Spear-of-Longinus"
+         "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/99734-spear-of-longinus"
      },
      "install" : [
          {
