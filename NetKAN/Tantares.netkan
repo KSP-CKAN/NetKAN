@@ -2,11 +2,12 @@
     "spec_version"   : 1,
     "name"           : "Tantares",
     "identifier"     : "Tantares",
-    "$kref"          : "#/ckan/spacedock/174",
+    "$kref"          : "#/ckan/github/Tantares/Tantares",
     "author"         : "Beale",
     "abstract"       : "Stockalike Soyuz and MIR",
     "license"        : "CC-BY-NC-SA-4.0",
     "release_status" : "stable",
+    "ksp_version" : "1.2.2",
     "resources" : {
         "homepage"      : "http://forum.kerbalspaceprogram.com/threads/81537"
     },
