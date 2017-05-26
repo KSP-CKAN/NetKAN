@@ -9,7 +9,8 @@
     },
     "install": [
         { "find": "Solar Science", "install_to": "GameData" }
-    ]
+    ],
+    "x_netkan_force_v": true
 }
 
 
