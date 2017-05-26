@@ -1,7 +1,19 @@
 {
-    "x_via": "Automated SpaceDock CKAN submission",
     "spec_version": "v1.4",
     "identifier": "SpaceXLaunchVehicles",
-    "license": "All rights reserved",
-    "$kref": "#/ckan/spacedock/269"
+    "license": "restricted",
+    "$kref": "#/ckan/spacedock/269",
+    "install": [
+        { "name": "ModuleManager" }
+    ],
+    "install": [
+        {
+            "find": "Launchers Pack",
+            "install_to": "GameData"
+        },
+        {
+            "find": "Ships/VAB",
+            "install_to": "Ships"
+        }
+    ]
 }
