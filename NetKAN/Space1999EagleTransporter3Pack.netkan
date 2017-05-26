@@ -1,7 +1,16 @@
 {
     "spec_version": "v1.4",
-    "x_via": "Automated SpaceDock CKAN submission",
-    "license": "This work is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License. ",
     "identifier": "Space1999EagleTransporter3Pack",
-    "$kref": "#/ckan/spacedock/1373"
+    "$kref": "#/ckan/spacedock/1373",
+    "license": "CC-BY-NC-SA-4.0",
+    "install": [
+        {
+            "find": "MT-Eagle",
+            "install_to": "GameData"
+        },
+        {
+            "file": "Ships/SPH",
+            "install_to": "Ships"
+        }
+    ]
 }
