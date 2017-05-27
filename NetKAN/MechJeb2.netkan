@@ -14,11 +14,19 @@
         "homepage": "http://forum.kerbalspaceprogram.com/threads/124336",
         "repository": "https://github.com/MuMech/MechJeb2"
     },
-    "ksp_version": "1.2",
+    "ksp_version": "1.3",
     "install": [
         {
             "find": "MechJeb2",
             "install_to": "GameData"
+        }
+    ],
+    "x_netkan_override": [
+        {
+            "version": "2.6.0.0",
+            "override": {
+                "ksp_version" : "1.2"
+            }
         }
     ],
     "x_netkan_override": [
