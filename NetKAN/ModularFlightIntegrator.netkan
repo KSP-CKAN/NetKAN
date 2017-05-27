@@ -11,7 +11,7 @@
         "homepage": "http://forum.kerbalspaceprogram.com/threads/118088",
         "repository": "https://github.com/sarbian/ModularFlightIntegrator"
     },
-    "ksp_version_min": "1.2.2",
+    "ksp_version": "1.2.2",
     "install": [
         {
             "find": "ModularFlightIntegrator",
