@@ -1,23 +1,31 @@
 {
     "$kref": "#/ckan/spacedock/1349",
+    "$vref": "#/ckan/ksp-avc",
+    "x_netkan_epoch": 3,
     "identifier": "KerbinSideGroundControl",
     "spec_version": "v1.4",
     "license": "restricted",
     "resources": {
         "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/160099-122-kerbin-side-continued/"
     },
-    "depends": [
-        { "name": "KerbalKonstructs" }
+    "install": [
+        {
+            "find"       : "GroundControl",
+            "install_to" : "GameData/KerbinSide"
+        },
+        {
+            "find"       : "KerbinSide-GroundControl.version",
+            "install_to" : "GameData/KerbinSide",
+            "find_matches_files" : true
+        }
     ],
     "provides" : [ "KerbinSide-virt" ],
     "conflicts": [
         { "name": "KerbinSide-virt" }
     ],
-    "install": [
-        {
-            "find": "KerbinSide",
-            "install_to": "GameData"
-        }
-    ],
-    "x_netkan_epoch": "1"
+    "depends" : [
+        { "name" : "KerbalKonstructs" },
+        { "name" : "KerbinSideCore" },
+
+    ]
 }

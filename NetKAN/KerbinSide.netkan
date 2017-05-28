@@ -6,18 +6,30 @@
         "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/160099-122-kerbin-side-continued/"
     },
     "identifier": "KerbinSide",
-    "x_netkan_epoch" : "2",
-    "depends": [
-        { "name": "KerbalKonstructs" }
+    "$vref": "#/ckan/ksp-avc",
+    "x_netkan_epoch" : "3",
+    "install": [
+        {
+            "find"       : "MainBases",
+            "install_to" : "GameData/KerbinSide"
+        },
+        {
+            "find"       : "GroundControl",
+            "install_to" : "GameData/KerbinSide"
+        },
+        {
+            "find"       : "KerbinSide-Complete.version",
+            "install_to" : "GameData/KerbinSide",
+            "find_matches_files" : true
+        }
     ],
     "provides" : [ "KerbinSide-virt" ],
     "conflicts": [
         { "name": "KerbinSide-virt" }
     ],
-    "install": [
-        {
-            "find": "KerbinSide",
-            "install_to": "GameData"
-        }
+    "depends" : [
+        { "name" : "KerbalKonstructs" },
+        { "name" : "KerbinSideCore" },
+
     ]
 }
