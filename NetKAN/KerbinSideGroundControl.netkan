@@ -25,7 +25,6 @@
     ],
     "depends" : [
         { "name" : "KerbalKonstructs" },
-        { "name" : "KerbinSideCore" },
-
+        { "name" : "KerbinSideCore" }
     ]
 }
