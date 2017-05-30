@@ -17,7 +17,8 @@
         },
         {
             "file": "2 - Planets/GameData/TheVerse",
-            "install_to": "GameData"
+            "install_to": "GameData",
+            "filter_regexp": [ ".*\\.[vV]ersion", ".*._License\\.txt", "TBG_LICENSE.txt", "TBG_Textures.txt" ],
         },
         {
             "file": "3 - Moons/GameData/TheVerse",
