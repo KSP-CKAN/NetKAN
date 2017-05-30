@@ -5,6 +5,9 @@
     "author"         : [ "Freedom", "PhineasFreak" ],
     "license"        : "MIT",
     "ksp_version_min": "1.2",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/85342-jebediahkerman42s-procedural-part-textures"
+    },
     "install": [
         {
             "find": "FreedomTex",
@@ -12,8 +15,7 @@
         }
     ],
     "depends": [
-        { "name": "ProceduralParts" },
-        { "name": "ModuleManager" }
+        { "name": "ProceduralParts" }
     ],
     "x_netkan_epoch": 1
 }
