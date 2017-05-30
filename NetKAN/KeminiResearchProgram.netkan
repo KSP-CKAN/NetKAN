@@ -2,7 +2,7 @@
     "spec_version": "v1.4",
     "identifier": "KeminiResearchProgram",
     "$kref": "#/ckan/github/mwerle/OrbitalMaterialScience/asset_match/NehemiahIncSciencePack.*.zip",
-    "$vrefbroken": "#/ckan/ksp-avc",
+    "$vref": "#/ckan/ksp-avc",
     "name": "Kemini Research Program",
     "abstract": "Early science from experiments based on real experiments from the Gemini Program",
     "author": [ "N3h3miah", "mwerle" ],

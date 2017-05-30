@@ -2,7 +2,7 @@
     "spec_version": "v1.4",
     "identifier": "KerbalEnvironmentalEffectsStudy",
     "$kref": "#/ckan/github/mwerle/OrbitalMaterialScience/asset_match/NehemiahIncSciencePack.*.zip",
-    "$vrefbroken": "#/ckan/ksp-avc",
+    "$vref": "#/ckan/ksp-avc",
     "name": "Kerbal Environmental Effects Study",
     "abstract": "Science and money from experiments based on real space science.",
     "author": [ "N3h3miah", "mwerle" ],
