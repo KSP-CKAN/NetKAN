@@ -18,14 +18,15 @@
     ],
     "depends" : [
         { "name"        : "CommunityResourcePack", "min_version" : "0.6.5" },
-        { "name"        : "InterstellarFuelSwitch", "min_version" : "2.5.0" },
+        { "name"        : "InterstellarFuelSwitch-Core", "min_version" : "2.6.0" },
         { "name"        : "TweakScale", "min_version" : "2.3.3"},
         { "name"        : "ModuleManager", "min_version" : "2.7.5" },
         { "name"        : "CommunityTechTree", "min_version" : "3.0.3" },
         { "name"        : "UniversalStorage", "min_version" : "1.2.2" }
     ],
     "recommends": [
-        { "name"        : "FilterExtensions" },
+        { "name"        : "InterstellarFuelSwitch"},
+        { "name"        : "FilterExtensions"},
         { "name"        : "KSP-AVC" },
         { "name"        : "HideEmptyTechNodes" },
         { "name"        : "KerbalJointReinforcement" },
