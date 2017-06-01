@@ -9,6 +9,9 @@
   "depends": [
     { "name": "ModuleManager" }
   ],
+  "recommends": [
+    { "name": "InterstellarFuelSwitch-Core" }
+  ],
   "$vref": "#/ckan/ksp-avc",
   "$kref": "#/ckan/spacedock/1396",
   "x_via": "Automated Linuxgurugamer CKAN script",
