@@ -9,6 +9,9 @@
     "resources": {
         "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/161402-122-64k-overhaul"
     },
+    "depends": [
+        { "name": "ModuleManager" }
+    ],
     "install": [
         {
             "file":"64k_overhaul",
