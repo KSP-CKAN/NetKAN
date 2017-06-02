@@ -8,6 +8,7 @@
     "$kref": "#/ckan/github/PapaJoesSoup/VesselMover",
     "$vref": "#/ckan/ksp-avc",
     "license": "MIT",
+    "ksp_version": "1.3.0",
     "suggests": [
         { "name": "KSP-AVC" }
     ],
