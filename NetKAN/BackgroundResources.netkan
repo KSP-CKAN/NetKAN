@@ -1,0 +1,20 @@
+{
+    "spec_version"   : "v1.4",
+    "identifier"     : "BackgroundResources",
+    "name"           : "Background Resources",
+    "abstract"       : "REPOSoftTech Background Resources plugin",
+    "$kref"          : "#/ckan/github/KSP-RO/TacLifeSupport",
+    "$vref"          : "#/ckan/ksp-avc/TacLifeSupport.version",
+    "license"        : "restricted",
+    "install" : [
+        {
+            "find"          : "GameData/REPOSoftTech/BackgroundResources",
+            "install_to"    : "GameData/REPOSoftTech"
+        }
+    ],
+    "resources" : {
+        "homepage" : "https://github.com/KSP-RO/TacLifeSupport/wiki",
+        "bugtracker" : "https://github.com/KSP-RO/TacLifeSupport/issues",
+        "repository" : "https://github.com/KSP-RO/TacLifeSupport"
+    }
+}

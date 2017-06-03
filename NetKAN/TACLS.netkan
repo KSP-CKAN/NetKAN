@@ -4,11 +4,12 @@
     "author"         : ["KSP-RO Group/JPLRepo", "Taranis Elsu" ],
     "name"           : "TAC Life Support (TACLS)",
     "$kref"          : "#/ckan/github/KSP-RO/TacLifeSupport",
-    "$vref"          : "#/ckan/ksp-avc",
+    "$vref"          : "#/ckan/ksp-avc/TacLifeSupport.version",
     "license"        : "CC-BY-NC-SA-3.0",
     "depends" : [
         {   "name" : "ModuleManager" },
-        {   "name" : "CommunityResourcePack" }
+        {   "name" : "CommunityResourcePack" },
+        {   "name" : "BackGroundResources" }
     ],
     "suggests" : [
         {   "name" : "KSP-AVC" }
