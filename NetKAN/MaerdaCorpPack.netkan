@@ -1,0 +1,17 @@
+{
+    "spec_version": "v1.4",
+    "x_via": "Automated SpaceDock CKAN submission",
+    "license": "restricted",
+    "identifier": "MaerdaCorpPack",
+    "$kref": "#/ckan/spacedock/899",
+    "install": [
+        {
+            "file": "MaErDa",
+            "install_to": "GameData"
+        },
+        {
+            "file": "Squad",
+            "install_to": "GameData"
+        }
+    ]
+}
