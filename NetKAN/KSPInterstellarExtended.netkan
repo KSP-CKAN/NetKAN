@@ -26,7 +26,7 @@
     ],
     "recommends": [
         { "name"        : "InterstellarFuelSwitch", "min_version" : "2.6.1"},
-        { "name"        : "FilterExtensions"},
+        { "name"        : "FilterExtensions", "min_version" : "3.0.0"},
         { "name"        : "KSP-AVC" },
         { "name"        : "HideEmptyTechNodes" },
         { "name"        : "KerbalJointReinforcement" },
