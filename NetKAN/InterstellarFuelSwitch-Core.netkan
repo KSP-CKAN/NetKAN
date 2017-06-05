@@ -9,10 +9,6 @@
         {
             "find"       : "InterstellarFuelSwitch/Plugins",
             "install_to" : "GameData/InterstellarFuelSwitch"
-        },
-        {
-            "find"       : "InterstellarFuelSwitch/Resources",
-            "install_to" : "GameData/InterstellarFuelSwitch"
         }
     ],
     "recommends": [
