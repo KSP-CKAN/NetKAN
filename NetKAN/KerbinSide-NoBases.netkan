@@ -1,0 +1,19 @@
+{
+    "spec_version": "v1.4",
+    "$kref": "#/ckan/kerbalstuff/1099",
+    "license": "BSD-3-clause",
+    "identifier": "KerbinSide-NoBases",
+    "name": "KerbinSide - No Default Bases",
+    "conflicts": [
+        { "name": "KerbinSide" }
+    ],
+    "depends"        : [
+        { "name": "KerbalKonstructs" }
+    ],
+        "install": [
+        {
+            "find"       : "KerbinSide",
+            "install_to" : "GameData"
+        }
+    ]
+}
