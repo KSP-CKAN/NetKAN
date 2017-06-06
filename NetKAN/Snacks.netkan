@@ -10,6 +10,12 @@
     "resources": {
         "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/81929-105-snacks-kerbal-simplified-life-support"
     },
+    "install": [
+        {
+            "install_to": "GameData",
+            "find": "WildBlueIndustries"
+        }
+    ],
     "depends": [
         {
             "name": "ModuleManager"
