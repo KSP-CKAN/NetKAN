@@ -1,0 +1,10 @@
+{
+    "spec_version" : 1,
+    "identifier"   : "BDArmory Weapons Extension",
+    "$kref"        : "#/ckan/spacedock/1401",
+    "license"      : "CC-BY-SA-4.0",
+    "$vref" : "#/ckan/ksp-avc",
+    "depends": [
+        { "name": "BDArmoryContinued" }
+    ]
+}
