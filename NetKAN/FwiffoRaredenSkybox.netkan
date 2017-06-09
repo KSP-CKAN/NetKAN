@@ -12,7 +12,7 @@
   "resources"          : {
     "homepage"         : "http://forum.kerbalspaceprogram.com/index.php?/topic/78778-raredens-real-8k-skybox-for-texture-replacer/"
   },
-  "download"           : "https://github.com/rkagerer/KSP-Fwiffo-Repository/raw/master/Mods/FwiffoRaredenSkybox-1.0.zip
+  "download"           : "https://github.com/rkagerer/KSP-Fwiffo-Repository/raw/master/Mods/FwiffoRaredenSkybox-1.0.zip",
   "depends"            :
   [
     { "name"           : "TextureReplacer" }
