@@ -2,7 +2,6 @@
     "spec_version" : "v1.4",
     "identifier"   : "Snacks",
     "$kref"        : "#/ckan/github/Angel-125/Snacks",
-    //"$vref"        : "#/ckan/ksp-avc",
     "name"         : "Snacks",
     "abstract"     : "Add a simple life support system based on Snacks!",
     "author"       : [ "tgruetzm", "Angel-125"],
