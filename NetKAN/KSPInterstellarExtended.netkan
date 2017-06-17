@@ -27,7 +27,7 @@
     "recommends": [
         { "name"        : "InterstellarFuelSwitch", "min_version" : "2.6.1"},
         { "name"        : "FilterExtensions", "min_version" : "3.0.0"},
-        { "name"        : "HideEmptyTechNodes" },
+        { "name"        : "HideEmptyTechNodes", "min_version" : "0.8.0" },
         { "name"        : "KerbalJointReinforcement" },
         { "name"        : "UniversalStorage" },
         { "name"        : "PersistentRotation" }

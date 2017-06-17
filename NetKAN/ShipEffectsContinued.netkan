@@ -1,0 +1,14 @@
+{
+  "spec_version": "v1.4",
+  "install": [
+    {
+      "install_to": "GameData",
+      "find": "ShipEffectsContinued"
+    }
+  ],
+  "$vref": "#/ckan/ksp-avc",
+  "$kref": "#/ckan/github/Galileo88/ShipEffectsContinued",
+  "x_via": "Automated Linuxgurugamer CKAN script",
+  "identifier": "ShipEffectsContinued",
+  "license": "CC-BY-NC-SA-4.0"
+}

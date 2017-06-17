@@ -9,7 +9,7 @@
     "depends" : [
         {   "name" : "ModuleManager" },
         {   "name" : "CommunityResourcePack" },
-        {   "name" : "BackGroundResources" }
+        {   "name" : "BackgroundResources" }
     ],
     "suggests" : [
         {   "name" : "KSP-AVC" }
