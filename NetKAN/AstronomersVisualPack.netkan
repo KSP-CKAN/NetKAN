@@ -20,6 +20,8 @@
 		{ "name": "Chatterer" },
 		{ "name": "TextureReplacer"},
 		{ "name": "scatterer" }
-    ]
-	
+    ],
+    "provides" : [
+        "EnvironmentalVisualEnhancements-Config"
+	],	
 }
