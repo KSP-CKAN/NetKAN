@@ -2,7 +2,7 @@
     "spec_version" : 1,
 	"abstract"     : "Revival of the total visual overhaul for Kerbal Space Program by Astronomer.",
     "identifier"   : "AstronomersVisualPack",
-    "$kref"        : "#/ckan/github/themaster402/AstronomersVisualPack",
+    "$kref"        : "#/ckan/github/themaster402/AstronomersVisualPack/asset_match/AVP.v.*.zip",
     "$vref" : "#/ckan/ksp-avc",
     "license"      : "LGPL-3.0",
 	"name"         : "Astronomer's Visual Pack",
@@ -11,6 +11,7 @@
 	},
     "depends" : [
         { "name": "ModuleManager" },
+        { "name": "AVP-Textures" },
         { "name": "Kopernicus" },
 		{ "name": "EnvironmentalVisualEnhancements" }
 	],
@@ -23,5 +24,6 @@
     ],
     "provides" : [
         "EnvironmentalVisualEnhancements-Config"
-	]	
+	]
+    ]
 }
