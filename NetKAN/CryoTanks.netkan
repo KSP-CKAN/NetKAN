@@ -9,7 +9,8 @@
     "license": "CC-BY-NC-SA-4.0",
     "depends": [
         { "name" : "CommunityResourcePack" },
-        { "name" : "ModuleManager" }
+        { "name" : "ModuleManager" },
+        { "name" : "DynamicBatteryStorage" }
     ],
     "supports" : [
         { "name" : "KerbalAtomics" },
