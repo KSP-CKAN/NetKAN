@@ -7,9 +7,13 @@
     "name": "Cryogenic Tanks",
     "abstract": "A set of fuel tanks containing liquid hydrogen, with active cryocooling.",
     "license": "CC-BY-NC-SA-4.0",
+    "resources": {
+      "repository": "https://github.com/ChrisAdderley/CryoTanks"
+    },
     "depends": [
         { "name" : "CommunityResourcePack" },
-        { "name" : "ModuleManager" }
+        { "name" : "ModuleManager" },
+        { "name" : "DynamicBatteryStorage" }
     ],
     "supports" : [
         { "name" : "KerbalAtomics" },
