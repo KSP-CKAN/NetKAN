@@ -12,9 +12,6 @@
     "depends": [
         { "name": "ModuleManager" }
     ],
-    "recommends": [
-        { "name": "AbovetheSkySoyuzTMAandR7" }
-    ],
     "install": [
         {
             "file":"64k_overhaul",
