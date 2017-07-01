@@ -9,5 +9,9 @@
     "$vref"        : "#/ckan/ksp-avc",
     "resources": {
         "homepage": "http://forum.kerbalspaceprogram.com/index.php?showtopic=162509"
-    }
+    },
+    "suggests": [
+        { "name": "AirlockPlus" },
+        { "name": "PortraitStats" }
+    ]
 }
