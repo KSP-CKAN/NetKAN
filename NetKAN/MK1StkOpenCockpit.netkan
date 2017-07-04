@@ -3,7 +3,7 @@
   "install": [
     {
       "install_to": "GameData",
-      "find": "NESDparts"
+      "find": "OpenCockpit"
     }
   ],
   "$kref": "#/ckan/spacedock/1126",
