@@ -1,7 +1,16 @@
 {
-    "x_via": "Automated SpaceDock CKAN submission",
-    "license": "CC-BY-NC-SA 4.0, except for art assets as ARR",
+    "license": "restricted",
     "identifier": "NearFutureLaunchVehicles",
     "$kref": "#/ckan/spacedock/1434",
-    "spec_version": "v1.4"
+    "spec_version": "v1.4",
+    "depends" : [ 
+        { "name" : "ModuleManager" },
+        { "name" : "B9PartSwitch" }
+                ],
+    "recommends" : [ 
+        {"name" : "CommunityTechTree" } ],
+    "install" : [ 
+        { "find" : "NearFutureLaunchVehicles", 
+          "install_to" : "GameData" } 
+                ]
 }
