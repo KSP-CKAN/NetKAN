@@ -6,6 +6,7 @@
       "find": "PatchManager"
     }
   ],
+  "abstract": "In-game patch manager, makes adding/removing patches more friendly.",
   "$vref": "#/ckan/ksp-avc",
   "$kref": "#/ckan/github/linuxgurugamer/PatchManager",
   "x_via": "Automated Linuxgurugamer CKAN script",
