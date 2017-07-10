@@ -1,7 +1,10 @@
 {
     "spec_version": "v1.4",
     "license": "MIT",
-    "x_via": "Automated SpaceDock CKAN submission",
     "identifier": "OptionalAtmosphere",
-    "$kref": "#/ckan/spacedock/1439"
+    "$kref": "#/ckan/spacedock/1439",
+    "depends" : [ 
+        { "name" : "Kopernicus" },
+        { "name" : "ModuleManager" }
+        ]
 }
