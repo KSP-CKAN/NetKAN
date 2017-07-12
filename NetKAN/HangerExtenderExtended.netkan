@@ -3,12 +3,12 @@
   "install": [
     {
       "install_to": "GameData",
-      "find": "TRP-Hire"
+      "find": "FShangarExtender"
     }
   ],
   "$vref": "#/ckan/ksp-avc",
-  "$kref": "#/ckan/spacedock/777",
+  "$kref": "#/ckan/spacedock/1428",
   "x_via": "Automated Linuxgurugamer CKAN script",
-  "identifier": "TRPHire",
-  "license": "MIT"
+  "identifier": "HangerExtenderExtended",
+  "license": "CC-BY-SA-4.0"
 }

@@ -1,12 +1,11 @@
 {
     "spec_version" : "v1.4",
     "identifier"   : "JSIPartUtilities",
-    "$kref"        : "#/ckan/github/Mihara/PartUtilities",
+    "$kref"        : "#/ckan/github/linuxgurugamer/PartUtilities",
+    "$vref"        : "#/ckan/ksp-avc",
     "name"         : "JSIPartUtilities",
     "abstract"     : "Utility functions for making complex animated and mutable parts.",
     "license"      : "GPL-3.0",
-    "ksp_version_min"  : "1.0.2",
-    "ksp_version_max"  : "1.0.99",
     "resources" : {
         "homepage"     : "https://github.com/Mihara/PartUtilities/wiki"
     },

@@ -3,12 +3,12 @@
   "install": [
     {
       "install_to": "GameData",
-      "find": "TRP-Hire"
+      "find": "ShipEffectsContinued"
     }
   ],
   "$vref": "#/ckan/ksp-avc",
-  "$kref": "#/ckan/spacedock/777",
+  "$kref": "#/ckan/github/Galileo88/ShipEffectsContinued",
   "x_via": "Automated Linuxgurugamer CKAN script",
-  "identifier": "TRPHire",
-  "license": "MIT"
+  "identifier": "ShipEffectsContinued",
+  "license": "CC-BY-NC-SA-4.0"
 }

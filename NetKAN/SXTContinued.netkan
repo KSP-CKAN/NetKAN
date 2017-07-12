@@ -4,11 +4,12 @@
   "x_via": "Automated Linuxgurugamer CKAN script",
   "$kref": "#/ckan/spacedock/1030",
   "$vref": "#/ckan/ksp-avc",
+  "x_netkan_epoch": 1,
   "depends": [
         { "name" : "FirespitterCore" },
         { "name" : "FirespitterResourcesConfig"},
         { "name" : "ModuleManager"},
-        { "name": "RetractableLiftingSurface" }
+        { "name" : "RetractableLiftingSurface" }
   ],
   "install" :
   [
