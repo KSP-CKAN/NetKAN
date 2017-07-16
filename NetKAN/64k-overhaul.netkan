@@ -1,0 +1,21 @@
+{
+    "spec_version" : 1,
+    "identifier"   : "64k-overhaul",
+    "$kref"        : "#/ckan/github/Kerbinorbiter/64k-overhaul",
+    "name"         : "64K Overhaul",
+    "abstract"     : "This is like RO but for KScale64 (a.k.a 6.4k)",
+    "license"      : "restricted",
+    "ksp_version"  : "1.2.2",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/161402-122-64k-overhaul"
+    },
+    "depends": [
+        { "name": "ModuleManager" }
+    ],
+    "install": [
+        {
+            "file":"64k_overhaul",
+            "install_to": "GameData"
+        }
+    ]
+}
