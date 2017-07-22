@@ -6,14 +6,42 @@
       "find": "SmartTank"
     }
   ],
-  "depends": [
-    {
-      "name": "ModuleManager"
-    }
-  ],
-  "$vref": "#/ckan/ksp-avc",
-  "$kref": "#/ckan/netkan/https://raw.githubusercontent.com/HebaruSan/SmartTank/master/SmartTank.netkan",
+    "$kref": "#/ckan/github/HebaruSan/SmartTank",
+    "$vref": "#/ckan/ksp-avc",
+    "license": "GPL-3.0",
+    "kind": "package",
+    "release_status": "development",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/162743-130-smarttank-v010/",
+        "bugtracker": "https://github.com/HebaruSan/SmartTank/issues",
+        "repository": "https://github.com/HebaruSan/SmartTank"
+    },
+    "depends": [
+        { "name": "ModuleManager" },
+        { "name": "ProceduralParts" }
+    ],
+    "recommends": [
+        { "name": "LoadingTipsPlus" },
+        { "name": "ProceduralParts-Textures-BattleTechAerospace" },
+        { "name": "ProceduralParts-Textures-SCCKSCS" },
+        { "name": "ProceduralParts-Textures-SaturnNova" },
+        { "name": "VensStylePPTextures" },
+        { "name": "MainSailorTextures-Complete" }
+    ],
+   "abstract": "Automatically resizes ProceduralParts fuel tanks to fit a specified thrust to weight ratio",
+  "description": "",
   "x_via": "Automated Linuxgurugamer CKAN script",
   "identifier": "SmartTank",
-  "license": "GPL-3.0"
+  "license": "GPL-3.0",
+  "x_netkan_override": [
+        {
+            "version": "v0.1.0",
+            "delete": [ "ksp_version" ],
+            "override": {
+                "ksp_version_min": "1.3.0",
+                "ksp_version_max": "1.3.0"
+            }
+        }
+    ]
+
 }
