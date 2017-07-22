@@ -9,9 +9,8 @@
     },
     "$kref"         : "#/ckan/github/KSP-RO/SovietRockets",
     "license"       : "CC-BY-NC-ND-3.0",
-    "ksp_version_min"   : "1.2.0",
-    "ksp_version_max"   : "1.2.2",
-    "x_netkan_epoch": "1",
+    "$vref"        : "#/ckan/ksp-avc",
+	"x_netkan_epoch"   : 2,
     "install"       : [
     {
         "find"      : "RN_Soviet_Rockets",
