@@ -18,5 +18,8 @@
         "find"      : "RN_Misc",
         "install_to": "GameData"
       }
+    ],
+	"depends"       : [
+        { "name"      : "BDAnimationModules"  }
     ]
 }
