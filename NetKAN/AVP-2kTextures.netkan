@@ -1,0 +1,26 @@
+{
+    "spec_version"   : "v1.4",
+    "$kref"          : "#/ckan/github/themaster402/AstronomersVisualPack/asset_match/AVP_2kTextures.zip",
+    "ksp_version_min": "1.2",
+    "comment"        : "Textures only",
+    "identifier"     : "AVP-2kTextures",
+    "name"           : "Astronomer's Visual Pack-2k Textures",
+    "abstract"       : "Textures for Astronomer's Visual pack",
+    "license"        : "LGPL-3.0",
+    "release_status" : "stable",
+    "provides": [
+        "AVP-Textures"
+     ],
+    "conflicts": [
+        { "name": "AVP-Textures" }
+    ],
+    "depends": [
+        { "name": "AstronomersVisualPack" }
+    ],
+    "install": [
+        {
+            "find"       : "GameData/AstronomersVisualPack",
+            "install_to" : "GameData"
+        }
+    ]
+}
