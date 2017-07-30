@@ -16,8 +16,5 @@
             "find": "BahaSP",
             "install_to": "GameData"
         }
-    ],
-	"depends"       : [
-        { "name"      : "KSP-AVC"  }
     ]
 }
