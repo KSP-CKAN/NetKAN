@@ -13,14 +13,15 @@
     "$vref"        : "#/ckan/ksp-avc",
 	"x_netkan_epoch"   : 1,
     "install"       : [
-    {
-        "find"      : "RN_Salyut",
-        "install_to": "GameData"
-    },
-    {
-        "file"      : "Ships/VAB",
-        "install_to": "Ships"
-    }],
+        {
+            "find"      : "RN_Salyut",
+            "install_to": "GameData"
+        },
+        {
+            "file"      : "Ships/VAB",
+            "install_to": "Ships"
+        }
+    ],
     "conflicts"     : [
         { "name"    : "RN-SalyutStations-SoyuzFerries" }
     ],
