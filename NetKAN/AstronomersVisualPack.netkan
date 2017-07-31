@@ -13,6 +13,7 @@
         { "name": "ModuleManager" },
         { "name": "AVP-Textures" },
         { "name": "Kopernicus" },
+        { "name": "scatterer" },
 		{ "name": "EnvironmentalVisualEnhancements" }
 	],
 	"recommends" : [
@@ -20,7 +21,6 @@
 		{ "name": "PlanetShine" },
 		{ "name": "Chatterer" },
 		{ "name": "TextureReplacer"},
-		{ "name": "scatterer" }
     ],
     "provides" : [
         "EnvironmentalVisualEnhancements-Config"
