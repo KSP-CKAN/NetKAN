@@ -14,7 +14,13 @@
       { "name"     : "RealSolarSystem" }
     ],
     "provides"     : [
-        "EnvironmentalVisualEnhancements-Config"
+        "EnvironmentalVisualEnhancements-Config",
+        "Scatterer-sunflare",
+        "Scatterer-config"
+    ],
+    "conflicts"    : [
+        { "name"   : "Scatterer-sunflare" },
+        { "name"   : "Scatterer-config" }
     ],
     "resources"    : {
         "homepage" : "https://github.com/PhineasFreak/RSSVE"
