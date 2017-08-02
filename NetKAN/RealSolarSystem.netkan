@@ -16,7 +16,15 @@
         { "name": "Kopernicus", "min_version": "1:beta-05-2" },
         { "name": "RSSTextures" }
     ],
-    "provides": [ "CustomAsteroids-Pops" ],
+    "provides": [
+        "CustomAsteroids-Pops",
+        "PlanetShine-Config"
+    ],
+    "conflicts": [
+        {
+            "name": "PlanetShine-Config"
+        }
+    ],
     "recommends": [
         { "name": "RealismOverhaul" },
         { "name": "KSCSwitcher" },
