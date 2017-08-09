@@ -21,7 +21,6 @@
         { "name" : "ModularFlightIntegrator", "min_version" : "1.2.4.0" }
     ],
     "recommends" : [
-        { "name" : "HyperEdit" },
         { "name" : "BetterTimeWarpContinued" },
         { "name" : "KSP-AVC" }
     ]
