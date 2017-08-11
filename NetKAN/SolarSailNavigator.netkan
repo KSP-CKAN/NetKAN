@@ -7,7 +7,7 @@
     "license"      : "LGPL-2.1",
     "author"       : "mrsolarsail",
     "release_status" : "development",
-    "ksp_version"  : "1.2",
+    "ksp_version"  : "1.3",
     "resources" : { "homepage" : "http://forum.kerbalspaceprogram.com/threads/119579" },
     "depends": [ { "name": "PersistentThrust" } ],
     "install" : [
