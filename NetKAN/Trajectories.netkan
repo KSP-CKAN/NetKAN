@@ -3,6 +3,7 @@
     "identifier"          : "Trajectories",
     "$kref"               : "#/ckan/spacedock/396",
     "$vref"               : "#/ckan/ksp-avc",
+    "x_netkan_force_v"    : true,
     "x_netkan_license_ok" : true,
     "depends"             : [
         {
