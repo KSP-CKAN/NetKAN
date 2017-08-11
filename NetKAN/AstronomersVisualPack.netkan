@@ -13,14 +13,15 @@
         { "name": "ModuleManager" },
         { "name": "AVP-Textures" },
         { "name": "Kopernicus" },
+        { "name": "scatterer" },
+	    { "name": "LoadingScreenManager" },
 		{ "name": "EnvironmentalVisualEnhancements" }
 	],
 	"recommends" : [
 		{ "name": "DistantObject" },
 		{ "name": "PlanetShine" },
 		{ "name": "Chatterer" },
-		{ "name": "TextureReplacer"},
-		{ "name": "scatterer" }
+		{ "name": "TextureReplacer"}
     ],
     "provides" : [
         "EnvironmentalVisualEnhancements-Config"
