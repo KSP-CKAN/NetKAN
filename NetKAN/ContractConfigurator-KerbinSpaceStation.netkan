@@ -6,7 +6,7 @@
     "abstract"     : "A contract pack to replace the default Squad build a Space Station missions",
     "license"      : "MIT",
     "$vref"        : "#/ckan/ksp-avc",
-    "x_netkan_epoch": "1",
+    "x_netkan_epoch": "2",
     "depends" : [
         {
             "name" : "ContractConfigurator",
