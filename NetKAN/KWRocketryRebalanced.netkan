@@ -10,7 +10,7 @@
         "homepage"  :   "http://forum.kerbalspaceprogram.com/index.php?/topic/137762-kw-rocketry-redux/"
     },
     "depends": [
-        { "name" : "ModuleManager" },
+        { "name" : "ModuleManager" }
     ],
     "conflicts" : [
         { "name" : "KWRocketry" },
