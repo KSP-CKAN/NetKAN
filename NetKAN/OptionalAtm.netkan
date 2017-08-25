@@ -3,6 +3,7 @@
     "identifier"     : "OptionalAtm",
     "$kref"          : "#/ckan/curse/271783",
     "$vref"          : "#/ckan/ksp-avc",
+    "abstract"       : "Adds atmospheres to those planets and moons which don't have atmospheres of the kerbol system",
     "license"        : "MIT",
     "release_status" : "stable",
     "resources" : {
