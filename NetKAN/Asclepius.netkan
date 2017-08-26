@@ -16,11 +16,10 @@
     "ksp_version": "1.3",
     "depends": [
         { "name" : "ModuleManager", "min_version": "2.8.0" },
-        { "name" : "Kopernicus", "min_version": "2:release-1.3.0-2" }
+        { "name" : "Kopernicus", "min_version": "2:release-1.3.0-5" }
     ],
     "recommends": [
-        { "name": "Asclepius-clouds" },
-        { "name": "ContractConfigurator-Asclepius"}
+        { "name": "ContractConfigurator-FarOutContracts"}
     ],
     "install": [
         {
