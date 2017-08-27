@@ -1,8 +1,12 @@
 {
-    "identifier": "PlayYourWay",
-    "$kref": "#/ckan/spacedock/1101",
-    "$vref": "#/ckan/ksp-avc",
-    "spec_version": "v1.4",
-    "license": "public-domain",
-    "depends" : [ { "name" : "ModuleManager" } ]
+	"identifier": "PlayYourWay",
+	"abstract" : "Earn funds for doing science! Remember to download Contract Configurator and disable all contracts to truly play your way!",
+	"$kref": "#/ckan/github/Galileo88/PlayYourWay",
+	"$vref": "#/ckan/ksp-avc",
+	"spec_version": "v1.4",
+	"license": "public-domain",
+	"depends" : [ 
+	{ "name" : "ModuleManager" } ],
+	"recommends": [
+	{ "name": "ContractConfigurator" } ]
 }
