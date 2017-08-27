@@ -15,6 +15,9 @@
 	"name": "ModuleManager"
 	}
 	],
+	"suggests": [
+	{ "name": "FASALaunchClampsContinued" }
+	],
 	"$vref": "#/ckan/ksp-avc",
 	"$kref": "#/ckan/github/Galileo88/AlmostFreeLaunchClamps",
 	"identifier": "AlmostFreeLaunchClamps",
