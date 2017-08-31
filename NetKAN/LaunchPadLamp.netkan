@@ -7,4 +7,10 @@
     "resources": {
         "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/164677-13-launch-pad-lamp/"
     }
+	"install": [
+    {
+        "find":"Launch Pad Lamp",
+        "install_to": "GameData"
+    }
+	]
 }
