@@ -1,0 +1,35 @@
+{
+    "$kref": "#/ckan/spacedock/1247",
+    "identifier": "GPO",
+    "license": "CC-BY-SA-3.0",
+    "spec_version": "v1.4",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/155740-13-gameslinxs-planet-overhaul"
+    },
+    "depends": [
+        { "name": "CommunityTerrainTexturePack" },
+        { "name": "EnvironmentalVisualEnhancements" },
+        { "name": "Kopernicus" },
+        { "name": "LoadingScreenManager" },
+        { "name": "ModularFlightIntegrator" },
+        { "name": "Scatterer" },
+        { "name": "TextureReplacer" }
+    ],
+    "recommends": [
+        { "name": "DistantObject" }
+    ],
+    "provides": [
+        "EnvironmentalVisualEnhancements-Config",
+        "Scatterer-config"
+    ],
+    "install": [
+        {
+            "find":"Olei",
+            "install_to": "GameData"
+        },
+        {
+            "find":"Olei-Gaia",
+            "install_to": "GameData"
+        }
+    ]
+}
