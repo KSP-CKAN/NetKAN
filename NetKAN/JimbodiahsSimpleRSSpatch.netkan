@@ -2,6 +2,14 @@
     "identifier": "JimbodiahsSimpleRSSpatch",
     "$kref": "#/ckan/spacedock/1446",
     "spec_version": "v1.4",
-    "x_via": "Automated SpaceDock CKAN submission",
-    "license": "MIT"
+    "license": "MIT",
+    "depends": [
+        { "name": "RSS" }
+    ],
+    "install": [
+        {
+            "find":"Jimbodiah",
+            "install_to": "GameData"
+        }
+    ]
 }
