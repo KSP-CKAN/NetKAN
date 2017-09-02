@@ -1,0 +1,25 @@
+{
+    "identifier": "JPL-RSS",
+    "$kref": "#/ckan/spacedock/1446",
+    "spec_version": "v1.4",
+    "license": "MIT",
+    "depends": [
+        { "name": "RealSolarSystem" }
+    ],
+    "install": [
+        {
+            "find":"Jimbodiah",
+            "install_to": "GameData"
+        }
+    ],
+    "x_netkan_override": [
+        {
+            "version": "1.0",
+            "delete": [ "ksp_version" ],
+            "override": {
+                "ksp_version_min" : "v1.2",
+                "ksp_version_max" : "v1.3"
+            }
+        }
+    ]
+}
