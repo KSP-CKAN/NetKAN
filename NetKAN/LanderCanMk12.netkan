@@ -1,0 +1,29 @@
+{
+  "spec_version": "v1.4",
+  "install": [
+    {
+      "filter": [
+        ".DS_Store",
+        "__MACOSX"
+      ],
+      "install_to": "GameData",
+      "find": "MacLuky"
+    }
+  ],
+  "depends": [
+    {
+      "name": "JSIPartUtilities"
+    },
+    {
+      "name": "Mk1CockpitIVAReplbyASET"
+    },
+    {
+      "name": "ModuleManager"
+    }
+  ],
+  "$vref": "#/ckan/ksp-avc",
+  "$kref": "#/ckan/spacedock/1520",
+  "x_via": "Automated Linuxgurugamer CKAN script",
+  "identifier": "LanderCanMk12",
+  "license": "MIT"
+}
