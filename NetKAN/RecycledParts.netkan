@@ -1,0 +1,50 @@
+{
+  "spec_version": "v1.4",
+  "install": [
+    {
+      "install_to": "GameData",
+      "find": "SpaceTuxIndustries"
+    },
+    {
+      "install_to": "Ships",
+      "find": "SPH"
+    }
+  ],
+  "depends": [
+      { "name": "B9-props" },
+      { "name": "KSPWheel" },
+      { "name": "PatchManager" },
+      { "name": "Firespitter" }, 
+      { "name": "ModuleManager" }
+  ],
+  "recommends": [
+    { "name": "CommunityTechTree" }
+  ],
+ "suggests": [
+        { "name": "JanitorsCloset" }
+  ],
+  "provides": [
+    "RecycledPartsAtomicAge",
+    "RecycledPartsMk2Lightning",
+    "RecycledPartsSpareParts",
+    "RecycledPartskal9000",
+    "RecycledPartsFarscape",
+    "RecycledPartsMk2KISContainers",
+    "RecycledPartsMk2Essentials"
+   ],
+  "conflicts": [
+    { "name" : "AtomicAge" },
+    { "name" : "RecycledPartsAtomicAge" },
+    { "name" : "RecycledPartsMk2Lightning" },
+    { "name" : "kal9000" },
+    { "name" : "RecycledPartskal9000" },
+    { "name" : "Farscape" },
+    { "name" : "RecycledPartsFarscape" },
+    { "name" : "Mk2Essentials" }
+  ],
+  "$vref": "#/ckan/ksp-avc",
+  "$kref": "#/ckan/spacedock/1507",
+  "x_via": "Automated Linuxgurugamer CKAN script",
+  "identifier": "RecycledParts",
+  "license": "restricted"
+}
