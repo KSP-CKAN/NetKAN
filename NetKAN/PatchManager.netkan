@@ -6,6 +6,9 @@
       "find": "PatchManager"
     }
   ],
+  "resources": {
+     "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/163072-13-"
+  },
   "abstract": "In-game patch manager, makes adding/removing patches more friendly.",
   "$vref": "#/ckan/ksp-avc",
   "$kref": "#/ckan/github/linuxgurugamer/PatchManager",
