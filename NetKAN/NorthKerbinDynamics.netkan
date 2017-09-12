@@ -10,7 +10,7 @@
     ],
     "install": [
         {
-            "file"       : "North Kerbin Weaponry",
+            "find_regexp": "North Kerbin Weaponry.*",
             "install_to" : "GameData"
         }
     ]
