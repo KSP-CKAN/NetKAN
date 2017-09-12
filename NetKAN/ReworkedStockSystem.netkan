@@ -3,7 +3,7 @@
   "install": [
     {
       "install_to": "GameData",
-      "find_regexp": "ReSS_.*"
+      "find": "ReSS"
     }
   ],
   "depends": [
