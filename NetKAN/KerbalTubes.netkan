@@ -9,7 +9,7 @@
     ],
     "install": [
         {
-            "find"       : "KerbalTubes",
+            "file"       : "KerbalTubes",
             "install_to" : "GameData"
         }
     ]
