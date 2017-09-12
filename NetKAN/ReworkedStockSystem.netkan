@@ -1,9 +1,9 @@
 {
-  "spec_version": "v1.4",
+  "spec_version": "v1.10",
   "install": [
     {
       "install_to": "GameData",
-      "find": "ReSS_V1.0.1"
+      "find_regexp": "ReSS_.*"
     }
   ],
   "depends": [
