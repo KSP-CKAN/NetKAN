@@ -8,7 +8,7 @@
       "install_to": "GameData",
       "find": "KaptainsLog"
     },
-    "depends": [ { "name": "ProgressParser" } ]
+    "depends" : [ { "name" : " ProgressParser" } ]
   ],
   "$vref": "#/ckan/ksp-avc/GameData/KaptainsLog/KaptainsLog.version",
   "$kref": "#/ckan/spacedock/1523",
