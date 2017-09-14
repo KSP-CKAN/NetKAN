@@ -16,7 +16,7 @@
       "find": "DMagicUtilities"
     }
   ],
-  "$vref": "#/ckan/ksp-avc",
+  "$vref": "#/ckan/ksp-avc/GameData/KaptainsLog/KaptainsLog.version",
   "$kref": "#/ckan/spacedock/1523",
   "x_via": "Automated Linuxgurugamer CKAN script",
   "identifier": "KaptainsLog",
