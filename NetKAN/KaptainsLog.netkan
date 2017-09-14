@@ -1,0 +1,24 @@
+{
+  "spec_version": "v1.4",
+  "install": [
+    {
+      "filter_regexp": [
+        ".*~$"
+      ],
+      "install_to": "GameData",
+      "find": "KaptainsLog"
+    },
+    {
+      "filter_regexp": [
+        ".*~$"
+      ],
+      "install_to": "GameData",
+      "find": "DMagicUtilities"
+    }
+  ],
+  "$vref": "#/ckan/ksp-avc/GameData/KaptainsLog/KaptainsLog.version",
+  "$kref": "#/ckan/spacedock/1523",
+  "x_via": "Automated Linuxgurugamer CKAN script",
+  "identifier": "KaptainsLog",
+  "license": "GPL-3.0"
+}
