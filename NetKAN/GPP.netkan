@@ -78,6 +78,9 @@
             "name": "OPM-Galileo"
         }
     ],
+    "conflicts"     :   [
+        { "name" : "LoadingScreenManager" }
+    ],
 	"provides": [
 		"Scatterer-sunflare"
     ]
