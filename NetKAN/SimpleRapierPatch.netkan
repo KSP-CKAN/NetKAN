@@ -1,0 +1,18 @@
+{
+  "spec_version": "v1.4",
+  "install": [
+    {
+      "install_to": "GameData",
+      "find": "RAPIERpatch.cfg"
+    }
+  ],
+  "depends": [
+    {
+      "name": "ModuleManager"
+    }
+  ],
+  "$kref": "#/ckan/spacedock/1450",
+  "x_via": "Automated Linuxgurugamer CKAN script",
+  "identifier": "SimpleRapierPatch",
+  "license": "public-domain"
+}
