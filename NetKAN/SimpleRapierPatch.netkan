@@ -3,7 +3,7 @@
   "install": [
     {
       "install_to": "GameData",
-      "find": "RAPIERpatch.cfg"
+      "file": "RAPIERpatch.cfg"
     }
   ],
   "depends": [
