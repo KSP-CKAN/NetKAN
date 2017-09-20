@@ -18,10 +18,6 @@
         {
             "find"       : "GameData/YongeTech_TechTreesPlugin",
             "install_to" : "GameData"
-        },
-                {
-            "find"       : "GameData/YongeTech_TechTreeConverter",
-            "install_to" : "GameData"
         }
     ],
     "suggests":[
