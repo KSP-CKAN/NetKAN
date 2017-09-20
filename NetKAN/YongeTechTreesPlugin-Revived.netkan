@@ -1,15 +1,14 @@
 {
     "spec_version" : "v1.4",
     "identifier"   : "YongeTechTreesPlugin-Revived",
-    "$kref"        : "#/ckan/spacedock/199",
-    "comment"      : "Probus has indicated an intention to upload this as a separate mod, rather than bundling in ETT",
-    "author"       : [ "yongedevil", "Probus" ],
+    "$kref"        : "#/ckan/spacedock/1526",
+    "author"       : [ "yongedevil", "linuxgurugamer" ],
     "name"         : "YongeTech Tech Trees Plugin Revived",
     "abstract"     : "Provides support to make creating and using custom tech trees easier. Allows part unlocks to be listed in the TechTree ConfigNode rather than having to edit every Part ConfigNode. Adds support for using custom textures to create icons for the tech tree. Adds a tree selection window to let the player select a tree for each new game.",
     "license": "MIT",
     "resources": {
-        "homepage"   : "http://forum.kerbalspaceprogram.com/index.php?/topic/112886-*",
-        "repository" : "https://github.com/yongedevil/YTK_TechTrees"
+        "homepage"   : "https://forum.kerbalspaceprogram.com/index.php?/topic/165667-*",
+        "repository" : "https://github.com/linuxgurugamer/YTK_TechTrees"
     },
     "provides": [ "YongeTechTreesPlugin" ],
     "conflicts": [
