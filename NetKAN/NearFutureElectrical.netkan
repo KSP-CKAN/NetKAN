@@ -11,7 +11,8 @@
         { "name" : "B9PartSwitch" },
         { "name" : "CommunityResourcePack" },
         { "name" : "NearFutureElectrical-Core" },
-        { "name" : "ModuleManager" }
+        { "name" : "ModuleManager" },
+        { "name" : "DynamicBatteryStorage" }
     ],
     "recommends": [
         { "name" : "CommunityTechTree" }

@@ -1,0 +1,31 @@
+{
+	"spec_version": "v1.4",
+	"install"	  : [
+	{
+		"find": "OPM",
+		"install_to": "GameData"
+	}
+	],
+	"resources"	: 
+	{
+		"homepage"	: "https://github.com/Galileo88/OPM_Galileo"
+	},
+	"depends": [
+	{ "name": "ModuleManager" },
+	{ "name": "Kopernicus" },
+	{ "name": "CustomBarnKit" }
+	],
+	"supports": [
+	{ "name": "DistantObjectEnhancement" },
+	{ "name": "FinalFrontier" },
+	{ "name": "RemoteTech" },
+	{ "name": "SCANsat" },
+	{ "name": "CommunityResourcePack" },
+	{ "name": "TextureReplacer" }
+	],
+	"$vref": "#/ckan/ksp-avc",
+	"$kref": "#/ckan/github/Galileo88/OPM_Galileo",
+	"identifier": "OPM-Galileo",
+	"abstract" : "Outer Planets Mod. Maintained by Galileo",
+	"license" : "CC-BY-NC-SA-4.0"
+}

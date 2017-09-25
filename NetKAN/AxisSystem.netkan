@@ -1,0 +1,10 @@
+{
+    "license": "MIT",
+    "identifier": "AxisSystem",
+    "$kref": "#/ckan/spacedock/1438",
+    "spec_version": "v1.4",
+    "depends" : [ 
+        {"name" : "Kopernicus" },
+        {"name" : "ModuleManager" }
+        ]
+}

@@ -1,0 +1,18 @@
+{
+  "spec_version": "v1.4",
+  "install": [
+    {
+      "install_to": "GameData",
+      "find": "PatchManager"
+    }
+  ],
+  "resources": {
+     "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/163072-13-"
+  },
+  "abstract": "In-game patch manager, makes adding/removing patches more friendly.",
+  "$vref": "#/ckan/ksp-avc",
+  "$kref": "#/ckan/github/linuxgurugamer/PatchManager",
+  "x_via": "Automated Linuxgurugamer CKAN script",
+  "identifier": "PatchManager",
+  "license": "CC-BY-NC-SA-4.0"
+}

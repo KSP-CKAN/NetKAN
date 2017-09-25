@@ -13,7 +13,6 @@
   ],
   "conflicts": [
         { "name" : "BetterCrewAssignment" },
-        { "name" : "KerbalConstructionTime" },
         { "name" : "CrewQueue" }
    ],
   "$vref": "#/ckan/ksp-avc",

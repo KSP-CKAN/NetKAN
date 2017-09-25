@@ -1,0 +1,17 @@
+{
+    "spec_version" : 1,
+    "identifier"   : "CommunityTraitIcons",
+    "name"         : "Community Trait Icons",
+    "abstract"     : "Provides a common, configurable set of icons to be used by other mods to display Kerbal crew type in their UI.",
+    "author"       : [ "cake-pie", "DMagic1", "Aelfhe1m" ],
+    "license"      : "MIT",
+    "$kref"        : "#/ckan/github/cake-pie/CommunityTraitIcons",
+    "$vref"        : "#/ckan/ksp-avc",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?showtopic=162509"
+    },
+    "suggests": [
+        { "name": "AirlockPlus" },
+        { "name": "PortraitStats" }
+    ]
+}

@@ -6,10 +6,9 @@
     "abstract": "This mod adds flames and smoke to certain parts' joint break event.",
     "author": [ "BahamutoD", "jrodrigv" ],
     "license": "CC0",
-    "ksp_version_min": "1.1.0",
-    "ksp_version_max": "1.2.99",
+    "$vref"        : "#/ckan/ksp-avc",
     "resources": {
         "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/99088-10xdestruction-effects-flames-and-smoke-on-joint-breaks"
     },
-    "x_netkan_epoch": 1
+    "x_netkan_epoch": 2
 }

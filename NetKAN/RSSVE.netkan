@@ -1,0 +1,35 @@
+{
+    "spec_version" : "v1.20",
+    "identifier"   : "RSSVE",
+    "name"         : "RSS Visual Enhancements",
+    "abstract"     : "Visual enhancements for RSS.",
+    "author"       : "PhineasFreak",
+    "license"      : "CC-BY-SA-4.0",
+    "ksp_version"  : "1.2.2",
+    "version"      : "1.2.2-RC3",
+    "release_status" : "testing",
+    "depends"      : [
+      { "name"     : "ModuleManager" },
+      { "name"     : "EnvironmentalVisualEnhancements" },
+      { "name"     : "RealSolarSystem" }
+    ],
+    "provides"     : [
+        "EnvironmentalVisualEnhancements-Config",
+        "Scatterer-sunflare",
+        "Scatterer-config"
+    ],
+    "conflicts"    : [
+        { "name"   : "Scatterer-sunflare" },
+        { "name"   : "Scatterer-config" }
+    ],
+    "resources"    : {
+        "homepage" : "https://github.com/PhineasFreak/RSSVE"
+    },
+    "install"      : [
+        {
+            "file" : "RSSVE-1.2.2.1622-RC3/RSSVE",
+            "install_to" : "GameData"
+        }
+    ],
+    "download"     : "https://github.com/PhineasFreak/RSSVE/archive/v1.2.2.1622-RC3.zip"
+}
