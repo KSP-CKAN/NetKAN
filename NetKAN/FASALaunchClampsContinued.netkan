@@ -2,17 +2,17 @@
 	"spec_version": "v1.4",
 	"install"	  : [
 	{
-	"find": "FASA",
-	"install_to": "GameData"
+		"file": "FASA",
+		"install_to": "GameData"
 	}
 	],
 	"resources"	: 
 	{
-	"homepage"	: "https://github.com/Galileo88/FASA_LaunchClampsContinued"
+		"homepage"	: "https://github.com/Galileo88/FASA_LaunchClampsContinued"
 	},
-    "suggests": [
-        { "name": "AlmostFreeLaunchClamps" }
-    ],
+	"suggests": [
+        	{ "name": "AlmostFreeLaunchClamps" }
+	],
 	"$vref": "#/ckan/ksp-avc",
 	"$kref": "#/ckan/github/Galileo88/FASA_LaunchClampsContinued",
 	"identifier": "FASALaunchClampsContinued",
