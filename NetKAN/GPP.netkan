@@ -2,6 +2,7 @@
     "spec_version": "v1.4",
     "identifier": "GPP",
 	"$kref": "#/ckan/github/Galileo88/Galileos-Planet-Pack",
+	"$vref": "#/ckan/ksp-avc",
     "name": "Galileo's Planet Pack",
     "abstract": "Galileo's Planet Pack is an all new solar system. With high quality planets to explore, and more challeging gameplay than the stock game, GPP will give even the most accomplished KSPer hours of fun. GPP removes the stock planetary system and will corrupt stock system game saves.",
     "author": "Galileo88",
@@ -36,8 +37,6 @@
             "comment": "This correctly installs LoadingScreenManager for GPP"
         }
     ],
-    "version": "1.5.2",
-    "ksp_version": "1.3.0",
     "depends": [
         {
             "name": "ModuleManager"
