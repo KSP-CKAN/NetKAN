@@ -11,11 +11,8 @@
         "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/149298-13-nehemia-engineering-orbital-science-neos-was-oms/"
     },
     "depends": [
-        { "name": "NehemiahScienceCommon", "min_version": "1:0.7a0-mw7" },
-        { "name": "NehemiahMultiPurposeParts", "min_version": "1:0.7a0-mw7" }
-    ],
-    "recommends": [
-        { "name": "ConnectedLivingSpace" }
+        { "name": "NehemiahScienceCommon", "min_version": "1:0.7b2" },
+        { "name": "NehemiahMultiPurposeParts", "min_version": "1:0.7b2" }
     ],
     "install": [
         {

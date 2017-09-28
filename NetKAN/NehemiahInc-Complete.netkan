@@ -2,7 +2,7 @@
     "spec_version": "v1.4",
     "identifier": "NehemiahInc-Complete",
     "$kref": "#/ckan/github/mwerle/OrbitalMaterialScience/asset_match/NehemiahIncSciencePack.*.zip",
-    "$vref": "#/ckan/ksp-avc",
+    "$vref": "#/ckan/ksp-avc/NehemiahInc/OMS/NE-OMS.version",
     "name": "Nehemiah Inc - Complete Pack",
     "abstract": "All of N3h3miah's mods in one downloadable pack.",
     "author": [ "N3h3miah", "mwerle" ],
@@ -16,6 +16,7 @@
     ],
     "recommends": [
         { "name": "K2CommandPodCont" },
+        { "name": "UniversalStorage" },
         { "name": "ConnectedLivingSpace" }
     ],
     "install": [
