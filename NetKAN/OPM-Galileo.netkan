@@ -8,12 +8,13 @@
 	],
 	"resources"	: 
 	{
-		"homepage"	: "https://github.com/Galileo88/OPM_Galileo"
+		"homepage"	: "https://forum.kerbalspaceprogram.com/index.php?/topic/165854-ksp-13-opm_galileo-121-17-sept-2017/"
 	},
 	"depends": [
 	{ "name": "ModuleManager" },
 	{ "name": "Kopernicus" },
-	{ "name": "CustomBarnKit" }
+	{ "name": "CustomBarnKit" },
+	{ "name": "CommunityTerrainTexturePack" }
 	],
 	"supports": [
 	{ "name": "DistantObjectEnhancement" },
