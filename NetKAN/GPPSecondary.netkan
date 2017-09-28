@@ -14,6 +14,7 @@
   	"version"	  : "1.5.2",
 	"ksp_version" : "1.3.0",
 	"$kref": "#/ckan/github/Galileo88/Galileos-Planet-Pack",
+	"$vref": "#/ckan/ksp-avc",
 	"identifier": "GPPSecondary",
 	"name": "GPP Secondary",
 	"abstract" : "GPP secondary puts Galileo's Planet Pack around the stock solar system.",
