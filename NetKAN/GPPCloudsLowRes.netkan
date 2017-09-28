@@ -20,9 +20,8 @@
     "conflicts" : [
         { "name" : "GPPCloudsHighRes" }
     ],
-  	"version"	  : "1.5.2",
-	"ksp_version" : "1.3.0",
 	"$kref": "#/ckan/github/Galileo88/Galileos-Planet-Pack",
+	"$vref": "#/ckan/ksp-avc",
 	"identifier": "GPPCloudsLowRes",
 	"name": "GPP LowRes clouds",
 	"abstract" : "Low resolution clouds for GPP",
