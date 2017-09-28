@@ -37,8 +37,6 @@
             "comment": "This correctly installs LoadingScreenManager for GPP"
         }
     ],
-    "version": "1.5.2",
-    "ksp_version": "1.3.0",
     "depends": [
         {
             "name": "ModuleManager"
