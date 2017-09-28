@@ -1,22 +1,18 @@
 {
-    "spec_version": "v1.4",
-    "comment": "CommunityTerrainTexturePack does not have its own release. Sourced from the OuterPlanetsMod archive.",
-    "identifier": "CommunityTerrainTexturePack",
-    "name": "Community Terrain Texture Pack",
-    "abstract": "High-quality textures for use by planet creators.",
-    "$kref": "#/ckan/spacedock/233",
-    "$vref": "#/ckan/ksp-avc/GameData/OPM/OuterPlanetsMod.version",
-    "license": "CC-BY-NC-SA-4.0",
-    "install": [
-        {
-            "find": "CTTP",
-            "install_to": "GameData"
-        }
-    ],
-    "x_netkan_override": [
-        {
-            "version": "2.1",
-            "delete": [ "ksp_version_max" ]
-        }
-    ]
+  "spec_version": "v1.4",
+  "identifier": "CommunityTerrainTexturePack",
+  "name": "Community Terrain Texture Pack",
+  "abstract": "High-quality textures for use by planet creators.",
+  "license": "CC-BY-NC-SA-4.0",
+  "$kref": "#/ckan/github/Galileo88/Community-Terrain-Texture-Pack",
+  "$vref": "#/ckan/ksp-avc",
+  "resources": {
+    "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/165873-ksp-13-community-terrain-textures-pack-10-26-sept-2017/"
+  },
+  "install": [
+    {
+      "find": "CTTP",
+      "install_to": "GameData"
+    }
+  ]
 }
