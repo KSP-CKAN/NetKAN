@@ -22,5 +22,13 @@
         }
     ],
     "author": "tomf",
-    "$kref"        : "#/ckan/github/tomforwood/StationScience"
+    "$kref"        : "#/ckan/github/tomforwood/StationScience",
+    "x_netkan_override": [
+        {
+            "version": [ ">=2.1.0", "<=v2.2.1" ],
+            "override": {
+                "ksp_version_max": "1.2.2"
+            }
+        }
+    ]
 }

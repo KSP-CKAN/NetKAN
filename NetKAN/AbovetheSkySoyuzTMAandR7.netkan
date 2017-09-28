@@ -1,0 +1,24 @@
+{
+    "x_via": "Automated SpaceDock CKAN submission",
+    "license": "MIT",
+    "identifier": "AbovetheSkySoyuzTMAandR7",
+    "$kref": "#/ckan/spacedock/1297",
+    "spec_version": "v1.4",
+    "depends": [
+        { "name": "SpaceShuttleSystem" }
+    ],
+    "recommends": [
+        { "name": "ASETProps" },
+        { "name": "RasterPropMonitor" }
+    ],
+    "install": [
+        {
+            "file": "DECQ_R7",
+            "install_to": "GameData"
+        },
+        {
+            "file": "SOYUZ_SPACECRAFT",
+            "install_to": "GameData"
+        }
+    ]
+}

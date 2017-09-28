@@ -2,7 +2,7 @@
     "$kref": "#/ckan/spacedock/566",
     "spec_version": "v1.4",
     "identifier": "IndicatorLights",
-    "license": "MIT",
+    "license": "CC-BY-NC-SA-4.0",
     "depends": [
         { "name": "ModuleManager" }
     ]

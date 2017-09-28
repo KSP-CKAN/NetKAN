@@ -6,7 +6,7 @@
     "x_netkan_staging"  : true,
     "comment"           : "return vref when .version file is valid",
     "resources": {
-        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/100190-113/&page=1",
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/155255-12213-kspi-extended",
         "repository": "https://github.com/sswelm/KSP-Interstellar-Extended"
     },
     "license"            : "GPL-3.0",
@@ -17,17 +17,17 @@
         }
     ],
     "depends" : [
-        { "name"        : "CommunityResourcePack", "min_version" : "0.6.4" },
-        { "name"        : "InterstellarFuelSwitch", "min_version" : "2.3.2" },
+        { "name"        : "CommunityResourcePack", "min_version" : "0.7.1" },
+        { "name"        : "InterstellarFuelSwitch-Core", "min_version" : "2.6.1" },
         { "name"        : "TweakScale", "min_version" : "2.3.3"},
-        { "name"        : "ModuleManager", "min_version" : "2.7.5" },
-        { "name"        : "CommunityTechTree", "min_version" : "3.0.3" },
+        { "name"        : "ModuleManager", "min_version" : "2.8.0" },
+        { "name"        : "CommunityTechTree", "min_version" : "1:3.1.0" },
         { "name"        : "UniversalStorage", "min_version" : "1.2.2" }
     ],
     "recommends": [
-        { "name"        : "FilterExtensions" },
-        { "name"        : "KSP-AVC" },
-        { "name"        : "HideEmptyTechNodes" },
+        { "name"        : "InterstellarFuelSwitch", "min_version" : "2.6.1"},
+        { "name"        : "FilterExtensions", "min_version" : "3.0.0"},
+        { "name"        : "HideEmptyTechNodes", "min_version" : "0.8.0" },
         { "name"        : "KerbalJointReinforcement" },
         { "name"        : "UniversalStorage" },
         { "name"        : "PersistentRotation" }

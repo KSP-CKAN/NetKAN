@@ -1,0 +1,20 @@
+{
+    "spec_version" : "v1.4",
+    "identifier"   : "ReflectionPlugin",
+    "$kref"        : "#/ckan/github/raidernick/Reflection-Plugin-Continued",
+    "name"         : "Reflection Plugin Continued",
+    "abstract"     : "Make stuff shiny, plugin for modders",
+	"author"       : [ "Razchek", "Starwaster", "RaiderNick" ],
+    "license"      : "public-domain",
+    "$vref"        : "#/ckan/ksp-avc",
+	"x_netkan_epoch"   : 1,
+    "resources": {
+        "homepage": "https://github.com/raidernick/Reflection-Plugin-Continued"
+    },
+    "install": [
+        {
+            "find": "Hubs",
+            "install_to": "GameData"
+        }
+    ]
+}

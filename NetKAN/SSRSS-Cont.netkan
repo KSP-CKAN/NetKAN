@@ -1,23 +1,40 @@
 {
-  "spec_version": "v1.4",
-  "install": [
-    {
-      "install_to": "GameData",
-      "find": "SSRSS"
-    }
-  ],
-  "depends": [
-    {
-      "name": "ModuleManager"
-    },
-    {
-      "name": "Kopernicus"
-    }
-  ],
-  "abstract"     : "Stock Size Real Solar System.",
-  "$vref": "#/ckan/ksp-avc",
-  "$kref": "#/ckan/github/Galileo88/SSRSSContinued",
-  "x_via": "Automated Linuxgurugamer CKAN script",
-  "identifier": "SSRSS-Cont",
-  "license": "CC-BY-NC-ND"
+    "spec_version": "v1.4",
+    "identifier": "SSRSS-Cont",
+    "$kref": "#/ckan/github/Galileo88/SSRSSContinued",
+    "$vref": "#/ckan/ksp-avc",
+    "abstract": "Stock Size Real Solar System.",
+    "license": "CC-BY-NC-ND",
+    "provides": [
+        "Scatterer-config"
+    ],
+    "conflicts": [
+        { "name": "Scatterer-config" }
+    ],
+    "depends":
+    [
+        { "name": "ModuleManager" },
+        { "name": "Kopernicus" },
+        { "name": "RealSolarSystem" },
+        { "name": "SSRSS-Rescale" }
+    ],
+    "recommends":
+    [
+        { "name": "SSRSS-StockIncl" },
+        { "name": "SSRSS-Clouds" }
+    ],
+    "suggests":
+    [
+        { "name": "EnvironmentalVisualEnhancements" },
+        { "name": "Scatterer" },
+        { "name": "DistantObject" },
+        { "name": "PlanetShine" }
+    ],
+    "install":
+    [
+        {
+            "file": "GameData/SSRSS",
+            "install_to": "GameData"
+        }
+    ]
 }

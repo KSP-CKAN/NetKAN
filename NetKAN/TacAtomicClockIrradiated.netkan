@@ -1,0 +1,19 @@
+{
+  "spec_version": "v1.4",
+  "install": [
+    {
+      "install_to": "GameData",
+      "find": "TacAtomicClock"
+    }
+  ],
+  "depends": [
+    {
+      "name": "TACLS"
+    }
+  ],
+  "$vref": "#/ckan/ksp-avc",
+  "$kref": "#/ckan/spacedock/1483",
+  "x_via": "Automated Linuxgurugamer CKAN script",
+  "identifier": "TacAtomicClockIrradiated",
+  "license": "CC-BY-NC-SA"
+}

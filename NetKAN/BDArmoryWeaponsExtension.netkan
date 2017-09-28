@@ -1,0 +1,17 @@
+{
+    "spec_version"  : "v1.4",
+    "identifier"    : "BDArmoryWeaponsExtension",
+    "$kref"         : "#/ckan/spacedock/1401",
+    "$vref"         : "#/ckan/ksp-avc",
+    "x_netkan_epoch": 1,
+    "license"       : "CC-BY-SA-4.0",
+    "depends": [
+        { "name": "BDArmoryContinued" }
+    ],
+    "install": [
+        {
+            "find"       : "BDArmory Weapons Extension",
+            "install_to" : "GameData"
+        }
+    ]
+}

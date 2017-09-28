@@ -1,0 +1,19 @@
+{
+    "spec_version"  : "v1.4",
+    "identifier"    : "PlanetaryDiversity",
+    "$kref"         : "#/ckan/github/StollD/Planetary-Diversity",
+    "name"          : "Planetary Diversity",
+    "abstract"      : "Creates some diversity on the otherwise static planets.",
+    "release_status": "development",
+    "license"       : "MIT",
+    "author"        : "Thomas P.",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/164870-planetary-diversity"
+    },
+    "install": [
+        {
+            "find"      : "PlanetaryDiversity",
+            "install_to": "GameData"
+        }
+    ]
+}

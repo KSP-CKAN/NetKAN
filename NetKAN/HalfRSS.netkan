@@ -1,29 +1,28 @@
 {
-  "identifier": "HalfRSS",
-  "$kref": "#/ckan/github/pap1723/HalfRSS",
-  "$vref"        : "#/ckan/ksp-avc",
-  "name": "Half Size Real Solar System",
-  "author": [ "pap1723" ],
-  "abstract": "HalfRSS is a mod that uses the great work from NathanKell and creates our Real Solar System in a smaller scale in KSP. At half the size of the RSS, HalfRSS is still 5 times larger than stock KSP and provides a huge challenge to players, but can be achieved with stock parts. I always loved the idea of playing in our Real Solar System, but I am not a good enough player to be able to accomplish that on the grand RSS scale.",
-  "license": "CC-BY-NC-SA",
-  "resources": {
-    "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/142336-113-half-size-rss-v10/"
-  },
-  "ksp_version": "1.1.3",
-  "depends": [
-    { "name": "ModularFlightIntegrator" },
-    { "name": "ModuleManager" },
-    { "name": "Kopernicus" },
-    { "name": "HalfRSS-Textures" }
-  ],
-  "recommends": [
-    { "name": "CustomAsteroids" }
-  ],
-  "install": [
-    {
-      "find": "HalfRSS",
-      "install_to": "GameData"
-    }
-  ],
-  "spec_version": "v1.4"
+    "spec_version": "v1.4",
+    "identifier": "HalfRSS",
+    "$kref": "#/ckan/github/pap1723/HalfRSS/asset_match/HalfRSS-v.*.zip",
+    "$vref": "#/ckan/ksp-avc",
+    "name": "Half Size Real Solar System",
+    "author": [ "pap1723" ],
+    "abstract": "HalfRSS is a mod that uses the great work from NathanKell and creates our Real Solar System at half the size. HalfRSS is still 5 times larger than stock KSP and provides a huge challenge to players, but can be achieved with stock parts.",
+    "license": "CC-BY-NC-SA",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/142336-113-half-size-rss-v10/"
+    },
+    "depends": [
+        { "name": "ModularFlightIntegrator" },
+        { "name": "ModuleManager" },
+        { "name": "Kopernicus" },
+        { "name": "HalfRSS-Textures" }
+    ],
+    "recommends": [
+        { "name": "CustomAsteroids" }
+    ],
+    "install": [
+        {
+            "find": "HalfRSS",
+            "install_to": "GameData"
+        }
+    ]
 }

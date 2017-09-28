@@ -1,19 +1,28 @@
 {
     "identifier": "KerbinSideCore",
-    "spec_version": "v1.4",
-    "$kref": "#/ckan/spacedock/150",
-    "license": "BSD-3-clause",
+    "name": "KerbinSide Core",
+    "abstract": "Shared files used by all KerbinSide variants",
+    "spec_version": "v1.16",
+    "$kref": "#/ckan/spacedock/1347",
+    "$vref": "#/ckan/ksp-avc/",
+    "x_netkan_epoch" : "3",
+    "license": "restricted",
     "depends": [
         { "name": "KerbalKonstructs" }
     ],
-    "provides" : [ "KerbinSide-virt" ],
-    "conflicts": [
-        { "name": "KerbinSide-virt" }
-    ],
     "install": [
         {
-            "find": "KerbinSide",
-            "install_to": "GameData"
+            "find"       : "CoreAssets",
+            "install_to" : "GameData/KerbinSide"
+        },
+        {
+            "find"       : "Flags",
+            "install_to" : "GameData/KerbinSide"
+        },
+        {
+            "find"       : "licence.txt",
+            "install_to" : "GameData/KerbinSide",
+            "find_matches_files" : true
         }
     ]
 }

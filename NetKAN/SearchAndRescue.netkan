@@ -6,17 +6,16 @@
     "author": "TMasterson5",
     "license": "CC-BY-SA-2.0",
     "resources": {
-        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/144548-search-and-rescue/",
-        "spacedock": "https://spacedock.info/mod/861/Search%20And%20Rescue",
-        "x_screenshot": "https://spacedock.info/content/TMasterson5_2247/Search_And_Rescue/Search_And_Rescue-1469646351.2408717.png"
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/144548-search-and-rescue/"
     },
-    "version": "9",
-    "ksp_version": "1.1.3",
+    "x_netkan_epoch": "1",
+    "version": "4",
+    "ksp_version": "1.2.2",
     "install": [
         {
             "find": "SAR",
             "install_to": "GameData"
         }
     ],
-    "download": "https://www.dropbox.com/sh/j6soeclf3d8tkg5/AABGfJpBBEecoEyf8PEeQOKXa/.9.zip?dl=1"
+    "download": "https://www.dropbox.com/sh/j6soeclf3d8tkg5/AADECTlSObt79LqplNH2Hbqqa/4.zip?dl=1"
 }

@@ -3,12 +3,11 @@
     "identifier"   : "HooliganLabsAirships",
     "$kref"        : "#/ckan/spacedock/638",
     "license": "restricted",
-
     "install": [
-    {
-      "find"       : "HLAirships",
-      "install_to" : "GameData",
-      "filter"     : "thumbs.db"
-    }
+        {
+          "file"       : "HLAirships",
+          "install_to" : "GameData",
+          "filter"     : "thumbs.db"
+        }
     ]
 }

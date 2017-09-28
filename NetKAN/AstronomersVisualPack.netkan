@@ -1,0 +1,29 @@
+{
+    "spec_version" : 1,
+	"abstract"     : "Revival of the total visual overhaul for Kerbal Space Program by Astronomer.",
+    "identifier"   : "AstronomersVisualPack",
+    "$kref"        : "#/ckan/github/themaster402/AstronomersVisualPack/asset_match/AVP.v.*.zip",
+    "$vref" : "#/ckan/ksp-avc",
+    "license"      : "LGPL-3.0",
+	"name"         : "Astronomer's Visual Pack",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/160878-ksp-130-astronomers-visual-pack-updated-and-repackaged-314-duality/"
+	},
+    "depends" : [
+        { "name": "ModuleManager" },
+        { "name": "AVP-Textures" },
+        { "name": "Kopernicus" },
+        { "name": "Scatterer" },
+	    { "name": "LoadingScreenManager" },
+		{ "name": "EnvironmentalVisualEnhancements" }
+	],
+	"recommends" : [
+		{ "name": "DistantObject" },
+		{ "name": "PlanetShine" },
+		{ "name": "Chatterer" },
+		{ "name": "TextureReplacer"}
+    ],
+    "provides" : [
+        "EnvironmentalVisualEnhancements-Config"
+	]
+}

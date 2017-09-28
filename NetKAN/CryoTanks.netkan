@@ -3,13 +3,17 @@
     "comment": "CryoTanks does not have its own release. Sourced from the KerbalAtomics archive.",
     "identifier": "CryoTanks",
     "$kref": "#/ckan/spacedock/710",
-    "$vref": "#/ckan/ksp-avc/GameData/KerbalAtomics/Versioning/KerbalAtomics.version",
+    "$vref": "#/ckan/ksp-avc",
     "name": "Cryogenic Tanks",
     "abstract": "A set of fuel tanks containing liquid hydrogen, with active cryocooling.",
     "license": "CC-BY-NC-SA-4.0",
+    "resources": {
+      "repository": "https://github.com/ChrisAdderley/CryoTanks"
+    },
     "depends": [
         { "name" : "CommunityResourcePack" },
-        { "name" : "ModuleManager" }
+        { "name" : "ModuleManager" },
+        { "name" : "DynamicBatteryStorage" }
     ],
     "supports" : [
         { "name" : "KerbalAtomics" },

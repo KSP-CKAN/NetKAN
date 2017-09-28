@@ -1,0 +1,24 @@
+{
+    "$kref": "#/ckan/spacedock/535",
+    "spec_version": "v1.4",
+    "identifier": "ContaresCA1CanadianArrow",
+    "license": "CC-BY-NC-4.0",
+    "recommends": [
+        { "name": "NewTantares" },
+        { "name": "NewTantaresLV" }
+    ],
+    "depends": [
+        { "name": "RealPlume" },
+        { "name": "Contares-Common" }
+    ],
+    "conflicts": [
+        { "name": "Contares" }
+    ],
+    "install": [
+        {
+            "find": "GameData/Contares",
+            "install_to": "GameData",
+            "filter": ["Agencies", "CONTARES_TweakScale.cfg"]
+        }
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "x_via": "Automated SpaceDock CKAN submission",
+    "license": "restricted",
+    "identifier": "RevampedJool",
+    "spec_version": "v1.4",
+    "$kref": "#/ckan/spacedock/1042",
+    "depends": [
+        { "name": "ModuleManager" },
+        { "name": "Kopernicus" }
+    ],
+    "install": [
+        {
+            "find": "RevampedJool",
+            "install_to": "GameData"
+        }
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "spec_version" : 1,
+    "identifier"   : "Explainer",
+    "$kref"        : "#/ckan/spacedock/1253",
+    "license"      : "MIT",
+    "depends": [
+        { "name": "UKS" },
+        { "name": "USI-LS" }
+    ]
+}

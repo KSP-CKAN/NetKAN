@@ -1,0 +1,23 @@
+{
+  "spec_version": "v1.4",
+  "install": [
+    {
+      "install_to": "GameData",
+      "find": "MunarIndustries"
+    }
+  ],
+  "depends": [
+    { "name": "ModuleManager" }
+  ],
+  "recommends": [
+    { "name": "InterstellarFuelSwitch-Core" }
+  ],
+  "suggests": [
+    { "name": "PatchManager" }
+  ],
+  "$vref": "#/ckan/ksp-avc",
+  "$kref": "#/ckan/spacedock/1396",
+  "x_via": "Automated Linuxgurugamer CKAN script",
+  "identifier": "MunarIndustriesFTX",
+  "license": "CC-BY-NC-SA-4.0"
+}

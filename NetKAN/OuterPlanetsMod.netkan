@@ -53,5 +53,13 @@
             "find": "OPM",
             "install_to" : "GameData"
         }
+    ],
+    "x_netkan_override": [
+        {
+            "version": "1:2.1",
+            "override": {
+                "ksp_version_max" : "1.2.2"
+            }
+        }
     ]
 }

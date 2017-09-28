@@ -1,19 +1,31 @@
 {
     "identifier": "KerbinSideKampus",
-    "spec_version": "v1.4",
-    "$kref": "#/ckan/spacedock/555",
-    "license": "BSD-3-clause",
+    "spec_version": "v1.16",
+    "$kref": "#/ckan/spacedock/1351",
+    "$vref": "#/ckan/ksp-avc",
+    "x_netkan_epoch": 3,
+    "license": "restricted",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/160099-122-kerbin-side-continued/"
+    },
+
     "install": [
         {
-            "find"       : "KerbinSide",
-            "install_to" : "GameData/KerbinSideAirRace"
+            "find"       : "MainBases",
+            "install_to" : "GameData/KerbinSide"
+        },
+        {
+            "find"       : "KerbinSide-Kampus.version",
+            "install_to" : "GameData/KerbinSide",
+            "find_matches_files" : true
         }
-    ],
-    "depends" : [
-        { "name" : "KerbalKonstructs" }
     ],
     "provides" : [ "KerbinSide-virt" ],
     "conflicts": [
         { "name": "KerbinSide-virt" }
+    ],
+    "depends" : [
+        { "name" : "KerbalKonstructs" },
+        { "name" : "KerbinSideCore" }
     ]
 }

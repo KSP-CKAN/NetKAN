@@ -18,7 +18,10 @@
         { "name" : "KWRocketry-CommunityFixes" },
         { "name" : "KWRocketry-CommunityFixes-interstage"  }
     ],
-    "recommends": [ { "name": "JanitorsCloset" } ],
+    "recommends": [ 
+       { "name": "SimpleAdjustableFairings-KWRocketry" }, 
+       { "name": "JanitorsCloset" } 
+    ],
     "install"     : [
         {
             "find"    : "KWRocketry/GameData/KWRocketry",

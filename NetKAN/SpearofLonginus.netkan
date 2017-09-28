@@ -1,0 +1,19 @@
+{
+     "spec_version" : "v1.4",
+     "identifier"   : "SpearofLonginus",
+     "name"         : "Spear of Longinus",
+     "$kref"        : "#/ckan/github/satoi8080/KSP-Spear-of-Longinus",
+     "license"      : "CC-BY-NC-ND",
+     "abstract"     : "A fan-made MOD of Neon Genesis Evangelion inspired by the official 20th anniversary plan.",
+     "ksp_version"  : "1.2.2",
+     "x_netkan_force_v": true,
+     "resources": {
+         "homepage": "http://github.com/satoi8080/KSP-Spear-of-Longinus"
+     },
+     "install" : [
+         {
+             "find"       : "GameData/Spear of Longinus",
+             "install_to" : "GameData"
+         }
+     ]
+ }

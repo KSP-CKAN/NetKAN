@@ -1,0 +1,16 @@
+{
+    "$kref": "#/ckan/spacedock/1307",
+    "identifier": "BuzzardCollectors",
+    "x_via": "Automated SpaceDock CKAN submission",
+    "spec_version": "v1.4",
+    "license": "CC-BY-NC-SA-4.0",
+    "depends": [
+        { "name": "DMagicOrbitalScience" }
+    ],
+    "install": [
+        {
+            "file": "BuzzardCollector",
+            "install_to": "GameData"
+        }
+    ]
+}

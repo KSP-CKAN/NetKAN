@@ -1,17 +1,14 @@
 {
+    "spec_version": "v1.4",
     "identifier": "TWSAs-Payload-Adapters",
     "$kref": "#/ckan/spacedock/729",
-    "spec_version": "v1.4",
     "license": "CC-BY-NC-4.0",
     "resources": {
-        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/140791-*"
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/140791-112"
     },
-    "depends": [
-        { "name": "TweakScale" }
-    ],
     "install": [
         {
-            "find": "TW_PayloadAdapters",
+            "find": "TWSApa",
             "install_to": "GameData"
         }
     ]

@@ -7,8 +7,8 @@
         { "name" : "RemoteTech" } 
     ],
     "depends": [
-        { "name": "Tantares" },
-        { "name": "TantaresLV" },
+        { "name": "NewTantares" },
+        { "name": "NewTantaresLV" },
         { "name": "ABLaunchers" },
         { "name": "Contares", "max_version" : "1.7.4" },
         { "name": "ModuleManager" },

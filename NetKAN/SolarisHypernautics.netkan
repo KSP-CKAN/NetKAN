@@ -1,12 +1,12 @@
 {
-    "spec_version": 1,
+    "spec_version": "v1.4",
     "license": "GPL-3.0",
     "$kref": "#/ckan/spacedock/187",
     "identifier": "SolarisHypernautics",
     "x_netkan_epoch": 1,
     "install": [
         {
-            "file"       : "Solaris Hypernautics",
+            "find"       : "Solaris_Hypernautics",
             "install_to" : "GameData"
         }
     ],

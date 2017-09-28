@@ -1,5 +1,5 @@
 {
-    "spec_version": 1,
+    "spec_version": "v1.4",
     "identifier": "KSP-64k",
     "$kref": "#/ckan/spacedock/719",
     "$vref": "#/ckan/ksp-avc",
@@ -10,7 +10,7 @@
     },
     "install": [
         {
-            "file": "GameData/KScale64",
+            "find": "KScale64",
             "install_to": "GameData"
         }
     ],
@@ -23,5 +23,6 @@
         { "name": "RemoteTech" },
         { "name": "DeadlyReentry" },
         { "name": "SCANSat" }
-    ]
+    ],
+    "x_netkan_epoch": 2
 }
