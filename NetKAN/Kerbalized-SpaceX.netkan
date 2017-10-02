@@ -4,6 +4,7 @@
 	"name":         "Kerbalized SpaceX",
 	"abstract":     "SpaceX vehicles",
 	"description":  "Dragon 1, Dragon 2, ITS Titan, BFR",
+	"license":      "restricted",
 	"$kref":        "#/ckan/github/jharri74/Dragon2",
 	"resources": {
 		"homepage":   "https://forum.kerbalspaceprogram.com/index.php?/topic/162949-kerbalized-spacex",
