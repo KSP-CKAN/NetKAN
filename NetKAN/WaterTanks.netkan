@@ -16,13 +16,13 @@
 	"resources" : {
         "homepage"     : "http://forum.kerbalspaceprogram.com/index.php?/topic/152741-ballast-water-tanks-smalltweaks"
     },
-    "depends" : [
+    "depends"   : [
 	{ 
 		"name"       : "ModuleManager",
 		"min_version": "2.6"		
 	}   
 ],
-	"suggests" : [
+	"suggests"  : [
 	{ 
 		"name"	: "FirespitterCore",
 		"min_version" : "7.1"
