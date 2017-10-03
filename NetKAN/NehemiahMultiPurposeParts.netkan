@@ -1,0 +1,28 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "NehemiahMultiPurposeParts",
+    "$kref": "#/ckan/github/mwerle/OrbitalMaterialScience/asset_match/NehemiahIncSciencePack.*.zip",
+    "$vref": "#/ckan/ksp-avc",
+    "name": "Nehemiah Multipurpose Parts",
+    "abstract": "Shared files used by N3h3miah's KLS and OMS mod.",
+    "author": [ "N3h3miah", "mwerle" ],
+    "license": "GPL-3.0",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/149298-13-nehemia-engineering-orbital-science-neos-was-oms/"
+    },
+    "depends": [
+        { "name": "ModuleManager" }
+    ],
+    "recommends": [
+        { "name": "K2CommandPodCont" },
+        { "name": "UniversalStorage" },
+        { "name": "ConnectedLivingSpace" }
+    ],
+    "install": [
+        {
+            "file": "NehemiahInc/MultiPurposeParts",
+            "install_to": "GameData/NehemiahInc"
+        }
+    ],
+    "x_netkan_epoch": "1"
+}

@@ -1,0 +1,23 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "NehemiahScienceCommon",
+    "$kref": "#/ckan/github/mwerle/OrbitalMaterialScience/asset_match/NehemiahIncSciencePack.*.zip",
+    "$vref": "#/ckan/ksp-avc",
+    "name": "Nehemiah Science Common",
+    "abstract": "Shared files used by all N3h3miah's mods.",
+    "author": [ "N3h3miah", "mwerle" ],
+    "license": "GPL-3.0",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/149298-13-nehemia-engineering-orbital-science-neos-was-oms/"
+    },
+    "depends": [
+        { "name": "ModuleManager" }
+    ],
+    "install": [
+        {
+            "file": "NehemiahInc/NE_Science_Common",
+            "install_to": "GameData/NehemiahInc"
+        }
+    ],
+    "x_netkan_epoch": "1"
+}

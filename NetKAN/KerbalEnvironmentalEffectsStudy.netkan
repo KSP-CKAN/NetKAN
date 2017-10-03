@@ -1,0 +1,27 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "KerbalEnvironmentalEffectsStudy",
+    "$kref": "#/ckan/github/mwerle/OrbitalMaterialScience/asset_match/NehemiahIncSciencePack.*.zip",
+    "$vref": "#/ckan/ksp-avc",
+    "name": "Kerbal Environmental Effects Study",
+    "abstract": "Science and money from experiments based on real space science.",
+    "author": [ "N3h3miah", "mwerle" ],
+    "license": "GPL-3.0",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/149298-13-nehemia-engineering-orbital-science-neos-was-oms/"
+    },
+    "depends": [
+        { "name": "NehemiahScienceCommon", "min_version": "1:0.7b2" },
+        { "name": "KIS" }
+    ],
+    "recommends": [
+        { "name": "K2CommandPodCont" },
+        { "name": "ConnectedLivingSpace" }
+    ],
+    "install": [
+        {
+            "file": "NehemiahInc/KEES",
+            "install_to": "GameData/NehemiahInc"
+        }
+    ]
+}

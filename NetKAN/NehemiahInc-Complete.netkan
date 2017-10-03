@@ -1,0 +1,28 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "NehemiahInc-Complete",
+    "$kref": "#/ckan/github/mwerle/OrbitalMaterialScience/asset_match/NehemiahIncSciencePack.*.zip",
+    "$vref": "#/ckan/ksp-avc/NehemiahInc/OMS/NE-OMS.version",
+    "name": "Nehemiah Inc - Complete Pack",
+    "abstract": "All of N3h3miah's mods in one downloadable pack.",
+    "author": [ "N3h3miah", "mwerle" ],
+    "license": "GPL-3.0",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/149298-13-nehemia-engineering-orbital-science-neos-was-oms/"
+    },
+    "depends": [
+        { "name": "ModuleManager" },
+        { "name": "KIS" }
+    ],
+    "recommends": [
+        { "name": "K2CommandPodCont" },
+        { "name": "UniversalStorage" },
+        { "name": "ConnectedLivingSpace" }
+    ],
+    "install": [
+        {
+            "file": "NehemiahInc",
+            "install_to": "GameData"
+        }
+    ]
+}
