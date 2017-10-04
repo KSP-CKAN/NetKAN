@@ -8,8 +8,10 @@
 	"license"      : "MIT",
 	"$vref" : "#/ckan/ksp-avc",
 	"install": [
-		"install_to": "GameData",
-		"find_regexp": "ISRUThanksButNoTanks.*"
+		{
+			"install_to": "GameData",
+			"find_regexp": "ISRUThanksButNoTanks.*"
+		}
 	],
 	"resources": 
 	{
