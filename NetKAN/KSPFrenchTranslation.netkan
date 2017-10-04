@@ -9,7 +9,7 @@
     ],
     "install": [
         {
-            "find_regexp":"KSP fran.ais Patch",
+            "find_regexp":"KSP Patch Fran.ais",
             "install_to": "GameData"
         }
     ]
