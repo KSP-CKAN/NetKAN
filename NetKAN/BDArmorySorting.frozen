@@ -1,9 +1,0 @@
-{
-    "spec_version": 1,
-    "$kref": "#/ckan/kerbalstuff/1117",
-    "license": "MIT",
-    "identifier": "BDArmorySorting",
-    "depends": [
-       { "name": "ModuleManager" }
-      ]
-}
