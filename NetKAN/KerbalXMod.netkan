@@ -12,9 +12,6 @@
         "bugtracker"   : "https://github.com/Sujimichi/KerbalXMod/issues",
         "repository"   : "https://github.com/Sujimichi/KerbalXMod"
     },
-    "conflicts": [
-        { "name": "PartMapper" }
-    ],
     "install": [
         {
             "file"       : "KerbalX",
