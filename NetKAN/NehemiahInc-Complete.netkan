@@ -15,9 +15,11 @@
         { "name": "KIS" }
     ],
     "recommends": [
+        { "name": "ConnectedLivingSpace" }
+        { "name": "Corvus125mTwoKerbalPod" }
+        { "name": "DockingPortAlignmentIndicator" }
         { "name": "K2CommandPodCont" },
         { "name": "UniversalStorage" },
-        { "name": "ConnectedLivingSpace" }
     ],
     "install": [
         {

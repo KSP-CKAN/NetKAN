@@ -12,9 +12,11 @@
         "homepage": "http://forum.kerbalspaceprogram.com/index.php?showtopic=149298"
     },
     "depends": [
+        { "name": "ModuleManager" }
         { "name": "NehemiahScienceCommon", "min_version": "1:0.7b2" }
     ],
     "recommends": [
+        { "name": "Corvus125mTwoKerbalPod" }
         { "name": "K2CommandPodCont" }
     ],
     "install": [

@@ -10,13 +10,10 @@
     "resources": {
         "homepage": "http://forum.kerbalspaceprogram.com/index.php?showtopic=149298"
     },
-    "depends": [
-        { "name": "ModuleManager" }
-    ],
     "recommends": [
-        { "name": "K2CommandPodCont" },
-        { "name": "UniversalStorage" },
         { "name": "ConnectedLivingSpace" }
+        { "name": "DockingPortAlignmentIndicator" }
+        { "name": "UniversalStorage" },
     ],
     "install": [
         {

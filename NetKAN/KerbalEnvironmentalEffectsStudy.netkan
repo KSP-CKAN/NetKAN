@@ -12,12 +12,13 @@
         "homepage": "http://forum.kerbalspaceprogram.com/index.php?showtopic=149298"
     },
     "depends": [
-        { "name": "NehemiahScienceCommon", "min_version": "1:0.7b2" },
         { "name": "KIS" }
+        { "name": "NehemiahScienceCommon", "min_version": "1:0.7b2" },
     ],
     "recommends": [
+        { "name": "Corvus125mTwoKerbalPod" }
         { "name": "K2CommandPodCont" },
-        { "name": "ConnectedLivingSpace" }
+        { "name": "UniversalStorage" },
     ],
     "install": [
         {
