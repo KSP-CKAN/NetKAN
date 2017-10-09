@@ -1,0 +1,24 @@
+{
+    "spec_version"   : 1,
+    "identifier"     : "KerbalXMod",
+    "$kref"          : "#/ckan/github/Sujimichi/KerbalXMod",
+    "author"         : "katateochi",
+    "name"           : "KerbalX Mod",
+    "abstract"       : "Uploads and updates your craft to KerbalX from within the game in a few clicks. Also enables downloading craft.",
+    "ksp_version_min": "1.0",
+    "license"        : "CC-BY-NC-ND-4.0",
+    "resources" : {
+        "homepage"     : "https://forum.kerbalspaceprogram.com/index.php?/topic/84389-kerbalxcom",
+        "bugtracker"   : "https://github.com/Sujimichi/KerbalXMod/issues",
+        "repository"   : "https://github.com/Sujimichi/KerbalXMod"
+    },
+    "conflicts": [
+        { "name": "PartMapper" }
+    ],
+    "install": [
+        {
+            "file"       : "KerbalX",
+            "install_to" : "GameData"
+        }
+    ]
+}
