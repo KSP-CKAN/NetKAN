@@ -4,7 +4,8 @@
     "$kref": "#/ckan/github/mwerle/OrbitalMaterialScience/asset_match/NehemiahIncSciencePack.*.zip",
     "$vref": "#/ckan/ksp-avc",
     "name": "Kerbal Life Science",
-    "abstract": "Use Kerbals as test subjects to get science",
+    "abstract": "Use Kerbals as test subjects to get more science on your space station.",
+    "description": "Kerbal Life Science is a collection of multi-step experiments inspired by real-world ISS science experiments. To run experiments, you have to launch laboratories, equipment, and the experiments themselves and perform some assembly in-orbit before the experiments can be run. The idea is to run the experiments in the background while you do other missions."
     "author": [ "N3h3miah", "Micha" ],
     "license": "GPL-3.0",
     "resources": {

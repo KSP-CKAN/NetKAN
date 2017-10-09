@@ -5,6 +5,7 @@
     "$vref": "#/ckan/ksp-avc",
     "name": "Kerbal Environmental Effects Study",
     "abstract": "Science and money from experiments based on real space science.",
+    "description": "Kerbal Environmental Effects Study is a mid-game set of material exposure experiments aimed at small orbital stations. To run an experiment, you have to attach an Experiment Carrier to the outside of your station (using KIS), then add an experiment to it. The idea is to run experiments in the background while doing other missions."
     "author": [ "N3h3miah", "Micha" ],
     "license": "GPL-3.0",
     "resources": {
