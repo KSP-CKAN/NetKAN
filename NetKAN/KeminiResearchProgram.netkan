@@ -5,18 +5,18 @@
     "$vref": "#/ckan/ksp-avc",
     "name": "Kemini Research Program",
     "abstract": "Early science from experiments based on real experiments from the Gemini Program",
-    "description": "The Kemini Research Program is a set of small orbital experiments inspired by real experiments run during the Gemini missions. No additional equipment is required - simply install an experiment in the capsule and run it once in orbit."
+    "description": "The Kemini Research Program is a set of small orbital experiments inspired by real experiments run during the Gemini missions. No additional equipment is required - simply install an experiment in the capsule and run it once in orbit.",
     "author": [ "N3h3miah", "Micha" ],
     "license": "GPL-3.0",
     "resources": {
         "homepage": "http://forum.kerbalspaceprogram.com/index.php?showtopic=149298"
     },
     "depends": [
-        { "name": "ModuleManager" }
+        { "name": "ModuleManager" },
         { "name": "NehemiahScienceCommon", "min_version": "1:0.7b2" }
     ],
     "recommends": [
-        { "name": "Corvus125mTwoKerbalPod" }
+        { "name": "Corvus125mTwoKerbalPod" },
         { "name": "K2CommandPodCont" }
     ],
     "install": [

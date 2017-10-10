@@ -11,9 +11,9 @@
         "homepage": "http://forum.kerbalspaceprogram.com/index.php?showtopic=149298"
     },
     "recommends": [
-        { "name": "ConnectedLivingSpace" }
-        { "name": "DockingPortAlignmentIndicator" }
-        { "name": "UniversalStorage" },
+        { "name": "ConnectedLivingSpace" },
+        { "name": "DockingPortAlignmentIndicator" },
+        { "name": "UniversalStorage" }
     ],
     "install": [
         {
