@@ -15,7 +15,7 @@
     ],
     "install": [
         {
-            "file": "SigmaDunaIke/DunaIke.cfg",
+            "find": "SigmaDunaIke",
             "install_to": "GameData/Sigma"
         }
     ],
