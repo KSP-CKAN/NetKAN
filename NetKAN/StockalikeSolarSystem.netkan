@@ -1,0 +1,41 @@
+{
+    "spec_version" : "v1.4",
+    "identifier"   : "StockalikeSolarSystem",
+    "$kref"        : "#/ckan/github/Sigma88/Stockalike",
+    "$vref"        : "#/ckan/ksp-avc",
+    "name"         : "Stockalike Solar System",
+    "abstract"     : "This mod rearranges bodies from other mods to reproduce the Solar System but with a Kerbal style.",
+    "license"      : "restricted",
+    "author"       : "Sigma88",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/131405-wip/"
+    },
+    "depends": [
+        { "name": "ModuleManager" },
+        { "name": "Kopernicus" },
+        { "name": "SigmaDimensions" },
+        { "name": "SigmaSciDefRenamer" },
+        { "name": "Kronometer" },
+        { "name": "TextureReplacer" },
+        { "name": "HumanColoredFaces" },
+        { "name": "DunaRestorationProject" },
+        { "name": "NewHorizons" },
+        { "name": "OPM-Galileo" },
+        { "name": "RevampedStockSystem" },
+        { "name": "RevoltingJoolRecolor" },
+        { "name": "SaruPlanetPack" },
+        { "name": "SentarExpansion" },
+        { "name": "SigmaStockRecolor" },
+        { "name": "SASS-StockalikeNeptune" },
+        { "name": "UnchartedLands" }
+    ],
+    "recommends": [
+        { "name": "SigmaBinary-core" }
+    ],
+    "install": [
+        {
+            "find": "StockalikeSolarSystem",
+            "install_to": "GameData"
+        }
+    ]
+}
