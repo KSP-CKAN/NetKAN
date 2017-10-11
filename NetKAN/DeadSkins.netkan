@@ -5,6 +5,7 @@
     "$kref": "#/ckan/spacedock/1472",
     "depends": [
         { "name": "AviationLights" },
-        { "name": "ModuleManager" }
+        { "name": "ModuleManager" },
+        { "name": "DeadskinsTextureSwitch" }
     ]
 }
