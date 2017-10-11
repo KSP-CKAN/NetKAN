@@ -3,5 +3,16 @@
     "license": "MIT",
     "$kref": "#/ckan/spacedock/1487",
     "x_via": "Automated SpaceDock CKAN submission",
-    "identifier": "64xscale128xdistance"
+    "identifier": "64xscale128xdistance",
+    "depends": [
+        { "name": "SigmaDimensions" },
+        { "name": "Kopernicus" },
+        { "name": "ModuleManager" }
+    ],
+    "install": [
+        {
+            "find":"Dimensions",
+            "install_to": "GameData/Sigma"
+        }
+    ]
 }
