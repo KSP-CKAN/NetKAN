@@ -1,7 +1,15 @@
 {
     "$kref": "#/ckan/spacedock/1425",
-    "x_via": "Automated SpaceDock CKAN submission",
-    "license": "Licence Creative Commons Attribution - Pas d\u2019Utilisation Commerciale - Pas de Modification 3.0 France",
+    "license": "CC-BY-NC-ND-3.0",
     "identifier": "KerbalScienceInnovation",
-    "spec_version": "v1.4"
+    "spec_version": "v1.4",
+    "depends": [
+        { "name": "TextureReplacer" }
+    ],
+    "install": [
+        {
+            "find":"KSI",
+            "install_to": "GameData"
+        }
+    ]
 }
