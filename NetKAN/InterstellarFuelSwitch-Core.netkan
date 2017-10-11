@@ -13,6 +13,10 @@
         {
             "find"       : "InterstellarFuelSwitch/Resources",
             "install_to" : "GameData/InterstellarFuelSwitch"
+        },
+        {
+            "find"       : "InterstellarFuelSwitch/Localization",
+            "install_to" : "GameData/InterstellarFuelSwitch"
         }
     ],
     "provides": [ "DeadskinsTextureSwitch", "DeadskinsMeshSwitch" ],
