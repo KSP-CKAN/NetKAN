@@ -1,7 +1,17 @@
 {
     "identifier": "RLARecontinued",
     "$kref": "#/ckan/spacedock/1509",
+    "$vref": "#/ckan/ksp-avc",
     "spec_version": "v1.4",
-    "x_via": "Automated SpaceDock CKAN submission",
-    "license": " CC-BY-SA-4.0"
+    "license": "CC-BY-SA-4.0",
+    "conflicts": [
+        { "name": "RLA-Stockalike" },
+        { "name": "RLAContinued" }
+    ],
+    "install": [
+        {
+            "install_to": "GameData",
+            "find": "RLA_Stockalike"
+        }
+    ]
 }
