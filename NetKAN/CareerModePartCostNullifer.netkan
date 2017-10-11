@@ -3,5 +3,15 @@
     "license": "MIT",
     "$kref": "#/ckan/spacedock/1508",
     "x_via": "Automated SpaceDock CKAN submission",
-    "identifier": "CareerModePartCostNullifer"
+    "identifier": "CareerModePartCostNullifer",
+    "depends" : [
+        { "name": "ModuleManager" }
+    ],
+    "install": [
+        {
+            "find":"Budget part cost set to 0.cfg",
+            "install_to": "GameData/CareerModePartCostNullifer",
+            "find_matches_files": true
+        }
+    ]
 }
