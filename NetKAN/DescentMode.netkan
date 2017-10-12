@@ -15,5 +15,13 @@
     ],
     "conflicts" : [
         { "name" : "RealismOverhaul" }
+    ],
+    "x_netkan_override" : [
+        {
+            "version"  : "v0.2.0",
+            "override" : {
+                "ksp_version" : "1.2.2"
+            }
+        }
     ]
 }
