@@ -13,5 +13,8 @@
             "find"       : "Ships/VAB",
             "install_to" : "Ships"
         }
+    ],
+    "depends": [
+      { "name": "TDProps" }
     ]
 }
