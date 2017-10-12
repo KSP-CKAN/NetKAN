@@ -1,7 +1,16 @@
 {
     "spec_version": "v1.4",
-    "license": "Attribution-NonCommercial-NoDerivatives 4.0 International",
+    "license": "CC-BY-NC-ND-4.0",
     "$kref": "#/ckan/spacedock/1513",
     "x_via": "Automated SpaceDock CKAN submission",
-    "identifier": "CAMk3BlockII"
+    "identifier": "CAMk3BlockII",
+    "depends": [
+        { "name": "ShuttleLiftingBodyCormorantAeronology" }
+    ],
+    "install": [
+        {
+            "find": "Cormorant Aeronology",
+            "install_to": "GameData"
+        }
+    ]
 }
