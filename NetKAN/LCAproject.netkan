@@ -3,5 +3,15 @@
     "$kref": "#/ckan/spacedock/1540",
     "spec_version": "v1.4",
     "x_via": "Automated SpaceDock CKAN submission",
-    "license": "GPLv2"
+    "license": "GPL-2.0",
+    "install": [
+        {
+            "find": "GameData/LCA",
+            "install_to": "GameData"
+        },
+        {
+            "find": "Ships/VAB",
+            "install_to": "Ships"
+        }
+    ]
 }
