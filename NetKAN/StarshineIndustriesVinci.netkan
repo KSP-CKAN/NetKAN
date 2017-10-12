@@ -1,7 +1,23 @@
 {
-    "x_via": "Automated SpaceDock CKAN submission",
     "$kref": "#/ckan/spacedock/1519",
-    "identifier": "StarshineIndustriesVinci",
-    "license": "AFL 3.0",
-    "spec_version": "v1.4"
+    "identifier": "Vinci",
+    "license": "AFL-3.0",
+    "spec_version": "v1.4",
+    "depends": [
+        { "name": "BDAnimationModules" }
+    ],
+    "install": [
+        {
+            "find":"Vinci",
+            "install_to": "GameData/StarshineIndustries"
+        }
+    ],
+    "x_netkan_override": [
+        {
+            "version": "1.0.3",
+            "override": {
+                "ksp_version" : "1.3"
+            }
+        }
+    ]
 }
