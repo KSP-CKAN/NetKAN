@@ -3,5 +3,12 @@
     "x_via": "Automated SpaceDock CKAN submission",
     "license": "MIT",
     "identifier": "TDProps",
-    "spec_version": "v1.4"
+    "spec_version": "v1.4",
+    "install": [
+        {
+            "find": "TDProps",
+            "install_to": "GameData",
+            "filter": [ ".git", ".gitattributes" ]
+        }
+    ]
 }
