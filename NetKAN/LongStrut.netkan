@@ -1,7 +1,16 @@
 {
-    "license": "UNRESTRICTED",
+    "license": "unrestricted",
     "identifier": "LongStrut",
     "$kref": "#/ckan/spacedock/1544",
     "spec_version": "v1.4",
-    "x_via": "Automated SpaceDock CKAN submission"
+    "x_via": "Automated SpaceDock CKAN submission",
+    "depends": [
+        { "name": "ModuleManager" }
+    ],
+    "install": [
+        {
+            "find": "XyphosAerospace",
+            "install_to": "GameData"
+        }
+    ]
 }
