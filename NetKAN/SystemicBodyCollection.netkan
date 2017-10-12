@@ -3,5 +3,15 @@
     "license": "MIT",
     "$kref": "#/ckan/spacedock/1530",
     "x_via": "Automated SpaceDock CKAN submission",
-    "identifier": "SystemicBodyCollection"
+    "identifier": "SystemicBodyCollection",
+    "depends": [
+        { "name": "ModuleManager" },
+        { "name": "Kopernicus" }
+    ],
+    "install": [
+        {
+            "file": "DeltaDizzy",
+            "install_to": "GameData"
+        }
+    ]
 }
