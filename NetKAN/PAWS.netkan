@@ -1,0 +1,12 @@
+{
+    "spec_version" : 1,
+    "identifier"   : "PAWS",
+    "$kref"        : "#/ckan/github/severedsolo/PAWS",
+    "license"      : "MIT",
+    "$vref"        : "#/ckan/ksp-avc",
+    "name"         : "PAWS",
+    "abstract"     : "Allows you to remove entries from the Part Action Window",
+    "resources"    : {
+        "homepage" : "https://github.com/severedsolo/PAWS"
+    }
+}
