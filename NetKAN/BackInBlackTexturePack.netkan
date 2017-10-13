@@ -9,6 +9,11 @@
       "find": "BackInBlack"
     }
   ],
+  "depends": [
+    {
+      "name": "BackInBlack"
+    }
+  ],
   "$kref": "#/ckan/spacedock/1498",
   "x_via": "Automated Linuxgurugamer CKAN script",
   "identifier": "BackInBlackTexturePack",
