@@ -18,14 +18,14 @@
     ],
     "depends" : [
         { "name"        : "CommunityResourcePack", "min_version" : "0.7.1" },
-        { "name"        : "InterstellarFuelSwitch-Core", "min_version" : "2.6.1" },
+        { "name"        : "CommunityTechTree", "min_version" : "1:3.2.0" }
+        { "name"        : "InterstellarFuelSwitch-Core", "min_version" : "2.9.5" },
         { "name"        : "TweakScale", "min_version" : "2.3.3"},
-        { "name"        : "ModuleManager", "min_version" : "2.8.0" },
-        { "name"        : "CommunityTechTree", "min_version" : "1:3.1.0" },
-        { "name"        : "UniversalStorage", "min_version" : "1.2.2" }
+        { "name"        : "ModuleManager", "min_version" : "2.8.1" },
     ],
     "recommends": [
-        { "name"        : "InterstellarFuelSwitch", "min_version" : "2.6.1"},
+        { "name"        : "UniversalStorage", "min_version" : "1.2.2" },
+        { "name"        : "InterstellarFuelSwitch", "min_version" : "2.9.5"},
         { "name"        : "FilterExtensions", "min_version" : "3.0.0"},
         { "name"        : "HideEmptyTechNodes", "min_version" : "0.8.0" },
         { "name"        : "KerbalJointReinforcement" },
