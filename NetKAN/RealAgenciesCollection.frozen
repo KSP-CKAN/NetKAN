@@ -1,0 +1,16 @@
+{
+    "spec_version": "v1.4",
+    "license": "GPL-3.0",
+    "$kref": "#/ckan/spacedock/1532",
+    "x_via": "Automated SpaceDock CKAN submission",
+    "identifier": "RealAgenciesCollection",
+    "recommends": [
+        { "name": "RealismOverhaul" }
+    ],
+    "install": [
+        {
+            "file": "RealAgenciesCollection",
+            "install_to": "GameData"
+        }
+    ]
+}
