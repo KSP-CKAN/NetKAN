@@ -1,0 +1,20 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "SASS-SE",
+    "ksp_version": "any",
+    "author": "Borisbee",
+    "license": "GPL-3.0",
+    "download": "https://spacedock.info/content/BorisBee_1293/Sentar_Expansion/Sentar_Expansion-1.0.zip"
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/117355-SE/"
+    },
+    "depends": [
+        { "name": "StockalikeSolarSystem" }
+    ],
+    "install": [
+        {
+            "find"       : "SentarExpansion",
+            "install_to" : "GameData"
+        }
+    ]
+}
