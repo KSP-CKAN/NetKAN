@@ -1,0 +1,20 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "SASS-UL",
+    "ksp_version": "any",
+    "author": "KillAshley",
+    "license": "CC-BY-NC-SA-4.0",
+    "download": "https://github.com/KillAshley/UL/releases/download/v0.5.3/UL.zip"
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/120111-ul/"
+    },
+    "depends": [
+        { "name": "StockalikeSolarSystem" }
+    ],
+    "install": [
+        {
+            "find": "UnchartedLands",
+            "install_to": "GameData"
+        }
+    ]
+}
