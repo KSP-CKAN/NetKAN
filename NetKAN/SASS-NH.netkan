@@ -1,0 +1,20 @@
+{
+    "spec_version"  : "v1.4",
+    "identifier"    : "SASS-NH",
+    "ksp_version": "any",
+    "author"        : "KillAshley",
+    "license"       : "CC-BY-NC-SA-4.0",
+    "download": "https://github.com/KillAshley/New_Horizons/releases/download/2.0.1/New_Horizons.zip"
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/102776-NH/"
+    },
+    "depends": [
+        { "name": "StockalikeSolarSystem" }
+    ],
+    "install": [
+        {
+            "find": "New_Horizons",
+            "install_to": "GameData"
+        }
+    ]
+}
