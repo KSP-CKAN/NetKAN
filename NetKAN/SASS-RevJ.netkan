@@ -1,6 +1,9 @@
 {
     "spec_version": "v1.4",
     "identifier": "SASS-RevJ",
+    "name": "SASS-RevJ",
+    "abstract": "RevoltingJoolRecolor for SASS.",
+	"version": "1",
     "ksp_version": "any",
     "author": "GregroxMun",
     "license": "MIT",

@@ -1,6 +1,9 @@
 {
     "spec_version": "v1.4",
     "identifier": "SASS-RevSS",
+    "name": "SASS-RevSS",
+    "abstract": "RevSS for SASS.",
+	"version": "0.6",
     "ksp_version": "any",
     "author": "GregroxMun",
     "license": "unknown",

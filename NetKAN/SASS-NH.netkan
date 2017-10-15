@@ -1,6 +1,9 @@
 {
     "spec_version": "v1.4",
     "identifier": "SASS-NH",
+    "name": "SASS-NH",
+    "abstract": "NH for SASS.",
+	"version": "2.0.1",
     "ksp_version": "any",
     "author": "KillAshley",
     "license": "CC-BY-NC-SA-4.0",

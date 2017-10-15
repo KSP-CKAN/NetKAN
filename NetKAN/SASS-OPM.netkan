@@ -1,6 +1,9 @@
 {
     "spec_version": "v1.4",
     "identifier": "SASS-OPM",
+    "name": "SASS-OPM",
+    "abstract": "OPM for SASS.",
+    "version": "1.2.3",
     "ksp_version": "any",
     "author": "Galileo88",
     "license": "CC-BY-NC-SA-4.0",

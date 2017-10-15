@@ -1,6 +1,9 @@
 {
     "spec_version": "v1.4",
     "identifier": "SASS-ER",
+    "name": "SASS-ER",
+    "abstract": "EveRecolor for SASS.",
+	"version": "1.2.4",
     "ksp_version": "any",
     "author": "Sigma88",
     "license": "restricted",
