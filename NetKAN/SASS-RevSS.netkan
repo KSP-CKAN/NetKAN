@@ -1,0 +1,20 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "SASS-RevSS",
+    "ksp_version": "any",
+    "author": "GregroxMun",
+    "license": "unknown",
+    "download": "https://github.com/GregroxMun/Revamped-Stock-Solar-System/releases/download/0.6/RevampedStockSystemv0.6.zip"
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/134360-rsss/"
+    },
+    "depends": [
+        { "name": "StockalikeSolarSystem" }
+    ],
+    "install": [
+        {
+            "find": "RevampedStockSystem",
+            "install_to": "GameData"
+        }
+    ]
+}
