@@ -8,14 +8,12 @@
     "license"      : "restricted",
     "author"       : "Sigma88",
     "resources": {
-        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/131405-wip/"
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/131405-SASS/"
     },
     "depends": [
         { "name": "ModuleManager" },
         { "name": "Kopernicus" },
         { "name": "SigmaDimensions" },
-        { "name": "SigmaSciDefRenamer" },
-        { "name": "Kronometer" },
         { "name": "TextureReplacer" },
         { "name": "HumanColoredFaces" },
         { "name": "DunaRestorationProject" },
@@ -30,7 +28,9 @@
         { "name": "UnchartedLands" }
     ],
     "recommends": [
-        { "name": "SigmaBinary-core" }
+        { "name": "SigmaBinary-core" },
+        { "name": "SigmaSciDefRenamer" },
+        { "name": "Kronometer" }
     ],
     "install": [
         {
