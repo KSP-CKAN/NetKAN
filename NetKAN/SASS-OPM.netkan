@@ -18,6 +18,10 @@
         {
 			"find": "OPM",
 			"install_to": "GameData"
+        },
+        {
+			"find": "CTTP",
+			"install_to": "GameData"
         }
     ]
 }
