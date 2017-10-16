@@ -7,7 +7,7 @@
         {
             "find" : "InterstellarFuelSwitch",
             "install_to" : "GameData",
-            "filter" : [ "Plugins", "Resources" ]
+            "filter" : [ "Plugins", "Resources", "Localization" ]
         }
     ],
     "depends" : [

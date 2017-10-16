@@ -5,14 +5,14 @@
     "$vref"        : "#/ckan/ksp-avc",
     "name"         : "Sigma: Jool Recolor",
     "abstract"     : "This mod changes the color of Jool to make it more similar to Jupiter.",
-    "license"      : "CC-BY-NC-SA-4.0",
+    "license"      : "restricted",
     "author"       : "Sigma88",
     "resources": {
-        "homepage": "http://forum.kerbalspaceprogram.com/threads/112095"
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/101015-mod/"
     },
     "depends": [
         { "name": "ModuleManager" },
-        { "name": "Kopernicus", "min_version": "1:beta-05-2" }
+        { "name": "Kopernicus" }
     ],
     "conflicts": [
         { "name": "BilliardsPlanetPack" },
