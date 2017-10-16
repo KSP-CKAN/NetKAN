@@ -76,6 +76,21 @@
         },
         {
             "name": "OPM-Galileo"
+        },
+		{
+            "name": "Rescale-25"
+        },
+		{
+            "name": "Rescale-32"
+        },
+		{
+            "name": "Rescale-64"
+        },
+		{
+            "name": "Rescale-10"
+        },
+		{
+            "name": "Rescale-10625"
         }
     ],
     "conflicts": [
