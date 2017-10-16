@@ -1,0 +1,39 @@
+{
+    "spec_version": "v1.4",
+    "install": [
+        {
+            "file": "GameData/RESCALE",
+            "install_to": "GameData"
+        }
+    ],
+    "depends": [
+        {
+            "name": "SigmaDimensions"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "Rescale_2.5"
+        },
+        {
+            "name": "Rescale_3.2"
+        },
+        {
+            "name": "Rescale_6.4"
+        },
+        {
+            "name": "Rescale_10"
+        }
+    ],
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/163965-131-rescale-comprehensive-sd-configs-1027-10-oct-2017/"
+    },
+    "version": "1.0.2.7",
+    "ksp_version": "1.3.1",
+    "author": "Galileo88",
+    "download": "https://github.com/Galileo88/Rescale/releases/download/1.0.2.7/RESCALE_10.625.zip",
+    "name": "Rescale x10.625",
+    "identifier": "Rescale_10.625",
+    "abstract": "This is the most comprehensive set of Sigma Dimensions configs available for KSP. Works for stock and all planet packs.",
+    "license": "public-domain"
+}
