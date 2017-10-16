@@ -13,7 +13,8 @@
         "EnvironmentalVisualEnhancements-Config"
      ],
     "conflicts": [
-        { "name" : "EnvironmentalVisualEnhancements-Config" }
+        { "name" : "EnvironmentalVisualEnhancements-Config" },
+		{ "name" : "GPP" }
     ],
     "depends": [
         { "name": "SVE-Textures" },
