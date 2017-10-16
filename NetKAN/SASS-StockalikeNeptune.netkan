@@ -1,23 +1,6 @@
 {
-    "spec_version": "v1.4",
-    "identifier": "SASS-StockalikeNeptune",
-    "name": "Stockalike Solar System - Stockalike Neptune",
-    "abstract": "A stock-a-like look of Neptune for use in SASS.",
-    "author": "GregroxMun",
-    "license": "restricted",
-    "resources": {
-        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/142085-kopernicus-11x-gregroxmuns-jool-textures/"
-    },
-    "version": "1",
-    "ksp_version": "any",
-    "depends": [
-        { "name": "StockalikeSolarSystem" }
-    ],
-    "install": [
-        {
-            "file": "GregroxNeptune",
-            "install_to": "GameData"
-        }
-    ],
-    "download": "https://www.dropbox.com/s/ujqpl307jf5w82a/GregroxNeptune.zip?dl=1"
+	"spec_version": "v1.4",
+	"identifier": "SASS-StockalikeNeptune",
+	"$kref": "#/ckan/netkan/https://raw.githubusercontent.com/Sigma88/CKAN/master/Stockalike/SASS-StockalikeNeptune.netkan",
+	"x_netkan_license_ok": true
 }
