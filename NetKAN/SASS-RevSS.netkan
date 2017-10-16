@@ -1,23 +1,6 @@
 {
-    "spec_version": "v1.4",
-    "identifier": "SASS-RevSS",
-    "name": "SASS-RevSS",
-    "abstract": "RevSS for SASS.",
-	"version": "0.6",
-    "ksp_version": "any",
-    "author": "GregroxMun",
-    "license": "unknown",
-    "download": "https://github.com/GregroxMun/Revamped-Stock-Solar-System/releases/download/0.6/RevampedStockSystemv0.6.zip",
-    "resources": {
-        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/134360-rsss/"
-    },
-    "depends": [
-        { "name": "StockalikeSolarSystem" }
-    ],
-    "install": [
-        {
-            "find": "RevampedStockSystem",
-            "install_to": "GameData"
-        }
-    ]
+	"spec_version": "v1.4",
+	"identifier": "SASS-RevSS",
+	"$kref": "#/ckan/netkan/https://raw.githubusercontent.com/Sigma88/CKAN/master/Stockalike/SASS-RevSS.netkan",
+	"x_netkan_license_ok": true
 }

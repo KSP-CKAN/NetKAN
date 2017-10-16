@@ -1,23 +1,6 @@
 {
-    "spec_version": "v1.4",
-    "identifier": "SASS-SE",
-    "name": "SASS-SE",
-    "abstract": "SentarExpansion for SASS.",
-	"version": "1.0",
-    "ksp_version": "any",
-    "author": "Borisbee",
-    "license": "GPL-3.0",
-    "download": "https://spacedock.info/content/BorisBee_1293/Sentar_Expansion/Sentar_Expansion-1.0.zip",
-    "resources": {
-        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/117355-SE/"
-    },
-    "depends": [
-        { "name": "StockalikeSolarSystem" }
-    ],
-    "install": [
-        {
-            "find"       : "SentarExpansion",
-            "install_to" : "GameData"
-        }
-    ]
+	"spec_version": "v1.4",
+	"identifier": "SASS-SE",
+	"$kref": "#/ckan/netkan/https://raw.githubusercontent.com/Sigma88/CKAN/master/Stockalike/SASS-SE.netkan",
+	"x_netkan_license_ok": true
 }

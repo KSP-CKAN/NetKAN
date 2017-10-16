@@ -1,24 +1,6 @@
 {
-    "spec_version": "v1.4",
-    "identifier": "SASS-Saru",
-    "name": "SASS-Saru",
-    "abstract": "Saru for SASS.",
-	"version": "0.1",
-    "ksp_version": "any",
-    "author": "tygoo7",
-    "license": "CC-BY-NC-SA-4.0",
-    "download": "https://spacedock.info/content/tygoo7_912/Saru_Planet_Pack/Saru_Planet_Pack-0.1.zip",
-    "resources": {
-        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/119263-Saru/"
-    },
-    "depends": [
-        { "name": "StockalikeSolarSystem" }
-    ],
-    "install": [
-        {
-            "find"       : "SaruPack",
-            "install_to" : "GameData",
-            "filter"     : "Thumbs.db"
-        }
-    ]
+	"spec_version": "v1.4",
+	"identifier": "SASS-Saru",
+	"$kref": "#/ckan/netkan/https://raw.githubusercontent.com/Sigma88/CKAN/master/Stockalike/SASS-Saru.netkan",
+	"x_netkan_license_ok": true
 }
