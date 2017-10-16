@@ -20,7 +20,7 @@
     "conflicts"      : [ { "name" : "RCSBuildAid" } ],
     "install": [
         {
-            "file": "RCSBuildAid",
+            "find": "RCSBuildAid",
             "install_to": "GameData",
             "filter": "Sources"
         }
