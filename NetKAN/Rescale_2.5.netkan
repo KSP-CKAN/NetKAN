@@ -11,20 +11,6 @@
             "name": "SigmaDimensions"
         }
     ],
-    "conflicts": [
-        {
-            "name": "Rescale_3.2"
-        },
-        {
-            "name": "Rescale_6.4"
-        },
-        {
-            "name": "Rescale_10"
-        },
-        {
-            "name": "Rescale_10.625"
-        }
-    ],
     "resources": {
         "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/163965-131-rescale-comprehensive-sd-configs-1027-10-oct-2017/"
     },
