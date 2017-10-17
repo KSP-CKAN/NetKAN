@@ -9,12 +9,21 @@
 	"author"          : [ "masTerTorch", "Micha" ],
 	"license"         : "CC-BY-NC-SA-3.0",
 	"resources": {
-		"homepage"       : "http://forum.kerbalspaceprogram.com/index.php?showtopic=166619"
+		"homepage"    : "http://forum.kerbalspaceprogram.com/index.php?showtopic=166619"
 	},
 	"install": [
 		{
 			"file"       : "GameData/masTerTorch",
 			"install_to" : "GameData"
+		}
+	],
+	"x_netkan_override": [
+		{
+			"version": "v1.04",
+			"override": {
+				"ksp_version_min": "0.25",
+				"ksp_version_max": "1.0.99"
+			}
 		}
 	]
 }
