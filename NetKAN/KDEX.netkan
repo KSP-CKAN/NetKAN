@@ -1,0 +1,20 @@
+{
+	"spec_version"    : "v1.4",
+	"identifier"      : "KDEX",
+	"$kref"           : "#/ckan/github/mwerle/kdex",
+	"$vref"           : "#/ckan/ksp-avc",
+	"name"            : "Kerbal Dust Experiment",
+	"abstract"        : "The Kerbal Dust Experiment by masTerTorch is a replica of LADEEs LDEX instrument.",
+	"description"     : "Inspired by the NASA mission LADEE. The objective of LADEE was to investigate the mysteries of the lunar atmosphere and the question of levitated lunar dust. It carried a scientific instrument called the Lunar Dust Experiment (LDEX). This instrument was an impact ionization dust detector. In this way it was possible to measure the density of dust particles.",
+	"author"          : [ "masTerTorch", "Micha" ],
+	"license"         : "CC-BY-NC-SA-3.0",
+	"resources": {
+		"homepage"       : "http://forum.kerbalspaceprogram.com/index.php?showtopic=166619"
+	},
+	"install": [
+		{
+			"file"       : "GameData/masTerTorch",
+			"install_to" : "GameData"
+		}
+	]
+}
