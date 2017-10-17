@@ -2,7 +2,7 @@
 	"spec_version": "v1.4",
 	"install"	  : [
 	{
-		"file": "FASA",
+		"file": "GameData/FASA",
 		"install_to": "GameData"
 	}
 	],

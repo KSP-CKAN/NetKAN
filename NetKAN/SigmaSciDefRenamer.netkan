@@ -1,0 +1,22 @@
+{
+    "spec_version" : "v1.4",
+    "identifier"   : "SigmaSciDefRenamer",
+    "$kref"        : "#/ckan/github/Sigma88/Sigma-SciDefRenamer",
+    "$vref"        : "#/ckan/ksp-avc",
+    "name"         : "Science Def Renamer",
+    "abstract"     : "This mod will let you change the name of the target planet in the science definitions.",
+    "license"      : "restricted",
+    "author"       : "Sigma88",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/160151-wip/"
+    },
+    "depends": [
+        { "name": "ModuleManager" }
+    ],
+    "install": [
+        {
+            "find": "SciDefRenamer",
+            "install_to": "GameData/Sigma"
+        }
+    ]
+}

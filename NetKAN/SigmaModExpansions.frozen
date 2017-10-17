@@ -7,6 +7,9 @@
     "abstract"     : "A set of 3 antennas designed to probe deep into outer space.",
     "license"      : "CC-BY-NC-SA-4.0",
     "author"       : "Sigma88",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/101015-mod/"
+    },
     "depends": [
         { "name": "ModuleManager" },
         { "name": "RemoteTech" }
@@ -14,25 +17,11 @@
     "suggests": [
         { "name": "OuterPlanetsMod" }
     ],
-    "resources": {
-        "homepage": "http://forum.kerbalspaceprogram.com/threads/112095"
-    },
     "install": [
         {
             "find": "OuterSpaceComms",
             "install_to": "GameData/Sigma"
         }
     ],
-    "x_netkan_epoch": "1",
-    "comment": "This mod used to be packaged differently but is now repackaged to allow an upgrade path.",
-    "x_netkan_override": [
-        {
-            "version": "1:v1.1.0",
-            "delete": [ "ksp_version" ],
-            "override": {
-                "ksp_version_min" : "1.0.4",
-                "ksp_version_max" : "1.0.5"
-            }
-        }
-    ]
+    "x_netkan_epoch": "1"
 }

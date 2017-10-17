@@ -23,6 +23,12 @@
             "override": {
                 "ksp_version" : "1.2"
             }
+        },
+        {
+            "version": "2:v0.0320b",
+            "override": {
+                "ksp_version" : "1.3"
+            }
         }
     ]
 }

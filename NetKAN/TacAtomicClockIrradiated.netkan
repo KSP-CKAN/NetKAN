@@ -6,11 +6,6 @@
       "find": "TacAtomicClock"
     }
   ],
-  "depends": [
-    {
-      "name": "TACLS"
-    }
-  ],
   "$vref": "#/ckan/ksp-avc",
   "$kref": "#/ckan/spacedock/1483",
   "x_via": "Automated Linuxgurugamer CKAN script",

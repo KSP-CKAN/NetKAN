@@ -5,11 +5,10 @@
     "abstract": "Stock reflective windows and solar panels + mod support!",
     "author": "Avera9eJoe",
     "license": "CC-BY-NC-4.0",
+    "$kref": "#/ckan/spacedock/1504",
     "resources": {
         "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/110080-105"
     },
-    "version": "v12",
-    "ksp_version": "1.1.3",
     "depends": [
         {
             "name": "TextureReplacer"
@@ -20,9 +19,8 @@
     ],
     "install": [
         {
-            "file": "GameData/TextureReplacer",
+            "file": "GameData/WindowShine",
             "install_to": "GameData"
         }
-    ],
-    "download": "https://www.dropbox.com/s/pyvsphdgi86uz6k/WindowShineTR-v12.zip?dl=1"
+    ]
 }
