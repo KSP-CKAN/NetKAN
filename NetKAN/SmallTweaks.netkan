@@ -1,10 +1,10 @@
 {
     "spec_version" : "v1.4",
-	"name"         : "Ballast Water Tanks",
-	"identifier"   : "WaterTanks",
-	"abstract"     : "Add parts with in-flight mass changing. Designed for submarines, act good as payload weight",
+	"name"         : "SmallTweaks",
+	"identifier"   : "SmallTweaks",
+	"abstract"     : "Small pack with all my ModuleManager tweaks for KSP and mods. Full list on my homepage.",
 	"author"       : "Jenyaza01",
-    "$kref"        : "#/ckan/github/jenyaza01/BallastWaterTanks",
+    "$kref"        : "#/ckan/github/jenyaza01/SmallTweaks",
 	"$vref"        : "#/ckan/ksp-avc",
     "license"      : "MIT",
 	"install": [
