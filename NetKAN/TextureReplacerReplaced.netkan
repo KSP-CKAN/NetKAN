@@ -4,7 +4,7 @@
 	"$kref": "#/ckan/github/HaArLiNsH/TextureReplacerReplaced",
 	"identifier": "TextureReplacerReplaced",
 	"release_status": "testing",
-	"ksp_version": "1.3.0",
+	"$vref": "#/ckan/ksp-avc",
 	"author": ["shaw", "RangeMachine", "HaArLiNsH"],
 	"abstract": "Kerbal personalisation, IVA suits on Kerbin and texture replacement and improvements.",
 	"resources": {
@@ -12,6 +12,7 @@
 		"repository": "https://github.com/HaArLiNsH/TextureReplacerReplaced"
 	},
 	"provides": ["TextureReplacer"],
+	"conflicts": [ { "name": "TextureReplacer" } ],
 	"license": "MIT",
 	"comment": "Plugin is MIT, but some parts CC-BY-NC-SA, and we always specify most restrictive in metadata."
 }
