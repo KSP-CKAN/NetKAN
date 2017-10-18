@@ -24,13 +24,13 @@
         { "name"        : "ModuleManager", "min_version" : "2.8.1" }
     ],
     "recommends": [
+        { "name"        : "PatchManager", "min_version" : "0.0.10" },
         { "name"        : "UniversalStorage", "min_version" : "1.2.2" },
         { "name"        : "InterstellarFuelSwitch", "min_version" : "2.9.5"},
         { "name"        : "FilterExtensions", "min_version" : "3.0.0"},
         { "name"        : "HideEmptyTechNodes", "min_version" : "0.8.0" },
         { "name"        : "KerbalJointReinforcement" },
         { "name"        : "UniversalStorage" },
-        { "name"        : "PersistentRotation" },
-        { "name"        : "PatchManager", "min_version" : "0.0.10" }
+        { "name"        : "PersistentRotation" }
     ]
 }
