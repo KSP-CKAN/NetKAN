@@ -1,0 +1,13 @@
+{
+  "spec_version": "v1.4",
+  "name": "TextureReplacerReplaced",
+  "identifier": "TextureReplacerReplaced",
+  "$kref": "#/ckan/github/HaArLiNsH/TextureReplacerReplaced",
+  "identifier": "TextureReplaceReplaced",
+  "ksp_version": "1.3.0",
+  "resources": {
+        "homepage"     : "https://forum.kerbalspaceprogram.com/index.php?/topic/161898",
+        "repository"   : "https://github.com/HaArLiNsH/TextureReplacerReplaced"
+    },
+    "provides": [ "TextureReplacer" ]
+}
