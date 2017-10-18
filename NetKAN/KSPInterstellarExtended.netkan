@@ -31,6 +31,6 @@
         { "name"        : "KerbalJointReinforcement" },
         { "name"        : "UniversalStorage" },
         { "name"        : "PersistentRotation" },
-        { "name"        : "PatchManager" }
+        { "name"        : "PatchManager", "min_version" : "0.0.10" }
     ]
 }
