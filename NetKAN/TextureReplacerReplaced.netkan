@@ -11,5 +11,7 @@
 		"homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/161898",
 		"repository": "https://github.com/HaArLiNsH/TextureReplacerReplaced"
 	},
-	"provides": ["TextureReplacer"]
+	"provides": ["TextureReplacer"],
+	"license": "MIT",
+	"comment": "Plugin is MIT, but some parts CC-BY-NC-SA, and we always specify most restrictive in metadata."
 }
