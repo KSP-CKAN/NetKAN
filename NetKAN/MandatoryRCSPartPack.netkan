@@ -1,9 +1,10 @@
 {
     "spec_version" : "v1.20",
+    "name"         : "MandatoryRCS Part Pack",
     "identifier"   : "MandatoryRCSPartPack",
     "$kref"        : "#/ckan/github/gotmachine/MandatoryRCS-Part-Pack",
     "license"      : "Unlicense",
-	  "abstract"     : "Small part pack to provide more RCS thrusters in a stockalike fashion",
+    "abstract"     : "Small part pack to provide more RCS thrusters in a stockalike fashion",
     "$vref"        : "#/ckan/ksp-avc",
     "resources"    : 
     {
