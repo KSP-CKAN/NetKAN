@@ -17,7 +17,7 @@
             "install_to" : "GameData"
         }
     ],
-    "depends": [
+    "recommends": [
         { "name": "EnvironmentalVisualEnhancements-Config" }
     ],
     "conflicts": [
