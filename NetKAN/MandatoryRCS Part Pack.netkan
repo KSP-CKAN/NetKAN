@@ -1,0 +1,12 @@
+{
+    "spec_version" : "v1.20",
+    "identifier"   : "MandatoryRCS Part Pack",
+    "$kref"        : "#/ckan/github/gotmachine/MandatoryRCS-Part-Pack",
+    "license"      : "Unlicense",
+	  "abstract"     : "Small part pack to provide more RCS thrusters in a stockalike fashion",
+    "$vref"        : "#/ckan/ksp-avc",
+    "resources"    : 
+    {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/154658-131-mandatoryrcs-14-part-pack-10-reaction-wheels-nerf-sas-rotation-persistence/"
+    },
+}
