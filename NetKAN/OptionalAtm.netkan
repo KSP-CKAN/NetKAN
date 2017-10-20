@@ -1,7 +1,7 @@
 {
     "spec_version"   : "v1.4",
     "identifier"     : "OptionalAtm",
-    "$kref"          : "#/ckan/curse/271783",
+    "$kref"          : "#/ckan/spacedock/1525",
     "$vref"          : "#/ckan/ksp-avc",
     "abstract"       : "Adds atmospheres to those planets and moons which don't have atmospheres of the kerbol system",
     "license"        : "MIT",
@@ -12,14 +12,16 @@
     },
     "install" : [
         {
-            "find"       : "SamBelanger",
-            "install_to" : "GameData"
+            "find"       : "OptionalAtmospheres",
+            "install_to" : "GameData/SamBelanger"
         }
     ],
     "depends" : [
         { "name" : "Kopernicus", "min_version" : "2:release-1.3.0-4" },
         { "name" : "ModuleManager", "min_version" : "2.8.0" },
-        { "name" : "ModularFlightIntegrator", "min_version" : "1.2.4.0" }
+        { "name" : "ModularFlightIntegrator", "min_version" : "1.2.4.0" },
+        { "name" : "CommunityResourcePack" },
+        { "name" : "SamBelangerFlags" }
     ],
     "recommends" : [
         { "name" : "BetterTimeWarpContinued" },
@@ -30,6 +32,23 @@
             "version": "1.4.9",
             "override": {
                 "ksp_version_min" : "1.3.0"
+            }
+        },
+        {
+            "version": "1.4.9.1",
+            "override": {
+                "depends" : [
+                    { "name" : "Kopernicus", "min_version" : "2:release-1.3.0-4" },
+                    { "name" : "ModuleManager", "min_version" : "2.8.0" },
+                    { "name" : "ModularFlightIntegrator", "min_version" : "1.2.4.0" }
+                ],
+                "install" : [
+                    {
+                        "find"       : "SamBelanger",
+                        "install_to" : "GameData"
+                    }
+                ],
+                "provides" : [ "SamBelangerFlags" ]
             }
         }
     ]
