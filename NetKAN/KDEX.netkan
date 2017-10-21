@@ -13,7 +13,7 @@
 	},
 	"install": [
 		{
-			"file"       : "GameData/masTerTorch",
+			"find"       : "GameData/masTerTorch",
 			"install_to" : "GameData"
 		}
 	],
