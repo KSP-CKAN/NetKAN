@@ -9,6 +9,9 @@
 	"resources": {
 		"homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/159443-130131"
 	},
+	"provides": [
+		"PlanetShine-Config"
+	],
 	"depends": [{
 			"name": "KSPRC-Textures"
 		},
