@@ -13,6 +13,18 @@
   "conflicts": [
      { "name": "ProbeControlRoom" }
   ],
+  "recommends"  : [
+  {
+          "name"    : "Toolbar"
+  }],
+  "suggests"    : [
+          { "name"  : "SCANSat"},
+          { "name"  : "VesselViewer"},
+          { "name"  : "MechJeb2"},
+          { "name"  : "DockingPortAlignment"},
+          { "name"  : "kOS"},
+          { "name"  : "KPS-AVC"}
+  ],
   "$vref": "#/ckan/ksp-avc",
   "$kref": "#/ckan/spacedock/1558",
   "x_via": "Automated Linuxgurugamer CKAN script",
