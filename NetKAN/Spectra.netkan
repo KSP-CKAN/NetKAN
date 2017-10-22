@@ -12,6 +12,9 @@
 	"provides": [
 		"PlanetShine-Config"
 	],
+	"conflicts": [{
+		"name": "PlanetShine-Config"
+	}],
 	"depends": [{
 			"name": "KSPRC-Textures"
 		},
