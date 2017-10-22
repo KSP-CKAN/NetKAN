@@ -32,18 +32,18 @@
 		}
 	],
 	"install": [{
-			"find": "Step 2 - Spectra/GameData/TextureReplacerReplaced",
+			"file": "Step 2 - Spectra/GameData/TextureReplacerReplaced",
 			"install_to": "GameData"
 		}, {
-			"find": "Step 2 - Spectra/GameData/Spectra",
+			"file": "Step 2 - Spectra/GameData/Spectra",
 			"install_to": "GameData"
 		},
 		{
-			"find": "Step 4 - Extras/PlanetShine/Config",
+			"file": "Step 4 - Extras/PlanetShine/Config",
 			"install_to": "GameData/PlanetShine"
 		},
 		{
-			"find": "Step 4 - Extras/PlanetShine/Icons",
+			"file": "Step 4 - Extras/PlanetShine/Icons",
 			"install_to": "GameData/PlanetShine"
 		}
 	],
