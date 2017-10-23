@@ -3,5 +3,8 @@
     "identifier": "OrbitalColony",
     "license": "CC-BY-NC-4.0",
     "$kref": "#/ckan/spacedock/1559",
-    "x_via": "Automated SpaceDock CKAN submission"
+    "$vref": "#/ckan/ksp-avc",
+    "depends": [
+        { "name": "ModuleManager" }
+    ]
 }
