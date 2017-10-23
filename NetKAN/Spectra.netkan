@@ -57,13 +57,13 @@
 			"name": "WindowShine"
 		}
 	],
-	"filter": ["Step 2 - Spectra/GameData/TextureReplacerReplaced/Default/logoFullRed_alt.dds"],
 	"x_netkan_override": [{
 		"version": "v1.1.3",
 		"delete": ["ksp_version"],
 		"override": {
 			"ksp_version_min": "1.3",
-			"ksp_version_max": "1.3.99"
+			"ksp_version_max": "1.3.99",
+			"filter": ["Step 2 - Spectra/GameData/TextureReplacerReplaced/Default/logoFullRed_alt.dds"]
 		}
 	}]
 }
