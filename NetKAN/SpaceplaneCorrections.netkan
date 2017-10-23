@@ -5,13 +5,15 @@
 	"$kref": "#/ckan/spacedock/1194",
 	"license": "MIT",
 	"depends": [{
-		"name": "ModuleManager"
-	}],
-	"provides": [
-		"FirespitterCore"
+			"name": "ModuleManager"
+		},
+		{
+			"name": "FirespitterCore"
+		}
 	],
-	"conflicts": [{
-		"name": "FirespitterCore"
+	"install": [{
+		"file": "GameData/SPC",
+		"install_to": "GameData"
 	}],
 	"x_netkan_override": [{
 		"version": "v0.19",
