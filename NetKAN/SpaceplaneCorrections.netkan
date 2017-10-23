@@ -1,7 +1,7 @@
 {
 	"spec_version": 1,
 	"name": "Spaceplane Corrections",
-	"identifier": "SPC",
+	"identifier": "SpaceplaneCorrections",
 	"$kref": "#/ckan/spacedock/1194",
 	"license": "MIT",
 	"depends": [{
