@@ -1,8 +1,9 @@
 {
-  "license": "MIT",
-  "identifier": "ThroughTheEyesOfaKerbal",
-  "x_via": "Automated Linuxgurugamer CKAN script",
-  "$kref": "#/ckan/github/Virindi-AC/Through-The-Eyes",
+  "license"	: "GPLv3",
+  "identifier"	: "ThroughTheEyesOfaKerbal",
+  "x_via"	: "Automated Linuxgurugamer CKAN script",
+  "$kref"	: "#/ckan/github/linuxgurugamer/Through-The-Eyes",
+  "$vref"	: "#/ckan/ksp-avc",
   "install": [
     {
       "find": "ThroughTheEyes",
