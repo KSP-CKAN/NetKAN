@@ -33,7 +33,8 @@
 	],
 	"install": [{
 			"file": "Step 2 - Spectra/GameData/TextureReplacerReplaced",
-			"install_to": "GameData"
+			"install_to": "GameData",
+			"filter": "logoFullRed_alt.dds"
 		}, {
 			"file": "Step 2 - Spectra/GameData/Spectra",
 			"install_to": "GameData"
@@ -62,8 +63,7 @@
 		"delete": ["ksp_version"],
 		"override": {
 			"ksp_version_min": "1.3",
-			"ksp_version_max": "1.3.99",
-			"filter": ["Step 2 - Spectra/GameData/TextureReplacerReplaced/Default/logoFullRed_alt.dds"]
+			"ksp_version_max": "1.3.99"
 		}
 	}]
 }
