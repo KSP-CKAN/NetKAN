@@ -10,9 +10,6 @@
     "resources": {
         "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/161218-krono/"
     },
-    "depends": [
-        { "name": "Kopernicus" }
-    ],
     "install": [
         {
             "find": "Kronometer",
