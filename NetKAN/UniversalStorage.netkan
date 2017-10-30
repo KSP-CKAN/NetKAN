@@ -23,5 +23,13 @@
     "install" : [ {
         "find"       : "UniversalStorage",
         "install_to" : "GameData"
-    } ]
+    } ],
+    "x_netkan_override": [
+        {
+            "version": [ ">=1.2.1.0", "<=1.2.2.0" ],
+            "override": {
+                "ksp_version_max": "1.2.2"
+            }
+        }
+    ]
 }

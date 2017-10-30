@@ -1,0 +1,28 @@
+{
+    "spec_version" : "v1.18",
+    "name"         : "1869 A Steampunk Mod",
+    "identifier"   : "1869",
+    "$kref"        : "#/ckan/curse/248613",
+    "license"      : "Unlicense",
+    "abstract"     : "1869 is a steampunk mod for Kerbal Space Program.\n\nStill in beta, 1869 contains over 60 parts, all based around a steampunk theme.",
+    "resources"    : {
+        "homepage" : "https://kerbal.curseforge.com/projects/a-steampunk-mod?gameCategorySlug=ksp-mods&projectID=248613"
+    },
+    "install"      : [
+      {
+        "file"     : "1869 GameData/GameData/1869",
+        "install_to" : "GameData"
+      },
+      {
+        "file"     : "1869 GameData/GameData/MPUtils",
+        "install_to" : "GameData"
+      }
+    ],
+    "depends"      : [
+      { "name"     : "ModuleManager" },
+      { "name"     : "FirespitterCore" }
+    ],
+    "suggests"     : [
+      { "name"     : "TheMaritimePack" }
+    ]
+}

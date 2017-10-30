@@ -1,0 +1,13 @@
+{
+    "x_via": "Automated SpaceDock CKAN submission",
+    "$kref": "#/ckan/spacedock/1390",
+    "license": "GPL-2.0",
+    "spec_version": "v1.10",
+    "identifier": "PolishTranslation",
+    "install": [
+        {
+            "find_regexp": "KSP Localization PL.*",
+            "install_to": "GameData"
+        }
+    ]
+}

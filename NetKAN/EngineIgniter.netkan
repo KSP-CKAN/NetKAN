@@ -1,16 +1,16 @@
 {
-    "spec_version" : 1,
-    "identifier"   : "EngineIgniter",
-    "$kref"        : "#/ckan/github/jamesharling/EngineIgniter",
-    "name"         : "Engine ignition limits for liquid fuel engines.",
-    "author"       : [ "nadseh" ],
-    "abstract"     : "This mod limits the number of times an engine may restart. Configuration is provided for stock/Squad engines and may be extended through the use of ModuleManager patches.",
-    "license"      : "CC-BY-4.0",
-    "ksp_version"  : "1.1.3",
-    "resources": {
-        "homepage": "https://github.com/jamesharling/EngineIgniter"
-    },
-	"depends": [
-        { "name": "ModuleManager" }
-    ]
+  "spec_version": 1,
+  "identifier": "EngineIgniter",
+  "$kref": "#/ckan/github/jamesharling/EngineIgniter",
+  "name": "Engine Igniter",
+  "author": [ "nadseh" ],
+  "abstract": "This mod limits the number of times an engine may restart. Configuration is provided for stock/Squad engines and a few popular mods' engines, and may be extended through the use of ModuleManager patches.",
+  "license": "CC-BY-4.0",
+  "ksp_version": "1.2.2",
+  "resources": {
+    "homepage": "https://github.com/jamesharling/EngineIgniter"
+  },
+  "depends": [
+    { "name": "ModuleManager" }
+  ]
 }

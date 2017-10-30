@@ -1,0 +1,20 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "NehemiahScienceCommon",
+    "$kref": "#/ckan/github/mwerle/OrbitalMaterialScience/asset_match/NehemiahIncSciencePack.*.zip",
+    "$vref": "#/ckan/ksp-avc",
+    "name": "Nehemiah Science Common",
+    "abstract": "Shared files used by all N3h3miah's mods.",
+    "author": [ "N3h3miah", "Micha" ],
+    "license": "GPL-3.0",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?showtopic=149298"
+    },
+    "install": [
+        {
+            "file": "NehemiahInc/NE_Science_Common",
+            "install_to": "GameData/NehemiahInc"
+        }
+    ],
+    "x_netkan_epoch": "1"
+}

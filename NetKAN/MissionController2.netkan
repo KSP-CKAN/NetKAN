@@ -19,9 +19,9 @@
     ],
     "x_netkan_override": [
         {
-            "version": "1.4.3",
+            "version": [ ">=v.1.4.1.0", "<=v.1.4.2.0" ],
             "override": {
-                "conflicts": [ { "name": "KEI" } ]
+                "ksp_version_max": "1.2.2"
             }
         }
     ]

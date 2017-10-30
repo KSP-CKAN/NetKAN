@@ -5,9 +5,9 @@
     "license": "GPL-3.0",
     "install": [
         {
-            "file": "SpeedUnitChanger",
+            "find": "SpeedUnitChanger",
             "install_to": "GameData",
-            "filter": "Source"
+            "filter": "Sources"
         }
     ]
 }

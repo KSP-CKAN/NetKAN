@@ -12,6 +12,7 @@
         "homepage" : "http://snjo.github.io/",
         "repository"  : "https://github.com/snjo/Firespitter"
     },
+    "provides": [ "DeadskinsTextureSwitch" ],
     "install"  : [
         {
             "find"       : "Firespitter/Plugins",

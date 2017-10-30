@@ -8,5 +8,9 @@
             "find": "GameData/RaginCaucasian",
             "install_to": "GameData"
         }
+    ],
+    "suggests": [
+        { "name": "ModuleManager" },
+        { "name": "PatchManager" }
     ]
 }

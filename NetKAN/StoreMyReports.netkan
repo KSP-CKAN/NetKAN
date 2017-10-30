@@ -1,0 +1,13 @@
+{
+    "spec_version" : "v1.20",
+    "identifier" : "StoreMyReports",
+    "$kref" : "#/ckan/curse/273255",
+    "$vref" : "#/ckan/ksp-avc",
+    "abstract"     : "Fix the inability for Kerbals to find glove-boxes within their vessel or pockets on their EVA suits.",
+    "resources" : {
+        "homepage" : "http://forum.kerbalspaceprogram.com/index.php?/topic/163826-13-store-my-reports",
+        "bugtracker" : "https://github.com/CYBUTEK/StoreMyReports/issues",
+        "repository" : "https://github.com/CYBUTEK/StoreMyReports"
+    },
+    "x_netkan_license_ok" : true
+}

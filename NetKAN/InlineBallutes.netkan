@@ -1,0 +1,20 @@
+{
+    "spec_version" : 1,
+    "identifier"   : "InlineBallutes",
+    "$kref"        : "#/ckan/github/riocrokite/InlineBallutes",
+    "license"      : "CC-BY-NC-SA-4.0",
+    "$vref"        : "#/ckan/ksp-avc",
+    "suggests"     : [
+           { "name": "FerramAerospaceResearch" },
+           { "name": "EntropyRealChute" },
+           { "name": "ModuleManager" }
+    ],
+    "install": [
+           { "file": "KermangeddonIndustries",
+             "install_to" : "GameData"
+           }
+    ],
+    "resources"    : {
+         "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/121162-12-inline-ballutes-ib-v127-25102016/"
+    }
+}

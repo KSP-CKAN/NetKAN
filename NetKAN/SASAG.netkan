@@ -1,0 +1,13 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "SASAG",
+    "license": "public-domain",
+    "$kref": "#/ckan/spacedock/1380",
+    "ksp_version": "1.2.2",
+    "install": [
+        {
+            "find": "XyphosAerospace",
+            "install_to": "GameData"
+        }
+    ]
+}

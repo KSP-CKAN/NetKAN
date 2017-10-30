@@ -1,0 +1,30 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "NehemiahInc-Complete",
+    "$kref": "#/ckan/github/mwerle/OrbitalMaterialScience/asset_match/NehemiahIncSciencePack.*.zip",
+    "$vref": "#/ckan/ksp-avc/NehemiahInc/OMS/NE-OMS.version",
+    "name": "Nehemiah Inc - Complete Pack",
+    "abstract": "All of N3h3miah's mods in one downloadable pack.",
+    "author": [ "N3h3miah", "Micha" ],
+    "license": "GPL-3.0",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?showtopic=149298"
+    },
+    "depends": [
+        { "name": "ModuleManager" },
+        { "name": "KIS" }
+    ],
+    "recommends": [
+        { "name": "ConnectedLivingSpace" },
+        { "name": "Corvus125mTwoKerbalPod" },
+        { "name": "DockingPortAlignmentIndicator" },
+        { "name": "K2CommandPodCont" },
+        { "name": "UniversalStorage" }
+    ],
+    "install": [
+        {
+            "file": "NehemiahInc",
+            "install_to": "GameData"
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "license": "restricted",
+    "identifier": "NearFutureLaunchVehicles",
+    "$kref": "#/ckan/spacedock/1434",
+    "$vref": "#/ckan/ksp-avc/GameData/NearFutureLaunchVehicles/Versioning/NearFutureLaunchVehicles.version",
+    "spec_version": "v1.4",
+    "depends" : [ 
+        { "name" : "ModuleManager" },
+        { "name" : "B9PartSwitch" }
+                ],
+    "recommends" : [ 
+        {"name" : "CommunityTechTree" } ],
+    "suggests" : [ 
+        {"name" : "CryoEngines" },
+        {"name" : "KerbalAtomics" }
+                ],
+    "install" : [ 
+        { "find" : "NearFutureLaunchVehicles", 
+          "install_to" : "GameData" } 
+                ]
+}

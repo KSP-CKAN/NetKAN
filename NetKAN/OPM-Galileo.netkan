@@ -1,0 +1,53 @@
+{
+    "spec_version": "v1.4",
+    "install": [
+        {
+            "find": "OPM",
+            "install_to": "GameData"
+        }
+    ],
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/165854-ksp-13-opm_galileo-121-17-sept-2017/"
+    },
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "Kopernicus"
+        },
+        {
+            "name": "CommunityTerrainTexturePack"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "CustomBarnKit"
+        }
+    ],
+    "supports": [
+        {
+            "name": "DistantObjectEnhancement"
+        },
+        {
+            "name": "FinalFrontier"
+        },
+        {
+            "name": "RemoteTech"
+        },
+        {
+            "name": "SCANsat"
+        },
+        {
+            "name": "CommunityResourcePack"
+        },
+        {
+            "name": "TextureReplacer"
+        }
+    ],
+    "$vref": "#/ckan/ksp-avc",
+    "$kref": "#/ckan/github/Galileo88/OPM_Galileo",
+    "identifier": "OPM-Galileo",
+    "abstract": "Outer Planets Mod. Maintained by Galileo",
+    "license": "CC-BY-NC-SA-4.0"
+}

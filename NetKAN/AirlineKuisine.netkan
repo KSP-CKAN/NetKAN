@@ -1,0 +1,25 @@
+{
+  "spec_version": "v1.4",
+  "install": [
+    {
+      "filter_regexp": [
+        ".*\\.pdb$"
+      ],
+      "install_to": "GameData",
+      "find": "DeepSky"
+    }
+  ],
+  "depends": [
+    {
+      "name": "ModuleManager"
+    },
+    {
+      "name": "FirespitterCore"
+    }
+  ],
+  "$vref": "#/ckan/ksp-avc",
+  "$kref": "#/ckan/spacedock/1252",
+  "x_via": "Automated Linuxgurugamer CKAN script",
+  "identifier": "AirlineKuisine",
+  "license": "CC-BY-NC-SA-4.0"
+}

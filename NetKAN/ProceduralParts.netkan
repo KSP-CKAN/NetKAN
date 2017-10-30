@@ -1,7 +1,7 @@
 {
     "spec_version"      :   "v1.4",
     "identifier"        :   "ProceduralParts",
-    "$kref"             :   "#/ckan/github/Swamp-Ig/ProceduralParts",
+    "$kref"             :   "#/ckan/github/Starwaster/ProceduralParts",
     "$vref"             :   "#/ckan/ksp-avc",
     "name"              :   "Procedural Parts",
     "abstract"          :   "ProceduralParts allows you to procedurally generate a number of different parts in a range of sizes and shapes.",
@@ -14,7 +14,7 @@
         }
     ],
     "resources" : {
-        "homepage"     : "https://github.com/Swamp-Ig/ProceduralParts"
+        "homepage"     : "https://github.com/Starwaster/ProceduralParts"
     },
     "depends" : [
         { "name" : "ModuleManager" }
@@ -25,17 +25,11 @@
     ],
     "x_netkan_override": [
         {
-            "version": "v1.1.4",
-            "override": {
-                "ksp_version": "1.0.4"
-            }
-        },
-        {
-            "version": "v1.1.7",
+            "version": "v1.2.10",
             "delete" : [ "ksp_version" ],
             "override": {
-                    "ksp_version_min" : "1.0.4",
-                "ksp_version_max" : "1.0.5"
+                "ksp_version_min" : "1.2.0",
+                "ksp_version_max" : "1.2.8"
             }
         }
     ]

@@ -1,0 +1,27 @@
+{
+    "spec_version" : "v1.4",
+    "identifier"   : "SigmaBinary-core",
+    "$kref"        : "#/ckan/github/Sigma88/Sigma-Binary/asset_match/Sigma-Binary.*?\\.zip",
+    "$vref"        : "#/ckan/ksp-avc",
+    "name"         : "Sigma Binary",
+    "abstract"     : "This mod will let you turn custom and/or stock bodies into binary systems, without the need to do all the calculations yourself.",
+    "license"      : "restricted",
+    "author"       : "Sigma88",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/115114-sb/"
+    },
+    "depends": [
+        { "name": "ModuleManager" },
+        { "name": "Kopernicus" }
+    ],
+    "suggests": [
+        { "name": "SigmaBinary-DunaIke" }
+    ],
+    "install": [
+        {
+            "find": "Binary",
+            "install_to": "GameData/Sigma"
+        }
+    ],
+    "x_netkan_epoch": "1"
+}

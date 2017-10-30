@@ -1,0 +1,33 @@
+{
+    "spec_version": "v1.4",
+    "install": [
+        {
+            "find": "Optional Mods/GPP_Clouds/Low-res Clouds_GameData inside/GameData/GPP",
+            "install_to": "GameData",
+            "comment": "This installs the low resolution clouds configs for GPP"
+        }
+    ],
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/152136-ksp-13-galileos-planet-pack-v151-8-sept-2017/"
+    },
+    "depends": [
+        {
+            "name": "EnvironmentalVisualEnhancements"
+        }
+    ],
+    "provides": [
+        "EnvironmentalVisualEnhancements-Config"
+    ],
+    "conflicts": [
+        {
+            "name": "GPPCloudsHighRes"
+        }
+    ],
+    "version": "1.5.3",
+    "ksp_version": "1.3.1",
+    "$kref": "#/ckan/github/Galileo88/Galileos-Planet-Pack",
+    "identifier": "GPPCloudsLowRes",
+    "name": "GPP LowRes clouds",
+    "abstract": "Low resolution clouds for GPP",
+    "license": "CC-BY-NC-ND"
+}

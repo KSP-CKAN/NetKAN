@@ -1,0 +1,21 @@
+{
+  "spec_version": "v1.10",
+  "install": [
+    {
+      "install_to": "GameData",
+      "find": "ReSS"
+    }
+  ],
+  "depends": [
+    {
+      "name": "ModuleManager"
+    },
+    {
+      "name": "Kopernicus"
+    }
+  ],
+  "$kref": "#/ckan/spacedock/1176",
+  "x_via": "Automated Linuxgurugamer CKAN script",
+  "identifier": "ReworkedStockSystem",
+  "license": "CC-BY-NC-SA-4.0"
+}

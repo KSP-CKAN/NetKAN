@@ -1,18 +1,8 @@
 {
 	"spec_version": 1,
 	"identifier": "Targetron",
-	"$kref": "#/ckan/github/jinks/targetron",
-	"ksp_version": "1.1",
-	"name": "Targetron",
+	"$kref": "#/ckan/spacedock/1103",
 	"abstract": "Target or command vessel from a list of active flights!",
 	"license": "GPL-3.0",
-	"resources": {
-		"homepage": "http://forum.kerbalspaceprogram.com/threads/117371"
-	},
-	"x_netkan_override": [{
-		"version": "<1.4.4",
-		"override": {
-			"ksp_version": "1.0"
-		}
-	}]
+	"x_netkan_force_v": true
 }

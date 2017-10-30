@@ -1,0 +1,14 @@
+{
+    "license": "MIT",
+    "identifier": "MoonReorganizer",
+    "$kref": "#/ckan/spacedock/1533",
+    "spec_version": "v1.4",
+    "x_via": "Automated SpaceDock CKAN submission",
+    "depends": [
+        { "name": "ModuleManager" },
+        { "name": "Kopernicus" }
+    ],
+    "recommends": [
+        { "name": "SigmaBinary-core" }
+    ]
+}

@@ -1,0 +1,25 @@
+{
+    "name"         : "New TantaresLV",
+    "author"       : "Beale",
+    "spec_version" : "v1.4",
+    "identifier"   : "NewTantaresLV",
+    "$kref"        : "#/ckan/github/Tantares/TantaresLV",
+    "license"      : "CC-BY-NC-SA-4.0",
+    "ksp_version"  : "1.2.2",
+    "abstract"     : "Stockalike N1, Soyuz and more!",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/73686-Tantares"
+    },
+    "recommends": [
+        { "name": "NewTantares" }
+    ],
+    "conflicts": [
+        { "name": "TantaresLV" }
+    ],
+    "install": [
+        {
+            "find"       : "TantaresLV",
+            "install_to" : "GameData"
+        }
+    ]
+}

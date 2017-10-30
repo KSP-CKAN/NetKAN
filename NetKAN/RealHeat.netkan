@@ -1,5 +1,5 @@
 {
-    "spec_version" : 1,
+    "spec_version" : "v1.4",
     "identifier"   : "RealHeat",
     "$kref"        : "#/ckan/github/KSP-RO/RealHeat",
     "name"         : "RealHeat",
@@ -9,13 +9,13 @@
         "homepage"   : "http://forum.kerbalspaceprogram.com/threads/127769",
         "repository" : "https://github.com/KSP-RO/RealHeat"
     },
-    "ksp_version"  : "1.1",
+    "ksp_version"  : "1.2.2",
      "depends"        : [
         { "name": "ModularFlightIntegrator" }
     ],
     "install"        : [
         {
-            "file": "RealHeat",
+            "find": "RealHeat",
             "install_to": "GameData"
         }
     ],

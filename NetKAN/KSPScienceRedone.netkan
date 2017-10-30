@@ -1,0 +1,14 @@
+{
+    "spec_version" : 1,
+    "identifier"   : "KSPScienceRedone",
+    "$kref"        : "#/ckan/github/ValynEritai/ksp-science-redone",
+    "$vref"        : "#/ckan/ksp-avc",
+    "license"      : "GPL-3.0",
+    "depends": [
+        { "name": "ModuleManager" }
+    ],
+    "recommends": [
+        { "name": "SETI-BalanceMod" },
+        { "name": "SETI-RebalanceMaterialsGoo" }
+    ]
+}

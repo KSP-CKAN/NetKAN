@@ -1,0 +1,23 @@
+{
+    "$kref": "#/ckan/spacedock/1522",
+    "x_via": "Automated SpaceDock CKAN submission",
+    "license": "CC-BY-SA-4.0",
+    "identifier": "ChineseSpacecraftPack",
+    "spec_version": "v1.4",
+    "depends": [
+        { "name": "RasterPropMonitor" },
+        { "name": "KIS" },
+        { "name": "RealChute" },
+        { "name": "ComfortableLanding" }
+    ],
+    "install": [
+        {
+            "find": "ICSP",
+            "install_to": "GameData"
+        },
+        {
+            "find": "Ships/VAB",
+            "install_to": "Ships"
+        }
+    ]
+}

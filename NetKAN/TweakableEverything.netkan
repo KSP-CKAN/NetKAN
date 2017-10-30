@@ -9,6 +9,9 @@
             "install_to": "GameData"
         }
     ],
+    "conflicts": [
+    	{ "name" : "TweakScale" }
+    ],
     "depends": [
         { "name": "ModuleManager" },
         { "name": "ToadicusTools" },

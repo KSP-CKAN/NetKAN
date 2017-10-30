@@ -1,0 +1,21 @@
+{
+    "$kref": "#/ckan/spacedock/1456",
+    "x_via": "Automated SpaceDock CKAN submission",
+    "license": "CC-BY-NC-SA-4.0",
+    "identifier": "RockomaxSLSPartTextures",
+    "spec_version": "v1.4",
+    "depends": [
+        { "name": "ModuleManager" },
+        { "name": "FirespitterCore" }
+    ],
+    "install": [
+        {
+            "find": "Kerbobulus Space Program",
+            "install_to": "GameData"
+        },
+        {
+            "find": "nothke-2015_SLS_CDR_textures",
+            "install_to": "GameData"
+        }
+    ]
+}

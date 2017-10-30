@@ -1,0 +1,12 @@
+{
+    "spec_version" : 1,
+    "identifier"   : "KesslerSyndrome",
+    "$kref"        : "#/ckan/github/severedsolo/KesslerSyndrome",
+    "license"      : "MIT",
+    "$vref"        : "#/ckan/ksp-avc",
+    "name"         : "Kessler Syndrome",
+    "abstract"     : "Destroys parts of your craft randomly if you leave debris in orbit",
+    "resources"    : {
+        "homepage" : "https://github.com/severedsolo/KesslerSyndrome"
+    }
+}

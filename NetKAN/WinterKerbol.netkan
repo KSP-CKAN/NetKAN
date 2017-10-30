@@ -1,0 +1,27 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "WinterKerbol",
+    "$kref": "#/ckan/spacedock/1110",
+    "license": "restricted",
+    "depends": [
+        { "name": "ModuleManager" },
+        { "name": "Kopernicus" },
+        { "name": "TextureReplacer" }
+    ],
+    "conflicts": [
+        { "name": "BilliardsPlanetPack" },
+        { "name": "RealSolarSystem" },
+        { "name": "SigmaJoolRecolor" },
+        { "name": "ToySolarSystem" }
+    ],
+    "install": [
+        {
+            "find"       : "WinterKerbol",
+            "install_to" : "GameData"
+        },
+        {
+            "find"       : "TextureReplacer",
+            "install_to" : "GameData"
+        }
+    ]
+}

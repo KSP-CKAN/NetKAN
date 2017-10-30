@@ -1,0 +1,14 @@
+{
+  "spec_version": "v1.4",
+  "install": [
+    {
+      "install_to": "GameData",
+      "find": "ManeuverQueue"
+    }
+  ],
+  "$vref": "#/ckan/ksp-avc",
+  "$kref": "#/ckan/spacedock/1541",
+  "x_via": "Automated Linuxgurugamer CKAN script",
+  "identifier": "ManeuverQueue",
+  "license": "GPL-3.0"
+}

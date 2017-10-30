@@ -8,8 +8,7 @@
     "depends": [
         { "name": "CommunityTerrainTexturePack" },
         { "name": "ModuleManager" },
-        { "name": "Kopernicus", "min_version": "2:release-1.2.1-1" },
-        { "name": "CustomBarnKit" }
+        { "name": "Kopernicus", "min_version": "2:release-1.2.1-1" }
     ],
     "provides": [ "CustomAsteroids-Pops" ],
     "recommends": [
@@ -17,7 +16,8 @@
         { "name": "SigmaOPMRecolor" },
         { "name": "SigmaOPMExpansion" },
         { "name": "CustomAsteroids" },
-        { "name": "SigmaBinary-core", "min_version": "1:v1.3.2" }
+        { "name": "SigmaBinary-core", "min_version": "1:v1.3.2" },
+        { "name": "CustomBarnKit" }
     ],
     "conflicts": [
         { "name": "BilliardsPlanetPack" },
@@ -52,6 +52,14 @@
         {
             "find": "OPM",
             "install_to" : "GameData"
+        }
+    ],
+    "x_netkan_override": [
+        {
+            "version": "1:2.1",
+            "override": {
+                "ksp_version_max" : "1.2.2"
+            }
         }
     ]
 }

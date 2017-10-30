@@ -1,0 +1,24 @@
+{
+  "spec_version": "v1.4",
+  "install": [
+    {
+      "install_to": "GameData",
+      "find": "HGR"
+    },
+    {
+      "install_to": "GameData",
+      "find": "Corvus"
+    }
+  ],
+  "depends": [
+    {
+      "name": "ModuleManager"
+    }
+  ],
+  "$vref": "#/ckan/ksp-avc",
+  "$kref": "#/ckan/spacedock/1405",
+  "x_via": "Automated Linuxgurugamer CKAN script",
+  "identifier": "Corvus125mTwoKerbalPod",
+  "author": [ "OrionKermin", "Micha" ],
+  "license": "CC-BY-SA"
+}

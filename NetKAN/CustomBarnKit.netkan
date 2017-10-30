@@ -11,6 +11,8 @@
         "homepage": "http://forum.kerbalspaceprogram.com/threads/121100",
         "repository": "https://github.com/sarbian/CustomBarnKit"
     },
+    "ksp_version_min": "1.2.2",
+    "ksp_version_max": "1.3.90",
     "install": [
         {
             "find": "CustomBarnKit",

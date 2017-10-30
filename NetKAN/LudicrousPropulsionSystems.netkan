@@ -1,0 +1,24 @@
+{
+    "spec_version"       : "v1.4",
+    "$kref"              : "#/ckan/github/BenjaminCronin/Ludicrous-Propulsion-Systems",
+    "x_netkan_github": {
+        "use_source_archive": true
+    },
+    "$vref"              : "#/ckan/ksp-avc/LPS.version",
+    "identifier"         : "LudicrousPropulsionSystems",
+    "name"               : "Ludicrous Propulsion Systems",
+    "abstract"           : "Adds new hybrid boosters, giant tanks lengths, and radial-size adapting engines to reduce part counts.",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/159040-*"
+    },
+    "license"            : "MIT",
+    "depends": [
+        { "name": "ModuleManager"}
+    ],
+    "install": [
+        {
+            "find"       : "GameData/LudicrousPropulsionSystems",
+            "install_to" : "GameData"
+        }
+    ]
+}

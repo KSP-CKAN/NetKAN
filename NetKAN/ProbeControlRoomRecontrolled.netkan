@@ -1,0 +1,33 @@
+{
+  "spec_version": "v1.4",
+  "install": [
+    {
+      "install_to": "GameData",
+      "find": "ProbeControlRoom"
+    }
+  ],
+  "depends": [
+    { "name": "ModuleManager" },
+    { "name": "RasterPropMonitor-Core" }
+  ],
+  "conflicts": [
+     { "name": "ProbeControlRoom" }
+  ],
+  "recommends"  : [
+  {
+          "name"    : "Toolbar"
+  }],
+  "suggests"    : [
+          { "name"  : "SCANSat"},
+          { "name"  : "VesselViewer"},
+          { "name"  : "MechJeb2"},
+          { "name"  : "DockingPortAlignment"},
+          { "name"  : "kOS"},
+          { "name"  : "KPS-AVC"}
+  ],
+  "$vref": "#/ckan/ksp-avc",
+  "$kref": "#/ckan/spacedock/1558",
+  "x_via": "Automated Linuxgurugamer CKAN script",
+  "identifier": "ProbeControlRoomRecontrolled",
+  "license": "CC-BY-NC-SA-3.0"
+}

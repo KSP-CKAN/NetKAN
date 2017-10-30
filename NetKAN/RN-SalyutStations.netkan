@@ -10,17 +10,18 @@
     },
     "$kref"         : "#/ckan/github/KSP-RO/SalyutStations",
     "license"       : "CC-BY-NC-ND-3.0",
-    "ksp_version_min"   : "1.2.0",
-    "ksp_version_max"   : "1.2.2",
+    "$vref"        : "#/ckan/ksp-avc",
+	"x_netkan_epoch"   : 1,
     "install"       : [
-    {
-        "find"      : "RN_Salyut",
-        "install_to": "GameData"
-    },
-    {
-        "file"      : "Ships/VAB",
-        "install_to": "Ships"
-    }],
+        {
+            "find"      : "RN_Salyut",
+            "install_to": "GameData"
+        },
+        {
+            "file"      : "Ships/VAB",
+            "install_to": "Ships"
+        }
+    ],
     "conflicts"     : [
         { "name"    : "RN-SalyutStations-SoyuzFerries" }
     ],

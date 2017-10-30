@@ -1,0 +1,25 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "DCKDavincisCombatKit",
+    "license": "GPL-3.0",
+    "$kref": "#/ckan/spacedock/1524",
+    "x_via": "Automated SpaceDock CKAN submission",
+    "depends": [
+        { "name": "ModuleManager" },
+        { "name": "BDArmoryContinued" },
+        { "name": "TweakScale" }
+    ],
+    "recommends": [
+        { "name": "FerramAerospaceResearch" },
+        { "name": "BDynamicsMk22Cockpits" },
+        { "name": "Mk2Expansion" },
+        { "name": "QuizTechAeroPackContinued" }
+    ],
+    "install": [
+        {
+            "find": "DCK",
+            "install_to": "GameData",
+            "filter": ".git"
+        }
+    ]
+}

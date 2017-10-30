@@ -1,0 +1,21 @@
+{
+    "spec_version"   : "v1.4",
+    "identifier"     : "FreedomTex",
+    "$kref"          : "#/ckan/github/PhineasFreak/FreedomTextures",
+    "author"         : [ "Freedom", "PhineasFreak" ],
+    "license"        : "MIT",
+    "ksp_version_min": "1.2",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/85342-jebediahkerman42s-procedural-part-textures"
+    },
+    "install": [
+        {
+            "find": "FreedomTex",
+            "install_to": "GameData"
+        }
+    ],
+    "depends": [
+        { "name": "ProceduralParts" }
+    ],
+    "x_netkan_epoch": 1
+}

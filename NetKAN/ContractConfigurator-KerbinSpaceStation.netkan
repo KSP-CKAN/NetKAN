@@ -1,12 +1,12 @@
 {
     "spec_version" : "v1.4",
     "identifier"   : "ContractConfigurator-KerbinSpaceStation",
-    "$kref"        : "#/ckan/github/severedsolo/KerbinSpaceStation",
+    "$kref"        : "#/ckan/github/LemonSkin/KerbinSpaceStation",
     "name"         : "Contract Pack: Bases and Stations",
     "abstract"     : "A contract pack to replace the default Squad build a Space Station missions",
-    "license"      : "CC-BY-SA-3.0",
+    "license"      : "MIT",
     "$vref"        : "#/ckan/ksp-avc",
-    "x_netkan_epoch": "1",
+    "x_netkan_epoch": "2",
     "depends" : [
         {
             "name" : "ContractConfigurator",
@@ -26,7 +26,7 @@
         }
     ],
     "resources" : {
-        "homepage" : "http://forum.kerbalspaceprogram.com/threads/113642"
+        "homepage" : "http://forum.kerbalspaceprogram.com/index.php?/topic/162133-13-contract-pack-bases-and-stations-continued/"
     },
     "x_netkan_override" : [
         {
@@ -37,3 +37,6 @@
         }
     ]
 }
+
+
+ 

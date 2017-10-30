@@ -1,0 +1,17 @@
+{
+  "spec_version": "v1.4",
+  "install": [
+    {
+      "install_to": "GameData",
+      "find": "Kerbalomni"
+    }
+  ],
+  "depends": [
+    { "name": "ModuleManager" },
+    { "name": "RemoteTech" }
+  ],
+  "$kref": "#/ckan/spacedock/1218",
+  "x_via": "Automated Linuxgurugamer CKAN script",
+  "identifier": "10kmOmniEVA4RT",
+  "license": "MIT"
+}

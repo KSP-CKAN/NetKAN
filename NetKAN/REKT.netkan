@@ -2,18 +2,18 @@
   "spec_version": "v1.10",
   "depends": [
     { "name": "ModuleManager" },
-    { "name": "RetractableLiftingSurface" }
+    { "name": "RetractableLiftingSurface" },
+    { "name": "KSPWheel" }
   ],
   "install": [
     {
       "install_to": "GameData",
-      "find_regexp": "REKT-",
+      "find": "SHED",
       "filter": "RetractableLiftingSurface"
     }
   ],
-  "$vref": "#/ckan/ksp-avc/rekt.version",
+  "$vref": "#/ckan/ksp-avc",
   "$kref": "#/ckan/spacedock/1021",
-  "x_via": "Automated Linuxgurugamer CKAN script",
   "identifier": "REKT",
   "license": "CC-BY-NC-SA-4.0"
 }

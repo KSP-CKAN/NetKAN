@@ -3,7 +3,7 @@
     "spec_version"  : "v1.4",
     "identifier"    : "Asclepius",
     "$kref"         : "#/ckan/github/MrChumley/Asclepius",
-    "x_netkan_epoch": "1",
+    "x_netkan_epoch": "2",
     "name"          : "Asclepius",
     "abstract"      : "Asclepius a Kopernicus planet SSTO playground",
     "license"       : "CC0",
@@ -13,14 +13,13 @@
     "resources": {
         "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/113949-105-asclepius-a-kopernicus-planet-ssto-playground/"
     },
-    "ksp_version": "1.0.5",
+    "ksp_version": "1.3",
     "depends": [
-        { "name" : "ModuleManager", "min_version": "2.6.13" },
-        { "name" : "Kopernicus", "min_version": "1:beta-05-2" }
+        { "name" : "ModuleManager", "min_version": "2.8.0" },
+        { "name" : "Kopernicus", "min_version": "2:release-1.3.0-5" }
     ],
     "recommends": [
-        { "name": "Asclepius-clouds" },
-        { "name": "ContractConfigurator-Asclepius"}
+        { "name": "ContractConfigurator-FarOutContracts"}
     ],
     "install": [
         {

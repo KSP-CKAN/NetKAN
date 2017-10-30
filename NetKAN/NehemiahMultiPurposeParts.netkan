@@ -1,0 +1,25 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "NehemiahMultiPurposeParts",
+    "$kref": "#/ckan/github/mwerle/OrbitalMaterialScience/asset_match/NehemiahIncSciencePack.*.zip",
+    "$vref": "#/ckan/ksp-avc",
+    "name": "Nehemiah Multipurpose Parts",
+    "abstract": "Shared station parts used by N3h3miah's KLS and OMS mod.",
+    "author": [ "N3h3miah", "Micha" ],
+    "license": "GPL-3.0",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?showtopic=149298"
+    },
+    "recommends": [
+        { "name": "ConnectedLivingSpace" },
+        { "name": "DockingPortAlignmentIndicator" },
+        { "name": "UniversalStorage" }
+    ],
+    "install": [
+        {
+            "file": "NehemiahInc/MultiPurposeParts",
+            "install_to": "GameData/NehemiahInc"
+        }
+    ],
+    "x_netkan_epoch": "1"
+}

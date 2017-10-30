@@ -1,17 +1,17 @@
 {
     "spec_version"   : "v1.4",
-    "$kref"          : "#/ckan/http/https://www.blizzy.de/precise-node/PreciseNode-1.2.4.zip",
+    "$kref"          : "#/ckan/github/linuxgurugamer/ksp-precisenode",
     "$vref"          : "#/ckan/ksp-avc",
     "name"           : "Precise Node",
     "identifier"     : "PreciseNode",
     "abstract"       : "Provides a more precise widget for maneuver node editing",
-    "author"         : "blizzy78",
+    "author"         : "blizzy78,linuxgurugamer",
     "license"        : "BSD-2-clause",
     "release_status" : "stable",
     "resources" : {
-        "homepage" : "http://forum.kerbalspaceprogram.com/index.php?/topic/44129--",
+        "homepage" : "http://forum.kerbalspaceprogram.com/index.php?/topic/161855-13-precise-node-continued-precisely-edit-your-maneuver-nodes/",
         "github"   : {
-            "url"      : "https://github.com/blizzy78/ksp-precisenode",
+            "url"      : "https://github.com/linuxgurugamer/ksp-precisenode",
             "releases" : true
         }
     },
