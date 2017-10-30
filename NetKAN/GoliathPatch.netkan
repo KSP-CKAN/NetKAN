@@ -3,5 +3,14 @@
     "identifier": "GoliathPatch",
     "license": "public-domain",
     "$kref": "#/ckan/spacedock/1573",
-    "x_via": "Automated SpaceDock CKAN submission"
+    "x_via": "Automated SpaceDock CKAN submission",
+    "depends": [
+        { "name": "ModuleManager" }
+    ],
+    "install": [
+        {
+            "find":"XyphosAerospace",
+            "install_to": "GameData"
+        }
+    ]
 }
