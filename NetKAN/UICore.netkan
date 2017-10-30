@@ -1,0 +1,14 @@
+{
+    "$kref": "#/ckan/spacedock/1572",
+    "$vref": "#/ckan/ksp-avc",
+    "x_via": "Automated SpaceDock CKAN submission",
+    "license": "GPL-3.0",
+    "identifier": "UICore",
+    "spec_version": "v1.4",
+    "install": [
+        {
+            "find":"000_UICore",
+            "install_to": "GameData"
+        }
+    ]
+}
