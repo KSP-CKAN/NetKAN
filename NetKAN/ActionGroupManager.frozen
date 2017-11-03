@@ -1,13 +1,12 @@
 {
-    "spec_version": 1,
-    "license": "WTFPL",
-    "$kref": "#/ckan/kerbalstuff/983",
+    "spec_version": "v1.4",
+    "license": "MIT",
+    "$kref": "#/ckan/spacedock/1412",
     "identifier": "ActionGroupManager",
     "install": [
         {
-            "file"       : "ActionGroupManager",
-            "install_to" : "GameData",
-            "filter"     : "src"
+            "find":"AquilaEnterprises",
+            "install_to":"GameData"
         }
     ]
 }
