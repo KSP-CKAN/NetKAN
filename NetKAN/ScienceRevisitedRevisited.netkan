@@ -9,7 +9,7 @@
     ],
     "install": [
         {
-            "file": "GameData/Science_Revisited",
+            "find": "GameData/Science_Revisited",
             "install_to": "GameData"
         }
     ]
