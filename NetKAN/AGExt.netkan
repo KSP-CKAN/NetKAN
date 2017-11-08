@@ -4,7 +4,7 @@
     "$vref"        : "#/ckan/ksp-avc",
     "name" : "Action Groups Extended",
     "identifier" : "AGExt",
-    "author" : "Diazo,linuxgurugamer",
+    "author" : ["Diazo", "linuxgurugamer"],
     "abstract" : "Increases the number of action groups to 250 and allows in-flight editing.",
     "license" : "GPL-3.0",
     "release_status" : "stable",
