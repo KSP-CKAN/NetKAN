@@ -6,8 +6,8 @@
     "$kref": "#/ckan/spacedock/1578",
     "install": [
         {
-            "find":       "/KWS",
-            "install_to": "GameData"
+            "find_regexp": "KWS$",
+            "install_to":  "GameData"
         }
     ]
 }
