@@ -3,5 +3,11 @@
     "identifier": "SpacedocksRedeployed",
     "license": "CC-BY-NC-SA-4.0",
     "$kref": "#/ckan/spacedock/1585",
-    "x_via": "Automated SpaceDock CKAN submission"
+    "x_via": "Automated SpaceDock CKAN submission",
+    "install": [
+        {
+            "find":       "SpaceDock",
+            "install_to": "GameData"
+        }
+    ]
 }
