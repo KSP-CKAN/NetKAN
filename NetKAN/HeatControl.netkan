@@ -4,7 +4,7 @@
     "$kref"          : "#/ckan/spacedock/537",
     "$vref"          : "#/ckan/ksp-avc",
     "release_status" : "stable",
-    "license"        : "CC-BY-NC-SA-4.0",
+    "license"        : "restricted",
     "depends" : [
         { "name" : "ModuleManager" }
     ],
