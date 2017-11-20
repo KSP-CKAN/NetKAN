@@ -4,8 +4,14 @@
     "identifier": "JamesWebbForKerbal",
     "spec_version": "v1.4",
     "$kref": "#/ckan/spacedock/1588",
+    "depends": [{
+        "name": "TarsierSpaceTechnologyWithGalaxies"
+    }],
     "install": [{
         "find": "GameData/JamesWebb",
+        "install_to": "GameData"
+    }, {
+        "find": "GameData/000_TexturesUnlimited",
         "install_to": "GameData"
     }]
 }
