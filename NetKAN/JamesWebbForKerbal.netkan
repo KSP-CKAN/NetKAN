@@ -3,5 +3,9 @@
     "x_via": "Automated SpaceDock CKAN submission",
     "identifier": "JamesWebbForKerbal",
     "spec_version": "v1.4",
-    "$kref": "#/ckan/spacedock/1588"
+    "$kref": "#/ckan/spacedock/1588",
+    "install": [{
+        "find": "GameData/JamesWebb",
+        "install_to": "GameData"
+    }]
 }
