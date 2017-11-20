@@ -6,12 +6,11 @@
     "$kref": "#/ckan/spacedock/1588",
     "depends": [{
         "name": "TarsierSpaceTechnologyWithGalaxies"
+    }, {
+        "name": "TexturesUnlimited"
     }],
     "install": [{
         "find": "GameData/JamesWebb",
-        "install_to": "GameData"
-    }, {
-        "find": "GameData/000_TexturesUnlimited",
         "install_to": "GameData"
     }]
 }
