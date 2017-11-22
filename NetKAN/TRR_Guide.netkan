@@ -1,0 +1,30 @@
+{
+	"spec_version": "v1.4",
+	"name": "TRR_Guide",
+	"$kref": "#/ckan/github/HaArLiNsH/TextureReplacerReplaced",
+	"identifier": "TRR_Guide",
+	"release_status": "testing",
+	"$vref": "#/ckan/ksp-avc",
+	"author": ["HaArLiNsH"],
+	"abstract": "TRR_Guide is a collection of textures made to be used as example with TextureReplacerReplaced.",
+	"license": "MIT",
+	"resources": 	{
+							"homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/161898-*",
+							"repository": "https://github.com/HaArLiNsH/TRR_Guide"
+						},
+	"provides": ["TRR_Guide"],
+	"conflicts": [ { "name": "TextureReplacer" } ],
+	"install"  : [
+						{
+							"find"       : "TRR_Guide",
+							"install_to" : "GameData"
+						}
+					],
+	"depends" : 	[
+							{ "name" : "ModuleManager"	}
+							{ "name" : "TextureReplacerReplaced" }
+						],
+	"suggests" : 	[							
+							{ "name" : "TRR_MyTextureMod" }							
+						]
+}
