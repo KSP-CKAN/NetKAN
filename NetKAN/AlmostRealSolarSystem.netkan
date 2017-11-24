@@ -1,7 +1,7 @@
 {
     "$kref": "#/ckan/spacedock/1596",
     "depends": [
-        { "name": "SigmaDimensions" }
+        { "name": "SigmaDimensions" },
         { "name": "Kopernicus" }
     ],
     "recommends": [
