@@ -1,5 +1,12 @@
 {
     "$kref": "#/ckan/spacedock/1596",
+    "depends": [
+        { "name": "SigmaDimensions" }
+        { "name": "Kopernicus" }
+    ],
+    "recommends": [
+        { "name": "OPM-Galileo" }
+    ],
     "x_via": "Automated SpaceDock CKAN submission",
     "license": "MIT",
     "identifier": "AlmostRealSolarSystem",
