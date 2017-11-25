@@ -5,22 +5,12 @@
     "identifier": "BDDMP",
     "release_status": "development",
     "depends": [
-        { "name" : "DarkMultiPlayer" }
+        { "name" : "DarkMultiPlayer"   },
+        { "name" : "BDArmoryContinued" }
     ],
-    "conflicts": [
-        { "name" : "BDArmory" }
-    ],
-    "provides": [
-        "BDArmory"
-    ],
-    "comment": "Includes a modified version of BDArmory with DMP hooks",
     "install": [
         {
-            "find": "BDArmory",
-            "install_to": "GameData"
-        },
-        {
-            "find": "z_BDDMP",
+            "find": "zzBDDMP",
             "install_to": "GameData"
         }
     ]
