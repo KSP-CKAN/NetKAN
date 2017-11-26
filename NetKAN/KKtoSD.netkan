@@ -1,0 +1,23 @@
+{
+    "spec_version" : "v1.4",
+    "identifier"   : "KKtoSD",
+    "$kref"        : "#/ckan/github/Sigma88/KKtoSD/asset_match/KKtoSD.*?\\.zip",
+    "$vref"        : "#/ckan/ksp-avc",
+    "name"         : "KKtoSD",
+    "abstract"     : "Automatically loads KK groups into SD",
+    "license"      : "restricted",
+    "author"       : "Sigma88",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/162782-KKtoSD/"
+    },
+    "depends"      : [
+            { "name"   : "SigmaDimensions" },
+            { "name"   : "KerbalKonstructs" }
+    ],
+    "install": [
+        {
+            "find": "KKtoSD",
+            "install_to": "GameData"
+        }
+    ]
+}
