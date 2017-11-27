@@ -4,7 +4,7 @@
     "$kref"        : "#/ckan/github/Sigma88/KKtoSD/asset_match/KKtoSD.*?\\.zip",
     "$vref"        : "#/ckan/ksp-avc",
     "name"         : "KKtoSD",
-    "abstract"     : "Automatically loads KK groups into SD",
+    "abstract"     : "Automatically loads KerbalKonstructs groups into SigmaDimensions to improve the repositioning of buildings.",
     "license"      : "restricted",
     "author"       : "Sigma88",
     "resources": {
