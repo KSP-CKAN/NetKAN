@@ -24,11 +24,6 @@
             "find": "Optional Mods/GPP_FinalFrontier/GameData/Nereid",
             "install_to": "GameData",
             "comment": "This correctly installs Final Frontier for GPP"
-        },
-        {
-            "find": "Optional Mods/LoadingScreen/GameData/LoadingScreenManager",
-            "install_to": "GameData",
-            "comment": "This correctly installs LoadingScreenManager for GPP"
         }
     ],
     "version": "1.5.3",
