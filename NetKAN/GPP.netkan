@@ -79,6 +79,9 @@
     ],
     "suggests": [
         {
+            "name": "SigmaBinary-core"
+        },
+        {
             "name": "GPPCloudsHighRes"
         },
         {
