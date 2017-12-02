@@ -21,11 +21,5 @@
 		"name"       : "ModuleManager",
 		"min_version": "2.6"		
 	}   
-],
-	"suggests"  : [
-	{ 
-		"name"	: "FirespitterCore",
-		"min_version" : "7.1"
-	}
 ]
 }

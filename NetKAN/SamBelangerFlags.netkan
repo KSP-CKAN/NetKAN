@@ -1,0 +1,17 @@
+{
+    "spec_version"   : "v1.4",
+    "identifier"     : "SamBelangerFlags",
+    "name"           : "Sam Belanger Flags",
+    "$kref"          : "#/ckan/curse/271783",
+    "abstract"       : "Flags used in SamBelanger's mods",
+    "license"        : "MIT",
+    "ksp_version"    : "any",
+    "comment"        : "flagmod",
+    "release_status" : "stable",
+    "install" : [
+        {
+            "find"       : "Flags",
+            "install_to" : "GameData/SamBelanger"
+        }
+    ]
+}

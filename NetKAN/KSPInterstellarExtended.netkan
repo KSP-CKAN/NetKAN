@@ -21,16 +21,17 @@
         { "name"        : "CommunityTechTree", "min_version" : "1:3.2.0" },
         { "name"        : "InterstellarFuelSwitch-Core", "min_version" : "2.9.5" },
         { "name"        : "TweakScale", "min_version" : "2.3.3"},
-        { "name"        : "ModuleManager", "min_version" : "2.8.1" }
+        { "name"        : "ModuleManager", "min_version" : "2.8.1" },
+        { "name"        : "HeatControl"}
     ],
     "recommends": [
+        { "name"        : "PatchManager", "min_version" : "0.0.10" },
         { "name"        : "UniversalStorage", "min_version" : "1.2.2" },
         { "name"        : "InterstellarFuelSwitch", "min_version" : "2.9.5"},
         { "name"        : "FilterExtensions", "min_version" : "3.0.0"},
         { "name"        : "HideEmptyTechNodes", "min_version" : "0.8.0" },
         { "name"        : "KerbalJointReinforcement" },
         { "name"        : "UniversalStorage" },
-        { "name"        : "PersistentRotation" },
-        { "name"        : "PatchManager" }
+        { "name"        : "PersistentRotation" }        
     ]
 }

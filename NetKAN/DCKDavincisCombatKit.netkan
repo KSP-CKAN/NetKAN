@@ -5,21 +5,20 @@
     "$kref": "#/ckan/spacedock/1524",
     "x_via": "Automated SpaceDock CKAN submission",
     "depends": [
-        { "name": "ModuleManager" },
-        { "name": "BDArmoryContinued" },
-        { "name": "TweakScale" }
+        { "name": "ModuleManager" }
     ],
     "recommends": [
-        { "name": "FerramAerospaceResearch" },
-        { "name": "BDynamicsMk22Cockpits" },
-        { "name": "Mk2Expansion" },
+        { "name": "BDArmoryContinued"         },
+        { "name": "TweakScale"                },
+        { "name": "FerramAerospaceResearch"   },
+        { "name": "BDynamicsMk22Cockpits"     },
+        { "name": "Mk2Expansion"              },
         { "name": "QuizTechAeroPackContinued" }
     ],
     "install": [
-        {
-            "find": "DCK",
-            "install_to": "GameData",
-            "filter": ".git"
-        }
+        { "find": "DCKinc",             "install_to": "GameData" },
+        { "find": "DCK_AirplanePlus",   "install_to": "GameData" },
+        { "find": "DCK_AviatorArsenal", "install_to": "GameData" },
+        { "find": "DCK_QuizTech",       "install_to": "GameData" }
     ]
 }
