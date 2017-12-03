@@ -1,7 +1,7 @@
 {
 	"spec_version"      : "v1.4",
 	"identifier"        : "NehemiahEngineeringOrbitalScience",
-	"$kref"             : "#/ckan/github/mwerle/OrbitalMaterialScience/asset_match/NehemiahEngineeringOrbitalScience_*.zip",
+	"$kref"             : "#/ckan/github/mwerle/OrbitalMaterialScience/asset_match/NehemiahEngineeringOrbitalScience_.*\.zip",
 	"$vref"             : "#/ckan/ksp-avc/NehemiahInc/NEOS.version",
 	"name"              : "Nehemiah Engineering Orbital Science",
 	"abstract"          : "Nehemiah Engineering Orbital Science is a collection of orbital science experiments aimed at prolonged station keeping.",
