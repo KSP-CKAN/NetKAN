@@ -11,17 +11,25 @@
             "name": "SigmaDimensions"
         }
     ],
-	"conflicts": [
+    "recommends": [
+        {
+            "name": "KKtoSD"
+        },
+		{
+            "name": "Kronometer"
+        }
+    ],
+    "conflicts": [
         {
             "name": "Rescale-25"
         },
-		        {
+        {
             "name": "Rescale-32"
         },
-		        {
+        {
             "name": "Rescale-64"
         },
-		        {
+        {
             "name": "Rescale-10625"
         }
     ],
