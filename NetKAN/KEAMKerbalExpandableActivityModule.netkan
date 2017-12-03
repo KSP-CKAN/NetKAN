@@ -6,7 +6,11 @@
         "find":       "GameData/KEAM",
         "install_to": "GameData"
     }, {
-        "find":       "OptionalConfigs",
+        "find":       "OptionalConfigs/KEAM-CLS.cfg",
+        "install_to": "GameData/KEAM",
+        "find_matches_files": true
+    }, {
+        "find":       "OptionalConfigs/KEAM-tweakscale.cfg",
         "install_to": "GameData/KEAM",
         "find_matches_files": true
     }],
