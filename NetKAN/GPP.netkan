@@ -21,22 +21,12 @@
             "comment": "This correctly installs KSCSwitcher for GPP"
         },
         {
-            "find": "Optional Mods/GPP_TextureReplacer/GameData/TextureReplacer",
-            "install_to": "GameData",
-            "comment": "This correctly installs TextureReplacer for GPP"
-        },
-        {
             "find": "Optional Mods/GPP_FinalFrontier/GameData/Nereid",
             "install_to": "GameData",
-            "comment": "This correctly installs Final Fronteir for GPP"
-        },
-        {
-            "find": "Optional Mods/LoadingScreen/GameData/LoadingScreenManager",
-            "install_to": "GameData",
-            "comment": "This correctly installs LoadingScreenManager for GPP"
+            "comment": "This correctly installs Final Frontier for GPP"
         }
     ],
-    "version": "1.5.3",
+    "version": "1.5.88.1",
     "ksp_version": "1.3.1",
     "depends": [
         {
@@ -57,52 +47,60 @@
     ],
     "recommends": [
         {
-            "name": "GPPCloudsHighRes"
-        },
-        {
-            "name": "GPPCloudsLowRes"
-        },
-        {
             "name": "Strategia"
         },
         {
             "name": "FinalFrontier"
         },
         {
-            "name": "TextureReplacer"
-        },
-        {
-            "name": "DistantObject"
-        },
-        {
             "name": "OPM-Galileo"
         },
-		{
+        {
             "name": "KerbalKonstructs"
         },
-		{
+        {
+            "name": "SigmaReplacements-Heads"
+        },
+        {
+            "name": "SigmaReplacements-Suits"
+        },
+        {
+            "name": "SigmaReplacements-Skybox"
+        },
+        {
+            "name": "SigmaReplacements-Navigation"
+        },
+        {
+            "name": "SigmaReplacements-Descriptions"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "SigmaBinary-core"
+        },
+        {
+            "name": "GPPCloudsHighRes"
+        },
+        {
+            "name": "GPPCloudsLowRes"
+        },
+        {
             "name": "Rescale-25"
         },
-		{
+        {
             "name": "Rescale-32"
         },
-		{
+        {
             "name": "Rescale-64"
         },
-		{
+        {
             "name": "Rescale-10"
         },
-		{
+        {
             "name": "Rescale-10625"
         }
     ],
-    "conflicts": [
-        {
-            "name": "LoadingScreenManager"
-        }
-    ],
     "provides": [
-        "Scatterer-sunflare",
-        "LoadingScreenManager"
+        "Scatterer-sunflare"
     ]
 }
