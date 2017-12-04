@@ -11,10 +11,7 @@
             "name": "SigmaDimensions"
         }
     ],
-    "suggests": [
-        {
-            "name": "KKtoSD"
-        },
+    "recommends": [
 		{
             "name": "Kronometer"
         }
