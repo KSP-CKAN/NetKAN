@@ -4,11 +4,16 @@
     "$kref": "#/ckan/spacedock/589",
     "spec_version": "v1.4",
     "depends": [
-        { "name": "AlcubierreStandalone" },
-        { "name": "CommunityResourcePack" }
+        { "name": "CommunityResourcePack" },
+        { "name": "ModuleManager" }
+    ],
+    "recommends": [
+        { "name": "WarpDrive" },
+        { "name": "AlcubierreStandalone" }
     ],
     "suggests": [
-    	{ "name": "SpaceDock" }
+        { "name": "SpacedocksRedeployed" },
+        { "name": "CommunityTechTree" }
     ],
     "conflicts": [
         { "name": "WarpShip" },
