@@ -23,7 +23,12 @@
         {
             "find"       : "IXSWarpShipOS",
             "install_to" : "GameData",
-            "filter"     : ".DS_Store"
+            "filter"     : [ ".DS_Store", "Example Craft", "old Spacedocks.zip" ]
+        },
+        {
+            "find"               : "IXS01 Warpship Prototype.craft",
+            "install_to"         : "Ships/VAB",
+            "find_matches_files" : true
         }
     ]
 }
