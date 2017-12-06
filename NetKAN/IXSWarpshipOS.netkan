@@ -2,7 +2,7 @@
     "license": "CC-BY-NC-SA-4.0",
     "identifier": "IXSWarpshipOS",
     "$kref": "#/ckan/spacedock/589",
-    "spec_version": "v1.4",
+    "spec_version": "v1.16",
     "depends": [
         { "name": "CommunityResourcePack" },
         { "name": "ModuleManager" }
