@@ -103,13 +103,7 @@
             "name": "Rescale-10625"
         }
     ],
-    "conflicts": [
-        {
-            "name": "LoadingScreenManager"
-        }
-    ],
     "provides": [
-        "Scatterer-sunflare",
-        "LoadingScreenManager"
+        "Scatterer-sunflare"
     ]
 }
