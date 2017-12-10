@@ -45,11 +45,14 @@
     { "name" : "Farscape" },
     { "name" : "RecycledPartsFarscape" },
     { "name" : "Mk2Essentials" },
+    { "name" " "RecycledPartsMk2Essentials" },
     { "name" : "RecycledPartsLVNClusters" },
 	{ "name" : "LVNNuclearEngineClusters" },
+	{ "name" : "RecycledPartsLVNClusters" },
     { "name" : "RecycledPartsFTmNAtomicRockets" },
     { "name" : "RecycledPartsFTmNImprovedAtomicRockets" },
-    { "name" : "RandSCapsuledyne" }
+    { "name" : "RandSCapsuledyne" },
+    { "name" : "RecycledPartsRSCapsuledyne" }
   ],
   "$vref": "#/ckan/ksp-avc",
   "$kref": "#/ckan/spacedock/1507",
