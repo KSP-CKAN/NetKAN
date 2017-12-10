@@ -2,13 +2,18 @@
     "license": "CC-BY-NC-SA-4.0",
     "identifier": "IXSWarpshipOS",
     "$kref": "#/ckan/spacedock/589",
-    "spec_version": "v1.4",
+    "spec_version": "v1.16",
     "depends": [
-        { "name": "AlcubierreStandalone" },
-        { "name": "CommunityResourcePack" }
+        { "name": "CommunityResourcePack" },
+        { "name": "ModuleManager" }
+    ],
+    "recommends": [
+        { "name": "WarpDrive" },
+        { "name": "AlcubierreStandalone" }
     ],
     "suggests": [
-    	{ "name": "SpaceDock" }
+        { "name": "SpacedocksRedeployed" },
+        { "name": "CommunityTechTree" }
     ],
     "conflicts": [
         { "name": "WarpShip" },
@@ -18,7 +23,12 @@
         {
             "find"       : "IXSWarpShipOS",
             "install_to" : "GameData",
-            "filter"     : ".DS_Store"
+            "filter"     : [ ".DS_Store", "Example Craft", "old Spacedocks.zip" ]
+        },
+        {
+            "find"               : "IXS01 Warpship Prototype.craft",
+            "install_to"         : "Ships/VAB",
+            "find_matches_files" : true
         }
     ]
 }

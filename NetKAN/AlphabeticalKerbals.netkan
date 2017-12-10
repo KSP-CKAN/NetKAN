@@ -1,0 +1,10 @@
+{
+    "spec_version" : 1,
+    "identifier"   : "AlphabeticalKerbals",
+    "$kref"        : "#/ckan/github/cecilkorik/AlphabeticalKerbals",
+    "license"      : "CC0",
+    "ksp_version"  : "1.3.1",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/167202-wip-131-alphabeticalkerbals/"
+    }
+}

@@ -11,24 +11,29 @@
             "name": "SigmaDimensions"
         }
     ],
-	"conflicts": [
+    "recommends": [
+		{
+            "name": "Kronometer"
+        }
+    ],
+    "conflicts": [
         {
             "name": "Rescale-25"
         },
-		        {
+        {
             "name": "Rescale-64"
         },
-		        {
+        {
             "name": "Rescale-10"
         },
-		        {
+        {
             "name": "Rescale-10625"
         }
     ],
     "resources": {
         "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/163965-131-rescale-comprehensive-sd-configs-1027-10-oct-2017/"
     },
-	"$vref": "#/ckan/ksp-avc",
+    "$vref": "#/ckan/ksp-avc",
     "$kref": "#/ckan/github/Galileo88/Rescale/asset_match/RESCALE_3.2.zip",
     "name": "Rescale x3.2",
     "identifier": "Rescale-32",

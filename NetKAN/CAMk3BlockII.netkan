@@ -10,6 +10,7 @@
     "install": [
         {
             "find": "Cormorant Aeronology",
+            "filter": "Localizations",
             "install_to": "GameData"
         }
     ]

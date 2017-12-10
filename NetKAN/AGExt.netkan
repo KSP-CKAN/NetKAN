@@ -1,16 +1,15 @@
 {
     "spec_version" : 1,
-    "$kref" : "#/ckan/github/SirDiazo/AGExt",
+    "$kref" : "#/ckan/github/linuxgurugamer/AGExt",
+    "$vref"        : "#/ckan/ksp-avc",
     "name" : "Action Groups Extended",
     "identifier" : "AGExt",
-    "author" : "Diazo",
+    "author" : ["Diazo", "linuxgurugamer"],
     "abstract" : "Increases the number of action groups to 250 and allows in-flight editing.",
     "license" : "GPL-3.0",
     "release_status" : "stable",
-    "ksp_version" : "1.2",
-    "author" : "Diazo",
     "resources" : {
-        "homepage" : "http://forum.kerbalspaceprogram.com/threads/74195"
+        "homepage" : "https://forum.kerbalspaceprogram.com/index.php?/topic/167269-1"
     },
     "depends": [
         { "name": "ModuleManager" }

@@ -1,17 +1,21 @@
 {
-"spec_version" : "v1.4",
-"identifier"   : "Ceteras-Suit-Pack",
-"$kref"        : "#/ckan/spacedock/282",
-"x_netkan_license_ok": true,
-"license": "CC-BY-NC-SA-4.0",
-"install": [
+    "spec_version" : "v1.4",
+    "identifier"   : "Ceteras-Suit-Pack",
+    "$kref"        : "#/ckan/spacedock/1595",
+    "license"      : "CC-BY-NC-SA-4.0",
+    "install" : [
         {
-            "find"       : "TextureReplacer",
+            "find"       : "TRR-Cetera",
             "install_to" : "GameData"
         }
-],
-"depends": [
-        { "name": "TextureReplacer" }
+    ],
+    "depends" : [
+        { "name" : "TextureReplacerReplaced" },
+        { "name" : "ModuleManager" }
+    ],
+    "suggests" : [
+        { "name" : "CommunityTraitIcons" },
+        { "name" : "PortraitStats" },
+        { "name" : "UKS" }
     ]
-
 }
