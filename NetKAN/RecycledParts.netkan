@@ -14,7 +14,8 @@
       { "name": "B9-props" },
       { "name": "KSPWheel" },
       { "name": "PatchManager" },
-      { "name": "ModuleManager" }
+      { "name": "ModuleManager" },
+      { "name": "BDAnimationModules" }
   ],
   "recommends": [
     { "name": "CommunityTechTree" }
@@ -29,7 +30,11 @@
     "RecycledPartskal9000",
     "RecycledPartsFarscape",
     "RecycledPartsMk2KISContainers",
-    "RecycledPartsMk2Essentials"
+    "RecycledPartsMk2Essentials",
+    "RecycledPartsLVNClusters",
+    "RecycledPartsFTmNAtomicRockets",
+    "RecycledPartsFTmNImprovedAtomicRockets",
+    "RecycledPartsRSCapsuledyne"
    ],
   "conflicts": [
     { "name" : "AtomicAge" },
@@ -39,7 +44,12 @@
     { "name" : "RecycledPartskal9000" },
     { "name" : "Farscape" },
     { "name" : "RecycledPartsFarscape" },
-    { "name" : "Mk2Essentials" }
+    { "name" : "Mk2Essentials" },
+    { "name" : "RecycledPartsLVNClusters" },
+	{ "name" : "LVNNuclearEngineClusters" },
+    { "name" : "RecycledPartsFTmNAtomicRockets" },
+    { "name" : "RecycledPartsFTmNImprovedAtomicRockets" },
+    { "name" : "RandSCapsuledyne" }
   ],
   "$vref": "#/ckan/ksp-avc",
   "$kref": "#/ckan/spacedock/1507",

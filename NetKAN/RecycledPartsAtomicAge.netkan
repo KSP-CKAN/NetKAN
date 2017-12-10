@@ -1,0 +1,31 @@
+{
+  "spec_version": "v1.4",
+  "install": [
+    {
+      "install_to": "GameData/SpaceTuxIndustries/RecycledParts",
+      "find": "SpaceTuxIndustries/RecycledParts/AtomicAge"
+    }
+  ],
+  "depends": [
+      { "name": "Firespitter" }, 
+      { "name": "ModuleManager" }
+  ],
+  "recommends": [
+    { "name": "CommunityTechTree" }
+  ],
+ "suggests": [
+        { "name": "JanitorsCloset" }
+  ],
+  "provides": [
+    "RecycledPartsAtomicAge"
+   ],
+  "conflicts": [
+    { "name" : "AtomicAge" },
+    { "name" : "RecycledPartsAtomicAge" }
+  ],
+  "$vref": "#/ckan/ksp-avc",
+  "$kref": "#/ckan/spacedock/1507",
+  "x_via": "Automated Linuxgurugamer CKAN script",
+  "identifier": "RecycledPartsAtomicAge",
+  "license": "restricted"
+}
