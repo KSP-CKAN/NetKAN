@@ -12,8 +12,8 @@
     ],
     "install" : [
         {
-            "file"       : "GameData/000_FilterExtensions Configs/Default",
-            "install_to" : "GameData/000_FilterExtensions Configs"
+            "file"       : "GameData/000_FilterExtensions_Configs/Default",
+            "install_to" : "GameData/000_FilterExtensions_Configs"
         }
     ]
 }
