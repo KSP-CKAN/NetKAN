@@ -2,10 +2,11 @@
     "spec_version"   : "v1.4",
     "identifier"     : "SamBelangerFlags",
     "name"           : "SamBelanger Flags",
-    "$kref"          : "#/ckan/spacedock/1525",
+    "$kref"          : "#/ckan/github/SamBelanger/SamBelangerFlags",
     "abstract"       : "Flags used in SamBelanger's mods",
     "license"        : "MIT",
     "ksp_version"    : "any",
+    "x_netkan_epoch" : 1,
     "comment"        : "flagmod",
     "release_status" : "stable",
     "install" : [
