@@ -3,12 +3,12 @@
   "install": [
     {
       "install_to": "GameData",
-      "find": "TextureReplacer"
+      "find": "TextureReplacerReplaced"
     }
   ],
   "depends": [
     { "name": "ModuleManager" },
-    { "name": "TextureReplacer" },
+    { "name": "TextureReplacerReplaced" },
     { "name": "UKS" }
 
   ],
