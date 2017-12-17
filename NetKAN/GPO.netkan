@@ -12,11 +12,11 @@
         { "name": "Kopernicus" },
         { "name": "LoadingScreenManager" },
         { "name": "ModularFlightIntegrator" },
-        { "name": "Scatterer" },
-        { "name": "TextureReplacer" }
+        { "name": "Scatterer" }
     ],
     "recommends": [
-        { "name": "DistantObject" }
+        { "name": "DistantObject" },
+        { "name": "TextureReplacer" }
     ],
     "provides": [
         "EnvironmentalVisualEnhancements-Config",
