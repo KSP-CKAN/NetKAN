@@ -24,11 +24,7 @@
     ],
     "install": [
         {
-            "find":"Olei",
-            "install_to": "GameData"
-        },
-        {
-            "find":"Olei-Gaia",
+            "find":       "GPO",
             "install_to": "GameData"
         }
     ]
