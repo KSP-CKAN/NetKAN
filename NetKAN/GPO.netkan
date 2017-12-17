@@ -12,11 +12,11 @@
         { "name": "Kopernicus" },
         { "name": "LoadingScreenManager" },
         { "name": "ModularFlightIntegrator" },
-        { "name": "Scatterer" },
-        { "name": "TextureReplacer" }
+        { "name": "Scatterer" }
     ],
     "recommends": [
-        { "name": "DistantObject" }
+        { "name": "DistantObject" },
+        { "name": "TextureReplacer" }
     ],
     "provides": [
         "EnvironmentalVisualEnhancements-Config",
@@ -24,11 +24,7 @@
     ],
     "install": [
         {
-            "find":"Olei",
-            "install_to": "GameData"
-        },
-        {
-            "find":"Olei-Gaia",
+            "find":       "GPO",
             "install_to": "GameData"
         }
     ]
