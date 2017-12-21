@@ -9,7 +9,7 @@
     ],
     "install": [
         {
-            "file": "FoxDefenseContracts",
+            "find": "FoxDefenseContracts",
             "install_to": "GameData"
         }
     ]
