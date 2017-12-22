@@ -2,6 +2,9 @@
     "x_via": "Automated SpaceDock CKAN submission",
     "$kref": "#/ckan/spacedock/1619",
     "identifier": "KSCSupportStaff",
-    "license": "All Rights Reserved",
-    "spec_version": "v1.4"
+    "license": "restricted",
+    "spec_version": "v1.4",
+    "depends": [{
+        "name: "TextureReplacerReplaced"
+    }]
 }
