@@ -1,0 +1,23 @@
+{
+    "spec_version": "v1.16",
+    "identifier":   "ScottManleyHeadPack",
+    "name":         "Scott Manley Head Pack",
+    "author":       [ "Potatto", "HebaruSan" ],
+    "abstract":     "Are you tired of not having Scott Manley in game? Are you tired of not looking at his pretty face while you playing KSP? ENOUGH! NOW YOU CAN LOOK AT HIM AS MUCH AS YOU WANT! Download our Scott Manley Head Pack today and get 50% more Scott!!!",
+    "license":      "CC-BY-SA",
+    "version":      "1.0.0",
+    "ksp_version":  "any",
+    "download":     "https://drive.google.com/uc?export=download&id=1X9vBLb9C5t2G5qfPCmtN_R-kF035UBPo",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/116374-104-scott-manley-head-pack/"
+    },
+    "depends": [
+        { "name": "ModuleManager" }
+    ],
+    "recommends": [
+        { "name": "SigmaReplacements-Heads" }
+    ],
+    "suggests": [
+        { "name": "TextureReplacerReplaced" }
+    ]
+}
