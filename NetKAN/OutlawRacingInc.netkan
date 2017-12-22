@@ -3,6 +3,7 @@
     "identifier":   "OutlawRacingInc",
     "license":      "restricted",
     "$kref":        "#/ckan/spacedock/1617",
+    "$vref":        "#/ckan/ksp-avc",
     "x_via":        "Automated SpaceDock CKAN submission",
     "install": [{
         "find":       "ORinc",
