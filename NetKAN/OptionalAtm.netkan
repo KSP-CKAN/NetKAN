@@ -2,7 +2,6 @@
     "spec_version"   : "v1.16",
     "identifier"     : "OptionalAtm",
     "$kref"          : "#/ckan/github/DeltaDizzy/OptionalAtmospheresRevamped",
-    "$vref"          : "#/ckan/ksp-avc",
     "abstract"       : "Adds atmospheres to those planets and moons which don't have atmospheres of the Kerbol system",
     "license"        : "MIT",
     "release_status" : "stable",
