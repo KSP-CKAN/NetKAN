@@ -13,7 +13,9 @@
     "recommends": [
         { "name" : "KSPInterstellarExtended" },
         { "name" : "BetterTimeWarp" },
-        { "name" : "USI-NuclearRockets" }
+        { "name" : "USI-NuclearRockets" },
+        { "name" : "Scatterer" },
+        { "name" : "StockVisualEnhancements" }
     ],
     "suggests": [
         { "name" : "FinalFrontier" },
@@ -21,7 +23,15 @@
     ],
     "install": [
         {
-            "find": "GameData/Extrasolar",
+            "find": "Extrasolar",
+            "install_to": "GameData"
+        },
+        {
+            "find": "Extrasolar_Textures",
+            "install_to": "GameData"
+        },
+        {
+            "find": "Optional/EVO",
             "install_to": "GameData"
         }
     ]
