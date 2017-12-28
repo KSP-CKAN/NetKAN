@@ -1,7 +1,36 @@
 {
-    "$kref": "#/ckan/spacedock/1622",
-    "x_via": "Automated SpaceDock CKAN submission",
-    "license": "CC-BY-4.0",
-    "identifier": "DeepSpaceSurfaceHabitatUnitPack",
-    "spec_version": "v1.4"
+    "spec_version": "v1.16",
+    "identifier":   "DeepSpaceSurfaceHabitatUnitPack",
+    "$kref":        "#/ckan/spacedock/1622",
+    "license":      "CC-BY-4.0",
+    "x_via":        "Automated SpaceDock CKAN submission",
+    "depends": [
+        { "name": "ModuleManager" }
+    ],
+    "suggests" [
+        { "name": "ConnectedLivingSpace" },
+        { "name": "KIS"                  },
+        { "name": "TweakScale"           },
+        { "name": "Snacks"               },
+        { "name": "TACLS"                },
+        { "name": "USI-LS"               }
+    ],
+    "install": [
+        {
+            "find":       "GameData/DSSHU",
+            "install_to": "GameData"
+        }, {
+            "find":       "DSSHU-ConnectedLivingSpace.cfg",
+            "install_to": "GameData/DSSHU",
+            "find_matches_files": true
+        }, {
+            "find":       "DSSHU-KerbalInventorySystem.cfg",
+            "install_to": "GameData/DSSHU",
+            "find_matches_files": true
+        }, {
+            "find":       "DSSHU-Tweakscale.cfg",
+            "install_to": "GameData/DSSHU",
+            "find_matches_files": true
+        } 
+    ]
 }
