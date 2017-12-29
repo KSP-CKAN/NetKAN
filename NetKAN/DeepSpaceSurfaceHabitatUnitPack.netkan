@@ -31,6 +31,18 @@
             "find":       "DSSHU-Tweakscale.cfg",
             "install_to": "GameData/DSSHU",
             "find_matches_files": true
+        }, {
+            "find":       "DSSHU-Snacks.cfg",
+            "install_to": "GameData/DSSHU",
+            "find_matches_files": true
+        }, {
+            "find":       "DSSHU-TACLS.cfg",
+            "install_to": "GameData/DSSHU",
+            "find_matches_files": true
+        }, {
+            "find":       "DSSHU-USILifeSupport.cfg",
+            "install_to": "GameData/DSSHU",
+            "find_matches_files": true
         } 
     ]
 }
