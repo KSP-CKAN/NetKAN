@@ -3,5 +3,6 @@
     "license": "unrestricted",
     "$kref": "#/ckan/spacedock/1626",
     "x_via": "Automated SpaceDock CKAN submission",
-    "identifier": "PylonFix"
+    "identifier": "PylonFix",
+    "depends": [{ "name": "ModuleManager" }]
 }
