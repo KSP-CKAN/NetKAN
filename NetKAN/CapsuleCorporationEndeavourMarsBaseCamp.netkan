@@ -5,7 +5,7 @@
     "identifier": "CapsuleCorporationEndeavourMarsBaseCamp",
     "spec_version": "v1.4",
     "install": [{
-        "find":       "CapsuleCorp/CapsuleCorp",
+        "find":       "CapsuleCorp",
         "install_to": "GameData"
     }]
 }
