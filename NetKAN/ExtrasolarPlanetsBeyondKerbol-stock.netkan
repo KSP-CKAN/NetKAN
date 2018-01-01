@@ -29,10 +29,6 @@
         {
             "find": "Extrasolar_Textures",
             "install_to": "GameData"
-        },
-        {
-            "find": "Optional/EVO",
-            "install_to": "GameData"
         }
     ]
 }
