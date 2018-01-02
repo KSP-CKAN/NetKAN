@@ -1,0 +1,13 @@
+{
+    "spec_version" : 1,
+    "identifier"   : "AdjustableModPanel",
+    "$kref"        : "#/ckan/github/radistmorse/KSPAdjustableModPanel",
+    "$vref"        : "#/ckan/ksp-avc",
+    "name"         : "Adjustable Mod Panel",
+    "abstract"     : "A tool that allows you to hide mods from the stock mod panel",
+    "license"      : "BSD-2-clause",
+    "x_netkan_epoch": "1",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/169087-131-adjustable-mod-panel/"
+    }
+}
