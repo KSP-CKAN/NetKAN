@@ -4,7 +4,6 @@
     "$kref": "#/ckan/spacedock/214",
     "spec_version": "v1.10",
     "depends": [
-        { "name": "CommunityAmmunitionLibrary" },
         { "name": "ModuleManager" },
         { "name": "BDArmory" }
     ],
