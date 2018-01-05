@@ -7,5 +7,9 @@
     "install": [ {
         "find":       "OPT_USI",
         "install_to": "GameData"
-    } ]
+    } ],
+    "depends": [
+        { "name": "OPTSpacePlaneMain" },
+        { "name": "USI-LS"            }
+    ]
 }
