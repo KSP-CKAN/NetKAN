@@ -7,7 +7,7 @@
     "name"          : "KW Rocketry Rebalanced",
     "abstract"      : "This is the full KW Rocketry with the tanks rebalanced to better values",
     "resources" : {
-        "homepage"  :   "http://forum.kerbalspaceprogram.com/index.php?/topic/137762-kw-rocketry-redux/"
+        "homepage"  : "http://forum.kerbalspaceprogram.com/index.php?/topic/137762-kw-rocketry-redux/"
     },
     "depends" : [
         { "name" : "ModuleManager" }
@@ -16,17 +16,17 @@
         { "name" : "KWRocketry" },
         { "name" : "KWRocketryRedux" },
         { "name" : "KWRocketry-CommunityFixes" },
-        { "name" : "KWRocketry-CommunityFixes-interstage"  }
+        { "name" : "KWRocketry-CommunityFixes-interstage" }
     ],
     "recommends" : [ 
-       { "name": "SimpleAdjustableFairings-KWRocketry" }, 
-       { "name": "Patchmanager" },
-       { "name": "JanitorsCloset" } 
+        { "name" : "SimpleAdjustableFairings-KWRocketry" }, 
+        { "name" : "Patchmanager" },
+        { "name" : "JanitorsCloset" } 
     ],
     "install" : [
         {
-            "find"      : "KWRocketryRebalanced/GameData/KWRocketry",
-            "install_to": "GameData"
+            "find"       : "KWRocketryRebalanced/GameData/KWRocketry",
+            "install_to" : "GameData"
         }
     ]
 }
