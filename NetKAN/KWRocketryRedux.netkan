@@ -2,30 +2,31 @@
     "spec_version"  : "v1.4",
     "identifier"    : "KWRocketryRedux",
     "$kref"         : "#/ckan/github/linuxgurugamer/KWRocketryRedux",
-    "$vref"           : "#/ckan/ksp-avc",
+    "$vref"         : "#/ckan/ksp-avc",
     "license"       : "CC-BY-SA-3.0",
     "name"          : "KW Rocketry Redux",
     "abstract"      : "This is the full KW Rocketry with the Community Fixes included.  Repackaged so that the power configs are selecteable in CKAN",
     "resources" : {
-        "homepage"  :   "http://forum.kerbalspaceprogram.com/index.php?/topic/137762-kw-rocketry-redux/"
+        "homepage"  : "http://forum.kerbalspaceprogram.com/index.php?/topic/137762-kw-rocketry-redux/"
     },
-    "depends": [
+    "depends" : [
         { "name" : "ModuleManager" },
         { "name" : "KWRocketryRedux-power" }
     ],
     "conflicts" : [
         { "name" : "KWRocketry" },
+        { "name" : "KWRocketryRebalanced" },
         { "name" : "KWRocketry-CommunityFixes" },
         { "name" : "KWRocketry-CommunityFixes-interstage"  }
     ],
-    "recommends": [ 
-       { "name": "SimpleAdjustableFairings-KWRocketry" }, 
-       { "name": "JanitorsCloset" } 
+    "recommends" : [ 
+       { "name" : "SimpleAdjustableFairings-KWRocketry" }, 
+       { "name" : "JanitorsCloset" } 
     ],
-    "install"     : [
+    "install" : [
         {
-            "find"    : "KWRocketry/GameData/KWRocketry",
-            "install_to": "GameData"
+            "find"       : "KWRocketry/GameData/KWRocketry",
+            "install_to" : "GameData"
         }
     ]
 }
