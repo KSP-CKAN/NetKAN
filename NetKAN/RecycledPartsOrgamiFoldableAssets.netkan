@@ -1,0 +1,17 @@
+{
+  "spec_version": "v1.4",
+  "install": [
+    {
+      "install_to": "GameData/SpaceTuxIndustries/RecycledParts",
+      "find": "NAU"
+    }
+  ],
+  "conflicts": [
+    { "name" : "RecycledPartsOrgamiFoldableAssets" }
+  ],
+  "$vref": "#/ckan/ksp-avc",
+  "$kref": "#/ckan/spacedock/1507",
+  "x_via": "Automated Linuxgurugamer CKAN script",
+  "identifier": "RecycledPartsOrgamiFoldableAssets",
+  "license": "restricted"
+}
