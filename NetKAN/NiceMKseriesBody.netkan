@@ -7,5 +7,12 @@
     "install": [ {
         "find":       "NMB",
         "install_to": "GameData"
-    }]
+    }],
+    "recommends": [
+        { "name": "RasterPropMonitor"        },
+        { "name": "BDArmoryContinued"        },
+        { "name": "ASETProps"                },
+        { "name": "AutomatedAerialRefueling" },
+        { "name": "RasterPropMonitor"        }
+    ]
 }
