@@ -1,7 +1,52 @@
 {
-    "license": "CC-BY-4.0",
-    "x_via": "Automated SpaceDock CKAN submission",
-    "identifier": "KA330InflatableSpaceHotel",
-    "spec_version": "v1.4",
-    "$kref": "#/ckan/spacedock/1653"
+    "spec_version": "v1.16",
+    "identifier":   "KA330InflatableSpaceHotel",
+    "$kref":        "#/ckan/spacedock/1653",
+    "license":      "CC-BY-4.0",
+    "x_via":        "Automated SpaceDock CKAN submission",
+    "install": [ {
+        "find":       "Kerbalow",
+        "install_to": "GameData"
+    }, {
+        "find":       "Reflective",
+        "install_to": "GameData\Kerbalow",
+    }, {
+        "find":       "KA330-ConnectedLivingSpace.cfg",
+        "install_to": "GameData\Kerbalow",
+        "find_matches_files": true
+    }, {
+        "find":       "KA330-KerbalInventorySystem.cfg",
+        "install_to": "GameData\Kerbalow",
+        "find_matches_files": true
+    }, {
+        "find":       "KA330-Snacks.cfg",
+        "install_to": "GameData\Kerbalow",
+        "find_matches_files": true
+    }, {
+        "find":       "KA330-TACLS.cfg",
+        "install_to": "GameData\Kerbalow",
+        "find_matches_files": true
+    }, {
+        "find":       "KA330-Tweakscale.cfg",
+        "install_to": "GameData\Kerbalow",
+        "find_matches_files": true
+    }, {
+        "find":       "KA330-USILifeSupport.cfg",
+        "install_to": "GameData\Kerbalow",
+        "find_matches_files": true
+    }],
+    "depends": [
+        { "name": "TexturesUnlimited" }
+    ],
+    "recommends": [
+        { "name": "NearFutureProps" }
+    ],
+    "suggests": [
+        { "name": "ConnectedLivingSpace" },
+        { "name": "KIS"                  },
+        { "name": "Snacks"               },
+        { "name": "TACLS"                },
+        { "name": "USI-LS"               },
+        { "name": "TweakScale"           }
+    ]
 }
