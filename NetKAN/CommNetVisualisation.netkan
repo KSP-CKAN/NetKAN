@@ -3,5 +3,8 @@
     "identifier":   "CommNetVisualisation",
     "$kref":        "#/ckan/spacedock/1650",
     "license":      "GPL-3.0",
-    "x_via":        "Automated SpaceDock CKAN submission"
+    "x_via":        "Automated SpaceDock CKAN submission",
+    "conflicts": [
+        { "name": "CommNetConstellation" }
+    ]
 }
