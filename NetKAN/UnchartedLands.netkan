@@ -10,7 +10,7 @@
     "resources": {
         "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/120111-ul/"
     },
-    "ksp_version"   : "any",
+    "ksp_version"   : "1.3",
     "x_netkan_force_v": true,
     "depends": [
         { "name": "ModuleManager" },
