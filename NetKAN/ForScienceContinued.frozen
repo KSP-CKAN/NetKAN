@@ -1,0 +1,22 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "ForScienceContinued",
+    "$kref":        "#/ckan/github/Xarun/ForScienceContinued",
+    "name":         "ForScience Continued!",
+    "abstract":     "Build upon the ForScience mod by WaveFunctionP. This version adds an interface and exciting new features to it.",
+    "author":       [ "SpaceTiger", "SpaceKitty" ],
+    "license":      "CC-BY-SA-4.0",
+    "ksp_version":  "1.0.5",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/95531-*"
+    },
+    "depends": [
+        { "name" : "KerboKatzUtilities" }
+    ],
+    "install": [
+        {
+            "file":       "GameData/KerboKatz/ForScienceContinued",
+            "install_to": "GameData/KerboKatz"
+        }
+    ]
+}
