@@ -1,15 +1,15 @@
 {
-	"spec_version": 1,
-  	"identifier"  : "KerbalLaunchVehicles",
-  	"name"        : "Kerbal Launch Vehicles",
+    "spec_version": 1,
+    "identifier"  : "KerbalLaunchVehicles",
+    "name"        : "Kerbal Launch Vehicles",
     "author"	  : "JCoiley",
-  	"abstract"	  : "Keep track of your fleet of launch vehicles and get suggestions on which would be best to lift your newest satellite into orbit",
-  	"version"	  : "1.1.2",
-	"ksp_version" : "1.3.0",
-  	"license"	  : "MIT",
+    "abstract"	  : "Keep track of your fleet of launch vehicles and get suggestions on which would be best to lift your newest satellite into orbit",
+    "version"	  : "1.1.2",
+    "ksp_version" : "1.3",
+    "license"	  : "MIT",
     "resources": {
-        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/164440-13-kerbal-launch-vehicles/",
-		"repository" : "https://github.com/JackCoiley/KerbalLaunchVehicles"
+        "homepage"   : "https://forum.kerbalspaceprogram.com/index.php?/topic/164440-13-kerbal-launch-vehicles/",
+        "repository" : "https://github.com/JackCoiley/KerbalLaunchVehicles"
     },
-  	"download": "https://github.com/JackCoiley/KerbalLaunchVehicles/raw/master/Downloads/KLVfor1.3.zip"
+    "download" : "https://github.com/JackCoiley/KerbalLaunchVehicles/raw/master/Downloads/KLVfor1.3.zip"
 }
