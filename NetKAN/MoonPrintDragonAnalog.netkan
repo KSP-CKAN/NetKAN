@@ -7,7 +7,7 @@
     "install": [ {
         "find":       "Moonprint",
         "install_to": "GameData"
-    } ]
+    } ],
     "depends": [
         { "name": "FirespitterCore" }
     ]
