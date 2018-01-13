@@ -1,7 +1,10 @@
 {
-    "$kref": "#/ckan/spacedock/1658",
-    "identifier": "AJEExtendedConfigs",
-    "license": "GPLv3",
-    "x_via": "Automated SpaceDock CKAN submission",
-    "spec_version": "v1.4"
+    "spec_version": "v1.4",
+    "identifier":   "AJEExtendedConfigs",
+    "$kref":        "#/ckan/spacedock/1658",
+    "license":      "GPL-3.0",
+    "x_via":        "Automated SpaceDock CKAN submission",
+    "depends": [
+        { "name": "AdvancedJetEngine" }
+    ]
 }
