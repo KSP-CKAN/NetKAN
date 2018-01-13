@@ -4,7 +4,12 @@
     "$kref":        "#/ckan/spacedock/1658",
     "license":      "GPL-3.0",
     "x_via":        "Automated SpaceDock CKAN submission",
+    "install": [ {
+        "find":       "AJEExtended",
+        "install_to": "GameData"
+    } ],
     "depends": [
+        { "name": "ModuleManager"     }
         { "name": "AdvancedJetEngine" }
     ]
 }
