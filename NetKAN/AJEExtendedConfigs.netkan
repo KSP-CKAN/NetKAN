@@ -5,7 +5,8 @@
     "license":      "GPL-3.0",
     "install": [ {
         "find":       "AJEExtended",
-        "install_to": "GameData"
+        "install_to": "GameData",
+        "filter":     [ ".git" ]
     } ],
     "depends": [
         { "name": "ModuleManager"     },
