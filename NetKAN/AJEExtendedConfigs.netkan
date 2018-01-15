@@ -1,0 +1,15 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "AJEExtendedConfigs",
+    "$kref":        "#/ckan/github/seanyoung247/AJEExtended",
+    "license":      "GPL-3.0",
+    "install": [ {
+        "find":       "AJEExtended",
+        "install_to": "GameData",
+        "filter":     [ ".git" ]
+    } ],
+    "depends": [
+        { "name": "ModuleManager"     },
+        { "name": "AdvancedJetEngine" }
+    ]
+}
