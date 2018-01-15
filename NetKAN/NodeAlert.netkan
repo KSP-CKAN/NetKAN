@@ -3,10 +3,10 @@
     "identifier"   : "NodeAlert",
     "$kref"        : "#/ckan/spacedock/1659",
     "license"      : "GPL-3.0",
-	"depends": [
+    "depends": [
         { "name": "KerbalEngineerRedux" }
     ],
-	 "suggests": [
+    "suggests": [
         { "name": "KerbalKlinic" }
     ]
 }
