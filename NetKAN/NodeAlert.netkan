@@ -1,0 +1,12 @@
+{
+    "spec_version" : 1,
+    "identifier"   : "NodeAlert",
+    "$kref"        : "#/ckan/spacedock/1659",
+    "license"      : "GPL-3.0",
+    "depends": [
+        { "name": "KerbalEngineerRedux" }
+    ],
+    "suggests": [
+        { "name": "KerbalKlinic" }
+    ]
+}
