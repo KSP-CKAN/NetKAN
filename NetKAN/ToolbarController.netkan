@@ -7,9 +7,11 @@
     }
   ],
   "filter": [ "aaa_Toolbar.dll" ],
+  "recommends" : [ { "name" : "Toolbar" } ],
   "$vref": "#/ckan/ksp-avc",
   "$kref": "#/ckan/github/linuxgurugamer/ToolbarControl",
   "x_via": "Automated Linuxgurugamer CKAN script",
   "identifier": "ToolbarController",
+  "name": "Toolbar Controller",
   "license": "GPL-3.0"
 }
