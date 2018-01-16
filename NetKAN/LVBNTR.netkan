@@ -1,0 +1,14 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "LVBNTR",
+    "license":      "public-domain",
+    "$kref":        "#/ckan/spacedock/1648",
+    "x_via":        "Automated SpaceDock CKAN submission",
+    "depends": [
+        { "name": "ModuleManager" }
+    ],
+    "install": [ {
+        "find":       "XyphosAerospace",
+        "install_to": "GameData"
+    } ]
+}

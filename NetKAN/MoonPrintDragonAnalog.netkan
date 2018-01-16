@@ -1,0 +1,14 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "MoonPrintDragonAnalog",
+    "$kref":        "#/ckan/spacedock/1655",
+    "license":      "MIT",
+    "x_via":        "Automated SpaceDock CKAN submission",
+    "install": [ {
+        "find":       "Moonprint",
+        "install_to": "GameData"
+    } ],
+    "depends": [
+        { "name": "FirespitterCore" }
+    ]
+}

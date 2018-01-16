@@ -10,12 +10,12 @@
         "MrChumley"
     ],
     "resources": {
-        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/127793"
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/127793-*"
     },
     "ksp_version": "1.0.5",
     "depends": [
         { "name" : "ModuleManager", "min_version": "2.6.13" },
-    { "name" : "Kopernicus", "min_version": "1:beta-05-2" }
+        { "name" : "Kopernicus",    "min_version": "1:beta-05-2" }
     ],
     "install": [
         {
