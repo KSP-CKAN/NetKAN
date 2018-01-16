@@ -3,10 +3,9 @@
   "install": [
     {
       "install_to": "GameData",
-      "find": "000_Toolbar"
+      "find": "001_ToolbarControl"
     }
   ],
-  "filter": [ "aaa_Toolbar.dll", "MiniAVC.dll", "MiniAVC-License.txt", "MiniAVC-LICENSE.txt" ],
   "recommends" : [ { "name" : "Toolbar" } ],
   "$vref": "#/ckan/ksp-avc",
   "$kref": "#/ckan/github/linuxgurugamer/ToolbarControl",
