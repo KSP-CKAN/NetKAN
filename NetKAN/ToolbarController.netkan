@@ -1,0 +1,15 @@
+{
+  "spec_version": "v1.4",
+  "install": [
+    {
+      "install_to": "GameData",
+      "find": "000_Toolbar"
+    }
+  ],
+  "filter": [ "aaa_Toolbar.dll" ],
+  "$vref": "#/ckan/ksp-avc",
+  "$kref": "#/ckan/github/linuxgurugamer/ToolbarControl",
+  "x_via": "Automated Linuxgurugamer CKAN script",
+  "identifier": "ToolbarController",
+  "license": "GPL-3.0"
+}
