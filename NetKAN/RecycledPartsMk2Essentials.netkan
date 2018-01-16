@@ -1,0 +1,25 @@
+{
+  "spec_version": "v1.4",
+  "install": [
+    {
+      "install_to": "GameData/SpaceTuxIndustries/RecycledParts",
+      "find": "Mk2Essentials"
+    }
+  ],
+  "recommends": [
+    { "name": "CommunityTechTree" }
+  ],
+ "suggests": [
+        { "name": "JanitorsCloset" }
+  ],
+  "conflicts": [
+    { "name" : "Mk2Essentials" },
+    { "name" : "RecycledPartsMk2Essentials" }
+  ],
+  "$vref": "#/ckan/ksp-avc",
+  "$kref": "#/ckan/spacedock/1507",
+  "x_via": "Automated Linuxgurugamer CKAN script",
+  "identifier": "RecycledPartsMk2Essentials",
+  "name": "Recycled Parts Mk2 Essentials",
+  "license": "restricted"
+}

@@ -1,0 +1,28 @@
+{
+  "spec_version": "v1.4",
+  "install": [
+    {
+      "install_to": "GameData/SpaceTuxIndustries/RecycledParts",
+      "find": "ftmn_new"
+    }
+  ],
+  "depends": [
+      { "name": "ModuleManager" },
+      { "name": "BDAnimationModules" }
+  ],
+  "recommends": [
+    { "name": "CommunityTechTree" }
+  ],
+ "suggests": [
+        { "name": "JanitorsCloset" }
+  ],
+  "conflicts": [
+    { "name" : "RecycledPartsFTmNImprovedAtomicRockets" }
+  ],
+  "$vref": "#/ckan/ksp-avc",
+  "$kref": "#/ckan/spacedock/1507",
+  "x_via": "Automated Linuxgurugamer CKAN script",
+  "identifier": "RecycledPartsFTmNImprovedAtomicRockets",
+  "name": "Recycled Parts FTmN Improved Atomic Rockets",
+  "license": "CC-BY-NC-SA-3.0"
+}
