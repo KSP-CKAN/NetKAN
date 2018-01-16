@@ -6,7 +6,7 @@
       "find": "000_Toolbar"
     }
   ],
-  "filter": [ "aaa_Toolbar.dll" ],
+  "filter": [ "aaa_Toolbar.dll", "MiniAVC.dll", "MiniAVC-License.txt" ],
   "recommends" : [ { "name" : "Toolbar" } ],
   "$vref": "#/ckan/ksp-avc",
   "$kref": "#/ckan/github/linuxgurugamer/ToolbarControl",
