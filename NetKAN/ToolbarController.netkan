@@ -1,0 +1,17 @@
+{
+  "spec_version": "v1.4",
+  "install": [
+    {
+      "install_to": "GameData",
+      "find": "001_ToolbarControl"
+    }
+  ],
+  "recommends" : [ { "name" : "Toolbar" } ],
+  "$vref": "#/ckan/ksp-avc",
+  "$kref": "#/ckan/github/linuxgurugamer/ToolbarControl",
+  "x_via": "Automated Linuxgurugamer CKAN script",
+  "identifier": "ToolbarController",
+  "name": "Toolbar Controller",
+  "abstract": "Wrapper mod around the Blizzy and stock toolbars",
+  "license": "GPL-3.0"
+}
