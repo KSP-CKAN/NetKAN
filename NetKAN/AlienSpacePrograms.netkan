@@ -1,0 +1,21 @@
+{
+    "spec_version": "v1.16",
+    "identifier":   "AlienSpacePrograms",
+    "name":         "Alien Space Programs",
+    "author":       [ "GregroxMun", "Sigma88" ],
+    "$kref":        "#/ckan/spacedock/1442",
+    "ksp_version":  "1.3",
+    "license":      "CC-BY-SA-4.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/163109-*"
+    },
+    "conflicts": [
+        { "name": "LaytheSpaceProgram" },
+        { "name": "DunaSpaceProgram"   },
+        { "name": "EveSpaceProgram"    }
+    ],
+    "depends": [
+        { "name": "ModuleManager" },
+        { "name": "Kopernicus"    }
+    ]
+}
