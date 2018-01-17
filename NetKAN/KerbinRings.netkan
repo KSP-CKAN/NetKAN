@@ -3,5 +3,9 @@
     "identifier":   "KerbinRings",
     "$kref":        "#/ckan/spacedock/1663",
     "license":      "public-domain",
-    "x_via":        "Automated SpaceDock CKAN submission"
+    "x_via":        "Automated SpaceDock CKAN submission",
+    "depends": [
+        { "name": "ModuleManager" },
+        { "name": "Kopernicus"    }
+    ]
 }
