@@ -17,7 +17,7 @@
     ],
     "conflicts": [
         { "name": "ContractConfigurator-ScanSatLite" },
-		{ "name": "Overdrive" }
+	{ "name": "Overdrive" }
     ],
     "resources": {
         "repository": "https://github.com/S-C-A-N/SCANsat"
