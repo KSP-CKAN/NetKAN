@@ -19,6 +19,7 @@
         }
     ],
     "depends": [
+        { "name": "ModuleManager" },
         { "name": "SigmaReplacements-SkyBox" }
     ],
     "suggests": [
