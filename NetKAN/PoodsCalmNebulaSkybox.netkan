@@ -1,27 +1,27 @@
 {
     "spec_version": 1,
     "name": "Pood's Calm Nebula Skybox",
-    "abstract": "Skybox that presents the Kerbol system within a sparse Nebula. Features a subtle Galaxy star-line and patches of Pink/Blue Nebula proto-Star fields. To the polar South a very energetic solar nursery can be seen.",
+    "abstract": "Skybox that presents the Kerbal Solar System within a sparse Nebula. Features a subtle Galaxy star-line and patches of Pink/Blue Nebula proto-Star fields. To the polar South a very energetic solar nursery can be seen.",
     "author": "Poodmund",
     "identifier": "PoodsCalmNebulaSkybox",
     "$kref": "#/ckan/spacedock/924",
     "license": "CC-BY-NC-ND-4.0",
     "resources": {
-        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/96851-11-texturereplacer-2413-442016/&do=findComment&comment=2388097"
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/169919-1"
     },
     "provides": [
         "Skybox"
     ],
-    "conflicts": [
-        { "name": "Skybox" }
-    ],
     "install": [
         {
-            "file": "GameData/TextureReplacer",
+            "file": "GameData/PoodsSkyboxes",
             "install_to": "GameData"
         }
     ],
     "depends": [
-        { "name": "TextureReplacer" }
+        { "name": "SigmaReplacements-SkyBox" }
+    ]
+    "suggests": [
+        { "name": "DistantObject" }
     ]
 }
