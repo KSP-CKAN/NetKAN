@@ -21,6 +21,9 @@
     "depends": [
         { "name": "SigmaReplacements-SkyBox" }
     ],
+    "depends": [
+        { "name": "ModuleManager" }
+    ],
     "suggests": [
         { "name": "DistantObject" }
     ]
