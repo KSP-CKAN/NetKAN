@@ -7,21 +7,21 @@
     "$kref": "#/ckan/spacedock/926",
     "license": "CC-BY-NC-ND-4.0",
     "resources": {
-        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/96851-11-texturereplacer-2413-442016/&do=findComment&comment=2388097"
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/169919-1"
     },
     "provides": [
         "Skybox"
     ],
-    "conflicts": [
-        { "name": "Skybox" }
-    ],
     "install": [
         {
-            "file": "GameData/TextureReplacer",
+            "file": "GameData/PoodsSkyboxes",
             "install_to": "GameData"
         }
     ],
     "depends": [
-        { "name": "TextureReplacer" }
+        { "name": "SigmaReplacements-SkyBox" }
+    ],
+    "suggests": [
+        { "name": "DistantObject" }
     ]
 }
