@@ -1,7 +1,18 @@
 {
-    "license": "CC by-sa",
-    "identifier": "PanzerLabsAeroSpaceKSatSeries",
-    "$kref": "#/ckan/spacedock/471",
     "spec_version": "v1.4",
-    "x_via": "Automated SpaceDock CKAN submission"
+    "identifier":   "PanzerLabsAeroSpaceKSatSeries",
+    "$kref":        "#/ckan/spacedock/471",
+    "license":      "CC-BY-SA",
+    "x_via":        "Automated SpaceDock CKAN submission",
+    "install": [
+        "find":       "PanzerLabs",
+        "install_to": "GameData"
+    ],
+    "depends": [
+        { "name": "ModuleManager" }
+    ],
+    "suggests": [
+        { "name": "DecalStickers" }
+        { "name": "RemoteTech"    }
+    ]
 }
