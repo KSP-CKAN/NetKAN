@@ -12,7 +12,7 @@
         { "name": "ModuleManager" }
     ],
     "suggests": [
-        { "name": "DecalStickers" }
+        { "name": "DecalStickers" },
         { "name": "RemoteTech"    }
     ]
 }
