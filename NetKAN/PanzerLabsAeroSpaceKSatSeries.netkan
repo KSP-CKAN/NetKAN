@@ -4,10 +4,10 @@
     "$kref":        "#/ckan/spacedock/471",
     "license":      "CC-BY-SA",
     "x_via":        "Automated SpaceDock CKAN submission",
-    "install": [
+    "install": [ {
         "find":       "PanzerLabs",
         "install_to": "GameData"
-    ],
+    } ],
     "depends": [
         { "name": "ModuleManager" }
     ],
