@@ -33,8 +33,10 @@
     "RecycledPartsMk2Essentials",
     "RecycledPartsFTmNAtomicRockets",
     "RecycledPartsFTmNImprovedAtomicRockets",
+    "RecycledPartsMk2SolarBatteries",
     "RecycledPartsRSCapsuledyne",
-    "RecycledPartsOrgamiFoldableAssets"
+    "RecycledPartsOrgamiFoldableAssets",
+    "RecycledPartsLVNClusters"
    ],
   "conflicts": [
     { "name" : "AtomicAge" },
@@ -45,8 +47,10 @@
     { "name" : "Farscape" },
     { "name" : "RecycledPartsFarscape" },
     { "name" : "Mk2Essentials" },
+    { "name" : "RecycledPartsMk2SolarBatteries" },
     { "name" : "RandSCapsuledyne" },
-    { "name" : "origameFoldableAssets" }
+    { "name" : "origameFoldableAssets" },
+    { "name" : "RecycledPartsLVNClusters" }
   ],
   "$vref": "#/ckan/ksp-avc",
   "$kref": "#/ckan/spacedock/1507",

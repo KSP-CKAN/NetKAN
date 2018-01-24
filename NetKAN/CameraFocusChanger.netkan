@@ -4,6 +4,7 @@
     "$kref"        : "#/ckan/github/linuxgurugamer/camerafocuschanger",
     "$vref"        : "#/ckan/ksp-avc",
     "name"         : "Camera Focus Changer",
+    "x_netkan_epoch": 1,
     "abstract"     : "A plugin that lets you change the focus of the camera by pressing 'o' when hovering a part.",
     "license"      : "MIT",
     "resources": {

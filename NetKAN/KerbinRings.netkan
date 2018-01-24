@@ -1,0 +1,11 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "KerbinRings",
+    "$kref":        "#/ckan/spacedock/1663",
+    "license":      "public-domain",
+    "x_via":        "Automated SpaceDock CKAN submission",
+    "depends": [
+        { "name": "ModuleManager" },
+        { "name": "Kopernicus"    }
+    ]
+}
