@@ -9,7 +9,6 @@
   "depends": [
     { "name": "ModuleManager" },
     { "name": "OPTSpacePlaneMain" },
-    { "name": "OPTSpacePlaneParts" },
     { "name": "FirespitterCore" }
   ],
   "$vref": "#/ckan/ksp-avc",
