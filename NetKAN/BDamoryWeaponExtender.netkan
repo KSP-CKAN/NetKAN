@@ -5,8 +5,8 @@
     "$vref":        "#/ckan/ksp-avc",
     "license":      "MIT",
     "x_via":        "Automated SpaceDock CKAN submission",
-    "install": {
+    "install": [ {
         "find":       "BDArmory Weapons Extension",
         "install_to": "GameData"
-    } 
+    } ]
 }
