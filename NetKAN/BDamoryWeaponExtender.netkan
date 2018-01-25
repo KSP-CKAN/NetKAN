@@ -1,0 +1,15 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "BDamoryWeaponExtender",
+    "$kref":        "#/ckan/spacedock/1675",
+    "$vref":        "#/ckan/ksp-avc",
+    "license":      "MIT",
+    "x_via":        "Automated SpaceDock CKAN submission",
+    "depends": [
+        { "name": "BDArmoryContinued" }
+    ],
+    "install": [ {
+        "find":       "BDArmory Weapons Extension",
+        "install_to": "GameData"
+    } ]
+}
