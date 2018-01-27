@@ -1,12 +1,14 @@
 {
-    "license": "CC-BY-NC-SA-4.0",
-    "identifier": "BluedogDB",
-    "$kref": "#/ckan/spacedock/442",
     "spec_version": "v1.4",
+    "identifier":   "BluedogDB",
+    "$kref":        "#/ckan/spacedock/442",
+    "license":      "CC-BY-NC-SA-4.0",
     "x_netkan_force_v": true,
     "depends": [
+        { "name": "ModuleManager" },
         { "name": "CommunityResourcePack" },
-        { "name": "DMagicScienceAnimate" }
+        { "name": "DMagicScienceAnimate" },
+        { "name": "B9PartSwitch" }
     ],
     "supports": [
         { "name": "HullcamVDS" },
@@ -21,7 +23,7 @@
     ],
     "install": [
         {
-            "find": "Bluedog_DB",
+            "find":       "Bluedog_DB",
             "install_to": "GameData"
         }
     ]
