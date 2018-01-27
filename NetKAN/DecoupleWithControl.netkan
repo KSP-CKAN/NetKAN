@@ -1,0 +1,14 @@
+{
+    "spec_version" : 1,
+    "identifier"   : "DecoupleWithControl",
+    "$kref"        : "#/ckan/github/cmheisel/ksp-decouple-with-control",
+    "name"         : "Decouple With Control",
+    "license"      : "MIT",
+    "$vref"        : "#/ckan/ksp-avc",
+    "depends": [
+        { "name": "ModuleManager" }
+    ],
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/170148-131-decouple-with-control/"
+    }
+}
