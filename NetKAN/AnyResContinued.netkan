@@ -1,0 +1,20 @@
+{
+    "spec_version": "v1.4",
+    "identifier"   : "AnyResContinued",
+    "$kref"        : "#/ckan/spacedock/1681",
+    "$vref"        : "#/ckan/ksp-avc",
+    "license"      : "CC-BY-4.0",
+    "depends": [
+      {
+        "name": "ToolbarController"
+      }
+    ],
+    "conflicts": [ { "name": "AnyRes" } ],
+    "install"      : [
+        {
+            "find"       : "AnyRes",
+            "install_to" : "GameData",
+            "filter"     : [ ".DS_Store" ]
+        }
+    ]
+}
