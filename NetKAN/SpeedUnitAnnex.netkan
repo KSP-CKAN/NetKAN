@@ -3,5 +3,9 @@
     "identifier":   "SpeedUnitAnnex",
     "$kref":        "#/ckan/spacedock/1662",
     "license":      "GPL-3.0",
-    "x_via":        "Automated SpaceDock CKAN submission"
+    "x_via":        "Automated SpaceDock CKAN submission",
+    "conflicts": [
+        { "name": "SpeedUnitChanger" },
+        { "name": "SpeedUnitDisplay" }
+    ]
 }
