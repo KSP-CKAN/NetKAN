@@ -9,7 +9,7 @@
         "repository": "https://github.com/ChrisAdderley/StationPartsExpansionRedux"
     },
     "depends": [
-        { "name": "ModuleManager  " },
+        { "name": "ModuleManager"   },
         { "name": "B9PartSwitch"    },
         { "name": "NearFutureProps" }
     ],
