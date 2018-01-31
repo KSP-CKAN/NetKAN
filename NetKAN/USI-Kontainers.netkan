@@ -1,0 +1,42 @@
+{
+	"spec_version"		: 1,
+	"identifier"		: "USI-Core",
+	"author"			: "pamidur",
+	"$kref"				: "#/ckan/github/UmbraSpaceIndustries/USI_Core",
+	"$vref"				: "#/ckan/ksp-avc",
+	"name"				: "USI Kontainers",
+	"abstract"			: "Kontainers only from USI-Core.",
+	"license"			: "restricted",
+	"release_status"	: "stable",
+	"resources": {
+		"homepage": "http://umbraspaceindustries.github.io/UmbraSpaceIndustries/"
+	},
+	"depends" : [
+		{
+			"name": "FirespitterCore",
+			"min_version": "v7.6.0"
+		},
+		{
+			"name": "ModuleManager",
+			"min_version": "2.8.0"
+		},
+		{
+			"name": "USITools",
+			"min_version": "0.9.0.0"
+		},
+		{
+			"name": "CommunityResourcePack",
+			"min_version": "0.7.0.0"
+		}
+	],
+	"conflicts" : [
+		{ "name": "SETI-CommunityTechTree" },
+		{ "name": "USI-Core" }
+	],
+	"install" : [
+		{
+			"file"			: "GameData/UmbraSpaceIndustries/Kontainers",
+			"install_to"	: "GameData/UmbraSpaceIndustries"
+		}
+	]
+}
