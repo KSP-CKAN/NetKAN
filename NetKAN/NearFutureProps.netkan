@@ -1,17 +1,24 @@
 {
-    "spec_version": "v1.4",
-    "identifier": "NearFutureProps",
-    "$kref": "#/ckan/spacedock/708",
-    "$vref": "#/ckan/ksp-avc",
-    "name": "Near Future IVA Props",
-    "abstract": "Props used to build IVA spaces in various mods by Nertea.",
-    "license": "CC-BY-NC-SA-4.0",
+    "spec_version":   "v1.4",
+    "identifier":     "NearFutureProps",
+    "name":           "Near Future IVA Props",
+    "abstract":       "Props used to build IVA spaces in various mods by Nertea.",
+    "$kref":          "#/ckan/github/ChrisAdderley/NearFutureProps",
+    "$vref":          "#/ckan/ksp-avc",
+    "x_netkan_epoch": "1",
+    "license":        "CC-BY-NC-SA-4.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/166941-*"
+    },
     "supports": [
-        { "name" : "NearFutureSpacecraft" },
-        { "name" : "StationPartsExpansion" }
+        { "name": "NearFutureSpacecraft"  },
+        { "name": "StationPartsExpansion" }
     ],
     "install": [
-        { "find" : "NearFutureProps", "install_to" : "GameData" }
+        {
+            "find":       "NearFutureProps",
+            "install_to": "GameData"
+        }
     ],
     "x_netkan_override": [
         {
