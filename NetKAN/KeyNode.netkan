@@ -1,0 +1,14 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "KeyNode",
+    "$kref":        "#/ckan/spacedock/1686",
+    "license":      "MIT",
+    "x_via":        "Automated SpaceDock CKAN submission",
+    "recommends": [
+        { "name": "MechJeb2" }
+    ],
+    "install": [ {
+        "find":       "XyphosAerospace",
+        "install_to": "GameData"
+    } ]
+}
