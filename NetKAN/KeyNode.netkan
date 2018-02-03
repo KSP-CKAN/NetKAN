@@ -4,7 +4,7 @@
     "$kref":        "#/ckan/spacedock/1686",
     "license":      "MIT",
     "x_via":        "Automated SpaceDock CKAN submission",
-    "recommends: [
+    "recommends": [
         { "name": "MechJeb2" }
     ],
     "install": [ {
