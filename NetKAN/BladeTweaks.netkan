@@ -1,0 +1,14 @@
+{
+    "spec_version" : "1.4",
+    "identifier"   : "BladeTweaks",
+	"abstract"     : "Simple tweak compilation updating cross section profiles for several parts.",
+    "$kref"        : "#/ckan/github/blade1981m/BladeTweaks",
+    "license"      : "LGPL-3.0",
+    "ksp_version"  : "any",
+	"depends" : [
+        { "name" : "ModuleManager" }
+    ],
+	"resources" : {
+		"repository"   : "https://github.com/blade1981m/BladeTweaks"
+	}
+}
