@@ -2,6 +2,7 @@
     "spec_version": "v1.4",
     "identifier":   "NotSoSimpleConstruction",
     "$kref":        "#/ckan/spacedock/1078",
+    "$vref":        "#/ckan/ksp-avc",
     "license":      "GPL-3.0",
     "x_via":        "Automated SpaceDock CKAN submission",
     "depends": [
