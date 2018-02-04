@@ -1,7 +1,16 @@
 {
     "spec_version": "v1.4",
-    "identifier": "NotSoSimpleConstruction",
-    "license": "GPL-3.0",
-    "$kref": "#/ckan/spacedock/1078",
-    "x_via": "Automated SpaceDock CKAN submission"
+    "identifier":   "NotSoSimpleConstruction",
+    "$kref":        "#/ckan/spacedock/1078",
+    "license":      "GPL-3.0",
+    "x_via":        "Automated SpaceDock CKAN submission",
+    "depends": [
+        { "name": "ModuleManager"      },
+        { "name": "SimpleConstruction" },
+        { "name": "KIS"                }
+    ],
+    "install": [ {
+        "find":       "NSSC",
+        "install_to": "GameData"
+    } ]
 }
