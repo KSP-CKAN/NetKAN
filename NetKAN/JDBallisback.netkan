@@ -12,5 +12,9 @@
            "file": "JatwaaDemolitionsCo",
            "install_to": "GameData"
         }
-    ] 
+    ],
+    "conflicts": [
+        { "name": "Ballistanks" },
+        { "name": "JDLiquidFuelCell" }
+    ]
 }
