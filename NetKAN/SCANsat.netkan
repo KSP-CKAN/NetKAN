@@ -16,8 +16,7 @@
         { "name": "RasterPropMonitor" }
     ],
     "conflicts": [
-        { "name": "ContractConfigurator-ScanSatLite" },
-        { "name": "Overdrive" }
+        { "name": "ContractConfigurator-ScanSatLite" }
     ],
     "resources": {
         "repository": "https://github.com/S-C-A-N/SCANsat"
