@@ -1,12 +1,16 @@
 {
-    "identifier": "Ballistanks",
     "spec_version": "v1.4",
-    "$kref": "#/ckan/spacedock/341",
-    "license": "MIT",
+    "identifier":   "Ballistanks",
+    "$kref":        "#/ckan/spacedock/341",
+    "license":      "MIT",
     "install": [
         {
-            "find"       : "JatwaaDemolitionsCo",
-            "install_to" : "GameData"
+            "find":       "JatwaaDemolitionsCo",
+            "install_to": "GameData"
         }
+    ],
+    "conflicts": [
+        { "name": "JDBallisback"     },
+        { "name": "JDLiquidFuelCell" }
     ]
 }
