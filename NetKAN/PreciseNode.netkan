@@ -15,6 +15,7 @@
             "releases" : true
         }
     },
+    "depends" : [ { "name" : "ClickThroughBlocker" } ],
     "install" : [
         {
             "find"       : "GameData/PreciseNode",
