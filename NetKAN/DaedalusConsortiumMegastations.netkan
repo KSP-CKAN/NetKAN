@@ -9,7 +9,7 @@
         "install_to": "GameData"
     } ],
     "recommends": [
-        { "name": "HangerExtender"           },
+        { "name": "HangerExtenderExtended"   },
         { "name": "PhysicsRangeExtender"     },
         { "name": "ExtraPlanetaryLaunchpads" }
     ]
