@@ -1,0 +1,42 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "DockingcameraKURSstyle",
+    "name": "Docking camera (KURS)",
+    "abstract": "Built-in cameras in docking ports and Part cameras for any place. Allows following usage modes: "standart camera",  "follow me", "look at current target" "look from target", "look at me" (from any point),",
+    "author": "DennyTX",
+    "license": "CC-BY-NC-SA-3.0",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/124475-112-docking-camera-kurs-style-09june16/",
+        "spacedock": "https://spacedock.info/mod/756/Docking%20camera%20(KURS)%20v.1.7.",
+        "repository": "https://github.com/DennyTX/DockingCam",
+        "x_screenshot": "https://spacedock.info/content/DennyTX_1511/Docking_camera_KURS_v.1.7/Docking_camera_KURS_v.1.7-1465418625.958153.png"
+    },
+    "version": "1:1.3.3.1",
+    "ksp_version_min": "1.3.1",
+    "ksp_version_max": "1.3.1",
+    "depends": [
+        {
+            "name": "ModuleManager"
+        }
+    ],
+        "recommends": [
+        {
+            "name": "Toolbar"
+        }
+    ]
+    "install": [
+        {
+            "find": "OLDD",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://spacedock.info/mod/756/Docking%20camera%20%28KURS%29%20v.1.7./download/1.3.3.1",
+    "download_size": 2933432,
+    "download_hash": {
+        "sha1": "31EABC1DEBC5713ACE2793CC866BB5D3EEC4733E",
+        "sha256": "8159D0240CC5045FAC856F103375D9D786D602446638B6EA3A348E363F5C7CD2"
+    },
+    "download_content_type": "application/zip",
+    "x_via": "Automated Linuxgurugamer CKAN script",
+    "x_generated_by": "netkan"
+}
