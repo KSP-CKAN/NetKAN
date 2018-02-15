@@ -1,6 +1,39 @@
 {
 	"spec_version": "v1.4",
 	"identifier": "StockalikeSolarSystem",
-	"$kref": "#/ckan/netkan/https://raw.githubusercontent.com/Sigma88/CKAN/master/Stockalike/StockalikeSolarSystem.netkan",
-	"x_netkan_license_ok": true
+	"$kref": "#/ckan/github/Sigma88/Stockalike/asset_match/Stockalike.*?\\.zip",
+	"$vref": "#/ckan/ksp-avc",
+	"name": "Stockalike Solar System",
+	"abstract": "This mod rearranges bodies from other mods to reproduce the Solar System but with a Kerbal style.",
+	"license": "restricted",
+	"author": "Sigma88",
+	"resources": {
+		"homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/131405-SASS/"
+	},
+	"depends": [
+		{ "name": "ModuleManager" },
+		{ "name": "Kopernicus", "version": "2:release-1.3.1.3" },
+		{ "name": "SigmaDimensions" },
+		{ "name": "SASS-DRP" },
+		{ "name": "SASS-NH" },
+		{ "name": "SASS-OPM" },
+		{ "name": "SASS-RevSS" },
+		{ "name": "SASS-RevJ" },
+		{ "name": "SASS-Saru" },
+		{ "name": "SASS-SE" },
+		{ "name": "SASS-ER" },
+		{ "name": "SASS-StockalikeNeptune" },
+		{ "name": "SASS-UL" }
+	],
+	"recommends": [
+		{ "name": "SigmaBinary-core" },
+		{ "name": "SigmaSciDefRenamer" },
+		{ "name": "Kronometer" }
+	],
+	"install": [
+		{
+			"find": "StockalikeSolarSystem",
+			"install_to": "GameData"
+		}
+	]
 }
