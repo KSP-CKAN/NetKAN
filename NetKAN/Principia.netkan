@@ -1,0 +1,25 @@
+{
+    "spec_version" : "v1.20",
+    "identifier"   : "Principia",
+    "name"         : "Principia",
+    "abstract"     : "Realistic N-Body Mechanics.",
+    "license"      : "MIT",
+    "ksp_version"  : "1.2.2",
+    "version"      : "2017082119",
+    "depends"      : [
+      { "name"     : "ModuleManager" },
+      { "name"     : "RealismOverhaul" },
+      { "name"     : "RealSolarSystem" }
+    ],
+    "resources"    : {
+        "homepage" : "http://forum.kerbalspaceprogram.com/index.php?/topic/162200-wip122-principia",
+        "repository" : "https://github.com/mockingbirdnest/principia"
+    },
+    "install"      : [
+        {
+            "file" : "GameData/Principia",
+            "install_to" : "GameData"
+        }
+    ],
+    "download"     : "https://drive.google.com/uc?id=0B4y-shYXMH9BWjdEUVpwU0tOdmM&export=download"
+}
