@@ -28,7 +28,7 @@
 	"recommends": [
 		{ "name": "SigmaBinary-core", "version": "v1.6.9" },
 		{ "name": "SigmaSciDefRenamer" },
-		{ "name": "Kronometer", "version": "v1.3.1-1" },
+		{ "name": "Kronometer", "version": "v1.3.1-1" }
 	],
 	"install": [
 		{
