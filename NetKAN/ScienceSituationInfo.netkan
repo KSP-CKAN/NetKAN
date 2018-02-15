@@ -2,8 +2,9 @@
     "spec_version": 1,
     "identifier": "ScienceSituationInfo",
     "license": "CC-BY-NC",
-    "$kref": "#/ckan/kerbalstuff/1172",
-    "ksp_version"	:	"1.0.4",
+    "$kref": "#/ckan/kerbalstuff/1008",
+    "ksp_version"	:	"1.3.1",
+    "version": "1.3.1.1",
     "install": [
         {
             "file"       : "OLDD",
