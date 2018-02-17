@@ -1,7 +1,16 @@
 {
     "spec_version": "v1.4",
-    "identifier": "KSPSerialIOLinuxandMacPort",
-    "license": "MIT",
-    "$kref": "#/ckan/spacedock/1699",
-    "x_via": "Automated SpaceDock CKAN submission"
+    "identifier":   "KSPSerialIOLinuxandMacPort",
+    "$kref":        "#/ckan/spacedock/1699",
+    "license":      "MIT",
+    "x_via":        "Automated SpaceDock CKAN submission",
+    "install": [ {
+        "find":       "KSPSerialIO",
+        "install_to": "GameData"
+    } ],
+    "conflicts": [
+        { "name": "SerialIO"                 },
+        { "name": "KSPSerialIOcrossplatform" },
+        { "name": "SerialIO-MacLinuxWin"     }
+    ]
 }
