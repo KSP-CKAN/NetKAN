@@ -7,7 +7,6 @@
     }
   ],
   "depends": [
-      { "name": "Firespitter" }, 
       { "name": "ModuleManager" }
   ],
   "recommends": [

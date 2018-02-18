@@ -1,0 +1,23 @@
+{
+   "spec_version":1,
+   "identifier":"KSPLogiRGB-battlemoose",
+   "$kref":"#/ckan/github/battlemoose/ksp-logirgb",
+   "$vref":"#/ckan/ksp-avc",
+   "license":"GPL-3.0",
+   "name":"KSP Logitech RGB Control",
+   "abstract":"Lights up your keyboard to show you all the functions your vessel actually has. Requires a Logitech Full-RGB keyboard to work.",
+   "resources":{
+      "homepage":"https://forum.kerbalspaceprogram.com/index.php?/topic/169895-131-ksp-logitech-rgb-control-v102-2018-01-21",
+      "repository":"https://github.com/battlemoose/ksp-logirgb"
+   },
+   "install":[
+      {
+         "file":"GameData/KSPLogiRGB",
+         "install_to":"GameData"
+      },
+      {
+         "file":"lib64/LogitechLedEnginesWrapper.dll",
+         "install_to":"GameRoot"
+      }
+   ]
+}

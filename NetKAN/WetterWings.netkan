@@ -1,0 +1,14 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "WetterWings",
+    "$kref":        "#/ckan/spacedock/1665",
+    "license":      "MIT",
+    "x_via":        "Automated SpaceDock CKAN submission",
+    "install": [ {
+        "find":       "WetterWingsMM",
+        "install_to": "GameData"
+    } ],
+    "depends": [
+        { "name": "ModuleManager" }
+    ]
+}

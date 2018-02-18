@@ -1,0 +1,16 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "DaedalusConsortiumMegastations",
+    "$kref":        "#/ckan/spacedock/1694",
+    "license":      "CC-BY-NC-SA-4.0",
+    "x_via":        "Automated SpaceDock CKAN submission",
+    "install": [ {
+        "find":       "DaedalusConsortium",
+        "install_to": "GameData"
+    } ],
+    "recommends": [
+        { "name": "HangerExtenderExtended"   },
+        { "name": "PhysicsRangeExtender"     },
+        { "name": "ExtraPlanetaryLaunchpads" }
+    ]
+}

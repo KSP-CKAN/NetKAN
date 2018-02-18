@@ -3,16 +3,15 @@
   "install": [
     {
       "install_to": "GameData",
-      "find": "BahaSP"
+      "find": "HaystackContinued"
     }
   ],
   "depends": [
-    { "name": "KSPWheel" },
-    { "name": "BDAnimationModules" }
+    { "name" : "ToolbarController" }
   ],
   "$vref": "#/ckan/ksp-avc",
-  "$kref": "#/ckan/spacedock/1641",
+  "$kref": "#/ckan/spacedock/1680",
   "x_via": "Automated Linuxgurugamer CKAN script",
-  "identifier": "CritterCrawler",
-  "license": "CC-BY-SA"
+  "identifier": "HaystackReContinued",
+  "license": "MIT"
 }
