@@ -7,10 +7,8 @@
     }
   ],
   "depends": [
-    {
-      "name": "KSPWheel",
-      "name": "BDAnimationModules"
-    }
+    { "name": "KSPWheel" },
+    { "name": "BDAnimationModules" }
   ],
   "$vref": "#/ckan/ksp-avc",
   "$kref": "#/ckan/spacedock/1641",
