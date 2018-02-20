@@ -1,7 +1,14 @@
 {
     "spec_version": "v1.4",
-    "identifier": "BahaEPLRedrilled",
-    "license": "Creative Commons 4.0 International",
-    "$kref": "#/ckan/spacedock/1708",
-    "x_via": "Automated SpaceDock CKAN submission"
+    "identifier":   "BahaEPLRedrilled",
+    "$kref":        "#/ckan/spacedock/1708",
+    "license":      "Creative Commons 4.0 International",
+    "x_via":        "Automated SpaceDock CKAN submission",
+    "depends": [
+        { "name": "InterstellarFuelSwitch" }
+    ],
+    "install": [ {
+        "find":       "BahaEPL",
+        "install_to": "GameData"
+    } ]
 }
