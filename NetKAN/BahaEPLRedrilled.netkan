@@ -1,0 +1,25 @@
+{
+  "spec_version": "v1.4",
+  "install": [
+    {
+      "install_to": "GameData",
+      "find": "BahaEPL"
+    }
+  ],
+  "depends": [
+    {
+      "name": "InterstellarFuelSwitch"
+    },
+    {
+      "name": "ModuleManager"
+    },
+    {
+      "name": "FirespitterCore"
+    }
+  ],
+  "$vref": "#/ckan/ksp-avc",
+  "$kref": "#/ckan/spacedock/1708",
+  "x_via": "Automated Linuxgurugamer CKAN script",
+  "identifier": "BahaEPLRedrilled",
+  "license": "unknown"
+}
