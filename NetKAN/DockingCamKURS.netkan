@@ -1,5 +1,5 @@
 {
-  "license": "CC-BY-NC-SA-3.0",
+  "license": "CC-BY-NC-SA-4.0",
   "identifier": "DockingCamKURS",
   "x_via": "Automated Linuxgurugamer CKAN script",
   "$kref": "#/ckan/spacedock/1542",
@@ -12,7 +12,7 @@
   "conflicts" : [ { "name" : "DockingcameraKURSstyle" } ],
   "install": [
     {
-      "find": "DockingCam",
+      "find": "OLDD",
       "install_to": "GameData"
     }
   ],
