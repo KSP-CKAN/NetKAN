@@ -5,9 +5,8 @@
     "$vref"        : "#/ckan/ksp-avc",
     "license"      : "CC-BY-4.0",
     "depends": [
-      {
-        "name": "ToolbarController"
-      }
+      { "name": "ToolbarController" },
+      { "name": "ClickThroughBlocker" }
     ],
     "conflicts": [ { "name": "AnyRes" } ],
     "install"      : [
