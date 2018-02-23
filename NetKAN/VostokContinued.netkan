@@ -2,6 +2,7 @@
     "spec_version": "v1.16",
     "identifier":   "VostokContinued",
     "name":         "Vostok Continued",
+    "abstract":     "A set of parts designed to re-create the Vostok spacecraft and Blok-E upper stage in a stockalike style",
     "$kref":        "#/ckan/github/IronCretin/Vostok-Continued",
     "license":      "CC-BY-NC-SA-4.0",
     "ksp_version":  "any",
