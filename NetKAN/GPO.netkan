@@ -1,31 +1,32 @@
 {
-    "$kref": "#/ckan/spacedock/1247",
-    "identifier": "GPO",
-    "license": "CC-BY-SA-3.0",
     "spec_version": "v1.4",
+    "identifier":   "GPO",
+    "name":         "Gameslinx Planet Overhaul",
+    "$kref":        "#/ckan/spacedock/1247",
+    "license":      "CC-BY-NC-ND-4.0",
     "resources": {
-        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/155740-13-gameslinxs-planet-overhaul"
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/155740-*"
     },
     "depends": [
-        { "name": "CommunityTerrainTexturePack" },
+        { "name": "ModuleManager"                   },
+        { "name": "Kopernicus"                      },
+        { "name": "CommunityTerrainTexturePack"     },
         { "name": "EnvironmentalVisualEnhancements" },
-        { "name": "Kopernicus" },
-        { "name": "LoadingScreenManager" },
-        { "name": "ModularFlightIntegrator" },
-        { "name": "Scatterer" }
+        { "name": "ModularFlightIntegrator"         },
+        { "name": "KS3P"                            },
+        { "name": "INSTANTIATOR"                    },
+        { "name": "Scatterer"                       }
     ],
     "recommends": [
-        { "name": "DistantObject" },
+        { "name": "DistantObject"   },
         { "name": "TextureReplacer" }
     ],
     "provides": [
         "EnvironmentalVisualEnhancements-Config",
         "Scatterer-config"
     ],
-    "install": [
-        {
-            "find":       "GPO",
-            "install_to": "GameData"
-        }
-    ]
+    "install": [ {
+        "find":       "GPO",
+        "install_to": "GameData"
+    } ]
 }
