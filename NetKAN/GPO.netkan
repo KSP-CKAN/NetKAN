@@ -13,7 +13,7 @@
         { "name": "CommunityTerrainTexturePack"     },
         { "name": "EnvironmentalVisualEnhancements" },
         { "name": "ModularFlightIntegrator"         },
-        { "name": "Scatterer"                       },
+        { "name": "Scatterer"                       }
     ],
     "recommends": [
         { "name": "DistantObject"   },
