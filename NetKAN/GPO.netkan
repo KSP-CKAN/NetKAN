@@ -1,50 +1,32 @@
 {
-    "$kref": "#/ckan/spacedock/1247",
-    "identifier": "Gameslinx Planet Overhaul",
-    "license": "CC-BY-NC-ND 4.0",
-    "spec_version": "3.2",
+    "spec_version": "v1.4",
+    "identifier":   "GPO",
+    "name":         "Gameslinx Planet Overhaul",
+    "$kref":        "#/ckan/spacedock/1247",
+    "license":      "CC-BY-NC-ND-4.0",
     "resources": {
-        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/155740-13-gameslinxs-planet-overhaul"
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/155740-*"
     },
     "depends": [
-        { "name": "CommunityTerrainTexturePack" },
+        { "name": "CommunityTerrainTexturePack"     },
         { "name": "EnvironmentalVisualEnhancements" },
-        { "name": "Kopernicus" },
-        { "name": "LoadingScreenManager" },
-        { "name": "ModularFlightIntegrator" },
-        { "name": "Scatterer" }
+        { "name": "Kopernicus"                      },
+        { "name": "ModularFlightIntegrator"         },
+        { "name": "Scatterer"                       },
+        { "name": "TextureReplacer"                 }
     ],
     "recommends": [
-        { "name": "DistantObject" },
+        { "name": "DistantObject" }
     ],
     "provides": [
         "EnvironmentalVisualEnhancements-Config",
         "Scatterer-config"
     ],
-    "install": [
-        {
-            "file":       "GPO",
-            "install_to": "GameData"
-        }
-		{
-            "file":       "KS3P",
-            "install_to": "GameData"
-        }
-		{
-            "file":       "INSTANTIATOR",
-            "install_to": "GameData"
-        }
-		{
-            "file":       "LoadingScreens",
-            "install_to": "GameData"
-        }
-		{
-            "file":       "Screamer",
-            "install_to": "GameData"
-        }
-		{
-            "file":       "TextureReplacer",
-            "install_to": "GameData"
-        }
-    ]
+    "install": [ {
+        "find":       "GPO",
+        "install_to": "GameData"
+    }, {
+        "find":       "Screamer",
+        "install_to": "GameData"
+    } ]
 }
