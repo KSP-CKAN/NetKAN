@@ -28,8 +28,5 @@
     "install": [ {
         "find":       "GPO",
         "install_to": "GameData"
-    }, {
-        "find":       "Screamer",
-        "install_to": "GameData"
     } ]
 }
