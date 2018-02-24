@@ -1,0 +1,15 @@
+{
+	"spec_version": "v1.16",
+	"identifier":   "INSTANTIATOR",
+	"$kref":        "#/ckan/spacedock/1624",
+	"license":      "MIT",
+	"resources": {
+		"homepage":   "https://forum.kerbalspaceprogram.com/index.php?/topic/168992-*",
+		"repository": "https://github.com/TheWhiteGuardian/Unofficial_INSTANTIATOR"
+	},
+	"install": [ {
+		"find":       "INSTANTIATOR",
+		"install_to": "GameData",
+		"filter":     [ "ExampleConfig.cfg" ]
+	} ]
+}
