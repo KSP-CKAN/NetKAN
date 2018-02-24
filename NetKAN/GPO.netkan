@@ -1,8 +1,8 @@
 {
     "$kref": "#/ckan/spacedock/1247",
-    "identifier": "GPO",
-    "license": "CC-BY-SA-3.0",
-    "spec_version": "v1.4",
+    "identifier": "Gameslinx Planet Overhaul",
+    "license": "CC-BY-NC-ND 4.0",
+    "spec_version": "3.2",
     "resources": {
         "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/155740-13-gameslinxs-planet-overhaul"
     },
@@ -16,7 +16,6 @@
     ],
     "recommends": [
         { "name": "DistantObject" },
-        { "name": "TextureReplacer" }
     ],
     "provides": [
         "EnvironmentalVisualEnhancements-Config",
@@ -24,7 +23,27 @@
     ],
     "install": [
         {
-            "find":       "GPO",
+            "file":       "GPO",
+            "install_to": "GameData"
+        }
+		{
+            "file":       "KS3P",
+            "install_to": "GameData"
+        }
+		{
+            "file":       "INSTANTIATOR",
+            "install_to": "GameData"
+        }
+		{
+            "file":       "LoadingScreens",
+            "install_to": "GameData"
+        }
+		{
+            "file":       "Screamer",
+            "install_to": "GameData"
+        }
+		{
+            "file":       "TextureReplacer",
             "install_to": "GameData"
         }
     ]
