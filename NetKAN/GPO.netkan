@@ -8,15 +8,16 @@
         "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/155740-*"
     },
     "depends": [
+        { "name": "ModuleManager"                   },
+        { "name": "Kopernicus"                      },
         { "name": "CommunityTerrainTexturePack"     },
         { "name": "EnvironmentalVisualEnhancements" },
-        { "name": "Kopernicus"                      },
         { "name": "ModularFlightIntegrator"         },
         { "name": "Scatterer"                       },
-        { "name": "TextureReplacer"                 }
     ],
     "recommends": [
-        { "name": "DistantObject" }
+        { "name": "DistantObject"   },
+        { "name": "TextureReplacer" }
     ],
     "provides": [
         "EnvironmentalVisualEnhancements-Config",
