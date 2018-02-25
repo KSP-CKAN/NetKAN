@@ -16,8 +16,9 @@
          "install_to": "GameData"
       },
       {
-         "find":       "lib64/LogitechLedEnginesWrapper.dll",
-         "install_to": "GameRoot"
+         "find":               "lib64/LogitechLedEnginesWrapper.dll",
+         "install_to":         "GameRoot",
+         "find_matches_files": true
       }
    ]
 }
