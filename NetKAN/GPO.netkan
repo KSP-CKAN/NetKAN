@@ -1,12 +1,16 @@
 {
-    "spec_version": "v1.4",
+    "spec_version": "3.2.4",
     "identifier":   "GPO",
     "name":         "Gameslinx Planet Overhaul",
-    "$kref":        "#/ckan/spacedock/1247",
+    "author":       "Gameslinx",
+    "abstract":     "A large planet mod which comes with its own suite of visuals for your enjoyment. This mod adds 28 new worlds to explore.",
+    "ksp_version":  "1.3.1",
     "license":      "CC-BY-NC-ND-4.0",
     "resources": {
         "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/155740-*"
     },
+    "$vref": "#/ckan/ksp-avc",
+    "$kref": "#/ckan/github/Gameslinx/Gameslinx-Planet-Overhaul",
     "depends": [
         { "name": "ModuleManager"                   },
         { "name": "Kopernicus"                      },
@@ -15,11 +19,14 @@
         { "name": "ModularFlightIntegrator"         },
         { "name": "KS3P"                            },
         { "name": "INSTANTIATOR"                    },
-        { "name": "Scatterer"                       }
+        { "name": "Scatterer"                       },
+        { "name": "SigmaReplacements-SkyBox"        }
+    ],
+    "conflicts": [
+	{ "name": "GPP" }
     ],
     "recommends": [
-        { "name": "DistantObject"   },
-        { "name": "TextureReplacer" }
+        { "name": "DistantObject"   }
     ],
     "provides": [
         "EnvironmentalVisualEnhancements-Config",
