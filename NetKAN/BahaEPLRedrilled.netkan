@@ -8,7 +8,7 @@
   ],
   "depends": [
     {
-      "name": "InterstellarFuelSwitch"
+      "name": "InterstellarFuelSwitch-Core"
     },
     {
       "name": "ModuleManager"

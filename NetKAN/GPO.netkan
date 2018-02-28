@@ -1,31 +1,37 @@
 {
-    "$kref": "#/ckan/spacedock/1247",
-    "identifier": "GPO",
-    "license": "CC-BY-SA-3.0",
     "spec_version": "v1.4",
+    "identifier":   "GPO",
+    "name":         "Gameslinx Planet Overhaul",
+    "author":       "Gameslinx",
+    "abstract":     "A large planet mod which comes with its own suite of visuals for your enjoyment. This mod adds 28 new worlds to explore.",
+    "license":      "CC-BY-NC-ND-4.0",
     "resources": {
-        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/155740-13-gameslinxs-planet-overhaul"
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/155740-*"
     },
+    "$vref": "#/ckan/ksp-avc",
+    "$kref": "#/ckan/github/Gameslinx/Gameslinx-Planet-Overhaul",
     "depends": [
-        { "name": "CommunityTerrainTexturePack" },
-        { "name": "EnvironmentalVisualEnhancements" },
-        { "name": "Kopernicus" },
-        { "name": "LoadingScreenManager" },
-        { "name": "ModularFlightIntegrator" },
-        { "name": "Scatterer" }
+        { "name": "Kopernicus"                      },
+        { "name": "CommunityTerrainTexturePack"     },
+        { "name": "INSTANTIATOR"                    }
+    ],
+    "conflicts": [
+	{ "name": "GPP" }
     ],
     "recommends": [
-        { "name": "DistantObject" },
-        { "name": "TextureReplacer" }
+        { "name": "SigmaReplacements-SkyBox"        }
+    ],
+    "suggests": [
+    	{ "name": "EnvironmentalVisualEnhancements" },
+	{ "name": "Scatterer"       	            },
+	{ "name": "KS3P"                            }
     ],
     "provides": [
         "EnvironmentalVisualEnhancements-Config",
         "Scatterer-config"
     ],
-    "install": [
-        {
-            "find":       "GPO",
-            "install_to": "GameData"
-        }
-    ]
+    "install": [ {
+        "find":       "GPO",
+        "install_to": "GameData"
+    } ]
 }

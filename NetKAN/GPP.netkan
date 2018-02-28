@@ -1,8 +1,8 @@
 {
-	"spec_version": "v1.4",
-	 "x_netkan_epoch": 1,
-	"identifier": "GPP",
-	"$kref": "#/ckan/netkan/https://raw.githubusercontent.com/Galileo88/Galileos-Planet-Pack/master/CKAN/GPP.netkan",
-	"x_netkan_license_ok": true,
 
+    "spec_version": "v1.4",
+    "identifier":   "GPP",
+    "x_netkan_epoch": 1,
+    "$kref":        "#/ckan/netkan/https://raw.githubusercontent.com/Galileo88/Galileos-Planet-Pack/master/CKAN/GPP.netkan",
+    "x_netkan_license_ok": true
 }
