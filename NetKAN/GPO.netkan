@@ -13,6 +13,7 @@
     "depends": [
         { "name": "Kopernicus"                      },
         { "name": "CommunityTerrainTexturePack"     },
+	{ "name": "Scatterer"       	            },
         { "name": "INSTANTIATOR"                    }
     ],
     "conflicts": [
@@ -23,7 +24,6 @@
     ],
     "suggests": [
     	{ "name": "EnvironmentalVisualEnhancements" },
-	{ "name": "Scatterer"       	            },
 	{ "name": "KS3P"                            }
     ],
     "provides": [
