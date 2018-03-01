@@ -14,6 +14,7 @@
         { "name": "Kopernicus"                      },
         { "name": "CommunityTerrainTexturePack"     },
 	{ "name": "Scatterer"       	            },
+	{ "name": "Scatterer-config"       	    },
         { "name": "INSTANTIATOR"                    }
     ],
     "conflicts": [
@@ -28,7 +29,7 @@
     ],
     "provides": [
         "EnvironmentalVisualEnhancements-Config",
-        "Scatterer-config"
+        "Scatterer-sunflare"
     ],
     "install": [ {
         "find":       "GPO",
