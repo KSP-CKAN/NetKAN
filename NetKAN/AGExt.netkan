@@ -12,7 +12,8 @@
         "homepage" : "https://forum.kerbalspaceprogram.com/index.php?/topic/167269-1"
     },
     "depends": [
-        { "name": "ModuleManager" }
+        { "name": "ModuleManager" },
+        { "name": "ClickThroughBlocker" }
     ],
     "recommends" : [ { "name" : "Toolbar" } ],
     "install" : [
