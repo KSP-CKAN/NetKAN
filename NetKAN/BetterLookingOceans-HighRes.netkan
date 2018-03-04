@@ -1,9 +1,9 @@
 {
     "spec_version": "v1.4",
-    "$kref": "#/ckan/github/Galileo88/Better-Looking-Oceans/asset_match/BLO_Low.zip",
+    "$kref": "#/ckan/github/Galileo88/Better-Looking-Oceans/asset_match/BLO_High.zip",
 	"$vref": "#/ckan/ksp-avc",
-    "identifier": "BetterLookinOceans-LowRes",
-    "name": "Better Looking Oceans - Low Resolution",
+    "identifier": "BetterLookingOceans-HighRes",
+    "name": "Better Looking Oceans - High Resolution",
     "abstract": "High quality, stock alike alternative to Scatterer's ocean shader",
     "license": "CC-BY-NC-ND",
     "release_status": "stable",
@@ -14,10 +14,10 @@
     ],
     "conflicts": [
         {
-			"name": "BetterLookinOceans-HighRes"
+			"name": "BetterLookingOceans-MedRes"
         },
 		{
-            "name": "BetterLookinOceans-MedRes"
+            "name": "BetterLookingOceans-LowRes"
         }
     ],
     "install": [
