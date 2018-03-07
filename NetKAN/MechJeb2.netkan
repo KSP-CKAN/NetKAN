@@ -21,7 +21,13 @@
             "install_to": "GameData"
         }
     ],
-    "x_netkan_override": [
+    "x_netkan_override": [    
+        {
+            "version": "2.7.0.0",
+            "override": {
+                "ksp_version" : "1.3"
+            }
+        },
         {
             "version": "2.6.0.0",
             "override": {
