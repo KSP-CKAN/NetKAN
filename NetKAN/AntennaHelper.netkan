@@ -6,6 +6,7 @@
       "find": "AntennaHelper"
     }
   ],
+  "depends": [ { "name": "ToolbarController" } ],
   "$vref": "#/ckan/ksp-avc",
   "$kref": "#/ckan/github/Li0n-0/Antenna-Helper/releases",
   "x_via": "Automated Linuxgurugamer CKAN script",
