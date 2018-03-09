@@ -8,7 +8,7 @@
   ],
   "depends": [ { "name": "ToolbarController" } ],
   "$vref": "#/ckan/ksp-avc",
-  "$kref": "#/ckan/github/Li0n-0/Antenna-Helper/releases",
+  "$kref": "#/ckan/github/Li0n-0/Antenna-Helper",
   "x_via": "Automated Linuxgurugamer CKAN script",
   "identifier": "AntennaHelper",
   "license": "MIT"
