@@ -7,5 +7,19 @@
     "install": [ {
         "find":       "KMO",
         "install_to": "GameData"
-    } ]
+    } ],
+    "depends": [
+        { "name": "PatchManager"             },
+        { "name": "UKS"                      },
+        { "name": "USI-LS"                   },
+        { "name": "ExtraPlanetaryLaunchpads" }
+    ],
+    "recommends": [        
+        { "name": "OSEWorkShopCont"                },
+        { "name": "KeridianDynamicsVesselAssembly" }
+    ],
+    "suggests": [
+        { "name": "KIS" },
+        { "name": "KAS" }
+    ]
 }
