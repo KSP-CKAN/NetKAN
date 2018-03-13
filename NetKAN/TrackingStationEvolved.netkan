@@ -1,7 +1,8 @@
 {
-    "identifier": "TrackingStationEvolved",
-    "x_via": "Automated SpaceDock CKAN submission",
-    "$kref": "#/ckan/spacedock/1738",
     "spec_version": "v1.4",
-    "license": "MIT"
+    "identifier":   "TrackingStationEvolved",
+    "$kref":        "#/ckan/spacedock/1738",
+    "$vref":        "#/ckan/ksp-avc",
+    "license":      "MIT",
+    "x_via":        "Automated SpaceDock CKAN submission",
 }
