@@ -1,0 +1,47 @@
+{
+    "spec_version": "v1.4",
+    "$kref": "#/ckan/github/Galileo88/FlareReplacer/asset_match/FlareReplacer-Avrams.zip",
+	"$vref": "#/ckan/ksp-avc",
+    "identifier": "FlareReplacer-Avrams",
+    "name": "FlareReplacer-Avrams",
+    "abstract": "Replaces the stock sun flare without using Scatterer.",
+    "license": "CC-BY-NC-ND",
+    "release_status": "stable",
+    "depends": [
+        {
+            "name": "Kopernicus"
+        }
+    ],
+    "conflicts": [
+        {
+			"name": "scatterer"
+        },
+        {
+			"name": "FlareReplacer-Aichmiros"
+        },
+		{
+			"name": "FlareReplacer-Classico"
+        },
+		{
+			"name": "FlareReplacer-Fusion"
+        },
+		{
+			"name": "FlareReplacer-Grande"
+        },
+		{
+			"name": "FlareReplacer-Megalo"
+        },
+		{
+			"name": "FlareReplacer-Mellontikos"
+        },
+		{
+			"name": "FlareReplacer-Omorfia"
+        }
+    ],
+    "install": [
+        {
+            "find": "GameData/FlareReplacer",
+            "install_to": "GameData"
+        }
+    ]
+}
