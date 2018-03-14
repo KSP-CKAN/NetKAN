@@ -1,7 +1,8 @@
 {
     "spec_version": "v1.4",
-    "identifier": "OldPartsRedux",
-    "license": "MIT",
-    "$kref": "#/ckan/spacedock/1744",
-    "x_via": "Automated SpaceDock CKAN submission"
+    "identifier":   "OldPartsRedux",
+    "$kref":        "#/ckan/spacedock/1744",
+    "$vref":        "#/ckan/ksp-avc",
+    "license":      "MIT",
+    "x_via":        "Automated SpaceDock CKAN submission"
 }
