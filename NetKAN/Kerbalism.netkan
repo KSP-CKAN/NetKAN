@@ -14,5 +14,21 @@
     "recommends": [
         { "name": "DeepFreeze" },
         { "name": "UniversalStorage" }
+    ],
+    "supports": [
+        { "name": "AntennaRange" },
+        { "name": "CommunityResourcePack" },
+        { "name": "ConnectedLivingSpace" },
+        { "name": "CryoTanks" },
+        { "name": "DangIt" },
+        { "name": "KerbalAtomics" },
+        { "name": "KerbalPlanetaryBaseSystems" },
+        { "name": "NearFutureElectrical" },
+        { "name": "NearFutureSolar" },
+        { "name": "NearFutureSpacecraft" },
+        { "name": "origameFoldableAssets" },
+        { "name": "RemoteTech" },
+        { "name": "SCANsat" },
+        { "name": "VenStockRevamp" }
     ]
 }
