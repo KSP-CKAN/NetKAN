@@ -13,7 +13,7 @@
     "depends": [
         { "name": "InfernalRobotics", "version_min": "0.19.4" },
         { "name": "IR-Model-Rework-Core" },
-        { "name": "TweakableEverythingCont" },
+        { "name": "TweakableEverything" },
         { "name": "ToadicusTools" }
     ],
     "recommends": [
