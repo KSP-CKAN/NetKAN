@@ -4,5 +4,9 @@
     "$kref":        "#/ckan/spacedock/1746",
     "$vref":        "#/ckan/ksp-avc",
     "license":      "MIT",
-    "x_via":        "Automated SpaceDock CKAN submission"
+    "x_via":        "Automated SpaceDock CKAN submission",
+    "depends": [
+        { "name": "ModuleManager" },
+        { "name": "MagiCore"      }
+    ]
 }
