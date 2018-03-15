@@ -17,6 +17,10 @@
             "name": "KSP-AVC"
         }
     ],
+    "depends": [
+        { "name" : "ToolbarController" },
+	{ "name" : "ClickThroughBlocker" }
+    ],
     "conflicts"      : [ { "name" : "RCSBuildAid" } ],
     "install": [
         {
