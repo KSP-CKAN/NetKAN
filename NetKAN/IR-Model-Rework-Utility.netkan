@@ -27,7 +27,7 @@
         {
             "find": "MagicSmokeIndustries",
             "install_to": "GameData",
-            "filter": [ "IRActiveStruts", "Rework_Core", "Rework_Expansion", "Rework_License.txt" ]
+            "filter": [ "IRActiveStruts", "Rework_Core", "Rework_Expansion", "Rework_License.txt", "Rework_TweakScale.cfg" ]
         }
     ],
     "download": "https://drive.google.com/uc?export=download&id=0B9f5PHcywXQINzQ3UC1aLVNBZk0"
