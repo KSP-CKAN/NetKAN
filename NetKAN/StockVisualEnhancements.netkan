@@ -18,11 +18,11 @@
     ],
     "depends": [
         { "name": "SVE-Textures" },
-        { "name": "Scatterer" },
         { "name": "EnvironmentalVisualEnhancements" },
         { "name": "ModuleManager"}
     ],
     "recommends": [
+        { "name": "Scatterer" },
         { "name": "DistantObject" },
         { "name": "PlanetShine" }
     ],
