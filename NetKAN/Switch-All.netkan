@@ -3,5 +3,12 @@
     "identifier":   "Switch-All",
     "$kref":        "#/ckan/spacedock/1710",
     "license":      "MIT",
-    "x_via":        "Automated SpaceDock CKAN submission"
+    "x_via":        "Automated SpaceDock CKAN submission",
+    "install": [
+        {
+            "find": "Switch-All",
+            "install_to": "GameData",
+            "filter": [ ".directory", "BeamedPower.xlsx", "KSPIE Brandwidths.xlsx" ]
+        }
+    ]
 }
