@@ -3,5 +3,11 @@
     "identifier": "DKIProjectStellarTechnologies",
     "license": "MIT",
     "$kref": "#/ckan/spacedock/1683",
-    "x_via": "Automated SpaceDock CKAN submission"
+    "x_via": "Automated SpaceDock CKAN submission",
+    "install": [
+        {
+            "find": "DKITech",
+            "install_to": "GameData"
+        }
+    ]
 }
