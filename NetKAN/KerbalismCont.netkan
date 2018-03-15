@@ -1,0 +1,24 @@
+{
+    "spec_version": 1,
+    "identifier": "KerbalismCont",
+    "$kref": "#/ckan/spacedock/1749",
+    "$vref": "#/ckan/ksp-avc",
+    "license": "Unlicense",
+    "author": [ "ShotgunNinja", "N70" ],
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/172400-141-kerbalism-v13/"
+    },
+    "depends": [
+        { "name": "ModuleManager" }
+    ],
+    "recommends": [
+        { "name": "DeepFreeze" },
+        { "name": "UniversalStorage" }
+    ],
+    "install": [
+        {
+            "file": "GameData/Kerbalism",
+            "install_to": "GameData"
+        }
+    ]
+}
