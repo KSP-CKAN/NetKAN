@@ -1,0 +1,20 @@
+{
+  "spec_version": "v1.4",
+  "license": "CC-BY-NC-SA-4.0",
+  "identifier": "StructuralTubing",
+  "x_via": "Automated Linuxgurugamer CKAN script",
+  "$kref": "#/ckan/spacedock/1753",
+  "$vref": "#/ckan/ksp-avc",
+  "resources": {
+    "repository": "https://github.com/linuxgurugamer/StructuralTubingRestructured",
+    "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/172505-141-structural-tubing-restructured/"
+  },
+  "depends": [ { "name": "ModuleManager" } ],
+  "suggests": [ { "name": "TweakScale" } ],
+  "install": [
+    {
+      "install_to": "GameData",
+      "find": "DKSalvage"
+    }
+  ]
+}
