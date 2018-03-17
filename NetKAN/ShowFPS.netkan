@@ -1,7 +1,7 @@
 {
     "spec_version": "v1.4",
     "identifier": "ShowFPS",
-    "ksp_version": "1.1",
+    "$kref": "#/ckan/curse/220663",
     "resources": 
     {
         "homepage": "http://www.curse.com/ksp-mods/kerbal/220663-showfps"
@@ -10,8 +10,6 @@
     "license": "LGPL-3.0",
     "abstract": "Simple framerate counter, enable with F8.",
     "author": "m4v",
-    "version": "v1.1",
-    "download": "http://kerbal.curseforge.com/projects/showfps/files/2297168/download",
     "install": [
         { 
             "file" : "ShowFPS",
