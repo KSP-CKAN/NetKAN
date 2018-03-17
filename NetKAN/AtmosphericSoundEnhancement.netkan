@@ -2,6 +2,7 @@
     "spec_version": 1,
     "identifier": "AtmosphericSoundEnhancement",
     "name": "Atmospheric Sound Enhancement",
+    "$kref": "#/ckan/curse/221011",
     "abstract": "Adds the effects of the density, temperature and relative speed of the atmosphere to craft sounds.",
     "author": "pizzaoverhead",
     "license": "GPL-2.0",
@@ -9,9 +10,5 @@
         "homepage": "http://forum.kerbalspaceprogram.com/threads/56405",
         "repository": "https://github.com/pizzaoverhead/AtmosphericSoundEnhancement",
         "bugtracker": "https://github.com/pizzaoverhead/AtmosphericSoundEnhancement/issues"
-    },
-    "version": "2.2",
-    "ksp_version_min": "1.0.0",
-    "ksp_version_max": "1.0.4",
-    "download": "http://addons-origin.cursecdn.com/files/2237/18/AtmosphericSoundEnhancementv2.2.zip"
+    }
 }

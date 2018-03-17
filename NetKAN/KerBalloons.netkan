@@ -3,18 +3,16 @@
     "identifier": "KerBalloons",
     "name": "KerBalloons",
     "abstract": "Adds various balloons to KSP",
+    "$kref": "#/ckan/curse/237087",
     "author": "JoePatrick1",
     "license": "restricted",
     "resources": {
         "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/107432-kerballoons"
     },
-    "version": "v0.4.3",
-    "ksp_version": "1.3",
     "install": [
         {
             "file": "KerBalloons",
             "install_to": "GameData"
         }
-    ],
-    "download": "https://addons-origin.cursecdn.com/files/2452/453/KerBalloons.zip"
+    ]
 }

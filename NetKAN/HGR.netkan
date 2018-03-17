@@ -3,6 +3,7 @@
     "identifier"     : "HGR",
     "name": "HGR 1.875m Parts",
     "abstract": "A set of 1.875m parts to fill the gap between the basic and Rockomax size parts",
+    "$kref": "#/ckan/curse/222583",
     "author": "OrionKermin",
     "license"        : "restricted",
     "resources" : {
@@ -22,8 +23,5 @@
     ],
     "depends"  : [
         { "name" : "HGR-Props" }
-    ],
-    "ksp_version": "1.0.2",
-    "version": "1.3.0",
-    "download": "http://addons-origin.cursecdn.com/files/2240/901/HGR_V1.3.0.zip"
+    ]
 }

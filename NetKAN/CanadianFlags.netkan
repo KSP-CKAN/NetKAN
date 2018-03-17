@@ -1,6 +1,7 @@
 {
   "spec_version": "v1.4",
   "identifier"  : "CanadianFlags",
+  "$kref"       : "#/ckan/curse/231787",
   "license"     : "restricted",
   "install": [
         {
@@ -11,11 +12,8 @@
   "resources": {
         "homepage": "http://forum.kerbalspaceprogram.com/threads/100363"
     },
-  "ksp_version" : "any",
   "comment"     : "flagmod",
   "name"        : "Canadian Flags",
   "abstract"    : "Includes the flags of: Canada, provinces, territories, Kingdom of France, UK, and more.",
-  "author"      : "CelticCossack25",
-  "version"     : "1.0",
-  "download"    : "http://addons-origin.cursecdn.com/files/2243/503/Bydysawd.zip"
+  "author"      : "CelticCossack25"
 }

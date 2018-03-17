@@ -3,9 +3,9 @@
     "identifier"   : "BananaForScale-large",
     "name"         : "Banana for Scale - large",
     "abstract"     : "Banana for Scale - Analyse bananas in space!",
+    "$kref"        : "#/ckan/curse/223077",
     "license"      : "restricted",
     "author"       : "JoePatrick1",
-    "version"      : "1.0",
     "conflicts": [
         { "name": "BananaForScale" }
     ],
@@ -20,7 +20,5 @@
             "install_to" : "GameData"
         }
     ],
-    "ksp_version_max" : "1.0.99",
-    "download"     : "http://addons.cursecdn.com/files/2212/343/BfS%20(1).zip",
     "x_maintained" : "hakan42 - who loves bananas in space"
 }

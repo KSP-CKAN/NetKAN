@@ -3,12 +3,10 @@
 	"identifier" : "Mk2Essentials",
 	"name" : "Mk 2 Essentials",
 	"abstract" : "Some Mk2 parts which I felt were missing from the game",
+	"$kref" : "#/ckan/curse/225706",
 	"author" : "JoePatrick1",
 	"license" : "restricted",
-	"version" : "6",
 	"release_status" : "stable",
-	"ksp_version_min" : "0.90",
-	"ksp_version_max" : "1.0.5",
 	"resources" : 
 	{
 		"homepage"	: "http://forum.kerbalspaceprogram.com/index.php?/topic/89875-104",
@@ -20,6 +18,5 @@
 			"install_to" : "GameData",
 			"filter" : "Thumbs.db"
 		}
-	],
-	"download" : "http://kerbal.curseforge.com/projects/mk2-essentials/files/2255734/download"
+	]
 }

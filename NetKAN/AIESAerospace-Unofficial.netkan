@@ -1,6 +1,7 @@
 {
     "spec_version": 1,
     "identifier": "AIESAerospace-Unofficial",
+    "$kref": "#/ckan/curse/233478",
     "name": "AIES Aerospace",
     "abstract": "The AIES project is a set pieces to make almost any type of mission, more than 80 pieces so far, engine, fuel tank of any size, Pods, fixed solar panels, SAS, rcs tank, landing legs among others. ",
     "author": "carmics",
@@ -8,14 +9,10 @@
     "resources": {
         "homepage": "http://forum.kerbalspaceprogram.com/threads/35383"
     },
-    "version": "1.6.1",
-    "ksp_version_min": "1.0.4",
-    "ksp_version_max": "1.0.5",
     "install": [
         {
             "file": "AIES_Aerospace",
             "install_to": "GameData"
         }
-    ],
-    "download": "http://addons-origin.cursecdn.com/files/2252/518/AIES_Aerospace161.zip"
+    ]
 }

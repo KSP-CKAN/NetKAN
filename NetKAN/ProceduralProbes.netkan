@@ -4,10 +4,8 @@
     "identifier": "ProceduralProbes",
     "name": "Procedural Probes",
     "abstract": "Generate custom probes.",
+    "$kref": "#/ckan/curse/233798",
     "author": "JarDev",
-    "version": "1.1",
-    "ksp_version_min": "1.0.4",
-    "ksp_version_max": "1.0.5",
     "resources": {
         "homepage": "http://felicetti-a.eu/"
     },
@@ -30,6 +28,5 @@
                 "ksp_version_max" : "1.0.5"
             }
         }
-    ],
-    "download": "http://addons-origin.cursecdn.com/files/2255/521/ProceduralProbes.zip"
+    ]
 }
