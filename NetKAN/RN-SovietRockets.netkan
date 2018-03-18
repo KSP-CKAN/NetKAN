@@ -16,9 +16,6 @@
         "find"      : "RN_Soviet_Rockets",
         "install_to": "GameData"
     }],
-    "conflicts": [
-        { "name": "ReflectionPlugin" }
-    ],
     "depends"       :
     [
 		{ "name"    : "BDAnimationModules" },
