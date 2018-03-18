@@ -1,7 +1,47 @@
 {
-    "x_via": "Automated SpaceDock CKAN submission",
-    "$kref": "#/ckan/spacedock/1755",
-    "license": "CC-BY-4.0",
-    "spec_version": "v1.4",
-    "identifier": "KerbalowAerospace"
+    "spec_version": "v1.16",
+    "identifier":   "KerbalowAerospace",
+    "$kref":        "#/ckan/spacedock/1755",
+    "license":      "CC-BY-4.0",
+    "x_via":        "Automated SpaceDock CKAN submission",
+    "install": [{
+        "find":       "Kerbalow",
+        "install_to": "GameData"
+    }, {
+        "find":       "OptionalConfigs/KA330-ConnectedLivingSpace.cfg",
+        "install_to": "GameData/Kerbalow",
+        "find_matches_files": true
+    }, {
+        "find":       "OptionalConfigs/KA330-KerbalInventorySystem.cfg",
+        "install_to": "GameData/Kerbalow",
+        "find_matches_files": true
+    }, {
+        "find":       "OptionalConfigs/KA330-Snacks.cfg",
+        "install_to": "GameData/Kerbalow",
+        "find_matches_files": true
+    }, {
+        "find":       "OptionalConfigs/KA330-TACLS.cfg",
+        "install_to": "GameData/Kerbalow",
+        "find_matches_files": true
+    }, {
+        "find":       "OptionalConfigs/KA330-Tweakscale.cfg",
+        "install_to": "GameData/Kerbalow",
+        "find_matches_files": true
+    }, {
+        "find":       "OptionalConfigs/KA330-USILifeSupport.cfg",
+        "install_to": "GameData/Kerbalow",
+        "find_matches_files": true
+    }],
+    "depends": [
+        { "name": "TexturesUnlimited" }
+    ],
+    "suggests": [
+        { "name": "ConnectedLivingSpace" },
+        { "name": "KIS"                  },
+        { "name": "KAS"                  },
+        { "name": "Snacks"               },
+        { "name": "TACLS"                },
+        { "name": "TweakScale"           },
+        { "name": "USI-LS"               }
+    ]
 }
