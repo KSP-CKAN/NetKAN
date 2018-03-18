@@ -3,6 +3,8 @@
     "identifier": "ModuleRCSFX",
     "name": "ModuleRCSFX",
     "abstract": "A fixed version of the stock RCS module",
+    "$kref": "#/ckan/github/NathanKell/ModuleRCSFX",
+    "$vref": "#/ckan/ksp-avc",
     "author": [
         "ialdabaoth",
         "NathanKell"
@@ -12,9 +14,5 @@
     "resources": {
         "homepage": "http://forum.kerbalspaceprogram.com/threads/92290",
         "repository": "https://github.com/NathanKell/ModuleRCSFX"
-    },
-    "version": "v4.2",
-    "ksp_version_min": "1.0.0",
-    "ksp_version_max": "1.0.4",
-    "download": "https://github.com/NathanKell/ModuleRCSFX/releases/download/v4.2/ModuleRCSFX_v4.2.zip"
+    }
 }

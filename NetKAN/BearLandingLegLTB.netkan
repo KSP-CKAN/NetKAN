@@ -3,17 +3,15 @@
     "identifier": "BearLandingLegLTB",
     "name": "Bear Landing Leg LT-B",
     "abstract": "The bears needed something more durable to bare their mass. The Bear Landing Leg LT-B was designed to handle this problem. Once deployed, the bear paw shaped landing legs are built to handle heavy loads. This landing leg is more durable and built like a bear.",
+    "$kref": "#/ckan/curse/239259",
     "author": "TheSnowManBear",
     "license": "restricted",
-    "version": "1",
-    "ksp_version": "1.0.5",
     "install": [
         {
             "file": "Bear_Landing_Leg_LT-B",
             "install_to": "GameData"
         }
     ],
-    "download": "http://addons-origin.cursecdn.com/files/2272/910/Bear_Landing_Leg_LT-B.zip",
     "resources" : {
         "homepage": "http://www.samuelesnow.com" 
     }

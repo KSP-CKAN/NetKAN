@@ -4,9 +4,8 @@
     "name": "AUC Aeronautic technoloy",
     "abstract": "AUC aeronautic adds a buch of parts",
     "author": "HaryR",
+    "$kref": "#/ckan/curse/241145",
     "license": "CC-BY-NC-SA-3.0",
-    "version": "0.0.1",
-    "ksp_version": "1.0.5",
     "depends": [
         {
             "name": "ModuleManager"
@@ -43,6 +42,5 @@
             "find": "SPH",
             "install_to": "Ships"
         }
-    ],
-    "download": "http://addons-origin.cursecdn.com/files/2277/410/AUC%20aeronautic%20part.zip"
+    ]
 }
