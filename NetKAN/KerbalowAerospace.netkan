@@ -8,27 +8,27 @@
         "find":       "Kerbalow",
         "install_to": "GameData"
     }, {
-        "find":       "OptionalConfigs/KA330-ConnectedLivingSpace.cfg",
+        "find":       "Optional Configs/KA330-ConnectedLivingSpace.cfg",
         "install_to": "GameData/Kerbalow",
         "find_matches_files": true
     }, {
-        "find":       "OptionalConfigs/KA330-KerbalInventorySystem.cfg",
+        "find":       "Optional Configs/KA330-KerbalInventorySystem.cfg",
         "install_to": "GameData/Kerbalow",
         "find_matches_files": true
     }, {
-        "find":       "OptionalConfigs/KA330-Snacks.cfg",
+        "find":       "Optional Configs/KA330-Snacks.cfg",
         "install_to": "GameData/Kerbalow",
         "find_matches_files": true
     }, {
-        "find":       "OptionalConfigs/KA330-TACLS.cfg",
+        "find":       "Optional Configs/KA330-TACLS.cfg",
         "install_to": "GameData/Kerbalow",
         "find_matches_files": true
     }, {
-        "find":       "OptionalConfigs/KA330-Tweakscale.cfg",
+        "find":       "Optional Configs/KA330-Tweakscale.cfg",
         "install_to": "GameData/Kerbalow",
         "find_matches_files": true
     }, {
-        "find":       "OptionalConfigs/KA330-USILifeSupport.cfg",
+        "find":       "Optional Configs/KA330-USILifeSupport.cfg",
         "install_to": "GameData/Kerbalow",
         "find_matches_files": true
     }],
