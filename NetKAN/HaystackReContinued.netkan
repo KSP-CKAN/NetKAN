@@ -7,7 +7,8 @@
     }
   ],
   "depends": [
-    { "name" : "ToolbarController" }
+    { "name" : "ToolbarController" },
+    { "name" : "ClickThroughBlocker" }
   ],
   "$vref": "#/ckan/ksp-avc",
   "$kref": "#/ckan/spacedock/1680",
