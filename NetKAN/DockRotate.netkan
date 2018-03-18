@@ -2,8 +2,8 @@
 	"spec_version": 1,
 	"identifier": "DockRotate",
 	"$kref": "#/ckan/github/peteletroll/DockRotate",
+	"$vref": "#/ckan/ksp-avc",
 	"license": "MIT",
-	"ksp_version": "1.4.1",
 	"resources": {
 		"homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/170484-dockrotate-rotation-control-on-docking-ports/"
 	},
