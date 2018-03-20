@@ -1,22 +1,20 @@
 {
     "spec_version": "v1.4",
     "identifier": "ShowFPS",
-    "ksp_version_min": "1.1",
+    "$vref"        : "#/ckan/ksp-avc",
+    "$kref": "#/ckan/spacedock/1757",
     "resources": 
     {
-        "homepage": "http://www.curse.com/ksp-mods/kerbal/220663-showfps"
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/172692-141-showfps/"
     },
     "name": "Show FPS",
     "license": "LGPL-3.0",
     "abstract": "Simple framerate counter, enable with F8.",
-    "author": "m4v",
-    "version": "v1.1",
-    "download": "http://kerbal.curseforge.com/projects/showfps/files/2297168/download",
-    "install": [
-        { 
-            "file" : "ShowFPS",
-            "install_to" : "GameData",
-            "filter" : "Sources"
-        }
+    "author": "linuxgurugamer,m4v",
+     "install": [
+     {
+      "install_to": "GameData",
+      "find": "ShowFPS"
+     }
     ]
 }
