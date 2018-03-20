@@ -10,11 +10,13 @@
     "name": "Show FPS",
     "license": "LGPL-3.0",
     "abstract": "Simple framerate counter, enable with F8.",
+
     "author": "linuxgurugamer,m4v",
      "install": [
      {
       "install_to": "GameData",
       "find": "ShowFPS"
      }
+
     ]
 }
