@@ -8,8 +8,9 @@
   ],
   "conflicts": [ { "name": "PartAngleDisplay" } ],
   "depends": [
-        { "name" : "ToolbarController" }
-    ],
+        { "name" : "ToolbarController" },
+	{ "name": "ClickThroughBlocker" }
+  ],
   "$vref": "#/ckan/ksp-avc",
   "$kref": "#/ckan/spacedock/1679",
   "x_via": "Automated Linuxgurugamer CKAN script",
