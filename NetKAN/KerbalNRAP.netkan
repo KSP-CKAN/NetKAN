@@ -5,6 +5,7 @@
     "$vref": "#/ckan/ksp-avc",
     "license": "CC-BY-SA",
     "author": [ "linuxgurugamer", "stupid_chris", "kotysoft" ],
+    "depends" : [ { "name" : "ClickThroughBlocker" } ],
     "install": [
         { "file": "GameData/NRAP", "install_to": "GameData" }
     ]

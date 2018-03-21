@@ -6,6 +6,10 @@
       "find": "BetterTimeWarp"
     }
   ],
+  "depends": [
+        { "name": "ToolbarController" },
+        { "name": "ClickThroughBlocker" }
+  ],
   "$vref": "#/ckan/ksp-avc",
   "$kref": "#/ckan/spacedock/1162",
   "x_via": "Automated Linuxgurugamer CKAN script",
