@@ -1,27 +1,6 @@
 {
-    "spec_version" : "v1.4",
-    "identifier"   : "ContractConfigurator-RemoteTech",
-    "$kref"        : "#/ckan/github/jrossignol/ContractPack-RemoteTech",
-    "abstract"     : "A contract pack containing contracts for RemoteTech.",
-    "name"         : "Contract Pack: RemoteTech",
-    "license"      : "CC-BY-NC-SA-4.0",
-    "release_status": "stable",
-    "author": "nightingale",
-    "$vref": "#/ckan/ksp-avc",
-    "depends": [
-        { "name": "ContractConfigurator" },
-        { "name": "RemoteTech" },
-        { "name": "ModuleManager" }
-    ],
-    "install" : [
-        {
-            "find"       : "RemoteTech",
-            "install_to" : "GameData/ContractPacks"
-        }
-    ],
-    "resources": {
-        "homepage": "http://forum.kerbalspaceprogram.com/threads/106580",
-        "bugtracker": "https://github.com/jrossignol/ContractPack-RemoteTech/issues",
-        "license": "https://raw.githubusercontent.com/jrossignol/ContractPack-RemoteTech/master/GameData/ContractPacks/RemoteTech/LICENSE.txt"
-    }
+    "spec_version": "v1.16",
+    "identifier": "ContractConfigurator-RemoteTech",
+    "$kref" : "#/ckan/netkan/https://raw.githubusercontent.com/jrossignol/ContractPack-RemoteTech/master/ContractConfigurator-RemoteTech.netkan",
+    "x_netkan_license_ok" : true
 }
