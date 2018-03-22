@@ -1,0 +1,19 @@
+{
+	"spec_version": 1,
+	"identifier": "PAWS",
+	"$kref": "#/ckan/github/severedsolo/OhScrap",
+	"license": "MIT",
+	"$vref": "#/ckan/ksp-avc",
+	"name": "Oh Scrap!",
+	"abstract": "A ScrapYard based Part Failure and Reliability Mod",
+	"resources": {
+		"homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/160854-OhScrap"
+	},
+	"depends": [
+	{
+		"name": "ModuleManager"
+	},
+	{
+		"name": "ScrapYard"
+	}]
+}
