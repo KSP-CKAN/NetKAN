@@ -13,11 +13,15 @@
         },
         { "name" : "ModuleManager" }
     ],
-
+	
+	    "recommends"	: [
+        { "name": "KerbalConstructionTime" },
+        { "name": "StageRecovery" }],
+	
     "install" : [
         {
             "find" : "OhScrap",
-            "install_to" : "GameData/Severedsolo/OhScrap"
+            "install_to" : "GameData/Severedsolo"
         }
     ],
     "resources" : {
