@@ -1,7 +1,14 @@
 {
-    "identifier": "B5",
-    "x_via": "Automated SpaceDock CKAN submission",
-    "$kref": "#/ckan/spacedock/1765",
     "spec_version": "v1.4",
-    "license": "BSD"
+    "identifier":   "B5",
+    "$kref":        "#/ckan/spacedock/1765",
+    "license":      "BSD-3-clause",
+    "x_via":        "Automated SpaceDock CKAN submission",
+    "depends": [
+        { "name": "SpaceXLaunchVehicles" }
+    ],
+    "install": [ {
+        "find":       "Launchers Pack",
+        "install_to": "GameData"
+    } ]
 }
