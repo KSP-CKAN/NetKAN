@@ -1,7 +1,15 @@
 {
-    "x_via": "Automated SpaceDock CKAN submission",
-    "$kref": "#/ckan/spacedock/1764",
-    "license": "Apache-2.0",
-    "identifier": "FeynteraSystem",
-    "spec_version": "v1.4"
+    "spec_version": "v1.4",
+    "identifier":   "FeynteraSystem",
+    "$kref":        "#/ckan/spacedock/1764",
+    "license":      "Apache-2.0",
+    "x_via":        "Automated SpaceDock CKAN submission",
+    "install": [ {
+        "find": "rXenoqFeyntera",
+        "install_to": "GameData"
+    } ],
+    "depends": [
+        { "name": "ModuleManager" },
+        { "name": "Kopernicus"    }
+    ]
 }
