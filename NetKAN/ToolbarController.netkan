@@ -6,6 +6,9 @@
       "find": "001_ToolbarControl"
     }
   ],
+  "resources"    : {
+        "homepage" : "https://forum.kerbalspaceprogram.com/index.php?/topic/169509-141-toolbar-controller-for-modders/"
+  },
   "x_netkan_epoch": 1,
   "recommends" : [ { "name" : "Toolbar" } ],
   "$vref": "#/ckan/ksp-avc",
