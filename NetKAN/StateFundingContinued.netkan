@@ -6,6 +6,10 @@
       "find": "StateFunding"
     }
   ],
+    "depends": [
+      { "name" : "ToolbarController" },
+      { "name" : "ClickThroughBlocker" }
+  ],
   "$vref": "#/ckan/ksp-avc",
   "$kref": "#/ckan/spacedock/1231",
   "x_via": "Automated Linuxgurugamer CKAN script",
