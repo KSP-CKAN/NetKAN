@@ -9,7 +9,8 @@
         "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/172400-141-kerbalism-v13/"
     },
     "depends": [
-        { "name": "ModuleManager" }
+        { "name": "ModuleManager" },
+        { "name": "CommunityResourcePack" }
     ],
     "recommends": [
         { "name": "DeepFreeze" },
@@ -17,7 +18,6 @@
     ],
     "supports": [
         { "name": "AntennaRange" },
-        { "name": "CommunityResourcePack" },
         { "name": "ConnectedLivingSpace" },
         { "name": "CryoTanks" },
         { "name": "DangIt" },
