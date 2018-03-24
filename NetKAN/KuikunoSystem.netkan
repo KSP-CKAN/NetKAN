@@ -1,7 +1,15 @@
 {
-    "x_via": "Automated SpaceDock CKAN submission",
-    "$kref": "#/ckan/spacedock/1763",
-    "license": "Apache-2.0",
     "spec_version": "v1.4",
-    "identifier": "KuikunoSystem"
+    "identifier":   "KuikunoSystem",
+    "$kref":        "#/ckan/spacedock/1763",
+    "license":      "Apache-2.0",
+    "x_via":        "Automated SpaceDock CKAN submission",
+    "install": [ {
+        "find":       "rXenoqKuikuno",
+        "install_to": "GameData"
+    } ],
+    "depends": [
+        { "name": "ModuleManager" },
+        { "name": "Kopernicus"    }
+    ]
 }
