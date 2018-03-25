@@ -1,7 +1,10 @@
 {
-    "$kref": "#/ckan/spacedock/1766",
     "spec_version": "v1.4",
-    "identifier": "InternalRCS",
-    "license": "MIT",
-    "x_via": "Automated SpaceDock CKAN submission"
+    "identifier":   "InternalRCS",
+    "$kref":        "#/ckan/spacedock/1766",
+    "license":      "MIT",
+    "x_via":        "Automated SpaceDock CKAN submission",
+    "suggests": [
+        { "name": "RCSBuildAidCont" }
+    ]
 }
