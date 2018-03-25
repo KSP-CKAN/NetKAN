@@ -6,7 +6,8 @@
     "x_via":        "Automated SpaceDock CKAN submission",
     "install": [ {
         "find": "rXenoqFeyntera",
-        "install_to": "GameData"
+        "install_to": "GameData",
+        "filter": "Thumbs.db"
     } ],
     "depends": [
         { "name": "ModuleManager" },
