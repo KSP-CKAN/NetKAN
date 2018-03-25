@@ -5,15 +5,13 @@
     "license"        : "GPL-3.0",
     "recommends" : [
         {
-            "name" : "StageRecovery"
+            "name" : "ScrapYard"
         },
         {
             "name" : "KRASH"
-        }
-    ],
-    "suggests" : [
+        },
         {
-            "name" : "Toolbar"
+            "name" : "StageRecovery"
         }
     ],
     "install" : [
