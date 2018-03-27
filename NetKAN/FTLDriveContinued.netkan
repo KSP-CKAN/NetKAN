@@ -8,6 +8,7 @@
      "resources" : {
         "repository"  : "https://github.com/linuxgurugamer/FTLDriveContinued"
     },
+    "depends" : [ { "name" : "ClickThroughBlocker" } ],
     "recommends": [ { "name": "JanitorsCloset" } ],
     "conflicts" : [
         { "name" : "FTLDrive" }
