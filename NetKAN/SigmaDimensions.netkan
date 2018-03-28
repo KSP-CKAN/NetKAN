@@ -8,7 +8,7 @@
     "license":      "restricted",
     "x_netkan_version_edit": "^[vV]?(?<version>.+)$",
     "resources": {
-        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/126548-sd/"
+        "homepage": "https://www.github.com/Sigma88/Sigma-Dimensions"
     },
     "depends": [
         { "name": "ModuleManager" },
