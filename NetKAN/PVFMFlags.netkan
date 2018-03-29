@@ -1,0 +1,11 @@
+{
+  "spec_version" : 1,
+  "name" : "PonyvilleFM Flags",
+  "identifier" : "PVFMFlags",
+  "$kref" : "#/ckan/github/dyedquartz/PVFMFlags",
+  "license" : "MIT",
+  "ksp_version" : "any",
+  "resources" : {
+    "homepage" : "https://github.com/dyedquartz/PVFMFlags"
+  }
+}
