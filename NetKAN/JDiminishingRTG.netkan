@@ -2,6 +2,16 @@
     "spec_version": "v1.4",
     "identifier":   "JDiminishingRTG",
     "$kref":        "#/ckan/spacedock/1773",
+    "$vref":        "#/ckan/ksp-avc",
+    "author":       [ "KwirkyJ", "N70" ],
     "license":      "GPL-3.0",
-    "x_via":         "Automated SpaceDock CKAN submission"
+    "x_via":         "Automated SpaceDock CKAN submission",
+    "depends": [
+        { "name": "ModuleManager" }
+    ],
+    "install": [ {
+        "find": "JDiminishingRTG",
+        "install_to": "GameData",
+        "filter_regexp": [ "ModuleManager.*" ]
+    } ]
 }
