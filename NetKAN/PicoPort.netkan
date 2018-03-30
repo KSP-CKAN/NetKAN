@@ -1,18 +1,18 @@
 {
-  "spec_version": "v1.4",
-  "install": [
-    {
-      "install_to": "GameData",
-      "find": "SHED"
-    }
-  ],
-  "depends": [
-    {
-      "name": "ModuleManager"
-    }
-  ],
-  "$kref": "#/ckan/spacedock/1165",
-  "x_via": "Automated Linuxgurugamer CKAN script",
-  "identifier": "PicoPort",
-  "license": "CC-BY-NC-SA-4.0"
+    "spec_version": "v1.4",
+    "identifier":   "PicoPort",
+    "$kref":        "#/ckan/spacedock/1165",
+    "$vref":        "#/ckan/ksp-avc",
+    "license":      "CC-BY-NC-SA-4.0",
+    "x_via":        "Automated Linuxgurugamer CKAN script",
+    "install": [
+        {
+            "find":       "SHED",
+            "install_to": "GameData",
+            "filter":     [ "Agencies", "License" ]
+        }
+    ],
+    "depends": [
+        { "name": "ModuleManager" }
+    ]
 }
