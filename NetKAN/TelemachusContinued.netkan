@@ -1,7 +1,10 @@
 {
-    "$kref": "#/ckan/spacedock/1771",
     "spec_version": "v1.4",
-    "identifier": "TelemachusContinued",
-    "license": "MIT",
-    "x_via": "Automated SpaceDock CKAN submission"
+    "identifier":   "TelemachusContinued",
+    "$kref":        "#/ckan/spacedock/1771",
+    "license":      "MIT",
+    "x_via":        "Automated SpaceDock CKAN submission",
+    "depends": [
+        { "name": "ModuleManager" }
+    ]
 }
