@@ -5,6 +5,10 @@
     "license":      "MIT",
     "x_via":        "Automated SpaceDock CKAN submission",
     "depends": [
-        { "name": "ModuleManager" }
+        { "name": "ModuleManager"     },
+        { "name": "RasterPropMonitor" }
+    ],
+    "recommends": [
+        { "name": "HullcamVDSContinued" }
     ]
 }
