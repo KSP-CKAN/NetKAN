@@ -8,6 +8,10 @@
         "homepage"    : "http://forum.kerbalspaceprogram.com/threads/129908",
         "repository"  : "https://github.com/linuxgurugamer/AutomatedScreenshots"
     },
+    "depends": [
+      { "name": "ToolbarController" },
+      { "name": "ClickThroughBlocker" }
+    ],
     "recommends": [ { "name": "JanitorsCloset" } ],
     "install" : [
         {
