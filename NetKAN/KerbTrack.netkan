@@ -1,0 +1,12 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "KerbTrack",
+    "$kref":        "#/ckan/spacedock/1745",
+    "$vref":        "#/ckan/ksp-avc",
+    "license":      "GPL-2.0",
+    "x_via":        "Automated SpaceDock CKAN submission",
+    "install": [ {
+        "find": "GameData/KerbTrack",
+        "install_to": "GameData"
+    } ]
+}
