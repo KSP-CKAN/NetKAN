@@ -6,6 +6,10 @@
       "find": "NASA_CountDown"
     }
   ],
+  "depends": [
+        { "name" : "ToolbarController" },
+	{ "name" : "ClickThroughBlocker" }
+  ],
   "$vref": "#/ckan/ksp-avc",
   "$kref": "#/ckan/spacedock/1462",
   "x_via": "Automated Linuxgurugamer CKAN script",
