@@ -5,6 +5,10 @@
     "$vref"        : "#/ckan/ksp-avc",
     "license"      : "GPL-3.0",
     "x_netkan_epoch": 1,
+    "depends": [
+        { "name" : "ToolbarController" },
+	{ "name" : "ClickThroughBlocker" }
+    ],
     "abstract"     : "SmartStage attempts to find optimal staging in VAB",
     "name"         : "SmartStage",
     "resources" : {
