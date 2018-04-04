@@ -9,5 +9,10 @@
         { "name": "Kopernicus"                      },
         { "name": "EnvironmentalVisualEnhancements" },
         { "name": "Scatterer"                       }
+    ],
+    "recommends": [
+        { "name": "PlanetShine"              },
+        { "name": "DistantObjectEnhancement" },
+        { "name": "SVE-Terrain"              }
     ]
 }
