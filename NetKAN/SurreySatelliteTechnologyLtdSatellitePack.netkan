@@ -1,7 +1,7 @@
 {
-    "x_via": "Automated SpaceDock CKAN submission",
-    "$kref": "#/ckan/spacedock/1791",
-    "license": "CC-BY-NC-ND 4.0",
-    "identifier": "SurreySatelliteTechnologyLtdSatellitePack",
-    "spec_version": "v1.4"
+    "spec_version": "v1.4",
+    "identifier":   "SurreySatelliteTechnologyLtdSatellitePack",
+    "$kref":        "#/ckan/spacedock/1791",
+    "license":      "CC-BY-NC-ND-4.0",
+    "x_via":        "Automated SpaceDock CKAN submission"
 }
