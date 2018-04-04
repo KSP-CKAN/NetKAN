@@ -3,5 +3,11 @@
     "identifier":   "KETO",
     "$kref":        "#/ckan/spacedock/1781",
     "license":      "CC-BY-NC-SA-3.0",
-    "x_via":        "Automated SpaceDock CKAN submission"
+    "x_via":        "Automated SpaceDock CKAN submission",
+    "depends": [
+        { "name": "ModuleManager"                   }
+        { "name": "Kopernicus"                      }
+        { "name": "EnvironmentalVisualEnhancements" }
+        { "name": "Scatterer"                       }
+    ]
 }
