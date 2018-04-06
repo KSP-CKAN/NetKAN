@@ -9,5 +9,9 @@
     ],
     "recommends": [
         { "name": "DCKDavincisCombatKit" }
-    ]
+    ],
+    "install": [ {
+        "find":       "DCK_FutureTech",
+        "install_to": "GameData"
+    } ]
 }
