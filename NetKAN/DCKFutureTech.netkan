@@ -1,0 +1,18 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "DCKFutureTech",
+    "$kref":        "#/ckan/spacedock/1798",
+    "license":      "GPL-3.0",
+    "x_via":        "Automated SpaceDock CKAN submission",
+    "depends": [
+        { "name": "ModuleManager"     },
+        { "name": "BDArmoryContinued" }
+    ],
+    "recommends": [
+        { "name": "DCKDavincisCombatKit" }
+    ],
+    "install": [ {
+        "find":       "DCK_FutureTech",
+        "install_to": "GameData"
+    } ]
+}
