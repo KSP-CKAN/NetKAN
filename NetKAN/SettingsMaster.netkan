@@ -3,7 +3,7 @@
   "install": [
     {
       "install_to": "GameData",
-      "find": "NASA_CountDown"
+      "find": "SettingsMaster"
     }
   ],
   "depends": [
@@ -11,8 +11,8 @@
 	{ "name" : "ClickThroughBlocker" }
   ],
   "$vref": "#/ckan/ksp-avc",
-  "$kref": "#/ckan/spacedock/1462",
+  "$kref": "#/ckan/spacedock/1792",
   "x_via": "Automated Linuxgurugamer CKAN script",
-  "identifier": "NASA-CountDown",
-  "license": "CC-BY-NC-SA"
+  "identifier": "SettingsMaster",
+  "license": "CC-BY"
 }
