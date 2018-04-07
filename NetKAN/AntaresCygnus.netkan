@@ -1,6 +1,6 @@
 {
     "spec_version"  : "v1.4",
-    "x_netkan_epoch": "1",
+    "x_netkan_epoch": 1,
     "identifier"    : "AntaresCygnus",
     "name"          : "Antares-Cygnus",
     "author"        : ["Raidernick","Kartoffelkuchen"],
@@ -12,7 +12,6 @@
     "$kref"         : "#/ckan/github/KSP-RO/Antares-Cygnus",
     "license"       : "CC-BY-NC-ND-3.0",
     "$vref"        : "#/ckan/ksp-avc",
-	"x_netkan_epoch"   : 1,
     "install"       : [
     {
         "find"      : "KK_Antares",
