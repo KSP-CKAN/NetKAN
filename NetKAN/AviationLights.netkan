@@ -1,11 +1,11 @@
 {
-    "$kref": "#/ckan/github/MOARdV/AviationLights",
     "spec_version": "v1.4",
-    "identifier": "AviationLights",
-    "name": "Aviation Lights",
-    "license": "CC-BY-NC-SA-4.0",
-    "author": [ "MOARdV", "BigNose", "RPGprayer" ],
-    "ksp_version": "1.3",
+    "identifier":   "AviationLights",
+    "name":         "Aviation Lights",
+    "author":       [ "MOARdV", "BigNose", "RPGprayer" ],
+    "$kref":        "#/ckan/github/MOARdV/AviationLights",
+    "$vref":        "#/ckan/ksp-avc",
+    "license":      "CC-BY-NC-SA-4.0",
     "resources": {
         "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/16801-*"
     },
