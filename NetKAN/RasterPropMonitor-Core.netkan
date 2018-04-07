@@ -4,7 +4,6 @@
     "name"           : "RasterPropMonitor Core",
     "$kref"          : "#/ckan/github/Mihara/RasterPropMonitor",
     "$vref"          : "#/ckan/ksp-avc",
-    "name"           : "RasterPropMonitor Core",
     "abstract"       : "RasterPropMonitor is a plugin and toolkit that provides functional props within your IVA.",
     "author"         : [ "MOARdV", "Mihara" ],
     "comment"        : "This package contains the plugin, and the standard parts library.",
