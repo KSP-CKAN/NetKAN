@@ -8,9 +8,6 @@
     "author"         : "ferram4",
     "license"        : "GPL-3.0",
     "release_status" : "stable",
-    "resources"      : {
-        "repository"     : "https://github.com/ferram4/Kerbal-Joint-Reinforcement/"
-    },
     "x_netkan_override" : [
         {
             "version" : "v3.1.4",
