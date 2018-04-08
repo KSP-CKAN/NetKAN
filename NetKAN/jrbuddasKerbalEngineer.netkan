@@ -1,26 +1,22 @@
-{
     "spec_version" : 1,
-    "identifier"   : "jrbuddasKerbalEngineerRedux",
-	"name": "Kerbal Engineer Redux",
-    "abstract": "Reveals important statistics about your ship and its orbit during building and flight",
-    "author": "CYBUTEK & jrbudda",
-    "license": "GPL-3.0",
-    "release_status": "testing",
-    "resources": {
-        "homepage": "https://github.com/jrbudda/KerbalEngineer/releases",
-        "repository": "https://github.com/jrbudda/KerbalEngineer",
-        "github": {
-            "url": "https://github.com/jrbudda/KerbalEngineer"
+    "identifier" : "jrbuddasKerbalEngineerRedux",
+    "$kref" : "#/ckan/github/jrbudda/KerbalEngineer",
+    "$vref" : "#/ckan/ksp-avc",
+    "name" : "jrbudda's Kerbal Engineer Redux",
+    "abstract" : "Reveals important statistics about your ship and its orbit during building and flight",
+    "author" : "CYBUTEK & jrbudda",
+    "license" : "GPL-3.0",
+    "release_status" : "testing",
+    "resources" : {
+        "homepage" : "https://forum.kerbalspaceprogram.com/index.php?/topic/17833-130-kerbal-engineer-redux-1130-2017-05-28/",
+        "github" : {
+            "url" : "https://github.com/jrbudda/KerbalEngineer"
         }
     },
-    "version": "1.1.4.7",
-    "ksp_version_min": "1.2.9",
-    "ksp_version_max": "1.4.2",
-    "install": [
+    "install" : [
         {
-            "file": "KerbalEngineer",
-            "install_to": "GameData"
+            "file" : "KerbalEngineer",
+            "install_to" : "GameData"
         }
-    ],
-	"download": "https://github.com/jrbudda/KerbalEngineer/releases/download/1.1.4.7/KerbalEngineer-1.1.4.7.zip",
+    ]
 }
