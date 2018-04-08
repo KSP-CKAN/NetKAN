@@ -4,6 +4,10 @@
   "x_via": "Automated Linuxgurugamer CKAN script",
   "$kref": "#/ckan/spacedock/994",
   "$vref": "#/ckan/ksp-avc",
+  "depends": [
+        { "name" : "ToolbarController" },
+	{ "name" : "ClickThroughBlocker" }
+  ],
   "suggests": [{"name": "EvaFuelCont"}],
   "install": [
     {
