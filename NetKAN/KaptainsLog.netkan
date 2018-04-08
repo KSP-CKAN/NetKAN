@@ -10,7 +10,9 @@
     }
   ],
   "depends" : [ 
-     { "name" : "ProgressParser" } 
+     { "name" : "ProgressParser" },
+     { "name" : "ToolbarController" },
+     { "name" : "ClickThroughBlocker" }
   ],
   "$vref": "#/ckan/ksp-avc/GameData/KaptainsLog/KaptainsLog.version",
   "$kref": "#/ckan/spacedock/1523",
