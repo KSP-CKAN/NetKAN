@@ -9,7 +9,7 @@
         "find":       "GameData/NovaPunch",
         "install_to": "GameData"
     }, {
-        "find_regexp":        "Ships",
-        "install_to":         "Ships/VAB"
+        "find":       "Ships",
+        "install_to": "Ships/VAB"
     } ]
 }
