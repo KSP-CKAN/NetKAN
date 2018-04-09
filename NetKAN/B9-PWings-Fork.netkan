@@ -1,24 +1,24 @@
 {
-    "spec_version": 1,
-    "identifier": "B9-PWings-Fork",
-    "name": "B9 Aerospace Procedural Wings - Fork",
-    "abstract": "Fork of Bac9's Procedural Wings mod for KSP",
-    "author": [ "bac9", "Crzyrndm" ],
-    "license": "CC-BY-NC-SA-4.0",
-    "$kref": "#/ckan/github/Crzyrndm/B9-PWings-Fork",
-    "$vref": "#/ckan/ksp-avc",
+    "spec_version":     1,
+    "identifier":       "B9-PWings-Fork",
+    "name":             "B9 Aerospace Procedural Wings - Fork",
+    "abstract":         "Fork of Bac9's Procedural Wings mod for KSP",
+    "author":           [ "bac9", "Crzyrndm", "jrodrigv" ],
+    "license":          "CC-BY-NC-SA-4.0",
+    "x_licence_code":   "MIT",
+    "x_licence_assets": "CC-BY-NC-SA-4.0",
+    "$kref":            "#/ckan/github/jrodrigv/B9-PWings-Fork",
+    "$vref":            "#/ckan/ksp-avc",
     "x_netkan_epoch": 1,
     "resources": {
-        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/117236-13-procedural-wings/"
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/117236-*"
     },
-    "x_licence_code": "MIT",
-    "x_licence_assets": "CC-BY-NC-SA-4.0",
     "conflicts": [
-    { "name": "B9AerospaceProceduralParts" }
+        { "name": "B9AerospaceProceduralParts" }
     ],
     "install": [
         {
-            "file": "GameData/B9_Aerospace_ProceduralWings",
+            "file":       "GameData/B9_Aerospace_ProceduralWings",
             "install_to": "GameData"
         }
     ]
