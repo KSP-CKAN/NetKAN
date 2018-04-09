@@ -12,6 +12,8 @@
   "x_via": "Automated Linuxgurugamer CKAN script",
   "identifier": "AntennaHelper",
   "abstract"     : "Visual Antenna Helper",
-    "author"       : "Li0n",
-  "license": "MIT"
+  "author"       : "Li0n",
+  "license": "MIT",
+  "x_netkan_epoch"   : 1,
+
 }
