@@ -11,5 +11,8 @@
     }, {
         "find":       "Ships",
         "install_to": "Ships/VAB"
-    } ]
+    } ],
+    "depends": [
+        { "name": "ModuleManager" }
+    ]
 }
