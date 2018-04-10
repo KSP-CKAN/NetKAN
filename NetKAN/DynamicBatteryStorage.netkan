@@ -5,8 +5,8 @@
     "abstract":       "A plugin that works around the problems of stock electricity consumption/generation at high time warp.",
     "comment":        "Dynamic Battery Storage does not have its own release. Sourced from the NearFutureElectrical archive.",
     "$kref":          "#/ckan/spacedock/558",
-    "$vref":          "#/ckan/ksp-avc/GameData/DynamicBatteryStorage/Versioning/DynamicBatteryStorage.version",
-    "x_netkan_epoch": 1,
+    "$vref":          "#/ckan/ksp-avc/DynamicBatteryStorage.version",
+    "x_netkan_epoch": 2,
     "license":        "CC-BY-NC-SA-4.0",
     "resources": {
         "repository": "https://github.com/ChrisAdderley/DynamicBatteryStorage"
