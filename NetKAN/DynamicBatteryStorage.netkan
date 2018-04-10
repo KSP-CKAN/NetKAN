@@ -1,17 +1,20 @@
 {
-    "spec_version": "v1.4",
-    "comment": "Dynamic Battery Storage does not have its own release. Sourced from the KerbalAtomics archive.",
-    "identifier": "DynamicBatteryStorage",
-    "$kref": "#/ckan/spacedock/710",
+    "spec_version":   "v1.4",
+    "identifier":     "DynamicBatteryStorage",
+    "name":           "Dynamic Battery Storage",
+    "abstract":       "A plugin that works around the problems of stock electricity consumption/generation at high time warp.",
+    "comment":        "Dynamic Battery Storage does not have its own release. Sourced from the NearFutureElectrical archive.",
+    "$kref":          "#/ckan/spacedock/558",
+    "$vref":          "#/ckan/ksp-avc/DynamicBatteryStorage.version",
     "x_netkan_epoch": 1,
-    "$vref": "#/ckan/ksp-avc",
-    "name": "Dynamic Battery Storage",
-    "abstract": "A plugin that works around the problems of stock electricity consumption/generation at high time warp.",
-    "license": "CC-BY-NC-SA-4.0",
+    "license":        "CC-BY-NC-SA-4.0",
     "resources": {
-      "repository": "https://github.com/ChrisAdderley/DynamicBatteryStorage"
+        "repository": "https://github.com/ChrisAdderley/DynamicBatteryStorage"
     },
     "install" : [
-        { "file" : "GameData/DynamicBatteryStorage", "install_to" : "GameData" }
+        {
+            "file":        "GameData/DynamicBatteryStorage",
+            "install_to" : "GameData"
+        }
     ]
 }
