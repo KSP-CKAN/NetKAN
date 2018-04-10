@@ -42,10 +42,11 @@
             "name": "CommunityResourcePack"
         }
     ],
-	"x_netkan_epoch": "2",
+    "x_netkan_epoch": "2",
     "$vref": "#/ckan/ksp-avc",
     "$kref": "#/ckan/github/Galileo88/Outer-Planets-Mod",
     "identifier": "OuterPlanetsMod",
     "abstract": "Outer Planets Mod",
+    "author": [ "CaptRobau", "Galileo88", "Poodmund" ],
     "license": "CC-BY-NC-SA-4.0"
 }
