@@ -1,66 +1,51 @@
 {
     "spec_version": "v1.4",
-    "identifier": "OuterPlanetsMod",
-    "$kref": "#/ckan/spacedock/233",
-    "$vref": "#/ckan/ksp-avc",
-    "x_netkan_epoch": "1",
-    "license": "CC-BY-NC-SA-4.0",
-    "depends": [
-        { "name": "CommunityTerrainTexturePack" },
-        { "name": "ModuleManager" },
-        { "name": "Kopernicus", "min_version": "2:release-1.2.1-1" }
-    ],
-    "provides": [ "CustomAsteroids-Pops" ],
-    "recommends": [
-        { "name": "OPMClouds" },
-        { "name": "SigmaOPMRecolor" },
-        { "name": "SigmaOPMExpansion" },
-        { "name": "CustomAsteroids" },
-        { "name": "SigmaBinary-core", "min_version": "1:v1.3.2" },
-        { "name": "CustomBarnKit" }
-    ],
-    "conflicts": [
-        { "name": "BilliardsPlanetPack" },
-        { "name": "RealSolarSystem" },
-        { "name": "ToySolarSystem" }
-    ],
-    "suggests": [
-        { "name": "JDiminishingRTG" },
-        { "name": "AtomicAge" },
-        { "name": "BetterTimeWarp" },
-        { "name": "NearFuturePropulsion" },
-        { "name": "NearFutureElectrical" },
-        { "name": "NearFutureSolar" },
-        { "name": "NearFutureConstruction" },
-        { "name": "NearFutureSpacecraft" },
-        { "name": "TransferWindowPlanner"}
-    ],
-    "supports": [
-        { "name": "PlanetShine" },
-        { "name": "DistantObjectEnhancement" },
-        { "name": "FinalFrontier" },
-        { "name": "ResearchBodies" },
-        { "name": "AntennaRange" },
-        { "name": "RemoteTech" },
-        { "name": "SCANsat" },
-        { "name": "DeadlyReentry" },
-        { "name": "MunarSurfaceExperimentPackage" },
-        { "name": "CommunityResourcePack" },
-        { "name": "TextureReplacer" }
-    ],
     "install": [
         {
             "find": "OPM",
-            "install_to" : "GameData"
+            "install_to": "GameData"
         }
     ],
-    "x_netkan_override": [
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/165854-ksp-13-opm_galileo-121-17-sept-2017/"
+    },
+    "depends": [
         {
-            "version": "1:2.1",
-            "override": {
-                "ksp_version_min" : "1.2.1",
-                "ksp_version_max" : "1.2.2"
-            }
+            "name": "ModuleManager"
+        },
+        {
+            "name": "Kopernicus"
+        },
+        {
+            "name": "CommunityTerrainTexturePack"
         }
-    ]
+    ],
+    "recommends": [
+        {
+            "name": "CustomBarnKit"
+        }
+    ],
+    "supports": [
+        {
+            "name": "DistantObjectEnhancement"
+        },
+        {
+            "name": "FinalFrontier"
+        },
+        {
+            "name": "RemoteTech"
+        },
+        {
+            "name": "SCANsat"
+        },
+        {
+            "name": "CommunityResourcePack"
+        }
+    ],
+	"x_netkan_epoch": "2",
+    "$vref": "#/ckan/ksp-avc",
+    "$kref": "#/ckan/github/Galileo88/Outer-Planets-Mod",
+    "identifier": "OuterPlanetsMod",
+    "abstract": "Outer Planets Mod",
+    "license": "CC-BY-NC-SA-4.0"
 }
