@@ -12,7 +12,9 @@
     "depends": [
         { "name": "ModuleManager" },
         { "name": "Kopernicus" },
-        { "name": "CommunityTerrainTexturePack" },
+        { "name": "CommunityTerrainTexturePack" }
+    ],
+    "recommends": [
         { "name": "CustomBarnKit" }
     ],
     "suggests": [
