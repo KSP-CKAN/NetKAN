@@ -10,37 +10,26 @@
         "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/165854-ksp-13-opm_galileo-121-17-sept-2017/"
     },
     "depends": [
-        {
-            "name": "ModuleManager"
-        },
-        {
-            "name": "Kopernicus"
-        },
-        {
-            "name": "CommunityTerrainTexturePack"
-        }
+        { "name": "ModuleManager" },
+        { "name": "Kopernicus" },
+        { "name": "CommunityTerrainTexturePack" },
+        { "name": "CustomBarnKit" }
     ],
-    "recommends": [
-        {
-            "name": "CustomBarnKit"
-        }
+    "suggests": [
+        { "name": "BetterTimeWarpCont" }
+    ],
+    "conflicts": [
+        { "name": "RealSolarSystem" }
     ],
     "supports": [
-        {
-            "name": "DistantObjectEnhancement"
-        },
-        {
-            "name": "FinalFrontier"
-        },
-        {
-            "name": "RemoteTech"
-        },
-        {
-            "name": "SCANsat"
-        },
-        {
-            "name": "CommunityResourcePack"
-        }
+        { "name": "DistantObjectEnhancement" },
+        { "name": "FinalFrontier" },
+        { "name": "RemoteTech" },
+        { "name": "SCANsat" },
+        { "name": "CommunityResourcePack" },
+        { "name": "PlanetShine" },
+        { "name": "ResearchBodies" },
+        { "name": "DeadlyReentry" }
     ],
     "x_netkan_epoch": "2",
     "$vref": "#/ckan/ksp-avc",
