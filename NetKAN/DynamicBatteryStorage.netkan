@@ -6,7 +6,8 @@
     "comment":        "Dynamic Battery Storage does not have its own release. Sourced from the NearFutureElectrical archive.",
     "$kref":          "#/ckan/spacedock/558",
     "$vref":          "#/ckan/ksp-avc/DynamicBatteryStorage.version",
-    "x_netkan_epoch": 2,
+    "x_netkan_epoch": 3,
+    "x_netkan_trust_version_file": true,
     "license":        "CC-BY-NC-SA-4.0",
     "resources": {
         "repository": "https://github.com/ChrisAdderley/DynamicBatteryStorage"
