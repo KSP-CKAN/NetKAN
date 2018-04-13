@@ -1,7 +1,12 @@
 {
-    "x_via": "Automated SpaceDock CKAN submission",
-    "$kref": "#/ckan/spacedock/1808",
-    "license": "MIT",
     "spec_version": "v1.4",
-    "identifier": "OPTReconfig"
+    "identifier":   "OPTReconfig",
+    "$kref":        "#/ckan/spacedock/1808",
+    "$vref":        "#/ckan/ksp-avc",
+    "license":      "MIT",
+    "x_via":        "Automated SpaceDock CKAN submission",
+    "install": [ {
+        "find":       "OPT_Reconfig",
+        "install_to": "GameData"
+    }
 }
