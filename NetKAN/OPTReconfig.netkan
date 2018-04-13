@@ -13,7 +13,7 @@
         "install_to": "GameData"
     } ],
     "depends": [
-        { "name": "OPTSpacePlaneParts" }
+        { "name": "OPTSpacePlaneMain" }
     ],
     "conflicts": [
         { "name": "OPTWBIintegrationpatch" },
