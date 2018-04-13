@@ -13,7 +13,11 @@
         "install_to": "GameData"
     } ],
     "depends": [
-        { "name": "OPTSpacePlaneMain" }
+        { "name": "OPTSpacePlaneParts" },
+        { "name": "B9PartSwitch" }
+    ],
+    "recommends": [
+        { "name": "CommunityResourcePack" }
     ],
     "conflicts": [
         { "name": "OPTWBIintegrationpatch" },
