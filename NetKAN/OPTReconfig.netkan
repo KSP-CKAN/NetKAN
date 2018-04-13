@@ -9,6 +9,9 @@
         "find":       "OPT_Reconfig",
         "install_to": "GameData"
     } ],
+    "depends": [
+        { "name": "OPTSpacePlaneParts" }
+    ],
     "conflicts": [
         { "name": "OPTWBIintegrationpatch" },
         { "name": "OPTUSILifeSupportPatch" }
