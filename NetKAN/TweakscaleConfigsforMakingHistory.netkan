@@ -1,7 +1,10 @@
 {
-    "x_via": "Automated SpaceDock CKAN submission",
-    "$kref": "#/ckan/spacedock/1806",
-    "license": "WTFPL http://www.wtfpl.net/",
     "spec_version": "v1.4",
-    "identifier": "TweakscaleConfigsforMakingHistory"
+    "identifier":   "TweakscaleConfigsforMakingHistory",
+    "$kref":        "#/ckan/spacedock/1806",
+    "license":      "WTFPL",
+    "x_via":        "Automated SpaceDock CKAN submission",
+    "depends": [
+        { "name": "TweakScale" }
+    ]
 }
