@@ -8,5 +8,9 @@
     "install": [ {
         "find":       "OPT_Reconfig",
         "install_to": "GameData"
-    }
+    } ],
+    "conflicts": [
+        { "name": "OPTWBIintegrationpatch" },
+        { "name": "OPTUSILifeSupportPatch" }
+    ]
 }
