@@ -5,6 +5,9 @@
     "$vref":        "#/ckan/ksp-avc",
     "license":      "MIT",
     "x_via":        "Automated SpaceDock CKAN submission",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/173833-*"
+    },
     "install": [ {
         "find":       "OPT_Reconfig",
         "install_to": "GameData"
