@@ -4,5 +4,9 @@
     "identifier": "Kartographer",
     "spec_version": "v1.4",
     "author": [ "satnet", "RealGecko", "linuxgurugamer" ],
-    "$kref": "#/ckan/spacedock/1575"
+    "$kref": "#/ckan/spacedock/1575",
+    "depends": [
+        { "name" : "ToolbarController" },
+	{ "name" : "ClickThroughBlocker" }
+    ],
 }
