@@ -8,5 +8,5 @@
     "depends": [
         { "name" : "ToolbarController" },
 	{ "name" : "ClickThroughBlocker" }
-    ],
+    ]
 }
