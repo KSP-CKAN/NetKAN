@@ -1,7 +1,8 @@
 {
     "spec_version" : "v1.9",
     "identifier"   : "OPTSpacePlaneMain",
-    "$kref"        : "#/ckan/curse/225018",
+    "$kref"        : "#/ckan/spacedock/1028",
+    "$vref"        : "#/ckan/ksp-avc",
     "license"      : "CC-BY-NC-SA-4.0",
     "abstract"     : "Over 50 stock-a-like, large space plane oriented parts",
     "resources"    : {
@@ -28,6 +29,14 @@
         {
             "find"       : "OPT",
             "install_to" : "GameData"
+        }
+    ],
+    "x_netkan_override": [
+        {
+            "version": "v2.0.1",
+            "override": {
+                "ksp_version": "1.3"
+            }
         }
     ]
 }
