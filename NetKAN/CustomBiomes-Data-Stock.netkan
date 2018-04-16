@@ -8,11 +8,12 @@
     "version"        : "1.6.8",
     "release_status" : "stable",
     "ksp_version"    : "any",
+    "author"         : "Trueborn",
     "depends"        : [ { "name" : "CustomBiomes" } ],
     "provides"       : [ "CustomBiomes-Data" ],
     "conflicts"      : [ { "name" : "CustomBiomes-Data" } ],
     "resources" : {
-        "homepage" : "http://forum.kerbalspaceprogram.com/threads/66256"
+        "homepage" : "https://forum.kerbalspaceprogram.com/index.php?/topic/60163-090-custom-biomes-170-17-dec/"
     },
     "install" : [
         {

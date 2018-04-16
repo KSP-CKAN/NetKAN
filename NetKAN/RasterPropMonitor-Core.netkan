@@ -4,7 +4,6 @@
     "name"           : "RasterPropMonitor Core",
     "$kref"          : "#/ckan/github/Mihara/RasterPropMonitor",
     "$vref"          : "#/ckan/ksp-avc",
-    "name"           : "RasterPropMonitor Core",
     "abstract"       : "RasterPropMonitor is a plugin and toolkit that provides functional props within your IVA.",
     "author"         : [ "MOARdV", "Mihara" ],
     "comment"        : "This package contains the plugin, and the standard parts library.",
@@ -20,7 +19,7 @@
         }
     ],
     "resources": {
-        "homepage": "http://forum.kerbalspaceprogram.com/threads/117471",
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/105821-14x-rasterpropmonitor-still-putting-the-a-in-iva-v0300-14-march-2018/",
         "repository": "https://github.com/Mihara/RasterPropMonitor"
     }
 }

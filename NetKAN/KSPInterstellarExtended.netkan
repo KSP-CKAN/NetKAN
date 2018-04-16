@@ -2,9 +2,8 @@
     "spec_version"      : "v1.4",
     "identifier"        : "KSPInterstellarExtended",
     "$kref"             : "#/ckan/spacedock/172",
-    "comment"           : "$vref           : #/ckan/ksp-avc",
+    "$vref"             : "#/ckan/ksp-avc",
     "x_netkan_staging"  : true,
-    "comment"           : "return vref when .version file is valid",
     "resources": {
         "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/155255-12213-kspi-extended",
         "repository": "https://github.com/sswelm/KSP-Interstellar-Extended"
