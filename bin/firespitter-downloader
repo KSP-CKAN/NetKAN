@@ -106,7 +106,7 @@ $fh->print(JSON->new->pretty->encode({
     release_status => "stable",
     abstract => "Core Firespitter.dll. Install `Firespitter` for the whole shebang",
     resources => {
-        homepage => "http://forum.kerbalspaceprogram.com/threads/24551-Firespitter-propeller-plane-and-helicopter-parts",
+        homepage => "https://forum.kerbalspaceprogram.com/index.php?/topic/22583-firespitter-propeller-plane-and-helicopter-parts-v71-may-5th-for-ksp-10/",
         repository => "https://github.com/snjo/Firespitter/"
     },
     install => [
