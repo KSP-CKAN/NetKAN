@@ -8,7 +8,9 @@
   ],
   "depends": [ 
     { "name": "ModuleManager" } ,
-    { "name": "RecoveryController" } 
+    { "name": "RecoveryController" } ,
+    { "name" : "ToolbarController" },
+    { "name" : "ClickThroughBlocker" }
   ],
   "$vref": "#/ckan/ksp-avc",
   "$kref": "#/ckan/spacedock/1251",
