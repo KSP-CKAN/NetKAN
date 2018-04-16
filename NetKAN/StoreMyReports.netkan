@@ -1,7 +1,7 @@
 {
     "spec_version" : "v1.20",
     "identifier" : "StoreMyReports",
-    "$kref" : "#/ckan/curse/273255",
+    "$kref" : "#/ckan/github/CYBUTEK/StoreMyReports",
     "$vref" : "#/ckan/ksp-avc",
     "abstract"     : "Fix the inability for Kerbals to find glove-boxes within their vessel or pockets on their EVA suits.",
     "resources" : {
