@@ -1,25 +1,24 @@
 {
     "spec_version": "v1.4",
-    "identifier": "PlanetShine",
-    "$kref": "#/ckan/curse/224876",
-    "$vref": "#/ckan/ksp-avc",
-    "abstract": "Planets and moons reflects their light to your vessel + other ambient light improvements",
-    "author": "Valerian",
-    "x_netkan_license_ok": true,
+    "identifier":   "PlanetShine",
+    "name":         "PlanetShine",
+    "abstract":     "Planets and moons reflects their light to your vessel + other ambient light improvements",
+    "author":       [ "Valerian", "Papa_Joe" ],
+    "$kref":        "#/ckan/github/PapaJoesSoup/ksp-planetshine",
+    "$vref":        "#/ckan/ksp-avc",
+    "license":      "Apache-2.0",
     "resources": {
-        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/87012-12-/",
-        "repository": "https://github.com/valerian/ksp-planetshine"
+        "homepage":   "https://forum.kerbalspaceprogram.com/index.php?/topic/173138-*",
+        "repository": "https://github.com/PapaJoesSoup/ksp-planetshine"
     },
     "depends": [
-        {
-            "name": "PlanetShine-Config"
-        }
+        { "name": "PlanetShine-Config" }
     ],
     "install": [
         {
-            "find": "GameData/PlanetShine",
+            "find":       "GameData/PlanetShine",
             "install_to": "GameData",
-            "filter": "Config"
+            "filter":     "Config"
         }
     ]
 }
