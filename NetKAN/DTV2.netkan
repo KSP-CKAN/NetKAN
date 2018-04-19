@@ -6,6 +6,10 @@
       "find": "DraftTwitchViewers"
     }
   ],
+    "depends": [
+        { "name" : "ToolbarController" },
+	{ "name" : "ClickThroughBlocker" }
+    ],
   "$vref": "#/ckan/ksp-avc",
   "$kref": "#/ckan/github/linuxgurugamer/DraftTwitchViewers",
   "x_via": "Automated Linuxgurugamer CKAN script",
