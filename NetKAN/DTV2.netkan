@@ -10,6 +10,7 @@
         { "name" : "ToolbarController" },
 	{ "name" : "ClickThroughBlocker" }
     ],
+  "abstract": "Draft, tour with, or rescue your twitch viewers as in-game Kerbals!",
   "$vref": "#/ckan/ksp-avc",
   "$kref": "#/ckan/github/linuxgurugamer/DraftTwitchViewers",
   "x_via": "Automated Linuxgurugamer CKAN script",
