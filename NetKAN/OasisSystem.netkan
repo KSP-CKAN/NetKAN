@@ -1,7 +1,15 @@
 {
     "spec_version": "v1.4",
-    "identifier": "OasisSystem",
-    "$kref": "#/ckan/spacedock/1814",
-    "license": "MIT",
-    "x_via": "Automated SpaceDock CKAN submission"
+    "identifier":   "OasisSystem",
+    "$kref":        "#/ckan/spacedock/1814",
+    "license":      "MIT",
+    "x_via":        "Automated SpaceDock CKAN submission",
+    "install": [ {
+        "find":       "Oasis System",
+        "install_to": "GameData"
+    } ],
+    "depends": [
+        { "name": "ModuleManager" },
+        { "name": "Kopernicus"    }
+    ]
 }
