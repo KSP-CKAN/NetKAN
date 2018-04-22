@@ -1,0 +1,14 @@
+{
+    "spec_version" : 1,
+    "identifier"   : "DarkSideTechnologyContinued",
+    "version"      : "1.0",
+    "author"	  : [ "NISSKEPCSIM" ],
+    "$vref" : "#/ckan/ksp-avc",
+    "license"      : "GPL-3.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/163213-142-notantares-space-industries-stockalike-ur-700-angara-big-soyuz-and-more/"
+    },
+    "name"         : "DarkSideTechnology Continued",
+    "download": "https://spacedock.info/mod/1786/DarkSideTechnology%20Continued./download/1.0",
+    "abstract"     : "A set of parts to help you in the construction of large interplanetary spacecraft. Includes MM patches for CTT, USI-LS and Snacks! It currently includes a 2.5m foldable centrifuge, 2.5m and 3.75m hubs for building stations, and inline 3.75m solar panels."
+}
