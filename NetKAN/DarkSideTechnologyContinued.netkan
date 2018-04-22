@@ -9,4 +9,7 @@
     "resources": {
         "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/163213-*"
     },
+    "depends": [
+        { "name": "ModuleManager" }
+    ]
 }
