@@ -9,6 +9,10 @@
   "conflicts": [
     { "name": "KronalVesselViewer" }
   ],
+    "depends": [
+        { "name" : "ToolbarController" },
+	{ "name" : "ClickThroughBlocker" }
+    ],
   "$vref": "#/ckan/ksp-avc",
   "$kref": "#/ckan/spacedock/1092",
   "x_via": "Automated Linuxgurugamer CKAN script",
