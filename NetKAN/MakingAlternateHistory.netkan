@@ -20,8 +20,7 @@
         "find":       "GameData/MAH",
         "install_to": "GameData"
     }, {
-        "find_regexp":        "Optional Configs/.*\\.cfg",
-        "find_matches_files": true,
-        "install_to":         "GameData/MAH"
+        "find":       "Optional Configs",
+        "install_to": "GameData/MAH"
     } ]
 }
