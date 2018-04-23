@@ -19,8 +19,5 @@
     "install": [ {
         "find":       "GameData/MAH",
         "install_to": "GameData"
-    }, {
-        "find":       "Optional Configs",
-        "install_to": "GameData/MAH"
     } ]
 }
