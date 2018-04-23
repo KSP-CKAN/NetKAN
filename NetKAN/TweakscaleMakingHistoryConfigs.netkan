@@ -5,6 +5,7 @@
     "license":      "WTFPL",
     "x_via":        "Automated SpaceDock CKAN submission",
     "depends": [
-        { "name": "TweakScale" }
+        { "name": "TweakScale"        },
+        { "name": "MakingHistory-DLC" }
     ]
 }
