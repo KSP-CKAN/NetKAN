@@ -1,24 +1,19 @@
 {
-    "spec_version" : "v1.4",
-    "identifier"   : "ContractConfigurator-KerbalAcademy",
-    "$kref"        : "#/ckan/github/severedsolo/KerbalAcademy",
-    "name"         : "Contract Pack: Kerbal Academy",
-    "abstract"     : "Train your astronauts the sensible way!",
-    "license"      : "CC-BY-NC-SA-4.0",
-    "$vref"        : "#/ckan/ksp-avc",
-    "depends" : [
-        {
-            "name" : "ContractConfigurator",
-            "min_version" : "1.12.0"
-        }
-],
-    "install" : [
-        {
-            "find" : "KerbalAcademy",
-            "install_to" : "GameData/ContractPacks"
-        }
-    ],
-    "resources" : {
-        "homepage" : "http://forum.kerbalspaceprogram.com/index.php?/topic/140739-contract-pack-kerbal-academy"
-    }
+    "spec_version": "v1.4",
+    "identifier":   "ContractConfigurator-KerbalAcademy",
+    "name":         "Contract Pack: Kerbal Academy",
+    "abstract":     "Train your astronauts the sensible way!",
+    "author":       [ "severedsolo", "Mark_Kerbin" ],
+    "$kref":        "#/ckan/spacedock/1819",
+    "$vref":        "#/ckan/ksp-avc",
+    "license":      "CC-BY-NC-SA-4.0",
+    "license":      "MIT",
+    "x_via":        "Automated SpaceDock CKAN submission",
+    "install": [ {
+        "find":       "ContractPacks",
+        "install_to": "GameData"
+    } ],
+    "depends": [
+        { "name": "ContractConfigurator" }
+    ]
 }
