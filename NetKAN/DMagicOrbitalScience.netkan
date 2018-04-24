@@ -1,8 +1,9 @@
 {
     "spec_version": 1,
-    "identifier": "DMagicOrbitalScience",
-    "$kref": "#/ckan/spacedock/128",
-    "license": "BSD-3-clause",
+    "identifier":   "DMagicOrbitalScience",
+    "$kref":        "#/ckan/spacedock/128",
+    "$vref":        "#/ckan/ksp-avc",
+    "license":      "BSD-3-clause",
     "install": [
         {
             "file": "GameData/DMagicOrbitalScience",
@@ -16,15 +17,15 @@
         { "name": "ContractsWindowPlus" }
     ],
     "suggests": [
-        { "name": "CapCom" },
+        { "name": "CapCom"                 },
         { "name": "ContractRewardModifier" },
-        { "name": "OuterPlanetsMod" },
-        { "name": "UniversalStorage" },
-        { "name": "ScienceAlert" },
-        { "name": "SCANsat" },
-        { "name": "CommunityTechTree" }
+        { "name": "OuterPlanetsMod"        },
+        { "name": "UniversalStorage"       },
+        { "name": "ScienceAlert"           },
+        { "name": "SCANsat"                },
+        { "name": "CommunityTechTree"      }
     ],
-	"conflicts": [
+    "conflicts": [
         { "name": "ForScience" }
     ],
     "x_netkan_override": [
