@@ -14,8 +14,7 @@
         "install_to": "GameData"
     } ],
     "depends": [
-        { "name": "ModuleManager"             },
-        { "name": "RetractableLiftingSurface" }
+        { "name": "ModuleManager"             }
     ],
     "suggests" : [
         { "name": "CommunityTechTree" },
