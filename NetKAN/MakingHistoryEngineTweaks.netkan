@@ -7,7 +7,7 @@
         "homepage": "https://forum.kerbalspaceprogram﻿.com/index.php?/topic/174303-*"
     },
     "install": [ {
-        "find":       "EngineTweaks_MH",
+        "find":       "GameData/EngineTweaks_MH",
         "install_to": "GameData"
     } ],
     "depends": [
