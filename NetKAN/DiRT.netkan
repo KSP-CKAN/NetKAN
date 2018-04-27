@@ -7,6 +7,10 @@
     "resources": {
         "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/172055-*"
     },
+    "install": [ {
+        "find":       "GameData/DiRT",
+        "install_to": "GameData"
+    } ],
     "conflicts": [
         { "name": "TextureReplacer"         },
         { "name": "TextureReplacerReplaced" }
