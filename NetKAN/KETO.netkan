@@ -8,8 +8,8 @@
         { "name": "ModuleManager"                   },
         { "name": "Kopernicus"                      },
         { "name": "EnvironmentalVisualEnhancements" },
-        { "name": "Scatterer"                       }
-        { "name": "DiRT"                            },
+        { "name": "Scatterer"                       },
+        { "name": "DiRT"                            }
     ],
     "recommends": [
         { "name": "PlanetShine"              },
