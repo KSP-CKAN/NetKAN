@@ -10,6 +10,8 @@
         }
     ],
     "depends": [
-        { "name": "ToadicusToolsContinued" }
+        { "name": "ToadicusToolsContinued" },
+        { "name" : "ToolbarController" },
+	{ "name" : "ClickThroughBlocker" }
     ]
 }
