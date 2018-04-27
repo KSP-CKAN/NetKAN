@@ -1,0 +1,26 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "KETO",
+    "$kref":        "#/ckan/spacedock/1781",
+    "license":      "CC-BY-NC-SA-3.0",
+    "x_via":        "Automated SpaceDock CKAN submission",
+    "depends": [
+        { "name": "ModuleManager"                   },
+        { "name": "Kopernicus"                      },
+        { "name": "EnvironmentalVisualEnhancements" },
+        { "name": "Scatterer"                       },
+        { "name": "DiRT"                            }
+    ],
+    "recommends": [
+        { "name": "PlanetShine"              },
+        { "name": "DistantObjectEnhancement" },
+        { "name": "SVE-Terrain"              }
+    ],
+    "install": [ {
+        "find":       "KETO",
+        "install_to": "GameData"
+    }, {
+        "find":       "DiRT/Textures",
+        "install_to": "GameData/DiRT/Textures"
+    } ]
+}
