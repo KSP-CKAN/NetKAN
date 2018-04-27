@@ -9,10 +9,18 @@
         { "name": "Kopernicus"                      },
         { "name": "EnvironmentalVisualEnhancements" },
         { "name": "Scatterer"                       }
+        { "name": "DiRT"                            },
     ],
     "recommends": [
         { "name": "PlanetShine"              },
         { "name": "DistantObjectEnhancement" },
         { "name": "SVE-Terrain"              }
     ]
+    "install": [ {
+        "find":       "KETO",
+        "install_to": "GameData"
+    }, {
+        "find":       "DiRT/Textures",
+        "install_to": "GameData/DiRT/Textures"
+    } ]
 }
