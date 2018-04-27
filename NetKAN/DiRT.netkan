@@ -4,6 +4,9 @@
     "$kref":        "#/ckan/github/cydonian-monk/KSP-DiRT",
     "$vref":        "#/ckan/ksp-avc",
     "license":      "MIT",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/172055-*"
+    },
     "conflicts": [
         { "name": "TextureReplacer"         },
         { "name": "TextureReplacerReplaced" }
