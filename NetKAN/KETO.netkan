@@ -15,7 +15,7 @@
         { "name": "PlanetShine"              },
         { "name": "DistantObjectEnhancement" },
         { "name": "SVE-Terrain"              }
-    ]
+    ],
     "install": [ {
         "find":       "KETO",
         "install_to": "GameData"
