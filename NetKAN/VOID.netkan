@@ -2,6 +2,7 @@
     "spec_version"  : 1,
     "identifier"    : "VOID",
     "$kref"         : "#/ckan/spacedock/1413",
+    "$vref": "#/ckan/ksp-avc",
     "license"       : "BSD-3-clause",
     "install": [
         {
