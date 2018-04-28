@@ -1,7 +1,8 @@
 {
     "spec_version"  : "v1.4",
     "identifier"    : "VOID",
-    "$kref"        : "#/ckan/github/linuxgurugamer/VOID",
+    "$kref"         : "#/ckan/spacedock/1413",
+    "$vref": "#/ckan/ksp-avc",
     "license"       : "BSD-3-clause",
     "supports": [
         {
