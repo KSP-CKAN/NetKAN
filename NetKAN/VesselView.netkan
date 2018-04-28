@@ -5,8 +5,10 @@
 	"identifier": "VesselView",
 	"x_netkan_epoch": 2,
 	"depends": [
-		{ "name": "VesselView-UI" }
-	],
+		{ "name": "VesselView-UI" },
+       		{ "name" : "ToolbarController" },
+		{ "name" : "ClickThroughBlocker" }
+        ],
 	"install": [
 		{
 			"find": "VesselView",

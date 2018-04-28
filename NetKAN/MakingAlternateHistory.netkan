@@ -1,0 +1,23 @@
+{
+    "spec_version": "v1.16",
+    "identifier":   "MakingAlternateHistory",
+    "$kref":        "#/ckan/spacedock/1799",
+    "license":      "CC-BY-4.0",
+    "x_via":        "Automated SpaceDock CKAN submission",
+    "depends": [
+        { "name": "ModuleManager"     },
+        { "name": "TexturesUnlimited" }
+    ],
+    "suggests": [
+        { "name": "ConnectedLivingSpace" },
+        { "name": "KIS"                  },
+        { "name": "Snacks"               },
+        { "name": "TACLS"                },
+        { "name": "USI-LS"               },
+        { "name": "TweakScale"           }
+    ],
+    "install": [ {
+        "find":       "GameData/MAH",
+        "install_to": "GameData"
+    } ]
+}

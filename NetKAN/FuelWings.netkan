@@ -2,6 +2,7 @@
     "$kref": "#/ckan/spacedock/1290",
     "identifier": "FuelWings",
     "x_via": "Automated SpaceDock CKAN submission",
+    "x_netkan_epoch": 1,
     "spec_version": "v1.4",
     "license": "restricted",
     "depends": [
@@ -12,6 +13,16 @@
         {
             "find": "GameData/FuelWings",
             "install_to": "GameData"
+        }
+    ],
+    "x_netkan_override": [
+        {
+            "version": "1:3.2e",
+            "delete": [ "ksp_version" ],
+            "override": {
+                "ksp_version_min" : "1.4.0",
+                "ksp_version_max" : "1.4.2"
+            }
         }
     ]
 }
