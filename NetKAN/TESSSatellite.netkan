@@ -1,7 +1,11 @@
 {
-    "x_via": "Automated SpaceDock CKAN submission",
-    "$kref": "#/ckan/spacedock/1836",
-    "license": "MIT",
     "spec_version": "v1.4",
-    "identifier": "TESSSatellite"
+    "identifier":   "TESSSatellite",
+    "$kref":        "#/ckan/spacedock/1836",
+    "license":      "MIT",
+    "x_via":        "Automated SpaceDock CKAN submission",
+    "install": [ {
+        "find":       "tess",
+        "install_to": "GameData"
+    } ]
 }
