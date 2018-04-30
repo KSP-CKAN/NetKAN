@@ -5,11 +5,14 @@
     "name"         : "DMModuleScienceAnimateGeneric",
     "abstract"     : "A replacement for ModuleScienceExperiment and ModuleAnimateGeneric",
     "license"      : "BSD-2-clause",
-    "ksp_version"   : "1.3",
-    "install": [
-        {
-                "file": "GameData/DMagicScienceAnimate",
-            "install_to": "GameData"
+    "install": [ {
+        "file":       "GameData/DMagicScienceAnimate",
+        "install_to": "GameData"
+    } ],
+    "x_netkan_override": [ {
+        "version": "v0.20",
+        "override": {
+            "ksp_version": "1.4"
         }
-    ]
+    } ]
 }
