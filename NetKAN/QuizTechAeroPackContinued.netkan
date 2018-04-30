@@ -2,7 +2,7 @@
     "identifier": "QuizTechAeroPackContinued",
     "spec_version": "v1.4",
     "$kref": "#/ckan/spacedock/836",
-    "$vref"       : "#/ckan/ksp-avc",
+    "$vref": "#/ckan/ksp-avc",
     "license": "CC-BY-4.0",
     "name" : "QuizTech Aero Pack",
     "conflicts" : [
@@ -28,10 +28,6 @@
         {
             "find"       : "QuizTechAeroContinued",
             "install_to" : "GameData"
-        },
-        {
-            "find"       : "Ships/SPH",
-            "install_to" : "Ships"
         }
     ]
 }

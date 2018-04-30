@@ -1,19 +1,20 @@
 {
     "spec_version": "v1.2",
-    "identifier": "ContractsWindowPlus",
-    "$kref": "#/ckan/spacedock/130",
-    "license": "MIT",
+    "identifier":   "ContractsWindowPlus",
+    "$kref":        "#/ckan/spacedock/130",
+    "$vref":        "#/ckan/ksp-avc",
+    "license":      "MIT",
     "depends": [
         { "name": "ProgressParser" },
         { "name": "ContractParser" }
     ],
     "suggests": [
-        { "name": "CapCom" },
+        { "name": "CapCom"                 },
         { "name": "ContractRewardModifier" }
     ],
     "install": [
         {
-            "file": "GameData/DMagicUtilities/ContractsWindow",
+            "file":       "GameData/DMagicUtilities/ContractsWindow",
             "install_to": "GameData/DMagicUtilities"
         }
     ]

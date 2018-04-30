@@ -1,0 +1,26 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "OPTReconfig",
+    "$kref":        "#/ckan/spacedock/1808",
+    "$vref":        "#/ckan/ksp-avc",
+    "license":      "MIT",
+    "x_via":        "Automated SpaceDock CKAN submission",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/173833-*"
+    },
+    "install": [ {
+        "find":       "OPT_Reconfig",
+        "install_to": "GameData"
+    } ],
+    "depends": [
+        { "name": "OPTSpacePlaneParts" },
+        { "name": "B9PartSwitch" }
+    ],
+    "recommends": [
+        { "name": "CommunityResourcePack" }
+    ],
+    "conflicts": [
+        { "name": "OPTWBIintegrationpatch" },
+        { "name": "OPTUSILifeSupportPatch" }
+    ]
+}

@@ -2,6 +2,7 @@
     "spec_version" : 1,
     "identifier"   : "TweakableEverythingCont",
     "$kref"        : "#/ckan/spacedock/1059",
+    "$vref"        : "#/ckan/ksp-avc",
     "license"      : "BSD-3-clause",
     "install": [
         {
