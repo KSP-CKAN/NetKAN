@@ -9,6 +9,9 @@
         "file":       "GameData/DMagicScienceAnimate",
         "install_to": "GameData"
     } ],
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/65734-*"
+    },
     "x_netkan_override": [ {
         "version": "v0.20",
         "override": {
