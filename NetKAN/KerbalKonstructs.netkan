@@ -19,5 +19,8 @@
             "find"       : "KerbalKonstructs",
             "install_to" : "GameData"
         }
-    ]
+    ],
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/151818-*"
+    }
 }
