@@ -25,7 +25,7 @@
     ],
     "install" : [
         {
-            "find"       : "KWRocketryRebalanced/GameData/KWRocketry",
+            "find"       : "GameData/KWRocketry",
             "install_to" : "GameData"
         }
     ]
