@@ -7,5 +7,9 @@
     "install": [ {
         "find":       "TexturesUnlimited_StockConfig",
         "install_to": "GameData"
-    } ]
+    } ],
+    "depends": [
+        { "name": "ModuleManager"     },
+        { "name": "TexturesUnlimited" }
+    ]
 }
