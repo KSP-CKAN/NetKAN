@@ -1,0 +1,10 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "KabramsSunFlaresPack",
+    "$kref":        "#/ckan/spacedock/1843",
+    "license":      "restricted",
+    "x_via":        "Automated SpaceDock CKAN submission",
+    "depends": [
+        { "name": "Scatterer" }
+    ]
+}
