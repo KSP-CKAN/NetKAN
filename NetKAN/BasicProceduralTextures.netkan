@@ -1,7 +1,18 @@
 {
-    "x_via": "Automated SpaceDock CKAN submission",
-    "$kref": "#/ckan/spacedock/1845",
-    "license": "MIT",
-    "identifier": "BasicProceduralTextures",
-    "spec_version": "v1.4"
+    "spec_version": "v1.4",
+    "identifier":   "BasicProceduralTextures",
+    "$kref":        "#/ckan/spacedock/1845",
+    "license":      "MIT",
+    "x_via":        "Automated SpaceDock CKAN submission",
+    "install": [ {
+        "find":       "GameData/BasicProceduralTextures",
+        "install_to": "GameData"
+    } ],
+    "depends": [
+        { "name": "ModuleManager" }
+    ],
+    "recommends": [
+        { "name": "ProceduralParts" },
+        { "name": "DecouplerShroud" }
+    ]
 }
