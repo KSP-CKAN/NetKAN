@@ -22,7 +22,8 @@
     ],
     "suggests" : [
         { "name" : "PPTextures" },
-        { "name" : "FreedomTex" }
+        { "name" : "FreedomTex" },
+        { "name" : "BasicProceduralTextures" }
     ],
     "x_netkan_override": [
         {
