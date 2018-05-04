@@ -2,5 +2,16 @@
     "license": "MIT",
     "$kref": "#/ckan/spacedock/201",
     "spec_version": "v1.4",
-    "identifier": "LaunchNumbering"
+    "identifier": "LaunchNumbering",
+    "depends": [
+        { "name" : "ToolbarController" },
+	{ "name" : "ClickThroughBlocker" }
+    ],
+    "install": [
+        {
+            "find": "LaunchNumbering",
+            "install_to": "GameData"
+        }
+    ]
+
 }
