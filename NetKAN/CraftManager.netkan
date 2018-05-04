@@ -7,7 +7,6 @@
     "ksp_version"  : "1.4",
     "x_netkan_override": [ {
         "version":  "<1.1.0",
-        "delete":   [ "ksp_version" ],
         "override": {
             "ksp_version": "1.3"
         }
