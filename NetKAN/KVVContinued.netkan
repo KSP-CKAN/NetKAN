@@ -3,7 +3,7 @@
     "install": [
         {
             "install_to": "GameData",
-            "find": "KronalUtils"
+            "find": "KronalVesselViewer"
         }
     ],
     "conflicts": [
@@ -19,3 +19,4 @@
     "identifier": "KVVContinued",
     "license": "unrestricted"
 }
+
