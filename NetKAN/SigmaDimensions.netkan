@@ -1,12 +1,12 @@
 {
     "spec_version": "v1.4",
     "identifier":   "SigmaDimensions",
-    "$kref":        "#/ckan/github/Sigma88/Sigma-Dimensions",
-    "$vref":        "#/ckan/ksp-avc",
     "name":         "Sigma Dimensions",
     "abstract":     "The Universal Rescale Mod",
     "license":      "restricted",
-    "x_netkan_version_edit": "^[vV]?(?<version>.+)$",
+    "version": "v0.9.8",
+    "ksp_version": "1.3.1",
+    "download": "https://github.com/Sigma88/Sigma-Dimensions/releases/download/v0.9.8/Sigma-Dimensions.v0.9.8.zip",
     "resources": {
         "homepage": "https://www.github.com/Sigma88/Sigma-Dimensions"
     },

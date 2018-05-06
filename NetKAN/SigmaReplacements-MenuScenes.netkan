@@ -1,8 +1,9 @@
 {
     "spec_version" : "v1.4",
     "identifier"   : "SigmaReplacements-MenuScenes",
-    "$kref"        : "#/ckan/github/Sigma88/Sigma-Replacements/asset_match/Sigma-Replacements_MenuScenes.*?\\.zip",
-    "$vref"        : "#/ckan/ksp-avc",
+    "version": "K_v0.1.0",
+    "ksp_version": "1.3.1",
+    "download": "https://github.com/Sigma88/Sigma-Replacements/releases/download/K_v0.1.0/Sigma-Replacements_MenuScenes.v0.1.0.zip",
     "name"         : "Sigma Replacements: MenuScenes",
     "abstract"     : "Customizeable Main Menu Scenes",
     "license"      : "restricted",
