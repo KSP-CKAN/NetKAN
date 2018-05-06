@@ -4,6 +4,11 @@
     "$kref"        : "#/ckan/spacedock/101",
     "$vref"        : "#/ckan/ksp-avc",
     "license"      : "GPL-3.0",
+    "x_netkan_epoch": 1,
+    "depends": [
+        { "name" : "ToolbarController" },
+        { "name" : "ClickThroughBlocker" }
+    ],
     "install": [
         {
             "file"       : "GameData/QuickMods/QuickSearch",
