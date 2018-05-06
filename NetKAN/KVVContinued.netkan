@@ -3,7 +3,7 @@
     "install": [
         {
             "install_to": "GameData",
-            "find": "KronalUtils"
+            "find": "KronalVesselViewer"
         }
     ],
     "conflicts": [
