@@ -12,7 +12,7 @@
   ],
     "depends": [
         { "name" : "ToolbarController" },
-	{ "name" : "ClickThroughBlocker" }
+        { "name" : "ClickThroughBlocker" }
     ],
   "spec_version": "v1.4"
 }
