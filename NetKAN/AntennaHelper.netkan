@@ -6,8 +6,10 @@
       "find": "AntennaHelper"
     }
   ],
-  "depends": [ { "name": "ToolbarController" } ],
-  "depends": [ { "name": "ClickThroughBlocker" } ],
+  "depends": [
+    { "name": "ToolbarController"   },
+    { "name": "ClickThroughBlocker" } 
+  ],
   "$vref": "#/ckan/ksp-avc",
   "$kref": "#/ckan/github/Li0n-0/Antenna-Helper",
   "x_via": "Automated Linuxgurugamer CKAN script",
