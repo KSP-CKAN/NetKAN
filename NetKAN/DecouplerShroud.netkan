@@ -3,6 +3,7 @@
     "identifier":   "DecouplerShroud",
     "$kref":        "#/ckan/spacedock/1692",
     "license":      "MIT",
+    "$vref": "#/ckan/ksp-avc",
     "x_via":        "Automated SpaceDock CKAN submission",
     "depends": [
         { "name": "ModuleManager" }
