@@ -6,10 +6,10 @@
     "abstract"     : "Renames, re-stats, even gender-bends Kerbals procedurally.",
     "author"       : [ "regex", "KSP-RO Group"],
     "license"      : "BSD-2-clause",
-    "ksp_version"  : "1.2.2",
+    "ksp_version"  : "1.4.3",
     "install": [
         {
-            "find": "GameData/KerbalRenamer",
+            "find":       "GameData/KerbalRenamer",
             "install_to": "GameData"
         }
     ]
