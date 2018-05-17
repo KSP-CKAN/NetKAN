@@ -7,5 +7,8 @@
     "depends": [
         { "name": "ModuleManager" },
         { "name": "Kopernicus"    }
+    ],
+    "supports": [
+        { "name": "OuterPlanetsMod" }
     ]
 }
