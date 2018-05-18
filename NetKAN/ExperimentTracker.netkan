@@ -1,5 +1,5 @@
 {
-    "spec_version" : 1,
+    "spec_version" : "v1.4",
     "identifier"   : "ExperimentTracker",
     "$kref"        : "#/ckan/spacedock/1858",
     "$vref"        : "#/ckan/ksp-avc",
@@ -11,7 +11,7 @@
     "x_netkan_force_v": true,
     "install": [ 
         {
-            "file"       : "ExperimentTracker",
+            "find"       : "ExperimentTracker",
             "install_to" : "GameData"
         }
     ]
