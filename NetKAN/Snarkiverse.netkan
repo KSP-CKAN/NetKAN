@@ -1,0 +1,14 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "Snarkiverse",
+    "$kref":        "#/ckan/spacedock/1857",
+    "license":      "MIT",
+    "x_via":        "Automated SpaceDock CKAN submission",
+    "depends": [
+        { "name": "ModuleManager" },
+        { "name": "Kopernicus"    }
+    ],
+    "supports": [
+        { "name": "OuterPlanetsMod" }
+    ]
+}
