@@ -1,6 +1,7 @@
 {
     "license": "MIT",
     "$kref": "#/ckan/spacedock/201",
+    "$vref" : "#/ckan/ksp-avc",
     "spec_version": "v1.4",
     "identifier": "LaunchNumbering",
     "depends": [
