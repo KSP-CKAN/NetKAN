@@ -1,17 +1,22 @@
 {
-  "spec_version": "v1.4",
-  "install": [
-    {
-      "install_to": "GameData",
-      "find": "KronalUtils"
-    }
-  ],
-  "conflicts": [
-    { "name": "KronalVesselViewer" }
-  ],
-  "$vref": "#/ckan/ksp-avc",
-  "$kref": "#/ckan/spacedock/1092",
-  "x_via": "Automated Linuxgurugamer CKAN script",
-  "identifier": "KVVContinued",
-  "license": "unrestricted"
+    "spec_version": "v1.4",
+    "install": [
+        {
+            "install_to": "GameData",
+            "find": "KronalVesselViewer"
+        }
+    ],
+    "conflicts": [
+        { "name": "KronalVesselViewer" }
+    ],
+    "depends": [
+        { "name": "ToolbarController" },
+        { "name": "ClickThroughBlocker" }
+    ],
+    "$vref": "#/ckan/ksp-avc",
+    "$kref": "#/ckan/spacedock/1092",
+    "x_via": "Automated Linuxgurugamer CKAN script",
+    "identifier": "KVVContinued",
+    "license": "unrestricted"
 }
+

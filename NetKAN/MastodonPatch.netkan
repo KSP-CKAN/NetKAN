@@ -1,0 +1,14 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "MastodonPatch",
+    "$kref":        "#/ckan/spacedock/1820",
+    "license":      "public-domain",
+    "x_via":        "Automated SpaceDock CKAN submission",
+    "install": [ {
+        "find":       "XyphosAerospace",
+        "install_to": "GameData"
+    } ],
+    "depends": [
+        { "name": "ModuleManager" }
+    ]
+}

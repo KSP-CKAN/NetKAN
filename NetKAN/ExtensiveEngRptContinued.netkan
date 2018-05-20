@@ -8,7 +8,11 @@
   ],
   "depends": [
     { "name": "ModuleManager" },
-    { "name": "ShipSectionsContinued" }
+    { "name" : "ToolbarController" },
+    { "name" : "ClickThroughBlocker" }
+  ],
+  "conflicts": [
+    { "name": "ShipSections" }
   ],
   "$vref": "#/ckan/ksp-avc",
   "$kref": "#/ckan/spacedock/1147",

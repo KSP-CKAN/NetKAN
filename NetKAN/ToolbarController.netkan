@@ -6,6 +6,9 @@
       "find": "001_ToolbarControl"
     }
   ],
+  "depends": [
+	{ "name" : "ClickThroughBlocker" }
+  ],
   "resources"    : {
         "homepage" : "https://forum.kerbalspaceprogram.com/index.php?/topic/169509-141-toolbar-controller-for-modders/"
   },
@@ -19,3 +22,4 @@
   "abstract": "Wrapper mod around the Blizzy and stock toolbars",
   "license": "GPL-3.0"
 }
+
