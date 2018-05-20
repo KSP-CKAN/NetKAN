@@ -1,5 +1,5 @@
 {
-    "spec_version" : 1,
+    "spec_version" : "v1.4",
     "identifier"   : "InlineBallutes",
     "$kref": "#/ckan/spacedock/1862",
     "$vref"        : "#/ckan/ksp-avc",
@@ -11,7 +11,7 @@
            { "name": "ModuleManager" }
     ],
     "install": [
-           { "file": "KermangeddonIndustries",
+           { "find": "KermangeddonIndustries",
              "install_to" : "GameData"
            }
     ]
