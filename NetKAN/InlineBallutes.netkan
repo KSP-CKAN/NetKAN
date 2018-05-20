@@ -1,10 +1,9 @@
 {
     "spec_version" : "v1.4",
     "identifier"   : "InlineBallutes",
-    "$kref": "#/ckan/spacedock/1862",
+    "$kref"        : "#/ckan/spacedock/1862",
     "$vref"        : "#/ckan/ksp-avc",
     "license"      : "CC-BY-NC-SA-4.0",
-    "$vref"        : "#/ckan/ksp-avc",
     "suggests"     : [
            { "name": "FerramAerospaceResearch" },
            { "name": "EntropyRealChute" },
