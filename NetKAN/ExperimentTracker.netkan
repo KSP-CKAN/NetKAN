@@ -9,6 +9,10 @@
         "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/175070-14-experiment-tracker-retracked/"
     },
     "x_netkan_force_v": true,
+    "depends": [
+        { "name" : "ToolbarController" },
+	{ "name" : "ClickThroughBlocker" }
+    ],
     "install": [ 
         {
             "find"       : "ExperimentTracker",
