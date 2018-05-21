@@ -5,7 +5,12 @@
     "license":      "CC-BY-NC-SA-4.0",
     "x_via":        "Automated SpaceDock CKAN submission",
     "depends": [
-        { "name": "Firespitter"           },
-        { "name": "CommunityResourcePack" }
-    ]
+        { "name": "B9PartSwitch"          },
+        { "name": "CommunityResourcePack" },
+        { "name": "DeepSkyCore"           }
+    ],
+    "install": [ {
+        "find":       "ThorTech",
+        "install_to": "GameData/DeepSky/ThorTech"
+    } ]
 }
