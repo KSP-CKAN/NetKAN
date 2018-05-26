@@ -1,7 +1,10 @@
 {
-    "identifier": "Telemagic",
-    "x_via": "Automated SpaceDock CKAN submission",
     "spec_version": "v1.4",
-    "license": "MIT",
-    "$kref": "#/ckan/spacedock/1627"
+    "identifier":   "Telemagic",
+    "$kref":        "#/ckan/spacedock/1627",
+    "license":      "MIT",
+    "x_via":        "Automated SpaceDock CKAN submission",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/169048-*"
+    }
 }
