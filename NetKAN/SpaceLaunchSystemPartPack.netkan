@@ -4,10 +4,10 @@
     "$kref":        "#/ckan/spacedock/325",
     "license":      "GPL-3.0",
     "depends": [
-        { "name": "HangarExtender"           },
         { "name": "KerbalJointReinforcement" }
     ],
     "recommends": [
+        { "name": "HangarExtender"           },
         { "name": "AerojetKerbodyne"         },
         { "name": "SDHI-ServiceModuleSystem" },
         { "name": "RandSCapsuledyne"         },
