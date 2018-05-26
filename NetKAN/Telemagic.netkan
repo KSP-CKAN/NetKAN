@@ -9,8 +9,8 @@
     },
     "install": [ {
         "find":          "Telemagic",
-        "filter_regexp": [ "\\.*.craft$" ]
-        "install_to":    "GameData",
+        "filter_regexp": [ "\\.*.craft$" ],
+        "install_to":    "GameData"
     }, {
         "find_regexp":        "\\.*.craft$",
         "find_matches_files": true,
