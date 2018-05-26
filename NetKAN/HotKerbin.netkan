@@ -3,5 +3,9 @@
     "identifier":   "HotKerbin",
     "$kref":        "#/ckan/spacedock/1867",
     "license":      "unknown",
-    "x_via":        "Automated SpaceDock CKAN submission"
+    "x_via":        "Automated SpaceDock CKAN submission",
+    "depends": [
+        { "name": "ModuleManager" },
+        { "name": "Kopernicus"    }
+    ]
 }
