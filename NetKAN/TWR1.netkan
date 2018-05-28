@@ -5,7 +5,7 @@
     "$vref": "#/ckan/ksp-avc",
     "name": "Vertical Velocity Controller Redux",
     "abstract": "Control your descent speed in discreet increments for soft, controlled skycrane landings.",
-    "author": "linuxgurugamer,Diazo",
+    "author": [ "Diazo", "linuxgurugamer" ],
     "license": "GPL-3.0",
     "release_status": "stable",
     "resources": {
