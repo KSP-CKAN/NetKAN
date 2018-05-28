@@ -3,11 +3,11 @@
     "identifier"   : "RCSLandAid",
     "$kref"        : "#/ckan/github/linuxgurugamer/RCSLandAid",
     "$vref": "#/ckan/ksp-avc",
-    "name"         : "Horizontal Landing Aidi Redux",
+    "name"         : "Horizontal Landing Aid Redux",
     "abstract"     : "Kill your horizontal velocity to land, or hover over a specific point on the ground",
     "license"      : "GPL-3.0",
     "release_status" : "stable",
-    "author"       : "linuxgurugamer,Diazo",
+    "author"       : [ "Diazo", "linuxgurugamer" ],
     "depends" : [
         { "name": "ModuleManager" },
 	{ "name" : "ToolbarController" },
