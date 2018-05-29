@@ -3,5 +3,8 @@
     "identifier":   "DarkTexturePack",
     "$kref":        "#/ckan/spacedock/1877",
     "license":      "MIT",
-    "x_via":        "Automated SpaceDock CKAN submission"
+    "x_via":        "Automated SpaceDock CKAN submission",
+    "depends": [
+        { "name": "ModuleManager" }
+    ]
 }
