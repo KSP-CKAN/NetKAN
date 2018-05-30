@@ -3,6 +3,7 @@
     "identifier": "Kerbalism",
     "$kref": "#/ckan/github/steamp0rt/Kerbalism",
     "$vref": "#/ckan/ksp-avc/GameData/Kerbalism/Kerbalism.version",
+    "x_netkan_trust_version_file": true,
     "license": "Unlicense",
     "author": [ "ShotgunNinja", "N70" ],
     "resources": {
