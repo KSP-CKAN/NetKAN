@@ -1,0 +1,12 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "ConstellationEssentials",
+    "author":       [ "BahamutoD", "PhineasFreak" ],
+    "$kref":        "#/ckan/github/PhineasFreak/ConstellationEssentials",
+    "ksp_version":  "any",
+    "license":      "CC-BY-SA-4.0",
+    "install": [ {
+        "find":       "BahaConstellation",
+        "install_to": "GameData"
+    } ]
+}
