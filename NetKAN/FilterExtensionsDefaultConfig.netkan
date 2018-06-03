@@ -10,10 +10,10 @@
     "depends" : [
         { "name" : "FilterExtensions" }
     ],
+    "provides":[ "FEConfigs" ],
     "conflicts": [
      	{ "name" : "FilterExtensionsAltCfg_1" }
     ],
-    "provides":"FEConfigs"
     "install" : [
         {
             "file"       : "GameData/000_FilterExtensions_Configs/Default",

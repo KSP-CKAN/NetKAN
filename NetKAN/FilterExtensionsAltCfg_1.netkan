@@ -10,7 +10,7 @@
     "depends" : [
         { "name" : "FilterExtensions" }
     ],
-    "provides":"FEConfigs"
+    "provides":[ "FEConfigs" ],
     "conflicts": [
      	{ "name" : "FilterExtensionsDefaultConfig" }
     ],
