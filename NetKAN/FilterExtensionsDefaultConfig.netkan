@@ -12,7 +12,7 @@
     ],
     "provides":[ "FEConfigs" ],
     "conflicts": [
-     	{ "name" : "FilterExtensionsAltCfg_1" }
+     	{ "name" : "FilterExtensionsAltCfg-1" }
     ],
     "install" : [
         {
