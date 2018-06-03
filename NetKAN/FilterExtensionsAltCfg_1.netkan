@@ -3,21 +3,25 @@
     "$kref"          : "#/ckan/github/linuxgurugamer/FilterExtension",
     "$vref"          : "#/ckan/ksp-avc",
     "name"           : "Filter Extensions - Default Configuration",
-    "identifier"     : "FilterExtensionsDefaultConfig",
+    "identifier"     : "FilterExtensionsAltCfg_1",
     "abstract"       : "Configuration files using Filter Extensions to create a large array of new part categories in the Editor",
     "license"        : "CC-BY-NC-SA-4.0",
     "release_status" : "stable",
     "depends" : [
         { "name" : "FilterExtensions" }
     ],
-    "conflicts": [
-     	{ "name" : "FilterExtensionsAltCfg_1" }
-    ],
     "provides":"FEConfigs"
+    "conflicts": [
+     	{ "name" : "FilterExtensionsDefaultConfig" }
+    ],
     "install" : [
         {
-            "file"       : "GameData/000_FilterExtensions_Configs/Default",
+            "file"       : "GameData/000_FilterExtensions_AltConfig_1/000_FilterExtensions_Configs/Default",
             "install_to" : "GameData/000_FilterExtensions_Configs"
+        },
+        {
+            "file"       : "GameData/000_FilterExtensions_AltConfig_1/000_FilterExtensions/Icons",
+            "install_to" : "GameData/000_FilterExtensions/Icons"
         }
     ]
 }
