@@ -1,12 +1,13 @@
 {
     "spec_version": "v1.18",
     "identifier": "Kerbalism",
-    "$kref": "#/ckan/spacedock/1774",
+    "$kref": "#/ckan/github/steamp0rt/Kerbalism",
     "$vref": "#/ckan/ksp-avc/GameData/Kerbalism/Kerbalism.version",
+    "x_netkan_trust_version_file": true,
     "license": "Unlicense",
     "author": [ "ShotgunNinja", "N70" ],
     "resources": {
-        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/172400-141-kerbalism-v13/",
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/172400-*",
         "repository": "https://gitlab.com/N70/Kerbalism"
     },
     "depends": [

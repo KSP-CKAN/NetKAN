@@ -1,0 +1,19 @@
+{
+    "spec_version": "v1.16",
+    "identifier":   "Telemagic",
+    "$kref":        "#/ckan/spacedock/1627",
+    "license":      "MIT",
+    "x_via":        "Automated SpaceDock CKAN submission",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/175340-*"
+    },
+    "install": [ {
+        "find":          "Telemagic",
+        "filter_regexp": [ "\\.*.craft$" ],
+        "install_to":    "GameData"
+    }, {
+        "find_regexp":        "\\.*.craft$",
+        "find_matches_files": true,
+        "install_to":        "Ships/VAB"
+    } ]
+}

@@ -1,14 +1,14 @@
 {
     "spec_version": 1,
-    "$kref"    : "#/ckan/spacedock/192",
+    "$kref"    : "#/ckan/spacedock/1869",
     "$vref"    : "#/ckan/ksp-avc",
     "name"     : "Advanced Fly-By-Wire (Windows, x64)",
     "abstract" : "Joystick & controller mod with multiple presets and in-flight controls binding!",
     "identifier": "AdvancedFlyByWire",
     "release_status" : "stable",
     "resources" : {
-        "homepage"   : "http://forum.kerbalspaceprogram.com/index.php?/topic/85711-105-afbw-v162-joystick-controller-mod/",
-        "repository" : "https://github.com/AlexanderDzhoganov/ksp-advanced-flybywire"
+        "homepage"   : "https://forum.kerbalspaceprogram.com/index.php?/topic/175359-14-afbw-joystick-controller-mod/",
+        "repository" : "https://github.com/linuxgurugamer/ksp-advanced-flybywire"
     },
     "install" : [
         {
@@ -19,9 +19,9 @@
             "file"       : "SDL_LICENSE",
             "install_to" : "GameRoot"
         },
-        {
-            "file"       : "XINPUTDOTNET_LICENSE",
-            "install_to" : "GameRoot"
+	{
+            "file": "XINPUTDOTNET_LICENSE",
+            "install_to": "GameRoot"
         },
         {
             "file"       : "XInputInterface.dll",
@@ -32,8 +32,9 @@
             "install_to" : "GameData"
         }
     ],
-    "depends" : [
-        { "name" : "Toolbar" }
+    "depends": [
+        { "name" : "ToolbarController" },
+	{ "name" : "ClickThroughBlocker" }
     ],
     "recommends" : [
         { "name" : "KSP-AVC" }
