@@ -1,6 +1,6 @@
 {
   "spec_version": 1,
-  "identifier": "AdvancedFlyByWire-Linux",
+  "identifier": "AdvancedFlyByWire-Windows",
   "release_status": "stable",
   "$kref" : "#/ckan/spacedock/1870",
   "$vref" : "#/ckan/ksp-avc",
@@ -16,7 +16,7 @@
   ],
   "depends": [
         { "name" : "ToolbarController" },
-	{ "name" : "ClickThroughBlocker" }
+  { "name" : "ClickThroughBlocker" }
   ],
   "conflicts": [
     {
