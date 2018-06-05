@@ -21,9 +21,6 @@
   "conflicts": [
     {
       "name": "AdvancedFlyByWire"
-    },
-    {
-    "name": "AdvancedFlyByWireRevived"
     }
   ],
   "recommends": [
@@ -31,10 +28,5 @@
       "name": "KSP-AVC"
     }
  ],
-  "x_netkan_license_ok": true,
-  "provides": [
-    {
-      "name": "AdvancedFlyByWireRevived"
-    }
-  ]
+  "x_netkan_license_ok": true
 }
