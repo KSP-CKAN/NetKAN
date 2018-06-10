@@ -39,8 +39,11 @@
     "recommends" : [
         { "name" : "KSP-AVC" }
     ],
-    "conflicts" : [
-        { "name" : "AdvancedFlyByWire-Linux" }
+    "provides": ["AdvancedFlyByWireRevived"],
+    "conflicts": [
+      {
+        "name": "AdvancedFlyByWireRevived"
+      }
     ],
     "x_netkan_license_ok" : true
 }

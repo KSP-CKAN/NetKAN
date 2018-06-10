@@ -1,8 +1,8 @@
 {
   "spec_version": 1,
-  "identifier": "AdvancedFlyByWire-Linux",
+  "identifier": "AdvancedFlyByWire-OSX",
   "release_status": "stable",
-  "$kref" : "#/ckan/spacedock/1870",
+  "$kref" : "#/ckan/spacedock/1878",
   "$vref" : "#/ckan/ksp-avc",
   "resources": {
     "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/175359-14-afbw-joystick-controller-mod/",
@@ -16,7 +16,7 @@
   ],
   "depends": [
         { "name" : "ToolbarController" },
-	{ "name" : "ClickThroughBlocker" }
+  { "name" : "ClickThroughBlocker" }
   ],
   "conflicts": [
     {
