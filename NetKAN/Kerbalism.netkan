@@ -12,7 +12,8 @@
     },
     "depends": [
         { "name": "ModuleManager" },
-        { "name": "CommunityResourcePack" }
+        { "name": "CommunityResourcePack" },
+        { "name": "ClickThroughBlocker" },
     ],
     "recommends": [
         { "name": "DeepFreeze" },
