@@ -3,5 +3,8 @@
     "identifier":   "RocketEmporium",
     "$kref":        "#/ckan/github/KSPKatten/RocketEmporium",
     "$vref":        "#/ckan/ksp-avc",
-    "license":      "CC-BY-NC-SA-4.0"
+    "license":      "CC-BY-NC-SA-4.0",
+    "depends": [
+        { "name": "AnimatedAttachment" }
+    ]
 }
