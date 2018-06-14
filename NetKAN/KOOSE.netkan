@@ -1,0 +1,12 @@
+{
+    "license": "MIT",
+    "$kref": "#/ckan/spacedock/1885",
+    "spec_version": "v1.4",
+    "identifier": "KOOSE",
+	  "install": [
+        {
+            "find":       "KOOSE",
+            "install_to": "GameData"
+        }
+    ]
+}
