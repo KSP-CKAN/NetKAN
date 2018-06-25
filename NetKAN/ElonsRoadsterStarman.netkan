@@ -8,9 +8,5 @@
         "find_regexp": "Starman.*",
         "install_to":  "GameData",
         "filter":      "Ships"
-    }, {
-        "find_regexp":        "Ships/.*\\.craft",
-        "find_matches_files": true,
-        "install_to":         "Ships/VAB"
     }]
 }

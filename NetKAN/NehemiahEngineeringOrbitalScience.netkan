@@ -27,11 +27,12 @@
 	"recommends"        : [
 		{ "name"             : "Corvus125mTwoKerbalPod" },
 		{ "name"             : "K2CommandPodCont" },
-		{ "name"             : "UniversalStorage" }
+		{ "name"             : "KerbalAlarmClock" }
 	],
 	"suggests"          : [
 		{ "name"             : "ConnectedLivingSpace" },
-		{ "name"             : "DockingPortAlignmentIndicator" }
+		{ "name"             : "DockingPortAlignmentIndicator" },
+		{ "name"             : "UniversalStorage" }
 	],
 	"install"           : [
 		{

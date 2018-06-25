@@ -19,6 +19,10 @@
             "file"       : "SDL_LICENSE",
             "install_to" : "GameRoot"
         },
+	{
+            "file": "XINPUTDOTNET_LICENSE",
+            "install_to": "GameRoot"
+        },
         {
             "file"       : "XInputInterface.dll",
             "install_to" : "GameRoot"
@@ -35,8 +39,11 @@
     "recommends" : [
         { "name" : "KSP-AVC" }
     ],
-    "conflicts" : [
-        { "name" : "AdvancedFlyByWire-Linux" }
+    "provides": ["AdvancedFlyByWireRevived"],
+    "conflicts": [
+      {
+        "name": "AdvancedFlyByWireRevived"
+      }
     ],
     "x_netkan_license_ok" : true
 }

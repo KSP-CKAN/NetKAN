@@ -1,0 +1,18 @@
+{
+    "identifier": "RLAReborn",
+    "$kref": "#/ckan/spacedock/1880",
+    "$vref": "#/ckan/ksp-avc",
+    "spec_version": "v1.4",
+    "license": "CC-BY-SA-4.0",
+    "conflicts": [
+        { "name": "RLA-Stockalike" },
+        { "name": "RLARecontinued" },
+        { "name": "RLAContinued" }
+    ],
+    "install": [
+        {
+            "install_to": "GameData",
+            "find": "RLA_Reborn"
+        }
+    ]
+}
