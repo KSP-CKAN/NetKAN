@@ -1,8 +1,12 @@
 {
-    "identifier": "PhotonSailor",
-    "name":       "Photon Sailor",
-    "$kref":      "#/ckan/curse/296653",
-    "license":    "CC-BY-NC-3.0",
+    "spec_version": "v1.4",
+    "identifier":   "PhotonSailor",
+    "name":         "Photon Sailor",
+    "$kref":        "#/ckan/curse/296653",
+    "license":      "CC-BY-NC-3.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/176144-*"
+    },
     "install": [ {
         "find":       "PhotonSail",
         "install_to": "GameData"
