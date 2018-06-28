@@ -5,7 +5,8 @@
     "$kref":        "#/ckan/curse/296653",
     "license":      "CC-BY-NC-3.0",
     "resources": {
-        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/176144-*"
+        "homepage":   "https://forum.kerbalspaceprogram.com/index.php?/topic/176144-*",
+        "repository": "https://github.com/sswelm/KSP-Interstellar-Extended"
     },
     "install": [ {
         "find":       "PhotonSail",
