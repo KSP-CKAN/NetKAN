@@ -1,0 +1,15 @@
+{
+    "identifier": "PhotonSailor",
+    "name":       "Photon Sailor",
+    "$kref":      "#/ckan/curse/296653",
+    "license":    "CC-BY-NC-3.0",
+    "install": [ {
+        "find":       "PhotonSail",
+        "install_to": "GameData"
+    } ],
+    "recommends": [
+        { "name": "PersistentRotation"      },
+        { "name": "KSPInterstellarExtended" },
+        { "name": "SolarSailNavigator"      }
+    ]
+}
