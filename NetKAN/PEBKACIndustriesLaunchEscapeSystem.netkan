@@ -10,6 +10,9 @@
         "homepage" : "http://forum.kerbalspaceprogram.com/index.php?/topic/106518-113-pebkac-industries-launch-escape-system-20160706-now-includes-mk1-les/&page=1"
     },
     "x_netkan_epoch": "1",
+     "recommends": [
+        { "name": "BobsPanicBox"}
+    ],
     "install": [
         {
             "find"       : "GameData/Pebkac",
