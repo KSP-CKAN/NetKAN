@@ -15,6 +15,7 @@
     "recommends": [
         { "name": "PersistentRotation"      },
         { "name": "KSPInterstellarExtended" },
-        { "name": "SolarSailNavigator"      }
+        { "name": "SolarSailNavigator"      },
+        { "name": "TexturesUnlimited"}
     ]
 }
