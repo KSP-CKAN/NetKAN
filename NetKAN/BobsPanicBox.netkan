@@ -10,9 +10,9 @@
     "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/176073-14-bob"
   },
   "depends": [
-    {
-      "name": "ModuleManager"
-    }
+    { "name" : "ToolbarController" },
+    { "name" : "ClickThroughBlocker" },
+    { "name": "ModuleManager" }
   ],
   "recommends": [
     {
