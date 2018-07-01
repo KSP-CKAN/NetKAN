@@ -8,5 +8,8 @@
             "find":       "XyphosAerospace",
             "install_to": "GameData"
         }
+    ],
+    "depends": [
+        { "name": "ModuleManager" }
     ]
 }
