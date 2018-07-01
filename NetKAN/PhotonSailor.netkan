@@ -3,6 +3,7 @@
     "identifier":   "PhotonSailor",
     "name":         "Photon Sailor",
     "$kref":        "#/ckan/spacedock/1895",
+    "$vref":        "#/ckan/ksp-avc",
     "license":      "CC-BY-NC-3.0",
     "resources": {
         "homepage":   "https://forum.kerbalspaceprogram.com/index.php?/topic/176144-*",
@@ -12,6 +13,9 @@
         "find":       "PhotonSail",
         "install_to": "GameData"
     } ],
+    "depends": [
+        { "name": "ModuleManager" }
+    ],
     "recommends": [
         { "name": "PersistentRotation"      },
         { "name": "KSPInterstellarExtended", "min_version" : "1.19.3" },
