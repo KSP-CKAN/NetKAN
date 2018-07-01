@@ -14,7 +14,7 @@
     } ],
     "recommends": [
         { "name": "PersistentRotation"      },
-        { "name": "KSPInterstellarExtended" },
+        { "name": "KSPInterstellarExtended", "min_version" : "1.19.3" },
         { "name": "SolarSailNavigator"      },
         { "name": "TexturesUnlimited"       },
         { "name": "TweakScale"              }
