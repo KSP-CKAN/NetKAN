@@ -15,7 +15,7 @@
         "resources"
     ],
     "depends" : [
-        { "name" : "ModuleManager", "min_version" : "2.3.5" },
+        { "name" : "ModuleManager" },
         { "name" : "MechJeb2" }
     ],
     "recommends" : [
@@ -23,6 +23,7 @@
         { "name" : "InterstellarFuelSwitch" },
         { "name" : "NearFutureSolar" },
         { "name" : "NearFutureConstruction" },
-        { "name" : "KIS" },
+        { "name" : "StationPartsExpansionRedux" },
+        { "name" : "KIS" }
     ]
 }
