@@ -1,0 +1,28 @@
+{
+    "spec_version"   : "v1.2",
+    "name"           : "Kerbal Kustomz Ltd (KKL)",
+    "abstract"       : "KSP mod to fulfill some gameplay tweaks",
+    "identifier"     : "KKL",
+    "download"       : "https://github.com/craidler/KerbalKustomzLtd/archive/KKL-1.0.zip",
+    "license"        : "LGPL-2.1",
+    "version"        : "1.0",
+    "release_status" : "stable",
+    "ksp_version_min": "1.4.0",
+    "resources" : {
+        "repository"   : "https://github.com/craidler/KerbalKustomzLtd"
+    },
+    "tags" : [
+        "resources"
+    ],
+    "depends" : [
+        { "name" : "ModuleManager", "min_version" : "2.3.5" },
+        { "name" : "MechJeb2" }
+    ],
+    "recommends" : [
+        { "name" : "Mk1CabinHatch" },
+        { "name" : "InterstellarFuelSwitch" },
+        { "name" : "NearFutureSolar" },
+        { "name" : "NearFutureConstruction" },
+        { "name" : "KIS" },
+    ]
+}
