@@ -3,7 +3,7 @@
     "name"           : "Kerbal Kustomz Ltd (KKL)",
     "abstract"       : "KSP mod to fulfill some gameplay tweaks",
     "identifier"     : "KKL",
-    "download"       : "https://github.com/craidler/KerbalKustomzLtd/archive/KKL-1.0.zip",
+    "$kref"          : "#/ckan/github/craidler/KerbalKustomzLtd",
     "license"        : "LGPL-2.1",
     "version"        : "1.0",
     "release_status" : "stable",
