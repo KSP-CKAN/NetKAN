@@ -31,6 +31,7 @@
         { "name"        : "HideEmptyTechNodes", "min_version" : "0.8.0" },
         { "name"        : "KerbalJointReinforcement" },
         { "name"        : "UniversalStorage" },
-        { "name"        : "PersistentRotation" }        
+        { "name"        : "PersistentRotation" }, 
+        { "name"        : "PhotonSailor" }
     ]
 }
