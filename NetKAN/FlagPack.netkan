@@ -7,9 +7,11 @@
     "resources": {
         "homepage": "https://github.com/willwill2will54/Flag-Pack/"
     },
-    "install":[
+    "install": [
         {
             "find": "FlagPack",
             "install_to": "GameData"
-        }]
+        }
+    ],
+    "x_netkan_force_v": true
 }
