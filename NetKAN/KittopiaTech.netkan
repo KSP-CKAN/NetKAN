@@ -1,7 +1,7 @@
 {
     "spec_version"  : "v1.4",
     "identifier"    : "KittopiaTech",
-    "$kref"         : "#/ckan/github/Kopernicus/KittopiaTech",
+    "$kref"         : "#/ckan/github/Kopernicus/KittopiaTech-Legacy",
     "name"          : "KittopiaTech",
     "abstract"      : "A Kopernicus visual editor for ingame planet editing and exporting.",
     "release_status": "development",
