@@ -1,10 +1,14 @@
 {
     "$kref": "#/ckan/spacedock/223",
+    "$vref": "#/ckan/ksp-avc/TundraExploration.version",
     "spec_version": "v1.4",
     "identifier": "TundraExploration",
     "license": "CC-BY-NC-SA-4.0",
     "depends": [
-        { "name": "NearFutureSolar-Core" }
+        { "name": "NearFutureSolar-Core" },
+        { "name": "B9PartSwitch" },
+        { "name": "TundraTechnologies" },
+        { "name": "ModuleManager" }
     ],
     "recommends" : [
         { "name" : "RasterPropMonitor-Core" },
@@ -14,8 +18,7 @@
         {
             "find"       : "TundraExploration",
             "install_to" : "GameData",
-            "filter"     : "Thumbs.db",
-            "comment"    : "Ven-Patch not included since it requires overwriting of Rodan_Capsule.cfg"
+            "filter"     : "Thumbs.db"
         }
     ]
 }
