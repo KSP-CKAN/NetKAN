@@ -5,10 +5,10 @@
     "identifier": "TundraExploration",
     "license": "CC-BY-NC-SA-4.0",
     "depends": [
-        { "name": "NearFutureSolar-Core",
-          "name": "B9PartSwitch",
-          "name": "TundraTechnologies",
-          "name": "ModuleManager" }
+        { "name": "NearFutureSolar-Core" },
+        { "name": "B9PartSwitch" },
+        { "name": "TundraTechnologies" },
+        { "name": "ModuleManager" }
     ],
     "recommends" : [
         { "name" : "RasterPropMonitor-Core" },
