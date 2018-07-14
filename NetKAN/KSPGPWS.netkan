@@ -1,9 +1,9 @@
 {
     "spec_version" : 1,
-    "identifier"   : "KSP_GPWS",
+    "identifier"   : "KSPGPWS",
     "$kref"        : "#/ckan/github/bssthu/KSP_GPWS",
     "$vref"        : "#/ckan/ksp-avc",
-    "name"         : "KSP_GPWS",
+    "name"         : "KSPGPWS",
     "abstract"     : "Add warning sounds for planes.",
     "license"      : "CC-BY-NC-SA-4.0",
     "suggests": [
