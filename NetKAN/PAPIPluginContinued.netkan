@@ -7,7 +7,8 @@
     "abstract"     : "Adds PAPI arrays to the runway to aid landing",
     "license"      : "MIT",
     "resources"    : {
-        "homepage" : "https://forum.kerbalspaceprogram.com/index.php?/topic/101446-wip12papiplugin-continued-v048-2016-10-14/"
+        "homepage" : "https://forum.kerbalspaceprogram.com/index.php?/topic/101446-*",
+        "repository": "https://github.com/bssthu/PAPIPlugin"
     },
     "install"      : [
         {
@@ -17,11 +18,11 @@
     ],
     "x_netkan_override" : [
         {
-            "version" : "v0.4.4",
+            "version" : "v0.4.9",
             "delete" : [ "ksp_version" ],
             "override" : {
-                "ksp_version_min" : "1.0.0",
-                "ksp_version_max" : "1.0.4"
+                "ksp_version_min" : "1.4.0",
+                "ksp_version_max" : "1.4.4"
             }
         }
     ]
