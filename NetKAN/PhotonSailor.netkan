@@ -14,14 +14,14 @@
         "install_to": "GameData"
     } ],
     "depends": [
-        { "name": "ModuleManager" },
-        { "name": "CommunityTechTree", "min_version" : "1:3.3.2" }
+        { "name": "ModuleManager" }        
     ],
     "recommends": [
         { "name": "PersistentRotation"      },
         { "name": "KSPInterstellarExtended", "min_version" : "1.19.3" },
         { "name": "SolarSailNavigator"      },
         { "name": "TexturesUnlimited"       },
-        { "name": "TweakScale"              }
+        { "name": "TweakScale"              },
+        { "name": "CommunityTechTree", "min_version" : "1:3.3.2" }
     ]
 }
