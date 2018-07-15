@@ -43,10 +43,6 @@
         {
             "find"       : "KKL",
             "install_to" : "GameData"
-        },
-        {
-            "find"       : "Ship",
-            "install_to" : "Ships"
         }
     ]
 }
