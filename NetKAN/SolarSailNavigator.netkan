@@ -9,7 +9,10 @@
     "release_status" : "development",
     "ksp_version"  : "1.4",
     "resources" : { "homepage" : "https://forum.kerbalspaceprogram.com/index.php?/topic/107676-wip13-solarsailnavigator-v109/" },
-    "depends": [ { "name": "PersistentThrust" } ],
+    "depends": [
+        { "name": "PersistentThrust" },
+        { "name": "ModuleManager" }
+    ],
     "install" : [
         {
             "file"       : "SolarSailNavigator",
