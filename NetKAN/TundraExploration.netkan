@@ -8,7 +8,8 @@
         { "name": "NearFutureSolar-Core" },
         { "name": "B9PartSwitch" },
         { "name": "TundraTechnologies" },
-        { "name": "ModuleManager" }
+        { "name": "ModuleManager" },
+        { "name": "SpaceXLegs" }
     ],
     "recommends" : [
         { "name" : "RasterPropMonitor-Core" },
