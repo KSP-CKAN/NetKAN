@@ -8,7 +8,8 @@
         { "name": "NearFutureSolar-Core" },
         { "name": "B9PartSwitch" },
         { "name": "TundraTechnologies" },
-        { "name": "ModuleManager" }
+        { "name": "ModuleManager" },
+        { "name": "SpaceXLegs" }
     ],
     "recommends" : [
         { "name" : "RasterPropMonitor-Core" },
@@ -19,6 +20,12 @@
             "find"       : "TundraExploration",
             "install_to" : "GameData",
             "filter"     : "Thumbs.db"
+        },
+        {
+            "find": "Ships/VAB",
+            "install_to": "Ships",
+            "optional": true,
+            "description": "Tundra Exploration example craft"
         }
     ]
 }
