@@ -8,7 +8,8 @@
     "ksp_version" : "1.4",
     "license"	  : "MIT",
     "resources": {
-        "homepage"   : "https://forum.kerbalspaceprogram.com/index.php?/topic/164440-13-kerbal-launch-vehicles/",
+        "homepage"   : "https://forum.kerbalspaceprogram.com/index.php?/topic/164440-*",
         "repository" : "https://github.com/JCoil/KerbalLaunchVehicles"
-    }
+    },
+    "download": "https://github.com/JCoil/KerbalLaunchVehicles/raw/master/Downloads/KLVfor1.4.zip"
 }
