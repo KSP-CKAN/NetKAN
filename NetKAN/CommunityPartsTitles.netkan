@@ -1,0 +1,60 @@
+﻿{
+    "spec_version" : 1,
+    "identifier"   : "CommunityPartsTitles",
+    "$kref"        : "#/ckan/github/yalov/CommunityPartsTitles",
+    "name"         : "Community Parts Titles",
+    "author"       : "flart",
+    "abstract"     : "Rename parts for useful grouping and sorting in the VAB-list",
+    "license"      : "GPL-3.0",
+    "$vref" : "#/ckan/ksp-avc",
+    "resources" : {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/174189-*"
+    },
+    "recommends": [
+            { "name": "ModuleManager" },
+            { "name": "SpeedUnitAnnex" }
+        ],
+    "suggests": [
+            { "name": "KAS" },
+            { "name": "KIS" },
+            { "name": "KerbalEngineerRedux" },
+            { "name": "FuelTanksPlus" },
+            { "name": "SpaceY-Lifters" },
+            { "name": "SpaceY-Expanded" },
+
+            { "name": "StationPartsExpansionRedux" },
+            { "name": "NearFutureElectrical" },
+            { "name": "NearFuturePropulsion" },
+            { "name": "NearFutureSolar" },
+            { "name": "NearFutureSpacecraft" },
+            { "name": "NearFutureLaunchVehicles" }, 
+            { "name": "KerbalAtomics" },
+            { "name": "CryoEngines" },
+            { "name": "CryoTanks" },
+            { "name": "HeatControl" },
+
+            { "name": "MissingHistory" },
+            { "name": "KerbalPlanetaryBaseSystems" },
+            { "name": "TACLS" },
+            { "name": "FASALaunchClampsContinued" },
+
+            { "name": "Mk2Expansion" },
+            { "name": "AirplanePlus" },
+            { "name": "MK1StkOpenCockpit" },
+
+            { "name": "CommNetAntennasExtension" },
+            { "name": "JX2Antenna" },
+
+            { "name": "SurfaceExperimentPack" },
+            { "name": "TarsierSpaceTechnologyWithGalaxies" },
+            { "name": "DMagicOrbitalScience" }
+
+
+        ],
+    "install" : [
+            {
+                "file"       : "GameData/002_CommunityPartsTitles",
+                "install_to" : "GameData"
+            }
+    ]
+}
