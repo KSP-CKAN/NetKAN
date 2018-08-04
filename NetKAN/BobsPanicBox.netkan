@@ -3,7 +3,7 @@
   "license": "GPL-3.0",
   "identifier": "BobsPanicBox",
   "x_via": "Automated Linuxgurugamer CKAN script",
-  "$kref": "#/ckan/github/linuxgurugamer/BobsPanicBox",
+  "$kref"         : "#/ckan/spacedock/1894",
   "$vref": "#/ckan/ksp-avc",
   "resources": {
     "repository": "BobsPanicBox",
@@ -24,5 +24,6 @@
       "install_to": "GameData",
       "find": "BobsPanicBox"
     }
-  ]
+  ],
+  "x_netkan_epoch": 1
 }
