@@ -3,8 +3,6 @@
     "identifier"   : "RemoteTechRedevAntennas",
     "$kref"        : "#/ckan/spacedock/1929",
     "license"      : "GPL-3.0",
-    "ksp_version"  : "1.3.0",
-    "version"      : "0.1",
     "abstract"     : "Standalone and optional antenna package of RemoteTech Redev for Kerbal Space Program's stock CommNet",
     "name"         : "RemoteTech Redev Antennas",
     "depends": [
