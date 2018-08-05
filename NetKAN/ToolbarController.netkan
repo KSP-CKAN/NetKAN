@@ -15,7 +15,7 @@
   "x_netkan_epoch": 1,
   "recommends" : [ { "name" : "Toolbar" } ],
   "$vref": "#/ckan/ksp-avc",
-  "$kref": "#/ckan/github/linuxgurugamer/ToolbarControl",
+  "$kref": "#/ckan/spacedock/1931",
   "x_via": "Automated Linuxgurugamer CKAN script",
   "identifier": "ToolbarController",
   "name": "Toolbar Controller",
