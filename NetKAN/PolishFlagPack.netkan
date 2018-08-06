@@ -3,7 +3,6 @@
     "identifier": "PolishFlagPack",
     "$kref": "#/ckan/github/Venthe/KSP-Polish-Flag-Pack",
     "name": "Polish Flag Pack",
-    "version": "1.2",
     "author": [
         "Venthe"
     ],
@@ -16,5 +15,6 @@
     },
     "tags": [
         "flags"
-    ]
+    ],
+    "x_netkan_force_v": true
 }
