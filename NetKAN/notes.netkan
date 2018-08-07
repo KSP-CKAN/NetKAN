@@ -7,6 +7,13 @@
     "resources"     : {
         "homepage"  : "http://forum.kerbalspaceprogram.com/threads/55625"
     },
+    "depends": [
+        { "name": "ToolbarControl" }
+    ],
+    "suggests": [
+        { "name": "RasterPropMonitor" },
+        { "name": "ModuleManager" }
+    ],
     "x_netkan_override" : [
         {
             "version" : "0.10.1",
