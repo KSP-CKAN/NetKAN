@@ -2,6 +2,8 @@
     "spec_version" : 1,
     "identifier"   : "SurveyTransponder",
     "name"         : "Survey Transponder",
+    "abstract"     : "A transponder to make air-drops a little easier",
+    "description"  : "A small mod for keeping track of your air-drop packages until they hit the ground. Very good for those surface survey contracts in awkward locations."
     "author"       : "taniwha",
     "$kref"        : "#/ckan/http/http://taniwha.org/~bill/SurveyTransponder_v0.5.2a.zip",
     "license"      : "GPL-3.0",
