@@ -1,0 +1,14 @@
+{
+    "spec_version" : 1,
+    "identifier"   : "SurveyTransponder",
+    "name"         : "Survey Transponder",
+    "author"       : "taniwha",
+    "license"      : "GPL-3.0",
+    "ksp_version"  : "1.4.5",
+    "version"      : "0.5.2a",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/111834-14-survey-transponder-052a",
+        "repository": "https://github.com/taniwha/SurveyTransponder",
+    },
+    "download"     : "http://taniwha.org/~bill/SurveyTransponder_v0.5.2a.zip"
+}
