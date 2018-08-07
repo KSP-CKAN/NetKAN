@@ -8,7 +8,7 @@
         "homepage"  : "http://forum.kerbalspaceprogram.com/threads/55625"
     },
     "depends": [
-        { "name": "ToolbarControl" }
+        { "name": "ToolbarController" }
     ],
     "suggests": [
         { "name": "RasterPropMonitor" },
