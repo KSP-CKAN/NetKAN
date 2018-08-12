@@ -7,7 +7,7 @@
     "resources": {
         "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/168196-14-discordrp-rich-presence-integration/"
     },
-    "x_netkan_override": [ [
+    "x_netkan_override": [ {
         "version": "1.0.3",
         "delete": [ "ksp_version" ],
         "override": {
