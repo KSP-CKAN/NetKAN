@@ -1,14 +1,12 @@
 {
     "spec_version" : 1,
     "identifier"   : "BetterTimeWarp",
-    "$kref"        : "#/ckan/github/HappyFaceIndustries/BetterTimeWarp/asset_match/BetterTimeWarp(.*).zip",
-    "name"         : "BetterTimeWarp",
-    "author"       : "MrHappyFace",
+    "$kref"        : "#/ckan/spacedock/1162",
+    "author"       : [ "MrHappyFace", "linuxgurugamer" ],
     "abstract"     : "BetterTimeWarp allows you to customize your time warp",
     "license"      : "GPL-3.0",
-    "ksp_version"  : "1.0.5",
-
+    "$vref"        : "#/ckan/ksp-avc",
     "resources": {
-        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/77565-BetterTimeWarp"
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/154935-*"
     }
 }
