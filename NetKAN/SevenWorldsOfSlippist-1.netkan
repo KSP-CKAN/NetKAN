@@ -6,9 +6,11 @@
     "install": [ {
         "find":       "SLIPPIST-1",
         "install_to": "GameData"
+    }, {
+        "find":       "KopernicusExpansion",
+        "install_to": "GameData"
     } ],
     "depends": [
-        { "name": "ModuleManager"       },
-        { "name": "KopernicusExpansion" }
+        { "name": "ModuleManager"       }
     ]
 }
