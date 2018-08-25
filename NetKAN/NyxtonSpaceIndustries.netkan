@@ -2,6 +2,7 @@
     "spec_version": "v1.4",
     "identifier":   "NyxtonSpaceIndustries",
     "$kref":        "#/ckan/spacedock/1904",
+    "license":      "MIT",
     "install": [ {
         "find":       "NyxtonAerospace",
         "install_to": "GameData"
