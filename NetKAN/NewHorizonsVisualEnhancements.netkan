@@ -1,0 +1,15 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "NewHorizonsVisualEnhancements",
+    "$kref":        "#/ckan/spacedock/1908",
+    "license":      "public-domain",
+    "install": [ {
+        "find":       "NHVE",
+        "install_to": "GameData"
+    } ],
+    "depends": [
+        { "name": "ModuleManager" },
+        { "name": "NewHorizons"   },
+        { "name": "Scatterer"     }
+    ]
+}

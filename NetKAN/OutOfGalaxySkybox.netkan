@@ -1,0 +1,13 @@
+{
+    "spec_version": "v1.16",
+    "identifier":   "OutOfGalaxySkybox",
+    "$kref":        "#/ckan/spacedock/1943",
+    "install": [ {
+        "find_regexp":        ".*\\.png",
+        "install_to":         "GameData/TextureReplacer/Default",
+        "find_matches_files": true
+    } ],
+    "depends": [
+        { "name": "TextureReplacer" }
+    ]
+}

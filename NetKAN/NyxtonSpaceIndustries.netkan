@@ -1,0 +1,12 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "NyxtonSpaceIndustries",
+    "$kref":        "#/ckan/spacedock/1904",
+    "install": [ {
+        "find":       "NyxtonAerospace",
+        "install_to": "GameData"
+    } ],
+    "depends": [
+        { "name": "ModuleManager" }
+    ]
+}
