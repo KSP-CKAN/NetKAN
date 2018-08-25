@@ -1,0 +1,16 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "SevenWorldsOfSlippist-1",
+    "$kref":        "#/ckan/spacedock/1883",
+    "license":      "restricted",
+    "install": [ {
+        "find":       "SLIPPIST-1",
+        "install_to": "GameData"
+    }, {
+        "find":       "KopernicusExpansion",
+        "install_to": "GameData"
+    } ],
+    "depends": [
+        { "name": "ModuleManager"       }
+    ]
+}

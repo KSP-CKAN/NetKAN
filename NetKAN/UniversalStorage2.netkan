@@ -1,0 +1,10 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "UniversalStorage2",
+    "$kref":        "#/ckan/spacedock/1933",
+    "license":      "restricted",
+    "depends": [
+        { "name": "ModuleManager"         },
+        { "name": "CommunityResourcePack" }
+    ]
+}
