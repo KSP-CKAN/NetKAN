@@ -4,7 +4,27 @@
     "$kref":        "#/ckan/spacedock/1943",
     "license":      "GPL-3.0",
     "install": [ {
-        "find_regexp":        ".*\\.png",
+        "find_regexp":        "GalaxyTex_PositiveX.png",
+        "install_to":         "GameData/TextureReplacer/Default",
+        "find_matches_files": true
+    }, {
+        "find_regexp":        "GalaxyTex_PositiveY.png",
+        "install_to":         "GameData/TextureReplacer/Default",
+        "find_matches_files": true
+    }, {
+        "find_regexp":        "GalaxyTex_PositiveZ.png",
+        "install_to":         "GameData/TextureReplacer/Default",
+        "find_matches_files": true
+    }, {
+        "find_regexp":        "GalaxyTex_NegativeX.png",
+        "install_to":         "GameData/TextureReplacer/Default",
+        "find_matches_files": true
+    }, {
+        "find_regexp":        "GalaxyTex_NegativeY.png",
+        "install_to":         "GameData/TextureReplacer/Default",
+        "find_matches_files": true
+    }, {
+        "find_regexp":        "GalaxyTex_NegativeZ.png",
         "install_to":         "GameData/TextureReplacer/Default",
         "find_matches_files": true
     } ],
