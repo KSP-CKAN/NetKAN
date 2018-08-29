@@ -1,5 +1,6 @@
 {
     "$kref": "#/ckan/github/KSP-RO/KSCSwitcher",
+    "$vref": "#/ckan/ksp-avc",
     "identifier": "KSCSwitcher",
     "spec_version": 1,
     "name": "KSC Switcher",
@@ -9,7 +10,6 @@
     "resources": {
         "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/106206-105-regexs-useful-mod-emporium/"
     },
-    "ksp_version": "1.3.1",
     "install": [ { "file" : "GameData/KSCSwitcher",
                 "install_to" : "GameData" } ],
     "x_netkan_override" : [
