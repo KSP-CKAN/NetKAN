@@ -5,7 +5,7 @@
     "name"         : "Stand alone map view server",
     "abstract"     : "Allows you to open a new window (on a separator monitor) to display the map view, using two separate copies of the game. One copy should install the client, the other (your main game) should install the server. All other mods should be the same.",
     "license"      : "GPL-3.0",
-    "ksp_version"  : "1.0.5",
+    "ksp_version"  : "1.4",
     "resources": {
         "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/69089-stand-alone-map-view-multi-monitor-ksp-105plugin/"
     },
