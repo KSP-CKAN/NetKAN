@@ -27,20 +27,17 @@
     ],
     "recommends": [
         { "name"        : "PatchManager"             },
-        { "name"        : "UniversalStorage"         },
         { "name"        : "InterstellarFuelSwitch"   },
-        { "name"        : "FilterExtensions"         },
-        { "name"        : "HideEmptyTechNodes"       },
         { "name"        : "KerbalJointReinforcement" },
-        { "name"        : "UniversalStorage"         },
         { "name"        : "PersistentRotation"       }, 
         { "name"        : "PhotonSailor"             },
-        { "name"        : "TexturesUnlimited"        },
-        { "name"        : "HeatControl"              },
-        { "name"        : "ToolbarController"        },
         { "name"        : "BetterBurnTime"           }
     ],
     "suggests": [
-        { "name"        : "FilterExtensions"  }
+        { "name"        : "FilterExtensions"         }, 
+        { "name"        : "HeatControl"              },
+        { "name"        : "TexturesUnlimited"        },
+        { "name"        : "UniversalStorage"         },
+        { "name"        : "HideEmptyTechNodes"       },
     ]
 }
