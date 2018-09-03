@@ -6,6 +6,7 @@
     "name"         : "MemGraph",
     "abstract"     : "This is a simple plugin to display of graph of memory allocation and garbage collection. It is intended as a troubleshooting and development aid rather than for general use.",
     "license"      : "MIT",
+    "x_netkan_epoch": "1",
     "resources": {
         "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/175924-14-"
     }
