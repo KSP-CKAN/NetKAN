@@ -6,15 +6,15 @@
     "author": "TheProtagonists",
     "license": "CC-BY-NC-ND-4.0",
     "$vref": "#/ckan/ksp-avc/TheWorldBeyond_Core.version",
-	"$kref": "#/ckan/github/TheProtagonists/TheWorldBeyond/asset_match/_TWB_Full.*?\\.zip",
+    "$kref": "#/ckan/github/TheProtagonists/TheWorldBeyond/asset_match/_TWB_Full.*?\\.zip",
     "resources": {
-        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/175432-131-143-the-world-beyond"
-		"repository": "https://github.com/TheProtagonists/TheWorldBeyond"
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/175432-*",
+        "repository": "https://github.com/TheProtagonists/TheWorldBeyond"
     },
     "install": [
         {
             "find": "TheWorldBeyond",
-            "install_to": "GameData",
+            "install_to": "GameData"
         }
     ],
     "depends": [
@@ -34,9 +34,9 @@
             "name": "EnvironmentalVisualEnhancements"
         }
     ],
-	"recommends": [
+    "recommends": [
         {
             "name": "KS3P"
         }
-	]
+    ]
 }
