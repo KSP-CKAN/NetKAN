@@ -1,0 +1,16 @@
+{
+	"spec_version": "v1.16",
+	"identifier":   "Decalc-o-Mania",
+	"$kref":        "#/ckan/spacedock/1958",
+	"license":      "CC-BY-NC-4.0",
+	"install": [ {
+		"find_regexp": "Decalc'o'mania[^(]+/GameData/Decalc'o'mania",
+		"install_to":  "GameData"
+	} ],
+	"depends": [
+		{ "name": "CommunityCategoryKit" }
+	],
+	"conflicts": [
+		{ "name": "TweakScale" }
+	]
+}

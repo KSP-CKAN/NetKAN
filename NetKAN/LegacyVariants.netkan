@@ -1,0 +1,14 @@
+{
+	"spec_version": "v1.16",
+	"identifier":   "LegacyVariants",
+	"$kref":        "#/ckan/spacedock/1961",
+	"license":      "MIT",
+	"install": [ {
+		"find":          "KSC",
+		"install_to":    "GameData",
+		"filter_regexp": [ "^\\..*~$" ]
+	} ],
+	"depends": [
+		{ "name": "ModuleManager" }
+	]
+}

@@ -1,0 +1,15 @@
+{
+	"spec_version": "v1.4",
+	"identifier":   "Speedo",
+	"$kref":        "#/ckan/spacedock/1956",
+	"license":      "GPL-3.0",
+	"install": [ {
+		"find":       "Green_Rolf_Speedo",
+		"install_to": "GameData",
+		"filter":     [ ".DS_Store", "Speedo.craft" ]
+	}, {
+		"find":               "Speedo.craft",
+		"find_matches_files": true,
+		"install_to":         "Ships/SPH"
+	} ]
+}
