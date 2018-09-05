@@ -6,7 +6,7 @@
 	"install": [ {
 		"find":          "KSC",
 		"install_to":    "GameData",
-		"filter_regexp": [ "^\\..*~$" ]
+		"filter_regexp": [ "~$" ]
 	} ],
 	"depends": [
 		{ "name": "ModuleManager" }
