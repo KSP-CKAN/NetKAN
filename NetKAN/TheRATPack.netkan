@@ -1,8 +1,8 @@
 {
     "identifier": "TheRATPack",
     "spec_version": "v1.4",
-    "$kref": "#/ckan/kerbalstuff/1241",
-    "license": "unknown",
+    "$kref": "#/ckan/spacedock/1963",
+    "license": "CC-BY-NC-SA-4.0",
     "install": [
         {
             "find"       : "RATPack",
