@@ -1,0 +1,12 @@
+﻿{
+    "spec_version" : 1,
+    "identifier"   : "Timekeeper",
+    "$kref"        : "#/ckan/github/GarwelGarwel/Timekeeper",
+    "author"       : "Garwel",
+    "abstract"     : "Counts orbits and sols for your vessels.",
+    "license"      : "MIT",
+    "$vref"        : "#/ckan/ksp-avc",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/178121-14x-timekeeper-10-2018-09-07/"
+    }
+}
