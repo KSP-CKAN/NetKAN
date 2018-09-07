@@ -1,0 +1,19 @@
+{
+    "spec_version" : "v1.4",
+    "identifier"   : "SigmaReplacements-MenuButtons",
+    "$kref"        : "#/ckan/github/Sigma88/Sigma-Replacements/asset_match/Sigma-Replacements_MenuButtons.*?\\.zip",
+    "$vref"        : "#/ckan/ksp-avc",
+    "name"         : "Sigma Replacements: MenuButtons",
+    "abstract"     : "Customizeable Main Menu Buttons",
+    "license"      : "restricted",
+    "author"       : "Sigma88",
+    "resources": {
+        "homepage": "https://github.com/Sigma88/Sigma-Replacements"
+    },
+    "install": [
+        {
+            "find": "MenuButtons",
+            "install_to": "GameData/Sigma/Replacements"
+        }
+    ]
+}

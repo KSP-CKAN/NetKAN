@@ -3,10 +3,10 @@
   "install": [
     {
       "install_to": "GameData",
-      "find": "CIT"
+      "find": "BAM"
     }
   ],
-  "$vref": "#/ckan/ksp-avc/GameData/CIT/BAM/BAM.version",
+  "$vref": "#/ckan/ksp-avc/GameData/BAM/BAM.version",
   "$kref": "#/ckan/spacedock/1225",
   "x_via": "Automated Linuxgurugamer CKAN script",
   "identifier": "BAMCont",

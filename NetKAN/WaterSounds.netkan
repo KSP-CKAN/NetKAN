@@ -1,6 +1,7 @@
 {
     "identifier": "WaterSounds",
-    "$kref": "#/ckan/curse/230690",
+    "$kref": "#/ckan/spacedock/786",
+    "$vref": "#/ckan/ksp-avc",
     "spec_version": "v1.4",
     "license": "GPL-2.0",
     "abstract": "Adds the sound of water gently lapping at the sides of your craft when splashed down.",

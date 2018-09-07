@@ -6,7 +6,7 @@
     "license": "CC-BY-4.0",
     "install": [
         {
-            "find"       : "GameData/ETT",
+            "find"       : "ETT",
             "install_to" : "GameData"
         }
     ],

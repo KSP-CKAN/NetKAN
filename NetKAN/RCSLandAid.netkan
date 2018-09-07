@@ -1,27 +1,26 @@
 {
-  "spec_version" : 1,
-  "identifier" : "RCSLandAid",
-  "$kref" : "#/ckan/github/SirDiazo/RCSLandAid",
-  "name" : "Horizontal Landing Aid",
-  "abstract" : "Kill your horizontal velocity to land, or hover over a specific point on the ground",
-  "license" : "GPL-3.0",
-  "release_status" : "stable",
-  "ksp_version" : "1.2",
-  "author" : "Diazo",
-  "depends": [
-{ "name": "ModuleManager" }
-],
-  "suggests": [
-    { "name": "Toolbar" }
-  ],
-  "resources": {
-    "homepage": "http://forum.kerbalspaceprogram.com/threads/85838",
-    "repository": "https://github.com/SirDiazo/RCSLandAid"
-  },
-  "install" : [
-    {
-      "file" : "GameData/Diazo",
-      "install_to" : "GameData"
-    }
-  ]
+    "spec_version" : 1,
+    "identifier"   : "RCSLandAid",
+    "$kref"        : "#/ckan/github/linuxgurugamer/RCSLandAid",
+    "$vref": "#/ckan/ksp-avc",
+    "name"         : "Horizontal Landing Aid Redux",
+    "abstract"     : "Kill your horizontal velocity to land, or hover over a specific point on the ground",
+    "license"      : "GPL-3.0",
+    "release_status" : "stable",
+    "author"       : [ "Diazo", "linuxgurugamer" ],
+    "depends" : [
+        { "name": "ModuleManager" },
+	{ "name" : "ToolbarController" },
+        { "name" : "ClickThroughBlocker" }
+    ],
+    "resources" : {
+        "homepage":   "https://forum.kerbalspaceprogram.com/index.php?/topic/175403-14-horizontal-landing-aid-redux/",
+        "repository": "https://github.com/linuxgurugamer/RCSLandAid"
+    },
+    "install" : [
+        {
+            "file"       : "GameData/Diazo",
+            "install_to" : "GameData"
+        }
+    ]
 }

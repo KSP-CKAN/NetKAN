@@ -1,17 +1,13 @@
 {
-    "identifier": "LCAproject",
-    "$kref": "#/ckan/spacedock/1540",
     "spec_version": "v1.4",
-    "x_via": "Automated SpaceDock CKAN submission",
-    "license": "GPL-2.0",
+    "identifier":   "LCAproject",
+    "$kref":        "#/ckan/spacedock/1540",
+    "license":      "GPL-2.0",
+    "x_via":        "Automated SpaceDock CKAN submission",
     "install": [
         {
-            "find": "GameData/LCA",
+            "find":       "LCA",
             "install_to": "GameData"
-        },
-        {
-            "find": "Ships/VAB",
-            "install_to": "Ships"
         }
     ]
 }

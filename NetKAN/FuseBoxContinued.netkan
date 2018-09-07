@@ -7,9 +7,9 @@
     }
   ],
   "depends": [
-    {
-      "name": "ModuleManager"
-    }
+    { "name": "ModuleManager" },
+    { "name" : "ToolbarController" },
+    { "name" : "ClickThroughBlocker" }
   ],
   "conflicts" : [ { "name" : "AmpYearPowerManager" } ],
   "$vref": "#/ckan/ksp-avc",

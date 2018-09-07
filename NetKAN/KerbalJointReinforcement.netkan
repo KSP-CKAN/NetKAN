@@ -8,9 +8,6 @@
     "author"         : "ferram4",
     "license"        : "GPL-3.0",
     "release_status" : "stable",
-    "resources"      : {
-        "repository"     : "https://github.com/ferram4/Kerbal-Joint-Reinforcement/"
-    },
     "x_netkan_override" : [
         {
             "version" : "v3.1.4",
@@ -22,7 +19,7 @@
         }
     ],
     "resources": {
-        "homepage": "http://forum.kerbalspaceprogram.com/threads/55657",
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/50911-13-kerbal-joint-reinforcement-v333-72417/",
         "repository": "https://github.com/ferram4/Kerbal-Joint-Reinforcement/"
     }
 }

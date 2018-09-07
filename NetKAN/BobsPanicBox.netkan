@@ -1,0 +1,29 @@
+{
+  "spec_version": "v1.4",
+  "license": "GPL-3.0",
+  "identifier": "BobsPanicBox",
+  "x_via": "Automated Linuxgurugamer CKAN script",
+  "$kref"         : "#/ckan/spacedock/1894",
+  "$vref": "#/ckan/ksp-avc",
+  "resources": {
+    "repository": "BobsPanicBox",
+    "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/176073-14-bob"
+  },
+  "depends": [
+    { "name" : "ToolbarController" },
+    { "name" : "ClickThroughBlocker" },
+    { "name": "ModuleManager" }
+  ],
+  "recommends": [
+    {
+      "name": "PEBKACIndustriesLaunchEscapeSystem"
+    }
+  ],
+  "install": [
+    {
+      "install_to": "GameData",
+      "find": "BobsPanicBox"
+    }
+  ],
+  "x_netkan_epoch": 1
+}

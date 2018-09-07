@@ -1,0 +1,21 @@
+{
+    "spec_version": "v1.4",
+    "$kref"       : "#/ckan/github/GregroxMun/Alien-Space-Programs/asset_match/EveSpaceProgram",
+    "identifier"  : "EveSpaceProgram",
+    "license"     : "MIT",
+    "name"        : "Eve Space Program",
+    "abstract"    : "This mod places KSC on Eve.",
+    "author"      : [ "GregroxMun", "Sigma88"],
+    "ksp_version" : "1.0.5",
+    "resources"   : {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/163109-*"
+    },
+    "provides": [ "AlienSpaceProgram" ],
+    "conflicts": [
+        { "name": "AlienSpaceProgram" }
+    ],
+    "depends": [
+        { "name": "Kopernicus" },
+        { "name": "ModuleManager" }
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "ScienceSituationInfo",
+    "abstract": "Extended information about Scientific Experiments in VAB/SPH",
+    "license": "CC-BY-NC",
+    "$kref": "#/ckan/spacedock/1008",
+    "ksp_version"	:	"1.3.1",
+    "version": "1.3.1.1",
+    "install": [
+        {
+            "file"       : "OLDD",
+            "install_to" : "GameData",
+            "filter"     : "Thumbs.db"
+        }
+    ]
+}
+
+

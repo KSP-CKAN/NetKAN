@@ -4,5 +4,8 @@
     "identifier": "Overdrive",
     "$kref": "#/ckan/spacedock/1063",
     "spec_version": "v1.4",
-    "abstract": "Let's rock! With this UI reskin, the KSP UI will ROOOCK!!!"
+    "abstract": "Let's rock! With this UI reskin, the KSP UI will ROOOCK!!!",
+    "depends": [
+        { "name": "UICore" }
+    ]
 }

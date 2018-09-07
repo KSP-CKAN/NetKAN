@@ -19,6 +19,15 @@
             "install_to": "GameData",
             "filter_regexp": "ModuleManager.+\\.dll"
         }
+    ],
+    "x_netkan_override": [
+        {
+            "version": "0.1.8",
+            "delete": [ "ksp_version_min", "ksp_version_max" ],
+            "override": {
+                "ksp_version" : "1.3.0"
+            }
+        }
     ]
 }
 

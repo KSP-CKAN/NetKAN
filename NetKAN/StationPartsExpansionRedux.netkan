@@ -1,0 +1,21 @@
+{
+    "spec_version": "v1.16",
+    "identifier":   "StationPartsExpansionRedux",
+    "name":         "Stockalike Station Parts Expansion Redux",
+    "$kref":        "#/ckan/spacedock/1682",
+    "$vref":        "#/ckan/ksp-avc",
+    "license":      "restricted",
+    "resources": {
+        "homepage":   "https://forum.kerbalspaceprogram.com/index.php?/topic/170211-*",
+        "repository": "https://github.com/ChrisAdderley/StationPartsExpansionRedux"
+    },
+    "depends": [
+        { "name": "ModuleManager"   },
+        { "name": "B9PartSwitch"    },
+        { "name": "NearFutureProps" }
+    ],
+    "install": [ {
+        "find":       "StationPartsExpansionRedux",
+        "install_to": "GameData"
+    } ]
+}

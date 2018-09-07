@@ -1,0 +1,16 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "SSTL",
+    "$kref":        "#/ckan/spacedock/1791",
+    "license":      "CC-BY-NC-ND-4.0",
+    "x_via":        "Automated SpaceDock CKAN submission",
+    "depends": [
+        { "name": "ModuleManager" }
+    ],
+    "supports": [
+        { "name": "SCANsat"              },
+        { "name": "DMagicOrbitalScience" },
+        { "name": "RemoteTech"           },
+        { "name": "TexturesUnlimited"    }
+    ]
+}

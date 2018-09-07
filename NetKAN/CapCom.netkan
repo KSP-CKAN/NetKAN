@@ -1,19 +1,20 @@
 {
     "spec_version": "v1.2",
-    "identifier": "CapCom",
-    "$kref": "#/ckan/spacedock/131",
-    "license": "MIT",
+    "identifier":   "CapCom",
+    "$kref":        "#/ckan/spacedock/131",
+    "$vref":        "#/ckan/ksp-avc",
+    "license":      "MIT",
     "depends": [
         { "name": "ProgressParser" },
         { "name": "ContractParser" }
     ],
     "suggests": [
         { "name": "ContractRewardModifier" },
-        { "name": "ContractsWindowPlus" }
+        { "name": "ContractsWindowPlus"    }
     ],
     "install": [
         {
-            "file": "GameData/DMagicUtilities/CapCom",
+            "file":       "GameData/DMagicUtilities/CapCom",
             "install_to": "GameData/DMagicUtilities"
         }
     ]

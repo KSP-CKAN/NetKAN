@@ -5,11 +5,11 @@
     "license": "CC-BY-NC-SA",
     "spec_version": 1,
     "depends": [
-        { "name": "ModuleManager" },
-        { "name": "InterstellarFuelSwitch-Core"}
+        { "name": "ModuleManager" }
     ],
     "suggests": [
-        { "name": "ColorCodedCans" }
+        { "name": "ColorCodedCans" },
+        { "name": "InterstellarFuelSwitch-Core"}
     ],
     "install": [
         {

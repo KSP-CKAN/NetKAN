@@ -1,18 +1,28 @@
 {
-    "spec_version": 1,
-    "$kref": "#/ckan/spacedock/533",
+    "spec_version": "v1.18",
     "identifier": "Kerbalism",
-    "license": "public-domain",
+    "$kref": "#/ckan/github/steamp0rt/Kerbalism",
+    "$vref": "#/ckan/ksp-avc/GameData/Kerbalism/Kerbalism.version",
+    "x_netkan_trust_version_file": true,
+    "license": "Unlicense",
+    "author": [ "ShotgunNinja", "N70" ],
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/172400-*",
+        "repository": "https://gitlab.com/N70/Kerbalism"
+    },
     "depends": [
-        { "name": "ModuleManager", "min_version": "2.6.24" }
+        { "name": "ModuleManager" },
+        { "name": "CommunityResourcePack" }
+    ],
+    "recommends": [
+        { "name": "DeepFreeze" },
+        { "name": "UniversalStorage" }
     ],
     "supports": [
         { "name": "AntennaRange" },
-        { "name": "CommunityResourcePack" },
         { "name": "ConnectedLivingSpace" },
         { "name": "CryoTanks" },
         { "name": "DangIt" },
-        { "name": "DeepFreeze" },
         { "name": "KerbalAtomics" },
         { "name": "KerbalPlanetaryBaseSystems" },
         { "name": "NearFutureElectrical" },
@@ -22,22 +32,5 @@
         { "name": "RemoteTech" },
         { "name": "SCANsat" },
         { "name": "VenStockRevamp" }
-    ],
-    "x_netkan_override": [
-        {
-            "version": "<1.1.5",
-            "override": {
-                "recommends": [
-                    { "name": "Kerbalism-Profile" }
-                ],
-                "install": [
-                    {
-                        "file": "GameData/Kerbalism",
-                        "install_to": "GameData",
-                        "filter_regexp": [ "GameData/Kerbalism/Profiles/.+\\.cfg$" ]
-                    }
-                ]
-            }
-        }
     ]
 }

@@ -1,23 +1,17 @@
 {
-    "spec_version" : 1,
-    "identifier" : "KerbalEngineerRedux",
-    "$kref" : "#/ckan/github/CYBUTEK/KerbalEngineer",
-    "$vref" : "#/ckan/ksp-avc",
-    "name" : "Kerbal Engineer Redux",
-    "abstract" : "Reveals important statistics about your ship and its orbit during building and flight",
-    "author" : "CYBUTEK",
-    "license" : "GPL-3.0",
-    "release_status" : "testing",
-    "resources" : {
-        "homepage" : "http://forum.kerbalspaceprogram.com/threads/18230",
-        "github" : {
-            "url" : "https://github.com/CYBUTEK/KerbalEngineer"
-        }
-    },
-    "install" : [
+    "spec_version": 1,
+    "identifier":   "KerbalEngineerRedux",
+    "name":         "Kerbal Engineer Redux",
+    "abstract":     "Reveals important statistics about your ship and its orbit during building and flight",
+    "author":       [ "CYBUTEK", "jrbudda" ],
+    "$kref":        "#/ckan/github/jrbudda/KerbalEngineer",
+    "$vref":        "#/ckan/ksp-avc",
+    "license":      "GPL-3.0",
+    "release_status": "testing",
+    "install": [
         {
-            "file" : "KerbalEngineer",
-            "install_to" : "GameData"
+            "file":       "KerbalEngineer",
+            "install_to": "GameData"
         }
     ]
 }

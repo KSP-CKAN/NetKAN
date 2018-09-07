@@ -2,11 +2,11 @@
   "spec_version": 1,
   "identifier": "AdvancedFlyByWire-Linux",
   "release_status": "stable",
-  "$kref" : "#/ckan/spacedock/193",
+  "$kref" : "#/ckan/spacedock/1870",
   "$vref" : "#/ckan/ksp-avc",
   "resources": {
-    "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/85711-105-afbw-v162-joystick-controller-mod/",
-    "repository": "https://github.com/AlexanderDzhoganov/ksp-advanced-flybywire"
+    "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/175359-14-afbw-joystick-controller-mod/",
+    "repository": "https://github.com/linuxgurugamer/ksp-advanced-flybywire"
   },
   "install": [
     {
@@ -15,13 +15,12 @@
     }
   ],
   "depends": [
-    {
-      "name": "Toolbar"
-    }
+        { "name" : "ToolbarController" },
+	{ "name" : "ClickThroughBlocker" }
   ],
   "conflicts": [
     {
-      "name": "AdvancedFlyByWire"
+    "name": "AdvancedFlyByWireRevived"
     }
   ],
   "recommends": [
@@ -29,5 +28,6 @@
       "name": "KSP-AVC"
     }
  ],
-  "x_netkan_license_ok": true
+  "x_netkan_license_ok": true,
+  "provides": ["AdvancedFlyByWireRevived"]
 }

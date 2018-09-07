@@ -8,6 +8,10 @@
       "find": "PartWizard"
     }
   ],
+  "depends": [
+      { "name" : "ToolbarController" },
+      { "name" : "ClickThroughBlocker" }
+  ],
   "suggests": [
         { "name": "JanitorsCloset" },
         { "name": "Toolbar" }

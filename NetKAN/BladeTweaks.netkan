@@ -1,0 +1,20 @@
+{
+    "spec_version" : "v1.4",
+    "identifier"   : "BladeTweaks",
+    "abstract"     : "Simple tweak compilation updating cross section profiles for several parts.",
+    "$kref"        : "#/ckan/github/blade1981m/BladeTweaks",
+    "license"      : "LGPL-3.0",
+    "ksp_version"  : "any",
+    "depends" : [
+        { "name" : "ModuleManager" }
+    ],
+    "suggests": [
+        { "name" : "ConfigurableContainers" },
+        { "name" : "DMagicOrbitalScience"   },
+        { "name" : "RasterPropMonitor"      },
+        { "name" : "MechJeb2"               }
+    ],
+    "resources" : {
+        "repository" : "https://github.com/blade1981m/BladeTweaks"
+    }
+}

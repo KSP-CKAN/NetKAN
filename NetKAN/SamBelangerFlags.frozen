@@ -1,0 +1,18 @@
+{
+    "spec_version"   : "v1.4",
+    "identifier"     : "SamBelangerFlags",
+    "name"           : "SamBelanger Flags",
+    "$kref"          : "#/ckan/github/SamBelanger/SamBelangerFlags",
+    "abstract"       : "Flags used in SamBelanger's mods",
+    "license"        : "MIT",
+    "ksp_version"    : "any",
+    "x_netkan_epoch" : 1,
+    "comment"        : "flagmod",
+    "release_status" : "stable",
+    "install" : [
+        {
+            "find"       : "Flags",
+            "install_to" : "GameData/SamBelanger"
+        }
+    ]
+}

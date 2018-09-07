@@ -1,27 +1,6 @@
 {
     "spec_version": "v1.16",
     "identifier": "ContractConfigurator",
-    "$kref": "#/ckan/github/jrossignol/ContractConfigurator",
-    "name": "Contract Configurator",
-    "abstract": "A config-file based solution for creating new contracts!",
-    "license": "MIT",
-    "release_status": "stable",
-    "author": "nightingale",
-    "$vref": "#/ckan/ksp-avc",
-    "description": "A config-file based solution for creating new contracts!",
-    "ksp_version_strict" : true,
-    "suggests": [
-        { "name": "CoherentContracts" },
-        { "name": "ContractsWindowPlus" },
-        { "name": "WiderContractsApp" }
-    ],
-    "recommends": [
-        { "name": "WaypointManager" }
-    ],
-    "resources": {
-        "homepage": "http://forum.kerbalspaceprogram.com/threads/101604",
-        "bugtracker": "https://github.com/jrossignol/ContractConfigurator/issues",
-        "license": "https://raw.githubusercontent.com/jrossignol/ContractConfigurator/master/LICENSE.txt",
-        "manual": "https://github.com/jrossignol/ContractConfigurator/wiki"
-    }
+    "$kref" : "#/ckan/netkan/https://raw.githubusercontent.com/jrossignol/ContractConfigurator/master/ContractConfigurator.netkan",
+    "x_netkan_license_ok" : true
 }

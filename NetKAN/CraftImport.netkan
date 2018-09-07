@@ -5,10 +5,14 @@
     "$vref"          : "#/ckan/ksp-avc",
     "license"        : "GPL-3.0",
     "resources" : {
-        "homepage"    : "http://forum.kerbalspaceprogram.com/threads/132828",
+        "homepage"    : "https://forum.kerbalspaceprogram.com/index.php?/topic/119584-*",
         "repository"  : "https://github.com/linuxgurugamer/CraftImport"
     },
     "recommends": [ { "name": "JanitorsCloset" } ],
+    "depends": [
+        { "name" : "ToolbarController" },
+        { "name" : "ClickThroughBlocker" }
+    ],
     "install" : [
         {
             "find"       : "CraftImport",
@@ -16,3 +20,4 @@
         }
     ]
 }
+

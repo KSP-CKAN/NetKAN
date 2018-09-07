@@ -5,7 +5,8 @@
     "identifier"   : "NewTantares",
     "$kref"        : "#/ckan/github/Tantares/Tantares",
     "license"      : "CC-BY-NC-SA-4.0",
-    "ksp_version"  : "1.2.2",
+    "ksp_version_min" : "1.4.0",
+    "ksp_version_max" : "1.4.2",
     "abstract"     : "Stockalike Soyuz, LK and more!",
     "resources": {
         "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/73686-Tantares"

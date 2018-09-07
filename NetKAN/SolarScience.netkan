@@ -5,7 +5,7 @@
     "$kref": "#/ckan/spacedock/811",
     "license": "MIT",
     "resources" : {
-        "homepage"     : "http://forum.kerbalspaceprogram.com/threads/111678"
+        "homepage"     : "https://forum.kerbalspaceprogram.com/index.php?/topic/142647-141-solar-science/"
     },
     "install": [
         { "find": "Solar Science", "install_to": "GameData" }

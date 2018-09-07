@@ -27,7 +27,7 @@
     "depends"       : [
 		{ "name"	  : "BDAnimationModules" },
 		{ "name" 	  : "ModuleManager" },
-        { "name"      : "TextureReplacer" }
+        { "name"      : "TexturesUnlimited" }
     ],
     "recommends"    : [
         { "name"      : "RN-SalyutStations" },

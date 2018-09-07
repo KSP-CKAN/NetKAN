@@ -1,0 +1,25 @@
+{
+  "spec_version": "v1.4",
+  "install": [
+    {
+      "install_to": "GameData",
+      "find": "001_ToolbarControl"
+    }
+  ],
+  "depends": [
+	{ "name" : "ClickThroughBlocker" }
+  ],
+  "resources"    : {
+        "homepage" : "https://forum.kerbalspaceprogram.com/index.php?/topic/169509-141-toolbar-controller-for-modders/"
+  },
+  "x_netkan_epoch": 1,
+  "recommends" : [ { "name" : "Toolbar" } ],
+  "$vref": "#/ckan/ksp-avc",
+  "$kref": "#/ckan/spacedock/1931",
+  "x_via": "Automated Linuxgurugamer CKAN script",
+  "identifier": "ToolbarController",
+  "name": "Toolbar Controller",
+  "abstract": "Wrapper mod around the Blizzy and stock toolbars",
+  "license": "GPL-3.0"
+}
+

@@ -6,6 +6,7 @@
       "find": "TRP-Hire"
     }
   ],
+  "recommends": [ { "name": "CommunityTraitIcons" } ],
   "$vref": "#/ckan/ksp-avc",
   "$kref": "#/ckan/spacedock/777",
   "x_via": "Automated Linuxgurugamer CKAN script",

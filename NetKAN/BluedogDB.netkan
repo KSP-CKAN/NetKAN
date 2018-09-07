@@ -1,12 +1,15 @@
 {
-    "license": "CC-BY-NC-SA-4.0",
-    "identifier": "BluedogDB",
-    "$kref": "#/ckan/spacedock/442",
     "spec_version": "v1.4",
+    "identifier":   "BluedogDB",
+    "$kref":        "#/ckan/spacedock/442",
+    "license":      "CC-BY-NC-SA-4.0",
     "x_netkan_force_v": true,
     "depends": [
+        { "name": "ModuleManager" },
         { "name": "CommunityResourcePack" },
-        { "name": "DMagicScienceAnimate" }
+        { "name": "DMagicScienceAnimate" },
+        { "name": "B9PartSwitch" },
+        { "name": "NearFutureProps" }
     ],
     "supports": [
         { "name": "HullcamVDS" },
@@ -14,14 +17,14 @@
         { "name": "RemoteTech" },
         { "name": "TweakScale" },
         { "name": "HullcamVDSContinued" },
-	{ "name": "KIS" },
+        { "name": "KIS" },
         { "name": "CommunityTechTree" },
         { "name": "RealChute" },
         { "name": "USI-LS" }
     ],
     "install": [
         {
-            "find": "Bluedog_DB",
+            "find":       "Bluedog_DB",
             "install_to": "GameData"
         }
     ]

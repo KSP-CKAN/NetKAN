@@ -4,16 +4,14 @@
     "release_status": "stable",
     "license": "restricted",
     "resources": {
-        "homepage": "http://forum.kerbalspaceprogram.com/threads/54774",
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/50145-112-station-science-v20-new-models-by-speedyb/",
         "x_curse": "http://kerbal.curseforge.com/ksp-mods/220216",
         "x_preview": "http://i.imgur.com/63DTlDLl.png"
     },
-    "ksp_version" : "1.1",
+    "ksp_version" : "1.1.2",
     "name": "Station Science",
     "abstract": "Station Science mod adds several large parts designed to be integrated into a permanent space station.",
-    
     "description": "This mod adds several large parts designed to be integrated into a permanent space station: the Science Lab, the Zoology Bay, the Cyclotron, and the Spectrometron. These heavy parts provide facilities for performing experiments. Experiments are held in small, light pods that you can dock with your space station, execute, and bring back to the surface for Science points. The Spectrometron uses the Cyclotron to analyze Surface Samples that you've brought into orbit, and allows you to transmit the data home for full value. In addition, there are tanks for storing Kibbal for the Zoology Bay.",
-    
     "author": "ethernet",
     "version": "2.0",
     "download": "http://addons-origin.cursecdn.com/files/2300/838/StationScience-2.0.zip"

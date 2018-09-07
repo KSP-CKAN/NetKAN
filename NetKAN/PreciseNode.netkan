@@ -5,7 +5,7 @@
     "name"           : "Precise Node",
     "identifier"     : "PreciseNode",
     "abstract"       : "Provides a more precise widget for maneuver node editing",
-    "author"         : "blizzy78,linuxgurugamer",
+    "author"         : ["blizzy78", "linuxgurugamer"],
     "license"        : "BSD-2-clause",
     "release_status" : "stable",
     "resources" : {
@@ -15,6 +15,7 @@
             "releases" : true
         }
     },
+    "depends" : [ { "name" : "ClickThroughBlocker" } ],
     "install" : [
         {
             "find"       : "GameData/PreciseNode",

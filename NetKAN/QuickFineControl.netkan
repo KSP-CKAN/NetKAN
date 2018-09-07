@@ -4,6 +4,7 @@
     "license":          "GPL-3.0",
     "$kref":            "#/ckan/spacedock/784",
     "$vref":            "#/ckan/ksp-avc",
+    "x_netkan_epoch": 1,
     "install": [
         {
             "file"       : "GameData/QuickMods/QuickFineControl",

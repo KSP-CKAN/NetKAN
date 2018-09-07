@@ -2,12 +2,13 @@
     "spec_version" : "v1.4",
     "identifier"   : "Snacks",
     "$kref"        : "#/ckan/github/Angel-125/Snacks",
+    "$vref"        : "#/ckan/ksp-avc",
     "name"         : "Snacks",
     "abstract"     : "Add a simple life support system based on Snacks!",
     "author"       : [ "tgruetzm", "Angel-125"],
     "license"      : "MIT",
     "resources": {
-        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/81929-105-snacks-kerbal-simplified-life-support"
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/149604-*"
     },
     "install": [
         {
@@ -20,8 +21,11 @@
             "name": "ModuleManager"
         }
     ],
-    "ksp_version": "1.3",
     "x_netkan_override": [
+        {
+            "version": "1.9.0",
+            "delete": [ "ksp_version_min" ]
+        },
         {
             "version": "1.8.0",
             "delete": [ "ksp_version" ],
@@ -30,5 +34,4 @@
             }
         }
     ]
-
 }

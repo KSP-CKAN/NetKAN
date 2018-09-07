@@ -1,0 +1,47 @@
+{
+    "spec_version"   : "v1.4",
+    "name"           : "Kerbal Kustomz Ltd (KKL)",
+    "abstract"       : "KSP mod to fulfill some gameplay wishes",
+    "identifier"     : "KKL",
+    "$kref"          : "#/ckan/github/craidler/KerbalKustomzLtd",
+    "license"        : "LGPL-2.1",
+    "release_status" : "stable",
+    "ksp_version_min": "1.4.0",
+    "resources" : {
+        "repository"   : "https://github.com/craidler/KerbalKustomzLtd"
+    },
+    "tags" : [
+        "resources",
+        "parts"
+    ],
+    "depends" : [
+        { "name" : "ModuleManager" },
+        { "name" : "ClickThroughBlocker" },
+        { "name" : "MechJeb2" }
+    ],
+    "recommends" : [
+        { "name" : "Mk1CabinHatch" },
+        { "name" : "InterstellarFuelSwitch" },
+        { "name" : "NearFutureSolar" },
+        { "name" : "NearFutureConstruction" },
+        { "name" : "StationPartsExpansionRedux" },
+        { "name" : "KAS" },
+        { "name" : "KIS" },
+        { "name" : "KerbalInventorySystemNoFun" },
+        { "name" : "KerbalAlarmClock" },
+        { "name" : "KerbalImprovedSaveSystem" },
+        { "name" : "ZeroMiniAVC" },
+        { "name" : "VABReorienter" },
+        { "name" : "KeepItStraight" },
+        { "name" : "DistantObject" },
+        { "name" : "StockVisualEnhancements" },
+        { "name" : "CustomAsteroids" },
+        { "name" : "CraftManager" }
+    ],
+    "install": [
+        {
+            "find"       : "KKL",
+            "install_to" : "GameData"
+        }
+    ]
+}

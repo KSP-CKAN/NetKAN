@@ -4,13 +4,14 @@
     "$kref"        : "#/ckan/github/cartman09/kerbcam",
     "name"         : "KerbCam Continued",
     "author"       : "cartman09",
-    "abstract"     : "Update and continuation of huin's Kerbcam for KSP 1.1",
+    "abstract"     : "Update and continuation of huin's Kerbcam for KSP",
     "license"      : "BSD-2-clause",
-    "ksp_version"  : "1.1",
+    "ksp_version_min" : "1.2",
+    "ksp_version_max" : "1.3",
     "install": [
     {
-            "file"       : "KerbCam",
-            "install_to" : "GameData"
+        "file"       : "KerbCam",
+        "install_to" : "GameData"
     }
     ],
     "resources": {

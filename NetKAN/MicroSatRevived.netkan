@@ -1,0 +1,25 @@
+{
+  "spec_version": "v1.4",
+   "install"   :   [ { "find" : "SquiggsySpaceResearch",
+                        "install_to" : "GameData"
+			}
+  ],
+  "depends": [
+    { "name": "ModuleManager" }
+  ],
+  "recommends" : [ { "name" : "FMRS" },
+                   { "name" : "KerbalJointReinforcement" },
+                   { "name" : "AntennaRange" },
+                   { "name" : "ProceduralFairings" },
+		   { "name" : "SimpleAdjustableFairings-KWRocketry" }
+
+  ],
+  "suggests" : [
+                   { "name" : "RemoteTech" }
+  ],
+  "$vref": "#/ckan/ksp-avc",
+  "$kref": "#/ckan/spacedock/1795",
+  "x_via": "Automated Linuxgurugamer CKAN script",
+  "identifier": "MicroSatRevived",
+  "license": "CC-BY-NC-SA-4.0"
+}

@@ -15,10 +15,12 @@
         { "name" : "BackgroundProcessing" },
         { "name" : "ShipManifest" },
         { "name" : "ConnectedLivingSpace" },
+        { "name" : "AmpYearPowerManager"}
+    ],
+    "suggests": [
         { "name" : "USI-LS" },
         { "name" : "TACLS" },
-        { "name" : "Snacks" },
-        { "name" : "AmpYearPowerManager"}
+        { "name" : "Snacks" }
     ],
     "install": [
         { 

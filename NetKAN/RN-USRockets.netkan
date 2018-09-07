@@ -22,7 +22,7 @@
     }],
     "depends": [
 		{ "name": "BDAnimationModules" },
-        { "name": "TextureReplacer" },
+        { "name": "TexturesUnlimited" },
 		{ "name": "ModuleManager" }
     ],
 	"recommends"    :
