@@ -23,6 +23,10 @@
             "file"       : "GameData/000_FilterExtensions_Configs",
             "install_to" : "GameData",
             "filter"     : [ "Default", "StockRework" ]
+        },
+        {
+            "find"       : "GameData/zFinal_FilterExtensions",
+            "install_to" : "GameData"
         }
     ]
 }
