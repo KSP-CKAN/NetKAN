@@ -1,0 +1,14 @@
+{
+    "spec_version" : "v1.6",
+    "identifier"   : "BetterLoadSaveGame",
+    "$kref"        : "#/ckan/github/jefftimlin/BetterLoadSaveGame",
+    "license"      : "MIT",
+    "ksp_version"  : "1.4",
+    "suggests": [
+        { "name": "DatedQuickSaves"          },
+        { "name": "KerbalImprovedSaveSystem" }
+    ],
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/162619-*"
+    }
+}

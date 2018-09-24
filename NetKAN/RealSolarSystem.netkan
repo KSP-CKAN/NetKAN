@@ -1,15 +1,16 @@
 {
     "spec_version"    : "v1.12",
+    "identifier"      : "RealSolarSystem",
+    "name"            : "Real Solar System",
+    "abstract"        : "Resizes and rearranges the Kerbal system to more closely resemble the Solar System",
+    "author"          : [ "NathanKell", "eggrobin", "raidernick", "PhineasFreak" ],
     "$kref"           : "#/ckan/github/KSP-RO/RealSolarSystem",
     "$vref"           : "#/ckan/ksp-avc",
     "x_netkan_force_v": true,
-    "name"            : "Real Solar System",
-    "identifier"      : "RealSolarSystem",
-    "abstract"        : "Resizes and rearranges the Kerbal system to more closely resemble the Solar System",
     "license"         : "CC-BY-NC-SA",
     "release_status"  : "stable",
     "resources": {
-        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/50471-rss/"
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/177216-*"
     },
     "depends": [
         { "name": "ModuleManager" },

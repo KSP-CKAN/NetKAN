@@ -1,0 +1,10 @@
+{
+	"spec_version": "v1.4",
+	"identifier":   "SpaceWeaselStockalikeSLS",
+	"$kref":        "#/ckan/spacedock/1955",
+	"license":      "GPL-3.0",
+	"install": [ {
+		"find":       "STSpaceLaunchSystem",
+		"install_to": "GameData"
+	} ]
+}

@@ -1,0 +1,13 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "DerivativeTextures",
+    "$kref":        "#/ckan/spacedock/1971",
+    "license":      "CC-BY-NC-SA-4.0",
+    "install": [ {
+        "find":       "Robodyne",
+        "install_to": "GameData"
+    } ],
+    "depends": [
+        { "name": "ProceduralParts" }
+    ]
+}

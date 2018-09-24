@@ -1,0 +1,16 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "MNWSAeroPack",
+    "$kref":        "#/ckan/spacedock/1923",
+    "license":      "CC-BY-SA-4.0",
+    "depends": [
+        { "name": "ModuleManager"            },
+        { "name": "BDArmoryContinued"        },
+        { "name": "VesselMoverContinued"     },
+        { "name": "KerbalJointReinforcement" }
+    ],
+    "install": [ {
+        "find":       "MNWS_AERO",
+        "install_to": "GameData"
+    } ]
+}
