@@ -13,6 +13,7 @@
     },
     "depends": [
         { "name": "ModuleManager" },
+	{ "name" : "ToolbarController" },
         { "name": "ClickThroughBlocker" }
     ],
     "recommends" : [ { "name" : "Toolbar" } ],
