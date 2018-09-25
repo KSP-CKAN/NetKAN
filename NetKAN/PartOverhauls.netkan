@@ -1,6 +1,6 @@
 {
     "spec_version"   : 1,
-    "name"           : "Part Overhauls",
+    "name"           : "Porkjet's Part Overhauls",
     "abstract"       : "Porkjet's in-progress part overhauls",
     "identifier"     : "PartOverhauls",
     "download"       : "https://archive.org/download/PartOverhauls/PartOverhauls.zip",
@@ -9,7 +9,6 @@
     "author"         : "Porkjet",
     "release_status" : "development",
     "ksp_version_min": "1.1.0",
-    "ksp_version_max": "1.3.9",
     "resources" : {
         "homepage" : "http://forum.kerbalspaceprogram.com/index.php?/topic/147582-update-12-pre-release-is-here/"
     },
