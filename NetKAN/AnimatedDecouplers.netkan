@@ -5,7 +5,7 @@
     "name"            : "Animated Decouplers",
     "abstract"        : "Extensions of KSP's decouplers that play animations.",
     "license"         : "CC-BY-SA-4.0",
-    "ksp_version" 	  : "1.3.0",
+    "$vref"           : "#/ckan/ksp-avc",
     "resources"       : {
         "repository" : "https://github.com/Starwaster/AnimatedDecouplers"
     },
