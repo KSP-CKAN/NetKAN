@@ -11,6 +11,9 @@
             "name": "DistantObject"
         }
     ],
+    "resources" : {
+        "homepage"     : "https://forum.kerbalspaceprogram.com/index.php?/topic/89214-*"
+    },
     "install": [{
         "file": "GameData/DistantObject",
         "install_to": "GameData",
