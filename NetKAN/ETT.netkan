@@ -10,6 +10,9 @@
             "install_to" : "GameData"
         }
     ],
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/112627-*"
+    },
     "depends": [
         { "name": "ModuleManager" },
         { "name": "YongeTechTreesPlugin" }
