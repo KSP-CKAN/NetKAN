@@ -9,6 +9,9 @@
         { "name": "ModuleManager" },
         { "name": "ModularFuelTanks" }
     ],
+    "suggests" : [
+        { "name" : "B9" },
+    ],
     "install": [
         {
             "find": "GameData/FuelWings",
