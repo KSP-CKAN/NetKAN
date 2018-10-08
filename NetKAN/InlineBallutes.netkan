@@ -4,8 +4,8 @@
     "$kref"        : "#/ckan/github/linuxgurugamer/InlineBallutes",
     "$vref"        : "#/ckan/ksp-avc",
     "license"      : "CC-BY-NC-SA-4.0",
-    "resources"    :
-            "homepage" : "https://forum.kerbalspaceprogram.com/index.php?/topic/121162-*"
+    "resources" : {
+        "homepage"     : "https://forum.kerbalspaceprogram.com/index.php?/topic/121162-*"
     },
     "suggests"     : [
            { "name": "FerramAerospaceResearch" },
