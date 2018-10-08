@@ -18,7 +18,8 @@
         { "name": "CustomBarnKit" }
     ],
     "suggests": [
-        { "name": "BetterTimeWarpCont" }
+        { "name": "BetterTimeWarpCont" },
+        { "name": "JX2Antenna" }
     ],
     "conflicts": [
         { "name": "RealSolarSystem" }
