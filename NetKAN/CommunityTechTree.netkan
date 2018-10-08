@@ -8,10 +8,6 @@
     "depends" : [
         { "name" : "ModuleManager", "min_version" : "2.6.2" }
     ],
-    "conflicts" : [
-        { "name" : "ModOrientedTechTree" },
-        { "name" : "ModOrientedTechTree-Unmanned" }
-    ],
     "suggests" : [
         { "name" : "NearFuturePropulsion" },
         { "name" : "NearFutureElectrical" },
@@ -28,6 +24,10 @@
         { "name" : "USI-LS" },
         { "name" : "UKS" },
         { "name" : "AlcubierreStandalone" },
+    ],
+    "conflicts" : [
+        { "name" : "ModOrientedTechTree" },
+        { "name" : "ModOrientedTechTree-Unmanned" }
     ],
     "install" : [
         { "find" : "CommunityTechTree", "install_to" : "GameData" }
