@@ -10,7 +10,7 @@
         { "name": "ModularFuelTanks" }
     ],
     "suggests" : [
-        { "name" : "B9" },
+        { "name" : "B9" }
     ],
     "install": [
         {
