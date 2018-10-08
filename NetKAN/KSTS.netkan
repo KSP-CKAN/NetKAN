@@ -1,5 +1,12 @@
 {
     "spec_version" : 1,
     "identifier"   : "KSTS",
-    "$kref"        : "#/ckan/netkan/https://raw.githubusercontent.com/mmoench/KSTS/master/KSTS.netkan"
+    "$kref"        : "#/ckan/netkan/https://raw.githubusercontent.com/mmoench/KSTS/master/KSTS.netkan",
+    "conflicts": [
+        { "name": "ModularFuelTanks" },
+        { "name": "USI-LS" }
+    ],
+    "suggests": [
+        { "name": "StageRecovery" }
+    ]
 }
