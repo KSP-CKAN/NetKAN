@@ -9,7 +9,7 @@
         { "name": "ModuleManager" },
         { "name": "ModularFuelTanks" }
     ],
-    "suggests" : [
+    "supports" : [
         { "name" : "B9" }
     ],
     "install": [
