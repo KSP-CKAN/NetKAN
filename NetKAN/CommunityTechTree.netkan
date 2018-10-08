@@ -12,6 +12,24 @@
         { "name" : "ModOrientedTechTree" },
         { "name" : "ModOrientedTechTree-Unmanned" }
     ],
+    "suggests" : [
+        { "name" : "NearFuturePropulsion" },
+        { "name" : "NearFutureElectrical" },
+        { "name" : "NearFutureSolar" },
+        { "name" : "NearFutureConstruction" },
+        { "name" : "NearFutureSpacecraft" },
+        { "name" : "NearFutureLaunchVehicles" },
+        { "name" : "StationPartsExpansionRedux" },
+        { "name" : "CryoEngines" },
+        { "name" : "KSPInterstellarExtended" },
+        { "name" : "SpaceY-Lifters" },
+        { "name" : "ModularRocketSystem" },
+        { "name" : "ModularRocketSystemLITE" },
+        { "name" : "USI-LS" },
+        { "name" : "UKS" },
+        { "name" : "AlcubierreStandalone" },
+    ],
+    
     "install" : [
         { "find" : "CommunityTechTree", "install_to" : "GameData" }
     ],
