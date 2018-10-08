@@ -29,7 +29,6 @@
         { "name" : "UKS" },
         { "name" : "AlcubierreStandalone" },
     ],
-    
     "install" : [
         { "find" : "CommunityTechTree", "install_to" : "GameData" }
     ],
