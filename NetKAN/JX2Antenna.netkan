@@ -3,5 +3,11 @@
     "x_via": "Automated SpaceDock CKAN submission",
     "license": "CC-BY-NC-SA",
     "identifier": "JX2Antenna",
-    "$kref": "#/ckan/spacedock/1107"
+    "$kref": "#/ckan/spacedock/1107",
+    "supports" : [
+        { "name" : "IndicatorLights" },
+        { "name" : "OuterPlanetsMod" },
+        { "name" : "GPP" },
+        { "name" : "RemoteTech" }
+    ]
 }
