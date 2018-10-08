@@ -23,7 +23,7 @@
         { "name" : "ModularRocketSystemLITE" },
         { "name" : "USI-LS" },
         { "name" : "UKS" },
-        { "name" : "AlcubierreStandalone" },
+        { "name" : "AlcubierreStandalone" }
     ],
     "conflicts" : [
         { "name" : "ModOrientedTechTree" },
