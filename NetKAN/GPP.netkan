@@ -4,5 +4,8 @@
     "identifier":   "GPP",
     "x_netkan_epoch": 1,
     "$kref":        "#/ckan/netkan/https://raw.githubusercontent.com/Galileo88/Galileos-Planet-Pack/master/CKAN/GPP.netkan",
-    "x_netkan_license_ok": true
+    "x_netkan_license_ok": true,
+    "suggests": [
+        { "name": "JX2Antenna" }
+    ]
 }
