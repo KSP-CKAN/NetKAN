@@ -16,7 +16,7 @@
         { "name": "FMRSContinued" },
         { "name": "Trajectories" }
     ],
-    "suggests": [
+    "supports": [
         { "name": "TweakScale" },
         { "name": "RealPlume" },
         { "name": "FerramAerospaceResearch" }
