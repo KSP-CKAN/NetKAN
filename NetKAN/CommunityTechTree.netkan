@@ -8,7 +8,7 @@
     "depends" : [
         { "name" : "ModuleManager", "min_version" : "2.6.2" }
     ],
-    "suggests" : [
+    "supports" : [
         { "name" : "AlcubierreStandalone" },
         { "name" : "CryoEngines" },
         { "name" : "KerbalAtomics" },
