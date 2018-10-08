@@ -4,4 +4,13 @@
     "license": "CC-BY-NC-SA",
     "identifier": "JX2Antenna",
     "$kref": "#/ckan/spacedock/1107"
+    "resources" : {
+        "homepage" : "https://forum.kerbalspaceprogram.com/index.php?/topic/153125-*"
+    },
+    "suggests" : [
+        { "name" : "IndicatorLights" },
+        { "name" : "OuterPlanetsMod" },
+        { "name" : "GPP" },
+        { "name" : "RemoteTech" }
+    ]
 }
