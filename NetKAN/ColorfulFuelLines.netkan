@@ -11,6 +11,14 @@
         { "name": "ModuleManager" },
         { "name": "InterstellarFuelSwitch-Core" }
     ],
+    "supports": [
+        { "name": "ModularRocketSystem" },
+        { "name": "ModularRocketSystemsLITE" },
+        { "name": "SpaceY-Lifters" },
+        { "name": "ColorCodedCans" },
+        { "name": "FuelTanksPlus" },
+        { "name": "LithobrakeExplorationTechnologies" }
+    ],
     "install": [
         {
             "file"       : "ColorfulFuelLines",
