@@ -11,6 +11,14 @@
         { "name": "FirespitterCore" },
         { "name": "ModuleManager"}
     ],
+    "supports": [
+        { "name": "ModularRocketSystem" },
+        { "name": "ModularRocketSystemsLITE" },
+        { "name": "SpaceY-Lifters" },
+        { "name": "ColorCodedCans" },
+        { "name": "ColorfulFuelLines" },
+        { "name": "FuelTanksPlus" }
+    ],
     "install": [
         {
             "file"       : "LETech",
