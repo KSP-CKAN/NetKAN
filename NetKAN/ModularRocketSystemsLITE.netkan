@@ -3,6 +3,21 @@
     "spec_version": "v1.4",
     "$kref": "#/ckan/spacedock/87",
     "license": "CC-BY-NC-SA-4.0",
+    "supports": [
+        { "name": "SpaceY-Lifters" },
+        { "name": "ColorCodedCans" },
+        { "name": "ColorfulFuelLines" },
+        { "name": "FuelTanksPlus" },
+        { "name": "LithobrakeExplorationTechnologies" },
+        { "name": "TweakScale" },
+        { "name": "FerramAerospaceResearch" },
+        { "name": "KSP-AVC" },
+        { "name": "RemoteTech" },
+        { "name": "EngineIgnitorReignited" },
+        { "name": "CommunityTechTree" },
+        { "name": "HotRockets" },
+        { "name": "ConnectedLivingSpace" }
+    ],
     "conflicts": [
         { "name": "ModularRocketSystem" }
     ],
