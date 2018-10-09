@@ -12,7 +12,11 @@
         { "name": "KIS" }
     ],
     "supports": [
-        { "name": "OuterPlanets" }
+        { "name": "OuterPlanetsMod" },
+        { "name": "NewHorizons" },
+        { "name": "KerbalPlanetaryBaseSystems" },
+        { "name": "RemoteTech" },
+        { "name": "AntennaRange" }
     ],
     "install": [
         {
