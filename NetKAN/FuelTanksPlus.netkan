@@ -11,6 +11,19 @@
         { "name": "ColorCodedCans" },
         { "name": "InterstellarFuelSwitch-Core"}
     ],
+    "supports": [
+        { "name": "ModularRocketSystem" },
+        { "name": "ModularRocketSystemsLITE" },
+        { "name": "ColorCodedCans" },
+        { "name": "ColorfulFuelLines" },
+        { "name": "LithobrakeExplorationTechnologies" },
+        { "name": "TweakScale" },
+        { "name": "FerramAerospaceResearch" },
+        { "name": "KSP-AVC" },
+        { "name": "DeadlyReentry" },
+        { "name": "ModularFuelTanks" },
+        { "name": "InterstellarFuelSwitch" }
+    ],
     "install": [
         {
             "file": "FuelTanksPlus",
