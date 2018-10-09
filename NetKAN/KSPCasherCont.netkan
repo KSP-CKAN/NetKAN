@@ -12,7 +12,8 @@
   ],
   "recommends": [
       { "name" : "Karbonite" },
-      { "name" : "KerbinSide" }
+      { "name" : "KerbinSide" },
+      { "name" : "KSP-AVC" }
   ],
   "suggests": [
       { "name" : "ContractConfigurator-AnomalySurveyor" },
