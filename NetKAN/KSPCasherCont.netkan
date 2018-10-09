@@ -12,8 +12,7 @@
   ],
   "recommends": [
       { "name" : "Karbonite" },
-      { "name" : "KerbinSide" },
-      { "name" : "KSP-AVC" }
+      { "name" : "KerbinSide" }
   ],
   "suggests": [
       { "name" : "ContractConfigurator-AnomalySurveyor" },
@@ -22,7 +21,8 @@
       { "name" : "ContractConfigurator-FieldResearch" },
       { "name" : "ContractConfigurator-KerbalAcademy" },
       { "name" : "ContractConfigurator-RemoteTech" },
-      { "name" : "ContractConfigurator-Tourism" }
+      { "name" : "ContractConfigurator-Tourism" },
+      { "name" : "KSP-AVC" }
   ],
   "supports": [
       { "name" : "Strategia" },
