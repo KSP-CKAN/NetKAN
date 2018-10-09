@@ -12,5 +12,12 @@
     ],
     "recommends": [
         { "name": "FuelTanksPlus" }
+    ],
+    "supports": [
+        { "name": "ModularRocketSystem" },
+        { "name": "ModularRocketSystemsLITE" },
+        { "name": "SpaceY-Lifters" },
+        { "name": "ColorfulFuelLines" },
+        { "name": "LithobrakeExplorationTechnologies" }
     ]
 }
