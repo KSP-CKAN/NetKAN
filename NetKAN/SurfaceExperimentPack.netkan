@@ -18,6 +18,9 @@
         { "name": "RemoteTech" },
         { "name": "AntennaRange" }
     ],
+    "suggests": [
+        { "name": "BluedogDB" }
+    ],
     "install": [
         {
             "find": "SurfaceExperimentPackage",
