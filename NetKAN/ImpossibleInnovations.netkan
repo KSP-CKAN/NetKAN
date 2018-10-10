@@ -17,10 +17,14 @@
             "file":       "GameData/ImpossibleInnovations",
             "install_to": "GameData",
             "filter":     [ "Ships" ]
-        },	
-        {	
-            "find":       "Ships",	
-            "install_to": "Ships"	
+        },
+        {
+            "find":       "Ships/VAB",
+            "install_to": "Ships"
+        },
+        {
+            "find":       "Ships/SPH",
+            "install_to": "Ships"
         }
     ],
     "x_netkan_override" : [
