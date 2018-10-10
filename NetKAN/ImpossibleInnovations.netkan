@@ -15,7 +15,12 @@
     "install": [
         {
             "file":       "GameData/ImpossibleInnovations",
-            "install_to": "GameData"
+            "install_to": "GameData",
+            "filter":     [ "Ships" ]
+        },	
+        {	
+            "find":       "Ships",	
+            "install_to": "Ships"	
         }
     ],
     "x_netkan_override" : [
