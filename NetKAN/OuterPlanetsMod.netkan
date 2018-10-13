@@ -12,6 +12,7 @@
     "depends": [
         { "name": "ModuleManager" },
         { "name": "Kopernicus" },
+        { "name": "CustomBarnKit" },
         { "name": "CommunityTerrainTexturePack" }
     ],
     "recommends": [
@@ -25,14 +26,20 @@
         { "name": "RealSolarSystem" }
     ],
     "supports": [
-        { "name": "DistantObjectEnhancement" },
+        { "name": "PlanetShine" },
+        { "name": "DistantObject" },
         { "name": "FinalFrontier" },
+        { "name": "ResearchBodies" },
+        { "name": "CommunityResourcePack" },
+        { "name": "SigmaBinary-core" },
+        { "name": "CustomAsteroids" },
         { "name": "RemoteTech" },
         { "name": "SCANsat" },
-        { "name": "CommunityResourcePack" },
-        { "name": "PlanetShine" },
-        { "name": "ResearchBodies" },
         { "name": "DeadlyReentry" }
+    ],
+    tags : [
+        "Other",
+        "Environment"
     ],
     "x_netkan_epoch": "2",
     "$vref": "#/ckan/ksp-avc",
