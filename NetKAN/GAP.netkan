@@ -10,16 +10,12 @@
     ],
 
     "recommends": [
-        { "name": "TakeCommand" },
-        { "name": "KerbalAircraftExpansion" },
-        { "name": "KRXKerbalRotorExpansion" },
-        { "name": "EVAParachutes" }
+        { "name": "WaypointManager" }
     ],
 
     "suggests": [
-        { "name": "WaypointManager" },
         { "name": "KAS" },
-        { "name": "Ceteras-Suit-Pack" }
+        { "name": "KIS" }
     ],
 
     "install": [
