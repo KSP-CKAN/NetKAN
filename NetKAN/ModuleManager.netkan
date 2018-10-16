@@ -14,8 +14,8 @@
         "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/50533-141-module-manager-306-marsh-14th-2018-its-dangerous-to-go-alone-take-those-cats-with-you/",
         "repository": "https://github.com/sarbian/ModuleManager"
     },
-    "ksp_version_min": "1.4.0",
-    "ksp_version_max": "1.4.90",
+    "ksp_version_min": "1.5.0",
+    "ksp_version_max": "1.5.99",
     "install": [
         {
             "find_regexp": "ModuleManager.*\\.dll$",
@@ -28,6 +28,27 @@
             "version": "3.0.4",
             "override": {
                 "ksp_version" : "1.3"
+            }
+        },
+        {
+            "version": "3.0.5",
+            "override": {
+                "ksp_version_min" : "1.4.0",
+                "ksp_version_min" : "1.4.99"
+            }
+        },
+        {
+            "version": "3.0.6",
+            "override": {
+                "ksp_version_min" : "1.4.0",
+                "ksp_version_min" : "1.4.99"
+            }
+        },
+        {
+            "version": "3.0.7",
+            "override": {
+                "ksp_version_min" : "1.4.0",
+                "ksp_version_min" : "1.4.99"
             }
         }
     ]
