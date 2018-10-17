@@ -6,11 +6,6 @@
       "find": "AARS"
     }
   ],
-  "depends": [
-    {
-      "name": "AircraftCarrierAccessories"
-    }
-  ],
   "$kref": "#/ckan/spacedock/1167",
   "x_via": "Automated Linuxgurugamer CKAN script",
   "identifier": "AutomatedAerialRefueling",
