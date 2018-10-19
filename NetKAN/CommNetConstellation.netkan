@@ -11,6 +11,15 @@
       "name": "ModuleManager"
     }
   ],
+  "conflicts": [
+    { 
+      "name": "CommNetVisualisation",
+      "name": "RemoteTech",
+    }
+  ],
+  "suggests": [
+    { "name": "RemoteTechRedevAntennas" }
+  ],
   "$kref": "#/ckan/spacedock/1309",
   "x_via": "Automated Linuxgurugamer CKAN script",
   "identifier": "CommNetConstellation",
