@@ -12,10 +12,8 @@
     }
   ],
   "conflicts": [
-    { 
-      "name": "CommNetVisualisation",
-      "name": "RemoteTech",
-    }
+    { "name": "CommNetVisualisation" },
+    { "name": "RemoteTech" }
   ],
   "suggests": [
     { "name": "RemoteTechRedevAntennas" }
