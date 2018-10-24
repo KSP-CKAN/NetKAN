@@ -1,7 +1,5 @@
 {
     "spec_version": "v1.4",
     "identifier":   "OuterPlanetsMod",
-    "x_netkan_epoch": 1,
-    "$kref":        "#/ckan/netkan/https://raw.githubusercontent.com/Galileo88/Outer-Planets-Mod/master/CKAN/OPM.netkan",
-    "x_netkan_license_ok": true
+    "$kref":        "#/ckan/netkan/https://raw.githubusercontent.com/Galileo88/Outer-Planets-Mod/master/CKAN/OPM.netkan"
 }
