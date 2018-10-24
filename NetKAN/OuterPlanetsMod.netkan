@@ -1,50 +1,7 @@
 {
     "spec_version": "v1.4",
-    "install": [
-        {
-            "find": "OPM",
-            "install_to": "GameData"
-        }
-    ],
-    "resources": {
-        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/165854-ksp-13-opm_galileo-121-17-sept-2017/"
-    },
-    "depends": [
-        { "name": "ModuleManager" },
-        { "name": "Kopernicus" },
-        { "name": "CustomBarnKit" },
-        { "name": "CommunityTerrainTexturePack" }
-    ],
-    "recommends": [
-        { "name": "CustomBarnKit" }
-    ],
-    "suggests": [
-        { "name": "BetterTimeWarpCont" },
-        { "name": "JX2Antenna" }
-    ],
-    "conflicts": [
-        { "name": "RealSolarSystem" }
-    ],
-    "supports": [
-        { "name": "PlanetShine" },
-        { "name": "DistantObject" },
-        { "name": "FinalFrontier" },
-        { "name": "ResearchBodies" },
-        { "name": "CommunityResourcePack" },
-        { "name": "SigmaBinary-core" },
-        { "name": "CustomAsteroids" },
-        { "name": "RemoteTech" },
-        { "name": "SCANsat" },
-        { "name": "DeadlyReentry" }
-    ],
-    "tags": [
-        "planet-pack"
-    ],
-    "x_netkan_epoch": "2",
-    "$vref": "#/ckan/ksp-avc",
-    "$kref": "#/ckan/github/Galileo88/Outer-Planets-Mod",
-    "identifier": "OuterPlanetsMod",
-    "abstract": "Outer Planets Mod",
-    "author": [ "CaptRobau", "Galileo88", "Poodmund" ],
-    "license": "CC-BY-NC-SA-4.0"
+    "identifier":   "OuterPlanetsMod",
+    "x_netkan_epoch": 1,
+    "$kref":        "#/ckan/netkan/https://raw.githubusercontent.com/Galileo88/Outer-Planets-Mod/master/CKAN/OPM.netkan",
+    "x_netkan_license_ok": true
 }
