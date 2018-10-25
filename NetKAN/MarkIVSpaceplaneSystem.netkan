@@ -2,12 +2,9 @@
     "spec_version"   : "v1.4",
     "identifier"     : "MarkIVSpaceplaneSystem",
     "$kref"          : "#/ckan/spacedock/809",
-    "$vref"          : "#/ckan/ksp-avc",
+    "$vref"          : "#/ckan/ksp-avc/MarkIV.version",
     "release_status" : "stable",
     "license"        : "CC-BY-NC-SA-4.0",
-    "install": [
-        { "file": "GameData/MarkIVSystem", "install_to": "GameData" }
-    ],
     "depends": [
         { "name" : "B9PartSwitch" },
         { "name" : "CommunityResourcePack" },
