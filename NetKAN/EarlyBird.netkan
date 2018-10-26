@@ -1,6 +1,9 @@
 {
   "license": "GPL-3.0",
   "identifier": "EarlyBird",
+  "name": "Early Bird",
+  "abstract": "Bird is a mod for﻿ better﻿ warp-to-morning functionality﻿﻿﻿﻿﻿﻿﻿. Currently, it modifies the warp-to-morning feature such that warp ends five minutes before sunrise, taking the space center latitude into account (not relevant for stock Kerbin, but relevant for any planet mod that fakes axial tilt ",
+  "author": "taniwha",
   "x_via": "Automated Linuxgurugamer CKAN script",
   "download": "http://taniwha.org/~bill/EarlyBird_v0.1.5.zip",
   "version": "0.1.5",
