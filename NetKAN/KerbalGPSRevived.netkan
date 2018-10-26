@@ -11,7 +11,10 @@
     "recommends": [
         { "name": "ContractConfigurator" }
     ],
-
+    "depends": [
+      { "name": "ToolbarController" },
+      { "name": "ClickThroughBlocker" }
+    ],
     "resources": {
         "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/177511-14x-kerbalgps-revived-beta/",
 	 "repository": "https://github.com/linuxgurugamer/KerbalGPS"

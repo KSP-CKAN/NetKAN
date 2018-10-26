@@ -11,6 +11,10 @@
         { "name" : "KerbalConstructionTime" },
         { "name" : "Toolbar" }
     ],
+    "depends": [
+      { "name": "ToolbarController" },
+      { "name": "ClickThroughBlocker" }
+    ],
     "conflicts" : [
         { "name" : "DebRefund" }
     ],
