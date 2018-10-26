@@ -1,0 +1,18 @@
+{
+  "license": "GPL-3.0",
+  "identifier": "EarlyBird",
+  "x_via": "Automated Linuxgurugamer CKAN script",
+  "download": "http://taniwha.org/~bill/EarlyBird_v0.1.5.zip",
+  "$vref": "#/ckan/ksp-avc",
+  "resources": {
+    "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/162477-14-early-bird-015/<RESOURCELINE>",
+    "repository": "https://github.com/taniwha/EarlyBird"
+  },
+  "install": [
+    {
+      "find": "EarlyBird",
+      "install_to": "GameData"
+    }
+  ],
+  "spec_version": "v1.4"
+}
