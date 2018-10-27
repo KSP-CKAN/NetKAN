@@ -3,15 +3,15 @@
     "identifier"        : "KSPInterstellarExtended",
     "$kref"             : "#/ckan/spacedock/172",
     "$vref"             : "#/ckan/ksp-avc",
+    "license"           : "GPL-3.0",
     "x_netkan_staging"  : true,
     "resources": {
         "homepage":   "https://forum.kerbalspaceprogram.com/index.php?/topic/172026-*",
         "repository": "https://github.com/sswelm/KSP-Interstellar-Extended"
     },
-    "license"           : "GPL-3.0",
     "install": [
         {
-            "find"      : "GameData/WarpPlugin",
+            "find"      : "WarpPlugin",
             "install_to": "GameData"
         }, {
             "find"      : "InterstellarHybridRocketry",
