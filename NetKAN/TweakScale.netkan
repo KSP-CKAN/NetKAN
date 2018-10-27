@@ -1,22 +1,19 @@
 {
-    "spec_version"       : "v1.2",
-    "$kref"              : "#/ckan/github/pellinor0/TweakScale",
-    "$vref"              : "#/ckan/ksp-avc",
-    "identifier"         : "TweakScale",
-    "license"            : "WTFPL",
-    "name"               : "TweakScale - Rescale Everything!",
-    "abstract"           : "TweakScale lets you change the size of a part. Not just that, but it will figure out how much fuel is in the resized part. And if it's an engine, it will become more powerful by scaling it bigger, or weaker by scaling it smaller.",
-    "author": [
-        "Biotronic",
-        "pellinor"
-    ],
-    "release_status"     : "stable",
-    "depends" : [
-        { "name" : "ModuleManager", "min_version" : "2.5.1" }
-    ],
-    "resources" : {
-        "homepage"   : "https://forum.kerbalspaceprogram.com/index.php?/topic/101540-14x-tweakscale-v239mar-09/",
-        "repository" : "https://github.com/pellinor0/TweakScale"
-    },
-    "x_netkan_force_v": true
+	"spec_version"		 : "v1.2",
+	"$kref"			 : "#/ckan/spacedock/127",
+	"identifier"		 : "TweakScale",
+	"name"			 : "TweakScale - Rescale Everything!",
+	"abstract"		 : "TweakScale lets you change the size of a part. Not just that, but it will figure out how much fuel is in the resized part. And if it's an engine, it will become more powerful by scaling it bigger, or weaker by scaling it smaller.",
+	"license"		 : "WTFPL",
+	"author": [
+		"Biotronic",
+		"pellinor",
+		"LisiasT"
+	],
+	"release_status"	: "stable",
+	"ksp_version_min"	: "1.4.1",
+	"ksp_version_max"	: "1.5.1",
+	"depends" : [
+		{ "name" : "ModuleManager", "min_version" : "2.7.1" }
+	]
 }
