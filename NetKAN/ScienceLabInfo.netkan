@@ -4,7 +4,6 @@
     "$kref"        : "#/ckan/github/yalov/ScienceLabInfo",
     "name"         : "Science Lab Info (and 6-Crew Lab)",
     "author"       : "flart",
-    "abstract"     : "Plugin: shows more info about science labs in the editor/flight\nPart: a enhanced MPL-LG-6 Lab with enabled extra sits",
     "license"      : "GPL-3.0",
     "release_status" : "stable",
     "$vref" : "#/ckan/ksp-avc",
