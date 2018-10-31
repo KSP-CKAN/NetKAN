@@ -6,12 +6,9 @@
     "depends": [
         { "name": "ModuleManager" },
         { "name": "CommunityResourcePack" },
-        { "name": "InterstellarFuelSwitch-Core" }
+        { "name": "B9PartSwitch" }
     ],
     "x_netkan_epoch": 2,
-    "suggests": [
-    { "name": "FerramAerospaceResearch" }
-    ],
     "install" : [
         {
             "find"       : "GameData/Mk2Expansion",
