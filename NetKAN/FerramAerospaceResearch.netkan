@@ -1,18 +1,18 @@
 {
     "spec_version": 1,
     "identifier": "FerramAerospaceResearch",
-    "$kref": "#/ckan/github/dkavolis/Ferram-Aerospace-Research",
+    "$kref": "#/ckan/github/ferram4/Ferram-Aerospace-Research",
     "$vref": "#/ckan/ksp-avc",
     "x_netkan_epoch": "3",
     "x_netkan_staging": true,
     "x_netkan_version_edit": "^[vV]?(?<version>\\d+(?:\\.\\d+){0,3}[A-Za-z]?)(?:_[A-Za-z0-9_]+)?$",
     "name": "Ferram Aerospace Research",
     "abstract": "FAR replaces KSP's stock part-centered aerodynamics model with one based on real-life physics.",
-    "author": "ferram4,dkavolis",
-    "license": "GPL-3.0",
+    "author": "ferram4",
+    "license": "restricted",
     "resources" : {
-        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/179445-*",
-        "repository": "https://github.com/dkavolis/Ferram-Aerospace-Research"
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/19321-1",
+        "repository": "https://github.com/ferram4/Ferram-Aerospace-Research"
     },
     "provides"  : [ "AerodynamicModel", "FAR" ],
     "conflicts" : [ { "name" : "AerodynamicModel" } ],
