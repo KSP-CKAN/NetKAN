@@ -4,7 +4,6 @@
     "$kref": "#/ckan/github/dkavolis/Ferram-Aerospace-Research",
     "$vref": "#/ckan/ksp-avc",
     "x_netkan_epoch": "3",
-    "x_netkan_staging": true,
     "x_netkan_version_edit": "^[vV]?(?<version>\\d+(?:\\.\\d+){0,3}[A-Za-z]?)(?:_[A-Za-z0-9_]+)?$",
     "name": "Ferram Aerospace Research",
     "abstract": "FAR replaces KSP's stock part-centered aerodynamics model with one based on real-life physics.",
