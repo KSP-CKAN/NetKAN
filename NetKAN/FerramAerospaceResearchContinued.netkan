@@ -8,7 +8,7 @@
     "x_netkan_version_edit": "^[vV]?(?<version>\\d+(?:\\.\\d+){0,3}[A-Za-z]?)(?:_[A-Za-z0-9_]+)?$",
     "name": "Ferram Aerospace Research",
     "abstract": "FAR replaces KSP's stock part-centered aerodynamics model with one based on real-life physics.",
-    "author": "ferram4,dkavolis",
+    "author": [ "ferram4", "dkavolis" ],
     "license": "GPL-3.0",
     "resources" : {
         "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/179445-*",
