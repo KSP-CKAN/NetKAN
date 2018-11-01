@@ -6,6 +6,7 @@
     "author": "TheProtagonists",
     "license": "CC-BY-NC-ND-4.0",
     "$kref": "#/ckan/github/TheProtagonists/TheWorldBeyond/asset_match/_TWB_Full.*?\\.zip",
+    "$vref": "#/ckan/ksp-avc",
     "resources": {
         "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/175432-*",
         "repository": "https://github.com/TheProtagonists/TheWorldBeyond"
