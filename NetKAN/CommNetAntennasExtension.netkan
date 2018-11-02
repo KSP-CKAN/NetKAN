@@ -4,7 +4,6 @@
     "$kref"        : "#/ckan/github/yalov/CommNetAntennasExtension",
     "name"         : "CommNet Antennas Extension",
     "author"       : "flart",
-    "abstract"     : "Add 6 new antennas for CommNet, filling a niche in the transmission ranges: direct 5M, relay 25M, relays 7G and 25G, direct and relay 500G.\nAlso include a little plugin, what shows a combinability exponent in the parts' panel (VAB/SPH).",
     "license"      : "GPL-3.0",
     "release_status" : "stable",
     "$vref" : "#/ckan/ksp-avc",

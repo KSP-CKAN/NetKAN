@@ -4,7 +4,6 @@
     "$kref"        : "#/ckan/github/yalov/SpeedUnitAnnex",
     "name"         : "Speed Unit Annex",
     "author"       : "flart",
-    "abstract"     : "Add (annex) some new speed unit and helpful value to the navball's top line, depending from navball mode and vesselType.",
     "license"      : "GPL-3.0",
     "release_status" : "stable",
     "$vref" : "#/ckan/ksp-avc",
