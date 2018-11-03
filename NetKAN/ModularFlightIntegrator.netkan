@@ -11,8 +11,6 @@
         "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/106369-122-modularflightintegrator-124-131-march-23th/",
         "repository": "https://github.com/sarbian/ModularFlightIntegrator"
     },
-    "ksp_version_min": "1.4.0",
-    "ksp_version_max": "1.4.90",
     "install": [
         {
             "find": "ModularFlightIntegrator",
