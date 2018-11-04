@@ -2,7 +2,7 @@
     "spec_version"   : 1,
     "name"           : "Extraplanetary Launchpads",
     "$kref"          : "#/ckan/ksp-avc/http://taniwha.org/~bill/EL.version",
-    "$vref"          : "#/ckan/ksp-avc/ExtraplanetaryLaunchpads/Plugins/EL.version",
+    "$vref"          : "#/ckan/ksp-avc/ExtraplanetaryLaunchpads/Plugins/ExtraplanetaryLaunchpads.version",
     "abstract"       : "Adds the ability to build crafts in flight mode to your game.",
     "identifier"     : "ExtraPlanetaryLaunchpads",
     "author"         : "taniwha",
