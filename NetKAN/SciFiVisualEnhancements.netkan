@@ -10,6 +10,8 @@
     "resources": {
         "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/151190-*"
     },
+    "provides":  [            "EnvironmentalVisualEnhancements-Config"   ],
+    "conflicts": [ { "name" : "EnvironmentalVisualEnhancements-Config" } ],
     "depends": [
         { "name": "EnvironmentalVisualEnhancements" }
     ],
