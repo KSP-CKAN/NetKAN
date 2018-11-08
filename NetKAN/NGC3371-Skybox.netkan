@@ -1,0 +1,14 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "NGC3371-Skybox",
+    "$kref":        "#/ckan/spacedock/1993",
+    "license":      "GPL-3.0",
+    "ksp_version":  "any",
+    "install": [ {
+        "find":       "TextureReplacer",
+        "install_to": "GameData"
+    } ],
+    "depends": [
+        { "name": "TextureReplacer" }
+    ]
+}
