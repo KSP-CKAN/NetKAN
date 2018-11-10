@@ -25,19 +25,19 @@
     ],
     "recommends": [
         { "name"        : "PatchManager"             },
-        { "name"        : "InterstellarFuelSwitch"   },
-        { "name"        : "KerbalJointReinforcement" },
-        { "name"        : "PersistentRotation"       }, 
+        { "name"        : "InterstellarFuelSwitch"   },        
+        { "name"        : "PersistentRotation"       },
+        { "name"        : "FilterExtensions"         },
         { "name"        : "PhotonSailor"             },
-        { "name"        : "BetterBurnTime"           }
+        { "name"        : "BetterBurnTime"           },
+        { "name"        : "HideEmptyTechNodes"       }
     ],
     "suggests": [
         { "name"        : "CommunityResourcePack"    },
-        { "name"        : "CommunityTechTree"        },
-        { "name"        : "FilterExtensions"         }, 
+        { "name"        : "CommunityTechTree"        },         
         { "name"        : "HeatControl"              },
         { "name"        : "TexturesUnlimited"        },
         { "name"        : "UniversalStorage"         },
-        { "name"        : "HideEmptyTechNodes"       }
+        { "name"        : "KerbalJointReinforcement" }
     ]
 }
