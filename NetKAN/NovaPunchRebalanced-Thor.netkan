@@ -1,23 +1,22 @@
 {
-  "license": "CC-BY-SA-4.0",
-  "identifier": "NovaPunchRebalanced-Thor",
-  "x_via": "Automated Linuxgurugamer CKAN script",
-  "$kref": "#/ckan/spacedock/2003",
-  "$vref": "#/ckan/ksp-avc",
+  "spec_version": "v1.4",
+  "identifier":   "NovaPunchRebalanced-Thor",
+  "license":      "CC-BY-SA-4.0",
+  "$kref":        "#/ckan/spacedock/2003",
+  "$vref":        "#/ckan/ksp-avc",
+  "x_via":        "Automated Linuxgurugamer CKAN script",
   "resources": {
-    "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/178797-14x-novapunch-rebalanced-out-of-beta/",
+    "homepage":   "https://forum.kerbalspaceprogram.com/index.php?/topic/178797-14x-novapunch-rebalanced-out-of-beta/",
     "repository": "https://github.com/linuxgurugamer/NovaPunch/"
   },
   "depends": [
-    {
-      "name": "ModuleManager"
-    }
+    { "name": "ModuleManager"       },
+    { "name": "NovaPunchRebalanced" }
   ],
   "install": [
     {
-      "find": "NovaPunch/Thor",
-      "install_to": "GameData"    }
-  ],
-  "requires": [ "NovaPunchRebalanced" ],
-  "spec_version": "v1.4"
+      "find":       "NovaPunch/Thor",
+      "install_to": "GameData/NovaPunch"
+    }
+  ]
 }
