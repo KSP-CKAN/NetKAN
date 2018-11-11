@@ -1,11 +1,12 @@
 {
-  "license": "CC-BY-SA-4.0",
-  "identifier": "NovaPunchRebalanced",
-  "x_via": "Automated Linuxgurugamer CKAN script",
-  "$kref": "#/ckan/spacedock/2003",
-  "$vref": "#/ckan/ksp-avc",
+  "spec_version": "v1.4",
+  "identifier":   "NovaPunchRebalanced",
+  "license":      "CC-BY-SA-4.0",
+  "x_via":        "Automated Linuxgurugamer CKAN script",
+  "$kref":        "#/ckan/spacedock/2003",
+  "$vref":        "#/ckan/ksp-avc",
   "resources": {
-    "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/178797-14x-novapunch-rebalanced-out-of-beta/",
+    "homepage":   "https://forum.kerbalspaceprogram.com/index.php?/topic/178797-14x-novapunch-rebalanced-out-of-beta/",
     "repository": "https://github.com/linuxgurugamer/NovaPunch/"
   },
   "depends": [
@@ -15,17 +16,14 @@
   ],
   "install": [
     {
-      "find": "NovaPunch",
+      "find":       "NovaPunch",
       "install_to": "GameData",
-	  "filter" : [ "Freyja" ],
-	  "filter" : [ "Odin" ],
-	  "filter" : [ "Thor" ]
+      "filter":     [ "Freyja", "Odin", "Thor" ]
     }
   ],
   "recommends": [
-	{ "name": "NovaPunchRebalanced-Thor" },
-	{ "name": "NovaPunchRebalanced-Freyja" },
-	{ "name": "NovaPunchRebalanced-Odin" }
-  ],
-  "spec_version": "v1.4"
+    { "name": "NovaPunchRebalanced-Freyja" },
+    { "name": "NovaPunchRebalanced-Odin"   },
+    { "name": "NovaPunchRebalanced-Thor"   }
+  ]
 }
