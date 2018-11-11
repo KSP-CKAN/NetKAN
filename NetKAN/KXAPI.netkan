@@ -5,7 +5,7 @@
     "author"       : "Katateochi",
     "license"      : "CC-BY-NC-ND-4.0",
     "abstract"     : "KXAPI (KerbalX API) is a dependency for other mods to enable them to access the KerbalX.com API",
-    "min_ksp_version"  : "1.4",
+    "ksp_version_min"  : "1.4",
     "x_netkan_override": [ {
         "version":  "<1.1.0",
         "override": {
