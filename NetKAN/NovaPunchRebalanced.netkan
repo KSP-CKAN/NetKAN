@@ -1,0 +1,31 @@
+{
+  "license": "CC-BY-SA-4.0",
+  "identifier": "NovaPunchRebalanced",
+  "x_via": "Automated Linuxgurugamer CKAN script",
+  "$kref": "#/ckan/spacedock/2003",
+  "$vref": "#/ckan/ksp-avc",
+  "resources": {
+    "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/178797-14x-novapunch-rebalanced-out-of-beta/",
+    "repository": "https://github.com/linuxgurugamer/NovaPunch/"
+  },
+  "depends": [
+    {
+      "name": "ModuleManager"
+    }
+  ],
+  "install": [
+    {
+      "find": "NovaPunch",
+      "install_to": "GameData",
+	  "filter" : [ "Freyja" ],
+	  "filter" : [ "Odin" ],
+	  "filter" : [ "Thor" ],
+    }
+  ],
+  "recommends": [
+	{ "name": "NovaPunchRebalanced-Thor" },
+	{ "name": "NovaPunchRebalanced-Freyja" },
+	{ "name": "NovaPunchRebalanced-Odin" }
+  ],
+  "spec_version": "v1.4"
+}
