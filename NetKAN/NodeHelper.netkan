@@ -1,0 +1,14 @@
+{
+  "license": "CC-BY-NC-SA-4.0",
+  "identifier": "NodeHelper",
+  "x_via": "Automated Linuxgurugamer CKAN script",
+  "$kref": "#/ckan/github/linuxgurugamer/NodeHelper/releases",
+  "$vref": "#/ckan/ksp-avc",
+  "install": [
+    {
+      "find": "NodeHelper",
+      "install_to": "GameData"
+    }
+  ],
+  "spec_version": "v1.4"
+}
