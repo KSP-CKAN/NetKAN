@@ -1,0 +1,18 @@
+{
+  "license": "CC-BY-NC-ND-4.0",
+  "identifier": "RealisticAtmo",
+  "x_via": "Automated Linuxgurugamer CKAN script",
+  "$kref": "#/ckan/github/OhioBob/Realistic-Atmospheres",
+  "$vref": "#/ckan/ksp-avc",
+  "depends": [
+    { "name": "ModuleManager" },
+    { "name": "Kopernicus" }
+  ],
+  "install": [
+    {
+      "install_to": "GameData",
+      "find": "RealisticAtmospheres"
+    }
+  ],
+  "spec_version": "v1.4"
+}
