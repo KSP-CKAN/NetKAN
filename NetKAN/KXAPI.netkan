@@ -14,7 +14,9 @@
         }
     } ],
     "resources": {
-        "homepage": "https://KerbalX.com/KXAPI"
+        "homepage"  : "https://KerbalX.com/KXAPI",
+        "bugtracker": "https://github.com/Sujimichi/KXAPI/issues",
+        "repository": "https://github.com/Sujimichi/KXAPI"
     }
 }
 
