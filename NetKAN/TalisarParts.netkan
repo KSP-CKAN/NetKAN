@@ -3,7 +3,7 @@
     "identifier":      "TalisarParts",
     "name":            "Talisar Parts",
     "abstract":        "Update of Talisar's Spherical and Toroidal Tanks pack",
-    "author":          "taniwha",
+    "author":          [ "Talisar", "Olympic1", "taniwha" ],
     "$kref":           "#/ckan/http/http://taniwha.org/~bill/TalisarParts-1.2.1.zip",
     "license":         "CC-BY-SA-3.0",
     "version":         "v1.2.1",
