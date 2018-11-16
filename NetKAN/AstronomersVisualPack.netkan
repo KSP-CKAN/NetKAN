@@ -2,28 +2,31 @@
     "spec_version" : 1,
     "identifier"   : "AstronomersVisualPack",
 	"name"         : "Astronomer's Visual Pack",
-	"abstract"     : "Revival of the total visual overhaul for Kerbal Space Program by Astronomer.",
+	"abstract"     : "The total visual overhaul for Kerbal Space Program, originally by Astronomer.",
     "$kref"        : "#/ckan/github/themaster402/AstronomersVisualPack/asset_match/AVP.v.*.zip",
     "$vref"        : "#/ckan/ksp-avc",
     "x_netkan_trust_version_file" : true,
     "x_netkan_epoch" : 1,
-    "license"      : "LGPL-3.0",
+    "license"      : "CC-BY-NC-SA-4.0",
     "resources": {
         "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/160878-*"
 	},
     "depends" : [
+        { "name": "EnvironmentalVisualEnhancements" },
+	{ "name": "Scatterer" },
         { "name": "ModuleManager" },
         { "name": "AVP-Textures" },
-        { "name": "Kopernicus" },
-        { "name": "Scatterer" },
-        { "name": "LoadingScreenManager" },
-        { "name": "EnvironmentalVisualEnhancements" }
+        { "name": "TextureReplacer" }
     ],
     "recommends" : [
         { "name": "DistantObject" },
         { "name": "PlanetShine" },
-        { "name": "Chatterer" },
-        { "name": "TextureReplacer"}
+        { "name": "LoadingScreenManager" }
+    ],
+    "suggests" : [
+        { "name": "KS3P" },
+        { "name": "Kopernicus" },
+	{ "name": "Chatterer" }
     ],
     "provides" : [
         "EnvironmentalVisualEnhancements-Config"

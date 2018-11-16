@@ -8,6 +8,24 @@
     "depends" : [
         { "name" : "ModuleManager", "min_version" : "2.6.2" }
     ],
+    "supports" : [
+        { "name" : "AlcubierreStandalone" },
+        { "name" : "CryoEngines" },
+        { "name" : "KerbalAtomics" },
+        { "name" : "KSPInterstellarExtended" },
+        { "name" : "ModularRocketSystem" },
+        { "name" : "ModularRocketSystemLITE" },
+        { "name" : "NearFuturePropulsion" },
+        { "name" : "NearFutureElectrical" },
+        { "name" : "NearFutureSolar" },
+        { "name" : "NearFutureConstruction" },
+        { "name" : "NearFutureSpacecraft" },
+        { "name" : "NearFutureLaunchVehicles" },
+        { "name" : "StationPartsExpansionRedux" },
+        { "name" : "SpaceY-Lifters" },
+        { "name" : "USI-LS" },
+        { "name" : "UKS" }
+    ],
     "conflicts" : [
         { "name" : "ModOrientedTechTree" },
         { "name" : "ModOrientedTechTree-Unmanned" }

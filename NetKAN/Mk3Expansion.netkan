@@ -6,15 +6,20 @@
     "depends": [
         { "name": "ModuleManager" },
         { "name": "CommunityResourcePack" },
-        { "name": "InterstellarFuelSwitch-Core" }
-],
-    "suggests": [
-    { "name": "FerramAerospaceResearch" }
+        { "name": "B9PartSwitch" }
     ],
     "install" : [
         {
             "find"       : "GameData/Mk3Expansion",
             "install_to" : "GameData"
-        }
+        },
+        {
+            "find"        : "VAB",
+            "install_to"  : "Ships"
+        },
+        {
+            "find"        : "SPH",
+            "install_to"  : "Ships"
+}
     ]
 }

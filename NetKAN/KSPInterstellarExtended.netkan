@@ -19,25 +19,25 @@
         }
     ],
     "depends": [
-        { "name"        : "CommunityResourcePack",       "min_version" : "0.7.1"   },
-        { "name"        : "CommunityTechTree",           "min_version" : "1:3.2.0" },
-        { "name"        : "InterstellarFuelSwitch-Core", "min_version" : "2.9.5"   },
-        { "name"        : "TweakScale",                  "min_version" : "2.3.3"   },
-        { "name"        : "ModuleManager",               "min_version" : "2.8.1"   }
+        { "name"        : "InterstellarFuelSwitch-Core"},
+        { "name"        : "TweakScale"                 },
+        { "name"        : "ModuleManager"              }
     ],
     "recommends": [
         { "name"        : "PatchManager"             },
-        { "name"        : "InterstellarFuelSwitch"   },
-        { "name"        : "KerbalJointReinforcement" },
-        { "name"        : "PersistentRotation"       }, 
+        { "name"        : "InterstellarFuelSwitch"   },        
+        { "name"        : "PersistentRotation"       },
+        { "name"        : "FilterExtensions"         },
         { "name"        : "PhotonSailor"             },
-        { "name"        : "BetterBurnTime"           }
+        { "name"        : "BetterBurnTime"           },
+        { "name"        : "HideEmptyTechNodes"       }
     ],
     "suggests": [
-        { "name"        : "FilterExtensions"         }, 
+        { "name"        : "CommunityResourcePack"    },
+        { "name"        : "CommunityTechTree"        },         
         { "name"        : "HeatControl"              },
         { "name"        : "TexturesUnlimited"        },
         { "name"        : "UniversalStorage"         },
-        { "name"        : "HideEmptyTechNodes"       }
+        { "name"        : "KerbalJointReinforcement" }
     ]
 }

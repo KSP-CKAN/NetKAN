@@ -2,9 +2,9 @@
     "spec_version": "v1.4",
     "identifier": "KerbalAtomics",
     "$kref": "#/ckan/spacedock/710",
-    "$vref": "#/ckan/ksp-avc",
+    "$vref": "#/ckan/ksp-avc/KerbalAtomics.version",
     "x_netkan_epoch": 1,
-    "name": "Kerbal Atomics",    
+    "name": "Kerbal Atomics",
     "license": "CC-BY-NC-SA-4.0",
     "depends": [
         { "name" : "B9PartSwitch" },

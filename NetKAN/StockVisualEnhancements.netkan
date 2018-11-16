@@ -4,11 +4,14 @@
     "$vref"          : "#/ckan/ksp-avc",
     "identifier"     : "StockVisualEnhancements",
     "name"           : "Stock Visual Enhancements",
-    "abstract"       : "A visual enhancement pack using EVE and Scatterer for the stock planets. ",
+    "abstract"       : "A visual enhancement pack using EVE and Scatterer for the stock planets.",
     "license"        : "CC-BY-NC-SA",
     "release_status" : "stable",
     "x_netkan_epoch" : "3",
     "x_netkan_staging": true,
+    "resources" : {
+        "homepage"     : "https://forum.kerbalspaceprogram.com/index.php?/topic/143288-*"
+    },
     "provides": [
         "EnvironmentalVisualEnhancements-Config"
      ],

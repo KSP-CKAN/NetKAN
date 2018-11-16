@@ -6,6 +6,9 @@
     "name": "Distant Object Enhancement",
     "abstract": "Visual enhancement mod that makes objects realistically visible over large distances.",
     "license": "CC-BY-4.0",
+    "resources" : {
+        "homepage"     : "https://forum.kerbalspaceprogram.com/index.php?/topic/89214-*"
+    },
     "depends": [
         {
             "name": "DistantObject-config"
