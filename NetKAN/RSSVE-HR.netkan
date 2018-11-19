@@ -10,15 +10,23 @@
         "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/153511-rssve",
         "repository": "https://github.com/PhineasFreak/RSSVE"
     },
-    "provides": [ "RSSVE-Textures" ],
+    "provides": [
+        "EnvironmentalVisualEnhancements-Config",
+        "RSSVE-Textures",
+        "Scatterer-config",
+        "Scatterer-sunflare"
+    ],
     "conflicts": [
-        { "name": "RSSVE-Textures" }
+        { "name": "EnvironmentalVisualEnhancements-Config" },
+        { "name": "RSSVE-Textures" },
+        { "name": "Scatterer-config" },
+        { "name": "Scatterer-sunflare" }
     ],
     "depends": [
         { "name": "ModuleManager" },
         { "name": "EnvironmentalVisualEnhancements" },
         { "name": "RealSolarSystem" },
-        { "name": "Scatterer"}
+        { "name": "Scatterer", "version": "2:v0.0320b" }
     ],
     "recommends": [
         { "name": "DistantObjectEnhancement" },
