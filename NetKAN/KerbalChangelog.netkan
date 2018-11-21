@@ -3,8 +3,8 @@
     "identifier"   : "KerbalChangelog",
     "$kref"        : "#/ckan/github/BenjaminCronin/KerbalChangelog",
     "license"      : "MIT",
-	"$vref" : "#/ckan/ksp-avc"
+    "$vref"        : "#/ckan/ksp-avc",
     "resources": {
-        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/179207-14x-15x-kerbal-changelog-v111-102718/"
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/179207-*"
     }
 }
