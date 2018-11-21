@@ -1,0 +1,10 @@
+{
+    "spec_version" : 1,
+    "identifier"   : "KerbalChangelog",
+    "$kref"        : "#/ckan/github/BenjaminCronin/KerbalChangelog",
+    "license"      : "MIT",
+    "$vref"        : "#/ckan/ksp-avc",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/179207-*"
+    }
+}
