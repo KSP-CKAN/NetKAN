@@ -7,7 +7,7 @@
   "depends": [
     { "name": "ModuleManager" }
   ],
-  "recommends" : [ { "name" : "FMRS" },
+  "recommends" : [ { "name" : "FMRSContinued" },
                    { "name" : "KerbalJointReinforcement" },
                    { "name" : "AntennaRange" },
                    { "name" : "ProceduralFairings" },
