@@ -6,19 +6,15 @@
     "abstract"     : "A ScrapYard based Part Failure and Reliability Mod",
     "license"      : "MIT",
     "$vref"        : "#/ckan/ksp-avc",
-
     "depends" : [
-        {
-            "name" : "ScrapYard"
-        },
+        { "name" : "ScrapYard" },
         { "name" : "ModuleManager" },
-	{ "name" : "KerbalChangelog" }
+        { "name" : "KerbalChangelog" }
     ],
-	
-	    "recommends"	: [
+    "recommends" : [
         { "name": "KerbalConstructionTime" },
-        { "name": "StageRecovery" }],
-	
+        { "name": "StageRecovery" }
+    ],
     "install" : [
         {
             "find" : "OhScrap",
@@ -29,6 +25,3 @@
         "homepage" : "https://forum.kerbalspaceprogram.com/index.php?/topic/160854-OhScrap"
     }
 }
-
-
- 
