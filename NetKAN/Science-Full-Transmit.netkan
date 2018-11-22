@@ -1,0 +1,20 @@
+{
+    "spec_version" : 1,
+    "identifier"   : "Science-Full-Transmit",
+    "name"         : "Science Full Transmit",
+    "author"       : "Tekaoh",
+    "$kref"        : "#/ckan/github/mylesmarkevich/KSP-Science-Full-Transmit",
+    "license"      : "MIT",
+    "ksp_version"  : "1.5.9",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/180005-15x-science-full-transmit/"
+    },
+    "depends": [
+        { "name": "ModuleManager" }
+    ],
+    "suggests": [
+        { "name": "xScience" },
+        { "name": "NMSG" },
+        { "name": "ContractConfigurator-FieldResearch" },
+    ],
+}
