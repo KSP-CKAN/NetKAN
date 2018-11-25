@@ -1,0 +1,29 @@
+{
+    "spec_version" : 1,
+    "identifier"   : "TerrasIgnotas",
+    "$kref"        : "#/ckan/github/KSP-DDR/Terras-Ignotas",
+	"$vref" 	   : "#/ckan/ksp-avc",
+    "license"      : "MIT",
+	"name"		   : "Terras Ignotas",
+	"version"	   : "0.1.1",
+	"author"	   : "DeltaDizzy, NickRoss120, Mrcarrot",
+	"abstract"	   : "The Full version of Terras Ignotas. If you don't want all of it, delete the ones you dont want after installing the mod. A simpler solution is to download them from GitHub.",
+    "install": [
+        {
+            "file"       : "GameData/TerrasIgnotas/",
+            "install_to" : "GameData/"
+        }
+    ],	
+	"depends": [
+		{ "name": "ModuleManager"},
+		{ "name": "Kopernicus"}
+	],
+	"suggests": [
+		{ "name": "AlcubierreStandalone"},
+		{ "name": "TimeControl"}
+	],
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/179652-wip13x-15x-terras-ignotas-v011-open-alpha-bohr"
+    }
+	
+}
