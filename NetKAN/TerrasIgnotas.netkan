@@ -9,7 +9,8 @@
     "install": [
         {
             "file"       : "GameData/TerrasIgnotas",
-            "install_to" : "GameData"
+            "install_to" : "GameData",
+            "filter"     : [ "Flags" ]
         }
     ],	
     "depends": [
