@@ -5,5 +5,9 @@
     "license"      : "GPL-3.0",
     "depends": [
         { "name": "ModuleManager" }
-    ]
+    ],
+    "install": [ {
+        "find":       "Kunedo",
+        "install_to": "GameData"
+    } ]
 }
