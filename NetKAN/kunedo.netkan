@@ -3,8 +3,6 @@
     "identifier"   : "Kunedo",
     "$kref"        : "#/ckan/spacedock/2020",
     "license"      : "GPL-3.0",
-    "x_netkan_license_ok" : true,
-    "ksp_version" : "1.5.1",	
     "depends": [
         { "name": "ModuleManager" }
     ]
