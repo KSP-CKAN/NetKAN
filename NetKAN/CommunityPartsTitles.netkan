@@ -21,6 +21,7 @@
             { "name": "FuelTanksPlus" },
             { "name": "SpaceY-Lifters" },
             { "name": "SpaceY-Expanded" },
+            { "name": "BetterSRBs" },
 
             { "name": "StationPartsExpansionRedux" },
 
@@ -30,7 +31,7 @@
             { "name": "NearFutureSolar" },
             { "name": "NearFutureSpacecraft" },
             { "name": "NearFutureLaunchVehicles" },
-            { "name": "NearFutureConstrustion" }, 
+            { "name": "NearFutureConstruction" }, 
             { "name": "KerbalAtomics" },
             { "name": "CryoEngines" },
             { "name": "CryoTanks" },
@@ -43,9 +44,9 @@
 
             { "name": "Mk2Expansion" },
             { "name": "KerbalAircraftExpansion" },
-
             { "name": "AirplanePlus" },
             { "name": "MK1StkOpenCockpit" },
+            { "name": "Kerbonov" },
 
             { "name": "CommNetAntennasExtension" },
             { "name": "JX2Antenna" },
