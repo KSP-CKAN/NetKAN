@@ -7,7 +7,7 @@
     "license"      : "MIT",
     "ksp_version"  : "1.5.9",
     "resources": {
-        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/180005-15x-science-full-transmit/"
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/180005-*"
     },
     "depends": [
         { "name": "ModuleManager" }
