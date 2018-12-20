@@ -15,7 +15,7 @@
         "repository": "https://github.com/sarbian/ModuleManager"
     },
     "ksp_version_min": "1.4.0",
-    "ksp_version_max": "1.5.90",
+    "ksp_version_max": "1.6.90",
     "install": [
         {
             "find_regexp": "ModuleManager.*\\.dll$",
