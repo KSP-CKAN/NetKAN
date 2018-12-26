@@ -1,18 +1,10 @@
 {
     "spec_version": 1,
-    "identifier": "DiscordRP",
-    "abstract": "DiscordRP introduces Rich Presence integration for KSP.",
-    "$kref": "#/ckan/curse/283006",
-    "license": "MIT",
+    "identifier":   "DiscordRP",
+    "abstract":     "DiscordRP introduces Rich Presence integration for KSP",
+    "$kref":        "#/ckan/curse/283006",
+    "license":      "MIT",
     "resources": {
-        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/168196-14-discordrp-rich-presence-integration/"
-    },
-    "x_netkan_override": [ {
-        "version": "1.0.3",
-        "delete": [ "ksp_version" ],
-        "override": {
-            "ksp_version_min": "1.2",
-            "ksp_version_max": "1.4"
-        }
-    } ]
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/168196-*"
+    }
 }
