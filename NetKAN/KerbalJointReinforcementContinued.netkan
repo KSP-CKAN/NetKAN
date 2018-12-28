@@ -1,5 +1,5 @@
 {
-    "spec_version"   : 1,
+    "spec_version"   : "v1.4",
     "identifier"     : "KerbalJointReinforcementContinued",
     "$kref"          : "#/ckan/github/KSP-RO/Kerbal-Joint-Reinforcement-Continued",
     "$vref"          : "#/ckan/ksp-avc",
@@ -17,6 +17,15 @@
                 "ksp_version_max" : "1.0.5"
             }
         }
+    ],
+	"install"       : [
+        {
+            "find"      : "KerbalJointReinforcement",
+            "install_to": "GameData"
+        },
+    ],
+	"conflicts"     : [
+        { "name"    : "KerbalJointReinforcement" }
     ],
     "resources": {
         "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/50911-13-kerbal-joint-reinforcement-v333-72417/",
