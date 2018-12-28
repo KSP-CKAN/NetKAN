@@ -24,6 +24,7 @@
             "install_to": "GameData"
         }
     ],
+    "provides"      : [ "KerbalJointReinforcement" ],
     "conflicts"     : [
         { "name"    : "KerbalJointReinforcement" }
     ],
