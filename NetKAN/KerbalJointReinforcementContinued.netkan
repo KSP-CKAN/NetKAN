@@ -18,17 +18,17 @@
             }
         }
     ],
-	"install"       : [
+    "install"       : [
         {
             "find"      : "KerbalJointReinforcement",
             "install_to": "GameData"
-        },
+        }
     ],
-	"conflicts"     : [
+    "conflicts"     : [
         { "name"    : "KerbalJointReinforcement" }
     ],
     "resources": {
-        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/50911-13-kerbal-joint-reinforcement-v333-72417/",
+        "homepage":  "https://forum.kerbalspaceprogram.com/index.php?/topic/50911-*",
         "repository": "https://github.com/KSP-RO/Kerbal-Joint-Reinforcement-Continued"
     }
 }
