@@ -6,8 +6,8 @@
     "author"         : "jfrouleau",
     "$kref"          : "#/ckan/github/jfrouleau/PreciseEditor",
     "license"        : "GPL-3.0",
-    "release_status" : "testing",
-    "ksp_version"    : "1.5.1",
+    "release_status" : "stable",
+    "ksp_version"    : "1.6.0",
     "resources"      : {
         "homepage"   : "https://github.com/jfrouleau/PreciseEditor",
         "repository" : "https://github.com/jfrouleau/PreciseEditor"
