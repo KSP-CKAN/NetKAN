@@ -18,7 +18,8 @@
         { "name": "ModuleManager" }
     ],
     "recommends": [
-        { "name": "CommunityPartsTitles" }
+        { "name": "CommunityPartsTitles" },
+        { "name": "CommNetAntennasInfo" }
     ],
     "suggests": [
         { "name": "SpeedUnitAnnex" }
