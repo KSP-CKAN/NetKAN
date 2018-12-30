@@ -1,0 +1,20 @@
+{
+    "spec_version" : 1,
+    "identifier"   : "RemoteTechStockConfigs",
+    "$kref"        : "#/ckan/github/woeller/RemoteTech-StockConfigs",
+	"$vref": "#/ckan/ksp-avc/RTstock.version",
+    "license"      : "MIT",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/180968-16-remotetech-stockconfigs-v1002018-12-29/&tab=comments#comment-3512923"
+    },
+	    "depends": [
+		{ "name": "RemoteTech" },
+        { "name": "ModuleManager" }
+    ],
+	    "install" : [
+        {
+            "file":        "GameData/RTStock",
+            "install_to" : "GameData"
+        }
+]
+}
