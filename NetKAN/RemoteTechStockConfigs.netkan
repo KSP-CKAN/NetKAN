@@ -3,7 +3,7 @@
     "identifier"   : "RemoteTechStockConfigs",
     "abstract"     : "Adds ground stations compatible with Remote Tech in the locations of the stock dishes",
     "$kref"        : "#/ckan/github/woeller/RemoteTech-StockConfigs",
-    "$vref"        : "#/ckan/ksp-avc/RTstock.version",
+    "$vref"        : "#/ckan/ksp-avc",
     "license"      : "MIT",
     "resources": {
         "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/180968-16-remotetech-stockconfigs-v1002018-12-29/&tab=comments#comment-3512923"
