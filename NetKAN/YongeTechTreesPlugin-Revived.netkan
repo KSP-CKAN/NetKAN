@@ -2,6 +2,7 @@
     "spec_version" : "v1.4",
     "identifier"   : "YongeTechTreesPlugin-Revived",
     "$kref"        : "#/ckan/spacedock/1526",
+    "$vref"        : "#/ckan/ksp-avc",
     "author"       : [ "yongedevil", "linuxgurugamer" ],
     "name"         : "YongeTech Tech Trees Plugin Revived",
     "x_netkan_epoch"   : 1,
