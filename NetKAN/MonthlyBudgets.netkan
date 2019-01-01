@@ -6,7 +6,11 @@
     "abstract"     : "Allocates monthly budgets to your career mode games",
     "license"      : "MIT",
     "$vref"        : "#/ckan/ksp-avc",
-    
+
+    "depends" : [
+        { "name" : "KerbalChangelog" }
+    ],    
+
 "recommends": [
         { "name": "KerbalConstructionTime" }
     ],
