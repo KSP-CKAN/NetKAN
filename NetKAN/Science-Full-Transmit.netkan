@@ -1,12 +1,12 @@
 {
     "spec_version"     : 1,
     "identifier"       : "Science-Full-Transmit",
-    "name"             : "Science Full Transmit",
+    "name"             : "Science - Full Transmit!",
     "author"           : "Tekaoh",
-    "$kref"            : "#/ckan/github/mylesmarkevich/KSP-Science-Full-Transmit",
+    "$kref"            : "#/ckan/github/Tekaoh/KSP-Science-Full-Transmit",
     "license"          : "MIT",
     "ksp_version_min"  : "1.4.0",
-    "ksp_version_max"  : "1.5.9",
+    "ksp_version_max"  : "1.6.9",
     "resources": {
         "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/180005-*"
     },
