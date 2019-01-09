@@ -8,6 +8,7 @@
     "author"         : [ "ferram4", "Starwaster" ],
     "license"        : "GPL-3.0",
     "release_status" : "stable",
+	"provides"  : [ "KJR" ],
     "x_netkan_override" : [
         {
             "version" : "v3.1.4",
