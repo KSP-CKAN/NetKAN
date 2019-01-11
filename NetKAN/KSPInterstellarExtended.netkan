@@ -3,7 +3,6 @@
     "identifier"        : "KSPInterstellarExtended",
     "$kref"             : "#/ckan/spacedock/172",
     "$vref"             : "#/ckan/ksp-avc",
-    "x_netkan_staging"  : true,
     "resources": {
         "homepage":   "https://forum.kerbalspaceprogram.com/index.php?/topic/172026-*",
         "repository": "https://github.com/sswelm/KSP-Interstellar-Extended"

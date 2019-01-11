@@ -1,0 +1,13 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "MilkyWay-Skybox",
+    "$kref":        "#/ckan/spacedock/2004",
+    "license":      "CC-BY-NC-ND-4.0",
+    "depends": [
+        { "name": "TextureReplacer" }
+    ],
+    "install": [ {
+        "find":       "Default",
+        "install_to": "GameData/TextureReplacer"
+    } ]
+}

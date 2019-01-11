@@ -1,13 +1,13 @@
 {
     "spec_version": "v1.16",
-    "$kref": "#/ckan/spacedock/1347",
-    "license": "restricted",
-    "resources": {
-        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/160099-122-kerbin-side-continued/"
-    },
-    "identifier": "KerbinSide",
-    "$vref": "#/ckan/ksp-avc",
+    "identifier":   "KerbinSide",
+    "$kref":        "#/ckan/spacedock/1347",
+    "$vref":        "#/ckan/ksp-avc",
+    "license":      "restricted",
     "x_netkan_epoch" : "3",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/160099-*"
+    },
     "install": [
         {
             "find"       : "MainBases",
@@ -15,6 +15,14 @@
         },
         {
             "find"       : "GroundControl",
+            "install_to" : "GameData/KerbinSide"
+        },
+        {
+            "find"       : "Centers",
+            "install_to" : "GameData/KerbinSide"
+        },
+        {
+            "find"       : "FreeAssets",
             "install_to" : "GameData/KerbinSide"
         },
         {

@@ -2,6 +2,7 @@
     "spec_version" :"v1.4",
     "identifier"   : "EngineIgnitorReignited",
     "$kref"        : "#/ckan/spacedock/1639",
+    "$vref"        : "#/ckan/ksp-avc",
     "license"      : "CC-BY-SA",
     "name"         : "Engine Ignitor (standalone)",
     "abstract"     : "Adding  ignitors service to engines.",
