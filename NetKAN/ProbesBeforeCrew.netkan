@@ -1,0 +1,46 @@
+{
+  "spec_version": "v1.4",
+  "install": [
+    {
+      "install_to": "GameData",
+      "find": "ProbesBeforeCrew"
+    }
+  ],
+  "depends": [
+    {
+      "name": "ModuleManager"
+    },
+    {
+      "name": "CommunityTechTree"
+    }
+  ],
+  "supports": [
+    {
+      "name": "DMagicOrbitalScience"
+    },
+    {
+      "name": "UniversalStorage2"
+    },
+    {
+      "name": "kOS"
+    },
+    {
+      "name": "TACLS"
+    },
+    {
+      "name": "SCANsat"
+    },
+    {
+      "name": "StationPartsExpansionRedux"
+    },
+    {
+      "name": "MissingHistory"
+    },
+    {
+      "name": "RemoteTech"
+    }
+  ],
+  "$kref": "#/ckan/spacedock/2043",
+  "identifier": "ProbesBeforeCrew",
+  "license": "MIT"
+}
