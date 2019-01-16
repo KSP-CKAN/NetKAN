@@ -9,7 +9,7 @@
   "depends": [
     { "name": "BDAnimationModules" },
     { "name": "ModuleManager" },
-    { "name": "InterstellarFuelSwitch" }
+    { "name": "InterstellarFuelSwitch-Core" }
   ],
   "x_netkan_epoch": "1",
   "$vref": "#/ckan/ksp-avc",
