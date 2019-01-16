@@ -1,9 +1,10 @@
 {
-    "identifier": "SurfaceExperimentPack",
-    "license": "BSD-2-clause",
     "spec_version": "v1.4",
-    "author": [ "AlbertKermin", "CobaltWolf", "DMagic1" ],
-    "$kref": "#/ckan/spacedock/318",
+    "identifier":   "SurfaceExperimentPack",
+    "author":       [ "AlbertKermin", "CobaltWolf", "DMagic1" ],
+    "$kref":        "#/ckan/spacedock/318",
+    "$vref":        "#/ckan/ksp-avc",
+    "license":      "BSD-2-clause",
     "resources": {
         "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/155382-*"
     },
@@ -23,7 +24,7 @@
     ],
     "install": [
         {
-            "find": "SurfaceExperimentPackage",
+            "find":       "SurfaceExperimentPackage",
             "install_to": "GameData"
         }
     ]
