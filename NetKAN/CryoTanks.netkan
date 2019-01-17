@@ -5,7 +5,6 @@
     "name":         "Cryogenic Tanks",
     "$kref":        "#/ckan/github/ChrisAdderley/CryoTanks",
     "$vref":        "#/ckan/ksp-avc/CryoTanks.version",
-    "x_netkan_trust_version_file": true,
     "license":      "CC-BY-NC-SA-4.0",
     "depends": [
         { "name": "ModuleManager"         },
