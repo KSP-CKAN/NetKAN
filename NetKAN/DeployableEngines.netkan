@@ -1,17 +1,19 @@
 {
     "spec_version": "v1.4",
-    "comment": "DeployableEngines does not have its own release. Sourced from the KerbalAtomics archive.",
-    "identifier": "DeployableEngines",
-    "$kref": "#/ckan/spacedock/710",
-    "$vref": "#/ckan/ksp-avc/GameData/KerbalAtomics/Versioning/KerbalAtomics.version",
-    "name": "Deployable Engines Plugin",
-    "abstract": "A plugin to manage extending/retracting engine nozzles.",
-    "license": "CC-BY-NC-SA-4.0",
-    "supports" : [
-        { "name" : "KerbalAtomics" },
-        { "name" : "CryoEngines" }
+    "identifier":   "DeployableEngines",
+    "abstract":     "A plugin to manage extending/retracting engine nozzles",
+    "name":         "Deployable Engines Plugin",
+    "$kref":        "#/ckan/github/ChrisAdderley/DeployableEngines",
+    "$vref":        "#/ckan/ksp-avc/DeployableEngines.version",
+    "license":      "CC-BY-NC-SA-4.0",
+    "supports": [
+        { "name": "KerbalAtomics" },
+        { "name": "CryoEngines"   }
     ],
-    "install" : [
-        { "find" : "DeployableEngines", "install_to" : "GameData" }
+    "install": [
+        {
+            "find":       "DeployableEngines",
+            "install_to": "GameData"
+        }
     ]
 }
