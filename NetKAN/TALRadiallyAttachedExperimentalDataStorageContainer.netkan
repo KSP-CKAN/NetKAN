@@ -1,9 +1,10 @@
 {
     "spec_version": "v1.4",
-    "identifier": "TALRadiallyAttachedExperimentalDataStorageContainer",
-    "$kref": "#/ckan/spacedock/2023",
-    "author": [ "Talisar", "ndiver", "PhantomAerospace" ],
-    "license": "CC-BY-SA-4.0",
+    "identifier":   "TALRadiallyAttachedExperimentalDataStorageContainer",
+    "author":       [ "Talisar", "ndiver", "PhantomAerospace" ],
+    "$kref":        "#/ckan/spacedock/2023",
+    "$vref":        "#/ckan/ksp-avc",
+    "license":      "CC-BY-SA-4.0",
     "install": [
         {
             "find":       "PhantomAerospace",
