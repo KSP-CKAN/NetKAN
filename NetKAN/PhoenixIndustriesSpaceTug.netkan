@@ -1,0 +1,16 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "PhoenixIndustriesSpaceTug",
+    "$kref":        "#/ckan/spacedock/2042",
+    "license":      "CC-BY-4.0",
+    "install": [ {
+        "find":       "IntegratedPhoenixIndustries",
+        "install_to": "GameData"
+    } ],
+    "suggests": [
+        { "name": "BluedogDB"            },
+        { "name": "ConnectedLivingSpace" },
+        { "name": "Snacks"               },
+        { "name": "USI-LS"               }
+    ]
+}
