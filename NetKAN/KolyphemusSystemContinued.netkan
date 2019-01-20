@@ -17,9 +17,11 @@
         { "name": "EnvironmentalVisualEnhancements-Config" }
     ],
     "depends": [
-        { "name": "ModuleManager"                   },
-        { "name": "Kopernicus"                      },
-        { "name": "EnvironmentalVisualEnhancements" },
-        { "name": "Scatterer"                       }
+        { "name": "ModuleManager" },
+        { "name": "Kopernicus"    },
+        { "name": "Scatterer"     }
+    ],
+    "recommends": [
+        { "name": "EnvironmentalVisualEnhancements" }
     ]
 }
