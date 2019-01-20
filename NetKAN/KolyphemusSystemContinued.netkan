@@ -18,10 +18,10 @@
     ],
     "depends": [
         { "name": "ModuleManager" },
-        { "name": "Kopernicus"    },
-        { "name": "Scatterer"     }
+        { "name": "Kopernicus"    }
     ],
     "recommends": [
-        { "name": "EnvironmentalVisualEnhancements" }
+        { "name": "EnvironmentalVisualEnhancements" },
+        { "name": "Scatterer"                       }
     ]
 }
