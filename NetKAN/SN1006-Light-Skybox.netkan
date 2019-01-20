@@ -1,0 +1,13 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "SN1006-Light-Skybox",
+    "$kref":        "#/ckan/spacedock/2037",
+    "license":      "restricted",
+    "depends": [
+        { "name": "TextureReplacer" }
+    ],
+    "install": [ {
+        "find":       "TextureReplacer",
+        "install_to": "GameData"
+    } ]
+}
