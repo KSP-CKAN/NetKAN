@@ -47,7 +47,7 @@
         {
             "version" : [ ">= v1.6.0", "< v2.0.0" ],
             "override" : {
-                "comment": "Match to Custom Asteroids v1.6.0, see NetKAN#3841.",
+                "comment": "Match to Custom Asteroids v1.6.0, see NetKAN#6963.",
                 "ksp_version_min": "1.4.0"
             },
             "delete" : [ "ksp_version" ]
