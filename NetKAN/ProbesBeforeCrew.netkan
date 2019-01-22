@@ -1,46 +1,46 @@
 {
-  "spec_version": "v1.4",
-  "install": [
-    {
-      "install_to": "GameData",
-      "find": "ProbesBeforeCrew"
-    }
-  ],
-  "depends": [
-    {
-      "name": "ModuleManager"
-    },
-    {
-      "name": "CommunityTechTree"
-    }
-  ],
-  "supports": [
-    {
-      "name": "DMagicOrbitalScience"
-    },
-    {
-      "name": "UniversalStorage2"
-    },
-    {
-      "name": "kOS"
-    },
-    {
-      "name": "TACLS"
-    },
-    {
-      "name": "SCANsat"
-    },
-    {
-      "name": "StationPartsExpansionRedux"
-    },
-    {
-      "name": "MissingHistory"
-    },
-    {
-      "name": "RemoteTech"
-    }
-  ],
-  "$kref": "#/ckan/spacedock/2043",
-  "identifier": "ProbesBeforeCrew",
-  "license": "MIT"
+	"spec_version"			: "v1.4",
+	"name"				: "Probes Before Crew [PBC]",
+	"$kref"				: "#/ckan/spacedock/2043",
+	"$vref"				: "#/ckan/ksp-avc/",
+	"identifier"			: "ProbesBeforeCrew",
+	"abstract"			: "Tech tree overhaul that places probes before crew.",
+	"author"			: "_Zee",
+	"license"			: "MIT"
+	
+	"install": [
+		{ "install_to": "GameData",
+		  "find": "ProbesBeforeCrew" }
+	],
+	"depends": [
+		{ "name": "ModuleManager" },
+		{ "name": "CommunityTechTree" }
+	],
+	"suggests": [
+		{ "name": "ContractConfigurator" },
+		{ "name": "Strategia" }
+	],
+	"supports": [
+		{ "name": "DMagicOrbitalScience" },
+		{ "name": "KAS" },
+		{ "name": "KIS" },
+		{ "name": "kOS" },
+		{ "name": "Kerbalism" },
+		{ "name": "MarkIVSpaceplaneSystem" },
+		{ "name": "NearFutureConstruction" },
+		{ "name": "NearFutureElectrical" },
+		{ "name": "NearFutureLaunchVehicles" },
+		{ "name": "NearFutureSolar" },
+		{ "name": "NearFutureSpacecraft" },
+		{ "name": "NearFuturePropulsion" },
+		{ "name": "MissingHistory" },
+		{ "name": "ProbeControlRoom" },
+		{ "name": "RealChute" },
+		{ "name": "RemoteTech" }
+		{ "name": "SCANsat" },
+		{ "name": "StationPartsExpansionRedux" },
+		{ "name": "TACLS" },
+		{ "name": "UniversalStorage2" },
+	],
+
 }
