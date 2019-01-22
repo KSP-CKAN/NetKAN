@@ -1,12 +1,12 @@
 {
-	"spec_version"			: "v1.4",
-	"name"				: "Probes Before Crew [PBC]",
-	"$kref"				: "#/ckan/spacedock/2043",
-	"$vref"				: "#/ckan/ksp-avc/",
-	"identifier"			: "ProbesBeforeCrew",
-	"abstract"			: "Tech tree overhaul that places probes before crew.",
-	"author"			: "_Zee",
-	"license"			: "MIT"
+	"spec_version"		: "v1.4",
+	"name"			: "Probes Before Crew [PBC]",
+	"$kref"			: "#/ckan/spacedock/2043",
+	"$vref"			: "#/ckan/ksp-avc/",
+	"identifier"		: "ProbesBeforeCrew",
+	"abstract"		: "Tech tree overhaul that places probes before crew.",
+	"author"		: "_Zee",
+	"license"		: "MIT",
 	
 	"install": [
 		{ "install_to": "GameData",
