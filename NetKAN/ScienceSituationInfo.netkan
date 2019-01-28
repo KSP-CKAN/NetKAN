@@ -8,7 +8,7 @@
     "license":      "CC-BY-SA",
     "install": [
         {
-            "file":       "SituationModuleInfo",
+            "find":       "SituationModuleInfo",
             "install_to": "GameData"
         }
     ]
