@@ -2,12 +2,13 @@
     "spec_version": "v1.4",
     "identifier":   "ScienceSituationInfo",
     "abstract":     "Extended information about Scientific Experiments in VAB/SPH",
-    "$kref":        "#/ckan/spacedock/1008",
+    "$kref":        "#/ckan/spacedock/2000",
+    "$vref":        "#/ckan/ksp-avc",
     "x_netkan_epoch": 1,
     "license":      "CC-BY-SA",
     "install": [
         {
-            "file":       "OLDD",
+            "find":       "SituationModuleInfo",
             "install_to": "GameData"
         }
     ]
