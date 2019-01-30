@@ -31,6 +31,13 @@
             "override": {
                 "ksp_version_min" : "1.1.3"
             }
+        },
+        {
+            "version": [ ">=v3.9.0.0","<v3.10.0.0" ],
+            "after": "avc",
+            "override": {
+                "ksp_version_max" : "1.5.99"
+            }
         }
     ]
 }
