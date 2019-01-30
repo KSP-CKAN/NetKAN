@@ -1,0 +1,15 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "DebugStuff",
+    "name":         "Debug Stuff",
+    "abstract":     "Display the transform & colliders of a part in wireframe and display the part hierarchy",
+    "author":       "Sarbian",
+    "license":      "MIT",
+    "$kref":        "#/ckan/jenkins/https://ksp.sarbian.com/jenkins/job/DebugStuff",
+    "x_netkan_jenkins":      { "use_filename_version": true },
+    "x_netkan_version_edit": "^DebugStuff-(?<version>\\d+\\.\\d+\\.\\d+\\.\\d+)\\.zip$",
+    "resources": {
+        "homepage":   "https://forum.kerbalspaceprogram.com/index.php?/topic/135726-*",
+        "repository": "https://github.com/sarbian/DebugStuff"
+    }
+}
