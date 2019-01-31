@@ -9,7 +9,8 @@
     "license"      : "MIT",
     "install": [
         { "install_to": "GameData",
-          "find": "ProbesBeforeCrew" }
+          "find": "ProbesBeforeCrew",
+          "find": "ScienceParamModifier" }
     ],
     "depends": [
         { "name": "ModuleManager" },
@@ -20,6 +21,7 @@
         { "name": "Strategia" }
     ],
     "supports": [
+        { "name": "B9" },
         { "name": "DMagicOrbitalScience" },
         { "name": "KAS" },
         { "name": "KIS" },
@@ -36,6 +38,7 @@
         { "name": "ProbeControlRoom" },
         { "name": "RealChute" },
         { "name": "RemoteTech" },
+        { "name": "RLAReborn" },
         { "name": "SCANsat" },
         { "name": "StationPartsExpansionRedux" },
         { "name": "TACLS" },
