@@ -5,7 +5,6 @@
     "license": "MIT",
     "ksp_version_min": "1.5.1",
     "ksp_version_max": "1.6.99",
-    "version": "0.0.1",
     "resources": {
         "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/181852-15x~16x-progressivecolonizationsystem-life-support-colonization-for-more-fun-in-late-game/"
     },
@@ -17,6 +16,6 @@
         { "name": "ModuleManager" },
         { "name": "StationPartsExpansionRedux" },
         { "name": "PlanetaryBaseInc" },
-        { "name": "B9_Aerospace_HX" }
+        { "name": "B9AerospaceHX" }
     ]
 }
