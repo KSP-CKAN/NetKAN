@@ -1,0 +1,14 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "OuterKerbin",
+    "$kref":        "#/ckan/spacedock/2066",
+    "license":      "MIT",
+    "depends": [
+        { "name": "ModuleManager" },
+        { "name": "Kopernicus"    }
+    ],
+    "install": [ {
+        "find":       "Outer Kerbin",
+        "install_to": "GameData"
+    } ]
+}
