@@ -16,7 +16,7 @@
     "depends": [
         { "name": "ModuleManager" },
         { "name": "CommunityTechTree" },
-        { "name": "ScienceParamModifier" }
+        { "name": "CelestialBodyScienceEditor" }
     ],
     "suggests": [
         { "name": "ContractConfigurator" },
