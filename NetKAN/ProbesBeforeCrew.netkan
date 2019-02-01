@@ -8,13 +8,15 @@
     "author"       : "_Zee",
     "license"      : "MIT",
     "install": [
-        { "install_to": "GameData",
-          "find": "ProbesBeforeCrew",
-          "find": "ScienceParamModifier" }
+        {
+          "install_to": "GameData",
+          "find": "ProbesBeforeCrew"
+        }
     ],
     "depends": [
         { "name": "ModuleManager" },
-        { "name": "CommunityTechTree" }
+        { "name": "CommunityTechTree" },
+        { "name": "ScienceParamModifier" }
     ],
     "suggests": [
         { "name": "ContractConfigurator" },
