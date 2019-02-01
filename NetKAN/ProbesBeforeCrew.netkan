@@ -8,18 +8,22 @@
     "author"       : "_Zee",
     "license"      : "MIT",
     "install": [
-        { "install_to": "GameData",
-          "find": "ProbesBeforeCrew" }
+        {
+          "install_to": "GameData",
+          "find": "ProbesBeforeCrew"
+        }
     ],
     "depends": [
         { "name": "ModuleManager" },
-        { "name": "CommunityTechTree" }
+        { "name": "CommunityTechTree" },
+        { "name": "CelestialBodyScienceEditor" }
     ],
     "suggests": [
         { "name": "ContractConfigurator" },
         { "name": "Strategia" }
     ],
     "supports": [
+        { "name": "B9" },
         { "name": "DMagicOrbitalScience" },
         { "name": "KAS" },
         { "name": "KIS" },
@@ -36,6 +40,7 @@
         { "name": "ProbeControlRoom" },
         { "name": "RealChute" },
         { "name": "RemoteTech" },
+        { "name": "RLAReborn" },
         { "name": "SCANsat" },
         { "name": "StationPartsExpansionRedux" },
         { "name": "TACLS" },
