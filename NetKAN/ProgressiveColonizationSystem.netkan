@@ -10,12 +10,13 @@
     },
     "author": "NermNermNerm",
     "abstract": "A colonization and production system that encourages building a variety of ship types - space stations, rovers, transports and, of course, landed bases.  It also creates a progression system outside of the science grind.  It includes a very simple life-support system, and so should not be used in mods with life support systems.",
-    "tags":  [ "colonization", "production" ],
+    "tags": [ "colonization", "production" ],
 
     "depends": [
+        { "name": "B9PartSwitch" },
+        { "name": "CommunityCategoryKit" },
+        { "name": "KerbalPlanetaryBaseSystems" },
         { "name": "ModuleManager" },
-        { "name": "StationPartsExpansionRedux" },
-        { "name": "PlanetaryBaseInc" },
-        { "name": "B9AerospaceHX" }
+        { "name": "StationPartsExpansionRedux" }
     ]
 }
