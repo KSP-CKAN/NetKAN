@@ -14,7 +14,8 @@
         "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/154834-*",
         "repository": "https://github.com/MuMech/MechJeb2"
     },
-    "ksp_version": "1.5",
+    "ksp_version": "1.6",
+    "x_netkan_staging": true,
     "install": [
         {
             "find": "MechJeb2",
@@ -34,7 +35,7 @@
                 "ksp_version" : "1.2"
             }
         },
-		{
+        {
             "version": "2.5.8.0",
             "override": {
                 "ksp_version" : "1.1"
