@@ -1,11 +1,11 @@
 {
-  "license": "unknown",
+  "license": "CC0",
   "identifier": "MoarFEConfigs",
   "x_via": "Automated Linuxgurugamer CKAN script",
   "$kref": "#/ckan/spacedock/2071",
   "install": [
     {
-      "find": "Moar Filter Exension Configs",
+      "find": "MoarFilterExensionConfigs",
       "install_to": "GameData"
     }
   ],
