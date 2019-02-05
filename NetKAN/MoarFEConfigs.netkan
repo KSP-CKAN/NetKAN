@@ -3,6 +3,7 @@
   "identifier": "MoarFEConfigs",
   "x_via": "Automated Linuxgurugamer CKAN script",
   "$kref": "#/ckan/spacedock/2071",
+  "$vref": "#/ckan/ksp-avc",
   "install": [
     {
       "find": "MoarFilterExensionConfigs",
