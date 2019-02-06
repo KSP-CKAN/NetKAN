@@ -1,13 +1,14 @@
 {
-  "license": "CC-BY-SA-3.0",
-  "identifier": "TALRadiallyAttachedExperimentalDataStorageContainer",
-  "x_via": "Automated Linuxgurugamer CKAN script",
-  "$kref": "#/ckan/spacedock/910",
-  "install": [
-    {
-      "file": "ModsByTal",
-      "install_to": "GameData"
-    }
-  ],
-  "spec_version": "v1.4"
+    "spec_version": "v1.4",
+    "identifier":   "TALRadiallyAttachedExperimentalDataStorageContainer",
+    "author":       [ "Talisar", "ndiver", "PhantomAerospace" ],
+    "$kref":        "#/ckan/spacedock/2023",
+    "$vref":        "#/ckan/ksp-avc",
+    "license":      "CC-BY-SA-4.0",
+    "install": [
+        {
+            "find":       "PhantomAerospace",
+            "install_to": "GameData"
+        }
+    ]
 }

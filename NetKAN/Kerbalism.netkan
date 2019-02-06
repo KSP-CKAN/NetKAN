@@ -1,36 +1,66 @@
 {
-    "spec_version": "v1.18",
-    "identifier": "Kerbalism",
-    "$kref": "#/ckan/spacedock/1774",
-    "$vref": "#/ckan/ksp-avc/Kerbalism/Kerbalism.version",
-    "x_netkan_trust_version_file": true,
-    "license": "Unlicense",
-    "author": [ "ShotgunNinja", "N70" ],
-    "resources": {
-        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/172400-*",
-        "repository": "https://gitlab.com/N70/Kerbalism"
-    },
-    "depends": [
-        { "name": "ModuleManager" },
-        { "name": "CommunityResourcePack" }
-    ],
-    "recommends": [
-        { "name": "DeepFreeze" },
-        { "name": "UniversalStorage" }
-    ],
-    "supports": [
-        { "name": "AntennaRange" },
-        { "name": "ConnectedLivingSpace" },
-        { "name": "CryoTanks" },
-        { "name": "DangIt" },
-        { "name": "KerbalAtomics" },
-        { "name": "KerbalPlanetaryBaseSystems" },
-        { "name": "NearFutureElectrical" },
-        { "name": "NearFutureSolar" },
-        { "name": "NearFutureSpacecraft" },
-        { "name": "origameFoldableAssets" },
-        { "name": "RemoteTech" },
-        { "name": "SCANsat" },
-        { "name": "VenStockRevamp" }
-    ]
+	"spec_version": "v1.18",
+	"identifier": "Kerbalism",
+	"$kref": "#/ckan/spacedock/1774",
+	"$vref": "#/ckan/ksp-avc/Kerbalism/Kerbalism.version",
+	"license": "Unlicense",
+	"author": ["ShotgunNinja", "N70"],
+	"resources": {
+		"homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/172400-*",
+		"repository": "https://gitlab.com/N70/Kerbalism"
+	},
+	"depends": [{
+			"name": "ModuleManager"
+		},
+		{
+			"name": "CommunityResourcePack"
+		}
+	],
+	"recommends": [{
+			"name": "DeepFreeze"
+		},
+		{
+			"name": "UniversalStorage"
+		}
+	],
+	"supports": [{
+			"name": "AntennaRange"
+		},
+		{
+			"name": "ConnectedLivingSpace"
+		},
+		{
+			"name": "CryoTanks"
+		},
+		{
+			"name": "DangIt"
+		},
+		{
+			"name": "KerbalAtomics"
+		},
+		{
+			"name": "KerbalPlanetaryBaseSystems"
+		},
+		{
+			"name": "NearFutureElectrical"
+		},
+		{
+			"name": "NearFutureSolar"
+		},
+		{
+			"name": "NearFutureSpacecraft"
+		},
+		{
+			"name": "origameFoldableAssets"
+		},
+		{
+			"name": "RemoteTech"
+		},
+		{
+			"name": "SCANsat"
+		}
+	],
+	"conflicts": [{
+		"name": "UKS"
+	}]
 }

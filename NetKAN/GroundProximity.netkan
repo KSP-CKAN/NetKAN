@@ -1,8 +1,8 @@
 {
-  "license": "BSD-2-clause",
-  "identifier": "KerbCam-Continued",
+  "license": "GPL-3.0",
+  "identifier": "GroundProximity",
   "x_via": "Automated Linuxgurugamer CKAN script",
-  "$kref": "#/ckan/github/linuxgurugamer/kerbcam",
+  "$kref": "#/ckan/spacedock/2056",
   "$vref": "#/ckan/ksp-avc",
   "depends": [
     {
@@ -14,7 +14,7 @@
   ],
   "install": [
     {
-      "find": "KerbCam",
+      "find": "KSP_Proximity",
       "install_to": "GameData"
     }
   ],

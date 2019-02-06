@@ -1,0 +1,18 @@
+{
+  "license": "CC-BY-NC-SA-4.0",
+  "identifier": "SimpleFuelSwitch",
+  "x_via": "Automated Linuxgurugamer CKAN script",
+  "$kref": "#/ckan/spacedock/2053",
+  "depends": [
+    {
+      "name": "ModuleManager"
+    }
+  ],
+  "install": [
+    {
+      "find": "SimpleFuelSwitch",
+      "install_to": "GameData"
+    }
+  ],
+  "spec_version": "v1.4"
+}
