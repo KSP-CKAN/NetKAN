@@ -4,7 +4,7 @@
     "$kref":        "#/ckan/spacedock/2072",
     "license":      "MIT",
     "install": [ {
-        "find":       "BettterOrderPartsNumbered",
+        "find":       "BetterOrderPartsNumbered",
         "install_to": "GameData"
     } ],
     "depends": [
