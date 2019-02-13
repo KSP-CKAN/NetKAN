@@ -1,0 +1,10 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "UnKerballedStart",
+    "$kref":        "#/ckan/spacedock/2074",
+    "depends": [
+        { "name": "ModuleManager"     },
+        { "name": "CustomBarnKit"     },
+        { "name": "CommunityTechTree" }
+    ]
+}
