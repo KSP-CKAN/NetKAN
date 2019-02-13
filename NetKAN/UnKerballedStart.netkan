@@ -1,0 +1,11 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "UnKerballedStart",
+    "$kref":        "#/ckan/spacedock/2074",
+    "license":      "CC-BY-NC-SA-4.0",
+    "depends": [
+        { "name": "ModuleManager"     },
+        { "name": "CustomBarnKit"     },
+        { "name": "CommunityTechTree" }
+    ]
+}
