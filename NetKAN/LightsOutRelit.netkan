@@ -1,0 +1,16 @@
+{
+    "license": "MIT",
+    "identifier": "LightsOutRelit",
+    "spec_version": "v1.4",
+    "$kref": "#/ckan/spacedock/2077",
+    "x_netkan_force_v": true,
+     "depends": [
+        { "name": "ToolbarController" }
+    ],
+    "author": [
+        "nodrog6",
+        "RealGecko",
+        "Fwiffo",
+	"Linuxgurugamer"
+    ]
+}
