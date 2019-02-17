@@ -10,7 +10,7 @@
     "recommends" : [
         { "name" : "ModuleManager" },
         { "name" : "FilterExtensionsDefaultConfig" },
-		{ "name" : "MoarFEConfigs" }
+        { "name" : "MoarFEConfigs" }
     ],
     "resources" : {
         "homepage" : "https://forum.kerbalspaceprogram.com/index.php?/topic/168456-*"
