@@ -9,7 +9,8 @@
     "release_status" : "stable",
     "recommends" : [
         { "name" : "ModuleManager" },
-        { "name" : "FilterExtensionsDefaultConfig" }
+        { "name" : "FilterExtensionsDefaultConfig" },
+		{ "name" : "MoarFEConfigs" }
     ],
     "resources" : {
         "homepage" : "https://forum.kerbalspaceprogram.com/index.php?/topic/168456-*"
