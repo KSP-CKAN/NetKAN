@@ -1,5 +1,5 @@
 {
-    "spec_version" : 1,
+    "spec_version" : v1.4,
     "identifier"   : "EarnYourStripes",
     "$kref"        : "#/ckan/github/severedsolo/EarnYourStripes",
     "license"      : "MIT",
@@ -8,5 +8,9 @@
     "abstract"     : "Allows new kerbals to earn their very own 'veteran orange' jumpsuit, according to options you set!",
     "resources"    : {
         "homepage" : "https://forum.kerbalspaceprogram.com/index.php?/topic/161790-*"
+    "depends" : [
+        { "name" : "KerbalChangelog" },
+	{ "name" : "FlightTracker" }
+    ],  
     }
 }
