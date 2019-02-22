@@ -1,0 +1,15 @@
+{
+	"spec_version": "v1 .4",
+	"identifier": "FlightTracker",
+	"$kref": "#/ckan/github/severedsolo/FlightTracker",
+	"license": "MIT",
+	"$vref": "#/ckan/ksp-avc",
+	"name": "Flight Tracker",
+	"abstract": "Library for tracking a Kerbals flight data",
+	"resources": {
+		"homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/182372-*"
+	},
+	"depends": [{
+		"name": "KerbalChangelog"
+	}]
+}
