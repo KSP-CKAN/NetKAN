@@ -1,26 +1,19 @@
 {
     "spec_version": 1,
     "identifier": "xScience",
-    "$kref": "#/ckan/spacedock/234",
+    "$kref": "#/ckan/github/Flupster/KSP-X-Science",
+    "ksp_version_min": "1.4.0",
+    "ksp_version_max": "1.6.9",
     "license": "CC-BY-NC-SA-4.0",
     "author": ["Z-Key Aerospace", "Brodrick"],
     "abstract": "The Science Report and Checklist for KSP.  [x] Science! keeps track of the science experiments you have completed and recovered to Kerbal Space Center. It also tracks science you have gathered which is held on vehicles and kerbals.  No matter what game scene you are in, what you current vehicle is, [x] Science! always reports on all science held anywhere.",
     "resources": {
-        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/107661-ksp-105-x-science",
-        "repository": "https://github.com/thewebbooth/KSP-X-Science"
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/107661-*"
     },
     "install": [
         {
             "file": "GameData/[x] Science!",
             "install_to": "GameData"
-        }
-    ],
-    "x_netkan_override": [
-        {
-            "version": "4.14",
-            "override": {
-                "download": "https://themoose.co.uk/ksp/x-science-v4.14.zip"
-            }
         }
     ],
     "x_netkan_force_v": true
