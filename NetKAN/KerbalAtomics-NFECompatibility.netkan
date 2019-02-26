@@ -11,6 +11,6 @@
         { "name" : "NearFutureElectrical" }
     ],
     "install" : [
-        { "find" : "NearFutureElectricaNTRs", "install_to" : "GameData/KerbalAtomics/Extras" }
+        { "find" : "NearFutureElectricaNTRs", "install_to" : "GameData" }
     ]
 }
