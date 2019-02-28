@@ -16,6 +16,9 @@
             "install_to" : "GameData"
         }
     ],
+    "depends": [
+        { "name" : "ClickThroughBlocker" }
+    ],
     "$kref"             : "#/ckan/github/linuxgurugamer/ksp_toolbar",
     "$vref"             : "#/ckan/ksp-avc"
 
