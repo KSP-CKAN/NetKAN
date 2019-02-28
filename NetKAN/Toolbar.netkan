@@ -19,7 +19,7 @@
     "depends": [
         { "name" : "ClickThroughBlocker" }
     ],
-    "$kref"             : "#/ckan/github/linuxgurugamer/ksp_toolbar",
+    "$kref"             : "#/ckan/spacedock/2090",
     "$vref"             : "#/ckan/ksp-avc"
 
 }
