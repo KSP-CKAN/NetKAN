@@ -6,7 +6,7 @@
   "$vref": "#/ckan/ksp-avc",
   "install": [
     {
-      "find": "MoarFilterExensionConfigs",
+      "find": "MoarFilterExtensionConfigs",
       "install_to": "GameData"
     }
   ],

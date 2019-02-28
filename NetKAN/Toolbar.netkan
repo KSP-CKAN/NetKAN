@@ -16,6 +16,9 @@
             "install_to" : "GameData"
         }
     ],
+    "depends": [
+        { "name" : "ClickThroughBlocker" }
+    ],
     "$kref"             : "#/ckan/spacedock/2090",
     "$vref"             : "#/ckan/ksp-avc"
 

@@ -10,6 +10,6 @@
         { "name" : "NearFutureElectrical" }
     ],
     "install" : [
-        { "find" : "DecayingRTGs", "install_to" : "GameData/NearFutureElectrical/Extras" }
+        { "find" : "DecayingRTGs", "install_to" : "GameData" }
     ]
 }
