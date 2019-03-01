@@ -1,0 +1,10 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "VarutaSystem",
+    "$kref":        "#/ckan/spacedock/2088",
+    "license":      "MIT",
+    "depends": [
+        { "name": "ModuleManager" },
+        { "name": "Kopernicus"    }
+    ]
+}
