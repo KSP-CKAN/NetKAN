@@ -2,7 +2,7 @@
   "license"	: "GPL-3.0",
   "identifier"	: "ThroughTheEyesOfaKerbal",
   "x_via"	: "Automated Linuxgurugamer CKAN script",
-  "$kref"	: "#/ckan/github/linuxgurugamer/Through-The-Eyes",
+  "$kref"       : "#/ckan/spacedock/1560",
   "$vref"	: "#/ckan/ksp-avc",
   "install": [
     {
