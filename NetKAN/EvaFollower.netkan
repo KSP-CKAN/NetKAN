@@ -1,17 +1,17 @@
 {
   "spec_version": "v1.4",
   "resources" : {
-        "homepage"     : "https://forum.kerbalspaceprogram.com/index.php?/topic/167310-*"
-    },
+      "homepage"     : "https://forum.kerbalspaceprogram.com/index.php?/topic/167310-*"
+  },
   "install": [
     {
       "install_to": "GameData",
       "find": "EvaFollower"
     }
   ],
-  "$vref": "#/ckan/ksp-avc",
-  "$kref": "#/ckan/github/linuxgurugamer/EvaFollower",
-  "x_via": "Automated Linuxgurugamer CKAN script",
-  "identifier": "EvaFollower",
-  "license": "CC-BY-NC-SA-3.0"
+  "$vref"             : "#/ckan/ksp-avc",
+  "$kref"             : "#/ckan/spacedock/1582",
+  "x_via"             : "Automated Linuxgurugamer CKAN script",
+  "identifier"        : "EvaFollower",
+  "license"           : "CC-BY-NC-SA-3.0"
 }
