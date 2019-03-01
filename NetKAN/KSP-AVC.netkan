@@ -1,7 +1,7 @@
 {
     "spec_version": 1,
-    "identifier": "KSP-AVC",
-    "$kref"        : "#/ckan/github/linuxgurugamer/KSPAddonVersionChecker/asset_match/KSP-AVC-*",
+    "identifier"   : "KSP-AVC",
+    "$kref"        : "#/ckan/spacedock/2092",
     "$vref"        : "#/ckan/ksp-avc",
     "name"         : "KSP AVC",
     "abstract"     : "In-Game GUI for KSP Addon Version Checker",
