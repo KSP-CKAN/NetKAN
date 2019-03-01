@@ -12,7 +12,7 @@
     ],
   "abstract": "Draft, tour with, or rescue your twitch viewers as in-game Kerbals!",
   "$vref": "#/ckan/ksp-avc",
-  "$kref": "#/ckan/github/linuxgurugamer/DraftTwitchViewers",
+  "$kref"             : "#/ckan/spacedock/1985",
   "x_via": "Automated Linuxgurugamer CKAN script",
   "identifier": "DTV2",
   "license": "GPL-3.0"
