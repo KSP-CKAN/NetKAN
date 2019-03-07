@@ -1,0 +1,10 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "ZG-27Synthesizer",
+    "$kref":        "#/ckan/curse/zg-27-fuel-synthesizers-1-3-0",
+    "x_netkan_curse": {
+        "use_filename_version": true
+    },
+    "x_netkan_version_edit": "^ZG-27_Synthesizer_(?<version>[0-9_]+)\\.zip$",
+    "license":      "restricted"
+}
