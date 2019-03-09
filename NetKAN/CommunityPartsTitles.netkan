@@ -43,7 +43,7 @@
             { "name": "FASALaunchClampsContinued" },
 
             { "name": "Mk2Expansion" },
-            { "name": "KerbalAircraftExpansion" },
+            { "name": "KerbalAircraftExpansionL" },
             { "name": "AirplanePlus" },
             { "name": "MK1StkOpenCockpit" },
             { "name": "Kerbonov" },
@@ -56,7 +56,18 @@
             { "name": "kOS" },
             { "name": "KerbalFoundriesContinued" },
             { "name": "MSP3000" },
-            { "name": "DMagicOrbitalScience" }
+            { "name": "DMagicOrbitalScience" },
+
+            { "name": "PicoPort" },
+            { "name": "GlassPanesandEnclosures" },
+            { "name": "SCANsat" },
+            { "name": "ReStockPlus" },
+            { "name": "UniversalStorage2" },
+            { "name": "RLAReborn" },
+            { "name": "MandatoryRCSPartPack" },
+            { "name": "DockRotate" },
+            { "name": "PWBFuelBalancerRestored" }
+
         ],
     "install" : [
             {
