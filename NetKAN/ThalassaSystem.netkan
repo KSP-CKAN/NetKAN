@@ -1,0 +1,14 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "ThalassaSystem",
+    "$kref":        "#/ckan/spacedock/2097",
+    "install": [ {
+        "find":       "Thalassa",
+        "install_to": "GameData",
+        "filter":     [ ".DS_Store" ]
+    } ],
+    "depends": [
+        { "name": "ModuleManager" },
+        { "name": "Kopernicus"    }
+    ]
+}

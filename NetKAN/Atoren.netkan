@@ -1,0 +1,9 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "Atoren",
+    "$kref":        "#/ckan/spacedock/2101",
+    "depends": [
+        { "name": "ModuleManager" },
+        { "name": "Kopernicus"    }
+    ]
+}
