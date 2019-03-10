@@ -43,7 +43,7 @@
             { "name": "FASALaunchClampsContinued" },
 
             { "name": "Mk2Expansion" },
-            { "name": "KerbalAircraftExpansionL" },
+            { "name": "KerbalAircraftExpansion", "version_min": "2.8.0" },
             { "name": "AirplanePlus" },
             { "name": "MK1StkOpenCockpit" },
             { "name": "Kerbonov" },
