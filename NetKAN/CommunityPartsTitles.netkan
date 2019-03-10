@@ -16,7 +16,7 @@
     "suggests": [
             { "name": "KAS" },
             { "name": "KIS" },
-	    { "name": "CommunityCategoryKit" },
+            { "name": "CommunityCategoryKit" },
             { "name": "KerbalEngineerRedux" },
             { "name": "FuelTanksPlus" },
             { "name": "SpaceY-Lifters" },
@@ -43,7 +43,7 @@
             { "name": "FASALaunchClampsContinued" },
 
             { "name": "Mk2Expansion" },
-            { "name": "KerbalAircraftExpansion", "version_min": "2.8.0" },
+            { "name": "KerbalAircraftExpansion", "min_version": "2.8.0" },
             { "name": "AirplanePlus" },
             { "name": "MK1StkOpenCockpit" },
             { "name": "Kerbonov" },
