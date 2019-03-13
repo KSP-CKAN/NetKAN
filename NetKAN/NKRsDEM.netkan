@@ -11,9 +11,8 @@
             "filter"     : [ "ExampleCraft" ]
         },
         {
-            "find_regexp": "GameData/NAR_MEM/ExampleCraft/.*\\.craft",
-            "install_to" : "Ships/VAB",
-            "find_matches_Files": true
+            "find": "GameData/NAR_MEM/ExampleCraft",
+            "install_to" : "Ships/VAB"
         }
     ],
     "depends": [
