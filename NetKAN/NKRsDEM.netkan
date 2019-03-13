@@ -1,5 +1,5 @@
 {
-    "spec_version"   : "v1.4",
+    "spec_version"   : "v1.16",
     "identifier"     : "NKRsDEM",
     "$kref"          : "#/ckan/spacedock/425",
     "release_status" : "development",
@@ -7,14 +7,16 @@
     "install":[
         {
             "find"       : "GameData/NAR_MEM",
-            "install_to" : "GameData"
+            "install_to" : "GameData",
+            "filter"     : [ "ExampleCraft" ]
         },
         {
-            "find"       : "Ships/VAB",
-            "install_to" : "Ships"
+            "find_regexp": "GameData/NAR_MEM/ExampleCraft/.*\.craft",
+            "install_to" : "Ships/VAB",
+            "find_matches_Files": true
         }
     ],
     "depends": [
-      { "name": "TDProps" }
+        { "name": "TDProps" }
     ]
 }
