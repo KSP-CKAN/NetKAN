@@ -11,8 +11,10 @@
             "filter"     : [ "ExampleCraft" ]
         },
         {
-            "find": "GameData/NAR_MEM/ExampleCraft",
-            "install_to" : "Ships/VAB"
+            "find":        "GameData/NAR_MEM/ExampleCraft",
+            "install_to" : "Ships",
+            "as":          "VAB",
+            "filter":      [ "README.txt" ]
         }
     ],
     "depends": [
