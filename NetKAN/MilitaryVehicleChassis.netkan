@@ -1,10 +1,10 @@
 {
-    "$kref": "#/ckan/spacedock/686",
     "spec_version": "v1.2",
     "identifier": "MilitaryVehicleChassis",
+    "$kref": "#/ckan/spacedock/686",
     "license": "MIT",
     "x_netkan_staging": true,
-    "comment": "Mod author decided to take out the mod directory from the zipfile. Hopefully it will come back",
+    "x_netkan_staging_reason": "Mod author decided to take out the mod directory from the zipfile. Hopefully it will come back.",
     "install": [
         {
             "file": "A310",
