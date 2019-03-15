@@ -4,8 +4,8 @@
     "name": "Kerbal Krash System",
     "abstract": "Kerbal Krash System rewrites collisions in Kerbal Space Program. KKS crumples your creations and reduces the efficiency of your crafts instead of just exploding on impact.",
     "author": "EnzoMeertens",
-    "version": "1:0.4.3",
-    "ksp_version": "1.3",
+    "version": "1:0.4.5",
+    "ksp_version": "1.6.1",
     "license": "MIT",
     "resources": {
         "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/129410-105-kerbal-krash-system",
@@ -23,5 +23,5 @@
             "install_to": "GameData"
         }
     ],
-    "download": "https://addons-origin.cursecdn.com/files/2463/138/KerbalKrashSystem%20(0.4.3)%202017-08-11.zip"
+    "download": "https://github.com/EnzoMeertens/KerbalKrashSystem/raw/master/KerbalKrashSystem%20(0.4.5)%202019-03-14.zip"
 }
