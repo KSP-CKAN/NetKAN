@@ -17,7 +17,7 @@
 
     "install"      : [
         {
-            "find"       : "EngineLight",
+            "find"       : "EngineLightRelit",
             "install_to" : "GameData"
         }
     ],
