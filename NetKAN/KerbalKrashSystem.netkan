@@ -5,6 +5,7 @@
     "$vref":         "#/ckan/ksp-avc",
     "$kref":         "#/ckan/github/EnzoMeertens/KerbalKrashSystem",
     "license":       "MIT",
+    "x_netkan_epoch": "1",
     "resources": {
         "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/129410-105-kerbal-krash-system",
         "repository": "https://github.com/EnzoMeertens/KerbalKrashSystem"
