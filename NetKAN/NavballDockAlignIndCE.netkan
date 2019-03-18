@@ -3,7 +3,7 @@
     "identifier":   "NavballDockAlignIndCE",
     "$kref":        "#/ckan/spacedock/1098",
     "$vref":        "#/ckan/ksp-avc",
-    "license":      "GPL-3.0"
+    "license":      "GPL-3.0",
     "install": [
         {
             "find":       "NavBallDockingAlignmentIndicatorCE",
@@ -14,5 +14,5 @@
         { "name": "NavballDockingIndicator"}
     ],
     "provides": [ "NavballDockingIndicator" ],
-    "x_via": "Automated Linuxgurugamer CKAN script"
+    "x_via":    "Automated Linuxgurugamer CKAN script"
 }
