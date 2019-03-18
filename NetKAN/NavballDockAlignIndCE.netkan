@@ -1,14 +1,18 @@
 {
-  "spec_version": "v1.4",
-  "install": [
-    {
-      "install_to": "GameData",
-      "find": "NavBallDockingAlignmentIndicatorCE"
-    }
-  ],
-  "$vref": "#/ckan/ksp-avc",
-  "$kref": "#/ckan/spacedock/1098",
-  "x_via": "Automated Linuxgurugamer CKAN script",
-  "identifier": "NavballDockAlignIndCE",
-  "license": "GPL-3.0"
+    "spec_version": "v1.4",
+    "identifier":   "NavballDockAlignIndCE",
+    "$kref":        "#/ckan/spacedock/1098",
+    "$vref":        "#/ckan/ksp-avc",
+    "license":      "GPL-3.0"
+    "install": [
+        {
+            "find":       "NavBallDockingAlignmentIndicatorCE",
+            "install_to": "GameData"
+        }
+    ],
+    "conflicts": [
+        { "name": "NavballDockingIndicator"}
+    ],
+    "provides": [ "NavballDockingIndicator" ],
+    "x_via": "Automated Linuxgurugamer CKAN script"
 }
