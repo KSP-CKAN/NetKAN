@@ -16,6 +16,7 @@
     "conflicts": [
         { "name": "GravityTurn" }
     ],
+    "provides": [ "GravityTurn" ],
     "install": [
         {
             "find": "GravityTurn",
