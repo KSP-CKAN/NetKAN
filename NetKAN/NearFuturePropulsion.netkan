@@ -1,28 +1,5 @@
 {
-    "spec_version"        : "v1.4",
-    "identifier"          : "NearFuturePropulsion",
-    "$kref"               : "#/ckan/spacedock/557",
-    "name"                : "Near Future Propulsion",
-    "abstract"            : "Advanced electric engines in a stockalike aesthetic.",
-    "author"              : "Nertea",
-    "license"             : "CC-BY-NC-SA-4.0",
-    "$vref"               : "#/ckan/ksp-avc",
-    "depends": [
-        { "name" : "CommunityResourcePack" },
-        { "name" : "ModuleManager" }
-    ],
-    "recommends": [
-        { "name" : "CommunityTechTree" },
-        { "name" : "NearFutureElectrical" }
-    ],
-    "suggests": [
-        { "name" : "ContractConfigurator-GrandTours" },
-        { "name" : "NearFutureConstruction" },
-        { "name" : "NearFutureSolar" },
-        { "name" : "NearFutureSpacecraft" },
-        { "name" : "OuterPlanetsMod" }
-    ],
-    "install" : [
-        { "find" : "NearFuturePropulsion", "install_to" : "GameData", "filter" : ".DS_Store" }
-    ]
+    "spec_version"  : "v1.4",
+    "identifier"    : "NearFuturePropulsion",
+    "$kref"         : "#/ckan/netkan/https://github.com/ChrisAdderley/NearFuturePropulsion/raw/master/CKAN/NearFuturePropulsion.netkan"
 }
