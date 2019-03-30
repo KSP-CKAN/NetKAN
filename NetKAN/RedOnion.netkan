@@ -1,0 +1,24 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "RedOnion",
+    "$kref":        "#/ckan/spacedock/2116",
+    "license":      "MIT",
+    "Install": [
+        {
+            "find": "Licenses",
+            "install_to": "GameData/RedOnion"
+        },
+        {
+            "find": "Plugins",
+            "install_to": "GameData/RedOnion"
+        },
+        {
+            "file": "Resources.zip",
+            "install_to": "GameData/RedOnion"
+        },
+        {
+            "file": "Scripts.zip",
+            "install_to": "GameData/RedOnion"
+        },
+    ]
+}
