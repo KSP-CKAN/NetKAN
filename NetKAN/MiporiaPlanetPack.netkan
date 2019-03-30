@@ -13,7 +13,9 @@
             "install_to": "GameData/MiporiaPack"
         }
     ],
-    "depends": {
-        "name": "Kopernicus"
-    }
+    "depends": [
+        {
+            "name": "Kopernicus"
+        }
+    ]
 }
