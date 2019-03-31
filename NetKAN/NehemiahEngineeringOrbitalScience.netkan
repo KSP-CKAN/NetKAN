@@ -35,7 +35,7 @@
 	"suggests"          : [
 		{ "name"             : "ConnectedLivingSpace" },
 		{ "name"             : "DockingPortAlignmentIndicator" },
-		{ "name"             : "UniversalStorage" }
+		{ "name"             : "UniversalStorage2" }
 	],
 	"provides"          : [
 		"NehemiahInc-Complete",
