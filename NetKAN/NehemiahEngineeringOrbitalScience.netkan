@@ -34,9 +34,11 @@
 		{ "name"             : "KerbalAlarmClock" }
 	],
 	"suggests"          : [
-		{ "name"             : "ConnectedLivingSpace" },
 		{ "name"             : "DockingPortAlignmentIndicator" },
 		{ "name"             : "UniversalStorage2" }
+	],
+	"supports"          : [
+		{ "name"             : "ConnectedLivingSpace" }
 	],
 	"provides"          : [
 		"NehemiahInc-Complete",
