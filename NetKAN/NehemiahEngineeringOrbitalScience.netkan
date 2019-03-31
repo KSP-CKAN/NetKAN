@@ -21,7 +21,8 @@
 		{ "name"             : "NehemiahInc-Complete" },
 		{ "name"             : "NehemiahMultiPurposeParts" },
 		{ "name"             : "NehemiahScienceCommon" },
-		{ "name"             : "OrbitalMaterialScience" }
+		{ "name"             : "OrbitalMaterialScience" },
+		{ "name"             : "Kerbalism" }
 	],
 	"depends": [
 		{ "name"             : "ModuleManager" },
