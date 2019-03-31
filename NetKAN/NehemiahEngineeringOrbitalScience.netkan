@@ -38,13 +38,13 @@
 		{ "name"             : "UniversalStorage" }
 	],
 	"provides"          : [
-		{ "name"             : "NehemiahInc-Complete" },
-		{ "name"             : "NehemiahScienceCommon" },
-		{ "name"             : "NehemiahMultiPurposeParts" },
-		{ "name"             : "KeminiResearchProgram" },
-		{ "name"             : "KerbalEnvironmentalEffectsStudy" },
-		{ "name"             : "KerbalLifeScience" },
-		{ "name"             : "OrbitalMaterialScience" }
+		"NehemiahInc-Complete",
+		"NehemiahScienceCommon",
+		"NehemiahMultiPurposeParts",
+		"KeminiResearchProgram",
+		"KerbalEnvironmentalEffectsStudy",
+		"KerbalLifeScience",
+		"OrbitalMaterialScience"
 	],
 	"install"           : [
 		{
