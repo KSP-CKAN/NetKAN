@@ -1,5 +1,5 @@
 {
-    "spec_version": 1,
+    "spec_version": "v1.26",
     "name": "Pood's Calm Nebula Skybox",
     "abstract": "Skybox that presents the Kerbal Solar System within a sparse Nebula. Features a subtle Galaxy star-line and patches of Pink/Blue Nebula proto-Star fields. To the polar South a very energetic solar nursery can be seen.",
     "author": "Poodmund",
@@ -18,10 +18,17 @@
             "install_to": "GameData"
         }
     ],
-    "depends": [
-        { "name": "ModuleManager" },
-        { "name": "SigmaReplacements-SkyBox" }
-    ],
+	"depends": [
+		{ "name": "ModuleManager" },
+		{
+			"any_of": [
+				{ "name": "TextureReplacer" },
+				{ "name": "TextureReplacerReplaced" },
+				{ "name": "SigmaReplacements-Skybox" },
+				{ "name": "DiRT" }
+			]
+		}
+	],
     "suggests": [
         { "name": "DistantObject" }
     ]
