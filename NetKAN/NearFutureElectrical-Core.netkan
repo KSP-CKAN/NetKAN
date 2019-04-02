@@ -1,13 +1,5 @@
 {
     "spec_version"        : "v1.4",
-    "identifier"          : "NearFutureElectrical-Core",
-    "$kref"               : "#/ckan/spacedock/558",
-    "name"                : "Near Future Electrical Core",
-    "abstract"            : "This is the Near Future Electrical plugin stand-alone, for adding functionality to other mods. It contains no parts and does nothing by itself.",
-    "author"              : "Nertea",
-    "license"             : "CC-BY-NC-SA-4.0",
-    "install" : [
-        { "file"       : "GameData/NearFutureElectrical/Plugins/NearFutureElectrical.dll",
-          "install_to" : "GameData/NearFutureElectrical/Plugins" }
-    ]
+    "identifier"    : "NearFutureElectrical-Core",
+    "$kref"         : "#/ckan/netkan/https://github.com/ChrisAdderley/NearFutureElectrical/raw/master/CKAN/NearFutureElectrical-Core.netkan"
 }
