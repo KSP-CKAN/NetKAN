@@ -1,30 +1,6 @@
 {
     "spec_version": "v1.4",
-    "identifier": "KerbalAtomics",
-    "$kref": "#/ckan/spacedock/710",
-    "$vref": "#/ckan/ksp-avc/KerbalAtomics.version",
-    "x_netkan_epoch": 1,
-    "name": "Kerbal Atomics",
-    "license": "CC-BY-NC-SA-4.0",
-    "depends": [
-        { "name" : "B9PartSwitch" },
-        { "name" : "CommunityResourcePack" },
-        { "name" : "CryoTanks" },
-        { "name" : "DeployableEngines" },
-        { "name" : "ModuleManager" }
-    ],
-    "recommends" : [
-        { "name" : "CommunityTechTree" }
-    ],
-    "suggests" : [
-        { "name" : "CryoEngines" },
-        { "name" : "NearFutureConstruction" },
-        { "name" : "NearFutureElectrical" },
-        { "name" : "NearFuturePropulsion" },
-        { "name" : "NearFutureSolar" },
-        { "name" : "NearFutureSpacecraft" }
-    ],
-    "install" : [
-        { "find" : "KerbalAtomics", "install_to" : "GameData" }
-    ]
+    "identifier"    : "KerbalAtomics",
+    "$kref"         : "#/ckan/netkan/https://github.com/ChrisAdderley/KerbalAtomics/raw/master/CKAN/KerbalAtomics.netkan"
+
 }
