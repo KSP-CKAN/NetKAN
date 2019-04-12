@@ -5,11 +5,24 @@
     "license": "CC-BY-NC-SA",
     "spec_version": 1,
     "depends": [
-        { "name": "ModuleManager" },
-        { "name": "InterstellarFuelSwitch-Core"}
+        { "name": "ModuleManager" }
     ],
     "suggests": [
-        { "name": "ColorCodedCans" }
+        { "name": "ColorCodedCans" },
+        { "name": "InterstellarFuelSwitch-Core"}
+    ],
+    "supports": [
+        { "name": "ModularRocketSystem" },
+        { "name": "ModularRocketSystemsLITE" },
+        { "name": "ColorCodedCans" },
+        { "name": "ColorfulFuelLines" },
+        { "name": "LithobrakeExplorationTechnologies" },
+        { "name": "TweakScale" },
+        { "name": "FerramAerospaceResearch" },
+        { "name": "KSP-AVC" },
+        { "name": "DeadlyReentry" },
+        { "name": "ModularFuelTanks" },
+        { "name": "InterstellarFuelSwitch" }
     ],
     "install": [
         {

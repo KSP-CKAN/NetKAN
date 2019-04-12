@@ -2,7 +2,7 @@
     "spec_version":   "v1.4",
     "identifier":     "NearFutureProps",
     "name":           "Near Future IVA Props",
-    "abstract":       "Props used to build IVA spaces in various mods by Nertea.",
+    "abstract":       "Props used to build IVA spaces in various mods by Nertea",
     "$kref":          "#/ckan/github/ChrisAdderley/NearFutureProps",
     "$vref":          "#/ckan/ksp-avc",
     "x_netkan_epoch": "1",
@@ -18,16 +18,6 @@
         {
             "find":       "NearFutureProps",
             "install_to": "GameData"
-        }
-    ],
-    "x_netkan_override": [
-        {
-            "version" : "0.4.2",
-            "delete" : [ "ksp_version" ],
-            "override" : {
-                "ksp_version_min" : "1.0.2",
-                "ksp_version_max" : "1.0.4"
-            }
         }
     ]
 }

@@ -5,11 +5,19 @@
     "$vref" : "#/ckan/ksp-avc",
     "identifier": "LithobrakeExplorationTechnologies",
     "resources": {
-        "homepage": "http://forum.kerbalspaceprogram.com/threads/130517"
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/117527-12-14-lithobrake-exploration-technologies-04-2016-10-12/"
     },
     "depends": [
         { "name": "FirespitterCore" },
         { "name": "ModuleManager"}
+    ],
+    "supports": [
+        { "name": "ModularRocketSystem" },
+        { "name": "ModularRocketSystemsLITE" },
+        { "name": "SpaceY-Lifters" },
+        { "name": "ColorCodedCans" },
+        { "name": "ColorfulFuelLines" },
+        { "name": "FuelTanksPlus" }
     ],
     "install": [
         {

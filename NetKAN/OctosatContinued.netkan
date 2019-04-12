@@ -7,11 +7,9 @@
     }
   ],
   "depends": [
-    { "name": "FirespitterResourcesConfig" },
     { "name": "BDAnimationModules" },
     { "name": "ModuleManager" },
-    { "name": "SelectableDataTransmitter" },
-    { "name": "FirespitterCore" }
+    { "name": "InterstellarFuelSwitch-Core" }
   ],
   "x_netkan_epoch": "1",
   "$vref": "#/ckan/ksp-avc",

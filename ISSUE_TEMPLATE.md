@@ -4,11 +4,11 @@ Thanks for wanting to bring an issue to our attention!
 
 Before you open a ticket, please do a quick search of the existing issues to see if it's already been brought up.
 
-https://github.com/KSP-CKAN/NetKAN/issues
+https://github.com/KSP-CKAN/NetKAN/issues?q=is%3Aissue
 
 Please note that this repository is strictly for metadata (issues relating to incorrect information about mods, missing versions, or incorrect installations). If you want to suggest something or report a bug relating to CKAN as a whole, please open the issue in:
 
-https://github.com/KSP-CKAN/CKAN/issues
+https://github.com/KSP-CKAN/CKAN/issues?q=is%3Aissue
 
 -->
 

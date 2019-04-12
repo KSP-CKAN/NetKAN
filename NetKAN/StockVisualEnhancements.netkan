@@ -1,14 +1,18 @@
 {
     "spec_version"   : "v1.4",
-    "$kref"          : "#/ckan/github/Galileo88/StockVisualEnhancements/asset_match/SVE.v.*.zip",
-    "$vref"          : "#/ckan/ksp-avc",
     "identifier"     : "StockVisualEnhancements",
     "name"           : "Stock Visual Enhancements",
-    "abstract"       : "A visual enhancement pack using EVE and Scatterer for the stock planets. ",
+    "abstract"       : "A visual enhancement pack using EVE and Scatterer for the stock planets.",
+    "$kref"          : "#/ckan/github/Galileo88/StockVisualEnhancements/asset_match/SVE.v.*.zip",
+    "$vref"          : "#/ckan/ksp-avc",
     "license"        : "CC-BY-NC-SA",
     "release_status" : "stable",
     "x_netkan_epoch" : "3",
     "x_netkan_staging": true,
+    "x_netkan_staging_reason": "Tricky dependencies, make sure the SVE-Textures providers are indexed",
+    "resources" : {
+        "homepage"     : "https://forum.kerbalspaceprogram.com/index.php?/topic/143288-*"
+    },
     "provides": [
         "EnvironmentalVisualEnhancements-Config"
      ],
@@ -18,11 +22,11 @@
     ],
     "depends": [
         { "name": "SVE-Textures" },
-        { "name": "Scatterer" },
         { "name": "EnvironmentalVisualEnhancements" },
         { "name": "ModuleManager"}
     ],
     "recommends": [
+        { "name": "Scatterer" },
         { "name": "DistantObject" },
         { "name": "PlanetShine" }
     ],

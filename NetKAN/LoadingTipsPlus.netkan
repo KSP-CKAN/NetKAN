@@ -6,7 +6,6 @@
     "$vref":        "#/ckan/ksp-avc",
     "install":      [{
         "find":          "LoadingTipsPlus",
-        "install_to":    "GameData",
-        "filter_regexp": "MiniAVC.*"
+        "install_to":    "GameData"
     }]
 }

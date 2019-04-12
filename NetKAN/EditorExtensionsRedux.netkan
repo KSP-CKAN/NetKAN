@@ -5,6 +5,7 @@
     "$kref"               : "#/ckan/spacedock/48",
     "$vref"               : "#/ckan/ksp-avc",
     "spec_version"        : 1,
+    "depends" : [ { "name" : "ClickThroughBlocker" } ],
     "recommends": [ { "name": "JanitorsCloset" } ],
     "resources": {
         "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/127378-editor-extensions-redux",

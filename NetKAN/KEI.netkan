@@ -5,7 +5,9 @@
     "identifier": "KEI",
     "x_via": "Automated SpaceDock CKAN submission",
     "depends": [
-        { "name" : "ToolbarController" }
+        { "name" : "ToolbarController" },
+	{ "name": "ClickThroughBlocker" }
+
     ]
 
 }

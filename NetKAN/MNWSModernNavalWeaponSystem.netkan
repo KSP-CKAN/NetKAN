@@ -1,0 +1,17 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "MNWSModernNavalWeaponSystem",
+    "$kref":        "#/ckan/spacedock/1779",
+    "license":      "CC-BY-SA-4.0",
+    "x_via":        "Automated SpaceDock CKAN submission",
+    "depends": [
+        { "name": "ModuleManager"            },
+        { "name": "BDArmoryContinued"        },
+        { "name": "VesselMoverContinued"     },
+        { "name": "KerbalJointReinforcement" }
+    ],
+    "install": [ {
+        "find":       "Johnny",
+        "install_to": "GameData"
+    } ]
+}

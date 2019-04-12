@@ -9,7 +9,10 @@
 	"author"            : [ "N3h3miah", "Micha" ],
 	"license"           : "GPL-3.0",
 	"resources"         : {
-		"homepage"           : "http://forum.kerbalspaceprogram.com/index.php?showtopic=149298"
+		"homepage"           : "http://forum.kerbalspaceprogram.com/index.php?showtopic=149298",
+		"bugtracker"         : "https://github.com/mwerle/OrbitalMaterialScience/issues",
+		"repository"         : "https://github.com/mwerle/OrbitalMaterialScience",
+		"spacedock"          : "https://spacedock.info/mod/1393/Nehemiah%20Engineering%20Orbital%20Science"
 	},
 	"conflicts"         : [
 		{ "name"             : "KeminiResearchProgram" },
@@ -18,7 +21,8 @@
 		{ "name"             : "NehemiahInc-Complete" },
 		{ "name"             : "NehemiahMultiPurposeParts" },
 		{ "name"             : "NehemiahScienceCommon" },
-		{ "name"             : "OrbitalMaterialScience" }
+		{ "name"             : "OrbitalMaterialScience" },
+		{ "name"             : "Kerbalism" }
 	],
 	"depends": [
 		{ "name"             : "ModuleManager" },
@@ -27,11 +31,23 @@
 	"recommends"        : [
 		{ "name"             : "Corvus125mTwoKerbalPod" },
 		{ "name"             : "K2CommandPodCont" },
-		{ "name"             : "UniversalStorage" }
+		{ "name"             : "KerbalAlarmClock" }
 	],
 	"suggests"          : [
-		{ "name"             : "ConnectedLivingSpace" },
-		{ "name"             : "DockingPortAlignmentIndicator" }
+		{ "name"             : "DockingPortAlignmentIndicator" },
+		{ "name"             : "UniversalStorage2" }
+	],
+	"supports"          : [
+		{ "name"             : "ConnectedLivingSpace" }
+	],
+	"provides"          : [
+		"NehemiahInc-Complete",
+		"NehemiahScienceCommon",
+		"NehemiahMultiPurposeParts",
+		"KeminiResearchProgram",
+		"KerbalEnvironmentalEffectsStudy",
+		"KerbalLifeScience",
+		"OrbitalMaterialScience"
 	],
 	"install"           : [
 		{

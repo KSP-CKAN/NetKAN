@@ -7,7 +7,7 @@
     "abstract": "This add contracts for base construction and maintenance. This can be done in any planet or moon that you want, it even supports planet packs. Also the bases doesn't need to dock just to land very close to the main base",
     "license": "MIT",
     "resources": {
-        "homepage": "http://forum.kerbalspaceprogram.com/threads/127138"
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/114514-10xcontract-pack-base-constuction-v023/"
     },
     "depends": [
         { "name": "ContractConfigurator", "min_version": "1.5.1" },

@@ -1,15 +1,13 @@
 {
-  "license": "GPL-3.0",
-  "identifier": "WarpEverywhere",
-  "x_via": "Automated Linuxgurugamer CKAN script",
-  "$kref": "#/ckan/spacedock/982",
-  "install": [
-    {
-      "find": "WarpEverywhere",
-      "install_to": "GameData"
-    }
-  ],
-  "ksp_version_min": "1.2.0",
-  "ksp_version_max": "1.2.99",
-  "spec_version": "v1.4"
+    "spec_version": "v1.4",
+    "identifier":   "WarpEverywhere",
+    "$kref":        "#/ckan/spacedock/982",
+    "license":      "GPL-3.0",
+    "install": [
+        {
+            "find":       "WarpEverywhere",
+            "install_to": "GameData"
+        }
+    ],
+    "x_via": "Automated Linuxgurugamer CKAN script"
 }

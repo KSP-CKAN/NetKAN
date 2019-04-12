@@ -7,7 +7,7 @@
     "name"          : "KW Rocketry Rebalanced",
     "abstract"      : "This is the full KW Rocketry with the tanks rebalanced to better values",
     "resources" : {
-        "homepage"  : "http://forum.kerbalspaceprogram.com/index.php?/topic/137762-kw-rocketry-redux/"
+        "homepage"  : "https://forum.kerbalspaceprogram.com/index.php?/topic/164554-131-14-kw-rocketry-rebalanced/"
     },
     "depends" : [
         { "name" : "ModuleManager" }
@@ -25,7 +25,7 @@
     ],
     "install" : [
         {
-            "find"       : "KWRocketryRebalanced/GameData/KWRocketry",
+            "find"       : "GameData/KWRocketry",
             "install_to" : "GameData"
         }
     ]

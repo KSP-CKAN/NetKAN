@@ -5,9 +5,13 @@
     "$vref"          : "#/ckan/ksp-avc",
     "license"        : "GPL-3.0",
     "resources" : {
-        "homepage"    : "http://forum.kerbalspaceprogram.com/threads/129908",
+        "homepage"    : "https://forum.kerbalspaceprogram.com/index.php?/topic/116979-141-automated-screenshots/",
         "repository"  : "https://github.com/linuxgurugamer/AutomatedScreenshots"
     },
+    "depends": [
+      { "name": "ToolbarController" },
+      { "name": "ClickThroughBlocker" }
+    ],
     "recommends": [ { "name": "JanitorsCloset" } ],
     "install" : [
         {

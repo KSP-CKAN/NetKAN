@@ -1,0 +1,27 @@
+{
+    "spec_version" : 1,
+    "identifier"   : "TerrasIgnotas",
+    "$kref"        : "#/ckan/github/KSP-DDR/Terras-Ignotas",
+    "$vref"        : "#/ckan/ksp-avc",
+    "license"      : "MIT",
+    "name"         : "Terras Ignotas",
+    "author"       : [ "DeltaDizzy", "NickRoss120", "Mrcarrot" ],
+    "install": [
+        {
+            "file"       : "GameData/TerrasIgnotas",
+            "install_to" : "GameData",
+            "filter"     : [ "Flags" ]
+        }
+    ],	
+    "depends": [
+        { "name": "ModuleManager" },
+        { "name": "Kopernicus" }
+    ],
+    "suggests": [
+        { "name": "AlcubierreStandalone" },
+        { "name": "TimeControl" }
+    ],
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/179652-*"
+    }
+}

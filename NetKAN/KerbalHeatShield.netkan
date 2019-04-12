@@ -1,0 +1,10 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "KerbalHeatShield",
+    "$kref":        "#/ckan/spacedock/1925",
+    "license":      "CC-BY-SA-2.0",
+    "install": [ {
+        "find":       "kerbal heatshield",
+        "install_to": "GameData"
+    } ]
+}

@@ -2,20 +2,20 @@
     "spec_version" : "v1.4",
     "identifier"   : "RealHeat",
     "$kref"        : "#/ckan/github/KSP-RO/RealHeat",
+    "$vref"        : "#/ckan/ksp-avc",
     "name"         : "RealHeat",
     "abstract"     : "Improves the realism of KSP's thermodynamics.",
     "license"      : "CC-BY-SA",
     "resources"      : {
-        "homepage"   : "http://forum.kerbalspaceprogram.com/threads/127769",
+        "homepage"   : "https://forum.kerbalspaceprogram.com/index.php?/topic/115066-113-realheat-minimalist-v43-july-3/",
         "repository" : "https://github.com/KSP-RO/RealHeat"
     },
-    "ksp_version"  : "1.2.2",
-     "depends"        : [
+    "depends"        : [
         { "name": "ModularFlightIntegrator" }
     ],
     "install"        : [
         {
-            "find": "RealHeat",
+            "find":       "RealHeat",
             "install_to": "GameData"
         }
     ],

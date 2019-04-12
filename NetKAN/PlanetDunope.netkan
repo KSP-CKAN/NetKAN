@@ -1,0 +1,17 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "PlanetDunope",
+    "$kref":        "#/ckan/spacedock/2093",
+    "license":      "CC-BY-ND-4.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/182396-*"
+    },
+    "depends": [
+        { "name": "ModuleManager" },
+        { "name": "Kopernicus"    }
+    ],
+    "install": [ {
+        "find":       "DunopeRevamped",
+        "install_to": "GameData"
+    } ]
+}

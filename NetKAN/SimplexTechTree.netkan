@@ -1,0 +1,38 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "SimplexTechTree",
+    "$kref":        "#/ckan/spacedock/1848",
+    "license":      "CC-BY-NC-SA",
+    "install": [ {
+        "find":       "AngleCanMods",
+        "install_to": "GameData"
+    } ],
+    "depends": [
+        { "name": "ModuleManager" }
+    ],
+    "recommends": [
+        { "name": "Kerbalism" },
+        { "name": "KEI"       }
+    ],
+    "supports": [
+        { "name": "DockRotate"                 },
+        { "name": "FASA-RCS"                   },
+        { "name": "HullCamVDSContinued"        },
+        { "name": "IFILS"                      },
+        { "name": "Kerbalism"                  },
+        { "name": "Konstruction"               },
+        { "name": "kOS"                        },
+        { "name": "NearFutureConstruction"     },
+        { "name": "NearFutureElectrical"       },
+        { "name": "NearFuturePropulsion"       },
+        { "name": "NearFutureSolar"            },
+        { "name": "NearFutureSpacecraft"       },
+        { "name": "ProceduralFairings"         },
+        { "name": "ResearchBodies"             },
+        { "name": "SSPX"                       },
+        { "name": "StationPartsExpansionRedux" },
+        { "name": "StockalikeMiningExtension"  },
+        { "name": "TokamakRefurbishedParts"    },
+        { "name": "UniversalStorage2"          }
+    ]
+}

@@ -9,6 +9,10 @@
     "resources": {
         "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/167039-131-navhud-renewed/"
     },
+    "depends": [
+        { "name" : "ToolbarController" },
+        { "name": "ClickThroughBlocker" }
+    ],
     "install": [
         {
             "file": "GameData/NavHud",

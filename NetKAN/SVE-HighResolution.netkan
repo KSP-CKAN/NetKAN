@@ -10,6 +10,9 @@
     "release_status" : "stable",
     "x_netkan_epoch" : "3",
     "x_netkan_staging": true,
+    "resources" : {
+        "homepage"     : "https://forum.kerbalspaceprogram.com/index.php?/topic/143288-*"
+    },
     "provides": [
         "SVE-Textures"
      ],

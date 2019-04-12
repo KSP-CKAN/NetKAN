@@ -1,21 +1,20 @@
 {
     "spec_version": 1,
     "identifier": "TWR1",
-    "$kref": "#/ckan/github/SirDiazo/TWR1",
-    "name": "Vertical Velocity Controller",
+    "$kref": "#/ckan/github/linuxgurugamer/TWR1",
+    "$vref": "#/ckan/ksp-avc",
+    "name": "Vertical Velocity Controller Redux",
     "abstract": "Control your descent speed in discreet increments for soft, controlled skycrane landings.",
-    "author": "Diazo",
+    "author": [ "Diazo", "linuxgurugamer" ],
     "license": "GPL-3.0",
     "release_status": "stable",
-    "ksp_version": "1.3",
     "resources": {
-        "homepage": "http://forum.kerbalspaceprogram.com/threads/50736"
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/175400-14-vertical-velocity-controller-redux/"
     },
-    "recommends": [
-        { "name": "Toolbar" }
-    ],
     "depends": [
-        { "name": "ModuleManager" }
+        { "name": "ModuleManager" },
+	{ "name" : "ToolbarController" },
+        { "name" : "ClickThroughBlocker" }
     ],
     "install": [
         {

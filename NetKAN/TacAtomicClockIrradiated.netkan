@@ -6,6 +6,10 @@
       "find": "TacAtomicClock"
     }
   ],
+  "depends": [
+        { "name" : "ToolbarController" },
+	{ "name" : "ClickThroughBlocker" }
+    ],
   "$vref": "#/ckan/ksp-avc",
   "$kref": "#/ckan/spacedock/1483",
   "x_via": "Automated Linuxgurugamer CKAN script",

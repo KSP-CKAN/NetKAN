@@ -3,28 +3,23 @@
     "identifier"     : "KerbalConstructionTime",
     "$kref"          : "#/ckan/spacedock/222",
     "license"        : "GPL-3.0",
-    "recommends" : [
-        {
-            "name" : "StageRecovery"
-        },
-        {
-            "name" : "KRASH"
-        }
-    ],
-    "suggests" : [
-        {
-            "name" : "Toolbar"
-        }
-    ],
     "install" : [
         {
-            "file"       : "GameData/KerbalConstructionTime",
-            "install_to" : "GameData"
+          "file"       : "GameData/KerbalConstructionTime",
+          "install_to" : "GameData"
         }
     ],
     "depends" : [
-        {
-            "name" : "MagiCore"
-        }
+        { "name" : "MagiCore" }
+    ],
+    "recommends" : [
+        { "name" : "ScrapYard" },
+        { "name" : "KRASH" },
+        { "name" : "StageRecovery" },
+        { "name" : "CrewQueueTwo" },
+        { "name" : "OhScrap" }
+    ],
+    "suggests" : [
+        { "name" : "KerbalAlarmClock" }
     ]
 }

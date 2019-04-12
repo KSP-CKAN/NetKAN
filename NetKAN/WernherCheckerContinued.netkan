@@ -9,6 +9,10 @@
       "find": "WernherChecker"
     }
   ],
+    "depends": [
+        { "name" : "ToolbarController" },
+	{ "name" : "ClickThroughBlocker" }
+    ],
   "$vref": "#/ckan/ksp-avc",
   "$kref": "#/ckan/spacedock/1237",
   "x_via": "Automated Linuxgurugamer CKAN script",

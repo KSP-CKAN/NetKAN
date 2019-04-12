@@ -1,12 +1,12 @@
 {
     "spec_version" : "v1.4",
     "identifier"   : "KerbalKonstructs",
+    "abstract"     : "New buildings and launch sites",
     "author"       : [ "AlphaAsh", "ozraven", "Ger_space" ],
     "$kref"        : "#/ckan/spacedock/1052",
     "$vref"        : "#/ckan/ksp-avc",
     "license"      : "restricted",
     "comment"      : "Plugin is MIT, but Static Assets, Artwork & Models are ARR",
-    "x_netkan_license_ok" : true,
     "depends"      : [
         { "name"   : "ModuleManager" }
     ],
@@ -18,5 +18,8 @@
             "find"       : "KerbalKonstructs",
             "install_to" : "GameData"
         }
-    ]
+    ],
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/151818-*"
+    }
 }

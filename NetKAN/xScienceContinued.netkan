@@ -1,0 +1,20 @@
+{
+    "spec_version": 1,
+    "identifier": "xScienceContinued",
+    "name": "[x] Science! Continued",
+    "$kref": "#/ckan/github/Flupster/KSP-X-Science",
+    "license": "CC-BY-NC-SA-4.0",
+    "author": ["Z-Key Aerospace", "Brodrick", "Flupster"],
+    "abstract": "The Science Report and Checklist for KSP.  [x] Science! keeps track of the science experiments you have completed and recovered to Kerbal Space Center. It also tracks science you have gathered which is held on vehicles and kerbals.  No matter what game scene you are in, what you current vehicle is, [x] Science! always reports on all science held anywhere.",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/182683-*/",
+        "repository": "https://github.com/Flupster/KSP-X-Science"
+    },
+    "$vref" : "#/ckan/ksp-avc",
+    "install": [
+        {
+            "file": "[x] Science!",
+            "install_to": "GameData"
+        }
+    ]
+}

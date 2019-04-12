@@ -1,0 +1,34 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "SciFiVisualEnhancements",
+    "name":         "Sci-Fi Visual Enhancements",
+    "abstract":     "High performance alternative to StockVisualEnhancements",
+    "ksp_version":  "1.6",
+    "version":      "v1.5",
+    "download":     "https://www.dropbox.com/s/zr7e0gwpesctzho/SiFiVE-1.5.zip?dl=1",
+    "license":      "unrestricted",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/151190-*"
+    },
+    "provides":  [            "EnvironmentalVisualEnhancements-Config"   ],
+    "conflicts": [ { "name" : "EnvironmentalVisualEnhancements-Config" } ],
+    "depends": [
+        { "name": "EnvironmentalVisualEnhancements" }
+    ],
+    "install": [ {
+        "find":       "ScifiVisualEnchancements_Base",
+        "install_to": "GameData"
+    }, {
+        "find":       "ScifiVisualEnchancements_Atmospheres",
+        "install_to": "GameData"
+    }, {
+        "find":       "ScifiVisualEnchancements_Clouds",
+        "install_to": "GameData"
+    }, {
+        "find":       "ScifiVisualEnchancements_Dust",
+        "install_to": "GameData"
+    }, {
+        "find":       "ScifiVisualEnchancements_Glows",
+        "install_to": "GameData"
+    } ]
+}

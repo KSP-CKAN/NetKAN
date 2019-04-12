@@ -1,0 +1,21 @@
+{
+    "spec_version" : 1,
+    "identifier"   : "GPWS",
+    "$kref"        : "#/ckan/github/bssthu/KSP_GPWS",
+    "$vref"        : "#/ckan/ksp-avc",
+    "name"         : "Ground Proximity Warning System",
+    "abstract"     : "Add warning sounds for planes.",
+    "license"      : "CC-BY-NC-SA-4.0",
+    "suggests": [
+        { "name": "ModuleManager" }
+    ],
+    "resources"    : {
+        "homepage" : "https://forum.kerbalspaceprogram.com/index.php?/topic/101297-*"
+    },
+    "install"      : [
+        {
+            "file"          : "GameData/GPWS",
+            "install_to"    : "GameData"
+        }
+    ]
+}

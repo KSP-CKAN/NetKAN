@@ -1,0 +1,15 @@
+{
+    "spec_version": "v1.16",
+    "identifier":   "Moca",
+    "$kref":        "#/ckan/spacedock/1953",
+    "license":      "GPL-3.0",
+    "install": [ {
+        "find":       "Green_Rolf_Moca",
+        "install_to": "GameData",
+        "filter":     [ "Moca.craft" ]
+    }, {
+        "find":               "Moca.craft",
+        "install_to":         "Ships/SPH",
+        "find_matches_files": true
+    } ]
+}

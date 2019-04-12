@@ -1,19 +1,5 @@
 {
     "spec_version": "v1.4",
-    "identifier": "CommunityTerrainTexturePack",
-    "name": "Community Terrain Texture Pack",
-    "abstract": "High-quality textures for use by planet creators.",
-    "license": "CC-BY-NC-SA-4.0",
-    "$kref": "#/ckan/github/Galileo88/Community-Terrain-Texture-Pack",
-    "$vref": "#/ckan/ksp-avc",
-    "x_netkan_epoch": "1",
-    "resources": {
-        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/165873-ksp-13-community-terrain-textures-pack-10-26-sept-2017/"
-    },
-    "install": [
-        {
-            "find": "CTTP",
-            "install_to": "GameData"
-        }
-    ]
+    "identifier":   "CommunityTerrainTexturePack",
+    "$kref":        "#/ckan/netkan/https://raw.githubusercontent.com/Galileo88/Community-Terrain-Texture-Pack/master/CKAN/CommunityTerrainTexturePack.netkan"
 }

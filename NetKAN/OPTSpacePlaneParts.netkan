@@ -19,12 +19,8 @@
         { "name": "OPTSpacePlaneMain" }
     ],
     "depends": [
-        {
-            "name": "FirespitterCore"
-        },
-        {
-            "name": "ModuleManager"
-        }
+        { "name": "ModuleManager" },
+        { "name": "OPTReconfig"   }
     ],
     "x_netkan_epoch": 1
 }

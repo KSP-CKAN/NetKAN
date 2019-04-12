@@ -5,8 +5,15 @@
     "license"       : "GPL-3.0",
 
     "resources"     : {
-        "homepage"  : "http://forum.kerbalspaceprogram.com/threads/55625"
+        "homepage"  : "https://forum.kerbalspaceprogram.com/index.php?/topic/50884-14-in-game-notes-notepad-checklist-v0141-20170526/"
     },
+    "depends": [
+        { "name": "ToolbarController" }
+    ],
+    "suggests": [
+        { "name": "RasterPropMonitor" },
+        { "name": "ModuleManager" }
+    ],
     "x_netkan_override" : [
         {
             "version" : "0.10.1",

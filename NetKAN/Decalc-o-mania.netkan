@@ -1,0 +1,18 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "Decalc-o-mania",
+    "$kref":        "#/ckan/spacedock/1958",
+    "$vref":        "#/ckan/ksp-avc",
+    "license":      "CC-BY-NC-4.0",
+    "install": [ {
+        "find":       "Decalc'o'mania",
+        "install_to": "GameData"
+    } ],
+    "depends": [
+        { "name": "ModuleManager"        },
+        { "name": "CommunityCategoryKit" }
+    ],
+    "recommends": [
+        { "name": "TweakScale" }
+    ]
+}

@@ -1,0 +1,15 @@
+{
+  "comment": "THIS IS A DUPLICATE OF ScienceSituationInfo. DO NOT UNFREEZE.",
+  "license": "CC-BY-SA",
+  "identifier": "ExtendedInfoSciExp",
+  "x_via": "Automated Linuxgurugamer CKAN script",
+  "$kref": "#/ckan/spacedock/1008",
+  "install": [
+    {
+      "find": "OLDD",
+      "install_to": "GameData"
+    }
+  ],
+  "x_netkan_epoch": 1,
+  "spec_version": "v1.4"
+}

@@ -6,9 +6,11 @@
       "find": "FShangarExtender"
     }
   ],
+  "depends": [ { "name": "ToolbarController" } ],
   "$vref": "#/ckan/ksp-avc",
   "$kref": "#/ckan/spacedock/1428",
   "x_via": "Automated Linuxgurugamer CKAN script",
   "identifier": "HangerExtenderExtended",
+  "name": "Hangar Extender",
   "license": "CC-BY-SA-4.0"
 }

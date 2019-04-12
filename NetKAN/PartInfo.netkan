@@ -1,0 +1,20 @@
+{
+  "license": "CC-BY-NC-SA-4.0",
+  "identifier": "PartInfo",
+  "x_via": "Automated Linuxgurugamer CKAN script",
+  "$kref"             : "#/ckan/spacedock/2091",
+  "$vref": "#/ckan/ksp-avc",
+  "abstract": "PartInfo is a simple mod to expose the internal part name and path to the part file.",
+  "depends": [
+    {
+      "name": "ModuleManager"
+    }
+  ],
+  "install": [
+    {
+      "find": "PartInfo",
+      "install_to": "GameData"
+    }
+  ],
+  "spec_version": "v1.4"
+}

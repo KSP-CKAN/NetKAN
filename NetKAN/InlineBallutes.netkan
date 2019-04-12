@@ -1,20 +1,20 @@
 {
-    "spec_version" : 1,
+    "spec_version" : "v1.4",
     "identifier"   : "InlineBallutes",
-    "$kref"        : "#/ckan/github/riocrokite/InlineBallutes",
-    "license"      : "CC-BY-NC-SA-4.0",
+    "$kref"        : "#/ckan/github/linuxgurugamer/InlineBallutes",
     "$vref"        : "#/ckan/ksp-avc",
+    "license"      : "CC-BY-NC-SA-4.0",
+    "resources" : {
+        "homepage"     : "https://forum.kerbalspaceprogram.com/index.php?/topic/121162-*"
+    },
     "suggests"     : [
            { "name": "FerramAerospaceResearch" },
            { "name": "EntropyRealChute" },
            { "name": "ModuleManager" }
     ],
     "install": [
-           { "file": "KermangeddonIndustries",
+           { "find": "KermangeddonIndustries",
              "install_to" : "GameData"
            }
-    ],
-    "resources"    : {
-         "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/121162-12-inline-ballutes-ib-v127-25102016/"
-    }
+    ]
 }
