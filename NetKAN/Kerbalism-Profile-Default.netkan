@@ -1,0 +1,24 @@
+{
+	"spec_version": "v1.2",
+	"$kref": "#/ckan/spacedock/1774",
+	"$vref": "#/ckan/ksp-avc/Kerbalism/Kerbalism.version",
+	"license": "Unlicense",
+	"identifier": "Kerbalism-Profile-Default",
+	"name": "Kerbalism - Default Profile",
+	"abstract": "Default profile for Kerbalism",
+	"provides": ["Kerbalism-Profile"],
+	"depends": [{
+			"name": "Kerbalism"
+		},
+		{
+			"name": "CommunityResourcePack"
+		}
+	],
+	"conflicts": [{
+		"name": "Kerbalism-Profile"
+	}],
+	"install": [{
+		"file": "GameData/Kerbalism/Profiles",
+		"install_to": "GameData/Kerbalism/Profiles"
+	}]
+}
