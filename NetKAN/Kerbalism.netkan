@@ -14,12 +14,6 @@
 		},
 		{
 			"name": "CommunityResourcePack"
-		},
-		{
-			"name": "Kerbalism-Config"
-		},
-		{
-			"name": "Kerbalism-Profile"
 		}
 	],
 	"recommends": [{
@@ -75,9 +69,13 @@
 	"x_netkan_override": [{
 		"version": ">2.2",
 		"override": {
-			"recommends": [{
-				"name": "Kerbalism-Profile"
-			}],
+			"depends": [{
+					"name": "Kerbalism-Profile"
+				},
+				{
+					"name": "Kerbalism-Config"
+				}
+			],
 			"install": [{
 				"file": "GameData/Kerbalism",
 				"install_to": "GameData",
