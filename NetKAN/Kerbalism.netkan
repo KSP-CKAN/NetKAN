@@ -72,15 +72,17 @@
 	"conflicts": [{
 		"name": "UKS"
 	}],
-	"version": "<2.2",
-	"override": {
-		"recommends": [{
-			"name": "Kerbalism-Profile"
-		}],
-		"install": [{
-			"file": "GameData/Kerbalism",
-			"install_to": "GameData",
-			"filter_regexp": ["GameData/Kerbalism/Profiles/.+\\.cfg$", "GameData/Kerbalism/System/.+\\.cfg$"]
-		}]
-	}
+	"x_netkan_override": [{
+		"version": ">2.2",
+		"override": {
+			"recommends": [{
+				"name": "Kerbalism-Profile"
+			}],
+			"install": [{
+				"file": "GameData/Kerbalism",
+				"install_to": "GameData",
+				"filter_regexp": ["GameData/Kerbalism/Profiles/.+\\.cfg$", "GameData/Kerbalism/System/.+\\.cfg$"]
+			}]
+		}
+	}]
 }
