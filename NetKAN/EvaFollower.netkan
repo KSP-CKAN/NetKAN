@@ -1,16 +1,17 @@
 {
-    "spec_version": 1,
-    "identifier": "EvaFollower",
-    "$kref": "#/ckan/github/MarijnStevens/EvaFollower",
-    "name": "EVA Follower",
-    "abstract": "Order kerbals around, make them follow you, or make them patrol the area.",
-    "license": "CC-BY-NC-SA-3.0",
-    "resources": {
-        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/84476-*"
-    },
-    "ksp_version": "1.1.2",
-    "install": [
-        { "file": "MSD", "install_to": "GameData", "filter": "Config.cfg~" }
-    ],
-    "x_netkan_version_edit": "v(?<version>.+)"
+  "spec_version": "v1.4",
+  "resources" : {
+      "homepage"     : "https://forum.kerbalspaceprogram.com/index.php?/topic/167310-*"
+  },
+  "install": [
+    {
+      "install_to": "GameData",
+      "find": "EvaFollower"
+    }
+  ],
+  "$vref"             : "#/ckan/ksp-avc",
+  "$kref"             : "#/ckan/spacedock/1582",
+  "x_via"             : "Automated Linuxgurugamer CKAN script",
+  "identifier"        : "EvaFollower",
+  "license"           : "CC-BY-NC-SA-3.0"
 }

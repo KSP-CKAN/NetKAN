@@ -1,9 +1,0 @@
-{
-    "spec_version": 1,
-    "$kref": "#/ckan/kerbalstuff/1123",
-    "license": "MIT",
-    "identifier": "EngineResponseTime",
-    "depends": [
-       { "name": "ModuleManager" }
-    ]
-}

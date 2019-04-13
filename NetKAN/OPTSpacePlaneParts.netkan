@@ -5,7 +5,10 @@
     "abstract"    : "Parts from previous OPT versions, recommended to avoid game breaking if you used v1.8.6",
     "license"     : "CC-BY-NC-SA-4.0",
     "$kref"       : "#/ckan/spacedock/711",
-    "$vref"       : "#/ckan/ksp-avc/GameData/OPT_Legacy/OPTLegacySpaceplaneParts.version",
+    "$vref"       : "#/ckan/ksp-avc/OPTLegacySpaceplaneParts.version",
+    "resources"    : {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/87956-opt-space-plane-temporary-thread"
+    },
     "install": [
         {
             "find": "OPT_Legacy",
@@ -16,11 +19,8 @@
         { "name": "OPTSpacePlaneMain" }
     ],
     "depends": [
-        {
-            "name": "FirespitterCore"
-        },
-        {
-            "name": "ModuleManager"
-        }
-    ]
+        { "name": "ModuleManager" },
+        { "name": "OPTReconfig"   }
+    ],
+    "x_netkan_epoch": 1
 }

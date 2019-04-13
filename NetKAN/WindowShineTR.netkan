@@ -1,28 +1,44 @@
 {
-    "spec_version": 1,
-    "identifier": "WindowShineTR",
-    "name": "WindowShine",
-    "abstract": "Stock reflective windows and solar panels + mod support!",
-    "author": "Avera9eJoe",
-    "license": "CC-BY-NC-4.0",
-    "resources": {
-        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/110080-105"
-    },
-    "version": "v12",
-    "ksp_version": "1.1.3",
-    "depends": [
-        {
-            "name": "TextureReplacer"
-        },
-        {
-            "name": "ModuleManager"
-        }
-    ],
-    "install": [
-        {
-            "file": "GameData/TextureReplacer",
-            "install_to": "GameData"
-        }
-    ],
-    "download": "https://www.dropbox.com/s/pyvsphdgi86uz6k/WindowShineTR-v12.zip?dl=1"
+	"spec_version": 1,
+	"identifier": "WindowShineTR",
+	"name": "WindowShine",
+	"abstract": "Stock reflective windows and solar panels + mod support!",
+	"author": "Avera9eJoe",
+	"license": "CC-BY-NC-4.0",
+	"$kref": "#/ckan/spacedock/1504",
+	"resources": {
+		"homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/110080-105"
+	},
+	"depends": [{
+			"name": "TextureReplacerReplaced"
+		},
+		{
+			"name": "ModuleManager"
+		}
+	],
+	"install": [{
+		"file": "GameData/WindowShine",
+		"install_to": "GameData"
+	}],
+	"x_netkan_override": [{
+			"version": "v15",
+			"delete": ["ksp_version"],
+			"override": {
+				"ksp_version_min": "1.3",
+				"ksp_version_max": "1.3.99"
+			}
+		},
+		{
+			"version": ["v11", "v12"],
+			"override": {
+				"depends": [{
+						"name": "TextureReplacer"
+					},
+					{
+						"name": "ModuleManager"
+					}
+				]
+			}
+		}
+	]
 }

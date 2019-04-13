@@ -1,0 +1,38 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "GPO",
+    "name":         "Gameslinx Planet Overhaul",
+    "author":       "Gameslinx",
+    "abstract":     "A large planet mod which comes with its own suite of visuals for your enjoyment. This mod adds 28 new worlds to explore.",
+    "license":      "CC-BY-NC-ND-4.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/155740-*"
+    },
+    "$vref": "#/ckan/ksp-avc",
+    "$kref": "#/ckan/github/Gameslinx/Gameslinx-Planet-Overhaul",
+    "depends": [
+        { "name": "Kopernicus"                      },
+        { "name": "CommunityTerrainTexturePack"     },
+	{ "name": "Scatterer"       	            },
+	{ "name": "Scatterer-config"       	    },
+        { "name": "INSTANTIATOR"                    }
+    ],
+    "conflicts": [
+	{ "name": "GPP" }
+    ],
+    "recommends": [
+        { "name": "SigmaReplacements-SkyBox"        }
+    ],
+    "suggests": [
+    	{ "name": "EnvironmentalVisualEnhancements" },
+	{ "name": "KS3P"                            }
+    ],
+    "provides": [
+        "EnvironmentalVisualEnhancements-Config",
+        "Scatterer-sunflare"
+    ],
+    "install": [ {
+        "find":       "GPO",
+        "install_to": "GameData"
+    } ]
+}

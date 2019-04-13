@@ -4,6 +4,21 @@
     "$kref" : "#/ckan/spacedock/86",
     "$vref" : "#/ckan/ksp-avc",
     "license" : "CC-BY-NC-SA",
+    "supports": [
+        { "name": "SpaceY-Lifters" },
+        { "name": "ColorCodedCans" },
+        { "name": "ColorfulFuelLines" },
+        { "name": "FuelTanksPlus" },
+        { "name": "LithobrakeExplorationTechnologies" },
+        { "name": "TweakScale" },
+        { "name": "FerramAerospaceResearch" },
+        { "name": "KSP-AVC" },
+        { "name": "RemoteTech" },
+        { "name": "EngineIgnitorReignited" },
+        { "name": "CommunityTechTree" },
+        { "name": "HotRockets" },
+        { "name": "ConnectedLivingSpace" }
+    ],
     "conflicts": [
         { "name": "ModularRocketSystemsLITE" }
     ],

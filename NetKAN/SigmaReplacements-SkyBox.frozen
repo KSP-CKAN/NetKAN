@@ -1,0 +1,19 @@
+{
+    "spec_version" : "v1.4",
+    "identifier"   : "SigmaReplacements-SkyBox",
+    "$kref"        : "#/ckan/github/Sigma88/Sigma-Replacements/asset_match/Sigma-Replacements_SkyBox.*?\\.zip",
+    "$vref"        : "#/ckan/ksp-avc",
+    "name"         : "Sigma Replacements: SkyBox",
+    "abstract"     : "Customizeable SkyBox",
+    "license"      : "restricted",
+    "author"       : "Sigma88",
+    "resources": {
+        "homepage": "https://github.com/Sigma88/Sigma-Replacements"
+    },
+    "install": [
+        {
+            "find": "SkyBox",
+            "install_to": "GameData/Sigma/Replacements"
+        }
+    ]
+}

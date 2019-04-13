@@ -11,14 +11,5 @@
     "recommends" : [
         { "name" : "SmartStage" }
     ],
-    "x_netkan_override" : [
-        {
-            "version" : "v0.9.1",
-            "delete" : [ "ksp_version" ],
-            "override" : {
-                "ksp_version_min" : "1.0.2",
-                "ksp_version_max" : "1.0.4"
-            }
-        }
-    ]
+    "x_netkan_epoch": "1"
 }

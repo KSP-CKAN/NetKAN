@@ -6,16 +6,17 @@
     "x_netkan_license_ok" : true,
     "release_status" : "stable",
     "resources" : {
-        "homepage"    : "http://forum.kerbalspaceprogram.com/threads/125193",
+        "homepage"    : "https://forum.kerbalspaceprogram.com/index.php?/topic/112754-13-14-better-science-labs-continued/",
         "repository"  : "https://github.com/linuxgurugamer/BetterScienceLabsContinued"
     },
+    "recommends": [ { "name": "JanitorsCloset" } ],
     "depends" : [
         { "name": "ModuleManager" },
         { "name": "SpacetuxSA" }
     ],
     "install": [
         {
-            "find"       : "Better Science Labs Continued",
+            "find"       : "BetterScienceLabsContinued",
             "install_to" : "GameData"
         }
     ]

@@ -1,38 +1,38 @@
 {
     "spec_version" : "v1.4",
     "identifier"   : "SDHI-ServiceModuleSystem",
-    "$kref"        : "#/ckan/github/sumghai/SDHI_ServiceModuleSystem",
     "name"         : "Sum Dum Heavy Industries - Service Module System",
     "abstract"     : "Service Module and accessories designed specifically for use with the stock Mk1-2 Command Pod, vaguely resembling NASA's Orion MPCV. May or may not have a convincing stockalike appearance.",
+    "$kref"        : "#/ckan/github/sumghai/SDHI_ServiceModuleSystem",
     "license"      : "CC-BY-SA-4.0",
-    "ksp_version"  : "1.2.2",
+    "ksp_version"  : "1.6",
+    "x_netkan_staging": true,
+    "x_netkan_staging_reason": "Game versions hard coded in NetKAN. Please check that it matches the forum thread.",
+    "x_netkan_force_v": true,
     "resources"    : {
-        "homepage"   : "http://forum.kerbalspaceprogram.com/index.php?/topic/48073-121-sdhi-service-module-system-v321-20-november-2016/",
+        "homepage"   : "https://forum.kerbalspaceprogram.com/index.php?/topic/48073-*",
         "repository" : "https://github.com/sumghai/SDHI_ServiceModuleSystem"
     },
     "install": [
       {
-        "file": "GameData/SDHI",
+        "file":       "GameData/SDHI",
         "install_to": "GameData",
-        "filter" : [
-               "Agencies"
-        ]
+        "filter":     [ "Agencies" ]
       }
     ],
     "depends"      : [
         { "name" : "AnimatedDecouplers" },
-        { "name" : "ModuleManager" },
-        { "name" : "RealChute" },
-        { "name" : "SDHI-SharedAssets" }
+        { "name" : "ModuleManager"      },
+        { "name" : "RealChute"          },
+        { "name" : "SDHI-SharedAssets"  }
     ],
     "suggests"     : [
-        { "name" : "DeadlyReentry" },
-        { "name" : "FerramAerospaceResearch" },
-        { "name" : "TACLS" },
-        { "name" : "USI-LS" },
-        { "name" : "ShipManifest" },
-        { "name" : "ConnectedLivingSpace" },
+        { "name" : "DeadlyReentry"                      },
+        { "name" : "FerramAerospaceResearch"            },
+        { "name" : "TACLS"                              },
+        { "name" : "USI-LS"                             },
+        { "name" : "ShipManifest"                       },
+        { "name" : "ConnectedLivingSpace"               },
         { "name" : "PEBKACIndustriesLaunchEscapeSystem" }
-    ],
-    "x_netkan_force_v" : true
+    ]
 }

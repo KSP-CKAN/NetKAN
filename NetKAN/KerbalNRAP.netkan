@@ -4,18 +4,9 @@
     "$kref": "#/ckan/spacedock/386",
     "$vref": "#/ckan/ksp-avc",
     "license": "CC-BY-SA",
-    "author": [ "stupid_chris", "kotysoft" ],
+    "author": [ "linuxgurugamer", "stupid_chris", "kotysoft" ],
+    "depends" : [ { "name" : "ClickThroughBlocker" } ],
     "install": [
         { "file": "GameData/NRAP", "install_to": "GameData" }
-    ],
-    "x_netkan_override": [
-        {
-            "version": "1.5.0.4",
-            "delete": [ "ksp_version" ],
-            "override": {
-                "ksp_version_min": "1.0.2",
-                "ksp_version_max": "1.0.5"
-            }
-        }
     ]
 }

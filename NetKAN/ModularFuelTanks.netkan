@@ -16,25 +16,17 @@
     ],
     "supports" : [
         { "name" : "AIESAerospace-Unofficial" },
-        { "name" : "AIESAerospace" },
-        { "name" : "FASA" },
-        { "name" : "Firespitter" },
-        { "name" : "KOSMOS" },
-        { "name" : "KSPX" },
-        { "name" : "KWRocketry" },
-        { "name" : "MFSSettings" },
-        { "name" : "NASAmission" },
-        { "name" : "NovaPunch" },
-        { "name" : "RLA-Stockalike" },
-        { "name" : "SDHI" },
-        { "name" : "SpaceShuttleEngines" },
-        { "name" : "Squad" },
-        { "name" : "Stretchy" },
-        { "name" : "THHS" },
-        { "name" : "TT" },
-        { "name" : "TVPP" }
+        { "name" : "FASA"                     },
+        { "name" : "Firespitter"              },
+        { "name" : "KOSMOS-SSPP"              },
+        { "name" : "KSPX"                     },
+        { "name" : "KWRocketry"               },
+        { "name" : "NovaPunch"                },
+        { "name" : "RLA-Stockalike"           },
+        { "name" : "SDHI-ServiceModuleSystem" },
+        { "name" : "SpaceShuttleEngines"      }
     ],
-    "version"        : "5.8.2",
-    "ksp_version"    : "1.2.1",
-    "download"       : "http://taniwha.org/~bill/ModularFuelTanks_v5.8.2.zip"
+    "version"        : "5.12.1",
+    "ksp_version_min" : "1.4",
+    "download"       : "http://taniwha.org/~bill/ModularFuelTanks_v5.11.0.zip"
 }

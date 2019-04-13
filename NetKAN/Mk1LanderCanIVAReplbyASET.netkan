@@ -1,0 +1,19 @@
+{
+  "spec_version": "v1.4",
+  "install": [
+    {
+      "install_to": "GameData",
+      "find": "ASET"
+    }
+  ],
+  "depends": [
+       { "name": "ASETAgency" },
+       { "name": "ModuleManager" },
+       { "name": "ASETProps" , "min_version": "1.4"},
+       { "name": "RasterPropMonitor-Core", "min_version": "0.28.0" }
+  ],
+  "$kref": "#/ckan/spacedock/1208",
+  "x_via": "Automated Linuxgurugamer CKAN script",
+  "identifier": "Mk1LanderCanIVAReplbyASET",
+  "license": "CC-BY-NC-SA-3.0"
+}

@@ -8,13 +8,13 @@
     "resources": {
         "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/107432-kerballoons"
     },
-    "version": "v0.4.1",
-    "ksp_version": "1.1.3",
+    "version": "v0.4.3",
+    "ksp_version": "1.3",
     "install": [
         {
-            "find": "GameData/KerBalloons",
+            "file": "KerBalloons",
             "install_to": "GameData"
         }
     ],
-    "download": "https://addons-origin.cursecdn.com/files/2323/280/KerBalloons.zip"
+    "download": "https://addons-origin.cursecdn.com/files/2452/453/KerBalloons.zip"
 }

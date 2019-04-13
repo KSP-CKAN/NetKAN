@@ -1,0 +1,10 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "DodoLabsStockalikeElectron",
+    "$kref":        "#/ckan/spacedock/1944",
+    "license":      "restricted",
+    "install": [ {
+        "find":       "DodoLabs",
+        "install_to": "GameData"
+    } ]
+}

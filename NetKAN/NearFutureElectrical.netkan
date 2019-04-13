@@ -1,32 +1,5 @@
 {
     "spec_version"        : "v1.4",
-    "identifier"          : "NearFutureElectrical",
-    "$kref"               : "#/ckan/spacedock/558",
-    "name"                : "Near Future Electrical",
-    "abstract"            : "Nuclear reactors, capacitors and more batteries that fit right in with stock",
-    "author"              : "Nertea",
-    "license"             : "CC-BY-NC-SA-4.0",
-    "$vref"               : "#/ckan/ksp-avc",
-    "depends" : [
-        { "name" : "B9PartSwitch" },
-        { "name" : "CommunityResourcePack" },
-        { "name" : "NearFutureElectrical-Core" },
-        { "name" : "ModuleManager" }
-    ],
-    "recommends": [
-        { "name" : "CommunityTechTree" }
-    ],
-    "suggests": [
-        { "name" : "NearFutureConstruction" },
-        { "name" : "NearFutureElectrical-DecayingRTGs" },
-        { "name" : "NearFuturePropulsion" },
-        { "name" : "NearFutureSolar" },
-        { "name" : "NearFutureSpacecraft" }
-    ],
-    "install" : [
-        { "find"       : "NearFutureElectrical",
-          "install_to" : "GameData",
-          "filter"     : "NearFutureElectrical.dll"
-        }
-    ]
+    "identifier"    : "NearFutureElectrical",
+    "$kref"         : "#/ckan/netkan/https://github.com/ChrisAdderley/NearFutureElectrical/raw/master/CKAN/NearFutureElectrical.netkan"
 }

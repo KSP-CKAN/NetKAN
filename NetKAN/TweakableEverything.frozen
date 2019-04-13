@@ -1,0 +1,20 @@
+{
+    "spec_version" : 1,
+    "identifier"   : "TweakableEverything",
+    "$kref"        : "#/ckan/spacedock/287",
+    "license"      : "BSD-3-clause",
+    "install": [
+        {
+            "file": "GameData/TweakableEverything",
+            "install_to": "GameData"
+        }
+    ],
+    "conflicts": [
+    	{ "name" : "TweakScale" }
+    ],
+    "depends": [
+        { "name": "ModuleManager" },
+        { "name": "ToadicusTools" },
+        { "name": "EVAManager" }
+    ]
+}

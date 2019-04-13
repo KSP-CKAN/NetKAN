@@ -9,8 +9,8 @@
     },
     "$kref"         : "#/ckan/github/KSP-RO/USRockets",
     "license"       : "CC-BY-NC-ND-3.0",
-    "ksp_version_min"   : "1.2.0",
-    "ksp_version_max"   : "1.2.2",
+    "$vref"        : "#/ckan/ksp-avc",
+	"x_netkan_epoch"   : 1,
     "install"       : [
     {
         "find"      : "RN_US_Rockets",
@@ -22,7 +22,7 @@
     }],
     "depends": [
 		{ "name": "BDAnimationModules" },
-        { "name": "TextureReplacer" },
+        { "name": "TexturesUnlimited" },
 		{ "name": "ModuleManager" }
     ],
 	"recommends"    :

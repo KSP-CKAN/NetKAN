@@ -9,6 +9,11 @@
         "homepage":"http://forum.kerbalspaceprogram.com/index.php?/topic/138349-champagne-bottle-redux/",
         "repository":"https://github.com/linuxgurugamer/ChampagneBottleRedux"
     },
+       "depends": [
+        { "name": "ToolbarController" },
+        { "name" : "ClickThroughBlocker" }
+    ],
+    "recommends": [ { "name": "JanitorsCloset" } ],
     "install": [
         {
             "find": "Champagne",

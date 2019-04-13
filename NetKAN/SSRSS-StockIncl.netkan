@@ -1,0 +1,20 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "SSRSS-StockIncl",
+    "$kref": "#/ckan/github/Galileo88/SSRSSContinued",
+    "$vref": "#/ckan/ksp-avc",
+    "name": "Stock Size Real Solar System - Stock Inclinations",
+    "abstract": "Gives SSRSS stock-a-like inclinations.",
+    "license": "CC-BY-NC-ND",
+    "depends":
+    [
+        { "name": "SSRSS-Cont" }
+    ],
+    "install":
+    [
+        {
+            "find": "Stockalike Inclinations",
+            "install_to": "GameData/SSRSS"
+        }
+    ]
+}

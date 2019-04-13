@@ -8,11 +8,11 @@
     "abstract": "Loading multiple planet packs in the same game.",
     "license": "restricted",
     "resources": {
-        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/116058-wip11-galactic-neighborhood/"
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/116058-gn/"
     },
     "depends": [
-        { "name": "ModuleManager", "min_version": "2.6.23" },
-        { "name": "Kopernicus", "min_version": "2:release-1-0-2" }
+        { "name": "ModuleManager" },
+        { "name": "Kopernicus" }
     ],
     "install": [
         {

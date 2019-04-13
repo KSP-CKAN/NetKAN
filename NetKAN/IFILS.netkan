@@ -1,24 +1,28 @@
 {
-    "spec_version" : 1,
-    "identifier"   : "IFILS",
-    "$kref"        : "#/ckan/github/Will565/IFI-Life-Support",
-    "name"         : "Interstellar Flight Inc. - Kerbal Life Support",
-    "abstract"     : "I know that there are a few Life support mods in development. They are too intense for my tastes. SO I designed my own.",
-    "license"      : "GPL-3.0",
-    "ksp_version"  : "1.0",
-    "resources"    : {
-        "homepage" : "http://forum.kerbalspaceprogram.com/threads/92011"
+  "spec_version": "v1.4",
+  "install": [
+    {
+      "filter_regexp": [
+        ".*~$"
+      ],
+      "install_to": "GameData",
+      "find": "IFILS"
+    }
+  ],
+  "depends": [
+    {
+      "name": "CommunityResourcePack"
     },
-    "depends"      : [
-        {
-            "name" : "ModuleManager"
-        }
-    ],
-    "install"      : [
-        {
-            "file"          : "IFILS",
-            "install_to"    : "GameData",
-            "filter_regexp" : "ModuleManager.*dll$"
-        }
-    ]
+    {
+      "name": "CommunityCategoryKit"
+    },
+    {
+      "name": "ModuleManager"
+    }
+  ],
+  "$vref": "#/ckan/ksp-avc",
+  "$kref": "#/ckan/spacedock/1610",
+  "x_via": "Automated Linuxgurugamer CKAN script",
+  "identifier": "IFILS",
+  "license": "GPL-3.0"
 }

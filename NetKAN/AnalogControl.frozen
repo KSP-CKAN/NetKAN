@@ -1,0 +1,19 @@
+{
+    "spec_version" : 1,
+    "identifier"   : "AnalogControl",
+    "$kref"        : "#/ckan/github/Crzyrndm/Analog-Control",
+    "name"         : "Analog Control",
+    "abstract"     : "Mouse Yoke",
+    "license"      : "GPL-3.0",
+    "$vref" : "#/ckan/ksp-avc",
+
+    "resources" : {
+        "homepage" : "https://forum.kerbalspaceprogram.com/index.php?/topic/89385-090-v15-analog-control-fly-smoothly-with-keyboard-and-mouse/"
+    },
+    "install" : [
+        {
+            "file"       : "GameData/Analog Control",
+            "install_to" : "GameData"
+        }
+    ]
+}

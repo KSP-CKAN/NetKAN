@@ -1,0 +1,14 @@
+{
+  "spec_version": "v1.4",
+  "install": [
+    {
+      "install_to": "GameData",
+      "find": "KSPWheel"
+    }
+  ],
+  "$vref": "#/ckan/ksp-avc",
+  "$kref": "#/ckan/github/shadowmage45/KSPWheel",
+  "x_via": "Automated Linuxgurugamer CKAN script",
+  "identifier": "KSPWheel",
+  "license": "GPL-3.0"
+}

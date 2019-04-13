@@ -1,0 +1,27 @@
+{
+    "spec_version" : "v1.4",
+    "identifier"   : "CommNetAntennasExtension",
+    "$kref"        : "#/ckan/github/yalov/CommNetAntennasExtension",
+    "name"         : "CommNet Antennas Extension",
+    "author"       : "flart",
+    "license"      : "GPL-3.0",
+    "release_status" : "stable",
+    "$vref" : "#/ckan/ksp-avc",
+    "resources" : {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/177292-*"
+    },
+    "conflicts": [
+        { "name": "RemoteTech" }
+    ],
+    "depends": [
+        { "name": "RemoteTechRedevAntennas" },
+        { "name": "ModuleManager" }
+    ],
+    "recommends": [
+        { "name": "CommunityPartsTitles" },
+        { "name": "CommNetAntennasInfo" }
+    ],
+    "suggests": [
+        { "name": "SpeedUnitAnnex" }
+    ]
+}

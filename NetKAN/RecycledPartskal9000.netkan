@@ -1,0 +1,21 @@
+{
+  "spec_version": "v1.4",
+  "install": [
+    {
+      "install_to": "GameData/SpaceTuxIndustries/RecycledParts",
+      "find": "KAL9000"
+    }
+  ],
+ "suggests": [
+        { "name": "JanitorsCloset" }
+  ],
+  "conflicts": [
+    { "name" : "RecycledPartskal9000" }
+  ],
+  "$vref": "#/ckan/ksp-avc",
+  "$kref": "#/ckan/spacedock/1507",
+  "x_via": "Automated Linuxgurugamer CKAN script",
+  "identifier": "RecycledPartskal9000",
+  "name": "Recycled Parts KAL-9000",
+  "license": "restricted"
+}

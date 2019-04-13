@@ -1,0 +1,21 @@
+{
+  "spec_version": "v1.4",
+  "install": [
+    {
+      "install_to": "GameData/SpaceTuxIndustries/RecycledParts",
+      "find": "Mk2Containers"
+    }
+  ],
+ "suggests": [
+        { "name": "JanitorsCloset" }
+  ],
+  "conflicts": [
+    { "name" : "RecycledPartsMk2KISContainers" }
+  ],
+  "$vref": "#/ckan/ksp-avc",
+  "$kref": "#/ckan/spacedock/1507",
+  "x_via": "Automated Linuxgurugamer CKAN script",
+  "identifier": "RecycledPartsMk2KISContainers",
+  "name": "Recycled Parts Mk2 KIS Containers",
+  "license": "restricted"
+}

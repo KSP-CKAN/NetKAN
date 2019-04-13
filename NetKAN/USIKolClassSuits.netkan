@@ -1,0 +1,19 @@
+{
+  "spec_version": "v1.4",
+  "install": [
+    {
+      "install_to": "GameData",
+      "find": "TextureReplacerReplaced"
+    }
+  ],
+  "depends": [
+    { "name": "ModuleManager" },
+    { "name": "TextureReplacerReplaced" },
+    { "name": "UKS" }
+
+  ],
+  "$kref": "#/ckan/spacedock/1175",
+  "x_via": "Automated Linuxgurugamer CKAN script",
+  "identifier": "USIKolClassSuits",
+  "license": "unrestricted"
+}

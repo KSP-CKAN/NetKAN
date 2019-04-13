@@ -7,19 +7,11 @@
     }
   ],
   "depends": [
-    {
-      "name": "FirespitterResourcesConfig"
-    },
-    {
-      "name": "BDAnimationModules"
-    },
-    {
-      "name": "ModuleManager"
-    },
-    {
-      "name": "FirespitterCore"
-    }
+    { "name": "BDAnimationModules" },
+    { "name": "ModuleManager" },
+    { "name": "InterstellarFuelSwitch-Core" }
   ],
+  "x_netkan_epoch": "1",
   "$vref": "#/ckan/ksp-avc",
   "$kref": "#/ckan/spacedock/1074",
   "x_via": "Automated Linuxgurugamer CKAN script",

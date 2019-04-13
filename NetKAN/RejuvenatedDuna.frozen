@@ -1,0 +1,17 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "RejuvenatedDuna",
+    "$kref":        "#/ckan/spacedock/894",
+    "license":      "CC-BY-NC-SA-4.0",
+    "x_via":        "Automated SpaceDock CKAN submission",
+    "depends": [
+        { "name": "ModuleManager" },
+        { "name": "Kopernicus"    }
+    ],
+    "install": [
+        {
+            "find":       "RejuvenatedDuna",
+            "install_to": "GameData"
+        }
+    ]
+}

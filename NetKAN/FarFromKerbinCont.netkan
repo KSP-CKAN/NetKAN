@@ -1,0 +1,22 @@
+{
+  "spec_version": "v1.4",
+  "install": [
+    {
+      "install_to": "GameData",
+      "find": "FarFromKerbin"
+    }
+  ],
+  "depends": [
+    { "name": "CommunityResourcePack" },
+    { "name": "KIS" },
+    { "name": "ModuleManager" }
+  ],
+  "conflicts": [
+    { "name" : "FarFromKerbin" }
+  ],
+  "$vref": "#/ckan/ksp-avc",
+  "$kref": "#/ckan/spacedock/1230",
+  "x_via": "Automated Linuxgurugamer CKAN script",
+  "identifier": "FarFromKerbinCont",
+  "license": "CC-BY-NC-SA-4.0"
+}

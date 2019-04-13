@@ -1,0 +1,20 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "JDBallisback",
+    "$kref":        "#/ckan/spacedock/849",
+    "license":      "MIT",
+    "recommends": [
+        { "name": "KAS" },
+        { "name": "KIS" }
+    ],
+    "install": [
+        {
+           "file": "JatwaaDemolitionsCo",
+           "install_to": "GameData"
+        }
+    ],
+    "conflicts": [
+        { "name": "Ballistanks"      },
+        { "name": "JDLiquidFuelCell" }
+    ]
+}

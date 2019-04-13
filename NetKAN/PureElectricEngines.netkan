@@ -1,0 +1,10 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "PureElectricEngines",
+    "$kref":        "#/ckan/spacedock/1998",
+    "license":      "MIT",
+    "install": [ {
+        "find":       "JDSA",
+        "install_to": "GameData"
+    } ]
+}

@@ -1,6 +1,7 @@
 {
     "spec_version" : "v1.4",
     "$kref"        : "#/ckan/spacedock/175",
+    "$vref"        : "#/ckan/ksp-avc/InterstellarFuelSwitch.version",
     "identifier"   : "InterstellarFuelSwitch-Core",
     "name"         : "Interstellar Fuel Switch Core",
     "abstract"     : "Core plugin for Interstellar Fuel Switch",
@@ -9,9 +10,19 @@
         {
             "find"       : "InterstellarFuelSwitch/Plugins",
             "install_to" : "GameData/InterstellarFuelSwitch"
+        },
+        {
+            "find"       : "InterstellarFuelSwitch/Resources",
+            "install_to" : "GameData/InterstellarFuelSwitch"
+        },
+        {
+            "find"       : "InterstellarFuelSwitch/Localization",
+            "install_to" : "GameData/InterstellarFuelSwitch"
         }
     ],
+    "provides": [ "DeadskinsTextureSwitch", "DeadskinsMeshSwitch" ],
     "recommends": [
-        { "name"         : "TweakScale", "min_version" : "2.2.10" }
+        { "name" : "CommunityResourcePack", "min_version" : "0.7.1" },
+        { "name" : "TweakScale",            "min_version" : "2.3.6" }
     ]
 }

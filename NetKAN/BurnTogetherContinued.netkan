@@ -2,11 +2,15 @@
     "spec_version": 1,
     "identifier": "BurnTogetherContinued",
     "$kref": "#/ckan/github/PapaJoesSoup/BurnTogether",
+    "$vref": "#/ckan/ksp-avc",
     "name": "BurnTogether Continued",
     "abstract": "Set spacecraft or rovers to follow your craft, matching velocity and thrust to weight ratio.",
     "author": [ "BahamutoD", "Papa_Joe" ],
     "license": "CC-BY-SA-2.0",
-    "ksp_version": "1.1.3",
+    "ksp_version": "1.3.0",
+    "resources" : {
+        "homepage" : "https://forum.kerbalspaceprogram.com/index.php?/topic/178156-*"
+    },
     "provides": [
 	    "BurnTogether"
 	],
@@ -19,6 +23,16 @@
             "install_to": "GameData",
             "filter": "BTforCommandModules.zip",
             "comment": "No way to install files from a .zip, it's a MM patch to add functionality to pods without the part."
+        }
+    ],
+    "x_netkan_override": [
+        {
+            "version": "0.1.3.0",
+            "override": {
+                "ksp_version_min" : "1.3.0",
+                "ksp_version_max" : "1.3.0"
+            },
+            "comment": "Match GitHub compatibility description"
         }
     ]
 }

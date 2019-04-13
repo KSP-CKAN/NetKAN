@@ -1,0 +1,11 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "BiomeCorrections",
+    "license": "CC-BY-NC-SA-4.0",
+    "$kref": "#/ckan/spacedock/1555",
+    "x_via": "Automated SpaceDock CKAN submission",
+    "depends": [
+        { "name": "Kopernicus" },
+        { "name": "ModuleManager" }
+    ]
+}

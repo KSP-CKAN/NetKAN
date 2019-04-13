@@ -1,35 +1,26 @@
 {
-    "spec_version": 1,
-    "identifier": "SigmaDimensions",
-    "$kref": "#/ckan/github/Sigma88/Sigma-Dimensions",
-    "$vref": "#/ckan/ksp-avc",
+    "spec_version": "v1.4",
+    "identifier":   "SigmaDimensions",
+    "$kref":        "#/ckan/github/Sigma88/Sigma-Dimensions",
+    "$vref":        "#/ckan/ksp-avc",
+    "name":         "Sigma Dimensions",
+    "abstract":     "The Universal Rescale Mod",
+    "license":      "restricted",
     "x_netkan_version_edit": "^[vV]?(?<version>.+)$",
-    "name": "Sigma Dimensions",
-    "abstract": "The Universal Rescale Mod",
-    "license": "restricted",
-    "release_status": "development",
     "resources": {
-        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/126548-*"
+        "homepage": "https://www.github.com/Sigma88/Sigma-Dimensions"
     },
     "depends": [
-        { "name": "ModuleManager", "min_version": "2.6.23" },
-        { "name": "Kopernicus", "min_version": "2:release-1-0-3" }
+        { "name": "ModuleManager" },
+        { "name": "Kopernicus" }
+    ],
+    "suggests": [
+        { "name": "KKtoSD" }
     ],
     "install": [
         {
-            "file": "GameData/Sigma",
-            "install_to": "GameData"
-        }
-    ],
-    "x_netkan_override": [
-        {
-            "version": "0.4.3",
-            "override": {
-                "depends": [
-                    { "name": "ModuleManager", "min_version": "2.6.19" },
-                    { "name": "Kopernicus", "min_version": "1:beta-06-3" }
-                ]
-            }
+            "find":       "Dimensions",
+            "install_to": "GameData/Sigma"
         }
     ]
 }

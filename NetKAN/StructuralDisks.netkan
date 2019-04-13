@@ -3,7 +3,6 @@
   "identifier": "StructuralDisks",
   "x_via": "Automated Linuxgurugamer CKAN script",
   "$kref": "#/ckan/spacedock/1020",
-  "$vref": "#/ckan/ksp-avc",
   "depends": [
     {
       "name": "ModuleManager"
@@ -15,5 +14,16 @@
       "install_to": "GameData"
     }
   ],
-  "spec_version": "v1.4"
+  "spec_version": "v1.4",
+ 
+"x_netkan_override": [
+        {
+            "version": "1.2.0.1",
+            "delete": [ "ksp_version" ],
+            "override": {
+                "ksp_version" : "1.2.1"
+            }
+        }
+    ]
+
 }

@@ -1,0 +1,18 @@
+{
+  "spec_version": "v1.4",
+  "install": [
+    {
+      "install_to": "GameData",
+      "find": "HaystackContinued"
+    }
+  ],
+  "depends": [
+    { "name" : "ToolbarController" },
+    { "name" : "ClickThroughBlocker" }
+  ],
+  "$vref": "#/ckan/ksp-avc",
+  "$kref": "#/ckan/spacedock/1680",
+  "x_via": "Automated Linuxgurugamer CKAN script",
+  "identifier": "HaystackReContinued",
+  "license": "MIT"
+}

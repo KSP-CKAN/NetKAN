@@ -3,15 +3,15 @@
     "identifier"    : "RN-SovietProbes",
     "name"          : "Soviet Probes",
     "author"        : "Raidernick",
-    "abstract"      : "So here is yet another project. This time I am working on the series of soviet probes, focusing on the luna and sputnik probes. I will also do Molniya and Polyot probes.",
+    "abstract"      : "This pack includes early Soviet probes such as Sputnik, Luna, Molniya and Polyot. Probes are meant to be used with my Soviet Rockets pack.",
     "comment"       : "Ships installed again",
     "resources": {
-        "homepage"  : "http://forum.kerbalspaceprogram.com/threads/88045"
+        "homepage"  : "https://forum.kerbalspaceprogram.com/index.php?/topic/79433-122-131-soviet-probes-soviet-rockets-r7soyuzprotonzenit-4-2-18/"
     },
     "$kref"         : "#/ckan/github/KSP-RO/SovietProbes",
     "license"       : "CC-BY-NC-ND-3.0",
-    "ksp_version_min"   : "1.2.0",
-    "ksp_version_max"   : "1.2.2",
+    "$vref"        : "#/ckan/ksp-avc",
+	"x_netkan_epoch"   : 1,
     "install"       : [
     {
         "find"      : "RN_Soviet_Probes",
@@ -24,7 +24,7 @@
     "depends"       : [
         { "name"      : "BDAnimationModules"  },
 		{ "name" 	  : "ModuleManager" },
-        { "name"      : "TextureReplacer" }
+        { "name"      : "TexturesUnlimited" }
     ],
     "recommends"    : [
         { "name"      : "RN-SovietRockets" }

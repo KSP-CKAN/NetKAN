@@ -1,0 +1,15 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "Fenrir",
+    "license": "CC-BY-NC-SA-4.0",
+    "$kref": "#/ckan/spacedock/1561",
+    "depends": [
+        { "name": "ModuleManager" }
+    ],
+    "install": [
+        {
+            "find":"Mythological-Space-Administration",
+            "install_to": "GameData"
+        }
+    ]
+}

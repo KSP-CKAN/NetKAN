@@ -1,15 +1,15 @@
 {
     "spec_version"   : 1,
     "name"           : "Extraplanetary Launchpads",
-    "$kref"          : "#/ckan/http/http://taniwha.org/~bill/Extraplanetary_Launchpads_v5.6.0.zip",
-    "$vref"          : "#/ckan/ksp-avc/ExtraplanetaryLaunchpads/Plugins/EL.version",
+    "$kref"          : "#/ckan/ksp-avc/http://taniwha.org/~bill/EL.version",
+    "$vref"          : "#/ckan/ksp-avc/ExtraplanetaryLaunchpads/Plugins/ExtraplanetaryLaunchpads.version",
     "abstract"       : "Adds the ability to build crafts in flight mode to your game.",
     "identifier"     : "ExtraPlanetaryLaunchpads",
     "author"         : "taniwha",
     "license"        : "GPL-3.0",
     "release_status" : "stable",
     "resources"      : {
-        "homepage" : "http://forum.kerbalspaceprogram.com/threads/59545",
+        "homepage" : "https://forum.kerbalspaceprogram.com/index.php?/topic/54284-*",
         "repository" : "https://github.com/taniwha-qf/Extraplanetary-Launchpads"
     },
     "depends"        : [

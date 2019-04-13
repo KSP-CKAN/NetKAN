@@ -1,17 +1,15 @@
 {
     "spec_version": 1,
     "identifier": "SovietEnginePack",
-    "$kref": "#/ckan/spacedock/739",
-    "author" : [ "DECQ", "Dragon01", "Bobcat" ],
+    "$kref": "#/ckan/spacedock/1345",
+    "author": [ "Olympic1", "DECQ", "Dragon01", "Bobcat" ],
     "license": "MIT",
-    "development_status": "development",
-    "comment": "No current forum thread for this version I can find for homepage.",
     "conflicts": [
         { "name": "SovietEngines" }
     ],
     "install" : [
         {
-            "file": "Sovietengines",
+            "file": "GameData/SovietEngines",
             "install_to": "GameData"
         }
     ]

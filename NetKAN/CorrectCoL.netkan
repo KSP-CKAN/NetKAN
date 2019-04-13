@@ -7,9 +7,13 @@
 	    { "name": "FerramAerospaceResearch" }
 	],
 	"install": [
-        {
-		"find": "CorrectCoL",
-		"install_to": "GameData"
-	}
-	]
+		{
+			"find": "CorrectCoL",
+			"install_to": "GameData"
+		}
+	],
+	 "depends": [
+        { "name" : "ToolbarController" },
+		{ "name" : "ClickThroughBlocker" }
+    ]
 }

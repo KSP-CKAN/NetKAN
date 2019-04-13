@@ -4,10 +4,15 @@
     "$kref"          : "#/ckan/spacedock/54",
     "$vref"          : "#/ckan/ksp-avc",
     "license"        : "MIT",
+    "depends": [
+        { "name" : "ToolbarController" },
+	{ "name" : "ClickThroughBlocker" }
+    ],
     "resources" : {
         "homepage"    : "http://forum.kerbalspaceprogram.com/index.php?/topic/121366-/",
         "repository"  : "https://github.com/linuxgurugamer/TotalTime"
     },
+    "recommends": [ { "name": "JanitorsCloset" } ],
     "install" : [
         {
             "find"       : "TotalTime",

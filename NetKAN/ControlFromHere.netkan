@@ -1,0 +1,16 @@
+{
+    "$kref": "#/ckan/spacedock/1298",
+    "identifier": "ControlFromHere",
+    "x_via": "Automated SpaceDock CKAN submission",
+    "spec_version": "v1.4",
+    "license": "public-domain",
+    "depends": [
+        { "name": "ModuleManager" }
+    ],
+    "install": [
+        {
+            "find": "XyphosAerospace",
+            "install_to": "GameData"
+        }
+    ]
+}

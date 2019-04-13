@@ -13,7 +13,7 @@
         { "name" : "VensStockPartRevamp-CTTPatch" }
     ],
     "resources" : {
-        "homepage"     : "http://forum.kerbalspaceprogram.com/threads/92764"
+        "homepage"     : "https://forum.kerbalspaceprogram.com/index.php?/topic/83696-122-stock-part-revamp-update-196-released-source-files/"
     },
     "install": [
         {
@@ -44,6 +44,14 @@
             "override" : {
                 "ksp_version_min" : "1.1.0",
                 "ksp_version_max" : "1.1.99"
+            }
+        },
+        {
+            "version": "v1.9.6",
+            "delete": [ "ksp_version" ],
+            "override": {
+                "ksp_version_min": "1.2.0",
+                "ksp_version_max": "1.3.99"
             }
         }
     ]

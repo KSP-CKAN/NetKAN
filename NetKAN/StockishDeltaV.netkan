@@ -1,0 +1,19 @@
+{
+    "spec_version" : "v1.4",
+    "identifier"   : "StockishDeltaV",
+    "$kref"        : "#/ckan/github/severedsolo/StockishDeltaV",
+    "name"         : "Stockish DeltaV",
+    "abstract"     : "Makes information provided by the Stock Delta-V Calculator visible in game",
+    "license"      : "MIT",
+    "$vref"        : "#/ckan/ksp-avc",
+    
+    "install" : [
+        {
+            "find" : "StockishDeltaV",
+            "install_to" : "GameData"
+        }
+    ],
+    "resources" : {
+        "homepage" : "https://forum.kerbalspaceprogram.com/index.php?/topic/179023-150-stockish-deltav-expose-the-stock-delta-v-system-in-the-editor"
+    }
+}

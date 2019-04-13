@@ -1,0 +1,39 @@
+{
+	"spec_version": "v1.4",
+	"name": "TextureReplacerReplaced",
+	"$kref": "#/ckan/github/HaArLiNsH/TextureReplacerReplaced",
+	"identifier": "TextureReplacerReplaced",
+	"release_status": "testing",
+	"$vref": "#/ckan/ksp-avc",
+	"author": ["shaw", "RangeMachine", "HaArLiNsH"],
+	"abstract": "Kerbal and suits personalisation, texture replacement and reflections.",
+	"license": "MIT",
+	"comment": "Plugin is MIT, but some parts CC-BY-NC-SA, and we always specify most restrictive in metadata.",
+	"resources": 	{
+							"homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/161898-*",
+							"repository": "https://github.com/HaArLiNsH/TextureReplacerReplaced"
+						},
+	"conflicts": [ { "name": "TextureReplacer" } ],
+	"install"  : [
+						{
+							"find"       : "000_TRR_Config",
+							"install_to" : "GameData"
+						},
+						{
+							"find"       : "TextureReplacerReplaced",
+							"install_to" : "GameData"
+						}
+					],
+	"depends" : 	[
+							{ "name" : "ModuleManager"	}
+						],	
+	"recommends" : [
+								{ "name" : "WindowShine" }								
+							],
+	"suggests" : 	[							
+							{ "name" : "DiverseKerbalHeads" },
+							{ "name" : "TRRGuide" },
+							{ "name" : "TRR-MyTextureMod" },
+							{ "name" : "UKS" }
+						]
+}

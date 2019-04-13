@@ -1,0 +1,31 @@
+{
+    "identifier": "EditorTime",
+    "spec_version": "v1.4",
+    "$kref": "#/ckan/github/magico13/Modlets/asset_match/EditorTime",
+    "name": "EditorTime",
+    "abstract": "Makes time pass while in the VAB/SPH",
+    "author": "magico13",
+    "license": "GPL-3.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/97033-141-magico13s-modlets-sensible-screenshot-dated-quicksaves-etc/"
+    },
+    "suggests": [
+        { "name": "KerbalConstructionTime"}
+    ],
+    "install": [
+        {
+            "find"       : "EditorTime",
+            "install_to" : "GameData"
+        }
+    ],
+    "x_netkan_override": [
+        {
+            "version": "KSP1.2.2",
+            "comment": "All modlets in a single repo, I can't believe this override works!",
+            "override": {
+                "version" : "1.0.4",
+                "ksp_version" : "1.2.2"
+            }
+        }
+    ]
+}

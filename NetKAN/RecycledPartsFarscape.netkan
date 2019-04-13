@@ -1,0 +1,32 @@
+{
+  "spec_version": "v1.4",
+  "install": [
+    {
+      "install_to": "GameData/SpaceTuxIndustries/RecycledParts",
+      "find": "Mike_NZ_Crafts"
+    },
+    {
+      "install_to": "Ships",
+      "find": "SPH"
+    }
+  ],
+  "depends": [
+      { "name": "KSPWheel" },
+      { "name": "PatchManager" }
+  ],
+  "recommends": [
+    { "name": "CommunityTechTree" }
+  ],
+ "suggests": [
+        { "name": "JanitorsCloset" }
+  ],
+  "conflicts": [
+    { "name" : "RecycledPartsFarscape" }
+  ],
+  "$vref": "#/ckan/ksp-avc",
+  "$kref": "#/ckan/spacedock/1507",
+  "x_via": "Automated Linuxgurugamer CKAN script",
+  "identifier": "RecycledPartsFarscape",
+  "name": "Recycled Parts Farscape",
+  "license": "restricted"
+}

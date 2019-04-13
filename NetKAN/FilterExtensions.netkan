@@ -1,6 +1,6 @@
 {
     "spec_version"   : "v1.4",
-    "$kref"          : "#/ckan/github/Crzyrndm/FilterExtension",
+    "$kref"             : "#/ckan/spacedock/1972",
     "$vref"          : "#/ckan/ksp-avc",
     "name"           : "Filter Extensions - Plugin",
     "identifier"     : "FilterExtensions",
@@ -9,10 +9,11 @@
     "release_status" : "stable",
     "recommends" : [
         { "name" : "ModuleManager" },
-        { "name" : "FilterExtensionsDefaultConfig" }
+        { "name" : "FilterExtensionsDefaultConfig" },
+        { "name" : "MoarFEConfigs" }
     ],
     "resources" : {
-        "homepage" : "http://forum.kerbalspaceprogram.com/threads/104231"
+        "homepage" : "https://forum.kerbalspaceprogram.com/index.php?/topic/168456-*"
     },
     "install" : [
         {
@@ -20,7 +21,7 @@
             "install_to" : "GameData"
         },
         {
-            "file"       : "GameData/000_FilterExtensions Configs",
+            "file"       : "GameData/000_FilterExtensions_Configs",
             "install_to" : "GameData",
             "filter"     : [ "Default", "StockRework" ]
         }

@@ -1,14 +1,14 @@
 {
     "spec_version"  	: "v1.4",
     "name"          	: "Toolbar",
-    "author"        	: "blizzy78",
+    "author"        	: ["blizzy78", "linuxgurugamer"],
     "identifier"    	: "Toolbar",
     "abstract"      	: "API for third-party plugins to provide toolbar buttons",
     "license"       	: "BSD-2-clause",
     "release_status"	: "stable",
     "resources" : {
-        "homepage"  	: "http://forum.kerbalspaceprogram.com/index.php?/topic/55420-120/",
-        "repository"	: "https://github.com/blizzy78/ksp_toolbar"
+        "homepage"  	: "https://forum.kerbalspaceprogram.com/index.php?/topic/161857-13-*",
+        "repository"	: "https://github.com/linuxgurugamer/ksp_toolbar"
     },
     "install" : [
         {
@@ -16,8 +16,10 @@
             "install_to" : "GameData"
         }
     ],
-    "version"       	: "1.7.13",
-    "ksp_version_min"	: "1.2.0",
-    "ksp_version_max"	: "1.2.9",
-    "download"       	: "https://www.blizzy.de/toolbar/Toolbar-1.7.13.zip"
+    "depends": [
+        { "name" : "ClickThroughBlocker" }
+    ],
+    "$kref"             : "#/ckan/spacedock/2090",
+    "$vref"             : "#/ckan/ksp-avc"
+
 }

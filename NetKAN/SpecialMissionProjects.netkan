@@ -1,0 +1,13 @@
+{
+  "spec_version": "v1.4",
+  "install": [
+    {
+      "install_to": "GameData",
+      "find": "SMP"
+    }
+  ],
+  "$kref": "#/ckan/spacedock/1238",
+  "x_via": "Automated Linuxgurugamer CKAN script",
+  "identifier": "SpecialMissionProjects",
+  "license": "unrestricted"
+}

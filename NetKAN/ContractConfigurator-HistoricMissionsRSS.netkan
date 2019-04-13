@@ -1,16 +1,16 @@
 {
     "spec_version": "v1.4",
-    "license": "CC-BY-NC-SA-4.0",
-    "$kref": "#/ckan/spacedock/450",
     "identifier": "ContractConfigurator-HistoricMissionsRSS",
     "name": "Contract Pack: Historic Missions for RSS",
     "abstract": "This pack currently adds over 600... yes you read correctly... over 600 contracts to the base game following the historic progression of both NASA and its Russian counterparts, each mission has been made into a contract for the game. This version is for RSS/RO KSP",
+    "$kref": "#/ckan/spacedock/450",
+    "license": "CC-BY-NC-SA-4.0",
+    "x_netkan_staging": true,
+    "x_netkan_staging_reason": "This mod has historically messed up our install instructions as the contents are reorganised",
     "depends": [
         { "name": "ContractConfigurator", "min_version": "1.15.1" },
         { "name": "RealSolarSystem" }
     ],
-    "x_netkan_staging": true,
-    "comment": "This mod has historically messed up our install instructions as the contents are reorganised",
     "install": [
         {
             "find"       : "RSSVersion/ContractPacks/HistoricMissions",

@@ -4,7 +4,7 @@
     "name" : "BDArmoryContinued",
     "abstract": "The original Weapons mod by BahamutoD, continued!",
     "resources": {
-        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/144775-113-bdarmory-continued-v01110-prerelease-28-jul-2016/",
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/155014-*",
         "spacedock": "https://spacedock.info/mod/867/BDArmoryContinued",
         "repository": "https://github.com/PapaJoesSoup/BDArmory",
         "x_screenshot": "https://spacedock.info/content/Papa_Joe_926/BDArmoryContinued/BDArmoryContinued-1470103192.4904277.png"
@@ -19,19 +19,23 @@
     "conflicts": [
         { "name": "BDArmory" }
     ],
+    "depends": [
+        { "name": "PhysicsRangeExtender" }
+    ],
     "install": [
         {
             "find": "BDArmory",
             "install_to": "GameData"
         }
     ],
+    "x_netkan_epoch": 1,
     "x_netkan_override": [
         {
-            "version": "v0.11.1.5",
+            "version": "v0.2.1.0",
             "delete": [ "ksp_version" ],
             "override": {
                 "ksp_version_min" : "1.2.0",
-                "ksp_version_max" : "1.2.1"
+                "ksp_version_max" : "1.2.2"
             }
         }
     ]

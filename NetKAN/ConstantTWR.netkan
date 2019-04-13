@@ -1,0 +1,15 @@
+{
+  "spec_version": "v1.4",
+  "install": [
+    {
+      "install_to": "GameData",
+      "find": "ConstantTWR"
+    }
+  ],
+  "depends" : [ { "name" : "ClickThroughBlocker" } ],
+  "$vref": "#/ckan/ksp-avc",
+  "$kref": "#/ckan/spacedock/1429",
+  "x_via": "Automated Linuxgurugamer CKAN script",
+  "identifier": "ConstantTWR",
+  "license": "LGPL-3.0"
+}

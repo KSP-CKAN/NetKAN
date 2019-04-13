@@ -13,11 +13,7 @@
     ],
     "install": [
         {
-            "file": "KerbinScaledSpace300.png",
-            "install_to": "GameData/TextureReplacer/Default"
-        },
-        {
-            "file": "KerbinScaledSpace401.png",
+            "file": "Kerbin_color.dds",
             "install_to": "GameData/TextureReplacer/Default"
         }
     ]

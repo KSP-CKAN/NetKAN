@@ -1,0 +1,16 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "NagasakiVehiclesPack",
+    "$kref":        "#/ckan/spacedock/2009",
+    "license":      "CC-BY-NC-ND",
+    "install": [ {
+        "find":       "GR_Nagasaki_BF400",
+        "install_to": "GameData"
+    }, {
+        "find":       "GR_Nagasaki_Caddy",
+        "install_to": "GameData"
+    }, {
+        "find":       "GR_Nagasaki_StreetBlazer",
+        "install_to": "GameData"
+    } ]
+}

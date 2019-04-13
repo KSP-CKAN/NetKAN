@@ -1,25 +1,5 @@
 {
-    "spec_version": "v1.4",
-    "identifier" : "NearFutureSpacecraft",
-    "$kref": "#/ckan/spacedock/708",
-    "$vref": "#/ckan/ksp-avc",
-    "license": "CC-BY-NC-SA-4.0",
-    "depends":  [
-        { "name" : "NearFutureProps" }
-    ],
-    "suggests" : [
-        { "name" : "CommunityTechTree" },
-        { "name" : "NearFutureConstruction" },
-        { "name" : "NearFutureElectrical" },
-        { "name" : "NearFuturePropulsion" },
-        { "name" : "NearFutureSolar" },
-        { "name" : "StationPartsExpansion" }
-    ],
-    "supports" : [
-        { "name" : "RasterPropMonitor-Core" },
-        { "name" : "ConnectedLivingSpace" }
-    ],
-    "install" : [
-        { "find" : "NearFutureSpacecraft", "install_to" : "GameData" }
-    ]
+    "spec_version"  : "v1.4",
+    "identifier"    : "NearFutureSpacecraft",
+    "$kref"         : "#/ckan/netkan/https://github.com/ChrisAdderley/NearFutureSpacecraft/raw/master/CKAN/NearFutureSpacecraft.netkan"
 }

@@ -1,0 +1,19 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "MakingHistoryEngineTweaks",
+    "$kref":        "#/ckan/github/TykoTek/EngineTweaks_for_MakingHistory",
+    "ksp_version_min": "1.4",
+    "ksp_version_max": "1.5",
+    "license":      "MIT",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/174303-*"
+    },
+    "install": [ {
+        "find":       "GameData/EngineTweaks_MH",
+        "install_to": "GameData"
+    } ],
+    "depends": [
+        { "name": "ModuleManager"     },
+        { "name": "MakingHistory-DLC" }
+    ]
+}

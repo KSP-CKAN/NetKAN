@@ -11,16 +11,25 @@
     "author": [ "ialdabaoth", "Sarbian" ],
     "license": "CC-BY-SA",
     "resources": {
-        "homepage": "http://forum.kerbalspaceprogram.com/threads/55219",
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/50533-141-module-manager-306-marsh-14th-2018-its-dangerous-to-go-alone-take-those-cats-with-you/",
         "repository": "https://github.com/sarbian/ModuleManager"
     },
-    "ksp_version_min": "1.2.0",
-    "ksp_version_max": "1.2.99",
+    "ksp_version_min": "1.4.0",
+    "ksp_version_max": "1.6.90",
     "install": [
         {
             "find_regexp": "ModuleManager.*\\.dll$",
             "find_matches_files": true,
             "install_to": "GameData"
+        }
+    ],
+    "x_netkan_override": [
+        {
+            "version": "3.0.4",
+            "delete": [ "ksp_version_min", "ksp_version_max" ],
+            "override": {
+                "ksp_version" : "1.3"
+            }
         }
     ]
 }

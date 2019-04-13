@@ -2,30 +2,41 @@
     "spec_version"      : "v1.4",
     "identifier"        : "KSPInterstellarExtended",
     "$kref"             : "#/ckan/spacedock/172",
-    "comment"           : "$vref           : #/ckan/ksp-avc",
-    "x_netkan_staging"  : true,
-    "comment"           : "return vref when .version file is valid",
+    "$vref"             : "#/ckan/ksp-avc",
     "resources": {
-        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/100190-113/&page=1",
+        "homepage":   "https://forum.kerbalspaceprogram.com/index.php?/topic/172026-*",
         "repository": "https://github.com/sswelm/KSP-Interstellar-Extended"
     },
-    "license"            : "GPL-3.0",
-    "install" : [
+    "license"           : "GPL-3.0",
+    "install": [
         {
             "find"      : "GameData/WarpPlugin",
             "install_to": "GameData"
+        }, {
+            "find"      : "InterstellarHybridRocketry",
+            "install_to": "GameData"
         }
     ],
-    "depends" : [
-        { "name"        : "CommunityResourcePack", "min_version" : "0.6.4" },
-        { "name"        : "InterstellarFuelSwitch", "min_version" : "2.3.1" },
-        { "name"        : "TweakScale", "min_version" : "2.3.3"},
-        { "name"        : "ModuleManager", "min_version" : "2.7.4" },
-        { "name"        : "CommunityTechTree", "min_version" : "3.0.1"}
+    "depends": [
+        { "name"        : "InterstellarFuelSwitch-Core"},
+        { "name"        : "TweakScale"                 },
+        { "name"        : "ModuleManager"              }
     ],
     "recommends": [
-        { "name"        : "FilterExtensions" },
-        { "name"        : "KSP-AVC" },
-        { "name"        : "HideEmptyTechNodes" }
+        { "name"        : "PatchManager"             },
+        { "name"        : "InterstellarFuelSwitch"   },        
+        { "name"        : "PersistentRotation"       },
+        { "name"        : "FilterExtensions"         },
+        { "name"        : "PhotonSailor"             },
+        { "name"        : "BetterBurnTime"           },
+        { "name"        : "HideEmptyTechNodes"       }
+    ],
+    "suggests": [
+        { "name"        : "CommunityResourcePack"    },
+        { "name"        : "CommunityTechTree"        },         
+        { "name"        : "HeatControl"              },
+        { "name"        : "TexturesUnlimited"        },
+        { "name"        : "UniversalStorage"         },
+        { "name"        : "KerbalJointReinforcement" }
     ]
 }

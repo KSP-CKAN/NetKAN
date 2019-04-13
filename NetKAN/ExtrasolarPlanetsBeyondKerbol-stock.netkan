@@ -1,23 +1,34 @@
 {
-    "license": "BSD-3-clause",
     "spec_version": "v1.4",
+    "$kref": "#/ckan/spacedock/202",
+    "identifier": "ExtrasolarPlanetsBeyondKerbol-stock",
     "name": "Extrasolar Planets Byond Kerbol - Stock configuration",
     "abstract": "Adds a new star system in orbit around the Kerbol System",
-    "identifier": "ExtrasolarPlanetsBeyondKerbol-stock",
-    "$kref": "#/ckan/spacedock/202",
+    "license": "BSD-3-clause",
     "depends": [
-         { "name" : "Kopernicus" }
+         { "name" : "Kopernicus" },
+         { "name" : "ModuleManager" }
     ],
     "provides": [ "CustomAsteroids-Pops" ],
-    "install": [
-        {
-            "find": "StockScale/GameData/ExtraSolar",
-            "install_to": "GameData"
-        }
-    ],
-    "recommends":[
+    "recommends": [
         { "name" : "KSPInterstellarExtended" },
         { "name" : "BetterTimeWarp" },
-        { "name" : "USI-NuclearRockets" }
+        { "name" : "USI-NuclearRockets" },
+        { "name" : "Scatterer" },
+        { "name" : "StockVisualEnhancements" }
+    ],
+    "suggests": [
+        { "name" : "FinalFrontier" },
+        { "name" : "DistantObject" }
+    ],
+    "install": [
+        {
+            "find": "Extrasolar",
+            "install_to": "GameData"
+        },
+        {
+            "find": "Extrasolar_Textures",
+            "install_to": "GameData"
+        }
     ]
 }

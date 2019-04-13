@@ -7,6 +7,7 @@
     "$kref": "#/ckan/spacedock/245",
     "x_netkan_force_v": true,
     "depends": [
+        { "name": "PhoenixIndustriesAgencies" },
         { "name": "PhoenixIndustriesFlags" }
     ],
     "recommends": [
@@ -17,7 +18,7 @@
         {
             "find"  :   "CTN",
             "install_to":   "GameData",
-            "filter"    :   [ "Thumds.db", "Flags" ]
+            "filter"    :   [ "Thumds.db", "Flags", "Agencies" ]
         }
     ]
 }

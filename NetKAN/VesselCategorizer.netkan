@@ -1,0 +1,18 @@
+{
+  "spec_version": "v1.4",
+  "install": [
+    {
+      "install_to": "GameData",
+      "find": "VesselCategorizer"
+    }
+  ],
+  "depends": [
+    {
+      "name": "ModuleManager"
+    }
+  ],
+  "$kref": "#/ckan/spacedock/1502",
+  "x_via": "Automated Linuxgurugamer CKAN script",
+  "identifier": "VesselCategorizer",
+  "license": "CC-BY-NC-ND"
+}

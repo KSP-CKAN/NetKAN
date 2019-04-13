@@ -1,0 +1,18 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "DiverseKerbalHeads",
+    "$kref": "#/ckan/spacedock/1579",
+    "author": [
+        "Sylith",
+        "shaw",
+        "IOI655362",
+        "klgraham1013"
+    ],
+    "license": "CC-BY-4.0",
+    "ksp_version": "any",
+    "depends": [
+        {
+            "name": "TextureReplacerReplaced"
+        }
+    ]
+}

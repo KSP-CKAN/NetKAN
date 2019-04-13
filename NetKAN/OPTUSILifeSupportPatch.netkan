@@ -1,0 +1,15 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "OPTUSILifeSupportPatch",
+    "$kref":        "#/ckan/spacedock/1492",
+    "license":      "MIT",
+    "x_via":        "Automated SpaceDock CKAN submission",
+    "install": [ {
+        "find":       "OPT_USI",
+        "install_to": "GameData"
+    } ],
+    "depends": [
+        { "name": "OPTSpacePlaneMain" },
+        { "name": "USI-LS"            }
+    ]
+}

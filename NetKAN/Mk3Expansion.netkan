@@ -4,15 +4,22 @@
     "spec_version": "v1.4",
     "$kref": "#/ckan/spacedock/663",
     "depends": [
-        { "name": "InterstellarFuelSwitch" }
-    ],
-    "suggests": [
-    { "name": "FerramAerospaceResearch" }
+        { "name": "ModuleManager" },
+        { "name": "CommunityResourcePack" },
+        { "name": "B9PartSwitch" }
     ],
     "install" : [
         {
             "find"       : "GameData/Mk3Expansion",
             "install_to" : "GameData"
-        }
+        },
+        {
+            "find"        : "VAB",
+            "install_to"  : "Ships"
+        },
+        {
+            "find"        : "SPH",
+            "install_to"  : "Ships"
+}
     ]
 }

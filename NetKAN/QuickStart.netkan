@@ -4,6 +4,10 @@
     "$kref"        : "#/ckan/spacedock/110",
     "$vref"        : "#/ckan/ksp-avc",
     "license"      : "GPL-3.0",
+    "x_netkan_epoch": 1,
+    "depends": [
+        { "name" : "ClickThroughBlocker" }
+    ],
     "install": [
         {
             "file"       : "GameData/QuickMods/QuickStart",

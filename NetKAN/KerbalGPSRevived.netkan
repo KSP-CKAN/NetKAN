@@ -1,0 +1,31 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "KerbalGPSRevived",
+    "name": "Kerbal GPS",
+    "abstract": "Adds support for GPS satelites",
+    "author": "linuxgurugamer",
+    "license": "CC-BY-NC-SA-3.0",
+    "$kref"        : "#/ckan/spacedock/1949",
+    "$vref"        : "#/ckan/ksp-avc",
+
+    "recommends": [
+        { "name": "ContractConfigurator" }
+    ],
+    "depends": [
+      { "name": "ToolbarController" },
+      { "name": "ClickThroughBlocker" }
+    ],
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/177511-14x-kerbalgps-revived-beta/",
+	 "repository": "https://github.com/linuxgurugamer/KerbalGPS"
+    },
+    "install": [
+        {
+            "find": "KerbalGPS",
+            "install_to": "GameData"
+        }
+    ]
+}
+
+
+

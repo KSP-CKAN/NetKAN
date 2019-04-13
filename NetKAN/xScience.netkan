@@ -1,5 +1,5 @@
 {
-    "spec_version": 1,
+    "spec_version": "v1.26",
     "identifier": "xScience",
     "$kref": "#/ckan/spacedock/234",
     "license": "CC-BY-NC-SA-4.0",
@@ -23,5 +23,6 @@
             }
         }
     ],
-    "x_netkan_force_v": true
+    "x_netkan_force_v": true,
+    "replaced_by": { "name": "xScienceContinued" }
 }

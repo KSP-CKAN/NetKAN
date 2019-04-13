@@ -1,0 +1,21 @@
+{
+    "spec_version" : 1,
+    "identifier"   : "KerbalHealth",
+    "$kref"        : "#/ckan/github/GarwelGarwel/KerbalHealth",
+    "author"       : "Garwel",
+    "abstract"     : "Adds health, stress and general well-being management. Encourages smart vessel design and mission planning, especially for long flights. Easily configurable. Beta version.",
+    "license"      : "MIT",
+    "$vref"        : "#/ckan/ksp-avc",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/155313-122-kerbal-health-047-2017-03-01"
+    },
+	    "depends": [
+        { "name": "ModuleManager" }
+    ],
+	    "suggests": [
+        { "name": "KSP-AVC" },
+        { "name": "Toolbar" },
+        { "name": "USI-LS" },
+		    { "name": "UKS" }
+    ]
+}

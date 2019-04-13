@@ -7,7 +7,7 @@
         {
             "find" : "InterstellarFuelSwitch",
             "install_to" : "GameData",
-            "filter" : "Plugins"
+            "filter" : [ "Plugins", "Resources", "Localization" ]
         }
     ],
     "depends" : [
@@ -16,7 +16,8 @@
         { "name" : "ModuleManager" }
     ],
     "recommends": [
-        { "name"         : "KSPInterstellarExtended" }
+        { "name"         : "KSPInterstellarExtended" },
+        { "name"         : "PatchManager" }
     ],
     "abstract" : "Library that enables switching the contents, meshes, and textures of tanks.",
     "resources" : {

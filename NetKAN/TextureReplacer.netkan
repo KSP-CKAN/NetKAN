@@ -1,22 +1,28 @@
 {
     "spec_version" : 1,
     "identifier"   : "TextureReplacer",
-    "$kref"        : "#/ckan/github/RangeMachine/TextureReplacer",
+    "$kref"        : "#/ckan/github/ducakar/TextureReplacer",
     "$vref"        : "#/ckan/ksp-avc",
-    "license"      : "CC-BY-NC-SA-4.0",
+    "license"      : "MIT",
     "name"         : "TextureReplacer",
     "abstract"     : "Kerbal personalisation, IVA suits on Kerbin and texture replacement and improvements.",
-    "author"       : [ "shaw", "RangeMachine" ],
-    "comment"      : "Plugin is MIT, but some parts CC-BY-NC-SA, and we always specify most restrictive in metadata. Temporarily moved to maintainer's git until such a time as OP is not MIA.",
+    "author"       : [ "shaw", "RangeMachine", "rbray89", "Sylith", "IOI-655362" ],
+    "comment"      : "Plugin is MIT, but the included skins are CC-BY-4.0.",
     "resources": {
-        "homepage": "http://forum.kerbalspaceprogram.com/threads/107471",
-        "repository": "https://github.com/RangeMachine/TextureReplacer"
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/96851-x",
+        "repository": "https://github.com/ducakar/TextureReplacer"
     },
     "x_netkan_override" : [
         {
-            "version" : ">=v2.5.0",
+            "version" : [ ">=v2.5.0", "<v2.6.0" ],
             "override" : {
                 "ksp_version" : "1.2.2"
+            }
+        },
+        {
+            "version" :  [ ">=v2.6.0", "<v3.0" ],
+            "override" : {
+                "ksp_version" : "1.3.0"
             }
         }
     ]

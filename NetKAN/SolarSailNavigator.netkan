@@ -7,9 +7,12 @@
     "license"      : "LGPL-2.1",
     "author"       : "mrsolarsail",
     "release_status" : "development",
-    "ksp_version"  : "1.2",
-    "resources" : { "homepage" : "http://forum.kerbalspaceprogram.com/threads/119579" },
-    "depends": [ { "name": "PersistentThrust" } ],
+    "ksp_version"  : "1.4",
+    "resources" : { "homepage" : "https://forum.kerbalspaceprogram.com/index.php?/topic/107676-wip13-solarsailnavigator-v109/" },
+    "depends": [
+        { "name": "PersistentThrust" },
+        { "name": "ModuleManager" }
+    ],
     "install" : [
         {
             "file"       : "SolarSailNavigator",

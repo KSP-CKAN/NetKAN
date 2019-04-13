@@ -1,0 +1,19 @@
+{
+    "spec_version" : 1,
+    "identifier"   : "RealBattery",
+    "$kref"        : "#/ckan/github/blackliner/RealBattery",
+    "license"      : "MIT",
+    "$vref"        : "#/ckan/ksp-avc",
+    "abstract" : "Realistic behaving electrical storage. Including state of the art Li-Ion recharchable batteries!",
+    "resources": {
+    "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/151164-121-real-battery-v114/" 
+		},
+    "depends": [
+        { "name": "ModuleManager" },
+	{ "name": "CommunityResourcePack" }
+    ],
+    "recommends": [
+        { "name" : "DynamicBatteryStorage" }
+    ]
+    
+}

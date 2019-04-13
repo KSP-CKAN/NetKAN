@@ -1,0 +1,30 @@
+{
+    "spec_version" : "v1.4",
+    "identifier"   : "SigmaStockRecolor",
+    "$kref"        : "#/ckan/github/Sigma88/Sigma-EveRecolor",
+    "$vref"        : "#/ckan/ksp-avc",
+    "name"         : "Sigma: Eve Recolor",
+    "abstract"     : "This mod changes the color of Eve to make it more similar to Venus.",
+    "license"      : "restricted",
+    "author"       : "Sigma88",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/101015-mod/"
+    },
+    "depends": [
+        { "name": "ModuleManager" },
+        { "name": "Kopernicus" }
+    ],
+    "conflicts": [
+        { "name": "BilliardsPlanetPack" },
+        { "name": "NewHorizons" },
+        { "name": "RealSolarSystem" },
+        { "name": "ToySolarSystem" }
+    ],
+    "install": [
+        {
+            "find": "EveRecolor",
+            "install_to": "GameData/Sigma"
+        }
+    ],
+    "x_netkan_epoch": "1"
+}

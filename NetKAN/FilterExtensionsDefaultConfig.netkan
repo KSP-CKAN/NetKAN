@@ -1,6 +1,6 @@
 {
     "spec_version"   : "v1.4",
-    "$kref"          : "#/ckan/github/Crzyrndm/FilterExtension",
+    "$kref"             : "#/ckan/spacedock/1972",
     "$vref"          : "#/ckan/ksp-avc",
     "name"           : "Filter Extensions - Default Configuration",
     "identifier"     : "FilterExtensionsDefaultConfig",
@@ -12,8 +12,12 @@
     ],
     "install" : [
         {
-            "file"       : "GameData/000_FilterExtensions Configs/Default",
-            "install_to" : "GameData/000_FilterExtensions Configs"
+            "file"       : "GameData/000_FilterExtensions_Configs/Default",
+            "install_to" : "GameData/000_FilterExtensions_Configs"
+        },
+        {
+            "file"       : "GameData/zFinal_FilterExtensions",
+            "install_to" : "GameData"
         }
     ]
 }

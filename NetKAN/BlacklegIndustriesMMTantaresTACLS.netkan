@@ -19,6 +19,6 @@
     "depends": [
         { "name" : "ModuleManager" },
 		{ "name" : "TACLS" },
-		{ "name" : "Tantares"}
+		{ "name" : "NewTantares"}
     ]
 }

@@ -11,6 +11,6 @@
         { "name" : "CryoEngines" }
     ],
     "install": [
-        { "find" : "CryoEnginesLFO", "install_to" : "GameData/CryoEngines/Extras" }
+        { "find" : "CryoEnginesLFO", "install_to" : "GameData" }
     ]
 }

@@ -1,0 +1,26 @@
+{
+  "spec_version": "v1.4",
+  "install": [
+    {
+      "filter": [
+        ".DS_Store",
+        "__MACOSX"
+      ],
+      "install_to": "GameData",
+      "find": "AAI"
+    }
+  ],
+  "depends": [
+    {
+      "name": "ModuleManager"
+    },
+    {
+      "name": "FirespitterCore"
+    }
+  ],
+  "$vref": "#/ckan/ksp-avc",
+  "$kref": "#/ckan/spacedock/1270",
+  "x_via": "Automated Linuxgurugamer CKAN script",
+  "identifier": "newReactionWheels",
+  "license": "CC-BY-NC-SA"
+}

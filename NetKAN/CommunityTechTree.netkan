@@ -2,10 +2,29 @@
     "spec_version"   : "v1.4",
     "identifier"     : "CommunityTechTree",
     "$kref"          : "#/ckan/spacedock/534",
+    "$vref"          : "#/ckan/ksp-avc",
     "license"        : "CC-BY-NC-4.0",
     "x_netkan_epoch" : "1",
     "depends" : [
         { "name" : "ModuleManager", "min_version" : "2.6.2" }
+    ],
+    "supports" : [
+        { "name" : "AlcubierreStandalone" },
+        { "name" : "CryoEngines" },
+        { "name" : "KerbalAtomics" },
+        { "name" : "KSPInterstellarExtended" },
+        { "name" : "ModularRocketSystem" },
+        { "name" : "ModularRocketSystemLITE" },
+        { "name" : "NearFuturePropulsion" },
+        { "name" : "NearFutureElectrical" },
+        { "name" : "NearFutureSolar" },
+        { "name" : "NearFutureConstruction" },
+        { "name" : "NearFutureSpacecraft" },
+        { "name" : "NearFutureLaunchVehicles" },
+        { "name" : "StationPartsExpansionRedux" },
+        { "name" : "SpaceY-Lifters" },
+        { "name" : "USI-LS" },
+        { "name" : "UKS" }
     ],
     "conflicts" : [
         { "name" : "ModOrientedTechTree" },

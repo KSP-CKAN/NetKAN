@@ -1,14 +1,14 @@
 {
     "spec_version" : "v1.9",
     "identifier"   : "OPTSpacePlaneMain",
-    "$kref"        : "#/ckan/curse/225018",
+    "$kref"        : "#/ckan/spacedock/1028",
+    "$vref"        : "#/ckan/ksp-avc",
     "license"      : "CC-BY-NC-SA-4.0",
     "abstract"     : "Over 50 stock-a-like, large space plane oriented parts",
     "resources"    : {
-        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/151118-120-opt-space-plane-v190/"
+        "homepage" : "http://forum.kerbalspaceprogram.com/index.php?/topic/87956-opt-space-plane-temporary-thread",
+        "spacedock": "https://spacedock.info/mod/1028/OPT%20Space%20Plane"
     },
-    "ksp_version_min": "1.2.2",
-    "ksp_version_max": "1.2.2",
     "depends": [
         { "name" : "FirespitterCore" },
         { "name" : "ModuleManager" }
@@ -29,6 +29,14 @@
         {
             "find"       : "OPT",
             "install_to" : "GameData"
+        }
+    ],
+    "x_netkan_override": [
+        {
+            "version": "v2.0.1",
+            "override": {
+                "ksp_version": "1.3"
+            }
         }
     ]
 }

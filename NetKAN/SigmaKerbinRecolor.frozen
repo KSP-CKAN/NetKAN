@@ -1,0 +1,23 @@
+{
+    "spec_version" : "v1.4",
+    "identifier"   : "SigmaKerbinRecolor",
+    "$kref"        : "#/ckan/github/Sigma88/Sigma-KerbinRecolor",
+    "$vref"        : "#/ckan/ksp-avc",
+    "name"         : "Sigma: Kerbin Recolor",
+    "abstract"     : "This mod changes the color of Kerbin using various options.",
+    "license"      : "restricted",
+    "author"       : "Sigma88",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/132894-wip/"
+    },
+    "depends": [
+        { "name": "ModuleManager" },
+        { "name": "Kopernicus" }
+    ],
+    "install": [
+        {
+            "find": "KerbinRecolor",
+            "install_to": "GameData/Sigma"
+        }
+    ]
+}

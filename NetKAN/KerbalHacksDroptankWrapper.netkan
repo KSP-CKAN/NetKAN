@@ -5,12 +5,14 @@
  "suggests" : [
         { "name" : "TweakScale" }
     ],
-  "install": [
-    {
-      "install_to": "GameData",
-      "find": "KerbalHacks"
-    }
-  ],
+    
+    
+    "install": [
+        {
+            "file"       : "GameData/KerbalHacks/WrapperTank",
+            "install_to" : "GameData/KerbalHacks"
+        }
+    ],
   "$kref": "#/ckan/spacedock/1127",
   "x_via": "Automated Linuxgurugamer CKAN script",
   "identifier": "KerbalHacksDroptankWrapper",

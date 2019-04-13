@@ -1,19 +1,23 @@
 {
     "identifier": "KerbinSideAirRace",
-    "spec_version": "v1.4",
-    "$kref": "#/ckan/spacedock/560",
-    "license": "BSD-3-clause",
+    "spec_version": "v1.16",
+    "$kref": "#/ckan/spacedock/1348",
+    "$vref": "#/ckan/ksp-avc",
+    "x_netkan_epoch" : "3",
+    "license": "restricted",
     "install": [
         {
-            "find"       : "KerbinSide",
-            "install_to" : "GameData/KerbinSideAirRace"
+            "find"       : "AirRace",
+            "install_to" : "GameData/KerbinSide"
+        },
+        {
+            "find"       : "KerbinSide-AirRace.version",
+            "install_to" : "GameData/KerbinSide",
+            "find_matches_files" : true
         }
     ],
     "depends" : [
-        { "name" : "KerbalKonstructs" }
-    ],
-    "provides" : [ "KerbinSide-virt" ],
-    "conflicts": [
-        { "name": "KerbinSide-virt" }
+        { "name" : "KerbalKonstructs" },
+        { "name" : "KerbinSide-virt" }
     ]
 }

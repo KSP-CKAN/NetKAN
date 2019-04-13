@@ -7,7 +7,7 @@
     "resources" : {
         "homepage" : "http://forum.kerbalspaceprogram.com/index.php?/topic/134889-KerbalHacks"
     },
-    "depends": [
+    "suggests": [
         { "name": "ProceduralParts" }
     ],
     "install": [

@@ -1,0 +1,24 @@
+{
+    "spec_version": 1,
+    "identifier"  : "kappa-ray",
+    "name"        : "Kappa Ray",
+    "author"      : [ "soundnfury" ],
+    "abstract"    : "Subject Kerbals and equipment to radiation",
+    "version"     : "0.3.4",
+    "ksp_version" : "1.0.5",
+    "license"     : "GPL-2.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/118493-105unmaintained-kappa-ray-%E2%80%94-irradiate-your-kerbals/"
+    },
+    "download": "http://jttlov.no-ip.org/tar/kapparay-0.3.4.zip",
+    "depends": [
+        { "name": "ModuleManager" }
+    ],
+
+    "install": [
+        {
+            "file"       : "kapparay-0.3.4/GameData/kappa-ray",
+            "install_to" : "GameData"
+        }
+    ]
+}

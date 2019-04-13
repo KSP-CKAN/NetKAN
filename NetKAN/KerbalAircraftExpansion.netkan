@@ -2,14 +2,14 @@
     "spec_version": "v1.18",
     "identifier": "KerbalAircraftExpansion",
     "name": "Kerbal Aircraft Expansion",
+    "$kref": "#/ckan/curse/221780",
+    "x_netkan_epoch": 3,
     "abstract": "A pack of select vanilla-inspired parts for your aircrafting needs.",
     "author": "keptin",
     "license" : "restricted",
     "resources": {
         "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/69426-*"
     },
-    "version": "2:2.6.3",
-    "ksp_version": "1.1",
     "depends": [
         { "name" : "FirespitterCore" },
         { "name" : "FirespitterResourcesConfig" },
@@ -27,5 +27,14 @@
             "as": "SPH"
         }
     ],
-    "download": "http://addons-origin.cursecdn.com/files/2301/866/KAX_v2.6.3.zip"
+    "x_netkan_override": [
+        {
+            "version": "3:v2.6.4",
+            "delete" : [ "ksp_version" ],
+            "override" : { 
+                "ksp_version_min"  : "1.2.1",
+                "ksp_version_max"  : "1.2.2"
+            }
+        }
+     ]
 }

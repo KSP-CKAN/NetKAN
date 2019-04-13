@@ -1,0 +1,20 @@
+{
+    "x_via": "Automated SpaceDock CKAN submission",
+    "$kref": "#/ckan/spacedock/1591",
+    "identifier": "IDFlagsandDecals",
+    "license": "CC-BY-NC-ND",
+    "spec_version": "v1.4",
+    "depends": [
+        { "name": "ModuleManager" }
+    ],
+    "recommends": [
+        { "name": "DecalStickers" },
+        { "name": "NEBULADecalsContinued" }
+    ],
+    "install": [
+        {
+            "find": "IDFlags",
+            "install_to": "GameData"
+        }
+    ]
+}

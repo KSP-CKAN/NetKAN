@@ -1,0 +1,39 @@
+{
+  "spec_version": "v1.4",
+  "install": [
+    {
+      "install_to": "GameData",
+      "find": "KSPCasher"
+    }
+  ],
+  "depends": [
+      { "name" : "ToolbarController" },
+      { "name" : "ClickThroughBlocker" }
+  ],
+  "recommends": [
+      { "name" : "Karbonite" },
+      { "name" : "KerbinSide" }
+  ],
+  "suggests": [
+      { "name" : "ContractConfigurator-AnomalySurveyor" },
+      { "name" : "ContractConfigurator-KerbinSpaceStation" },
+      { "name" : "ContractConfigurator-CleverSats" },
+      { "name" : "ContractConfigurator-FieldResearch" },
+      { "name" : "ContractConfigurator-KerbalAcademy" },
+      { "name" : "ContractConfigurator-RemoteTech" },
+      { "name" : "ContractConfigurator-Tourism" },
+      { "name" : "KSP-AVC" }
+  ],
+  "supports": [
+      { "name" : "Strategia" },
+      { "name" : "RealSolarSystem" }
+  ],
+  "conflicts": [
+      { "name" : "KerbalConstructionTime" }
+  ],
+  "$vref": "#/ckan/ksp-avc",
+  "$kref": "#/ckan/spacedock/1267",
+  "x_via": "Automated Linuxgurugamer CKAN script",
+  "identifier": "KSPCasherCont",
+  "license": "MIT"
+}

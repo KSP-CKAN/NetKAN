@@ -1,0 +1,25 @@
+{
+  "spec_version": "v1.4",
+  "install": [
+    {
+      "install_to": "GameData",
+      "find": "Workshop"
+    }
+  ],
+  "depends": [
+    { "name": "CommunityResourcePack" },
+    { "name": "ModuleManager" },
+    { "name": "FirespitterCore" },
+    { "name": "KIS" },
+    { "name" : "ClickThroughBlocker" }
+  ],
+  "conflicts": [ 
+    { "name": "Workshop" },
+    { "name": "OSEWorkShopCont" } 
+  ],
+  "$vref": "#/ckan/ksp-avc",
+  "$kref": "#/ckan/spacedock/2086",
+  "x_via": "Automated Linuxgurugamer CKAN script",
+  "identifier": "OSEWorkShopReworked",
+  "license": "CC-BY-NC-SA-4.0"
+}

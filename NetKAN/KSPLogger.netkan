@@ -1,12 +1,12 @@
 {
-  "license": "restricted",
-  "identifier": "KSPLogger",
+  "license"      : "restricted",
+  "identifier"   : "KSPLogger",
   "abstract"     : "Write specified data items to files for use by external programs (ie: OBS)",
-  "x_via": "Automated Linuxgurugamer CKAN script",
+  "x_via"        : "Automated Linuxgurugamer CKAN script",
   "$kref"        : "#/ckan/github/linuxgurugamer/KSPLogger",
-  "resources": {
-    "repository": "https://github.com/linuxgurugamer/KSPLogger"
-  },
+  "$vref"        : "#/ckan/ksp-avc",
+  "resources"    : { "repository": "https://github.com/linuxgurugamer/KSPLogger" },
+  "recommends"   : [ { "name": "JanitorsCloset" } ],
   "install": [
     {
       "find": "KSPLogger",

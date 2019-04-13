@@ -7,17 +7,14 @@
     "license": "CC-BY-NC-4.0",
 
     "depends": [
-        {"name": "KerbinSide-virt"},
-        {"name": "ContractConfigurator", "min_version": "1.12.1"},
-        {"name": "ContractConfigurator-KerbinSideJobs", "min_version": "2.0"}
+        {"name": "KerbalKonstructs"},
+        {"name": "ContractConfigurator", "min_version": "1.21.0"}
     ],
     "recommends": [
-        {"name": "NavUtilities"},
         {"name": "WaypointManager"}
     ],
     "suggests": [
-        {"name": "KerbalAircraftExpansion"},
-        {"name": "WiderContractsApp"}
+        {"name": "KerbalAircraftExpansion"}
     ],
 
     "resources": {

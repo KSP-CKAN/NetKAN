@@ -1,19 +1,20 @@
 {
     "spec_version"    : "v1.12",
+    "identifier"      : "RealSolarSystem",
+    "name"            : "Real Solar System",
+    "abstract"        : "Resizes and rearranges the Kerbal system to more closely resemble the Solar System",
+    "author"          : [ "NathanKell", "eggrobin", "raidernick", "PhineasFreak" ],
     "$kref"           : "#/ckan/github/KSP-RO/RealSolarSystem",
     "$vref"           : "#/ckan/ksp-avc",
     "x_netkan_force_v": true,
-    "name"            : "Real Solar System",
-    "identifier"      : "RealSolarSystem",
-    "abstract"        : "Resizes and rearranges the Kerbal system to more closely resemble the Solar System",
     "license"         : "CC-BY-NC-SA",
     "release_status"  : "stable",
     "resources": {
-        "homepage": "http://forum.kerbalspaceprogram.com/threads/55145"
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/177216-*"
     },
     "depends": [
         { "name": "ModuleManager" },
-        { "name": "Kopernicus", "min_version": "1:beta-05-2" },
+        { "name": "Kopernicus", "min_version": "2:release-1.3.1-7" },
         { "name": "RSSTextures" }
     ],
     "provides": [ "CustomAsteroids-Pops" ],
@@ -26,14 +27,6 @@
         {
             "find"      : "RealSolarSystem",
             "install_to": "GameData"
-        }
-    ],
-    "x_netkan_override" : [
-        {
-            "version" : "v11.0.0",
-            "override" : {
-                "ksp_version" : "1.1"
-            }
         }
     ]
 }

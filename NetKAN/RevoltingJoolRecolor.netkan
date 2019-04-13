@@ -1,0 +1,18 @@
+{
+    "$kref": "#/ckan/spacedock/776",
+    "identifier": "RevoltingJoolRecolor",
+    "abstract": "A revolting colored Jool.",
+    "x_via": "Automated SpaceDock CKAN submission",
+    "license": "MIT",
+    "spec_version": "v1.4",
+    "depends": [
+        { "name": "ModuleManager" },
+        { "name": "Kopernicus" }
+    ],
+    "install": [
+        {
+            "find": "RevoltingJoolRecolor",
+            "install_to": "GameData"
+        }
+    ]
+}

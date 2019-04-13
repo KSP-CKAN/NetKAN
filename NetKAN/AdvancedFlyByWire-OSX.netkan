@@ -1,0 +1,33 @@
+{
+  "spec_version": 1,
+  "identifier": "AdvancedFlyByWire-OSX",
+  "release_status": "stable",
+  "$kref" : "#/ckan/spacedock/1878",
+  "$vref" : "#/ckan/ksp-avc",
+  "resources": {
+    "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/175359-14-afbw-joystick-controller-mod/",
+    "repository": "https://github.com/linuxgurugamer/ksp-advanced-flybywire"
+  },
+  "install": [
+    {
+      "file": "GameData/ksp-advanced-flybywire",
+      "install_to": "GameData"
+    }
+  ],
+  "depends": [
+        { "name" : "ToolbarController" },
+  { "name" : "ClickThroughBlocker" }
+  ],
+  "conflicts": [
+    {
+    "name": "AdvancedFlyByWireRevived"
+    }
+  ],
+  "recommends": [
+    {
+      "name": "KSP-AVC"
+    }
+ ],
+  "x_netkan_license_ok": true,
+  "provides": ["AdvancedFlyByWireRevived"]
+}

@@ -1,0 +1,33 @@
+{
+    "spec_version" : 1,
+    "identifier"   : "RemoteTechRedevAntennas",
+    "$kref"        : "#/ckan/spacedock/1929",
+    "$vref"        : "#/ckan/ksp-avc",
+    "license"      : "GPL-3.0",
+    "abstract"     : "Standalone and optional antenna package of RemoteTech Redev for Kerbal Space Program's stock CommNet",
+    "name"         : "RemoteTech Redev Antennas",
+    "resources": {
+        "homepage":    "https://forum.kerbalspaceprogram.com/index.php?/topic/139167-*",
+        "respository": "https://github.com/RemoteTechnologiesGroup/RemoteTech-Antennas"
+    },
+    "depends": [
+        { "name": "ModuleManager" }
+    ],
+    "install": [
+        {
+            "file": "GameData/RemoteTechRedev",
+            "install_to": "GameData"
+        }
+    ],
+    "conflicts": [
+        { "name": "RemoteTech" }
+    ],
+    "x_netkan_override": [ {
+        "version": "0.1",
+        "delete":  [ "ksp_version" ],
+        "override": {
+            "ksp_version_min": "1.3",
+            "ksp_version_max": "1.4"
+        }
+    } ]
+}

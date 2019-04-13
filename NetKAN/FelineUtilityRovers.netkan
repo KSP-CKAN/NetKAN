@@ -1,0 +1,13 @@
+{
+    "spec_version" : 1,
+    "identifier"   : "FelineUtilityRovers",
+    "$kref"        : "#/ckan/spacedock/1172",
+    "license"      : "CC-BY-NC",
+    
+    "install": [
+        {
+            "file"       : "GameData/KerbetrotterLtd",
+            "install_to" : "GameData"
+        }
+    ]
+}

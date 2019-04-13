@@ -6,7 +6,7 @@
     "install": [
         {
             "find"       : "KerbinSide",
-            "install_to" : "GameData/KerbinSideAirRace"
+            "install_to" : "GameData"
         }
     ],
     "depends" : [

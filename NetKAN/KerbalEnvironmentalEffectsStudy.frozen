@@ -1,14 +1,30 @@
 {
-    "identifier": "KerbalEnvironmentalEffectsStudy",
-    "x_via": "Automated KerbalStuff CKAN submission",
-    "spec_version": "v1.4",
-    "$kref": "#/ckan/kerbalstuff/625",
-    "license": "GPL-3.0",
-    "install": [
-        { "file": "NehemiahInc/KEES", "install_to": "GameData/NehemiahInc" }
-    ],
-    "depends": [
-        { "name": "NehemiahScienceCommon" },
-        { "name": "KAS" }
-    ]
+	"spec_version": "v1.26",
+	"identifier": "KerbalEnvironmentalEffectsStudy",
+	"$kref": "#/ckan/github/mwerle/OrbitalMaterialScience/asset_match/NehemiahIncSciencePack.*.zip",
+	"$vref": "#/ckan/ksp-avc",
+	"name": "Kerbal Environmental Effects Study",
+	"abstract": "Science and money from experiments based on real space science.",
+	"description": "Kerbal Environmental Effects Study is a mid-game set of material exposure experiments aimed at small orbital stations. To run an experiment, you have to attach an Experiment Carrier to the outside of your station (using KIS), then add an experiment to it. The idea is to run experiments in the background while doing other missions.",
+	"author": [ "N3h3miah", "Micha" ],
+	"license": "GPL-3.0",
+	"resources": {
+		"homepage": "http://forum.kerbalspaceprogram.com/index.php?showtopic=149298"
+	},
+	"depends": [
+		{ "name": "KIS" },
+		{ "name": "NehemiahScienceCommon", "min_version": "1:0.7b2" }
+	],
+	"recommends": [
+		{ "name": "Corvus125mTwoKerbalPod" },
+		{ "name": "K2CommandPodCont" },
+		{ "name": "UniversalStorage" }
+	],
+	"replaced-by" : { "name": "NehemiahEngineeringOrbitalScience" }
+	"install": [
+		{
+			"file": "NehemiahInc/KEES",
+			"install_to": "GameData/NehemiahInc"
+		}
+	]
 }

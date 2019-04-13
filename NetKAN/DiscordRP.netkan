@@ -1,0 +1,10 @@
+{
+    "spec_version": 1,
+    "identifier":   "DiscordRP",
+    "abstract":     "DiscordRP introduces Rich Presence integration for KSP",
+    "$kref":        "#/ckan/curse/283006",
+    "license":      "MIT",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/168196-*"
+    }
+}

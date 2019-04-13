@@ -1,0 +1,12 @@
+{
+    "spec_version" : 1,
+    "identifier"   : "TooManyOrbits",
+    "$kref"        : "#/ckan/spacedock/1340",
+    "license"      : "MIT",
+    "x_netkan_override": [
+        {
+            "version": "1.1.0",
+            "override": { "ksp_version": "1.2.2" }
+        }
+    ]
+}

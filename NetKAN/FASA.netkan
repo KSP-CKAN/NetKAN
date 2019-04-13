@@ -1,23 +1,33 @@
 {
-    "spec_version"  :   1,
-    "identifier"    :   "FASA",
-    "$kref"         :   "#/ckan/spacedock/188",
-    "license"       :   "restricted",
-    "conflicts" : [
+    "spec_version"  : "v1.4",
+    "identifier"    : "FASA",
+    "name"          : "FASA",
+    "author"        : "Raidernick",
+    "abstract"      : "Re-release of FASA by Raidernick under the new management of Nathankell team.",
+    "comment"       : "No Comment",
+    "resources": {
+        "homepage"  : "https://github.com/KSP-RO/FASA-RO"
+    },
+    "$kref"         : "#/ckan/github/KSP-RO/FASA-RO",
+    "license"       : "CC-BY-SA",
+    "$vref"        : "#/ckan/ksp-avc",
+	"x_netkan_epoch"   : 1,
+    "install"       :
+    [
+      {
+        "find"      : "FASA",
+        "install_to": "GameData"
+      }
+    ],
+    "depends": [
+		{ "name": "ModuleManager" }
+    ],
+	"recommends"    :
+    [
+        { "name"    : "RasterPropMonitor" },
+		{ "name"    : "ReflectionPlugin" }
+    ],
+	"conflicts" : [
         { "name": "FASALaunchClamps" }
-    ],
-    "recommends" : [
-        { "name" : "RasterPropMonitor" }
-    ],
-    "suggests" : [
-        { "name" : "ReflectionPlugin" }
-    ],
-    "install" : [
-        {
-            "file"      :   "GameData/FASA",
-            "install_to":   "GameData",
-            "filter"    :   "Plugins"
-        }
-    ],
-    "x_netkan_epoch": "1"
+    ]
 }

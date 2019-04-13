@@ -1,0 +1,17 @@
+{
+    "spec_version":   "v1.4",
+    "identifier":     "DynamicBatteryStorage",
+    "name":           "Dynamic Battery Storage",
+    "abstract":       "A plugin that works around the problems of stock electricity consumption/generation at high time warp",
+    "$kref":          "#/ckan/github/ChrisAdderley/DynamicBatteryStorage",
+    "$vref":          "#/ckan/ksp-avc/DynamicBatteryStorage.version",
+    "x_netkan_epoch": 2,
+    "x_netkan_trust_version_file": true,
+    "license":        "CC-BY-NC-SA-4.0",
+    "install": [
+        {
+            "file":       "GameData/DynamicBatteryStorage",
+            "install_to": "GameData"
+        }
+    ]
+}

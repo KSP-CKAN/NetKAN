@@ -1,0 +1,14 @@
+{
+  "spec_version": "v1.4",
+  "install": [
+    {
+      "install_to": "GameData",
+      "find": "BAM"
+    }
+  ],
+  "$vref": "#/ckan/ksp-avc/GameData/BAM/BAM.version",
+  "$kref": "#/ckan/spacedock/1225",
+  "x_via": "Automated Linuxgurugamer CKAN script",
+  "identifier": "BAMCont",
+  "license": "CC-BY-NC-SA-4.0"
+}

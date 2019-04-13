@@ -3,6 +3,8 @@
     "identifier": "AircraftCarrierAccessories",
     "spec_version": "v1.4",
     "$kref": "#/ckan/spacedock/1068",
+    "x_netkan_epoch": 1,
+    "version": "1.2.4",
     "install": [ { "find" : "KFC",
                    "install_to" : "GameData"} ]
 }

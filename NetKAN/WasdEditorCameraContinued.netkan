@@ -11,6 +11,11 @@
     "conflicts" : [
         { "name" : "WasdEditorCamera" }
     ],
+    "depends": [
+        { "name" : "ToolbarController" },
+	{ "name" : "ClickThroughBlocker" }
+    ],
+    "recommends": [ { "name": "JanitorsCloset" } ],
     "install" : [
         {
             "find"       : "WasdEditorCamera",

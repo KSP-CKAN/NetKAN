@@ -1,0 +1,11 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "WesternVehicles",
+    "$kref":        "#/ckan/spacedock/2019",
+    "$vref":        "#/ckan/ksp-avc",
+    "license":      "CC-BY-NC-ND",
+    "install": [ {
+        "find":       "GR_Western_Wolfsbane",
+        "install_to": "GameData"
+    } ]
+}

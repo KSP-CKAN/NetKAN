@@ -1,21 +1,22 @@
 {
-    "license": "CC-BY-NC-SA-4.0",
+    "spec_version": "v1.4",
     "identifier": "SovietConversion",
     "$kref": "#/ckan/spacedock/858",
-    "spec_version": "v1.4",
-    "conflicts" : [ 
-        { "name" : "RemoteTech" } 
+    "license": "CC-BY-NC-SA-4.0",
+    "x_netkan_epoch": "1",
+    "x_netkan_staging": true,
+    "x_netkan_staging_reason": "Check Contares max version",
+    "conflicts" : [
+        { "name" : "RemoteTech" }
     ],
     "depends": [
-        { "name": "Tantares" },
-        { "name": "TantaresLV" },
+        { "name": "NewTantares" },
+        { "name": "NewTantaresLV" },
         { "name": "ABLaunchers" },
-        { "name": "Contares", "max_version" : "1.7.4" },
+        { "name": "Contares" },
         { "name": "ModuleManager" },
         { "name": "AdditionalProgressionContracts" }
     ],
-    "x_netkan_staging": true,
-    "comment": "Check Contares max version",
     "recommends": [
         { "name": "AsteroidDay" },
         { "name": "Taerobee" },

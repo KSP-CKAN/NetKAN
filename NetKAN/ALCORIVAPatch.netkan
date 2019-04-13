@@ -1,0 +1,26 @@
+{
+  "spec_version": "v1.4",
+  "install": [
+    {
+      "install_to": "GameData",
+      "find": "ASET"
+    }
+  ],
+  "depends": [
+      { "name": "ASETAgency" },
+      { "name": "ModuleManager" },
+      { "name": "ASETProps" , "min_version": "1.4"},
+      { "name": "RasterPropMonitor-Core", "min_version": "0.28.0" }
+  ],
+ "recommends": [
+        { "name": "SCANsat" },
+        { "name": "MechJeb2" },
+        { "name": "RealChute" },
+        { "name": "VesselView" },
+        { "name": "DockingPortAlignmentIndicator" }
+   ],
+  "$kref": "#/ckan/spacedock/1205",
+  "x_via": "Automated Linuxgurugamer CKAN script",
+  "identifier": "ALCORIVAPatch",
+  "license": "CC-BY-NC-SA-3.0"
+}

@@ -1,24 +1,5 @@
 {
-    "spec_version" : 1,
+    "spec_version" : "v1.4",
     "identifier"   : "CrowdSourcedScience",
-    "$kref"        : "#/ckan/github/DuoDex/CrowdSourcedScience",
-    "name"         : "Crowd Sourced Science",
-    "resources": {
-        "homepage" : "http://forum.kerbalspaceprogram.com/threads/102373"
-    },
-    "abstract"     : "Provides a nearly inexhaustible supply of science reports in Kerbal Space Program",
-    "author"       : "DuoDex",
-    "license"      : "CC-BY-NC-SA-4.0",
-    "ksp_version_min": "1.0.2",
-    "ksp_version_max": "1.1.99",
-    "release_status" : "stable",
-    "depends" : [
-        { "name" : "ModuleManager" }
-    ],
-    "install": [
-        {
-            "file"       : "Crowd Sourced Science",
-            "install_to" : "GameData"
-        }
-    ]
+    "$kref"        : "#/ckan/netkan/https://raw.githubusercontent.com/DuoDex/CrowdSourcedScience/master/CrowdSourcedScience.netkan"
 }

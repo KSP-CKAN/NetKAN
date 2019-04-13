@@ -1,17 +1,26 @@
 {
+    "spec_version": "v1.26",
     "identifier": "OrbitalMaterialScience",
-    "x_via": "Automated KerbalStuff CKAN submission",
+    "$kref": "#/ckan/github/mwerle/OrbitalMaterialScience/asset_match/NehemiahIncSciencePack.*.zip",
+    "$vref": "#/ckan/ksp-avc",
+    "name": "Orbital Material Science",
+    "abstract": "Get more science from orbit. Adds science experiments for your space station, inspired by real space experiments.",
+    "description": "Orbital Material Science is a collection of multi-step experiments inspired by real-world ISS science experiments. To run experiments, you have to launch laboratories, equipment, and the experiments themselves and perform some assembly in-orbit before the experiments can be run. The idea is to run the experiments in the background while you do other missions.",
+    "author": [ "N3h3miah", "Micha" ],
     "license": "GPL-3.0",
-    "spec_version": "v1.4",
-    "$kref": "#/ckan/kerbalstuff/468",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?showtopic=149298"
+    },
+    "depends": [
+        { "name": "NehemiahScienceCommon", "min_version": "1:0.7b2" },
+        { "name": "NehemiahMultiPurposeParts", "min_version": "1:0.7b2" }
+    ],
+    "replaced-by" : { "name": "NehemiahEngineeringOrbitalScience" }
+    },
     "install": [
         {
             "file": "NehemiahInc/OMS",
             "install_to": "GameData/NehemiahInc"
         }
-    ],
-    "depends": [
-        { "name": "NehemiahScienceCommon" },
-        { "name": "NehemiahMultiPurposeParts" }
     ]
 }

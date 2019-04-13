@@ -1,0 +1,20 @@
+{
+  "spec_version": "v1.4",
+  "install": [
+    {
+      "install_to": "GameData",
+      "find": "FMRS"
+    }
+  ],
+  "depends": [ 
+    { "name": "ModuleManager" } ,
+    { "name": "RecoveryController" } ,
+    { "name" : "ToolbarController" },
+    { "name" : "ClickThroughBlocker" }
+  ],
+  "$vref": "#/ckan/ksp-avc",
+  "$kref": "#/ckan/spacedock/1251",
+  "x_via": "Automated Linuxgurugamer CKAN script",
+  "identifier": "FMRSContinued",
+  "license": "MIT"
+}

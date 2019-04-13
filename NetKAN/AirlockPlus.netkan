@@ -1,0 +1,22 @@
+{
+    "spec_version" : "v1.2",
+    "identifier"   : "AirlockPlus",
+    "name"         : "AirlockPlus",
+    "abstract"     : "Allows the use of any airlock on a vessel in conjunction with any crew part on the vessel, without requiring manual crew transfer.",
+    "author"       : "cake-pie",
+    "license"      : "restricted",
+    "$kref"        : "#/ckan/github/cake-pie/AirlockPlus",
+    "$vref"        : "#/ckan/ksp-avc",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?showtopic=160268"
+    },
+    "depends": [
+        { "name": "ModuleManager" }
+    ],
+    "recommends": [
+        { "name": "CommunityTraitIcons" }
+    ],
+    "supports": [
+        { "name": "ConnectedLivingSpace" }
+    ]
+}

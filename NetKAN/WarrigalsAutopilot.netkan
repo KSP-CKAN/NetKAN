@@ -1,0 +1,9 @@
+{
+    "spec_version" : 1,
+    "identifier"   : "WarrigalsAutopilot",
+    "name"         : "Warrigal's Autopilot",
+    "author"       : "Warrigal",
+    "$kref"        : "#/ckan/github/tswett/WarrigalsAutopilot",
+    "license"      : "GPL-3.0",
+    "ksp_version"  : "1.3.0"
+}

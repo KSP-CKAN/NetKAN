@@ -1,10 +1,9 @@
 {
     "spec_version"   : "v1.10",
-    "$kref"          : "#/ckan/github/Galileo88/StockVisualEnhancements/asset_match/SVE.Scatterer.cfgs.zip",
+    "$kref"          : "#/ckan/github/Galileo88/StockVisualEnhancements/asset_match/(?i)Scatterer",
     "$vref"          : "#/ckan/ksp-avc",
     "ksp_version"    : "1.2",
     "identifier"     : "SVE-Scatterer-Config",
-    "abstract"       : "A visual enhancement pack using EVE and Scatterer for the stock planets. ",
     "name"           : "Stock Visual Enhancements: Scatterer Configs",
     "abstract"       : "Stock Visual Enhancements configurations for scatterer",
     "license"        : "CC-BY-NC-SA",

@@ -7,12 +7,12 @@
     "$kref"     : "#/ckan/spacedock/73",
     "install"   : [
         {
-            "find"       : "Nyrath",
+            "find"       : "USAFOrion",
             "install_to" : "GameData"
         }
     ],
     "resources" : {
-        "homepage"       : "http://forum.kerbalspaceprogram.com/threads/28428-Orion-aka-Ol-Boom-boom",
+        "homepage"       : "https://forum.kerbalspaceprogram.com/index.php?/topic/26277-orion-aka-quotol-boom-boomquot/",
         "repository"     : "https://github.com/cerebrate/USAFOrion"
         }
 }

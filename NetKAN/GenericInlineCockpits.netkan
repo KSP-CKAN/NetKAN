@@ -1,0 +1,20 @@
+{
+    "$kref": "#/ckan/spacedock/1514",
+    "spec_version": "v1.4",
+    "identifier": "GenericInlineCockpits",
+    "license": "MIT",
+    "install": [
+        {
+            "find"       : "Generic Inline Cockpits",
+            "install_to" : "GameData"
+        }
+    ],
+    "x_netkan_override": [
+        {
+            "version": "0.9.1",
+            "override": {
+                "ksp_version" : "1.3"
+            }
+        }
+    ]
+}

@@ -1,0 +1,15 @@
+{
+    "spec_version": "v1.16",
+    "identifier":   "VMar",
+    "$kref":        "#/ckan/spacedock/1942",
+    "license":      "GPL-3.0",
+    "install": [ {
+        "find":       "Green_Rolf_Vmar",
+        "install_to": "GameData",
+        "filter":     [ ".DS_Store", "VMAR.craft" ]
+    }, {
+        "find":               "VMAR.craft",
+        "install_to":         "Ships/SPH",
+        "find_matches_files": true
+    } ]
+}

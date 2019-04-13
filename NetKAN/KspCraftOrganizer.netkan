@@ -3,8 +3,9 @@
     "identifier"   : "KspCraftOrganizer",
     "$kref"        : "#/ckan/spacedock/866",
     "license"      : "MIT",
-	
-	"install": [
+    "$vref"        : "#/ckan/ksp-avc",
+
+    "install": [
         {
             "file"       : "KspCraftOrganizer",
             "install_to" : "GameData"

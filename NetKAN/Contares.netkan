@@ -4,8 +4,8 @@
     "license": "CC-BY-NC-4.0",
     "$kref": "#/ckan/spacedock/180",
     "depends": [
-        { "name": "Tantares" },
-        { "name": "TantaresLV" },
+        { "name": "NewTantares" },
+        { "name": "NewTantaresLV" },
         { "name": "RealPlume" },
         { "name": "Contares-Common" },
 	{ "name": "RetractableLiftingSurface" }

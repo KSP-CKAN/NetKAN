@@ -2,14 +2,17 @@
     "spec_version" : "v1.4",
     "identifier"   : "ETT",
     "$kref"        : "#/ckan/spacedock/199",
-    "x_netkan_epoch": "2",
+    "x_netkan_epoch": "3",
     "license": "CC-BY-4.0",
     "install": [
         {
-            "find"       : "GameData/ETT",
+            "find"       : "ETT",
             "install_to" : "GameData"
         }
     ],
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/112627-*"
+    },
     "depends": [
         { "name": "ModuleManager" },
         { "name": "YongeTechTreesPlugin" }

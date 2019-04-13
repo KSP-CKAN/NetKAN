@@ -1,0 +1,14 @@
+{
+    "spec_version" : "v1.18",
+    "identifier"   : "PhysicsRangeExtender",
+    "$kref"        : "#/ckan/github/jrodrigv/PhysicsRangeExtender",
+    "$vref"        : "#/ckan/ksp-avc",
+    "name"         : "Physics Range Extender ",
+    "license"      : "Unlicense",
+    "suggests"     : [
+        { "name" : "KerbalJointReinforcement" }
+    ],
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/158344-*"
+    }
+}

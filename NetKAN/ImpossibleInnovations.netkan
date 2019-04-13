@@ -1,23 +1,29 @@
 {
-    "spec_version" : 1,
+    "spec_version" : "v1.16",
     "identifier"   : "ImpossibleInnovations",
     "$kref"        : "#/ckan/spacedock/340",
+    "$vref"        : "#/ckan/ksp-avc",
     "license"      : "CC-BY-NC-SA-4.0",
     "resources" : {
-        "homepage"  : "http://forum.kerbalspaceprogram.com/index.php?/topic/77933-104-impossible-innovations",
-        "repository": "https://github.com/JandCandO/ImpossibleInnovations"
+        "homepage"  : "https://forum.kerbalspaceprogram.com/index.php?/topic/175694-*",
+        "repository": "https://github.com/net-lisias-ksp/ImpossibleInnovations"
     },
     "depends": [
-        {"name" : "TweakScale"},
-        {"name" : "ModuleManager"}
+        { "name" : "TweakScale"    },
+        { "name" : "ModuleManager" }
     ],
     "install": [
         {
-            "file": "GameData/ImpossibleInnovations",
-            "install_to": "GameData"
+            "file":       "GameData/ImpossibleInnovations",
+            "install_to": "GameData",
+            "filter":     [ "Ships" ]
         },
         {
-            "file": "Ships",
+            "find":       "Ships/VAB",
+            "install_to": "Ships"
+        },
+        {
+            "find":       "Ships/SPH",
             "install_to": "Ships"
         }
     ],

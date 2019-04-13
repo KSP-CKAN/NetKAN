@@ -1,0 +1,24 @@
+{
+  "spec_version": "v1.4",
+  "install": [
+    {
+      "install_to": "GameData",
+      "find": "CrewRandR"
+    }
+  ],
+  "depends": [
+    { "name" : "ClickThroughBlocker" },
+    { "name": "ModuleManager" }
+  ],
+
+  "conflicts": [
+        { "name" : "BetterCrewAssignment" },
+        { "name" : "CrewQueue" }
+   ],
+  "$vref": "#/ckan/ksp-avc",
+  "$kref": "#/ckan/spacedock/1324",
+  "x_via": "Automated Linuxgurugamer CKAN script",
+  "identifier": "CrewQueueTwo",
+  "license": "MIT"
+}
+

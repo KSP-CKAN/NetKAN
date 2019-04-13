@@ -7,8 +7,9 @@
     "name"          : "Persistent Dynamic Pod Names",
     "abstract"      : "Configurable names for pods and ships",
     "resources" : {
-        "homepage"  :   "https://github.com/linuxgurugamer/PersistentDynamicPodNames"
+        "homepage"  :   "http://forum.kerbalspaceprogram.com/index.php?/topic/142900-12-persistent-dynamic-pod-names-release/"
     },
+    "recommends": [ { "name": "JanitorsCloset" } ],
     "depends": [
         { "name" : "ModuleManager" }
     ],
@@ -17,6 +18,15 @@
             "find"    : "PersistentDynamicPodNames",
             "install_to": "GameData",
             "filter_regexp": "ModuleManager.+\\.dll"
+        }
+    ],
+    "x_netkan_override": [
+        {
+            "version": "0.1.8",
+            "delete": [ "ksp_version_min", "ksp_version_max" ],
+            "override": {
+                "ksp_version" : "1.3.0"
+            }
         }
     ]
 }

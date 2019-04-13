@@ -4,7 +4,7 @@
     "$kref"         : "#/ckan/spacedock/238",
     "license"       : "GPL-3.0",
     "depends": [
-        { "name": "Kopernicus", "version_min": "1:beta-03-3" },
+        { "name": "Kopernicus", "min_version": "1:beta-03-3" },
         { "name" : "ModuleManager" }
     ],
     "x_netkan_epoch": 1
