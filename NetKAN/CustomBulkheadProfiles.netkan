@@ -11,5 +11,7 @@
     "resources": {
         "homepage":     "https://forum.kerbalspaceprogram.com/index.php?showtopic=181645",
         "repository":   "https://github.com/taniwha/CustomBulkheadProfiles"
-    }
+    },
+    "x_netkan_staging":        true,
+    "x_netkan_staging_reason": "Double check that the game version compatibility is still correct"
 }
