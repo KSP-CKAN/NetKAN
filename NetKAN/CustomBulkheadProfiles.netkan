@@ -1,0 +1,17 @@
+{
+    "spec_version": 1,
+    "identifier":       "CustomBulkheadProfiles",
+    "name":             "Custom Bulkhead Profiles (CBH)",
+    "abstract":         "Adds support for Custom Bulkhead Profiles via config files.",
+    "author":           "taniwha",
+    "$kref":            "#/ckan/ksp-avc/http://taniwha.org/~bill/CustomBulkheadProfiles.version",
+    "download":         "http://taniwha.org/~bill/CustomBulkheadProfiles_v0.1.0.zip",
+    "$vref":            "#/ckan/ksp-avc",
+    "version":          "0.1.0",
+    "ksp_version_min":  "1.6",
+    "license":          "GPL-3.0",
+    "resources": {
+        "homepage":     "https://forum.kerbalspaceprogram.com/index.php?showtopic=181645",
+        "repository":   "https://github.com/taniwha/CustomBulkheadProfiles"
+    }
+}
