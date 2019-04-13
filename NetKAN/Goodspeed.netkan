@@ -3,12 +3,13 @@
     "$kref": "#/ckan/github/henrybauer/GPOSpeedPump",
     "$vref": "#/ckan/ksp-avc",
     "name": "GPOSpeedFuelPump",
-    "abstract": "After the Kraken took GoodSpeed away never to be seen again I have taken up the continuance of this mod. I do hope he doesn't mind wherever he may be",
-    "author": "GeordiePigeonOwner",
+    "abstract": "Allows you to automatically transfer or balance fuel",
+    "author": "hab136",
     "license": "GPL-3.0",
     "identifier": "Goodspeed",
     "resources" : {
-        "homepage" : "https://forum.kerbalspaceprogram.com/index.php?/topic/106448-gpospeedfuelpump-ksp-v102/"
+        "homepage" : "http://forum.kerbalspaceprogram.com/index.php?/topic/137489-11-gpospeedfuelpump-continued/",
+        "x_screenshot": "https://spacedock.info/content/hab136_461/GPOSpeedFuelPump/GPOSpeedFuelPump-1461173729.569611.png"
     },
     "depends" : [
         { "name" : "ModuleManager" }
