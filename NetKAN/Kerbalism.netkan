@@ -70,6 +70,11 @@
 		"version": ">2.2",
 		"override": {
 			"depends": [{
+					"name": "ModuleManager"
+				},
+				{
+					"name": "CommunityResourcePack"
+				}, {
 					"name": "Kerbalism-Profile"
 				},
 				{
