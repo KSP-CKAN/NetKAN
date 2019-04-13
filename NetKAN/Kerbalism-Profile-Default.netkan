@@ -8,12 +8,8 @@
 	"abstract": "Default profile for Kerbalism",
 	"provides": ["Kerbalism-Profile"],
 	"depends": [{
-			"name": "Kerbalism"
-		},
-		{
-			"name": "CommunityResourcePack"
-		}
-	],
+		"name": "Kerbalism"
+	}],
 	"conflicts": [{
 		"name": "Kerbalism-Profile"
 	}],
