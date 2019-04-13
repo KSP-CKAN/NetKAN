@@ -79,7 +79,7 @@
 			"install": [{
 				"file": "GameData/Kerbalism",
 				"install_to": "GameData",
-				"filter_regexp": ["GameData/Kerbalism/Profiles/.+\\.cfg$", "GameData/Kerbalism/System/.+\\.cfg$"]
+				"filter_regexp": ["GameData/Kerbalism/Profiles/.+\\.cfg$", "GameData/Kerbalism/System/.+\\.cfg$", "GameData/Kerbalism/ResourceConfigs/.+\\.cfg$"]
 			}]
 		}
 	}]
