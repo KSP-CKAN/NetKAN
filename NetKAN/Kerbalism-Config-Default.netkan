@@ -15,11 +15,11 @@
 	}],
 	"install": [{
 			"file": "GameData/Kerbalism/System",
-			"install_to": "GameData/Kerbalism/System"
+			"install_to": "GameData/Kerbalism"
 		},
 		{
 			"file": "GameData/Kerbalism/ResourceConfigs",
-			"install_to": "GameData/Kerbalism/ResourceConfigs"
+			"install_to": "GameData/Kerbalism"
 		}
 	]
 }
