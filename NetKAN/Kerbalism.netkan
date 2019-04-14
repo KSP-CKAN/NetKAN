@@ -14,6 +14,11 @@
 		},
 		{
 			"name": "CommunityResourcePack"
+		}, {
+			"name": "Kerbalism-Profile"
+		},
+		{
+			"name": "Kerbalism-Config"
 		}
 	],
 	"recommends": [{
@@ -66,26 +71,9 @@
 	"conflicts": [{
 		"name": "UKS"
 	}],
-	"x_netkan_override": [{
-		"version": ">2.2",
-		"override": {
-			"depends": [{
-					"name": "ModuleManager"
-				},
-				{
-					"name": "CommunityResourcePack"
-				}, {
-					"name": "Kerbalism-Profile"
-				},
-				{
-					"name": "Kerbalism-Config"
-				}
-			],
-			"install": [{
-				"file": "GameData/Kerbalism",
-				"install_to": "GameData",
-				"filter_regexp": ["GameData/Kerbalism/Profiles", "GameData/Kerbalism/System", "GameData/Kerbalism/ResourceConfigs"]
-			}]
-		}
+	"install": [{
+		"file": "GameData/Kerbalism",
+		"install_to": "GameData",
+		"filter_regexp": ["GameData/Kerbalism/Profiles", "GameData/Kerbalism/System", "GameData/Kerbalism/ResourceConfigs"]
 	}]
 }
