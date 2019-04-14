@@ -3,7 +3,7 @@
     "identifier":   "RedOnion",
     "$kref":        "#/ckan/spacedock/2116",
     "license":      "MIT",
-    "Install": [
+    "install": [
         {
             "find": "Licenses",
             "install_to": "GameData/RedOnion"
