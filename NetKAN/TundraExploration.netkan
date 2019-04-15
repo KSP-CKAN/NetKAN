@@ -1,30 +1,31 @@
 {
-    "$kref": "#/ckan/spacedock/223",
-    "$vref": "#/ckan/ksp-avc/TundraExploration.version",
     "spec_version": "v1.4",
-    "identifier": "TundraExploration",
-    "license": "CC-BY-NC-SA-4.0",
+    "identifier":   "TundraExploration",
+    "$kref":        "#/ckan/spacedock/223",
+    "$vref":        "#/ckan/ksp-avc/TundraExploration.version",
+    "license":      "CC-BY-NC-ND-4.0",
     "depends": [
-        { "name": "NearFutureSolar-Core" },
-        { "name": "B9PartSwitch" },
-        { "name": "TundraTechnologies" },
-        { "name": "ModuleManager" },
-        { "name": "SpaceXLegs" }
+        { "name": "SpaceXLegs"         },
+        { "name": "B9PartSwitch"       },
+        { "name": "AnimatedDecouplers" },
+        { "name": "ModuleManager"      }
     ],
     "recommends" : [
-        { "name" : "RasterPropMonitor-Core" },
-        { "name" : "RealPlume-StockConfigs" }
+        { "name": "NearFutureSolar-Core" },
+        { "name": "NearFutureProps"      },
+        { "name": "SmokeScreen"          },
+        { "name": "FMRS"                 }
     ],
-    "install" : [
+    "install": [
         {
             "find"       : "TundraExploration",
             "install_to" : "GameData",
             "filter"     : "Thumbs.db"
         },
         {
-            "find": "Ships/VAB",
-            "install_to": "Ships",
-            "optional": true,
+            "find":        "Ships/VAB",
+            "install_to":  "Ships",
+            "optional":    true,
             "description": "Tundra Exploration example craft"
         }
     ]
