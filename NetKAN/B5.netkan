@@ -1,0 +1,12 @@
+{
+    "spec_version" : 1,
+    "identifier"   : "B5",
+    "$kref"        : "#/ckan/spacedock/1765",
+    "license"      : "BSD-2-clause",
+    "depends": [
+        { "name": "ModuleManager" }
+    ],
+    "recommends": [
+        { "name": "SpaceXLaunchVehicles" }
+    ]
+}
