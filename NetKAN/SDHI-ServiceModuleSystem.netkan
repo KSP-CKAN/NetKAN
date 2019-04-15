@@ -5,7 +5,7 @@
     "abstract"     : "Service Module and accessories designed specifically for use with the stock Mk1-2 Command Pod, vaguely resembling NASA's Orion MPCV. May or may not have a convincing stockalike appearance.",
     "$kref"        : "#/ckan/github/sumghai/SDHI_ServiceModuleSystem",
     "license"      : "CC-BY-SA-4.0",
-    "ksp_version"  : "1.6",
+    "ksp_version"  : "1.7",
     "x_netkan_staging": true,
     "x_netkan_staging_reason": "Game versions hard coded in NetKAN. Please check that it matches the forum thread.",
     "x_netkan_force_v": true,
