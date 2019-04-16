@@ -2,6 +2,7 @@
     "spec_version": 1,
     "license": "GPL-3.0",
     "$kref": "#/ckan/spacedock/643",
+    "$vref"    : "#/ckan/ksp-avc",
     "identifier": "DatedQuickSaves",
     "install": [
         {
