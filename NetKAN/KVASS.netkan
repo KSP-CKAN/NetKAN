@@ -13,9 +13,9 @@
     },
     "conflicts": [
         { "name": "KRASH" },
-		{ "name": "KerbalConstructionTime" }
+        { "name": "KerbalConstructionTime" }
     ],
-    "suggests": [
+    "recommends": [
         { "name": "KerbalAlarmClock" }
     ]
 }
