@@ -72,8 +72,8 @@
 		"name": "UKS"
 	}],
 	"install": [{
-		"file": "GameData/Kerbalism",
+		"file": "Kerbalism",
 		"install_to": "GameData",
-		"filter_regexp": ["GameData/Kerbalism/Profiles", "GameData/Kerbalism/System", "GameData/Kerbalism/ResourceConfigs", "GameData/Kerbalism/Settings.cfg"]
+		"filter_regexp": ["Kerbalism/Profiles", "Kerbalism/System", "Kerbalism/ResourceConfigs", "Kerbalism/Settings.cfg"]
 	}]
 }
