@@ -4,6 +4,12 @@
     "$kref":        "#/ckan/spacedock/133",
     "$vref":        "#/ckan/ksp-avc",
     "license":      "MIT",
+    "install": [
+        {
+            "file": "GameData/PortraitStats",
+            "install_to": "GameData"
+        }
+    ],
     "x_netkan_override": [
         {
             "version": ">=15.0",
