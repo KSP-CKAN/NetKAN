@@ -9,7 +9,7 @@
     } ],
     "depends": [
         { "name": "ModuleManager"           },
-        { "name": "SmartActuators"          },
+        { "name": "SmartActuation"          },
         { "name": "B9PartSwitch"            },
         { "name": "CommunityResourcePack"   }
     ],
