@@ -1,0 +1,23 @@
+{
+    "spec_version" : "v1.4",
+    "identifier"   : "WaterLaunchSites",
+    "$kref"        : "#/ckan/github/yalov/WaterLaunchSites",
+    "name"         : "Water Launch Sites (Kerbal-Konstructs)",
+    "author"       : "flart",
+    "release_status" : "stable",
+    "$vref" : "#/ckan/ksp-avc",
+    "resources" : {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/183937-*"
+    },
+    "install" : [
+            {
+                "file"       : "GameData/KerbalKonstructs-WaterLaunchSites",
+                "install_to" : "GameData"
+            }
+    ],
+
+    "depends": [
+        { "name": "KerbalKonstructs" },
+        { "name": "ModuleManager" }
+    ]
+}
