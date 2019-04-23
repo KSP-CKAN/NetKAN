@@ -4,6 +4,7 @@
     "$kref"        : "#/ckan/github/yalov/WaterLaunchSites",
     "name"         : "Water Launch Sites (Kerbal-Konstructs)",
     "author"       : "flart",
+    "x_netkan_license_ok" : true,
     "release_status" : "stable",
     "$vref" : "#/ckan/ksp-avc",
     "resources" : {
