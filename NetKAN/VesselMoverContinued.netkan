@@ -7,6 +7,9 @@
     "$kref":        "#/ckan/github/jrodrigv/VesselMover",
     "$vref":        "#/ckan/ksp-avc",
     "license":      "MIT",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/183963-*"
+    },
     "suggests": [
         { "name": "KSP-AVC" }
     ],
