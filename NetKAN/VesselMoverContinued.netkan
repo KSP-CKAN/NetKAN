@@ -1,12 +1,12 @@
 {
     "spec_version": 1,
-    "name": "VesselMover Continued",
-    "abstract": "A continuation of BahamutoD's Vessel Mover.",
-    "author": "Papa_Joe",
-    "identifier": "VesselMoverContinued",
-    "$kref": "#/ckan/github/PapaJoesSoup/VesselMover",
-    "$vref": "#/ckan/ksp-avc",
-    "license": "MIT",
+    "identifier":   "VesselMoverContinued",
+    "name":         "VesselMover Continued",
+    "abstract":     "A continuation of BahamutoD's Vessel Mover.",
+    "author":       [ "BahamutoD", "Papa_Joe", "jrodrigv" ],
+    "$kref":        "#/ckan/github/jrodrigv/VesselMover",
+    "$vref":        "#/ckan/ksp-avc",
+    "license":      "MIT",
     "suggests": [
         { "name": "KSP-AVC" }
     ],
@@ -16,7 +16,7 @@
     ],
     "install": [
         {
-            "file": "GameData/VesselMover",
+            "file":       "GameData/VesselMover",
             "install_to": "GameData"
         }
     ],
