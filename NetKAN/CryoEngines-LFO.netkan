@@ -1,16 +1,5 @@
 {
     "spec_version": "v1.4",
     "identifier": "CryoEngines-LFO",
-    "$kref": "#/ckan/spacedock/709",
-    "$vref": "#/ckan/ksp-avc/GameData/CryoEngines/Versioning/CryoEngines.version",
-    "name": "Cryogenic Engines Extras: LFO Patch",
-    "abstract": "Optional patch to make the engines burn KSP's normal liquid fuel and oxidizer mixture instead of the custom liquid hydrogen and oxidizer mixture that they use by default.",
-    "license": "CC-BY-NC-SA-4.0",
-    "x_netkan_epoch": 1,
-    "depends": [
-        { "name" : "CryoEngines" }
-    ],
-    "install": [
-        { "find" : "CryoEnginesLFO", "install_to" : "GameData" }
-    ]
+    "$kref": "#/ckan/netkan/https://raw.githubusercontent.com/ChrisAdderley/CryoEngines/master/CKAN/CryoEngines-LFO.netkan"
 }
