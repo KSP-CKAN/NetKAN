@@ -1,19 +1,6 @@
 {
-    "spec_version" : 1,
-    "identifier"   : "SemiSaturatableRW",
-    "$kref"        : "#/ckan/github/Crzyrndm/RW-Saturatable",
-    "name"         : "(Semi)Saturatable Reaction Wheels",
-    "abstract"     : "Torque from reaction wheels decays with use and slowly recovers when idle",
-    "license"      : "GPL-3.0",
-    "$vref" : "#/ckan/ksp-avc",
-
-    "resources" : {
-        "homepage" : "https://forum.kerbalspaceprogram.com/index.php?/topic/105289-13-the-plugin-workshop-small-plugins-of-varied-function/"
-    },
-    "install" : [
-        {
-            "file"       : "GameData/RW Saturatable",
-            "install_to" : "GameData"
-        }
-    ]
+    "spec_version": "v1.10",
+    "identifier":   "SemiSaturatableRW",
+    "$kref":        "#/ckan/netkan/https://raw.githubusercontent.com/PhineasFreak/SaturableRW/master/SaturableRW.netkan",
+    "x_netkan_license_ok": true
 }
