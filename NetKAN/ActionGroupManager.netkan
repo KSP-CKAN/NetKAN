@@ -3,6 +3,10 @@
     "license": "MIT",
     "$kref": "#/ckan/spacedock/1976",
     "identifier": "ActionGroupManager",
+    "depends": [
+      { "name" : "ToolbarController" },
+      { "name" : "ClickThroughBlocker" }
+    ],
     "install": [
         {
             "find":"AquilaEnterprises",

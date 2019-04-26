@@ -1,0 +1,21 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "KSCExtended",
+    "$kref":        "#/ckan/spacedock/2062",
+    "$vref":        "#/ckan/ksp-avc",
+    "license":      "MIT",
+    "depends": [
+        { "name": "ModuleManager"        },
+        { "name": "KerbalKonstructs"     },
+        { "name": "TundraSpaceCenter"    },
+        { "name": "StockalikeStructures" }
+    ],
+    "recommends": [
+        { "name": "TundraExploration"                     },
+        { "name": "Scatterer"                             },
+        { "name": "StockVisualEnhancements"               },
+        { "name": "BluedogDB"                             },
+        { "name": "ShuttleLiftingBodyCormorantAeronology" },
+        { "name": "ModularLaunchPads"                     }
+    ]
+}

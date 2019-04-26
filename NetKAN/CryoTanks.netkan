@@ -1,24 +1,5 @@
 {
-    "spec_version": "v1.4",
-    "identifier":   "CryoTanks",
-    "abstract":     "A set of fuel tanks containing liquid hydrogen, with active cryocooling",
-    "name":         "Cryogenic Tanks",
-    "$kref":        "#/ckan/github/ChrisAdderley/CryoTanks",
-    "$vref":        "#/ckan/ksp-avc/CryoTanks.version",
-    "license":      "CC-BY-NC-SA-4.0",
-    "depends": [
-        { "name": "ModuleManager"         },
-        { "name": "CommunityResourcePack" },
-        { "name": "DynamicBatteryStorage" }
-    ],
-    "supports": [
-        { "name": "KerbalAtomics" },
-        { "name": "CryoEngines"   }
-    ],
-    "install": [
-        {
-            "file":       "GameData/CryoTanks",
-            "install_to": "GameData"
-        }
-    ]
+    "spec_version"   : "v1.4",
+    "identifier"     : "CryoTanks",
+    "$kref"         : "#/ckan/netkan/https://github.com/ChrisAdderley/CryoTanks/raw/master/CKAN/CryoTanks.netkan"
 }

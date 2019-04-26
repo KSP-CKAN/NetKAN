@@ -1,15 +1,15 @@
 {
-    "$kref": "#/ckan/spacedock/223",
-    "$vref": "#/ckan/ksp-avc/TundraTechnologies.version",
-    "name": "Tundra Technologies",
-    "abstract": "This is a mod that adds satellite parts like Rosetta/Philae, New Horizons, and more!",
     "spec_version": "v1.4",
-    "identifier": "TundraTechnologies",
-    "license": "CC-BY-NC-SA-4.0",
+    "identifier":   "TundraTechnologies",
+    "name":         "Tundra Technologies",
+    "abstract":     "This is a mod that adds satellite parts like Rosetta/Philae, New Horizons, and more!",
+    "$kref":        "#/ckan/spacedock/223",
+    "$vref":        "#/ckan/ksp-avc/TundraTechnologies.version",
+    "license":      "CC-BY-NC-ND-4.0",
     "depends": [
-        { "name": "ModuleManager"  }
+        { "name": "TundraExploration"  }
     ],
-    "install" : [
+    "install": [
         {
             "find"       : "TundraTechnologies",
             "install_to" : "GameData",
