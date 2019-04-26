@@ -14,5 +14,6 @@
         "find":       "DockingCamKURS",
         "install_to": "GameData"
     } ],
+ "abstract"     : "KURS style docking camera",
     "x_via": "Automated Linuxgurugamer CKAN script"
 }
