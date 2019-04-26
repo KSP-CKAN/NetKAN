@@ -1,21 +1,18 @@
 {
-  "license": "CC-BY-NC-SA-4.0",
-  "identifier": "DockingCamKURS",
-  "x_via": "Automated Linuxgurugamer CKAN script",
-  "$kref": "#/ckan/spacedock/1542",
-  "$vref": "#/ckan/ksp-avc",
-  "depends": [
-    {
-      "name": "ModuleManager"
-    }
-  ],
-  "conflicts" : [ { "name" : "DockingcameraKURSstyle" } ],
-  "install": [
-    {
-      "find": "OLDD",
-      "install_to": "GameData"
-    }
-  ],
-  "spec_version": "v1.4"
+    "spec_version": "v1.4",
+    "identifier":   "DockingCamKURS",
+    "$kref":        "#/ckan/spacedock/1542",
+    "$vref":        "#/ckan/ksp-avc",
+    "license":      "CC-BY-NC-SA-4.0",
+    "depends": [
+        { "name": "ModuleManager"}
+    ],
+    "conflicts" : [
+        { "name" : "DockingcameraKURSstyle" }
+    ],
+    "install": [ {
+        "find":       "DockingCamKURS",
+        "install_to": "GameData"
+    } ],
+    "x_via": "Automated Linuxgurugamer CKAN script"
 }
-
