@@ -5,6 +5,7 @@
     "abstract"       : "Saturable Reaction Wheels makes stock reaction wheels more realistic by adding momentum management",
     "author"         : [ "PhineasFreak", "Crzyrndm" ],
     "$kref"          : "#/ckan/github/PhineasFreak/SaturableRW",
+    "x_netkan_license_ok": true,
     "$vref"          : "#/ckan/ksp-avc",
     "x_netkan_force_v": true,
     "release_status" : "stable",
