@@ -9,6 +9,9 @@
     "$vref"          : "#/ckan/ksp-avc",
     "x_netkan_epoch": 1,
     "release_status" : "stable",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/105289-*",
+    },
     "install" : [ {
         "find"       : "SaturableRW",
         "install_to" : "GameData"
