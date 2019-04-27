@@ -1,6 +1,15 @@
 {
-    "spec_version": "v1.10",
-    "identifier":   "SemiSaturatableRW",
-    "$kref":        "#/ckan/netkan/https://raw.githubusercontent.com/PhineasFreak/SaturableRW/master/SaturableRW.netkan",
-    "x_netkan_license_ok": true
+    "spec_version"   : "v1.10",
+    "identifier"     : "SemiSaturatableRW",
+    "name"           : "Semi-Saturable Reaction Wheels",
+    "abstract"       : "Saturable Reaction Wheels makes stock reaction wheels more realistic by adding momentum management",
+    "author"         : [ "PhineasFreak", "Crzyrndm" ],
+    "$kref"          : "#/ckan/github/PhineasFreak/SaturableRW",
+    "$vref"          : "#/ckan/ksp-avc",
+    "x_netkan_force_v": true,
+    "release_status" : "stable",
+    "install" : [ {
+        "find"       : "SaturableRW",
+        "install_to" : "GameData"
+    } ]
 }
