@@ -7,7 +7,7 @@
     "$kref"          : "#/ckan/github/PhineasFreak/SaturableRW",
     "x_netkan_license_ok": true,
     "$vref"          : "#/ckan/ksp-avc",
-    "x_netkan_force_v": true,
+    "x_netkan_epoch": 1,
     "release_status" : "stable",
     "install" : [ {
         "find"       : "SaturableRW",
