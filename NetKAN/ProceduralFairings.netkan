@@ -1,16 +1,6 @@
 {
-    "spec_version": 1,
+    "spec_version": "v1.4",
     "identifier": "ProceduralFairings",
-    "$kref": "#/ckan/github/rsparkyc/ProceduralFairings",
-    "$vref": "#/ckan/ksp-avc",
-    "x_netkan_epoch": 1,
-    "name": "Procedural Fairings",
-    "abstract": "Fairings that automatically reshape for any attached payload",
-    "license": "CC-BY",
-    "resources" : {
-        "homepage" : "http://forum.kerbalspaceprogram.com/index.php?/topic/161733-13-1"
-    },
-    "suggests": [
-        { "name" : "PFTextures" }
-    ]
+    "$kref": "#/ckan/netkan/https://raw.githubusercontent.com/KSP-RO/ProceduralFairings/v1.6.1/ProceduralFairings.netkan",
+    "x_netkan_license_ok": true
 }
