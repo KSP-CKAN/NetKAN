@@ -24,6 +24,10 @@
 		{
 			"file": "Kerbalism/Settings.cfg",
 			"install_to": "GameData/Kerbalism"
+		},
+		{
+			"file": "Kerbalism/Profiles",
+			"install_to": "GameData/Kerbalism"
 		}
 	]
 }
