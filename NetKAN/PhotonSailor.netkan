@@ -10,7 +10,7 @@
         "repository": "https://github.com/sswelm/KSP-Interstellar-Extended"
     },
     "install": [ {
-        "find":       "PhotonSail",
+        "find":       "GameData/PhotonSail",
         "install_to": "GameData"
     } ],
     "depends": [
