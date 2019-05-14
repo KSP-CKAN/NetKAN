@@ -12,8 +12,7 @@
         "KerbalJointReinforcement"
     ],
     "conflicts"      : [
-        { "name": "KerbalJointReinforcement" },
-        { "name": "KerbalJointReinforcementContinued" }
+        { "name": "KerbalJointReinforcement" }
     ],
     "resources"      : {
         "homepage"   : "https://forum.kerbalspaceprogram.com/index.php?/topic/184206-*",
