@@ -4,7 +4,7 @@
     "name"           : "Kerbal Joint Reinforcement - Next",
     "abstract"       : "Fixes the problem of unstable joints",
     "author"         : [ "ferram4", "Rudolf Meier" ],
-    "$kref"          : "#/ckan/github/meirumeiru/Kerbal-Joint-Reinforcement",
+    "$kref"          : "#/ckan/github/meirumeiru/Kerbal-Joint-Reinforcement/asset_match/KerbalJointReinforcement_v[0-9]+\\.[0-9]+\\.[0-9]+\\.zip",
     "$vref"          : "#/ckan/ksp-avc",
     "license"        : "GPL-3.0",
     "release_status" : "stable",
@@ -12,7 +12,8 @@
         "KerbalJointReinforcement"
     ],
     "conflicts"      : [
-        { "name": "KerbalJointReinforcement" }
+        { "name": "KerbalJointReinforcement" },
+        { "name": "KerbalJointReinforcementContinued" }
     ],
     "resources"      : {
         "homepage"   : "https://forum.kerbalspaceprogram.com/index.php?/topic/184206-*",
