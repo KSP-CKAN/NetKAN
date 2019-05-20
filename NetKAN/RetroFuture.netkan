@@ -1,9 +1,9 @@
 {
     "spec_version"   : 1,
     "identifier"     : "RetroFuture",
-    "$kref"          : "#/ckan/kerbalstuff/1346",
+    "$kref"          : "#/ckan/spacedock/2153",
     "license"        : "CC-BY-NC-SA-4.0",
-    "author"         : [ "NohArk", "amankduffers" ],
+    "author"         : [ "LinuxGuruGamer", "NohArk", "amankduffers" ],
     "x_netkan_epoch" : "1",
     "depends" : [
         { "name" : "FirespitterCore" },
@@ -21,9 +21,8 @@
     ],
     "install" : [
         {
-            "file"       : "RetroFuture",
-            "install_to" : "GameData",
-            "filter"     : [ "Firespitter.dll", "RetroFuture.ckan" ]
+            "find"       : "RetroFuture",
+            "install_to" : "GameData"
         }
     ]
 }
