@@ -10,14 +10,16 @@
         { "name" : "ModuleManager" }
     ],
     "recommends" : [
-        { "name" : "FerramAerospaceResearch" },
+        { "name" : "FerramAerospaceResearchContinued" },
         { "name" : "RasterPropMonitor" },
-        { "name" : "ProceduralDynamics" }
+        { "name" : "PatchManager" }
     ],
     "suggests" : [
         { "name" : "SmokeScreen" },
-        { "name" : "BDArmory" },
         { "name" : "TweakScale" }
+    ],
+    "suggests" : [
+        { "name" : "BDArmory" }
     ],
     "install" : [
         {
