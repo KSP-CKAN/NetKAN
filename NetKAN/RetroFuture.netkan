@@ -4,7 +4,7 @@
     "$kref"          : "#/ckan/spacedock/2153",
     "license"        : "CC-BY-NC-SA-4.0",
     "author"         : [ "LinuxGuruGamer", "NohArk", "amankduffers" ],
-    "x_netkan_epoch" : "1",
+    "x_netkan_epoch" : "2",
     "depends" : [
         { "name" : "FirespitterCore" },
         { "name" : "ModuleManager" }
