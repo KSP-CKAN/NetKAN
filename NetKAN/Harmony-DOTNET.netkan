@@ -1,0 +1,20 @@
+{
+    "spec_version" : "v1.16",
+    "identifier"   : "Harmony-DOTNET",
+    "name"         : "Harmony",
+    "abstract"     : "A library for patching, replacing and decorating .NET and Mono methods during runtime.",
+    "author"       : "Andreas Pardeike",
+    "license"      : "MIT",
+    "$kref"        : "#/ckan/github/pardeike/Harmony/asset_match/[Rr]elease.zip",
+    "ksp_version" : "any",
+    "resources": {
+        "repository": "https://github.com/pardeike/Harmony"
+    },
+    "install": [
+        {
+            "find": "net35/0Harmony.dll",
+            "find_matches_files": true,
+            "install_to": "GameData"
+        }
+    ]
+}
