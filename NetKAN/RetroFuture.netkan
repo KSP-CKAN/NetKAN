@@ -18,7 +18,7 @@
         { "name" : "SmokeScreen" },
         { "name" : "TweakScale" }
     ],
-    "suggests" : [
+    "supports" : [
         { "name" : "BDArmory" }
     ],
     "install" : [
