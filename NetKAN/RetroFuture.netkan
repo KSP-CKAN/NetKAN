@@ -2,6 +2,7 @@
     "spec_version"   : "v1.4",
     "identifier"     : "RetroFuture",
     "$kref"          : "#/ckan/spacedock/2153",
+    "$vref"          : "#/ckan/ksp-avc",
     "license"        : "CC-BY-NC-SA-4.0",
     "author"         : [ "LinuxGuruGamer", "NohArk", "amankduffers" ],
     "x_netkan_epoch" : "2",
