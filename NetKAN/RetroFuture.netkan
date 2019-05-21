@@ -2,22 +2,25 @@
     "spec_version"   : "v1.4",
     "identifier"     : "RetroFuture",
     "$kref"          : "#/ckan/spacedock/2153",
+    "$vref"          : "#/ckan/ksp-avc",
     "license"        : "CC-BY-NC-SA-4.0",
     "author"         : [ "LinuxGuruGamer", "NohArk", "amankduffers" ],
-    "x_netkan_epoch" : "1",
+    "x_netkan_epoch" : "2",
     "depends" : [
         { "name" : "FirespitterCore" },
         { "name" : "ModuleManager" }
     ],
     "recommends" : [
-        { "name" : "FerramAerospaceResearch" },
+        { "name" : "FerramAerospaceResearchContinued" },
         { "name" : "RasterPropMonitor" },
-        { "name" : "ProceduralDynamics" }
+        { "name" : "PatchManager" }
     ],
     "suggests" : [
         { "name" : "SmokeScreen" },
-        { "name" : "BDArmory" },
         { "name" : "TweakScale" }
+    ],
+    "supports" : [
+        { "name" : "BDArmory" }
     ],
     "install" : [
         {
