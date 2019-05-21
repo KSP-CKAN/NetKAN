@@ -11,8 +11,17 @@
         "homepage": "http://forum.kerbalspaceprogram.com/index.php?showtopic=160268"
     },
     "depends": [
+        { "name": "Harmony-DOTNET" },
         { "name": "ModuleManager" }
     ],
+    "x_netkan_override": [{
+        "version": "<=v0.0.10",
+        "override": {
+            "depends": [
+                { "name": "ModuleManager" }
+            ]
+        }
+    }],
     "recommends": [
         { "name": "CommunityTraitIcons" }
     ],
