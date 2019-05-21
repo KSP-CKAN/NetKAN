@@ -17,6 +17,7 @@
     "suggests" : [
         { "name" : "SmokeScreen" },
         { "name" : "BDArmory" },
+        { "name" : "PatchManager" },
         { "name" : "TweakScale" }
     ],
     "install" : [
