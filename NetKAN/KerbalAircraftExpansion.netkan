@@ -1,14 +1,19 @@
 {
-    "spec_version": "v1.18",
+    "spec_version": "v1.2",
     "identifier": "KerbalAircraftExpansion",
     "name": "Kerbal Aircraft Expansion",
-    "$kref": "#/ckan/curse/221780",
+    "$kref": "#/ckan/spacedock/2150",
+    "$vref": "#/ckan/ksp-avc",
     "x_netkan_epoch": 3,
     "abstract": "A pack of select vanilla-inspired parts for your aircrafting needs.",
-    "author": "keptin",
+    "author": [
+        "keptin",
+        "SpannerMonkey",
+        "LisiasT"
+    ],
     "license" : "restricted",
     "resources": {
-        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/69426-*"
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/180268-*"
     },
     "depends": [
         { "name" : "FirespitterCore" },
@@ -17,24 +22,12 @@
     ],
     "install" : [
         {
-            "file": "KAX",
-            "install_to": "GameData",
-            "filter" : [ "Example Craft" ]
+            "file": "GameData/KAX",
+            "install_to": "GameData"
         },
         {
-            "file": "KAX/Example Craft",
-            "install_to": "Ships",
-            "as": "SPH"
+            "file": "Ships/SPH",
+            "install_to": "Ships"
         }
-    ],
-    "x_netkan_override": [
-        {
-            "version": "3:v2.6.4",
-            "delete" : [ "ksp_version" ],
-            "override" : { 
-                "ksp_version_min"  : "1.2.1",
-                "ksp_version_max"  : "1.2.2"
-            }
-        }
-     ]
+    ]
 }
