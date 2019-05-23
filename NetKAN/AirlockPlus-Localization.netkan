@@ -1,0 +1,20 @@
+{
+    "spec_version" : "v1.2",
+    "identifier"   : "AirlockPlus-Localization",
+    "name"         : "AirlockPlus Localization",
+    "abstract"     : "Localizations for AirlockPlus",
+    "author"       : "cake-pie",
+    "license"      : "restricted",
+    "$kref"        : "#/ckan/github/cake-pie/AirlockPlus/asset_match/localization",
+    "$vref"        : "#/ckan/ksp-avc",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?showtopic=160268"
+    },
+    "install": [ {
+        "find":       "AirlockPlus",
+        "install_to": "GameData"
+    } ],
+    "depends": [
+        { "name": "AirlockPlus" }
+    ]
+}

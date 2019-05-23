@@ -16,6 +16,9 @@
     "recommends": [
         { "name": "CommunityTraitIcons" }
     ],
+    "suggests": [
+        { "name": "AirlockPlus-Localization" }
+    ],
     "supports": [
         { "name": "ConnectedLivingSpace" }
     ]
