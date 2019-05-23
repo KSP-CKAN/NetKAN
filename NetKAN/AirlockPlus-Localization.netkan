@@ -1,10 +1,10 @@
 {
-    "spec_version" : "v1.2",
+    "spec_version" : "v1.4",
     "identifier"   : "AirlockPlus-Localization",
     "name"         : "AirlockPlus Localization",
     "abstract"     : "Localizations for AirlockPlus",
     "author"       : "cake-pie",
-    "license"      : "restricted",
+    "license"      : "CC-BY-SA-4.0",
     "$kref"        : "#/ckan/github/cake-pie/AirlockPlus/asset_match/localization",
     "$vref"        : "#/ckan/ksp-avc",
     "resources": {
