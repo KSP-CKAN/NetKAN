@@ -14,8 +14,6 @@
         { "name" : "NearFuturePropulsion" }
     ],
     "install" : [
-        { "find" : "NFPropulsionTweakPatch.cfg", "install_to" : "GameData/NearFuturePropulsion/Extras",   "find_matches_files": true }
+        { "find" : "NFPropulsionTweakPatch.cfg", "install_to" : "GameData",   "find_matches_files": true }
     ]
 }
-
-

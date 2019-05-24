@@ -1,0 +1,20 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "XensPlanetCollectionRevived",
+    "$kref":        "#/ckan/spacedock/2136",
+    "license":      "MIT",
+    "install": [ {
+        "find":       "XPC",
+        "install_to": "GameData"
+    } ],
+    "depends": [
+        { "name": "ModuleManager" },
+        { "name": "Kopernicus"    }
+    ],
+    "supports": [
+        { "name": "DistantObject"   },
+        { "name": "OuterPlanetsMod" },
+        { "name": "ResearchBodies"  },
+        { "name": "PlanetShine"     }
+    ]
+}

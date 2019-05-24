@@ -1,4 +1,5 @@
 {
+
   "spec_version": "v1.4",
   "install": [
     {
@@ -10,10 +11,11 @@
     "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/170747-131-click-through-blocker/"
   },
   "$vref": "#/ckan/ksp-avc",
-  "$kref": "#/ckan/github/linuxgurugamer/ClickThroughBlocker",
+  "$kref": "#/ckan/spacedock/1689",
   "x_via": "Automated Linuxgurugamer CKAN script",
   "identifier": "ClickThroughBlocker",
   "name": "ClickThrough Blocker",
   "abstract": "Helps eliminate the clickthrough problem with mods",
   "license": "GPL-3.0"
 }
+

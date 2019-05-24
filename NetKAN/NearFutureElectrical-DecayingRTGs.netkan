@@ -1,15 +1,5 @@
 {
     "spec_version"        : "v1.4",
-    "identifier"          : "NearFutureElectrical-DecayingRTGs",
-    "$kref"               : "#/ckan/spacedock/558",
-    "name"                : "Near Future Electrical Extras: Decaying RTGs Patch",
-    "abstract"            : "This optional patch makes the power output of RTGs (both stock and Near Future's) shrink over time, like they would in real life.",
-    "author"              : "Nertea",
-    "license"             : "CC-BY-NC-SA-4.0",
-    "depends" : [
-        { "name" : "NearFutureElectrical" }
-    ],
-    "install" : [
-        { "find" : "DecayingRTGs", "install_to" : "GameData/NearFutureElectrical/Extras" }
-    ]
+    "identifier"    : "NearFutureElectrical-DecayingRTGs",
+    "$kref"         : "#/ckan/netkan/https://github.com/ChrisAdderley/NearFutureElectrical/raw/master/CKAN/NearFutureElectrical-DecayingRTGs.netkan"
 }

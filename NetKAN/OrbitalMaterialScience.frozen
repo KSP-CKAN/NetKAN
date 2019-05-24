@@ -1,5 +1,5 @@
 {
-    "spec_version": "v1.4",
+    "spec_version": "v1.26",
     "identifier": "OrbitalMaterialScience",
     "$kref": "#/ckan/github/mwerle/OrbitalMaterialScience/asset_match/NehemiahIncSciencePack.*.zip",
     "$vref": "#/ckan/ksp-avc",
@@ -15,6 +15,8 @@
         { "name": "NehemiahScienceCommon", "min_version": "1:0.7b2" },
         { "name": "NehemiahMultiPurposeParts", "min_version": "1:0.7b2" }
     ],
+    "replaced-by" : { "name": "NehemiahEngineeringOrbitalScience" }
+    },
     "install": [
         {
             "file": "NehemiahInc/OMS",

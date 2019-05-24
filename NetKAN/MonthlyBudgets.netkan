@@ -1,13 +1,15 @@
 {
     "spec_version" : "v1.4",
     "identifier"   : "MonthlyBudgets",
-    "$kref"        : "#/ckan/github/severedsolo/MonthlyBudgets",
     "name"         : "Monthly Budgets",
     "abstract"     : "Allocates monthly budgets to your career mode games",
-    "license"      : "MIT",
+    "$kref"        : "#/ckan/github/severedsolo/MonthlyBudgets",
     "$vref"        : "#/ckan/ksp-avc",
-    
-"recommends": [
+    "license"      : "MIT",
+    "depends" : [
+        { "name" : "KerbalChangelog" }
+    ],    
+    "recommends": [
         { "name": "KerbalConstructionTime" }
     ],
     "install" : [

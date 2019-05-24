@@ -1,29 +1,5 @@
 {
     "spec_version"   : "v1.4",
     "identifier"     : "HeatControl",
-    "$kref"          : "#/ckan/spacedock/537",
-    "$vref"          : "#/ckan/ksp-avc/HeatControl.version",
-    "release_status" : "stable",
-    "license"        : "restricted",
-    "depends" : [
-        { "name" : "ModuleManager" }
-    ],
-    "suggests" : [
-        { "name" : "CommunityTechTree" }
-    ],
-    "install" : [
-        { "find"       : "HeatControl",
-          "install_to" : "GameData"
-        }
-    ],
-    "x_netkan_override": [
-        {
-            "version": "0.3.4",
-            "delete": [ "ksp_version" ],
-            "override": {
-                "ksp_version_min": "1.2.1",
-                "ksp_version_max": "1.2.2"
-            }
-        }
-    ]
+    "$kref"         : "#/ckan/netkan/https://github.com/ChrisAdderley/HeatControl/raw/master/CKAN/HeatControl.netkan"
 }

@@ -26,7 +26,7 @@
         { "name" : "SDHI-ServiceModuleSystem" },
         { "name" : "SpaceShuttleEngines"      }
     ],
-    "version"        : "5.11.0",
-    "ksp_version"    : "1.4",
+    "version"        : "5.12.1",
+    "ksp_version_min" : "1.4",
     "download"       : "http://taniwha.org/~bill/ModularFuelTanks_v5.11.0.zip"
 }

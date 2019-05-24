@@ -1,0 +1,14 @@
+{
+    "spec_version" : "v1.16",
+    "identifier"   : "KerbalChangelog",
+    "$kref"        : "#/ckan/github/BenjaminCronin/KerbalChangelog",
+    "license"      : "MIT",
+    "$vref"        : "#/ckan/ksp-avc",
+    "install": [ {
+        "find_regexp": "KerbalChangeLog.*",
+        "install_to":  "GameData"
+    } ],
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/179207-*"
+    }
+}

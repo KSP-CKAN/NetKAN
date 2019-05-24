@@ -1,28 +1,6 @@
 {
-    "spec_version": "v1.4",
-    "identifier": "AdvancedJetEngine",    
-    "$kref": "#/ckan/github/KSP-RO/AJE",
-    "$vref": "#/ckan/ksp-avc",
-    "x_netkan_force_v": true,
-    "name": "Advanced Jet Engine",
-    "abstract": "Gives jets, propellers, and rotors realistic performance.",
-    "author": [ "blowfish", "NathanKell", "camlost" ],
-    "license": "LGPL-2.0",
-    "resources": {
-        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/139868-advanced-jet-engine"
-    },
-    "depends": [
-        { "name": "FerramAerospaceResearch" },
-        { "name": "SolverEngines" },
-        { "name": "ModuleManager" }
-    ],
-    "recommends": [
-        { "name": "RealFuels" }
-    ],
-    "suggests": [
-        { "name": "HotRockets" }
-    ],
-    "install": [
-        { "find": "GameData/AJE", "install_to": "GameData" }
-    ]    
+    "spec_version"        : 1,
+    "identifier"          : "AdvancedJetEngine",
+    "$kref"               : "#/ckan/netkan/https://raw.githubusercontent.com/KSP-RO/AJE/master/NetKAN/AdvancedJetEngine.netkan",
+    "x_netkan_license_ok" : true
 }

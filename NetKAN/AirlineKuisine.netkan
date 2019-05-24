@@ -10,12 +10,9 @@
     }
   ],
   "depends": [
-    {
-      "name": "ModuleManager"
-    },
-    {
-      "name": "FirespitterCore"
-    }
+    { "name": "ModuleManager" },
+    { "name": "DeepSkyCore" },
+    { "name": "B9PartSwitch" }
   ],
   "$vref": "#/ckan/ksp-avc",
   "$kref": "#/ckan/spacedock/1252",

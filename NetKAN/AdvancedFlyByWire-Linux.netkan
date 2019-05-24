@@ -1,33 +1,30 @@
 {
-  "spec_version": 1,
-  "identifier": "AdvancedFlyByWire-Linux",
-  "release_status": "stable",
-  "$kref" : "#/ckan/spacedock/1870",
-  "$vref" : "#/ckan/ksp-avc",
-  "resources": {
-    "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/175359-14-afbw-joystick-controller-mod/",
-    "repository": "https://github.com/linuxgurugamer/ksp-advanced-flybywire"
-  },
-  "install": [
-    {
-      "file": "GameData/ksp-advanced-flybywire",
-      "install_to": "GameData"
-    }
-  ],
-  "depends": [
-        { "name" : "ToolbarController" },
-	{ "name" : "ClickThroughBlocker" }
-  ],
-  "conflicts": [
-    {
-    "name": "AdvancedFlyByWireRevived"
-    }
-  ],
-  "recommends": [
-    {
-      "name": "KSP-AVC"
-    }
- ],
-  "x_netkan_license_ok": true,
-  "provides": ["AdvancedFlyByWireRevived"]
+    "spec_version": 1,
+    "identifier":   "AdvancedFlyByWire-Linux",
+    "name":         "Advanced Fly-By-Wire (Linux)",
+    "$kref":        "#/ckan/spacedock/1870",
+    "$vref":        "#/ckan/ksp-avc",
+    "release_status": "stable",
+    "resources": {
+        "homepage":   "https://forum.kerbalspaceprogram.com/index.php?/topic/175359-*",
+        "repository": "https://github.com/linuxgurugamer/ksp-advanced-flybywire"
+    },
+    "install": [ {
+        "file":       "GameData/ksp-advanced-flybywire",
+        "install_to": "GameData"
+    } ],
+    "provides": [
+        "AdvancedFlyByWireRevived"
+    ],
+    "conflicts": [
+        { "name": "AdvancedFlyByWireRevived" }
+    ],
+    "depends": [
+        { "name" : "ToolbarController"   },
+        { "name" : "ClickThroughBlocker" }
+    ],
+    "recommends": [
+        { "name": "KSP-AVC" }
+    ],
+    "x_netkan_license_ok": true
 }

@@ -11,7 +11,7 @@
     "version": "v02",
     "ksp_version": "1.1.2",
     "depends": [
-        { "name": "InfernalRobotics", "version_min": "0.19.4" },
+        { "name": "InfernalRobotics", "min_version": "0.19.4" },
         { "name": "IR-Model-Rework-Core" },
         { "name": "TweakableEverything" },
         { "name": "ToadicusTools" }

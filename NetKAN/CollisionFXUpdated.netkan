@@ -1,0 +1,11 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "CollisionFXUpdated",
+    "$kref":        "#/ckan/spacedock/2065",
+    "$vref":        "#/ckan/ksp-avc",
+    "author":       [ "pizzaoverhead", "SlimJimDodger" ],
+    "license":      "GPL-2.0",
+    "depends": [
+        { "name": "ModuleManager" }
+    ]
+}
