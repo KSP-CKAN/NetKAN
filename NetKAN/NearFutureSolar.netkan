@@ -1,23 +1,5 @@
 {
-    "spec_version"        : "v1.4",
-    "identifier"          : "NearFutureSolar",
-    "$kref"               : "#/ckan/spacedock/559",
-    "abstract"            : "This pack contains various solar panels sourced from real-life spacecraft concepts. They range from small concentrating panels to massive blanket arrays.",
-    "author"              : "Nertea",
-    "license"             : "CC-BY-NC-SA-4.0",
-    "$vref"               : "#/ckan/ksp-avc",
-    "depends": [
-        { "name" : "ModuleManager" },
-        { "name" : "NearFutureSolar-Core" }
-    ],
-    "suggests": [
-        { "name" : "CommunityTechTree" },
-        { "name" : "NearFutureConstruction" },
-        { "name" : "NearFutureElectrical" },
-        { "name" : "NearFuturePropulsion" },
-        { "name" : "NearFutureSpacecraft" }
-    ],
-    "install" : [
-        { "find" : "NearFutureSolar", "install_to" : "GameData", "filter" : "NearFutureSolar.dll" }
-    ]
+    "spec_version"  : "v1.4",
+    "identifier"    : "NearFutureSolar",
+    "$kref"         : "#/ckan/netkan/https://github.com/ChrisAdderley/NearFutureSolar/raw/master/CKAN/NearFutureSolar.netkan"
 }
