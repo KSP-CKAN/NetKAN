@@ -1,0 +1,42 @@
+{
+    "spec_version"   : 1,
+    "identifier"     : "TelemachusReborn",
+    "$kref"          : "#/ckan/github/TeleIO/Telemachus-1",
+    "$vref"          : "#/ckan/ksp-avc",
+    "name"           : "Telemachus Reborn",
+    "abstract"       : "Telemachus is a universal Web Telemetry Mod for Kerbal Space Program. It allows you to access any aspects of game from browser.",
+    "author"         : "DanGSun",
+    "license"        : "MIT",
+    "release_status" : "stable",
+    "x_netkan_version_edit": "^[vV]?(?<version>[\\d\\.]+)(?:-.+)*",
+    "resources"      : {
+        "homepage" : "https://forum.kerbalspaceprogram.com/index.php?/topic/144482-*",
+        "spacedock" : "https://spacedock.info/mod/2012/Telemachus%20Reborn"
+    },
+    "provides" : [ "Telemachus" ],
+    "conflicts" : [
+         { "name" : "Telemachus" },
+         { "name" : "TelemachusContinued" },
+         { "name" : "Telemachus-2" }
+    ],
+    "recommends" : [
+        {
+            "name": "RasterPropMonitor",
+        }
+    ],
+    "install" : [
+        {
+            "file"   : "GameData/Telemachus",
+            "install_to" : "GameData"
+        }
+    ],
+    "x_netkan_override": [
+        {
+            "version": "1.7.0",
+            "override": {
+                "ksp_version_min" : "1.6.0",
+                "ksp_version_max" : "1.7"
+            }
+        }
+    ]
+}
