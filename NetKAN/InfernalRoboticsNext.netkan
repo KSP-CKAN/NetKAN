@@ -1,0 +1,26 @@
+{
+    "spec_version"   : "v1.4",
+    "identifier"     : "InfernalRoboticsNext",
+    "name"           : "Infernal Robotics - Next",
+    "abstract"       : "Robotic parts for your constructions",
+    "author"         : [ "Rudolf Meier", "ZodiusInfuser", "Ziw", "sirkut" ],
+    "$kref"          : "#/ckan/github/meirumeiru/InfernalRobotics/asset_match/InfernalRobotics_v[0-9]+\\.[0-9]+\\.[0-9]+\\.zip",
+    "$vref"          : "#/ckan/ksp-avc",
+    "license"        : "GPL-3.0",
+    "release_status" : "stable",
+    "resources"      : {
+        "homepage"   : "https://forum.kerbalspaceprogram.com/index.php?/topic/??-*",
+        "repository" : "https://github.com/meirumeiru/InfernalRobotics"
+    },
+    "recommends"     : [
+        { "name" : "KerbalJointReinforcementNext" },
+        { "name" : "TweakScale" }
+    ],
+    "conflicts"      : [
+        { "name" : "KerbalJointReinforcement", "max_version" : "3.99" }
+    ]
+    "install"        : [ {
+        "file"       : "GameData/MagicSmokeIndustries",
+        "install_to" : "GameData"
+    } ]
+}
