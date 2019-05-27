@@ -6,10 +6,10 @@
     "author"         : [ "Rudolf Meier", "ZodiusInfuser", "Ziw", "sirkut" ],
     "$kref"          : "#/ckan/github/meirumeiru/InfernalRobotics/asset_match/InfernalRobotics_v[0-9]+\\.[0-9]+\\.[0-9]+\\.zip",
     "$vref"          : "#/ckan/ksp-avc",
-    "license"        : "GPL-3.0",
+    "license"        : [ "GPL-3.0", "CC-BY-NC-ND-4.0", "MIT" ],
     "release_status" : "stable",
     "resources"      : {
-        "homepage"   : "https://forum.kerbalspaceprogram.com/index.php?/topic/??-*",
+        "homepage"   : "https://forum.kerbalspaceprogram.com/index.php?/topic/184787-*",
         "repository" : "https://github.com/meirumeiru/InfernalRobotics"
     },
     "recommends"     : [
@@ -18,7 +18,7 @@
     ],
     "conflicts"      : [
         { "name" : "KerbalJointReinforcement", "max_version" : "3.99" }
-    ]
+    ],
     "install"        : [ {
         "file"       : "GameData/MagicSmokeIndustries",
         "install_to" : "GameData"
