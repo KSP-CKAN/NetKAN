@@ -10,7 +10,7 @@
     "release_status" : "stable",
     "x_netkan_version_edit": "^[vV]?(?<version>[\\d\\.]+)(?:-.+)*",
     "resources"      : {
-        "homepage" : "https://forum.kerbalspaceprogram.com/index.php?/topic/144482-*",
+        "homepage" : "https://forum.kerbalspaceprogram.com/index.php?/topic/179887-*",
         "spacedock" : "https://spacedock.info/mod/2012/Telemachus%20Reborn"
     },
     "provides" : [ "Telemachus" ],
