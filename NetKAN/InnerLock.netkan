@@ -2,5 +2,12 @@
     "spec_version": "v1.4",
     "identifier":   "InnerLock",
     "$kref":        "#/ckan/spacedock/2113",
-    "license":      "MIT"
+    "license":      "MIT",
+    "install": [ {
+        "find":       "InnerLock",
+        "install_to": "GameData"
+    }, {
+        "find":       "MagicSmokeIndustries",
+        "install_to": "GameData"
+    } ]
 }
