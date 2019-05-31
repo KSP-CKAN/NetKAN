@@ -6,7 +6,7 @@
         { "name": "ModuleManager", "min_version": "2.6.0" }
     ],
     "recommends": [
-        { "name": "xScience" },
+        { "name": "xScienceContinued" },
         { "name": "ContractConfigurator" }
     ],
     "license": "MIT",
@@ -25,6 +25,14 @@
         "override" : {
         "ksp_version_min" : "1.2.2",
         "ksp_version_max" : "1.3.99"
+        }
+    },
+    {
+        "version" : "3.0",
+        "delete" : [ "ksp_version" ],
+        "override" : {
+        "ksp_version_min" : "1.2.2",
+        "ksp_version_max" : "1.7"
         }
     }
     ],
