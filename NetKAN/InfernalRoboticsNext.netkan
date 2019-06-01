@@ -6,7 +6,7 @@
     "author"         : [ "Rudolf Meier", "ZodiusInfuser", "Ziw", "sirkut" ],
     "$kref"          : "#/ckan/github/meirumeiru/InfernalRobotics/asset_match/InfernalRobotics_v[0-9]+\\.[0-9]+\\.[0-9]+\\.zip",
     "$vref"          : "#/ckan/ksp-avc",
-    "license"        : [ "GPL-3.0", "CC-BY-NC-ND-4.0", "MIT" ],
+    "license"        : "CC-BY-NC-ND-4.0",
     "release_status" : "stable",
     "resources"      : {
         "homepage"   : "https://forum.kerbalspaceprogram.com/index.php?/topic/184787-*",
