@@ -14,6 +14,9 @@
 		},
 		{
 			"name": "CommunityResourcePack"
+		},
+		{
+			"name": "Kerbalism-Config"
 		}
 	],
 	"recommends": [{
@@ -65,5 +68,10 @@
 	],
 	"conflicts": [{
 		"name": "UKS"
+	}],
+	"install": [{
+		"file": "Kerbalism",
+		"install_to": "GameData",
+		"filter_regexp": ["Kerbalism/Profiles", "Kerbalism/System", "Kerbalism/ResourceConfigs", "Kerbalism/Settings.cfg"]
 	}]
 }

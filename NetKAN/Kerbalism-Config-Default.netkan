@@ -1,0 +1,33 @@
+{
+	"spec_version": "v1.18",
+	"$kref": "#/ckan/spacedock/1774",
+	"$vref": "#/ckan/ksp-avc/Kerbalism/Kerbalism.version",
+	"license": "Unlicense",
+	"identifier": "Kerbalism-Config-Default",
+	"name": "Kerbalism - Default Config",
+	"abstract": "Default configuration for Kerbalism",
+	"provides": ["Kerbalism-Config"],
+	"depends": [{
+		"name": "Kerbalism"
+	}],
+	"conflicts": [{
+		"name": "Kerbalism-Config"
+	}],
+	"install": [{
+			"file": "Kerbalism/System",
+			"install_to": "GameData/Kerbalism"
+		},
+		{
+			"file": "Kerbalism/ResourceConfigs",
+			"install_to": "GameData/Kerbalism"
+		},
+		{
+			"file": "Kerbalism/Settings.cfg",
+			"install_to": "GameData/Kerbalism"
+		},
+		{
+			"file": "Kerbalism/Profiles",
+			"install_to": "GameData/Kerbalism"
+		}
+	]
+}
