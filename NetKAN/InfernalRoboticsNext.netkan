@@ -17,7 +17,7 @@
         { "name" : "TweakScale" }
     ],
     "conflicts"      : [
-        { "name" : "KerbalJointReinforcement", "max_version" : "3.99" }
+        { "name" : "KerbalJointReinforcement" }
     ],
     "install"        : [ {
         "file"       : "GameData/MagicSmokeIndustries",
