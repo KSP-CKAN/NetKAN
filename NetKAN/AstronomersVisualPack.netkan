@@ -7,25 +7,28 @@
     "$vref"        : "#/ckan/ksp-avc",
     "x_netkan_trust_version_file" : true,
     "x_netkan_epoch" : 1,
+    "x_netkan_staging": true,
+    "x_netkan_staging_reason": "Ensure AVP-Textures are indexed.",
     "license"      : "CC-BY-NC-SA-4.0",
     "resources": {
         "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/160878-*"
 	},
+    "conflicts": [
+        { "name" : "EnvironmentalVisualEnhancements-Config" }
+    ],	
     "depends" : [
         { "name": "EnvironmentalVisualEnhancements" },
 	{ "name": "Scatterer" },
         { "name": "ModuleManager" },
-        { "name": "AVP-Textures" },
-        { "name": "TextureReplacer" }
+        { "name": "AVP-Textures" }
     ],
     "recommends" : [
-        { "name": "DistantObject" },
-        { "name": "PlanetShine" },
-        { "name": "LoadingScreenManager" }
+        { "name": "KS3P" }
+        { "name": "TextureReplacer" }
     ],
     "suggests" : [
-        { "name": "KS3P" },
-        { "name": "Kopernicus" },
+        { "name": "DistantObject" },
+	{ "name": "PlanetShine" },
 	{ "name": "Chatterer" }
     ],
     "provides" : [
