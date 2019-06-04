@@ -6,6 +6,7 @@
     "abstract"     : "City Lights for Kerbin and Clouds for Any planet you wish",
     "license"      : "MIT",
     "$vref"        : "#/ckan/ksp-avc",
+    "x_netkan_epoch": "2",
     "resources": {
         "homepage"   : "http://forum.kerbalspaceprogram.com/index.php?/topic/149733-EVE",
         "repository" : "https://github.com/WazWaz/EnvironmentalVisualEnhancements"
@@ -22,5 +23,10 @@
     "conflicts": [
         { "name" : "EnvironmentalVisualEnhancements-LR" }
     ],
-    "x_netkan_epoch": "2"
+    "x_netkan_override": [ {
+        "version": "2:EVE-1.4.2-2",
+        "override": {
+            "ksp_version_max": "1.7"
+        }
+    } ]
 }
