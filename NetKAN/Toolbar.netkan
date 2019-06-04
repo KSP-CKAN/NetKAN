@@ -17,7 +17,8 @@
         }
     ],
     "depends": [
-        { "name" : "ClickThroughBlocker" }
+        { "name" : "ClickThroughBlocker" },
+        { "name" : "unBlur" }
     ],
     "$kref"             : "#/ckan/spacedock/2090",
     "$vref"             : "#/ckan/ksp-avc"
