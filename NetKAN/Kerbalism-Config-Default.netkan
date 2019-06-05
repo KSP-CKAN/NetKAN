@@ -14,20 +14,8 @@
 		"name": "Kerbalism-Config"
 	}],
 	"install": [{
-			"file": "Kerbalism/System",
-			"install_to": "GameData/Kerbalism"
-		},
-		{
-			"file": "Kerbalism/ResourceConfigs",
-			"install_to": "GameData/Kerbalism"
-		},
-		{
-			"file": "Kerbalism/Settings.cfg",
-			"install_to": "GameData/Kerbalism"
-		},
-		{
-			"file": "Kerbalism/Profiles",
-			"install_to": "GameData/Kerbalism"
+			"file": "KerbalismConfig",
+			"install_to": "GameData"
 		}
 	]
 }
