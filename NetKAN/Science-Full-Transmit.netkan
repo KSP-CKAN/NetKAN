@@ -5,8 +5,7 @@
     "author"           : "Tekaoh",
     "$kref"            : "#/ckan/github/tekaohksp/Science-Full-Transmit",
     "license"          : "MIT",
-    "ksp_version_min"  : "1.4.0",
-    "ksp_version_max"  : "1.7",
+    "ksp_version"      : "any",
     "resources": {
         "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/180005-*"
     },
@@ -15,7 +14,7 @@
     ],
     "suggests": [
         { "name": "xScienceContinued" },
-        { "name": "NMSG" },
+        { "name": "Science-Full-Reward" },
         { "name": "ContractConfigurator-FieldResearch" }
     ]
 }
