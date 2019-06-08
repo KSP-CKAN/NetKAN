@@ -7,8 +7,6 @@
     "$vref"        : "#/ckan/ksp-avc",
     "x_netkan_trust_version_file" : true,
     "x_netkan_epoch" : 1,
-    "x_netkan_staging": true,
-    "x_netkan_staging_reason": "Ensure AVP-Textures are indexed.",
     "license"      : "CC-BY-NC-SA-4.0",
     "resources": {
         "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/160878-*"
