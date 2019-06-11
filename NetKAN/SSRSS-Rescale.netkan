@@ -1,19 +1,20 @@
 {
     "spec_version": "v1.4",
-    "identifier": "SSRSS-Rescale",
-    "$kref": "#/ckan/github/Sigma88/Sigma-Dimensions",
-    "$vref": "#/ckan/ksp-avc",
-    "name": "Stock Size Real Solar System - Rescale",
-    "abstract": "Rescales the system to stock size.",
-    "license": "restricted",
-    "depends":
-    [
+    "identifier":   "SSRSS-Rescale",
+    "name":         "Stock Size Real Solar System - Rescale",
+    "abstract":     "Rescales the system to stock size.",
+    "$kref":        "#/ckan/github/Sigma88/Sigma-Dimensions",
+    "$vref":        "#/ckan/ksp-avc",
+    "license":      "restricted",
+    "depends": [
         { "name": "SSRSS-Cont" }
     ],
-    "install":
-    [
+    "conflicts": [
+        { "name": "SigmaDimensions" }
+    ],
+    "install": [
         {
-            "find": "Dimensions",
+            "find":       "Dimensions",
             "install_to": "GameData/Sigma"
         }
     ]
