@@ -1,0 +1,25 @@
+{
+  "spec_version": "v1.18",
+	"license": "Unlicense",
+	"identifier": "Kerbalism-Config-RO",
+  "$kref": "#/ckan/github/Standecco/ROKerbalism",
+  "$vref": "#/ckan/ksp-avc/Kerbalism/Kerbalism.version",
+	"name": "Kerbalism - RealismOverhaul Config",
+	"provides": ["Kerbalism-Config"],
+	"depends": [
+    { "name": "Kerbalism" }
+  ],
+	"conflicts": [
+    { "name": "Kerbalism-Config" }
+  ],
+  "recommends": [
+    { "name": "RealismOverhaul" }
+  ],
+  "suggests": [
+    { "name": "RP-0" }
+  ],
+	"install": [{
+			"find": "GameData/KerbalismConfig",
+			"install_to": "GameData/KerbalismConfig"
+		}]
+}
