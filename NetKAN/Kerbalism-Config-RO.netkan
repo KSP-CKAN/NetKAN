@@ -19,7 +19,7 @@
         { "name": "RP-0" }
     ],
     "install": [ {
-        "find":       "GameData/KerbalismConfig",
+        "find":       "KerbalismConfig",
         "install_to": "GameData"
     } ]
 }
