@@ -21,4 +21,4 @@ All contributions to this repository *must* be made under a [CC-0](https://creat
 
 **No technical expertise is required to contribute to CKAN**
 
-If you want to contribute, please read our [CONTRIBUTING][https://github.com/KSP-CKAN/.github/blob/master/CONTRIBUTING.md] file.
+If you want to contribute, please read our [CONTRIBUTING](https://github.com/KSP-CKAN/.github/blob/master/CONTRIBUTING.md) file.
