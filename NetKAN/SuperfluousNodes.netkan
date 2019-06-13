@@ -1,0 +1,13 @@
+{
+    "spec_version": "v1.16",
+    "identifier":   "SuperfluousNodes",
+    "$kref":        "#/ckan/spacedock/2064",
+    "license":      "MIT",
+    "depends": [
+        { "name": "ModuleManager" }
+    ],
+    "install": [ {
+        "find_regexp": "SuperfluousNodes.*",
+        "install_to":  "GameData"
+    } ]
+}
