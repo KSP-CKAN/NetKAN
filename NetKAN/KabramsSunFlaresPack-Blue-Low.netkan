@@ -3,6 +3,7 @@
     "identifier":   "KabramsSunFlaresPack-Blue-Low",
     "name":         "Kabrams Sun Flare Blue Low",
     "$kref":        "#/ckan/spacedock/1843",
+    "ksp_version":  "any",
     "license":      "restricted",
     "install": [ {
         "find":       "Low_Quality/Blue/Sun",

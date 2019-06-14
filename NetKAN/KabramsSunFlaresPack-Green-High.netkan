@@ -3,6 +3,7 @@
     "identifier":   "KabramsSunFlaresPack-Green-High",
     "name":         "Kabrams Sun Flare Green High",
     "$kref":        "#/ckan/spacedock/1843",
+    "ksp_version":  "any",
     "license":      "restricted",
     "install": [ {
         "find":       "High_Quality/Green/Sun",

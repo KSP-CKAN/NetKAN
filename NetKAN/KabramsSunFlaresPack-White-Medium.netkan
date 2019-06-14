@@ -3,6 +3,7 @@
     "identifier":   "KabramsSunFlaresPack-White-Medium",
     "name":         "Kabrams Sun Flare White Medium",
     "$kref":        "#/ckan/spacedock/1843",
+    "ksp_version":  "any",
     "license":      "restricted",
     "install": [ {
         "find":       "Medium_Quality/White/Sun",

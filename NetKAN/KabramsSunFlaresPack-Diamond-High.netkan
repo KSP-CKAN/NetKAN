@@ -3,6 +3,7 @@
     "identifier":   "KabramsSunFlaresPack-Diamond-High",
     "name":         "Kabrams Sun Flare Diamond High",
     "$kref":        "#/ckan/spacedock/1843",
+    "ksp_version":  "any",
     "license":      "restricted",
     "install": [ {
         "find":       "High_Quality/Diamond/Sun",

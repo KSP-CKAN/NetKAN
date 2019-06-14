@@ -3,6 +3,7 @@
     "identifier":   "KabramsSunFlaresPack-Orange-High",
     "name":         "Kabrams Sun Flare Orange High",
     "$kref":        "#/ckan/spacedock/1843",
+    "ksp_version":  "any",
     "license":      "restricted",
     "install": [ {
         "find":       "High_Quality/Orange/Sun",
