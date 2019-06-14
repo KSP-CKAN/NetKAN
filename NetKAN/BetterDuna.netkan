@@ -1,7 +1,14 @@
 {
-    "$kref": "#/ckan/spacedock/1964",
     "spec_version": "v1.4",
-    "license": "MIT",
-    "identifier": "BetterDuna",
-    "x_via": "Automated SpaceDock CKAN submission"
+    "identifier":   "BetterDuna",
+    "$kref":        "#/ckan/spacedock/1964",
+    "license":      "MIT",
+    "install": [ {
+        "find":       "Better Duna",
+        "install_to": "GameData"
+    } ],
+    "depends": [
+        { "name": "ModuleManager" },
+        { "name": "Kopernicus"    }
+    ]
 }
