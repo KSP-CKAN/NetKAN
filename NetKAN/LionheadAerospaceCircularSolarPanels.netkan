@@ -7,7 +7,7 @@
     "install": [ {
         "find":       "Lionhead_Aerospace_Inc",
         "install_to": "GameData",
-        "filter:      [ "Flags" ]
+        "filter":      [ "Flags" ]
     } ],
     "depends": [
         { "name": "FirespitterCore" }
