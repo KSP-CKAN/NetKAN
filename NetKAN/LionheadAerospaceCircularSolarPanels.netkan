@@ -3,7 +3,7 @@
     "identifier":   "LionheadAerospaceCircularSolarPanels",
     "author":       [ "Yogui87", "therealcrow999" ],
     "$kref":        "#/ckan/spacedock/1990",
-    "license":      "CC-BY-C-SA-3.0",
+    "license":      "CC-BY-NC-SA-3.0",
     "install": [ {
         "find":       "Lionhead_Aerospace_Inc",
         "install_to": "GameData",
