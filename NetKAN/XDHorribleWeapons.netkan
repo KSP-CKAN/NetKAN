@@ -1,7 +1,11 @@
 {
     "spec_version": "v1.4",
-    "identifier":   "XDHorribleweaponsmod",
+    "identifier":   "XDHorribleWeapons",
     "$kref":        "#/ckan/spacedock/1951",
     "license":      "CC-BY-SA-4.0",
+    "install": [ {
+        "find":       "XD horrible weapons pack",
+        "install_to": "GameData"
+    } ],
     "x_via":        "Automated SpaceDock CKAN submission"
 }
