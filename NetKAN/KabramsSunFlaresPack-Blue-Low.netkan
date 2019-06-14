@@ -1,0 +1,24 @@
+{
+    "spec_version": "v1.16",
+    "identifier":   "KabramsSunFlaresPack-Blue-Low",
+    "name":         "Kabrams Sun Flare Blue Low",
+    "$kref":        "#/ckan/spacedock/1843",
+    "license":      "restricted",
+    "install": [ {
+        "find":       "Low_Quality/Blue/Sun",
+        "install_to": "GameData/scatterer/config/Sunflares"
+    }, {
+        "find":       "Low_Quality/Blue/Sun.cfg",
+        "install_to": "GameData/scatterer/config/Sunflares",
+        "find_matches_files": true
+    } ],
+    "provides": [
+        "Scatterer-sunflare"
+    ],
+    "conflicts": [
+        { "name": "Scatterer-sunflare" }
+    ],
+    "depends": [
+        { "name": "Scatterer" }
+    ]
+}

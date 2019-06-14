@@ -1,0 +1,24 @@
+{
+    "spec_version": "v1.16",
+    "identifier":   "KabramsSunFlaresPack-Diamond-High",
+    "name":         "Kabrams Sun Flare Diamond High",
+    "$kref":        "#/ckan/spacedock/1843",
+    "license":      "restricted",
+    "install": [ {
+        "find":       "High_Quality/Diamond/Sun",
+        "install_to": "GameData/scatterer/config/Sunflares"
+    }, {
+        "find":       "High_Quality/Diamond/Sun.cfg",
+        "install_to": "GameData/scatterer/config/Sunflares",
+        "find_matches_files": true
+    } ],
+    "provides": [
+        "Scatterer-sunflare"
+    ],
+    "conflicts": [
+        { "name": "Scatterer-sunflare" }
+    ],
+    "depends": [
+        { "name": "Scatterer" }
+    ]
+}
