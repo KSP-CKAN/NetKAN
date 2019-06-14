@@ -4,6 +4,12 @@
     "$kref":        "#/ckan/spacedock/1843",
     "license":      "restricted",
     "x_via":        "Automated SpaceDock CKAN submission",
+    "provides": [
+        "Scatterer-sunflare"
+    ],
+    "conflicts": [
+        { "name": "Scatterer-sunflare" }
+    ],
     "depends": [
         { "name": "Scatterer" }
     ]
