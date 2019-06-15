@@ -1,7 +1,13 @@
 {
     "spec_version": "v1.4",
-    "identifier": "KKsDeltaPack",
-    "$kref": "#/ckan/spacedock/2167",
-    "license": "All-rights-reserved.",
-    "x_via": "Automated SpaceDock CKAN submission"
+    "identifier":   "KKsDeltaPack",
+    "$kref":        "#/ckan/spacedock/2167",
+    "license":      "restricted",
+    "install": [ {
+        "find":       "Launchers Pack",
+        "install_to": "GameData"
+    }, {
+        "find":       "Ships/VAB",
+        "install_to": "Ships"
+    } ]
 }
