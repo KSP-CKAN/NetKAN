@@ -1,0 +1,15 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "AllTweak",
+    "$kref":        "#/ckan/spacedock/2100",
+    "$vref":        "#/ckan/ksp-avc",
+    "license":      "MIT",
+    "install": [ {
+        "find":       "GameData/All Tweak",
+        "install_to": "GameData"
+    } ],
+    "depends": [
+        { "name": "ModuleManager" },
+        { "name": "TweakScale"    }
+    ]
+}
