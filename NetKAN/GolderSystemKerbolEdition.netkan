@@ -1,0 +1,14 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "GolderSystemKerbolEdition",
+    "$kref":        "#/ckan/spacedock/2143",
+    "license":      "GPL-3.0",
+    "depends": [
+        { "name": "ModuleManager" },
+        { "name": "Kopernicus"    }
+    ],
+    "install": [ {
+        "find":       "GolderSunPatch",
+        "install_to": "GameData"
+    } ]
+}
