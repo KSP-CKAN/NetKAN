@@ -1,0 +1,15 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "KopernicusExpansionContinued-CometTail",
+    "name":         "Kopernicus Expansion Continued - Comet Tail",
+    "author":       [ "MrHappyFace", "StollD" ],
+    "$kref":        "#/ckan/github/StollD/KopernicusExpansion-Continued/asset_match/CometTail",
+    "license":      "GPL-3.0",
+    "install": [ {
+        "find":       "KopernicusExpansion",
+        "install_to": "GameData"
+    } ],
+    "depends":  [
+        { "name" : "Kopernicus" }
+    ]
+}
