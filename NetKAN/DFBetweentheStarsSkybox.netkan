@@ -7,7 +7,7 @@
         { "name": "TextureReplacer" }
     ],
     "install": [ {
-        "find:        "TextureReplacer",
+        "find":       "TextureReplacer",
         "install_to": "GameData"
     } ]
 }
