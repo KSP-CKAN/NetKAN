@@ -1,0 +1,15 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "TantaresAndBDBNowinColors",
+    "$kref":        "#/ckan/spacedock/2155",
+    "license":      "CC-BY-NC-SA-4.0",
+    "depends": [
+        { "name": "NewTantares"     },
+        { "name": "BluedogDB"       },
+        { "name": "FirespitterCore" }
+    ],
+    "install": [ {
+        "find":       "DnD_Alt_BDB",
+        "install_to": "GameData"
+    } ]
+}
