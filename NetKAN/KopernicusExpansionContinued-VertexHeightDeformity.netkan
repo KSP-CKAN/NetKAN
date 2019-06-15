@@ -1,0 +1,15 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "KopernicusExpansionContinued-VertexHeightDeformity",
+    "name":         "Kopernicus Expansion Continued - Vertex Height Deformity",
+    "author":       [ "MrHappyFace", "StollD" ],
+    "$kref":        "#/ckan/github/StollD/KopernicusExpansion-Continued/asset_match/VertexHeightDeformity",
+    "license":      "GPL-3.0",
+    "install": [ {
+        "find":       "KopernicusExpansion",
+        "install_to": "GameData"
+    } ],
+    "depends":  [
+        { "name" : "Kopernicus" }
+    ]
+}
