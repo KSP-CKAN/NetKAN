@@ -6,7 +6,7 @@
     "depends": [
         { "name": "ModuleManager"       },
         { "name": "Kopernicus"          },
-        { "name": "KopernicusExpansion" },
+        { "name": "KopernicusExpansion" }
     ],
     "recommends": [
         { "name": "EnvironmentalVisualEnhancements" },
