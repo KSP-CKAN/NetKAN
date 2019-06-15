@@ -1,0 +1,13 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "DFBetweentheStarsSkybox",
+    "$kref":        "#/ckan/spacedock/1921",
+    "license":      "restricted",
+    "depends": [
+        { "name": "TextureReplacer" }
+    ],
+    "install": [ {
+        "find:        "TextureReplacer",
+        "install_to": "GameData"
+    } ]
+}
