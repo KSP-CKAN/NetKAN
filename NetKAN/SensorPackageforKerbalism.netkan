@@ -9,6 +9,6 @@
     } ],
     "depends": [
         { "name": "ModuleManager" },
-        { "name": "Kerbalism", "version_max": "2.1.2" }
+        { "name": "Kerbalism", "max_version": "2.1.2" }
     ]
 }
