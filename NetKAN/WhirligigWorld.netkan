@@ -1,7 +1,22 @@
 {
-    "x_via": "Automated SpaceDock CKAN submission",
-    "license": "All Rights Reserved (Whirligig World), GNU General Public License (Kopernicus Expansions Continued)",
-    "identifier": "WhirligigWorld",
-    "$kref": "#/ckan/spacedock/1805",
-    "spec_version": "v1.4"
+    "spec_version": "v1.4",
+    "identifier":   "WhirligigWorld",
+    "$kref":        "#/ckan/spacedock/1805",
+    "license":      "restricted",
+    "depends": [
+        { "name": "ModuleManager"       },
+        { "name": "Kopernicus"          },
+        { "name": "KopernicusExpansion" },
+    ],
+    "recommends": [
+        { "name": "EnvironmentalVisualEnhancements" },
+        { "name": "DistantObject"                   },
+        { "name": "PlanetShine"                     },
+        { "name": "PoodsDeepStarMap"                }
+    ],
+    "suggests": [
+        { "name": "ResearchBodies"    },
+        { "name": "Kronometer"        },
+        { "name": "CommunityTechTree" }
+    ]
 }
