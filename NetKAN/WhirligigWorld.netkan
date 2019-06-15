@@ -4,9 +4,10 @@
     "$kref":        "#/ckan/spacedock/1805",
     "license":      "restricted",
     "depends": [
-        { "name": "ModuleManager"       },
-        { "name": "Kopernicus"          },
-        { "name": "KopernicusExpansion" }
+        { "name": "ModuleManager"                                },
+        { "name": "Kopernicus"                                   },
+        { "name": "KopernicusExpansionContinued-EmissiveFX"      },
+        { "name": "KopernicusExpansionContinued-RegionalPQSMods" }
     ],
     "recommends": [
         { "name": "EnvironmentalVisualEnhancements" },
