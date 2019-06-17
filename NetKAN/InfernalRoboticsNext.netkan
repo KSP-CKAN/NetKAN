@@ -13,8 +13,7 @@
         "repository" : "https://github.com/meirumeiru/InfernalRobotics"
     },
     "recommends"     : [
-        { "name" : "KerbalJointReinforcementNext" },
-        { "name" : "TweakScale" }
+        { "name" : "KerbalJointReinforcementNext" }
     ],
     "conflicts"      : [
         { "name" : "KerbalJointReinforcement" }
