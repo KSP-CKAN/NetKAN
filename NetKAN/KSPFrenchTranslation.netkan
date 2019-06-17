@@ -4,6 +4,9 @@
     "identifier": "KSPFrenchTranslation",
     "license": "MIT",
     "spec_version": "v1.10",
+    "localizations": [
+        "fr-fr"
+    ],
     "depends": [
         { "name": "ModuleManager" }
     ],
