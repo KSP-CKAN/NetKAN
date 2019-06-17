@@ -14,7 +14,7 @@
     },
     "install" : [
         {
-            "file"       : "Agencies",
+            "find"       : "Agencies",
             "install_to" : "GameData/SDHI"
         }
     ]
