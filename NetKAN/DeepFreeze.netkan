@@ -8,6 +8,7 @@
     "depends" : [
         { "name" : "ModuleManager", "min_version" : "2.3.5" },
         { "name" : "REPOSoftTech-Agencies" },
+        { "name" : "CommunityResourcePack" },
         { "name" : "BackgroundResources" }
     ],
     "recommends" : [
