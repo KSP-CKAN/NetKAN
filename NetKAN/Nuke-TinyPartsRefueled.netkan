@@ -10,5 +10,11 @@
     "depends": [
         { "name": "ModuleManager" }
     ],
+    "recommends": [
+        { "name": "FirespitterCore" }
+    ],
+    "suggests": [
+        { "name": "TweakScale" }
+    ],
     "x_via": "Automated SpaceDock CKAN submission"
 }
