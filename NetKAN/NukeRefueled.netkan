@@ -1,7 +1,14 @@
 {
     "spec_version": "v1.4",
-    "identifier": "NukeRefueled",
-    "$kref": "#/ckan/spacedock/2174",
-    "license": "Nuke---TinyParts-by-`Nuke--Original-license:-public-domain.--Licensed-under-CC-BY-NC-SA-4.0",
+    "identifier":   "NukeRefueled",
+    "$kref":        "#/ckan/spacedock/2174",
+    "license":      "CC-BY-NC-SA-4.0",
+    "install": [ {
+        "find":       "GameData/Nuke",
+        "install_to": "GameData"
+    } ],
+    "depends": [
+        { "name": "ModuleManager" }
+    ],
     "x_via": "Automated SpaceDock CKAN submission"
 }
