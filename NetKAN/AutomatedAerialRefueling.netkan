@@ -1,13 +1,12 @@
 {
   "spec_version": "v1.4",
-  "install": [
-    {
-      "install_to": "GameData",
-      "find": "AARS"
-    }
-  ],
-  "$kref": "#/ckan/spacedock/1167",
-  "x_via": "Automated Linuxgurugamer CKAN script",
-  "identifier": "AutomatedAerialRefueling",
-  "license": "CC-BY-SA-4.0"
+  "identifier":   "AutomatedAerialRefueling",
+  "$kref":        "#/ckan/spacedock/1167",
+  "x_netkan_epoch": 1,
+  "license":      "CC-BY-SA-4.0",
+  "install": [ {
+    "find":       "AARS",
+    "install_to": "GameData"
+  } ],
+  "x_via": "Automated Linuxgurugamer CKAN script"
 }
