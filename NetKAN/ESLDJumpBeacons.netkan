@@ -1,16 +1,15 @@
 {
-    "license": "GPL-2.0",
-    "$kref": "#/ckan/spacedock/821",
     "spec_version": "v1.4",
-    "identifier": "ESLDJumpBeacons",
+    "identifier":   "ESLDJumpBeacons",
+    "$kref":        "#/ckan/spacedock/821",
+    "x_netkan_epoch": 1,
+    "license":      "GPL-2.0",
     "depends" : [
         { "name" : "CommunityResourcePack" },
         { "name" : "ModuleManager" }
     ],
-    "install": [
-        {
-            "find": "ESLDBeacons",
-            "install_to": "GameData"
-        }
-    ]
+    "install": [ {
+        "find":       "ESLDBeacons",
+        "install_to": "GameData"
+    } ]
 }
