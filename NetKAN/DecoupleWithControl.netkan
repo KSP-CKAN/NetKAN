@@ -1,11 +1,12 @@
 {
     "spec_version" : 1,
     "identifier"   : "DecoupleWithControl",
-    "$kref"        : "#/ckan/github/cmheisel/ksp-decouple-with-control",
     "name"         : "Decouple With Control",
     "abstract"     : "Adds a probe core, electricity, an internal antenna, torque, and SAS capability to all stack decouplers in the game.",
-    "license"      : "MIT",
+    "$kref"        : "#/ckan/github/cmheisel/ksp-decouple-with-control",
     "$vref"        : "#/ckan/ksp-avc",
+    "x_netkan_epoch": 1,
+    "license"      : "MIT",
     "depends": [
         { "name": "ModuleManager" }
     ],
