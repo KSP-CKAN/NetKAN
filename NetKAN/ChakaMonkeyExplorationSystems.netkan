@@ -2,6 +2,7 @@
     "spec_version": "v1.4",
     "identifier":   "ChakaMonkeyExplorationSystems",
     "$kref":        "#/ckan/spacedock/599",
+    "x_netkan_epoch": 3,
     "license":      "restricted",
     "depends": [
         { "name": "AnimatedDecouplers" },
@@ -11,14 +12,11 @@
         { "name": "MK12PodIVAReplacementbyASET" },
         { "name": "RasterPropMonitor-Core", "min_version" : "0.21.2" }
     ],
-    "install": [
-        {
-            "find": "CMES",
-            "install_to": "GameData"
-        },
-        {
-            "find": "VAB",
-            "install_to": "Ships"
-        }
-    ]
+    "install": [ {
+        "find": "CMES",
+        "install_to": "GameData"
+    }, {
+        "find": "VAB",
+        "install_to": "Ships"
+    } ]
 }
