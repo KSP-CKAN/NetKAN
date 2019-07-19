@@ -1,0 +1,18 @@
+{
+  "license": "unknown",
+  "identifier": "Mk-X",
+  "x_via": "Automated Linuxgurugamer CKAN script",
+  "$kref": "#/ckan/spacedock/2165",
+  "$vref": "#/ckan/ksp-avc",
+  "resources": {
+    "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/185437-mk-x-spaceplane-parts/",
+    "repository": "https://github.com/linuxgurugamer/Mk-X"
+  },
+  "install": [
+    {
+      "find": "Benjee10_X-37B",
+      "install_to": "GameData"
+    }
+  ],
+  "spec_version": "v1.4"
+}

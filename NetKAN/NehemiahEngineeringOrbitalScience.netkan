@@ -22,7 +22,7 @@
 		{ "name"             : "NehemiahMultiPurposeParts" },
 		{ "name"             : "NehemiahScienceCommon" },
 		{ "name"             : "OrbitalMaterialScience" },
-		{ "name"             : "Kerbalism" }
+		{ "name"             : "Kerbalism", "max_version": "2.99" }
 	],
 	"depends": [
 		{ "name"             : "ModuleManager" },

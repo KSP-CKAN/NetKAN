@@ -1,0 +1,25 @@
+{
+    "spec_version": "v1.16",
+    "identifier":   "KabramsSunFlaresPack-Green-High",
+    "name":         "Kabrams Sun Flare Green High",
+    "$kref":        "#/ckan/spacedock/1843",
+    "ksp_version":  "any",
+    "license":      "restricted",
+    "install": [ {
+        "find":       "High_Quality/Green/Sun",
+        "install_to": "GameData/scatterer/config/Sunflares"
+    }, {
+        "find":       "High_Quality/Green/Sun.cfg",
+        "install_to": "GameData/scatterer/config/Sunflares",
+        "find_matches_files": true
+    } ],
+    "provides": [
+        "Scatterer-sunflare"
+    ],
+    "conflicts": [
+        { "name": "Scatterer-sunflare" }
+    ],
+    "depends": [
+        { "name": "Scatterer" }
+    ]
+}

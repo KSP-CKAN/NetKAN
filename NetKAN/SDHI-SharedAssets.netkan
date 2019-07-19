@@ -1,7 +1,7 @@
 {
     "spec_version"   : "v1.4",
     "identifier"     : "SDHI-SharedAssets",
-    "$kref"          : "#/ckan/github/sumghai/SDHI_SharedAssets",
+    "$kref"          : "#/ckan/github/sumghai/SDHI_ServiceModuleSystem",
     "name"           : "Sum Dum Heavy Industries - Shared Assets",
     "abstract"       : "Agency folders shared by multiple SDHI-branded add-ons for Kerbal Space Program",
     "license"        : "CC-BY-SA-4.0",
@@ -14,7 +14,7 @@
     },
     "install" : [
         {
-            "file"       : "Agencies",
+            "find"       : "Agencies",
             "install_to" : "GameData/SDHI"
         }
     ]

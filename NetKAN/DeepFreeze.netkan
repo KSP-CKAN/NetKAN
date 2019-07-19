@@ -1,13 +1,15 @@
 {
-    "identifier": "DeepFreeze",
-    "x_via": "Author JPLRepo",
     "spec_version": "v1.4",
-    "$kref": "#/ckan/spacedock/142",
-    "$vref": "#/ckan/ksp-avc",
-    "license": "CC-BY-NC-SA-4.0",
+    "identifier":   "DeepFreeze",
+    "$kref":        "#/ckan/spacedock/142",
+    "$vref":        "#/ckan/ksp-avc",
+    "license":      "CC-BY-NC-SA-4.0",
+    "x_via":        "Author JPLRepo",
     "depends" : [
         { "name" : "ModuleManager", "min_version" : "2.3.5" },
-        { "name" : "REPOSoftTech-Agencies" }
+        { "name" : "REPOSoftTech-Agencies" },
+        { "name" : "CommunityResourcePack" },
+        { "name" : "BackgroundResources" }
     ],
     "recommends" : [
         { "name" : "Toolbar" },
@@ -19,17 +21,13 @@
     ],
     "suggests": [
         { "name" : "USI-LS" },
-        { "name" : "TACLS" },
+        { "name" : "TACLS"  },
         { "name" : "Snacks" }
     ],
     "install": [
         { 
-            "find": "REPOSoftTech", 
-            "install_to": "GameData", 
-            "filter": [ 
-                "Agencies",
-                "RSTKSPUtils"
-            ]
+            "find":       "REPOSoftTech/DeepFreeze", 
+            "install_to": "GameData/REPOSoftTech"
         }
     ]
 }

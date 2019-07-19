@@ -1,24 +1,20 @@
 {
   "spec_version": "v1.4",
-  "install": [
-    {
-      "install_to": "GameData",
-      "find": "HGR"
-    },
-    {
-      "install_to": "GameData",
-      "find": "Corvus"
-    }
-  ],
+  "identifier":   "Corvus125mTwoKerbalPod",
+  "author":       [ "OrionKermin", "Micha" ],
+  "$kref":        "#/ckan/spacedock/1405",
+  "$vref":        "#/ckan/ksp-avc",
+  "x_netkan_epoch": 1,
+  "license":      "CC-BY-SA",
+  "install": [ {
+    "find":       "HGR",
+    "install_to": "GameData"
+  }, {
+    "find":       "Corvus",
+    "install_to": "GameData"
+  } ],
   "depends": [
-    {
-      "name": "ModuleManager"
-    }
+    { "name": "ModuleManager" }
   ],
-  "$vref": "#/ckan/ksp-avc",
-  "$kref": "#/ckan/spacedock/1405",
-  "x_via": "Automated Linuxgurugamer CKAN script",
-  "identifier": "Corvus125mTwoKerbalPod",
-  "author": [ "OrionKermin", "Micha" ],
-  "license": "CC-BY-SA"
+  "x_via": "Automated Linuxgurugamer CKAN script"
 }

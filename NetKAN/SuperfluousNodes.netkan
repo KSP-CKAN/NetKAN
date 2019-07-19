@@ -1,0 +1,19 @@
+{
+    "spec_version": "v1.16",
+    "identifier":   "SuperfluousNodes",
+    "$kref":        "#/ckan/spacedock/2064",
+    "license":      "MIT",
+    "depends": [
+        { "name": "ModuleManager" },
+        { "name": "B9PartSwitch"  }
+    ],
+    "recommends": [
+        { "name": "KIS"          },
+        { "name": "KAS"          },
+        { "name": "Konstruction" }
+    ],
+    "install": [ {
+        "find_regexp": "SuperfluousNodes.*",
+        "install_to":  "GameData"
+    } ]
+}

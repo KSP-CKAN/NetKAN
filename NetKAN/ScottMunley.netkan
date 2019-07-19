@@ -1,0 +1,14 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "ScottMunley",
+    "$kref":        "#/ckan/spacedock/1979",
+    "license":      "MIT",
+    "install": [ {
+        "find":       "ScottMünley",
+        "install_to": "GameData"
+    } ],
+    "depends": [
+        { "name": "ModuleManager" },
+        { "name": "Kopernicus"    }
+    ]
+}

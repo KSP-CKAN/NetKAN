@@ -7,7 +7,8 @@
     }
   ],
   "depends": [
-	{ "name" : "ClickThroughBlocker" }
+	{ "name" : "ClickThroughBlocker" },
+	{ "name" : "unBlur" }
   ],
   "resources"    : {
         "homepage" : "https://forum.kerbalspaceprogram.com/index.php?/topic/169509-141-toolbar-controller-for-modders/"

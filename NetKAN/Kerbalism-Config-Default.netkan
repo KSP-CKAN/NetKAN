@@ -14,7 +14,7 @@
 		"name": "Kerbalism-Config"
 	}],
 	"install": [{
-			"file": "KerbalismConfig",
+			"find": "KerbalismConfig",
 			"install_to": "GameData"
 		}
 	]

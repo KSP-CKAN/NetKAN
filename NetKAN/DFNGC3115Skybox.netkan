@@ -1,0 +1,13 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "DFNGC3115Skybox",
+    "$kref":        "#/ckan/spacedock/1920",
+    "license":      "restricted",
+    "depends": [
+        { "name": "TextureReplacer" }
+    ],
+    "install": [ {
+        "find":       "TextureReplacer",
+        "install_to": "GameData"
+    } ]
+}
