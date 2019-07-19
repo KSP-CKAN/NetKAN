@@ -20,7 +20,8 @@
         { "name" : "ClickThroughBlocker" }
     ],
     "$kref"             : "#/ckan/spacedock/2090",
-    "$vref"             : "#/ckan/ksp-avc"
+    "$vref"             : "#/ckan/ksp-avc",
+    "x_netkan_epoch"    : "1"
 
 }
 
