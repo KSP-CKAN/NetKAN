@@ -8,6 +8,7 @@
         { "name": "SpaceXLegs"         },
         { "name": "B9PartSwitch"       },
         { "name": "AnimatedDecouplers" },
+        { "name": "RetractableLiftingSurface" },
         { "name": "ModuleManager"      }
     ],
     "recommends" : [
