@@ -5,7 +5,7 @@
     "$vref"          : "#/ckan/ksp-avc",
     "license"        : "GPL-3.0",
     "resources"      : {
-        "repository"     : "https://github.com/magico13/StageRecovery"
+        "repository"     : "https://github.com/linuxgurugamer/StageRecovery"
     },
     "suggests" : [
         { "name" : "KerbalConstructionTime" },
@@ -23,13 +23,5 @@
             "file"       : "GameData/StageRecovery",
             "install_to" : "GameData"
         }
-    ],
-    "x_netkan_override": [{
-        "version": "1.6.5",
-        "delete": [ "ksp_version" ],
-        "override": {
-            "ksp_version_min": "1.2.0",
-            "ksp_version_max": "1.2.99"
-        }
-    }]
+    ]
 }
