@@ -16,5 +16,10 @@
             "file"          : "GameData/TacFuelBalancer",
             "install_to"    : "GameData"
         }
+    ],
+    "depends": [
+        { "name" : "ToolbarController" },
+        { "name" : "ClickThroughBlocker" }
     ]
+
 }
