@@ -13,6 +13,12 @@
         "pellinor",
         "LisiasT"
     ],
+    "install" : [
+        {
+            "file" : "GameData/TweakScale",
+            "install_to" : "GameData"
+        }
+    ],
     "resources": {
         "homepage":   "https://forum.kerbalspaceprogram.com/index.php?/topic/179030-*",
         "repository": "https://github.com/net-lisias-ksp/TweakScale"
