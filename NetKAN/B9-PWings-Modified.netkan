@@ -21,5 +21,12 @@
             "file": "GameData/B9_Aerospace_ProceduralWings",
             "install_to": "GameData"
         }
-    ]
+    ],
+    "replaced_by": { "name": "B9-PWings-Fork" },
+    "x_netkan_override": [ {
+        "version": "0.3.2H",
+        "override": {
+            "ksp_version_max": "1.1.2"
+        }
+    } ]
 }
