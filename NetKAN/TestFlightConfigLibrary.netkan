@@ -1,0 +1,32 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "TestFlightConfigLibrary",
+    "name": "TestFlight Generic Config Library",
+    "abstract": "ModuleManager scripts for simplifying and standardizing TestFlight configs. Do *not* provide TestFlight support by themselves.",
+    "$kref": "#/ckan/github/Starstrider42/TestFlight-Configs",
+    "release_status": "testing",
+    "resources": {
+        "bugtracker": "https://github.com/Starstrider42/TestFlight-Configs/issues"
+    },
+    "depends": [
+        { "name": "ModuleManager" },
+        {
+            "name": "TestFlight",
+            "min_version": "1.8.0"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "RealismOverhaul",
+            "comment": "RO uses similar scripts; they will likely interfere with each other."
+        }
+    ],
+    "install": [
+        {
+            "file": "GameData/TestFlight/Config",
+            "install_to": "GameData/TestFlight",
+            "filter_regexp": "(?<!Generic_.+\\.cfg)$"
+        }
+    ],
+    "x_maintained_by": "Starstrider42"
+}
