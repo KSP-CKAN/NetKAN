@@ -5,6 +5,7 @@
     "abstract": "This config pack adds TestFlight support for Stock parts.",
     "$kref": "#/ckan/github/Starstrider42/TestFlight-Configs",
     "release_status": "testing",
+    "license": "MIT",
     "resources": {
         "bugtracker": "https://github.com/Starstrider42/TestFlight-Configs/issues"
     },

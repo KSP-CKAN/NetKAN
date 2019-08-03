@@ -5,6 +5,7 @@
     "abstract": "ModuleManager scripts for simplifying and standardizing TestFlight configs. Do *not* provide TestFlight support by themselves.",
     "$kref": "#/ckan/github/Starstrider42/TestFlight-Configs",
     "release_status": "testing",
+    "license": "MIT",
     "resources": {
         "bugtracker": "https://github.com/Starstrider42/TestFlight-Configs/issues"
     },
