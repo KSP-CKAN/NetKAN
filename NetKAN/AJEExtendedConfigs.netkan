@@ -12,5 +12,6 @@
         { "name": "ModuleManager"     },
         { "name": "AdvancedJetEngine" }
     ],
-    "x_netkan_epoch": 2
+    "x_netkan_epoch":   2,
+    "x_netkan_force_v": true
 }
