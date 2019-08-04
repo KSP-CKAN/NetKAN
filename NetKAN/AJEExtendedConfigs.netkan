@@ -11,5 +11,6 @@
     "depends": [
         { "name": "ModuleManager"     },
         { "name": "AdvancedJetEngine" }
-    ]
+    ],
+    "x_netkan_epoch": 2
 }
