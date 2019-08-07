@@ -1,18 +1,15 @@
 {
   "spec_version": "v1.4",
-  "install": [
-    {
-      "install_to": "GameData",
-      "find": "ExplodiumBreathingEngines"
-    }
-  ],
+  "identifier":   "ExplodiumBreathingEngines",
+  "$kref":        "#/ckan/spacedock/1362",
+  "x_netkan_epoch": 1,
+  "license":      "MIT",
+  "install": [ {
+    "find":       "ExplodiumBreathingEngines",
+    "install_to": "GameData"
+  } ],
   "depends": [
-    {
-      "name": "ModuleManager"
-    }
+    { "name": "ModuleManager" }
   ],
-  "$kref": "#/ckan/spacedock/1362",
-  "x_via": "Automated Linuxgurugamer CKAN script",
-  "identifier": "ExplodiumBreathingEngines",
-  "license": "MIT"
+  "x_via": "Automated Linuxgurugamer CKAN script"
 }

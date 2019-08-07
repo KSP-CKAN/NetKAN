@@ -15,6 +15,6 @@
         { "name" : "NearFuturePropulsion" }
     ],
     "install" : [
-        { "find" : "Extras", "install_to" : "GameData/NearFuturePropulsion" }
+        { "find" : "Extras", "install_to" : "GameData" }
     ]
 }

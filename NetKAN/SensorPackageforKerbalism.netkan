@@ -1,0 +1,14 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "SensorPackageforKerbalism",
+    "$kref":        "#/ckan/spacedock/2145",
+    "license":      "MIT",
+    "install": [ {
+        "find":       "SensorPackage",
+        "install_to": "GameData"
+    } ],
+    "depends": [
+        { "name": "ModuleManager" },
+        { "name": "Kerbalism", "max_version": "2.1.2" }
+    ]
+}

@@ -1,0 +1,42 @@
+{
+    "spec_version"  : "v1.4",
+    "identifier"    : "Kopernicus",
+    "name"          : "Kopernicus Planetary System Modifier",
+    "abstract"      : "Allows users to replace the planetary system used by the game.",
+    "$kref"         : "#/ckan/github/Kopernicus/Kopernicus-Backport",
+    "$vref"         : "#/ckan/ksp-avc/GameData/Kopernicus/Plugins/Kopernicus.version",
+    "x_netkan_version_edit": {
+        "find":    "^backport-(?<version>[-0-9.]+)$",
+        "replace": "release-${version}",
+        "strict":  true
+    },
+    "x_netkan_epoch": "2",
+    "release_status": "development",
+    "license"       : "LGPL-3.0",
+    "author": [
+        "BryceSchroeder",
+        "Teknoman117",
+        "Thomas P.",
+        "NathanKell",
+        "KillAshley",
+        "Gravitasi",
+        "KCreator",
+        "Sigma88"
+    ],
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/181547-*"
+    },
+    "depends": [
+        { "name": "ModuleManager", "min_version": "2.8.0" },
+        { "name": "ModularFlightIntegrator", "min_version": "1.2.4.0" }
+    ],
+    "suggests": [
+        { "name": "KittopiaTech" }
+    ],
+    "install": [
+        {
+            "find"      : "Kopernicus",
+            "install_to": "GameData"
+        }
+    ]
+}

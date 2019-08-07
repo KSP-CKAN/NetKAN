@@ -3,7 +3,7 @@
     "identifier"   : "KerbalKonstructs",
     "abstract"     : "New buildings and launch sites",
     "author"       : [ "AlphaAsh", "ozraven", "Ger_space" ],
-    "$kref"        : "#/ckan/github/GER-Space/Kerbal-Konstructs",
+    "$kref"        : "#/ckan/spacedock/1052",
     "$vref"        : "#/ckan/ksp-avc",
     "license"      : "restricted",
     "comment"      : "Plugin is MIT, but Static Assets, Artwork & Models are ARR",

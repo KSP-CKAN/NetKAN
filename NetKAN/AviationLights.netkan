@@ -5,9 +5,10 @@
     "author":       [ "MOARdV", "BigNose", "RPGprayer" ],
     "$kref":        "#/ckan/github/MOARdV/AviationLights",
     "$vref":        "#/ckan/ksp-avc",
+    "x_netkan_epoch": 1,
     "license":      "CC-BY-NC-SA-4.0",
     "resources": {
-        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/16801-*"
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/173305-*"
     },
     "x_netkan_override": [
         {

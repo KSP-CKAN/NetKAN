@@ -1,0 +1,21 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "Nuke-TinyPartsRefueled",
+    "author":        [ "Nuke", "zer0Kerbal" ],
+    "$kref":        "#/ckan/spacedock/2175",
+    "license":      "CC-BY-NC-SA-4.0",
+    "install": [ {
+        "find":       "GameData/Nuke",
+        "install_to": "GameData"
+    } ],
+    "depends": [
+        { "name": "ModuleManager" }
+    ],
+    "recommends": [
+        { "name": "FirespitterCore" }
+    ],
+    "suggests": [
+        { "name": "TweakScale" }
+    ],
+    "x_via": "Automated SpaceDock CKAN submission"
+}

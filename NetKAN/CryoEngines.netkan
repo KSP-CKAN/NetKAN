@@ -1,29 +1,5 @@
 {
     "spec_version": "v1.4",
     "identifier": "CryoEngines",
-    "$kref": "#/ckan/spacedock/709",
-    "$vref": "#/ckan/ksp-avc",
-    "x_netkan_epoch": 1,
-    "name": "Cryogenic Engines",
-    "license": "CC-BY-NC-SA-4.0",
-    "depends": [
-        { "name": "B9PartSwitch" },
-        { "name": "CommunityResourcePack" },
-        { "name": "CryoTanks" },
-        { "name": "DeployableEngines" },
-        { "name": "ModuleManager" }
-    ],
-    "recommends": [
-        { "name": "CommunityTechTree" }
-    ],
-    "suggests": [
-        { "name": "KerbalAtomics" }
-    ],
-    "supports": [
-        { "name": "CryoEngines-LFO" },
-        { "name": "CryoEngines-SurfaceAttach" }
-    ],
-    "install": [
-        { "find" : "CryoEngines", "install_to" : "GameData" }
-    ]
+    "$kref": "#/ckan/netkan/https://raw.githubusercontent.com/ChrisAdderley/CryoEngines/master/CKAN/CryoEngines.netkan"
 }

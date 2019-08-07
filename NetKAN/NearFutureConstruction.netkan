@@ -1,27 +1,5 @@
 {
-    "spec_version"        : "v1.4",
-    "identifier"          : "NearFutureConstruction",
-    "$kref"               : "#/ckan/spacedock/563",
-    "abstract"            : "Structural components and truss segments for building deep space vessels and bases. Includes various skeletal adapters and docking ports.",
-    "author"              : "Nertea",
-    "license"             : "CC-BY-NC-SA-4.0",
-    "$vref"               : "#/ckan/ksp-avc",
-    "depends" : [
-        { "name" : "B9PartSwitch" },
-        { "name" : "CommunityResourcePack" }
-    ],
-    "suggests": [
-        { "name" : "CommunityTechTree" },
-        { "name" : "NearFutureElectrical" },
-        { "name" : "NearFuturePropulsion" },
-        { "name" : "NearFutureSolar" },
-        { "name" : "NearFutureSpacecraft" },
-        { "name" : "StationPartsExpansion" }
-    ],
-    "supports": [
-        { "name" : "ConnectedLivingSpace" }
-    ],
-    "install" : [
-        { "find" : "NearFutureConstruction", "install_to" : "GameData" }
-    ]
+    "spec_version"  : "v1.4",
+    "identifier"    : "NearFutureConstruction",
+    "$kref"         : "#/ckan/netkan/https://github.com/ChrisAdderley/NearFutureConstruction/raw/master/CKAN/NearFutureConstruction.netkan"
 }

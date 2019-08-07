@@ -1,0 +1,51 @@
+{
+    "spec_version" : "v1.4",
+    "name"         : "Probes Before Crew [PBC]",
+    "$kref"        : "#/ckan/spacedock/2043",
+    "$vref"        : "#/ckan/ksp-avc/",
+    "identifier"   : "ProbesBeforeCrew",
+    "abstract"     : "Tech tree overhaul that places probes before crew.",
+    "author"       : "_Zee",
+    "license"      : "MIT",
+    "install": [
+        {
+          "install_to": "GameData",
+          "find": "ProbesBeforeCrew"
+        }
+    ],
+    "depends": [
+        { "name": "ModuleManager" },
+        { "name": "CommunityTechTree" },
+        { "name": "CelestialBodyScienceEditor" }
+    ],
+    "suggests": [
+        { "name": "ContractConfigurator" },
+        { "name": "Strategia" }
+    ],
+    "supports": [
+        { "name": "B9" },
+        { "name": "DMagicOrbitalScience" },
+        { "name": "KAS" },
+        { "name": "KIS" },
+        { "name": "kOS" },
+        { "name": "Kerbalism" },
+        { "name": "KerbalPlanetaryBaseSystems" },
+        { "name": "MarkIVSpaceplaneSystem" },
+        { "name": "NearFutureConstruction" },
+        { "name": "NearFutureElectrical" },
+        { "name": "NearFutureLaunchVehicles" },
+        { "name": "NearFutureSolar" },
+        { "name": "NearFutureSpacecraft" },
+        { "name": "NearFuturePropulsion" },
+        { "name": "MissingHistory" },
+        { "name": "ProbeControlRoom" },
+        { "name": "RealChute" },
+        { "name": "RemoteTech" },
+        { "name": "RLAReborn" },
+        { "name": "SCANsat" },
+        { "name": "StationPartsExpansionRedux" },
+        { "name": "TACLS" },
+        { "name": "UniversalStorage2" },
+        { "name": "USI-LS" }
+    ]
+}

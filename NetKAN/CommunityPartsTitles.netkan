@@ -4,7 +4,6 @@
     "$kref"        : "#/ckan/github/yalov/CommunityPartsTitles",
     "name"         : "Community Parts Titles",
     "author"       : "flart",
-    "abstract"     : "Rename parts for useful grouping and sorting in the VAB-list",
     "license"      : "GPL-3.0",
     "$vref" : "#/ckan/ksp-avc",
     "resources" : {
@@ -17,17 +16,22 @@
     "suggests": [
             { "name": "KAS" },
             { "name": "KIS" },
+            { "name": "CommunityCategoryKit" },
             { "name": "KerbalEngineerRedux" },
             { "name": "FuelTanksPlus" },
             { "name": "SpaceY-Lifters" },
             { "name": "SpaceY-Expanded" },
+            { "name": "BetterSRBs" },
 
             { "name": "StationPartsExpansionRedux" },
+
+            { "name": "NearFutureAeronautics" },
             { "name": "NearFutureElectrical" },
             { "name": "NearFuturePropulsion" },
             { "name": "NearFutureSolar" },
             { "name": "NearFutureSpacecraft" },
-            { "name": "NearFutureLaunchVehicles" }, 
+            { "name": "NearFutureLaunchVehicles" },
+            { "name": "NearFutureConstruction" }, 
             { "name": "KerbalAtomics" },
             { "name": "CryoEngines" },
             { "name": "CryoTanks" },
@@ -39,16 +43,30 @@
             { "name": "FASALaunchClampsContinued" },
 
             { "name": "Mk2Expansion" },
+            { "name": "KerbalAircraftExpansion", "min_version": "2.8.0" },
             { "name": "AirplanePlus" },
             { "name": "MK1StkOpenCockpit" },
+            { "name": "Kerbonov" },
 
             { "name": "CommNetAntennasExtension" },
             { "name": "JX2Antenna" },
 
             { "name": "SurfaceExperimentPack" },
             { "name": "TarsierSpaceTechnologyWithGalaxies" },
-            { "name": "DMagicOrbitalScience" }
+            { "name": "kOS" },
+            { "name": "KerbalFoundriesContinued" },
+            { "name": "MSP3000" },
+            { "name": "DMagicOrbitalScience" },
 
+            { "name": "PicoPort" },
+            { "name": "GlassPanesandEnclosures" },
+            { "name": "SCANsat" },
+            { "name": "ReStockPlus" },
+            { "name": "UniversalStorage2" },
+            { "name": "RLAReborn" },
+            { "name": "MandatoryRCSPartPack" },
+            { "name": "DockRotate" },
+            { "name": "PWBFuelBalancerRestored" }
 
         ],
     "install" : [

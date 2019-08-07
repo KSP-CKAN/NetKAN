@@ -17,7 +17,6 @@
     "suggests": [
         { "name": "EvaHandrailsKISCompatibility" }
     ],
-    "recommends": [ { "name": "JanitorsCloset" } ],
     "install": [
         {
             "find": "NEBULA",

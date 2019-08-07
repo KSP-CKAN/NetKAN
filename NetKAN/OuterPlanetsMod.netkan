@@ -1,43 +1,5 @@
 {
     "spec_version": "v1.4",
-    "install": [
-        {
-            "find": "OPM",
-            "install_to": "GameData"
-        }
-    ],
-    "resources": {
-        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/165854-ksp-13-opm_galileo-121-17-sept-2017/"
-    },
-    "depends": [
-        { "name": "ModuleManager" },
-        { "name": "Kopernicus" },
-        { "name": "CommunityTerrainTexturePack" }
-    ],
-    "recommends": [
-        { "name": "CustomBarnKit" }
-    ],
-    "suggests": [
-        { "name": "BetterTimeWarpCont" }
-    ],
-    "conflicts": [
-        { "name": "RealSolarSystem" }
-    ],
-    "supports": [
-        { "name": "DistantObjectEnhancement" },
-        { "name": "FinalFrontier" },
-        { "name": "RemoteTech" },
-        { "name": "SCANsat" },
-        { "name": "CommunityResourcePack" },
-        { "name": "PlanetShine" },
-        { "name": "ResearchBodies" },
-        { "name": "DeadlyReentry" }
-    ],
-    "x_netkan_epoch": "2",
-    "$vref": "#/ckan/ksp-avc",
-    "$kref": "#/ckan/github/Galileo88/Outer-Planets-Mod",
-    "identifier": "OuterPlanetsMod",
-    "abstract": "Outer Planets Mod",
-    "author": [ "CaptRobau", "Galileo88", "Poodmund" ],
-    "license": "CC-BY-NC-SA-4.0"
+    "identifier":   "OuterPlanetsMod",
+    "$kref":        "#/ckan/netkan/https://raw.githubusercontent.com/Poodmund/Outer-Planets-Mod/master/CKAN/OPM.netkan"
 }

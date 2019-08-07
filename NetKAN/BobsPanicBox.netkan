@@ -3,15 +3,15 @@
   "license": "GPL-3.0",
   "identifier": "BobsPanicBox",
   "x_via": "Automated Linuxgurugamer CKAN script",
-  "$kref"         : "#/ckan/spacedock/1894",
+  "$kref": "#/ckan/spacedock/1894",
   "$vref": "#/ckan/ksp-avc",
   "resources": {
-    "repository": "BobsPanicBox",
+    "repository": "https://github.com/linuxgurugamer/BobsPanicBox",
     "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/176073-14-bob"
   },
   "depends": [
-    { "name" : "ToolbarController" },
-    { "name" : "ClickThroughBlocker" },
+    { "name": "ToolbarController" },
+    { "name": "ClickThroughBlocker" },
     { "name": "ModuleManager" }
   ],
   "recommends": [

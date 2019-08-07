@@ -22,7 +22,8 @@
         { "name": "DistantObject" },
         { "name": "PlanetShine" },
         { "name": "ResearchBodies" },
-        { "name": "TextureReplacer" }
+        { "name": "TextureReplacer" },
+        { "name": "JX2Antenna" }
     ],
     "conflicts": [
         { "name": "BilliardsPlanetPack" },

@@ -13,6 +13,7 @@
     },
     "depends": [
         { "name": "ModuleManager" },
+	{ "name" : "ToolbarController" },
         { "name": "ClickThroughBlocker" }
     ],
     "recommends" : [ { "name" : "Toolbar" } ],
@@ -21,5 +22,7 @@
             "file" : "GameData/Diazo",
             "install_to" : "GameData"
         }
-    ]
+    ],
+    "x_netkan_epoch": "1"
+
 }

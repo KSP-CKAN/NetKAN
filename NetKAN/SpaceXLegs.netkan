@@ -3,23 +3,22 @@
     "spec_version": 1,
     "$kref": "#/ckan/spacedock/841",
     "license": "MIT",
-    
-        "install": 
-        [
+    "install": [
         {
             "file"       : "KerbalReusabilityExpansion",
             "install_to" : "GameData"
         }
-        ],
-        
-        "depends":
-        [
+    ],
+    "depends": [
         { "name": "ModuleManager" }
-         ],
-         
-        "suggests":
-        [
-        { "name": "FMRSContinued" }
-        ]
-    
+    ],
+    "recommends": [
+        { "name": "FMRSContinued" },
+        { "name": "Trajectories" }
+    ],
+    "supports": [
+        { "name": "TweakScale" },
+        { "name": "RealPlume" },
+        { "name": "FerramAerospaceResearch" }
+    ]
 }

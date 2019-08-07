@@ -1,26 +1,23 @@
 {
-    "$kref": "#/ckan/spacedock/684",
-    "$vref": "#/ckan/ksp-avc",
-    "identifier": "ResearchBodies",
-    "license": "CC-BY-NC-SA-4.0",
-    "x_netkan_epoch": 1,
     "spec_version": "v1.4",
+    "identifier":   "ResearchBodies",
+    "$kref":        "#/ckan/spacedock/684",
+    "$vref":        "#/ckan/ksp-avc",
+    "license":      "CC-BY-NC-SA-4.0",
+    "x_netkan_epoch": 2,
     "suggests": [
         { "name": "AsteroidDay" }
     ],
     "depends": [
-        { "name": "ModuleManager" },
-        { "name": "ContractConfigurator" },
+        { "name": "ModuleManager"         },
+        { "name": "ContractConfigurator"  },
         { "name": "REPOSoftTech-Agencies" }
     ],
-    "install": [
-        {
-            "find":"ResearchBodies",
-            "install_to": "GameData/REPOSoftTech"
-        },
-        {
-            "find":"ProgressiveCBMaps",
-            "install_to": "GameData/REPOSoftTech"
-        }
-    ]
+    "install": [ {
+        "find":       "ResearchBodies",
+        "install_to": "GameData/REPOSoftTech"
+    }, {
+        "find":       "ProgressiveCBMaps",
+        "install_to": "GameData/REPOSoftTech"
+    } ]
 }

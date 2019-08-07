@@ -1,15 +1,14 @@
 {
     "spec_version": "v1.4",
-    "x_via": "Automated SpaceDock CKAN submission",
-    "license": "MIT",
     "identifier": "RoverFuelTanks",
     "$kref": "#/ckan/spacedock/1166",
+    "license": "MIT",
     "install": [
         {
-            "find":"Parts",
+            "find": "Parts",
             "install_to": "GameData/RoverFuelTanks",
             "comment": "something odd about that zip file"
         }
     ],
-    "x_netkan_staging": true
+    "x_via": "Automated SpaceDock CKAN submission"
 }

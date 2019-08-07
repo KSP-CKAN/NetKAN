@@ -3,7 +3,8 @@
     "identifier"   : "BetterLoadSaveGame",
     "$kref"        : "#/ckan/github/jefftimlin/BetterLoadSaveGame",
     "license"      : "MIT",
-    "ksp_version"  : "1.4",
+    "ksp_version_min"  : "1.4",
+    "ksp_version_max"  : "1.7",
     "suggests": [
         { "name": "DatedQuickSaves"          },
         { "name": "KerbalImprovedSaveSystem" }

@@ -1,13 +1,12 @@
 {
   "spec_version": "v1.4",
-  "install": [
-    {
-      "install_to": "GameData/ASET",
-      "find": "ASET/Agencies"
-    }
-  ],
-  "$kref": "#/ckan/spacedock/1216",
-  "x_via": "Automated Linuxgurugamer CKAN script",
-  "identifier": "ASETAgency",
-  "license": "CC-BY-NC-SA-3.0"
+  "identifier":   "ASETAgency",
+  "$kref":        "#/ckan/spacedock/1216",
+  "ksp_version":  "any",
+  "license":      "CC-BY-NC-SA-3.0",
+  "install": [ {
+      "find":       "ASET/Agencies",
+      "install_to": "GameData/ASET"
+  } ],
+  "x_via": "Automated Linuxgurugamer CKAN script"
 }

@@ -1,0 +1,14 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "SpaceXLandingPad",
+    "$kref":        "#/ckan/spacedock/1670",
+    "license":      "MIT",
+    "depends": [
+        { "name": "ModuleManager"    },
+        { "name": "KerbalKonstructs" }
+    ],
+    "install": [ {
+        "find":       "Omega's_Spacex_Style_Landingpads",
+        "install_to": "GameData"
+    } ]
+}

@@ -15,7 +15,7 @@
         "repository": "https://github.com/sarbian/ModuleManager"
     },
     "ksp_version_min": "1.4.0",
-    "ksp_version_max": "1.4.90",
+    "ksp_version_max": "1.7.90",
     "install": [
         {
             "find_regexp": "ModuleManager.*\\.dll$",
@@ -26,6 +26,7 @@
     "x_netkan_override": [
         {
             "version": "3.0.4",
+            "delete": [ "ksp_version_min", "ksp_version_max" ],
             "override": {
                 "ksp_version" : "1.3"
             }

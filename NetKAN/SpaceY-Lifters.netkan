@@ -4,7 +4,27 @@
     "$kref" : "#/ckan/spacedock/88",
     "$vref" : "#/ckan/ksp-avc",
     "license" : "CC-BY-NC-SA",
-    "depends" :  [ { "name" : "ModuleManager" } ],
-    "recommends" :  [ { "name" : "IndicatorLights" } ],
-    "suggests" : [ { "name" : "SpaceY-Expanded" } ]
+    "depends" :  [
+        { "name" : "ModuleManager" }
+    ],
+    "recommends" : [
+        { "name" : "SpaceY-Expanded" }
+    ],
+    "supports": [
+        { "name": "ModularRocketSystem" },
+        { "name": "ModularRocketSystemsLITE" },
+        { "name": "FuelTanksPlus" },
+        { "name": "ColorCodedCans" },
+        { "name": "ColorfulFuelLines" },
+        { "name": "LithobrakeExplorationTechnologies" },
+        { "name": "TweakScale" },
+        { "name": "FerramAerospaceResearch" },
+        { "name": "KSP-AVC" },
+        { "name": "EngineIgnitorReignited" },
+        { "name": "CommunityTechTree" },
+        { "name": "HotRockets" },
+        { "name": "DefaultActionGroups" },
+        { "name": "IndicatorLights" },
+        { "name": "ConnectedLivingSpace" }
+    ]
 }

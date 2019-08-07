@@ -1,0 +1,38 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "CustomAsteroids-Pops-OPM-Reconfig",
+    "name": "Custom Asteroids (alternative OPM config)",
+    "abstract": "Replaces default OPM asteroid config with one that uses Custom Asteroids",
+    "$kref": "#/ckan/github/Starstrider42/Custom-Asteroids-Extras",
+    "x_netkan_github": {
+        "use_source_archive": true
+    },
+    "license": "MIT",
+    "resources": {
+        "bugtracker": "https://github.com/Starstrider42/Custom-Asteroids-Extras/issues"
+    },
+    "ksp_version_min": "1.4.0",
+    "depends": [
+        {
+            "name": "OuterPlanetsMod",
+            "min_version": "2:2.2.2",
+            "max_version": "2:2.99.99",
+            "comment": "Version where OPM switched to Kopernicus asteroids."
+        },
+        {
+            "name": "CustomAsteroids",
+            "min_version": "v1.6.0",
+            "max_version": "v1.99.99",
+            "comment": "Requires localization support."
+        }
+    ],
+    "provides": [ "CustomAsteroids-Pops" ],
+    "install": [
+        {
+            "find": "config",
+            "install_to": "GameData/CustomAsteroids",
+            "filter_regexp": "(?<!OPM-Reconfig\\.cfg)$"
+        }
+    ],
+    "x_maintained_by": "HSJasperism"
+}

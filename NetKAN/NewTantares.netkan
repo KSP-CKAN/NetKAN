@@ -1,13 +1,14 @@
 {
-    "name"         : "New Tantares",
-    "author"       : "Beale",
     "spec_version" : 1,
     "identifier"   : "NewTantares",
-    "$kref"        : "#/ckan/github/Tantares/Tantares",
-    "license"      : "CC-BY-NC-SA-4.0",
-    "ksp_version_min" : "1.4.0",
-    "ksp_version_max" : "1.4.2",
+    "name"         : "New Tantares",
     "abstract"     : "Stockalike Soyuz, LK and more!",
+    "author"       : "Beale",
+    "$kref"        : "#/ckan/github/Tantares/Tantares",
+    "ksp_version"  : "1.7",
+    "x_netkan_staging": true,
+    "x_netkan_staging_reason": "Game versions hard coded in netkan, please check that they match the forum thread",
+    "license"      : "CC-BY-NC-SA-4.0",
     "resources": {
         "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/73686-Tantares"
     },

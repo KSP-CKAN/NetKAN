@@ -5,9 +5,9 @@
     "abstract"       : "Editor mod to set a part's position and angle values with great precision. Also show CoM, CoL and CoT coordinates.",
     "author"         : "jfrouleau",
     "$kref"          : "#/ckan/github/jfrouleau/PreciseEditor",
+    "$vref"          : "#/ckan/ksp-avc",
     "license"        : "GPL-3.0",
-    "release_status" : "testing",
-    "ksp_version"    : "1.4.5",
+    "release_status" : "stable",
     "resources"      : {
         "homepage"   : "https://github.com/jfrouleau/PreciseEditor",
         "repository" : "https://github.com/jfrouleau/PreciseEditor"

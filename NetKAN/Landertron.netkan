@@ -1,0 +1,18 @@
+{
+    "spec_version" : 1,
+    "identifier"   : "Landertron",
+    "name"         : "Landertrons",
+    "$kref"        : "#/ckan/github/Kerbas-ad-astra/XTLandertron",
+    "$vref"        : "#/ckan/ksp-avc",
+    "license"      : "CC-BY-SA-4.0",
+    "recommends": [
+        { "name": "HGR" }
+    ],
+    "suggests": [
+        { "name": "KAS" },
+        { "name": "KIS" }
+    ],
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/149826-*"
+    }
+}

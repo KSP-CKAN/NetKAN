@@ -1,0 +1,17 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "MiporiaPlanetPack",
+    "$kref":        "#/ckan/spacedock/2120",
+    "license":      "GPL-3.0",
+    "install": [
+        {
+            "find":       "MiporiaPack",
+            "install_to": "GameData"
+        }
+    ],
+    "depends": [
+        {
+            "name": "Kopernicus"
+        }
+    ]
+}

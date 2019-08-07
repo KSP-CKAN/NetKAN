@@ -1,8 +1,9 @@
 {
     "spec_version": "v1.4",
-    "identifier": "ChineseTianGongScienceSpaceStation",
-    "license": "CC-BY-NC-SA-4.0",
-    "$kref": "#/ckan/spacedock/785",
+    "identifier":   "ChineseTianGongScienceSpaceStation",
+    "$kref":        "#/ckan/spacedock/785",
+    "x_netkan_epoch": 1,
+    "license":      "CC-BY-NC-SA-4.0",
     "install": [
         {
             "find"       : "tiangong",

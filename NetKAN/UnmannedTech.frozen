@@ -1,0 +1,17 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "UnmannedTech",
+    "$kref":        "#/ckan/spacedock/1969",
+    "license":      "MIT",
+    "depends": [
+        { "name": "ModuleManager" }
+    ],
+    "recommends": [
+        { "name": "CommunityTechTree"    },
+        { "name": "MandatoryRCSPartPack" }
+    ],
+    "suggests": [
+        { "name": "ResearchBodies"       },
+        { "name": "ContractConfigurator" }
+    ]
+}

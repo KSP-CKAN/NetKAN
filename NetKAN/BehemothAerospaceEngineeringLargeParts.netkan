@@ -1,25 +1,23 @@
 {
-    "spec_version": 1,
-    "identifier": "BehemothAerospaceEngineeringLargeParts",
-    "$kref": "#/ckan/spacedock/225",
-    "$vref" : "#/ckan/ksp-avc",
-    "license": "CC-BY-NC-SA-4.0",
-    "abstract": "This parts pack contains engines, tanks, and other part categories in three sizes that do not exist in stock KSP, namely 5m, 7.5m, and 10m.",
-
-    "depends": [
-        { "name": "FirespitterCore" }
-    ],
-
+    "spec_version": "v1.4",
+    "identifier":   "BehemothAerospaceEngineeringLargeParts",
+    "author":       [ "greystork", "Comwarrior" ],
+    "$kref":        "#/ckan/spacedock/2109",
+    "$vref":        "#/ckan/ksp-avc",
+    "license":      "CC-BY-NC-SA-4.0",
+    "abstract":     "This parts pack contains engines, tanks, and other part categories in three sizes that do not exist in stock KSP, namely 5m, 7.5m, and 10m.",
     "recommends": [
-        { "name": "CommunityTechTree" },
+        { "name": "FirespitterCore"          },
+        { "name": "InterstellarFuelSwitch"   },
+        { "name": "CommunityTechTree"        },
         { "name": "KerbalJointReinforcement" },
-        { "name": "KSP-AVC" }
+        { "name": "KSP-AVC"                  }
     ],
-
     "install": [
         {
-            "file"       : "BAE",
-            "install_to" : "GameData"
+            "file":       "BAE",
+            "install_to": "GameData",
+            "filter":     [ "Flags", "Agencies" ]
         }
     ]
 }

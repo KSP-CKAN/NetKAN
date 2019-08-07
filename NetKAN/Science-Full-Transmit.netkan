@@ -1,0 +1,20 @@
+{
+    "spec_version"     : 1,
+    "identifier"       : "Science-Full-Transmit",
+    "name"             : "Science - Full Transmit!",
+    "author"           : "Tekaoh",
+    "$kref"            : "#/ckan/github/tekaohksp/Science-Full-Transmit",
+    "license"          : "MIT",
+    "ksp_version"      : "any",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/180005-*"
+    },
+    "depends": [
+        { "name": "ModuleManager" }
+    ],
+    "suggests": [
+        { "name": "xScienceContinued" },
+        { "name": "Science-Full-Reward" },
+        { "name": "ContractConfigurator-FieldResearch" }
+    ]
+}

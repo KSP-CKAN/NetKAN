@@ -1,0 +1,24 @@
+{
+    "spec_version" : "v1.4",
+    "identifier"   : "ScienceLabInfo",
+    "$kref"        : "#/ckan/github/yalov/ScienceLabInfo",
+    "name"         : "Science Lab Info (and 6 Crew Lab)",
+    "author"       : "flart",
+    "license"      : "GPL-3.0",
+    "release_status" : "stable",
+    "$vref" : "#/ckan/ksp-avc",
+    "resources" : {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/179385-*"
+    },
+    "conflicts": [
+        { "name": "SixCrewScienceLab" }
+    ],
+    "depends": [
+        { "name": "ModuleManager" }
+    ],
+    "suggests": [
+        { "name": "SpeedUnitAnnex" },
+		{ "name": "CommunityPartsTitles" },
+		{ "name": "CommNetAntennasExtension" }
+    ]
+}

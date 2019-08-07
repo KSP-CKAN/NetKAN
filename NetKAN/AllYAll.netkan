@@ -1,19 +1,11 @@
 {
-    "license": "CC-BY-SA",
-    "identifier": "AllYAll",
-    "$kref": "#/ckan/spacedock/628",
     "spec_version": "v1.4",
+    "identifier":   "AllYAll",
+    "license":      "CC-BY-SA",
+    "$kref":        "#/ckan/spacedock/628",
+    "$vref":        "#/ckan/ksp-avc",
+    "x_netkan_epoch": 1,
     "depends": [
         { "name": "ModuleManager" }
-    ],
-    "x_netkan_override": [
-        {
-            "version": "0.3",
-            "delete" : [ "ksp_version" ],
-            "override" : {
-                "ksp_version_min" : "1.1.0",
-                "ksp_version_max" : "1.1.2"
-            }
-        }
     ]
 }

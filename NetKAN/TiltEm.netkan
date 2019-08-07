@@ -1,0 +1,16 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "TiltEm",
+    "$kref":        "#/ckan/github/LunaMultiplayer/TiltEm/asset_match/.*Release.*",
+    "$vref":        "#/ckan/ksp-avc",
+    "license":      "MIT",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/179281-*"
+    },
+    "depends": [
+        { "name": "ModuleManager" }
+    ],
+    "suggests": [
+        { "name": "Kopernicus" }
+    ]
+}

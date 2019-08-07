@@ -1,0 +1,27 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "KolyphemusSystemContinued",
+    "$kref":        "#/ckan/spacedock/2055",
+    "license":      "CC-BY-NC-SA",
+    "install": [ {
+        "find":       "KolyphemusSystemContinued/Kolyphemus",
+        "install_to": "GameData"
+    }, {
+        "find":       "KolyphemusSystemContinued/BoulderCo",
+        "install_to": "GameData"
+    } ],
+    "provides": [
+        "EnvironmentalVisualEnhancements-Config"
+    ],
+    "conflicts": [
+        { "name": "EnvironmentalVisualEnhancements-Config" }
+    ],
+    "depends": [
+        { "name": "ModuleManager" },
+        { "name": "Kopernicus"    }
+    ],
+    "recommends": [
+        { "name": "EnvironmentalVisualEnhancements" },
+        { "name": "Scatterer"                       }
+    ]
+}

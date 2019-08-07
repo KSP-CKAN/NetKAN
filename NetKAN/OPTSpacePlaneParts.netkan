@@ -5,7 +5,7 @@
     "abstract"    : "Parts from previous OPT versions, recommended to avoid game breaking if you used v1.8.6",
     "license"     : "CC-BY-NC-SA-4.0",
     "$kref"       : "#/ckan/spacedock/711",
-    "$vref"       : "#/ckan/ksp-avc/OPTLegacySpaceplaneParts.version",
+    "$vref"       : "#/ckan/ksp-avc/OPTLegacy.version",
     "resources"    : {
         "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/87956-opt-space-plane-temporary-thread"
     },
