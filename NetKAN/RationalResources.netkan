@@ -5,6 +5,7 @@
     "$vref":        "#/ckan/ksp-avc",
     "license":      "MIT",
     "depends": [
+        { "name": "ModuleManager"         },
         { "name": "CommunityResourcePack" }
     ],
     "recommends": [
