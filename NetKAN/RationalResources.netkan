@@ -1,7 +1,21 @@
 {
     "spec_version": "v1.4",
-    "identifier": "RationalResources",
-    "$kref": "#/ckan/spacedock/2201",
-    "license": "MIT",
-    "x_via": "Automated SpaceDock CKAN submission"
+    "identifier":   "RationalResources",
+    "$kref":        "#/ckan/spacedock/2201",
+    "$vref":        "#/ckan/ksp-avc",
+    "license":      "MIT",
+    "depends": [
+        { "name": "CommunityResourcePack" }
+    ],
+    "recommends": [
+        { "name": "SCANsat" }
+    ],
+    "suggests": [
+        { "name": "JNSQ" }
+    ],
+    "supports": [
+        { "name": "CryoTanks" },
+        { "name": "Kerbalism" },
+        { "name": "TACLS"     }
+    ]
 }
