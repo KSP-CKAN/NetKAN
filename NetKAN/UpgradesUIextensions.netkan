@@ -4,6 +4,7 @@
     "abstract"     : "GUI tweaks to show upgraded stats in VAB/SPH part tooltips. Also allow to customize which upgrades are enabled",
     "$kref"        : "#/ckan/spacedock/2208",
     "$vref"        : "#/ckan/ksp-avc",
+    "x_netkan_epoch": 1,
     "license"      : "Unlicense",
     "resources"    : {
         "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/158081-*"
