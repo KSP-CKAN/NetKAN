@@ -2,6 +2,7 @@
     "spec_version": "v1.4",
     "identifier":   "KeyNode",
     "$kref":        "#/ckan/spacedock/1686",
+    "x_netkan_epoch": 1,
     "license":      "MIT",
     "x_via":        "Automated SpaceDock CKAN submission",
     "recommends": [
