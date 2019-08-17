@@ -2,6 +2,23 @@
     "spec_version": "v1.4",
     "identifier": "ShangshengOrbital",
     "$kref": "#/ckan/spacedock/2209",
-    "license": "CC-BY_NC-ND-4.0",
+    "license": "CC-BY-NC-ND-4.0",
+    "install": [
+        {
+            "find"      : "ShangshengOrbital",
+            "install_to": "GameData"
+        },
+        {
+            "file"      : "Ships/VAB",
+            "install_to": "Ships/VAB"
+        }
+    ],
+    "depends": [ 
+        { "name": "SpaceXLegs" }
+    ],
+    "recommends": [
+        { "name": "Smokescreen" },
+        { "name": "CommunityCategoryKit" }
+    ],
     "x_via": "Automated SpaceDock CKAN submission"
 }
