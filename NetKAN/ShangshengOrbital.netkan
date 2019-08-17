@@ -9,11 +9,11 @@
             "install_to": "GameData"
         },
         {
-            "file"      : "Ships/VAB",
-            "install_to": "Ships/VAB"
+            "find": "VAB",
+            "install_to": "Ships"
         }
     ],
-    "depends": [ 
+    "depends": [
         { "name": "SpaceXLegs" }
     ],
     "recommends": [
