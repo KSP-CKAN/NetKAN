@@ -1,0 +1,17 @@
+{
+  "license": "GPL-3.0",
+  "identifier": "SpaceTuxLibrary",
+  "x_via": "Automated Linuxgurugamer CKAN script",
+  "$kref": "#/ckan/spacedock/2210",
+  "$vref": "#/ckan/ksp-avc",
+  "resources": {
+    "repository": "https://github.com/linuxgurugamer/SpaceTuxLibrary"
+  },
+  "install": [
+    {
+      "find": "SpaceTuxLibrary",
+      "install_to": "GameData"
+    }
+  ],
+  "spec_version": "v1.4"
+}
