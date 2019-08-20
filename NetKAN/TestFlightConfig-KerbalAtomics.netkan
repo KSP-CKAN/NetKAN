@@ -1,0 +1,31 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "TestFlightConfig-KerbalAtomics",
+    "name": "TestFlight Config for Kerbal Atomics",
+    "abstract": "This config pack adds TestFlight support for Kerbal Atomics parts. It does not affect stock parts; install a stock TestFlight config if desired.",
+    "$kref": "#/ckan/github/Starstrider42/TestFlight-Configs",
+    "release_status": "testing",
+    "license": "MIT",
+    "resources": {
+        "bugtracker": "https://github.com/Starstrider42/TestFlight-Configs/issues"
+    },
+    "provides": [
+        "TestFlightConfig"
+    ],
+    "depends": [
+        { "name": "TestFlightConfigLibrary" },
+        { "name": "ModuleManager" },
+        {
+            "name": "KerbalAtomics",
+            "min_version": "1:1.0"
+        }
+    ],
+    "install": [
+        {
+            "file": "GameData/TestFlight/Config",
+            "install_to": "GameData/TestFlight",
+            "filter_regexp": "(?<!KA_.+\\.cfg)$"
+        }
+    ],
+    "x_maintained_by": "Starstrider42"
+}
