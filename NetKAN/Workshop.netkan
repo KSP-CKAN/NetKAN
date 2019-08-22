@@ -10,11 +10,6 @@
     "resources": {
         "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/97537-11-ose-workshop-kis-addon-v0130-20160426/"
     },
-    "depends": [
-        { "name": "ToolbarController" },
-        { "name": "ClickThroughBlocker" },
-        { "name": "SpaceTuxLibrary" }
-    ],
     "x_netkan_override": [
         {
             "version": "<0.9.0",
