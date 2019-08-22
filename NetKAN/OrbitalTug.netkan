@@ -1,14 +1,25 @@
 {
-    "spec_version" : 1,
+	"spec_version": "v1.4",
     "license"      : "CC-BY-NC-SA-4.0",
-    "$kref"        : "#/ckan/spacedock/313",
+    "$kref"        : "#/ckan/spacedock/2198",
+	"$vref": "#/ckan/ksp-avc",
     "identifier"   : "OrbitalTug",
     "depends": [
+        { "name": "ModuleManager" },
+        { "name": "BurstAtomicThrust" },
+        { "name": "B9PartSwitch" }
+    ],
+	"recommends": [
+        { "name": "AllYAll" },
+        { "name": "DockingCamKURS" },
+        { "name": "TacSelfDestructContinued" },
+        { "name": "JSIAdvancedTransparentPods" }
+	],
+    "install" : [
         {
-            "name": "FirespitterCore"
-        },
-        {
-            "name": "ModuleManager"
+            "find"       : "OrbitalTug",
+            "install_to" : "GameData"
         }
     ]
+
 }

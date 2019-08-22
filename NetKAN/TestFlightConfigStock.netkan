@@ -27,7 +27,8 @@
         "TestFlightConfig"
     ],
     "conflicts": [
-        { "name": "TestFlightConfig" }
+        { "name": "TestFlightConfig-Stock-S42", "comment": "Modifies same parts" },
+        { "name": "RealismOverhaul", "comment": "Removes stock parts" }
     ],
     "x_netkan_override": [
         {

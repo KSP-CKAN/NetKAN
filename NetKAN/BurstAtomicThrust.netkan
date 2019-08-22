@@ -1,0 +1,18 @@
+{
+  "license": "CC-BY-4.0",
+  "identifier": "BurstAtomicThrust",
+  "x_via": "Automated Linuxgurugamer CKAN script",
+  "$kref": "#/ckan/spacedock/2197",
+  "$vref": "#/ckan/ksp-avc",
+  "resources": {
+    "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/186959-173-burst-atomic-thrust-module/",
+    "repository": "https://github.com/linuxgurugamer/BurstAtomicThrustModule/"
+  },
+  "install": [
+    {
+      "find": "BurstAtomicThrustModule",
+      "install_to": "GameData"
+    }
+  ],
+  "spec_version": "v1.4"
+}
