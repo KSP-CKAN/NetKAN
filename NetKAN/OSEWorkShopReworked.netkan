@@ -9,9 +9,9 @@
   "depends": [
     { "name": "CommunityResourcePack" },
     { "name": "ModuleManager" },
-    { "name": "FirespitterCore" },
     { "name": "KIS" },
-    { "name" : "ClickThroughBlocker" }
+    { "name" : "ClickThroughBlocker" },
+    { "name": "SpaceTuxLibrary" }
   ],
   "conflicts": [ 
     { "name": "Workshop" },
