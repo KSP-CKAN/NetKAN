@@ -1,0 +1,22 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "TransparentPods",
+    "$kref":        "#/ckan/spacedock/2212",
+    "$vref":        "#/ckan/ksp-avc",
+    "license":      "CC-BY-NC-SA-4.0",
+    "recommends": [
+        { "name": "ModuleManager"              },
+        { "name": "RasterPropMonitor"          },
+        { "name": "JSIAdvancedTransparentPods" }
+    ],
+    "suggests": [
+        { "name": "AllYAll"                      },
+        { "name": "DockingCamKURS"               },
+        { "name": "KIS"                          },
+        { "name": "KAS"                          },
+        { "name": "InfernalRoboticsNext"         },
+        { "name": "KerbalJointReinforcementNext" },
+        { "name": "KerbalChangelog"              }
+    ],
+    "x_via": "Automated SpaceDock CKAN submission"
+}
