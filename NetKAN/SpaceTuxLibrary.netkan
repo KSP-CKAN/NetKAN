@@ -3,7 +3,7 @@
   "identifier": "SpaceTuxLibrary",
   "x_via": "Automated Linuxgurugamer CKAN script",
   "$kref": "#/ckan/spacedock/2210",
-  "$vref": "#/ckan/ksp-avc",
+  "$vref": "#/ckan/ksp-avc/SpaceTuxLibrary.version",
   "resources": {
     "repository": "https://github.com/linuxgurugamer/SpaceTuxLibrary"
   },
