@@ -1,7 +1,15 @@
 {
     "spec_version": "v1.4",
-    "identifier": "SpacePlaneCorrections",
-    "$kref": "#/ckan/spacedock/1194",
-    "license": "MIT",
-    "x_via": "Automated SpaceDock CKAN submission"
+    "identifier":   "SpacePlaneCorrections",
+    "$kref":        "#/ckan/spacedock/1194",
+    "license":      "CC-BY-NC-4.0",
+    "depends": [
+        { "name": "ModuleManager"   },
+        { "name": "FirespitterCore" }
+    ],
+    "install": [ {
+        "find":       "GameData/SPC",
+        "install_to": "GameData"
+    } ],
+    "x_via":        "Automated SpaceDock CKAN submission"
 }
