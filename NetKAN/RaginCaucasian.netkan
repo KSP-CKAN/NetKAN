@@ -10,6 +10,9 @@
             "install_to": "GameData"
         }
     ],
+    "depends": [
+        { "name": "B9PartSwitch" }
+    ],
     "suggests": [
         { "name": "ModuleManager" },
         { "name": "PatchManager" }
