@@ -1,0 +1,30 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "ODFC-Refueled",
+    "$kref":        "#/ckan/spacedock/2223",
+    "license":      "CC-BY-NC-SA-4.0",
+    "install": [ {
+        "find":       "OnDemandFuelCells",
+        "install_to": "GameData"
+    } ],
+    "conflicts": [
+        { "name": "OFDC"  }
+    ],
+    "depends": [
+        { "name": "ModuleManager" }
+    ],
+    "suggests": [
+        { "name": "BluedogDB"                 },
+        { "name": "StockalikeMiningExtension" },
+        { "name": "UniversalStorage"          },
+        { "name": "UniversalStorage2"         },
+        { "name": "RLAReborn"                 }
+    ],
+    "supports": [
+        { "name": "AllYAll"               },
+        { "name": "CommunityResourcePack" },
+        { "name": "BackgroundProcessing"  },
+        { "name": "BackgroundResources"   },
+        { "name": "KerbalChangelog"       }
+    ]
+}
