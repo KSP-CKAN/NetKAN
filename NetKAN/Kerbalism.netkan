@@ -50,8 +50,11 @@
 			"name": "SCANsat"
 		}
 	],
-	"conflicts": [{
-		"name": "UKS,TACLS,Snacks,USI-LS"
+	"conflicts": [
+		{ "name": "UKS" },
+		{ "name": "TACLS" },
+		{ "name": "Snacks" },
+		{ "name": "USI-LS" }
 	}], 
 	"install": [{
 		"find": "Kerbalism",
