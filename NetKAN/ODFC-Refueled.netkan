@@ -9,7 +9,7 @@
     } ],
     "conflicts": [
         { "name": "OFDC"  }
-    ]
+    ],
     "depends": [
         { "name": "ModuleManager" }
     ],
@@ -26,5 +26,5 @@
         { "name": "BackgroundProcessing"  },
         { "name": "BackgroundResources"   },
         { "name": "KerbalChangelog"       }
-    ],
+    ]
 }
