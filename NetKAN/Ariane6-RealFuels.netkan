@@ -1,0 +1,16 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "Ariane6-RealFuels",
+    "$kref":        "#/ckan/spacedock/2185",
+    "license":      "WTFPL",
+    "depends": [
+        { "name": "RealFuels" }
+    ],
+    "install": [ {
+        "find":       "With Real Fuel (RSS recomanded)/GameData/Ariane6",
+        "install_to": "GameData"
+    }, {
+        "find":       "With Real Fuel (RSS recomanded)/Ships/VAB",
+        "install_to": "Ships"
+    } ]
+}
