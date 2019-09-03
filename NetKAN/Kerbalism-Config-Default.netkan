@@ -1,11 +1,12 @@
 {
 	"spec_version": "v1.18",
-	"$kref": "#/ckan/spacedock/1774",
-	"$vref": "#/ckan/ksp-avc/Kerbalism/Kerbalism.version",
+	"$kref": "#/ckan/github/Kerbalism/Kerbalism/asset_match/Kerbalism-Config*",
+	"$vref": "#/ckan/ksp-avc",
 	"license": "Unlicense",
 	"identifier": "Kerbalism-Config-Default",
 	"name": "Kerbalism - Default Config",
 	"abstract": "Default configuration for Kerbalism",
+	"author": ["Kerbalism Contributors"],
 	"provides": ["Kerbalism-Config"],
 	"depends": [{
 		"name": "Kerbalism"
@@ -14,8 +15,7 @@
 		"name": "Kerbalism-Config"
 	}],
 	"install": [{
-			"find": "KerbalismConfig",
-			"install_to": "GameData"
-		}
-	]
+		"find": "KerbalismConfig",
+		"install_to": "GameData"
+	}]
 }
