@@ -4,9 +4,9 @@
 	"$kref": "#/ckan/spacedock/1774",
 	"$vref": "#/ckan/ksp-avc/Kerbalism/Kerbalism.version",
 	"license": "Unlicense",
-	"author": ["ShotgunNinja", "N70"],
+	"author": ["Kerbalism Contributors"],
 	"resources": {
-		"homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/172400-*",
+		"homepage": "https://github.com/Kerbalism/Kerbalism",
 		"repository": "https://github.com/Kerbalism/Kerbalism"
 	},
 	"depends": [{
@@ -19,27 +19,17 @@
 			"name": "Kerbalism-Config"
 		}
 	],
-	"recommends": [{
-			"name": "DeepFreeze"
-		},
-		{
-			"name": "UniversalStorage"
-		},
+	"recommends": [
 		{
 			"name": "KerbalChangelog"
 		}
 	],
-	"supports": [{
-			"name": "AntennaRange"
-		},
+	"supports": [
 		{
 			"name": "ConnectedLivingSpace"
 		},
 		{
 			"name": "CryoTanks"
-		},
-		{
-			"name": "DangIt"
 		},
 		{
 			"name": "KerbalAtomics"
@@ -57,17 +47,11 @@
 			"name": "NearFutureSpacecraft"
 		},
 		{
-			"name": "origameFoldableAssets"
-		},
-		{
-			"name": "RemoteTech"
-		},
-		{
 			"name": "SCANsat"
 		}
 	],
 	"conflicts": [{
-		"name": "UKS"
+		"name": "UKS,TACLS,Snacks,USI-LS"
 	}],
 	"install": [{
 		"find": "Kerbalism",
