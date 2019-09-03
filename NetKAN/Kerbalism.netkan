@@ -52,5 +52,10 @@
 	],
 	"conflicts": [{
 		"name": "UKS,TACLS,Snacks,USI-LS"
+	}], 
+	"install": [{
+		"find": "Kerbalism",
+		"install_to": "GameData"
 	}]
+
 }

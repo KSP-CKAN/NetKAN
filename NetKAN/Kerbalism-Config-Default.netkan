@@ -13,5 +13,9 @@
 	}],
 	"conflicts": [{
 		"name": "Kerbalism-Config"
+	}],
+	"install": [{
+		"find": "KerbalismConfig",
+		"install_to": "GameData"
 	}]
 }
