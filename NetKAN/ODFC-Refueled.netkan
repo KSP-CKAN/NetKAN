@@ -7,8 +7,18 @@
         "find":       "OnDemandFuelCells",
         "install_to": "GameData"
     } ],
+    "conflicts": [
+        { "name": "OFDC"  }
+    ]
     "depends": [
         { "name": "ModuleManager" }
+    ],
+    "suggests": [
+        { "name": "BluedogDB"                 },
+        { "name": "StockalikeMiningExtension" },
+        { "name": "UniversalStorage"          },
+        { "name": "UniversalStorage2"         },
+        { "name": "RLAReborn"                 }
     ],
     "supports": [
         { "name": "AllYAll"               },
@@ -17,14 +27,4 @@
         { "name": "BackgroundResources"   },
         { "name": "KerbalChangelog"       }
     ],
-    "suggests": [
-        { "name": "BluedogDB"                 },
-        { "name": "StockalikeMiningExtension" },
-        { "name": "UniversalStorage"          },
-        { "name": "UniversalStorage2"         },
-        { "name": "RLAReborn"                 }
-    ]
-    "conflicts": [
-        { "name": "OFDC"  }
-    ]
 }

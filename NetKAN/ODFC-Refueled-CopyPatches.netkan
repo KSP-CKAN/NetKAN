@@ -1,0 +1,14 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "ODFC-Refueled-CopyPatches",
+    "$kref":        "#/ckan/spacedock/2221",
+    "license":      "CC-BY-NC-SA-4.0",
+    "install": [ {
+        "find":       "OnDemandFuelCells",
+        "install_to": "GameData"
+    } ],
+    "depends": [
+        { "name": "ModuleManager" },
+        { "name": "ODFC-Refueled" }
+    ]
+}
