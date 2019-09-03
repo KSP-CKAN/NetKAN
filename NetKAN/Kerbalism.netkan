@@ -1,8 +1,8 @@
 {
 	"spec_version": "v1.18",
 	"identifier": "Kerbalism",
-	"$kref": "#/ckan/spacedock/1774",
-	"$vref": "#/ckan/ksp-avc/Kerbalism/Kerbalism.version",
+	"$kref": "#/ckan/github/Kerbalism/Kerbalism/asset_match/Kerbalism-Core*",
+	"$vref": "#/ckan/ksp-avc",
 	"license": "Unlicense",
 	"author": ["Kerbalism Contributors"],
 	"resources": {
@@ -52,9 +52,5 @@
 	],
 	"conflicts": [{
 		"name": "UKS,TACLS,Snacks,USI-LS"
-	}],
-	"install": [{
-		"find": "Kerbalism",
-		"install_to": "GameData"
 	}]
 }
