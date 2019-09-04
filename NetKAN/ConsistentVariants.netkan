@@ -1,0 +1,19 @@
+{
+  "license": "MIT",
+  "identifier": "ConsistentVariants",
+  "x_via": "Automated Linuxgurugamer CKAN script",
+  "$kref": "#/ckan/github/severedsolo/ConsistentVariants",
+  "$vref": "#/ckan/ksp-avc",
+  "depends": [
+    {
+      "name": "ModuleManager"
+    }
+  ],
+  "install": [
+    {
+      "find": "ConsistentVariants",
+      "install_to": "GameData"
+    }
+  ],
+  "spec_version": "v1.4"
+}
