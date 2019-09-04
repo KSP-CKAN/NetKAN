@@ -5,6 +5,9 @@
   "$kref": "#/ckan/github/severedsolo/ConsistentVariants",
   "$vref": "#/ckan/ksp-avc",
   "abstract":"Fixes inconsistent variant naming system and automatically applies variants as you place parts",
+  "resources" : {
+    "homepage" : "https://forum.kerbalspaceprogram.com/index.php?/topic/179537-17x-consistentvariants-111-fixes-inconsistent-variant-naming-system-and-automatically-applies-variants-as-you-place-parts-31082019/"
+   },
   "depends": [
     {
       "name": "ModuleManager"
