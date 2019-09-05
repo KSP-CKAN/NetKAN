@@ -6,7 +6,7 @@
     "abstract"      : "Creates some diversity on the otherwise static planets.",
     "release_status": "development",
     "license"       : "MIT",
-    "author"        : "Thomas P., linuxgurugamer",
+    "author"        : [ "Thomas P.", "linuxgurugamer" ],
     "resources": {
         "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/187999-173-planetary-diversity/"
     },
