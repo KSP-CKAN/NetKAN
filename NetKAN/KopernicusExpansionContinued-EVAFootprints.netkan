@@ -7,9 +7,12 @@
     "license":      "GPL-3.0",
     "install": [ {
         "find":       "KopernicusExpansion",
-        "install_to": "GameData"
+        "install_to": "GameData",
+        "filter":     [ "KEX-Common.dll" ]
+
     } ],
     "depends":  [
-        { "name" : "Kopernicus" }
+        { "name": "Kopernicus"                          },
+        { "name": "KopernicusExpansionContinued-Common" }
     ]
 }
