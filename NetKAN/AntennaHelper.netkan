@@ -11,11 +11,11 @@
     { "name": "ClickThroughBlocker" } 
   ],
   "$vref": "#/ckan/ksp-avc",
-  "$kref": "#/ckan/github/Li0n-0/Antenna-Helper",
+  "$kref": "#/ckan/github/linuxgurugamer/Antenna-Helper",
   "x_via": "Automated Linuxgurugamer CKAN script",
   "identifier": "AntennaHelper",
   "abstract"     : "Visual Antenna Helper",
-  "author"       : "Li0n",
+  "author"       : "linuxgurugamer",
   "license": "MIT",
   "x_netkan_epoch"   : 1
 
