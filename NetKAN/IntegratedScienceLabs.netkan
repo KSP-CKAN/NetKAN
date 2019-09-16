@@ -1,7 +1,11 @@
 {
     "spec_version": "v1.4",
-    "identifier": "IntegratedScienceLabs",
-    "$kref": "#/ckan/spacedock/2230",
-    "license": "MIT",
-    "x_via": "Automated SpaceDock CKAN submission"
+    "identifier":   "IntegratedScienceLabs",
+    "$kref":        "#/ckan/spacedock/2230",
+    "license":      "MIT",
+    "install": [ {
+        "find":       "ISL",
+        "install_to": "GameData"
+    } ],
+    "x_via":        "Automated SpaceDock CKAN submission"
 }
