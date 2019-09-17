@@ -7,7 +7,7 @@
         "find":       "C.E.D.A Technologies",
         "install_to": "GameData"
     } ],
-    "depends:" [
+    "depends": [
         { "name": "ModuleManager" },
         { "name": "Firespitter"   }
     ],
