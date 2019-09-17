@@ -7,5 +7,9 @@
         "find":       "C.E.D.A Technologies",
         "install_to": "GameData"
     } ],
+    "depends:" [
+        { "name": "ModuleManager" },
+        { "name": "Firespitter"   }
+    ],
     "x_via":        "Automated SpaceDock CKAN submission"
 }
