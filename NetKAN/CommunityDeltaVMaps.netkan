@@ -1,8 +1,14 @@
 {
     "spec_version": "v1.16",
     "identifier":   "CommunityDeltaVMaps",
-    "$kref":        "#/ckan/spacedock/1914",
+    "name":         "Community Delta-V Maps",
+    "abstract":     "KSPedia addition of map displaying delta-V requirements to reach bodies in the stock Kerbol system.",
+    "$kref":        "#/ckan/github/Kowgan/ksp_cheat_sheets",
     "license":      "CC-BY-NC-SA-4.0",
+    "ksp_version_min": "1.3",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/87463-*",
+    },
     "install": [ {
         "find_regexp":        "Delta-V Map.*\\.ksp",
         "install_to":         "GameData/CommunityDeltaVMaps",
