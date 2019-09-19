@@ -3,7 +3,7 @@
     "identifier" : "RealTimeClock2",
     "$kref" : "#/ckan/spacedock/2237",
     "name" : "Real Time Clock 2",
-    "author" : "Li0n,linuxgurugamer",
+    "author" : [ "Li0n", "linuxgurugamer" ],
     "abstract" : "In-game clock",
     "license" : "GPL-3.0",
     "$vref" : "#/ckan/ksp-avc",
