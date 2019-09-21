@@ -9,5 +9,6 @@
     "$vref" : "#/ckan/ksp-avc",
     "resources": {
         "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/188345-173-real-time-clock-2-reset/"
-    }
+    },
+    "x_netkan_force_v": true
 }
