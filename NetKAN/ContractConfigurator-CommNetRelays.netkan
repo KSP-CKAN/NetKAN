@@ -1,0 +1,17 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "ContractConfigurator-CommNetRelays",
+    "$kref":        "#/ckan/github/Kerbas-ad-astra/CommNet-Relays",
+    "license":      "GPL-3.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/116789-*"
+    },
+    "install": [ {
+        "find":       "ContractPacks",
+        "install_to": "GameData"
+    } ],
+    "depends": [
+        { "name": "ModuleManager"        },
+        { "name": "ContractConfigurator" }
+    ]
+}

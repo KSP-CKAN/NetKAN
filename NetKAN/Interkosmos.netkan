@@ -1,0 +1,12 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "Interkosmos",
+    "$kref":        "#/ckan/github/AstroWell/Interkosmos",
+    "license":      "CC-BY-NC-SA-4.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/185337-*"
+    },
+    "depends": [
+        { "name": "ModuleManager" }
+    ]
+}
