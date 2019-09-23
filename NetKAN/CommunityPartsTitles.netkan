@@ -10,13 +10,16 @@
         "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/174189-*"
     },
     "recommends": [
+            { "name": "CommunityPartsTitlesExtrasCategory" },
+            { "name": "CommunityPartsTitlesExtrasNoCCKDup" },
             { "name": "ModuleManager" },
-            { "name": "SpeedUnitAnnex" }
-        ],
+            { "name": "SpeedUnitAnnex" },
+            { "name": "CommunityCategoryKit" }
+    ],
     "suggests": [
             { "name": "KAS" },
             { "name": "KIS" },
-            { "name": "CommunityCategoryKit" },
+
             { "name": "KerbalEngineerRedux" },
             { "name": "FuelTanksPlus" },
             { "name": "SpaceY-Lifters" },
@@ -37,9 +40,12 @@
             { "name": "CryoTanks" },
             { "name": "HeatControl" },
 
+            { "name": "RecycledPartsAtomicAge" },
             { "name": "MissingHistory" },
             { "name": "KerbalPlanetaryBaseSystems" },
             { "name": "TACLS" },
+	        { "name": "Snacks" },
+
             { "name": "FASALaunchClampsContinued" },
 
             { "name": "Mk2Expansion" },
@@ -65,14 +71,21 @@
             { "name": "UniversalStorage2" },
             { "name": "RLAReborn" },
             { "name": "MandatoryRCSPartPack" },
-            { "name": "DockRotate" },
-            { "name": "PWBFuelBalancerRestored" }
+            { "name": "InternalRCS" },
 
-        ],
+            { "name": "DockRotate" },
+            { "name": "PWBFuelBalancerRestored" },
+            { "name": "Interkosmos" },
+            { "name": "SolidFuelCell" },
+
+
+    ],
     "install" : [
             {
                 "file"       : "GameData/002_CommunityPartsTitles",
-                "install_to" : "GameData"
+                "install_to" : "GameData",
+                "filter"     : "Extras",
+                "comment"    : "Exclude Extras/ folder. There are CommunityPartsTitlesExtrasCategory and CommunityPartsTitlesExtrasNoCCKDup for it"
             }
     ]
 }
