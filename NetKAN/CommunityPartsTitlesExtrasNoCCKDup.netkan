@@ -3,27 +3,26 @@
     "identifier"   : "CommunityPartsTitlesExtrasNoCCKDup",
     "$kref"        : "#/ckan/github/yalov/CommunityPartsTitles",
     "name"         : "Community Parts Titles Extras: CCK - No Duplicates",
-	"abstract"     : "If parts are placed in a CCK category, it usually also appeared in the original category. This patch hide all CCK-parts from the original categories. CPT give new titles considering the "No Duplicates", so it is recommended. The mod was separated, because it has one disadvantage: parts what was hided from their original categories are not available in the search.
+    "abstract"     : "If parts are placed in a CCK category, it usually also appeared in the original category. This patch hide all CCK-parts from the original categories. CPT give new titles considering the No Duplicates, so it is recommended. The mod was separated, because it has one disadvantage: parts what was hided from their original categories are not available in the search.
     "author"       : "flart",
     "license"      : "GPL-3.0",
-    "$vref" : "#/ckan/ksp-avc",
+    "$vref"        : "#/ckan/ksp-avc",
     "resources" : {
         "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/174189-*"
     },
-	"depends": [
-		{ "name": "ModuleManager" }
-
+    "depends": [
+        { "name": "ModuleManager" }
     ],
     "recommends": [
-			{ "name": "CommunityPartsTitles" },
-			{ "name": "CommunityPartsTitlesExtrasCategory" },
-	        { "name": "CommunityCategoryKit" }
-        ],
+        { "name": "CommunityPartsTitles" },
+        { "name": "CommunityPartsTitlesExtrasCategory" },
+        { "name": "CommunityCategoryKit" }
+    ],
     "install" : [
-            {
-                "file"       : "GameData/002_CommunityPartsTitles/Extras/category_hide_cck.cfg",
-                "install_to" : "GameData/002_CommunityPartsTitles/Extras/",
-				"comment"    : "Install category_hide_cck.cfg into Extras/ folder. So it is kind of Extra for Extra."
-            }
+        {
+            "file"       : "GameData/002_CommunityPartsTitles/Extras/category_hide_cck.cfg",
+            "install_to" : "GameData/002_CommunityPartsTitles/Extras/",
+            "comment"    : "Install category_hide_cck.cfg into Extras/ folder. So it is kind of Extra for Extra."
+        }
     ]
 }
