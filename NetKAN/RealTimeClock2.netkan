@@ -7,6 +7,9 @@
     "abstract" : "In-game clock",
     "license" : "GPL-3.0",
     "$vref" : "#/ckan/ksp-avc",
+    "depends": [
+    { "name": "ClickThroughBlocker" }
+  ],
     "resources": {
         "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/188345-173-real-time-clock-2-reset/"
     },
