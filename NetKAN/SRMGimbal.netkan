@@ -1,7 +1,9 @@
 {
     "spec_version": "v1.4",
-    "identifier": "SRMGimbal",
-    "$kref": "#/ckan/spacedock/2241",
-    "license": "MIT",
-    "x_via": "Automated SpaceDock CKAN submission"
+    "identifier":   "SRMGimbal",
+    "$kref":        "#/ckan/spacedock/2241",
+    "license":      "MIT",
+    "depend": [
+        { "name": "ModuleManager" }
+    ]
 }
