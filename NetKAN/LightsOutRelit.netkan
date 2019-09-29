@@ -3,6 +3,7 @@
     "identifier": "LightsOutRelit",
     "spec_version": "v1.4",
     "$kref": "#/ckan/spacedock/2077",
+    "$vref"        : "#/ckan/ksp-avc",
     "x_netkan_force_v": true,
     "install": [
       {
