@@ -1,0 +1,10 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "StockalikeRealismOverhaul",
+    "$kref":        "#/ckan/spacedock/2239",
+    "license":      "MIT",
+    "depends": [
+        { "name": "ModuleManager" },
+        { "name": "Kopernicus"    }
+    ]
+}
