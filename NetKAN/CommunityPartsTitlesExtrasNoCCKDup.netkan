@@ -21,7 +21,7 @@
     "install" : [
         {
             "file"       : "GameData/002_CommunityPartsTitles/Extras/category_hide_cck.cfg",
-            "install_to" : "GameData/002_CommunityPartsTitles/Extras/",
+            "install_to" : "GameData/002_CommunityPartsTitles/Extras",
             "comment"    : "Install category_hide_cck.cfg into Extras/ folder. So it is kind of Extra for Extra."
         }
     ]
