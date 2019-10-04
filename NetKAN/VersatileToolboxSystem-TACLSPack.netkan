@@ -10,57 +10,57 @@
     "install": [
         {
             "find"       : "Parts/vts_nazari/vtsfood.cfg",
-            "install_to" : "GameData/MP_Nazari/Parts/vts_nazari/",
+            "install_to" : "GameData/MP_Nazari/Parts/vts_nazari",
             "find_matches_files": true
         },
         {
             "find"       : "Parts/vts_nazari/vtsfood.mu",
-            "install_to" : "GameData/MP_Nazari/Parts/vts_nazari/",
+            "install_to" : "GameData/MP_Nazari/Parts/vts_nazari",
             "find_matches_files": true
         },
         {
             "find"       : "Parts/vts_nazari/vtslifesupport.cfg",
-            "install_to" : "GameData/MP_Nazari/Parts/vts_nazari/",
+            "install_to" : "GameData/MP_Nazari/Parts/vts_nazari",
             "find_matches_files": true
         },
         {
             "find"       : "Parts/vts_nazari/vtslifesupport.mu",
-            "install_to" : "GameData/MP_Nazari/Parts/vts_nazari/",
+            "install_to" : "GameData/MP_Nazari/Parts/vts_nazari",
             "find_matches_files": true
         },
         {
             "find"       : "Parts/vts_nazari/vtsoxygen.cfg",
-            "install_to" : "GameData/MP_Nazari/Parts/vts_nazari/",
+            "install_to" : "GameData/MP_Nazari/Parts/vts_nazari",
             "find_matches_files": true
         },
         {
             "find"       : "Parts/vts_nazari/vtsoxygen.mu",
-            "install_to" : "GameData/MP_Nazari/Parts/vts_nazari/",
+            "install_to" : "GameData/MP_Nazari/Parts/vts_nazari",
             "find_matches_files": true
         },
         {
             "find"       : "Parts/vts_nazari/vtstankLabeloxygen.png",
-            "install_to" : "GameData/MP_Nazari/Parts/vts_nazari/",
+            "install_to" : "GameData/MP_Nazari/Parts/vts_nazari",
             "find_matches_files": true
         },
         {
             "find"       : "Parts/vts_nazari/vtstankLabelsupport.png",
-            "install_to" : "GameData/MP_Nazari/Parts/vts_nazari/",
+            "install_to" : "GameData/MP_Nazari/Parts/vts_nazari",
             "find_matches_files": true
         },
         {
             "find"       : "Parts/vts_nazari/vtstankLabelwater.png",
-            "install_to" : "GameData/MP_Nazari/Parts/vts_nazari/",
+            "install_to" : "GameData/MP_Nazari/Parts/vts_nazari",
             "find_matches_files": true
         },
         {
             "find"       : "Parts/vts_nazari/vtswater.cfg",
-            "install_to" : "GameData/MP_Nazari/Parts/vts_nazari/",
+            "install_to" : "GameData/MP_Nazari/Parts/vts_nazari",
             "find_matches_files": true
         },
         {
             "find"       : "Parts/vts_nazari/vtswater.mu",
-            "install_to" : "GameData/MP_Nazari/Parts/vts_nazari/",
+            "install_to" : "GameData/MP_Nazari/Parts/vts_nazari",
             "find_matches_files": true
         }
     ]

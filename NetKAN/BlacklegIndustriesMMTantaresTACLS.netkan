@@ -13,7 +13,7 @@
     "install": [
         {
             "file" : "blackind/MMPatches/Tantares_TACLifeSupport.cfg",
-            "install_to" : "GameData/blackind/MMPatches/"
+            "install_to" : "GameData/blackind/MMPatches"
         }
     ],
     "depends": [
