@@ -16,7 +16,8 @@
     "suggests": [
         { "name": "ODFC-Refueled"   },
         { "name": "KerbalChangelog" },
-        { "name": "PicoPort4AllSizes" }
+        { "name": "PicoPort4AllSizes" },
+        { "name": "DockingPortDescriptions" }
     ],
     "supports": [
         { "name": "ConnectedLivingSpace" },
