@@ -8,9 +8,9 @@
         { "name": "ModuleManager" }
     ],
     "suggests": [
-        { "name": "FieldTrainingLab"  },
-        { "name": "BetterScienceLabs" },
-        { "name": "ODFC"              },
-        { "name": "KGEx"              }
+        { "name": "TrainingLaboratory" },
+        { "name": "BetterScienceLabs"  },
+        { "name": "ODFC"               },
+        { "name": "KGEx"               }
     ]
 }
