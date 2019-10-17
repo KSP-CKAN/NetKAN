@@ -8,11 +8,16 @@
     "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/188979-i173-improved-updated-chase-camera/",
     "repository": "https://github.com/linuxgurugamer/ImprovedChaseCamera/"
   },
-  "depends": [
+  "conflicts": [
     {
       "name": "ImprovedChaseCamera"
     }
   ],
-  "install": [],
+  "install": [
+    {
+      "install_to": "GameData",
+      "find": "ImprovedChaseCamera"
+    }
+  ],
   "spec_version": "v1.4"
 }
