@@ -1,7 +1,14 @@
 {
     "spec_version": "v1.4",
-    "identifier": "StockalikeRealismOverhaulPartsPack",
-    "$kref": "#/ckan/spacedock/2251",
-    "license": "Do-whatever-you-want",
-    "x_via": "Automated SpaceDock CKAN submission"
+    "identifier":   "StockalikeRealismOverhaulPartsPack",
+    "$kref":        "#/ckan/spacedock/2251",
+    "license":      "WTFPL",
+    "install": [ {
+        "find":       "StockalikeRealismOverhaul",
+        "install_to": "GameData"
+    } ],
+    "depends": [
+        { "name": "ModuleManager" },
+        { "name": "Kopernicus"    }
+    ]
 }
