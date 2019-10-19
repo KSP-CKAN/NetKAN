@@ -14,7 +14,7 @@
         "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/154834-*",
         "repository": "https://github.com/MuMech/MechJeb2"
     },
-    "ksp_version": "1.7",
+    "ksp_version": "1.8",
     "x_netkan_staging": true,
     "x_netkan_staging_reason": "Game versions hard coded in NetKAN. Please check that it matches the forum thread.",
     "install": [
@@ -24,6 +24,13 @@
         }
     ],
     "x_netkan_override": [
+	    {
+            "version": "2.8.4.0",
+            "override": {
+                "ksp_version_min": "1.7.0",
+                "ksp_version_max": "1.7.90"
+            }
+        },
         {
             "version": "2.8.3.0",
             "override": {
