@@ -1,0 +1,18 @@
+{
+  "license": "CC-BY-NC-SA-3.0",
+  "identifier": "ASET_PRC",
+  "x_via": "Automated Linuxgurugamer CKAN script",
+  "$kref": "#/ckan/spacedock/2252",
+  "$vref": "#/ckan/ksp-avc",
+  "resources": {
+    "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/189044-173-portable-rover-components/",
+    "repository": "https://github.com/linuxgurugamer/ASET_PRC_Rover"
+  },
+  "install": [
+    {
+      "find": "ASET",
+      "install_to": "GameData"
+    }
+  ],
+  "spec_version": "v1.4"
+}
