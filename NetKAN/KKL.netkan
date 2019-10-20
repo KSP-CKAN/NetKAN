@@ -1,6 +1,6 @@
 {
     "spec_version"   : "v1.4",
-    "name"           : "Kerbal Kustomz Ltd (KKL)",
+    "name"           : "Kerbal Kustomz Limited",
     "abstract"       : "KSP mod to fulfill some gameplay wishes",
     "identifier"     : "KKL",
     "$kref"          : "#/ckan/github/craidler/KerbalKustomzLtd",
@@ -11,32 +11,44 @@
         "repository"   : "https://github.com/craidler/KerbalKustomzLtd"
     },
     "tags" : [
-        "resources",
-        "parts"
+        "defaults",
+        "parts",
+        "tweaks"
     ],
     "depends" : [
-        { "name" : "ModuleManager" },
-        { "name" : "ClickThroughBlocker" },
-        { "name" : "MechJeb2" }
+        { "name" : "ModuleManager" }
     ],
     "recommends" : [
-        { "name" : "Mk1CabinHatch" },
-        { "name" : "InterstellarFuelSwitch" },
-        { "name" : "NearFutureSolar" },
-        { "name" : "NearFutureConstruction" },
-        { "name" : "StationPartsExpansionRedux" },
+        { "name" : "Chatterer" },
+        { "name" : "DistantObject" },
+        { "name" : "EasyVesselSwitch" },
+        { "name" : "EnvironmentalVisualEnhancements" },
+        { "name" : "KeepItStraight" },
         { "name" : "KAS" },
         { "name" : "KIS" },
-        { "name" : "KerbalInventorySystemNoFun" },
         { "name" : "KerbalAlarmClock" },
-        { "name" : "KerbalImprovedSaveSystem" },
-        { "name" : "ZeroMiniAVC" },
-        { "name" : "VABReorienter" },
-        { "name" : "KeepItStraight" },
-        { "name" : "DistantObject" },
+        { "name" : "KerbalJointReinforcementContinued" },
+        { "name" : "kOS" },
+        { "name" : "KspCraftOrganizer" },
+        { "name" : "ResonantOrbitCalculator" },
+        { "name" : "LightsOutRelit" },
+        { "name" : "MechJeb2" },
+        { "name" : "NearFutureConstruction" },
+        { "name" : "NearFutureElectrical" },
+        { "name" : "NearFutureLaunchVehicles" },
+        { "name" : "NearFuturePropulsion" },
+        { "name" : "NearFutureSolar" },
+        { "name" : "NearFutureSpacecraft" },
+        { "name" : "NearFutureSpacecraft-OrbitalLFOEngines" },
+        { "name" : "ReStock" },
+        { "name" : "ReStockPlus" },
+        { "name" : "SimpleFuelSwitch" },
+        { "name" : "StationKeeping" },
         { "name" : "StockVisualEnhancements" },
-        { "name" : "CustomAsteroids" },
-        { "name" : "CraftManager" }
+        { "name" : "StationPartsExpansionRedux" },
+        { "name" : "VariantPersist" },
+        { "name" : "WarpEverywhere" },
+        { "name" : "ZeroMiniAVC" }
     ],
     "install": [
         {
