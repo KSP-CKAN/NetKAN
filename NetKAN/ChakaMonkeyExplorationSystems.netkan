@@ -6,7 +6,10 @@
     "license":      "restricted",
     "depends": [
         { "name": "AnimatedDecouplers" },
-        { "name": "KerbalJointReinforcement" },
+        { "any_of": [ 
+            { "name": "KerbalJointReinforcement" },
+            { "name": "KerbalJointReinforcementNext" }
+        ]},
         { "name": "ProceduralFairings" },
         { "name": "ASETProps" },
         { "name": "MK12PodIVAReplacementbyASET" },
