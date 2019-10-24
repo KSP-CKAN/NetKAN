@@ -1,0 +1,14 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "RationalResourcesParts",
+    "name":         "Rational Resources Parts",
+    "abstract":     "Provides example parts including nuclear engines, and augments some stock parts including converters for use with Rational Resources.",
+    "license":      "MIT",
+    "$kref":        "#/ckan/spacedock/2201",
+    "$vref":        "#/ckan/ksp-avc",
+    "depends": [
+        { "name": "B9PartSwitch"          },
+        { "name": "CommunityResourcePack" },
+        { "name": "RationalResources"     }
+    ]
+}
