@@ -9,5 +9,10 @@
     "x_netkan_epoch": "1",
     "resources": {
         "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/175924-14-"
-    }
+    },
+    "depends": [
+        { "name" : "ToolbarController" },
+        { "name" : "ClickThroughBlocker" }
+    ]
 }
+

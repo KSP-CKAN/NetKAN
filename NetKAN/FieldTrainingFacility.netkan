@@ -1,0 +1,16 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "FieldTrainingFacility",
+    "$kref":        "#/ckan/spacedock/978",
+    "$vref":        "#/ckan/ksp-avc",
+    "license":      "MIT",
+    "depends": [
+        { "name": "ModuleManager" }
+    ],
+    "suggests": [
+        { "name": "FieldTrainingLaboratory" },
+        { "name": "BetterScienceLabs"       },
+        { "name": "ODFC"                    },
+        { "name": "KGEx"                    }
+    ]
+}

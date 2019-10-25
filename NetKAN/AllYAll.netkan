@@ -1,9 +1,10 @@
 {
-    "license": "CC-BY-SA",
-    "identifier": "AllYAll",
-    "$kref": "#/ckan/spacedock/628",
-    "$vref": "#/ckan/ksp-avc",
     "spec_version": "v1.4",
+    "identifier":   "AllYAll",
+    "license":      "CC-BY-SA",
+    "$kref":        "#/ckan/spacedock/628",
+    "$vref":        "#/ckan/ksp-avc",
+    "x_netkan_epoch": 1,
     "depends": [
         { "name": "ModuleManager" }
     ]

@@ -1,13 +1,19 @@
 {
     "spec_version"    : "v1.16",
     "identifier"      : "FirespitterCore",
-    "$kref"           : "#/ckan/github/snjo/Firespitter",
-    "license"         : "restricted",
     "name"            : "Firespitter Core",
     "abstract"        : "Core Firespitter.dll. Install `Firespitter` for the whole shebang",
+    "$kref"           : "#/ckan/github/snjo/Firespitter",
+    "license"         : "restricted",
     "author"          : "Roverdude",
     "$vref"           : "#/ckan/ksp-avc",
     "x_netkan_force_v" : true,
+    "x_netkan_override": [ {
+        "version":  "v7.13.0",
+        "override": {
+            "ksp_version_max": "1.7"
+        }
+    } ],
     "resources" : {
         "homepage" : "http://snjo.github.io/",
         "repository"  : "https://github.com/snjo/Firespitter"

@@ -1,0 +1,14 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "HorseheadNebulaSkybox",
+    "$kref":        "#/ckan/spacedock/1802",
+    "license":      "CC-BY-SA-4.0",
+    "x_via":        "Automated SpaceDock CKAN submission",
+    "depends": [
+        { "name": "TextureReplacerReplaced" }
+    ],
+    "install": [ {
+        "find":       "TextureReplacerReplaced",
+        "install_to": "GameData"
+    } ]
+}

@@ -20,5 +20,9 @@
     "depends": [
         { "name": "KerbalKonstructs" },
         { "name": "ModuleManager" }
-    ]
+    ], 
+
+    "recommends": [
+    	{ "name": "MakingHistory-DLC" }
+	]
 }

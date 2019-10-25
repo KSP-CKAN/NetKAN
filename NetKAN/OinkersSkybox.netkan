@@ -12,11 +12,11 @@
     "install": [
         {
             "find":"Default",
-            "install_to": "GameData/TextureReplacer/"
+            "install_to": "GameData/TextureReplacer"
         },
         {
             "find":"EnvMap",
-            "install_to": "GameData/TextureReplacer/"
+            "install_to": "GameData/TextureReplacer"
         }
     ]
 }

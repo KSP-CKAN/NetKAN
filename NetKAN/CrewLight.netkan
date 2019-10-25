@@ -1,14 +1,14 @@
 {
     "spec_version" : 1,
     "identifier" : "CrewLight",
-    "$kref" : "#/ckan/github/Li0n-0/CrewLight",
+    "$kref" : "#/ckan/spacedock/2236",
+    "$vref": "#/ckan/ksp-avc",
     "name" : "Crew Light",
-    "author" : "Li0n",
+    "author" : [ "Li0n", "linuxgurugamer" ],
     "abstract" : "An automatic light manager",
     "license" : "MIT",
-    "$vref" : "#/ckan/ksp-avc",
     "resources": {
-        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/154901-122-crew-light-an-automatic-light-manager-11-14-jan-2017/"
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/188343-173-crew-light-relit/"
     },
 	"depends" : [
 	    { "name" : "ModuleManager" }

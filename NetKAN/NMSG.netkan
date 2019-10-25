@@ -1,7 +1,8 @@
 {
-    "spec_version" : 1,
+    "spec_version" : "v1.26",
     "identifier"   : "NMSG",
     "$kref"        : "#/ckan/spacedock/74",
+    "replaced_by"  : { "name": "Science-Full-Reward" },
     "depends": [
         { "name": "ModuleManager", "min_version": "2.6.0" }
     ],

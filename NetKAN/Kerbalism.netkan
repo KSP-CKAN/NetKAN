@@ -1,69 +1,42 @@
 {
 	"spec_version": "v1.18",
 	"identifier": "Kerbalism",
-	"$kref": "#/ckan/spacedock/1774",
-	"$vref": "#/ckan/ksp-avc/Kerbalism/Kerbalism.version",
+	"abstract": "Add life support, quality-of-life, radiation, malfunctions, signals and space weather mechanics.",
+	"$kref": "#/ckan/github/Kerbalism/Kerbalism/asset_match/Kerbalism-Core*",
+	"$vref": "#/ckan/ksp-avc",
 	"license": "Unlicense",
-	"author": ["ShotgunNinja", "N70"],
+	"author": ["Kerbalism Contributors"],
 	"resources": {
-		"homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/172400-*",
-		"repository": "https://github.com/Steamp0rt/Kerbalism"
+		"homepage": "https://kerbalism.github.io/Kerbalism",
+		"repository": "https://github.com/Kerbalism/Kerbalism"
 	},
-	"depends": [{
-			"name": "ModuleManager"
-		},
-		{
-			"name": "CommunityResourcePack"
-		}
+	"depends": [
+		{ "name": "ModuleManager" },
+		{ "name": "CommunityResourcePack" },
+		{ "name": "Kerbalism-Config" }
 	],
-	"recommends": [{
-			"name": "DeepFreeze"
-		},
-		{
-			"name": "UniversalStorage"
-		},
-		{
-			"name": "KerbalChangelog"
-		}
+	"recommends": [
+		{ "name": "KerbalChangelog" }
 	],
-	"supports": [{
-			"name": "AntennaRange"
-		},
-		{
-			"name": "ConnectedLivingSpace"
-		},
-		{
-			"name": "CryoTanks"
-		},
-		{
-			"name": "DangIt"
-		},
-		{
-			"name": "KerbalAtomics"
-		},
-		{
-			"name": "KerbalPlanetaryBaseSystems"
-		},
-		{
-			"name": "NearFutureElectrical"
-		},
-		{
-			"name": "NearFutureSolar"
-		},
-		{
-			"name": "NearFutureSpacecraft"
-		},
-		{
-			"name": "origameFoldableAssets"
-		},
-		{
-			"name": "RemoteTech"
-		},
-		{
-			"name": "SCANsat"
-		}
+	"supports": [
+		{ "name": "ConnectedLivingSpace" },
+		{ "name": "CryoTanks" },
+		{ "name": "KerbalAtomics" },
+		{ "name": "KerbalPlanetaryBaseSystems" },
+		{ "name": "NearFutureElectrical" },
+		{ "name": "NearFutureSolar" },
+		{ "name": "NearFutureSpacecraft" },
+		{ "name": "SCANsat" }
 	],
-	"conflicts": [{
-		"name": "UKS"
+	"conflicts": [
+		{ "name": "UKS" },
+		{ "name": "TACLS" },
+		{ "name": "Snacks" },
+		{ "name": "USI-LS" }
+	], 
+	"install": [{
+		"find": "Kerbalism",
+		"install_to": "GameData"
 	}]
+
 }

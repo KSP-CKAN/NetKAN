@@ -1,0 +1,23 @@
+{
+  "license": "MIT",
+  "identifier": "WhereCanIGo",
+  "x_via": "Automated Linuxgurugamer CKAN script",
+  "$kref": "#/ckan/github/severedsolo/WhereCanIGo",
+  "$vref": "#/ckan/ksp-avc",
+  "abstract":"This mod will read the DeltaV of your craft, and inform you whether or not you can reach any body in the solar system.",
+  "resources" : {
+    "homepage" : "https://forum.kerbalspaceprogram.com/index.php?/topic/187712-17x-where-can-i-go-the-opposite-of-a-problem-111-30082019/"
+   },
+  "depends": [
+    {
+      "name": "ModuleManager"
+    }
+  ],
+  "install": [
+    {
+      "find": "WhereCanIGo",
+      "install_to": "GameData"
+    }
+  ],
+  "spec_version": "v1.4"
+}

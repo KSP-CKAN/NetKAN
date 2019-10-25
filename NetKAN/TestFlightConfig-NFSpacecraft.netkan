@@ -1,0 +1,31 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "TestFlightConfig-NFSpacecraft",
+    "name": "TestFlight Config for Near Future Spacecraft",
+    "abstract": "This config pack adds TestFlight support for Near Future Spacecraft parts. It does not affect stock parts; install a stock TestFlight config if desired.",
+    "$kref": "#/ckan/github/Starstrider42/TestFlight-Configs",
+    "release_status": "testing",
+    "license": "MIT",
+    "resources": {
+        "bugtracker": "https://github.com/Starstrider42/TestFlight-Configs/issues"
+    },
+    "provides": [
+        "TestFlightConfig"
+    ],
+    "depends": [
+        { "name": "TestFlightConfigLibrary" },
+        { "name": "ModuleManager" },
+        {
+            "name": "NearFutureSpacecraft",
+            "min_version": "1.2"
+        }
+    ],
+    "install": [
+        {
+            "file": "GameData/TestFlight/Config",
+            "install_to": "GameData/TestFlight",
+            "filter_regexp": "(?<!NFS_.+\\.cfg)$"
+        }
+    ],
+    "x_maintained_by": "Starstrider42"
+}

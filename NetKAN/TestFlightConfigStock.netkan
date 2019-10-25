@@ -1,40 +1,43 @@
 {
-    "spec_version" : "v1.2",
-    "name" : "TestFlight Config Stock",
-    "abstract" : "Config pack for the TestFlight plugin.  This config pack adds TestFlight support for Stock parts.",
-    "identifier" : "TestFlightConfigStock",
-    "$vref" : "#/ckan/ksp-avc",
-    "$kref" : "#/ckan/github/KSP-RO/TestFlight/asset_match/TestFlightConfigStock*",
-    "license" : "CC-BY-NC-SA-4.0",
-    "release_status" : "stable",
-    "resources" : {
-        "homepage" : "https://forum.kerbalspaceprogram.com/index.php?/topic/99043-122-testflight-v180-01-may-2017-bring-flight-testing-to-ksp/",
-        "repository" : "https://github.com/KSP-RO/TestFlight",
-        "bugtracker" : "https://github.com/KSP-RO/TestFlight/issues"
+    "spec_version": "v1.2",
+    "identifier":   "TestFlightConfigStock",
+    "name":         "TestFlight Config Stock",
+    "abstract":     "Config pack for the TestFlight plugin.  This config pack adds TestFlight support for Stock parts.",
+    "$kref":        "#/ckan/github/KSP-RO/TestFlight/asset_match/TestFlightConfigStock*",
+    "$vref":        "#/ckan/ksp-avc",
+    "license":      "CC-BY-NC-SA-4.0",
+    "author":       [ "Agathorn", "KSP-RO Group" ],
+    "release_status": "stable",
+    "resources": {
+        "homepage":   "https://forum.kerbalspaceprogram.com/index.php?/topic/99043-*",
+        "repository": "https://github.com/KSP-RO/TestFlight",
+        "bugtracker": "https://github.com/KSP-RO/TestFlight/issues"
     },
-    "install" : [
+    "install": [
         {
-            "file"       : "GameData/TestFlight",
-            "install_to" : "GameData"
+            "file":       "GameData/TestFlight",
+            "install_to": "GameData",
+            "filter":     [ "ignore.txt" ]
         }
     ],
-    "depends" : [
-        { "name" : "ModuleManager", "min_version" : "2.6.1" },
-        { "name" : "TestFlight", "min_version" : "1.3.1" }
+    "depends": [
+        { "name": "ModuleManager", "min_version": "2.6.1" },
+        { "name": "TestFlight",    "min_version": "1.3.1" }
     ],
-    "provides" : [
+    "provides": [
         "TestFlightConfig"
     ],
-    "conflicts" : [
-        { "name" : "TestFlightConfig" }
+    "conflicts": [
+        { "name": "TestFlightConfig-Stock-S42", "comment": "Modifies same parts" },
+        { "name": "RealismOverhaul", "comment": "Removes stock parts" }
     ],
-    "x_netkan_override" : [
+    "x_netkan_override": [
         {
-            "version" : "1.3.1.1",
-            "delete" : [ "ksp_version" ],
-            "override" : {
-                "ksp_version_min" : "1.0.2",
-                "ksp_version_max" : "1.0.4"
+            "version": "1.3.1.1",
+            "delete":  [ "ksp_version" ],
+            "override": {
+                "ksp_version_min": "1.0.2",
+                "ksp_version_max": "1.0.4"
             }
         }
     ]

@@ -1,0 +1,13 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "MEPS",
+    "$kref":        "#/ckan/spacedock/2207",
+    "license":      "CC-BY-SA-4.0",
+    "depends": [
+        { "name": "ModuleManager" }
+    ],
+    "supports": [
+        { "name": "TweakScale" }
+    ],
+    "x_via": "Automated SpaceDock CKAN submission"
+}

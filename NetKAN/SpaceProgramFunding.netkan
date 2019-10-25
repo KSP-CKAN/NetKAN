@@ -1,0 +1,17 @@
+{
+    "spec_version" : 1,
+    "identifier"   : "SpaceProgramFunding",
+    "$kref"        : "#/ckan/github/JoeBostic/SpaceProgramFunding",
+    "$vref"        : "#/ckan/ksp-avc",
+    "license"      : "MIT",
+    "resources": {
+        "homepage": "https://github.com/JoeBostic/SpaceProgramFunding/wiki"
+    },
+    "tags" : [
+        "plugin",
+        "career"
+    ],
+    "conflicts": [
+        { "name": "MonthlyBudgets" }
+    ]
+}
