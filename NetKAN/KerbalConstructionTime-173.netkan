@@ -1,9 +1,8 @@
 {
     "spec_version"   : 1,
-    "identifier"     : "KerbalConstructionTime",
-    "$kref"          : "#/ckan/spacedock/222",
+    "identifier"     : "KerbalConstructionTime-173",
+    "$kref"          : "#/ckan/spacedock/2254",
     "license"        : "GPL-3.0",
-     "x_netkan_epoch"   : 1,
     "install" : [
         {
           "file"       : "GameData/KerbalConstructionTime",
@@ -24,6 +23,6 @@
         { "name" : "KerbalAlarmClock" }
     ],
 	"conflicts" : [
-		{ "name": "KerbalConstructionTime-173" }
+		{ "name": "KerbalConstructionTime" }
 	]
 }
