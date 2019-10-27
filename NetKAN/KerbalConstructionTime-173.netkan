@@ -10,7 +10,9 @@
         }
     ],
     "depends" : [
-        { "name" : "MagiCore" }
+        { "name" : "MagiCore" },
+        { "name" : "ClickThroughBlocker" },
+        { "name" : "ToolbarController" }
     ],
     "recommends" : [
         { "name" : "ScrapYard" },
@@ -26,3 +28,4 @@
 		{ "name": "KerbalConstructionTime" }
 	]
 }
+
