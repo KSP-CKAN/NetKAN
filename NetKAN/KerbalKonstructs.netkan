@@ -8,7 +8,8 @@
     "license"      : "restricted",
     "comment"      : "Plugin is MIT, but Static Assets, Artwork & Models are ARR",
     "depends"      : [
-        { "name"   : "ModuleManager" }
+        { "name"   : "ModuleManager"         },
+        { "name"   : "CustomPreLaunchChecks" }
     ],
     "suggests": [
         { "name"   : "KKtoSD" }

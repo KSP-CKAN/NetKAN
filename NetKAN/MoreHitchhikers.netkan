@@ -1,0 +1,22 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "MoreHitchhikers",
+    "$kref":        "#/ckan/spacedock/2244",
+    "$vref":        "#/ckan/ksp-avc",
+    "license":      "CC-BY-NC-SA-4.0",
+    "install": [ {
+        "find":       "KGEx",
+        "install_to": "GameData"
+    } ],
+    "depends": [
+        { "name": "ModuleManager" }
+    ],
+    "suggests": [
+        { "name": "ODFC-Refueled"   },
+        { "name": "KerbalChangelog" }
+    ],
+    "supports": [
+        { "name": "ConnectedLivingSpace" },
+        { "name": "Kerbalism"            }
+    ]
+}
