@@ -2,6 +2,7 @@
     "spec_version"   : 1,
     "identifier"     : "KerbalConstructionTime-173",
     "$kref"          : "#/ckan/spacedock/2254",
+    "$vref":        "#/ckan/ksp-avc",
     "license"        : "GPL-3.0",
     "install" : [
         {
