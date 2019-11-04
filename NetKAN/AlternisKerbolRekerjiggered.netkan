@@ -1,12 +1,17 @@
 {
-    "identifier": "AlternisKerbolRekerjiggered",
     "spec_version": "v1.10",
-    "license": "CC-BY-NC-4.0",
-    "$kref": "#/ckan/github/GregroxMun/Alternis-Kerbol-Rekerjiggered",
-    "ksp_version": "1.3.0",
-    "name": "Alternis Kerbol Rekerjiggered",
-    "abstract": "Alternis, God of Change and Difference decided to smite the hell out of the Kerbals' home solar system, and this is what happened.",
-    "author": "GregroxMun",
+    "identifier":   "AlternisKerbolRekerjiggered",
+    "name":         "Alternis Kerbol Rekerjiggered",
+    "abstract":     "Alternis, God of Change and Difference decided to smite the hell out of the Kerbals' home solar system, and this is what happened.",
+    "author":       "GregroxMun",
+    "$kref":        "#/ckan/github/GregroxMun/Alternis-Kerbol-Rekerjiggered",
+    "ksp_version":  "1.7.3",
+    "x_netkan_staging": true,
+    "x_netkan_staging_reason": "Game version hard-coded in netkan. Please confirm that it still matches the forum thread.",
+    "license":      "CC-BY-NC-4.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/160109-*"
+    },
     "depends": [
         { "name": "ModuleManager" },
         { "name": "Kopernicus", "min_version": "2:release-1.3.0-2" }
