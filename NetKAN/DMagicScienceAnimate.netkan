@@ -18,5 +18,17 @@
             "ksp_version_min": "1.4",
             "ksp_version_max": "1.5"
         }
+    },
+    {
+        "version": "v0.21",
+        "override": {
+            "ksp_version_max": "1.7"
+        }
+    },
+    {
+        "version": ">=v0.22",
+        "override": {
+            "ksp_version_min": "1.8"
+        }
     } ]
 }
