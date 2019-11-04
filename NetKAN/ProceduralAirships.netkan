@@ -7,6 +7,9 @@
     "abstract"        : "Procedural Airships - A ProceduralParts Expansion",
     "author"          : [ "RadarManFromTheMoon", "ItMustBeACamel" ],
     "license"         : "GPL-3.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/89388-*"
+    },
     "depends": [
         { "name": "ProceduralParts" }
     ],
