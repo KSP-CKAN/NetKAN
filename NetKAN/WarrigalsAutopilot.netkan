@@ -5,5 +5,8 @@
     "author"       : "Warrigal",
     "$kref"        : "#/ckan/github/tswett/WarrigalsAutopilot",
     "license"      : "GPL-3.0",
-    "ksp_version"  : "1.3.0"
+    "ksp_version"  : "1.3.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/169271-*"
+    }
 }
