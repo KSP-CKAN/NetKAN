@@ -8,10 +8,11 @@
     "ksp_version"           : "0.24.2",
     "x_netkan_license_ok"   : true,
     "x_maintained_by"       : "distantcam",
-
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/82882-*"
+    },
     "provides"              : [ "KSPInterstellar" ],
     "conflicts"             : [ { "name" : "KSPInterstellar" } ],
-
     "depends": [
         { "name": "OpenResourceSystem" },
         { "name": "TreeLoader" },
@@ -20,7 +21,6 @@
         { "name": "TweakScale" },
         { "name": "CommunityResourcePack" }
     ],
-
     "install": [
         {
             "file"       : "GameData/Interstellar",
