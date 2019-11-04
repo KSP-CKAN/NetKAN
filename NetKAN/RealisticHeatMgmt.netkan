@@ -12,5 +12,8 @@
     "$kref":      "#/ckan/github/BottleRocketeer/RealisticHeatManagment",
     "x_via":      "Automated Linuxgurugamer CKAN script",
     "identifier": "RealisticHeatMgmt",
-    "license":    "MIT"
+    "license":    "MIT",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/162255-*"
+    }
 }
