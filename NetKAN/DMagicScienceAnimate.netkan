@@ -1,9 +1,12 @@
 {
     "spec_version" : 1,
     "identifier"   : "DMagicScienceAnimate",
-    "$kref"        : "#/ckan/github/DMagic1/DMModuleScienceAnimateGeneric",
     "name"         : "DMModuleScienceAnimateGeneric",
     "abstract"     : "A replacement for ModuleScienceExperiment and ModuleAnimateGeneric",
+    "$kref"        : "#/ckan/github/DMagic1/DMModuleScienceAnimateGeneric",
+    "ksp_version_min": "1.8",
+    "x_netkan_staging": true,
+    "x_netkan_staging_reason": "Game version hard-coded in netkan. Please confirm that it still matches the forum thread.",
     "license"      : "BSD-2-clause",
     "install": [ {
         "file":       "GameData/DMagicScienceAnimate",
@@ -18,17 +21,10 @@
             "ksp_version_min": "1.4",
             "ksp_version_max": "1.5"
         }
-    },
-    {
+    }, {
         "version": "v0.21",
         "override": {
             "ksp_version_max": "1.7"
-        }
-    },
-    {
-        "version": ">=v0.22",
-        "override": {
-            "ksp_version_min": "1.8"
         }
     } ]
 }
