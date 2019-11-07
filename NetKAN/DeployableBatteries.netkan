@@ -8,6 +8,9 @@
     "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/189547-173-18x-deployable-batteries/",
     "repository": "https://github.com/linuxgurugamer/DeployableBatteries"
   },
+  "depends": [
+    { "name": "SpaceTuxLibrary" }
+  ],
   "install": [
     {
       "find": "DeployableBatteries",
