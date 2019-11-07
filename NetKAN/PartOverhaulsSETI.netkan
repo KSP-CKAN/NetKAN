@@ -1,6 +1,6 @@
 {
-  "spec_version": 1,
-  "identifier": "PartOverhaulsSETI",
-  "$kref": "#/ckan/netkan/https://raw.githubusercontent.com/Y3mo/SETI-NetKAN/master/PartOverhaulsSETI.netkan",
-  "x_netkan_license_ok": true
+    "spec_version": "v1.4",
+    "identifier": "PartOverhaulsSETI",
+    "$kref": "#/ckan/netkan/https://raw.githubusercontent.com/Y3mo/SETI-NetKAN/master/PartOverhaulsSETI.netkan",
+    "x_netkan_license_ok": true
 }
