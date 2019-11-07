@@ -5,6 +5,9 @@
     "$vref": "#/ckan/ksp-avc",
     "x_netkan_epoch" : "3",
     "license": "restricted",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/74776-*"
+    },
     "install": [
         {
             "find"       : "AirRace",

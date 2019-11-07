@@ -8,6 +8,9 @@
     "$vref":        "#/ckan/ksp-avc",
     "license":      "GPL-3.0",
     "release_status": "testing",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/17833-*"
+    },
     "install": [
         {
             "file":       "KerbalEngineer",

@@ -6,11 +6,19 @@
     "author":       "Sarbian",
     "license":      "MIT",
     "$kref":        "#/ckan/jenkins/https://ksp.sarbian.com/jenkins/job/DebugStuff",
-    "x_netkan_jenkins":      { "use_filename_version": true },
+    "x_netkan_jenkins": { "use_filename_version": true },
     "x_netkan_version_edit": "^DebugStuff-(?<version>\\d+\\.\\d+\\.\\d+\\.\\d+)\\.zip$",
-    "ksp_version_min": "1.0",
+    "ksp_version_min": "1.8",
     "resources": {
         "homepage":   "https://forum.kerbalspaceprogram.com/index.php?/topic/135726-*",
         "repository": "https://github.com/sarbian/DebugStuff"
-    }
+    },
+    "x_netkan_staging": true,
+    "x_netkan_staging_reason": "Game version hard coded in NetKAN. Please check that it matches the forum thread.",
+    "x_netkan_override": [ {
+        "version": "<1.6.0.0",
+        "override": {
+            "ksp_version_min": "1.0"
+        }
+    } ]
 }

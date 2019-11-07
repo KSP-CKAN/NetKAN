@@ -7,6 +7,9 @@
     "license": "CC-BY-NC-SA-3.0",
     "version": "0.0.1",
     "ksp_version": "1.0.5",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/130683-*"
+    },
     "depends": [
         {
             "name": "ModuleManager"

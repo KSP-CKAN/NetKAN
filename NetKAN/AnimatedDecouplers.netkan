@@ -7,7 +7,8 @@
     "license"         : "CC-BY-SA-4.0",
     "$vref"           : "#/ckan/ksp-avc",
     "resources"       : {
-        "repository" : "https://github.com/Starwaster/AnimatedDecouplers"
+        "repository" : "https://github.com/Starwaster/AnimatedDecouplers",
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/170880-*"
     },
     "install": [
         {
@@ -17,7 +18,7 @@
     ],
     "conflicts": [
         { "name" : "AnimatedDecouplers-x64" },
-		{ "name" : "AnimatedDecouplers-x86" }
+        { "name" : "AnimatedDecouplers-x86" }
     ],
     "x_netkan_override": [
         {
