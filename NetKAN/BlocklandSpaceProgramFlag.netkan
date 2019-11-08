@@ -1,7 +1,10 @@
 {
     "spec_version": "v1.4",
-    "license": "MIT",
-    "$kref": "#/ckan/spacedock/2083",
-    "identifier": "BlocklandSpaceProgramFlag",
-    "x_via": "Automated SpaceDock CKAN submission"
+    "identifier":   "BlocklandSpaceProgramFlag",
+    "$kref":        "#/ckan/spacedock/2083",
+    "license":      "MIT",
+    "install": [ {
+        "find":       "Flags",
+        "install_to": "GameData/Blockland_Space_Program"
+    } ]
 }
