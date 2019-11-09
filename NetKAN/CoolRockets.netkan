@@ -5,6 +5,7 @@
     "abstract":     "Cryo and Launch Particle Effects",
     "author":       [ "sarbian", "dtobi" ],
     "$kref":        "#/ckan/jenkins/https://ksp.sarbian.com/jenkins/job/ColdRockets",
+    "version":      "0.08",
     "ksp_version":  "1.1",
     "x_netkan_staging": true,
     "x_netkan_staging_reason": "Game version hard-coded in netkan, please confirm it matches the forum thread",
