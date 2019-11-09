@@ -1,7 +1,10 @@
 {
     "spec_version": "v1.4",
-    "identifier": "WallacorpFlag",
-    "$kref": "#/ckan/spacedock/2229",
-    "license": "MIT",
-    "x_via": "Automated SpaceDock CKAN submission"
+    "identifier":   "WallacorpFlag",
+    "$kref":        "#/ckan/spacedock/2229",
+    "license":      "MIT",
+    "install": [ {
+        "find":       "Wallacorp",
+        "install_to": "GameData"
+    } ]
 }
