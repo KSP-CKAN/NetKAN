@@ -1,18 +1,19 @@
 {
-	"spec_version": 1,
-	"identifier": "ExceptionDetector",
-	"$kref": "#/ckan/spacedock/600",
-	"license": "public-domain",
+	"spec_version": "v1.18",
+	"identifier":   "ExceptionDetector",
+	"$kref":        "#/ckan/spacedock/600",
+	"license":      "Unlicense",
 	"release_status": "stable",
 	"resources": {
-		"homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/98658-exceptiondetector-11-ksp-any-version/",
+		"homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/98658-*",
 		"repository": "https://github.com/godarklight/ExceptionDetector"
 	},
-	"install": [{
-		"file": "GameData/ExceptionDetector",
+	"install": [ {
+		"file":       "GameData/ExceptionDetector",
 		"install_to": "GameData"
-	}],
-	"x_netkan_override": [{
+	} ],
+	"x_netkan_override": [
+		{
 			"version": "3",
 			"delete" : [ "ksp_version" ],
 			"override": {

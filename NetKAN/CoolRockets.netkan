@@ -1,20 +1,23 @@
 {
     "spec_version": 1,
-    "identifier": "CoolRockets",
-    "name": "CoolRockets",
-    "abstract": "Cryo and Launch Particle Effects",
-    "author": [ "sarbian", "dtobi" ],
-    "license": "public-domain",
-    "resources": {
-        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/61925-11x-coolrockets-cryo-and-launch-particle-fx/"
-    },
+    "identifier":   "CoolRockets",
+    "name":         "CoolRockets",
+    "abstract":     "Cryo and Launch Particle Effects",
+    "author":       [ "sarbian", "dtobi" ],
+    "$kref":        "#/ckan/jenkins/https://ksp.sarbian.com/jenkins/job/ColdRockets",
+    "ksp_version":  "1.1",
+    "x_netkan_staging": true,
+    "x_netkan_staging_reason": "Game version hard-coded in netkan, please confirm it matches the forum thread",
+    "license":      "public-domain",
     "release_status": "development",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/61925-*"
+    },
     "depends": [
-        { "name": "SmokeScreen", "min_version": "2.5.2" },
-        { "name": "ModuleManager" }
-    ],
-    "version": "0.08",
-    "ksp_version_min": "1.0.0",
-    "ksp_version_max": "1.0.4",
-    "download": "https://ksp.sarbian.com/jenkins/job/ColdRockets/4/artifact/CoolRockets.zip"
+        { "name": "ModuleManager" },
+        {
+            "name":        "SmokeScreen",
+            "min_version": "2.5.2"
+        }
+    ]
 }

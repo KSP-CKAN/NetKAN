@@ -1,9 +1,9 @@
 {
-    "spec_version" : 1,
-    "identifier" : "StockPlugins",
-    "$kref" : "#/ckan/spacedock/112",
-    "$vref" : "#/ckan/ksp-avc",
-    "license": "public-domain",
+    "spec_version": "v1.18",
+    "identifier":   "StockPlugins",
+    "$kref":        "#/ckan/spacedock/112",
+    "$vref":        "#/ckan/ksp-avc",
+    "license":      "Unlicense",
     "depends": [
         { "name": "ModuleManager", "min_version": "2.6.0" }
     ],

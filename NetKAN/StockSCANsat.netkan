@@ -1,9 +1,9 @@
 {
-    "spec_version": 1,
-    "identifier": "StockSCANsat",
-    "$kref": "#/ckan/spacedock/114",
-    "$vref" : "#/ckan/ksp-avc",
-    "license": "public-domain",
+    "spec_version": "v1.18",
+    "identifier":   "StockSCANsat",
+    "$kref":        "#/ckan/spacedock/114",
+    "$vref":        "#/ckan/ksp-avc",
+    "license":      "Unlicense",
     "depends": [
         { "name": "ModuleManager", "min_version": "2.6.0" },
         { "name": "SCANsat", "min_version": "v16.0"}
