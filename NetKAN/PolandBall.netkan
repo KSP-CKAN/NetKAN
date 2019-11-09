@@ -1,7 +1,6 @@
 {
-    "$kref": "#/ckan/spacedock/2024",
-    "identifier": "PolandBall",
     "spec_version": "v1.4",
-    "license": "CC-BY-SA 2.0",
-    "x_via": "Automated SpaceDock CKAN submission"
+    "identifier":   "PolandBall",
+    "$kref":        "#/ckan/spacedock/2024",
+    "license":      "CC-BY-SA-2.0"
 }
