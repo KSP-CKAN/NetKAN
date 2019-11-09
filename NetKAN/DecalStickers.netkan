@@ -1,25 +1,15 @@
 {
-  "spec_version": "v1.4",
-  "install": [
-    {
-      "install_to": "GameData",
-      "find": "blackheart"
-    }
-  ],
-  "depends": [
-    {
-      "name": "FirespitterResourcesConfig"
-    },
-    {
-      "name": "ModuleManager"
-    },
-    {
-      "name": "FirespitterCore"
-    }
-  ],
-  "$vref": "#/ckan/ksp-avc",
-  "$kref": "#/ckan/spacedock/1108",
-  "x_via": "Automated Linuxgurugamer CKAN script",
-  "identifier": "DecalStickers",
-  "license": "unknown"
+    "spec_version": "v1.4",
+    "identifier":   "DecalStickers",
+    "$kref":        "#/ckan/spacedock/1108",
+    "license":      "GPL-1.0",
+    "install": [ {
+        "find":       "blackheart",
+        "install_to": "GameData"
+    } ],
+    "depends": [
+        { "name": "FirespitterResourcesConfig" },
+        { "name": "ModuleManager"              },
+        { "name": "FirespitterCore"            }
+    ]
 }
