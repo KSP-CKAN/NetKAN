@@ -22,7 +22,7 @@
     ],
     "install": [
         {
-            "find":       "CC_Contracts",
+            "find":       "ContractPacks",
             "install_to": "GameData"
         }
     ],
