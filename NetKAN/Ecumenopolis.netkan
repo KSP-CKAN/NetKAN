@@ -1,7 +1,25 @@
 {
     "spec_version": "v1.4",
-    "identifier": "Ecumenopolis",
-    "$kref": "#/ckan/spacedock/2272",
-    "license": "CC-BY-NC-SA-4.0",
-    "x_via": "Automated SpaceDock CKAN submission"
+    "identifier":   "Ecumenopolis",
+    "$kref":        "#/ckan/spacedock/2272",
+    "license":      "CC-BY-NC-SA-4.0",
+    "provides": [
+        "EnvironmentalVisualEnhancements-Config",
+        "Scatterer-config"
+    ],
+    "conflicts": [
+        { "name": "EnvironmentalVisualEnhancements-Config" },
+        { "name": "Scatterer-config"                       }
+    ],
+    "depends": [
+        { "name": "ModuleManager"                   },
+        { "name": "Kopernicus"                      },
+        { "name": "EnvironmentalVisualEnhancements" },
+        { "name": "CommunityTerrainTexturePack"     }
+    ],
+    "recommends": [
+        { "name": "Scatterer"                                  },
+        { "name": "PlanetShine"                                },
+        { "name": "KopernicusExpansionContinued-EVAFootprints" }
+    ]
 }
