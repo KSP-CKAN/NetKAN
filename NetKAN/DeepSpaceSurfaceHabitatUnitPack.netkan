@@ -19,22 +19,6 @@
         {
             "find":       "GameData/DSSHU",
             "install_to": "GameData"
-        }, {
-            "find":       "DSSHU-ConnectedLivingSpace.cfg",
-            "install_to": "GameData/DSSHU",
-            "find_matches_files": true
-        }, {
-            "find":       "DSSHU-KerbalInventorySystem.cfg",
-            "install_to": "GameData/DSSHU",
-            "find_matches_files": true
-        }, {
-            "find":       "DSSHU-Tweakscale.cfg",
-            "install_to": "GameData/DSSHU",
-            "find_matches_files": true
-        }, {
-            "find":       "DSSHU-USILifeSupport.cfg",
-            "install_to": "GameData/DSSHU",
-            "find_matches_files": true
-        } 
+        }
     ]
 }
