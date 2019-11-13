@@ -8,5 +8,8 @@
     "install": [ {
         "find":       "BahaConstellation",
         "install_to": "GameData"
-    } ]
+    } ],
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/69581-*"
+    }
 }
