@@ -1,14 +1,15 @@
 {
-  "spec_version": "v1.4",
-  "install": [
-    {
-      "install_to": "GameData",
-      "find": "KSPWheel"
-    }
-  ],
-  "$vref": "#/ckan/ksp-avc",
-  "$kref": "#/ckan/github/shadowmage45/KSPWheel",
-  "x_via": "Automated Linuxgurugamer CKAN script",
-  "identifier": "KSPWheel",
-  "license": "GPL-3.0"
+    "spec_version": "v1.4",
+    "identifier": "KSPWheel",
+    "$kref": "#/ckan/github/shadowmage45/KSPWheel",
+    "$vref": "#/ckan/ksp-avc",
+    "license": "GPL-3.0",
+    "install": [ {
+        "install_to": "GameData",
+        "find": "KSPWheel"
+    } ],
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/152782-*"
+    },
+    "x_via": "Automated Linuxgurugamer CKAN script"
 }
