@@ -21,9 +21,9 @@
     "suggests"    : [
         { "name"  : "SCANSat" },
         { "name"  : "VesselViewer" },
-        { "name"  : "MechJeb2" ,
+        { "name"  : "MechJeb2" },
         { "name"  : "DockingPortAlignment" },
-        { "name"  : "kOS" ,
+        { "name"  : "kOS" },
         { "name"  : "KPS-AVC" }
     ]
 }
