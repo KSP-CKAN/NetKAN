@@ -3,7 +3,7 @@
     "identifier": "KSPRescuePodFix",
     "$kref": "#/ckan/github/shadowmage45/KSPRescuePodFix",
     "$vref": "#/ckan/ksp-avc",
-    "license": "GPL-3.0"
+    "license": "GPL-3.0",
     "install": [ {
         "install_to": "GameData",
         "find": "KSPRescuePodFix"
