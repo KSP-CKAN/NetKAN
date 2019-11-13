@@ -13,5 +13,8 @@
         { "name": "AdvancedJetEngine" }
     ],
     "x_netkan_epoch":   2,
-    "x_netkan_force_v": true
+    "x_netkan_force_v": true,
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/169520-*"
+    }
 }
