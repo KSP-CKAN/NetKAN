@@ -14,5 +14,8 @@
     "depends":  [
         { "name": "Kopernicus"                          },
         { "name": "KopernicusExpansionContinued-Common" }
-    ]
+    ],
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/119211-*"
+    }
 }
