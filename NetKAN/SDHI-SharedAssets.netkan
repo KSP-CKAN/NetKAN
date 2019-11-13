@@ -10,7 +10,8 @@
     "release_status" : "stable",
     "x_netkan_license_ok": true,
     "resources" : {
-        "repository"   : "https://github.com/sumghai/SDHI_SharedAssets"
+        "repository"   : "https://github.com/sumghai/SDHI_ServiceModuleSystem",
+        "homepage"     : "https://forum.kerbalspaceprogram.com/index.php?/topic/48073-*"
     },
     "install" : [
         {
