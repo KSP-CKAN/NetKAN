@@ -3,5 +3,8 @@
     "identifier":   "AnimatedAttachment",
     "$kref":        "#/ckan/github/KSPKatten/AnimatedAttachment",
     "$vref":        "#/ckan/ksp-avc",
-    "license":      "CC-BY-NC-SA-4.0"
+    "license":      "CC-BY-NC-SA-4.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/175881-*"
+    }
 }
