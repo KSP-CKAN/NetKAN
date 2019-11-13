@@ -11,5 +11,8 @@
             "file" : "KSPAPIExt",
             "install_to" : "GameData"
         }
-    ]
+    ],
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/73648-*"
+    }
 }
