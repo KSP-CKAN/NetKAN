@@ -1,8 +1,9 @@
 {
     "spec_version": "v1.16",
     "identifier":   "DistantObject-default",
-    "name":         "Distant Object Enhancement default config",
+    "name":         "Distant Object Enhancement Continued default config",
     "abstract":     "Default planets colors",
+    "author":       ["duckytopia", "MOARdv", "TheDarkBadger"],
     "$kref":        "#/ckan/github/TheDarkBadger/DistantObject",
     "$vref":        "#/ckan/ksp-avc",
     "x_netkan_force_v": true,
