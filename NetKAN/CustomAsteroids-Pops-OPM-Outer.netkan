@@ -31,5 +31,8 @@
             "filter_regexp": "(?<!Trans-Neidon\\.cfg)$"
         }
     ],
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/72785-*"
+    },
     "x_maintained_by": "Starstrider42"
 }
