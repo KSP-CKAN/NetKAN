@@ -1,11 +1,12 @@
 {
     "spec_version" : "v1.4",
     "identifier"   : "VenStockRevamp",
-    "$kref"        : "#/ckan/github/VenVen/Stock-Revamp",
     "name"         : "Ven's Stock Part Revamp",
     "abstract"     : "With this part pack, your rockets/planes/racecars will look at least 20% cooler as they tumble into the ground!",
-    "license"      : "CC-BY-4.0",
+    "author"       : ["VenVen", "Kerbas-ad-astra"],
+    "$kref"        : "#/ckan/github/Kerbas-ad-astra/Stock-Revamp",
     "$vref"        : "#/ckan/ksp-avc",
+    "license"      : "CC-BY-4.0",
     "depends"      : [
         { "name" : "ModuleManager" }
     ],
@@ -13,7 +14,7 @@
         { "name" : "VensStockPartRevamp-CTTPatch" }
     ],
     "resources" : {
-        "homepage"     : "https://forum.kerbalspaceprogram.com/index.php?/topic/83696-122-stock-part-revamp-update-196-released-source-files/"
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/189732-*"
     },
     "install": [
         {
