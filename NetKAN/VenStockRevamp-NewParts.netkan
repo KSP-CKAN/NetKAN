@@ -1,8 +1,8 @@
 {
     "spec_version" : "v1.4",
-    "identifier"   : "VenStockRevamp",
-    "name"         : "Ven's Stock Part Revamp",
-    "abstract"     : "With this part pack, your rockets/planes/racecars will look at least 20% cooler as they tumble into the ground!",
+    "identifier"   : "VenStockRevamp-NewParts",
+    "name"         : "Ven's New Parts",
+    "abstract"     : "New parts from Ven's Stock Part Revamp",
     "author"       : [ "VenVen", "Kerbas-ad-astra" ],
     "$kref"        : "#/ckan/github/Kerbas-ad-astra/Stock-Revamp",
     "$vref"        : "#/ckan/ksp-avc",
@@ -15,16 +15,13 @@
         { "name" : "VenStockRevamp-Core" }
     ],
     "recommends": [
-        { "name": "VenStockRevamp-NewParts" }
+        { "name": "VenStockRevamp" }
     ],
-    "conflicts": [
-        { "name" : "ReStock" }
+    "suggests": [
+        { "name" : "VensStockPartRevamp-CTTPatch" }
     ],
     "install": [ {
-        "find"       : "VenStockRevamp/PathPatches",
-        "install_to" : "GameData/VenStockRevamp"
-    }, {
-        "find"       : "VenStockRevamp/Squad",
+        "find"       : "VenStockRevamp/Part Bin",
         "install_to" : "GameData/VenStockRevamp"
     } ]
 }
