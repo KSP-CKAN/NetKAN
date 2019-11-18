@@ -5,5 +5,9 @@
     "license":      "CC-BY-SA-2.0",
     "conflicts": [
         { "name": "Polandball" }
-    ]
+    ],
+    "install": [{
+        "file":       "PolandBall",
+        "install_to": "GameData"
+    }]
 }
