@@ -2,9 +2,8 @@
     "spec_version": 1,
     "identifier": "ProgressiveColonizationSystem",
     "$kref": "#/ckan/github/SteveBenz/ProgressiveColonizationSystem",
+    "$vref": "#/ckan/ksp-avc",
     "license": "MIT",
-    "ksp_version_min": "1.5.1",
-    "ksp_version_max": "1.7",
     "resources": {
         "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/181852-15x~16x-progressivecolonizationsystem-life-support-colonization-for-more-fun-in-late-game/"
     },
