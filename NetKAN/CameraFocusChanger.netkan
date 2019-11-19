@@ -1,15 +1,14 @@
 {
     "spec_version" : 1,
     "identifier"   : "CameraFocusChanger",
+    "name"         : "Camera Focus Changer",
+    "abstract"     : "A plugin that lets you change the focus of the camera by pressing 'o' when hovering a part.",
     "$kref"        : "#/ckan/spacedock/1625",
     "$vref"        : "#/ckan/ksp-avc",
-    "name"         : "Camera Focus Changer",
     "x_netkan_epoch": 1,
-    "abstract"     : "A plugin that lets you change the focus of the camera by pressing 'o' when hovering a part.",
     "license"      : "MIT",
     "resources": {
-        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/169044-*",
-        "github": "https://github.com/linuxgurugamer/camerafocuschanger"
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/169044-*"
     },
     "suggests": [
         { "name": "KSP-AVC" }
