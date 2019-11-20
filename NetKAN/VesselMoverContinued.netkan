@@ -3,7 +3,6 @@
     "identifier":   "VesselMoverContinued",
     "name":         "VesselMover Continued",
     "abstract":     "A continuation of BahamutoD's Vessel Mover.",
-    "author":       [ "BahamutoD", "Papa_Joe", "jrodrigv" ],
     "$kref":        "#/ckan/github/jrodrigv/VesselMover",
     "$vref":        "#/ckan/ksp-avc",
     "license":      "MIT",

@@ -1,13 +1,12 @@
 {
     "spec_version"  : 1,
-    "$kref"         : "#/ckan/github/sawyerap/MapResourceOverlay",
-    "x_broken_vref" : "#/ckan/ksp-avc",
     "identifier"    : "MapResourceOverlay",
     "name"          : "Map Resource Overlay",
     "abstract"      : "MapResourceOverlay for Science, Karbonite/MKS and biomes",
-    "license"       : "CC-BY-NC-SA",
-    "author"        : [ "Cyrik", "atomicfury" ],
     "description"   : "MapResourceOverlay for Science, Karbonite/MKS and biomes",
+    "$kref"         : "#/ckan/github/sawyerap/MapResourceOverlay",
+    "x_broken_vref" : "#/ckan/ksp-avc",
+    "license"       : "CC-BY-NC-SA",
     "ksp_version"   : "0.90",
     "release_status": "stable",
     "depends": [
@@ -19,6 +18,6 @@
         { "name": "SCANsat" }
     ],
     "resources": {
-        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/83356-0242mapresourceoverlay-for-sciencekarbonitemks-and-biomes-version-027/"
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/83356-*"
     }
 }

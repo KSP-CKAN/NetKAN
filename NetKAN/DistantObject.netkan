@@ -3,7 +3,6 @@
     "identifier":   "DistantObject",
     "name":         "Distant Object Enhancement Continued",
     "abstract":     "Visual enhancement mod that makes objects realistically visible over large distances",
-    "author":       ["duckytopia", "MOARdv", "TheDarkBadger"],
     "$kref":        "#/ckan/github/TheDarkBadger/DistantObject",
     "$vref":        "#/ckan/ksp-avc",
     "x_netkan_force_v": true,
