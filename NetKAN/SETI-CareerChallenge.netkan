@@ -1,6 +1,21 @@
 {
-    "spec_version": "v1.4",
-    "identifier": "SETI-CareerChallenge",
-    "$kref": "#/ckan/netkan/https://raw.githubusercontent.com/Y3mo/SETI-NetKAN/master/SETI-CareerChallenge.netkan",
-    "x_netkan_license_ok": true
+    "spec_version"  : "v1.4",
+    "identifier"    : "SETI-CareerChallenge",
+    "name"          : "SETI-CareerChallenge",
+    "abstract"      : "Reduces experiment science by 70% to somewhat balance out the science gained from contracts in career mode, compared to science mode.",
+    "$kref"         : "#/ckan/github/Y3mo/SETI-CareerChallenge",
+    "$vref"         : "#/ckan/ksp-avc",
+    "license"       : "restricted",
+    "resources"     : {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/106130"
+    },
+    "depends"       : [
+        { "name"    : "ModuleManager" }
+    ],
+    "install"       : [
+        {
+            "find"       : "SETIcareerChallenge",
+            "install_to" : "GameData"
+        }
+    ]
 }

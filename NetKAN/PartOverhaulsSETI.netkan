@@ -1,6 +1,21 @@
 {
     "spec_version": "v1.4",
-    "identifier": "PartOverhaulsSETI",
-    "$kref": "#/ckan/netkan/https://raw.githubusercontent.com/Y3mo/SETI-NetKAN/master/PartOverhaulsSETI.netkan",
-    "x_netkan_license_ok": true
+    "identifier":   "PartOverhaulsSETI",
+    "name":         "Porkjets PartOverhauls - SETIconfig",
+    "abstract":     "Porkjets PartOverhauls with SETI configs. Uses parts as additions instead of replacements of stock parts, thus compatible with VenStockRevamp. Boattail parts 1.25m diameter. Non-boattail parts 0.625m diameter and full set of 1.875m parts, including adapters, decoupler and nosecone. Removes upgrades until that feature is properly implemented.",
+    "$kref":        "#/ckan/github/Y3mo/PartOverhaulsSETI",
+    "$vref":        "#/ckan/ksp-avc",
+    "license":      "CC-BY-NC-3.0",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/106130"
+    },
+    "depends" : [
+        { "name" : "ModuleManager" }
+    ],
+    "install" : [
+        {
+            "find" : "PartOverhaulsSETI",
+            "install_to" : "GameData"
+        }
+    ]
 }

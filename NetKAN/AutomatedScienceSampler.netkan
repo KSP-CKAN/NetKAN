@@ -1,6 +1,29 @@
 {
-    "spec_version": "v1.2",
-    "identifier": "AutomatedScienceSampler",
-    "$kref": "#/ckan/netkan/https://raw.githubusercontent.com/KerboKatz/Netkan/master/AutomatedScienceSampler.netkan",
-    "x_netkan_license_ok": true
+    "spec_version"  : "v1.4",
+    "identifier"    : "AutomatedScienceSampler",
+    "name"          : "Automated Science Sampler",
+    "abstract"      : "Automates science experiments.",
+    "author"        : [ "SpaceTiger", "SpaceKitty" ],
+    "$kref"         : "#/ckan/github/Xarun/AutomatedScienceSampler",
+    "ksp_version"   : "1.8",
+    "x_netkan_staging": true,
+    "x_netkan_staging_reason": "Game version hard-coded in netkan. Please check that it still matches the forum thread.",
+    "license"       : "restricted",
+    "resources": {
+        "homepage": "http://kerbokatz.github.io/",
+        "bugtracker": "https://github.com/Xarun/AutomatedScienceSampler/issues",
+        "repository": "https://github.com/Xarun/AutomatedScienceSampler"
+    },
+    "depends": [
+        {
+            "name"          : "KerboKatzUtilities",
+            "min_version"   : "1.5.2"
+        }
+    ],
+    "install": [
+        {
+            "file": "GameData/KerboKatz/AutomatedScienceSampler",
+            "install_to": "GameData/KerboKatz"
+        }
+    ]
 }

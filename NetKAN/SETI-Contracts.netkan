@@ -1,6 +1,26 @@
 {
-    "spec_version": "v1.2",
-    "identifier": "SETI-Contracts",
-    "$kref": "#/ckan/netkan/https://raw.githubusercontent.com/Y3mo/SETI-NetKAN/master/SETI-Contracts.netkan",
-    "x_netkan_license_ok": true
+    "spec_version"  : "v1.2",
+    "identifier"    : "SETI-Contracts",
+    "$kref"         : "#/ckan/spacedock/17",
+    "$vref"         : "#/ckan/ksp-avc",
+    "license"       : "restricted",
+    "depends" : [
+        { "name": "ContractConfigurator" },
+        { "name": "ModuleManager" }
+    ],
+    "recommends" : [
+        { "name": "CustomBarnKit" },
+        { "name": "ContractConfigurator-AnomalySurveyor" },
+        { "name": "ContractConfigurator-FieldResearch" },
+        { "name": "ContractConfigurator-KerbinSpaceStation" },
+        { "name": "ContractConfigurator-Tourism" },
+        { "name": "GAP" },
+        { "name": "WaypointManager" }
+    ],
+    "install" : [
+        {
+          "file"       : "SETIcontracts",
+          "install_to" : "GameData"
+        }
+    ]
 }

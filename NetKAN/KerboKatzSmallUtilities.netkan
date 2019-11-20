@@ -1,6 +1,29 @@
 {
-    "spec_version" : "v1.2",
-    "identifier"   : "KerboKatzSmallUtilities",
-    "$kref": "#/ckan/netkan/https://raw.githubusercontent.com/KerboKatz/Netkan/master/KerboKatzSmallUtilities.netkan",
-    "x_netkan_license_ok": true
+    "spec_version"  : "v1.4",
+    "identifier"    : "KerboKatzSmallUtilities",
+    "name"          : "KerboKatz - SmallUtilities",
+    "abstract"      : "A bunch of small utilities to make life in kerbal more enjoyable.",
+    "author"        : [ "SpaceTiger", "SpaceKitty" ],
+    "$kref"         : "#/ckan/github/Xarun/SmallUtilities/asset_match/SmallUtilities.zip",
+    "ksp_version"   : "1.8",
+    "x_netkan_staging": true,
+    "x_netkan_staging_reason": "Game version hard-coded in netkan. Please check that it still matches the forum thread.",
+    "license"       : "restricted",
+    "resources": {
+        "homepage": "http://kerbokatz.github.io/",
+        "bugtracker": "https://github.com/Xarun/SmallUtilities/issues",
+        "repository": "https://github.com/Xarun/SmallUtilities"
+    },
+    "depends": [
+        {
+            "name"          : "KerboKatzUtilities",
+            "min_version"   : "1.5.2"
+        }
+    ],
+    "install": [
+        {
+            "find"       : "SmallUtilities",
+            "install_to" : "GameData/KerboKatz"
+        }
+    ]
 }
