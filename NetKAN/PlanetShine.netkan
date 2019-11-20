@@ -3,7 +3,6 @@
     "identifier":   "PlanetShine",
     "name":         "PlanetShine",
     "abstract":     "Planets and moons reflects their light to your vessel + other ambient light improvements",
-    "author":       [ "Valerian", "Papa_Joe" ],
     "$kref":        "#/ckan/github/PapaJoesSoup/ksp-planetshine",
     "$vref":        "#/ckan/ksp-avc",
     "license":      "Apache-2.0",

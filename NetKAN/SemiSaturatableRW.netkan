@@ -3,11 +3,10 @@
     "identifier"     : "SemiSaturatableRW",
     "name"           : "Semi-Saturable Reaction Wheels",
     "abstract"       : "Saturable Reaction Wheels makes stock reaction wheels more realistic by adding momentum management",
-    "author"         : [ "PhineasFreak", "Crzyrndm" ],
     "$kref"          : "#/ckan/github/PhineasFreak/SaturableRW",
-    "x_netkan_license_ok": true,
     "$vref"          : "#/ckan/ksp-avc",
-    "x_netkan_epoch": 1,
+    "x_netkan_epoch" : 1,
+    "license"        : "GPL-3.0",
     "release_status" : "stable",
     "resources": {
         "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/105289-*"

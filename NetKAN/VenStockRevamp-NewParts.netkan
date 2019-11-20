@@ -3,7 +3,6 @@
     "identifier"   : "VenStockRevamp-NewParts",
     "name"         : "Ven's New Parts",
     "abstract"     : "New parts from Ven's Stock Part Revamp",
-    "author"       : [ "VenVen", "Kerbas-ad-astra" ],
     "$kref"        : "#/ckan/github/Kerbas-ad-astra/Stock-Revamp",
     "$vref"        : "#/ckan/ksp-avc",
     "license"      : "CC-BY-4.0",
