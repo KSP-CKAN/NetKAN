@@ -1,6 +1,23 @@
 {
-    "spec_version" : "v1.2",
-    "identifier"   : "KerboKatzUtilities",
-    "$kref": "#/ckan/netkan/https://raw.githubusercontent.com/KerboKatz/Netkan/master/KerboKatzUtilities.netkan",
-    "x_netkan_license_ok": true
+    "spec_version"  : "v1.4",
+    "identifier"    : "KerboKatzUtilities",
+    "name"          : "KerboKatzUtilities",
+    "abstract"      : "Utilities used in all KerboKatz mods.",
+    "author"        : [ "SpaceTiger", "SpaceKitty" ],
+    "$kref"         : "#/ckan/github/Xarun/KerboKatzUtilities",
+    "ksp_version"   : "1.8",
+    "x_netkan_staging": true,
+    "x_netkan_staging_reason": "Game version hard-coded in netkan. Please check that it still matches the forum thread.",
+    "license"       : "restricted",
+    "resources": {
+        "homepage": "http://kerbokatz.github.io/",
+        "bugtracker": "https://github.com/Xarun/KerboKatzUtilities/issues",
+        "repository": "https://github.com/Xarun/KerboKatzUtilities"
+    },
+    "install" : [
+        {
+            "find"       : "KerboKatz",
+            "install_to" : "GameData"
+        }
+    ]
 }
