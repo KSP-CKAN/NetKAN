@@ -3,6 +3,7 @@
     "identifier" : "CrewLight",
     "$kref" : "#/ckan/spacedock/2236",
     "$vref": "#/ckan/ksp-avc",
+    "x_netkan_epoch": 1,
     "name" : "Crew Light",
     "author" : [ "Li0n", "linuxgurugamer" ],
     "abstract" : "An automatic light manager",
