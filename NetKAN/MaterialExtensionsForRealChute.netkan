@@ -1,10 +1,10 @@
 {
     "spec_version": "v1.4",
     "identifier":   "MaterialExtensionsForRealChute",
-    "$kref":        "#/ckan/spacedock/2276",
+    "$kref":        "#/ckan/spacedock/2278",
     "license":      "CC-BY-NC-SA-4.0",
     "install": [{
-        "file":       "AlmightyR_MaterialExtensionsForRealChute",
+        "file":       "RealChuteMaterialExtensions",
         "install_to": "GameData"
     }],
     "x_via": "Automated SpaceDock CKAN submission"
