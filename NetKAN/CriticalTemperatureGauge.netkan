@@ -8,8 +8,8 @@
   "abstract"     : "A plugin showing a temperature gauge and which part is going to blow up first",
   "license"      : "GPL-3.0",
   "depends"      : [
-    { "name": "ModuleManager" }.
-    { "name": "ClickThroughBlocker" }.
+    { "name": "ModuleManager" },
+    { "name": "ClickThroughBlocker" },
     { "name": "ToolbarController" }
   ],
   "resources"    : {
