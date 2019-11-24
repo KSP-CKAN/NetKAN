@@ -4,7 +4,7 @@
     "name":         "PlanetShine - Default configuration",
     "abstract":     "Planets and moons reflects their light to your vessel + other ambient light improvements",
     "$kref":        "#/ckan/github/prestja/ksp-planetshine",
-    "ksp_version"  : "1.8",
+    "$vref":        "#/ckan/ksp-avc",
     "license":      "Apache-2.0",
     "resources": {
         "homepage":   "https://forum.kerbalspaceprogram.com/index.php?/topic/189071-*",
