@@ -3,12 +3,12 @@
     "identifier":   "PlanetShine",
     "name":         "PlanetShine",
     "abstract":     "Planets and moons reflects their light to your vessel + other ambient light improvements",
-    "$kref":        "#/ckan/github/PapaJoesSoup/ksp-planetshine",
-    "$vref":        "#/ckan/ksp-avc",
-    "license":      "Apache-2.0",
+    "$kref":        "#/ckan/github/prestja/ksp-planetshine",
+    "ksp_version"  : "1.8",
+	"license":      "Apache-2.0",
     "resources": {
-        "homepage":   "https://forum.kerbalspaceprogram.com/index.php?/topic/173138-*",
-        "repository": "https://github.com/PapaJoesSoup/ksp-planetshine"
+        "homepage":   "https://forum.kerbalspaceprogram.com/index.php?/topic/189071-18x-planetshine-0262-oct-19-2019",
+        "repository": "https://github.com/prestja/ksp-planetshine"
     },
     "depends": [
         { "name": "PlanetShine-Config" }
