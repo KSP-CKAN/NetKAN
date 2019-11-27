@@ -1,19 +1,18 @@
 {
-    "$kref": "#/ckan/spacedock/715",
     "spec_version": "v1.4",
-    "identifier": "NoCrewRequirementContinued",
-    "x_via": "Automated SpaceDock CKAN submission",
-    "license": "GPL-3.0",
-    "author": [ "RealGecko", "Orbinaut" ],
-    "ksp_version" : "any",
+    "identifier":   "NoCrewRequirementContinued",
+    "author":       [ "RealGecko", "Orbinaut" ],
+    "$kref":        "#/ckan/spacedock/715",
+    "ksp_version":  "any",
+    "license":      "GPL-3.0",
     "depends": [
-         {
-             "name": "ModuleManager"
-         }
+         { "name": "ModuleManager" }
      ],
      "recommends": [
-         {
-             "name": "RadioFreeKerbin"
-         }
-    ]
+         { "name": "RadioFreeKerbin" }
+    ],
+    "install": [ {
+        "find":       "NCRC",
+        "install_to": "GameData"
+    } ]
 }
