@@ -1,25 +1,22 @@
 {
     "spec_version" : 1,
-    "$kref"        : "#/ckan/github/Aelfhe1m/Historian-Expanded",
-    "$vref"        : "#/ckan/ksp-avc",
     "identifier"   : "Historian-expanded",
     "name"         : "Historian Expanded",
-    "author"       : "Aelfhe1m",
     "abstract"     : "Adds fully configurable and dynamic captions and overlay graphics to screenshots to better describe the context of screenshots and record your Kerbal adventures.",
+    "$kref"        : "#/ckan/github/Aelfhe1m/Historian-Expanded",
+    "$vref"        : "#/ckan/ksp-avc",
     "license"      : "GPL-3.0",
     "x_netkan_force_v": true,
-    "x_netkan_epoch": 1,
+    "x_netkan_epoch": 2,
     "resources": {
-        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/138848-112-historian-expanded/"
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/138848-*"
     },
     "suggests" : [ 
-        { "name" : "Toolbar" },
+        { "name" : "Toolbar"              },
         { "name" : "AutomatedScreenshots" } 
     ],
-    "install": [
-        {
-            "file"       : "GameData/Historian",
-            "install_to" : "GameData"
-        }
-    ]
+    "install": [ {
+        "file"       : "GameData/Historian",
+        "install_to" : "GameData"
+    } ]
 }
