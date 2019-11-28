@@ -3,6 +3,7 @@
     "identifier"        : "KSPInterstellarExtended",
     "$kref"             : "#/ckan/spacedock/172",
     "$vref"             : "#/ckan/ksp-avc",
+    "x_netkan_allow_out_of_order": true,
     "resources": {
         "homepage":   "https://forum.kerbalspaceprogram.com/index.php?/topic/172026-*",
         "repository": "https://github.com/sswelm/KSP-Interstellar-Extended"
@@ -18,13 +19,13 @@
         }
     ],
     "depends": [
-        { "name"        : "InterstellarFuelSwitch-Core"},
-        { "name"        : "TweakScale"                 },
-        { "name"        : "ModuleManager"              }
+        { "name"        : "InterstellarFuelSwitch-Core" },
+        { "name"        : "TweakScale"                  },
+        { "name"        : "ModuleManager"               }
     ],
     "recommends": [
         { "name"        : "PatchManager"             },
-        { "name"        : "InterstellarFuelSwitch"   },        
+        { "name"        : "InterstellarFuelSwitch"   },
         { "name"        : "PersistentRotation"       },
         { "name"        : "FilterExtensions"         },
         { "name"        : "PhotonSailor"             },
@@ -33,7 +34,7 @@
     ],
     "suggests": [
         { "name"        : "CommunityResourcePack"    },
-        { "name"        : "CommunityTechTree"        },         
+        { "name"        : "CommunityTechTree"        },
         { "name"        : "HeatControl"              },
         { "name"        : "TexturesUnlimited"        },
         { "name"        : "UniversalStorage"         },
