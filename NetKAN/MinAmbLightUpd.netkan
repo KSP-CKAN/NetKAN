@@ -1,0 +1,26 @@
+{
+  "license": "unknown",
+  "identifier": "MinAmbLightUpd",
+  "x_via": "Automated Linuxgurugamer CKAN script",
+  "$kref": "#/ckan/spacedock/2279",
+  "$vref": "#/ckan/ksp-avc",
+  "resources": {
+    "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/190080-18x-minimum-ambient-lighting-updated/",
+    "repository": "https://github.com/linuxgurugamer/MinimumAmbientLightingUpdated"
+  },
+  "depends": [
+    {
+      "name": "ToolbarController"
+    },
+    {
+      "name": "ClickThroughBlocker"
+    }
+  ],
+  "install": [
+    {
+      "find": "MinimumAmbientLightingUpdated",
+      "install_to": "GameData"
+    }
+  ],
+  "spec_version": "v1.4"
+}
