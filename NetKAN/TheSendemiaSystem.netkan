@@ -1,0 +1,14 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "TheSendemiaSystem",
+    "$kref":        "#/ckan/spacedock/2281",
+    "license":      "CC-BY-NC-SA-4.0",
+    "install": [ {
+        "find":       "Sendemia",
+        "install_to": "GameData"
+    } ],
+    "depends": [
+        { "name": "ModuleManager" },
+        { "name": "Kopernicus"    }
+    ]
+}
