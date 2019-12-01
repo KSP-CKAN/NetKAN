@@ -1,7 +1,7 @@
 {
     "identifier": "PlayYourWay",
     "abstract" : "Earn funds for doing science! Remember to download Contract Configurator and disable all contracts to truly play your way!",
-    "$kref": "#/ckan/github/Galileo88/PlayYourWay",
+    "$kref":  "#/ckan/spacedock/2280",
     "$vref": "#/ckan/ksp-avc",
     "spec_version": "v1.4",
     "license": "public-domain",
@@ -12,6 +12,6 @@
         { "name": "ContractConfigurator" }
     ],
     "resources": {
-        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/152877-*"
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/190100-18x-play-your-way/"
     }
 }
