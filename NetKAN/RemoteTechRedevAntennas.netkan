@@ -7,8 +7,7 @@
     "abstract"     : "Standalone and optional antenna package of RemoteTech Redev for Kerbal Space Program's stock CommNet",
     "name"         : "RemoteTech Redev Antennas",
     "resources": {
-        "homepage":    "https://forum.kerbalspaceprogram.com/index.php?/topic/139167-*",
-        "respository": "https://github.com/RemoteTechnologiesGroup/RemoteTech-Antennas"
+        "homepage":    "https://forum.kerbalspaceprogram.com/index.php?/topic/139167-*"
     },
     "depends": [
         { "name": "ModuleManager" }
