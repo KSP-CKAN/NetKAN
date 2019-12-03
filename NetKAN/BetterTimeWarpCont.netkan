@@ -1,18 +1,17 @@
 {
-  "spec_version": "v1.4",
-  "install": [
-    {
-      "install_to": "GameData",
-      "find": "BetterTimeWarp"
-    }
-  ],
-  "depends": [
-        { "name": "ToolbarController" },
+    "spec_version": "v1.4",
+    "identifier":   "BetterTimeWarpCont",
+    "$kref":        "#/ckan/spacedock/1162",
+    "$vref":        "#/ckan/ksp-avc",
+    "x_netkan_allow_out_of_order": true,
+    "license":      "GPL-3.0",
+    "install": [ {
+        "find":       "BetterTimeWarp",
+        "install_to": "GameData"
+    } ],
+    "depends": [
+        { "name": "ToolbarController"   },
         { "name": "ClickThroughBlocker" }
-  ],
-  "$vref": "#/ckan/ksp-avc",
-  "$kref": "#/ckan/spacedock/1162",
-  "x_via": "Automated Linuxgurugamer CKAN script",
-  "identifier": "BetterTimeWarpCont",
-  "license": "GPL-3.0"
+    ],
+    "x_via": "Automated Linuxgurugamer CKAN script"
 }
