@@ -1,21 +1,20 @@
 {
-  "license": "GPL-3.0",
-  "identifier": "DeployableBatteries",
-  "x_via": "Automated Linuxgurugamer CKAN script",
-  "$kref": "#/ckan/spacedock/2268",
-  "$vref": "#/ckan/ksp-avc",
-  "resources": {
-    "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/189547-173-18x-deployable-batteries/",
-    "repository": "https://github.com/linuxgurugamer/DeployableBatteries"
-  },
-  "depends": [
-    { "name": "SpaceTuxLibrary" }
-  ],
-  "install": [
-    {
-      "find": "DeployableBatteries",
-      "install_to": "GameData"
-    }
-  ],
-  "spec_version": "v1.4"
+    "spec_version": "v1.4",
+    "identifier":   "DeployableBatteries",
+    "$kref":        "#/ckan/spacedock/2268",
+    "$vref":        "#/ckan/ksp-avc",
+    "x_netkan_allow_out_of_order": true,
+    "license":      "GPL-3.0",
+    "resources": {
+        "homepage":   "https://forum.kerbalspaceprogram.com/index.php?/topic/189547-173-*",
+        "repository": "https://github.com/linuxgurugamer/DeployableBatteries"
+    },
+    "depends": [
+        { "name": "SpaceTuxLibrary" }
+    ],
+    "install": [ {
+        "find":       "DeployableBatteries",
+        "install_to": "GameData"
+    } ],
+    "x_via": "Automated Linuxgurugamer CKAN script"
 }
