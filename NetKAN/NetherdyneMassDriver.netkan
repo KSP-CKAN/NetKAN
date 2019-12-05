@@ -1,13 +1,11 @@
 {
-  "spec_version": "v1.4",
-  "install": [
-    {
-      "install_to": "GameData",
-      "find": "InterstellarMassAccelerator"
-    }
-  ],
-  "$kref": "#/ckan/spacedock/1227",
-  "x_via": "Automated Linuxgurugamer CKAN script",
-  "identifier": "NetherdyneMassDriver",
-  "license": "CDDL"
+    "spec_version": "v1.4",
+    "identifier":   "NetherdyneMassDriver",
+    "$kref":        "#/ckan/spacedock/890",
+    "x_netkan_epoch": 1,
+    "license":      "CDDL",
+    "install": [ {
+        "find":       "InterstellarMassAccelerator",
+        "install_to": "GameData"
+    } ]
 }
