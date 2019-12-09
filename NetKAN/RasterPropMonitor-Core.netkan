@@ -2,13 +2,17 @@
     "spec_version"   : "v1.4",
     "identifier"     : "RasterPropMonitor-Core",
     "name"           : "RasterPropMonitor Core",
+    "abstract"       : "RasterPropMonitor is a plugin and toolkit that provides functional props within your IVA.",
+    "comment"        : "This package contains the plugin, and the standard parts library.",
+    "author"         : [ "MOARdV", "Mihara" ],
     "$kref"          : "#/ckan/github/Mihara/RasterPropMonitor",
     "$vref"          : "#/ckan/ksp-avc",
-    "abstract"       : "RasterPropMonitor is a plugin and toolkit that provides functional props within your IVA.",
-    "author"         : [ "MOARdV", "Mihara" ],
-    "comment"        : "This package contains the plugin, and the standard parts library.",
-    "license"        : "GPL-3.0",
     "x_netkan_epoch" : "1",
+    "license"        : "GPL-3.0",
+    "tags": [
+        "plugin",
+        "manned"
+    ],
     "depends" : [
         { "name" : "ModuleManager" }
     ],

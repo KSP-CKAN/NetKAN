@@ -1,14 +1,18 @@
 {
     "spec_version"   : "v1.4",
-    "$kref"          : "#/ckan/github/Galileo88/Stock-Visual-Terrain",
-    "$vref"          : "#/ckan/ksp-avc",
     "identifier"     : "SVE-Terrain",
     "name"           : "Stock Visual Terrain",
     "abstract"       : "A terrain texture enhancement pack using Kopernicus for the stock planets.",
+    "$kref"          : "#/ckan/github/Galileo88/Stock-Visual-Terrain",
+    "$vref"          : "#/ckan/ksp-avc",
     "license"        : "CC-BY-NC-ND",
     "resources" : {
-        "homepage"     : "https://forum.kerbalspaceprogram.com/index.php?/topic/143828-*"
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/143828-*"
     },
+    "tags": [
+        "config",
+        "graphics"
+    ],
     "depends": [
         { "name": "Kopernicus" }
     ],

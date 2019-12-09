@@ -3,6 +3,10 @@
     "$kref"        : "#/ckan/spacedock/175",
     "identifier"   : "InterstellarFuelSwitch",
     "license"      : "GPL-2.0",
+    "tags": [
+        "manned",
+        "parts"
+    ],
     "install": [
         {
             "find" : "InterstellarFuelSwitch",
