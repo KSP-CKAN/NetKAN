@@ -1,9 +1,13 @@
 {
-    "$kref": "#/ckan/spacedock/958",
-    "identifier": "PlanetaryDomes",
     "spec_version": 1,
-    "license": "GPL-3.0",
+    "identifier":   "PlanetaryDomes",
+    "$kref":        "#/ckan/spacedock/958",
+    "license":      "GPL-3.0",
     "resources": {
         "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/148678-113-planetary-domes/"
-    }
+    },
+    "tags": [
+        "parts",
+        "manned"
+    ]
 }

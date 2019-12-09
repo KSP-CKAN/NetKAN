@@ -7,6 +7,10 @@
     "$vref":        "#/ckan/ksp-avc",
     "x_netkan_force_v": true,
     "license":      "CC-BY-4.0",
+    "tags": [
+        "config",
+        "graphics"
+    ],
     "depends": [
         {
             "name": "DistantObject"

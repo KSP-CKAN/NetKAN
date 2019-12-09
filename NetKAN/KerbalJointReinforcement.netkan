@@ -19,7 +19,10 @@
         }
     ],
     "resources": {
-        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/50911-13-kerbal-joint-reinforcement-v333-72417/",
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/50911-*",
         "repository": "https://github.com/ferram4/Kerbal-Joint-Reinforcement/"
-    }
+    },
+    "tags": [
+        "physics"
+    ]
 }

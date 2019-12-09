@@ -10,6 +10,10 @@
     "resources": {
         "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/189759-*"
     },
+    "tags": [
+        "config",
+        "graphics"
+    ],
     "install": [ {
         "find":       "PlanetColors.cfg",
         "install_to": "GameData/DistantObject",

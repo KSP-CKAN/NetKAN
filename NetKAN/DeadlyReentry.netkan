@@ -7,9 +7,15 @@
     "$vref"          : "#/ckan/ksp-avc",
     "license"        : "CC-BY-SA",
     "resources"      : {
-        "homepage"   : "https://forum.kerbalspaceprogram.com/index.php?/topic/50296-131-deadly-reentry-v762-nov-16-2017-the-ariel-edition/",
+        "homepage"   : "https://forum.kerbalspaceprogram.com/index.php?/topic/50296-*",
         "repository" : "https://github.com/Starwaster/DeadlyReentry"
     },
+    "tags"           : [
+        "plugin",
+        "parts",
+        "physics",
+        "sound"
+    ],
     "depends"        : [
         { "name": "ModuleManager", "min_version" : "2.6.5" }
     ],

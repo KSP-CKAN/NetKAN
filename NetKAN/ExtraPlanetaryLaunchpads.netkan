@@ -1,27 +1,32 @@
 {
     "spec_version"   : 1,
+    "identifier"     : "ExtraPlanetaryLaunchpads",
     "name"           : "Extraplanetary Launchpads",
+    "abstract"       : "Adds the ability to build crafts in flight mode to your game.",
+    "author"         : "taniwha",
     "$kref"          : "#/ckan/ksp-avc/http://taniwha.org/~bill/EL.version",
     "$vref"          : "#/ckan/ksp-avc/ExtraplanetaryLaunchpads/Plugins/ExtraplanetaryLaunchpads.version",
-    "abstract"       : "Adds the ability to build crafts in flight mode to your game.",
-    "identifier"     : "ExtraPlanetaryLaunchpads",
-    "author"         : "taniwha",
     "license"        : "GPL-3.0",
     "release_status" : "stable",
     "resources"      : {
         "homepage" : "https://forum.kerbalspaceprogram.com/index.php?/topic/54284-*",
         "repository" : "https://github.com/taniwha-qf/Extraplanetary-Launchpads"
     },
+    "tags"           : [
+        "plugin",
+        "parts",
+        "manned"
+    ],
     "depends"        : [
-        {"name" : "ModuleManager"},
-        {"name" : "KIS"}
+        { "name" : "ModuleManager" },
+        { "name" : "KIS"           }
     ],
     "recommends"     : [
-        {"name" : "KAS"},
-        {"name" : "InfernalRobotics"},
-        {"name" : "KerbalStats"},
-        {"name" : "Kethane"},
-        {"name" : "Toolbar"}
+        { "name" : "KAS"              },
+        { "name" : "InfernalRobotics" },
+        { "name" : "KerbalStats"      },
+        { "name" : "Kethane"          },
+        { "name" : "Toolbar"          }
     ],
     "install"        : [
         {

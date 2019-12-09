@@ -1,5 +1,8 @@
 {
     "spec_version"        : "v1.4",
     "identifier"    : "NearFutureElectrical-DecayingRTGs",
-    "$kref"         : "#/ckan/netkan/https://github.com/ChrisAdderley/NearFutureElectrical/raw/master/CKAN/NearFutureElectrical-DecayingRTGs.netkan"
+    "$kref"         : "#/ckan/netkan/https://github.com/ChrisAdderley/NearFutureElectrical/raw/master/CKAN/NearFutureElectrical-DecayingRTGs.netkan",
+    "tags": [
+        "config"
+    ]
 }

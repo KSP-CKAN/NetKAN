@@ -3,6 +3,9 @@
     "identifier":   "PlanetaryStationCores",
     "$kref":        "#/ckan/spacedock/1915",
     "license":      "MIT",
+    "tags": [
+        "parts"
+    ],
     "install": [ {
         "find":       "OPPS",
         "install_to": "GameData"

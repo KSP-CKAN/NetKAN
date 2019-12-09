@@ -1,5 +1,9 @@
 {
     "spec_version"   : "v1.4",
     "identifier"     : "CommunityTechTree",
-    "$kref"         : "#/ckan/netkan/https://github.com/ChrisAdderley/CommunityTechTree/raw/master/CKAN/CommunityTechTree.netkan"
+    "$kref"         : "#/ckan/netkan/https://github.com/ChrisAdderley/CommunityTechTree/raw/master/CKAN/CommunityTechTree.netkan",
+    "tags": [
+        "config",
+        "tech-tree"
+    ]
 }

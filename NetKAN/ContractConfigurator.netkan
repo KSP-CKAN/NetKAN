@@ -2,5 +2,10 @@
     "spec_version": "v1.16",
     "identifier": "ContractConfigurator",
     "$kref" : "#/ckan/netkan/https://raw.githubusercontent.com/jrossignol/ContractConfigurator/master/ContractConfigurator.netkan",
-    "x_netkan_license_ok" : true
+    "x_netkan_license_ok" : true,
+    "tags": [
+        "plugin",
+        "library",
+        "career"
+    ]
 }
