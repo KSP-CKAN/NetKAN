@@ -3,5 +3,10 @@
         "spec_version" : "v1.16",
         "identifier" : "CommunityResourcePack",
         "$kref" : "#/ckan/netkan/https://raw.githubusercontent.com/BobPalmer/CKAN/master/CommunityResourcePack.netkan",
+        "tags": [
+            "config",
+            "library",
+            "resources"
+        ],
         "x_netkan_license_ok": true
     }

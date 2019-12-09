@@ -1,6 +1,10 @@
 {
-  "spec_version" : 1,
-  "identifier"   : "B9-props",
-  "$kref"        : "#/ckan/netkan/https://raw.githubusercontent.com/blowfishpro/B9-Aerospace/master/NetKAN/B9-props.netkan",
-  "x_netkan_license_ok": true
+    "spec_version" : 1,
+    "identifier"   : "B9-props",
+    "$kref"        : "#/ckan/netkan/https://raw.githubusercontent.com/blowfishpro/B9-Aerospace/master/NetKAN/B9-props.netkan",
+    "tags": [
+        "config",
+        "manned"
+    ],
+    "x_netkan_license_ok": true
 }

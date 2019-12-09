@@ -8,6 +8,14 @@
     "author"         : [ "ferram4", "Starwaster" ],
     "license"        : "GPL-3.0",
     "release_status" : "stable",
+    "resources": {
+        "homepage":  "https://forum.kerbalspaceprogram.com/index.php?/topic/184019-*",
+        "repository": "https://github.com/KSP-RO/Kerbal-Joint-Reinforcement-Continued"
+    },
+    "tags": [
+        "plugin",
+        "physics"
+    ],
     "x_netkan_override" : [
         {
             "version" : "v3.1.4",
@@ -27,9 +35,5 @@
     "provides"      : [ "KerbalJointReinforcement" ],
     "conflicts"     : [
         { "name"    : "KerbalJointReinforcement" }
-    ],
-    "resources": {
-        "homepage":  "https://forum.kerbalspaceprogram.com/index.php?/topic/184019-*",
-        "repository": "https://github.com/KSP-RO/Kerbal-Joint-Reinforcement-Continued"
-    }
+    ]
 }

@@ -15,6 +15,10 @@
         "manual": "http://triggerau.github.io/KerbalAlarmClock/",
         "x_curse": "http://kerbal.curseforge.com/ksp-mods/220289-kerbal-alarm-clock"
     },
+    "tags": [
+        "plugin",
+        "information"
+    ],
     "recommends"  :[
         { "name" : "TriggerAu-Flags" }
     ],

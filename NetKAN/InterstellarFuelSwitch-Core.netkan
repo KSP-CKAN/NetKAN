@@ -6,6 +6,11 @@
     "name"         : "Interstellar Fuel Switch Core",
     "abstract"     : "Core plugin for Interstellar Fuel Switch",
     "license"      : "GPL-2.0",
+    "tags": [
+        "plugin",
+        "resources",
+        "library"
+    ],
     "install": [
         {
             "find"       : "InterstellarFuelSwitch/Plugins",

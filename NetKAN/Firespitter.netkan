@@ -17,6 +17,11 @@
         "homepage" : "http://snjo.github.io/",
         "repository"  : "https://github.com/snjo/Firespitter"
     },
+    "tags": [
+        "parts",
+        "manned",
+        "sound"
+    ],
     "depends" : [
         {
             "name"        : "FirespitterCore",

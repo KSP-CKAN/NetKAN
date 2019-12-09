@@ -11,24 +11,28 @@
     "x_netkan_staging": true,
     "x_netkan_staging_reason": "Tricky dependencies, make sure the SVE-Textures providers are indexed",
     "resources" : {
-        "homepage"     : "https://forum.kerbalspaceprogram.com/index.php?/topic/143288-*"
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/143288-*"
     },
+    "tags": [
+        "config",
+        "graphics"
+    ],
     "provides": [
         "EnvironmentalVisualEnhancements-Config"
-     ],
+    ],
     "conflicts": [
         { "name" : "EnvironmentalVisualEnhancements-Config" },
-		{ "name" : "GPP" }
+		{ "name" : "GPP"                                    }
     ],
     "depends": [
-        { "name": "SVE-Textures" },
+        { "name": "SVE-Textures"                    },
         { "name": "EnvironmentalVisualEnhancements" },
-        { "name": "ModuleManager"}
+        { "name": "ModuleManager"                   }
     ],
     "recommends": [
-        { "name": "Scatterer" },
+        { "name": "Scatterer"     },
         { "name": "DistantObject" },
-        { "name": "PlanetShine" }
+        { "name": "PlanetShine"   }
     ],
     "install": [
         {
