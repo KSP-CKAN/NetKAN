@@ -1,16 +1,22 @@
 {
     "spec_version"   : 1,
     "identifier"     : "RealChute",
-    "license"        : "restricted",
-    "$kref"          : "#/ckan/github/StupidChris/RealChute",
-    "$vref"          : "#/ckan/ksp-avc",
     "name"           : "RealChute Parachute Systems",
     "abstract"       : "RealChute is a complete rework of the stock parachute module to fix a few of it's inconveniences and get more realistic results out of parachutes!",
     "author"         : [ "stupid_chris", "sumghai" ],
+    "$kref"          : "#/ckan/github/StupidChris/RealChute",
+    "$vref"          : "#/ckan/ksp-avc",
+    "license"        : "restricted",
     "resources"      : {
         "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/52931-0",
         "repository" : "https://github.com/StupidChris/RealChute"
     },
+    "tags": [
+        "plugin",
+        "parts",
+        "physics",
+        "sound"
+    ],
     "recommends" : [
         { "name" : "ModuleManager" }
     ],

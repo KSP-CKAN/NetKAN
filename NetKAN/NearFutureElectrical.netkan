@@ -1,5 +1,8 @@
 {
     "spec_version"        : "v1.4",
     "identifier"    : "NearFutureElectrical",
-    "$kref"         : "#/ckan/netkan/https://github.com/ChrisAdderley/NearFutureElectrical/raw/master/CKAN/NearFutureElectrical.netkan"
+    "$kref"         : "#/ckan/netkan/https://github.com/ChrisAdderley/NearFutureElectrical/raw/master/CKAN/NearFutureElectrical.netkan",
+    "tags": [
+        "parts"
+    ]
 }

@@ -2,5 +2,10 @@
     "spec_version" : "v1.16",
     "identifier": "WaypointManager",
     "$kref" : "#/ckan/netkan/https://raw.githubusercontent.com/jrossignol/WaypointManager/master/WaypointManager.netkan",
-    "x_netkan_license_ok" : true
+    "x_netkan_license_ok" : true,
+    "tags": [
+        "plugin",
+        "information",
+        "convenience"
+    ]
 }

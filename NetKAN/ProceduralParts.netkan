@@ -17,6 +17,10 @@
     "resources" : {
         "homepage"     : "https://forum.kerbalspaceprogram.com/index.php?/topic/169250-*"
     },
+    "tags": [
+        "plugin",
+        "parts"
+    ],
     "depends" : [
         { "name" : "ModuleManager" }
     ],

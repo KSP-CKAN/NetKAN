@@ -27,5 +27,10 @@
         "homepage" : "https://github.com/KSP-RO/TacLifeSupport/wiki",
         "bugtracker" : "https://github.com/KSP-RO/TacLifeSupport/issues",
         "repository" : "https://github.com/KSP-RO/TacLifeSupport"
-    }
+    },
+    "tags": [
+        "plugin",
+        "manned",
+        "parts"
+    ]
 }

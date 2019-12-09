@@ -1,5 +1,8 @@
 {
     "spec_version"  : "v1.4",
     "identifier"    : "NearFutureConstruction",
-    "$kref"         : "#/ckan/netkan/https://github.com/ChrisAdderley/NearFutureConstruction/raw/master/CKAN/NearFutureConstruction.netkan"
+    "$kref"         : "#/ckan/netkan/https://github.com/ChrisAdderley/NearFutureConstruction/raw/master/CKAN/NearFutureConstruction.netkan",
+    "tags": [
+        "parts"
+    ]
 }

@@ -12,5 +12,9 @@
                             "filter" : [ "ModuleAnimateEmissive.dll", "PluginData" ] } ],
     "resources"     :   {
         "homepage"  :   "https://forum.kerbalspaceprogram.com/index.php?/topic/110746-*"
-    }
+    },
+    "tags"          :   [
+        "plugin",
+        "library"
+    ]
 }

@@ -16,6 +16,10 @@
         "homepage"   : "https://forum.kerbalspaceprogram.com/index.php?/topic/184206-*",
         "repository" : "https://github.com/meirumeiru/Kerbal-Joint-Reinforcement"
     },
+    "tags"           : [
+        "plugin",
+        "physics"
+    ],
     "install"        : [ {
         "file"       : "GameData/KerbalJointReinforcement",
         "install_to" : "GameData"

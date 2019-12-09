@@ -12,6 +12,10 @@
         "repository" : "https://github.com/KSP-RO/RSS-Textures",
         "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/177216-*"
     },
+    "tags": [
+        "config",
+        "graphics"
+    ],
     "provides": [ "RSSTextures" ],
     "conflicts": [
         { "name": "RSSTextures" }
