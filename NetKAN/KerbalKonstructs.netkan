@@ -7,6 +7,13 @@
     "$vref"        : "#/ckan/ksp-avc",
     "license"      : "restricted",
     "comment"      : "Plugin is MIT, but Static Assets, Artwork & Models are ARR",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/151818-*"
+    },
+    "tags": [
+        "plugin",
+        "library"
+    ],
     "depends"      : [
         { "name"   : "ModuleManager"         },
         { "name"   : "CustomPreLaunchChecks" }
@@ -19,8 +26,5 @@
             "find"       : "KerbalKonstructs",
             "install_to" : "GameData"
         }
-    ],
-    "resources": {
-        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/151818-*"
-    }
+    ]
 }

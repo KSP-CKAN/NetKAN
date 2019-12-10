@@ -1,8 +1,15 @@
 {
-    "license": "CC-BY-NC-SA",
-    "$kref": "#/ckan/spacedock/829",
     "spec_version": "v1.4",
     "identifier": "ContractConfigurator-ContractPackHistoricalProgression",
+    "$kref": "#/ckan/spacedock/829",
+    "license": "CC-BY-NC-SA",
+    "resources" : {
+        "homepage" : "http://forum.kerbalspaceprogram.com/index.php?/topic/143397-*"
+    },
+    "tags": [
+        "config",
+        "career"
+    ],
     "depends" : [
         { "name" : "ContractConfigurator" },
         { "name" : "ModuleManager" }
@@ -14,17 +21,11 @@
         { "name": "RealSolarSystem" },
         { "name": "DMagicOrbitalScience" },
         { "name": "SCANsat" },
-	{ "name": "TACLS" },
+        { "name": "TACLS" },
         { "name": "USI-LS" }
     ],
-
-    "install" : [
-        {
-            "find" : "HistoricalProgression",
-            "install_to" : "GameData/ContractPacks"
-        }
-    ],
-    "resources" : {
-        "homepage" : "http://forum.kerbalspaceprogram.com/index.php?/topic/143397-113-contract-pack-historical-progression-v12-7232016/"
-    }
+    "install" : [ {
+        "find" : "HistoricalProgression",
+        "install_to" : "GameData/ContractPacks"
+    } ]
 }

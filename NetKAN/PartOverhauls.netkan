@@ -10,8 +10,12 @@
     "release_status" : "development",
     "ksp_version_min": "1.1.0",
     "resources" : {
-        "homepage" : "http://forum.kerbalspaceprogram.com/index.php?/topic/147582-update-12-pre-release-is-here/"
+        "homepage" : "http://forum.kerbalspaceprogram.com/index.php?/topic/147582-*"
     },
+    "tags": [
+        "parts",
+        "graphics"
+    ],
     "install" : [
         {
             "file"       : "GameData/PartOverhauls",

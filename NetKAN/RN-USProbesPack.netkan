@@ -5,15 +5,18 @@
     "author"        : "Raidernick",
     "abstract"      : "This pack will include pretty much all probes ever launched by NASA and the US military. It is a long term project and I will be adding to it slowly over time.",
     "comment"       : "Ships installed again",
-    "resources": {
-        "homepage"  : "https://forum.kerbalspaceprogram.com/index.php?/topic/84250-122-131-us-probes-pack-old-and-new-v069-4-2-18/"
-    },
     "$kref"         : "#/ckan/github/KSP-RO/USProbesPack",
+    "$vref"         : "#/ckan/ksp-avc",
+	"x_netkan_epoch": 1,
     "license"       : "CC-BY-NC-ND-3.0",
-    "$vref"        : "#/ckan/ksp-avc",
-	"x_netkan_epoch"   : 1,
-    "install"       :
-    [
+    "resources": {
+        "homepage"  : "https://forum.kerbalspaceprogram.com/index.php?/topic/84250-*"
+    },
+    "tags": [
+        "parts",
+        "unmanned"
+    ],
+    "install"       : [
       {
         "find"      : "RN_US_Probes",
         "install_to": "GameData"
@@ -28,8 +31,7 @@
         { "name": "TexturesUnlimited" },
 		{ "name": "ModuleManager" }
     ],
-	"recommends"    :
-    [
+	"recommends"    : [
         { "name"    : "RN-USRockets" }
     ]
 }

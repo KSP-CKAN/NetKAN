@@ -2,5 +2,12 @@
     "spec_version": "v1.4",
     "identifier": "RP-0",
     "$kref": "#/ckan/netkan/https://raw.githubusercontent.com/KSP-RO/RP-0/master/RP-0.netkan",
-    "x_netkan_license_ok": true
+    "x_netkan_license_ok": true,
+    "tags": [
+        "plugin",
+        "config",
+        "parts",
+        "career",
+        "science"
+    ]
 }

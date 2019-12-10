@@ -9,6 +9,10 @@
     "resources": {
         "homepage" : "https://forum.kerbalspaceprogram.com/index.php?/topic/184277-*"
     },
+    "tags": [
+        "plugin",
+        "control"
+    ],
     "install": [
         {
             "file"       : "GameData/Pilot Assistant",

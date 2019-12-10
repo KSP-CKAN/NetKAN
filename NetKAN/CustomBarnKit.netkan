@@ -1,16 +1,20 @@
 {
     "spec_version": "v1.16",
     "identifier": "CustomBarnKit",
-    "$kref": "#/ckan/jenkins/https://ksp.sarbian.com/jenkins/job/CustomBarnKit/",
-    "$vref": "#/ckan/ksp-avc",
     "name": "Custom Barn Kit",
     "abstract": "A small plugin to change a bunch of parameters related to career, science, the buildings upgrade cost and when various features are unlocked.",
     "author": "Sarbian",
+    "$kref": "#/ckan/jenkins/https://ksp.sarbian.com/jenkins/job/CustomBarnKit/",
+    "$vref": "#/ckan/ksp-avc",
     "license": "MIT",
     "resources": {
-        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/109027-14-custom-barn-kit-1117-march-10th-parachute-included/",
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/109027-*",
         "repository": "https://github.com/sarbian/CustomBarnKit"
     },
+    "tags": [
+        "plugin",
+        "library"
+    ],
     "install": [
         {
             "find": "CustomBarnKit",

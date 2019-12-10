@@ -4,6 +4,9 @@
     "$kref"        : "#/ckan/spacedock/90",
     "$vref"        : "#/ckan/ksp-avc",
     "x_netkan_license_ok": true,
+    "tags": [
+        "parts"
+    ],
     "depends": [
         { "name": "ModuleManager" }
     ],

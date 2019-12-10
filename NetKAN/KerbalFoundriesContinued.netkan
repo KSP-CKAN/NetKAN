@@ -1,25 +1,22 @@
 {
-  "spec_version": "v1.4",
-  "install": [
-    {
-      "install_to": "GameData",
-      "find": "KerbalFoundries"
-    }
-  ],
-  "depends": [
-    {
-      "name": "KSPWheel"
+    "spec_version": "v1.4",
+    "identifier":   "KerbalFoundriesContinued",
+    "$kref":        "#/ckan/github/shadowmage45/KerbalFoundries2",
+    "$vref":        "#/ckan/ksp-avc",
+    "license":      "CC-BY-NC-SA-4.0",
+    "depends": [
+        { "name": "KSPWheel"      },
+        { "name": "ModuleManager" }
+    ],
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/155056-*"
     },
-    {
-      "name": "ModuleManager"
-    }
-  ],
-  "$vref": "#/ckan/ksp-avc",
-  "$kref": "#/ckan/github/shadowmage45/KerbalFoundries2",
-  "x_via": "Automated Linuxgurugamer CKAN script",
-  "identifier": "KerbalFoundriesContinued",
-  "license": "CC-BY-NC-SA-4.0",
-  "resources": {
-    "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/155056-*"
-  }
+    "tags": [
+        "plugin",
+        "parts"
+    ],
+    "install": [ {
+        "find": "KerbalFoundries",
+        "install_to": "GameData"
+    } ]
 }
