@@ -1,5 +1,8 @@
 {
     "spec_version"  : "v1.4",
     "identifier"    : "NearFuturePropulsion-XenonHETs",
-    "$kref"         : "#/ckan/netkan/https://github.com/ChrisAdderley/NearFuturePropulsion/raw/master/CKAN/NearFuturePropulsion-XenonHETs.netkan"
+    "$kref"         : "#/ckan/netkan/https://github.com/ChrisAdderley/NearFuturePropulsion/raw/master/CKAN/NearFuturePropulsion-XenonHETs.netkan",
+    "tags": [
+        "parts"
+    ]
 }

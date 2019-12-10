@@ -7,6 +7,11 @@
     "resources": {
         "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/116789-*"
     },
+    "tags": [
+        "config",
+        "career",
+        "unmanned"
+    ],
     "install": [ {
         "find":       "ContractPacks",
         "install_to": "GameData"

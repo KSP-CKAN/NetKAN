@@ -1,14 +1,13 @@
 {
     "spec_version" : 1,
     "identifier"   : "KerbalFlightIndicators",
-    "$kref"        : "#/ckan/github/PapaJoesSoup/KerbalFlightIndicators",
-    "$vref"        : "#/ckan/ksp-avc",
     "name"         : "Kerbal Flight Indicators",
     "abstract"     : "Displays indicators for the flight vector and other things. Works like a HUD. In external view, too!",
+    "$kref"        : "#/ckan/github/PapaJoesSoup/KerbalFlightIndicators",
+    "$vref"        : "#/ckan/ksp-avc",
     "license"      : "CC-BY-NC-SA-3.0",
     "resources" : {
-        "homepage" : "https://forum.kerbalspaceprogram.com/index.php?/topic/172904-141-kerbal-flight-indicators-release-16-2018-03-23/"
+        "homepage" : "https://forum.kerbalspaceprogram.com/index.php?/topic/172904-*"
     },
-    "author" : [ "DaMichel", "Papa_Joe" ],
     "release_status" : "stable"
 }

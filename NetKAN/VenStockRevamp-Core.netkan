@@ -1,0 +1,28 @@
+{
+    "spec_version" : "v1.4",
+    "identifier"   : "VenStockRevamp-Core",
+    "name"         : "Ven's Stock Part Revamp Core",
+    "abstract"     : "Shared resources for Ven's Stock Revamp and Ven's New Parts",
+    "$kref"        : "#/ckan/github/Kerbas-ad-astra/Stock-Revamp",
+    "$vref"        : "#/ckan/ksp-avc",
+    "license"      : "CC-BY-4.0",
+    "resources": {
+        "homepage" : "https://forum.kerbalspaceprogram.com/index.php?/topic/189732-*"
+    },
+    "tags": [
+        "parts",
+        "graphics"
+    ],
+    "depends": [
+        { "name" : "ModuleManager" }
+    ],
+    "recommends": [
+        { "name": "VenStockRevamp" },
+        { "name": "VenStockRevamp-NewParts" }
+    ],
+    "install": [ {
+        "find"       : "VenStockRevamp",
+        "install_to" : "GameData",
+        "filter"     : [ "PathPatches", "Squad", "Part Bin" ]
+    } ]
+}

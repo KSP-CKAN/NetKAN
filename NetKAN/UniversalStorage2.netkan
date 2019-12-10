@@ -4,6 +4,9 @@
     "$kref":        "#/ckan/spacedock/1933",
     "$vref":        "#/ckan/ksp-avc",
     "license":      "restricted",
+    "tags": [
+        "parts"
+    ],
     "depends": [
         { "name": "ModuleManager"         },
         { "name": "CommunityResourcePack" }

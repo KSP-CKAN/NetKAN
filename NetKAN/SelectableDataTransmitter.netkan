@@ -1,20 +1,18 @@
 {
-  "license": "MIT",
-  "name": "Selectable Data Transmitter Module",
-  "identifier": "SelectableDataTransmitter",
-  "x_via": "Automated Linuxgurugamer CKAN script",
-  "author": [
-		"linuxgurugamer"
-	],
-  "$kref": "#/ckan/github/linuxgurugamer/SelectableDataTransmitter",
-  "$vref": "#/ckan/ksp-avc",
-  "release_status": "stable",
-  "ksp_version": "1.2.2",
-  "install": [
-    {
-      "find": "SelectableDataTransmitter",
-      "install_to": "GameData"
-    }
-  ],
-  "spec_version": "v1.4"
+    "spec_version": "v1.4",
+    "identifier":   "SelectableDataTransmitter",
+    "name":         "Selectable Data Transmitter Module",
+    "author":       [ "linuxgurugamer" ],
+    "$kref":        "#/ckan/github/linuxgurugamer/SelectableDataTransmitter",
+    "$vref":        "#/ckan/ksp-avc",
+    "release_status": "stable",
+    "license":      "MIT",
+    "install": [ {
+        "find": "SelectableDataTransmitter",
+        "install_to": "GameData"
+    } ],
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/154305-*"
+    },
+    "x_via": "Automated Linuxgurugamer CKAN script"
 }

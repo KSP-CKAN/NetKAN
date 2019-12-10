@@ -6,6 +6,10 @@
       "find": "PatchManager"
     }
   ],
+  "depends": [
+        { "name" : "ToolbarController" },
+        { "name" : "ClickThroughBlocker" }
+  ],
   "resources": {
      "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/163072-13-"
   },

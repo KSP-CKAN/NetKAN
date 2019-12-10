@@ -1,8 +1,8 @@
 {
     "spec_version"      :   "v1.4",
     "identifier"        :   "ProceduralParts",
-    "author"            :   [ "Starwaster", "Tidal-Stream" ],
-    "$kref"             :   "#/ckan/github/Tidal-Stream/ProceduralParts",
+    "author"            :   [ "Starwaster", "Tidal-Stream", "jrodrigv" ],
+    "$kref"             :   "#/ckan/github/jrodrigv/ProceduralParts",
     "$vref"             :   "#/ckan/ksp-avc",
     "name"              :   "Procedural Parts",
     "abstract"          :   "ProceduralParts allows you to procedurally generate a number of different parts in a range of sizes and shapes.",
@@ -17,6 +17,10 @@
     "resources" : {
         "homepage"     : "https://forum.kerbalspaceprogram.com/index.php?/topic/169250-*"
     },
+    "tags": [
+        "plugin",
+        "parts"
+    ],
     "depends" : [
         { "name" : "ModuleManager" }
     ],

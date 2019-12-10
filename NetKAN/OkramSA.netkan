@@ -20,5 +20,8 @@
             "file"       : "Flags",
             "install_to" : "GameData/Okram"
         }
-    ]
+    ],
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/60383-*"
+    }
 }

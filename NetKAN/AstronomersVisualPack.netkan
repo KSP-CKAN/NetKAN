@@ -11,9 +11,13 @@
     "resources": {
         "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/160878-*"
 	},
+    "tags": [
+        "config",
+        "graphics"
+    ],
     "conflicts": [
         { "name" : "EnvironmentalVisualEnhancements-Config" }
-    ],	
+    ],
     "depends" : [
         { "name": "EnvironmentalVisualEnhancements" },
         { "name": "Scatterer" },

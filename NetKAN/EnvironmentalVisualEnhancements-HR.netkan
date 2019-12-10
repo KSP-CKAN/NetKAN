@@ -9,6 +9,10 @@
         "homepage"   : "http://forum.kerbalspaceprogram.com/index.php?/topic/149733-EVE",
         "repository" : "https://github.com/WazWaz/EnvironmentalVisualEnhancements"
     },
+    "tags": [
+        "config",
+        "graphics"
+    ],
     "install": [
         {
             "file"       : "GameData/BoulderCo",

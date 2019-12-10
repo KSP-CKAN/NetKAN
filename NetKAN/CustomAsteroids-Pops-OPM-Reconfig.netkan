@@ -34,5 +34,8 @@
             "filter_regexp": "(?<!OPM-Reconfig\\.cfg)$"
         }
     ],
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/72785-*"
+    },
     "x_maintained_by": "HSJasperism"
 }

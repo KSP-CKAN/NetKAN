@@ -1,9 +1,12 @@
 {
     "spec_version": "v1.4",
-    "identifier": "SpaceXLaunchVehicles",
-    "license": "restricted",
-    "$kref": "#/ckan/spacedock/269",
-    "install": [
+    "identifier":   "SpaceXLaunchVehicles",
+    "$kref":        "#/ckan/spacedock/269",
+    "license":      "restricted",
+    "tags": [
+        "parts"
+    ],
+    "depends": [
         { "name": "ModuleManager" }
     ],
     "install": [

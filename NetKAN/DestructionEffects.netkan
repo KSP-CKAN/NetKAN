@@ -1,14 +1,13 @@
 {
     "spec_version": 1,
     "identifier": "DestructionEffects",
-    "$kref": "#/ckan/github/jrodrigv/DestructionEffects",
     "name": "Destruction Effects",
     "abstract": "This mod adds flames and smoke to certain parts' joint break event.",
-    "author": [ "BahamutoD", "jrodrigv" ],
+    "$kref": "#/ckan/github/jrodrigv/DestructionEffects",
+    "$vref": "#/ckan/ksp-avc",
     "license": "CC0",
-    "$vref"        : "#/ckan/ksp-avc",
     "resources": {
-        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/99088-10xdestruction-effects-flames-and-smoke-on-joint-breaks"
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/99088-*"
     },
     "x_netkan_epoch": 2
 }

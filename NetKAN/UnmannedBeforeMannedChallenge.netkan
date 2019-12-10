@@ -1,6 +1,26 @@
 {
-    "spec_version": 1,
-    "identifier": "UnmannedBeforeMannedChallenge",
-    "$kref": "#/ckan/netkan/https://raw.githubusercontent.com/Y3mo/SETI-NetKAN/master/UnmannedBeforeMannedChallenge.netkan",
-    "x_netkan_license_ok": true
+    "spec_version": "v1.4",
+    "identifier":   "UnmannedBeforeMannedChallenge",
+    "name":         "Unmanned Before Manned Challenge (SETI-UbMchallenge)",
+    "abstract":     "Makes UbM a bit more challenging. Reaction wheels not before 90 science, fuel lines to 550 science node, skipper engine one node later",
+    "$kref":        "#/ckan/github/Y3mo/UnmannedBeforeMannedChallenge",
+    "$vref":        "#/ckan/ksp-avc",
+    "license":      "restricted",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/95645-*"
+    },
+    "depends": [
+        { "name" : "ModuleManager" },
+        { "name" : "UnmannedBeforeManned" }
+    ],
+    "recommends": [
+        { "name": "SETI-BalanceMod" },
+        { "name": "SETI-ProbeParts" }
+    ],
+    "install": [
+        {
+            "find"       : "UnmannedBeforeMannedChallenge",
+            "install_to" : "GameData"
+        }
+    ]
 }

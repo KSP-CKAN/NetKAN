@@ -1,58 +1,33 @@
 {
     "spec_version" : "v1.4",
     "identifier"   : "VenStockRevamp",
-    "$kref"        : "#/ckan/github/VenVen/Stock-Revamp",
     "name"         : "Ven's Stock Part Revamp",
     "abstract"     : "With this part pack, your rockets/planes/racecars will look at least 20% cooler as they tumble into the ground!",
-    "license"      : "CC-BY-4.0",
+    "$kref"        : "#/ckan/github/Kerbas-ad-astra/Stock-Revamp",
     "$vref"        : "#/ckan/ksp-avc",
-    "depends"      : [
-        { "name" : "ModuleManager" }
-    ],
-    "suggests"      : [
-        { "name" : "VensStockPartRevamp-CTTPatch" }
-    ],
-    "resources" : {
-        "homepage"     : "https://forum.kerbalspaceprogram.com/index.php?/topic/83696-122-stock-part-revamp-update-196-released-source-files/"
+    "license"      : "CC-BY-4.0",
+    "resources": {
+        "homepage" : "https://forum.kerbalspaceprogram.com/index.php?/topic/189732-*"
     },
-    "install": [
-        {
-            "find"       : "VenStockRevamp",
-            "install_to" : "GameData"
-        }
+    "tags": [
+        "parts",
+        "graphics"
     ],
-    "x_netkan_override" : [
-        {
-            "version" : "v1.8.1",
-            "delete" : [ "ksp_version" ],
-            "override" : {
-                "ksp_version_min" : "1.0.0",
-                "ksp_version_max" : "1.0.4"
-            }
-        },
-        {
-            "version" : "v1.9.2",
-            "delete" : [ "ksp_version" ],
-            "override" : {
-                "ksp_version_min" : "1.1.0",
-                "ksp_version_max" : "1.1.99"
-            }
-        },
-        {
-            "version" : "v1.9.4",
-            "delete" : [ "ksp_version" ],
-            "override" : {
-                "ksp_version_min" : "1.1.0",
-                "ksp_version_max" : "1.1.99"
-            }
-        },
-        {
-            "version": "v1.9.6",
-            "delete": [ "ksp_version" ],
-            "override": {
-                "ksp_version_min": "1.2.0",
-                "ksp_version_max": "1.3.99"
-            }
-        }
-    ]
+    "depends": [
+        { "name" : "ModuleManager"       },
+        { "name" : "VenStockRevamp-Core" }
+    ],
+    "recommends": [
+        { "name": "VenStockRevamp-NewParts" }
+    ],
+    "conflicts": [
+        { "name" : "ReStock" }
+    ],
+    "install": [ {
+        "find"       : "VenStockRevamp/PathPatches",
+        "install_to" : "GameData/VenStockRevamp"
+    }, {
+        "find"       : "VenStockRevamp/Squad",
+        "install_to" : "GameData/VenStockRevamp"
+    } ]
 }

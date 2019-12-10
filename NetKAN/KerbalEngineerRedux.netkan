@@ -3,7 +3,6 @@
     "identifier":   "KerbalEngineerRedux",
     "name":         "Kerbal Engineer Redux",
     "abstract":     "Reveals important statistics about your ship and its orbit during building and flight",
-    "author":       [ "CYBUTEK", "jrbudda" ],
     "$kref":        "#/ckan/github/jrbudda/KerbalEngineer",
     "$vref":        "#/ckan/ksp-avc",
     "license":      "GPL-3.0",
@@ -11,6 +10,10 @@
     "resources": {
         "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/17833-*"
     },
+    "tags": [
+        "plugin",
+        "information"
+    ],
     "install": [
         {
             "file":       "KerbalEngineer",

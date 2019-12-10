@@ -1,18 +1,24 @@
 {
     "spec_version": "v1.16",
     "identifier": "CustomBarnKit-RO",
+    "name": "Custom Barn Kit - RO build",
+    "abstract": "A small plugin to change a bunch of parameters related to career, science, the buildings upgrade cost and when various features are unlocked. Build for Realism Overhaul",
+    "author": "Sarbian",
     "$kref": "#/ckan/jenkins/https://ksp.sarbian.com/jenkins/job/CustomBarnKit-RO/",
     "$vref": "#/ckan/ksp-avc",
-    "name": "Custom Barn Kit - RO build",
-    "abstract": "A small plugin to change a bunch of parameters related to career, science, the buildings upgrade cost and when various features are unlocked. Build for Realism Overhaull",
-    "author": "Sarbian",
-    "license": "MIT",
-    "resources": {
-        "homepage": "http://forum.kerbalspaceprogram.com/threads/121100",
-        "repository": "https://github.com/sarbian/CustomBarnKit"
-    },
     "ksp_version_min": "1.3.0",
     "ksp_version_max": "1.3.99",
+    "x_netkan_staging": true,
+    "x_netkan_staging_reason": "Game versions hard coded in netkan, please make sure they still match the forum thread",
+    "license": "MIT",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/109027-*",
+        "repository": "https://github.com/sarbian/CustomBarnKit"
+    },
+    "tags": [
+        "plugin",
+        "library"
+    ],
     "install": [
         {
             "find": "CustomBarnKit",

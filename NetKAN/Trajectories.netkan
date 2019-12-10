@@ -5,9 +5,11 @@
     "$vref"               : "#/ckan/ksp-avc",
     "x_netkan_force_v"    : true,
     "x_netkan_license_ok" : true,
+    "tags"                : [
+        "plugin",
+        "information"
+    ],
     "depends"             : [
-        {
-            "name" : "ModuleManager"
-        }
+        { "name" : "ModuleManager" }
     ]
 }

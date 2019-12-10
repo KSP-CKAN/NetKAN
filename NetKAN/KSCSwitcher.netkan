@@ -1,22 +1,27 @@
 {
-    "$kref": "#/ckan/github/KSP-RO/KSCSwitcher",
-    "$vref": "#/ckan/ksp-avc",
-    "identifier": "KSCSwitcher",
     "spec_version": 1,
-    "name": "KSC Switcher",
-    "abstract": "Allows you to move KSC to other locations on Kerbin from the Tracking Station.",
-    "author": "regex",
-    "license": "BSD-2-clause",
+    "identifier":   "KSCSwitcher",
+    "name":         "KSC Switcher",
+    "abstract":     "Allows you to move KSC to other locations on Kerbin from the Tracking Station.",
+    "author":       "regex",
+    "$kref":        "#/ckan/github/KSP-RO/KSCSwitcher",
+    "$vref":        "#/ckan/ksp-avc",
+    "license":      "BSD-2-clause",
     "resources": {
-        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/106206-105-regexs-useful-mod-emporium/"
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/106206-*"
     },
-    "install": [ { "file" : "GameData/KSCSwitcher",
-                "install_to" : "GameData" } ],
-    "x_netkan_override" : [
+    "tags": [
+        "plugin"
+    ],
+    "install": [ {
+        "file":       "GameData/KSCSwitcher",
+        "install_to": "GameData"
+    } ],
+    "x_netkan_override": [
         {
-            "version" : "<= 0.5",
-            "override" : {
-                "ksp_version" : "1.0"
+            "version": "<= 0.5",
+            "override": {
+                "ksp_version": "1.0"
             }
         }
     ]

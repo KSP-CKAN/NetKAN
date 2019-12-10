@@ -1,6 +1,22 @@
 {
-    "spec_version": "v1.2",
-    "identifier": "UnmannedBeforeManned",
-    "$kref": "#/ckan/netkan/https://raw.githubusercontent.com/Y3mo/SETI-NetKAN/master/UnmannedBeforeManned.netkan",
-    "x_netkan_license_ok": true
+    "spec_version"  : "v1.4",
+    "identifier"    : "UnmannedBeforeManned",
+    "name"          : "Unmanned before Manned (SETI-UbM)",
+    "$kref"         : "#/ckan/spacedock/20",
+    "$vref"         : "#/ckan/ksp-avc",
+    "license"       : "restricted",
+    "depends" : [
+        { "name": "ModuleManager" }
+    ],
+    "recommends" : [
+        { "name": "CommunityTechTree" },
+        { "name": "KSP-AVC" },
+        { "name": "TakeCommandContinued" }
+    ],
+    "install" : [
+        {
+            "find"       : "UnmannedBeforeManned",
+            "install_to" : "GameData"
+        }
+    ]
 }

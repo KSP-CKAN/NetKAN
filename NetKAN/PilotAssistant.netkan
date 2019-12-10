@@ -1,15 +1,18 @@
 {
     "spec_version" : 1,
     "identifier"   : "PilotAssistant",
-    "$kref"        : "#/ckan/github/zolotiyeruki/Pilot-Assistant",
-    "$vref"        : "#/ckan/ksp-avc",
     "name"         : "Pilot Assistant",
     "abstract"     : "Helpful tool which controls planes altitude, heading, and airspeed via autopilot or custom SAS",
-    "author"       : [ "Crzyrndm", "zolotiyeruki" ],
+    "$kref"        : "#/ckan/github/zolotiyeruki/Pilot-Assistant",
+    "$vref"        : "#/ckan/ksp-avc",
     "license"      : "CC-BY-SA-4.0",
-   "resources" : {
+    "resources": {
         "homepage" : "https://forum.kerbalspaceprogram.com/index.php?/topic/184277-*"
     },
+    "tags": [
+        "plugin",
+        "control"
+    ],
     "install": [
         {
             "file"       : "GameData/Pilot Assistant",

@@ -9,17 +9,14 @@
     "license"        : "BSD-2-clause",
     "release_status" : "stable",
     "resources" : {
-        "homepage" : "http://forum.kerbalspaceprogram.com/index.php?/topic/161855-13-precise-node-continued-precisely-edit-your-maneuver-nodes/",
-        "github"   : {
-            "url"      : "https://github.com/linuxgurugamer/ksp-precisenode",
-            "releases" : true
-        }
+        "homepage"   : "https://forum.kerbalspaceprogram.com/index.php?/topic/161855-*",
+        "repository" : "https://github.com/linuxgurugamer/ksp-precisenode"
     },
-    "depends" : [ { "name" : "ClickThroughBlocker" } ],
-    "install" : [
-        {
-            "find"       : "GameData/PreciseNode",
-            "install_to" : "GameData"
-        }
-    ]
+    "depends" : [
+        { "name" : "ClickThroughBlocker" }
+    ],
+    "install" : [ {
+        "find"       : "GameData/PreciseNode",
+        "install_to" : "GameData"
+    } ]
 }

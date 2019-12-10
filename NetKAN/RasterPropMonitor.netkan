@@ -8,6 +8,14 @@
     "author"         : [ "MOARdV", "Mihara" ],
     "license"        : "GPL-3.0",
     "x_netkan_epoch" : "1",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/105821-*",
+        "repository": "https://github.com/Mihara/RasterPropMonitor"
+    },
+    "tags": [
+        "config",
+        "manned"
+    ],
     "depends" : [
         { "name" : "ModuleManager" },
         { "name" : "RasterPropMonitor-Core" }
@@ -23,9 +31,5 @@
             "filter"     : ["RasterPropMonitor"],
             "install_to" : "GameData"
         }
-    ],
-    "resources": {
-        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/105821-14x-rasterpropmonitor-still-putting-the-a-in-iva-v0300-14-march-2018/",
-        "repository": "https://github.com/Mihara/RasterPropMonitor"
-    }
+    ]
 }

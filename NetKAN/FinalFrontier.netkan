@@ -1,14 +1,18 @@
 {
     "spec_version": "v1.4",
-    "identifier": "FinalFrontier",
-    "license": "BSD-2-clause",
-    "$kref": "#/ckan/spacedock/580",
-    "$vref": "#/ckan/ksp-avc",
+    "identifier":   "FinalFrontier",
+    "$kref":        "#/ckan/spacedock/580",
+    "$vref":        "#/ckan/ksp-avc",
+    "license":      "BSD-2-clause",
+    "tags": [
+        "plugin",
+        "manned"
+    ],
     "install": [
         {
             "find": "FinalFrontier",
             "install_to": "GameData/Nereid",
             "filter": "Source"
-       }
+        }
     ]
 }

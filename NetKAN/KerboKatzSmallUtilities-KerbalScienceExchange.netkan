@@ -1,0 +1,32 @@
+{
+    "spec_version"  : "v1.4",
+    "identifier"    : "KerboKatzSmallUtilities-KerbalScienceExchange",
+    "name"          : "KerboKatz - SmallUtilities - KerbalScienceExchange",
+    "abstract"      : "This little tool allows you exchange funds for science and vice versa.",
+    "author"        : [ "SpaceTiger", "SpaceKitty" ],
+    "$kref"         : "#/ckan/github/Xarun/SmallUtilities/asset_match/SmallUtilities.KerbalScienceExchange.zip",
+    "ksp_version"   : "1.8",
+    "x_netkan_staging": true,
+    "x_netkan_staging_reason": "Game version hard-coded in netkan. Please check that it still matches the forum thread.",
+    "license"       : "restricted",
+    "resources": {
+        "homepage": "http://kerbokatz.github.io/",
+        "bugtracker": "https://github.com/Xarun/SmallUtilities/issues",
+        "repository": "https://github.com/Xarun/SmallUtilities"
+    },
+    "conflicts": [
+        { "name": "KerboKatzSmallUtilities" }
+    ],
+    "depends": [
+        {
+            "name"          : "KerboKatzUtilities",
+            "min_version"   : "1.5.2"
+        }
+    ],
+    "install": [
+        {
+            "find"       : "KerbalScienceExchange",
+            "install_to" : "GameData/KerboKatz/SmallUtilities"
+        }
+    ]
+}

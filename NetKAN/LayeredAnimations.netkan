@@ -1,10 +1,10 @@
 {
-    "spec_version": 1,
-    "identifier": "LayeredAnimations",
-    "$kref": "#/ckan/github/Starwaster/LayeredAnimations",
-    "name": "Layered Animations",
-    "abstract": "Adds layers to KSP's ModuleAnimateGeneric",
-    "license": "public-domain",
+    "spec_version": "v1.18",
+    "identifier":   "LayeredAnimations",
+    "name":         "Layered Animations",
+    "abstract":     "Adds layers to KSP's ModuleAnimateGeneric",
+    "$kref":        "#/ckan/github/Starwaster/LayeredAnimations",
+    "license":      "Unlicense",
     "ksp_version_min": "0.90",
     "ksp_version_max": "1.0.4",
     "install": [

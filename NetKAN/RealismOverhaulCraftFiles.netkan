@@ -2,5 +2,8 @@
     "spec_version": "v1.2",
     "identifier": "RealismOverhaulCraftFiles",
     "$kref": "#/ckan/netkan/https://raw.githubusercontent.com/KSP-RO/RealismOverhaul/master/RealismOverhaulCraftFiles.netkan",
-    "x_netkan_license_ok": true
+    "x_netkan_license_ok": true,
+    "tags": [
+        "config"
+    ]
 }

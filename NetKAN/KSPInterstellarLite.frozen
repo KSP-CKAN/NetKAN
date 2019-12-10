@@ -11,6 +11,12 @@
     "resources": {
         "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/82882-*"
     },
+    "tags": [
+        "plugin",
+        "parts",
+        "resources",
+        "manned"
+    ],
     "provides"              : [ "KSPInterstellar" ],
     "conflicts"             : [ { "name" : "KSPInterstellar" } ],
     "depends": [

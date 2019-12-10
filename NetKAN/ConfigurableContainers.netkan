@@ -1,6 +1,9 @@
 {
-	"spec_version" : "v1.16",
-	"identifier" : "ConfigurableContainers",
-	"$kref" : "#/ckan/netkan/https://raw.githubusercontent.com/allista/ConfigurableContainers/master/ConfigurableContainers.netkan",
-	"x_netkan_license_ok": true
+    "spec_version" : "v1.16",
+    "identifier" : "ConfigurableContainers",
+    "$kref" : "#/ckan/netkan/https://raw.githubusercontent.com/allista/ConfigurableContainers/master/ConfigurableContainers.netkan",
+    "x_netkan_license_ok": true,
+    "tags": [
+        "parts"
+    ]
 }

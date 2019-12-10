@@ -4,6 +4,9 @@
     "$kref" : "#/ckan/spacedock/86",
     "$vref" : "#/ckan/ksp-avc",
     "license" : "CC-BY-NC-SA",
+    "tags": [
+        "parts"
+    ],
     "supports": [
         { "name": "SpaceY-Lifters" },
         { "name": "ColorCodedCans" },

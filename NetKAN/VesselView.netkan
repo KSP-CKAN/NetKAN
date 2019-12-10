@@ -5,6 +5,7 @@
 	"identifier": "VesselView",
 	"x_netkan_epoch": 2,
 	"depends": [
+	        { "name" : "JSIPartUtilities"},
 		{ "name": "VesselView-UI" },
        		{ "name" : "ToolbarController" },
 		{ "name" : "ClickThroughBlocker" }

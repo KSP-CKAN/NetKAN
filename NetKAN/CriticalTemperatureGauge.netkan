@@ -7,5 +7,12 @@
   "author"       : [ "Ravien", "Teilnehmer" ],
   "abstract"     : "A plugin showing a temperature gauge and which part is going to blow up first",
   "license"      : "GPL-3.0",
-  "resources"    : { "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/146239-113-critical-temperature-gauge-continued" }
+  "depends"      : [
+    { "name": "ModuleManager" },
+    { "name": "ClickThroughBlocker" },
+    { "name": "ToolbarController" }
+  ],
+  "resources"    : {
+    "homepage"   : "http://forum.kerbalspaceprogram.com/index.php?/topic/146239-113-critical-temperature-gauge-continued"
+  }
 }

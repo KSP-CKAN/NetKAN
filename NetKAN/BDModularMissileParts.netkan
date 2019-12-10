@@ -1,0 +1,20 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "BDModularMissileParts",
+    "abstract":     "This a BDArmory procedural parts pack that allows you to build your own missiles!",
+    "$kref":        "#/ckan/github/jrodrigv/BDModularMissileParts",
+    "$vref":        "#/ckan/ksp-avc",
+    "license":      "GPL-3.0",
+    "resources": {
+        "homepage": "https://github.com/jrodrigv/BDModularMissileParts/wiki/1.-Building-your-first-Modular-Missile"
+    },
+    "tags": [
+        "parts"
+    ],
+    "depends": [
+        { "name": "ModuleManager"     },
+        { "name": "BDArmoryContinued" },
+        { "name": "ProceduralParts"   },
+        { "name": "B9-PWings-Fork"    }
+    ]
+}

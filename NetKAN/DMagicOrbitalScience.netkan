@@ -13,6 +13,14 @@
     "resources": {
         "repository": "https://github.com/DMagic1/Orbital-Science"
     },
+    "tags": [
+        "plugin",
+        "parts",
+        "science",
+        "resources",
+        "career",
+        "unmanned"
+    ],
     "recommends": [
         { "name": "ContractsWindowPlus" }
     ],

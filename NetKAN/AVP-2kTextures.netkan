@@ -22,5 +22,8 @@
             "find"       : "GameData/AstronomersVisualPack",
             "install_to" : "GameData"
         }
-    ]
+    ],
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/160878-*"
+    }
 }

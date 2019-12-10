@@ -1,15 +1,24 @@
 {
     "spec_version": 1,
-    "identifier": "SCANsat",
-    "$kref": "#/ckan/spacedock/129",
-    "$vref": "#/ckan/ksp-avc",
-    "license": "restricted",
+    "identifier":   "SCANsat",
+    "$kref":        "#/ckan/spacedock/129",
+    "$vref":        "#/ckan/ksp-avc",
+    "license":      "restricted",
     "x_netkan_force_v": true,
+    "resources": {
+        "repository": "https://github.com/S-C-A-N/SCANsat",
+        "license": "https://github.com/S-C-A-N/SCANsat/blob/release/SCANsat/LICENSE.txt"
+    },
+    "tags": [
+        "plugin",
+        "information",
+        "resources"
+    ],
     "depends": [
         { "name": "ModuleManager" }
     ],
     "recommends": [
-        { "name": "Toolbar" },
+        { "name": "Toolbar"              },
         { "name": "ContractConfigurator" }
     ],
     "suggests": [
@@ -18,9 +27,6 @@
     "conflicts": [
         { "name": "ContractConfigurator-ScanSatLite" }
     ],
-    "resources": {
-        "repository": "https://github.com/S-C-A-N/SCANsat"
-    },
     "x_netkan_override": [
         {
             "version": "v12.1",

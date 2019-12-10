@@ -1,5 +1,10 @@
 {
     "spec_version"  : "v1.4",
     "identifier"    : "NearFutureSpacecraft",
-    "$kref"         : "#/ckan/netkan/https://github.com/ChrisAdderley/NearFutureSpacecraft/raw/master/CKAN/NearFutureSpacecraft.netkan"
+    "$kref"         : "#/ckan/netkan/https://github.com/ChrisAdderley/NearFutureSpacecraft/raw/master/CKAN/NearFutureSpacecraft.netkan",
+    "tags": [
+        "parts",
+        "graphics",
+        "manned"
+    ]
 }

@@ -12,6 +12,10 @@
         "homepage"   : "https://forum.kerbalspaceprogram.com/index.php?/topic/184787-*",
         "repository" : "https://github.com/meirumeiru/InfernalRobotics"
     },
+    "tags"           : [
+        "parts",
+        "plugin"
+    ],
     "recommends"     : [
         { "name" : "KerbalJointReinforcementNext" }
     ],

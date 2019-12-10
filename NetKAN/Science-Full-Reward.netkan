@@ -2,10 +2,9 @@
     "spec_version"     : 1,
     "identifier"       : "Science-Full-Reward",
     "name"             : "Science - Full Reward! (Continued)",
-    "author"           : [ "maculator", "Tekaoh" ],
     "$kref"            : "#/ckan/github/tekaohksp/Science-Full-Reward",
-    "license"          : "MIT",
     "ksp_version"      : "any",
+    "license"          : "MIT",
     "resources": {
         "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/185199-*"
     },

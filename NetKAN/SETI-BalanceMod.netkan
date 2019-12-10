@@ -1,6 +1,24 @@
 {
-    "spec_version": "v1.2",
-    "identifier": "SETI-BalanceMod",
-    "$kref": "#/ckan/netkan/https://raw.githubusercontent.com/Y3mo/SETI-NetKAN/master/SETI-BalanceMod.netkan",
-    "x_netkan_license_ok": true
- }
+    "spec_version"  : "v1.4",
+    "identifier"    : "SETI-BalanceMod",
+    "name"          : "SETI-Rebalance",
+    "$kref"         : "#/ckan/spacedock/14",
+    "$vref"         : "#/ckan/ksp-avc",
+    "license"       : "restricted",
+    "depends" : [
+        { "name": "ModuleManager" }
+    ],
+    "recommends" : [
+        { "name": "KSP-AVC" }
+    ],
+    "install" : [
+        {
+          "find"       : "SETIrebalance",
+          "install_to" : "GameData"
+        },
+        {
+          "find"       : "SETIrebalanceReactionWheels",
+          "install_to" : "GameData"
+        }
+    ]
+}

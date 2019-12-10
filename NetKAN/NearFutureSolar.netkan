@@ -1,5 +1,8 @@
 {
     "spec_version"  : "v1.4",
     "identifier"    : "NearFutureSolar",
-    "$kref"         : "#/ckan/netkan/https://github.com/ChrisAdderley/NearFutureSolar/raw/master/CKAN/NearFutureSolar.netkan"
+    "$kref"         : "#/ckan/netkan/https://github.com/ChrisAdderley/NearFutureSolar/raw/master/CKAN/NearFutureSolar.netkan",
+    "tags": [
+        "parts"
+    ]
 }

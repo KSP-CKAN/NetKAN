@@ -2,6 +2,12 @@
     "spec_version": "v1.4",
     "identifier": "ProceduralFairings",
     "$kref": "#/ckan/netkan/https://raw.githubusercontent.com/KSP-RO/ProceduralFairings/master/ProceduralFairings.netkan",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/184187-*"
+    },
+    "tags": [
+        "parts"
+    ],
     "x_netkan_license_ok": true,
     "x_netkan_epoch": 1
 }

@@ -1,6 +1,29 @@
 {
-    "spec_version" : "v1.2",
-    "identifier"   : "CraftHistory",
-    "$kref": "#/ckan/netkan/https://raw.githubusercontent.com/KerboKatz/Netkan/master/CraftHistory.netkan",
-    "x_netkan_license_ok": true
+    "spec_version"  : "v1.4",
+    "identifier"    : "CraftHistory",
+    "name"          : "Craft History",
+    "abstract"      : "Replaces the stock craft loading with a more advanced one allowing categories to be created.",
+    "author"        : [ "SpaceTiger", "SpaceKitty" ],
+    "$kref"         : "#/ckan/github/Xarun/CraftHistory",
+    "ksp_version"   : "1.8",
+    "x_netkan_staging": true,
+    "x_netkan_staging_reason": "Game version hard-coded in netkan. Please check that it still matches the forum thread.",
+    "license"       : "restricted",
+    "resources": {
+        "homepage": "http://kerbokatz.github.io/#CraftHistory",
+        "bugtracker": "https://github.com/KerboKatz/CraftHistory/issues",
+        "repository": "https://github.com/KerboKatz/CraftHistory"
+    },
+    "depends": [
+        {
+            "name"          : "KerboKatzUtilities",
+            "min_version"   : "1.5.2"
+        }
+    ],
+    "install": [
+        {
+            "find"       : "CraftHistory",
+            "install_to" : "GameData/KerboKatz"
+        }
+    ]
 }

@@ -1,17 +1,18 @@
 {
-  "spec_version": "v1.4",
-  "install": [
-    {
-      "install_to": "GameData",
-      "find": "KSPRescuePodFix"
-    }
-  ],
- "depends": [
+    "spec_version": "v1.4",
+    "identifier": "KSPRescuePodFix",
+    "$kref": "#/ckan/github/shadowmage45/KSPRescuePodFix",
+    "$vref": "#/ckan/ksp-avc",
+    "license": "GPL-3.0",
+    "install": [ {
+        "install_to": "GameData",
+        "find": "KSPRescuePodFix"
+    } ],
+    "depends": [
         { "name": "ModuleManager" }
     ],
-  "$vref": "#/ckan/ksp-avc",
-  "$kref": "#/ckan/github/shadowmage45/KSPRescuePodFix",
-  "x_via": "Automated Linuxgurugamer CKAN script",
-  "identifier": "KSPRescuePodFix",
-  "license": "GPL-3.0"
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/141560-*"
+    },
+    "x_via": "Automated Linuxgurugamer CKAN script"
 }

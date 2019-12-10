@@ -1,18 +1,24 @@
 {
     "spec_version": "v1.4",
-    "identifier": "BDArmoryContinued",
-    "name" : "BDArmoryContinued",
-    "abstract": "The original Weapons mod by BahamutoD, continued!",
+    "identifier":   "BDArmoryContinued",
+    "name":         "BD Armory Continued",
+    "abstract":     "The original Weapons mod by BahamutoD, continued!",
+    "author":       [ "BahamutoD", "Papa_Joe", "jrodrigv", "ouloul" ],
+    "$kref":        "#/ckan/github/PapaJoesSoup/BDArmory",
+    "$vref":        "#/ckan/ksp-avc",
+    "x_netkan_epoch": 1,
+    "license":      "CC-BY-SA-2.0",
     "resources": {
-        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/155014-*",
-        "spacedock": "https://spacedock.info/mod/867/BDArmoryContinued",
-        "repository": "https://github.com/PapaJoesSoup/BDArmory",
+        "homepage":     "https://forum.kerbalspaceprogram.com/index.php?/topic/178156-*",
+        "spacedock":    "https://spacedock.info/mod/867/BDArmoryContinued",
+        "repository":   "https://github.com/PapaJoesSoup/BDArmory",
         "x_screenshot": "https://spacedock.info/content/Papa_Joe_926/BDArmoryContinued/BDArmoryContinued-1470103192.4904277.png"
     },
-    "$kref": "#/ckan/github/PapaJoesSoup/BDArmory",
-    "$vref": "#/ckan/ksp-avc",
-    "author": [ "BahamutoD", "Papa_Joe", "jrodrigv", "ouloul" ],
-    "license": "CC-BY-SA-2.0",
+    "tags": [
+        "plugin",
+        "parts",
+        "sound"
+    ],
     "provides": [
 	    "BDArmory"
 	],
@@ -22,13 +28,13 @@
     "depends": [
         { "name": "PhysicsRangeExtender" }
     ],
-    "install": [
-        {
-            "find": "BDArmory",
-            "install_to": "GameData"
-        }
+    "suggests": [
+        { "name": "BDModularMissileParts" }
     ],
-    "x_netkan_epoch": 1,
+    "install": [ {
+        "find":       "BDArmory",
+        "install_to": "GameData"
+    } ],
     "x_netkan_override": [
         {
             "version": "v0.2.1.0",

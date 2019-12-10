@@ -1,10 +1,12 @@
 {
-    "license"      : "public-domain",
-    "identifier"   : "KScale2",
     "spec_version" : "v1.4",
+    "identifier"   : "KScale2",
     "$kref"        : "#/ckan/spacedock/349",
     "$vref"        : "#/ckan/ksp-avc",
-    "resources"    : { "homepage" : "http://www.kingtiger.co.uk/kingtiger/wordpress/KScale2" },
+    "license"      : "public-domain",
+    "resources"    : {
+        "homepage" : "https://forum.kerbalspaceprogram.com/index.php?/topic/112905-*"
+    },
     "depends" : [
         { "name": "SigmaDimensions" }
     ],
@@ -13,7 +15,7 @@
     ],
     "install": [
         {
-            "find": "KScale2",
+            "find":       "KScale2",
             "install_to": "GameData"
         }
     ]

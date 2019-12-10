@@ -3,6 +3,10 @@
     "identifier":   "KerbalHeatShield",
     "$kref":        "#/ckan/spacedock/1925",
     "license":      "CC-BY-SA-2.0",
+    "tags": [
+        "parts",
+        "manned"
+    ],
     "install": [ {
         "find":       "kerbal heatshield",
         "install_to": "GameData"

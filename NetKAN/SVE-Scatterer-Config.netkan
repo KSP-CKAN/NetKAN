@@ -1,14 +1,21 @@
 {
     "spec_version"   : "v1.10",
-    "$kref"          : "#/ckan/github/Galileo88/StockVisualEnhancements/asset_match/(?i)Scatterer",
-    "$vref"          : "#/ckan/ksp-avc",
-    "ksp_version"    : "1.2",
     "identifier"     : "SVE-Scatterer-Config",
     "name"           : "Stock Visual Enhancements: Scatterer Configs",
     "abstract"       : "Stock Visual Enhancements configurations for scatterer",
+    "$kref"          : "#/ckan/github/Galileo88/StockVisualEnhancements/asset_match/(?i)Scatterer",
+    "$vref"          : "#/ckan/ksp-avc",
+    "ksp_version"    : "1.2",
+    "x_netkan_epoch" : "2",
     "license"        : "CC-BY-NC-SA",
     "release_status" : "stable",
-    "x_netkan_epoch" : "2",
+    "resources" : {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/143288-*"
+    },
+    "tags": [
+        "config",
+        "graphics"
+    ],
     "depends": [
         { "name": "StockVisualEnhancements" },
         { "name": "Scatterer" }

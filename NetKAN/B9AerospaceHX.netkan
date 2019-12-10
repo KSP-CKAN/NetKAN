@@ -1,6 +1,9 @@
 {
-  "spec_version" : 1,
-  "identifier"   : "B9AerospaceHX",
-  "$kref"        : "#/ckan/netkan/https://raw.githubusercontent.com/blowfishpro/B9-Aerospace/master/NetKAN/B9AerospaceHX.netkan",
-  "x_netkan_license_ok": true
+    "spec_version" : 1,
+    "identifier"   : "B9AerospaceHX",
+    "$kref"        : "#/ckan/netkan/https://raw.githubusercontent.com/blowfishpro/B9-Aerospace/master/NetKAN/B9AerospaceHX.netkan",
+    "tags": [
+        "parts"
+    ],
+    "x_netkan_license_ok": true
 }

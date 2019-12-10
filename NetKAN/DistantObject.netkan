@@ -1,21 +1,25 @@
 {
-    "spec_version": 1,
+    "spec_version": "v1.4",
     "identifier":   "DistantObject",
-    "name":         "Distant Object Enhancement",
+    "name":         "Distant Object Enhancement Continued",
     "abstract":     "Visual enhancement mod that makes objects realistically visible over large distances",
-    "$kref":        "#/ckan/github/MOARdV/DistantObject",
+    "$kref":        "#/ckan/github/TheDarkBadger/DistantObject",
     "$vref":        "#/ckan/ksp-avc",
     "x_netkan_force_v": true,
     "license":      "CC-BY-4.0",
     "resources" : {
-        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/89214-*"
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/189759-*"
     },
-    "depends": [ {
-    	"name": "DistantObject-config"
-    } ],
+    "tags": [
+        "plugin",
+        "graphics"
+    ],
     "install": [ {
-        "file":       "GameData/DistantObject",
+        "find":       "DistantObject",
         "install_to": "GameData",
         "filter":     "PlanetColors.cfg"
-    } ]
+    } ],
+    "depends": [
+        { "name": "DistantObject-config" }
+    ]
 }

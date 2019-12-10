@@ -7,6 +7,10 @@
     "abstract"     : "Procedural wing (pWing for short) is a wing piece that the user can procedurally manipulate.",
     "license"      : "restricted",
     "resources"    : {
-        "homepage" : "https://forum.kerbalspaceprogram.com/index.php?/topic/117236-13-procedural-wings/"
-    }
+        "homepage" : "https://forum.kerbalspaceprogram.com/index.php?/topic/117236-*"
+    },
+    "tags": [
+        "plugin",
+        "parts"
+    ]
 }

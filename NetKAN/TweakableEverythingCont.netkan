@@ -4,6 +4,10 @@
     "$kref"        : "#/ckan/spacedock/1059",
     "$vref"        : "#/ckan/ksp-avc",
     "license"      : "BSD-3-clause",
+    "tags": [
+        "plugin",
+        "convenience"
+    ],
     "install": [
         {
             "file": "GameData/TweakableEverything",
@@ -17,5 +21,4 @@
     "conflicts": [
         { "name": "ToadicusTools" }
     ]
-
 }

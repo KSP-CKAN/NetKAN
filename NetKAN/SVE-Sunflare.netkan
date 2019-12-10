@@ -9,6 +9,13 @@
     "license"        : "CC-BY-NC-SA",
     "release_status" : "stable",
     "x_netkan_epoch" : "2",
+    "resources" : {
+        "homepage"   : "https://forum.kerbalspaceprogram.com/index.php?/topic/143288-*"
+    },
+    "tags": [
+        "config",
+        "graphics"
+    ],
     "depends": [
         { "name": "Scatterer" }
     ],

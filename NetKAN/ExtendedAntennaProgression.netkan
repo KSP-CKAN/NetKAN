@@ -1,21 +1,20 @@
 {
-  "spec_version": "v1.4",
-  "install": [
-    {
-      "install_to": "GameData",
-      "find": "ExtendedAntennaProgression"
-    }
-  ],
-  "depends": [
-    {
-      "name": "ModuleManager"
-    }
-  ],
-  "$kref": "#/ckan/github/LouisB3/KSP-ExtendedAntennaProgression",
-  "x_netkan_github": {
+    "spec_version": "v1.4",
+    "install": [ {
+        "install_to": "GameData",
+        "find": "ExtendedAntennaProgression"
+    } ],
+    "depends": [
+        { "name": "ModuleManager" }
+    ],
+    "$kref": "#/ckan/github/LouisB3/KSP-ExtendedAntennaProgression",
+    "x_netkan_github": {
         "use_source_archive": true
-  },
-  "x_via": "Automated Linuxgurugamer CKAN script",
-  "identifier": "ExtendedAntennaProgression",
-  "license": "CC-BY-NC-SA"
+    },
+    "x_via": "Automated Linuxgurugamer CKAN script",
+    "identifier": "ExtendedAntennaProgression",
+    "license": "CC-BY-NC-SA",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/158971-*"
+    }
 }

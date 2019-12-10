@@ -1,17 +1,19 @@
 {
     "spec_version"  : "v1.2",
+    "identifier"    : "ContractParser",
     "name"          : "Contract Parser",
     "abstract"      : "Parse the contract module to cache data",
     "description"   : "This addon is a dependency of Contracts Window Plus and CapCom and is used to cache reward, completion, and other data on contracts",
-    "identifier"    : "ContractParser",
-    "license"       : "MIT",
     "$kref"         : "#/ckan/github/DMagic1/KSP_Contract_Parser",
     "$vref"         : "#/ckan/ksp-avc",
-
-        "install": [
-        {
-            "file": "GameData/DMagicUtilities/ContractParser",
-            "install_to": "GameData/DMagicUtilities"
-        }
-    ]
+    "license"       : "MIT",
+    "tags": [
+        "plugin",
+        "library",
+        "career"
+    ],
+    "install": [ {
+        "file": "GameData/DMagicUtilities/ContractParser",
+        "install_to": "GameData/DMagicUtilities"
+    } ]
 }

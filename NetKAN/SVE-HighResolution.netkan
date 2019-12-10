@@ -1,18 +1,21 @@
 {
     "spec_version"   : "v1.4",
-    "$kref"          : "#/ckan/github/Galileo88/StockVisualEnhancements/asset_match/SVE_HighResTextures.zip",
-    "ksp_version_min": "1.2",
-    "comment"        : "Textures only",
     "identifier"     : "SVE-HighResolution",
     "name"           : "Stock Visual Enhancements-High Res Textures",
     "abstract"       : "Textures for Stock Visual Enhancements",
-    "license"        : "CC-BY-NC-SA",
-    "release_status" : "stable",
+    "comment"        : "Textures only",
+    "$kref"          : "#/ckan/github/Galileo88/StockVisualEnhancements/asset_match/SVE_HighResTextures.zip",
+    "ksp_version_min": "1.2",
     "x_netkan_epoch" : "3",
     "x_netkan_staging": true,
+    "license"        : "CC-BY-NC-SA",
+    "release_status" : "stable",
     "resources" : {
-        "homepage"     : "https://forum.kerbalspaceprogram.com/index.php?/topic/143288-*"
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/143288-*"
     },
+    "tags": [
+        "graphics"
+    ],
     "provides": [
         "SVE-Textures"
      ],

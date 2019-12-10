@@ -1,0 +1,36 @@
+{
+    "spec_version"   : "v1.10",
+    "$kref"          : "#/ckan/github/KSP-RO/ROTanks",
+    "$vref"          : "#/ckan/ksp-avc",
+    "x_netkan_force_v": true,
+    "name"           : "ROTanks",
+    "identifier"     : "ROTanks",
+    "abstract"       : "ROTanks uses modified code of SSTU by Shadowmage45 to provide modular tanks (and more) for Realism Overhaul.",
+    "author"         : "pap1723",
+    "license"        : "CC-BY-SA",
+    "release_status" : "stable",
+    "depends" : [
+        { "name" : "RealismOverhaul" },
+        { "name" : "TexturesUnlimited" },
+        { "name" : "RealFuels" }
+    ],
+    "recommends" : [
+        { "name" : "ROEngines" },
+        { "name" : "ROCapsules" },
+        { "name" : "ProceduralFairings" },
+        { "name" : "ProceduralParts" },
+        { "name" : "MechJeb2" },
+        { "name" : "RealSolarSystem" },
+        { "name" : "KSCSwitcher" },
+        { "name" : "RP-0" }
+    ],
+    "conflicts" :   [
+        { "name" : "TweakableEverything" }
+    ],
+    "install" : [
+        {
+            "file"       : "GameData/ROTanks",
+            "install_to" : "GameData"
+        }
+    ]
+}

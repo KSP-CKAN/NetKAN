@@ -1,6 +1,11 @@
 {
     "spec_version": "v1.16",
     "identifier": "ContractConfigurator-AnomalySurveyor",
-    "$kref" : "#/ckan/netkan/https://raw.githubusercontent.com/jrossignol/ContractPack-AnomalySurveyor/master/ContractConfigurator-AnomalySurveyor.netkan",
-    "x_netkan_license_ok" : true
+    "$kref": "#/ckan/netkan/https://raw.githubusercontent.com/jrossignol/ContractPack-AnomalySurveyor/master/ContractConfigurator-AnomalySurveyor.netkan",
+    "x_netkan_license_ok" : true,
+    "tags": [
+        "config",
+        "information",
+        "career"
+    ]
 }

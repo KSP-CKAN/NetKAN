@@ -11,9 +11,15 @@
 	"depends": [{
 		"name": "Kerbalism"
 	}],
-	"conflicts": [{
-		"name": "Kerbalism-Config"
-	}],
+	"conflicts": [
+		{ "name": "Kerbalism-Config" },
+		{ "name": "UKS" },
+		{ "name": "TACLS" },
+		{ "name": "Snacks" },
+		{ "name": "USI-LS" },
+		{ "name": "BackgroundResources" },
+		{ "name": "BackgroundProcessing" }
+	],
 	"install": [{
 		"find": "KerbalismConfig",
 		"install_to": "GameData"

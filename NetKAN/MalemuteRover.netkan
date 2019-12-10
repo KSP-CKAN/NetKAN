@@ -2,5 +2,10 @@
     "spec_version": "v1.16",
     "identifier": "MalemuteRover",
     "$kref": "#/ckan/netkan/https://raw.githubusercontent.com/BobPalmer/CKAN/master/MalemuteRover.netkan",
-    "x_netkan_license_ok": true
+    "x_netkan_license_ok": true,
+    "tags": [
+        "parts",
+        "manned",
+        "science"
+    ]
 }

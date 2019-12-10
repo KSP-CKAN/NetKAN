@@ -10,6 +10,10 @@
     "resources": {
         "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/162205-*"
     },
+    "tags": [
+        "config",
+        "career"
+    ],
     "install": [ {
         "find":       "ContractPacks",
         "install_to": "GameData"
