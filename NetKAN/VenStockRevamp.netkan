@@ -9,6 +9,10 @@
     "resources": {
         "homepage" : "https://forum.kerbalspaceprogram.com/index.php?/topic/189732-*"
     },
+    "tags": [
+        "parts",
+        "graphics"
+    ],
     "depends": [
         { "name" : "ModuleManager"       },
         { "name" : "VenStockRevamp-Core" }

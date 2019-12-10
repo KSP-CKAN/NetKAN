@@ -1,9 +1,13 @@
 {
-    "$kref": "#/ckan/spacedock/543",
-    "$vref": "#/ckan/ksp-avc",
     "spec_version": "v1.4",
-    "identifier": "DockingPortAlignmentIndicator",
-    "license": "MIT",
+    "identifier":   "DockingPortAlignmentIndicator",
+    "$kref":        "#/ckan/spacedock/543",
+    "$vref":        "#/ckan/ksp-avc",
+    "license":      "MIT",
+    "tags": [
+        "plugin",
+        "information"
+    ],
     "depends": [
         {
             "name": "ModuleManager",

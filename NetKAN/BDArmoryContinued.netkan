@@ -9,11 +9,16 @@
     "x_netkan_epoch": 1,
     "license":      "CC-BY-SA-2.0",
     "resources": {
-        "homepage":     "http://forum.kerbalspaceprogram.com/index.php?/topic/155014-*",
+        "homepage":     "https://forum.kerbalspaceprogram.com/index.php?/topic/178156-*",
         "spacedock":    "https://spacedock.info/mod/867/BDArmoryContinued",
         "repository":   "https://github.com/PapaJoesSoup/BDArmory",
         "x_screenshot": "https://spacedock.info/content/Papa_Joe_926/BDArmoryContinued/BDArmoryContinued-1470103192.4904277.png"
     },
+    "tags": [
+        "plugin",
+        "parts",
+        "sound"
+    ],
     "provides": [
 	    "BDArmory"
 	],

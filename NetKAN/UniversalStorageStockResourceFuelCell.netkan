@@ -1,18 +1,21 @@
 {
 	"spec_version" : 1,
 	"identifier"   : "UniversalStorageStockResourceFuelCell",
-	"$kref"        : "#/ckan/github/QuickBASIC/UniversalStorageStockResourceFuelCell",
 	"name"         : "Universal Storage - Stock Resource Fuel Cell",
 	"author"       : "QuickBASIC",
 	"abstract"     : "ModuleManager Script for converting the Universal Storage Fuel Cell to use Liquid Fuel and Oxidizer instead of other resources.",
+	"$kref"        : "#/ckan/github/QuickBASIC/UniversalStorageStockResourceFuelCell",
+	"$vref"        : "#/ckan/ksp-avc",
 	"license"      : "MIT",
-	"$vref" : "#/ckan/ksp-avc",
+	"resources": {
+		"homepage": "https://github.com/QuickBASIC/UniversalStorageStockResourceFuelCell"
+	},
+	"tags": [
+		"config",
+		"resources"
+	],
 	"depends": [
 		{ "name": "ModuleManager" },
 		{ "name": "UniversalStorage" }
-	],    
-	"resources": 
-	{
-	"homepage": "https://github.com/QuickBASIC/UniversalStorageStockResourceFuelCell"
-	}
+	]
 }

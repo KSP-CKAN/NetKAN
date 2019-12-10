@@ -1,6 +1,10 @@
 {
-  "spec_version" : 1,
-  "identifier"   : "B9PartSwitch",
-  "$kref"        : "#/ckan/netkan/https://raw.githubusercontent.com/blowfishpro/B9PartSwitch/master/NetKAN/B9PartSwitch.netkan",
-  "x_netkan_license_ok": true
+    "spec_version" : 1,
+    "identifier"   : "B9PartSwitch",
+    "$kref"        : "#/ckan/netkan/https://raw.githubusercontent.com/blowfishpro/B9PartSwitch/master/NetKAN/B9PartSwitch.netkan",
+    "x_netkan_license_ok": true,
+    "tags": [
+        "plugin",
+        "library"
+    ]
 }

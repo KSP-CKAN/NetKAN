@@ -1,5 +1,8 @@
 {
     "spec_version"   : "v1.4",
     "identifier"     : "HeatControl",
-    "$kref"         : "#/ckan/netkan/https://github.com/ChrisAdderley/HeatControl/raw/master/CKAN/HeatControl.netkan"
+    "$kref"         : "#/ckan/netkan/https://github.com/ChrisAdderley/HeatControl/raw/master/CKAN/HeatControl.netkan",
+    "tags": [
+        "parts"
+    ]
 }

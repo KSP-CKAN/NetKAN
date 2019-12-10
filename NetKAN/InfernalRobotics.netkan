@@ -1,18 +1,22 @@
 {
     "spec_version": "v1.16",
     "identifier": "InfernalRobotics",
-    "$kref": "#/ckan/github/MagicSmokeIndustries/InfernalRobotics/asset_match/.*Final-Core\\.zip",
-    "$vref": "#/ckan/ksp-avc",
-    "license": "GPL-3.0",
     "name": "Magic Smoke Industries Infernal Robotics",
     "abstract": "Making stuff move.",
     "author": "sirkut",
+    "$kref": "#/ckan/github/MagicSmokeIndustries/InfernalRobotics/asset_match/.*Final-Core\\.zip",
+    "$vref": "#/ckan/ksp-avc",
     "x_netkan_force_v": true,
     "ksp_version_strict": true,
+    "license": "GPL-3.0",
     "resources": {
-        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/104535-112-magic-smoke-industries-infernal-robotics-202/",
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/104535-*",
         "repository": "https://github.com/MagicSmokeIndustries/InfernalRobotics"
     },
+    "tags": [
+        "parts",
+        "plugin"
+    ],
     "recommends": [
         { "name": "InfernalRobotics-LegacyParts" },
         { "name": "IR-Model-Rework-Core" },

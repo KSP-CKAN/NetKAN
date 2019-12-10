@@ -1,34 +1,37 @@
 {
     "spec_version": "v1.4",
     "identifier": "RCSBuildAidCont",
-    "license": "LGPL-3.0",
-    "$kref":  "#/ckan/spacedock/1547",
-    "$vref": "#/ckan/ksp-avc",
     "abstract": "This is something I made for placing RCS thrusters in the right positions in the first try without having to go back and forth between the VAB and the hacked gravity launchpad.  Features: Display thrust and torque forces caused by RCS or engines. Delta V readout for RCS. Dry center of mass marker. Average center of mass marker. Ability to resize editor's overlay markers. Display total mass of resources.",
     "author": "linuxgurugamer",
+    "$kref":  "#/ckan/spacedock/1547",
+    "$vref": "#/ckan/ksp-avc",
+    "x_netkan_epoch": 1,
+    "license": "LGPL-3.0",
     "resources": {
-        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/166546-rcs-build-aid-continued/",
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/166546-*",
         "repository": "https://github.com/linuxgurugamer/RCSBuildAid",
         "bugtracker": "https://github.com/linuxgurugamer/RCSBuildAid/issues",
         "manual": "https://github.com/linuxgurugamer/RCSBuildAid/blob/master/README.asciidoc"
     },
+    "tags": [
+        "plugin",
+        "information"
+    ],
     "supports": [
-        {
-            "name": "KSP-AVC"
-        }
+        { "name": "KSP-AVC" }
     ],
     "depends": [
         { "name" : "ToolbarController" },
-	{ "name" : "ClickThroughBlocker" }
+        { "name" : "ClickThroughBlocker" }
     ],
-    "conflicts"      : [ { "name" : "RCSBuildAid" } ],
+    "conflicts": [
+        { "name" : "RCSBuildAid" }
+    ],
     "install": [
         {
             "find": "RCSBuildAid",
             "install_to": "GameData",
             "filter": "Sources"
         }
-    ],
-    "x_netkan_epoch"   : 1
+    ]
 }
-

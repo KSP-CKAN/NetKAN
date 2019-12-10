@@ -1,11 +1,16 @@
 {
-    "$kref": "#/ckan/spacedock/520",
-    "identifier": "RemoteTech",
-    "author": "Remote Technologies Group",
     "spec_version": 1,
-    "license": "GPL-2.0",
-    "release_status": "stable",
+    "identifier":   "RemoteTech",
+    "author":       "Remote Technologies Group",
+    "$kref":        "#/ckan/spacedock/520",
     "x_netkan_force_v": true,
+    "release_status": "stable",
+    "license":      "GPL-2.0",
+    "tags": [
+        "plugin",
+        "control",
+        "unmanned"
+    ],
     "depends": [
         {
             "name": "ModuleManager",

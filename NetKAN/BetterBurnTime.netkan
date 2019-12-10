@@ -3,6 +3,10 @@
     "identifier":   "BetterBurnTime",
     "$kref":        "#/ckan/spacedock/21",
     "license":      "CC-BY-NC-ND-4.0",
+    "tags": [
+        "plugin",
+        "information"
+    ],
     "x_netkan_override": [ {
         "version":  "1.6.1",
         "delete":   [ "ksp_version" ],
