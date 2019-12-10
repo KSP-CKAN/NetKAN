@@ -1,42 +1,51 @@
 {
-	"spec_version": "v1.18",
-	"identifier": "Kerbalism",
-	"abstract": "Add life support, quality-of-life, radiation, malfunctions, signals and space weather mechanics.",
-	"$kref": "#/ckan/github/Kerbalism/Kerbalism/asset_match/Kerbalism-Core*",
-	"$vref": "#/ckan/ksp-avc",
-	"license": "Unlicense",
-	"author": ["Kerbalism Contributors"],
-	"resources": {
-		"homepage": "https://kerbalism.github.io/Kerbalism",
-		"repository": "https://github.com/Kerbalism/Kerbalism"
-	},
-	"depends": [
-		{ "name": "ModuleManager" },
-		{ "name": "CommunityResourcePack" },
-		{ "name": "Kerbalism-Config" }
-	],
-	"recommends": [
-		{ "name": "KerbalChangelog" }
-	],
-	"supports": [
-		{ "name": "ConnectedLivingSpace" },
-		{ "name": "CryoTanks" },
-		{ "name": "KerbalAtomics" },
-		{ "name": "KerbalPlanetaryBaseSystems" },
-		{ "name": "NearFutureElectrical" },
-		{ "name": "NearFutureSolar" },
-		{ "name": "NearFutureSpacecraft" },
-		{ "name": "SCANsat" }
-	],
-	"conflicts": [
-		{ "name": "UKS" },
-		{ "name": "TACLS" },
-		{ "name": "Snacks" },
-		{ "name": "USI-LS" }
-	], 
-	"install": [{
-		"find": "Kerbalism",
-		"install_to": "GameData"
-	}]
-
+    "spec_version": "v1.18",
+    "identifier":   "Kerbalism",
+    "abstract":     "Add life support, quality-of-life, radiation, malfunctions, signals and space weather mechanics.",
+    "author":       ["Kerbalism Contributors"],
+    "$kref":        "#/ckan/github/Kerbalism/Kerbalism/asset_match/Kerbalism-Core*",
+    "$vref":        "#/ckan/ksp-avc",
+    "license":      "Unlicense",
+    "resources": {
+        "homepage": "https://kerbalism.github.io/Kerbalism",
+        "repository": "https://github.com/Kerbalism/Kerbalism"
+    },
+    "tags": [
+        "plugin",
+        "parts",
+        "manned",
+        "science",
+        "resources"
+    ],
+    "depends": [
+        { "name": "ModuleManager" },
+        { "name": "CommunityResourcePack" },
+        { "name": "Kerbalism-Config" }
+    ],
+    "recommends": [
+        { "name": "KerbalChangelog" }
+    ],
+    "supports": [
+        { "name": "ConnectedLivingSpace" },
+        { "name": "CryoTanks" },
+        { "name": "KerbalAtomics" },
+        { "name": "KerbalPlanetaryBaseSystems" },
+        { "name": "NearFutureElectrical" },
+        { "name": "NearFutureSolar" },
+        { "name": "NearFutureSpacecraft" },
+        { "name": "SCANsat" }
+    ],
+    "conflicts": [
+        { "name": "UKS" },
+        { "name": "TACLS" },
+        { "name": "Snacks" },
+        { "name": "USI-LS" },
+        { "name": "BackgroundResources" },
+        { "name": "BackgroundProcessing" },
+        { "name": "DynamicBatteryStorage" }
+    ], 
+    "install": [ {
+        "find": "Kerbalism",
+        "install_to": "GameData"
+    } ]
 }
