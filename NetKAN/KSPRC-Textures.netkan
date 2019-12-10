@@ -1,20 +1,21 @@
 {
 	"spec_version": "v1.2",
-	"name": "KSPRC Textures",
-	"abstract": "Standalone KSPRC Textures. Kinda useless without proper configs.",
-	"identifier": "KSPRC-Textures",
-	"download": "https://spacedock.info/content/Proot_4811/KSPRC_-_Renaissance_Compilation_artworks_remake/KSPRC_-_Renaissance_Compilation_artworks_remake-0.7_PreRelease_3.zip",
-	"version": "0.7",
+	"identifier":   "KSPRC-Textures",
+	"name":         "KSPRC Textures",
+	"abstract":     "Standalone KSPRC Textures. Kinda useless without proper configs.",
+	"$kref":        "#/ckan/spacedock/690",
+	"ksp_version":  "any",
 	"release_status": "stable",
-	"ksp_version_min": "1.3",
-	"ksp_version_max": "1.3.99",
-	"license": "unknown",
-	"author": "Proot",
+	"license":      "CC-BY-ND",
 	"resources": {
-		"homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/69702-112"
+		"homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/69702-*"
 	},
-	"install": [{
-		"file": "KSPRC/Textures",
+	"tags": [
+		"graphics",
+		"library"
+	],
+	"install": [ {
+		"file":       "KSPRC/Textures",
 		"install_to": "GameData/KSPRC"
-	}]
+	} ]
 }

@@ -1,8 +1,11 @@
 {
-    "identifier": "SpaceXLegs",
     "spec_version": 1,
-    "$kref": "#/ckan/spacedock/841",
-    "license": "MIT",
+    "identifier":   "SpaceXLegs",
+    "$kref":        "#/ckan/spacedock/841",
+    "license":      "MIT",
+    "tags": [
+        "parts"
+    ],
     "install": [
         {
             "file"       : "KerbalReusabilityExpansion",

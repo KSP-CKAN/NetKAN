@@ -1,12 +1,20 @@
 {
     "spec_version" : "v1.4",
     "identifier"   : "ContractConfigurator-ScanSatLite",
-    "$kref"        : "#/ckan/github/severedsolo/ScanSatLite",
     "name"         : "Contract Pack: SCANSat Lite",
     "abstract"     : "A set of contracts for the SCANSat mod",
-    "license"      : "CC-BY-NC-SA-4.0",
+    "$kref"        : "#/ckan/github/severedsolo/ScanSatLite",
     "$vref"        : "#/ckan/ksp-avc",
-    "depends" : [
+    "license"      : "CC-BY-NC-SA-4.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/108161-104-contract-pack-scansat-lite-13-230815/"
+    },
+    "tags": [
+        "config",
+        "career",
+        "resources"
+    ],
+    "depends": [
         {
             "name" : "ContractConfigurator",
             "min_version" : "1.1.0"
@@ -14,13 +22,10 @@
         { "name" : "SCANsat" },
         { "name" : "ModuleManager" }
     ],
-    "install" : [
+    "install": [
         {
             "find" : "ScanSatLite",
             "install_to" : "GameData/ContractPacks"
         }
-    ],
-    "resources" : {
-        "homepage"   : "https://forum.kerbalspaceprogram.com/index.php?/topic/108161-104-contract-pack-scansat-lite-13-230815/"
-    }
+    ]
 }

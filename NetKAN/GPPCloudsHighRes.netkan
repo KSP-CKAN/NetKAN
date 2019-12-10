@@ -2,5 +2,9 @@
     "spec_version": "v1.4",
     "identifier":   "GPPCloudsHighRes",
     "$kref":        "#/ckan/netkan/https://raw.githubusercontent.com/Galileo88/Galileos-Planet-Pack/master/CKAN/GPPCloudsHighRes.netkan",
-    "x_netkan_license_ok": true
+    "x_netkan_license_ok": true,
+    "tags": [
+        "config",
+        "graphics"
+    ]
 }
