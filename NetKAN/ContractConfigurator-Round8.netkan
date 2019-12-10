@@ -1,13 +1,22 @@
 {
     "spec_version" : "v1.4",
     "identifier"   : "ContractConfigurator-Round8",
-    "$kref"        : "#/ckan/github/jrossignol/ContractPack-Round8",
-    "abstract"     : "Only you can prevent the ROUND-8 tank from being decommissioned!  Grab this mod now, it won't be available once KSP 1.0 hits the shelves!",
     "name"         : "Contract Pack: Save the ROUND-8",
+    "abstract"     : "Only you can prevent the ROUND-8 tank from being decommissioned!  Grab this mod now, it won't be available once KSP 1.0 hits the shelves!",
+    "author"       : "nightingale",
+    "$kref"        : "#/ckan/github/jrossignol/ContractPack-Round8",
+    "$vref"        : "#/ckan/ksp-avc",
     "license"      : "CC-BY-NC-SA-4.0",
     "release_status": "stable",
-    "author": "nightingale",
-    "$vref": "#/ckan/ksp-avc",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/104231-O",
+        "bugtracker": "https://github.com/jrossignol/ContractPack-Round8/issues",
+        "license": "https://raw.githubusercontent.com/jrossignol/ContractPack-Round8/master/GameData/ContractPacks/Round8/LICENSE.txt"
+    },
+    "tags": [
+        "config",
+        "career"
+    ],
     "depends": [
         { "name": "ContractConfigurator" }
     ],
@@ -16,10 +25,5 @@
             "find"       : "Round8",
             "install_to" : "GameData/ContractPacks"
         }
-    ],
-    "resources": {
-        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/104231-090-contract-pack-save-the-round-8-v130-2015-04-17/",
-        "bugtracker": "https://github.com/jrossignol/ContractPack-Round8/issues",
-        "license": "https://raw.githubusercontent.com/jrossignol/ContractPack-Round8/master/GameData/ContractPacks/Round8/LICENSE.txt"
-    }
+    ]
 }

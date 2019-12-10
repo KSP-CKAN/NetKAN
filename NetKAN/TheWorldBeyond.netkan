@@ -11,6 +11,10 @@
         "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/175432-*",
         "repository": "https://github.com/TheProtagonists/TheWorldBeyond"
     },
+    "tags": [
+        "config",
+        "planet-pack"
+    ],
     "install": [
         {
             "find": "TheWorldBeyond",

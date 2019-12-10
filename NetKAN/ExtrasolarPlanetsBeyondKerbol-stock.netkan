@@ -1,10 +1,15 @@
 {
     "spec_version": "v1.4",
-    "$kref": "#/ckan/spacedock/202",
-    "identifier": "ExtrasolarPlanetsBeyondKerbol-stock",
-    "name": "Extrasolar Planets Byond Kerbol - Stock configuration",
-    "abstract": "Adds a new star system in orbit around the Kerbol System",
-    "license": "BSD-3-clause",
+    "identifier":   "ExtrasolarPlanetsBeyondKerbol-stock",
+    "name":         "Extrasolar Planets Byond Kerbol - Stock configuration",
+    "abstract":     "Adds a new star system in orbit around the Kerbol System",
+    "$kref":        "#/ckan/spacedock/202",
+    "license":      "BSD-3-clause",
+    "tags": [
+        "config",
+        "planet-pack",
+        "graphics"
+    ],
     "depends": [
          { "name" : "Kopernicus" },
          { "name" : "ModuleManager" }

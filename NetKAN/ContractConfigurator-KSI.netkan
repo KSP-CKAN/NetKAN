@@ -1,15 +1,19 @@
 {
-    "$kref": "#/ckan/spacedock/1500",
-    "identifier": "ContractConfigurator-KSI",
-    "license": "CC-BY-NC-ND-3.0",
     "spec_version": "v1.4",
+    "identifier":   "ContractConfigurator-KSI",
+    "$kref":        "#/ckan/spacedock/1500",
+    "license":      "CC-BY-NC-ND-3.0",
+    "tags": [
+        "config",
+        "career"
+    ],
     "depends": [
         { "name": "ContractConfigurator" },
         { "name": "KerbalScienceInnovation"}
     ],
     "install": [
         {
-            "find":"KSI",
+            "find": "KSI",
             "install_to": "GameData/ContractPacks"
         }
     ]

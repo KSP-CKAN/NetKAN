@@ -8,6 +8,14 @@
     "$vref":        "#/ckan/ksp-avc",
     "license":      "WTFPL",
     "x_maintained_by": "hakan42, who loves to fly missions with contracts in them",
+    "resources": {
+        "repository": "https://github.com/SimonTheSourcerer/CCSCANsatMissionPack"
+    },
+    "tags": [
+        "config",
+        "career",
+        "unmanned"
+    ],
     "depends": [
         {
             "name": "ContractConfigurator"
@@ -25,8 +33,5 @@
             "find":       "ContractPacks",
             "install_to": "GameData"
         }
-    ],
-    "resources": {
-        "repository": "https://github.com/SimonTheSourcerer/CCSCANsatMissionPack"
-    }
+    ]
 }

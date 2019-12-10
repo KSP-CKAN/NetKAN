@@ -3,6 +3,9 @@
     "identifier":   "SpaceXLandingPad",
     "$kref":        "#/ckan/spacedock/1670",
     "license":      "MIT",
+    "tags": [
+        "parts"
+    ],
     "depends": [
         { "name": "ModuleManager"    },
         { "name": "KerbalKonstructs" }

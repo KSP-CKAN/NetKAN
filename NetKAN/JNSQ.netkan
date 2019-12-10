@@ -1,5 +1,9 @@
 {
     "spec_version"  : "v1.4",
     "identifier"    : "JNSQ",
-    "$kref"         : "#/ckan/netkan/https://raw.githubusercontent.com/Galileo88/JNSQ/master/CKAN/JNSQ.netkan"
+    "$kref"         : "#/ckan/netkan/https://raw.githubusercontent.com/Galileo88/JNSQ/master/CKAN/JNSQ.netkan",
+    "tags"          : [
+        "config",
+        "planet-pack"
+    ]
 }
