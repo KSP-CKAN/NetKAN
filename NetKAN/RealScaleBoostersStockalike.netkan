@@ -5,6 +5,9 @@
     "$kref"        : "#/ckan/spacedock/561",
     "$vref"        : "#/ckan/ksp-avc",
     "x_netkan_license_ok": true,
+    "tags": [
+        "parts"
+    ],
     "depends": [
         { "name": "RealScaleBoosters" },
         { "name": "ModuleManager" }

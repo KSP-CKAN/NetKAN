@@ -1,13 +1,23 @@
 {
-    "license": "CC-BY-SA-2.0",
-    "$kref": "#/ckan/spacedock/1090",
     "spec_version": "v1.4",
-    "name" : "Contract Pack: Defense Combat Advisors (Default Aim)",
-    "identifier": "ContractConfigurator-DefenseCombatAdvisors-DefaultAim",
-    "depends": [ { "name" : "ContractConfigurator" },
-                 { "name" : "BDArmoryContinued" } ],
-    "recommends": [ { "name" : "MechJeb2" },
-                    { "name" : "MechJebForAll" } ],
-    "install": [ { "find": "ContractPacks/DCA",
-                   "install_to" : "GameData/ContractPacks" } ]
+    "identifier":   "ContractConfigurator-DefenseCombatAdvisors-DefaultAim",
+    "name":         "Contract Pack: Defense Combat Advisors (Default Aim)",
+    "$kref":        "#/ckan/spacedock/1090",
+    "license":      "CC-BY-SA-2.0",
+    "tags": [
+        "config",
+        "career"
+    ],
+    "depends": [
+        { "name" : "ContractConfigurator" },
+        { "name" : "BDArmoryContinued" }
+     ],
+    "recommends": [
+        { "name" : "MechJeb2" },
+        { "name" : "MechJebForAll" }
+    ],
+    "install": [ {
+        "find": "ContractPacks/DCA",
+        "install_to" : "GameData/ContractPacks"
+    } ]
 }

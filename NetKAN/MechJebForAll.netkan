@@ -1,7 +1,14 @@
 {
     "spec_version": "v1.4",
-    "identifier": "MechJebForAll",
+    "identifier":   "MechJebForAll",
+    "name":         "MechJeb and Engineer for all!",
+    "$kref":        "#/ckan/spacedock/1854",
+    "$vref":        "#/ckan/ksp-avc",
     "x_netkan_license_ok": true,
+    "tags": [
+        "config",
+        "control"
+    ],
     "depends": [
         { "name": "ModuleManager" }
     ],
@@ -9,9 +16,6 @@
         { "name": "MechJeb2" },
         { "name": "KerbalEngineerRedux" }
     ],
-    "name": "MechJeb and Engineer for all!",
-    "$vref": "#/ckan/ksp-avc",
-    "$kref": "#/ckan/spacedock/1854",
     "install": [
         {
             "find": "MechJebForAll",

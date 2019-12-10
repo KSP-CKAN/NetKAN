@@ -1,8 +1,13 @@
 {
     "spec_version": "v1.4",
-    "identifier": "HideEmptyTechNodes",
-    "$kref": "#/ckan/spacedock/577",
-    "license": "CC-BY-NC-4.0",
+    "identifier":   "HideEmptyTechNodes",
+    "$kref":        "#/ckan/spacedock/577",
+    "license":      "CC-BY-NC-4.0",
+    "tags": [
+        "plugin",
+        "tech-tree",
+        "convenience"
+    ],
     "suggests": [
         { "name": "CommunityTechTree" }
     ],

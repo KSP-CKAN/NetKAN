@@ -3,6 +3,10 @@
     "identifier":   "PersistentRotation",
     "$kref":        "#/ckan/spacedock/447",
     "license":      "GPL-3.0",
+    "tags": [
+        "plugin",
+        "physics"
+    ],
     "suggests": [
         { "name": "Toolbar" }
     ],

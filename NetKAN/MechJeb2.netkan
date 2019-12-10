@@ -14,6 +14,11 @@
         "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/154834-*",
         "repository": "https://github.com/MuMech/MechJeb2"
     },
+    "tags": [
+        "plugin",
+        "information",
+        "control"
+    ],
     "ksp_version": "1.8",
     "x_netkan_staging": true,
     "x_netkan_staging_reason": "Game versions hard coded in NetKAN. Please check that it matches the forum thread.",

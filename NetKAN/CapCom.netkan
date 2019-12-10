@@ -4,6 +4,11 @@
     "$kref":        "#/ckan/spacedock/131",
     "$vref":        "#/ckan/ksp-avc",
     "license":      "MIT",
+    "tags": [
+        "plugin",
+        "career",
+        "convenience"
+    ],
     "depends": [
         { "name": "ProgressParser" },
         { "name": "ContractParser" }

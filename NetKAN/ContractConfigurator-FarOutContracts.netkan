@@ -2,18 +2,20 @@
 {
     "spec_version"  : "v1.4",
     "identifier"    : "ContractConfigurator-FarOutContracts",
-    "$kref"         : "#/ckan/github/MrChumley/Farout",
-    "x_netkan_epoch": "2",
     "name"          : "ContractConfigurator-FarOutContracts",
     "abstract"      : "Adds custom Contract Configurator contracts to Kronkus, Asclepius, and Spud",
+    "author"        : [ "MrChumley" ],
+    "$kref"         : "#/ckan/github/MrChumley/Farout",
+    "ksp_version"   : "1.3",
+    "x_netkan_epoch": "2",
     "license"       : "CC0",
-    "author": [
-        "MrChumley"
-    ],
     "resources": {
-        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/113949-105-asclepius-a-kopernicus-planet-ssto-playground/"
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/113949-*"
     },
-    "ksp_version": "1.3",
+    "tags": [
+        "config",
+        "career"
+    ],
     "depends": [
         { "name" : "Kopernicus", "min_version": "2:release-1.3.0-5" },
         { "name" : "ModuleManager", "min_version": "2.8.0" },
