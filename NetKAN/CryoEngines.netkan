@@ -1,5 +1,8 @@
 {
     "spec_version": "v1.4",
     "identifier": "CryoEngines",
-    "$kref": "#/ckan/netkan/https://raw.githubusercontent.com/ChrisAdderley/CryoEngines/master/CKAN/CryoEngines.netkan"
+    "$kref": "#/ckan/netkan/https://raw.githubusercontent.com/ChrisAdderley/CryoEngines/master/CKAN/CryoEngines.netkan",
+    "tags": [
+        "parts"
+    ]
 }

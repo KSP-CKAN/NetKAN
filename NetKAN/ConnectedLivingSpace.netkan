@@ -1,11 +1,14 @@
 {
     "spec_version": 1,
-    "identifier": "ConnectedLivingSpace",
-    "$kref": "#/ckan/spacedock/190",
-    "$vref": "#/ckan/ksp-avc",
-    "license": "CC-BY-NC-SA-4.0",
+    "identifier":   "ConnectedLivingSpace",
+    "$kref":        "#/ckan/spacedock/190",
+    "$vref":        "#/ckan/ksp-avc",
+    "license":      "CC-BY-NC-SA-4.0",
+    "tags": [
+        "plugin",
+        "manned"
+    ],
     "depends": [
         { "name": "ModuleManager" }
     ]
 }
-

@@ -1,17 +1,20 @@
 {
     "spec_version": "v1.26",
-    "identifier": "B9-PWings-Modified",
-    "$kref": "#/ckan/github/01010101lzy/B9-PWings-Fork",
-    "$vref": "#/ckan/ksp-avc",
-    "name": "B9 Procedural Wings Modified",
-    "abstract": "Fork of Bac9 and Crzyrndm's Procedural Wings mod for KSP",
-    "author": [ "01010101lzy", "Crzyrndm", "bac9" ],
-    "license": "CC-BY-NC-SA-4.0",
+    "identifier":   "B9-PWings-Modified",
+    "name":         "B9 Procedural Wings Modified",
+    "abstract":     "Fork of Bac9 and Crzyrndm's Procedural Wings mod for KSP",
+    "author":       [ "01010101lzy", "Crzyrndm", "bac9" ],
+    "$kref":        "#/ckan/github/01010101lzy/B9-PWings-Fork",
+    "$vref":        "#/ckan/ksp-avc",
+    "license":      "CC-BY-NC-SA-4.0",
+    "x_licence_code": "MIT",
+    "x_licence_assets": "CC-BY-NC-SA-4.0",
     "resources": {
         "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/126997-*"
     },
-    "x_licence_code": "MIT",
-    "x_licence_assets": "CC-BY-NC-SA-4.0",
+    "tags": [
+        "parts"
+    ],
     "conflicts": [
         { "name": "B9AerospaceProceduralParts" },
         { "name": "B9-PWings-Fork" }

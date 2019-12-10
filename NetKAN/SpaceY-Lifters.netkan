@@ -1,13 +1,16 @@
 {
-    "spec_version" : 1,
-    "identifier" : "SpaceY-Lifters",
-    "$kref" : "#/ckan/spacedock/88",
-    "$vref" : "#/ckan/ksp-avc",
-    "license" : "CC-BY-NC-SA",
-    "depends" :  [
+    "spec_version": 1,
+    "identifier":   "SpaceY-Lifters",
+    "$kref":        "#/ckan/spacedock/88",
+    "$vref":        "#/ckan/ksp-avc",
+    "license":      "CC-BY-NC-SA",
+    "tags": [
+        "parts"
+    ],
+    "depends":  [
         { "name" : "ModuleManager" }
     ],
-    "recommends" : [
+    "recommends": [
         { "name" : "SpaceY-Expanded" }
     ],
     "supports": [

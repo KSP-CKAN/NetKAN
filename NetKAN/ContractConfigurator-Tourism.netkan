@@ -2,5 +2,10 @@
     "spec_version": "v1.16",
     "identifier": "ContractConfigurator-Tourism",
     "$kref": "#/ckan/netkan/https://raw.githubusercontent.com/jrossignol/ContractPack-Tourism/master/ContractConfigurator-Tourism.netkan",
-    "x_netkan_license_ok": true
+    "x_netkan_license_ok": true,
+    "tags": [
+        "config",
+        "career",
+        "manned"
+    ]
 }

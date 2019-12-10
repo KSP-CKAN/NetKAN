@@ -11,8 +11,11 @@
     "$vref":            "#/ckan/ksp-avc",
     "x_netkan_epoch": 1,
     "resources": {
-        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/175197-13114x151-b9-procedural-wings-fork-"
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/175197-*"
     },
+    "tags": [
+        "parts"
+    ],
     "conflicts": [
         { "name": "B9AerospaceProceduralParts" }
     ],
