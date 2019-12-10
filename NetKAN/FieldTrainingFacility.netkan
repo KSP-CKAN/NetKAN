@@ -4,6 +4,10 @@
     "$kref":        "#/ckan/spacedock/978",
     "$vref":        "#/ckan/ksp-avc",
     "license":      "MIT",
+    "tags": [
+        "config",
+        "manned"
+    ],
     "depends": [
         { "name": "ModuleManager" }
     ],

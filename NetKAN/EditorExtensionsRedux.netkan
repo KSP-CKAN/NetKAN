@@ -1,14 +1,22 @@
 {
+    "spec_version"        : 1,
     "identifier"          : "EditorExtensionsRedux",
     "abstract"            : "Tweaks and features for the in-game vessel editor, e.g. alignment and symmetry aids. Now includes SelectRoot mod",
     "x_netkan_license_ok" : true,
     "$kref"               : "#/ckan/spacedock/48",
     "$vref"               : "#/ckan/ksp-avc",
-    "spec_version"        : 1,
-    "depends" : [ { "name" : "ClickThroughBlocker" } ],
-    "recommends": [ { "name": "JanitorsCloset" } ],
     "resources": {
-        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/127378-editor-extensions-redux",
-        "repository":"https://github.com/linuxgurugamer/EditorExtensionsRedux"
-    }
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/127378-*",
+        "repository": "https://github.com/linuxgurugamer/EditorExtensionsRedux"
+    },
+    "tags": [
+        "plugin",
+        "convenience"
+    ],
+    "depends": [
+        { "name": "ClickThroughBlocker" }
+    ],
+    "recommends": [
+        { "name": "JanitorsCloset" }
+    ]
 }

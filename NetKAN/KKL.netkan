@@ -11,9 +11,8 @@
         "repository"   : "https://github.com/craidler/KerbalKustomzLtd"
     },
     "tags" : [
-        "defaults",
-        "parts",
-        "tweaks"
+        "config",
+        "convenience"
     ],
     "depends" : [
         { "name" : "ModuleManager" }

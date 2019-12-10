@@ -13,6 +13,10 @@
         "homepage":   "https://forum.kerbalspaceprogram.com/index.php?/topic/161898-*",
         "repository": "https://github.com/HaArLiNsH/TextureReplacerReplaced"
     },
+    "tags": [
+        "plugin",
+        "graphics"
+    ],
     "provides": [ "TextureReplacer" ],
 	"conflicts": [
         { "name": "TextureReplacer" }

@@ -4,6 +4,10 @@
     "$kref":        "#/ckan/spacedock/971",
     "$vref":        "#/ckan/ksp-avc",
     "license":      "MIT",
+    "tags": [
+        "config",
+        "manned"
+    ],
     "install": [ {
         "find":       "FieldTrainingLab",
         "install_to": "GameData"

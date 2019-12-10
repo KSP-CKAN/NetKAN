@@ -5,10 +5,14 @@
     "$vref"        : "#/ckan/ksp-avc",
     "name"         : "Physics Range Extender ",
     "license"      : "Unlicense",
-    "suggests"     : [
-        { "name" : "KerbalJointReinforcement" }
-    ],
     "resources": {
         "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/158344-*"
-    }
+    },
+    "tags": [
+        "plugin",
+        "physics"
+    ],
+    "suggests"     : [
+        { "name" : "KerbalJointReinforcement" }
+    ]
 }

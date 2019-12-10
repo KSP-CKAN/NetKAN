@@ -1,27 +1,27 @@
 {
     "spec_version"  	: "v1.4",
-    "name"          	: "Toolbar",
-    "author"        	: ["blizzy78", "linuxgurugamer"],
     "identifier"    	: "Toolbar",
+    "name"          	: "Toolbar",
     "abstract"      	: "API for third-party plugins to provide toolbar buttons",
+    "author"        	: ["blizzy78", "linuxgurugamer"],
+    "$kref"             : "#/ckan/spacedock/2090",
+    "$vref"             : "#/ckan/ksp-avc",
+    "x_netkan_epoch"    : "1",
     "license"       	: "BSD-2-clause",
     "release_status"	: "stable",
     "resources" : {
-        "homepage"  	: "https://forum.kerbalspaceprogram.com/index.php?/topic/161857-13-*",
+        "homepage"  	: "https://forum.kerbalspaceprogram.com/index.php?/topic/161857-*",
         "repository"	: "https://github.com/linuxgurugamer/ksp_toolbar"
     },
-    "install" : [
-        {
-            "find"       : "GameData/000_Toolbar",
-            "install_to" : "GameData"
-        }
+    "tags": [
+        "plugin",
+        "convenience"
     ],
+    "install" : [ {
+        "find"       : "GameData/000_Toolbar",
+        "install_to" : "GameData"
+    } ],
     "depends": [
         { "name" : "ClickThroughBlocker" }
-    ],
-    "$kref"             : "#/ckan/spacedock/2090",
-    "$vref"             : "#/ckan/ksp-avc",
-    "x_netkan_epoch"    : "1"
-
+    ]
 }
-

@@ -4,6 +4,9 @@
     "$kref":        "#/ckan/spacedock/1646",
     "x_netkan_epoch": 3,
     "license":      "CC-BY-SA",
+    "tags": [
+        "parts"
+    ],
     "depends": [
         { "name": "BDArmoryContinued" }
     ],
