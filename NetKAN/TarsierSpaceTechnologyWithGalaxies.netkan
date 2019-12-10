@@ -1,14 +1,19 @@
 {
-    "identifier": "TarsierSpaceTechnologyWithGalaxies",
     "spec_version": "v1.4",
+    "identifier":   "TarsierSpaceTechnologyWithGalaxies",
+    "$kref":        "#/ckan/spacedock/143",
+    "$vref":        "#/ckan/ksp-avc",
     "x_netkan_version_edit": {
-        "find": "^[vV]?(?<version>.+)$",
+        "find":    "^[vV]?(?<version>.+)$",
         "replace": "${version}"
     },
     "x_netkan_epoch": "1",
-    "$kref": "#/ckan/spacedock/143",
-    "$vref": "#/ckan/ksp-avc",
-    "license": "MIT",
+    "license":      "MIT",
+    "tags": [
+        "plugin",
+        "parts",
+        "science"
+    ],
     "install": [
         {
             "find": "TarsierSpaceTech",

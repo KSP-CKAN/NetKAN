@@ -10,6 +10,10 @@
         "homepage":   "https://forum.kerbalspaceprogram.com/index.php?/topic/189071-*",
         "repository": "https://github.com/prestja/ksp-planetshine"
     },
+    "tags": [
+        "plugin",
+        "graphics"
+    ],
     "depends": [
         { "name": "PlanetShine-Config" }
     ],

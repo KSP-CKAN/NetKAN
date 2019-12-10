@@ -4,30 +4,33 @@
     "name"          : "US Rockets",
     "author"        : "Raidernick",
     "abstract"      : "This mod contains older, more obscure US rockets like Thor, Delta, Vanguard, Juno, Scout and even sounding rockets such as Aerobee.",
-    "resources": {
-        "homepage"  : "http://forum.kerbalspaceprogram.com/index.php?/topic/98791-105"
-    },
     "$kref"         : "#/ckan/github/KSP-RO/USRockets",
+    "$vref"         : "#/ckan/ksp-avc",
+	"x_netkan_epoch": 1,
     "license"       : "CC-BY-NC-ND-3.0",
-    "$vref"        : "#/ckan/ksp-avc",
-	"x_netkan_epoch"   : 1,
-    "install"       : [
-    {
-        "find"      : "RN_US_Rockets",
-        "install_to": "GameData"
+    "resources": {
+        "homepage"  : "http://forum.kerbalspaceprogram.com/index.php?/topic/98791-*"
     },
-    {
-        "file"      : "Ships/VAB",
-        "install_to": "Ships"
-    }],
+    "tags": [
+        "parts"
+    ],
+    "install"       : [
+        {
+            "find"      : "RN_US_Rockets",
+            "install_to": "GameData"
+        },
+        {
+            "file"      : "Ships/VAB",
+            "install_to": "Ships"
+        }
+    ],
     "depends": [
 		{ "name": "BDAnimationModules" },
         { "name": "TexturesUnlimited" },
 		{ "name": "ModuleManager" }
     ],
-	"recommends"    :
-    [
-        { "name"    : "SmokeScreen" },
-        { "name"    : "RN-USProbesPack" }
+	"recommends": [
+        { "name": "SmokeScreen" },
+        { "name": "RN-USProbesPack" }
     ]
 }

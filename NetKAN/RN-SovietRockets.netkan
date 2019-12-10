@@ -2,12 +2,12 @@
     "spec_version"  : "v1.4",
     "identifier"    : "RN-SovietRockets",
     "name"          : "Soviet Rockets - R7/Proton/Zenit Rockets and more",
-    "author"        : "Raidernick",
     "abstract"      : "This mod contains various Soviet rockets derived from ICBM designs.",
+    "author"        : "Raidernick",
     "$kref"         : "#/ckan/github/KSP-RO/SovietRockets",
-    "license"       : "CC-BY-NC-ND-3.0",
     "$vref"         : "#/ckan/ksp-avc",
 	"x_netkan_epoch": 2,
+    "license"       : "CC-BY-NC-ND-3.0",
     "resources": {
         "homepage"  : "https://forum.kerbalspaceprogram.com/index.php?/topic/79433-*"
     },

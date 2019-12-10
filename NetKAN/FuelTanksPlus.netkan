@@ -1,9 +1,12 @@
 {
-    "$kref": "#/ckan/spacedock/92",
-    "$vref" : "#/ckan/ksp-avc",
-    "identifier": "FuelTanksPlus",
-    "license": "CC-BY-NC-SA",
     "spec_version": 1,
+    "identifier":   "FuelTanksPlus",
+    "$kref":        "#/ckan/spacedock/92",
+    "$vref":        "#/ckan/ksp-avc",
+    "license":      "CC-BY-NC-SA",
+    "tags": [
+        "parts"
+    ],
     "depends": [
         { "name": "ModuleManager" }
     ],

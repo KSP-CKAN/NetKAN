@@ -8,6 +8,10 @@
     "resources" : {
         "repository"  : "https://github.com/linuxgurugamer/SpaceTux"
     },
+    "tags": [
+        "config",
+        "library"
+    ],
     "install" : [
         {
             "find"       : "SpaceTuxSA",
@@ -22,9 +26,7 @@
                 "ksp_version_min" : "1.0.2",
                 "ksp_version_max" : "1.0.4"
             }
-        }
-    ],
-    "x_netkan_override" : [
+        },
         {
             "version" : "0.3.9",
             "delete" : [ "ksp_version" ],
