@@ -1,18 +1,16 @@
 {
-  "license": "public-domain",
-  "identifier": "DeflatableHeatShield",
-  "x_via": "Automated Linuxgurugamer CKAN script",
-  "$kref": "#/ckan/spacedock/918",
-  "depends": [
-    {
-      "name": "ModuleManager"
-    }
-  ],
-  "install": [
-    {
-      "find": "XyphosAerospace",
-      "install_to": "GameData"
-    }
-  ],
-  "spec_version": "v1.4"
+    "spec_version": "v1.4",
+    "identifier":   "DeflatableHeatShield",
+    "$kref":        "#/ckan/spacedock/918",
+    "license":      "public-domain",
+    "tags": [
+        "config"
+    ],
+    "depends": [
+        { "name": "ModuleManager" }
+    ],
+    "install": [ {
+        "find":       "XyphosAerospace",
+        "install_to": "GameData"
+    } ]
 }

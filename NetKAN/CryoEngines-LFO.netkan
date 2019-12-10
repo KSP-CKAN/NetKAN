@@ -1,5 +1,8 @@
 {
     "spec_version": "v1.4",
     "identifier": "CryoEngines-LFO",
-    "$kref": "#/ckan/netkan/https://raw.githubusercontent.com/ChrisAdderley/CryoEngines/master/CKAN/CryoEngines-LFO.netkan"
+    "$kref": "#/ckan/netkan/https://raw.githubusercontent.com/ChrisAdderley/CryoEngines/master/CKAN/CryoEngines-LFO.netkan",
+    "tags": [
+        "config"
+    ]
 }

@@ -1,12 +1,20 @@
 {
     "spec_version" : "v1.4",
     "identifier"   : "ContractConfigurator-KerbinSpaceStation",
-    "$kref"        : "#/ckan/github/linuxgurugamer/KerbinSpaceStation",
     "name"         : "Contract Pack: Bases and Stations Reborn",
     "abstract"     : "A contract pack to replace the default Squad build a Space Station missions",
-    "license"      : "MIT",
+    "$kref"        : "#/ckan/github/linuxgurugamer/KerbinSpaceStation",
     "$vref"        : "#/ckan/ksp-avc",
     "x_netkan_epoch": "2",
+    "license"      : "MIT",
+    "resources" : {
+        "homepage" : "https://forum.kerbalspaceprogram.com/index.php?/topic/175822-*"
+    },
+    "tags": [
+        "config",
+        "career",
+        "manned"
+    ],
     "depends" : [
         {
             "name" : "ContractConfigurator",
@@ -15,20 +23,10 @@
         { "name" : "ModuleManager" }
     ],
     "conflicts" : [
-        {
-            "name" : "ContractConfigurator-UsefulSpaceStations"
-        }
+        { "name" : "ContractConfigurator-UsefulSpaceStations" }
     ],
-    "install" : [
-        {
-            "find" : "KerbinSpaceStation",
-            "install_to" : "GameData/ContractPacks"
-        }
-    ],
-    "resources" : {
-        "homepage" : "https://forum.kerbalspaceprogram.com/index.php?/topic/175822-14-contract-pack-bases-and-stations-reborn/"
-    }
+    "install" : [ {
+        "find" : "KerbinSpaceStation",
+        "install_to" : "GameData/ContractPacks"
+    } ]
 }
-
-
- 

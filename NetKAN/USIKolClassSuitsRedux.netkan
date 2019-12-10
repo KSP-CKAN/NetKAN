@@ -3,6 +3,10 @@
     "identifier":   "USIKolClassSuitsRedux",
     "$kref":        "#/ckan/spacedock/2035",
     "license":      "CC-BY-SA-4.0",
+    "tags": [
+        "graphics",
+        "manned"
+    ],
     "depends": [
         { "name": "TextureReplacer" }
     ],

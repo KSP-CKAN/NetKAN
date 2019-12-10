@@ -1,16 +1,19 @@
 {
     "spec_version": 1,
-    "identifier": "ProgressiveColonizationSystem",
-    "$kref": "#/ckan/github/SteveBenz/ProgressiveColonizationSystem",
-    "$vref": "#/ckan/ksp-avc",
-    "license": "MIT",
+    "identifier":   "ProgressiveColonizationSystem",
+    "abstract":     "A colonization and production system that encourages building a variety of ship types - space stations, rovers, transports and, of course, landed bases.  It also creates a progression system outside of the science grind.  It includes a very simple life-support system, and so should not be used in mods with life support systems.",
+    "author":       "NermNermNerm",
+    "$kref":        "#/ckan/github/SteveBenz/ProgressiveColonizationSystem",
+    "$vref":        "#/ckan/ksp-avc",
+    "license":      "MIT",
     "resources": {
-        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/181852-15x~16x-progressivecolonizationsystem-life-support-colonization-for-more-fun-in-late-game/"
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/181852-*"
     },
-    "author": "NermNermNerm",
-    "abstract": "A colonization and production system that encourages building a variety of ship types - space stations, rovers, transports and, of course, landed bases.  It also creates a progression system outside of the science grind.  It includes a very simple life-support system, and so should not be used in mods with life support systems.",
-    "tags": [ "colonization", "production" ],
-
+    "tags": [
+        "plugin",
+        "parts",
+        "manned"
+    ],
     "depends": [
         { "name": "B9PartSwitch" },
         { "name": "CommunityCategoryKit" },
