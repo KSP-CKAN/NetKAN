@@ -1,5 +1,8 @@
 {
     "spec_version": "v1.4",
     "identifier"    : "KerbalAtomics-NFECompatibility",
-    "$kref"         : "#/ckan/netkan/https://github.com/ChrisAdderley/KerbalAtomics/raw/master/CKAN/KerbalAtomics-NFECompatibility.netkan"
+    "$kref"         : "#/ckan/netkan/https://github.com/ChrisAdderley/KerbalAtomics/raw/master/CKAN/KerbalAtomics-NFECompatibility.netkan",
+    "tags": [
+        "config"
+    ]
 }

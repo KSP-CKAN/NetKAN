@@ -15,6 +15,10 @@
         "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/19321-1",
         "repository": "https://github.com/ferram4/Ferram-Aerospace-Research"
     },
+    "tags": [
+        "plugin",
+        "physics"
+    ],
     "provides"  : [ "AerodynamicModel", "FAR" ],
     "conflicts" : [ { "name" : "AerodynamicModel" } ],
     "depends" : [

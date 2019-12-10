@@ -11,6 +11,10 @@
         "manual": "http://triggerau.github.io/TransferWindowPlanner/",
         "x_curse": "http://kerbal.curseforge.com/projects/transfer-window-planner"
     },
+    "tags": [
+        "plugin",
+        "information"
+    ],
     "recommends": [
         { "name" : "TriggerAu-Flags" }
     ],

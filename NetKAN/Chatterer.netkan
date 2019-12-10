@@ -3,5 +3,10 @@
     "identifier"   : "Chatterer",
     "license"      : "GPL-3.0",
     "$kref"        : "#/ckan/spacedock/208",
-    "$vref"        : "#/ckan/ksp-avc"
+    "$vref"        : "#/ckan/ksp-avc",
+    "tags": [
+        "plugin",
+        "sound",
+        "manned"
+    ]
 }

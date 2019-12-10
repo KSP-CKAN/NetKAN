@@ -2,5 +2,8 @@
     "spec_version"  : "v1.26",
     "identifier"    : "KerbalAtomics",
     "$kref"         : "#/ckan/netkan/https://github.com/ChrisAdderley/KerbalAtomics/raw/master/CKAN/KerbalAtomics.netkan",
-    "x_netkan_epoch": 1
+    "x_netkan_epoch": 1,
+    "tags": [
+        "parts"
+    ]
 }
