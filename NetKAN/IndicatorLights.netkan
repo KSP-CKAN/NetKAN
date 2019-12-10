@@ -1,8 +1,12 @@
 {
-    "$kref": "#/ckan/spacedock/566",
     "spec_version": "v1.4",
-    "identifier": "IndicatorLights",
-    "license": "CC-BY-NC-SA-4.0",
+    "identifier":   "IndicatorLights",
+    "$kref":        "#/ckan/spacedock/566",
+    "license":      "CC-BY-NC-SA-4.0",
+    "tags": [
+        "plugin",
+        "information"
+    ],
     "depends": [
         { "name": "ModuleManager" }
     ]

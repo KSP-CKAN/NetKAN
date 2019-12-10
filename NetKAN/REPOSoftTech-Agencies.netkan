@@ -1,20 +1,21 @@
 {
     "spec_version" : "v1.4",
     "identifier"   : "REPOSoftTech-Agencies",
-    "$kref"        : "#/ckan/spacedock/144",
     "name"         : "REPOSoftTech-Agencies",
     "abstract"     : "This adds the agencies required by JPLRepo's mods.",
-     "license": "CC-BY-NC-SA-4.0",
+    "$kref"        : "#/ckan/spacedock/144",
     "ksp_version"  : "any",
     "comment"      : "agencymod",
+    "license"      : "CC-BY-NC-SA-4.0",
+    "tags": [
+        "config"
+    ],
     "recommends": [
         { "name": "AmpYearPowerManager" },
         { "name": "DeepFreeze" }
     ],
-    "install": [
-        {
-            "find"       : "Agencies",
-            "install_to" : "GameData/REPOSoftTech"
-        }
-    ]
+    "install": [ {
+        "find"       : "Agencies",
+        "install_to" : "GameData/REPOSoftTech"
+    } ]
 }

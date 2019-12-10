@@ -1,15 +1,18 @@
 {
     "spec_version": "v1.4",
-    "identifier": "Mk2Expansion",
-    "$kref": "#/ckan/spacedock/473",
-    "license": "CC-BY-NC-SA-4.0",
+    "identifier":   "Mk2Expansion",
+    "$kref":        "#/ckan/spacedock/473",
+    "x_netkan_epoch": 2,
+    "license":      "CC-BY-NC-SA-4.0",
+    "tags": [
+        "parts"
+    ],
     "depends": [
         { "name": "ModuleManager" },
         { "name": "CommunityResourcePack" },
         { "name": "B9PartSwitch" }
     ],
-    "x_netkan_epoch": 2,
-    "install" : [
+    "install": [
         {
             "find"       : "GameData/Mk2Expansion",
             "install_to" : "GameData"
