@@ -36,12 +36,6 @@
         { "name": "SCANsat" }
     ],
     "conflicts": [
-        { "name": "UKS" },
-        { "name": "TACLS" },
-        { "name": "Snacks" },
-        { "name": "USI-LS" },
-        { "name": "BackgroundResources" },
-        { "name": "BackgroundProcessing" },
         { "name": "DynamicBatteryStorage" }
     ], 
     "install": [ {
