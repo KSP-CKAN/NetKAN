@@ -1,10 +1,14 @@
 {
     "spec_version": "v1.4",
-    "$kref": "#/ckan/spacedock/167",
-    "license": "CC-BY-SA-4.0",
-    "identifier": "LargeBoatPartsPack",
-    "name"        : "Large Boat Parts Pack - Common",
-    "abstract"    : "Common files for a less parts, More FPS, Naval experience.",
+    "identifier":   "LargeBoatPartsPack",
+    "name":         "Large Boat Parts Pack - Common",
+    "abstract":     "Common files for a less parts, More FPS, Naval experience.",
+    "$kref":        "#/ckan/spacedock/167",
+    "x_netkan_epoch": 1,
+    "license":      "CC-BY-SA-4.0",
+    "tags": [
+        "parts"
+    ],
     "recommends": [
         { "name": "WasdEditorCameraContinued" },
         { "name": "VesselMover" },
@@ -17,7 +21,6 @@
             "install_to": "GameData/LShipParts"
         }
     ],
-    "x_netkan_epoch": 1,
     "x_netkan_override": [
         {
             "version": "3.2",
