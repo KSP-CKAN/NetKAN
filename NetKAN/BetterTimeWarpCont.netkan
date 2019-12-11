@@ -5,6 +5,10 @@
     "$vref":        "#/ckan/ksp-avc",
     "x_netkan_allow_out_of_order": true,
     "license":      "GPL-3.0",
+    "tags": [
+        "plugin",
+        "convenience"
+    ],
     "install": [ {
         "find":       "BetterTimeWarp",
         "install_to": "GameData"

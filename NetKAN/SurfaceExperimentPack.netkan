@@ -8,6 +8,12 @@
     "resources": {
         "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/155382-*"
     },
+    "tags": [
+        "plugin",
+        "parts",
+        "science",
+        "manned"
+    ],
     "depends": [
         { "name": "KAS" },
         { "name": "KIS" }

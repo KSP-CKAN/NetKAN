@@ -5,6 +5,10 @@
     "$vref":        "#/ckan/ksp-avc",
     "license":      "CC-BY-NC-SA-4.0",
     "x_via":        "Author JPLRepo",
+    "tags": [
+        "plugin",
+        "manned"
+    ],
     "depends" : [
         { "name" : "ModuleManager", "min_version" : "2.3.5" },
         { "name" : "REPOSoftTech-Agencies" },
@@ -25,8 +29,8 @@
         { "name" : "Snacks" }
     ],
     "install": [
-        { 
-            "find":       "REPOSoftTech/DeepFreeze", 
+        {
+            "find":       "REPOSoftTech/DeepFreeze",
             "install_to": "GameData/REPOSoftTech"
         }
     ]

@@ -8,8 +8,12 @@
     "license"      : "BSD-2-clause",
     "x_netkan_epoch": "2",
     "resources": {
-        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/128303-11x-precise-maneuver-editor-ver-20-pre-17-04-2016/"
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/128303-*"
     },
+    "tags": [
+        "plugin",
+        "convenience"
+    ],
     "conflicts": [
         { "name": "PreciseNode" }
     ]

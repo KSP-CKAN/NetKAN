@@ -7,12 +7,14 @@
     "$vref":        "#/ckan/ksp-avc",
     "license":      "MIT",
     "release_status": "stable",
-    "install": [ {
-        "find": "RetractableLiftingSurface",
-        "install_to": "GameData"
-    } ],
     "resources": {
         "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/145583-*"
     },
-    "x_via": "Automated Linuxgurugamer CKAN script"
+    "tags": [
+        "parts"
+    ],
+    "install": [ {
+        "find": "RetractableLiftingSurface",
+        "install_to": "GameData"
+    } ]
 }

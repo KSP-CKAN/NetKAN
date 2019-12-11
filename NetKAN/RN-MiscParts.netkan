@@ -2,18 +2,19 @@
     "spec_version"  : "v1.4",
     "identifier"    : "RN-MiscParts",
     "name"          : "RNMisc",
-    "author"        : "Raidernick",
     "abstract"      : "This mod contains miscellaneous parts I have fixed or re-textured and can re-release under authors original license terms",
-    "resources":
-    {
-        "homepage"  : "http://forum.kerbalspaceprogram.com/index.php?/topic/132194-105"
-    },
+    "author"        : "Raidernick",
     "$kref"         : "#/ckan/github/KSP-RO/RNMisc",
+    "$vref"         : "#/ckan/ksp-avc",
+	"x_netkan_epoch": 1,
     "license"       : "CC-BY-NC-ND-3.0",
-    "$vref"        : "#/ckan/ksp-avc",
-	"x_netkan_epoch"   : 1,
-    "install"       :
-    [
+    "resources": {
+        "homepage"  : "http://forum.kerbalspaceprogram.com/index.php?/topic/132194-*"
+    },
+    "tags": [
+        "parts"
+    ],
+    "install"       : [
       {
         "find"      : "RN_Misc",
         "install_to": "GameData"

@@ -6,9 +6,13 @@
     "license"     : "CC-BY-NC-SA-4.0",
     "$kref"       : "#/ckan/spacedock/711",
     "$vref"       : "#/ckan/ksp-avc/OPTLegacy.version",
-    "resources"    : {
-        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/87956-opt-space-plane-temporary-thread"
+    "x_netkan_epoch": 1,
+    "resources"   : {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/87956-*"
     },
+    "tags": [
+        "parts"
+    ],
     "install": [
         {
             "find": "OPT_Legacy",
@@ -21,6 +25,5 @@
     "depends": [
         { "name": "ModuleManager" },
         { "name": "OPTReconfig"   }
-    ],
-    "x_netkan_epoch": 1
+    ]
 }
