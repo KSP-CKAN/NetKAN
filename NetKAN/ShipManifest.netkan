@@ -1,22 +1,30 @@
 {
-  "spec_version": 1,
-  "$kref": "#/ckan/github/PapaJoesSoup/ShipManifest",
-  "$vref": "#/ckan/ksp-avc",
-  "identifier": "ShipManifest",
-  "author": "Papa_Joe",
-  "abstract": "Manages Crew, Science, & Resources on a given vessel.",
-  "release_status": "stable",
-  "license" : "CC-BY-NC-SA-4.0",
-  "resources": {
-    "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/56643-*",
-    "repository": "https://github.com/PapaJoesSoup/ShipManifest",
-    "x_curse": "http://kerbal.curseforge.com/plugins/220357-ship-manifest"
-  },
-  "suggests": [
-    { "name": "ConnectedLivingSpace" },
-    { "name": "Toolbar" },
-    { "name": "DeepFreeze" },
-    { "name": "RemoteTech" },
-    { "name": "ModuleManager" }
-  ]
+    "spec_version": 1,
+    "identifier":   "ShipManifest",
+    "abstract":     "Manages Crew, Science, & Resources on a given vessel.",
+    "author":       "Papa_Joe",
+    "$kref":        "#/ckan/github/PapaJoesSoup/ShipManifest",
+    "$vref":        "#/ckan/ksp-avc",
+    "release_status": "stable",
+    "license":      "CC-BY-NC-SA-4.0",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/56643-*",
+        "repository": "https://github.com/PapaJoesSoup/ShipManifest",
+        "x_curse": "http://kerbal.curseforge.com/plugins/220357-ship-manifest"
+    },
+    "tags": [
+        "plugin",
+        "information",
+        "manned",
+        "science",
+        "resources",
+        "convenience"
+    ],
+    "suggests": [
+        { "name": "ConnectedLivingSpace" },
+        { "name": "Toolbar" },
+        { "name": "DeepFreeze" },
+        { "name": "RemoteTech" },
+        { "name": "ModuleManager" }
+    ]
 }

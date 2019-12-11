@@ -1,14 +1,15 @@
 {
-  "spec_version": "v1.4",
-  "install": [
-    {
-      "install_to": "GameData",
-      "find": "ToadicusTools"
-    }
-  ],
-  "$vref": "#/ckan/ksp-avc",
-  "$kref": "#/ckan/spacedock/1069",
-  "x_via": "Automated Linuxgurugamer CKAN script",
-  "identifier": "ToadicusToolsContinued",
-  "license": "BSD-3-clause"
+    "spec_version": "v1.4",
+    "identifier":   "ToadicusToolsContinued",
+    "$kref":        "#/ckan/spacedock/1069",
+    "$vref":        "#/ckan/ksp-avc",
+    "license":      "BSD-3-clause",
+    "tags": [
+        "plugin",
+        "library"
+    ],
+    "install": [ {
+        "find": "ToadicusTools",
+        "install_to": "GameData"
+    } ]
 }

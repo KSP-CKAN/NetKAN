@@ -5,6 +5,11 @@
     "$kref"         : "#/ckan/spacedock/14",
     "$vref"         : "#/ckan/ksp-avc",
     "license"       : "restricted",
+    "tags": [
+        "config",
+        "science",
+        "career"
+    ],
     "depends" : [
         { "name": "ModuleManager" }
     ],

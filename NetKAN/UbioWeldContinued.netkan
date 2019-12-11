@@ -1,14 +1,18 @@
 {
     "spec_version"     : 1,
     "identifier"       : "UbioWeldContinued",
-    "$kref"            : "#/ckan/github/UbioWeldingLtd/UbioWeldContinued",
     "name"             : "UbioZur Welding Ltd. Continued",
     "abstract"         : "This is a welding tool to allow you to merge KSP parts together in order to reduce your part count and increase performance. You will now be able to create big space station or vessel without killing your CPU. The mass, price, resource quantity are kept as if you had all the part separated. Please read forum thread for known limitations and issues.",
-    "license"          : "CC-BY-NC-SA-3.0",
+    "$kref"            : "#/ckan/github/UbioWeldingLtd/UbioWeldContinued",
     "$vref"            : "#/ckan/ksp-avc",
+    "license"          : "CC-BY-NC-SA-3.0",
     "resources": {
-        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/96670-105-ubiozur-welding-ltd-continued"
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/96670-*"
     },
+    "tags": [
+        "plugin",
+        "physics"
+    ],
     "install": [
         {
             "file"       : "GameData/UbioWeldingLtd",

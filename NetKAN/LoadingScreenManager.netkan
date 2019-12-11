@@ -1,19 +1,18 @@
 {
-  "spec_version": "v1.16",
-  "install": [
-    {
-      "install_to": "GameData",
-      "find": "LoadingScreenManager"
-    },
-    {
-    "find_regexp": "LoadingScreenManager.*\\.dll$",
-    "find_matches_files": true,
-    "install_to": "GameData"
-    }
-  ],
-  "$vref": "#/ckan/ksp-avc",
-  "$kref": "#/ckan/spacedock/1422",
-  "x_via": "Automated Linuxgurugamer CKAN script",
-  "identifier": "LoadingScreenManager",
-  "license": "CC-BY-NC-SA"
+    "spec_version": "v1.16",
+    "identifier":   "LoadingScreenManager",
+    "$kref":        "#/ckan/spacedock/1422",
+    "$vref":        "#/ckan/ksp-avc",
+    "license":      "CC-BY-NC-SA",
+    "tags": [
+        "plugin"
+    ],
+    "install": [ {
+        "find": "LoadingScreenManager",
+        "install_to": "GameData"
+    }, {
+        "find_regexp": "LoadingScreenManager.*\\.dll$",
+        "find_matches_files": true,
+        "install_to": "GameData"
+    } ]
 }

@@ -4,6 +4,10 @@
     "$kref":        "#/ckan/spacedock/1098",
     "$vref":        "#/ckan/ksp-avc",
     "license":      "GPL-3.0",
+    "tags": [
+        "plugin",
+        "information"
+    ],
     "install": [
         {
             "find":       "NavBallDockingAlignmentIndicatorCE",
