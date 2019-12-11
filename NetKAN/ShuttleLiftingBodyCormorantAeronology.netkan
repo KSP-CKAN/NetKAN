@@ -1,8 +1,11 @@
 {
-    "identifier": "ShuttleLiftingBodyCormorantAeronology",
     "spec_version": "v1.4",
-    "license": "CC-BY-NC-SA-4.0",
-    "$kref": "#/ckan/spacedock/417",
+    "identifier":   "ShuttleLiftingBodyCormorantAeronology",
+    "$kref":        "#/ckan/spacedock/417",
+    "license":      "CC-BY-NC-SA-4.0",
+    "tags": [
+        "parts"
+    ],
     "install": [
         {
             "find"       : "Cormorant Aeronology",

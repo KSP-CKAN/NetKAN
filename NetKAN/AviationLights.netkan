@@ -10,6 +10,10 @@
     "resources": {
         "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/173305-*"
     },
+    "tags": [
+        "plugin",
+        "parts"
+    ],
     "x_netkan_override": [
         {
             "version": "v3.13",

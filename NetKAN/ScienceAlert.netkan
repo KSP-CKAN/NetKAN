@@ -4,7 +4,12 @@
     "$kref":        "#/ckan/spacedock/1886",
     "$vref":        "#/ckan/ksp-avc",
     "license":      "GPL-3.0",
-     "depends": [
+    "tags": [
+        "plugin",
+        "science",
+        "information"
+    ],
+    "depends": [
         { "name" : "ToolbarController" },
         { "name" : "ClickThroughBlocker" }
     ]

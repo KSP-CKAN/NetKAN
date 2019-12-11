@@ -4,6 +4,10 @@
     "$kref"         : "#/ckan/spacedock/848",
     "$vref"         : "#/ckan/ksp-avc",
     "license"       : "restricted",
+    "tags": [
+        "parts",
+        "unmanned"
+    ],
     "depends" : [
         { "name": "ModuleManager" }
     ],

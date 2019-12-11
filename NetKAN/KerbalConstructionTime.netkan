@@ -2,9 +2,13 @@
     "spec_version"   : 1,
     "identifier"     : "KerbalConstructionTime",
     "$kref"          : "#/ckan/spacedock/222",
-    "$vref":        "#/ckan/ksp-avc",
+    "$vref"          : "#/ckan/ksp-avc",
+    "x_netkan_epoch" : 1,
     "license"        : "GPL-3.0",
-     "x_netkan_epoch"   : 1,
+    "tags": [
+        "plugin",
+        "career"
+    ],
     "install" : [
         {
           "file"       : "GameData/KerbalConstructionTime",
@@ -30,4 +34,3 @@
 		{ "name": "KerbalConstructionTime-173" }
 	]
 }
-
