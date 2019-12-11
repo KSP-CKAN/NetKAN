@@ -1,13 +1,21 @@
 {
     "spec_version"  : "v1.16",
     "identifier"    : "KWRocketry-CommunityFixes-interstage",
+    "name"          : "KW Rocketry - Community Fixes - Interstage config",
+    "abstract"      : "Optional config for KW Community Fixes. THIS IS CONVCEIVABLY CRAFT BREAKING! This file switches the interstage fairings over to omni decouplers and removes the finicky extra node on engines/shrouds.",
     "$kref"         : "#/ckan/spacedock/51",
     "$vref"         : "#/ckan/ksp-avc",
     "license"       : "GPL-3.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/116989-*",
+        "repository":"https://github.com/linuxgurugamer/KW-Rocketry-Community-Fixes"
+    },
+    "tags": [
+        "parts",
+        "config"
+    ],
     "depends": [
-        {
-            "name": "KWRocketry-CommunityFixes"
-        }
+        { "name": "KWRocketry-CommunityFixes" }
     ],
     "install": [
         {
@@ -15,11 +23,5 @@
             "find_matches_files": true,
             "install_to": "GameData/KWCommunityFixes"
         }
-    ],
-    "name": "KW Rocketry - Community Fixes - Interstage config",
-    "abstract": "Optional config for KW Community Fixes. THIS IS CONVCEIVABLY CRAFT BREAKING! This file switches the interstage fairings over to omni decouplers and removes the finicky extra node on engines/shrouds.",
-    "resources": {
-        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/116989-kw-rocketry-community-fixes-for-105-and-below/",
-        "repository":"https://github.com/linuxgurugamer/KW-Rocketry-Community-Fixes"
-    }
+    ]
 }

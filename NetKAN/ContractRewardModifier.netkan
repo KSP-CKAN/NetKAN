@@ -1,8 +1,12 @@
 {
     "spec_version": 1,
-    "identifier": "ContractRewardModifier",
-    "$kref": "#/ckan/spacedock/132",
-    "license": "MIT",
+    "identifier":   "ContractRewardModifier",
+    "$kref":        "#/ckan/spacedock/132",
+    "license":      "MIT",
+    "tags": [
+        "plugin",
+        "career"
+    ],
     "suggests": [
         { "name": "CapCom" },
         { "name": "ContractsWindowPlus" }

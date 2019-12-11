@@ -4,6 +4,10 @@
     "$kref":        "#/ckan/spacedock/1367",
     "$vref":        "#/ckan/ksp-avc",
     "license":      "CC-BY-4.0",
+    "tags": [
+        "config",
+        "sound"
+    ],
     "depends" : [
         { "name" : "Chatterer" }
     ],

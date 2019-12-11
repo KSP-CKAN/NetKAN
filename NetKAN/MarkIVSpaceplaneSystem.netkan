@@ -5,6 +5,9 @@
     "$vref"          : "#/ckan/ksp-avc/MarkIVSystem.version",
     "release_status" : "stable",
     "license"        : "CC-BY-NC-SA-4.0",
+    "tags": [
+        "parts"
+    ],
     "depends": [
         { "name" : "ModuleManager" },
         { "name" : "B9PartSwitch" },

@@ -1,5 +1,10 @@
 {
     "spec_version": "v1.4",
     "identifier":   "CommunityTerrainTexturePack",
-    "$kref":        "#/ckan/netkan/https://raw.githubusercontent.com/Galileo88/Community-Terrain-Texture-Pack/master/CKAN/CommunityTerrainTexturePack.netkan"
+    "$kref":        "#/ckan/netkan/https://raw.githubusercontent.com/Galileo88/Community-Terrain-Texture-Pack/master/CKAN/CommunityTerrainTexturePack.netkan",
+    "tags": [
+        "config",
+        "graphics",
+        "library"
+    ]
 }

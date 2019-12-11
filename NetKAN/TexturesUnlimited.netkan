@@ -1,19 +1,23 @@
 {
     "spec_version": "v1.16",
-    "identifier": "TexturesUnlimited",
-    "name": "Textures Unlimited",
-    "$kref": "#/ckan/github/shadowmage45/TexturesUnlimited",
-    "$vref": "#/ckan/ksp-avc",
-    "license": "GPL-3.0",
+    "identifier":   "TexturesUnlimited",
+    "name":         "Textures Unlimited",
+    "$kref":        "#/ckan/github/shadowmage45/TexturesUnlimited",
+    "$vref":        "#/ckan/ksp-avc",
+    "license":      "GPL-3.0",
     "resources": {
-        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/167450-131-textures-unlimited-pbr-shader-texture-and-model-api-11-11-17/"
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/167450-*"
     },
+    "tags": [
+        "plugin",
+        "graphics",
+        "library"
+    ],
     "depends": [
         { "name": "ModuleManager" }
     ],
-    "install": [{
-        "find": "000_TexturesUnlimited",
+    "install": [ {
+        "find":       "000_TexturesUnlimited",
         "install_to": "GameData"
-    }]
+    } ]
 }
-

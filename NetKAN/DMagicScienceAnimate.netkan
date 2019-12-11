@@ -8,13 +8,18 @@
     "x_netkan_staging": true,
     "x_netkan_staging_reason": "Game version hard-coded in netkan. Please confirm that it still matches the forum thread.",
     "license"      : "BSD-2-clause",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/65734-*"
+    },
+    "tags": [
+        "plugin",
+        "library",
+        "science"
+    ],
     "install": [ {
         "file":       "GameData/DMagicScienceAnimate",
         "install_to": "GameData"
     } ],
-    "resources": {
-        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/65734-*"
-    },
     "x_netkan_override": [ {
         "version": "v0.20",
         "override": {
