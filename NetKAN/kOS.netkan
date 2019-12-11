@@ -3,7 +3,7 @@
     "identifier"   : "kOS",
     "$kref" : "#/ckan/netkan/https://raw.githubusercontent.com/KSP-KOS/KOS/master/kOS.netkan",
     "x_netkan_license_ok": true,
-    "netkan": [
+    "tags": [
         "plugin",
         "control"
     ]
