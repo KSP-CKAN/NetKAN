@@ -10,6 +10,9 @@
     "resources" : {
         "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/189536-*"
     },
+    "tags": [
+        "parts"
+    ],
     "recommends": [
         { "name": "B9PartSwitch" }
     ],
