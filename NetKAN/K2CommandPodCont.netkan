@@ -1,8 +1,12 @@
 {
-    "identifier": "K2CommandPodCont",
-    "$kref": "#/ckan/spacedock/1163",
     "spec_version": "v1.4",
-    "license" : "CC-BY-NC-SA-4.0",
+    "identifier":   "K2CommandPodCont",
+    "$kref":        "#/ckan/spacedock/1163",
+    "license":      "CC-BY-NC-SA-4.0",
+    "tags": [
+        "parts",
+        "manned"
+    ],
     "install": [
         {
             "file": "GameData/JFJohnny5",
@@ -13,8 +17,7 @@
         { "name": "K2CommandPod" }
     ],
     "supports": [
-        {   "name" : "ConnectedLivingSpace" },
-        {   "name" : "TacLifeSupport" }
+        { "name": "ConnectedLivingSpace" },
+        { "name": "TacLifeSupport" }
     ]
 }
-

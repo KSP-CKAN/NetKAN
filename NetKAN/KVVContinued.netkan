@@ -1,5 +1,13 @@
 {
     "spec_version": "v1.4",
+    "identifier":   "KVVContinued",
+    "$vref":        "#/ckan/ksp-avc",
+    "$kref":        "#/ckan/spacedock/1092",
+    "license":      "unrestricted",
+    "tags": [
+        "plugin",
+        "editor"
+    ],
     "install": [
         {
             "install_to": "GameData",
@@ -12,11 +20,5 @@
     "depends": [
         { "name": "ToolbarController" },
         { "name": "ClickThroughBlocker" }
-    ],
-    "$vref": "#/ckan/ksp-avc",
-    "$kref": "#/ckan/spacedock/1092",
-    "x_via": "Automated Linuxgurugamer CKAN script",
-    "identifier": "KVVContinued",
-    "license": "unrestricted"
+    ]
 }
-

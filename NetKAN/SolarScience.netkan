@@ -1,16 +1,17 @@
 {
-    "identifier": "SolarScience",
-    "x_via": "Automated KerbalStuff CKAN submission",
     "spec_version": "v1.4",
-    "$kref": "#/ckan/spacedock/811",
-    "license": "MIT",
-    "resources" : {
-        "homepage"     : "https://forum.kerbalspaceprogram.com/index.php?/topic/142647-141-solar-science/"
+    "identifier":   "SolarScience",
+    "$kref":        "#/ckan/spacedock/811",
+    "x_netkan_force_v": true,
+    "license":      "MIT",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/142647-*"
     },
+    "tags": [
+        "parts",
+        "science"
+    ],
     "install": [
         { "find": "Solar Science", "install_to": "GameData" }
-    ],
-    "x_netkan_force_v": true
+    ]
 }
-
-

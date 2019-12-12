@@ -1,20 +1,24 @@
 {
-  "spec_version": "v1.4",
-  "install": [
-    {
-      "install_to": "GameData",
-      "find": "NSS"
-    }
-  ],
-  "depends": [
-    { "name": "BDAnimationModules" },
-    { "name": "ModuleManager" },
-    { "name": "InterstellarFuelSwitch-Core" }
-  ],
-  "x_netkan_epoch": "1",
-  "$vref": "#/ckan/ksp-avc",
-  "$kref": "#/ckan/spacedock/1074",
-  "x_via": "Automated Linuxgurugamer CKAN script",
-  "identifier": "OctosatContinued",
-  "license": "CC-BY-NC-SA-4.0"
+    "spec_version": "v1.4",
+    "identifier":   "OctosatContinued",
+    "$kref":        "#/ckan/spacedock/1074",
+    "$vref":        "#/ckan/ksp-avc",
+    "x_netkan_epoch": "1",
+    "license":      "CC-BY-NC-SA-4.0",
+    "tags": [
+        "config",
+        "parts"
+    ],
+    "install": [ {
+        "find": "NSS",
+        "install_to": "GameData"
+    } ],
+    "depends": [
+        { "name": "BDAnimationModules" },
+        { "name": "ModuleManager" },
+        { "name": "InterstellarFuelSwitch-Core" }
+    ],
+    "recommends": [
+        { "name": "PatchManager" }
+    ]
 }

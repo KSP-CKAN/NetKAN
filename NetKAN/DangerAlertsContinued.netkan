@@ -1,18 +1,19 @@
 {
-  "spec_version": "v1.4",
-  "install": [
-    {
-      "install_to": "GameData",
-      "find": "DangerAlerts"
-    }
-  ],
+    "spec_version": "v1.4",
+    "identifier":   "DangerAlertsContinued",
+    "$kref":        "#/ckan/spacedock/1260",
+    "$vref":        "#/ckan/ksp-avc",
+    "license":      "MIT",
+    "tags": [
+        "plugin",
+        "information"
+    ],
+    "install": [ {
+      "find": "DangerAlerts",
+      "install_to": "GameData"
+    } ],
     "depends": [
         { "name" : "ToolbarController" },
-	{ "name" : "ClickThroughBlocker" }
-    ],
-  "$vref": "#/ckan/ksp-avc",
-  "$kref": "#/ckan/spacedock/1260",
-  "x_via": "Automated Linuxgurugamer CKAN script",
-  "identifier": "DangerAlertsContinued",
-  "license": "MIT"
+        { "name" : "ClickThroughBlocker" }
+    ]
 }

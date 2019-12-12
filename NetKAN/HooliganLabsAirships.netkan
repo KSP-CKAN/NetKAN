@@ -2,7 +2,11 @@
     "spec_version" : "v1.4",
     "identifier"   : "HooliganLabsAirships",
     "$kref"        : "#/ckan/spacedock/638",
-    "license": "restricted",
+    "license"      : "restricted",
+    "tags": [
+        "plugin",
+        "parts"
+    ],
     "install": [
         {
           "file"       : "HLAirships",

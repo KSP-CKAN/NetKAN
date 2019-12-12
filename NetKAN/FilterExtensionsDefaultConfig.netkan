@@ -1,12 +1,17 @@
 {
     "spec_version"   : "v1.4",
-    "$kref"             : "#/ckan/spacedock/1972",
-    "$vref"          : "#/ckan/ksp-avc",
     "name"           : "Filter Extensions - Default Configuration",
     "identifier"     : "FilterExtensionsDefaultConfig",
     "abstract"       : "Configuration files using Filter Extensions to create a large array of new part categories in the Editor",
+    "$kref"          : "#/ckan/spacedock/1972",
+    "$vref"          : "#/ckan/ksp-avc",
     "license"        : "CC-BY-NC-SA-4.0",
     "release_status" : "stable",
+    "tags": [
+        "config",
+        "convenience",
+        "editor"
+    ],
     "depends" : [
         { "name" : "FilterExtensions" }
     ],
