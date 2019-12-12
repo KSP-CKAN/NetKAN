@@ -1,13 +1,17 @@
 {
     "spec_version": "v1.4",
-    "x_via": "Automated SpaceDock CKAN submission",
-    "license": "CC-BY-NC-SA",
-    "identifier": "JX2Antenna",
-    "$kref": "#/ckan/spacedock/1107",
+    "identifier":   "JX2Antenna",
+    "$kref":        "#/ckan/spacedock/1107",
+    "license":      "CC-BY-NC-SA",
+    "tags": [
+        "parts",
+        "unmanned"
+    ],
     "supports" : [
-        { "name" : "IndicatorLights" },
-        { "name" : "OuterPlanetsMod" },
-        { "name" : "GPP" },
-        { "name" : "RemoteTech" }
+        { "name" : "IndicatorLights"      },
+        { "name" : "OuterPlanetsMod"      },
+        { "name" : "GPP"                  },
+        { "name" : "GrannusExpansionPack" },
+        { "name" : "RemoteTech"           }
     ]
 }

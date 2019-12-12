@@ -1,7 +1,12 @@
 {
-    "$kref": "#/ckan/spacedock/553",
     "spec_version": "v1.4",
-    "x_via": "Automated SpaceDock CKAN submission",
-    "identifier": "EVAStruts",
-    "license": "MIT"
+    "identifier":   "EVAStruts",
+    "$kref":        "#/ckan/spacedock/553",
+    "$vref":        "#/ckan/ksp-avc",
+    "license":      "MIT",
+    "tags": [
+        "plugin",
+        "parts",
+        "manned"
+    ]
 }

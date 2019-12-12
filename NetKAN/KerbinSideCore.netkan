@@ -1,15 +1,18 @@
 {
-    "identifier": "KerbinSideCore",
-    "name": "KerbinSide Core",
-    "abstract": "Shared files used by all KerbinSide variants",
     "spec_version": "v1.16",
-    "$kref": "#/ckan/spacedock/1347",
-    "$vref": "#/ckan/ksp-avc/",
-    "x_netkan_epoch" : "3",
-    "license": "restricted",
+    "identifier":   "KerbinSideCore",
+    "name":         "KerbinSide Core",
+    "abstract":     "Shared files used by all KerbinSide variants",
+    "$kref":        "#/ckan/spacedock/1347",
+    "$vref":        "#/ckan/ksp-avc/",
+    "x_netkan_epoch": "3",
+    "license":      "restricted",
     "resources": {
         "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/74776-*"
     },
+    "tags": [
+        "config"
+    ],
     "depends": [
         { "name": "KerbalKonstructs" }
     ],

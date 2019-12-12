@@ -1,7 +1,11 @@
 {
-    "x_via": "Automated SpaceDock CKAN submission",
     "spec_version": "v1.4",
-    "identifier": "ManeuverNodeEvolved",
-    "license": "MIT",
-    "$kref": "#/ckan/spacedock/1087"
+    "identifier":   "ManeuverNodeEvolved",
+    "$kref":        "#/ckan/spacedock/1087",
+    "license":      "MIT",
+    "tags": [
+        "plugin",
+        "convenience",
+        "information"
+    ]
 }

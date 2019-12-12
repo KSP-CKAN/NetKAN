@@ -1,12 +1,15 @@
 {
     "spec_version": "v1.16",
-    "identifier": "Contares-Common",
-    "name": "Contares Common",
-    "abstract": "Agency details common to Contares mods",
-    "license": "CC-BY-NC-4.0",
-    "$kref": "#/ckan/spacedock/180",
-    "ksp_version": "any",
-    "comment": "agencymod",
+    "identifier":   "Contares-Common",
+    "name":         "Contares Common",
+    "abstract":     "Agency details common to Contares mods",
+    "$kref":        "#/ckan/spacedock/180",
+    "license":      "CC-BY-NC-4.0",
+    "ksp_version":  "any",
+    "comment":      "agencymod",
+    "tags": [
+        "config"
+    ],
     "install": [
         {
             "find": "Agencies",

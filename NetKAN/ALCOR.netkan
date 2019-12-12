@@ -1,23 +1,23 @@
 {
-  "spec_version": "v1.4",
-  "install": [
-    {
-      "install_to": "GameData",
-      "find": "ASET"
-    }
-  ],
-  "depends": [
-      { "name": "ASETAgency" },
-      { "name": "ModuleManager" }
-  ],
-  "supports": [
-     { "name": "KIS" },
-     { "name": "KeepFit" },
-     { "name": "ConnectedLivingSpace" }
-  ],
-
-  "$kref": "#/ckan/spacedock/1203",
-  "x_via": "Automated Linuxgurugamer CKAN script",
-  "identifier": "ALCOR",
-  "license": "CC-BY-NC-SA-3.0"
+    "spec_version": "v1.4",
+    "identifier":   "ALCOR",
+    "$kref":        "#/ckan/spacedock/1203",
+    "license":      "CC-BY-NC-SA-3.0",
+    "tags": [
+        "parts",
+        "manned"
+    ],
+    "install": [ {
+        "find": "ASET",
+        "install_to": "GameData"
+    } ],
+    "depends": [
+        { "name": "ASETAgency" },
+        { "name": "ModuleManager" }
+    ],
+    "supports": [
+        { "name": "KIS" },
+        { "name": "KeepFit" },
+        { "name": "ConnectedLivingSpace" }
+    ]
 }

@@ -9,6 +9,9 @@
         "homepage":   "https://forum.kerbalspaceprogram.com/index.php?/topic/189547-173-*",
         "repository": "https://github.com/linuxgurugamer/DeployableBatteries"
     },
+    "tags": [
+        "parts"
+    ],
     "depends": [
         { "name": "SpaceTuxLibrary" }
     ],

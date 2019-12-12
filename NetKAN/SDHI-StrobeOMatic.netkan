@@ -1,26 +1,30 @@
 {
     "spec_version" : "v1.4",
     "identifier"   : "SDHI-StrobeOMatic",
-    "$kref"        : "#/ckan/github/sumghai/SDHI_StrobeOMatic",
     "name"         : "SDHI Strobe-O-Matic Warning Rotator Lights",
     "abstract"     : "Small surface-mounted or stack-attached rotating warning lights in various colors. 100% Plugin Free.",
+    "$kref"        : "#/ckan/github/sumghai/SDHI_StrobeOMatic",
+    "x_netkan_force_v": true,
+    "ksp_version_min": "1.4",
+    "ksp_version_max": "1.8",
+    "x_netkan_staging": true,
+    "x_netkan_staging_reason": "Game version hard coded in netkan, check that it matches the forum thread",
     "license"      : "CC-BY-SA-4.0",
-    "ksp_version"  : "1.3.0",
     "resources"    : {
-        "homepage"   : "http://forum.kerbalspaceprogram.com/index.php?/topic/137804-11-sdhi-strobe-o-matic-warning-rotator-lights-v10-23-april-2016/",
+        "homepage"   : "http://forum.kerbalspaceprogram.com/index.php?/topic/137804-*",
         "repository" : "https://github.com/sumghai/SDHI_StrobeOMatic"
     },
-    "install": [
-      {
+    "tags": [
+        "parts"
+    ],
+    "install": [ {
         "file": "GameData/SDHI",
         "install_to": "GameData",
         "filter" : [
-               "Agencies"
+             "Agencies"
         ]
-      }
-    ],
+    } ],
     "depends"      : [
         { "name" : "SDHI-SharedAssets" }
-    ],
-    "x_netkan_force_v" : true
+    ]
 }

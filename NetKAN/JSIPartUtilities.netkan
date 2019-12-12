@@ -7,8 +7,13 @@
     "abstract"     : "Utility functions for making complex animated and mutable parts.",
     "license"      : "GPL-3.0",
     "resources" : {
-        "homepage"     : "https://github.com/Mihara/PartUtilities/wiki"
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/161979-*",
+        "manual":   "https://github.com/Mihara/PartUtilities/wiki"
     },
+    "tags": [
+        "plugin",
+        "library"
+    ],
     "install" : [
         {
             "file"       : "GameData/JSI",

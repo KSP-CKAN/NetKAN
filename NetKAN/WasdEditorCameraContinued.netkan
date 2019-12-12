@@ -5,17 +5,24 @@
     "$vref"          : "#/ckan/ksp-avc",
     "license"        : "MIT",
     "resources" : {
-        "homepage"    : "http://forum.kerbalspaceprogram.com/index.php?/topic/121386-12-wasd-editor-camera-continued/",
+        "homepage"    : "http://forum.kerbalspaceprogram.com/index.php?/topic/121386-*",
         "repository"  : "https://github.com/linuxgurugamer/WasdEditorCameraContinued"
     },
+    "tags": [
+        "plugin",
+        "editor",
+        "convenience"
+    ],
     "conflicts" : [
         { "name" : "WasdEditorCamera" }
     ],
     "depends": [
         { "name" : "ToolbarController" },
-	{ "name" : "ClickThroughBlocker" }
+        { "name" : "ClickThroughBlocker" }
     ],
-    "recommends": [ { "name": "JanitorsCloset" } ],
+    "recommends": [
+        { "name": "JanitorsCloset" }
+    ],
     "install" : [
         {
             "find"       : "WasdEditorCamera",

@@ -13,6 +13,9 @@
         "repository"   : "https://github.com/sumghai/SDHI_ServiceModuleSystem",
         "homepage"     : "https://forum.kerbalspaceprogram.com/index.php?/topic/48073-*"
     },
+    "tags": [
+        "config"
+    ],
     "install" : [
         {
             "find"       : "Agencies",
