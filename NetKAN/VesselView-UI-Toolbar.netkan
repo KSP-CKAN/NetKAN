@@ -1,12 +1,16 @@
 {
     "spec_version": "v1.16",
-    "$kref": "#/ckan/spacedock/923",
-    "license": "MIT",
-    "identifier": "VesselView-UI-Toolbar",
-    "name": "VesselView-UI-Toolbar",
+    "identifier":   "VesselView-UI-Toolbar",
+    "name":         "VesselView-UI-Toolbar",
+    "$kref":        "#/ckan/spacedock/923",
     "x_netkan_epoch": 1,
+    "license":      "MIT",
+    "tags": [
+        "plugin",
+        "information"
+    ],
     "depends": [
-        { "name": "VesselView" },
+        { "name" : "VesselView" },
         { "name" : "ToolbarController" },
         { "name" : "ClickThroughBlocker" }
     ],
@@ -17,7 +21,6 @@
             "find" : "VesselViewPlugin.dll",
             "find_matches_files" : true,
             "install_to" : "GameData/VesselView/Plugins"
-
         }
     ]
 }

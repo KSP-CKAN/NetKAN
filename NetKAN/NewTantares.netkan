@@ -12,6 +12,10 @@
     "resources": {
         "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/73686-Tantares"
     },
+    "tags": [
+        "parts",
+        "manned"
+    ],
     "recommends": [
         { "name": "NewTantaresLV" }
     ],

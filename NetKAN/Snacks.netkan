@@ -1,15 +1,19 @@
 {
     "spec_version" : "v1.4",
     "identifier"   : "Snacks",
-    "$kref"        : "#/ckan/github/Angel-125/Snacks",
-    "$vref"        : "#/ckan/ksp-avc",
     "name"         : "Snacks",
     "abstract"     : "Add a simple life support system based on Snacks!",
     "author"       : [ "tgruetzm", "Angel-125"],
+    "$kref"        : "#/ckan/github/Angel-125/Snacks",
+    "$vref"        : "#/ckan/ksp-avc",
     "license"      : "MIT",
     "resources": {
         "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/149604-*"
     },
+    "tags": [
+        "plugin",
+        "manned"
+    ],
     "install": [
         {
             "install_to": "GameData",
