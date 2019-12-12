@@ -1,23 +1,25 @@
 {
-  "license": "GPL-3.0",
-  "identifier": "HullcamVDSContinued",
-  "x_via": "Automated Linuxgurugamer CKAN script",
-  "$kref": "#/ckan/spacedock/885",
-  "$vref": "#/ckan/ksp-avc",
-  "conflicts" : [
-     { "name": "HullcamVDS" } 
-  ],
-  "provides": [ "HullcamVDS" ],
-  "depends": [
-    {
-      "name": "ModuleManager"
-    }
-  ],
-  "install": [
-    {
+    "spec_version": "v1.4",
+    "identifier":   "HullcamVDSContinued",
+    "$kref":        "#/ckan/spacedock/885",
+    "$vref":        "#/ckan/ksp-avc",
+    "license":      "GPL-3.0",
+    "tags": [
+        "plugin",
+        "parts",
+        "manned"
+    ],
+    "conflicts" : [
+        { "name": "HullcamVDS" }
+    ],
+    "provides": [
+        "HullcamVDS"
+    ],
+    "depends": [
+        { "name": "ModuleManager" }
+    ],
+    "install": [ {
       "find": "HullCameraVDS",
       "install_to": "GameData"
-    }
-  ],
-  "spec_version": "v1.4"
+    } ]
 }

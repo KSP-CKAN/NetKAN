@@ -2,14 +2,18 @@
     "spec_version"   : "v1.2",
     "identifier"     : "TacFuelBalancer",
     "name"           : "TAC Fuel Balancer",
-    "author"          : [ "Z-Key Aerospace", "Taranis Elsu" ],
+    "author"         : [ "Z-Key Aerospace", "Taranis Elsu" ],
     "$kref"          : "#/ckan/spacedock/640",
-    "$vref"         : "#/ckan/ksp-avc",
-    "x_netkan_force_v" : true,
+    "$vref"          : "#/ckan/ksp-avc",
+    "x_netkan_force_v": true,
     "license"        : "CC-BY-NC-SA-3.0",
     "release_status" : "stable",
+    "tags": [
+        "plugin",
+        "convenience"
+    ],
     "suggests" : [
-        {   "name" : "KSP-AVC" }
+        { "name" : "KSP-AVC" }
     ],
     "install" : [
         {
@@ -21,5 +25,4 @@
         { "name" : "ToolbarController" },
         { "name" : "ClickThroughBlocker" }
     ]
-
 }

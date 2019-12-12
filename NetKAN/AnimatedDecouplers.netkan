@@ -10,6 +10,10 @@
         "repository" : "https://github.com/Starwaster/AnimatedDecouplers",
         "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/170880-*"
     },
+    "tags": [
+        "plugin",
+        "library"
+    ],
     "install": [
         {
             "file"       : "GameData/AnimatedDecouplers",

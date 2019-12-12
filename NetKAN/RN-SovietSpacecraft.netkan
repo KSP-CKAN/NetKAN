@@ -2,25 +2,30 @@
     "spec_version"  : "v1.4",
     "identifier"    : "RN-SovietSpacecraft",
     "name"          : "Soviet Spacecraft - Soyuz, Progress, Vostok/Voskhod, TKS/VA",
-    "author"        : "Raidernick",
     "abstract"      : "Soviet spacecraft pack that contains Soyuz 7K-T, 7K-OKA, 7K-OKP 7K-T-AF and Progress 7K-TG, and Vostok/Voskhod spacecraft, and TKS/VA",
+    "author"        : "Raidernick",
     "comment"       : "Ships installed again",
-    "resources": {
-        "homepage"  : "http://forum.kerbalspaceprogram.com/index.php?/topic/133579-105"
-    },
     "$kref"         : "#/ckan/github/KSP-RO/SovietSpacecraft",
+    "$vref"         : "#/ckan/ksp-avc",
+	"x_netkan_epoch": 1,
     "license"       : "CC-BY-NC-ND-3.0",
-    "$vref"        : "#/ckan/ksp-avc",
-	"x_netkan_epoch"   : 1,
-    "install"       : [
-    {
-        "find"      : "RN_Soyuz",
-        "install_to": "GameData"
+    "resources": {
+        "homepage"  : "http://forum.kerbalspaceprogram.com/index.php?/topic/133579-*"
     },
-    {
-        "file"      : "Ships/VAB",
-        "install_to": "Ships"
-    }],
+    "tags": [
+        "parts",
+        "manned"
+    ],
+    "install"       : [
+        {
+            "find"      : "RN_Soyuz",
+            "install_to": "GameData"
+        },
+        {
+            "file"      : "Ships/VAB",
+            "install_to": "Ships"
+        }
+    ],
     "conflicts"     : [
         { "name"    : "RN-SalyutStations-SoyuzFerries" }
     ],

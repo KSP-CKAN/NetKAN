@@ -3,7 +3,10 @@
     "identifier"   : "FelineUtilityRovers",
     "$kref"        : "#/ckan/spacedock/1172",
     "license"      : "CC-BY-NC",
-    
+    "tags": [
+        "parts",
+        "manned"
+    ],
     "install": [
         {
             "file"       : "GameData/KerbetrotterLtd",

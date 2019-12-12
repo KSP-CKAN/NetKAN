@@ -3,7 +3,10 @@
     "identifier":   "TexturesUnlimited-UnofficialStockConfig",
     "$kref":        "#/ckan/spacedock/1841",
     "license":      "MIT",
-    "x_via":        "Automated SpaceDock CKAN submission",
+    "tags": [
+        "config",
+        "graphics"
+    ],
     "install": [ {
         "find":       "TexturesUnlimited_StockConfig",
         "install_to": "GameData"

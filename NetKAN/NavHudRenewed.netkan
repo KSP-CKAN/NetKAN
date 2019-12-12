@@ -1,16 +1,20 @@
 {
     "spec_version"   : 1,
     "identifier"     : "NavHudRenewed",
-    "$kref"          : "#/ckan/github/linuxgurugamer/NavHud",
-    "$vref"         : "#/ckan/ksp-avc",
-    "license"        : "MIT",
     "name"           : "NavHud",
     "abstract"       : "a NavBall inspired Heads Up Display",
+    "$kref"          : "#/ckan/github/linuxgurugamer/NavHud",
+    "$vref"          : "#/ckan/ksp-avc",
+    "license"        : "MIT",
     "resources": {
-        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/167039-131-navhud-renewed/"
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/167039-*"
     },
+    "tags": [
+        "plugin",
+        "information"
+    ],
     "depends": [
-        { "name" : "ToolbarController" },
+        { "name": "ToolbarController" },
         { "name": "ClickThroughBlocker" }
     ],
     "install": [

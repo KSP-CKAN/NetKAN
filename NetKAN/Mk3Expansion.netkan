@@ -1,8 +1,12 @@
 {
-    "identifier": "Mk3Expansion",
-    "license": "CC-BY-NC-SA-4.0",
     "spec_version": "v1.4",
-    "$kref": "#/ckan/spacedock/663",
+    "identifier":   "Mk3Expansion",
+    "$kref":        "#/ckan/spacedock/663",
+    "license":      "CC-BY-NC-SA-4.0",
+    "tags": [
+        "parts",
+        "manned"
+    ],
     "depends": [
         { "name": "ModuleManager" },
         { "name": "CommunityResourcePack" },
@@ -20,6 +24,6 @@
         {
             "find"        : "SPH",
             "install_to"  : "Ships"
-}
+        }
     ]
 }

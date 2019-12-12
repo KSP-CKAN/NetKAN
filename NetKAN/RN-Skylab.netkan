@@ -2,30 +2,32 @@
     "spec_version"  : "v1.4",
     "identifier"    : "RN-Skylab",
     "name"          : "Skylab",
-    "author"        : "Raidernick",
     "abstract"      : "This mod comes with everything you need to create your own Skylab, broken solar panels and all!",
+    "author"        : "Raidernick",
     "comment"       : "Ships installed again, updated",
-    "resources":
-    {
-        "homepage"  : "https://forum.kerbalspaceprogram.com/index.php?/topic/77855-122-131-skylab-compatible-with-decq-oldd-fasa-release-v181-72217/"
-    },
     "$kref"         : "#/ckan/github/KSP-RO/Skylab",
+    "$vref"         : "#/ckan/ksp-avc",
+	"x_netkan_epoch": 1,
     "license"       : "CC-BY-NC-ND-3.0",
-    "$vref"        : "#/ckan/ksp-avc",
-	"x_netkan_epoch"   : 1,
-    "install"       :
-    [
-      {
-        "find"      : "RN_Skylab",
-        "install_to": "GameData"
-      },
-    {
-        "file"      : "Ships/VAB",
-        "install_to": "Ships"
-    }],
-    "depends"       :
-    [
-      { "name"      : "BDAnimationModules" },
-	  { "name" 	  : "ModuleManager" }
+    "resources": {
+        "homepage"  : "https://forum.kerbalspaceprogram.com/index.php?/topic/77855-*"
+    },
+    "tags": [
+        "parts",
+        "manned"
+    ],
+    "install"       : [
+        {
+            "find"      : "RN_Skylab",
+            "install_to": "GameData"
+        },
+        {
+            "file"      : "Ships/VAB",
+            "install_to": "Ships"
+        }
+    ],
+    "depends"       : [
+        { "name"      : "BDAnimationModules" },
+        { "name" 	  : "ModuleManager" }
     ]
 }

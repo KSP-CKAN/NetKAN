@@ -5,6 +5,9 @@
     "$kref"         : "#/ckan/spacedock/20",
     "$vref"         : "#/ckan/ksp-avc",
     "license"       : "restricted",
+    "tags": [
+        "tech-tree"
+    ],
     "depends" : [
         { "name": "ModuleManager" }
     ],
