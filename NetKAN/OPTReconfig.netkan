@@ -8,6 +8,9 @@
     "resources": {
         "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/173833-*"
     },
+    "tags": [
+        "config"
+    ],
     "install": [ {
         "find":       "OPT_Reconfig",
         "install_to": "GameData"

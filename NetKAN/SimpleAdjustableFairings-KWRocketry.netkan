@@ -1,6 +1,9 @@
 {
-  "spec_version" : 1,
-  "identifier"   : "SimpleAdjustableFairings-KWRocketry",
-  "$kref"        : "#/ckan/netkan/https://raw.githubusercontent.com/blowfishpro/SimpleAdjustableFairings-KWRocketry/master/NetKAN/SimpleAdjustableFairings-KWRocketry.netkan",
-  "x_netkan_license_ok": true
+    "spec_version" : 1,
+    "identifier"   : "SimpleAdjustableFairings-KWRocketry",
+    "$kref"        : "#/ckan/netkan/https://raw.githubusercontent.com/blowfishpro/SimpleAdjustableFairings-KWRocketry/master/NetKAN/SimpleAdjustableFairings-KWRocketry.netkan",
+    "x_netkan_license_ok": true,
+    "tags": [
+        "parts"
+    ]
 }

@@ -1,14 +1,15 @@
 {
-  "license": "GPL-3.0",
-  "identifier": "BasicOrbit",
-  "x_via": "Automated Linuxgurugamer CKAN script",
-  "$kref": "#/ckan/spacedock/987",
-  "$vref": "#/ckan/ksp-avc",
-  "install": [
-    {
-      "find": "BasicOrbit",
-      "install_to": "GameData"
-    }
-  ],
-  "spec_version": "v1.4"
+    "spec_version": "v1.4",
+    "identifier":   "BasicOrbit",
+    "$kref":        "#/ckan/spacedock/987",
+    "$vref":        "#/ckan/ksp-avc",
+    "license":      "GPL-3.0",
+    "tags": [
+        "plugin",
+        "information"
+    ],
+    "install": [ {
+        "find": "BasicOrbit",
+        "install_to": "GameData"
+    } ]
 }

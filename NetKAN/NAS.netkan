@@ -1,14 +1,23 @@
 {
     "spec_version" : 1,
     "identifier"   : "NAS",
-    "resources" : {
-        "homepage" : "http://forum.kerbalspaceprogram.com/index.php?/topic/118521-nas-naval-artillery-system/"
-    },
     "$kref"        : "#/ckan/spacedock/83",
-    "license"      : "CC-BY-SA-4.0",
     "x_netkan_force_v": true,
     "x_netkan_epoch": 1,
+    "license"      : "CC-BY-SA-4.0",
+    "resources" : {
+        "homepage" : "http://forum.kerbalspaceprogram.com/index.php?/topic/118521-*"
+    },
+    "tags": [
+        "parts"
+    ],
     "depends": [
+        { "name": "ModuleManager"     },
         { "name": "BDArmoryContinued" }
+    ],
+    "recommends": [
+        { "name": "HangarExtender"           },
+        { "name": "KerbalJointReinforcement" },
+        { "name": "LargeBoatPartsPack"       }
     ]
 }

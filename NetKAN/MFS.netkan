@@ -1,28 +1,31 @@
 {
     "spec_version" : "v1.4",
     "identifier"   : "MFS",
-    "$kref"        : "#/ckan/github/riocrokite/MobileFrameSystem",
     "name"         : "Mobile Frame System",
     "abstract"     : "Parts for planetary mobile engineering and hauling",
+    "$kref"        : "#/ckan/github/riocrokite/MobileFrameSystem",
+    "$vref"        : "#/ckan/ksp-avc",
     "license"      : "CC-BY-NC-SA-4.0",
-    "$vref"         :   "#/ckan/ksp-avc",
-            "depends": [
+    "resources" : {
+        "homepage" : "https://forum.kerbalspaceprogram.com/index.php?/topic/97146-*"
+    },
+    "tags": [
+        "parts"
+    ],
+    "depends": [
         { "name": "JSIPartUtilities" },
         { "name": "FirespitterCore" },
         { "name": "ModuleManager" },
         { "name": "InfernalRobotics" }
     ],
-            "resources" : {
-        "homepage" : "https://forum.kerbalspaceprogram.com/index.php?/topic/97146-130-mobile-frame-system-mfs-v033-29052017/"
-    },
-        "suggests": [
+    "suggests": [
         { "name" : "KerbalFoundries" },
         { "name" : "USI-FTT" },
         { "name" : "Karbonite" },
         { "name" : "UKS" },
         { "name" : "ExtraPlanetaryLaunchpads" }
     ],
-        "install" : [
+    "install" : [
         {
             "find"       : "KermangeddonIndustries",
             "install_to" : "GameData"

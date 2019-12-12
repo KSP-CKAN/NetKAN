@@ -1,20 +1,31 @@
 {
     "spec_version": "v1.4",
-    "identifier": "Contares",
-    "license": "CC-BY-NC-4.0",
-    "$kref": "#/ckan/spacedock/180",
+    "identifier":   "Contares",
+    "$kref":        "#/ckan/spacedock/180",
+    "license":      "CC-BY-NC-4.0",
+    "tags": [
+        "parts"
+    ],
     "depends": [
-        { "name": "NewTantares" },
-        { "name": "NewTantaresLV" },
-        { "name": "RealPlume" },
-        { "name": "Contares-Common" },
-	{ "name": "RetractableLiftingSurface" }
+        { "name": "RealPlume"                 },
+        { "name": "TweakScale"                },
+        { "name": "RetractableLiftingSurface" },
+        { "name": "FirespitterCore"           },
+        { "name": "USITools"                  },
+        { "name": "TACLS"                     },
+        { "name": "ProceduralFairings"        },
+        { "name": "KIS"                       },
+        { "name": "KAS"                       },
+        { "name": "Contares-Common"           }
+    ],
+    "recommends": [
+        { "name": "DMagicScienceAnimate" }
     ],
     "install": [
         {
-            "find": "Contares",
+            "find":       "Contares",
             "install_to": "GameData",
-            "filter": ["Agencies", "CONTARES_TweakScale.cfg"]
+            "filter":     [ "Agencies", "CONTARES_TweakScale.cfg" ]
         }
     ]
 }

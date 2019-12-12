@@ -3,6 +3,10 @@
     "identifier"      : "SETI-Greenhouse",
     "$kref"           : "#/ckan/spacedock/19",
     "license"         : "CC-BY-NC-SA-3.0",
+    "tags"            : [
+        "parts",
+        "manned"
+    ],
     "depends"         : [
         { "name"  : "ModuleManager" }
     ],

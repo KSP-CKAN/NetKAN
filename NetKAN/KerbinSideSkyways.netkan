@@ -1,14 +1,16 @@
 {
-    "identifier": "KerbinSideSkyways",
     "spec_version": "v1.16",
-    "$kref": "#/ckan/spacedock/1350",
-    "$vref": "#/ckan/ksp-avc",
+    "identifier":   "KerbinSideSkyways",
+    "$kref":        "#/ckan/spacedock/1350",
+    "$vref":        "#/ckan/ksp-avc",
     "x_netkan_epoch": 3,
-    "license": "restricted",
+    "license":      "restricted",
     "resources": {
-        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/160099-122-kerbin-side-continued/"
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/160099-*"
     },
-
+    "tags": [
+        "config"
+    ],
     "install": [
         {
             "find"       : "MainBases",
