@@ -1,21 +1,25 @@
 {
-  "spec_version" : 1,
-  "$kref" : "#/ckan/github/SirDiazo/ActsEverywhere",
-  "name" : "Actions Everywhere",
-  "identifier" : "ActsEW",
-  "abstract" : "Add mouse only actions from right-click menu to action groups, including resource locking and cross-feeding",
-  "license" : "GPL-3.0",
-  "release_status" : "stable",
-  "ksp_version" : "1.0",
-  "author" : "Diazo",
-  "resources" : {
-    "homepage" : "https://forum.kerbalspaceprogram.com/index.php?/topic/91023-102may-0915-actions-everywhere-action-group-it-all-w-crossfeed-control/"
-  },
-  "depends" : [ { "name" : "ModuleManager" }],
-  "install" : [
-    {
-      "file" : "GameData/Diazo",
-      "install_to" : "GameData"
-    }
-  ]
+    "spec_version": 1,
+    "identifier":   "ActsEW",
+    "name":         "Actions Everywhere",
+    "abstract":     "Add mouse only actions from right-click menu to action groups, including resource locking and cross-feeding",
+    "author":       "Diazo",
+    "$kref":        "#/ckan/github/SirDiazo/ActsEverywhere",
+    "ksp_version":  "1.0",
+    "license":      "GPL-3.0",
+    "release_status" : "stable",
+    "resources" : {
+        "homepage" : "https://forum.kerbalspaceprogram.com/index.php?/topic/91023-*"
+    },
+    "tags": [
+        "plugin",
+        "convenience"
+    ],
+    "depends" : [
+        { "name" : "ModuleManager" }
+    ],
+    "install" : [ {
+        "file" : "GameData/Diazo",
+        "install_to" : "GameData"
+    } ]
 }

@@ -1,13 +1,17 @@
 {
     "spec_version" : 1,
     "identifier"   : "Impact",
-    "$kref"        : "#/ckan/github/tomforwood/kerbal-impact",
-    "$vref"        : "#/ckan/ksp-avc",
     "name"         : "Impact!",
     "abstract"     : "Impact experiments for science and profit",
-    "resources": {
-        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/102771-12-impact-impact-science-and-contracts-v150/"
-    },
+    "$kref"        : "#/ckan/github/tomforwood/kerbal-impact",
+    "$vref"        : "#/ckan/ksp-avc",
+    "x_netkan_force_v": true,
     "license"      : "MIT",
-    "x_netkan_force_v": true
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/102771-*"
+    },
+    "tags": [
+        "plugin",
+        "science"
+    ]
 }

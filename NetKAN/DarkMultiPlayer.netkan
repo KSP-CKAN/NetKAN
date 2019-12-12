@@ -3,15 +3,18 @@
     "identifier"     : "DarkMultiPlayer",
     "$kref"          : "#/ckan/spacedock/10",
     "release_status" : "development",
+    "x_netkan_license_ok" : true,
     "resources"      : {
         "manual"       : "https://github.com/godarklight/DarkMultiPlayer/blob/master/README.md",
         "repository"   : "https://github.com/godarklight/DarkMultiPlayer"
     },
+    "tags": [
+        "plugin"
+    ],
     "install" : [
         {
             "file"       : "DMPClient/GameData/DarkMultiPlayer",
             "install_to" : "GameData"
         }
-    ],
-    "x_netkan_license_ok" : true
+    ]
 }

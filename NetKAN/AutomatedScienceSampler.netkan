@@ -14,6 +14,11 @@
         "bugtracker": "https://github.com/Xarun/AutomatedScienceSampler/issues",
         "repository": "https://github.com/Xarun/AutomatedScienceSampler"
     },
+    "tags": [
+        "plugin",
+        "science",
+        "convenience"
+    ],
     "depends": [
         {
             "name"          : "KerboKatzUtilities",

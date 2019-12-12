@@ -3,7 +3,9 @@
     "identifier":   "FASA-RCS",
     "$kref":        "#/ckan/spacedock/1790",
     "license":      "GPL-3.0",
-    "x_via":        "Automated SpaceDock CKAN submission",
+    "tags": [
+        "parts"
+    ],
     "install": [ {
         "find":       "FASA_RCS",
         "install_to": "GameData"

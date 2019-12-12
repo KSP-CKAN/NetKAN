@@ -1,19 +1,24 @@
 {
-  "license": "MIT",
-  "identifier": "EVAEnhancementsContinued",
-  "x_via": "Automated Linuxgurugamer CKAN script",
-  "$kref": "#/ckan/spacedock/994",
-  "$vref": "#/ckan/ksp-avc",
-  "depends": [
+    "spec_version": "v1.4",
+    "identifier":   "EVAEnhancementsContinued",
+    "$kref":        "#/ckan/spacedock/994",
+    "$vref":        "#/ckan/ksp-avc",
+    "license":      "MIT",
+    "tags": [
+        "plugin",
+        "manned",
+        "information",
+        "control"
+    ],
+    "depends": [
         { "name" : "ToolbarController" },
-	{ "name" : "ClickThroughBlocker" }
-  ],
-  "suggests": [{"name": "EvaFuelCont"}],
-  "install": [
-    {
-      "find": "EVAEnhancementsContinued",
-      "install_to": "GameData"
-    }
-  ],
-  "spec_version": "v1.4"
+        { "name" : "ClickThroughBlocker" }
+    ],
+    "suggests": [
+        { "name": "EvaFuelCont" }
+    ],
+    "install": [ {
+        "find":       "EVAEnhancementsContinued",
+        "install_to": "GameData"
+    } ]
 }

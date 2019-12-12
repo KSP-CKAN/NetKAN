@@ -5,25 +5,24 @@
     "author"        : "Raidernick",
     "abstract"      : "Re-release of FASA by Raidernick under the new management of Nathankell team.",
     "comment"       : "No Comment",
+    "$kref"         : "#/ckan/github/KSP-RO/FASA-RO",
+    "$vref"         : "#/ckan/ksp-avc",
+	"x_netkan_epoch": 1,
+    "license"       : "CC-BY-SA",
     "resources": {
         "homepage"  : "https://github.com/KSP-RO/FASA-RO"
     },
-    "$kref"         : "#/ckan/github/KSP-RO/FASA-RO",
-    "license"       : "CC-BY-SA",
-    "$vref"        : "#/ckan/ksp-avc",
-	"x_netkan_epoch"   : 1,
-    "install"       :
-    [
-      {
+    "tags": [
+        "parts"
+    ],
+    "install"       : [ {
         "find"      : "FASA",
         "install_to": "GameData"
-      }
-    ],
+    } ],
     "depends": [
 		{ "name": "ModuleManager" }
     ],
-	"recommends"    :
-    [
+	"recommends"    : [
         { "name"    : "RasterPropMonitor" },
 		{ "name"    : "ReflectionPlugin" }
     ],
