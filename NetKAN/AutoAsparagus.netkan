@@ -3,13 +3,18 @@
     "identifier"     : "AutoAsparagus",
     "$kref"          : "#/ckan/spacedock/281",
     "$vref"          : "#/ckan/ksp-avc",
+    "x_netkan_epoch": "1",
     "license"        : "Apache-2.0",
     "resources": {
         "bugtracker" : "https://github.com/henrybauer/AutoAsparagus/issues",
         "repository" : "https://github.com/henrybauer/AutoAsparagus"
     },
+    "tags": [
+        "plugin",
+        "convenience",
+        "editor"
+    ],
     "recommends" : [
         { "name" : "SmartStage" }
-    ],
-    "x_netkan_epoch": "1"
+    ]
 }

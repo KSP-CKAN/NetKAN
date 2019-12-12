@@ -1,10 +1,14 @@
 {
-    "spec_version":     "v1.2",
-    "identifier":       "QuickFineControl",
-    "license":          "GPL-3.0",
-    "$kref":            "#/ckan/spacedock/784",
-    "$vref":            "#/ckan/ksp-avc",
+    "spec_version":   "v1.2",
+    "identifier":     "QuickFineControl",
+    "license":        "GPL-3.0",
+    "$kref":          "#/ckan/spacedock/784",
+    "$vref":          "#/ckan/ksp-avc",
     "x_netkan_epoch": 1,
+    "tags": [
+        "plugin",
+        "convenience"
+    ],
     "install": [
         {
             "file"       : "GameData/QuickMods/QuickFineControl",

@@ -13,6 +13,9 @@
         "repository": "https://github.com/KSP-RO/TestFlight",
         "bugtracker": "https://github.com/KSP-RO/TestFlight/issues"
     },
+    "tags": [
+        "config"
+    ],
     "install": [
         {
             "file":       "GameData/TestFlight",

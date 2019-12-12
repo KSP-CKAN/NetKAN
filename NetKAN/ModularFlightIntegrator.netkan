@@ -1,16 +1,20 @@
 {
     "spec_version": "v1.16",
-    "identifier": "ModularFlightIntegrator",
-    "$kref": "#/ckan/jenkins/https://ksp.sarbian.com/jenkins/job/ModularFlightIntegrator/",
-    "$vref": "#/ckan/ksp-avc",
-    "name": "ModularFlightIntegrator",
-    "abstract": "This is an amazing addon that will Modularly Integrate your Flight Models.",
-    "author": "Sarbian",
-    "license": "MIT",
+    "identifier":   "ModularFlightIntegrator",
+    "name":         "ModularFlightIntegrator",
+    "abstract":     "This is an amazing addon that will Modularly Integrate your Flight Models.",
+    "author":       "Sarbian",
+    "$kref":        "#/ckan/jenkins/https://ksp.sarbian.com/jenkins/job/ModularFlightIntegrator/",
+    "$vref":        "#/ckan/ksp-avc",
+    "license":      "MIT",
     "resources": {
-        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/106369-122-modularflightintegrator-124-131-march-23th/",
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/106369-*",
         "repository": "https://github.com/sarbian/ModularFlightIntegrator"
     },
+    "tags": [
+        "plugin",
+        "library"
+    ],
     "install": [
         {
             "find": "ModularFlightIntegrator",

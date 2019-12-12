@@ -5,6 +5,9 @@
     "$kref"         : "#/ckan/spacedock/783",
     "$vref"         : "#/ckan/ksp-avc",
     "x_netkan_epoch": 1,
+    "tags": [
+        "plugin"
+    ],
     "install": [
         {
             "file"       : "GameData/QuickMods/QuickCursorHider",

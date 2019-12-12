@@ -3,8 +3,11 @@
     "identifier"   : "QuickHide",
     "$kref"        : "#/ckan/spacedock/106",
     "$vref"        : "#/ckan/ksp-avc",
-    "license"      : "GPL-3.0",
     "x_netkan_epoch": 1,
+    "license"      : "GPL-3.0",
+    "tags": [
+        "plugin"
+    ],
     "depends": [
         { "name" : "ToolbarController" },
         { "name" : "ClickThroughBlocker" }
@@ -17,6 +20,5 @@
     ],
     "suggests": [
         { "name": "Toolbar" }
-    ],
-    "x_netkan_epoch": "1"
+    ]
 }
