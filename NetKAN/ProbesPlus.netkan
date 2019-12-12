@@ -1,19 +1,36 @@
 {
-	"spec_version": 1,
-	"identifier": "ProbesPlus",
-	"$kref": "#/ckan/spacedock/768",
-	"license": "CC-BY-NC-SA-4.0",
-	"resources": {"homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/131145-wip-coatl-aerospace-probesplus-dev-thread-v013-beta-61316/",
-				"repository": "https://github.com/raveloda/Coatl-Aerospace"},
-	"depends": [{"name": "DMagicScienceAnimate"},
-		{"name": "ModuleManager"},
-		{"name": "FirespitterCore"}],
-	"recommends": [{"name": "DMagicOrbitalScience"}],
-	"suggests": [{"name": "AntennaRange"},
-		{"name": "RemoteTech"},
-		{"name": "TweakScale"},
-		{"name": "BluedogDB"}],
-	"install": [{"file": "GameData/Coatl Aerospace",
-		"install_to": "GameData"}],
-	"conflicts": [{ "name": "CoatlAerospace" }]
+    "spec_version": 1,
+    "identifier":   "ProbesPlus",
+    "$kref":        "#/ckan/spacedock/768",
+    "license":      "CC-BY-NC-SA-4.0",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/131145-*",
+        "repository": "https://github.com/raveloda/Coatl-Aerospace"
+    },
+    "tags": [
+        "parts",
+        "unmanned",
+        "science"
+    ],
+    "depends": [
+        { "name": "DMagicScienceAnimate" },
+        { "name": "ModuleManager" },
+        { "name": "FirespitterCore" }
+    ],
+    "recommends": [
+        { "name": "DMagicOrbitalScience" }
+    ],
+    "suggests": [
+        { "name": "AntennaRange" },
+        { "name": "RemoteTech" },
+        { "name": "TweakScale" },
+        { "name": "BluedogDB" }
+    ],
+    "install": [ {
+        "file": "GameData/Coatl Aerospace",
+        "install_to": "GameData"
+    } ],
+    "conflicts": [
+        { "name": "CoatlAerospace" }
+    ]
 }

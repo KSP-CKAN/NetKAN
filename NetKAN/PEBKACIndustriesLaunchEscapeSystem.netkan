@@ -1,16 +1,20 @@
 {
     "spec_version": "v1.12",
-    "identifier": "PEBKACIndustriesLaunchEscapeSystem",
-    "$kref": "#/ckan/spacedock/816",
-    "$vref": "#/ckan/ksp-avc",
-    "license": "restricted",
-    "name" : " Launch Escape System",
-    "abstract" : "The PEBKAC Industries LES (PKI-LES) is designed to more or less simulate the Apollo and Mercury LES's used in real life",
-    "resources" : {
-        "homepage" : "http://forum.kerbalspaceprogram.com/index.php?/topic/106518-113-pebkac-industries-launch-escape-system-20160706-now-includes-mk1-les/&page=1"
-    },
+    "identifier":   "PEBKACIndustriesLaunchEscapeSystem",
+    "name":         "Launch Escape System",
+    "abstract":     "The PEBKAC Industries LES (PKI-LES) is designed to more or less simulate the Apollo and Mercury LES's used in real life",
+    "$kref":        "#/ckan/spacedock/816",
+    "$vref":        "#/ckan/ksp-avc",
     "x_netkan_epoch": "1",
-     "recommends": [
+    "license":      "restricted",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/106518-*"
+    },
+    "tags": [
+        "parts",
+        "manned"
+    ],
+    "recommends": [
         { "name": "BobsPanicBox"}
     ],
     "install": [
@@ -20,4 +24,3 @@
         }
     ]
 }
-

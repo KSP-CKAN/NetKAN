@@ -1,20 +1,25 @@
 {
     "spec_version"   : "v1.4",
-    "$kref"             : "#/ckan/spacedock/1972",
-    "$vref"          : "#/ckan/ksp-avc",
-    "name"           : "Filter Extensions - Plugin",
     "identifier"     : "FilterExtensions",
+    "name"           : "Filter Extensions - Plugin",
     "abstract"       : "Plugin allowing for configurable filters for the VAB/SPH using .cfg files.",
+    "$kref"          : "#/ckan/spacedock/1972",
+    "$vref"          : "#/ckan/ksp-avc",
     "license"        : "CC-BY-NC-SA-4.0",
     "release_status" : "stable",
+    "resources" : {
+        "homepage" : "https://forum.kerbalspaceprogram.com/index.php?/topic/168456-*"
+    },
+    "tags": [
+        "plugin",
+        "convenience",
+        "editor"
+    ],
     "recommends" : [
         { "name" : "ModuleManager" },
         { "name" : "FilterExtensionsDefaultConfig" },
         { "name" : "MoarFEConfigs" }
     ],
-    "resources" : {
-        "homepage" : "https://forum.kerbalspaceprogram.com/index.php?/topic/168456-*"
-    },
     "install" : [
         {
             "file"       : "GameData/000_FilterExtensions",

@@ -5,6 +5,10 @@
     "$vref":        "#/ckan/ksp-avc",
     "author":       [ "pizzaoverhead", "SlimJimDodger" ],
     "license":      "GPL-2.0",
+    "tags": [
+        "plugin",
+        "graphics"
+    ],
     "depends": [
         { "name": "ModuleManager" }
     ]

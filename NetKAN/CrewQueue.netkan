@@ -1,21 +1,22 @@
 {
     "spec_version" : "v1.2",
     "identifier"   : "CrewQueue",
+    "name"         : "Crew Queue",
+    "abstract"     : "Crew Rotation and Variety - This mod is focused around the idea of encouraging the player to keep a deeper roster of crew, and to increase the value of individual experienced crew. ",
     "$kref"        : "#/ckan/github/fingerboxes/CrewQueue",
     "$vref"        : "#/ckan/ksp-avc",
     "x_netkan_epoch": "1",
-    "name"         : "Crew Queue",
-    "abstract"     : "Crew Rotation and Variety - This mod is focused around the idea of encouraging the player to keep a deeper roster of crew, and to increase the value of individual experienced crew. ",
     "license"      : "MIT",
-
     "resources": {
-        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/97702-10x-crewqueue-crew-rotation-and-vacations/"
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/97702-*"
     },
-
-     "depends": [
+    "tags": [
+        "plugin",
+        "manned"
+    ],
+    "depends": [
         { "name": "FingerboxesCore" }
     ],
-
      "install": [
         {
             "file"       : "GameData/Fingerboxes/CrewQueue",

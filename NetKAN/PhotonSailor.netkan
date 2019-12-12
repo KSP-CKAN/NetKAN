@@ -9,12 +9,17 @@
         "homepage":   "https://forum.kerbalspaceprogram.com/index.php?/topic/176144-*",
         "repository": "https://github.com/sswelm/KSP-Interstellar-Extended"
     },
+    "tags": [
+        "plugin",
+        "parts",
+        "physics"
+    ],
     "install": [ {
         "find":       "PhotonSail",
         "install_to": "GameData"
     } ],
     "depends": [
-        { "name": "ModuleManager" }        
+        { "name": "ModuleManager" }
     ],
     "recommends": [
         { "name": "PersistentRotation"      },
