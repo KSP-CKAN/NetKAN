@@ -10,6 +10,10 @@
     "resources" : {
         "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/169611-*"
     },
+    "tags": [
+        "plugin",
+        "information"
+    ],
     "conflicts": [
         { "name": "SpeedUnitChanger" },
         { "name": "SpeedUnitDisplay" }

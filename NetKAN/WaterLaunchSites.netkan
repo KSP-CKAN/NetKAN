@@ -10,6 +10,10 @@
     "resources" : {
         "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/183937-*"
     },
+    "tags": [
+        "config",
+        "convenience"
+    ],
     "install" : [
             {
                 "file"       : "GameData/KerbalKonstructs-WaterLaunchSites",
