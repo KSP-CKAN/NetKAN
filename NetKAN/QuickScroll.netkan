@@ -5,6 +5,11 @@
     "$vref"        : "#/ckan/ksp-avc",
     "license"      : "GPL-3.0",
     "x_netkan_epoch": 1,
+    "tags": [
+        "plugin",
+        "convenience",
+        "editor"
+    ],
     "install": [
         {
             "file"       : "GameData/QuickScroll",
@@ -14,7 +19,6 @@
     "conflicts": [
         { "name": "PartCatalog" }
     ],
-
     "suggests": [
         { "name": "Toolbar" }
     ]

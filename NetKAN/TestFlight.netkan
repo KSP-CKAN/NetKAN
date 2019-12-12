@@ -13,7 +13,10 @@
         "repository": "https://github.com/KSP-RO/TestFlight",
         "bugtracker": "https://github.com/KSP-RO/TestFlight/issues"
     },
-    "install" : [
+    "tags": [
+        "plugin"
+    ],
+    "install": [
         {
             "file":       "GameData/TestFlight",
             "install_to": "GameData",
@@ -23,7 +26,6 @@
     "depends": [
         { "name" : "ModuleManager", "min_version" : "2.6.1" },
         { "name" : "TestFlightConfig" }
-
     ],
     "x_netkan_override": [
         {

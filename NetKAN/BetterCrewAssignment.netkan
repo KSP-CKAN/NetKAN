@@ -1,9 +1,18 @@
 {
     "spec_version": 1,
-    "identifier": "BetterCrewAssignment",
-    "$kref": "#/ckan/spacedock/22",
-    "license": "CC-BY-NC-ND-4.0",
+    "identifier":   "BetterCrewAssignment",
+    "$kref":        "#/ckan/spacedock/22",
+    "license":      "CC-BY-NC-ND-4.0",
     "depends": [
         { "name": "ModuleManager" }
+    ],
+    "conflicts": [
+        { "name": "KerbalConstructionTime" },
+        { "name": "KerbalConstructionTime-173" }
+    ],
+    "tags": [
+        "plugin",
+        "convenience",
+        "manned"
     ]
 }

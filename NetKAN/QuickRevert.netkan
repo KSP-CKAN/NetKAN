@@ -5,6 +5,10 @@
     "$vref"        : "#/ckan/ksp-avc",
     "license"      : "GPL-3.0",
     "x_netkan_epoch": 1,
+    "tags": [
+        "plugin",
+        "convenience"
+    ],
     "depends": [
         { "name" : "ToolbarController" },
         { "name" : "ClickThroughBlocker" }
@@ -18,7 +22,6 @@
     "conflicts": [
         { "name": "SRL" }
     ],
-
     "suggests": [
         { "name": "Toolbar" }
     ]
