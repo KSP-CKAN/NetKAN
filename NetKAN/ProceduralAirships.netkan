@@ -1,15 +1,19 @@
 {
     "spec_version"    : "v1.4",
-    "$kref"           : "#/ckan/github/ItMustBeACamel/ProcAirships",
-    "$vref"           : "#/ckan/ksp-avc",
     "identifier"      : "ProceduralAirships",
     "name"            : "Procedural Airships",
     "abstract"        : "Procedural Airships - A ProceduralParts Expansion",
+    "$kref"           : "#/ckan/github/ItMustBeACamel/ProcAirships",
+    "$vref"           : "#/ckan/ksp-avc",
     "author"          : [ "RadarManFromTheMoon", "ItMustBeACamel" ],
     "license"         : "GPL-3.0",
     "resources": {
         "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/89388-*"
     },
+    "tags": [
+        "plugin",
+        "parts"
+    ],
     "depends": [
         { "name": "ProceduralParts" }
     ],

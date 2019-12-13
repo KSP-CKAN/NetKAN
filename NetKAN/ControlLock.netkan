@@ -11,6 +11,9 @@
     "resources": {
         "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/97829-*"
     },
+    "tags": [
+        "plugin"
+    ],
     "recommends": [
         { "name": "Toolbar" }
     ],

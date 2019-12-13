@@ -11,6 +11,10 @@
     "resources": {
         "homepage": "http://forum.kerbalspaceprogram.com/index.php?showtopic=184268"
     },
+    "tags": [
+        "plugin",
+        "graphics"
+    ],
     "install": [
         {
             "find_regexp": "unBlur.*\\.dll$",

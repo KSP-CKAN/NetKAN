@@ -1,12 +1,15 @@
 {
-    "license": "MIT",
-    "$kref": "#/ckan/spacedock/201",
-    "$vref" : "#/ckan/ksp-avc",
     "spec_version": "v1.4",
-    "identifier": "LaunchNumbering",
+    "identifier":   "LaunchNumbering",
+    "$kref":        "#/ckan/spacedock/201",
+    "$vref":        "#/ckan/ksp-avc",
+    "license":      "MIT",
+    "tags": [
+        "plugin"
+    ],
     "depends": [
-        { "name" : "ToolbarController" },
-	{ "name" : "ClickThroughBlocker" }
+        { "name": "ToolbarController" },
+        { "name": "ClickThroughBlocker" }
     ],
     "install": [
         {
@@ -14,5 +17,4 @@
             "install_to": "GameData"
         }
     ]
-
 }

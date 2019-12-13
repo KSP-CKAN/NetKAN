@@ -1,6 +1,10 @@
 {
-    "$kref": "#/ckan/spacedock/244",
     "spec_version": "v1.4",
-    "license": "GPL-3.0",
-    "identifier": "HangarGrid"
+    "identifier":   "HangarGrid",
+    "$kref":        "#/ckan/spacedock/244",
+    "license":      "GPL-3.0",
+    "tags": [
+        "plugin",
+        "editor"
+    ]
 }

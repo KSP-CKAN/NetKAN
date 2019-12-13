@@ -1,12 +1,16 @@
 {
     "spec_version": 1,
-    "license": "CC-BY-NC-SA",
-    "$kref": "#/ckan/spacedock/94",
-    "$vref" : "#/ckan/ksp-avc",
-    "identifier": "ColorfulFuelLines",
+    "identifier":   "ColorfulFuelLines",
+    "$kref":        "#/ckan/spacedock/94",
+    "$vref":        "#/ckan/ksp-avc",
+    "license":      "CC-BY-NC-SA",
     "resources": {
-        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/115315-ColorfulFuelLines"
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/115315-*"
     },
+    "tags": [
+        "config",
+        "parts"
+    ],
     "depends": [
         { "name": "ModuleManager" },
         { "name": "InterstellarFuelSwitch-Core" }
