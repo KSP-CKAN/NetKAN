@@ -3,9 +3,22 @@
     "identifier"   : "CVX",
     "$kref"        : "#/ckan/spacedock/954",
     "license"      : "CC-BY-NC-SA-4.0",
+    "tags": [
+        "parts"
+    ],
     "depends": [
         { "name": "CommunityResourcePack" },
         { "name": "FirespitterCore" }
+    ],
+    "recommends": [
+        { "name": "BDArmoryContinued" },
+        { "name": "KIS" },
+        { "name": "KAS" },
+        { "name": "HangarExtender" },
+        { "name": "HyperEdit" },
+        { "name": "VesselMover" },
+        { "name": "KerbalJointReinforcement" },
+        { "name": "AircraftCarrierAccessories" }
     ],
     "install": [
         {

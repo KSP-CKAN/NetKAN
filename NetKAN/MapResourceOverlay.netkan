@@ -9,6 +9,14 @@
     "license"       : "CC-BY-NC-SA",
     "ksp_version"   : "0.90",
     "release_status": "stable",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/83356-*"
+    },
+    "tags": [
+        "plugin",
+        "resourcs",
+        "information"
+    ],
     "depends": [
         { "name": "Karbonite" },
         { "name": "Toolbar" }
@@ -16,8 +24,5 @@
     "suggests": [
         { "name": "Regolith" },
         { "name": "SCANsat" }
-    ],
-    "resources": {
-        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/83356-*"
-    }
+    ]
 }

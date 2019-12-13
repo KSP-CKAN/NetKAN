@@ -1,8 +1,11 @@
 {
-    "license": "GPL-3.0",
-    "identifier": "IONRCS",
-    "$kref": "#/ckan/spacedock/586",
     "spec_version": "v1.4",
+    "identifier":   "IONRCS",
+    "$kref":        "#/ckan/spacedock/586",
+    "license":      "GPL-3.0",
+    "tags": [
+        "parts"
+    ],
     "depends": [
         { "name": "REPOSoftTech-Agencies" }
     ],

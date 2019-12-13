@@ -1,24 +1,20 @@
 {
-    "license": "MIT",
-    "identifier": "LightsOutRelit",
     "spec_version": "v1.4",
-    "$kref": "#/ckan/spacedock/2077",
-    "$vref"        : "#/ckan/ksp-avc",
+    "identifier":   "LightsOutRelit",
+    "author":       [ "nodrog6", "RealGecko", "Fwiffo", "Linuxgurugamer" ],
+    "$kref":        "#/ckan/spacedock/2077",
+    "$vref":        "#/ckan/ksp-avc",
     "x_netkan_force_v": true,
-    "install": [
-      {
-        "install_to": "GameData",
-        "find": "LightsOut"
-      }
+    "license":      "MIT",
+    "tags": [
+        "plugin",
+        "editor"
     ],
-
-     "depends": [
+    "install": [ {
+        "find": "LightsOut",
+        "install_to": "GameData"
+    } ],
+    "depends": [
         { "name": "ToolbarController" }
-    ],
-    "author": [
-        "nodrog6",
-        "RealGecko",
-        "Fwiffo",
-	"Linuxgurugamer"
     ]
 }

@@ -1,18 +1,22 @@
 {
     "spec_version": "v1.4",
-    "identifier": "KSPRescuePodFix",
-    "$kref": "#/ckan/github/shadowmage45/KSPRescuePodFix",
-    "$vref": "#/ckan/ksp-avc",
-    "license": "GPL-3.0",
+    "identifier":   "KSPRescuePodFix",
+    "$kref":        "#/ckan/github/shadowmage45/KSPRescuePodFix",
+    "$vref":        "#/ckan/ksp-avc",
+    "license":      "GPL-3.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/141560-*"
+    },
+    "tags": [
+        "plugin",
+        "career",
+        "manned"
+    ],
     "install": [ {
         "install_to": "GameData",
         "find": "KSPRescuePodFix"
     } ],
     "depends": [
         { "name": "ModuleManager" }
-    ],
-    "resources": {
-        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/141560-*"
-    },
-    "x_via": "Automated Linuxgurugamer CKAN script"
+    ]
 }
