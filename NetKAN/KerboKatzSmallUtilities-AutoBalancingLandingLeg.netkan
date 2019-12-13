@@ -1,6 +1,10 @@
 {
-    "spec_version" : "v1.2",
-    "identifier"   : "KerboKatzSmallUtilities-AutoBalancingLandingLeg",
+    "spec_version": "v1.2",
+    "identifier":   "KerboKatzSmallUtilities-AutoBalancingLandingLeg",
     "$kref": "#/ckan/netkan/https://raw.githubusercontent.com/KerboKatz/Netkan/master/KerboKatzSmallUtilities-AutoBalancingLandingLeg.netkan",
-    "x_netkan_license_ok": true
+    "x_netkan_license_ok": true,
+    "tags": [
+        "plugin",
+        "config"
+    ]
 }

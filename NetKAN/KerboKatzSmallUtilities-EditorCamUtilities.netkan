@@ -2,5 +2,9 @@
     "spec_version" : "v1.2",
     "identifier"   : "KerboKatzSmallUtilities-EditorCamUtilities",
     "$kref": "#/ckan/netkan/https://raw.githubusercontent.com/KerboKatz/Netkan/master/KerboKatzSmallUtilities-EditorCamUtilities.netkan",
-    "x_netkan_license_ok": true
+    "x_netkan_license_ok": true,
+    "tags": [
+        "plugin",
+        "editor"
+    ]
 }

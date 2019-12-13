@@ -1,8 +1,13 @@
 {
     "spec_version": 1,
-    "identifier": "OrbitalSurveyPlus",
-    "$kref": "#/ckan/spacedock/574",
-    "license": "MIT",
+    "identifier":   "OrbitalSurveyPlus",
+    "$kref":        "#/ckan/spacedock/574",
+    "license":      "MIT",
+    "tags": [
+        "plugin",
+        "resources",
+        "science"
+    ],
     "depends": [
         { "name": "ModuleManager" }
     ]

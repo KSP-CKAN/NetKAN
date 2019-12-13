@@ -3,6 +3,10 @@
     "identifier"    : "QuantumStrutsContinued",
     "$kref"         : "#/ckan/spacedock/301",
     "license"       : "BSD-3-clause",
+    "tags": [
+        "plugin",
+        "physics"
+    ],
     "install": [
         {
             "file": "GameData/QuantumStrutsContinued",

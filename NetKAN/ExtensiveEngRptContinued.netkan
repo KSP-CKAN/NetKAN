@@ -1,22 +1,24 @@
 {
-  "spec_version": "v1.4",
-  "install": [
-    {
-      "install_to": "GameData",
-      "find": "ExtensiveEngineerReport"
-    }
-  ],
-  "depends": [
-    { "name": "ModuleManager" },
-    { "name" : "ToolbarController" },
-    { "name" : "ClickThroughBlocker" }
-  ],
-  "conflicts": [
-    { "name": "ShipSections" }
-  ],
-  "$vref": "#/ckan/ksp-avc",
-  "$kref": "#/ckan/spacedock/1147",
-  "x_via": "Automated Linuxgurugamer CKAN script",
-  "identifier": "ExtensiveEngRptContinued",
-  "license": "MIT"
+    "spec_version": "v1.4",
+    "identifier":   "ExtensiveEngRptContinued",
+    "$kref":        "#/ckan/spacedock/1147",
+    "$vref":        "#/ckan/ksp-avc",
+    "license":      "MIT",
+    "tags": [
+        "plugin",
+        "information",
+        "editor"
+    ],
+    "install": [ {
+        "find": "ExtensiveEngineerReport",
+        "install_to": "GameData"
+    } ],
+    "depends": [
+        { "name": "ModuleManager" },
+        { "name": "ToolbarController" },
+        { "name": "ClickThroughBlocker" }
+    ],
+    "conflicts": [
+        { "name": "ShipSections" }
+    ]
 }
