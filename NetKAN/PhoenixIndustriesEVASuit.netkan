@@ -3,12 +3,17 @@
     "identifier"   : "PhoenixIndustriesEVASuit",
     "$kref"        : "#/ckan/spacedock/659",
     "license"      : "CC-BY-NC-ND-4.0",
+    "tags"         : [
+        "config",
+        "graphics",
+        "manned"
+    ],
     "depends": [
         { "name": "TextureReplacer" }
     ],
     "install": [
         {
-            "find":"Phoenix_Industries_EVA",
+            "find": "Phoenix_Industries_EVA",
             "install_to": "GameData/TextureReplacer/Suits",
             "filter": [ "Poster.jpg", "screenshot0.png" ]
         }

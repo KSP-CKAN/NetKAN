@@ -1,14 +1,18 @@
 {
     "spec_version": "v1.26",
-    "name": "Pood's Milky Way Skybox",
-    "abstract": "Skybox based on the famous Milky Way images taken by NASA presenting you with the classic night sky that we all know and love.",
-    "author": "Poodmund",
-    "identifier": "PoodsMilkyWaySkybox",
-    "$kref": "#/ckan/spacedock/926",
-    "license": "CC-BY-NC-ND-4.0",
+    "identifier":   "PoodsMilkyWaySkybox",
+    "name":         "Pood's Milky Way Skybox",
+    "abstract":     "Skybox based on the famous Milky Way images taken by NASA presenting you with the classic night sky that we all know and love.",
+    "author":       "Poodmund",
+    "$kref":        "#/ckan/spacedock/926",
+    "license":      "CC-BY-NC-ND-4.0",
     "resources": {
         "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/169919-1"
     },
+    "tags": [
+        "config",
+        "graphics"
+    ],
     "provides": [
         "Skybox"
     ],

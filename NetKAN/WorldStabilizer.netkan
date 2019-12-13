@@ -1,9 +1,12 @@
 {
-    "identifier": "WorldStabilizer",
-    "$kref": "#/ckan/spacedock/1632",
     "spec_version": "v1.4",
-    "x_via": "Automated SpaceDock CKAN submission",
-    "license": "MIT",
+    "identifier":   "WorldStabilizer",
+    "$kref":        "#/ckan/spacedock/1632",
+    "license":      "MIT",
+    "tags": [
+        "plugin",
+        "physics"
+    ],
     "suggests": [
         { "name": "KSP-AVC" }
     ]

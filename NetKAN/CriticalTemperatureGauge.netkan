@@ -1,18 +1,22 @@
 {
-  "spec_version" : 1,
-  "identifier"   : "CriticalTemperatureGauge",
-  "$kref"        : "#/ckan/github/formicant/CriticalTemperatureGauge",
-  "$vref"        : "#/ckan/ksp-avc",
-  "name"         : "Critical Temperature Gauge",
-  "author"       : [ "Ravien", "Teilnehmer" ],
-  "abstract"     : "A plugin showing a temperature gauge and which part is going to blow up first",
-  "license"      : "GPL-3.0",
-  "depends"      : [
-    { "name": "ModuleManager" },
-    { "name": "ClickThroughBlocker" },
-    { "name": "ToolbarController" }
-  ],
-  "resources"    : {
-    "homepage"   : "http://forum.kerbalspaceprogram.com/index.php?/topic/146239-113-critical-temperature-gauge-continued"
-  }
+    "spec_version" : 1,
+    "identifier"   : "CriticalTemperatureGauge",
+    "name"         : "Critical Temperature Gauge",
+    "author"       : [ "Ravien", "Teilnehmer" ],
+    "abstract"     : "A plugin showing a temperature gauge and which part is going to blow up first",
+    "$kref"        : "#/ckan/github/formicant/CriticalTemperatureGauge",
+    "$vref"        : "#/ckan/ksp-avc",
+    "license"      : "GPL-3.0",
+    "resources"    : {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/146239-*"
+    },
+    "tags": [
+        "plugin",
+        "information"
+    ],
+    "depends"      : [
+        { "name": "ModuleManager" },
+        { "name": "ClickThroughBlocker" },
+        { "name": "ToolbarController" }
+    ]
 }

@@ -1,8 +1,14 @@
 {
     "spec_version": "v1.4",
-    "identifier": "Mk1CabinHatch",
-    "license": "GPL-3.0",
-    "$kref": "#/ckan/spacedock/1038",
-    "$vref": "#/ckan/ksp-avc",
-    "depends" : [ { "name" : "ModuleManager" } ]
+    "identifier":   "Mk1CabinHatch",
+    "$kref":        "#/ckan/spacedock/1038",
+    "$vref":        "#/ckan/ksp-avc",
+    "license":      "GPL-3.0",
+    "tags": [
+        "config",
+        "parts"
+    ],
+    "depends" : [
+        { "name" : "ModuleManager" }
+    ]
 }

@@ -3,6 +3,9 @@
     "identifier":   "PhoenixIndustriesSpaceTug",
     "$kref":        "#/ckan/spacedock/2042",
     "license":      "CC-BY-4.0",
+    "tags": [
+        "parts"
+    ],
     "install": [ {
         "find":       "IntegratedPhoenixIndustries",
         "install_to": "GameData"

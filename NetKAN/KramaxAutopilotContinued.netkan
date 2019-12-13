@@ -1,18 +1,19 @@
 {
-  "license": "unknown",
-  "identifier": "KramaxAutopilotContinued",
-  "x_via": "Automated Linuxgurugamer CKAN script",
-  "$kref": "#/ckan/spacedock/1019",
-  "$vref": "#/ckan/ksp-avc",
-  "install": [
-    {
-      "find": "KramaxAutoPilot",
-      "install_to": "GameData"
-    }
-  ],
-    "depends": [
-        { "name" : "ToolbarController" },
-        { "name" : "ClickThroughBlocker" }
+    "spec_version": "v1.4",
+    "identifier":   "KramaxAutopilotContinued",
+    "$kref":        "#/ckan/spacedock/1019",
+    "$vref":        "#/ckan/ksp-avc",
+    "license":      "unknown",
+    "tags": [
+        "plugin",
+        "control"
     ],
-  "spec_version": "v1.4"
+    "install": [ {
+        "find": "KramaxAutoPilot",
+        "install_to": "GameData"
+    } ],
+    "depends": [
+        { "name": "ToolbarController" },
+        { "name": "ClickThroughBlocker" }
+    ]
 }

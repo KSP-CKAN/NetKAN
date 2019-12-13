@@ -7,8 +7,12 @@
     "license"      : "public-domain",
     "$vref"        : "#/ckan/ksp-avc",
     "resources"    : {
-        "homepage" : "https://forum.kerbalspaceprogram.com/index.php?/topic/124069-105-harder-solar-system-kopernicus-v120-112015-axial-tilt-and-more/"
+        "homepage" : "https://forum.kerbalspaceprogram.com/index.php?/topic/124069-*"
     },
+    "tags": [
+        "config",
+        "planet-pack"
+    ],
     "install" : [
         {
             "find"       : "generic/GameData/HarderSolarSystem-generic",
