@@ -5,6 +5,13 @@
     "author":       [ "MrHappyFace", "StollD" ],
     "$kref":        "#/ckan/github/StollD/KopernicusExpansion-Continued/asset_match/EmissiveFX",
     "license":      "GPL-3.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/119211-*"
+    },
+    "tags": [
+        "plugin",
+        "graphics"
+    ],
     "install": [ {
         "find":       "KopernicusExpansion",
         "install_to": "GameData",
@@ -14,8 +21,5 @@
     "depends":  [
         { "name": "Kopernicus"                          },
         { "name": "KopernicusExpansionContinued-Common" }
-    ],
-    "resources": {
-        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/119211-*"
-    }
+    ]
 }

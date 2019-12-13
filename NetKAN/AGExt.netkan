@@ -1,28 +1,33 @@
 {
-    "spec_version" : 1,
-    "$kref": "#/ckan/spacedock/1685",
-    "$vref"        : "#/ckan/ksp-avc",
-    "name" : "Action Groups Extended",
-    "identifier" : "AGExt",
-    "author" : ["Diazo", "linuxgurugamer"],
-    "abstract" : "Increases the number of action groups to 250 and allows in-flight editing.",
-    "license" : "GPL-3.0",
-    "release_status" : "stable",
+    "spec_version": 1,
+    "identifier":   "AGExt",
+    "name":         "Action Groups Extended",
+    "abstract":     "Increases the number of action groups to 250 and allows in-flight editing.",
+    "author":       [ "Diazo", "linuxgurugamer" ],
+    "$kref":        "#/ckan/spacedock/1685",
+    "$vref":        "#/ckan/ksp-avc",
+    "x_netkan_epoch": "1",
+    "license":      "GPL-3.0",
+    "release_status": "stable",
     "resources" : {
-        "homepage" : "https://forum.kerbalspaceprogram.com/index.php?/topic/167269-1"
+        "homepage" : "https://forum.kerbalspaceprogram.com/index.php?/topic/167269-*"
     },
+    "tags": [
+        "plugin",
+        "convenience"
+    ],
     "depends": [
         { "name": "ModuleManager" },
-	{ "name" : "ToolbarController" },
+        { "name" : "ToolbarController" },
         { "name": "ClickThroughBlocker" }
     ],
-    "recommends" : [ { "name" : "Toolbar" } ],
+    "recommends" : [
+        { "name" : "Toolbar" }
+    ],
     "install" : [
         {
             "file" : "GameData/Diazo",
             "install_to" : "GameData"
         }
-    ],
-    "x_netkan_epoch": "1"
-
+    ]
 }
