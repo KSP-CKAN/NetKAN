@@ -1,17 +1,22 @@
 {
     "spec_version": "v1.4",
-    "identifier": "CustomAsteroids-Pops-OPM-Outer",
-    "name": "Custom Asteroids (Kuiper belt analog for OPM)",
-    "abstract": "Adds Kentaurs and trans-Neidonian objects",
-    "$kref": "#/ckan/github/Starstrider42/Custom-Asteroids-Extras",
+    "identifier":   "CustomAsteroids-Pops-OPM-Outer",
+    "name":         "Custom Asteroids (Kuiper belt analog for OPM)",
+    "abstract":     "Adds Kentaurs and trans-Neidonian objects",
+    "$kref":        "#/ckan/github/Starstrider42/Custom-Asteroids-Extras",
     "x_netkan_github": {
         "use_source_archive": true
     },
+    "ksp_version_min": "1.4.0",
     "license": "MIT",
     "resources": {
-        "bugtracker": "https://github.com/Starstrider42/Custom-Asteroids-Extras/issues"
+        "bugtracker": "https://github.com/Starstrider42/Custom-Asteroids-Extras/issues",
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/72785-*"
     },
-    "ksp_version_min": "1.4.0",
+    "tags": [
+        "config",
+        "planet-pack"
+    ],
     "depends": [
         {
             "name": "OuterPlanetsMod"
@@ -31,8 +36,5 @@
             "filter_regexp": "(?<!Trans-Neidon\\.cfg)$"
         }
     ],
-    "resources": {
-        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/72785-*"
-    },
     "x_maintained_by": "Starstrider42"
 }

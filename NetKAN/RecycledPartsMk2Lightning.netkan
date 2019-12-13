@@ -1,24 +1,24 @@
 {
-  "spec_version": "v1.4",
-  "install": [
-    {
-      "install_to": "GameData/SpaceTuxIndustries/RecycledParts",
-      "find": "BahaSP"
-    }
-  ],
-  "depends": [
-      { "name": "ModuleManager" }
-  ],
- "suggests": [
+    "spec_version": "v1.4",
+    "identifier":   "RecycledPartsMk2Lightning",
+    "name":         "Recycled Parts Mk2 Lightning",
+    "$kref":        "#/ckan/spacedock/1507",
+    "$vref":        "#/ckan/ksp-avc",
+    "license":      "restricted",
+    "tags": [
+        "parts"
+    ],
+    "install": [ {
+        "find": "BahaSP",
+        "install_to": "GameData/SpaceTuxIndustries/RecycledParts"
+    } ],
+    "depends": [
+        { "name": "ModuleManager" }
+    ],
+    "suggests": [
         { "name": "JanitorsCloset" }
-  ],
-  "conflicts": [
-    { "name" : "RecycledPartsMk2Lightning" }
-  ],
-  "$vref": "#/ckan/ksp-avc",
-  "$kref": "#/ckan/spacedock/1507",
-  "x_via": "Automated Linuxgurugamer CKAN script",
-  "identifier": "RecycledPartsMk2Lightning",
-  "name": "Recycled Parts Mk2 Lightning",
-  "license": "restricted"
+    ],
+    "conflicts": [
+        { "name" : "RecycledPartsMk2Lightning" }
+    ]
 }

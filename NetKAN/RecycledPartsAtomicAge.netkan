@@ -1,28 +1,28 @@
 {
-  "spec_version": "v1.4",
-  "install": [
-    {
-      "install_to": "GameData/SpaceTuxIndustries/RecycledParts",
-      "find": "SpaceTuxIndustries/RecycledParts/AtomicAge"
-    }
-  ],
-  "depends": [
-      { "name": "ModuleManager" }
-  ],
-  "recommends": [
-    { "name": "CommunityTechTree" }
-  ],
- "suggests": [
+    "spec_version": "v1.4",
+    "identifier":   "RecycledPartsAtomicAge",
+    "name":         "Recycled Parts Atomic Age",
+    "$kref":        "#/ckan/spacedock/1507",
+    "$vref":        "#/ckan/ksp-avc",
+    "license":      "restricted",
+    "tags": [
+        "parts"
+    ],
+    "install": [ {
+        "find": "SpaceTuxIndustries/RecycledParts/AtomicAge",
+        "install_to": "GameData/SpaceTuxIndustries/RecycledParts"
+    } ],
+    "depends": [
+        { "name": "ModuleManager" }
+    ],
+    "recommends": [
+        { "name": "CommunityTechTree" }
+    ],
+    "suggests": [
         { "name": "JanitorsCloset" }
-  ],
-  "conflicts": [
-    { "name" : "AtomicAge" },
-    { "name" : "RecycledPartsAtomicAge" }
-  ],
-  "$vref": "#/ckan/ksp-avc",
-  "$kref": "#/ckan/spacedock/1507",
-  "x_via": "Automated Linuxgurugamer CKAN script",
-  "identifier": "RecycledPartsAtomicAge",
-  "name": "Recycled Parts Atomic Age",
-  "license": "restricted"
+    ],
+    "conflicts": [
+        { "name" : "AtomicAge" },
+        { "name" : "RecycledPartsAtomicAge" }
+    ]
 }
