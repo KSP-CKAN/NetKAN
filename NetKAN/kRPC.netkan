@@ -1,12 +1,17 @@
 {
     "spec_version" : 1,
     "identifier"   : "kRPC",
-    "$kref"        : "#/ckan/github/krpc/krpc/asset_match/krpc-[0-9]+\\.[0-9]+\\.[0-9]+\\.zip",
     "name"         : "kRPC: Remote Procedure Call Server",
     "abstract"     : "kRPC allows you to control the game from external programs. It comes with client libraries for several popular languages including Python, C++, C#, Java and Lua. Programs communicate with the game over a TCP/IP connection, and can be configured to work on just the local machine or even over the wider internet.",
     "license"      : "GPL-3.0",
+    "$kref"        : "#/ckan/github/krpc/krpc/asset_match/krpc-[0-9]+\\.[0-9]+\\.[0-9]+\\.zip",
     "$vref"        : "#/ckan/ksp-avc",
     "resources": {
         "homepage": "http://krpc.github.io/krpc"
-    }
+    },
+    "tags": [
+        "plugin",
+        "app",
+        "control"
+    ]
 }

@@ -1,6 +1,10 @@
 {
     "spec_version": 1,
-    "identifier": "MinAmbience",
-    "$kref": "#/ckan/spacedock/448",
-    "license": "BSD-2-clause"
+    "identifier":   "MinAmbience",
+    "$kref":        "#/ckan/spacedock/448",
+    "license":      "BSD-2-clause",
+    "tags": [
+        "plugin",
+        "graphics"
+    ]
 }

@@ -1,18 +1,21 @@
 {
-  "spec_version": "v1.4",
-  "identifier":   "KerbalCitiesPack",
-  "$kref":        "#/ckan/spacedock/839",
-  "x_netkan_epoch": 1,
-  "license":      "MIT",
-  "resources": {
-     "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/144012-kerbal-cities-pack"
-  },
-  "depends": [
+    "spec_version": "v1.4",
+    "identifier":   "KerbalCitiesPack",
+    "$kref":        "#/ckan/spacedock/839",
+    "x_netkan_epoch": 1,
+    "license":      "MIT",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/144012-*"
+    },
+    "tags": [
+        "plugin",
+        "graphics"
+    ],
+    "depends": [
         { "name": "KerbalKonstructs" }
-   ],
-  "install": [ {
-      "file":       "KerbalCities",
-      "install_to": "GameData"
-  } ],
-  "x_via": "Automated Linuxgurugamer CKAN script"
+    ],
+    "install": [ {
+        "file":       "KerbalCities",
+        "install_to": "GameData"
+    } ]
 }

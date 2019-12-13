@@ -1,13 +1,18 @@
 {
     "spec_version" : 1,
     "identifier"   : "Kerbulator",
-    "$kref"        : "#/ckan/github/wmvanvliet/Kerbulator",
     "name"         : "Kerbulator",
     "abstract"     : "Calculator plugin for Kerbal Space Program",
+    "$kref"        : "#/ckan/github/wmvanvliet/Kerbulator",
+    "ksp_version"  : "1.4",
+    "x_netkan_staging": true,
+    "x_netkan_staging_reason": "Game version hard coded in netkan, check that it matches the forum thread",
     "license"      : "GPL-3.0",
-    "ksp_version_min"  : "1.0.4",
-    "ksp_version_max"  : "1.1.3",
-    "resources" : {
-        "homepage"     : "https://forum.kerbalspaceprogram.com/index.php?/topic/62988-13-kerbulator-use-your-own-math/"
-    }
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/62988-*"
+    },
+    "tags": [
+        "plugin",
+        "control"
+    ]
 }

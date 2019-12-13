@@ -4,6 +4,9 @@
     "$kref"        : "#/ckan/spacedock/440",
     "$vref"        : "#/ckan/ksp-avc",
     "x_netkan_license_ok": true,
+    "tags": [
+        "parts"
+    ],
     "depends": [
         { "name": "ModuleManager" }
     ],
@@ -12,6 +15,7 @@
         { "name": "KerbalJointReinforcement" }
     ],
     "suggests": [
+        { "name": "QuickSearch" },
         { "name": "RealScaleBoosters" },
         { "name": "FerramAerospaceResearch" },
         { "name": "RealSolarSystem" },

@@ -1,9 +1,13 @@
 {
     "spec_version": 1,
-    "license": "GPL-3.0",
-    "$kref": "#/ckan/spacedock/643",
-    "$vref"    : "#/ckan/ksp-avc",
-    "identifier": "DatedQuickSaves",
+    "identifier":   "DatedQuickSaves",
+    "$kref":        "#/ckan/spacedock/643",
+    "$vref":        "#/ckan/ksp-avc",
+    "license":      "GPL-3.0",
+    "tags": [
+        "plugin",
+        "convenience"
+    ],
     "install": [
         {
             "file"       : "GameData/DatedQuickSaves",
