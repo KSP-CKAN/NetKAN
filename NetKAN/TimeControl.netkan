@@ -1,13 +1,17 @@
 {
-    "spec_version" : 1,
-    "identifier"   : "TimeControl",
-    "$kref"        : "#/ckan/github/ntwest/TimeControl",
-    "$vref"        : "#/ckan/ksp-avc",
-	"name"         : "Time Control",
-    "abstract"     : "Slow Motion, Hyper Warp, and Rails Warp Controls",
-    "license"      : "MIT",
+    "spec_version": 1,
+    "identifier"  : "TimeControl",
+	"name"        : "Time Control",
+    "abstract"    : "Slow Motion, Hyper Warp, and Rails Warp Controls",
+    "$kref"       : "#/ckan/github/ntwest/TimeControl",
+    "$vref"       : "#/ckan/ksp-avc",
     "x_netkan_epoch": 1,
+    "license"     : "MIT",
     "resources": {
-        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/143763-113-time-control-202/"
-    }
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/143763-*"
+    },
+    "tags": [
+        "plugin",
+        "physics"
+    ]
 }

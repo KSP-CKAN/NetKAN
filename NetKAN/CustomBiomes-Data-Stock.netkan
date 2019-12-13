@@ -4,16 +4,24 @@
     "identifier"     : "CustomBiomes-Data-Stock",
     "abstract"       : "Custom biomes data for the stock Kerbol system",
     "$kref"          : "#/ckan/github/NathanKell/CustomBiomes",
-    "license"        : "CC-BY-NC-SA-3.0",
-    "release_status" : "stable",
-    "ksp_version"    : "0.90",
     "author"         : "Trueborn",
-    "depends"        : [ { "name" : "CustomBiomes" } ],
-    "provides"       : [ "CustomBiomes-Data" ],
-    "conflicts"      : [ { "name" : "CustomBiomes-Data" } ],
+    "ksp_version"    : "0.90",
+    "release_status" : "stable",
+    "license"        : "CC-BY-NC-SA-3.0",
     "resources" : {
-        "homepage" : "https://forum.kerbalspaceprogram.com/index.php?/topic/60163-090-custom-biomes-170-17-dec/"
+        "homepage" : "https://forum.kerbalspaceprogram.com/index.php?/topic/60163-*"
     },
+    "tags": [
+        "config",
+        "science"
+    ],
+    "depends"        : [
+        { "name" : "CustomBiomes" }
+    ],
+    "provides"       : [ "CustomBiomes-Data" ],
+    "conflicts"      : [
+        { "name" : "CustomBiomes-Data" }
+    ],
     "install" : [
         {
             "file"          : "CustomBiomes/PluginData/CustomBiomes",

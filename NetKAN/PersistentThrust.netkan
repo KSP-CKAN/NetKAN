@@ -1,16 +1,26 @@
 {
     "spec_version" : 1,
-    "name"         : "Persistent Thrust",
-    "abstract"     : "PersistentThrust is a plugin that allows propulsion systems to operate during timewarp. The plugin includes a new solar sail part and module that allows a spacecraft to be propelled only by sunlight. It also adds a module with a patch to the stock ion engine that allows engines to thrust during timewarp. ",
     "identifier"   : "PersistentThrust",
-    "$kref"        : "#/ckan/github/bld/PersistentThrust",
-    "license"      : "open-source",
+    "name"         : "Persistent Thrust",
+    "abstract"     : "PersistentThrust is a plugin that allows propulsion systems to operate during timewarp. The plugin includes a new solar sail part and module that allows a spacecraft to be propelled only by sunlight. It also adds a module with a patch to the stock ion engine that allows engines to thrust during timewarp.",
     "author"       : "mrsolarsail",
-    "release_status" : "development",
+    "$kref"        : "#/ckan/github/bld/PersistentThrust",
     "ksp_version"  : "1.3",
-    "resources" : { "homepage" : "https://forum.kerbalspaceprogram.com/index.php?/topic/120404-wip13-persistentthrust-v109/" },
-    "depends" : [ { "name" : "ModuleManager" } ],
-    "recommends" : [ { "name" : "SolarSailNavigator" } ],
+    "release_status": "development",
+    "license"      : "open-source",
+    "resources" : {
+        "homepage" : "https://forum.kerbalspaceprogram.com/index.php?/topic/120404-*"
+    },
+    "tags": [
+        "plugin",
+        "physics"
+    ],
+    "depends" : [
+        { "name" : "ModuleManager" }
+    ],
+    "recommends" : [
+        { "name" : "SolarSailNavigator" }
+    ],
     "install" : [
         {
             "file"       : "PersistentThrust",

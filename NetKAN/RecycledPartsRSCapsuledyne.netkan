@@ -1,33 +1,32 @@
 {
-  "spec_version": "v1.4",
-  "install": [
-    {
-      "install_to": "GameData/SpaceTuxIndustries/RecycledParts",
-      "find": "RSCapsuledyne"
-    },
-    {
-      "install_to": "Ships",
-      "find": "SPH"
-    }
-  ],
-  "depends": [
-      { "name": "ModuleManager" },
-      { "name": "BDAnimationModules" }
-  ],
-  "recommends": [
-    { "name": "CommunityTechTree" }
-  ],
- "suggests": [
+    "spec_version": "v1.4",
+    "identifier":   "RecycledPartsRSCapsuledyne",
+    "name":         "Recycled Parts RSCapsuledyne",
+    "$kref":        "#/ckan/spacedock/1507",
+    "$vref":        "#/ckan/ksp-avc",
+    "license":      "restricted",
+    "tags": [
+        "parts"
+    ],
+    "install": [ {
+        "find": "RSCapsuledyne",
+        "install_to": "GameData/SpaceTuxIndustries/RecycledParts"
+    }, {
+        "find": "SPH",
+        "install_to": "Ships"
+    } ],
+    "depends": [
+        { "name": "ModuleManager" },
+        { "name": "BDAnimationModules" }
+    ],
+    "recommends": [
+        { "name": "CommunityTechTree" }
+    ],
+    "suggests": [
         { "name": "JanitorsCloset" }
-  ],
-  "conflicts": [
-    { "name" : "RandSCapsuledyne" },
-    { "name" : "RecycledPartsRSCapsuledyne" }
-  ],
-  "$vref": "#/ckan/ksp-avc",
-  "$kref": "#/ckan/spacedock/1507",
-  "x_via": "Automated Linuxgurugamer CKAN script",
-  "identifier": "RecycledPartsRSCapsuledyne",
-  "name": "Recycled Parts RSCapsuledyne",
-  "license": "restricted"
+    ],
+    "conflicts": [
+        { "name" : "RandSCapsuledyne" },
+        { "name" : "RecycledPartsRSCapsuledyne" }
+    ]
 }

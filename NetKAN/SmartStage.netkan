@@ -1,17 +1,22 @@
 {
     "spec_version" : "v1.4",
     "identifier"   : "SmartStage",
+    "name"         : "SmartStage",
+    "abstract"     : "SmartStage attempts to find optimal staging in VAB",
     "$kref"        : "#/ckan/spacedock/1423",
     "$vref"        : "#/ckan/ksp-avc",
-    "license"      : "GPL-3.0",
     "x_netkan_epoch": 1,
+    "license"      : "GPL-3.0",
+    "resources" : {
+        "homepage" : "https://forum.kerbalspaceprogram.com/index.php?/topic/162460-*"
+    },
+    "tags": [
+        "plugin",
+        "editor",
+        "convenience"
+    ],
     "depends": [
         { "name" : "ToolbarController" },
-	{ "name" : "ClickThroughBlocker" }
-    ],
-    "abstract"     : "SmartStage attempts to find optimal staging in VAB",
-    "name"         : "SmartStage",
-    "resources" : {
-        "homepage" : "https://forum.kerbalspaceprogram.com/index.php?/topic/162460-141-smartstage-intelligent-vab-reset-button/"
-    }
+        { "name" : "ClickThroughBlocker" }
+    ]
 }
