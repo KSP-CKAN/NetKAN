@@ -1,23 +1,22 @@
 {
-  "spec_version": "v1.4",
-  "install": [
-    {
-      "install_to": "GameData",
-      "find": "CCTV"
-    }
-  ],
-  "depends": [
-    {
-      "name": "JSIPartUtilities"
-    },
-    {
-      "name": "ModuleManager"
-    }
-  ],
-  "suggests": [ { "name": "HullcamVDSContinued" } ],  
-  "$vref": "#/ckan/ksp-avc",
-  "$kref": "#/ckan/spacedock/1414",
-  "x_via": "Automated Linuxgurugamer CKAN script",
-  "identifier": "CCTV",
-  "license": "CC-BY-NC-SA-4.0"
+    "spec_version": "v1.4",
+    "identifier":   "CCTV",
+    "$vref":        "#/ckan/ksp-avc",
+    "$kref":        "#/ckan/spacedock/1414",
+    "license":      "CC-BY-NC-SA-4.0",
+    "tags": [
+        "plugin",
+        "parts"
+    ],
+    "install": [ {
+        "find": "CCTV",
+        "install_to": "GameData"
+    } ],
+    "suggests": [
+        { "name": "HullcamVDSContinued" }
+    ],
+    "depends": [
+        { "name": "JSIPartUtilities" },
+        { "name": "ModuleManager" }
+    ]
 }

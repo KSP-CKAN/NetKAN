@@ -7,17 +7,20 @@
     "resources": {
         "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/184038-*"
     },
+    "tags": [
+        "plugin",
+        "information"
+    ],
     "depends": [
-        { "name": "ModuleManager"},
-        { "name" : "ToolbarController" },
-        { "name" : "ClickThroughBlocker" }
+        { "name": "ModuleManager" },
+        { "name": "ToolbarController" },
+        { "name": "ClickThroughBlocker" }
     ],
     "conflicts" : [
-        { "name" : "DockingcameraKURSstyle" }
+        { "name": "DockingcameraKURSstyle" }
     ],
     "install": [ {
         "find":       "DockingCamKURS",
         "install_to": "GameData"
-    } ],
-    "x_via": "Automated Linuxgurugamer CKAN script"
+    } ]
 }

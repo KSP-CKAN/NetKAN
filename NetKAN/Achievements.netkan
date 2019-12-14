@@ -1,18 +1,19 @@
 {
     "spec_version" : "v1.4",
     "identifier"   : "Achievements",
+    "name"         : "KSP Achievements",
+    "abstract"     : "145 Achievements you can get playing Kerbal Space Program.",
     "$kref"        : "#/ckan/github/malkuth1974/Achievements",
     "$vref"        : "#/ckan/ksp-avc",
     "license"      : "GPL-3.0",
-    "name"         : "KSP Achievements",
-    "abstract"     : "145 Achievements you can get playing Kerbal Space Program.",
-    "resources"    :
-    {
-        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/91806-ksp-achievements-1942-ksp-141-3142018/",
+    "resources"    : {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/91806-*",
         "repository": "https://github.com/malkuth1974/Achievements"
     },
-    "install"      :
-    [
+    "tags"         : [
+        "plugin"
+    ],
+    "install"      : [
         {
             "find": "Achievements",
             "install_to": "GameData"

@@ -3,12 +3,16 @@
     "identifier":   "MOISTUnderwaterTechnologies",
     "$kref":        "#/ckan/spacedock/1717",
     "license":      "MIT",
-    "x_via":        "Automated SpaceDock CKAN submission",
+    "tags": [
+        "parts"
+    ],
     "depends": [
-        { "name": "CommunityResourcePack" }
+        { "name": "CommunityResourcePack" },
+        { "name": "SinkEmAll" }
     ],
     "install": [ {
         "find":       "JDSA",
-        "install_to": "GameData"
+        "install_to": "GameData",
+        "filter":     [ "CommunityResourcePack", "SinkEmAll" ]
     } ]
 }

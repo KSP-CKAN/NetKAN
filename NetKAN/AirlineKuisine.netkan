@@ -1,22 +1,21 @@
 {
-  "spec_version": "v1.4",
-  "install": [
-    {
-      "filter_regexp": [
-        ".*\\.pdb$"
-      ],
-      "install_to": "GameData",
-      "find": "DeepSky"
-    }
-  ],
-  "depends": [
-    { "name": "ModuleManager" },
-    { "name": "DeepSkyCore" },
-    { "name": "B9PartSwitch" }
-  ],
-  "$vref": "#/ckan/ksp-avc",
-  "$kref": "#/ckan/spacedock/1252",
-  "x_via": "Automated Linuxgurugamer CKAN script",
-  "identifier": "AirlineKuisine",
-  "license": "CC-BY-NC-SA-4.0"
+    "spec_version": "v1.4",
+    "identifier":   "AirlineKuisine",
+    "$kref":        "#/ckan/spacedock/1252",
+    "$vref":        "#/ckan/ksp-avc",
+    "license":      "CC-BY-NC-SA-4.0",
+    "tags": [
+        "parts",
+        "manned"
+    ],
+    "install": [ {
+        "find": "DeepSky",
+        "install_to": "GameData",
+        "filter_regexp": [ ".*\\.pdb$" ]
+    } ],
+    "depends": [
+        { "name": "ModuleManager" },
+        { "name": "DeepSkyCore" },
+        { "name": "B9PartSwitch" }
+    ]
 }

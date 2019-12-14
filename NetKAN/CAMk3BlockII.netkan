@@ -4,6 +4,9 @@
     "$kref":        "#/ckan/spacedock/1513",
     "x_netkan_epoch": 1,
     "license":      "CC-BY-NC-ND-4.0",
+    "tags": [
+        "parts"
+    ],
     "depends": [
         { "name": "ShuttleLiftingBodyCormorantAeronology" }
     ],
@@ -13,6 +16,5 @@
             "install_to": "GameData",
             "filter":     "Localizations"
         }
-    ],
-    "x_via": "Automated SpaceDock CKAN submission"
+    ]
 }

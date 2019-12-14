@@ -3,6 +3,10 @@
     "identifier":   "NewHorizonsVisualEnhancements",
     "$kref":        "#/ckan/spacedock/1908",
     "license":      "public-domain",
+    "tags": [
+        "config",
+        "graphics"
+    ],
     "install": [ {
         "find":       "NHVE",
         "install_to": "GameData"

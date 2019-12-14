@@ -3,6 +3,9 @@
     "identifier":   "DecalStickers",
     "$kref":        "#/ckan/spacedock/1108",
     "license":      "GPL-1.0",
+    "tags": [
+        "plugin"
+    ],
     "install": [ {
         "find":       "blackheart",
         "install_to": "GameData"

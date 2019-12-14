@@ -1,14 +1,15 @@
 {
-  "spec_version": "v1.4",
-  "install": [
-    {
-      "install_to": "GameData",
-      "find": "OpenCockpit"
-    }
-  ],
-  "$kref": "#/ckan/spacedock/1126",
-  "x_netkan_epoch": 1,
-  "x_via": "Automated Linuxgurugamer CKAN script",
-  "identifier": "MK1StkOpenCockpit",
-  "license": "MIT"
+    "spec_version": "v1.4",
+    "identifier":   "MK1StkOpenCockpit",
+    "$kref":        "#/ckan/spacedock/1126",
+    "x_netkan_epoch": 1,
+    "license":      "MIT",
+    "tags": [
+        "parts",
+        "manned"
+    ],
+    "install": [ {
+        "find": "OpenCockpit",
+        "install_to": "GameData"
+    } ]
 }

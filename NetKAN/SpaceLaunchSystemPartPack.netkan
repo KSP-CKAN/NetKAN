@@ -3,6 +3,9 @@
     "identifier":   "SpaceLaunchSystemPartPack",
     "$kref":        "#/ckan/spacedock/325",
     "license":      "GPL-3.0",
+    "tags": [
+        "parts"
+    ],
     "recommends": [
         { "name": "HangarExtender"           },
         { "name": "KerbalJointReinforcement" },
