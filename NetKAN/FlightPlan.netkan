@@ -1,12 +1,15 @@
 {
-    "x_via": "Automated SpaceDock CKAN submission",
-    "license": "GPL-3.0",
-    "identifier": "FlightPlan",
-    "$kref": "#/ckan/spacedock/1058",
     "spec_version": "v1.4",
+    "identifier":   "FlightPlan",
+    "$kref":        "#/ckan/spacedock/1058",
+    "license":      "GPL-3.0",
+    "tags": [
+        "plugin",
+        "information"
+    ],
     "depends": [
         { "name": "UICore" },
         { "name": "ToolbarController" },
-        { "name" : "ClickThroughBlocker" }
+        { "name": "ClickThroughBlocker" }
     ]
 }

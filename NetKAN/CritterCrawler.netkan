@@ -1,18 +1,18 @@
 {
-  "spec_version": "v1.4",
-  "install": [
-    {
-      "install_to": "GameData",
-      "find": "BahaSP"
-    }
-  ],
-  "depends": [
-    { "name": "KSPWheel" },
-    { "name": "BDAnimationModules" }
-  ],
-  "$vref": "#/ckan/ksp-avc",
-  "$kref": "#/ckan/spacedock/1641",
-  "x_via": "Automated Linuxgurugamer CKAN script",
-  "identifier": "CritterCrawler",
-  "license": "CC-BY-SA"
+    "spec_version": "v1.4",
+    "identifier":   "CritterCrawler",
+    "$kref":        "#/ckan/spacedock/1641",
+    "$vref":        "#/ckan/ksp-avc",
+    "license":      "CC-BY-SA",
+    "tags": [
+        "parts"
+    ],
+    "install": [ {
+        "find": "BahaSP",
+        "install_to": "GameData"
+    } ],
+    "depends": [
+        { "name": "KSPWheel" },
+        { "name": "BDAnimationModules" }
+    ]
 }

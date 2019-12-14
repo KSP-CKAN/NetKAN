@@ -1,14 +1,18 @@
 {
     "spec_version": "v1.26",
-    "name": "Pood's Deep Star Map Skybox",
-    "abstract": "Skybox of our night sky made using reference images from the Bright Star, Tycho-2, and UCAC3 star catalogs. This provides a very nice constant star coverage across the whole 360 degrees in the x, y and z planes.",
-    "author": "Poodmund",
-    "identifier": "PoodsDeepStarMap",
-    "$kref": "#/ckan/spacedock/925",
-    "license": "CC-BY-NC-ND-4.0",
+    "identifier":   "PoodsDeepStarMap",
+    "name":         "Pood's Deep Star Map Skybox",
+    "abstract":     "Skybox of our night sky made using reference images from the Bright Star, Tycho-2, and UCAC3 star catalogs. This provides a very nice constant star coverage across the whole 360 degrees in the x, y and z planes.",
+    "author":       "Poodmund",
+    "$kref":        "#/ckan/spacedock/925",
+    "license":      "CC-BY-NC-ND-4.0",
     "resources": {
         "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/169919-1"
     },
+    "tags": [
+        "config",
+        "graphics"
+    ],
     "provides": [
         "Skybox"
     ],

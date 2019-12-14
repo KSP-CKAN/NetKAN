@@ -2,5 +2,8 @@
     "spec_version": "v1.4",
     "identifier": "Olympic1ARPIcons",
     "$kref": "#/ckan/netkan/https://raw.githubusercontent.com/Olympic1/Icon_Packs_KSP/master/Olympic1ARPIcons.netkan",
-    "x_netkan_license_ok": true
+    "x_netkan_license_ok": true,
+    "tags": [
+        "plugin"
+    ]
 }

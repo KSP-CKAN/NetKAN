@@ -10,6 +10,11 @@
     "resources": {
         "homepage": "http://forum.kerbalspaceprogram.com/index.php?showtopic=160268"
     },
+    "tags": [
+        "plugin",
+        "manned",
+        "convenience"
+    ],
     "install": [
         {
             "file": "GameData/AirlockPlus",
@@ -21,7 +26,7 @@
             "install_to": "GameData/AirlockPlus"
         }
     ],
-    "x_netkan_override": [{
+    "x_netkan_override": [ {
         "version": "<=v0.0.10",
         "override": {
             "install": [
@@ -31,7 +36,7 @@
                 }
             ]
         }
-    }],
+    } ],
     "depends": [
         { "name": "ModuleManager" }
     ],

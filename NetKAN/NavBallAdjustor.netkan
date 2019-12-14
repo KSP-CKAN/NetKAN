@@ -1,7 +1,10 @@
 {
-    "$kref": "#/ckan/spacedock/704",
     "spec_version": "v1.4",
-    "identifier": "NavBallAdjustor",
-    "x_via": "Automated SpaceDock CKAN submission",
-    "license": "GPL-3.0"
+    "identifier":   "NavBallAdjustor",
+    "$kref":        "#/ckan/spacedock/704",
+    "license":      "GPL-3.0",
+    "tags": [
+        "plugin",
+        "information"
+    ]
 }

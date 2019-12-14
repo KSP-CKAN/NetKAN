@@ -1,8 +1,11 @@
 {
     "spec_version": 1,
-    "identifier": "WernhersOldBits",
-    "$kref": "#/ckan/spacedock/42",
-    "license": "MIT",
+    "identifier":   "WernhersOldBits",
+    "$kref":        "#/ckan/spacedock/42",
+    "license":      "MIT",
+    "tags": [
+        "parts"
+    ],
     "depends": [
         { "name": "ModuleManager" }
     ],

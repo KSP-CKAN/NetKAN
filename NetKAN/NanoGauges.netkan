@@ -4,6 +4,10 @@
     "$kref"        : "#/ckan/spacedock/581",
     "$vref"        : "#/ckan/ksp-avc",
     "license"      : "CC-BY-SA-3.0",
+    "tags": [
+        "plugin",
+        "information"
+    ],
     "install": [
         {
             "find"          : "NanoGauges",
