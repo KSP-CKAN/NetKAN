@@ -7,8 +7,12 @@
     "license"      : "CC-BY-4.0",
     "ksp_version"  : "1.0.4",
     "resources": {
-        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/111065-beta-merills-plugins-partupgrade-obsoleteparts-enginecooler-noseconewithtank/"
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/111065-*"
     },
+    "tags": [
+        "plugin",
+        "tech-tree"
+    ],
     "install": [
         {
             "file"       : "GameData",

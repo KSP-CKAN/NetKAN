@@ -3,7 +3,9 @@
     "identifier":   "ThorTech",
     "$kref":        "#/ckan/spacedock/1620",
     "license":      "CC-BY-NC-SA-4.0",
-    "x_via":        "Automated SpaceDock CKAN submission",
+    "tags": [
+        "parts"
+    ],
     "depends": [
         { "name": "B9PartSwitch"          },
         { "name": "CommunityResourcePack" },

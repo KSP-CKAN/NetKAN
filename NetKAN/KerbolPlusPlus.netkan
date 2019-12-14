@@ -3,7 +3,10 @@
     "identifier":   "KerbolPlusPlus",
     "$kref":        "#/ckan/spacedock/1732",
     "license":      "MIT",
-    "x_via":        "Automated SpaceDock CKAN submission",
+    "tags": [
+        "config",
+        "planet-pack"
+    ],
     "install": [ {
         "find":       "Kerbol++",
         "install_to": "GameData"

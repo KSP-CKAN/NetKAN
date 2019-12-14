@@ -1,14 +1,18 @@
 {
     "spec_version": "v1.26",
-    "name": "Pood's Calm Nebula Skybox",
-    "abstract": "Skybox that presents the Kerbal Solar System within a sparse Nebula. Features a subtle Galaxy star-line and patches of Pink/Blue Nebula proto-Star fields. To the polar South a very energetic solar nursery can be seen.",
-    "author": "Poodmund",
-    "identifier": "PoodsCalmNebulaSkybox",
-    "$kref": "#/ckan/spacedock/924",
-    "license": "CC-BY-NC-ND-4.0",
+    "identifier":   "PoodsCalmNebulaSkybox",
+    "name":         "Pood's Calm Nebula Skybox",
+    "abstract":     "Skybox that presents the Kerbal Solar System within a sparse Nebula. Features a subtle Galaxy star-line and patches of Pink/Blue Nebula proto-Star fields. To the polar South a very energetic solar nursery can be seen.",
+    "author":       "Poodmund",
+    "$kref":        "#/ckan/spacedock/924",
+    "license":      "CC-BY-NC-ND-4.0",
     "resources": {
         "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/169919-1"
     },
+    "tags": [
+        "config",
+        "graphics"
+    ],
     "provides": [
         "Skybox"
     ],

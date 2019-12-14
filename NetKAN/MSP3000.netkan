@@ -7,6 +7,10 @@
     "resources": {
         "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/172457-*"
     },
+    "tags": [
+        "parts",
+        "science"
+    ],
     "depends": [
         { "name": "ModuleManager" }
     ]

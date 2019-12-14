@@ -1,15 +1,18 @@
 {
     "spec_version": 1,
-    "identifier": "SMURFF",
-    "$kref": "#/ckan/github/Kerbas-ad-astra/SMURFF",
-    "$vref": "#/ckan/ksp-avc",
+    "identifier":   "SMURFF",
+    "name":         "SMURFF",
+    "abstract":     "Brings fuel mass fractions closer to reality, while staying simple.",
+    "$kref":        "#/ckan/github/Kerbas-ad-astra/SMURFF",
+    "$vref":        "#/ckan/ksp-avc",
     "x_netkan_version_edit": "^[vV]?(?<version>.+)$",
-    "name": "SMURFF",
-    "abstract": "Brings fuel mass fractions closer to reality, while staying simple.",
-    "license": "Apache-2.0",
+    "license":      "Apache-2.0",
     "resources": {
         "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/117992-*"
     },
+    "tags": [
+        "config"
+    ],
     "depends": [
         { "name": "ModuleManager", "min_version": "2.6.16" }
     ],
