@@ -1,14 +1,20 @@
 {
     "spec_version" : 1,
+    "identifier"   : "SolarSailNavigator",
     "name"         : "Solar Sail Navigator",
     "abstract"     : "SolarSailNavigator is a new plugin (ALPHA: you have been warned) to navigate continuous thrust spacecraft with sunlight-propelled solar sails and ion engines. The sail model and force models are derived from KSP Interstellar. The goal of this plugin is to make solar sailing and continuous thrust engines a practical means of travel throughout the KSP solar system.",
-    "identifier"   : "SolarSailNavigator",
-    "$kref"        : "#/ckan/github/bld/SolarSailNavigator",
-    "license"      : "LGPL-2.1",
     "author"       : "mrsolarsail",
-    "release_status" : "development",
+    "$kref"        : "#/ckan/github/bld/SolarSailNavigator",
     "ksp_version"  : "1.4",
-    "resources" : { "homepage" : "https://forum.kerbalspaceprogram.com/index.php?/topic/107676-wip13-solarsailnavigator-v109/" },
+    "release_status" : "development",
+    "license"      : "LGPL-2.1",
+    "resources" : {
+        "homepage" : "https://forum.kerbalspaceprogram.com/index.php?/topic/107676-*"
+    },
+    "tags": [
+        "plugin",
+        "parts"
+    ],
     "depends": [
         { "name": "PersistentThrust" },
         { "name": "ModuleManager" }

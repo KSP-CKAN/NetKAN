@@ -1,15 +1,18 @@
 {
     "spec_version": "v1.4",
-    "identifier": "ATKPropulsionPack",
-    "license": "restricted",
-    "$kref": "#/ckan/spacedock/404",
+    "identifier":   "ATKPropulsionPack",
+    "$kref":        "#/ckan/spacedock/404",
+    "license":      "restricted",
+    "tags": [
+        "parts"
+    ],
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/115288-*"
+    },
     "install": [
         {
             "find": "ATK_Propulsion_Pack",
             "install_to": "GameData"
         }
-    ],
-    "resources": {
-        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/115288-*"
-    }
+    ]
 }

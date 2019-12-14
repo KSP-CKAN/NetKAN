@@ -1,17 +1,21 @@
 {
     "spec_version"  : "v1.4",
     "identifier"    : "NewHorizons",
-    "x_netkan_epoch": "1",
-    "$kref"         : "#/ckan/github/KillAshley/New_Horizons",
     "name"          : "New Horizons",
     "abstract"      : "Rearranges the stock system and introduces 19 more bodies to visit and explore.",
-    "license"       : "CC-BY-NC-SA-4.0",
     "author"        : "KillAshley",
+    "$kref"         : "#/ckan/github/KillAshley/New_Horizons",
+    "ksp_version"   : "1.3",
+    "x_netkan_epoch": "1",
     "release_status": "stable",
+    "license"       : "CC-BY-NC-SA-4.0",
     "resources": {
-        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/102776-nh/"
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/102776-*"
     },
-    "ksp_version": "1.3.0",
+    "tags": [
+        "config",
+        "planet-pack"
+    ],
     "depends": [
         { "name": "ModuleManager" },
         { "name": "Kopernicus", "min_version": "2:release-1.3.0-2" }

@@ -1,13 +1,16 @@
 {
-  "spec_version": "v1.4",
-  "install": [
-    {
-      "install_to": "GameData",
-      "find": "KrakenScience"
-    }
-  ],
-  "$kref": "#/ckan/spacedock/905",
-  "x_via": "Automated Linuxgurugamer CKAN script",
-  "identifier": "KrakenScience",
-  "license": "CC-BY-NC-ND-4.0"
+    "spec_version": "v1.4",
+    "identifier":   "KrakenScience",
+    "$kref":        "#/ckan/spacedock/905",
+    "license":      "CC-BY-NC-ND-4.0",
+    "tags": [
+        "parts",
+        "science",
+        "unmanned",
+        "career"
+    ],
+    "install": [ {
+        "find": "KrakenScience",
+        "install_to": "GameData"
+    } ]
 }

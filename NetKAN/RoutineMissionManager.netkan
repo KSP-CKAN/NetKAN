@@ -1,8 +1,13 @@
 {
     "spec_version": 1,
-    "identifier": "RoutineMissionManager",
-    "$kref": "#/ckan/spacedock/362",
-    "license": "BSD-3-clause",
+    "identifier":   "RoutineMissionManager",
+    "$kref":        "#/ckan/spacedock/362",
+    "license":      "BSD-3-clause",
+    "tags": [
+        "plugin",
+        "career",
+        "convenience"
+    ],
     "install": [
         {
             "file"          : "GameData/RoutineMissionManager",

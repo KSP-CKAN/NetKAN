@@ -1,9 +1,11 @@
 {
     "spec_version": "v1.4",
-    "$kref": "#/ckan/spacedock/1016",
-    "x_via": "Automated SpaceDock CKAN submission",
-    "identifier": "PortugueseTranslation",
-    "license": "MIT",
+    "identifier":   "PortugueseTranslation",
+    "$kref":        "#/ckan/spacedock/1016",
+    "license":      "MIT",
+    "tags": [
+        "config"
+    ],
     "depends": [
         { "name": "ModuleManager" }
     ],

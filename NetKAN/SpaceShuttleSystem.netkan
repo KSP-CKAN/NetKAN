@@ -1,8 +1,12 @@
 {
     "spec_version": "v1.4",
-    "identifier": "SpaceShuttleSystem",
-    "$kref": "#/ckan/spacedock/1178",
-    "license": "GPL-2.0",
+    "identifier":   "SpaceShuttleSystem",
+    "$kref":        "#/ckan/spacedock/1178",
+    "license":      "GPL-2.0",
+    "tags": [
+        "parts",
+        "manned"
+    ],
     "depends": [
         { "name": "ASETAvionics" },
         { "name": "CommunityResourcePack" },
