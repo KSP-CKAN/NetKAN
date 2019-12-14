@@ -1,5 +1,18 @@
 {
     "spec_version": "v1.4",
+    "identifier":   "Rescale-25",
+    "name":         "Rescale x2.5",
+    "abstract":     "This is the most comprehensive set of Sigma Dimensions configs available for KSP. Works for stock and all planet packs.",
+    "$kref":        "#/ckan/github/Galileo88/Rescale/asset_match/RESCALE_2.5.zip",
+    "$vref":        "#/ckan/ksp-avc",
+    "license":      "public-domain",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/163965-*"
+    },
+    "tags": [
+        "config",
+        "planet-pack"
+    ],
     "install": [
         {
             "file": "GameData/RESCALE",
@@ -7,36 +20,15 @@
         }
     ],
     "depends": [
-        {
-            "name": "SigmaDimensions"
-        }
+        { "name": "SigmaDimensions" }
     ],
     "recommends": [
-		{
-            "name": "Kronometer"
-        }
+		{ "name": "Kronometer" }
     ],
     "conflicts": [
-        {
-            "name": "Rescale-32"
-        },
-        {
-            "name": "Rescale-64"
-        },
-        {
-            "name": "Rescale-10"
-        },
-        {
-            "name": "Rescale-10625"
-        }
-    ],
-    "resources": {
-        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/163965-131-rescale-comprehensive-sd-configs-1027-10-oct-2017/"
-    },
-    "$vref": "#/ckan/ksp-avc",
-    "$kref": "#/ckan/github/Galileo88/Rescale/asset_match/RESCALE_2.5.zip",
-    "name": "Rescale x2.5",
-    "identifier": "Rescale-25",
-    "abstract": "This is the most comprehensive set of Sigma Dimensions configs available for KSP. Works for stock and all planet packs.",
-    "license": "public-domain"
+        { "name": "Rescale-32" },
+        { "name": "Rescale-64" },
+        { "name": "Rescale-10" },
+        { "name": "Rescale-10625" }
+    ]
 }

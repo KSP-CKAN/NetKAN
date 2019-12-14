@@ -1,9 +1,13 @@
 {
-    "identifier": "ScienceRevisitedRevisited",
-    "author": [ "Zekew11", "CaptRobau" ],
     "spec_version": "v1.4",
-    "$kref": "#/ckan/spacedock/317",
-    "license": "CC-BY-NC-SA-2.0",
+    "identifier":   "ScienceRevisitedRevisited",
+    "author":       [ "Zekew11", "CaptRobau" ],
+    "$kref":        "#/ckan/spacedock/317",
+    "license":      "CC-BY-NC-SA-2.0",
+    "tags": [
+        "config",
+        "science"
+    ],
     "depends": [
         { "name": "ModuleManager" }
     ],

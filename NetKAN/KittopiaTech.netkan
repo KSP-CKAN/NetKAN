@@ -1,11 +1,8 @@
 {
     "spec_version"  : "v1.4",
     "identifier"    : "KittopiaTech",
-    "$kref"         : "#/ckan/github/Kopernicus/KittopiaTech-Legacy",
     "name"          : "KittopiaTech",
     "abstract"      : "A Kopernicus visual editor for ingame planet editing and exporting.",
-    "release_status": "development",
-    "license"       : "LGPL-3.0",
     "author": [
         "Thomas P.",
         "BorisBee",
@@ -14,10 +11,16 @@
         "Gravitasi",
         "joedavis"
     ],
+    "$kref"         : "#/ckan/github/Kopernicus/KittopiaTech-Legacy",
+    "ksp_version"   : "1.3",
+    "release_status": "development",
+    "license"       : "LGPL-3.0",
     "resources": {
-        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/140581-kittopia/"
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/140581-*"
     },
-    "ksp_version": "1.3.0",
+    "tags": [
+        "plugin"
+    ],
     "depends": [
         { "name" : "Kopernicus", "min_version": "2:release-1.2.0-1" }
     ],
