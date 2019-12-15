@@ -10,10 +10,8 @@
     "tags": [
         "parts"
     ],
-    "depends": [
-        { "name": "FAR" }
-    ],
     "suggests"     : [
+        { "name": "FAR" },
         { "name": "EntropyRealChute" },
         { "name": "ModuleManager" }
     ],
