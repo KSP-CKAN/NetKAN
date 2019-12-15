@@ -1,14 +1,18 @@
 {
     "spec_version" : 1,
     "identifier"   : "PAPIPluginContinued",
-    "$kref"        : "#/ckan/github/bssthu/PAPIPlugin",
-    "$vref"        : "#/ckan/ksp-avc",
     "name"         : "PAPIPlugin Continued",
     "abstract"     : "Adds PAPI arrays to the runway to aid landing",
+    "$kref"        : "#/ckan/github/bssthu/PAPIPlugin",
+    "$vref"        : "#/ckan/ksp-avc",
     "license"      : "MIT",
     "resources"    : {
-        "homepage" : "https://forum.kerbalspaceprogram.com/index.php?/topic/101446-wip12papiplugin-continued-v048-2016-10-14/"
+        "homepage" : "https://forum.kerbalspaceprogram.com/index.php?/topic/101446-*"
     },
+    "tags"         : [
+        "plugin",
+        "information"
+    ],
     "install"      : [
         {
             "file"          : "GameData/PAPIPlugin",

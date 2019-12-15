@@ -1,8 +1,11 @@
 {
     "spec_version": 1,
-    "license": "CC0",
-    "$kref": "#/ckan/spacedock/338",
-    "identifier": "BZ1RadialAttachmentPoint",
+    "identifier":   "BZ1RadialAttachmentPoint",
+    "$kref":        "#/ckan/spacedock/338",
+    "license":      "CC0",
+    "tags": [
+        "parts"
+    ],
     "install": [
         {
             "file"       : "BZ-1",

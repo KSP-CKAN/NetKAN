@@ -1,7 +1,11 @@
 {
-    "license": "GPL-3.0",
-    "$kref": "#/ckan/spacedock/825",
     "spec_version": "v1.4",
-    "identifier": "WhoAmI",
-    "x_via": "Automated SpaceDock CKAN submission"
+    "identifier":   "WhoAmI",
+    "$kref":        "#/ckan/spacedock/825",
+    "license":      "GPL-3.0",
+    "tags": [
+        "plugin",
+        "information",
+        "manned"
+    ]
 }

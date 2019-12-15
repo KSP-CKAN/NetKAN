@@ -5,16 +5,20 @@
     "$vref"        : "#/ckan/ksp-avc",
     "license"      : "CC-BY-NC-SA-4.0",
     "resources" : {
-        "homepage"     : "https://forum.kerbalspaceprogram.com/index.php?/topic/121162-*"
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/121162-*"
     },
-    "suggests"     : [
-           { "name": "FerramAerospaceResearch" },
-           { "name": "EntropyRealChute" },
-           { "name": "ModuleManager" }
+    "tags": [
+        "parts"
     ],
-    "install": [
-           { "find": "KermangeddonIndustries",
-             "install_to" : "GameData"
-           }
-    ]
+    "depends": [
+        { "name": "FAR" }
+    ],
+    "suggests"     : [
+        { "name": "EntropyRealChute" },
+        { "name": "ModuleManager" }
+    ],
+    "install": [ {
+        "find": "KermangeddonIndustries",
+        "install_to" : "GameData"
+    } ]
 }

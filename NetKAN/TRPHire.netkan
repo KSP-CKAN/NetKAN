@@ -1,15 +1,18 @@
 {
-  "spec_version": "v1.4",
-  "install": [
-    {
-      "install_to": "GameData",
-      "find": "TRP-Hire"
-    }
-  ],
-  "recommends": [ { "name": "CommunityTraitIcons" } ],
-  "$vref": "#/ckan/ksp-avc",
-  "$kref": "#/ckan/spacedock/777",
-  "x_via": "Automated Linuxgurugamer CKAN script",
-  "identifier": "TRPHire",
-  "license": "MIT"
+    "spec_version": "v1.4",
+    "identifier":   "TRPHire",
+    "$kref":        "#/ckan/spacedock/777",
+    "$vref":        "#/ckan/ksp-avc",
+    "license":      "MIT",
+    "tags": [
+        "plugin",
+        "manned"
+    ],
+    "install": [ {
+        "find": "TRP-Hire",
+        "install_to": "GameData"
+    } ],
+    "recommends": [
+        { "name": "CommunityTraitIcons" }
+    ]
 }

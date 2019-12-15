@@ -4,6 +4,10 @@
     "$kref":        "#/ckan/spacedock/821",
     "x_netkan_epoch": 1,
     "license":      "GPL-2.0",
+    "tags": [
+        "plugin",
+        "parts"
+    ],
     "depends" : [
         { "name" : "CommunityResourcePack" },
         { "name" : "ModuleManager" }

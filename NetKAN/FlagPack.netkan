@@ -2,16 +2,19 @@
     "spec_version" : "v1.4",
     "identifier"   : "FlagPack",
     "$kref"        : "#/ckan/github/willwill2will54/Flag-Pack",
-    "license"      : "CC-BY-4.0",
+    "x_netkan_force_v": true,
     "ksp_version"  : "any",
+    "license"      : "CC-BY-4.0",
     "resources": {
         "homepage": "https://github.com/willwill2will54/Flag-Pack/"
     },
+    "tags": [
+        "config"
+    ],
     "install": [
         {
             "find": "FlagPack",
             "install_to": "GameData"
         }
-    ],
-    "x_netkan_force_v": true
+    ]
 }
