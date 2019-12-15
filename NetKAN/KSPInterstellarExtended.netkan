@@ -21,9 +21,6 @@
         {
             "find"      : "GameData/WarpPlugin",
             "install_to": "GameData"
-        }, {
-            "find"      : "InterstellarHybridRocketry",
-            "install_to": "GameData"
         }
     ],
     "depends": [
