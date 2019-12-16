@@ -1,15 +1,19 @@
 {
     "spec_version": "v1.4",
-    "identifier": "QuarterRSS",
-    "$kref": "#/ckan/github/pap1723/Quarter-RSS/asset_match/Quarter-RSS-v.*.zip",
-    "$vref": "#/ckan/ksp-avc",
-    "name": "Quarter Size Real Solar System",
-    "author": [ "pap1723" ],
-    "abstract": "QuarterRSS is a mod that uses the great work from NathanKell and creates our Real Solar System at 1/4 the size. QuarterRSS is still 2.5 times larger than stock KSP and provides a huge challenge to players, but can be achieved with stock parts.",
-    "license": "CC-BY-NC-SA",
+    "identifier":   "QuarterRSS",
+    "name":         "Quarter Size Real Solar System",
+    "author":       "pap1723",
+    "abstract":     "QuarterRSS is a mod that uses the great work from NathanKell and creates our Real Solar System at 1/4 the size. QuarterRSS is still 2.5 times larger than stock KSP and provides a huge challenge to players, but can be achieved with stock parts.",
+    "$kref":        "#/ckan/github/pap1723/Quarter-RSS/asset_match/Quarter-RSS-v.*.zip",
+    "$vref":        "#/ckan/ksp-avc",
+    "license":      "CC-BY-NC-SA",
     "resources": {
-        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/160191-122-quarter-size-rss-v10/"
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/160191-*"
     },
+    "tags": [
+        "config",
+        "planet-pack"
+    ],
     "depends": [
         { "name": "ModularFlightIntegrator" },
         { "name": "ModuleManager" },

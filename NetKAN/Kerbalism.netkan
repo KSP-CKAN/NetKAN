@@ -2,7 +2,7 @@
     "spec_version": "v1.18",
     "identifier":   "Kerbalism",
     "abstract":     "Add life support, quality-of-life, radiation, malfunctions, signals and space weather mechanics.",
-    "author":       ["Kerbalism Contributors"],
+    "author":       "Kerbalism Contributors",
     "$kref":        "#/ckan/github/Kerbalism/Kerbalism/asset_match/Kerbalism-Core*",
     "$vref":        "#/ckan/ksp-avc",
     "license":      "Unlicense",

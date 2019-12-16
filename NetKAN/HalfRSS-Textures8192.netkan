@@ -1,16 +1,15 @@
 {
     "spec_version": "v1.4",
-    "identifier": "HalfRSS-Textures8192",
-    "$kref": "#/ckan/github/pap1723/ScaledRSS-Textures/asset_match/HalfRSS-Textures8192",
-    "name": "Half Size Real Solar System Textures - 8192 x 4096",
-    "author": [ "pap1723" ],
-    "abstract": "HalfRSS textures for HalfRSS",
-    "license": "CC-BY-NC-SA",
+    "identifier":   "HalfRSS-Textures8192",
+    "name":         "Half Size Real Solar System Textures - 8192 x 4096",
+    "abstract":     "HalfRSS textures for HalfRSS",
+    "author":       "pap1723",
+    "$kref":        "#/ckan/github/pap1723/ScaledRSS-Textures/asset_match/HalfRSS-Textures8192",
+    "license":      "CC-BY-NC-SA",
     "resources": {
-        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/142336-113-half-size-rss-v10/"
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/142336-*"
     },
-    "ksp_version_min": "1.1.0",
-    "ksp_version_max": "1.2.99",
+    "ksp_version": "any",
     "tags": [
         "config",
         "graphics"

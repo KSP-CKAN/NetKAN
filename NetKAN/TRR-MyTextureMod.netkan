@@ -1,29 +1,32 @@
 {
-	"spec_version": "v1.4",
-	"$kref": "#/ckan/github/HaArLiNsH/TRR_MyTextureMod",
-	"identifier": "TRR-MyTextureMod",
-	"release_status": "testing",
-	"$vref": "#/ckan/ksp-avc",
-	"author": ["HaArLiNsH"],
-	"abstract": "A clean and empty Custom folder for your textures , ready to use with TextureReplacerReplaced",
-	"license": "MIT",
-	"resources": 	{
-							"homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/161898-*",
-							"repository": "https://github.com/HaArLiNsH/TRR_MyTextureMod"
-						},
-	"provides": ["TRR-MyTextureMod"],
-	"conflicts": [ { "name": "TextureReplacer" } ],
-	"install"  : [
-						{
-							"find"       : "TRR_MyTextureMod",
-							"install_to" : "GameData"
-						}
-					],
-	"depends" : 	[
-							{ "name" : "ModuleManager"	},
-							{ "name" : "TextureReplacerReplaced" }
-						],
-	"suggests" : 	[							
-							{ "name" : "TRRGuide" }							
-						]
+    "spec_version": "v1.4",
+    "identifier":   "TRR-MyTextureMod",
+    "abstract":     "A clean and empty Custom folder for your textures, ready to use with TextureReplacerReplaced",
+    "author":       "HaArLiNsH",
+    "$kref":        "#/ckan/github/HaArLiNsH/TRR_MyTextureMod",
+    "$vref":        "#/ckan/ksp-avc",
+    "license":      "MIT",
+    "release_status": "testing",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/161898-*",
+        "repository": "https://github.com/HaArLiNsH/TRR_MyTextureMod"
+    },
+    "tags": [
+        "config",
+        "graphics"
+    ],
+    "conflicts": [
+        { "name": "TextureReplacer" }
+    ],
+    "install": [ {
+        "find"       : "TRR_MyTextureMod",
+        "install_to" : "GameData"
+    } ],
+    "depends": [
+        { "name" : "ModuleManager"    },
+        { "name" : "TextureReplacerReplaced" }
+    ],
+    "suggests": [
+        { "name" : "TRRGuide" }
+    ]
 }

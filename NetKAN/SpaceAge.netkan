@@ -1,15 +1,19 @@
 {
     "spec_version" : 1,
     "identifier"   : "SpaceAge",
-    "$kref"        : "#/ckan/github/GarwelGarwel/SpaceAge",
     "author"       : "Garwel",
     "abstract"     : "Tracks and displays information about your campaign's progress and important events.",
-    "license"      : "MIT",
+    "$kref"        : "#/ckan/github/GarwelGarwel/SpaceAge",
     "$vref"        : "#/ckan/ksp-avc",
+    "license"      : "MIT",
     "resources": {
-        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/164965-13-space-age-011-2017-08-31-tracking-your-progress/"
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/164965-*"
     },
-	    "suggests": [
+    "tags": [
+        "plugin",
+        "information"
+    ],
+    "suggests": [
         { "name": "KSP-AVC" },
         { "name": "Toolbar" }
     ]
