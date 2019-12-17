@@ -9,6 +9,11 @@
     "resources"     : {
         "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/95645-*"
     },
+    "tags"          : [
+        "config",
+        "career",
+        "science"
+    ],
     "depends"       : [
         { "name"    : "ModuleManager" }
     ],

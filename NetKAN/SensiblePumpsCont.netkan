@@ -1,19 +1,18 @@
 {
-  "spec_version": "v1.4",
-  "install": [
-    {
-      "install_to": "GameData",
-      "find": "SensiblePumpsCont"
-    }
-  ],
-  "depends": [
-    {
-      "name": "ModuleManager"
-    }
-  ],
-  "$vref": "#/ckan/ksp-avc",
-  "$kref": "#/ckan/spacedock/1047",
-  "x_via": "Automated Linuxgurugamer CKAN script",
-  "identifier": "SensiblePumpsCont",
-  "license": "GPL-3.0"
+    "spec_version": "v1.4",
+    "identifier":   "SensiblePumpsCont",
+    "$kref":        "#/ckan/spacedock/1047",
+    "$vref":        "#/ckan/ksp-avc",
+    "license":      "GPL-3.0",
+    "tags": [
+        "plugin",
+        "physics"
+    ],
+    "install": [ {
+        "find": "SensiblePumpsCont",
+        "install_to": "GameData"
+    } ],
+    "depends": [
+        { "name": "ModuleManager" }
+    ]
 }

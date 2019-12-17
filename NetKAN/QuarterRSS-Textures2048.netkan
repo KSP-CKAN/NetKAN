@@ -1,16 +1,15 @@
 {
     "spec_version": "v1.4",
-    "identifier": "QuarterRSS-Textures2048",
-    "$kref": "#/ckan/github/pap1723/ScaledRSS-Textures/asset_match/ScaledRSS-2048",
-    "name": "Quarter Size Real Solar System Textures - 2048 x 1024",
-    "author": [ "pap1723" ],
-    "abstract": "QuarterRSS textures for QuarterRSS",
-    "license": "CC-BY-NC-SA",
+    "identifier":   "QuarterRSS-Textures2048",
+    "name":         "Quarter Size Real Solar System Textures - 2048 x 1024",
+    "abstract":     "QuarterRSS textures for QuarterRSS",
+    "author":       "pap1723",
+    "$kref":        "#/ckan/github/pap1723/ScaledRSS-Textures/asset_match/ScaledRSS-2048",
+    "ksp_version":  "any",
+    "license":      "CC-BY-NC-SA",
     "resources": {
-        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/160191-122-quarter-size-rss-v10/"
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/160191-*"
     },
-    "ksp_version_min": "1.1.0",
-    "ksp_version_max": "1.2.99",
     "tags": [
         "config",
         "graphics"

@@ -2,18 +2,20 @@
 {
     "spec_version"  : "v1.4",
     "identifier"    : "SpudMoon",
-    "$kref"         : "#/ckan/github/MrChumley/Spud",
-    "x_netkan_epoch": "2",
     "name"          : "SpudMoon",
     "abstract"      : "Dres was once a lonely planet and then Spud showed up",
+    "author"        : "MrChumley",
+    "$kref"         : "#/ckan/github/MrChumley/Spud",
+    "ksp_version"   : "any",
+    "x_netkan_epoch": "2",
     "license"       : "CC0",
-    "author": [
-        "MrChumley"
-    ],
     "resources": {
         "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/127793-*"
     },
-    "ksp_version": "1.3",
+    "tags": [
+        "config",
+        "planet-pack"
+    ],
     "depends": [
         { "name" : "ModuleManager", "min_version": "2.8.0" },
         { "name" : "Kopernicus",    "min_version": "2:release-1.3.0-5" }

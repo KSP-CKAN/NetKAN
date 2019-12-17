@@ -1,20 +1,21 @@
 {
-    "license": "MIT",
-    "name": "Sequential Animate Generic Module",
-    "identifier": "ModuleSequentialAnimateGeneric",
-    "x_via": "Automated Linuxgurugamer CKAN script",
-    "author": [
-        "linuxgurugamer"
-    ],
-    "$kref": "#/ckan/github/linuxgurugamer/ModuleSequentialAnimateGeneric",
-    "$vref": "#/ckan/ksp-avc",
+    "spec_version": "v1.4",
+    "identifier":   "ModuleSequentialAnimateGeneric",
+    "name":         "Sequential Animate Generic Module",
+    "author":       "linuxgurugamer",
+    "$kref":        "#/ckan/github/linuxgurugamer/ModuleSequentialAnimateGeneric",
+    "$vref":        "#/ckan/ksp-avc",
+    "license":      "MIT",
     "release_status": "stable",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/184488-*"
+    },
+    "tags": [
+        "plugin",
+        "library"
+    ],
     "install": [ {
         "find": "ModuleSequentialAnimateGeneric",
         "install_to": "GameData"
-    } ],
-    "spec_version": "v1.4",
-    "resources": {
-        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/184488-*"
-    }
+    } ]
 }
