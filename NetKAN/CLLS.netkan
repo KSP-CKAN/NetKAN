@@ -1,7 +1,11 @@
-
-    {
-        "spec_version" : "v1.16",
-        "identifier" : "CLLS",
-        "$kref" : "#/ckan/netkan/https://raw.githubusercontent.com/mmoench/CLLS/master/CLLS.netkan",
-        "x_netkan_license_ok": true
-    }
+{
+    "spec_version" : "v1.16",
+    "identifier" : "CLLS",
+    "$kref" : "#/ckan/netkan/https://raw.githubusercontent.com/mmoench/CLLS/master/CLLS.netkan",
+    "x_netkan_license_ok": true,
+    "tags": [
+        "plugin",
+        "parts",
+        "manned"
+    ]
+}

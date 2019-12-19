@@ -3,6 +3,11 @@
     "identifier": "LTechContinued",
     "$kref": "#/ckan/netkan/https://raw.githubusercontent.com/Olympic1/L-Tech/master/LTechContinued.netkan",
     "x_netkan_license_ok": true,
+    "tags": [
+        "plugin",
+        "parts",
+        "science"
+    ],
     "x_netkan_override": [
         {
             "version": "v4.1",

@@ -2,5 +2,9 @@
     "spec_version": 1,
     "identifier": "PlaneMode",
     "$kref": "#/ckan/netkan/https://raw.githubusercontent.com/Apokee/PlaneMode/master/PlaneMode.netkan",
-    "x_netkan_license_ok": true
+    "x_netkan_license_ok": true,
+    "tags": [
+        "plugin",
+        "control"
+    ]
 }

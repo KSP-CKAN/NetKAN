@@ -1,5 +1,9 @@
 {
     "spec_version"   : "v1.2",
     "identifier"     : "RadioFreeKerbin",
-    "$kref"          : "#/ckan/netkan/https://raw.githubusercontent.com/benjwgarner/RadioFreeKerbin/master/RadioFreeKerbin.ckan"
+    "$kref"          : "#/ckan/netkan/https://raw.githubusercontent.com/benjwgarner/RadioFreeKerbin/master/RadioFreeKerbin.ckan",
+    "tags": [
+        "config",
+        "science"
+    ]
 }

@@ -2,5 +2,8 @@
     "spec_version"   : 1,
     "identifier"     : "surfacelights",
     "$kref"          : "#/ckan/netkan/https://raw.githubusercontent.com/ihsoft/SurfaceLights/master/SurfaceLights.netkan",
-    "license"        : "CC-BY-NC-ND-3.0"
+    "license"        : "CC-BY-NC-ND-3.0",
+    "tags": [
+        "parts"
+    ]
 }
