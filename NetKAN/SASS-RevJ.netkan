@@ -1,6 +1,10 @@
 {
-	"spec_version": "v1.4",
-	"identifier": "SASS-RevJ",
-	"$kref": "#/ckan/netkan/https://raw.githubusercontent.com/Sigma88/CKAN/master/Stockalike/SASS-RevJ.netkan",
-	"x_netkan_license_ok": true
+    "spec_version": "v1.4",
+    "identifier": "SASS-RevJ",
+    "$kref": "#/ckan/netkan/https://raw.githubusercontent.com/Sigma88/CKAN/master/Stockalike/SASS-RevJ.netkan",
+    "x_netkan_license_ok": true,
+    "tags": [
+        "config",
+        "planet-pack"
+    ]
 }
