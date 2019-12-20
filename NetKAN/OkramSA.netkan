@@ -1,16 +1,20 @@
 {
     "spec_version"   : "v1.2",
-    "author"         : "Orum",
+    "identifier"     : "OkramSA",
     "name"           : "Okram Shared Assets",
     "abstract"       : "Shared assets (flags & agency) for use with various Okram Industries mods",
-    "identifier"     : "OkramSA",
+    "author"         : "Orum",
     "$kref"          : "#/ckan/github/Orum/OkramSharedAssets",
     "license"        : "unknown",
-    "release_status" : "stable",
     "x_netkan_license_ok": true,
-    "resources" : {
-        "repository"   : "https://github.com/Orum/OkramSharedAssets"
+    "release_status" : "stable",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/60383-*",
+        "repository": "https://github.com/Orum/OkramSharedAssets"
     },
+    "tags": [
+        "config"
+    ],
     "install" : [
         {
             "file"       : "Agencies",
@@ -20,8 +24,5 @@
             "file"       : "Flags",
             "install_to" : "GameData/Okram"
         }
-    ],
-    "resources": {
-        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/60383-*"
-    }
+    ]
 }

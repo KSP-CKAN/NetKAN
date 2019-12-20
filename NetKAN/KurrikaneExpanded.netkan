@@ -1,21 +1,24 @@
 {
-  "spec_version": "v1.4",
-  "install": [
-    {
-      "install_to": "GameData",
-      "find": "Kurrikane"
-    }
-  ],
-  "depends": [
-    {
-      "name": "ModuleManager"
-    }
-  ],
-  "recommends": [ { "name": "FMRSContinued" } ],
-  "suggests": [ { "name": "SoundingRockets" } ],
-  "$vref": "#/ckan/ksp-avc",
-  "$kref": "#/ckan/spacedock/1338",
-  "x_via": "Automated Linuxgurugamer CKAN script",
-  "identifier": "KurrikaneExpanded",
-  "license": "CC-BY-NC-SA"
+    "spec_version": "v1.4",
+    "identifier":   "KurrikaneExpanded",
+    "$kref":        "#/ckan/spacedock/1338",
+    "$vref":        "#/ckan/ksp-avc",
+    "license":      "CC-BY-NC-SA",
+    "tags": [
+        "parts",
+        "unmanned"
+    ],
+    "install": [ {
+        "find": "Kurrikane",
+        "install_to": "GameData"
+    } ],
+    "depends": [
+        { "name": "ModuleManager" }
+    ],
+    "recommends": [
+        { "name": "FMRSContinued" }
+    ],
+    "suggests": [
+        { "name": "SoundingRockets" }
+    ]
 }

@@ -1,7 +1,10 @@
 {
-    "identifier": "DraggableNavball",
-    "x_via": "Automated SpaceDock CKAN submission",
-    "license": "MIT",
-    "$kref": "#/ckan/spacedock/1024",
-    "spec_version": "v1.4"
+    "spec_version": "v1.4",
+    "identifier":   "DraggableNavball",
+    "$kref":        "#/ckan/spacedock/1024",
+    "license":      "MIT",
+    "tags": [
+        "plugin",
+        "convenience"
+    ]
 }

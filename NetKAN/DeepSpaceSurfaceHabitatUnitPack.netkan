@@ -3,7 +3,11 @@
     "identifier":   "DeepSpaceSurfaceHabitatUnitPack",
     "$kref":        "#/ckan/spacedock/1622",
     "license":      "CC-BY-4.0",
-    "x_via":        "Automated SpaceDock CKAN submission",
+    "tags": [
+        "plugin",
+        "parts",
+        "manned"
+    ],
     "depends": [
         { "name": "ModuleManager" }
     ],
@@ -15,10 +19,8 @@
         { "name": "TACLS"                },
         { "name": "USI-LS"               }
     ],
-    "install": [
-        {
-            "find":       "GameData/DSSHU",
-            "install_to": "GameData"
-        }
-    ]
+    "install": [ {
+        "find":       "GameData/DSSHU",
+        "install_to": "GameData"
+    } ]
 }

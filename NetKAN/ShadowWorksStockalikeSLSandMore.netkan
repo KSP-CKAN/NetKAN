@@ -1,8 +1,11 @@
 {
     "spec_version": "v1.4",
-    "license": "CC-BY-NC-SA-4.0",
-    "$kref": "#/ckan/spacedock/216",
-    "identifier": "ShadowWorksStockalikeSLSandMore",
+    "identifier":   "ShadowWorksStockalikeSLSandMore",
+    "$kref":        "#/ckan/spacedock/216",
+    "license":      "CC-BY-NC-SA-4.0",
+    "tags": [
+        "parts"
+    ],
     "recommends": [
         { "name": "BaconLabs" },
         { "name": "NewTantares"}

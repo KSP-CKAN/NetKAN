@@ -8,6 +8,9 @@
         "homepage"  : "https://forum.kerbalspaceprogram.com/index.php?/topic/175694-*",
         "repository": "https://github.com/net-lisias-ksp/ImpossibleInnovations"
     },
+    "tags": [
+        "parts"
+    ],
     "depends": [
         { "name" : "TweakScale"    },
         { "name" : "ModuleManager" }
