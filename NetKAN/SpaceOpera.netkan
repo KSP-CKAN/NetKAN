@@ -1,7 +1,10 @@
 {
-    "$kref": "#/ckan/spacedock/1137",
-    "identifier": "SpaceOpera",
-    "x_via": "Automated SpaceDock CKAN submission",
     "spec_version": "v1.4",
-    "license": "CC-BY-SA-4.0"
+    "identifier":   "SpaceOpera",
+    "$kref":        "#/ckan/spacedock/1137",
+    "license":      "CC-BY-SA-4.0",
+    "tags": [
+        "parts",
+        "resources"
+    ]
 }

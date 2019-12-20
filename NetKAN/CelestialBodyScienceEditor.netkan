@@ -1,12 +1,14 @@
 {
     "spec_version": 1,
-    "identifier": "CelestialBodyScienceEditor",
-    "$kref": "#/ckan/spacedock/136",
-    "license": "MIT",
-    "install": [
-        {
-            "file": "GameData/ScienceParamModifier",
-            "install_to": "GameData"
-        }
-    ]
+    "identifier":   "CelestialBodyScienceEditor",
+    "$kref":        "#/ckan/spacedock/136",
+    "license":      "MIT",
+    "tags": [
+        "plugin",
+        "science"
+    ],
+    "install": [ {
+        "file": "GameData/ScienceParamModifier",
+        "install_to": "GameData"
+    } ]
 }

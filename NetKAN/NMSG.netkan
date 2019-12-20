@@ -2,6 +2,11 @@
     "spec_version" : "v1.26",
     "identifier"   : "NMSG",
     "$kref"        : "#/ckan/spacedock/74",
+    "license"      : "MIT",
+    "tags"         : [
+        "config",
+        "science"
+    ],
     "replaced_by"  : { "name": "Science-Full-Reward" },
     "depends": [
         { "name": "ModuleManager", "min_version": "2.6.0" }
@@ -10,29 +15,26 @@
         { "name": "xScience" },
         { "name": "ContractConfigurator" }
     ],
-    "license": "MIT",
     "x_netkan_override" : [
-    {
-        "version" : "1.3",
-        "delete" : [ "ksp_version" ],
-        "override" : {
-        "ksp_version_min" : "1.0.3",
-        "ksp_version_max" : "1.3.99"
-        }
-    },
-    {
-        "version" : "2.5",
-        "delete" : [ "ksp_version" ],
-        "override" : {
-        "ksp_version_min" : "1.2.2",
-        "ksp_version_max" : "1.3.99"
-        }
-    }
-    ],
-    "install": [
         {
-            "file"       : "Science-Full-reward",
-            "install_to" : "GameData"
+            "version" : "1.3",
+            "delete" : [ "ksp_version" ],
+            "override" : {
+                "ksp_version_min" : "1.0.3",
+                "ksp_version_max" : "1.3.99"
+            }
+        },
+        {
+            "version" : "2.5",
+            "delete" : [ "ksp_version" ],
+            "override" : {
+                "ksp_version_min" : "1.2.2",
+                "ksp_version_max" : "1.3.99"
+            }
         }
-    ]
+    ],
+    "install": [ {
+        "file"       : "Science-Full-reward",
+        "install_to" : "GameData"
+    } ]
 }

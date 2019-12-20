@@ -4,16 +4,23 @@
     "$kref":        "#/ckan/spacedock/1021",
     "$vref":        "#/ckan/ksp-avc",
     "license":      "CC-BY-NC-SA-4.0",
-    "install": [
-        {
-            "find":       "SHED",
-            "install_to": "GameData",
-            "filter":     [ "Agencies", "License", "RetractableLiftingSurface" ]
-        }
+    "tags": [
+        "parts",
+        "manned"
     ],
+    "install": [ {
+        "find":       "SHED",
+        "install_to": "GameData",
+        "filter":     [ "Agencies", "License", "RetractableLiftingSurface" ]
+    } ],
     "depends": [
         { "name": "ModuleManager"             },
         { "name": "RetractableLiftingSurface" },
         { "name": "KSPWheel"                  }
+    ],
+    "recommends": [
+        { "name": "IndicatorLights"   },
+        { "name": "Landertron"        },
+        { "name": "RasterPropMonitor" }
     ]
 }
