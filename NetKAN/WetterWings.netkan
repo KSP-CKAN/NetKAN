@@ -3,7 +3,9 @@
     "identifier":   "WetterWings",
     "$kref":        "#/ckan/spacedock/1665",
     "license":      "MIT",
-    "x_via":        "Automated SpaceDock CKAN submission",
+    "tags": [
+        "config"
+    ],
     "install": [ {
         "find":       "WetterWingsMM",
         "install_to": "GameData"

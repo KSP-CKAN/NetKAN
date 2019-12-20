@@ -1,16 +1,19 @@
 {
     "spec_version": "v1.4",
-    "identifier": "KeepFit",
-    "license": "MIT",
-    "$kref": "#/ckan/spacedock/344",
-    "$vref" : "#/ckan/ksp-avc",
+    "identifier":   "KeepFit",
+    "$kref":        "#/ckan/spacedock/344",
+    "$vref":        "#/ckan/ksp-avc",
+    "license":      "MIT",
+    "tags": [
+        "plugin",
+        "manned",
+        "physics"
+    ],
     "depends": [
         { "name" : "ModuleManager" }
     ],
-    "install" : [
-        {
-            "find" : "KeepFit",
-            "install_to": "GameData"
-        }
-    ]
+    "install" : [ {
+        "find" : "KeepFit",
+        "install_to": "GameData"
+    } ]
 }

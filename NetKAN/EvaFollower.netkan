@@ -1,16 +1,20 @@
 {
-  "spec_version": "v1.4",
-  "identifier"  : "EvaFollower",
-  "$kref"       : "#/ckan/spacedock/1582",
-  "$vref"       : "#/ckan/ksp-avc",
-  "x_netkan_epoch": 1,
-  "license"     : "CC-BY-NC-SA-3.0",
-  "resources" : {
-      "homepage"     : "https://forum.kerbalspaceprogram.com/index.php?/topic/167310-*"
-  },
-  "install": [ {
-    "find":       "EvaFollower",
-    "install_to": "GameData"
-  } ],
-  "x_via": "Automated Linuxgurugamer CKAN script"
+    "spec_version": "v1.4",
+    "identifier"  : "EvaFollower",
+    "$kref"       : "#/ckan/spacedock/1582",
+    "$vref"       : "#/ckan/ksp-avc",
+    "x_netkan_epoch": 1,
+    "license"     : "CC-BY-NC-SA-3.0",
+    "resources" : {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/167310-*"
+    },
+    "tags": [
+        "plugin",
+        "manned",
+        "control"
+    ],
+    "install": [ {
+        "find":       "EvaFollower",
+        "install_to": "GameData"
+    } ]
 }
