@@ -1,16 +1,17 @@
 {
-    "license": "MIT",
-    "$kref": "#/ckan/spacedock/667",
-    "identifier": "Wraithforge",
     "spec_version": "v1.4",
+    "identifier":   "Wraithforge",
+    "$kref":        "#/ckan/spacedock/667",
+    "license":      "MIT",
+    "tags": [
+        "parts"
+    ],
     "depends": [
         { "name": "BDArmoryContinued" },
         { "name": "ModuleManager" }
     ],
-    "install": [
-        {
-            "find"       : "Wraithforge",
-            "install_to" : "GameData"
-        }
-    ]
+    "install": [ {
+        "find"       : "Wraithforge",
+        "install_to" : "GameData"
+    } ]
 }

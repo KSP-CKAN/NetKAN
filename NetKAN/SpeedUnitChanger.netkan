@@ -1,13 +1,15 @@
 {
-    "identifier": "SpeedUnitChanger",
     "spec_version": "v1.4",
-    "$kref": "#/ckan/spacedock/328",
-    "license": "GPL-3.0",
-    "install": [
-        {
-            "find": "SpeedUnitChanger",
-            "install_to": "GameData",
-            "filter": "Sources"
-        }
-    ]
+    "identifier":   "SpeedUnitChanger",
+    "$kref":        "#/ckan/spacedock/328",
+    "license":      "GPL-3.0",
+    "tags": [
+        "plugin",
+        "information"
+    ],
+    "install": [ {
+        "find": "SpeedUnitChanger",
+        "install_to": "GameData",
+        "filter": "Sources"
+    } ]
 }

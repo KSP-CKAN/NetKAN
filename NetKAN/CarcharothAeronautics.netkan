@@ -1,8 +1,11 @@
 {
-    "license": "GPL-3.0",
-    "identifier": "CarcharothAeronautics",
     "spec_version": "v1.4",
-    "$kref": "#/ckan/spacedock/371",
+    "identifier":   "CarcharothAeronautics",
+    "$kref":        "#/ckan/spacedock/371",
+    "license":      "GPL-3.0",
+    "tags": [
+        "parts"
+    ],
     "depends": [
         { "name": "BDArmory" }
     ],

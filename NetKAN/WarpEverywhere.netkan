@@ -3,11 +3,12 @@
     "identifier":   "WarpEverywhere",
     "$kref":        "#/ckan/spacedock/982",
     "license":      "GPL-3.0",
-    "install": [
-        {
-            "find":       "WarpEverywhere",
-            "install_to": "GameData"
-        }
+    "tags": [
+        "plugin",
+        "convenience"
     ],
-    "x_via": "Automated Linuxgurugamer CKAN script"
+    "install": [ {
+        "find":       "WarpEverywhere",
+        "install_to": "GameData"
+    } ]
 }

@@ -1,17 +1,18 @@
 {
-  "spec_version": "v1.4",
-  "install": [
-    {
-      "install_to": "GameData",
-      "find": "SmartActuation"
-    }
-  ],
-  "$vref": "#/ckan/ksp-avc",
-  "$kref": "#/ckan/github/theRagingIrishman/SmartActuation",
-  "x_via": "Automated Linuxgurugamer CKAN script",
-  "identifier": "SmartActuation",
-  "license": "CC-BY-NC-SA",
-  "resources": {
-    "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/160109-*"
-  }
+    "spec_version": "v1.4",
+    "identifier":   "SmartActuation",
+    "$kref":        "#/ckan/github/theRagingIrishman/SmartActuation",
+    "$vref":        "#/ckan/ksp-avc",
+    "license":      "CC-BY-NC-SA",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/160109-*"
+    },
+    "tags": [
+        "plugin",
+        "convenience"
+    ],
+    "install": [ {
+        "find": "SmartActuation",
+        "install_to": "GameData"
+    } ]
 }

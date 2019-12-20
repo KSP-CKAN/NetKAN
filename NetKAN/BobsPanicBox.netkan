@@ -1,29 +1,28 @@
 {
-  "spec_version": "v1.4",
-  "license": "GPL-3.0",
-  "identifier": "BobsPanicBox",
-  "x_via": "Automated Linuxgurugamer CKAN script",
-  "$kref": "#/ckan/spacedock/1894",
-  "$vref": "#/ckan/ksp-avc",
-  "resources": {
-    "repository": "https://github.com/linuxgurugamer/BobsPanicBox",
-    "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/176073-14-bob"
-  },
-  "depends": [
-    { "name": "ToolbarController" },
-    { "name": "ClickThroughBlocker" },
-    { "name": "ModuleManager" }
-  ],
-  "recommends": [
-    {
-      "name": "PEBKACIndustriesLaunchEscapeSystem"
-    }
-  ],
-  "install": [
-    {
-      "install_to": "GameData",
-      "find": "BobsPanicBox"
-    }
-  ],
-  "x_netkan_epoch": 1
+    "spec_version": "v1.4",
+    "identifier":   "BobsPanicBox",
+    "$kref":        "#/ckan/spacedock/1894",
+    "$vref":        "#/ckan/ksp-avc",
+    "x_netkan_epoch": 1,
+    "license":      "GPL-3.0",
+    "resources": {
+        "repository": "https://github.com/linuxgurugamer/BobsPanicBox",
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/176073-*"
+    },
+    "tags": [
+        "plugin",
+        "control"
+    ],
+    "depends": [
+        { "name": "ToolbarController" },
+        { "name": "ClickThroughBlocker" },
+        { "name": "ModuleManager" }
+    ],
+    "recommends": [
+        { "name": "PEBKACIndustriesLaunchEscapeSystem" }
+    ],
+    "install": [ {
+        "find": "BobsPanicBox",
+        "install_to": "GameData"
+    } ]
 }
