@@ -7,6 +7,10 @@
 		"homepage":   "https://forum.kerbalspaceprogram.com/index.php?/topic/168992-*",
 		"repository": "https://github.com/TheWhiteGuardian/Unofficial_INSTANTIATOR"
 	},
+	"tags": [
+		"plugin",
+		"graphics"
+	],
 	"install": [ {
 		"find":       "INSTANTIATOR",
 		"install_to": "GameData",

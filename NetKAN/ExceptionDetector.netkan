@@ -8,6 +8,9 @@
 		"homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/98658-*",
 		"repository": "https://github.com/godarklight/ExceptionDetector"
 	},
+	"tags": [
+		"plugin"
+	],
 	"install": [ {
 		"file":       "GameData/ExceptionDetector",
 		"install_to": "GameData"

@@ -1,19 +1,20 @@
 {
-  "license": "MIT",
-  "identifier": "FlatBtmShtlSys",
-  "x_via": "Automated Linuxgurugamer CKAN script",
-  "$kref": "#/ckan/spacedock/2059",
-  "$vref": "#/ckan/ksp-avc",
-  "depends": [
-    { "name": "B9PartSwitch" },
-    { "name": "RasterPropMonitor" },
-    { "name": "ModuleManager" }
-  ],
-  "install": [
-    {
-      "find": "TriCrossSection",
-      "install_to": "GameData"
-    }
-  ],
-  "spec_version": "v1.4"
+    "spec_version": "v1.4",
+    "identifier":   "FlatBtmShtlSys",
+    "$kref":        "#/ckan/spacedock/2059",
+    "$vref":        "#/ckan/ksp-avc",
+    "license":      "MIT",
+    "tags": [
+        "parts",
+        "manned"
+    ],
+    "depends": [
+        { "name": "B9PartSwitch" },
+        { "name": "RasterPropMonitor" },
+        { "name": "ModuleManager" }
+    ],
+    "install": [ {
+        "find": "TriCrossSection",
+        "install_to": "GameData"
+    } ]
 }

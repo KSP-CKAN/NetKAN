@@ -1,24 +1,26 @@
 {
     "spec_version"   : "v1.4",
-    "$kref"          : "#/ckan/spacedock/1844",
-    "$vref"          : "#/ckan/ksp-avc",
     "name"           : "Diazo's Landing Height Display",
     "identifier"     : "DiazosLandingHeight",
     "author"         : [ "Diazo", "linuxgurugamer" ],
     "abstract"       : "Display true height to ground from the bottom of your vessel on in-game altimeter when in surface mode. Display altitude above sea level (KSP Default) when in orbit mode.",
+    "$kref"          : "#/ckan/spacedock/1844",
+    "$vref"          : "#/ckan/ksp-avc",
     "license"        : "GPL-3.0",
     "release_status" : "stable",
-    "resources" : {
+    "resources": {
         "homepage" : "https://forum.kerbalspaceprogram.com/index.php?/topic/174510-*"
     },
+    "tags": [
+        "plugin",
+        "information"
+    ],
     "conflicts": [
-	 { "name" : "LandingHeight" }
+        { "name" : "LandingHeight" }
     ],
     "provides": [ "LandingHeight" ],
-    "install" : [
-        {
-            "find"       : "LandingHeight",
-            "install_to" : "GameData"
-        }
-    ]
+    "install": [ {
+        "find"       : "LandingHeight",
+        "install_to" : "GameData"
+    } ]
 }

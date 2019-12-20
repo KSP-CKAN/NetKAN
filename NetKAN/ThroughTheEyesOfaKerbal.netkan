@@ -1,14 +1,15 @@
 {
-  "license"	: "GPL-3.0",
-  "identifier"	: "ThroughTheEyesOfaKerbal",
-  "x_via"	: "Automated Linuxgurugamer CKAN script",
-  "$kref"       : "#/ckan/spacedock/1560",
-  "$vref"	: "#/ckan/ksp-avc",
-  "install": [
-    {
-      "find": "ThroughTheEyes",
-      "install_to": "GameData"
-    }
-  ],
-  "spec_version": "v1.4"
+    "spec_version": "v1.4",
+    "identifier":   "ThroughTheEyesOfaKerbal",
+    "$kref":        "#/ckan/spacedock/1560",
+    "$vref":        "#/ckan/ksp-avc",
+    "license":      "GPL-3.0",
+    "tags": [
+        "plugin",
+        "manned"
+    ],
+    "install": [ {
+        "find": "ThroughTheEyes",
+        "install_to": "GameData"
+    } ]
 }

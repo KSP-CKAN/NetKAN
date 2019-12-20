@@ -1,21 +1,18 @@
 {
-  "spec_version": "v1.4",
-  "install": [
-    {
-      "install_to": "GameData",
-      "find": "Planet_Cerillion"
-    }
-  ],
-  "depends": [
-    {
-      "name": "ModuleManager"
-    },
-    {
-      "name": "Kopernicus"
-    }
-  ],
-  "$kref": "#/ckan/spacedock/1144",
-  "x_via": "Automated Linuxgurugamer CKAN script",
-  "identifier": "PlanetCerillion",
-  "license": "MIT"
+    "spec_version": "v1.4",
+    "identifier":   "PlanetCerillion",
+    "$kref":        "#/ckan/spacedock/1144",
+    "license":      "MIT",
+    "tags": [
+        "config",
+        "planet-pack"
+    ],
+    "install": [ {
+        "find": "Planet_Cerillion",
+        "install_to": "GameData"
+    } ],
+    "depends": [
+        { "name": "ModuleManager" },
+        { "name": "Kopernicus" }
+    ]
 }
