@@ -5,14 +5,19 @@
     "$kref"        : "#/ckan/github/Kerbas-ad-astra/XTLandertron",
     "$vref"        : "#/ckan/ksp-avc",
     "license"      : "CC-BY-SA-4.0",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/149826-*"
+    },
+    "tags": [
+        "plugin",
+        "parts",
+        "control"
+    ],
     "recommends": [
         { "name": "HGR" }
     ],
     "suggests": [
         { "name": "KAS" },
         { "name": "KIS" }
-    ],
-    "resources": {
-        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/149826-*"
-    }
+    ]
 }

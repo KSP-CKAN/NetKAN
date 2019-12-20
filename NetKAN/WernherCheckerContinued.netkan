@@ -1,21 +1,21 @@
 {
-  "spec_version": "v1.4",
-  "install": [
-    {
-      "filter_regexp": [
-        ".*~$"
-      ],
-      "install_to": "GameData",
-      "find": "WernherChecker"
-    }
-  ],
+    "spec_version": "v1.4",
+    "identifier":   "WernherCheckerContinued",
+    "$kref":        "#/ckan/spacedock/1237",
+    "$vref":        "#/ckan/ksp-avc",
+    "license":      "MIT",
+    "tags": [
+        "plugin",
+        "editor",
+        "information"
+    ],
+    "install": [ {
+        "filter_regexp": [ ".*~$" ],
+        "find": "WernherChecker",
+        "install_to": "GameData"
+    } ],
     "depends": [
         { "name" : "ToolbarController" },
-	{ "name" : "ClickThroughBlocker" }
-    ],
-  "$vref": "#/ckan/ksp-avc",
-  "$kref": "#/ckan/spacedock/1237",
-  "x_via": "Automated Linuxgurugamer CKAN script",
-  "identifier": "WernherCheckerContinued",
-  "license": "MIT"
+        { "name" : "ClickThroughBlocker" }
+    ]
 }

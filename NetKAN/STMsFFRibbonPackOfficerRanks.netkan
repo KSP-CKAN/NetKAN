@@ -1,16 +1,20 @@
 {
-    "license": "CC-BY-NC-SA-4.0",
-    "$kref": "#/ckan/spacedock/401",
     "spec_version": "v1.4",
-    "identifier": "STMsFFRibbonPackOfficerRanks",
-    "install": [
-      {
+    "identifier":   "STMsFFRibbonPackOfficerRanks",
+    "$kref":        "#/ckan/spacedock/401",
+    "license":      "CC-BY-NC-SA-4.0",
+    "tags": [
+        "config",
+        "manned"
+    ],
+    "install": [ {
         "find": "GameData/STMRibbons",
         "install_to": "GameData"
-      }
-    ],
+    } ],
     "depends": [
-      { "name": "FinalFrontier",
-        "min_version": "0.9.1" }
+        {
+            "name": "FinalFrontier",
+            "min_version": "0.9.1"
+        }
     ]
 }

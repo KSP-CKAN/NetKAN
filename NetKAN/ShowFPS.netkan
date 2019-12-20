@@ -1,23 +1,22 @@
 {
     "spec_version": "v1.4",
-    "identifier": "ShowFPS",
-    "$vref"        : "#/ckan/ksp-avc",
-    "$kref": "#/ckan/spacedock/1757",
+    "identifier":   "ShowFPS",
+    "name":         "Show FPS",
+    "abstract":     "Simple framerate counter, enable with F8.",
+    "author":       [ "linuxgurugamer", "m4v" ],
+    "$kref":        "#/ckan/spacedock/1757",
+    "$vref":        "#/ckan/ksp-avc",
     "x_netkan_epoch": 1,
-    "resources": 
-    {
-        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/172692-141-showfps/"
+    "license":      "LGPL-3.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/172692-*"
     },
-    "name": "Show FPS",
-    "license": "LGPL-3.0",
-    "abstract": "Simple framerate counter, enable with F8.",
-
-    "author": [ "linuxgurugamer", "m4v" ],
-     "install": [
-     {
-      "install_to": "GameData",
-      "find": "ShowFPS"
-     }
-
-    ]
+    "tags": [
+        "plugin",
+        "information"
+    ],
+    "install": [ {
+        "find": "ShowFPS",
+        "install_to": "GameData"
+    } ]
 }

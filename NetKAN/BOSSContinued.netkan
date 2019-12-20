@@ -1,18 +1,18 @@
 {
-  "license": "GPL-3.0",
-  "identifier": "BOSSContinued",
-  "x_via": "Automated Linuxgurugamer CKAN script",
-  "$kref": "#/ckan/spacedock/1029",
-  "$vref": "#/ckan/ksp-avc",
-  "depends": [
-      { "name": "ToolbarController" },
-      { "name": "ClickThroughBlocker" }
+    "spec_version": "v1.4",
+    "identifier":   "BOSSContinued",
+    "$kref":        "#/ckan/spacedock/1029",
+    "$vref":        "#/ckan/ksp-avc",
+    "license":      "GPL-3.0",
+    "tags": [
+        "plugin"
     ],
-  "install": [
-    {
-      "find": "BOSS",
-      "install_to": "GameData"
-    }
-  ],
-  "spec_version": "v1.4"
+    "depends": [
+        { "name": "ToolbarController" },
+        { "name": "ClickThroughBlocker" }
+    ],
+    "install": [ {
+        "find": "BOSS",
+        "install_to": "GameData"
+    } ]
 }

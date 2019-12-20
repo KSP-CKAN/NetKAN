@@ -1,24 +1,26 @@
 {
     "spec_version": "v1.4",
-    "identifier": "USAFOrionMod-TD-subedition",
-    "abstract"  : "Orion drive for KSP based on Nyraths work",
-    "name"      : "Orion TD edition",
-    "license"   : "MIT",
-    "$kref"     : "#/ckan/spacedock/149",
-    "install"   : [
-        {
-            "find"       : "USAFOrionTD",
-            "install_to" : "GameData"
-        }
+    "identifier"  : "USAFOrionMod-TD-subedition",
+    "name"        : "Orion TD edition",
+    "abstract"    : "Orion drive for KSP based on Nyraths work",
+    "$kref"       : "#/ckan/spacedock/149",
+    "license"     : "MIT",
+    "resources": {
+        "homepage"  : "https://forum.kerbalspaceprogram.com/index.php?/topic/159175-*",
+        "repository": "https://github.com/cerebrate/USAFOrion"
+    },
+    "tags": [
+        "plugin",
+        "parts"
     ],
-    "resources" : {
-        "homepage"       : "https://forum.kerbalspaceprogram.com/index.php?/topic/159175-13-orion-drive-td-edition/",
-        "repository"     : "https://github.com/cerebrate/USAFOrion"
-        },
-    "recommends" : [
+    "install": [ {
+        "find"       : "USAFOrionTD",
+        "install_to" : "GameData"
+    } ],
+    "recommends": [
         { "name" : "TDIndustrysOrionbits10m" }
     ],
-    "conflicts"  : [
+    "conflicts": [
         { "name" : "NyrathsUSAFOrion"}
     ]
 }

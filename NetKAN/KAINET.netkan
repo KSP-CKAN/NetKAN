@@ -1,20 +1,23 @@
 {
     "spec_version"  : "v1.4",
     "identifier"    : "KAINET",
-    "$kref"         : "#/ckan/github/Kerbas-ad-astra/No-Astronauts-Need-Apply",
-    "$vref"         : "#/ckan/ksp-avc",
     "name"          : "No Astronauts Need Apply",
     "abstract"      : "Kerbal-less Space Program",
+    "$kref"         : "#/ckan/github/Kerbas-ad-astra/No-Astronauts-Need-Apply",
+    "$vref"         : "#/ckan/ksp-avc",
     "license"       : "Apache-2.0",
     "resources": {
-        "homepage"  : "https://forum.kerbalspaceprogram.com/index.php?/topic/99661-10x-no-astronauts-need-apply-kerbal-less-space-program-formerly-kainet-v111-2015-aug-01/"
+        "homepage"  : "https://forum.kerbalspaceprogram.com/index.php?/topic/99661-*"
     },
-    "install"       : [
-        {
-            "find"  : "NoAstronautsNeedApply",
-            "install_to" : "GameData"
-        }
+    "tags"          : [
+        "config",
+        "tech-tree",
+        "unmanned"
     ],
+    "install"       : [ {
+        "find"      : "NoAstronautsNeedApply",
+        "install_to": "GameData"
+    } ],
     "recommends"    : [
         { "name"    : "InfernalRobotics" },
         { "name"    : "ShipManifest" }
