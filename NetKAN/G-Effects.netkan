@@ -1,14 +1,17 @@
 {
     "spec_version": 1,
-    "identifier": "G-Effects",
-    "$kref": "#/ckan/spacedock/140",
-    "license": "GPL-3.0",
-    "install": [
-        {
-            "file"       : "G-Effects",
-            "install_to" : "GameData"
-        }
+    "identifier":   "G-Effects",
+    "$kref":        "#/ckan/spacedock/140",
+    "license":      "GPL-3.0",
+    "tags": [
+        "plugin",
+        "physics",
+        "manned"
     ],
+    "install": [ {
+        "file"       : "G-Effects",
+        "install_to" : "GameData"
+    } ],
     "x_netkan_override" : [
         {
             "version" : "<=0.3.1",

@@ -2,15 +2,17 @@
     "spec_version" : 1,
     "identifier"   : "DavonTCsystemsMod",
     "$kref"        : "#/ckan/spacedock/363",
+    "license"      : "GPL-2.0",
     "resources" : {
-        "homepage" : "https://forum.kerbalspaceprogram.com/index.php?/topic/35073-14-davon-throttle-control-systems-mod-v087/"
+        "homepage" : "https://forum.kerbalspaceprogram.com/index.php?/topic/35073-*"
     },
-    "license": "GPL-2.0",
-    "install": [
-        {
-            "file"          : "GameData/DavonTCsystemsMod",
-            "install_to"    : "GameData",
-            "filter_regexp" : "license and source"
-        }
-    ]
+    "tags": [
+        "plugin",
+        "control"
+    ],
+    "install": [ {
+        "file"          : "GameData/DavonTCsystemsMod",
+        "install_to"    : "GameData",
+        "filter_regexp" : "license and source"
+    } ]
 }

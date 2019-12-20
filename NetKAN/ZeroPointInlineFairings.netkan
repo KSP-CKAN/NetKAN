@@ -1,28 +1,25 @@
 {
-    "spec_version" : 1,
-    "identifier" : "ZeroPointInlineFairings",
-    "$kref" : "#/ckan/spacedock/97",
-    "$vref" : "#/ckan/ksp-avc",
-    "license" : "CC-BY-NC-SA",
-    "resources" : {
-    "homepage"  : "http://forum.kerbalspaceprogram.com/index.php?/topic/85178-ZeroPointInlineFairings"
+    "spec_version": 1,
+    "identifier":   "ZeroPointInlineFairings",
+    "$kref":        "#/ckan/spacedock/97",
+    "$vref":        "#/ckan/ksp-avc",
+    "license":      "CC-BY-NC-SA",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/85178-*"
     },
-
-    "install": [
-        {
-            "file": "0PinlineFairings",
-            "install_to": "GameData"
-        }
+    "tags": [
+        "parts"
     ],
-
+    "install": [ {
+        "file": "0PinlineFairings",
+        "install_to": "GameData"
+    } ],
     "conflicts": [
         { "name": "ZeroPointInlineFairings-Lite" }
     ],
-
     "depends": [
         { "name": "FerramAerospaceResearch"}
     ],
-
     "suggests": [
         { "name": "ModularRocketSystem" },
         { "name": "SpaceY-Lifters" },

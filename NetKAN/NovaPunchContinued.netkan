@@ -4,7 +4,9 @@
     "$kref":        "#/ckan/spacedock/1076",
     "$vref":        "#/ckan/ksp-avc",
     "license":      "CC-BY-SA-4.0",
-    "x_via":        "Automated SpaceDock CKAN submission",
+    "tags": [
+        "parts"
+    ],
     "install": [ {
         "find":       "GameData/NovaPunch",
         "install_to": "GameData"

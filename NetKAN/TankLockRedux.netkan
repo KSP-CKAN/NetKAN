@@ -4,17 +4,18 @@
     "$kref"          : "#/ckan/spacedock/592",
     "$vref"          : "#/ckan/ksp-avc",
     "license"        : "BSD-2-clause",
-    "depends"        :  [
-    { "name" : "ModuleManager" }
-    ],
     "resources" : {
-        "repository"  : "https://github.com/linuxgurugamer/TankLock"
+        "repository" : "https://github.com/linuxgurugamer/TankLock"
     },
-    "install" : [
-        {
-            "find"       : "TankLock",
-            "install_to" : "GameData"
-        }
-    ]
+    "tags"           : [
+        "config",
+        "convenience"
+    ],
+    "depends"        :  [
+        { "name" : "ModuleManager" }
+    ],
+    "install" : [ {
+        "find"       : "TankLock",
+        "install_to" : "GameData"
+    } ]
 }
-

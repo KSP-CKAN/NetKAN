@@ -1,23 +1,25 @@
 {
-    "identifier": "EditorTime",
     "spec_version": "v1.4",
-    "$kref": "#/ckan/github/magico13/Modlets/asset_match/EditorTime",
-    "name": "EditorTime",
-    "abstract": "Makes time pass while in the VAB/SPH",
-    "author": "magico13",
-    "license": "GPL-3.0",
+    "identifier":   "EditorTime",
+    "name":         "EditorTime",
+    "abstract":     "Makes time pass while in the VAB/SPH",
+    "author":       "magico13",
+    "$kref":        "#/ckan/github/magico13/Modlets/asset_match/EditorTime",
+    "license":      "GPL-3.0",
     "resources": {
-        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/97033-141-magico13s-modlets-sensible-screenshot-dated-quicksaves-etc/"
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/97033-*"
     },
+    "tags": [
+        "plugin",
+        "editor"
+    ],
     "suggests": [
         { "name": "KerbalConstructionTime"}
     ],
-    "install": [
-        {
-            "find"       : "EditorTime",
-            "install_to" : "GameData"
-        }
-    ],
+    "install": [ {
+        "find"       : "EditorTime",
+        "install_to" : "GameData"
+    } ],
     "x_netkan_override": [
         {
             "version": "KSP1.2.2",
