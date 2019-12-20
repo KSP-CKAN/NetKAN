@@ -1,13 +1,22 @@
 {
     "spec_version": "v1.4",
-    "license": "public-domain",
-    "identifier": "ExtraplanetaryLaunchpads-NoMoreProduction",
-    "$kref": "#/ckan/spacedock/1085",
-    "depends": [ { "name" : "ModuleManager" },
-                 { "name" : "ExtraPlanetaryLaunchpads" } ],
-    "install": [ { "find" : "GameData/IrishmanIndustries",
-                   "install_to" : "GameData",
-                   "filter" : ".DS_Store" } ],
-    "suggests": [ { "name" : "UKS" },
-                  { "name" : "KeridianDynamicsVesselAssembly" } ]
+    "identifier":   "ExtraplanetaryLaunchpads-NoMoreProduction",
+    "$kref":        "#/ckan/spacedock/1085",
+    "license":      "public-domain",
+    "tags": [
+        "config"
+    ],
+    "install": [ {
+        "find" : "GameData/IrishmanIndustries",
+        "install_to" : "GameData",
+        "filter" : ".DS_Store"
+    } ],
+    "depends": [
+        { "name" : "ModuleManager" },
+        { "name" : "ExtraPlanetaryLaunchpads" }
+    ],
+    "suggests": [
+        { "name" : "UKS" },
+        { "name" : "KeridianDynamicsVesselAssembly" }
+    ]
 }

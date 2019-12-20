@@ -1,11 +1,14 @@
 {
     "spec_version": "v1.4",
-    "x_via": "Automated SpaceDock CKAN submission",
-    "license": "MIT",
-    "identifier": "OinkersSkybox",
-    "$kref": "#/ckan/spacedock/1131",
-    "ksp_version": "any",
-    "comment": "Texture only",
+    "identifier":   "OinkersSkybox",
+    "$kref":        "#/ckan/spacedock/1131",
+    "ksp_version":  "any",
+    "comment":      "Texture only",
+    "license":      "MIT",
+    "tags": [
+        "config",
+        "graphics"
+    ],
     "depends": [
         { "name": "TextureReplacer" }
     ],

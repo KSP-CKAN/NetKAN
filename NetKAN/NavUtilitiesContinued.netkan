@@ -1,18 +1,18 @@
 {
-  "spec_version": "v1.4",
-  "install": [
-    {
-      "install_to": "GameData",
-      "find": "NavUtilities continued"
-    }
-  ],
-  "depends": [
-    {
-      "name": "ModuleManager"
-    }
-  ],
-  "$kref": "#/ckan/spacedock/1432",
-  "x_via": "Automated Linuxgurugamer CKAN script",
-  "identifier": "NavUtilitiesContinued",
-  "license": "unknown"
+    "spec_version": "v1.4",
+    "identifier":   "NavUtilitiesContinued",
+    "$kref":        "#/ckan/spacedock/1432",
+    "license":      "unknown",
+    "tags": [
+        "plugin",
+        "information",
+        "manned"
+    ],
+    "install": [ {
+        "find": "NavUtilities continued",
+        "install_to": "GameData"
+    } ],
+    "depends": [
+        { "name": "ModuleManager" }
+    ]
 }

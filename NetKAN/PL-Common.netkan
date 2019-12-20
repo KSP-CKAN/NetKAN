@@ -1,16 +1,17 @@
 {
-    "$kref": "#/ckan/spacedock/471",
-    "identifier": "PL-Common",
-    "name": "Panzer Labs Flags",
-    "abstract": "Flags shared across PanzerLabs' mods",
-    "license": "CC-BY-SA-4.0",
     "spec_version": "v1.4",
-    "ksp_version": "any",
-    "comment": "flagmod",
-    "install": [
-        {
-            "find": "Flags",
-            "install_to": "GameData/PanzerLabs"
-        }
-    ]
+    "identifier":   "PL-Common",
+    "name":         "Panzer Labs Flags",
+    "abstract":     "Flags shared across PanzerLabs' mods",
+    "$kref":        "#/ckan/spacedock/471",
+    "ksp_version":  "any",
+    "license":      "CC-BY-SA-4.0",
+    "comment":      "flagmod",
+    "tags": [
+        "config"
+    ],
+    "install": [ {
+        "find": "Flags",
+        "install_to": "GameData/PanzerLabs"
+    } ]
 }

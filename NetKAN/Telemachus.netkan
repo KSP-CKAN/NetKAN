@@ -1,15 +1,21 @@
 {
     "spec_version" : 1,
     "identifier"   : "Telemachus",
-    "$kref"        : "#/ckan/github/richardbunt/Telemachus",
     "name"         : "Telemachus",
     "abstract"     : "Telemetry and Flight Control in the Web Browser",
     "author"       : "Rich",
+    "$kref"        : "#/ckan/github/richardbunt/Telemachus",
+    "x_netkan_force_v": true,
+    "ksp_version_min": "1.2.0",
+    "ksp_version_max": "1.2.2",
+    "license"      : "MIT",
     "resources"    : {
-        "homepage" : "http://forum.kerbalspaceprogram.com/index.php?/topic/22623-104-2015-07-04-telemachus"
+        "homepage" : "https://forum.kerbalspaceprogram.com/index.php?/topic/144482-*"
     },
-    "ksp_version_min" : "1.2.0",
-    "ksp_version_max" : "1.2.2",
-    "license"      : "restricted",
-    "x_netkan_force_v": true
+    "tags": [
+        "plugin",
+        "information",
+        "control",
+        "app"
+    ]
 }

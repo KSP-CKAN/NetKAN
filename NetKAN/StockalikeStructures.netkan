@@ -3,6 +3,9 @@
     "identifier":   "StockalikeStructures",
     "$kref":        "#/ckan/spacedock/2061",
     "license":      "CC-BY-NC-ND-4.0",
+    "tags": [
+        "config"
+    ],
     "install": [ {
         "find":       "OSSNTR",
         "install_to": "GameData"

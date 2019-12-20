@@ -1,8 +1,12 @@
 {
-    "$kref": "#/ckan/spacedock/471",
-    "identifier": "PL-KSat",
-    "license": "CC-BY-SA-4.0",
     "spec_version": "v1.4",
+    "identifier":   "PL-KSat",
+    "$kref":        "#/ckan/spacedock/471",
+    "license":      "CC-BY-SA-4.0",
+    "tags": [
+        "parts",
+        "unmanned"
+    ],
     "depends": [
         { "name": "ModuleManager" },
         { "name": "PL-Common" }
@@ -10,11 +14,9 @@
     "suggests": [
         { "name": "RemoteTech" }
     ],
-    "install": [
-        {
-            "find": "PanzerLabs",
-            "install_to": "GameData",
-            "filter": "Flags"
-        }
-    ]
+    "install": [ {
+        "find": "PanzerLabs",
+        "install_to": "GameData",
+        "filter": "Flags"
+    } ]
 }
