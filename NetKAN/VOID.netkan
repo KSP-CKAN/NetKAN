@@ -2,22 +2,22 @@
     "spec_version"  : "v1.4",
     "identifier"    : "VOID",
     "$kref"         : "#/ckan/spacedock/1413",
-    "$vref": "#/ckan/ksp-avc",
+    "$vref"         : "#/ckan/ksp-avc",
     "license"       : "BSD-3-clause",
+    "tags": [
+        "plugin",
+        "information"
+    ],
     "supports": [
-        {
-            "name": "KSP-AVC"
-        }
+        { "name": "KSP-AVC" }
     ],
-    "install": [
-        {
-            "find": "VOID",
-            "install_to": "GameData"
-        }
-    ],
+    "install": [ {
+        "find": "VOID",
+        "install_to": "GameData"
+    } ],
     "depends": [
         { "name": "ToadicusToolsContinued" },
-        { "name" : "ToolbarController" },
-	{ "name" : "ClickThroughBlocker" }
+        { "name": "ToolbarController" },
+        { "name": "ClickThroughBlocker" }
     ]
 }

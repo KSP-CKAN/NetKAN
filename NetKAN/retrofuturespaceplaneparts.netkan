@@ -1,21 +1,18 @@
 {
-  "license": "MIT",
-  "identifier": "retrofuturespaceplaneparts",
-  "x_via": "Automated Linuxgurugamer CKAN script",
-  "$kref": "#/ckan/spacedock/197",
-  "depends": [
-    {
-      "name": "ModuleManager",
-      "name": "FirespitterCore"
-    }
-  ],
-  "install": [
-    {
-      "find": "RetroFuture",
-      "install_to": "GameData",
-      "filter"     : "Firespitter.dll"
-    }
-  ],
-  "spec_version": "v1.4"
+    "spec_version": "v1.4",
+    "identifier":   "retrofuturespaceplaneparts",
+    "$kref":        "#/ckan/spacedock/197",
+    "license":      "MIT",
+    "tags": [
+        "parts"
+    ],
+    "depends": [
+        { "name": "ModuleManager"   },
+        { "name": "FirespitterCore" }
+    ],
+    "install": [ {
+        "find":       "RetroFuture",
+        "install_to": "GameData",
+        "filter":     "Firespitter.dll"
+    } ]
 }
-

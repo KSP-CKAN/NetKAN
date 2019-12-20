@@ -7,16 +7,19 @@
     "resources"    : {
         "homepage" : "https://forum.kerbalspaceprogram.com/index.php?/topic/112905-*"
     },
+    "tags": [
+        "config",
+        "planet-pack"
+    ],
     "depends" : [
+        { "name": "Kopernicus" },
         { "name": "SigmaDimensions" }
     ],
     "suggests": [
         { "name": "KerbalEngineerRedux" }
     ],
-    "install": [
-        {
-            "find":       "KScale2",
-            "install_to": "GameData"
-        }
-    ]
+    "install": [ {
+        "find":       "KScale2",
+        "install_to": "GameData"
+    } ]
 }

@@ -3,6 +3,10 @@
     "identifier"   : "B5",
     "$kref"        : "#/ckan/spacedock/1765",
     "license"      : "BSD-2-clause",
+    "tags": [
+        "config",
+        "graphics"
+    ],
     "depends": [
         { "name": "ModuleManager"        },
         { "name": "SpaceXLaunchVehicles" }

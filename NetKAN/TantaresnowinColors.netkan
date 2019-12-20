@@ -1,9 +1,12 @@
 {
-    "$kref":        "#/ckan/spacedock/1621",
-    "x_via":        "Automated SpaceDock CKAN submission",
-    "license":      "MIT",
-    "identifier":   "TantaresnowinColors",
     "spec_version": "v1.4",
+    "identifier":   "TantaresnowinColors",
+    "$kref":        "#/ckan/spacedock/1621",
+    "license":      "MIT",
+    "tags": [
+        "config",
+        "graphics"
+    ],
     "depends": [
         { "name": "ModuleManager" },
         { "name": "NewTantares" },
@@ -12,8 +15,8 @@
     "suggests": [
         { "name": "Contares" }
     ],
-    "install": [{
+    "install": [ {
         "find":       "DnD_Alt",
         "install_to": "GameData"
-    }]
+    } ]
 }

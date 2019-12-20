@@ -1,16 +1,17 @@
 {
-    "$kref": "#/ckan/spacedock/1169",
-    "$vref": "#/ckan/ksp-avc",
-    "identifier": "AnalogControlContinued",
-    "x_via": "Automated SpaceDock CKAN submission",
     "spec_version": "v1.4",
-    "license": "GPL-3.0",
-    "install": [
-        {
-            "find": "Analog Control Continued",
-            "install_to": "GameData"
-        }
+    "identifier":   "AnalogControlContinued",
+    "$kref":        "#/ckan/spacedock/1169",
+    "$vref":        "#/ckan/ksp-avc",
+    "license":      "GPL-3.0",
+    "tags": [
+        "plugin",
+        "control"
     ],
+    "install": [ {
+        "find": "Analog Control Continued",
+        "install_to": "GameData"
+    } ],
     "x_netkan_override": [
         {
             "version": "2.1.3",
