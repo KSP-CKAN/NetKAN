@@ -4,11 +4,15 @@
     "name"             : "Science - Full Transmit!",
     "author"           : "Tekaoh",
     "$kref"            : "#/ckan/github/tekaohksp/Science-Full-Transmit",
-    "license"          : "MIT",
     "ksp_version"      : "any",
+    "license"          : "MIT",
     "resources": {
         "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/180005-*"
     },
+    "tags": [
+        "config",
+        "science"
+    ],
     "depends": [
         { "name": "ModuleManager" }
     ],

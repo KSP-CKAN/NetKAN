@@ -3,6 +3,11 @@
     "identifier"   : "Explainer",
     "$kref"        : "#/ckan/spacedock/1253",
     "license"      : "MIT",
+    "tags": [
+        "plugin",
+        "information",
+        "manned"
+    ],
     "depends": [
         { "name": "UKS" },
         { "name": "USI-LS" }

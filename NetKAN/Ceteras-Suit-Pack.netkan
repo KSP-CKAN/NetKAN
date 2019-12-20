@@ -3,12 +3,15 @@
     "identifier"   : "Ceteras-Suit-Pack",
     "$kref"        : "#/ckan/spacedock/1595",
     "license"      : "CC-BY-NC-SA-4.0",
-    "install" : [
-        {
-            "find"       : "TRR-Cetera",
-            "install_to" : "GameData"
-        }
+    "tags": [
+        "config",
+        "graphics",
+        "manned"
     ],
+    "install" : [ {
+        "find"       : "TRR-Cetera",
+        "install_to" : "GameData"
+    } ],
     "depends" : [
         { "name" : "TextureReplacerReplaced" },
         { "name" : "ModuleManager" }

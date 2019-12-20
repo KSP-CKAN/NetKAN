@@ -9,12 +9,15 @@
     "resources": {
         "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/163213-*"
     },
+    "tags": [
+        "parts"
+    ],
     "install": [ {
         "find":       "DarkSideTechnologyContinued",
         "install_to": "GameData"
     } ],
     "depends": [
-        { "name": "ModuleManager"             }
+        { "name": "ModuleManager" }
     ],
     "suggests" : [
         { "name": "CommunityTechTree" },
