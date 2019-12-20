@@ -4,6 +4,9 @@
     "$kref":        "#/ckan/spacedock/2100",
     "$vref":        "#/ckan/ksp-avc",
     "license":      "MIT",
+    "tags": [
+        "config"
+    ],
     "install": [ {
         "find":       "GameData/All Tweak",
         "install_to": "GameData"

@@ -1,24 +1,25 @@
 {
     "spec_version": "v1.4",
-    "$kref": "#/ckan/github/henrybauer/GPOSpeedPump",
-    "$vref": "#/ckan/ksp-avc",
-    "name": "GPOSpeedFuelPump",
-    "abstract": "Allows you to automatically transfer or balance fuel",
-    "author": "hab136",
-    "license": "GPL-3.0",
-    "identifier": "Goodspeed",
-    "resources" : {
-        "homepage" : "http://forum.kerbalspaceprogram.com/index.php?/topic/137489-11-gpospeedfuelpump-continued/",
+    "identifier":   "Goodspeed",
+    "name":         "GPOSpeedFuelPump",
+    "abstract":     "Allows you to automatically transfer or balance fuel",
+    "author":       "hab136",
+    "$kref":        "#/ckan/github/henrybauer/GPOSpeedPump",
+    "$vref":        "#/ckan/ksp-avc",
+    "license":      "GPL-3.0",
+    "resources": {
+        "homepage" : "http://forum.kerbalspaceprogram.com/index.php?/topic/137489-*",
         "x_screenshot": "https://spacedock.info/content/hab136_461/GPOSpeedFuelPump/GPOSpeedFuelPump-1461173729.569611.png"
     },
-    "depends" : [
+    "tags": [
+        "plugin"
+    ],
+    "depends": [
         { "name" : "ModuleManager" }
     ],
-    "install" : [
-        {
-            "find" : "GPOSpeedFuelPump",
-            "install_to" : "GameData",
-            "filter" : "sourcecode"
-        }
-    ]
+    "install": [ {
+        "find" : "GPOSpeedFuelPump",
+        "install_to" : "GameData",
+        "filter" : "sourcecode"
+    } ]
 }

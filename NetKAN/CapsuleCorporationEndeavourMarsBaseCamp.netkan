@@ -4,9 +4,12 @@
     "$kref":        "#/ckan/spacedock/1615",
     "license":      "CC-BY-NC-SA-3.0",
     "x_netkan_epoch": 1,
+    "tags": [
+        "parts",
+        "manned"
+    ],
     "install": [ {
         "find":       "CapsuleCorp",
         "install_to": "GameData"
-    } ],
-    "x_via": "Automated SpaceDock CKAN submission"
+    } ]
 }

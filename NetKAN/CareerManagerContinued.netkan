@@ -1,21 +1,22 @@
 {
-  "spec_version": "v1.4",
-  "install": [
-    {
-      "install_to": "GameData",
-      "find": "CareerManager"
-    }
-  ],
-  "conflicts" : [
-     { "name": "CareerManager" }
-  ],
-  "depends": [
- 	{ "name" : "ToolbarController" },
-	{ "name" : "ClickThroughBlocker" }
-  ],
-  "$vref": "#/ckan/ksp-avc",
-  "$kref": "#/ckan/spacedock/1221",
-  "x_via": "Automated Linuxgurugamer CKAN script",
-  "identifier": "CareerManagerContinued",
-  "license": "GPL-3.0"
+    "spec_version": "v1.4",
+    "identifier":   "CareerManagerContinued",
+    "$kref":        "#/ckan/spacedock/1221",
+    "$vref":        "#/ckan/ksp-avc",
+    "license":      "GPL-3.0",
+    "tags": [
+        "plugin",
+        "career"
+    ],
+    "install": [ {
+        "find": "CareerManager",
+        "install_to": "GameData"
+    } ],
+    "conflicts" : [
+        { "name": "CareerManager" }
+    ],
+    "depends": [
+        { "name" : "ToolbarController" },
+        { "name" : "ClickThroughBlocker" }
+    ]
 }

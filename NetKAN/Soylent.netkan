@@ -1,18 +1,20 @@
 {
-    "license": "BSD-2-clause",
-    "identifier": "Soylent",
     "spec_version": "v1.4",
-    "$kref": "#/ckan/spacedock/355",
+    "identifier":   "Soylent",
+    "$kref":        "#/ckan/spacedock/355",
+    "license":      "BSD-2-clause",
+    "tags": [
+        "plugin",
+        "manned"
+    ],
     "depends": [
         { "name": "ModuleManager" }
     ],
     "recommends": [
         { "name": "TACLS" }
     ],
-    "install": [
-        {
-            "file"       : "UberDyneAstronautics",
-            "install_to" : "GameData"
-        }
-    ]
+    "install": [ {
+        "file"       : "UberDyneAstronautics",
+        "install_to" : "GameData"
+    } ]
 }
