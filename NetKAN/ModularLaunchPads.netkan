@@ -3,5 +3,7 @@
     "identifier":   "ModularLaunchPads",
     "$kref":        "#/ckan/spacedock/1767",
     "license":      "CC-BY-NC-SA",
-    "x_via":        "Automated SpaceDock CKAN submission"
+    "tags": [
+        "parts"
+    ]
 }

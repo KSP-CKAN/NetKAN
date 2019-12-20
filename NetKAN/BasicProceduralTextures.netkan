@@ -3,7 +3,10 @@
     "identifier":   "BasicProceduralTextures",
     "$kref":        "#/ckan/spacedock/1845",
     "license":      "MIT",
-    "x_via":        "Automated SpaceDock CKAN submission",
+    "tags": [
+        "config",
+        "graphics"
+    ],
     "install": [ {
         "find":       "GameData/BasicProceduralTextures",
         "install_to": "GameData"

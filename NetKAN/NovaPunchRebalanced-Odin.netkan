@@ -1,23 +1,23 @@
 {
-  "spec_version": "v1.4",
-  "identifier":   "NovaPunchRebalanced-Odin",
-  "name":         "NovaPunchRebalanced Odin",
-  "license":      "CC-BY-SA-4.0",
-  "$kref":        "#/ckan/spacedock/2003",
-  "$vref":        "#/ckan/ksp-avc",
-  "x_via":        "Automated Linuxgurugamer CKAN script",
-  "resources": {
-    "homepage":   "https://forum.kerbalspaceprogram.com/index.php?/topic/178797-14x-novapunch-rebalanced-out-of-beta/",
-    "repository": "https://github.com/linuxgurugamer/NovaPunch/"
-  },
-  "depends": [
-    { "name": "ModuleManager"       },
-    { "name": "NovaPunchRebalanced" }
-  ],
-  "install": [
-    {
-      "find":       "NovaPunch/Odin",
-      "install_to": "GameData/NovaPunch"
-    }
-  ]
+    "spec_version": "v1.4",
+    "identifier":   "NovaPunchRebalanced-Odin",
+    "name":         "NovaPunchRebalanced Odin",
+    "$kref":        "#/ckan/spacedock/2003",
+    "$vref":        "#/ckan/ksp-avc",
+    "license":      "CC-BY-SA-4.0",
+    "resources": {
+        "homepage":   "https://forum.kerbalspaceprogram.com/index.php?/topic/178797-*",
+        "repository": "https://github.com/linuxgurugamer/NovaPunch/"
+    },
+    "tags": [
+        "parts"
+    ],
+    "depends": [
+        { "name": "ModuleManager"       },
+        { "name": "NovaPunchRebalanced" }
+    ],
+    "install": [ {
+        "find":       "NovaPunch/Odin",
+        "install_to": "GameData/NovaPunch"
+    } ]
 }

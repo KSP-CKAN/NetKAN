@@ -1,29 +1,31 @@
 {
     "spec_version"   : "v1.4",
-    "$kref"          : "#/ckan/github/themaster402/AstronomersVisualPack/asset_match/AVP_8kTextures.zip",
-    "ksp_version_min": "1.2",
-    "comment"        : "Textures only",
     "identifier"     : "AVP-8kTextures",
     "name"           : "Astronomer's Visual Pack-8k Textures",
     "abstract"       : "Textures for Astronomer's Visual pack",
+    "comment"        : "Textures only",
+    "$kref"          : "#/ckan/github/themaster402/AstronomersVisualPack/asset_match/AVP_8kTextures.zip",
+    "ksp_version_min": "1.2",
     "license"        : "LGPL-3.0",
     "release_status" : "stable",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/160878-*"
+    },
+    "tags": [
+        "library",
+        "graphics"
+    ],
     "provides": [
         "AVP-Textures"
-     ],
+    ],
     "conflicts": [
         { "name": "AVP-Textures" }
     ],
     "depends": [
         { "name": "AstronomersVisualPack" }
     ],
-    "install": [
-        {
-            "find"       : "GameData/AstronomersVisualPack",
-            "install_to" : "GameData"
-        }
-    ],
-    "resources": {
-        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/160878-*"
-    }
+    "install": [ {
+        "find"       : "GameData/AstronomersVisualPack",
+        "install_to" : "GameData"
+    } ]
 }

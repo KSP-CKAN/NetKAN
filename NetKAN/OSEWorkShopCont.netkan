@@ -1,21 +1,22 @@
 {
-  "spec_version": "v1.26",
-  "install": [
-    {
-      "install_to": "GameData",
-      "find": "Workshop"
-    }
-  ],
-  "depends": [
-    { "name": "CommunityResourcePack" },
-    { "name": "ModuleManager" },
-    { "name": "FirespitterCore" },
-    { "name": "KIS" }
-  ],
-  "$vref": "#/ckan/ksp-avc",
-  "$kref": "#/ckan/spacedock/1448",
-  "x_via": "Automated Linuxgurugamer CKAN script",
-  "identifier": "OSEWorkShopCont",
-  "license": "CC-BY-NC-SA-4.0",
-  "replaced_by": { "name": "OSEWorkShopReworked" }
+    "spec_version": "v1.26",
+    "identifier": "OSEWorkShopCont",
+    "$kref":      "#/ckan/spacedock/1448",
+    "$vref":      "#/ckan/ksp-avc",
+    "license":    "CC-BY-NC-SA-4.0",
+    "tags": [
+        "plugin",
+        "parts"
+    ],
+    "replaced_by": { "name": "OSEWorkShopReworked" },
+    "install": [ {
+        "install_to": "GameData",
+        "find": "Workshop"
+    } ],
+    "depends": [
+        { "name": "CommunityResourcePack" },
+        { "name": "ModuleManager" },
+        { "name": "FirespitterCore" },
+        { "name": "KIS" }
+    ]
 }

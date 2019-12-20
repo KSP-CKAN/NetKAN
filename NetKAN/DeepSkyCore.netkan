@@ -3,7 +3,10 @@
     "identifier":   "DeepSkyCore",
     "$kref":        "#/ckan/spacedock/1631",
     "license":      "CC-BY-NC-SA-4.0",
-    "x_via":        "Automated SpaceDock CKAN submission",
+    "tags": [
+        "config",
+        "library"
+    ],
     "install": [ {
         "find":       "DeepSky",
         "install_to": "GameData"
