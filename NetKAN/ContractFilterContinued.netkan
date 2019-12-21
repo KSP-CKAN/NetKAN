@@ -1,21 +1,22 @@
 {
-    "identifier": "ContractFilterContinued",
-    "abstract" : "Allows you as the user to do, is to configure how you want each type of contract to be when you accept it or reject it.",
-    "$kref": "#/ckan/spacedock/820",
-    "$vref" : "#/ckan/ksp-avc",
     "spec_version": "v1.4",
-    "license": "CC-BY-NC-SA-4.0",
+    "identifier":   "ContractFilterContinued",
+    "abstract":     "Allows the user to configure which contracts are available",
+    "$kref":        "#/ckan/spacedock/820",
+    "$vref":        "#/ckan/ksp-avc",
+    "license":      "CC-BY-NC-SA-4.0",
     "resources" : {
         "repository"  : "https://github.com/linuxgurugamer/ContractFilterContinued"
     },
+    "tags": [
+        "plugin",
+        "career"
+    ],
     "conflicts" : [
         { "name" : "ContractFilter" }
     ],
-    "install" : [
-        {
-            "find"       : "ContractFilterContinued",
-            "install_to" : "GameData"
-        }
-    ]
-
+    "install" : [ {
+        "find"       : "ContractFilterContinued",
+        "install_to" : "GameData"
+    } ]
 }

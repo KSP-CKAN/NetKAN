@@ -1,21 +1,18 @@
 {
-  "spec_version": "v1.4",
-  "install": [
-    {
-      "install_to": "GameData",
-      "find": "MoreHabitalableAreasMod"
-    }
-  ],
-  "depends": [
-    {
-      "name": "ModuleManager"
-    },
-    {
-      "name": "Kopernicus"
-    }
-  ],
-  "$kref": "#/ckan/spacedock/1215",
-  "x_via": "Automated Linuxgurugamer CKAN script",
-  "identifier": "MoreHabPlanets",
-  "license": "GPL-2.0"
+    "spec_version": "v1.4",
+    "identifier":   "MoreHabPlanets",
+    "$kref":        "#/ckan/spacedock/1215",
+    "license":      "GPL-2.0",
+    "tags": [
+        "config",
+        "planet-pack"
+    ],
+    "install": [ {
+        "find": "GameData/MoreHabitalableAreasMod",
+        "install_to": "GameData"
+    } ],
+    "depends": [
+        { "name": "ModuleManager" },
+        { "name": "Kopernicus"  }
+    ]
 }

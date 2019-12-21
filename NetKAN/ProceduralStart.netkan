@@ -1,31 +1,26 @@
 {
-	"spec_version": "v1.4",
-	"install": [
-		{
-		"find": "ProceduralStart",
-		"install_to": "GameData"
-		}
+    "spec_version": "v1.4",
+	"identifier":   "ProceduralStart",
+	"abstract":     "This set of configs makes all parts and sizes from the Procedural Parts mod available at the start of a new game.",
+    "$kref":        "#/ckan/github/Galileo88/ProceduralStart",
+	"$vref":        "#/ckan/ksp-avc",
+    "license":      "public-domain",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/165573-*"
+    },
+	"tags": [
+		"config",
+		"career"
 	],
-	"resources"	: 
-		{
-		"homepage"	: "https://forum.kerbalspaceprogram.com/index.php?/topic/165573-ksp-13-procedural-start-v10-16-sept-2017/"
-		},
-	"depends": [
-		{
-		"name": "ModuleManager"
-		},
-		{
-		"name": "ProceduralParts"
-		}
-	],
+    "install": [ {
+    	"find": "ProceduralStart",
+    	"install_to": "GameData"
+    } ],
+    "depends": [
+        { "name": "ModuleManager" },
+        { "name": "ProceduralParts" }
+    ],
     "recommends": [
-		{
-            "name": "MainSailorTextures-Complete"
-        }
-	],
-	"$vref": "#/ckan/ksp-avc",
-	"$kref": "#/ckan/github/Galileo88/ProceduralStart",
-	"identifier": "ProceduralStart",
-	"abstract" : "This set of configs makes all parts and sizes from the Procedural Parts mod available at the start of a new game.",
-	"license" : "public-domain"
+        { "name": "MainSailorTextures-Complete" }
+    ]
 }

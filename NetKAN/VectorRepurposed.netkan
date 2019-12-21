@@ -1,9 +1,12 @@
 {
-    "$kref": "#/ckan/spacedock/27",
     "spec_version": "v1.4",
-    "license": "MIT",
-    "identifier": "VectorRepurposed",
-    "depends"      : [
+    "identifier":   "VectorRepurposed",
+    "$kref":        "#/ckan/spacedock/27",
+    "license":      "MIT",
+    "tags": [
+        "config"
+    ],
+    "depends": [
         { "name" : "ModuleManager" }
     ]
 }
