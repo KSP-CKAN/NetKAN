@@ -1,16 +1,16 @@
 {
     "spec_version": "v1.4",
-    "identifier": "Space1999EagleTransporter3Pack",
-    "$kref": "#/ckan/spacedock/1373",
-    "license": "CC-BY-NC-SA-4.0",
-    "install": [
-        {
-            "find": "MT-Eagle",
-            "install_to": "GameData"
-        },
-        {
-            "file": "Ships/SPH",
-            "install_to": "Ships"
-        }
-    ]
+    "identifier":   "Space1999EagleTransporter3Pack",
+    "$kref":        "#/ckan/spacedock/1373",
+    "license":      "CC-BY-NC-SA-4.0",
+    "tags": [
+        "parts"
+    ],
+    "install": [ {
+        "find": "MT-Eagle",
+        "install_to": "GameData"
+    }, {
+        "file": "Ships/SPH",
+        "install_to": "Ships"
+    } ]
 }

@@ -1,25 +1,29 @@
 {
     "spec_version"  : "v1.4",
     "identifier"    : "PersistentDynamicPodNames",
-    "$kref"         : "#/ckan/github/linuxgurugamer/PersistentDynamicPodNames",
-    "$vref"           : "#/ckan/ksp-avc",
-    "license"       : "CC-BY-SA-4.0",
     "name"          : "Persistent Dynamic Pod Names",
     "abstract"      : "Configurable names for pods and ships",
+    "$kref"         : "#/ckan/github/linuxgurugamer/PersistentDynamicPodNames",
+    "$vref"         : "#/ckan/ksp-avc",
+    "license"       : "CC-BY-SA-4.0",
     "resources" : {
-        "homepage"  :   "http://forum.kerbalspaceprogram.com/index.php?/topic/142900-12-persistent-dynamic-pod-names-release/"
+        "homepage":   "http://forum.kerbalspaceprogram.com/index.php?/topic/142900-*"
     },
-    "recommends": [ { "name": "JanitorsCloset" } ],
+    "tags": [
+        "plugin",
+        "convenience"
+    ],
+    "recommends": [
+        { "name": "JanitorsCloset" }
+    ],
     "depends": [
         { "name" : "ModuleManager" }
     ],
-    "install"     : [
-        {
-            "find"    : "PersistentDynamicPodNames",
-            "install_to": "GameData",
-            "filter_regexp": "ModuleManager.+\\.dll"
-        }
-    ],
+    "install": [ {
+        "find"    : "PersistentDynamicPodNames",
+        "install_to": "GameData",
+        "filter_regexp": "ModuleManager.+\\.dll"
+    } ],
     "x_netkan_override": [
         {
             "version": "0.1.8",
@@ -30,4 +34,3 @@
         }
     ]
 }
-

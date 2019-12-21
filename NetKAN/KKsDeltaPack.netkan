@@ -3,6 +3,9 @@
     "identifier":   "KKsDeltaPack",
     "$kref":        "#/ckan/spacedock/2167",
     "license":      "restricted",
+    "tags": [
+        "parts"
+    ],
     "install": [ {
         "find":       "Launchers Pack",
         "install_to": "GameData"

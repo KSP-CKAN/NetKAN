@@ -1,7 +1,10 @@
 {
     "spec_version": "v1.4",
-    "identifier": "SpaceTaxi",
-    "$kref": "#/ckan/spacedock/1856",
-    "license": "MIT",
-    "x_via": "Automated SpaceDock CKAN submission"
+    "identifier":   "SpaceTaxi",
+    "$kref":        "#/ckan/spacedock/1856",
+    "license":      "MIT",
+    "tags": [
+        "parts",
+        "manned"
+    ]
 }

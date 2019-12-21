@@ -1,24 +1,23 @@
 {
     "spec_version": "v1.2",
-    "identifier": "AlternatorsForAll",
-    "$kref": "#/ckan/spacedock/186",
-    "license": "MIT",
+    "identifier":   "AlternatorsForAll",
+    "$kref":        "#/ckan/spacedock/186",
+    "x_netkan_epoch": "1",
+    "license":      "MIT",
+    "tags": [
+        "config"
+    ],
     "depends": [
         { "name": "ModuleManager" }
     ],
-    "install": [
-        {
-            "file"       : "GameData/The_Sea_Four",
-            "install_to" : "GameData"
-        },
-        {
-            "file"       : "Optional/Monoprop alternators/GameData/The_Sea_Four",
-            "install_to" : "GameData"
-        },
-        {
-            "file"       : "Optional/SRB alternators/GameData/The_Sea_Four",
-            "install_to" : "GameData"
-        }
-    ],
-    "x_netkan_epoch": "1"
+    "install": [ {
+        "file"       : "GameData/The_Sea_Four",
+        "install_to" : "GameData"
+    }, {
+        "file"       : "Optional/Monoprop alternators/GameData/The_Sea_Four",
+        "install_to" : "GameData"
+    }, {
+        "file"       : "Optional/SRB alternators/GameData/The_Sea_Four",
+        "install_to" : "GameData"
+    } ]
 }

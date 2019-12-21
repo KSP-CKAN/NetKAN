@@ -3,6 +3,10 @@
     "identifier":   "SimplexTechTree",
     "$kref":        "#/ckan/spacedock/1848",
     "license":      "CC-BY-NC-SA",
+    "tags": [
+        "config",
+        "tech-tree"
+    ],
     "install": [ {
         "find":       "AngleCanMods",
         "install_to": "GameData"
