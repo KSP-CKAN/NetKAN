@@ -3,6 +3,10 @@
     "identifier":   "KolyphemusSystemContinued",
     "$kref":        "#/ckan/spacedock/2055",
     "license":      "CC-BY-NC-SA",
+    "tags": [
+        "config",
+        "planet-pack"
+    ],
     "install": [ {
         "find":       "KolyphemusSystemContinued/Kolyphemus",
         "install_to": "GameData"

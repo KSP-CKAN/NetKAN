@@ -1,21 +1,24 @@
 {
     "spec_version"       : "v1.16",
     "identifier"         : "MusicMuteContinued",
-    "$kref"              : "#/ckan/github/nimobeeren/MusicMute",
     "name"               : "MusicMute",
     "abstract"           : "A simple mod that toggles the game's music with a hotkey.",
-    "license"            : "GPL-3.0",
+    "$kref"              : "#/ckan/github/nimobeeren/MusicMute",
     "ksp_version_min"    : "1.2",
     "ksp_version_max"    : "1.3",
     "ksp_version_strict" : false,
+    "license"            : "GPL-3.0",
     "resources": {
-        "homepage"   : "http://forum.kerbalspaceprogram.com/index.php?/topic/107951-1",
+        "homepage"   : "https://forum.kerbalspaceprogram.com/index.php?/topic/107951-*",
         "repository" : "https://github.com/nimobeeren/MusicMute"
     },
-    "install": [
-        {
-            "find"       : "GameData/MusicMute",
-            "install_to" : "GameData"
-        }
-    ]
+    "tags": [
+        "plugin",
+        "sound",
+        "convenience"
+    ],
+    "install": [ {
+        "find"       : "GameData/MusicMute",
+        "install_to" : "GameData"
+    } ]
 }

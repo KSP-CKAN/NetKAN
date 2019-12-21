@@ -3,6 +3,10 @@
     "identifier":   "MilkyWay-Skybox",
     "$kref":        "#/ckan/spacedock/2004",
     "license":      "CC-BY-NC-ND-4.0",
+    "tags": [
+        "config",
+        "graphics"
+    ],
     "depends": [
         { "name": "TextureReplacer" }
     ],

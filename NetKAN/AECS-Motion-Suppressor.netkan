@@ -1,27 +1,26 @@
 {
-  "license": "MIT",
-  "identifier": "AECS-Motion-Suppressor",
-  "x_via": "Automated Linuxgurugamer CKAN script",
-  "$kref": "#/ckan/spacedock/2095",
-  "$vref": "#/ckan/ksp-avc",
-  "resources": {
-    "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/182622-aecs",
-    "repository": "https://github.com/linuxgurugamer/AECS_Motion_Suppressor"
-  },
-  "depends": [
-    {
-      "name": "ModuleManager"
-    }
-  ],
-  "conflicts": [
-      { "name": "ControlSurfaceToggle" },
-      { "name": "SmartActuation" }
-  ],
-  "install": [
-    {
-      "find": "AECS_Motion_Suppressor",
-      "install_to": "GameData"
-    }
-  ],
-  "spec_version": "v1.4"
+    "spec_version": "v1.4",
+    "identifier":   "AECS-Motion-Suppressor",
+    "$kref":        "#/ckan/spacedock/2095",
+    "$vref":        "#/ckan/ksp-avc",
+    "license":      "MIT",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/182622-*",
+        "repository": "https://github.com/linuxgurugamer/AECS_Motion_Suppressor"
+    },
+    "tags": [
+        "plugin",
+        "control"
+    ],
+    "depends": [
+        { "name": "ModuleManager" }
+    ],
+    "conflicts": [
+        { "name": "ControlSurfaceToggle" },
+        { "name": "SmartActuation" }
+    ],
+    "install": [ {
+        "find": "AECS_Motion_Suppressor",
+        "install_to": "GameData"
+    } ]
 }

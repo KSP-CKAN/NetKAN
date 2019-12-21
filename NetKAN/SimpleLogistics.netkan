@@ -1,17 +1,17 @@
 {
-    "$kref": "#/ckan/spacedock/1079",
     "spec_version": "v1.4",
-    "identifier": "SimpleLogistics",
-    "x_via": "Manual SpaceDock CKAN submission",
-    "license": "GPL-3.0",
-    "author": "RealGecko",
+    "identifier":   "SimpleLogistics",
+    "author":       "RealGecko",
+    "$kref":        "#/ckan/spacedock/1079",
+    "license":      "GPL-3.0",
+    "tags": [
+        "plugin"
+    ],
     "depends": [
-         {
-             "name": "ModuleManager"
-         }
-     ],
-    "recommends"     : [
-        {"name" : "EasyVesselSwitch"},
-        {"name" : "AlternateResourcePanel"}
+        { "name": "ModuleManager" }
+    ],
+    "recommends": [
+        { "name": "EasyVesselSwitch"       },
+        { "name": "AlternateResourcePanel" }
     ]
 }
