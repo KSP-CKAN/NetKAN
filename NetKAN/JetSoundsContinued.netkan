@@ -3,7 +3,10 @@
     "identifier":   "JetSoundsContinued",
     "$kref":        "#/ckan/spacedock/1709",
     "license":      "MIT",
-    "x_via":        "Automated SpaceDock CKAN submission",
+    "tags": [
+        "plugin",
+        "sound"
+    ],
     "install": [ {
         "find":       "JetSoundsCont",
         "install_to": "GameData"

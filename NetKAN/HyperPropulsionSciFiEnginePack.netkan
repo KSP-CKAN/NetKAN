@@ -3,6 +3,9 @@
     "identifier":   "HyperPropulsionSciFiEnginePack",
     "$kref":        "#/ckan/spacedock/2137",
     "license":      "CC-BY-NC-ND-4.0",
+    "tags": [
+        "parts"
+    ],
     "install": [ {
         "find":       "KerboNerdLaboratories",
         "install_to": "GameData"

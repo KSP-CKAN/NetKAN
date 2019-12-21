@@ -2,15 +2,16 @@
     "spec_version" : "v1.4",
     "identifier"   : "MoarMk1",
     "$kref"        : "#/ckan/spacedock/526",
+    "x_netkan_epoch": "1",
     "license"      : "CC-BY-NC-SA-4.0",
     "resources": {
-        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/136987-passinglurkers-random-dev"
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/136987-*"
     },
-    "install": [
-        {
-            "find": "GameData/MoarMk1",
-            "install_to": "GameData"
-        }
+    "tags": [
+        "parts"
     ],
-    "x_netkan_epoch": "1"
+    "install": [ {
+        "find": "GameData/MoarMk1",
+        "install_to": "GameData"
+    } ]
 }

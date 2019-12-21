@@ -3,7 +3,9 @@
     "identifier":   "SinkEmAll",
     "$kref":        "#/ckan/spacedock/1705",
     "license":      "MIT",
-    "x_via":        "Automated SpaceDock CKAN submission",
+    "tags": [
+        "plugin"
+    ],
     "depends": [
         { "name": "ModuleManager" }
     ]

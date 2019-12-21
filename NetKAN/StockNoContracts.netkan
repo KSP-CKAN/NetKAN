@@ -4,6 +4,10 @@
     "$kref":        "#/ckan/spacedock/111",
     "$vref":        "#/ckan/ksp-avc",
     "license":      "Unlicense",
+    "tags": [
+        "config",
+        "career"
+    ],
     "depends": [
         { "name": "ModuleManager", "min_version": "2.6.0" }
     ]

@@ -3,6 +3,10 @@
     "identifier"   : "PSA-Greenhouse",
     "$kref"        : "#/ckan/spacedock/767",
     "license"      : "GPL-3.0",
+    "tags": [
+        "parts",
+        "manned"
+    ],
     "depends" : [
         { "name" : "ModuleManager"}
     ],
@@ -12,10 +16,8 @@
     "suggests" : [
         { "name" : "UKS"}
     ],
-    "install" : [
-        {
-            "find"       : "PSA_Greenhouse",
-            "install_to" : "GameData"
-        }
-    ]
+    "install" : [ {
+        "find"       : "PSA_Greenhouse",
+        "install_to" : "GameData"
+    } ]
 }
