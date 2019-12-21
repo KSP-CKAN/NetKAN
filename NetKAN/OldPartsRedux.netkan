@@ -3,5 +3,7 @@
     "identifier":   "OldPartsRedux",
     "$kref":        "#/ckan/spacedock/1744",
     "license":      "MIT",
-    "x_via":        "Automated SpaceDock CKAN submission"
+    "tags": [
+        "parts"
+    ]
 }

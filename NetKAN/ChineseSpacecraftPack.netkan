@@ -1,9 +1,11 @@
 {
-    "$kref": "#/ckan/spacedock/1522",
-    "x_via": "Automated SpaceDock CKAN submission",
-    "license": "CC-BY-SA-4.0",
-    "identifier": "ChineseSpacecraftPack",
     "spec_version": "v1.4",
+    "identifier":   "ChineseSpacecraftPack",
+    "$kref":        "#/ckan/spacedock/1522",
+    "license":      "CC-BY-SA-4.0",
+    "tags": [
+        "parts"
+    ],
     "depends": [
         { "name": "RasterPropMonitor" },
         { "name": "KIS" },

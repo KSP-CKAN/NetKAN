@@ -1,7 +1,10 @@
 {
-    "license": "GPL-3.0",
-    "identifier": "TreeToppler",
-    "x_via": "Automated SpaceDock CKAN submission",
-    "$kref": "#/ckan/spacedock/645",
-    "spec_version": "v1.4"
+    "spec_version": "v1.4",
+    "identifier":   "TreeToppler",
+    "$kref":        "#/ckan/spacedock/645",
+    "license":      "GPL-3.0",
+    "tags": [
+        "plugin",
+        "career"
+    ]
 }

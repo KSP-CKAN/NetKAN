@@ -1,7 +1,11 @@
 {
-    "$kref": "#/ckan/spacedock/962",
-    "identifier": "Wwwwwwwww",
     "spec_version": "v1.4",
-    "license": "MIT",
-    "x_via": "Automated SpaceDock CKAN submission"
+    "identifier":   "Wwwwwwwww",
+    "$kref":        "#/ckan/spacedock/962",
+    "license":      "MIT",
+    "tags": [
+        "plugin",
+        "manned",
+        "convenience"
+    ]
 }

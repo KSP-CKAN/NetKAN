@@ -3,8 +3,11 @@
     "identifier":   "VABReorienter",
     "$kref":        "#/ckan/spacedock/1759",
     "license":      "CC-BY-NC-SA",
-    "x_via":        "Automated SpaceDock CKAN submission",
     "resources": {
         "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/172840-*"
-    }
+    },
+    "tags": [
+        "plugin",
+        "convenience"
+    ]
 }

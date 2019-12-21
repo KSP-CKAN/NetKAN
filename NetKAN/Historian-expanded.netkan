@@ -11,9 +11,12 @@
     "resources": {
         "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/138848-*"
     },
-    "suggests" : [ 
+    "tags": [
+        "plugin"
+    ],
+    "suggests" : [
         { "name" : "Toolbar"              },
-        { "name" : "AutomatedScreenshots" } 
+        { "name" : "AutomatedScreenshots" }
     ],
     "install": [ {
         "file"       : "GameData/Historian",

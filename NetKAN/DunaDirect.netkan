@@ -3,6 +3,10 @@
     "identifier":   "DunaDirect",
     "$kref":        "#/ckan/spacedock/1994",
     "license":      "CC-BY-4.0",
+    "tags": [
+        "parts",
+        "config"
+    ],
     "install": [ {
         "find":       "GameData/MarsDirect",
         "install_to": "GameData"
