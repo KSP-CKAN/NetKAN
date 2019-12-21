@@ -1,18 +1,19 @@
 {
-  "spec_version": "v1.4",
-  "install": [
-    {
-      "install_to": "GameData",
-      "find": "TacAtomicClock"
-    }
-  ],
-  "depends": [
-        { "name" : "ToolbarController" },
-	{ "name" : "ClickThroughBlocker" }
+    "spec_version": "v1.4",
+    "identifier": "TacAtomicClockIrradiated",
+    "$kref": "#/ckan/spacedock/1483",
+    "$vref": "#/ckan/ksp-avc",
+    "license": "CC-BY-NC-SA",
+    "tags": [
+        "plugin",
+        "information"
     ],
-  "$vref": "#/ckan/ksp-avc",
-  "$kref": "#/ckan/spacedock/1483",
-  "x_via": "Automated Linuxgurugamer CKAN script",
-  "identifier": "TacAtomicClockIrradiated",
-  "license": "CC-BY-NC-SA"
+    "install": [ {
+        "find": "TacAtomicClock",
+        "install_to": "GameData"
+    } ],
+    "depends": [
+        { "name" : "ToolbarController" },
+        { "name" : "ClickThroughBlocker" }
+    ]
 }

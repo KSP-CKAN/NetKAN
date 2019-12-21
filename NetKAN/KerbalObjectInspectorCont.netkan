@@ -1,18 +1,18 @@
 {
-  "spec_version": "v1.4",
-  "install": [
-    {
-      "install_to": "GameData",
-      "find": "KerbalObjectInspector"
-    }
-  ],
+    "spec_version": "v1.4",
+    "identifier":   "KerbalObjectInspectorCont",
+    "$kref":        "#/ckan/spacedock/1040",
+    "$vref":        "#/ckan/ksp-avc",
+    "license":      "GPL-3.0",
+    "tags": [
+        "plugin"
+    ],
+    "install": [ {
+        "find": "KerbalObjectInspector",
+        "install_to": "GameData"
+    } ],
     "depends": [
         { "name" : "ToolbarController" },
-	{ "name" : "ClickThroughBlocker" }
-    ],
-  "$vref": "#/ckan/ksp-avc",
-  "$kref": "#/ckan/spacedock/1040",
-  "x_via": "Automated Linuxgurugamer CKAN script",
-  "identifier": "KerbalObjectInspectorCont",
-  "license": "GPL-3.0"
+        { "name" : "ClickThroughBlocker" }
+    ]
 }

@@ -3,5 +3,8 @@
     "identifier":   "ParkingBrake",
     "$kref":        "#/ckan/spacedock/2018",
     "$vref":        "#/ckan/ksp-avc",
-    "license":      "GPL-3.0"
+    "license":      "GPL-3.0",
+    "tags": [
+        "config"
+    ]
 }

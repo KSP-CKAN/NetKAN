@@ -3,10 +3,12 @@
     "identifier":   "ElonsRoadsterStarman",
     "$kref":        "#/ckan/spacedock/1797",
     "license":      "MIT",
-    "x_via":        "Automated SpaceDock CKAN submission",
+    "tags": [
+        "parts"
+    ],
     "install": [ {
         "find_regexp": "Starman.*",
         "install_to":  "GameData",
         "filter":      "Ships"
-    }]
+    } ]
 }

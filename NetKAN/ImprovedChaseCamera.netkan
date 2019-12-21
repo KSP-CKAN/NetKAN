@@ -3,9 +3,12 @@
     "identifier":   "ImprovedChaseCamera",
     "$kref":        "#/ckan/github/PapaJoesSoup/ImprovedChaseCamera",
     "$vref":        "#/ckan/ksp-avc",
+    "x_netkan_force_v": true,
     "license":      "GPL-3.0",
     "resources": {
         "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/173436-*"
     },
-    "x_netkan_force_v": true
+    "tags": [
+        "plugin"
+    ]
 }

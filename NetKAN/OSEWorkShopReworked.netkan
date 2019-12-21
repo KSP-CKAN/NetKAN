@@ -1,25 +1,26 @@
 {
-  "spec_version": "v1.4",
-  "install": [
-    {
-      "install_to": "GameData",
-      "find": "Workshop"
-    }
-  ],
-  "depends": [
-    { "name": "CommunityResourcePack" },
-    { "name": "ModuleManager" },
-    { "name": "KIS" },
-    { "name" : "ClickThroughBlocker" },
-    { "name": "SpaceTuxLibrary" }
-  ],
-  "conflicts": [ 
-    { "name": "Workshop" },
-    { "name": "OSEWorkShopCont" } 
-  ],
-  "$vref": "#/ckan/ksp-avc",
-  "$kref": "#/ckan/spacedock/2086",
-  "x_via": "Automated Linuxgurugamer CKAN script",
-  "identifier": "OSEWorkShopReworked",
-  "license": "CC-BY-NC-SA-4.0"
+    "spec_version": "v1.4",
+    "identifier":   "OSEWorkShopReworked",
+    "$vref":        "#/ckan/ksp-avc",
+    "$kref":        "#/ckan/spacedock/2086",
+    "license":      "CC-BY-NC-SA-4.0",
+    "tags": [
+        "parts",
+        "manned"
+    ],
+    "install": [ {
+        "find": "Workshop",
+        "install_to": "GameData"
+    } ],
+    "depends": [
+        { "name": "CommunityResourcePack" },
+        { "name": "ModuleManager" },
+        { "name": "KIS" },
+        { "name" : "ClickThroughBlocker" },
+        { "name": "SpaceTuxLibrary" }
+    ],
+    "conflicts": [
+        { "name": "Workshop" },
+        { "name": "OSEWorkShopCont" }
+    ]
 }

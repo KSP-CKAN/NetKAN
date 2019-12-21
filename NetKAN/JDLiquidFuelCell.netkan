@@ -3,16 +3,17 @@
     "identifier":   "JDLiquidFuelCell",
     "$kref":        "#/ckan/spacedock/665",
     "license":      "MIT",
+    "tags": [
+        "parts"
+    ],
     "depends": [
         { "name": "FirespitterCore" },
         { "name": "ModuleManager"   }
     ],
-    "install": [
-        {
-            "file":       "JatwaaDemolitionsCo",
-            "install_to": "GameData"
-        }
-    ],
+    "install": [ {
+        "file":       "JatwaaDemolitionsCo",
+        "install_to": "GameData"
+    } ],
     "conflicts": [
         { "name": "Ballistanks"  },
         { "name": "JDBallisback" }
