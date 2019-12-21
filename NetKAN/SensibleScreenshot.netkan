@@ -1,14 +1,16 @@
 {
     "spec_version": "v1.4",
-    "$kref": "#/ckan/spacedock/642",
-    "license": "GPL-3.0",
-    "identifier": "SensibleScreenshot",
-    "install"   : [
-        {
-            "find" : "SensibleScreenshot",
-            "install_to" : "GameData"
-        }
+    "identifier":   "SensibleScreenshot",
+    "$kref":        "#/ckan/spacedock/642",
+    "license":      "GPL-3.0",
+    "tags": [
+        "plugin",
+        "convenience"
     ],
+    "install"   : [ {
+        "find" : "SensibleScreenshot",
+        "install_to" : "GameData"
+    } ],
     "depends": [
         { "name": "MagiCore" }
     ]

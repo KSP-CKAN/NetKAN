@@ -1,7 +1,10 @@
 {
-    "$kref": "#/ckan/spacedock/191",
     "spec_version": "v1.4",
-    "identifier": "RosterManager",
-    "x_via": "Automated SpaceDock CKAN submission",
-    "license": "CC-BY-NC-SA-4.0"
+    "identifier":   "RosterManager",
+    "$kref":        "#/ckan/spacedock/191",
+    "license":      "CC-BY-NC-SA-4.0",
+    "tags": [
+        "plugin",
+        "manned"
+    ]
 }

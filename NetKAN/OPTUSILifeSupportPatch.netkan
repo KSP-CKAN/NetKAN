@@ -3,7 +3,10 @@
     "identifier":   "OPTUSILifeSupportPatch",
     "$kref":        "#/ckan/spacedock/1492",
     "license":      "MIT",
-    "x_via":        "Automated SpaceDock CKAN submission",
+    "tags": [
+        "config",
+        "manned"
+    ],
     "install": [ {
         "find":       "OPT_USI",
         "install_to": "GameData"

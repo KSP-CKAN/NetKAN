@@ -1,9 +1,12 @@
 {
 	"spec_version": "v1.4",
-    "license"      : "CC-BY-NC-SA-4.0",
-    "$kref"        : "#/ckan/spacedock/2198",
-	"$vref": "#/ckan/ksp-avc",
-    "identifier"   : "OrbitalTug",
+	"identifier"  : "OrbitalTug",
+    "$kref"       : "#/ckan/spacedock/2198",
+	"$vref"       : "#/ckan/ksp-avc",
+	"license"     : "CC-BY-NC-SA-4.0",
+	"tags": [
+		"parts"
+	],
     "depends": [
         { "name": "ModuleManager" },
         { "name": "BurstAtomicThrust" },
@@ -15,11 +18,8 @@
         { "name": "TacSelfDestructContinued" },
         { "name": "JSIAdvancedTransparentPods" }
 	],
-    "install" : [
-        {
-            "find"       : "OrbitalTug",
-            "install_to" : "GameData"
-        }
-    ]
-
+    "install" : [ {
+        "find"       : "OrbitalTug",
+        "install_to" : "GameData"
+    } ]
 }

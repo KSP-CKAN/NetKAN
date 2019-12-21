@@ -1,18 +1,18 @@
 {
-  "license": "unknown",
-  "identifier": "TheGoldStandard",
-  "x_via": "Automated Linuxgurugamer CKAN script",
-  "$kref": "#/ckan/spacedock/963",
-  "depends": [
-    {
-      "name": "ModuleManager"
-    }
-  ],
-  "install": [
-    {
-      "find": "TheGoldStandard",
-      "install_to": "GameData"
-    }
-  ],
-  "spec_version": "v1.4"
+    "spec_version": "v1.4",
+    "identifier":   "TheGoldStandard",
+    "$kref":        "#/ckan/spacedock/963",
+    "license":      "unknown",
+    "tags": [
+        "config",
+        "parts",
+        "resources"
+    ],
+    "depends": [
+        { "name": "ModuleManager" }
+    ],
+    "install": [ {
+        "find": "TheGoldStandard",
+        "install_to": "GameData"
+    } ]
 }

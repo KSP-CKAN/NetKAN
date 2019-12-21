@@ -1,18 +1,19 @@
 {
-  "spec_version": "v1.4",
-  "install": [
-    {
-      "install_to": "GameData",
-      "find": "KerbalHotSeat"
-    }
-  ],
-  "depends": [
-   { "name": "ConnectedLivingSpace" },
-   { "name": "ModuleManager" }
-  ],
-  "$vref": "#/ckan/ksp-avc",
-  "$kref": "#/ckan/spacedock/1272",
-  "x_via": "Automated Linuxgurugamer CKAN script",
-  "identifier": "KerbalHotSeatCont",
-  "license": "CC-BY-NC-SA-4.0"
+    "spec_version": "v1.4",
+    "identifier":   "KerbalHotSeatCont",
+    "$kref":        "#/ckan/spacedock/1272",
+    "$vref":        "#/ckan/ksp-avc",
+    "license":      "CC-BY-NC-SA-4.0",
+    "tags": [
+        "plugin",
+        "manned"
+    ],
+    "install": [ {
+        "find": "KerbalHotSeat",
+        "install_to": "GameData"
+    } ],
+    "depends": [
+        { "name": "ConnectedLivingSpace" },
+        { "name": "ModuleManager" }
+    ]
 }

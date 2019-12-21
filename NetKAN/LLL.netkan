@@ -1,10 +1,13 @@
 {
-    "identifier"     : "LLL",
     "spec_version"   : "v1.4",
-    "license"        : "CC-BY-NC-SA-4.0",
+    "identifier"     : "LLL",
     "$kref"          : "#/ckan/spacedock/856",
     "$vref"          : "#/ckan/ksp-avc",
     "x_netkan_epoch" : 1,
+    "license"        : "CC-BY-NC-SA-4.0",
+    "tags": [
+        "parts"
+    ],
     "depends": [
         { "name": "ModuleManager" },
         { "name": "FirespitterCore"}
