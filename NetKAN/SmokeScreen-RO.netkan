@@ -1,0 +1,35 @@
+{
+    "spec_version": "v1.16",
+    "identifier":   "SmokeScreen-RO",
+    "name":         "SmokeScreen - Extended FX Plugin - Realism Overhaul",
+    "abstract":     "SmokeScreen is a plugin that build on the engine FX added in .23 and adds new features to them. Most of the features ideas comes from Nothke.",
+    "author":       "Sarbian",
+    "$kref":        "#/ckan/jenkins/https://ksp.sarbian.com/jenkins/job/SmokeScreen-RO/",
+    "x_netkan_jenkins": {
+        "use_filename_version": true
+    },
+    "x_netkan_version_edit": "^SmokeScreen-RO-(?<version>\\d+\\.\\d+\\.\\d+\\.\\d+)\\.zip$",
+    "ksp_version_min": "1.7.3",
+    "ksp_version_max": "1.7.3",
+    "license": "BSD-2-clause",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/64987-*",
+        "repository": "https://github.com/sarbian/SmokeScreen"
+    },
+    "tags": [
+        "plugin",
+        "library"
+    ],
+    "install": [
+        {
+            "find": "SmokeScreen",
+            "install_to": "GameData"
+        }
+    ],
+    "provides": [
+        "SmokeScreen"
+    ],
+    "conflicts": [
+        { "name" : "SmokeScreen" }
+    ]
+}
