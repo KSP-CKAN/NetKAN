@@ -1,7 +1,13 @@
-
 {
     "spec_version" : "v1.16",
     "identifier" : "KerbalSports",
     "$kref" : "#/ckan/netkan/https://raw.githubusercontent.com/jrossignol/KerbalSports/master/KerbalSports.netkan",
-    "x_netkan_license_ok" : true
+    "x_netkan_license_ok" : true,
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/135728-*"
+    },
+    "tags": [
+        "plugin",
+        "manned"
+    ]
 }

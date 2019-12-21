@@ -4,8 +4,20 @@
     "$kref":        "#/ckan/spacedock/1068",
     "x_netkan_epoch": 1,
     "license":      "MIT",
+    "tags": [
+        "parts"
+    ],
     "install": [ {
         "find"       : "KFC",
         "install_to" : "GameData"
-    } ]
+    } ],
+    "recommends": [
+        { "name": "BDArmoryContinued"  },
+        { "name": "Hangar"             },
+        { "name": "LargeBoatPartsPack" },
+        { "name": "HangarEtender"      },
+        { "name": "HyperEdit"          },
+        { "name": "VesselMover"        },
+        { "name": "KerbalKonstructs"   }
+    ]
 }

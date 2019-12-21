@@ -1,12 +1,15 @@
 {
     "spec_version": "v1.4",
-    "identifier": "EVAHandrailsPackContinued",
-    "$kref": "#/ckan/spacedock/49",
-    "$vref" : "#/ckan/ksp-avc",
-    "license": "CC-BY-SA-3.0",
+    "identifier":   "EVAHandrailsPackContinued",
+    "$kref":        "#/ckan/spacedock/49",
+    "$vref":        "#/ckan/ksp-avc",
+    "license":      "CC-BY-SA-3.0",
     "resources": {
-        "repository":"https://github.com/linuxgurugamer/EVAHandrailsPack"
+        "repository": "https://github.com/linuxgurugamer/EVAHandrailsPack"
     },
+    "tags": [
+        "parts"
+    ],
     "conflicts": [
         { "name": "NebulaEVAHandrails" }
     ],

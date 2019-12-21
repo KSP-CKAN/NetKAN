@@ -1,16 +1,17 @@
 {
-    "license": "CC-BY-SA",
-    "$kref": "#/ckan/spacedock/874",
     "spec_version": "v1.4",
-    "identifier": "LightFixer",
+    "identifier":   "LightFixer",
+    "$kref":        "#/ckan/spacedock/874",
+    "license":      "CC-BY-SA",
+    "tags": [
+        "config"
+    ],
     "depends": [
         { "name": "Kopernicus" },
         { "name": "ModuleManager" }
     ],
-    "install": [
-        {
-            "file": "LightFixer!",
-            "install_to": "GameData"
-        }
-    ]
+    "install": [ {
+        "file": "LightFixer!",
+        "install_to": "GameData"
+    } ]
 }

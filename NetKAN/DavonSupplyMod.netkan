@@ -1,16 +1,18 @@
 {
     "spec_version": 1,
-    "identifier": "DavonSupplyMod",
-    "$kref": "#/ckan/spacedock/364",
+    "identifier":   "DavonSupplyMod",
+    "$kref":        "#/ckan/spacedock/364",
+    "license":      "GPL-2.0",
     "resources" : {
-        "homepage"     : "https://forum.kerbalspaceprogram.com/index.php?/topic/34082-part-14-davon-supply-mod-v023/"
+        "homepage"     : "https://forum.kerbalspaceprogram.com/index.php?/topic/34082-*"
     },
-    "license": "GPL-2.0",
-    "install": [
-        {
-            "file"          : "GameData/DavonSupplyMod",
-            "install_to"    : "GameData",
-            "filter_regexp" : "license and source"
-        }
-    ]
+    "tags": [
+        "plugin",
+        "resources"
+    ],
+    "install": [ {
+        "file"          : "GameData/DavonSupplyMod",
+        "install_to"    : "GameData",
+        "filter_regexp" : "license and source"
+    } ]
 }

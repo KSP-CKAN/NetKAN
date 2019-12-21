@@ -2,9 +2,12 @@
     "spec_version" : 1,
     "identifier"   : "KspCraftOrganizer",
     "$kref"        : "#/ckan/spacedock/866",
-    "license"      : "MIT",
     "$vref"        : "#/ckan/ksp-avc",
-
+    "license"      : "MIT",
+    "tags": [
+        "plugin",
+        "convenience"
+    ],
     "install": [
         {
             "file"       : "KspCraftOrganizer",

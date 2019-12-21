@@ -1,12 +1,15 @@
 {
-    "spec_version" : 1,
-    "identifier" : "ColorCodedCans",
-    "$kref" : "#/ckan/spacedock/91",
-    "$vref" : "#/ckan/ksp-avc",
-    "license" : "CC-BY-NC-SA",
+    "spec_version": 1,
+    "identifier":   "ColorCodedCans",
+    "$kref":        "#/ckan/spacedock/91",
+    "$vref":        "#/ckan/ksp-avc",
+    "license":      "CC-BY-NC-SA",
     "resources" : {
-        "homepage"     : "https://forum.kerbalspaceprogram.com/index.php?/topic/94336-141-color-coded-canisters-201-2018-03-14/"
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/94336-*"
     },
+    "tags": [
+        "parts"
+    ],
     "depends" : [
         { "name" : "ModuleManager", "min_version" : "2.5.6" }
     ],

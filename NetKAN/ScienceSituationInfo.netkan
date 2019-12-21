@@ -6,10 +6,14 @@
     "$vref":        "#/ckan/ksp-avc",
     "x_netkan_epoch": 1,
     "license":      "CC-BY-SA",
-    "install": [
-        {
-            "find":       "SituationModuleInfo",
-            "install_to": "GameData"
-        }
-    ]
+    "tags": [
+        "plugin",
+        "editor",
+        "information",
+        "science"
+    ],
+    "install": [ {
+        "find":       "SituationModuleInfo",
+        "install_to": "GameData"
+    } ]
 }

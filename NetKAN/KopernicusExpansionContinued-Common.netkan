@@ -5,6 +5,13 @@
     "author":       [ "MrHappyFace", "StollD" ],
     "$kref":        "#/ckan/github/StollD/KopernicusExpansion-Continued/asset_match/CometTail",
     "license":      "GPL-3.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/119211-*"
+    },
+    "tags": [
+        "plugin",
+        "library"
+    ],
     "install": [ {
         "find":       "KEX-Common.dll",
         "find_matches_files": true,
@@ -12,8 +19,5 @@
     } ],
     "depends":  [
         { "name" : "Kopernicus" }
-    ],
-    "resources": {
-        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/119211-*"
-    }
+    ]
 }

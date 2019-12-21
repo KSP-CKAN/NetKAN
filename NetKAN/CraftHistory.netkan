@@ -14,16 +14,18 @@
         "bugtracker": "https://github.com/KerboKatz/CraftHistory/issues",
         "repository": "https://github.com/KerboKatz/CraftHistory"
     },
+    "tags": [
+        "plugin",
+        "editor"
+    ],
     "depends": [
         {
             "name"          : "KerboKatzUtilities",
             "min_version"   : "1.5.2"
         }
     ],
-    "install": [
-        {
-            "find"       : "CraftHistory",
-            "install_to" : "GameData/KerboKatz"
-        }
-    ]
+    "install": [ {
+        "find"       : "CraftHistory",
+        "install_to" : "GameData/KerboKatz"
+    } ]
 }

@@ -4,11 +4,14 @@
     "$kref"        : "#/ckan/github/BenjaminCronin/KerbalChangelog",
     "license"      : "MIT",
     "$vref"        : "#/ckan/ksp-avc",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/179207-*"
+    },
+    "tags": [
+        "plugin"
+    ],
     "install": [ {
         "find_regexp": "KerbalChangeLog.*",
         "install_to":  "GameData"
-    } ],
-    "resources": {
-        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/179207-*"
-    }
+    } ]
 }

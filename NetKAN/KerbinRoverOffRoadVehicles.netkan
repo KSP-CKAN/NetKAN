@@ -1,8 +1,11 @@
 {
-    "license": "MIT",
-    "identifier": "KerbinRoverOffRoadVehicles",
-    "$kref": "#/ckan/spacedock/602",
     "spec_version": "v1.4",
+    "identifier":   "KerbinRoverOffRoadVehicles",
+    "$kref":        "#/ckan/spacedock/602",
+    "license":      "MIT",
+    "tags": [
+        "parts"
+    ],
     "install": [
         {
             "find"       : "KerbinRover",

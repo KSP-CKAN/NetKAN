@@ -4,7 +4,9 @@
     "$kref":        "#/ckan/spacedock/1212",
     "x_netkan_epoch": 1,
     "license":      "GPL-2.0",
-    "x_via":        "Automated SpaceDock CKAN submission",
+    "tags": [
+        "parts"
+    ],
     "install": [ {
         "find":       "RealEnginesPack",
         "install_to": "GameData"

@@ -1,19 +1,19 @@
 {
-  "license": "GPL-3.0",
-  "identifier": "LCDLaunchCountDown",
-  "x_via": "Automated Linuxgurugamer CKAN script",
-  "$kref": "#/ckan/spacedock/791",
-  "$vref": "#/ckan/ksp-avc",
-  "depends": [
-    {
-      "name": "ModuleManager"
-    }
-  ],
-  "install": [
-    {
-      "find": "LaunchCountDown",
-      "install_to": "GameData"
-    }
-  ],
-  "spec_version": "v1.4"
+    "spec_version": "v1.4",
+    "identifier":   "LCDLaunchCountDown",
+    "$kref":        "#/ckan/spacedock/791",
+    "$vref":        "#/ckan/ksp-avc",
+    "license":      "GPL-3.0",
+    "tags": [
+        "plugin",
+        "convenience",
+        "sound"
+    ],
+    "depends": [
+        { "name": "ModuleManager" }
+    ],
+    "install": [ {
+        "find": "LaunchCountDown",
+        "install_to": "GameData"
+    } ]
 }

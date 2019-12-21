@@ -10,6 +10,11 @@
     "resources": {
         "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/162204-*"
     },
+    "tags": [
+        "config",
+        "parts",
+        "manned"
+    ],
     "depends": [
         { "name": "CommunityResourcePack" }
     ]

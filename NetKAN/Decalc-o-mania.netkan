@@ -3,7 +3,11 @@
     "identifier":   "Decalc-o-mania",
     "$kref":        "#/ckan/spacedock/1958",
     "$vref":        "#/ckan/ksp-avc",
+    "x_netkan_force_v": true,
     "license":      "CC-BY-NC-4.0",
+    "tags": [
+        "plugin"
+    ],
     "install": [ {
         "find":       "Decalc'o'mania",
         "install_to": "GameData"
@@ -14,6 +18,5 @@
     ],
     "recommends": [
         { "name": "TweakScale" }
-    ],
-    "x_netkan_force_v": true
+    ]
 }

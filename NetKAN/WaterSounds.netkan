@@ -1,16 +1,18 @@
 {
-    "identifier": "WaterSounds",
-    "$kref": "#/ckan/spacedock/786",
-    "$vref": "#/ckan/ksp-avc",
     "spec_version": "v1.4",
-    "license": "GPL-2.0",
-    "abstract": "Adds the sound of water gently lapping at the sides of your craft when splashed down.",
-    "install" : [
-        {
-            "file"       : "GameData/WaterSounds",
-            "install_to" : "GameData"
-        }
+    "identifier":   "WaterSounds",
+    "abstract":     "Adds the sound of water gently lapping at the sides of your craft when splashed down.",
+    "$kref":        "#/ckan/spacedock/786",
+    "$vref":        "#/ckan/ksp-avc",
+    "license":      "GPL-2.0",
+    "tags": [
+        "plugin",
+        "sound"
     ],
+    "install" : [ {
+        "file"       : "GameData/WaterSounds",
+        "install_to" : "GameData"
+    } ],
     "x_netkan_override": [
         {
             "version": "1.1",

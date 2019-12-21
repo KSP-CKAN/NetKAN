@@ -1,32 +1,28 @@
 {
     "spec_version": "v1.4",
-    "$kref": "#/ckan/github/Galileo88/Better-Looking-Oceans/asset_match/BLO_High.zip",
-	"$vref": "#/ckan/ksp-avc",
-    "identifier": "BetterLookingOceans-HighRes",
-    "name": "Better Looking Oceans - High Resolution",
-    "abstract": "High quality, stock alike alternative to Scatterer's ocean shader",
+    "identifier":   "BetterLookingOceans-HighRes",
+    "name":         "Better Looking Oceans - High Resolution",
+    "abstract":     "High quality, stock alike alternative to Scatterer's ocean shader",
+    "$kref":        "#/ckan/github/Galileo88/Better-Looking-Oceans/asset_match/BLO_High.zip",
+    "$vref":        "#/ckan/ksp-avc",
     "license": "CC-BY-NC-ND",
     "release_status": "stable",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/171638-*"
+    },
+    "tags": [
+        "config",
+        "graphics"
+    ],
     "depends": [
-        {
-            "name": "Kopernicus"
-        }
+        { "name": "Kopernicus" }
     ],
     "conflicts": [
-        {
-			"name": "BetterLookingOceans-MedRes"
-        },
-		{
-            "name": "BetterLookingOceans-LowRes"
-        }
+        { "name": "BetterLookingOceans-MedRes" },
+        { "name": "BetterLookingOceans-LowRes" }
     ],
-    "install": [
-        {
-            "find": "GameData/BLO",
-            "install_to": "GameData"
-        }
-    ],
-    "resources": {
-    	"homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/171638-*"
-    }
+    "install": [ {
+        "find": "GameData/BLO",
+        "install_to": "GameData"
+    } ]
 }

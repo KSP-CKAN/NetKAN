@@ -1,13 +1,13 @@
 {
-    "$kref": "#/ckan/spacedock/1289",
-    "identifier": "MoS-AeronauticDepartment",
-    "x_via": "Automated SpaceDock CKAN submission",
     "spec_version": "v1.4",
-    "license": "GPL-3.0",
-    "install": [
-        {
-            "find": "MoS",
-            "install_to": "GameData"
-        }
-    ]
+    "identifier":   "MoS-AeronauticDepartment",
+    "$kref":        "#/ckan/spacedock/1289",
+    "license":      "GPL-3.0",
+    "tags": [
+        "parts"
+    ],
+    "install": [ {
+        "find": "MoS",
+        "install_to": "GameData"
+    } ]
 }

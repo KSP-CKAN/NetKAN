@@ -6,16 +6,18 @@
     "$kref":        "#/ckan/github/Sigma88/Sigma-Dimensions",
     "$vref":        "#/ckan/ksp-avc",
     "license":      "restricted",
+    "tags": [
+        "config",
+        "planet-pack"
+    ],
     "depends": [
         { "name": "SSRSS-Cont" }
     ],
     "conflicts": [
         { "name": "SigmaDimensions" }
     ],
-    "install": [
-        {
-            "find":       "Dimensions",
-            "install_to": "GameData/Sigma"
-        }
-    ]
+    "install": [ {
+        "find":       "Dimensions",
+        "install_to": "GameData/Sigma"
+    } ]
 }

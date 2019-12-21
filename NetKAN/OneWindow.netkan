@@ -1,7 +1,10 @@
 {
     "spec_version": "v1.4",
-    "identifier": "OneWindow",
-    "license": "MIT",
-    "$kref": "#/ckan/spacedock/1493",
-    "x_via": "Automated SpaceDock CKAN submission"
+    "identifier":   "OneWindow",
+    "$kref":        "#/ckan/spacedock/1493",
+    "license":      "MIT",
+    "tags": [
+        "plugin",
+        "information"
+    ]
 }

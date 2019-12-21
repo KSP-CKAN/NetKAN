@@ -1,13 +1,17 @@
 {
     "spec_version" : 1,
     "identifier"   : "StockDragFix",
-    "$kref"        : "#/ckan/github/Starwaster/StockDragFix",
     "name"         : "Stock Drag Fix",
     "abstract"     : "Fixes aerodynamic issues without breaking compatibility",
-    "license"      : "CC-BY-SA-4.0",
+    "$kref"        : "#/ckan/github/Starwaster/StockDragFix",
     "ksp_version"  : "0.90",
+    "license"      : "CC-BY-SA-4.0",
     "resources" : {
-        "homepage"     : "https://forum.kerbalspaceprogram.com/index.php?/topic/76712-090-stock-drag-fix-mar-19-2015-beta-update/",
+        "homepage"     : "https://forum.kerbalspaceprogram.com/index.php?/topic/76712-*",
         "repository"   : "https://github.com/Starwaster/StockDragFix"
-    }
+    },
+    "tags": [
+        "plugin",
+        "physics"
+    ]
 }

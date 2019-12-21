@@ -1,20 +1,23 @@
 {
     "spec_version" : 1,
     "identifier"   : "ScienceContainers",
-    "$kref"        : "#/ckan/github/SirDargon/ScienceContainers",
     "name"         : "Science Containers",
     "abstract"     : "Allows transfer of science without EVA.",
+    "$kref"        : "#/ckan/github/SirDargon/ScienceContainers",
+    "ksp_version"  : "1.0",
     "license"      : "CC-BY-SA-3.0",
-    "ksp_version"  : "0.90",
     "resources" : {
-        "homepage"     : "https://forum.kerbalspaceprogram.com/index.php?/topic/81785-105-science-containers-v083/",
-        "repository"   : "https://github.com/SirDargon/ScienceContainers"
+        "homepage"  : "https://forum.kerbalspaceprogram.com/index.php?/topic/81785-*",
+        "repository": "https://github.com/SirDargon/ScienceContainers"
     },
-
-    "install": [
-        {
-            "file"       : "GameData/SirDargon",
-            "install_to" : "GameData"
-        }
-    ]
+    "tags": [
+        "plugin",
+        "parts",
+        "science",
+        "convenience"
+    ],
+    "install": [ {
+        "file"       : "GameData/SirDargon",
+        "install_to" : "GameData"
+    } ]
 }

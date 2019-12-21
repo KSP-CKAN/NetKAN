@@ -1,18 +1,21 @@
 {
     "spec_version" : "v1.4",
     "identifier"   : "StorkDeliverySystem",
-    "$kref"        : "#/ckan/github/riocrokite/StorkDeliverySystem",
     "name"         : "Stork Delivery System",
     "abstract"     : "Deliver your big cargo to the planet surface without flipping!",
+    "$kref"        : "#/ckan/github/riocrokite/StorkDeliverySystem",
+    "$vref"        : "#/ckan/ksp-avc",
     "license"      : "CC-BY-NC-SA-4.0",
-    "$vref"         :   "#/ckan/ksp-avc",
-            "resources" : {
-        "homepage" : "https://forum.kerbalspaceprogram.com/index.php?/topic/101396-130-stork-delivery-system-sds-version-026-30052017/"
+    "resources" : {
+        "homepage" : "https://forum.kerbalspaceprogram.com/index.php?/topic/101396-*"
     },
-        "suggests": [
+    "tags": [
+        "parts"
+    ],
+    "suggests": [
         { "name" : "MFS" }
     ],
-        "install" : [
+    "install" : [
         {
             "find"       : "KermangeddonIndustries",
             "install_to" : "GameData"

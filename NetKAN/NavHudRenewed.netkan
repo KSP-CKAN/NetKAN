@@ -3,7 +3,7 @@
     "identifier"     : "NavHudRenewed",
     "name"           : "NavHud",
     "abstract"       : "a NavBall inspired Heads Up Display",
-    "$kref"          : "#/ckan/github/linuxgurugamer/NavHud",
+    "$kref"          : "#/ckan/spacedock/1574",
     "$vref"          : "#/ckan/ksp-avc",
     "license"        : "MIT",
     "resources": {

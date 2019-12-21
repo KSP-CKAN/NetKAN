@@ -1,20 +1,22 @@
 {
     "spec_version" : "v1.4",
     "identifier"   : "Protractor",
-    "$kref"        : "#/ckan/github/RealGrep/Protractor",
     "name"         : "Protractor",
-    "resources" : {
-        "homepage" : "https://forum.kerbalspaceprogram.com/index.php?/topic/20183-protractor-rendezvous-plugin-under-new-management/"
-    },
     "abstract"     : "Hohmann transfers to planets and moons, no nodes required.",
-    "license"      : "GPL-3.0",
+    "$kref"        : "#/ckan/github/RealGrep/Protractor",
     "$vref"        : "#/ckan/ksp-avc",
-    "install"      :
-    [
+    "license"      : "GPL-3.0",
+    "resources" : {
+        "homepage" : "https://forum.kerbalspaceprogram.com/index.php?/topic/20183-*"
+    },
+    "tags": [
+        "plugin",
+        "information"
+    ],
+    "install"      : [
         {
             "find"       : "Protractor",
             "install_to" : "GameData"
         }
     ]
 }
-

@@ -1,16 +1,18 @@
 {
-    "$kref": "#/ckan/spacedock/548",
-    "$vref": "#/ckan/ksp-avc",
     "spec_version": "v1.4",
-    "identifier": "KerbalOpticalAlignmentSystem",
-    "license": "GPL-3.0",
+    "identifier":   "KerbalOpticalAlignmentSystem",
+    "$kref":        "#/ckan/spacedock/548",
+    "$vref":        "#/ckan/ksp-avc",
+    "license":      "GPL-3.0",
+    "tags": [
+        "plugin",
+        "information"
+    ],
     "depends": [
         { "name": "ModuleManager" }
     ],
-    "install": [
-        {
-            "find"       : "FP_KOAS",
-            "install_to" : "GameData"
-        }
-    ]
+    "install": [ {
+        "find"       : "FP_KOAS",
+        "install_to" : "GameData"
+    } ]
 }

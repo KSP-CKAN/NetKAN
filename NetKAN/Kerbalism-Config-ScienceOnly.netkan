@@ -1,22 +1,26 @@
 {
     "spec_version": "v1.18",
-    "$kref": "#/ckan/github/Kerbalism/KerbalismScienceOnly",
-    "$vref": "#/ckan/ksp-avc",
-    "license": "Unlicense",
-    "identifier": "Kerbalism-Config-ScienceOnly",
-    "name": "Kerbalism - Science-Only Config",
-    "abstract": "Science-Only configuration for Kerbalism. Disables life support, radiation and all other features",
-    "author": ["Kerbalism Contributors"],
-    "provides": ["Kerbalism-Config"],
+    "identifier":   "Kerbalism-Config-ScienceOnly",
+    "name":         "Kerbalism - Science-Only Config",
+    "abstract":     "Science-Only configuration for Kerbalism. Disables life support, radiation and all other features",
+    "author":       "Kerbalism Contributors",
+    "$kref":        "#/ckan/github/Kerbalism/KerbalismScienceOnly",
+    "$vref":        "#/ckan/ksp-avc",
+    "license":      "Unlicense",
+    "tags": [
+        "config",
+        "science"
+    ],
+    "provides": [ "Kerbalism-Config" ],
     "depends": [
         { "name": "ModuleManager" },
         { "name": "Kerbalism" }
     ],
-    "conflicts": [{
-        "name": "Kerbalism-Config"
-    }],
-    "install": [{
+    "conflicts": [
+        { "name": "Kerbalism-Config" }
+    ],
+    "install": [ {
         "find": "KerbalismScienceOnly",
         "install_to": "GameData"
-    }]
+    } ]
 }

@@ -1,6 +1,14 @@
 {
-  "spec_version": "v1.16",
-  "identifier": "KerbalSimpit",
-  "$kref": "#/ckan/netkan/https://bitbucket.org/pjhardy/kerbalsimpit/downloads/KerbalSimpit.netkan",
-  "x_netkan_license_ok": true
+    "spec_version": "v1.16",
+    "identifier": "KerbalSimpit",
+    "$kref": "#/ckan/netkan/https://bitbucket.org/pjhardy/kerbalsimpit/downloads/KerbalSimpit.netkan",
+    "x_netkan_license_ok": true,
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/155796-*"
+    },
+    "tags": [
+        "plugin",
+        "app",
+        "control"
+    ]
 }

@@ -1,11 +1,15 @@
 {
     "spec_version": 1,
-    "identifier": "CustomAsteroids-Pops-Stock-Stockalike",
-    "name": "Custom Asteroids (stockalike config)",
-    "abstract": "Emulates stock asteroids with Custom Asteroids groups.",
-    "$kref": "#/ckan/spacedock/210",
-    "$vref" : "#/ckan/ksp-avc",
-    "x_netkan_license_ok" : true,
+    "identifier":   "CustomAsteroids-Pops-Stock-Stockalike",
+    "name":         "Custom Asteroids (stockalike config)",
+    "abstract":     "Emulates stock asteroids with Custom Asteroids groups.",
+    "$kref":        "#/ckan/spacedock/210",
+    "$vref":        "#/ckan/ksp-avc",
+    "x_netkan_license_ok": true,
+    "tags": [
+        "config",
+        "planet-pack"
+    ],
     "depends": [
         {
             "name": "CustomAsteroids",

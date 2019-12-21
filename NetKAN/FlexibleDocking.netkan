@@ -1,15 +1,18 @@
 {
-    "license": "MIT",
-    "$kref": "#/ckan/spacedock/838",
     "spec_version": "v1.4",
-    "identifier": "FlexibleDocking",
+    "identifier":   "FlexibleDocking",
+    "$kref":        "#/ckan/spacedock/838",
+    "license":      "MIT",
+    "tags": [
+        "plugin",
+        "parts",
+        "manned"
+    ],
     "recommends": [
          { "name": "ModuleManager" }
     ],
-    "install": [
-     {
+    "install": [ {
         "find" : "FlexoDocking",
-	 "install_to" : "GameData"
-     }
-    ]
-} 
+        "install_to" : "GameData"
+    } ]
+}

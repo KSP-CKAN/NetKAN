@@ -1,6 +1,10 @@
 {
     "spec_version": 1,
-    "$kref": "#/ckan/spacedock/78",
-    "license": "GPL-3.0",
-    "identifier": "Kalculator"
+    "identifier":   "Kalculator",
+    "$kref":        "#/ckan/spacedock/78",
+    "license":      "GPL-3.0",
+    "tags": [
+        "plugin",
+        "convenience"
+    ]
 }

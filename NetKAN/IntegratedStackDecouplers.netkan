@@ -1,19 +1,17 @@
 {
-  "spec_version": "v1.4",
-  "install": [
-    {
-      "install_to": "GameData",
-      "find": "IntegratedStackDecouplers"
-    }
-  ],
-  "depends": [
-    {
-      "name": "ModuleManager"
-    }
-  ],
-  "$vref": "#/ckan/ksp-avc",
-  "$kref": "#/ckan/spacedock/1538",
-  "x_via": "Automated Linuxgurugamer CKAN script",
-  "identifier": "IntegratedStackDecouplers",
-  "license": "GPL-3.0"
+    "spec_version": "v1.4",
+    "identifier":   "IntegratedStackDecouplers",
+    "$kref":        "#/ckan/spacedock/1538",
+    "$vref":        "#/ckan/ksp-avc",
+    "license":      "GPL-3.0",
+    "tags": [
+        "plugin"
+    ],
+    "install": [ {
+        "find": "IntegratedStackDecouplers",
+        "install_to": "GameData"
+    } ],
+    "depends": [
+        { "name": "ModuleManager" }
+    ]
 }

@@ -1,13 +1,16 @@
 {
-    "$kref": "#/ckan/spacedock/1349",
-    "$vref": "#/ckan/ksp-avc",
-    "x_netkan_epoch": 3,
-    "identifier": "KerbinSideGroundControl",
     "spec_version": "v1.16",
-    "license": "restricted",
+    "identifier":   "KerbinSideGroundControl",
+    "$kref":        "#/ckan/spacedock/1349",
+    "$vref":        "#/ckan/ksp-avc",
+    "x_netkan_epoch": 3,
+    "license":      "restricted",
     "resources": {
-        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/160099-122-kerbin-side-continued/"
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/160099-*"
     },
+    "tags": [
+        "config"
+    ],
     "install": [
         {
             "find"       : "GroundControl",

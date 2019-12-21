@@ -1,15 +1,22 @@
 {
-  "spec_version": "v1.4",
-  "identifier":   "ComfortableLanding",
-  "$kref":        "#/ckan/spacedock/1528",
-  "x_netkan_epoch": 2,
-  "license":      "GPL-3.0",
-  "install": [ {
-    "find":       "ComfortableLanding",
-    "install_to": "GameData"
-  } ],
-  "depends": [
-    { "name": "ModuleManager" }
-  ],
-  "x_via": "Automated Linuxgurugamer CKAN script"
+    "spec_version": "v1.4",
+    "identifier":   "ComfortableLanding",
+    "$kref":        "#/ckan/spacedock/1528",
+    "x_netkan_epoch": 2,
+    "license":      "GPL-3.0",
+    "tags": [
+        "plugin",
+        "parts",
+        "manned"
+    ],
+    "install": [ {
+        "find":       "ComfortableLanding",
+        "install_to": "GameData"
+    } ],
+    "depends": [
+        { "name": "ModuleManager" }
+    ],
+    "recommends": [
+        { "name": "TweakScale" }
+    ]
 }

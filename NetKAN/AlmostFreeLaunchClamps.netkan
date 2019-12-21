@@ -1,26 +1,24 @@
 {
-	"spec_version": "v1.4",
-	"install"	  : [
-	{
-	"find": "AFLC",
-	"install_to": "GameData"
-	}
+    "spec_version": "v1.4",
+	"identifier":   "AlmostFreeLaunchClamps",
+	"abstract":     "Low mass, free launch clamps",
+    "$kref":        "#/ckan/github/Galileo88/AlmostFreeLaunchClamps",
+	"$vref":        "#/ckan/ksp-avc",
+    "license":      "public-domain",
+    "resources": {
+    	"homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/164733-*"
+    },
+	"tags": [
+		"plugin"
 	],
-	"resources"	: 
-	{
-	"homepage"	: "https://forum.kerbalspaceprogram.com/index.php?/topic/164733-13-almost-free-launch-clamps-010/"
-	},
-	"depends": [
-	{
-	"name": "ModuleManager"
-	}
-	],
-	"suggests": [
-	{ "name": "FASALaunchClampsContinued" }
-	],
-	"$vref": "#/ckan/ksp-avc",
-	"$kref": "#/ckan/github/Galileo88/AlmostFreeLaunchClamps",
-	"identifier": "AlmostFreeLaunchClamps",
-	"abstract" : "Low mass, free launch clamps",
-	"license" : "public-domain"
+    "install": [ {
+    	"find": "AFLC",
+    	"install_to": "GameData"
+    } ],
+    "depends": [
+    	{ "name": "ModuleManager" }
+    ],
+    "suggests": [
+    	{ "name": "FASALaunchClampsContinued" }
+    ]
 }

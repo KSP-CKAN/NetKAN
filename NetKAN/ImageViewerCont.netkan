@@ -1,14 +1,18 @@
 {
-  "spec_version": "v1.4",
-  "install": [
-    {
-      "install_to": "GameData",
-      "find": "ImageViewer"
-    }
-  ],
-  "$vref": "#/ckan/ksp-avc/GameData/ImageViewer/ImageViewerCont.version",
-  "$kref": "#/ckan/spacedock/1037",
-  "x_via": "Automated Linuxgurugamer CKAN script",
-  "identifier": "ImageViewerCont",
-  "license": "MIT"
+    "spec_version": "v1.4",
+    "identifier":   "ImageViewerCont",
+    "$kref":        "#/ckan/spacedock/1037",
+    "$vref":        "#/ckan/ksp-avc/GameData/ImageViewer/ImageViewerCont.version",
+    "license":      "MIT",
+    "tags": [
+        "plugin"
+    ],
+    "install": [ {
+        "find": "ImageViewer",
+        "install_to": "GameData"
+    } ],
+    "depends": [
+        { "name": "ClickThroughBlocker" },
+        { "name": "ToolbarController" }
+    ]
 }

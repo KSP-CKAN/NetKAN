@@ -1,19 +1,25 @@
 {
     "spec_version"  : "v1.4",
-    "license"       : "CC-BY-NC-SA",
+    "identifier"    : "ChampagneBottleRedux",
     "$kref"         : "#/ckan/spacedock/613",
     "$vref"         : "#/ckan/ksp-avc",
-    "identifier"    : "ChampagneBottleRedux",
-    "recommends"    : [ { "name": "Toolbar"} ],
+    "license"       : "CC-BY-NC-SA",
     "resources": {
-        "homepage":"http://forum.kerbalspaceprogram.com/index.php?/topic/138349-champagne-bottle-redux/",
+        "homepage":"http://forum.kerbalspaceprogram.com/index.php?/topic/138349-*",
         "repository":"https://github.com/linuxgurugamer/ChampagneBottleRedux"
     },
-       "depends": [
-        { "name": "ToolbarController" },
-        { "name" : "ClickThroughBlocker" }
+    "tags": [
+        "plugin",
+        "editor"
     ],
-    "recommends": [ { "name": "JanitorsCloset" } ],
+    "depends": [
+        { "name": "ToolbarController"   },
+        { "name": "ClickThroughBlocker" }
+    ],
+    "recommends": [
+        { "name": "Toolbar" },
+        { "name": "JanitorsCloset" }
+    ],
     "install": [
         {
             "find": "Champagne",

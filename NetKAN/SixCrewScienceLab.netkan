@@ -1,8 +1,13 @@
 {
     "spec_version": "v1.4",
-    "license": "MIT",
-    "identifier": "SixCrewScienceLab",
-    "$kref": "#/ckan/spacedock/248",
+    "identifier":   "SixCrewScienceLab",
+    "$kref":        "#/ckan/spacedock/248",
+    "license":      "MIT",
+    "tags": [
+        "config",
+        "science",
+        "manned"
+    ],
     "depends": [
         { "name": "ModuleManager" }
     ],

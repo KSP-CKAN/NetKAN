@@ -1,12 +1,16 @@
 {
     "spec_version" : "v1.4",
-    "$kref"        : "#/ckan/github/KSP-RO/KerbalRenamer",
-    "$vref"        : "#/ckan/ksp-avc",
     "identifier"   : "KerbalRenamer",
     "name"         : "Kerbal Renamer",
     "abstract"     : "Renames, re-stats, even gender-bends Kerbals procedurally.",
     "author"       : [ "regex", "KSP-RO Group"],
+    "$kref"        : "#/ckan/github/KSP-RO/KerbalRenamer",
+    "$vref"        : "#/ckan/ksp-avc",
     "license"      : "BSD-2-clause",
+    "tags": [
+        "plugin",
+        "manned"
+    ],
     "install": [
         {
             "find":       "GameData/KerbalRenamer",

@@ -1,33 +1,32 @@
 {
-  "spec_version": "v1.4",
-  "install": [
-    {
-      "install_to": "GameData",
-      "find": "ProbeControlRoom"
-    }
-  ],
-  "depends": [
-    { "name": "ModuleManager" },
-    { "name": "RasterPropMonitor-Core" }
-  ],
-  "conflicts": [
-     { "name": "ProbeControlRoom" }
-  ],
-  "recommends"  : [
-  {
-          "name"    : "Toolbar"
-  }],
-  "suggests"    : [
-          { "name"  : "SCANSat"},
-          { "name"  : "VesselViewer"},
-          { "name"  : "MechJeb2"},
-          { "name"  : "DockingPortAlignment"},
-          { "name"  : "kOS"},
-          { "name"  : "KPS-AVC"}
-  ],
-  "$vref": "#/ckan/ksp-avc",
-  "$kref": "#/ckan/spacedock/1558",
-  "x_via": "Automated Linuxgurugamer CKAN script",
-  "identifier": "ProbeControlRoomRecontrolled",
-  "license": "CC-BY-NC-SA-3.0"
+    "spec_version": "v1.4",
+    "identifier":   "ProbeControlRoomRecontrolled",
+    "$kref":        "#/ckan/spacedock/1558",
+    "$vref":        "#/ckan/ksp-avc",
+    "license":      "CC-BY-NC-SA-3.0",
+    "tags": [
+        "plugin",
+        "unmanned"
+    ],
+    "install": [ {
+        "find": "ProbeControlRoom",
+        "install_to": "GameData"
+    } ],
+    "depends": [
+        { "name": "ModuleManager" },
+        { "name": "RasterPropMonitor-Core" },
+        { "name": "ToolbarController" },
+        { "name": "ClickThroughBlocker" }
+    ],
+    "conflicts": [
+        { "name": "ProbeControlRoom" }
+    ],
+    "suggests"    : [
+        { "name": "SCANSat" },
+        { "name": "VesselViewer" },
+        { "name": "MechJeb2" },
+        { "name": "DockingPortAlignment" },
+        { "name": "kOS" },
+        { "name": "KPS-AVC" }
+    ]
 }

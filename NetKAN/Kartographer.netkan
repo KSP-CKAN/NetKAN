@@ -1,11 +1,14 @@
 {
-    "license"      : "CC-BY-NC-SA-3.0",
-    "x_via"        : "Automated SpaceDock CKAN submission",
-    "identifier"   : "Kartographer",
     "spec_version" : "v1.4",
+    "identifier"   : "Kartographer",
     "author"       : [ "satnet", "RealGecko", "linuxgurugamer" ],
     "$kref"        : "#/ckan/spacedock/1575",
     "$vref"        : "#/ckan/ksp-avc",
+    "license"      : "CC-BY-NC-SA-3.0",
+    "tags"         : [
+        "plugin",
+        "convenience"
+    ],
     "depends": [
         { "name" : "ToolbarController" },
         { "name" : "ClickThroughBlocker" }

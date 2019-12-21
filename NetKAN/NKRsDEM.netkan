@@ -4,7 +4,10 @@
     "$kref"          : "#/ckan/spacedock/425",
     "release_status" : "development",
     "license"        : "CC-BY-SA-4.0",
-    "install":[
+    "tags": [
+        "parts"
+    ],
+    "install": [
         {
             "find"       : "GameData/NAR_MEM",
             "install_to" : "GameData",

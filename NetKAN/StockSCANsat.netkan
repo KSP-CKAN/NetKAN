@@ -4,6 +4,9 @@
     "$kref":        "#/ckan/spacedock/114",
     "$vref":        "#/ckan/ksp-avc",
     "license":      "Unlicense",
+    "tags": [
+        "config"
+    ],
     "depends": [
         { "name": "ModuleManager", "min_version": "2.6.0" },
         { "name": "SCANsat", "min_version": "v16.0"}

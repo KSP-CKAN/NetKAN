@@ -1,5 +1,11 @@
 {
     "spec_version": 1,
-    "identifier": "SmartTank",
-    "$kref": "#/ckan/netkan/https://raw.githubusercontent.com/HebaruSan/SmartTank/master/SmartTank.netkan"
+    "identifier":   "SmartTank",
+    "$kref":        "#/ckan/github/HebaruSan/SmartTank",
+    "license":      "GPL-3.0",
+    "tags": [
+        "plugin",
+        "editor",
+        "convenience"
+    ]
 }

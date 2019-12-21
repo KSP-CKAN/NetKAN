@@ -1,8 +1,12 @@
 {
     "spec_version": "v1.4",
-    "$kref": "#/ckan/spacedock/252",
-    "license": "MIT",
-    "identifier": "SixSeatMk3cockpit",
+    "identifier":   "SixSeatMk3cockpit",
+    "$kref":        "#/ckan/spacedock/252",
+    "license":      "MIT",
+    "tags": [
+        "config",
+        "manned"
+    ],
     "depends": [
         { "name": "ModuleManager"}
     ],

@@ -4,6 +4,10 @@
     "$kref":        "#/ckan/spacedock/2074",
     "x_netkan_allow_out_of_order": true,
     "license":      "CC-BY-NC-SA-4.0",
+    "tags": [
+        "config",
+        "tech-tree"
+    ],
     "depends": [
         { "name": "ModuleManager"     },
         { "name": "CustomBarnKit"     },

@@ -1,14 +1,16 @@
 {
     "spec_version": 1,
-    "$kref": "#/ckan/spacedock/423",
-    "$vref" : "#/ckan/ksp-avc",
+    "identifier":   "KustomKerbals",
+    "$kref":        "#/ckan/spacedock/423",
+    "$vref":        "#/ckan/ksp-avc",
     "x_netkan_license_ok": true,
-    "identifier": "KustomKerbals",
-    "install": [
-        {
-            "file"       : "KustomKerbals",
-            "install_to" : "GameData",
-            "filter"     : ".DS_Store"
-        }
-    ]
+    "tags": [
+        "plugin",
+        "manned"
+    ],
+    "install": [ {
+        "file"       : "KustomKerbals",
+        "install_to" : "GameData",
+        "filter"     : ".DS_Store"
+    } ]
 }

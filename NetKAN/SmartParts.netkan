@@ -1,15 +1,22 @@
 {
     "spec_version"    : "v1.4",
     "identifier"      : "SmartParts",
+    "name"            : "Smart Parts",
+    "abstract"        : "Smart Parts can trigger all 10 action groups, as well as various other functionality such as SAS, lights, stage, or abort.",
     "$kref"           : "#/ckan/spacedock/614",
     "$vref"           : "#/ckan/ksp-avc",
     "license"         : "CC-BY-NC-SA-3.0",
-    "name"            : "Smart Parts",
-    "abstract"        : "Smart Parts can trigger all 10 action groups, as well as various other functionality such as SAS, lights, stage, or abort.",
     "resources" : {
-        "homepage" : "https://forum.kerbalspaceprogram.com/index.php?/topic/151340-141-smart-parts-continued/"
+        "homepage" : "https://forum.kerbalspaceprogram.com/index.php?/topic/151340-*"
     },
-    "depends" : [ { "name": "ModuleManager" } ],
+    "tags": [
+        "plugin",
+        "parts",
+        "control"
+    ],
+    "depends" : [
+        { "name": "ModuleManager" }
+    ],
     "install" : [
         {
             "find"          : "SmartParts",
@@ -17,4 +24,3 @@
         }
     ]
 }
-

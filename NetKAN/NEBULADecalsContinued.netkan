@@ -4,6 +4,10 @@
     "$kref"        : "#/ckan/spacedock/1132",
     "$vref"        : "#/ckan/ksp-avc",
     "license"      : "CC-BY-SA-4.0",
+    "tags": [
+        "plugin",
+        "graphics"
+    ],
     "resources": {
         "repository":"https://github.com/linuxgurugamer/NEBULA_Decals"
     },
@@ -12,7 +16,7 @@
     ],
     "recommends": [
         { "name": "TweakScale" },
-        { "name": "JanitorsCloset" } 
+        { "name": "JanitorsCloset" }
     ],
     "install": [
         {
@@ -21,5 +25,3 @@
         }
     ]
 }
-
-

@@ -1,21 +1,18 @@
 {
-  "spec_version": "v1.4",
-  "install": [
-    {
-      "filter_regexp": [
-        ".*\\.pdb$"
-      ],
-      "install_to": "GameData",
-      "find": "OLDD"
-    }
-  ],
-  "depends": [
-    {
-      "name": "ModuleManager"
-    }
-  ],
-  "$kref": "#/ckan/spacedock/1365",
-  "x_via": "Automated Linuxgurugamer CKAN script",
-  "identifier": "LandingAIM",
-  "license": "CC-BY-SA"
+    "spec_version": "v1.4",
+    "identifier":   "LandingAIM",
+    "$kref":        "#/ckan/spacedock/1365",
+    "license":      "CC-BY-SA",
+    "tags": [
+        "plugin",
+        "information"
+    ],
+    "install": [ {
+        "filter_regexp": [ ".*\\.pdb$" ],
+        "install_to": "GameData",
+        "find": "OLDD"
+    } ],
+    "depends": [
+        { "name": "ModuleManager" }
+    ]
 }

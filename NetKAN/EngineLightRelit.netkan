@@ -1,25 +1,30 @@
 {
     "spec_version" : "v1.4",
+    "identifier"   : "EngineLightRelit",
     "$kref":         "#/ckan/spacedock/2111",
     "$vref":         "#/ckan/ksp-avc",
-    "identifier"   : "EngineLightRelit",
+    "x_netkan_license_ok": true,
     "resources"    : {
-        "homepage"   : "https://forum.kerbalspaceprogram.com/index.php?/topic/182906-engine-lighting-relit/",
+        "homepage"   : "https://forum.kerbalspaceprogram.com/index.php?/topic/182906-*",
         "repository" : "https://github.com/linuxgurugamer/EngineLightRelit"
     },
+    "tags": [
+        "plugin",
+        "graphics"
+    ],
     "depends"      : [
         { "name" : "ModuleManager", "min_version" : "2.6.3" }
     ],
     "suggests"     : [
         { "name" : "HotRockets" }
     ],
-     "conflicts": [ { "name": "EngineLighting"    } ],
-
+     "conflicts": [
+         { "name": "EngineLighting"    }
+     ],
     "install"      : [
         {
             "find"       : "EngineLightRelit",
             "install_to" : "GameData"
         }
-    ],
-    "x_netkan_license_ok": true
+    ]
 }

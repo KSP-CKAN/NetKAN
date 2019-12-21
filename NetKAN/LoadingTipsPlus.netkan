@@ -4,8 +4,11 @@
     "license":      "restricted",
     "$kref":        "#/ckan/spacedock/807",
     "$vref":        "#/ckan/ksp-avc",
-    "install":      [{
+    "tags": [
+        "plugin"
+    ],
+    "install":      [ {
         "find":          "LoadingTipsPlus",
         "install_to":    "GameData"
-    }]
+    } ]
 }

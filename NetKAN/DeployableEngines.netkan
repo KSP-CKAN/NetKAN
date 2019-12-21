@@ -1,5 +1,9 @@
 {
     "spec_version"   : "v1.4",
     "identifier"     : "DeployableEngines",
-    "$kref"         : "#/ckan/netkan/https://github.com/ChrisAdderley/DeployableEngines/raw/master/CKAN/DeployableEngines.netkan"
+    "$kref"         : "#/ckan/netkan/https://github.com/ChrisAdderley/DeployableEngines/raw/master/CKAN/DeployableEngines.netkan",
+    "tags": [
+        "plugin",
+        "library"
+    ]
 }

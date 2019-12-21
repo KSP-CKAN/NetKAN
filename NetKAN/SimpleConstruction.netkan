@@ -1,14 +1,18 @@
 {
     "spec_version": "v1.4",
-    "identifier": "SimpleConstruction",
-    "$kref": "#/ckan/spacedock/59",
-    "license": "MIT",
+    "identifier":   "SimpleConstruction",
+    "$kref":        "#/ckan/spacedock/59",
     "x_netkan_version_edit": {
         "find": "[Version_]?",
         "replace": "",
         "strict": false
     },
     "x_netkan_epoch": 1,
+    "license": "MIT",
+    "tags": [
+        "plugin",
+        "resources"
+    ],
     "depends": [
         { "name": "ModuleManager" },
         { "name": "InterstellarFuelSwitch-Core" }
@@ -16,8 +20,8 @@
     "conflicts": [
         { "name": "ExtraPlanetaryLaunchpads" }
     ],
-    "provides"  : [ "ExtraPlanetaryLaunchpads" ],
-    "install" : [
+    "provides": [ "ExtraPlanetaryLaunchpads" ],
+    "install": [
         {
             "find": "SimpleConstruction",
             "install_to": "GameData"

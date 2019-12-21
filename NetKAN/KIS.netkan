@@ -3,6 +3,12 @@
     "identifier"      : "KIS",
     "$kref"           : "#/ckan/netkan/https://raw.githubusercontent.com/ihsoft/KIS/master/KIS.netkan",
     "license"         : "restricted",
+    "tags": [
+        "plugin",
+        "parts",
+        "manned",
+        "sound"
+    ],
     "x_netkan_override": [
         {
             "version": "1.5.0",

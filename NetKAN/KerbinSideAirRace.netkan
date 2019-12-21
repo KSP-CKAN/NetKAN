@@ -1,13 +1,16 @@
 {
-    "identifier": "KerbinSideAirRace",
     "spec_version": "v1.16",
-    "$kref": "#/ckan/spacedock/1348",
-    "$vref": "#/ckan/ksp-avc",
-    "x_netkan_epoch" : "3",
-    "license": "restricted",
+    "identifier":   "KerbinSideAirRace",
+    "$kref":        "#/ckan/spacedock/1348",
+    "$vref":        "#/ckan/ksp-avc",
+    "x_netkan_epoch": "3",
+    "license":     "restricted",
     "resources": {
         "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/74776-*"
     },
+    "tags": [
+        "config"
+    ],
     "install": [
         {
             "find"       : "AirRace",

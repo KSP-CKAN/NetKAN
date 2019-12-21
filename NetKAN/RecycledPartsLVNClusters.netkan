@@ -1,29 +1,29 @@
 {
-  "spec_version": "v1.4",
-  "install": [
-    {
-      "install_to": "GameData/SpaceTuxIndustries/RecycledParts",
-      "find": "LVN_Clusters"
-    }
-  ],
-  "depends": [
-      { "name": "ModuleManager" },
-      { "name": "BDAnimationModules" }
-  ],
-  "recommends": [
-    { "name": "CommunityTechTree" }
-  ],
- "suggests": [
+    "spec_version": "v1.4",
+    "identifier":   "RecycledPartsLVNClusters",
+    "name":         "Recycled Parts LVN Clusters",
+    "$kref":        "#/ckan/spacedock/1507",
+    "$vref":        "#/ckan/ksp-avc",
+    "license":      "CC-BY-NC-SA-3.0",
+    "tags": [
+        "parts"
+    ],
+    "install": [ {
+        "find": "LVN_Clusters",
+        "install_to": "GameData/SpaceTuxIndustries/RecycledParts"
+    } ],
+    "depends": [
+        { "name": "ModuleManager" },
+        { "name": "BDAnimationModules" }
+    ],
+    "recommends": [
+        { "name": "CommunityTechTree" }
+    ],
+    "suggests": [
         { "name": "JanitorsCloset" }
-  ],
-  "conflicts": [
-    { "name" : "RecycledPartsLVNClusters" },
-    { "name" : "LVNNuclearEngineClusters" }
-  ],
-  "$vref": "#/ckan/ksp-avc",
-  "$kref": "#/ckan/spacedock/1507",
-  "x_via": "Automated Linuxgurugamer CKAN script",
-  "identifier": "RecycledPartsLVNClusters",
-  "name": "Recycled Parts LVN Clusters",
-  "license": "CC-BY-NC-SA-3.0"
+    ],
+    "conflicts": [
+        { "name" : "RecycledPartsLVNClusters" },
+        { "name" : "LVNNuclearEngineClusters" }
+    ]
 }

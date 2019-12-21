@@ -1,6 +1,10 @@
 {
-    "license": "MIT",
-    "$kref": "#/ckan/spacedock/865",
     "spec_version": "v1.4",
-    "identifier": "Airlocks"
+    "identifier":   "Airlocks",
+    "$kref":        "#/ckan/spacedock/865",
+    "license":      "MIT",
+    "tags": [
+        "parts",
+        "manned"
+    ]
 }

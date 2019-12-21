@@ -4,11 +4,12 @@
     "$kref"        : "#/ckan/spacedock/430",
     "$vref"        : "#/ckan/ksp-avc",
     "license"      : "CC-BY-4.0",
-    "install"      : [
-        {
-            "file"       : "AnyRes",
-            "install_to" : "GameData",
-            "filter"     : [ ".DS_Store" ]
-        }
-    ]
+    "tags"         : [
+        "plugin"
+    ],
+    "install"      : [ {
+        "file"       : "AnyRes",
+        "install_to" : "GameData",
+        "filter"     : [ ".DS_Store" ]
+    } ]
 }

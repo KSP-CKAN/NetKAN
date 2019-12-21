@@ -8,6 +8,10 @@
     "resources": {
         "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/185199-*"
     },
+    "tags": [
+        "config",
+        "science"
+    ],
     "depends": [
         { "name": "ModuleManager" }
     ],

@@ -1,23 +1,24 @@
 {
-  "spec_version": "v1.4",
-  "install": [
-    {
-      "install_to": "GameData",
-      "find": "ASET"
-    }
-  ],
-  "depends": [
-      { "name": "ASETAgency" },
-      { "name": "ModuleManager" },
-      { "name": "ASETProps" , "min_version": "1.4"},
-      { "name": "ASETAvionics" , "min_version": "2.0"},
-      { "name": "RasterPropMonitor-Core", "min_version": "0.28.0" }
-  ],
-  "recommends": [
-     { "name": "FAR" , "min_version": "0.15.7.2" } 
-  ],
-  "$kref": "#/ckan/spacedock/1214",
-  "x_via": "Automated Linuxgurugamer CKAN script",
-  "identifier": "Mk1CockpitIVAReplbyASET",
-  "license": "CC-BY-NC-SA-3.0"
+    "spec_version": "v1.4",
+    "identifier":   "Mk1CockpitIVAReplbyASET",
+    "$kref":        "#/ckan/spacedock/1214",
+    "license":      "CC-BY-NC-SA-3.0",
+    "tags": [
+        "config",
+        "manned"
+    ],
+    "install": [ {
+        "find": "ASET",
+        "install_to": "GameData"
+    } ],
+    "depends": [
+        { "name": "ASETAgency" },
+        { "name": "ModuleManager" },
+        { "name": "RasterPropMonitor-Core", "min_version": "0.28.0" },
+        { "name": "ASETProps" , "min_version": "1.4" },
+        { "name": "ASETAvionics" , "min_version": "2.0" }
+    ],
+    "recommends": [
+        { "name": "FAR" , "min_version": "0.15.7.2" }
+    ]
 }

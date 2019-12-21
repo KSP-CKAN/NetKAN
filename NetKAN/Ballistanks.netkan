@@ -3,12 +3,13 @@
     "identifier":   "Ballistanks",
     "$kref":        "#/ckan/spacedock/341",
     "license":      "MIT",
-    "install": [
-        {
-            "find":       "JatwaaDemolitionsCo",
-            "install_to": "GameData"
-        }
+    "tags": [
+        "parts"
     ],
+    "install": [ {
+        "find":       "JatwaaDemolitionsCo",
+        "install_to": "GameData"
+    } ],
     "conflicts": [
         { "name": "JDBallisback"     },
         { "name": "JDLiquidFuelCell" }

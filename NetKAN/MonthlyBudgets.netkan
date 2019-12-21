@@ -6,19 +6,21 @@
     "$kref"        : "#/ckan/github/severedsolo/MonthlyBudgets",
     "$vref"        : "#/ckan/ksp-avc",
     "license"      : "MIT",
+    "resources" : {
+        "homepage" : "http://forum.kerbalspaceprogram.com/index.php?/topic/147010-*"
+    },
+    "tags": [
+        "plugin",
+        "career"
+    ],
     "depends" : [
         { "name" : "KerbalChangelog" }
-    ],    
+    ],
     "recommends": [
         { "name": "KerbalConstructionTime" }
     ],
-    "install" : [
-        {
-            "find" : "MonthlyBudgets",
-            "install_to" : "GameData"
-        }
-    ],
-    "resources" : {
-        "homepage" : "http://forum.kerbalspaceprogram.com/index.php?/topic/147010-monthly-budgets"
-    }
+    "install" : [ {
+        "find" : "MonthlyBudgets",
+        "install_to" : "GameData"
+    } ]
 }

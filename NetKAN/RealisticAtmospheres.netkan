@@ -6,18 +6,20 @@
     "$vref":        "#/ckan/ksp-avc",
     "license":      "CC-BY-NC-ND-4.0",
     "resources": {
-        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/128858-RealisticAtmospheres/"
-    },    
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/128858-*"
+    },
+    "tags": [
+        "config",
+        "physics"
+    ],
     "depends": [
         { "name": "Kopernicus"    },
         { "name": "ModuleManager" }
     ],
-    "install": [
-        {
-            "file":       "GameData/RealisticAtmospheres",
-            "install_to": "GameData"
-        }
-    ],
+    "install": [ {
+        "file":       "GameData/RealisticAtmospheres",
+        "install_to": "GameData"
+    } ],
     "x_netkan_override": [
         {
             "version": "1.2.2",

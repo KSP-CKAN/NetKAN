@@ -1,7 +1,11 @@
 {
-    "$kref": "#/ckan/spacedock/554",
     "spec_version": "v1.4",
-    "x_via": "Automated SpaceDock CKAN submission",
-    "identifier": "ScienceFunding",
-    "license": "public-domain"
+    "identifier":   "ScienceFunding",
+    "$kref":        "#/ckan/spacedock/554",
+    "license":      "public-domain",
+    "tags": [
+        "plugin",
+        "science",
+        "career"
+    ]
 }

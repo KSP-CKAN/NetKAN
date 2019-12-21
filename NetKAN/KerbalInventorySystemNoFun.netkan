@@ -1,18 +1,20 @@
 {
-	"spec_version" : 1,
-	"identifier"   : "KerbalInventorySystemNoFun",
-	"$kref"        : "#/ckan/github/QuickBASIC/KerbalInventorySystemNoFun",
-	"name"         : "Kerbal Inventory System - No Fun",
-	"author"       : "QuickBASIC",
+    "spec_version" : 1,
+    "identifier"   : "KerbalInventorySystemNoFun",
+    "name"         : "Kerbal Inventory System - No Fun",
 	"abstract"     : "ModuleManager Script for removing \"fun\" items from Kerbal Inventory System",
-	"license"      : "MIT",
-	"$vref" : "#/ckan/ksp-avc",
-	"depends": [
-		{ "name": "ModuleManager" },
-		{ "name": "KIS" }
-	],    
-	"resources": 
-	{
-	"homepage": "https://github.com/QuickBASIC/KerbalInventorySystemNoFun"
-	}
+    "author"       : "QuickBASIC",
+	"$kref"        : "#/ckan/github/QuickBASIC/KerbalInventorySystemNoFun",
+	"$vref"        : "#/ckan/ksp-avc",
+    "license"      : "MIT",
+    "resources": {
+	    "homepage": "https://github.com/QuickBASIC/KerbalInventorySystemNoFun"
+    },
+	"tags": [
+		"config"
+	],
+    "depends": [
+        { "name": "ModuleManager" },
+        { "name": "KIS" }
+    ]
 }

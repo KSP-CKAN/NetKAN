@@ -5,6 +5,13 @@
     "$kref":        "#/ckan/spacedock/1843",
     "ksp_version":  "any",
     "license":      "restricted",
+    "resources": {
+        "homepage": "https://www.reddit.com/r/KerbalSpaceProgram/comments/8g76wg/the_jj_kabrams_hq_flares_pack_for_scatterer/"
+    },
+    "tags": [
+        "config",
+        "graphics"
+    ],
     "install": [ {
         "find":       "Medium_Quality/Green/Sun",
         "install_to": "GameData/scatterer/config/Sunflares"
@@ -21,8 +28,5 @@
     ],
     "depends": [
         { "name": "Scatterer" }
-    ],
-    "resources": {
-        "homepage": "https://www.reddit.com/r/KerbalSpaceProgram/comments/8g76wg/the_jj_kabrams_hq_flares_pack_for_scatterer/"
-    }
+    ]
 }

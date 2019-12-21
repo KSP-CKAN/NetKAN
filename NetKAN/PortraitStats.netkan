@@ -4,6 +4,11 @@
     "$kref":        "#/ckan/spacedock/133",
     "$vref":        "#/ckan/ksp-avc",
     "license":      "MIT",
+    "tags": [
+        "plugin",
+        "information",
+        "manned"
+    ],
     "x_netkan_override": [
         {
             "version": ">=15.0",

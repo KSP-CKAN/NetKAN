@@ -7,16 +7,19 @@
     "$vref":        "#/ckan/ksp-avc",
     "x_netkan_epoch": 1,
     "license":      "MIT",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/188294-*"
+    },
+    "tags": [
+        "plugin",
+        "information"
+    ],
     "install": [ {
         "install_to": "GameData",
         "find": "AntennaHelper"
     } ],
     "depends": [
         { "name": "ToolbarController"   },
-        { "name": "ClickThroughBlocker" } 
-    ],
-    "resources": {
-        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/188294-*"
-    },
-    "x_via": "Automated Linuxgurugamer CKAN script"
+        { "name": "ClickThroughBlocker" }
+    ]
 }

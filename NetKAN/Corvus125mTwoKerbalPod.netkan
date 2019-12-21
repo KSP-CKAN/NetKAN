@@ -1,20 +1,23 @@
 {
-  "spec_version": "v1.4",
-  "identifier":   "Corvus125mTwoKerbalPod",
-  "author":       [ "OrionKermin", "Micha" ],
-  "$kref":        "#/ckan/spacedock/1405",
-  "$vref":        "#/ckan/ksp-avc",
-  "x_netkan_epoch": 1,
-  "license":      "CC-BY-SA",
-  "install": [ {
-    "find":       "HGR",
-    "install_to": "GameData"
-  }, {
-    "find":       "Corvus",
-    "install_to": "GameData"
-  } ],
-  "depends": [
-    { "name": "ModuleManager" }
-  ],
-  "x_via": "Automated Linuxgurugamer CKAN script"
+    "spec_version": "v1.4",
+    "identifier":   "Corvus125mTwoKerbalPod",
+    "author":       [ "OrionKermin", "Micha" ],
+    "$kref":        "#/ckan/spacedock/1405",
+    "$vref":        "#/ckan/ksp-avc",
+    "x_netkan_epoch": 1,
+    "license":      "CC-BY-SA",
+    "tags": [
+        "parts",
+        "manned"
+    ],
+    "install": [ {
+        "find":       "HGR",
+        "install_to": "GameData"
+    }, {
+        "find":       "Corvus",
+        "install_to": "GameData"
+    } ],
+    "depends": [
+        { "name": "ModuleManager" }
+    ]
 }

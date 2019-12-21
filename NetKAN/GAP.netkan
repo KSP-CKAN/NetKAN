@@ -3,26 +3,25 @@
     "identifier"   : "GAP",
     "$kref"        : "#/ckan/spacedock/70",
     "x_netkan_license_ok": true,
-
+    "tags": [
+        "config",
+        "career"
+    ],
     "depends": [
         { "name": "ContractConfigurator" },
         { "name": "ModuleManager" }
     ],
-
     "recommends": [
         { "name": "WaypointManager" }
     ],
-
     "suggests": [
         { "name": "KAS" },
         { "name": "KIS" }
     ],
-
     "install": [
         {
             "find"       : "GAP",
             "install_to" : "GameData/ContractPacks"
         }
     ]
-
 }

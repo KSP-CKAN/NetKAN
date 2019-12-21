@@ -4,12 +4,15 @@
     "license"      : "GPL-3.0",
     "$kref"        : "#/ckan/github/jrodrigv/CameraTools",
     "$vref"        : "#/ckan/ksp-avc",
+    "x_netkan_force_v": true,
+    "tags": [
+        "plugin"
+    ],
     "resources": {
-        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/84938-10-camera-tools-v13-compatibilityfixes-may-16/",
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/84938-*",
         "x_screenshot": "https://spacedock.info/content/BahamutoD_222/Camera_Tools/Camera_Tools-1456425830.4879806.jpg"
     },
     "depends": [
         { "name": "ModuleManager" }
-    ],
-    "x_netkan_force_v": true
+    ]
 }

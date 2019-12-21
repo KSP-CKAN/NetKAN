@@ -1,26 +1,27 @@
 {
-  "license": "CC-BY-3.0",
-  "identifier": "PWBFuelBalancerRestored",
-  "x_via": "Automated Linuxgurugamer CKAN script",
-  "$kref" : "#/ckan/github/linuxgurugamer/PWBFuelBalancerRestored",
-  "$vref": "#/ckan/ksp-avc",
-  "name"          : "PWB Fuel Balancer Restored",
-  "abstract"      : "Mod to automatically move fuel between tanks to return the Center of Mass to a preset position for that your vessel is perfectly balanced for RCS operations, or any other reason",
-  "resources": {
-    "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/180409-15-pwb-fuel-balancer-restored/",
-    "repository": "https://github.com/linuxgurugamer/PWBFuelBalancerRestored"
-  },
-  "install": [
-    {
-      "find": "PWBFuelBalancerRestored",
-      "install_to": "GameData"
-    }
-  ],
-  "depends": [
-     { "name": "ModuleManager" },
-    { "name" : "ToolbarController" },
-    { "name" : "ClickThroughBlocker" },
-    { "name" : "SpaceTuxLibrary" }
-  ],
-  "spec_version": "v1.4"
+    "spec_version": "v1.4",
+    "identifier":   "PWBFuelBalancerRestored",
+    "name":         "PWB Fuel Balancer Restored",
+    "abstract":     "Mod to automatically move fuel between tanks to return the Center of Mass to a preset position for that your vessel is perfectly balanced for RCS operations, or any other reason",
+    "$kref":        "#/ckan/github/linuxgurugamer/PWBFuelBalancerRestored",
+    "$vref":        "#/ckan/ksp-avc",
+    "license":      "CC-BY-3.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/180409-*",
+        "repository": "https://github.com/linuxgurugamer/PWBFuelBalancerRestored"
+    },
+    "tags": [
+        "plugin",
+        "convenience"
+    ],
+    "install": [ {
+        "find": "PWBFuelBalancerRestored",
+        "install_to": "GameData"
+    } ],
+    "depends": [
+        { "name": "ModuleManager" },
+        { "name": "ToolbarController" },
+        { "name": "ClickThroughBlocker" },
+        { "name": "SpaceTuxLibrary" }
+    ]
 }

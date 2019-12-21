@@ -1,18 +1,19 @@
 {
-  "license": "GPL-3.0",
-  "identifier": "PartCommanderCont",
-  "x_via": "Automated Linuxgurugamer CKAN script",
-  "$kref": "#/ckan/spacedock/1004",
-  "$vref": "#/ckan/ksp-avc",
-  "depends": [
-      { "name" : "ToolbarController" },
-      { "name" : "ClickThroughBlocker" }
-  ],
-  "install": [
-    {
-      "find": "PartCommanderContinued",
-      "install_to": "GameData"
-    }
-  ],
-  "spec_version": "v1.4"
+    "spec_version": "v1.4",
+    "identifier":   "PartCommanderCont",
+    "$kref":        "#/ckan/spacedock/1004",
+    "$vref":        "#/ckan/ksp-avc",
+    "license":      "GPL-3.0",
+    "tags": [
+        "plugin",
+        "convenience"
+    ],
+    "depends": [
+        { "name" : "ToolbarController" },
+        { "name" : "ClickThroughBlocker" }
+    ],
+    "install": [ {
+        "find": "PartCommanderContinued",
+        "install_to": "GameData"
+    } ]
 }

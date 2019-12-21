@@ -1,5 +1,29 @@
 {
-    "spec_version": 1,
-    "identifier": "Ringworld",
-    "$kref": "#/ckan/netkan/https://raw.githubusercontent.com/HebaruSan/Ringworld/master/Ringworld.netkan"
+    "spec_version":   "v1.18",
+    "identifier":     "Ringworld",
+    "name":           "Ringworld",
+    "abstract":       "A planetary orbit-sized surface modeled after the eponymous body from Larry Niven's novel 'Ringworld'",
+    "description":    "200 light years from Earth, a huge ring revolves around its lonely star. The inner surface hosts a biosphere millions of times the area of Earth's, but otherwise similar in its distance to its sun, spin gravity, and even its day-night cycle, thanks to enormous 'shadow squares' selectively blocking the sun. Now you can observe this incredible artifact from your favorite Kerbal vessel!",
+    "comment":        "Indexed by author. Please report any problems at the repository bugtracker.",
+    "$kref":          "#/ckan/github/HebaruSan/Ringworld",
+    "$vref":          "#/ckan/ksp-avc",
+    "license":        "Unlicense",
+    "resources": {
+        "homepage":   "https://forum.kerbalspaceprogram.com/index.php?/topic/167549-*",
+        "repository": "https://github.com/HebaruSan/Ringworld",
+        "bugtracker": "https://github.com/HebaruSan/Ringworld/issues"
+    },
+    "tags": [
+        "config",
+        "planet-pack"
+    ],
+    "depends": [
+        { "name": "ModuleManager" },
+        {
+            "name":        "Kopernicus",
+            "min_version": "2:release-1.3.0-8"
+        }
+    ], "recommends": [
+        { "name": "LoadingTipsPlus" }
+    ]
 }

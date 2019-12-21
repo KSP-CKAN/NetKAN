@@ -1,9 +1,15 @@
 {
     "spec_version": "v1.4",
-    "identifier": "kOSPropMonitor",
-    "$kref": "#/ckan/spacedock/712",
-    "license": "GPL-3.0",
+    "identifier":   "kOSPropMonitor",
+    "$kref":        "#/ckan/spacedock/712",
+    "license":      "GPL-3.0",
     "release_status": "development",
+    "tags": [
+        "plugin",
+        "information",
+        "control",
+        "manned"
+    ],
     "depends": [
         { "name": "kOS" },
         { "name": "RasterPropMonitor-Core" },

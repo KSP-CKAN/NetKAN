@@ -1,20 +1,21 @@
 {
-  "spec_version": "v1.4",
-  "install": [
-    {
-      "install_to": "GameData",
-      "find": "EvaFuel"
-    }
-  ],
-  "depends": [
-    {
-      "name": "ModuleManager"
-    }
-  ],
-  "conflicts" : [ { "name" : "EvaFuel" } ],
-  "$vref": "#/ckan/ksp-avc",
-  "$kref": "#/ckan/spacedock/1274",
-  "x_via": "Automated Linuxgurugamer CKAN script",
-  "identifier": "EvaFuelCont",
-  "license": "MIT"
+    "spec_version": "v1.4",
+    "identifier":   "EvaFuelCont",
+    "$kref":        "#/ckan/spacedock/1274",
+    "$vref":        "#/ckan/ksp-avc",
+    "license":      "MIT",
+    "tags": [
+        "plugin",
+        "manned"
+    ],
+    "install": [ {
+        "find": "EvaFuel",
+        "install_to": "GameData"
+    } ],
+    "conflicts" : [
+        { "name" : "EvaFuel" }
+    ],
+    "depends": [
+        { "name": "ModuleManager" }
+    ]
 }

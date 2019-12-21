@@ -1,16 +1,23 @@
 {
-  "spec_version": 1,
-  "identifier": "EngineIgniter",
-  "$kref": "#/ckan/github/jamesharling/EngineIgniter",
-  "name": "Engine Igniter",
-  "author": [ "nadseh" ],
-  "abstract": "This mod limits the number of times an engine may restart. Configuration is provided for stock/Squad engines and a few popular mods' engines, and may be extended through the use of ModuleManager patches.",
-  "license": "CC-BY-4.0",
-  "ksp_version": "1.2.2",
-  "resources": {
-    "homepage": "https://github.com/jamesharling/EngineIgniter"
-  },
-  "depends": [
-    { "name": "ModuleManager" }
-  ]
+    "spec_version": "v1.4",
+    "identifier":   "EngineIgniter",
+    "name":         "Engine Igniter",
+    "abstract":     "This mod limits the number of times an engine may restart. Configuration is provided for stock/Squad engines and a few popular mods' engines, and may be extended through the use of ModuleManager patches.",
+    "author":       "nadseh",
+    "$kref":        "#/ckan/github/jamesharling/EngineIgniter",
+    "license":      "CC-BY-4.0",
+    "ksp_version":  "1.2.2",
+    "resources": {
+        "homepage": "https://github.com/jamesharling/EngineIgniter"
+    },
+    "tags": [
+        "plugin"
+    ],
+    "depends": [
+        { "name": "ModuleManager" }
+    ],
+    "install": [ {
+        "find": "GameData/EngineIgniter",
+        "install_to": "GameData"
+    } ]
 }

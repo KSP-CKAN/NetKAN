@@ -1,17 +1,21 @@
 {
     "spec_version"   : "v1.4",
     "identifier"     : "PoodsOPMVO",
-    "$kref"          : "#/ckan/github/Poodmund/PoodsOPMVO",
-    "license"        : "restricted",
-    "$vref"          : "#/ckan/ksp-avc",
     "name"           : "Outer Planets Mod - Visual Overhaul",
-    "author"         : "Poodmund",
-    "release_status" : "development",
     "abstract"       : "Pood's OPM-VO is a graphical overhaul modification for Kerbal Space Program's additional planet/moon mod, Outer Planets Mod, that builds upon the OPM mod by adding additional atmospheric and cloud effects using original artwork.",
+    "author"         : "Poodmund",
+    "$kref"          : "#/ckan/github/Poodmund/PoodsOPMVO",
+    "$vref"          : "#/ckan/ksp-avc",
+    "release_status" : "development",
+    "license"        : "restricted",
+    "tags"           : [
+        "config",
+        "graphics"
+    ],
     "depends"        : [
         { "name"     : "ModuleManager" },
         { "name"     : "Kopernicus", "min_version" : "2:release-1.3.0-6" },
-        { "name"     : "OPM-Galileo", "min_version" : "1.2.1" },
+        { "name"     : "OuterPlanetsMod" },
         { "name"     : "EnvironmentalVisualEnhancements", "min_version" : "2:EVE-1.2.2-1" },
         { "name"     : "Scatterer", "min_version" : "2:v0.0320b" }
     ],

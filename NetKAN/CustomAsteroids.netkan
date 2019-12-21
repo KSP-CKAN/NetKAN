@@ -1,16 +1,20 @@
 {
     "spec_version": "v1.2",
-    "identifier": "CustomAsteroids",
-    "$kref": "#/ckan/spacedock/210",
-    "$vref" : "#/ckan/ksp-avc",
+    "identifier":   "CustomAsteroids",
+    "$kref":        "#/ckan/spacedock/210",
+    "$vref":        "#/ckan/ksp-avc",
     "x_netkan_license_ok" : true,
+    "tags": [
+        "plugin",
+        "planet-pack"
+    ],
     "resources": {
         "repository": "https://github.com/Starstrider42/Custom-Asteroids",
         "bugtracker": "https://github.com/Starstrider42/Custom-Asteroids/issues",
         "manual": "http://starstrider42.github.io/Custom-Asteroids/"
     },
     "depends": [
-        { "name": "CustomAsteroids-Pops"},
+        { "name": "CustomAsteroids-Pops" },
         {
             "name": "ModuleManager",
             "min_version": "2.6.23",
@@ -18,13 +22,13 @@
         }
     ],
     "recommends": [
-        { "name": "CustomAsteroids-Pops-Stock-Stockalike"},
-        { "name": "CustomAsteroids-Pops-Stock-Inner"},
-        { "name": "CustomAsteroids-Pops-Stock-Outer"}
+        { "name": "CustomAsteroids-Pops-Stock-Stockalike" },
+        { "name": "CustomAsteroids-Pops-Stock-Inner" },
+        { "name": "CustomAsteroids-Pops-Stock-Outer" }
     ],
     "suggests": [
-        { "name": "CommunityResourcePack"},
-        { "name": "KSP-AVC"}
+        { "name": "CommunityResourcePack" },
+        { "name": "KSP-AVC" }
     ],
     "supports": [
         {
@@ -72,11 +76,11 @@
             "version" : "< v1.3.0",
             "override" : {
                 "depends": [
-                    { "name": "CustomAsteroids-Pops"}
+                    { "name": "CustomAsteroids-Pops" }
                 ],
                 "recommends": [
-                    { "name": "CustomAsteroids-Pops-Stock-Inner"},
-                    { "name": "CustomAsteroids-Pops-Stock-Outer"}
+                    { "name": "CustomAsteroids-Pops-Stock-Inner" },
+                    { "name": "CustomAsteroids-Pops-Stock-Outer" }
                 ]
             }
         }

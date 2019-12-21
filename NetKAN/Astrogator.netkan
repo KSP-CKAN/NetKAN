@@ -1,5 +1,11 @@
 {
     "spec_version": 1,
-    "identifier": "Astrogator",
-    "$kref": "#/ckan/netkan/https://raw.githubusercontent.com/HebaruSan/Astrogator/master/Astrogator.netkan"
+    "identifier":   "Astrogator",
+    "$kref":        "#/ckan/github/HebaruSan/Astrogator",
+    "license":      "GPL-3.0",
+    "tags": [
+        "plugin",
+        "information",
+        "control"
+    ]
 }

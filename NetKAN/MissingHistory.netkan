@@ -3,7 +3,9 @@
     "identifier":   "MissingHistory",
     "$kref":        "#/ckan/spacedock/1743",
     "license":      "CC-BY-NC-SA",
-    "x_via":        "Automated SpaceDock CKAN submission",
+    "tags": [
+        "parts"
+    ],
     "depends": [
         { "name": "ModuleManager" }
     ]

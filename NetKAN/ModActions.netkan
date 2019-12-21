@@ -1,21 +1,25 @@
 {
-    "spec_version" : 1,
-    "$kref" : "#/ckan/github/SirDiazo/ModActions",
-    "name" : "ModActions",
-    "identifier" : "ModActions",
-    "abstract" : "Add mouse only actions from right-click menu to action groups, including resource locking and cross-feeding. Supports both stock and other mod's actions.",
-    "license" : "GPL-3.0",
-    "release_status" : "stable",
-    "ksp_version" : "1.3",
-    "author" : "Diazo",
-    "resources" : {
-        "homepage" : "https://forum.kerbalspaceprogram.com/index.php?/topic/116142-13jun0817-modactions-control-your-vessel-including-other-mods-via-actiongroups/"
+    "spec_version": 1,
+    "identifier":   "ModActions",
+    "name":         "ModActions",
+    "abstract":     "Add mouse only actions from right-click menu to action groups, including resource locking and cross-feeding. Supports both stock and other mod's actions.",
+    "author":       "Diazo",
+    "$kref":        "#/ckan/github/SirDiazo/ModActions",
+    "ksp_version":  "1.3",
+    "release_status": "stable",
+    "license":      "GPL-3.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/116142-*"
     },
-    "depends" : [ { "name" : "ModuleManager" }],
-    "install" : [
-        {
-            "file" : "GameData/Diazo",
-            "install_to" : "GameData"
-        }
-    ]
+    "tags": [
+        "plugin",
+        "convenience"
+    ],
+    "depends": [
+        { "name": "ModuleManager" }
+    ],
+    "install": [ {
+        "file":       "GameData/Diazo",
+        "install_to": "GameData"
+    } ]
 }

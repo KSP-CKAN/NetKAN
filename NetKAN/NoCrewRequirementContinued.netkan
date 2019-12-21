@@ -5,6 +5,10 @@
     "$kref":        "#/ckan/spacedock/715",
     "ksp_version":  "any",
     "license":      "GPL-3.0",
+    "tags": [
+        "config",
+        "unmanned"
+    ],
     "depends": [
          { "name": "ModuleManager" }
      ],

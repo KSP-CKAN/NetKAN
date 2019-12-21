@@ -1,8 +1,11 @@
 {
-    "license": "GPL-3.0",
-    "$kref": "#/ckan/spacedock/822",
-    "$vref": "#/ckan/ksp-avc",
     "spec_version": "v1.4",
-    "identifier": "DockSafe",
-    "x_via": "Automated SpaceDock CKAN submission"
+    "identifier":   "DockSafe",
+    "$kref":        "#/ckan/spacedock/822",
+    "$vref":        "#/ckan/ksp-avc",
+    "license":      "GPL-3.0",
+    "tags": [
+        "plugin",
+        "control"
+    ]
 }

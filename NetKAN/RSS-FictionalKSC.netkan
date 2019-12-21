@@ -1,34 +1,27 @@
 {
     "spec_version" : "v1.2",
     "identifier"   : "RSS-FictionalKSC",
+    "name"         : "RSS Fictional KSC",
+    "abstract"     : "Add fictional launch sites (for Real Solar System & KSC Switcher)",
+    "author"       : "Miki",
     "$kref"        : "#/ckan/github/miki-g/RSS-FictionalKSC",
     "$vref"        : "#/ckan/ksp-avc",
-    "name"         : "RSS Fictional KSC",
-    "author"       : [ "Miki" ],
-    "abstract"     : "Add fictional launch sites (for Real Solar System & KSC Switcher)",
     "license"      : "WTFPL",
-
-    "depends": [
-          {
-        "name": "KSCSwitcher"
-        },
-        {
-        "name": "RealSolarSystem"
-        }
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/139827-*/#comment-2583173"
+    },
+    "tags": [
+        "config"
     ],
-
+    "depends": [
+        { "name": "KSCSwitcher" },
+        { "name": "RealSolarSystem" }
+    ],
     "recommends": [
         { "name": "RSS-Airports" }
     ],
-
-    "install": [
-          {
-           "file" : "RSS-FictionalKSC",
-           "install_to" : "GameData"
-          }
-    ],
-
-    "resources": {
-        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/139827-*/#comment-2583173"
-    }
+    "install": [ {
+        "file" : "RSS-FictionalKSC",
+        "install_to" : "GameData"
+    } ]
 }

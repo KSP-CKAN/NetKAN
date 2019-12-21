@@ -9,7 +9,12 @@
     "license"        : "GPL-3.0",
     "release_status" : "stable",
     "resources"      : {
-        "homepage"   : "https://github.com/jfrouleau/PreciseEditor",
+        "homepage"   : "https://forum.kerbalspaceprogram.com/index.php?/topic/184193-*",
         "repository" : "https://github.com/jfrouleau/PreciseEditor"
-    }
+    },
+    "tags": [
+        "plugin",
+        "editor",
+        "information"
+    ]
 }

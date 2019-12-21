@@ -1,23 +1,25 @@
 {
-  "license": "CC-BY-NC-ND",
-  "identifier": "BetterSRBs",
-  "x_via": "Automated Linuxgurugamer CKAN script",
-  "$kref": "#/ckan/github/OhioBob/BetterSRBs",
-  "$vref": "#/ckan/ksp-avc",
-  "resources": {
-    "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/175316-ksp-15x-bettersrbs-v104-17-oct-2018/",
-    "repository": "https://github.com/OhioBob/BetterSRBs"
-  },
-  "depends": [
-    {
-      "name": "ModuleManager"
-    }
-  ],
-  "install": [
-    {
-      "find": "BetterSRBs",
-      "install_to": "GameData"
-    }
-  ],
-  "spec_version": "v1.4"
+    "spec_version": "v1.4",
+    "identifier":   "BetterSRBs",
+    "$kref":        "#/ckan/github/OhioBob/BetterSRBs",
+    "$vref":        "#/ckan/ksp-avc",
+    "license":      "CC-BY-NC-ND",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/175316-*",
+        "repository": "https://github.com/OhioBob/BetterSRBs"
+    },
+    "tags": [
+        "plugin",
+        "parts"
+    ],
+    "depends": [
+        { "name": "ModuleManager" }
+    ],
+    "recommends": [
+        { "name": "SmartParts" }
+    ],
+    "install": [ {
+        "find": "BetterSRBs",
+        "install_to": "GameData"
+    } ]
 }

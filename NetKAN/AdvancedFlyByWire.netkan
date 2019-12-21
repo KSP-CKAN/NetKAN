@@ -9,6 +9,10 @@
         "homepage":   "https://forum.kerbalspaceprogram.com/index.php?/topic/175359-*",
         "repository": "https://github.com/linuxgurugamer/ksp-advanced-flybywire"
     },
+    "tags": [
+        "plugin",
+        "control"
+    ],
     "install": [ {
         "file":       "SDL2.dll",
         "install_to": "GameRoot"

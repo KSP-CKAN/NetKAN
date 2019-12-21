@@ -9,6 +9,11 @@
         "homepage"    : "https://forum.kerbalspaceprogram.com/index.php?/topic/119584-*",
         "repository"  : "https://github.com/linuxgurugamer/CraftImport"
     },
+    "tags": [
+        "plugin",
+        "editor",
+        "convenience"
+    ],
     "recommends": [
         { "name": "JanitorsCloset" }
     ],
@@ -16,11 +21,8 @@
         { "name": "ToolbarController" },
         { "name": "ClickThroughBlocker" }
     ],
-    "install": [
-        {
-            "find"       : "CraftImport",
-            "install_to" : "GameData"
-        }
-    ]
+    "install": [ {
+        "find"       : "CraftImport",
+        "install_to" : "GameData"
+    } ]
 }
-

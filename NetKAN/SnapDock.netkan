@@ -1,18 +1,16 @@
 {
-  "license": "unrestricted",
-  "identifier": "SnapDock",
-  "x_via": "Automated Linuxgurugamer CKAN script",
-  "$kref": "#/ckan/spacedock/870",
-  "depends": [
-    {
-      "name": "ModuleManager"
-    }
-  ],
-  "install": [
-    {
-      "find": "XyphosAerospace",
-      "install_to": "GameData"
-    }
-  ],
-  "spec_version": "v1.4"
+    "spec_version": "v1.4",
+    "identifier":   "SnapDock",
+    "$kref":        "#/ckan/spacedock/870",
+    "license":      "unrestricted",
+    "tags": [
+        "plugin"
+    ],
+    "depends": [
+        { "name": "ModuleManager" }
+    ],
+    "install": [ {
+        "find": "XyphosAerospace",
+        "install_to": "GameData"
+    } ]
 }

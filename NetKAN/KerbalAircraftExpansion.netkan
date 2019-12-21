@@ -1,20 +1,19 @@
 {
     "spec_version": "v1.2",
-    "identifier": "KerbalAircraftExpansion",
-    "name": "Kerbal Aircraft Expansion",
-    "$kref": "#/ckan/spacedock/2150",
-    "$vref": "#/ckan/ksp-avc",
+    "identifier":   "KerbalAircraftExpansion",
+    "name":         "Kerbal Aircraft Expansion",
+    "abstract":     "A pack of select vanilla-inspired parts for your aircrafting needs.",
+    "author":       [ "keptin", "SpannerMonkey", "LisiasT" ],
+    "$kref":        "#/ckan/spacedock/2150",
+    "$vref":        "#/ckan/ksp-avc",
     "x_netkan_epoch": 4,
-    "abstract": "A pack of select vanilla-inspired parts for your aircrafting needs.",
-    "author": [
-        "keptin",
-        "SpannerMonkey",
-        "LisiasT"
-    ],
-    "license" : "restricted",
+    "license":      "restricted",
     "resources": {
         "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/180268-*"
     },
+    "tags": [
+        "parts"
+    ],
     "depends": [
         { "name" : "FirespitterCore" },
         { "name" : "FirespitterResourcesConfig" },

@@ -12,6 +12,10 @@
     "resources": {
         "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/120246-*"
     },
+    "tags": [
+        "config",
+        "planet-pack"
+    ],
     "depends": [
         { "name": "ModuleManager" },
         { "name": "Kopernicus", "min_version": "2:release-1.3.0-2" }
@@ -39,12 +43,10 @@
         { "name": "UnchartedLands" },
         { "name": "WinterKerbol" }
     ],
-    "install": [
-        {
-            "find_regexp" : "AlternisKerbol",
-            "install_to" : "GameData"
-        }
-    ],
+    "install": [ {
+        "find_regexp" : "AlternisKerbol",
+        "install_to" : "GameData"
+    } ],
     "x_netkan_override" : [
         {
             "version" : "1.4.2",

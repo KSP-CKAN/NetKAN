@@ -1,18 +1,18 @@
 {
-  "license": "GPL-2.0",
-  "identifier": "KerbalLaunchFailure",
-  "x_via": "Automated Linuxgurugamer CKAN script",
-  "$kref": "#/ckan/spacedock/989",
-  "$vref": "#/ckan/ksp-avc",
-  "depends": [
-      { "name" : "ToolbarController" },
-      { "name" : "ClickThroughBlocker" }
-  ],
-  "install": [
-    {
-      "find": "KerbalLaunchFailure",
-      "install_to": "GameData"
-    }
-  ],
-  "spec_version": "v1.4"
+    "spec_version": "v1.4",
+    "identifier":   "KerbalLaunchFailure",
+    "$kref":        "#/ckan/spacedock/989",
+    "$vref":        "#/ckan/ksp-avc",
+    "license":      "GPL-2.0",
+    "tags": [
+        "plugin"
+    ],
+    "depends": [
+        { "name" : "ToolbarController" },
+        { "name" : "ClickThroughBlocker" }
+    ],
+    "install": [ {
+        "find": "KerbalLaunchFailure",
+        "install_to": "GameData"
+    } ]
 }

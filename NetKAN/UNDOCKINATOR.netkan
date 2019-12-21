@@ -1,8 +1,11 @@
 {
-    "$kref": "#/ckan/spacedock/984",
-    "$vref": "#/ckan/ksp-avc",
-    "identifier": "UNDOCKINATOR",
     "spec_version": "v1.4",
-    "license": "MIT",
-    "x_via": "Automated SpaceDock CKAN submission"
+    "identifier":   "UNDOCKINATOR",
+    "$kref":        "#/ckan/spacedock/984",
+    "$vref":        "#/ckan/ksp-avc",
+    "license":      "MIT",
+    "tags": [
+        "plugin",
+        "convenience"
+    ]
 }

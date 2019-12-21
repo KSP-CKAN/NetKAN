@@ -4,9 +4,12 @@
     "$kref":        "#/ckan/spacedock/599",
     "x_netkan_epoch": 3,
     "license":      "restricted",
+    "tags": [
+        "parts"
+    ],
     "depends": [
         { "name": "AnimatedDecouplers" },
-        { "any_of": [ 
+        { "any_of": [
             { "name": "KerbalJointReinforcement" },
             { "name": "KerbalJointReinforcementNext" }
         ]},

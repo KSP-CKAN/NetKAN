@@ -2,5 +2,8 @@
     "spec_version": "v1.10",
     "identifier": "ROEngines",
     "$kref": "#/ckan/netkan/https://raw.githubusercontent.com/KSP-RO/ROEngines/master/ROEngines.netkan",
-    "x_netkan_license_ok": true
+    "x_netkan_license_ok": true,
+    "tags": [
+        "config"
+    ]
 }

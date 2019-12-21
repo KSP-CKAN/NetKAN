@@ -6,6 +6,10 @@
     "abstract"     : "This package contains a bunch of utility methods for general use to modders.",
     "license"      : "CC-BY-3.0",
     "ksp_version"  : "0.90",
+    "tags": [
+        "plugin",
+        "library"
+    ],
     "install" : [
         {
             "file" : "KSPAPIExt",

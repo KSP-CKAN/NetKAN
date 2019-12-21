@@ -2,5 +2,11 @@
     "spec_version": "v1.18",
     "identifier":   "NavBallsToYou",
     "$kref":        "#/ckan/spacedock/458",
-    "license":      "Unlicense"
+    "license":      "Unlicense",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/135530-*"
+    },
+    "tags": [
+        "plugin"
+    ]
 }

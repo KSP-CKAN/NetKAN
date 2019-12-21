@@ -1,6 +1,10 @@
 {
     "spec_version": 1,
-    "identifier": "EVATransfer",
-    "$kref": "#/ckan/spacedock/134",
-    "license": "MIT"
+    "identifier":   "EVATransfer",
+    "$kref":        "#/ckan/spacedock/134",
+    "license":      "MIT",
+    "tags": [
+        "plugin",
+        "manned"
+    ]
 }
