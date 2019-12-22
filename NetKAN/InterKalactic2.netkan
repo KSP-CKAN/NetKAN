@@ -3,7 +3,10 @@
     "identifier":   "InterKalactic2",
     "$kref":        "#/ckan/spacedock/1750",
     "license":      "MIT",
-    "x_via":        "Automated SpaceDock CKAN submission",
+    "tags": [
+        "config",
+        "planet-pack"
+    ],
     "depends": [
         { "name": "Kopernicus"     },
         { "name": "KerbolPlusPlus" }

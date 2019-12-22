@@ -3,6 +3,10 @@
     "identifier":   "Atoren",
     "$kref":        "#/ckan/spacedock/2101",
     "license":      "GPL-3.0",
+    "tags": [
+        "config",
+        "planet-pack"
+    ],
     "depends": [
         { "name": "ModuleManager" },
         { "name": "Kopernicus"    }

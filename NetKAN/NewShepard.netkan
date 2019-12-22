@@ -3,5 +3,7 @@
     "identifier":   "NewShepard",
     "$kref":        "#/ckan/spacedock/2181",
     "license":      "WTFPL",
-    "x_via":        "Automated SpaceDock CKAN submission"
+    "tags": [
+        "parts"
+    ]
 }

@@ -3,6 +3,9 @@
     "identifier":   "SemioticStandard",
     "$kref":        "#/ckan/spacedock/1881",
     "license":      "BSD-2-clause",
+    "tags": [
+        "config"
+    ],
     "install": [ {
         "find":       "Semiotic",
         "install_to": "GameData",

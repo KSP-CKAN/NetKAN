@@ -1,14 +1,15 @@
 {
-  "license": "CC-BY-SA-3.0",
-  "identifier": "TrimIndicators",
-  "x_via": "Automated Linuxgurugamer CKAN script",
-  "$kref": "#/ckan/spacedock/2179",
-  "$vref": "#/ckan/ksp-avc",
-  "install": [
-    {
-      "find": "TrimIndicators",
-      "install_to": "GameData"
-    }
-  ],
-  "spec_version": "v1.4"
+    "spec_version": "v1.4",
+    "identifier": "TrimIndicators",
+    "$kref": "#/ckan/spacedock/2179",
+    "$vref": "#/ckan/ksp-avc",
+    "license": "CC-BY-SA-3.0",
+    "tags": [
+        "plugin",
+        "information"
+    ],
+    "install": [ {
+        "find": "TrimIndicators",
+        "install_to": "GameData"
+    } ]
 }
