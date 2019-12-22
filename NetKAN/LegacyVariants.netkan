@@ -3,6 +3,9 @@
 	"identifier":   "LegacyVariants",
 	"$kref":        "#/ckan/spacedock/1961",
 	"license":      "MIT",
+	"tags": [
+		"parts"
+	],
 	"install": [ {
 		"find":          "KSC",
 		"install_to":    "GameData",

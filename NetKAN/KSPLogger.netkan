@@ -1,20 +1,23 @@
 {
-  "license"      : "restricted",
-  "identifier"   : "KSPLogger",
-  "abstract"     : "Write specified data items to files for use by external programs (ie: OBS)",
-  "x_via"        : "Automated Linuxgurugamer CKAN script",
-  "$kref"        : "#/ckan/github/linuxgurugamer/KSPLogger",
-  "$vref"        : "#/ckan/ksp-avc",
-  "resources"    : {
-    "repository": "https://github.com/linuxgurugamer/KSPLogger",
-    "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/146171-*"
-  },
-  "recommends"   : [ { "name": "JanitorsCloset" } ],
-  "install": [
-    {
-      "find": "KSPLogger",
-      "install_to": "GameData"
-    }
-  ],
-  "spec_version": "v1.4"
+    "spec_version": "v1.4",
+    "identifier"   : "KSPLogger",
+    "abstract"     : "Write specified data items to files for use by external programs (ie: OBS)",
+    "$kref"        : "#/ckan/github/linuxgurugamer/KSPLogger",
+    "$vref"        : "#/ckan/ksp-avc",
+    "license"      : "restricted",
+    "resources"    : {
+        "repository": "https://github.com/linuxgurugamer/KSPLogger",
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/146171-*"
+    },
+    "tags": [
+        "plugin",
+        "app"
+    ],
+    "recommends"   : [
+        { "name": "JanitorsCloset" }
+    ],
+    "install": [ {
+        "find": "KSPLogger",
+        "install_to": "GameData"
+    } ]
 }

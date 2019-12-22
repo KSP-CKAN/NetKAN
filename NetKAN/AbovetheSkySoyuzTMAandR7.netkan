@@ -1,9 +1,14 @@
 {
-    "x_via": "Automated SpaceDock CKAN submission",
-    "license": "MIT",
-    "identifier": "AbovetheSkySoyuzTMAandR7",
-    "$kref": "#/ckan/spacedock/1297",
     "spec_version": "v1.4",
+    "identifier":   "AbovetheSkySoyuzTMAandR7",
+    "$kref":        "#/ckan/spacedock/1297",
+    "license":      "MIT",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/142830-*"
+    },
+    "tags": [
+        "parts"
+    ],
     "depends": [
         { "name": "SpaceShuttleSystem" }
     ],
@@ -11,17 +16,11 @@
         { "name": "ASETProps" },
         { "name": "RasterPropMonitor" }
     ],
-    "install": [
-        {
-            "file": "DECQ_R7",
-            "install_to": "GameData"
-        },
-        {
-            "file": "SOYUZ_SPACECRAFT",
-            "install_to": "GameData"
-        }
-    ],
-    "resources": {
-        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/142830-*"
-    }
+    "install": [ {
+        "file": "DECQ_R7",
+        "install_to": "GameData"
+    }, {
+        "file": "SOYUZ_SPACECRAFT",
+        "install_to": "GameData"
+    } ]
 }

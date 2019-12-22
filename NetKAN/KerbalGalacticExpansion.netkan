@@ -1,16 +1,17 @@
 {
-    "x_via": "Automated SpaceDock CKAN submission",
     "spec_version": "v1.4",
-    "identifier": "KerbalGalacticExpansion",
-    "license": "MIT",
-    "$kref": "#/ckan/spacedock/1232",
+    "identifier":   "KerbalGalacticExpansion",
+    "$kref":        "#/ckan/spacedock/1232",
+    "license":      "MIT",
+    "tags": [
+        "config",
+        "planet-pack"
+    ],
     "depends": [
         { "name": "Kopernicus" }
     ],
-    "install": [
-        {
-            "file": "KerbalGalacticExpansion",
-            "install_to": "GameData"
-        }
-    ]
+    "install": [ {
+        "file": "KerbalGalacticExpansion",
+        "install_to": "GameData"
+    } ]
 }

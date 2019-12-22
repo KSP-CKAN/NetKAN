@@ -1,13 +1,15 @@
 {
-    "$kref": "#/ckan/spacedock/250",
     "spec_version": "v1.4",
-    "license": "MIT",
-    "identifier": "TMEME-TheMostEssentialModEver",
-    "install": [
-        {
-            "file"       : "PGParts",
-            "install_to" : "GameData",
-            "filter"     : [ "source", ".DS_Store" ]
-        }
-    ]
+    "identifier":   "TMEME-TheMostEssentialModEver",
+    "$kref":        "#/ckan/spacedock/250",
+    "license":      "MIT",
+    "tags": [
+        "plugin",
+        "graphics"
+    ],
+    "install": [ {
+        "file"       : "PGParts",
+        "install_to" : "GameData",
+        "filter"     : [ "source", ".DS_Store" ]
+    } ]
 }
