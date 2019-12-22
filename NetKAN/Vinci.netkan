@@ -1,17 +1,18 @@
 {
-    "$kref": "#/ckan/spacedock/1519",
-    "identifier": "Vinci",
-    "license": "AFL-3.0",
     "spec_version": "v1.4",
+    "identifier":   "Vinci",
+    "$kref":        "#/ckan/spacedock/1519",
+    "license":      "AFL-3.0",
+    "tags": [
+        "parts"
+    ],
     "depends": [
         { "name": "BDAnimationModules" }
     ],
-    "install": [
-        {
-            "find":"Vinci",
-            "install_to": "GameData/StarshineIndustries"
-        }
-    ],
+    "install": [ {
+        "find":"Vinci",
+        "install_to": "GameData/StarshineIndustries"
+    } ],
     "x_netkan_override": [
         {
             "version": "1.0.3",

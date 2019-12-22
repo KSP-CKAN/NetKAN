@@ -3,7 +3,9 @@
     "identifier":   "AlphaMensaeMobileLauncher",
     "$kref":        "#/ckan/spacedock/1706",
     "license":      "CC-BY-NC-SA-4.0",
-    "x_via":        "Automated SpaceDock CKAN submission",
+    "tags": [
+        "parts"
+    ],
     "recommends": [
         { "name": "KerbalJointReinforcement" }
     ]

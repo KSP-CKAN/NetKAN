@@ -3,7 +3,9 @@
     "identifier":   "KerbalModsOverhaul",
     "$kref":        "#/ckan/spacedock/1735",
     "license":      "CC-BY-SA-4.0",
-    "x_via":        "Automated SpaceDock CKAN submission",
+    "tags": [
+        "config"
+    ],
     "install": [ {
         "find":       "KMO",
         "install_to": "GameData"
@@ -14,7 +16,7 @@
         { "name": "USI-LS"                   },
         { "name": "ExtraPlanetaryLaunchpads" }
     ],
-    "recommends": [        
+    "recommends": [
         { "name": "OSEWorkShopCont"                },
         { "name": "KeridianDynamicsVesselAssembly" }
     ],

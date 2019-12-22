@@ -3,6 +3,10 @@
     "identifier":   "BeyondKerbinPlanetPack",
     "$kref":        "#/ckan/spacedock/1965",
     "license":      "CC-BY-NC-ND-4.0",
+    "tags": [
+        "config",
+        "planet-pack"
+    ],
     "install": [ {
         "find":       "Beyond Kerbin",
         "install_to": "GameData"

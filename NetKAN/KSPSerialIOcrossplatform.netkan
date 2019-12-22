@@ -1,26 +1,23 @@
 {
-  "spec_version": "v1.4",
-  "identifier": "KSPSerialIOcrossplatform",
-  "$kref": "#/ckan/spacedock/850",
-  "license": "CC-BY",
-
-  "install": [
-    {
-      "file": "KSPSerialIO/KSPSerialIO.dll",
-      "install_to": "GameData/KSPSerialIO"
-    },
-    {
-      "file": "KSPSerialIO/PsimaxSerial.dll",
-      "install_to": "GameData/KSPSerialIO"
-    },
-    { "file": "KSPSerialIO/PluginData/KSPSerialIO/config.xml",
-      "install_to": "GameData/KSPSerialIO/PluginData/KSPSerialIO"
-    }
-  ],
-
-  "conflicts": [
-    {
-      "name": "SerialIO"
-    }
-  ]
+    "spec_version": "v1.4",
+    "identifier":   "KSPSerialIOcrossplatform",
+    "$kref":        "#/ckan/spacedock/850",
+    "license":      "CC-BY",
+    "tags": [
+        "plugin",
+        "app"
+    ],
+    "install": [ {
+        "file": "KSPSerialIO/KSPSerialIO.dll",
+        "install_to": "GameData/KSPSerialIO"
+    }, {
+        "file": "KSPSerialIO/PsimaxSerial.dll",
+        "install_to": "GameData/KSPSerialIO"
+    }, {
+        "file": "KSPSerialIO/PluginData/KSPSerialIO/config.xml",
+        "install_to": "GameData/KSPSerialIO/PluginData/KSPSerialIO"
+    } ],
+    "conflicts": [
+        { "name": "SerialIO" }
+    ]
 }

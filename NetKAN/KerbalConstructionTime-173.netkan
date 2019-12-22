@@ -1,32 +1,32 @@
 {
-    "spec_version"   : 1,
-    "identifier"     : "KerbalConstructionTime-173",
-    "$kref"          : "#/ckan/spacedock/2254",
-    "$vref":        "#/ckan/ksp-avc",
-    "license"        : "GPL-3.0",
-    "install" : [
-        {
-          "file"       : "GameData/KerbalConstructionTime",
-          "install_to" : "GameData"
-        }
+    "spec_version": 1,
+    "identifier"  : "KerbalConstructionTime-173",
+    "$kref"       : "#/ckan/spacedock/2254",
+    "$vref"       : "#/ckan/ksp-avc",
+    "license"     : "GPL-3.0",
+    "tags": [
+        "plugin"
     ],
+    "install" : [ {
+      "file"       : "GameData/KerbalConstructionTime",
+      "install_to" : "GameData"
+    } ],
     "depends" : [
-        { "name" : "MagiCore" },
-        { "name" : "ClickThroughBlocker" },
-        { "name" : "ToolbarController" }
+        { "name": "MagiCore" },
+        { "name": "ClickThroughBlocker" },
+        { "name": "ToolbarController" }
     ],
     "recommends" : [
-        { "name" : "ScrapYard" },
-        { "name" : "KRASH" },
-        { "name" : "StageRecovery" },
-        { "name" : "CrewQueueTwo" },
-        { "name" : "OhScrap" }
+        { "name": "ScrapYard" },
+        { "name": "KRASH" },
+        { "name": "StageRecovery" },
+        { "name": "CrewQueueTwo" },
+        { "name": "OhScrap" }
     ],
     "suggests" : [
-        { "name" : "KerbalAlarmClock" }
+        { "name": "KerbalAlarmClock" }
     ],
 	"conflicts" : [
 		{ "name": "KerbalConstructionTime" }
 	]
 }
-

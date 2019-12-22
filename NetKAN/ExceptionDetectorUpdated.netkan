@@ -2,6 +2,9 @@
     "spec_version": "v1.18",
     "identifier":   "ExceptionDetectorUpdated",
     "$kref":        "#/ckan/spacedock/2063",
+    "ksp_version_min": "1.4",
     "license":      "Unlicense",
-    "ksp_version_min": "1.4"
+    "tags": [
+        "plugin"
+    ]
 }

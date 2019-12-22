@@ -3,6 +3,11 @@
     "identifier"   : "NodeAlert",
     "$kref"        : "#/ckan/spacedock/1659",
     "license"      : "GPL-3.0",
+    "tags": [
+        "plugin",
+        "control",
+        "convenience"
+    ],
     "depends": [
         { "name": "KerbalEngineerRedux" }
     ],
