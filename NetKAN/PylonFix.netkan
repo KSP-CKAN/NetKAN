@@ -1,8 +1,14 @@
 {
     "spec_version": "v1.4",
-    "license": "unrestricted",
-    "$kref": "#/ckan/spacedock/1626",
-    "x_via": "Automated SpaceDock CKAN submission",
-    "identifier": "PylonFix",
-    "depends": [{ "name": "ModuleManager" }]
+    "identifier":   "PylonFix",
+    "$kref":        "#/ckan/spacedock/1626",
+    "license":      "unrestricted",
+    "tags": [
+        "config",
+        "editor",
+        "convenience"
+    ],
+    "depends": [
+        { "name": "ModuleManager" }
+    ]
 }

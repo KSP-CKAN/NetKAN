@@ -1,16 +1,18 @@
 {
-    "x_via": "Automated SpaceDock CKAN submission",
-    "license": "CC-BY-SA",
-    "identifier": "BeautifiedDres",
-    "$kref": "#/ckan/spacedock/1292",
     "spec_version": "v1.4",
-    "depends": [
-        { "name": "Kopernicus" }
+    "identifier":   "BeautifiedDres",
+    "$kref":        "#/ckan/spacedock/1292",
+    "license":      "CC-BY-SA",
+    "tags": [
+        "config",
+        "planet-pack"
     ],
-    "install": [
-        {
-            "file": "BeautyDres",
-            "install_to": "GameData"
-        }
-    ]
+    "depends": [
+        { "name": "ModuleManager" },
+        { "name": "Kopernicus"    }
+    ],
+    "install": [ {
+        "file": "BeautyDres",
+        "install_to": "GameData"
+    } ]
 }

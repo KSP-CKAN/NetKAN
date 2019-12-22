@@ -3,5 +3,8 @@
     "identifier":   "4kSP",
     "$kref":        "#/ckan/spacedock/2228",
     "license":      "MIT",
-    "x_via":        "Automated SpaceDock CKAN submission"
+    "tags": [
+        "plugin",
+        "graphics"
+    ]
 }

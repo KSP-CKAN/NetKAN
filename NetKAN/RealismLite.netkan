@@ -3,8 +3,11 @@
     "identifier":   "RealismLite",
     "$kref":        "#/ckan/spacedock/2253",
     "license":      "MIT",
+    "tags": [
+        "config",
+        "career"
+    ],
     "depends": [
         { "name": "ModuleManager" }
-    ],
-    "x_via":        "Automated SpaceDock CKAN submission"
+    ]
 }

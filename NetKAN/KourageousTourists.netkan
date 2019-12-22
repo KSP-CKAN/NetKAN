@@ -1,7 +1,11 @@
 {
     "spec_version": "v1.4",
-    "license": "MIT",
-    "$kref": "#/ckan/spacedock/1613",
-    "x_via": "Automated SpaceDock CKAN submission",
-    "identifier": "KourageousTourists"
+    "identifier":   "KourageousTourists",
+    "$kref":        "#/ckan/spacedock/1613",
+    "license":      "MIT",
+    "tags": [
+        "plugin",
+        "manned",
+        "career"
+    ]
 }

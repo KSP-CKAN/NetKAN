@@ -3,6 +3,10 @@
     "identifier":   "TopiaiSystem",
     "$kref":        "#/ckan/spacedock/2103",
     "license":      "MIT",
+    "tags": [
+        "config",
+        "planet-pack"
+    ],
     "install": [ {
         "find":       "Topiai",
         "install_to": "GameData",
