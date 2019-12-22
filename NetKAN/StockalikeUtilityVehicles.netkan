@@ -3,6 +3,9 @@
     "identifier":   "StockalikeUtilityVehicles",
     "$kref":        "#/ckan/spacedock/2005",
     "license":      "CC-BY-NC-ND-4.0",
+    "tags": [
+        "parts"
+    ],
     "depends": [
         { "name": "AdvancedTextures" }
     ],

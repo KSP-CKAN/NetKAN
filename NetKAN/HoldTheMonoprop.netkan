@@ -1,8 +1,11 @@
 {
-    "identifier": "HoldTheMonoprop",
-    "$kref": "#/ckan/spacedock/691",
     "spec_version": "v1.4",
-    "license": "public-domain",
+    "identifier":   "HoldTheMonoprop",
+    "$kref":        "#/ckan/spacedock/691",
+    "license":      "public-domain",
+    "tags": [
+        "config"
+    ],
     "depends": [
         { "name": "ModuleManager" }
     ]

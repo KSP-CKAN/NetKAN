@@ -3,6 +3,10 @@
     "identifier":   "GolderSystem",
     "$kref":        "#/ckan/spacedock/2104",
     "license":      "GPL-3.0",
+    "tags": [
+        "config",
+        "planet-pack"
+    ],
     "depends": [
         { "name": "ModuleManager" },
         { "name": "Kopernicus"    }

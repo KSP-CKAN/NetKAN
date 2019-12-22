@@ -1,26 +1,20 @@
 {
-  "spec_version": "v1.4",
-  "install": [
-    {
-      "install_to": "GameData",
-      "find": "BahaEPL"
-    }
-  ],
-  "depends": [
-    {
-      "name": "InterstellarFuelSwitch-Core"
-    },
-    {
-      "name": "ModuleManager"
-    },
-    {
-      "name": "FirespitterCore"
-    }
-  ],
-  "$vref": "#/ckan/ksp-avc",
-  "$kref": "#/ckan/spacedock/1708",
-  "x_via": "Automated Linuxgurugamer CKAN script",
-  "identifier": "BahaEPLRedrilled",
-  "license": "CC-BY-4.0"
-
+    "spec_version": "v1.4",
+    "identifier":   "BahaEPLRedrilled",
+    "$kref":        "#/ckan/spacedock/1708",
+    "$vref":        "#/ckan/ksp-avc",
+    "license":      "CC-BY-4.0",
+    "tags": [
+        "parts",
+        "resources"
+    ],
+    "install": [ {
+        "find": "BahaEPL",
+        "install_to": "GameData"
+    } ],
+    "depends": [
+        { "name": "InterstellarFuelSwitch-Core" },
+        { "name": "ModuleManager" },
+        { "name": "FirespitterCore" }
+    ]
 }

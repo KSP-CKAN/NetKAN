@@ -1,8 +1,13 @@
 {
-    "$kref":      "#/ckan/spacedock/1606",
-    "identifier": "KEAMKerbalExpandableActivityModule",
-    "license":    "CC-BY-4.0",
-    "install": [{
+    "spec_version": "v1.16",
+    "identifier":   "KEAMKerbalExpandableActivityModule",
+    "$kref":        "#/ckan/spacedock/1606",
+    "license":      "CC-BY-4.0",
+    "tags": [
+        "parts",
+        "manned"
+    ],
+    "install": [ {
         "find":       "GameData/KEAM",
         "install_to": "GameData"
     }, {
@@ -13,7 +18,7 @@
         "find":       "OptionalConfigs/KEAM-tweakscale.cfg",
         "install_to": "GameData/KEAM",
         "find_matches_files": true
-    }],
+    } ],
     "depends": [
         { "name": "TexturesUnlimited" }
     ],
@@ -22,7 +27,5 @@
         { "name": "TweakScale"           },
         { "name": "KIS"                  },
         { "name": "KAS"                  }
-    ],
-    "x_via": "Automated SpaceDock CKAN submission",
-    "spec_version": "v1.16"
+    ]
 }

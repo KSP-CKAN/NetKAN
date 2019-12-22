@@ -5,10 +5,12 @@
     "$kref":        "#/ckan/spacedock/2023",
     "$vref":        "#/ckan/ksp-avc",
     "license":      "CC-BY-SA-4.0",
-    "install": [
-        {
-            "find":       "PhantomAerospace",
-            "install_to": "GameData"
-        }
-    ]
+    "tags": [
+        "parts",
+        "science"
+    ],
+    "install": [ {
+        "find":       "PhantomAerospace",
+        "install_to": "GameData"
+    } ]
 }
