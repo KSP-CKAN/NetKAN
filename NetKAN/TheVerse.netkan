@@ -1,28 +1,27 @@
 {
-    "x_via": "Automated SpaceDock CKAN submission",
     "spec_version": "v1.4",
-    "identifier": "TheVerse",
-    "license": "CC-BY-4.0",
-    "$kref": "#/ckan/spacedock/1388",
-    "$vref": "#/ckan/ksp-avc",
+    "identifier":   "TheVerse",
+    "$kref":        "#/ckan/spacedock/1388",
+    "$vref":        "#/ckan/ksp-avc",
+    "license":      "CC-BY-4.0",
+    "tags": [
+        "config",
+        "planet-pack"
+    ],
     "depends": [
         { "name": "Kopernicus" },
         { "name": "ModuleManager" },
         { "name": "CommunityTerrainTexturePack" }
     ],
-    "install": [
-        {
-            "file": "1 - Main/GameData/TheVerse",
-            "install_to": "GameData"
-        },
-        {
-            "file": "2 - Planets/GameData/TheVerse",
-            "install_to": "GameData",
-            "filter_regexp": [ ".*\\.[vV]ersion", ".*._License\\.txt", "TBG_LICENSE.txt", "TBG_Textures.txt" ]
-        },
-        {
-            "file": "3 - Moons/GameData/TheVerse",
-            "install_to": "GameData"
-        }
-    ]
+    "install": [ {
+        "file": "1 - Main/GameData/TheVerse",
+        "install_to": "GameData"
+    }, {
+        "file": "2 - Planets/GameData/TheVerse",
+        "install_to": "GameData",
+        "filter_regexp": [ ".*\\.[vV]ersion", ".*._License\\.txt", "TBG_LICENSE.txt", "TBG_Textures.txt" ]
+    }, {
+        "file": "3 - Moons/GameData/TheVerse",
+        "install_to": "GameData"
+    } ]
 }

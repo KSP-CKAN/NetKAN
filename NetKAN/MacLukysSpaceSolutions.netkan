@@ -1,9 +1,11 @@
 {
-    "$kref": "#/ckan/spacedock/1279",
-    "identifier": "MacLukysSpaceSolutions",
-    "x_via": "Automated SpaceDock CKAN submission",
     "spec_version": "v1.4",
-    "license": "CC-BY-NC-SA-3.0",
+    "identifier":   "MacLukysSpaceSolutions",
+    "$kref":        "#/ckan/spacedock/1279",
+    "license":      "CC-BY-NC-SA-3.0",
+    "tags": [
+        "parts"
+    ],
     "depends": [
         { "name": "ModuleManager" }
     ],
@@ -14,11 +16,9 @@
         { "name": "BetterScienceLabsContinued" },
         { "name": "FilterExtensions" }
     ],
-    "install": [
-        {
-            "find": "GameData/MacLuky",
-            "install_to": "GameData",
-            "filter": [ ".DS_Store" ]
-        }
-    ]
+    "install": [ {
+        "find": "GameData/MacLuky",
+        "install_to": "GameData",
+        "filter": [ ".DS_Store" ]
+    } ]
 }

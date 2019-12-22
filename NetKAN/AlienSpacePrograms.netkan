@@ -9,6 +9,9 @@
     "resources": {
         "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/163109-*"
     },
+    "tags": [
+        "config"
+    ],
     "conflicts": [
         { "name": "LaytheSpaceProgram" },
         { "name": "DunaSpaceProgram"   },

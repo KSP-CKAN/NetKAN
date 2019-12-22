@@ -1,8 +1,11 @@
 {
-    "$kref": "#/ckan/spacedock/584",
-    "identifier": "ORIONMonkeyBusinessIncParts",
     "spec_version": 1,
-    "license": "CC-BY-NC-SA-4.0",
+    "identifier":   "ORIONMonkeyBusinessIncParts",
+    "$kref":        "#/ckan/spacedock/584",
+    "license":      "CC-BY-NC-SA-4.0",
+    "tags": [
+        "parts"
+    ],
     "depends": [
         { "name": "ModuleManager" }
     ],
@@ -19,10 +22,8 @@
         { "name": "NearFutureSolar" },
         { "name": "NearFutureSpacecraft" }
     ],
-    "install": [
-        {
-            "file": "MBI",
-            "install_to": "GameData"
-        }
-    ]
+    "install": [ {
+        "file": "MBI",
+        "install_to": "GameData"
+    } ]
 }

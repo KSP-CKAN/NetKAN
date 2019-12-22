@@ -1,14 +1,16 @@
 {
-    "$kref": "#/ckan/spacedock/1153",
-    "identifier": "SimpleMk2LanderCanPatch",
-    "x_via": "Automated SpaceDock CKAN submission",
     "spec_version": "v1.4",
-    "license": "public-domain",
-    "depends": [ { "name" : "ModuleManager" } ],
-    "install" : [
-        {
-            "file"       : "SimpleMk2LanderCanPatch.cfg",
-            "install_to" : "GameData"
-        }
-    ]
+    "identifier":   "SimpleMk2LanderCanPatch",
+    "$kref":        "#/ckan/spacedock/1153",
+    "license":      "public-domain",
+    "tags": [
+        "config"
+    ],
+    "depends": [
+        { "name" : "ModuleManager" }
+    ],
+    "install" : [ {
+        "file"       : "SimpleMk2LanderCanPatch.cfg",
+        "install_to" : "GameData"
+    } ]
 }

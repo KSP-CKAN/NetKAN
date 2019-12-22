@@ -2,24 +2,26 @@
     "spec_version":  "v1.4",
     "identifier" :   "KerbalKrashSystem",
     "author":        "EnzoMeertens",
-    "$vref":         "#/ckan/ksp-avc",
     "$kref":         "#/ckan/github/EnzoMeertens/KerbalKrashSystem",
-    "license":       "MIT",
+    "$vref":         "#/ckan/ksp-avc",
     "x_netkan_epoch": "1",
+    "license":       "MIT",
     "resources": {
-        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/129410-105-kerbal-krash-system",
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/129410-*",
         "repository": "https://github.com/EnzoMeertens/KerbalKrashSystem"
     },
+    "tags": [
+        "plugin",
+        "physics"
+    ],
     "depends": [
         {
             "name": "ModuleManager",
             "min_version": "2.6.25"
         }
     ],
-    "install": [
-        {
-            "find": "KerbalKrashSystem",
-            "install_to": "GameData"
-        }
-    ]
+    "install": [ {
+        "find": "KerbalKrashSystem",
+        "install_to": "GameData"
+    } ]
 }

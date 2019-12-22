@@ -5,10 +5,15 @@
     "$kref":        "#/ckan/spacedock/1870",
     "$vref":        "#/ckan/ksp-avc",
     "release_status": "stable",
+    "x_netkan_license_ok": true,
     "resources": {
         "homepage":   "https://forum.kerbalspaceprogram.com/index.php?/topic/175359-*",
         "repository": "https://github.com/linuxgurugamer/ksp-advanced-flybywire"
     },
+    "tags": [
+        "plugin",
+        "control"
+    ],
     "install": [ {
         "file":       "GameData/ksp-advanced-flybywire",
         "install_to": "GameData"
@@ -25,6 +30,5 @@
     ],
     "recommends": [
         { "name": "KSP-AVC" }
-    ],
-    "x_netkan_license_ok": true
+    ]
 }
