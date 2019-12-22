@@ -3,6 +3,9 @@
     "identifier":   "NSDArcReactors",
     "$kref":        "#/ckan/spacedock/1982",
     "license":      "MIT",
+    "tags": [
+        "parts"
+    ],
     "install": [ {
         "find":       "NSD Arc Reactors",
         "install_to": "GameData"

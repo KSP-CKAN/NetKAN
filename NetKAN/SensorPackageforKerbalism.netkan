@@ -3,6 +3,9 @@
     "identifier":   "SensorPackageforKerbalism",
     "$kref":        "#/ckan/spacedock/2145",
     "license":      "MIT",
+    "tags": [
+        "config"
+    ],
     "install": [ {
         "find":       "SensorPackage",
         "install_to": "GameData"

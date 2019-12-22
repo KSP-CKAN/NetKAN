@@ -3,6 +3,10 @@
     "identifier":   "Corelian",
     "$kref":        "#/ckan/spacedock/2233",
     "license":      "MIT",
+    "tags": [
+        "config",
+        "planet-pack"
+    ],
     "depends": [
         { "name": "ModuleManager" },
         { "name": "Kopernicus"    }

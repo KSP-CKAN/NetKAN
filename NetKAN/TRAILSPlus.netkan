@@ -8,6 +8,9 @@
         "manual":   "https://github.com/TedThompson/T.R.A.I.L.S./wiki",
         "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/150759-*"
     },
+    "tags": [
+        "parts"
+    ],
     "recommended": [
         { "name": "BluedogDB"     },
         { "name": "EVAParachutes" }

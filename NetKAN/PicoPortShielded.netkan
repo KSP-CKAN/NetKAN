@@ -4,7 +4,9 @@
     "$kref":        "#/ckan/spacedock/2245",
     "$vref":        "#/ckan/ksp-avc",
     "license":      "CC-BY-NC-SA-4.0",
-    "x_via":        "Automated SpaceDock CKAN submission",
+    "tags": [
+        "parts"
+    ],
     "install": [ {
         "find":       "KGEx",
         "install_to": "GameData"

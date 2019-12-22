@@ -3,6 +3,10 @@
     "identifier":   "Ecumenopolis",
     "$kref":        "#/ckan/spacedock/2272",
     "license":      "CC-BY-NC-SA-4.0",
+    "tags": [
+        "config",
+        "planet-pack"
+    ],
     "provides": [
         "EnvironmentalVisualEnhancements-Config",
         "Scatterer-config"

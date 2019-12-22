@@ -1,21 +1,22 @@
 {
-    "identifier": "BlacklegIndustriesMMTantaresTACLS",
     "spec_version": "v1.4",
-    "$kref": "#/ckan/github/blackleg/blackind-mmpatches",
-    "license": "CC0",
-    "name": "BlackInd MM Tantares TACLifeSupport",
-    "abstract": "Blackleg Industries Module Manager Patches (Tantares TACLifeSupport)",
-    "ksp_version" : "1.2",
-    "resources"    : {
+    "identifier":   "BlacklegIndustriesMMTantaresTACLS",
+    "name":         "BlackInd MM Tantares TACLifeSupport",
+    "abstract":     "Blackleg Industries Module Manager Patches (Tantares TACLifeSupport)",
+    "$kref":        "#/ckan/github/blackleg/blackind-mmpatches",
+    "ksp_version":  "1.2",
+    "license":      "CC0",
+    "resources": {
         "homepage"   : "http://www.blackleg.es",
         "repository" : "https://github.com/blackleg/blackind-mmpatches"
     },
-    "install": [
-        {
-            "file" : "blackind/MMPatches/Tantares_TACLifeSupport.cfg",
-            "install_to" : "GameData/blackind/MMPatches"
-        }
+    "tags": [
+        "config"
     ],
+    "install": [ {
+        "file" : "blackind/MMPatches/Tantares_TACLifeSupport.cfg",
+        "install_to" : "GameData/blackind/MMPatches"
+    } ],
     "depends": [
         { "name" : "ModuleManager" },
 		{ "name" : "TACLS" },
