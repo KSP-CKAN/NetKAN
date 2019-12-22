@@ -3,7 +3,9 @@
     "identifier":   "UASS-TRAP-Engines",
     "$kref":        "#/ckan/spacedock/1789",
     "license":      "Unlicense",
-    "x_via":        "Automated SpaceDock CKAN submission",
+    "tags": [
+        "parts"
+    ],
     "install": [ {
         "find":       "KerbalstarKermanMods",
         "install_to": "GameData"

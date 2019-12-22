@@ -3,6 +3,9 @@
     "identifier":   "MakingLessHistory",
     "$kref":        "#/ckan/spacedock/2052",
     "license":      "MIT",
+    "tags": [
+        "plugin"
+    ],
     "depends": [
         { "name": "MakingHistory-DLC" }
     ]

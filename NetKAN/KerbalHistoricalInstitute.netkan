@@ -3,7 +3,9 @@
     "identifier":   "KerbalHistoricalInstitute",
     "$kref":        "#/ckan/spacedock/1734",
     "license":      "CC-BY-NC-4.0",
-    "x_via":        "Automated SpaceDock CKAN submission",
+    "tags": [
+        "parts"
+    ],
     "install": [ {
         "find":       "KerbalHistoricalInstitute",
         "install_to": "GameData"

@@ -3,7 +3,9 @@
     "identifier":   "KerbobulusSpaceIndustriesMiscellaneousPartsDivision",
     "$kref":        "#/ckan/spacedock/1629",
     "license":      "restricted",
-    "x_via":        "Automated SpaceDock CKAN submission",
+    "tags": [
+        "parts"
+    ],
     "install": [ {
         "find":       "KerbobulusSpaceTechnologies",
         "install_to": "GameData"

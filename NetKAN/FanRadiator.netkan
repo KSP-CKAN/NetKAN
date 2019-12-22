@@ -3,6 +3,10 @@
     "identifier"   : "FanRadiator",
     "$kref"        : "#/ckan/spacedock/2020",
     "license"      : "GPL-3.0",
+    "tags": [
+        "plugin",
+        "parts"
+    ],
     "depends": [
         { "name": "ModuleManager" }
     ],

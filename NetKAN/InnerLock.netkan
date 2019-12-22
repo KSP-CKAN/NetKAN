@@ -4,6 +4,10 @@
     "$kref":        "#/ckan/spacedock/2113",
     "$vref":        "#/ckan/ksp-avc",
     "license":      "MIT",
+    "tags": [
+        "plugin",
+        "parts"
+    ],
     "install": [ {
         "find":       "InnerLock",
         "install_to": "GameData"

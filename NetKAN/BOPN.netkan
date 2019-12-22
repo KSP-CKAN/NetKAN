@@ -3,6 +3,11 @@
     "identifier":   "BOPN",
     "$kref":        "#/ckan/spacedock/2072",
     "license":      "MIT",
+    "tags": [
+        "config",
+        "editor",
+        "convenience"
+    ],
     "install": [ {
         "find":       "BetterOrderPartsNumbered",
         "install_to": "GameData"
