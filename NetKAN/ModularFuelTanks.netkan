@@ -1,16 +1,23 @@
 {
     "spec_version"   : 1,
+    "identifier"     : "ModularFuelTanks",
     "name"           : "Modular Fuel Tanks",
     "abstract"       : "Refit tank with different fuel or other contents",
-    "identifier"     : "ModularFuelTanks",
+    "description"    : "Modular Fuel Tanks allows any supported tank to be filled with exactly how much or how little fuel you want, of whatever type you want (though different tanks may allow or disallow certain fuels; jet fuel tanks won't take oxidizer for instance).",
+    "author"         : ["taniwha", "NathanKell", "Swamp Ig", "ChestBurster", "ialdabaoth"],
+    "$kref"          : "#/ckan/http/http://taniwha.org/~bill/ModularFuelTanks_v5.13.0.zip",
+    "version"        : "5.13.0",
+    "ksp_version"    : "1.8",
     "license"        : "CC-BY-SA",
     "release_status" : "stable",
-    "author"         : ["taniwha", "NathanKell", "Swamp Ig", "ChestBurster", "ialdabaoth"],
-    "description"    : "Modular Fuel Tanks allows any supported tank to be filled with exactly how much or how little fuel you want, of whatever type you want (though different tanks may allow or disallow certain fuels; jet fuel tanks won't take oxidizer for instance).",
     "resources" : {
         "homepage"     : "http://forum.kerbalspaceprogram.com/index.php?/topic/58235-*",
         "repository"   : "https://github.com/NathanKell/ModularFuelSystem"
     },
+    "tags": [
+        "plugin",
+        "convenience"
+    ],
     "depends": [
         { "name": "ModuleManager" }
     ],
@@ -25,9 +32,5 @@
         { "name" : "RLA-Stockalike"           },
         { "name" : "SDHI-ServiceModuleSystem" },
         { "name" : "SpaceShuttleEngines"      }
-    ],
-    "version"        : "5.12.3",
-    "ksp_version_min" : "1.6",
-    "ksp_version_max" : "1.7",
-    "download"       : "http://taniwha.org/~bill/ModularFuelTanks_v5.12.3.zip"
+    ]
 }
