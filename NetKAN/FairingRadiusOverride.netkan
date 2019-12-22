@@ -3,7 +3,9 @@
     "identifier":   "FairingRadiusOverride",
     "$kref":        "#/ckan/spacedock/1695",
     "license":      "MIT",
-    "x_via":        "Automated SpaceDock CKAN submission",
+    "tags": [
+        "config"
+    ],
     "depends": [
         { "name": "ModuleManager" }
     ]

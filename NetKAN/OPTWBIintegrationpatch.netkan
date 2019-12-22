@@ -1,19 +1,19 @@
 {
-  "spec_version": "v1.4",
-  "install": [
-    {
-      "install_to": "GameData",
-      "find": "OPT_WBI"
-    }
-  ],
-  "depends": [
-    { "name": "ModuleManager" },
-    { "name": "OPTSpacePlaneMain" },
-    { "name": "FirespitterCore" }
-  ],
-  "$vref": "#/ckan/ksp-avc",
-  "$kref": "#/ckan/spacedock/1674",
-  "x_via": "Automated Linuxgurugamer CKAN script",
-  "identifier": "OPTWBIintegrationpatch",
-  "license": "CC-BY-NC-SA-4.0"
+    "spec_version": "v1.4",
+    "identifier":   "OPTWBIintegrationpatch",
+    "$kref":        "#/ckan/spacedock/1674",
+    "$vref":        "#/ckan/ksp-avc",
+    "license":      "CC-BY-NC-SA-4.0",
+    "tags": [
+        "config"
+    ],
+    "install": [ {
+        "find": "OPT_WBI",
+        "install_to": "GameData"
+    } ],
+    "depends": [
+        { "name": "ModuleManager" },
+        { "name": "OPTSpacePlaneMain" },
+        { "name": "FirespitterCore" }
+    ]
 }

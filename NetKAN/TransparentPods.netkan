@@ -4,6 +4,10 @@
     "$kref":        "#/ckan/spacedock/2212",
     "$vref":        "#/ckan/ksp-avc",
     "license":      "CC-BY-NC-SA-4.0",
+    "tags": [
+        "parts",
+        "manned"
+    ],
     "recommends": [
         { "name": "ModuleManager"              },
         { "name": "RasterPropMonitor"          },
@@ -17,6 +21,5 @@
         { "name": "InfernalRoboticsNext"         },
         { "name": "KerbalJointReinforcementNext" },
         { "name": "KerbalChangelog"              }
-    ],
-    "x_via": "Automated SpaceDock CKAN submission"
+    ]
 }

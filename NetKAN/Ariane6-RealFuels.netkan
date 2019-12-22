@@ -3,6 +3,9 @@
     "identifier":   "Ariane6-RealFuels",
     "$kref":        "#/ckan/spacedock/2185",
     "license":      "WTFPL",
+    "tags": [
+        "parts"
+    ],
     "depends": [
         { "name": "RealFuels" }
     ],

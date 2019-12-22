@@ -3,6 +3,9 @@
     "identifier":   "Ariane6",
     "$kref":        "#/ckan/spacedock/2185",
     "license":      "WTFPL",
+    "tags": [
+        "parts"
+    ],
     "conflicts": [
         { "name": "RealFuels" }
     ],

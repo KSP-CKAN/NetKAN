@@ -1,8 +1,12 @@
 {
     "spec_version": "v1.4",
-    "identifier": "DeadSkins",
-    "license": "CC-BY-NC-SA-4.0",
-    "$kref": "#/ckan/spacedock/1472",
+    "identifier":   "DeadSkins",
+    "$kref":        "#/ckan/spacedock/1472",
+    "license":     "CC-BY-NC-SA-4.0",
+    "tags": [
+        "config",
+        "graphics"
+    ],
     "depends": [
         { "name": "AviationLights" },
         { "name": "ModuleManager" },
