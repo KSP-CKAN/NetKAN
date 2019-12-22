@@ -1,7 +1,9 @@
 {
-    "x_via": "Automated SpaceDock CKAN submission",
-    "identifier": "ZeroFighter1",
     "spec_version": "v1.4",
-    "$kref": "#/ckan/spacedock/1593",
-    "license": "CC-BY-SA-2.0"
+    "identifier":   "ZeroFighter1",
+    "$kref":        "#/ckan/spacedock/1593",
+    "license":      "CC-BY-SA-2.0",
+    "tags": [
+        "parts"
+    ]
 }

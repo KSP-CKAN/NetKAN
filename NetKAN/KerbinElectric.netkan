@@ -3,6 +3,9 @@
     "identifier":   "KerbinElectric",
     "$kref":        "#/ckan/spacedock/2047",
     "license":      "MIT",
+    "tags": [
+        "parts"
+    ],
     "install": [ {
         "find":       "GameData/Kerbin_Electric_en",
         "install_to": "GameData"

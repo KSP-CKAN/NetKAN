@@ -1,14 +1,17 @@
 {
     "spec_version"   : "v1.10",
+    "identifier"     : "ROTanks",
+    "name"           : "ROTanks",
+    "abstract"       : "ROTanks uses modified code of SSTU by Shadowmage45 to provide modular tanks (and more) for Realism Overhaul.",
+    "author"         : "pap1723",
     "$kref"          : "#/ckan/github/KSP-RO/ROTanks",
     "$vref"          : "#/ckan/ksp-avc",
     "x_netkan_force_v": true,
-    "name"           : "ROTanks",
-    "identifier"     : "ROTanks",
-    "abstract"       : "ROTanks uses modified code of SSTU by Shadowmage45 to provide modular tanks (and more) for Realism Overhaul.",
-    "author"         : "pap1723",
     "license"        : "CC-BY-SA",
     "release_status" : "stable",
+    "tags": [
+        "parts"
+    ],
     "depends" : [
         { "name" : "RealismOverhaul" },
         { "name" : "TexturesUnlimited" },
@@ -24,13 +27,11 @@
         { "name" : "KSCSwitcher" },
         { "name" : "RP-0" }
     ],
-    "conflicts" :   [
+    "conflicts" : [
         { "name" : "TweakableEverything" }
     ],
-    "install" : [
-        {
-            "file"       : "GameData/ROTanks",
-            "install_to" : "GameData"
-        }
-    ]
+    "install": [ {
+        "file"       : "GameData/ROTanks",
+        "install_to" : "GameData"
+    } ]
 }

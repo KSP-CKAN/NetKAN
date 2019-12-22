@@ -3,6 +3,10 @@
     "identifier":   "ODFC-Refueled",
     "$kref":        "#/ckan/spacedock/2223",
     "license":      "CC-BY-NC-SA-4.0",
+    "tags": [
+        "plugin",
+        "convenience"
+    ],
     "install": [ {
         "find":       "OnDemandFuelCells",
         "install_to": "GameData"

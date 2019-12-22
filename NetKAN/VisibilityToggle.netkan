@@ -1,7 +1,9 @@
 {
     "spec_version": "v1.4",
-    "x_via": "Automated SpaceDock CKAN submission",
-    "license": "MIT",
-    "identifier": "VisibilityToggle",
-    "$kref": "#/ckan/spacedock/1129"
+    "identifier":   "VisibilityToggle",
+    "$kref":        "#/ckan/spacedock/1129",
+    "license":      "MIT",
+    "tags": [
+        "plugin"
+    ]
 }

@@ -3,7 +3,9 @@
     "identifier":   "MkerbIncOxidizerTank",
     "$kref":        "#/ckan/spacedock/1778",
     "license":      "GPL-3.0",
-    "x_via":        "Automated SpaceDock CKAN submission",
+    "tags": [
+        "parts"
+    ],
     "install": [ {
         "find":       "Mkerb",
         "install_to": "GameData"

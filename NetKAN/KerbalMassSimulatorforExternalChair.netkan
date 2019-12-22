@@ -3,7 +3,9 @@
     "identifier":   "KerbalMassSimulatorforExternalChair",
     "$kref":        "#/ckan/spacedock/1638",
     "license":      "MIT",
-    "x_via":        "Automated SpaceDock CKAN submission",
+    "tags": [
+        "parts"
+    ],
     "install": [ {
         "find":       "SimulateKerbal",
         "install_to": "GameData"
