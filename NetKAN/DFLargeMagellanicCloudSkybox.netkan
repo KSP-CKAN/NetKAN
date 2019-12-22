@@ -3,6 +3,10 @@
     "identifier":   "DFLargeMagellanicCloudSkybox",
     "$kref":        "#/ckan/spacedock/1939",
     "license":      "restricted",
+    "tags": [
+        "config",
+        "graphics"
+    ],
     "depends": [
         { "name": "TextureReplacer" }
     ],

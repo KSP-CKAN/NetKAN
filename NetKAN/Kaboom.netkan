@@ -1,11 +1,16 @@
 {
-    "$kref": "#/ckan/spacedock/833",
-    "identifier": "Kaboom",
-    "license": "unrestricted",
     "spec_version": "v1.4",
-    "install": [
-        { "file": "GameData/Kaboom", "install_to": "GameData" }
+    "identifier":   "Kaboom",
+    "$kref":        "#/ckan/spacedock/833",
+    "license":      "unrestricted",
+    "tags": [
+        "plugin"
     ],
-    "depends": [ { "name": "ModuleManager" } ]
+    "install": [ {
+        "file": "GameData/Kaboom",
+        "install_to": "GameData"
+    } ],
+    "depends": [
+        { "name": "ModuleManager" }
+    ]
 }
-

@@ -1,13 +1,13 @@
 {
-  "spec_version": "v1.18",
-  "install": [
-    {
-      "install_to": "GameData",
-      "find": "Pebkac"
-    }
-  ],
-  "$kref": "#/ckan/spacedock/1184",
-  "x_via": "Automated Linuxgurugamer CKAN script",
-  "identifier": "PebkacSaturnV",
-  "license": "Unlicense"
+    "spec_version": "v1.18",
+    "identifier":   "PebkacSaturnV",
+    "$kref":        "#/ckan/spacedock/1184",
+    "license":      "Unlicense",
+    "tags": [
+        "parts"
+    ],
+    "install": [ {
+        "find": "Pebkac",
+        "install_to": "GameData"
+    } ]
 }

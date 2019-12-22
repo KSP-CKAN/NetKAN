@@ -1,25 +1,26 @@
 {
     "spec_version" : "v1.4",
-	"name"         : "SmallTweaks",
 	"identifier"   : "SmallTweaks",
+    "name"         : "SmallTweaks",
 	"abstract"     : "Small pack with all my ModuleManager tweaks for KSP and mods. Full list on my homepage.",
 	"author"       : "Jenyaza01",
     "$kref"        : "#/ckan/github/jenyaza01/SmallTweaks",
 	"$vref"        : "#/ckan/ksp-avc",
     "license"      : "MIT",
-	"install": [
-        {
-            "find"       : "Jenyaza",
-            "install_to" : "GameData"
-        }
-    ],
-	"resources" : {
-        "homepage"     : "http://forum.kerbalspaceprogram.com/index.php?/topic/152741-ballast-water-tanks-smalltweaks"
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/152741-*"
     },
-    "depends"   : [
-	{ 
-		"name"       : "ModuleManager",
-		"min_version": "2.6"		
-	}   
-]
+    "tags": [
+        "config"
+    ],
+	"install": [ {
+        "find"       : "Jenyaza",
+        "install_to" : "GameData"
+    } ],
+    "depends": [
+    	{
+    		"name"       : "ModuleManager",
+    		"min_version": "2.6"
+    	}
+    ]
 }

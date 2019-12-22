@@ -1,21 +1,18 @@
 {
-  "spec_version": "v1.4",
-  "install": [
-    {
-      "install_to": "GameData",
-      "find": "RealisticAscension"
-    }
-  ],
-  "depends": [
-    {
-      "name": "ModuleManager"
-    },
-    {
-      "name": "Kopernicus"
-    }
-  ],
-  "$kref": "#/ckan/spacedock/1409",
-  "x_via": "Automated Linuxgurugamer CKAN script",
-  "identifier": "RealisticAscension",
-  "license": "GPL-3.0"
+    "spec_version": "v1.4",
+    "identifier":   "RealisticAscension",
+    "$kref":        "#/ckan/spacedock/1409",
+    "license":      "GPL-3.0",
+    "tags": [
+        "config",
+        "planet-pack"
+    ],
+    "install": [ {
+        "find": "RealisticAscension",
+        "install_to": "GameData"
+    } ],
+    "depends": [
+        { "name": "ModuleManager" },
+        { "name": "Kopernicus" }
+    ]
 }

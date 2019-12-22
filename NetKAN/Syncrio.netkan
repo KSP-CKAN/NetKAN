@@ -3,14 +3,16 @@
     "identifier"   : "Syncrio",
     "$kref"        : "#/ckan/spacedock/916",
     "x_netkan_license_ok" : true,
-    "install": [
-        {
-            "file"       : "Syncrio Client/GameData/Syncrio",
-            "install_to" : "GameData"
-        },
-        {
-            "file"       : "Syncrio Client/README.txt",
-            "install_to" : "GameData/Syncrio"
-        }
-    ]
+    "tags": [
+        "plugin",
+        "career",
+        "app"
+    ],
+    "install": [ {
+        "file"       : "Syncrio Client/GameData/Syncrio",
+        "install_to" : "GameData"
+    }, {
+        "file"       : "Syncrio Client/README.txt",
+        "install_to" : "GameData/Syncrio"
+    } ]
 }

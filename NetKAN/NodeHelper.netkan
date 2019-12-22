@@ -1,17 +1,18 @@
 {
-    "license": "CC-BY-NC-SA-4.0",
-    "identifier": "NodeHelper",
-    "x_via": "Automated Linuxgurugamer CKAN script",
-    "$kref": "#/ckan/github/linuxgurugamer/NodeHelper",
-    "$vref": "#/ckan/ksp-avc",
+    "spec_version": "v1.4",
+    "identifier":   "NodeHelper",
+    "$kref":        "#/ckan/github/linuxgurugamer/NodeHelper",
+    "$vref":        "#/ckan/ksp-avc",
+    "license":      "CC-BY-NC-SA-4.0",
     "resources": {
-        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/115700-*"
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/190144-*"
     },
-    "install": [
-    {
+    "tags": [
+        "plugin",
+        "app"
+    ],
+    "install": [ {
         "find": "NodeHelper",
         "install_to": "GameData"
-    }
-    ],
-    "spec_version": "v1.4"
+    } ]
 }

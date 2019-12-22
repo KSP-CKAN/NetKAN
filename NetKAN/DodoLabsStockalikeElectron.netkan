@@ -3,6 +3,9 @@
     "identifier":   "DodoLabsStockalikeElectron",
     "$kref":        "#/ckan/spacedock/1944",
     "license":      "restricted",
+    "tags": [
+        "parts"
+    ],
     "install": [ {
         "find":       "DodoLabs",
         "install_to": "GameData"

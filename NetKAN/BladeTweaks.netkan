@@ -5,6 +5,12 @@
     "$kref"        : "#/ckan/github/blade1981m/BladeTweaks",
     "license"      : "LGPL-3.0",
     "ksp_version"  : "any",
+    "resources" : {
+        "repository" : "https://github.com/blade1981m/BladeTweaks"
+    },
+    "tags": [
+        "config"
+    ],
     "depends" : [
         { "name" : "ModuleManager" }
     ],
@@ -13,8 +19,5 @@
         { "name" : "DMagicOrbitalScience"   },
         { "name" : "RasterPropMonitor"      },
         { "name" : "MechJeb2"               }
-    ],
-    "resources" : {
-        "repository" : "https://github.com/blade1981m/BladeTweaks"
-    }
+    ]
 }

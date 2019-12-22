@@ -1,16 +1,16 @@
 {
     "spec_version": "v1.4",
-    "identifier": "GerryAndersonsSpace1999Pack",
-    "$kref": "#/ckan/spacedock/1330",
-    "license": "GPL-2.0",
+    "identifier":   "GerryAndersonsSpace1999Pack",
+    "$kref":        "#/ckan/spacedock/1330",
+    "license":      "GPL-2.0",
+    "tags": [
+        "parts"
+    ],
     "depends": [
         { "name": "FirespitterCore" }
     ],
-    "install": [
-        {
-            "file": "Eagleone",
-            "install_to": "GameData"
-        }
-    ]
+    "install": [ {
+        "file": "Eagleone",
+        "install_to": "GameData"
+    } ]
  }
- 
