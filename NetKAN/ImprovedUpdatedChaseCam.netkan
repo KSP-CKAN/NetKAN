@@ -1,23 +1,21 @@
 {
-  "license": "GPL-3.0",
-  "identifier": "ImprovedUpdatedChaseCam",
-  "x_via": "Automated Linuxgurugamer CKAN script",
-  "$kref": "#/ckan/spacedock/2249",
-  "$vref": "#/ckan/ksp-avc",
-  "resources": {
-    "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/188979-i173-improved-updated-chase-camera/",
-    "repository": "https://github.com/linuxgurugamer/ImprovedChaseCamera/"
-  },
-  "conflicts": [
-    {
-      "name": "ImprovedChaseCamera"
-    }
-  ],
-  "install": [
-    {
-      "install_to": "GameData",
-      "find": "ImprovedChaseCamera"
-    }
-  ],
-  "spec_version": "v1.4"
+    "spec_version": "v1.4",
+    "identifier":   "ImprovedUpdatedChaseCam",
+    "$kref":        "#/ckan/spacedock/2249",
+    "$vref":        "#/ckan/ksp-avc",
+    "license":      "GPL-3.0",
+    "tags": [
+        "plugin"
+    ],
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/188979-*",
+        "repository": "https://github.com/linuxgurugamer/ImprovedChaseCamera/"
+    },
+    "conflicts": [
+        { "name": "ImprovedChaseCamera" }
+    ],
+    "install": [ {
+        "find": "ImprovedChaseCamera",
+        "install_to": "GameData"
+    } ]
 }

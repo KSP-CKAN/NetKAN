@@ -1,14 +1,14 @@
 {
-    "x_via": "Automated SpaceDock CKAN submission",
-    "$kref": "#/ckan/spacedock/1269",
-    "license": "CC-BY-SA-4.0",
-    "identifier": "Polandball",
     "spec_version": "v1.4",
-    "install": [
-        {
-            "find": "Polandball",
-            "install_to": "GameData",
-            "filter": [ "Source" ]
-        }
-    ]
+    "identifier":   "Polandball",
+    "$kref":        "#/ckan/spacedock/1269",
+    "license":      "CC-BY-SA-4.0",
+    "tags": [
+        "parts"
+    ],
+    "install": [ {
+        "find": "Polandball",
+        "install_to": "GameData",
+        "filter": [ "Source" ]
+    } ]
 }

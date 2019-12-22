@@ -1,13 +1,13 @@
 {
-    "x_via": "Automated SpaceDock CKAN submission",
-    "$kref": "#/ckan/spacedock/1399",
-    "identifier": "PolishContractsWindowPlus",
     "spec_version": "v1.4",
-    "license": "GPL-2.0",
-    "install": [
-        {
-            "find" : "ContractsWindow-spolszczenie",
-            "install_to" : "GameData"
-        }
-    ]
+    "identifier":   "PolishContractsWindowPlus",
+    "$kref":        "#/ckan/spacedock/1399",
+    "license":      "GPL-2.0",
+    "tags": [
+        "config"
+    ],
+    "install": [ {
+        "find" : "ContractsWindow-spolszczenie",
+        "install_to" : "GameData"
+    } ]
 }
