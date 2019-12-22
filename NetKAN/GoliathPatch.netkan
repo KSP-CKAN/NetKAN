@@ -1,16 +1,16 @@
 {
     "spec_version": "v1.4",
-    "identifier": "GoliathPatch",
-    "license": "public-domain",
-    "$kref": "#/ckan/spacedock/1573",
-    "x_via": "Automated SpaceDock CKAN submission",
+    "identifier":   "GoliathPatch",
+    "$kref":        "#/ckan/spacedock/1573",
+    "license":      "public-domain",
+    "tags": [
+        "config"
+    ],
     "depends": [
         { "name": "ModuleManager" }
     ],
-    "install": [
-        {
-            "find":"XyphosAerospace",
-            "install_to": "GameData"
-        }
-    ]
+    "install": [ {
+        "find":"XyphosAerospace",
+        "install_to": "GameData"
+    } ]
 }

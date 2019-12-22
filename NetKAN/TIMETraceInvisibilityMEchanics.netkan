@@ -3,7 +3,9 @@
     "identifier":   "TIMETraceInvisibilityMEchanics",
     "$kref":        "#/ckan/spacedock/1634",
     "license":      "CC-BY-SA-4.0",
-    "x_via":        "Automated SpaceDock CKAN submission",
+    "tags": [
+        "parts"
+    ],
     "install": [ {
         "find":       "TIME",
         "install_to": "GameData"

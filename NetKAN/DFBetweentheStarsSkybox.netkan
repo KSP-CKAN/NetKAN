@@ -3,6 +3,10 @@
     "identifier":   "DFBetweentheStarsSkybox",
     "$kref":        "#/ckan/spacedock/1921",
     "license":      "restricted",
+    "tags": [
+        "config",
+        "graphics"
+    ],
     "depends": [
         { "name": "TextureReplacer" }
     ],

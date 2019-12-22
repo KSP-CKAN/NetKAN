@@ -3,6 +3,10 @@
     "identifier":   "ThalassaSystem",
     "$kref":        "#/ckan/spacedock/2097",
     "license":      "MIT",
+    "tags": [
+        "config",
+        "planet-pack"
+    ],
     "install": [ {
         "find":       "Thalassa",
         "install_to": "GameData",

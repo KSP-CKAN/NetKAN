@@ -3,15 +3,15 @@
     "identifier":   "MiporiaPlanetPack",
     "$kref":        "#/ckan/spacedock/2120",
     "license":      "GPL-3.0",
-    "install": [
-        {
-            "find":       "MiporiaPack",
-            "install_to": "GameData"
-        }
+    "tags": [
+        "config",
+        "planet-pack"
     ],
+    "install": [ {
+        "find":       "MiporiaPack",
+        "install_to": "GameData"
+    } ],
     "depends": [
-        {
-            "name": "Kopernicus"
-        }
+        { "name": "Kopernicus" }
     ]
 }

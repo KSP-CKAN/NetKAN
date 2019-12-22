@@ -1,13 +1,15 @@
 {
     "spec_version" : "v1.4",
     "identifier"   : "HeapPadder",
-    "$kref"        : "#/ckan/spacedock/2190",
-    "$vref"        : "#/ckan/ksp-avc",
     "name"         : "HeapPadder",
     "abstract"     : "This is a simple plugin to allocate extra space on the heap to help minimize the frequency of garbage collection.",
+    "$kref"        : "#/ckan/spacedock/2190",
+    "$vref"        : "#/ckan/ksp-avc",
     "license"      : "MIT",
+    "tags"         : [
+        "plugin"
+    ],
     "resources": {
         "homepage" : "https://forum.kerbalspaceprogram.com/index.php?/topic/186521-*"
     }
 }
-

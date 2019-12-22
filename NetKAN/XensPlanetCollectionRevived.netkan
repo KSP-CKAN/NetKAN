@@ -3,6 +3,10 @@
     "identifier":   "XensPlanetCollectionRevived",
     "$kref":        "#/ckan/spacedock/2136",
     "license":      "MIT",
+    "tags": [
+        "config",
+        "planet-pack"
+    ],
     "install": [ {
         "find":       "XPC",
         "install_to": "GameData"
