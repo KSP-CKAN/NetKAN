@@ -3,6 +3,11 @@
     "identifier":   "GregroxMultiColorSuitsPack",
     "$kref":        "#/ckan/spacedock/2030",
     "license":      "CC-BY-SA-4.0",
+    "tags": [
+        "config",
+        "graphics",
+        "manned"
+    ],
     "depends": [
         { "name": "TextureReplacer" }
     ],

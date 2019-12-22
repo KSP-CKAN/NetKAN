@@ -1,28 +1,20 @@
 {
-  "spec_version": "v1.4",
-  "install": [
-    {
-      "filter": [
-        ".DS_Store",
-        "__MACOSX"
-      ],
-      "install_to": "GameData",
-      "find": "MacLuky"
-    }
-  ],
-  "depends": [
-    {
-      "name": "JSIPartUtilities"
-    },
-    {
-      "name": "Mk1CockpitIVAReplbyASET"
-    },
-    {
-      "name": "ModuleManager"
-    }
-  ],
-  "$kref": "#/ckan/spacedock/1520",
-  "x_via": "Automated Linuxgurugamer CKAN script",
-  "identifier": "LanderCanMk12",
-  "license": "MIT"
+    "spec_version": "v1.4",
+    "identifier":   "LanderCanMk12",
+    "$kref":        "#/ckan/spacedock/1520",
+    "license":      "MIT",
+    "tags": [
+        "parts",
+        "manned"
+    ],
+    "install": [ {
+        "filter": [ ".DS_Store", "__MACOSX" ],
+        "find": "MacLuky",
+        "install_to": "GameData"
+    } ],
+    "depends": [
+        { "name": "JSIPartUtilities"        },
+        { "name": "Mk1CockpitIVAReplbyASET" },
+        { "name": "ModuleManager"           }
+    ]
 }

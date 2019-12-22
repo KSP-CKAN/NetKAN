@@ -3,6 +3,9 @@
     "identifier":   "CEDA-AeronauticsDivision",
     "$kref":        "#/ckan/spacedock/2232",
     "license":      "MIT",
+    "tags": [
+        "parts"
+    ],
     "install": [ {
         "find":       "C.E.D.A Technologies",
         "install_to": "GameData"
@@ -10,6 +13,5 @@
     "depends": [
         { "name": "ModuleManager" },
         { "name": "Firespitter"   }
-    ],
-    "x_via":        "Automated SpaceDock CKAN submission"
+    ]
 }

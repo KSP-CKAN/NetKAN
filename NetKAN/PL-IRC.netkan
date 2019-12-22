@@ -1,15 +1,18 @@
 {
-    "$kref": "#/ckan/spacedock/469",
-    "identifier": "PL-IRC",
-    "license": "WTFPL",
     "spec_version": "v1.4",
+    "identifier":   "PL-IRC",
+    "$kref":        "#/ckan/spacedock/469",
+    "license":      "WTFPL",
+    "tags": [
+        "plugin",
+        "resources",
+        "convenience"
+    ],
     "depends": [
         { "name": "ModuleManager" }
     ],
-    "install": [
-        {
-            "find": "PanzerLabs",
-            "install_to": "GameData"
-        }
-    ]
+    "install": [ {
+        "find": "PanzerLabs",
+        "install_to": "GameData"
+    } ]
 }

@@ -1,18 +1,19 @@
 {
     "spec_version": "v1.4",
-    "license": "MIT",
-    "$kref": "#/ckan/spacedock/1487",
-    "x_via": "Automated SpaceDock CKAN submission",
-    "identifier": "64xscale128xdistance",
+    "identifier":   "64xscale128xdistance",
+    "$kref":        "#/ckan/spacedock/1487",
+    "license":      "MIT",
+    "tags": [
+        "config",
+        "planet-pack"
+    ],
     "depends": [
         { "name": "SigmaDimensions" },
         { "name": "Kopernicus" },
         { "name": "ModuleManager" }
     ],
-    "install": [
-        {
-            "find":"6.4x scale",
-            "install_to": "GameData"
-        }
-    ]
+    "install": [ {
+        "find":"6.4x scale",
+        "install_to": "GameData"
+    } ]
 }

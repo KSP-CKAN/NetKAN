@@ -3,6 +3,10 @@
     "identifier":   "DFNGC3115Skybox",
     "$kref":        "#/ckan/spacedock/1920",
     "license":      "restricted",
+    "tags": [
+        "config",
+        "graphics"
+    ],
     "depends": [
         { "name": "TextureReplacer" }
     ],

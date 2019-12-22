@@ -1,12 +1,16 @@
 {
     "spec_version" : 1,
     "identifier"   : "KesslerSyndrome",
-    "$kref"        : "#/ckan/github/severedsolo/KesslerSyndrome",
-    "license"      : "MIT",
-    "$vref"        : "#/ckan/ksp-avc",
     "name"         : "Kessler Syndrome",
     "abstract"     : "Destroys parts of your craft randomly if you leave debris in orbit",
+    "$kref"        : "#/ckan/github/severedsolo/KesslerSyndrome",
+    "$vref"        : "#/ckan/ksp-avc",
+    "license"      : "MIT",
     "resources"    : {
-        "homepage" : "https://github.com/severedsolo/KesslerSyndrome"
-    }
+        "homepage" : "https://forum.kerbalspaceprogram.com/index.php?/topic/154601-*"
+    },
+    "tags"         : [
+        "plugin",
+        "physics"
+    ]
 }

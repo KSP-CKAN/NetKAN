@@ -4,6 +4,9 @@
     "author":        [ "Nuke", "zer0Kerbal" ],
     "$kref":        "#/ckan/spacedock/2175",
     "license":      "CC-BY-NC-SA-4.0",
+    "tags": [
+        "parts"
+    ],
     "install": [ {
         "find":       "GameData/Nuke",
         "install_to": "GameData"
@@ -16,6 +19,5 @@
     ],
     "suggests": [
         { "name": "TweakScale" }
-    ],
-    "x_via": "Automated SpaceDock CKAN submission"
+    ]
 }

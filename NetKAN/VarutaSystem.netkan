@@ -3,6 +3,10 @@
     "identifier":   "VarutaSystem",
     "$kref":        "#/ckan/spacedock/2088",
     "license":      "MIT",
+    "tags": [
+        "config",
+        "planet-pack"
+    ],
     "depends": [
         { "name": "ModuleManager" },
         { "name": "Kopernicus"    }

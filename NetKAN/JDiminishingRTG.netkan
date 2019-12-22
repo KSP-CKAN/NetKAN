@@ -5,7 +5,10 @@
     "$vref":        "#/ckan/ksp-avc",
     "author":       [ "KwirkyJ", "linuxgurugamer" ],
     "license":      "GPL-3.0",
-    "x_via":         "Automated SpaceDock CKAN submission",
+    "tags": [
+        "plugin",
+        "physics"
+    ],
     "depends": [
         { "name": "ModuleManager" }
     ],
@@ -15,5 +18,3 @@
         "filter_regexp": [ "ModuleManager.*" ]
     } ]
 }
-
-

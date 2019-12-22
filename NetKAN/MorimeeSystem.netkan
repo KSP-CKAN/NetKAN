@@ -3,6 +3,10 @@
     "identifier":   "MorimeeSystem",
     "$kref":        "#/ckan/spacedock/2057",
     "license":      "MIT",
+    "tags": [
+        "config",
+        "planet-pack"
+    ],
     "install": [ {
         "find":       "Morimee",
         "install_to": "GameData",

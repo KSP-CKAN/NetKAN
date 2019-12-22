@@ -4,7 +4,11 @@
     "$kref":        "#/ckan/spacedock/1686",
     "x_netkan_epoch": 1,
     "license":      "MIT",
-    "x_via":        "Automated SpaceDock CKAN submission",
+    "tags": [
+        "plugin",
+        "control",
+        "convenience"
+    ],
     "recommends": [
         { "name": "MechJeb2" }
     ],

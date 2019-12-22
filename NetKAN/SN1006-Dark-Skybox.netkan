@@ -3,6 +3,10 @@
     "identifier":   "SN1006-Dark-Skybox",
     "$kref":        "#/ckan/spacedock/2038",
     "license":      "restricted",
+    "tags": [
+        "config",
+        "graphics"
+    ],
     "depends": [
         { "name": "TextureReplacer" }
     ],
