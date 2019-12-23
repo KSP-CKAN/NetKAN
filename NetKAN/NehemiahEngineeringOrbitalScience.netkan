@@ -17,7 +17,7 @@
 		"plugin",
 		"parts",
 		"science",
-		"manned"
+		"crewed"
 	],
     "conflicts"         : [
         { "name"        : "KeminiResearchProgram" },

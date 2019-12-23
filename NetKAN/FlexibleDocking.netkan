@@ -6,7 +6,7 @@
     "tags": [
         "plugin",
         "parts",
-        "manned"
+        "crewed"
     ],
     "recommends": [
          { "name": "ModuleManager" }

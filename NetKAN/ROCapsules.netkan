@@ -11,7 +11,7 @@
     "release_status" : "stable",
     "tags": [
         "parts",
-        "manned"
+        "crewed"
     ],
     "depends" : [
         { "name" : "RealismOverhaul" },

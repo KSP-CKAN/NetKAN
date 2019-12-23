@@ -15,7 +15,7 @@
     },
     "tags": [
         "parts",
-        "unmanned"
+        "uncrewed"
     ],
     "depends" : [
         { "name" : "ModuleManager" }

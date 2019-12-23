@@ -8,7 +8,7 @@
         "plugin",
         "app",
         "control",
-        "manned"
+        "crewed"
     ],
     "install": [ {
         "find": "GameData/KerbTrack",

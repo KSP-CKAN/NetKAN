@@ -5,7 +5,7 @@
     "license":      "MIT",
     "tags": [
         "config",
-        "manned"
+        "crewed"
     ],
     "depends": [
         { "name": "ModuleManager"}

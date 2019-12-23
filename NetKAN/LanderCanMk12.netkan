@@ -5,7 +5,7 @@
     "license":      "MIT",
     "tags": [
         "parts",
-        "manned"
+        "crewed"
     ],
     "install": [ {
         "filter": [ ".DS_Store", "__MACOSX" ],

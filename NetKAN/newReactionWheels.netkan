@@ -6,7 +6,7 @@
     "license":      "CC-BY-NC-SA",
     "tags": [
         "parts",
-        "manned"
+        "crewed"
     ],
     "install": [ {
         "filter": [ ".DS_Store", "__MACOSX" ],

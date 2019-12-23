@@ -12,7 +12,7 @@
         "plugin",
         "parts",
         "science",
-        "manned"
+        "crewed"
     ],
     "depends": [
         { "name": "KAS" },
