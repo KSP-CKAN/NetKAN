@@ -3,7 +3,7 @@
     "identifier":   "SciFiVisualEnhancements",
     "name":         "Sci-Fi Visual Enhancements",
     "abstract":     "High performance alternative to StockVisualEnhancements",
-    "$kref":        "#/ckan/http/https://www.dropbox.com/s/zr7e0gwpesctzho/SiFiVE-1.5.zip?dl=1",
+    "download":     "https://www.dropbox.com/s/zr7e0gwpesctzho/SiFiVE-1.5.zip?dl=1",
     "version":      "v1.5",
     "ksp_version":  "1.6",
     "license":      "unrestricted",
