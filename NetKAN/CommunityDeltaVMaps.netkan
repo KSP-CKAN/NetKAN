@@ -9,6 +9,10 @@
     "resources": {
         "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/87463-*"
     },
+    "tgs": [
+        "config",
+        "information"
+    ],
     "install": [ {
         "find_regexp":        "Delta-V Map.*\\.ksp",
         "install_to":         "GameData/CommunityDeltaVMaps",
