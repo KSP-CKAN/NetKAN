@@ -3,24 +3,25 @@
     "identifier"    : "SpaceShuttleEngines",
     "name"          : "Space Shuttle Engines",
     "abstract"      : "Shuttle engines with a high gimbal range, OMS engines, external tanks and more.",
-    "version"       : "2.3.0",
     "author"        : [ "dtobi", "Sarbian" ],
-    "license"       : "CC-BY-NC-ND-3.0",
+    "$kref"         : "#/ckan/http/https://ksp.sarbian.com/Klockheed_Martian/Klockheed_Martian_SSE/Klockheed_Martian_SSE_2.3.0.zip",
+    "version"       : "2.3.0",
     "ksp_version"   : "1.1",
-    "download"      : "https://ksp.sarbian.com/Klockheed_Martian/Klockheed_Martian_SSE/Klockheed_Martian_SSE_2.3.0.zip",
-    "install": [
-        {
-            "file": "Klockheed_Martian_SSE",
-            "install_to": "GameData"
-        }
+    "license"       : "CC-BY-NC-ND-3.0",
+    "resources" : {
+        "homepage"  : "https://forum.kerbalspaceprogram.com/index.php?/topic/51197-*"
+    },
+    "tags": [
+        "parts"
     ],
+    "install": [ {
+        "file": "Klockheed_Martian_SSE",
+        "install_to": "GameData"
+    } ],
     "depends": [
         { "name": "GimbalTrim" }
     ],
     "suggests": [
         { "name": "SmokeScreen" }
-    ],
-    "resources" : {
-        "homepage"     : "https://forum.kerbalspaceprogram.com/index.php?/topic/51197-11x-space-shuttle-engines-2016-07-03/"
-    }
+    ]
 }

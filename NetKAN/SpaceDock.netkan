@@ -1,25 +1,25 @@
- 
 {
     "spec_version"   : "v1.20",
+    "identifier"     : "SpaceDock",
     "name"           : "SpaceDock",
     "abstract"       : "SpaceDock in different sizes, usable as orbital shipyard.",
     "author"         : "Fendrin",
-    "identifier"     : "SpaceDock",
-    "download"       : "https://github.com/SpaceShipShipYardEnterprises/SpaceDock/archive/v0.2.1.zip",
-    "license"        : "CC-BY-NC-SA-4.0",
+    "$kref"          : "#/ckan/http/https://github.com/SpaceShipShipYardEnterprises/SpaceDock/archive/v0.2.1.zip",
     "version"        : "0.2.1",
-    "release_status" : "stable",
     "ksp_version"    : "1.2",
+    "license"        : "CC-BY-NC-SA-4.0",
+    "release_status" : "stable",
     "resources" : {
-        "homepage"     : "http://forum.kerbalspaceprogram.com/index.php?/topic/150589-12-spacedock",
+        "homepage"     : "http://forum.kerbalspaceprogram.com/index.php?/topic/150589-*",
         "repository"   : "https://github.com/SpaceShipShipYardEnterprises/SpaceDock"
     },
-    "install" : [
-        {
-            "find"       : "GameData/SpaceDock",
-            "install_to" : "GameData"
-        }
+    "tags": [
+        "parts"
     ],
+    "install" : [ {
+        "find"       : "GameData/SpaceDock",
+        "install_to" : "GameData"
+    } ],
     "depends" : [
         { "name" : "CommunityTechTree" }
     ],
