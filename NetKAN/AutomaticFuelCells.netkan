@@ -3,6 +3,10 @@
     "identifier":   "AutomaticFuelCells",
     "$kref":        "#/ckan/spacedock/2248",
     "license":      "MIT",
+    "tags": [
+        "plugin",
+        "convenience"
+    ],
     "install": [ {
         "find":       "XyphosAerospace",
         "install_to": "GameData"

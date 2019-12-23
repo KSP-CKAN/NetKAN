@@ -3,6 +3,10 @@
     "identifier":   "ThePlodSystemII",
     "$kref":        "#/ckan/spacedock/2147",
     "license":      "MIT",
+    "tags": [
+        "config",
+        "planet-pack"
+    ],
     "install": [ {
         "find":       "Plod2",
         "install_to": "GameData"

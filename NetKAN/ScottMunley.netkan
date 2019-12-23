@@ -3,6 +3,10 @@
     "identifier":   "ScottMunley",
     "$kref":        "#/ckan/spacedock/1979",
     "license":      "MIT",
+    "tags": [
+        "config",
+        "planet-pack"
+    ],
     "install": [ {
         "find":       "ScottMünley",
         "install_to": "GameData"

@@ -3,6 +3,9 @@
     "identifier":   "LandOJunk",
     "$kref":        "#/ckan/spacedock/1995",
     "license":      "MIT",
+    "tags": [
+        "parts"
+    ],
     "install": [ {
         "find":       "HonestPurplesLandOJunk",
         "install_to": "GameData"

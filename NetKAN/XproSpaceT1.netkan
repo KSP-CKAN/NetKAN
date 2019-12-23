@@ -3,5 +3,7 @@
     "identifier":   "XproSpaceT1",
     "$kref":        "#/ckan/spacedock/1726",
     "license":      "GPL-3.0",
-    "x_via":        "Automated SpaceDock CKAN submission"
+    "tags": [
+        "parts"
+    ]
 }

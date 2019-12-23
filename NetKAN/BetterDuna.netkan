@@ -3,6 +3,10 @@
     "identifier":   "BetterDuna",
     "$kref":        "#/ckan/spacedock/1964",
     "license":      "MIT",
+    "tags": [
+        "config",
+        "planet-pack"
+    ],
     "install": [ {
         "find":       "Better Duna",
         "install_to": "GameData"
