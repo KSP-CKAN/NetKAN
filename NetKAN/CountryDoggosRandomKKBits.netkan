@@ -5,7 +5,8 @@
     "ksp_version":  "any",
     "license":      "MIT",
     "tags": [
-        "config"
+        "config",
+        "buildings"
     ],
     "install": [ {
         "find":       "KerbalKonstructs",

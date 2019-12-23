@@ -9,7 +9,8 @@
         "homepage": "https://github.com/jrodrigv/BDModularMissileParts/wiki/1.-Building-your-first-Modular-Missile"
     },
     "tags": [
-        "parts"
+        "parts",
+        "combat"
     ],
     "depends": [
         { "name": "ModuleManager"     },

@@ -6,26 +6,25 @@
     "author"       : "flart",
     "x_netkan_license_ok" : true,
     "release_status" : "stable",
-    "$vref" : "#/ckan/ksp-avc",
+    "$vref"        : "#/ckan/ksp-avc",
     "resources" : {
         "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/183937-*"
     },
     "tags": [
         "config",
-        "convenience"
+        "convenience",
+        "buildings"
     ],
     "install" : [
-            {
-                "file"       : "GameData/KerbalKonstructs-WaterLaunchSites",
-                "install_to" : "GameData"
-            }
+        {
+            "file"       : "GameData/KerbalKonstructs-WaterLaunchSites",
+            "install_to" : "GameData"
+        }
     ],
-
     "depends": [
         { "name": "KerbalKonstructs" },
         { "name": "ModuleManager" }
-    ], 
-
+    ],
     "recommends": [
     	{ "name": "MakingHistory-DLC" }
 	]

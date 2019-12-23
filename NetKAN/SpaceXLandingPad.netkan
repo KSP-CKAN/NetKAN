@@ -4,7 +4,8 @@
     "$kref":        "#/ckan/spacedock/1670",
     "license":      "MIT",
     "tags": [
-        "parts"
+        "parts",
+        "buildings"
     ],
     "depends": [
         { "name": "ModuleManager"    },

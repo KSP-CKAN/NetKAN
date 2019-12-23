@@ -5,7 +5,8 @@
     "$vref":        "#/ckan/ksp-avc",
     "license":      "Unlicense",
     "tags": [
-        "config"
+        "config",
+        "comms"
     ],
     "depends": [
         { "name": "ModuleManager", "min_version": "2.6.0" },

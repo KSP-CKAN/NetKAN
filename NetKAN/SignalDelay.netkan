@@ -12,7 +12,8 @@
     "tags": [
         "plugin",
         "control",
-        "uncrewed"
+        "uncrewed",
+        "comms"
     ],
     "depends": [
         { "name": "ModuleManager" }

@@ -9,7 +9,8 @@
         "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/180968-16-remotetech-stockconfigs-v1002018-12-29/&tab=comments#comment-3512923"
     },
     "tags": [
-        "config"
+        "config",
+        "comms"
     ],
     "depends": [
         { "name": "RemoteTech" },

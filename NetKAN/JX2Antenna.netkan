@@ -5,7 +5,8 @@
     "license":      "CC-BY-NC-SA",
     "tags": [
         "parts",
-        "uncrewed"
+        "uncrewed",
+        "comms"
     ],
     "supports" : [
         { "name" : "IndicatorLights"      },

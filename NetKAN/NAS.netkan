@@ -9,7 +9,8 @@
         "homepage" : "http://forum.kerbalspaceprogram.com/index.php?/topic/118521-*"
     },
     "tags": [
-        "parts"
+        "parts",
+        "combat"
     ],
     "depends": [
         { "name": "ModuleManager"     },

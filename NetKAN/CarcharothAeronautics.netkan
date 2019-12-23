@@ -4,7 +4,8 @@
     "$kref":        "#/ckan/spacedock/371",
     "license":      "GPL-3.0",
     "tags": [
-        "parts"
+        "parts",
+        "combat"
     ],
     "depends": [
         { "name": "BDArmory" }

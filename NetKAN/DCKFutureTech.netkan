@@ -4,7 +4,8 @@
     "$kref":        "#/ckan/spacedock/1798",
     "license":      "GPL-3.0",
     "tags": [
-        "parts"
+        "parts",
+        "combat"
     ],
     "depends": [
         { "name": "ModuleManager"     },

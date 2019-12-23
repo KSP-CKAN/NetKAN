@@ -5,7 +5,8 @@
     "$vref":        "#/ckan/ksp-avc",
     "license":      "restricted",
     "tags": [
-        "config"
+        "config",
+        "buildings"
     ],
     "depends": [
         { "name": "ModuleManager"    },

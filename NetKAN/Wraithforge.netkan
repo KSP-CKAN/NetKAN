@@ -4,7 +4,8 @@
     "$kref":        "#/ckan/spacedock/667",
     "license":      "MIT",
     "tags": [
-        "parts"
+        "parts",
+        "combat"
     ],
     "depends": [
         { "name": "BDArmoryContinued" },

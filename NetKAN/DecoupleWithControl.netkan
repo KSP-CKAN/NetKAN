@@ -12,7 +12,8 @@
     },
     "tags": [
         "config",
-        "uncrewed"
+        "uncrewed",
+        "comms"
     ],
     "depends": [
         { "name": "ModuleManager" }
