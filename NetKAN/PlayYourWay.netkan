@@ -1,17 +1,21 @@
 {
-    "identifier": "PlayYourWay",
-    "abstract" : "Earn funds for doing science! Remember to download Contract Configurator and disable all contracts to truly play your way!",
-    "$kref":  "#/ckan/spacedock/2280",
-    "$vref": "#/ckan/ksp-avc",
     "spec_version": "v1.4",
-    "license": "public-domain",
-    "depends" : [ 
+    "identifier":   "PlayYourWay",
+    "abstract":     "Earn funds for doing science! Remember to download Contract Configurator and disable all contracts to truly play your way!",
+    "$kref":        "#/ckan/spacedock/2280",
+    "$vref":        "#/ckan/ksp-avc",
+    "license":      "public-domain",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/190100-*"
+    },
+    "tags": [
+        "config",
+        "career"
+    ],
+    "depends": [
         { "name" : "ModuleManager" }
     ],
     "recommends": [
         { "name": "ContractConfigurator" }
-    ],
-    "resources": {
-        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/190100-18x-play-your-way/"
-    }
+    ]
 }

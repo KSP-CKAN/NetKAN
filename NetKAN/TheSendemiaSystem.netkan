@@ -3,6 +3,10 @@
     "identifier":   "TheSendemiaSystem",
     "$kref":        "#/ckan/spacedock/2281",
     "license":      "CC-BY-NC-SA-4.0",
+    "tags": [
+        "config",
+        "planet-pack"
+    ],
     "install": [ {
         "find":       "Sendemia",
         "install_to": "GameData"

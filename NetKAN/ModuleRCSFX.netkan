@@ -1,20 +1,19 @@
 {
     "spec_version": 1,
-    "identifier": "ModuleRCSFX",
-    "name": "ModuleRCSFX",
-    "abstract": "A fixed version of the stock RCS module",
-    "author": [
-        "ialdabaoth",
-        "NathanKell"
-    ],
-    "license": "CC-BY-SA",
-    "release_status": "stable",
-    "resources": {
-        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/83259-104-modulercsfx-v42-aug-23-obsolete-in-105/",
-        "repository": "https://github.com/NathanKell/ModuleRCSFX"
-    },
-    "version": "v4.2",
+    "identifier":   "ModuleRCSFX",
+    "name":         "ModuleRCSFX",
+    "abstract":     "A fixed version of the stock RCS module",
+    "author":       [ "ialdabaoth", "NathanKell" ],
+    "$kref":        "#/ckan/github/NathanKell/ModuleRCSFX",
     "ksp_version_min": "1.0.0",
     "ksp_version_max": "1.0.4",
-    "download": "https://github.com/NathanKell/ModuleRCSFX/releases/download/v4.2/ModuleRCSFX_v4.2.zip"
+    "license":      "CC-BY-SA",
+    "release_status": "stable",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/83259-*",
+        "repository": "https://github.com/NathanKell/ModuleRCSFX"
+    },
+    "tags": [
+        "plugin"
+    ]
 }

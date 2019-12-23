@@ -3,6 +3,10 @@
     "identifier":   "NibiruSystem",
     "$kref":        "#/ckan/spacedock/2287",
     "license":      "WTFPL",
+    "tags": [
+        "config",
+        "planet-pack"
+    ],
     "install": [ {
         "find":       "Nibiru",
         "install_to": "GameData"

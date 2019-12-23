@@ -1,17 +1,21 @@
 {
     "spec_version": 1,
-    "identifier": "AtmosphericSoundEnhancement",
-    "name": "Atmospheric Sound Enhancement",
-    "abstract": "Adds the effects of the density, temperature and relative speed of the atmosphere to craft sounds.",
-    "author": "pizzaoverhead",
-    "license": "GPL-2.0",
+    "identifier":   "AtmosphericSoundEnhancement",
+    "name":         "Atmospheric Sound Enhancement",
+    "abstract":     "Adds the effects of the density, temperature and relative speed of the atmosphere to craft sounds.",
+    "author":       "pizzaoverhead",
+    "$kref":        "#/ckan/http/http://addons-origin.cursecdn.com/files/2237/18/AtmosphericSoundEnhancementv2.2.zip",
+    "version":      "2.2",
+    "ksp_version_min": "1.0.0",
+    "ksp_version_max": "1.0.4",
+    "license":      "GPL-2.0",
     "resources": {
-        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/51558-10x-partial-atmospheric-sound-enhancement-v22-2015-05-05/",
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/51558-*",
         "repository": "https://github.com/pizzaoverhead/AtmosphericSoundEnhancement",
         "bugtracker": "https://github.com/pizzaoverhead/AtmosphericSoundEnhancement/issues"
     },
-    "version": "2.2",
-    "ksp_version_min": "1.0.0",
-    "ksp_version_max": "1.0.4",
-    "download": "http://addons-origin.cursecdn.com/files/2237/18/AtmosphericSoundEnhancementv2.2.zip"
+    "tags": [
+        "plugin",
+        "sound"
+    ]
 }
