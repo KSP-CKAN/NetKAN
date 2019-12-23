@@ -1,16 +1,20 @@
 {
     "spec_version": 1,
-    "identifier": "Graphotron",
-    "name": "Graphotron",
-    "abstract": "Graphotron is a plugin and part for KSP, that tracks and plots sensor and flight data into a nice graph.",
-    "$kref": "#/ckan/http/http://www.kerbaltek.com/_IamCKAN_Gimme_graphotron_",
-    "$vref": "#/ckan/ksp-avc",
-    "author": [ "olex", "khyperia", "Ezriilc" ],
-    "license": "GPL-3.0",
-    "install": [
-        { "file": "GameData/Kerbaltek", "install_to": "GameData" }
-    ],
+    "identifier":   "Graphotron",
+    "name":         "Graphotron",
+    "abstract":     "Graphotron is a plugin and part for KSP, that tracks and plots sensor and flight data into a nice graph.",
+    "author":       [ "olex", "khyperia", "Ezriilc" ],
+    "$kref":        "#/ckan/http/http://www.kerbaltek.com/_IamCKAN_Gimme_graphotron_",
+    "$vref":        "#/ckan/ksp-avc",
+    "license":      "GPL-3.0",
     "resources": {
         "homepage": "http://www.Kerbaltek.com/graphotron"
-    }
+    },
+    "tags": [
+        "plugin",
+        "information"
+    ],
+    "install": [
+        { "file": "GameData/Kerbaltek", "install_to": "GameData" }
+    ]
 }

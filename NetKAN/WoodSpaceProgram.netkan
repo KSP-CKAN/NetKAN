@@ -3,6 +3,9 @@
     "identifier":   "WoodSpaceProgram",
     "$kref":        "#/ckan/spacedock/2002",
     "license":      "MIT",
+    "tags": [
+        "parts"
+    ],
     "depends": [
         { "name": "ModuleManager" }
     ],

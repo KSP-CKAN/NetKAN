@@ -1,17 +1,18 @@
 {
     "spec_version": "v1.16",
-    "license": "MIT",
-    "$kref": "#/ckan/spacedock/1508",
-    "x_via": "Automated SpaceDock CKAN submission",
-    "identifier": "CareerModePartCostNullifer",
-    "depends" : [
+    "identifier":   "CareerModePartCostNullifer",
+    "$kref":        "#/ckan/spacedock/1508",
+    "license":      "MIT",
+    "tags": [
+        "config",
+        "career"
+    ],
+    "depends": [
         { "name": "ModuleManager" }
     ],
-    "install": [
-        {
-            "find":"Budget part cost set to 0.cfg",
-            "install_to": "GameData/CareerModePartCostNullifer",
-            "find_matches_files": true
-        }
-    ]
+    "install": [ {
+        "find":"Budget part cost set to 0.cfg",
+        "install_to": "GameData/CareerModePartCostNullifer",
+        "find_matches_files": true
+    } ]
 }
