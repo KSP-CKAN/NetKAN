@@ -1,24 +1,25 @@
 {
     "spec_version": "v1.16",
-    "identifier": "AmazingCurveEditor",
-    "$kref": "#/ckan/jenkins/https://ksp.sarbian.com/jenkins/job/AmazingCurveEditor/",
+    "identifier":   "AmazingCurveEditor",
+    "name":         "Amazing Curve Editor",
+    "abstract":     "Edit your Curves to Amaze your friends and family.",
+    "author":       "Sarbian",
+    "$kref":        "#/ckan/jenkins/https://ksp.sarbian.com/jenkins/job/AmazingCurveEditor/",
     "x_netkan_jenkins": {
         "use_filename_version": true
     },
     "x_netkan_version_edit": "^AmazingCurveEditor-(?<version>\\d+\\.\\d+\\.\\d+\\.\\d+)\\.zip$",
-    "name": "Amazing Curve Editor",
-    "abstract": "Edit your Curves to Amaze your friends and family.",
-    "author": "Sarbian",
-    "license": "GPL-2.0",
+    "ksp_version":  "1.8",
+    "license":      "GPL-2.0",
     "resources": {
-        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/112317-12x-amazing-curve-editor-111-dec-20th/",
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/112317-*",
         "repository": "https://github.com/sarbian/AmazingCurveEditor"
     },
-    "ksp_version": "1.0",
-    "install": [
-        {
-            "find": "AmazingCurveEditor",
-            "install_to": "GameData"
-        }
-    ]
+    "tags": [
+        "plugin"
+    ],
+    "install": [ {
+        "find": "AmazingCurveEditor",
+        "install_to": "GameData"
+    } ]
 }

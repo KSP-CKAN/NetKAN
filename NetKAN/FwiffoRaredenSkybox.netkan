@@ -1,27 +1,27 @@
 {
-  "spec_version"       : "v1.4",
-  "identifier"         : "FwiffoRaredenSkybox",
-  "name"               : "Fwiffo's Rareden Skybox",
-  "author"             : [ "Rareden", "NoSyMe", "Fwiffo" ],
-  "abstract"           : "High quality galaxy skybox, based on Rareden's Real 8k textures.\n\nImages were compressed by NoSyMe using Police Grade Image Compression Software for an 88.6% size reduction with only 1.2% quality loss.  See: http://forum.kerbalspaceprogram.com/index.php?/topic/78778-raredens-real-8k-skybox-for-texture-replacer/&do=findComment&comment=2218500",
-  "license"            : "CC-BY-NC-SA-4.0",
-  "release_status"     : "stable",
-  "version"            : "1.0",
-  "ksp_version_min"    : "1.0.2",
-  "ksp_version_max"    : "1.3.99",
-  "resources"          : {
-    "homepage"         : "http://forum.kerbalspaceprogram.com/index.php?/topic/78778-raredens-real-8k-skybox-for-texture-replacer/"
-  },
-  "download"           : "https://github.com/rkagerer/KSP-Fwiffo-Repository/raw/master/Mods/FwiffoRaredenSkybox-1.0.zip",
-  "depends"            :
-  [
-    { "name"           : "TextureReplacer" }
-  ],
-  "install"            :
-  [
-    {
-      "find"           : "TextureReplacer",
-      "install_to"     : "GameData"
-    }
-  ]
+    "spec_version"       : "v1.4",
+    "identifier"         : "FwiffoRaredenSkybox",
+    "name"               : "Fwiffo's Rareden Skybox",
+    "abstract"           : "High quality galaxy skybox, based on Rareden's Real 8k textures.\n\nImages were compressed by NoSyMe using Police Grade Image Compression Software for an 88.6% size reduction with only 1.2% quality loss.  See: http://forum.kerbalspaceprogram.com/index.php?/topic/78778-raredens-real-8k-skybox-for-texture-replacer/&do=findComment&comment=2218500",
+    "author"             : [ "Rareden", "NoSyMe", "Fwiffo" ],
+    "$kref"              : "#/ckan/http/https://github.com/rkagerer/KSP-Fwiffo-Repository/raw/master/Mods/FwiffoRaredenSkybox-1.0.zip",
+    "version"            : "1.0",
+    "ksp_version_min"    : "1.0.2",
+    "ksp_version_max"    : "1.3.99",
+    "license"            : "CC-BY-NC-SA-4.0",
+    "release_status"     : "stable",
+    "resources"          : {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/78778-*"
+    },
+    "tags": [
+        "config",
+        "graphics"
+    ],
+    "depends"            : [
+        { "name"         : "TextureReplacer" }
+    ],
+    "install"            : [ {
+        "find"           : "TextureReplacer",
+        "install_to"     : "GameData"
+    } ]
 }

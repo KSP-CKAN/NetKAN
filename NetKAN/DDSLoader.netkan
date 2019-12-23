@@ -1,15 +1,19 @@
 {
-  "spec_version": 1,
-  "identifier": "DDSLoader",
-  "ksp_version": "0.90",
-  "resources": {
-    "homepage"   : "https://forum.kerbalspaceprogram.com/index.php?/topic/87222-090-ddsloader-19-mar-9-loads-dds-texture-quotboringly-fastquot-edition/",
-    "repository" : "https://github.com/sarbian/DDSLoader/"
-  },
-  "name": "DDSLoader",
-  "license": "CC-BY-NC-SA-4.0",
-  "abstract": "Loads DDS Textures boringly fast!",
-  "author": "sarbian",
-  "version": "1.9.0.0",
-  "download": "https://ksp.sarbian.com/jenkins/job/DDSLoader/lastSuccessfulBuild/artifact/DDSLoader-1.9.0.0.zip"
+    "spec_version": 1,
+    "identifier":   "DDSLoader",
+    "name":         "DDSLoader",
+    "abstract":     "Loads DDS Textures boringly fast!",
+    "author":       "sarbian",
+    "$kref":        "#/ckan/http/https://ksp.sarbian.com/jenkins/job/DDSLoader/lastSuccessfulBuild/artifact/DDSLoader-1.9.0.0.zip",
+    "version":      "1.9.0.0",
+    "ksp_version":  "0.90",
+    "license":      "CC-BY-NC-SA-4.0",
+    "resources": {
+        "homepage"   : "https://forum.kerbalspaceprogram.com/index.php?/topic/87222-*",
+        "repository" : "https://github.com/sarbian/DDSLoader/"
+    },
+    "tags": [
+        "plugin",
+        "graphics"
+    ]
 }

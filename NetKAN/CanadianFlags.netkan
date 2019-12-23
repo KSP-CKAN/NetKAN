@@ -1,21 +1,22 @@
 {
-  "spec_version": "v1.4",
-  "identifier"  : "CanadianFlags",
-  "license"     : "restricted",
-  "install": [
-        {
-            "find"       : "Flags",
-            "install_to" : "GameData/Bydysawd"
-        }
-    ],
-  "resources": {
-        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/35104-canadian-space-flags-show-off-that-canadian-pride-eh/"
+    "spec_version": "v1.4",
+    "identifier"  : "CanadianFlags",
+    "name"        : "Canadian Flags",
+    "abstract"    : "Includes the flags of: Canada, provinces, territories, Kingdom of France, UK, and more.",
+    "author"      : "CelticCossack25",
+    "comment"     : "flagmod",
+    "$kref"       : "#/ckan/http/http://addons-origin.cursecdn.com/files/2243/503/Bydysawd.zip",
+    "version"     : "1.0",
+    "ksp_version" : "any",
+    "license"     : "restricted",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/35104-*"
     },
-  "ksp_version" : "any",
-  "comment"     : "flagmod",
-  "name"        : "Canadian Flags",
-  "abstract"    : "Includes the flags of: Canada, provinces, territories, Kingdom of France, UK, and more.",
-  "author"      : "CelticCossack25",
-  "version"     : "1.0",
-  "download"    : "http://addons-origin.cursecdn.com/files/2243/503/Bydysawd.zip"
+    "tags": [
+        "config"
+    ],
+    "install": [ {
+        "find"       : "Flags",
+        "install_to" : "GameData/Bydysawd"
+    } ]
 }

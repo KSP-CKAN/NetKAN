@@ -3,6 +3,9 @@
     "identifier":   "SRMGimbal",
     "$kref":        "#/ckan/spacedock/2241",
     "license":      "MIT",
+    "tags": [
+        "config"
+    ],
     "depends": [
         { "name": "ModuleManager" }
     ]

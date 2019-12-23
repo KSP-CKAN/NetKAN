@@ -3,15 +3,21 @@
     "identifier":   "SciFiVisualEnhancements",
     "name":         "Sci-Fi Visual Enhancements",
     "abstract":     "High performance alternative to StockVisualEnhancements",
-    "ksp_version":  "1.6",
+    "$kref":        "#/ckan/http/https://www.dropbox.com/s/zr7e0gwpesctzho/SiFiVE-1.5.zip?dl=1",
     "version":      "v1.5",
-    "download":     "https://www.dropbox.com/s/zr7e0gwpesctzho/SiFiVE-1.5.zip?dl=1",
+    "ksp_version":  "1.6",
     "license":      "unrestricted",
     "resources": {
         "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/151190-*"
     },
-    "provides":  [            "EnvironmentalVisualEnhancements-Config"   ],
-    "conflicts": [ { "name" : "EnvironmentalVisualEnhancements-Config" } ],
+    "tags": [
+        "config",
+        "graphics"
+    ],
+    "provides":  [ "EnvironmentalVisualEnhancements-Config" ],
+    "conflicts": [
+        { "name" : "EnvironmentalVisualEnhancements-Config" }
+    ],
     "depends": [
         { "name": "EnvironmentalVisualEnhancements" }
     ],

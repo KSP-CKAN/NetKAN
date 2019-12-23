@@ -1,26 +1,28 @@
 {
     "spec_version": "v1.4",
-    "identifier": "BoxSat",
-    "name": "BoxSat",
-    "license": "restricted",
-    "abstract": "A modular, stackable, serviceable, & customizable satellite in a box!",
-    "author": [ "DasPenguin85", "orcmaul" ],
-    "resources": {
-        "x_curse": "http://kerbal.curseforge.com/ksp-mods/224250-boxsat",
-        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/82643-104-boxsat-va02f-updated-09162015/"
-    },
-    "version": "A.02f",
+    "identifier":   "BoxSat",
+    "name":         "BoxSat",
+    "abstract":     "A modular, stackable, serviceable, & customizable satellite in a box!",
+    "author":       [ "DasPenguin85", "orcmaul" ],
+    "$kref":        "#/ckan/http/http://addons-origin.cursecdn.com/files/2257/195/BoxSat%20vA.02f.zip",
+    "version":      "A.02f",
     "ksp_version_min": "1.0.4",
     "ksp_version_max": "1.0.5",
-    "download": "http://addons-origin.cursecdn.com/files/2257/195/BoxSat%20vA.02f.zip",
+    "license":      "restricted",
+    "resources": {
+        "x_curse": "http://kerbal.curseforge.com/ksp-mods/224250-boxsat",
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/82643-*"
+    },
+    "tags": [
+        "parts",
+        "unmanned"
+    ],
     "depends" : [
         { "name" : "ModuleManager" }
     ],
-    "install": [
-        {
-            "find": "BoxSatAlpha",
-            "install_to": "GameData",
-            "filter_regexp": "\\.ddsified$"
-        }
-    ]    
+    "install": [ {
+        "find": "BoxSatAlpha",
+        "install_to": "GameData",
+        "filter_regexp": "\\.ddsified$"
+    } ]
 }

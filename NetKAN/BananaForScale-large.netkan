@@ -3,24 +3,25 @@
     "identifier"   : "BananaForScale-large",
     "name"         : "Banana for Scale - large",
     "abstract"     : "Banana for Scale - Analyse bananas in space!",
-    "license"      : "restricted",
     "author"       : "JoePatrick1",
+    "$kref"        : "#/ckan/http/http://addons.cursecdn.com/files/2212/343/BfS%20(1).zip",
     "version"      : "1.0",
+    "ksp_version_max": "1.0",
+    "x_maintained" : "hakan42 - who loves bananas in space",
+    "license"      : "restricted",
+    "resources": {
+        "x_curse"  : "http://kerbal.curseforge.com/ksp-mods/223077-banana-for-scale",
+        "homepage" : "https://forum.kerbalspaceprogram.com/index.php?/topic/80802-*"
+    },
+    "tags": [
+        "parts"
+    ],
     "conflicts": [
         { "name": "BananaForScale" }
     ],
     "provides"  : [ "BananaForScale", "BfS" ],
-    "resources": {
-        "x_curse"  : "http://kerbal.curseforge.com/ksp-mods/223077-banana-for-scale",
-        "homepage" : "https://forum.kerbalspaceprogram.com/index.php?/topic/80802-banana-for-scale-analyse-bananas-in-space/"
-    },
-    "install": [
-        {
-            "find"       : "BfS",
-            "install_to" : "GameData"
-        }
-    ],
-    "ksp_version_max" : "1.0.99",
-    "download"     : "http://addons.cursecdn.com/files/2212/343/BfS%20(1).zip",
-    "x_maintained" : "hakan42 - who loves bananas in space"
+    "install": [ {
+        "find"       : "BfS",
+        "install_to" : "GameData"
+    } ]
 }
