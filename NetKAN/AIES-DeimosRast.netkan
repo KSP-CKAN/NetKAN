@@ -17,7 +17,7 @@
     {
       "find": "AIES_Patches",
       "install_to": "GameData",
-      "filter": [ "Patches", "TK421d", "AIES_Patches.version"]
+      "filter": [ "Patches", "TK421d", "AIES_Patches.version", "MiniAVC.dll"]
     }
   ],
   "spec_version": "v1.4"
