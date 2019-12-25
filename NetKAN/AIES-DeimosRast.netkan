@@ -4,12 +4,12 @@
   "x_via": "Automated Linuxgurugamer CKAN script",
   "$kref": "#/ckan/github/linuxgurugamer/AIES_Patches",
   "$vref": "#/ckan/ksp-avc",
-  "provides": [ "AIES-Antenna-Patches" ],
-  "depends": [
-    {
-        "name": "AIES-Patches"
-    }
+  "tags": [
+        "parts",
+        "patches"
   ],
+  "provides": [ "AIES-Antenna-Patches" ],
+  "depends": [ { "name": "AIES-Patches" } ],
   "conflicts" : [
     { "name" : "AIES-Antenna-Patches" }
   ],
