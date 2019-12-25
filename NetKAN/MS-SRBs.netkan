@@ -1,0 +1,27 @@
+{
+  "license": "CC-BY-NC-SA-4.0",
+  "identifier": "MS-SRBs",
+  "x_via": "Automated Linuxgurugamer CKAN script",
+  "$kref": "#/ckan/spacedock/2297",
+  "$vref": "#/ckan/ksp-avc",
+  "resources": {
+    "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/188482-*",
+    "repository": "https://github.com/linuxgurugamer/ModularSegmentedSRBs"
+  },
+  "depends": [
+    {
+      "name": "ModuleManager"
+    }
+  ],
+  "install": [
+    {
+      "find": "ModularSegmentedSRBs",
+      "install_to": "GameData"
+    },
+    {
+      "find": "VAB",
+      "install_to": "Ships"
+    }
+  ],
+  "spec_version": "v1.4"
+}
