@@ -5,10 +5,8 @@
   "$kref": "#/ckan/github/linuxgurugamer/AIES_Patches",
   "$vref": "#/ckan/ksp-avc",
   "depends": [
-    {
-      "name": "AIES_Antenna_Patches",
-      "name": "ModuleManager"
-    }
+    { "name": "AIES_Antenna_Patches" },
+    { "name": "ModuleManager" }    
   ],
   "install": [
     {
