@@ -1,0 +1,21 @@
+{
+  "license": "CC-BY-NC-SA-4.0",
+  "identifier": "AIES_Patches",
+  "x_via": "Automated Linuxgurugamer CKAN script",
+  "$kref": "#/ckan/github/linuxgurugamer/AIES_Patches",
+  "$vref": "#/ckan/ksp-avc",
+  "depends": [
+    {
+      "name": "AIES_Antenna_Patches",
+      "name": "ModuleManager"
+    }
+  ],
+  "install": [
+    {
+      "find": "AIES_Patches",
+      "install_to": "GameData",
+      "filter": ["DeimosRast", "TK421d"]
+    }
+  ],
+  "spec_version": "v1.4"
+}
