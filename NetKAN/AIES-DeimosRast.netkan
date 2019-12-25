@@ -6,7 +6,7 @@
   "$vref": "#/ckan/ksp-avc",
   "tags": [
         "parts",
-        "patches"
+        "config"
   ],
   "provides": [ "AIES-Antenna-Patches" ],
   "depends": [ { "name": "AIES-Patches" } ],
@@ -17,7 +17,7 @@
     {
       "find": "AIES_Patches",
       "install_to": "GameData",
-      "filter": [ "Patches", "TK421d"]
+      "filter": [ "Patches", "TK421d", "AIES_Patches.version"]
     }
   ],
   "spec_version": "v1.4"

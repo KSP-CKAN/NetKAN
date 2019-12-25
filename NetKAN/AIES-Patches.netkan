@@ -6,7 +6,7 @@
   "$vref": "#/ckan/ksp-avc",
   "tags": [
         "parts",
-        "patches"
+        "config"
   ],
   "depends": [
     { "name": "AIES-Antenna-Patches" },

@@ -7,7 +7,7 @@
   "provides": [ "AIES-Antenna_Patches" ],
   "tags": [
         "parts",
-        "patches"
+        "config"
   ],
   "depends": [ { "name": "AIES-Patches" }],
   "conflicts" : [
@@ -17,7 +17,7 @@
     {
       "find": "AIES_Patches",
       "install_to": "GameData",
-      "filter": ["DeimosRast", "Patches"]
+      "filter": ["DeimosRast", "Patches", "AIES_Patches.version"]
     }
   ],
   "spec_version": "v1.4"
