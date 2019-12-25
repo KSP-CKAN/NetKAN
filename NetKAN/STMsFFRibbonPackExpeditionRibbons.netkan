@@ -8,7 +8,7 @@
         "crewed"
     ],
     "install": [ {
-        "find": "GameData/STMRibbons",
+        "find": "STMRibbons",
         "install_to": "GameData"
     } ],
     "depends": [
