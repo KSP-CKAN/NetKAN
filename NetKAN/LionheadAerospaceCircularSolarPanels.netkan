@@ -4,6 +4,9 @@
     "author":       [ "Yogui87", "therealcrow999" ],
     "$kref":        "#/ckan/spacedock/1990",
     "license":      "CC-BY-NC-SA-3.0",
+    "tags": [
+        "parts"
+    ],
     "install": [ {
         "find":       "Lionhead_Aerospace_Inc",
         "install_to": "GameData",

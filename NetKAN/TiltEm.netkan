@@ -7,6 +7,10 @@
     "resources": {
         "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/179281-*"
     },
+    "tags": [
+        "plugin",
+        "physics"
+    ],
     "depends": [
         { "name": "ModuleManager" }
     ],

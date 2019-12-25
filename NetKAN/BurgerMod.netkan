@@ -1,17 +1,17 @@
 {
     "spec_version": "v1.4",
-    "identifier": "BurgerMod",
-    "license": "CC-BY-NC-SA-4.0",
-    "$kref": "#/ckan/spacedock/96",
-    "$vref": "#/ckan/ksp-avc",
-    "license" : "CC-BY-NC-SA",
-    "resources" : {
-        "homepage"     : "http://forum.kerbalspaceprogram.com/index.php?/topic/85379-BurgerMod"
+    "identifier":   "BurgerMod",
+    "$kref":        "#/ckan/spacedock/96",
+    "$vref":        "#/ckan/ksp-avc",
+    "license":      "CC-BY-NC-SA-4.0",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/85379-*"
     },
-    "install": [
-        {
-            "find": "BurgerMod",
-            "install_to": "GameData"
-        }
-    ]
+    "tags": [
+        "parts"
+    ],
+    "install": [ {
+        "find": "BurgerMod",
+        "install_to": "GameData"
+    } ]
 }

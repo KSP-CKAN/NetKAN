@@ -1,16 +1,18 @@
 {
-    "license": "MIT",
-    "identifier": "imkSushisPlanetSystem",
-    "$kref": "#/ckan/spacedock/673",
     "spec_version": "v1.4",
+    "identifier":   "imkSushisPlanetSystem",
+    "$kref":        "#/ckan/spacedock/673",
+    "license":      "MIT",
+    "tags": [
+        "config",
+        "planet-pack"
+    ],
     "depends": [
         { "name": "Kopernicus" },
         { "name": "SigmaBinary-core" }
     ],
-    "install": [
-        {
-            "file"       : "imkSushi",
-            "install_to" : "GameData"
-        }
-    ]
+    "install": [ {
+        "file"       : "imkSushi",
+        "install_to" : "GameData"
+    } ]
 }

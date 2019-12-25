@@ -5,7 +5,7 @@
     "license":      "BSD-2-clause",
     "tags": [
         "plugin",
-        "manned"
+        "crewed"
     ],
     "depends": [
         { "name": "ModuleManager" }

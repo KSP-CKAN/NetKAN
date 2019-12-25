@@ -3,13 +3,16 @@
     "identifier"   : "BetterLoadSaveGame",
     "$kref"        : "#/ckan/github/jefftimlin/BetterLoadSaveGame",
     "license"      : "MIT",
-    "ksp_version_min"  : "1.4",
-    "ksp_version_max"  : "1.7",
+    "ksp_version_min": "1.4",
+    "ksp_version_max": "1.7",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/162619-*"
+    },
+    "tags": [
+        "plugin"
+    ],
     "suggests": [
         { "name": "DatedQuickSaves"          },
         { "name": "KerbalImprovedSaveSystem" }
-    ],
-    "resources": {
-        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/162619-*"
-    }
+    ]
 }

@@ -7,7 +7,7 @@
     "x_via":        "Author JPLRepo",
     "tags": [
         "plugin",
-        "manned"
+        "crewed"
     ],
     "depends" : [
         { "name" : "ModuleManager", "min_version" : "2.3.5" },

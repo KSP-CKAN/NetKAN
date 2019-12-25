@@ -1,21 +1,18 @@
 {
-  "spec_version": "v1.4",
-  "install": [
-    {
-      "filter": [
-        "__MACOSX"
-      ],
-      "install_to": "GameData",
-      "find": "BackInBlack"
-    }
-  ],
-  "depends": [
-    {
-      "name": "BackInBlack"
-    }
-  ],
-  "$kref": "#/ckan/spacedock/1498",
-  "x_via": "Automated Linuxgurugamer CKAN script",
-  "identifier": "BackInBlackTexturePack",
-  "license": "CC-BY-NC-SA-4.0"
+    "spec_version": "v1.4",
+    "identifier":   "BackInBlackTexturePack",
+    "$kref":        "#/ckan/spacedock/1498",
+    "license":      "CC-BY-NC-SA-4.0",
+    "tags": [
+        "config",
+        "graphics"
+    ],
+    "install": [ {
+        "filter":     [ "__MACOSX" ],
+        "install_to": "GameData",
+        "find":       "BackInBlack"
+    } ],
+    "depends": [
+        { "name": "BackInBlack" }
+    ]
 }

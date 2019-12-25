@@ -3,6 +3,10 @@
     "identifier":   "InsightLander",
     "$kref":        "#/ckan/spacedock/1899",
     "license":      "WTFPL",
+    "tags": [
+        "parts",
+        "uncrewed"
+    ],
     "install": [ {
         "find":       "insight",
         "install_to": "GameData"

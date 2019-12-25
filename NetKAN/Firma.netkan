@@ -1,28 +1,25 @@
 {
-  "spec_version": "v1.4",
-  "install": [
-    {
-      "install_to": "GameData",
-      "find": "Firma"
-    }
-  ],
-  "depends": [
-    {
-      "name": "ModuleManager"
-    },
-    {
-      "name": "FirespitterCore"
-    }
-  ],
-  "suggests": [
-    { "name": "UmbraSpaceIndustries" },
-    { "name": "CommunityTechTree" },
-    { "name": "WildBlueIndustries" },
-    { "name": "ConnectedLivingSpace" },
-    { "name": "NearFutureElectrical" }
-  ],
-  "$kref": "#/ckan/spacedock/1317",
-  "x_via": "Automated Linuxgurugamer CKAN script",
-  "identifier": "Firma",
-  "license": "CC-BY-NC-SA-4.0"
+    "spec_version": "v1.4",
+    "identifier":   "Firma",
+    "$kref":        "#/ckan/spacedock/1317",
+    "license":      "CC-BY-NC-SA-4.0",
+    "tags": [
+        "parts",
+        "crewed"
+    ],
+    "install": [ {
+        "find": "Firma",
+        "install_to": "GameData"
+    } ],
+    "depends": [
+        { "name": "ModuleManager"   },
+        { "name": "FirespitterCore" }
+    ],
+    "suggests": [
+        { "name": "UmbraSpaceIndustries" },
+        { "name": "CommunityTechTree"    },
+        { "name": "WildBlueIndustries"   },
+        { "name": "ConnectedLivingSpace" },
+        { "name": "NearFutureElectrical" }
+    ]
 }

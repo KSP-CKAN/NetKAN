@@ -3,6 +3,10 @@
     "identifier":   "RedSpiderSkybox",
     "$kref":        "#/ckan/spacedock/2124",
     "license":      "restricted",
+    "tags": [
+        "config",
+        "graphics"
+    ],
     "install": [ {
         "find":       "TextureReplacer",
         "install_to": "GameData"

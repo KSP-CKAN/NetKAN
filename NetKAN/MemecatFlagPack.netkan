@@ -3,6 +3,9 @@
     "identifier":   "MemecatFlagPack",
     "$kref":        "#/ckan/spacedock/1937",
     "license":      "MIT",
+    "tags": [
+        "flags"
+    ],
     "install": [ {
         "find":       "MEMECAT FLAG PACK",
         "install_to": "GameData"

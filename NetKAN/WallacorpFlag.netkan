@@ -4,6 +4,9 @@
     "$kref":        "#/ckan/spacedock/2229",
     "ksp_version":  "any",
     "license":      "MIT",
+    "tags": [
+        "flags"
+    ],
     "install": [ {
         "find":       "Wallacorp",
         "install_to": "GameData"

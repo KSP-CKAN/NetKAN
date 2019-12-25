@@ -4,6 +4,10 @@
     "$kref":        "#/ckan/spacedock/2201",
     "$vref":        "#/ckan/ksp-avc",
     "license":      "MIT",
+    "tags": [
+        "plugin",
+        "resources"
+    ],
     "depends": [
         { "name": "ModuleManager"         },
         { "name": "CommunityResourcePack" }
@@ -12,7 +16,8 @@
         { "name": "SCANsat" }
     ],
     "suggests": [
-        { "name": "JNSQ" }
+        { "name": "RationalResourcesParts" },
+        { "name": "JNSQ"                   }
     ],
     "supports": [
         { "name": "CryoTanks" },

@@ -3,7 +3,10 @@
     "identifier":   "LVBNTR",
     "license":      "public-domain",
     "$kref":        "#/ckan/spacedock/1648",
-    "x_via":        "Automated SpaceDock CKAN submission",
+    "tags": [
+        "config",
+        "parts"
+    ],
     "depends": [
         { "name": "ModuleManager" }
     ],

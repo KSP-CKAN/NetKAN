@@ -3,7 +3,10 @@
     "identifier":   "Snarkiverse",
     "$kref":        "#/ckan/spacedock/1857",
     "license":      "MIT",
-    "x_via":        "Automated SpaceDock CKAN submission",
+    "tags": [
+        "config",
+        "planet-pack"
+    ],
     "depends": [
         { "name": "ModuleManager" },
         { "name": "Kopernicus"    }

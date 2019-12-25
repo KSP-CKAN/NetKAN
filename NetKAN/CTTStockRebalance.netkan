@@ -4,15 +4,16 @@
     "$kref":        "#/ckan/spacedock/2008",
     "x_netkan_epoch": "1",
     "license":      "GPL-3.0",
+    "tags": [
+        "config",
+        "tech-tree"
+    ],
     "depends": [
         { "name": "CommunityTechTree" },
         { "name": "ModuleManager"     }
     ],
-    "install": [
-        {
-            "find":       "GameData/CTTStockRebalance",
-            "install_to": "GameData"
-        }
-    ],
-    "x_via": "Automated SpaceDock CKAN submission"
+    "install": [ {
+        "find":       "GameData/CTTStockRebalance",
+        "install_to": "GameData"
+    } ]
 }

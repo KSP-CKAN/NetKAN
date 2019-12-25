@@ -3,7 +3,10 @@
     "identifier":   "DCKFutureTech",
     "$kref":        "#/ckan/spacedock/1798",
     "license":      "GPL-3.0",
-    "x_via":        "Automated SpaceDock CKAN submission",
+    "tags": [
+        "parts",
+        "combat"
+    ],
     "depends": [
         { "name": "ModuleManager"     },
         { "name": "BDArmoryContinued" }

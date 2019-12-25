@@ -5,7 +5,8 @@
     "license":      "CC-BY-NC-ND-4.0",
     "tags": [
         "plugin",
-        "unmanned"
+        "uncrewed",
+        "comms"
     ],
     "depends": [
         { "name": "ModuleManager" }

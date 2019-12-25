@@ -1,8 +1,11 @@
 {
-    "license": "restricted",
-    "identifier": "SpiceLaunchSystem",
-    "$kref": "#/ckan/spacedock/434",
     "spec_version": 1,
+    "identifier":   "SpiceLaunchSystem",
+    "$kref":        "#/ckan/spacedock/434",
+    "license":      "restricted",
+    "tags": [
+        "parts"
+    ],
     "recommends": [
         { "name": "RealismOverhaul" }
     ]

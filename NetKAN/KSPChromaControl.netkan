@@ -1,18 +1,20 @@
 {
     "spec_version": 1,
+    "identifier":   "KSPChromaControl",
+    "name":         "KSP Chroma Control",
+    "abstract":     "**Windows Only** Lights up your keyboard to show you all the functions your vessel actually has. Requires a Razer Chroma Keyboard or Keypad along with Razer Synapse installed to work.",
     "$kref": "#/ckan/github/cguckes/ksp-chroma",
-    "identifier": "KSPChromaControl",
-    "name": "KSP Chroma Control",
-    "abstract": "**Windows Only** Lights up your keyboard to show you all the functions your vessel actually has. Requires a Razer Chroma Keyboard or Keypad along with Razer Synapse installed to work.",
-    "license": "GPL-3.0",
-    "ksp_version": "1.2",
-    "install": [
-        {
-          "file": "KSP-Chroma-Control",
-          "install_to": "GameData"
-        }
-    ],
+    "ksp_version":  "1.3",
+    "license":      "GPL-3.0",
     "resources": {
         "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/137197-*"
-    }
+    },
+    "tags": [
+        "plugin",
+        "app"
+    ],
+    "install": [ {
+        "file": "KSP-Chroma-Control",
+        "install_to": "GameData"
+    } ]
 }

@@ -10,10 +10,12 @@
         "homepage":   "https://forum.kerbalspaceprogram.com/index.php?/topic/169895-*",
         "repository": "https://github.com/battlemoose/ksp-logirgb"
     },
-    "install": [
-        {
-            "find":       "GameData/KSPLogiRGB",
-            "install_to": "GameData"
-        }
-    ]
+    "tags": [
+        "plugin",
+        "app"
+    ],
+    "install": [ {
+        "find":       "GameData/KSPLogiRGB",
+        "install_to": "GameData"
+    } ]
 }

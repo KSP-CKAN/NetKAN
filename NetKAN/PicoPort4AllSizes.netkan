@@ -6,6 +6,12 @@
     "$kref":        "#/ckan/github/linuxgurugamer/PicoPort4AllSizes",
     "$vref":        "#/ckan/ksp-avc",
     "license":      "MIT",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/155020-*"
+    },
+    "tags": [
+        "config"
+    ],
     "install": [ {
         "install_to": "GameData",
         "find": "SHED"
@@ -13,9 +19,5 @@
     "depends" : [
         { "name" : "ModuleManager" },
         { "name" : "PicoPort" }
-    ],
-    "resources": {
-        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/155020-*"
-    },
-    "x_via": "Automated Linuxgurugamer CKAN script"
+    ]
 }

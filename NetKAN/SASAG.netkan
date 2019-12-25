@@ -3,12 +3,14 @@
     "identifier":   "SASAG",
     "$kref":        "#/ckan/spacedock/1380",
     "license":      "public-domain",
-    "install": [
-        {
-            "find":       "XyphosAerospace",
-            "install_to": "GameData"
-        }
+    "tags": [
+        "plugin",
+        "convenience"
     ],
+    "install": [ {
+        "find":       "XyphosAerospace",
+        "install_to": "GameData"
+    } ],
     "depends": [
         { "name": "ModuleManager" }
     ]

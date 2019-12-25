@@ -4,6 +4,10 @@
     "$kref":        "#/ckan/spacedock/2127",
     "$vref":        "#/ckan/ksp-avc",
     "license":      "CC-BY-4.0",
+    "tags": [
+        "plugin",
+        "physics"
+    ],
     "depends": [
         { "name": "ModuleManager" }
     ]

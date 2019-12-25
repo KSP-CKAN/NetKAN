@@ -6,7 +6,8 @@
     "license":      "CC-BY-SA-2.0",
     "tags": [
         "config",
-        "career"
+        "career",
+        "combat"
     ],
     "depends": [
         { "name" : "ContractConfigurator" },

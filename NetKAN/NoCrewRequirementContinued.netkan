@@ -7,7 +7,7 @@
     "license":      "GPL-3.0",
     "tags": [
         "config",
-        "unmanned"
+        "uncrewed"
     ],
     "depends": [
          { "name": "ModuleManager" }

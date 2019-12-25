@@ -4,6 +4,11 @@
     "$kref":        "#/ckan/spacedock/2221",
     "$vref":        "#/ckan/ksp-avc",
     "license":      "CC-BY-NC-SA-4.0",
+    "tags": [
+        "config",
+        "parts",
+        "convenience"
+    ],
     "install": [ {
         "find":       "OnDemandFuelCells",
         "install_to": "GameData"

@@ -1,16 +1,18 @@
 {
-    "$kref": "#/ckan/spacedock/747",
     "spec_version": "v1.4",
-    "identifier": "InterKalactic",
-    "license": "MIT",
+    "identifier":   "InterKalactic",
+    "$kref":        "#/ckan/spacedock/747",
+    "license":      "MIT",
+    "tags": [
+        "config",
+        "planet-pack"
+    ],
     "depends": [
         { "name": "Kopernicus" },
         { "name": "ModuleManager" }
     ],
-    "install": [
-        {
-            "find":"Clockwork13",
-            "install_to": "GameData"
-        }
-    ]
+    "install": [ {
+        "find": "Clockwork13",
+        "install_to": "GameData"
+    } ]
 }

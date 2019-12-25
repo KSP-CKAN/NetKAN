@@ -3,6 +3,10 @@
     "identifier":   "WhirligigWorld",
     "$kref":        "#/ckan/spacedock/1805",
     "license":      "restricted",
+    "tags": [
+        "config",
+        "planet-pack"
+    ],
     "depends": [
         { "name": "ModuleManager"                                },
         { "name": "Kopernicus"                                   },

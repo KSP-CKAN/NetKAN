@@ -1,12 +1,16 @@
 {
     "spec_version" : 1,
     "identifier"   : "UrgentContracts",
-    "$kref"        : "#/ckan/github/GarwelGarwel/UrgentContracts",
-    "author"       : "Garwel",
     "abstract"     : "Makes contract deadlines meaningful and more challenging.",
-    "license"      : "MIT",
+    "author"       : "Garwel",
+    "$kref"        : "#/ckan/github/GarwelGarwel/UrgentContracts",
     "$vref"        : "#/ckan/ksp-avc",
+    "license"      : "MIT",
     "resources": {
-        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/183810-17-urgent-contracts-01-making-deadlines-matter/"
-    }
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/183810-*"
+    },
+    "tags": [
+        "plugin",
+        "career"
+    ]
 }

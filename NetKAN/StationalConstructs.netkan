@@ -3,6 +3,9 @@
     "identifier":   "StationalConstructs",
     "$kref":        "#/ckan/spacedock/2084",
     "license":      "CC-BY-SA-3.0",
+    "tags": [
+        "parts"
+    ],
     "depends": [
         { "name": "ModuleManager"      }
     ],

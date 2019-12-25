@@ -1,15 +1,19 @@
 {
     "spec_version": "v1.4",
-    "identifier": "IR-Model-Rework-Core",
-    "name": "Infernal Robotics Model Rework - Core Pack",
-    "abstract": "For all your actuation needs",
-    "author": [ "ZodiusInfuser", "Ziw" ],
-    "license": "CC-BY-NC-ND-4.0",
+    "identifier":   "IR-Model-Rework-Core",
+    "name":         "Infernal Robotics Model Rework - Core Pack",
+    "abstract":     "For all your actuation needs",
+    "author":       [ "ZodiusInfuser", "Ziw" ],
+    "download":     "https://drive.google.com/uc?export=download&id=0B9f5PHcywXQINzQ3UC1aLVNBZk0",
+    "version":      "v02",
+    "ksp_version":  "1.1.2",
+    "license":      "CC-BY-NC-ND-4.0",
     "resources": {
         "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/59359-*/&page=80&tab=comments#comment-2564645"
     },
-    "version": "v02",
-    "ksp_version": "1.1.2",
+    "tags": [
+        "parts"
+    ],
     "depends": [
         { "name": "InfernalRobotics", "min_version": "0.19.4" }
     ],
@@ -17,12 +21,9 @@
         { "name": "IR-Model-Rework-Expansion" },
         { "name": "IR-Model-Rework-Utility" }
     ],
-    "install": [
-        {
-            "find": "MagicSmokeIndustries",
-            "install_to": "GameData",
-            "filter": [ "Rework_Expansion", "Rework_Utility" ]
-        }
-    ],
-    "download": "https://drive.google.com/uc?export=download&id=0B9f5PHcywXQINzQ3UC1aLVNBZk0"
+    "install": [ {
+        "find": "MagicSmokeIndustries",
+        "install_to": "GameData",
+        "filter": [ "Rework_Expansion", "Rework_Utility" ]
+    } ]
 }

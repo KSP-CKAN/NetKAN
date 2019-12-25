@@ -1,17 +1,21 @@
 {
-    "spec_version" : 1,
-    "identifier" : "RealTimeClock2",
-    "$kref" : "#/ckan/spacedock/2237",
-    "name" : "Real Time Clock 2",
-    "author" : [ "Li0n", "linuxgurugamer" ],
-    "abstract" : "In-game clock",
-    "license" : "GPL-3.0",
-    "$vref" : "#/ckan/ksp-avc",
-    "depends": [
-    { "name": "ClickThroughBlocker" }
-  ],
+    "spec_version": 1,
+    "identifier":   "RealTimeClock2",
+    "name":         "Real Time Clock 2",
+    "abstract":     "In-game clock",
+    "author":       [ "Li0n", "linuxgurugamer" ],
+    "$kref":        "#/ckan/spacedock/2237",
+    "$vref":        "#/ckan/ksp-avc",
+    "x_netkan_force_v": true,
+    "license":      "GPL-3.0",
     "resources": {
-        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/188345-173-real-time-clock-2-reset/"
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/188345-*"
     },
-    "x_netkan_force_v": true
+    "tags": [
+        "plugin",
+        "information"
+    ],
+    "depends": [
+        { "name": "ClickThroughBlocker" }
+    ]
 }

@@ -1,9 +1,13 @@
 {
-    "$kref": "#/ckan/spacedock/1109",
-    "$vref": "#/ckan/ksp-avc",
-    "identifier": "MedievalWeapons",
     "spec_version": "v1.4",
-    "license": "MIT",
+    "identifier":   "MedievalWeapons",
+    "$kref":        "#/ckan/spacedock/1109",
+    "$vref":        "#/ckan/ksp-avc",
+    "license":      "MIT",
+    "tags": [
+        "config",
+        "crewed"
+    ],
     "depends": [
         { "name": "KIS" }
     ]

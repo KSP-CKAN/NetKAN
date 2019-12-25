@@ -1,15 +1,16 @@
 {
     "spec_version": "v1.4",
-    "identifier": "TWSAs-Payload-Adapters",
-    "$kref": "#/ckan/spacedock/729",
-    "license": "CC-BY-NC-4.0",
+    "identifier":   "TWSAs-Payload-Adapters",
+    "$kref":        "#/ckan/spacedock/729",
+    "license":      "CC-BY-NC-4.0",
     "resources": {
-        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/140791-112"
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/140791-*"
     },
-    "install": [
-        {
-            "find": "TWSApa",
-            "install_to": "GameData"
-        }
-    ]
+    "tags": [
+        "parts"
+    ],
+    "install": [ {
+        "find": "TWSApa",
+        "install_to": "GameData"
+    } ]
 }

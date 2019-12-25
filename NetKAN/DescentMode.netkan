@@ -1,13 +1,18 @@
 {
     "spec_version" : 1,
     "identifier"   : "DescentMode",
+    "abstract"     : "Allows you to offset your pod's center of mass to perform a lifting reentry",
+    "author"       : "Eklykti",
     "$kref"        : "#/ckan/github/infoman/DescentMode",
     "$vref"        : "#/ckan/ksp-avc",
     "license"      : "CC-BY-SA-4.0",
-    "author"       : "Eklykti",
-    "abstract"     : "Allows you to offset your pod's center of mass to perform a lifting reentry",
+    "tags": [
+        "plugin",
+        "crewed",
+        "physics"
+    ],
     "resources": {
-        "homepage" : "http://forum.kerbalspaceprogram.com/index.php?/topic/160887-descent-mode/",
+        "homepage" : "http://forum.kerbalspaceprogram.com/index.php?/topic/160887-*",
         "repository" : "https://github.com/infoman/DescentMode"
     },
     "depends" : [

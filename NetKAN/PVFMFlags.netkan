@@ -1,11 +1,14 @@
 {
-  "spec_version" : 1,
-  "name" : "PonyvilleFM Flags",
-  "identifier" : "PVFMFlags",
-  "$kref" : "#/ckan/github/dyedquartz/PVFMFlags",
-  "license" : "MIT",
-  "ksp_version" : "any",
-  "resources" : {
-    "homepage" : "https://github.com/dyedquartz/PVFMFlags"
-  }
+    "spec_version": 1,
+    "identifier":   "PVFMFlags",
+    "name":         "PonyvilleFM Flags",
+    "$kref":        "#/ckan/github/dyedquartz/PVFMFlags",
+    "license":      "MIT",
+    "ksp_version":  "any",
+    "resources": {
+        "homepage": "https://github.com/dyedquartz/PVFMFlags"
+    },
+    "tags": [
+        "flags"
+    ]
 }

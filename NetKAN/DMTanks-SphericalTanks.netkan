@@ -3,20 +3,19 @@
     "identifier"    : "DMTanks-SphericalTanks",
     "name"          : "DaMichel's Spherical Tanks",
     "abstract"      : "This is a set of spherical fuel tanks, from 122.5 units to 2000 units in capacity, with a size 1 (1.25m) base.",
+    "author"        : [ "Bezzier", "DaMichel" ],
     "$kref"         : "#/ckan/github/ColorCurves/SphericalTanks",
+    "ksp_version_min": "1.0.5",
+    "ksp_version_max": "1.3.1",
     "license"       : "CC-BY-SA-3.0",
-    "author"        : [
-        "Bezzier", "DaMichel"
-    ],
-    "ksp_version_min"   : "1.0.5",
-    "ksp_version_max"   : "1.3.1",
     "resources": {
         "homepage"  : "http://colorcurves.github.io/SphericalTanks/"
     },
-    "install" : [
-        {
-            "find" : "DMTanks",
-            "install_to" : "GameData"
-        }
-    ]
+    "tags": [
+        "parts"
+    ],
+    "install" : [ {
+        "find" : "DMTanks",
+        "install_to" : "GameData"
+    } ]
 }

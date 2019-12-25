@@ -11,7 +11,8 @@
         "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/177292-*"
     },
     "tags": [
-        "parts"
+        "parts",
+        "comms"
     ],
     "conflicts": [
         { "name": "RemoteTech" }

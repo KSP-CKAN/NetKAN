@@ -1,15 +1,15 @@
 {
-  "spec_version": "v1.4",
-  "install": [
-    {
-      "install_to": "GameData",
-      "find": "ShipEffectsContinued"
-    }
-  ],
-  "$vref": "#/ckan/ksp-avc",
-  "$kref": "#/ckan/spacedock/2225",  
-  "x_via": "Automated Linuxgurugamer CKAN script",
-  "identifier": "ShipEffectsContinued",
-  "license": "CC-BY-NC-SA-4.0"
+    "spec_version": "v1.4",
+    "identifier":   "ShipEffectsContinued",
+    "$kref":        "#/ckan/spacedock/2225",
+    "$vref":        "#/ckan/ksp-avc",
+    "license":      "CC-BY-NC-SA-4.0",
+    "tags": [
+        "plugin",
+        "sound"
+    ],
+    "install": [ {
+        "find": "ShipEffectsContinued",
+        "install_to": "GameData"
+    } ]
 }
-

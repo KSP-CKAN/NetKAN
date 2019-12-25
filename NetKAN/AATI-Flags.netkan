@@ -3,6 +3,9 @@
     "identifier":   "AATI-Flags",
     "$kref":        "#/ckan/spacedock/2006",
     "license":      "GPL-3.0",
+    "tags": [
+        "flags"
+    ],
     "install": [ {
         "find":       "aati-flags",
         "install_to": "GameData"

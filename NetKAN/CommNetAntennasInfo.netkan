@@ -12,7 +12,8 @@
     },
     "tags": [
         "plugin",
-        "information"
+        "information",
+        "comms"
     ],
     "conflicts": [
         { "name": "RemoteTech" }
@@ -22,7 +23,7 @@
     ],
     "suggests": [
         { "name": "SpeedUnitAnnex" },
-	{ "name": "ScienceLabInfo" },
-	{ "name": "ScienceSituationInfo" }
+        { "name": "ScienceLabInfo" },
+        { "name": "ScienceSituationInfo" }
     ]
 }

@@ -5,7 +5,8 @@
     "x_netkan_epoch": 1,
     "license":      "CC-BY-SA-4.0",
     "tags": [
-        "parts"
+        "parts",
+        "combat"
     ],
     "depends": [
         { "name": "ModuleManager"            },

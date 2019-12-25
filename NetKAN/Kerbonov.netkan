@@ -8,7 +8,7 @@
     "license":      "CC-BY-SA-3.0",
     "tags": [
         "parts",
-        "manned"
+        "crewed"
     ],
     "depends": [
         { "name": "RetractableLiftingSurface" }

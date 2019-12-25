@@ -4,8 +4,11 @@
     "$kref":        "#/ckan/spacedock/1755",
     "x_netkan_allow_out_of_order": true,
     "license":      "CC-BY-4.0",
-    "x_via":        "Automated SpaceDock CKAN submission",
-    "install": [{
+    "tags": [
+        "parts",
+        "crewed"
+    ],
+    "install": [ {
         "find":       "Kerbalow",
         "install_to": "GameData"
     }, {
@@ -32,7 +35,7 @@
         "find":       "Optional Configs/KA330-USILifeSupport.cfg",
         "install_to": "GameData/Kerbalow",
         "find_matches_files": true
-    }],
+    } ],
     "depends": [
         { "name": "TexturesUnlimited" }
     ],

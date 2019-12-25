@@ -1,16 +1,21 @@
 {
-    "spec_version" : 1,
-    "identifier" : "CrewLight",
-    "$kref" : "#/ckan/spacedock/2236",
-    "$vref": "#/ckan/ksp-avc",
+    "spec_version": 1,
+    "identifier":   "CrewLight",
+    "name":         "Crew Light",
+    "abstract":     "An automatic light manager",
+    "author":       [ "Li0n", "linuxgurugamer" ],
+    "$kref":        "#/ckan/spacedock/2236",
+    "$vref":        "#/ckan/ksp-avc",
     "x_netkan_epoch": 1,
-    "name" : "Crew Light",
-    "author" : [ "Li0n", "linuxgurugamer" ],
-    "abstract" : "An automatic light manager",
-    "license" : "MIT",
+    "license" :     "MIT",
     "resources": {
-        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/188343-173-crew-light-relit/"
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/188343-*"
     },
+    "tags": [
+        "plugin",
+        "crewed",
+        "information"
+    ],
 	"depends" : [
 	    { "name" : "ModuleManager" }
     ]

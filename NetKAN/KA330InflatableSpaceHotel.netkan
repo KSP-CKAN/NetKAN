@@ -3,7 +3,10 @@
     "identifier":   "KA330InflatableSpaceHotel",
     "$kref":        "#/ckan/spacedock/1653",
     "license":      "CC-BY-4.0",
-    "x_via":        "Automated SpaceDock CKAN submission",
+    "tags": [
+        "parts",
+        "crewed"
+    ],
     "install": [ {
         "find":       "Kerbalow",
         "install_to": "GameData"
@@ -34,7 +37,7 @@
         "find":       "KA330-USILifeSupport.cfg",
         "install_to": "GameData/Kerbalow",
         "find_matches_files": true
-    }],
+    } ],
     "depends": [
         { "name": "TexturesUnlimited" }
     ],

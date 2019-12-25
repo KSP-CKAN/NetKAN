@@ -4,7 +4,8 @@
     "$kref":        "#/ckan/spacedock/255",
     "license":      "MIT",
     "tags": [
-        "config"
+        "config",
+        "buildings"
     ],
     "depends": [
         { "name": "KerbalKonstructs" }

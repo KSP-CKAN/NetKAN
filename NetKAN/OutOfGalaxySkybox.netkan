@@ -3,6 +3,10 @@
     "identifier":   "OutOfGalaxySkybox",
     "$kref":        "#/ckan/spacedock/1943",
     "license":      "GPL-3.0",
+    "tags": [
+        "config",
+        "graphics"
+    ],
     "install": [ {
         "find_regexp":        "GalaxyTex_PositiveX.png",
         "install_to":         "GameData/TextureReplacer/Default",

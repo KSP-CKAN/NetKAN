@@ -3,7 +3,10 @@
     "identifier":   "TESSSatellite",
     "$kref":        "#/ckan/spacedock/1836",
     "license":      "WTFPL",
-    "x_via":        "Automated SpaceDock CKAN submission",
+    "tags": [
+        "parts",
+        "uncrewed"
+    ],
     "install": [ {
         "find":       "tess",
         "install_to": "GameData"

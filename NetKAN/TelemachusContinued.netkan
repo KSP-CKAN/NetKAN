@@ -3,7 +3,11 @@
     "identifier":   "TelemachusContinued",
     "$kref":        "#/ckan/spacedock/1771",
     "license":      "MIT",
-    "x_via":        "Automated SpaceDock CKAN submission",
+    "tags": [
+        "plugin",
+        "app",
+        "information"
+    ],
     "depends": [
         { "name": "ModuleManager"     },
         { "name": "RasterPropMonitor" }

@@ -1,19 +1,21 @@
 {
-  "spec_version": "v1.4",
-  "install": [
-    {
-      "install_to": "GameData",
-      "find": "DraftTwitchViewers"
-    }
-  ],
+    "spec_version": "v1.4",
+    "identifier":   "DTV2",
+    "abstract":     "Draft, tour with, or rescue your twitch viewers as in-game Kerbals!",
+    "$kref":        "#/ckan/spacedock/1985",
+    "$vref":        "#/ckan/ksp-avc",
+    "license":      "GPL-3.0",
+    "tags": [
+        "plugin",
+        "crewed",
+        "app"
+    ],
+    "install": [ {
+        "find": "DraftTwitchViewers",
+        "install_to": "GameData"
+    } ],
     "depends": [
         { "name" : "ToolbarController" },
-	{ "name" : "ClickThroughBlocker" }
-    ],
-  "abstract": "Draft, tour with, or rescue your twitch viewers as in-game Kerbals!",
-  "$vref": "#/ckan/ksp-avc",
-  "$kref"             : "#/ckan/spacedock/1985",
-  "x_via": "Automated Linuxgurugamer CKAN script",
-  "identifier": "DTV2",
-  "license": "GPL-3.0"
+        { "name" : "ClickThroughBlocker" }
+    ]
 }

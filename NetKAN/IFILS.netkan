@@ -1,28 +1,22 @@
 {
-  "spec_version": "v1.4",
-  "install": [
-    {
-      "filter_regexp": [
-        ".*~$"
-      ],
-      "install_to": "GameData",
-      "find": "IFILS"
-    }
-  ],
-  "depends": [
-    {
-      "name": "CommunityResourcePack"
-    },
-    {
-      "name": "CommunityCategoryKit"
-    },
-    {
-      "name": "ModuleManager"
-    }
-  ],
-  "$vref": "#/ckan/ksp-avc",
-  "$kref": "#/ckan/spacedock/1610",
-  "x_via": "Automated Linuxgurugamer CKAN script",
-  "identifier": "IFILS",
-  "license": "GPL-3.0"
+    "spec_version": "v1.4",
+    "identifier":   "IFILS",
+    "$kref":        "#/ckan/spacedock/1610",
+    "$vref":        "#/ckan/ksp-avc",
+    "license":      "GPL-3.0",
+    "tags": [
+        "plugin",
+        "crewed",
+        "parts"
+    ],
+    "install": [ {
+        "filter_regexp": [ ".*~$" ],
+        "find": "IFILS",
+        "install_to": "GameData"
+    } ],
+    "depends": [
+        { "name": "CommunityResourcePack" },
+        { "name": "CommunityCategoryKit" },
+        { "name": "ModuleManager" }
+    ]
 }

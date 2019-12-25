@@ -1,10 +1,12 @@
 {
-    "x_via": "Automated SpaceDock CKAN submission",
-    "license": "BSD-3-clause",
-    "identifier": "Overdrive",
-    "$kref": "#/ckan/spacedock/1063",
     "spec_version": "v1.4",
-    "abstract": "Let's rock! With this UI reskin, the KSP UI will ROOOCK!!!",
+    "identifier":   "Overdrive",
+    "$kref":        "#/ckan/spacedock/1063",
+    "abstract":     "Let's rock! With this UI reskin, the KSP UI will ROOOCK!!!",
+    "license":      "BSD-3-clause",
+    "tags": [
+        "plugin"
+    ],
     "depends": [
         { "name": "UICore" }
     ]

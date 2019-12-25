@@ -3,6 +3,10 @@
     "identifier":   "OuterKerbin",
     "$kref":        "#/ckan/spacedock/2066",
     "license":      "MIT",
+    "tags": [
+        "config",
+        "planet-pack"
+    ],
     "depends": [
         { "name": "ModuleManager" },
         { "name": "Kopernicus"    }

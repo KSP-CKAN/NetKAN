@@ -1,13 +1,14 @@
 {
-    "identifier": "StructuralWings",
-    "x_via": "Automated SpaceDock CKAN submission",
-    "$kref": "#/ckan/spacedock/1733",
     "spec_version": "v1.4",
-    "license": "GPL-3.0",
-    "install": [
-        {
-            "file": "StructualWings",
-            "install_to": "GameData"
-        }
-    ]
+    "identifier":   "StructuralWings",
+    "$kref":        "#/ckan/spacedock/1733",
+    "license":      "GPL-3.0",
+    "tags": [
+        "config",
+        "parts"
+    ],
+    "install": [ {
+        "file": "StructualWings",
+        "install_to": "GameData"
+    } ]
 }

@@ -5,7 +5,7 @@
     "license"      : "GPL-3.0",
     "tags": [
         "parts",
-        "manned"
+        "crewed"
     ],
     "depends" : [
         { "name" : "ModuleManager"}

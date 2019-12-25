@@ -5,10 +5,10 @@
     "x_netkan_epoch": 3,
     "license":      "CC-BY-SA",
     "tags": [
-        "parts"
+        "parts",
+        "combat"
     ],
     "depends": [
         { "name": "BDArmoryContinued" }
-    ],
-    "x_via":        "Automated SpaceDock CKAN submission"
+    ]
 }

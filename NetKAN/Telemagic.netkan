@@ -3,10 +3,12 @@
     "identifier":   "Telemagic",
     "$kref":        "#/ckan/spacedock/1627",
     "license":      "MIT",
-    "x_via":        "Automated SpaceDock CKAN submission",
     "resources": {
         "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/175340-*"
     },
+    "tags": [
+        "plugin"
+    ],
     "install": [ {
         "find":          "Telemagic",
         "filter_regexp": [ "\\.*.craft$" ],

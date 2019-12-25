@@ -1,21 +1,25 @@
 {
     "spec_version"   : 1,
+    "identifier"     : "KerbalStats",
     "name"           : "Kerbal Stats",
     "abstract"       : "KerbalStats is a KSP mod for keeping track of extra information about the kerbals in your game.",
-    "identifier"     : "KerbalStats",
     "author"         : "taniwha",
+    "$kref"          : "#/ckan/http/http://taniwha.org/~bill/KerbalStats_v3.1.0.zip",
+    "version"        : "3.1.0",
+    "ksp_version"    : "1.8",
     "license"        : "GPL-3.0",
     "release_status" : "stable",
     "resources"      : {
-        "homepage" : "https://forum.kerbalspaceprogram.com/index.php?/topic/89285-14-kerbalstats-v303/",
+        "homepage"   : "https://forum.kerbalspaceprogram.com/index.php?/topic/89285-*",
 		"repository" : "https://github.com/taniwha-qf/KerbalStats"
     },
-    "install" : [{
+    "tags"           : [
+        "plugin",
+        "crewed"
+    ],
+    "install": [ {
         "file"       : "KerbalStats",
         "install_to" : "GameData",
 		"filter"	:	"KerbalStatsWrapper.cs"
-    }],
-    "version"        : "3.0.2",
-    "ksp_version"    : "1.3.0",
-    "download"       : "http://taniwha.org/~bill/KerbalStats_v3.0.2.zip"
+    } ]
 }

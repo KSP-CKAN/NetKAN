@@ -1,17 +1,19 @@
 {
     "spec_version": "v1.4",
-    "identifier": "SensibleTechTree",
-    "$kref": "#/ckan/spacedock/1032",
+    "identifier":   "SensibleTechTree",
+    "$kref":        "#/ckan/spacedock/1032",
     "x_netkan_version_edit": "^.*[vV](?<version>.+)$",
-    "license": "CC-BY-NC-SA",
+    "x_netkan_epoch": "1",
+    "license":      "CC-BY-NC-SA",
+    "tags": [
+        "config",
+        "tech-tree"
+    ],
     "depends": [
         { "name": "ModuleManager" }
     ],
-    "install": [
-        {
-            "find": "Senisible Tech Tree",
-            "install_to": "GameData"
-        }
-    ],
-    "x_netkan_epoch": "1"
+    "install": [ {
+        "find": "Senisible Tech Tree",
+        "install_to": "GameData"
+    } ]
 }

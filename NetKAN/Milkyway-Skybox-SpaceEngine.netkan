@@ -4,6 +4,10 @@
     "$kref":        "#/ckan/spacedock/2081",
     "ksp_version":  "any",
     "license":      "GPL-2.0",
+    "tags": [
+        "config",
+        "graphics"
+    ],
     "install": [ {
         "find":       "TextureReplacer",
         "install_to": "GameData"

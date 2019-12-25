@@ -1,14 +1,17 @@
 {
-    "x_via":        "Automated SpaceDock CKAN submission",
-    "$kref":        "#/ckan/spacedock/1619",
-    "identifier":   "KSCSupportStaff",
-    "license":      "restricted",
     "spec_version": "v1.4",
-    "depends": [{
-        "name": "TextureReplacerReplaced"
-    }],
-    "install": [{
+    "identifier":   "KSCSupportStaff",
+    "$kref":        "#/ckan/spacedock/1619",
+    "license":      "restricted",
+    "tags": [
+        "config",
+        "graphics"
+    ],
+    "depends": [
+        { "name": "TextureReplacerReplaced" }
+    ],
+    "install": [ {
         "find":       "TRR_WBN",
         "install_to": "GameData"
-    }]
+    } ]
 }

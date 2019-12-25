@@ -3,6 +3,10 @@
     "identifier":   "AerospacePassengerandUtilitySystem",
     "$kref":        "#/ckan/spacedock/2152",
     "license":      "MIT",
+    "tags": [
+        "parts",
+        "crewed"
+    ],
     "install": [ {
         "find":       "APUS_Shuttle",
         "install_to": "GameData"

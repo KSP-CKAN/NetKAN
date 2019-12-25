@@ -1,18 +1,17 @@
 {
-  "spec_version": "v1.4",
-  "install": [
-    {
-      "install_to": "GameData",
-      "find": "KAS trad fr"
-    }
-  ],
-  "depends": [
-    {
-      "name": "ModuleManager"
-    }
-  ],
-  "$kref": "#/ckan/spacedock/1156",
-  "x_via": "Automated Linuxgurugamer CKAN script",
-  "identifier": "KASFrench",
-  "license": "unknown"
+    "spec_version": "v1.4",
+    "identifier":   "KASFrench",
+    "$kref":        "#/ckan/spacedock/1156",
+    "license":      "unknown",
+    "tags": [
+        "config"
+    ],
+    "install": [ {
+        "find": "KAS trad fr",
+        "install_to": "GameData"
+    } ],
+    "depends": [
+        { "name": "ModuleManager" },
+        { "name": "KAS"           }
+    ]
 }

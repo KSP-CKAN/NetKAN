@@ -1,8 +1,12 @@
 {
-    "$kref": "#/ckan/spacedock/523",
-    "identifier": "NoMoreGrindRedux",
     "spec_version": "v1.4",
-    "license": "public-domain",
+    "identifier":   "NoMoreGrindRedux",
+    "$kref":        "#/ckan/spacedock/523",
+    "license":      "public-domain",
+    "tags": [
+        "config",
+        "career"
+    ],
     "depends": [
         { "name": "CustomBarnKit" },
         { "name": "ModuleManager" }

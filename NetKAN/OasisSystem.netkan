@@ -3,7 +3,10 @@
     "identifier":   "OasisSystem",
     "$kref":        "#/ckan/spacedock/1814",
     "license":      "MIT",
-    "x_via":        "Automated SpaceDock CKAN submission",
+    "tags": [
+        "config",
+        "planet-pack"
+    ],
     "install": [ {
         "find":       "Oasis System",
         "install_to": "GameData"

@@ -10,7 +10,8 @@
         "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/139167-*"
     },
     "tags": [
-        "parts"
+        "parts",
+        "comms"
     ],
     "depends": [
         { "name": "ModuleManager" }

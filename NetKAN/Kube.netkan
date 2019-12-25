@@ -1,21 +1,21 @@
 {
-  "spec_version": "v1.4",
-  "install": [
-    {
-      "install_to": "GameData",
-      "find": "Kube"
-    }
-  ],
-  "depends": [
-    { "name" : "B9PartSwitch" },
-    { "name": "ModuleManager" }
-  ],
-  "recommends": [
-    { "name": "ReCoupler" }
-  ],
-  "$vref": "#/ckan/ksp-avc",
-  "$kref": "#/ckan/spacedock/1539",
-  "x_via": "Automated Linuxgurugamer CKAN script",
-  "identifier": "Kube",
-  "license": "MIT"
+    "spec_version": "v1.4",
+    "identifier":   "Kube",
+    "$kref":        "#/ckan/spacedock/1539",
+    "$vref":        "#/ckan/ksp-avc",
+    "license":      "MIT",
+    "tags": [
+        "parts"
+    ],
+    "install": [ {
+        "find": "Kube",
+        "install_to": "GameData"
+    } ],
+    "depends": [
+        { "name" : "B9PartSwitch" },
+        { "name": "ModuleManager" }
+    ],
+    "recommends": [
+        { "name": "ReCoupler" }
+    ]
 }

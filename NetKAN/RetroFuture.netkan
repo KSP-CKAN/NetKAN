@@ -1,11 +1,15 @@
 {
     "spec_version"   : "v1.4",
     "identifier"     : "RetroFuture",
+    "author"         : [ "LinuxGuruGamer", "NohArk", "amankduffers" ],
     "$kref"          : "#/ckan/spacedock/2153",
     "$vref"          : "#/ckan/ksp-avc",
-    "license"        : "CC-BY-NC-SA-4.0",
-    "author"         : [ "LinuxGuruGamer", "NohArk", "amankduffers" ],
     "x_netkan_epoch" : "2",
+    "license"        : "CC-BY-NC-SA-4.0",
+    "tags"           : [
+        "parts",
+        "combat"
+    ],
     "depends" : [
         { "name" : "FirespitterCore" },
         { "name" : "ModuleManager" }
@@ -22,10 +26,8 @@
     "supports" : [
         { "name" : "BDArmory" }
     ],
-    "install" : [
-        {
-            "find"       : "RetroFuture",
-            "install_to" : "GameData"
-        }
-    ]
+    "install" : [ {
+        "find"       : "RetroFuture",
+        "install_to" : "GameData"
+    } ]
 }

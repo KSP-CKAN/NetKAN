@@ -3,11 +3,11 @@
     "identifier":   "LCAproject",
     "$kref":        "#/ckan/spacedock/1540",
     "license":      "GPL-2.0",
-    "x_via":        "Automated SpaceDock CKAN submission",
-    "install": [
-        {
-            "find":       "LCA",
-            "install_to": "GameData"
-        }
-    ]
+    "tags": [
+        "parts"
+    ],
+    "install": [ {
+        "find":       "LCA",
+        "install_to": "GameData"
+    } ]
 }

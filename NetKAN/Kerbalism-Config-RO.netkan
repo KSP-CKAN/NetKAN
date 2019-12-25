@@ -5,6 +5,12 @@
     "$kref":        "#/ckan/github/Standecco/ROKerbalism",
     "$vref":        "#/ckan/ksp-avc/Kerbalism/Kerbalism.version",
     "license":      "Unlicense",
+    "tags": [
+        "config",
+        "career",
+        "science",
+        "crewed"
+    ],
     "provides": [ "Kerbalism-Config" ],
     "conflicts": [
         { "name": "Kerbalism-Config" }

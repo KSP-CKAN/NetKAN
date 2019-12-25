@@ -1,8 +1,12 @@
 {
-    "identifier": "PatentPurchase",
-    "$kref": "#/ckan/spacedock/692",
     "spec_version": "v1.4",
-    "license": "public-domain",
+    "identifier":   "PatentPurchase",
+    "$kref":        "#/ckan/spacedock/692",
+    "license":      "public-domain",
+    "tags": [
+        "plugin",
+        "career"
+    ],
     "depends": [
         { "name": "ModuleManager" }
     ]

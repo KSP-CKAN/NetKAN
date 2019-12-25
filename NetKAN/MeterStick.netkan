@@ -1,13 +1,13 @@
 {
-  "spec_version": "v1.4",
-  "install": [
-    {
-      "install_to": "GameData",
-      "find": "MeterStick"
-    }
-  ],
-  "$kref": "#/ckan/spacedock/1386",
-  "x_via": "Automated Linuxgurugamer CKAN script",
-  "identifier": "MeterStick",
-  "license": "unknown"
+    "spec_version": "v1.4",
+    "identifier":   "MeterStick",
+    "$kref":        "#/ckan/spacedock/1386",
+    "license":      "public-domain",
+    "tags": [
+        "parts"
+    ],
+    "install": [ {
+        "find": "MeterStick",
+        "install_to": "GameData"
+    } ]
 }

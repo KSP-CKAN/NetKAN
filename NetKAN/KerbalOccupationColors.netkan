@@ -1,34 +1,33 @@
 {
-  "license": "Unlicense",
-  "identifier": "KerbalOccupationColors",
-  "x_via": "Automated Linuxgurugamer CKAN script",
-  "$kref": "#/ckan/github/Starwaster/Kerbal-Occupation-Colors",
-  "$vref": "#/ckan/ksp-avc",
-  "resources": {
-    "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/185931-17-kerbal-occupation-colors-version-10/",
-    "repository": "https://github.com/Starwaster/Kerbal-Occupation-Colors"
-  },
-  "abstract": "Automatically assigns the Future Suit's light colors based on occupation",
-  "depends": [
-    {
-      "name": "ModuleManager"
-    }
-  ],
-  "install": [
-    {
-      "find": "KerbalOccupationColors",
-      "install_to": "GameData"
-    }
-  ],
-  "spec_version": "v1.18",
-  "x_netkan_override": [
-    {
-      "version":"v1.2.0",
-      "delete":  [ "ksp_version", "ksp_version_min" ],
-      "override": {
-          "ksp_version_min": "1.7.3"
-      }
-    }
-  ]
-
+    "spec_version": "v1.18",
+    "identifier":   "KerbalOccupationColors",
+    "abstract":     "Automatically assigns the Future Suit's light colors based on occupation",
+    "$kref":        "#/ckan/github/Starwaster/Kerbal-Occupation-Colors",
+    "$vref":        "#/ckan/ksp-avc",
+    "license":      "Unlicense",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/185931-*",
+        "repository": "https://github.com/Starwaster/Kerbal-Occupation-Colors"
+    },
+    "tags": [
+        "plugin",
+        "information",
+        "crewed"
+    ],
+    "depends": [
+        { "name": "ModuleManager" }
+    ],
+    "install": [ {
+        "find": "KerbalOccupationColors",
+        "install_to": "GameData"
+    } ],
+    "x_netkan_override": [
+        {
+            "version":"v1.2.0",
+            "delete":  [ "ksp_version", "ksp_version_min" ],
+            "override": {
+                "ksp_version_min": "1.7.3"
+            }
+        }
+    ]
 }

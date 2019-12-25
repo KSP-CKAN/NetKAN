@@ -5,12 +5,16 @@
     "abstract"     : "A transponder to make air-drops a little easier",
     "description"  : "A small mod for keeping track of your air-drop packages until they hit the ground. Very good for those surface survey contracts in awkward locations.",
     "author"       : "taniwha",
-    "$kref"        : "#/ckan/http/http://taniwha.org/~bill/SurveyTransponder_v0.5.2a.zip",
+    "$kref"        : "#/ckan/http/http://taniwha.org/~bill/SurveyTransponder_v0.6.0.zip",
+    "ksp_version"  : "1.8",
+    "version"      : "0.6.0",
     "license"      : "GPL-3.0",
-    "ksp_version"  : "1.4",
-    "version"      : "0.5.2a",
     "resources": {
         "homepage":   "https://forum.kerbalspaceprogram.com/index.php?/topic/111834-*",
         "repository": "https://github.com/taniwha/SurveyTransponder"
-    }
+    },
+    "tags": [
+        "parts",
+        "uncrewed"
+    ]
 }

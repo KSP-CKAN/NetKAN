@@ -4,6 +4,9 @@
     "$kref":        "#/ckan/spacedock/2083",
     "ksp_version":  "any",
     "license":      "MIT",
+    "tags": [
+        "flags"
+    ],
     "install": [ {
         "find":       "Flags",
         "install_to": "GameData/Blockland_Space_Program"

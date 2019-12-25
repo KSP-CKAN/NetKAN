@@ -4,8 +4,8 @@
     "$kref":        "#/ckan/spacedock/1591",
     "license":      "CC-BY-NC-ND",
     "tags": [
-        "config",
-        "graphics"
+        "graphics",
+        "flags"
     ],
     "depends": [
         { "name": "ModuleManager" }

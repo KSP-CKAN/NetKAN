@@ -4,6 +4,10 @@
     "$kref":        "#/ckan/spacedock/1991",
     "ksp_version":  "any",
     "license":      "MIT",
+    "tags": [
+        "config",
+        "buildings"
+    ],
     "install": [ {
         "find":       "KerbalKonstructs",
         "install_to": "GameData"

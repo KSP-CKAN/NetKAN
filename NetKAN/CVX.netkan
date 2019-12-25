@@ -4,7 +4,8 @@
     "$kref"        : "#/ckan/spacedock/954",
     "license"      : "CC-BY-NC-SA-4.0",
     "tags": [
-        "parts"
+        "parts",
+        "combat"
     ],
     "depends": [
         { "name": "CommunityResourcePack" },
@@ -22,7 +23,7 @@
     ],
     "install": [
         {
-            "find":"Eskandare_Heavy_Industries",
+            "find": "Eskandare_Heavy_Industries",
             "install_to": "GameData"
         }
     ],

@@ -8,6 +8,12 @@
     "version"     : "6ish",
     "ksp_version" : "1.6.1",
     "license"     : "public-domain",
+    "resources": {
+    	"homepage": "https://drive.google.com/open?id=1WPu-nxiyoI-xSWWkb_FJ5wDdqelR4jVk"
+    },
+    "tags": [
+        "parts"
+    ],
     "depends": [
         { "name": "ModuleManager" }
     ],
@@ -17,13 +23,8 @@
     "suggests": [
         { "name": "TweakScale" }
     ],
-    "install": [
-        {
-            "file"      : "Nuke",
-            "install_to": "GameData"
-        }
-    ],
-    "resources": {
-    	"homepage": "https://drive.google.com/open?id=1WPu-nxiyoI-xSWWkb_FJ5wDdqelR4jVk"
-    }
+    "install": [ {
+        "file"      : "Nuke",
+        "install_to": "GameData"
+    } ]
 }

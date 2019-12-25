@@ -1,13 +1,16 @@
 {
     "spec_version": "v1.4",
-    "identifier": "SovietConversion",
-    "$kref": "#/ckan/spacedock/858",
-    "license": "CC-BY-NC-SA-4.0",
+    "identifier":   "SovietConversion",
+    "$kref":        "#/ckan/spacedock/858",
     "x_netkan_epoch": "1",
     "x_netkan_staging": true,
     "x_netkan_staging_reason": "Check Contares max version",
-    "conflicts" : [
-        { "name" : "RemoteTech" }
+    "license":      "CC-BY-NC-SA-4.0",
+    "tags": [
+        "parts",
+        "crewed",
+        "config",
+        "career"
     ],
     "depends": [
         { "name": "NewTantares" },
@@ -25,14 +28,11 @@
     "suggests": [
         { "name": "ContractConfigurator-AdvancedProgression"}
     ],
-    "install" : [
-        {
-            "file": "Ships",
-            "install_to": "Ships"
-        },
-        {
-            "find": "SovietConversion",
-            "install_to": "GameData"
-        }
-    ]
+    "install" : [ {
+        "file": "Ships",
+        "install_to": "Ships"
+    }, {
+        "find": "SovietConversion",
+        "install_to": "GameData"
+    } ]
 }

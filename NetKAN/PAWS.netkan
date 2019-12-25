@@ -1,15 +1,19 @@
 {
 	"spec_version": 1,
-	"identifier": "PAWS",
-	"$kref": "#/ckan/github/severedsolo/PAWS",
-	"license": "MIT",
-	"$vref": "#/ckan/ksp-avc",
-	"name": "PAWS",
-	"abstract": "Allows you to remove entries from the Part Action Window",
+	"identifier":   "PAWS",
+	"name":         "PAWS",
+	"abstract":     "Allows you to remove entries from the Part Action Window",
+	"$kref":        "#/ckan/github/severedsolo/PAWS",
+	"$vref":        "#/ckan/ksp-avc",
+	"license":      "MIT",
 	"resources": {
-		"homepage": "https://github.com/severedsolo/PAWS"
+		"repository": "https://github.com/severedsolo/PAWS",
+		"homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/163711-*"
 	},
-	"depends": [{
-		"name": "ModuleManager"
-	}]
+	"tags": [
+		"plugin"
+	],
+	"depends": [
+		{ "name": "ModuleManager" }
+	]
 }

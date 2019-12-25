@@ -1,19 +1,21 @@
 {
     "spec_version" : "v1.4",
     "identifier"   : "Sigma-KerbalDescriptions",
-    "$kref"        : "#/ckan/github/Sigma88/Sigma-KerbalDescriptions/asset_match/Sigma-KerbalDescriptions.*?\\.zip",
-    "$vref"        : "#/ckan/ksp-avc",
     "name"         : "Sigma KerbalDescriptions",
     "abstract"     : "Customizeable Crew Tooltips",
-    "license"      : "restricted",
     "author"       : "Sigma88",
+    "$kref"        : "#/ckan/github/Sigma88/Sigma-KerbalDescriptions/asset_match/Sigma-KerbalDescriptions.*?\\.zip",
+    "$vref"        : "#/ckan/ksp-avc",
+    "license"      : "restricted",
     "resources": {
-        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/166865-SigmaKerbalDescriptions/"
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/166865-*"
     },
-    "install": [
-        {
-            "find": "KerbalDescriptions",
-            "install_to": "GameData/Sigma"
-        }
-    ]
+    "tags": [
+        "plugin",
+        "crewed"
+    ],
+    "install": [ {
+        "find": "KerbalDescriptions",
+        "install_to": "GameData/Sigma"
+    } ]
 }

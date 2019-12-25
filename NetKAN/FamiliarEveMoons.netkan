@@ -1,17 +1,18 @@
 {
-    "$kref": "#/ckan/spacedock/873",
     "spec_version": "v1.4",
-    "identifier": "FamiliarEveMoons",
-    "x_via": "Automated SpaceDock CKAN submission",
-    "license": "MIT",
+    "identifier":   "FamiliarEveMoons",
+    "$kref":        "#/ckan/spacedock/873",
+    "license":      "MIT",
+    "tags": [
+        "config",
+        "planet-pack"
+    ],
     "depends": [
         { "name": "ModuleManager" },
         { "name": "Kopernicus" }
     ],
-    "install": [
-        {
-            "find": "FamiliarEveMoons",
-            "install_to": "GameData"
-        }
-    ]
+    "install": [ {
+        "find": "FamiliarEveMoons",
+        "install_to": "GameData"
+    } ]
 }

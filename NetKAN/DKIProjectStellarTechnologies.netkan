@@ -1,13 +1,13 @@
 {
     "spec_version": "v1.4",
-    "identifier": "DKIProjectStellarTechnologies",
-    "license": "MIT",
-    "$kref": "#/ckan/spacedock/1683",
-    "x_via": "Automated SpaceDock CKAN submission",
-    "install": [
-        {
-            "find": "DKITech",
-            "install_to": "GameData"
-        }
-    ]
+    "identifier":   "DKIProjectStellarTechnologies",
+    "$kref":        "#/ckan/spacedock/1683",
+    "license":      "MIT",
+    "tags": [
+        "parts"
+    ],
+    "install": [ {
+        "find": "DKITech",
+        "install_to": "GameData"
+    } ]
 }

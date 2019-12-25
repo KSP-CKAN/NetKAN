@@ -4,6 +4,10 @@
     "$kref":        "#/ckan/spacedock/113",
     "$vref":        "#/ckan/ksp-avc",
     "license":      "Unlicense",
+    "tags": [
+        "config",
+        "comms"
+    ],
     "depends": [
         { "name": "ModuleManager", "min_version": "2.6.0" },
         { "name": "RemoteTech", "min_version": "v1.6.0" }

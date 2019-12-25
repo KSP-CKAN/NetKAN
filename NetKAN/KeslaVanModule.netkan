@@ -1,18 +1,17 @@
 {
-    "identifier": "KeslaVanModule",
-    "$kref": "#/ckan/spacedock/1352",
-    "x_via": "Automated SpaceDock CKAN submission",
-    "license": "GPL-3.0",
     "spec_version": "v1.16",
-    "install": [
-        {
-            "find": "KeslaV1",
-            "install_to": "GameData"
-        },
-        {
-            "find": "roverWheelTR-2L.cfg",
-            "find_matches_files": true,
-            "install_to": "GameData/KeslaV1"
-        }
-    ]
+    "identifier":   "KeslaVanModule",
+    "$kref":        "#/ckan/spacedock/1352",
+    "license":      "GPL-3.0",
+    "tags": [
+        "parts"
+    ],
+    "install": [ {
+        "find": "KeslaV1",
+        "install_to": "GameData"
+    }, {
+        "find": "roverWheelTR-2L.cfg",
+        "find_matches_files": true,
+        "install_to": "GameData/KeslaV1"
+    } ]
 }

@@ -1,14 +1,14 @@
 {
-    "$kref": "#/ckan/spacedock/1286",
-    "$vref": "#/ckan/ksp-avc",
-    "identifier": "NIMBY",
-    "x_via": "Automated SpaceDock CKAN submission",
     "spec_version": "v1.4",
-    "license": "MIT",
-    "install": [
-        {
-            "find": "NIMBY",
-            "install_to": "GameData"
-        }
-    ]
+    "identifier":   "NIMBY",
+    "$kref":        "#/ckan/spacedock/1286",
+    "$vref":        "#/ckan/ksp-avc",
+    "license":      "MIT",
+    "tags": [
+        "plugin"
+    ],
+    "install": [ {
+        "find": "NIMBY",
+        "install_to": "GameData"
+    } ]
 }

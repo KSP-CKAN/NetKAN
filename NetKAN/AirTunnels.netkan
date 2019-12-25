@@ -1,7 +1,9 @@
 {
-    "identifier": "AirTunnels",
-    "x_via": "Automated SpaceDock CKAN submission",
-    "$kref": "#/ckan/spacedock/1768",
     "spec_version": "v1.4",
-    "license": "MIT"
+    "identifier":   "AirTunnels",
+    "$kref":        "#/ckan/spacedock/1768",
+    "license":      "MIT",
+    "tags": [
+        "parts"
+    ]
 }

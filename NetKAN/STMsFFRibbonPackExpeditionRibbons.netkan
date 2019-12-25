@@ -5,10 +5,10 @@
     "license":      "CC-BY-NC-SA-4.0",
     "tags": [
         "config",
-        "manned"
+        "crewed"
     ],
     "install": [ {
-        "find": "GameData/STMRibbons",
+        "find": "STMRibbons",
         "install_to": "GameData"
     } ],
     "depends": [

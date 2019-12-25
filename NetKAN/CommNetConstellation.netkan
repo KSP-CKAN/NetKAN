@@ -5,7 +5,8 @@
     "license":      "GPL-3.0",
     "tags": [
         "plugin",
-        "information"
+        "information",
+        "comms"
     ],
     "install": [ {
         "find": "CommNetConstellation",

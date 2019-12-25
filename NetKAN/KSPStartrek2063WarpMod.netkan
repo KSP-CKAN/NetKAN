@@ -3,7 +3,9 @@
     "identifier":   "KSPStartrek2063WarpMod",
     "$kref":        "#/ckan/spacedock/1673",
     "license":      "MIT",
-    "x_via":        "Automated SpaceDock CKAN submission",
+    "tags": [
+        "parts"
+    ],
     "install": [ {
         "find":       "UFP",
         "install_to": "GameData"

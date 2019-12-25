@@ -4,6 +4,7 @@
     "name"        : "Kerbal Launch Vehicles",
     "author"	  : "jCoiley",
     "abstract"	  : "Keep track of your fleet of launch vehicles and get suggestions on which would be best to lift your newest satellite into orbit",
+    "$kref"       : "#/ckan/http/https://github.com/JCoil/KerbalLaunchVehicles/raw/master/Downloads/KLVfor1.4.zip",
     "version"	  : "1.1.4",
     "ksp_version" : "1.4",
     "license"	  : "MIT",
@@ -11,5 +12,7 @@
         "homepage"   : "https://forum.kerbalspaceprogram.com/index.php?/topic/164440-*",
         "repository" : "https://github.com/JCoil/KerbalLaunchVehicles"
     },
-    "download": "https://github.com/JCoil/KerbalLaunchVehicles/raw/master/Downloads/KLVfor1.4.zip"
+    "tags": [
+        "plugin"
+    ]
 }

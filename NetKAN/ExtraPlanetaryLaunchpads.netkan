@@ -15,7 +15,7 @@
     "tags"           : [
         "plugin",
         "parts",
-        "manned"
+        "crewed"
     ],
     "depends"        : [
         { "name" : "ModuleManager" },

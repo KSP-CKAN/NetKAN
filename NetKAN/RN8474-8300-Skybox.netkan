@@ -3,6 +3,10 @@
     "identifier":   "RN8474-8300-Skybox",
     "$kref":        "#/ckan/spacedock/2129",
     "license":      "GPL-3.0",
+    "tags": [
+        "config",
+        "graphics"
+    ],
     "install": [ {
         "find":       "TextureReplacer",
         "install_to": "GameData"

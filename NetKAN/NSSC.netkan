@@ -1,23 +1,20 @@
 {
-    "$kref": "#/ckan/spacedock/1078",
     "spec_version": "v1.4",
-    "identifier": "NSSC",
-    "x_via": "Manual SpaceDock CKAN submission",
-    "license": "GPL-3.0",
-    "author": "RealGecko",
-    "ksp_version" : "any",
+    "identifier":   "NSSC",
+    "author":       "RealGecko",
+    "$kref":        "#/ckan/spacedock/1078",
+    "$vref":        "#/ckan/ksp-avc",
+    "license":      "GPL-3.0",
+    "tags": [
+        "plugin",
+        "crewed"
+    ],
     "depends": [
-         {
-             "name": "SimpleConstruction"
-         },
-         {
-             "name": "ModuleManager"
-         },
-         {
-             "name": "KIS"
-         }
-     ],
-    "recommends"     : [
-        {"name" : "KAS"}
+        { "name": "ModuleManager"      },
+        { "name": "SimpleConstruction" },
+        { "name": "KIS"                }
+    ],
+    "recommends": [
+        { "name": "KAS" }
     ]
 }

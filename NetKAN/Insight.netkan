@@ -4,6 +4,9 @@
     "$kref"        : "#/ckan/spacedock/2058",
     "$vref"        : "#/ckan/ksp-avc",
     "license"      : "GPL-3.0",
+    "tags": [
+        "parts"
+    ],
     "depends": [
         { "name": "ModuleManager" }
     ],

@@ -1,51 +1,37 @@
 {
     "spec_version": "v1.4",
-    "identifier": "AUCAeronautictechnology",
-    "name": "AUC Aeronautic technoloy",
-    "abstract": "AUC aeronautic adds a buch of parts",
-    "author": "HaryR",
-    "license": "CC-BY-NC-SA-3.0",
-    "version": "0.0.1",
-    "ksp_version": "1.0.5",
+    "identifier":   "AUCAeronautictechnology",
+    "name":         "AUC Aeronautic technoloy",
+    "abstract":     "AUC aeronautic adds a bunch of parts",
+    "author":       "HaryR",
+    "$kref":        "#/ckan/http/http://addons-origin.cursecdn.com/files/2277/410/AUC%20aeronautic%20part.zip",
+    "version":      "0.0.1",
+    "ksp_version":  "1.0.5",
+    "license":      "CC-BY-NC-SA-3.0",
     "resources": {
         "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/130683-*"
     },
+    "tags": [
+        "parts"
+    ],
     "depends": [
-        {
-            "name": "ModuleManager"
-        },
-        {
-            "name": "CommunityResourcePack"
-        }
+        { "name": "ModuleManager" },
+        { "name": "CommunityResourcePack" }
     ],
     "recommends": [
-        {
-            "name": "RasterPropMonitor"
-        },
-        {
-            "name": "ASETAvionics"
-        },
-        {
-            "name": "ASETProps"
-        }
+        { "name": "RasterPropMonitor" },
+        { "name": "ASETAvionics" },
+        { "name": "ASETProps" }
     ],
     "suggests": [
-        {
-            "name": "B9-PWings-Fork"
-        },
-        {
-            "name": "AdjustableLandingGear"
-        }
+        { "name": "B9-PWings-Fork" },
+        { "name": "AdjustableLandingGear" }
     ],
-    "install": [
-        {
-            "find": "AUCadtech",
-            "install_to": "GameData"
-        },
-        {
-            "find": "SPH",
-            "install_to": "Ships"
-        }
-    ],
-    "download": "http://addons-origin.cursecdn.com/files/2277/410/AUC%20aeronautic%20part.zip"
+    "install": [ {
+        "find": "AUCadtech",
+        "install_to": "GameData"
+    }, {
+        "find": "SPH",
+        "install_to": "Ships"
+    } ]
 }

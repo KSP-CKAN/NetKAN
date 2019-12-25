@@ -5,7 +5,8 @@
     "x_netkan_epoch": "1",
     "license":      "MIT",
     "tags": [
-        "parts"
+        "parts",
+        "comms"
     ],
     "install": [ {
         "find": "Kerbalomni",

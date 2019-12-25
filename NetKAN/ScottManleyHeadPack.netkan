@@ -2,14 +2,20 @@
     "spec_version": "v1.16",
     "identifier":   "ScottManleyHeadPack",
     "name":         "Scott Manley Head Pack",
+    "abstract":     "Are you tired of not having Scott Manley in game? Are you tired of not looking at his pretty face while you playing KSP? ENOUGH! NOW YOU CAN LOOK AT HIM AS MUCH AS YOU WANT! Download our Scott Manley Head Pack today and get 50% more Scott!!!",
     "author":       [ "Potatto", "HebaruSan", "Messierr" ],
     "$kref":        "#/ckan/github/messierr/SMHPContinued",
-    "abstract":     "Are you tired of not having Scott Manley in game? Are you tired of not looking at his pretty face while you playing KSP? ENOUGH! NOW YOU CAN LOOK AT HIM AS MUCH AS YOU WANT! Download our Scott Manley Head Pack today and get 50% more Scott!!!",
     "license":      "CC-BY-SA-4.0",
-    "ksp_version":  "1.4",
+    "ksp_version_min": "1.4",
+    "ksp_version_max": "1.7",
     "resources": {
         "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/174638-*"
     },
+    "tags": [
+        "config",
+        "graphics",
+        "crewed"
+    ],
     "depends": [
         { "name": "DiRT"          }
     ],
