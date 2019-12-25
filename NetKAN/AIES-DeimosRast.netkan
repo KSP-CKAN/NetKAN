@@ -17,9 +17,8 @@
   ],
   "install": [
     {
-      "find": "AIES_Patches",
-      "install_to": "GameData",
-      "filter": [ "Patches", "TK421d", "AIES_Patches.version", "MiniAVC.dll", "Aies_Antennas_Rebalance.xlsx"]
+      "find": "AIES_Patches/DeimosRast",
+      "install_to": "GameData/AIES_Patches"
     }
   ],
   "spec_version": "v1.4"
