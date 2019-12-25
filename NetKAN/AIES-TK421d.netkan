@@ -19,7 +19,7 @@
     {
       "find": "AIES_Patches",
       "install_to": "GameData",
-      "filter": ["DeimosRast", "Patches", "AIES_Patches.version", "MiniAVC.dll"]
+      "filter": ["DeimosRast", "Patches", "AIES_Patches.version", "MiniAVC.dll", "Aies_Antennas_Rebalance.xlsx"]
     }
   ],
   "spec_version": "v1.4"
