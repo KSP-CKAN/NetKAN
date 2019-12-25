@@ -1,18 +1,23 @@
 {
   "license": "CC-BY-NC-SA-4.0",
-  "identifier": "AIES_Patches",
+  "identifier": "AIES-TK421d",
   "x_via": "Automated Linuxgurugamer CKAN script",
   "$kref": "#/ckan/github/linuxgurugamer/AIES_Patches",
   "$vref": "#/ckan/ksp-avc",
+  "provides": [ "AIES-Antenna_Patches" ],
   "depends": [
-    { "name": "AIES_Antenna_Patches" },
-    { "name": "ModuleManager" }    
+    {
+        "name": "AIES-Patches"
+    }
+  ],
+  "conflicts" : [
+    { "name" : "AIES-Antenna-Patches" }
   ],
   "install": [
     {
       "find": "AIES_Patches",
       "install_to": "GameData",
-      "filter": ["DeimosRast", "TK421d"]
+      "filter": ["DeimosRast", "Patches"]
     }
   ],
   "spec_version": "v1.4"
