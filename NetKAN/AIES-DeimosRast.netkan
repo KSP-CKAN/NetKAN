@@ -1,7 +1,9 @@
 {
   "license": "CC-BY-NC-SA-4.0",
   "identifier": "AIES-DeimosRast",
+  "name" : "Antenna Patches from @DeimosRast for the AIES-Patches mod",
   "x_via": "Automated Linuxgurugamer CKAN script",
+  "abstract": "These are antenna patches from @DeimosRast needed to update the AIES Aerospace mod for KSP 1.8.x and beyond",
   "$kref": "#/ckan/github/linuxgurugamer/AIES_Patches",
   "$vref": "#/ckan/ksp-avc",
   "tags": [
