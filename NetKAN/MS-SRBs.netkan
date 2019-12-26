@@ -8,6 +8,10 @@
     "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/188482-*",
     "repository": "https://github.com/linuxgurugamer/ModularSegmentedSRBs"
   },
+  "tags": [
+        "parts",
+        "plugin"
+  ],
   "depends": [
     {
       "name": "ModuleManager"
