@@ -1,0 +1,10 @@
+{
+    "spec_version"        : 1,
+    "identifier"          : "TelemachusForAll",
+    "$kref"               : "#/ckan/github/CraigCottingham/TelemachusForAll",
+    "$vref"               : "#/ckan/ksp-avc",
+    "x_netkan_license_ok" : true,
+    "resources": {
+        "homepage": "https://github.com/CraigCottingham/TelemachusForAll"
+    }
+}
