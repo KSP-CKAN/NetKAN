@@ -12,6 +12,7 @@
         "app"
     ],
     "depends": [
-        { "name": "ModuleManager" }
+        { "name": "ModuleManager" },
+        { "name": "Telemachus"    }
     ]
 }
