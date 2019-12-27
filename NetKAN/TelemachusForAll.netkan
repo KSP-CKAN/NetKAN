@@ -3,7 +3,7 @@
     "identifier"          : "TelemachusForAll",
     "$kref"               : "#/ckan/github/CraigCottingham/TelemachusForAll",
     "$vref"               : "#/ckan/ksp-avc",
-    "x_netkan_license_ok" : true,
+    "license"             : "GPL-3.0",
     "resources": {
         "homepage": "https://github.com/CraigCottingham/TelemachusForAll"
     }
