@@ -1,7 +1,21 @@
 {
     "spec_version": "v1.4",
-    "identifier": "TETRIXTechTree",
-    "$kref": "#/ckan/spacedock/2299",
-    "license": "CC-BY-NC-SA",
-    "x_via": "Automated SpaceDock CKAN submission"
+    "identifier":   "TETRIXTechTree",
+    "$kref":        "#/ckan/spacedock/2299",
+    "license":      "CC-BY-NC-SA",
+    "tags": [
+        "config",
+        "tech-tree"
+    ],
+    "depends": [
+        { "name": "ModuleManager" }
+    ],
+    "conflicts": [
+        { "name": "CommunityTechTree" },
+        { "name": "SimplexTechTree"   }
+    ],
+    "install": [ {
+        "find":       "AngleCanMods",
+        "install_to": "GameData"
+    } ]
 }
