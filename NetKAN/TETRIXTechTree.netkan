@@ -12,7 +12,8 @@
     ],
     "conflicts": [
         { "name": "CommunityTechTree" },
-        { "name": "SimplexTechTree"   }
+        { "name": "SimplexTechTree"   },
+        { "name": "ETT"               }
     ],
     "install": [ {
         "find":       "AngleCanMods",
