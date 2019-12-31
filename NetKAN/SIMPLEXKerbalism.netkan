@@ -1,7 +1,22 @@
 {
-    "spec_version": "v1.4",
-    "identifier": "SIMPLEXKerbalism",
-    "$kref": "#/ckan/spacedock/2300",
-    "license": "The-Unlicence",
-    "x_via": "Automated SpaceDock CKAN submission"
+    "spec_version": "v1.18",
+    "identifier":   "SIMPLEXKerbalism",
+    "$kref":        "#/ckan/spacedock/2300",
+    "license":      "Unlicense",
+    "tags": [
+        "config",
+        "manned"
+    ],
+    "provides": [ "Kerbalism-Config" ],
+    "conflicts": [
+        { "name": "Kerbalism-Config" }
+    ],
+    "depends": [
+        { "name": "ModuleManager" },
+        { "name": "Kerbalism"     }
+    ],
+    "install": [ {
+        "find":       "KerbalismSimplex",
+        "install_to": "GameData"
+    } ]
 }
