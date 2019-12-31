@@ -5,7 +5,9 @@
     "license":      "Unlicense",
     "tags": [
         "config",
-        "manned"
+        "parts",
+        "manned",
+        "resources"
     ],
     "provides": [ "Kerbalism-Config" ],
     "conflicts": [
