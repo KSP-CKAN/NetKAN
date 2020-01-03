@@ -12,11 +12,11 @@
         { "any_of": [
             { "name": "KerbalJointReinforcement" },
             { "name": "KerbalJointReinforcementNext" }
-        ]},
+        ] },
         { "name": "ProceduralFairings" },
         { "name": "ASETProps" },
         { "name": "MK12PodIVAReplacementbyASET" },
-        { "name": "RasterPropMonitor-Core", "min_version" : "0.21.2" }
+        { "name": "RasterPropMonitor", "min_version" : "0.21.2" }
     ],
     "install": [ {
         "find": "CMES",
