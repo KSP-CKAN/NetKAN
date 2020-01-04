@@ -24,5 +24,15 @@
     "install": [ {
         "find": "ASET/ASET_Props",
         "install_to": "GameData/ASET"
+    } ],
+    "x_netkan_override": [ {
+        "version": "1.5",
+        "delete": [
+            "ksp_version"
+        ],
+        "override": {
+            "ksp_version_min": "1.4",
+            "ksp_version_max": "1.7"
+        }
     } ]
 }

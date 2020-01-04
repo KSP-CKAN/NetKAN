@@ -24,5 +24,15 @@
         { "name": "VesselView" },
         { "name": "DockingPortAlignmentIndicator" },
         { "name": "Astrogator" }
-    ]
+    ],
+    "x_netkan_override": [ {
+        "version": "1:0.3",
+        "delete": [
+            "ksp_version"
+        ],
+        "override": {
+            "ksp_version_min": "1.4",
+            "ksp_version_max": "1.7"
+        }
+    } ]
 }
