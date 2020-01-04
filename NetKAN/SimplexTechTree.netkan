@@ -38,5 +38,10 @@
         { "name": "StockalikeMiningExtension"  },
         { "name": "TokamakRefurbishedParts"    },
         { "name": "UniversalStorage2"          }
+    ],
+    "conflicts": [
+        { "name": "CommunityTechTree" },
+        { "name": "TETRIXTechTree"    },
+        { "name": "ETT"               }
     ]
 }

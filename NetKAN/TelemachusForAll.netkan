@@ -1,0 +1,18 @@
+{
+    "spec_version"        : 1,
+    "identifier"          : "TelemachusForAll",
+    "$kref"               : "#/ckan/github/CraigCottingham/TelemachusForAll",
+    "$vref"               : "#/ckan/ksp-avc",
+    "license"             : "GPL-3.0",
+    "resources": {
+        "homepage": "https://github.com/CraigCottingham/TelemachusForAll"
+    },
+    "tags": [
+        "config",
+        "app"
+    ],
+    "depends": [
+        { "name": "ModuleManager" },
+        { "name": "Telemachus"    }
+    ]
+}
