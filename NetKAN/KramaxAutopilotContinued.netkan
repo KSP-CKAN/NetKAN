@@ -3,17 +3,17 @@
     "identifier":   "KramaxAutopilotContinued",
     "$kref":        "#/ckan/spacedock/1019",
     "$vref":        "#/ckan/ksp-avc",
-    "license":      "unknown",
+    "license":      "CC-BY-NC-SA-4.0",
     "tags": [
         "plugin",
         "control"
     ],
     "install": [ {
-        "find": "KramaxAutoPilot",
+        "find":       "KramaxAutoPilot",
         "install_to": "GameData"
     } ],
     "depends": [
-        { "name": "ToolbarController" },
+        { "name": "ToolbarController"   },
         { "name": "ClickThroughBlocker" }
     ]
 }

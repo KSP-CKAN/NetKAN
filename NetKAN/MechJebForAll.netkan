@@ -4,7 +4,7 @@
     "name":         "MechJeb and Engineer for all!",
     "$kref":        "#/ckan/spacedock/1854",
     "$vref":        "#/ckan/ksp-avc",
-    "x_netkan_license_ok": true,
+    "license":      "GPL-3.0",
     "tags": [
         "config",
         "control"
@@ -16,10 +16,8 @@
         { "name": "MechJeb2" },
         { "name": "KerbalEngineerRedux" }
     ],
-    "install": [
-        {
-            "find": "MechJebForAll",
-            "install_to": "GameData"
-        }
-    ]
+    "install": [ {
+        "find": "MechJebForAll",
+        "install_to": "GameData"
+    } ]
 }

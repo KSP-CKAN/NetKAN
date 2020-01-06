@@ -4,7 +4,7 @@
     "$kref"               : "#/ckan/spacedock/396",
     "$vref"               : "#/ckan/ksp-avc",
     "x_netkan_force_v"    : true,
-    "x_netkan_license_ok" : true,
+    "license"             : "GPL-3.0",
     "tags"                : [
         "plugin",
         "information"

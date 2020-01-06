@@ -3,7 +3,7 @@
     "identifier"   : "RSSeaDragon",
     "$kref"        : "#/ckan/spacedock/440",
     "$vref"        : "#/ckan/ksp-avc",
-    "x_netkan_license_ok": true,
+    "license"      : "CC-BY-NC-SA-4.0",
     "tags": [
         "parts"
     ],
@@ -11,25 +11,22 @@
         { "name": "ModuleManager" }
     ],
     "recommends": [
-        { "name": "HangarExtender" },
+        { "name": "HangarExtender"           },
         { "name": "KerbalJointReinforcement" }
     ],
     "suggests": [
-        { "name": "QuickSearch" },
-        { "name": "RealScaleBoosters" },
+        { "name": "QuickSearch"             },
+        { "name": "RealScaleBoosters"       },
         { "name": "FerramAerospaceResearch" },
-        { "name": "RealSolarSystem" },
-        { "name": "CommunityTechTree" }
+        { "name": "RealSolarSystem"         },
+        { "name": "CommunityTechTree"       }
     ],
-    "install": [
-        {
-            "file"       : "RSSeaDragon",
-            "install_to" : "GameData",
-            "filter"     : "Ships"
-        },
-        {
-            "find"       : "VAB",
-            "install_to" : "Ships"
-        }
-    ]
+    "install": [ {
+        "file"       : "RSSeaDragon",
+        "install_to" : "GameData",
+        "filter"     : "Ships"
+    }, {
+        "find"       : "VAB",
+        "install_to" : "Ships"
+    } ]
 }

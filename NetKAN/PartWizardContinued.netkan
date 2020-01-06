@@ -1,26 +1,26 @@
 {
     "spec_version": "v1.4",
-    "identifier": "PartWizardContinued",
-    "abstract": "Part Wizard is a vehicle design utility plugin that adds a few conveniences when building your next strut/booster carrier.  It provides a list of parts with part highlighting for easier identification, allows deleting of parts from the list on eligible parts, allows complete control of symmetry on eligible parts, allows selecting parts for Action Group assignment, shows either all parts or only those that are hidden from the editor's Parts List. (Helpful in finding obsolete parts when mod authors make updates.) and shows unavailable parts in career modes with options to buy one or all necessary parts for launch.",
-    "$kref": "#/ckan/spacedock/1148",
-    "$vref": "#/ckan/ksp-avc",
-    "license": "unknown",
+    "identifier":   "PartWizardContinued",
+    "abstract":     "Part Wizard is a vehicle design utility plugin that adds a few conveniences when building your next strut/booster carrier.  It provides a list of parts with part highlighting for easier identification, allows deleting of parts from the list on eligible parts, allows complete control of symmetry on eligible parts, allows selecting parts for Action Group assignment, shows either all parts or only those that are hidden from the editor's Parts List. (Helpful in finding obsolete parts when mod authors make updates.) and shows unavailable parts in career modes with options to buy one or all necessary parts for launch.",
+    "$kref":        "#/ckan/spacedock/1148",
+    "$vref":        "#/ckan/ksp-avc",
+    "license":      "BSD-3-clause",
     "tags": [
         "plugin",
         "editor",
         "convenience"
     ],
     "install": [ {
-        "install_to": "GameData",
-        "find": "PartWizard"
+        "find":       "PartWizard",
+        "install_to": "GameData"
     } ],
     "depends": [
-        { "name" : "ToolbarController" },
+        { "name" : "ToolbarController"   },
         { "name" : "ClickThroughBlocker" }
     ],
     "suggests": [
         { "name": "JanitorsCloset" },
-        { "name": "Toolbar" }
+        { "name": "Toolbar"        }
     ],
     "conflicts": [
         { "name": "PartWizard" }
