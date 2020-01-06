@@ -5,7 +5,7 @@
     "abstract":     "Emulates stock asteroids with Custom Asteroids groups.",
     "$kref":        "#/ckan/spacedock/210",
     "$vref":        "#/ckan/ksp-avc",
-    "x_netkan_license_ok": true,
+    "license":      "MIT",
     "tags": [
         "config",
         "planet-pack"
@@ -31,13 +31,11 @@
         { "name": "StockAlikeSolarSystem", "comment": "Completely different system."},
         { "name": "UnchartedLands", "comment": "Completely different system."}
     ],
-    "install": [
-        {
-            "file": "GameData/CustomAsteroids",
-            "install_to": "GameData",
-            "filter_regexp": "(?<!Stockalike\\.cfg)$"
-        }
-    ],
+    "install": [ {
+        "file": "GameData/CustomAsteroids",
+        "install_to": "GameData",
+        "filter_regexp": "(?<!Stockalike\\.cfg)$"
+    } ],
     "x_netkan_override" : [
         {
             "version" : [ ">= v1.6.0", "< v2.0.0" ],

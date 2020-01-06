@@ -7,7 +7,7 @@
     "ksp_version"  : "1.2",
     "license"      : "unknown",
     "resources": {
-        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/134360-rsss/"
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/134360-*"
     },
     "tags": [
         "config",
@@ -15,10 +15,10 @@
     ],
     "depends": [
         { "name": "ModuleManager" },
-        { "name": "Kopernicus" }
+        { "name": "Kopernicus"    }
     ],
     "install": [ {
-        "find": "RevampedStockSystem",
+        "find":       "RevampedStockSystem",
         "install_to": "GameData"
     } ]
 }

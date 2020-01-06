@@ -3,7 +3,7 @@
     "identifier":   "KustomKerbals",
     "$kref":        "#/ckan/spacedock/423",
     "$vref":        "#/ckan/ksp-avc",
-    "x_netkan_license_ok": true,
+    "license":      "MIT",
     "tags": [
         "plugin",
         "crewed"

@@ -6,24 +6,20 @@
     "author"         : "Orum",
     "$kref"          : "#/ckan/github/Orum/OkramSharedAssets",
     "license"        : "unknown",
-    "x_netkan_license_ok": true,
     "release_status" : "stable",
     "resources": {
-        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/60383-*",
+        "homepage":   "https://forum.kerbalspaceprogram.com/index.php?/topic/60383-*",
         "repository": "https://github.com/Orum/OkramSharedAssets"
     },
     "tags": [
         "flags",
         "agency"
     ],
-    "install" : [
-        {
-            "file"       : "Agencies",
-            "install_to" : "GameData/Okram"
-        },
-        {
-            "file"       : "Flags",
-            "install_to" : "GameData/Okram"
-        }
-    ]
+    "install": [ {
+        "file"       : "Agencies",
+        "install_to" : "GameData/Okram"
+    }, {
+        "file"       : "Flags",
+        "install_to" : "GameData/Okram"
+    } ]
 }

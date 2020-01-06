@@ -5,7 +5,7 @@
     "abstract":     "Adds comets outside orbit of Jool",
     "$kref":        "#/ckan/spacedock/210",
     "$vref":        "#/ckan/ksp-avc",
-    "x_netkan_license_ok": true,
+    "license":      "MIT",
     "tags": [
         "config",
         "planet-pack"

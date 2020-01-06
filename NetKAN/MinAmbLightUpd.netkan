@@ -3,9 +3,9 @@
     "identifier":   "MinAmbLightUpd",
     "$kref":        "#/ckan/spacedock/2279",
     "$vref":        "#/ckan/ksp-avc",
-    "license":      "unknown",
+    "license":      "BSD-2-clause",
     "resources": {
-        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/190080-*",
+        "homepage":   "https://forum.kerbalspaceprogram.com/index.php?/topic/190080-*",
         "repository": "https://github.com/linuxgurugamer/MinimumAmbientLightingUpdated"
     },
     "tags": [
@@ -13,11 +13,11 @@
         "graphics"
     ],
     "depends": [
-        { "name": "ToolbarController" },
+        { "name": "ToolbarController"   },
         { "name": "ClickThroughBlocker" }
     ],
     "install": [ {
-        "find": "MinimumAmbientLightingUpdated",
+        "find":       "MinimumAmbientLightingUpdated",
         "install_to": "GameData"
     } ]
 }

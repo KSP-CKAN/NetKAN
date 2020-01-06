@@ -2,12 +2,12 @@
     "spec_version": "v1.4",
     "identifier":   "KASFrench",
     "$kref":        "#/ckan/spacedock/1156",
-    "license":      "unknown",
+    "license":      "restricted",
     "tags": [
         "config"
     ],
     "install": [ {
-        "find": "KAS trad fr",
+        "find":       "KAS trad fr",
         "install_to": "GameData"
     } ],
     "depends": [
