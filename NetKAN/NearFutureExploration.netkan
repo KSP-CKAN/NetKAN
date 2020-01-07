@@ -1,8 +1,10 @@
 {
-    "spec_version"   : "v1.4",
-    "identifier"     : "NearFutureExploration",
-    "$kref"         : "#/ckan/netkan/https://github.com/ChrisAdderley/NearFutureExploration/raw/master/CKAN/NearFutureExploration.netkan",
+    "spec_version": "v1.4",
+    "identifier"  : "NearFutureExploration",
+    "$kref"       : "#/ckan/netkan/https://github.com/ChrisAdderley/NearFutureExploration/raw/master/CKAN/NearFutureExploration.netkan",
     "tags": [
-        "parts"
+        "parts",
+        "uncrewed",
+        "comms"
     ]
 }
