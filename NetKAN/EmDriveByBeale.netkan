@@ -2,13 +2,13 @@
     "spec_version": "v1.4",
     "identifier":   "EmDriveByBeale",
     "$kref":        "#/ckan/spacedock/1113",
-    "license":      "unknown",
+    "license":      "CC-BY-NC-SA-4.0",
     "tags": [
         "plugin",
         "parts"
     ],
     "install": [ {
-        "find": "EmDrive",
+        "find":       "EmDrive",
         "install_to": "GameData"
     } ]
 }

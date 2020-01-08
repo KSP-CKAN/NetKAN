@@ -1,13 +1,13 @@
 {
     "spec_version" : "v1.26",
     "identifier"   : "WaterLaunchSites",
-    "$kref"        : "#/ckan/github/yalov/WaterLaunchSites",
     "name"         : "Water Launch Sites (Kerbal-Konstructs)",
     "author"       : "flart",
-    "x_netkan_license_ok" : true,
-    "release_status" : "stable",
+    "$kref"        : "#/ckan/github/yalov/WaterLaunchSites",
     "$vref"        : "#/ckan/ksp-avc",
-    "resources" : {
+    "license"      : "GPL-3.0",
+    "release_status": "stable",
+    "resources": {
         "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/183937-*"
     },
     "tags": [
@@ -15,15 +15,13 @@
         "convenience",
         "buildings"
     ],
-    "install" : [
-        {
-            "file"       : "GameData/KerbalKonstructs-WaterLaunchSites",
-            "install_to" : "GameData"
-        }
-    ],
+    "install": [ {
+        "file"       : "GameData/KerbalKonstructs-WaterLaunchSites",
+        "install_to" : "GameData"
+    } ],
     "depends": [
         { "name": "KerbalKonstructs" },
-        { "name": "ModuleManager" }
+        { "name": "ModuleManager"    }
     ],
     "recommends": [
     	{ "name": "MakingHistory-DLC" }

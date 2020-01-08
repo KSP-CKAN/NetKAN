@@ -4,8 +4,8 @@
     "name":         "Advanced Fly-By-Wire (OSX)",
     "$kref":        "#/ckan/spacedock/1878",
     "$vref":        "#/ckan/ksp-avc",
+    "license":      "MIT",
     "release_status": "stable",
-    "x_netkan_license_ok": true,
     "resources": {
         "homepage":   "https://forum.kerbalspaceprogram.com/index.php?/topic/175359-*",
         "repository": "https://github.com/linuxgurugamer/ksp-advanced-flybywire"

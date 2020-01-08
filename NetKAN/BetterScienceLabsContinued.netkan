@@ -1,13 +1,13 @@
 {
-    "spec_version"   : "v1.4",
-    "identifier"     : "BetterScienceLabsContinued",
-    "$kref"          : "#/ckan/spacedock/45",
-    "$vref"          : "#/ckan/ksp-avc",
-    "x_netkan_license_ok" : true,
-    "release_status" : "stable",
+    "spec_version": "v1.4",
+    "identifier"  : "BetterScienceLabsContinued",
+    "$kref"       : "#/ckan/spacedock/45",
+    "$vref"       : "#/ckan/ksp-avc",
+    "license"     : "MIT",
+    "release_status": "stable",
     "resources" : {
-        "homepage"    : "https://forum.kerbalspaceprogram.com/index.php?/topic/112754-*",
-        "repository"  : "https://github.com/linuxgurugamer/BetterScienceLabsContinued"
+        "homepage"  : "https://forum.kerbalspaceprogram.com/index.php?/topic/112754-*",
+        "repository": "https://github.com/linuxgurugamer/BetterScienceLabsContinued"
     },
     "tags": [
         "parts",
@@ -18,12 +18,10 @@
     ],
     "depends" : [
         { "name": "ModuleManager" },
-        { "name": "SpacetuxSA" }
+        { "name": "SpacetuxSA"    }
     ],
-    "install": [
-        {
-            "find"       : "BetterScienceLabsContinued",
-            "install_to" : "GameData"
-        }
-    ]
+    "install": [ {
+        "find"       : "BetterScienceLabsContinued",
+        "install_to" : "GameData"
+    } ]
 }

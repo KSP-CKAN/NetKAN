@@ -1,8 +1,22 @@
 {
-    "spec_version" : 1,
-    "identifier"   : "KSTS",
-    "$kref"        : "#/ckan/netkan/https://raw.githubusercontent.com/mmoench/KSTS/master/KSTS.netkan",
+    "spec_version": "v1.4",
+    "identifier":   "KSTS",
+    "$kref":        "#/ckan/spacedock/2303",
+    "$vref":        "#/ckan/ksp-avc",
+    "license":      "CC-BY-NC-SA-4.0",
+    "resources": {
+        "homepage":   "https://forum.kerbalspaceprogram.com/index.php?/topic/190834-*",
+        "repository": "https://github.com/linuxgurugamer/KSTS"
+    },
     "tags": [
         "plugin"
-    ]
+    ],
+    "depends": [
+        { "name": "ToolbarController"   },
+        { "name": "ClickThroughBlocker" }
+    ],
+    "install": [ {
+        "find":       "KSTS",
+        "install_to": "GameData"
+    } ]
 }
