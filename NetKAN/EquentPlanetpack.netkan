@@ -1,7 +1,18 @@
 {
     "spec_version": "v1.4",
-    "identifier": "EquentPlanetpack",
-    "$kref": "#/ckan/spacedock/2308",
-    "license": "MIT",
-    "x_via": "Automated SpaceDock CKAN submission"
+    "identifier":   "EquentPlanetpack",
+    "$kref":        "#/ckan/spacedock/2308",
+    "license":      "MIT",
+    "tags": [
+        "config",
+        "planet-pack"
+    ],
+    "depends": [
+        { "name": "ModuleManager" },
+        { "name": "Kopernicus"    }
+    ],
+    "install": [ {
+        "find":       "EquentRevived",
+        "install_to": "GameData"
+    } ]
 }
