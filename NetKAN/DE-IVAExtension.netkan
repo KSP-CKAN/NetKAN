@@ -1,0 +1,30 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "DE-IVAExtension",
+    "$kref":        "#/ckan/github/DemonEin/DE_IVAExtension",
+    "license":      "CC-BY-NC-SA-3.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/186715-*"
+    },
+    "tags": [
+        "config",
+        "crewed"
+    ],
+    "depends": [
+        { "name": "ModuleManager"          },
+        { "name": "RasterPropMonitor-Core" },
+        { "name": "ASETProps"              },
+        { "name": "ToolbarController"      },
+        { "name": "ClickThroughBlocker"    }
+    ],
+    "supports": [
+        { "name": "ProbeControlRoom" }
+    ],
+    "install": [ {
+        "find":       "DE_IVAExtension",
+        "install_to": "GameData"
+    }, {
+        "find":       "ProbeControlRoom",
+        "install_to": "GameData"
+    } ]
+}
