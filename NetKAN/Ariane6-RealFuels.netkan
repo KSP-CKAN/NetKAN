@@ -2,7 +2,7 @@
     "spec_version": "v1.4",
     "identifier":   "Ariane6-RealFuels",
     "name":         "Ariane 6 RealFuels",
-    "abstract":     "Future launcher of the European Space Agency, with RealFuels support"
+    "abstract":     "Future launcher of the European Space Agency, with RealFuels support",
     "$kref":        "#/ckan/spacedock/2185",
     "license":      "WTFPL",
     "tags": [
