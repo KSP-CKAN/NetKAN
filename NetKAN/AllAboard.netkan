@@ -9,7 +9,11 @@
     "resources" : {
         "homepage" : "https://forum.kerbalspaceprogram.com/index.php?/topic/190983-18x-*"
     },
-
+    "tags": [
+        "plugin",
+        "crewed",
+        "convenience"
+    ],
     "install" : [ {
         "find" : "AllAboard",
         "install_to" : "GameData"
