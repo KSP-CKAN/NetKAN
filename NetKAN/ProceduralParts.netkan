@@ -7,12 +7,6 @@
     "name"              :   "Procedural Parts",
     "abstract"          :   "ProceduralParts allows you to procedurally generate a number of different parts in a range of sizes and shapes.",
     "license"           :   "CC-BY-SA",
-    "install" : [
-        {
-            "file"       : "GameData/ProceduralParts",
-            "install_to" : "GameData"
-        }
-    ],
     "resources" : {
         "homepage"     : "https://forum.kerbalspaceprogram.com/index.php?/topic/169250-*"
     },
@@ -26,11 +20,11 @@
     ],
     "x_netkan_override": [
         {
-            "version": "v1.3.19.0",
+            "version": "v1.2.10",
             "delete" : [ "ksp_version" ],
             "override": {
-                "ksp_version_min" : "1.6.1",
-                "ksp_version_max" : "1.7.3"
+                "ksp_version_min" : "1.2.0",
+                "ksp_version_max" : "1.2.8"
             }
         }
     ]
