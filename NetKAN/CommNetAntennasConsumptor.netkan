@@ -27,7 +27,7 @@
     ],
     "install" : [
             {
-                "file"       : "GameData/Extras-Consumptor/CommNetAntennasInfo"
+                "file"       : "GameData/Extras-Consumptor/CommNetAntennasInfo",
                 "install_to" : "GameData",
                 "comment"    : "Install ModuleGeneratorAntenna.cfg"
             }
