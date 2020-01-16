@@ -8,8 +8,10 @@
         "plugin"
     ],
     "depends": [
-        { "name": "ModuleManager" }
-    ],
+        { "name": "ModuleManager" },
+        { "name" : "ToolbarController" },
+    	{ "name" : "ClickThroughBlocker" }
+    ]
     "recommends": [
         { "name": "EasyVesselSwitch"       },
         { "name": "AlternateResourcePanel" }
