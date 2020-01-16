@@ -1,12 +1,12 @@
 {
     "spec_version" : "v1.4",
     "identifier"   : "CommNetAntennasInfo",
-    "$kref"        : "#/ckan/github/yalov/CommNetAntennasInfo",
     "name"         : "CommNet Antennas Info",
     "author"       : "flart",
+    "$kref"        : "#/ckan/github/yalov/CommNetAntennasInfo",
+    "$vref"        : "#/ckan/ksp-avc",
     "license"      : "GPL-3.0",
-    "release_status" : "stable",
-    "$vref" : "#/ckan/ksp-avc",
+    "release_status": "stable",
     "resources" : {
         "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/177292-*"
     },
@@ -21,7 +21,6 @@
     "recommends": [
         { "name": "CommNetAntennasExtension" },
         { "name": "CommNetAntennasConsumptor" }
-
     ],
     "suggests": [
         { "name": "SpeedUnitAnnex" },
@@ -29,9 +28,9 @@
         { "name": "ScienceSituationInfo" }
     ],
     "install" : [
-            {
-                "file"       : "GameData/CommNetAntennasInfo",
-                "install_to" : "GameData"
-            }
+        {
+            "file"       : "GameData/CommNetAntennasInfo",
+            "install_to" : "GameData"
+        }
     ]
 }
