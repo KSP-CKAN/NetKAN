@@ -1,19 +1,12 @@
 {
     "spec_version"      :   "v1.4",
     "identifier"        :   "ProceduralParts",
-    "author"            :   [ "Starwaster", "Tidal-Stream", "jrodrigv" ],
-    "$kref"             :   "#/ckan/github/jrodrigv/ProceduralParts",
+    "author"            :   [ "Ancient Gammoner", "NathanKell", "Swamp-Ig", "Starwaster", "Tidal-Stream", "jrodrigv", "KSP-RO" ],
+    "$kref"             :   "#/ckan/github/KSP-RO/ProceduralParts",
     "$vref"             :   "#/ckan/ksp-avc",
     "name"              :   "Procedural Parts",
     "abstract"          :   "ProceduralParts allows you to procedurally generate a number of different parts in a range of sizes and shapes.",
-    "license"           :   "CC-BY-SA-3.0",
-    "install": [
-        {
-            "find"       : "ProceduralParts",
-            "install_to" : "GameData",
-            "filter"     : "Source"
-        }
-    ],
+    "license"           :   "CC-BY-SA",
     "resources" : {
         "homepage"     : "https://forum.kerbalspaceprogram.com/index.php?/topic/169250-*"
     },

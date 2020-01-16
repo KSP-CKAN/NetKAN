@@ -1,0 +1,21 @@
+{
+    "spec_version" : "v1.4",
+    "identifier"   : "AllAboard",
+    "name"         : "All Aboard!",
+    "abstract"     : "Allows Kerbals to board vessels through Docking Ports",
+    "$kref"        : "#/ckan/github/severedsolo/AllAboard",
+    "$vref"        : "#/ckan/ksp-avc",
+    "license"      : "MIT",
+    "resources" : {
+        "homepage" : "https://forum.kerbalspaceprogram.com/index.php?/topic/190983-18x-*"
+    },
+    "tags": [
+        "plugin",
+        "crewed",
+        "convenience"
+    ],
+    "install" : [ {
+        "find" : "AllAboard",
+        "install_to" : "GameData"
+    } ]
+}

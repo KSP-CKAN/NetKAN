@@ -1,0 +1,16 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "KipardSkylon",
+    "$kref":        "#/ckan/spacedock/2309",
+    "$vref":        "#/ckan/ksp-avc",
+    "license":      "CC-BY-NC-SA",
+    "tags": [
+        "parts"
+    ],
+    "depends": [
+        { "name": "ModuleManager"         },
+        { "name": "B9PartSwitch"          },
+        { "name": "B9AnimationModules"    },
+        { "name": "CommunityResourcePack" }
+    ]
+}
