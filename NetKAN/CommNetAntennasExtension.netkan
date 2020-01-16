@@ -23,9 +23,13 @@
     ],
     "recommends": [
         { "name": "CommunityPartsTitles" },
-        { "name": "CommNetAntennasInfo" }
+        { "name": "CommNetAntennasInfo" },
+        { "name": "CommNetAntennasConsumptor" }
     ],
     "suggests": [
         { "name": "SpeedUnitAnnex" }
+    ],
+    "supports": [
+        { "name": "NearFutureExploration" }
     ]
 }
