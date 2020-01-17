@@ -1,9 +1,24 @@
 {
-    "spec_version" : "v1.4",
-    "identifier"   : "KRnD",
-    "$kref"        : "#/ckan/netkan/https://raw.githubusercontent.com/mmoench/KRnD/master/KRnD.netkan",
-    "tags": [
-        "plugin",
-        "science"
-    ]
+  "license": "CC-BY-NC-SA-4.0",
+  "identifier": "KRnD",
+  "x_via": "Automated Linuxgurugamer CKAN script",
+  "$kref": "#/ckan/spacedock/2311",
+  "$vref": "#/ckan/ksp-avc",
+  "resources": {
+    "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/191014-18x-kerbal-research-development/",
+    "repository": "https://github.com/linuxgurugamer/KRnD"
+  },
+  "depends": [
+    { "name": "ModuleManager" },
+    { "name": "SpaceTuxLibrary" },
+    { "name": "ToolbarController" },
+    { "name": "ClickThroughBlocker" }
+  ],
+  "install": [
+    {
+      "find": "KRnD",
+      "install_to": "GameData"
+    }
+  ],
+  "spec_version": "v1.4"
 }
