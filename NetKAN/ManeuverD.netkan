@@ -8,7 +8,7 @@
     "x_netkan_jenkins": {
         "use_filename_version": true
     },
-    "x_netkan_version_edit": "^ManeuverD-(?<version>\\d+\\.\\d+\\.\\d+)\\.zip$",
+    "x_netkan_version_edit": "^ManeuverD-(?<version>\\d+\\.\\d+\\.\\d+\\.\\d+)\\.zip$",
     "ksp_version_min": "1.8.0",
     "ksp_version_max": "1.8.3",
     "license": "BSD-2-clause",
