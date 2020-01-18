@@ -1,0 +1,19 @@
+{
+	"spec_version": "v1.4",
+	"identifier":   "MemorialWall",
+	"name":         "Memorial Wall",
+	"abstract":     "XCom Style Memorial Wall for your fallen Kerbals",
+	"$kref":        "#/ckan/github/severedsolo/MemorialWall",
+	"$vref":        "#/ckan/ksp-avc",
+	"license":      "MIT",
+	"resources": {
+		"homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/182572-*"
+	},
+	"tags": [
+		"plugin",
+		"crewed"
+	],
+	"depends": [
+		{ "name": "FlightTracker", "min_version": "3.0" }
+	]
+}
