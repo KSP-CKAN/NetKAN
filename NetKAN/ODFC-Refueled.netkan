@@ -11,8 +11,11 @@
         "find":       "OnDemandFuelCells",
         "install_to": "GameData"
     } ],
+    "provides": [
+        "ODFC"
+    ],
     "conflicts": [
-        { "name": "OFDC"  }
+        { "name": "ODFC"  }
     ],
     "depends": [
         { "name": "ModuleManager" }
