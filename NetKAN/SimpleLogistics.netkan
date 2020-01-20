@@ -4,18 +4,10 @@
     "author":       [ "RealGecko", "zer0Kerbal" ],
     "$kref":        "#/ckan/spacedock/2312",
     "license":      "GPL-3.0",
-     "resources": {
-       "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/191045-*/",
-       "repository": "https://github.com/zer0Kerbal/SimpleLogistics"
-     },
      "tags": [
        "plugin",
        "resources"
     ],
-    "install": [ {
-        "find":       "SimpleLogistics",
-        "install_to": "GameData"
-    } ],
     "depends": [
         { "name": "ModuleManager"       },
         { "name": "ToolbarController"   },
