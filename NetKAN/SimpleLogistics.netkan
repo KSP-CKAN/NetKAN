@@ -4,16 +4,30 @@
     "author":       [ "RealGecko", "zer0Kerbal" ],
     "$kref":        "#/ckan/spacedock/2312",
     "license":      "GPL-3.0",
-    "tags": [
-        "plugin"
+     "resources": {
+       "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/191045-*/",
+       "repository": "https://github.com/zer0Kerbal/SimpleLogistics"
+     },
+     "tags": [
+       "plugin",
+       "resources"
     ],
+    "install": [ {
+        "find":       "SimpleLogistics",
+        "install_to": "GameData"
+    } ],
     "depends": [
-        { "name": "ModuleManager"        },
-        { "name" : "ToolbarController"   },
-        { "name" : "ClickThroughBlocker" }
+        { "name": "ModuleManager"       },
+        { "name": "ToolbarController"   },
+        { "name": "ClickThroughBlocker" }
     ],
     "recommends": [
-        { "name": "EasyVesselSwitch"       },
-        { "name": "AlternateResourcePanel" }
+        { "name": "ODFC-Refueled"           },
+        { "name": "FieldTrainingLaboratory" },
+        { "name": "FieldTrainingFacility"   },
+        { "name": "DockingPortDescriptions" },
+        { "name": "PicoPortShielded"        },
+        { "name": "KerbalChangelog"         },
+        { "name": "AlternateResourcePanel"  }
     ]
 }
