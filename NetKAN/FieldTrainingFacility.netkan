@@ -8,13 +8,17 @@
         "config",
         "crewed"
     ],
+    "install": [ {
+        "find":       "FieldTrainingFacility",
+        "install_to": "GameData"
+    } ],
     "depends": [
         { "name": "ModuleManager" }
     ],
     "suggests": [
         { "name": "FieldTrainingLaboratory" },
         { "name": "BetterScienceLabs"       },
-        { "name": "ODFC"                    },
+        { "name": "ODFC-Refueled"           },
         { "name": "KGEx"                    }
     ]
 }
