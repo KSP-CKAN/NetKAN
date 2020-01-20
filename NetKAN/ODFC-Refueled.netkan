@@ -12,7 +12,7 @@
         "install_to": "GameData"
     } ],
     "conflicts": [
-        { "name": "OFDC"  }
+        { "name": "ODFC"  }
     ],
     "depends": [
         { "name": "ModuleManager" }
