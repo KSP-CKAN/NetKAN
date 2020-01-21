@@ -3,7 +3,7 @@
     "identifier":   "TWR1",
     "name":         "Vertical Velocity Controller Redux",
     "abstract":     "Control your descent speed in discreet increments for soft, controlled skycrane landings.",
-    "$kref":        "#/ckan/github/linuxgurugamer/TWR1",
+    "$kref":        "#/ckan/spacedock/1871",
     "$vref":        "#/ckan/ksp-avc",
     "license":      "GPL-3.0",
     "release_status": "stable",
