@@ -13,9 +13,10 @@
     } ],
     "depends": [
         { "name": "ASETAgency" },
+        { "name": "ALCOR" },
         { "name": "ModuleManager" },
         { "name": "RasterPropMonitor-Core", "min_version": "0.28.0" },
-        { "name": "ASETProps" , "min_version": "1.4"}
+        { "name": "ASETProps" , "min_version": "1.4" }
     ],
     "recommends": [
         { "name": "MechJeb2" },
