@@ -43,7 +43,7 @@
     ],
     "install": [ {
         "find"      : "JSI",
-        "filter"    : [ "RasterPropMonitor", "BasicMFD" ],
+        "filter"    : [ "RasterPropMonitor", "BasicMFD", "README.md", "LICENSE.md", "Agencies" ],
         "install_to": "GameData"
     } ]
 }
