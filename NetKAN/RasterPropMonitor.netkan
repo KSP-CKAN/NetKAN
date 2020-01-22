@@ -1,35 +1,49 @@
 {
     "spec_version"   : "v1.4",
     "identifier"     : "RasterPropMonitor",
-    "$kref"          : "#/ckan/github/Mihara/RasterPropMonitor",
-    "$vref"          : "#/ckan/ksp-avc",
     "name"           : "RasterPropMonitor",
-    "abstract"       : "RasterPropMonitor is a plugin and toolkit that provides functional props within your IVA.",
-    "author"         : [ "MOARdV", "Mihara" ],
+    "abstract"       : "Modifies stock and some modded IVAs with functional props",
+    "author"         : [ "Mihara", "MOARdV", "JonnyOThan" ],
+    "$kref"          : "#/ckan/github/JonnyOThan/RasterPropMonitor",
+    "$vref"          : "#/ckan/ksp-avc",
     "license"        : "GPL-3.0",
     "x_netkan_epoch" : "1",
     "resources": {
-        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/105821-*",
-        "repository": "https://github.com/Mihara/RasterPropMonitor"
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/190737-*",
+        "repository": "https://github.com/JonnyOThan/RasterPropMonitor/releases"
     },
     "tags": [
         "config",
         "crewed"
     ],
-    "depends" : [
-        { "name" : "ModuleManager" },
-        { "name" : "RasterPropMonitor-Core" }
+    "depends": [
+        { "name": "ModuleManager"          },
+        { "name": "RasterPropMonitor-Core" }
     ],
-    "suggests" : [
-        { "name" : "VesselView"},
-        { "name" : "JSIAdvancedTransparentPods"},
-        { "name" : "SCANsat"}
+    "suggests": [
+        { "name": "JSIAdvancedTransparentPods"       },
+        { "name": "Astrogator"                       },
+        { "name": "DockingPortAlignmentIndicator"    },
+        { "name": "NavUtilitiesContinued"            },
+        { "name": "SCANsat"                          },
+        { "name": "VesselView"                       },
+        { "name": "ProbeControlRoomRecontrolled"     },
+        { "name": "kOSPropMonitor"                   },
+        { "name": "Chatterer"                        },
+        { "name": "FerramAerospaceResearchContinued" },
+        { "name": "MechJeb2"                         },
+        { "name": "RealChute"                        },
+        { "name": "ASETProps"                        },
+        { "name": "ASETAvionics"                     },
+        { "name": "Mk1LanderCanIVAReplbyASET"        },
+        { "name": "MK12PodIVAReplacementbyASET"      },
+        { "name": "ALCORIVAPatch"                    },
+        { "name": "ThroughTheEyesOfaKerbal"          },
+        { "name": "QuickIVA"                         }
     ],
-    "install" : [
-        {
-            "find"       : "JSI",
-            "filter"     : ["RasterPropMonitor"],
-            "install_to" : "GameData"
-        }
-    ]
+    "install": [ {
+        "find"      : "JSI",
+        "filter"    : [ "RasterPropMonitor", "BasicMFD" ],
+        "install_to": "GameData"
+    } ]
 }
