@@ -6,8 +6,6 @@
     "$kref"        : "#/ckan/github/sumghai/SDHI_ServiceModuleSystem",
     "ksp_version_min": "1.7",
     "ksp_version_max": "1.8",
-    "x_netkan_staging": true,
-    "x_netkan_staging_reason": "Game versions hard coded in NetKAN. Please check that it matches the forum thread.",
     "x_netkan_force_v": true,
     "license"      : "CC-BY-SA-4.0",
     "resources"    : {

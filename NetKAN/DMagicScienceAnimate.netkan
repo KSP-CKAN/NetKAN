@@ -5,8 +5,6 @@
     "abstract"     : "A replacement for ModuleScienceExperiment and ModuleAnimateGeneric",
     "$kref"        : "#/ckan/github/DMagic1/DMModuleScienceAnimateGeneric",
     "ksp_version_min": "1.8",
-    "x_netkan_staging": true,
-    "x_netkan_staging_reason": "Game version hard-coded in netkan. Please confirm that it still matches the forum thread.",
     "license"      : "BSD-2-clause",
     "resources": {
         "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/65734-*"

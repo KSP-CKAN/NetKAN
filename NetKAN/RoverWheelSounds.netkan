@@ -6,8 +6,6 @@
     "ksp_version_min": "1.2",
     "ksp_version_max": "1.5",
     "x_netkan_version_edit": "^[vV]?(?<version>.+)$",
-    "x_netkan_staging": true,
-    "x_netkan_staging_reason": "Game versions hard coded in NetKAN due to syntax error in version file. Please check that it matches the forum thread.",
     "license":      "GPL-2.0",
     "resources": {
         "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/50431-*"
