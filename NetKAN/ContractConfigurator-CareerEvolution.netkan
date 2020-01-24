@@ -4,8 +4,6 @@
     "$kref":        "#/ckan/github/pap1723/Career-Evolution",
     "ksp_version_min": "1.2",
     "ksp_version_max": "1.3",
-    "x_netkan_staging": true,
-    "x_netkan_staging_reason": "Game versions hard coded in netkan, please check that they still match the forum thread",
     "license":      "CC-BY-NC-SA",
     "resources": {
         "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/162205-*"

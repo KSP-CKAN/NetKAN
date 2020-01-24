@@ -3,8 +3,6 @@
     "identifier":   "SeparatorDestroyer",
     "$kref":        "#/ckan/spacedock/1379",
     "ksp_version":  "1.3",
-    "x_netkan_staging": true,
-    "x_netkan_staging_reason": "Game version hard coded in netkan. Please check that it matches the forum thread.",
     "license":      "public-domain",
     "tags": [
         "plugin",

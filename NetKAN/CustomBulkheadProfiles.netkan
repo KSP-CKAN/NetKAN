@@ -7,8 +7,6 @@
     "$kref":        "#/ckan/ksp-avc/http://taniwha.org/~bill/CustomBulkheadProfiles.version",
     "$vref":        "#/ckan/ksp-avc",
     "ksp_version_min": "1.8",
-    "x_netkan_staging":        true,
-    "x_netkan_staging_reason": "Double check that the game version compatibility is still correct",
     "license":      "GPL-3.0",
     "resources": {
         "homepage":   "https://forum.kerbalspaceprogram.com/index.php?showtopic=181645",

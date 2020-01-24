@@ -17,8 +17,6 @@
         "plugin",
         "information"
     ],
-    "x_netkan_staging": true,
-    "x_netkan_staging_reason": "Game version hard coded in NetKAN. Please check that it matches the forum thread.",
     "x_netkan_override": [ {
         "version": "<1.6.0.0",
         "override": {
