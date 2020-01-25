@@ -6,6 +6,13 @@
     "abstract"     : "Overhaul of the stock Exploration contracts",
     "license"      : "CC-BY-NC-SA-4.0",
     "$vref"        : "#/ckan/ksp-avc",
+    "resources" : {
+        "homepage" : "http://forum.kerbalspaceprogram.com/index.php?/topic/156338-*"
+    },
+    "tags": [
+        "config",
+        "career"
+    ],
     "depends" : [
         {
             "name" : "ContractConfigurator"
@@ -16,8 +23,5 @@
             "find" : "ExplorationPlus",
             "install_to" : "GameData/ContractPacks"
         }
-    ],
-    "resources" : {
-        "homepage" : "http://forum.kerbalspaceprogram.com/index.php?/topic/156338-*"
-    }
+    ]
 }
