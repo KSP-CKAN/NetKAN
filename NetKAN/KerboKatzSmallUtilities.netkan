@@ -4,13 +4,13 @@
     "name"          : "KerboKatz - SmallUtilities",
     "abstract"      : "A bunch of small utilities to make life in kerbal more enjoyable.",
     "author"        : [ "SpaceTiger", "SpaceKitty" ],
-    "$kref"         : "#/ckan/github/Xarun/SmallUtilities/asset_match/SmallUtilities.zip",
+    "$kref"         : "#/ckan/github/KerboKatz/SmallUtilities/asset_match/SmallUtilities.zip",
     "ksp_version"   : "1.8",
     "license"       : "restricted",
     "resources": {
         "homepage": "http://kerbokatz.github.io/",
-        "bugtracker": "https://github.com/Xarun/SmallUtilities/issues",
-        "repository": "https://github.com/Xarun/SmallUtilities"
+        "bugtracker": "https://github.com/KerboKatz/SmallUtilities/issues",
+        "repository": "https://github.com/KerboKatz/SmallUtilities"
     },
     "tags": [
         "plugin",

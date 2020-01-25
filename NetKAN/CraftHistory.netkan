@@ -4,7 +4,7 @@
     "name"          : "Craft History",
     "abstract"      : "Replaces the stock craft loading with a more advanced one allowing categories to be created.",
     "author"        : [ "SpaceTiger", "SpaceKitty" ],
-    "$kref"         : "#/ckan/github/Xarun/CraftHistory",
+    "$kref"         : "#/ckan/github/KerboKatz/CraftHistory",
     "ksp_version"   : "1.8",
     "license"       : "restricted",
     "resources": {

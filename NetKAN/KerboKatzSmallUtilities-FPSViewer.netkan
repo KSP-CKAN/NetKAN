@@ -4,13 +4,13 @@
     "name"          : "KerboKatz - SmallUtilities - FPSViewer",
     "abstract"      : "A simple and easy way to display the current game fps",
     "author"        : [ "SpaceTiger", "SpaceKitty" ],
-    "$kref"         : "#/ckan/github/Xarun/SmallUtilities/asset_match/SmallUtilities.FPSViewer.zip",
+    "$kref"         : "#/ckan/github/KerboKatz/SmallUtilities/asset_match/SmallUtilities.FPSViewer.zip",
     "ksp_version"   : "1.8",
     "license"       : "restricted",
     "resources": {
         "homepage": "http://kerbokatz.github.io/",
-        "bugtracker": "https://github.com/Xarun/SmallUtilities/issues",
-        "repository": "https://github.com/Xarun/SmallUtilities"
+        "bugtracker": "https://github.com/KerboKatz/SmallUtilities/issues",
+        "repository": "https://github.com/KerboKatz/SmallUtilities"
     },
     "tags": [
         "plugin"
