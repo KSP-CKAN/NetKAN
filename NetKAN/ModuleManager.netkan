@@ -11,8 +11,6 @@
     "x_netkan_version_edit": "^ModuleManager-(?<version>\\d+\\.\\d+\\.\\d+)\\.zip$",
     "ksp_version_min": "1.8.0",
     "ksp_version_max": "1.8.90",
-    "x_netkan_staging": true,
-    "x_netkan_staging_reason": "Game versions hard coded in netkan, please make sure they still match the forum thread",
     "license": "CC-BY-SA",
     "resources": {
         "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/50533-*",

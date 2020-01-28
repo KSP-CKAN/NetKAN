@@ -4,10 +4,8 @@
     "name"          : "Craft History",
     "abstract"      : "Replaces the stock craft loading with a more advanced one allowing categories to be created.",
     "author"        : [ "SpaceTiger", "SpaceKitty" ],
-    "$kref"         : "#/ckan/github/Xarun/CraftHistory",
+    "$kref"         : "#/ckan/github/KerboKatz/CraftHistory",
     "ksp_version"   : "1.8",
-    "x_netkan_staging": true,
-    "x_netkan_staging_reason": "Game version hard-coded in netkan. Please check that it still matches the forum thread.",
     "license"       : "restricted",
     "resources": {
         "homepage": "http://kerbokatz.github.io/#CraftHistory",

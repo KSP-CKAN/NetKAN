@@ -4,15 +4,13 @@
     "name"          : "KerboKatz - SmallUtilities - DailyFunds",
     "abstract"      : "This tool gives you funds every day based on your reputation.",
     "author"        : [ "SpaceTiger", "SpaceKitty" ],
-    "$kref"         : "#/ckan/github/Xarun/SmallUtilities/asset_match/SmallUtilities.DailyFunds.zip",
+    "$kref"         : "#/ckan/github/KerboKatz/SmallUtilities/asset_match/SmallUtilities.DailyFunds.zip",
     "ksp_version"   : "1.8",
-    "x_netkan_staging": true,
-    "x_netkan_staging_reason": "Game version hard-coded in netkan. Please check that it still matches the forum thread.",
     "license"       : "restricted",
     "resources": {
         "homepage": "http://kerbokatz.github.io/",
-        "bugtracker": "https://github.com/Xarun/SmallUtilities/issues",
-        "repository": "https://github.com/Xarun/SmallUtilities"
+        "bugtracker": "https://github.com/KerboKatz/SmallUtilities/issues",
+        "repository": "https://github.com/KerboKatz/SmallUtilities"
     },
     "tags": [
         "plugin",

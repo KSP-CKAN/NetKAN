@@ -4,15 +4,13 @@
     "name"          : "Automated Science Sampler",
     "abstract"      : "Automates science experiments.",
     "author"        : [ "SpaceTiger", "SpaceKitty" ],
-    "$kref"         : "#/ckan/github/Xarun/AutomatedScienceSampler",
+    "$kref"         : "#/ckan/github/KerboKatz/AutomatedScienceSampler",
     "ksp_version"   : "1.8",
-    "x_netkan_staging": true,
-    "x_netkan_staging_reason": "Game version hard-coded in netkan. Please check that it still matches the forum thread.",
     "license"       : "restricted",
     "resources": {
         "homepage": "http://kerbokatz.github.io/",
-        "bugtracker": "https://github.com/Xarun/AutomatedScienceSampler/issues",
-        "repository": "https://github.com/Xarun/AutomatedScienceSampler"
+        "bugtracker": "https://github.com/KerboKatz/AutomatedScienceSampler/issues",
+        "repository": "https://github.com/KerboKatz/AutomatedScienceSampler"
     },
     "tags": [
         "plugin",

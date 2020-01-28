@@ -1,17 +1,25 @@
 {
     "spec_version": "v1.4",
     "identifier":   "SimpleLogistics",
-    "author":       "RealGecko,zer0Kerbal",
+    "author":       [ "RealGecko", "zer0Kerbal" ],
     "$kref":        "#/ckan/spacedock/2312",
     "license":      "GPL-3.0",
-    "tags": [
-        "plugin"
+     "tags": [
+       "plugin",
+       "resources"
     ],
     "depends": [
-        { "name": "ModuleManager" }
+        { "name": "ModuleManager"       },
+        { "name": "ToolbarController"   },
+        { "name": "ClickThroughBlocker" }
     ],
     "recommends": [
-        { "name": "EasyVesselSwitch"       },
-        { "name": "AlternateResourcePanel" }
+        { "name": "ODFC-Refueled"           },
+        { "name": "FieldTrainingLaboratory" },
+        { "name": "FieldTrainingFacility"   },
+        { "name": "DockingPortDescriptions" },
+        { "name": "PicoPortShielded"        },
+        { "name": "KerbalChangelog"         },
+        { "name": "AlternateResourcePanel"  }
     ]
 }

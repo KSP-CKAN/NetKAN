@@ -1,0 +1,27 @@
+{
+    "spec_version" : "v1.4",
+    "identifier"   : "ContractConfigurator-ExplorationPlus",
+    "$kref"        : "#/ckan/github/severedsolo/ExplorationPlus",
+    "name"         : "Contract Pack: Exploration Plus",
+    "abstract"     : "Overhaul of the stock Exploration contracts",
+    "license"      : "CC-BY-NC-SA-4.0",
+    "$vref"        : "#/ckan/ksp-avc",
+    "resources" : {
+        "homepage" : "http://forum.kerbalspaceprogram.com/index.php?/topic/156338-*"
+    },
+    "tags": [
+        "config",
+        "career"
+    ],
+    "depends" : [
+        {
+            "name" : "ContractConfigurator"
+        }
+    ],
+    "install" : [
+        {
+            "find" : "ExplorationPlus",
+            "install_to" : "GameData/ContractPacks"
+        }
+    ]
+}

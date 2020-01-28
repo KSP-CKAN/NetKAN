@@ -1,0 +1,14 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "Mk2PodWhite",
+    "$kref":        "#/ckan/spacedock/2314",
+    "license":      "MIT",
+    "depends": [
+        { "name": "ModuleManager" }
+    ],
+    "install": [ {
+        "find":       "Mk2Pod-white",
+        "install_to": "GameData",
+        "filter":     [ "source.zip", ".DS_Store" ]
+    } ]
+}

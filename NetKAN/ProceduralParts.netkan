@@ -4,6 +4,7 @@
     "author"            :   [ "Ancient Gammoner", "NathanKell", "Swamp-Ig", "Starwaster", "Tidal-Stream", "jrodrigv", "KSP-RO" ],
     "$kref"             :   "#/ckan/github/KSP-RO/ProceduralParts",
     "$vref"             :   "#/ckan/ksp-avc",
+    "x_netkan_allow_out_of_order": true,
     "name"              :   "Procedural Parts",
     "abstract"          :   "ProceduralParts allows you to procedurally generate a number of different parts in a range of sizes and shapes.",
     "license"           :   "CC-BY-SA",

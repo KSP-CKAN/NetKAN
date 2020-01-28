@@ -5,8 +5,6 @@
     "abstract"     : "Calculator plugin for Kerbal Space Program",
     "$kref"        : "#/ckan/github/wmvanvliet/Kerbulator",
     "ksp_version"  : "1.4",
-    "x_netkan_staging": true,
-    "x_netkan_staging_reason": "Game version hard coded in netkan, check that it matches the forum thread",
     "license"      : "GPL-3.0",
     "resources": {
         "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/62988-*"
