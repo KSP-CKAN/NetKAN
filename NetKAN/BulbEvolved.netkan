@@ -12,7 +12,7 @@
         { "name": "ModuleManager" }
     ],
     "install": [ {
-        "find":       "/",
+        "find":       "",
         "install_to": "GameData",
         "as":         "BulbEvolved"
     } ]
