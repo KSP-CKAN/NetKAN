@@ -12,7 +12,7 @@
         { "name": "ModuleManager" }
     ],
     "install": [ {
-        "find":       "Module ight Bulb",
+        "find":       "Module Light Bulb",
         "install_to": "GameData"
     } ]
 }
