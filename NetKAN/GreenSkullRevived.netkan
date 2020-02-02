@@ -9,6 +9,6 @@
     "install": [ {
         "find":       "TextureReplacer",
         "install_to": "GameData",
-        "filter":     [ "Skins/TR/README.md" ]
+        "filter":     [ "README.md" ]
     } ]
 }
