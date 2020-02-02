@@ -11,7 +11,7 @@
         { "name": "ContractConfigurator" },
         { "name": "SCANsat"              }
     ],
-    "install:" [ {
+    "install": [ {
         "find":       "EpicSpaceProgram",
         "install_to": "GameData"
     } ]
