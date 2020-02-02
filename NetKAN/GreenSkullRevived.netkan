@@ -6,6 +6,11 @@
     "depends": [
         { "name": "TextureReplacer" }
     ],
+    "tags": [
+        "config",
+        "graphics",
+        "crewed"
+    ],
     "install": [ {
         "find":       "TextureReplacer",
         "install_to": "GameData",
