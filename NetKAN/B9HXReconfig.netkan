@@ -1,7 +1,11 @@
 {
     "spec_version": "v1.4",
-    "identifier": "B9HXReconfig",
-    "$kref": "#/ckan/spacedock/2319",
-    "license": "CC-BY-NC-SA",
-    "x_via": "Automated SpaceDock CKAN submission"
+    "identifier":   "B9HXReconfig",
+    "$kref":        "#/ckan/spacedock/2319",
+    "$vref":        "#/ckan/ksp-avc",
+    "license":      "CC-BY-NC-SA",
+    "install": [ {
+        "find":       "B9_HX_Reconfig",
+        "install_to": "GameData"
+    } ]
 }
