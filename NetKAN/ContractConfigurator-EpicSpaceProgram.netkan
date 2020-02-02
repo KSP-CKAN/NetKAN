@@ -1,0 +1,18 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "ContractConfigurator-EpicSpaceProgram",
+    "$kref":        "#/ckan/spacedock/2318",
+    "license":      "BSD-4-clause",
+    "tags": [
+        "config",
+        "career"
+    ],
+    "depends": [
+        { "name": "ContractConfigurator" },
+        { "name": "SCANsat"              }
+    ],
+    "install:" [ {
+        "find":       "EpicSpaceProgram",
+        "install_to": "GameData"
+    } ]
+}
