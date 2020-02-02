@@ -9,6 +9,6 @@
     "install": [ {
         "find":       "TextureReplacer",
         "install_to": "GameData",
-        "filter":     [ "README.md" ]
+        "filter":     [ "Skins", "@Default.cfg" ]
     } ]
 }
