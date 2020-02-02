@@ -7,5 +7,10 @@
     "install": [ {
         "find":       "B9_HX_Reconfig",
         "install_to": "GameData"
-    } ]
+    } ],
+    "depends": [
+        { "name": "B9AerospaceHX"         },
+        { "name": "B9PartSwitch"          },
+        { "name": "CommunityResourcePack" }
+    ]
 }
