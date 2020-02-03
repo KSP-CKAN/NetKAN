@@ -13,7 +13,6 @@
     ],
     "install": [ {
         "find":       "TextureReplacer",
-        "install_to": "GameData",
-        "filter":     [ "Skins", "@Default.cfg" ]
+        "install_to": "GameData"
     } ]
 }
