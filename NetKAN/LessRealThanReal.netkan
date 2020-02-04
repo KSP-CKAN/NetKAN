@@ -6,6 +6,9 @@
     "$kref"        : "#/ckan/github/pehvbot/LRTR",
     "ksp_version"  : "1.8.1",
     "license"      : "CC-BY-NC-SA-4.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/189978-*"
+    },
     "tags" : [
         "plugin",
         "config",
