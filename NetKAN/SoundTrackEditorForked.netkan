@@ -22,6 +22,10 @@
       "install_to": "GameData"
     },
     {
+      "find": "KSP_Data",
+      "install_to": "GameRoot"
+    },
+    {
       "find": "KSP_x64_Data",
       "install_to": "GameRoot"
     },
