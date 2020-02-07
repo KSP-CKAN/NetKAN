@@ -13,7 +13,8 @@
   ],
   "depends": [
     { "name": "ToolbarController" },
-    { "name": "ClickThroughBlocker" }
+    { "name": "ClickThroughBlocker" },
+    { "name": "SpaceTuxLibrary" }
   ],
   "install": [
     {
