@@ -1,0 +1,37 @@
+{
+  "license": "GPL-2.0",
+  "identifier": "SoundTrackEditorForked",
+  "x_via": "Automated Linuxgurugamer CKAN script",
+  "$kref": "#/ckan/spacedock/2322",
+  "$vref": "#/ckan/ksp-avc",
+  "resources": {
+    "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/191467-173-18x-*",
+    "repository": "https://github.com/linuxgurugamer/SoundtrackEditorForked"
+  },
+  "conflicts": [
+      { "name": "SoundTrackEditor" }
+  ],
+  "depends": [
+    { "name": "ToolbarController" },
+    { "name": "ClickThroughBlocker" }
+  ],
+  "install": [
+    {
+      "find": "SoundtrackEditorForked",
+      "install_to": "GameData"
+    },
+    {
+      "find": "KSP_x64_Data",
+      "install_to": "GameRoot"
+    },
+    {
+      "find": "Music",
+      "install_to": "GameRoot"
+    },
+    {
+      "find": "Playlists",
+      "install_to": "GameRoot"
+    }
+  ],
+  "spec_version": "v1.4"
+}
