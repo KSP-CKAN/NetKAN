@@ -8,6 +8,7 @@
     "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/191467-173-18x-*",
     "repository": "https://github.com/linuxgurugamer/SoundtrackEditorForked"
   },
+  "tags": [ "plugin", "config", "audio", "sound", "music" ],
   "conflicts": [
       { "name": "SoundTrackEditor" }
   ],
