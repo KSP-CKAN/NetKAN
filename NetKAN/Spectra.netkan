@@ -1,65 +1,67 @@
 {
-	"spec_version": "v1.4",
-	"identifier":   "Spectra",
-	"name":         "Spectra",
-	"abstract":     "A well optimized and yet breathtakingly beautiful revamp of all celestial bodies in KSP",
-	"$kref":        "#/ckan/spacedock/1505",
-	"x_netkan_force_v": true,
-	"license":      "MIT",
-	"release_status": "stable",
-	"resources": {
-		"homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/159443-*"
-	},
-	"tags": [
-		"config",
-		"planet-pack",
-		"graphics"
-	],
-	"provides": [
-		"PlanetShine-Config"
-	],
-	"conflicts": [
-		{ "name": "PlanetShine-Config" }
-	],
-	"depends": [
-		{ "name": "ModuleManager"                   },
-		{ "name": "EnvironmentalVisualEnhancements" },
-		{ "name": "Scatterer"                       },
-		{ "name": "TextureReplacer"                 },
-		{ "name": "Kopernicus"                      }
-	],
-	"install": [
-		{
-			"file":       "Step 2 - Spectra/GameData/TextureReplacer",
-			"install_to": "GameData",
-			"filter":     "logoFullRed_alt.dds"
-		},
-		{
-			"file":       "Step 2 - Spectra/GameData/Spectra",
-			"install_to": "GameData"
-		},
-		{
-			"file":       "Step 2 - Spectra/GameData/KSPRC",
-			"install_to": "GameData"
-		},
-		{
-			"file":       "Step 3 - Extras/PlanetShine/Config",
-			"install_to": "GameData/PlanetShine"
-		}
-	],
-	"recommends": [
-		{ "name": "DistantObject"          },
-		{ "name": "RealPlume-StockConfigs" },
-		{ "name": "ReStock"                },
-		{ "name": "PlanetShine"            },
-		{ "name": "SpaceplaneCorrections"  }
-	],
-	"x_netkan_override": [{
-		"version": "v1.1.3",
-		"delete":  [ "ksp_version" ],
-		"override": {
-			"ksp_version_min": "1.3",
-			"ksp_version_max": "1.3.99"
-		}
-	}]
+    "spec_version": "v1.4",
+    "identifier":   "Spectra",
+    "name":         "Spectra",
+    "abstract":     "A well optimized and yet breathtakingly beautiful revamp of all celestial bodies in KSP",
+    "$kref":        "#/ckan/spacedock/1505",
+    "x_netkan_force_v": true,
+    "license":      "MIT",
+    "release_status": "stable",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/159443-*"
+    },
+    "tags": [
+        "config",
+        "planet-pack",
+        "graphics"
+    ],
+    "provides": [
+        "PlanetShine-Config",
+        "EnvironmentalVisualEnhancements-Config",
+        "Scatterer-config",
+        "Scatterer-sunflare"
+    ],
+    "conflicts": [
+        { "name": "PlanetShine-Config"                     },
+        { "name": "EnvironmentalVisualEnhancements-Config" },
+        { "name": "Scatterer-config"                       },
+        { "name": "Scatterer-sunflare"                     },
+        { "name": "GreenSkullRevived"                      }
+    ],
+    "depends": [
+        { "name": "ModuleManager" }
+    ],
+    "recommends": [
+        { "name": "EnvironmentalVisualEnhancements" },
+        { "name": "Scatterer"                       },
+        { "name": "TextureReplacer"                 },
+        { "name": "Kopernicus"                      },
+        { "name": "DistantObject"                   },
+        { "name": "RealPlume-StockConfigs"          },
+        { "name": "ReStock"                         },
+        { "name": "PlanetShine"                     },
+        { "name": "SpaceplaneCorrections"           }
+    ],
+    "install": [ {
+        "file":       "Step 2 - Spectra/GameData/TextureReplacer",
+        "install_to": "GameData",
+        "filter":     "logoFullRed_alt.dds"
+    }, {
+        "file":       "Step 2 - Spectra/GameData/Spectra",
+        "install_to": "GameData"
+    }, {
+        "file":       "Step 2 - Spectra/GameData/KSPRC",
+        "install_to": "GameData"
+    }, {
+        "file":       "Step 3 - Extras/PlanetShine/Config",
+        "install_to": "GameData/PlanetShine"
+    } ],
+    "x_netkan_override": [{
+        "version": "v1.1.3",
+        "delete":  [ "ksp_version" ],
+        "override": {
+            "ksp_version_min": "1.3",
+            "ksp_version_max": "1.3.99"
+        }
+    }]
 }
