@@ -1,6 +1,8 @@
 {
     "spec_version": "v1.4",
     "identifier":   "SimpleConstruction",
+    "name":         "SimpleConstruction Updated",
+    "abstract"       : " This mod aims to provide simple craft building capability in flight mode to stock parts.",
     "$kref":        "#/ckan/spacedock/59",
     "x_netkan_version_edit": {
         "find": "[Version_]?",
@@ -11,11 +13,29 @@
     "license": "MIT",
     "tags": [
         "plugin",
-        "resources"
+        "resources",
+        "config"
     ],
     "depends": [
-        { "name": "ModuleManager" },
-        { "name": "InterstellarFuelSwitch-Core" }
+        { "name": "ModuleManager" }
+    ],
+    "recommends": [
+        { "name" : "KerbalStats"      },
+        { "name" : "Toolbar"          }
+    ],
+    "suggests": [
+        { "name": "StockalikeMiningExtension"    },
+        { "name": "Community Resource Pack"      },
+        { "name": "NSSC"                         },
+        { "name": "KIS"                          },
+        { "name": "KAS"                          },
+        { "name": "InfernalRoboticsNext"         },
+        { "name": "KerbalJointReinforcementNext" }
+    ],
+    "supports": [
+        { "name": "Kerbal Change Log" },
+        { "name": "Kethane"           },
+        { "name": "B9PartSwitch"      }
     ],
     "conflicts": [
         { "name": "ExtraPlanetaryLaunchpads" }
