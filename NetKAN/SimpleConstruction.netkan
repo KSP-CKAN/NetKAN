@@ -4,6 +4,7 @@
     "name":         "SimpleConstruction Updated",
     "abstract":     "This mod aims to provide simple craft building capability in flight mode to stock parts.",
     "$kref":        "#/ckan/spacedock/59",
+    "$vref":        "#/ckan/ksp-avc",
     "x_netkan_version_edit": {
         "find": "[Version_]?",
         "replace": "",
