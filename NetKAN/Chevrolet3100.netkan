@@ -1,7 +1,17 @@
 {
     "spec_version": "v1.4",
-    "identifier": "Chevrolet3100",
-    "$kref": "#/ckan/spacedock/2323",
-    "license": "GPLv2",
-    "x_via": "Automated SpaceDock CKAN submission"
+    "identifier":   "Chevrolet3100",
+    "$kref":        "#/ckan/spacedock/2323",
+    "license":      "GPL-2.0",
+    "tags": [
+        "parts"
+    ],
+    "install": [ {
+        "find":       "Chevrolet3100",
+        "install_to": "GameData",
+        "filter":     [ "Ships" ]
+    }, {
+        "find":       "Ships/SPH",
+        "install_to": "Ships"
+    } ]
 }
