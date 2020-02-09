@@ -1,0 +1,22 @@
+{
+    "spec_version" : 1,
+    "identifier"   : "RealAntennas",
+    "$kref"        : "#/ckan/github/DRVeyl/RealAntennas",
+    "ksp_version"  : "1.7",
+    "license"      : "CC-BY-SA-4.0",
+    "version"      : "1.0",
+    "resources" : {
+        "homepage"     : "https://github.com/DRVeyl/RealAntennas/wiki",
+        "bugtracker"   : "https://github.com/DRVeyl/RealAntennas/issues",
+        "repository"   : "https://github.com/DRVeyl/RealAntennas",
+    },
+    "tags" : [
+        "comms",
+        "plugin"
+    ],
+    "conflicts" : [
+        { "name" : "RemoteTech" },
+        { "name" : "CommNetVisualization" },
+        { "name" : "CommNetConstellation" }
+    ]
+}
