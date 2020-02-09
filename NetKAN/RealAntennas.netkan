@@ -2,7 +2,7 @@
     "spec_version" : 1,
     "identifier"   : "RealAntennas",
     "$kref"        : "#/ckan/github/DRVeyl/RealAntennas",
-    "ksp_version"  : "1.7",
+    "$vref"        : "#/ckan/ksp-avc",
     "license"      : "CC-BY-SA-4.0",
     "resources" : {
         "homepage"     : "https://github.com/DRVeyl/RealAntennas/wiki",
