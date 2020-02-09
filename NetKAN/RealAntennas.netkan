@@ -11,8 +11,10 @@
     },
     "tags" : [
         "comms",
-        "plugin",
-        "parts"
+        "plugin"
+    ],
+    "depends": [
+        { "name": "ModuleManager" }
     ],
     "conflicts" : [
         { "name" : "RemoteTech" },
