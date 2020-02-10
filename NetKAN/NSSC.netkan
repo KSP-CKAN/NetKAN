@@ -16,5 +16,9 @@
     ],
     "recommends": [
         { "name": "KAS" }
-    ]
+    ],
+    "install": [ {
+        "find":       "NotSoSimpleConstruction",
+        "install_to": "GameData"
+    } ]
 }
