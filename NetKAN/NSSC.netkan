@@ -11,11 +11,26 @@
     ],
     "depends": [
         { "name": "ModuleManager"      },
-        { "name": "SimpleConstruction" },
-        { "name": "KIS"                }
+        { "name": "SimpleConstruction" }
     ],
     "recommends": [
-        { "name": "KAS" }
+        { "name": "Toolbar"     },
+        { "name": "KerbalStats" },
+        { "name": "KIS"         },
+        { "name": "KAS"         }
+    ],
+    "suggests": [
+        { "name": "SimpleLogistics"           },
+        { "name": "CommunityResourcePack"     },
+        { "name": "StockalikeMiningExtension" },
+        { "name": "InfernalRoboticsNext"      }
+    ],
+    "supports": [
+        { "name": "KerbalChangelog" },
+        { "name": "Kethane"         }
+    ],
+    "conflicts": [
+        { "name": "ExtraPlanetaryLaunchpads" }
     ],
     "install": [ {
         "find":       "NotSoSimpleConstruction",
