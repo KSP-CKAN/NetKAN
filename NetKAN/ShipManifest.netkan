@@ -1,5 +1,5 @@
 {
-    "spec_version": 1,
+    "spec_version": "v1.20",
     "identifier":   "ShipManifest",
     "abstract":     "Manages Crew, Science, & Resources on a given vessel.",
     "author":       "Papa_Joe",
@@ -10,7 +10,7 @@
     "resources": {
         "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/56643-*",
         "repository": "https://github.com/PapaJoesSoup/ShipManifest",
-        "x_curse": "http://kerbal.curseforge.com/plugins/220357-ship-manifest"
+        "curse": "http://kerbal.curseforge.com/plugins/220357-ship-manifest"
     },
     "tags": [
         "plugin",

@@ -1,5 +1,5 @@
 {
-	"spec_version" : 1,
+	"spec_version" : "v1.20",
 	"identifier" : "Mk2Essentials",
 	"name" : "Mk 2 Essentials",
 	"abstract" : "Some Mk2 parts which I felt were missing from the game",
@@ -12,7 +12,7 @@
 	"resources" :
 	{
 		"homepage"	: "http://forum.kerbalspaceprogram.com/index.php?/topic/89875-104",
-		"x_curse"	: "http://kerbal.curseforge.com/ksp-mods/225706-mk2-essentials"
+		"curse"	: "http://kerbal.curseforge.com/ksp-mods/225706-mk2-essentials"
 	},
 	"install" : [
 		{

@@ -1,5 +1,5 @@
 {
-    "spec_version": 1,
+    "spec_version": "v1.20",
     "identifier":   "StationScience",
     "name":         "Station Science",
     "abstract":     "Station Science mod adds several large parts designed to be integrated into a permanent space station.",
@@ -11,7 +11,7 @@
     "release_status": "stable",
     "resources": {
         "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/50145-*",
-        "x_curse": "http://kerbal.curseforge.com/ksp-mods/220216",
+        "curse": "http://kerbal.curseforge.com/ksp-mods/220216",
         "x_preview": "http://i.imgur.com/63DTlDLl.png"
     },
     "tags": [
