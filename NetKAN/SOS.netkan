@@ -1,0 +1,23 @@
+{
+  "license": "CC-BY-NC-SA-4.0",
+  "identifier": "SOS",
+  "x_via": "Automated Linuxgurugamer CKAN script",
+  "$kref": "#/ckan/spacedock/2325",
+  "$vref": "#/ckan/ksp-avc",
+  "resources": {
+    "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/191312-18x-sos",
+    "repository": "https://github.com/linuxgurugamer/SOS"
+  },
+  "depends": [
+    { "name": "ToolbarController" },
+    { "name": "ClickThroughBlocker" },
+    { "name": "SpaceTuxLibrary" }
+  ],
+  "install": [
+    {
+      "find": "SOS",
+      "install_to": "GameData"
+    }
+  ],
+  "spec_version": "v1.4"
+}
