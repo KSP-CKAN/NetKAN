@@ -1,5 +1,5 @@
 {
-    "spec_version": "v1.4",
+    "spec_version": "v1.20",
     "identifier":   "BoxSat",
     "name":         "BoxSat",
     "abstract":     "A modular, stackable, serviceable, & customizable satellite in a box!",
@@ -10,7 +10,7 @@
     "ksp_version_max": "1.0.5",
     "license":      "restricted",
     "resources": {
-        "x_curse": "http://kerbal.curseforge.com/ksp-mods/224250-boxsat",
+        "curse": "http://kerbal.curseforge.com/ksp-mods/224250-boxsat",
         "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/82643-*"
     },
     "tags": [
