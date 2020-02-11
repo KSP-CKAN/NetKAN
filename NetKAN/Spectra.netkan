@@ -52,9 +52,6 @@
     }, {
         "file":       "Step 2 - Spectra/GameData/KSPRC",
         "install_to": "GameData"
-    }, {
-        "file":       "Step 3 - Extras/PlanetShine/Config",
-        "install_to": "GameData/PlanetShine"
     } ],
     "x_netkan_override": [{
         "version": "v1.1.3",
