@@ -1,13 +1,16 @@
 {
     "spec_version" : "v1.6",
     "identifier"   : "BetterLoadSaveGame",
-    "$kref"        : "#/ckan/github/jefftimlin/BetterLoadSaveGame",
+    "$kref": "#/ckan/spacedock/2326",
+    "$vref": "#/ckan/ksp-avc",
     "license"      : "MIT",
-    "ksp_version_min": "1.4",
-    "ksp_version_max": "1.7",
     "resources": {
-        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/162619-*"
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/191543-18x-betterloadsavegame/"
     },
+    "depends": [
+        { "name": "ToolbarController" },
+        { "name": "ClickThroughBlocker" }
+    ],
     "tags": [
         "plugin"
     ],
