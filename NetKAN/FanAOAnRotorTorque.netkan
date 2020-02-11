@@ -8,6 +8,7 @@
         "physics"
     ],
     "depends": [
-        { "name": "ModuleManager" }
+        { "name": "ModuleManager"      },
+        { "name": "BreakingGround-DLC" }
     ]
 }
