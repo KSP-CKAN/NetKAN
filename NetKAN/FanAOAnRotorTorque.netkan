@@ -3,9 +3,6 @@
     "identifier":   "FanAOAnRotorTorque",
     "$kref":        "#/ckan/spacedock/2327",
     "license":      "MIT",
-    "resources": {
-        "repository": "https://github.com/CarnationRED/FanAOAnRotorTorque"
-    },
     "tags": [
         "plugin",
         "control"
