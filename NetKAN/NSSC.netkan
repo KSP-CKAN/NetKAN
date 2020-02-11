@@ -29,9 +29,6 @@
         { "name": "KerbalChangelog" },
         { "name": "Kethane"         }
     ],
-    "conflicts": [
-        { "name": "ExtraPlanetaryLaunchpads" }
-    ],
     "install": [ {
         "find":       "NotSoSimpleConstruction",
         "install_to": "GameData"
