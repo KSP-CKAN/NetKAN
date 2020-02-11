@@ -1,0 +1,14 @@
+{
+    "spec_version" : 1,
+    "identifier"   : "FanAOAnRotorTorque",
+    "$kref"        : "#/ckan/spacedock/2327",
+    "license"      : "MIT",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/191535-*"
+    },
+    "tags": [
+        "propellers",
+        "robotics",
+        "breakingground"
+    ]
+}
