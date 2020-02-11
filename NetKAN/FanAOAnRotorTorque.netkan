@@ -1,8 +1,11 @@
 {
-    "spec_version": "v1.4",
+    "spec_version": 1,
     "identifier":   "FanAOAnRotorTorque",
-    "$kref":        "#/ckan/spacedock/2327",
+    "$kref":        "#/ckan/github/CarnationRED/FanAOAnRotorTorque",
     "license":      "MIT",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/191535-*"
+    },
     "tags": [
         "plugin",
         "control"
