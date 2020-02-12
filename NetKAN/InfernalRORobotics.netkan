@@ -9,8 +9,7 @@
         "parts"
     ],
     "depends": [
-        { "name": "ModuleManager"   },
-        { "name": "RealismOverhaul" }
+        { "name": "ModuleManager" }
     ],
     "install": [ {
         "find":       "MagicSmokeIndustries",
