@@ -19,7 +19,8 @@
         "install_to": "GameData"
     } ],
     "depends": [
-        { "name": "ClickThroughBlocker" }
+        { "name": "ClickThroughBlocker" },
+        { "name": "ZeroMiniAVC" }
     ],
     "recommends": [
         { "name": "Toolbar" }
