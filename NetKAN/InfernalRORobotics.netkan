@@ -1,7 +1,15 @@
 {
     "spec_version": "v1.4",
-    "identifier": "InfernalRORobotics",
-    "$kref": "#/ckan/spacedock/2329",
-    "license": "GPLv3",
-    "x_via": "Automated SpaceDock CKAN submission"
+    "identifier":   "InfernalRORobotics",
+    "$kref":        "#/ckan/spacedock/2329",
+    "$vref":        "#/ckan/ksp-avc",
+    "license":      "GPL-3.0",
+    "tags": [
+        "plugin",
+        "parts"
+    ],
+    "install": [ {
+        "find":       "MagicSmokeIndustries",
+        "install_to": "GameData"
+    } ]
 }
