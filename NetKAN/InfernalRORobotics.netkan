@@ -8,6 +8,9 @@
         "plugin",
         "parts"
     ],
+    "depends": [
+        { "name": "ModuleManager" }
+    ],
     "install": [ {
         "find":       "MagicSmokeIndustries",
         "install_to": "GameData"
