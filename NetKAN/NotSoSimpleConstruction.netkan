@@ -1,12 +1,15 @@
 {
     "spec_version": "v1.4",
-    "identifier":   "NSSC",
+    "identifier":   "NotSoSimpleConstruction",
     "$kref":        "#/ckan/spacedock/1078",
     "$vref":        "#/ckan/ksp-avc",
     "license":      "GPL-3.0",
     "tags": [
         "plugin",
         "crewed"
+    ],
+    "provides": [
+        "NSSC"
     ],
     "depends": [
         { "name": "ModuleManager"      },
