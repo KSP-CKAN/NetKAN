@@ -19,7 +19,8 @@
         "information",
         "control"
     ],
-    "ksp_version": "1.8",
+    "ksp_version_min": "1.8.0",
+    "ksp_version_max": "1.9.90",
     "install": [
         {
             "find": "MechJeb2",
