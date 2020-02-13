@@ -4,6 +4,7 @@
     "name"              : "Nehemiah Engineering Orbital Science",
     "abstract"          : "Nehemiah Engineering Orbital Science is a collection of orbital science experiments aimed at prolonged station keeping.",
     "description"       : "Nehemiah Engineering Orbital Science is a collection of orbital science experiments aimed at prolonged station keeping. It consists of three distinct sets of experiments:\n* Kemini Research Program (KRP) - early-game experiments run from within a capsule based on real-life experiments run during the Gemini program.\n* Kerbal Environmental Effects Study (KEES) - mid-game experiments for attaching to the outside of a small station based on real-life material exposure experiments run on the MIR station.\n* Orbital Station Science (OSS) - Kerbal Life Science (KLS) and Orbital Material Science (OMS) - late-game large-scale station experiments based on real-life ISS experiments. These require modular station construction and maintenance.\n\nAll of the experiments are designed to be run in the background while the player performs other missions.",
+    "author"          : [ "N3h3miah", "Micha" ],
     "$kref"             : "#/ckan/github/mwerle/OrbitalMaterialScience/asset_match/NehemiahEngineeringOrbitalScience_.*.zip",
     "$vref"             : "#/ckan/ksp-avc/NehemiahInc/NEOS.version",
     "license"           : "GPL-3.0",
