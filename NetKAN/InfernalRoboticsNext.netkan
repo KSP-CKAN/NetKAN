@@ -16,11 +16,12 @@
         "parts",
         "plugin"
     ],
-    "recommends"     : [
-        { "name" : "KerbalJointReinforcementNext" }
-    ],
     "conflicts"      : [
-        { "name" : "KerbalJointReinforcement" }
+        { "name": "InfernalRobotics"         },
+        { "name": "KerbalJointReinforcement" }
+    ],
+    "recommends"     : [
+        { "name": "KerbalJointReinforcementNext" }
     ],
     "install"        : [ {
         "file"       : "GameData/MagicSmokeIndustries",
