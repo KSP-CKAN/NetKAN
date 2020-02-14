@@ -1,0 +1,22 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "RSSTextures16K",
+    "name":         "Real Solar System Textures - VaNnadin's 16384 x 8192",
+    "abstract":     "Textures for Real Solar Systems",
+    "$kref":        "#/ckan/spacedock/1357",
+    "license":      "CC-BY-NC-SA-4.0",
+    "tags": [
+        "config",
+        "graphics"
+    ],
+    "provides": [
+        "RSSTextures"
+    ],
+    "conflicts": [
+        { "name": "RSSTextures" }
+    ],
+    "install": [ {
+        "find"      : "RSS-Textures",
+        "install_to": "GameData"
+    } ]
+}
