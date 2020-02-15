@@ -18,13 +18,11 @@
     "provides": [
         "PlanetShine-Config",
         "EnvironmentalVisualEnhancements-Config",
-        "Scatterer-config",
         "Scatterer-sunflare"
     ],
     "conflicts": [
         { "name": "PlanetShine-Config"                     },
         { "name": "EnvironmentalVisualEnhancements-Config" },
-        { "name": "Scatterer-config"                       },
         { "name": "Scatterer-sunflare"                     },
         { "name": "GreenSkullRevived"                      }
     ],
