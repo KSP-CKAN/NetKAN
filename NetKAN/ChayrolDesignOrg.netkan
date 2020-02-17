@@ -3,7 +3,7 @@
     "identifier"  : "ChayrolDesignOrg",
     "abstract"    : "Add ISRO rockets and spacecraft. Eventually the plan is to add SLV, GSLV MK1-3, RLV, along with a couple of probes (Ex. Chandrayaan, Mangalyaan etc).",
     "$kref"       : "#/ckan/spacedock/2337",
-    "$vref"       : "#/ckan/ksp-avc",
+    "$vref"       : "#/ckan/ksp-avc/ChrayolDesignOrg.version",
     "license"     : "CC-BY-NC-SA-4.0",
     "resources": {
         "homepage":   "https://forum.kerbalspaceprogram.com/index.php?/topic/189111-*",
