@@ -1,21 +1,30 @@
 {
-    "spec_version"  : "v1.4",
-    "identifier"    : "DMTanks-SphericalTanks",
-    "name"          : "DaMichel's Spherical Tanks",
-    "abstract"      : "This is a set of spherical fuel tanks, from 122.5 units to 2000 units in capacity, with a size 1 (1.25m) base.",
-    "author"        : [ "Bezzier", "DaMichel" ],
-    "$kref"         : "#/ckan/github/ColorCurves/SphericalTanks",
-    "ksp_version_min": "1.0.5",
-    "ksp_version_max": "1.3.1",
-    "license"       : "CC-BY-SA-3.0",
-    "resources": {
-        "homepage"  : "http://colorcurves.github.io/SphericalTanks/"
-    },
+    "spec_version": "v1.4",
+    "identifier":   "DMTanks-SphericalTanks",
+    "author":       [ "Bezzier", "DaMichel", "zer0Kerbal" ],
+    "$kref":        "#/ckan/spacedock/2342",
+    "$vref":        "#/ckan/ksp-avc",
+    "license":      "CC-BY-SA-3.0",
     "tags": [
         "parts"
     ],
-    "install" : [ {
-        "find" : "DMTanks",
-        "install_to" : "GameData"
+    "recommends": [
+        { "name": "ModuleManager"     },
+        { "name": "DMTanks-AeroRTG"   },
+        { "name": "DMTanks-CargoBays" },
+        { "name": "DMTanks-Fuselage"  }
+    ],
+    "supports": [
+        { "name": "TweakScale"             },
+        { "name": "KerbalChangelog"        },
+        { "name": "B9PartSwitch"           },
+        { "name": "Snacks"                 },
+        { "name": "TACLS"                  },
+        { "name": "InterstellarFuelSwitch" },
+        { "name": "RealFuels"              }
+    ],
+    "install": [ {
+        "find":       "DaMichel",
+        "install_to": "GameData"
     } ]
 }

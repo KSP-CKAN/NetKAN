@@ -1,17 +1,17 @@
 {
     "spec_version": "v1.4",
-    "identifier":   "DMTanks-AeroRTG",
+    "identifier":   "DMTanks-CargoBays",
     "author":       [ "Bezzier", "DaMichel", "zer0Kerbal" ],
-    "$kref":        "#/ckan/spacedock/2338",
+    "$kref":        "#/ckan/spacedock/2339",
     "$vref":        "#/ckan/ksp-avc",
     "license":      "CC-BY-SA-3.0",
     "tags": [
         "parts"
     ],
     "recommends": [
+        { "name": "DMTanks-AeroRTG"        },
         { "name": "DMTanks-SphericalTanks" },
-        { "name": "DMTanks-Fuselage"       },
-        { "name": "DMTanks-CargoBays"      }
+        { "name": "DMTanks-Fuselage"       }
     ],
     "suggests": [
         { "name": "SimpleConstruction"      },
@@ -21,10 +21,9 @@
     ],
     "supports": [
         { "name": "TweakScale"      },
-        { "name": "KerbalChangelog" },
-        { "name": "ODFC"            }
+        { "name": "KerbalChangelog" }
     ],
-    "install" : [ {
+    "install": [ {
         "find":       "DaMichel",
         "install_to": "GameData"
     } ]
