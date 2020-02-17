@@ -1,0 +1,29 @@
+{
+    "spec_version": "v1.4",
+    "identifier"  : "ChayrolDesignOrg",
+    "abstract"    : "Add ISRO rockets and spacecraft. Eventually the plan is to add SLV, GSLV MK1-3, RLV, along with a couple of probes (Ex. Chandrayaan, Mangalyaan etc).",
+    "$kref"       : "#/ckan/github/DylanSemrau/Chayrol-Design-Org.",
+    "$vref"       : "#/ckan/ksp-avc",
+    "license"     : "CC-BY-NC-SA-4.0",
+    "resources": {
+        "homepage":   "https://forum.kerbalspaceprogram.com/index.php?/topic/189111-*",
+        "repository": "https://github.com/DylanSemrau/Chrayol-Design-Org."
+    },
+    "tags": [
+        "parts"
+    ],
+    "depends": [
+        { "name": "ModuleManager" },
+        { "name": "B9PartSwitch"  }
+    ],
+    "suggests": [
+        { "name": "JNSQ"                   },
+        { "name": "RealPlume-StockConfigs" },
+        { "name": "BluedogDB"              },
+        { "name": "ModularLaunchPads"      }
+    ],
+    "install": [ {
+        "find":       "GameData/Chrayol_Design_Org",
+        "install_to": "GameData"
+    } ]
+}
