@@ -24,6 +24,7 @@
     ],
     "install": [ {
         "find":       "GameData/Chrayol_Design_Org",
-        "install_to": "GameData"
+        "install_to": "GameData",
+        "filter":     [ ".gitignore" ]
     } ]
 }
