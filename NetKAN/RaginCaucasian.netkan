@@ -14,7 +14,8 @@
         }
     ],
     "depends": [
-        { "name": "B9PartSwitch" }
+        { "name": "B9PartSwitch" },
+        { "name": "ModuleSequentialAnimateGeneric" }
     ],
     "suggests": [
         { "name": "ModuleManager" },
