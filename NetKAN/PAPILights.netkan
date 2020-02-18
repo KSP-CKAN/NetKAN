@@ -1,0 +1,39 @@
+{
+    "spec_version" : 1,
+    "identifier"   : "PAPILights",
+    "name"         : "PAPI Lights",
+    "abstract"     : "Adds PAPI arrays to the runway to aid landing",
+    "$kref"        : "#/ckan/github/linuxgurugamer/PAPIPlugin",
+    "$vref"        : "#/ckan/ksp-avc",
+    "license"      : "MIT",
+    "resources"    : {
+        "homepage" : "https://forum.kerbalspaceprogram.com/index.php?/topic/101446-*"
+    },
+    "tags"         : [
+        "plugin",
+        "information"
+    ],
+    "conflicts" : [
+		{ "name": "PAPIPluginContinued" }
+	],
+    "depends": [
+        { "name" : "ToolbarController" },
+        { "name" : "ClickThroughBlocker" }
+    ],
+    "install"      : [
+        {
+            "file"          : "GameData/PAPIPlugin",
+            "install_to"    : "GameData"
+        }
+    ],
+    "x_netkan_override" : [
+        {
+            "version" : "v0.4.4",
+            "delete" : [ "ksp_version" ],
+            "override" : {
+                "ksp_version_min" : "1.0.0",
+                "ksp_version_max" : "1.0.4"
+            }
+        }
+    ]
+}
