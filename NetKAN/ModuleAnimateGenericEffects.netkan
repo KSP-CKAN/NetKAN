@@ -1,0 +1,21 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "ModuleAnimateGenericEffects",
+    "name":         "Animate Generic Effects Module",
+    "author":       "linuxgurugamer",
+    "$kref":        "#/ckan/github/linuxgurugamer/ModuleAnimateGenericEffects",
+    "$vref":        "#/ckan/ksp-avc",
+    "license":      "MIT",
+    "release_status": "stable",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/191807-18x-*"
+    },
+    "tags": [
+        "plugin",
+        "library"
+    ],
+    "install": [ {
+        "find": "ModuleAnimateGenericEffects",
+        "install_to": "GameData"
+    } ]
+}
