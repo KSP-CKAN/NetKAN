@@ -4,16 +4,9 @@
     "$kref":        "#/ckan/spacedock/984",
     "$vref":        "#/ckan/ksp-avc",
     "license":      "MIT",
-    "x_netkan_override":[
-       {
-          "version":">=1.1",
-          "override":{
-             "depends":[
-                { "name":"ToolbarController" },
-                { "name":"ClickThroughBlocker" }
-             ]
-          }
-       }
+    "depends":[
+       { "name":"ToolbarController" },
+       { "name":"ClickThroughBlocker" }
     ],
     "tags": [
         "plugin",
