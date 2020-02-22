@@ -1,0 +1,14 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "FanAOAnRotorTorque",
+    "$kref":        "#/ckan/spacedock/2327",
+    "license":      "MIT",
+    "tags": [
+        "plugin",
+        "control"
+    ],
+    "depends": [
+        { "name": "ModuleManager"      },
+        { "name": "BreakingGround-DLC" }
+    ]
+}

@@ -18,13 +18,11 @@
     "provides": [
         "PlanetShine-Config",
         "EnvironmentalVisualEnhancements-Config",
-        "Scatterer-config",
         "Scatterer-sunflare"
     ],
     "conflicts": [
         { "name": "PlanetShine-Config"                     },
         { "name": "EnvironmentalVisualEnhancements-Config" },
-        { "name": "Scatterer-config"                       },
         { "name": "Scatterer-sunflare"                     },
         { "name": "GreenSkullRevived"                      }
     ],
@@ -52,9 +50,6 @@
     }, {
         "file":       "Step 2 - Spectra/GameData/KSPRC",
         "install_to": "GameData"
-    }, {
-        "file":       "Step 3 - Extras/PlanetShine/Config",
-        "install_to": "GameData/PlanetShine"
     } ],
     "x_netkan_override": [{
         "version": "v1.1.3",

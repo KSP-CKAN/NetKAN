@@ -1,12 +1,12 @@
 {
-    "spec_version"   : "v1.4",
+    "spec_version"   : "v1.20",
     "name"           : "HGR Props",
     "$kref"          : "#/ckan/kerbalstuff/869",
     "identifier"     : "HGR-Props",
     "license"        : "restricted",
     "resources" : {
         "homepage"     : "https://forum.kerbalspaceprogram.com/index.php?/topic/55521-102hgr-1875m-partsv130-released/",
-        "x_curse"      : "http://kerbal.curseforge.com/ksp-mods/222583-hgr-875m-parts"
+        "curse"      : "http://kerbal.curseforge.com/ksp-mods/222583-hgr-875m-parts"
     },
     "install" : [
         {

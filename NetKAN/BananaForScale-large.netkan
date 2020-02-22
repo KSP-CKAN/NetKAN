@@ -1,5 +1,5 @@
 {
-    "spec_version" : "v1.4",
+    "spec_version" : "v1.20",
     "identifier"   : "BananaForScale-large",
     "name"         : "Banana for Scale - large",
     "abstract"     : "Banana for Scale - Analyse bananas in space!",
@@ -10,7 +10,7 @@
     "x_maintained" : "hakan42 - who loves bananas in space",
     "license"      : "restricted",
     "resources": {
-        "x_curse"  : "http://kerbal.curseforge.com/ksp-mods/223077-banana-for-scale",
+        "curse"  : "http://kerbal.curseforge.com/ksp-mods/223077-banana-for-scale",
         "homepage" : "https://forum.kerbalspaceprogram.com/index.php?/topic/80802-*"
     },
     "tags": [

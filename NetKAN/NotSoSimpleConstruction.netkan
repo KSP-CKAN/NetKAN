@@ -1,0 +1,38 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "NotSoSimpleConstruction",
+    "$kref":        "#/ckan/spacedock/1078",
+    "$vref":        "#/ckan/ksp-avc",
+    "license":      "GPL-3.0",
+    "tags": [
+        "plugin",
+        "crewed"
+    ],
+    "provides": [
+        "NSSC"
+    ],
+    "depends": [
+        { "name": "ModuleManager"      },
+        { "name": "SimpleConstruction" }
+    ],
+    "recommends": [
+        { "name": "Toolbar"     },
+        { "name": "KerbalStats" },
+        { "name": "KIS"         },
+        { "name": "KAS"         }
+    ],
+    "suggests": [
+        { "name": "SimpleLogistics"           },
+        { "name": "CommunityResourcePack"     },
+        { "name": "StockalikeMiningExtension" },
+        { "name": "InfernalRoboticsNext"      }
+    ],
+    "supports": [
+        { "name": "KerbalChangelog" },
+        { "name": "Kethane"         }
+    ],
+    "install": [ {
+        "find":       "NotSoSimpleConstruction",
+        "install_to": "GameData"
+    } ]
+}

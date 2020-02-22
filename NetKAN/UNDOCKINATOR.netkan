@@ -4,6 +4,10 @@
     "$kref":        "#/ckan/spacedock/984",
     "$vref":        "#/ckan/ksp-avc",
     "license":      "MIT",
+    "depends":[
+       { "name":"ToolbarController" },
+       { "name":"ClickThroughBlocker" }
+    ],
     "tags": [
         "plugin",
         "convenience"

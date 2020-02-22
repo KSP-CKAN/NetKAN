@@ -1,5 +1,5 @@
 {
-    "spec_version": 1,
+    "spec_version": "v1.20",
     "$kref": "#/ckan/kerbalstuff/416",
     "name": "KSP Tips",
     "identifier": "KSPTips",
@@ -12,7 +12,7 @@
         "license": "https://github.com/TriggerAu/KSPTips/blob/master/LICENSE",
         "repository": "https://github.com/TriggerAu/KSPTips",
         "kerbalstuff": "https://kerbalstuff.com/mod/416/KSP%20Tips",
-        "x_curse": "http://kerbal.curseforge.com/ksp-mods/226245-ksp-tips"
+        "curse": "http://kerbal.curseforge.com/ksp-mods/226245-ksp-tips"
     },
     "x_netkan_license_ok": true
 }
