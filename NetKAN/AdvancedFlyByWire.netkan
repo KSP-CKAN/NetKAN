@@ -1,46 +1,67 @@
 {
-    "spec_version": 1,
-    "identifier":   "AdvancedFlyByWire",
-    "name":         "Advanced Fly-By-Wire (Windows)",
-    "$kref":        "#/ckan/spacedock/1869",
-    "$vref":        "#/ckan/ksp-avc",
-    "license":      "MIT",
-    "release_status": "stable",
-    "resources": {
-        "homepage":   "https://forum.kerbalspaceprogram.com/index.php?/topic/175359-*",
-        "repository": "https://github.com/linuxgurugamer/ksp-advanced-flybywire"
-    },
-    "tags": [
-        "plugin",
-        "control"
-    ],
-    "install": [ {
-        "file":       "SDL2.dll",
-        "install_to": "GameRoot"
-    }, {
-        "file":       "SDL_LICENSE",
-        "install_to": "GameRoot"
-    }, {
-        "file":       "XINPUTDOTNET_LICENSE",
-        "install_to": "GameRoot"
-    }, {
-        "file":       "XInputInterface.dll",
-        "install_to": "GameRoot"
-    }, {
-        "file":       "GameData/ksp-advanced-flybywire",
-        "install_to": "GameData"
-    } ],
-    "provides": [
-        "AdvancedFlyByWireRevived"
-    ],
-    "conflicts": [
-        { "name": "AdvancedFlyByWireRevived" }
-    ],
-    "depends": [
-        { "name": "ToolbarController"   },
-        { "name": "ClickThroughBlocker" }
-    ],
-    "recommends": [
-        { "name": "KSP-AVC" }
-    ]
+	"spec_version": 1,
+	"identifier": "AdvancedFlyByWire",
+	"name": "Advanced Fly-By-Wire (Windows)",
+	"abstract": "AFBW is an input overhaul mod. It dramatically enhances the stock input system with a bunch of fixes and many new features",
+	"author": "linuxgurugamer",
+	"license": "MIT",
+	"$kref": "#/ckan/github/linuxgurugamer/ksp-advanced-flybywire",
+	"$vref": "#/ckan/ksp-avc",
+	"release_status": "stable",
+	"resources": {
+		"homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/175359-*",
+		"spacedock": "https://spacedock.info/mod/1869/ABFW%20Revived%20(Windows%20version)",
+		"repository": "https://github.com/linuxgurugamer/ksp-advanced-flybywire",
+		"x_screenshot": "https://spacedock.info/content/linuxgurugamer_179/ABFW_Revived_Windows_version/ABFW_Revived_Windows_version-1527383965.049963.png"
+	},
+	"tags": [
+		"plugin",
+		"control"
+	],
+	"provides": [
+		"AdvancedFlyByWireRevived"
+	],
+	"depends": [
+		{
+			"name": "ToolbarController"
+		},
+		{
+			"name": "ClickThroughBlocker"
+		}
+	],
+	"recommends": [
+		{
+			"name": "ToolbarController"
+		},
+		{
+			"name": "ClickThroughBlocker"
+		}
+	],
+	"conflicts": [
+		{
+			"name": "AdvancedFlyByWireRevived"
+		}
+	],
+	"install": [
+		{
+			"file": "SDL2.dll",
+			"install_to": "GameRoot"
+		},
+		{
+			"file": "SDL_LICENSE",
+			"install_to": "GameRoot"
+		},
+		{
+			"file": "XINPUTDOTNET_LICENSE",
+			"install_to": "GameRoot"
+		},
+		{
+			"file": "XInputInterface.dll",
+			"install_to": "GameRoot"
+		},
+		{
+			"file": "GameData/ksp-advanced-flybywire",
+			"install_to": "GameData"
+		}
+	]
 }
