@@ -1,0 +1,44 @@
+{
+	"spec_version": "v1.4",
+	"identifier": "AntennaRangePatches",
+	"name": "AntennaRangePatches",
+	"abstract": "Various patches for Antenna Range mod",
+	"author": "linuxgurugamer",
+	"license": "CC-BY-NC-SA-4.0",
+	"$kref": "#/ckan/github/linuxgurugamer/AntennaRangePatches",
+	"$vref": "#/ckan/ksp-avc",
+	"resources": {
+		"spacedock": "https://spacedock.info/mod/876/AntennaRangePatches",
+		"repository": "https://github.com/linuxgurugamer/AntennaRangePatches"
+	},
+	"depends": [
+		{
+			"name": "AntennaRange"
+		},
+		{
+			"name": "ModuleManager"
+		}
+	],
+	"recommends": [
+		{
+			"name": "AntennaRange"
+		},
+		{
+			"name": "ModuleManager"
+		}
+	],
+	"conflicts": [
+		{
+			"name": "AntennaPatch4AntennaRange"
+		},
+		{
+			"name": "RemoteTech"
+		}
+	],
+	"install": [
+		{
+			"find": "AntennaRangePatches",
+			"install_to": "GameData"
+		}
+	]
+}

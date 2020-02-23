@@ -1,34 +1,50 @@
 {
-    "spec_version": 1,
-    "identifier":   "AdvancedFlyByWire-OSX",
-    "name":         "Advanced Fly-By-Wire (OSX)",
-    "$kref":        "#/ckan/spacedock/1878",
-    "$vref":        "#/ckan/ksp-avc",
-    "license":      "MIT",
-    "release_status": "stable",
-    "resources": {
-        "homepage":   "https://forum.kerbalspaceprogram.com/index.php?/topic/175359-*",
-        "repository": "https://github.com/linuxgurugamer/ksp-advanced-flybywire"
-    },
-    "tags": [
-        "plugin",
-        "control"
-    ],
-    "install": [ {
-        "file":       "GameData/ksp-advanced-flybywire",
-        "install_to": "GameData"
-    } ],
-    "provides": [
-        "AdvancedFlyByWireRevived"
-    ],
-    "conflicts": [
-        { "name": "AdvancedFlyByWireRevived" }
-    ],
-    "depends": [
-         { "name": "ToolbarController"   },
-         { "name": "ClickThroughBlocker" }
-    ],
-    "recommends": [
-        { "name": "KSP-AVC" }
-    ]
+	"spec_version": 1,
+	"identifier": "AdvancedFlyByWire-OSX",
+	"name": "Advanced Fly-By-Wire (OSX)",
+	"abstract": "AFBW is an input overhaul mod. It dramatically enhances the stock input system with a bunch of fixes and many new features.",
+	"author": "linuxgurugamer",
+	"license": "MIT",
+	"$kref": "#/ckan/github/linuxgurugamer/ksp-advanced-flybywire",
+	"$vref": "#/ckan/ksp-avc",
+	"resources": {
+		"homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/175359-*",
+		"spacedock": "https://spacedock.info/mod/1878/ABFW%20Revived%20(OSX%20version)",
+		"repository": "https://github.com/linuxgurugamer/ksp-advanced-flybywire",
+		"x_screenshot": "https://spacedock.info/content/linuxgurugamer_179/ABFW_Revived_OSX_version/ABFW_Revived_OSX_version-1527782505.4308672.png"
+	},
+	"tags": [
+		"plugin",
+		"control"
+	],
+	"provides": [
+		"AdvancedFlyByWireRevived"
+	],
+	"depends": [
+		{
+			"name": "ToolbarController"
+		},
+		{
+			"name": "ClickThroughBlocker"
+		}
+	],
+	"recommends": [
+		{
+			"name": "ToolbarController"
+		},
+		{
+			"name": "ClickThroughBlocker"
+		}
+	],
+	"conflicts": [
+		{
+			"name": "AdvancedFlyByWireRevived"
+		}
+	],
+	"install": [
+		{
+			"file": "GameData/ksp-advanced-flybywire",
+			"install_to": "GameData"
+		}
+	]
 }

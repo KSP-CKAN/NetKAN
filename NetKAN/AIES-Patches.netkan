@@ -1,25 +1,39 @@
 {
-  "license": "CC-BY-NC-SA-4.0",
-  "identifier": "AIES-Patches",
-  "name" : "AIES Patches for the AIES Aerospace mod",
-  "x_via": "Automated Linuxgurugamer CKAN script",
-  "$kref": "#/ckan/github/linuxgurugamer/AIES_Patches",
-  "$vref": "#/ckan/ksp-avc",
-  "tags": [
-        "parts",
-        "config"
-  ],
-  "depends": [
-    { "name": "AIESAerospace-Unofficial" },
-    { "name": "AIES-Antenna-Patches" },
-    { "name": "ModuleManager" }    
-  ],
-  "install": [
-    {
-      "find": "AIES_Patches",
-      "install_to": "GameData",
-      "filter": ["DeimosRast", "TK421d", "MiniAVC.dll"]
-    }
-  ],
-  "spec_version": "v1.4"
+	"spec_version": "v1.4",
+	"identifier": "AIES-Patches",
+	"name": "AIES Patches for the AIES Aerospace mod",
+	"abstract": "Patches to bring the AIES mod up-to-date",
+	"author": "linuxgurugamer",
+	"license": "CC-BY-NC-SA-4.0",
+	"$kref": "#/ckan/github/linuxgurugamer/AIES_Patches",
+	"$vref": "#/ckan/ksp-avc",
+	"resources": {
+		"repository": "https://github.com/linuxgurugamer/AIES_Patches"
+	},
+	"tags": [
+		"parts",
+		"config"
+	],
+	"depends": [
+		{
+			"name": "AIESAerospace-Unofficial"
+		},
+		{
+			"name": "AIES-Antenna-Patches"
+		},
+		{
+			"name": "ModuleManager"
+		}
+	],
+	"install": [
+		{
+			"find": "AIES_Patches",
+			"install_to": "GameData",
+			"filter": [
+				"DeimosRast",
+				"TK421d",
+				"MiniAVC.dll"
+			]
+		}
+	]
 }

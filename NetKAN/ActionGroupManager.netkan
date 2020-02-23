@@ -1,18 +1,34 @@
 {
-    "spec_version": "v1.4",
-    "identifier":   "ActionGroupManager",
-    "$kref":        "#/ckan/spacedock/1976",
-    "license":      "MIT",
-    "tags": [
-        "plugin",
-        "convenience"
-    ],
-    "depends": [
-        { "name" : "ToolbarController" },
-        { "name" : "ClickThroughBlocker" }
-    ],
-    "install": [ {
-        "find":"AquilaEnterprises",
-        "install_to":"GameData"
-    } ]
+	"spec_version": "v1.4",
+	"identifier": "ActionGroupManager",
+	"name": "Action Group Manager Renewed",
+	"abstract": "Manage your action groups in flight",
+	"author": "linuxgurugamer",
+	"license": "MIT",
+	"$kref": "#/ckan/github/linuxgurugamer/ActionGroupManager/",
+	"$vref": "#/ckan/ksp-avc",
+	"resources": {
+		"homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/178733-14x-action-group-manager-renewed/",
+		"spacedock": "https://spacedock.info/mod/1976/Action%20Group%20Manager%20Renewed",
+		"repository": "https://github.com/linuxgurugamer/ActionGroupManager/",
+		"x_screenshot": "https://spacedock.info/content/linuxgurugamer_179/Action_Group_Manager_Renewed/Action_Group_Manager_Renewed-1562530514.3111498.png"
+	},
+	"tags": [
+		"plugin",
+		"convenience"
+	],
+	"depends": [
+		{
+			"name": "ToolbarController"
+		},
+		{
+			"name": "ClickThroughBlocker"
+		}
+	],
+	"install": [
+		{
+			"find": "AquilaEnterprises",
+			"install_to": "GameData"
+		}
+	]
 }

@@ -1,28 +1,42 @@
 {
-    "spec_version"   : "v1.4",
-    "identifier"     : "AutomatedScreenshots",
-    "$kref"          : "#/ckan/spacedock/43",
-    "$vref"          : "#/ckan/ksp-avc",
-    "license"        : "GPL-3.0",
-    "resources" : {
-        "homepage"    : "https://forum.kerbalspaceprogram.com/index.php?/topic/116979-*",
-        "repository"  : "https://github.com/linuxgurugamer/AutomatedScreenshots"
-    },
-    "tags": [
-        "plugin",
-        "convenience"
-    ],
-    "depends": [
-        { "name": "ToolbarController" },
-        { "name": "ClickThroughBlocker" }
-    ],
-    "recommends": [
-        { "name": "JanitorsCloset" }
-    ],
-    "install" : [
-        {
-            "find"       : "AutomatedScreenshots",
-            "install_to" : "GameData"
-        }
-    ]
+	"spec_version": "v1.4",
+	"identifier": "AutomatedScreenshots",
+	"name": "Automated Screenshots & Saves",
+	"abstract": "automated screenshots",
+	"author": "linuxgurugamer",
+	"license": "GPL-3.0",
+	"$kref": "#/ckan/github/linuxgurugamer/AutomatedScreenshots",
+	"$vref": "#/ckan/ksp-avc",
+	"resources": {
+		"homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/116979-*",
+		"spacedock": "https://spacedock.info/mod/43/Automated%20Screenshots%20&%20Saves",
+		"repository": "https://github.com/linuxgurugamer/AutomatedScreenshots",
+		"x_screenshot": "https://spacedock.info/content/linuxgurugamer_179/Automated_Screenshots__Saves/Automated_Screenshots__Saves-1456622044.5102704.png"
+	},
+	"tags": [
+		"plugin",
+		"convenience"
+	],
+	"depends": [
+		{
+			"name": "ToolbarController"
+		},
+		{
+			"name": "ClickThroughBlocker"
+		}
+	],
+	"recommends": [
+		{
+			"name": "ToolbarController"
+		},
+		{
+			"name": "ClickThroughBlocker"
+		}
+	],
+	"install": [
+		{
+			"find": "AutomatedScreenshots",
+			"install_to": "GameData"
+		}
+	]
 }

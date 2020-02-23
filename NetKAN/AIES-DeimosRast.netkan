@@ -1,25 +1,36 @@
 {
-  "license": "CC-BY-NC-SA-4.0",
-  "identifier": "AIES-DeimosRast",
-  "name" : "Antenna Patches from @DeimosRast for the AIES-Patches mod",
-  "x_via": "Automated Linuxgurugamer CKAN script",
-  "abstract": "These are antenna patches from @DeimosRast needed to update the AIES Aerospace mod for KSP 1.8.x and beyond",
-  "$kref": "#/ckan/github/linuxgurugamer/AIES_Patches",
-  "$vref": "#/ckan/ksp-avc",
-  "tags": [
-        "parts",
-        "config"
-  ],
-  "provides": [ "AIES-Antenna-Patches" ],
-  "depends": [ { "name": "AIES-Patches" } ],
-  "conflicts" : [
-    { "name" : "AIES-Antenna-Patches" }
-  ],
-  "install": [
-    {
-      "find": "AIES_Patches/DeimosRast",
-      "install_to": "GameData/AIES_Patches"
-    }
-  ],
-  "spec_version": "v1.4"
+	"spec_version": "v1.4",
+	"identifier": "AIES-DeimosRast",
+	"name": "Antenna Patches from @DeimosRast for the AIES-Patches mod",
+	"abstract": "These are antenna patches from @DeimosRast needed to update the AIES Aerospace mod for KSP 1.8.x and beyond",
+	"author": "linuxgurugamer",
+	"license": "CC-BY-NC-SA-4.0",
+	"$kref": "#/ckan/github/linuxgurugamer/AIES_Patches",
+	"$vref": "#/ckan/ksp-avc",
+	"resources": {
+		"repository": "https://github.com/linuxgurugamer/AIES_Patches"
+	},
+	"tags": [
+		"parts",
+		"config"
+	],
+	"provides": [
+		"AIES-Antenna-Patches"
+	],
+	"depends": [
+		{
+			"name": "AIES-Patches"
+		}
+	],
+	"conflicts": [
+		{
+			"name": "AIES-Antenna-Patches"
+		}
+	],
+	"install": [
+		{
+			"find": "AIES_Patches/DeimosRast",
+			"install_to": "GameData/AIES_Patches"
+		}
+	]
 }
