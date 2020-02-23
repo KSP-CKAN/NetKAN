@@ -5,7 +5,7 @@
 	"abstract": "AFBW is an input overhaul mod. It dramatically enhances the stock input system with a bunch of fixes and many new features",
 	"author": "linuxgurugamer",
 	"license": "MIT",
-	"$kref": "#/ckan/github/linuxgurugamer/ksp-advanced-flybywire",
+	"$kref": "#/ckan/github/linuxgurugamer/ksp-advanced-flybywire/asset_match/.*win\\.zip",
 	"$vref": "#/ckan/ksp-avc",
 	"resources": {
 		"homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/175359-*",
