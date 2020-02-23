@@ -1,20 +1,21 @@
 {
-    "spec_version" : 1,
-    "identifier"   : "ABCORS",
-    "name"         : "ABookCase Orbital Reference System",
-    "abstract"     : "Hover the mouse on your orbit to display contextual information.",
-    "$kref"        : "#/ckan/github/linuxgurugamer/abcors",
-    "$vref"        : "#/ckan/ksp-avc",
-    "license"      : "MIT",
-    "resources": {
-        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/172663-*",
-        "repository": "https://github.com/linuxgurugamer/abcors"
-    },
-    "tags": [
-        "plugin",
-        "information"
-    ],
-    "suggests": [
-        { "name": "KSP-AVC" }
-    ]
+	"spec_version": 1,
+	"identifier": "ABCORS",
+	"name": "ABookCase Orbital Reference System",
+	"abstract": "Hover the mouse on your orbit to display contextual information.",
+	"author": [
+		"zentarul",
+		"linuxgurugamer"
+	],
+	"license": "MIT",
+	"$kref": "#/ckan/github/linuxgurugamer/abcors",
+	"$vref": "#/ckan/ksp-avc",
+	"resources": {
+		"homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/172663-*",
+		"repository": "https://github.com/linuxgurugamer/abcors"
+	},
+	"tags": [
+		"plugin",
+		"information"
+	]
 }
