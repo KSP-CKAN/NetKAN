@@ -1,36 +1,25 @@
 {
-	"spec_version": "v1.4",
-	"identifier": "AIES-TK421d",
-	"name": "Antenna Patches from @TK421d for the AIES-Patches mod",
-	"abstract": "These are antenna patches from @TK421d needed to update the AIES Aerospace mod for KSP 1.8.x and beyond",
-	"author": "linuxgurugamer",
-	"license": "CC-BY-NC-SA-4.0",
-	"$kref": "#/ckan/github/linuxgurugamer/AIES_Patches",
-	"$vref": "#/ckan/ksp-avc",
-	"resources": {
-		"repository": "https://github.com/linuxgurugamer/AIES_Patches"
-	},
-	"tags": [
-		"parts",
-		"config"
-	],
-	"provides": [
-		"AIES-Antenna-Patches"
-	],
-	"depends": [
-		{
-			"name": "AIES-Patches"
-		}
-	],
-	"conflicts": [
-		{
-			"name": "AIES-Antenna-Patches"
-		}
-	],
-	"install": [
-		{
-			"find": "AIES_Patches/TK421d",
-			"install_to": "GameData/AIES_Patches"
-		}
-	]
+  "license": "CC-BY-NC-SA-4.0",
+  "identifier": "AIES-TK421d",
+  "name" : "Antenna Patches from @TK421d for the AIES-Patches mod",
+  "abstract": "These are antenna patches from @TK421d needed to update the AIES Aerospace mod for KSP 1.8.x and beyond",
+  "x_via": "Automated Linuxgurugamer CKAN script",
+  "$kref": "#/ckan/github/linuxgurugamer/AIES_Patches",
+  "$vref": "#/ckan/ksp-avc",
+  "provides": [ "AIES-Antenna-Patches" ],
+  "tags": [
+        "parts",
+        "config"
+  ],
+  "depends": [ { "name": "AIES-Patches" }],
+  "conflicts" : [
+    { "name" : "AIES-Antenna-Patches" }
+  ],
+  "install": [
+    {
+      "find": "AIES_Patches/TK421d",
+      "install_to": "GameData/AIES_Patches"
+    }
+  ],
+  "spec_version": "v1.4"
 }
