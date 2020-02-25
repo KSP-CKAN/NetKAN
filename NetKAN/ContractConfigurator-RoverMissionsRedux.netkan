@@ -1,0 +1,46 @@
+{
+	"spec_version": "v1.4",
+	"identifier": "ContractConfigurator-RoverMissionsRedux",
+	"name": "Contract Pack: Rover Missions",
+	"abstract": "Rover missions",
+	"author": "linuxgurugamer",
+	"license": "MIT",
+	"$kref": "#/ckan/github/linuxgurugamer/RoverContracts",
+	"$vref": "#/ckan/ksp-avc",
+	"release_status": "stable",
+	"resources": {
+		"homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/129173-/",
+		"spacedock": "https://spacedock.info/mod/52/Contract%20Pack:%20Rover%20Missions",
+		"repository": "https://github.com/linuxgurugamer/RoverContracts"
+	},
+	"depends": [
+		{
+			"name": "SpacetuxSA"
+		},
+		{
+			"name": "ContractConfigurator",
+			"min_version": "1.9.2.1"
+		},
+		{
+			"name": "ModuleManager"
+		}
+	],
+	"recommends": [
+		{
+			"name": "SpacetuxSA"
+		},
+		{
+			"name": "ContractConfigurator",
+			"min_version": "1.9.2.1"
+		},
+		{
+			"name": "ModuleManager"
+		}
+	],
+	"install": [
+		{
+			"find": "RoverMissions",
+			"install_to": "GameData/ContractPacks/Spacetux"
+		}
+	]
+}

@@ -1,29 +1,38 @@
 {
-    "spec_version"  : "v1.4",
-    "identifier"    : "ChampagneBottleRedux",
-    "$kref"         : "#/ckan/spacedock/613",
-    "$vref"         : "#/ckan/ksp-avc",
-    "license"       : "CC-BY-NC-SA",
-    "resources": {
-        "homepage":"http://forum.kerbalspaceprogram.com/index.php?/topic/138349-*",
-        "repository":"https://github.com/linuxgurugamer/ChampagneBottleRedux"
-    },
-    "tags": [
-        "plugin",
-        "editor"
-    ],
-    "depends": [
-        { "name": "ToolbarController"   },
-        { "name": "ClickThroughBlocker" }
-    ],
-    "recommends": [
-        { "name": "Toolbar" },
-        { "name": "JanitorsCloset" }
-    ],
-    "install": [
-        {
-            "find": "Champagne",
-            "install_to": "GameData"
-        }
-    ]
+	"spec_version": "v1.4",
+	"identifier": "ChampagneBottleRedux",
+	"name": "Champagne Bottle Redux",
+	"abstract": "KSP workers suggested names for ships",
+	"author": "linuxgurugamer",
+	"license": "CC-BY-NC-SA",
+	"$kref": "#/ckan/github/linuxgurugamer/ChampagneBottleRedux",
+	"$vref": "#/ckan/ksp-avc",
+	"resources": {
+		"homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/138349-champagne-bottle-redux/",
+		"spacedock": "https://spacedock.info/mod/613/Champagne%20Bottle%20Redux",
+		"repository": "https://github.com/linuxgurugamer/ChampagneBottleRedux",
+		"x_screenshot": "https://spacedock.info/content/linuxgurugamer_179/Champagne_Bottle_Redux/Champagne_Bottle_Redux-1507555067.0730748.png"
+	},
+	"depends": [
+		{
+			"name": "ToolbarController"
+		},
+		{
+			"name": "ClickThroughBlocker"
+		}
+	],
+	"recommends": [
+		{
+			"name": "ToolbarController"
+		},
+		{
+			"name": "ClickThroughBlocker"
+		}
+	],
+	"install": [
+		{
+			"find": "Champagne",
+			"install_to": "GameData"
+		}
+	]
 }

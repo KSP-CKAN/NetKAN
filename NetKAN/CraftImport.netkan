@@ -1,28 +1,43 @@
 {
-    "spec_version"   : "v1.4",
-    "identifier"     : "CraftImport",
-    "$kref"          : "#/ckan/spacedock/47",
-    "$vref"          : "#/ckan/ksp-avc",
-    "x_netkan_epoch" : 1,
-    "license"        : "GPL-3.0",
-    "resources" : {
-        "homepage"    : "https://forum.kerbalspaceprogram.com/index.php?/topic/119584-*",
-        "repository"  : "https://github.com/linuxgurugamer/CraftImport"
-    },
-    "tags": [
-        "plugin",
-        "editor",
-        "convenience"
-    ],
-    "recommends": [
-        { "name": "JanitorsCloset" }
-    ],
-    "depends": [
-        { "name": "ToolbarController" },
-        { "name": "ClickThroughBlocker" }
-    ],
-    "install": [ {
-        "find"       : "CraftImport",
-        "install_to" : "GameData"
-    } ]
+	"spec_version": "v1.4",
+	"identifier": "CraftImport",
+	"name": "Craft Import & Upload",
+	"abstract": "Craft import and uploads",
+	"author": "linuxgurugamer",
+	"license": "GPL-3.0",
+	"$kref": "#/ckan/github/linuxgurugamer/CraftImport",
+	"$vref": "#/ckan/ksp-avc",
+	"resources": {
+		"homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/119584-*",
+		"spacedock": "https://spacedock.info/mod/47/Craft%20Import%20&%20Upload",
+		"repository": "https://github.com/linuxgurugamer/CraftImport",
+		"x_screenshot": "https://spacedock.info/content/linuxgurugamer_179/Craft_Import__Upload/Craft_Import__Upload-1456622079.5029812.png"
+	},
+	"tags": [
+		"plugin",
+		"editor",
+		"convenience"
+	],
+	"depends": [
+		{
+			"name": "ToolbarController"
+		},
+		{
+			"name": "ClickThroughBlocker"
+		}
+	],
+	"recommends": [
+		{
+			"name": "ToolbarController"
+		},
+		{
+			"name": "ClickThroughBlocker"
+		}
+	],
+	"install": [
+		{
+			"find": "CraftImport",
+			"install_to": "GameData"
+		}
+	]
 }

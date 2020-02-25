@@ -1,22 +1,38 @@
 {
-    "spec_version": "v1.4",
-    "identifier":   "CareerManagerContinued",
-    "$kref":        "#/ckan/spacedock/1221",
-    "$vref":        "#/ckan/ksp-avc",
-    "license":      "GPL-3.0",
-    "tags": [
-        "plugin",
-        "career"
-    ],
-    "install": [ {
-        "find": "CareerManager",
-        "install_to": "GameData"
-    } ],
-    "conflicts" : [
-        { "name": "CareerManager" }
-    ],
-    "depends": [
-        { "name" : "ToolbarController" },
-        { "name" : "ClickThroughBlocker" }
-    ]
+	"spec_version": "v1.4",
+	"identifier": "CareerManagerContinued",
+	"name": "CareerManagerContinued",
+	"abstract": "Career Lite",
+	"author": "linuxgurugamer",
+	"license": "GPL-3.0",
+	"$kref": "#/ckan/github/linuxgurugamer/CareerManagerContinued",
+	"$vref": "#/ckan/ksp-avc",
+	"resources": {
+		"homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/156510-12-career-manager-continued-for-all-your-career-mode-needs/",
+		"spacedock": "https://spacedock.info/mod/1221/CareerManagerContinued",
+		"repository": "https://github.com/linuxgurugamer/CareerManagerContinued"
+	},
+	"tags": [
+		"plugin",
+		"career"
+	],
+	"depends": [
+		{
+			"name": "ToolbarController"
+		},
+		{
+			"name": "ClickThroughBlocker"
+		}
+	],
+	"conflicts": [
+		{
+			"name": "CareerManager"
+		}
+	],
+	"install": [
+		{
+			"find": "CareerManager",
+			"install_to": "GameData"
+		}
+	]
 }

@@ -1,24 +1,43 @@
 {
 	"spec_version": "v1.4",
-	"identifier":   "CorrectCoL",
-	"$kref":        "#/ckan/spacedock/789",
-	"license":      "MIT",
+	"identifier": "CorrectCoL",
+	"name": "CorrectCoL",
+	"abstract": "stock aerodynamics design aid",
+	"author": [
+		"BorisBarboris",
+		"linuxgurugamer"
+	],
+	"license": "MIT",
+	"$kref": "#/ckan/github/linuxgurugamer/CorrectCoL",
+	"$vref": "#/ckan/ksp-avc",
+	"resources": {
+		"homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/160231-122-correctcol-stock-aerodynamics-design-aid-continued/&do=findComment&comment=3045954",
+		"spacedock": "https://spacedock.info/mod/789/CorrectCoL",
+		"repository": "https://github.com/linuxgurugamer/CorrectCoL",
+		"x_screenshot": "https://spacedock.info/content/BorisBarboris_4693/CorrectCoL/CorrectCoL-1466893163.4436524.png"
+	},
 	"tags": [
 		"plugin",
 		"information",
 		"editor"
 	],
+	"depends": [
+		{
+			"name": "ToolbarController"
+		},
+		{
+			"name": "ClickThroughBlocker"
+		}
+	],
 	"conflicts": [
-	    { "name": "FerramAerospaceResearch" }
+		{
+			"name": "FerramAerospaceResearch"
+		}
 	],
 	"install": [
 		{
 			"find": "CorrectCoL",
 			"install_to": "GameData"
 		}
-	],
-	 "depends": [
-        { "name" : "ToolbarController" },
-		{ "name" : "ClickThroughBlocker" }
-    ]
+	]
 }

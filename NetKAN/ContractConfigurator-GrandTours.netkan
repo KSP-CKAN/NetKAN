@@ -1,0 +1,30 @@
+{
+	"spec_version": "v1.4",
+	"identifier": "ContractConfigurator-GrandTours",
+	"name": "Contract Pack: Grand Tours",
+	"abstract": "Assortment of grand tours of the system",
+	"author": "linuxgurugamer",
+	"license": "MIT",
+	"$kref": "#/ckan/github/linuxgurugamer/GrandTours",
+	"$vref": "#/ckan/ksp-avc",
+	"release_status": "stable",
+	"resources": {
+		"homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/102186-121-spacetux-contract-pack-unmanned-contracts-rover-contracts-grand-tours-and-sprite-missions/",
+		"spacedock": "https://spacedock.info/mod/50/Contract%20Pack:%20Grand%20Tours",
+		"repository": "https://github.com/linuxgurugamer/GrandTours"
+	},
+	"depends": [
+		{
+			"name": "SpacetuxSA"
+		},
+		{
+			"name": "ContractConfigurator"
+		}
+	],
+	"install": [
+		{
+			"find": "Grandtours",
+			"install_to": "GameData/ContractPacks/Spacetux"
+		}
+	]
+}

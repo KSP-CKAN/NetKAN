@@ -1,23 +1,37 @@
 {
-    "spec_version": "v1.4",
-    "identifier":   "CrewQueueTwo",
-    "$vref":        "#/ckan/ksp-avc",
-    "$kref":        "#/ckan/spacedock/1324",
-    "license":      "MIT",
-    "tags": [
-        "plugin",
-        "crewed"
-    ],
-    "install": [ {
-        "install_to": "GameData",
-        "find": "CrewRandR"
-    } ],
-    "depends": [
-        { "name" : "ClickThroughBlocker" },
-        { "name": "ModuleManager" }
-    ],
-    "conflicts": [
-        { "name" : "BetterCrewAssignment" },
-        { "name" : "CrewQueue" }
-    ]
+	"spec_version": "v1.4",
+	"identifier": "CrewQueueTwo",
+	"name": "Crew R&R",
+	"abstract": "This mod is focused around the idea of encouraging the player to keep a deeper roster of crew, and to increase the value of individual experienced crew.",
+	"author": "linuxgurugamer",
+	"license": "MIT",
+	"$kref": "#/ckan/github/linuxgurugamer/CrewRandR",
+	"$vref": "#/ckan/ksp-avc",
+	"resources": {
+		"homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/159299-12-crewqueue-crew-rotation-and-vacations/",
+		"spacedock": "https://spacedock.info/mod/1324/Crew%20R&R",
+		"repository": "https://github.com/linuxgurugamer/CrewRandR"
+	},
+	"depends": [
+		{
+			"name": "ClickThroughBlocker"
+		},
+		{
+			"name": "ModuleManager"
+		}
+	],
+	"conflicts": [
+		{
+			"name": "BetterCrewAssignment"
+		},
+		{
+			"name": "CrewQueue"
+		}
+	],
+	"install": [
+		{
+			"install_to": "GameData",
+			"find": "CrewRandR"
+		}
+	]
 }

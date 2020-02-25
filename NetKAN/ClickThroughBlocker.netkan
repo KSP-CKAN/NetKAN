@@ -1,23 +1,30 @@
 {
-    "spec_version": "v1.4",
-    "identifier":   "ClickThroughBlocker",
-    "name":         "ClickThrough Blocker",
-    "abstract":     "Helps eliminate the clickthrough problem with mods",
-    "$kref":        "#/ckan/spacedock/1689",
-    "$vref":        "#/ckan/ksp-avc",
-    "license":      "GPL-3.0",
-    "resources": {
-        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/170747-*"
-    },
-    "depends": [
-        { "name": "ZeroMiniAVC" }
-    ],
-    "tags": [
-        "plugin",
-        "library"
-    ],
-    "install": [ {
-        "find": "000_ClickThroughBlocker",
-        "install_to": "GameData"
-    } ]
+	"spec_version": "v1.4",
+	"identifier": "ClickThroughBlocker",
+	"name": "ClickThrough Blocker",
+	"abstract": "Helps eliminate the clickthrough problem with mods",
+	"author": "linuxgurugamer",
+	"license": "GPL-3.0",
+	"$kref": "#/ckan/github/linuxgurugamer/ClickThroughBlocker",
+	"$vref": "#/ckan/ksp-avc",
+	"resources": {
+		"homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/170747-*",
+		"spacedock": "https://spacedock.info/mod/1689/Click%20Through%20Blocker",
+		"repository": "https://github.com/linuxgurugamer/ClickThroughBlocker"
+	},
+	"tags": [
+		"plugin",
+		"library"
+	],
+	"depends": [
+		{
+			"name": "ZeroMiniAVC"
+		}
+	],
+	"install": [
+		{
+			"find": "000_ClickThroughBlocker",
+			"install_to": "GameData"
+		}
+	]
 }

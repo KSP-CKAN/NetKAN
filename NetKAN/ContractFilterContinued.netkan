@@ -1,22 +1,30 @@
 {
-    "spec_version": "v1.4",
-    "identifier":   "ContractFilterContinued",
-    "abstract":     "Allows the user to configure which contracts are available",
-    "$kref":        "#/ckan/spacedock/820",
-    "$vref":        "#/ckan/ksp-avc",
-    "license":      "CC-BY-NC-SA-4.0",
-    "resources" : {
-        "repository"  : "https://github.com/linuxgurugamer/ContractFilterContinued"
-    },
-    "tags": [
-        "plugin",
-        "career"
-    ],
-    "conflicts" : [
-        { "name" : "ContractFilter" }
-    ],
-    "install" : [ {
-        "find"       : "ContractFilterContinued",
-        "install_to" : "GameData"
-    } ]
+	"spec_version": "v1.4",
+	"identifier": "ContractFilterContinued",
+	"name": "Contract Filter Continued",
+	"abstract": "Allows the user to configure which contracts are available",
+	"author": "linuxgurugamer",
+	"license": "CC-BY-NC-SA-4.0",
+	"$kref": "#/ckan/github/linuxgurugamer/ContractFilterContinued",
+	"$vref": "#/ckan/ksp-avc",
+	"resources": {
+		"homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/143085-contract-filter-continued/",
+		"spacedock": "https://spacedock.info/mod/820/Contract%20Filter%20Continued",
+		"repository": "https://github.com/linuxgurugamer/ContractFilterContinued"
+	},
+	"tags": [
+		"plugin",
+		"career"
+	],
+	"conflicts": [
+		{
+			"name": "ContractFilter"
+		}
+	],
+	"install": [
+		{
+			"find": "ContractFilterContinued",
+			"install_to": "GameData"
+		}
+	]
 }

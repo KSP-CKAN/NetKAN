@@ -1,18 +1,32 @@
 {
-    "spec_version": "v1.4",
-    "identifier":   "CritterCrawler",
-    "$kref":        "#/ckan/spacedock/1641",
-    "$vref":        "#/ckan/ksp-avc",
-    "license":      "CC-BY-SA",
-    "tags": [
-        "parts"
-    ],
-    "install": [ {
-        "find": "BahaSP",
-        "install_to": "GameData"
-    } ],
-    "depends": [
-        { "name": "KSPWheel" },
-        { "name": "BDAnimationModules" }
-    ]
+	"spec_version": "v1.4",
+	"identifier": "CritterCrawler",
+	"name": "Retracting/vectoring engines, Critter Crawler",
+	"abstract": "Some cool parts",
+	"author": "linuxgurugamer",
+	"license": "CC-BY-SA",
+	"$kref": "#/ckan/github/linuxgurugamer/CritterCrawlerRetractingVectoringEngines",
+	"$vref": "#/ckan/ksp-avc",
+	"resources": {
+		"homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/169354-131-bdynamics-retractingvectoring-engines-critter-crawler/",
+		"spacedock": "https://spacedock.info/mod/1641/Retracting/vectoring%20engines,%20Critter%20Crawler",
+		"repository": "https://github.com/linuxgurugamer/CritterCrawlerRetractingVectoringEngines"
+	},
+	"tags": [
+		"parts"
+	],
+	"depends": [
+		{
+			"name": "KSPWheel"
+		},
+		{
+			"name": "BDAnimationModules"
+		}
+	],
+	"install": [
+		{
+			"find": "BahaSP",
+			"install_to": "GameData"
+		}
+	]
 }
