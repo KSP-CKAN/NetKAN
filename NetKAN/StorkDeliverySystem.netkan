@@ -1,24 +1,25 @@
 {
     "spec_version" : "v1.4",
     "identifier"   : "StorkDeliverySystem",
-    "name"         : "Stork Delivery System",
-    "abstract"     : "Deliver your big cargo to the planet surface without flipping!",
-    "$kref"        : "#/ckan/github/riocrokite/StorkDeliverySystem",
+    "author"       : [ "riocrokite", "zer0Kerbal" ],
+    "$kref"        : "#/ckan/spacedock/2347",
     "$vref"        : "#/ckan/ksp-avc",
     "license"      : "CC-BY-NC-SA-4.0",
-    "resources" : {
-        "homepage" : "https://forum.kerbalspaceprogram.com/index.php?/topic/101396-*"
-    },
     "tags": [
         "parts"
     ],
     "suggests": [
-        { "name" : "MFS" }
+        { "name": "MoarKerbals"             },
+        { "name": "MFS"                     },
+        { "name": "SimpleLogistics"         },
+        { "name": "SimpleConstruction"      },
+        { "name": "NotSoSimpleConstruction" }
     ],
-    "install" : [
-        {
-            "find"       : "KermangeddonIndustries",
-            "install_to" : "GameData"
-        }
-    ]
+    "supports": [
+        { "name": "KerbalChangelog" }
+    ],
+    "install": [ {
+        "find"      : "KermangeddonIndustries",
+        "install_to": "GameData"
+    } ]
 }
