@@ -3,7 +3,7 @@
     "identifier":   "ModActions",
     "name":         "ModActions",
     "abstract":     "Add mouse only actions from right-click menu to action groups, including resource locking and cross-feeding. Supports both stock and other mod's actions.",
-    "author":       "Diazo",
+    "author":        [ "Diazo", "linuxgurugamer" ],
     "$kref":        "#/ckan/github/linuxgurugamer/ModActions",
     "$vref":        "#/ckan/ksp-avc",
     "release_status": "stable",
