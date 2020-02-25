@@ -1,16 +1,29 @@
 {
-    "spec_version": "v1.4",
-    "identifier":   "BOMPs",
-    "$kref":        "#/ckan/spacedock/1354",
-    "$vref":        "#/ckan/ksp-avc",
-    "license":      "CC-BY-NC-SA-4.0",
-    "tags": [
-        "parts",
-        "uncrewed"
-    ],
-    "install": [ {
-        "filter_regexp": [ ".*~$" ],
-        "find": "BOMPs",
-        "install_to": "GameData"
-    } ]
+	"spec_version": "v1.4",
+	"identifier": "BOMPs",
+	"name": "BOMPs",
+	"abstract": "Bolt-On Mission Probe (BOMP)",
+	"author": "linuxgurugamer",
+	"license": "CC-BY-NC-SA-4.0",
+	"$kref": "#/ckan/github/linuxgurugamer/BOMPs",
+	"$vref": "#/ckan/ksp-avc",
+	"resources": {
+		"homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/160179-12-the-bolt-on-mission-probe-bomp-rerevival-thread/",
+		"spacedock": "https://spacedock.info/mod/1354/BOMPs",
+		"repository": "https://github.com/linuxgurugamer/BOMPs",
+		"x_screenshot": "https://spacedock.info/content/linuxgurugamer_179/BOMPs/BOMPs-1493902399.1295142.png"
+	},
+	"tags": [
+		"parts",
+		"uncrewed"
+	],
+	"install": [
+		{
+			"filter_regexp": [
+				".*~$"
+			],
+			"find": "BOMPs",
+			"install_to": "GameData"
+		}
+	]
 }
