@@ -1,0 +1,13 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "TDAdvancedPropulsionSystems",
+    "$kref":        "#/ckan/spacedock/2348",
+    "license":      "CC-BY-SA-4.0",
+    "tags": [
+        "parts"
+    ],
+    "install": [ {
+        "find":       "GameData/TDAPS",
+        "install_to": "GameData"
+    } ]
+}
