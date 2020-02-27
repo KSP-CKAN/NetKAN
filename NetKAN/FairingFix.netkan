@@ -1,7 +1,13 @@
 {
     "spec_version": "v1.4",
-    "identifier": "FairingFix",
-    "$kref": "#/ckan/spacedock/2349",
-    "license": "GPLv3",
-    "x_via": "Automated SpaceDock CKAN submission"
+    "identifier":   "FairingFix",
+    "$kref":        "#/ckan/spacedock/2349",
+    "$vref":        "#/ckan/ksp-avc",
+    "license":      "GPL-3.0",
+    "tags": [
+        "config"
+    ],
+    "depends": [
+        { "name": "ModuleManager" }
+    ]
 }
