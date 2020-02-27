@@ -1,4 +1,4 @@
-{ 
+{
     "spec_version": "v1.4",
     "identifier":   "BeyondHome",
     "name":         "Beyond Home",
@@ -28,11 +28,9 @@
         { "name": "Scatterer"                       }
     ],
     "provides": [
-        "Scatterer-config",
-        "Scatterer-sunflare",
         "EnvironmentalVisualEnhancements-Config"
     ],
-    "install": [ { 
+    "install": [ {
         "find":       "BeyondHome",
         "install_to": "GameData"
     } ]
