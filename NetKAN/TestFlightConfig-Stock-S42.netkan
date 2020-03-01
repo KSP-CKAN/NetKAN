@@ -5,7 +5,7 @@
     "abstract":     "This config pack adds TestFlight support for Stock parts.",
     "$kref":        "#/ckan/github/Starstrider42/TestFlight-Configs",
     "ksp_version_min": "1.4",
-    "ksp_version_max": "1.7",
+    "ksp_version_max": "1.9",
     "comment": "ksp_version_max because each release adds TF-eligible parts",
     "release_status": "testing",
     "license": "MIT",
