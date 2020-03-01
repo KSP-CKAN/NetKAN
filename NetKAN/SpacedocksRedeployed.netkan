@@ -10,5 +10,8 @@
     "install": [ {
         "find":       "SpaceDockReBoxed",
         "install_to": "GameData"
-    } ]
+    } ],
+    "depends": [
+        { "name": "ModuleManager" }
+    ]
 }
