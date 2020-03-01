@@ -7,7 +7,7 @@
         "parts"
     ],
     "install": [ {
-        "find":       "SpaceDock",
+        "find":       "SpaceDockReBoxed",
         "install_to": "GameData"
     } ]
 }
