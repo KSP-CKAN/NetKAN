@@ -13,7 +13,8 @@
         "InfernalRobotics"
     ],
     "conflicts": [
-        { "name": "InfernalRobotics" }
+        { "name": "InfernalRobotics"             },
+        { "name": "InfernalRobotics-LegacyParts" }
     ],
     "depends": [
         { "name": "ModuleManager" }
