@@ -11,6 +11,7 @@
         "plugin",
         "resources"
     ],
+    "recommends": [ { "name": "ModuleAnimateGenericEffects" } ],
     "install": [ {
         "file"          : "GameData/DavonSupplyMod",
         "install_to"    : "GameData",
