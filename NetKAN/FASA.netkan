@@ -24,7 +24,7 @@
     ],
 	"recommends"    : [
         { "name"    : "RasterPropMonitor" },
-		{ "name"    : "ReflectionPlugin" }
+		{ "name"    : "TexturesUnlimited" }
     ],
 	"conflicts" : [
         { "name": "FASALaunchClamps" }
