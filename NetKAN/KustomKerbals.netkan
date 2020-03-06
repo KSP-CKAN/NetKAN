@@ -1,8 +1,8 @@
 {
     "spec_version": 1,
     "identifier":   "KustomKerbals",
-    "$kref":        "#/ckan/spacedock/423",
-    "$vref":        "#/ckan/ksp-avc",
+    "$kref":        "#/ckan/github/malkuth1974/KustomKerbals",
+    "ksp_version":  "1.4",
     "license":      "MIT",
     "tags": [
         "plugin",
