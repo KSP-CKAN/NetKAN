@@ -1,0 +1,21 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "RealExoplanets",
+    "$kref":        "#/ckan/spacedock/2286",
+    "license":      "CC-BY-NC-SA",
+    "tags": [
+        "config",
+        "planet-pack"
+    ],
+    "depends": [
+        { "name": "ModuleManager" },
+        { "name": "Kopernicus"    }
+    ],
+    "install": [ {
+        "find":       "RealExoplanets",
+        "install_to": "GameData"
+    }, {
+        "find":       "REX-Textures",
+        "install_to": "GameData"
+    } ]
+}
