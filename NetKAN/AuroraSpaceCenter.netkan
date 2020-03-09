@@ -1,0 +1,19 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "AuroraSpaceCenter",
+    "$kref":        "#/ckan/spacedock/2352",
+    "license":      "restricted",
+    "tags": [
+        "config",
+        "buildings"
+    ],
+    "depends": [
+        { "name": "ModuleManager"    },
+        { "name": "KerbalKonstructs" }
+    ],
+    "install": [ {
+        "find":       "AuroraSpaceCenter",
+        "install_to": "GameData",
+        "filter":     [ ".git" ]
+    } ]
+}
