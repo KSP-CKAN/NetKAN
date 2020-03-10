@@ -1,18 +1,19 @@
 {
-    "spec_version": "v1.20",
-    "identifier":   "ShipManifest",
-    "abstract":     "Manages Crew, Science, & Resources on a given vessel.",
-    "author":       "Papa_Joe",
-    "$kref":        "#/ckan/github/PapaJoesSoup/ShipManifest",
-    "$vref":        "#/ckan/ksp-avc",
-    "release_status": "stable",
-    "license":      "CC-BY-NC-SA-4.0",
-    "resources": {
-        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/56643-*",
-        "repository": "https://github.com/PapaJoesSoup/ShipManifest",
-        "curse": "http://kerbal.curseforge.com/plugins/220357-ship-manifest"
+    "spec_version"      : "v1.4",
+    "identifier"        : "ShipManifest",
+    "name"              : "Ship Manifest",
+    "abstract"          : "Manages Crew, Science, & Resources on a given vessel.",
+    "author"            : [ "Papa_Joe", "Micha" ],
+    "$kref"             : "#/ckan/github/mwerle/ShipManifest",
+    "$vref"             : "#/ckan/ksp-avc",
+    "release_status"    : "stable",
+    "license"           : "CC-BY-NC-SA-4.0",
+    "resources"         : {
+        "homepage"      : "http://forum.kerbalspaceprogram.com/index.php?showtopic=192129",
+        "repository"    : "https://github.com/mwerle/ShipManifest",
+        "bugtracker"    : "https://github.com/mwerle/ShipManifest/issues"
     },
-    "tags": [
+    "tags"              : [
         "plugin",
         "information",
         "crewed",
@@ -20,11 +21,11 @@
         "resources",
         "convenience"
     ],
-    "suggests": [
-        { "name": "ConnectedLivingSpace" },
-        { "name": "Toolbar" },
-        { "name": "DeepFreeze" },
-        { "name": "RemoteTech" },
-        { "name": "ModuleManager" }
+    "suggests"          : [
+        { "name"        : "ConnectedLivingSpace" },
+        { "name"        : "Toolbar" },
+        { "name"        : "DeepFreeze" },
+        { "name"        : "RemoteTech" },
+        { "name"        : "ModuleManager" }
     ]
 }
