@@ -8,7 +8,8 @@
     "$vref":        "#/ckan/ksp-avc",
     "license":      "GPL-3.0",
     "resources": {
-        "homepage": "http://www.Kerbaltek.com/graphotron"
+        "homepage": "http://www.Kerbaltek.com/graphotron",
+        "repository": "https://github.com/Ezriilc/KSP-Graphotron"
     },
     "tags": [
         "plugin",
