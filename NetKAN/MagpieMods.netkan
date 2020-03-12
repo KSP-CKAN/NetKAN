@@ -1,7 +1,29 @@
 {
     "spec_version": "v1.4",
-    "identifier": "MagpieMods",
-    "$kref": "#/ckan/spacedock/2361",
-    "license": "GPLv3",
-    "x_via": "Automated SpaceDock CKAN submission"
+    "identifier":   "MagpieMods",
+    "$kref":        "#/ckan/spacedock/2361",
+    "license":      "GPL-3.0",
+    "tags": [
+        "config",
+        "graphics"
+    ],
+    "conflicts": [
+        { "name": "TexturesUnlimited-UnofficialStockConfig" }
+    ],
+    "depends": [
+        { "name": "ModuleManager"     },
+        { "name": "TexturesUnlimited" }
+    ],
+    "supports": [
+        { "name": "ReStock"           },
+        { "name": "BluedogDB"         },
+        { "name": "UniversalStorage2" },
+        { "name": "Kerbonov"          },
+        { "name": "USI-FTT"           },
+        { "name": "KIS"               },
+        { "name": "KAS"               },
+        { "name": "B9"                },
+        { "name": "B9AerospaceHX"     },
+        { "name": "HeatControl"       }
+    ]
 }
