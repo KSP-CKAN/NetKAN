@@ -3,26 +3,19 @@
     "identifier"   : "OhScrap",
     "name"         : "Oh Scrap!",
     "abstract"     : "A ScrapYard based Part Failure and Reliability Mod",
-    "$kref"        : "#/ckan/github/severedsolo/OhScrap",
+    "$kref"        : "#/ckan/spacedock/2364",
     "$vref"        : "#/ckan/ksp-avc",
     "license"      : "MIT",
-    "resources" : {
-        "homepage" : "https://forum.kerbalspaceprogram.com/index.php?/topic/160854-*"
-    },
     "tags": [
         "plugin"
     ],
-    "depends" : [
-        { "name" : "ScrapYard" },
-        { "name" : "ModuleManager" },
-        { "name" : "KerbalChangelog" }
+    "depends": [
+        { "name": "ScrapYard"       },
+        { "name": "ModuleManager"   },
+        { "name": "KerbalChangelog" }
     ],
-    "recommends" : [
+    "recommends": [
         { "name": "KerbalConstructionTime" },
-        { "name": "StageRecovery" }
-    ],
-    "install" : [ {
-        "find" : "OhScrap",
-        "install_to" : "GameData/Severedsolo"
-    } ]
+        { "name": "StageRecovery"          }
+    ]
 }
