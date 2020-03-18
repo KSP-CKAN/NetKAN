@@ -4,14 +4,8 @@
     "$kref":        "#/ckan/spacedock/811",
     "x_netkan_force_v": true,
     "license":      "MIT",
-    "resources": {
-        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/142647-*"
-    },
     "tags": [
         "parts",
         "science"
-    ],
-    "install": [
-        { "find": "Solar Science", "install_to": "GameData" }
     ]
 }
