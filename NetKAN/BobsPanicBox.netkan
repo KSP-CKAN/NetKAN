@@ -1,28 +1,48 @@
 {
-    "spec_version": "v1.4",
-    "identifier":   "BobsPanicBox",
-    "$kref":        "#/ckan/spacedock/1894",
-    "$vref":        "#/ckan/ksp-avc",
-    "x_netkan_epoch": 1,
-    "license":      "GPL-3.0",
-    "resources": {
-        "repository": "https://github.com/linuxgurugamer/BobsPanicBox",
-        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/176073-*"
-    },
-    "tags": [
-        "plugin",
-        "control"
-    ],
-    "depends": [
-        { "name": "ToolbarController" },
-        { "name": "ClickThroughBlocker" },
-        { "name": "ModuleManager" }
-    ],
-    "recommends": [
-        { "name": "PEBKACIndustriesLaunchEscapeSystem" }
-    ],
-    "install": [ {
-        "find": "BobsPanicBox",
-        "install_to": "GameData"
-    } ]
+	"spec_version": "v1.4",
+	"identifier": "BobsPanicBox",
+	"name": "Bob's Panic Box",
+	"abstract": "Automatic control of the abort systems",
+	"author": "linuxgurugamer",
+	"license": "GPL-3.0",
+	"$kref": "#/ckan/github/linuxgurugamer/BobsPanicBox",
+	"$vref": "#/ckan/ksp-avc",
+	"resources": {
+		"homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/176073-*",
+		"spacedock": "https://spacedock.info/mod/1894/Bob's%20Panic%20Box",
+		"repository": "https://github.com/linuxgurugamer/BobsPanicBox",
+		"x_screenshot": "https://spacedock.info/content/linuxgurugamer_179/Bobs_Panic_Box/Bobs_Panic_Box-1529932018.4543815.png"
+	},
+	"tags": [
+		"plugin",
+		"control"
+	],
+	"depends": [
+		{
+			"name": "ToolbarController"
+		},
+		{
+			"name": "ClickThroughBlocker"
+		},
+		{
+			"name": "ModuleManager"
+		}
+	],
+	"recommends": [
+		{
+			"name": "ToolbarController"
+		},
+		{
+			"name": "ClickThroughBlocker"
+		},
+		{
+			"name": "ModuleManager"
+		}
+	],
+	"install": [
+		{
+			"find": "BobsPanicBox",
+			"install_to": "GameData"
+		}
+	]
 }

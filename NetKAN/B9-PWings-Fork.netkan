@@ -19,9 +19,13 @@
     "conflicts": [
         { "name": "B9AerospaceProceduralParts" }
     ],
+    "suggests": [
+        { "name": "TexturesUnlimited" },
+        { "name": "ProceduralParts"   }
+    ],
     "install": [
         {
-            "file":       "GameData/B9_Aerospace_ProceduralWings",
+            "file":       "B9_Aerospace_ProceduralWings",
             "install_to": "GameData"
         }
     ]

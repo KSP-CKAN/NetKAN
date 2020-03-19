@@ -1,21 +1,27 @@
 {
-    "spec_version" : "v1.6",
-    "identifier"   : "BetterLoadSaveGame",
-    "$kref": "#/ckan/spacedock/2326",
-    "$vref": "#/ckan/ksp-avc",
-    "license"      : "MIT",
-    "resources": {
-        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/191543-18x-betterloadsavegame/"
-    },
-    "depends": [
-        { "name": "ToolbarController" },
-        { "name": "ClickThroughBlocker" }
-    ],
-    "tags": [
-        "plugin"
-    ],
-    "suggests": [
-        { "name": "DatedQuickSaves"          },
-        { "name": "KerbalImprovedSaveSystem" }
-    ]
+	"spec_version": "v1.6",
+	"identifier": "BetterLoadSaveGame",
+	"name": "Better Load Save Game Renewed",
+	"abstract": "Save games with dates, integration in main gaim",
+	"author": "linuxgurugamer",
+	"license": "MIT",
+	"$kref": "#/ckan/github/linuxgurugamer/BetterLoadSaveGame",
+	"$vref": "#/ckan/ksp-avc",
+	"resources": {
+		"homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/191543-18x-betterloadsavegame/",
+		"spacedock": "https://spacedock.info/mod/2326/Better%20Load%20Save%20Game%20Renewed",
+		"repository": "https://github.com/linuxgurugamer/BetterLoadSaveGame",
+		"x_screenshot": "https://spacedock.info/content/linuxgurugamer_179/Better_Load_Save_Game_Renewed/Better_Load_Save_Game_Renewed-1581380790.2555673.jpg"
+	},
+	"tags": [
+		"plugin"
+	],
+	"depends": [
+		{
+			"name": "ToolbarController"
+		},
+		{
+			"name": "ClickThroughBlocker"
+		}
+	]
 }

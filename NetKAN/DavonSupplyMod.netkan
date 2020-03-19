@@ -1,5 +1,6 @@
 {
     "spec_version": 1,
+    "x_netkan_epoch": "1",
     "identifier":   "DavonSupplyMod",
     "$kref":        "#/ckan/spacedock/364",
     "license":      "GPL-2.0",
@@ -10,6 +11,7 @@
         "plugin",
         "resources"
     ],
+    "recommends": [ { "name": "ModuleAnimateGenericEffects" } ],
     "install": [ {
         "file"          : "GameData/DavonSupplyMod",
         "install_to"    : "GameData",

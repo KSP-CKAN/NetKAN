@@ -1,27 +1,42 @@
 {
-    "spec_version": "v1.4",
-    "identifier"  : "BetterScienceLabsContinued",
-    "$kref"       : "#/ckan/spacedock/45",
-    "$vref"       : "#/ckan/ksp-avc",
-    "license"     : "MIT",
-    "release_status": "stable",
-    "resources" : {
-        "homepage"  : "https://forum.kerbalspaceprogram.com/index.php?/topic/112754-*",
-        "repository": "https://github.com/linuxgurugamer/BetterScienceLabsContinued"
-    },
-    "tags": [
-        "parts",
-        "science"
-    ],
-    "recommends": [
-        { "name": "JanitorsCloset" }
-    ],
-    "depends" : [
-        { "name": "ModuleManager" },
-        { "name": "SpacetuxSA"    }
-    ],
-    "install": [ {
-        "find"       : "BetterScienceLabsContinued",
-        "install_to" : "GameData"
-    } ]
+	"spec_version": "v1.4",
+	"identifier": "BetterScienceLabsContinued",
+	"name": "Better Science Labs Continued",
+	"abstract": "Better Science Labs Continued",
+	"author": "linuxgurugamer",
+	"license": "MIT",
+	"$kref": "#/ckan/github/linuxgurugamer/BetterScienceLabsContinued",
+	"$vref": "#/ckan/ksp-avc",
+	"release_status": "stable",
+	"resources": {
+		"homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/112754-*",
+		"spacedock": "https://spacedock.info/mod/45/Better%20Science%20Labs%20Continued",
+		"repository": "https://github.com/linuxgurugamer/BetterScienceLabsContinued"
+	},
+	"tags": [
+		"parts",
+		"science"
+	],
+	"depends": [
+		{
+			"name": "ModuleManager"
+		},
+		{
+			"name": "SpacetuxSA"
+		}
+	],
+	"recommends": [
+		{
+			"name": "ModuleManager"
+		},
+		{
+			"name": "SpacetuxSA"
+		}
+	],
+	"install": [
+		{
+			"find": "BetterScienceLabsContinued",
+			"install_to": "GameData"
+		}
+	]
 }

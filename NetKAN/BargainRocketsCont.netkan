@@ -1,17 +1,30 @@
 {
-    "spec_version": "v1.4",
-    "identifier":   "BargainRocketsCont",
-    "$kref":        "#/ckan/spacedock/1291",
-    "$vref":        "#/ckan/ksp-avc",
-    "license":      "CC-BY-SA-4.0",
-    "tags": [
-        "parts"
-    ],
-    "install": [ {
-        "find": "BargainRockets",
-        "install_to": "GameData"
-    } ],
-    "depends": [
-        { "name": "ModuleManager" }
-    ]
+	"spec_version": "v1.4",
+	"identifier": "BargainRocketsCont",
+	"name": "Bargain Rocket Parts Recycled",
+	"abstract": "Backyard rocket parts ",
+	"author": "linuxgurugamer",
+	"license": "CC-BY-SA-4.0",
+	"$kref": "#/ckan/github/linuxgurugamer/BargainRockets",
+	"$vref": "#/ckan/ksp-avc",
+	"resources": {
+		"homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/158328-12-ba",
+		"spacedock": "https://spacedock.info/mod/1291/Bargain%20Rocket%20Parts%20Recycled",
+		"repository": "https://github.com/linuxgurugamer/BargainRockets",
+		"x_screenshot": "https://spacedock.info/content/linuxgurugamer_179/Bargain_Rocket_Parts_Recycled/Bargain_Rocket_Parts_Recycled-1491015493.8900354.png"
+	},
+	"tags": [
+		"parts"
+	],
+	"depends": [
+		{
+			"name": "ModuleManager"
+		}
+	],
+	"install": [
+		{
+			"find": "BargainRockets",
+			"install_to": "GameData"
+		}
+	]
 }

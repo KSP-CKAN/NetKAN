@@ -1,0 +1,35 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "MoarKerbals",
+    "author":       [ "strideknight", "zer0Kerbal" ],
+    "$kref":        "#/ckan/spacedock/2324",
+    "$vref":        "#/ckan/ksp-avc",
+    "license":      "CC-BY-NC-SA-4.0",
+    "tags": [
+        "parts",
+        "plugin",
+        "crewed"
+    ],
+    "depends": [
+        { "name": "ModuleManager" }
+    ],
+    "recommends": [
+        { "name": "KerbalStats"           },
+        { "name": "CommunityResourcePack" }
+    ],
+    "suggests": [
+        { "name": "StockalikeMiningExtension" },
+        { "name": "KIS"                       },
+        { "name": "KAS"                       },
+        { "name": "NotSoSimpleConstruction"   },
+        { "name": "InfernalRoboticsNext"      },
+        { "name": "SimpleConstruction"        },
+        { "name": "SimpleLogistics"           },
+        { "name": "ODFC"                      }
+    ],
+    "supports": [
+        { "name": "KerbalChangelog" },
+        { "name": "USI-LS"          },
+        { "name": "UKS"             }
+    ]
+}

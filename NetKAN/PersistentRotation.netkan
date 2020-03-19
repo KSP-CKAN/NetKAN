@@ -12,7 +12,7 @@
     ],
     "install": [
         {
-            "file":       "PersistentRotation/GameData/PersistentRotation",
+            "file":       "GameData/PersistentRotation",
             "install_to": "GameData"
         }
     ],

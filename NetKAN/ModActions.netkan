@@ -3,23 +3,25 @@
     "identifier":   "ModActions",
     "name":         "ModActions",
     "abstract":     "Add mouse only actions from right-click menu to action groups, including resource locking and cross-feeding. Supports both stock and other mod's actions.",
-    "author":       "Diazo",
-    "$kref":        "#/ckan/github/SirDiazo/ModActions",
-    "ksp_version":  "1.3",
+    "author":        [ "Diazo", "linuxgurugamer" ],
+    "$kref":        "#/ckan/github/linuxgurugamer/ModActions",
+    "$vref":        "#/ckan/ksp-avc",
     "release_status": "stable",
     "license":      "GPL-3.0",
     "resources": {
-        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/116142-*"
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/191914-*"
     },
     "tags": [
         "plugin",
         "convenience"
     ],
     "depends": [
-        { "name": "ModuleManager" }
+        { "name": "ModuleManager" },
+        { "name": "ToolbarController" },
+        { "name": "ClickThroughBlocker" }
     ],
     "install": [ {
-        "file":       "GameData/Diazo",
+        "file":       "GameData/ModActions",
         "install_to": "GameData"
     } ]
 }
