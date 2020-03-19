@@ -4,7 +4,7 @@
     "name":         "Civilian Population",
     "abstract":     "Turn your Kerbal society into a Type 1 Civilization by adding civilian exploration!",
     "$kref":        "#/ckan/github/linuxgurugamer/CivilianPopulation",
-    "ksp_version_min": "1.8.0",
+    "$vref":        "#/ckan/ksp-avc",
     "x_netkan_epoch": 1,
     "license":      "CC-BY-4.0",
     "resources": {
@@ -17,7 +17,7 @@
     ],
     "depends": [
         { "name": "CommunityResourcePack" },
-        { "name" : "ToolbarController" },
-        { "name" : "ClickThroughBlocker" }
+        { "name": "ToolbarController" },
+        { "name": "ClickThroughBlocker" }
     ]
 }
