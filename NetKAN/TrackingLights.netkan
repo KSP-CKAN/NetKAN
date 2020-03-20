@@ -5,11 +5,11 @@
     "abstract":     "Customizable, target tracking spotlights",
     "description":  "Includes 2 spotlight parts that are controlled via Light tracking module.  Spotlights can be manually positioned or set to track a target.  Supports Color, Intensity, Range, and cone size changes in flight.",
     "author":       "Trolllception",
-    "$kref":        "#/ckan/github/droric/TrackingLights",
-    "ksp_version":  "1.7",
+    "$kref":        "#/ckan/github/linuxgurugamer/TrackingLights",
+	"$vref":        "#/ckan/ksp-avc",
 	"license":      "CC-BY-NC-SA-3.0",
     "resources": {
-        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/164677-*"
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/192536-*"
     },
     "tags": [
         "plugin",
