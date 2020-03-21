@@ -3,6 +3,7 @@
     "identifier":   "SimpleLogistics",
     "author":       [ "RealGecko", "zer0Kerbal" ],
     "$kref":        "#/ckan/spacedock/2312",
+    "$vref":        "#/ckan/ksp-avc",
     "license":      "GPL-3.0",
      "tags": [
        "plugin",
