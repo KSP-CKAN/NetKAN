@@ -1,0 +1,17 @@
+{
+    "spec_version": "v1.16",
+    "identifier":   "IntakeAirDrainIt",
+    "$kref":        "#/ckan/spacedock/2366",
+    "license":      "MIT",
+    "tags": [
+        "config"
+    ],
+    "depends": [
+        { "name": "ModuleManager" }
+    ],
+    "install": [ {
+        "find":               "Air Intake Drain.cfg",
+        "find_matches_files": true,
+        "install_to":         "GameData/IntakeAirDrainIt"
+    } ]
+}
