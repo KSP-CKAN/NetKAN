@@ -1,7 +1,10 @@
 {
     "spec_version": "v1.4",
-    "identifier": "UTechNuclearScienceInk",
-    "$kref": "#/ckan/spacedock/2371",
-    "license": "MIT",
-    "x_via": "Automated SpaceDock CKAN submission"
+    "identifier":   "UTechNuclearScienceInk",
+    "$kref":        "#/ckan/spacedock/2371",
+    "ksp_version":  "any",
+    "license":      "MIT",
+    "tags": [
+        "parts"
+    ]
 }
