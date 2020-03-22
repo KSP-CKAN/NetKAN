@@ -1,0 +1,15 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "TheMartianforKSP",
+    "author":       [ "MoviesColin", "bcink" ],
+    "$kref":        "#/ckan/spacedock/2370",
+    "license":      "CC-BY-NC-SA-4.0",
+    "tags": [
+        "parts",
+        "crewed"
+    ],
+    "install": [ {
+        "find":       "TM4KSP",
+        "install_to": "GameData"
+    } ]
+}
