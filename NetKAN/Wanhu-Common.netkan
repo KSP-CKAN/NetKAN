@@ -4,6 +4,7 @@
     "name":         "Wanhu Common",
     "abstract":     "Shared files for the Long March mods",
     "$kref":        "#/ckan/spacedock/2362",
+    "license":      "CC-BY-NC-ND-4.0",
     "tags": [
         "library",
         "plugin"
