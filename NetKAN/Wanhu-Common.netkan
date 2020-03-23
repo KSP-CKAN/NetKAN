@@ -1,0 +1,33 @@
+{
+    "spec_version": "v1.16",
+    "identifier":   "Wanhu-Common",
+    "name":         "Wanhu Common",
+    "abstract":     "Shared files for the Long March mods",
+    "$kref":        "#/ckan/spacedock/2362",
+    "license":      "CC-BY-NC-ND-4.0",
+    "tags": [
+        "library",
+        "plugin"
+    ],
+    "install": [ {
+        "find":       "Wanhu/Wanhu_Parts/Assets",
+        "install_to": "GameData/Wanhu/Wanhu_Parts"
+    }, {
+        "find":       "Wanhu/Wanhu_Parts/Flags",
+        "install_to": "GameData/Wanhu/Wanhu_Parts"
+    }, {
+        "find":       "Wanhu/Wanhu_Parts/FX",
+        "install_to": "GameData/Wanhu/Wanhu_Parts"
+    }, {
+        "find":       "Wanhu/Wanhu_Parts/Icons",
+        "install_to": "GameData/Wanhu/Wanhu_Parts"
+    }, {
+        "find":       "Wanhu/Wanhu_Parts/WanhuTools.dll",
+        "find_matches_files": true,
+        "install_to": "GameData/Wanhu/Wanhu_Parts"
+    }, {
+        "find":       "Wanhu/Wanhu_Parts/WanhuCategory.cfg",
+        "find_matches_files": true,
+        "install_to": "GameData/Wanhu/Wanhu_Parts"
+    } ]
+}
