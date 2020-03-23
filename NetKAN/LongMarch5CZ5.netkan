@@ -4,10 +4,15 @@
     "$kref":        "#/ckan/spacedock/2351",
     "license":      "CC-BY-NC-ND-4.0",
     "tags": [
-        "parts"
+        "parts",
+        "plugin"
+    ],
+    "conflicts": [
+        { "name": "LongMarch11CZ11" }
     ],
     "install": [ {
         "find":       "Wanhu",
-        "install_to": "GameData"
+        "install_to": "GameData",
+        "filter":     [ "Assets", "Flags" ]
     } ]
 }
