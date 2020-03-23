@@ -1,5 +1,5 @@
 {
-    "spec_version": "v1.4",
+    "spec_version": "v1.16",
     "identifier":   "LongMarch11CZ11",
     "$kref":        "#/ckan/spacedock/2362",
     "license":      "CC-BY-NC-ND-4.0",
@@ -12,6 +12,11 @@
     "install": [ {
         "find":       "Wanhu",
         "install_to": "GameData",
-        "filter":     [ "Assets", "Flags", "FX", "Icons", "WanhuTools.dll", "WanhuCategory.cfg" ]
+        "filter":     [ "Assets", "Flags", "FX", "Icons", "WanhuTools.dll", "WanhuCategory.cfg" ],
+        "filter_regexp": [ ".*\\.craft$" ]
+    }, {
+        "find_regexp": ".*\\.craft$",
+        "find_matches_files": true,
+        "install_to":  "Ships/VAB"
     } ]
 }
