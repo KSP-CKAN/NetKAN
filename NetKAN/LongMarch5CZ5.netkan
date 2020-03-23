@@ -4,15 +4,14 @@
     "$kref":        "#/ckan/spacedock/2351",
     "license":      "CC-BY-NC-ND-4.0",
     "tags": [
-        "parts",
-        "plugin"
+        "parts"
     ],
-    "conflicts": [
-        { "name": "LongMarch11CZ11" }
+    "depends": [
+        { "name": "Wanhu-Common" }
     ],
     "install": [ {
         "find":       "Wanhu",
         "install_to": "GameData",
-        "filter":     [ "Assets", "Flags" ]
+        "filter":     [ "Assets", "Flags", "FX", "Icons", "WanhuTools.dll", "WanhuCategory.cfg" ]
     } ]
 }
