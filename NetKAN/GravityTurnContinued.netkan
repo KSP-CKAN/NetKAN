@@ -4,12 +4,11 @@
     "name":         "GravityTurn Continued",
     "abstract":     "Automated highly efficient launches",
     "$kref":        "#/ckan/github/linuxgurugamer/GravityTurn",
-	"$vref":        "#/ckan/ksp-avc",
+    "$vref":        "#/ckan/ksp-avc",
     "x_netkan_epoch": 3,
     "license":      "GPL-3.0",
     "resources": {
-        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/148448-*",
-        "repository": "https://github.com/AndyMt/GravityTurn/"
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/192590-*"
     },
     "tags": [
         "plugin",
@@ -26,7 +25,7 @@
         }
     ],
     "depends": [
-        { "name" : "ToolbarController" },
-        { "name" : "ClickThroughBlocker" }
+        { "name": "ToolbarController" },
+        { "name": "ClickThroughBlocker" }
     ]
 }
