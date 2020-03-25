@@ -3,10 +3,9 @@
     "identifier":   "GravityTurnContinued",
     "name":         "GravityTurn Continued",
     "abstract":     "Automated highly efficient launches",
-    "$kref":        "#/ckan/github/AndyMt/GravityTurn",
-    "ksp_version_min": "1.3",
-    "ksp_version_max": "1.9",
-    "x_netkan_epoch": 2,
+    "$kref":        "#/ckan/github/linuxgurugamer/GravityTurn",
+	"$vref":        "#/ckan/ksp-avc",
+    "x_netkan_epoch": 3,
     "license":      "GPL-3.0",
     "resources": {
         "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/148448-*",
@@ -25,5 +24,9 @@
             "find": "GravityTurn",
             "install_to": "GameData"
         }
+    ],
+    "depends": [
+        { "name" : "ToolbarController" },
+        { "name" : "ClickThroughBlocker" }
     ]
 }
