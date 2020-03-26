@@ -1,16 +1,16 @@
 {
     "spec_version": "v1.4",
     "identifier":   "ReentryParticleEffect",
-    "$kref":        "#/ckan/spacedock/819",
+    "$kref":        "#/ckan/spacedock/2373",
     "$vref":        "#/ckan/ksp-avc",
-    "license":      "restricted",
+    "license":      "GPL-2.0",
     "tags": [
         "plugin",
         "graphics"
     ],
     "install": [
         {
-            "find":"GameData/ReentryParticleEffect",
+            "find":       "GameData/ReentryParticleEffect",
             "install_to": "GameData"
         }
     ]
