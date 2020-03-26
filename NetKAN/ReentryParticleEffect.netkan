@@ -10,7 +10,7 @@
     ],
     "install": [
         {
-            "find":       "GameData/ReentryParticleEffect",
+            "find":       "GameData/ReentryParticleEffectRenewed",
             "install_to": "GameData"
         }
     ]
