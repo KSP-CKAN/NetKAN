@@ -21,8 +21,9 @@
         { "name": "ModuleManager" }
     ],
     "recommends": [
-        { "name" : "KerbalStats" },
-        { "name" : "Toolbar"     }
+        { "name" : "KerbalStats"         },
+        { "name" : "Toolbar"             },
+        { "name" : "DeadskinsMeshSwitch" }
     ],
     "suggests": [
         { "name": "StockalikeMiningExtension"    },
@@ -42,14 +43,11 @@
         { "name": "ExtraPlanetaryLaunchpads" }
     ],
     "provides": [ "ExtraPlanetaryLaunchpads" ],
-    "install": [
-        {
-            "find": "SimpleConstruction",
-            "install_to": "GameData"
-        },
-        {
-            "find": "ExtraplanetaryLaunchpads",
-            "install_to": "GameData"
-        }
-    ]
+    "install": [ {
+        "find":       "SimpleConstruction",
+        "install_to": "GameData"
+    }, {
+        "find":       "ExtraplanetaryLaunchpads",
+        "install_to": "GameData"
+    } ]
 }
