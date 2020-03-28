@@ -21,10 +21,9 @@
         { "name": "ModuleManager" }
     ],
     "recommends": [
-        { "name" : "KerbalStats"                 },
-        { "name" : "Toolbar"                     },
-        { "name" : "B9PartSwitch"                },
-        { "name" : "InterstellarFuelSwitch-Core" }
+        { "name" : "KerbalStats"         },
+        { "name" : "Toolbar"             },
+        { "name" : "DeadskinsMeshSwitch" }
     ],
     "suggests": [
         { "name": "StockalikeMiningExtension"    },
