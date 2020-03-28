@@ -21,8 +21,10 @@
         { "name": "ModuleManager" }
     ],
     "recommends": [
-        { "name" : "KerbalStats" },
-        { "name" : "Toolbar"     }
+        { "name" : "KerbalStats"                 },
+        { "name" : "Toolbar"                     },
+        { "name" : "B9PartSwitch"                },
+        { "name" : "InterstellarFuelSwitch-Core" }
     ],
     "suggests": [
         { "name": "StockalikeMiningExtension"    },
@@ -42,14 +44,11 @@
         { "name": "ExtraPlanetaryLaunchpads" }
     ],
     "provides": [ "ExtraPlanetaryLaunchpads" ],
-    "install": [
-        {
-            "find": "SimpleConstruction",
-            "install_to": "GameData"
-        },
-        {
-            "find": "ExtraplanetaryLaunchpads",
-            "install_to": "GameData"
-        }
-    ]
+    "install": [ {
+        "find":       "SimpleConstruction",
+        "install_to": "GameData"
+    }, {
+        "find":       "ExtraplanetaryLaunchpads",
+        "install_to": "GameData"
+    } ]
 }
