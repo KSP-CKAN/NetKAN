@@ -1,7 +1,16 @@
 {
     "spec_version": "v1.4",
-    "identifier": "HyperDriveMod",
-    "$kref": "#/ckan/spacedock/2377",
-    "license": "Public-Domain,-same-as-the-original",
-    "x_via": "Automated SpaceDock CKAN submission"
+    "identifier":   "HyperDriveMod",
+    "$kref":        "#/ckan/spacedock/2377",
+    "license":      "public-domain",
+    "tags": [
+        "parts"
+    ],
+    "depends": [
+        { "name": "ModuleManager" }
+    ],
+    "install": [ {
+        "find":       "HYPERMOD 2.4  10k SPECIAL",
+        "install_to": "GameData"
+    } ]
 }
