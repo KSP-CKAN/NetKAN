@@ -8,7 +8,7 @@
     "ksp_version":  "1.8",
     "license":      "restricted",
     "resources": {
-        "homepage":"https://forum.kerbalspaceprogram.com/index.php?/topic/182708-*"
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/182708-*"
     },
     "tags": [
         "config",
@@ -16,7 +16,8 @@
         "graphics"
     ],
     "depends": [
-        { "name": "Kopernicus" }
+        { "name": "Kopernicus"                 },
+        { "name": "Scatterer-sunflare-default" }
     ],
     "conflicts": [
         { "name": "GPP"                     },
