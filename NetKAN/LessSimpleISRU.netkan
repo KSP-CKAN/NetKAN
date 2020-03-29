@@ -1,7 +1,19 @@
 {
     "spec_version": "v1.4",
-    "identifier": "LessSimpleISRU",
-    "$kref": "#/ckan/spacedock/2378",
-    "license": "GPLv3",
-    "x_via": "Automated SpaceDock CKAN submission"
+    "identifier":   "LessSimpleISRU",
+    "$kref":        "#/ckan/spacedock/2378",
+    "license":      "GPL-3.0",
+    "tags": [
+        "config",
+        "resources"
+    ],
+    "depends": [
+        { "name": "ModuleManager"         },
+        { "name": "CommunityResourcePack" },
+        { "name": "B9PartSwitch"          }
+    ],
+    "install": [ {
+        "find":       "LSI",
+        "install_to": "GameData"
+    } ]
 }
