@@ -1,0 +1,17 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "CarnationREDFlexibleParts",
+    "$kref":        "#/ckan/spacedock/2380",
+    "license":      "CC-BY-SA-4.0",
+    "tags: [
+        "plugin",
+        "parts"
+    ],
+    "depends": [
+        { "name": "ModuleManager" }
+    ],
+    "install": [ {
+        "find":       "CarnationREDFlexiblePart",
+        "install_to": "GameData"
+    } ]
+}
