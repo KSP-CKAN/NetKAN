@@ -1,0 +1,19 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "MinorPlanetsExpansion",
+    "$kref":        "#/ckan/spacedock/2383",
+    "license":      "MIT",
+    "tags": [
+        "config",
+        "planet-pack"
+    ],
+    "depends": [
+        { "name": "ModuleManager"   },
+        { "name": "Kopernicus"      },
+        { "name": "OuterPlanetsMod" }
+    ],
+    "install": [ {
+        "find":       "MPE",
+        "install_to": "GameData"
+    } ]
+}
