@@ -9,5 +9,9 @@
     ],
     "depends": [
         { "name": "ModuleManager" }
+    ],
+    "recommends": [
+        { "name": "KerbalEngineerRedux" },
+        { "name": "TweakScale" }
     ]
 }
