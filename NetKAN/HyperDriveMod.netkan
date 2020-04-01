@@ -10,8 +10,8 @@
     "depends": [
         { "name": "ModuleManager" }
     ],
-    "install": [ {
-        "find_regexp": "HYPERMOD.*",
-        "install_to":  "GameData"
-    } ]
+    "recommends": [
+        { "name": "KerbalEngineerRedux" },
+        { "name": "TweakScale" }
+    ]
 }
