@@ -1,7 +1,18 @@
 {
     "spec_version": "v1.4",
-    "identifier": "RoguePlanetPack",
-    "$kref": "#/ckan/spacedock/2382",
-    "license": "CCBYNCND",
-    "x_via": "Automated SpaceDock CKAN submission"
+    "identifier":   "RoguePlanetPack",
+    "$kref":        "#/ckan/spacedock/2382",
+    "license":      "CC-BY-NC-ND",
+    "tags": [
+        "config",
+        "planet-pack"
+    ],
+    "depends": [
+        { "name": "Kopernicus"                      },
+        { "name": "EnvironmentalVisualEnhancements" }
+    ],
+    "install": [ {
+        "find":       "APRIL-1",
+        "install_to": "GameData"
+    } ]
 }
