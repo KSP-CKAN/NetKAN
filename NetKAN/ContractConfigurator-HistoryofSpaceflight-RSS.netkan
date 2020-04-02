@@ -10,7 +10,8 @@
     ],
     "depends": [
         { "name": "ModuleManager"        },
-        { "name": "ContractConfigurator" }
+        { "name": "ContractConfigurator" },
+        { "name": "RealSolarSystem"      }
     ],
     "recommends": [
         { "name": "BluedogDB"   },
