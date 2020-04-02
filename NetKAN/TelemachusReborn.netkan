@@ -1,43 +1,45 @@
 {
-    "spec_version"   : 1,
-    "identifier"     : "TelemachusReborn",
-    "name"           : "Telemachus Reborn",
-    "abstract"       : "Telemachus is a universal Web Telemetry Mod for Kerbal Space Program. It allows you to access any aspects of game from browser.",
-    "author"         : "DanGSun",
-    "$kref"          : "#/ckan/github/TeleIO/Telemachus-1",
-    "$vref"          : "#/ckan/ksp-avc",
-    "x_netkan_version_edit": "^[vV]?(?<version>[\\d\\.]+)(?:-.+)*",
-    "license"        : "MIT",
-    "release_status" : "stable",
-    "resources"      : {
-        "homepage" : "https://forum.kerbalspaceprogram.com/index.php?/topic/179887-*",
-        "spacedock" : "https://spacedock.info/mod/2012/Telemachus%20Reborn"
-    },
-    "tags": [
-        "plugin",
-        "information",
-        "app"
-    ],
-    "provides" : [ "Telemachus" ],
-    "conflicts" : [
-         { "name" : "Telemachus" },
-         { "name" : "TelemachusContinued" },
-         { "name" : "Telemachus-2" }
-    ],
-    "recommends" : [
-        { "name": "RasterPropMonitor" }
-    ],
-    "install" : [ {
-        "file"   : "GameData/Telemachus",
-        "install_to" : "GameData"
-    } ],
-    "x_netkan_override": [
-        {
-            "version": "1.7.0",
-            "override": {
-                "ksp_version_min" : "1.6.0",
-                "ksp_version_max" : "1.7"
-            }
-        }
-    ]
+  "spec_version": 1,
+  "identifier": "TelemachusReborn",
+  "name": "Telemachus Reborn",
+  "abstract": "Telemachus is a universal Web Telemetry Mod for Kerbal Space Program. It allows you to access any aspects of game from browser.",
+  "author": "DanGSun,Sidrus",
+  "$kref": "#/ckan/github/TeleIO/Telemachus-1",
+  "$vref": "#/ckan/ksp-avc",
+  "x_netkan_version_edit": "^[vV]?(?<version>[\\d\\.]+)(?:-.+)*",
+  "license": "MIT",
+  "release_status": "stable",
+  "resources": {
+    "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/179887-*",
+    "spacedock": "https://spacedock.info/mod/2012/Telemachus%20Reborn"
+  },
+  "tags": [
+    "plugin",
+    "information",
+    "app"
+  ],
+  "provides": [ "Telemachus" ],
+  "conflicts": [
+    { "name": "Telemachus" },
+    { "name": "TelemachusContinued" },
+    { "name": "Telemachus-2" }
+  ],
+  "recommends": [
+    { "name": "RasterPropMonitor" }
+  ],
+  "install": [
+    {
+      "file": "GameData/Telemachus",
+      "install_to": "GameData"
+    }
+  ],
+  "x_netkan_override": [
+    {
+      "version": "1.7.0",
+      "override": {
+        "ksp_version_min": "1.6.0",
+        "ksp_version_max": "1.9.1"
+      }
+    }
+  ]
 }
