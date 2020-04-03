@@ -8,6 +8,12 @@
         "config",
         "career"
     ],
+    "provides": [
+        "ContractConfigurator-HistoryofSpaceflight"
+    ],
+    "conflicts": [
+        { "name": "ContractConfigurator-HistoryofSpaceflight" }
+    ],
     "depends": [
         { "name": "ModuleManager"        },
         { "name": "ContractConfigurator" }
