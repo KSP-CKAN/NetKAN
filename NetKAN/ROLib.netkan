@@ -3,7 +3,7 @@
     "identifier"   : "ROLib",
     "$kref"        : "#/ckan/github/KSP-RO/ROLibrary",
     "$vref"        : "#/ckan/ksp-avc",
-    "abstract"     : "ROLib containts the common code supporting multiple RO* modules",
+    "abstract"     : "ROLib contains the common code supporting multiple RO* modules",
     "license"      : "CC-BY-SA-4.0",
     "author"       : ["pap1723","KSP-RO"],
     "resources" : {
@@ -11,7 +11,6 @@
         "repository"   : "https://github.com/KSP-RO/ROLibrary"
     },
     "tags" : [
-        "comms",
         "plugin"
     ],
     "depends" : [
