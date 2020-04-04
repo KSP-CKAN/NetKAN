@@ -4,12 +4,12 @@
     "name":         "Kethane Mining",
     "abstract":     "Adds a new resource that you can mine and convert into fuels",
     "author":       "taniwha",
-    "$kref":        "#/ckan/http/http://taniwha.org/~bill/Kethane-0.10.2.zip",
-    "version":      "0.10.2",
-    "ksp_version":  "1.7",
+    "$kref":        "#/ckan/http/http://taniwha.org/~bill/Kethane-0.10.3.zip",
+    "version":      "0.10.3",
+    "ksp_version":  "1.9",
     "license":      "restricted",
     "resources": {
-        "homepage":   "http://forum.kerbalspaceprogram.com/index.php?/topic/119480-*",
+        "homepage":   "https://forum.kerbalspaceprogram.com/index.php?/topic/119480-*",
         "repository": "https://github.com/taniwha-qf/Kethane"
     },
     "tags": [
