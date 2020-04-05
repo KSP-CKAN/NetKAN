@@ -15,14 +15,14 @@
     },
     "tags" : [
         "parts",
-		"config",
+        "config",
         "graphics"
     ],
     "depends" : [
         { "name" : "ModuleManager" },
         { "name" : "ROLib" },
         { "name" : "B9PartSwitch" },
-		{ "name" : "RealFuels" },
+        { "name" : "RealFuels" },
         { "name" : "PatchManager" },
         { "name" : "RealismOverhaul" }
     ],
