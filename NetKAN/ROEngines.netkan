@@ -1,9 +1,44 @@
 {
-    "spec_version": "v1.10",
-    "identifier": "ROEngines",
-    "$kref": "#/ckan/netkan/https://raw.githubusercontent.com/KSP-RO/ROEngines/master/ROEngines.netkan",
-    "x_netkan_license_ok": true,
-    "tags": [
-        "config"
+    "spec_version" : 1,
+    "identifier"   : "ROEngines",
+    "$kref"        : "#/ckan/github/KSP-RO/ROEngines",
+    "$vref"        : "#/ckan/ksp-avc",
+    "x_netkan_force_v": true,
+    "abstract"     : "ROEngines is a mod that takes the best versions of engine models available and uses them as the in-game models for Realism Overhaul parts.",
+    "license"      : "CC-BY-SA-4.0",
+    "author"       : ["pap1723","KSP-RO"],
+    "release_status" : "stable",
+    "resources" : {
+        "bugtracker"   : "https://github.com/KSP-RO/ROEngines/issues",
+        "repository"   : "https://github.com/KSP-RO/ROEngines",
+        "homepage"     : "https://discordapp.com/invite/ZGbR6nv"
+    },
+    "tags" : [
+        "parts",
+		"config",
+        "graphics"
+    ],
+    "depends" : [
+        { "name" : "ModuleManager" },
+        { "name" : "ROLib" },
+        { "name" : "B9PartSwitch" },
+		{ "name" : "RealFuels" },
+        { "name" : "PatchManager" },
+        { "name" : "RealismOverhaul" }
+    ],
+    "recommends" : [
+        { "name" : "ROSolar" },
+        { "name" : "ROTanks" },
+        { "name" : "ROCapsules" }
+    ],
+    "suggests" : [
+        { "name" : "ProceduralFairings" },
+        { "name" : "ProceduralParts" },
+        { "name" : "MechJeb2" },
+        { "name" : "RealSolarSystem" },
+        { "name" : "RP-0" }
+    ],
+    "conflicts" : [
+        { "name" : "TweakableEverythingCont" }
     ]
 }
