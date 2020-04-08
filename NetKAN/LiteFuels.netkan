@@ -7,7 +7,7 @@
         "config"
     ],
     "depends": [
-        { "name": "ModuleManager"          },
-        { "name": "InterstellarFuelSwitch" }
+        { "name": "ModuleManager"               },
+        { "name": "InterstellarFuelSwitch-Core" }
     ]
 }
