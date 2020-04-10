@@ -1,7 +1,13 @@
 {
     "spec_version": "v1.4",
-    "identifier": "KE01RadioisotopeThermoelectricGenerator",
-    "$kref": "#/ckan/spacedock/2394",
-    "license": "MIT",
-    "x_via": "Automated SpaceDock CKAN submission"
+    "identifier":   "KE01RadioisotopeThermoelectricGenerator",
+    "$kref":        "#/ckan/spacedock/2394",
+    "license":      "MIT",
+    "tags": [
+        "parts"
+    ],
+    "install": [ {
+        "find":       "Jebediah_Industry",
+        "install_to": "GameData"
+    } ]
 }
