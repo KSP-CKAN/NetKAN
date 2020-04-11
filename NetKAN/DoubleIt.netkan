@@ -10,5 +10,9 @@
     "depends": [
         { "name": "ModuleManager" },
         { "name": "Kopernicus"    }
-    ]
+    ],
+    "install": [ {
+        "find":       "DoubleTheFun",
+        "install_to": "GameData"
+    } ]
 }
