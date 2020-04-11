@@ -1,7 +1,14 @@
 {
     "spec_version": "v1.4",
-    "identifier": "StackInlineLights",
-    "$kref": "#/ckan/spacedock/2396",
-    "license": "CC-BY-NC-SA-3.0-unported",
-    "x_via": "Automated SpaceDock CKAN submission"
+    "identifier":   "StackInlineLights",
+    "$kref":        "#/ckan/spacedock/2396",
+    "license":      "CC-BY-NC-SA-3.0",
+    "tags": [
+        "config",
+        "parts"
+    ],
+    "recommends": [
+        { "name": "ModuleManager" },
+        { "name": "KerbalChangelog" }
+    ]
 }
