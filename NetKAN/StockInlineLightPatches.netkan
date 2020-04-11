@@ -12,5 +12,9 @@
     ],
     "recommends": [
         { "name": "KerbalChangelog" }
-    ]
+    ],
+    "install": [ {
+        "find":       "ASET",
+        "install_to": "GameData"
+    } ]
 }
