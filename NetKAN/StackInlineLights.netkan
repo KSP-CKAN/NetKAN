@@ -9,8 +9,30 @@
         "parts"
     ],
     "recommends": [
-        { "name": "ModuleManager" },
-        { "name": "KerbalChangelog" }
+        { "name": "ModuleManager"           },
+        { "name": "KerbalChangelog"         },
+        { "name": "StackInlineLightPatches" }
+    ],
+    "suggests": [
+        { "name": "DockingPortDescriptions" },
+        { "name": "PicoPortShielded"        },
+        { "name": "ODFC"                    },
+        { "name": "FieldTrainingFacility"   },
+        { "name": "FieldTrainingLaboratory" },
+        { "name": "TransparentPods"         },
+        { "name": "StorkDeliverySystem"     },
+        { "name": "B9StockPatches"          },
+        { "name": "OhScrap"                 },
+        { "name": "ScrapYard"               },
+        { "name": "DMTanks-AeroRTG"         },
+        { "name": "DMTanks-CargoBays"       },
+        { "name": "DMTanks-Fuselage"        },
+        { "name": "DMTanks-SphericalTanks"  },
+        { "name": "SimpleConstruction"      },
+        { "name": "NotSoSimpleConstruction" },
+        { "name": "TweakScale"              },
+        { "name": "CommunityResourcePack"   },
+        { "name": "BulbEvolved"             }
     ],
     "install": [ {
         "find":       "ASET",
