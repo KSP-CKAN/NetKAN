@@ -1,0 +1,41 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "StackInlineLights",
+    "$kref":        "#/ckan/spacedock/2396",
+    "$vref":        "#/ckan/ksp-avc",
+    "license":      "CC-BY-NC-SA-3.0",
+    "tags": [
+        "config",
+        "parts"
+    ],
+    "recommends": [
+        { "name": "ModuleManager"           },
+        { "name": "KerbalChangelog"         },
+        { "name": "StackInlineLightPatches" }
+    ],
+    "suggests": [
+        { "name": "DockingPortDescriptions" },
+        { "name": "PicoPortShielded"        },
+        { "name": "ODFC"                    },
+        { "name": "FieldTrainingFacility"   },
+        { "name": "FieldTrainingLaboratory" },
+        { "name": "TransparentPods"         },
+        { "name": "StorkDeliverySystem"     },
+        { "name": "B9StockPatches"          },
+        { "name": "OhScrap"                 },
+        { "name": "ScrapYard"               },
+        { "name": "DMTanks-AeroRTG"         },
+        { "name": "DMTanks-CargoBays"       },
+        { "name": "DMTanks-Fuselage"        },
+        { "name": "DMTanks-SphericalTanks"  },
+        { "name": "SimpleConstruction"      },
+        { "name": "NotSoSimpleConstruction" },
+        { "name": "TweakScale"              },
+        { "name": "CommunityResourcePack"   },
+        { "name": "BulbEvolved"             }
+    ],
+    "install": [ {
+        "find":       "ASET",
+        "install_to": "GameData"
+    } ]
+}
