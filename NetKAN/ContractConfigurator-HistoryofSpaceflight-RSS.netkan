@@ -1,0 +1,37 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "ContractConfigurator-HistoryofSpaceflight-RSS",
+    "$kref":        "#/ckan/spacedock/2385",
+    "$vref":        "#/ckan/ksp-avc",
+    "license":      "CC-BY-NC-SA-4.0",
+    "tags": [
+        "config",
+        "career"
+    ],
+    "provides": [
+        "ContractConfigurator-HistoryofSpaceflight"
+    ],
+    "conflicts": [
+        { "name": "ContractConfigurator-HistoryofSpaceflight" }
+    ],
+    "depends": [
+        { "name": "ModuleManager"        },
+        { "name": "ContractConfigurator" },
+        { "name": "RealSolarSystem"      }
+    ],
+    "recommends": [
+        { "name": "BluedogDB"   },
+        { "name": "NewTantares" },
+        { "name": "ProbesPlus"  }
+    ],
+    "install": [ {
+        "find":       "ContractPacks",
+        "install_to": "GameData"
+    }, {
+        "find":       "GenericEngines",
+        "install_to": "GameData"
+    }, {
+        "find":       "GenericPlumes",
+        "install_to": "GameData"
+    } ]
+}

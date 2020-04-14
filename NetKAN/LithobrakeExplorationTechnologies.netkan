@@ -12,7 +12,6 @@
         "crewed"
     ],
     "depends": [
-        { "name": "FirespitterCore" },
         { "name": "ModuleManager"}
     ],
     "supports": [

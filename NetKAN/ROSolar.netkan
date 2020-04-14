@@ -1,0 +1,32 @@
+{
+    "spec_version" : 1,
+    "identifier"   : "ROSolar",
+    "$kref"        : "#/ckan/github/KSP-RO/ROSolar",
+    "$vref"        : "#/ckan/ksp-avc",
+    "abstract"     : "ROSolar combines models from various external mods and adds rescaling features that affect the solar panel performance",
+    "license"      : "CC-BY-SA-4.0",
+    "author"       : ["pap1723","KSP-RO"],
+    "resources" : {
+        "bugtracker"   : "https://github.com/KSP-RO/ROSolar/issues",
+        "repository"   : "https://github.com/KSP-RO/ROSolar",
+        "homepage"     : "https://discordapp.com/invite/ZGbR6nv"
+    },
+    "tags" : [
+        "parts",
+        "graphics"
+    ],
+    "depends" : [
+        { "name" : "ModuleManager" },
+        { "name" : "ROLib" }
+    ],
+    "recommends" : [
+        { "name" : "ROEngines" },
+        { "name" : "ROTanks" },
+        { "name" : "ROCapsules" },
+        { "name" : "RealismOverhaul" },
+        { "name" : "RP-0" }
+    ],
+    "conflicts" : [
+        { "name" : "TweakableEverythingCont" }
+    ]
+}

@@ -1,37 +1,43 @@
 {
     "spec_version"   : "v1.10",
     "identifier"     : "ROTanks",
-    "name"           : "ROTanks",
-    "abstract"       : "ROTanks uses modified code of SSTU by Shadowmage45 to provide modular tanks (and more) for Realism Overhaul.",
-    "author"         : "pap1723",
     "$kref"          : "#/ckan/github/KSP-RO/ROTanks",
     "$vref"          : "#/ckan/ksp-avc",
     "x_netkan_force_v": true,
+    "abstract"       : "ROTanks uses modified code of SSTU by Shadowmage45 to provide modular tanks (and more) for Realism Overhaul.",
     "license"        : "CC-BY-SA",
+    "author"         : ["pap1723","KSP-RO"],
     "release_status" : "stable",
+    "resources" : {
+        "bugtracker"   : "https://github.com/KSP-RO/ROTanks/issues",
+        "repository"   : "https://github.com/KSP-RO/ROTanks",
+        "homepage"     : "https://discordapp.com/invite/ZGbR6nv"
+    },
     "tags": [
-        "parts"
+        "parts",
+        "config",
+        "graphics"
     ],
     "depends" : [
-        { "name" : "RealismOverhaul" },
+        { "name" : "ModuleManager" },
+        { "name" : "ROLib" },
         { "name" : "TexturesUnlimited" },
         { "name" : "RealFuels" }
     ],
     "recommends" : [
+        { "name" : "RealismOverhaul" },
+        { "name" : "ROSolar" },
         { "name" : "ROEngines" },
-        { "name" : "ROCapsules" },
+        { "name" : "ROCapsules" }
+    ],
+    "suggests" : [
         { "name" : "ProceduralFairings" },
         { "name" : "ProceduralParts" },
         { "name" : "MechJeb2" },
         { "name" : "RealSolarSystem" },
-        { "name" : "KSCSwitcher" },
         { "name" : "RP-0" }
     ],
     "conflicts" : [
-        { "name" : "TweakableEverything" }
-    ],
-    "install": [ {
-        "file"       : "GameData/ROTanks",
-        "install_to" : "GameData"
-    } ]
+        { "name" : "TweakableEverythingCont" }
+    ]
 }

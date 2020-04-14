@@ -1,0 +1,14 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "KGEx",
+    "name":         "KerGuise Experimental Engineering",
+    "$kref":        "#/ckan/spacedock/2365",
+    "$vref":        "#/ckan/ksp-avc",
+    "license":      "MIT",
+    "tags": [
+        "config"
+    ],
+    "depends": [
+        { "name": "ModuleManager" }
+    ]
+}

@@ -16,25 +16,25 @@
         "graphics"
     ],
     "depends": [
-        { "name": "Kopernicus"                      },
-        { "name": "CommunityTerrainTexturePack"     },
-        { "name": "Scatterer"                       },
-        { "name": "Scatterer-config"                },
-        { "name": "INSTANTIATOR"                    }
+        { "name": "Kopernicus"                  },
+        { "name": "CommunityTerrainTexturePack" },
+        { "name": "Scatterer"                   },
+        { "name": "Scatterer-config"            },
+        { "name": "Scatterer-sunflare-default"  },
+        { "name": "INSTANTIATOR"                }
     ],
     "conflicts": [
         { "name": "GPP" }
     ],
     "recommends": [
-        { "name": "SigmaReplacements-SkyBox"        }
+        { "name": "SigmaReplacements-SkyBox" }
     ],
     "suggests": [
         { "name": "EnvironmentalVisualEnhancements" },
         { "name": "KS3P"                            }
     ],
     "provides": [
-        "EnvironmentalVisualEnhancements-Config",
-        "Scatterer-sunflare"
+        "EnvironmentalVisualEnhancements-Config"
     ],
     "install": [ {
         "find":       "GPO",

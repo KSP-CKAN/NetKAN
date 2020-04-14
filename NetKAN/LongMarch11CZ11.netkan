@@ -1,0 +1,30 @@
+{
+    "spec_version": "v1.16",
+    "identifier":   "LongMarch11CZ11",
+    "$kref":        "#/ckan/spacedock/2362",
+    "license":      "CC-BY-NC-ND-4.0",
+    "tags": [
+        "parts"
+    ],
+    "depends": [
+        { "name": "Wanhu-Common" }
+    ],
+    "install": [ {
+        "find":       "Wanhu",
+        "install_to": "GameData",
+        "filter":     [ "Assets", "Flags", "FX", "Icons", "WanhuTools.dll", "WanhuCategory.cfg" ],
+        "filter_regexp": [ ".*\\.craft$" ]
+    }, {
+        "find":       "CZ-11.craft",
+        "find_matches_files": true,
+        "install_to": "Ships/VAB"
+    }, {
+        "find":       "CZ-11-StyleA.craft",
+        "find_matches_files": true,
+        "install_to": "Ships/VAB"
+    }, {
+        "find":       "CZ-11-StyleB.craft",
+        "find_matches_files": true,
+        "install_to": "Ships/VAB"
+    } ]
+}
