@@ -4,7 +4,6 @@
     "spec_version": "v1.4",
     "$kref": "#/ckan/spacedock/2404",
 	"$vref": "#/ckan/ksp-avc",
-	"license":      "MIT",
     "recommends": [
         { "name": "HullcamVDS" }
     ],
