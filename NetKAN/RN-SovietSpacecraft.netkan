@@ -7,7 +7,7 @@
     "comment"       : "Ships installed again",
     "$kref"         : "#/ckan/github/KSP-RO/SovietSpacecraft",
     "$vref"         : "#/ckan/ksp-avc",
-	"x_netkan_epoch": 1,
+    "x_netkan_epoch": 1,
     "license"       : "CC-BY-NC-ND-3.0",
     "resources": {
         "homepage"  : "http://forum.kerbalspaceprogram.com/index.php?/topic/133579-*"
@@ -27,13 +27,13 @@
         }
     ],
     "conflicts"     : [
-        { "name"    : "RN-SalyutStations-SoyuzFerries" }
-		{ "name"    : "ROCapsules" },
-		{ "name"    : "ROEngines" }
+        { "name"    : "RN-SalyutStations-SoyuzFerries" },
+        { "name"    : "ROCapsules" },
+        { "name"    : "ROEngines" }
     ],
     "depends"       : [
-		{ "name"	  : "BDAnimationModules" },
-		{ "name" 	  : "ModuleManager" },
+        { "name"	  : "BDAnimationModules" },
+        { "name" 	  : "ModuleManager" },
         { "name"      : "TexturesUnlimited" }
     ],
     "recommends"    : [
