@@ -1,0 +1,32 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "MoreTerraWorlds",
+    "$kref":        "#/ckan/spacedock/2406",
+    "license":      "MIT",
+    "tags": [
+        "config",
+        "planet-pack"
+    ],
+    "provides": [
+        "Scatterer-config",
+        "Scatterer-sunflare"
+    ],
+    "conflicts": [
+        { "name": "Scatterer-config"   },
+        { "name": "Scatterer-sunflare" }
+    ],
+    "depends": [
+        { "name": "ModuleManager" },
+        { "name": "Kopernicus"    }
+    ],
+    "recommends": [
+        { "name": "Scatterer" }
+    ],
+    "install": [ {
+        "find":       "Zen System",
+        "install_to": "GameData"
+    }, {
+        "find":       "scatterer/config",
+        "install_to": "GameData/scatterer"
+    } ]
+}
