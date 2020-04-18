@@ -20,7 +20,7 @@
     ],
     "install": [ {
         "find":       "Zen System",
-        "install_to": "GameData",
+        "install_to": "GameData"
     }, {
         "find":       "scatterer/config",
         "install_to": "GameData/scatterer"
