@@ -12,5 +12,9 @@
     }, {
         "find":       "Ships/VAB",
         "install_to": "Ships"
-    } ]
+    } ],
+	"conflicts"     : [
+		{ "name"    : "ROCapsules" },
+		{ "name"    : "ROEngines" }
+    ]
 }
