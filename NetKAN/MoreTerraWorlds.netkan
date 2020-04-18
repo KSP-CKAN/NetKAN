@@ -15,6 +15,10 @@
         { "name": "Scatterer-config"   },
         { "name": "Scatterer-sunflare" }
     ],
+    "depends": [
+        { "name": "ModuleManager" },
+        { "name": "Kopernicus"    }
+    ],
     "recommends": [
         { "name": "Scatterer" }
     ],
