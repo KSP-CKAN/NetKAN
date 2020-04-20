@@ -15,7 +15,8 @@
         { "name": "ScrapYard"       },
         { "name": "OhScrap"         },
         { "name": "StageRecovery"   },
-        { "name": "TweakScale"      }
+        { "name": "TweakScale"      },
+        { "name": "FirespitterCore" }
     ],
     "install": [ {
         "find":       "FruitBatIndustries",
