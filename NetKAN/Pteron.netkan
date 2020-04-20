@@ -1,7 +1,24 @@
 {
     "spec_version": "v1.4",
-    "identifier": "Pteron",
-    "$kref": "#/ckan/spacedock/2379",
-    "license": "CC-BY-NC-SA-4.0",
-    "x_via": "Automated SpaceDock CKAN submission"
+    "identifier":   "Pteron",
+    "$kref":        "#/ckan/spacedock/2379",
+    "$vref":        "#/ckan/ksp-avc",
+    "license":      "CC-BY-NC-SA-4.0",
+    "tags": [
+        "parts"
+    ],
+    "recommends": [
+        { "name": "ModuleManager" }
+    ],
+    "suggests": [
+        { "name": "KerbalChangelog" },
+        { "name": "ScrapYard"       },
+        { "name": "OhScrap"         },
+        { "name": "StageRecovery"   },
+        { "name": "TweakScale"      }
+    ],
+    "install": [ {
+        "find":       "FruitBatIndustries",
+        "install_to": "GameData"
+    } ]
 }
