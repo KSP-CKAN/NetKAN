@@ -23,7 +23,7 @@
         { "name": "Scatterer" }
     ],
     "install": [ {
-        "find":       "Zen System",
+        "find":       "More_Terra_Worlds",
         "install_to": "GameData"
     }, {
         "find":       "scatterer/config",
