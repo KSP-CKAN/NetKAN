@@ -3,12 +3,11 @@
     "identifier"   : "ScienceContainers",
     "name"         : "Science Containers",
     "abstract"     : "Allows transfer of science without EVA.",
-    "$kref"        : "#/ckan/github/SirDargon/ScienceContainers",
+    "$kref"        : "#/ckan/github/RoxieCeleste/ScienceContainers",
     "ksp_version"  : "1.0",
     "license"      : "CC-BY-SA-3.0",
     "resources" : {
-        "homepage"  : "https://forum.kerbalspaceprogram.com/index.php?/topic/81785-*",
-        "repository": "https://github.com/SirDargon/ScienceContainers"
+        "homepage"  : "https://forum.kerbalspaceprogram.com/index.php?/topic/81785-*"
     },
     "tags": [
         "plugin",
