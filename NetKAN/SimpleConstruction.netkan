@@ -18,7 +18,8 @@
         "config"
     ],
     "depends": [
-        { "name": "ModuleManager" }
+        { "name": "ModuleManager"         },
+        { "name": "CommunityResourcePack" }
     ],
     "recommends": [
         { "name" : "KerbalStats"         },
@@ -27,7 +28,6 @@
     ],
     "suggests": [
         { "name": "StockalikeMiningExtension"    },
-        { "name": "CommunityResourcePack"        },
         { "name": "NotSoSimpleConstruction"      },
         { "name": "KIS"                          },
         { "name": "KAS"                          },
