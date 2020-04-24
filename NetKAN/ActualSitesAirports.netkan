@@ -1,7 +1,13 @@
 {
     "spec_version": "v1.4",
-    "identifier": "ActualSitesAirports",
-    "$kref": "#/ckan/spacedock/2410",
-    "license": "Public-Domain",
-    "x_via": "Automated SpaceDock CKAN submission"
+    "identifier":   "ActualSitesAirports",
+    "$kref":        "#/ckan/spacedock/2410",
+    "license":      "public-domain",
+    "tags": [
+        "buildings"
+    ],
+    "depends": [
+        { "name": "RealSolarSystem"  },
+        { "name": "KerbalKonstructs" }
+    ]
 }
