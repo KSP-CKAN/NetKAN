@@ -1,7 +1,31 @@
 {
     "spec_version": "v1.4",
-    "identifier": "GenesStarRemaster",
-    "$kref": "#/ckan/spacedock/2411",
-    "license": "Creative-Commons-Attribution-NonCommercial-3.0-Unported",
-    "x_via": "Automated SpaceDock CKAN submission"
+    "identifier":   "GenesStarRemaster",
+    "$kref":        "#/ckan/spacedock/2411",
+    "license":      "CC-BY-NC-3.0",
+    "tags": [
+        "config",
+        "planet-pack"
+    ],
+    "depends": [
+        { "name": "ModuleManager"    },
+        { "name": "Kopernicus"       },
+        { "name": "Scatterer-config" }
+    ],
+    "provides": [
+        "EnvironmentalVisualEnhancements-Config",
+        "Scatterer-sunflare"
+    ],
+    "conflicts": [
+        { "name": "EnvironmentalVisualEnhancements-Config" },
+        { "name": "Scatterer-sunflare"                     }
+    ],
+    "recommends": [
+        { "name": "EnvironmentalVisualEnhancements" },
+        { "name": "Scatterer"                       }
+    ],
+    "install": [ {
+        "find":       "GenesStar",
+        "install_to": "GameData"
+    } ]
 }
