@@ -13,7 +13,7 @@
         { "name": "FirespitterCore" }
     ],
     "install": [ {
-        "find":       "DnD_Alt_BDB",
+        "find":       "BDBNIC",
         "install_to": "GameData"
     } ]
 }
