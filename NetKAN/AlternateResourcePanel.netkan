@@ -23,7 +23,7 @@
         { "name": "Olympic1ARPIcons" }
     ],
     "install": [ {
-        "find":       "TriggerTech",
-        "install_to": "GameData"
+        "find":       "KSPAlternateResourcePanel",
+        "install_to": "GameData/TriggerTech"
     } ]
 }
