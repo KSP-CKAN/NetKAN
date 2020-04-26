@@ -13,5 +13,12 @@
         { "name": "AnimatedDecouplers"   },
         { "name": "CommunityCategoryKit" },
         { "name": "KSCExtended"          }
-    ]
+    ],
+    "install": [ {
+        "find":       "ModularLaunchPads",
+        "install_to": "GameData"
+    }, {
+        "find":       "Ships/VAB",
+        "install_to": "Ships"
+    } ]
 }
