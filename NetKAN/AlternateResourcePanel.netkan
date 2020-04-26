@@ -1,22 +1,20 @@
 {
     "spec_version"   : "v1.20",
     "identifier"     : "AlternateResourcePanel",
+    "name"           : "Alternate Resource Panel",
     "abstract"       : "An alternate view of vessel resources plugin for Kerbal Space Program",
-    "author"         : [ "TriggerAu", "zer0Kerbal" ],
-    "$kref"          : "#/ckan/spacedock/2403",
+    "$kref"          : "#/ckan/github/TriggerAu/AlternateResourcePanel",
     "$vref"          : "#/ckan/ksp-avc",
     "license"        : "MIT",
     "release_status" : "stable",
     "resources": {
-        "license": "https://github.com/TriggerAu/AlternateResourcePanel/blob/master/LICENSE",
-        "manual": "https://sites.google.com/site/kspalternateresourcepanel/"
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/54876-*",
+        "license":  "https://github.com/TriggerAu/AlternateResourcePanel/blob/master/LICENSE",
+        "manual":   "https://sites.google.com/site/kspalternateresourcepanel/"
     },
     "tags": [
         "plugin",
         "information"
-    ],
-    "depends": [
-        { "name": "ClickThroughBlocker" }
     ],
     "recommends": [
         { "name": "TriggerAu-Flags" }
@@ -25,7 +23,7 @@
         { "name": "Olympic1ARPIcons" }
     ],
     "install": [ {
-        "find":       "TriggerTech",
-        "install_to": "GameData"
+        "find":       "KSPAlternateResourcePanel",
+        "install_to": "GameData/TriggerTech"
     } ]
 }
