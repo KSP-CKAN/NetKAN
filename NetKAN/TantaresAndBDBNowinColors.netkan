@@ -8,9 +8,8 @@
         "graphics"
     ],
     "depends": [
-        { "name": "NewTantares"     },
-        { "name": "BluedogDB"       },
-        { "name": "FirespitterCore" }
+        { "name": "NewTantares" },
+        { "name": "BluedogDB"   }
     ],
     "install": [ {
         "find":       "BDBNIC",
