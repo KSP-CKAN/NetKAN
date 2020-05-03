@@ -29,5 +29,11 @@
         { "name"  : "DockingPortAlignment" },
         { "name"  : "kOS" },
         { "name"  : "KPS-AVC" }
-    ]
+    ],
+    "x_netkan_override": [ {
+        "version": "1.2.2.4",
+        "override": {
+            "ksp_version_max": "1.2.2"
+        }
+    } ]
 }
