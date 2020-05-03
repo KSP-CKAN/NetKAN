@@ -1,7 +1,7 @@
 {
     "spec_version": "v1.4",
     "identifier":   "PAWRangeBuff",
-    "abstract":     "Increase the Part Action Window maximum EVA click distance based on the part size"
+    "abstract":     "Increase the Part Action Window maximum EVA click distance based on the part size",
     "$kref":        "#/ckan/github/atomontage04/PAWRangeBuff",
     "$vref":        "#/ckan/ksp-avc",
     "license":      "MIT",
