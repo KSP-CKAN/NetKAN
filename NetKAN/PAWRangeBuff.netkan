@@ -1,0 +1,11 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "PAWRangeBuff",
+    "$kref":        "#/ckan/github/atomontage04/PAWRangeBuff",
+    "$vref":        "#/ckan/ksp-avc",
+    "license":      "MIT",
+    "tags": [
+        "plugin",
+        "convenience"
+    ]
+}
