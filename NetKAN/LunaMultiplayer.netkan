@@ -11,8 +11,5 @@
     "resources": {
         "homepage": "https://lunamultiplayer.com/",
         "manual":   "https://github.com/LunaMultiplayer/LunaMultiplayer/wiki"
-    },
-    "conflicts": [
-        { "name":   "DarkMultiPlayer" }
-    ]
+    }
 }
