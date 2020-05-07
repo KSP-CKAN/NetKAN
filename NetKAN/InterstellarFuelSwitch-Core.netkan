@@ -33,7 +33,6 @@
         { "name": "TweakScale" }
     ],
     "recommends": [
-        { "name" : "CommunityResourcePack", "min_version" : "0.7.1" },
-        { "name" : "TweakScale",            "min_version" : "2.3.6" }
+        { "name" : "CommunityResourcePack", "min_version" : "0.7.1" }
     ]
 }
