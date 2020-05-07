@@ -25,7 +25,13 @@
             "install_to" : "GameData/InterstellarFuelSwitch"
         }
     ],
-    "provides": [ "DeadskinsTextureSwitch", "DeadskinsMeshSwitch" ],
+    "provides": [
+        "DeadskinsTextureSwitch",
+        "DeadskinsMeshSwitch"
+    ],
+    "depends": [
+        { "name": "TweakScale" }
+    ],
     "recommends": [
         { "name" : "CommunityResourcePack", "min_version" : "0.7.1" },
         { "name" : "TweakScale",            "min_version" : "2.3.6" }
