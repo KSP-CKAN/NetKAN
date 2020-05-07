@@ -15,7 +15,6 @@
         }
     ],
     "depends" : [
-        { "name" : "CommunityResourcePack", "min_version" : "0.5.1" },
         { "name" : "InterstellarFuelSwitch-Core", "min_version" : "1.28" },
         { "name" : "ModuleManager" },
         { "name" : "CommunityTechTree" }
