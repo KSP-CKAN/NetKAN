@@ -1,7 +1,10 @@
 {
     "spec_version": "v1.4",
-    "identifier": "Singularity",
-    "$kref": "#/ckan/spacedock/2420",
-    "license": "MIT",
-    "x_via": "Automated SpaceDock CKAN submission"
+    "identifier":   "Singularity",
+    "$kref":        "#/ckan/spacedock/2420",
+    "license":      "MIT",
+    "tags": [
+        "plugin",
+        "graphics"
+    ]
 }
