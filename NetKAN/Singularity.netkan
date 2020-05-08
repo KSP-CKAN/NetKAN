@@ -5,6 +5,9 @@
     "ksp_version_min": "1.8",
     "ksp_version_max": "1.9",
     "license":      "MIT",
+    "resources": {
+        "manual": "https://github.com/LGhassen/Singularity/wiki"
+    },
     "tags": [
         "plugin",
         "graphics"
