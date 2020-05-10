@@ -1,0 +1,34 @@
+  
+{
+    "spec_version"     : "v1.2",
+    "$kref"            : "#/ckan/spacedock/2424",
+    "$vref"            : "#/ckan/ksp-avc",
+    "identifier"       : "TweakScaleCompanion-ReStockPlus",
+    "name"             : "TweakScale Companion for the ReStockPlus AddOn",
+    "abstract"         : "Adds TweakScale /L patches for ReStockPlus.",
+    "license"          : [ "GPL-2.0", "restricted" ],
+    "release_status"   : "stable",
+    "x_netkan_force_v" : true,
+    "author": [
+        "OnlyLightMatters",
+        "LisiasT"
+    ],
+    "install" : [
+        {
+            "file" : "GameData/TweakScaleCompanion/ReStockPlus",
+            "install_to" : "GameData/TweakScaleCompanion"
+        }
+    ],
+    "resources": {
+        "homepage":   "https://forum.kerbalspaceprogram.com/index.php?/topic/192216-*",
+        "repository": "https://github.com/net-lisias-ksp/TweakScaleCompanion_ReStockPlus"
+    },
+    "depends" : [
+        { "name" : "ModuleManager", "min_version" : "4.0.3" },
+        { "name" : "TweakScale", "min_version" : "2.4.4" },
+        { "name" : "ReStockPlus", "min_version" : "1.0.3" }
+    ],
+    "suggests" : [
+        { "name" : "RestockRigidLegs" }
+    ]
+}
