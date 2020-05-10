@@ -27,5 +27,8 @@
         { "name" : "ModuleManager", "min_version" : "4.0.3" },
         { "name" : "TweakScale", "min_version" : "2.4.4" },
         { "name" : "ReStockPlus", "min_version" : "1.0.3" }
+    ],
+    "suggests" : [
+        { "name" : "RestockRigidLegs" }
     ]
 }
