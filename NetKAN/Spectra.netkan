@@ -19,10 +19,10 @@
         "EnvironmentalVisualEnhancements-Config"
     ],
     "conflicts": [
-        { "name": "EnvironmentalVisualEnhancements-Config" },
+        { "name": "EnvironmentalVisualEnhancements-Config" }
     ],
     "depends": [
-        { "name": "ModuleManager" },
+        { "name": "ModuleManager" }
     ],
     "suggests": [
         { "name": "DistantObject"              },
