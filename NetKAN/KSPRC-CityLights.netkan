@@ -15,7 +15,7 @@
         "graphics"
     ],
     "depends": [
-        { "name": "EnvironmentalVisualEnhancements" },
+        { "name": "EnvironmentalVisualEnhancements" }
     ],
     "install": [ {
         "file":       "KSPRC/CityLights",
