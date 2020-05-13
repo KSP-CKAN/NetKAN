@@ -16,7 +16,7 @@
         "graphics"
     ],
     "provides": [
-        "EnvironmentalVisualEnhancements-Config"
+        { "name": "EnvironmentalVisualEnhancements-Config" }
     ],
     "conflicts": [
         { "name": "EnvironmentalVisualEnhancements-Config" }
@@ -25,17 +25,27 @@
         { "name": "ModuleManager" }
     ],
     "suggests": [
-        { "name": "DistantObject"              },
-        { "name": "RealPlume-StockConfigs"     },
-        { "name": "ReStock"                    },
-        { "name": "PlanetShine-Config-Default" },
-        { "name": "SpaceplaneCorrections"      }
+        { "name": "CollisionFXReUpdated"               },
+        { "name": "CrewLight"                          },
+        { "name": "EngineLightRelit"                   },
+        { "name": "HafCoSpaceCenter"                   },
+        { "name": "IndicatorLights"                    },
+        { "name": "IndicatorLightsCommunityExtensions" },
+        { "name": "KSPRC-CityLights"                   },
+        { "name": "PlanetShine"                        },
+        { "name": "RealPlume-StockConfigs"             },
+        { "name": "ReentryParticleEffect"              },
+        { "name": "ReStock"                            },
+        { "name": "ShipEffectsContinued"               },
+        { "name": "PlanetShine-Config-Default"         },
+        { "name": "SpaceplaneCorrections"              }
     ],
     "recommends": [
         { "name": "EnvironmentalVisualEnhancements" },
         { "name": "Scatterer"                       },
+        { "name": "Kopernicus"                      },
         { "name": "TextureReplacer"                 },
-        { "name": "Kopernicus"                      }
+        { "name": "DistantObject"                   }
     ],
     "install": [ {
         "file":       "Step 2 - Spectra/GameData/TextureReplacer",
@@ -54,5 +64,5 @@
             "ksp_version_min": "1.3",
             "ksp_version_max": "1.9.99"
         }
-    }]
+    } ]
 }
