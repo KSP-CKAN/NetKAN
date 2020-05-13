@@ -10,6 +10,9 @@
         { "name": "ModuleManager" },
         { "name": "B9PartSwitch"  }
     ],
+    "recommends": [
+        { "name": "SpaceXLegs" }
+    ],
     "install": [ {
         "find":       "CEDA_ProjectAethon",
         "install_to": "GameData"
