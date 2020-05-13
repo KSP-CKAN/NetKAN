@@ -1,0 +1,18 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "KerbalActuators",
+    "$kref":        "#/ckan/github/Angel-125/KerbalActuators",
+    "$vref":        "#/ckan/ksp-avc",
+    "license":      "GPL-3.0",
+    "tags": [
+        "plugin",
+        "parts"
+    ],
+    "depends": [
+        { "name": "ModuleManager" }
+    ],
+    "install": [ {
+        "find":       "WildBlueIndustries",
+        "install_to": "GameData"
+    } ]
+}

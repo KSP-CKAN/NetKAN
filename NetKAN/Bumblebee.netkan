@@ -1,0 +1,22 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "Bumblebee",
+    "$kref":        "#/ckan/spacedock/2428",
+    "ksp_version_min": "1.8",
+    "ksp_version_max": "1.9",
+    "license":      "CC-BY-NC-SA-4.0",
+    "tags": [
+        "parts",
+        "uncrewed"
+    ],
+    "depends": [
+        { "name": "ModuleManager"         },
+        { "name": "B9PartSwitch"          },
+        { "name": "KerbalActuators"       },
+        { "name": "CommunityResourcePack" },
+        { "name": "DMagicScienceAnimate"  }
+    ],
+    "suggests": [
+        { "name": "CommunityCategoryKit" }
+    ]
+}
