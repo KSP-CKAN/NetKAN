@@ -4,7 +4,8 @@
     "name":         "KSPRC city lights",
     "abstract":     "Standalone city lights from KSPRC.",
     "$kref":        "#/ckan/spacedock/690",
-    "ksp_version":  "any",
+    "ksp_version_min": "1.1.2",
+    "ksp_version_max": "1.9.99",
     "release_status": "stable",
     "license":      "CC-BY-ND",
     "resources": {
