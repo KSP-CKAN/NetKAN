@@ -2,7 +2,7 @@
     "spec_version": "v1.4",
     "identifier":   "Spectra",
     "name":         "Spectra",
-    "abstract":     "A well optimized and yet breathtakingly beautiful revamp of all celestial bodies in KSP",
+    "abstract":     "A well optimized and breathtakingly beautiful revamp of all celestial bodies in KSP",
     "$kref":        "#/ckan/spacedock/1505",
     "ksp_version_min": "1.1.2",
     "x_netkan_force_v": true,
@@ -17,33 +17,30 @@
         "graphics"
     ],
     "provides": [
-        "PlanetShine-Config",
         "EnvironmentalVisualEnhancements-Config"
     ],
     "conflicts": [
-        { "name": "PlanetShine-Config"                     },
         { "name": "EnvironmentalVisualEnhancements-Config" },
-        { "name": "GreenSkullRevived"                      }
     ],
     "depends": [
-        { "name": "ModuleManager"              },
-        { "name": "Scatterer-sunflare-default" }
+        { "name": "ModuleManager" },
+    ],
+    "suggests": [
+        { "name": "DistantObject"              },
+        { "name": "RealPlume-StockConfigs"     },
+        { "name": "ReStock"                    },
+        { "name": "PlanetShine-Config-Default" },
+        { "name": "SpaceplaneCorrections"      }
     ],
     "recommends": [
         { "name": "EnvironmentalVisualEnhancements" },
         { "name": "Scatterer"                       },
         { "name": "TextureReplacer"                 },
-        { "name": "Kopernicus"                      },
-        { "name": "DistantObject"                   },
-        { "name": "RealPlume-StockConfigs"          },
-        { "name": "ReStock"                         },
-        { "name": "PlanetShine"                     },
-        { "name": "SpaceplaneCorrections"           }
+        { "name": "Kopernicus"                      }
     ],
     "install": [ {
         "file":       "Step 2 - Spectra/GameData/TextureReplacer",
-        "install_to": "GameData",
-        "filter":     "logoFullRed_alt.dds"
+        "install_to": "GameData"
     }, {
         "file":       "Step 2 - Spectra/GameData/Spectra",
         "install_to": "GameData"
