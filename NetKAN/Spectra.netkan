@@ -4,6 +4,7 @@
     "name":         "Spectra",
     "abstract":     "A well optimized and breathtakingly beautiful revamp of all celestial bodies in KSP",
     "$kref":        "#/ckan/spacedock/1505",
+    "ksp_version_min": "1.1.2"
     "x_netkan_force_v": true,
     "license":      "MIT",
     "release_status": "stable",
@@ -57,13 +58,5 @@
     }, {
         "file":       "Step 2 - Spectra/GameData/KSPRC",
         "install_to": "GameData"
-    } ],
-    "x_netkan_override": [{
-        "version": "v1.3",
-        "delete":  [ "ksp_version" ],
-        "override": {
-            "ksp_version_min": "1.3",
-            "ksp_version_max": "1.9"
-        }
     } ]
 }
