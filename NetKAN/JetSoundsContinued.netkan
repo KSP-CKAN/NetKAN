@@ -8,7 +8,7 @@
         "sound"
     ],
     "install": [ {
-        "find":       "JetSoundsCont",
+        "find":       "JetSoundsUpdated",
         "install_to": "GameData"
     } ]
 }
