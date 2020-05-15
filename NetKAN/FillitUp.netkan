@@ -12,5 +12,9 @@
     "install": [ {
         "find": "FillItUp",
         "install_to": "GameData"
-    } ]
+    } ],
+    "depends": [
+        { "name" : "ToolbarController" },
+        { "name" : "ClickThroughBlocker" }
+    ]
 }
