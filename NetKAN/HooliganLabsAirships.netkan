@@ -9,7 +9,7 @@
     ],
     "install": [
         {
-          "file"       : "HLAirships",
+          "find"       : "HLAirships",
           "install_to" : "GameData",
           "filter"     : "thumbs.db"
         }
