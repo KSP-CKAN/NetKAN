@@ -1,0 +1,22 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "SpecialDelivery",
+    "$kref":        "#/ckan/spacedock/2430",
+    "license":      "MIT",
+    "tags": [
+        "parts",
+        "uncrewed"
+    ],
+    "recommends": [
+        { "name": "ReStock"     },
+        { "name": "ReStockPlus" }
+    ],
+    "supports": [
+        { "name": "KIS"                },
+        { "name": "BreakingGround-DLC" }
+    ],
+    "install": [ {
+        "find":       "Delivery",
+        "install_to": "GameData"
+    } ]
+}
