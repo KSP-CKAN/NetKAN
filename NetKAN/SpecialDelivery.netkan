@@ -7,6 +7,9 @@
         "parts",
         "uncrewed"
     ],
+    "depends": [
+        { "name": "ModuleManager" }
+    ],
     "recommends": [
         { "name": "ReStock"     },
         { "name": "ReStockPlus" }
