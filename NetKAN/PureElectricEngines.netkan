@@ -6,6 +6,9 @@
     "tags": [
         "parts"
     ],
+    "depends": [
+        { "name": "ModuleManager" }
+    ],
     "install": [ {
         "find":       "JDSA",
         "install_to": "GameData"

@@ -6,8 +6,11 @@
     "tags": [
         "parts"
     ],
+    "depends": [
+        { "name": "ModuleManager" }
+    ],
     "install": [ {
-        "find": "MoS",
+        "find":       "MoS",
         "install_to": "GameData"
     } ]
 }

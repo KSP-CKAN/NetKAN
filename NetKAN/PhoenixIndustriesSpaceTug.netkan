@@ -10,6 +10,9 @@
         "find":       "IntegratedPhoenixIndustries",
         "install_to": "GameData"
     } ],
+    "depends": [
+        { "name": "ModuleManager" }
+    ],
     "suggests": [
         { "name": "BluedogDB"            },
         { "name": "ConnectedLivingSpace" },

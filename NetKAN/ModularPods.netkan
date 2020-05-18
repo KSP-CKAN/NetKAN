@@ -8,10 +8,11 @@
         "crewed"
     ],
     "install": [ {
-        "find": "ModPods",
+        "find":       "ModPods",
         "install_to": "GameData"
     } ],
     "depends": [
-        { "name": "TDProps" }
+        { "name": "ModuleManager" },
+        { "name": "TDProps"       }
     ]
 }

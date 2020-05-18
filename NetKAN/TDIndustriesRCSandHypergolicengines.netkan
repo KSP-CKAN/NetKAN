@@ -5,5 +5,8 @@
     "license":      "MIT",
     "tags": [
         "parts"
+    ],
+    "depends": [
+        { "name": "ModuleManager" }
     ]
 }

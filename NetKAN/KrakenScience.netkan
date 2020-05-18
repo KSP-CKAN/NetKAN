@@ -9,8 +9,11 @@
         "uncrewed",
         "career"
     ],
+    "depends": [
+        { "name": "ModuleManager" }
+    ],
     "install": [ {
-        "find": "KrakenScience",
+        "find":       "KrakenScience",
         "install_to": "GameData"
     } ]
 }

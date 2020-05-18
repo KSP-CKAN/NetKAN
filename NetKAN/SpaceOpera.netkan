@@ -6,5 +6,8 @@
     "tags": [
         "parts",
         "resources"
+    ],
+    "depends": [
+        { "name": "ModuleManager" }
     ]
 }

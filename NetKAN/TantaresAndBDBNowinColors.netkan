@@ -8,8 +8,9 @@
         "graphics"
     ],
     "depends": [
-        { "name": "NewTantares" },
-        { "name": "BluedogDB"   }
+        { "name": "ModuleManager" },
+        { "name": "NewTantares"   },
+        { "name": "BluedogDB"     }
     ],
     "install": [ {
         "find":       "BDBNIC",
