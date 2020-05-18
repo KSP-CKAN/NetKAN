@@ -2,6 +2,7 @@
     "spec_version": "v1.4",
     "identifier":   "ASETProps",
     "$kref":        "#/ckan/spacedock/1204",
+    "ksp_version":  "any",
     "license":      "CC-BY-NC-SA-3.0",
     "tags": [
         "plugin",
@@ -22,17 +23,7 @@
         { "name": "TACLS" }
     ],
     "install": [ {
-        "find": "ASET/ASET_Props",
+        "find":       "ASET/ASET_Props",
         "install_to": "GameData/ASET"
-    } ],
-    "x_netkan_override": [ {
-        "version": "1.5",
-        "delete": [
-            "ksp_version"
-        ],
-        "override": {
-            "ksp_version_min": "1.4",
-            "ksp_version_max": "1.8"
-        }
     } ]
 }
