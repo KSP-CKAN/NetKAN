@@ -13,9 +13,12 @@
         "crewed",
         "science"
     ],
-    "provides": [ "Kerbalism-Config" ],
+    "provides": [
+        "Kerbalism-Config"
+    ],
     "depends": [
-        { "name": "Kerbalism" }
+        { "name": "ModuleManager" },
+        { "name": "Kerbalism"     }
     ],
     "conflicts": [
         { "name": "Kerbalism-Config" },
@@ -26,7 +29,7 @@
         { "name": "BackgroundProcessing" }
     ],
     "install": [ {
-        "find": "KerbalismConfig",
+        "find":       "KerbalismConfig",
         "install_to": "GameData"
     } ]
 }

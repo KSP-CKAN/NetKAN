@@ -14,7 +14,8 @@
         "config"
     ],
     "depends": [
-        { "name": "KSCSwitcher" },
+        { "name": "ModuleManager"   },
+        { "name": "KSCSwitcher"     },
         { "name": "RealSolarSystem" }
     ],
     "recommends": [

@@ -13,5 +13,8 @@
     ],
     "conflicts": [
         { "name": "MonthlyBudgets" }
+    ],
+    "depends": [
+        { "name": "ModuleManager" }
     ]
 }

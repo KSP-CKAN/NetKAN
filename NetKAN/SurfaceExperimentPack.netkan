@@ -15,8 +15,9 @@
         "crewed"
     ],
     "depends": [
-        { "name": "KAS" },
-        { "name": "KIS" }
+        { "name": "ModuleManager" },
+        { "name": "KAS"           },
+        { "name": "KIS"           }
     ],
     "supports": [
         { "name": "OuterPlanetsMod" },

@@ -10,8 +10,11 @@
     "tags": [
         "parts"
     ],
+    "depends": [
+        { "name": "ModuleManager" }
+    ],
     "install": [ {
-        "find": "JoolianDiscovery",
+        "find":       "JoolianDiscovery",
         "install_to": "GameData"
     } ]
 }

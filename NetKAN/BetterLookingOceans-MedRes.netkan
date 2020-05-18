@@ -15,14 +15,15 @@
         "graphics"
     ],
     "depends": [
-        { "name": "Kopernicus" }
+        { "name": "ModuleManager" },
+        { "name": "Kopernicus"    }
     ],
     "conflicts": [
         { "name": "BetterLookingOceans-HighRes" },
         { "name": "BetterLookingOceans-LowRes" }
     ],
     "install": [ {
-        "find": "GameData/BLO",
+        "find":       "GameData/BLO",
         "install_to": "GameData"
     } ]
 }

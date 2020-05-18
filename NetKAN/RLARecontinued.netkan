@@ -9,10 +9,13 @@
     ],
     "conflicts": [
         { "name": "RLA-Stockalike" },
-        { "name": "RLAContinued" }
+        { "name": "RLAContinued"   }
+    ],
+    "depends": [
+        { "name": "ModuleManager" }
     ],
     "install": [ {
-        "install_to": "GameData",
-        "find": "RLA_Stockalike"
+        "find":       "RLA_Stockalike",
+        "install_to": "GameData"
     } ]
 }

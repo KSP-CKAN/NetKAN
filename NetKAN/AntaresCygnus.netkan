@@ -29,6 +29,9 @@
             "install_to": "Ships"
         }
     ],
+    "depends": [
+        { "name": "ModuleManager" }
+    ],
 	"conflicts"     : [
 		{ "name"    : "ROCapsules" },
 		{ "name"    : "ROEngines" }

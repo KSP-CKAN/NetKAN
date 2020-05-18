@@ -18,6 +18,7 @@
         "planet-pack"
     ],
     "depends": [
+        { "name": "ModuleManager" },
         {
             "name": "OuterPlanetsMod",
             "min_version": "2:2.2.2",

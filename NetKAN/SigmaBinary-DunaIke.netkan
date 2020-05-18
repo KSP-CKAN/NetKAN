@@ -16,11 +16,12 @@
         "planet-pack"
     ],
     "depends": [
+        { "name": "ModuleManager"    },
         { "name": "SigmaBinary-core" }
     ],
     "install": [
         {
-            "find": "SigmaDunaIke",
+            "find":       "SigmaDunaIke",
             "install_to": "GameData/Sigma"
         }
     ]

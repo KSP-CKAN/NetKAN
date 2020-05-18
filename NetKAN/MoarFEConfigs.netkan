@@ -10,10 +10,11 @@
         "convenience"
     ],
     "install": [ {
-        "find": "MoarFilterExtensionConfigs",
+        "find":       "MoarFilterExtensionConfigs",
         "install_to": "GameData"
     } ],
     "depends": [
-        { "name"     : "FilterExtensions" }
+        { "name": "ModuleManager"    },
+        { "name": "FilterExtensions" }
     ]
 }

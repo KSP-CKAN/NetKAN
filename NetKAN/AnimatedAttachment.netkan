@@ -10,5 +10,8 @@
     "tags": [
         "plugin",
         "library"
+    ],
+    "depends": [
+        { "name": "ModuleManager" }
     ]
 }

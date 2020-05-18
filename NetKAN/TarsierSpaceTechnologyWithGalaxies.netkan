@@ -16,14 +16,16 @@
     ],
     "install": [
         {
-            "find": "TarsierSpaceTech",
+            "find":       "TarsierSpaceTech",
             "install_to": "GameData"
         }
     ],
     "recommends": [
-        { "name": "KAS" },
-        { "name": "KIS" },
-        { "name": "ModuleManager" },
+        { "name": "KAS"     },
+        { "name": "KIS"     },
         { "name": "Toolbar" }
+    ],
+    "depends": [
+        { "name": "ModuleManager" }
     ]
 }

@@ -11,12 +11,15 @@
         "science",
         "crewed"
     ],
-    "provides": [ "Kerbalism-Config" ],
+    "provides": [
+        "Kerbalism-Config"
+    ],
     "conflicts": [
         { "name": "Kerbalism-Config" }
     ],
     "depends": [
-        { "name": "Kerbalism" }
+        { "name": "ModuleManager" },
+        { "name": "Kerbalism"     }
     ],
     "recommends": [
         { "name": "RealismOverhaul" }

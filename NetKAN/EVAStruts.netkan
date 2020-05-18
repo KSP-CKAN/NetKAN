@@ -4,6 +4,9 @@
     "$kref":        "#/ckan/spacedock/553",
     "$vref":        "#/ckan/ksp-avc",
     "license":      "MIT",
+    "depends": [
+        { "name": "ModuleManager" }
+    ],
     "tags": [
         "plugin",
         "parts",

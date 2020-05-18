@@ -15,6 +15,7 @@
         "parts"
     ],
     "depends": [
+        { "name": "ModuleManager" },
         { "name": "InfernalRobotics", "min_version": "0.19.4" }
     ],
     "recommends": [

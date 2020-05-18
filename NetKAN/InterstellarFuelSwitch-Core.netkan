@@ -30,7 +30,8 @@
         "DeadskinsMeshSwitch"
     ],
     "depends": [
-        { "name": "TweakScale" }
+        { "name": "ModuleManager" },
+        { "name": "TweakScale"    }
     ],
     "recommends": [
         { "name" : "CommunityResourcePack", "min_version" : "0.7.1" }

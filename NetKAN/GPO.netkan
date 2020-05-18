@@ -16,6 +16,7 @@
         "graphics"
     ],
     "depends": [
+        { "name": "ModuleManager"               },
         { "name": "Kopernicus"                  },
         { "name": "CommunityTerrainTexturePack" },
         { "name": "Scatterer"                   },

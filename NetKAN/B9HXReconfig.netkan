@@ -9,6 +9,7 @@
         "install_to": "GameData"
     } ],
     "depends": [
+        { "name": "ModuleManager"         },
         { "name": "B9AerospaceHX"         },
         { "name": "B9PartSwitch"          },
         { "name": "CommunityResourcePack" }
