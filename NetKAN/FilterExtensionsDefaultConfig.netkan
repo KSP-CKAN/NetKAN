@@ -13,7 +13,8 @@
         "editor"
     ],
     "depends" : [
-        { "name" : "FilterExtensions" }
+        { "name": "ModuleManager"    },
+        { "name": "FilterExtensions" }
     ],
     "install" : [
         {

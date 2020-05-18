@@ -16,8 +16,9 @@
         "convenience"
     ],
     "depends": [
-        { "name" : "ToolbarController" },
-        { "name" : "ClickThroughBlocker" }
+        { "name": "ModuleManager"       },
+        { "name": "ToolbarController"   },
+        { "name": "ClickThroughBlocker" }
     ],
     "install": [
         {

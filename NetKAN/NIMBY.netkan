@@ -7,8 +7,11 @@
     "tags": [
         "plugin"
     ],
+    "depends": [
+        { "name": "ModuleManager" }
+    ],
     "install": [ {
-        "find": "NIMBY",
+        "find":       "NIMBY",
         "install_to": "GameData"
     } ]
 }

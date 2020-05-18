@@ -14,8 +14,11 @@
         "crewed",
         "convenience"
     ],
-    "install" : [ {
-        "find" : "AllAboard",
-        "install_to" : "GameData"
+    "depends": [
+        { "name": "ModuleManager" }
+    ],
+    "install": [ {
+        "find":       "AllAboard",
+        "install_to": "GameData"
     } ]
 }
