@@ -6,9 +6,12 @@
     "tags": [
         "parts"
     ],
+    "depends": [
+        { "name": "ModuleManager" }
+    ],
     "install": [ {
-        "find": "Switch-All",
+        "find":       "Switch-All",
         "install_to": "GameData",
-        "filter": [ ".directory", "BeamedPower.xlsx", "KSPIE Brandwidths.xlsx" ]
+        "filter":     [ ".directory", "BeamedPower.xlsx", "KSPIE Brandwidths.xlsx" ]
     } ]
 }

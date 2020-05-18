@@ -17,6 +17,9 @@
         "find"       : "USAFOrionTD",
         "install_to" : "GameData"
     } ],
+    "depends": [
+        { "name": "ModuleManager" }
+    ],
     "recommends": [
         { "name" : "TDIndustrysOrionbits10m" }
     ],

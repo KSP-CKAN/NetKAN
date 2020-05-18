@@ -10,15 +10,15 @@
     "tags": [
         "agency"
     ],
-    "install": [
-        {
-            "find": "Agencies",
-            "install_to": "GameData/Contares"
-        },
-        {
-            "find": "CONTARES_TweakScale.cfg",
-            "find_matches_files": true,
-            "install_to": "GameData/Contares/Patches"
-        }
-    ]
+    "depends": [
+        { "name": "ModuleManager" }
+    ],
+    "install": [ {
+        "find":       "Agencies",
+        "install_to": "GameData/Contares"
+    }, {
+        "find":       "CONTARES_TweakScale.cfg",
+        "install_to": "GameData/Contares/Patches",
+        "find_matches_files": true
+    } ]
 }

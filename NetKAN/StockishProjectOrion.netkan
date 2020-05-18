@@ -7,6 +7,9 @@
         "plugin",
         "parts"
     ],
+    "depends": [
+        { "name": "ModuleManager" }
+    ],
     "install": [ {
         "find":       "Orion",
         "install_to": "GameData"

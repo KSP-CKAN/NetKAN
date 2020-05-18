@@ -11,11 +11,11 @@
         "convenience"
     ],
     "depends": [
+        { "name": "ModuleManager"     },
         { "name": "ToolbarController" }
     ],
     "suggests": [
-        { "name": "RasterPropMonitor" },
-        { "name": "ModuleManager" }
+        { "name": "RasterPropMonitor" }
     ],
     "x_netkan_override" : [
         {

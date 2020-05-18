@@ -7,6 +7,9 @@
         "parts",
         "crewed"
     ],
+    "depends": [
+        { "name": "ModuleManager" }
+    ],
     "install": [ {
         "find":       "KOOSE",
         "install_to": "GameData"

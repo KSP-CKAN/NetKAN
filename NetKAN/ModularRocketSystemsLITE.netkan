@@ -6,6 +6,9 @@
     "tags": [
         "parts"
     ],
+    "depends": [
+        { "name": "ModuleManager" }
+    ],
     "supports": [
         { "name": "SpaceY-Lifters" },
         { "name": "ColorCodedCans" },

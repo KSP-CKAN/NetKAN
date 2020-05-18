@@ -7,7 +7,8 @@
         "parts"
     ],
     "depends": [
-        { "name": "B9PartSwitch" }
+        { "name": "ModuleManager" },
+        { "name": "B9PartSwitch"  }
     ],
     "recommends": [
         { "name": "AnimatedDecouplers"   },

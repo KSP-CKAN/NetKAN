@@ -9,18 +9,19 @@
     "tags": [
         "parts"
     ],
+    "depends": [
+        { "name": "ModuleManager" }
+    ],
     "recommends": [
         { "name": "WasdEditorCameraContinued" },
         { "name": "VesselMover" },
         { "name": "LargeBoatPartsPack-Modern" },
         { "name": "LargeBoatPartsPack-WW2" }
     ],
-    "install": [
-        {
-            "find": "LShipPartsRequired",
-            "install_to": "GameData/LShipParts"
-        }
-    ],
+    "install": [ {
+        "find":       "LShipPartsRequired",
+        "install_to": "GameData/LShipParts"
+    } ],
     "x_netkan_override": [
         {
             "version": "3.2",

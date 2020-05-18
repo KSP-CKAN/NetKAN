@@ -12,6 +12,7 @@
         "install_to": "GameData"
     } ],
     "depends": [
+        { "name": "ModuleManager"     },
         { "name": "OPTSpacePlaneMain" },
         { "name": "USI-LS"            }
     ]
