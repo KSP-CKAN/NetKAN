@@ -16,8 +16,9 @@
         "crewed"
     ],
     "depends": [
+        { "name": "ModuleManager"         },
         { "name": "CommunityResourcePack" },
-        { "name": "ToolbarController" },
-        { "name": "ClickThroughBlocker" }
+        { "name": "ToolbarController"     },
+        { "name": "ClickThroughBlocker"   }
     ]
 }

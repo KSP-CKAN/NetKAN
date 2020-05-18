@@ -12,7 +12,8 @@
         "planet-pack"
     ],
     "depends" : [
-        { "name": "Kopernicus" },
+        { "name": "ModuleManager"   },
+        { "name": "Kopernicus"      },
         { "name": "SigmaDimensions" }
     ],
     "suggests": [

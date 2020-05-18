@@ -11,8 +11,11 @@
         "plugin",
         "app"
     ],
+    "depends": [
+        { "name": "ModuleManager" }
+    ],
     "install": [ {
-        "find": "NodeHelper",
+        "find":       "NodeHelper",
         "install_to": "GameData"
     } ]
 }

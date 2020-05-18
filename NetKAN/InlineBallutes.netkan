@@ -10,13 +10,15 @@
     "tags": [
         "parts"
     ],
-    "suggests"     : [
-        { "name": "FAR" },
-        { "name": "EntropyRealChute" },
+    "depends": [
         { "name": "ModuleManager" }
     ],
+    "suggests": [
+        { "name": "FAR"              },
+        { "name": "EntropyRealChute" }
+    ],
     "install": [ {
-        "find": "KermangeddonIndustries",
-        "install_to" : "GameData"
+        "find":       "KermangeddonIndustries",
+        "install_to": "GameData"
     } ]
 }

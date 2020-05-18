@@ -11,5 +11,8 @@
     },
     "tags": [
         "parts"
+    ],
+    "depends": [
+        { "name": "ModuleManager" }
     ]
 }

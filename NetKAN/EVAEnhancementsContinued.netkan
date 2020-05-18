@@ -11,8 +11,9 @@
         "control"
     ],
     "depends": [
-        { "name" : "ToolbarController" },
-        { "name" : "ClickThroughBlocker" }
+        { "name": "ModuleManager"       },
+        { "name": "ToolbarController"   },
+        { "name": "ClickThroughBlocker" }
     ],
     "suggests": [
         { "name": "EvaFuelCont" }

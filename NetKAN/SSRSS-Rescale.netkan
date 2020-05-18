@@ -11,7 +11,8 @@
         "planet-pack"
     ],
     "depends": [
-        { "name": "SSRSS-Cont" }
+        { "name": "ModuleManager" },
+        { "name": "SSRSS-Cont"    }
     ],
     "conflicts": [
         { "name": "SigmaDimensions" }

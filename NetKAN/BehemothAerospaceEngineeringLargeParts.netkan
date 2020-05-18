@@ -9,6 +9,9 @@
     "tags": [
         "parts"
     ],
+    "depends": [
+        { "name": "ModuleManager" }
+    ],
     "recommends": [
         { "name": "FirespitterCore"          },
         { "name": "InterstellarFuelSwitch"   },

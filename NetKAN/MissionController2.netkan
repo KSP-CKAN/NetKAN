@@ -15,6 +15,9 @@
         "plugin",
         "career"
     ],
+    "depends": [
+        { "name": "ModuleManager" }
+    ],
     "install": [
         {
             "find" : "MissionControllerEC",

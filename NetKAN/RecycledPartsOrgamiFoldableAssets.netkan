@@ -9,10 +9,13 @@
         "parts"
     ],
     "install": [ {
-        "find": "NAU",
+        "find":       "NAU",
         "install_to": "GameData/SpaceTuxIndustries/RecycledParts"
     } ],
     "conflicts": [
         { "name" : "RecycledPartsOrgamiFoldableAssets" }
+    ],
+    "depends": [
+        { "name": "ModuleManager" }
     ]
 }
