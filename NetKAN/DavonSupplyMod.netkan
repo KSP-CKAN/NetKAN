@@ -3,6 +3,7 @@
     "x_netkan_epoch": "1",
     "identifier":   "DavonSupplyMod",
     "$kref":        "#/ckan/spacedock/364",
+    "$vref":        "#/ckan/ksp-avc",
     "license":      "GPL-2.0",
     "resources" : {
         "homepage"     : "https://forum.kerbalspaceprogram.com/index.php?/topic/34082-*"
