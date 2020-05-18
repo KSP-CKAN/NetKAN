@@ -7,6 +7,9 @@
         "config",
         "library"
     ],
+    "depends": [
+        { "name": "ModuleManager" }
+    ],
     "install": [ {
         "find":       "DeepSky",
         "install_to": "GameData"

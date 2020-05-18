@@ -8,11 +8,11 @@
         "parts",
         "crewed"
     ],
-    "recommends": [
+    "depends": [
          { "name": "ModuleManager" }
     ],
     "install": [ {
-        "find" : "FlexoDocking",
-        "install_to" : "GameData"
+        "find":       "FlexoDocking",
+        "install_to": "GameData"
     } ]
 }

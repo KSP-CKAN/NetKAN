@@ -9,10 +9,11 @@
         "science"
     ],
     "depends": [
-        { "name": "Kopernicus" }
+        { "name": "ModuleManager" },
+        { "name": "Kopernicus"    }
     ],
     "install": [ {
-        "find": "GameData/JoolBiomes",
+        "find":       "GameData/JoolBiomes",
         "install_to": "GameData"
     } ]
 }

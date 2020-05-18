@@ -8,10 +8,11 @@
         "science"
     ],
     "depends": [
+        { "name": "ModuleManager"   },
         { "name": "TextureReplacer" }
     ],
     "install": [ {
-        "find":"KSI",
+        "find":       "KSI",
         "install_to": "GameData"
     } ]
 }

@@ -10,17 +10,18 @@
         "parts"
     ],
     "depends": [
+        { "name": "ModuleManager"      },
         { "name": "SpaceShuttleSystem" }
     ],
     "recommends": [
-        { "name": "ASETProps" },
+        { "name": "ASETProps"         },
         { "name": "RasterPropMonitor" }
     ],
     "install": [ {
-        "file": "DECQ_R7",
+        "file":       "DECQ_R7",
         "install_to": "GameData"
     }, {
-        "file": "SOYUZ_SPACECRAFT",
+        "file":       "SOYUZ_SPACECRAFT",
         "install_to": "GameData"
     } ]
 }

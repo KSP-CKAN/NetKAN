@@ -7,6 +7,9 @@
         "plugin",
         "convenience"
     ],
+    "depends": [
+        { "name": "ModuleManager" }
+    ],
     "install": [ {
         "find":       "XyphosAerospace",
         "install_to": "GameData"

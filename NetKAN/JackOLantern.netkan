@@ -6,5 +6,8 @@
     "license":      "CC-BY-NC-4.0",
     "tags": [
         "parts"
+    ],
+    "depends": [
+        { "name": "ModuleManager" }
     ]
 }
