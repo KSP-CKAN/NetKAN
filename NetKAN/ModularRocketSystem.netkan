@@ -1,9 +1,9 @@
 {
-    "spec_version" : 1,
-    "identifier" : "ModularRocketSystem",
-    "$kref" : "#/ckan/spacedock/86",
-    "$vref" : "#/ckan/ksp-avc",
-    "license" : "CC-BY-NC-SA",
+    "spec_version": 1,
+    "identifier":   "ModularRocketSystem",
+    "$kref":        "#/ckan/spacedock/86",
+    "$vref":        "#/ckan/ksp-avc",
+    "license":      "CC-BY-NC-SA",
     "tags": [
         "parts"
     ],
@@ -25,10 +25,11 @@
     "conflicts": [
         { "name": "ModularRocketSystemsLITE" }
     ],
-    "install": [
-        {
-            "file": "ModRocketSys",
-            "install_to": "GameData"
-        }
-    ]
+    "depends": [
+        { "name": "ModuleManager" }
+    ],
+    "install": [ {
+        "file":       "ModRocketSys",
+        "install_to": "GameData"
+    } ]
 }

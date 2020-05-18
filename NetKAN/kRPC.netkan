@@ -13,5 +13,8 @@
         "plugin",
         "app",
         "control"
+    ],
+    "depends": [
+        { "name": "ModuleManager" }
     ]
 }

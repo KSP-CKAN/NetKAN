@@ -14,7 +14,7 @@
         "information",
         "sound"
     ],
-    "suggests"     : [
+    "depends"      : [
         { "name": "ModuleManager" }
     ],
     "install"      : [

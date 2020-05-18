@@ -8,6 +8,9 @@
     "tags": [
         "parts"
     ],
+    "depends": [
+        { "name": "ModuleManager" }
+    ],
     "suggests": [
         { "name": "MoarKerbals"             },
         { "name": "MFS"                     },

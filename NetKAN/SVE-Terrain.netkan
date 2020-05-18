@@ -14,7 +14,8 @@
         "graphics"
     ],
     "depends": [
-        { "name": "Kopernicus" }
+        { "name": "ModuleManager" },
+        { "name": "Kopernicus"    }
     ],
     "recommends": [
         { "name": "StockVisualEnhancements" }

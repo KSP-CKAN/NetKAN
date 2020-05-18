@@ -15,6 +15,7 @@
         "crewed"
     ],
     "depends": [
+        { "name": "ModuleManager"   },
         { "name": "FingerboxesCore" }
     ],
      "install": [

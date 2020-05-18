@@ -11,19 +11,20 @@
         "parts"
     ],
     "install": [ {
-        "file": "0PinlineFairings",
+        "file":       "0PinlineFairings",
         "install_to": "GameData"
     } ],
     "conflicts": [
         { "name": "ZeroPointInlineFairings-Lite" }
     ],
     "depends": [
-        { "name": "FerramAerospaceResearch"}
+        { "name": "ModuleManager"           },
+        { "name": "FerramAerospaceResearch" }
     ],
     "suggests": [
         { "name": "ModularRocketSystem" },
-        { "name": "SpaceY-Lifters" },
-        { "name": "ColorCodedCans"},
-        { "name": "FuelTanksPlus"}
+        { "name": "SpaceY-Lifters"      },
+        { "name": "ColorCodedCans"      },
+        { "name": "FuelTanksPlus"       }
     ]
 }

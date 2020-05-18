@@ -18,6 +18,9 @@
         "find"      : "NoAstronautsNeedApply",
         "install_to": "GameData"
     } ],
+    "depends": [
+        { "name": "ModuleManager" }
+    ],
     "recommends"    : [
         { "name"    : "InfernalRobotics" },
         { "name"    : "ShipManifest" }

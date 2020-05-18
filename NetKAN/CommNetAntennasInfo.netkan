@@ -19,6 +19,9 @@
     "conflicts": [
         { "name": "RemoteTech" }
     ],
+    "depends": [
+        { "name": "ModuleManager" }
+    ],
     "recommends": [
         { "name": "CommNetAntennasExtension" },
         { "name": "CommNetAntennasConsumptor" }

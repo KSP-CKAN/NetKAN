@@ -20,6 +20,9 @@
         { "name": "InfernalRobotics"         },
         { "name": "KerbalJointReinforcement" }
     ],
+    "depends": [
+        { "name": "ModuleManager" }
+    ],
     "recommends"     : [
         { "name": "KerbalJointReinforcementNext" }
     ],
