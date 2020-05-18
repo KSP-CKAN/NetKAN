@@ -8,6 +8,9 @@
         "parts",
         "crewed"
     ],
+    "depends": [
+        { "name": "ModuleManager" }
+    ],
     "install": [ {
         "find":       "CapsuleCorp",
         "install_to": "GameData"

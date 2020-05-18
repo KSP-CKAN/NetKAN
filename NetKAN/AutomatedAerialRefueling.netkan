@@ -13,6 +13,9 @@
         "find":       "AARS",
         "install_to": "GameData"
     } ],
+    "depends": [
+        { "name": "ModuleManager" }
+    ],
     "recommends": [
         { "name": "BDArmoryContinued" }
     ]

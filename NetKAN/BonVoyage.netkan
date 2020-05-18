@@ -8,5 +8,7 @@
         "plugin",
         "convenience"
     ],
-    "x_via": "Automated SpaceDock CKAN submission"
+    "depends": [
+        { "name": "ModuleManager" }
+    ]
 }

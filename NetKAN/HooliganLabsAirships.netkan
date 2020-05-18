@@ -7,11 +7,12 @@
         "plugin",
         "parts"
     ],
-    "install": [
-        {
-          "find"       : "HLAirships",
-          "install_to" : "GameData",
-          "filter"     : "thumbs.db"
-        }
-    ]
+    "depends": [
+        { "name": "ModuleManager" }
+    ],
+    "install": [ {
+      "find"       : "HLAirships",
+      "install_to" : "GameData",
+      "filter"     : "thumbs.db"
+    } ]
 }

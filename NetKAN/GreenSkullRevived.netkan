@@ -3,13 +3,14 @@
     "identifier":   "GreenSkullRevived",
     "$kref":        "#/ckan/spacedock/2317",
     "license":      "MIT",
-    "depends": [
-        { "name": "TextureReplacer" }
-    ],
     "tags": [
         "config",
         "graphics",
         "crewed"
+    ],
+    "depends": [
+        { "name": "ModuleManager"   },
+        { "name": "TextureReplacer" }
     ],
     "install": [ {
         "find":       "TextureReplacer",

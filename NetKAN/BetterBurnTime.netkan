@@ -7,6 +7,9 @@
         "plugin",
         "information"
     ],
+    "depends": [
+        { "name": "ModuleManager" }
+    ],
     "x_netkan_override": [ {
         "version":  "1.6.1",
         "delete":   [ "ksp_version" ],

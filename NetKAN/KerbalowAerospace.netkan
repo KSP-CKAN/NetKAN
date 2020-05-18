@@ -37,6 +37,7 @@
         "find_matches_files": true
     } ],
     "depends": [
+        { "name": "ModuleManager"     },
         { "name": "TexturesUnlimited" }
     ],
     "suggests": [

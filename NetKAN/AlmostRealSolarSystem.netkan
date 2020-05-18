@@ -8,12 +8,13 @@
         "planet-pack"
     ],
     "install": [ {
-        "find": "(Almost)RealSolarSystem",
+        "find":       "(Almost)RealSolarSystem",
         "install_to": "GameData"
     } ],
     "depends": [
-        { "name": "SigmaDimensions" },
-        { "name": "Kopernicus" }
+        { "name": "ModuleManager"   },
+        { "name": "Kopernicus"      },
+        { "name": "SigmaDimensions" }
     ],
     "recommends": [
         { "name": "OPM-Galileo" }

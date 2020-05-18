@@ -7,13 +7,12 @@
         "parts"
     ],
     "depends": [
+        { "name": "ModuleManager"         },
         { "name": "REPOSoftTech-Agencies" }
     ],
-    "install": [
-        {
-            "find"       : "REPOSoftTech",
-            "install_to" : "GameData",
-            "filter"     : "Agencies"
-        }
-    ]
+    "install": [ {
+        "find":       "REPOSoftTech",
+        "install_to": "GameData",
+        "filter":     "Agencies"
+    } ]
 }

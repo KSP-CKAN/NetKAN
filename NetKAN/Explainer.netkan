@@ -9,7 +9,8 @@
         "crewed"
     ],
     "depends": [
-        { "name": "UKS" },
-        { "name": "USI-LS" }
+        { "name": "ModuleManager" },
+        { "name": "UKS"           },
+        { "name": "USI-LS"        }
     ]
 }

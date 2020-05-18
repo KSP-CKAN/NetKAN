@@ -5,5 +5,8 @@
     "license":      "MIT",
     "tags": [
         "plugin"
+    ],
+    "depends": [
+        { "name": "ModuleManager" }
     ]
 }
