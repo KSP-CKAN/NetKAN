@@ -12,7 +12,7 @@
     ],
     "depends": [
         { "name": "ASETAgency" },
-        { "name": "RasterPropMonitor-Core", "min_version" : "0.28.0" }
+        { "name": "RasterPropMonitor-Core", "min_version" : "1:v0.30.2" }
     ],
     "supports": [
         { "name": "MechJeb2" },
