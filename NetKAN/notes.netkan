@@ -1,12 +1,13 @@
 {
-    "spec_version"  : 1,
-    "identifier"    : "notes",
-    "$kref"         : "#/ckan/spacedock/77",
-    "license"       : "GPL-3.0",
-    "resources"     : {
-        "homepage"  : "https://forum.kerbalspaceprogram.com/index.php?/topic/50884-*"
+    "spec_version": 1,
+    "identifier":   "notes",
+    "$kref":        "#/ckan/spacedock/77",
+    "$vref":        "#/ckan/ksp-avc",
+    "license":      "GPL-3.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/50884-*"
     },
-    "tags"          : [
+    "tags": [
         "plugin",
         "convenience"
     ],
@@ -17,13 +18,13 @@
     "suggests": [
         { "name": "RasterPropMonitor" }
     ],
-    "x_netkan_override" : [
+    "x_netkan_override": [
         {
-            "version" : "0.10.1",
-            "delete" : [ "ksp_version" ],
-            "override" : {
-                "ksp_version_min" : "1.0.2",
-                "ksp_version_max" : "1.0.4"
+            "version": "0.10.1",
+            "delete": [ "ksp_version" ],
+            "override": {
+                "ksp_version_min": "1.0.2",
+                "ksp_version_max": "1.0.4"
             }
         }
     ]
