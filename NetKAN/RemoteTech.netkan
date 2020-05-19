@@ -3,6 +3,7 @@
     "identifier":   "RemoteTech",
     "author":       "Remote Technologies Group",
     "$kref":        "#/ckan/spacedock/520",
+    "$vref":        "#/ckan/ksp-avc",
     "x_netkan_force_v": true,
     "release_status": "stable",
     "license":      "GPL-2.0",
@@ -19,10 +20,8 @@
             "comment": "Earlier versions of MM have forward compatibility problems, according to the MM release notes."
         }
     ],
-    "install": [
-        {
-            "file": "GameData/RemoteTech",
-            "install_to": "GameData"
-        }
-    ]
+    "install": [ {
+        "file": "GameData/RemoteTech",
+        "install_to": "GameData"
+    } ]
 }

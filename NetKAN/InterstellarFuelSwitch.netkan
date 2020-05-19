@@ -1,30 +1,29 @@
 {
-    "spec_version" : "v1.4",
-    "$kref"        : "#/ckan/spacedock/175",
-    "identifier"   : "InterstellarFuelSwitch",
-    "license"      : "GPL-2.0",
+    "spec_version": "v1.4",
+    "identifier":   "InterstellarFuelSwitch",
+    "abstract":     "Library that enables switching the contents, meshes, and textures of tanks.",
+    "$kref":        "#/ckan/spacedock/175",
+    "$vref":        "#/ckan/ksp-avc/InterstellarFuelSwitch.version",
+    "license":      "GPL-2.0",
+    "resources": {
+        "bugtracker": "https://github.com/sswelm/KSP-Interstellar-Extended/issues"
+    },
     "tags": [
         "crewed",
         "parts"
     ],
-    "install": [
-        {
-            "find" : "InterstellarFuelSwitch",
-            "install_to" : "GameData",
-            "filter" : [ "Plugins", "Resources", "Localization" ]
-        }
-    ],
-    "depends" : [
-        { "name" : "InterstellarFuelSwitch-Core", "min_version" : "1.28" },
-        { "name" : "ModuleManager" },
-        { "name" : "CommunityTechTree" }
+    "install": [ {
+        "find":       "InterstellarFuelSwitch",
+        "install_to": "GameData",
+        "filter":     [ "Plugins", "Resources", "Localization" ]
+    } ],
+    "depends": [
+        { "name": "ModuleManager" },
+        { "name": "InterstellarFuelSwitch-Core", "min_version" : "1.28" },
+        { "name": "CommunityTechTree" }
     ],
     "recommends": [
-        { "name"         : "KSPInterstellarExtended" },
-        { "name"         : "PatchManager" }
-    ],
-    "abstract" : "Library that enables switching the contents, meshes, and textures of tanks.",
-    "resources" : {
-        "bugtracker"   : "https://github.com/sswelm/KSP-Interstellar-Extended/issues"
-    }
+        { "name": "KSPInterstellarExtended" },
+        { "name": "PatchManager" }
+    ]
 }

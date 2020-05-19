@@ -2,6 +2,7 @@
     "spec_version": "v1.4",
     "identifier":   "PersistentRotation",
     "$kref":        "#/ckan/spacedock/447",
+    "$vref":        "#/ckan/ksp-avc",
     "license":      "GPL-3.0",
     "tags": [
         "plugin",
@@ -10,12 +11,10 @@
     "suggests": [
         { "name": "Toolbar" }
     ],
-    "install": [
-        {
-            "file":       "GameData/PersistentRotation",
-            "install_to": "GameData"
-        }
-    ],
+    "install": [ {
+        "file":       "GameData/PersistentRotation",
+        "install_to": "GameData"
+    } ],
     "x_netkan_override": [
         {
             "version": "1.8.5",
