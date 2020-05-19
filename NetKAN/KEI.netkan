@@ -2,13 +2,14 @@
     "spec_version": "v1.4",
     "identifier":   "KEI",
     "$kref":        "#/ckan/spacedock/834",
+    "$vref":        "#/ckan/ksp-avc",
     "license":      "GPL-3.0",
     "tags": [
         "plugin",
         "science"
     ],
     "depends": [
-        { "name": "ToolbarController" },
+        { "name": "ToolbarController"   },
         { "name": "ClickThroughBlocker" }
     ]
 }

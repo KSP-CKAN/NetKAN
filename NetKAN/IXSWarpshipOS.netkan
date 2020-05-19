@@ -2,6 +2,7 @@
     "spec_version": "v1.16",
     "identifier":   "IXSWarpshipOS",
     "$kref":        "#/ckan/spacedock/589",
+    "$vref":        "#/ckan/ksp-avc",
     "license":      "CC-BY-NC-SA-4.0",
     "tags": [
         "parts"
@@ -22,16 +23,13 @@
         { "name": "WarpShip" },
         { "name": "KSPInterstellarExtended" }
     ],
-    "install": [
-        {
-            "find"       : "IXSWarpShipOS",
-            "install_to" : "GameData",
-            "filter"     : [ ".DS_Store", "Example Craft", "old Spacedocks.zip" ]
-        },
-        {
-            "find"               : "IXS01 Warpship Prototype.craft",
-            "install_to"         : "Ships/VAB",
-            "find_matches_files" : true
-        }
-    ]
+    "install": [ {
+        "find"       : "IXSWarpShipOS",
+        "install_to" : "GameData",
+        "filter"     : [ ".DS_Store", "Example Craft", "old Spacedocks.zip" ]
+    }, {
+        "find"               : "IXS01 Warpship Prototype.craft",
+        "install_to"         : "Ships/VAB",
+        "find_matches_files" : true
+    } ]
 }
