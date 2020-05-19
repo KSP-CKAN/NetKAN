@@ -1,18 +1,19 @@
 {
     "spec_version": "v1.4",
-    "identifier": "ContractConfigurator-ContractPackHistoricalProgression",
-    "$kref": "#/ckan/spacedock/829",
-    "license": "CC-BY-NC-SA",
-    "resources" : {
-        "homepage" : "http://forum.kerbalspaceprogram.com/index.php?/topic/143397-*"
+    "identifier":   "ContractConfigurator-ContractPackHistoricalProgression",
+    "$kref":        "#/ckan/spacedock/829",
+    "$vref":        "#/ckan/ksp-avc",
+    "license":      "CC-BY-NC-SA",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/143397-*"
     },
     "tags": [
         "config",
         "career"
     ],
-    "depends" : [
-        { "name" : "ContractConfigurator" },
-        { "name" : "ModuleManager" }
+    "depends": [
+        { "name": "ModuleManager"        },
+        { "name": "ContractConfigurator" }
     ],
     "suggests": [
         { "name": "HistoricalProgressionTechTree" },
@@ -24,8 +25,8 @@
         { "name": "TACLS" },
         { "name": "USI-LS" }
     ],
-    "install" : [ {
-        "find" : "HistoricalProgression",
-        "install_to" : "GameData/ContractPacks"
+    "install": [ {
+        "find":       "HistoricalProgression",
+        "install_to": "GameData/ContractPacks"
     } ]
 }

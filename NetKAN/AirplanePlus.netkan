@@ -2,14 +2,15 @@
     "spec_version": "v1.4",
     "identifier":   "AirplanePlus",
     "$kref":        "#/ckan/spacedock/716",
+    "$vref":        "#/ckan/ksp-avc",
     "license":      "CC-BY-NC-ND-4.0",
     "tags": [
         "parts",
         "crewed"
     ],
     "depends": [
-        { "name": "FirespitterCore" },
-        { "name": "FirespitterResourcesConfig" },
-        { "name": "ModuleManager" }
+        { "name": "ModuleManager"              },
+        { "name": "FirespitterCore"            },
+        { "name": "FirespitterResourcesConfig" }
     ]
 }

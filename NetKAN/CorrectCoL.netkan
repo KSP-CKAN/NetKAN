@@ -1,24 +1,23 @@
 {
-	"spec_version": "v1.4",
-	"identifier":   "CorrectCoL",
-	"$kref":        "#/ckan/spacedock/789",
-	"license":      "MIT",
-	"tags": [
-		"plugin",
-		"information",
-		"editor"
-	],
-	"conflicts": [
-	    { "name": "FerramAerospaceResearch" }
-	],
-	"install": [
-		{
-			"find": "CorrectCoL",
-			"install_to": "GameData"
-		}
-	],
-	 "depends": [
-        { "name" : "ToolbarController" },
-		{ "name" : "ClickThroughBlocker" }
+    "spec_version": "v1.4",
+    "identifier":   "CorrectCoL",
+    "$kref":        "#/ckan/spacedock/789",
+    "$vref":        "#/ckan/ksp-avc",
+    "license":      "MIT",
+    "tags": [
+        "plugin",
+        "information",
+        "editor"
+    ],
+    "conflicts": [
+        { "name": "FerramAerospaceResearch" }
+    ],
+    "install": [ {
+        "find":       "CorrectCoL",
+        "install_to": "GameData"
+    } ],
+    "depends": [
+        { "name" : "ToolbarController"   },
+        { "name" : "ClickThroughBlocker" }
     ]
 }
