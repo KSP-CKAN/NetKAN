@@ -2,6 +2,7 @@
     "spec_version": "v1.16",
     "identifier":   "PlanetWiki",
     "$kref":        "#/ckan/spacedock/780",
+    "x_netkan_epoch": 1,
     "license":      "CC-BY-NC-ND-4.0",
     "tags": [
         "config",
@@ -9,9 +10,9 @@
     ],
     "install": [
         {
-            "find_regexp": "GameData/planetwikiv[0-9]*.ksp",
+            "find_regexp": "GameData/.*\\.ksp",
             "find_matches_files": true,
-            "install_to": "GameData"
+            "install_to": "GameData/PlanetWiki"
         }
     ]
 }
