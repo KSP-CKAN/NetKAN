@@ -8,11 +8,14 @@
         "parts",
         "science"
     ],
-    "install": [ {
-        "find": "MunSeeker",
-        "install_to": "GameData"
-    } ],
+    "depends": [
+        { "name": "SpacetuxSA" }
+    ],
     "suggests": [
         { "name": "ContractConfigurator" }
-    ]
+    ],
+    "install": [ {
+        "find":       "MunSeeker",
+        "install_to": "GameData"
+    } ]
 }
