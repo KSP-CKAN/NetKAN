@@ -1,0 +1,29 @@
+{
+    "spec_version"     : "v1.2",
+    "$kref"            : "#/ckan/spacedock/2434",
+    "$vref"            : "#/ckan/ksp-avc",
+    "identifier"       : "KSP-Recall",
+    "name"             : "KSP Recall",
+    "abstract"         : "Recall for KSP blunders, mistakes and borks.",
+    "license"          : [ "GPL-2.0", "restricted" ],
+    "release_status"   : "stable",
+    "ksp_version_min"  : "1.9.0",
+    "ksp_version_max"  : "1.9.1",
+    "x_netkan_force_v" : true,
+    "author": [
+        "LisiasT"
+    ],
+    "install" : [
+        {
+            "file" : "GameData/999_KSP-Recall",
+            "install_to" : "GameData"
+        }
+    ],
+    "resources": {
+        "homepage":   "https://forum.kerbalspaceprogram.com/index.php?/topic/179030-*",
+        "repository": "https://github.com/net-lisias-ksp/KSP-Recall"
+    },
+    "depends" : [
+        { "name" : "ModuleManager", "min_version" : "3.1.1" }
+    ]
+}
