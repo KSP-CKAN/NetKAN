@@ -7,8 +7,6 @@
     "abstract"         : "Recall for KSP blunders, mistakes and borks.",
     "license"          : [ "GPL-2.0", "restricted" ],
     "release_status"   : "stable",
-    "ksp_version_min"  : "1.9.0",
-    "ksp_version_max"  : "1.9.1",
     "x_netkan_force_v" : true,
     "author": [
         "LisiasT"
