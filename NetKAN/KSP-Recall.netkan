@@ -4,7 +4,7 @@
     "$vref"            : "#/ckan/ksp-avc",
     "identifier"       : "KSP-Recall",
     "name"             : "KSP Recall",
-    "abstract"         : "Recall for KSP blunders, mistakes and borks.",
+    "abstract"         : "KSP Recall - a bag of tricks and stunts to work around KSP bugs while editing Resources on Editor, and more to come...",
     "license"          : [ "GPL-2.0", "restricted" ],
     "release_status"   : "stable",
     "x_netkan_force_v" : true,
