@@ -13,8 +13,6 @@
         "install_to": "GameData"
     } ],
     "depends": [
-        { "name": "JSIPartUtilities"        },
-        { "name": "Mk1CockpitIVAReplbyASET" },
-        { "name": "ModuleManager"           }
+        { "name": "ModuleManager" }
     ]
 }
