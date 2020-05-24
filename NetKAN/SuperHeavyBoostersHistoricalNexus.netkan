@@ -1,7 +1,20 @@
 {
     "spec_version": "v1.4",
-    "identifier": "SuperHeavyBoostersHistoricalNexus",
-    "$kref": "#/ckan/spacedock/147",
-    "license": "CC-BY-SA-4.0",
-    "x_via": "Automated SpaceDock CKAN submission"
+    "identifier":   "SuperHeavyBoostersHistoricalNexus",
+    "$kref":        "#/ckan/spacedock/147",
+    "license":      "CC-BY-SA-4.0",
+    "tags": [
+        "parts"
+    ],
+    "install": [ {
+        "find":       "Nexus",
+        "install_to": "GameData"
+    }, {
+        "find":       "Ships",
+        "install_to": "Ships"
+    } ],
+    "recommends": [
+        { "name": "CommunityTechTree"     },
+        { "name": "CommunityResourcePack" }
+    ]
 }
