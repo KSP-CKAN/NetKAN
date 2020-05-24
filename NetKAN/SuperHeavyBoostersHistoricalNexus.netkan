@@ -11,7 +11,8 @@
         "install_to": "GameData"
     }, {
         "find":       "Ships",
-        "install_to": "Ships"
+        "install_to": "Ships",
+        "as":         "VAB"
     } ],
     "recommends": [
         { "name": "CommunityTechTree"     },
