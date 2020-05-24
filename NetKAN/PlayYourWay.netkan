@@ -12,9 +12,6 @@
         "config",
         "career"
     ],
-    "depends": [
-        { "name" : "ModuleManager" }
-    ],
     "recommends": [
         { "name": "ContractConfigurator" }
     ]

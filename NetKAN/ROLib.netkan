@@ -15,7 +15,6 @@
         "plugin"
     ],
     "depends" : [
-        { "name" : "ModuleManager" },
         { "name" : "TexturesUnlimited" }
     ],
     "recommends" : [

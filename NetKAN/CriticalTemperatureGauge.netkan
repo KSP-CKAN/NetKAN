@@ -15,8 +15,7 @@
         "information"
     ],
     "depends"      : [
-        { "name": "ModuleManager" },
         { "name": "ClickThroughBlocker" },
-        { "name": "ToolbarController" }
+        { "name": "ToolbarController"   }
     ]
 }

@@ -15,9 +15,6 @@
     "tags": [
         "parts"
     ],
-    "depends": [
-        { "name": "ModuleManager"}
-    ],
     "install": [ {
         "find"       : "GameData/LudicrousPropulsionSystems",
         "install_to" : "GameData"

@@ -17,7 +17,9 @@
         "plugin",
         "graphics"
     ],
-    "provides": [ "TextureReplacer" ],
+    "provides": [
+        "TextureReplacer"
+    ],
 	"conflicts": [
         { "name": "TextureReplacer" }
     ],
@@ -28,9 +30,6 @@
         "find"       : "TextureReplacerReplaced",
         "install_to" : "GameData"
     } ],
-    "depends" : [
-        { "name" : "ModuleManager"	}
-    ],
     "recommends" : [
         { "name" : "WindowShine" }
     ],

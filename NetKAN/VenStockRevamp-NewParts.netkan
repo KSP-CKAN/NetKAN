@@ -14,7 +14,6 @@
         "graphics"
     ],
     "depends": [
-        { "name" : "ModuleManager"       },
         { "name" : "VenStockRevamp-Core" }
     ],
     "recommends": [
