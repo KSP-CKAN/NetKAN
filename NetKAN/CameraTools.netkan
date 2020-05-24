@@ -11,8 +11,5 @@
     "resources": {
         "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/84938-*",
         "x_screenshot": "https://spacedock.info/content/BahamutoD_222/Camera_Tools/Camera_Tools-1456425830.4879806.jpg"
-    },
-    "depends": [
-        { "name": "ModuleManager" }
-    ]
+    }
 }

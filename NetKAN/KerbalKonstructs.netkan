@@ -16,16 +16,13 @@
         "buildings"
     ],
     "depends"      : [
-        { "name"   : "ModuleManager"         },
         { "name"   : "CustomPreLaunchChecks" }
     ],
     "suggests": [
         { "name"   : "KKtoSD" }
     ],
-    "install": [
-        {
-            "find"       : "KerbalKonstructs",
-            "install_to" : "GameData"
-        }
-    ]
+    "install": [ {
+        "find"       : "KerbalKonstructs",
+        "install_to" : "GameData"
+    } ]
 }

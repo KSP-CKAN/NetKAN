@@ -24,7 +24,6 @@
         }
     ],
     "depends": [
-        { "name" : "ModuleManager", "min_version" : "2.6.1" },
         { "name" : "TestFlightConfig" }
     ],
     "x_netkan_override": [

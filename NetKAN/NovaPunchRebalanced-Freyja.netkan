@@ -13,7 +13,6 @@
         "parts"
     ],
     "depends": [
-        { "name": "ModuleManager"       },
         { "name": "NovaPunchRebalanced" }
     ],
     "install": [ {

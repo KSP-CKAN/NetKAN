@@ -9,12 +9,11 @@
         "crewed"
     ],
     "install": [ {
-        "filter": [ ".DS_Store", "__MACOSX" ],
-        "find": "AAI",
-        "install_to": "GameData"
+        "find":       "AAI",
+        "install_to": "GameData",
+        "filter":     [ ".DS_Store", "__MACOSX" ]
     } ],
     "depends": [
-        { "name": "ModuleManager" },
         { "name": "FirespitterCore" }
     ]
 }

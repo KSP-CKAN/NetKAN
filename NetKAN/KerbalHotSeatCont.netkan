@@ -9,11 +9,10 @@
         "crewed"
     ],
     "install": [ {
-        "find": "KerbalHotSeat",
+        "find":       "KerbalHotSeat",
         "install_to": "GameData"
     } ],
     "depends": [
-        { "name": "ConnectedLivingSpace" },
-        { "name": "ModuleManager" }
+        { "name": "ConnectedLivingSpace" }
     ]
 }

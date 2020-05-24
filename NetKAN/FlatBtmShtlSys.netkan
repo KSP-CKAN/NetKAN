@@ -9,12 +9,11 @@
         "crewed"
     ],
     "depends": [
-        { "name": "B9PartSwitch" },
-        { "name": "RasterPropMonitor" },
-        { "name": "ModuleManager" }
+        { "name": "B9PartSwitch"      },
+        { "name": "RasterPropMonitor" }
     ],
     "install": [ {
-        "find": "TriCrossSection",
+        "find":       "TriCrossSection",
         "install_to": "GameData"
     } ]
 }
