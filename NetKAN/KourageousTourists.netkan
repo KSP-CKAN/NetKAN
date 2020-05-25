@@ -2,6 +2,7 @@
     "spec_version": "v1.4",
     "identifier":   "KourageousTourists",
     "$kref":        "#/ckan/spacedock/1613",
+    "$vref":        "#/ckan/ksp-avc",
     "license":      "MIT",
     "tags": [
         "plugin",
