@@ -1,0 +1,18 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "Asteroid-33434-scottmanley-Stock",
+    "$kref":        "#/ckan/spacedock/2437",
+    "license":      "GPL-3.0",
+    "tags": [
+        "config",
+        "planet-pack"
+    ],
+    "depends": [
+        { "name": "ModuleManager" },
+        { "name": "Kopernicus"    }
+    ],
+    "install": [ {
+        "find":       "scottmanley_NORSS",
+        "install_to": "GameData"
+    } ]
+}
