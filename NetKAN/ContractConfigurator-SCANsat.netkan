@@ -17,9 +17,8 @@
         "uncrewed"
     ],
     "depends": [
-        {
-            "name": "ContractConfigurator"
-        },
+        { "name": "ModuleManager"        },
+        { "name": "ContractConfigurator" },
         {
             "name": "SCANsat",
             "min_version": "9.0"
@@ -28,10 +27,8 @@
     "provides": [
         "ContractConfigurator-SCANsat"
     ],
-    "install": [
-        {
-            "find":       "ContractPacks",
-            "install_to": "GameData"
-        }
-    ]
+    "install": [ {
+        "find":       "ContractPacks",
+        "install_to": "GameData"
+    } ]
 }

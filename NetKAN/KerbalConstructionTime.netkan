@@ -16,6 +16,7 @@
         }
     ],
     "depends" : [
+        { "name" : "ModuleManager" },
         { "name" : "MagiCore" },
         { "name" : "ClickThroughBlocker" },
         { "name" : "ToolbarController" }
