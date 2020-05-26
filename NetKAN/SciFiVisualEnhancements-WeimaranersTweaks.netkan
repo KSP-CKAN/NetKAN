@@ -9,7 +9,7 @@
     ],
     "provides":  [
         "EnvironmentalVisualEnhancements-Config",
-        SciFiVisualEnhancements
+        "SciFiVisualEnhancements"
     ],
     "conflicts": [
         { "name": "EnvironmentalVisualEnhancements-Config" },
