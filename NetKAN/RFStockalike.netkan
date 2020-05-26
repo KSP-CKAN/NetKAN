@@ -11,22 +11,19 @@
     "tags": [
         "config"
     ],
-    "install" : [
-        {
-            "find"       : "GameData/RealFuels-Stockalike",
-            "install_to" : "GameData"
-        },
-        {
-            "find"       : "GameData/RealPlume-RFStockalike",
-            "install_to" : "GameData"
-        },
-        {
-            "find"       : "GameData/zzRFStockalike",
-            "install_to" : "GameData"
-        }
-    ],
+    "install" : [ {
+        "find"       : "GameData/RealFuels-Stockalike",
+        "install_to" : "GameData"
+    }, {
+        "find"       : "GameData/RealPlume-RFStockalike",
+        "install_to" : "GameData"
+    }, {
+        "find"       : "GameData/zzRFStockalike",
+        "install_to" : "GameData"
+    } ],
     "depends" : [
-        { "name" : "RealFuels" }
+        { "name" : "ModuleManager" },
+        { "name" : "RealFuels"     }
     ],
     "provides" : [
         "RealPlumeConfigs",

@@ -9,7 +9,8 @@
         "science"
     ],
     "depends": [
-        { "name": "SpacetuxSA" }
+        { "name": "ModuleManager" },
+        { "name": "SpacetuxSA"    }
     ],
     "suggests": [
         { "name": "ContractConfigurator" }
