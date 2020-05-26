@@ -8,10 +8,12 @@
         "graphics"
     ],
     "provides":  [
-        "EnvironmentalVisualEnhancements-Config"
+        "EnvironmentalVisualEnhancements-Config",
+        SciFiVisualEnhancements
     ],
     "conflicts": [
-        { "name" : "EnvironmentalVisualEnhancements-Config" }
+        { "name": "EnvironmentalVisualEnhancements-Config" }
+        { "name": "SciFiVisualEnhancements" }
     ],
     "depends": [
         { "name": "EnvironmentalVisualEnhancements" }
