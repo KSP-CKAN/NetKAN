@@ -12,7 +12,7 @@
         SciFiVisualEnhancements
     ],
     "conflicts": [
-        { "name": "EnvironmentalVisualEnhancements-Config" }
+        { "name": "EnvironmentalVisualEnhancements-Config" },
         { "name": "SciFiVisualEnhancements" }
     ],
     "depends": [
