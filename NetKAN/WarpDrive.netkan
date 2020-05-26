@@ -2,7 +2,10 @@
     "spec_version": "v1.4",
     "identifier":   "WarpDrive",
     "$kref":        "#/ckan/github/linuxgurugamer/KSP-WarpDrive",
-    "license":      "GPL-3.0",
+	"$vref": 		"#/ckan/ksp-avc",
+	"abstract":		"A stand-alone warp-drive, similiar to Interstellar",
+	"author": 		"linuxgurugamer",
+	"license": 		"KSPI-E",
     "tags": [
         "plugin",
         "parts"
