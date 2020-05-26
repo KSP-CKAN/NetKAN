@@ -1,7 +1,7 @@
 {
     "spec_version": "v1.4",
     "identifier":   "WarpDrive",
-    "$kref":        "#/ckan/spacedock/1391",
+    "$kref":        "#/ckan/github/linuxgurugamer/KSP-WarpDrive",
     "license":      "GPL-3.0",
     "tags": [
         "plugin",
@@ -9,5 +9,9 @@
     ],
     "conflicts": [
         { "name": "KSPInterstellarExtended" }
+    ],
+    "depends": [
+        { "name" : "ToolbarController" },
+        { "name" : "ClickThroughBlocker" }
     ]
 }
