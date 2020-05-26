@@ -13,6 +13,7 @@
         { "name": "KSP-AVC"          }
     ],
     "depends": [
+        { "name": "ModuleManager"       },
         { "name": "ClickThroughBlocker" }
     ],
     "install": [ {
