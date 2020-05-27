@@ -8,10 +8,9 @@
         "planet-pack"
     ],
     "depends": [
-        { "name": "ModuleManager"                                },
-        { "name": "Kopernicus"                                   },
-        { "name": "KopernicusExpansionContinued-EmissiveFX"      },
-        { "name": "KopernicusExpansionContinued-RegionalPQSMods" }
+        { "name": "ModuleManager" },
+        { "name": "Kopernicus"    },
+        { "name": "SciRev"        }
     ],
     "recommends": [
         { "name": "EnvironmentalVisualEnhancements" },
