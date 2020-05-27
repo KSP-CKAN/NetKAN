@@ -5,7 +5,9 @@
     "license":      "restricted",
     "tags": [
         "config",
-        "planet-pack"
+        "planet-pack",
+        "parts",
+        "plugin"
     ],
     "depends": [
         { "name": "ModuleManager" },
