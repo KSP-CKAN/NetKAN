@@ -14,14 +14,10 @@
         "career"
     ],
     "depends" : [
-        {
-            "name" : "ContractConfigurator"
-        }
+        { "name" : "ContractConfigurator" }
     ],
-    "install" : [
-        {
-            "find" : "ExplorationPlus",
-            "install_to" : "GameData/ContractPacks"
-        }
-    ]
+    "install": [ {
+        "find":       "ContractPacks",
+        "install_to": "GameData"
+    } ]
 }
