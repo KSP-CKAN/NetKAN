@@ -5,13 +5,14 @@
     "license":      "restricted",
     "tags": [
         "config",
-        "planet-pack"
+        "planet-pack",
+        "parts",
+        "plugin"
     ],
     "depends": [
-        { "name": "ModuleManager"                                },
-        { "name": "Kopernicus"                                   },
-        { "name": "KopernicusExpansionContinued-EmissiveFX"      },
-        { "name": "KopernicusExpansionContinued-RegionalPQSMods" }
+        { "name": "ModuleManager" },
+        { "name": "Kopernicus"    },
+        { "name": "SciRev"        }
     ],
     "recommends": [
         { "name": "EnvironmentalVisualEnhancements" },
