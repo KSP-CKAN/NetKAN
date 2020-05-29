@@ -11,5 +11,11 @@
     ],
     "depends": [
         { "name": "ModuleManager" }
+    ],
+    "install": [
+        {
+            "find"       : "GameData/CollisionFXReUpdated",
+            "install_to" : "GameData"
+        }
     ]
 }
