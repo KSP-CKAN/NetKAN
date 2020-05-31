@@ -1,7 +1,14 @@
 {
     "spec_version": "v1.4",
-    "identifier": "BetterWithScience",
-    "$kref": "#/ckan/spacedock/2442",
-    "license": "MIT",
-    "x_via": "Automated SpaceDock CKAN submission"
+    "identifier":   "BetterWithScience",
+    "$kref":        "#/ckan/spacedock/2442",
+    "license":      "MIT",
+    "tags": [
+        "config",
+        "science"
+    ],
+    "depends": [
+        { "name": "ModuleManager"              },
+        { "name": "CelestialBodyScienceEditor" }
+    ]
 }
