@@ -9,6 +9,12 @@
         "parts",
         "plugin"
     ],
+    "provides": [
+        "EnvironmentalVisualEnhancements-Config"
+    ],
+    "conflicts": [
+        { "name": "EnvironmentalVisualEnhancements-Config" }
+    ],
     "depends": [
         { "name": "ModuleManager" },
         { "name": "Kopernicus"    },
