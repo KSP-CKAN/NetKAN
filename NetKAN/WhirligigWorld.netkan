@@ -9,10 +9,17 @@
         "parts",
         "plugin"
     ],
+    "provides": [
+        "EnvironmentalVisualEnhancements-Config"
+    ],
+    "conflicts": [
+        { "name": "EnvironmentalVisualEnhancements-Config" }
+    ],
     "depends": [
-        { "name": "ModuleManager" },
-        { "name": "Kopernicus"    },
-        { "name": "SciRev"        }
+        { "name": "ModuleManager"              },
+        { "name": "Kopernicus"                 },
+        { "name": "SciRev"                     },
+        { "name": "Scatterer-sunflare-default" }
     ],
     "recommends": [
         { "name": "EnvironmentalVisualEnhancements" },
