@@ -1,10 +1,13 @@
 {
     "spec_version": "v1.4",
     "$kref": "#/ckan/spacedock/228",
+	"$vref"        : "#/ckan/ksp-avc",
     "identifier": "WalkAbout",
     "x_netkan_license_ok": true,
+ 	"x_netkan_epoch": "1",
+	
     "resources" : {
-    "homepage" : "http://forum.kerbalspaceprogram.com/index.php?/topic/130575-*"
+    "homepage" : "https://forum.kerbalspaceprogram.com/index.php?/topic/193732-*"
     },
     "x_netkan_force_v": true,
     "install": [
