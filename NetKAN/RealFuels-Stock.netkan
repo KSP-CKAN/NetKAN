@@ -13,8 +13,6 @@
     ],
     "$kref": "#/ckan/github/ValiZockt/RealFuels-Stock",
     "$vref": "#/ckan/ksp-avc",
-    "ksp_version_min": "1.8",
-    "ksp_version_max": "1.9.1",
     "install": [
         {
             "find":       "RealFuels-Stock",
