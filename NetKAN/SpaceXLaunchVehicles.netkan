@@ -21,7 +21,7 @@
         "find":       "Launchers Pack",
         "install_to": "GameData"
     }, {
-        "find":       "Ships/VAB",
+        "file":       "Ships/VAB",
         "install_to": "Ships"
     } ]
 }
