@@ -1,14 +1,15 @@
 {
-    "spec_version": "v1.4",
-    "identifier":   "SpaceXLaunchVehicles",
-    "name":         "SpaceX Launch Vehicles - Real Size",
+    "spec_version": "v1.18",
+    "identifier":   "SpaceXLaunchVehicles-StockSize",
+    "name":         "SpaceX Launch Vehicles - Stock Size",
     "$kref":        "#/ckan/spacedock/269",
     "license":      "restricted",
     "tags": [
         "parts"
     ],
+    "provides": [ "SpaceXLaunchVehicles" ],
     "conflicts": [
-        { "name": "SpaceXLaunchVehicles-StockSize" }
+        { "name": "SpaceXLaunchVehicles" }
     ],
     "depends": [
         { "name": "ModuleManager" }
@@ -25,7 +26,11 @@
         "find":       "Launchers Pack",
         "install_to": "GameData"
     }, {
-        "file":       "Ships/VAB",
+        "file":       "Rescaled/GameData",
+        "install_to": "GameData",
+        "as":         "Kartoffelkuchen"
+    }, {
+        "file":       "Rescaled/Ships/VAB",
         "install_to": "Ships"
     } ]
 }
