@@ -10,6 +10,8 @@
     ],
     "depends": [
         { "name": "ModuleManager"                   },
-        { "name": "EnduranceSpaceExplorationSystem" }
+        { "name": "EnduranceSpaceExplorationSystem" },
+        { "name": "B9PartSwitch"                    },
+        { "name": "CommunityResourcePack"           }
     ]
 }
