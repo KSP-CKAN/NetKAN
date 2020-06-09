@@ -9,6 +9,7 @@
         "parts"
     ],
     "depends": [
-        { "name": "ModuleManager" }
+        { "name": "ModuleManager"                   },
+        { "name": "EnduranceSpaceExplorationSystem" }
     ]
 }
