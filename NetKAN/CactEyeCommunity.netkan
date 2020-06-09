@@ -1,0 +1,32 @@
+{
+    "spec_version" : 1,
+    "identifier"   : "CactEyeCommunity",
+    "name"         : "CactEye Optics Community",
+    "$kref"        : "#/ckan/spacedock/629",
+    "$vref"        : "#/ckan/ksp-avc",
+    "license"      : "CC-BY-4.0",
+    "resources"    : {
+        "homepage"   : "http://forum.kerbalspaceprogram.com/index.php?/topic/141280-*",
+        "bugtracker" : "https://github.com/icedown/CactEye-2/issues",
+        "repository" : "https://github.com/icedown/CactEye-2",
+        "spacedock"  : "http://spacedock.info/mod/629/CactEye-2%20Orbital%20Telescope"
+    },
+    "tags": [
+        "parts"
+    ],
+    "install": [ {
+        "file"      : "GameData/CactEye",
+        "install_to": "GameData"
+    } ],
+    "conflicts": [
+        { "name": "CactEyeTelescopesContinued" },
+        { "name": "CactEye2" }
+    ],
+    "depends": [
+        { "name": "ModuleManager" }
+    ],
+    "recommends": [
+        { "name": "CactEyeCommunityDOEPatch" },
+        { "name": "DistantObject" }
+    ]
+}
