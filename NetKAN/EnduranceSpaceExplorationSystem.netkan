@@ -7,13 +7,15 @@
     "tags": [
         "parts"
     ],
+    "depends": [
+        { "name": "ModuleManager" }
+    ],
     "recommends": [
         { "name": "KIS"                        },
         { "name": "KAS"                        },
         { "name": "RasterPropMonitor"          },
         { "name": "JSIAdvancedTransparentPods" },
-        { "name": "ThrottleControlledAvionics" },
-        { "name": "ModuleManager"              }
+        { "name": "ThrottleControlledAvionics" }
     ],
     "suggests": [
         { "name": "TACLS"  },
