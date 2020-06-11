@@ -4,7 +4,7 @@
     "name":         "KerbinSide Core",
     "abstract":     "Shared files used by all KerbinSide variants",
     "$kref":        "#/ckan/spacedock/1347",
-    "$vref":        "#/ckan/ksp-avc/",
+    "$vref":        "#/ckan/ksp-avc",
     "x_netkan_epoch": "3",
     "license":      "restricted",
     "resources": {

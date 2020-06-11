@@ -30,6 +30,7 @@
     ],
     "install": [ {
         "find":       "Bluedog_DB",
-        "install_to": "GameData"
+        "install_to": "GameData",
+        "filter":     [ "Realistic Retextures" ]
     } ]
 }

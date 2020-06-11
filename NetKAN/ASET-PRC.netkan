@@ -1,12 +1,12 @@
 {
 	"spec_version": "v1.4",
-	"identifier": "ASET-PRC",
-	"name": "ASET PRC (Portable Rover Components)",
-	"abstract": "Portable Rover Components",
-	"author": "linuxgurugamer",
-	"license": "CC-BY-NC-SA-3.0",
-	"$kref": "#/ckan/github/linuxgurugamer/ASET_PRC_Rover",
-	"$vref": "#/ckan/ksp-avc",
+	"identifier":   "ASET-PRC",
+	"name":         "ASET PRC (Portable Rover Components)",
+	"abstract":     "Portable Rover Components",
+	"author":       "linuxgurugamer",
+	"$kref":        "#/ckan/github/linuxgurugamer/ASET_PRC_Rover",
+	"$vref":        "#/ckan/ksp-avc",
+	"license":      "CC-BY-NC-SA-3.0",
 	"resources": {
 		"homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/189044-*",
 		"spacedock": "https://spacedock.info/mod/2252/ASET%20PRC%20(Portable%20Rover%20Components)",
@@ -15,10 +15,11 @@
 	"tags": [
 		"parts"
 	],
-	"install": [
-		{
-			"find": "ASET",
-			"install_to": "GameData"
-		}
-	]
+	"depends": [
+		{ "name": "ModuleManager" }
+	],
+	"install": [ {
+		"find":       "ASET",
+		"install_to": "GameData"
+	} ]
 }

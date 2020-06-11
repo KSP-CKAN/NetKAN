@@ -11,7 +11,6 @@
         "install_to": "GameData"
     } ],
     "depends": [
-        { "name": "ModuleManager" },
-        { "name": "Firespitter"   }
+        { "name": "Firespitter" }
     ]
 }

@@ -5,6 +5,10 @@
     "ksp_version_min": "1.8",
     "ksp_version_max": "1.9",
     "license":      "CC-BY-NC-SA-4.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/193843-*",
+        "repository": "https://github.com/Rodg88/BumbleBee"
+    },
     "tags": [
         "parts",
         "uncrewed"
@@ -17,6 +21,13 @@
         { "name": "DMagicScienceAnimate"  }
     ],
     "suggests": [
-        { "name": "CommunityCategoryKit" }
+        { "name": "CommunityCategoryKit" },
+        { "name": "IndicatorLights" },
+        { "name": "NearFutureElectrical" }
+    ],
+    "supports": [
+        { "name": "HullcamVDSContinued" },
+        { "name": "BluedogDB" },
+        { "name": "ProbesPlus" }
     ]
 }

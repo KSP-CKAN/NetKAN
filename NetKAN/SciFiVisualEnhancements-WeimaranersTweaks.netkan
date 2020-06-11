@@ -1,0 +1,37 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "SciFiVisualEnhancements-WeimaranersTweaks",
+    "$kref":        "#/ckan/spacedock/2415",
+    "license":      "CC-BY-NC-2.0",
+    "tags": [
+        "config",
+        "graphics"
+    ],
+    "provides":  [
+        "EnvironmentalVisualEnhancements-Config",
+        "SciFiVisualEnhancements"
+    ],
+    "conflicts": [
+        { "name": "EnvironmentalVisualEnhancements-Config" },
+        { "name": "SciFiVisualEnhancements" }
+    ],
+    "depends": [
+        { "name": "EnvironmentalVisualEnhancements" }
+    ],
+    "install": [ {
+        "find":       "ScifiVisualEnchancements_Base",
+        "install_to": "GameData"
+    }, {
+        "find":       "ScifiVisualEnchancements_Atmospheres",
+        "install_to": "GameData"
+    }, {
+        "find":       "ScifiVisualEnchancements_Clouds",
+        "install_to": "GameData"
+    }, {
+        "find":       "ScifiVisualEnchancements_Dust",
+        "install_to": "GameData"
+    }, {
+        "find":       "ScifiVisualEnchancements_Glows",
+        "install_to": "GameData"
+    } ]
+}

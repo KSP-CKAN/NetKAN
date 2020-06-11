@@ -4,7 +4,6 @@
     "name":         "Stock Size Real Solar System - Rescale",
     "abstract":     "Rescales the system to stock size.",
     "$kref":        "#/ckan/github/Sigma88/Sigma-Dimensions",
-    "$vref":        "#/ckan/ksp-avc",
     "license":      "restricted",
     "tags": [
         "config",

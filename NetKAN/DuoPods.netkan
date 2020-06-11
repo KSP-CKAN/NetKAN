@@ -9,9 +9,6 @@
         "parts",
         "crewed"
     ],
-    "depends": [
-        { "name": "ModuleManager" }
-    ],
     "supports": [
         { "name": "KerbalChangelog" }
     ]

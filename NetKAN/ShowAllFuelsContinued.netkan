@@ -1,0 +1,17 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "ShowAllFuelsContinued",
+    "$kref":        "#/ckan/spacedock/1031",
+    "license":      "MIT",
+    "tags": [
+        "plugin",
+        "information"
+    ],
+    "depends": [
+        { "name": "ModuleManager" }
+    ],
+    "install": [ {
+        "find":       "ShowAllFuels",
+        "install_to": "GameData"
+    } ]
+}

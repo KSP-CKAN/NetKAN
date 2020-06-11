@@ -13,6 +13,9 @@
         "parts",
         "control"
     ],
+    "depends": [
+        { "name": "ModuleManager" }
+    ],
     "recommends": [
         { "name": "HGR" }
     ],

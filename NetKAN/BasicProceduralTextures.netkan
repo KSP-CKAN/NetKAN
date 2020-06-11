@@ -11,9 +11,6 @@
         "find":       "GameData/BasicProceduralTextures",
         "install_to": "GameData"
     } ],
-    "depends": [
-        { "name": "ModuleManager" }
-    ],
     "recommends": [
         { "name": "ProceduralParts" },
         { "name": "DecouplerShroud" }

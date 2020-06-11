@@ -21,5 +21,10 @@
         { "name": "Protractor" },
         { "name": "Telemachus" },
         { "name": "RocketWatch" }
-    ]
+    ],
+    "install": [ {
+        "find":       "StockPlugins",
+        "install_to": "GameData",
+        "filter":     [ "Optional" ]
+    } ]
 }

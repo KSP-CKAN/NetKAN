@@ -14,9 +14,6 @@
         "plugin",
         "science"
     ],
-    "depends": [
-        { "name": "ModuleManager" }
-    ],
     "install": [ {
         "find": "SciDefRenamer",
         "install_to": "GameData/Sigma"

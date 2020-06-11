@@ -8,8 +8,11 @@
         "parts",
         "crewed"
     ],
+    "depends": [
+        { "name": "ModuleManager" }
+    ],
     "install": [ {
-        "find": "OpenCockpit",
+        "find":       "OpenCockpit",
         "install_to": "GameData"
     } ]
 }

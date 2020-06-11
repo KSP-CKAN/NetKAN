@@ -9,8 +9,8 @@
         "combat"
     ],
     "install": [ {
-        "find_regexp": "KWS$",
-        "install_to":  "GameData"
+        "find":       "KWS",
+        "install_to": "GameData"
     } ],
     "depends": [
         { "name": "BDArmoryContinued" }

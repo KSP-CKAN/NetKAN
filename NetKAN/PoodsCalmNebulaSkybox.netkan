@@ -5,6 +5,7 @@
     "abstract":     "Skybox that presents the Kerbal Solar System within a sparse Nebula. Features a subtle Galaxy star-line and patches of Pink/Blue Nebula proto-Star fields. To the polar South a very energetic solar nursery can be seen.",
     "author":       "Poodmund",
     "$kref":        "#/ckan/spacedock/924",
+    "ksp_version":  "any",
     "license":      "CC-BY-NC-ND-4.0",
     "resources": {
         "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/169919-1"

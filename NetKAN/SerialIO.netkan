@@ -1,0 +1,23 @@
+{
+    "spec_version" : 1,
+    "identifier"   : "SerialIO",
+    "$kref"        : "#/ckan/spacedock/567",
+    "x_netkan_force_v" : true,
+    "license"      : "CC-BY",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/60281-*"
+    },
+    "tags": [
+        "plugin",
+        "app",
+        "information",
+        "control"
+    ],
+    "install": [ {
+        "file":       "KSPSerialIO",
+        "install_to": "GameData"
+    } ],
+    "conflicts": [
+        { "name": "SerialIO-MacLinuxWin" }
+    ]
+}

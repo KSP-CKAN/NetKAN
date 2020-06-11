@@ -5,6 +5,7 @@
     "abstract":     "Skybox of our night sky made using reference images from the Bright Star, Tycho-2, and UCAC3 star catalogs. This provides a very nice constant star coverage across the whole 360 degrees in the x, y and z planes.",
     "author":       "Poodmund",
     "$kref":        "#/ckan/spacedock/925",
+    "ksp_version":  "any",
     "license":      "CC-BY-NC-ND-4.0",
     "resources": {
         "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/169919-1"
