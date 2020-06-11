@@ -16,6 +16,6 @@
      "install": [ {
          "find"       : "GameData/Spear of Longinus",
          "install_to" : "GameData",
-         "filter"     : [ "__MACOSX" ]
+         "filter"     : [ "__MACOSX", ".DS_Store" ]
      } ]
  }
