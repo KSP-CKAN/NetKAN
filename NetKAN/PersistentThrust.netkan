@@ -20,7 +20,7 @@
         { "name": "SolarSailNavigator" }
     ],
     "install": [ {
-        "file":       "PersistentThrust",
+        "find":       "PersistentThrust",
         "install_to": "GameData"
     } ]
 }
