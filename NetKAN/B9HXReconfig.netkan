@@ -4,6 +4,10 @@
     "$kref":        "#/ckan/spacedock/2319",
     "$vref":        "#/ckan/ksp-avc",
     "license":      "CC-BY-NC-SA",
+    "tags": [
+        "config",
+        "parts"
+    ],
     "install": [ {
         "find":       "B9_HX_Reconfig",
         "install_to": "GameData"

@@ -1,24 +1,23 @@
 {
-	"spec_version": "v1.4",
-	"identifier": "AllYAll",
-	"name": "All Y'All",
-	"abstract": "In-Flight Common Action Grouping",
-	"author": [
-		"HMV",
-		"linuxgurugamer"
-	],
-	"license": "CC-BY-SA",
-	"$kref": "#/ckan/github/linuxgurugamer/AllYAll",
-	"$vref": "#/ckan/ksp-avc",
-	"resources": {
-		"homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/155858-ksp-122-all",
-		"spacedock": "https://spacedock.info/mod/628/All%20Y'All",
-		"repository": "https://github.com/linuxgurugamer/AllYAll",
-		"x_screenshot": "https://spacedock.info/content/HMV_4317/All_YAll/All_YAll-1462073929.7322848.jpg"
-	},
-	"depends": [
-		{
-			"name": "ModuleManager"
-		}
-	]
+    "spec_version": "v1.4",
+    "identifier":   "AllYAll",
+    "name":         "All Y'All",
+    "abstract":     "In-Flight Common Action Grouping",
+    "author":       [ "HMV", "linuxgurugamer" ],
+    "$kref":        "#/ckan/github/linuxgurugamer/AllYAll",
+    "$vref":        "#/ckan/ksp-avc",
+    "license":      "CC-BY-SA",
+    "resources": {
+        "homepage":     "http://forum.kerbalspaceprogram.com/index.php?/topic/155858-*",
+        "spacedock":    "https://spacedock.info/mod/628/All%20Y'All",
+        "repository":   "https://github.com/linuxgurugamer/AllYAll",
+        "x_screenshot": "https://spacedock.info/content/HMV_4317/All_YAll/All_YAll-1462073929.7322848.jpg"
+    },
+    "tags": [
+        "plugin",
+        "convenience"
+    ],
+    "depends": [
+        { "name": "ModuleManager" }
+    ]
 }
