@@ -3,14 +3,18 @@
     "identifier":   "BetterTimeWarpCont",
     "name":         "BetterTimeWarpContinued",
     "abstract":     "Improved time warping",
-    "license":      "GPL-3.0",
     "$kref":        "#/ckan/github/linuxgurugamer/BetterTimeWarp",
     "$vref":        "#/ckan/ksp-avc",
+    "license":      "GPL-3.0",
     "resources": {
         "homepage":     "http://forum.kerbalspaceprogram.com/index.php?/topic/154935-*",
         "spacedock":    "https://spacedock.info/mod/1162/BetterTimeWarpContinued",
         "x_screenshot": "https://spacedock.info/content/linuxgurugamer_179/BetterTimeWarpContinued/BetterTimeWarpContinued-1488337554.886011.png"
     },
+    "tags": [
+        "plugin",
+        "convenience"
+    ],
     "depends": [
         { "name": "ClickThroughBlocker" },
         { "name": "ToolbarController"   }
