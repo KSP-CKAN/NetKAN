@@ -1,7 +1,9 @@
 {
     "spec_version": "v1.4",
-    "identifier": "SpaceFrontierTechnologies",
-    "$kref": "#/ckan/spacedock/2452",
-    "license": "MIT",
-    "x_via": "Automated SpaceDock CKAN submission"
+    "identifier":   "SpaceFrontierTechnologies",
+    "$kref":        "#/ckan/spacedock/2452",
+    "license":      "MIT",
+    "tags": [
+        "parts"
+    ]
 }
