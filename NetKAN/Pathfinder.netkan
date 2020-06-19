@@ -1,0 +1,43 @@
+{
+  "license": "GPL-3.0",
+  "identifier": "Pathfinder",
+  "x_via": "Automated Linuxgurugamer CKAN script",
+  "$kref": "#/ckan/github/Angel-125/Pathfinder",
+  "$vref": "#/ckan/ksp-avc",
+  "resources": {
+    "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/121397-181-19x-pathfinder-space-camping-geoscience/",
+    "repository": "https://github.com/Angel-125/Pathfinder/releases"
+  },
+  "depends": [
+    {
+      "name": "ModuleManager"
+    }
+  ],
+  "tags": [
+    "parts",
+    "plugin",
+    "agency",
+    "resources",
+    "crewed"
+  ],
+  "install": [
+    {
+      "find": "Pathfinder",
+      "install_to": "GameData/WildBlueIndustries",
+      "filter_regexp": [
+        ".*\\.pdb$"
+      ]
+    },
+    {
+      "find": "SPH",
+      "install_to": "Ships"
+    }
+  ],
+  "install": [
+      {
+          "file"       : "WBIPlayMode.cfg",
+          "install_to" : "GameData"
+      }
+  ],
+  "spec_version": "v1.4"
+}
