@@ -7,8 +7,9 @@
     "$kref":        "#/ckan/spacedock/234",
     "x_netkan_force_v": true,
     "x_netkan_epoch":   1,
+    "$vref":        "#/ckan/ksp-avc",
     "resources": {
-        "homepage":   "http://forum.kerbalspaceprogram.com/index.php?/topic/107661-ksp-105-x-science",
+        "homepage":   "http://forum.kerbalspaceprogram.com/index.php?/topic/107661-*",
         "repository": "https://github.com/thewebbooth/KSP-X-Science"
     },
     "tags": [

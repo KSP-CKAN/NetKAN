@@ -8,10 +8,11 @@
         "planet-pack"
     ],
     "depends": [
-        { "name": "Kopernicus" }
+        { "name": "ModuleManager" },
+        { "name": "Kopernicus"    }
     ],
     "install": [ {
-        "file": "KerbalGalacticExpansion",
+        "file":       "KerbalGalacticExpansion",
         "install_to": "GameData"
     } ]
 }

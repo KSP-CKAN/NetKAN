@@ -12,6 +12,7 @@
         "install_to": "GameData"
     } ],
     "depends": [
-        { "name": "Kopernicus" }
+        { "name": "ModuleManager" },
+        { "name": "Kopernicus"    }
     ]
 }

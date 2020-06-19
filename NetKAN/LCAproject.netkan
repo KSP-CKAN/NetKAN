@@ -2,9 +2,13 @@
     "spec_version": "v1.4",
     "identifier":   "LCAproject",
     "$kref":        "#/ckan/spacedock/1540",
+    "$vref":        "#/ckan/ksp-avc",
     "license":      "GPL-2.0",
     "tags": [
         "parts"
+    ],
+    "depends": [
+        { "name": "ModuleManager" }
     ],
     "install": [ {
         "find":       "LCA",

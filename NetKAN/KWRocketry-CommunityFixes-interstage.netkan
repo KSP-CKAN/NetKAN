@@ -15,13 +15,14 @@
         "config"
     ],
     "depends": [
+        { "name": "ModuleManager"             },
         { "name": "KWRocketry-CommunityFixes" }
     ],
     "install": [
         {
-            "find": "KWPatch-interstage.cfg",
-            "find_matches_files": true,
-            "install_to": "GameData/KWCommunityFixes"
+            "find":       "KWPatch-interstage.cfg",
+            "install_to": "GameData/KWCommunityFixes",
+            "find_matches_files": true
         }
     ]
 }

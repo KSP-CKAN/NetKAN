@@ -7,8 +7,7 @@
         "parts"
     ],
     "depends": [
-        { "name": "FirespitterCore" },
-        { "name": "ModuleManager"   }
+        { "name": "FirespitterCore" }
     ],
     "install": [ {
         "file":       "JatwaaDemolitionsCo",

@@ -8,8 +8,11 @@
         "plugin",
         "crewed"
     ],
+    "depends": [
+        { "name": "ModuleManager" }
+    ],
     "install": [ {
-        "find": "VanguardTechnologies",
+        "find":       "VanguardTechnologies",
         "install_to": "GameData"
     } ]
 }

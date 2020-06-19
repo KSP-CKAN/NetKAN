@@ -16,7 +16,8 @@
         "install_to": "Ships"
     } ],
     "depends": [
-        { "name": "SpaceXLegs" }
+        { "name": "ModuleManager" },
+        { "name": "SpaceXLegs"    }
     ],
     "recommends": [
         { "name": "Smokescreen" },

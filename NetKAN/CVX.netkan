@@ -8,8 +8,9 @@
         "combat"
     ],
     "depends": [
+        { "name": "ModuleManager"         },
         { "name": "CommunityResourcePack" },
-        { "name": "FirespitterCore" }
+        { "name": "FirespitterCore"       }
     ],
     "recommends": [
         { "name": "BDArmoryContinued" },
@@ -21,12 +22,10 @@
         { "name": "KerbalJointReinforcement" },
         { "name": "AircraftCarrierAccessories" }
     ],
-    "install": [
-        {
-            "find": "Eskandare_Heavy_Industries",
-            "install_to": "GameData"
-        }
-    ],
+    "install": [ {
+        "find":       "Eskandare_Heavy_Industries",
+        "install_to": "GameData"
+    } ],
     "x_netkan_override": [
         {
             "version": "0.12",

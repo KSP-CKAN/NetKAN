@@ -2,12 +2,14 @@
     "spec_version": "v1.26",
     "identifier":   "ChakaMonkeyExplorationSystems",
     "$kref":        "#/ckan/spacedock/599",
+    "$vref":        "#/ckan/ksp-avc",
     "x_netkan_epoch": 3,
     "license":      "restricted",
     "tags": [
         "parts"
     ],
     "depends": [
+        { "name": "ModuleManager"      },
         { "name": "AnimatedDecouplers" },
         { "any_of": [
             { "name": "KerbalJointReinforcement" },
@@ -19,10 +21,10 @@
         { "name": "RasterPropMonitor", "min_version" : "0.21.2" }
     ],
     "install": [ {
-        "find": "CMES",
+        "find":       "CMES",
         "install_to": "GameData"
     }, {
-        "find": "VAB",
+        "find":       "VAB",
         "install_to": "Ships"
     } ]
 }

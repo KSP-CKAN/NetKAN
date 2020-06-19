@@ -22,6 +22,9 @@
     "conflicts": [
         { "name": "StationScience" }
     ],
+    "depends": [
+        { "name": "ModuleManager" }
+    ],
     "install": [ {
         "find":       "StationScience",
         "install_to": "GameData"

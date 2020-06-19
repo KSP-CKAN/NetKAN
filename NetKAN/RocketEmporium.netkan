@@ -11,6 +11,7 @@
         "parts"
     ],
     "depends": [
+        { "name": "ModuleManager"      },
         { "name": "AnimatedAttachment" }
     ]
 }

@@ -1,9 +1,10 @@
 {
-    "spec_version" : 1,
-    "identifier"   : "TooManyOrbits",
-    "$kref"        : "#/ckan/spacedock/1340",
-    "license"      : "MIT",
-    "tags"         : [
+    "spec_version": 1,
+    "identifier":   "TooManyOrbits",
+    "$kref":        "#/ckan/spacedock/1340",
+    "$vref":        "#/ckan/ksp-avc",
+    "license":      "MIT",
+    "tags": [
         "plugin",
         "information"
     ],

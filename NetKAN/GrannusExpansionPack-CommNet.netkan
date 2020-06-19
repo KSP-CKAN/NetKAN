@@ -15,6 +15,7 @@
         "comms"
     ],
     "depends": [
+        { "name": "ModuleManager"        },
         { "name": "GrannusExpansionPack" },
         { "name": "CustomBarnKit"        }
     ],

@@ -1,0 +1,23 @@
+{
+  "license": "MIT",
+  "identifier": "NodeSplitter",
+  "x_via": "Automated Linuxgurugamer CKAN script",
+  "$kref": "#/ckan/spacedock/2453",
+  "$vref": "#/ckan/ksp-avc",
+  "resources": {
+    "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/194881-18x-19x-maneuver-node-splitter/",
+    "repository": "https://github.com/linuxgurugamer/ManeuverNodeSplitter"
+  },
+  "depends": [
+    { "name": "ToolbarController" },
+    { "name": "ClickThroughBlocker" },
+    { "name": "SpaceTuxLibrary" }
+  ],
+  "install": [
+    {
+      "find": "ManeuverNodeSplitter",
+      "install_to": "GameData"
+    }
+  ],
+  "spec_version": "v1.4"
+}

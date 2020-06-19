@@ -20,13 +20,12 @@
         { "name": "ContractConfigurator" }
     ],
     "depends": [
-        { "name": "ToolbarController" },
+        { "name": "ModuleManager"       },
+        { "name": "ToolbarController"   },
         { "name": "ClickThroughBlocker" }
     ],
-    "install": [
-        {
-            "find": "KerbalGPS",
-            "install_to": "GameData"
-        }
-    ]
+    "install": [ {
+        "find":       "KerbalGPS",
+        "install_to": "GameData"
+    } ]
 }

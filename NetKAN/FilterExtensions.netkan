@@ -15,8 +15,10 @@
         "convenience",
         "editor"
     ],
+    "depends": [
+        { "name" : "ModuleManager" }
+    ],
     "recommends" : [
-        { "name" : "ModuleManager" },
         { "name" : "FilterExtensionsDefaultConfig" },
         { "name" : "MoarFEConfigs" }
     ],

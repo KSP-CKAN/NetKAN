@@ -23,6 +23,7 @@
         "sound"
     ],
     "depends" : [
+        { "name": "ModuleManager" },
         {
             "name"        : "FirespitterCore",
             "min_version" : "7.1"
@@ -31,12 +32,10 @@
             "name" : "FirespitterResourcesConfig"
         }
     ],
-    "install"  : [
-        {
-            "find"       : "Firespitter",
-            "install_to" : "GameData",
-            "filter"     : [ "Firespitter.version", "Plugins", "Resources", "Old Example Craft.zip" ],
-            "comment"    : "Plugins and version file are installed from FirespitterCore, Resources from FirespitterResourcesConfig"
-        }
-    ]
+    "install": [ {
+        "find"       : "Firespitter",
+        "install_to" : "GameData",
+        "filter"     : [ "Firespitter.version", "Plugins", "Resources", "Old Example Craft.zip" ],
+        "comment"    : "Plugins and version file are installed from FirespitterCore, Resources from FirespitterResourcesConfig"
+    } ]
 }

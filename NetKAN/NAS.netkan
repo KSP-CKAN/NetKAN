@@ -1,12 +1,13 @@
 {
-    "spec_version" : 1,
-    "identifier"   : "NAS",
-    "$kref"        : "#/ckan/spacedock/83",
+    "spec_version": 1,
+    "identifier":   "NAS",
+    "$kref":        "#/ckan/spacedock/83",
+    "$vref":        "#/ckan/ksp-avc",
     "x_netkan_force_v": true,
     "x_netkan_epoch": 1,
-    "license"      : "CC-BY-SA-4.0",
-    "resources" : {
-        "homepage" : "http://forum.kerbalspaceprogram.com/index.php?/topic/118521-*"
+    "license":      "CC-BY-SA-4.0",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/118521-*"
     },
     "tags": [
         "parts",

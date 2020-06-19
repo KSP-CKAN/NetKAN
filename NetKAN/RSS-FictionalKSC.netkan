@@ -14,14 +14,15 @@
         "config"
     ],
     "depends": [
-        { "name": "KSCSwitcher" },
+        { "name": "ModuleManager"   },
+        { "name": "KSCSwitcher"     },
         { "name": "RealSolarSystem" }
     ],
     "recommends": [
         { "name": "RSS-Airports" }
     ],
     "install": [ {
-        "file" : "RSS-FictionalKSC",
+        "file" :       "RSS-FictionalKSC",
         "install_to" : "GameData"
     } ]
 }

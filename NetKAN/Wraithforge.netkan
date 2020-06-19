@@ -8,8 +8,7 @@
         "combat"
     ],
     "depends": [
-        { "name": "BDArmoryContinued" },
-        { "name": "ModuleManager" }
+        { "name": "BDArmoryContinued" }
     ],
     "install": [ {
         "find"       : "Wraithforge",

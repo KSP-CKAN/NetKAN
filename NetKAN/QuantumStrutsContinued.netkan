@@ -1,20 +1,19 @@
 {
-    "spec_version"  : 1,
-    "identifier"    : "QuantumStrutsContinued",
-    "$kref"         : "#/ckan/spacedock/301",
-    "license"       : "BSD-3-clause",
+    "spec_version": 1,
+    "identifier":   "QuantumStrutsContinued",
+    "$kref":        "#/ckan/spacedock/301",
+    "$vref":        "#/ckan/ksp-avc",
+    "license":      "BSD-3-clause",
     "tags": [
         "plugin",
         "physics"
     ],
-    "install": [
-        {
-            "file": "GameData/QuantumStrutsContinued",
-            "install_to": "GameData"
-        }
-    ],
+    "install": [ {
+        "file":       "GameData/QuantumStrutsContinued",
+        "install_to": "GameData"
+    } ],
     "suggests": [
         { "name": "ModuleManager" },
-        { "name": "KAS" }
+        { "name": "KAS"           }
     ]
 }

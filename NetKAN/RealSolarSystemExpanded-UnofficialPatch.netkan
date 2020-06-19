@@ -8,13 +8,14 @@
         "planet-pack"
     ],
     "depends": [
-        { "name": "Kopernicus" },
-        { "name": "RealSolarSystem" },
+        { "name": "ModuleManager"           },
+        { "name": "Kopernicus"              },
+        { "name": "RealSolarSystem"         },
         { "name": "RealSolarSystemExpanded" },
-        { "name": "SigmaBinary-core" }
+        { "name": "SigmaBinary-core"        }
     ],
     "install": [ {
-        "file": "RSSExpansion",
+        "file":        "RSSExpansion",
         "install_to" : "GameData/RSSEx-Patch"
     } ]
 }

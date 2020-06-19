@@ -1,0 +1,19 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "BDDMP",
+    "$kref":        "#/ckan/spacedock/253",
+    "release_status": "development",
+    "license":      "CC-BY-SA-2.0",
+    "tags": [
+        "plugin",
+        "combat"
+    ],
+    "depends": [
+        { "name" : "DarkMultiPlayer"   },
+        { "name" : "BDArmoryContinued" }
+    ],
+    "install": [ {
+        "find":       "zzBDDMP",
+        "install_to": "GameData"
+    } ]
+}

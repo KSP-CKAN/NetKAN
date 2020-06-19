@@ -5,7 +5,7 @@
     "$kref":        "#/ckan/spacedock/835",
     "$vref":        "#/ckan/ksp-avc",
     "license":      "CC-BY-NC-SA-3.0",
-    "resources" : {
+    "resources": {
         "repository": "https://github.com/linuxgurugamer/FTLDriveContinued"
     },
     "tags": [
@@ -13,17 +13,18 @@
         "parts"
     ],
     "depends": [
-        { "name" : "ToolbarController" },
-        { "name" : "ClickThroughBlocker" }
+        { "name": "ModuleManager"       },
+        { "name": "ToolbarController"   },
+        { "name": "ClickThroughBlocker" }
     ],
     "recommends": [
         { "name": "JanitorsCloset" }
     ],
-    "conflicts" : [
-        { "name" : "FTLDrive" }
+    "conflicts": [
+        { "name": "FTLDrive" }
     ],
-    "install" : [ {
-        "find" : "FTLDriveContinued",
-        "install_to" : "GameData"
+    "install": [ {
+        "find":       "FTLDriveContinued",
+        "install_to": "GameData"
     } ]
 }

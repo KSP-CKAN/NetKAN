@@ -11,8 +11,5 @@
     "install": [ {
         "find":       "BetterOrderPartsNumbered",
         "install_to": "GameData"
-    } ],
-    "depends": [
-        { "name": "ModuleManager" }
-    ]
+    } ]
 }

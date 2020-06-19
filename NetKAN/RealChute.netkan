@@ -16,7 +16,7 @@
         "physics",
         "sound"
     ],
-    "recommends" : [
+    "depends" : [
         { "name" : "ModuleManager" }
     ],
     "x_netkan_override": [

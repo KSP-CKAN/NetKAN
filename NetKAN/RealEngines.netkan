@@ -7,6 +7,9 @@
     "tags": [
         "parts"
     ],
+    "depends": [
+        { "name": "ModuleManager" }
+    ],
     "install": [ {
         "find":       "RealEnginesPack",
         "install_to": "GameData"

@@ -7,10 +7,11 @@
         "parts",
         "resources"
     ],
-    "install": [
-        {
-            "find": "MiningExpansion",
-            "install_to": "GameData"
-        }
-    ]
+    "depends": [
+        { "name": "ModuleManager" }
+    ],
+    "install": [ {
+        "find": "MiningExpansion",
+        "install_to": "GameData"
+    } ]
 }

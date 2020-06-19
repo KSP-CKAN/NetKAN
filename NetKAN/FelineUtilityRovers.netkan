@@ -7,10 +7,11 @@
         "parts",
         "crewed"
     ],
-    "install": [
-        {
-            "file"       : "GameData/KerbetrotterLtd",
-            "install_to" : "GameData"
-        }
-    ]
+    "depends": [
+        { "name": "ModuleManager" }
+    ],
+    "install": [ {
+        "file"       : "GameData/KerbetrotterLtd",
+        "install_to" : "GameData"
+    } ]
 }

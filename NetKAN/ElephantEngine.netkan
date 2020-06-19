@@ -10,6 +10,9 @@
     "tags": [
         "parts"
     ],
+    "depends": [
+        { "name": "ModuleManager" }
+    ],
     "install": [ {
         "file"       : "ElephantEngine",
         "install_to" : "GameData"

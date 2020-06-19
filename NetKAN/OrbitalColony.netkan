@@ -2,13 +2,13 @@
     "spec_version": "v1.4",
     "identifier":   "OrbitalColony",
     "$kref":        "#/ckan/spacedock/1559",
-    "ksp_version":  "any",
+    "$vref":        "#/ckan/ksp-avc",
     "license":      "CC-BY-NC-4.0",
     "tags": [
         "parts",
         "crewed"
     ],
-    "recommends": [
+    "depends": [
         { "name": "ModuleManager" }
     ]
 }

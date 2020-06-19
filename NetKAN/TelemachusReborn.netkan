@@ -18,17 +18,22 @@
         "information",
         "app"
     ],
-    "provides" : [ "Telemachus" ],
-    "conflicts" : [
-         { "name" : "Telemachus" },
-         { "name" : "TelemachusContinued" },
-         { "name" : "Telemachus-2" }
+    "provides": [
+        "Telemachus"
     ],
-    "recommends" : [
+    "conflicts": [
+         { "name": "Telemachus" },
+         { "name": "TelemachusContinued" },
+         { "name": "Telemachus-2" }
+    ],
+    "depends": [
+        { "name": "ModuleManager" }
+    ],
+    "recommends": [
         { "name": "RasterPropMonitor" }
     ],
-    "install" : [ {
-        "file"   : "GameData/Telemachus",
+    "install": [ {
+        "file":        "GameData/Telemachus",
         "install_to" : "GameData"
     } ],
     "x_netkan_override": [

@@ -3,6 +3,7 @@
     "identifier":   "ESLDJumpBeacons",
     "$kref":        "#/ckan/spacedock/821",
     "x_netkan_epoch": 1,
+    "$vref":        "#/ckan/ksp-avc",
     "license":      "GPL-2.0",
     "tags": [
         "plugin",

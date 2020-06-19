@@ -20,19 +20,20 @@
         "find"       : "GameData/SpaceDock",
         "install_to" : "GameData"
     } ],
-    "depends" : [
-        { "name" : "CommunityTechTree" }
+    "depends": [
+        { "name": "ModuleManager"     },
+        { "name": "CommunityTechTree" }
     ],
-    "recommends" : [
-        { "name" : "ExtraPlanetaryLaunchpads" }
+    "recommends": [
+        { "name": "ExtraPlanetaryLaunchpads" }
     ],
-    "suggests" : [
-        { "name" : "KIS" },
-        { "name" : "KAS" },
-        { "name" : "Konstruction" },
-        { "name" : "USI-Core" }
+    "suggests": [
+        { "name": "KIS" },
+        { "name": "KAS" },
+        { "name": "Konstruction" },
+        { "name": "USI-Core" }
     ],
-    "supports" : [
-        { "name" : "ConnectedLivingSpace" }
+    "supports": [
+        { "name": "ConnectedLivingSpace" }
     ]
 }

@@ -6,8 +6,11 @@
     "tags": [
         "parts"
     ],
+    "depends": [
+        { "name": "ModuleManager" }
+    ],
     "install": [ {
-        "find": "StreamlineEnginesTanks",
+        "find":       "StreamlineEnginesTanks",
         "install_to": "GameData"
     } ]
 }

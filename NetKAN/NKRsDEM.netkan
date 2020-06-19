@@ -21,6 +21,7 @@
         }
     ],
     "depends": [
-        { "name": "TDProps" }
+        { "name": "ModuleManager" },
+        { "name": "TDProps"       }
     ]
 }

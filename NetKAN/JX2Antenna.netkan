@@ -8,11 +8,14 @@
         "uncrewed",
         "comms"
     ],
-    "supports" : [
-        { "name" : "IndicatorLights"      },
-        { "name" : "OuterPlanetsMod"      },
-        { "name" : "GPP"                  },
-        { "name" : "GrannusExpansionPack" },
-        { "name" : "RemoteTech"           }
+    "depends": [
+        { "name": "ModuleManager" }
+    ],
+    "supports": [
+        { "name": "IndicatorLights"      },
+        { "name": "OuterPlanetsMod"      },
+        { "name": "GPP"                  },
+        { "name": "GrannusExpansionPack" },
+        { "name": "RemoteTech"           }
     ]
 }

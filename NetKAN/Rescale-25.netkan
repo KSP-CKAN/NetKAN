@@ -20,15 +20,16 @@
         }
     ],
     "depends": [
+        { "name": "ModuleManager"   },
         { "name": "SigmaDimensions" }
     ],
     "recommends": [
 		{ "name": "Kronometer" }
     ],
     "conflicts": [
-        { "name": "Rescale-32" },
-        { "name": "Rescale-64" },
-        { "name": "Rescale-10" },
+        { "name": "Rescale-32"    },
+        { "name": "Rescale-64"    },
+        { "name": "Rescale-10"    },
         { "name": "Rescale-10625" }
     ]
 }

@@ -1,22 +1,31 @@
 {
     "spec_version": "v1.4",
     "identifier":   "SpaceXLaunchVehicles",
+    "name":         "SpaceX Launch Vehicles - Real Size",
     "$kref":        "#/ckan/spacedock/269",
     "license":      "restricted",
     "tags": [
         "parts"
     ],
+    "conflicts": [
+        { "name": "SpaceXLaunchVehicles-StockSize" }
+    ],
     "depends": [
         { "name": "ModuleManager" }
     ],
-    "install": [
-        {
-            "find": "Launchers Pack",
-            "install_to": "GameData"
-        },
-        {
-            "find": "Ships/VAB",
-            "install_to": "Ships"
-        }
-    ]
+    "recommends": [
+        { "name": "TexturesUnlimited"         },
+        { "name": "AnimatedDecouplers"        },
+        { "name": "RetractableLiftingSurface" }
+    ],
+    "install": [ {
+        "find":       "Kartoffelkuchen",
+        "install_to": "GameData"
+    }, {
+        "find":       "Launchers Pack",
+        "install_to": "GameData"
+    }, {
+        "file":       "Ships/VAB",
+        "install_to": "Ships"
+    } ]
 }

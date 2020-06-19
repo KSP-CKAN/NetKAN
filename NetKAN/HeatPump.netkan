@@ -12,6 +12,9 @@
         "parts",
         "physics"
     ],
+    "depends": [
+        { "name": "ModuleManager" }
+    ],
     "install": [ {
         "file"       : "GameData/000_HeatPump",
         "install_to" : "GameData"

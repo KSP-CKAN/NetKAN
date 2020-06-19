@@ -7,6 +7,9 @@
         "parts",
         "uncrewed"
     ],
+    "depends": [
+        { "name": "ModuleManager" }
+    ],
     "suggests": [
         { "name": "B9PartSwitch" }
     ]

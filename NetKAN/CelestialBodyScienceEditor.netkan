@@ -2,13 +2,14 @@
     "spec_version": 1,
     "identifier":   "CelestialBodyScienceEditor",
     "$kref":        "#/ckan/spacedock/136",
+    "$vref":        "#/ckan/ksp-avc",
     "license":      "MIT",
     "tags": [
         "plugin",
         "science"
     ],
     "install": [ {
-        "file": "GameData/ScienceParamModifier",
+        "file":       "GameData/ScienceParamModifier",
         "install_to": "GameData"
     } ]
 }

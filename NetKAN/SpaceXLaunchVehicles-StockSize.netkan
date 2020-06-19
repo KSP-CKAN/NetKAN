@@ -1,0 +1,36 @@
+{
+    "spec_version": "v1.18",
+    "identifier":   "SpaceXLaunchVehicles-StockSize",
+    "name":         "SpaceX Launch Vehicles - Stock Size",
+    "$kref":        "#/ckan/spacedock/269",
+    "license":      "restricted",
+    "tags": [
+        "parts"
+    ],
+    "provides": [ "SpaceXLaunchVehicles" ],
+    "conflicts": [
+        { "name": "SpaceXLaunchVehicles" }
+    ],
+    "depends": [
+        { "name": "ModuleManager" }
+    ],
+    "recommends": [
+        { "name": "TexturesUnlimited"         },
+        { "name": "AnimatedDecouplers"        },
+        { "name": "RetractableLiftingSurface" }
+    ],
+    "install": [ {
+        "find":       "Kartoffelkuchen",
+        "install_to": "GameData"
+    }, {
+        "find":       "Launchers Pack",
+        "install_to": "GameData"
+    }, {
+        "file":       "Rescaled/GameData",
+        "install_to": "GameData",
+        "as":         "Kartoffelkuchen"
+    }, {
+        "file":       "Rescaled/Ships/VAB",
+        "install_to": "Ships"
+    } ]
+}

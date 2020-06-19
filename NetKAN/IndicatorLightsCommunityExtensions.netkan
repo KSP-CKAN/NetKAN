@@ -7,12 +7,13 @@
         "config"
     ],
     "depends": [
+        { "name": "ModuleManager"   },
         { "name": "IndicatorLights" }
     ],
     "supports": [
         { "name": "ImpossibleInnovations" },
-        { "name": "Mk1CabinHatch" },
-        { "name": "PartOverhauls" },
-        { "name": "VenStockRevamp" }
+        { "name": "Mk1CabinHatch"         },
+        { "name": "PartOverhauls"         },
+        { "name": "VenStockRevamp"        }
     ]
 }

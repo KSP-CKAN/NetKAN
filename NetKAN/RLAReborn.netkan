@@ -12,10 +12,11 @@
         { "name": "RLARecontinued" },
         { "name": "RLAContinued" }
     ],
-    "install": [
-        {
-            "install_to": "GameData",
-            "find": "RLA_Reborn"
-        }
-    ]
+    "depends": [
+        { "name": "ModuleManager" }
+    ],
+    "install": [ {
+        "find":       "RLA_Reborn",
+        "install_to": "GameData"
+    } ]
 }

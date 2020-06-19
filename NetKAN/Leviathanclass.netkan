@@ -5,5 +5,8 @@
     "license":      "GPL-3.0",
     "tags": [
         "parts"
+    ],
+    "depends": [
+        { "name": "ModuleManager" }
     ]
 }

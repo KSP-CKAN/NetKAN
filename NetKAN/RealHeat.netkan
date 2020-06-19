@@ -15,6 +15,7 @@
         "physics"
     ],
     "depends"        : [
+        { "name": "ModuleManager"           },
         { "name": "ModularFlightIntegrator" }
     ],
     "install"        : [ {

@@ -5,13 +5,21 @@
     "license":      "restricted",
     "tags": [
         "config",
-        "planet-pack"
+        "planet-pack",
+        "parts",
+        "plugin"
+    ],
+    "provides": [
+        "EnvironmentalVisualEnhancements-Config"
+    ],
+    "conflicts": [
+        { "name": "EnvironmentalVisualEnhancements-Config" }
     ],
     "depends": [
-        { "name": "ModuleManager"                                },
-        { "name": "Kopernicus"                                   },
-        { "name": "KopernicusExpansionContinued-EmissiveFX"      },
-        { "name": "KopernicusExpansionContinued-RegionalPQSMods" }
+        { "name": "ModuleManager"              },
+        { "name": "Kopernicus"                 },
+        { "name": "SciRev"                     },
+        { "name": "Scatterer-sunflare-default" }
     ],
     "recommends": [
         { "name": "EnvironmentalVisualEnhancements" },

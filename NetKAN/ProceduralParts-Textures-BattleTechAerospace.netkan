@@ -7,13 +7,10 @@
         "graphics"
     ],
     "depends": [
-        { "name": "ProceduralParts" },
-        { "name": "ModuleManager" }
+        { "name": "ProceduralParts" }
     ],
-    "install": [
-        {
-            "file"       : "BTAProceduralPartsTextures",
-            "install_to" : "GameData"
-        }
-    ]
+    "install": [ {
+        "file"       : "BTAProceduralPartsTextures",
+        "install_to" : "GameData"
+    } ]
 }

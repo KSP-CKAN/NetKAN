@@ -1,0 +1,20 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "CEDA-Aethon-ITS",
+    "$kref":        "#/ckan/spacedock/2427",
+    "$vref":        "#/ckan/ksp-avc",
+    "license":      "GPL-3.0",
+    "tags": [
+        "parts"
+    ],
+    "depends": [
+        { "name": "B9PartSwitch" }
+    ],
+    "recommends": [
+        { "name": "SpaceXLegs" }
+    ],
+    "install": [ {
+        "find":       "CEDA_ProjectAethon",
+        "install_to": "GameData"
+    } ]
+}

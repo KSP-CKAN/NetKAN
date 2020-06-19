@@ -2,8 +2,24 @@
     "spec_version": "v1.4",
     "identifier":   "ModularLaunchPads",
     "$kref":        "#/ckan/spacedock/1767",
-    "license":      "CC-BY-NC-SA",
+    "license":      "CC-BY-NC-SA-4.0",
     "tags": [
         "parts"
-    ]
+    ],
+    "depends": [
+        { "name": "ModuleManager" },
+        { "name": "B9PartSwitch"  }
+    ],
+    "recommends": [
+        { "name": "AnimatedDecouplers"   },
+        { "name": "CommunityCategoryKit" },
+        { "name": "KSCExtended"          }
+    ],
+    "install": [ {
+        "find":       "ModularLaunchPads",
+        "install_to": "GameData"
+    }, {
+        "find":       "Ships/VAB",
+        "install_to": "Ships"
+    } ]
 }

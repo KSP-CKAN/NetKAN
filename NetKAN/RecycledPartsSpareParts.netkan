@@ -9,9 +9,12 @@
         "parts"
     ],
     "install": [ {
-        "find": "Clockwork_Industries",
+        "find":       "Clockwork_Industries",
         "install_to": "GameData/SpaceTuxIndustries/RecycledParts"
     } ],
+    "depends": [
+        { "name": "ModuleManager" }
+    ],
     "recommends": [
         { "name": "CommunityTechTree" }
     ],

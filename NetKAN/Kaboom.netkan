@@ -2,12 +2,13 @@
     "spec_version": "v1.4",
     "identifier":   "Kaboom",
     "$kref":        "#/ckan/spacedock/833",
+    "$vref":        "#/ckan/ksp-avc",
     "license":      "unrestricted",
     "tags": [
         "plugin"
     ],
     "install": [ {
-        "file": "GameData/Kaboom",
+        "file":       "GameData/Kaboom",
         "install_to": "GameData"
     } ],
     "depends": [

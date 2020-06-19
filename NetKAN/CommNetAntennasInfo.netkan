@@ -5,6 +5,7 @@
     "author"       : "flart",
     "$kref"        : "#/ckan/github/yalov/CommNetAntennasInfo",
     "$vref"        : "#/ckan/ksp-avc",
+    "x_netkan_allow_out_of_order": true,
     "license"      : "GPL-3.0",
     "release_status": "stable",
     "resources" : {
@@ -17,6 +18,9 @@
     ],
     "conflicts": [
         { "name": "RemoteTech" }
+    ],
+    "depends": [
+        { "name": "ModuleManager" }
     ],
     "recommends": [
         { "name": "CommNetAntennasExtension" },

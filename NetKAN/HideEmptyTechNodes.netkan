@@ -2,6 +2,7 @@
     "spec_version": "v1.4",
     "identifier":   "HideEmptyTechNodes",
     "$kref":        "#/ckan/spacedock/577",
+    "$vref":        "#/ckan/ksp-avc",
     "license":      "CC-BY-NC-4.0",
     "tags": [
         "plugin",
@@ -11,10 +12,8 @@
     "suggests": [
         { "name": "CommunityTechTree" }
     ],
-    "install": [
-        {
-            "file": "GameData/HideEmptyTechTreeNodes",
-            "install_to": "GameData"
-        }
-    ]
+    "install": [ {
+        "file":       "GameData/HideEmptyTechTreeNodes",
+        "install_to": "GameData"
+    } ]
 }

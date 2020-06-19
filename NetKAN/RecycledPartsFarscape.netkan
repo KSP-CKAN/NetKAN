@@ -9,15 +9,16 @@
         "parts"
     ],
     "install": [ {
-        "find": "Mike_NZ_Crafts",
+        "find":       "Mike_NZ_Crafts",
         "install_to": "GameData/SpaceTuxIndustries/RecycledParts"
     }, {
-        "find": "SPH",
+        "find":       "SPH",
         "install_to": "Ships"
     } ],
     "depends": [
-        { "name": "KSPWheel" },
-        { "name": "PatchManager" }
+        { "name": "ModuleManager" },
+        { "name": "KSPWheel"      },
+        { "name": "PatchManager"  }
     ],
     "recommends": [
         { "name": "CommunityTechTree" }

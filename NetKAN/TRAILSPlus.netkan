@@ -11,7 +11,10 @@
     "tags": [
         "parts"
     ],
-    "recommended": [
+    "depends": [
+        { "name": "ModuleManager" }
+    ],
+    "recommends": [
         { "name": "BluedogDB"     },
         { "name": "EVAParachutes" }
     ]

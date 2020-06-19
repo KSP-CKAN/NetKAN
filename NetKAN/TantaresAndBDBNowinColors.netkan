@@ -8,12 +8,12 @@
         "graphics"
     ],
     "depends": [
-        { "name": "NewTantares"     },
-        { "name": "BluedogDB"       },
-        { "name": "FirespitterCore" }
+        { "name": "ModuleManager" },
+        { "name": "NewTantares"   },
+        { "name": "BluedogDB"     }
     ],
     "install": [ {
-        "find":       "DnD_Alt_BDB",
+        "find":       "BDBNIC",
         "install_to": "GameData"
     } ]
 }

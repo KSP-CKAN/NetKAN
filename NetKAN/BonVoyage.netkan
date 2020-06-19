@@ -2,11 +2,14 @@
     "spec_version": "v1.4",
     "identifier":   "BonVoyage",
     "$kref":        "#/ckan/spacedock/950",
+    "$vref":        "#/ckan/ksp-avc",
     "x_netkan_epoch": 1,
     "license":      "GPL-3.0",
     "tags": [
         "plugin",
         "convenience"
     ],
-    "x_via": "Automated SpaceDock CKAN submission"
+    "depends": [
+        { "name": "ModuleManager" }
+    ]
 }

@@ -1,0 +1,15 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "AirParkContinued",
+    "$kref":        "#/ckan/spacedock/936",
+    "license":      "GPL-2.0",
+    "x_netkan_epoch": 1,
+    "tags": [
+        "plugin",
+        "physics"
+    ],
+    "install": [ {
+        "find":       "AirPark",
+        "install_to": "GameData"
+    } ]
+}

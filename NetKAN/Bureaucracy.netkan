@@ -14,6 +14,7 @@
         "career"
     ],
     "depends" : [
+        { "name": "ModuleManager" },
         { "name" : "KerbalChangelog" },
         { "name" : "FlightTracker" },
         { "name" : "CustomBarnKit" }
@@ -26,7 +27,6 @@
         { "name" : "MonthlyBudgets" },
         { "name" : "SpaceProgramFunding" }
     ],
-    
     "install" : [ {
         "find" : "Bureaucracy",
         "install_to" : "GameData"

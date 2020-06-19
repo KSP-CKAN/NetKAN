@@ -7,6 +7,7 @@
         "parts"
     ],
     "depends": [
+        { "name": "ModuleManager"             },
         { "name": "RealPlume"                 },
         { "name": "TweakScale"                },
         { "name": "RetractableLiftingSurface" },
@@ -21,11 +22,9 @@
     "recommends": [
         { "name": "DMagicScienceAnimate" }
     ],
-    "install": [
-        {
-            "find":       "Contares",
-            "install_to": "GameData",
-            "filter":     [ "Agencies", "CONTARES_TweakScale.cfg" ]
-        }
-    ]
+    "install": [ {
+        "find":       "Contares",
+        "install_to": "GameData",
+        "filter":     [ "Agencies", "CONTARES_TweakScale.cfg" ]
+    } ]
 }

@@ -8,8 +8,10 @@
         "parts",
         "crewed"
     ],
+    "depends": [
+        { "name": "ModuleManager" }
+    ],
     "recommends": [
-        { "name": "ModuleManager"              },
         { "name": "RasterPropMonitor"          },
         { "name": "JSIAdvancedTransparentPods" }
     ],

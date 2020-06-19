@@ -8,6 +8,9 @@
     "tags": [
         "parts"
     ],
+    "depends": [
+        { "name": "ModuleManager" }
+    ],
     "recommends": [
         { "name": "DMTanks-SphericalTanks" },
         { "name": "DMTanks-Fuselage"       },
@@ -16,8 +19,7 @@
     "suggests": [
         { "name": "SimpleConstruction"      },
         { "name": "NotSoSimpleConstruction" },
-        { "name": "SimpleLogistics"         },
-        { "name": "ModuleManager"           }
+        { "name": "SimpleLogistics"         }
     ],
     "supports": [
         { "name": "TweakScale"      },

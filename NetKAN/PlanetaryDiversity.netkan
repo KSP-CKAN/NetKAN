@@ -1,24 +1,23 @@
 {
-    "spec_version"  :  "v1.4",
-    "identifier"    :  "PlanetaryDiversity",
-    "name"          :  "Planetary Diversity",
-    "abstract"      :  "Creates some diversity on the otherwise static planets.",
-    "author"        :  [ "Thomas P.", "linuxgurugamer" ],
-    "$kref"         :  "#/ckan/spacedock/2243",
+    "spec_version": "v1.4",
+    "identifier":   "PlanetaryDiversity",
+    "name":         "Planetary Diversity",
+    "abstract":     "Creates some diversity on the otherwise static planets.",
+    "author":       [ "Thomas P.", "linuxgurugamer" ],
+    "$kref":        "#/ckan/spacedock/2243",
     "x_netkan_epoch":  "1",
-    "release_status":  "development",
-    "license"       :  "MIT",
+    "$vref":        "#/ckan/ksp-avc",
+    "release_status": "development",
+    "license":      "MIT",
     "resources": {
-        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/187999-173-planetary-diversity/"
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/187999-*"
     },
     "tags": [
         "plugin",
         "planet-pack"
     ],
-    "install": [
-        {
-            "find"      : "PlanetaryDiversity",
-            "install_to": "GameData"
-        }
-    ]
+    "install": [ {
+        "find":       "PlanetaryDiversity",
+        "install_to": "GameData"
+    } ]
 }

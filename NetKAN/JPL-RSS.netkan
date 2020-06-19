@@ -7,10 +7,11 @@
         "config"
     ],
     "depends": [
+        { "name": "ModuleManager"   },
         { "name": "RealSolarSystem" }
     ],
     "install": [ {
-        "find": "Jimbodiah",
+        "find":       "Jimbodiah",
         "install_to": "GameData"
     } ],
     "x_netkan_override": [

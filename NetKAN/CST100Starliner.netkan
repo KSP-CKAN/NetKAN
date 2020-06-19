@@ -7,6 +7,9 @@
         "parts",
         "crewed"
     ],
+    "depends": [
+        { "name": "ModuleManager" }
+    ],
     "recommends": [
         { "name": "RasterPropMonitor-Core" },
         { "name": "ASETProps"              }
@@ -15,8 +18,8 @@
         "find":       "GameData/CST-100 Starliner",
         "install_to": "GameData"
     }, {
-        "find":       "Ships",
-        "install_to": "Ships",
-        "as":         "VAB"
+        "find_regexp": ".*\\.craft$",
+        "install_to":  "Ships/VAB",
+        "find_matches_files": true
     } ]
 }

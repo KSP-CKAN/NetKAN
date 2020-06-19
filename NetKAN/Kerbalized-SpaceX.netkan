@@ -14,16 +14,15 @@
 		"parts"
 	],
 	"depends": [
+        { "name": "ModuleManager"   },
 		{ "name": "NearFutureSolar" }
 	],
 	"recommends": [
 		{ "name": "RasterPropMonitor"        },
 		{ "name": "KerbalJointReinforcement" }
 	],
-	"install": [
-		{
-			"find":       "JNH",
-			"install_to": "GameData"
-		}
-	]
+	"install": [ {
+		"find":       "JNH",
+		"install_to": "GameData"
+	} ]
 }

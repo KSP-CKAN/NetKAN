@@ -8,11 +8,12 @@
         "planet-pack"
     ],
     "depends": [
-        { "name": "Kopernicus" },
+        { "name": "ModuleManager"    },
+        { "name": "Kopernicus"       },
         { "name": "SigmaBinary-core" }
     ],
     "install": [ {
-        "file"       : "imkSushi",
-        "install_to" : "GameData"
+        "file":       "imkSushi",
+        "install_to": "GameData"
     } ]
 }

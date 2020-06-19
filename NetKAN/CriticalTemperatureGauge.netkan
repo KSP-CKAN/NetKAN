@@ -13,10 +13,5 @@
     "tags": [
         "plugin",
         "information"
-    ],
-    "depends"      : [
-        { "name": "ModuleManager" },
-        { "name": "ClickThroughBlocker" },
-        { "name": "ToolbarController" }
     ]
 }

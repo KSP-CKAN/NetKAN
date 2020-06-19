@@ -14,13 +14,14 @@
         "parts",
         "crewed"
     ],
+    "depends": [
+        { "name": "ModuleManager" }
+    ],
     "recommends": [
         { "name": "BobsPanicBox"}
     ],
-    "install": [
-        {
-            "find"       : "GameData/Pebkac",
-            "install_to" : "GameData"
-        }
-    ]
+    "install": [ {
+        "find":       "GameData/Pebkac",
+        "install_to": "GameData"
+    } ]
 }

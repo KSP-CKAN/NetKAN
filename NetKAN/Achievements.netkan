@@ -3,12 +3,12 @@
     "identifier"   : "Achievements",
     "name"         : "KSP Achievements",
     "abstract"     : "145 Achievements you can get playing Kerbal Space Program.",
-    "$kref"        : "#/ckan/github/malkuth1974/Achievements",
+    "$kref"        : "#/ckan/spacedock/2422",
     "$vref"        : "#/ckan/ksp-avc",
     "license"      : "GPL-3.0",
     "resources"    : {
-        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/91806-*",
-        "repository": "https://github.com/malkuth1974/Achievements"
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/193073-1updated/*",
+        "repository": "https://github.com/linuxgurugamer/Achievements"
     },
     "tags"         : [
         "plugin"
@@ -18,5 +18,9 @@
             "find": "Achievements",
             "install_to": "GameData"
         }
+    ],
+    "depends": [
+        { "name" : "ToolbarController" },
+        { "name" : "ClickThroughBlocker" }
     ]
 }
