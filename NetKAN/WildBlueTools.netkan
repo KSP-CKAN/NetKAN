@@ -1,25 +1,21 @@
 {
-  "license": "GPL-3.0",
-  "identifier": "WildBlueTools",
-  "x_via": "Automated Linuxgurugamer CKAN script",
-  "$kref": "#/ckan/github/Angel-125/WildBlueTools",
-  "$vref": "#/ckan/ksp-avc",
-  "resources": {
-    "repository": "https://github.com/Angel-125/WildBlueTools"
-  },
-  "depends": [
-    { "name": "KerbalActuators" },
-    { "name": "ClassicStockResources" },
-    { "name": "BarisBridge" },
-    { "name": "ModuleManager" }
-  ],
-  "tags": [
-    "plugin",
-    "library"
-  ],
+    "spec_version": "v1.4",
+    "identifier":   "WildBlueTools",
+    "$kref":        "#/ckan/github/Angel-125/WildBlueTools",
+    "$vref":        "#/ckan/ksp-avc",
+    "license":      "GPL-3.0",
+    "depends": [
+        { "name": "ModuleManager"         },
+        { "name": "KerbalActuators"       },
+        { "name": "ClassicStockResources" },
+        { "name": "BarisBridge"           }
+    ],
+    "tags": [
+        "plugin",
+        "library"
+    ],
     "install": [ {
         "find":       "000WildBlueTools",
         "install_to": "GameData/WildBlueIndustries"
-    } ],
-  "spec_version": "v1.4"
+    } ]
 }

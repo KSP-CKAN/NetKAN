@@ -1,22 +1,21 @@
 {
-  "license": "GPL-3.0",
-  "identifier": "ClassicStockResources",
-  "x_via": "Automated Linuxgurugamer CKAN script",
-  "$kref": "#/ckan/github/Angel-125/ClassicStockResources",
-  "$vref": "#/ckan/ksp-avc",
-  "resources": {
-    "homepage": "https://github.com/Angel-125/ClassicStockResources",
-    "repository": "https://github.com/Angel-125/ClassicStockResources"
-  },
-  "depends": [
-    { "name": "ModuleManager" }
-  ],
-  "tags": [
-    "library"
-  ],
+    "spec_version": "v1.4",
+    "identifier":   "ClassicStockResources",
+    "$kref":        "#/ckan/github/Angel-125/ClassicStockResources",
+    "$vref":        "#/ckan/ksp-avc",
+    "license":      "GPL-3.0",
+    "resources": {
+        "homepage": "https://github.com/Angel-125/ClassicStockResources"
+    },
+    "tags": [
+        "library",
+        "resources"
+    ],
+    "depends": [
+        { "name": "ModuleManager" }
+    ],
     "install": [ {
         "find":       "ClassicStockResources",
         "install_to": "GameData/WildBlueIndustries"
-    } ],
-  "spec_version": "v1.4"
+    } ]
 }

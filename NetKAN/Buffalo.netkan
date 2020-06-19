@@ -1,0 +1,35 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "Buffalo",
+    "name":         "Buffalo",
+    "author":       "Angel125",
+    "abstract":     "A modular rover parts pack based upon NASA's MMSEV. Explore in style.",
+    "$kref":        "#/ckan/github/Angel-125/Buffalo",
+    "$vref":        "#/ckan/ksp-avc",
+    "license":      "GPL-3.0",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/122617-*"
+    },
+    "depends": [
+        { "name": "ModuleManager"         },
+        { "name": "BarisBridge"           },
+        { "name": "WildBlueTools"         },
+        { "name": "KerbalActuators"       },
+        { "name": "ClassicStockResources" }
+    ],
+    "supports": [
+        { "name": "ConnectedLivingSpace" },
+        { "name": "TACLS"                },
+        { "name": "USI-LS"               },
+        { "name": "Snacks"               }
+    ],
+    "recommends": [
+        { "name": "RasterPropMonitor-Core" },
+        { "name": "ASETProps"              },
+        { "name": "ASETAvionics"           }
+    ],
+    "install": [ {
+        "find":       "Buffalo",
+        "install_to": "GameData/WildBlueIndustries"
+    } ]
+}

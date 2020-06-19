@@ -1,53 +1,46 @@
 {
-  "license": "GPL-3.0",
-  "identifier": "Pathfinder",
-  "x_via": "Automated Linuxgurugamer CKAN script",
-  "$kref": "#/ckan/github/Angel-125/Pathfinder",
-  "$vref": "#/ckan/ksp-avc",
-  "resources": {
-    "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/121397-181-19x-pathfinder-space-camping-geoscience/",
-    "repository": "https://github.com/Angel-125/Pathfinder/releases"
-  },
-  "depends": [
-    { "name": "ModuleManager" },
-    { "name": "KerbalActuators" },
-    { "name": "ClassicStockResources" },
-    { "name": "BarisBridge" },
-    { "name": "WildBlueTools" }
-  ],
-  "recommends" : [
+    "spec_version": "v1.4",
+    "identifier":   "Pathfinder",
+    "$kref":        "#/ckan/github/Angel-125/Pathfinder",
+    "$vref":        "#/ckan/ksp-avc",
+    "license":      "GPL-3.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/121397-*"
+    },
+    "tags": [
+        "parts",
+        "plugin",
+        "agency",
+        "resources",
+        "crewed"
+    ],
+    "depends": [
+        { "name": "ModuleManager"         },
+        { "name": "KerbalActuators"       },
+        { "name": "ClassicStockResources" },
+        { "name": "BarisBridge"           },
+        { "name": "WildBlueTools"         },
+        { "name": "Buffalo"               }
+    ],
+    "recommends": [
         { "name": "KAS" },
         { "name": "KIS" }
     ],
-    "supports" : [
-    { "name" : "ConnectedLivingSpace" },
-    { "name" : "TACLS" },
-    { "name" : "USI-LS" },
-    { "name" : "Snacks" }
+    "supports": [
+        { "name": "ConnectedLivingSpace" },
+        { "name": "TACLS"                },
+        { "name": "USI-LS"               },
+        { "name": "Snacks"               }
     ],
-  "tags": [
-    "parts",
-    "plugin",
-    "agency",
-    "resources",
-    "crewed"
-  ],
-  "install": [
-    {
-      "find": "Pathfinder",
-      "install_to": "GameData/WildBlueIndustries",
-      "filter_regexp": [
-        ".*\\.pdb$"
-      ]
-    },
-    {
-      "find": "SPH",
-      "install_to": "Ships"
-    },
-    {
-        "file": "GameData/WBIPlayMode.cfg",
+    "install": [ {
+        "find":          "Pathfinder",
+        "install_to":    "GameData/WildBlueIndustries",
+        "filter_regexp": [ ".*\\.pdb$" ]
+    }, {
+        "find":       "SPH",
+        "install_to": "Ships"
+    }, {
+        "file":        "GameData/WBIPlayMode.cfg",
         "install_to" : "GameData"
-    }
-  ],
-  "spec_version": "v1.4"
+    } ]
 }
