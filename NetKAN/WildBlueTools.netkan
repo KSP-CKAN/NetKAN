@@ -3,7 +3,7 @@
   "identifier": "WildBlueTools",
   "x_via": "Automated Linuxgurugamer CKAN script",
   "$kref": "#/ckan/github/Angel-125/WildBlueTools",
-  "ksp_version_min": "1.8",
+  "$vref": "#/ckan/ksp-avc",
   "resources": {
     "repository": "https://github.com/Angel-125/WildBlueTools"
   },

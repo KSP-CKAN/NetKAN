@@ -3,7 +3,7 @@
   "identifier": "BARIS",
   "x_via": "Automated Linuxgurugamer CKAN script",
   "$kref": "#/ckan/github/Angel-125/BARIS",
-  "ksp_version_min": "1.8",
+  "$vref": "#/ckan/ksp-avc",
   "resources": {
     "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/164448-16-baris-building-a-rocket-isnt-simple/page/14/",
     "repository": "https://github.com/Angel-125/BARIS"
