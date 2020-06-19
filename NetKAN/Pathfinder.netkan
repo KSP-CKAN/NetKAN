@@ -31,13 +31,11 @@
     {
       "find": "SPH",
       "install_to": "Ships"
+    },
+    {
+        "file"       : "WBIPlayMode.cfg",
+        "install_to" : "GameData"
     }
-  ],
-  "install": [
-      {
-          "file"       : "WBIPlayMode.cfg",
-          "install_to" : "GameData"
-      }
   ],
   "spec_version": "v1.4"
 }
