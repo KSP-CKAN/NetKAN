@@ -18,6 +18,9 @@
     "plugin",
     "library"
   ],
-  "install": [],
+    "install": [ {
+        "find":       "000WildBlueTools",
+        "install_to": "GameData/WildBlueIndustries"
+    } ],
   "spec_version": "v1.4"
 }
