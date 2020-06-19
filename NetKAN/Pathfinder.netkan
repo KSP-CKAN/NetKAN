@@ -9,10 +9,23 @@
     "repository": "https://github.com/Angel-125/Pathfinder/releases"
   },
   "depends": [
-    {
-      "name": "ModuleManager"
-    }
+    { "name": "ModuleManager" },
+    { "name": "KerbalActuators" },
+    { "name": "ClassicStockResources" },
+    { "name": "BarisBridge" },
+    { "name": "WildBlueTools" },
+    { "name": "ModuleManager" }          
   ],
+  "recommends" : [
+        { "name": "KAS" },
+        { "name": "KIS" }
+    ],
+    "supports" : [
+    { "name" : "ConnectedLivingSpace" },
+    { "name" : "TACLS" },
+    { "name" : "USI-LS" },
+    { "name" : "Snacks" }
+    ],
   "tags": [
     "parts",
     "plugin",
