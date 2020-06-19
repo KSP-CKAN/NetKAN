@@ -3,7 +3,7 @@
   "identifier": "Pathfinder",
   "x_via": "Automated Linuxgurugamer CKAN script",
   "$kref": "#/ckan/github/Angel-125/Pathfinder",
-  "$vref": "#/ckan/ksp-avc",
+  "ksp_version_min": "1.8",
   "resources": {
     "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/121397-181-19x-pathfinder-space-camping-geoscience/",
     "repository": "https://github.com/Angel-125/Pathfinder/releases"
