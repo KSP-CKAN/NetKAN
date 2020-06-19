@@ -1,0 +1,21 @@
+{
+  "license": "GPL-3.0",
+  "identifier": "BarisBridge",
+  "x_via": "Automated Linuxgurugamer CKAN script",
+  "$kref": "#/ckan/github/Angel-125/BARISBridge",
+  "$vref": "#/ckan/ksp-avc",
+  "resources": {
+    "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/164448-16-baris-building-a-rocket-isnt-simple/page/14/",
+    "repository": "https://github.com/Angel-125/BARISBridge"
+  },
+  "depends": [
+    {
+      "name": "KerbalKomets"
+    }
+  ],
+  "tags": [
+    "library"
+  ],
+  "install": [],
+  "spec_version": "v1.4"
+}

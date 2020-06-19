@@ -1,0 +1,24 @@
+{
+  "license": "GPL-3.0",
+  "identifier": "ClassicStockResources",
+  "x_via": "Automated Linuxgurugamer CKAN script",
+  "$kref": "#/ckan/github/Angel-125/ClassicStockResources",
+  "$vref": "#/ckan/ksp-avc",
+  "resources": {
+    "homepage": "https://github.com/Angel-125/ClassicStockResources",
+    "repository": "https://github.com/Angel-125/ClassicStockResources"
+  },
+  "depends": [
+    {
+      "name": "KerbalKomets"
+    },
+    {
+      "name": "ModuleManager"
+    }
+  ],
+  "tags": [
+    "library"
+  ],
+  "install": [],
+  "spec_version": "v1.4"
+}
