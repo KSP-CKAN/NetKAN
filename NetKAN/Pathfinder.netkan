@@ -1,0 +1,47 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "Pathfinder",
+    "author":       "Angel125",
+    "$kref":        "#/ckan/github/Angel-125/Pathfinder",
+    "$vref":        "#/ckan/ksp-avc",
+    "license":      "GPL-3.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/121397-*"
+    },
+    "tags": [
+        "parts",
+        "plugin",
+        "agency",
+        "resources",
+        "crewed"
+    ],
+    "depends": [
+        { "name": "ModuleManager"         },
+        { "name": "KerbalActuators"       },
+        { "name": "ClassicStockResources" },
+        { "name": "BarisBridge"           },
+        { "name": "WildBlueTools"         },
+        { "name": "Buffalo"               }
+    ],
+    "recommends": [
+        { "name": "KAS" },
+        { "name": "KIS" }
+    ],
+    "supports": [
+        { "name": "ConnectedLivingSpace" },
+        { "name": "TACLS"                },
+        { "name": "USI-LS"               },
+        { "name": "Snacks"               }
+    ],
+    "install": [ {
+        "find":          "Pathfinder",
+        "install_to":    "GameData/WildBlueIndustries",
+        "filter_regexp": [ ".*\\.pdb$" ]
+    }, {
+        "find":       "SPH",
+        "install_to": "Ships"
+    }, {
+        "file":        "GameData/WBIPlayMode.cfg",
+        "install_to" : "GameData"
+    } ]
+}

@@ -1,0 +1,29 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "BARIS",
+    "author":       "Angel125",
+    "$kref":        "#/ckan/github/Angel-125/BARIS",
+    "$vref":        "#/ckan/ksp-avc",
+    "license":      "GPL-3.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/164448-*"
+    },
+    "tags": [
+        "plugin",
+        "career",
+        "crewed"
+    ],
+    "depends": [
+        { "name": "ModuleManager" },
+        { "name": "BarisBridge"   }
+    ],
+    "recommends": [
+        { "name": "KerbalAlarmClock"       },
+        { "name": "KerbalConstructionTime" }
+    ],
+    "install": [ {
+        "find":          "000BARIS",
+        "install_to":    "GameData/WildBlueIndustries",
+        "filter_regexp": [ ".*\\.pdb$" ]
+    } ]
+}
