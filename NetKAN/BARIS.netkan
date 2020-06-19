@@ -1,0 +1,31 @@
+{
+  "license": "GPL-3.0",
+  "identifier": "BARIS",
+  "x_via": "Automated Linuxgurugamer CKAN script",
+  "$kref": "#/ckan/github/Angel-125/BARIS",
+  "ksp_version_min": "1.8",
+  "resources": {
+    "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/164448-16-baris-building-a-rocket-isnt-simple/page/14/",
+    "repository": "https://github.com/Angel-125/BARIS"
+  },
+  "depends": [
+    {
+      "name": "ModuleManager"
+    }
+  ],
+  "tags": [
+    "plugin",
+    "career",
+    "crewed"
+  ],
+  "install": [
+    {
+      "find": "WildBlueIndustries",
+      "install_to": "GameData",
+      "filter_regexp": [
+        ".*\\.pdb$"
+      ]
+    }
+  ],
+  "spec_version": "v1.4"
+}
