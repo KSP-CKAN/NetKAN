@@ -18,6 +18,10 @@
     "career",
     "crewed"
   ],
+  "recommends" : [
+      { "name": "KerbalAlarmClock" },
+      { "name": "KerbalConstructionTime" }
+  ],
   "install": [
     {
       "find": "WildBlueIndustries",
