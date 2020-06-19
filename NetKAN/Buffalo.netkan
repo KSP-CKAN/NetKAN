@@ -10,6 +10,10 @@
     "resources": {
         "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/122617-*"
     },
+    "tags": [
+        "parts",
+        "crewed"
+    ],
     "depends": [
         { "name": "ModuleManager"         },
         { "name": "BarisBridge"           },
