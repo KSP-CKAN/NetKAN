@@ -3,7 +3,7 @@
   "identifier": "ClassicStockResources",
   "x_via": "Automated Linuxgurugamer CKAN script",
   "$kref": "#/ckan/github/Angel-125/ClassicStockResources",
-  "$vref": "#/ckan/ksp-avc",
+  "ksp_version_min": "1.8",
   "resources": {
     "homepage": "https://github.com/Angel-125/ClassicStockResources",
     "repository": "https://github.com/Angel-125/ClassicStockResources"
