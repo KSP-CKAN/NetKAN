@@ -8,11 +8,6 @@
     "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/164448-16-baris-building-a-rocket-isnt-simple/page/14/",
     "repository": "https://github.com/Angel-125/BARISBridge"
   },
-  "depends": [
-    {
-      "name": "KerbalKomets"
-    }
-  ],
   "tags": [
     "library"
   ],

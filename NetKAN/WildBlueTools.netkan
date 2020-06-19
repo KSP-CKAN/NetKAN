@@ -8,7 +8,6 @@
     "repository": "https://github.com/Angel-125/WildBlueTools"
   },
   "depends": [
-    { "name": "KerbalKomets" },
     { "name": "KerbalActuators" },
     { "name": "ClassicStockResources" },
     { "name": "BarisBridge" },

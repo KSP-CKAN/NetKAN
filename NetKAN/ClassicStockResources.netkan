@@ -9,12 +9,7 @@
     "repository": "https://github.com/Angel-125/ClassicStockResources"
   },
   "depends": [
-    {
-      "name": "KerbalKomets"
-    },
-    {
-      "name": "ModuleManager"
-    }
+    {      "name": "ModuleManager"    }
   ],
   "tags": [
     "library"
