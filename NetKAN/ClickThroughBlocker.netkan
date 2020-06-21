@@ -10,7 +10,8 @@
         "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/170747-*"
     },
     "depends": [
-        { "name": "ZeroMiniAVC" }
+        { "name": "ZeroMiniAVC" },
+        { "name": "KerbalChangelog" }
     ],
     "tags": [
         "plugin",
