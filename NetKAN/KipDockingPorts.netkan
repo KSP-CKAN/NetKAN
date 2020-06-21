@@ -13,7 +13,8 @@
         { "name": "KipEng-Agency" }
     ],
     "suggests": [
-        { "name": "ConnectedLivingSpace" }
+        { "name": "ConnectedLivingSpace"          },
+        { "name": "DockingPortAlignmentIndicator" }
     ],
     "install": [ {
         "find":       "KipEng",
