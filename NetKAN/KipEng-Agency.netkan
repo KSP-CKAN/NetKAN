@@ -11,7 +11,7 @@
         "agency"
     ],
     "install": [ {
-        "find":       "agencies",
+        "find":       "Agencies",
         "install_to": "GameData/KipEng"
     } ]
 }
