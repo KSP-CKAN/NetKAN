@@ -1,7 +1,21 @@
 {
     "spec_version": "v1.4",
-    "identifier": "KipDockingPorts",
-    "$kref": "#/ckan/spacedock/2454",
-    "license": "Creative-Commons-Attribution-NonCommercial-ShareAlike-4.0-International-License",
-    "x_via": "Automated SpaceDock CKAN submission"
+    "identifier":   "KipDockingPorts",
+    "author":       [ "CaptainKipard", "micha" ],
+    "$kref":        "#/ckan/spacedock/2454",
+    "license":      "CC-BY-NC-SA-4.0",
+    "tags": [
+        "parts"
+    ],
+    "depends": [
+        { "name": "KipEng-Agency" }
+    ],
+    "suggests": [
+        { "name": "ConnectedLivingSpace" }
+    ],
+    "install": [ {
+        "find":       "KipEng",
+        "install_to": "GameData",
+        "filter":     [ "agencies" ]
+    } ]
 }
