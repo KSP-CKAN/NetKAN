@@ -4,7 +4,7 @@
     "name":         "Kethane Mining",
     "abstract":     "Adds a new resource that you can mine and convert into fuels",
     "author":       "taniwha",
-    "$kref":        "#/ckan/http/http://taniwha.org/~bill/Kethane-0.10.3.zip",
+    "download":     "http://taniwha.org/~bill/Kethane-0.10.3.zip",
     "version":      "0.10.3",
     "ksp_version":  "1.9",
     "license":      "restricted",
