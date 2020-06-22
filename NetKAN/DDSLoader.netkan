@@ -4,7 +4,7 @@
     "name":         "DDSLoader",
     "abstract":     "Loads DDS Textures boringly fast!",
     "author":       "sarbian",
-    "$kref":        "#/ckan/http/https://ksp.sarbian.com/jenkins/job/DDSLoader/lastSuccessfulBuild/artifact/DDSLoader-1.9.0.0.zip",
+    "download":     "https://ksp.sarbian.com/jenkins/job/DDSLoader/lastSuccessfulBuild/artifact/DDSLoader-1.9.0.0.zip",
     "version":      "1.9.0.0",
     "ksp_version":  "0.90",
     "license":      "CC-BY-NC-SA-4.0",
