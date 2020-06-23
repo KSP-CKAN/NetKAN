@@ -7,8 +7,8 @@
         "config"
     ],
     "depends": [
-        { "name": "ModuleManager"   }
-        { "name": "RealSolarSystem" }
+        { "name": "ModuleManager"   },
+        { "name": "RealSolarSystem" },
         { "name": "KSCSwitcher"     }
     ],
     "install": [ {
