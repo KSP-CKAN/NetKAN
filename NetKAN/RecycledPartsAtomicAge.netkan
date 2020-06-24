@@ -1,5 +1,5 @@
 {
-    "spec_version": "v1.4",
+    "spec_version": "v1.16",
     "identifier":   "RecycledPartsAtomicAge",
     "name":         "Recycled Parts Atomic Age",
     "$kref":        "#/ckan/spacedock/1507",
@@ -9,8 +9,12 @@
         "parts"
     ],
     "install": [ {
-        "find": "SpaceTuxIndustries/RecycledParts/AtomicAge",
+        "find":       "SpaceTuxIndustries/RecycledParts/AtomicAge",
         "install_to": "GameData/SpaceTuxIndustries/RecycledParts"
+    }, {
+        "find":       "SPH/A Nuke Cruiser-Skalou-03.craft",
+        "install_to": "Ships/SPH",
+        "find_matches_files": true
     } ],
     "depends": [
         { "name": "ModuleManager" }

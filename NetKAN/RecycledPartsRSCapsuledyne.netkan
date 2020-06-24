@@ -11,9 +11,6 @@
     "install": [ {
         "find": "RSCapsuledyne",
         "install_to": "GameData/SpaceTuxIndustries/RecycledParts"
-    }, {
-        "find": "SPH",
-        "install_to": "Ships"
     } ],
     "depends": [
         { "name": "ModuleManager" },
