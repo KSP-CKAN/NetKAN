@@ -2,9 +2,8 @@
     "spec_version" : "v1.4",
     "identifier"   : "CommNetAntennasConsumptor",
     "name"         : "CommNet Antennas Consumptor",
-    "abstract"     : "Makes antennas consume EC for supporting CommNet (consumes always when extended)",
     "author"       : "flart",
-    "$kref"        : "#/ckan/github/yalov/CommNetAntennasInfo",
+    "$kref"        : "#/ckan/github/yalov/CommNetAntennasConsumptor",
     "$vref"        : "#/ckan/ksp-avc",
     "x_netkan_allow_out_of_order": true,
     "license"      : "GPL-3.0",
@@ -13,24 +12,17 @@
         "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/177292-*"
     },
     "tags": [
-        "config",
+        "plugin",
         "comms"
     ],
     "depends": [
-        { "name": "ModuleManager" },
-        { "name": "CommNetAntennasInfo" }
+        { "name": "ModuleManager" }
     ],
     "conflicts": [
         { "name": "RemoteTech" }
     ],
     "recommends": [
-        { "name": "CommNetAntennasExtension" }
-    ],
-    "install" : [
-        {
-            "file"       : "GameData/Extras-Consumptor/CommNetAntennasInfo",
-            "install_to" : "GameData",
-            "comment"    : "Install ModuleGeneratorAntenna.cfg"
-        }
+        { "name": "CommNetAntennasExtension" },
+        { "name": "CommNetAntennasInfo" }
     ]
 }
