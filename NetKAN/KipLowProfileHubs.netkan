@@ -1,7 +1,26 @@
 {
     "spec_version": "v1.4",
-    "identifier": "KipLowProfileHubs",
-    "$kref": "#/ckan/spacedock/2457",
-    "license": "CC-BY-NC-SA-4.0",
-    "x_via": "Automated SpaceDock CKAN submission"
+    "identifier":   "KipLowProfileHubs",
+    "author":       [ "CaptainKipard", "micha" ],
+    "$kref":        "#/ckan/spacedock/2457",
+    "$vref":        "#/ckan/ksp-avc",
+    "license":      "CC-BY-NC-SA-4.0",
+    "tags": [
+        "parts",
+        "crewed"
+    ],
+    "depends": [
+        { "name": "ModuleManager" },
+        { "name": "KipEng-Agency" }
+    ],
+    "suggests": [
+        { "name": "ConnectedLivingSpace" },
+        { "name": "IFILS"                }
+        { "name": "Snacks"               }
+        { "name": "TACLS"                }
+    ],
+    "install": [ {
+        "find":       "KipEng",
+        "install_to": "GameData",
+        "filter":     [ "Agencies" ]
 }
