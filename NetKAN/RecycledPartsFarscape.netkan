@@ -13,7 +13,8 @@
         "install_to": "GameData/SpaceTuxIndustries/RecycledParts"
     }, {
         "find":       "SPH",
-        "install_to": "Ships"
+        "install_to": "Ships",
+        "filter":     [ "A Nuke Cruiser-Skalou-03.craft" ]
     } ],
     "depends": [
         { "name": "ModuleManager" },

@@ -9,8 +9,11 @@
         "parts"
     ],
     "install": [ {
-        "find": "SpaceTuxIndustries/RecycledParts/AtomicAge",
+        "find":       "SpaceTuxIndustries/RecycledParts/AtomicAge",
         "install_to": "GameData/SpaceTuxIndustries/RecycledParts"
+    }, {
+        "find":       "SPH/A Nuke Cruiser-Skalou-03.craft",
+        "install_to": "Ships/SPH"
     } ],
     "depends": [
         { "name": "ModuleManager" }
