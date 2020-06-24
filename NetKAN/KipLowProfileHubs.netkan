@@ -15,12 +15,13 @@
     ],
     "suggests": [
         { "name": "ConnectedLivingSpace" },
-        { "name": "IFILS"                }
-        { "name": "Snacks"               }
+        { "name": "IFILS"                },
+        { "name": "Snacks"               },
         { "name": "TACLS"                }
     ],
     "install": [ {
         "find":       "KipEng",
         "install_to": "GameData",
         "filter":     [ "Agencies" ]
+    } ]
 }
