@@ -14,6 +14,19 @@
         { "name": "ModuleManager" }
     ],
     "recommends": [
-        { "name": "KerbalEngineerRedux" }
+        { "name": "CommunityTechTree" },
+        { "name": "RealSolarSystem"   },
+        { "name": "ModularFuelTanks"  },
+        { "name": "SMURFF"            }
+    ],
+    "suggests": [
+        { "name": "B9AerospaceHX" }
+    ],
+    "supports": [
+        { "name": "TETRIXTechTree"                         },
+        { "name": "BluedogDB"                              },
+        { "name": "BehemothAerospaceEngineeringLargeParts" },
+        { "name": "RealEngines"                            },
+        { "name": "RealScaleBoosters"                      }
     ]
 }
