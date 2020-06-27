@@ -9,6 +9,7 @@
         "graphics"
     ],
     "depends": [
+        { "name": "ModuleManager"              },
         { "name": "RealSolarSystem"            },
         { "name": "Scatterer"                  },
         { "name": "Scatterer-sunflare-default" }
