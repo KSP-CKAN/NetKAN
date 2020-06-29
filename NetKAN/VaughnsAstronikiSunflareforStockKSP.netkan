@@ -1,0 +1,24 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "VaughnsAstronikiSunflareforStockKSP",
+    "author":       [ "vaughn", "Astroniki" ],
+    "$kref":        "#/ckan/spacedock/2462",
+    "license":      "CC-BY-NC-SA-4.0",
+    "tags": [
+        "config",
+        "graphics"
+    ],
+    "depends": [
+        { "name": "ModuleManager"              },
+        { "name": "Scatterer"                  },
+        { "name": "Scatterer-sunflare-default" }
+    ],
+    "recommends": [
+        { "name": "DistantObject"   },
+        { "name": "TextureReplacer" }
+    ],
+    "install": [ {
+        "find":       "ASF",
+        "install_to": "GameData"
+    } ]
+}
