@@ -4,7 +4,7 @@
     "name":         "VesselSwitcher",
     "abstract":     "Switch between fired missiles of DBArmory.",
     "$kref":        "#/ckan/github/PapaJoesSoup/BDALoadedVesselSwitcher",
-    "ksp_version":  "1.1.3",
+    "$vref":        "#/ckan/ksp-avc",
     "license":      "MIT",
     "tags": [
         "plugin",
