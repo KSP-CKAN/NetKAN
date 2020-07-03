@@ -23,6 +23,7 @@
         { "name": "EnvironmentalVisualEnhancements-Config" }
     ],
     "depends": [
+        { "name": "EnvironmentalVisualEnhancements" },
         { "name": "ModuleManager" },
         { "name": "Scatterer-sunflare-default" }
     ],
@@ -35,17 +36,15 @@
         { "name": "IndicatorLightsCommunityExtensions" },
         { "name": "KSPRC-CityLights"                   },
         { "name": "PlanetShine"                        },
+        { "name": "PlanetShine-Config-Default"         },
         { "name": "RealPlume-StockConfigs"             },
         { "name": "ReentryParticleEffect"              },
         { "name": "ReStock"                            },
         { "name": "ShipEffectsContinued"               },
-        { "name": "PlanetShine-Config-Default"         },
         { "name": "SpaceplaneCorrections"              }
     ],
     "recommends": [
-        { "name": "EnvironmentalVisualEnhancements" },
         { "name": "Scatterer"                       },
-        { "name": "TextureReplacer"                 },
         { "name": "DistantObject"                   }
     ],
     "install": [ {
