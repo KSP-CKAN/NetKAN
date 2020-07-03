@@ -8,6 +8,7 @@
     "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/194876-18x-19x-waypoint-manager/",
     "repository": "https://github.com/linuxgurugamer/WaypointManager"
   },
+"abstract": "Display waypoints while in flight, create custom waypoints.",
   "depends": [
     {
       "name": "ToolbarController"
