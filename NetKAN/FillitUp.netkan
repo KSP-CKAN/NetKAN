@@ -16,6 +16,6 @@
     "depends": [
         { "name" : "ToolbarController" },
         { "name" : "ClickThroughBlocker" },
-        { "name" : "SpaceTuxLibrary" }
+        { "name" : "ButtonManager" }
     ]
 }
