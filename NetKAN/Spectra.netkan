@@ -49,7 +49,7 @@
         { "name": "DistantObject"                   }
     ],
     "install": [ {
-        "file":       "Step 2 - Spectra/GameData/Spectra",
+        "file":       "Step 2 - Spectra/Spectra",
         "install_to": "GameData"
     } ]
 }
