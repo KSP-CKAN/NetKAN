@@ -9,9 +9,9 @@
     },
     "provides": [
         "ButtonManager", 
-        "KSP_ColorPicker", 
-        "KSP_Log", 
-        "KSP_PartHighlighter", 
+        "KSPColorPicker", 
+        "KSPLog", 
+        "KSPPartHighlighter", 
         "SpaceTuxUtility", 
         "VesselModuleSave"
     ],
