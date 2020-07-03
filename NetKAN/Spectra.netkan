@@ -45,18 +45,11 @@
     "recommends": [
         { "name": "EnvironmentalVisualEnhancements" },
         { "name": "Scatterer"                       },
-        { "name": "Kopernicus"                      },
         { "name": "TextureReplacer"                 },
         { "name": "DistantObject"                   }
     ],
     "install": [ {
-        "file":       "Step 2 - Spectra/GameData/TextureReplacer",
-        "install_to": "GameData"
-    }, {
-        "file":       "Step 2 - Spectra/GameData/Spectra",
-        "install_to": "GameData"
-    }, {
-        "file":       "Step 2 - Spectra/GameData/KSPRC",
+        "file":       "Step 2 - Spectra/Spectra",
         "install_to": "GameData"
     } ]
 }
