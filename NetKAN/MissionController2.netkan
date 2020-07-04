@@ -20,8 +20,8 @@
     ],
     "install": [
         {
-            "find" : "MissionControllerEC",
-            "install_to" : "GameData"
+            "find":       "MissionController",
+            "install_to": "GameData"
         }
     ],
     "x_netkan_override": [
