@@ -21,7 +21,8 @@
         { "name": "DistantObject"                   },
         { "name": "ResearchBodies"                  },
         { "name": "FinalFrontier"                   },
-        { "name": "KerbalHealth"                    }
+        { "name": "KerbalHealth"                    },
+        { "name": "Grannus-RibbonPack"              }
     ],
     "suggests": [
         { "name": "GPP"                          },
@@ -34,6 +35,7 @@
         "install_to": "GameData"
     }, {
         "find":       "GameData/Nereid",
-        "install_to": "GameData"
+        "install_to": "GameData",
+        "filter":     [ "Grannus" ]
     } ]
 }
