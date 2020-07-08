@@ -20,7 +20,8 @@
         { "name": "SMURFF"            }
     ],
     "suggests": [
-        { "name": "B9AerospaceHX" }
+        { "name": "B9AerospaceHX" },
+        { "name": "ProceduralParts" }
     ],
     "supports": [
         { "name": "TETRIXTechTree"                         },
