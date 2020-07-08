@@ -8,6 +8,7 @@
     "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/194173-18x-19x-margos-resource-monitors/",
     "repository": "https://github.com/linuxgurugamer/ResourceMonitors"
   },
+  "recommends": [ {"name": "KerbalChangelog" } ],
   "depends": [
     { "name": "ToolbarController" },
     { "name": "ClickThroughBlocker" },
