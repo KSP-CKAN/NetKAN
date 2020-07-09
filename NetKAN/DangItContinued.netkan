@@ -11,9 +11,13 @@
         "find":       "DangIt",
         "install_to": "GameData"
     } ],
+    "recommends": [
+        { "name": "KerbalChangelog" }
+    ],
     "depends": [
         { "name": "ModuleManager"       },
         { "name": "ToolbarController"   },
-        { "name": "ClickThroughBlocker" }
+        { "name": "ClickThroughBlocker" },
+        { "name": "SpaceTuxLibrary" }
     ]
 }
