@@ -8,8 +8,9 @@
         "graphics"
     ],
     "depends": [
-        { "name": "ModuleManager" },
-        { "name": "Spectra"       }
+        { "name": "ModuleManager"                   },
+        { "name": "EnvironmentalVisualEnhancements" },
+        { "name": "Spectra"                         }
     ],
     "install": [ {
         "find":       "GameData/Spectra",
