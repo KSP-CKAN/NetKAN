@@ -10,8 +10,8 @@
         "career"
     ],
     "install": [ {
-      "file":       "GameData/KerbalConstructionTime",
-      "install_to": "GameData"
+        "file":       "GameData/KerbalConstructionTime",
+        "install_to": "GameData"
     } ],
     "depends": [
         { "name": "ModuleManager"       },
