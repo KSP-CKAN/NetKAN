@@ -9,29 +9,28 @@
         "plugin",
         "career"
     ],
-    "install" : [
-        {
-          "file"       : "GameData/KerbalConstructionTime",
-          "install_to" : "GameData"
-        }
+    "install": [ {
+      "file":       "GameData/KerbalConstructionTime",
+      "install_to": "GameData"
+    } ],
+    "depends": [
+        { "name": "ModuleManager"       },
+        { "name": "MagiCore"            },
+        { "name": "ClickThroughBlocker" },
+        { "name": "ToolbarController"   },
+        { "name": "SpaceTuxLibrary"     }
     ],
-    "depends" : [
-        { "name" : "ModuleManager" },
-        { "name" : "MagiCore" },
-        { "name" : "ClickThroughBlocker" },
-        { "name" : "ToolbarController" }
+    "recommends": [
+        { "name": "ScrapYard"     },
+        { "name": "KRASH"         },
+        { "name": "StageRecovery" },
+        { "name": "CrewQueueTwo"  },
+        { "name": "OhScrap"       }
     ],
-    "recommends" : [
-        { "name" : "ScrapYard" },
-        { "name" : "KRASH" },
-        { "name" : "StageRecovery" },
-        { "name" : "CrewQueueTwo" },
-        { "name" : "OhScrap" }
+    "suggests": [
+        { "name": "KerbalAlarmClock" }
     ],
-    "suggests" : [
-        { "name" : "KerbalAlarmClock" }
-    ],
-	"conflicts" : [
-		{ "name": "KerbalConstructionTime-173" }
-	]
+    "conflicts": [
+        { "name": "KerbalConstructionTime-173" }
+    ]
 }
