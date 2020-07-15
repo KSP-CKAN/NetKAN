@@ -1,7 +1,14 @@
 {
     "spec_version": "v1.4",
-    "identifier": "KSPSecondaryMotion",
-    "$kref": "#/ckan/spacedock/2477",
-    "license": "MIT",
-    "x_via": "Automated SpaceDock CKAN submission"
+    "identifier":   "KSPSecondaryMotion",
+    "$kref":        "#/ckan/spacedock/2477",
+    "license":      "MIT",
+    "tags": [
+        "plugin",
+        "physics",
+        "parts"
+    ],
+    "depends": [
+        { "name": "ModuleManager" }
+    ]
 }
