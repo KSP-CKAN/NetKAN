@@ -1,0 +1,19 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "Contares-NBS",
+    "$kref":        "#/ckan/spacedock/1700",
+    "license":      "CC-BY-NC-4.0",
+    "tags": [
+        "parts",
+        "crewed"
+    ],
+    "install": [ {
+        "find":       "Contares_NBS",
+        "install_to": "GameData"
+    } ],
+    "depends": [
+        { "name": "ModuleManager" },
+        { "name": "RealPlume"     },
+        { "name": "TweakScale"    }
+    ]
+}

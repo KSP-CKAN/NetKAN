@@ -1,0 +1,18 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "Contares-PROBE",
+    "$kref":        "#/ckan/spacedock/1713",
+    "license":      "CC-BY-NC-4.0",
+    "tags": [
+        "parts",
+        "uncrewed"
+    ],
+    "install": [ {
+        "find":       "Contares_PROBES",
+        "install_to": "GameData"
+    } ],
+    "depends": [
+        { "name": "ModuleManager" },
+        { "name": "Contares-Core" }
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "Contares-MEU",
+    "$kref":        "#/ckan/spacedock/1721",
+    "license":      "CC-BY-NC-4.0",
+    "tags": [
+        "parts"
+    ],
+    "install": [ {
+        "find":       "Contares_MEU",
+        "install_to": "GameData"
+    }, {
+        "find":       "Craft-Files/VAB",
+        "install_to": "Ships"
+    } ],
+    "depends": [
+        { "name": "ModuleManager" },
+        { "name": "Contares-Core" }
+    ]
+}

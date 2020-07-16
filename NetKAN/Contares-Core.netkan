@@ -1,0 +1,22 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "Contares-Core",
+    "$kref":        "#/ckan/spacedock/1712",
+    "license":      "CC-BY-NC-4.0",
+    "tags": [
+        "parts"
+    ],
+    "install": [ {
+        "find":       "Contares",
+        "install_to": "GameData"
+    } ],
+    "depends": [
+        { "name": "ModuleManager"             },
+        { "name": "RealPlume"                 },
+        { "name": "TweakScale"                },
+        { "name": "RetractableLiftingSurface" },
+        { "name": "FirespitterCore"           },
+        { "name": "USITools"                  },
+        { "name": "DMagicScienceAnimate"      }
+    ]
+}

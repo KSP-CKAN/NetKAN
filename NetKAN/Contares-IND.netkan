@@ -1,0 +1,18 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "Contares-IND",
+    "$kref":        "#/ckan/spacedock/1716",
+    "license":      "CC-BY-NC-4.0",
+    "tags": [
+        "parts",
+        "manned"
+    ],
+    "install": [ {
+        "find":       "Contares_IND",
+        "install_to": "GameData"
+    } ],
+    "depends": [
+        { "name": "ModuleManager" },
+        { "name": "Contares-Core" }
+    ]
+}

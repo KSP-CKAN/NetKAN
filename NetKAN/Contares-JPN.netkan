@@ -1,0 +1,21 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "Contares-JPN",
+    "$kref":        "#/ckan/spacedock/1722",
+    "license":      "CC-BY-NC-4.0",
+    "tags": [
+        "parts",
+        "crewed"
+    ],
+    "install": [ {
+        "find":       "Contares_JPN",
+        "install_to": "GameData"
+    }, {
+        "find":       "Craft-Files/VAB",
+        "install_to": "Ships"
+    } ],
+    "depends": [
+        { "name": "ModuleManager" },
+        { "name": "Contares-Core" }
+    ]
+}
