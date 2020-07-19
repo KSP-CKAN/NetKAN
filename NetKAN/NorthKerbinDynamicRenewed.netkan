@@ -1,7 +1,20 @@
 {
     "spec_version": "v1.4",
-    "identifier": "NorthKerbinDynamicRenewed",
-    "$kref": "#/ckan/spacedock/2483",
-    "license": "CC-4.0",
-    "x_via": "Automated SpaceDock CKAN submission"
+    "identifier":   "NorthKerbinDynamicRenewed",
+    "author":       [ "harpwner", "cukkoo" ],
+    "$kref":        "#/ckan/spacedock/2483",
+    "license":      "CC-BY-SA-4.0",
+    "tags": [
+        "plugin",
+        "parts"
+    ],
+    "depends": [
+        { "name": "ModuleManager"        },
+        { "name": "BDArmoryContinued"    },
+        { "name": "PhysicsRangeExtender" }
+    ],
+    "install": [ {
+        "find":       "NKD",
+        "install_to": "GameData"
+    } ]
 }
