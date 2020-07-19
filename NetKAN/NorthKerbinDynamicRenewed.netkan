@@ -5,8 +5,8 @@
     "$kref":        "#/ckan/spacedock/2483",
     "license":      "CC-BY-SA-4.0",
     "tags": [
-        "plugin",
-        "parts"
+        "parts",
+        "combat"
     ],
     "depends": [
         { "name": "ModuleManager"        },
@@ -14,7 +14,8 @@
         { "name": "PhysicsRangeExtender" }
     ],
     "install": [ {
-        "find":       "NKD",
-        "install_to": "GameData"
+        "find":       "North Kerbin Weaponry",
+        "install_to": "GameData",
+        "filter":     [ ".DS_Store" ]
     } ]
 }
