@@ -1,0 +1,50 @@
+{
+  "license": "unknown",
+  "identifier": "DSEV",
+  "x_via": "Automated Linuxgurugamer CKAN script",
+  "$kref": "#/ckan/github/Angel-125/DSEV",
+  "$vref": "#/ckan/ksp-avc",
+  "resources": {
+    "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/122162-181-19x-deep-space-exploration-vessels-build-nasa-inspired-ships-in-ksp/",
+    "repository": "https://github.com/Angel-125/DSEV"
+  },
+  "depends": [
+    { "name": "NearFutureProps" },
+    { "name": "ModuleManager" },
+    { "name": "WildBlueTools" },
+    { "name": "KerbalActuators" },
+    { "name": "BarisBridge" }
+  ],
+  "recommends": [
+    { "name": "Snacks" },
+    { "name": "ClassicStockResources" },
+    { "name": "ExtraPlanetaryLaunchpads" },
+    { "name": "KIS" },
+    { "name": "KAS" },
+    { "name": "ASET" },
+    { "name": "ASETAvionics" }
+  ],
+  "tags": [
+    "parts",
+    "plugin",
+    "crewed"
+  ],
+  "install": [
+    {
+      "find": "WildBlueIndustries",
+      "install_to": "GameData",
+      "filter_regexp": [
+        ".*\\.pdb$"
+      ]
+    },
+    {
+      "find": "VAB",
+      "install_to": "Ships"
+    },
+    {
+      "find": "SPH",
+      "install_to": "Ships"
+    }
+  ],
+  "spec_version": "v1.4"
+}
