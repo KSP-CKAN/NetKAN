@@ -1,0 +1,43 @@
+{
+  "license": "unknown",
+  "identifier": "Heisenberg",
+  "x_via": "Automated Linuxgurugamer CKAN script",
+  "$kref": "#/ckan/github/Angel-125/Airships",
+  "$vref": "#/ckan/ksp-avc",
+  "resources": {
+    "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/150702-181-19x-heisenberg-airships-part-pack/",
+    "repository": "https://github.com/Angel-125/Airships"
+  },
+  "depends": [
+    { "name": "ModuleManager" },
+    { "name": "HooliganLabsAirships" },
+    { "name": "FirespitterCore" },
+    { "name": "WildBlueTools" },
+    { "name": "KerbalActuators" },
+    { "name": "BarisBridge" }
+
+  ],
+  "recommends": [
+    { "name": "Snacks" },
+    { "name": "ClassicStockResources" },
+    { "name": "ExtraPlanetaryLaunchpads" },
+    { "name": "KIS" },
+    { "name": "KAS" },
+    { "name": "ASET" },
+    { "name": "ASETAvionics" }
+  ],
+  "tags": [
+    "parts",
+    "crewed"
+  ],
+  "install": [
+    {
+      "find": "WildBlueIndustries/Heisenberg",
+      "install_to": "GameData",
+      "filter_regexp": [
+        ".*\\.pdb$"
+      ]
+    }
+  ],
+  "spec_version": "v1.4"
+}
