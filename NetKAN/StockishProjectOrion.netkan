@@ -2,7 +2,6 @@
     "spec_version": "v1.4",
     "identifier":   "StockishProjectOrion",
     "$kref":        "#/ckan/spacedock/2384",
-    "$vref":        "#/ckan/ksp-avc",
     "license":      "MIT",
     "tags": [
         "plugin",
@@ -14,5 +13,8 @@
     "install": [ {
         "find":       "Orion",
         "install_to": "GameData"
+    }, {
+        "find":       "Ships/VAB",
+        "install_to": "Ships"
     } ]
 }

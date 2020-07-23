@@ -1,0 +1,33 @@
+{
+  "license": "GPL-3.0",
+  "identifier": "AQSS",
+  "x_via": "Automated Linuxgurugamer CKAN script",
+  "$kref": "#/ckan/spacedock/2475",
+  "$vref": "#/ckan/ksp-avc",
+  "resources": {
+    "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/195238-aq",
+    "repository": "https://github.com/linuxgurugamer/AutoQuickSaveSystem"
+  },
+  "depends": [
+    {
+      "name": "ToolbarController"
+    },
+    {
+      "name": "ClickThroughBlocker"
+    },
+    {
+      "name": "SpaceTuxLibrary"
+    }
+  ],
+  "tags": [
+    "plugin",
+    "convenience"
+  ],
+  "install": [
+    {
+      "find": "AutoQuickSaveSystem",
+      "install_to": "GameData"
+    }
+  ],
+  "spec_version": "v1.4"
+}
