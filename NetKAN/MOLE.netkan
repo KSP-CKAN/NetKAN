@@ -1,0 +1,41 @@
+{
+  "license": "unknown",
+  "identifier": "MOLE",
+  "x_via": "Automated Linuxgurugamer CKAN script",
+  "$kref": "#/ckan/github/Angel-125/MOLE",
+  "$vref":        "#/ckan/ksp-avc/GameData/WildBlueIndustries/MOLE/MOLE.version",
+  "resources": {
+    "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/154893-181-19x-mark-one-laboratory-extensions-mole/",
+    "repository": "https://github.com/Angel-125/MOLE"
+  },
+  "depends": [
+    { "name": "ModuleManager" },
+    { "name": "WildBlueTools" },
+    { "name": "KerbalActuators" },
+    { "name": "BarisBridge" }
+  ],
+    "recommends": [
+        { "name": "Snacks" },
+        { "name": "ClassicStockResources" },
+        { "name": "ExtraPlanetaryLaunchpads" },
+        { "name": "KIS" },
+        { "name": "KAS" },
+        { "name": "ASET" },
+        { "name": "ASETAvionics" }
+    ],
+  "tags": [
+    "parts",
+    "plugin",
+    "crewed"
+  ],
+  "install": [
+    {
+      "find": "WildBlueIndustries/MOLE",
+      "install_to": "GameData",
+      "filter_regexp": [
+        ".*\\.pdb$"
+      ]
+    }
+  ],
+  "spec_version": "v1.4"
+}
