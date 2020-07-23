@@ -3,7 +3,7 @@
   "identifier": "DSEV",
   "x_via": "Automated Linuxgurugamer CKAN script",
   "$kref": "#/ckan/github/Angel-125/DSEV",
-  "$vref": "#/ckan/ksp-avc",
+  "$vref": "#/ckan/ksp-avc/GameData/WildBlueIndustries/DSEV/DSEV.version",
   "resources": {
     "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/122162-181-19x-deep-space-exploration-vessels-build-nasa-inspired-ships-in-ksp/",
     "repository": "https://github.com/Angel-125/DSEV"
@@ -31,7 +31,7 @@
   ],
   "install": [
     {
-      "find": "WildBlueIndustries",
+      "find": "WildBlueIndustries/DSEV",
       "install_to": "GameData",
       "filter_regexp": [
         ".*\\.pdb$"
