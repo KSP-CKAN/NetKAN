@@ -27,8 +27,12 @@
         { "name": "Snacks"               }
     ],
     "recommends": [
-        { "name": "RasterPropMonitor-Core" },
-        { "name": "ASETProps"              },
+        { "name": "Snacks" },
+        { "name": "ClassicStockResources" },
+        { "name": "ExtraPlanetaryLaunchpads" },
+        { "name": "KIS" },
+        { "name": "KAS" },
+        { "name": "ASET"              },
         { "name": "ASETAvionics"           }
     ],
     "install": [ {
