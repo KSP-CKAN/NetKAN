@@ -14,6 +14,15 @@
     { "name": "KerbalActuators" },
     { "name": "BarisBridge" }
   ],
+    "recommends": [
+        { "name": "Snacks" },
+        { "name": "ClassicStockResources" },
+        { "name": "ExtraPlanetaryLaunchpads" },
+        { "name": "KIS" },
+        { "name": "KAS" },
+        { "name": "ASET" },
+        { "name": "ASETAvionics" }
+    ],
   "tags": [
     "parts",
     "plugin",
