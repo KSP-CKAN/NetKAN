@@ -21,7 +21,7 @@
   ],
   "install": [
     {
-      "find": "WildBlueIndustries",
+      "find": "WildBlueIndustries/MOLE",
       "install_to": "GameData",
       "filter_regexp": [
         ".*\\.pdb$"
