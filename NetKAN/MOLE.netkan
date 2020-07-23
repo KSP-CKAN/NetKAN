@@ -39,6 +39,9 @@
     "install": [ {
         "find":          "WildBlueIndustries/MOLE",
         "install_to":    "GameData/WildBlueIndustries",
-        "filter_regexp": [ ".*\\.pdb$" ]
+        "filter_regexp": [ ".*\\.pdb$", "SampleCraft" ]
+    }, {
+        "find":       "VAB",
+        "install_to": "Ships"
     } ]
 }
