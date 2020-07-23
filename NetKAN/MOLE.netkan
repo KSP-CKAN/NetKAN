@@ -1,41 +1,44 @@
 {
-  "license": "unknown",
-  "identifier": "MOLE",
-  "x_via": "Automated Linuxgurugamer CKAN script",
-  "$kref": "#/ckan/github/Angel-125/MOLE",
-  "$vref":        "#/ckan/ksp-avc/GameData/WildBlueIndustries/MOLE/MOLE.version",
-  "resources": {
-    "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/154893-181-19x-mark-one-laboratory-extensions-mole/",
-    "repository": "https://github.com/Angel-125/MOLE"
-  },
-  "depends": [
-    { "name": "ModuleManager" },
-    { "name": "WildBlueTools" },
-    { "name": "KerbalActuators" },
-    { "name": "BarisBridge" }
-  ],
-    "recommends": [
-        { "name": "Snacks" },
+    "spec_version": "v1.4",
+    "identifier":   "MOLE",
+    "$kref":        "#/ckan/github/Angel-125/MOLE",
+    "$vref":        "#/ckan/ksp-avc/GameData/WildBlueIndustries/MOLE/MOLE.version",
+    "license":      "restricted",
+    "resources": {
+        "homepage":   "https://forum.kerbalspaceprogram.com/index.php?/topic/154893-*",
+        "repository": "https://github.com/Angel-125/MOLE"
+    },
+    "tags": [
+        "parts",
+        "plugin",
+        "crewed"
+    ],
+    "depends": [
+        { "name": "ModuleManager" },
+        { "name": "WildBlueTools" },
+        { "name": "KerbalActuators" },
         { "name": "ClassicStockResources" },
-        { "name": "ExtraPlanetaryLaunchpads" },
+        { "name": "BarisBridge" }
+    ],
+    "recommends": [
+        { "name": "ASETProps" },
+        { "name": "ExtraPlanetaryLaunchpads" }
+    ],
+    "suggests": [
+        { "name": "Pathfinder" },
+        { "name": "RealChute" },
         { "name": "KIS" },
         { "name": "KAS" },
-        { "name": "ASET" },
-        { "name": "ASETAvionics" }
+        { "name": "kOS" },
+        { "name": "RasterPropMonitor-Core" },
+        { "name": "CactEyeCommunity" },
+        { "name": "Snacks" },
+        { "name": "TACLS" },
+        { "name": "Kerbalism" }
     ],
-  "tags": [
-    "parts",
-    "plugin",
-    "crewed"
-  ],
-  "install": [
-    {
-      "find": "WildBlueIndustries/MOLE",
-      "install_to": "GameData",
-      "filter_regexp": [
-        ".*\\.pdb$"
-      ]
-    }
-  ],
-  "spec_version": "v1.4"
+    "install": [ {
+        "find":          "WildBlueIndustries/MOLE",
+        "install_to":    "GameData/WildBlueIndustries",
+        "filter_regexp": [ ".*\\.pdb$" ]
+    } ]
 }
