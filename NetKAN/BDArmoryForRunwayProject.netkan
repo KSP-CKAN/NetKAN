@@ -1,0 +1,24 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "BDArmoryForRunwayProject",
+    "$kref":        "#/ckan/spacedock/2487",
+    "$vref":        "#/ckan/ksp-avc",
+    "license":      "CC-BY-SA-2.0",
+    "tags": [
+        "plugin",
+        "parts",
+        "combat"
+    ],
+    "depends": [
+        { "name": "ModuleManager" }
+    ],
+    "install": [ {
+        "find":       "BDArmory",
+        "install_to": "GameData",
+        "filter":     [ "craft" ]
+    }, {
+        "find":       "craft",
+        "install_to": "Ships",
+        "as":         "SPH"
+    } ]
+}
