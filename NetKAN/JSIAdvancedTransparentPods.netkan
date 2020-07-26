@@ -13,9 +13,6 @@
         "plugin",
         "crewed"
     ],
-    "depends" : [
-        { "name" : "ModuleManager" }
-    ],
     "recommends" : [
         { "name" : "KerbalPlanetaryBaseSystems" },
         { "name" : "DeepFreeze" },

@@ -12,9 +12,7 @@
         "install_to": "GameData"
     } ],
     "depends": [
-        {
-            "name": "FinalFrontier",
-            "min_version": "0.9.1"
-        }
+        { "name": "ModuleManager" },
+        { "name": "FinalFrontier", "min_version": "0.9.1" }
     ]
 }
