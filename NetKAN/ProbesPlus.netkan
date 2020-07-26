@@ -2,6 +2,7 @@
     "spec_version": 1,
     "identifier":   "ProbesPlus",
     "$kref":        "#/ckan/spacedock/768",
+    "$vref":        "#/ckan/ksp-avc",
     "license":      "CC-BY-NC-SA-4.0",
     "resources": {
         "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/131145-*",
@@ -32,5 +33,6 @@
     } ],
     "conflicts": [
         { "name": "CoatlAerospace" }
-    ]
+    ],
+    "x_netkan_epoch": "1"
 }

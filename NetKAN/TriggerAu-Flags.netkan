@@ -5,9 +5,9 @@
     "abstract"       : "Flags contained in TriggerAu's Addons",
     "author"         : "TriggerAu",
     "$kref"          : "#/ckan/github/TriggerAu/AlternateResourcePanel",
+    "$vref"          : "#/ckan/ksp-avc",
     "license"        : "MIT",
     "release_status" : "stable",
-    "ksp_version"    : "any",
     "comment"        : "flagmod",
     "resources": {
         "license": "https://github.com/TriggerAu/AlternateResourcePanel/blob/master/LICENSE",

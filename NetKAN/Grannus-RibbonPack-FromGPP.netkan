@@ -4,7 +4,7 @@
     "identifier":   "Grannus-RibbonPack-FromGPP",
     "abstract":     "GPP and GEP both have Grannus ribbons; these are the ones from GPP",
     "$kref":        "#/ckan/github/Galileo88/Galileos-Planet-Pack/asset_match/Galileo.*?\\.zip",
-    "ksp_version":  "any",
+    "$vref":        "#/ckan/ksp-avc",
     "license":      "CC-BY-NC-ND",
     "resources": {
         "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/152136-*"

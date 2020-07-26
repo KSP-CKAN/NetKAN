@@ -4,6 +4,7 @@
     "name":         "Extrasolar Planets Byond Kerbol - Stock configuration",
     "abstract":     "Adds a new star system in orbit around the Kerbol System",
     "$kref":        "#/ckan/spacedock/202",
+    "$vref":        "#/ckan/ksp-avc",
     "license":      "BSD-3-clause",
     "tags": [
         "config",
