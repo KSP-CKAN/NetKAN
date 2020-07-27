@@ -1,7 +1,7 @@
 {
   "license": "CC-BY-NC-SA-3.0",
   "identifier": "SolarCycleSimulator",
-  "x_via": "Automated Linuxgurugamer CKAN script",
+  "abstract": "Generates and tracks the constantly changing solar cycles of the sun",
   "$kref": "#/ckan/github/linuxgurugamer/SolarCycleSimulator",
   "$vref": "#/ckan/ksp-avc",
   "resources": {
