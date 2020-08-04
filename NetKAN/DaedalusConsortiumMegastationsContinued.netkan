@@ -6,8 +6,14 @@
     "tags": [
         "parts"
     ],
+    "recommends": [
+        { "name": "HangarExtender"           },
+        { "name": "PhysicsRangeExtender"     },
+        { "name": "ExtraPlanetaryLaunchpads" },
+        { "name": "HyperEdit"                }
+    ],
     "install": [ {
-        "find": "DaedalusConsortium",
+        "find":       "DaedalusConsortium",
         "install_to": "GameData"
     } ]
 }
