@@ -1,7 +1,13 @@
 {
     "spec_version": "v1.4",
-    "identifier": "DaedalusConsortiumMegastationsContinued",
-    "$kref": "#/ckan/spacedock/2493",
-    "license": "CC-BY-NC-SA-4.0",
-    "x_via": "Automated SpaceDock CKAN submission"
+    "identifier":   "DaedalusConsortiumMegastationsContinued",
+    "$kref":        "#/ckan/spacedock/2493",
+    "license":      "CC-BY-NC-SA-4.0",
+    "tags": [
+        "parts"
+    ],
+    "install": [ {
+        "find": "DaedalusConsortium",
+        "install_to": "GameData"
+    } ]
 }
