@@ -1,0 +1,43 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "DSEV",
+    "$kref":        "#/ckan/github/Angel-125/DSEV",
+    "$vref":        "#/ckan/ksp-avc/GameData/WildBlueIndustries/DSEV/DSEV.version",
+    "license":      "restricted",
+    "resources": {
+        "homepage":   "https://forum.kerbalspaceprogram.com/index.php?/topic/122162-*",
+        "repository": "https://github.com/Angel-125/DSEV"
+    },
+    "tags": [
+        "parts",
+        "plugin",
+        "crewed"
+    ],
+    "depends": [
+        { "name": "ModuleManager" },
+        { "name": "WildBlueTools" },
+        { "name": "NearFutureProps" },
+        { "name": "KerbalActuators" },
+        { "name": "ClassicStockResources" },
+        { "name": "BarisBridge" }
+    ],
+    "recommends": [
+        { "name": "RasterPropMonitor-Core" },
+        { "name": "ASETProps" },
+        { "name": "InfernalRobotics" }
+    ],
+    "suggests": [
+        { "name": "ASET" }
+    ],
+    "install": [ {
+        "find":          "WildBlueIndustries/DSEV",
+        "install_to":    "GameData/WildBlueIndustries",
+        "filter_regexp": [ ".*\\.pdb$", "ReferenceDesigns" ]
+    }, {
+        "find":       "VAB",
+        "install_to": "Ships"
+    }, {
+        "find":       "SPH",
+        "install_to": "Ships"
+    } ]
+}

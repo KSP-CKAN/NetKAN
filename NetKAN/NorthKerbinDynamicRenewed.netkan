@@ -1,0 +1,21 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "NorthKerbinDynamicRenewed",
+    "author":       [ "harpwner", "cukkoo" ],
+    "$kref":        "#/ckan/spacedock/2483",
+    "license":      "CC-BY-SA-4.0",
+    "tags": [
+        "parts",
+        "combat"
+    ],
+    "depends": [
+        { "name": "ModuleManager"        },
+        { "name": "BDArmoryContinued"    },
+        { "name": "PhysicsRangeExtender" }
+    ],
+    "install": [ {
+        "find":       "North Kerbin Weaponry",
+        "install_to": "GameData",
+        "filter":     [ ".DS_Store" ]
+    } ]
+}

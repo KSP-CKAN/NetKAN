@@ -1,0 +1,24 @@
+{
+  "license": "CC-BY-NC-SA-3.0",
+  "identifier": "SolarCycleSimulator",
+  "abstract": "Generates and tracks the constantly changing solar cycles of the sun",
+  "$kref": "#/ckan/github/linuxgurugamer/SolarCycleSimulator",
+  "$vref": "#/ckan/ksp-avc",
+  "resources": {
+    "repository": "https://github.com/linuxgurugamer/SolarCycleSimulator"
+  },
+  "depends": [
+    { "name": "ToolbarController" },
+    { "name": "ClickThroughBlocker" }
+  ],
+  "tags": [
+    "library"
+  ],
+  "install": [
+    {
+      "find": "WhitecatIndustries",
+      "install_to": "GameData"
+    }
+  ],
+  "spec_version": "v1.4"
+}

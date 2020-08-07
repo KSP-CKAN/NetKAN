@@ -13,7 +13,8 @@
         "install_to": "GameData"
     } ],
     "conflicts" : [
-        { "name" : "EvaFuel" }
+        { "name" : "EvaFuel" },
+        { "name" : "Kerbalism" }
     ],
     "depends": [
         { "name": "ModuleManager" }

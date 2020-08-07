@@ -1,9 +1,9 @@
 {
     "spec_version": "v1.4",
     "identifier":   "RSSTextures16K",
-    "name":         "Real Solar System Textures - VaNnadin's 16384 x 8192",
+    "name":         "Real Solar System Textures - 16384 x 8192",
     "abstract":     "Textures for Real Solar Systems",
-    "$kref":        "#/ckan/github/Vannadin/VaNnadin-s-16K-RSS-texture-pack",
+    "$kref":        "#/ckan/github/KSP-RO/RSS-Textures/asset_match/16384",
     "ksp_version":  "1.8",
     "license":      "CC-BY-NC-SA-4.0",
     "tags": [
