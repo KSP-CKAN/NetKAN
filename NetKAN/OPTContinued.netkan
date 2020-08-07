@@ -1,0 +1,28 @@
+{
+  "license": "CC-BY-NC-SA-4.0",
+  "identifier": "OPTContinued",
+  "x_via": "Automated Linuxgurugamer CKAN script",
+  "$kref": "#/ckan/spacedock/2494",
+  "$vref": "#/ckan/ksp-avc",
+  "depends": [
+    { "name": "OPTSpacePlaneMain" },
+    { "name": "OPTReconfig"       },
+    { "name": "CommunityResourcePack" },
+    { "name": "B9PartSwitch"       } 
+  ],
+  "recommends": [
+        { "name": "RasterPropMonitor" },
+        { "name": "OPTSpacePlaneParts"}
+  ],
+  "tags": [
+    "parts",
+    "crewed"
+  ],
+  "install": [
+     {
+        "find": "OPT",
+        "install_to": "GameData"
+     }
+  ],
+  "spec_version": "v1.4"
+}
