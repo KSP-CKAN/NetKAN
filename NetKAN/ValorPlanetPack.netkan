@@ -7,6 +7,9 @@
         "config",
         "planet-pack"
     ],
+    "depends": [
+        { "name": "ModuleManager" }
+    ],
     "install": [ {
         "find":       "GameData/Valor",
         "install_to": "GameData",
