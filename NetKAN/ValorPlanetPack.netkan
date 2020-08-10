@@ -1,7 +1,14 @@
 {
     "spec_version": "v1.4",
-    "identifier": "ValorPlanetPack",
-    "$kref": "#/ckan/spacedock/2495",
-    "license": "GPLv3",
-    "x_via": "Automated SpaceDock CKAN submission"
+    "identifier":   "ValorPlanetPack",
+    "$kref":        "#/ckan/spacedock/2495",
+    "license":      "GPL-3.0",
+    "tags": [
+        "config",
+        "planet-pack"
+    ],
+    "install": [ {
+        "find":       "GameData/Valor",
+        "install_to": "GameData"
+    } ]
 }
