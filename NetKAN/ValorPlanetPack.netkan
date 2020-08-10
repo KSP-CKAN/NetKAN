@@ -8,7 +8,8 @@
         "planet-pack"
     ],
     "depends": [
-        { "name": "ModuleManager" }
+        { "name": "ModuleManager" },
+        { "name": "Kopernicus"    }
     ],
     "install": [ {
         "find":       "GameData/Valor",
