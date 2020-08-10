@@ -9,6 +9,7 @@
     ],
     "install": [ {
         "find":       "GameData/Valor",
-        "install_to": "GameData"
+        "install_to": "GameData",
+        "filter":     [ ".DS_Store" ]
     } ]
 }
