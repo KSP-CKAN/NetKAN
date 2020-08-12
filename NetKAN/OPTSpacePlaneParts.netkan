@@ -1,8 +1,8 @@
 {
     "spec_version": "v1.4",
     "identifier"  : "OPTSpacePlaneParts",
-    "name"        : "Orbit Portal Technology [OPT] Spaceplane Parts (Legacy)",
-    "abstract"    : "Parts from previous OPT versions, recommended to avoid game breaking if you used v1.8.6",
+    "name"        : "OPT Spaceplane (Legacy)",
+    "abstract"    : "Retired parts such as Stail fuselage, and expansion pack containing many wings and engines",
     "license"     : "CC-BY-NC-SA-4.0",
     "$kref"       : "#/ckan/spacedock/711",
     "$vref"       : "#/ckan/ksp-avc/OPTLegacy.version",
@@ -11,19 +11,21 @@
         "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/87956-*"
     },
     "tags": [
-        "parts"
+        "parts",
+        "crewed"
     ],
-    "install": [
-        {
-            "find": "OPT_Legacy",
-            "install_to": "GameData"
-        }
-    ],
-    "recommends": [
-        { "name": "OPTSpacePlaneMain" }
-    ],
+    "install": [ {
+        "find":       "OPT_Legacy",
+        "install_to": "GameData"
+    } ],
     "depends": [
         { "name": "ModuleManager" },
         { "name": "OPTReconfig"   }
+    ],
+    "recommends": [
+        { "name": "KerbalFoundriesContinued" },
+        { "name": "OPTSpacePlaneMain"        },
+        { "name": "RasterPropMonitor"        },
+        { "name": "KerbalActuators"          }
     ]
 }
