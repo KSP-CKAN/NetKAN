@@ -9,22 +9,21 @@
         "crewed"
     ],
     "depends": [
-        { "name": "OPTReconfig"           },
-        { "name": "CommunityResourcePack" },
-        { "name": "B9PartSwitch"          }
+        { "name": "OPTReconfig" }
     ],
     "recommends": [
-        { "name": "RasterPropMonitor"  },
-        { "name": "OPTSpacePlaneParts" }
+        { "name": "KerbalFoundriesContinued" },
+        { "name": "RasterPropMonitor"        },
+        { "name": "OPTSpacePlaneParts"       }
     ],
     "supports": [
         { "name": "ConnectedLivingSpace" },
-        { "name": "ModularFuelTanks" },
-        { "name": "RealFuels" },
-        { "name": "TacLifeSupport" }
+        { "name": "ModularFuelTanks"     },
+        { "name": "RealFuels"            },
+        { "name": "TacLifeSupport"       }
     ],
     "install": [ {
-        "find"      : "OPT",
+        "find":       "OPT",
         "install_to": "GameData"
     } ],
     "x_netkan_override": [
