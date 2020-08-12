@@ -1,0 +1,17 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "EVARefueling",
+    "abstract":     "Refill EVA tanks from crew pods without re-entering them",
+    "$kref":        "#/ckan/github/DarthPointer/EVARefueling",
+    "$vref":        "#/ckan/ksp-avc",
+    "license":      "MIT",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/196266-*"
+    },
+    "tags": [
+        "plugin"
+    ],
+    "depends": [
+        { "name": "ModuleManager" }
+    ]
+}
