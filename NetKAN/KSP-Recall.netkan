@@ -4,7 +4,7 @@
     "$vref"            : "#/ckan/ksp-avc",
     "identifier"       : "KSP-Recall",
     "name"             : "KSP Recall",
-    "abstract"         : "KSP Recall - a bag of tricks and stunts to work around KSP bugs while editing Resources on Editor, and more to come...",
+    "abstract"         : "KSP Recall - Solves the resource resetting on KSP 1.9.x, the heading drift on grounded crafts on KSP >= 1.8, and more to come...",
     "license"          : [ "GPL-2.0", "restricted" ],
     "release_status"   : "stable",
     "x_netkan_force_v" : true,
@@ -22,7 +22,7 @@
         "repository": "https://github.com/net-lisias-ksp/KSP-Recall"
     },
     "depends" : [
-        { "name" : "ModuleManager", "min_version" : "3.1.1" }
+        { "name" : "ModuleManager", "min_version" : "4.0.2" }
     ],
     "tags": [
         "plugin",
