@@ -17,11 +17,8 @@
 		"plugin"
 	],
 	"depends": [
-		{
-			"name": "ToolbarController"
-		},
-		{
-			"name": "ClickThroughBlocker"
-		}
+		{ "name": "ToolbarController" },
+		{ "name": "ClickThroughBlocker" },
+        { "name": "SpaceTuxLibrary" }
 	]
 }

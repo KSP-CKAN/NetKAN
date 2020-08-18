@@ -1,0 +1,26 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "TestLite",
+    "$kref":        "#/ckan/github/ec429/TestLite",
+    "ksp_version":  "1.8",
+    "license":      "MIT",
+    "x_netkan_github": {
+        "use_source_archive": true
+    },
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/182244-*"
+    },
+    "tags": [
+        "plugin"
+    ],
+    "conflicts": [
+        { "name": "TestFlight" }
+    ],
+    "depends": [
+        { "name": "ModuleManager" },
+        { "name": "RealFuels"     }
+    ],
+    "recommends": [
+        { "name": "RealismOverhaul" }
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "NodeSplitter",
+    "$kref":        "#/ckan/spacedock/2453",
+    "$vref":        "#/ckan/ksp-avc",
+    "license":      "MIT",
+    "tags": [
+        "plugin",
+        "convenience"
+    ],
+    "depends": [
+        { "name": "ToolbarController"   },
+        { "name": "ClickThroughBlocker" },
+        { "name": "SpaceTuxLibrary"     }
+    ],
+    "install": [ {
+        "find":       "ManeuverNodeSplitter",
+        "install_to": "GameData"
+    } ]
+}

@@ -1,0 +1,25 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "VaughnsAstronikiSunflareforRSS",
+    "author":       [ "vaughn", "Astroniki" ],
+    "$kref":        "#/ckan/spacedock/2460",
+    "license":      "CC-BY-NC-SA-4.0",
+    "tags": [
+        "config",
+        "graphics"
+    ],
+    "depends": [
+        { "name": "ModuleManager"              },
+        { "name": "RealSolarSystem"            },
+        { "name": "Scatterer"                  },
+        { "name": "Scatterer-sunflare-default" }
+    ],
+    "recommends": [
+        { "name": "DistantObject"   },
+        { "name": "TextureReplacer" }
+    ],
+    "install": [ {
+        "find":       "ASF",
+        "install_to": "GameData"
+    } ]
+}

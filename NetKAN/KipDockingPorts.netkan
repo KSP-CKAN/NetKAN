@@ -1,0 +1,24 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "KipDockingPorts",
+    "author":       [ "CaptainKipard", "micha" ],
+    "$kref":        "#/ckan/spacedock/2454",
+    "$vref":        "#/ckan/ksp-avc",
+    "license":      "CC-BY-NC-SA-4.0",
+    "tags": [
+        "parts"
+    ],
+    "depends": [
+        { "name": "ModuleManager" },
+        { "name": "KipEng-Agency" }
+    ],
+    "suggests": [
+        { "name": "ConnectedLivingSpace"          },
+        { "name": "DockingPortAlignmentIndicator" }
+    ],
+    "install": [ {
+        "find":       "KipEng",
+        "install_to": "GameData",
+        "filter":     [ "Agencies" ]
+    } ]
+}

@@ -1,0 +1,22 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "WildBlueTools",
+    "author":       "Angel125",
+    "$kref":        "#/ckan/github/Angel-125/WildBlueTools",
+    "$vref":        "#/ckan/ksp-avc",
+    "license":      "GPL-3.0",
+    "depends": [
+        { "name": "ModuleManager"         },
+        { "name": "KerbalActuators"       },
+        { "name": "ClassicStockResources" },
+        { "name": "BarisBridge"           }
+    ],
+    "tags": [
+        "plugin",
+        "library"
+    ],
+    "install": [ {
+        "find":       "000WildBlueTools",
+        "install_to": "GameData/WildBlueIndustries"
+    } ]
+}

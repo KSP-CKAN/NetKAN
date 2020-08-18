@@ -1,0 +1,16 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "AirbusA330neo",
+    "$kref":        "#/ckan/spacedock/2470",
+    "license":      "restricted",
+    "tags": [
+        "parts"
+    ],
+    "install": [ {
+        "find":       "A330neo",
+        "install_to": "GameData"
+    }, {
+        "find":       "Ships/SPH",
+        "install_to": "Ships"
+    } ]
+}

@@ -7,6 +7,14 @@
     "resources": {
         "repository": "https://github.com/linuxgurugamer/SpaceTuxLibrary"
     },
+    "provides": [
+        "ButtonManager", 
+        "KSPColorPicker", 
+        "KSPLog", 
+        "KSPPartHighlighter", 
+        "SpaceTuxUtility", 
+        "VesselModuleSave"
+    ],
     "tags": [
         "plugin",
         "library"
