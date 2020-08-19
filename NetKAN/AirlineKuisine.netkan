@@ -13,6 +13,10 @@
         { "name": "DeepSkyCore"   },
         { "name": "B9PartSwitch"  }
     ],
+    "suggests": [
+        { "name": "Mk2Expansion" },
+        { "name": "Mk3Expansion" }
+    ],
     "supports": [
         { "name": "ClassicStockResources" },
         { "name": "CommunityResourcePack" },
@@ -25,10 +29,6 @@
         { "name": "TacLifeSupport"        },
         { "name": "USI-LS"                },
         { "name": "WildBlueTools"         }
-    ],
-    "suggests": [
-        { "name": "Mk2Expansion" },
-        { "name": "Mk3Expansion" }
     ],
     "install": [ {
         "find":          "DeepSky",
