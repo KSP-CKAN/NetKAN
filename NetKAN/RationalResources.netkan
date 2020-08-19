@@ -16,12 +16,22 @@
         { "name": "SCANsat" }
     ],
     "suggests": [
-        { "name": "RationalResourcesParts" },
-        { "name": "JNSQ"                   }
+        { "name": "CryoTanks"                 },
+        { "name": "JNSQ"                      },
+        { "name": "RationalResourcesParts"    },
+        { "name": "StockalikeMiningExtension" }
     ],
     "supports": [
-        { "name": "CryoTanks" },
-        { "name": "Kerbalism" },
-        { "name": "TACLS"     }
+        { "name": "BeyondHome"                },
+        { "name": "CryoTanks"                 },
+        { "name": "ClassicStockResources"     },
+        { "name": "DSEV"                      },
+        { "name": "ExtraPlanetaryLaunchpads"  },
+        { "name": "JNSQ"                      },
+        { "name": "Kerbalism"                 },
+        { "name": "OuterPlanetsMod"           },
+        { "name": "Pathfinder"                },
+        { "name": "StockalikeMiningExtension" },
+        { "name": "TACLS"                     }
     ]
 }
