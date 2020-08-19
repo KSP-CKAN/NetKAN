@@ -1,0 +1,16 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "TheBlueScoop",
+    "$kref":        "#/ckan/spacedock/2501",
+    "license":      "MIT",
+    "depends": [
+        { "name": "CommunityResourcePack" }
+    ],
+    "recommends": [
+        { "name": "NearFuturePropulsion" }
+    ],
+    "install": [ {
+        "find":       "BlueTech",
+        "install_to": "GameData"
+    } ]
+}
