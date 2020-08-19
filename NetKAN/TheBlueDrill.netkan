@@ -3,8 +3,12 @@
     "identifier":   "TheBlueDrill",
     "$kref":        "#/ckan/spacedock/2500",
     "license":      "MIT",
+    "tags": [
+        "parts",
+        "resources"
+    ],
     "depends": [
-        { "name": "CommunityResourcePack" }
+        { "name": "ModuleManager" }
     ],
     "recommends": [
         { "name": "NearFuturePropulsion" }

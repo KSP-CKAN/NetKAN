@@ -3,8 +3,12 @@
     "identifier":   "TheBlueScoop",
     "$kref":        "#/ckan/spacedock/2501",
     "license":      "MIT",
+    "tags": [
+        "parts",
+        "resources"
+    ],
     "depends": [
-        { "name": "CommunityResourcePack" }
+        { "name": "ModuleManager" }
     ],
     "recommends": [
         { "name": "NearFuturePropulsion" }
