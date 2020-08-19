@@ -1,0 +1,16 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "RadialEngineForSpacecraft",
+    "$kref":        "#/ckan/spacedock/668",
+    "license":      "MIT",
+    "tags": [
+        "parts"
+    ],
+    "depends": [
+        { "name": "ModuleManager" }
+    ],
+    "install": [ {
+        "find":       "T.G.O.L group",
+        "install_to": "GameData"
+    } ]
+}
