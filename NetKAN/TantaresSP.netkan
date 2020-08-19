@@ -1,7 +1,22 @@
 {
     "spec_version": "v1.4",
-    "identifier": "TantaresSP",
-    "$kref": "#/ckan/spacedock/2498",
-    "license": "MIT",
-    "x_via": "Automated SpaceDock CKAN submission"
+    "identifier":   "TantaresSP",
+    "$kref":        "#/ckan/spacedock/2498",
+    "ksp_version":  "1.10",
+    "license":      "MIT",
+    "tags": [
+        "parts",
+        "uncrewed"
+    ],
+    "suggests": [
+        { "name": "NeptuneCamera" }
+    ],
+    "install": [ {
+        "find":       "TantaresSP",
+        "install_to": "GameData"
+    }, {
+        "find":       "Crafts",
+        "install_to": "Ships",
+        "as":         "VAB"
+    } ]
 }
