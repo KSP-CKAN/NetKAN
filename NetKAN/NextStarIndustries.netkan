@@ -8,6 +8,10 @@
         "parts",
         "combat"
     ],
+    "conflicts": [
+        { "name": "BDArmoryWeaponsExtension"          },
+        { "name": "PEWPromethiumExperimentalWeaponry" }
+    ],
     "depends": [
         { "name": "ModuleManager"               },
         { "name": "InterstellarFuelSwitch-Core" },
