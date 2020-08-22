@@ -15,7 +15,7 @@
         "filter":     [ "Assets", "Flags", "FX", "Icons", "WanhuTools.dll", "WanhuCategory.cfg" ],
         "filter_regexp": [ ".*\\.craft$" ]
     }, {
-        "find":       "CZ-10M.craft"
+        "find":       "CZ-10M.craft",
         "find_matches_files": true,
         "install_to": "Ships/VAB"
     } ]
