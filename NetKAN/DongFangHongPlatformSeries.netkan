@@ -12,7 +12,7 @@
     "install": [ {
         "find":       "DongFangHong Platform Series",
         "install_to": "GameData",
-        "as":         "Wanhu"
+        "as":         "Wanhu",
         "filter":     [ "Assets", "Flags", "FX", "Icons", "WanhuTools.dll", "WanhuCategory.cfg" ],
         "filter_regexp": [ ".*\\.craft$" ]
     } ]
