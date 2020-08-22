@@ -13,7 +13,7 @@
         "find":       "DongFangHong Platform Series",
         "install_to": "GameData",
         "as":         "Wanhu",
-        "filter":     [ "Assets", "Flags", "FX", "Icons", "WanhuTools.dll", "WanhuCategory.cfg" ],
+        "filter":     [ "Assets", "Flags", "FX", "Icons", "Patches", "Resources", "WanhuTools.dll", "WanhuCategory.cfg" ],
         "filter_regexp": [ ".*\\.craft$" ]
     } ]
 }
