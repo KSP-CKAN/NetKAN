@@ -1,0 +1,18 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "CRE",
+    "name":         "Commonwealth Rockets - Stockalike British Rocketry",
+    "abstract":     "Parts inspired by historical British rockets",
+    "author":       "Beale",
+    "$kref":        "#/ckan/github/Tantares/CRE",
+    "license":      "CC-BY-NC-SA-4.0",
+    "tags": [
+        "parts"
+    ],
+    "depends": [
+        { "name": "ModuleManager" }
+    ],
+    "supports": [
+        { "name": "CommunityResourcePack" }
+    ]
+}
