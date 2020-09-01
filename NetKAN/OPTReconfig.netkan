@@ -16,12 +16,33 @@
         "install_to": "GameData"
     } ],
     "depends": [
-        { "name": "ModuleManager"      },
-        { "name": "OPTSpacePlaneParts" },
-        { "name": "B9PartSwitch"       }
+        { "name": "ModuleManager" },
+        { "name": "B9PartSwitch"  }
     ],
     "recommends": [
-        { "name": "CommunityResourcePack" }
+        { "name": "CommunityResourcePack" },
+        { "name": "OPTSpacePlaneMain"     }
+    ],
+    "supports": [
+        { "name": "ClassicStockResources"  },
+        { "name": "CommunityTechTree"      },
+        { "name": "ConfigurableContainers" },
+        { "name": "ConnectedLivingSpace"   },
+        { "name": "CryoEngines"            },
+        { "name": "CryoTanks"              },
+        { "name": "KerbalAtomics"          },
+        { "name": "Kerbalism"              },
+        { "name": "KIS"                    },
+        { "name": "ModularFuelTanks"       },
+        { "name": "Pathfinder"             },
+        { "name": "RationalResources"      },
+        { "name": "RealFuels"              },
+        { "name": "Snacks"                 },
+        { "name": "TacLifeSupport"         },
+        { "name": "TETRIXTechTree"         },
+        { "name": "UnKerballedStart"       },
+        { "name": "USI-LS"                 },
+        { "name": "WildBlueTools"          }
     ],
     "conflicts": [
         { "name": "OPTWBIintegrationpatch" },
