@@ -1,18 +1,23 @@
 {
-    "spec_version" : 1,
+    "spec_version" : "v1.4",
     "identifier"   : "DavonTCsystemsMod",
-    "$kref"        : "#/ckan/spacedock/363",
+    "$kref"        : "#/ckan/spacedock/2516",
+    "$vref":        "#/ckan/ksp-avc",
     "license"      : "GPL-2.0",
     "resources" : {
-        "homepage" : "https://forum.kerbalspaceprogram.com/index.php?/topic/35073-*"
+        "homepage" : "https://forum.kerbalspaceprogram.com/index.php?/topic/196642-*"
     },
+    "depends": [
+        { "name" : "ToolbarController" },
+        { "name" : "ClickThroughBlocker" }
+    ],
     "tags": [
         "plugin",
         "control"
     ],
     "install": [ {
-        "file"          : "GameData/DavonTCsystemsMod",
-        "install_to"    : "GameData",
-        "filter_regexp" : "license and source"
-    } ]
+        "find"          : "DavonTCsystemsMod",
+        "install_to"    : "GameData"
+    } ],
+    "x_netkan_epoch": 1
 }
