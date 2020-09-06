@@ -1,0 +1,20 @@
+{
+    "spec_version": "v1.16",
+    "identifier":   "NSIBDAcMissionEditorPatch",
+    "$kref":        "#/ckan/spacedock/2515",
+    "license":      "CC-BY-SA-2.0",
+    "tags": [
+        "config",
+        "combat"
+    ],
+    "depends": [
+        { "name": "ModuleManager"     },
+        { "name": "BDArmory"          },
+        { "name": "MakingHistory-DLC" }
+    ],
+    "install": [ {
+        "find":       "MissionEditorPatch.cfg",
+        "install_to": "GameData/NSIBDAcMissionEditorPatch",
+        "find_matches_files": true
+    } ]
+}
