@@ -12,7 +12,7 @@
         { "name": "SimpleAdjustableFairings" }
     ],
     "recommends": [
-        { "name": "RealPlume" }
+        { "name": "RealPlume" },
         { "name": "BluedogDB" }
     ],
     "install": [ {
