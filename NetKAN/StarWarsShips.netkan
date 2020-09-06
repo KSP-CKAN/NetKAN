@@ -1,0 +1,22 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "StarWarsShips",
+    "$kref":        "#/ckan/spacedock/1070",
+    "license":      "MIT",
+    "tags": [
+        "parts"
+    ],
+    "install": [ {
+        "find":       "KFC",
+        "install_to": "GameData"
+    }, {
+        "find":       "kns",
+        "install_to": "GameData"
+    }, {
+        "find":       "palach",
+        "install_to": "GameData"
+    }, {
+        "find":       "venator",
+        "install_to": "GameData"
+    } ]
+}
