@@ -6,5 +6,12 @@
     "tags": [
         "graphics",
         "crewed"
-    ]
+    ],
+    "depends": [
+        { "name": "BreakingGround-DLC" }
+    ],
+    "install": [ {
+        "find":       "Artemis_Suit",
+        "install_to": "GameData/Squad"
+    } ]
 }
