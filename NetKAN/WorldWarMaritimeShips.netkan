@@ -12,6 +12,6 @@
     "install": [ {
         "find":       "[WMS]",
         "install_to": "GameData",
-        "filter_regexp": [ "\.dll$" ]
+        "filter_regexp": [ "\\.dll$" ]
     } ]
 }
