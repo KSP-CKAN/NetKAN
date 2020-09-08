@@ -26,5 +26,6 @@
     "install": [ {
         "find": "LTech",
         "install_to": "GameData"
-    } ]
+    } ],
+    "x_netkan_epoch": 1
 }
