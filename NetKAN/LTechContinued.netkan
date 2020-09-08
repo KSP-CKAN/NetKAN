@@ -10,8 +10,9 @@
         "science"
     ],
     "depends": [
-        { "name" : "ToolbarController" },
-        { "name" : "SpaceTuxLibrary" },
+        { "name" : "ModuleManager"       },
+        { "name" : "ToolbarController"   },
+        { "name" : "SpaceTuxLibrary"     },
         { "name" : "ClickThroughBlocker" }
     ],
     "x_netkan_override": [
