@@ -1,9 +1,12 @@
 {
     "spec_version": "v1.4",
     "identifier":   "EnduranceSpaceExplorationSystem",
-    "$kref":        "#/ckan/spacedock/357",
+    "$kref":        "#/ckan/github/JPLRepo/Endurance",
     "$vref":        "#/ckan/ksp-avc",
     "license":      "CC-BY-NC-4.0",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/133590-*"
+    },
     "tags": [
         "plugin",
         "parts",
