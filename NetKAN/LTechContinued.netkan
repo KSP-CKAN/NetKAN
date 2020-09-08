@@ -1,0 +1,28 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "LTechContinued",
+    "$kref":        "#/ckan/spacedock/227",
+    "$vref":        "#/ckan/ksp-avc",
+    "tags": [
+        "plugin",
+        "parts",
+        "science"
+    ],
+    "depends": [
+        { "name" : "ToolbarController" },
+        { "name" : "SpaceTuxLibrary" },
+        { "name" : "ClickThroughBlocker" }
+    ],
+    "x_netkan_override": [
+        {
+            "version": "v4.1",
+            "override": {
+                "conflicts": [ { "name": "KEI" } ]
+            }
+        }
+    ],
+    "install": [ {
+        "find": "LTech",
+        "install_to": "GameData"
+    } ],
+}
