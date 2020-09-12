@@ -1,7 +1,26 @@
 {
     "spec_version": "v1.4",
-    "identifier": "HumanStuff",
-    "$kref": "#/ckan/spacedock/2524",
-    "license": "CC-4.0-BY-SA",
-    "x_via": "Automated SpaceDock CKAN submission"
+    "identifier":   "HumanStuff",
+    "$kref":        "#/ckan/spacedock/2524",
+    "license":      "CC-BY-SA-4.0",
+    "tags": [
+        "config",
+        "graphics",
+        "crewed"
+    ],
+    "depends": [
+        { "name": "TextureReplacer" }
+    ],
+    "supports": [
+        { "name": "RealSolarSystem" },
+        { "name": "RealismOverhaul" },
+        { "name": "RP-0"            }
+    ],
+    "install": [ {
+        "find":       "GameData/HumanStuff",
+        "install_to": "GameData"
+    }, {
+        "find":       "GameData/TextureReplacer",
+        "install_to": "GameData"
+    } ]
 }
