@@ -1,0 +1,17 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "ProbeControlUnlimiter",
+    "abstract":     "Replaces partial probe control with full",
+    "$kref":        "#/ckan/github/DarthPointer/ProbeControlUnlimiter",
+    "$vref":        "#/ckan/ksp-avc",
+    "license":      "MIT",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/196893-*"
+    },
+    "tags": [
+        "plugin"
+    ],
+    "depends": [
+        { "name": "ModuleManager" }
+    ]
+}
