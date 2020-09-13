@@ -8,14 +8,31 @@
         "parts",
         "crewed"
     ],
-    "install": [ {
-        "find": "DeepSky",
-        "install_to": "GameData",
-        "filter_regexp": [ ".*\\.pdb$" ]
-    } ],
     "depends": [
         { "name": "ModuleManager" },
-        { "name": "DeepSkyCore" },
-        { "name": "B9PartSwitch" }
-    ]
+        { "name": "DeepSkyCore"   },
+        { "name": "B9PartSwitch"  }
+    ],
+    "suggests": [
+        { "name": "Mk2Expansion" },
+        { "name": "Mk3Expansion" }
+    ],
+    "supports": [
+        { "name": "ClassicStockResources" },
+        { "name": "CommunityResourcePack" },
+        { "name": "CommunityTechTree"     },
+        { "name": "ConnectedLivingSpace"  },
+        { "name": "Kerbalism"             },
+        { "name": "KIS"                   },
+        { "name": "Pathfinder"            },
+        { "name": "Snacks"                },
+        { "name": "TacLifeSupport"        },
+        { "name": "USI-LS"                },
+        { "name": "WildBlueTools"         }
+    ],
+    "install": [ {
+        "find":          "DeepSky",
+        "install_to":    "GameData",
+        "filter_regexp": [ ".*\\.pdb$" ]
+    } ]
 }

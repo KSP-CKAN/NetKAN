@@ -4,8 +4,7 @@
     "name"         : "Sum Dum Heavy Industries - Service Module System",
     "abstract"     : "Service Module and accessories designed specifically for use with the stock Mk1-2 Command Pod, vaguely resembling NASA's Orion MPCV. May or may not have a convincing stockalike appearance.",
     "$kref"        : "#/ckan/github/sumghai/SDHI_ServiceModuleSystem",
-    "ksp_version_min": "1.7",
-    "ksp_version_max": "1.8",
+    "ksp_version"  : "1.10",
     "x_netkan_force_v": true,
     "license"      : "CC-BY-SA-4.0",
     "resources"    : {
