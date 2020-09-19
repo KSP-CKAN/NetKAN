@@ -6,5 +6,8 @@
     "license":      "GPL-3.0",
     "tags": [
         "plugin"
+    ],
+    "depends": [
+        { "name": "kOS" }
     ]
 }
