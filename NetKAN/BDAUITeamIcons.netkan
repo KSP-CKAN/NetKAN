@@ -1,0 +1,18 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "BDAUITeamIcons",
+    "$kref":        "#/ckan/spacedock/2536",
+    "license":      "CC-BY-NC-SA-2.0",
+    "tags": [
+        "plugin",
+        "combat"
+    ],
+    "depends": [
+        { "name": "BDArmory" }
+    ],
+    "install": [ {
+        "find":       "BDATeamIcons",
+        "install_to": "GameData",
+        "filter":     [ "Thumbs.db" ]
+    } ]
+}
