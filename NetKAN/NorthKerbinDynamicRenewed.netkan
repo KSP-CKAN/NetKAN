@@ -14,8 +14,14 @@
         { "name": "PhysicsRangeExtender" }
     ],
     "install": [ {
-        "find":       "North Kerbin Weaponry",
+        "find":       "NKDR",
         "install_to": "GameData",
-        "filter":     [ ".DS_Store" ]
+        "filter":     [ ".DS_Store", "Craft" ]
+    }, {
+        "find":       "Craft/SPH",
+        "install_to": "Ships"
+    }, {
+        "find":       "Craft/VAB",
+        "install_to": "Ships"
     } ]
 }
