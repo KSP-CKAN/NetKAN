@@ -1,0 +1,17 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "kOS-StockCamera",
+    "$kref":        "#/ckan/spacedock/2533",
+    "$vref":        "#/ckan/ksp-avc",
+    "license":      "GPL-3.0",
+    "tags": [
+        "plugin"
+    ],
+    "depends": [
+        { "name": "kOS" }
+    ],
+    "install": [ {
+        "find":       "kOS-Addons",
+        "install_to": "GameData"
+    } ]
+}
