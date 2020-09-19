@@ -1,7 +1,17 @@
 {
     "spec_version": "v1.4",
-    "identifier": "BDAUITeamIcons",
-    "$kref": "#/ckan/spacedock/2536",
-    "license": "BY-NC-SA-2.0",
-    "x_via": "Automated SpaceDock CKAN submission"
+    "identifier":   "BDAUITeamIcons",
+    "$kref":        "#/ckan/spacedock/2536",
+    "license":      "CC-BY-NC-SA-2.0",
+    "tags": [
+        "plugin",
+        "combat"
+    ],
+    "depends": [
+        "BDArmory"
+    ],
+    "install": [ {
+        "find":       "BDATeamIcons",
+        "install_to": "GameData"
+    } ]
 }
