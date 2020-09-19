@@ -8,5 +8,8 @@
         "plugin",
         "parts",
         "crewed"
+    ],
+    "depends": [
+        { "name": "ModuleManager" }
     ]
 }
