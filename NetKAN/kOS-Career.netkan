@@ -5,7 +5,8 @@
     "$vref":        "#/ckan/ksp-avc",
     "license":      "GPL-3.0",
     "tags": [
-        "plugin"
+        "plugin",
+        "career"
     ],
     "depends": [
         { "name": "kOS" }
