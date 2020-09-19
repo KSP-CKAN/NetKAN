@@ -10,6 +10,7 @@
         "crewed"
     ],
     "depends": [
-        { "name": "ModuleManager" }
+        { "name": "ModuleManager" },
+        { "name": "kOS"           }
     ]
 }
