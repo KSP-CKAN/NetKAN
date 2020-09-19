@@ -12,5 +12,8 @@
     "depends": [
         { "name": "ModuleManager" },
         { "name": "kOS"           }
+    ],
+    "suggests": [
+        { "name": "KIS" }
     ]
 }
