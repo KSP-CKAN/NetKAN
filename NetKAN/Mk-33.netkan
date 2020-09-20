@@ -13,6 +13,9 @@
         "plugin",
         "crewed"
     ],
+    "depends": [
+        { "name": "ModuleManager" }
+    ],
     "recommends": [
         { "name": "KerbalKonstructs" },
         { "name": "DockRotate" }
