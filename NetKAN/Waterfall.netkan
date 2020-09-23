@@ -1,0 +1,25 @@
+{
+    "spec_version": "v1.4",
+    "name": "Waterfall",
+    "abstract": "Framework for mesh-based engine effects",
+    "identifier":   "Waterfall",
+    "license":      "CC BY-NC-SA-4.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/196309-wip-waterfall-a-framework-for-continuous-mesh-driven-engine-effects-sept-11"
+    },
+    "tags": [
+        "plugin",
+        "library",
+        "graphics"
+    ],
+    "$kref": "#/ckan/github/ChrisAdderley/Waterfall",
+    "install": [
+        {
+            "find": "Waterfall",
+            "install_to": "GameData"
+        }
+    ],
+    "depends": [
+        { "name": "ModuleManager"}
+    ]
+}
