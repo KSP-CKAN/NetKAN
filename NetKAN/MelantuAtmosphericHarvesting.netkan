@@ -11,6 +11,9 @@
         { "name": "ModuleManager"         },
         { "name": "CommunityResourcePack" }
     ],
+    "recommends": [
+        { "name": "CryoTanks" }
+    ],
     "install": [ {
         "find":       "MelantuAtmoHarvest",
         "install_to": "GameData",
