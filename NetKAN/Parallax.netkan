@@ -3,5 +3,16 @@
     "identifier": "Parallax",
     "$kref": "#/ckan/spacedock/2539",
     "license": "CC-BY-NC-ND-4.0",
-    "x_via": "Automated SpaceDock CKAN submission"
+    "tags": [
+        "plugin",
+        "library",
+        "graphics"
+    ],
+    "recommends": [
+        { "name": "Scatterer" }
+    ],
+    "install": [{
+        "find":       "Parallax",
+        "install_to": "GameData"
+    }]
 }
