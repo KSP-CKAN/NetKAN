@@ -1,0 +1,26 @@
+{
+    "spec_version" : "v1.4",
+    "identifier"   : "smartdockingaid",
+    "name"         : "Smart Docking Aid",
+    "abstract"     : "Smart Docking Aid adds two new SAS modes to level 3 probe cores and level 3 pilots: Parallel- & Parallel+ ",
+    "author"       : [ "ValiZockt" ],
+    "license"      : "CC-BY-NC-SA-4.0",
+	"resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/197141-*"
+    },
+    "tags": [
+        "plugin",
+        "control"
+    ],
+    "$kref": "#/ckan/github/ValiZockt/SmartDockingAid",
+    "$vref": "#/ckan/ksp-avc",
+    "install": [
+        {
+            "find":       "SmartDockingAid",
+            "install_to": "GameData"
+        }
+    ],
+    "depends": [
+        { "name": "ModuleManager" }
+    ],
+}
