@@ -1,0 +1,13 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "AltimeterAutoHide",
+    "$kref":        "#/ckan/spacedock/2541",
+    "license":      "MIT",
+    "resources": {
+        "bugtracker": "https://github.com/todi/AltimeterAutoHide/issues"
+    },
+    "tags": [
+        "plugin",
+        "convenience"
+    ]
+}
