@@ -1,0 +1,38 @@
+{
+    "spec_version": "v1.16",
+    "identifier":   "Oddiseo",
+    "name":         "Oddiseo Corp Contracts",
+    "abstract":     "Missions with an emphasis on in-situ repair and rescue. KIS highly recommended.",
+    "author":       "Tattie Kerbal",
+    "$kref":        "#/ckan/github/oddiseo-ksp/oddiseo",
+    "ksp_version":  "1.10.1",
+    "license":       "GPL-3.0",
+    "release_status": "development",
+    "depends": [
+        { "name": "ContractConfigurator" }
+    ],
+    "recommends": [
+        { "name": "KIS" }
+    ],
+    "resources": {
+        "homepage": "https://github.com/oddiseo-ksp/oddiseo",
+        "license": "https://github.com/oddiseo-ksp/oddiseo/licence.md"
+    },
+    "tags": [
+        "agency",
+        "career"
+    ],
+    "install": [ {
+        "find":       "Agencies",
+        "install_to": "GameData/ContractPacks/Oddiseo"
+    }, {
+        "find":       "Missions",
+        "install_to": "GameData/ContractPacks/Oddiseo"
+    }, {
+        "find":       "Vessels",
+        "install_to": "GameData/ContractPacks/Oddiseo"
+    }, {
+        "file":       "Oddiseo.cfg",
+        "install_to": "GameData/ContractPacks/Oddiseo"
+    } ]
+}
