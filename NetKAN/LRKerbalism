@@ -1,0 +1,21 @@
+{
+    "spec_version": "v1.18",
+    "identifier":   "LRKerbalism",
+    "name":         "Kerbalism - LRTR Config",
+    "$kref":        "#/ckan/github/pehvbot/LRKerbalism",
+    "license"      : "CC-BY-NC-SA-4.0",
+    "provides": [ "Kerbalism-Config" ],
+    "conflicts": [
+        { "name": "Kerbalism-Config" }
+    ],
+    "depends": [
+        { "name": "Kerbalism" }
+    ],
+    "recommends": [
+        { "name": "LRTR" }
+    ],
+    "install": [ {
+        "find":       "KerbalismConfig",
+        "install_to": "GameData"
+    } ]
+}
