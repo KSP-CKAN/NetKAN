@@ -1,15 +1,16 @@
 {
-    "spec_version" : "v1.4",
-    "identifier"   : "LessRealThanReal",
-    "name"         : "Less Real Than Real(ism)",
-    "abstract"     : "Real Progression One without RealismOverhaul",
-    "$kref"        : "#/ckan/github/pehvbot/LRTR",
-    "ksp_version"  : "1.8.1",
-    "license"      : "CC-BY-NC-SA-4.0",
+    "spec_version": "v1.4",
+    "identifier":   "LessRealThanReal",
+    "name":         "Less Real Than Real(ism)",
+    "abstract":     "Real Progression One without RealismOverhaul",
+    "$kref":        "#/ckan/github/pehvbot/LRTR",
+    "ksp_version_min": "1.8",
+    "ksp_version_max": "1.10",
+    "license":      "CC-BY-NC-SA-4.0",
     "resources": {
         "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/189978-*"
     },
-    "tags" : [
+    "tags": [
         "plugin",
         "config",
         "parts",
@@ -22,27 +23,28 @@
         "install_to": "GameData",
         "filter":     [ ".DS_Store" ]
     } ],
-    "depends"    : [
-        { "name" : "ModuleManager"        },
-        { "name" : "RealSolarSystem"      },
-        { "name" : "CustomBarnKit"        },
-        { "name" : "RSSDateTimeFormatter" },
-        { "name" : "ContractConfigurator" },
-        { "name" : "DMagicScienceAnimate" }
+    "depends": [
+        { "name": "ModuleManager"          },
+        { "name": "RealSolarSystem"        },
+        { "name": "CustomBarnKit"          },
+        { "name": "RSSDateTimeFormatter"   },
+        { "name": "ContractConfigurator"   },
+        { "name": "DMagicScienceAnimate"   },
+        { "name": "KerbalConstructionTime" }
     ],
     "recommends" : [
-        { "name" : "ReStockPlus"            },
-        { "name" : "KSCSwitcher"            },
-        { "name" : "KerbalConstructionTime" },
-        { "name" : "Kerbalism"              }
+        { "name": "ReStockPlus"            },
+        { "name": "KSCSwitcher"            },
+        { "name": "KerbalConstructionTime" },
+        { "name": "LessRealKerbalism"      }
     ],
-    "suggests"   : [
-        { "name" : "KerbalAlarmClock" },
-        { "name" : "KRASH"            },
-        { "name" : "ScrapYard"        },
-        { "name" : "OhScrap"          }
+    "suggests": [
+        { "name": "KerbalAlarmClock" },
+        { "name": "KRASH"            },
+        { "name": "ScrapYard"        },
+        { "name": "OhScrap"          }
     ],
-    "conflicts"  : [
-        { "name" : "RealismOverhaul" }
+    "conflicts": [
+        { "name": "RealismOverhaul" }
     ]
 }
