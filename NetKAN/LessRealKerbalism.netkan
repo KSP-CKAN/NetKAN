@@ -1,9 +1,9 @@
 {
     "spec_version": "v1.18",
-    "identifier":   "LRKerbalism",
+    "identifier":   "LessRealKerbalism",
     "name":         "Kerbalism - LRTR Config",
     "$kref":        "#/ckan/github/pehvbot/LRKerbalism",
-    "license"      : "CC-BY-NC-SA-4.0",
+    "license":      "CC-BY-NC-SA-4.0",
     "provides": [ "Kerbalism-Config" ],
     "conflicts": [
         { "name": "Kerbalism-Config" }
@@ -12,7 +12,7 @@
         { "name": "Kerbalism" }
     ],
     "recommends": [
-        { "name": "LRTR" }
+        { "name": "LessRealThanReal" }
     ],
     "install": [ {
         "find":       "KerbalismConfig",
