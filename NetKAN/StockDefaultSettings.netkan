@@ -1,0 +1,34 @@
+{
+  "license": "LGPL-3.0",
+  "identifier": "StockDefaultSettings",
+  "x_via": "Automated Linuxgurugamer CKAN script",
+  "$kref": "#/ckan/spacedock/2549",
+  "$vref": "#/ckan/ksp-avc",
+  "resources": {
+    "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/197500-18x-19x-110x-stock-default-settings/",
+    "repository": "https://github.com/linuxgurugamer/StockDefaultSettings/"
+  },
+  "depends": [
+    {
+      "name": "ToolbarController"
+    },
+    {
+      "name": "ClickThroughBlocker"
+    },
+    {
+      "name": "SpaceTuxLibrary"
+    }
+  ],
+  "tags": [
+    "config",
+    "plugin",
+    "convenience"
+  ],
+  "install": [
+    {
+      "find": "StockDefaultSettings",
+      "install_to": "GameData"
+    }
+  ],
+  "spec_version": "v1.4"
+}
