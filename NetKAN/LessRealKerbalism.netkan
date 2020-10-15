@@ -3,13 +3,21 @@
     "identifier":   "LessRealKerbalism",
     "name":         "Kerbalism - LRTR Config",
     "$kref":        "#/ckan/github/pehvbot/LRKerbalism",
+    "$vref":        "#/ckan/ksp-avc",
     "license":      "CC-BY-NC-SA-4.0",
+    "tags": [
+        "config",
+        "crewed",
+        "science",
+        "parts"
+    ],
     "provides": [ "Kerbalism-Config" ],
     "conflicts": [
         { "name": "Kerbalism-Config" }
     ],
     "depends": [
-        { "name": "Kerbalism" }
+        { "name": "ModuleManager" },
+        { "name": "Kerbalism"     }
     ],
     "recommends": [
         { "name": "LessRealThanReal" }
