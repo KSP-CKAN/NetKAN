@@ -19,22 +19,25 @@
         { "name": "ContractConfigurator" }
     ],
     "suggests": [
-        { "name": "NearFutureProps" },
-        { "name": "SCANsat"         },
-        { "name": "DockRotate"      }
+        { "name": "NearFutureProps"        },
+        { "name": "SCANsat"                },
+        { "name": "DockRotate"             },
+        { "name": "EngineIgnitorReignited" },
+        { "name": "PersistentRotation"     },
+        { "name": "MandatoryRCS"           },
+        { "name": "JNSQ"                   }
     ],
     "supports": [
-        { "name": "HullcamVDS"             },
-        { "name": "RealPlume"              },
-        { "name": "RemoteTech"             },
-        { "name": "TweakScale"             },
-        { "name": "HullcamVDSContinued"    },
-        { "name": "KIS"                    },
-        { "name": "CommunityTechTree"      },
-        { "name": "RealChute"              },
-        { "name": "USI-LS"                 },
-        { "name": "TACLS"                  },
-        { "name": "EngineIgnitorReignited" }
+        { "name": "HullcamVDS"          },
+        { "name": "RealPlume"           },
+        { "name": "RemoteTech"          },
+        { "name": "TweakScale"          },
+        { "name": "HullcamVDSContinued" },
+        { "name": "KIS"                 },
+        { "name": "CommunityTechTree"   },
+        { "name": "RealChute"           },
+        { "name": "USI-LS"              },
+        { "name": "TACLS"               }
     ],
     "install": [ {
         "find":       "Bluedog_DB",
