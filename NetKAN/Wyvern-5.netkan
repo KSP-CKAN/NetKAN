@@ -1,0 +1,28 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "Wyvern-5",
+    "author":       [ "zlsa", "StoneBlue" ],
+    "$kref":        "#/ckan/spacedock/2556",
+    "ksp_version_min": "1.4",
+    "license":      "CC-BY-4.0",
+    "tags": [
+        "parts",
+        "crewed"
+    ],
+    "depends": [
+        { "name": "B9PartSwitch"      },
+        { "name": "RasterPropMonitor" }
+    ],
+    "suggests": [
+        { "name": "ConnectedLivingSpace" },
+        { "name": "IndicatorLights"      },
+        { "name": "CommunityTechTree"    },
+        { "name": "RealPlume"            },
+        { "name": "VenStockRevamp"       },
+        { "name": "FAR"                  }
+    ],
+    "install": [ {
+        "find":       "VenStockRevamp",
+        "install_to": "GameData"
+    } ]
+}
