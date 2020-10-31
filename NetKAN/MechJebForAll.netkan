@@ -4,6 +4,7 @@
     "name":         "MechJeb and Engineer for all!",
     "$kref":        "#/ckan/spacedock/1854",
     "$vref":        "#/ckan/ksp-avc",
+    "ksp_version":  "any",
     "license":      "GPL-3.0",
     "tags": [
         "config",
