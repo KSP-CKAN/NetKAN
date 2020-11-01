@@ -1,0 +1,33 @@
+{
+  "license": "unknown",
+  "identifier": "SteamGaugesRecalibrated",
+  "x_via": "Automated Linuxgurugamer CKAN script",
+  "$kref": "#/ckan/spacedock/2550",
+  "$vref": "#/ckan/ksp-avc",
+  "resources": {
+    "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/197605-18x-19x-110x-steam-gauges-recalibrated/",
+    "repository": "https://github.com/linuxgurugamer/SteamGaugesRecalibrated"
+  },
+  "depends": [
+    {
+      "name": "ToolbarController"
+    },
+    {
+      "name": "ClickThroughBlocker"
+    },
+    {
+      "name": "SpaceTuxLibrary"
+    }
+  ],
+  "tags": [
+    "plugin",
+    "information"
+  ],
+  "install": [
+    {
+      "find": "SteamGauges",
+      "install_to": "GameData"
+    }
+  ],
+  "spec_version": "v1.4"
+}
