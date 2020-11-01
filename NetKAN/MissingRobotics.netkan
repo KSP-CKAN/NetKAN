@@ -1,0 +1,16 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "MissingRobotics",
+    "$kref":        "#/ckan/spacedock/2557",
+    "license":      "MIT",
+    "tags": [
+        "parts"
+    ],
+    "depends": [
+        { "name": "BreakingGround-DLC" }
+    ],
+    "install": [ {
+        "find":       "Missing_robotics",
+        "install_to": "GameData"
+    } ]
+}
