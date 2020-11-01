@@ -3,5 +3,14 @@
     "identifier": "CapsuleCorpKerbalKolonizationProgram",
     "$kref": "#/ckan/spacedock/2558",
     "license": "MIT",
+      "install": [ {
+        "find":"CapsuleCorp",
+        "install_to": "GameData"
+    } ],
+    "tags": [
+        "config",
+        "parts",
+        "crewed"
+    ],
     "x_via": "Automated SpaceDock CKAN submission"
 }
