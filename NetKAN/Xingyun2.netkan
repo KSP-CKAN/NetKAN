@@ -1,0 +1,14 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "Xingyun2",
+    "$kref":        "#/ckan/spacedock/2559",
+    "license":      "CC-BY-SA-4.0",
+    "tags": [
+        "parts",
+        "uncrewed"
+    ],
+    "install": [ {
+        "find":       "Xingyun-2",
+        "install_to": "GameData"
+    } ]
+}
