@@ -8,28 +8,8 @@
         "graphics"
     ],
     "install": [ {
-        "find_regexp":        "GalaxyTex_PositiveX.png",
-        "install_to":         "GameData/TextureReplacer/Default",
-        "find_matches_files": true
-    }, {
-        "find_regexp":        "GalaxyTex_PositiveY.png",
-        "install_to":         "GameData/TextureReplacer/Default",
-        "find_matches_files": true
-    }, {
-        "find_regexp":        "GalaxyTex_PositiveZ.png",
-        "install_to":         "GameData/TextureReplacer/Default",
-        "find_matches_files": true
-    }, {
-        "find_regexp":        "GalaxyTex_NegativeX.png",
-        "install_to":         "GameData/TextureReplacer/Default",
-        "find_matches_files": true
-    }, {
-        "find_regexp":        "GalaxyTex_NegativeY.png",
-        "install_to":         "GameData/TextureReplacer/Default",
-        "find_matches_files": true
-    }, {
-        "find_regexp":        "GalaxyTex_NegativeZ.png",
-        "install_to":         "GameData/TextureReplacer/Default",
+        "find_regexp":        ".*\\.png",
+        "install_to":         "GameData/OutOfGalaxySkybox/TextureReplacer/Default",
         "find_matches_files": true
     } ],
     "depends": [

@@ -9,19 +9,19 @@
     "install": [
         {
             "file"       : "SteamSuitCommand",
-            "install_to" : "GameData/TextureReplacer/suits"
+            "install_to" : "GameData/SteampunkColorCodedSpaceSuits/TextureReplacer/Suits"
         },
         {
             "file"       : "SteamSuitEngineer",
-            "install_to" : "GameData/TextureReplacer/suits"
+            "install_to" : "GameData/SteampunkColorCodedSpaceSuits/TextureReplacer/Suits"
         },
         {
             "file"       : "SteamSuitScience",
-            "install_to" : "GameData/TextureReplacer/suits"
+            "install_to" : "GameData/SteampunkColorCodedSpaceSuits/TextureReplacer/Suits"
         },
         {
             "file"       : "SteampunkStarTrekSuits.cfg",
-            "install_to" : "GameData/TextureReplacer"
+            "install_to" : "GameData/SteampunkColorCodedSpaceSuits/TextureReplacer"
         }
     ]
 }
