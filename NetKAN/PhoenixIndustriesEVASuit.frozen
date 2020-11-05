@@ -14,7 +14,7 @@
     "install": [
         {
             "find": "Phoenix_Industries_EVA",
-            "install_to": "GameData/TextureReplacer/Suits",
+            "install_to": "GameData/Phoenix_Industries_EVA/TextureReplacer/Suits",
             "filter": [ "Poster.jpg", "screenshot0.png" ]
         }
     ],

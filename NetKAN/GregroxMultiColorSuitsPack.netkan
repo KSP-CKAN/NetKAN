@@ -13,9 +13,9 @@
     ],
     "install": [ {
         "find":       "GameData/TextureReplacer",
-        "install_to": "GameData"
+        "install_to": "GameData/GregroxMultiColorSuitsPack"
     }, {
         "find":       "Extras/TextureReplacer",
-        "install_to": "GameData"
+        "install_to": "GameData/GregroxMultiColorSuitsPack"
     } ]
 }
