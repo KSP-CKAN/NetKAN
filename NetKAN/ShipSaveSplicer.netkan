@@ -6,5 +6,15 @@
     "license":      "GPL-3.0",
     "tags": [
         "plugin"
+    ],
+    "depends": [
+        { "name": "ToolbarController"   },
+        { "name" : "ClickThroughBlocker" }
+    ],
+    "install": [
+        {
+            "find"       : "GameData/ShipSaveSplicer",
+            "install_to" : "GameData/"
+        }
     ]
 }
