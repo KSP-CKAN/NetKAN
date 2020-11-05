@@ -14,7 +14,7 @@
     "install": [
         {
             "find"       : "GameData/ShipSaveSplicer",
-            "install_to" : "GameData/"
+            "install_to" : "GameData"
         }
     ]
 }
