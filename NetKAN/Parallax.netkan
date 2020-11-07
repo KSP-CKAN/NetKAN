@@ -8,6 +8,10 @@
         "library",
         "graphics"
     ],
+    "depends": [
+        { "name": "Kopernicus" },
+        { "name": "Parallax-Textures" }
+    ],
     "recommends": [
         { "name": "Scatterer" }
     ],
