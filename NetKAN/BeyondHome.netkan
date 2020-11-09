@@ -36,7 +36,8 @@
         { "name": "Scatterer"                       }
     ],
     "provides": [
-        "EnvironmentalVisualEnhancements-Config"
+        "EnvironmentalVisualEnhancements-Config",
+        "Parallax-Textures"
     ],
     "install": [ {
         "find":       "BeyondHome",
