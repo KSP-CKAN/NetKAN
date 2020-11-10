@@ -1,0 +1,26 @@
+{
+  "license": "GPL-3.0",
+  "identifier": "ModuleAnimGenericResourceUsage",
+  "x_via": "Automated Linuxgurugamer CKAN script",
+  "$kref": "#/ckan/github/linuxgurugamer/ModuleAnimGenericResourceUsage/releases",
+  "$vref": "#/ckan/ksp-avc",
+  "resources": {
+    "repository": "https://github.com/linuxgurugamer/ModuleAnimGenericResourceUsage"
+  },
+  "depends": [
+    {
+      "name": "SpaceTuxLibrary"
+    }
+  ],
+  "tags": [
+    "library",
+    "plugin"
+  ],
+  "install": [
+    {
+      "find": "ModuleAnimGenericResourceUsage",
+      "install_to": "GameData"
+    }
+  ],
+  "spec_version": "v1.4"
+}
