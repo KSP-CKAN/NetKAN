@@ -1,0 +1,33 @@
+{
+  "license": "unknown",
+  "identifier": "KSPDataDump",
+  "x_via": "Automated Linuxgurugamer CKAN script",
+  "$kref": "#/ckan/spacedock/2566",
+  "$vref": "#/ckan/ksp-avc",
+  "resources": {
+    "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/198039-18x-19x-110x-ksp_datadump/",
+    "repository": "https://github.com/linuxgurugamer/KSP_DataDump"
+  },
+  "depends": [
+    {
+      "name": "ToolbarController"
+    },
+    {
+      "name": "ClickThroughBlocker"
+    },
+    {
+      "name": "SpaceTuxLibrary"
+    }
+  ],
+  "tags": [
+    "app",
+    "information"
+  ],
+  "install": [
+    {
+      "find": "KSP_DataDump",
+      "install_to": "GameData"
+    }
+  ],
+  "spec_version": "v1.4"
+}
