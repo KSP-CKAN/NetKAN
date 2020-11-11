@@ -1,8 +1,11 @@
 {
   "license": "GPL-3.0",
   "identifier": "ModuleAnimGenericResourceUsage",
+  "name": "ModuleAnimGenericResourceUsage",
+  "abstract": "Library used to make animations use power",
+  "author" : "linuxgurugamer",
   "x_via": "Automated Linuxgurugamer CKAN script",
-  "$kref": "#/ckan/github/linuxgurugamer/ModuleAnimGenericResourceUsage/releases",
+  "$kref": "#/ckan/github/linuxgurugamer/ModuleAnimGenericResourceUsage",
   "$vref": "#/ckan/ksp-avc",
   "resources": {
     "repository": "https://github.com/linuxgurugamer/ModuleAnimGenericResourceUsage"
