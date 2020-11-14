@@ -1,0 +1,19 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "HawkSpaceCenter",
+    "$kref":        "#/ckan/spacedock/2569",
+    "license":      "MIT",
+    "tags": [
+        "config",
+        "buildings"
+    ],
+    "depends": [
+        { "name": "KerbalKonstructs"     },
+        { "name": "StockalikeStructures" },
+        { "name": "TundraSpaceCenter"    }
+    ],
+    "install": [ {
+        "find":       "GameData/Hawk Space Center",
+        "install_to": "GameData"
+    } ]
+}
