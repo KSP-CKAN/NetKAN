@@ -9,7 +9,6 @@
     ],
     "depends": [
         { "name": "ModuleManager"          },
-        { "name": "SpaceShuttleSystem"     },
         { "name": "ASETProps"              },
         { "name": "RasterPropMonitor-Core" }
     ],
