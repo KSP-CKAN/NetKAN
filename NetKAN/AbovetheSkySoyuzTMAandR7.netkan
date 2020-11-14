@@ -14,10 +14,10 @@
         { "name": "RasterPropMonitor-Core" }
     ],
     "install": [ {
-        "file":       "DECQ_R7",
+        "find":       "DECQ_R7",
         "install_to": "GameData"
     }, {
-        "file":       "SOYUZ_SPACECRAFT",
+        "find":       "SOYUZ_SPACECRAFT",
         "install_to": "GameData"
     }, {
         "find":       "Versioning",
