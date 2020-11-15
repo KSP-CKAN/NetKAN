@@ -5,7 +5,7 @@
 	"name":         	"Kiwi Tech Tree Overhaul",
     "$kref":        	"#/ckan/spacedock/2567",
     "ksp_version_min":  "1.9.1",
-	"ksp_version_min":  "1.10.1",
+	"ksp_version_max":  "1.10.1",
 	"release_status" : 	"stable",
     "license":      	"MIT",
     "tags": [
@@ -22,7 +22,7 @@
         { "name": "BetterSRBs" },
 		{ "name": "CustomBarnKit" },
 		{ "name": "RationalResources" },
-		{ "name": "NearFutureSolar" },
+		{ "name": "NearFutureSolar" }
     ],
     "suggests": [
         
@@ -85,6 +85,6 @@
     ],
     "install": [ {
         "find":          "KiwiTechTree",
-        "install_to":    "GameData",
+        "install_to":    "GameData"
     } ]
 }
