@@ -1,0 +1,86 @@
+{
+    "spec_version":     "v1.4",
+    "identifier":       "KiwiTechTree",
+    "abstract":         "Planes/Probes Before Crew Style Tech Tree which also adds part upgrades using B9PS to many stock and supported mods.",
+    "name":             "Kiwi Tech Tree Overhaul",
+    "$kref":            "#/ckan/spacedock/2567",
+    "$vref": 			"#/ckan/ksp-avc",
+    "release_status":   "stable",
+    "license":          "MIT",
+    "tags": [
+        "tech-tree",
+        "career"
+    ],
+    "depends": [
+        { "name": "ModuleManager"     },
+        { "name": "CommunityTechTree" },
+        { "name": "B9PartSwitch"      }
+    ],
+    "recommends": [
+        { "name": "CommunityResourcePack" },
+        { "name": "BetterSRBs"            },
+        { "name": "CustomBarnKit"         },
+        { "name": "RationalResources"     },
+        { "name": "NearFutureSolar"       }
+    ],
+    "suggests": [        
+        { "name": "Kerbalism"              },
+        { "name": "EngineIgnitorReignited" },
+        { "name": "KerbalConstructionTime" },
+        { "name": "StageRecovery"          }
+    ],
+    "supports": [
+        { "name": "AirlineKuisine"                    },
+        { "name": "AirplanePlus"                      },
+        { "name": "BeamedPowerPlugin"                 },
+        { "name": "BonVoyage"                         },
+        { "name": "Bumblebee"                         },
+        { "name": "CRE"                               },
+        { "name": "CryoEngines"                       },
+        { "name": "DecouplerShroud"                   },
+        { "name": "DeepSpaceSurfaceHabitatUnitPack"   },
+        { "name": "DeepFreeze"                        },
+        { "name": "DMagicOrbitalScience"              },
+        { "name": "DodoLabsStockalikeElectron"        },
+        { "name": "DunaDirect"                        },
+        { "name": "ExtraPlanetaryLaunchpads"          },
+        { "name": "Grounded"                          },
+        { "name": "HeatControl"                       },
+        { "name": "KOOSE"                             },
+        { "name": "kOS"                               },
+        { "name": "LTechContinued"                    },
+        { "name": "MakingAlternateHistory"            },
+        { "name": "MandatoryRCS"                      },
+        { "name": "TheMartianforKSP"                  },
+        { "name": "NearFutureSpacecraft"              },
+        { "name": "NearFuturePropulsion"              },
+        { "name": "NearFutureLaunchVehicles"          },
+        { "name": "NearFutureExploration"             },
+        { "name": "NearFutureElectrical"              },
+        { "name": "NearFutureConstruction"            },
+        { "name": "NearFutureAeronautics"             },
+        { "name": "NearFutureElectrical-DecayingRTGs" },
+        { "name": "RealPlume-StockConfigs"            },
+        { "name": "SCANsat"                           },
+        { "name": "SciencePancake"                    },
+        { "name": "SmartParts"                        },
+        { "name": "SmartDockingAid"                   },
+        { "name": "StarLinkSatellitePack"             },
+        { "name": "StockalikeMiningExtension"         },
+        { "name": "StockishProjectOrion"              },
+        { "name": "UniversalStorage2"                 },
+        { "name": "Xingyun2"                          }
+    ],
+    "conflicts": [
+        { "name": "TweakScale"                             },
+        { "name": "RealisticPowerDraw"                     },
+        { "name": "NearFutureSpacecraft-OrbitalLFOEngines" },		 
+        { "name": "NearFuturePropulsion-XenonHETs"         },
+        { "name": "CryoEngines-LFO"                        },
+        { "name": "KSPInterstellarExtended"                }
+    ],
+    "install": [ {
+        "find":          "KiwiTechTree",
+        "install_to":    "GameData"
+    } ]
+}
