@@ -1,12 +1,10 @@
 {
     "spec_version": "v1.4",
     "identifier":   "RocketSoundEnhancement",
+    "abstract":     "Plugin for modders to add more detailed sound effects to the game, featuring a robust Layering System for use of multiple sounds",
     "$kref":        "#/ckan/github/ensou04/RocketSoundEnhancement/asset_match/Plugin",
     "$vref":        "#/ckan/ksp-avc",
     "license":      "GPL-3.0",
-    "resources": {
-        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/179579-*"
-    },
     "tags": [
         "plugin",
         "sound"
