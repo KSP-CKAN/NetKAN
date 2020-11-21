@@ -1,7 +1,20 @@
 {
     "spec_version": "v1.4",
-    "identifier": "KerbinSideRemasteredGAP",
-    "$kref": "#/ckan/spacedock/2573",
-    "license": "MIT",
-    "x_via": "Automated SpaceDock CKAN submission"
+    "identifier":   "KerbinSideRemasteredGAP",
+    "$kref":        "#/ckan/spacedock/2573",
+    "license":      "MIT",
+    "tags": [
+        "config",
+        "career"
+    ],
+    "depends": [
+        { "name": "ModuleManager"        },
+        { "name": "KerbinSideRemastered" },
+        { "name": "KerbalKonstructs"     },
+        { "name": "ContractConfigurator" }
+    ],
+    "install": [ {
+        "find":       "ContractPacks",
+        "install_to": "GameData"
+    } ]
 }
