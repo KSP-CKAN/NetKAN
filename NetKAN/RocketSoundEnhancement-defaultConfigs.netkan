@@ -1,0 +1,24 @@
+{
+  "license": "CC-BY-NC-SA-4.0",
+  "identifier": "RocketSoundEnhancement-defaultConfigs",
+  "x_via": "Automated Linuxgurugamer CKAN script",
+  "$kref": "#/ckan/github/ensou04/RocketSoundEnhancement",
+  "$vref": "#/ckan/ksp-avc",
+  "resources": {
+    "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/179579-wip110x-rocket-sound-enhancement-v051-unmuted/",
+    "repository": "https://github.com/ensou04/RocketSoundEnhancement"
+  },
+  "depends": [
+    { "name": "RocketSoundEnhancement" }
+  ],
+  "tags": [
+    "sound"
+  ],
+  "install": [
+    {
+      "find": "RocketSoundEnhancement",
+      "install_to": "GameData"
+    }
+  ],
+  "spec_version": "v1.4"
+}
