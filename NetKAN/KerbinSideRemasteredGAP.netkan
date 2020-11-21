@@ -13,6 +13,10 @@
         { "name": "KerbalKonstructs"     },
         { "name": "ContractConfigurator" }
     ],
+    "suggests": [
+        { "name": "NavUtilitiesContinued"    },
+        { "name": "KramaxAutopilotContinued" }
+    ],
     "install": [ {
         "find":       "ContractPacks",
         "install_to": "GameData"
