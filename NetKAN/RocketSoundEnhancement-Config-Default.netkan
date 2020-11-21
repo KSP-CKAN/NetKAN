@@ -1,0 +1,21 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "RocketSoundEnhancement-Config-Default",
+    "name":         "Rocket Sound Enhancment - Default Configs",
+    "abstract":     "RSE sounds for stock engines, wheels, decouplers, and more",
+    "$kref":        "#/ckan/github/ensou04/RocketSoundEnhancement/asset_match/Configs",
+    "$vref":        "#/ckan/ksp-avc",
+    "license":      "CC-BY-NC-SA-4.0",
+    "tags": [
+        "config",
+        "sound"
+    ],
+    "depends": [
+        { "name": "ModuleManager"          },
+        { "name": "RocketSoundEnhancement" }
+    ],
+    "install": [ {
+        "find":       "RocketSoundEnhancement",
+        "install_to": "GameData"
+    } ]
+}
