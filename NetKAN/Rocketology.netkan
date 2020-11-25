@@ -1,7 +1,14 @@
 {
     "spec_version": "v1.4",
-    "identifier": "Rocketology",
-    "$kref": "#/ckan/spacedock/2578",
-    "license": "MIT",
-    "x_via": "Automated SpaceDock CKAN submission"
+    "identifier":   "Rocketology",
+    "$kref":        "#/ckan/spacedock/2578",
+    "license":      "MIT",
+    "tags": [
+        "config",
+        "career",
+        "flags"
+    ],
+    "depends": [
+        { "name": "ModuleManager" }
+    ]
 }
