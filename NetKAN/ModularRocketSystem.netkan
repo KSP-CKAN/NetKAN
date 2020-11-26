@@ -8,19 +8,19 @@
         "parts"
     ],
     "supports": [
-        { "name": "SpaceY-Lifters" },
-        { "name": "ColorCodedCans" },
-        { "name": "ColorfulFuelLines" },
-        { "name": "FuelTanksPlus" },
+        { "name": "SpaceY-Lifters"                    },
+        { "name": "ColorCodedCans"                    },
+        { "name": "ColorfulFuelLines"                 },
+        { "name": "FuelTanksPlus"                     },
         { "name": "LithobrakeExplorationTechnologies" },
-        { "name": "TweakScale" },
-        { "name": "FerramAerospaceResearch" },
-        { "name": "KSP-AVC" },
-        { "name": "RemoteTech" },
-        { "name": "EngineIgnitorReignited" },
-        { "name": "CommunityTechTree" },
-        { "name": "HotRockets" },
-        { "name": "ConnectedLivingSpace" }
+        { "name": "TweakScale"                        },
+        { "name": "FerramAerospaceResearch"           },
+        { "name": "KSP-AVC"                           },
+        { "name": "RemoteTech"                        },
+        { "name": "EngineIgnitorReignited"            },
+        { "name": "CommunityTechTree"                 },
+        { "name": "HotRockets"                        },
+        { "name": "ConnectedLivingSpace"              }
     ],
     "conflicts": [
         { "name": "ModularRocketSystemsLITE" }
@@ -30,6 +30,10 @@
     ],
     "install": [ {
         "file":       "ModRocketSys",
-        "install_to": "GameData"
+        "install_to": "GameData",
+        "filter_regexp": [ "\\.craft$" ]
+    }, {
+        "find_regexp": "\\.craft$",
+        "install_to":  "Ships/SPH"
     } ]
 }
