@@ -1,0 +1,20 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "MinmusSpaceCenter",
+    "$kref":        "#/ckan/spacedock/2585",
+    "license":      "MIT",
+    "tags": [
+        "config",
+        "buildings"
+    ],
+    "depends": [
+        { "name": "KerbalKonstructs"     },
+        { "name": "StockalikeStructures" },
+        { "name": "TundraSpaceCenter"    },
+        { "name": "KerbinSideRemastered" }
+    ],
+    "recommends": [
+        { "name": "KSCExtended"       },
+        { "name": "TundraExploration" }
+    ]
+}
