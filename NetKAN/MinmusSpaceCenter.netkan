@@ -3,6 +3,7 @@
     "identifier":   "MinmusSpaceCenter",
     "$kref":        "#/ckan/spacedock/2585",
     "license":      "MIT",
+    "ksp_version_min": "1.8",
     "tags": [
         "config",
         "buildings"
