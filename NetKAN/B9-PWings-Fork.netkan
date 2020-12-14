@@ -18,7 +18,8 @@
         "parts"
     ],
     "depends": [
-        { "name": "ModuleManager" }
+        { "name": "ModuleManager" },
+        { "name": "FAR"           }
     ],
     "conflicts": [
         { "name": "B9AerospaceProceduralParts" }
