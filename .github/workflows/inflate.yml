@@ -19,7 +19,7 @@ jobs:
             - name: Cache downloads
               uses: actions/cache@v2
               with:
-                  path: /cache
+                  path: .cache
                   key: downloads-${{ github.run_id }}
                   restore-keys: |
                       downloads-
