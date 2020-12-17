@@ -5,13 +5,16 @@
     "abstract"     : "Stockalike N1, Soyuz and more!",
     "author"       : "Beale",
     "$kref"        : "#/ckan/github/Tantares/TantaresLV",
-    "ksp_version"  : "1.10",
+    "ksp_version"  : "1.11",
     "license"      : "CC-BY-NC-SA-4.0",
     "resources": {
         "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/73686-Tantares"
     },
     "tags": [
         "parts"
+    ],
+    "depends": [
+        { "name": "ModuleManager" }
     ],
     "recommends": [
         { "name": "NewTantares" }
