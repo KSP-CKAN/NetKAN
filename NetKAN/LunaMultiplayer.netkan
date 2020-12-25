@@ -3,7 +3,6 @@
     "identifier":   "LunaMultiplayer",
     "name":         "Luna Multiplayer Client",
     "$kref":        "#/ckan/github/LunaMultiplayer/LunaMultiplayer/asset_match/^LunaMultiplayer-Release\\.zip$",
-    "$vref":        "#/ckan/ksp-avc",
     "license":      "MIT",
     "tags": [
         "plugin"
@@ -11,5 +10,9 @@
     "resources": {
         "homepage": "https://lunamultiplayer.com/",
         "manual":   "https://github.com/LunaMultiplayer/LunaMultiplayer/wiki"
-    }
+    },
+    "x_netkan_override": [ {
+        "version": "0.27.0",
+        "override": { "ksp_version": "1.11" }
+    } ]
 }
