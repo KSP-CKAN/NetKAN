@@ -3,6 +3,7 @@
     "identifier":   "BeamedPowerPlugin-Realistic",
     "name":         "Beamed Power Standalone - Realistic Wavelengths",
     "$kref":        "#/ckan/spacedock/2492",
+    "$vref":        "#/ckan/ksp-avc",
     "license":      "public-domain",
     "tags": [
         "plugin",
