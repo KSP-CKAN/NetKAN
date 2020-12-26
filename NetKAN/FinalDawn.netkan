@@ -1,7 +1,26 @@
 {
     "spec_version": "v1.4",
-    "identifier": "FinalDawn",
-    "$kref": "#/ckan/spacedock/2597",
-    "license": "CC-BY-NC-ND-4.0",
-    "x_via": "Automated SpaceDock CKAN submission"
+    "identifier":   "FinalDawn",
+    "$kref":        "#/ckan/spacedock/2597",
+    "license":      "CC-BY-NC-ND-4.0",
+    "tags": [
+        "planet-pack"
+    ],
+    "provides": [
+        "Scatterer-sunflare"
+    ],
+    "conflicts": [
+        { "name": "Scatterer-sunflare" }
+    ],
+    "depends": [
+        { "name": "ModuleManager" },
+        { "name": "Kopernicus"    }
+    ],
+    "recommends": [
+        { "name": "SigmaReplacements-SkyBox" }
+    ],
+    "suggests": [
+        { "name": "Scatterer"                       },
+        { "name": "EnvironmentalVisualEnhancements" }
+    ]
 }
