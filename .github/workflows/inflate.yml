@@ -16,6 +16,11 @@ jobs:
               uses: actions/checkout@v2
               with:
                   fetch-depth: 0
+            - name: Get CKAN-meta repo
+              uses: actions/checkout@v2
+              with:
+                  repository: KSP-CKAN/CKAN-meta
+                  path: .CKAN-meta
             - name: Cache downloads
               uses: actions/cache@v2
               with:
@@ -31,4 +36,5 @@ jobs:
                   GITHUB_EVENT_BEFORE: ${{ github.event.before }}
               with:
                   source: commits
+                  diff meta root: .CKAN-meta
                   pull request body: ${{ github.event.pull_request.body }}
