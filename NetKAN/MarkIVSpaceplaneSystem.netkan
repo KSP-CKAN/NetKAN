@@ -1,31 +1,8 @@
 {
-    "spec_version"   : "v1.4",
-    "identifier"     : "MarkIVSpaceplaneSystem",
-    "$kref"          : "#/ckan/spacedock/809",
-    "$vref"          : "#/ckan/ksp-avc/MarkIVSystem.version",
-    "release_status" : "stable",
-    "license"        : "CC-BY-NC-SA-4.0",
+    "spec_version"  : "v1.4",
+    "identifier"    : "MarkIVSpaceplaneSystem",
+    "$kref"         : "#/ckan/netkan/https://github.com/post-kerbin-mining-corporation/MkIVSystem/raw/master/CKAN/MarkIVSpaceplaneSystem.netkan",
     "tags": [
         "parts"
-    ],
-    "depends": [
-        { "name" : "ModuleManager" },
-        { "name" : "B9PartSwitch" },
-        { "name" : "DeployableEngines" },
-        { "name" : "NearFutureProps" }
-    ],
-    "suggests": [
-        { "name" : "CommunityTechTree" },
-        { "name" : "RasterPropMonitor" }
-    ],
-    "supports": [
-        { "name" : "ConnectedLivingSpace" },
-        { "name" : "FerramAerospaceResearch" }
-    ],
-    "install": [
-        {
-            "find"       : "MarkIVSystem",
-            "install_to" : "GameData"
-        }
     ]
 }
