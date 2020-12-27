@@ -1,0 +1,27 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "FinalDawn",
+    "$kref":        "#/ckan/spacedock/2597",
+    "license":      "CC-BY-NC-ND-4.0",
+    "tags": [
+        "planet-pack"
+    ],
+    "provides": [
+        "Scatterer-sunflare"
+    ],
+    "conflicts": [
+        { "name": "Scatterer-sunflare" }
+    ],
+    "depends": [
+        { "name": "ModuleManager" },
+        { "name": "Kopernicus"    }
+    ],
+    "recommends": [
+        { "name": "SigmaReplacements-SkyBox" },
+        { "name": "TiltUnlocker"             }
+    ],
+    "suggests": [
+        { "name": "Scatterer"                       },
+        { "name": "EnvironmentalVisualEnhancements" }
+    ]
+}
