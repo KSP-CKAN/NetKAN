@@ -7,7 +7,7 @@
     "$kref"            : "#/ckan/spacedock/127",
     "$vref"            : "#/ckan/ksp-avc",
     "x_netkan_force_v" : true,
-    "license"          : "WTFPL",
+    "license"          : [ "GPL-2.0", "restricted" ],
     "release_status"   : "stable",
     "resources": {
         "homepage":   "https://forum.kerbalspaceprogram.com/index.php?/topic/179030-*",
