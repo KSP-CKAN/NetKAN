@@ -8,8 +8,7 @@
         "tech-tree"
     ],
     "depends": [
-        { "name": "ModuleManager"     },
-        { "name": "CommunityTechTree" }
+        { "name": "ModuleManager" }
     ],
     "conflicts": [
         { "name": "SimplexTechTree"  },
