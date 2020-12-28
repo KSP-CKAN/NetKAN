@@ -1,0 +1,20 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "TechTreeKompacted",
+    "$kref":        "#/ckan/spacedock/2600",
+    "license":      "CC-BY-NC-4.0",
+    "tags": [
+        "config",
+        "tech-tree"
+    ],
+    "depends": [
+        { "name": "ModuleManager" }
+    ],
+    "conflicts": [
+        { "name": "SimplexTechTree"  },
+        { "name": "TETRIXTechTree"   },
+        { "name": "KiwiTechTree"     },
+        { "name": "UnKerballedStart" },
+        { "name": "ProbesBeforeCrew" }
+    ]
+}
