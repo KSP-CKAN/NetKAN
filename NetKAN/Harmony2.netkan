@@ -1,0 +1,20 @@
+{
+    "spec_version": "v1.26",
+    "identifier":   "Harmony2",
+    "name":         "Harmony 2",
+    "abstract":     "A library for patching, replacing and decorating .NET and Mono methods during runtime",
+    "author":       [ "Andreas Pardeike", "gotmachine" ],
+    "$kref":        "#/ckan/github/HarmonyKSP/HarmonyKSP",
+    "license":      "MIT",
+    "ksp_version":  "any",
+    "tags": [
+        "library"
+    ],
+    "conflicts": [
+        { "name": "Harmony1" }
+    ],
+    "install": [ {
+        "find":       "000_Harmony",
+        "install_to": "GameData"
+    } ]
+}

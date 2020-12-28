@@ -11,6 +11,9 @@
         "plugin",
         "physics"
     ],
+    "provides": [
+        "Harmony1"
+    ],
     "depends": [
         { "name": "ModuleManager" }
     ],

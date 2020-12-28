@@ -17,6 +17,9 @@
         "science",
         "resources"
     ],
+    "provides": [
+        "Harmony1"
+    ],
     "depends": [
         { "name": "CommunityResourcePack" },
         { "name": "Kerbalism-Config" }

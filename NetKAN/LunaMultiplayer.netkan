@@ -8,6 +8,9 @@
     "tags": [
         "plugin"
     ],
+    "provides": [
+        "Harmony1"
+    ],
     "resources": {
         "homepage": "https://lunamultiplayer.com/",
         "manual":   "https://github.com/LunaMultiplayer/LunaMultiplayer/wiki"

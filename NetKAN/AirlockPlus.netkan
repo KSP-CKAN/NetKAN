@@ -15,6 +15,9 @@
         "crewed",
         "convenience"
     ],
+    "provides": [
+        "Harmony1"
+    ],
     "install": [ {
         "file": "GameData/AirlockPlus",
         "install_to": "GameData"
