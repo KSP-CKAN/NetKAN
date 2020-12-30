@@ -22,6 +22,7 @@ jobs:
                   repository: KSP-CKAN/CKAN-meta
                   path: .CKAN-meta
             - name: Cache downloads
+              if: ${{ github.event_name == 'pull_request' }}
               uses: actions/cache@v2
               with:
                   path: .cache
