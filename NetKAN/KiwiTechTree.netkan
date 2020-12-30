@@ -76,8 +76,7 @@
         { "name": "RealisticPowerDraw"                     },
         { "name": "NearFutureSpacecraft-OrbitalLFOEngines" },		 
         { "name": "NearFuturePropulsion-XenonHETs"         },
-        { "name": "CryoEngines-LFO"                        },
-        { "name": "KSPInterstellarExtended"                }
+        { "name": "CryoEngines-LFO"                        }
     ],
     "install": [ {
         "find":          "KiwiTechTree",
