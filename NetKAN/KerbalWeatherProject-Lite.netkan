@@ -6,6 +6,12 @@
     "tags": [
         "plugin"
     ],
+    "provides": [
+        "KerbalWeatherProject"
+    ],
+    "conflicts": [
+        { "name": "KerbalWeatherProject" }
+    ],
     "depends": [
         { "name": "ToolbarController"       },
         { "name": "ModularFlightIntegrator" }
