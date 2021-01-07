@@ -1,0 +1,27 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "Cressida",
+    "$kref":        "#/ckan/github/kyleander/cressida",
+    "$vref":        "#/ckan/ksp-avc",
+    "license":      "MIT",
+    "tags": [
+        "planet-pack"
+    ],
+    "depends": [
+        { "name": "HyperEdit"                       },
+        { "name": "EnvironmentalVisualEnhancements" },
+        { "name": "Scatterer"                       }
+    ],
+    "recommends": [
+        { "name": "DistantObject" },
+        { "name": "PlanetShine"   },
+        { "name": "ReStock"       }
+    ],
+    "install": [ {
+        "find":       "Cressida",
+        "install_to": "GameData"
+    }, {
+        "find":       "Kerbaltek",
+        "install_to": "GameData"
+    } ]
+}
