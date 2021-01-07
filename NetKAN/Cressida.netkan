@@ -18,10 +18,10 @@
         { "name": "ReStock"       }
     ],
     "install": [ {
-        "find":       "Cressida",
+        "find":       "GameData/Cressida",
         "install_to": "GameData"
     }, {
-        "find":       "Kerbaltek",
+        "find":       "GameData/Kerbaltek",
         "install_to": "GameData"
     } ]
 }
