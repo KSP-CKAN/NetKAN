@@ -1,7 +1,19 @@
 {
     "spec_version": "v1.4",
-    "identifier": "ColdWarAerospace",
-    "$kref": "#/ckan/spacedock/2535",
-    "license": "CC-BY-NC-SA-4.0-(for-majority-of-included-content);-CC-BY-4.0-(UAZ-452)",
-    "x_via": "Automated SpaceDock CKAN submission"
+    "identifier":   "ColdWarAerospace",
+    "$kref":        "#/ckan/spacedock/2535",
+    "license":      "CC-BY-NC-SA-4.0",
+    "tags": [
+        "parts",
+        "crewed"
+    ],
+    "depends": [
+        { "name": "ModuleManager"      },
+        { "name": "BDAnimationModules" },
+        { "name": "FirespitterCore"    }
+    ],
+    "recommends": [
+        { "name": "TweakScale"     },
+        { "name": "B9-PWings-Fork" }
+    ]
 }
