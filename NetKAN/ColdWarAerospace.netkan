@@ -8,7 +8,6 @@
         "crewed"
     ],
     "depends": [
-        { "name": "ModuleManager"      },
         { "name": "BDAnimationModules" },
         { "name": "FirespitterCore"    }
     ],
