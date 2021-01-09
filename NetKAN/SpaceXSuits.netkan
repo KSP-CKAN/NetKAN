@@ -9,5 +9,10 @@
     ],
     "depends": [
         { "name": "BreakingGround-DLC" }
+    ],
+    "recommends": [
+        { "name": "TundraExploration"    },
+        { "name": "SpaceXLaunchVehicles" },
+        { "name": "SpaceXLegs"           }
     ]
 }
