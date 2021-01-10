@@ -1,7 +1,7 @@
 {
     "spec_version": "v1.4",
     "identifier":   "ClassicStockResources",
-    "author":       "Angel125",
+    "author":       "Angel-125",
     "$kref":        "#/ckan/github/Angel-125/ClassicStockResources",
     "$vref":        "#/ckan/ksp-avc",
     "license":      "GPL-3.0",
@@ -13,7 +13,8 @@
         "resources"
     ],
     "depends": [
-        { "name": "ModuleManager" }
+        { "name": "ModuleManager"                  },
+        { "name": "WildBlue-PlayMode-ClassicStock" }
     ],
     "install": [ {
         "find":       "ClassicStockResources",
