@@ -11,6 +11,11 @@
         { "name": "ModuleManager" }
     ],
     "x_netkan_override": [ {
+        "version": "1.10",
+        "override": {
+            "ksp_version_min": "1.8"
+        }
+    }, {
         "version":  "1.6.1",
         "delete":   [ "ksp_version" ],
         "override": {

@@ -10,14 +10,17 @@
     "depends": [
         { "name": "ModuleManager" }
     ],
-    "install": [
-        {
-            "file"       : "GameData/DefaultActionGroups",
-            "install_to" : "GameData"
-        },
-        {
-            "file"       : "Optional/GameData/DefaultActionGroups",
-            "install_to" : "GameData"
+    "install": [ {
+        "file"       : "GameData/DefaultActionGroups",
+        "install_to" : "GameData"
+    }, {
+        "file"       : "Optional/GameData/DefaultActionGroups",
+        "install_to" : "GameData"
+    } ],
+    "x_netkan_override": [ {
+        "version": "1.3",
+        "override": {
+            "ksp_version_min": "1.8"
         }
-    ]
+    } ]
 }
