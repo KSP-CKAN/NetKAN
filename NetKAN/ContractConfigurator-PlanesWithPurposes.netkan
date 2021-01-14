@@ -17,10 +17,8 @@
     ],
     "install": [
         {
-            "find":       "ContractPacks",
-            "install_to": "GameData/ContractPacks",
-            "as":         "PlanesWithPurposes",
-            "filter":     [ ".gitignore", "MiniAVC.dll" ]
+            "find":       "PWP",
+            "install_to": "GameData/ContractPacks"
         }
     ]
 }
