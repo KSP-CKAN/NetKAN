@@ -1,7 +1,16 @@
 {
     "spec_version": "v1.4",
-    "identifier": "MEVHeavyIndustries",
-    "$kref": "#/ckan/spacedock/2621",
-    "license": "Attribution-NonCommercial-ShareAlike-4.0-International-(CC-BY-NC-SA-4.0)",
-    "x_via": "Automated SpaceDock CKAN submission"
+    "identifier":   "MEVHeavyIndustries",
+    "$kref":        "#/ckan/spacedock/2621",
+    "license":      "CC-BY-NC-SA-4.0",
+    "tags": [
+        "parts"
+    ],
+    "recommends": [
+        { "name": "InterstellarFuelSwitch-Core" }
+    ],
+    "install": [ {
+        "find":       "MEVFusionTek",
+        "install_to": "GameData"
+    } ]
 }
