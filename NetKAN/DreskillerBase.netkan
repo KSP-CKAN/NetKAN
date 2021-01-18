@@ -1,0 +1,30 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "DreskillerBase",
+    "$kref":        "#/ckan/github/RJVB09/Dreskiller-Base",
+    "license":      "CC-BY-NC-ND-4.0",
+    "tags": [
+        "planet-pack"
+    ],
+    "depends": [
+        { "name": "ModuleManager" },
+        { "name": "Kopernicus"    }
+    ],
+    "recommends": [
+        { "name": "EnvironmentalVisualEnhancements" },
+        { "name": "Scatterer"                       },
+        { "name": "Parallax"                        },
+        { "name": "DistantObject"                   },
+        { "name": "PlanetShine"                     },
+        { "name": "RationalResources"               },
+        { "name": "ResearchBodies"                  }
+    ],
+    "supports": [
+        { "name": "Corelian" }
+    ],
+    "install": [ {
+        "find":       "DKB",
+        "install_to": "GameData",
+        "filter":     [ "MiniAVC.dll", "MiniAVC.xml" ]
+    } ]
+}
