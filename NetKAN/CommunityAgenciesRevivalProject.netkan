@@ -1,0 +1,25 @@
+{
+    "spec_version": "v1.18",
+    "identifier":   "CommunityAgenciesRevivalProject",
+    "$kref":        "#/ckan/spacedock/2624",
+    "license":      "MIT",
+    "tags": [
+        "config",
+        "agency",
+        "tech-tree",
+        "career"
+    ],
+    "depends": [
+        { "name": "ModuleManager"        },
+        { "name": "ContractConfigurator" }
+    ],
+    "install": [ {
+        "find":       "CARP",
+        "install_to": "GameData",
+        "filter":     [ "CraftFiles" ]
+    }, {
+        "find":       "CraftFiles",
+        "install_to": "Ships",
+        "as":         "SPH"
+    }]
+}
