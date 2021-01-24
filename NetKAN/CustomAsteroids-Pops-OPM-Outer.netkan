@@ -7,7 +7,7 @@
     "x_netkan_github": {
         "use_source_archive": true
     },
-    "ksp_version_min": "1.4.0",
+    "ksp_version_min": "1.10.0",
     "license": "MIT",
     "resources": {
         "bugtracker": "https://github.com/Starstrider42/Custom-Asteroids-Extras/issues",
@@ -23,9 +23,17 @@
         },
         {
             "name": "CustomAsteroids",
-            "min_version": "v1.6.0",
+            "min_version": "v1.9.0",
             "max_version": "v1.99.99",
-            "comment": "Requires localization support."
+            "comment": "Requires comet support."
+        }
+    ],
+    "recommends": [
+        {
+            "name": "CustomAsteroids-Pops-Stock-Stockalike",
+            "min_version": "v1.9.0",
+            "max_version": "v1.99.99",
+            "comment": "Depends on Stockalike for standard comets."
         }
     ],
     "provides": [ "CustomAsteroids-Pops" ],
@@ -34,6 +42,26 @@
             "find": "config",
             "install_to": "GameData/CustomAsteroids",
             "filter_regexp": "(?<!Trans-Neidon\\.cfg)$"
+        }
+    ],
+    "x_netkan_override" : [
+        {
+            "version" : "< v1.2.0",
+            "override" : {
+                "depends": [
+                    {
+                        "name": "OuterPlanetsMod"
+                    },
+                    {
+                        "name": "CustomAsteroids",
+                        "min_version": "v1.6.0",
+                        "max_version": "v1.99.99"
+                    }
+                ],
+                "comment": "Match to Custom Asteroids v1.9.0, see NetKAN#3841.",
+                "ksp_version_min": "1.4.0"
+            },
+            "delete" : [ "ksp_version", "recommends" ]
         }
     ],
     "x_maintained_by": "Starstrider42"
