@@ -13,9 +13,9 @@
     "depends": [
         {
             "name": "CustomAsteroids",
-            "min_version": "v1.6.0",
+            "min_version": "v1.9.0",
             "max_version": "v1.99.99",
-            "comment": "Requires localization support."
+            "comment": "Requires comet support."
         }
     ],
     "provides": [ "CustomAsteroids-Pops" ],
@@ -47,8 +47,23 @@
     ],
     "x_netkan_override" : [
         {
-            "version" : [ ">= v1.6.0", "< v2.0.0" ],
+            "version" : [ ">= v1.9.0", "< v2.0.0" ],
             "override" : {
+                "comment": "Match to Custom Asteroids v1.9.0, see NetKAN#3841.",
+                "ksp_version_min": "1.10.0"
+            },
+            "delete" : [ "ksp_version" ]
+        },
+        {
+            "version" : [ ">= v1.6.0", "< v1.9.0" ],
+            "override" : {
+                "depends": [
+                    {
+                        "name": "CustomAsteroids",
+                        "min_version": "v1.6.0",
+                        "max_version": "v1.99.99",
+                    }
+                ],
                 "comment": "Match to Custom Asteroids v1.6.0, see NetKAN#3841.",
                 "ksp_version_min": "1.4.0"
             },
