@@ -17,7 +17,8 @@
     ],
     "depends": [
         { "name": "ToolbarController" },
-        { "name": "ClickThroughBlocker" }
+        { "name": "ClickThroughBlocker" },
+        { "name": "SpaceTuxLibrary" }
     ],
     "conflicts" : [
         { "name" : "DebRefund" }
