@@ -1,0 +1,13 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "KerbalInventoryForAll",
+    "$kref":        "#/ckan/spacedock/2592",
+    "license":      "MIT",
+    "tags": [
+        "config",
+        "crewed"
+    ],
+    "depends": [
+        { "name": "ModuleManager" }
+    ]
+}

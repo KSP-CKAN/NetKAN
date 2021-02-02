@@ -27,9 +27,7 @@
         }
     ],
     "conflicts"     : [
-        { "name"    : "RN-SalyutStations-SoyuzFerries" },
-        { "name"    : "ROCapsules" },
-        { "name"    : "ROEngines" }
+        { "name"    : "RN-SalyutStations-SoyuzFerries" }
     ],
     "depends"       : [
         { "name"	  : "BDAnimationModules" },

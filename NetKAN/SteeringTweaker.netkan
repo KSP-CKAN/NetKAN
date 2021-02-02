@@ -1,0 +1,19 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "SteeringTweaker",
+    "$kref":        "#/ckan/spacedock/2609",
+    "license":      "CC-BY-NC-SA-4.0",
+    "tags": [
+        "plugin",
+        "control"
+    ],
+    "depends": [
+        { "name": "ModuleManager" }
+    ],
+    "x_netkan_override": [ {
+        "version": "1.1",
+        "override": {
+            "ksp_version_min": "1.11.0"
+        }
+    } ]
+}

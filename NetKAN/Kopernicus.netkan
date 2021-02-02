@@ -3,9 +3,14 @@
     "identifier"    : "Kopernicus",
     "name"          : "Kopernicus Planetary System Modifier",
     "abstract"      : "Allows users to replace the planetary system used by the game.",
-    "$kref"         : "#/ckan/github/Kopernicus/Kopernicus",
+    "$kref"         : "#/ckan/github/Kopernicus/Kopernicus/version_from_asset/^Kopernicus-(?<version>.+)\\.zip$",
     "$vref"         : "#/ckan/ksp-avc/GameData/Kopernicus/Plugins/Kopernicus.version",
     "x_netkan_epoch": "2",
+    "x_netkan_version_edit": {
+        "find": "^(?<version>.+)$",
+        "replace": "release-${version}"
+    },
+    "x_netkan_allow_out_of_order": true,
     "release_status": "development",
     "license"       : "LGPL-3.0",
     "author": [

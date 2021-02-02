@@ -16,5 +16,11 @@
     "install": [ {
         "find":       "The_Blue_Drill_Redrilled",
         "install_to": "GameData"
+    } ],
+    "x_netkan_override": [ {
+        "version": "0.5",
+        "override": {
+            "ksp_version_min": "1.10.1"
+        }
     } ]
 }

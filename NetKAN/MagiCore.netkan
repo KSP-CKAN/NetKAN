@@ -13,10 +13,8 @@
         "plugin",
         "library"
     ],
-    "install": [
-        {
-            "find": "MagiCore",
-            "install_to": "GameData"
-        }
-   ]
+    "install": [ {
+        "find":       "MagiCore",
+        "install_to": "GameData"
+    } ]
 }

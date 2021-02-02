@@ -1,5 +1,5 @@
 {
-    "spec_version": "v1.4",
+    "spec_version": "v1.12",
     "identifier":   "FlatBtmShtlSys",
     "$kref":        "#/ckan/spacedock/2059",
     "$vref":        "#/ckan/ksp-avc",
@@ -13,7 +13,11 @@
         { "name": "RasterPropMonitor" }
     ],
     "install": [ {
-        "find":       "TriCrossSection",
-        "install_to": "GameData"
+        "find":          "TriCrossSection",
+        "install_to":    "GameData",
+        "filter_regexp": [ "\\.craft$" ]
+    }, {
+        "find_regexp": "\\.craft$",
+        "install_to":  "Ships/SPH"
     } ]
 }
