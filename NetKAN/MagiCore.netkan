@@ -6,17 +6,12 @@
     "$kref"        : "#/ckan/spacedock/2094",
     "$vref"        : "#/ckan/ksp-avc",
     "license"      : "MIT",
-    "resources": {
-        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/97033-*"
-    },
     "tags": [
         "plugin",
         "library"
     ],
-    "install": [
-        {
-            "find": "MagiCore",
-            "install_to": "GameData"
-        }
-   ]
+    "install": [ {
+        "find":       "MagiCore",
+        "install_to": "GameData"
+    } ]
 }
