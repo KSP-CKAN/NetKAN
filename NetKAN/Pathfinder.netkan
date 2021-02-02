@@ -1,9 +1,11 @@
 {
     "spec_version": "v1.4",
     "identifier":   "Pathfinder",
-    "author":       "Angel125",
+    "author":       "Angel-125",
     "$kref":        "#/ckan/github/Angel-125/Pathfinder",
     "$vref":        "#/ckan/ksp-avc",
+    "x_netkan_staging": true,
+    "x_netkan_staging_reason": "Make sure that no new play modes were added to the Templates folder",
     "license":      "GPL-3.0",
     "resources": {
         "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/121397-*"
@@ -16,9 +18,9 @@
         "crewed"
     ],
     "depends": [
+        { "name": "Pathfinder-PlayMode"   },
         { "name": "ModuleManager"         },
         { "name": "KerbalActuators"       },
-        { "name": "ClassicStockResources" },
         { "name": "BarisBridge"           },
         { "name": "WildBlueTools"         },
         { "name": "Buffalo"               }
@@ -36,10 +38,10 @@
     "install": [ {
         "find":          "Pathfinder",
         "install_to":    "GameData/WildBlueIndustries",
-        "filter_regexp": [ ".*\\.pdb$" ]
+        "filter_regexp": [ ".*\\.pdb$", "Templates" ]
     }, {
-        "find":       "SPH",
-        "install_to": "Ships"
+        "find":       "Pathfinder/Templates/Common",
+        "install_to": "GameData/WildBlueIndustries/Pathfinder/Templates"
     }, {
         "file":        "GameData/WBIPlayMode.cfg",
         "install_to" : "GameData"

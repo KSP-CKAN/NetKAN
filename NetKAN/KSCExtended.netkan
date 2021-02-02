@@ -9,12 +9,14 @@
         "buildings"
     ],
     "depends": [
-        { "name": "ModuleManager"        },
         { "name": "KerbalKonstructs"     },
         { "name": "TundraSpaceCenter"    },
-        { "name": "StockalikeStructures" }
+        { "name": "StockalikeStructures" },
+        { "name": "KerbinSideRemastered" },
+        { "name": "ModuleManager"        }
     ],
     "recommends": [
+        { "name": "KSCHarbor"                             },
         { "name": "TundraExploration"                     },
         { "name": "Scatterer"                             },
         { "name": "StockVisualEnhancements"               },

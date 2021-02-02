@@ -1,0 +1,37 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "BetterEarlyTree",
+    "$kref":        "#/ckan/spacedock/2629",
+    "license":      "MIT",
+    "tags": [
+        "config",
+        "tech-tree"
+    ],
+    "depends": [
+        { "name": "ModuleManager"     },
+        { "name": "CommunityTechTree" }
+    ],
+    "recommends": [
+        { "name": "MakingHistory-DLC"  },
+        { "name": "BreakingGround-DLC" },
+        { "name": "Restock"            },
+        { "name": "ReStockPlus"        }
+    ],
+    "suggests": [
+        { "name": "NearFutureElectrical"   },
+        { "name": "NearFuturePropulsion"   },
+        { "name": "NearFutureSolar"        },
+        { "name": "NearFutureAeronautics"  },
+        { "name": "NearFutureConstruction" },
+        { "name": "RationalResources"      },
+        { "name": "SpaceXLegs"             },
+        { "name": "SCANsat"                },
+        { "name": "DMagicOrbitalScience"   }
+    ],
+    "supports": [
+        { "name": "kOS"                                },
+        { "name": "NearFutureExploration"              },
+        { "name": "PEBKACIndustriesLaunchEscapeSystem" },
+        { "name": "UniversalStorage2"                  }
+    ]
+}

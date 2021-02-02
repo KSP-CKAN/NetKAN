@@ -1,0 +1,24 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "BuranEnergia",
+    "name":         "Buran Energia Mod",
+    "$kref":        "#/ckan/spacedock/2623",
+    "license":      "GPL-3.0",
+    "tags": [
+        "parts"
+    ],
+    "depends": [
+        { "name": "KSPWheel"                 },
+        { "name": "KerbalJointReinforcement" }
+    ],
+    "install": [ {
+        "find":       "BURAN ENERGIA MOD/For Stock Game/GameData/DECQ_ENERGIA",
+        "install_to": "GameData"
+    },  {
+        "find":       "BURAN ENERGIA MOD/For Stock Game/GameData/Alcentar_Add-ons",
+        "install_to": "GameData"
+    }, {
+        "find":       "VAB",
+        "install_to": "Ships"
+    } ]
+}

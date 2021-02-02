@@ -11,7 +11,13 @@
         { "name": "ModuleManager" }
     ],
     "install": [ {
-        "find": "AttitudeAdjuster",
+        "find":       "AttitudeAdjuster",
         "install_to": "GameData"
+    } ],
+    "x_netkan_override": [ {
+        "version": "1.2",
+        "override": {
+            "ksp_version_min": "1.8"
+        }
     } ]
 }

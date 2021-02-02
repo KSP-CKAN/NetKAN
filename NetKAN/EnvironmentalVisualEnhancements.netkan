@@ -1,14 +1,16 @@
 {
     "spec_version": 1,
     "identifier":   "EnvironmentalVisualEnhancements",
-    "name":         "Environmental Visual Enhancements",
-    "$kref":        "#/ckan/github/R-T-B/EnvironmentalVisualEnhancements/asset_match/EnvironmentalVisualEnhancements-[0-9]",
+    "author": [
+        "rbray89",
+        "WazWaz",
+        "R-T-B",
+        "blackrack"
+    ],
+    "$kref":        "#/ckan/spacedock/2631",
     "$vref":        "#/ckan/ksp-avc",
     "x_netkan_epoch": "2",
     "license":      "MIT",
-    "resources": {
-        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/196289-*"
-    },
     "tags": [
         "plugin",
         "graphics"

@@ -1,0 +1,28 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "AbovetheSkySoyuzTMAandR7",
+    "$kref":        "#/ckan/spacedock/2563",
+    "$vref":        "#/ckan/ksp-avc",
+    "license":      "MIT",
+    "tags": [
+        "parts"
+    ],
+    "depends": [
+        { "name": "ModuleManager"          },
+        { "name": "ASETProps"              },
+        { "name": "RasterPropMonitor-Core" }
+    ],
+    "install": [ {
+        "find":       "DECQ_R7",
+        "install_to": "GameData"
+    }, {
+        "find":       "SOYUZ_SPACECRAFT",
+        "install_to": "GameData"
+    }, {
+        "find":       "Versioning",
+        "install_to": "GameData/SOYUZ_SPACECRAFT"
+    }, {
+        "find":       "SSTU",
+        "install_to": "GameData"
+    } ]
+}

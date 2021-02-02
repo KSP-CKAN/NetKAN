@@ -1,0 +1,18 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "KerbalWeatherProject",
+    "$kref":        "#/ckan/spacedock/2607",
+    "license":      "MIT",
+    "tags": [
+        "plugin"
+    ],
+    "depends": [
+        { "name": "ToolbarController"       },
+        { "name": "ModularFlightIntegrator" }
+    ],
+    "recommends": [
+        { "name": "KerbinSideRemastered" },
+        { "name": "KerBalloons"          },
+        { "name": "AtmosphereAutopilot"  }
+    ]
+}
