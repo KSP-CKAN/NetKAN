@@ -8,11 +8,15 @@
         "config",
         "information"
     ],
-    "install": [
-        {
-            "find_regexp": "GameData/.*\\.ksp",
-            "find_matches_files": true,
-            "install_to": "GameData/PlanetWiki"
+    "install": [ {
+        "find_regexp": "GameData/.*\\.ksp",
+        "find_matches_files": true,
+        "install_to": "GameData/PlanetWiki"
+    } ],
+    "x_netkan_override": [ {
+        "version": "1:4.1",
+        "override": {
+            "ksp_version_min": "1.9.1"
         }
-    ]
+    } ]
 }
