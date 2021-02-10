@@ -14,7 +14,7 @@
         "crewed"
     ],
     "depends": [
-        { "name": "ModuleManager" },
+        { "name": "ModuleManager" }
     ],
     "recommends": [
         { "name": "GrannusExpansionPack" },
