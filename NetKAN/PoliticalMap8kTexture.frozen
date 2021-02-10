@@ -13,11 +13,11 @@
     "install": [
         {
             "file": "KerbinScaledSpace300.png",
-            "install_to": "GameData/TextureReplacer/Default"
+            "install_to": "GameData/PoliticalMap8kTexture/TextureReplacer/Default"
         },
         {
             "file": "KerbinScaledSpace401.png",
-            "install_to": "GameData/TextureReplacer/Default"
+            "install_to": "GameData/PoliticalMap8kTexture/TextureReplacer/Default"
         }
     ]
 }

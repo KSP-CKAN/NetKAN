@@ -17,5 +17,11 @@
         { "name": "GPP"                  },
         { "name": "GrannusExpansionPack" },
         { "name": "RemoteTech"           }
-    ]
+    ],
+    "x_netkan_override": [ {
+        "version": "2.0.5",
+        "override": {
+            "ksp_version_min": "1.4.3"
+        }
+    } ]
 }

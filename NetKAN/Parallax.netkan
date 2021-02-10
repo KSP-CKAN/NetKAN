@@ -1,0 +1,22 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "Parallax",
+    "$kref": "#/ckan/spacedock/2539",
+    "license": "CC-BY-NC-ND-4.0",
+    "tags": [
+        "plugin",
+        "library",
+        "graphics"
+    ],
+    "depends": [
+        { "name": "Kopernicus" },
+        { "name": "Parallax-Textures" }
+    ],
+    "recommends": [
+        { "name": "Scatterer" }
+    ],
+    "install": [{
+        "find":       "Parallax",
+        "install_to": "GameData"
+    }]
+}

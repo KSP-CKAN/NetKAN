@@ -1,0 +1,43 @@
+name: Inflate netkans
+on:
+    push:
+        branches:
+            - master
+    pull_request:
+        types:
+            - opened
+            - synchronize
+            - reopened
+jobs:
+    Inflate:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Get NetKAN repo
+              uses: actions/checkout@v2
+              with:
+                  fetch-depth: 0
+            - name: Get CKAN-meta repo
+              uses: actions/checkout@v2
+              with:
+                  repository: KSP-CKAN/CKAN-meta
+                  path: .CKAN-meta
+            - name: Cache downloads
+              if: ${{ github.event_name == 'pull_request' }}
+              uses: actions/cache@v2
+              with:
+                  path: .cache
+                  key: downloads-${{ github.run_id }}
+                  restore-keys: |
+                      downloads-
+            - name: Test modified netkans
+              uses: KSP-CKAN/xKAN-meta_testing@master
+              env:
+                  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+                  GITHUB_PR_BASE_SHA: ${{ github.event.pull_request.base.sha }}
+                  GITHUB_EVENT_BEFORE: ${{ github.event.before }}
+              with:
+                  source: commits
+                  diff meta root: .CKAN-meta
+                  pull request body: ${{ github.event.pull_request.body }}
+            - name: Chmod cached files so actions/cache can read them
+              run: sudo chmod -R a+r .cache

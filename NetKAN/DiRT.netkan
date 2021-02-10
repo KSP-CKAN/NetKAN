@@ -3,6 +3,7 @@
     "identifier":   "DiRT",
     "$kref":        "#/ckan/github/cydonian-monk/KSP-DiRT",
     "$vref":        "#/ckan/ksp-avc",
+    "x_netkan_allow_out_of_order": true,
     "license":      "MIT",
     "resources": {
         "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/172055-*"

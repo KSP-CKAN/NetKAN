@@ -14,5 +14,11 @@
     } ],
     "depends": [
         { "name": "FirespitterCore" }
-    ]
+    ],
+    "x_netkan_override": [ {
+        "version": "5.0",
+        "override": {
+            "ksp_version_min": "1.5.1"
+        }
+    } ]
 }

@@ -1,0 +1,20 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "PartOverhaulIntegration",
+    "$kref":        "#/ckan/github/LouisB3/PartOverhaulIntegration",
+    "ksp_version_min": "1.8",
+    "license":      "CC-BY-NC-SA-4.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/182797-*"
+    },
+    "tags": [
+        "config"
+    ],
+    "depends": [
+        { "name": "ModuleManager" }
+    ],
+    "recommends": [
+        { "name": "ReStock"     },
+        { "name": "ReStockPlus" }
+    ]
+}

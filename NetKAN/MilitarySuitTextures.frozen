@@ -9,119 +9,119 @@
     "install": [
         {
             "find":"Arctic",
-            "install_to": "GameData/TextureReplacer/Suits/Military"
+            "install_to": "GameData/MilitarySuitTextures/TextureReplacer/Suits/Military"
         },
         {
             "find":"BDU",
-            "install_to": "GameData/TextureReplacer/Suits/Military"
+            "install_to": "GameData/MilitarySuitTextures/TextureReplacer/Suits/Military"
         },
         {
             "find":"BritishArmy",
-            "install_to": "GameData/TextureReplacer/Suits/Military"
+            "install_to": "GameData/MilitarySuitTextures/TextureReplacer/Suits/Military"
         },
         {
             "find":"Desert",
-            "install_to": "GameData/TextureReplacer/Suits/Military"
+            "install_to": "GameData/MilitarySuitTextures/TextureReplacer/Suits/Military"
         },
         {
             "find":"DEUFlecktarn",
-            "install_to": "GameData/TextureReplacer/Suits/Military"
+            "install_to": "GameData/MilitarySuitTextures/TextureReplacer/Suits/Military"
         },
         {
             "find":"eastgermany",
-            "install_to": "GameData/TextureReplacer/Suits/Military"
+            "install_to": "GameData/MilitarySuitTextures/TextureReplacer/Suits/Military"
         },
         {
             "find":"Fallschirmjager",
-            "install_to": "GameData/TextureReplacer/Suits/Military"
+            "install_to": "GameData/MilitarySuitTextures/TextureReplacer/Suits/Military"
         },
         {
             "find":"Forrest",
-            "install_to": "GameData/TextureReplacer/Suits/Military"
+            "install_to": "GameData/MilitarySuitTextures/TextureReplacer/Suits/Military"
         },
         {
             "find":"General",
-            "install_to": "GameData/TextureReplacer/Suits/Military"
+            "install_to": "GameData/MilitarySuitTextures/TextureReplacer/Suits/Military"
         },
         {
             "find":"Ghillie",
-            "install_to": "GameData/TextureReplacer/Suits/Military"
+            "install_to": "GameData/MilitarySuitTextures/TextureReplacer/Suits/Military"
         },
         {
             "find":"HAZMATsuit",
-            "install_to": "GameData/TextureReplacer/Suits/Military"
+            "install_to": "GameData/MilitarySuitTextures/TextureReplacer/Suits/Military"
         },
         {
             "find":"KING",
-            "install_to": "GameData/TextureReplacer/Suits/Military"
+            "install_to": "GameData/MilitarySuitTextures/TextureReplacer/Suits/Military"
         },
         {
             "find":"Knight",
-            "install_to": "GameData/TextureReplacer/Suits/Military"
+            "install_to": "GameData/MilitarySuitTextures/TextureReplacer/Suits/Military"
         },
         {
             "find":"Multicam",
-            "install_to": "GameData/TextureReplacer/Suits/Military"
+            "install_to": "GameData/MilitarySuitTextures/TextureReplacer/Suits/Military"
         },
         {
             "find":"NavalWorkingUniform",
-            "install_to": "GameData/TextureReplacer/Suits/Military"
+            "install_to": "GameData/MilitarySuitTextures/TextureReplacer/Suits/Military"
         },
         {
             "find":"Navy",
-            "install_to": "GameData/TextureReplacer/Suits/Military"
+            "install_to": "GameData/MilitarySuitTextures/TextureReplacer/Suits/Military"
         },
         {
             "find":"Ninja",
-            "install_to": "GameData/TextureReplacer/Suits/Military"
+            "install_to": "GameData/MilitarySuitTextures/TextureReplacer/Suits/Military"
         },
         {
             "find":"NWU",
-            "install_to": "GameData/TextureReplacer/Suits/Military"
+            "install_to": "GameData/MilitarySuitTextures/TextureReplacer/Suits/Military"
         },
         {
             "find":"Olive",
-            "install_to": "GameData/TextureReplacer/Suits/Military"
+            "install_to": "GameData/MilitarySuitTextures/TextureReplacer/Suits/Military"
         },
         {
             "find":"Samurai",
-            "install_to": "GameData/TextureReplacer/Suits/Military"
+            "install_to": "GameData/MilitarySuitTextures/TextureReplacer/Suits/Military"
         },
         {
             "find":"SAR",
-            "install_to": "GameData/TextureReplacer/Suits/Military"
+            "install_to": "GameData/MilitarySuitTextures/TextureReplacer/Suits/Military"
         },
         {
             "find":"SARBlue",
-            "install_to": "GameData/TextureReplacer/Suits/Military"
+            "install_to": "GameData/MilitarySuitTextures/TextureReplacer/Suits/Military"
         },
         {
             "find":"SPecOps",
-            "install_to": "GameData/TextureReplacer/Suits/Military"
+            "install_to": "GameData/MilitarySuitTextures/TextureReplacer/Suits/Military"
         },
         {
             "find":"Suit2",
-            "install_to": "GameData/TextureReplacer/Suits/Military"
+            "install_to": "GameData/MilitarySuitTextures/TextureReplacer/Suits/Military"
         },
         {
             "find":"UKSR_EAST",
-            "install_to": "GameData/TextureReplacer/Suits/Military"
+            "install_to": "GameData/MilitarySuitTextures/TextureReplacer/Suits/Military"
         },
         {
             "find":"UKSR_SPECOPS",
-            "install_to": "GameData/TextureReplacer/Suits/Military"
+            "install_to": "GameData/MilitarySuitTextures/TextureReplacer/Suits/Military"
         },
         {
             "find":"UKSR_WEST",
-            "install_to": "GameData/TextureReplacer/Suits/Military"
+            "install_to": "GameData/MilitarySuitTextures/TextureReplacer/Suits/Military"
         },
         {
             "find":"UNPeacekeeper",
-            "install_to": "GameData/TextureReplacer/Suits/Military"
+            "install_to": "GameData/MilitarySuitTextures/TextureReplacer/Suits/Military"
         },
         {
             "find":"Woodland",
-            "install_to": "GameData/TextureReplacer/Suits/Military"
+            "install_to": "GameData/MilitarySuitTextures/TextureReplacer/Suits/Military"
         }
     ]
 }

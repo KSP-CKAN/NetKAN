@@ -9,7 +9,8 @@
     ],
     "install": [ {
         "find":       "GameData/MarsDirect",
-        "install_to": "GameData"
+        "install_to": "GameData",
+        "filter":     [ "Missions" ]
     }, {
         "find":       "Missions",
         "install_to": "Missions"

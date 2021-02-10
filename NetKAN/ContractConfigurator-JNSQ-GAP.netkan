@@ -1,0 +1,26 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "ContractConfigurator-JNSQ-GAP",
+    "$kref":        "#/ckan/spacedock/2579",
+    "$vref":        "#/ckan/ksp-avc",
+    "license":      "MIT",
+    "tags": [
+        "config",
+        "career"
+    ],
+    "depends": [
+        { "name": "ModuleManager"        },
+        { "name": "ContractConfigurator" },
+        { "name": "JNSQ"                 },
+        { "name": "KerbalKonstructs"     }
+    ],
+    "recommends": [
+        { "name": "AirplanePlus"        },
+        { "name": "AtmosphereAutopilot" },
+        { "name": "WaypointManager"     }
+    ],
+    "install": [ {
+        "find":       "ContractPacks",
+        "install_to": "GameData"
+    } ]
+}

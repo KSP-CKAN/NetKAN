@@ -2,7 +2,7 @@
     "spec_version": "v1.4",
     "identifier":   "TestLite",
     "$kref":        "#/ckan/github/ec429/TestLite",
-    "ksp_version":  "1.8",
+    "$vref":        "#/ckan/ksp-avc",
     "license":      "MIT",
     "x_netkan_github": {
         "use_source_archive": true

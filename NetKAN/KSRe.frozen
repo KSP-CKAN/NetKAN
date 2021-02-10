@@ -1,0 +1,14 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "KSRe",
+    "$kref":        "#/ckan/spacedock/2615",
+    "license":      "MIT",
+    "tags": [
+        "config",
+        "career",
+        "tech-tree"
+    ],
+    "depends": [
+        { "name": "ModuleManager" }
+    ]
+}

@@ -9,7 +9,7 @@
     "install": [
         {
             "file"       : "TextureReplacer",
-            "install_to" : "GameData",
+            "install_to" : "GameData/StarTrekTOSTunics",
             "filter"     : "Thumbs.db"
         }
     ]

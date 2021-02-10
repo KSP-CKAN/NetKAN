@@ -10,7 +10,7 @@
     ],
     "install": [ {
         "find":       "TextureReplacer",
-        "install_to": "GameData"
+        "install_to": "GameData/NGC3371-Skybox"
     } ],
     "depends": [
         { "name": "TextureReplacer" }

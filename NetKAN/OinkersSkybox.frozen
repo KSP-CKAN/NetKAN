@@ -15,11 +15,11 @@
     "install": [
         {
             "find":"Default",
-            "install_to": "GameData/TextureReplacer"
+            "install_to": "GameData/OinkersSkybox/TextureReplacer"
         },
         {
             "find":"EnvMap",
-            "install_to": "GameData/TextureReplacer"
+            "install_to": "GameData/OinkersSkybox/TextureReplacer"
         }
     ]
 }

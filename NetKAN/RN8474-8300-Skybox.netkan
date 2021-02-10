@@ -9,7 +9,7 @@
     ],
     "install": [ {
         "find":       "TextureReplacer",
-        "install_to": "GameData"
+        "install_to": "GameData/RN8474-8300-Skybox"
     } ],
     "depends": [
         { "name": "TextureReplacer" }

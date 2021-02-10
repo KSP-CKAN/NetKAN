@@ -1,0 +1,38 @@
+{
+    "spec_version": "v1.18",
+    "identifier":   "Heisenberg-PlayMode-Pristine",
+    "name":         "Heisenberg Pristine Play Mode",
+    "$kref":        "#/ckan/github/Angel-125/Airships",
+    "$vref":        "#/ckan/ksp-avc/GameData/WildBlueIndustries/Heisenberg/Airships.version",
+    "x_netkan_staging": true,
+    "x_netkan_staging_reason": "Make sure that all .txt files for this play mode are installed as .cfg",
+    "license":      "restricted",
+    "resources": {
+        "homepage":   "https://forum.kerbalspaceprogram.com/index.php?/topic/150702-*",
+        "repository": "https://github.com/Angel-125/Airships"
+    },
+    "tags": [
+        "config"
+    ],
+    "provides": [
+        "Heisenberg-PlayMode"
+    ],
+    "conflicts": [
+        { "name": "Heisenberg-PlayMode" }
+    ],
+    "depends": [
+        { "name": "Heisenberg"                 },
+        { "name": "ModuleManager"              },
+        { "name": "WildBlue-PlayMode-Pristine" }
+    ],
+    "install": [ {
+        "find":       "WildBlueIndustries/Heisenberg/Templates/Pristine.cfg",
+        "install_to": "GameData/WildBlueIndustries/Heisenberg/Templates",
+        "find_matches_files": true
+    }, {
+        "find":       "Heisenberg/Templates/Pristine/MM_Pristine.txt",
+        "install_to": "GameData/WildBlueIndustries/Heisenberg/Templates/Pristine",
+        "as":         "MM_Pristine.cfg",
+        "find_matches_files": true
+    } ]
+}
