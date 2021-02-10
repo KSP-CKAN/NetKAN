@@ -11,13 +11,15 @@
     },
     "tags": [
         "parts",
-        "crewed",
-	"ftl"
+        "crewed"
+    ],
+    "depends": [
+        { "name": "ModuleManager" },
     ],
     "recommends": [
-        { "name": "GrannusExpansionPack"     },
-        { "name": "Kopernicus"               },
-	{ "name": "Waterfall"                }
+        { "name": "GrannusExpansionPack" },
+        { "name": "Kopernicus"           },
+        { "name": "Waterfall"            }
     ],
     "install": [ {
         "find":       "Blueshift",
