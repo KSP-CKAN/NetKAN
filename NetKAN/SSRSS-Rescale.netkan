@@ -17,7 +17,7 @@
         { "name": "SigmaDimensions" }
     ],
     "install": [ {
-        "find":       "Dimensions",
-        "install_to": "GameData/Sigma"
+        "find":       "SigmaDimensions",
+        "install_to": "GameData"
     } ]
 }
