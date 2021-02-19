@@ -1,0 +1,25 @@
+{
+    "spec_version": "v1.10",
+    "identifier":   "SemiSaturatableRW",
+    "name":         "Semi-Saturable Reaction Wheels",
+    "abstract":     "Saturable Reaction Wheels makes stock reaction wheels more realistic by adding momentum management",
+    "$kref":        "#/ckan/github/DarthPointer/RW-Saturatable",
+    "$vref":        "#/ckan/ksp-avc",
+    "x_netkan_epoch": 1,
+    "license":      "GPL-3.0",
+    "release_status": "stable",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/200480-*"
+    },
+    "tags": [
+        "plugin",
+        "physics"
+    ],
+    "depends": [
+        { "name": "ModuleManager" }
+    ],
+    "install" : [ {
+        "find":       "RW Saturatable",
+        "install_to": "GameData"
+    } ]
+}
