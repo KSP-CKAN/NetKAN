@@ -11,6 +11,13 @@
     "resources": {
         "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/200480-*"
     },
+    "tags": [
+        "plugin",
+        "physics"
+    ],
+    "depends": [
+        { "name": "ModuleManager" }
+    ],
     "install" : [ {
         "find":       "RW Saturatable",
         "install_to": "GameData"
