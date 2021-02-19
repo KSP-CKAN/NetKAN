@@ -12,7 +12,7 @@
         "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/200480-*"
     },
     "install" : [ {
-        "find":       "RW Saturable",
+        "find":       "RW Saturatable",
         "install_to": "GameData"
     } ]
 }
