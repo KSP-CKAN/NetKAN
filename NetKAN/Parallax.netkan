@@ -5,7 +5,11 @@
     "abstract":     "A PBR tessellation shader for planetary textures",
     "author":       "Linx",
     "$kref":        "#/ckan/github/Gameslinx/Tessellation/asset_match/^Parallax-[0-9.]+\\.zip$",
+    "ksp_version":  "1.11",
     "license":      "CC-BY-NC-ND-4.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/197024-*"
+    },
     "tags": [
         "plugin",
         "library",

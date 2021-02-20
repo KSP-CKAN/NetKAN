@@ -1,11 +1,14 @@
 {
     "spec_version": "v1.4",
-    "identifier": "Parallax-StockTextures",
-    "name": "Parallax - Stock Planet Textures",
-    "author": "Linx",
-    "abstract": "Parallax textures for the stock planets",
-    "$kref": "#/ckan/github/Gameslinx/Tessellation/asset_match/Textures",
-    "license": "CC-BY-NC-ND-4.0",
+    "identifier":   "Parallax-StockTextures",
+    "name":         "Parallax - Stock Planet Textures",
+    "abstract":     "Parallax textures for the stock planets",
+    "author":       "Linx",
+    "$kref":        "#/ckan/github/Gameslinx/Tessellation/asset_match/Textures",
+    "license":      "CC-BY-NC-ND-4.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/197024-*"
+    },
     "tags": [
         "config",
         "graphics"
