@@ -1,24 +1,25 @@
 {
     "spec_version": "v1.4",
-    "identifier": "Parallax",
-    "author":       "Linx",
+    "identifier":   "Parallax",
+    "name":         "Parallax",
     "abstract":     "A PBR tessellation shader for planetary textures",
-    "$kref": "#/ckan/github/Gameslinx/Tessellation",
-    "license": "CC-BY-NC-ND-4.0",
+    "author":       "Linx",
+    "$kref":        "#/ckan/github/Gameslinx/Tessellation/asset_match/^Parallax[0-9.]+\\.zip$",
+    "license":      "CC-BY-NC-ND-4.0",
     "tags": [
         "plugin",
         "library",
         "graphics"
     ],
     "depends": [
-        { "name": "Kopernicus" },
+        { "name": "Kopernicus"        },
         { "name": "Parallax-Textures" }
     ],
     "recommends": [
         { "name": "Scatterer" }
     ],
-    "install": [{
+    "install": [ {
         "find":       "Parallax",
         "install_to": "GameData"
-    }]
+    } ]
 }
