@@ -2,7 +2,9 @@
     "spec_version": "v1.4",
     "identifier": "Parallax-StockTextures",
     "name": "Parallax - Stock Planet Textures",
-    "$kref": "#/ckan/spacedock/2539",
+    "author": "Linx",
+    "abstract": "Parallax textures for the stock planets",
+    "$kref": "#/ckan/github/Gameslinx/Tessellation",
     "license": "CC-BY-NC-ND-4.0",
     "tags": [
         "config",
