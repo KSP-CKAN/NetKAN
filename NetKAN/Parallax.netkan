@@ -1,7 +1,9 @@
 {
     "spec_version": "v1.4",
     "identifier": "Parallax",
-    "$kref": "#/ckan/spacedock/2539",
+    "author":       "Linx",
+    "abstract":     "A PBR tessellation shader for planetary textures",
+    "$kref": "#/ckan/github/Gameslinx/Tessellation",
     "license": "CC-BY-NC-ND-4.0",
     "tags": [
         "plugin",
