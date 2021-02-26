@@ -17,10 +17,10 @@
         "graphics"
     ],
     "depends": [
-        { "name": "ModuleManager"              },
-        { "name": "Kopernicus"                 },
-        { "name": "Scatterer-sunflare-default" },
-        { "name": "Parallax"                   }
+        { "name": "ModuleManager"                },
+        { "name": "Kopernicus"                   },
+        { "name": "Scatterer-sunflare-default"   },
+        { "name": "Parallax", "version": "1.0.1" }
     ],
     "conflicts": [
         { "name": "GPP"                     },
