@@ -1,0 +1,16 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "SoilerPanels",
+    "$kref":        "#/ckan/spacedock/2648",
+    "license":      "MIT",
+    "tags": [
+        "parts"
+    ],
+    "depends": [
+        { "name": "ModuleManager" }
+    ],
+    "install": [ {
+        "find":       "Soiler Panels",
+        "install_to": "GameData"
+    } ]
+}
