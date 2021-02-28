@@ -9,7 +9,7 @@
         "crewed"
     ],
     "x_netkan_override": [ {
-        "version": "1.0.2b",
+        "version": ">=0",
         "override": {
             "ksp_version_min": "1.10"
         }
