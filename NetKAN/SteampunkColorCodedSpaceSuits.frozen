@@ -3,6 +3,11 @@
     "license": "MIT",
     "$kref": "#/ckan/kerbalstuff/1025",
     "identifier": "SteampunkColorCodedSpaceSuits",
+    "tags": [
+        "suits",
+        "graphics",
+        "crewed"
+    ],
     "depends": [
         { "name" : "TextureReplacer" }
     ],
