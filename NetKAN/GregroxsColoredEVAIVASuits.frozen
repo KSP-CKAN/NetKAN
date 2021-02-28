@@ -4,6 +4,11 @@
     "identifier": "GregroxsColoredEVAIVASuits",
     "license": "MIT",
     "x_netkan_epoch": 1,
+    "tags": [
+        "suits",
+        "graphics",
+        "crewed"
+    ],
     "depends": [
         { "name": "TextureReplacer" }
     ],
