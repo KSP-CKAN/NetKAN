@@ -1,0 +1,30 @@
+{
+  "license": "MIT",
+  "identifier": "MSP3000a",
+  "x_via": "Automated Linuxgurugamer CKAN script",
+  "$kref": "#/ckan/spacedock/2642",
+  "$vref": "#/ckan/ksp-avc",
+  "resources": {
+    "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/200424-*",
+    "repository": "https://github.com/linuxgurugamer/Material-Science-Pod"
+  },
+  "depends": [
+    {
+      "name": "ModuleManager"
+    }
+  ],
+  "tags": [
+    "parts",
+    "science"
+  ],
+  "install": [
+    {
+      "find": "MSP3000-A",
+      "install_to": "GameData"
+    }
+  ],
+  "conflicts": [
+      { "name": "MSP3000" }
+  ],
+  "spec_version": "v1.4"
+}
