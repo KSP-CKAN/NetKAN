@@ -9,6 +9,6 @@
     ],
     "depends": [
         { "name": "ModuleManager" },
-        { "name": "RealChute"     },
+        { "name": "RealChute"     }
     ]
 }
