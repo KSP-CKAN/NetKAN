@@ -3,5 +3,12 @@
     "identifier": "CustomParachuteMessage",
     "$kref": "#/ckan/spacedock/2651",
     "license": "MIT",
-    "x_via": "Automated SpaceDock CKAN submission"
+    "tags": [
+        "plugin",
+        "graphics"
+    ],
+    "depends": [
+        { "name": "ModuleManager" },
+        { "name": "RealChute"     },
+    ]
 }
