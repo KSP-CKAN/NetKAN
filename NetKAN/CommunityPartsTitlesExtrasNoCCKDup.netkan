@@ -25,7 +25,7 @@
     "install" : [
         {
             "file"       : "GameData/002_CommunityPartsTitles/Extras/CPTE_category_hide_cck_parts.cfg",
-            "install_to" : "GameData/002_CommunityPartsTitles/Extras/",
+            "install_to" : "GameData/002_CommunityPartsTitles/Extras",
             "comment"    : "Install CPTE_category_hide_cck_parts.cfg into Extras/ folder. So it is kind of Extra for Extra."
         }
     ]
