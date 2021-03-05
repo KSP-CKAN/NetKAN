@@ -1,0 +1,26 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "StarLinkSatellitePack",
+    "$kref":        "#/ckan/spacedock/2518",
+    "license":      "CC-BY-SA-4.0",
+    "tags": [
+        "parts",
+        "uncrewed"
+    ],
+    "depends": [
+        { "name": "KerbalJointReinforcement" }
+    ],
+    "recommends": [
+        { "name": "SpaceXLaunchVehicles" }
+    ],
+    "suggests": [
+        { "name": "DistantObject" }
+    ],
+    "install": [ {
+        "find":       "StarLinkSatellitePack",
+        "install_to": "GameData"
+    }, {
+        "find":       "VAB",
+        "install_to": "Ships"
+    } ]
+}

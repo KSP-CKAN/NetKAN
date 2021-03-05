@@ -8,8 +8,8 @@
     ],
     "install": [
         {
-            "find"       : "Suits",
-            "install_to" : "GameData/TextureReplacer",
+            "find"       : "TextureReplacer",
+            "install_to" : "GameData/halocharactercostumes",
             "filter"     : ".DS_Store"
         }
     ]

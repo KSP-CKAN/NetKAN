@@ -14,5 +14,16 @@
         "plugin",
         "convenience",
         "crewed"
-    ]
+    ],
+    "x_netkan_override": [ {
+        "version": "1.4.1",
+        "override": {
+            "ksp_version_min": "1.11.0"
+        }
+    }, {
+        "version": "1.4",
+        "override": {
+            "ksp_version_min": "1.8"
+        }
+    } ]
 }

@@ -1,31 +1,29 @@
 {
-    "spec_version" : 1,
-    "identifier"   : "EnvironmentalVisualEnhancements",
-    "$kref"        : "#/ckan/github/WazWaz/EnvironmentalVisualEnhancements/asset_match/EnvironmentalVisualEnhancements-[0-9]",
-    "name"         : "Environmental Visual Enhancements",
-    "abstract"     : "City Lights for Kerbin and Clouds for Any planet you wish",
-    "license"      : "MIT",
-    "$vref"        : "#/ckan/ksp-avc",
+    "spec_version": 1,
+    "identifier":   "EnvironmentalVisualEnhancements",
+    "author": [
+        "rbray89",
+        "WazWaz",
+        "R-T-B",
+        "blackrack"
+    ],
+    "$kref":        "#/ckan/spacedock/2631",
+    "$vref":        "#/ckan/ksp-avc",
     "x_netkan_epoch": "2",
-    "resources": {
-        "homepage"   : "http://forum.kerbalspaceprogram.com/index.php?/topic/149733-EVE",
-        "repository" : "https://github.com/WazWaz/EnvironmentalVisualEnhancements"
-    },
+    "license":      "MIT",
     "tags": [
         "plugin",
         "graphics"
     ],
-    "install": [
-        {
-            "file"       : "GameData/EnvironmentalVisualEnhancements",
-            "install_to" : "GameData"
-        }
-    ],
+    "install": [ {
+        "file":       "GameData/EnvironmentalVisualEnhancements",
+        "install_to": "GameData"
+    } ],
     "recommends": [
         { "name": "EnvironmentalVisualEnhancements-Config" }
     ],
     "conflicts": [
-        { "name" : "EnvironmentalVisualEnhancements-LR" }
+        { "name": "EnvironmentalVisualEnhancements-LR" }
     ],
     "x_netkan_override": [ {
         "version": "2:EVE-1.4.2-2",

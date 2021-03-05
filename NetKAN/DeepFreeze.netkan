@@ -9,29 +9,28 @@
         "plugin",
         "crewed"
     ],
-    "depends" : [
-        { "name" : "ModuleManager", "min_version" : "2.3.5" },
-        { "name" : "REPOSoftTech-Agencies" },
-        { "name" : "CommunityResourcePack" },
-        { "name" : "BackgroundResources" }
+    "depends": [
+        { "name": "ModuleManager",
+          "min_version": "2.3.5"          },
+        { "name": "REPOSoftTech-Agencies" },
+        { "name": "CommunityResourcePack" }
     ],
-    "recommends" : [
-        { "name" : "Toolbar" },
-        { "name" : "RasterPropMonitor" },
-        { "name" : "BackgroundProcessing" },
-        { "name" : "ShipManifest" },
-        { "name" : "ConnectedLivingSpace" },
-        { "name" : "AmpYearPowerManager"}
+    "recommends": [
+        { "name": "Toolbar"              },
+        { "name": "RasterPropMonitor"    },
+        { "name": "BackgroundProcessing" },
+        { "name": "ShipManifest"         },
+        { "name": "ConnectedLivingSpace" },
+        { "name": "AmpYearPowerManager"  },
+        { "name": "BackgroundResources"  }
     ],
     "suggests": [
-        { "name" : "USI-LS" },
-        { "name" : "TACLS"  },
-        { "name" : "Snacks" }
+        { "name": "USI-LS" },
+        { "name": "TACLS"  },
+        { "name": "Snacks" }
     ],
-    "install": [
-        {
-            "find":       "REPOSoftTech/DeepFreeze",
-            "install_to": "GameData/REPOSoftTech"
-        }
-    ]
+    "install": [ {
+        "find":       "REPOSoftTech/DeepFreeze",
+        "install_to": "GameData/REPOSoftTech"
+    } ]
 }

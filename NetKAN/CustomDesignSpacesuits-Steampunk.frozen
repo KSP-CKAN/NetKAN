@@ -1,8 +1,13 @@
 {
-  "spec_version": 1,
+  "spec_version": "v1.2",
   "identifier": "CustomDesignSpacesuits-Steampunk",
   "ksp_version": "0.90",
   "license": "CC-BY-NC-SA-4.0",
+  "tags": [
+    "suits",
+    "graphics",
+    "crewed"
+  ],
   "resources": {
     "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/142824-113-green-skull-inc-custom-design-spacesuits-v039-29th-june-16/"
   },
@@ -15,17 +20,10 @@
   "install": [
     {
       "file": "Steam-Punk-Pack-v0.38/Green Skull Inc/GameData/TextureReplacer",
-      "install_to": "GameData",
-	  "filter": [
-        "NegativeX.png",
-        "NegativeY.png",
-        "NegativeZ.png",
-        "PositiveX.png",
-        "PositiveY.png",
-        "PositiveZ.png",
-        "Visor.shader",
-        "TextureReplacer.dll",
-        "Readme.md"
+      "install_to": "GameData/CustomDesignSpacesuits-Steampunk",
+      "filter": [
+        "EnvMap",
+        "Plugins"
       ]
     }
   ],

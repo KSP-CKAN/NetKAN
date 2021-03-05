@@ -1,0 +1,26 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "TheBlueScoop",
+    "$kref":        "#/ckan/spacedock/2501",
+    "license":      "MIT",
+    "tags": [
+        "parts",
+        "resources"
+    ],
+    "depends": [
+        { "name": "ModuleManager" }
+    ],
+    "recommends": [
+        { "name": "NearFuturePropulsion" }
+    ],
+    "install": [ {
+        "find":       "The_Blue_Scoop_Rescooped",
+        "install_to": "GameData"
+    } ],
+    "x_netkan_override": [ {
+        "version": "0.4",
+        "override": {
+            "ksp_version_min": "1.10.1"
+        }
+    } ]
+}

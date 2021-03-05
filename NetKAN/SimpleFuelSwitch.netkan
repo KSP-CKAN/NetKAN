@@ -11,7 +11,13 @@
         { "name": "ModuleManager" }
     ],
     "install": [ {
-        "find": "SimpleFuelSwitch",
+        "find":       "SimpleFuelSwitch",
         "install_to": "GameData"
+    } ],
+    "x_netkan_override": [ {
+        "version": "1.4",
+        "override": {
+            "ksp_version_min": "1.8"
+        }
     } ]
 }

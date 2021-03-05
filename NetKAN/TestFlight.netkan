@@ -24,7 +24,8 @@
         }
     ],
     "depends": [
-        { "name" : "TestFlightConfig" }
+        { "name" : "TestFlightConfig" },
+        { "name" : "ContractConfigurator" }
     ],
     "x_netkan_override": [
         {

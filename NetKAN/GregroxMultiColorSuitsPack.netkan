@@ -4,7 +4,7 @@
     "$kref":        "#/ckan/spacedock/2030",
     "license":      "CC-BY-SA-4.0",
     "tags": [
-        "config",
+        "suits",
         "graphics",
         "crewed"
     ],
@@ -13,9 +13,9 @@
     ],
     "install": [ {
         "find":       "GameData/TextureReplacer",
-        "install_to": "GameData"
+        "install_to": "GameData/GregroxMultiColorSuitsPack"
     }, {
         "find":       "Extras/TextureReplacer",
-        "install_to": "GameData"
+        "install_to": "GameData/GregroxMultiColorSuitsPack"
     } ]
 }

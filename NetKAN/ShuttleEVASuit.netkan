@@ -1,0 +1,18 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "ShuttleEVASuit",
+    "$kref":        "#/ckan/spacedock/2514",
+    "license":      "MIT",
+    "tags": [
+        "suits",
+        "graphics",
+        "crewed"
+    ],
+    "depends": [
+        { "name": "TextureReplacer" }
+    ],
+    "install": [ {
+        "find":       "Suits",
+        "install_to": "GameData/EarthEVASuit/TextureReplacer"
+    } ]
+}

@@ -21,8 +21,8 @@
         "install_to": "GameData"
     },
     {
-        "find":"Suits/AustrianSpaceAgency",
-        "install_to": "GameData/TextureReplacer/Suits"
+        "find":       "Suits/AustrianSpaceAgency",
+        "install_to": "GameData/AustrianSpaceAgency/TextureReplacer/Suits"
     }
     ]
 }

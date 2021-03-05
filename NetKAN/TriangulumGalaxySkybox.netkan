@@ -1,0 +1,17 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "TriangulumGalaxySkybox",
+    "$kref":        "#/ckan/spacedock/2572",
+    "license":      "CC-BY-NC-ND",
+    "tags": [
+        "config",
+        "graphics"
+    ],
+    "depends": [
+        { "name": "TextureReplacer" }
+    ],
+    "install": [ {
+        "find":       "TriangleGalaxy",
+        "install_to": "GameData"
+    } ]
+}

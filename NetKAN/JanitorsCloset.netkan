@@ -14,7 +14,8 @@
     ],
     "depends": [
         { "name": "ModuleManager"       },
-        { "name": "ClickThroughBlocker" }
+        { "name": "ClickThroughBlocker" },
+		{ "name": "SpaceTuxLibrary" }
     ],
     "install": [ {
         "find":       "JanitorsCloset",

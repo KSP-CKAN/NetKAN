@@ -1,0 +1,13 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "FirespitterExtended",
+    "$kref":        "#/ckan/spacedock/2156",
+    "license":      "CC-BY-NC-ND-4.0",
+    "tags": [
+        "parts"
+    ],
+    "depends": [
+        { "name": "ModuleManager" },
+        { "name": "Firespitter"   }
+    ]
+}
