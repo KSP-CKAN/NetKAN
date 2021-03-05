@@ -88,7 +88,7 @@
     ],
     "install" : [
         {
-            "file"       : "002_CommunityPartsTitles",
+            "file"       : "GameData/002_CommunityPartsTitles",
             "install_to" : "GameData",
             "filter"     : "Extras",
             "comment"    : "Exclude Extras/ folder. There are CommunityPartsTitlesExtrasCategory and CommunityPartsTitlesExtrasNoCCKDup for it"

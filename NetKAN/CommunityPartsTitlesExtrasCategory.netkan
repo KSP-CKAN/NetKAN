@@ -24,7 +24,7 @@
     ],
     "install" : [
         {
-            "file"       : "002_CommunityPartsTitles/Extras",
+            "file"       : "GameData/002_CommunityPartsTitles/Extras",
             "install_to" : "GameData/002_CommunityPartsTitles",
             "filter"     : "category_hide_cck_parts.cfg",
             "comment"    : "Extras folder without the category_hide_cck_parts.cfg. There is CommunityPartsTitlesExtrasNoDup for it"
