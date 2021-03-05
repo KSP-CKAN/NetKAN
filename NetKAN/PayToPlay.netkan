@@ -14,7 +14,7 @@
     ],
     "depends": [
         { "name": "ModuleManager" },
-	{ "name": "KSP-Recall" }
+        { "name": "KSP-Recall" }
     ],
     "recommends": [
         { "name": "KerbalConstructionTime" }
