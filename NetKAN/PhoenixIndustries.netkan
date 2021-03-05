@@ -8,17 +8,11 @@
         "graphics",
         "crewed"
     ],
-    "depends": [
-        { "name": "TextureReplacer" }
-    ],
     "recommends": [
         { "name": "KIS" }
     ],
     "install": [ {
         "find":       "PhoenixIndustries",
-        "install_to": "GameData"
-    }, {
-        "find":       "TextureReplacer",
         "install_to": "GameData"
     } ]
 }

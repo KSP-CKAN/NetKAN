@@ -1,12 +1,12 @@
 {
-    "spec_version" : "v1.4",
-    "identifier"   : "Kronometer",
-    "name"         : "Kronometer",
-    "abstract"     : "A mod to manipulate the clock for Kerbal Space Program.",
-    "author"       : [ "Thomas P.", "Sigma88" ],
-    "$kref"        : "#/ckan/github/StollD/Kronometer",
-    "$vref"        : "#/ckan/ksp-avc",
-    "license"      : "MIT",
+    "spec_version": "v1.4",
+    "identifier":   "Kronometer",
+    "name":         "Kronometer",
+    "abstract":     "A mod to manipulate the clock for Kerbal Space Program",
+    "author":       [ "Thomas P.", "Sigma88" ],
+    "$kref":        "#/ckan/github/Kopernicus/Kronometer",
+    "$vref":        "#/ckan/ksp-avc",
+    "license":      "MIT",
     "resources": {
         "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/161218-*"
     },
@@ -14,10 +14,8 @@
         "plugin",
         "information"
     ],
-    "install": [
-        {
-            "find": "Kronometer",
-            "install_to": "GameData"
-        }
-    ]
+    "install": [ {
+        "find":       "Kronometer",
+        "install_to": "GameData"
+    } ]
 }

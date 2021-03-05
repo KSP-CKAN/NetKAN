@@ -1,23 +1,25 @@
 {
-    "spec_version":     1,
+    "spec_version":     "v1.4",
     "identifier":       "B9-PWings-Fork",
     "name":             "B9 Aerospace Procedural Wings - Fork",
     "abstract":         "Fork of Bac9's Procedural Wings mod for KSP",
-    "author":           [ "Jebman82", "bac9", "Crzyrndm", "jrodrigv" ],
+    "author":           [ "Jebman82", "bac9", "Crzyrndm", "jrodrigv", "CarnationRED", "tetraflon" ],
     "license":          "CC-BY-NC-SA-4.0",
     "x_licence_code":   "MIT",
     "x_licence_assets": "CC-BY-NC-SA-4.0",
-    "$kref":            "#/ckan/github/jrodrigv/B9-PWings-Fork",
+    "$kref":            "#/ckan/spacedock/2525",
     "$vref":            "#/ckan/ksp-avc",
     "x_netkan_epoch": 1,
     "resources": {
         "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/175197-*"
     },
     "tags": [
+        "plugin",
         "parts"
     ],
     "depends": [
-        { "name": "ModuleManager" }
+        { "name": "ModuleManager" },
+        { "name": "FAR"           }
     ],
     "conflicts": [
         { "name": "B9AerospaceProceduralParts" }
@@ -26,10 +28,8 @@
         { "name": "TexturesUnlimited" },
         { "name": "ProceduralParts"   }
     ],
-    "install": [
-        {
-            "file":       "B9_Aerospace_ProceduralWings",
-            "install_to": "GameData"
-        }
-    ]
+    "install": [ {
+        "find":       "B9_Aerospace_ProceduralWings",
+        "install_to": "GameData"
+    } ]
 }

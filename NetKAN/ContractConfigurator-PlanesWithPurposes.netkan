@@ -1,0 +1,24 @@
+{
+    "spec_version": "v1.18",
+    "identifier":   "ContractConfigurator-PlanesWithPurposes",
+    "$kref":        "#/ckan/spacedock/2601",
+    "license":      "MIT",
+    "tags": [
+        "config",
+        "career"
+    ],
+    "depends": [
+        { "name": "ContractConfigurator" },
+        { "name": "ModuleManager"        }
+    ],
+    "recommends": [
+        { "name": "AirplanePlus"            },
+        { "name": "KerbalAircraftExpansion" }
+    ],
+    "install": [
+        {
+            "find":       "PWP",
+            "install_to": "GameData/ContractPacks"
+        }
+    ]
+}

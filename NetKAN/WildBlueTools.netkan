@@ -1,22 +1,28 @@
 {
     "spec_version": "v1.4",
     "identifier":   "WildBlueTools",
-    "author":       "Angel125",
+    "author":       "Angel-125",
     "$kref":        "#/ckan/github/Angel-125/WildBlueTools",
     "$vref":        "#/ckan/ksp-avc",
+    "x_netkan_staging": true,
+    "x_netkan_staging_reason": "Make sure that no new play modes were added to the Templates folder",
     "license":      "GPL-3.0",
-    "depends": [
-        { "name": "ModuleManager"         },
-        { "name": "KerbalActuators"       },
-        { "name": "ClassicStockResources" },
-        { "name": "BarisBridge"           }
-    ],
     "tags": [
         "plugin",
         "library"
     ],
+    "depends": [
+        { "name": "ModuleManager"     },
+        { "name": "KerbalActuators"   },
+        { "name": "BarisBridge"       },
+        { "name": "WildBlue-PlayMode" }
+    ],
     "install": [ {
         "find":       "000WildBlueTools",
-        "install_to": "GameData/WildBlueIndustries"
+        "install_to": "GameData/WildBlueIndustries",
+        "filter":     [ "Templates" ]
+    }, {
+        "find":       "000WildBlueTools/Templates/Common",
+        "install_to": "GameData/WildBlueIndustries/000WildBlueTools/Templates"
     } ]
 }

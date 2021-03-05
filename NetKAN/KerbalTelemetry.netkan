@@ -1,0 +1,17 @@
+{
+    "spec_version": 1,
+    "identifier":   "KerbalTelemetry",
+    "$kref":        "#/ckan/spacedock/2643",
+    "license":      "MIT",
+    "tags": [
+        "plugin",
+        "app",
+        "information"
+    ],
+    "install": [
+        {
+            "file": "GameData",
+            "install_to": "GameData"
+        }
+    ]
+}

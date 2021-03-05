@@ -26,10 +26,6 @@
         "install_to": "Ships"
       }
     ],
-	"conflicts"     : [
-		{ "name"    : "ROCapsules" },
-		{ "name"    : "ROEngines" }
-    ],
     "depends": [
         { "name": "BDAnimationModules" },
         { "name": "TexturesUnlimited" },

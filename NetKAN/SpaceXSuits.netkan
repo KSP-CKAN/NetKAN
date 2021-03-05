@@ -1,0 +1,19 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "SpaceXSuits",
+    "$kref":        "#/ckan/spacedock/2612",
+    "license":      "MIT",
+    "tags": [
+        "suits",
+        "graphics",
+        "crewed"
+    ],
+    "depends": [
+        { "name": "BreakingGround-DLC" }
+    ],
+    "recommends": [
+        { "name": "TundraExploration"    },
+        { "name": "SpaceXLaunchVehicles" },
+        { "name": "SpaceXLegs"           }
+    ]
+}

@@ -4,13 +4,18 @@
     "identifier": "GregroxsColoredEVAIVASuits",
     "license": "MIT",
     "x_netkan_epoch": 1,
+    "tags": [
+        "suits",
+        "graphics",
+        "crewed"
+    ],
     "depends": [
         { "name": "TextureReplacer" }
     ],
     "install": [
         {
             "find"       : "TextureReplacer",
-            "install_to" : "GameData"
+            "install_to" : "GameData/GregroxsColoredEVAIVASuits"
         }
     ]
 }

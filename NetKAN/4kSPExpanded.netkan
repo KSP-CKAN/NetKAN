@@ -1,0 +1,27 @@
+{
+  "license": "MIT",
+  "identifier": "4kSPExpanded",
+  "x_via": "Automated Linuxgurugamer CKAN script",
+  "$kref": "#/ckan/spacedock/2554",
+  "$vref": "#/ckan/ksp-avc",
+  "resources": {
+    "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/197794-18x-19x-110x-4ksp-expanded/",
+    "repository": "https://github.com/linuxgurugamer/4ksp_Expanded"
+  },
+  "conflicts": [ { "name": "4kSP" } ],
+  "depends": [
+    { "name": "ToolbarController" },
+    { "name": "ClickThroughBlocker" }
+  ],
+  "tags": [
+    "plugin",
+    "convenience",
+    "information",
+    "graphics"
+  ],
+  "install": [ {
+        "find":"4ksp",
+        "install_to": "GameData"
+    } ],
+  "spec_version": "v1.4"
+}

@@ -1,0 +1,22 @@
+{
+  "license": "GPL-3.0",
+  "identifier": "BatteryActivatorReactivated",
+  "x_via": "Automated Linuxgurugamer CKAN script",
+  "$kref": "#/ckan/spacedock/2553",
+  "$vref": "#/ckan/ksp-avc",
+  "resources": {
+    "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/197788-18x-19x-110x-battery-activator-reactivated/",
+    "repository": "https://github.com/linuxgurugamer/BatteryActivator"
+  },
+  "tags": [
+    "plugin",
+    "control"
+  ],
+  "install": [
+    {
+      "find": "BatteryActivator",
+      "install_to": "GameData"
+    }
+  ],
+  "spec_version": "v1.4"
+}

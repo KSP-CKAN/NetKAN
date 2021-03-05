@@ -1,0 +1,19 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "BeamedPowerPlugin",
+    "$kref":        "#/ckan/spacedock/2492",
+    "$vref":        "#/ckan/ksp-avc",
+    "license":      "public-domain",
+    "tags": [
+        "plugin",
+        "parts",
+        "physics"
+    ],
+    "depends": [
+        { "name": "ModuleManager" }
+    ],
+    "install": [ {
+        "find":       "BeamedPowerStandalone",
+        "install_to": "GameData"
+    } ]
+}

@@ -14,7 +14,7 @@
         { "name": "TextureReplacer" }
     ],
     "install": [ {
-        "find":       "WindowShine",
-        "install_to": "GameData"
+        "find":       "Default",
+        "install_to": "GameData/WindowShine/TextureReplacer"
     } ]
 }

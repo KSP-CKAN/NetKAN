@@ -1,0 +1,30 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "BeamedPowerPlugin-Realistic",
+    "name":         "Beamed Power Standalone - Realistic Wavelengths",
+    "$kref":        "#/ckan/spacedock/2492",
+    "$vref":        "#/ckan/ksp-avc",
+    "license":      "public-domain",
+    "tags": [
+        "plugin",
+        "parts",
+        "physics"
+    ],
+    "provides": [
+        "BeamedPowerPlugin"
+    ],
+    "conflicts": [
+        { "name": "BeamedPowerPlugin" }
+    ],
+    "depends": [
+        { "name": "ModuleManager" }
+    ],
+    "install": [ {
+        "find":       "BeamedPowerStandalone",
+        "install_to": "GameData",
+        "filter":     [ "Plugins" ]
+    }, {
+        "find":       "Extra/GameData/BeamedPowerStandalone/Plugins",
+        "install_to": "GameData/BeamedPowerStandalone"
+    } ]
+}

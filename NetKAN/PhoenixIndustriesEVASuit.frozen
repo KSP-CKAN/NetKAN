@@ -4,7 +4,7 @@
     "$kref"        : "#/ckan/spacedock/659",
     "license"      : "CC-BY-NC-ND-4.0",
     "tags"         : [
-        "config",
+        "suits",
         "graphics",
         "crewed"
     ],
@@ -14,7 +14,7 @@
     "install": [
         {
             "find": "Phoenix_Industries_EVA",
-            "install_to": "GameData/TextureReplacer/Suits",
+            "install_to": "GameData/Phoenix_Industries_EVA/TextureReplacer/Suits",
             "filter": [ "Poster.jpg", "screenshot0.png" ]
         }
     ],

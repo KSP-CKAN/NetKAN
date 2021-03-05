@@ -1,5 +1,5 @@
 {
-    "spec_version": "v1.4",
+    "spec_version": "v1.18",
     "identifier":   "BDArmoryContinued",
     "name":         "BD Armory Continued",
     "abstract":     "The original Weapons mod by BahamutoD, continued!",
@@ -34,7 +34,12 @@
     ],
     "install": [ {
         "find":       "BDArmory",
-        "install_to": "GameData"
+        "install_to": "GameData",
+        "filter":     [ "craft" ]
+    }, {
+        "find":       "craft",
+        "install_to": "Ships",
+        "as":         "SPH"
     } ],
     "x_netkan_override": [
         {

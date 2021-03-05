@@ -9,24 +9,35 @@
         "parts"
     ],
     "depends": [
-        { "name": "ModuleManager" },
-        { "name": "CommunityResourcePack" },
-        { "name": "DMagicScienceAnimate" },
-        { "name": "B9PartSwitch" }
+        { "name": "ModuleManager"            },
+        { "name": "CommunityResourcePack"    },
+        { "name": "DMagicScienceAnimate"     },
+        { "name": "B9PartSwitch"             },
+        { "name": "SimpleAdjustableFairings" }
+    ],
+    "recommends": [
+        { "name": "ContractConfigurator" }
     ],
     "suggests": [
-        { "name": "NearFutureProps" }
+        { "name": "NearFutureProps"        },
+        { "name": "SCANsat"                },
+        { "name": "DockRotate"             },
+        { "name": "EngineIgnitorReignited" },
+        { "name": "PersistentRotation"     },
+        { "name": "MandatoryRCS"           },
+        { "name": "JNSQ"                   }
     ],
     "supports": [
-        { "name": "HullcamVDS" },
-        { "name": "RealPlume" },
-        { "name": "RemoteTech" },
-        { "name": "TweakScale" },
+        { "name": "HullcamVDS"          },
+        { "name": "RealPlume"           },
+        { "name": "RemoteTech"          },
+        { "name": "TweakScale"          },
         { "name": "HullcamVDSContinued" },
-        { "name": "KIS" },
-        { "name": "CommunityTechTree" },
-        { "name": "RealChute" },
-        { "name": "USI-LS" }
+        { "name": "KIS"                 },
+        { "name": "CommunityTechTree"   },
+        { "name": "RealChute"           },
+        { "name": "USI-LS"              },
+        { "name": "TACLS"               }
     ],
     "install": [ {
         "find":       "Bluedog_DB",
