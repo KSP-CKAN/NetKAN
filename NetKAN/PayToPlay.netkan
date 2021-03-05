@@ -13,7 +13,7 @@
         "career"
     ],
     "depends": [
-        { "name": "ModuleManager" }
+        { "name": "ModuleManager" },
 	{ "name": "KSP-Recall" }
     ],
     "recommends": [
