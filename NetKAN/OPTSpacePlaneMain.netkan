@@ -27,12 +27,10 @@
         "find":       "OPT",
         "install_to": "GameData"
     } ],
-    "x_netkan_override": [
-        {
-            "version": "v2.0.1",
-            "override": {
-                "ksp_version": "1.3"
-            }
+    "x_netkan_override": [ {
+        "version": "v2.0.1",
+        "override": {
+            "ksp_version": "1.3"
         }
-    ]
+    } ]
 }
