@@ -1,0 +1,36 @@
+{
+  "license": "MIT",
+  "identifier": "NavBallTextureChangerUpdated",
+  "x_via": "Automated Linuxgurugamer CKAN script",
+  "$kref": "#/ckan/github/linuxgurugamer/NavBallTextureChanger",
+  "$vref": "#/ckan/ksp-avc",
+  "resources": {
+    "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/200741-1",
+    "repository": "https://github.com/linuxgurugamer/NavBallTextureChanger"
+  },
+  "depends": [
+    {
+      "name": "ToolbarController"
+    },
+    {
+      "name": "ClickThroughBlocker"
+    },
+    {
+      "name": "SpaceTuxLibrary"
+    }
+  ],
+  "tags": [
+    "plugin",
+    "graphics"
+  ],
+  "install": [
+    {
+      "find": "NavBallTextureChanger",
+      "install_to": "GameData",
+      "filter_regexp": [
+        ".*\\.pdb$"
+      ]
+    }
+  ],
+  "spec_version": "v1.4"
+}
