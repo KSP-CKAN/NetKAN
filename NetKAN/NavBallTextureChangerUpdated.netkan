@@ -21,6 +21,7 @@
       "name": "SpaceTuxLibrary"
     }
   ],
+  "conflicts": [ { "name": "NavBallTextureExport" } ],
   "tags": [
     "plugin",
     "graphics"
