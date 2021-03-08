@@ -15,7 +15,10 @@
         "Kerbalism-Config"
     ],
     "conflicts": [
-        { "name": "Kerbalism-Config" }
+        { "name": "Kerbalism-Config" },
+        { "name": "TACLS"            },
+        { "name": "Snacks"           },
+        { "name": "USI-LS"           }
     ],
     "depends": [
         { "name": "ModuleManager" },
