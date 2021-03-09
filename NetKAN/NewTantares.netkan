@@ -1,18 +1,22 @@
 {
-    "spec_version" : 1,
-    "identifier"   : "NewTantares",
-    "name"         : "New Tantares",
-    "abstract"     : "Stockalike Soyuz, LK and more!",
-    "author"       : "Beale",
-    "$kref"        : "#/ckan/github/Tantares/Tantares",
-    "ksp_version"  : "1.11",
-    "license"      : "CC-BY-NC-SA-4.0",
+    "spec_version":    "v1.18",
+    "identifier":      "NewTantares",
+    "abstract":        "Stockalike Soviet Spacecraft",
+    "author":          "Beale",
+    "$kref":           "#/ckan/github/Tantares/Tantares",
+    "ksp_version_min": "1.10.1",
+    "ksp_version_max": "1.11",
+    "license":         "CC-BY-NC-SA-4.0",
     "resources": {
-        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/73686-*"
+        "homepage":  "https://forum.kerbalspaceprogram.com/index.php?/topic/73686-Tantares",
+        "spacedock": "https://spacedock.info/mod/174/Tantares"
     },
     "tags": [
         "parts",
         "crewed"
+    ],
+    "provides": [
+        "Tantares"
     ],
     "depends": [
         { "name": "ModuleManager" }
@@ -23,10 +27,12 @@
     "conflicts": [
         { "name": "Tantares" }
     ],
-    "install": [
-        {
-            "file"       : "GameData/Tantares",
-            "install_to" : "GameData"
-        }
-    ]
+    "install": [ {
+        "find":       "Tantares",
+        "install_to": "GameData"
+    }, {
+        "find":       "Crafts",
+        "install_to": "Ships",
+        "as":         "VAB"
+    } ]
 }

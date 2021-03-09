@@ -1,9 +1,16 @@
 {
-    "spec_version": "v1.18",
-    "identifier":   "TantaresSP",
-    "$kref":        "#/ckan/spacedock/2498",
-    "ksp_version":  "1.10",
-    "license":      "MIT",
+    "spec_version":    "v1.18",
+    "identifier":      "TantaresSP",
+    "abstract":        "Soviet Space Probes and Interplanetary Spacecraft",
+    "author":          "Beale",
+    "$kref":           "#/ckan/github/Tantares/TantaresSP",
+    "ksp_version_min": "1.10.1",
+    "ksp_version_max": "1.11",
+    "license":         "CC-BY-NC-SA-4.0",
+    "resources": {
+        "homepage":  "https://forum.kerbalspaceprogram.com/index.php?/topic/73686-Tantares",
+        "spacedock": "https://spacedock.info/mod/2498/TantaresSP"
+    },
     "tags": [
         "parts",
         "uncrewed"
@@ -21,5 +28,10 @@
         "find":       "Crafts",
         "install_to": "Ships",
         "as":         "VAB"
-    } ]
+    } ],
+    "x_netkan_version_edit": {
+        "find": "^[vV]?(?<version>.+)$",
+        "replace": "${version}",
+        "strict": true
+    }
 }
