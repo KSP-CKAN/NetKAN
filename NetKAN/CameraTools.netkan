@@ -1,15 +1,12 @@
 {
-    "spec_version" : 1,
-    "identifier"   : "CameraTools",
-    "license"      : "GPL-3.0",
-    "$kref"        : "#/ckan/github/jrodrigv/CameraTools",
-    "$vref"        : "#/ckan/ksp-avc",
+    "spec_version": 1,
+    "identifier":   "CameraTools",
+    "author":       [ "BahamutoD", "jrodrigv", "Brett_Ryland" ],
+    "$kref":        "#/ckan/spacedock/2657",
+    "$vref":        "#/ckan/ksp-avc",
     "x_netkan_force_v": true,
+    "license":      "GPL-3.0",
     "tags": [
         "plugin"
-    ],
-    "resources": {
-        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/84938-*",
-        "x_screenshot": "https://spacedock.info/content/BahamutoD_222/Camera_Tools/Camera_Tools-1456425830.4879806.jpg"
-    }
+    ]
 }
