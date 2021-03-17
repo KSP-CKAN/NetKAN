@@ -5,8 +5,7 @@
     "abstract":        "Stockalike Soviet and European Launch Vehicles",
     "author":          "Beale",
     "$kref":           "#/ckan/github/Tantares/TantaresLV",
-    "ksp_version_min": "1.10.1",
-    "ksp_version_max": "1.11",
+    "$vref":           "#/ckan/ksp-avc",
     "license":         "CC-BY-NC-SA-4.0",
     "resources": {
         "homepage":  "https://forum.kerbalspaceprogram.com/index.php?/topic/73686-Tantares",
