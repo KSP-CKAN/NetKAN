@@ -14,5 +14,11 @@
     "install": [ {
         "file"       : "DMPClient/GameData/DarkMultiPlayer",
         "install_to" : "GameData"
+    } ],
+    "x_netkan_override": [ {
+        "version": "v0.3.7.1",
+        "override": {
+            "ksp_version_min": "1.11.1"
+        }
     } ]
 }
