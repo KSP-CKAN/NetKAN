@@ -1,0 +1,33 @@
+{
+  "spec_version"        : "v1.4",
+  "identifier"          : "ProvenanceAerospace",
+  "$kref"               : "#/ckan/github/DylanSemrau/Provenance-Aerospace",
+  "abstract"            : "Provenance Aerospace adds Blue Origin parts to KSP in a stockalike style. Currently New Glenn, Blue Moon, and New Shepard are all that are planned for the mod.",
+  "author"              : "DylanSemrau",
+  "license"             : "CC-BY-NC-SA-4.0",
+  "$vref"               : "#/ckan/ksp-avc",
+  "resources": {
+    "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/193258-110x-provenance-aerospace-stockalike-new-glenn-mod/",
+    "repository": "https://github.com/DylanSemrau/Provenance-Aerospace"
+  },
+  "tags": [
+    "parts"
+  ],
+  "depends": [
+      { "name" : "B9PartSwitch" },
+      { "name" : "SimpleAdjustableFairings" },
+      { "name" : "CommunityResourcePack" },
+  ],
+  "suggests": [
+      { "name" : "JNSQ" },
+      { "name" : "RealPlume-StockConfigs" },
+      { "name" : "BluedogDB" },
+      { "name" : "ModularLaunchPads" }
+  ],
+  "install" : [
+      { 
+      "find" : "ProvenanceAerospace",
+       "install_to" : "GameData"
+       }
+  ]
+}
