@@ -5,8 +5,8 @@
     "abstract":     "A library for patching, replacing and decorating .NET and Mono methods during runtime",
     "author":       [ "Andreas Pardeike", "gotmachine" ],
     "$kref":        "#/ckan/github/HarmonyKSP/HarmonyKSP",
+    "$vref":        "#/ckan/ksp-avc",
     "license":      "MIT",
-    "ksp_version":  "any",
     "tags": [
         "library"
     ],
