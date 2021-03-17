@@ -11,9 +11,6 @@
     "tags": [
         "plugin"
     ],
-    "provides": [
-        "Harmony1"
-    ],
     "install": [ {
         "file"       : "DMPClient/GameData/DarkMultiPlayer",
         "install_to" : "GameData"
