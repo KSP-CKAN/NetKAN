@@ -7,8 +7,8 @@
     "$vref":        "#/ckan/ksp-avc",
     "license":      "Unlicense",
     "resources": {
-        "homepage": "https://kerbalism.github.io/Kerbalism",
-        "repository": "https://github.com/Kerbalism/Kerbalism"
+        "manual": "https://kerbalism.github.io/Kerbalism",
+        "homepage": https://forum.kerbalspaceprogram.com/index.php?/topic/190382-*"
     },
     "tags": [
         "plugin",
@@ -17,30 +17,26 @@
         "science",
         "resources"
     ],
-    "x_netkan_staging": true,
-    "x_netkan_staging_reason": "Bundles Harmony. Please check the DLL's version, and if it's 2 or later, remove the provides and add a depends on Harmony2.",
-    "provides": [
-        "Harmony1"
-    ],
     "depends": [
         { "name": "CommunityResourcePack" },
-        { "name": "Kerbalism-Config" }
+        { "name": "Kerbalism-Config"      },
+        { "name": "Harmony2"              }
     ],
     "recommends": [
         { "name": "KerbalChangelog" }
     ],
     "supports": [
-        { "name": "ConnectedLivingSpace" },
-        { "name": "CryoTanks" },
-        { "name": "KerbalAtomics" },
+        { "name": "ConnectedLivingSpace"       },
+        { "name": "CryoTanks"                  },
+        { "name": "KerbalAtomics"              },
         { "name": "KerbalPlanetaryBaseSystems" },
-        { "name": "NearFutureElectrical" },
-        { "name": "NearFutureSolar" },
-        { "name": "NearFutureSpacecraft" },
-        { "name": "SCANsat" }
+        { "name": "NearFutureElectrical"       },
+        { "name": "NearFutureSolar"            },
+        { "name": "NearFutureSpacecraft"       },
+        { "name": "SCANsat"                    }
     ],
     "install": [ {
-        "find": "Kerbalism",
+        "find":       "Kerbalism",
         "install_to": "GameData"
     } ]
 }
