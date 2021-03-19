@@ -1,0 +1,21 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "KSPBurst",
+    "name": "KSPBurst",
+    "abstract": "Burst compiler for Kerbal Space Program",
+    "$kref": "#/ckan/github/KSPModdingLibs/KSPBurst/version_from_asset/^KSPBurst_[vV]?(?<version>\\d+(?:\\.\\d+){0,3})\\.zip$",
+    "$vref": "#/ckan/ksp-avc",
+    "license": "MIT",
+    "resources" : {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/201112-*",
+        "repository": "https://github.com/KSPModdingLibs/KSPBurst"
+    },
+    "tags": [ "library" ],
+    "provides"  : [ "Burst" ],
+    "install" : [
+        {
+            "find"       : "000_KSPBurst",
+            "install_to" : "GameData"
+        }
+    ]
+}
