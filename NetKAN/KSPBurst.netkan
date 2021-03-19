@@ -1,0 +1,21 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "KSPBurst",
+    "name":         "KSPBurst",
+    "abstract":     "Burst compiler for Kerbal Space Program. Needs Mono installed on Linux and macOS.",
+    "$kref":        "#/ckan/github/KSPModdingLibs/KSPBurst/asset_match/^KSPBurst_[0-9.]+\\.zip$",
+    "$vref":        "#/ckan/ksp-avc",
+    "author":       "dkavolis",
+    "license":      "unknown",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/201112-*",
+        "repository": "https://github.com/KSPModdingLibs/KSPBurst"
+    },
+    "tags": [ "library" ],
+    "install": [
+        {
+            "find"       : "000_KSPBurst",
+            "install_to" : "GameData"
+        }
+    ]
+}
