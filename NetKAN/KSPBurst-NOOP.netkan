@@ -11,8 +11,9 @@
         "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/201112-*",
         "repository": "https://github.com/KSPModdingLibs/KSPBurst"
     },
-    "tags": [ "library" ],
-    "provides": [ "KSPBurst" ],
+    "tags":      [ "library" ],
+    "provides":  [ "KSPBurst" ],
+    "conflicts": [ { "name": "KSPBurst" } ],
     "install": [
         {
             "find"       : "000_KSPBurst",
