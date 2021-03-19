@@ -1,7 +1,7 @@
 {
     "spec_version": "v1.4",
-    "identifier":   "KSPBurst-NOOP",
-    "name":         "KSPBurst no-op version",
+    "identifier":   "KSPBurst-Lite",
+    "name":         "KSPBurst Lite",
     "abstract":     "A stand-in for KSPBurst that satisfies all dependendent mods but doesn't install and run the compiler",
     "$kref":        "#/ckan/github/KSPModdingLibs/KSPBurst/asset_match/^KSPBurst_[0-9.]+_plugins_only\\.zip$",
     "$vref":        "#/ckan/ksp-avc",
