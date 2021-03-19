@@ -1,9 +1,9 @@
 {
     "spec_version": "v1.4",
-    "identifier":   "KSPBurst",
-    "name":         "KSPBurst",
-    "abstract":     "Burst compiler for Kerbal Space Program. Needs Mono installed on Linux and macOS.",
-    "$kref":        "#/ckan/github/KSPModdingLibs/KSPBurst/asset_match/^KSPBurst_[0-9.]+\\.zip$",
+    "identifier":   "KSPBurst-NOOP",
+    "name":         "KSPBurst no-op version",
+    "abstract":     "A stand-in for KSPBurst that satisfies all dependendent mods but doesn't install and run the compiler",
+    "$kref":        "#/ckan/github/KSPModdingLibs/KSPBurst/asset_match/^KSPBurst_[0-9.]+_plugins_only\\.zip$",
     "$vref":        "#/ckan/ksp-avc",
     "author":       "dkavolis",
     "license":      "MIT",
@@ -12,6 +12,7 @@
         "repository": "https://github.com/KSPModdingLibs/KSPBurst"
     },
     "tags": [ "library" ],
+    "provides": [ "KSPBurst" ],
     "install": [
         {
             "find"       : "000_KSPBurst",
