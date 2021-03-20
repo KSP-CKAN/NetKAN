@@ -6,5 +6,13 @@
     "tags": [
         "plugin",
         "control"
-    ]
+    ],
+    "depends": [
+        { "name": "Harmony2" }
+    ],
+    "install": [ {
+        "find":          "KSPW00tNow",
+        "install_to":    "GameData",
+        "filter_regexp": [ "0Harmony.*\\.dll" ]
+    } ]
 }

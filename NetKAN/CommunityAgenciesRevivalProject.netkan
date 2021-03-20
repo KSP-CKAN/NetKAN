@@ -21,5 +21,11 @@
         "find":       "CraftFiles",
         "install_to": "Ships",
         "as":         "SPH"
-    }]
+    } ],
+    "x_netkan_override": [ {
+        "version": "0.2",
+        "override": {
+            "ksp_version_min": "1.11.0"
+        }
+    } ]
 }

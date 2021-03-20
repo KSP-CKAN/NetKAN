@@ -3,9 +3,8 @@
   "author": "linuxgurugamer",
   "identifier": "NavBallTextureChangerUpdated",
   "x_via": "Automated Linuxgurugamer CKAN script",
-  "$kref": "#/ckan/github/linuxgurugamer/NavBallTextureChanger",
+  "$kref": "#/ckan/spacedock/2654",
   "$vref": "#/ckan/ksp-avc",
-  "abstract": "This mod will let you change the textures of the navbal",
   "resources": {
     "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/200741-1",
     "repository": "https://github.com/linuxgurugamer/NavBallTextureChanger"
@@ -21,6 +20,7 @@
       "name": "SpaceTuxLibrary"
     }
   ],
+  "conflicts": [ { "name": "NavBallTextureExport" } ],
   "tags": [
     "plugin",
     "graphics"
