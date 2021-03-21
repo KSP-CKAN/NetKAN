@@ -33,8 +33,8 @@ jobs:
               uses: KSP-CKAN/xKAN-meta_testing@master
               env:
                   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-                  GITHUB_PR_BASE_SHA: ${{ github.event.pull_request.base.sha }}
-                  GITHUB_EVENT_BEFORE: ${{ github.event.before }}
+                  PR_BASE_SHA: ${{ github.event.pull_request.base.sha }}
+                  EVENT_BEFORE: ${{ github.event.before }}
               with:
                   source: commits
                   diff meta root: .CKAN-meta
