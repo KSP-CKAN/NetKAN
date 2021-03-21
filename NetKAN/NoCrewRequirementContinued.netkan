@@ -3,7 +3,8 @@
     "identifier":   "NoCrewRequirementContinued",
     "author":       [ "RealGecko", "Orbinaut" ],
     "$kref":        "#/ckan/spacedock/715",
-    "$vref":        "#/ckan/ksp-avc",
+    "comment":      "Version file has no compat info, just a small MM patch",
+    "ksp_version":  "any",
     "license":      "GPL-3.0",
     "tags": [
         "config",
