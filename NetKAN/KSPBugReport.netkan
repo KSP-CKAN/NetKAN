@@ -1,0 +1,20 @@
+{
+    "spec_version": "v1.18",
+    "identifier":   "KSPBugReport",
+    "abstract":     "Easy to use bug reporting plugin for KSP players",
+    "author":       "Gotmachine",
+    "$kref":        "#/ckan/github/KSPModdingLibs/KSPBugReport",
+    "$vref":        "#/ckan/ksp-avc",
+    "license":      "MIT",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/201153-*"
+    },
+    "tags": [
+        "plugin",
+        "convenience"
+    ],
+    "install": [ {
+        "find":       "KspBugReport",
+        "install_to": "GameData"
+    } ]
+}
