@@ -3,7 +3,7 @@
     "identifier":   "BarisBridge",
     "author":       "Angel125",
     "$kref":        "#/ckan/github/Angel-125/BARISBridge",
-    "ksp_version_min": "1.8",
+    "$vref":        "#/ckan/ksp-avc",
     "license":      "GPL-3.0",
     "resources": {
         "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/164448-*"

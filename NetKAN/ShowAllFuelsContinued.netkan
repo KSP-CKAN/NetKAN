@@ -2,6 +2,7 @@
     "spec_version": "v1.4",
     "identifier":   "ShowAllFuelsContinued",
     "$kref":        "#/ckan/spacedock/1031",
+    "$vref":        "#/ckan/ksp-avc",
     "license":      "MIT",
     "tags": [
         "plugin",
