@@ -4,7 +4,7 @@
     "name":         "Real Fuels: Stockalike RF Configs",
     "abstract":     "Adds RealFuels configs to stock and many mods' engines, keeping engine role as designed to fit with stock and stock-aligned mods.",
     "$kref":        "#/ckan/github/Raptor831/RFStockalike",
-    "$vref":        "#/ckan/ksp-avc",
+    "comment":      "Version file has a syntax error",
     "license":      "CC-BY-SA",
     "resources": {
         "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/73410-*"
