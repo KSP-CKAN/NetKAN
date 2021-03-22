@@ -18,9 +18,8 @@
         "planet-pack"
     ],
     "depends": [
-        {
-            "name": "OuterPlanetsMod"
-        },
+        { "name": "ModuleManager" },
+        { "name": "OuterPlanetsMod" },
         {
             "name": "CustomAsteroids",
             "min_version": "v1.9.0",

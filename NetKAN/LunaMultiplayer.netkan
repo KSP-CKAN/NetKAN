@@ -3,6 +3,7 @@
     "identifier":   "LunaMultiplayer",
     "name":         "Luna Multiplayer Client",
     "$kref":        "#/ckan/github/LunaMultiplayer/LunaMultiplayer/asset_match/^LunaMultiplayer-Release\\.zip$",
+    "comment":      "Version file is outdated",
     "ksp_version":  "1.11",
     "license":      "MIT",
     "tags": [

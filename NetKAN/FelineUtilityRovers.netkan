@@ -1,8 +1,9 @@
 {
-    "spec_version" : 1,
-    "identifier"   : "FelineUtilityRovers",
-    "$kref"        : "#/ckan/spacedock/1172",
-    "license"      : "CC-BY-NC",
+    "spec_version": 1,
+    "identifier":   "FelineUtilityRovers",
+    "$kref":        "#/ckan/spacedock/1172",
+    "comment":      "Version file has a syntax error",
+    "license":      "CC-BY-NC",
     "tags": [
         "parts",
         "crewed"
@@ -11,7 +12,7 @@
         { "name": "ModuleManager" }
     ],
     "install": [ {
-        "file"       : "GameData/KerbetrotterLtd",
-        "install_to" : "GameData"
+        "file":       "GameData/KerbetrotterLtd",
+        "install_to": "GameData"
     } ]
 }
