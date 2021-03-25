@@ -9,5 +9,11 @@
     "install": [ {
         "find":       "OPPS",
         "install_to": "GameData"
+    } ],
+    "x_netkan_override": [ {
+        "version": "1",
+        "override": {
+            "ksp_version_min": "1.4.5"
+        }
     } ]
 }

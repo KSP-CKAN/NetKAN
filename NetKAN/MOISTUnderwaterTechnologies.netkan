@@ -14,5 +14,11 @@
         "find":       "JDSA",
         "install_to": "GameData",
         "filter":     [ "CommunityResourcePack", "SinkEmAll" ]
+    } ],
+    "x_netkan_override": [ {
+        "version": "1.10",
+        "override": {
+            "ksp_version_min": "1.10.0"
+        }
     } ]
 }
