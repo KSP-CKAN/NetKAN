@@ -1,16 +1,18 @@
 {
     "spec_version": "v1.4",
-    "identifier": "CapsuleCorpKerbalKolonizationProgram",
-    "$kref": "#/ckan/spacedock/2558",
-    "license": "MIT",
-      "install": [ {
-        "find":"CapsuleCorp",
-        "install_to": "GameData"
-    } ],
+    "identifier":   "CapsuleCorpKerbalKolonizationProgram",
+    "$kref":        "#/ckan/spacedock/2558",
+    "license":      "MIT",
     "tags": [
         "config",
         "parts",
         "crewed"
     ],
-    "x_via": "Automated SpaceDock CKAN submission"
+    "depends": [
+        { "name": "ModuleManager" }
+    ],
+    "install": [ {
+        "find":       "CapsuleCorp",
+        "install_to": "GameData"
+    } ]
 }
