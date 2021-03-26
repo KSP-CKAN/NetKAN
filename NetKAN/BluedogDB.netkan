@@ -13,7 +13,8 @@
         { "name": "CommunityResourcePack"    },
         { "name": "DMagicScienceAnimate"     },
         { "name": "B9PartSwitch"             },
-        { "name": "SimpleAdjustableFairings" }
+        { "name": "SimpleAdjustableFairings" },
+        { "name": "Waterfall"                }
     ],
     "recommends": [
         { "name": "ContractConfigurator" }
@@ -25,11 +26,12 @@
         { "name": "EngineIgnitorReignited" },
         { "name": "PersistentRotation"     },
         { "name": "MandatoryRCS"           },
-        { "name": "JNSQ"                   }
+        { "name": "JNSQ"                   },
+        { "name": "RealPlume"              },
+        { "name": "NeptuneCamera"          }
     ],
     "supports": [
         { "name": "HullcamVDS"          },
-        { "name": "RealPlume"           },
         { "name": "RemoteTech"          },
         { "name": "TweakScale"          },
         { "name": "HullcamVDSContinued" },
@@ -37,7 +39,8 @@
         { "name": "CommunityTechTree"   },
         { "name": "RealChute"           },
         { "name": "USI-LS"              },
-        { "name": "TACLS"               }
+        { "name": "TACLS"               },
+        { "name": "SpaceDust"           }
     ],
     "install": [ {
         "find":       "Bluedog_DB",
