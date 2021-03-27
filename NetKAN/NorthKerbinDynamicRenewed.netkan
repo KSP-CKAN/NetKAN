@@ -23,5 +23,11 @@
     }, {
         "find":       "Craft/VAB",
         "install_to": "Ships"
+    } ],
+    "x_netkan_override": [ {
+        "version": "0.0.16",
+        "override": {
+            "ksp_version_min": "1.9.1"
+        }
     } ]
 }
