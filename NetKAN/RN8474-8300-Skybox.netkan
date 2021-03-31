@@ -13,5 +13,11 @@
     } ],
     "depends": [
         { "name": "TextureReplacer" }
-    ]
+    ],
+    "x_netkan_override": [ {
+        "version": "1.0",
+        "override": {
+            "ksp_version_min": "1.7"
+        }
+    } ]
 }
