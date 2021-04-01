@@ -1,0 +1,17 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "KerbalMiniShuttle",
+    "$kref":        "#/ckan/spacedock/2678",
+    "license":      "GPL-2.0",
+    "tags": [
+        "parts",
+        "crewed"
+    ],
+    "install": [ {
+        "find":       "GameData/BTS",
+        "install_to": "GameData"
+    }, {
+        "find":       "SPH",
+        "install_to": "Ships"
+    } ]
+}
