@@ -2,7 +2,7 @@
     "spec_version": "v1.18",
     "identifier":   "Kerbalism-Config-RO",
     "name":         "Kerbalism - RealismOverhaul Config",
-    "$kref":        "#/ckan/github/Standecco/ROKerbalism",
+    "$kref":        "#/ckan/github/KSP-RO/ROKerbalism",
     "$vref":        "#/ckan/ksp-avc/Kerbalism/Kerbalism.version",
     "license":      "Unlicense",
     "tags": [
