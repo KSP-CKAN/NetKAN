@@ -7,6 +7,9 @@
         "parts",
         "combat"
     ],
+    "depends": [
+        { "name": "BDArmory" }
+    ],
     "install": [ {
         "find":       "fishy anti missile spam/fishy anti missile spam",
         "install_to": "GameData"
