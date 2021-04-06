@@ -1,0 +1,26 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "KerbinPlacePack",
+    "$kref":        "#/ckan/spacedock/2684",
+    "license":      "CC-BY-NC-4.0",
+    "tags": [
+        "config",
+        "buildings"
+    ],
+    "depends": [
+        { "name": "KerbalKonstructs"     },
+        { "name": "TundraSpaceCenter"    },
+        { "name": "KerbinSideRemastered" },
+        { "name": "AuroraSpaceCenter"    }
+    ],
+    "recommends": [
+        { "name": "TundraExploration"          },
+        { "name": "ModularLaunchPads"          },
+        { "name": "BluedogDB"                  },
+        { "name": "DodoLabsStockalikeElectron" }
+    ],
+    "install": [ {
+        "find":       "KP Pack",
+        "install_to": "GameData"
+    } ]
+}
