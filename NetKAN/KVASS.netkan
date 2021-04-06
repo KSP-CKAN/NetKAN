@@ -5,7 +5,7 @@
     "name"         : "KVASS - Kerbal Very Simplified Simulation and Planning",
     "author"       : "flart",
     "license"      : "GPL-3.0",
-    "release_status" : "development",
+    "release_status" : "stable",
     "$vref" : "#/ckan/ksp-avc",
     "resources" : {
         "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/183393-*"
@@ -13,10 +13,6 @@
     "tags": [
         "plugin",
         "career"
-    ],
-    "conflicts": [
-        { "name": "KRASH" },
-        { "name": "KerbalConstructionTime" }
     ],
     "recommends": [
         { "name": "KerbalAlarmClock" }
