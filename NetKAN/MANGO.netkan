@@ -7,6 +7,9 @@
         "plugin",
         "comms"
     ],
+    "depends": [
+        { "name": "ModuleManager" }
+    ],
     "install": [ {
         "find":       "FruitKocktail",
         "install_to": "GameData"
