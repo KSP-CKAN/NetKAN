@@ -15,5 +15,11 @@
         { "name": "TundraExploration"    },
         { "name": "SpaceXLaunchVehicles" },
         { "name": "SpaceXLegs"           }
-    ]
+    ],
+    "x_netkan_override": [ {
+        "version": "1.0",
+        "override": {
+            "ksp_version_min": "1.11.0"
+        }
+    } ]
 }
