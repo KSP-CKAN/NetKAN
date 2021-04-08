@@ -1,0 +1,19 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "KerbinSideRemasteredGapExtras",
+    "$kref":        "#/ckan/spacedock/2685",
+    "license":      "MIT",
+    "tags": [
+        "config",
+        "buildings"
+    ],
+    "depends": [
+        { "name": "ModuleManager"        },
+        { "name": "KerbalKonstructs"     },
+        { "name": "KerbinSideRemastered" },
+        { "name": "StockalikeStructures" }
+    ],
+    "suggests": [
+        { "name": "KerbinSideRemasteredGap" }
+    ]
+}
