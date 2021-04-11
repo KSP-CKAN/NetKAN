@@ -1,7 +1,7 @@
 {
     "spec_version": "v1.4",
     "identifier":   "KerbinPlacePack",
-    "$kref":        "#/ckan/spacedock/2684",
+    "$kref":        "#/ckan/spacedock/2687",
     "license":      "CC-BY-NC-4.0",
     "tags": [
         "config",
@@ -20,7 +20,7 @@
         { "name": "DodoLabsStockalikeElectron" }
     ],
     "install": [ {
-        "find":       "KP Pack",
+        "find":       "KerbinExpanisonPack",
         "install_to": "GameData"
     } ]
 }
