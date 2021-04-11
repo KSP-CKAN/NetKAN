@@ -14,14 +14,17 @@
         "find":       "Jimbodiah",
         "install_to": "GameData"
     } ],
-    "x_netkan_override": [
-        {
-            "version": "1.0",
-            "delete": [ "ksp_version" ],
-            "override": {
-                "ksp_version_min" : "1.2",
-                "ksp_version_max" : "1.3"
-            }
+    "x_netkan_override": [ {
+        "version": "1.7.0-001",
+        "override": {
+            "ksp_version_min": "1.7"
         }
-    ]
+    }, {
+        "version": "1.0",
+        "delete": [ "ksp_version" ],
+        "override": {
+            "ksp_version_min" : "1.2",
+            "ksp_version_max" : "1.3"
+        }
+    } ]
 }
