@@ -20,7 +20,7 @@
         { "name": "DodoLabsStockalikeElectron" }
     ],
     "install": [ {
-        "find":       "KerbinExpanisonPack",
+        "find":       "KerbinExpansionPack",
         "install_to": "GameData"
     } ]
 }
