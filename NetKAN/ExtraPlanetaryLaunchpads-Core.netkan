@@ -1,0 +1,18 @@
+spec_version: v1.2
+identifier: ExtraPlanetaryLaunchpads-Core
+name: Extraplanetary Launchpads Core
+abstract: Plugin for ExtraPlanetaryLaunchpads
+author: taniwha
+$kref: '#/ckan/ksp-avc/http://taniwha.org/~bill/EL.version'
+$vref: >-
+  #/ckan/ksp-avc/ExtraplanetaryLaunchpads/Plugins/ExtraplanetaryLaunchpads.version
+license: GPL-3.0
+release_status: stable
+resources:
+  homepage: https://forum.kerbalspaceprogram.com/index.php?/topic/54284-*
+  repository: https://github.com/taniwha-qf/Extraplanetary-Launchpads
+tags:
+  - plugin
+install:
+  - file: ExtraplanetaryLaunchpads/Plugins
+    install_to: GameData/ExtraplanetaryLaunchpads
