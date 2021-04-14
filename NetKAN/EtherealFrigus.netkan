@@ -1,0 +1,24 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "EtherealFrigus",
+    "$kref":        "#/ckan/spacedock/2690",
+    "license":      "MIT",
+    "tags": [
+        "config",
+        "planet-pack"
+    ],
+    "depends": [
+        { "name": "Kopernicus"    },
+        { "name": "ModuleManager" }
+    ],
+    "recommends": [
+        { "name": "DistantObject"      },
+        { "name": "PlanetShine"        },
+        { "name": "Scatterer-sunflare" },
+        { "name": "Skybox"             }
+    ],
+    "install": [ {
+        "find":       "Ethereal_Frigus",
+        "install_to": "GameData"
+    } ]
+}
