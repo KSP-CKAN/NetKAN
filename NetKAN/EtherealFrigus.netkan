@@ -3,5 +3,22 @@
     "identifier": "EtherealFrigus",
     "$kref": "#/ckan/spacedock/2690",
     "license": "MIT",
-    "x_via": "Automated SpaceDock CKAN submission"
+    "depends": [
+        { "name": "Kopernicus"    },
+        { "name": "ModuleManager" }
+    ],
+    "recommends": [
+        { "name": "DistantObject"      },
+        { "name": "PlanetShine"        },
+        { "name": "Scatterer-sunflare" },
+        { "name": "Skybox"             }
+    ],
+    "install": [ {
+        "find": "Ethereal_Frigus",
+        "install_to": "GameData"
+    } ],
+    "tags": [
+        "config",
+        "planet-pack"
+    ]
 }
