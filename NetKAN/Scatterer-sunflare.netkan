@@ -1,16 +1,19 @@
 {
-    "spec_version": "v1.4",
-    "identifier":   "Scatterer-sunflare",
-    "name":         "Scatterer Sunflare",
-    "abstract":     "The sunflare component of scatterer",
-    "$kref":        "#/ckan/spacedock/141",
+    "spec_version":     "v1.4",
+    "identifier":       "Scatterer-sunflare",
+    "name":             "Scatterer Sunflare",
+    "abstract":         "The sunflare component of scatterer",
+    "$kref":            "#/ckan/spacedock/141",
     "x_netkan_force_v": true,
-    "x_netkan_epoch": "2",
-    "release_status": "development",
-    "license":      "GPL-3.0",
+    "x_netkan_epoch":   "3",
+    "release_status":   "development",
+    "license":          "GPL-3.0",
     "tags": [
         "graphics",
         "config"
+    ],
+    "depends": [
+        { "name": "Scatterer" }
     ],
     "provides": [
         "Scatterer-sunflare-default"
