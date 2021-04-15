@@ -1,0 +1,15 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "GRAPES",
+    "$kref":        "#/spacedock/2691",
+    "license":      "CC-BY-NC-SA",
+    "tags": [
+        "plugin",
+        "parts",
+        "resources"
+    ],
+    "install": [ {
+        "find":       "FruitKocktail",
+        "install_to": "GameData"
+    } ]
+}
