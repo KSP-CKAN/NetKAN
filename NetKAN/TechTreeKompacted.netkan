@@ -11,10 +11,8 @@
         { "name": "ModuleManager" }
     ],
     "conflicts": [
-        { "name": "SimplexTechTree"  },
-        { "name": "TETRIXTechTree"   },
-        { "name": "KiwiTechTree"     },
-        { "name": "UnKerballedStart" },
-        { "name": "ProbesBeforeCrew" }
+        { "name": "SimplexTechTree" },
+        { "name": "TETRIXTechTree"  },
+        { "name": "KiwiTechTree"    }
     ]
 }
