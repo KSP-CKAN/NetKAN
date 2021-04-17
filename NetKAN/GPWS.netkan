@@ -28,9 +28,7 @@
 		{
         	"file":       "XInputInterface.dll",
         	"install_to": "GameRoot"
-    	} 
-	],
-    "install"      : [
+    	}, 
         {
             "file"          : "GameData/GPWS",
             "install_to"    : "GameData"
