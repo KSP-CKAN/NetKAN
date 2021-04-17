@@ -20,6 +20,16 @@
         { "name": "SpaceTuxLibrary" },
         { "name": "ModuleManager" }
     ],
+    "install": [ 
+		{
+	        "file":       "XINPUTDOTNET_LICENSE",
+    	    "install_to": "GameRoot"
+	    }, 
+		{
+        	"file":       "XInputInterface.dll",
+        	"install_to": "GameRoot"
+    	} 
+	],
     "install"      : [
         {
             "file"          : "GameData/GPWS",
