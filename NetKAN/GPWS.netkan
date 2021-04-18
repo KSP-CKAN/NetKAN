@@ -21,14 +21,6 @@
         { "name": "ModuleManager" }
     ],
     "install": [ 
-		{
-	        "file":       "XINPUTDOTNET_LICENSE",
-    	    "install_to": "GameRoot"
-	    }, 
-		{
-        	"file":       "XInputInterface.dll",
-        	"install_to": "GameRoot"
-    	}, 
         {
             "file"          : "GameData/GPWS",
             "install_to"    : "GameData"
