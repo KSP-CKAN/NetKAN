@@ -9,16 +9,19 @@
     ],
     "depends": [
         { "name": "ModuleManager"        },
-        { "name": "KerbalKonstructs"     },
+        { "name": "KSCExtended"          },
+        { "name": "StockalikeStructures" },
         { "name": "TundraSpaceCenter"    },
         { "name": "KerbinSideRemastered" },
-        { "name": "KSCExtended"          }
+        { "name": "KerbalKonstructs"     },
+        { "name": "AuroraSpaceCenter"    }
     ],
     "recommends": [
+        { "name": "BluedogDB"                  },
         { "name": "TundraExploration"          },
         { "name": "ModularLaunchPads"          },
-        { "name": "BluedogDB"                  },
-        { "name": "DodoLabsStockalikeElectron" }
+        { "name": "DodoLabsStockalikeElectron" },
+        { "name": "ProvenanceAerospace"        }
     ],
     "install": [ {
         "find":       "KerbinExpansionPack",
