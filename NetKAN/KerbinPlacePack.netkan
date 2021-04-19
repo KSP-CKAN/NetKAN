@@ -8,7 +8,6 @@
         "buildings"
     ],
     "depends": [
-        { "name": "ModuleManager"        },
         { "name": "KSCExtended"          },
         { "name": "StockalikeStructures" },
         { "name": "TundraSpaceCenter"    },
