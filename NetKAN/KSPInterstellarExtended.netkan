@@ -26,7 +26,9 @@
     "depends": [
         { "name"        : "InterstellarFuelSwitch-Core" },
         { "name"        : "TweakScale"                  },
-        { "name"        : "ModuleManager"               }
+        { "name"        : "ModuleManager"               },
+        { "name"        : "CommunityResourcePack"       },
+        { "name"        : "CommunityTechTree"           }
     ],
     "recommends": [
         { "name"        : "PatchManager"             },
@@ -38,8 +40,6 @@
         { "name"        : "HideEmptyTechNodes"       }
     ],
     "suggests": [
-        { "name"        : "CommunityResourcePack"    },
-        { "name"        : "CommunityTechTree"        },
         { "name"        : "HeatControl"              },
         { "name"        : "TexturesUnlimited"        },
         { "name"        : "UniversalStorage"         },
