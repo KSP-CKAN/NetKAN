@@ -17,6 +17,9 @@
     "depends" : [
         { "name": "ModuleManager" }
     ],
+    "recommends": [
+        { "name": "PatchManager" }
+    ],
     "install" : [
         {
             "find"          : "SmartParts",
