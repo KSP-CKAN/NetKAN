@@ -1,0 +1,14 @@
+{
+    "spec_version": "v1.10",
+    "identifier":   "CompletelyNonAggressiveRocketry",
+    "$kref":        "#/ckan/spacedock/2271",
+    "license":      "CC-BY-NC-SA-4.0",
+    "tags": [
+        "parts"
+    ],
+    "install": [ {
+        "find":          "CNAR",
+        "install_to":    "GameData",
+        "filter_regexp": [ "PlumeParty/Version" ]
+    } ]
+}
