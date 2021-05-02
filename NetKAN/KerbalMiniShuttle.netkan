@@ -7,6 +7,9 @@
         "parts",
         "crewed"
     ],
+    "depends": [
+        { "name": "ModuleManager" }
+    ],
     "install": [ {
         "find":       "GameData/BTS",
         "install_to": "GameData"
