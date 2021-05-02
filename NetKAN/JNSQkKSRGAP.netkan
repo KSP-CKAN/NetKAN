@@ -1,0 +1,23 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "JNSQ-KSRGAP",
+    "$kref":        "#/ckan/spacedock/2722",
+    "license":      "MIT",
+    "tags": [
+        "config",
+        "career"
+    ],
+    "depends": [
+        { "name": "JNSQ"                 },
+        { "name": "KerbalKonstructs"     },
+        { "name": "ContractConfigurator" }
+    ],
+    "suggests": [
+        { "name": "KramaxAutopilotContinued" },
+        { "name": "NavUtilities"             }
+    ],
+    "install": [ {
+        "find":       "ContractPacks",
+        "install_to": "GameData"
+    } ]
+}
