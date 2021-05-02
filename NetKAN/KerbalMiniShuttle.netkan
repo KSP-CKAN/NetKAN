@@ -11,7 +11,10 @@
         "find":       "GameData/BTS",
         "install_to": "GameData"
     }, {
-        "find":       "SPH",
+        "find":       "GameData/1MAIN",
+        "install_to": "GameData"
+    }, {
+        "find":       "Ships/VAB",
         "install_to": "Ships"
     } ]
 }
