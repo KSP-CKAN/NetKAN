@@ -14,7 +14,7 @@
     ],
     "suggests": [
         { "name": "KramaxAutopilotContinued" },
-        { "name": "NavUtilities"             }
+        { "name": "NavUtilitiesContinued"    }
     ],
     "install": [ {
         "find":       "ContractPacks",
