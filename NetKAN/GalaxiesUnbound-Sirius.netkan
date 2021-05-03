@@ -1,0 +1,16 @@
+spec_version: v1.4
+identifier: GalaxiesUnbound-Sirius
+name: Galaxies Unbound - Sirius
+$kref: '#/ckan/github/StarCrusher96/Galaxies-Unbound-A-Stellar-Odyssey/asset_match/Sirius'
+license: CC-BY-NC-ND-4.0
+resources:
+  homepage: https://forum.kerbalspaceprogram.com/index.php?/topic/198895-*
+tags:
+  - config
+  - planet-pack
+depends:
+  - name: ModuleManager
+  - name: GalaxiesUnbound-Core
+install:
+  - file: GU
+    install_to: GameData
