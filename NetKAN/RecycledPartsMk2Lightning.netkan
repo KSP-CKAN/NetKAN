@@ -13,12 +13,15 @@
         "install_to": "GameData/SpaceTuxIndustries/RecycledParts"
     } ],
     "depends": [
-        { "name": "ModuleManager" }
+        { "name": "ModuleManager" },
+        { "name": "ASETProps" },
+        { "name": "RasterPropMonitor-Core" }
     ],
     "suggests": [
         { "name": "JanitorsCloset" }
     ],
     "conflicts": [
-        { "name" : "RecycledPartsMk2Lightning" }
+        { "name" : "RecycledPartsMk2Lightning" },
+        { "name" : "BDynamicsMk22Cockpits" }
     ]
 }
