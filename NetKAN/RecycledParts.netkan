@@ -20,7 +20,9 @@
         { "name": "KSPWheel" },
         { "name": "PatchManager" },
         { "name": "ModuleManager" },
-        { "name": "BDAnimationModules" }
+        { "name": "BDAnimationModules" },
+        { "name": "ASETProps" },
+        { "name": "RasterPropMonitor-Core" }
     ],
     "recommends": [
         { "name": "CommunityTechTree" }
