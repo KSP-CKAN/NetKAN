@@ -1,0 +1,18 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "BreakingGroundPropellerRebalance",
+    "$kref":        "#/ckan/spacedock/2724",
+    "license":      "MIT",
+    "tags": [
+        "config",
+        "tech-tree"
+    ],
+    "depends": [
+        { "name": "ModuleManager"      },
+        { "name": "BreakingGround-DLC" }
+    ],
+    "install": [ {
+        "find":       "BGPropRebal",
+        "install_to": "GameData"
+    } ]
+}
