@@ -1,7 +1,32 @@
 {
     "spec_version": "v1.4",
-    "identifier": "BirthOfTimePlanetPackInterstellar",
-    "$kref": "#/ckan/spacedock/2728",
-    "license": "Attribution-NonCommercial-ShareAlike-4.0-International",
-    "x_via": "Automated SpaceDock CKAN submission"
-}
+    "identifier":   "BirthOfTime-Interstellar",
+    "$kref":        "#/ckan/spacedock/2728",
+    "license":      "CC-BY-NC-SA-4.0",
+    "tags": [
+        "config",
+        "planet-pack"
+    ],
+    "provides": [
+        "Scatterer-config",
+        "Scatterer-sunflare"
+    ],
+    "conflicts": [
+        { "name": "Scatterer-config"   },
+        { "name": "Scatterer-sunflare" }
+    ],
+    "depends": [
+        { "name": "ModuleManager" },
+        { "name": "Kopernicus"    }
+    ],
+    "suggests": [
+        { "name": "PlanetShine"                     },
+        { "name": "DistantObject"                   },
+        { "name": "SpaceDust"                       },
+        { "name": "EnvironmentalVisualEnhancements" },
+        { "name": "Scatterer"                       }
+    ],
+    "install": [ {
+        "find":       "BOTPP",
+        "install_to": "GameData"
+    } ]}
