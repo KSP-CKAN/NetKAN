@@ -31,18 +31,19 @@
         { "name"        : "CommunityTechTree"           }
     ],
     "recommends": [
-        { "name"        : "PatchManager"             },
-        { "name"        : "InterstellarFuelSwitch"   },
-        { "name"        : "PersistentRotation"       },
-        { "name"        : "FilterExtensions"         },
-        { "name"        : "PhotonSailor"             },
-        { "name"        : "BetterBurnTime"           },
-        { "name"        : "HideEmptyTechNodes"       }
+        { "name"        : "PatchManager"                },
+        { "name"        : "InterstellarFuelSwitch"      },
+        { "name"        : "PersistentRotation"          },
+        { "name"        : "FilterExtensions"            },
+        { "name"        : "PhotonSailor"                },
+        { "name"        : "BetterBurnTime"              },
+        { "name"        : "HideEmptyTechNodes"          },
+        { "name"        : "ImprovedTreeEnginePlacement" }
     ],
     "suggests": [
-        { "name"        : "HeatControl"              },
-        { "name"        : "TexturesUnlimited"        },
-        { "name"        : "UniversalStorage"         },
-        { "name"        : "KerbalJointReinforcement" }
+        { "name"        : "HeatControl"                 },
+        { "name"        : "TexturesUnlimited"           },
+        { "name"        : "UniversalStorage"            },
+        { "name"        : "KerbalJointReinforcement"    }
     ]
 }
