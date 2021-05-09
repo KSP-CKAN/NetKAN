@@ -36,12 +36,13 @@
         { "name"        : "PersistentRotation"          },
         { "name"        : "FilterExtensions"            },
         { "name"        : "PhotonSailor"                },
-        { "name"        : "BetterBurnTime"              },
         { "name"        : "HideEmptyTechNodes"          },
+        { "name"        : "B9PartSwitch"                },        
         { "name"        : "ImprovedTreeEnginePlacement" }
     ],
     "suggests": [
         { "name"        : "HeatControl"                 },
+        { "name"        : "BetterBurnTime"              },
         { "name"        : "TexturesUnlimited"           },
         { "name"        : "UniversalStorage"            },
         { "name"        : "KerbalJointReinforcement"    }
