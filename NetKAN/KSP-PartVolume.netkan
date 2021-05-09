@@ -1,34 +1,21 @@
 {
-  "license": "CC-BY-NC-SA-4.0",
-  "identifier": "KSP-PartVolume",
-  "x_via": "Automated Linuxgurugamer CKAN script",
-  "$kref": "#/ckan/spacedock/2672",
-  "$vref": "#/ckan/ksp-avc",
-  "resources": {
-    "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/201354-111x-ksp-part-volumes",
-    "repository": "https://github.com/linuxgurugamer/KSP_PartVolume"
-  },
-  "depends": [
-    {
-      "name": "ClickThroughBlocker"
-    },
-    {
-      "name": "SpaceTuxLibrary"
-    }
-  ],
-  "tags": [
-    "plugin",
-    "physics"
-  ],
-  "install": [
-    {
-      "find": "KSP_PartVolume",
-      "install_to": "GameData",
-      "filter_regexp": [
-        ".*~$",
-        ".*\\.pdb$"
-      ]
-    }
-  ],
-  "spec_version": "v1.4"
+    "spec_version": "v1.4",
+    "identifier":   "KSP-PartVolume",
+    "$kref":        "#/ckan/spacedock/2672",
+    "$vref":        "#/ckan/ksp-avc",
+    "license":      "CC-BY-NC-SA-4.0",
+    "depends": [
+        { "name": "ModuleManager"       },
+        { "name": "ClickThroughBlocker" },
+        { "name": "SpaceTuxLibrary"     }
+    ],
+    "tags": [
+        "plugin",
+        "physics"
+    ],
+    "install": [ {
+        "find":          "KSP_PartVolume",
+        "install_to":    "GameData",
+        "filter_regexp": [ ".*~$", ".*\\.pdb$" ]
+    } ]
 }
