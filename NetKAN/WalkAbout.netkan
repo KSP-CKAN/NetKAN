@@ -6,6 +6,11 @@
     "x_netkan_force_v": true,
     "x_netkan_epoch": "1",
     "license":      "GPL-3.0",
+	"depends": [
+		{ "name": "ToolbarController" },
+		{ "name": "ClickThroughBlocker" },
+		{ "name": "SpaceTuxLibrary" }
+	],
     "tags": [
         "plugin",
         "crewed",
