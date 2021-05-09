@@ -11,6 +11,9 @@
         { "name": "ModuleManager"     },
         { "name": "CommunityTechTree" }
     ],
+    "recommends": [
+        { "name": "BetterEarlyTree" }
+    ],
     "supports": [
         { "name": "ReStockPlus"              },
         { "name": "CryoEngines"              },
@@ -19,7 +22,9 @@
     ],
     "install": [ {
         "find":       "ImprovedTreeEnginePlacement",
-        "install_to": "GameData",
-        "filter":     [ ".git" ]
+        "install_to": "GameData"
+    }, {
+        "find":       "ImprovedTreeEnginePlacement/Extras",
+        "install_to": "GameData/ImprovedTreeEnginePlacement"
     } ]
 }
