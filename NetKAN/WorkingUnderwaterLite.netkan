@@ -9,7 +9,7 @@
         "crewed"
     ],
     "install": [ {
-        "find":       "WorkingUnderwaterLite",
+        "find":       "WorkingUnderLite",
         "install_to": "GameData",
         "filter":     [ "SPH" ]
     }, {
