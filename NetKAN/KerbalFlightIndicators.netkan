@@ -3,7 +3,7 @@
     "identifier"   : "KerbalFlightIndicators",
     "name"         : "Kerbal Flight Indicators",
     "abstract"     : "Displays indicators for the flight vector and other things. Works like a HUD. In external view, too!",
-    "$kref"        : "#/ckan/github/PapaJoesSoup/KerbalFlightIndicators",
+    "$kref"        : "#/ckan/github/DaMichel/KerbalFlightIndicators",
     "$vref"        : "#/ckan/ksp-avc",
     "license"      : "CC-BY-NC-SA-3.0",
     "resources" : {

@@ -1,5 +1,5 @@
 {
-    "spec_version": 1,
+    "spec_version": "v1.4",
     "identifier":   "KerbalTelemetry",
     "$kref":        "#/ckan/spacedock/2643",
     "license":      "MIT",
@@ -10,7 +10,10 @@
     ],
     "install": [
         {
-            "file": "GameData",
+            "find":       "Kerbal Telemetry",
+            "install_to": "GameData"
+        }, {
+            "find":       "Kerbal Telemetry.dll",
             "install_to": "GameData"
         }
     ]

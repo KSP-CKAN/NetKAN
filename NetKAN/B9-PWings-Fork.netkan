@@ -18,15 +18,15 @@
         "parts"
     ],
     "depends": [
-        { "name": "ModuleManager" },
-        { "name": "FAR"           }
+        { "name": "ModuleManager" }
     ],
     "conflicts": [
         { "name": "B9AerospaceProceduralParts" }
     ],
     "suggests": [
         { "name": "TexturesUnlimited" },
-        { "name": "ProceduralParts"   }
+        { "name": "ProceduralParts"   },
+        { "name": "FAR"           }
     ],
     "install": [ {
         "find":       "B9_Aerospace_ProceduralWings",

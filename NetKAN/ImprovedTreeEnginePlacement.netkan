@@ -1,0 +1,30 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "ImprovedTreeEnginePlacement",
+    "$kref":        "#/ckan/spacedock/2646",
+    "license":      "CC-BY-NC-4.0",
+    "tags": [
+        "config",
+        "tech-tree"
+    ],
+    "depends": [
+        { "name": "ModuleManager"     },
+        { "name": "CommunityTechTree" }
+    ],
+    "recommends": [
+        { "name": "BetterEarlyTree" }
+    ],
+    "supports": [
+        { "name": "ReStockPlus"              },
+        { "name": "CryoEngines"              },
+        { "name": "NearFutureLaunchVehicles" },
+        { "name": "NearFutureSpacecraft"     }
+    ],
+    "install": [ {
+        "find":       "ImprovedTreeEnginePlacement",
+        "install_to": "GameData"
+    }, {
+        "find":       "ImprovedTreeEnginePlacement/Extras",
+        "install_to": "GameData/ImprovedTreeEnginePlacement"
+    } ]
+}
