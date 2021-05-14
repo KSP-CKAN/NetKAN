@@ -8,6 +8,9 @@
         "graphics",
         "flags"
     ],
+    "depends": [
+        { "name": "TexturesUnlimitedFX" }
+    ],
     "install": [ {
         "find":       "KASA",
         "install_to": "GameData"
