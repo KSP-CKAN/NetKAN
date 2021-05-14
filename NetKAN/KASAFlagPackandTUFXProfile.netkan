@@ -9,7 +9,7 @@
         "flags"
     ],
     "depends": [
-        { "name": "TexturesUnlimitedFX" }
+        { "name": "TUFX" }
     ],
     "install": [ {
         "find":       "KASA",
