@@ -10,6 +10,6 @@
     ],
     "install": [ {
         "find":       "Suits",
-        "install_to": "GameData"
+        "install_to": "GameData/Squad"
     } ]
 }
