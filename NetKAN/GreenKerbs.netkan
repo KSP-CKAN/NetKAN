@@ -1,0 +1,15 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "GreenKerbs",
+    "$kref":        "#/ckan/spacedock/2757",
+    "license":      "MIT",
+    "tags": [
+        "suits",
+        "graphics",
+        "crewed"
+    ],
+    "install": [ {
+        "find":       "Suits",
+        "install_to": "GameData/Squad"
+    } ]
+}
