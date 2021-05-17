@@ -1,0 +1,18 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "JNSQ-RealDate",
+    "$kref":        "#/ckan/spacedock/2755",
+    "license":      "CC-BY-NC-4.0",
+    "tags": [
+        "plugin"
+    ],
+    "depends": [
+        { "name": "ModuleManager" },
+        { "name": "JNSQ"          },
+        { "name": "Kronometer"    }
+    ],
+    "install": [ {
+        "find":       "JNSQRealDate",
+        "install_to": "GameData"
+    } ]
+}
