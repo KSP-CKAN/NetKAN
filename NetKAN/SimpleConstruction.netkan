@@ -6,20 +6,21 @@
     "$kref":        "#/ckan/spacedock/59",
     "$vref":        "#/ckan/ksp-avc/SimpleConstruction.version",
     "x_netkan_version_edit": {
-        "find": "[Version_]?",
+        "find":    "[Version_]?",
         "replace": "",
-        "strict": false
+        "strict":  false
     },
     "x_netkan_epoch": 1,
-    "license": "MIT",
+    "license":      "MIT",
     "tags": [
         "plugin",
         "resources",
         "config"
     ],
     "depends": [
-        { "name": "ModuleManager"         },
-        { "name": "CommunityResourcePack" }
+        { "name": "ModuleManager"                 },
+        { "name": "ExtraPlanetaryLaunchpads-Core" },
+        { "name": "CommunityResourcePack"         }
     ],
     "recommends": [
         { "name" : "KerbalStats"         },
@@ -38,16 +39,5 @@
         { "name": "KerbalChangelog" },
         { "name": "Kethane"         },
         { "name": "B9PartSwitch"    }
-    ],
-    "conflicts": [
-        { "name": "ExtraPlanetaryLaunchpads" }
-    ],
-    "provides": [ "ExtraPlanetaryLaunchpads" ],
-    "install": [ {
-        "find":       "SimpleConstruction",
-        "install_to": "GameData"
-    }, {
-        "find":       "ExtraplanetaryLaunchpads",
-        "install_to": "GameData"
-    } ]
+    ]
 }
