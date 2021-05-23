@@ -9,6 +9,7 @@
         "crewed"
     ],
     "depends": [
+        { "name": "ModuleManager"         },
         { "name": "CommunityResourcePack" },
         { "name": "Waterfall"             }
     ],
