@@ -1,0 +1,24 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "InterstellarTechnologies",
+    "$kref":        "#/ckan/spacedock/2674",
+    "license":      "CC-BY-NC-SA",
+    "tags": [
+        "config",
+        "parts"
+    ],
+    "depends": [
+        { "name": "ModuleManager"               },
+        { "name": "FilterExtensions"            },
+        { "name": "TexturesUnlimited"           },
+        { "name": "CommunityTechTree"           },
+        { "name": "CommunityResourcePack"       },
+        { "name": "DecouplerShroud"             },
+        { "name": "EngineLightRelit"            },
+        { "name": "InterstellarFuelSwitch-Core" },
+        { "name": "KerbalEngineerRedux"         },
+        { "name": "KSPInterstellarExtended"     },
+        { "name": "TweakScale"                  },
+        { "name": "Waterfall"                   }
+    ]
+}
