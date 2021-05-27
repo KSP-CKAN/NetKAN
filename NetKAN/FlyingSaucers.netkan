@@ -1,0 +1,25 @@
+spec_version: v1.4
+identifier: FlyingSaucers
+$kref: '#/ckan/github/Angel-125/FlyingSaucers'
+$vref: '#/ckan/ksp-avc'
+license: GPL-3.0
+tags:
+  - parts
+  - plugin
+depends:
+  - name: ModuleManager
+  - name: NearFutureProps
+  - name: BarisBridge
+  - name: WildBlueTools
+  - name: KerbalActuators
+recommends:
+  - name: ClassicStockResources
+install:
+  - find: GameData/WildBlueIndustries/FlyingSaucers
+    install_to: GameData/WildBlueIndustries
+    filter:
+      - Ships
+  - find: Ships/SPH
+    install_to: Ships
+  - find: Ships/VAB
+    install_to: Ships
