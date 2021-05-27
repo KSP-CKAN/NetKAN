@@ -20,5 +20,11 @@
         { "name": "KSPInterstellarExtended"     },
         { "name": "TweakScale"                  },
         { "name": "Waterfall"                   }
+    ],
+    "recommends": [
+        { "name": "FarFutureTechnologies" },
+        { "name": "MEVHeavyIndustries"    },
+        { "name": "FarFutureTechnologies" },
+        { "name": "Singularity"           }
     ]
 }
