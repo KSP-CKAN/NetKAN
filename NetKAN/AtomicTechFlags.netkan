@@ -1,0 +1,13 @@
+{
+    "spec_version": "v1.10",
+    "identifier":   "AtomicTechFlags",
+    "$kref":        "#/ckan/spacedock/2763",
+    "license":      "MIT",
+    "tags": [
+        "flags"
+    ],
+    "install": [ {
+        "find_regexp": "\\.jpg$",
+        "install_to":  "GameData/AtomicTech/Flags"
+    } ]
+}

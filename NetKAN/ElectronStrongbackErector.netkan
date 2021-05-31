@@ -1,0 +1,16 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "ElectronStrongbackErector",
+    "$kref":        "#/ckan/spacedock/2761",
+    "license":      "CC-BY-NC-ND-4.0",
+    "tags": [
+        "parts"
+    ],
+    "recommends": [
+        { "name": "DodoLabsStockalikeElectron" }
+    ],
+    "install": [ {
+        "find":       "Electron strong back erector",
+        "install_to": "GameData"
+    } ]
+}

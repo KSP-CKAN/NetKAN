@@ -1,0 +1,13 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "AutoHibernate",
+    "$kref":        "#/ckan/spacedock/2762",
+    "license":      "CC0",
+    "tags": [
+        "config",
+        "uncrewed"
+    ],
+    "depends": [
+        { "name": "ModuleManager" }
+    ]
+}
