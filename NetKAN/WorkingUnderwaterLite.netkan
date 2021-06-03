@@ -1,0 +1,15 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "WorkingUnderwaterLite",
+    "$kref":        "#/ckan/spacedock/2749",
+    "license":      "CC-BY-SA-4.0",
+    "tags": [
+        "config",
+        "parts",
+        "crewed"
+    ],
+    "install": [ {
+        "find":       "WorkingUnderLite",
+        "install_to": "GameData"
+    } ]
+}

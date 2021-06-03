@@ -1,0 +1,17 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "No-Texture-CST-100",
+    "$kref":        "#/ckan/spacedock/2710",
+    "license":      "CC-BY-NC-ND-4.0",
+    "tags": [
+        "parts"
+    ],
+    "install": [ {
+        "find":       "cst 100",
+        "install_to": "GameData",
+        "filter":     [ "Ships" ]
+    }, {
+        "find":       "cst 100/Ships/VAB",
+        "install_to": "Ships"
+    } ]
+}

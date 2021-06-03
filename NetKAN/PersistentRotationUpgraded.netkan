@@ -8,16 +8,19 @@
         "plugin",
         "physics"
     ],
+    "provides": [
+        "PersistentRotation"
+    ],
+    "conflicts": [
+        { "name": "PersistentRotation" }
+    ],
+    "depends": [
+        { "name": "ToolbarController"   },
+        { "name": "ClickThroughBlocker" },
+        { "name": "SpaceTuxLibrary"     }
+    ],
     "install": [ {
         "file":       "GameData/PersistentRotation",
         "install_to": "GameData"
-    } ],
-    "conflicts": [
-        { "name" : "PersistentRotation" }
-    ],
-    "depends": [
-        { "name" : "ToolbarController" },
-        { "name" : "ClickThroughBlocker" },
-        { "name": "SpaceTuxLibrary" }
-    ]
+    } ]
 }

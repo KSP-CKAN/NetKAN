@@ -1,0 +1,30 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "XamionAplanetfarBeyondEeloo",
+    "$kref":        "#/ckan/spacedock/2697",
+    "license":      "CC-BY-NC-ND-4.0",
+    "tags": [
+        "config",
+        "planet-pack"
+    ],
+    "provides": [
+        "EnvironmentalVisualEnhancements-Config"
+    ],
+    "depends": [
+        { "name": "ModuleManager" },
+        { "name": "Kopernicus"    }
+    ],
+    "recommends": [
+        { "name": "EnvironmentalVisualEnhancements" },
+        { "name": "Scatterer"                       }
+    ],
+    "suggests": [
+        { "name": "KSPInterstellarExtended" },
+        { "name": "FarFutureTechnologies"   }
+    ],
+    "install": [ {
+        "find":       "XAMION",
+        "install_to": "GameData",
+        "filter":     [ "Thumbs.db" ]
+    } ]
+}
