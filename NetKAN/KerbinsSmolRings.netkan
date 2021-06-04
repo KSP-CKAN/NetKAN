@@ -1,0 +1,18 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "KerbinsSmolRings",
+    "$kref":        "#/ckan/spacedock/2772",
+    "license":      "CC-BY-4.0",
+    "tags": [
+        "config",
+        "graphics"
+    ],
+    "depends": [
+        { "name": "ModuleManager" },
+        { "name": "Kopernicus"    }
+    ],
+    "install": [ {
+        "find":       "KsSR",
+        "install_to": "GameData"
+    } ]
+}
