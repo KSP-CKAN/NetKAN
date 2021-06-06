@@ -1,0 +1,25 @@
+{
+    "spec_version": "v1.18",
+    "identifier":   "TrekDrive",
+    "$kref":        "#/ckan/spacedock/2626",
+    "license":      "GPL-3.0",
+    "tags": [
+        "parts",
+        "plugin",
+        "crewed"
+    ],
+    "depends": [
+        { "name": "ModuleManager"         },
+        { "name": "CommunityResourcePack" },
+        { "name": "Waterfall"             }
+    ],
+    "install": [ {
+        "find":       "GameData/TrekDrive",
+        "install_to": "GameData",
+        "filter":     [ ".DS_Store" ]
+    }, {
+        "find":       "Craft",
+        "install_to": "Ships",
+        "as":         "VAB"
+    } ]
+}

@@ -1,0 +1,33 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "BirthOfTime-CetiHomeswitch",
+    "$kref":        "#/ckan/spacedock/2760",
+    "license":      "CC-BY-NC-SA",
+    "tags": [
+        "config",
+        "planet-pack"
+    ],
+    "provides": [
+        "Scatterer-config",
+        "Scatterer-sunflare"
+    ],
+    "conflicts": [
+        { "name": "Scatterer-config"   },
+        { "name": "Scatterer-sunflare" }
+    ],
+    "depends": [
+        { "name": "ModuleManager" },
+        { "name": "Kopernicus"    }
+    ],
+    "suggests": [
+        { "name": "PlanetShine"                     },
+        { "name": "DistantObject"                   },
+        { "name": "SpaceDust"                       },
+        { "name": "EnvironmentalVisualEnhancements" },
+        { "name": "Scatterer"                       }
+    ],
+    "install": [ {
+        "find":       "BOTPP",
+        "install_to": "GameData"
+    } ]
+}
