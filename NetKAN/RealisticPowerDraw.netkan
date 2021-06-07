@@ -1,27 +1,15 @@
 {
-  "license": "GPL-2.0",
-  "identifier": "RealisticPowerDraw",
-  "x_via": "Automated Linuxgurugamer CKAN script",
-  "$kref": "#/ckan/spacedock/2565",
-  "$vref": "#/ckan/ksp-avc",
-  "resources": {
-    "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/198035-18x-19x-110x-realistic-power-draw/",
-    "repository": "https://github.com/linuxgurugamer/RealisticPowerDraw"
-  },
-  "depends": [
-    {
-      "name": "ModuleManager"
-    }
-  ],
-  "tags": [
-    "config",
-    "resources"
-  ],
-  "install": [
-    {
-      "find": "RealisticPowerDraw",
-      "install_to": "GameData"
-    }
-  ],
-  "spec_version": "v1.4"
+    "spec_version": "v1.4",
+    "identifier":   "RealisticPowerDraw",
+    "$kref":        "#/ckan/spacedock/2565",
+    "$vref":        "#/ckan/ksp-avc",
+    "license":      "GPL-2.0",
+    "depends": [
+        { "name": "ModuleManager"                  },
+        { "name": "ModuleAnimGenericResourceUsage" }
+    ],
+    "tags": [
+        "config",
+        "resources"
+    ]
 }
