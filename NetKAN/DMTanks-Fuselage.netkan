@@ -5,6 +5,9 @@
     "$kref":        "#/ckan/spacedock/2340",
     "$vref":        "#/ckan/ksp-avc",
     "license":      "CC-BY-NC-SA-3.0",
+    "resources": {
+        "repository": "https://github.com/zer0Kerbal/DaMichel/tree/master/GameData/DaMichel/Fuselage"
+    },
     "tags": [
         "parts"
     ],
