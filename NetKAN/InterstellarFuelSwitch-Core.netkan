@@ -1,29 +1,18 @@
 {
     "spec_version" : "v1.4",
-    "$kref"        : "#/ckan/spacedock/175",
-    "$vref"        : "#/ckan/ksp-avc/InterstellarFuelSwitch.version",
     "identifier"   : "InterstellarFuelSwitch-Core",
     "name"         : "Interstellar Fuel Switch Core",
     "abstract"     : "Core plugin for Interstellar Fuel Switch",
+    "$kref"        : "#/ckan/spacedock/175",
+    "$vref"        : "#/ckan/ksp-avc/InterstellarFuelSwitch.version",
     "license"      : "GPL-2.0",
+    "resources": {
+        "repository": "https://github.com/sswelm/KSP-Interstellar-Extended/tree/master/FuelSwitch"
+    },
     "tags": [
         "plugin",
         "resources",
         "library"
-    ],
-    "install": [
-        {
-            "find"       : "InterstellarFuelSwitch/Plugins",
-            "install_to" : "GameData/InterstellarFuelSwitch"
-        },
-        {
-            "find"       : "InterstellarFuelSwitch/Resources",
-            "install_to" : "GameData/InterstellarFuelSwitch"
-        },
-        {
-            "find"       : "InterstellarFuelSwitch/Localization",
-            "install_to" : "GameData/InterstellarFuelSwitch"
-        }
     ],
     "provides": [
         "DeadskinsTextureSwitch",
@@ -35,5 +24,15 @@
     ],
     "recommends": [
         { "name" : "CommunityResourcePack", "min_version" : "0.7.1" }
-    ]
+    ],
+    "install": [ {
+        "find":       "InterstellarFuelSwitch/Plugins",
+        "install_to": "GameData/InterstellarFuelSwitch"
+    }, {
+        "find":       "InterstellarFuelSwitch/Resources",
+        "install_to": "GameData/InterstellarFuelSwitch"
+    }, {
+        "find":       "InterstellarFuelSwitch/Localization",
+        "install_to": "GameData/InterstellarFuelSwitch"
+    } ]
 }
