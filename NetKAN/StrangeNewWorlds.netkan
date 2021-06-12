@@ -7,11 +7,16 @@
         "config",
         "planet-pack"
     ],
+    "provides": [
+        "EnvironmentalVisualEnhancements-Config"
+    ],
     "depends": [
         { "name": "ModuleManager" },
         { "name": "Kopernicus"    }
     ],
     "recommends": [
+        { "name": "EnvironmentalVisualEnhancements"        },
+        { "name": "Scatterer"                              },
         { "name": "TiltUnlocker"                           },
         { "any_of": [
             { "name": "KopernicusExpansionContinued-Wormholes" },
