@@ -11,6 +11,20 @@
         { "name": "ModuleManager" },
         { "name": "Kopernicus"    }
     ],
+    "recommends": [
+        { "name": "TiltUnlocker"                           },
+        { "any_of": [
+            { "name": "KopernicusExpansionContinued-Wormholes" },
+            { "name": "Blueshift"                              },
+            { "name": "KSPInterstellarExtended"                },
+            { "name": "FarFutureTechnologies"                  }
+        ] },
+        { "name": "BetterTimeWarpCont" }
+    ],
+    "suggests": [
+        { "name": "BeyondHome"                          },
+        { "name": "ExtrasolarPlanetsBeyondKerbol-stock" }
+    ],
     "install": [ {
         "find":       "GameData/StrangeNewWorlds",
         "install_to": "GameData",
