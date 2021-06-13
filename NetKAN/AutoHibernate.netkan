@@ -9,5 +9,9 @@
     ],
     "depends": [
         { "name": "ModuleManager" }
-    ]
+    ],
+    "install": [ {
+        "find":       "GameData/AutoHibernate",
+        "install_to": "GameData"
+    } ]
 }
