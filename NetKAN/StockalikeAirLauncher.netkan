@@ -5,5 +5,9 @@
     "license":      "unknown",
     "tags": [
         "parts"
-    ]
+    ],
+    "install": [ {
+        "find":       "Stock-A-Like-AirLaunchers",
+        "install_to": "GameData"
+    } ]
 }
