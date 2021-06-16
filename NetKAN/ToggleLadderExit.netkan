@@ -1,7 +1,7 @@
 {
   "license": "MIT",
   "identifier": "ToggleLadderExit",
-  "abstract":   "A simple little mod which allows toggling the new system-wide setting which prevents Kerbals from walking or sliding off the end of ladders.",
+  "abstract":   "Toggles setting which prevents Kerbals from climbing off the end of ladders",
   "x_via": "Automated Linuxgurugamer CKAN script",
   "$kref": "#/ckan/github/linuxgurugamer/ToggleLadderExit",
   "$vref": "#/ckan/ksp-avc",
