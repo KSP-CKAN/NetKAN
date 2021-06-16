@@ -1,0 +1,22 @@
+{
+  "license": "MIT",
+  "identifier": "ToggleLadderExit",
+  "x_via": "Automated Linuxgurugamer CKAN script",
+  "$kref": "#/ckan/github/linuxgurugamer/ToggleLadderExit",
+  "$vref": "#/ckan/ksp-avc",
+  "resources": {
+    "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/203082-111x-toggleladderexit-tle/",
+    "repository": "https://github.com/linuxgurugamer/ToggleLadderExit"
+  },
+  "tags": [
+    "plugin",
+    "control"
+  ],
+  "install": [
+    {
+      "find": "ToggleLadderExit",
+      "install_to": "GameData"
+    }
+  ],
+  "spec_version": "v1.4"
+}
