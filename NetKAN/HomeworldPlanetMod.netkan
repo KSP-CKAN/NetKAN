@@ -1,25 +1,26 @@
 spec_version: v1.4
 identifier: HomeworldPlanetMod
 '$kref': '#/ckan/spacedock/2783'
-license: CC-BY-NC-ND
+license: CC-BY-NC-SA
 tags:
   - config
   - planet-pack
 provides:
   - EnvironmentalVisualEnhancements-Config
-  - Scatterer-config
-  - Scatterer-sunflare
 depends:
   - name: Kopernicus
   - name: ModuleManager
-recommends:
-  - name: BetterTimeWarpCont
+  - name: Scatterer
+  - name: Scatterer-config
+  - name: Scatterer-sunflare-default
+conflicts:
+  - name: JNSQ
 suggests:
+  - name: BetterTimeWarpCont
   - name: DistantObject
   - name: EnvironmentalVisualEnhancements
   - name: Kronometer
   - name: PlanetShine
-  - name: Scatterer
 install:
   - find: Homeworld
     install_to: GameData
