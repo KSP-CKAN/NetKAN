@@ -16,5 +16,9 @@
     "install": [ {
         "find":       "FruitKocktail",
         "install_to": "GameData"
-    } ]
+    } ],
+    "depends": [
+        { "name" : "ToolbarController" },
+        { "name" : "ClickThroughBlocker" }
+    ]
 }
