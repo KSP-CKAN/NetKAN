@@ -18,7 +18,8 @@
         }
     ],
     "provides": [
-        "EnvironmentalVisualEnhancements-Config"
+        "EnvironmentalVisualEnhancements-Config",
+        "EnvironmentalVisualEnhancements-Config-stock"
     ],
     "depends": [
         { "name" : "EnvironmentalVisualEnhancements" }

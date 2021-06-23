@@ -8,10 +8,14 @@
     "license"      : "CC-BY-NC-SA-4.0",
     "resources": {
         "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/160878-*"
-	},
+    },
     "tags": [
         "config",
         "graphics"
+    ],
+    "provides": [
+        "EnvironmentalVisualEnhancements-Config",
+        "EnvironmentalVisualEnhancements-Config-stock"
     ],
     "conflicts": [
         { "name" : "EnvironmentalVisualEnhancements-Config" }
@@ -30,8 +34,5 @@
         { "name": "DistantObject" },
         { "name": "PlanetShine" },
         { "name": "Chatterer" }
-    ],
-    "provides" : [
-        "EnvironmentalVisualEnhancements-Config"
     ]
 }
