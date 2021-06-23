@@ -1,0 +1,23 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "GRAPES",
+
+    "$kref":        "#/ckan/github/linuxgurugamer/FruitKocktail/asset_match/GRAPES",
+
+    "$vref":        "#/ckan/ksp-avc",
+    "name":         "Gas Repairs And Probably Expensive Snacks",
+    "author":       "linuxgurugamer",
+    "abstract":     "Provide a means to purchase fuel in orbit",
+
+
+    "license":      "CC-BY-NC-SA",
+    "tags": [
+        "plugin",
+        "parts",
+        "resources"
+    ],
+    "install": [ {
+        "find":       "FruitKocktail",
+        "install_to": "GameData"
+    } ]
+}

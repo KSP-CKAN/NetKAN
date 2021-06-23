@@ -1,0 +1,21 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "VertikalSpeedIndicator",
+
+    "$kref":        "#/ckan/github/linuxgurugamer/FruitKocktail/asset_match/VSIndicator",
+
+    "$vref":        "#/ckan/ksp-avc",
+    "name":         "Vertikal Speed Indicator",
+    "author":       "linuxgurugamer",
+    "abstract":     "Shows whether climbing or descending by the color of the navball text",
+
+    "license":      "MIT",
+    "tags": [
+        "plugin",
+        "information"
+    ],
+    "install": [ {
+        "find":       "FruitKocktail",
+        "install_to": "GameData"
+    } ]
+}

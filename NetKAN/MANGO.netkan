@@ -1,7 +1,14 @@
 {
     "spec_version": "v1.4",
     "identifier":   "MANGO",
-    "$kref":        "#/ckan/spacedock/2669",
+
+    "$kref":        "#/ckan/github/linuxgurugamer/FruitKocktail/asset_match/MANGO",
+
+    "$vref":        "#/ckan/ksp-avc",
+    "name":         "My Antennae Never Go Offline",
+    "author":       "linuxgurugamer",
+    "abstract":     "rebalance the transmission of science data",
+
     "license":      "MIT",
     "tags": [
         "plugin",
