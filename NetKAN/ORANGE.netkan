@@ -1,0 +1,24 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "ORANGE",
+
+    "$kref":        "#/ckan/github/linuxgurugamer/FruitKocktail/asset_match/ORANGE",
+
+    "$vref":        "#/ckan/ksp-avc",
+    "name":         "Oh Really, Another Name Generating Endeavour?",
+    "author":       "linuxgurugamer",
+    "abstract":     "Adds a button to command modules to generate a random name",
+
+    "license":      "MIT",
+    "tags": [
+        "plugin",
+        "convenience"
+    ],
+    "depends": [
+        { "name": "ModuleManager" }
+    ],
+    "install": [ {
+        "find":       "FruitKocktail",
+        "install_to": "GameData"
+    } ]
+}
