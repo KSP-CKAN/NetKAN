@@ -10,7 +10,7 @@
         "career"
     ],
     "depends": [
-        { "name": "ModuleManager"        },
+        { "name": "ModuleManager" },
         { "name": "CustomBarnKit" }
     ],
      "recommends": [
