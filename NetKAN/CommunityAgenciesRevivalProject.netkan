@@ -10,8 +10,11 @@
         "career"
     ],
     "depends": [
-        { "name": "ModuleManager"        },
-        { "name": "ContractConfigurator" }
+        { "name": "ModuleManager" },
+        { "name": "CustomBarnKit" }
+    ],
+     "recommends": [
+        { "name": "KerbalSpaceRebalanced" }
     ],
     "install": [ {
         "find":       "CARP",
