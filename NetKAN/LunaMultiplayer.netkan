@@ -15,4 +15,4 @@ depends:
 install:
   - find:       LunaMultiplayer
     install_to: GameData
-    filter:     0Harmony.dll 
+    filter:     0Harmony.dll
