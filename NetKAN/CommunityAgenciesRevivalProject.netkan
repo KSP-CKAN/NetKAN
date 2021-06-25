@@ -11,7 +11,10 @@
     ],
     "depends": [
         { "name": "ModuleManager"        },
-        { "name": "ContractConfigurator" }
+        { "name": "CustomBarnKit" }
+    ],
+     "recommends": [
+        { "name": "KerbalSpaceRebalanced" }
     ],
     "install": [ {
         "find":       "CARP",
