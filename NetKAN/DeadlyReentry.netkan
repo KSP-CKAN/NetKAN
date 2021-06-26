@@ -3,12 +3,12 @@
     "identifier"     : "DeadlyReentry",
     "name"           : "Deadly Reentry Continued",
     "abstract"       : "Makes re-entry much more dangerous",
-    "$kref"          : "#/ckan/github/Starwaster/DeadlyReentry",
+    "$kref"          : "#/ckan/github/KSP-RO/DeadlyReentry",
     "$vref"          : "#/ckan/ksp-avc",
     "license"        : "CC-BY-SA",
     "resources"      : {
         "homepage"   : "https://forum.kerbalspaceprogram.com/index.php?/topic/50296-*",
-        "repository" : "https://github.com/Starwaster/DeadlyReentry"
+        "repository" : "https://github.com/KSP-RO/DeadlyReentry"
     },
     "tags"           : [
         "plugin",
