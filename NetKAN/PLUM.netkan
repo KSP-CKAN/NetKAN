@@ -1,0 +1,26 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "PLUM",
+
+    "$kref":        "#/ckan/spacedock/2793",
+
+    "$vref":        "#/ckan/ksp-avc",
+    "name":         "Parachutes? Let's Use Maths!",
+    "author":       "linuxgurugamer",
+    "abstract":     "Calulates approximate landing velocity for current parachutes on board",
+
+    "license":      "MIT",
+    "tags": [
+        "plugin",
+        "convenience",
+        "information"
+    ],
+    "depends": [
+        { "name" : "ToolbarController" },
+        { "name" : "ClickThroughBlocker" }
+    ],
+    "install": [ {
+        "find":       "FruitKocktail",
+        "install_to": "GameData"
+    } ]
+}

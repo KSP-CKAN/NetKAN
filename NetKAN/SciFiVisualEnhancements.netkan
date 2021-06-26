@@ -15,7 +15,10 @@
         "config",
         "graphics"
     ],
-    "provides":  [ "EnvironmentalVisualEnhancements-Config" ],
+    "provides":  [
+        "EnvironmentalVisualEnhancements-Config",
+        "EnvironmentalVisualEnhancements-Config-stock"
+    ],
     "conflicts": [
         { "name" : "EnvironmentalVisualEnhancements-Config" }
     ],

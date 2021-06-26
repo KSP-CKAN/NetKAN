@@ -1,7 +1,14 @@
 {
     "spec_version": "v1.4",
     "identifier":   "ORANGE",
-    "$kref":        "#/ckan/spacedock/2665",
+
+    "$kref":        "#/ckan/spacedock/2787",
+
+    "$vref":        "#/ckan/ksp-avc",
+    "name":         "Oh Really, Another Name Generating Endeavour?",
+    "author":       "linuxgurugamer",
+    "abstract":     "Adds a button to command modules to generate a random name",
+
     "license":      "MIT",
     "tags": [
         "plugin",

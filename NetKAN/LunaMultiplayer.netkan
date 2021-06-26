@@ -1,21 +1,18 @@
-{
-    "spec_version": "v1.4",
-    "identifier":   "LunaMultiplayer",
-    "name":         "Luna Multiplayer Client",
-    "$kref":        "#/ckan/github/LunaMultiplayer/LunaMultiplayer/asset_match/^LunaMultiplayer-Release\\.zip$",
-    "comment":      "Version file is outdated",
-    "ksp_version":  "1.11",
-    "license":      "MIT",
-    "tags": [
-        "plugin"
-    ],
-    "x_netkan_staging": true,
-    "x_netkan_staging_reason": "Bundles Harmony. Please check the DLL's version, and if it's 2 or later, remove the provides and add a depends on Harmony2.",
-    "provides": [
-        "Harmony1"
-    ],
-    "resources": {
-        "homepage": "https://lunamultiplayer.com/",
-        "manual":   "https://github.com/LunaMultiplayer/LunaMultiplayer/wiki"
-    }
-}
+spec_version: v1.4
+identifier:   LunaMultiplayer
+name:         Luna Multiplayer Client
+$kref:        '#/ckan/github/LunaMultiplayer/LunaMultiplayer/asset_match/^LunaMultiplayer-Client-Release\.zip$'
+comment:      Version file is outdated
+ksp_version:  '1.12'
+license:      MIT
+resources:
+  homepage: 'https://lunamultiplayer.com/'
+  manual:   'https://github.com/LunaMultiplayer/LunaMultiplayer/wiki'
+tags:
+  - plugin
+depends:
+  - name: Harmony2
+install:
+  - find:       LunaMultiplayer
+    install_to: GameData
+    filter:     0Harmony.dll

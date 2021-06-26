@@ -1,7 +1,13 @@
 {
     "spec_version": "v1.4",
     "identifier":   "PRUNES",
-    "$kref":        "#/ckan/spacedock/2679",
+
+    "$kref":        "#/ckan/spacedock/2785",
+
+    "$vref":        "#/ckan/ksp-avc",
+    "name":         "Potentially Really Useful New Editor Sorter",
+    "author":       "linuxgurugamer",
+    "abstract":     "Sets the sort order to your preferred setting",
     "license":      "MIT",
     "tags": [
         "plugin",

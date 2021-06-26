@@ -1,0 +1,24 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "LIME",
+
+    "$kref":        "#/ckan/spacedock/2789",
+
+    "$vref":        "#/ckan/ksp-avc",
+    "name":         "Lie In Must Ensue",
+    "author":       "linuxgurugamer",
+    "abstract":     "This changes the time that Sunrise is defined (an hour later than stock)",
+
+    "license":      "MIT",
+    "tags": [
+        "plugin"
+    ],
+    "install": [ {
+        "find":       "FruitKocktail",
+        "install_to": "GameData"
+    } ],
+    "depends": [
+        { "name" : "ToolbarController" },
+        { "name" : "ClickThroughBlocker" }
+    ]
+}
