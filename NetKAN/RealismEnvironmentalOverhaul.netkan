@@ -1,5 +1,13 @@
 spec_version: v1.4
 identifier: RealismEnvironmentalOverhaul
 $kref: '#/ckan/spacedock/2798'
-license: GPLv3
-x_via: Automated SpaceDock CKAN submission
+license: GPL-3.0
+tags:
+  - config
+  - graphics
+depends:
+  - name: ModuleManager
+  - name: RealSolarSystem
+  - name: Scatterer
+  - name: EnvironmentalVisualEnhancements
+  - name: Scatterer-sunflare
