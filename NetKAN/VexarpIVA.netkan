@@ -1,0 +1,31 @@
+spec_version: v1.26
+identifier: VexarpIVA
+$kref: '#/ckan/spacedock/2795'
+license: CC-BY-4.0
+tags:
+  - config
+  - crewed
+depends:
+  - name: ModuleManager
+  - name: ASETAvionics
+  - name: ASETProps
+  - name: ClickThroughBlocker
+  - name: AvionicsSystems
+  - name: NearFutureProps
+  - name: NearFutureSpacecraft
+  - name: RasterPropMonitor
+  - name: ToolbarController
+recommends:
+  - name: Astrogator
+  - name: Chatterer
+  - name: DockingPortAlignmentIndicator
+  - name: HullcamVDSContinued
+  - name: KerbalAlarmClock
+  - name: MechJeb2
+  - name: SCANsat
+  - name: ThroughTheEyesOfaKerbal
+  - name: VesselView
+  - any_of:
+      - name: Kerbalism
+      - name: TACLS
+      - name: USI-LS
