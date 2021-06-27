@@ -18,10 +18,10 @@
         "convenience"
     ],
     "install" : [ {
-        "file" : "GameData/999_Scale_Redist.dll",
+        "file" : "999_Scale_Redist.dll",
         "install_to" : "GameData"
     }, {
-        "file" : "GameData/TweakScale",
+        "file" : "TweakScale",
         "install_to" : "GameData"
     } ],
     "depends" : [
