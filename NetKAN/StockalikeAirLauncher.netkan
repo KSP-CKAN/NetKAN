@@ -1,0 +1,13 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "StockalikeAirLauncher",
+    "$kref":        "#/ckan/spacedock/2779",
+    "license":      "unknown",
+    "tags": [
+        "parts"
+    ],
+    "install": [ {
+        "find":       "Stock-A-Like-AirLaunchers",
+        "install_to": "GameData"
+    } ]
+}
