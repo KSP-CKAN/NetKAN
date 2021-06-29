@@ -1,0 +1,24 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "Scatterer-Config-GalaxiesUnbound",
+    "name":         "Galaxies Unbound Scatterer Configs",
+    "$kref":        "#/ckan/github/StarCrusher96/Galaxies-Unbound-A-Stellar-Odyssey/asset_match/Visuals_Scatterer",
+    "license":      "CC-BY-NC-ND-4.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/198895-*"
+    },
+    "tags": [
+        "config",
+        "graphics"
+    ],
+    "depends": [
+        { "name": "ModuleManager"    },
+        { "name": "GalaxiesUnbound"  },
+        { "name": "Scatterer"        },
+        { "name": "Scatterer-config" }
+    ],
+    "install": [ {
+        "find":       "GameData/GU",
+        "install_to": "GameData"
+    } ]
+}
