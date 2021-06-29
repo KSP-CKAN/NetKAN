@@ -21,7 +21,7 @@ depends:
   - name: RealSolarSystem
   - name: Scatterer
 recommends:
-  - name: DistantObjectEnhancement
+  - name: DistantObject
   - name: PlanetShine
 install:
   - find: RSSVE
