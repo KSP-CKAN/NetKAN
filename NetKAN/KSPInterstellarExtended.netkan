@@ -1,10 +1,10 @@
 {
-    "spec_version"  : "v1.4",
-    "identifier" : "KSPInterstellarExtended",
-    "$kref" : "#/ckan/spacedock/172",
-    "$vref" : "#/ckan/ksp-avc",
+    "spec_version": "v1.4",
+    "identifier": "KSPInterstellarExtended",
+    "$kref": "#/ckan/spacedock/172",
+    "$vref": "#/ckan/ksp-avc",
     "x_netkan_allow_out_of_order": true,
-    "license" : "GPL-3.0",
+    "license": "GPL-3.0",
     "resources": {
         "homepage":   "https://forum.kerbalspaceprogram.com/index.php?/topic/172026-*",
         "repository": "https://github.com/sswelm/KSP-Interstellar-Extended"
@@ -19,36 +19,36 @@
     ],
     "install": [
         {
-            "find"      : "GameData/WarpPlugin",
+            "find":       "GameData/WarpPlugin",
             "install_to": "GameData"
         },
         {
-            "file": "GameData/Interstellar_Redist.dll",
+            "file":       "GameData/Interstellar_Redist.dll",
             "install_to": "GameData"
         }
     ],
     "depends": [
-        { "name" : "InterstellarFuelSwitch-Core" },
-        { "name" : "TweakScale" },
-        { "name" : "ModuleManager" },
-        { "name" : "CommunityResourcePack" },
-        { "name" : "CommunityTechTree" },
+        { "name": "InterstellarFuelSwitch-Core" },
+        { "name": "TweakScale" },
+        { "name": "ModuleManager" },
+        { "name": "CommunityResourcePack" },
+        { "name": "CommunityTechTree" }
     ],
     "recommends": [
-        { "name" : "PatchManager" },
-        { "name" : "InterstellarFuelSwitch" },
-        { "name" : "PersistentRotation" },
-        { "name" : "FilterExtensions" },
-        { "name" : "PhotonSailor" },
-        { "name" : "HideEmptyTechNodes" },
-        { "name" : "B9PartSwitch" },
-        { "name" : "ImprovedTreeEnginePlacement" },
+        { "name": "PatchManager" },
+        { "name": "InterstellarFuelSwitch" },
+        { "name": "PersistentRotation" },
+        { "name": "FilterExtensions" },
+        { "name": "PhotonSailor" },
+        { "name": "HideEmptyTechNodes" },
+        { "name": "B9PartSwitch" },
+        { "name": "ImprovedTreeEnginePlacement" }
     ],
     "suggests": [
-        { "name" : "HeatControl" },
-        { "name" : "BetterBurnTime" },
-        { "name" : "TexturesUnlimited" },
-        { "name" : "UniversalStorage" },
-        { "name" : "KerbalJointReinforcement" },
+        { "name": "HeatControl" },
+        { "name": "BetterBurnTime" },
+        { "name": "TexturesUnlimited" },
+        { "name": "UniversalStorage" },
+        { "name": "KerbalJointReinforcement" }
     ]
 }
