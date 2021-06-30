@@ -1,10 +1,10 @@
 {
-    "spec_version"      : "v1.4",
-    "identifier"        : "KSPInterstellarExtended",
-    "$kref"             : "#/ckan/spacedock/172",
-    "$vref"             : "#/ckan/ksp-avc",
+    "spec_version"  : "v1.4",
+    "identifier" : "KSPInterstellarExtended",
+    "$kref" : "#/ckan/spacedock/172",
+    "$vref" : "#/ckan/ksp-avc",
     "x_netkan_allow_out_of_order": true,
-    "license"           : "GPL-3.0",
+    "license" : "GPL-3.0",
     "resources": {
         "homepage":   "https://forum.kerbalspaceprogram.com/index.php?/topic/172026-*",
         "repository": "https://github.com/sswelm/KSP-Interstellar-Extended"
@@ -41,7 +41,7 @@
         { "name" : "FilterExtensions"},
         { "name" : "PhotonSailor"},
         { "name" : "HideEmptyTechNodes"},
-        { "name" : "B9PartSwitch},        
+        { "name" : "B9PartSwitch},
         { "name" : "ImprovedTreeEnginePlacement" }
     ],
     "suggests": [
