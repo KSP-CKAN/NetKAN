@@ -37,11 +37,11 @@
     "recommends": [
         { "name" : "PatchManager" },
         { "name" : "InterstellarFuelSwitch" },
-        { "name" : "PersistentRotation"},
-        { "name" : "FilterExtensions"},
-        { "name" : "PhotonSailor"},
-        { "name" : "HideEmptyTechNodes"},
-        { "name" : "B9PartSwitch},
+        { "name" : "PersistentRotation" },
+        { "name" : "FilterExtensions" },
+        { "name" : "PhotonSailor" },
+        { "name" : "HideEmptyTechNodes" },
+        { "name" : "B9PartSwitch" },
         { "name" : "ImprovedTreeEnginePlacement" },
     ],
     "suggests": [
