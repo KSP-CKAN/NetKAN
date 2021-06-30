@@ -21,6 +21,10 @@
         {
             "find"      : "GameData/WarpPlugin",
             "install_to": "GameData"
+        },
+        {
+            "file": "GameData/Interstellar_Redist.dll",
+            "install_to": "GameData"
         }
     ],
     "depends": [
