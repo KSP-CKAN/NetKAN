@@ -2,4 +2,9 @@ spec_version: v1.4
 identifier: InterstellarRedistributable
 $kref: '#/ckan/spacedock/2800'
 license: MIT
-x_via: Automated SpaceDock CKAN submission
+tags:
+  - plugin
+  - library
+install:
+ - file: Interstellar_Redist.dll
+   install_to: GameData
