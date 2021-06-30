@@ -32,7 +32,7 @@
         { "name" : "TweakScale" },
         { "name" : "ModuleManager" },
         { "name" : "CommunityResourcePack" },
-        { "name" : "CommunityTechTree" }
+        { "name" : "CommunityTechTree" },
     ],
     "recommends": [
         { "name" : "PatchManager" },
@@ -42,13 +42,13 @@
         { "name" : "PhotonSailor"},
         { "name" : "HideEmptyTechNodes"},
         { "name" : "B9PartSwitch},
-        { "name" : "ImprovedTreeEnginePlacement" }
+        { "name" : "ImprovedTreeEnginePlacement" },
     ],
     "suggests": [
         { "name" : "HeatControl" },
         { "name" : "BetterBurnTime" },
         { "name" : "TexturesUnlimited" },
         { "name" : "UniversalStorage" },
-        { "name" : "KerbalJointReinforcement" }
+        { "name" : "KerbalJointReinforcement" },
     ]
 }
