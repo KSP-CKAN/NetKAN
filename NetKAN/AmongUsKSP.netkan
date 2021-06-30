@@ -2,4 +2,8 @@ spec_version: v1.4
 identifier: AmongUsKSP
 $kref: '#/ckan/spacedock/2784'
 license: MIT
-x_via: Automated SpaceDock CKAN submission
+tags:
+  - parts
+install:
+  - find: quest_assets
+    install_to: GameData
