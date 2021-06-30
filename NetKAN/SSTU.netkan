@@ -1,0 +1,28 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "SSTU",
+    "license": "unknown",
+    "$kref": "#/ckan/github/shadowmage45/SSTULabs",
+    "$vref": "#/ckan/ksp-avc",
+    "tags": [
+        "parts"
+    ],
+    "conflicts": [
+        { "name": "KRnD" }
+    ],
+    "depends": [
+        { "name": "CommunityResourcePack" },
+        { "name": "KSPWheel"              },
+        { "name": "ModuleManager"         },
+        { "name": "TexturesUnlimited"     }
+    ],
+    "recommends": [
+        { "name": "RealPlume" }
+    ],
+    "install": [
+        {
+            "file": "GameData/SSTU",
+            "install_to": "GameData"
+        }
+    ]
+}
