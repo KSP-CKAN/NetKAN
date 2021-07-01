@@ -2,7 +2,7 @@
     "spec_version": "v1.4",
     "identifier":   "GRAPES",
 
-    "$kref":        "#/ckan/github/linuxgurugamer/FruitKocktail/asset_match/GRAPES",
+    "$kref":        "#/ckan/spacedock/2790",
 
     "$vref":        "#/ckan/ksp-avc",
     "name":         "Gas Repairs And Probably Expensive Snacks",
@@ -19,5 +19,11 @@
     "install": [ {
         "find":       "FruitKocktail",
         "install_to": "GameData"
-    } ]
+    } ],
+
+    "depends": [
+        { "name" : "ToolbarController" },
+        { "name" : "ClickThroughBlocker" },
+        { "name": "ModuleManager" }
+    ]
 }

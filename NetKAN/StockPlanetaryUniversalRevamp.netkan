@@ -1,0 +1,18 @@
+spec_version: v1.4
+identifier: StockPlanetaryUniversalRevamp
+$kref: '#/ckan/spacedock/2796'
+license: CC-BY-NC-ND
+tags:
+  - config
+  - planet-pack
+provides:
+  - EnvironmentalVisualEnhancements-Config
+depends:
+  - name: ModuleManager
+  - name: Kopernicus
+suggests:
+  - name: EnvironmentalVisualEnhancements
+  - name: AstronomersVisualPack
+install:
+  - find: SPUR
+    install_to: GameData

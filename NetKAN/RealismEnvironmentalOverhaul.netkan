@@ -1,0 +1,13 @@
+spec_version: v1.4
+identifier: RealismEnvironmentalOverhaul
+$kref: '#/ckan/spacedock/2798'
+license: CC-BY-NC-SA
+tags:
+  - config
+  - graphics
+depends:
+  - name: ModuleManager
+  - name: RealSolarSystem
+  - name: Scatterer
+  - name: EnvironmentalVisualEnhancements
+  - name: Scatterer-sunflare

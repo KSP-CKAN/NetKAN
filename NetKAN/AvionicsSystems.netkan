@@ -1,0 +1,27 @@
+spec_version: v1.4
+identifier: AvionicsSystems
+$kref: "#/ckan/github/MOARdV/AvionicsSystems/asset_match/AvionicsSystems"
+$vref: "#/ckan/ksp-avc"
+license: restricted
+resources:
+  homepage: https://forum.kerbalspaceprogram.com/index.php?/topic/160856-*
+  license: https://github.com/MOARdV/AvionicsSystems/blob/master/LICENSE.md
+tags:
+  - plugin
+  - crewed
+install:
+  - find: MOARdV
+    install_to: GameData
+depends:
+  - name: ModuleManager
+  - name: ASETProps
+  - name: ASETAvionics
+suggests:
+  - name: AdvancedJetEngine
+  - name: Chatterer
+  - name: DockingPortAlignmentIndicator
+  - name: FAR
+  - name: KerbalAlarmClock
+  - name: KerbalEngineerRedux
+  - name: MechJeb2
+  - name: RealChute

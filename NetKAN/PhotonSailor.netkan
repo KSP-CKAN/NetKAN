@@ -19,6 +19,7 @@
         "install_to": "GameData"
     } ],
     "depends": [
+        { "name": "InterstellarRedistributable" },
         { "name": "ModuleManager" }
     ],
     "recommends": [

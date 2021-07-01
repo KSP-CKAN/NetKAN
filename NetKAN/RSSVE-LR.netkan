@@ -1,0 +1,28 @@
+spec_version: v1.4
+identifier: RSSVE-LR
+name: RSS Visual Enhancements - Low Resolution
+$kref: '#/ckan/github/KSP-RO/RSSVE/asset_match/RSSVE_LR'
+$vref: '#/ckan/ksp-avc'
+license: CC-BY-SA-4.0
+resources:
+  homepage: https://forum.kerbalspaceprogram.com/index.php?/topic/153511-rssve
+tags:
+  - plugin
+  - graphics
+provides:
+  - EnvironmentalVisualEnhancements-Config
+  - RSSVE-Textures
+conflicts:
+  - name: EnvironmentalVisualEnhancements-Config
+  - name: RSSVE-Textures
+depends:
+  - name: ModuleManager
+  - name: EnvironmentalVisualEnhancements
+  - name: RealSolarSystem
+  - name: Scatterer
+recommends:
+  - name: DistantObject
+  - name: PlanetShine
+install:
+  - find: RSSVE
+    install_to: GameData
