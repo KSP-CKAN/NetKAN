@@ -11,12 +11,9 @@
   },
 "abstract": "Display waypoints while in flight, create custom waypoints.",
   "depends": [
-    {
-      "name": "ToolbarController"
-    },
-    {
-      "name": "ClickThroughBlocker"
-    }
+    { "name": "ToolbarController" },
+    { "name": "ClickThroughBlocker" },
+    { "name": "SpaceTuxLibrary" }
   ],
   "tags": [
     "plugin",
