@@ -8,3 +8,5 @@ tags:
 depends:
   - name: ModuleManager
   - name: Snacks
+supports:
+  - name: ReStockPlus
