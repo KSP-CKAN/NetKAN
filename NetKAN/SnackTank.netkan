@@ -2,4 +2,9 @@ spec_version: v1.4
 identifier: SnackTank
 $kref: '#/ckan/spacedock/2802'
 license: MIT
-x_via: Automated SpaceDock CKAN submission
+tags:
+  - config
+  - crewed
+depends:
+  - name: ModuleManager
+  - name: Snacks
