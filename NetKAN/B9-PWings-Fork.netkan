@@ -15,7 +15,7 @@ depends:
   - name: ModuleManager
   - name: FAR
 conflicts:
-  - name: B9AerospaceProceduralParts"
+  - name: B9AerospaceProceduralParts
 suggests:
   - name: TexturesUnlimited
   - name: ProceduralParts
