@@ -13,7 +13,6 @@ tags:
   - parts
 depends:
   - name: ModuleManager
-  - name: FAR
 conflicts:
   - name: B9AerospaceProceduralParts
 suggests:
