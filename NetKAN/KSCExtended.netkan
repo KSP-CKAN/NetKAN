@@ -12,16 +12,16 @@
         { "name": "KerbalKonstructs"     },
         { "name": "TundraSpaceCenter"    },
         { "name": "StockalikeStructures" },
-        { "name": "KerbinSideRemastered" },
         { "name": "ModuleManager"        }
     ],
+    "conflicts": [
+        { "name": "GPP" }
+    ],
     "recommends": [
-        { "name": "KSCHarbor"                             },
         { "name": "TundraExploration"                     },
-        { "name": "Scatterer"                             },
-        { "name": "StockVisualEnhancements"               },
         { "name": "BluedogDB"                             },
         { "name": "ShuttleLiftingBodyCormorantAeronology" },
-        { "name": "ModularLaunchPads"                     }
+        { "name": "ModularLaunchPads"                     },
+        { "name": "KerbinSideRemastered"                  }
     ]
 }
