@@ -1,36 +1,29 @@
-{
-    "spec_version": "v1.4",
-    "identifier":   "ModularLaunchPads",
-    "$kref":        "#/ckan/spacedock/1767",
-    "license":      "CC-BY-NC-SA-4.0",
-    "tags": [
-        "parts"
-    ],
-    "depends": [
-        { "name": "ModuleManager" },
-        { "name": "B9PartSwitch"  }
-    ],
-    "recommends": [
-        { "name": "AnimatedDecouplers"   },
-        { "name": "CommunityCategoryKit" },
-        { "name": "KSCExtended"          }
-    ],
-    "install": [ {
-        "find":       "ModularLaunchPads",
-        "install_to": "GameData"
-    }, {
-        "find":       "Ships/VAB",
-        "install_to": "Ships"
-    } ],
-    "x_netkan_override": [ {
-        "version": "2.1.2",
-        "override": {
-            "ksp_version_min": "1.10.1"
-        }
-    }, {
-        "version": "2.1.4",
-        "override": {
-            "ksp_version_min": "1.11.1"
-        }
-    } ]
-}
+spec_version: v1.4
+identifier: ModularLaunchPads
+$kref: '#/ckan/spacedock/1767'
+license: CC-BY-NC-SA-4.0
+tags:
+  - parts
+depends:
+  - name: ModuleManager
+  - name: B9PartSwitch
+  - name: StagedAnimation
+  - name: CommunityCategoryKit
+recommends:
+  - name: KSCExtended
+  - name: BluedogDB
+install:
+  - find: ModularLaunchPads
+    install_to: GameData
+  - find: Ships/VAB
+    install_to: Ships
+x_netkan_override:
+  - version: 2.1.2
+    override:
+      ksp_version_min: 1.10.1
+  - version: 2.1.4
+    override:
+      ksp_version_min: 1.11.1
+  - version: 2.2.0.b
+    override:
+      ksp_version_min: 1.8.1
