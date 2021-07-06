@@ -1,5 +1,9 @@
 spec_version: v1.4
 identifier: KerbinRoverRedux
 $kref: '#/ckan/spacedock/2804'
-license: Other
-x_via: Automated SpaceDock CKAN submission
+license: CC-BY-SA-4.0
+tags:
+  - parts
+install:
+  - find: KerbinRover
+    install_to: GameData
