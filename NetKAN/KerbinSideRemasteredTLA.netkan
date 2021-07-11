@@ -1,0 +1,20 @@
+spec_version: v1.4
+identifier: KerbinSideRemasteredTLA
+$kref: '#/ckan/spacedock/2808'
+license: MIT
+tags:
+  - config
+  - buildings
+depends:
+  - name: ContractConfigurator
+  - name: KerbalKonstructs
+  - name: KerbinSideRemastered
+  - name: KerbinSideRemasteredGapExtras
+  - name: KSCHarbor
+  - name: WaterLaunchSites
+  - name: CountryDoggosRandomKKBits
+recommends:
+  - name: WorkingUnderwaterLite
+suggests:
+  - name: KerbinSideRemasteredGAP
+  
