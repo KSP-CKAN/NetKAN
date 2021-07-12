@@ -3,7 +3,8 @@ identifier: IntercolorCRERecolours
 $kref: '#/ckan/spacedock/2809'
 license: CC-BY-SA-4.0
 tags:
-  - parts
+  - config
+  - graphics
 depends:
   - name: ModuleManager
   - name: B9PartSwitch
