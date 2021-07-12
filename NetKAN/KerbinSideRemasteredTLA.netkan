@@ -19,8 +19,4 @@ suggests:
   - name: KerbinSideRemasteredGAP
 install:
   - find: KerbinSideRemasteredTLA
-    install_to: GameData
-    filter: Ships
-  - find: Assets/Ships
-    install_to: Ships
-    as: SPH
+    install_to: GameData/ContractPacks
