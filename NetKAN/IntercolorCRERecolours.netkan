@@ -7,6 +7,7 @@ tags:
 depends:
   - name: ModuleManager
   - name: B9PartSwitch
+  - name: CRE
 install:
   - find: CRERecolors
     install_to: GameData
