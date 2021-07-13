@@ -12,6 +12,7 @@ provides:
 depends:
   - name: EnvironmentalVisualEnhancements
   - name: GPP
+  - name: ModuleManager
 conflicts:
   - name: GPPCloudsLowRes
 install:

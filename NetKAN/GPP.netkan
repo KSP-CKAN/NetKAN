@@ -22,9 +22,9 @@ install:
     install_to: GameData
     comment: This correctly installs Final Frontier for GPP
 depends:
-  - name: ModuleManager
-  - name: Kopernicus
   - name: GPPTextures
+  - name: Kopernicus
+  - name: ModuleManager
 conflicts:
   - name: StockVisualEnhancements
 recommends:
