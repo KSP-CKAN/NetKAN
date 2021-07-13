@@ -6,7 +6,3 @@ license: MIT
 tags:
   - config
   - science
-depends:
-  - name: ModuleManager
-supports:
-  - name: KSP-AVC
