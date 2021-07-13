@@ -1,35 +1,23 @@
-{
-    "spec_version": "v1.4",
-    "identifier": "GPPCloudsHighRes",
-    "name": "GPP HighRes clouds",
-    "abstract": "High resolution clouds for GPP",
-    "$kref": "#/ckan/github/Galileo88/Galileos-Planet-Pack",
-    "$vref": "#/ckan/ksp-avc",
-    "license": "CC-BY-NC-ND",
-    "resources": {
-        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/152136-galileos-planet-pack/"
-    },
-    "provides": [
-        "EnvironmentalVisualEnhancements-Config"
-    ],
-    "depends": [
-        { "name": "EnvironmentalVisualEnhancements" },
-        { "name": "GPP"                             }
-    ],
-    "conflicts": [
-        {
-            "name": "GPPCloudsLowRes"
-        }
-    ],
-    "install": [
-        {
-            "find": "Optional Mods/GPP_Clouds/High-res Clouds_GameData inside/GameData/GPP",
-            "install_to": "GameData",
-            "comment": "This installs the high resolution clouds configs for GPP"
-        }
-    ],
-    "tags": [
-        "config",
-        "graphics"
-    ]
-}
+spec_version: v1.4
+identifier: GPPCloudsHighRes
+name: GPP HighRes clouds
+abstract: High resolution clouds for GPP
+$kref: '#/ckan/github/Galileo88/Galileos-Planet-Pack'
+$vref: '#/ckan/ksp-avc'
+license: CC-BY-NC-ND
+resources:
+  homepage: https://forum.kerbalspaceprogram.com/index.php?/topic/152136-galileos-planet-pack/
+provides:
+  - EnvironmentalVisualEnhancements-Config
+depends:
+  - name: EnvironmentalVisualEnhancements
+  - name: GPP
+conflicts:
+  - name: GPPCloudsLowRes
+install:
+  - find: Optional Mods/GPP_Clouds/High-res Clouds_GameData inside/GameData/GPP
+    install_to: GameData
+    comment: This installs the high resolution clouds configs for GPP
+tags:
+  - config
+  - graphics
