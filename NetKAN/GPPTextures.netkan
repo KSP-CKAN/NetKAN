@@ -1,8 +1,23 @@
 {
-	"spec_version": "v1.4",
-	"identifier": "GPPTextures",
-	"$kref": "#/ckan/netkan/https://raw.githubusercontent.com/Galileo88/Galileos-Planet-Pack/master/CKAN/GPPTextures.netkan",
-	"x_netkan_license_ok": true,
+    "spec_version": "v1.4",
+    "identifier": "GPPTextures",
+    "name": "GPP Textures",
+    "abstract": "Textures for Galileo's Planet Pack.",
+    "$kref": "#/ckan/github/Galileo88/Galileos-Planet-Pack/asset_match/GPP_Textures-.*\\.zip"
+    "license": "CC-BY-NC-ND",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/152136-galileos-planet-pack/"
+    },
+    "depends": [
+        { "name": "GPP" }
+    ],
+    "install": [
+        {
+            "find": "GPP",
+            "install_to": "GameData",
+            "comment": "This correctly installs the textures for GPP"
+        }
+    ],
     "tags": [
         "config",
         "graphics"
