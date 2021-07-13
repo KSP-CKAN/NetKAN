@@ -15,11 +15,11 @@ resources:
 install:
   - find: GPP
     install_to: GameData
-    filter:
-      - Grannus
     comment: This is the main install for GPP
   - find: Optional Mods/GPP_FinalFrontier/GameData/Nereid
     install_to: GameData
+    filter:
+      - Grannus
     comment: This correctly installs Final Frontier for GPP
 depends:
   - name: GPPTextures
