@@ -8,6 +8,7 @@
         "replace": "${version}",
         "strict": true
     },
+    "x_netkan_epoch": 2,
     "tags": [
         "config",
         "parts",
