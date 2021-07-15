@@ -24,5 +24,11 @@
         "find"       : "VenStockRevamp",
         "install_to" : "GameData",
         "filter"     : [ "PathPatches", "Squad", "Part Bin" ]
+    } ],
+    "x_netkan_override": [ {
+        "version": "v1.15.1",
+        "override": {
+            "ksp_version_max": "1.10.1"
+        }
     } ]
 }
