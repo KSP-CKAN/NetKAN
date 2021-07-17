@@ -3,6 +3,12 @@
     "identifier":   "TETRIXTechTree",
     "$kref":        "#/ckan/spacedock/2299",
     "license":      "CC-BY-NC-SA",
+    "x_netkan_version_edit": {
+        "find": "^(?<version>.+)\\.(?<date>[0-9]{4,8})$",
+        "replace": "${version}",
+        "strict": true
+    },
+    "x_netkan_epoch": 4,
     "tags": [
         "config",
         "tech-tree"

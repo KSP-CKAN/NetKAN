@@ -3,6 +3,12 @@
     "identifier":   "SIMPLEXKerbalism",
     "$kref":        "#/ckan/spacedock/2300",
     "license":      "Unlicense",
+    "x_netkan_version_edit": {
+        "find": "^(?<version>.+)\\.(?<date>[0-9]{4,8})$",
+        "replace": "${version}",
+        "strict": true
+    },
+    "x_netkan_epoch": 2,
     "tags": [
         "config",
         "parts",
