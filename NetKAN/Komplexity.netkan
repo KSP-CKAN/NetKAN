@@ -1,5 +1,20 @@
 spec_version: v1.4
 identifier: Komplexity
 $kref: '#/ckan/spacedock/2805'
-license: GPLv2
-x_via: Automated SpaceDock CKAN submission
+$vref: '#/ckan/ksp-avc'
+license: GPL-2.0
+tags:
+  - config
+  - career
+depends:
+  - name: ModuleManager
+  - name: CustomBarnKit
+recommends:
+  - name: KerbalChangelog
+conflicts:
+  - name: Strategia
+  - name: Bureaucracy
+  - name: CustomBarnKit-RO
+install:
+  - find: KGEx
+    install_to: GameData
