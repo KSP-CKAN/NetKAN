@@ -14,7 +14,7 @@
         { "name": "CustomBarnKit" }
     ],
      "recommends": [
-        { "name": "KerbalSpaceRebalanced" }
+        {  }
     ],
     "install": [ {
         "find":       "CARP",
@@ -22,7 +22,7 @@
         "filter":     [ "CraftFiles" ]
     } ],
     "x_netkan_override": [ {
-        "version": "0.7.1",
+        "version": "0.8",
         "override": {
             "ksp_version_min": "1.12.0"
         }
