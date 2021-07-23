@@ -6,3 +6,8 @@ tags:
   - parts
 depends:
   - name: ModuleManager
+  - name: B9PartSwitch
+recommends:
+  - name: StarshipLaunchExpansion
+  - name: HangarExtender
+  - name: KerbalKonstructs
