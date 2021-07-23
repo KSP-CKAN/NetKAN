@@ -1,0 +1,8 @@
+spec_version: v1.4
+identifier: StarshipLaunchExpansion
+$kref: '#/ckan/spacedock/2814'
+license: MIT
+tags:
+  - parts
+depends:
+  - name: ModuleManager
