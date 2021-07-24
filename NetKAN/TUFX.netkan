@@ -1,0 +1,20 @@
+{
+    "spec_version": "v1.16",
+    "identifier":   "TUFX",
+    "name":         "TUFX",
+    "abstract":     "Post-processing FX for KSP",
+    "$kref":        "#/ckan/github/shadowmage45/TUFX",
+    "$vref":        "#/ckan/ksp-avc",
+    "license":      "GPL-3.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/192212-*"
+    },
+    "tags": [
+        "plugin",
+        "graphics"
+    ],
+    "install": [ {
+        "find":       "TUFX",
+        "install_to": "GameData"
+    } ]
+}
