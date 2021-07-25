@@ -8,10 +8,16 @@
     "tags": [
         "parts"
     ],
-    "install": [ {
-        "find": "BahaSP",
-        "install_to": "GameData/SpaceTuxIndustries/RecycledParts"
-    } ],
+    "install": [ 
+        {
+            "find": "BahaSP",
+            "install_to": "GameData/SpaceTuxIndustries/RecycledParts"
+        },
+        {
+            "find": "Plugins",
+            "install_to": "GameData/SpaceTuxIndustries"
+        } 
+    ],
     "depends": [
         { "name": "ModuleManager" },
         { "name": "ASETProps" },
