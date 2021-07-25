@@ -1,0 +1,13 @@
+spec_version: v1.4
+identifier: KASAFlagPackandTUFXProfile
+$kref: '#/ckan/spacedock/2703'
+license: MIT
+tags:
+  - config
+  - graphics
+  - flags
+depends:
+  - name: TUFX
+install:
+  - find: KASA
+    install_to: GameData
