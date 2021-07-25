@@ -1,0 +1,14 @@
+spec_version: v1.4
+identifier: IntercolorCRERecolours
+$kref: '#/ckan/spacedock/2809'
+license: CC-BY-SA-4.0
+tags:
+  - config
+  - graphics
+depends:
+  - name: ModuleManager
+  - name: B9PartSwitch
+  - name: CRE
+install:
+  - find: CRERecolors
+    install_to: GameData

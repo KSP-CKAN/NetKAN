@@ -1,10 +1,20 @@
-{
-    "spec_version": "v1.4",
-    "identifier":   "GPPSecondary",
-    "$kref":        "#/ckan/netkan/https://raw.githubusercontent.com/Galileo88/Galileos-Planet-Pack/master/CKAN/GPPSecondary.netkan",
-    "x_netkan_license_ok": true,
-    "tags": [
-        "config",
-        "planet-pack"
-    ]
-}
+spec_version: v1.4
+identifier: GPPSecondary
+name: GPP Secondary
+abstract: GPP secondary puts Galileo's Planet Pack around the stock solar system.
+$kref: '#/ckan/github/Galileo88/Galileos-Planet-Pack'
+$vref: '#/ckan/ksp-avc'
+license: CC-BY-NC-ND
+resources:
+  homepage: https://forum.kerbalspaceprogram.com/index.php?/topic/152136-galileos-planet-pack/
+install:
+  - find: Optional Mods/GPP_Secondary/GameData/GPP_Secondary
+    install_to: GameData
+    comment: This installs the GPP_Secondary configs for GPP
+depends:
+  - name: GPP
+  - name: Kopernicus
+  - name: ModuleManager
+tags:
+  - config
+  - planet-pack

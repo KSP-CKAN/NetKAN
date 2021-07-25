@@ -1,9 +1,9 @@
-{
-    "spec_version"   : "v1.2",
-    "identifier"     : "RadioFreeKerbin",
-    "$kref"          : "#/ckan/netkan/https://raw.githubusercontent.com/benjwgarner/RadioFreeKerbin/master/RadioFreeKerbin.ckan",
-    "tags": [
-        "config",
-        "science"
-    ]
-}
+spec_version: v1.2
+identifier: RadioFreeKerbin
+$kref: '#/ckan/github/benjwgarner/RadioFreeKerbin'
+x_netkan_version_edit: ^[vV]?(?<version>.+)$
+$vref: '#/ckan/ksp-avc'
+license: MIT
+tags:
+  - config
+  - science
