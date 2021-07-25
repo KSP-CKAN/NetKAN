@@ -1,7 +1,7 @@
 {
     "spec_version": "v1.18",
     "identifier":   "KSPCommunityFixes",
-    "abstract":     "Fixes for stock bugs and various QoL/UI improvements",
+    "abstract":     "Fixes for stock code bugs, also provides various QoL/UI improvements",
     "author":       "Gotmachine",
     "$kref":        "#/ckan/github/KSPModdingLibs/KSPCommunityFixes",
     "$vref":        "#/ckan/ksp-avc",
