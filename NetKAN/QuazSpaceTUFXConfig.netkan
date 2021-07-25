@@ -1,0 +1,12 @@
+spec_version: v1.4
+identifier: QuazSpaceTUFXConfig
+$kref: '#/ckan/spacedock/2764'
+license: MIT
+tags:
+  - config
+  - graphics
+depends:
+  - name: TUFX
+install:
+  - file: QuazSpace.cfg
+    install_to: GameData/QuazSpace
