@@ -16,7 +16,7 @@
         {
             "find": "Plugins",
             "install_to": "GameData/SpaceTuxIndustries"
-        } 
+        }
     ],
     "depends": [
         { "name": "ModuleManager" },
