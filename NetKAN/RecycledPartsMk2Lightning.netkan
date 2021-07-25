@@ -8,7 +8,7 @@
     "tags": [
         "parts"
     ],
-    "install": [ 
+    "install": [
         {
             "find": "BahaSP",
             "install_to": "GameData/SpaceTuxIndustries/RecycledParts"
