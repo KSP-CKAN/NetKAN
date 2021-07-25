@@ -2,4 +2,7 @@ spec_version: v1.4
 identifier: KerbalizedSuits
 $kref: '#/ckan/spacedock/2813'
 license: MIT
-x_via: Automated SpaceDock CKAN submission
+tags:
+  - crewed
+  - graphics
+  - suits
