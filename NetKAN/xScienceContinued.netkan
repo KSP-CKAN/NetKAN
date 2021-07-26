@@ -1,25 +1,28 @@
-{
-  "spec_version": "v1.4",
-  "identifier":   "xScienceContinued",
-  "name":         "[x] Science! Continued",
-  "abstract":     "The Science Report and Checklist for KSP.  [x] Science! keeps track of the science experiments completed, recovered and held on vehicles and kerbals.",
-  "author":       ["Z-Key Aerospace", "Brodrick", "Flupster", "linuxgurugamer"],
-  "$kref":        "#/ckan/github/linuxgurugamer/KSP-X-Science",
-  "$vref" :       "#/ckan/ksp-avc",
-  "license":      "CC-BY-NC-SA-4.0",
-  "resources": {
-   "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/199287-*",
-   "repository": "https://github.com/linuxgurugamer/KSP-X-Science"
-  },
-  "tags": [
-      "plugin",
-      "information",
-      "science"
-  ],
-  "install": [
-      {
-          "find": "[x]_Science!",
-          "install_to": "GameData"
-      }
-  ]
-}
+spec_version: v1.4
+identifier: xScienceContinued
+name: '[x] Science! Continued'
+abstract: >-
+  The Science Report and Checklist for KSP.  [x] Science! keeps track of the
+  science experiments completed, recovered and held on vehicles and kerbals.
+author:
+  - Z-Key Aerospace
+  - Brodrick
+  - Flupster
+  - linuxgurugamer
+$kref: '#/ckan/github/linuxgurugamer/KSP-X-Science'
+$vref: '#/ckan/ksp-avc'
+license: CC-BY-NC-SA-4.0
+resources:
+  homepage: https://forum.kerbalspaceprogram.com/index.php?/topic/199287-*
+  repository: https://github.com/linuxgurugamer/KSP-X-Science
+tags:
+  - plugin
+  - information
+  - science
+depends:
+  - name: ClickThroughBlocker
+  - name: ToolbarController
+  - name: SpaceTuxLibrary
+install:
+  - find: '[x]_Science!'
+    install_to: GameData
