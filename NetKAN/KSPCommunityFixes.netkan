@@ -13,6 +13,3 @@ tags:
 depends:
   - name: ModuleManager
   - name: Harmony2
-install:
-  - find: KSPCommunityFixes
-    install_to: GameData
