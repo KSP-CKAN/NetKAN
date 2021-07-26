@@ -2,7 +2,7 @@
   "spec_version": 1,
   "identifier":   "xScienceContinued",
   "name":         "[x] Science! Continued",
-  "abstract":     "The Science Report and Checklist for KSP.  [x] Science! keeps track of the science experiments you have completed and recovered to Kerbal Space Center. It also tracks science you have gathered which is held on vehicles and kerbals.  No matter what game scene you are in, what you current vehicle is, [x] Science! always reports on all science held anywhere.",
+  "abstract":     "The Science Report and Checklist for KSP.  [x] Science! keeps track of the science experiments completed, recovered and held on vehicles and kerbals.",
   "author":       ["Z-Key Aerospace", "Brodrick", "Flupster", "linuxgurugamer"],
   "$kref":        "#/ckan/github/linuxgurugamer/KSP-X-Science",
   "$vref" :       "#/ckan/ksp-avc",
@@ -18,7 +18,7 @@
   ],
   "install": [
       {
-          "file": "[x]_Science!",
+          "find": "[x]_Science!",
           "install_to": "GameData"
       }
   ]
