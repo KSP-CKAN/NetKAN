@@ -1,0 +1,12 @@
+spec_version: v1.4
+identifier: MidweeksTUFXConfig
+$kref: '#/ckan/spacedock/2746'
+license: MIT
+tags:
+  - config
+  - graphics
+depends:
+  - name: TUFX
+install:
+  - file: midweek.cfg
+    install_to: GameData/Midweek
