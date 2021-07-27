@@ -1,28 +1,11 @@
-{
-  "license": "GPL-2.0",
-  "identifier": "SimpleOrbitCalculator",
-  "x_via": "Automated Linuxgurugamer CKAN script",
-  "$kref": "#/ckan/spacedock/2816",
-  "$vref": "#/ckan/ksp-avc",
-  "resources": {
-    "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/204055-112-soc-simple-orbit-calculator/",
-    "repository": "https://github.com/linuxgurugamer/ksp-SimpleOrbitCalculator"
-  },
-  "depends": [
-    {
-      "name": "SimpleOrbitCalculator"
-    },
-    {
-      "name": "ToolbarController"
-    },
-    {
-      "name": "ClickThroughBlocker"
-    }
-  ],
-  "tags": [
-    "plugin",
-    "information"
-  ],
-  "install": [],
-  "spec_version": "v1.4"
-}
+spec_version: v1.4
+identifier: SimpleOrbitCalculator
+$kref: '#/ckan/spacedock/2816'
+$vref: '#/ckan/ksp-avc'
+license: GPL-2.0
+tags:
+  - plugin
+  - information
+depends:
+  - name: ToolbarController
+  - name: ClickThroughBlocker
