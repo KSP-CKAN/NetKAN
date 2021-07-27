@@ -9,3 +9,4 @@ tags:
 depends:
   - name: ToolbarController
   - name: ClickThroughBlocker
+  - name: SpaceTuxLibrary
