@@ -6,10 +6,10 @@ license: GPL-3.0
 depends:
   - name: ModuleManager # Contains optional patch with .cfg.OFF extension
 recommends:
-  - name: BiomaticForAll
   - name: ToolbarController
   - name: ClickThroughBlocker
 suggests:
+  - name: BiomaticForAll
   - name: Toolbar
   - name: ODFC-Refueled
   - name: FieldTrainingFacility
