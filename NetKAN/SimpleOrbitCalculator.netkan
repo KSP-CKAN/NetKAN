@@ -3,9 +3,9 @@ identifier: SimpleOrbitCalculator
 $kref: '#/ckan/spacedock/2816'
 $vref: '#/ckan/ksp-avc'
 license: GPL-2.0
-depends:
-  - name: ToolbarController
-  - name: ClickThroughBlocker
 tags:
   - plugin
   - information
+depends:
+  - name: ToolbarController
+  - name: ClickThroughBlocker
