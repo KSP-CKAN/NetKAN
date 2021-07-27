@@ -1,53 +1,45 @@
-{
-    "spec_version": "v1.4",
-    "identifier":   "SimpleConstruction",
-    "name":         "SimpleConstruction!",
-    "abstract":     "This addon aims to provide simple craft building capability in flight mode to stock parts for Kerbal Space Program.",
-    "$kref":        "#/ckan/spacedock/59",
-    "$vref":        "#/ckan/ksp-avc/SimpleConstruction.version",
-    "x_netkan_version_edit": {
-        "find": "[Version_]?",
-        "replace": "",
-        "strict": false
-    },
-    "x_netkan_epoch": 1,
-    "license": "MIT",
-    "tags": [
-        "plugin",
-        "resources",
-        "config"
-    ],
-    "depends": [
-        { "name": "ModuleManager"         },
-        { "name": "CommunityResourcePack" }
-    ],
-    "recommends": [
-        { "name" : "KerbalStats"         },
-        { "name" : "Toolbar"             },
-        { "name" : "B9PartSwitch"        }
-    ],
-    "suggests": [
-        { "name": "StockalikeMiningExtension"      },
-        { "name": "NotSoSimpleConstruction"        },
-        { "name": "KIS"                            },
-        { "name": "KAS"                            },
-        { "name": "KeridianDynamicsVesselAssembly" },
-        { "name": "KerbalJointReinforcementNext"   }
-    ],
-    "supports": [
-        { "name": "KerbalChangelog" },
-        { "name": "Kethane"         },
-        { "name": "B9PartSwitch"    }
-    ],
-    "conflicts": [
-        { "name": "ExtraPlanetaryLaunchpads" }
-    ],
-    "provides": [ "ExtraPlanetaryLaunchpads" ],
-    "install": [ {
-        "find":       "SimpleConstruction",
-        "install_to": "GameData"
-    }, {
-        "find":       "ExtraplanetaryLaunchpads",
-        "install_to": "GameData"
-    } ]
-}
+spec_version: v1.4
+identifier: SimpleConstruction
+name: SimpleConstruction!
+abstract: >-
+  This addon aims to provide simple craft building capability in flight mode to
+  stock parts for Kerbal Space Program.
+$kref: '#/ckan/spacedock/59'
+$vref: '#/ckan/ksp-avc/SimpleConstruction.version'
+x_netkan_version_edit:
+  find: '[Version_]?'
+  replace: ''
+  strict: false
+x_netkan_epoch: 1
+license: MIT
+tags:
+  - plugin
+  - resources
+  - config
+depends:
+  - name: ModuleManager
+  - name: CommunityResourcePack
+recommends:
+  - name: KerbalStats
+  - name: Toolbar
+  - name: B9PartSwitch
+suggests:
+  - name: StockalikeMiningExtension
+  - name: NotSoSimpleConstruction
+  - name: KIS
+  - name: KAS
+  - name: KeridianDynamicsVesselAssembly
+  - name: KerbalJointReinforcementNext
+supports:
+  - name: KerbalChangelog
+  - name: Kethane
+  - name: B9PartSwitch
+conflicts:
+  - name: ExtraPlanetaryLaunchpads
+provides:
+  - ExtraPlanetaryLaunchpads
+install:
+  - find: SimpleConstruction
+    install_to: GameData
+  - find: ExtraplanetaryLaunchpads
+    install_to: GameData
