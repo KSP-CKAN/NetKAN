@@ -1,6 +1,7 @@
 {
     "spec_version"    : "v1.4",
     "identifier"      : "StagedAnimation",
+    "author"          : [ "NathanKell", "KSP-RO" ],
     "$kref"           : "#/ckan/github/KSP-RO/StagedAnimation",
     "name"            : "Staged Animation",
     "abstract"        : "Plays an animation when a part is staged",
