@@ -1,23 +1,15 @@
-{
-    "spec_version": "v1.4",
-    "identifier":   "KerbalMiniShuttle",
-    "$kref":        "#/ckan/spacedock/2678",
-    "license":      "GPL-2.0",
-    "tags": [
-        "parts",
-        "crewed"
-    ],
-    "depends": [
-        { "name": "ModuleManager" }
-    ],
-    "install": [ {
-        "find":       "GameData/BTS",
-        "install_to": "GameData"
-    }, {
-        "find":       "GameData/1MAIN",
-        "install_to": "GameData"
-    }, {
-        "find":       "Ships/VAB",
-        "install_to": "Ships"
-    } ]
-}
+spec_version: v1.4
+identifier: KerbalMiniShuttle
+$kref: '#/ckan/spacedock/2678'
+license: GPL-2.0
+tags:
+  - parts
+  - crewed
+depends:
+  - name: ModuleManager
+  - name: B9PartSwitch
+install:
+  - find: GameData/MKS
+    install_to: GameData
+  - find: Ships/VAB
+    install_to: Ships
