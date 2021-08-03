@@ -13,9 +13,7 @@
         "resources"
     ],
     "depends": [
-        { "name": "ModuleManager" }
-    ],
-    "recommends": [
+        { "name": "ModuleManager" },
         { "name": "ModuleAnimateGenericEffects" }
     ],
     "install": [ {
