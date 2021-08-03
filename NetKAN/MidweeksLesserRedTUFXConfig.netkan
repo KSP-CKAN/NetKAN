@@ -1,0 +1,12 @@
+spec_version: v1.4
+identifier: MidweeksLesserRedTUFXConfig
+$kref: '#/ckan/spacedock/2818'
+license: MIT
+tags:
+  - config
+  - graphics
+depends:
+  - name: TUFX
+install:
+  - file: Midweeks_lesser_red.cfg
+    install_to: GameData/Midweek
