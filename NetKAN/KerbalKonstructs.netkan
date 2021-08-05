@@ -2,13 +2,13 @@
     "spec_version" : "v1.4",
     "identifier"   : "KerbalKonstructs",
     "abstract"     : "New buildings and launch sites",
-    "author"       : [ "AlphaAsh", "ozraven", "Ger_space" ],
-    "$kref"        : "#/ckan/spacedock/1052",
+    "author"       : [ "AlphaAsh", "ozraven", "Ger_space", "ryanc55", "KSP-RO" ],
+    "$kref"        : "#/ckan/github/KSP-RO/Kerbal-Konstructs",
     "$vref"        : "#/ckan/ksp-avc",
     "license"      : "restricted",
     "comment"      : "Plugin is MIT, but Static Assets, Artwork & Models are ARR",
     "resources": {
-        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/151818-*"
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/204210-*"
     },
     "tags": [
         "plugin",
