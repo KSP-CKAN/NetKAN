@@ -9,8 +9,9 @@
         "crewed"
     ],
     "depends": [
-        { "name": "ModuleManager"         },
+        { "name": "B9PartSwitch"          },
         { "name": "CommunityResourcePack" },
+        { "name": "ModuleManager"         },
         { "name": "Waterfall"             }
     ],
     "install": [ {
@@ -18,8 +19,10 @@
         "install_to": "GameData",
         "filter":     [ ".DS_Store" ]
     }, {
-        "find":       "Craft",
-        "install_to": "Ships",
-        "as":         "VAB"
+        "find":       "Craft/VAB",
+        "install_to": "Ships"
+    }, {
+        "find":       "Craft/SPH",
+        "install_to": "Ships"
     } ]
 }
