@@ -17,5 +17,6 @@ depends:
 install:
   - find: DeadlyReentry
     install_to: GameData
+    filter: .git
 x_netkan_force_v: true
 x_netkan_epoch: 1
