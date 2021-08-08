@@ -19,7 +19,8 @@
         "information",
         "control"
     ],
-    "ksp_version": "1.11",
+    "ksp_version_min": "1.8",
+    "ksp_version_max": "1.12.90",
     "install": [
         {
             "find": "MechJeb2",
@@ -30,14 +31,14 @@
         { "name": "ModuleManager" }
     ],
     "x_netkan_override": [
-	    {
+        {
             "version": "2.9.2.0",
             "override": {
                 "ksp_version_min": "1.8.0",
                 "ksp_version_max": "1.9.90"
             }
         },
-	    {
+        {
             "version": "2.8.4.0",
             "override": {
                 "ksp_version_min": "1.7.0",
