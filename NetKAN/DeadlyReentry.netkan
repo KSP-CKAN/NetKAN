@@ -1,29 +1,21 @@
-{
-    "spec_version"   : "v1.4",
-    "identifier"     : "DeadlyReentry",
-    "name"           : "Deadly Reentry Continued",
-    "abstract"       : "Makes re-entry much more dangerous",
-    "$kref"          : "#/ckan/github/Starwaster/DeadlyReentry",
-    "$vref"          : "#/ckan/ksp-avc",
-    "license"        : "CC-BY-SA",
-    "resources"      : {
-        "homepage"   : "https://forum.kerbalspaceprogram.com/index.php?/topic/50296-*",
-    },
-    "tags"           : [
-        "plugin",
-        "parts",
-        "physics",
-        "sound"
-    ],
-    "depends"        : [
-        { "name": "ModuleManager" }
-    ],
-    "install"        : [
-        {
-            "find": "DeadlyReentry",
-            "install_to": "GameData"
-        }
-    ],
-    "x_netkan_force_v": true,
-    "x_netkan_epoch": 1
-}
+spec_version: v1.4
+identifier: DeadlyReentry
+name: Deadly Reentry Continued
+abstract: Makes re-entry much more dangerous
+$kref: '#/ckan/github/Starwaster/DeadlyReentry'
+$vref: '#/ckan/ksp-avc'
+license: CC-BY-SA
+resources:
+  homepage: 'https://forum.kerbalspaceprogram.com/index.php?/topic/50296-*'
+tags:
+  - plugin
+  - parts
+  - physics
+  - sound
+depends:
+  - name: ModuleManager
+install:
+  - find: DeadlyReentry
+    install_to: GameData
+x_netkan_force_v: true
+x_netkan_epoch: 1
