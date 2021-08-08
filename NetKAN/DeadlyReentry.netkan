@@ -3,12 +3,11 @@
     "identifier"     : "DeadlyReentry",
     "name"           : "Deadly Reentry Continued",
     "abstract"       : "Makes re-entry much more dangerous",
-    "$kref"          : "#/ckan/github/KSP-RO/DeadlyReentry",
+    "$kref"          : "#/ckan/github/Starwaster/DeadlyReentry",
     "$vref"          : "#/ckan/ksp-avc",
     "license"        : "CC-BY-SA",
     "resources"      : {
-        "homepage"   : "https://forum.kerbalspaceprogram.com/index.php?/topic/204209-*",
-        "repository" : "https://github.com/KSP-RO/DeadlyReentry"
+        "homepage"   : "https://forum.kerbalspaceprogram.com/index.php?/topic/50296-*",
     },
     "tags"           : [
         "plugin",
@@ -17,7 +16,7 @@
         "sound"
     ],
     "depends"        : [
-        { "name": "ModuleManager", "min_version" : "2.6.5" }
+        { "name": "ModuleManager" }
     ],
     "install"        : [
         {
@@ -25,5 +24,6 @@
             "install_to": "GameData"
         }
     ],
-    "x_netkan_force_v": true
+    "x_netkan_force_v": true,
+    "x_netkan_epoch": 1
 }
