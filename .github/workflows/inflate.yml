@@ -40,6 +40,8 @@ jobs:
                   source: commits
                   diff meta root: .CKAN-meta
                   pull request url: ${{ github.event.pull_request.url }}
+            - name: Chmod cached files so actions/cache and actions/upload-artifact can read them
+              run: sudo chmod -R a+r .cache /repo
             - name: Upload inflated repo metadata.tar.gz artifact
               if: ${{ always() && github.event_name == 'pull_request' }}
               uses: actions/upload-artifact@v2
@@ -47,5 +49,3 @@ jobs:
                   name: metadata.tar.gz
                   path: /repo/metadata.tar.gz
                   retention-days: 7
-            - name: Chmod cached files so actions/cache can read them
-              run: sudo chmod -R a+r .cache
