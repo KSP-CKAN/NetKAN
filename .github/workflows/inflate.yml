@@ -42,6 +42,7 @@ jobs:
                   pull request url: ${{ github.event.pull_request.url }}
             - name: Chmod cached files so actions/cache and actions/upload-artifact can read them
               run: sudo chmod -R a+r .cache /repo
+              if: ${{ always() }}
             - name: Upload inflated repo metadata.tar.gz artifact
               if: ${{ always() && github.event_name == 'pull_request' }}
               uses: actions/upload-artifact@v2
