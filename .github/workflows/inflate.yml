@@ -41,7 +41,7 @@ jobs:
                   diff meta root: .CKAN-meta
                   pull request url: ${{ github.event.pull_request.url }}
             - name: Upload inflated repo metadata.tar.gz artifact
-              if: ${{ github.event_name == 'pull_request' }}
+              if: ${{ always() && github.event_name == 'pull_request' }}
               uses: actions/upload-artifact@v2
               with:
                   name: metadata.tar.gz
