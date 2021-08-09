@@ -15,6 +15,10 @@
         "plugin",
         "information"
     ],
+    "depends": [
+        { "name" : "ToolbarController" },
+        { "name" : "ClickThroughBlocker" }
+    ],
     "install": [ {
         "find": "ShowFPS",
         "install_to": "GameData"
