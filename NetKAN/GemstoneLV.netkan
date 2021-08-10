@@ -5,6 +5,8 @@ $vref: '#/ckan/ksp-avc'
 license: MIT
 resources:
   homepage: https://forum.kerbalspaceprogram.com/index.php?/topic/204309-*
+tags:
+  - parts
 depends:
   - name: B9PartSwitch
   - name: CommunityResourcePack
