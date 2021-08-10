@@ -14,6 +14,8 @@ tags:
   - library
 provides:
   - KSPBurst-Full
+conflicts:
+  - KSPBurst
 install:
   - find: 000_KSPBurst
     install_to: GameData
