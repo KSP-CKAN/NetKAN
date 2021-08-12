@@ -5,6 +5,8 @@ license: unknown
 tags:
   - parts
   - crewed
+depends:
+  - name: ModuleManager
 install:
   - find: H.A.D.D
     install_to: GameData
