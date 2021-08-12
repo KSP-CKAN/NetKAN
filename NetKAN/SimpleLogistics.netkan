@@ -23,7 +23,8 @@
         { "name": "DockingPortDescriptions" },
         { "name": "PicoPortShielded"        },
         { "name": "KerbalChangelog"         },
-        { "name": "Pteron"                 }
+        { "name": "Pteron"                  }
+    ],
     "supports": [
         { "name": "KerbalChangelog"         },
         { "name": "AlternateResourcePanel"  }
