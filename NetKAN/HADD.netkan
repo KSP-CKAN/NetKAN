@@ -5,3 +5,6 @@ license: unknown
 tags:
   - parts
   - crewed
+install:
+  - find: H.A.D.D
+    install_to: GameData
