@@ -2,7 +2,7 @@
     "spec_version": "v1.4",
     "identifier":   "SimpleLogistics",
     "author":       [ "RealGecko", "zer0Kerbal" ],
-    "$kref":        "#/ckan/spacedock/2312",
+    "$kref":        "#/ckan/spacedock/1079",
     "$vref":        "#/ckan/ksp-avc",
     "license":      "GPL-3.0",
      "tags": [
@@ -14,12 +14,18 @@
         { "name": "ToolbarController"   },
         { "name": "ClickThroughBlocker" }
     ],
-    "recommends": [
+    "suggests": [
         { "name": "ODFC-Refueled"           },
+        { "name": "SimpleConstruction"      },
+        { "name": "Komplexity"              },
         { "name": "FieldTrainingLaboratory" },
         { "name": "FieldTrainingFacility"   },
         { "name": "DockingPortDescriptions" },
         { "name": "PicoPortShielded"        },
+        { "name": "KerbalChangelog"         },
+        { "name": "Pteron"                  }
+    ],
+    "supports": [
         { "name": "KerbalChangelog"         },
         { "name": "AlternateResourcePanel"  }
     ]
