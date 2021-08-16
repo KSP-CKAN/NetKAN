@@ -2,7 +2,7 @@ spec_version: v1.4
 identifier: SIMPLEXAssembly
 $kref: '#/ckan/spacedock/2827'
 x_netkan_version_edit:
-  find: ^(?<version>.+)\\.(?<date>[0-9]{4,8})$
+  find: ^(?<version>.+)\.(?<date>[0-9]{4,8})$
   replace: ${version}
   strict: true
 license: CC-BY-NC-SA
