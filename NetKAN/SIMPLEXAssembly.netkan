@@ -1,5 +1,11 @@
 spec_version: v1.4
 identifier: SIMPLEXAssembly
 $kref: '#/ckan/spacedock/2827'
-license: Other
-x_via: Automated SpaceDock CKAN submission
+license: CC-BY-NC-SA
+tags:
+  - config
+depends:
+  - name: ModuleManager
+install:
+  - find: AngleCanMods
+    install_to: GameData
