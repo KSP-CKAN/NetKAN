@@ -2,7 +2,7 @@
     "spec_version" : "v1.4",
     "identifier"   : "AlarmEnhancements",
     "name"         : "Alarm Enhancements",
-    "abstract"     : "Additional functionality for the stock Alarm Clock system (automatic alarms, auto renaming of alarms etc)",
+    "abstract"     : "Additional features for the stock Alarm Clock system",
     "$kref"        : "#/ckan/github/severedsolo/AlarmEnhancements",
     "$vref"        : "#/ckan/ksp-avc",
     "license"      : "MIT",
