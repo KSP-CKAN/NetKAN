@@ -1,0 +1,19 @@
+{
+    "spec_version" : "v1.4",
+    "identifier"   : "AlarmEnhancements",
+    "name"         : "Alarm Enhancements",
+    "abstract"     : "Additional functionality for the stock Alarm Clock system (automatic alarms, auto renaming of alarms etc)",
+    "$kref"        : "#/ckan/github/severedsolo/AlarmEnhancements",
+    "$vref"        : "#/ckan/ksp-avc",
+    "license"      : "MIT",
+    "resources" : {
+        "homepage" : "https://forum.kerbalspaceprogram.com/index.php?/topic/204404-*"
+    },
+    "tags": [
+        "plugin"
+    ],
+    "install" : [ {
+        "find" : "AlarmEnhancements",
+        "install_to" : "GameData"
+    } ]
+}
