@@ -1,0 +1,14 @@
+spec_version: v1.4
+identifier: SimpleRepaint
+author: Alexander Rogov
+$kref: '#/ckan/spacedock/2820'
+$vref: '#/ckan/ksp-avc'
+license: CC-BY-4.0
+tags:
+  - config
+  - graphics
+depends:
+  - name: ModuleManager
+    min_version: 3.1.3
+  - name: B9PartSwitch
+    min_version: 2.16.0
