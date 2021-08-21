@@ -8,6 +8,14 @@
         "config",
         "buildings"
     ],
+    "x_netkan_override" : [
+        {
+            "version" : ">=2.0.1",
+            "override" : {
+                "ksp_version_max" : "1.12.99"
+            }
+        }
+    ],
     "depends": [
         { "name": "ModuleManager"    },
         { "name": "KerbalKonstructs" }
