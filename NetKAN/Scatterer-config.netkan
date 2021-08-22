@@ -12,9 +12,7 @@
         "graphics",
         "config"
     ],
-    "depends": [
-        { "name": "Scatterer" }
-    ],
+    "comment": "Does not depend on Scatterer to match Scatterer-sunflare",
     "conflicts": [
         { "name": "Scatterer-config" }
     ],
