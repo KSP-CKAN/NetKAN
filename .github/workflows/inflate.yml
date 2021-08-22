@@ -41,12 +41,12 @@ jobs:
                   diff meta root: .CKAN-meta
                   pull request url: ${{ github.event.pull_request.url }}
             - name: Chmod cached files so actions/cache and actions/upload-artifact can read them
-              run: sudo chmod -R a+r .cache .repo
+              run: sudo chmod -R a+r .cache
               if: ${{ always() }}
-            - name: Upload inflated repo metadata.tar.gz artifact
+            - name: Upload inflated ckans as metadata repository zip artifact
               if: ${{ always() && github.event_name == 'pull_request' }}
               uses: actions/upload-artifact@v2
               with:
-                  name: metadata.tar.gz
-                  path: .repo/metadata.tar.gz
+                  name: metadata-${{ github.event.pull_request.number }}
+                  path: .ckans
                   retention-days: 7
