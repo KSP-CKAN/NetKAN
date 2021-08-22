@@ -12,9 +12,7 @@
         "graphics",
         "config"
     ],
-    "depends": [
-        { "name": "Scatterer" }
-    ],
+    "comment": "Does not depend on Scatterer to avoid planet packs forcing installation of Scatterer",
     "provides": [
         "Scatterer-sunflare-default"
     ],
