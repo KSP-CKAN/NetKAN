@@ -2,4 +2,11 @@ spec_version: v1.4
 identifier: SigmasRSSTUFXProfiles
 $kref: '#/ckan/spacedock/2834'
 license: MIT
-x_via: Automated SpaceDock CKAN submission
+tags:
+  - config
+  - graphics
+depends:
+  - name: ModuleManager
+install:
+  - find: "Sigma's Mods"
+    install_to: GameData
