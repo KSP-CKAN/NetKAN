@@ -5,6 +5,8 @@ license: MIT
 tags:
   - config
   - graphics
+depends:
+  - name: TUFX
 install:
   - find: "Sigma's Mods"
     install_to: GameData
