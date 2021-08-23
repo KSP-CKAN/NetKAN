@@ -1,0 +1,12 @@
+spec_version: v1.4
+identifier: SigmasRSSTUFXProfiles
+$kref: '#/ckan/spacedock/2834'
+license: MIT
+tags:
+  - config
+  - graphics
+depends:
+  - name: TUFX
+install:
+  - find: "Sigma's Mods"
+    install_to: GameData
