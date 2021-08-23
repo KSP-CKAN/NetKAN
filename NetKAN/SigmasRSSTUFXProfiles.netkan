@@ -5,8 +5,6 @@ license: MIT
 tags:
   - config
   - graphics
-depends:
-  - name: ModuleManager
 install:
   - find: "Sigma's Mods"
     install_to: GameData
