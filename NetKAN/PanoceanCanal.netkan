@@ -1,0 +1,13 @@
+spec_version: v1.4
+identifier: PanoceanCanal
+$kref: '#/ckan/spacedock/2835'
+license: MIT
+tags:
+  - config
+  - buildings
+conflicts:
+  - name: KerbinSide
+depends:
+  - name: KerbalKonstructs
+  - name: KerbinSideCore
+  - name: StockalikeStructures
