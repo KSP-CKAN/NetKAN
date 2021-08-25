@@ -3,8 +3,8 @@
     "identifier":   "Kronometer",
     "name":         "Kronometer",
     "abstract":     "A mod to manipulate the clock for Kerbal Space Program",
-    "author":       [ "Thomas P.", "Sigma88" ],
-    "$kref":        "#/ckan/github/Kopernicus/Kronometer",
+    "author":       [ "Thomas P.", "Sigma88", "linuxgurugamer" ],
+    "$kref":        "#/ckan/github/linuxgurugamer/Kronometer",
     "$vref":        "#/ckan/ksp-avc",
     "license":      "MIT",
     "resources": {
