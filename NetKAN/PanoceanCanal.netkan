@@ -11,3 +11,7 @@ depends:
   - name: KerbalKonstructs
   - name: KerbinSideCore
   - name: StockalikeStructures
+x_netkan_override:
+  - version: v1.0.0
+    override:
+      ksp_version_min: 1.11.2
