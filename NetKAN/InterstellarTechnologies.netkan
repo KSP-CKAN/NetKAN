@@ -5,6 +5,9 @@ license: CC-BY-NC-SA
 tags:
   - config
   - parts
+install:
+  - find: GameData/InterstellarTechnologies
+  - install_to: GameData
 depends:
   - name: ModuleManager
   - name: FilterExtensions
