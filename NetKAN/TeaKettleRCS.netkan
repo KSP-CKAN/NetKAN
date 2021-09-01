@@ -1,5 +1,9 @@
 spec_version: v1.4
 identifier: TeaKettleRCS
 $kref: '#/ckan/spacedock/2842'
+$vref: '#/ckan/ksp-avc'
 license: MIT
-x_via: Automated SpaceDock CKAN submission
+tags:
+  - parts
+depends:
+  - name: ModuleManager
