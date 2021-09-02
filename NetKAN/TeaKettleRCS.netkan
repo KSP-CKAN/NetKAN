@@ -7,3 +7,8 @@ tags:
   - parts
 depends:
   - name: ModuleManager
+  - name: B9PartSwitch
+recommends:
+  - name: CryoEngines
+  - name: KerbalAtomics
+  - name: RationalResources
