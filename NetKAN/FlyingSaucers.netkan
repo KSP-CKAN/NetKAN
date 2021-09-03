@@ -1,0 +1,38 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "FlyingSaucers",
+    "$kref":        "#/ckan/github/Angel-125/FlyingSaucers",
+    "$vref":        "#/ckan/ksp-avc/GameData/WildBlueIndustries/FlyingSaucers/FlyingSaucers.version",
+    "x_netkan_staging": true,
+    "license":      "restricted",
+    "resources": {
+        "homepage":   "https://forum.kerbalspaceprogram.com/index.php?/topic/173857-*",
+        "repository": "https://github.com/Angel-125/FlyingSaucers"
+    },
+    "tags": [
+        "parts",
+        "plugin",
+        "crewed"
+    ],
+    "depends": [
+        { "name": "NearFutureProps" },
+        { "name": "ModuleManager"   },
+        { "name": "WildBlueTools"   },
+        { "name": "KerbalActuators" },
+        { "name": "BarisBridge"     }
+    ],
+    "recommends": [
+        { "name": "ExtraPlanetaryLaunchpads" }
+    ],
+    "suggests": [
+        { "name": "KIS"                    },
+        { "name": "KAS"                    },
+        { "name": "kOS"                    },
+        { "name": "Snacks"                 },
+        { "name": "TACLS"                  }
+    ],
+    "install": [ {
+        "find":          "WildBlueIndustries/FlyingSaucers",
+        "install_to":    "GameData/WildBlueIndustries"
+    } ]
+}
