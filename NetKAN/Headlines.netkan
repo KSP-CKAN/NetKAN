@@ -1,0 +1,17 @@
+spec_version: v1.16
+identifier: Headlines
+$kref: '#/ckan/github/bongotastic/Headlines'
+ksp_version: 1.10.1
+license: CC-BY-NC-4.0
+resources:
+  homepage: https://forum.kerbalspaceprogram.com/index.php?/topic/204561-*
+  manual: https://github.com/bongotastic/Headlines/wiki
+  license: https://github.com/bongotastic/Headlines/blob/master/LICENSE.md
+tags:
+  - plugin
+  - crewed
+  - career
+depends:
+  - name: RP-0
+recommends:
+  - name: KerbalRenamer
