@@ -2,10 +2,13 @@ spec_version: v1.4
 identifier: FlyingSaucers
 $kref: '#/ckan/github/Angel-125/FlyingSaucers'
 $vref: '#/ckan/ksp-avc'
-license: GPL-3.0
+license: restricted
+resources:
+  homepage: https://forum.kerbalspaceprogram.com/index.php?/topic/173857-*
 tags:
   - parts
   - plugin
+  - crewed
 depends:
   - name: ModuleManager
   - name: NearFutureProps
@@ -13,13 +16,13 @@ depends:
   - name: WildBlueTools
   - name: KerbalActuators
 recommends:
-  - name: ClassicStockResources
+  - name: ExtraPlanetaryLaunchpads
+suggests:
+  - name: KIS
+  - name: KAS
+  - name: kOS
+  - name: Snacks
+  - name: TACLS
 install:
   - find: GameData/WildBlueIndustries/FlyingSaucers
     install_to: GameData/WildBlueIndustries
-    filter:
-      - Ships
-  - find: Ships/SPH
-    install_to: Ships
-  - find: Ships/VAB
-    install_to: Ships
