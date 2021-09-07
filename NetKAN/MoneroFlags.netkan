@@ -1,16 +1,10 @@
-{
-	"spec_version" : 1,
-	"identifier"   : "MoneroFlags",
-	"name"         : "MoneroFlags",
-	"abstract"     : "Monero Cryptocurrency Flags Pack",
-	"author"       : "QuickBASIC, zer0Kerbal",
-	"$kref"        : "#/ckan/github/zer0Kerbal/MoneroFlags",
-	"$vref"        : "#/ckan/ksp-avc",
-	"license"      : "CC-BY-SA",
-	"resources": {
-		"homepage": "https://github.com/zer0Kerbal/MoneroFlags"
-	},
-	"tags": [
-        "flags"
-	]
-}
+spec_version: 1
+identifier: MoneroFlags
+name: MoneroFlags
+$kref: '#/ckan/github/zer0Kerbal/MoneroFlags'
+$vref: '#/ckan/ksp-avc'
+license: CC-BY-SA
+resources:
+  homepage: https://github.com/zer0Kerbal/MoneroFlags
+tags:
+  - flags
