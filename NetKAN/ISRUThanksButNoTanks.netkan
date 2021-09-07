@@ -3,7 +3,7 @@
     "identifier"   : "ISRUThanksButNoTanks",
     "name"         : "ISRU Thanks But No Tanks",
     "abstract"     : "ModuleManager Script to allow mining and converting Ore without storage tanks. It does this by adding a small amount of Ore storage to all ISRUs. Supports Stockalike Mining Extension by SuicidalInsanity",
-    "author"       : "QuickBASIC",
+    "author"       : "QuickBASIC,zer0Kerbal",
     "$kref"        : "#/ckan/github/zer0Kerbal/ISRUThanksButNoTanks",
     "$vref"        : "#/ckan/ksp-avc",
     "license"      : "MIT",
