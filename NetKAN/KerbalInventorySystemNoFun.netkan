@@ -3,12 +3,12 @@
     "identifier"   : "KerbalInventorySystemNoFun",
     "name"         : "Kerbal Inventory System - No Fun",
 	"abstract"     : "ModuleManager Script for removing \"fun\" items from Kerbal Inventory System",
-    "author"       : "QuickBASIC",
-	"$kref"        : "#/ckan/github/QuickBASIC/KerbalInventorySystemNoFun",
+    "author"       : "QuickBASIC, zer0Kerbal",
+	"$kref"        : "#/ckan/github/zer0Kerbal/KerbalInventorySystemNoFun",
 	"$vref"        : "#/ckan/ksp-avc",
     "license"      : "MIT",
     "resources": {
-	    "homepage": "https://github.com/QuickBASIC/KerbalInventorySystemNoFun"
+	    "homepage": "https://github.com/zer0Kerbal/KerbalInventorySystemNoFun"
     },
 	"tags": [
 		"config"
