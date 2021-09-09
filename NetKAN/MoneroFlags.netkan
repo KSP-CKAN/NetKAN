@@ -1,0 +1,16 @@
+spec_version: 'v1.4'
+identifier: MoneroFlags
+name: Monero Flags
+$kref: '#/ckan/github/zer0Kerbal/MoneroFlags'
+$vref: '#/ckan/ksp-avc'
+x_netkan_epoch: 1
+license: CC-BY-SA
+resources:
+  homepage: https://forum.kerbalspaceprogram.com/index.php?/topic/204753-*
+tags:
+  - flags
+recommends:
+  - name: KerbalChangelog
+install:
+  - find: MoneroFlags
+    install_to: GameData/QuickBASIC
