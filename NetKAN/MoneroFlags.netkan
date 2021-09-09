@@ -1,10 +1,14 @@
 spec_version: 1
 identifier: MoneroFlags
-name: MoneroFlags
+name: Monero Flags
 $kref: '#/ckan/github/zer0Kerbal/MoneroFlags'
 $vref: '#/ckan/ksp-avc'
+x_netkan_epoch: 1
 license: CC-BY-SA
 resources:
   homepage: https://forum.kerbalspaceprogram.com/index.php?/topic/204753-*
+install:
+  - find: MoneroFlags
+    install_to: GameData/QuickBasic
 tags:
   - flags
