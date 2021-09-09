@@ -13,4 +13,4 @@ recommends:
   - name: KerbalChangelog
 install:
   - find: MoneroFlags
-    install_to: GameData/QuickBasic
+    install_to: GameData/QuickBASIC

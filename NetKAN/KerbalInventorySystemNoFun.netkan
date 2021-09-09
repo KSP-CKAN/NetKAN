@@ -16,4 +16,4 @@ recommends:
   - name: KerbalChangelog
 install:
   - find: KerbalInventorySystemNoFun
-    install_to: GameData/QuickBasic
+    install_to: GameData/QuickBASIC

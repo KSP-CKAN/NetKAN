@@ -17,4 +17,4 @@ recommends:
   - name: StockalikeMiningExtension
 install:
   - find: ISRUThanksButNoTanks
-    install_to: GameData/QuickBasic
+    install_to: GameData/QuickBASIC
