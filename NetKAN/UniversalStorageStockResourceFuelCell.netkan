@@ -7,12 +7,14 @@ x_netkan_epoch: 1
 license: MIT
 resources:
   homepage: https://forum.kerbalspaceprogram.com/index.php?/topic/204751-*
-depends:
-  - name: ModuleManager
-  - name: UniversalStorage
-install:
-  - find: UniversalStorageStockResourceFuelCell
-    install_to: GameData/QuickBasic
 tags:
   - config
   - resources
+depends:
+  - name: ModuleManager
+  - name: UniversalStorage
+recommends:
+  - name: KerbalChangelog
+install:
+  - find: UniversalStorageStockResourceFuelCell
+    install_to: GameData/QuickBasic
