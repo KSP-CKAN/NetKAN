@@ -34,6 +34,7 @@
     "recommends": [
         { "name": "PatchManager" },
         { "name": "InterstellarFuelSwitch" },
+        { "name": "InterstellarTechnologies" },
         { "name": "PersistentRotation" },
         { "name": "FilterExtensions" },
         { "name": "PhotonSailor" },

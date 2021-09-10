@@ -14,7 +14,7 @@
         "plugin",
         "career"
     ],
-    "recommends": [
+    "suggests": [
         { "name": "KerbalAlarmClock" }
     ]
 }

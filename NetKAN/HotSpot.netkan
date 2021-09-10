@@ -1,10 +1,8 @@
-{
-    "spec_version": 1,
-    "identifier": "HotSpot",
-    "$kref": "#/ckan/netkan/https://raw.githubusercontent.com/Apokee/HotSpot/master/HotSpot.netkan",
-    "x_netkan_license_ok": true,
-    "tags": [
-        "plugin",
-        "information"
-    ]
-}
+spec_version: 1
+identifier: HotSpot
+$kref: >-
+  #/ckan/netkan/https://raw.githubusercontent.com/Apokee/HotSpot/develop/HotSpot.netkan
+license: MIT
+tags:
+  - plugin
+  - information

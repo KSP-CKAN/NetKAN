@@ -11,6 +11,7 @@
         "information"
     ],
     "depends": [
+        { "name": "ClickThroughBlocker" },
         { "name": "ModuleManager" }
     ],
     "install": [ {

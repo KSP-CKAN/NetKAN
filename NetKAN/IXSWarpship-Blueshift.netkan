@@ -1,0 +1,25 @@
+spec_version: v1.4
+identifier: IXSWarpship-Blueshift
+$kref: '#/ckan/github/Araym-KSP/IXS-Warship-for-Blueshift'
+x_netkan_github:
+  use_source_archive: true
+license: GPL-3.0
+tags:
+  - config
+  - parts
+  - crewed
+depends:
+  - name: ModuleManager
+  - name: IXSWarpshipOS
+  - name: Blueshift
+  - name: FlyingSaucers
+  - name: Waterfall
+  - name: CommunityResourcePack
+suggests:
+  - name: SpaceDust
+  - name: CommunityTechTree
+  - name: FarFutureTechnologies
+  - name: OuterPlanetsMod
+install:
+  - find: IXSWarshipsBlueshift
+    install_to: GameData

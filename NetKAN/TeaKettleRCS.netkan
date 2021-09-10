@@ -1,0 +1,14 @@
+spec_version: v1.4
+identifier: TeaKettleRCS
+$kref: '#/ckan/spacedock/2842'
+$vref: '#/ckan/ksp-avc'
+license: MIT
+tags:
+  - parts
+depends:
+  - name: ModuleManager
+  - name: B9PartSwitch
+recommends:
+  - name: CryoEngines
+  - name: KerbalAtomics
+  - name: RationalResources

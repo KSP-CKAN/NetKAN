@@ -23,6 +23,6 @@
     "install": [ {
         "find"       : "VenStockRevamp",
         "install_to" : "GameData",
-        "filter"     : [ "PathPatches", "Squad", "Part Bin" ]
+        "filter"     : [ "PathPatches", "Squad", "PartBin" ]
     } ]
 }

@@ -23,7 +23,7 @@
         { "name" : "VensStockPartRevamp-CTTPatch" }
     ],
     "install": [ {
-        "find"       : "VenStockRevamp/Part Bin",
+        "find"       : "VenStockRevamp/PartBin",
         "install_to" : "GameData/VenStockRevamp"
     } ]
 }

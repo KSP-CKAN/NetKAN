@@ -1,10 +1,8 @@
-{
-    "spec_version": 1,
-    "identifier": "PlaneMode",
-    "$kref": "#/ckan/netkan/https://raw.githubusercontent.com/Apokee/PlaneMode/master/PlaneMode.netkan",
-    "x_netkan_license_ok": true,
-    "tags": [
-        "plugin",
-        "control"
-    ]
-}
+spec_version: 1
+identifier: PlaneMode
+$kref: >-
+  #/ckan/netkan/https://raw.githubusercontent.com/Apokee/PlaneMode/develop/PlaneMode.netkan
+license: MIT
+tags:
+  - plugin
+  - control
