@@ -4,10 +4,6 @@
   "x_via": "Automated Linuxgurugamer CKAN script",
   "$kref": "#/ckan/spacedock/2542",
   "$vref": "#/ckan/ksp-avc",
-  "resources": {
-    "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/193903-*",
-    "repository": "https://github.com/linuxgurugamer/NeatherdyneMassDriver"
-  },
   "depends": [
     {
       "name": "ToolbarController"

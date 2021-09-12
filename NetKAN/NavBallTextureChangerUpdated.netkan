@@ -5,10 +5,6 @@
   "x_via": "Automated Linuxgurugamer CKAN script",
   "$kref": "#/ckan/spacedock/2654",
   "$vref": "#/ckan/ksp-avc",
-  "resources": {
-    "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/200741-1",
-    "repository": "https://github.com/linuxgurugamer/NavBallTextureChanger"
-  },
   "depends": [
     {
       "name": "ToolbarController"

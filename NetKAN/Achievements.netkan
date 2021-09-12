@@ -6,10 +6,6 @@
     "$kref"        : "#/ckan/spacedock/2422",
     "$vref"        : "#/ckan/ksp-avc",
     "license"      : "GPL-3.0",
-    "resources"    : {
-        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/193073-1updated/*",
-        "repository": "https://github.com/linuxgurugamer/Achievements"
-    },
     "tags"         : [
         "plugin"
     ],

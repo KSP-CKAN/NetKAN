@@ -4,10 +4,6 @@
     "$kref"          : "#/ckan/spacedock/54",
     "$vref"          : "#/ckan/ksp-avc",
     "license"        : "MIT",
-    "resources": {
-        "homepage"   : "http://forum.kerbalspaceprogram.com/index.php?/topic/121366-*",
-        "repository" : "https://github.com/linuxgurugamer/TotalTime"
-    },
     "tags": [
         "plugin",
         "information"

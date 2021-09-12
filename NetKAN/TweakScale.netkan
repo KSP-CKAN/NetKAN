@@ -9,10 +9,6 @@
     "x_netkan_force_v" : true,
     "license"          : [ "GPL-2.0", "restricted" ],
     "release_status"   : "stable",
-    "resources": {
-        "homepage":   "https://forum.kerbalspaceprogram.com/index.php?/topic/179030-*",
-        "repository": "https://github.com/net-lisias-ksp/TweakScale"
-    },
     "tags": [
         "plugin",
         "convenience"

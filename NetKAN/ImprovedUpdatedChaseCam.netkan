@@ -7,10 +7,6 @@
     "tags": [
         "plugin"
     ],
-    "resources": {
-        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/188979-*",
-        "repository": "https://github.com/linuxgurugamer/ImprovedChaseCamera/"
-    },
     "conflicts": [
         { "name": "ImprovedChaseCamera" }
     ],
