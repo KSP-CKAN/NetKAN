@@ -2,4 +2,10 @@ spec_version: v1.4
 identifier: ServiceBayLimiter
 $kref: '#/ckan/spacedock/2848'
 license: MIT
-x_via: Automated SpaceDock CKAN submission
+tags:
+  - config
+depends:
+  - name: ModuleManager
+install:
+  - find: GameData/Service Bay Limiter
+    install_to: GameData
