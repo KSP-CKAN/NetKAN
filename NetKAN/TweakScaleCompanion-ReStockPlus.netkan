@@ -10,10 +10,6 @@
     "x_netkan_force_v" : true,
     "release_status"   : "stable",
     "license"          : [ "GPL-2.0", "restricted" ],
-    "resources": {
-        "homepage":   "https://forum.kerbalspaceprogram.com/index.php?/topic/192216-*",
-        "repository": "https://github.com/net-lisias-ksp/TweakScaleCompanion_ReStockPlus"
-    },
     "tags": [
         "config"
     ],

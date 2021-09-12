@@ -4,9 +4,6 @@
     "$kref"          : "#/ckan/spacedock/219",
     "$vref"          : "#/ckan/ksp-avc",
     "license"        : "GPL-3.0",
-    "resources"      : {
-        "repository": "https://github.com/linuxgurugamer/StageRecovery"
-    },
     "tags": [
         "plugin",
         "career"

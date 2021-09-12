@@ -8,9 +8,6 @@
     "$vref"          : "#/ckan/ksp-avc",
     "license"        : "GPL-3.0",
     "release_status" : "stable",
-    "resources": {
-        "homepage" : "https://forum.kerbalspaceprogram.com/index.php?/topic/174510-*"
-    },
     "tags": [
         "plugin",
         "information"

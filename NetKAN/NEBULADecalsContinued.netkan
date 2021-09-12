@@ -8,9 +8,6 @@
         "plugin",
         "graphics"
     ],
-    "resources": {
-        "repository":"https://github.com/linuxgurugamer/NEBULA_Decals"
-    },
     "depends": [
         { "name": "FirespitterCore" }
     ],

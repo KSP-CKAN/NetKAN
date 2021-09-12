@@ -4,9 +4,6 @@
     "$kref"        : "#/ckan/spacedock/2516",
     "$vref":        "#/ckan/ksp-avc",
     "license"      : "GPL-2.0",
-    "resources" : {
-        "homepage" : "https://forum.kerbalspaceprogram.com/index.php?/topic/196642-*"
-    },
     "depends": [
         { "name" : "ToolbarController" },
         { "name" : "ClickThroughBlocker" },

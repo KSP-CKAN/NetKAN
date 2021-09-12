@@ -8,10 +8,6 @@
     "$vref"          : "#/ckan/ksp-avc",
     "license"        : "BSD-2-clause",
     "release_status" : "stable",
-    "resources" : {
-        "homepage"   : "https://forum.kerbalspaceprogram.com/index.php?/topic/161855-*",
-        "repository" : "https://github.com/linuxgurugamer/ksp-precisenode"
-    },
     "tags": [
         "plugin",
         "information",

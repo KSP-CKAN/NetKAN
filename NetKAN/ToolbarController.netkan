@@ -7,9 +7,6 @@
     "$vref":        "#/ckan/ksp-avc",
     "x_netkan_epoch": 1,
     "license":      "GPL-3.0",
-    "resources": {
-        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/169509-*"
-    },
     "tags": [
         "plugin",
         "library"
@@ -26,4 +23,3 @@
         { "name": "Toolbar" }
     ]
 }
-

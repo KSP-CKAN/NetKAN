@@ -4,9 +4,6 @@
     "$kref"          : "#/ckan/spacedock/592",
     "$vref"          : "#/ckan/ksp-avc",
     "license"        : "BSD-2-clause",
-    "resources" : {
-        "repository" : "https://github.com/linuxgurugamer/TankLock"
-    },
     "tags"           : [
         "config",
         "convenience"

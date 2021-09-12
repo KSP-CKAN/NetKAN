@@ -4,10 +4,6 @@
   "x_via": "Automated Linuxgurugamer CKAN script",
   "$kref": "#/ckan/spacedock/2586",
   "$vref": "#/ckan/ksp-avc",
-  "resources": {
-    "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/198742-18x-19x-110x-notes2log/",
-    "repository": "https://github.com/linuxgurugamer/Notes2Log/"
-  },
   "depends": [
     {
       "name": "ToolbarController"

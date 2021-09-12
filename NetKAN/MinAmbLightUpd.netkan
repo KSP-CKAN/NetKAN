@@ -4,10 +4,6 @@
     "$kref":        "#/ckan/spacedock/2279",
     "$vref":        "#/ckan/ksp-avc",
     "license":      "BSD-2-clause",
-    "resources": {
-        "homepage":   "https://forum.kerbalspaceprogram.com/index.php?/topic/190080-*",
-        "repository": "https://github.com/linuxgurugamer/MinimumAmbientLightingUpdated"
-    },
     "tags": [
         "plugin",
         "graphics"
