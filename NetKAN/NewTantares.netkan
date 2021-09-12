@@ -1,39 +1,28 @@
-{
-    "spec_version":    "v1.18",
-    "identifier":      "NewTantares",
-    "name":            "Tantares - Soviet Spacecraft",
-    "abstract":        "Stockalike Soviet Spacecraft",
-    "author":          "Beale",
-    "$kref":           "#/ckan/github/Tantares/Tantares",
-    "ksp_version_min": "1.10.1",
-    "ksp_version_max": "1.11",
-    "license":         "CC-BY-NC-SA-4.0",
-    "resources": {
-        "homepage":  "https://forum.kerbalspaceprogram.com/index.php?/topic/73686-Tantares",
-        "spacedock": "https://spacedock.info/mod/174/Tantares"
-    },
-    "tags": [
-        "parts",
-        "crewed"
-    ],
-    "provides": [
-        "Tantares"
-    ],
-    "depends": [
-        { "name": "ModuleManager" }
-    ],
-    "recommends": [
-        { "name": "NewTantaresLV" }
-    ],
-    "conflicts": [
-        { "name": "Tantares" }
-    ],
-    "install": [ {
-        "find":       "Tantares",
-        "install_to": "GameData"
-    }, {
-        "find":       "Crafts",
-        "install_to": "Ships",
-        "as":         "VAB"
-    } ]
-}
+spec_version: v1.18
+identifier: NewTantares
+name: Tantares - Soviet Spacecraft
+abstract: Stockalike Soviet Spacecraft
+author: Beale
+$kref: '#/ckan/github/Tantares/Tantares'
+ksp_version: 1.12
+license: CC-BY-NC-SA-4.0
+resources:
+  homepage: https://forum.kerbalspaceprogram.com/index.php?/topic/73686-Tantares
+  spacedock: https://spacedock.info/mod/174/Tantares
+tags:
+  - parts
+  - crewed
+provides:
+  - Tantares
+depends:
+  - name: ModuleManager
+recommends:
+  - name: NewTantaresLV
+conflicts:
+  - name: Tantares
+install:
+  - find: Tantares
+    install_to: GameData
+  - find: Crafts
+    install_to: Ships
+    as: VAB
