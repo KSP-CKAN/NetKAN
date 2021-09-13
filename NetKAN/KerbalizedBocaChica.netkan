@@ -6,7 +6,6 @@ tags:
   - config
   - buildings
 depends:
-  - name: ModuleManager
   - name: KerbalKonstructs
   - name: StockalikeStructures
   - name: StarshipLaunchExpansion
