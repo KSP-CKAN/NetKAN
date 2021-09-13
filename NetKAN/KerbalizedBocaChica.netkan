@@ -1,0 +1,12 @@
+spec_version: v1.4
+identifier: KerbalizedBocaChica
+$kref: '#/ckan/spacedock/2850'
+license: CC-BY-NC-ND-4.0
+tags:
+  - config
+  - buildings
+depends:
+  - name: KerbalKonstructs
+  - name: StockalikeStructures
+  - name: StarshipLaunchExpansion
+  - name: TundraSpaceCenter
