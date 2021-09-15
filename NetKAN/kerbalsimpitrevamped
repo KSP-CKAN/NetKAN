@@ -1,0 +1,35 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "kerbalsimpitrevamped",
+    "name":         "Kerbal Simpit Revamped",
+    "abstract":     "Allow the communication with a controller",
+    "author":       ["stibbons", "LRTNZ", "rogor"],
+    "$kref":        "#/ckan/github/Simpit-team/KerbalSimpitRevamped",
+    "$vref":        "#/ckan/ksp-avc",
+    "license":      "BSD-2-clause",
+    "release_status": "stable",
+    "resources": {
+        "homepage":     "https://forum.kerbalspaceprogram.com/index.php?/topic/204852-112x-simpit-revamped-simpit-20/",
+        "repository":   "https://github.com/Simpit-team/KerbalSimpitRevamped",
+		"bugtracker":   "https://github.com/Simpit-team/KerbalSimpitRevamped/issues",
+		"manual":       "https://kerbalsimpitrevamped-arduino.readthedocs.io",
+    },
+    "tags": [
+        "plugin",
+        "control"
+    ],
+    "recommends": [
+        { "name": "AlternateResourcePanel" }
+    ],
+	"suggests": [
+        { "name": "AGExt" },
+	    { "name": "CommunityResourcePack" }
+    ],
+	"conflicts": [
+        { "name": "AGExt", "max_version":"1:2.4.1" },
+		{ "name": "KerbalSimpit" }
+    ],
+	"install": [
+        { "find": "KerbalSimpitRevamped", "install_to": "GameData"}
+    ]
+}
