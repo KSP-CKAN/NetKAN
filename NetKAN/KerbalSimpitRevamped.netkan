@@ -16,6 +16,7 @@ resources:
   manual: https://kerbalsimpitrevamped-arduino.readthedocs.io
 tags:
   - plugin
+  - app
   - control
 recommends:
   - name: AlternateResourcePanel
