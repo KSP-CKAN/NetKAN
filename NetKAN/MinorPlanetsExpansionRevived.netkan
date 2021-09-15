@@ -2,4 +2,13 @@ spec_version: v1.4
 identifier: MinorPlanetsExpansionRevived
 $kref: '#/ckan/spacedock/2854'
 license: MIT
-x_via: Automated SpaceDock CKAN submission
+tags:
+  - config
+  - planet-pack
+depends:
+  - name: ModuleManager
+  - name: Kopernicus
+  - name: OuterPlanetsMod
+install:
+  - find: MPE
+    install_to: GameData
