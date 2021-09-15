@@ -13,8 +13,6 @@ release_status: stable
 resources:
   homepage: >-
     https://forum.kerbalspaceprogram.com/index.php?/topic/204852-112x-simpit-revamped-simpit-20/
-  repository: https://github.com/Simpit-team/KerbalSimpitRevamped
-  bugtracker: https://github.com/Simpit-team/KerbalSimpitRevamped/issues
   manual: https://kerbalsimpitrevamped-arduino.readthedocs.io
 tags:
   - plugin
@@ -28,6 +26,3 @@ conflicts:
   - name: AGExt
     max_version: 1:2.4.1
   - name: KerbalSimpit
-install:
-  - find: KerbalSimpitRevamped
-    install_to: GameData
