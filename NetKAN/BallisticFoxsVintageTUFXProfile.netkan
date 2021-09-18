@@ -1,0 +1,12 @@
+spec_version: v1.4
+identifier: BallisticFoxsVintageTUFXProfile
+$kref: '#/ckan/spacedock/2856'
+license: CC-BY-NC-SA-4.0
+tags:
+  - config
+  - graphics
+depends:
+  - name: TUFX
+install:
+  - find: "Fox's Profiles"
+    install_to: GameData
