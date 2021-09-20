@@ -4,10 +4,9 @@ $kref: '#/ckan/spacedock/2860'
 license: CC-BY-SA-4.0
 tags:
   - parts
-conflicts:
-  - name: FASTCORPAutogarage
 depends:
   - name: BreakingGround-DLC
+  - name: FASTCORPAutogarage
 install:
   - find: Autogarage
     install_to: GameData
