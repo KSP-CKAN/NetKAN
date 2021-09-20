@@ -2,4 +2,15 @@ spec_version: v1.4
 identifier: FlyingDelorean
 $kref: '#/ckan/spacedock/2860'
 license: CC-BY-SA-4.0
-x_via: Automated SpaceDock CKAN submission
+tags:
+  - parts
+conflicts:
+  - name: FASTCORPAutogarage
+depends:
+  - name: BreakingGround-DLC
+install:
+  - find: Autogarage
+    install_to: GameData
+    filter: 1D.craft
+  - file: GameData/Autogarage/1D.craft
+    install_to: Ships/SPH
