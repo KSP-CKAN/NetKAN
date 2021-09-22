@@ -13,6 +13,7 @@ tags:
   - crewed
   - career
 depends:
+  - name: ModuleManager
   - name: RP-0
   - name: KerbalRenamer
     min_version: v1.5.0
