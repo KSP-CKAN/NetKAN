@@ -1,0 +1,13 @@
+spec_version: v1.4
+identifier: KerbalDangerous
+$kref: '#/ckan/spacedock/2862'
+ksp_version_min: 1.10
+license: LGPL-2.1
+tags:
+  - plugin
+  - parts
+depends:
+  - name: ModuleManager
+install:
+  - find: kFSD
+    install_to: GameData
