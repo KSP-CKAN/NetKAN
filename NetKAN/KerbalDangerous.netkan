@@ -8,5 +8,5 @@ tags:
 depends:
   - name: ModuleManager
 install:
-  find: kFSD
-  install_to: GameData
+  - find: kFSD
+    install_to: GameData
