@@ -19,7 +19,7 @@ recommends:
   - name: OhScrap
   - name: ContractConfigurator
 supports:
-  - name: KerbalChangelog 
+  - name: KerbalChangelog
   - name: KerbalConstructionTime
   - name: KerbalKrashSystem
   - name: FerramAerospaceResearchContinued
@@ -37,10 +37,3 @@ suggests:
 install:
   - find: ScrapYard
     install_to: ScrapYard
-
-   
-depends:
-  - name: ModuleManager
-recommends:
-  - name: KerbalChangelog
-  - name: StockalikeMiningExtension
