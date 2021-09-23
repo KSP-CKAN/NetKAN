@@ -1,10 +1,18 @@
 spec_version: v1.4
 identifier: ScrapYard
+name: ScrapYard (SYD)
 $kref: '#/ckan/spacedock/1746'
 $vref: '#/ckan/ksp-avc/ScrapYard.version'
 license: Expat-MIT
+resources:
+  homepage: https://forum.kerbalspaceprogram.com/index.php?/topic/192456-*
+  spacedock: https://spacedock.info/mod/1746
+  repository: https://github.com/zer0Kerbal/ScrapYard
+  bugracker: https://github.com/zer0Kerbal/ScrapYard/issues
+  remoteversionfile: https://raw.githubusercontent.com/zer0Kerbal/ScrapYard/master/ScrapYard.version
 tags:
   - plugin
+  - editor
 depends:
   - name: ModuleManager
 recommends:
@@ -26,3 +34,13 @@ suggests:
   - name: KerbalKrashSystem
   - name: Tweakscale
   - name: KSP-Recall
+install:
+  - find: ScrapYard
+    install_to: ScrapYard
+
+   
+depends:
+  - name: ModuleManager
+recommends:
+  - name: KerbalChangelog
+  - name: StockalikeMiningExtension
