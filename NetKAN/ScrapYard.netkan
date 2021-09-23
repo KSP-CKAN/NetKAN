@@ -2,8 +2,27 @@ spec_version: v1.4
 identifier: ScrapYard
 $kref: '#/ckan/spacedock/1746'
 $vref: '#/ckan/ksp-avc/ScrapYard.version'
-license: MIT
+license: Expat-MIT
 tags:
   - plugin
 depends:
   - name: ModuleManager
+recommends:
+  - name: OhScrap
+  - name: ContractConfigurator
+supports:
+  - name: KerbalChangelog 
+  - name: KerbalConstructionTime
+  - name: KerbalKrashSystem
+  - name: FerramAerospaceResearchContinued
+  - name: RemoteTech
+  - name: ContractConfigurator
+suggests:
+  - name: Kaboom
+  - name: Komplexity
+  - name: KerbalChangelog
+  - name: KerbalConstructionTime
+  - name: StageRecovery
+  - name: KerbalKrashSystem
+  - name: Tweakscale
+  - name: KSP-Recall
