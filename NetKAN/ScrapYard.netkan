@@ -1,14 +1,9 @@
-{
-    "spec_version": "v1.4",
-    "identifier":   "ScrapYard",
-    "$kref":        "#/ckan/spacedock/1746",
-    "$vref":        "#/ckan/ksp-avc",
-    "license":      "MIT",
-    "tags": [
-        "plugin"
-    ],
-    "depends": [
-        { "name": "ModuleManager" },
-        { "name": "MagiCore"      }
-    ]
-}
+spec_version: v1.4
+identifier: ScrapYard
+$kref: '#/ckan/spacedock/1746'
+$vref: '#/ckan/ksp-avc/ScrapYard.version'
+license: MIT
+tags:
+  - plugin
+depends:
+  - name: ModuleManager

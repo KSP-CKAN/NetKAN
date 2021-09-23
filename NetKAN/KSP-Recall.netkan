@@ -17,10 +17,6 @@
             "install_to" : "GameData"
         }
     ],
-    "resources": {
-        "homepage":   "https://forum.kerbalspaceprogram.com/index.php?/topic/192048-*",
-        "repository": "https://github.com/net-lisias-ksp/KSP-Recall"
-    },
     "depends" : [
         { "name" : "ModuleManager", "min_version" : "4.0.2" }
     ],

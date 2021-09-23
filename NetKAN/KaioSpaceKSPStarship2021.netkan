@@ -1,0 +1,18 @@
+spec_version: v1.4
+identifier: KaioSpaceKSPStarship2021
+$kref: '#/ckan/spacedock/2861'
+license: MIT
+tags:
+  - parts
+depends:
+  - name: ModuleManager
+  - name: TundraExploration
+  - name: TexturesUnlimited
+recommends:
+  - name: CryoEngines
+  - name: Waterfall
+  - name: HullcamVDSContinued
+  - name: StarshipLaunchExpansion
+install:
+  - find: KaioSpace
+    install_to: GameData

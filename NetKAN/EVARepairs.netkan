@@ -1,0 +1,24 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "EVARepairs",
+    "name":         "EVARepairs",
+    "author":       "Angel-125",
+    "$kref":        "#/ckan/github/Angel-125/EVARepairs",
+    "$vref":        "#/ckan/ksp-avc",
+    "license":      "GPL-3.0",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/204907-*"
+    },
+    "tags": [
+        "plugin",
+        "parts",
+        "crewed"
+    ],
+    "depends": [
+        { "name": "ModuleManager" }
+    ],
+    "install": [ {
+        "find":       "EVARepairs",
+        "install_to": "GameData/WildBlueIndustries"
+    } ]
+}

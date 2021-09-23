@@ -4,10 +4,6 @@
   "x_via": "Automated Linuxgurugamer CKAN script",
   "$kref": "#/ckan/spacedock/2566",
   "$vref": "#/ckan/ksp-avc",
-  "resources": {
-    "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/198039-18x-19x-110x-ksp_datadump/",
-    "repository": "https://github.com/linuxgurugamer/KSP_DataDump"
-  },
   "depends": [
     {
       "name": "ToolbarController"

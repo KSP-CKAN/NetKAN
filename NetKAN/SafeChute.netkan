@@ -4,10 +4,6 @@
     "$kref"          : "#/ckan/spacedock/280",
     "$vref"          : "#/ckan/ksp-avc",
     "license"        : "BSD-3-clause",
-    "resources": {
-        "bugtracker" : "https://github.com/henrybauer/SafeChute/issues",
-        "repository" : "https://github.com/henrybauer/SafeChute"
-    },
     "tags": [
         "plugin",
         "control"

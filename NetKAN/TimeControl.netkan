@@ -1,7 +1,7 @@
 {
     "spec_version": 1,
     "identifier"  : "TimeControl",
-	"name"        : "Time Control",
+    "name"        : "Time Control",
     "abstract"    : "Slow Motion, Hyper Warp, and Rails Warp Controls",
     "$kref"       : "#/ckan/github/ntwest/TimeControl",
     "$vref"       : "#/ckan/ksp-avc",

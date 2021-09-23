@@ -8,16 +8,13 @@
     "$vref":        "#/ckan/ksp-avc",
     "x_netkan_epoch": 1,
     "license" :     "MIT",
-    "resources": {
-        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/188343-*"
-    },
     "tags": [
         "plugin",
         "crewed",
         "information"
     ],
-	"depends" : [
-	    { "name" : "ModuleManager" },
+    "depends" : [
+        { "name" : "ModuleManager" },
         { "name" : "ClickThroughBlocker" }
     ]
 }

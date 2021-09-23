@@ -4,10 +4,6 @@
   "x_via": "Automated Linuxgurugamer CKAN script",
   "$kref": "#/ckan/spacedock/2549",
   "$vref": "#/ckan/ksp-avc",
-  "resources": {
-    "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/197500-18x-19x-110x-stock-default-settings/",
-    "repository": "https://github.com/linuxgurugamer/StockDefaultSettings/"
-  },
   "depends": [
     {
       "name": "ToolbarController"

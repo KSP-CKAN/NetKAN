@@ -4,10 +4,6 @@
     "$kref"          : "#/ckan/spacedock/302",
     "$vref"          : "#/ckan/ksp-avc",
     "license"        : "MIT",
-    "resources" : {
-        "homepage"    : "http://forum.kerbalspaceprogram.com/index.php?/topic/133082-*",
-        "repository"  : "https://github.com/linuxgurugamer/KRASH"
-    },
     "tags": [
         "plugin",
         "career"

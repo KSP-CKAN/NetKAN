@@ -1,14 +1,28 @@
-{
-    "spec_version": "v1.16",
-    "identifier": "KerbalSimpit",
-    "$kref": "#/ckan/netkan/https://bitbucket.org/pjhardy/kerbalsimpit/downloads/KerbalSimpit.netkan",
-    "x_netkan_license_ok": true,
-    "resources": {
-        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/155796-*"
-    },
-    "tags": [
-        "plugin",
-        "app",
-        "control"
-    ]
-}
+spec_version: v1.4
+identifier: KerbalSimpit
+name: Kerbal Simpit
+abstract: Communicate with external instrumentation through serial connection
+author:
+  - stibbons
+  - LRTNZ
+  - rogor
+$kref: '#/ckan/github/Simpit-team/KerbalSimpitRevamped'
+$vref: '#/ckan/ksp-avc'
+license: BSD-2-clause
+release_status: stable
+resources:
+  homepage: >-
+    https://forum.kerbalspaceprogram.com/index.php?/topic/204852-112x-simpit-revamped-simpit-20/
+  manual: https://kerbalsimpitrevamped-arduino.readthedocs.io
+tags:
+  - plugin
+  - app
+  - control
+recommends:
+  - name: AlternateResourcePanel
+suggests:
+  - name: AGExt
+  - name: CommunityResourcePack
+conflicts:
+  - name: AGExt
+    max_version: 1:2.4.1

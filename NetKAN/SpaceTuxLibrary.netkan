@@ -4,15 +4,12 @@
     "$kref":        "#/ckan/spacedock/2210",
     "$vref":        "#/ckan/ksp-avc/SpaceTuxLibrary.version",
     "license":      "GPL-3.0",
-    "resources": {
-        "repository": "https://github.com/linuxgurugamer/SpaceTuxLibrary"
-    },
     "provides": [
-        "ButtonManager", 
-        "KSPColorPicker", 
-        "KSPLog", 
-        "KSPPartHighlighter", 
-        "SpaceTuxUtility", 
+        "ButtonManager",
+        "KSPColorPicker",
+        "KSPLog",
+        "KSPPartHighlighter",
+        "SpaceTuxUtility",
         "VesselModuleSave"
     ],
     "tags": [

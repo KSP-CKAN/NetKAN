@@ -6,9 +6,6 @@
     "$kref"        : "#/ckan/spacedock/2659",
     "$vref"        : "#/ckan/ksp-avc",
     "license"      : "CC-BY-NC-SA-4.0",
-    "resources"    : {
-        "homepage" : "https://forum.kerbalspaceprogram.com/index.php?/topic/201117-18x-19x-110x-111x-gpws-warning-system-for-planes-updated/"
-    },
     "tags"         : [
         "plugin",
         "information",
@@ -20,7 +17,7 @@
         { "name": "SpaceTuxLibrary" },
         { "name": "ModuleManager" }
     ],
-    "install": [ 
+    "install": [
         {
             "file"          : "GameData/GPWS",
             "install_to"    : "GameData"

@@ -7,9 +7,6 @@
     "$kref":        "#/ckan/spacedock/924",
     "ksp_version":  "any",
     "license":      "CC-BY-NC-ND-4.0",
-    "resources": {
-        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/169919-1"
-    },
     "tags": [
         "config",
         "graphics"
@@ -23,17 +20,17 @@
             "install_to": "GameData"
         }
     ],
-	"depends": [
-		{ "name": "ModuleManager" },
-		{
-			"any_of": [
-				{ "name": "TextureReplacer" },
-				{ "name": "TextureReplacerReplaced" },
-				{ "name": "SigmaReplacements-Skybox" },
-				{ "name": "DiRT" }
-			]
-		}
-	],
+    "depends": [
+        { "name": "ModuleManager" },
+        {
+            "any_of": [
+                { "name": "TextureReplacer" },
+                { "name": "TextureReplacerReplaced" },
+                { "name": "SigmaReplacements-Skybox" },
+                { "name": "DiRT" }
+            ]
+        }
+    ],
     "suggests": [
         { "name": "DistantObject" }
     ]

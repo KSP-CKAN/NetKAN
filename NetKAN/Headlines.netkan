@@ -1,7 +1,8 @@
 spec_version: v1.16
 identifier: Headlines
 $kref: '#/ckan/github/bongotastic/Headlines'
-ksp_version: 1.10.1
+ksp_version_min: 1.8
+ksp_version_max: 1.10.1
 license: CC-BY-NC-4.0
 resources:
   homepage: https://forum.kerbalspaceprogram.com/index.php?/topic/204561-*
@@ -12,6 +13,8 @@ tags:
   - crewed
   - career
 depends:
+  - name: ModuleManager
   - name: RP-0
-recommends:
   - name: KerbalRenamer
+    min_version: v1.5.0
+  - name: KerbalAlarmClock
