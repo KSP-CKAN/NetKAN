@@ -1,0 +1,15 @@
+spec_version: 1
+identifier: OreToParts
+name: Ore To Parts
+abstract: >-
+  Transforms ore tanks into ore to part converters, part duplicators or ore to
+  EVA fuel converters.
+$kref: '#/ckan/github/Goufalite/OreToParts'
+ksp_version_min: 1.11.2
+license: CC-BY-SA-4.0
+resources:
+  manual: https://github.com/Goufalite/OreToParts/wiki
+  homepage: https://forum.kerbalspaceprogram.com/index.php?/topic/203705-*
+  x_screenshot: https://imgur.com/I5dEh7a.png
+depends:
+  - name: ModuleManager
