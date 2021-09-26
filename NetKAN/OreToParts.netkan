@@ -11,5 +11,8 @@ resources:
   manual: https://github.com/Goufalite/OreToParts/wiki
   homepage: https://forum.kerbalspaceprogram.com/index.php?/topic/203705-*
   x_screenshot: https://imgur.com/I5dEh7a.png
+tags:
+  - plugin
+  - resources
 depends:
   - name: ModuleManager
