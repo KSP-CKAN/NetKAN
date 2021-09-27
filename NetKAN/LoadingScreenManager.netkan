@@ -10,9 +10,5 @@
     "install": [ {
         "find": "LoadingScreenManager",
         "install_to": "GameData"
-    }, {
-        "find_regexp": "LoadingScreenManager.*\\.dll$",
-        "find_matches_files": true,
-        "install_to": "GameData"
     } ]
 }
