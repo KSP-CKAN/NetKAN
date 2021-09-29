@@ -1,19 +1,33 @@
-{
-    "spec_version" : "v1.4",
-    "identifier"   : "OhScrap",
-    "$kref"        : "#/ckan/spacedock/2364",
-    "$vref"        : "#/ckan/ksp-avc",
-    "license"      : "MIT",
-    "tags": [
-        "plugin"
-    ],
-    "depends": [
-        { "name": "ScrapYard"       },
-        { "name": "ModuleManager"   },
-        { "name": "KerbalChangelog" }
-    ],
-    "recommends": [
-        { "name": "KerbalConstructionTime" },
-        { "name": "StageRecovery"          }
-    ]
-}
+spec_version: v1.4
+identifier: OhScrap
+name: OhScrap (OHS)
+$kref: '#/ckan/spacedock/2364'
+$vref: '#/ckan/ksp-avc/OhScrap.version'
+license: MIT
+tags:
+  - plugin
+  - editor
+  - config
+  - career
+  - uncrewed
+  - crewed
+depends:
+  - name: ModuleManager
+  - name: ScrapYard
+recommends:
+  - name: KerbalConstructionTime
+  - name: StageRecovery
+  - name: KerbalKrashSystem
+supports:
+  - name: KerbalChangelog
+  - name: KerbalConstructionTime
+  - name: FerramAerospaceResearchContinued
+  - name: RemoteTech
+  - name: UKS
+suggests:
+  - name: Kaboom
+  - name: Komplexity
+  - name: KerbalChangelog
+  - name: ContractConfigurator
+  - name: Tweakscale
+  - name: KSP-Recall
