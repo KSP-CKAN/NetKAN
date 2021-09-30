@@ -1,14 +1,14 @@
 {
     "spec_version": "v1.16",
     "identifier":   "DistantObject-default",
-    "name":         "Distant Object Enhancement Continued default config",
+    "name":         "Distant Object Enhancement /L default config",
     "abstract":     "Default planets colors",
-    "$kref":        "#/ckan/github/TheDarkBadger/DistantObject",
+    "$kref":        "#/ckan/github/net-lisias-ksp/DistantObject",
     "$vref":        "#/ckan/ksp-avc",
     "x_netkan_force_v": true,
     "license":      "CC-BY-4.0",
     "resources": {
-        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/189759-*"
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/205063-*"
     },
     "tags": [
         "config",
