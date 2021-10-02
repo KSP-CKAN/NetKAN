@@ -1,5 +1,9 @@
 spec_version: v1.4
 identifier: ANGLECANPartTweaks
 $kref: '#/ckan/spacedock/2870'
-license: Other
-x_via: Automated SpaceDock CKAN submission
+license: CC-BY-NC-SA
+tags:
+  - config
+install:
+  - find: AngleCanMods
+    install_to: GameData
