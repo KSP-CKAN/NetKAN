@@ -1,25 +1,29 @@
 {
-    "spec_version": "v1.4",
-    "identifier":   "DistantObject",
-    "name":         "Distant Object Enhancement /L",
-    "abstract":     "Visual enhancement mod that makes objects realistically visible over large distances",
-    "$kref":        "#/ckan/github/net-lisias-ksp/DistantObject",
-    "$vref":        "#/ckan/ksp-avc",
-    "x_netkan_force_v": true,
-    "license":      "CC-BY-4.0",
+    "spec_version"     : "v1.4",
+    "identifier"       : "DistantObject",
+    "name"             : "Distant Object Enhancement /L",
+    "abstract"         : "Visual enhancement mod that makes objects realistically visible over large distances",
+    "author"           : [ "Rubber Ducky", "MOARdV", "TheDarkBadger", "LisiasT" ],
+    "$kref"            : "#/ckan/spacedock/2274",
+    "$vref"            : "#/ckan/ksp-avc",
+    "x_netkan_force_v" : true,
+    "license"          : "CC-BY-4.0",
+    "release_status"   : "stable",
     "resources": {
-        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/205063-*"
+        "homepage"     : "https://forum.kerbalspaceprogram.com/index.php?/topic/205063-*",
+        "repository"   : "https://github.com/net-lisias-ksp/DistantObject"
     },
     "tags": [
         "plugin",
         "graphics"
     ],
     "install": [ {
-        "find":       "DistantObject",
-        "install_to": "GameData",
-        "filter":     "PlanetColors.cfg"
+        "find"        : "DistantObject",
+        "install_to"  : "GameData",
+        "filter"      : "PlanetColors.cfg"
     } ],
     "depends": [
-        { "name": "DistantObject-config" }
+        { "name" : "DistantObject-config" },
+        { "name" : "ModuleManager", "min_version" : "3.1.3" }
     ]
 }
