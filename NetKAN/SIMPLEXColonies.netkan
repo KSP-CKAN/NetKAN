@@ -1,0 +1,11 @@
+spec_version: v1.4
+identifier: SIMPLEXColonies
+$kref: '#/ckan/spacedock/2868'
+license: CC-BY-NC-SA
+tags:
+  - config
+  - parts
+  - crewed
+depends:
+  - name: ModuleManager
+  - name: MoarKerbals
