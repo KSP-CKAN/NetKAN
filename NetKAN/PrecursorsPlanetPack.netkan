@@ -1,5 +1,15 @@
 spec_version: v1.4
 identifier: PrecursorsPlanetPack
 $kref: '#/ckan/spacedock/2869'
-license: All-Rights-Reserved
-x_via: Automated SpaceDock CKAN submission
+license: restricted
+tags:
+  - config
+  - planet-pack
+depends:
+  - name: ModuleManager
+  - name: Kopernicus
+recommends:
+  - name: Scatterer
+install:
+  - find: OR
+    install_to: GameData
