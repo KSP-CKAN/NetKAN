@@ -1,0 +1,28 @@
+spec_version: v1.4
+identifier: SimpleLife
+name: SimpleLife! (SLIF!)
+$kref: '#/ckan/spacedock/766'
+$vref: '#/ckan/ksp-avc'
+license: MIT
+tags:
+  - config
+  - career
+  - crewed
+depends:
+  - name: ModuleManager
+  - name: MoarKerbals
+  - name: CommunityResourcePack
+recommends:
+  - name: SimpleConstruction
+  - name: SimpleLogistics
+supports:
+  - name: KerbalChangelog
+suggests:
+  - name: Kaboom
+  - name: Foundations
+  - name: KerbalStats
+  - name: Komplexity
+  - name: KerbalChangelog
+  - name: TweakScale
+  - name: KSP-Recall
+  - name: AlternateResourcePanel
