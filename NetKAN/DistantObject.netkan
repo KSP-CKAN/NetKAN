@@ -7,11 +7,12 @@
     "$kref"            : "#/ckan/spacedock/2274",
     "$vref"            : "#/ckan/ksp-avc",
     "x_netkan_force_v" : true,
-    "license"          : "CC-BY-4.0",
+    "license"          : [ "GPL-2.0", "restricted" ],
     "release_status"   : "stable",
     "resources": {
         "homepage"     : "https://forum.kerbalspaceprogram.com/index.php?/topic/205063-*",
-        "repository"   : "https://github.com/net-lisias-ksp/DistantObject"
+        "repository"   : "https://github.com/net-lisias-ksp/DistantObject",
+        "license"      : "https://raw.githubusercontent.com/net-lisias-ksp/DistantObject/master/LICENSE"
     },
     "tags": [
         "plugin",
