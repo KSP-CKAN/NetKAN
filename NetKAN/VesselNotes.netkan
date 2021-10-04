@@ -1,0 +1,33 @@
+{
+  "license": "CC-BY-NC-SA-4.0",
+  "identifier": "VesselNotes",
+  "x_via": "Automated Linuxgurugamer CKAN script",
+  "$kref": "#/ckan/spacedock/2871",
+  "$vref": "#/ckan/ksp-avc",
+  "resources": {
+    "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/199389-112x-vessel-notes-logs-full-release/",
+    "repository": "https://github.com/linuxgurugamer/VesselNotes"
+  },
+  "depends": [
+    {
+      "name": "ToolbarController"
+    },
+    {
+      "name": "ClickThroughBlocker"
+    },
+    {
+      "name": "SpaceTuxLibrary"
+    }
+  ],
+  "tags": [
+    "plugin",
+    "convenience"
+  ],
+  "install": [
+    {
+      "find": "VesselNotes",
+      "install_to": "GameData"
+    }
+  ],
+  "spec_version": "v1.4"
+}
