@@ -3,13 +3,10 @@ identifier: HangarGrid
 $kref: '#/ckan/spacedock/2872'
 $vref: '#/ckan/ksp-avc'
 license: GPL-3.0
-resources:
-  homepage: https://forum.kerbalspaceprogram.com/index.php?/topic/205069-112x-
-  repository: https://github.com/linuxgurugamer/HangarGrid
+tags:
+  - plugin
+  - editor
 depends:
   - name: ToolbarController
   - name: ClickThroughBlocker
   - name: SpaceTuxLibrary
-tags:
-  - plugin
-  - editor
