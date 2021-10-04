@@ -1,10 +1,31 @@
 {
-    "spec_version": "v1.4",
-    "identifier":   "HangarGrid",
-    "$kref":        "#/ckan/spacedock/2872",
-    "license":      "GPL-3.0",
-    "tags": [
-        "plugin",
-        "editor"
-    ]
+  "license": "GPL-3.0",
+  "identifier": "HangarGrid",
+  "x_via": "Automated Linuxgurugamer CKAN script",
+  "$kref": "#/ckan/spacedock/2872",
+  "$vref": "#/ckan/ksp-avc",
+  "resources": {
+    "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/205069-112x-",
+    "repository": "https://github.com/linuxgurugamer/HangarGrid"
+  },
+  "depends": [
+    {
+      "name": "HangarGrid"
+    },
+    {
+      "name": "ToolbarController"
+    },
+    {
+      "name": "ClickThroughBlocker"
+    },
+    {
+      "name": "SpaceTuxLibrary"
+    }
+  ],
+  "tags": [
+    "plugin",
+    "editor"
+  ],
+  "install": [],
+  "spec_version": "v1.4"
 }
