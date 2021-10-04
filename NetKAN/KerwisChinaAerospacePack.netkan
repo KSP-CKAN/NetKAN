@@ -2,18 +2,15 @@ spec_version: 'v1.4'
 identifier: KerwisChinaAerospacePack
 $kref: '#/ckan/spacedock/2867'
 release_status: development
-license: CC-BY-NC-SA
+license: CC-BY-NC-SA 4.0
 resources:
   license: https://creativecommons.org/licenses/by-nc-sa/4.0/
-  spacedock: https://spacedock.info/mod/2867/Kerwis%20China%20Aerospace%20Pack
-  homepage: https://forum.kerbalspaceprogram.com/index.php?/topic/205073-*
-  repository: https://github.com/Industrial-Pigeon-and-Magic/KerwisChinaAerospacePack
 ksp_version_min: 1.8.0
-ksp_version_max: 1.12.99
 depends:
   - name: ModuleManager
 recommends:
+  - name: Waterfall
   - name: StockWaterfallEffects
   - name: RealPlume
-supports:
-  - name: RealismOverhaul
+tags:
+  - parts
