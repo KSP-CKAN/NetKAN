@@ -2,7 +2,18 @@ spec_version: v1.4
 identifier: KerwisChinaAerospacePack
 $kref: '#/ckan/spacedock/2867'
 license: CC-BY-NC-SA-4.0
+release_status: development
+resources:
+  license: https://creativecommons.org/licenses/by-nc-sa/4.0/
 tags:
   - parts
 depends:
   - name: ModuleManager
+recommends:
+  - name: Waterfall
+  - name: StockWaterfallEffects
+  - name: RealPlume
+x_netkan_override:
+  - version: 1.0.2
+    override:
+      ksp_version_min: 1.8.0
