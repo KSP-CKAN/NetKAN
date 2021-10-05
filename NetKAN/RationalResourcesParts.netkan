@@ -10,5 +10,6 @@ tags:
   - parts
   - resources
 depends:
+  - name: ModuleManager
   - name: RationalResources
   - name: RationalResourcesCompanion

@@ -9,6 +9,7 @@ tags:
   - config
   - resources
 depends:
+  - name: ModuleManager
   - name: RationalResources
   - name: RationalResourcesCompanion
   - name: Kerbalism
