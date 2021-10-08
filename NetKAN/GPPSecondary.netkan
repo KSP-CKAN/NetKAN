@@ -19,8 +19,6 @@ install:
   - find: Optional Mods/GPP_Secondary/GameData/GPP_Secondary
     install_to: GameData
     comment: This installs the GPP_Secondary configs for GPP
-provides:
-  - GPP
 conflicts:
   - name: GPP
   - name: StockVisualEnhancements
