@@ -8,8 +8,8 @@ resources:
   homepage: https://forum.kerbalspaceprogram.com/index.php?/topic/152136-galileos-planet-pack/
 depends:
   - any_of:
-    - name: GPP
-    - name: GPPSecondary
+      - name: GPP
+      - name: GPPSecondary
 install:
   - find: GPP
     install_to: GameData
