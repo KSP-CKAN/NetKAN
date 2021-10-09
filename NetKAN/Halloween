@@ -1,0 +1,29 @@
+spec_version: v1.4
+identifier: Halloween
+name: Halloween! (HWLN)
+abstract: Halloween themed parts mod for Kerbal Space Program.
+$kref: '#/ckan/spacedock/2875'
+$vref: '#/ckan/ksp-avc/Halloween.version'
+license: CC-BY-NC-4.0
+tags:
+  - parts
+  - uncrewed
+depends:
+  - name: none
+recommends:
+  - name: JackOLantern
+  - name: Kaboom
+  - name: Foundations
+  - name: ModuleManager
+suggests:
+  - name: KerbalChangelog
+  - name: TweakScale
+  - name: SimpleLogistics
+  - name: SimpleConstruction
+  - name: SimpleLife
+supports:
+  - name: KerbalChangelog
+  - name: TweakScale
+install:
+  - find: Halloween
+    install_to: GameData
