@@ -6,13 +6,15 @@ $kref: '#/ckan/github/Galileo88/Galileos-Planet-Pack'
 $vref: '#/ckan/ksp-avc'
 license: CC-BY-NC-ND
 resources:
-  homepage: https://forum.kerbalspaceprogram.com/index.php?/topic/152136-galileos-planet-pack/
+  homepage: https://forum.kerbalspaceprogram.com/index.php?/topic/152136-*
 provides:
   - EnvironmentalVisualEnhancements-Config
 depends:
-  - name: EnvironmentalVisualEnhancements
-  - name: GPP
   - name: ModuleManager
+  - name: EnvironmentalVisualEnhancements
+  - any_of:
+      - name: GPP
+      - name: GPPSecondary
 conflicts:
   - name: GPPCloudsLowRes
 install:
