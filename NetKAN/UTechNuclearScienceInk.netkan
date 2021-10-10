@@ -5,6 +5,6 @@ ksp_version: any
 license: MIT
 tags:
   - parts
-install
+install:
   - find: Utek NTS
     install_to: GameData
