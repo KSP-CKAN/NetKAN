@@ -31,8 +31,7 @@
         {
             "file"        : "Ships",
             "install_to"  : "Ships",
-            "optional"    : true,
-            "description" : "FAR example craft"
+            "comment"     : "FAR example craft"
         }
     ],
     "x_netkan_override": [
