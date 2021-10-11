@@ -2,17 +2,21 @@ spec_version: v1.4
 identifier: JackOLantern
 name: Jack-O'-Lantern! (JACK)
 abstract: Jack-O'Lantern by Porkjet. Jack-O'Lantern themed probe cores in five sizes. All the modcons. Now supports Chucking.
+author:
+  - Porkjet
+  - zer0Kerbal
 $kref: '#/ckan/spacedock/2261'
-$vref: '#/ckan/ksp-avc/JackOLantern.version'
+$vref: '#/ckan/ksp-avc'
 license: CC-BY-NC-4.0
 tags:
   - parts
   - uncrewed
+depends:
+  - name: ModuleManager
 recommends:
   - name: Halloween
   - name: Kaboom
   - name: Foundations
-  - name: ModuleManager
 suggests:
   - name: KerbalChangelog
   - name: TweakScale
@@ -22,6 +26,3 @@ suggests:
 supports:
   - name: KerbalChangelog
   - name: TweakScale
-install:
-  - find: JackOLantern
-    install_to: GameData
