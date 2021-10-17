@@ -1,18 +1,14 @@
-{
-    "spec_version": "v1.4",
-    "identifier":   "NavUtilitiesUpdated",
-    "$kref":        "#/ckan/spacedock/2879",
-    "license":      "CC-BY-NC-SA-4.0",
-    "tags": [
-        "plugin",
-        "information",
-        "crewed"
-    ],
-    "install": [ {
-        "find":       "NavInstruments",
-        "install_to": "GameData"
-    } ],
-    "depends": [
-        { "name": "ModuleManager" }
-    ]
-}
+spec_version: v1.4
+identifier: NavUtilitiesUpdated
+$kref: '#/ckan/spacedock/2879'
+$vref: '#/ckan/ksp-avc'
+license: CC-BY-NC-SA-4.0
+tags:
+  - plugin
+  - information
+  - crewed
+depends:
+  - name: ModuleManager
+install:
+  - find: NavInstruments
+    install_to: GameData
