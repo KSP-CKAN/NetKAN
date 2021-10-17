@@ -1,0 +1,12 @@
+spec_version: v1.4
+identifier: C1ustasTUFXProfiles
+$kref: '#/ckan/spacedock/2878'
+license: CC-BY-NC-SA-4.0
+tags:
+  - config
+  - graphics
+depends:
+  - name: TUFX
+install:
+  - find: C1usta TUFX
+    install_to: GameData
