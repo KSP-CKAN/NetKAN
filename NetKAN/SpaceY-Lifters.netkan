@@ -1,10 +1,14 @@
-spec_version: 1
+spec_version: 1.4
 identifier: SpaceY-Lifters
 $kref: '#/ckan/spacedock/88'
 $vref: '#/ckan/ksp-avc'
 license: CC-BY-NC-SA-4.0
 tags:
   - parts
+  - flags
+  - sound
+  - agency
+  - uncrewed
 depends:
   - name: ModuleManager
 recommends:
