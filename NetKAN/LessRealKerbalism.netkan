@@ -1,32 +1,24 @@
-{
-    "spec_version": "v1.18",
-    "identifier":   "LessRealKerbalism",
-    "name":         "Kerbalism - LRTR Config",
-    "$kref":        "#/ckan/github/pehvbot/LRKerbalism",
-    "$vref":        "#/ckan/ksp-avc",
-    "license":      "CC-BY-NC-SA-4.0",
-    "resources": {
-        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/189978-*"
-    },
-    "tags": [
-        "config",
-        "crewed",
-        "science",
-        "parts"
-    ],
-    "provides": [ "Kerbalism-Config" ],
-    "conflicts": [
-        { "name": "Kerbalism-Config" }
-    ],
-    "depends": [
-        { "name": "ModuleManager" },
-        { "name": "Kerbalism"     }
-    ],
-    "recommends": [
-        { "name": "LessRealThanReal" }
-    ],
-    "install": [ {
-        "find":       "KerbalismConfig",
-        "install_to": "GameData"
-    } ]
-}
+spec_version: v1.18
+identifier: LessRealKerbalism
+name: Kerbalism - LRTR Config
+$kref: '#/ckan/github/pehvbot/LRKerbalism'
+license: CC-BY-NC-SA-4.0
+resources:
+  homepage: https://forum.kerbalspaceprogram.com/index.php?/topic/189978-*
+tags:
+  - config
+  - crewed
+  - science
+  - parts
+provides:
+  - Kerbalism-Config
+conflicts:
+  - name: Kerbalism-Config
+depends:
+  - name: ModuleManager
+  - name: Kerbalism
+recommends:
+  - name: LessRealThanReal
+install:
+  - find: KerbalismConfig
+    install_to: GameData
