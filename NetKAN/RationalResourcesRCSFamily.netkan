@@ -8,6 +8,8 @@ license: MIT
 tags:
   - config
   - convenience
+depends:
+  - name: ModuleManager
 suggests:
   - name: ClassicStockResources
 conflicts:
