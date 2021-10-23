@@ -11,15 +11,20 @@ tags:
 depends:
   - name: ModuleManager
 recommends:
+  - name: KerbalInventorySystem
   - name: JackOLantern
   - name: Kaboom
-  - name: Foundations
 suggests:
-  - name: KerbalChangelog
+  - name: Foundations
+  - name: KerbalInventorySystemNoFun
+  - name: StackInlineLights
+  - name: StackInlineLightPatches
   - name: TweakScale
+  - name: KerbalChangelog
   - name: SimpleLogistics
   - name: SimpleConstruction
   - name: SimpleLife
 supports:
   - name: KerbalChangelog
   - name: TweakScale
+  - name: KerbalInventorySystem
