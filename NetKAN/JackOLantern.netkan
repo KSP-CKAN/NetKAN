@@ -10,21 +10,16 @@ license: CC-BY-NC-4.0
 tags:
   - parts
   - uncrewed
-depends:
-  - name: 
 recommends:
   - name: Halloween
   - name: Kaboom
   - name: Foundations
-  - name: ModuleManager
 suggests:
   - name: KerbalChangelog
   - name: TweakScale
   - name: SimpleLogistics
   - name: SimpleConstruction
   - name: SimpleLife
-  - name: ModuleManager
 supports:
   - name: KerbalChangelog
   - name: TweakScale
-  - name: ModuleManager
