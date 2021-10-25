@@ -1,0 +1,17 @@
+spec_version: v1.4
+identifier: RationalResourcesBlacksmith
+name: Rational Resources Blacksmith
+abstract: >-
+  Enables the stock science lab (with engineers) to refill or transfer
+  non-transferrable resources without plugins or cheaty techniques
+$kref: '#/ckan/spacedock/2201'
+$vref: '#/ckan/ksp-avc'
+license: MIT
+tags:
+  - config
+  - convenience
+depends:
+  - name: ModuleManager
+  - name: RationalResourcesCompanion
+suggests:
+  - name: ExtraPlanetaryLaunchpads

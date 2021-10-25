@@ -1,0 +1,14 @@
+spec_version: v1.4
+identifier: MiniMoke
+$kref: '#/ckan/spacedock/2873'
+license: CC-BY-SA-4.0
+tags:
+  - parts
+depends:
+  - name: RocketSoundEnhancement
+install:
+  - find: MiniMoke
+    install_to: GameData
+    filter: SPH
+  - find: SPH
+    install_to: Ships

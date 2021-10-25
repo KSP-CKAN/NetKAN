@@ -1,4 +1,4 @@
-spec_version: v1.4
+spec_version: v1.26
 identifier: GPPTextures
 name: GPP Textures
 abstract: Textures for Galileo's Planet Pack.
@@ -7,7 +7,9 @@ license: CC-BY-NC-ND
 resources:
   homepage: https://forum.kerbalspaceprogram.com/index.php?/topic/152136-galileos-planet-pack/
 depends:
-  - name: GPP
+  - any_of:
+      - name: GPP
+      - name: GPPSecondary
 install:
   - find: GPP
     install_to: GameData

@@ -1,37 +1,34 @@
-{
-    "spec_version": "v1.4",
-    "identifier":   "RationalResources",
-    "$kref":        "#/ckan/spacedock/2201",
-    "$vref":        "#/ckan/ksp-avc",
-    "license":      "MIT",
-    "tags": [
-        "plugin",
-        "resources"
-    ],
-    "depends": [
-        { "name": "ModuleManager"         },
-        { "name": "CommunityResourcePack" }
-    ],
-    "recommends": [
-        { "name": "SCANsat" }
-    ],
-    "suggests": [
-        { "name": "CryoTanks"                 },
-        { "name": "JNSQ"                      },
-        { "name": "RationalResourcesParts"    },
-        { "name": "StockalikeMiningExtension" }
-    ],
-    "supports": [
-        { "name": "BeyondHome"                },
-        { "name": "CryoTanks"                 },
-        { "name": "ClassicStockResources"     },
-        { "name": "DSEV"                      },
-        { "name": "ExtraPlanetaryLaunchpads"  },
-        { "name": "JNSQ"                      },
-        { "name": "Kerbalism"                 },
-        { "name": "OuterPlanetsMod"           },
-        { "name": "Pathfinder"                },
-        { "name": "StockalikeMiningExtension" },
-        { "name": "TACLS"                     }
-    ]
-}
+spec_version: v1.4
+identifier: RationalResources
+abstract: Makes resource placement no longer random but fit to composition templates. Promotes cryofuel mods and planet pack to life support compatibility.
+$kref: '#/ckan/spacedock/2201'
+$vref: '#/ckan/ksp-avc'
+license: MIT
+tags:
+  - config
+  - resources
+depends:
+  - name: ModuleManager
+recommends:
+  - name: CommunityResourcePack
+  - name: ClassicStockResources
+  - name: RationalResourcesCompanion
+  - name: SCANsat
+suggests:
+  - name: CryoTanks
+  - name: JNSQ
+  - name: RationalResourcesParts
+  - name: StockalikeMiningExtension
+supports:
+  - name: BeyondHome
+  - name: CryoTanks
+  - name: ClassicStockResources
+  - name: DSEV
+  - name: ExtraPlanetaryLaunchpads
+  - name: JNSQ
+  - name: Kerbalism
+  - name: OuterPlanetsMod
+  - name: Pathfinder
+  - name: StockalikeMiningExtension
+  - name: TACLS
+  - name: KerbalChangelog

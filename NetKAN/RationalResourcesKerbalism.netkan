@@ -1,15 +1,15 @@
 spec_version: v1.4
-identifier: RationalResourcesParts
-name: Rational Resources Parts
-abstract: Provides dedicated parts. Some are demos for concept tech. Some are niche ISRU parts.
+identifier: RationalResourcesKerbalism
+name: Rational Resources Kerbalism
+abstract: Kerbalism integration
 $kref: '#/ckan/spacedock/2201'
 $vref: '#/ckan/ksp-avc'
 license: MIT
 tags:
   - config
-  - parts
   - resources
 depends:
   - name: ModuleManager
   - name: RationalResources
   - name: RationalResourcesCompanion
+  - name: Kerbalism
