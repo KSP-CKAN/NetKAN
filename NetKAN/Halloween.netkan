@@ -7,13 +7,10 @@ $vref: '#/ckan/ksp-avc'
 license: CC-BY-NC-4.0
 tags:
   - parts
-depends:
-  - name: 
 recommends:
   - name: KIS
   - name: JackOLantern
   - name: Kaboom
-  - name: ModuleManager
 suggests:
   - name: Foundations
   - name: KerbalInventorySystemNoFun
@@ -24,9 +21,7 @@ suggests:
   - name: SimpleLogistics
   - name: SimpleConstruction
   - name: SimpleLife
-  - name: ModuleManager
 supports:
   - name: KerbalChangelog
   - name: TweakScale
   - name: KIS
-  - name: ModuleManager
