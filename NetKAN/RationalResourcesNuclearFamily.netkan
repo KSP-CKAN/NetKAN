@@ -1,0 +1,21 @@
+spec_version: v1.4
+identifier: RationalResourcesNuclearFamily
+name: Rational Resources Nuclear Family
+abstract: >-
+  Enables fuel switching and Kerbalism radioactivity in supported NTRs.
+  Enables supported NTJs to have Kerbalism radioactivity and the features
+  expected of a nuclear reactor
+$kref: '#/ckan/spacedock/2201'
+$vref: '#/ckan/ksp-avc'
+license: MIT
+tags:
+  - config
+  - convenience
+depends:
+  - name: ModuleManager
+suggests:
+  - name: ClassicStockResources
+  - name: KerbalAtomics
+  - name: RecycledPartsAtomicAge
+conflicts:
+  - name: KerbalAtomics-NTRModSupport

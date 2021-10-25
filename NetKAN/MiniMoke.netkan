@@ -6,3 +6,9 @@ tags:
   - parts
 depends:
   - name: RocketSoundEnhancement
+install:
+  - find: MiniMoke
+    install_to: GameData
+    filter: SPH
+  - find: SPH
+    install_to: Ships

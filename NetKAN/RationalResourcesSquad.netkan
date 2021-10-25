@@ -1,0 +1,18 @@
+spec_version: v1.4
+identifier: RationalResourcesSquad
+name: Rational Resources Squad
+abstract: >-
+  Provides fuel switching in the stock tanks, the stock jet engines, and
+  expands CryoTanks options
+$kref: '#/ckan/spacedock/2201'
+$vref: '#/ckan/ksp-avc'
+license: MIT
+tags:
+  - config
+  - convenience
+depends:
+  - name: ModuleManager
+  - name: RationalResources
+conflicts:
+  - name: RealFuels
+  - name: ModularFuelTanks
