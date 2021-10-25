@@ -10,7 +10,7 @@ tags:
 depends:
   - name: ModuleManager
 recommends:
-  - name: KerbalInventorySystem
+  - name: KIS
   - name: JackOLantern
   - name: Kaboom
 suggests:
@@ -26,4 +26,4 @@ suggests:
 supports:
   - name: KerbalChangelog
   - name: TweakScale
-  - name: KerbalInventorySystem
+  - name: KIS
