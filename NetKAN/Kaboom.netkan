@@ -3,8 +3,8 @@ identifier: Kaboom
 name: Kaboom! (BOOM)
 abstract: Another way to not go to space today! Now with SuperKlue Implosions!
 $kref: '#/ckan/spacedock/833'
-$vref: '#/ckan/ksp-avc/Kaboom.version'
-license: GPLv2
+$vref: '#/ckan/ksp-avc'
+license: GPL-2.0
 tags:
   - plugin
   - config
@@ -54,6 +54,3 @@ suggests:
   - name: KerbalChangelog
 supports:
   - name: KerbalChangelog
-install:
-  - find: Kaboom
-    install_to: GameData
