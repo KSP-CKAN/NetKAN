@@ -13,13 +13,11 @@ tags:
 recommends:
   - name: Halloween
   - name: Kaboom
-  - name: Foundations
 suggests:
   - name: KerbalChangelog
   - name: TweakScale
   - name: SimpleLogistics
   - name: SimpleConstruction
-  - name: SimpleLife
 supports:
   - name: KerbalChangelog
   - name: TweakScale

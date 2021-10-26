@@ -12,7 +12,6 @@ recommends:
   - name: JackOLantern
   - name: Kaboom
 suggests:
-  - name: Foundations
   - name: KerbalInventorySystemNoFun
   - name: StackInlineLights
   - name: StackInlineLightPatches
@@ -20,7 +19,6 @@ suggests:
   - name: KerbalChangelog
   - name: SimpleLogistics
   - name: SimpleConstruction
-  - name: SimpleLife
 supports:
   - name: KerbalChangelog
   - name: TweakScale
