@@ -1,17 +1,62 @@
-{
-    "spec_version": "v1.4",
-    "identifier":   "Kaboom",
-    "$kref":        "#/ckan/spacedock/833",
-    "$vref":        "#/ckan/ksp-avc",
-    "license":      "unrestricted",
-    "tags": [
-        "plugin"
-    ],
-    "install": [ {
-        "file":       "GameData/Kaboom",
-        "install_to": "GameData"
-    } ],
-    "depends": [
-        { "name": "ModuleManager" }
-    ]
-}
+
+spec_version: v1.4
+identifier: Kaboom
+name: Kaboom! (BOOM)
+abstract: Kaboom! Another way to not go to space today! Now with SuperKlue Implosions!
+$kref: '#/ckan/spacedock/833'
+$vref: '#/ckan/ksp-avc/Kaboom.version'
+license: GPLv2
+tags:
+  - plugin
+  - config
+depends:
+  - name: ModuleManager
+suggests:
+  - name: JackOLantern
+  - name: Halloween
+  - name: SimpleConstruction
+  - name: SimpleLogicists
+  - name: SimpleLife
+  - name: MoarKerbals
+  - name: MoarKerbalsParts
+  - name: Foundations
+  - name: B9StockPatches
+  - name: Biomatic
+  - name: CargoFreighter
+  - name: DMTanks-AeroRTG
+  - name: DMTanks-CargoBays
+  - name: DMTanks-Fuselage
+  - name: DMTanks-SphericalTanks
+  - name: DockingPortDescriptions
+  - name: DuoPods
+  - name: ElephantEngine
+  - name: FieldTrainingFacility
+  - name: FieldTrainingLaboratory
+  - name: ISRUThanksButNoTanks
+  - name: Komplexity
+  - name: MiniSampleReturnCapsule
+  - name: Mk2Y
+  - name: MoreHitchhikers
+  - name: OhScrap
+  - name: ScrapYard
+  - name: Pteron
+  - name: PicoPortShielded
+  - name: SolarScience
+  - name: SpaceY-Lifters
+  - name: StackInlineLights
+  - name: StackInlineLightPatches
+  - name: StorkDeliverySystem
+  - name: TheGoldStandard
+  - name: TransparentPods
+  - name: TheBurgerMod
+  - name: KerbalHacksDroptankWrapper
+  - name: NotSoSimpleConstruction
+  - name: KeridianDynamicsVesselAssembly
+  - name: KerbalChangelog
+supports:
+  - name: KerbalChangelog
+conflicts:
+  - name: 
+install:
+  - find: Kaboom
+    install_to: GameData
