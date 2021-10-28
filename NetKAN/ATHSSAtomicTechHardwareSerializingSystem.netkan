@@ -2,4 +2,8 @@ spec_version: v1.4
 identifier: ATHSSAtomicTechHardwareSerializingSystem
 $kref: '#/ckan/spacedock/2882'
 license: MIT
-x_via: Automated SpaceDock CKAN submission
+tags:
+  - flags
+install:
+  - find: ATHSS
+    install_to: GameData/AtomicTech/Flags
