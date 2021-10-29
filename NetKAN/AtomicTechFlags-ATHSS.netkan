@@ -1,0 +1,9 @@
+spec_version: v1.4
+identifier: AtomicTechFlags-ATHSS
+$kref: '#/ckan/spacedock/2882'
+license: MIT
+tags:
+  - flags
+install:
+  - find: ATHSS
+    install_to: GameData/AtomicTech/Flags
