@@ -11,6 +11,7 @@ depends:
       - name: ConfigurableContainers
       - name: InterstellarFuelSwitch
       - name: ModularFuelTanks
+      - name: FirespitterCore
 supports:
   - name: B9
 install:
