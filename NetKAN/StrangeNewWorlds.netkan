@@ -27,3 +27,8 @@ install:
     install_to: GameData
     filter:
       - .DS_Store
+x_netkan_override:
+  - version: v0.1.2
+    override:
+      ksp_version_min: 1.8
+      ksp_version_max: 1.12
