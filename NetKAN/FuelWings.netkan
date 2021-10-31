@@ -9,7 +9,7 @@
     ],
     "depends": [
         { "name": "ModuleManager" },
-        { "name": "ModularFuelTanks" }
+        { "name": "FWFuelSwitch" }
     ],
     "supports" : [
         { "name" : "B9" }

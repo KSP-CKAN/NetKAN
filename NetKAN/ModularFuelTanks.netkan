@@ -19,6 +19,9 @@
         "plugin",
         "convenience"
     ],
+    "provides": [
+        "FWFuelSwitch"
+    ],
     "depends": [
         { "name": "ModuleManager" }
     ],
