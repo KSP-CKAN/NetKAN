@@ -12,9 +12,6 @@
         "crewed",
         "parts"
     ],
-    "provides": [
-        "FWFuelSwitch"
-    ],
     "depends": [
         { "name": "ModuleManager"                                       },
         { "name": "InterstellarFuelSwitch-Core", "min_version" : "1.28" },

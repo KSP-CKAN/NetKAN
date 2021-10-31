@@ -9,7 +9,11 @@
     ],
     "depends": [
         { "name": "ModuleManager" },
-        { "name": "FWFuelSwitch" }
+            "any_of": [
+                { "name": "ConfigurableContainers" },
+                { "name": "InterstellarFuelSwitch" },
+                { "name": "ModularFuelTanks" }
+            ]
     ],
     "supports" : [
         { "name" : "B9" }
