@@ -1,0 +1,18 @@
+spec_version: v1.4
+identifier: DARTRange
+abstract: Slam a spacecraft into Dimorphos to change its orbit around Didymos
+$kref: '#/ckan/github/Galileo88/DART-Project'
+$vref: '#/ckan/ksp-avc'
+license: restricted
+resources:
+  homepage: https://forum.kerbalspaceprogram.com/index.php?/topic/205456-*
+tags:
+  - plugin
+  - config
+  - planet-pack
+  - parts
+depends:
+  - name: ModuleManager
+install:
+  - find: DART
+    install_to: GameData
