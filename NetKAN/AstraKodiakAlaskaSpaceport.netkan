@@ -2,4 +2,13 @@ spec_version: v1.4
 identifier: AstraKodiakAlaskaSpaceport
 $kref: '#/ckan/spacedock/2883'
 license: CC-BY-NC-ND-4.0
-x_via: Automated SpaceDock CKAN submission
+tags:
+  - buildings
+depends:
+  - name: ModuleManager
+  - name: KerbalKostructs
+  - name: StockalikeStructures
+  - name: AuroraSpaceCenter
+install:
+  - find: AstraStockKodiakSpaceport
+    install_to: GameData
