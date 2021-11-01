@@ -5,8 +5,7 @@ license: CC-BY-NC-ND-4.0
 tags:
   - buildings
 depends:
-  - name: ModuleManager
-  - name: KerbalKostructs
+  - name: KerbalKonstructs
   - name: StockalikeStructures
   - name: AuroraSpaceCenter
 install:
