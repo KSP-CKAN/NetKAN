@@ -5,7 +5,6 @@ license: unknown
 tags:
   - buildings
 depends:
-  - name: ModuleManager
   - name: KerbalKonstructs
   - name: StockalikeStructures
   - name: StarshipLaunchExpansion
