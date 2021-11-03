@@ -1,7 +1,7 @@
 spec_version: v1.4
 identifier: Starbase
 $kref: '#/ckan/spacedock/2884'
-license: unknown
+license: restricted
 tags:
   - buildings
 depends:
@@ -12,6 +12,3 @@ recommends:
   - name: StarshipLaunchExpansion
   - name: KaioSpaceKSPStarship2021
   - name: HullcamVDSContinued
-install:
-  - find: Starbase
-    install_to: GameData
