@@ -1,0 +1,14 @@
+spec_version: v1.4
+identifier: Starbase
+$kref: '#/ckan/spacedock/2884'
+license: restricted
+tags:
+  - buildings
+depends:
+  - name: KerbalKonstructs
+  - name: StockalikeStructures
+  - name: StarshipLaunchExpansion
+recommends:
+  - name: StarshipLaunchExpansion
+  - name: KaioSpaceKSPStarship2021
+  - name: HullcamVDSContinued
