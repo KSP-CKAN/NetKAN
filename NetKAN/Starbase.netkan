@@ -1,0 +1,18 @@
+spec_version: v1.4
+identifier: Starbase
+$kref: '#/ckan/spacedock/2884'
+license: unknown
+tags:
+  - buildings
+depends:
+  - name: ModuleManager
+  - name: KerbalKonstructs
+  - name: StockalikeStructures
+  - name: StarshipLaunchExpansion
+recommends:
+  - name: StarshipLaunchExpansion
+  - name: KaioSpaceKSPStarship2021
+  - name: HullcamVDSContinued
+install:
+  - find: Starbase
+    install_to: GameData
