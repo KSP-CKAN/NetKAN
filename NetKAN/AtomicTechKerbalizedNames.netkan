@@ -1,5 +1,16 @@
-spec_version: v1.4
+spec_version: v1.16
 identifier: AtomicTechKerbalizedNames
-$kref: '#/ckan/spacedock/2885'
+$kref: '#/ckan/github/JamesErvin-5/AT-Kerbalized-Names-CKAN-Version'
+x_netkan_github:
+  use_source_archive: true
 license: MIT
-x_via: Automated SpaceDock CKAN submission
+tags:
+  - config
+  - crewed
+depends:
+  - name: ModuleManager
+  - name: KerbalRenamer
+install:
+  - find: AtomicTechKerbalizedNames.cfg
+    find_matches_files: true
+    install_to: GameData/AtomicTech
