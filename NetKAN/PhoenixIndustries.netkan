@@ -11,4 +11,4 @@ recommends:
 x_netkan_override:
   - version: 1.7
     override:
-      - ksp_version_min: 1.11
+      ksp_version_min: 1.11
