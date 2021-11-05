@@ -1,8 +1,7 @@
 spec_version: v1.16
 identifier: AtomicTechKerbalizedNames
 $kref: '#/ckan/spacedock/2887'
-x_netkan_github:
-  use_source_archive: true
+$vref: '#/ckan/ksp-avc'
 license: MIT
 tags:
   - config
