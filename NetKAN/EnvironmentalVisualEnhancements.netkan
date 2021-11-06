@@ -1,34 +1,22 @@
-{
-    "spec_version": 1,
-    "identifier":   "EnvironmentalVisualEnhancements",
-    "author": [
-        "rbray89",
-        "WazWaz",
-        "R-T-B",
-        "blackrack"
-    ],
-    "$kref":        "#/ckan/spacedock/2631",
-    "$vref":        "#/ckan/ksp-avc",
-    "x_netkan_epoch": "2",
-    "license":      "MIT",
-    "tags": [
-        "plugin",
-        "graphics"
-    ],
-    "install": [ {
-        "file":       "GameData/EnvironmentalVisualEnhancements",
-        "install_to": "GameData"
-    } ],
-    "recommends": [
-        { "name": "EnvironmentalVisualEnhancements-Config" }
-    ],
-    "conflicts": [
-        { "name": "EnvironmentalVisualEnhancements-LR" }
-    ],
-    "x_netkan_override": [ {
-        "version": "2:EVE-1.4.2-2",
-        "override": {
-            "ksp_version_max": "1.7"
-        }
-    } ]
-}
+spec_version: 1
+identifier: EnvironmentalVisualEnhancements
+author:
+  - rbray89
+  - WazWaz
+  - R-T-B
+  - blackrack
+$kref: '#/ckan/spacedock/2631'
+$vref: '#/ckan/ksp-avc'
+x_netkan_epoch: '2'
+license: MIT
+tags:
+  - plugin
+  - graphics
+recommends:
+  - name: EnvironmentalVisualEnhancements-Config
+conflicts:
+  - name: EnvironmentalVisualEnhancements-LR
+x_netkan_override:
+  - version: 2:EVE-1.4.2-2
+    override:
+      ksp_version_max: '1.7'
