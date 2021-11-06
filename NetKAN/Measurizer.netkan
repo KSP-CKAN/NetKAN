@@ -2,4 +2,9 @@ spec_version: v1.4
 identifier: Measurizer
 $kref: '#/ckan/spacedock/2889'
 license: MIT
-x_via: Automated SpaceDock CKAN submission
+tags:
+  - parts
+depends:
+  - name: ModuleManager
+  - name: B9PartSwitch
+  - name: TweakScale
