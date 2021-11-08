@@ -6,6 +6,14 @@ tags:
   - parts
 depends:
   - name: ModuleManager
+  - name: CommunityTechTree
+recommends:
+  - name: NearFutureConstruction
+  - name: NearFuturePropulsion
+  - name: NearFutureElectrical
+  - name: FarFutureTechnologies
+  - name: ReStock
+  - name: ReStockPlus
 install:
   - find: GrondsMicroasteroidShield
     install_to: GameData
