@@ -4,6 +4,8 @@ $kref: '#/ckan/spacedock/2894'
 license: MIT
 tags:
   - planet-pack
+conflicts:
+  - name: MinorPlanetsExpansionRevived
 depends:
   - name: ModuleManager
   - name: Kopernicus
