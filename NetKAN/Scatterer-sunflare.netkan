@@ -19,7 +19,7 @@ conflicts:
   - name: Scatterer-sunflare
 install:
   - find: Sunflares
-    install_to: GameData/scatterer/config
+    install_to: GameData/Scatterer/config
 x_netkan_override:
   - version:
       - '>=3:v0.0723'

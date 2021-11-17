@@ -14,7 +14,7 @@ depends:
 conflicts:
   - name: Scatterer
 install:
-  - find: scatterer
+  - find: Scatterer
     install_to: GameData
     filter_regexp: config\/.*
 x_netkan_override:
