@@ -2,4 +2,12 @@ spec_version: v1.4
 identifier: AstraRocket30TransporterErector
 $kref: '#/ckan/spacedock/2896'
 license: CC-BY-NC-ND-4.0
-x_via: Automated SpaceDock CKAN submission
+tags:
+  - parts
+install:
+  - find: AstraRocket3StrongBack
+    install_to: GameData
+x_netkan_override:
+  - version: 1.0
+    override:
+      ksp_version_min: 1.9
