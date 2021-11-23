@@ -5,7 +5,6 @@ license: CC-BY-NC-SA
 tags:
   - parts
 depends:
-  - name: ModuleManager
   - name: B9PartSwitch
 install:
   - find_regexp: Kochi.s stuff
