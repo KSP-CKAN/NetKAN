@@ -9,3 +9,8 @@ depends:
 install:
   - find: Fossil Industries
     install_to: GameData
+x_netkan_override:
+  version: 1.2
+  override:
+    ksp_version_min: 1.10
+    ksp_version_max: 1.12
