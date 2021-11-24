@@ -1,12 +1,17 @@
 {
     "spec_version" : 1,
     "identifier"   : "KspCraftOrganizer",
-    "$kref"        : "#/ckan/spacedock/866",
+    "$kref"        : "#/ckan/spacedock/2901",
     "$vref"        : "#/ckan/ksp-avc",
     "license"      : "MIT",
     "tags": [
         "plugin",
         "convenience"
+    ],
+    "depends": [
+        { "name" : "ToolbarController" },
+        { "name" : "ClickThroughBlocker" },
+        { "name" : "SpaceTuxLibrary" }
     ],
     "install": [
         {
