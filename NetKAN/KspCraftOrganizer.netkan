@@ -15,7 +15,7 @@
     ],
     "install": [
         {
-            "file"       : "KspCraftOrganizer",
+            "find"       : "KspCraftOrganizer",
             "install_to" : "GameData"
         }
     ]
