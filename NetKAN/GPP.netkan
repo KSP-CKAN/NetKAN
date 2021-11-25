@@ -28,7 +28,7 @@ depends:
 conflicts:
   - name: StockVisualEnhancements
   - name: Scatterer
-    version_min: '3:v0.0825b'
+    min_version: '3:v0.0825b'
 recommends:
   - name: Strategia
   - name: FinalFrontier
