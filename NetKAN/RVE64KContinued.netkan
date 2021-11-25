@@ -9,6 +9,7 @@ tags:
   - config
   - graphics
 depends:
+  - name: ModuleManager
   - name: RealSolarSystem
   - name: EnvironmentalVisualEnhancements
   - name: Scatterer
