@@ -1,4 +1,4 @@
-spec_version: v1.4
+spec_version: v1.10
 identifier: AtomicTechKerbalDietPills
 $kref: '#/ckan/spacedock/2903'
 license: BSD-3-clause
@@ -7,5 +7,5 @@ tags:
 depends:
   - name: ModuleManager
 install:
-  - find: ''
+  - find_regexp: .
     install_to: GameData/AtomicTechDietPills
