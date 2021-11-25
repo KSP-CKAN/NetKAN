@@ -22,6 +22,8 @@ install:
 conflicts:
   - name: GPP
   - name: StockVisualEnhancements
+  - name: Scatterer
+    version_min: '3:v0.0825b'
 depends:
   - name: ModuleManager
   - name: Kopernicus

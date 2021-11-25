@@ -1,41 +1,36 @@
-{
-    "spec_version": "v1.4",
-    "identifier":   "GrannusExpansionPack",
-    "$kref":        "#/ckan/github/OhioBob/Grannus-Expansion-Pack",
-    "$vref":        "#/ckan/ksp-avc",
-    "license":      "CC-BY-NC-ND",
-    "resources": {
-        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/169664-*"
-    },
-    "tags": [
-        "config",
-        "planet-pack"
-    ],
-    "depends": [
-        { "name": "ModuleManager" },
-        { "name": "Kopernicus"    }
-    ],
-    "recommends": [
-        { "name": "EnvironmentalVisualEnhancements" },
-        { "name": "Scatterer"                       },
-        { "name": "DistantObject"                   },
-        { "name": "ResearchBodies"                  },
-        { "name": "FinalFrontier"                   },
-        { "name": "KerbalHealth"                    },
-        { "name": "Grannus-RibbonPack"              }
-    ],
-    "suggests": [
-        { "name": "GPP"                          },
-        { "name": "GrannusExpansionPack-Primary" },
-        { "name": "GrannusExpansionPack-Rescale" },
-        { "name": "GrannusExpansionPack-CommNet" }
-    ],
-    "install": [ {
-        "file":       "GameData/GEP",
-        "install_to": "GameData"
-    }, {
-        "find":       "GameData/Nereid",
-        "install_to": "GameData",
-        "filter":     [ "Grannus" ]
-    } ]
-}
+spec_version: v1.4
+identifier: GrannusExpansionPack
+$kref: '#/ckan/github/OhioBob/Grannus-Expansion-Pack'
+$vref: '#/ckan/ksp-avc'
+license: CC-BY-NC-ND
+resources:
+  homepage: https://forum.kerbalspaceprogram.com/index.php?/topic/169664-*
+tags:
+  - config
+  - planet-pack
+conflicts:
+  - name: Scatterer
+    version_min: '3:v0.0825b'
+depends:
+  - name: ModuleManager
+  - name: Kopernicus
+recommends:
+  - name: EnvironmentalVisualEnhancements
+  - name: Scatterer
+  - name: DistantObject
+  - name: ResearchBodies
+  - name: FinalFrontier
+  - name: KerbalHealth
+  - name: Grannus-RibbonPack
+suggests:
+  - name: GPP
+  - name: GrannusExpansionPack-Primary
+  - name: GrannusExpansionPack-Rescale
+  - name: GrannusExpansionPack-CommNet
+install:
+  - file: GameData/GEP
+    install_to: GameData
+  - find: GameData/Nereid
+    install_to: GameData
+    filter:
+      - Grannus
