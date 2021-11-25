@@ -1,4 +1,4 @@
-spec_version: v1.4
+spec_version: v1.18
 identifier: ShipManifest
 name: Ship Manifest
 abstract: Manages Crew, Science, & Resources on a given vessel
@@ -24,3 +24,12 @@ suggests:
   - name: DeepFreeze
   - name: RemoteTech
   - name: ModuleManager
+install:
+  - find: ShipManifest
+    install_to: GameData
+    filter:
+      - CLSInterfaces.dll
+  - find: CLSInterfaces.dll
+    find_matches_files: true
+    install_to: GameData/ShipManifest/Plugins
+    as: SM_CLSInterface.dll
