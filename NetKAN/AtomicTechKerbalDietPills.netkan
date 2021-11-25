@@ -7,5 +7,5 @@ tags:
 depends:
   - name: ModuleManager
 install:
-  - file: .
+  - find: ''
     install_to: GameData/AtomicTechDietPills
