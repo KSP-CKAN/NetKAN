@@ -8,6 +8,10 @@ license: CC-BY-NC-SA-4.0
 tags:
   - config
   - graphics
+provides:
+  - EnvironmentalVisualEnhancements-Config
+conflicts:
+  - name: EnvironmentalVisualEnhancements-Config
 depends:
   - name: ModuleManager
   - name: RealSolarSystem
