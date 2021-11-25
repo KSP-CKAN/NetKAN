@@ -32,4 +32,4 @@ install:
   - find: CLSInterfaces.dll
     find_matches_files: true
     install_to: GameData/ShipManifest/Plugins
-    as: SM_CLSInterfaces.dll
+    as: SM_CLSInterface.dll
