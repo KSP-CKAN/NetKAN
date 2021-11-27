@@ -17,6 +17,7 @@ depends:
   - name: RealSolarSystem
   - name: EnvironmentalVisualEnhancements
   - name: Scatterer
+    version: '3:v0.0632'
 install:
   - find: RVE
     install_to: GameData
