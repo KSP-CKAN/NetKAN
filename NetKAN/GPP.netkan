@@ -27,6 +27,8 @@ depends:
   - name: ModuleManager
 conflicts:
   - name: StockVisualEnhancements
+  - name: Scatterer
+    min_version: '3:v0.0825b'
 recommends:
   - name: Strategia
   - name: FinalFrontier

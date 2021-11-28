@@ -5,6 +5,8 @@ license: MIT
 tags:
   - config
   - planet-pack
+conflicts:
+  - name: MinorPlanetsExpansion
 depends:
   - name: ModuleManager
   - name: Kopernicus

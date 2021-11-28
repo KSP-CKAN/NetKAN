@@ -1,0 +1,14 @@
+spec_version: v1.4
+identifier: CashedowtEarthTUFXProfile
+$kref: '#/ckan/spacedock/2897'
+license: MIT
+tags:
+  - config
+  - graphics
+depends:
+  - name: TUFX
+supports:
+  - name: RealSolarSystem
+install:
+  - file: Cashedowt.cfg
+    install_to: GameData/CashedowtEarth
