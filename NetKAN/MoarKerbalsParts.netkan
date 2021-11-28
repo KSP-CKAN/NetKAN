@@ -13,3 +13,10 @@ recommends:
 install:
   - find: KerbthulhuKineticsProgram
     install_to: GameData
+supports:
+  - name: KerbalChangelog
+  - name: CommunityTechTree
+  - name: ConnectedLivingSpace
+  - name: TweakScale
+  - name: SimpleLife
+  - name: USI-LS
