@@ -6,10 +6,9 @@ license: CC-BY-NC-SA-4.0
 tags:
   - parts
   - crewed
-depends:
-  - name: ModuleManager
 recommends:
   - name: MoarKerbals
+  - name: ModuleManager
 install:
   - find: KerbthulhuKineticsProgram
     install_to: GameData
