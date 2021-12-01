@@ -8,6 +8,6 @@ tags:
 depends:
   - name: ModuleManager
 install:
-  - find_regexp: AtomicTech-Inc\.*
+  - find_regexp: AT-Junkyards-\.*
     install_to: GameData
     filter: .gitignore
