@@ -1,0 +1,13 @@
+spec_version: v1.4
+identifier: SimpleGasPlanetMaker
+$kref: '#/ckan/spacedock/2908'
+license: MIT
+tags:
+  - config
+  - planet-pack
+depends:
+  - name: ModuleManager
+  - name: Kopernicus
+install:
+  - find: WSGPM
+    install_to: GameData
