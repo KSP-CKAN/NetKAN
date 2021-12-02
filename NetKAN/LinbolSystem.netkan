@@ -2,4 +2,12 @@ spec_version: v1.4
 identifier: LinbolSystem
 $kref: '#/ckan/spacedock/2910'
 license: MIT
-x_via: Automated SpaceDock CKAN submission
+tags:
+  - config
+  - planet-pack
+depends:
+  - name: ModuleManager
+  - name: Kopernicus
+install:
+  - find: Linbol
+    install_to: GameData
