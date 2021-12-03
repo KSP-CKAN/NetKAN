@@ -2,4 +2,10 @@ spec_version: v1.4
 identifier: JxFabUtilitySystems
 $kref: '#/ckan/spacedock/2911'
 license: CC-BY-NC-SA
-x_via: Automated SpaceDock CKAN submission
+tags:
+  - parts
+depends:
+  - name: BreakingGround-DLC
+install:
+  - find: JxFab_UtilitySystems
+    install_to: GameData
