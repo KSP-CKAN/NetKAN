@@ -1,0 +1,10 @@
+spec_version: v1.4
+identifier: ballisticfoxslukewarmTUFX
+$kref: '#/ckan/spacedock/2913'
+license: CC-BY-NC-SA
+tags:
+- config
+install:
+- find: Fox's Profiles
+  install_to: GameData
+x_via: Automated SpaceDock CKAN submission
