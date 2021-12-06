@@ -1,8 +1,13 @@
-$kref: '#/ckan/spacedock/2919'
-depends:
-- {name: ModuleManager}
-identifier: OpenTree
-license: MIT
 spec_version: v1.4
-tags: [plugin, config]
-x_via: Automated SpaceDock CKAN submission
+identifier: OpenTree
+author:
+  - Oneiros
+  - sunnypunny
+$kref: '#/ckan/spacedock/2919'
+license: MIT
+tags:
+  - plugin
+  - config
+  - tech-tree
+depends:
+  - name: ModuleManager
