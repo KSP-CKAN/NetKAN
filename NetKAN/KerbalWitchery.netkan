@@ -1,0 +1,8 @@
+$kref: '#/ckan/spacedock/2917'
+depends:
+- {name: ModuleManager}
+identifier: KerbalWitchery
+license: MIT
+spec_version: v1.4
+tags: [plugin, config]
+x_via: Automated SpaceDock CKAN submission
