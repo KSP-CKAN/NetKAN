@@ -4,8 +4,7 @@
     "name":         "Less Real Than Real(ism)",
     "abstract":     "Real Progression One without RealismOverhaul",
     "$kref":        "#/ckan/github/pehvbot/LRTR",
-    "ksp_version_min": "1.8",
-    "ksp_version_max": "1.11",
+    "ksp_version_max": "1.12",
     "license":      "CC-BY-NC-SA-4.0",
     "resources": {
         "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/189978-*"
@@ -24,27 +23,23 @@
         "filter":     [ ".DS_Store" ]
     } ],
     "depends": [
-        { "name": "ModuleManager"          },
-        { "name": "RealSolarSystem"        },
-        { "name": "CustomBarnKit"          },
-        { "name": "RSSDateTimeFormatter"   },
-        { "name": "ContractConfigurator"   },
-        { "name": "DMagicScienceAnimate"   },
-        { "name": "KerbalConstructionTime" }
+        { "name": "ModuleManager"           },
+        { "name": "ClickThroughBlocker"     },
+        { "name": "CustomBarnKit"           },
+        { "name": "ContractConfigurator"    },
+        { "name": "DMagicScienceAnimate"    },
+        { "name": "MagiCore"                },
+        { "name": "ModularFlightIntegrator" }
     ],
     "recommends" : [
-        { "name": "ReStockPlus"            },
-        { "name": "KSCSwitcher"            },
-        { "name": "KerbalConstructionTime" },
-        { "name": "LessRealKerbalism"      }
+        { "name": "ReStockPlus"       },
+        { "name": "RealSolarSystem"   },
+        { "name": "LessRealKerbalism" }
     ],
     "suggests": [
-        { "name": "KerbalAlarmClock" },
-        { "name": "KRASH"            },
-        { "name": "ScrapYard"        },
-        { "name": "OhScrap"          }
     ],
     "conflicts": [
-        { "name": "RealismOverhaul" }
+        { "name": "KerbalConstructionTime" },
+        { "name": "RealismOverhaul"        }
     ]
 }
