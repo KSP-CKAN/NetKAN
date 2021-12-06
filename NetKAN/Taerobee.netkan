@@ -1,0 +1,9 @@
+$kref: '#/ckan/spacedock/2915'
+$vref: '#/ckan/ksp-avc'
+depends:
+- {name: ModuleManager}
+identifier: Taerobee
+license: CC-BY-ND-3.0-Unported
+spec_version: v1.4
+tags: [parts]
+x_via: Automated SpaceDock CKAN submission
