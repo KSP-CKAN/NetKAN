@@ -5,3 +5,6 @@ license: MIT
 tags:
   - plugin
   - crewed
+  - career
+recommends:
+  - name: FacilityTree
