@@ -5,5 +5,16 @@ license: MIT
 tags:
   - plugin
   - config
+  - parts
+  - physics
+  - science
 depends:
   - name: ModuleManager
+recommends:
+  - name: FacilityTree
+suggests:
+  - name: FMRS
+  - name: StageRecovery
+conflicts:
+  - name: MandatoryRCS
+  - name: BetterSRBs
