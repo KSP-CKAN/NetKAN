@@ -1,19 +1,16 @@
 spec_version: v1.4
 identifier: Taerobee
 $kref: '#/ckan/spacedock/2915'
-license: CC-BY-ND-3.0
-name: Taerobee - Stockalike X-1 & More
-abstract: Stockalike Historic (Pre-Sputnik) Rocket and Aircraft Parts.
-ksp_version: any
+$vref: '#/ckan/ksp-avc'
 x_netkan_version_edit: ^[vV]?(?<version>.+)$
-x_netkan_epoch: '1'
-resources:
-  homepage: http://forum.kerbalspaceprogram.com/index.php?/topic/205846--*
-install:
-  - find: Taerobee
-    install_to: GameData
+x_netkan_epoch: 1
+license: CC-BY-ND-3.0
+tags:
+  - parts
+depends:
+  - name: ModuleManager
 x_netkan_override:
-  - version: '2.1'
+  - version: 2.1
     delete:
       - ksp_version
     override:
