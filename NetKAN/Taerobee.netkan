@@ -1,5 +1,8 @@
 spec_version: v1.4
 identifier: Taerobee
+author:
+  - Beale
+  - zer0Kerbal
 $kref: '#/ckan/spacedock/2915'
 $vref: '#/ckan/ksp-avc'
 x_netkan_version_edit: ^[vV]?(?<version>.+)$
@@ -7,6 +10,7 @@ x_netkan_epoch: 1
 license: CC-BY-ND-3.0
 tags:
   - parts
+  - crewed
 depends:
   - name: ModuleManager
 x_netkan_override:
