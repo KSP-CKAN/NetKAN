@@ -9,7 +9,7 @@ depends:
   - name: ModuleManager
   - name: B9PartSwitch
 install:
-  - find: GameData/MKS
+  - find: GameData/MKShuttle
     install_to: GameData
   - find: Ships/VAB
     install_to: Ships
