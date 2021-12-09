@@ -1,0 +1,10 @@
+spec_version: v1.4
+identifier: StratPlusPlus
+$kref: '#/ckan/spacedock/2921'
+license: MIT
+tags:
+  - config
+  - career
+install:
+  - find: Kontracts
+    install_to: GameData
