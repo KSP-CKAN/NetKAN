@@ -1,7 +1,7 @@
 spec_version: v1.4
 identifier: AtomicTechIncIntakeology
 $kref: '#/ckan/spacedock/2924'
-license: BSD-3-Clause-License
+license: BSD-3-clause
 tags:
   - config
 depends:
@@ -9,4 +9,3 @@ depends:
 install:
   - find: AtomicIntakeAir
     install_to: GameData
-x_via: Automated SpaceDock CKAN submission
