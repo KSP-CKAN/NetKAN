@@ -1,0 +1,8 @@
+spec_version: v1.4
+identifier: OrdinaryKonstruction
+$kref: '#/ckan/spacedock/2926'
+license: CC-BY-NC-SA-4.0
+tags:
+  - config
+depends:
+  - name: ModuleManager
