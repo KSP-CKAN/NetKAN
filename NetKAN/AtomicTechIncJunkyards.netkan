@@ -2,7 +2,7 @@ spec_version: v1.10
 identifier: AtomicTechIncJunkyards
 $kref: '#/ckan/spacedock/2891'
 $vref: '#/ckan/ksp-avc'
-license: MIT
+license: BSD-3-clause
 tags:
   - parts
 depends:
