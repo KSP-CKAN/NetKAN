@@ -1,0 +1,14 @@
+spec_version: v1.4
+identifier: WIPFOMALHAUTbyNotWatermelon
+$kref: '#/ckan/spacedock/2928'
+license: MIT
+tags:
+  - config
+  - planet-pack
+depends:
+  - name: ModuleManager
+  - name: Kopernicus
+install:
+  - find: Fomalhaut
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
