@@ -5,7 +5,9 @@ license: CC-BY-NC-SA
 $vref: '#/ckan/ksp-avc'
 tags:
   - config
+  - career
+depends:
+  - name: ContractConfigurator
 install:
   - find: ContractPacks
     install_to: GameData
-x_via: Automated SpaceDock CKAN submission
