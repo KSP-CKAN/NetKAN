@@ -1,5 +1,5 @@
 spec_version: v1.4
-identifier: KDSSdockingports
+identifier: KDSSDockingPorts
 $kref: '#/ckan/spacedock/2934'
 license: MIT
 tags:
@@ -9,4 +9,3 @@ depends:
 install:
   - find: KDSS
     install_to: GameData
-x_via: Automated SpaceDock CKAN submission
