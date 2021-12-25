@@ -1,0 +1,12 @@
+spec_version: v1.4
+identifier: KDSSdockingports
+$kref: '#/ckan/spacedock/2934'
+license: MIT
+tags:
+  - parts
+depends:
+  - name: ModuleManager
+install:
+  - find: KDSS
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
