@@ -10,7 +10,6 @@ tags:
 license: MIT
 depends:
   - name: ModuleManager
-  - name: CustomBarnKit
 recommends:
   - name: KerbalWitchery
   - name: KerbalHero
