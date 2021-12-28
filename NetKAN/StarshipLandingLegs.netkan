@@ -4,7 +4,8 @@ $kref: '#/ckan/spacedock/2937'
 license: MIT
 tags:
   - parts
+depends:
+  - name: ConformalDecals
 install:
-  - find: StarshipLegs
+  - find: GameData/StarshipLegs
     install_to: GameData
-x_via: Automated SpaceDock CKAN submission
