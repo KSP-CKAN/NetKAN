@@ -1,0 +1,10 @@
+spec_version: v1.4
+identifier: StarshipLandingLegs
+$kref: '#/ckan/spacedock/2937'
+license: MIT
+tags:
+  - parts
+install:
+  - find: StarshipLegs
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
