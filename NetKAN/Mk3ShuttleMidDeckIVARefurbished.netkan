@@ -4,9 +4,9 @@ $kref: '#/ckan/spacedock/2939'
 license: CC-BY-NC-SA
 tags:
   - config
+  - crewed
 depends:
   - name: ModuleManager
 install:
   - find: ShuttleRevived
     install_to: GameData
-x_via: Automated SpaceDock CKAN submission
