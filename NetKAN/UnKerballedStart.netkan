@@ -1,135 +1,44 @@
-{
-    "spec_version": "v1.4",
-    "identifier": "UnKerballedStart",
-    "name": "UnKerballed Start",
-    "abstract": "An unmanned start tech tree structured around early probes and aircraft. Manned capsules become available as later tech.",
-    "author": [
-        "SpinkAkron",
-        "theoneGalen"
-    ],
-    "version": "1.3.0.0",
-    "ksp_version_min": "1.12.2",
-    "license": "CC-BY-NC-SA-4.0",
-    "resources": {
-        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/196589-*",
-        "remote-avc": "https://raw.githubusercontent.com/theonegalen/UnKerballedStart/master/UnKerballedStart.version"
-    },
-    "tags": [
-        "science",
-        "tech-tree",
-        "career"
-    ],
-    "localizations": [
-        "en-us"
-    ],
-    "depends": [
-        {
-            "name": "ModuleManager"
-        },
-        {
-            "name": "CommunityTechTree"
-        }
-    ],
-    "recommends": [
-        {
-            "name": "CustomBarnKit"
-        },
-        {
-            "name": "HideEmptyTechNodes"
-        },
-        {
-            "name": "EVARepairs"
-        },
-        {
-            "name": "Bureaucracy"
-        },
-        {
-            "name": "KerbalConstructionTime"
-        },
-        {
-            "name": "Strategia"
-        },
-        {
-            "name": "ContractConfigurator-PlanesWithPurposes"
-        },
-        {
-            "name": "ContractConfigurator-ExplorationPlus"
-        },
-        {
-            "name": "ContractConfigurator-CareerEvolution"
-        },
-        {
-            "name": "ResearchAdvancementDivision"
-        },
-        {
-            "name": "KerbinSideRemasteredGAP"
-        },
-        {
-            "name": "KerbinSideRemasteredGapExtras"
-        },
-        {
-            "name": "ContractConfigurator-JNSQ-GAP"
-        },
-        {
-            "name": "JNSQ-KSRGAP"
-        }
-    ],
-    "conflicts": [
-        {
-            "name": "BetterEarlyTree"
-        },
-        {
-            "name": "BreakingGroundPropellerRebalance"
-        },
-        {
-            "name": "CrusoeSpaceIndustriesTechTree"
-        },
-        {
-            "name": "CTTStockRebalance"
-        },
-        {
-            "name": "ETT"
-        },
-        {
-            "name": "FacilityTree"
-        },
-        {
-            "name": "ImprovedTreeEnginePlacement"
-        },
-        {
-            "name": "KiwiTechTree"
-        },
-        {
-            "name": "LessRealThanReal"
-        },
-        {
-            "name": "OpenTree"
-        },
-        {
-            "name": "ProbesBeforeCrew"
-        },
-        {
-            "name": "SimplexTechTree"
-        },
-        {
-            "name": "TechTreeKompacted"
-        },
-        {
-            "name": "TETRIXTechTree"
-        }
-    ],
-    "install": [
-        {
-            "find": "UnKerballedStart",
-            "install_to": "GameData"
-        }
-    ],
-    "download": "https://github.com/theonegalen/UnKerballedStart/releases/download/v1.3.0/UnKerballedStart-1.3.0.zip",
-    "download_size": 183043,
-    "download_hash": {
-        "sha1": "A1BD4F387040DF8AE92658FA93B8801A2C940CD9",
-        "sha256": "7F4BE539A6D5123411A84B65AECAEDD91C586286AF7A3CC714763140D938A690"
-    },
-    "download_content_type": "application/zip",
-    "x_generated_by": "netkan"
-}
+spec_version: v1.4
+identifier: UnKerballedStart
+$kref: '#/ckan/spacedock/2074'
+$vref: '#/ckan/ksp-avc'
+x_netkan_allow_out_of_order: true
+license: CC-BY-NC-SA-4.0
+tags:
+  - config
+  - tech-tree
+  - science
+  - career
+depends:
+  - name: ModuleManager
+  - name: CommunityTechTree
+recommends:
+  - name: CustomBarnKit
+  - name: HideEmptyTechNodes
+  - name: EVARepairs
+  - name: Bureaucracy
+  - name: KerbalConstructionTime
+  - name: Strategia
+  - name: ContractConfigurator-PlanesWithPurposes
+  - name: ContractConfigurator-ExplorationPlus
+  - name: ContractConfigurator-CareerEvolution
+  - name: ResearchAdvancementDivision
+  - name: KerbinSideRemasteredGAP
+  - name: KerbinSideRemasteredGapExtras
+  - name: ContractConfigurator-JNSQ-GAP
+  - name: JNSQ-KSRGAP
+conflicts:
+  - name: BetterEarlyTree
+  - name: BreakingGroundPropellerRebalance
+  - name: CrusoeSpaceIndustriesTechTree
+  - name: CTTStockRebalance
+  - name: ETT
+  - name: FacilityTree
+  - name: ImprovedTreeEnginePlacement
+  - name: KiwiTechTree
+  - name: LessRealThanReal
+  - name: OpenTree
+  - name: ProbesBeforeCrew
+  - name: SimplexTechTree
+  - name: TechTreeKompacted
+  - name: TETRIXTechTree
