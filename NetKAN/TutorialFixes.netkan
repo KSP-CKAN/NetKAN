@@ -4,7 +4,6 @@ $kref: '#/ckan/spacedock/2940'
 license: CC-BY-SA
 $vref: '#/ckan/ksp-avc'
 tags:
-  - plugin
   - config
 depends:
   - name: ModuleManager
