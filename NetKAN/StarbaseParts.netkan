@@ -1,4 +1,4 @@
-spec_version: v1.4
+spec_version: v1.10
 identifier: StarbaseParts
 $kref: '#/ckan/spacedock/2942'
 license: restricted
@@ -10,5 +10,5 @@ depends:
 recommends:
   - name: StarshipLaunchExpansion
 install:
-  - find: StarBase Parts v3.0
+  - find_regexp: StarBase Parts.*
     install_to: GameData
