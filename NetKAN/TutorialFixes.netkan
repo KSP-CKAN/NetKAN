@@ -8,4 +8,8 @@ tags:
   - config
 depends:
   - name: ModuleManager
-x_via: Automated SpaceDock CKAN submission
+install:
+  - find: TutorialFixes
+    install_to: GameData
+  - find: Ships/VAB
+    install_to: Ships
