@@ -1,0 +1,14 @@
+spec_version: v1.4
+identifier: SpaceXLandingPads1101
+$kref: '#/ckan/spacedock/2941'
+license: MIT
+tags:
+  - config
+  - buildings
+depends:
+  - name: ModuleManager
+  - name: KerbalKonstructs
+install:
+  - find: Fossil Industries
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
