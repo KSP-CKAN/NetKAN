@@ -1,8 +1,8 @@
 spec_version: v1.4
 identifier: TutorialFixes
 $kref: '#/ckan/spacedock/2940'
-license: CC-BY-SA
 $vref: '#/ckan/ksp-avc'
+license: CC-BY-SA
 tags:
   - config
 depends:
