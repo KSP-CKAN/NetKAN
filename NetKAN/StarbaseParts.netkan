@@ -1,13 +1,14 @@
 spec_version: v1.4
 identifier: StarbaseParts
 $kref: '#/ckan/spacedock/2942'
-license: CC-BY-NC-SA
+license: restricted
 tags:
   - config
   - buildings
 depends:
   - name: KerbalKonstructs
+recommends:
+  - name: StarshipLaunchExpansion
 install:
   - find: StarBase Parts v3.0
     install_to: GameData
-x_via: Automated SpaceDock CKAN submission
