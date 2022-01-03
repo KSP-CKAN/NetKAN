@@ -1,38 +1,32 @@
-{
-    "spec_version": "v1.4",
-    "identifier":   "AirlineKuisine",
-    "$kref":        "#/ckan/spacedock/1252",
-    "$vref":        "#/ckan/ksp-avc",
-    "license":      "CC-BY-NC-SA-4.0",
-    "tags": [
-        "parts",
-        "crewed"
-    ],
-    "depends": [
-        { "name": "ModuleManager" },
-        { "name": "DeepSkyCore"   },
-        { "name": "B9PartSwitch"  }
-    ],
-    "suggests": [
-        { "name": "Mk2Expansion" },
-        { "name": "Mk3Expansion" }
-    ],
-    "supports": [
-        { "name": "ClassicStockResources" },
-        { "name": "CommunityResourcePack" },
-        { "name": "CommunityTechTree"     },
-        { "name": "ConnectedLivingSpace"  },
-        { "name": "Kerbalism"             },
-        { "name": "KIS"                   },
-        { "name": "Pathfinder"            },
-        { "name": "Snacks"                },
-        { "name": "TacLifeSupport"        },
-        { "name": "USI-LS"                },
-        { "name": "WildBlueTools"         }
-    ],
-    "install": [ {
-        "find":          "DeepSky",
-        "install_to":    "GameData",
-        "filter_regexp": [ ".*\\.pdb$" ]
-    } ]
-}
+spec_version: v1.10
+identifier: AirlineKuisine
+$kref: '#/ckan/spacedock/1252'
+$vref: '#/ckan/ksp-avc'
+license: CC-BY-NC-SA-4.0
+tags:
+  - parts
+  - crewed
+depends:
+  - name: ModuleManager
+  - name: DeepSkyCore
+  - name: B9PartSwitch
+suggests:
+  - name: Mk2Expansion
+  - name: Mk3Expansion
+supports:
+  - name: ClassicStockResources
+  - name: CommunityResourcePack
+  - name: CommunityTechTree
+  - name: ConnectedLivingSpace
+  - name: Kerbalism
+  - name: KIS
+  - name: Pathfinder
+  - name: Snacks
+  - name: TacLifeSupport
+  - name: USI-LS
+  - name: WildBlueTools
+install:
+  - find: DeepSky
+    install_to: GameData
+    filter_regexp:
+      - .*\.pdb$

@@ -1,67 +1,47 @@
-{
-    "spec_version": "v1.4",
-    "identifier":   "CustomAsteroids-Pops-OPM-Outer",
-    "name":         "Custom Asteroids (Kuiper belt analog for OPM)",
-    "abstract":     "Adds Kentaurs and trans-Neidonian objects",
-    "$kref":        "#/ckan/github/Starstrider42/Custom-Asteroids-Extras",
-    "x_netkan_github": {
-        "use_source_archive": true
-    },
-    "ksp_version_min": "1.10.0",
-    "license": "MIT",
-    "resources": {
-        "bugtracker": "https://github.com/Starstrider42/Custom-Asteroids-Extras/issues",
-        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/72785-*"
-    },
-    "tags": [
-        "config",
-        "planet-pack"
-    ],
-    "depends": [
-        { "name": "ModuleManager" },
-        { "name": "OuterPlanetsMod" },
-        {
-            "name": "CustomAsteroids",
-            "min_version": "v1.9.0",
-            "max_version": "v1.99.99",
-            "comment": "Requires comet support."
-        }
-    ],
-    "recommends": [
-        {
-            "name": "CustomAsteroids-Pops-Stock-Stockalike",
-            "min_version": "v1.9.0",
-            "max_version": "v1.99.99",
-            "comment": "Depends on Stockalike for standard comets."
-        }
-    ],
-    "provides": [ "CustomAsteroids-Pops" ],
-    "install": [
-        {
-            "find": "config",
-            "install_to": "GameData/CustomAsteroids",
-            "filter_regexp": "(?<!Trans-Neidon\\.cfg)$"
-        }
-    ],
-    "x_netkan_override" : [
-        {
-            "version" : "< v1.2.0",
-            "override" : {
-                "depends": [
-                    {
-                        "name": "OuterPlanetsMod"
-                    },
-                    {
-                        "name": "CustomAsteroids",
-                        "min_version": "v1.6.0",
-                        "max_version": "v1.99.99"
-                    }
-                ],
-                "comment": "Match to Custom Asteroids v1.9.0, see NetKAN#3841.",
-                "ksp_version_min": "1.4.0"
-            },
-            "delete" : [ "ksp_version", "recommends" ]
-        }
-    ],
-    "x_maintained_by": "Starstrider42"
-}
+spec_version: v1.10
+identifier: CustomAsteroids-Pops-OPM-Outer
+name: Custom Asteroids (Kuiper belt analog for OPM)
+abstract: Adds Kentaurs and trans-Neidonian objects
+$kref: '#/ckan/github/Starstrider42/Custom-Asteroids-Extras'
+x_netkan_github:
+  use_source_archive: true
+ksp_version_min: 1.10.0
+license: MIT
+resources:
+  bugtracker: https://github.com/Starstrider42/Custom-Asteroids-Extras/issues
+  homepage: https://forum.kerbalspaceprogram.com/index.php?/topic/72785-*
+tags:
+  - config
+  - planet-pack
+depends:
+  - name: ModuleManager
+  - name: OuterPlanetsMod
+  - name: CustomAsteroids
+    min_version: v1.9.0
+    max_version: v1.99.99
+    comment: Requires comet support.
+recommends:
+  - name: CustomAsteroids-Pops-Stock-Stockalike
+    min_version: v1.9.0
+    max_version: v1.99.99
+    comment: Depends on Stockalike for standard comets.
+provides:
+  - CustomAsteroids-Pops
+install:
+  - find: config
+    install_to: GameData/CustomAsteroids
+    filter_regexp: (?<!Trans-Neidon\.cfg)$
+x_netkan_override:
+  - version: < v1.2.0
+    override:
+      depends:
+        - name: OuterPlanetsMod
+        - name: CustomAsteroids
+          min_version: v1.6.0
+          max_version: v1.99.99
+      comment: Match to Custom Asteroids v1.9.0, see NetKAN#3841.
+      ksp_version_min: 1.4.0
+    delete:
+      - ksp_version
+      - recommends
+x_maintained_by: Starstrider42
