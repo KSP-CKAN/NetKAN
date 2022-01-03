@@ -1,21 +1,18 @@
-{
-    "spec_version": "v1.4",
-    "identifier":   "KSP-PartVolume",
-    "$kref":        "#/ckan/spacedock/2672",
-    "$vref":        "#/ckan/ksp-avc",
-    "license":      "CC-BY-NC-SA-4.0",
-    "depends": [
-        { "name": "ModuleManager"       },
-        { "name": "ClickThroughBlocker" },
-        { "name": "SpaceTuxLibrary"     }
-    ],
-    "tags": [
-        "plugin",
-        "physics"
-    ],
-    "install": [ {
-        "find":          "KSP_PartVolume",
-        "install_to":    "GameData",
-        "filter_regexp": [ ".*~$", ".*\\.pdb$" ]
-    } ]
-}
+spec_version: v1.10
+identifier: KSP-PartVolume
+$kref: '#/ckan/spacedock/2672'
+$vref: '#/ckan/ksp-avc'
+license: CC-BY-NC-SA-4.0
+depends:
+  - name: ModuleManager
+  - name: ClickThroughBlocker
+  - name: SpaceTuxLibrary
+tags:
+  - plugin
+  - physics
+install:
+  - find: KSP_PartVolume
+    install_to: GameData
+    filter_regexp:
+      - .*~$
+      - .*\.pdb$

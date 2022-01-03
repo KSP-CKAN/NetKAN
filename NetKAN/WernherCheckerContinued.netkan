@@ -1,22 +1,18 @@
-{
-    "spec_version": "v1.4",
-    "identifier":   "WernherCheckerContinued",
-    "$kref":        "#/ckan/spacedock/1237",
-    "$vref":        "#/ckan/ksp-avc",
-    "license":      "MIT",
-    "tags": [
-        "plugin",
-        "editor",
-        "information"
-    ],
-    "install": [ {
-        "filter_regexp": [ ".*~$" ],
-        "find": "WernherChecker",
-        "install_to": "GameData"
-    } ],
-    "depends": [
-        { "name" : "ToolbarController" },
-        { "name" : "ClickThroughBlocker" },
-        { "name" : "SpaceTuxLibrary" }
-    ]
-}
+spec_version: v1.10
+identifier: WernherCheckerContinued
+$kref: '#/ckan/spacedock/1237'
+$vref: '#/ckan/ksp-avc'
+license: MIT
+tags:
+  - plugin
+  - editor
+  - information
+install:
+  - filter_regexp:
+      - .*~$
+    find: WernherChecker
+    install_to: GameData
+depends:
+  - name: ToolbarController
+  - name: ClickThroughBlocker
+  - name: SpaceTuxLibrary
