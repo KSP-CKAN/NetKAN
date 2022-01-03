@@ -18,7 +18,7 @@ depends:
   - name: ModuleManager
 install:
   - find: WildBlueIndustries/KerbalKomets/Templates/CRP/MM_PotatoRoid.txt
-    install_to: GameData/WildBlueIndustries/KerbalKomets/Templates
+    install_to: GameData/WildBlueIndustries/KerbalKomets/Templates/CRP
     as: MM_PotatoRoid.cfg
     find_matches_files: true
   - find: WildBlueIndustries/KerbalKomets/Templates/CRP.cfg

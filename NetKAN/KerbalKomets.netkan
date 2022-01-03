@@ -7,7 +7,6 @@ tags:
   - plugin
   - planet-pack
 depends:
-  - name: ModuleManager
   - name: KerbalKomets-PlayMode
 install:
   - find: WildBlueIndustries
