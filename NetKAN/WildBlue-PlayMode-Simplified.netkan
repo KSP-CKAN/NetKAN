@@ -1,37 +1,33 @@
-{
-    "spec_version": "v1.18",
-    "identifier":   "WildBlue-PlayMode-Simplified",
-    "name":         "WildBlueIndustries Simplified Play Mode",
-    "abstract":     "Lite Blue reduces the number available templates and resources used. This is great for players new to Pathfinder and other WildBlue mods or for those that don't want a lot of complexity.",
-    "author":       "Angel-125",
-    "$kref":        "#/ckan/github/Angel-125/WildBlueTools",
-    "$vref":        "#/ckan/ksp-avc/WildBlueTools.version",
-    "x_netkan_staging": true,
-    "x_netkan_staging_reason": "Make sure that all .txt files for this play mode are installed as .cfg",
-    "license":      "GPL-3.0",
-    "tags": [
-        "config"
-    ],
-    "depends": [
-        { "name": "WildBlueTools" }
-    ],
-    "provides": [
-        "WildBlue-PlayMode",
-        "Buffalo-PlayMode",
-        "DSEV-PlayMode",
-        "MOLE-PlayMode"
-    ],
-    "conflicts": [
-        { "name": "WildBlue-PlayMode" }
-    ],
-    "install": [ {
-        "find":       "000WildBlueTools/Templates/Simplified/Storage/OmniStorage.txt",
-        "install_to": "GameData/WildBlueIndustries/000WildBlueTools/Templates/Simplified/Storage",
-        "as":         "OmniStorage.cfg",
-        "find_matches_file": true
-    }, {
-        "find":       "000WildBlueTools/Templates/Simplified.cfg",
-        "install_to": "GameData/WildBlueIndustries/000WildBlueTools/Templates",
-        "find_matches_files": true
-    } ]
-}
+spec_version: v1.18
+identifier: WildBlue-PlayMode-Simplified
+name: WildBlueIndustries Simplified Play Mode
+abstract: >-
+  Lite Blue reduces the number available templates and resources used. This is
+  great for players new to Pathfinder and other WildBlue mods or for those that
+  don't want a lot of complexity.
+author: Angel-125
+$kref: '#/ckan/github/Angel-125/WildBlueTools'
+$vref: '#/ckan/ksp-avc/WildBlueTools.version'
+x_netkan_staging: true
+x_netkan_staging_reason: Make sure that all .txt files for this play mode are installed as .cfg
+license: GPL-3.0
+tags:
+  - config
+depends:
+  - name: WildBlueTools
+provides:
+  - WildBlue-PlayMode
+  - Buffalo-PlayMode
+  - DSEV-PlayMode
+  - MOLE-PlayMode
+  - KerbalKomets-PlayMode
+conflicts:
+  - name: WildBlue-PlayMode
+install:
+  - find: 000WildBlueTools/Templates/Simplified/Storage/OmniStorage.txt
+    install_to: GameData/WildBlueIndustries/000WildBlueTools/Templates/Simplified/Storage
+    as: OmniStorage.cfg
+    find_matches_file: true
+  - find: 000WildBlueTools/Templates/Simplified.cfg
+    install_to: GameData/WildBlueIndustries/000WildBlueTools/Templates
+    find_matches_files: true
