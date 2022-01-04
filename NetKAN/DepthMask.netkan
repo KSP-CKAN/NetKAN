@@ -1,9 +1,10 @@
 spec_version: v1.16
-identifier: ModuleDepthMask
+identifier: DepthMask
 $kref: '#/ckan/spacedock/2943'
 license: CC-BY-SA
 tags:
   - plugin
+  - library
 install:
   - find: DepthMask.dll
     find_matches_files: true
