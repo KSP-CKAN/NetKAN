@@ -1,0 +1,13 @@
+spec_version: v1.4
+identifier: ModuleDepthMask
+$kref: '#/ckan/spacedock/2943'
+license: CC-BY-SA
+tags:
+  - plugin
+install:
+  - find: ''
+    install_to: GameData
+    filter:
+      - __MACOSX
+      - .DS_Store
+x_via: Automated SpaceDock CKAN submission
