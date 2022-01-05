@@ -10,9 +10,13 @@ conflicts:
   - name: CactEyeCommunity
 depends:
   - name: ModuleManager
-recommends:
-  - name: CactEyeCommunityDOEPatch
+  - name: ToolbarController
+  - name: ClickThroughBlocker
+  - name: SpaceTuxLibrary
   - name: DistantObject
+#recommends:
+#  - name: CactEyeCommunityDOEPatch
+#  - name: DistantObject
 install:
   - file: GameData/CactEye
     install_to: GameData
