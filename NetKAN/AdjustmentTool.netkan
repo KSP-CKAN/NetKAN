@@ -1,0 +1,9 @@
+spec_version: 1
+identifier: AdjustmentTool
+$kref: '#/ckan/github/ktchen14/AdjustmentTool'
+ksp_version_min: 1.12.2
+license: GPL-3.0
+tags:
+  - plugin
+  - editor
+  - convenience
