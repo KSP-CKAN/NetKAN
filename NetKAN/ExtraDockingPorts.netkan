@@ -1,7 +1,8 @@
 spec_version: v1.4
 identifier: ExtraDockingPorts
 name: Extra Docking Ports
-abstract: Adds a few new useful docking ports and some parachutes to go with them
+abstract: >-
+  Adds a few new useful docking ports and some parachutes to go with them
 $kref: '#/ckan/github/coldrifting/ExtraDockingPorts'
 ksp_version_min: 1.8.0
 ksp_version_max: 1.12.99
@@ -12,5 +13,5 @@ tags:
   - parts
 recommends:
   - name: ReStock
-suggests: 
+suggests:
   - name: ReStockPlus
