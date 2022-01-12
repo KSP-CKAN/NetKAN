@@ -19,6 +19,10 @@ install:
     filter_regexp: config\/.*
 x_netkan_override:
   - version:
+      - '>=3:v0.0829'
+    override:
+      ksp_version_min: '1.9'
+  - version:
       - '>=3:v0.0723'
       - '<3:v0.0824'
     override:
