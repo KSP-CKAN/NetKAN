@@ -5,6 +5,11 @@ license: MIT
 $vref: '#/ckan/ksp-avc'
 tags:
   - plugin
+depends:
+  - name: ToolbarController
+  - name: ClickThroughBlocker
+  - name: SpaceTuxLibrary
+  - name: ContractParser
 install:
   - find: SimpleContractDisplay
     install_to: GameData
