@@ -1,0 +1,12 @@
+spec_version: v1.4
+identifier: SimpleContractDisplay
+$kref: '#/ckan/spacedock/2948'
+license: MIT
+$vref: '#/ckan/ksp-avc'
+tags:
+  - plugin
+install:
+  - find: SimpleContractDisplay
+    install_to: GameData
+    filter_regexp: \.mdb$
+x_via: Automated SpaceDock CKAN submission
