@@ -15,12 +15,12 @@ install:
   - find: ModularLaunchPads
     install_to: GameData
     filter: 
-        - Saturn_Shuttle
-        - Soyuz_Base
+      - Saturn_Shuttle
+      - Soyuz_Base
   - find: Ships/VAB
     install_to: Ships
     include_only_regexp:
-        - Example
-        - Pad Bare
+      - Example
+      - Pad Bare
 conflicts:
   - name: ModularLaunchPads
