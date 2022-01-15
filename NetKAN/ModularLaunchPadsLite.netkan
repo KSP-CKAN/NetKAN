@@ -1,0 +1,30 @@
+spec_version: v1.24
+identifier: ModularLaunchPadsLite
+name: "AlphaMensae's Modular Launch Pads Lite"
+description: 'Only General Pads of the Modular Launch Pads'
+$kref: '#/ckan/spacedock/1767'
+license: CC-BY-NC-SA-4.0
+tags:
+  - parts
+depends:
+  - name: ModuleManager
+  - name: B9PartSwitch
+  - name: StagedAnimation
+  - name: CommunityCategoryKit
+install:
+  - find: ModularLaunchPads
+    install_to: GameData
+    filter: Saturn_Shuttle; Soyuz_Base
+  - find: Ships/VAB
+    install_to: Ships
+    include_only_regexp : Example; Saturn
+x_netkan_override:
+  - version: 2.1.2
+    override:
+      ksp_version_min: 1.10.1
+  - version: 2.1.4
+    override:
+      ksp_version_min: 1.11.1
+  - version: 2.2.0.b
+    override:
+      ksp_version_min: 1.8.1
