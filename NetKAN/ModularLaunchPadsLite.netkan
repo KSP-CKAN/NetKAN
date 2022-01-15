@@ -14,7 +14,7 @@ depends:
 install:
   - find: ModularLaunchPads
     install_to: GameData
-    filter: 
+    filter:
       - Saturn_Shuttle
       - Soyuz_Base
   - find: Ships/VAB
