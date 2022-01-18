@@ -1,36 +1,31 @@
-{
-    "spec_version": "v1.18",
-    "identifier":   "WildBlue-PlayMode-Pristine",
-    "name":         "WildBlueIndustries Pristine Play Mode",
-    "abstract":     "Pristine Mode removes all templates and converters. You'll have a number of nice looking parts for decorative base building.",
-    "author":       "Angel-125",
-    "$kref":        "#/ckan/github/Angel-125/WildBlueTools",
-    "$vref":        "#/ckan/ksp-avc/WildBlueTools.version",
-    "x_netkan_staging": true,
-    "x_netkan_staging_reason": "Make sure that all .txt files for this play mode are installed as .cfg",
-    "license":      "GPL-3.0",
-    "tags": [
-        "config"
-    ],
-    "depends": [
-        { "name": "WildBlueTools" },
-        { "name": "ModuleManager" }
-    ],
-    "provides": [
-        "WildBlue-PlayMode",
-        "Buffalo-PlayMode"
-    ],
-    "conflicts": [
-        { "name": "WildBlue-PlayMode" }
-    ],
-    "install": [ {
-        "find":       "000WildBlueTools/Templates/Pristine/MM_Pristine.txt",
-        "install_to": "GameData/WildBlueIndustries/000WildBlueTools/Templates/Pristine",
-        "as":         "MM_Pristine.cfg",
-        "find_matches_files": true
-    }, {
-        "find":       "000WildBlueTools/Templates/Pristine.cfg",
-        "install_to": "GameData/WildBlueIndustries/000WildBlueTools/Templates",
-        "find_matches_files": true
-    } ]
-}
+spec_version: v1.18
+identifier: WildBlue-PlayMode-Pristine
+name: WildBlueIndustries Pristine Play Mode
+abstract: >-
+  Pristine Mode removes all templates and converters. You'll have a number of
+  nice looking parts for decorative base building.
+author: Angel-125
+$kref: '#/ckan/github/Angel-125/WildBlueTools'
+$vref: '#/ckan/ksp-avc/WildBlueTools.version'
+x_netkan_staging: true
+x_netkan_staging_reason: Make sure that all .txt files for this play mode are installed as .cfg
+license: GPL-3.0
+tags:
+  - config
+depends:
+  - name: WildBlueTools
+  - name: ModuleManager
+provides:
+  - WildBlue-PlayMode
+  - Buffalo-PlayMode
+  - KerbalKomets-PlayMode
+conflicts:
+  - name: WildBlue-PlayMode
+install:
+  - find: 000WildBlueTools/Templates/Pristine/MM_Pristine.txt
+    install_to: GameData/WildBlueIndustries/000WildBlueTools/Templates/Pristine
+    as: MM_Pristine.cfg
+    find_matches_files: true
+  - find: 000WildBlueTools/Templates/Pristine.cfg
+    install_to: GameData/WildBlueIndustries/000WildBlueTools/Templates
+    find_matches_files: true

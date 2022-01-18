@@ -1,0 +1,20 @@
+spec_version: v1.4
+identifier: MoreServos
+$kref: '#/ckan/github/Angel-125/MoreServos'
+$vref: '#/ckan/ksp-avc'
+license: restricted
+resources:
+  homepage: https://forum.kerbalspaceprogram.com/index.php?/topic/186546-*
+tags:
+  - parts
+depends:
+  - name: BreakingGround-DLC
+  - name: ModuleManager
+recommends:
+  - name: ServoController
+install:
+  - find: MoreServos
+    install_to: GameData/WildBlueIndustries
+    filter: ships
+  - find: ships/VAB
+    install_to: Ships

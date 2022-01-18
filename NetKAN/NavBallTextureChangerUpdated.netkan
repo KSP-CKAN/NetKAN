@@ -1,34 +1,20 @@
-{
-  "license": "MIT",
-  "author": "linuxgurugamer",
-  "identifier": "NavBallTextureChangerUpdated",
-  "x_via": "Automated Linuxgurugamer CKAN script",
-  "$kref": "#/ckan/spacedock/2654",
-  "$vref": "#/ckan/ksp-avc",
-  "depends": [
-    {
-      "name": "ToolbarController"
-    },
-    {
-      "name": "ClickThroughBlocker"
-    },
-    {
-      "name": "SpaceTuxLibrary"
-    }
-  ],
-  "conflicts": [ { "name": "NavBallTextureExport" } ],
-  "tags": [
-    "plugin",
-    "graphics"
-  ],
-  "install": [
-    {
-      "find": "NavBallTextureChanger",
-      "install_to": "GameData",
-      "filter_regexp": [
-        ".*\\.pdb$"
-      ]
-    }
-  ],
-  "spec_version": "v1.4"
-}
+spec_version: v1.10
+identifier: NavBallTextureChangerUpdated
+$kref: '#/ckan/spacedock/2654'
+$vref: '#/ckan/ksp-avc'
+license: MIT
+author: linuxgurugamer
+depends:
+  - name: ToolbarController
+  - name: ClickThroughBlocker
+  - name: SpaceTuxLibrary
+conflicts:
+  - name: NavBallTextureExport
+tags:
+  - plugin
+  - graphics
+install:
+  - find: NavBallTextureChanger
+    install_to: GameData
+    filter_regexp:
+      - .*\.pdb$

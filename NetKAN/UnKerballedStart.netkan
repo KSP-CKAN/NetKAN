@@ -1,17 +1,51 @@
-{
-    "spec_version": "v1.4",
-    "identifier":   "UnKerballedStart",
-    "$kref":        "#/ckan/spacedock/2074",
-    "$vref":        "#/ckan/ksp-avc",
-    "x_netkan_allow_out_of_order": true,
-    "license":      "CC-BY-NC-SA-4.0",
-    "tags": [
-        "config",
-        "tech-tree"
-    ],
-    "depends": [
-        { "name": "ModuleManager"     },
-        { "name": "CustomBarnKit"     },
-        { "name": "CommunityTechTree" }
-    ]
-}
+spec_version: v1.4
+identifier: UnKerballedStart
+author:
+  - SpinkAkron
+  - theonegalen
+$kref: '#/ckan/github/theonegalen/UnKerballedStart'
+$vref: '#/ckan/ksp-avc'
+x_netkan_allow_out_of_order: true
+x_netkan_version_edit: ^[vV]?(?<version>.+)$
+license: CC-BY-NC-SA-4.0
+resources:
+  homepage: https://forum.kerbalspaceprogram.com/index.php?/topic/196589-*
+  spacedock: https://spacedock.info/mod/2074/UnKerballed%20Start
+tags:
+  - config
+  - tech-tree
+  - science
+  - career
+depends:
+  - name: ModuleManager
+  - name: CommunityTechTree
+recommends:
+  - name: CustomBarnKit
+  - name: HideEmptyTechNodes
+  - name: EVARepairs
+  - name: Bureaucracy
+  - name: KerbalConstructionTime
+  - name: Strategia
+  - name: ContractConfigurator-PlanesWithPurposes
+  - name: ContractConfigurator-ExplorationPlus
+  - name: ContractConfigurator-CareerEvolution
+  - name: ResearchAdvancementDivision
+  - name: KerbinSideRemasteredGAP
+  - name: KerbinSideRemasteredGapExtras
+  - name: ContractConfigurator-JNSQ-GAP
+  - name: JNSQ-KSRGAP
+conflicts:
+  - name: BetterEarlyTree
+  - name: BreakingGroundPropellerRebalance
+  - name: CrusoeSpaceIndustriesTechTree
+  - name: CTTStockRebalance
+  - name: ETT
+  - name: FacilityTree
+  - name: ImprovedTreeEnginePlacement
+  - name: KiwiTechTree
+  - name: LessRealThanReal
+  - name: OpenTree
+  - name: ProbesBeforeCrew
+  - name: SimplexTechTree
+  - name: TechTreeKompacted
+  - name: TETRIXTechTree

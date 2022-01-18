@@ -1,73 +1,72 @@
-{
-    "spec_version": 1,
-    "identifier":   "CustomAsteroids-Pops-Stock-Stockalike",
-    "name":         "Custom Asteroids (stockalike config)",
-    "abstract":     "Emulates stock asteroids with Custom Asteroids groups.",
-    "$kref":        "#/ckan/spacedock/210",
-    "$vref":        "#/ckan/ksp-avc",
-    "license":      "MIT",
-    "tags": [
-        "config",
-        "planet-pack"
-    ],
-    "depends": [
-        {
-            "name": "CustomAsteroids",
-            "min_version": "v1.9.0",
-            "max_version": "v1.99.99",
-            "comment": "Requires comet support."
-        }
-    ],
-    "provides": [ "CustomAsteroids-Pops" ],
-    "conflicts": [
-        { "name": "AlienSpaceProgram", "comment": "No Kerbin." },
-        { "name": "AlternisKerbolRekerjiggered", "comment": "Completely different system." },
-        { "name": "AlternisRealSolarSystem", "comment": "Completely different system."},
-        { "name": "Ktolemy", "comment": "Completely different system." },
-        { "name": "LittleGreenMenFromMars", "comment": "Completely different system." },
-        { "name": "NewHorizons", "comment": "Completely different system." },
-        { "name": "RealSolarSystem", "comment": "Completely different system."},
-        { "name": "SmallSolarSystem", "comment": "Completely different system."},
-        { "name": "StockAlikeSolarSystem", "comment": "Completely different system."},
-        { "name": "UnchartedLands", "comment": "Completely different system."}
-    ],
-    "install": [ {
-        "file": "GameData/CustomAsteroids",
-        "install_to": "GameData",
-        "filter_regexp": "(?<!Stockalike\\.cfg)$"
-    } ],
-    "x_netkan_override" : [
-        {
-            "version" : [ ">= v1.9.0", "< v2.0.0" ],
-            "override" : {
-                "comment": "Match to Custom Asteroids v1.9.0, see NetKAN#3841.",
-                "ksp_version_min": "1.10.0"
-            },
-            "delete" : [ "ksp_version" ]
-        },
-        {
-            "version" : [ ">= v1.6.0", "< v1.9.0" ],
-            "override" : {
-                "depends": [
-                    {
-                        "name": "CustomAsteroids",
-                        "min_version": "v1.6.0",
-                        "max_version": "v1.99.99"
-                    }
-                ],
-                "comment": "Match to Custom Asteroids v1.6.0, see NetKAN#3841.",
-                "ksp_version_min": "1.4.0"
-            },
-            "delete" : [ "ksp_version" ]
-        },
-        {
-            "version" : [ ">= v1.0.0", "< v1.6.0" ],
-            "override" : {
-                "comment": "Match to Custom Asteroids v1.3.0, see NetKAN#3841.",
-                "ksp_version_min": "1.1.0"
-            },
-            "delete" : [ "ksp_version" ]
-        }
-    ],
-    "x_maintained_by": "Starstrider42"
-}
+spec_version: v1.10
+identifier: CustomAsteroids-Pops-Stock-Stockalike
+name: Custom Asteroids (stockalike config)
+abstract: Emulates stock asteroids with Custom Asteroids groups.
+$kref: '#/ckan/spacedock/210'
+$vref: '#/ckan/ksp-avc'
+license: MIT
+tags:
+  - config
+  - planet-pack
+depends:
+  - name: CustomAsteroids
+    min_version: v1.9.0
+    max_version: v1.99.99
+    comment: Requires comet support.
+provides:
+  - CustomAsteroids-Pops
+conflicts:
+  - name: AlienSpaceProgram
+    comment: No Kerbin.
+  - name: AlternisKerbolRekerjiggered
+    comment: Completely different system.
+  - name: AlternisRealSolarSystem
+    comment: Completely different system.
+  - name: Ktolemy
+    comment: Completely different system.
+  - name: LittleGreenMenFromMars
+    comment: Completely different system.
+  - name: NewHorizons
+    comment: Completely different system.
+  - name: RealSolarSystem
+    comment: Completely different system.
+  - name: SmallSolarSystem
+    comment: Completely different system.
+  - name: StockAlikeSolarSystem
+    comment: Completely different system.
+  - name: UnchartedLands
+    comment: Completely different system.
+install:
+  - file: GameData/CustomAsteroids
+    install_to: GameData
+    filter_regexp: (?<!Stockalike\.cfg)$
+x_netkan_override:
+  - version:
+      - '>= v1.9.0'
+      - < v2.0.0
+    override:
+      comment: Match to Custom Asteroids v1.9.0, see NetKAN#3841.
+      ksp_version_min: 1.10.0
+    delete:
+      - ksp_version
+  - version:
+      - '>= v1.6.0'
+      - < v1.9.0
+    override:
+      depends:
+        - name: CustomAsteroids
+          min_version: v1.6.0
+          max_version: v1.99.99
+      comment: Match to Custom Asteroids v1.6.0, see NetKAN#3841.
+      ksp_version_min: 1.4.0
+    delete:
+      - ksp_version
+  - version:
+      - '>= v1.0.0'
+      - < v1.6.0
+    override:
+      comment: Match to Custom Asteroids v1.3.0, see NetKAN#3841.
+      ksp_version_min: 1.1.0
+    delete:
+      - ksp_version
+x_maintained_by: Starstrider42

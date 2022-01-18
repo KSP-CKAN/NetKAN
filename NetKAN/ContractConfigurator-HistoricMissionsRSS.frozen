@@ -11,6 +11,9 @@
         { "name": "ContractConfigurator", "min_version": "1.15.1" },
         { "name": "RealSolarSystem" }
     ],
+    "conflicts": [
+        { "name": "ContractConfigurator-HistoricMissions" }
+    ],
     "install": [
         {
             "find"       : "RSSVersion/ContractPacks/HistoricMissions",

@@ -8,5 +8,5 @@ tags:
 depends:
   - name: TUFX
 install:
-  - find: C1usta TUFX
+  - find: Adiri's TUFX Profiles
     install_to: GameData

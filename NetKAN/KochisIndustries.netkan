@@ -1,0 +1,15 @@
+spec_version: v1.10
+identifier: KochisIndustries
+$kref: '#/ckan/spacedock/2900'
+license: CC-BY-NC-SA
+tags:
+  - parts
+depends:
+  - name: B9PartSwitch
+install:
+  - find_regexp: Kochi.s stuff
+    install_to: GameData
+x_netkan_override:
+  - version: '>=1.2'
+    override:
+      ksp_version_min: 1.11

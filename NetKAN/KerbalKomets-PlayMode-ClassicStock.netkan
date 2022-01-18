@@ -1,0 +1,24 @@
+spec_version: v1.16
+identifier: KerbalKomets-PlayMode-ClassicStock
+name: KerbalKomets Classic Stock Play Mode
+$kref: '#/ckan/spacedock/1249'
+$vref: '#/ckan/ksp-avc'
+x_netkan_staging: true
+x_netkan_staging_reason: Make sure that all .txt files for this play mode are installed as .cfg
+license: GPL-3.0
+tags:
+  - config
+provides:
+  - KerbalKomets-PlayMode
+conflicts:
+  - name: KerbalKomets-PlayMode
+depends:
+  - name: KerbalKomets
+  - name: WildBlue-PlayMode-ClassicStock
+  - name: ModuleManager
+install:
+  - find: WildBlueIndustries/KerbalKomets/Templates/ClassicStock
+    install_to: GameData/WildBlueIndustries/KerbalKomets/Templates
+  - find: WildBlueIndustries/KerbalKomets/Templates/ClassicStock.cfg
+    install_to: GameData/WildBlueIndustries/KerbalKomets/Templates
+    find_matches_files: true
