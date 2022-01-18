@@ -9,10 +9,9 @@ tags:
 depends:
   - name: ModuleManager
   - name: CustomBarnKit
-recommends:
-  - name: KerbalChangelog
-conflicts:
+supports:
   - name: Strategia
+conflicts:
   - name: Bureaucracy
   - name: CustomBarnKit-RO
 install:
