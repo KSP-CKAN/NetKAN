@@ -1,0 +1,15 @@
+spec_version: v1.16
+identifier: AtomicTechKerbalizedNames
+$kref: '#/ckan/spacedock/2887'
+$vref: '#/ckan/ksp-avc'
+license: MIT
+tags:
+  - config
+  - crewed
+depends:
+  - name: ModuleManager
+  - name: KerbalRenamer
+install:
+  - find: AtomicTechKerbalizedNames.cfg
+    find_matches_files: true
+    install_to: GameData/AtomicTech

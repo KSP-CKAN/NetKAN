@@ -1,21 +1,17 @@
-{
-    "spec_version": "v1.4",
-    "identifier":   "KaptainsLog",
-    "$kref":        "#/ckan/spacedock/1523",
-    "$vref":        "#/ckan/ksp-avc/GameData/KaptainsLog/KaptainsLog.version",
-    "license":      "GPL-3.0",
-    "tags": [
-        "plugin",
-        "information"
-    ],
-    "install": [ {
-        "filter_regexp": [ ".*~$" ],
-        "find": "KaptainsLog",
-        "install_to": "GameData"
-    } ],
-    "depends" : [
-        { "name" : "ProgressParser" },
-        { "name" : "ToolbarController" },
-        { "name" : "ClickThroughBlocker" }
-    ]
-}
+spec_version: v1.10
+identifier: KaptainsLog
+$kref: '#/ckan/spacedock/1523'
+$vref: '#/ckan/ksp-avc/GameData/KaptainsLog/KaptainsLog.version'
+license: GPL-3.0
+tags:
+  - plugin
+  - information
+install:
+  - filter_regexp:
+      - .*~$
+    find: KaptainsLog
+    install_to: GameData
+depends:
+  - name: ProgressParser
+  - name: ToolbarController
+  - name: ClickThroughBlocker

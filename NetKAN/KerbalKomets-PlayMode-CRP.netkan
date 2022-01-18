@@ -1,0 +1,26 @@
+spec_version: v1.18
+identifier: KerbalKomets-PlayMode-CRP
+name: KerbalKomets CRP Play Mode
+$kref: '#/ckan/spacedock/1249'
+$vref: '#/ckan/ksp-avc'
+x_netkan_staging: true
+x_netkan_staging_reason: Make sure that all .txt files for this play mode are installed as .cfg
+license: GPL-3.0
+tags:
+  - config
+provides:
+  - KerbalKomets-PlayMode
+conflicts:
+  - name: KerbalKomets-PlayMode
+depends:
+  - name: KerbalKomets
+  - name: WildBlue-PlayMode-CRP
+  - name: ModuleManager
+install:
+  - find: WildBlueIndustries/KerbalKomets/Templates/CRP/MM_PotatoRoid.txt
+    install_to: GameData/WildBlueIndustries/KerbalKomets/Templates/CRP
+    as: MM_PotatoRoid.cfg
+    find_matches_files: true
+  - find: WildBlueIndustries/KerbalKomets/Templates/CRP.cfg
+    install_to: GameData/WildBlueIndustries/KerbalKomets/Templates
+    find_matches_files: true

@@ -1,0 +1,15 @@
+spec_version: v1.4
+identifier: FacilityTree
+$kref: '#/ckan/spacedock/2918'
+tags:
+  - plugin
+  - config
+  - tech-tree
+  - science
+  - career
+license: MIT
+depends:
+  - name: ModuleManager
+recommends:
+  - name: KerbalWitchery
+  - name: KerbalHero

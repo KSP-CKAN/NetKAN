@@ -1,0 +1,13 @@
+spec_version: v1.4
+identifier: GenericMoverPack
+$kref: '#/ckan/spacedock/2914'
+license: MIT
+tags:
+  - config
+  - planet-pack
+depends:
+  - name: ModuleManager
+  - name: Kopernicus
+install:
+  - find: WGMP
+    install_to: GameData

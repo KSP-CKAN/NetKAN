@@ -1,0 +1,23 @@
+spec_version: v1.4
+identifier: RVE64KContinued
+author:
+  - pingopete
+  - Cashedowt
+$kref: '#/ckan/spacedock/2902'
+license: CC-BY-NC-SA-4.0
+tags:
+  - config
+  - graphics
+provides:
+  - EnvironmentalVisualEnhancements-Config
+conflicts:
+  - name: EnvironmentalVisualEnhancements-Config
+depends:
+  - name: ModuleManager
+  - name: RealSolarSystem
+  - name: EnvironmentalVisualEnhancements
+  - name: Scatterer
+    version: '3:v0.0632'
+install:
+  - find: RVE
+    install_to: GameData

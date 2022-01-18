@@ -1,0 +1,12 @@
+spec_version: v1.4
+identifier: BallisticFoxsLukewarmTUFXProfile
+$kref: '#/ckan/spacedock/2913'
+license: CC-BY-NC-SA
+tags:
+  - config
+  - graphics
+depends:
+  - name: TUFX
+install:
+  - find: Fox's Profiles
+    install_to: GameData
