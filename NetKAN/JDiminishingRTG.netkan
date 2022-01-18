@@ -1,20 +1,18 @@
-{
-    "spec_version": "v1.4",
-    "identifier":   "JDiminishingRTG",
-    "$kref":        "#/ckan/spacedock/2096",
-    "$vref":        "#/ckan/ksp-avc",
-    "author":       [ "KwirkyJ", "linuxgurugamer" ],
-    "license":      "GPL-3.0",
-    "tags": [
-        "plugin",
-        "physics"
-    ],
-    "depends": [
-        { "name": "ModuleManager" }
-    ],
-    "install": [ {
-        "find": "JDiminishingRTG",
-        "install_to": "GameData",
-        "filter_regexp": [ "ModuleManager.*" ]
-    } ]
-}
+spec_version: v1.10
+identifier: JDiminishingRTG
+$kref: '#/ckan/spacedock/2096'
+$vref: '#/ckan/ksp-avc'
+author:
+  - KwirkyJ
+  - linuxgurugamer
+license: GPL-3.0
+tags:
+  - plugin
+  - physics
+depends:
+  - name: ModuleManager
+install:
+  - find: JDiminishingRTG
+    install_to: GameData
+    filter_regexp:
+      - ModuleManager.*

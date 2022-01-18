@@ -1,0 +1,12 @@
+spec_version: v1.4
+identifier: StreamlineEnginesRCSsandfueltanks
+$kref: '#/ckan/spacedock/1503'
+comment: Version file has a syntax error
+license: MIT
+tags:
+  - parts
+depends:
+  - name: ModuleManager
+install:
+  - find: StreamlineEnginesTanks
+    install_to: GameData

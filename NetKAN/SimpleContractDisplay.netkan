@@ -1,0 +1,17 @@
+spec_version: v1.10
+identifier: SimpleContractDisplay
+$kref: '#/ckan/spacedock/2948'
+license: MIT
+$vref: '#/ckan/ksp-avc'
+tags:
+  - plugin
+depends:
+  - name: ToolbarController
+  - name: ClickThroughBlocker
+  - name: SpaceTuxLibrary
+  - name: ContractParser
+install:
+  - find: SimpleContractDisplay
+    install_to: GameData
+    filter_regexp: \.mdb$
+x_via: Automated SpaceDock CKAN submission

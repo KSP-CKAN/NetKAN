@@ -1,53 +1,45 @@
-{
-    "spec_version": "v1.4",
-    "identifier":   "Heisenberg",
-    "$kref":        "#/ckan/github/Angel-125/Airships",
-    "$vref":        "#/ckan/ksp-avc/GameData/WildBlueIndustries/Heisenberg/Airships.version",
-    "x_netkan_staging": true,
-    "x_netkan_staging_reason": "Make sure that no new play modes were added to the Templates folder",
-    "license":      "restricted",
-    "resources": {
-        "homepage":   "https://forum.kerbalspaceprogram.com/index.php?/topic/150702-*",
-        "repository": "https://github.com/Angel-125/Airships"
-    },
-    "tags": [
-        "parts",
-        "plugin",
-        "crewed"
-    ],
-    "depends": [
-        { "name": "Heisenberg-PlayMode"  },
-        { "name": "ModuleManager"        },
-        { "name": "WildBlueTools"        },
-        { "name": "HooliganLabsAirships" },
-        { "name": "KerbalActuators"      },
-        { "name": "BarisBridge"          }
-    ],
-    "recommends": [
-        { "name": "AirParkContinued"           },
-        { "name": "ASETProps"                  },
-        { "name": "AircraftCarrierAccessories" }
-    ],
-    "suggests": [
-        { "name": "Pathfinder" },
-        { "name": "KIS"        },
-        { "name": "KAS"        },
-        { "name": "kOS"        },
-        { "name": "Snacks"     },
-        { "name": "TACLS"      }
-    ],
-    "install": [ {
-        "find":          "WildBlueIndustries/Heisenberg",
-        "install_to":    "GameData/WildBlueIndustries",
-        "filter_regexp": [ ".*\\.pdb$", "SampleCraft", "Templates" ]
-    }, {
-        "find":       "WildBlueIndustries/Heisenberg/Templates/Common",
-        "install_to": "GameData/WildBlueIndustries/Templates"
-    }, {
-        "find":       "VAB",
-        "install_to": "Ships"
-    }, {
-        "find":       "SPH",
-        "install_to": "Ships"
-    } ]
-}
+spec_version: v1.10
+identifier: Heisenberg
+$kref: '#/ckan/github/Angel-125/Airships'
+$vref: '#/ckan/ksp-avc/GameData/WildBlueIndustries/Heisenberg/Airships.version'
+x_netkan_staging: true
+x_netkan_staging_reason: Make sure that no new play modes were added to the Templates folder
+license: restricted
+resources:
+  homepage: https://forum.kerbalspaceprogram.com/index.php?/topic/150702-*
+  repository: https://github.com/Angel-125/Airships
+tags:
+  - parts
+  - plugin
+  - crewed
+depends:
+  - name: Heisenberg-PlayMode
+  - name: ModuleManager
+  - name: WildBlueTools
+  - name: HooliganLabsAirships
+  - name: KerbalActuators
+  - name: BarisBridge
+recommends:
+  - name: AirParkContinued
+  - name: ASETProps
+  - name: AircraftCarrierAccessories
+suggests:
+  - name: Pathfinder
+  - name: KIS
+  - name: KAS
+  - name: kOS
+  - name: Snacks
+  - name: TACLS
+install:
+  - find: WildBlueIndustries/Heisenberg
+    install_to: GameData/WildBlueIndustries
+    filter_regexp:
+      - .*\.pdb$
+      - SampleCraft
+      - Templates
+  - find: WildBlueIndustries/Heisenberg/Templates/Common
+    install_to: GameData/WildBlueIndustries/Templates
+  - find: VAB
+    install_to: Ships
+  - find: SPH
+    install_to: Ships
