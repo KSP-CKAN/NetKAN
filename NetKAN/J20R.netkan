@@ -3,8 +3,7 @@ identifier: J20R
 $kref: '#/ckan/spacedock/2955'
 license: MIT
 tags:
-  - config
+  - parts
 install:
   - find: LuhatOrbitalProducts
     install_to: GameData
-x_via: Automated SpaceDock CKAN submission
