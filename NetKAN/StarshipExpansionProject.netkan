@@ -9,3 +9,11 @@ tags:
 depends:
   - name: ModuleManager
   - name: B9PartSwitch
+  - name: Waterfall
+recommends:
+  - name: StarshipLaunchExpansion
+  - name: TundraExploration
+  - name: TexturesUnlimited
+  - name: ModularLaunchPads
+  - name: FMRS
+  - name: Trajectories
