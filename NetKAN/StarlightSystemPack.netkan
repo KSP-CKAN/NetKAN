@@ -1,0 +1,14 @@
+spec_version: v1.10
+identifier: StarlightSystemPack
+$kref: '#/ckan/spacedock/2956'
+license: CC-BY-NC-SA-4.0
+tags:
+  - config
+  - planet-pack
+depends:
+  - name: ModuleManager
+  - name: Kopernicus
+install:
+  - find: SSP
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
