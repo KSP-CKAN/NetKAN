@@ -1,15 +1,13 @@
-{
-    "spec_version": "v1.4",
-    "identifier":   "ProceduralFairings-ForEverything",
-    "$kref":        "#/ckan/netkan/https://raw.githubusercontent.com/KSP-RO/ProceduralFairings-ForEverything/master/ProceduralFairings-ForEverything.netkan",
-    "license":      "CC-BY-SA",
-    "tags": [
-        "parts"
-    ],
-    "x_netkan_override": [ {
-        "version": "v0.3.0",
-        "override": {
-            "ksp_version_max": "1.11"
-        }
-    } ]
-}
+spec_version: v1.4
+identifier: ProceduralFairings-ForEverything
+$kref: >-
+  #/ckan/netkan/https://raw.githubusercontent.com/KSP-RO/ProceduralFairings-ForEverything/master/ProceduralFairings-ForEverything.netkan
+license: CC-BY-SA
+resources:
+  remote-avc: https://github.com/KSP-RO/ProceduralFairings-ForEverything/raw/master/GameData/ProceduralFairings-ForEverything/ProceduralFairings-ForEverything.version
+tags:
+  - parts
+x_netkan_override:
+  - version: v0.3.0
+    override:
+      ksp_version_max: '1.11'

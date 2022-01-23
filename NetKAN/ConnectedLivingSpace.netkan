@@ -1,22 +1,23 @@
-{
-    "spec_version"      : "v1.4",
-    "identifier"        : "ConnectedLivingSpace",
-    "name"              : "Connected Living Space",
-    "abstract"          : "Identify and make use of living spaces that are connected to each other on a vessel.",
-    "author"            : [ "Codepoet", "Papa_Joe", "Micha" ],
-    "$kref"             : "#/ckan/github/codepoetpbowden/ConnectedLivingSpace",
-    "$vref"             : "#/ckan/ksp-avc",
-    "license"           : "CC-BY-NC-SA-4.0",
-    "resources"         : {
-        "homepage"      : "http://forum.kerbalspaceprogram.com/index.php?showtopic=192130",
-        "repository"    : "https://github.com/codepoetpbowden/ConnectedLivingSpace",
-        "bugtracker"    : "https://github.com/codepoetpbowden/ConnectedLivingSpace/issues"
-    },
-    "tags"              : [
-        "plugin",
-        "crewed"
-    ],
-    "depends"           : [
-        { "name"        : "ModuleManager" }
-    ]
-}
+spec_version: v1.4
+identifier: ConnectedLivingSpace
+name: Connected Living Space
+abstract: >-
+  Identify and make use of living spaces that are connected to each other on a
+  vessel.
+author:
+  - Codepoet
+  - Papa_Joe
+  - Micha
+$kref: '#/ckan/github/codepoetpbowden/ConnectedLivingSpace'
+$vref: '#/ckan/ksp-avc'
+license: CC-BY-NC-SA-4.0
+resources:
+  homepage: http://forum.kerbalspaceprogram.com/index.php?showtopic=192130
+  repository: https://github.com/codepoetpbowden/ConnectedLivingSpace
+  bugtracker: https://github.com/codepoetpbowden/ConnectedLivingSpace/issues
+  remote-avc: https://github.com/codepoetpbowden/ConnectedLivingSpace/raw/master/Distribution/GameData/ConnectedLivingSpace/ConnectedLivingSpace.version
+tags:
+  - plugin
+  - crewed
+depends:
+  - name: ModuleManager

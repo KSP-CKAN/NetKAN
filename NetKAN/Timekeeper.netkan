@@ -1,16 +1,13 @@
-{
-    "spec_version" : 1,
-    "identifier"   : "Timekeeper",
-    "abstract"     : "Counts orbits and sols for your vessels.",
-    "author"       : "Garwel",
-    "$kref"        : "#/ckan/github/GarwelGarwel/Timekeeper",
-    "$vref"        : "#/ckan/ksp-avc",
-    "license"      : "MIT",
-    "resources": {
-        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/178121-*"
-    },
-    "tags": [
-        "plugin",
-        "information"
-    ]
-}
+spec_version: 1
+identifier: Timekeeper
+abstract: Counts orbits and sols for your vessels.
+author: Garwel
+$kref: '#/ckan/github/GarwelGarwel/Timekeeper'
+$vref: '#/ckan/ksp-avc'
+license: MIT
+resources:
+  homepage: https://forum.kerbalspaceprogram.com/index.php?/topic/178121-*
+  remote-avc: https://github.com/GarwelGarwel/Timekeeper/raw/master/GameData/Timekeeper/Timekeeper.version
+tags:
+  - plugin
+  - information
