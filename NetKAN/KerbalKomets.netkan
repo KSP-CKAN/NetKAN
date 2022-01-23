@@ -2,6 +2,9 @@ spec_version: v1.10
 identifier: KerbalKomets
 $kref: '#/ckan/spacedock/1249'
 $vref: '#/ckan/ksp-avc'
+x_netkan_staging: true
+x_netkan_staging_reason: >-
+  Make sure that no new play modes were added to the Templates folder
 license: GPL-3.0
 resources:
   remote-avc: https://github.com/Angel-125/KerbalKomets/raw/master/GameData/WildBlueIndustries/KerbalKomets/KerbalKomets.version

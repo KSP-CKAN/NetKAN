@@ -4,7 +4,8 @@ name: KerbalKomets Classic Stock Play Mode
 $kref: '#/ckan/spacedock/1249'
 $vref: '#/ckan/ksp-avc'
 x_netkan_staging: true
-x_netkan_staging_reason: Make sure that all .txt files for this play mode are installed as .cfg
+x_netkan_staging_reason: >-
+  Make sure that all .txt files for this play mode are installed as .cfg
 license: GPL-3.0
 resources:
   remote-avc: https://github.com/Angel-125/KerbalKomets/raw/master/GameData/WildBlueIndustries/KerbalKomets/KerbalKomets.version
