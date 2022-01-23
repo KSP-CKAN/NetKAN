@@ -3,6 +3,8 @@ identifier: KerbalKomets
 $kref: '#/ckan/spacedock/1249'
 $vref: '#/ckan/ksp-avc'
 license: GPL-3.0
+resources:
+  remote-avc: https://github.com/Angel-125/KerbalKomets/raw/master/GameData/WildBlueIndustries/KerbalKomets/KerbalKomets.version
 tags:
   - plugin
   - planet-pack

@@ -5,6 +5,7 @@ $vref: '#/ckan/ksp-avc'
 license: restricted
 resources:
   homepage: https://forum.kerbalspaceprogram.com/index.php?/topic/186546-*
+  remote-avc: https://github.com/Angel-125/SLOTH/raw/master/GameData/WildBlueIndustries/SLOTH/Sloth.version
 tags:
   - parts
 depends:

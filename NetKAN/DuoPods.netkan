@@ -1,15 +1,15 @@
-{
-    "spec_version": "v1.4",
-    "identifier":   "DuoPods",
-    "author":       [ "dupods", "zer0Kerbal" ],
-    "$kref":        "#/ckan/spacedock/2357",
-    "$vref":        "#/ckan/ksp-avc",
-    "license":      "GPL-2.0",
-    "tags": [
-        "parts",
-        "crewed"
-    ],
-    "supports": [
-        { "name": "KerbalChangelog" }
-    ]
-}
+spec_version: v1.4
+identifier: DuoPods
+author:
+  - dupods
+  - zer0Kerbal
+$kref: '#/ckan/spacedock/2357'
+$vref: '#/ckan/ksp-avc'
+license: GPL-2.0
+resources:
+  remote-avc: https://github.com/zer0Kerbal/DuoPods/raw/main/DuoPods.version
+tags:
+  - parts
+  - crewed
+supports:
+  - name: KerbalChangelog
