@@ -4,6 +4,7 @@ $kref: '#/ckan/github/Angel-125/Sandcastle'
 $vref: '#/ckan/ksp-avc'
 license: restricted
 resources:
+  homepage: https://forum.kerbalspaceprogram.com/index.php?/topic/201137-*
   remote-avc: https://raw.githubusercontent.com/Angel-125/Sandcastle/main/ReleaseFolder/GameData/WildBlueIndustries/Sandcastle/Sandcastle.version
 tags:
   - plugin
