@@ -1,0 +1,10 @@
+spec_version: v1.10
+identifier: fishyweaponsFAMScontinued
+$kref: '#/ckan/spacedock/2817'
+license: CC-BY-SA-4.0
+tags:
+  - parts
+install:
+  - find: fishy weapons 1.2
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
