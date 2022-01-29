@@ -1,5 +1,5 @@
 spec_version: v1.10
-identifier: AdirisminimalTUFX
+identifier: AdirisMinimalTUFXProfile
 $kref: '#/ckan/spacedock/2962'
 license: CC-BY
 tags:
@@ -8,6 +8,5 @@ tags:
 depends:
   - name: TUFX
 install:
-  - find: ''
-    install_to: GameData
-x_via: Automated SpaceDock CKAN submission
+  - file: tufx.cfg
+    install_to: GameData/Adiri's TUFX Profiles
