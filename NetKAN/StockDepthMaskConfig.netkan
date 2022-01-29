@@ -1,0 +1,14 @@
+spec_version: v1.10
+identifier: StockDepthMaskConfig
+$kref: '#/ckan/spacedock/2963'
+license: MIT
+tags:
+  - config
+depends:
+  - name: ModuleManager
+  - name: DepthMask
+install:
+  - find_regexp: Stock_DepthMask_Config-[0-9.]+
+    install_to: GameData
+    filter:
+      - .gitattributes
