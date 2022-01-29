@@ -1,5 +1,5 @@
 spec_version: v1.10
-identifier: Stock_DepthMask_Config
+identifier: StockDepthMaskConfig
 $kref: '#/ckan/spacedock/2963'
 license: MIT
 tags:
@@ -9,4 +9,3 @@ depends:
 install:
   - find: Stock_DepthMask_Config-1.0
     install_to: GameData
-x_via: Automated SpaceDock CKAN submission
