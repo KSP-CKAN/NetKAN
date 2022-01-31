@@ -6,4 +6,6 @@ tags:
   - parts
 depends:
   - name: ModuleManager
-x_via: Automated SpaceDock CKAN submission
+install:
+  - find: LuhatOrbitalProducts
+    install_to: GameData
