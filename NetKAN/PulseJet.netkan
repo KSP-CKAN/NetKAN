@@ -1,0 +1,9 @@
+spec_version: v1.10
+identifier: PulseJet
+$kref: '#/ckan/spacedock/2965'
+license: MIT
+tags:
+  - parts
+depends:
+  - name: ModuleManager
+x_via: Automated SpaceDock CKAN submission
