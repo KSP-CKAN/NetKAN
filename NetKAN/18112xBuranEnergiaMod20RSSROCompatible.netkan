@@ -1,0 +1,13 @@
+spec_version: v1.10
+identifier: 18112xBuranEnergiaMod20RSSROCompatible
+$kref: '#/ckan/spacedock/2966'
+license: GPL-3.0
+tags:
+  - parts
+  - crewed
+depends:
+  - name: ModuleManager
+install:
+  - find: ''
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
