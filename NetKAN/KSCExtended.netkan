@@ -1,27 +1,23 @@
-{
-    "spec_version": "v1.4",
-    "identifier":   "KSCExtended",
-    "$kref":        "#/ckan/spacedock/2062",
-    "$vref":        "#/ckan/ksp-avc",
-    "license":      "MIT",
-    "tags": [
-        "config",
-        "buildings"
-    ],
-    "depends": [
-        { "name": "KerbalKonstructs"     },
-        { "name": "TundraSpaceCenter"    },
-        { "name": "StockalikeStructures" },
-        { "name": "ModuleManager"        }
-    ],
-    "conflicts": [
-        { "name": "GPP" }
-    ],
-    "recommends": [
-        { "name": "TundraExploration"                     },
-        { "name": "BluedogDB"                             },
-        { "name": "ShuttleLiftingBodyCormorantAeronology" },
-        { "name": "ModularLaunchPads"                     },
-        { "name": "KerbinSideRemastered"                  }
-    ]
-}
+spec_version: v1.4
+identifier: KSCExtended
+$kref: '#/ckan/spacedock/2062'
+$vref: '#/ckan/ksp-avc'
+license: MIT
+resources:
+  remote-avc: https://github.com/JadeOfMaar/KSC_Extended/raw/main/GameData/KSCExtended/Version/KSC_Extended.version
+tags:
+  - config
+  - buildings
+depends:
+  - name: KerbalKonstructs
+  - name: TundraSpaceCenter
+  - name: StockalikeStructures
+  - name: ModuleManager
+conflicts:
+  - name: GPP
+recommends:
+  - name: TundraExploration
+  - name: BluedogDB
+  - name: ShuttleLiftingBodyCormorantAeronology
+  - name: ModularLaunchPads
+  - name: KerbinSideRemastered
