@@ -1,9 +1,15 @@
 spec_version: v1.10
 identifier: ChickenAtomics
 $kref: '#/ckan/spacedock/2968'
-license: Other
+license: Apache-2.0
 tags:
   - config
 depends:
   - name: ModuleManager
-x_via: Automated SpaceDock CKAN submission
+  - name: CommunityResourcePack
+  - name: KerbalAtomics
+recommends:
+  - name: ProceduralParts
+  - name: RationalResources
+supports:
+  - name: SMURFF
