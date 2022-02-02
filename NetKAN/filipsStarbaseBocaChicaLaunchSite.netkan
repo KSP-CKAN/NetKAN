@@ -8,5 +8,5 @@ tags:
 depends:
   - name: KerbalKonstructs
 install:
-  - find: filip'sKerbalizedBocaChicaV3Beta
+  - find: filipKBC
     install_to: GameData
