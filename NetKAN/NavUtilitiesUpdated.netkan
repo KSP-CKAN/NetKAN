@@ -9,6 +9,9 @@ tags:
   - crewed
 depends:
   - name: ModuleManager
+  - name: ClickThroughBlocker
+  - name: ToolbarController
+  - name: SpaceTuxLibrary
 install:
   - find: NavInstruments
     install_to: GameData
