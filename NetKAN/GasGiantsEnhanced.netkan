@@ -10,4 +10,5 @@ depends:
   - name: Kopernicus
   - name: EnvironmentalVisualEnhancements
   - name: Scatterer
+recommends:
   - name: RealSolarSystem
