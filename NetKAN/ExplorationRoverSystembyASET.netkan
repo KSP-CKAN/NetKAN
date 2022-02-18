@@ -1,5 +1,5 @@
 spec_version: v1.10
-identifier: xplorationRoverSystembyASET
+identifier: ExplorationRoverSystembyASET
 $kref: '#/ckan/spacedock/2979'
 license: CC-BY-NC-SA
 $vref: '#/ckan/ksp-avc'
@@ -11,4 +11,3 @@ depends:
 install:
   - find: ASET
     install_to: GameData
-x_via: Automated SpaceDock CKAN submission
