@@ -20,3 +20,4 @@ recommends:
 install:
   - find: ASET
     install_to: GameData
+
