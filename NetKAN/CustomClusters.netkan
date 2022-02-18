@@ -1,0 +1,16 @@
+spec_version: v1.10
+identifier: CustomClusters
+$kref: '#/ckan/spacedock/2980'
+license: CC-BY-NC-ND
+tags:
+  - parts
+depends:
+  - name: ModuleManager
+  - name: InterstellarFuelSwitch
+recommends:
+  - name: KerbalJointReinforcement
+conflicts:
+  - name: CustomClusters-StockAdapterStandalone
+install:
+  - find: VanguardAstrodynamics
+    install_to: GameData
