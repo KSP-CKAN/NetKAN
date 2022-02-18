@@ -8,6 +8,14 @@ tags:
   - crewed
 depends:
   - name: ModuleManager
+  - name: JSIPartUtilities
+recommends:
+  - name: ASETProps
+  - name: RasterPropMonitor
+  - name: SCANsat
+  - name: UniversalStorage2
+  - name: VesselView
+  - name: DockingPortAlignmentIndicator
 install:
   - find: ASET
     install_to: GameData
