@@ -10,6 +10,7 @@ depends:
   - name: ModuleManager
   - name: JSIPartUtilities
 recommends:
+  - name: JSIAdvancedTransparentPods
   - name: ASETProps
   - name: RasterPropMonitor
   - name: SCANsat
