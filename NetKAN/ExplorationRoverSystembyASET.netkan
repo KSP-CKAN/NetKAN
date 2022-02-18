@@ -1,0 +1,21 @@
+spec_version: v1.10
+identifier: ExplorationRoverSystembyASET
+$kref: '#/ckan/spacedock/2979'
+license: CC-BY-NC-SA
+$vref: '#/ckan/ksp-avc'
+tags:
+  - parts
+  - crewed
+depends:
+  - name: ModuleManager
+  - name: JSIPartUtilities
+recommends:
+  - name: ASETProps
+  - name: RasterPropMonitor
+  - name: SCANsat
+  - name: UniversalStorage2
+  - name: VesselView
+  - name: DockingPortAlignmentIndicator
+install:
+  - find: ASET
+    install_to: GameData
