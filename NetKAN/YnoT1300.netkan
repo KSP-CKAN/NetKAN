@@ -11,7 +11,5 @@ install:
   - find: YnoT1300
     install_to: GameData
     filter_regexp: \.craft$
-  - file: GameData/YnoT1300
-    install_to: Ships
-    as: SPH
-x_via: Automated SpaceDock CKAN submission
+  - file: GameData/YnoT1300/MFalcon.craft
+    install_to: Ships/SPH
