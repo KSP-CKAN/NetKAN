@@ -6,7 +6,7 @@ tags:
   - parts
   - crewed
 depends:
-  - name: ModuleManager
+  - name: ModuleAnimateGenericEffects
 install:
   - find: YnoT1300
     install_to: GameData
