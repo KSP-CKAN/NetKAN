@@ -7,7 +7,10 @@ tags:
   - parts
 depends:
   - name: ModuleManager
+  - name: CommunityResourcePack
+suggests:
+  - name: Waterfall
+  - name: StockWaterfallEffects
 install:
-  - find: M.O.T.H.S.-v.0.0.1
+  - find: AtomicTech
     install_to: GameData
-x_via: Automated SpaceDock CKAN submission
