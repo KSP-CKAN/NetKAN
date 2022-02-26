@@ -1,0 +1,14 @@
+spec_version: v1.4
+identifier: PhotoRealisticVisualEnhancement-64k
+$kref: '#/ckan/github/SpaceODY/PRVE/asset_match/PRVE64k-[0-9.]+\.zip'
+ksp_version: 1.10.1
+license: CC-BY-NC-SA-4.0
+tags:
+  - config
+  - graphics
+depends:
+  - name: ModuleManager
+  - name: PhotoRealisticVisualEnhancement
+install:
+  - find: PRVE-64k
+    install_to: GameData

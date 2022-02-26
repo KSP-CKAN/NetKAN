@@ -12,6 +12,8 @@ conflicts:
   - name: EnvironmentalVisualEnhancements-Config
 depends:
   - name: ModuleManager
+  - name: Scatterer-config
+    version: 3:v0.0772
   - name: Scatterer
     version: 3:v0.0772
   - name: EnvironmentalVisualEnhancements
