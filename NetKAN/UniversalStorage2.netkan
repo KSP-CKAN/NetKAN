@@ -10,5 +10,21 @@
     "depends": [
         { "name": "ModuleManager"         },
         { "name": "CommunityResourcePack" }
-    ]
+    ],
+    "recommends": [
+        { "name": "DockingCamKURS" },
+        { "name": "KIS" },
+        { "name": "DMagicOrbitalScience" },
+        { "name": "ConnectedLivingSpace" }
+    ],
+    "supports": [
+        { "name": "kOS"         },
+        { "name": "Kerbalism"         },
+        { "name": "TacLifeSupport"         },
+        { "name": "IFILS"         },
+        { "name": "USILifeSupport"         },
+        { "name": "SnacksUtils"         },
+        { "name": "CryoTanks"         }
+    ],
+
 }
