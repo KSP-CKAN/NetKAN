@@ -21,3 +21,10 @@ suggests:
   - name: Mk1CockpitIVAReplbyASET
   - name: Mk1LanderCanIVAReplbyASET
   - name: MK12PodIVAReplacementbyASET
+supports:
+  - name: RasterPropMonitor
+  - name: DE-IVAExtension
+  - name: AvionicsSystems
+  - name: Mk1CockpitIVAReplbyASET
+  - name: Mk1LanderCanIVAReplbyASET
+  - name: MK12PodIVAReplacementbyASET
