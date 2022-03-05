@@ -1,0 +1,36 @@
+{
+    "spec_version"	: "v1.4",
+    "name"		: "Reviva",
+    "identifier"	: "Reviva",
+    "abstract"		: "Allows for dynamic switching between multiple IVAs in editor and in-flight.",
+    "resources"		: {
+	"homepage"		: "https://forum.kerbalspaceprogram.com/index.php?/topic/206744-wip112x-reviva-the-iva-revival-and-editorflight-switcher-071-pre-release-28th-feb-2022/",
+	"repository"		: "https://github.com/harveyt/reviva",
+	"bugtracker"		: "https://github.com/harveyt/reviva/issues"
+    },
+    "ksp_version_min"	: "1.12.2",
+    "ksp_version_max"	: "1.12.99",    
+    "license"		: "MIT",
+    "author"		: "610yesnolovely (Harvey Thompson)",
+    "$kref"		: "#/ckan/github/harveyt/reviva",
+    "depends": [
+	{ "name" : "B9PartSwitch" },
+	{ "name" : "ModuleManager" },
+	{ "name" : "RasterPropMonitor" }
+    ],
+    "recommends": [
+        { "name" : "DE-IVAExtension" }
+    ],
+    "suggests": [
+	{ "name" : "AvionicsSystems" },
+	{ "name" : "Mk1CockpitIVAReplbyASET" },
+	{ "name" : "Mk1LanderCanIVAReplbyASET" },
+	{ "name" : "MK12PodIVAReplacementbyASET" }
+    ],
+    "install": [
+        {
+	    "find" : "Reviva",
+	    "install_to" : "GameData"
+	}
+    ],
+}
