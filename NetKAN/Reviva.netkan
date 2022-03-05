@@ -4,8 +4,7 @@ name: Reviva
 abstract: Dynamic switching between multiple IVAs in editor and in-flight
 author: 610yesnolovely (Harvey Thompson)
 $kref: '#/ckan/github/harveyt/reviva'
-ksp_version_min: 1.12.2
-ksp_version_max: 1.12.99
+ksp_version: 1.12
 license: MIT
 tags:
   - plugin
