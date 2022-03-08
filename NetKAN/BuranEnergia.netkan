@@ -5,6 +5,10 @@ license: GPL-3.0
 tags:
   - parts
   - crewed
+depends:
+  - name: ModuleManager
 install:
-  - find: Buran Energia
+  - find: DECQ_ENERGIA
+    install_to: GameData
+  - find: Alcentar_Add-ons
     install_to: GameData
