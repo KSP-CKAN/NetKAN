@@ -27,8 +27,7 @@
         { "name": "AVP-Textures" }
     ],
     "recommends" : [
-        { "name": "KS3P" },
-        { "name": "TextureReplacer" }
+        { "name": "TUFX" }
     ],
     "suggests" : [
         { "name": "DistantObject" },
