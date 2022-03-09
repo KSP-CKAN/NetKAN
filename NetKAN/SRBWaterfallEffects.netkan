@@ -1,5 +1,5 @@
 spec_version: v1.18
-identifier: SRBWaterfallEffectsSWE
+identifier: SRBWaterfallEffects
 $kref: '#/ckan/spacedock/2992'
 license: CC-BY-NC-ND
 tags:
@@ -8,7 +8,9 @@ tags:
 depends:
   - name: ModuleManager
   - name: Waterfall
+  - name: RealPlume
+  - name: RealPlume-StockConfigs
+  - name: SmokeScreen
 install:
   - find: srb_waterfall_effects
     install_to: GameData
-x_via: Automated SpaceDock CKAN submission
