@@ -12,5 +12,5 @@ depends:
   - name: RealPlume-StockConfigs
   - name: SmokeScreen
 install:
-  - find: srb_waterfall_effects
+  - find: GameData/SWE
     install_to: GameData
