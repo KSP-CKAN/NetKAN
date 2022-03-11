@@ -1,17 +1,16 @@
 spec_version: v1.18
 identifier: TAKDIS
 $kref: '#/ckan/spacedock/2991'
-license: CC-BY-SA-4.0--GPL-V3
+license:
+  - CC-BY-SA-4.0
+  - GPL-3.0
 $vref: '#/ckan/ksp-avc'
 tags:
-  - plugin
   - parts
   - crewed
 install:
   - find: GameData/TAKDIS
     install_to: GameData
     filter_regexp: \.craft$
-  - file: GameData/TAKDIS
-    install_to: Ships
-    as: SPH
-x_via: Automated SpaceDock CKAN submission
+  - file: GameData/TAKDIS/The Tardis.craft
+    install_to: Ships/SPH
