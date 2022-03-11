@@ -4,10 +4,11 @@ $kref: '#/ckan/spacedock/2991'
 license:
   - CC-BY-SA-4.0
   - GPL-3.0
-$vref: '#/ckan/ksp-avc'
 tags:
   - parts
   - crewed
+depends:
+  - name: RocketSoundEnhancement
 install:
   - find: GameData/TAKDIS
     install_to: GameData
