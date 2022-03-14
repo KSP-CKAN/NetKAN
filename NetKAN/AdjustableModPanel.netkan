@@ -1,6 +1,9 @@
 spec_version: 1
 identifier: AdjustableModPanel
 abstract: A tool that allows you to hide mods from the stock mod panel
+author:
+  - radistmorse
+  - zer0Kerbal
 $kref: '#/ckan/spacedock/2997'
 $vref: '#/ckan/ksp-avc'
 x_netkan_epoch: '1'
