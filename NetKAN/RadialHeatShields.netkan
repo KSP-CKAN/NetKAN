@@ -1,7 +1,7 @@
 spec_version: v1.18
 identifier: RadialHeatShields
 $kref: '#/ckan/spacedock/2988'
-license: CC-BY-SA-3.0-Unported
+license: CC-BY-SA-3.0
 tags:
   - parts
 install:
@@ -10,4 +10,3 @@ install:
     filter:
       - __MACOSX
       - .DS_Store
-x_via: Automated SpaceDock CKAN submission
