@@ -1,20 +1,15 @@
-{
-    "spec_version" : 1,
-    "identifier"   : "PreciseManeuver",
-    "$kref"        : "#/ckan/github/radistmorse/KSPPreciseManeuver",
-    "$vref"        : "#/ckan/ksp-avc",
-    "name"         : "Precise Maneuver",
-    "abstract"     : "A tool that gives you a much better control over your maneuvers",
-    "license"      : "BSD-2-clause",
-    "x_netkan_epoch": "2",
-    "resources": {
-        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/128303-*"
-    },
-    "tags": [
-        "plugin",
-        "convenience"
-    ],
-    "conflicts": [
-        { "name": "PreciseNode" }
-    ]
-}
+spec_version: 1
+identifier: PreciseManeuver
+abstract: A tool that gives you a much better control over your maneuvers
+author:
+  - radistmorse
+  - zer0Kerbal
+$kref: '#/ckan/spacedock/2998'
+$vref: '#/ckan/ksp-avc'
+license: BSD-2-clause
+x_netkan_epoch: '2'
+tags:
+  - plugin
+  - convenience
+conflicts:
+  - name: PreciseNode
