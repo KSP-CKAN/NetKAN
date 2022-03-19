@@ -1,0 +1,19 @@
+spec_version: v1.16
+identifier: Shabby
+name: Shabby
+abstract: Shader asset bundle loader
+author:
+  - Taniwha
+  - Andrew Cassidy
+license: GPL-3.0
+$kref: '#/ckan/http/pileof.rocks/KSP/Shabby_v0.2.0.zip'
+$vref: '#/ckan/ksp-avc'
+resources:
+  license: https://github.com/taniwha/Shabby/raw/master/License.txt
+  repository: https://github.com/taniwha/Shabby
+install:
+  - file: GameData/Shabby/
+    install_to: GameData
+ksp_version_min: '1.8'
+depends:
+  - name: Harmony2
