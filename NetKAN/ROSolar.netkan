@@ -28,5 +28,11 @@
     ],
     "conflicts" : [
         { "name" : "TweakableEverythingCont" }
-    ]
+    ],
+    "x_netkan_override": [ {
+        "version": "v1.1.1",
+        "override": {
+            "ksp_version_max": "1.12.99"
+        }
+    } ]
 }
