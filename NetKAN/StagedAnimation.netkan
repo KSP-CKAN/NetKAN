@@ -1,24 +1,16 @@
-{
-    "spec_version"    : "v1.4",
-    "identifier"      : "StagedAnimation",
-    "author"          : [ "NathanKell", "KSP-RO" ],
-    "$kref"           : "#/ckan/github/KSP-RO/StagedAnimation",
-    "name"            : "Staged Animation",
-    "abstract"        : "Plays an animation when a part is staged",
-    "license"         : "CC-BY-SA-4.0",
-    "resources"       : {
-        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/202317-*"
-    },
-    "ksp_version_min": "1.8",
-    "ksp_version_max": "1.12",
-    "tags": [
-        "plugin",
-        "library"
-    ],
-    "install": [
-        {
-            "file"       : "GameData/StagedAnimation",
-            "install_to" : "GameData"
-        }
-    ]
-}
+spec_version: v1.4
+identifier: StagedAnimation
+name: Staged Animation
+abstract: Plays an animation when a part is staged
+author:
+  - NathanKell
+  - KSP-RO
+$kref: '#/ckan/github/KSP-RO/StagedAnimation'
+license: CC-BY-SA-4.0
+resources:
+  homepage: https://forum.kerbalspaceprogram.com/index.php?/topic/202317-*
+ksp_version_min: '1.8'
+ksp_version_max: '1.12'
+tags:
+  - plugin
+  - library
