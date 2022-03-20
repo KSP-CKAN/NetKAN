@@ -15,4 +15,4 @@ suggests:
   - name: WildBlueTools
 install:
   - find: GameData/ConformalDecals
-    install-to: GameData
+    install_to: GameData
