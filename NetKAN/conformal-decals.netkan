@@ -1,0 +1,25 @@
+spec_version: v1.16
+identifier: conformal-decals
+abstract: Decals that conform to your vehicle
+license: GPL-3.0
+$kref: >-
+  #/ckan/github/drewcassidy/KSP-Conformal-Decals/asset_match/ConformalDecals-unbundled-.*\.zip
+release_status: stable
+resources:
+  license: >-
+    https://github.com/drewcassidy/KSP-Conformal-Decals/raw/main/LICENSE-SOURCE.md
+  ci: https://github.com/drewcassidy/KSP-Conformal-Decals/actions
+  spacedock: https://spacedock.info/mod/2451/Conformal%20Decals?
+  manual: https://github.com/drewcassidy/KSP-Conformal-Decals/wiki
+  homepage: https://forum.kerbalspaceprogram.com/index.php?/topic/194802-*
+  x_screenshot: https://pileof.rocks/KSP/images/ConformalDecalsHeader.png
+install:
+  - file: ConformalDecals/GameData/ConformalDecals/
+    install_to: GameData
+ksp_version_min: 1.8.0
+depends:
+  - name: ModuleManager
+  - name: B9PartSwitch
+  - name: Shabby
+supports:
+  - name: WildBlueTools
