@@ -7,6 +7,8 @@ tags:
 depends:
   - name: ModuleManager
   - name: DepthMask
+conflicts:
+  - name: ReStock
 install:
   - find_regexp: StockDepthMaskConfig
     install_to: GameData
