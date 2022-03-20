@@ -13,3 +13,6 @@ depends:
   - name: Shabby
 suggests:
   - name: WildBlueTools
+install:
+  - find: GameData/ConformalDecals
+    install-to: GameData
