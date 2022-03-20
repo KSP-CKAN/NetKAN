@@ -1,4 +1,4 @@
-spec_version: v1.16
+spec_version: v1.27
 identifier: Shabby
 name: Shabby
 abstract: Shader asset bundle loader
@@ -17,3 +17,6 @@ install:
 ksp_version_min: '1.8'
 depends:
   - name: Harmony2
+tags:
+  - plugin
+  - library
