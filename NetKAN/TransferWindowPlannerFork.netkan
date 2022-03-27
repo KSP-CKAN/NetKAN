@@ -4,15 +4,13 @@ name: Transfer Window Planner - Fork
 license: MIT
 $kref: '#/ckan/github/Nazfib/TransferWindowPlanner'
 $vref: '#/ckan/ksp-avc'
-install:
-  - find: TransferWindowPlanner
-    install_to: GameData/TriggerTech
+tags:
+  - plugin
+  - information
 recommends:
   - name: TriggerAu-Flags
 conflicts:
   - name: TransferWindowPlanner
-resources:
-  homepage: https://github.com/Nazfib/TransferWindowPlanner
-tags:
-  - plugin
-  - information
+install:
+  - find: TransferWindowPlanner
+    install_to: GameData/TriggerTech
