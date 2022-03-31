@@ -9,7 +9,7 @@ install:
   - find: XwinKieFi
     install_to: GameData
     filter_regexp: \.craft$
-  - file: XwinKieFi
-    install_to: Ships
-    as: SPH
-x_via: Automated SpaceDock CKAN submission
+  - file: XwinKieFi/XwingLift.craft
+    install_to: Ships/SPH
+  - file: XwinKieFi/XwingRND.craft
+    install_to: Ships/SPH
