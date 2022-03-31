@@ -1,0 +1,14 @@
+spec_version: v1.18
+identifier: RND
+$kref: '#/ckan/spacedock/3005'
+license: CC-BY-SA
+tags:
+  - parts
+install:
+  - find: RND
+    install_to: GameData
+    filter_regexp: \.craft$
+  - file: RND
+    install_to: Ships
+    as: SPH
+x_via: Automated SpaceDock CKAN submission
