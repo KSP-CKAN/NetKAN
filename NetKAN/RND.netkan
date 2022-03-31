@@ -8,7 +8,5 @@ install:
   - find: RND
     install_to: GameData
     filter_regexp: \.craft$
-  - file: RND
-    install_to: Ships
-    as: SPH
-x_via: Automated SpaceDock CKAN submission
+  - file: RND/RND.craft
+    install_to: Ships/SPH
