@@ -1,0 +1,15 @@
+spec_version: v1.18
+identifier: XwinkvsKiefighter
+$kref: '#/ckan/spacedock/3004'
+license: CC-BY-SA-4.0
+tags:
+  - parts
+  - crewed
+install:
+  - find: XwinKieFi
+    install_to: GameData
+    filter_regexp: \.craft$
+  - file: XwinKieFi
+    install_to: Ships
+    as: SPH
+x_via: Automated SpaceDock CKAN submission
