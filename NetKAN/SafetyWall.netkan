@@ -1,0 +1,11 @@
+spec_version: v1.18
+identifier: SafetyWall
+$kref: '#/ckan/spacedock/3006'
+license: BSD
+$vref: '#/ckan/ksp-avc'
+tags:
+  - plugin
+install:
+  - find: godarklight
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
