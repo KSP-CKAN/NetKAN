@@ -1,8 +1,7 @@
 spec_version: v1.18
 identifier: NyanCat
 $kref: '#/ckan/spacedock/3000'
-license: SimpleBSD-2-Clause
+license: BSD-2-clause
 $vref: '#/ckan/ksp-avc'
 tags:
   - plugin
-x_via: Automated SpaceDock CKAN submission
