@@ -8,6 +8,6 @@ tags:
   - plugin
   - graphics
 x_netkan_override:
-  version: 0.991
-  override:
-    ksp_version_min: '1.8'
+  - version: 0.991
+    override:
+      ksp_version_min: '1.8'
