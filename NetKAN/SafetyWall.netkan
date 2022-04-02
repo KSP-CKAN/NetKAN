@@ -1,8 +1,8 @@
 spec_version: v1.18
 identifier: SafetyWall
 $kref: '#/ckan/spacedock/3006'
-license: BSD-2-clause
 $vref: '#/ckan/ksp-avc'
+license: BSD-2-clause
 tags:
   - plugin
 install:
