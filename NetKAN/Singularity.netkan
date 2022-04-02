@@ -1,15 +1,13 @@
-{
-    "spec_version": "v1.4",
-    "identifier":   "Singularity",
-    "$kref":        "#/ckan/spacedock/2420",
-    "ksp_version_min": "1.8",
-    "ksp_version_max": "1.9",
-    "license":      "MIT",
-    "resources": {
-        "manual": "https://github.com/LGhassen/Singularity/wiki"
-    },
-    "tags": [
-        "plugin",
-        "graphics"
-    ]
-}
+spec_version: v1.4
+identifier: Singularity
+$kref: '#/ckan/spacedock/2420'
+license: MIT
+resources:
+  manual: https://github.com/LGhassen/Singularity/wiki
+tags:
+  - plugin
+  - graphics
+x_netkan_override:
+  version: 0.991
+  override:
+    ksp_version_min: '1.8'
