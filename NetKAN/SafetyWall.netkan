@@ -1,5 +1,8 @@
 spec_version: v1.18
 identifier: SafetyWall
+author:
+  - godarklight
+  - zer0Kerbal
 $kref: '#/ckan/spacedock/3006'
 $vref: '#/ckan/ksp-avc'
 license: BSD-2-clause
