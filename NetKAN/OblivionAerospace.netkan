@@ -1,5 +1,5 @@
 spec_version: v1.18
-identifier: OblivionAerospaceOAP
+identifier: OblivionAerospace
 $kref: '#/ckan/spacedock/3002'
 license: CC-BY-SA
 tags:
@@ -8,9 +8,8 @@ tags:
 depends:
   - name: ModuleManager
 install:
-  - find: OblivionAerospace
+  - find: GameData/OblivionAerospace
     install_to: GameData
     filter_regexp: \.craft$
   - file: OblivionAerospace/Ships/VAB
     install_to: Ships
-x_via: Automated SpaceDock CKAN submission
