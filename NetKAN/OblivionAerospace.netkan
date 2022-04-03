@@ -3,13 +3,13 @@ identifier: OblivionAerospace
 $kref: '#/ckan/spacedock/3002'
 license: CC-BY-SA
 tags:
-  - plugin
   - parts
 depends:
   - name: ModuleManager
+recommends:
+  - name: DeadlyReentry
 install:
   - find: GameData/OblivionAerospace
     install_to: GameData
-    filter_regexp: \.craft$
   - file: OblivionAerospace/Ships/VAB
     install_to: Ships
