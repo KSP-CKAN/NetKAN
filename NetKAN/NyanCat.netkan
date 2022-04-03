@@ -1,0 +1,13 @@
+spec_version: v1.18
+identifier: NyanCat
+author:
+  - godarklight
+  - zer0Kerbal
+$kref: '#/ckan/spacedock/3000'
+$vref: '#/ckan/ksp-avc'
+license: BSD-2-clause
+tags:
+  - plugin
+install:
+  - find: godarklight
+    install_to: GameData
