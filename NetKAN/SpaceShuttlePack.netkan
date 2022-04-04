@@ -1,14 +1,13 @@
 spec_version: v1.18
 identifier: SpaceShuttlePack
 $kref: '#/ckan/spacedock/3008'
-license: CC-BY-SA
 $vref: '#/ckan/ksp-avc'
+license: CC-BY-SA
 tags:
   - plugin
   - parts
   - crewed
 depends:
-  - name: ModuleManager
   - name: BDAnimationModules
   - name: ModuleRCSFX
   - name: KlockheedMartian-Gimbal
@@ -19,3 +18,5 @@ install:
   - find: Space_Shuttle
     install_to: GameData
     filter: Thumbs.db
+  - file: Space Shuttle.craft
+    install_to: Ships/VAB
