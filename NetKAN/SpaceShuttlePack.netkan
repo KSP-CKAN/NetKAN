@@ -1,0 +1,20 @@
+spec_version: v1.18
+identifier: SpaceShuttlePack
+$kref: '#/ckan/spacedock/3008'
+license: CC-BY-SA
+$vref: '#/ckan/ksp-avc'
+tags:
+  - plugin
+  - parts
+  - crewed
+depends:
+  - name: ModuleManager
+install:
+  - find: ''
+    install_to: GameData
+    filter: Thumbs.db
+    filter_regexp: \.craft$
+  - file: Subassemblies
+    install_to: Ships
+    as: ''
+x_via: Automated SpaceDock CKAN submission
