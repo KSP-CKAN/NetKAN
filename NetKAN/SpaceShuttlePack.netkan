@@ -9,12 +9,13 @@ tags:
   - crewed
 depends:
   - name: ModuleManager
+  - name: BDAnimationModules
+  - name: ModuleRCSFX
+  - name: KlockheedMartian-Gimbal
+  - name: KerbalJointReinforcement
+  - name: RasterPropMonitor
+  - name: Firespitter
 install:
-  - find: ''
+  - find: Space_Shuttle
     install_to: GameData
     filter: Thumbs.db
-    filter_regexp: \.craft$
-  - file: Subassemblies
-    install_to: Ships
-    as: ''
-x_via: Automated SpaceDock CKAN submission
