@@ -1,0 +1,25 @@
+spec_version: v1.18
+identifier: SpaceShuttlePack
+author:
+  - MrMikeNZ
+  - Alex1234567890
+$kref: '#/ckan/spacedock/3008'
+$vref: '#/ckan/ksp-avc'
+license: CC-BY-SA
+tags:
+  - plugin
+  - parts
+  - crewed
+depends:
+  - name: BDAnimationModules
+  - name: ModuleRCSFX
+  - name: KlockheedMartian-Gimbal
+  - name: KerbalJointReinforcement
+  - name: RasterPropMonitor
+  - name: Firespitter
+install:
+  - find: Space_Shuttle
+    install_to: GameData
+    filter: Thumbs.db
+  - file: Space Shuttle.craft
+    install_to: Ships/VAB
