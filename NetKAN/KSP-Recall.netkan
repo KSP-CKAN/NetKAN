@@ -4,21 +4,24 @@ name: KSP Recall
 abstract: >-
   KSP Recall - Solves the resource resetting on KSP 1.9.x, the heading drift on
   grounded crafts on KSP >= 1.8, and more to come...
+author:
+  - LisiasT
 $kref: '#/ckan/spacedock/2434'
 $vref: '#/ckan/ksp-avc'
+x_netkan_force_v: true
+release_status: stable
 license:
   - GPL-2.0
   - restricted
-release_status: stable
-x_netkan_force_v: true
-author:
-  - LisiasT
-install:
-  - file: GameData/999_KSP-Recall
-    install_to: GameData
-depends:
-  - name: ModuleManager
-    min_version: 4.0.2
 tags:
   - plugin
   - library
+resources:
+  manual: https://net-lisias-ksp.github.io/KSP-Recall/
+  homepage: https://forum.kerbalspaceprogram.com/index.php?/topic/192048-*
+depends:
+  - name: ModuleManager
+    min_version: 4.0.2
+install:
+  - file: GameData/999_KSP-Recall
+    install_to: GameData
