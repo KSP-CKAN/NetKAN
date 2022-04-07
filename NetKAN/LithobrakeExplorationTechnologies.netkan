@@ -16,5 +16,5 @@ supports:
   - name: ColorfulFuelLines
   - name: FuelTanksPlus
 install:
-  - file: LETech
+  - find: Necrobones
     install_to: GameData
