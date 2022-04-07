@@ -1,0 +1,20 @@
+spec_version: 1
+identifier: LithobrakeExplorationTechnologies
+$kref: '#/ckan/spacedock/93'
+$vref: '#/ckan/ksp-avc'
+license: CC-BY-NC-SA-4.0
+tags:
+  - parts
+  - crewed
+depends:
+  - name: ModuleManager
+supports:
+  - name: ModularRocketSystem
+  - name: ModularRocketSystemsLITE
+  - name: SpaceY-Lifters
+  - name: ColorCodedCans
+  - name: ColorfulFuelLines
+  - name: FuelTanksPlus
+install:
+  - file: LETech
+    install_to: GameData
