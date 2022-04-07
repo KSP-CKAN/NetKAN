@@ -1,0 +1,15 @@
+spec_version: v1.18
+identifier: TAKDIS
+$kref: '#/ckan/spacedock/2991'
+license: CC-BY-SA-4.0
+tags:
+  - parts
+  - crewed
+depends:
+  - name: RocketSoundEnhancement
+install:
+  - find: GameData/TAKDIS
+    install_to: GameData
+    filter_regexp: \.craft$
+  - file: GameData/TAKDIS/The Tardis.craft
+    install_to: Ships/SPH

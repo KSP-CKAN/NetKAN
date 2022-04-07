@@ -1,39 +1,31 @@
-{
-    "spec_version" : "v1.4",
-    "identifier"   : "RealFuels-Stock",
-    "name"         : "RealFuels-Stock",
-    "abstract"     : "Adds RealFuels configs to stock and many mods' engines, keeping engine role as designed to fit with stock and stock-aligned mods.",
-    "author"       : [ "Raptor831", "ValiZockt" ],
-    "license"      : "CC-BY-SA-4.0",
-    "resources": {
-        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/194394-*"
-    },
-    "tags": [
-        "config",
-        "resources"
-    ],
-    "$kref": "#/ckan/github/ValiZockt/RealFuels-Stock",
-    "$vref": "#/ckan/ksp-avc",
-    "install": [
-        {
-            "find":       "RealFuels-Stock",
-            "install_to": "GameData"
-        }
-    ],
-    "depends": [
-        { "name": "ModuleManager" },
-        { "name": "RealFuels" }
-    ],
-    "provides" : [
-        "RealPlumeConfigs",
-        "RealFuels-Engine-Configs"
-    ],
-
-    "recommends": [
-        { "name": "RealPlume" }
-    ],
-    "conflicts": [
-        { "name": "RealPlume-StockConfigs" },
-        { "name": "RFStockalike" }
-    ]
-}
+spec_version: v1.4
+identifier: RealFuels-Stock
+name: RealFuels-Stock
+abstract: >-
+  Adds RealFuels configs to stock and many mods' engines, keeping engine role as
+  designed to fit with stock and stock-aligned mods.
+author:
+  - Raptor831
+  - ValentinBischof
+$kref: '#/ckan/github/ValentinBischof/RealFuels-Stock'
+$vref: '#/ckan/ksp-avc'
+license: CC-BY-SA-4.0
+resources:
+  homepage: https://forum.kerbalspaceprogram.com/index.php?/topic/194394-*
+tags:
+  - config
+  - resources
+depends:
+  - name: ModuleManager
+  - name: RealFuels
+provides:
+  - RealPlumeConfigs
+  - RealFuels-Engine-Configs
+recommends:
+  - name: RealPlume
+conflicts:
+  - name: RealPlume-StockConfigs
+  - name: RFStockalike
+install:
+  - find: RealFuels-Stock
+    install_to: GameData
