@@ -1,14 +1,12 @@
-{
-    "spec_version": "v1.16",
-    "identifier":   "Telemagic",
-    "$kref":        "#/ckan/spacedock/1627",
-    "$vref":        "#/ckan/ksp-avc",
-    "license":      "MIT",
-    "tags": [
-        "plugin"
-    ],
-    "install": [ {
-        "find":       "Telemagic",
-        "install_to": "GameData"
-    } ]
-}
+spec_version: v1.16
+identifier: Telemagic
+$kref: '#/ckan/spacedock/1627'
+$vref: '#/ckan/ksp-avc'
+license: MIT
+resources:
+  remote-avc: https://github.com/Hotel26/Telemagic/raw/master/Telemagic/Telemagic.version
+tags:
+  - plugin
+install:
+  - find: Telemagic
+    install_to: GameData

@@ -1,11 +1,8 @@
-{
-    "spec_version": "v1.4",
-    "identifier":   "DraggableNavball",
-    "$kref":        "#/ckan/spacedock/1024",
-    "$vref":        "#/ckan/ksp-avc",
-    "license":      "MIT",
-    "tags": [
-        "plugin",
-        "convenience"
-    ]
-}
+spec_version: v1.4
+identifier: DraggableNavball
+$kref: '#/ckan/spacedock/1024'
+$vref: '#/ckan/ksp-avc'
+license: MIT
+tags:
+  - plugin
+  - convenience

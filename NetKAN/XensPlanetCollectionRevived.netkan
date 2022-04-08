@@ -1,24 +1,26 @@
-{
-    "spec_version": "v1.4",
-    "identifier":   "XensPlanetCollectionRevived",
-    "$kref":        "#/ckan/spacedock/2136",
-    "license":      "MIT",
-    "tags": [
-        "config",
-        "planet-pack"
-    ],
-    "install": [ {
-        "find":       "XPC",
-        "install_to": "GameData"
-    } ],
-    "depends": [
-        { "name": "ModuleManager" },
-        { "name": "Kopernicus"    }
-    ],
-    "supports": [
-        { "name": "DistantObject"   },
-        { "name": "OuterPlanetsMod" },
-        { "name": "ResearchBodies"  },
-        { "name": "PlanetShine"     }
-    ]
-}
+spec_version: v1.4
+identifier: XensPlanetCollectionRevived
+name: Xen's Planet Collection Revived
+author:
+  - MythicalDonuts
+  - LapisNator101
+$kref: '#/ckan/github/KPPRM/XPCR/asset_match/XPCR.zip'
+$vref: '#/ckan/ksp-avc'
+license: MIT
+resources:
+  homepage: https://forum.kerbalspaceprogram.com/index.php?/topic/183830-*
+  remote-avc: https://github.com/KPPRM/XPCR/raw/master/XPCR/XPCR.version
+tags:
+  - config
+  - planet-pack
+depends:
+  - name: ModuleManager
+  - name: Kopernicus
+supports:
+  - name: DistantObject
+  - name: OuterPlanetsMod
+  - name: ResearchBodies
+  - name: PlanetShine
+install:
+  - find: XPCR
+    install_to: GameData

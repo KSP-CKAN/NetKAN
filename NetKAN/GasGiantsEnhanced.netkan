@@ -1,0 +1,14 @@
+spec_version: v1.10
+identifier: GasGiantsEnhanced
+$kref: '#/ckan/spacedock/2969'
+license: CC-BY
+tags:
+  - config
+  - planet-pack
+depends:
+  - name: ModuleManager
+  - name: Kopernicus
+  - name: EnvironmentalVisualEnhancements
+  - name: Scatterer
+recommends:
+  - name: RealSolarSystem

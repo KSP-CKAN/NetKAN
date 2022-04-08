@@ -1,19 +1,16 @@
-{
-    "spec_version": "v1.4",
-    "identifier":   "KerbalActuators",
-    "author":       "Angel125",
-    "$kref":        "#/ckan/github/Angel-125/KerbalActuators",
-    "$vref":        "#/ckan/ksp-avc",
-    "license":      "GPL-3.0",
-    "tags": [
-        "plugin",
-        "parts"
-    ],
-    "depends": [
-        { "name": "ModuleManager" }
-    ],
-    "install": [ {
-        "find":       "WildBlueIndustries",
-        "install_to": "GameData"
-    } ]
-}
+spec_version: v1.4
+identifier: KerbalActuators
+author: Angel125
+$kref: '#/ckan/github/Angel-125/KerbalActuators'
+$vref: '#/ckan/ksp-avc'
+license: GPL-3.0
+resources:
+  remote-avc: https://github.com/Angel-125/KerbalActuators/raw/master/GameData/WildBlueIndustries/001KerbalActuators/KerbalActuators.version
+tags:
+  - plugin
+  - parts
+depends:
+  - name: ModuleManager
+install:
+  - find: WildBlueIndustries
+    install_to: GameData

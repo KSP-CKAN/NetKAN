@@ -1,32 +1,26 @@
-{
-    "spec_version": "v1.18",
-    "identifier":   "KerbalOccupationColors",
-    "abstract":     "Automatically assigns the Future Suit's light colors based on occupation",
-    "$kref":        "#/ckan/github/Starwaster/Kerbal-Occupation-Colors",
-    "$vref":        "#/ckan/ksp-avc",
-    "license":      "Unlicense",
-    "resources": {
-        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/185931-*",
-        "repository": "https://github.com/Starwaster/Kerbal-Occupation-Colors"
-    },
-    "tags": [
-        "plugin",
-        "information",
-        "crewed"
-    ],
-    "depends": [
-        { "name": "ModuleManager" }
-    ],
-    "install": [ {
-        "find": "KerbalOccupationColors",
-        "install_to": "GameData"
-    } ],
-    "x_netkan_override": [
-        {
-            "version": [ ">=v1.2.0", "<=v1.2.0.1" ],
-            "override": {
-                "ksp_version_min": "1.7.3"
-            }
-        }
-    ]
-}
+spec_version: v1.18
+identifier: KerbalOccupationColors
+abstract: >-
+  Automatically assigns the Future Suit's light colors based on occupation
+$kref: '#/ckan/github/Starwaster/Kerbal-Occupation-Colors'
+$vref: '#/ckan/ksp-avc'
+license: Unlicense
+resources:
+  homepage: https://forum.kerbalspaceprogram.com/index.php?/topic/185931-*
+  repository: https://github.com/Starwaster/Kerbal-Occupation-Colors
+  remote-avc: https://github.com/Starwaster/Kerbal-Occupation-Colors/raw/master/GameData/KerbalOccupationColors/KerbalOccupationColors.version
+tags:
+  - plugin
+  - information
+  - crewed
+depends:
+  - name: ModuleManager
+install:
+  - find: KerbalOccupationColors
+    install_to: GameData
+x_netkan_override:
+  - version:
+      - '>=v1.2.0'
+      - <=v1.2.0.1
+    override:
+      ksp_version_min: 1.7.3

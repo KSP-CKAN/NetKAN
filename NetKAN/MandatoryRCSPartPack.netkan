@@ -1,18 +1,14 @@
-{
-    "spec_version" : "v1.20",
-    "identifier"   : "MandatoryRCSPartPack",
-    "name"         : "MandatoryRCS Part Pack",
-    "abstract"     : "Small part pack to provide more RCS thrusters in a stockalike fashion",
-    "$kref"        : "#/ckan/github/gotmachine/MandatoryRCS-Part-Pack",
-    "$vref"        : "#/ckan/ksp-avc",
-    "license"      : "Unlicense",
-    "resources"    : {
-        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/154658-*"
-    },
-    "tags": [
-        "parts"
-    ],
-    "depends": [
-        { "name": "ModuleManager" }
-    ]
-}
+spec_version: v1.20
+identifier: MandatoryRCSPartPack
+name: MandatoryRCS Part Pack
+abstract: Small part pack to provide more RCS thrusters in a stockalike fashion
+$kref: '#/ckan/github/gotmachine/MandatoryRCS-Part-Pack'
+$vref: '#/ckan/ksp-avc'
+license: Unlicense
+resources:
+  homepage: https://forum.kerbalspaceprogram.com/index.php?/topic/154658-*
+  remote-avc: https://github.com/gotmachine/MandatoryRCS-Part-Pack/raw/master/GameData/MandatoryRCSPartPack/MandatoryRCSPartPack.version
+tags:
+  - parts
+depends:
+  - name: ModuleManager

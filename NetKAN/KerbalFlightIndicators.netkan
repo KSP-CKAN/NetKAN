@@ -1,17 +1,15 @@
-{
-    "spec_version" : 1,
-    "identifier"   : "KerbalFlightIndicators",
-    "name"         : "Kerbal Flight Indicators",
-    "abstract"     : "Displays indicators for the flight vector and other things. Works like a HUD. In external view, too!",
-    "$kref"        : "#/ckan/github/DaMichel/KerbalFlightIndicators",
-    "$vref"        : "#/ckan/ksp-avc",
-    "license"      : "CC-BY-NC-SA-3.0",
-    "resources" : {
-        "homepage" : "https://forum.kerbalspaceprogram.com/index.php?/topic/172904-*"
-    },
-    "tags": [
-        "plugin",
-        "information"
-    ],
-    "release_status" : "stable"
-}
+spec_version: 1
+identifier: KerbalFlightIndicators
+name: Kerbal Flight Indicators
+abstract: >-
+  Displays indicators for the flight vector and other things. Works like a HUD.
+  In external view, too!
+$kref: '#/ckan/github/PapaJoesSoup/KerbalFlightIndicators'
+$vref: '#/ckan/ksp-avc'
+license: CC-BY-NC-SA-3.0
+resources:
+  homepage: https://forum.kerbalspaceprogram.com/index.php?/topic/172904-*
+tags:
+  - plugin
+  - information
+release_status: stable
