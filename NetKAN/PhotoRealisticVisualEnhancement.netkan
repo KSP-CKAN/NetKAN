@@ -1,0 +1,27 @@
+spec_version: v1.4
+identifier: PhotoRealisticVisualEnhancement
+$kref: '#/ckan/github/SpaceODY/PRVE/asset_match/PRVEv?[0-9.]+\.zip'
+ksp_version: 1.10.1
+license: CC-BY-NC-SA-4.0
+tags:
+  - config
+  - graphics
+provides:
+  - EnvironmentalVisualEnhancements-Config
+conflicts:
+  - name: EnvironmentalVisualEnhancements-Config
+depends:
+  - name: ModuleManager
+  - name: Scatterer-config
+    version: 3:v0.0772
+  - name: Scatterer
+    version: 3:v0.0772
+  - name: EnvironmentalVisualEnhancements
+  - name: Kopernicus
+  - name: RealSolarSystem
+suggests:
+  - name: KS3P
+  - name: TUFX
+install:
+  - find: PRVE
+    install_to: GameData

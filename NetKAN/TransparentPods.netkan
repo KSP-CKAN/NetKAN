@@ -1,27 +1,23 @@
-{
-    "spec_version": "v1.4",
-    "identifier":   "TransparentPods",
-    "$kref":        "#/ckan/spacedock/2212",
-    "$vref":        "#/ckan/ksp-avc",
-    "license":      "CC-BY-NC-SA-4.0",
-    "tags": [
-        "parts",
-        "crewed"
-    ],
-    "depends": [
-        { "name": "ModuleManager" }
-    ],
-    "recommends": [
-        { "name": "RasterPropMonitor"          },
-        { "name": "JSIAdvancedTransparentPods" }
-    ],
-    "suggests": [
-        { "name": "AllYAll"                      },
-        { "name": "DockingCamKURS"               },
-        { "name": "KIS"                          },
-        { "name": "KAS"                          },
-        { "name": "InfernalRoboticsNext"         },
-        { "name": "KerbalJointReinforcementNext" },
-        { "name": "KerbalChangelog"              }
-    ]
-}
+spec_version: v1.4
+identifier: TransparentPods
+$kref: '#/ckan/spacedock/2212'
+$vref: '#/ckan/ksp-avc'
+license: CC-BY-NC-SA-4.0
+resources:
+  remote-avc: https://github.com/zer0Kerbal/TransparentPods/raw/master/TransparentPods.version
+tags:
+  - parts
+  - crewed
+depends:
+  - name: ModuleManager
+recommends:
+  - name: RasterPropMonitor
+  - name: JSIAdvancedTransparentPods
+suggests:
+  - name: AllYAll
+  - name: DockingCamKURS
+  - name: KIS
+  - name: KAS
+  - name: InfernalRoboticsNext
+  - name: KerbalJointReinforcementNext
+  - name: KerbalChangelog

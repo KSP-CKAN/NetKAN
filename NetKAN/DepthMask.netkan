@@ -5,6 +5,8 @@ license: CC-BY-SA
 tags:
   - plugin
   - library
+suggests:
+  - name: StockDepthMaskConfig
 install:
   - find: DepthMask.dll
     find_matches_files: true

@@ -1,36 +1,32 @@
-{
-    "spec_version": "v1.4",
-    "identifier":   "DMTanks-Fuselage",
-    "author":       [ "Bezzier", "DaMichel", "zer0Kerbal" ],
-    "$kref":        "#/ckan/spacedock/2340",
-    "$vref":        "#/ckan/ksp-avc",
-    "license":      "CC-BY-NC-SA-3.0",
-    "resources": {
-        "repository": "https://github.com/zer0Kerbal/DaMichel/tree/master/GameData/DaMichel/Fuselage"
-    },
-    "tags": [
-        "parts"
-    ],
-    "depends": [
-        { "name": "ModuleManager" }
-    ],
-    "recommends": [
-        { "name": "DMTanks-SphericalTanks" },
-        { "name": "DMTanks-CargoBays"      },
-        { "name": "DMTanks-AeroRTG"        }
-    ],
-    "suggests": [
-        { "name": "SimpleConstruction"      },
-        { "name": "NotSoSimpleConstruction" },
-        { "name": "SimpleLogistics"         }
-    ],
-    "supports": [
-        { "name": "TweakScale"             },
-        { "name": "KerbalChangelog"        },
-        { "name": "RealFuels"              }
-    ],
-    "install": [ {
-        "find":       "DaMichel",
-        "install_to": "GameData"
-    } ]
-}
+spec_version: v1.4
+identifier: DMTanks-Fuselage
+author:
+  - Bezzier
+  - DaMichel
+  - zer0Kerbal
+$kref: '#/ckan/spacedock/2340'
+$vref: '#/ckan/ksp-avc'
+license: CC-BY-NC-SA-3.0
+resources:
+  repository: >-
+    https://github.com/zer0Kerbal/DaMichel/tree/master/GameData/DaMichel/Fuselage
+  remote-avc: https://github.com/zer0Kerbal/DaMichel/raw/master/GameData/DaMichel/Fuselage/Fuselage.version
+tags:
+  - parts
+depends:
+  - name: ModuleManager
+recommends:
+  - name: DMTanks-SphericalTanks
+  - name: DMTanks-CargoBays
+  - name: DMTanks-AeroRTG
+suggests:
+  - name: SimpleConstruction
+  - name: NotSoSimpleConstruction
+  - name: SimpleLogistics
+supports:
+  - name: TweakScale
+  - name: KerbalChangelog
+  - name: RealFuels
+install:
+  - find: DaMichel
+    install_to: GameData

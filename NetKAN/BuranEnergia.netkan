@@ -1,0 +1,12 @@
+spec_version: v1.10
+identifier: BuranEnergia
+$kref: '#/ckan/spacedock/2966'
+license: GPL-3.0
+tags:
+  - parts
+  - crewed
+install:
+  - find: DECQ_ENERGIA
+    install_to: GameData
+  - find: Alcentar_Add-ons
+    install_to: GameData

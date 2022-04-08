@@ -4,6 +4,8 @@ name: OhScrap (OHS)
 $kref: '#/ckan/spacedock/2364'
 $vref: '#/ckan/ksp-avc'
 license: MIT
+resources:
+  remote-avc: https://github.com/zer0Kerbal/OhScrap/raw/master/OhScrap.version
 tags:
   - plugin
   - editor

@@ -1,27 +1,31 @@
-{
-    "spec_version"     : "v1.2",
-    "identifier"       : "TweakScale",
-    "name"             : "TweakScale - Rescale Everything!",
-    "abstract"         : "TweakScale lets you change the size of a part. Not just that, but it will figure out how much fuel is in the resized part. And if it's an engine, it will become more powerful by scaling it bigger, or weaker by scaling it smaller.",
-    "author"           : [ "Biotronic", "pellinor", "LisiasT" ],
-    "$kref"            : "#/ckan/spacedock/127",
-    "$vref"            : "#/ckan/ksp-avc",
-    "x_netkan_force_v" : true,
-    "license"          : [ "GPL-2.0", "restricted" ],
-    "release_status"   : "stable",
-    "tags": [
-        "plugin",
-        "convenience"
-    ],
-    "install" : [ {
-        "file" : "GameData/999_Scale_Redist.dll",
-        "install_to" : "GameData"
-    }, {
-        "file" : "GameData/TweakScale",
-        "install_to" : "GameData"
-    } ],
-    "depends" : [
-        { "name" : "ModuleManager", "min_version" : "2.7.1" },
-        { "name" : "KSP-Recall" }
-    ]
-}
+spec_version: v1.8
+identifier: TweakScale
+name: TweakScale - Rescale Everything!
+abstract: >-
+  TweakScale lets you change the size of a part. Not just that, but it will
+  figure out how much fuel is in the resized part. And if it's an engine, it
+  will become more powerful by scaling it bigger, or weaker by scaling it
+  smaller.
+author:
+  - Biotronic
+  - pellinor
+  - LisiasT
+$kref: '#/ckan/spacedock/127'
+$vref: '#/ckan/ksp-avc'
+x_netkan_force_v: true
+license:
+  - GPL-2.0
+  - restricted
+release_status: stable
+tags:
+  - plugin
+  - convenience
+install:
+  - file: GameData/999_Scale_Redist.dll
+    install_to: GameData
+  - file: GameData/TweakScale
+    install_to: GameData
+depends:
+  - name: ModuleManager
+    min_version: 2.7.1
+  - name: KSP-Recall

@@ -1,20 +1,17 @@
-{
-    "spec_version": "v1.4",
-    "identifier":   "ODFC-Refueled-CopyPatches",
-    "$kref":        "#/ckan/spacedock/2221",
-    "$vref":        "#/ckan/ksp-avc",
-    "license":      "CC-BY-NC-SA-4.0",
-    "tags": [
-        "config",
-        "parts",
-        "convenience"
-    ],
-    "install": [ {
-        "find":       "OnDemandFuelCells",
-        "install_to": "GameData"
-    } ],
-    "depends": [
-        { "name": "ModuleManager" },
-        { "name": "ODFC-Refueled" }
-    ]
-}
+spec_version: v1.4
+identifier: ODFC-Refueled-CopyPatches
+$kref: '#/ckan/spacedock/2221'
+$vref: '#/ckan/ksp-avc'
+license: CC-BY-NC-SA-4.0
+resources:
+  remote-avc: https://github.com/zer0Kerbal/ODFCr/raw/master/OnDemandFuelCells.version
+tags:
+  - config
+  - parts
+  - convenience
+install:
+  - find: OnDemandFuelCells
+    install_to: GameData
+depends:
+  - name: ModuleManager
+  - name: ODFC-Refueled

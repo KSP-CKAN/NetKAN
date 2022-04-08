@@ -1,0 +1,20 @@
+spec_version: v1.4
+identifier: LithobrakeExplorationTechnologies
+$kref: '#/ckan/spacedock/93'
+$vref: '#/ckan/ksp-avc'
+license: CC-BY-NC-SA-4.0
+tags:
+  - parts
+  - crewed
+depends:
+  - name: ModuleManager
+supports:
+  - name: ModularRocketSystem
+  - name: ModularRocketSystemsLITE
+  - name: SpaceY-Lifters
+  - name: ColorCodedCans
+  - name: ColorfulFuelLines
+  - name: FuelTanksPlus
+install:
+  - find: Necrobones
+    install_to: GameData
