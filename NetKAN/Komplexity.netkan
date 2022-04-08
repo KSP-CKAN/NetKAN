@@ -2,18 +2,18 @@ spec_version: v1.4
 identifier: Komplexity
 $kref: '#/ckan/spacedock/2805'
 $vref: '#/ckan/ksp-avc'
-license: GPL-2.0
+license: CC BY-SA
 tags:
   - config
   - career
 depends:
   - name: ModuleManager
   - name: CustomBarnKit
+  - name: CustomBarnKit-RO
 supports:
   - name: Strategia
 conflicts:
   - name: Bureaucracy
-  - name: CustomBarnKit-RO
 install:
   - find: KGEx
     install_to: GameData
