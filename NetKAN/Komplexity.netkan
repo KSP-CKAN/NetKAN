@@ -9,7 +9,6 @@ tags:
 depends:
   - name: ModuleManager
   - name: CustomBarnKit
-  - name: CustomBarnKit-RO
 supports:
   - name: Strategia
 conflicts:
