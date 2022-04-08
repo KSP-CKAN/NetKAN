@@ -5,6 +5,7 @@ $vref: '#/ckan/ksp-avc'
 license: GPL-3.0
 resources:
   homepage: https://forum.kerbalspaceprogram.com/index.php?/topic/186546-*
+  remote-avc: https://github.com/Angel-125/ServoController/raw/master/GameData/WildBlueIndustries/ServoController/ServoController.version
 tags:
   - plugin
   - convenience

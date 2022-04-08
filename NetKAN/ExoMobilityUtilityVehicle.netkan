@@ -1,0 +1,10 @@
+spec_version: v1.4
+identifier: ExoMobilityUtilityVehicle
+$kref: '#/ckan/spacedock/3001'
+license: CC-BY-SA-4.0
+tags:
+  - parts
+  - crewed
+install:
+  - find: EMUV
+    install_to: GameData

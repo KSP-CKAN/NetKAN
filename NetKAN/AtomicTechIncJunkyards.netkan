@@ -3,6 +3,8 @@ identifier: AtomicTechIncJunkyards
 $kref: '#/ckan/spacedock/2891'
 $vref: '#/ckan/ksp-avc'
 license: BSD-3-clause
+resources:
+  remote-avc: https://github.com/JamesErvin-5/AtomicTech-Inc.-Junkyards/raw/main/AtomicTech/RadioactiveJunkyards.version
 tags:
   - parts
 depends:

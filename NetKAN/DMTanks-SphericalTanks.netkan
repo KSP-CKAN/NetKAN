@@ -1,35 +1,31 @@
-{
-    "spec_version": "v1.4",
-    "identifier":   "DMTanks-SphericalTanks",
-    "author":       [ "Bezzier", "DaMichel", "zer0Kerbal" ],
-    "$kref":        "#/ckan/spacedock/2342",
-    "$vref":        "#/ckan/ksp-avc",
-    "license":      "CC-BY-SA-3.0",
-    "resources": {
-        "repository": "https://github.com/zer0Kerbal/DaMichel/tree/master/GameData/DaMichel/SphericalTanks"
-    },
-    "tags": [
-        "parts"
-    ],
-    "depends": [
-        { "name": "ModuleManager" }
-    ],
-    "recommends": [
-        { "name": "DMTanks-AeroRTG"   },
-        { "name": "DMTanks-CargoBays" },
-        { "name": "DMTanks-Fuselage"  }
-    ],
-    "supports": [
-        { "name": "TweakScale"             },
-        { "name": "KerbalChangelog"        },
-        { "name": "B9PartSwitch"           },
-        { "name": "Snacks"                 },
-        { "name": "TACLS"                  },
-        { "name": "InterstellarFuelSwitch" },
-        { "name": "RealFuels"              }
-    ],
-    "install": [ {
-        "find":       "DaMichel",
-        "install_to": "GameData"
-    } ]
-}
+spec_version: v1.4
+identifier: DMTanks-SphericalTanks
+author:
+  - Bezzier
+  - DaMichel
+  - zer0Kerbal
+$kref: '#/ckan/spacedock/2342'
+$vref: '#/ckan/ksp-avc'
+license: CC-BY-SA-3.0
+resources:
+  repository: >-
+    https://github.com/zer0Kerbal/DaMichel/tree/master/GameData/DaMichel/SphericalTanks
+tags:
+  - parts
+depends:
+  - name: ModuleManager
+recommends:
+  - name: DMTanks-AeroRTG
+  - name: DMTanks-CargoBays
+  - name: DMTanks-Fuselage
+supports:
+  - name: TweakScale
+  - name: KerbalChangelog
+  - name: B9PartSwitch
+  - name: Snacks
+  - name: TACLS
+  - name: InterstellarFuelSwitch
+  - name: RealFuels
+install:
+  - find: DaMichel
+    install_to: GameData

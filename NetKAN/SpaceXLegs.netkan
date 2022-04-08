@@ -1,26 +1,19 @@
-{
-    "spec_version": 1,
-    "identifier":   "SpaceXLegs",
-    "$kref":        "#/ckan/spacedock/841",
-    "$vref":        "#/ckan/ksp-avc",
-    "license":      "MIT",
-    "tags": [
-        "parts"
-    ],
-    "install": [ {
-        "file":       "KerbalReusabilityExpansion",
-        "install_to": "GameData"
-    } ],
-    "depends": [
-        { "name": "ModuleManager" }
-    ],
-    "recommends": [
-        { "name": "FMRSContinued" },
-        { "name": "Trajectories"  }
-    ],
-    "supports": [
-        { "name": "TweakScale"              },
-        { "name": "RealPlume"               },
-        { "name": "FerramAerospaceResearch" }
-    ]
-}
+spec_version: v1.2
+identifier: SpaceXLegs
+$kref: '#/ckan/spacedock/841'
+$vref: '#/ckan/ksp-avc'
+license: MIT
+tags:
+  - parts
+install:
+  - file: KerbalReusabilityExpansion
+    install_to: GameData
+depends:
+  - name: ModuleManager
+recommends:
+  - name: FMRSContinued
+  - name: Trajectories
+supports:
+  - name: TweakScale
+  - name: RealPlume
+  - name: FerramAerospaceResearch
