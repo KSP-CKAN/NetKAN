@@ -1,0 +1,14 @@
+spec_version: v1.4
+identifier: IntercolorTantaresRecolors
+$kref: '#/ckan/spacedock/2604'
+license: CC-BY-SA-4.0
+tags:
+  - config
+  - graphics
+depends:
+  - name: ModuleManager
+  - name: B9PartSwitch
+  - name: Tantares
+install:
+  - find: TantaresRecolors
+    install_to: GameData
