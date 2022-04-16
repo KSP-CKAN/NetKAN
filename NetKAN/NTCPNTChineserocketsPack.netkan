@@ -1,0 +1,16 @@
+spec_version: v1.18
+identifier: NTCPNTChineserocketsPack
+$kref: '#/ckan/spacedock/3016'
+license: MIT
+tags:
+  - parts
+  - crewed
+  - graphics
+depends:
+  - name: ModuleManager
+  - name: B9PartSwitch
+  - name: Waterfall
+install:
+  - find: NTCP_V1.0ú¿┐╔╜┌┴≈░µú⌐
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
