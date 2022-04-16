@@ -11,6 +11,5 @@ depends:
   - name: B9PartSwitch
   - name: Waterfall
 install:
-  - find: NTCP_V1.0ú¿┐╔╜┌┴≈░µú⌐
+  - find_regexp: NTCP.*
     install_to: GameData
-x_via: Automated SpaceDock CKAN submission
