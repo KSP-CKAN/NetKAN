@@ -10,6 +10,9 @@ depends:
   - name: ModuleManager
   - name: B9PartSwitch
   - name: Waterfall
+  - name: ComfortableLanding
+recommends:
+  - name: KerbalJointReinforcement
 install:
   - find: NTCP
     install_to: GameData
