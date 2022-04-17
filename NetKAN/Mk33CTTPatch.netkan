@@ -1,0 +1,14 @@
+spec_version: v1.18
+identifier: Mk33CTTPatch
+$kref: '#/ckan/spacedock/3017'
+license: MIT
+tags:
+  - config
+  - tech-tree
+depends:
+  - name: ModuleManager
+  - name: CommunityTechTree
+  - name: Mk-33
+install:
+  - file: Mk33CTTPatch.cfg
+    install_to: GameData/Mk33CTTPatch
