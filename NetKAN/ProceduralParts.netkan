@@ -23,6 +23,9 @@
         { "name" : "FreedomTex" },
         { "name" : "BasicProceduralTextures" }
     ],
+    "conflicts" : [
+        { "name": "KSP-Recall" }
+    ],
     "x_netkan_override": [
         {
             "version": "v1.2.10",
