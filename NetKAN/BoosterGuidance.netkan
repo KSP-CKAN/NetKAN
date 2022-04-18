@@ -1,17 +1,19 @@
-{
-    "spec_version": "v1.4",
-    "identifier":   "BoosterGuidance",
-    "$kref":        "#/ckan/spacedock/3018",
-    "$vref":        "#/ckan/ksp-avc",
-    "license":      "GPL-3.0",
-    "tags": [
-        "plugin",
-        "control"
-    ],
-    "depends": [
-        { "name": "ModuleManager"       },
-        { "name": "SpaceTuxLibrary"     },
-        { "name": "ToolbarController"   },
-        { "name": "ClickThroughBlocker" }
-    ]
-}
+spec_version: v1.4
+identifier: BoosterGuidance
+$kref: '#/ckan/spacedock/3018'
+$vref: '#/ckan/ksp-avc'
+license: GPL-3.0
+tags:
+  - plugin
+  - control
+depends:
+  - name: ModuleManager
+  - name: SpaceTuxLibrary
+  - name: ToolbarController
+  - name: ClickThroughBlocker
+install:
+  - find: BoosterGuidance
+    install_to: GameData
+    filter: Ships
+  - find: Ships/VAB
+    install_to: Ships
