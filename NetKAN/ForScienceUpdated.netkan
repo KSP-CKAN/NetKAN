@@ -1,0 +1,25 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "ForScienceUpdated",
+    "name": "ForScience!",
+    "$kref":        "#/ckan/spacedock/3010",
+    "$vref":        "#/ckan/ksp-avc",
+    "license": "CC-BY-SA-4.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/207612-112x-forscience-your-science-autopilot-under-construction/"
+    },
+    "depends": [
+        { "name": "ToolbarController"   },
+        { "name": "ClickThroughBlocker" },
+        { "name": "SpaceTuxLibrary"     }
+    ],
+    "tags": [
+      "plugin"
+    ],
+    "install": [
+        {
+            "find": "ForScience",
+            "install_to": "GameData"
+        }
+    ]
+}
