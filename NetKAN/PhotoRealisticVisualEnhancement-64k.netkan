@@ -3,7 +3,7 @@ identifier: PhotoRealisticVisualEnhancement-64k
 name: PRVE 64k
 abstract: 64k Earth ground textures for PhotoRealisticVisualEnhancement
 $kref: '#/ckan/github/SpaceODY/PRVE/asset_match/PRVE64k-[0-9.]+\.zip'
-ksp_version: 1.10.1
+ksp_version: 1.12.3
 license: CC-BY-NC-SA-4.0
 tags:
   - config
