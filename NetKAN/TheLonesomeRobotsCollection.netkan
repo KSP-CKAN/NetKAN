@@ -1,0 +1,14 @@
+spec_version: v1.18
+identifier: TheLonesomeRobotsCollection
+$kref: '#/ckan/spacedock/3019'
+license: CC-BY-NC-SA
+tags:
+  - parts
+  - crewed
+depends:
+  - name: ModuleManager
+install:
+  - find: The-LonesomeRobots-Collection-v.0.2.0
+    install_to: GameData
+    filter: .gitignore
+x_via: Automated SpaceDock CKAN submission
