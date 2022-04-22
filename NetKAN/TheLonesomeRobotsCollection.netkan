@@ -1,0 +1,26 @@
+spec_version: v1.18
+identifier: TheLonesomeRobotsCollection
+$kref: '#/ckan/spacedock/3019'
+license: CC-BY-NC-SA
+tags:
+  - parts
+  - crewed
+depends:
+  - name: ModuleManager
+  - name: AnimatedDecouplers
+  - name: FirespitterCore
+  - name: RasterPropMonitor-Core
+  - name: TexturesUnlimited
+  - name: ASETProps
+  - name: ASETAvionics
+  - name: TDProps
+install:
+  - find: LonesomeRobots
+    install_to: GameData
+    filter: .gitignore
+  - find: README.md
+    install_to: GameData/LonesomeRobots
+    find_matches_files: true
+  - find: LICENSE.md
+    install_to: GameData/LonesomeRobots
+    find_matches_files: true
