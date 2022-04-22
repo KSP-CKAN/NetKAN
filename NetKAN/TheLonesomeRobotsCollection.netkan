@@ -7,8 +7,20 @@ tags:
   - crewed
 depends:
   - name: ModuleManager
+  - name: AnimatedDecouplers
+  - name: FirespitterCore
+  - name: RasterPropMonitor-Core
+  - name: TexturesUnlimited
+  - name: ASETProps
+  - name: ASETAvionics
+  - name: TDProps
 install:
-  - find: The-LonesomeRobots-Collection-v.0.2.0
+  - find: LonesomeRobots
     install_to: GameData
     filter: .gitignore
-x_via: Automated SpaceDock CKAN submission
+  - find: README.md
+    install_to: GameData/LonesomeRobots
+    find_matches_files: true
+  - find: LICENSE.md
+    install_to: GameData/LonesomeRobots
+    find_matches_files: true
