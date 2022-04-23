@@ -1,0 +1,23 @@
+spec_version: v1.18
+identifier: KerbolsHumbleNeighboringStars
+$kref: '#/ckan/github/parkerman-com/KHNS'
+author: 'An Amongus Sussy Player'
+ksp_version_min: '1.10'
+license: restricted
+resources:
+  homepage: https://forum.kerbalspaceprogram.com/index.php?/topic/207835-*/
+tags:
+  - plugin
+  - config
+  - planet-pack
+depends:
+  - name: Kopernicus
+  - name: ModuleManager
+  - name: VertexMitchellNetravaliHeightMap
+recommends:
+  - name: EnvironmentalVisualEnhancements
+suggests:
+  - name: Scatterer
+install:
+  - find: KHNS
+    install_to: GameData
