@@ -6,7 +6,8 @@ tags:
   - plugin
   - parts
   - crewed
+depends:
+  - name: FirespitterCore
 install:
-  - find: ''
+  - find: V2.0Industries
     install_to: GameData
-x_via: Automated SpaceDock CKAN submission
