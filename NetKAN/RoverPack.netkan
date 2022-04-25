@@ -1,0 +1,12 @@
+spec_version: v1.18
+identifier: RoverPack
+$kref: '#/ckan/spacedock/590'
+license: CC-BY-ND-4.0
+tags:
+  - plugin
+  - parts
+  - crewed
+install:
+  - find: ''
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
