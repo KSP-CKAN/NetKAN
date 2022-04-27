@@ -17,9 +17,11 @@
     ],
     "depends": [
         { "name": "ModuleManager" }
+
     ],
     "conflicts": [
-        { "name": "RemoteTech" }
+        { "name": "RemoteTech" },
+        { "name": "Kerbalism" }
     ],
     "recommends": [
         { "name": "CommNetAntennasExtension" },
