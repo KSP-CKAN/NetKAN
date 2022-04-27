@@ -8,5 +8,5 @@ tags:
 depends:
   - name: ModuleManager
 install:
-  - file: ElephantEngine
+  - find: NecroBones
     install_to: GameData
