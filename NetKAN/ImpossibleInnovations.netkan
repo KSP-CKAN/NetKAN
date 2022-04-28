@@ -1,39 +1,26 @@
-{
-    "spec_version" : "v1.16",
-    "identifier"   : "ImpossibleInnovations",
-    "$kref"        : "#/ckan/spacedock/340",
-    "$vref"        : "#/ckan/ksp-avc",
-    "license"      : "CC-BY-NC-SA-4.0",
-    "tags": [
-        "parts"
-    ],
-    "depends": [
-        { "name" : "TweakScale"    },
-        { "name" : "ModuleManager" }
-    ],
-    "install": [
-        {
-            "file":       "GameData/ImpossibleInnovations",
-            "install_to": "GameData",
-            "filter":     [ "Ships" ]
-        },
-        {
-            "find":       "Ships/VAB",
-            "install_to": "Ships"
-        },
-        {
-            "find":       "Ships/SPH",
-            "install_to": "Ships"
-        }
-    ],
-    "x_netkan_override" : [
-    {
-            "version"  : "0.8.7.2",
-            "delete"   : [ "ksp_version" ],
-            "override" : {
-                "ksp_version_min" : "1.0.4",
-                "ksp_version_max" : "1.0.5"
-            }
-        }
-    ]
-}
+spec_version: v1.16
+identifier: ImpossibleInnovations
+$kref: '#/ckan/github/net-lisias-ksp/ImpossibleInnovations'
+$vref: '#/ckan/ksp-avc'
+license: CC-BY-NC-SA-4.0
+tags:
+  - parts
+depends:
+  - name: TweakScale
+  - name: ModuleManager
+install:
+  - file: GameData/ImpossibleInnovations
+    install_to: GameData
+    filter:
+      - Ships
+  - find: Ships/VAB
+    install_to: Ships
+  - find: Ships/SPH
+    install_to: Ships
+x_netkan_override:
+  - version: 0.8.7.2
+    delete:
+      - ksp_version
+    override:
+      ksp_version_min: 1.0.4
+      ksp_version_max: 1.0.5
