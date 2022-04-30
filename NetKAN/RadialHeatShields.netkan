@@ -4,9 +4,12 @@ author:
   - CliftonM
   - zer0Kerbal
 $kref: '#/ckan/spacedock/2988'
+$vref: '#/ckan/ksp-avc'
 license: CC-BY-SA-3.0
 tags:
   - parts
+depends:
+  - name: ModuleManager
 install:
   - find: RadialHeatShields
     install_to: GameData
