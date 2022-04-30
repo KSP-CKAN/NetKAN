@@ -13,6 +13,3 @@ depends:
   - name: SpaceTuxLibrary
 recommends:
   - name: Toolbar
-install:
-  - find: ResourceOverview
-    install_to: GameData
