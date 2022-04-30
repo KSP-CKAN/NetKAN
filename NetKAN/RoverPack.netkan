@@ -1,0 +1,12 @@
+spec_version: v1.18
+identifier: RoverPack
+$kref: '#/ckan/spacedock/590'
+license: CC-BY-ND-4.0
+tags:
+  - parts
+  - crewed
+depends:
+  - name: FirespitterCore
+install:
+  - find: V2.0Industries
+    install_to: GameData

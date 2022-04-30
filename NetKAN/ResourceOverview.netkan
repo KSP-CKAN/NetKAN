@@ -1,0 +1,19 @@
+{
+  "identifier"   : "ResourceOverview",
+  "$kref"        : "#/ckan/spacedock/3021",
+  "$vref"        : "#/ckan/ksp-avc",
+  "license"      : "CC-BY-SA-4.0",
+  "recommends": [ { "name": "Toolbar" } ],
+  "depends": [
+    { "name": "ToolbarController" },
+    { "name": "ClickThroughBlocker" },
+    { "name": "SpaceTuxLibrary" }
+  ],
+  "install": [
+    {
+      "find": "ResourceOverview",
+      "install_to": "GameData"
+    }
+  ],
+  "spec_version": "v1.4"
+}
