@@ -17,7 +17,8 @@
         "comms"
     ],
     "conflicts": [
-        { "name": "RemoteTech" }
+        { "name": "RemoteTech" },
+        { "name": "Kerbalism" }
     ],
     "depends": [
         { "name": "ModuleManager" }
