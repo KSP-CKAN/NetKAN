@@ -11,8 +11,3 @@ depends:
   - name: ModuleManager
 recommends:
   - name: DeadlyReentry
-install:
-  - find: GameData/OblivionAerospace
-    install_to: GameData
-  - file: OblivionAerospace/Ships/VAB
-    install_to: Ships
