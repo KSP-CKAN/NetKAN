@@ -12,5 +12,5 @@ depends:
   - name: ModuleManager
   - name: GalaxiesUnbound-Core
 install:
-  - file: GU
+  - find: GU
     install_to: GameData

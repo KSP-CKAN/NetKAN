@@ -13,5 +13,5 @@ depends:
   - name: GalaxiesUnbound-Core
   - name: Singularity
 install:
-  - file: GU
+  - find: GU
     install_to: GameData
