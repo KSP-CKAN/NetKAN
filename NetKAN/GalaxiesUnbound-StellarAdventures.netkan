@@ -1,7 +1,7 @@
 spec_version: v1.4
-identifier: GalaxiesUnbound-Lich
-name: Galaxies Unbound - Lich
-$kref: '#/ckan/github/StarCrusher96/Galaxies-Unbound-A-Stellar-Odyssey/asset_match/Lich'
+identifier: GalaxiesUnbound-StellarAdventures
+name: Galaxies Unbound - Stellar Adventures Expansion
+$kref: '#/ckan/github/StarCrusher96/Galaxies-Unbound-A-Stellar-Odyssey/asset_match/StellarAdventures'
 license: CC-BY-NC-ND-4.0
 resources:
   homepage: https://forum.kerbalspaceprogram.com/index.php?/topic/198895-*
@@ -12,6 +12,8 @@ depends:
   - name: ModuleManager
   - name: GalaxiesUnbound-Core
   - name: Singularity
+recommends:
+  - name: INSTANTIATOR
 install:
-  - file: GU
+  - find: GU
     install_to: GameData

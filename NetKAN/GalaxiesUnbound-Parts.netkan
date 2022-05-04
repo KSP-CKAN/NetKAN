@@ -1,17 +1,15 @@
 spec_version: v1.4
-identifier: GalaxiesUnbound-Lich
-name: Galaxies Unbound - Lich
-$kref: '#/ckan/github/StarCrusher96/Galaxies-Unbound-A-Stellar-Odyssey/asset_match/Lich'
+identifier: GalaxiesUnbound-Parts
+name: Galaxies Unbound - Parts
+$kref: '#/ckan/github/StarCrusher96/Galaxies-Unbound-A-Stellar-Odyssey/asset_match/Parts'
 license: CC-BY-NC-ND-4.0
 resources:
   homepage: https://forum.kerbalspaceprogram.com/index.php?/topic/198895-*
 tags:
-  - config
-  - planet-pack
+  - parts
 depends:
   - name: ModuleManager
   - name: GalaxiesUnbound-Core
-  - name: Singularity
 install:
-  - file: GU
+  - file: GU_Parts
     install_to: GameData

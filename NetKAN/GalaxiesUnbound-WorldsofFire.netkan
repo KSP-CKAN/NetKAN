@@ -1,7 +1,8 @@
 spec_version: v1.4
-identifier: GalaxiesUnbound-Lich
-name: Galaxies Unbound - Lich
-$kref: '#/ckan/github/StarCrusher96/Galaxies-Unbound-A-Stellar-Odyssey/asset_match/Lich'
+identifier: GalaxiesUnbound-WorldsofFire
+name: Galaxies Unbound - Worlds of Fire Expansion
+abstract:
+$kref: '#/ckan/github/StarCrusher96/Galaxies-Unbound-A-Stellar-Odyssey/asset_match/WorldsofFire'
 license: CC-BY-NC-ND-4.0
 resources:
   homepage: https://forum.kerbalspaceprogram.com/index.php?/topic/198895-*
@@ -11,7 +12,8 @@ tags:
 depends:
   - name: ModuleManager
   - name: GalaxiesUnbound-Core
-  - name: Singularity
+recommends:
+  - name: INSTANTIATOR
 install:
-  - file: GU
+  - find: GU
     install_to: GameData
