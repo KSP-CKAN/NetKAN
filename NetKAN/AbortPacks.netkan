@@ -1,12 +1,12 @@
 spec_version: v1.18
 identifier: AbortPacks
 $kref: '#/ckan/spacedock/3023'
-license: CC-BY-NC-SA
 $vref: '#/ckan/ksp-avc'
+license: CC-BY-NC-SA
 tags:
   - parts
-  - graphics
-depends:
-  - name: ModuleManager
+  - crewed
+suggests:
   - name: Waterfall
-x_via: Automated SpaceDock CKAN submission
+  - name: DefaultActionGroups
+  - name: TACLS
