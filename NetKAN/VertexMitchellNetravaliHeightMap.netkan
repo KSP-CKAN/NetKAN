@@ -1,0 +1,17 @@
+spec_version: v1.18
+identifier: VertexMitchellNetravaliHeightMap
+name: Vertex Mitchell-Netravali Filtered Heightmap
+$kref: '#/ckan/github/pkmniako/Kopernicus_VertexMitchellNetravaliHeightMap'
+ksp_version: '1.12'
+license: MIT
+resources:
+  homepage: https://forum.kerbalspaceprogram.com/index.php?/topic/207768-*/
+tags:
+  - plugin
+  - library
+  - graphics
+depends:
+  - name: Kopernicus
+install:
+  - find: MitchellNetravali
+    install_to: GameData/000_NiakoUtils

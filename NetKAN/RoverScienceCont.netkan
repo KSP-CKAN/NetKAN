@@ -13,6 +13,9 @@
         "install_to": "GameData"
     } ],
     "depends": [
-        { "name": "ModuleManager" }
+        { "name" : "ToolbarController" },
+        { "name" : "ClickThroughBlocker" },
+        { "name" : "SpaceTuxLibrary" },
+        { "name" : "ModuleManager" }
     ]
 }

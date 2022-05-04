@@ -1,0 +1,14 @@
+spec_version: v1.18
+identifier: AbortPacks
+$kref: '#/ckan/spacedock/3023'
+$vref: '#/ckan/ksp-avc'
+license: CC-BY-NC-SA
+tags:
+  - parts
+  - crewed
+depends:
+  - name: ModuleManager
+suggests:
+  - name: Waterfall
+  - name: DefaultActionGroups
+  - name: TACLS

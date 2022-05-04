@@ -1,0 +1,23 @@
+spec_version: v1.18
+identifier: NTChineseRocketsPack
+$kref: '#/ckan/spacedock/3016'
+license: MIT
+tags:
+  - parts
+  - crewed
+  - graphics
+depends:
+  - name: ModuleManager
+  - name: B9PartSwitch
+  - name: Waterfall
+  - name: ComfortableLanding
+recommends:
+  - name: KerbalJointReinforcement
+install:
+  - find: NTCP
+    install_to: GameData
+  - find: Readme.txt
+    find_matches_files: true
+    install_to: GameData/NTCP
+  - find: ICSP
+    install_to: GameData

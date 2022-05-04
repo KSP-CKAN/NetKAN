@@ -1,4 +1,4 @@
-spec_version: 1
+spec_version: v1.4
 identifier: ElephantEngine
 $kref: '#/ckan/spacedock/664'
 $vref: '#/ckan/ksp-avc'
@@ -8,5 +8,5 @@ tags:
 depends:
   - name: ModuleManager
 install:
-  - file: ElephantEngine
+  - find: NecroBones
     install_to: GameData
