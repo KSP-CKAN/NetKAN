@@ -6,6 +6,8 @@ license: CC-BY-NC-SA
 tags:
   - parts
   - crewed
+depends:
+  - name: ModuleManager
 suggests:
   - name: Waterfall
   - name: DefaultActionGroups
