@@ -1,26 +1,18 @@
-{
-    "spec_version": "v1.16",
-    "identifier": "SSTUWaterfallConfig",
-    "license": "MIT",
-    "$kref": "#/ckan/spacedock/2776",
-    "$vref": "#/ckan/ksp-avc",
-    "release_status": "stable",
-    "tags": [
-        "config",
-        "graphics"
-    ],
-    "conflicts": [
-        { "name": "RealPlume" }
-    ],
-    "depends": [
-        { "name": "ModuleManager" },
-        { "name": "SSTU"          },
-        { "name": "Waterfall"     }
-    ],
-    "install": [
-        {
-            "file": "SSTUWaterfall",
-            "install_to": "GameData"
-        }
-    ]
-}
+spec_version: v1.16
+identifier: SSTUWaterfallConfig
+$kref: '#/ckan/spacedock/2776'
+$vref: '#/ckan/ksp-avc'
+release_status: stable
+license: MIT
+tags:
+  - config
+  - graphics
+conflicts:
+  - name: RealPlume
+depends:
+  - name: ModuleManager
+  - name: SSTU
+  - name: Waterfall
+install:
+  - file: SSTUWaterfall
+    install_to: GameData

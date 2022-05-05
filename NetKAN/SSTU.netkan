@@ -1,28 +1,21 @@
-{
-    "spec_version": "v1.4",
-    "identifier": "SSTU",
-    "license": "unknown",
-    "$kref": "#/ckan/github/shadowmage45/SSTULabs",
-    "$vref": "#/ckan/ksp-avc",
-    "tags": [
-        "parts"
-    ],
-    "conflicts": [
-        { "name": "KRnD" }
-    ],
-    "depends": [
-        { "name": "CommunityResourcePack" },
-        { "name": "KSPWheel"              },
-        { "name": "ModuleManager"         },
-        { "name": "TexturesUnlimited"     }
-    ],
-    "recommends": [
-        { "name": "RealPlume" }
-    ],
-    "install": [
-        {
-            "file": "GameData/SSTU",
-            "install_to": "GameData"
-        }
-    ]
-}
+spec_version: v1.4
+identifier: SSTU
+$kref: '#/ckan/github/shadowmage45/SSTULabs'
+$vref: '#/ckan/ksp-avc'
+license: unknown
+resources:
+  homepage: https://forum.kerbalspaceprogram.com/index.php?/topic/117090-*
+tags:
+  - parts
+conflicts:
+  - name: KRnD
+depends:
+  - name: ModuleManager
+  - name: CommunityResourcePack
+  - name: KSPWheel
+  - name: TexturesUnlimited
+recommends:
+  - name: RealPlume
+install:
+  - file: GameData/SSTU
+    install_to: GameData
