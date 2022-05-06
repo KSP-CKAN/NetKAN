@@ -1,0 +1,17 @@
+spec_version: v1.4
+identifier: GalaxiesUnbound-AlphaCentauri
+name: Galaxies Unbound - Alpha Centauri
+abstract: Alpha Centauri system
+$kref: '#/ckan/github/StarCrusher96/Galaxies-Unbound-A-Stellar-Odyssey/asset_match/AlphaCentauri'
+license: CC-BY-NC-ND-4.0
+resources:
+  homepage: https://forum.kerbalspaceprogram.com/index.php?/topic/198895-*
+tags:
+  - config
+  - planet-pack
+depends:
+  - name: ModuleManager
+  - name: GalaxiesUnbound-Core
+install:
+  - find: GU
+    install_to: GameData
