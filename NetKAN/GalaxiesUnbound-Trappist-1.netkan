@@ -1,0 +1,17 @@
+spec_version: v1.4
+identifier: GalaxiesUnbound-Trappist-1
+name: Galaxies Unbound - Trappist 1
+abstract: Trappist-1 system
+$kref: '#/ckan/github/StarCrusher96/Galaxies-Unbound-A-Stellar-Odyssey/asset_match/Trappist-1'
+license: CC-BY-NC-ND-4.0
+resources:
+  homepage: https://forum.kerbalspaceprogram.com/index.php?/topic/198895-*
+tags:
+  - config
+  - planet-pack
+depends:
+  - name: ModuleManager
+  - name: GalaxiesUnbound-Core
+install:
+  - find: GU
+    install_to: GameData

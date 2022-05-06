@@ -1,0 +1,20 @@
+spec_version: v1.4
+identifier: GalaxiesUnbound-Core
+$kref: '#/ckan/github/StarCrusher96/Galaxies-Unbound-A-Stellar-Odyssey/asset_match/Core'
+ksp_version_min: 1.11
+ksp_version_max: 1.12
+license: CC-BY-NC-ND-4.0
+resources:
+  homepage: https://forum.kerbalspaceprogram.com/index.php?/topic/198895-*
+tags:
+  - config
+  - planet-pack
+depends:
+  - name: ModuleManager
+  - name: Kopernicus
+recommends:
+  - name: EnvironmentalVisualEnhancements
+  - name: Scatterer
+install:
+  - find: GU
+    install_to: GameData
