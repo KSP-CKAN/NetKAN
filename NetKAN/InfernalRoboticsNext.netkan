@@ -21,14 +21,16 @@
         { "name": "KerbalJointReinforcement" }
     ],
     "depends": [
-        { "name": "ModuleManager" }
+        { "name": "ModuleManager" },
+        { "name": "TweakScale-Redist" }
     ],
     "recommends"     : [
         { "name": "KerbalJointReinforcementNext" }
     ],
     "install"        : [ {
         "file"       : "GameData/MagicSmokeIndustries",
-        "install_to" : "GameData"
+        "install_to" : "GameData",
+        "filter"     : "Scale_Redist.dll"
     } ],
     "x_netkan_override": [ {
         "version": "v3.0.0",
