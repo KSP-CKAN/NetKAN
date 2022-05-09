@@ -20,13 +20,14 @@
     "conflicts" : [ { "name" : "AerodynamicModel" } ],
     "depends" : [
         { "name" : "ModuleManager" },
-        { "name" : "ModularFlightIntegrator" }
+        { "name" : "ModularFlightIntegrator" },
+        { "name" : "TweakScale-Redist" }
     ],
     "install" : [
         {
             "file"       : "GameData/FerramAerospaceResearch",
             "install_to" : "GameData",
-            "filter"     : "config.xml"
+            "filter"     : [ "config.xml", "Scale_Redist.dll" ]
         },
         {
             "file"        : "Ships",
