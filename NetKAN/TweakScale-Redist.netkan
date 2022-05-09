@@ -1,7 +1,7 @@
 spec_version: v1.8
 identifier: TweakScale-Redist
 name: TweakScale Redistributable
-abstract: A library for other mods to integrate with TweakScale
+abstract: A library for other mods to integrate with TweakScale. Does not provide the actual TweakScale features.
 author:
   - Biotronic
   - pellinor

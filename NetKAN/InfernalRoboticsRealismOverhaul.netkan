@@ -17,12 +17,12 @@
         { "name": "InfernalRobotics-LegacyParts" }
     ],
     "depends": [
-        { "name": "ModuleManager" },
+        { "name": "ModuleManager"     },
         { "name": "TweakScale-Redist" }
     ],
     "install": [ {
         "find":       "MagicSmokeIndustries",
         "install_to": "GameData",
-        "filter"     : "Scale_Redist.dll"
+        "filter":     "Scale_Redist.dll"
     } ]
 }
