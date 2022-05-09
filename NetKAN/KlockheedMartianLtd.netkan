@@ -1,0 +1,11 @@
+spec_version: v1.18
+identifier: KlockheedMartianLtd
+$kref: '#/ckan/spacedock/3025'
+license: CC-BY-ND-4.0
+$vref: '#/ckan/ksp-avc'
+tags:
+  - config
+install:
+  - find: KlockheedMartian
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
