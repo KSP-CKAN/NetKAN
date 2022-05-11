@@ -10,6 +10,7 @@ depends:
   - name: SpaceDust
   - name: CommunityResourcePack
 recommends:
-  - name: GalaxiesUnbound
+  - name: GalaxiesUnbound-Core
   - name: OuterPlanetsMod
+suggests:
   - name: BlueShift
