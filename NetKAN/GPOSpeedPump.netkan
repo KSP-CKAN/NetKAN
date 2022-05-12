@@ -1,0 +1,32 @@
+{
+    "spec_version"     : "v1.2",
+    "identifier"       : "GPOSpeedPump",
+    "name"             : "Goo Pumps & Oils' Speed Pump",
+    "abstract"         : "Allows you to automatically transfer or balance fuel.",
+    "author"           : [ "Gaius Goodspeed", "Geordiepigeonowner", "hab136", "LisiasT", "zer0Kerbal" ],
+    "$kref"            : "#/ckan/spacedock/546",
+    "$vref"            : "#/ckan/ksp-avc",
+    "x_netkan_force_v" : true,
+    "license"          : "GPLv3",
+    "release_status"   : "stable",
+    "resources": {
+        "homepage":   "https://net-lisias-ksp.github.io/GPOSpeedPump/",
+        "repository": "https://github.com/net-lisias-ksp/GPOSpeedPump"
+    },
+    "tags": [
+        "plugin",
+        "utility"
+    ],
+    "install" : [ {
+        "file" : "GPOSpeedPump",
+        "install_to" : "GameData"
+    } ],
+    "depends" : [
+        { "name" : "ModuleManager" }
+    ],
+    "provides" : [
+        "GPOSpeedPump",
+        "Goodspeed",
+        "GPOSpeedFuelPump"
+    ]
+}
