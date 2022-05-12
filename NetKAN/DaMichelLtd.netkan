@@ -4,6 +4,8 @@ $kref: '#/ckan/spacedock/3027'
 license: CC-BY-SA-4.0
 $vref: '#/ckan/ksp-avc'
 tags:
+  - agency
+  - flags
   - config
 install:
   - find: DaMichel
