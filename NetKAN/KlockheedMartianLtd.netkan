@@ -4,6 +4,8 @@ $kref: '#/ckan/spacedock/3025'
 license: CC-BY-ND-4.0
 $vref: '#/ckan/ksp-avc'
 tags:
+  - agency
+  - flags
   - config
 install:
   - find: KlockheedMartian
