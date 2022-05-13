@@ -11,8 +11,9 @@ depends:
 install:
   - find: FoxDefenseContracts
     install_to: GameData
-    filter_regexp:
-      - \.git
-      - FoxDefenseContracts/FoxDefenseContracts
-  - find: FoxDefenseContracts/FoxDefenseContracts
+  - find: FDC_Armor
     install_to: GameData
+  - file: GameData/Changelog.txt
+    install_to: GameData/FoxDefenseContracts
+  - file: GameData/README.md
+    install_to: GameData/FoxDefenseContracts
