@@ -9,13 +9,9 @@
     "x_netkan_force_v" : true,
     "license"          : "GPL-3.0",
     "release_status"   : "stable",
-    "resources": {
-        "homepage":   "https://net-lisias-ksp.github.io/GPOSpeedPump/",
-        "repository": "https://github.com/net-lisias-ksp/GPOSpeedPump"
-    },
     "tags": [
         "plugin",
-        "utility"
+        "resources"
     ],
     "install" : [ {
         "file" : "GameData/GPOSpeedPump",
@@ -25,7 +21,6 @@
         { "name" : "ModuleManager" }
     ],
     "provides" : [
-        "GPOSpeedPump",
         "Goodspeed",
         "GPOSpeedFuelPump"
     ]
