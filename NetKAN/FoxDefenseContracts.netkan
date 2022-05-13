@@ -8,6 +8,3 @@ tags:
 depends:
   - name: ModuleManager
   - name: BDArmoryContinued
-install:
-  - find: FoxDefenseContracts
-    install_to: GameData
