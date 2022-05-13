@@ -13,6 +13,6 @@ install:
     install_to: GameData
     filter:
       - .git
-      - FoxDefenseContracts
+      - FoxDefenseContracts/FoxDefenseContracts
   - find: FoxDefenseContracts/FoxDefenseContracts
     install_to: GameData
