@@ -1,36 +1,29 @@
-{
-    "spec_version": "v1.4",
-    "identifier":   "DeepFreeze",
-    "$kref":        "#/ckan/spacedock/142",
-    "$vref":        "#/ckan/ksp-avc",
-    "license":      "CC-BY-NC-SA-4.0",
-    "x_via":        "Author JPLRepo",
-    "tags": [
-        "plugin",
-        "crewed"
-    ],
-    "depends": [
-        { "name": "ModuleManager",
-          "min_version": "2.3.5"          },
-        { "name": "REPOSoftTech-Agencies" },
-        { "name": "CommunityResourcePack" }
-    ],
-    "recommends": [
-        { "name": "Toolbar"              },
-        { "name": "RasterPropMonitor"    },
-        { "name": "BackgroundProcessing" },
-        { "name": "ShipManifest"         },
-        { "name": "ConnectedLivingSpace" },
-        { "name": "AmpYearPowerManager"  },
-        { "name": "BackgroundResources"  }
-    ],
-    "suggests": [
-        { "name": "USI-LS" },
-        { "name": "TACLS"  },
-        { "name": "Snacks" }
-    ],
-    "install": [ {
-        "find":       "REPOSoftTech/DeepFreeze",
-        "install_to": "GameData/REPOSoftTech"
-    } ]
-}
+spec_version: v1.4
+identifier: DeepFreeze
+$kref: '#/ckan/spacedock/142'
+$vref: '#/ckan/ksp-avc'
+license: CC-BY-NC-SA-4.0
+x_via: Author JPLRepo
+tags:
+  - plugin
+  - crewed
+depends:
+  - name: ModuleManager
+    min_version: 2.3.5
+  - name: REPOSoftTech-Agencies
+  - name: CommunityResourcePack
+  - name: BackgroundResources
+recommends:
+  - name: Toolbar
+  - name: RasterPropMonitor
+  - name: BackgroundProcessing
+  - name: ShipManifest
+  - name: ConnectedLivingSpace
+  - name: AmpYearPowerManager
+suggests:
+  - name: USI-LS
+  - name: TACLS
+  - name: Snacks
+install:
+  - find: REPOSoftTech/DeepFreeze
+    install_to: GameData/REPOSoftTech
