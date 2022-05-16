@@ -13,11 +13,10 @@ tags:
 depends:
   - name: Kopernicus
   - name: ModuleManager
+  - name: Scatterer
   - name: VertexMitchellNetravaliHeightMap
 recommends:
   - name: EnvironmentalVisualEnhancements
-suggests:
-  - name: Scatterer
 install:
   - find: KHNS
     install_to: GameData
