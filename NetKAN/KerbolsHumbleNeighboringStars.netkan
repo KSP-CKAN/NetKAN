@@ -10,6 +10,9 @@ tags:
   - plugin
   - config
   - planet-pack
+provides:
+  - Scatterer-config
+  - Scatterer-sunflare
 depends:
   - name: Kopernicus
   - name: ModuleManager
