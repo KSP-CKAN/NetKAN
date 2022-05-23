@@ -1,19 +1,19 @@
-{
-    "spec_version": "v1.4",
-    "identifier": "FoxDefenseContracts",
-    "$kref": "#/ckan/spacedock/1455",
-    "license": "CC-BY-SA-4.0",
-    "tags": [
-        "parts",
-        "combat"
-    ],
-    "depends": [
-        { "name": "BDArmoryContinued" }
-    ],
-    "install": [
-        {
-            "find": "FoxDefenseContracts",
-            "install_to": "GameData"
-        }
-    ]
-}
+spec_version: v1.10
+identifier: FoxDefenseContracts
+$kref: '#/ckan/spacedock/1455'
+license: CC-BY-SA-4.0
+tags:
+  - parts
+  - combat
+depends:
+  - name: ModuleManager
+  - name: BDArmoryContinued
+install:
+  - find: FoxDefenseContracts
+    install_to: GameData
+  - find: FDC_Armor
+    install_to: GameData
+  - file: GameData/Changelog.txt
+    install_to: GameData/FoxDefenseContracts
+  - file: GameData/README.md
+    install_to: GameData/FoxDefenseContracts
