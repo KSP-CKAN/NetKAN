@@ -1,15 +1,10 @@
-{
-    "spec_version": "v1.4",
-    "license": "CC-BY-SA-4.0",
-    "$kref": "#/ckan/spacedock/98",
-    "identifier": "Antennas",
-    "install": [
-        {
-            "find"       : "GameData/PhantomAerospace",
-            "install_to" : "GameData"
-        }
-    ]
-    "resources": {
-        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/207329-*/"
-    }
-}
+spec_version: v1.4
+$kref: '#/ckan/spacedock/98'
+$vref: '#/ckan/ksp-avc'
+identifier: Antennas
+license: CC-BY-SA-4.0
+install:
+  - find: GameData/PhantomAerospace
+    install_to: GameData
+resources:
+  homepage: https://forum.kerbalspaceprogram.com/index.php?/topic/207329-*/
