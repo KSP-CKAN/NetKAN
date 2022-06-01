@@ -1,0 +1,16 @@
+spec_version: v1.18
+identifier: ExperimentsTakeTime
+$kref: '#/ckan/spacedock/3033'
+license: GPL-3.0
+$vref: '#/ckan/ksp-avc'
+tags:
+  - plugin
+  - config
+depends:
+  - name: ModuleManager
+  - name: SpaceTuxLibrary
+install:
+  - find: ExperimentsTakeTime
+    install_to: GameData
+    filter_regexp: \.mdb$
+x_via: Automated SpaceDock CKAN submission
