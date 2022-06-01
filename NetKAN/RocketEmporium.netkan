@@ -19,3 +19,5 @@ install:
       - TDx.TDxInput.dll
       - UnityEngine.dll
       - UnityEngine.UI.dll
+    filter_regexp:
+      - \.pdb$
