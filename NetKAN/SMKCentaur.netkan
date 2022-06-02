@@ -16,5 +16,3 @@ install:
     install_to: GameData/AtomicTech
   - find: README.md
     install_to: GameData/AtomicTech
-    
-  
