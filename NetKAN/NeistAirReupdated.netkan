@@ -1,0 +1,11 @@
+spec_version: v1.18
+identifier: NeistAirReupdated
+$kref: '#/ckan/spacedock/3034'
+license: CC-BY-SA
+tags:
+  - parts
+  - crewed
+install:
+  - find: NeistAir
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
