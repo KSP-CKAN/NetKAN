@@ -6,9 +6,15 @@ tags:
   - parts
   - graphics
 depends:
+  - name: MakingHistory-DLC
   - name: ModuleManager
   - name: Waterfall
 install:
-  - find: SMK-Centaur-v.0.4.0
+  - find: AtomicTech
     install_to: GameData
-x_via: Automated SpaceDock CKAN submission
+  - find: LICENSE.md
+    install_to: GameData/AtomicTech
+  - find: README.md
+    install_to: GameData/AtomicTech
+    
+  
