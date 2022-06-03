@@ -1,5 +1,5 @@
 {
-    "spec_version": "v1.4",
+    "spec_version": "v1.3",
     "identifier":   "ChineseSpacecraftPack",
     "$kref":        "#/ckan/spacedock/1522",
     "license":      "CC-BY-SA-4.0",
@@ -9,8 +9,7 @@
     "depends": [
         { "name": "RasterPropMonitor" },
         { "name": "KIS" },
-        { "name": "RealChute" },
-        { "name": "ComfortableLanding" }
+        { "name": "RealChute" }
     ],
     "install": [
         {
