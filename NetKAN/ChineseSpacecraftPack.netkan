@@ -10,16 +10,11 @@
         { "name": "RasterPropMonitor" },
         { "name": "KIS" },
         { "name": "RealChute" },
-        { "name": "ComfortableLanding" }
     ],
     "install": [
         {
             "find": "ICSP",
             "install_to": "GameData"
         },
-        {
-            "find": "Ships/VAB",
-            "install_to": "Ships"
-        }
     ]
 }
