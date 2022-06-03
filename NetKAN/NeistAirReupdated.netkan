@@ -8,4 +8,5 @@ tags:
 install:
   - find: NeistAir
     install_to: GameData
-x_via: Automated SpaceDock CKAN submission
+  - find: README.txt
+    install_to: GameData/NeistAir
