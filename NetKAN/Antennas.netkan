@@ -1,0 +1,9 @@
+identifier: Antennas
+$kref: '#/ckan/spacedock/98'
+$vref: '#/ckan/ksp-avc'
+tags:
+  - parts
+  - comms
+install:
+  - find: GameData/PhantomAerospace
+    install_to: GameData
