@@ -10,7 +10,6 @@ depends:
   - name: ModuleManager
   - name: B9PartSwitch
   - name: Waterfall
-  - name: ComfortableLanding
 recommends:
   - name: KerbalJointReinforcement
 install:
@@ -19,5 +18,3 @@ install:
   - find: Readme.txt
     find_matches_files: true
     install_to: GameData/NTCP
-  - find: ICSP
-    install_to: GameData
