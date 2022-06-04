@@ -1,20 +1,15 @@
-{
-    "spec_version": "v1.4",
-    "identifier":   "ChineseSpacecraftPack",
-    "$kref":        "#/ckan/spacedock/1522",
-    "license":      "CC-BY-SA-4.0",
-    "tags": [
-        "parts"
-    ],
-    "depends": [
-        { "name": "RasterPropMonitor" },
-        { "name": "KIS" },
-        { "name": "RealChute" },
-    ],
-    "install": [
-        {
-            "find": "ICSP",
-            "install_to": "GameData"
-        },
-    ]
-}
+spec_version: v1.4
+identifier: ChineseSpacecraftPack
+$kref: '#/ckan/spacedock/1522'
+$vref: '#/ckan/ksp-avc'
+license: CC-BY-SA-4.0
+tags:
+  - parts
+depends:
+  - name: ModuleManager
+  - name: RasterPropMonitor
+  - name: KIS
+  - name: RealChute
+install:
+  - find: ICSP
+    install_to: GameData
