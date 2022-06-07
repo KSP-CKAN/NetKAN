@@ -8,5 +8,5 @@ tags:
 depends:
   - name: TUFX
 install:
-  - find: "Sigma's Mods"
+  - find: "Sigma's TUFX Profiles"
     install_to: GameData

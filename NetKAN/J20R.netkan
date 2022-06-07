@@ -4,6 +4,8 @@ $kref: '#/ckan/spacedock/2955'
 license: MIT
 tags:
   - parts
+depends:
+  - name: ModuleManager
 install:
   - find: LuhatOrbitalProducts
     install_to: GameData

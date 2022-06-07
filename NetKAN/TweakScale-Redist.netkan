@@ -1,0 +1,20 @@
+spec_version: v1.8
+identifier: TweakScale-Redist
+name: TweakScale Redistributable
+abstract: A library for other mods to integrate with TweakScale. Does not provide the actual TweakScale features.
+author:
+  - Biotronic
+  - pellinor
+  - LisiasT
+$kref: '#/ckan/spacedock/127'
+$vref: '#/ckan/ksp-avc/GameData/TweakScale/TweakScale.version'
+x_netkan_force_v: true
+license:
+  - WTFPL
+release_status: stable
+tags:
+  - plugin
+  - library
+install:
+  - file: GameData/999_Scale_Redist.dll
+    install_to: GameData

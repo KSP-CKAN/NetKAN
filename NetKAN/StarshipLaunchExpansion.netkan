@@ -1,6 +1,7 @@
 spec_version: v1.4
 identifier: StarshipLaunchExpansion
 $kref: '#/ckan/spacedock/2814'
+$vref: '#/ckan/ksp-avc'
 license: MIT
 tags:
   - parts
@@ -8,6 +9,6 @@ depends:
   - name: ModuleManager
   - name: B9PartSwitch
 recommends:
-  - name: StarshipLaunchExpansion
+  - name: StarshipExpansionProject
   - name: HangarExtender
   - name: KerbalKonstructs

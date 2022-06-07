@@ -1,0 +1,23 @@
+spec_version: v1.2
+identifier: GPOSpeedPump
+name: Goo Pumps & Oils' Speed Pump
+abstract: Allows you to automatically transfer or balance fuel.
+author:
+  - Gaius Goodspeed
+  - Geordiepigeonowner
+  - hab136
+  - LisiasT
+  - zer0Kerbal
+$kref: '#/ckan/spacedock/546'
+$vref: '#/ckan/ksp-avc'
+x_netkan_force_v: true
+license: GPL-3.0
+release_status: stable
+tags:
+  - plugin
+  - resources
+depends:
+  - name: ModuleManager
+provides:
+  - Goodspeed
+  - GPOSpeedFuelPump
