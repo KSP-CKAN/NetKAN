@@ -9,6 +9,8 @@ tags:
 depends:
   - name: ModuleManager
   - name: SpaceTuxLibrary
+  - name: ToolbarController
+  - name: ClickThroughBlocker
 install:
   - find: ExperimentsTakeTime
     install_to: GameData
