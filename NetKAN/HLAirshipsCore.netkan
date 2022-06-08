@@ -1,0 +1,21 @@
+spec_version: v1.18
+identifier: HLAirshipsCore
+$kref: '#/ckan/spacedock/3040'
+license: MIT
+$vref: '#/ckan/ksp-avc'
+tags:
+  - plugin
+  - parts
+depends:
+  - name: ModuleManager
+install:
+  - find: HLAirshipsCore
+    install_to: GameData
+    filter_regexp: \.craft$
+  - file: Ships/SPH/ScienceFloater.craft
+    install_to: Ships/SPH
+  - file: Ships/SPH/HLA Simple Test.craft
+    install_to: Ships/SPH
+  - file: Ships/SPH/Panorama Blimp.craft
+    install_to: Ships/SPH
+x_via: Automated SpaceDock CKAN submission
