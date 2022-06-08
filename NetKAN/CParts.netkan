@@ -1,19 +1,17 @@
-{
-    "spec_version": "v1.4",
-    "identifier":   "CParts",
-    "$kref":        "#/ckan/spacedock/2638",
-    "license":      "CC-BY-NC-SA-4.0",
-    "tags": [
-        "parts"
-    ],
-    "install": [ {
-        "find":       "GameData/CParts",
-        "install_to": "GameData"
-    }, {
-        "find":       "Ships/@thumbs",
-        "install_to": "Ships"
-    }, {
-        "find":       "Ships/VAB",
-        "install_to": "Ships"
-    } ]
-}
+spec_version: v1.4
+identifier: CParts
+$kref: '#/ckan/spacedock/2638'
+license: CC-BY-NC-SA-4.0
+tags:
+  - parts
+depends:
+  - name: ModuleManager
+  - name: Waterfall
+recommends:
+  - name: PersistentRotation
+suggests:
+  - name: StockWaterfallEffects
+  - name: SRBWaterfallEffects
+install:
+  - find: GameData/CParts
+    install_to: GameData
