@@ -1,13 +1,27 @@
-
-    {
-        "spec_version" : "v1.16",
-        "identifier" : "USITools",
-        "$kref" : "#/ckan/netkan/https://raw.githubusercontent.com/UmbraSpaceIndustries/CKAN/master/USITools.netkan",
-        "x_netkan_license_ok": true,
-        "tags": [
-            "plugin",
-            "library",
-            "crewed",
-            "graphics"
-        ]
-    }
+spec_version: 1
+identifier: USITools
+name: USI Tools
+abstract: Common libraries for Umbra Space Industries mods
+author: RoverDude
+$kref: '#/ckan/github/UmbraSpaceIndustries/USITools'
+$vref: '#/ckan/ksp-avc/GameData/000_USITools/USITools.version'
+license: restricted
+release_status: stable
+resources:
+  manual: http://umbraspaceindustries.github.io/UmbraSpaceIndustries/
+tags:
+  - plugin
+  - library
+  - crewed
+  - graphics
+provides:
+  - USI-Tools
+conflicts:
+  - name: SETI-CommunityTechTree
+depends:
+  - name: ModuleManager
+install:
+  - file: GameData/000_USITools
+    install_to: GameData
+  - find: UmbraSpaceIndustries/FX
+    install_to: GameData/UmbraSpaceIndustries

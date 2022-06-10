@@ -1,9 +1,32 @@
-{
-    "spec_version": "v1.16",
-    "identifier": "USI-EXP",
-    "$kref": "#/ckan/netkan/https://raw.githubusercontent.com/UmbraSpaceIndustries/CKAN/master/USI-EXP.netkan",
-    "x_netkan_license_ok": true,
-    "tags": [
-        "parts"
-    ]
-}
+spec_version: v1.4
+identifier: USI-EXP
+name: USI Exploration Pack
+abstract: PackRat Rover and parts geared towards planetary exploration
+author: RoverDude
+$kref: '#/ckan/github/UmbraSpaceIndustries/ExplorationPack'
+$vref: '#/ckan/ksp-avc'
+license: restricted
+release_status: stable
+resources:
+  homepage: https://forum.kerbalspaceprogram.com/index.php?/topic/78242-*
+  manual: https://umbraspaceindustries.github.io/UmbraSpaceIndustries/
+tags:
+  - parts
+depends:
+  - name: FirespitterCore
+    min_version: v7.6.0
+  - name: ModuleManager
+    min_version: 2.8.0
+  - name: USITools
+    min_version: 0.9.0.0
+  - name: CommunityResourcePack
+    min_version: 0.7.0.0
+conflicts:
+  - name: SETI-CommunityTechTree
+install:
+  - find: UmbraSpaceIndustries/ExpPack
+    install_to: GameData/UmbraSpaceIndustries
+  - find: UmbraSpaceIndustries/SrvPack
+    install_to: GameData/UmbraSpaceIndustries
+  - find: UmbraSpaceIndustries/SubPack/Otter
+    install_to: GameData/UmbraSpaceIndustries/SubPack

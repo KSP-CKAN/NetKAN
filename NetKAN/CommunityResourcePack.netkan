@@ -1,12 +1,18 @@
-
-    {
-        "spec_version" : "v1.16",
-        "identifier" : "CommunityResourcePack",
-        "$kref" : "#/ckan/netkan/https://raw.githubusercontent.com/UmbraSpaceIndustries/CKAN/master/CommunityResourcePack.netkan",
-        "tags": [
-            "config",
-            "library",
-            "resources"
-        ],
-        "x_netkan_license_ok": true
-    }
+spec_version: 1
+identifier: CommunityResourcePack
+name: Community Resource Pack
+abstract: Common resources for KSP mods
+author: RoverDude
+$kref: '#/ckan/github/UmbraSpaceIndustries/CommunityResourcePack'
+$vref: '#/ckan/ksp-avc'
+license: CC-BY-NC-SA-4.0
+release_status: stable
+resources:
+  homepage: https://forum.kerbalspaceprogram.com/index.php?/topic/83007-*
+  manual: https://umbraspaceindustries.github.io/UmbraSpaceIndustries/
+tags:
+  - config
+  - library
+  - resources
+depends:
+  - name: ModuleManager

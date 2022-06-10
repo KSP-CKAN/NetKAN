@@ -1,11 +1,31 @@
-{
-    "spec_version" : "v1.16",
-    "identifier" : "USI-LS",
-    "$kref" : "#/ckan/netkan/https://raw.githubusercontent.com/UmbraSpaceIndustries/CKAN/master/USI-LS.netkan",
-    "x_netkan_license_ok": true,
-    "tags": [
-        "plugin",
-        "parts",
-        "crewed"
-    ]
-}
+spec_version: v1.4
+identifier: USI-LS
+name: USI Life Support
+abstract: UmbraSpaceIndustries take on life support
+author: RoverDude
+$kref: '#/ckan/github/UmbraSpaceIndustries/USI-LS'
+$vref: '#/ckan/ksp-avc'
+license: restricted
+release_status: stable
+resources:
+  homepage: https://forum.kerbalspaceprogram.com/index.php?/topic/105202-*
+  manual: https://umbraspaceindustries.github.io/UmbraSpaceIndustries/
+tags:
+  - plugin
+  - parts
+  - crewed
+depends:
+  - name: ModuleManager
+    min_version: 2.8.0
+  - name: USITools
+    min_version: 0.9.0.0
+  - name: CommunityResourcePack
+    min_version: 0.7.0.0
+  - name: CommunityCategoryKit
+    min_version: 2.0.0.0
+conflicts:
+  - name: SETI-CommunityTechTree
+  - name: TACLS
+install:
+  - find: UmbraSpaceIndustries/LifeSupport
+    install_to: GameData/UmbraSpaceIndustries
