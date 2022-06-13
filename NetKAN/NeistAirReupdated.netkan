@@ -10,5 +10,3 @@ recommends:
 install:
   - find: NeistAir
     install_to: GameData
-  - find: README.txt
-    install_to: GameData/NeistAir
