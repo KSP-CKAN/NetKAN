@@ -8,5 +8,3 @@ install:
   - find: RND
     install_to: GameData
     filter_regexp: \.craft$
-  - file: RND/RND.craft
-    install_to: Ships/SPH
