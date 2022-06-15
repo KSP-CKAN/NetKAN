@@ -1,17 +1,16 @@
 spec_version: v1.18
 identifier: RocketMotorMenagerie
 $kref: '#/ckan/spacedock/2729'
-license: Creative-Commons-Attribution-NonCommercial-ShareAlike-4.0-International-License
 $vref: '#/ckan/ksp-avc'
+license: CC-BY-NC-SA-4.0
 tags:
-  - plugin
   - parts
   - graphics
 depends:
   - name: ModuleManager
   - name: B9PartSwitch
+  - name: CommunityResourcePack
+  - name: DeployableEngines
+recommends:
+  - name: CryoTanks
   - name: Waterfall
-install:
-  - find: GameData/RocketMotorMenagerie
-    install_to: GameData
-x_via: Automated SpaceDock CKAN submission
