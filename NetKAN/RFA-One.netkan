@@ -12,6 +12,8 @@ install:
     install_to: GameData
   - file: Kerbal Space Program/Ships/VAB
     install_to: Ships
+  - file: Kerbal Space Program/Ships/@thumbs
+    install_to: Ships
   - find_regexp: saves/scenarios/.*\.sfs$
     find_matches_files: true
     install_to: Scenarios
