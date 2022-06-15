@@ -1,17 +1,19 @@
 spec_version: v1.18
 identifier: EisenhowerAstronautics
 $kref: '#/ckan/spacedock/2632'
-license: Creative-Commons-Attribution-NonCommercial-ShareAlike-4.0-International-License
-$vref: '#/ckan/ksp-avc'
+license: CC-BY-NC-SA-4.0
 tags:
-  - plugin
   - parts
   - graphics
 depends:
   - name: ModuleManager
   - name: B9PartSwitch
+  - name: CommunityResourcePack
+  - name: DeployableEngines
+  - name: SimpleAdjustableFairings
+recommends:
+  - name: CryoTanks
   - name: Waterfall
 install:
-  - find: ''
+  - find: Eisenhower-Astronautics
     install_to: GameData
-x_via: Automated SpaceDock CKAN submission
