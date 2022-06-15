@@ -13,8 +13,14 @@ depends:
 recommends:
   - name: KerbalJointReinforcement
 install:
-  - find: NTCP
+  - find: NCAP
     install_to: GameData
   - find: Readme.txt
     find_matches_files: true
     install_to: GameData/NTCP
+  - find: Changelog.txt
+    find_matches_files: true
+    install_to: GameData/NTCP
+  - find_regexp: CRAFT FILES/Craft files
+    install_to: Ships
+    as: VAB
