@@ -1,0 +1,16 @@
+spec_version: v1.25
+identifier: RFA-One
+name: RFA One
+abstract: Adds parts to build Rocket Factory Agusburg's premier smallsat launcher
+author: Rocket Factory Augsburg
+$kref: '#/ckan/spacedock/3044'
+license: CC-BY-NC-SA-4.0
+install:
+  - file: Kerbal Space Program/GameData/RFA
+    install_to: GameData
+  - file: Kerbal Space Program/Ships/VAB
+    install_to: Ships
+  - file: Kerbal Space Program/saves/scenarios
+    install_to: Scenarios
+  - file: Kerbal Space Program/Missions
+    install_to: Missions
