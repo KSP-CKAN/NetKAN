@@ -5,6 +5,8 @@ license: CC-BY-SA
 tags:
   - parts
   - crewed
+depends:
+  - name: ModuleManager
 recommends:
   - name: FilterExtensions
 install:
