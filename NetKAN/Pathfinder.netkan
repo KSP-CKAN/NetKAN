@@ -18,7 +18,6 @@ depends:
   - name: Pathfinder-PlayMode
   - name: ModuleManager
   - name: KerbalActuators
-  - name: BarisBridge
   - name: WildBlueTools
   - name: Buffalo
 recommends:

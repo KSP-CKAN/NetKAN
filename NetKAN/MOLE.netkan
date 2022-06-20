@@ -17,7 +17,6 @@ depends:
   - name: ModuleManager
   - name: WildBlueTools
   - name: KerbalActuators
-  - name: BarisBridge
 recommends:
   - name: ASETProps
   - name: ExtraPlanetaryLaunchpads
