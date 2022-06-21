@@ -1,0 +1,12 @@
+spec_version: v1.18
+identifier: Watermel00nsPartTweaks
+$kref: '#/ckan/spacedock/3047'
+license: MIT
+tags:
+  - config
+depends:
+  - name: ModuleManager
+install:
+  - find: Watermel00nPartTweaks
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
