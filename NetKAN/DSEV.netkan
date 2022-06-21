@@ -18,7 +18,6 @@ depends:
   - name: WildBlueTools
   - name: NearFutureProps
   - name: KerbalActuators
-  - name: BarisBridge
 recommends:
   - name: RasterPropMonitor-Core
   - name: ASETProps

@@ -20,7 +20,6 @@ depends:
   - name: WildBlueTools
   - name: HooliganLabsAirships
   - name: KerbalActuators
-  - name: BarisBridge
 recommends:
   - name: AirParkContinued
   - name: ASETProps
