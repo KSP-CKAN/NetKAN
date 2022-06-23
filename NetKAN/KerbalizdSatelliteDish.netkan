@@ -1,0 +1,10 @@
+spec_version: v1.18
+identifier: KerbalizdSatelliteDish
+$kref: '#/ckan/spacedock/3048'
+ksp_version_min: 1.0.5
+license: CC-BY-NC-ND-4.0
+tags:
+  - config
+  - buildings
+depends:
+  - name: KerbalKonstructs
