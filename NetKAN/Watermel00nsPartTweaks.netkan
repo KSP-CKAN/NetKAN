@@ -4,9 +4,6 @@ $kref: '#/ckan/spacedock/3047'
 license: MIT
 tags:
   - config
+  - parts
 depends:
   - name: ModuleManager
-install:
-  - find: Watermel00nPartTweaks
-    install_to: GameData
-x_via: Automated SpaceDock CKAN submission
