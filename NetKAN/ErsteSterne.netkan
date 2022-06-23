@@ -1,0 +1,14 @@
+spec_version: v1.18
+identifier: ErsteSterne
+$kref: '#/ckan/spacedock/3049'
+license: Mostly-CC-BY-NC-ND-4.0
+tags:
+  - config
+  - planet-pack
+depends:
+  - name: ModuleManager
+  - name: Kopernicus
+install:
+  - find: ES
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
