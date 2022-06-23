@@ -16,7 +16,7 @@ recommends:
 install:
   - find: ES
     install_to: GameData
-  - file: License.txt
+  - file: GameData/License.txt
     install_to: GameData/ES
-  - file: README.txt
+  - file: GameData/README.txt
     install_to: GameData/ES
