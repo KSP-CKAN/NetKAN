@@ -1,0 +1,10 @@
+spec_version: v1.18
+identifier: ArtofReentry
+$kref: '#/ckan/spacedock/3046'
+license: CC-BY-ND-4.0
+tags:
+  - parts
+install:
+  - find: ArtOfReentry
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
