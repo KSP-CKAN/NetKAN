@@ -7,4 +7,5 @@ tags:
   - graphics
 depends:
   - name: Waterfall
-x_via: Automated SpaceDock CKAN submission
+recommends:
+  - name: ConformalDecals
