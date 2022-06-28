@@ -1,0 +1,11 @@
+spec_version: v1.18
+identifier: EcoRocket
+$kref: '#/ckan/spacedock/3050'
+license: MIT
+tags:
+  - parts
+  - graphics
+depends:
+  - name: Waterfall
+recommends:
+  - name: ConformalDecals
