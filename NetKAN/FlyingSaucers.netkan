@@ -12,7 +12,6 @@ tags:
 depends:
   - name: ModuleManager
   - name: NearFutureProps
-  - name: BarisBridge
   - name: WildBlueTools
   - name: KerbalActuators
 recommends:

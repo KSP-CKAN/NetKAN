@@ -1,9 +1,23 @@
-{
-    "spec_version" : "v1.16",
-    "identifier" : "AlcubierreStandalone",
-    "$kref" : "#/ckan/netkan/https://raw.githubusercontent.com/UmbraSpaceIndustries/CKAN/master/AlcubierreStandalone.netkan",
-    "x_netkan_license_ok": true,
-    "tags": [
-        "parts"
-    ]
-}
+spec_version: v1.4
+identifier: AlcubierreStandalone
+name: Alcubierre Warp Drive (Stand-alone)
+abstract: >-
+  The Alcubierre drive works by moving space around your ship, not through
+  acceleration.
+author: RoverDude
+$kref: '#/ckan/github/UmbraSpaceIndustries/WarpDrive'
+$vref: '#/ckan/ksp-avc'
+license: restricted
+release_status: stable
+resources:
+  homepage: https://forum.kerbalspaceprogram.com/index.php?/topic/90899-*
+  manual: https://umbraspaceindustries.github.io/UmbraSpaceIndustries/
+tags:
+  - parts
+conflicts:
+  - name: SETI-CommunityTechTree
+depends:
+  - name: ModuleManager
+install:
+  - find: UmbraSpaceIndustries/WarpDrive
+    install_to: GameData/UmbraSpaceIndustries

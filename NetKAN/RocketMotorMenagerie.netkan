@@ -1,0 +1,15 @@
+spec_version: v1.18
+identifier: RocketMotorMenagerie
+$kref: '#/ckan/spacedock/2729'
+license: CC-BY-NC-SA-4.0
+tags:
+  - parts
+  - graphics
+depends:
+  - name: ModuleManager
+  - name: B9PartSwitch
+  - name: CommunityResourcePack
+  - name: DeployableEngines
+recommends:
+  - name: CryoTanks
+  - name: Waterfall

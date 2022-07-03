@@ -1,0 +1,16 @@
+spec_version: v1.18
+identifier: BakerOperatingSystem
+$kref: '#/ckan/spacedock/3052'
+license: MIT
+tags:
+  - config
+  - control
+depends:
+  - name: kOS
+install:
+  - find: Baker Os
+    install_to: GameData
+x_netkan_override:
+  - version: 2.1.0
+    override:
+      ksp_version_min: '1.8'

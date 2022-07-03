@@ -1,11 +1,16 @@
-{
-    "spec_version" : "v1.16",
-    "identifier" : "CommunityCategoryKit",
-    "$kref" : "#/ckan/netkan/https://raw.githubusercontent.com/UmbraSpaceIndustries/CKAN/master/CommunityCategoryKit.netkan",
-    "x_netkan_license_ok": true,
-    "tags": [
-        "plugin",
-        "config",
-        "convenience"
-    ]
-}
+spec_version: 1
+identifier: CommunityCategoryKit
+name: Community Category Kit
+abstract: Common parts categories for KSP mods
+author: RoverDude
+$kref: '#/ckan/github/UmbraSpaceIndustries/CommunityCategoryKit'
+$vref: '#/ckan/ksp-avc'
+license: CC-BY-NC-SA-4.0
+release_status: stable
+resources:
+  homepage: https://forum.kerbalspaceprogram.com/index.php?/topic/149840-*
+  manual: https://umbraspaceindustries.github.io/UmbraSpaceIndustries/
+tags:
+  - plugin
+  - config
+  - convenience
