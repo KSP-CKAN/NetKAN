@@ -1,0 +1,16 @@
+spec_version: v1.18
+identifier: XwinkTransports
+$kref: '#/ckan/spacedock/3055'
+license: CC-BY-SA-4.0
+tags:
+  - parts
+  - crewed
+install:
+  - find: XwinKTransport
+    install_to: GameData
+    filter_regexp: \.craft$
+  - file: XwinKTransport/Lambda Shuttle.craft
+    install_to: Ships/SPH
+  - file: XwinKTransport/Uwing.craft
+    install_to: Ships/SPH
+x_via: Automated SpaceDock CKAN submission
