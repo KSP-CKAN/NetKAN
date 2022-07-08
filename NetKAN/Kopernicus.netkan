@@ -1,48 +1,38 @@
-{
-    "spec_version"  : "v1.4",
-    "identifier"    : "Kopernicus",
-    "name"          : "Kopernicus Planetary System Modifier",
-    "abstract"      : "Allows users to replace the planetary system used by the game.",
-    "$kref"         : "#/ckan/github/Kopernicus/Kopernicus/version_from_asset/^Kopernicus-(?<version>.+)\\.zip$",
-    "$vref"         : "#/ckan/ksp-avc/GameData/Kopernicus/Plugins/Kopernicus.version",
-    "x_netkan_epoch": "2",
-    "x_netkan_version_edit": {
-        "find": "^(?<version>.+)$",
-        "replace": "release-${version}"
-    },
-    "x_netkan_allow_out_of_order": true,
-    "release_status": "development",
-    "license"       : "LGPL-3.0",
-    "author": [
-        "BryceSchroeder",
-        "Teknoman117",
-        "Thomas P.",
-        "NathanKell",
-        "KillAshley",
-        "Gravitasi",
-        "KCreator",
-        "Sigma88",
-        "R-T-B",
-        "prestja"
-    ],
-    "resources": {
-        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/200143-*"
-    },
-    "tags": [
-        "plugin",
-        "library"
-    ],
-    "depends": [
-        { "name": "ModuleManager", "min_version": "2.8.0" },
-        { "name": "ModularFlightIntegrator", "min_version": "1.2.4.0" }
-    ],
-    "suggests": [
-        { "name": "KittopiaTech" }
-    ],
-    "install": [
-        {
-            "find"      : "Kopernicus",
-            "install_to": "GameData"
-        }
-    ]
-}
+spec_version: v1.4
+identifier: Kopernicus
+name: Kopernicus Planetary System Modifier
+abstract: Allows users to replace the planetary system used by the game
+$kref: >-
+  #/ckan/github/Kopernicus/Kopernicus/version_from_asset/^Kopernicus-(?<version>.+)\.zip$
+$vref: '#/ckan/ksp-avc/GameData/Kopernicus/Plugins/Kopernicus.version'
+x_netkan_epoch: '2'
+x_netkan_version_edit:
+  find: ^(?<version>.+)$
+  replace: release-${version}
+x_netkan_allow_out_of_order: true
+release_status: development
+license: LGPL-3.0
+author:
+  - BryceSchroeder
+  - Teknoman117
+  - Thomas P.
+  - NathanKell
+  - KillAshley
+  - Gravitasi
+  - KCreator
+  - Sigma88
+  - R-T-B
+  - prestja
+resources:
+  homepage: https://forum.kerbalspaceprogram.com/index.php?/topic/200143-*
+tags:
+  - plugin
+  - library
+depends:
+  - name: ModuleManager
+    min_version: 2.8.0
+  - name: ModularFlightIntegrator
+    min_version: 1.2.4.0
+  - name: Harmony2
+suggests:
+  - name: KittopiaTech
