@@ -7,6 +7,5 @@ tags:
 depends:
   - name: B9PartSwitch
 install:
-  - find: Gamedata
+  - find: Space Shuttle Accessories
     install_to: GameData
-x_via: Automated SpaceDock CKAN submission
