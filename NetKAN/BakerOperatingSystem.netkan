@@ -11,6 +11,6 @@ install:
   - find: Baker Operating System
     install_to: GameData
 x_netkan_override:
-  - version: >=2.1.0
+  - version: '>=2.1.0'
     override:
       ksp_version_min: '1.8'
