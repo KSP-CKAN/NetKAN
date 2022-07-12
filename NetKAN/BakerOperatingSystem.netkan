@@ -8,7 +8,7 @@ tags:
 depends:
   - name: kOS
 install:
-  - find: Baker Os
+  - find: Baker Operating System
     install_to: GameData
 x_netkan_override:
   - version: 2.1.0
