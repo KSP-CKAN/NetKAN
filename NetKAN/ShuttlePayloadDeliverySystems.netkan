@@ -1,0 +1,10 @@
+spec_version: v1.18
+identifier: ShuttlePayloadDeliverySystems
+$kref: '#/ckan/spacedock/3056'
+license: CC-BY
+tags:
+  - parts
+depends:
+  - name: ModuleManager
+  - name: B9PartSwitch
+x_via: Automated SpaceDock CKAN submission
