@@ -19,3 +19,11 @@ install:
     install_to: GameData
   - find: Manual
     install_to: GameData/Benjee10_shuttleOrbiter
+  - find: Extras/ColumbiaWings
+    install_to: GameData/Benjee10_shuttleOrbiter
+  - find: Extras/Custom Shuttle Names
+    install_to: GameData/Benjee10_shuttleOrbiter
+  - find: Craft Files/SPH
+    install_to: Ships
+  - find: Craft Files/VAB
+    install_to: Ships
