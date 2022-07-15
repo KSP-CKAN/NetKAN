@@ -1,0 +1,14 @@
+spec_version: v1.18
+identifier: InflatablePicoPortsIPP
+$kref: '#/ckan/spacedock/3059'
+license: CC-BY-NC-SA-4.0
+$vref: '#/ckan/ksp-avc'
+tags:
+  - parts
+  - crewed
+depends:
+  - name: ModuleManager
+install:
+  - find: KGEx
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
