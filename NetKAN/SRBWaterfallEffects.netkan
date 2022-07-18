@@ -12,5 +12,5 @@ depends:
   - name: RealPlume-StockConfigs
   - name: SmokeScreen
 install:
-  - find_regexp: SWE.*
+  - find_regexp: SRBWE
     install_to: GameData
