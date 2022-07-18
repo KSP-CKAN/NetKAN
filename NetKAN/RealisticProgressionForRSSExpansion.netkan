@@ -1,0 +1,16 @@
+spec_version: v1.18
+identifier: RealisticProgressionForRSSExpansion
+$kref: '#/ckan/spacedock/3062'
+license: GPL-3.0
+tags:
+  - config
+  - planet-pack
+  - career
+depends:
+  - name: ModuleManager
+  - name: Kopernicus
+  - name: ContractConfigurator
+install:
+  - find: RPForRSSExpansion
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
