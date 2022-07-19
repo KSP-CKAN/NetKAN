@@ -14,6 +14,7 @@
     "provides": [ "Kerbalism-Config" ],
     "depends": [
         { "name": "ModuleManager" },
+        { "name": "CommunityResourcePack" },
         { "name": "Kerbalism" }
     ],
     "conflicts": [

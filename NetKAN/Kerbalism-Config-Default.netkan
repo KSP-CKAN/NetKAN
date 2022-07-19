@@ -18,7 +18,8 @@
     ],
     "depends": [
         { "name": "ModuleManager" },
-        { "name": "Kerbalism"     }
+        { "name": "CommunityResourcePack" },
+        { "name": "Kerbalism" }
     ],
     "conflicts": [
         { "name": "Kerbalism-Config" },
