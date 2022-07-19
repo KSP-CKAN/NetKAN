@@ -10,12 +10,14 @@ depends:
   - name: ModuleManager
   - name: B9PartSwitch
   - name: Waterfall
-recommends:
-  - name: HabTech
 install:
   - find: Benjee10_sharedAssets
     install_to: GameData
   - find: Benjee10_shuttleOrbiter
+    install_to: GameData
+  - find: HabTechProps
+    install_to: GameData
+  - find: htRobotics
     install_to: GameData
   - find: Manual
     install_to: GameData/Benjee10_shuttleOrbiter
