@@ -1,11 +1,7 @@
 spec_version: v1.18
-identifier: KASASeason1LoadingScreenFlagPack
+identifier: KASAS1LoadingScreens
 $kref: '#/ckan/spacedock/3063'
 license: MIT
 tags:
   - plugin
   - config
-install:
-  - find: KASAS1LoadingScreens
-    install_to: GameData
-x_via: Automated SpaceDock CKAN submission
