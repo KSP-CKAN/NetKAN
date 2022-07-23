@@ -11,6 +11,7 @@ depends:
   - name: RealPlume
   - name: RealPlume-StockConfigs
   - name: SmokeScreen
+  - name: TUFX
 install:
   - find_regexp: SRBWE
     install_to: GameData
