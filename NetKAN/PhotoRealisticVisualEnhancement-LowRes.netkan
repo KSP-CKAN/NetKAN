@@ -1,6 +1,6 @@
 spec_version: v1.4
-identifier: PhotoRealisticVisualEnhancement
-$kref: '#/ckan/github/SpaceODY/PRVE/asset_match/PRVEv?[0-9.]+\.zip'
+identifier: PhotoRealisticVisualEnhancement-LowRes
+$kref: '#/ckan/github/SpaceODY/PRVE/asset_match/PRVE-LR\.*'
 ksp_version: 1.12.3
 license: CC-BY-NC-SA-4.0
 tags:
@@ -10,7 +10,7 @@ provides:
   - EnvironmentalVisualEnhancements-Config
 conflicts:
   - name: EnvironmentalVisualEnhancements-Config
-  - name: PhotoRealisticVisualEnhancement-LowRes
+  - name: PhotoRealisticVisualEnhancement
 depends:
   - name: ModuleManager
   - name: Scatterer-config
