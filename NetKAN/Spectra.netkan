@@ -1,52 +1,46 @@
-{
-    "spec_version": "v1.4",
-    "identifier":   "Spectra",
-    "name":         "Spectra",
-    "abstract":     "A well optimized and breathtakingly beautiful revamp of all celestial bodies in KSP",
-    "$kref":        "#/ckan/spacedock/1505",
-    "$vref":        "#/ckan/ksp-avc",
-    "x_netkan_force_v": true,
-    "license":      "MIT",
-    "release_status": "stable",
-    "tags": [
-        "config",
-        "planet-pack",
-        "graphics"
-    ],
-    "provides": [
-        "EnvironmentalVisualEnhancements-Config",
-        "EnvironmentalVisualEnhancements-Config-stock"
-    ],
-    "conflicts": [
-        { "name": "EnvironmentalVisualEnhancements-Config" }
-    ],
-    "depends": [
-        { "name": "EnvironmentalVisualEnhancements" },
-        { "name": "ModuleManager" },
-        { "name": "Scatterer-sunflare-default" }
-    ],
-    "suggests": [
-        { "name": "CollisionFXReUpdated"               },
-        { "name": "CrewLight"                          },
-        { "name": "EngineLightRelit"                   },
-        { "name": "HafCoSpaceCenter"                   },
-        { "name": "IndicatorLights"                    },
-        { "name": "IndicatorLightsCommunityExtensions" },
-        { "name": "KSPRC-CityLights"                   },
-        { "name": "PlanetShine"                        },
-        { "name": "PlanetShine-Config-Default"         },
-        { "name": "RealPlume-StockConfigs"             },
-        { "name": "ReentryParticleEffect"              },
-        { "name": "ReStock"                            },
-        { "name": "ShipEffectsContinued"               },
-        { "name": "SpaceplaneCorrections"              }
-    ],
-    "recommends": [
-        { "name": "Scatterer"                       },
-        { "name": "DistantObject"                   }
-    ],
-    "install": [ {
-        "file":       "Step 2 - Spectra/Spectra",
-        "install_to": "GameData"
-    } ]
-}
+spec_version: v1.4
+identifier: Spectra
+name: Spectra
+abstract: >-
+  A well optimized and breathtakingly beautiful revamp of all celestial bodies
+  in KSP
+$kref: '#/ckan/spacedock/1505'
+$vref: '#/ckan/ksp-avc'
+x_netkan_force_v: true
+license: MIT
+release_status: stable
+tags:
+  - config
+  - planet-pack
+  - graphics
+provides:
+  - EnvironmentalVisualEnhancements-Config
+  - EnvironmentalVisualEnhancements-Config-stock
+conflicts:
+  - name: EnvironmentalVisualEnhancements-Config
+depends:
+  - name: EnvironmentalVisualEnhancements
+  - name: ModuleManager
+  - name: Scatterer-sunflare-default
+suggests:
+  - name: Spectra-VibrantSunsets
+  - name: CollisionFXReUpdated
+  - name: CrewLight
+  - name: EngineLightRelit
+  - name: HafCoSpaceCenter
+  - name: IndicatorLights
+  - name: IndicatorLightsCommunityExtensions
+  - name: KSPRC-CityLights
+  - name: PlanetShine
+  - name: PlanetShine-Config-Default
+  - name: RealPlume-StockConfigs
+  - name: ReentryParticleEffect
+  - name: ReStock
+  - name: ShipEffectsContinued
+  - name: SpaceplaneCorrections
+recommends:
+  - name: Scatterer
+  - name: DistantObject
+install:
+  - file: Step 2- Spectra/Spectra
+    install_to: GameData
