@@ -9,6 +9,7 @@ tags:
   - config
   - graphics
 depends:
+  - name: ModuleManager
   - name: Spectra
 install:
   - find: Step 3- Extras/Vibrant sunsets/Spectra_Scatterer
