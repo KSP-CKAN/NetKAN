@@ -17,3 +17,5 @@ supports:
   - name: Kerbalism
 depends:
   - name: ModuleManager
+suggests:
+  - name: MoldaviteMachinesKerbalism
