@@ -12,5 +12,10 @@ supports:
   - name: TACLS
   - name: IFILS
   - name: RealFuels
+  - name: Snacks
+  - name: USI-LS
+  - name: Kerbalism
 depends:
   - name: ModuleManager
+suggests:
+  - name: MoldaviteMachinesKerbalism
