@@ -1,11 +1,9 @@
-{
-    "spec_version": "v1.16",
-    "identifier": "ContractConfigurator",
-    "$kref" : "#/ckan/netkan/https://raw.githubusercontent.com/jrossignol/ContractConfigurator/master/ContractConfigurator.netkan",
-    "x_netkan_license_ok" : true,
-    "tags": [
-        "plugin",
-        "library",
-        "career"
-    ]
-}
+spec_version: 1
+identifier: ContractConfigurator
+$kref: >-
+  #/ckan/netkan/https://raw.githubusercontent.com/KSP-RO/ContractConfigurator/master/ContractConfiguratorRO.netkan
+x_netkan_license_ok: true
+tags:
+  - plugin
+  - library
+  - career
