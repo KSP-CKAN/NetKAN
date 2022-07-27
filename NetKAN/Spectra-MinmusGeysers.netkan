@@ -13,5 +13,7 @@ depends:
   - name: ModuleManager
   - name: Spectra
 install:
-  - find: Step 3- Extras/Minmus Geysers
+  - find: Step 3- Extras/Minmus Geysers/Spectra_EVE
+    install_to: GameData/Spectra
+  - find: Step 3- Extras/Minmus Geysers/Spectra_textures
     install_to: GameData/Spectra
