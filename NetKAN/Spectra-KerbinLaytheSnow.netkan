@@ -1,0 +1,16 @@
+spec_version: v1.4
+identifier: Spectra-KerbinLaytheSnow
+name: Kerbin and Laythe snow for Spectra
+abstract: Kerbin Laythe snow
+$kref: '#/ckan/spacedock/1505'
+$vref: '#/ckan/ksp-avc'
+license: MIT
+tags:
+  - config
+  - graphics
+depends:
+  - name: EnvironmentalVisualEnhancements
+  - name: Spectra
+install:
+  - find: Step 3- Extras/Kerbin Laythe snow
+    install_to: GameData/Spectra
