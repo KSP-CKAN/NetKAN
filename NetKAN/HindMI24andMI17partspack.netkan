@@ -1,0 +1,20 @@
+spec_version: v1.18
+identifier: HindMI24andMI17partspack
+$kref: '#/ckan/spacedock/3065'
+license: CC-BY-SA-4.0
+tags:
+  - parts
+  - crewed
+install:
+  - find: HindCJ
+    install_to: GameData
+    filter_regexp: \.craft$
+  - file: GameData/HindCJ/SPH/Civilian MI17.craft
+    install_to: Ships/SPH
+  - file: GameData/HindCJ/SPH/Military MI24.craft
+    install_to: Ships/SPH
+  - file: GameData/HindCJ/SPH/Rescue MI17.craft
+    install_to: Ships/SPH
+  - file: GameData/HindCJ/SPH/Surveilance MI24.craft
+    install_to: Ships/SPH
+x_via: Automated SpaceDock CKAN submission
