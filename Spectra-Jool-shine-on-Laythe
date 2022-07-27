@@ -1,0 +1,17 @@
+spec_version: v1.4
+identifier: Spectra-Jool-shine-on-Laythe
+name: Jool shine on Laythe for Spectra
+abstract: Jool shine on Laythe
+$kref: '#/ckan/spacedock/1505'
+$vref: '#/ckan/ksp-avc'
+license: MIT
+tags:
+  - config
+  - graphics
+depends:
+  - name: ModuleManager
+  - name: Scatterer
+  - name: Spectra
+install:
+  - find: Step 3- Extras/Jool shine on Laythe/Spectra_Scatterer
+    install_to: GameData/Spectra
