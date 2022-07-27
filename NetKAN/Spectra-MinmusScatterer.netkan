@@ -1,4 +1,4 @@
-spec_version: v1.4
+spec_version: v1.18
 identifier: Spectra-MinmusScatterer
 name: Minmus Scatterer for Spectra
 abstract: Scatterer for Minmus
@@ -13,7 +13,6 @@ depends:
   - name: Scatterer
   - name: Spectra
 install:
-  - find: Step 3- Extras/Minmus Scatterer/Spectra_EVE
-    install_to: GameData/Spectra
-  - find: Step 3- Extras/Minmus Scatterer/Spectra_Scatterer
-    install_to: GameData/Spectra
+  - find: Step 3- Extras/Minmus Scatterer
+    install_to: GameData
+    as: Spectra

@@ -1,4 +1,4 @@
-spec_version: v1.4
+spec_version: v1.18
 identifier: Spectra-KerbinLaytheSnow
 name: Kerbin and Laythe snow for Spectra
 abstract: Kerbin Laythe snow
@@ -12,7 +12,6 @@ depends:
   - name: EnvironmentalVisualEnhancements
   - name: Spectra
 install:
-  - find: Step 3- Extras/Kerbin Laythe snow/Spectra_EVE
-    install_to: GameData/Spectra
-  - find: Step 3- Extras/Kerbin Laythe snow/Spectra_textures
-    install_to: GameData/Spectra
+  - find: Step 3- Extras/Kerbin Laythe snow
+    install_to: GameData
+    as: Spectra
