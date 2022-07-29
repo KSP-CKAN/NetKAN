@@ -5,16 +5,11 @@ license: CC-BY-SA-4.0
 tags:
   - parts
   - crewed
+  - combat
 install:
   - find: HindCJ
     install_to: GameData
+    filter: SPH
     filter_regexp: \.craft$
-  - file: GameData/HindCJ/SPH/Civilian MI17.craft
-    install_to: Ships/SPH
-  - file: GameData/HindCJ/SPH/Military MI24.craft
-    install_to: Ships/SPH
-  - file: GameData/HindCJ/SPH/Rescue MI17.craft
-    install_to: Ships/SPH
-  - file: GameData/HindCJ/SPH/Surveilance MI24.craft
-    install_to: Ships/SPH
-x_via: Automated SpaceDock CKAN submission
+  - find: SPH
+    install_to: Ships
