@@ -13,5 +13,5 @@ depends:
   - name: SmokeScreen
   - name: TUFX
 install:
-  - find_regexp: SRBWE
+  - find_regexp: SWE
     install_to: GameData
