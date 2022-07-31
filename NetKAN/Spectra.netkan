@@ -18,29 +18,6 @@ provides:
   - EnvironmentalVisualEnhancements-Config-stock
 conflicts:
   - name: EnvironmentalVisualEnhancements-Config
-depends:
-  - name: EnvironmentalVisualEnhancements
-  - name: ModuleManager
-  - name: Scatterer-sunflare-default
-suggests:
-  - name: Spectra-VibrantSunsets
-  - name: CollisionFXReUpdated
-  - name: CrewLight
-  - name: EngineLightRelit
-  - name: HafCoSpaceCenter
-  - name: IndicatorLights
-  - name: IndicatorLightsCommunityExtensions
-  - name: KSPRC-CityLights
-  - name: PlanetShine
-  - name: PlanetShine-Config-Default
-  - name: RealPlume-StockConfigs
-  - name: ReentryParticleEffect
-  - name: ReStock
-  - name: ShipEffectsContinued
-  - name: SpaceplaneCorrections
-recommends:
-  - name: Scatterer
-  - name: DistantObject
 install:
   - file: Step 2- Spectra/Spectra
     install_to: GameData
