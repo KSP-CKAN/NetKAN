@@ -8,10 +8,6 @@ license: MIT
 tags:
   - config
   - graphics
-depends:
-  - name: ModuleManager
-  - name: Scatterer
-  - name: Spectra
 install:
   - find: Step 3- Extras/Minmus Scatterer
     install_to: GameData
