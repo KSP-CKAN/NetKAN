@@ -1,0 +1,23 @@
+spec_version: v1.4
+identifier: Spectra-Scatterer
+name: Spectra Scatterer
+abstract: Scatterer configs for Spectra
+description: Addon for Spectra. Adds custom Scatterer configs to Eve, Kerbin, Jool, and Laythe.
+$kref: '#/ckan/spacedock/1505'
+$vref: '#/ckan/ksp-avc'
+x_netkan_force_v: true
+license: MIT
+release_status: stable
+tags:
+  - config
+  - graphics
+provides:
+  - name: Scatterer-config
+  - name: Scatterer-sunflare
+conflicts:
+  - name: Scatterer-config
+  - name: Scatterer-sunflare
+install:
+  - file: Step 3- Extras/Scatterer
+    install_to: GameData
+    as: Spectra
