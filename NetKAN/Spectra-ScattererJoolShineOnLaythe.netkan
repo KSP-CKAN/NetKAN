@@ -1,0 +1,14 @@
+spec_version: v1.18
+identifier: Spectra-ScattererJoolShineOnLaythe
+name: Spectra Scatterer Jool shine on Laythe
+abstract: Addon for Spectra Scatterer. Adds a faint green glow from Jool on Laythe's atmosphere. Causes artifacting during eclypses.
+$kref: '#/ckan/spacedock/1505'
+$vref: '#/ckan/ksp-avc'
+license: MIT
+tags:
+  - config
+  - graphics
+install:
+  - find: Step 3- Extras/Scatterer Jool shine on Laythe
+    install_to: GameData
+    as: Spectra
