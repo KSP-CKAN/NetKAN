@@ -12,8 +12,8 @@ tags:
   - config
   - graphics
 provides:
-  - name: Scatterer-config
-  - name: Scatterer-sunflare
+  - Scatterer-config
+  - Scatterer-sunflare
 conflicts:
   - name: Scatterer-config
   - name: Scatterer-sunflare
