@@ -1,0 +1,14 @@
+spec_version: v1.18
+identifier: Spectra-EVEMinmusGeysers
+name: Spectra EVE Minmus Geysers
+abstract: Addon for Spectra. Adds EVE geysers to Minmus.
+$kref: '#/ckan/spacedock/1505'
+$vref: '#/ckan/ksp-avc'
+license: MIT
+tags:
+  - config
+  - graphics
+install:
+  - find: Step 3- Extras/EVE Minmus Geysers
+    install_to: GameData
+    as: Spectra
