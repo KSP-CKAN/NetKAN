@@ -1,7 +1,7 @@
 spec_version: v1.18
-identifier: Spectra-KerbinLaytheSnow
-name: Kerbin and Laythe snow for Spectra
-abstract: Kerbin Laythe snow
+identifier: Spectra-EVEKerbinLaytheSnow
+name: Spectra EVE Kerbin and Laythe snow
+abstract: Addon for Spectra. Adds EVE snow to Kerbin and Laythe. VERY laggy.
 $kref: '#/ckan/spacedock/1505'
 $vref: '#/ckan/ksp-avc'
 license: MIT
@@ -9,6 +9,6 @@ tags:
   - config
   - graphics
 install:
-  - find: Step 3- Extras/Kerbin Laythe snow
+  - find: Step 3- Extras/EVE Kerbin Laythe snow
     install_to: GameData
     as: Spectra
