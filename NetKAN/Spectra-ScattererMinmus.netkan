@@ -2,7 +2,9 @@ spec_version: v1.18
 identifier: Spectra-ScattererMinmus
 name: Spectra Scatterer for Minmus
 abstract: Scatterer configs for Minmus
-description: Addon for Spectra. Adds custom scatterer config to Minmus, replacing the default glow.
+description: >-
+  Addon for Spectra.
+  Adds custom scatterer config to Minmus, replacing the default glow.
 $kref: '#/ckan/spacedock/1505'
 $vref: '#/ckan/ksp-avc'
 license: MIT
