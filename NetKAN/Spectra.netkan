@@ -1,7 +1,10 @@
 spec_version: v1.4
 identifier: Spectra
 name: Spectra
-abstract: An optimized atmosphere revamp for all stock celestial bodies
+abstract: EVE configs for stock celestial bodies
+description: >-
+  An optimized EVE-based atmosphere revamp for all stock celestial bodies.
+  Comes with addons for Scatterer and EVE.
 $kref: '#/ckan/spacedock/1505'
 $vref: '#/ckan/ksp-avc'
 x_netkan_force_v: true
@@ -9,7 +12,6 @@ license: MIT
 release_status: stable
 tags:
   - config
-  - planet-pack
   - graphics
 provides:
   - EnvironmentalVisualEnhancements-Config

@@ -1,10 +1,13 @@
 spec_version: v1.4
-identifier: Spectra-RVE64kKerbinClouds
-name: Spectra RVE 64k Kerbin Clouds
+identifier: Spectra-EVE64kKerbinClouds
+name: Spectra EVE 64k Kerbin clouds
 author:
   - PingoPete
   - Avera9eJoe
-abstract: 64k Kerbin clouds
+abstract: EVE configs for 64k Kerbin Clouds
+description: >-
+  Addon for Spectra.
+  Replaces the default 8k Kerbin clouds with a 64k variant from RVE.
 $kref: '#/ckan/spacedock/2471'
 license: CC-BY-NC-SA-4.0
 tags:
