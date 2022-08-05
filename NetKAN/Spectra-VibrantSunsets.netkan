@@ -9,6 +9,6 @@ tags:
   - config
   - graphics
 install:
-  - find: Step 3- Extras/Vibrant sunsets
+  - find: Step 3- Extras/Scatterer vibrant sunsets
     install_to: GameData
     as: Spectra
