@@ -1,0 +1,19 @@
+spec_version: v1.4
+identifier: Spectra-RVE64kKerbinClouds
+name: Spectra RVE 64k Kerbin Clouds
+author:
+  - PingoPete
+  - Avera9eJoe
+abstract: 64k Kerbin clouds
+$kref: '#/ckan/spacedock/2471'
+license: CC-BY-NC-SA-4.0
+tags:
+  - config
+  - graphics
+depends:
+  - name: EnvironmentalVisualEnhancements
+  - name: ModuleManager
+  - name: Spectra
+install:
+  - find: GameData/Spectra
+    install_to: GameData
