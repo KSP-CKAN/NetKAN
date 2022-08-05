@@ -9,6 +9,6 @@ tags:
   - config
   - graphics
 install:
-  - find: Step 3- Extras/Jool shine on Laythe
+  - find: Step 3- Extras/Scatterer Jool shine on Laythe
     install_to: GameData
     as: Spectra
