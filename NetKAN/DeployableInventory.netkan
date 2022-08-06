@@ -1,21 +1,17 @@
-spec_version: v1.30
+spec_version: v1.4
 identifier: DeployableInventory
 author: flart
 license: GPL-3.0
 $kref: '#/ckan/github/yalov/DeployableInventory'
 $vref: '#/ckan/ksp-avc'
-x_netkan_allow_out_of_order: true
 resources:
-  homepage: 'https://forum.kerbalspaceprogram.com/index.php?/topic/-*'
-
+  homepage: https://forum.kerbalspaceprogram.com/index.php?/topic/-*
 tags:
   - plugin
   - config
   - inventory
-
 depends:
   - name: ModuleManager
   - name: StationPartsExpansionRedux
-
 supports:
   - name: KSP-PartVolume
