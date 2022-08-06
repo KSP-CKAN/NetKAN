@@ -1,0 +1,26 @@
+spec_version: v1.30
+identifier: FreeLaunchClamps
+author: flart
+license: GPL-3.0
+$kref: '#/ckan/github/yalov/FreeLaunchClamps'
+$vref: '#/ckan/ksp-avc'
+x_netkan_allow_out_of_order: true
+resources:
+  homepage: 'https://forum.kerbalspaceprogram.com/index.php?/topic/209241-*'
+
+tags: 
+  - config
+
+depends:
+  - name: ModuleManager
+
+suggests:
+  - name: CommunityResourcePack
+  - name: FASALaunchClampsContinued
+  - name: FASA
+  - name: BluedogDB
+  - name: SpaceY-Lifters
+  - name: RealScaleBoosters
+
+conflicts:
+  - name: AlmostFreeLaunchClamps
