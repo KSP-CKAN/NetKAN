@@ -1,0 +1,37 @@
+spec_version: v1.30
+identifier: SandcastleCore
+name: Sandcastle Core
+author: Angel-125
+x_maintained_by: flart
+$kref: '#/ckan/github/Angel-125/Sandcastle'
+$vref: '#/ckan/ksp-avc'
+license: restricted
+resources:
+  homepage: https://forum.kerbalspaceprogram.com/index.php?/topic/201137-*
+  remote-avc: https://raw.githubusercontent.com/Angel-125/Sandcastle/main/ReleaseFolder/GameData/WildBlueIndustries/Sandcastle/Sandcastle.version
+tags:
+  - plugin
+depends:
+  - name: ModuleManager
+recommends:
+  - name: KSP-PartVolume
+conflicts:
+  - name: Sandcastle
+install:
+  - find: GameData/WildBlueIndustries
+    install_to: GameData
+    filter_regexp: \.pdb$
+    filter:
+      - FX
+      - Parts
+      - Patches
+      - Category.cfg
+      - SandcastleSelected.png
+      - Sandcastle.png
+  - find: GameData/WildBlueIndustries/Sandcastle/Patches/ScienceLab3DPrinter.txt
+    install_to: GameData/WildBlueIndustries/Sandcastle/Patches
+    as: ScienceLab3DPrinter.cfg
+    find_matches_files: true
+  - find: GameData/WildBlueIndustries/Sandcastle/Patches/CargoPartInfos.cfg
+    install_to: GameData/WildBlueIndustries/Sandcastle/Patches
+    find_matches_files: true
