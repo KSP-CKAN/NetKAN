@@ -8,7 +8,7 @@ x_netkan_allow_out_of_order: true
 resources:
   homepage: 'https://forum.kerbalspaceprogram.com/index.php?/topic/209241-*'
 
-tags: 
+tags:
   - config
 
 depends:
@@ -21,6 +21,7 @@ suggests:
   - name: BluedogDB
   - name: SpaceY-Lifters
   - name: RealScaleBoosters
+  - name: ModularLaunchPads
 
 conflicts:
   - name: AlmostFreeLaunchClamps
