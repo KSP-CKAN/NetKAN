@@ -7,7 +7,7 @@ $vref: '#/ckan/ksp-avc'
 x_netkan_allow_out_of_order: true
 resources:
   homepage: 'https://forum.kerbalspaceprogram.com/index.php?/topic/-*'
-  
+
 tags:
   - plugin
   - config
