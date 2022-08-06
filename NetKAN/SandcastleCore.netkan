@@ -17,6 +17,7 @@ recommends:
   - name: KSP-PartVolume
 conflicts:
   - name: Sandcastle
+  - name: ExtraPlanetaryLaunchpads
 install:
   - find: GameData/WildBlueIndustries
     install_to: GameData
