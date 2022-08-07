@@ -9,6 +9,7 @@ resources:
 tags:
   - plugin
   - config
+  - crewed
 depends:
   - name: ModuleManager
   - name: StationPartsExpansionRedux
