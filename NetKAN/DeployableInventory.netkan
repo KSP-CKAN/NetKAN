@@ -1,0 +1,17 @@
+spec_version: v1.4
+identifier: DeployableInventory
+author: flart
+$kref: '#/ckan/github/yalov/DeployableInventory'
+$vref: '#/ckan/ksp-avc'
+license: GPL-3.0
+resources:
+  homepage: https://forum.kerbalspaceprogram.com/index.php?/topic/209148-*
+tags:
+  - plugin
+  - config
+  - crewed
+depends:
+  - name: ModuleManager
+  - name: StationPartsExpansionRedux
+supports:
+  - name: KSP-PartVolume
