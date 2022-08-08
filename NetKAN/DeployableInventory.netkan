@@ -9,6 +9,7 @@ resources:
 tags:
   - plugin
   - config
+  - stock-inventory
 depends:
   - name: ModuleManager
   - name: StationPartsExpansionRedux

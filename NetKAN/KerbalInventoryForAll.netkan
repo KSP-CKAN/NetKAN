@@ -5,7 +5,8 @@
     "license":      "MIT",
     "tags": [
         "config",
-        "crewed"
+        "crewed",
+        "stock-inventory"
     ],
     "depends": [
         { "name": "ModuleManager" }
