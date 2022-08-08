@@ -1,21 +1,15 @@
-{
-    "spec_version": "v1.4",
-    "identifier":   "FIG",
-
-    "$kref":        "#/ckan/spacedock/2791",
-
-    "$vref":        "#/ckan/ksp-avc",
-    "name":         "Filling Inventory Generously",
-    "author":       "linuxgurugamer",
-    "abstract":     "Fills any empty inventory slots in Command Pods at launch",
-
-    "license":      "MIT",
-    "tags": [
-        "plugin",
-        "convenience"
-    ],
-    "install": [ {
-        "find":       "FruitKocktail",
-        "install_to": "GameData"
-    } ]
-}
+spec_version: v1.4
+identifier: FIG
+name: Filling Inventory Generously
+abstract: Fills any empty inventory slots in Command Pods at launch
+author: linuxgurugamer
+$kref: '#/ckan/spacedock/2791'
+$vref: '#/ckan/ksp-avc'
+license: MIT
+tags:
+  - plugin
+  - convenience
+  - stock-inventory
+install:
+  - find: FruitKocktail
+    install_to: GameData
