@@ -1,0 +1,18 @@
+spec_version: v1.18
+identifier: HueyandChinookHelicopterpartspack
+$kref: '#/ckan/spacedock/3072'
+license: CC-BY-SA-4.0
+tags:
+  - parts
+  - crewed
+install:
+  - find: HueyCJ
+    install_to: GameData
+    filter_regexp: \.craft$
+  - file: GameData/HueyCJ/SPH/Army Chinook.craft
+    install_to: Ships/SPH
+  - file: GameData/HueyCJ/SPH/Army Huey.craft
+    install_to: Ships/SPH
+  - file: GameData/HueyCJ/SPH/Rescue Huey.craft
+    install_to: Ships/SPH
+x_via: Automated SpaceDock CKAN submission
