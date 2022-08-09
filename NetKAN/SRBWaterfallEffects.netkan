@@ -4,7 +4,7 @@ $kref: '#/ckan/spacedock/2992'
 license: CC-BY-NC-SA
 tags:
   - config
-  - graphics
+  - graphics=
 depends:
   - name: ModuleManager
   - name: Waterfall
@@ -12,6 +12,15 @@ depends:
   - name: RealPlume-StockConfigs
   - name: SmokeScreen
   - name: TUFX
+recommends:
+  - name: AudioMufflerRedux
+  - name: ReStock
+  - name: BluedogDB
+  - name: GemstoneLV
+  - name: NewTantaresLV
+  - name: NewTantares
+  - name: ChrayolDesignOrg
+  - name: CRE
 install:
   - find_regexp: SWE
     install_to: GameData
