@@ -4,7 +4,7 @@ $kref: '#/ckan/spacedock/2992'
 license: CC-BY-NC-SA
 tags:
   - config
-  - graphics=
+  - graphics
 depends:
   - name: ModuleManager
   - name: Waterfall
