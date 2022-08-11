@@ -1,0 +1,22 @@
+spec_version: v1.18
+identifier: TestFlightConfig-Stock-S42-Revived
+author:
+  - Starstrider42
+  - Starcatcher2009
+$kref: '#/ckan/spacedock/3077'
+license: GPL-3.0
+tags:
+  - config
+provides:
+  - TestFlightConfig
+conflicts:
+  - name: TestFlightConfig
+  - name: ScrapYard
+  - name: OhScrap
+depends:
+  - name: ModuleManager
+  - name: TestFlight
+    min_version: 2.0.0
+install:
+  - find: Starcatcher's Mods
+    install_to: GameData
