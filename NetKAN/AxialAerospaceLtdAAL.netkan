@@ -1,0 +1,9 @@
+spec_version: v1.18
+identifier: AxialAerospaceLtdAAL
+$kref: '#/ckan/spacedock/3076'
+license: GPL-2.0
+$vref: '#/ckan/ksp-avc'
+install:
+  - find: ''
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
