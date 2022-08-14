@@ -1,0 +1,11 @@
+spec_version: v1.18
+identifier: PortableScienceCratePSC
+$kref: '#/ckan/spacedock/3080'
+license: CC-BY
+$vref: '#/ckan/ksp-avc'
+tags:
+  - parts
+install:
+  - find: KerbalHacks
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
