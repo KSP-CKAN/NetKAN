@@ -1,0 +1,14 @@
+spec_version: v1.18
+identifier: PlanetJamWInnersPack
+$kref: '#/ckan/spacedock/3081'
+license: Other
+tags:
+  - config
+  - planet-pack
+depends:
+  - name: ModuleManager
+  - name: Kopernicus
+install:
+  - find: PlanetJamMod
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
