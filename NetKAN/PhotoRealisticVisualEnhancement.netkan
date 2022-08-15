@@ -14,9 +14,9 @@ conflicts:
 depends:
   - name: ModuleManager
   - name: Scatterer-config
-    version: 3:v0.0835
+    version: 3:v0.0838
   - name: Scatterer
-    version: 3:v0.0835
+    version: 3:v0.0838
   - name: EnvironmentalVisualEnhancements
   - name: Kopernicus
   - name: RealSolarSystem
