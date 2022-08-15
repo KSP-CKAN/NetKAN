@@ -10,7 +10,7 @@
     ],
     "depends": [
         { "name": "ModuleManager" },
-        { "name": "FirespitterCore"}
+        { "name": "InterstellarFuelSwitch-Core"}
     ],
     "recommends": [
         { "name": "TweakScale" },
