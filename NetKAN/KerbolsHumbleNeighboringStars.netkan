@@ -10,6 +10,9 @@ tags:
   - plugin
   - config
   - planet-pack
+conflicts:
+  - name: Scatterer-config
+  - name: Scatterer-sunflare
 provides:
   - Scatterer-config
   - Scatterer-sunflare
