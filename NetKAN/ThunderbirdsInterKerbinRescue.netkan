@@ -1,0 +1,22 @@
+spec_version: v1.18
+identifier: ThunderbirdsInterKerbinRescue
+$kref: '#/ckan/spacedock/3088'
+license: CC-BY-SA-4.0
+tags:
+  - parts
+  - crewed
+install:
+  - find: Thunderbirds
+    install_to: GameData
+    filter_regexp: \.craft$
+  - file: GameData/Thunderbirds/SPH/TB1.craft
+    install_to: Ships/SPH
+  - file: GameData/Thunderbirds/SPH/TB24.craft
+    install_to: Ships/SPH
+  - file: GameData/Thunderbirds/SPH/The Mole.craft
+    install_to: Ships/SPH
+  - file: GameData/Thunderbirds/VAB/TB3.craft
+    install_to: Ships/VAB
+  - file: GameData/Thunderbirds/VAB/Thunderbird5.craft
+    install_to: Ships/VAB
+x_via: Automated SpaceDock CKAN submission
