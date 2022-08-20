@@ -3,11 +3,14 @@ identifier: CaerfinonsSuits
 $kref: '#/ckan/spacedock/3089'
 license: MIT
 tags:
-  - config
+  - crewed
+  - graphics
+  - suits
 depends:
   - name: ModuleManager
+recommends:
+  - name: Benjee10Suits
 install:
   - find: Caerfinon
     install_to: GameData
     filter: .gitignore
-x_via: Automated SpaceDock CKAN submission
