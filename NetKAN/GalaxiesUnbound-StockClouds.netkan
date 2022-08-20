@@ -16,6 +16,7 @@ provides:
 conflicts:
   - name: EnvironmentalVisualEnhancements-Config
 depends:
+  - name: ModuleManager
   - name: GalaxiesUnbound-Core
   - name: EnvironmentalVisualEnhancements
 install:
