@@ -1,5 +1,5 @@
 spec_version: v1.18
-identifier: MirrotiastSystem
+identifier: MirrotistSystem
 $kref: '#/ckan/spacedock/3087'
 license: CC-BY-NC-SA
 tags:
@@ -8,7 +8,3 @@ tags:
 depends:
   - name: ModuleManager
   - name: Kopernicus
-install:
-  - find: MirrotistSystem
-    install_to: GameData
-x_via: Automated SpaceDock CKAN submission
