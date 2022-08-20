@@ -8,3 +8,6 @@ tags:
 depends:
   - name: ModuleManager
   - name: Kopernicus
+recommends:
+  - name: Scatterer
+  - name: EnvironmentalVisualEnhancements
