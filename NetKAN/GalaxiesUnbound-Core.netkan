@@ -16,7 +16,7 @@ recommends:
   - name: EnvironmentalVisualEnhancements
   - name: Scatterer
 suggests:
-  - name: GalaxiesUnbound-Clouds
+  - name: GalaxiesUnbound-StockClouds
 install:
   - find: GU
     install_to: GameData
