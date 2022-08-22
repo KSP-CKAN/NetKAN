@@ -10,9 +10,13 @@
         "parts"
     ],
     "depends" : [
-        { "name" : "ClickThroughBlocker" }
+        { "name" : "ClickThroughBlocker" },
+        { "name" : "SpaceTuxLibrary" }
     ],
     "install": [
-        { "file": "GameData/NRAP", "install_to": "GameData" }
+		{ 
+			"file": "GameData/NRAP", 
+			"install_to": "GameData" 
+		}
     ]
 }
