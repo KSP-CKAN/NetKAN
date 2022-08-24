@@ -7,7 +7,7 @@ tags:
   - combat
 depends:
   - name: ModuleManager
-  - name: BDArmoryContinued
+  - name: BDArmory
 install:
   - find: FoxDefenseContracts
     install_to: GameData
