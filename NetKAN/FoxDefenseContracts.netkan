@@ -9,7 +9,7 @@ depends:
   - name: ModuleManager
   - name: BDArmoryContinued
 install:
-  - find: FoxDefenseContracts
+  - find: BDArmoryForRunwayProject
     install_to: GameData
   - find: FDC_Armor
     install_to: GameData
