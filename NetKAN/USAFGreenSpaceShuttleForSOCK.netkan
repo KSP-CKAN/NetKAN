@@ -1,0 +1,14 @@
+spec_version: v1.18
+identifier: USAFGreenSpaceShuttleForSOCK
+$kref: '#/ckan/spacedock/3092'
+license: MIT
+tags:
+  - config
+  - graphics
+depends:
+  - name: ModuleManager
+  - name: B9PartSwitch
+  - name: ShuttleOrbiterConstructionKit
+install:
+  - find: SOCKUSAF
+    install_to: GameData
