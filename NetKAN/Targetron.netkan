@@ -8,3 +8,8 @@ license: GPL-3.0
 tags:
   - plugin
   - convenience
+depends:
+  - name: ClickThroughBlocker
+  - name: ToolbarController
+  - name: SpaceTuxLibrary
+
