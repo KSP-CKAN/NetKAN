@@ -1,0 +1,23 @@
+spec_version: v1.18
+identifier: ArtemisConstructionKit
+$kref: '#/ckan/spacedock/3098'
+license: Other
+$vref: '#/ckan/ksp-avc'
+tags:
+  - plugin
+  - parts
+  - crewed
+  - graphics
+depends:
+  - name: ModuleManager
+  - name: B9PartSwitch
+  - name: Waterfall
+install:
+  - find: ''
+    install_to: GameData
+    filter_regexp: \.craft$
+  - file: Benjee10_Orion_v1.0.0/Craft Files/Orion Spacecraft + Abort Tower.craft
+    install_to: Ships/VAB
+  - file: Benjee10_Orion_v1.0.0/Craft Files/Orion Spacecraft.craft
+    install_to: Ships/VAB
+x_via: Automated SpaceDock CKAN submission
