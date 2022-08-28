@@ -1,8 +1,8 @@
 spec_version: v1.18
 identifier: ArtemisConstructionKit
 $kref: '#/ckan/spacedock/3098'
-license: Other
 $vref: '#/ckan/ksp-avc'
+license: restricted
 tags:
   - plugin
   - parts
@@ -11,13 +11,19 @@ tags:
 depends:
   - name: ModuleManager
   - name: B9PartSwitch
+  - name: AnimatedDecopulers
+recommends:
+  - name: Shabby
+  - name: Shaddy
+  - name: BreakingGround-DLC
   - name: Waterfall
 install:
-  - find: ''
+  - find: Benjee10_sharedAssets
     install_to: GameData
-    filter_regexp: \.craft$
-  - file: Benjee10_Orion_v1.0.0/Craft Files/Orion Spacecraft + Abort Tower.craft
-    install_to: Ships/VAB
-  - file: Benjee10_Orion_v1.0.0/Craft Files/Orion Spacecraft.craft
-    install_to: Ships/VAB
-x_via: Automated SpaceDock CKAN submission
+  - find: Benjee10_Orion
+    install_to: GameData
+  - find: HabTechProps
+    install_to: GameData
+  - find: Craft Files
+    install_to: Ships
+    as: VAB
