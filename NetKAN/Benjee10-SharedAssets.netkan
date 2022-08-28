@@ -1,0 +1,11 @@
+spec_version: v1.4
+identifier: Benjee10-SharedAssets
+$kref: '#/ckan/github/benjee10/Benjee10_sharedAssets'
+$vref: '#/ckan/ksp-avc'
+tags:
+  - parts
+depends:
+  - name: ModuleManager
+install:
+  - find: GameData/Benjee10_sharedAssets
+    install_to: GameData

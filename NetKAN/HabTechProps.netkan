@@ -1,0 +1,10 @@
+spec_version: v1.4
+identifier: HabTechProps
+$kref: '#/ckan/github/benjee10/HabTechProps'
+$vref: '#/ckan/ksp-avc'
+tags:
+  - config
+  - crewed
+install:
+  - find: GameData/HabTechProps
+    install_to: GameData
