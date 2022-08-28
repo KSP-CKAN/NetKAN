@@ -1,0 +1,24 @@
+spec_version: v1.18
+identifier: ArtemisConstructionKit
+$kref: '#/ckan/spacedock/3098'
+license: restricted
+tags:
+  - parts
+  - crewed
+depends:
+  - name: ModuleManager
+  - name: B9PartSwitch
+  - name: AnimatedDecouplers
+  - name: Benjee10-SharedAssets
+  - name: HabTechProps
+recommends:
+  - name: Shabby
+  - name: Shaddy
+  - name: BreakingGround-DLC
+  - name: Waterfall
+install:
+  - find: Benjee10_Orion
+    install_to: GameData
+  - find: Craft Files
+    install_to: Ships
+    as: VAB
