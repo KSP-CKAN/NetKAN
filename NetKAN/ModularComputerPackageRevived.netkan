@@ -1,0 +1,13 @@
+spec_version: v1.18
+identifier: ModularComputerPackageRevived
+$kref: '#/ckan/spacedock/3099'
+license: CC-BY-NC-SA
+$vref: '#/ckan/ksp-avc'
+tags:
+  - parts
+depends:
+  - name: ModuleManager
+install:
+  - find: ChromaWorks
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
