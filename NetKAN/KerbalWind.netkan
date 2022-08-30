@@ -19,3 +19,7 @@ conflicts:
   - name: FARWind
 depends:
   - name: FAR
+install:
+  - find: KerbalWind
+    install_to: GameData
+    filter: settings.cfg
