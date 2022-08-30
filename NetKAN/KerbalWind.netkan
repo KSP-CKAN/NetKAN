@@ -1,0 +1,21 @@
+spec_version: 1
+identifier: KerbalWind
+author:
+  - DaMichel
+  - silverfox8124
+  - Flibble
+$kref: '#/ckan/github/RCrockford/KerbalWind'
+$vref: '#/ckan/ksp-avc'
+license: MIT
+resources:
+  homepage: https://forum.kerbalspaceprogram.com/index.php?/topic/195587-*
+tags:
+  - plugin
+  - physics
+comment: FAR only supports one wind provider at once
+provides:
+  - FARWind
+conflicts:
+  - name: FARWind
+depends:
+  - name: FAR
