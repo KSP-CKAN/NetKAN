@@ -1,4 +1,4 @@
-spec_version: 1
+spec_version: v1.4
 identifier: KerbalWind
 author:
   - DaMichel
@@ -19,3 +19,7 @@ conflicts:
   - name: FARWind
 depends:
   - name: FAR
+install:
+  - find: KerbalWind
+    install_to: GameData
+    filter: settings.cfg
