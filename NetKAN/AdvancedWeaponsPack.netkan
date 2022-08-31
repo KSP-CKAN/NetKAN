@@ -1,0 +1,13 @@
+spec_version: v1.18
+identifier: AdvancedWeaponsPack
+$kref: '#/ckan/spacedock/3102'
+license: MIT
+tags:
+  - parts
+  - combat
+depends:
+  - name: BDArmory
+  - name: NorthKerbinDynamics
+install:
+  - find: Advanced Weapons Pack
+    install_to: GameData
