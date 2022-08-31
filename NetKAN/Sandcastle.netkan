@@ -19,6 +19,6 @@ recommends:
 supports:
   - name: WildBlueTools
 install:
-  - find: GameData/WildBlueIndustries
-    install_to: GameData
+  - find: GameData/WildBlueIndustries/SandCastle
+    install_to: GameData/WildBlueIndustries
     filter_regexp: \.pdb$
