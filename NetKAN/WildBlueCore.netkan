@@ -13,9 +13,7 @@ resources:
 tags:
   - plugin
   - library
-supports:
-  - name: ModuleManager
-recommends:
+depends:
   - name: ModuleManager
 install:
   - find: 00WildBlueCore
