@@ -1,27 +1,22 @@
-{
-    "spec_version": "v1.4",
-    "identifier":   "WildBlueCore",
-    "name":         "WildBlueCore",
-    "abstract":     "A lightweight plugin created for mods like Buffalo 2, Sandcastle, and SunkWorks",
-    "author":       "Angel-125",
-    "$kref":        "#/ckan/github/Angel-125/WildBlueCore",
-    "$vref":        "#/ckan/ksp-avc",
-    "license":      "GPL-3.0",
-    "resources": {
-	"manual":  "https://github.com/Angel-125/WildBlueCore/wiki"
-    },
-    "tags": [
-        "plugin",
-        "library"
-    ],
-    "supports": [
-        { "name": "ModuleManager"     }
-    ],
-    "recommends": [
-        { "name": "ModuleManager"     }
-    ],
-    "install": [ {
-        "find":       "00WildBlueCore",
-        "install_to": "GameData/WildBlueIndustries"
-    } ]
-}
+spec_version: v1.4
+identifier: WildBlueCore
+name: WildBlueCore
+abstract: >-
+  A lightweight plugin created for mods like Buffalo 2, Sandcastle, and
+  SunkWorks
+author: Angel-125
+$kref: '#/ckan/github/Angel-125/WildBlueCore'
+$vref: '#/ckan/ksp-avc'
+license: GPL-3.0
+resources:
+  manual: https://github.com/Angel-125/WildBlueCore/wiki
+tags:
+  - plugin
+  - library
+supports:
+  - name: ModuleManager
+recommends:
+  - name: ModuleManager
+install:
+  - find: 00WildBlueCore
+    install_to: GameData/WildBlueIndustries
