@@ -20,11 +20,8 @@
     ],
     "depends": [
         { "name": "ModuleManager"       },
-        { "name": "ClickThroughBlocker" }
-    ],
-    "recommends": [
-        { "name": "ModuleManager"       },
-        { "name": "ClickThroughBlocker" }
+        { "name": "ClickThroughBlocker" },
+        { "name": "SpaceTuxLibrary" }
     ],
     "install": [ {
         "file":       "GameData/Diazo",
