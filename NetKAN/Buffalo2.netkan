@@ -1,0 +1,33 @@
+spec_version: v1.4
+identifier: Buffalo2
+name: Buffalo2
+abstract: A next-gen, Restock-alike replacement for the original Buffalo mod
+author: Angel-125
+$kref: '#/ckan/github/Angel-125/Buffalo2'
+$vref: '#/ckan/ksp-avc'
+license: GPL-3.0
+resources:
+  homepage: http://forum.kerbalspaceprogram.com/index.php?/topic/206638-*
+  license: >-
+    https://github.com/Angel-125/Buffalo2/blob/main/ReleaseFolder/GameData/WildBlueIndustries/Buffalo2/Readme.txt
+  manual: https://github.com/Angel-125/Buffalo2/wiki
+tags:
+  - parts
+  - crewed
+depends:
+  - name: ModuleManager
+  - name: WildBlueCore
+supports:
+  - name: KerbalActuators
+  - name: Snacks
+recommends:
+  - name: KerbalActuators
+  - name: Snacks
+  - name: ExtraPlanetaryLaunchpads
+  - name: KIS
+  - name: KAS
+  - name: ASET
+  - name: ASETAvionics
+install:
+  - find: Buffalo2
+    install_to: GameData/WildBlueIndustries
