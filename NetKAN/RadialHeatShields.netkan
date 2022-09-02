@@ -11,8 +11,8 @@ tags:
 depends:
   - name: ModuleManager
 install:
-  - find: RadialHeatShields
-    install_to: GameData
+  - file: GameData/OrionSpaceIndustries/RadialHeatShields
+    install_to: GameData/OrionSpaceIndustries
     filter:
       - __MACOSX
       - .DS_Store
