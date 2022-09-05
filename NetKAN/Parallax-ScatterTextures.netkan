@@ -1,0 +1,31 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "Parallax-ScatterTextures",
+    "name":         "Parallax - Scatter Textures",
+    "abstract":     "Parallax textures for the scatters on the stock planets",
+    "author":       "Linx",
+    "$kref":        "#/ckan/github/Gameslinx/Tessellation/asset_match/Scatter",
+    "license":      "CC-BY-NC-ND-4.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/197024-*"
+    },
+    "tags": [
+        "config",
+        "graphics"
+    ],
+    "depends": [
+        { "name": "ModuleManager" },
+        { "name": "Parallax" },
+        { "name": "Parallax-StockTextures" }
+    ],
+    "provides": [
+        "Parallax-Scatter-Textures"
+    ],
+    "conflicts": [
+        { "name": "Parallax-Scatter-Textures" }
+    ],
+    "install": [{
+        "find":       "Parallax_ScatterTextures",
+        "install_to": "GameData"
+    }]
+}
