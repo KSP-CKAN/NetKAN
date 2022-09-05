@@ -19,5 +19,5 @@ depends:
   - name: Parallax
   - name: Parallax-StockTextures
 install:
-  - find: Parallax_ScatterTextures
+  - find: Parallax_StockTextures
     install_to: GameData
