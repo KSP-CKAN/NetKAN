@@ -18,7 +18,8 @@
     ],
     "depends": [
         { "name": "Kopernicus"        },
-        { "name": "Parallax-Textures" }
+        { "name": "Parallax-Textures" },
+        { "name": "Parallax-Scatter-Textures" }
     ],
     "recommends": [
         { "name": "Scatterer" }
