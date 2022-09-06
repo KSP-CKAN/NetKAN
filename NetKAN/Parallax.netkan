@@ -13,6 +13,9 @@ tags:
   - plugin
   - library
   - graphics
+conflicts:
+  - name: Parallax-StockTextures
+    version_max: '1.3.1'
 depends:
   - name: Kopernicus
   - name: Parallax-Textures
