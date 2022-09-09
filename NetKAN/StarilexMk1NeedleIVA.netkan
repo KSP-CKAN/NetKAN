@@ -1,0 +1,22 @@
+spec_version: v1.4
+identifier: StarilexMk1NeedleIVA
+abstract: Starilex 'Needle' IVA for the Mk1 pod
+$kref: '#/ckan/gitlab/Ailex-/starilex-mk1-iva'
+x_netkan_gitlab:
+  use_source_archive: true
+ksp_version: '1.12.3'
+license: CC-BY-NC-SA
+resources:
+  homepage: https://forum.kerbalspaceprogram.com/index.php?/topic/209466-*
+tags:
+  - config
+  - crewed
+depends:
+  - name: ModuleManager
+  - name: RasterPropMonitor
+  - name: AvionicsSystems
+  - name: ASETProps
+  - name: ASETAvionics
+install:
+  - find: Starliex
+    install_to: GameData
