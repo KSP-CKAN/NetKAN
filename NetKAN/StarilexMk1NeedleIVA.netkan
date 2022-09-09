@@ -1,6 +1,6 @@
 spec_version: v1.4
 identifier: StarilexMk1NeedleIVA
-abstract: IVA for the Mk1 pod
+abstract: Starilex 'Needle' IVA for the Mk1 pod
 $kref: '#/ckan/gitlab/Ailex-/starilex-mk1-iva'
 x_netkan_gitlab:
   use_source_archive: true
