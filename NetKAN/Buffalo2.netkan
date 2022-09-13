@@ -17,11 +17,10 @@ tags:
 depends:
   - name: ModuleManager
   - name: WildBlueCore
-supports:
   - name: KerbalActuators
+supports:
   - name: Snacks
 recommends:
-  - name: KerbalActuators
   - name: Snacks
   - name: ExtraPlanetaryLaunchpads
   - name: KIS
