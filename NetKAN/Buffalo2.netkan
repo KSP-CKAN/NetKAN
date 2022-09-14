@@ -30,3 +30,5 @@ recommends:
 install:
   - find: Buffalo2
     install_to: GameData/WildBlueIndustries
+  - find: Buffalo2/Ships/SPH
+    install_to: Ships
