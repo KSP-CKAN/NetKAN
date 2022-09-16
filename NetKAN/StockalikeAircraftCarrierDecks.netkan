@@ -1,0 +1,14 @@
+spec_version: v1.4
+identifier: StockalikeAircraftCarrierDecks
+$kref: '#/ckan/spacedock/3110'
+license: CC-BY-SA-4.0
+tags:
+  - parts
+depends:
+  - name: ModuleManager
+supports:
+  - name: CommunityCategoryKit
+  - name: Heisenberg
+install:
+  - find: SACDCJ
+    install_to: GameData

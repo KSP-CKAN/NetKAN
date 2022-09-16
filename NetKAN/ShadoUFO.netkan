@@ -1,0 +1,17 @@
+spec_version: v1.4
+identifier: ShadoUFO
+$kref: '#/ckan/spacedock/3105'
+license: CC-BY-SA-4.0
+tags:
+  - parts
+  - crewed
+depends:
+  - name: ModuleManager
+suggests:
+  - name: CaerfinonsSuits
+install:
+  - find: SHADOUFOCJ
+    install_to: GameData
+    filter: SPH
+  - find: SHADOUFOCJ/SPH
+    install_to: Ships
