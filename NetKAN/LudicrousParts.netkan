@@ -1,12 +1,15 @@
-spec_version: v1.4
+spec_version: v1.10
 identifier: LudicrousParts
 $kref: '#/ckan/spacedock/3108'
+ksp_version_min: '1.8'
 license: GPL-2.0
 tags:
   - plugin
   - parts
 depends:
   - name: ModuleManager
+conflicts:
+  - name: ProceduralParts
 install:
   - find: LudicrousParts
     install_to: GameData

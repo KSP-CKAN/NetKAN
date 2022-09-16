@@ -7,6 +7,8 @@ tags:
   - crewed
 depends:
   - name: ModuleManager
+suggests:
+  - name: CaerfinonsSuits
 install:
   - find: SHADOUFOCJ
     install_to: GameData
