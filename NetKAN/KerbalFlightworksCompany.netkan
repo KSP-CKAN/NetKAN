@@ -6,6 +6,15 @@ tags:
   - parts
 depends:
   - name: ModuleManager
+  - name: Firespitter
+recommends:
+  - name: TweakScale
+  - name: BDArmoryForRunwayProject
+suggests:
+  - name: AirplanePlus
+  - name: MK1StkOpenCockpit
+  - name: B9-PWings-Fork
+  - name: ConformalDecals
 install:
   - find: KFW
     install_to: GameData
