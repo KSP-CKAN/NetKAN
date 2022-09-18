@@ -1,0 +1,12 @@
+spec_version: v1.4
+identifier: BetterKerbolRescale
+name: BetterKerbol Rescale
+abstract: Reduce the radius of Kerbol by a factor of 4.24x
+$kref: '#/ckan/spacedock/3118'
+license: CC-BY-NC-ND-3.0
+tags:
+  - config
+  - graphics
+depends:
+  - name: ModuleManager
+  - name: BetterKerbol
