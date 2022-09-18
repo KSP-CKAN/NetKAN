@@ -1,0 +1,14 @@
+spec_version: v1.4
+identifier: KerbalKountries
+abstract: Adds kerbalized country and agency flags
+author: Delta37
+$kref: '#/ckan/github/CTD37/Kerbal-Kountries'
+ksp_version: any
+license: MIT
+tags:
+  - flags
+resources:
+  homepage: https://forum.kerbalspaceprogram.com/index.php?/topic/209768-*
+install:
+  - find: Kerbal Kountries
+    install_to: GameData
