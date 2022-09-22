@@ -8,7 +8,3 @@ tags:
 depends:
   - name: ModuleManager
   - name: Firespitter
-install:
-  - find: Moderately-Plane-Related
-    install_to: GameData
-    filter: .DS_Store
