@@ -7,6 +7,8 @@ author:
 $kref: '#/ckan/spacedock/2342'
 $vref: '#/ckan/ksp-avc'
 license: CC-BY-SA-3.0
+resources:
+  remote-avc: https://raw.githubusercontent.com/zer0Kerbal/SphericalTanks/master/SphericalTanks.version
 tags:
   - parts
 depends:
