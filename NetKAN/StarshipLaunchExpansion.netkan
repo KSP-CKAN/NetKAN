@@ -3,6 +3,8 @@ identifier: StarshipLaunchExpansion
 $kref: '#/ckan/spacedock/2814'
 $vref: '#/ckan/ksp-avc'
 license: MIT
+resources:
+  remote-avc: https://raw.githubusercontent.com/SAMCG14/StarshipLaunchExpansion/Main/GameData/StarshipLaunchExpansion/Versioning/StarshipLaunchExpansion.version
 tags:
   - parts
 depends:
