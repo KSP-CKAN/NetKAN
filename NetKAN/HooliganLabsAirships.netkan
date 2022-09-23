@@ -3,6 +3,8 @@ identifier: HooliganLabsAirships
 $kref: '#/ckan/spacedock/3040'
 $vref: '#/ckan/ksp-avc'
 license: MIT
+resources:
+  remote-avc: https://raw.githubusercontent.com/net-lisias-ksp/HLAirshipsCore/master/HLAirshipsCore.version
 tags:
   - plugin
   - parts

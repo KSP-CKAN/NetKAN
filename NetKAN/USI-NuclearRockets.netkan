@@ -10,6 +10,7 @@ release_status: development
 resources:
   homepage: https://forum.kerbalspaceprogram.com/index.php?/topic/121597-*
   manual: https://umbraspaceindustries.github.io/UmbraSpaceIndustries/
+  remote-avc: https://raw.githubusercontent.com/UmbraSpaceIndustries/NuclearRockets/main/FOR_RELEASE/GameData/UmbraSpaceIndustries/NuclearRockets/NuclearRockets.version
 tags:
   - parts
 depends:

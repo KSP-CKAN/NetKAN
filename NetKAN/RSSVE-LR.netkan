@@ -6,6 +6,7 @@ $vref: '#/ckan/ksp-avc'
 license: CC-BY-SA-4.0
 resources:
   homepage: https://forum.kerbalspaceprogram.com/index.php?/topic/153511-rssve
+  remote-avc: https://raw.githubusercontent.com/KSP-RO/RSSVE/master/RSSVE/RSSVE.version
 tags:
   - plugin
   - graphics
