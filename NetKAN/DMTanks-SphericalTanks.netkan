@@ -7,9 +7,6 @@ author:
 $kref: '#/ckan/spacedock/2342'
 $vref: '#/ckan/ksp-avc'
 license: CC-BY-SA-3.0
-resources:
-  repository: >-
-    https://github.com/zer0Kerbal/DaMichel/tree/master/GameData/DaMichel/SphericalTanks
 tags:
   - parts
 depends:
