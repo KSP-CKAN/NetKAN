@@ -1,13 +1,7 @@
 spec_version: v1.4
 identifier: ExtremePlaneContracts
-abstract: Want difficult challenges for planes?
-$kref: '#/ckan/github/StarshipSLS/ExtremePlaneContracts'
-x_netkan_github:
-  use_source_archive: true
+$kref: '#/ckan/spacedock/3122'
 license: MIT
-resources:
-  homepage: https://forum.kerbalspaceprogram.com/index.php?/topic/209839-*
-  spacedock: https://spacedock.info/mod/3122
 tags:
   - config
   - career
