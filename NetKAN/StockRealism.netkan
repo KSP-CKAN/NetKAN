@@ -3,6 +3,8 @@ identifier: StockRealism
 $kref: '#/ckan/spacedock/3125'
 $vref: '#/ckan/ksp-avc'
 license: AGPL-3.0
+resources:
+  remote-avc: https://raw.githubusercontent.com/ZombieStriker/StockRealism/main/GameData/StockRealism/StockRealism.version
 tags:
   - config
   - planet-pack
