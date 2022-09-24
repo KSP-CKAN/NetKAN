@@ -1,6 +1,7 @@
 spec_version: v1.18
 identifier: StockRealism
 $kref: '#/ckan/spacedock/3125'
+$vref: '#/ckan/ksp-avc'
 license: AGPL-3.0
 tags:
   - config
