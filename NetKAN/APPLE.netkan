@@ -1,21 +1,16 @@
-{
-    "spec_version": "v1.4",
-    "identifier":   "APPLE",
-
-    "$kref":        "#/ckan/spacedock/2792",
-
-    "$vref":        "#/ckan/ksp-avc",
-    "name":         "Approved Popular Pre-Launch Experiment",
-    "author":       "linuxgurugamer",
-    "abstract":     "A small mod to elevate some of the more monotonous tasks",
-
-    "license":      "MIT",
-    "tags": [
-        "plugin",
-        "convenience"
-    ],
-    "install": [ {
-        "find":       "FruitKocktail",
-        "install_to": "GameData"
-    } ]
-}
+spec_version: v1.4
+identifier: APPLE
+name: Approved Popular Pre-Launch Experiment
+abstract: A small mod to automate some of the more monotonous tasks
+author:
+  - FruitGoose
+  - linuxgurugamer
+$kref: '#/ckan/spacedock/2792'
+$vref: '#/ckan/ksp-avc'
+license: MIT
+tags:
+  - plugin
+  - convenience
+install:
+  - find: FruitKocktail
+    install_to: GameData
