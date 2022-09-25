@@ -1,24 +1,18 @@
-{
-    "spec_version": "v1.4",
-    "identifier":   "ORANGE",
-
-    "$kref":        "#/ckan/spacedock/2787",
-
-    "$vref":        "#/ckan/ksp-avc",
-    "name":         "Oh Really, Another Name Generating Endeavour?",
-    "author":       "linuxgurugamer",
-    "abstract":     "Adds a button to command modules to generate a random name",
-
-    "license":      "MIT",
-    "tags": [
-        "plugin",
-        "convenience"
-    ],
-    "depends": [
-        { "name": "ModuleManager" }
-    ],
-    "install": [ {
-        "find":       "FruitKocktail",
-        "install_to": "GameData"
-    } ]
-}
+spec_version: v1.4
+identifier: ORANGE
+name: Oh Really, Another Name Generating Endeavour?
+abstract: Adds a button to command modules to generate a random name
+author:
+  - FruitGoose
+  - linuxgurugamer
+$kref: '#/ckan/spacedock/2787'
+$vref: '#/ckan/ksp-avc'
+license: MIT
+tags:
+  - plugin
+  - convenience
+depends:
+  - name: ModuleManager
+install:
+  - find: FruitKocktail
+    install_to: GameData
