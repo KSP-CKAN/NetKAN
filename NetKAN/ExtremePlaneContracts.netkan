@@ -7,6 +7,9 @@ tags:
   - career
 depends:
   - name: ContractConfigurator
+recommends:
+  - name: ContractConfigurator-PlanesWithPurposes
+  - name: KerbinSideRemasteredGAP
 install:
   - find: ContractPacks
     install_to: GameData
