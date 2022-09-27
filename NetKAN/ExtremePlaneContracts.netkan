@@ -7,8 +7,8 @@ tags:
   - career
 depends:
   - name: ContractConfigurator
-reccomended:
-  - name: PlanesWithPurposes
+recommends:
+  - name: ContractConfigurator-PlanesWithPurposes
   - name: KerbinSideRemasteredGAP
 install:
   - find: ContractPacks
