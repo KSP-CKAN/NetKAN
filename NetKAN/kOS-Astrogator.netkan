@@ -1,0 +1,34 @@
+{
+    "spec_version" : "v1.4",
+    "identifier"   : "kOS-Astrogator",
+    "$kref"        : "#/ckan/github/markjfisher/kOS-Astrogator",
+    "$vref"        : "#/ckan/ksp-avc",
+    "abstract"     : "Astrogator functionality in kOS.",
+    "description"  : "Provides access to Astrogator functionality from within kOS scripts using the addons interface. Either generate the same transfer nodes directly from within your scripts using Astrogator's powerful functionality, or get information about transfers that can be used to aid your kOS scripts.",
+    "author"       : [ "markjfisher" ],
+    "license"      : "GPL-3.0",
+
+    "tags": [
+        "plugin"
+    ],
+
+    "resources": {
+        "homepage"  : "https://forum.kerbalspaceprogram.com/index.php?/topic/209940-112-kos-astrogator-v010/",
+        "bugtracker": "https://github.com/markjfisher/kOS-Astrogator/issues",
+        "repository": "https://github.com/markjfisher/kOS-Astrogator"
+    },
+
+    "depends":
+    [
+        { "name": "Astrogator" },
+        { "name": "kOS" }
+    ],
+
+    "install":
+    [
+        {
+            "file": "GameData/kOS-Astrogator",
+            "install_to": "GameData"
+        }
+    ]
+}
