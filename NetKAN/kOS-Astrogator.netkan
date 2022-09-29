@@ -16,3 +16,6 @@ tags:
 depends:
   - name: Astrogator
   - name: kOS
+supports:
+  - name: Astrogator
+  - name: kOS
