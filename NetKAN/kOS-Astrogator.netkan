@@ -15,6 +15,7 @@ tags:
   - plugin
 depends:
   - name: Astrogator
+    min_version: v0.10.4
   - name: kOS
 supports:
   - name: Astrogator
