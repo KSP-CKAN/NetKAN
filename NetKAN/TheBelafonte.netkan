@@ -7,6 +7,9 @@ tags:
   - crewed
 depends:
   - name: ModuleManager
+recommends:
+  - name: KerbinSideRemasteredTLA
+  - name: BreakingGround-DLC
 install:
   - find: Belafonte
     install_to: GameData
