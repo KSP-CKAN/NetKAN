@@ -1,0 +1,15 @@
+spec_version: v1.18
+identifier: MIRMIR
+$kref: '#/ckan/spacedock/3115'
+license: CC-BY-ND-4.0
+$vref: '#/ckan/ksp-avc'
+tags:
+  - parts
+  - crewed
+install:
+  - find: MIR
+    install_to: GameData
+    filter_regexp: \.craft$
+  - file: GameData/MIR/Subassemblies/MIR DC.craft
+    install_to: Ships/VAB
+x_via: Automated SpaceDock CKAN submission
