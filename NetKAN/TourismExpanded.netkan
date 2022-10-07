@@ -12,6 +12,8 @@ tags:
   - crewed
 depends:
   - name: ContractConfigurator
+recommends:
+  - name: WaypointManager
 install:
   - find: ContractPacks
     install_to: GameData
