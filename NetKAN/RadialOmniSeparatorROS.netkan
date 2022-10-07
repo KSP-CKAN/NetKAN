@@ -1,0 +1,13 @@
+spec_version: v1.18
+identifier: RadialOmniSeparatorROS
+$kref: '#/ckan/spacedock/3129'
+license: CC-BY-NC-SA-4.0
+$vref: '#/ckan/ksp-avc'
+tags:
+  - parts
+depends:
+  - name: ModuleManager
+install:
+  - find: nli2work
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
