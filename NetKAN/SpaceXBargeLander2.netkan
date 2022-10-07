@@ -6,8 +6,9 @@ tags:
   - parts
   - buildings
 depends:
+  - name: ModuleManager
   - name: KerbalKonstructs
 install:
   - find: Space_X_barge_lander-2.0
     install_to: GameData
-x_via: Automated SpaceDock CKAN submission
+    filter: '~$barge.cfg'
