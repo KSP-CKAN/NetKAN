@@ -1,0 +1,27 @@
+spec_version: v1.16
+identifier: SkyhawkKerbalism
+abstract: Kerbalism support for Skyhawk Science System
+$kref: '#/ckan/github/CessnaSkyhawk/SkyhawkKerbalism/asset_match/SkyhawkKerbalism-'
+$vref: '#/ckan/ksp-avc'
+license: CC-BY-NC-SA-4.0
+resources:
+  homepage: https://forum.kerbalspaceprogram.com/index.php?/topic/206109-*
+tags:
+  - config
+  - tech-tree
+provides:
+  - Kerbalism-Config
+conflicts:
+  - name: Kerbalism-Config
+depends:
+  - name: SkyhawkScienceSystem
+  - name: ModuleManager
+  - name: B9PartSwitch
+  - name: BluedogDB
+  - name: CommunityResourcePack
+  - name: Kerbalism
+  - name: Harmony2
+install:
+  - find: SkyhawkKerbalism
+    install_to: GameData
+    filter: .git

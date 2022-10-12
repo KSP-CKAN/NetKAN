@@ -1,0 +1,58 @@
+spec_version: v1.16
+identifier: SkyhawkScienceSystem
+abstract: Tech tree curated to support popular mods with realistic, but still fun progression from sounding rockets to interstellar starships
+$kref: '#/ckan/github/CessnaSkyhawk/SkyhawkScienceSystem'
+$vref: '#/ckan/ksp-avc'
+license: CC-BY-NC-SA-4.0
+resources:
+  homepage: https://forum.kerbalspaceprogram.com/index.php?/topic/206109-*
+  manual: https://github.com/CessnaSkyhawk/SkyhawkScienceSystem/wiki
+tags:
+  - config
+  - tech-tree
+depends:
+  - name: ModuleManager
+  - name: B9PartSwitch
+  - name: BluedogDB
+  - name: CommunityResourcePack
+recommends:
+  - name: CryoTanks-Core
+  - name: Kopernicus
+  - name: RationalResources
+  - name: RationalResourcesNuclearFamily
+  - name: RationalResourcesParts
+suggests:
+  - name: SkyhawkKerbalism
+  - name: ProbesPlus
+  - name: ExplodiumBreathingEngines
+  - name: SpecialDelivery
+  - name: TundraExploration
+  - name: AirplanePlus
+  - name: CryoEngines
+  - name: FarFutureTechnologies
+  - name: HeatControl
+  - name: KerbalAtomics
+  - name: KerbalPlanetaryBaseSystems
+  - name: SpaceXLegs
+  - name: MissingHistory
+  - name: MK1StkOpenCockpit
+  - name: Mk2Expansion
+  - name: Mk3Expansion
+  - name: NearFutureAeronautics
+  - name: NearFutureConstruction
+  - name: NearFutureElectrical
+  - name: NearFutureExploration
+  - name: NearFutureLaunchVehicles
+  - name: NearFuturePropulsion
+  - name: NearFutureSolar
+  - name: NearFutureSpacecraft
+  - name: PlanetsideExplorationTechnologies
+  - name: ReStock
+  - name: ReStockPlus
+  - name: StockalikeMiningExtension
+  - name: StationPartsExpansionRedux
+  - name: TundraTechnologies
+install:
+  - find: SkyhawkScienceSystem
+    install_to: GameData
+    filter: .git
