@@ -1,5 +1,5 @@
 spec_version: v1.18
-identifier: PALETTEPostProcessingProfilesforKSP
+identifier: PALETTE
 $kref: '#/ckan/spacedock/2833'
 license: CC-BY-NC-SA-4.0
 tags:
@@ -10,4 +10,3 @@ depends:
 install:
   - find: Palette
     install_to: GameData
-x_via: Automated SpaceDock CKAN submission
