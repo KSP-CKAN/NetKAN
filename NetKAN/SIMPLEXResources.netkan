@@ -1,0 +1,23 @@
+spec_version: v1.4
+identifier: SIMPLEXResources
+$kref: '#/ckan/spacedock/2045'
+license: CC-BY-NC-SA
+tags:
+  - config
+  - resources
+depends:
+  - name: ModuleManager
+recommends:
+  - name: SimplexTechTree
+  - name: TETRIXTechTree
+  - name: SCANsat
+  - name: ExtraPlanetaryLaunchpads
+suggests:
+  - name: KeridianDynamicsVesselAssembly
+  - name: StockalikeMiningExtension
+  - name: NearFutureConstruction
+  - name: StationPartsExpansionRedux
+  - name: SIMPLEXKerbalism
+install:
+  - find: AngleCanMods
+    install_to: GameData
