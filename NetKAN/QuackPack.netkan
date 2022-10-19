@@ -1,0 +1,12 @@
+spec_version: v1.18
+identifier: QuackPack
+$kref: '#/ckan/spacedock/3136'
+license: CC-BY-NC-ND
+tags:
+  - plugin
+  - config
+  - planet-pack
+depends:
+  - name: ModuleManager
+  - name: Kopernicus
+x_via: Automated SpaceDock CKAN submission
