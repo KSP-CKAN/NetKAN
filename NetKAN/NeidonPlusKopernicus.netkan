@@ -1,0 +1,15 @@
+spec_version: v1.18
+identifier: NeidonPlusKopernicus
+$kref: '#/ckan/spacedock/3137'
+license: MIT
+tags:
+  - plugin
+  - config
+  - planet-pack
+depends:
+  - name: ModuleManager
+  - name: Kopernicus
+install:
+  - find: ''
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
