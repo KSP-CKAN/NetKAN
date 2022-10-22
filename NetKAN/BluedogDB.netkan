@@ -1,50 +1,45 @@
-{
-    "spec_version": "v1.4",
-    "identifier":   "BluedogDB",
-    "$kref":        "#/ckan/spacedock/442",
-    "$vref":        "#/ckan/ksp-avc",
-    "x_netkan_force_v": true,
-    "license":      "CC-BY-NC-SA-4.0",
-    "tags": [
-        "parts"
-    ],
-    "depends": [
-        { "name": "ModuleManager"            },
-        { "name": "CommunityResourcePack"    },
-        { "name": "DMagicScienceAnimate"     },
-        { "name": "B9PartSwitch"             },
-        { "name": "SimpleAdjustableFairings" },
-        { "name": "Waterfall"                }
-    ],
-    "recommends": [
-        { "name": "ContractConfigurator" }
-    ],
-    "suggests": [
-        { "name": "NearFutureProps"        },
-        { "name": "SCANsat"                },
-        { "name": "DockRotate"             },
-        { "name": "EngineIgnitorReignited" },
-        { "name": "PersistentRotation"     },
-        { "name": "MandatoryRCS"           },
-        { "name": "JNSQ"                   },
-        { "name": "RealPlume"              },
-        { "name": "NeptuneCamera"          }
-    ],
-    "supports": [
-        { "name": "HullcamVDS"          },
-        { "name": "RemoteTech"          },
-        { "name": "TweakScale"          },
-        { "name": "HullcamVDSContinued" },
-        { "name": "KIS"                 },
-        { "name": "CommunityTechTree"   },
-        { "name": "RealChute"           },
-        { "name": "USI-LS"              },
-        { "name": "TACLS"               },
-        { "name": "SpaceDust"           }
-    ],
-    "install": [ {
-        "find":       "Bluedog_DB",
-        "install_to": "GameData",
-        "filter":     [ "Realistic Retextures" ]
-    } ]
-}
+spec_version: v1.4
+identifier: BluedogDB
+$kref: '#/ckan/spacedock/442'
+$vref: '#/ckan/ksp-avc'
+x_netkan_force_v: true
+license: CC-BY-NC-SA-4.0
+tags:
+  - parts
+depends:
+  - name: ModuleManager
+  - name: CommunityResourcePack
+  - name: DMagicScienceAnimate
+  - name: B9PartSwitch
+  - name: SimpleAdjustableFairings
+  - name: Waterfall
+  - name: SystemHeat
+  - name: DeployableEngines
+recommends:
+  - name: ContractConfigurator
+suggests:
+  - name: NearFutureProps
+  - name: SCANsat
+  - name: DockRotate
+  - name: EngineIgnitorReignited
+  - name: PersistentRotation
+  - name: MandatoryRCS
+  - name: JNSQ
+  - name: RealPlume
+  - name: NeptuneCamera
+supports:
+  - name: HullcamVDS
+  - name: RemoteTech
+  - name: TweakScale
+  - name: HullcamVDSContinued
+  - name: KIS
+  - name: CommunityTechTree
+  - name: RealChute
+  - name: USI-LS
+  - name: TACLS
+  - name: SpaceDust
+install:
+  - find: Bluedog_DB
+    install_to: GameData
+    filter:
+      - Realistic Retextures
