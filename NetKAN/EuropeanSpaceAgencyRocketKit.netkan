@@ -5,9 +5,7 @@ license: CC-BY-NC-ND-4.0
 tags:
   - parts
 install:
-  - find: ESA_Rocket-0.1
+  - find: GameData/Vega
     install_to: GameData
-    filter_regexp: \.craft$
-  - file: ESA_Rocket-0.1/Ships/VAB/Vega.craft
-    install_to: Ships/VAB
-x_via: Automated SpaceDock CKAN submission
+  - find: Ships/VAB
+    install_to: Ships
