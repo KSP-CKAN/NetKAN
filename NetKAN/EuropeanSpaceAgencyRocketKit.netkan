@@ -1,0 +1,13 @@
+spec_version: v1.18
+identifier: EuropeanSpaceAgencyRocketKit
+$kref: '#/ckan/spacedock/3138'
+license: CC-BY-NC-ND-4.0
+tags:
+  - parts
+install:
+  - find: ESA_Rocket-0.1
+    install_to: GameData
+    filter_regexp: \.craft$
+  - file: ESA_Rocket-0.1/Ships/VAB/Vega.craft
+    install_to: Ships/VAB
+x_via: Automated SpaceDock CKAN submission
