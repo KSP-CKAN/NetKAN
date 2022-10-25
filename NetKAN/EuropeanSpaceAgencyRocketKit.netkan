@@ -5,7 +5,7 @@ license: CC-BY-NC-ND-4.0
 tags:
   - parts
 install:
-  - find: GameData/Vega
+  - find: GameData/AemerFactory
     install_to: GameData
   - find: Ships/VAB
     install_to: Ships
