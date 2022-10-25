@@ -1,0 +1,11 @@
+spec_version: v1.18
+identifier: SimpleCargoSolutionsCARGObyAxialAerospace
+$kref: '#/ckan/spacedock/3139'
+license: GPL-2.0
+tags:
+  - parts
+install:
+  - find: AxialAerospace
+    install_to: GameData
+    filter: Thumbs.db
+x_via: Automated SpaceDock CKAN submission
