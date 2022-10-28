@@ -1,0 +1,14 @@
+spec_version: v1.18
+identifier: DragonRiderDRAGR
+$kref: '#/ckan/spacedock/3140'
+license: CC-BY-ND
+$vref: '#/ckan/ksp-avc'
+tags:
+  - parts
+  - crewed
+depends:
+  - name: ModuleManager
+install:
+  - find: DragonRider
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
