@@ -5,7 +5,7 @@ $vref: '#/ckan/ksp-avc'
 abstract: KerbalEngineer functionality in kOS.
 description: >-
   Provides access to KerbalEngineer functionality from within kOS scripts using the
-  addons interface. 
+  addons interface
 author:
   - markjfisher
 license: GPL-3.0
