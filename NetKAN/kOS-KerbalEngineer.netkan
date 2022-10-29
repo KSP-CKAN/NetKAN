@@ -1,13 +1,11 @@
 spec_version: v1.4
 identifier: kOS-KerbalEngineer
+abstract: KerbalEngineer functionality in kOS
+description: >-
+  Provides access to KerbalEngineer functionality from within kOS scripts
+  using the addons interface
 $kref: '#/ckan/github/markjfisher/kOS-KerbalEngineer'
 $vref: '#/ckan/ksp-avc'
-abstract: KerbalEngineer functionality in kOS.
-description: >-
-  Provides access to KerbalEngineer functionality from within kOS scripts using the
-  addons interface
-author:
-  - markjfisher
 license: GPL-3.0
 tags:
   - plugin
