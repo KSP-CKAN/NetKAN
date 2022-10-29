@@ -1,0 +1,19 @@
+spec_version: v1.18
+identifier: KIUChineseDeepspaceExplorationPack
+$kref: '#/ckan/spacedock/3142'
+license: CC-BY-NC-SA
+tags:
+  - parts
+  - graphics
+depends:
+  - name: ModuleManager
+  - name: Waterfall
+install:
+  - find: KIU
+    install_to: GameData
+    filter_regexp: \.craft$
+  - file: KIU/CraftFiles/Non-RO/Tianwen-1.craft
+    install_to: Ships/VAB
+  - file: KIU/CraftFiles/RO/Tianwen-1.craft
+    install_to: Ships/VAB
+x_via: Automated SpaceDock CKAN submission
