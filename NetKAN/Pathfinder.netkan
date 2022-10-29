@@ -19,10 +19,10 @@ depends:
   - name: ModuleManager
   - name: KerbalActuators
   - name: WildBlueTools
-  - name: Buffalo
 recommends:
   - name: KAS
   - name: KIS
+  - name: Buffalo2
 supports:
   - name: ConnectedLivingSpace
   - name: TACLS
