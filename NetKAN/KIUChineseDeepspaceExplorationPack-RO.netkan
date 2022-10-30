@@ -1,0 +1,29 @@
+spec_version: v1.18
+identifier: KIUChineseDeepspaceExplorationPack-RO
+name: KIU Chinese Deepspace Exploration Pack (real scale)
+$kref: '#/ckan/spacedock/3142'
+license: CC-BY-NC-SA
+tags:
+  - parts
+  - graphics
+conflicts:
+  - name: KIUChineseDeepspaceExplorationPack
+depends:
+  - name: ModuleManager
+  - name: B9PartSwitch
+  - name: KIUChinese-Common
+recommends:
+  - name: Waterfall
+  - name: KerbalJointReinforcement
+install:
+  - find: KIU
+    install_to: GameData
+    filter:
+      - Common
+      - CraftFiles
+  - find: KCDE_RealScalePatch.cfg
+    find_matches_files: true
+    install_to: GameData/KIU
+  - find: CraftFiles/RO
+    install_to: Ships
+    as: VAB
