@@ -1,0 +1,26 @@
+spec_version: v1.18
+identifier: KIUChineseHumanSpaceflightPack-RO
+$kref: '#/ckan/spacedock/3144'
+license: CC-BY-NC-SA
+$vref: '#/ckan/ksp-avc'
+tags:
+  - parts
+  - crewed
+  - graphics
+conflicts:
+  - name: KIUChineseHumanSpaceflightPack
+depends:
+  - name: ModuleManager
+  - name: Waterfall
+  - name: KIUChinese-Common
+install:
+  - find: KIU
+    install_to: GameData
+    filter:
+      - Common
+      - CraftFiles
+  - find: KCHS_RealScalePatch
+    install_to: GameData/KIU
+  - find: CraftFiles/RO
+    install_to: Ships
+    as: VAB
