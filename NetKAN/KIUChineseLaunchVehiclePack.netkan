@@ -9,28 +9,13 @@ tags:
 depends:
   - name: ModuleManager
   - name: Waterfall
+  - name: KIUChinese-Common
 install:
   - find: KIU
     install_to: GameData
-    filter_regexp: \.craft$
-  - file: KIU/CraftFiles/Non-RO/CZ-2F.craft
-    install_to: Ships/VAB
-  - file: KIU/CraftFiles/Non-RO/CZ-6.craft
-    install_to: Ships/VAB
-  - file: KIU/CraftFiles/Non-RO/CZ-6A.craft
-    install_to: Ships/VAB
-  - file: KIU/CraftFiles/Non-RO/CZ-7.craft
-    install_to: Ships/VAB
-  - file: KIU/CraftFiles/Non-RO/Yuanzheng-3.craft
-    install_to: Ships/VAB
-  - file: KIU/CraftFiles/RO/CZ-2F.craft
-    install_to: Ships/VAB
-  - file: KIU/CraftFiles/RO/CZ-6.craft
-    install_to: Ships/VAB
-  - file: KIU/CraftFiles/RO/CZ-6A.craft
-    install_to: Ships/VAB
-  - file: KIU/CraftFiles/RO/CZ-7.craft
-    install_to: Ships/VAB
-  - file: KIU/CraftFiles/RO/YuanZheng-3.craft
-    install_to: Ships/VAB
-x_via: Automated SpaceDock CKAN submission
+    filter:
+      - Common
+      - CraftFiles
+  - find: CraftFiles/Non-RO
+    install_to: Ships
+    as: VAB

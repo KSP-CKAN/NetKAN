@@ -8,10 +8,13 @@ tags:
 depends:
   - name: ModuleManager
   - name: Waterfall
+  - name: KIUChinese-Common
 install:
   - find: KIU
     install_to: GameData
-    filter: CraftFiles
+    filter:
+      - Common
+      - CraftFiles
   - find: CraftFiles/Non-RO
     install_to: Ships
     as: VAB

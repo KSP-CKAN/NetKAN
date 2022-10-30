@@ -1,0 +1,12 @@
+spec_version: v1.18
+identifier: KIUChinese-Common
+$kref: '#/ckan/spacedock/3142'
+license: CC-BY-NC-SA
+tags:
+  - library
+  - config
+install:
+  - find: KIU/Common
+    install_to: GameData/KIU
+    filter:
+      - Extra
