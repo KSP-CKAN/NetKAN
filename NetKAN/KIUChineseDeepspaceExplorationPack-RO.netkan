@@ -10,8 +10,11 @@ conflicts:
   - name: KIUChineseDeepspaceExplorationPack
 depends:
   - name: ModuleManager
-  - name: Waterfall
+  - name: B9PartSwitch
   - name: KIUChinese-Common
+recommends:
+  - name: Waterfall
+  - name: KerbalJointReinforcement
 install:
   - find: KIU
     install_to: GameData
