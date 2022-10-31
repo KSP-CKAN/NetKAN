@@ -8,3 +8,7 @@ tags:
   - science
 depends:
   - name: ModuleManager
+x_netkan_override:
+  - version: 2.3.6
+    override:
+      ksp_version_min: 1.8
