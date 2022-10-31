@@ -1,0 +1,60 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "ROEnginesExtended",
+    "name": "ROEnginesExtended",
+    "abstract": "ROEnginesExtended is a mod that duplicates and tweaks existing ROEngines parts to create placeholders for more obscure engines.",
+    "author": "capkirk123",
+    "version": "v1.1.0",
+    "ksp_version_min": "1.12.0",
+    "ksp_version_max": "1.12.99",
+    "license": "CC-BY-NC-ND-4.0",
+    "release_status": "stable",
+    "resources": {
+        "homepage": "https://github.com/Capkirk123/ROEngines-Extended",
+        "repository": "https://github.com/Capkirk123/ROEngines-Extended",
+        "remote-avc": "https://raw.githubusercontent.com/Capkirk123/ROEngines-Extended/master/Gamedata/ROEnginesExtended/ROEnginesExtended.version"
+    },
+    "depends": [
+        {
+            "name": "ROEngines"
+        },
+        {
+            "name": "Waterfall"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "TexturesUnlimited"
+        },
+        {
+            "name": "ROCapsules"
+        },
+        {
+            "name": "ROTanks"
+        },
+        {
+            "name": "RP-0"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "TweakableEverythingCont"
+        }
+    ],
+    "install": [
+        {
+            "find": "GameData/ROEnginesExtended",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/Capkirk123/ROEngines-Extended/releases/download/1.1.0/ROEnginesExtended-v1.1.0.zip",
+    "download_size": 24321325,
+    "download_hash": {
+        "sha1": "C3440E55A82A7D44E15DF22EFF432FCB56DF4064",
+        "sha256": "BEC29AC20BA9F8E582526BD3D569E15C45D4AFC659F9A1C7C1C79AA5C7B2C59E"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 47524797,
+    "release_date": "2022-10-31T01:02:55Z",
+    "x_generated_by": "netkan"
+}
