@@ -9,6 +9,8 @@ tags:
   - crewed
 depends:
   - name: ModuleManager
+  - name: ClickThroughBlocker
+  - name: ToolbarController
+  - name: SpaceTuxLibrary
   - name: B9PartSwitch
-  - name: CommunityResourcePack
-  - name: CommunityCategoryKit
+  - name: ModuleAnimateGenericResourceUsage
