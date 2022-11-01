@@ -13,4 +13,6 @@ depends:
   - name: ToolbarController
   - name: SpaceTuxLibrary
   - name: B9PartSwitch
-  - name: ModuleAnimateGenericResourceUsage
+  - name: ModuleAnimGenericResourceUsage
+  - name: CommunityResourcePack
+  - name: CommunityCategoryKit
