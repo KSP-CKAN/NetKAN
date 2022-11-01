@@ -1,0 +1,18 @@
+spec_version: v1.18
+identifier: IFILifeSupport
+$kref: '#/ckan/spacedock/3145'
+license: GPL-3.0
+$vref: '#/ckan/ksp-avc'
+tags:
+  - plugin
+  - parts
+  - crewed
+  - tech-tree
+depends:
+  - name: ModuleManager
+  - name: B9PartSwitch
+install:
+  - find: IFILS
+    install_to: GameData
+    filter_regexp: \.mdb$
+x_via: Automated SpaceDock CKAN submission
