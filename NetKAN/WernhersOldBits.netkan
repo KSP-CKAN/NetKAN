@@ -1,22 +1,15 @@
-{
-    "spec_version": 1,
-    "identifier":   "WernhersOldBits",
-    "$kref":        "#/ckan/spacedock/42",
-    "license":      "MIT",
-    "tags": [
-        "parts"
-    ],
-    "depends": [
-        { "name": "ModuleManager" }
-    ],
-    "recommends": [
-        { "name": "CommunityResourcePack" },
-        { "name": "RealPlume" }
-    ],
-    "install": [
-        {
-            "file"       : "WernhersOldStuff",
-            "install_to" : "GameData"
-        }
-    ]
-}
+spec_version: 1
+identifier: WernhersOldBits
+$kref: '#/ckan/spacedock/42'
+$vref: '#/ckan/ksp-avc'
+license: MIT
+tags:
+  - parts
+depends:
+  - name: ModuleManager
+recommends:
+  - name: CommunityResourcePack
+  - name: RealPlume
+install:
+  - find: WernhersOldStuff
+    install_to: GameData
