@@ -8,12 +8,6 @@ tags:
   - library
 suggests:
   - name: StockDepthMaskConfig
-install:
-  - find: GameData/DepthMask
-    install_to: GameData
-  - find: README.md
-    find_matches_files: true
-    install_to: GameData/DepthMask
 x_netkan_override:
   - version: 1.1.2
     override:
