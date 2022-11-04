@@ -1,6 +1,7 @@
 spec_version: v1.16
 identifier: DepthMask
 $kref: '#/ckan/spacedock/2943'
+$vref: '#/ckan/ksp-avc'
 license: CC-BY-SA
 tags:
   - plugin
@@ -8,9 +9,8 @@ tags:
 suggests:
   - name: StockDepthMaskConfig
 install:
-  - find: DepthMask.dll
-    find_matches_files: true
-    install_to: GameData/DepthMask
+  - find: GameData/DepthMask
+    install_to: GameData
   - find: README.md
     find_matches_files: true
     install_to: GameData/DepthMask
