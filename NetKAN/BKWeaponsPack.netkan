@@ -1,0 +1,13 @@
+spec_version: v1.18
+identifier: BKWeaponsPack
+$kref: '#/ckan/spacedock/3146'
+license: CC-BY-NC-SA
+tags:
+  - parts
+install:
+  - find: ''
+    install_to: GameData
+    filter:
+      - __MACOSX
+      - .DS_Store
+x_via: Automated SpaceDock CKAN submission
