@@ -7,11 +7,6 @@ tags:
   - app
   - information
 install:
-  - find: Textures
+  - find: KerbalTelemetry
     install_to: GameData
     filter: .DS_Store
-  - find: WebServer
-    install_to: GameData
-    filter: .DS_Store
-  - find: Kerbal Telemetry.dll
-    install_to: GameData
