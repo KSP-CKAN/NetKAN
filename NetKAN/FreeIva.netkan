@@ -1,0 +1,12 @@
+spec_version: v1.18
+identifier: FreeIva
+$kref: '#/ckan/spacedock/3151'
+license: GPL-2.0
+$vref: '#/ckan/ksp-avc'
+tags:
+  - plugin
+  - config
+  - crewed
+depends:
+  - name: ModuleManager
+x_via: Automated SpaceDock CKAN submission
