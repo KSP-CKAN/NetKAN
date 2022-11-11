@@ -12,6 +12,7 @@ tags:
   - crewed
 depends:
   - name: ModuleManager
+  - name: WildBlueCore
   - name: NearFutureProps
 recommends:
   - name: ExtraPlanetaryLaunchpads
