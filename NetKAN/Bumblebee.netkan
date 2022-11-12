@@ -1,29 +1,23 @@
-{
-    "spec_version": "v1.4",
-    "identifier":   "Bumblebee",
-    "$kref":        "#/ckan/spacedock/2428",
-    "ksp_version_min": "1.8.1",
-    "ksp_version_max": "1.12.2",
-    "license":      "CC-BY-NC-SA-4.0",
-    "tags": [
-        "parts",
-        "uncrewed"
-    ],
-    "depends": [
-        { "name": "ModuleManager"         },
-        { "name": "B9PartSwitch"          },
-        { "name": "KerbalActuators"       },
-        { "name": "CommunityResourcePack" },
-        { "name": "DMagicScienceAnimate"  }
-    ],
-    "suggests": [
-        { "name": "CommunityCategoryKit" },
-        { "name": "IndicatorLights" },
-        { "name": "NearFutureElectrical" }
-    ],
-    "supports": [
-        { "name": "HullcamVDSContinued" },
-        { "name": "BluedogDB" },
-        { "name": "ProbesPlus" }
-    ]
-}
+spec_version: v1.4
+identifier: Bumblebee
+$kref: '#/ckan/spacedock/2428'
+ksp_version_min: 1.8.1
+ksp_version_max: '1.12'
+license: CC-BY-NC-SA-4.0
+tags:
+  - parts
+  - uncrewed
+depends:
+  - name: ModuleManager
+  - name: B9PartSwitch
+  - name: KerbalActuators
+  - name: CommunityResourcePack
+  - name: DMagicScienceAnimate
+suggests:
+  - name: CommunityCategoryKit
+  - name: IndicatorLights
+  - name: NearFutureElectrical
+supports:
+  - name: HullcamVDSContinued
+  - name: BluedogDB
+  - name: ProbesPlus
