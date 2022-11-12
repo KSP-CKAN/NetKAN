@@ -23,6 +23,7 @@ tags:
 install:
   - file: GameData/TweakScale
     install_to: GameData
+    filter: Scale_Redist.dll
 depends:
   - name: TweakScale-Redist
   - name: ModuleManager
