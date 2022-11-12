@@ -1,7 +1,9 @@
 spec_version: v1.4
 identifier: BluedogDB-RealNames
 name: Bluedog Design Bureau Extras - Real Names
-abstract: Optional patch for BDB to change part names from kerbalised ones to ones based on real-life
+abstract: >-
+  Optional patch for BDB to change part names
+  from kerbalised ones to ones based on real-life
 author:
   - zorg2044
   - Rodger

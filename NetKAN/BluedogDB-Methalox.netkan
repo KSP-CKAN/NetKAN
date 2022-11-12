@@ -1,7 +1,9 @@
 spec_version: v1.4
 identifier: BluedogDB-Methalox
 name: Bluedog Design Bureau Extras - Methalox Variants
-abstract: Optional patch for BDB to add methalox variants to several of the cryogenic engines
+abstract: >-
+  Optional patch for BDB to add methalox variants
+  to several of the cryogenic engines
 author: Rodger
 $kref: '#/ckan/spacedock/442'
 $vref: '#/ckan/ksp-avc/Bluedog_DB.version'
