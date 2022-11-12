@@ -4,7 +4,7 @@ name: Bluedog Design Bureau Extras - Community Category Kit
 abstract: Optional patch for BDB to add custom CCK categories
 author: Rodger
 $kref: '#/ckan/spacedock/442'
-$vref: '#/ckan/ksp-avc'
+$vref: '#/ckan/ksp-avc/Bluedog_DB.version'
 license: CC-BY-NC-SA-4.0
 tags:
   - config
