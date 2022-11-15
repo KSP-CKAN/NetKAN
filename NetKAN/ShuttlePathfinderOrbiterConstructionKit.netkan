@@ -1,0 +1,23 @@
+spec_version: v1.18
+identifier: ShuttlePathfinderOrbiterConstructionKit
+$kref: '#/ckan/github/rogerwang86/SPOCK'
+license: CC-BY-NC-SA-4.0
+tags:
+  - parts
+depends:
+  - name: ModuleManager
+  - name: B9PartSwitch
+  - name: Benjee10-SharedAssets
+  - name: ShuttleOrbiterConstructionKit
+  - name: CommunityResourcePack
+  - name: Waterfall
+  - name: DepthMask
+install:
+  - find: shuttle_OV200
+    install_to: GameData
+    filter: Plugins
+  - find: ShuttleStuff_SharedAssets
+    install_to: GameData
+  - find: Craft Files
+    install_to: Ships
+    as: SPH
