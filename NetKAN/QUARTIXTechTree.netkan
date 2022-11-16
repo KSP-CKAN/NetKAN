@@ -7,6 +7,21 @@ tags:
   - tech-tree
 depends:
   - name: ModuleManager
+recommends:
+  - name: SimplexPropulsion
+  - name: SIMPLEXResources
+  - name: ReStockPlus
+  - name: SIMPLEXKerbalism
+  - name: MoldaviteMachines
+  - name: HullcamVDS
+  - name: SCANsat
+  - name: ExtraPlanetaryLaunchpads
+  - name: KeridianDynamicsVesselAssembly
+  - name: StockalikeMiningExtension
+  - name: BahaEPLRedrilled
+suggests:
+  - name: ExtraDockingPorts
+  - name: Grounded
 install:
   - find: AngleCanMods
     install_to: GameData
