@@ -14,5 +14,9 @@
     }, {
         "find"       : "Ships",
         "install_to" : "Ships"
-    } ]
+    } ],
+    "depends": [
+        { "name" : "ToolbarController" },
+        { "name" : "ClickThroughBlocker" }
+    ]
 }
