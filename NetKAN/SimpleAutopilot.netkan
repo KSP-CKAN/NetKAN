@@ -9,5 +9,4 @@ depends:
   - name: kOS
 install:
   - find: Script
-    install_to: GameData
-x_via: Automated SpaceDock CKAN submission
+    install_to: Ships
