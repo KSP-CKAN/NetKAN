@@ -4,5 +4,5 @@ $kref: '#/ckan/spacedock/3154'
 license: MIT
 tags:
   - parts
-depends:
+supports:
   - name: TantaresSP
