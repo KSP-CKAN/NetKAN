@@ -6,3 +6,6 @@ tags:
   - plugin
   - config
   - flags
+install:
+  - find: KASALoadingScreens
+    install_to: GameData
