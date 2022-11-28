@@ -3,13 +3,14 @@ identifier: Lazarus
 $kref: '#/ckan/spacedock/3157'
 license: CC-BY-NC-ND
 tags:
-  - plugin
   - config
   - planet-pack
 depends:
   - name: ModuleManager
   - name: Kopernicus
+recommends:
+  - name: EnvironmentalVisualEnhancements
+  - name: Scatterer
 install:
-  - find: Awakenings
+  - find: KIPcore
     install_to: GameData
-x_via: Automated SpaceDock CKAN submission
