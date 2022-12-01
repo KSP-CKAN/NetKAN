@@ -7,12 +7,18 @@ tags:
   - parts
   - plugin
   - crewed
+  - science
 depends:
   - name: BreakingGround-DLC
   - name: ModuleManager
   - name: B9PartSwitch
   - name: HabTechProps
   - name: Benjee10-SharedAssets
+recommends:
+  - name: Waterfall
+suggests:
+  - name: ShuttleOrbiterConstructionKit
+  - name: Benjee10Suits
 install:
   - find: Benjee10_MMSEV
     install_to: GameData
