@@ -9,12 +9,12 @@ tags:
   - crewed
   - science
 depends:
-  - name: BreakingGround-DLC
   - name: ModuleManager
   - name: B9PartSwitch
   - name: HabTechProps
   - name: Benjee10-SharedAssets
 recommends:
+  - name: BreakingGround-DLC
   - name: Waterfall
 suggests:
   - name: ShuttleOrbiterConstructionKit
