@@ -6,4 +6,13 @@ tags:
   - config
 depends:
   - name: ModuleManager
-x_via: Automated SpaceDock CKAN submission
+  - name: CryoTanks
+  - name: CryoEngines
+  - name: NearFuturePropulsion
+  - name: NearFutureElectrical
+  - name: NearFutureSolar
+  - name: NearFutureConstruction
+  - name: NearFutureSpacecraft
+  - name: NearFutureExploration
+  - name: NearFutureAeronautics
+  - name: FarFutureTechnologies
