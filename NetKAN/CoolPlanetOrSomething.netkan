@@ -1,14 +1,18 @@
 spec_version: v1.18
 identifier: CoolPlanetOrSomething
 $kref: '#/ckan/spacedock/3159'
-license: MIT
+license: GPL-3.0
 tags:
   - config
   - planet-pack
 depends:
   - name: ModuleManager
   - name: Kopernicus
+  - name: CommunityTerrainTexturePack
+recommends:
+  - name: Scatterer
+  - name: EnvironmentalVisualEnhancements
+  - name: TUFX
 install:
   - find: sillyplanets
     install_to: GameData
-x_via: Automated SpaceDock CKAN submission
