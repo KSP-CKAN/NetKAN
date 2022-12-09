@@ -1,0 +1,12 @@
+spec_version: v1.18
+identifier: ANGLECANProgressionContracts
+$kref: '#/ckan/spacedock/3160'
+license: CC-BY-NC-SA
+tags:
+  - config
+  - tech-tree
+  - career
+depends:
+  - name: ModuleManager
+  - name: ContractConfigurator
+x_via: Automated SpaceDock CKAN submission
