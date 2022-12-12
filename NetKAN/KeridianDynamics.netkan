@@ -1,5 +1,5 @@
 {
-    "identifier": "KeridianDynamicsVesselAssembly",
+    "identifier": "KeridianDynamics",
     "spec_version": "v1.4",
     "$kref": "#/ckan/spacedock/308",
     "$vref": "#/ckan/ksp-avc",
@@ -9,12 +9,17 @@
         { "name": "ModuleManager" }
     ],
     "supports": [
+        { "name": "SimpleConstruction" },
         { "name": "ExtraPlanetaryLaunchpads" },
         { "name": "ConnectedLivingSpace" },
         { "name": "CommunityResourcePack" },
         { "name": "CommunityTechTree" }
     ],
+    "supports": [
+        { "name": "SimpleLogistics" }
+    ],
     "recommends":[
+        { "name": "SimpleConstruction" },
         { "name": "KIS" },
         { "name": "JSIAdvancedTransparentPods" },
         { "name": "Firespitter" },
