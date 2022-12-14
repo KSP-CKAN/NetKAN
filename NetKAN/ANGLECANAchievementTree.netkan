@@ -1,5 +1,5 @@
 spec_version: v1.18
-identifier: ANGLECANProgressionContracts
+identifier: ANGLECANAchievementTree
 $kref: '#/ckan/spacedock/3160'
 license: CC-BY-NC-SA
 tags:
@@ -9,4 +9,6 @@ tags:
 depends:
   - name: ModuleManager
   - name: ContractConfigurator
-x_via: Automated SpaceDock CKAN submission
+install:
+  - find: AngleCanMods
+    install_to: GameData
