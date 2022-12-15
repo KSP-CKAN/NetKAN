@@ -9,7 +9,8 @@ tags:
 depends:
   - name: ModuleManager
   - name: Kopernicus
+recommends:
+  - name: BetterKerbol
 install:
   - find: KramChal
     install_to: GameData
-x_via: Automated SpaceDock CKAN submission
