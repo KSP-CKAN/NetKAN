@@ -1,0 +1,24 @@
+spec_version: v1.18
+identifier: ASTRO
+abstract: AeroSpace Technologies and Reusable Operations
+$kref: '#/ckan/github/astro119/ASTRO'
+license: restricted
+tags:
+  - parts
+depends:
+  - name: ModuleManager
+  - name: CommunityResourcePack
+  - name: Waterfall
+recommends:
+  - name: Benjee10-SharedAssets
+  - name: CryoTanks
+  - name: Trajectories
+  - name: MechJeb2
+  - name: ArtemisConstructionKit
+  - name: ConformalDecals
+install:
+  - find: ASTRO
+    install_to: GameData
+  - find: Craft Files
+    install_to: Ships
+    as: SPH
