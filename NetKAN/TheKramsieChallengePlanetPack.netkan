@@ -6,12 +6,19 @@ tags:
   - plugin
   - config
   - planet-pack
+provides:
+  - Scatterer-config
+  - Scatterer-sunflare
 depends:
   - name: ModuleManager
   - name: Kopernicus
+  - name: Scatterer
 recommends:
   - name: BetterKerbol
 install:
   - find: KramChal
     install_to: GameData
-    filter: Scatterer
+    filter:
+      - icon
+      - shaders
+      - Scatterer.dll
