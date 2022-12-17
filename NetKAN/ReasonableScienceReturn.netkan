@@ -1,0 +1,9 @@
+spec_version: v1.18
+identifier: ReasonableScienceReturn
+$kref: '#/ckan/spacedock/3171'
+license: MIT
+tags:
+  - config
+depends:
+  - name: ModuleManager
+x_via: Automated SpaceDock CKAN submission
