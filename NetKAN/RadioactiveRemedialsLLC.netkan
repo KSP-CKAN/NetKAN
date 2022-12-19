@@ -1,0 +1,11 @@
+spec_version: v1.18
+identifier: RadioactiveRemedialsLLC
+$kref: '#/ckan/spacedock/3175'
+license: MIT
+tags:
+  - parts
+install:
+  - find: ''
+    install_to: GameData
+    filter_regexp: ~$
+x_via: Automated SpaceDock CKAN submission
