@@ -1,0 +1,12 @@
+spec_version: v1.18
+identifier: RealFuelsISRU
+$kref: '#/ckan/spacedock/3177'
+license: MIT
+tags:
+  - config
+depends:
+  - name: ModuleManager
+install:
+  - find: Leonard
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
