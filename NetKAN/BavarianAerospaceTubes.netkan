@@ -8,6 +8,10 @@ tags:
   - crewed
 depends:
   - name: ModuleManager
+suggests:
+  - name: Firespitter
+recommends:
+  - name: KAS
 install:
   - find: Bavaria
     install_to: GameData
