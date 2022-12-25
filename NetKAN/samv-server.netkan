@@ -4,7 +4,7 @@
     "identifier"   : "samv-server",
     "name"         : "Stand alone map view server",
     "$kref"        : "#/ckan/github/danielkinsman/stand-alone-map-view",
-    "ksp_version"  : "1.4",
+    "$vref"        : "#/ckan/ksp-avc",
     "license"      : "GPL-3.0",
     "resources": {
         "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/211182-*/"
