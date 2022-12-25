@@ -1,0 +1,25 @@
+{
+    "spec_version" : "v1.4",
+    "x_netkan_epoch": 1,
+    "identifier"   : "samv-server",
+    "name"         : "Stand alone map view server",
+    "$kref"        : "#/ckan/github/danielkinsman/stand-alone-map-view",
+    "ksp_version"  : "1.4",
+    "license"      : "GPL-3.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/211182-*/"
+    },
+    "tags": [
+        "plugin",
+        "app"
+    ],
+    "install": [
+        {
+            "find"       : "samv_server",
+            "install_to" : "GameData"
+        }
+    ],
+    "conflicts": [
+        { "name": "samv-client" }
+    ]
+}
