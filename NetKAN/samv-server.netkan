@@ -3,7 +3,7 @@
     "x_netkan_epoch": 1,
     "identifier"   : "samv-server",
     "name"         : "Stand alone map view server",
-    "$kref"        : "#/ckan/github/linuxgurugamer/stand-alone-map-view",
+    "$kref"        : "#/ckan/github/linuxgurugamer/stand-alone-map-view/asset_match/StandAloneMapView.*-server.zip",
     "$vref"        : "#/ckan/ksp-avc",
     "license"      : "GPL-3.0",
     "resources": {
