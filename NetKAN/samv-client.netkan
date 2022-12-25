@@ -1,8 +1,8 @@
 {
     "spec_version" : "v1.4",
+    "x_netkan_epoch": 1,
     "identifier"   : "samv-client",
     "name"         : "Stand alone map view client",
-    "abstract"     : "Allows you to open a new window (on a separator monitor) to display the map view, using two separate copies of the game. One copy should install the client, the other (your main game) should install the server. All other mods should be the same.  Most of the parts can be removed from the client to save memoryi, except for GameData\Squad\Parts\Command\Mk1-3Pod\* and GameData\Squad\Parts\Prebuilt\*",
     "$kref"        : "#/ckan/github/linuxgurugamer/stand-alone-map-view",
     "$vref"        : "#/ckan/ksp-avc",
     "license"      : "GPL-3.0",
@@ -15,7 +15,7 @@
     ],
     "install": [
         {
-            "find"       : "stand-alone-map-view/samv_client",
+            "find"       : "samv_client",
             "install_to" : "GameData"
         }
     ],
