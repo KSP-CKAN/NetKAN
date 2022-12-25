@@ -11,7 +11,6 @@ depends:
   - name: RealPlume
   - name: RealPlume-StockConfigs
   - name: SmokeScreen
-  - name: TUFX
 recommends:
   - name: AudioMufflerRedux
   - name: ReStock
@@ -21,6 +20,7 @@ recommends:
   - name: NewTantares
   - name: ChrayolDesignOrg
   - name: CRE
+  - name: TUFX
 install:
   - find_regexp: SWE
     install_to: GameData
