@@ -1,0 +1,18 @@
+spec_version: v1.18
+identifier: BavarianAerospaceTubes
+$kref: '#/ckan/spacedock/3182'
+license: CC-BY-SA
+$vref: '#/ckan/ksp-avc'
+tags:
+  - parts
+  - crewed
+depends:
+  - name: ModuleManager
+suggests:
+  - name: Firespitter
+recommends:
+  - name: KAS
+install:
+  - find: Bavaria
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
