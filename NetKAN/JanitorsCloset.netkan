@@ -9,8 +9,7 @@
         "convenience"
     ],
     "recommends": [
-        { "name": "FilterExtensions" },
-        { "name": "KSP-AVC"          }
+        { "name": "FilterExtensions" }
     ],
     "depends": [
         { "name": "ModuleManager"       },
