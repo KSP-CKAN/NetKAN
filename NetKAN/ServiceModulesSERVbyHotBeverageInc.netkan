@@ -1,0 +1,13 @@
+spec_version: v1.18
+identifier: ServiceModulesSERVbyHotBeverageInc
+$kref: '#/ckan/spacedock/3037'
+license: CC-BY-ND-4.0
+$vref: '#/ckan/ksp-avc'
+tags:
+  - parts
+depends:
+  - name: ModuleManager
+install:
+  - find: HotBeverage
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
