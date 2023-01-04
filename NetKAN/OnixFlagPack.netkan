@@ -1,0 +1,8 @@
+spec_version: v1.18
+identifier: OnixFlagPack
+$kref: '#/ckan/spacedock/3187'
+license: MIT
+install:
+  - find: Onixflags
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
