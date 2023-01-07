@@ -1,0 +1,14 @@
+spec_version: v1.18
+identifier: TheRedDot
+$kref: '#/ckan/spacedock/3190'
+license: MIT
+tags:
+  - config
+  - planet-pack
+depends:
+  - name: ModuleManager
+  - name: Kopernicus
+install:
+  - find: Srobie
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
