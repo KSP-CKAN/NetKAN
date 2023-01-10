@@ -1,29 +1,21 @@
-{
-    "spec_version": "v1.4",
-    "identifier":   "GRAPES",
-
-    "$kref":        "#/ckan/spacedock/2790",
-
-    "$vref":        "#/ckan/ksp-avc",
-    "name":         "Gas Repairs And Probably Expensive Snacks",
-    "author":       "linuxgurugamer",
-    "abstract":     "Provide a means to purchase fuel in orbit",
-
-
-    "license":      "CC-BY-NC-SA",
-    "tags": [
-        "plugin",
-        "parts",
-        "resources"
-    ],
-    "install": [ {
-        "find":       "FruitKocktail",
-        "install_to": "GameData"
-    } ],
-
-    "depends": [
-        { "name" : "ToolbarController" },
-        { "name" : "ClickThroughBlocker" },
-        { "name": "ModuleManager" }
-    ]
-}
+spec_version: v1.4
+identifier: GRAPES
+name: Gas Repairs And Probably Expensive Snacks
+abstract: Provide a means to purchase fuel in orbit
+author:
+  - FruitGoose
+  - linuxgurugamer
+$kref: '#/ckan/spacedock/2790'
+$vref: '#/ckan/ksp-avc'
+license: CC-BY-NC-SA
+tags:
+  - plugin
+  - parts
+  - resources
+depends:
+  - name: ToolbarController
+  - name: ClickThroughBlocker
+  - name: ModuleManager
+install:
+  - find: FruitKocktail
+    install_to: GameData

@@ -1,0 +1,25 @@
+spec_version: v1.4
+identifier: AlmostFreeLaunchClamps
+author:
+  - Galileo88
+  - flart
+$kref: '#/ckan/github/yalov/FreeLaunchClamps'
+$vref: '#/ckan/ksp-avc'
+license: GPL-3.0
+resources:
+  homepage: https://forum.kerbalspaceprogram.com/index.php?/topic/209241-*
+tags:
+  - config
+depends:
+  - name: ModuleManager
+suggests:
+  - name: CommunityResourcePack
+  - name: FASALaunchClampsContinued
+  - name: FASA
+  - name: BluedogDB
+  - name: SpaceY-Lifters
+  - name: RealScaleBoosters
+  - name: ModularLaunchPads
+install:
+  - find: FreeLaunchClamps
+    install_to: GameData

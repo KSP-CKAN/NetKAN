@@ -1,10 +1,49 @@
-{
-    "spec_version": "v1.16",
-    "identifier": "Karbonite",
-    "$kref": "#/ckan/netkan/https://raw.githubusercontent.com/UmbraSpaceIndustries/CKAN/master/Karbonite.netkan",
-    "x_netkan_license_ok": true,
-    "tags": [
-        "parts",
-        "resources"
-    ]
-}
+spec_version: v1.4
+identifier: Karbonite
+name: Karbonite
+abstract: >-
+  A newly discovered mineral that has hydrocarbon-like properties and is perfect
+  for processing into a fuel. It's easily mined from the surface, and can be
+  found in liquid or gaseous forms on certain planets.
+comment: This may be renamed to USI-Karbonite in the future
+author: RoverDude
+$kref: '#/ckan/github/UmbraSpaceIndustries/Karbonite'
+$vref: '#/ckan/ksp-avc'
+x_netkan_epoch: '1'
+license: restricted
+release_status: stable
+resources:
+  homepage: https://forum.kerbalspaceprogram.com/index.php?/topic/83948-*
+  manual: https://umbraspaceindustries.github.io/UmbraSpaceIndustries/
+tags:
+  - parts
+  - resources
+depends:
+  - name: FirespitterCore
+    min_version: v7.6.0
+  - name: ModuleManager
+    min_version: 2.8.0
+  - name: USITools
+    min_version: 0.9.0.0
+  - name: CommunityResourcePack
+    min_version: 0.7.0.0
+  - name: USI-Core
+    min_version: 0.4.0.0
+suggests:
+  - name: TextureReplacer
+provides:
+  - USI-Karbonite
+conflicts:
+  - name: SETI-CommunityTechTree
+install:
+  - find: UmbraSpaceIndustries/Karbonite
+    install_to: GameData/UmbraSpaceIndustries
+  - find: UmbraSpaceIndustries/KarbonitePlus
+    install_to: GameData/UmbraSpaceIndustries
+x_netkan_override:
+  - version: 0.6.2
+    delete:
+      - ksp_version
+    override:
+      ksp_version_min: 1.0.2
+      ksp_version_max: 1.0.4

@@ -1,11 +1,58 @@
-{
-    "spec_version" : "v1.16",
-    "identifier" : "UKS",
-    "$kref" : "#/ckan/netkan/https://raw.githubusercontent.com/UmbraSpaceIndustries/CKAN/master/UKS.netkan",
-    "x_netkan_license_ok": true,
-    "tags": [
-        "plugin",
-        "parts",
-        "crewed"
-    ]
-}
+spec_version: v1.4
+identifier: UKS
+author: RoverDude
+name: USI Kolonization Systems (MKS/OKS)
+abstract: >-
+  A series of interlocking modules for building long-term, self sustaining
+  colonies in orbit and on other planets and moons.
+description: >-
+  MKS introduces a series of parts specifically designed to provide
+  self-sustaining life support for your Kerbals. While the parts will function
+  without a life support mod, the design is centered around providing an
+  appropriate challenge where players will weigh the costs, risks, and rewards
+  of supplying missions exclusively with carried life support supplies, or in
+  making the investment in a permanent colony. That being said, this is not just
+  a single greenhouse part (although food production is part of the mod).
+  Rather, it brings an entire colonization end-game to KSP in a fun and
+  challenging way.
+$kref: '#/ckan/github/UmbraSpaceIndustries/MKS'
+$vref: '#/ckan/ksp-avc'
+x_netkan_epoch: '1'
+license: restricted
+release_status: stable
+resources:
+  homepage: https://forum.kerbalspaceprogram.com/index.php?/topic/154587-*
+  manual: https://umbraspaceindustries.github.io/UmbraSpaceIndustries/
+tags:
+  - plugin
+  - parts
+  - crewed
+provides:
+  - MKS
+depends:
+  - name: FirespitterCore
+    min_version: v7.6.0
+  - name: ModuleManager
+    min_version: 2.8.0
+  - name: USITools
+    min_version: 0.9.0.0
+  - name: CommunityResourcePack
+    min_version: 0.7.0.0
+  - name: CommunityCategoryKit
+    min_version: 2.0.0.0
+  - name: USI-Core
+    min_version: 0.4.0.0
+  - name: Konstruction
+    min_version: 0.2.0.0
+suggests:
+  - name: USI-LS
+    min_version: 0.6.0.0
+conflicts:
+  - name: SETI-CommunityTechTree
+install:
+  - find: UmbraSpaceIndustries/MKS
+    install_to: GameData/UmbraSpaceIndustries
+  - find: UmbraSpaceIndustries/Karibou
+    install_to: GameData/UmbraSpaceIndustries
+  - find: UmbraSpaceIndustries/WOLF
+    install_to: GameData/UmbraSpaceIndustries

@@ -1,21 +1,16 @@
-{
-    "spec_version": "v1.4",
-    "identifier":   "VertikalSpeedIndicator",
-
-    "$kref":        "#/ckan/spacedock/2794",
-
-    "$vref":        "#/ckan/ksp-avc",
-    "name":         "Vertikal Speed Indicator",
-    "author":       "linuxgurugamer",
-    "abstract":     "Shows whether climbing or descending by the color of the navball text",
-
-    "license":      "MIT",
-    "tags": [
-        "plugin",
-        "information"
-    ],
-    "install": [ {
-        "find":       "FruitKocktail",
-        "install_to": "GameData"
-    } ]
-}
+spec_version: v1.4
+identifier: VertikalSpeedIndicator
+name: Vertikal Speed Indicator
+abstract: Shows whether climbing or descending by the color of the navball text
+author:
+  - FruitGoose
+  - linuxgurugamer
+$kref: '#/ckan/spacedock/2794'
+$vref: '#/ckan/ksp-avc'
+license: MIT
+tags:
+  - plugin
+  - information
+install:
+  - find: FruitKocktail
+    install_to: GameData

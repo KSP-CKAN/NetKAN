@@ -10,14 +10,17 @@ depends:
   - name: ModuleManager
   - name: B9PartSwitch
   - name: Waterfall
-  - name: ComfortableLanding
 recommends:
   - name: KerbalJointReinforcement
 install:
-  - find: NTCP
+  - find: NCAP
     install_to: GameData
   - find: Readme.txt
     find_matches_files: true
     install_to: GameData/NTCP
-  - find: ICSP
-    install_to: GameData
+  - find: Changelog.txt
+    find_matches_files: true
+    install_to: GameData/NTCP
+  - find_regexp: CRAFT FILES/Craft files
+    install_to: Ships
+    as: VAB

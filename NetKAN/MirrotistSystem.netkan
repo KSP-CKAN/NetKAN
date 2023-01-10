@@ -1,0 +1,13 @@
+spec_version: v1.18
+identifier: MirrotistSystem
+$kref: '#/ckan/spacedock/3087'
+license: CC-BY-NC-SA
+tags:
+  - config
+  - planet-pack
+depends:
+  - name: ModuleManager
+  - name: Kopernicus
+recommends:
+  - name: Scatterer
+  - name: EnvironmentalVisualEnhancements

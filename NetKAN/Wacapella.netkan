@@ -1,0 +1,23 @@
+spec_version: v1.4
+identifier: Wacapella
+name: Wacapella
+abstract: Early sounding rockets
+author: 610yesnolovely (Harvey Thompson)
+license: MIT
+resources:
+  homepage: https://forum.kerbalspaceprogram.com/index.php?/topic/210985-112x-wacapella-early-sounding-rockets-001-9th-dec-2022/
+tags:
+  - parts
+  - config
+  - uncrewed
+$kref: '#/ckan/github/harveyt/Wacapella'
+ksp_version: 1.12
+depends:
+  - name: ModuleManager
+  - name: CompletelyNonAggressiveRocketry
+  - name: Taerobee
+recommends:
+  - name: BluedogDB
+suggests:
+  - name: ContractConfigurator-HistoryofSpaceflight-PocketEdition
+  - name: SkyhawkScienceSystem

@@ -1,0 +1,17 @@
+spec_version: v1.18
+identifier: Spectra-ScattererVibrantSunsets
+name: Spectra Scatterer vibrant sunsets
+abstract: Intense sunsets
+description: >-
+  Addon for Spectra.
+  Adds Scatterer config to enhance sunsets. Causes artifacting in orbit.
+$kref: '#/ckan/spacedock/1505'
+$vref: '#/ckan/ksp-avc'
+license: MIT
+tags:
+  - config
+  - graphics
+install:
+  - find: Step 3- Extras/Scatterer vibrant sunsets
+    install_to: GameData
+    as: Spectra

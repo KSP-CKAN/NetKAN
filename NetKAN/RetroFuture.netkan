@@ -12,6 +12,7 @@
     ],
     "depends": [
         { "name": "FirespitterCore" },
+        { "name": "KSPWheel" },
         { "name": "ModuleManager"   }
     ],
     "recommends": [

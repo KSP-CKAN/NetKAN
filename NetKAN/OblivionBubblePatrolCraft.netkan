@@ -1,0 +1,12 @@
+spec_version: v1.4
+identifier: OblivionBubblePatrolCraft
+$kref: '#/ckan/spacedock/3114'
+license: CC-BY-SA-4.0
+tags:
+  - parts
+  - crewed
+depends:
+  - name: ModuleAnimateGenericEffects
+install:
+  - find: BubbleCJ
+    install_to: GameData

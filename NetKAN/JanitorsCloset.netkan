@@ -9,13 +9,12 @@
         "convenience"
     ],
     "recommends": [
-        { "name": "FilterExtensions" },
-        { "name": "KSP-AVC"          }
+        { "name": "FilterExtensions" }
     ],
     "depends": [
         { "name": "ModuleManager"       },
         { "name": "ClickThroughBlocker" },
-		{ "name": "SpaceTuxLibrary" }
+        { "name": "SpaceTuxLibrary" }
     ],
     "install": [ {
         "find":       "JanitorsCloset",

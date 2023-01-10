@@ -18,7 +18,6 @@
     "depends": [
         { "name": "Buffalo-PlayMode" },
         { "name": "ModuleManager"    },
-        { "name": "BarisBridge"      },
         { "name": "WildBlueTools"    },
         { "name": "KerbalActuators"  }
     ],

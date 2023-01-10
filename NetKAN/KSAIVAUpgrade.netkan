@@ -1,0 +1,34 @@
+spec_version: v1.16
+identifier: KSAIVAUpgrade
+name: KSA IVA Upgrade
+abstract: Detailed IVAs for the stock mk1 pods and cockpits.
+author:
+  - RangeMachine
+  - JonnyOThan
+license: CC-BY-SA-2.0
+$kref: '#/ckan/github/JonnyOThan/KSA-IVA-Upgrade'
+$vref: '#/ckan/ksp-avc'
+resources:
+  license: https://github.com/JonnyOThan/KSA-IVA-Upgrade/blob/main/LICENSE
+  homepage: >-
+    https://forum.kerbalspaceprogram.com/index.php?/topic/208598-ksa-iva-upgrade-adopted-mk1-stock-parts/
+  x_screenshot: https://i.imgur.com/MkfyOsO.png
+tags:
+  - config
+  - crewed
+  - graphics
+depends:
+  - name: RasterPropMonitor
+  - name: ASETProps
+  - name: ASETAvionics
+  - name: ModuleManager
+recommends:
+  - name: Reviva
+suggests:
+  - name: DockingPortAlignmentIndicator
+  - name: SCANsat
+  - name: Astrogator
+  - name: HullcamVDSContinued
+install:
+  - find: KSA
+    install_to: GameData

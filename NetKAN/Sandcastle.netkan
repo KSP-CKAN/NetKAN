@@ -12,6 +12,7 @@ tags:
   - crewed
 depends:
   - name: ModuleManager
+  - name: WildBlueCore
   - name: NearFutureProps
 recommends:
   - name: ExtraPlanetaryLaunchpads
@@ -19,6 +20,6 @@ recommends:
 supports:
   - name: WildBlueTools
 install:
-  - find: GameData/WildBlueIndustries
-    install_to: GameData
+  - find: GameData/WildBlueIndustries/SandCastle
+    install_to: GameData/WildBlueIndustries
     filter_regexp: \.pdb$

@@ -16,7 +16,8 @@
         "parts"
     ],
     "depends" : [
-        { "name" : "ModuleManager" }
+        { "name" : "ModuleManager" },
+        { "name" : "KSPCommunityFixes" }
     ],
     "suggests" : [
         { "name" : "PPTextures" },

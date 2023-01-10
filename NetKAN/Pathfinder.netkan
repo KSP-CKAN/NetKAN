@@ -18,12 +18,11 @@ depends:
   - name: Pathfinder-PlayMode
   - name: ModuleManager
   - name: KerbalActuators
-  - name: BarisBridge
   - name: WildBlueTools
-  - name: Buffalo
 recommends:
   - name: KAS
   - name: KIS
+  - name: Buffalo2
 supports:
   - name: ConnectedLivingSpace
   - name: TACLS

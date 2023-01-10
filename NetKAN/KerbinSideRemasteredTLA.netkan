@@ -6,6 +6,7 @@ tags:
   - config
   - buildings
 depends:
+  - name: ModuleManager
   - name: ContractConfigurator
   - name: KerbalKonstructs
   - name: KerbinSideRemastered

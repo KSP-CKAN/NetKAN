@@ -1,0 +1,19 @@
+spec_version: v1.4
+identifier: BluedogDB-CommunityCategoryKit
+name: Bluedog Design Bureau Extras - Community Category Kit
+abstract: Optional patch for BDB to add custom CCK categories
+author: Rodger
+$kref: '#/ckan/spacedock/442'
+$vref: '#/ckan/ksp-avc/Bluedog_DB.version'
+license: CC-BY-NC-SA-4.0
+tags:
+  - config
+  - convenience
+  - editor
+depends:
+  - name: ModuleManager
+  - name: BluedogDB
+  - name: CommunityCategoryKit
+install:
+  - find: BDB_CCK
+    install_to: GameData/Bluedog_DB_Extras

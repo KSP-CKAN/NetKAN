@@ -1,44 +1,9 @@
-{
-    "spec_version"   : "v1.10",
-    "identifier"     : "ROCapsules",
-    "$kref"          : "#/ckan/github/KSP-RO/ROCapsules",
-    "$vref"          : "#/ckan/ksp-avc",
-    "x_netkan_force_v": true,
-    "abstract"       : "ROCapsules is a mod that takes the best versions of capsules available and uses them as the in-game models for Realism Overhaul parts.",
-    "license"        : "CC-BY-SA",
-    "author"         : "pap1723",
-    "release_status" : "stable",
-    "resources" : {
-        "bugtracker"   : "https://github.com/KSP-RO/ROCapsules/issues",
-        "repository"   : "https://github.com/KSP-RO/ROCapsules",
-        "homepage"     : "https://discordapp.com/invite/ZGbR6nv"
-    },
-    "tags": [
-        "parts",
-        "config",
-        "graphics",
-        "crewed"
-    ],
-    "depends" : [
-        { "name" : "ModuleManager" },
-        { "name" : "ROLib" },
-        { "name" : "TexturesUnlimited" },
-        { "name" : "BDAnimationModules" }
-    ],
-    "recommends" : [
-        { "name" : "RealismOverhaul" },
-        { "name" : "ROSolar" },
-        { "name" : "ROEngines" },
-        { "name" : "ROTanks" }
-    ],
-    "suggests" : [
-        { "name" : "ProceduralFairings" },
-        { "name" : "ProceduralParts" },
-        { "name" : "MechJeb2" },
-        { "name" : "RealSolarSystem" },
-        { "name" : "RP-0" }
-    ],
-    "conflicts" : [
-        { "name" : "TweakableEverythingCont" }
-    ]
-}
+spec_version: 1
+identifier: ROCapsules
+$kref: '#/ckan/netkan/https://github.com/KSP-RO/ROCapsules/raw/master/ROCapsules.netkan'
+x_netkan_license_ok: true
+tags:
+  - parts
+  - config
+  - graphics
+  - crewed

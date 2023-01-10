@@ -1,0 +1,15 @@
+spec_version: v1.27
+identifier: BDArmoryExtended
+abstract: >-
+  Semi-official extension of BDArmory with example weapons and parts
+  for all features of BDA not already present in the base mod and a
+  balanced expansion of weapon options
+$kref: '#/ckan/github/BrettRyland/BDArmory-Extended'
+ksp_version_min: '1.9'
+license: CC0
+tags:
+  - parts
+  - combat
+depends:
+  - name: ModuleManager
+  - name: BDArmory

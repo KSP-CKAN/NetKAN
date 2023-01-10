@@ -5,8 +5,10 @@ license: CC-BY-SA
 tags:
   - parts
   - crewed
+depends:
+  - name: ModuleManager
+recommends:
+  - name: FilterExtensions
 install:
   - find: NeistAir
     install_to: GameData
-  - find: README.txt
-    install_to: GameData/NeistAir

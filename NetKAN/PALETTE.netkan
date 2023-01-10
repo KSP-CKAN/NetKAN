@@ -1,0 +1,14 @@
+spec_version: v1.18
+identifier: PALETTE
+$kref: '#/ckan/spacedock/2833'
+license: CC-BY-NC-SA-4.0
+tags:
+  - config
+  - graphics
+conflicts:
+  - name: KASAFlagPackandTUFXProfile
+depends:
+  - name: TUFX
+install:
+  - find: Palette
+    install_to: GameData

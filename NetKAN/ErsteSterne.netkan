@@ -1,0 +1,25 @@
+spec_version: v1.18
+identifier: ErsteSterne
+$kref: '#/ckan/spacedock/3049'
+license: CC-BY-NC-ND-4.0
+tags:
+  - config
+  - planet-pack
+provides:
+  - Scatterer-config
+  - Scatterer-sunflare
+conflicts:
+  - name: Scatterer-config
+  - name: Scatterer-sunflare
+depends:
+  - name: ModuleManager
+  - name: Kopernicus
+recommends:
+  - name: Scatterer
+install:
+  - find: ES
+    install_to: GameData
+  - file: GameData/License.txt
+    install_to: GameData/ES
+  - file: GameData/README.txt
+    install_to: GameData/ES

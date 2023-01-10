@@ -1,0 +1,10 @@
+spec_version: v1.18
+identifier: ModeratelyPlaneRelated
+$kref: '#/ckan/spacedock/3104'
+license: CC-BY-NC-SA-4.0
+tags:
+  - parts
+  - crewed
+depends:
+  - name: ModuleManager
+  - name: B9PartSwitch

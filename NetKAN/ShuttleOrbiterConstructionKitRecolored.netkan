@@ -1,0 +1,13 @@
+spec_version: v1.4
+identifier: ShuttleOrbiterConstructionKitRecolored
+$kref: '#/ckan/spacedock/2461'
+ksp_version: any
+license: MIT
+tags:
+  - parts
+depends:
+  - name: ModuleManager
+  - name: ShuttleOrbiterConstructionKit
+install:
+  - find: SOCKrecolored
+    install_to: GameData

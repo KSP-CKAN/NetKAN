@@ -1,0 +1,10 @@
+spec_version: v1.4
+identifier: ColorChangingSmokeGenerator
+$kref: '#/ckan/spacedock/3106'
+license: MIT
+tags:
+  - parts
+  - graphics
+install:
+  - find: Advanced Weapons Pack
+    install_to: GameData

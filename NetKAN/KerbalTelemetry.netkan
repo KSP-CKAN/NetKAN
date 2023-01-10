@@ -1,20 +1,12 @@
-{
-    "spec_version": "v1.4",
-    "identifier":   "KerbalTelemetry",
-    "$kref":        "#/ckan/spacedock/2643",
-    "license":      "MIT",
-    "tags": [
-        "plugin",
-        "app",
-        "information"
-    ],
-    "install": [
-        {
-            "find":       "Kerbal Telemetry",
-            "install_to": "GameData"
-        }, {
-            "find":       "Kerbal Telemetry.dll",
-            "install_to": "GameData"
-        }
-    ]
-}
+spec_version: v1.4
+identifier: KerbalTelemetry
+$kref: '#/ckan/spacedock/2643'
+license: MIT
+tags:
+  - plugin
+  - app
+  - information
+install:
+  - find: KerbalTelemetry
+    install_to: GameData
+    filter: .DS_Store

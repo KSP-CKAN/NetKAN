@@ -3,6 +3,8 @@ identifier: MOTHS
 $kref: '#/ckan/spacedock/2986'
 $vref: '#/ckan/ksp-avc'
 license: CC-BY
+resources:
+  remote-avc: https://raw.githubusercontent.com/AtomikkuSan/M.O.T.H.S./main/AtomicTech/ThermalPond.version
 tags:
   - parts
 depends:

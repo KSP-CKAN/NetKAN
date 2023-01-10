@@ -1,0 +1,30 @@
+spec_version: v1.18
+identifier: KIUChineseLaunchVehiclePack-RO
+name: KIU Chinese Launch Vehicle Pack (real scale)
+$kref: '#/ckan/spacedock/3143'
+license: CC-BY-NC-SA
+$vref: '#/ckan/ksp-avc'
+tags:
+  - parts
+  - graphics
+conflicts:
+  - name: KIUChineseLaunchVehiclePack
+depends:
+  - name: ModuleManager
+  - name: B9PartSwitch
+  - name: KIUChinese-Common
+recommends:
+  - name: Waterfall
+  - name: KerbalJointReinforcement
+install:
+  - find: KIU
+    install_to: GameData
+    filter:
+      - Common
+      - CraftFiles
+  - find: KCLV_RealScalePatch.cfg
+    find_matches_files: true
+    install_to: GameData/KIU
+  - find: CraftFiles/RO
+    install_to: Ships
+    as: VAB

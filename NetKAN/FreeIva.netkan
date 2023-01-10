@@ -1,0 +1,27 @@
+spec_version: v1.18
+identifier: FreeIva
+author:
+  - pizzaoverhead
+  - Icecovery
+  - JonnyOThan
+$kref: '#/ckan/spacedock/3151'
+$vref: '#/ckan/ksp-avc'
+license: GPL-2.0
+tags:
+  - plugin
+  - crewed
+depends:
+  - name: ModuleManager
+recommends:
+  - name: ThroughTheEyesOfaKerbal
+suggests:
+  - name: Reviva
+  - name: RasterPropMonitor
+  - name: DE-IVAExtension
+  - name: AvionicsSystems
+supports:
+  - name: PlanetsideExplorationTechnologies
+  - name: StationPartsExpansionRedux-IVAs
+  - name: Buffalo2
+  - name: KerbalPlanetaryBaseSystems
+  - name: Kerbalism-Config-Default

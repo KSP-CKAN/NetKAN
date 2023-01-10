@@ -1,0 +1,21 @@
+spec_version: v1.4
+identifier: BluedogDB-Methalox
+name: Bluedog Design Bureau Extras - Methalox Variants
+abstract: >-
+  Optional patch for BDB to add methalox variants
+  to several of the cryogenic engines
+author: Rodger
+$kref: '#/ckan/spacedock/442'
+$vref: '#/ckan/ksp-avc/Bluedog_DB.version'
+license: CC-BY-NC-SA-4.0
+tags:
+  - config
+depends:
+  - name: ModuleManager
+  - name: BluedogDB
+  - name: CryoTanks
+install:
+  - find: MethaloxEngines
+    install_to: GameData/Bluedog_DB_Extras
+  - find: MethaloxRL10
+    install_to: GameData/Bluedog_DB_Extras

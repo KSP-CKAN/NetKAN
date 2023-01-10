@@ -10,6 +10,7 @@ depends:
 tags:
   - plugin
   - physics
+  - stock-inventory
 install:
   - find: KSP_PartVolume
     install_to: GameData

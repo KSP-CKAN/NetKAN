@@ -1,0 +1,15 @@
+spec_version: v1.18
+identifier: HindMI24andMI17partspack
+$kref: '#/ckan/spacedock/3065'
+license: CC-BY-SA-4.0
+tags:
+  - parts
+  - crewed
+  - combat
+install:
+  - find: HindCJ
+    install_to: GameData
+    filter: SPH
+    filter_regexp: \.craft$
+  - find: SPH
+    install_to: Ships

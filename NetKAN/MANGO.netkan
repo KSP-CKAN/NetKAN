@@ -1,24 +1,18 @@
-{
-    "spec_version": "v1.4",
-    "identifier":   "MANGO",
-
-    "$kref":        "#/ckan/spacedock/2788",
-
-    "$vref":        "#/ckan/ksp-avc",
-    "name":         "My Antennae Never Go Offline",
-    "author":       "linuxgurugamer",
-    "abstract":     "rebalance the transmission of science data",
-
-    "license":      "MIT",
-    "tags": [
-        "plugin",
-        "comms"
-    ],
-    "depends": [
-        { "name": "ModuleManager" }
-    ],
-    "install": [ {
-        "find":       "FruitKocktail",
-        "install_to": "GameData"
-    } ]
-}
+spec_version: v1.4
+identifier: MANGO
+name: My Antennae Never Go Offline
+abstract: rebalance the transmission of science data
+author:
+  - FruitGoose
+  - linuxgurugamer
+$kref: '#/ckan/spacedock/2788'
+$vref: '#/ckan/ksp-avc'
+license: MIT
+tags:
+  - plugin
+  - comms
+depends:
+  - name: ModuleManager
+install:
+  - find: FruitKocktail
+    install_to: GameData

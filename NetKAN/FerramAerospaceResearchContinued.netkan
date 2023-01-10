@@ -21,7 +21,8 @@
     "depends" : [
         { "name" : "ModuleManager" },
         { "name" : "ModularFlightIntegrator" },
-        { "name" : "TweakScale-Redist" }
+        { "name" : "TweakScale-Redist" },
+        { "name" : "KSPBurst" }
     ],
     "install" : [
         {

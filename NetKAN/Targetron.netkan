@@ -1,12 +1,15 @@
-{
-	"spec_version": 1,
-	"identifier":   "Targetron",
-	"abstract":     "Target or command vessel from a list of active flights!",
-	"$kref":        "#/ckan/spacedock/1103",
-	"x_netkan_force_v": true,
-	"license":      "GPL-3.0",
-	"tags": [
-		"plugin",
-		"convenience"
-	]
-}
+spec_version: 1
+identifier: Targetron
+abstract: Target or command vessel from a list of active flights!
+$kref: '#/ckan/spacedock/3095'
+$vref: '#/ckan/ksp-avc'
+x_netkan_force_v: true
+license: GPL-3.0
+tags:
+  - plugin
+  - convenience
+depends:
+  - name: ClickThroughBlocker
+  - name: ToolbarController
+  - name: SpaceTuxLibrary
+

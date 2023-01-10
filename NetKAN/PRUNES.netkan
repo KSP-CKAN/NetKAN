@@ -1,21 +1,17 @@
-{
-    "spec_version": "v1.4",
-    "identifier":   "PRUNES",
-
-    "$kref":        "#/ckan/spacedock/2785",
-
-    "$vref":        "#/ckan/ksp-avc",
-    "name":         "Potentially Really Useful New Editor Sorter",
-    "author":       "linuxgurugamer",
-    "abstract":     "Sets the sort order to your preferred setting",
-    "license":      "MIT",
-    "tags": [
-        "plugin",
-        "editor",
-        "convenience"
-    ],
-    "install": [ {
-        "find":       "FruitKocktail",
-        "install_to": "GameData"
-    } ]
-}
+spec_version: v1.4
+identifier: PRUNES
+name: Potentially Really Useful New Editor Sorter
+abstract: Sets the sort order to your preferred setting
+author:
+  - FruitGoose
+  - linuxgurugamer
+$kref: '#/ckan/spacedock/2785'
+$vref: '#/ckan/ksp-avc'
+license: MIT
+tags:
+  - plugin
+  - editor
+  - convenience
+install:
+  - find: FruitKocktail
+    install_to: GameData

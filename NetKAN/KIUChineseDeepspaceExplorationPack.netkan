@@ -1,0 +1,24 @@
+spec_version: v1.18
+identifier: KIUChineseDeepspaceExplorationPack
+name: KIU Chinese Deepspace Exploration Pack
+$kref: '#/ckan/spacedock/3142'
+license: CC-BY-NC-SA
+tags:
+  - parts
+  - graphics
+depends:
+  - name: ModuleManager
+  - name: B9PartSwitch
+  - name: KIUChinese-Common
+recommends:
+  - name: Waterfall
+  - name: KerbalJointReinforcement
+install:
+  - find: KIU
+    install_to: GameData
+    filter:
+      - Common
+      - CraftFiles
+  - find: CraftFiles/Non-RO
+    install_to: Ships
+    as: VAB

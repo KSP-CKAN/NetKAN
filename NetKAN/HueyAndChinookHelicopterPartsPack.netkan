@@ -1,0 +1,15 @@
+spec_version: v1.18
+identifier: HueyAndChinookHelicopterPartsPack
+$kref: '#/ckan/spacedock/3072'
+license: CC-BY-SA-4.0
+tags:
+  - parts
+  - crewed
+depends:
+  - name: BreakingGround-DLC
+install:
+  - find: HueyCJ
+    install_to: GameData
+    filter: SPH
+  - find: HueyCJ/SPH
+    install_to: Ships

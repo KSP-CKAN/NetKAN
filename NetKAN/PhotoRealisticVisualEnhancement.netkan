@@ -10,12 +10,11 @@ provides:
   - EnvironmentalVisualEnhancements-Config
 conflicts:
   - name: EnvironmentalVisualEnhancements-Config
+  - name: PhotoRealisticVisualEnhancement-LowRes
 depends:
   - name: ModuleManager
   - name: Scatterer-config
-    version: 3:v0.0835
   - name: Scatterer
-    version: 3:v0.0835
   - name: EnvironmentalVisualEnhancements
   - name: Kopernicus
   - name: RealSolarSystem

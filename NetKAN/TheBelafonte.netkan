@@ -1,0 +1,18 @@
+spec_version: v1.18
+identifier: TheBelafonte
+$kref: '#/ckan/spacedock/3128'
+license: restricted
+tags:
+  - parts
+  - crewed
+depends:
+  - name: ModuleManager
+recommends:
+  - name: KerbinSideRemasteredTLA
+  - name: BreakingGround-DLC
+install:
+  - find: Belafonte
+    install_to: GameData
+    filter: SPH
+  - find: SPH
+    install_to: Ships

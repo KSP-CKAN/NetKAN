@@ -1,23 +1,18 @@
-{
-    "spec_version": "v1.4",
-    "identifier":   "PEAR",
-    "$kref":        "#/ckan/spacedock/2786",
-
-    "$vref":        "#/ckan/ksp-avc",
-    "name":         "Programatic Extension And Retraction",
-    "author":       "linuxgurugamer",
-    "abstract":     "Lets solar panels, radiators and antennae all work together",
-
-    "license":      "MIT",
-    "tags": [
-        "plugin",
-        "convenience"
-    ],
-    "depends": [
-        { "name": "ModuleManager" }
-    ],
-    "install": [ {
-        "find":       "FruitKocktail",
-        "install_to": "GameData"
-    } ]
-}
+spec_version: v1.4
+identifier: PEAR
+name: Programatic Extension And Retraction
+abstract: Lets solar panels, radiators and antennae all work together
+author:
+  - FruitGoose
+  - linuxgurugamer
+$kref: '#/ckan/spacedock/2786'
+$vref: '#/ckan/ksp-avc'
+license: MIT
+tags:
+  - plugin
+  - convenience
+depends:
+  - name: ModuleManager
+install:
+  - find: FruitKocktail
+    install_to: GameData

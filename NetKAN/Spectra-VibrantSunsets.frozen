@@ -1,0 +1,14 @@
+spec_version: v1.18
+identifier: Spectra-VibrantSunsets
+name: Vibrant sunsets for Spectra
+abstract: Intense sunsets
+$kref: '#/ckan/spacedock/1505'
+$vref: '#/ckan/ksp-avc'
+license: MIT
+tags:
+  - config
+  - graphics
+install:
+  - find: Step 3- Extras/Vibrant sunsets
+    install_to: GameData
+    as: Spectra

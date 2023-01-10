@@ -1,0 +1,20 @@
+spec_version: v1.4
+identifier: TourismExpanded
+name: 'Contract Pack: Tourism Expanded'
+abstract: 11 New contracts to send tourists across the Kerbol system
+$kref: '#/ckan/github/phillo3/TourismExpanded'
+$vref: '#/ckan/ksp-avc'
+license: CC-BY-NC-SA-4.0
+resources:
+  homepage: https://forum.kerbalspaceprogram.com/index.php?/topic/210022-*
+tags:
+  - plugin
+  - career
+  - crewed
+depends:
+  - name: ContractConfigurator
+recommends:
+  - name: WaypointManager
+install:
+  - find: ContractPacks
+    install_to: GameData

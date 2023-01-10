@@ -17,17 +17,12 @@
         "control"
     ],
     "depends": [
-        {
-            "name": "ModuleManager"
-        }
+        { "name": "ModuleManager" },
+        { "name": "SpaceTuxLibrary" }
     ],
     "conflicts": [
-        {
-            "name": "ControlSurfaceToggle"
-        },
-        {
-            "name": "SmartActuation"
-        }
+        { "name": "ControlSurfaceToggle" },
+        { "name": "SmartActuation" }
     ],
     "install": [
         {
