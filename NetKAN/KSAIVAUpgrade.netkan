@@ -18,7 +18,7 @@ tags:
   - crewed
   - graphics
 depends:
-  - name: RasterPropMonitor
+  - name: RasterPropMonitor-Core
   - name: ASETProps
   - name: ASETAvionics
   - name: ModuleManager
