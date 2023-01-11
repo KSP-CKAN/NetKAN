@@ -1,0 +1,12 @@
+spec_version: v1.18
+identifier: FreeIVAMk3Mk2Passthrough
+$kref: '#/ckan/spacedock/3193'
+license: MIT
+tags:
+  - config
+depends:
+  - name: ModuleManager
+install:
+  - find: FreeIVAMkPassthrough
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
