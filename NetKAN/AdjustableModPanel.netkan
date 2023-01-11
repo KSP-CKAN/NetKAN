@@ -1,6 +1,6 @@
 spec_version: 1
 identifier: AdjustableModPanel
-abstract: A tool that allows you to hide mods from the stock mod panel
+abstract: A tool that allows you to hide addon buttons from the stock mod panel
 author:
   - radistmorse
   - zer0Kerbal
@@ -11,5 +11,3 @@ license: BSD-2-clause
 tags:
   - plugin
   - convenience
-conflicts:
-  - name: JanitorsCloset
