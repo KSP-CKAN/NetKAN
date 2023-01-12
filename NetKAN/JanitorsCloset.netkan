@@ -16,6 +16,9 @@
         { "name": "ClickThroughBlocker" },
         { "name": "SpaceTuxLibrary" }
     ],
+    "conflicts": [
+        { "name": "AdjustableModPanel" )
+     ],
     "install": [ {
         "find":       "JanitorsCloset",
         "install_to": "GameData"
