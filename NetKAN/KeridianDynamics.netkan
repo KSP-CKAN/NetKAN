@@ -1,0 +1,61 @@
+spec_version: 1
+identifier: KeridianDynamics
+abstract: Parts pack for resource-conversion and vessel-assembly
+author:
+  - Eleusis La Arwall
+  - zer0Kerbal
+$kref: '#/ckan/spacedock/308'
+$vref: '#/ckan/ksp-avc'
+x_netkan_epoch: '1'
+release_status: stable
+bugtracker: 'https://github.com/zer0Kerbal/KeridianDynamics/issues'
+curse: 'https://www.curseforge.com/kerbal/ksp-mods/keridiandynamics/files/4331957'
+tags:
+  - parts
+  - config
+  - flags
+  - agency
+  - variants
+  - resources
+  - tech-tree
+  - career
+  - crewed
+  - uncrewed
+depends:
+  - name: XPL Verison
+    choice_help_text: Choose a construction addon
+  - any_of:
+    - name: SimpleConstruction
+    - name: ExtraPlanetaryLaunchpads
+    choice_help_text: The parts are great looking, but are better if they do something
+supports:
+  - name: SimpleConstruction
+  - name: SimpleLogistics
+  - name: CommunityResourcePack
+  - name: CommunityTechTree
+  - name: ConnectedLivingSpace
+  - name: ExtraPlanetaryLaunchpads
+  - name: TankSwitcher
+    choice_help_text: Choose a Tank Switcher 
+  - any_of:
+    - name: InterstellarFuelSwitchCore 
+    - name: FirespitterCore 
+    - name: B9PartSwitch 
+    choice_help_text: A tank switcher isn't required, but is highly recomended
+  - name: SimplexColonies
+  - name: TweakScale
+  - name: PatchManager
+suggests:
+  - name: JSIAdvancedTransparentPods
+  - name: KIS
+  - name: KerbalInventorySystemNoFun
+  - name: TweakScale
+recommends:
+  - name: ModuleManager
+  - name: SimpleConstruction
+  - name: NotSoSimpleConstruction
+  - name: SimpleLogistics
+  - name: Kaboom
+  - name: GPOSpeedPump
+replaced-by:
+  - name: KeridianDynamicsVesselAssembly
