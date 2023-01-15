@@ -1,0 +1,14 @@
+spec_version: v1.18
+identifier: ANGLECANAchievementTree
+$kref: '#/ckan/spacedock/3160'
+license: CC-BY-NC-SA
+tags:
+  - config
+  - tech-tree
+  - career
+depends:
+  - name: ModuleManager
+  - name: ContractConfigurator
+install:
+  - find: AngleCanMods
+    install_to: GameData

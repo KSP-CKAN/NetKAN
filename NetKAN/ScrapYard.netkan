@@ -3,7 +3,7 @@ identifier: ScrapYard
 name: ScrapYard (SYD)
 $kref: '#/ckan/spacedock/1746'
 $vref: '#/ckan/ksp-avc/ScrapYard.version'
-license: MIT
+license: GPL-2.0
 tags:
   - plugin
   - editor
@@ -11,20 +11,19 @@ depends:
   - name: ModuleManager
 recommends:
   - name: OhScrap
-  - name: ContractConfigurator
 supports:
-  - name: KerbalChangelog
-  - name: KerbalConstructionTime
-  - name: KerbalKrashSystem
-  - name: FerramAerospaceResearchContinued
-  - name: RemoteTech
   - name: ContractConfigurator
-suggests:
-  - name: Kaboom
-  - name: Komplexity
-  - name: KerbalChangelog
+  - name: FerramAerospaceResearchContinued
   - name: KerbalConstructionTime
-  - name: StageRecovery
   - name: KerbalKrashSystem
-  - name: Tweakscale
+  - name: RemoteTech
+  - name: StageRecovery
+suggests:
+  - name: GPOSpeedPump
+  - name: Kaboom
+  - name: KerbalConstructionTime
+  - name: KerbalKrashSystem
+  - name: Komplexity
   - name: KSP-Recall
+  - name: StageRecovery
+  - name: Tweakscale
