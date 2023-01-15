@@ -1,0 +1,10 @@
+spec_version: v1.18
+identifier: KSPUkrainian
+$kref: '#/ckan/spacedock/3196'
+license: Other
+tags:
+  - config
+install:
+  - find: KSP-Ukrainian
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
