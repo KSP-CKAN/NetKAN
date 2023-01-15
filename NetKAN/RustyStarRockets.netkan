@@ -1,0 +1,40 @@
+spec_version: 1
+identifier: RustyStarRockets
+abstract: This part addon contains over one hundred and twenty (120) parts and twenty (20) unique IVA's, all with rusty aesthetics.
+author:
+  - Gaga_X
+  - zer0Kerbal
+$kref: '#/ckan/spacedock/207'
+$vref: '#/ckan/ksp-avc'
+x_netkan_epoch: '1'
+release_status: stable
+bugtracker: 'https://github.com/zer0Kerbal/RustyStarRockets/issues'
+curse: 'https://www.curseforge.com/kerbal/ksp-mods/rustystarrockets/files/4069678'
+depends:
+  - name: RustyStarShipyards
+tags:
+  - parts
+  - config
+  - science
+  - crewed
+supports:
+  - name: GPOSpeedPump
+  - name: OnDemandFuelCells
+  - name: CommunityCategoryKit
+  - name: CommunityResourcePack
+  - name: FirespitterCore
+  - name: ModuleManager
+  - name: USI-Core
+suggests:
+  - name: PiratesoftheKeribbean
+  - name: RustyTexturesforProceduralParts
+  - name: ZPEPropulsionSystem
+  - name: Biomatic
+  - name: GPOSpeedPump
+  - name: Kaboom
+  - name: Komplexity
+  - name: OhScrap
+  - name: ScrapYard
+  - name: SimpleConstruction
+  - name: SimpleLogistics
+  - name: TweakScale
