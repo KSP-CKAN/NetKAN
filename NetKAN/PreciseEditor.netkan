@@ -1,5 +1,5 @@
 {
-    "spec_version"   : 1,
+    "spec_version"   : "v1.4",
     "identifier"     : "PreciseEditor",
     "name"           : "Precise Editor",
     "abstract"       : "Editor mod to set a part's position and angle values with great precision. Also show CoM, CoL and CoT coordinates.",
