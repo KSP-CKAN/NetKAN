@@ -1,11 +1,10 @@
 {
     "spec_version"   : "v1.4",
     "identifier"     : "PreciseEditor",
-    "name"           : "Precise Editor",
     "author"         : [ "jfrouleau", "zolotiyeruki", "linuxgurugamer" ],
     "$kref"          : "#/ckan/spacedock/3198",
     "$vref"          : "#/ckan/ksp-avc",
-    "release_status" : "stable",
+    "license"        : "GPLv3",
     "resources"      : {
         "homepage"   : "https://forum.kerbalspaceprogram.com/index.php?/topic/211484-112x-precise-editor"
     },
