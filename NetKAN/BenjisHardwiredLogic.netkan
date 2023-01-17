@@ -1,14 +1,11 @@
-{
-    "spec_version": "v1.4",
-    "identifier":   "BenjisHardwiredLogic",
-    "$kref":        "#/ckan/spacedock/2759",
-    "license":      "GPL-3.0",
-    "tags": [
-        "config",
-        "plugin",
-        "control"
-    ],
-    "depends": [
-        { "name": "ModuleManager" }
-    ]
-}
+spec_version: v1.4
+identifier: BenjisHardwiredLogic
+$kref: '#/ckan/spacedock/2759'
+$vref: '#/ckan/ksp-avc'
+license: GPL-3.0
+tags:
+  - config
+  - plugin
+  - control
+depends:
+  - name: ModuleManager
