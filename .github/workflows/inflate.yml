@@ -22,8 +22,8 @@ jobs:
               with:
                   repository: KSP-CKAN/CKAN-meta
                   path: .CKAN-meta
-            - name: Try to figure out why git is failing
-              run: git rev-parse HEAD
+            - name: Find out what version of git is here
+              run: git --version
             - name: Cache downloads
               if: ${{ github.event_name == 'pull_request' }}
               uses: actions/cache@v2
