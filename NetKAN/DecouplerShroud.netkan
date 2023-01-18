@@ -8,6 +8,7 @@
         "plugin"
     ],
     "depends": [
-        { "name": "ModuleManager" }
+        { "name": "ModuleManager" },
+        { "name": "SpaceTuxLibrary"     }
     ]
 }
