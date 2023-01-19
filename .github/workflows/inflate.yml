@@ -40,6 +40,7 @@ jobs:
                   source: commits
                   diff meta root: .CKAN-meta
                   pull request url: ${{ github.event.pull_request.url }}
+                  log level: debug
             - name: Chmod cached files so actions/cache and actions/upload-artifact can read them
               run: sudo chmod -R a+r .cache
               if: ${{ always() }}
