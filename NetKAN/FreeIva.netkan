@@ -14,8 +14,9 @@ depends:
   - name: ModuleManager
 recommends:
   - name: ThroughTheEyesOfaKerbal
-suggests:
   - name: Reviva
+  - name: B9PartSwitch
+suggests:
   - name: RasterPropMonitor
   - name: DE-IVAExtension
   - name: AvionicsSystems
@@ -25,3 +26,6 @@ supports:
   - name: Buffalo2
   - name: KerbalPlanetaryBaseSystems
   - name: Kerbalism-Config-Default
+  - name: Mk2Expansion
+  - name: Mk3Expansion
+  - name: NearFutureSpacecraft
