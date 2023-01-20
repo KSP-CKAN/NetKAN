@@ -14,3 +14,5 @@ depends:
   - name: B9PartSwitch
   - name: ModuleManager
   - name: Waterfall
+conflicts:
+  - name: ReStock
