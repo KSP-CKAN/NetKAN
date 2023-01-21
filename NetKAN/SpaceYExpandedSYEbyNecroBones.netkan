@@ -1,0 +1,14 @@
+spec_version: v1.18
+identifier: SpaceYExpandedSYEbyNecroBones
+$kref: '#/ckan/spacedock/89'
+license: CC-BY-NC-SA
+$vref: '#/ckan/ksp-avc'
+tags:
+  - parts
+  - tech-tree
+depends:
+  - name: ModuleManager
+install:
+  - find: SpaceY-Expanded
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
