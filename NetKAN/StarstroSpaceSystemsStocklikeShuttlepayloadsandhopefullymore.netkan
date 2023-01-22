@@ -1,0 +1,10 @@
+spec_version: v1.18
+identifier: StarstroSpaceSystemsStocklikeShuttlepayloadsandhopefullymore
+$kref: '#/ckan/spacedock/3200'
+license: ARR
+tags:
+  - parts
+install:
+  - find: StarstroSpaceSystems-main
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
