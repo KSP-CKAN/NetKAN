@@ -1,0 +1,13 @@
+spec_version: v1.18
+identifier: CoyoteSpaceIndustriesCSI
+$kref: '#/ckan/spacedock/3204'
+license: CC-BY-ND-4.0
+$vref: '#/ckan/ksp-avc'
+tags:
+  - config
+depends:
+  - name: ModuleManager
+install:
+  - find: CoyoteSpace
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
