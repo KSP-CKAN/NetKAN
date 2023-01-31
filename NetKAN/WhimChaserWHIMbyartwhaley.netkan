@@ -1,0 +1,12 @@
+spec_version: v1.18
+identifier: WhimChaserWHIMbyartwhaley
+$kref: '#/ckan/spacedock/3071'
+license: GPL-2.0
+$vref: '#/ckan/ksp-avc'
+tags:
+  - parts
+  - crewed
+install:
+  - find: AxialAerospace
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
