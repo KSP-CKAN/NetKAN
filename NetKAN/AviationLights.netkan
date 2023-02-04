@@ -2,25 +2,17 @@
     "spec_version": "v1.4",
     "identifier":   "AviationLights",
     "name":         "Aviation Lights",
-    "author":       [ "MOARdV", "BigNose", "RPGprayer" ],
-    "$kref":        "#/ckan/github/MOARdV/AviationLights",
+    "author":       [ "LisiasT", "MOARdV", "BigNose", "RPGprayer" ],
+    "$kref":        "#/ckan/github/spacedock/3208",
     "$vref":        "#/ckan/ksp-avc",
+    "x_netkan_force_v": true,
     "x_netkan_epoch": 1,
     "license":      "CC-BY-NC-SA-4.0",
     "resources": {
-        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/173305-*"
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/211781-*"
     },
     "tags": [
         "plugin",
         "parts"
     ],
-    "x_netkan_override": [
-        {
-            "version": "v3.13",
-            "delete": [ "ksp_version" ],
-            "override": {
-                "ksp_version" : "1.2.2"
-            }
-        }
-    ]
 }
