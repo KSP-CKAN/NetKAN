@@ -31,7 +31,7 @@ jobs:
                   restore-keys: |
                       downloads-
             - name: Test modified netkans
-              uses: KSP-CKAN/xKAN-meta_testing@master
+              uses: techman83/xKAN-meta_testing@feat/debugging
               env:
                   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
                   PR_BASE_SHA: ${{ github.event.pull_request.base.sha }}
@@ -40,7 +40,6 @@ jobs:
                   source: commits
                   diff meta root: .CKAN-meta
                   pull request url: ${{ github.event.pull_request.url }}
-                  log level: debug
             - name: Chmod cached files so actions/cache and actions/upload-artifact can read them
               run: sudo chmod -R a+r .cache
               if: ${{ always() }}
