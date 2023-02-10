@@ -1,0 +1,23 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "EditorTime",
+    "name":         "EditorTime",
+    "abstract":     "Makes time pass while in the VAB/SPH",
+    "author":       "magico13,linuxgurugamer",
+    "$kref":        "#/ckan/spacedock/1973",
+    "$vref":        "#/ckan/ksp-avc",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/178484-14x-*"
+    },
+    "tags": [
+        "plugin",
+        "editor"
+    ],
+    "suggests": [
+        { "name": "KerbalConstructionTime"}
+    ],
+    "install": [ {
+        "find"       : "EditorTime",
+        "install_to" : "GameData"
+    } ]
+}
