@@ -1,27 +1,19 @@
-{
-    "spec_version"   : "v1.4",
-    "identifier"     : "PreciseEditor",
-    "author"         : [ "jfrouleau", "zolotiyeruki", "linuxgurugamer" ],
-    "$kref"          : "#/ckan/spacedock/3198",
-    "$vref"          : "#/ckan/ksp-avc",
-    "license"        : "GPLv3",
-    "resources"      : {
-        "homepage"   : "https://forum.kerbalspaceprogram.com/index.php?/topic/211484-112x-precise-editor"
-    },
-    "depends": [
-        { "name" : "ToolbarController" },
-        { "name" : "ClickThroughBlocker" },
-        { "name" : "SpaceTuxLibrary" }
-    ],
-    "tags": [
-        "plugin",
-        "editor",
-        "information"
-    ],
-    "install": [
-        {
-            "find"       : "PreciseEditor",
-            "install_to" : "GameData"
-        }
-    ]
-}
+spec_version: 1
+identifier: PreciseEditor
+author:
+  - jfrouleau
+  - zolotiyeruki
+  - linuxgurugamer
+$kref: '#/ckan/spacedock/3198'
+$vref: '#/ckan/ksp-avc'
+license: GPL-3.0
+resources:
+  homepage: https://forum.kerbalspaceprogram.com/index.php?/topic/211484-*
+depends:
+  - name: ToolbarController
+  - name: ClickThroughBlocker
+  - name: SpaceTuxLibrary
+tags:
+  - plugin
+  - editor
+  - information
