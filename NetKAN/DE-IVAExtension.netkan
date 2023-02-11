@@ -1,28 +1,21 @@
-{
-    "spec_version": "v1.4",
-    "identifier":   "DE-IVAExtension",
-    "$kref":        "#/ckan/github/JonnyOThan/DE_IVAExtension",
-    "ksp_version":  "1.8",
-    "license":      "CC-BY-NC-SA-3.0",
-    "resources": {
-        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/211932-112x-de_ivaextension-adopted-aset-ivas-for-all-stock-pods/"
-    },
-    "tags": [
-        "config",
-        "crewed"
-    ],
-    "depends": [
-        { "name": "ModuleManager"          },
-        { "name": "RasterPropMonitor-Core" },
-        { "name": "ASETProps"              },
-        { "name": "ToolbarController"      },
-        { "name": "ClickThroughBlocker"    }
-    ],
-    "supports": [
-        { "name": "ProbeControlRoom" }
-    ],
-    "install": [ {
-        "find":       "DE_IVAExtension",
-        "install_to": "GameData"
-    } ]
-}
+spec_version: v1.4
+identifier: DE-IVAExtension
+$kref: '#/ckan/github/JonnyOThan/DE_IVAExtension'
+$vref: '#/ckan/ksp-avc'
+license: CC-BY-NC-SA-3.0
+resources:
+  homepage: https://forum.kerbalspaceprogram.com/index.php?/topic/211932-*
+tags:
+  - config
+  - crewed
+depends:
+  - name: ModuleManager
+  - name: RasterPropMonitor-Core
+  - name: ASETProps
+  - name: ToolbarController
+  - name: ClickThroughBlocker
+supports:
+  - name: ProbeControlRoom
+install:
+  - find: DE_IVAExtension
+    install_to: GameData
