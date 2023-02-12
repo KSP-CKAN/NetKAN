@@ -25,3 +25,6 @@ supports:
   - name: DefaultActionGroups
   - name: IndicatorLights
   - name: ConnectedLivingSpace
+install:
+  - find: SpaceY
+    install_to: GameData
