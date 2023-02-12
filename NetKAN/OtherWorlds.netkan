@@ -1,0 +1,32 @@
+spec_version: 1
+identifier: OtherWorlds
+name: Other Worlds - Story and Planet Mod
+abstract: >-
+  An interstellar destination and a full-fledged story for you to unveil
+$kref: '#/ckan/github/pkmniako/OtherWorlds_Public'
+ksp_version_min: '1.12'
+x_netkan_epoch: 1
+license: restricted
+resources:
+  homepage: https://forum.kerbalspaceprogram.com/index.php?/topic/211965-*
+  manual: https://pkmniako.github.io/OtherWorldsProgram/index.html
+  license: https://github.com/pkmniako/OtherWorlds_Public/blob/main/License.txt
+tags:
+  - plugin
+  - planet-pack
+depends:
+  - name: ModuleManager
+  - name: Kopernicus
+  - name: CommunityTerrainTexturePack
+  - name: VertexMitchellNetravaliHeightMap
+recommends:
+  - name: ContractConfigurator
+  - name: Scatterer
+  - name: EnvironmentalVisualEnhancements
+  - name: Parallax-StockTextures
+  - name: KopernicusExpansionContinued-EmissiveFX
+suggests:
+  - name: FarFutureTechnologies
+install:
+  - file: OtherWorldsReboot
+    install_to: GameData
