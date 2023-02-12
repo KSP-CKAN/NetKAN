@@ -1,0 +1,13 @@
+spec_version: v1.18
+identifier: ASETConsolidatedAvionicsPack
+$kref: '#/ckan/spacedock/3239'
+license: CC-BY-NC-SA
+$vref: '#/ckan/ksp-avc'
+tags:
+  - config
+depends:
+  - name: ModuleManager
+install:
+  - find: ASET
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
