@@ -1,4 +1,4 @@
-spec_version: v1.2
+spec_version: v1.4
 identifier: SpaceY-Lifters
 $kref: '#/ckan/spacedock/88'
 $vref: '#/ckan/ksp-avc'
@@ -25,3 +25,6 @@ supports:
   - name: DefaultActionGroups
   - name: IndicatorLights
   - name: ConnectedLivingSpace
+install:
+  - find: SpaceY
+    install_to: GameData
