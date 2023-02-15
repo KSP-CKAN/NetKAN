@@ -1,21 +1,17 @@
-{
-    "spec_version": "v1.4",
-    "identifier":   "WarpDrive",
-    "$kref":        "#/ckan/github/linuxgurugamer/KSP-WarpDrive",
-	"$vref": 		"#/ckan/ksp-avc",
-	"abstract":		"A stand-alone warp-drive, similiar to Interstellar",
-	"author": 		"linuxgurugamer",
- 	"x_netkan_license_ok": true,
-	"license": 		"GPL-3.0",
-    "tags": [
-        "plugin",
-        "parts"
-    ],
-    "conflicts": [
-        { "name": "KSPInterstellarExtended" }
-    ],
-    "depends": [
-        { "name" : "ToolbarController" },
-        { "name" : "ClickThroughBlocker" }
-    ]
-}
+spec_version: v1.4
+identifier: WarpDrive
+abstract: A stand-alone warp-drive, similiar to Interstellar
+author: linuxgurugamer
+$kref: '#/ckan/github/linuxgurugamer/KSP-WarpDrive'
+$vref: '#/ckan/ksp-avc'
+license: GPL-3.0
+resources:
+  homepage: https://forum.kerbalspaceprogram.com/index.php?/topic/194174-*
+tags:
+  - plugin
+  - parts
+conflicts:
+  - name: KSPInterstellarExtended
+depends:
+  - name: ToolbarController
+  - name: ClickThroughBlocker
