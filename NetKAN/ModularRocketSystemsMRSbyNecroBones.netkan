@@ -1,0 +1,17 @@
+spec_version: v1.18
+identifier: ModularRocketSystemsMRSbyNecroBones
+$kref: '#/ckan/spacedock/86'
+license: CC-BY-SA-4.0
+$vref: '#/ckan/ksp-avc'
+tags:
+  - parts
+  - tech-tree
+depends:
+  - name: ModuleManager
+install:
+  - find: ModRocketSys
+    install_to: GameData
+    filter_regexp: \.craft$
+  - file: ModRocketSys/MRS Drone.craft
+    install_to: Ships/SPH
+x_via: Automated SpaceDock CKAN submission
