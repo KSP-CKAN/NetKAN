@@ -7,6 +7,7 @@ tags:
   - parts
   - crewed
 depends:
+  - name: ModuleManager
   - name: RustyStarShipyards
 supports:
   - name: GPOSpeedPump
@@ -14,7 +15,6 @@ supports:
   - name: CommunityCategoryKit
   - name: CommunityResourcePack
   - name: FirespitterCore
-  - name: ModuleManager
   - name: USI-Core
 suggests:
   - name: PiratesoftheKeribbean
