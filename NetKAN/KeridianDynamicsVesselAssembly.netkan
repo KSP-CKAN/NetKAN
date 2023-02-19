@@ -10,11 +10,11 @@ tags:
   - parts
   - resources
 depends:
+  - name: ModuleManager
   - any_of:
       - name: SimpleConstruction
       - name: ExtraPlanetaryLaunchpads
 recommends:
-  - name: ModuleManager
   - name: SimpleConstruction
   - name: NotSoSimpleConstruction
   - name: SimpleLogistics
