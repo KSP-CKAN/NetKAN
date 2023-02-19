@@ -4,8 +4,10 @@ $kref: '#/ckan/spacedock/3175'
 license: MIT
 tags:
   - parts
+  - career
+depends:
+  - name: Snacks
 install:
-  - find: ''
+  - find: AtomicTech
     install_to: GameData
     filter_regexp: ~$
-x_via: Automated SpaceDock CKAN submission
