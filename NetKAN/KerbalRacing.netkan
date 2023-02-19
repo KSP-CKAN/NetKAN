@@ -1,0 +1,12 @@
+spec_version: v1.18
+identifier: KerbalRacing
+$kref: '#/ckan/spacedock/2694'
+license: GPL-3.0
+tags:
+  - config
+  - buildings
+depends:
+  - name: KerbalKonstructs
+install:
+  - find: KerbalRacing [KK Addon]
+    install_to: GameData
