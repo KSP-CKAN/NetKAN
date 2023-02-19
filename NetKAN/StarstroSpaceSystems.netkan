@@ -5,9 +5,9 @@ license: restricted
 tags:
   - parts
 depends:
-  - name: ModuleManager
   - name: B9PartSwitch
   - name: BluedogDB
+  - name: TexturesUnlimited
 recommends:
   - name: ShuttleOrbiterConstructionKit
 install:
