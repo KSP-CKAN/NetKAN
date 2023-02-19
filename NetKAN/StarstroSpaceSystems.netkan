@@ -1,0 +1,15 @@
+spec_version: v1.18
+identifier: StarstroSpaceSystems
+$kref: '#/ckan/spacedock/3200'
+license: restricted
+tags:
+  - parts
+depends:
+  - name: B9PartSwitch
+  - name: BluedogDB
+  - name: TexturesUnlimited
+recommends:
+  - name: ShuttleOrbiterConstructionKit
+install:
+  - find: StarstroSpaceSystems-main
+    install_to: GameData
