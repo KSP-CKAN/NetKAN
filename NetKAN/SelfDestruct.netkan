@@ -5,6 +5,9 @@ license: MIT
 tags:
   - plugin
 install:
-  - find: ''
-    install_to: GameData
-x_via: Automated SpaceDock CKAN submission
+  - file: Self Destruct Mod.dll
+    install_to: GameData/SelfDestruct
+  - file: LICENSE.txt
+    install_to: GameData/SelfDestruct
+  - file: README.md
+    install_to: GameData/SelfDestruct
