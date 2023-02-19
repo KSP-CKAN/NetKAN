@@ -1,0 +1,13 @@
+spec_version: v1.18
+identifier: SelfDestruct
+$kref: '#/ckan/spacedock/3194'
+license: MIT
+tags:
+  - plugin
+install:
+  - file: Self Destruct Mod.dll
+    install_to: GameData/SelfDestruct
+  - file: LICENSE.txt
+    install_to: GameData/SelfDestruct
+  - file: README.md
+    install_to: GameData/SelfDestruct
