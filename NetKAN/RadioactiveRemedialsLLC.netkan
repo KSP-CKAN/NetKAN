@@ -1,0 +1,13 @@
+spec_version: v1.18
+identifier: RadioactiveRemedialsLLC
+$kref: '#/ckan/spacedock/3175'
+license: MIT
+tags:
+  - parts
+  - career
+depends:
+  - name: Snacks
+install:
+  - find: AtomicTech
+    install_to: GameData
+    filter_regexp: ~$
