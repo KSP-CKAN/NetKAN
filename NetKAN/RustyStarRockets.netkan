@@ -1,0 +1,31 @@
+spec_version: v1.2
+identifier: RustyStarRockets
+$kref: '#/ckan/spacedock/207'
+$vref: '#/ckan/ksp-avc'
+license: CC-BY-ND-4.0
+tags:
+  - parts
+  - crewed
+depends:
+  - name: ModuleManager
+  - name: RustyStarShipyards
+supports:
+  - name: GPOSpeedPump
+  - name: OnDemandFuelCells
+  - name: CommunityCategoryKit
+  - name: CommunityResourcePack
+  - name: FirespitterCore
+  - name: USI-Core
+suggests:
+  - name: PiratesoftheKeribbean
+  - name: RustyTexturesforProceduralParts
+  - name: ZPEPropulsionSystem
+  - name: Biomatic
+  - name: GPOSpeedPump
+  - name: Kaboom
+  - name: Komplexity
+  - name: OhScrap
+  - name: ScrapYard
+  - name: SimpleConstruction
+  - name: SimpleLogistics
+  - name: TweakScale
