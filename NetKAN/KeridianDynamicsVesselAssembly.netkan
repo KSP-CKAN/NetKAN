@@ -33,10 +33,9 @@ supports:
   - name: ConnectedLivingSpace
   - name: ExtraPlanetaryLaunchpads
   - name: TankSwitcher
-  - any_of:
-      - name: InterstellarFuelSwitchCore
-      - name: FirespitterCore
-      - name: B9PartSwitch
+  - name: InterstellarFuelSwitchCore
+  - name: FirespitterCore
+  - name: B9PartSwitch
   - name: SimplexColonies
   - name: TweakScale
   - name: PatchManager
