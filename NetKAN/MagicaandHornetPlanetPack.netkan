@@ -1,0 +1,14 @@
+spec_version: v1.18
+identifier: MagicaandHornetPlanetPack
+$kref: '#/ckan/spacedock/3203'
+license: MIT
+tags:
+  - config
+  - planet-pack
+depends:
+  - name: ModuleManager
+  - name: Kopernicus
+  - name: Scatterer
+install:
+  - find: MH
+    install_to: GameData
