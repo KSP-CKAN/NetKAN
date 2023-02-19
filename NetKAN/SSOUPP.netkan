@@ -5,8 +5,12 @@ license: restricted
 tags:
   - parts
 depends:
+  - name: ModuleManager
   - name: B9PartSwitch
+recommends:
+  - name: ShuttleOrbiterConstructionKit
+  - name: Waterfall
+  - name: HabTech
 install:
   - find: SuperModule
     install_to: GameData
-x_via: Automated SpaceDock CKAN submission
