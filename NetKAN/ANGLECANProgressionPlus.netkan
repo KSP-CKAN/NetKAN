@@ -4,6 +4,10 @@ $kref: '#/ckan/spacedock/3178'
 license: CC-BY-NC-SA
 tags:
   - config
+  - career
 depends:
   - name: ModuleManager
-x_via: Automated SpaceDock CKAN submission
+  - name: ANGLECANProgression
+install:
+  - find: AngleCanMods
+    install_to: GameData
