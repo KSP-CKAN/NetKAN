@@ -10,5 +10,5 @@ depends:
   - name: ModuleManager
   - name: Kopernicus
 install:
-  - find: 'MH
+  - find: MH
     install_to: GameData
