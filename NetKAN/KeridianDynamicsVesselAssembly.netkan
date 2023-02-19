@@ -1,0 +1,44 @@
+spec_version: v1.26
+identifier: KeridianDynamicsVesselAssembly
+author:
+  - Eleusis La Arwall
+  - zer0Kerbal
+$kref: '#/ckan/spacedock/308'
+$vref: '#/ckan/ksp-avc'
+license: CC-BY-SA-4.0
+tags:
+  - parts
+  - resources
+depends:
+  - name: ModuleManager
+  - any_of:
+      - name: SimpleConstruction
+      - name: ExtraPlanetaryLaunchpads
+recommends:
+  - name: SimpleConstruction
+  - name: NotSoSimpleConstruction
+  - name: SimpleLogistics
+  - name: Kaboom
+  - name: GPOSpeedPump
+suggests:
+  - name: JSIAdvancedTransparentPods
+  - name: KIS
+  - name: KerbalInventorySystemNoFun
+  - name: TweakScale
+supports:
+  - name: SimpleConstruction
+  - name: SimpleLogistics
+  - name: CommunityResourcePack
+  - name: CommunityTechTree
+  - name: ConnectedLivingSpace
+  - name: ExtraPlanetaryLaunchpads
+  - name: TankSwitcher
+  - name: InterstellarFuelSwitchCore
+  - name: FirespitterCore
+  - name: B9PartSwitch
+  - name: SimplexColonies
+  - name: TweakScale
+  - name: PatchManager
+install:
+  - find: KeridianDynamics
+    install_to: GameData
