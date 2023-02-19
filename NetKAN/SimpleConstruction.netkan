@@ -1,7 +1,5 @@
 spec_version: v1.4
 identifier: SimpleConstruction
-name: SimpleConstruction!
-abstract: Simple craft building capability in flight mode
 $kref: '#/ckan/spacedock/59'
 $vref: '#/ckan/ksp-avc/SimpleConstruction.version'
 x_netkan_version_edit:
@@ -9,29 +7,37 @@ x_netkan_version_edit:
   replace: ''
   strict: false
 x_netkan_epoch: 1
-license: MIT
+license: GPL-3.0
 tags:
   - plugin
   - resources
-  - config
 depends:
   - name: ModuleManager
-  - name: CommunityResourcePack
 recommends:
   - name: KerbalStats
   - name: Toolbar
-  - name: B9PartSwitch
 suggests:
-  - name: StockalikeMiningExtension
-  - name: NotSoSimpleConstruction
-  - name: KIS
-  - name: KAS
   - name: KeridianDynamicsVesselAssembly
+  - name: GPOSpeedPump
+  - name: NotSoSimpleConstruction
+  - name: OnDemandFuelCells
+  - name: SimpleLogistics
+  - name: StockalikeMiningExtension
+  - name: ISRUThanksButNoTanks
   - name: KerbalJointReinforcementNext
 supports:
-  - name: KerbalChangelog
-  - name: Kethane
   - name: B9PartSwitch
+  - name: CommunityCategoryKit
+  - name: CommunityResourcePack
+  - name: InterstellarFuelSwitch
+  - name: KAS
+  - name: Kerbalism
+  - name: KerbalPlanetaryBaseSystems
+  - name: Kethane
+  - name: KIS
+  - name: StationPartsExpansionRedux
+  - name: TweakScale
+  - name: USI-FTT
 conflicts:
   - name: ExtraPlanetaryLaunchpads
 provides:
