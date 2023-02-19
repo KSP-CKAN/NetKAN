@@ -1,0 +1,19 @@
+spec_version: 1
+identifier: KerbalLaunchVehicles
+name: Kerbal Launch Vehicles
+author:
+  - jCoiley
+  - linuxgurugamer
+abstract: >-
+  Keep track of your fleet of launch vehicles and get suggestions on which would
+  be best to lift your newest satellite into orbit
+$kref: '#/ckan/github/linuxgurugamer/KerbalLaunchVehicles'
+$vref: '#/ckan/ksp-avc'
+license: MIT
+resources:
+  homepage: https://forum.kerbalspaceprogram.com/index.php?/topic/211676-*
+tags:
+  - plugin
+depends:
+  - name: ToolbarController
+  - name: ClickThroughBlocker
