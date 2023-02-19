@@ -1,8 +1,8 @@
 spec_version: v1.18
-identifier: EstrelaDobresystemreplacerplanetpack
+identifier: EstrelaDobre
 $kref: '#/ckan/spacedock/3192'
-license: CC-BY-NC-SA
 $vref: '#/ckan/ksp-avc'
+license: CC-BY-NC-SA
 tags:
   - parts
   - planet-pack
@@ -11,7 +11,3 @@ depends:
   - name: ModuleManager
   - name: Kopernicus
   - name: Waterfall
-install:
-  - find: EstrelaDobre
-    install_to: GameData
-x_via: Automated SpaceDock CKAN submission
