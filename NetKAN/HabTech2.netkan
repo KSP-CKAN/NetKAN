@@ -10,7 +10,14 @@ tags:
 depends:
   - name: ModuleManager
   - name: B9PartSwitch
+  - name: CommunityResourcePack
   - name: Waterfall
+recommends:
+  - name: NewTantares
+  - name: BluedogDB
+  - name: ShuttleLiftingBodyCormorantAeronology
+  - name: TundraExploration
+  - name: StationPartsExpansionRedux
 install:
   - find: GameData/HabTech2
     install_to: GameData
