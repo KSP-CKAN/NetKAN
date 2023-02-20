@@ -1,8 +1,8 @@
 spec_version: v1.18
 identifier: HabTech2
 $kref: '#/ckan/spacedock/2078'
-license: ARR
 $vref: '#/ckan/ksp-avc'
+license: restricted
 tags:
   - plugin
   - parts
@@ -15,15 +15,6 @@ depends:
 install:
   - find: GameData/HabTech2
     install_to: GameData
-    filter_regexp: \.craft$
-  - file: HabTech2_v1.0.0/Craft Files/International Space Station (2003).craft
-    install_to: Ships/SPH
-  - file: HabTech2_v1.0.0/Craft Files/International Space Station (2011).craft
-    install_to: Ships/SPH
-  - file: HabTech2_v1.0.0/Craft Files/International Space Station (2023).craft
-    install_to: Ships/SPH
-  - file: HabTech2_v1.0.0/Craft Files/International Space Station - USOS (2023).craft
-    install_to: Ships/SPH
-  - file: HabTech2_v1.0.0/Craft Files/Space Station Freedom (1991).craft
-    install_to: Ships/SPH
-x_via: Automated SpaceDock CKAN submission
+  - find: Craft Files
+    install_to: Ships
+    as: SPH
