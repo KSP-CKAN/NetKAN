@@ -9,7 +9,4 @@ tags:
 depends:
   - name: ModuleManager
   - name: Kopernicus
-install:
-  - find: GameData/HabitableGilly
-    install_to: GameData
-x_via: Automated SpaceDock CKAN submission
+  - name: VertexMitchellNetravaliHeightMap
