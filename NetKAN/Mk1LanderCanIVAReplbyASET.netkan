@@ -1,5 +1,9 @@
 spec_version: v1.24
 identifier: Mk1LanderCanIVAReplbyASET
+name: Mk1 Lander Can IVA Replacement by ASET
+author:
+  - alexustas
+  - StoneBlue
 $kref: '#/ckan/spacedock/3241'
 $vref: '#/ckan/ksp-avc'
 license: CC-BY-NC-SA-3.0
