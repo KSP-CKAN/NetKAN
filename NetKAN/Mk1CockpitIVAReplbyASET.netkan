@@ -1,24 +1,26 @@
-{
-    "spec_version": "v1.4",
-    "identifier":   "Mk1CockpitIVAReplbyASET",
-    "$kref":        "#/ckan/spacedock/1214",
-    "license":      "CC-BY-NC-SA-3.0",
-    "tags": [
-        "config",
-        "crewed"
-    ],
-    "install": [ {
-        "find": "ASET",
-        "install_to": "GameData"
-    } ],
-    "depends": [
-        { "name": "ASETAgency" },
-        { "name": "ModuleManager" },
-        { "name": "RasterPropMonitor-Core", "min_version": "0.28.0" },
-        { "name": "ASETProps" , "min_version": "1.4" },
-        { "name": "ASETAvionics" , "min_version": "2.0" }
-    ],
-    "recommends": [
-        { "name": "FAR" , "min_version": "0.15.7.2" }
-    ]
-}
+spec_version: v1.24
+identifier: Mk1CockpitIVAReplbyASET
+$kref: '#/ckan/spacedock/3241'
+$vref: '#/ckan/ksp-avc'
+license: CC-BY-NC-SA-3.0
+tags:
+  - config
+  - crewed
+depends:
+  - name: ASETAgency
+  - name: ModuleManager
+  - name: RasterPropMonitor-Core
+    min_version: 0.28.0
+  - name: ASETProps
+    min_version: '1.4'
+  - name: ASETAvionics
+    min_version: '2.0'
+recommends:
+  - name: FAR
+    min_version: 0.15.7.2
+install:
+  - find: ASET_StockRpl_IVAs
+    install_to: GameData
+    include_only:
+      - ASET_StckRplc_Mk1_Cockpit.cfg
+      - RPM_ASET_StckRplc_Mk1_Cockpit_Patch.cfg
