@@ -1,0 +1,12 @@
+spec_version: v1.18
+identifier: HabitableGilly
+$kref: '#/ckan/spacedock/3247'
+license: MIT
+tags:
+  - plugin
+  - config
+  - planet-pack
+depends:
+  - name: ModuleManager
+  - name: Kopernicus
+  - name: VertexMitchellNetravaliHeightMap
