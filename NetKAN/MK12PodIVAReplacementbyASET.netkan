@@ -1,5 +1,9 @@
 spec_version: v1.24
 identifier: MK12PodIVAReplacementbyASET
+name: MK1-2 IVA Replacement by ASET
+author:
+  - alexustas
+  - StoneBlue
 $kref: '#/ckan/spacedock/3241'
 $vref: '#/ckan/ksp-avc'
 x_netkan_epoch: 1
