@@ -12,7 +12,6 @@ abstract: >-
 $kref: '#/ckan/spacedock/3202'
 $vref: '#/ckan/ksp-avc/TweakScaleCompanion.version'
 license: restricted
-release_status: testing
 tags:
   - plugin
   - convenience
