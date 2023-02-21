@@ -1,13 +1,9 @@
 spec_version: v1.8
 identifier: TweakScaleCompanion
 abstract: >-
-  **TweakScale Companion Program** is a series of "Add'On's Add'Ons",
-  adding TweakScale /L support for third parties but decoupling the
-  target Add'On's life cycle from TweakScale's, easing maintenance
-  and distribution efforts. This package aims to make TweakScale
-  user's life easier at first installs with a (most of the time)
-  updated collection with all the currently available Companions
-  at once.
+  **TweakScale Companion Program** provides on a single package
+  all the (stable) modules adding TweakScale /L support for
+  third parties on a single Package, simplifying the deployment.
 $kref: '#/ckan/spacedock/3202'
 $vref: '#/ckan/ksp-avc/TweakScaleCompanion.version'
 license: restricted
