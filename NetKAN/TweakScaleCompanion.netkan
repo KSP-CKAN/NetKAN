@@ -14,9 +14,6 @@ license: restricted
 tags:
   - plugin
   - convenience
-install:
-  - file: GameData/TweakScaleCompanion
-    install_to: GameData
 depends:
   - name: TweakScale
   - name: ModuleManager
