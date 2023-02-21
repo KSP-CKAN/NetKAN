@@ -13,6 +13,5 @@ depends:
 recommends:
   - name: StarshipExpansionProject
 install:
-  - find: HLS project
+  - find: HLS_project
     install_to: GameData
-x_via: Automated SpaceDock CKAN submission
