@@ -10,5 +10,5 @@ tags:
   - agency
   - library
 install:
-  - find: ASET/Agencies
-    install_to: GameData/ASET
+  - find: ASET
+    install_to: GameData
