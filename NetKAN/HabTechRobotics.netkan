@@ -13,5 +13,5 @@ suggests:
   - name: Habtech2
   - name: ShuttleOrbiterConstructionKit
 install:
-  - find: htRobotics
+  - find: GameData/htRobotics
     install_to: GameData
