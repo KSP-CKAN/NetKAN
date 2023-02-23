@@ -1,34 +1,37 @@
-{
-    "spec_version":     "v1.18",
-    "identifier":       "BDArmoryForRunwayProject",
-    "author":           [ "BahamutoD", "Papa_Joe", "jrodrigv", "ouloul", "Scott Manley", "JR", "DocNappers", "Cl0by", "josue", "aubranium", "benbenwilde", "TheKurgan" ],
-    "$kref":            "#/ckan/spacedock/2487",
-    "$vref":            "#/ckan/ksp-avc",
-    "x_netkan_force_v": true,
-    "license":          "CC-BY-SA-2.0",
-    "tags": [
-        "plugin",
-        "parts",
-        "sound",
-        "combat"
-    ],
-    "provides": [
-        "BDArmory"
-    ],
-    "conflicts": [
-        { "name": "BDArmory" }
-    ],
-    "depends": [
-        { "name": "ModuleManager"        },
-        { "name": "PhysicsRangeExtender" }
-    ],
-    "install": [ {
-        "find":       "BDArmory",
-        "install_to": "GameData",
-        "filter":     [ "craft" ]
-    }, {
-        "find":       "craft",
-        "install_to": "Ships",
-        "as":         "SPH"
-    } ]
-}
+spec_version: v1.18
+identifier: BDArmoryForRunwayProject
+author:
+  - BahamutoD
+  - Papa_Joe
+  - jrodrigv
+  - ouloul
+  - Scott Manley
+  - JR
+  - DocNappers
+  - Cl0by
+  - josue
+  - aubranium
+  - benbenwilde
+  - TheKurgan
+$kref: '#/ckan/spacedock/2487'
+$vref: '#/ckan/ksp-avc'
+x_netkan_force_v: true
+license: CC-BY-SA-2.0
+tags:
+  - plugin
+  - parts
+  - sound
+  - combat
+provides:
+  - BDArmory
+conflicts:
+  - name: BDArmory
+depends:
+  - name: ModuleManager
+  - name: PhysicsRangeExtender
+install:
+  - find: BDArmory
+    install_to: GameData
+  - find: craft
+    install_to: Ships
+    as: SPH
