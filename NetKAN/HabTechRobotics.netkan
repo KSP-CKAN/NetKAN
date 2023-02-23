@@ -1,0 +1,17 @@
+spec_version: v1.4
+identifier: HabTechRobotics
+$kref: '#/ckan/github/benjee10/htRobotics'
+$vref: '#/ckan/ksp-avc'
+license: restricted
+tags:
+  - parts
+  - library
+depends:
+  - name: ModuleManager
+  - name: B9PartSwitch
+suggests:
+  - name: Habtech2
+  - name: ShuttleOrbiterConstructionKit
+install:
+  - find: GameData/htRobotics
+    install_to: GameData

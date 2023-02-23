@@ -11,8 +11,11 @@ depends:
   - name: ModuleManager
   - name: B9PartSwitch
   - name: CommunityResourcePack
+  - name: Benjee10-SharedAssets
+  - name: HabTechProps
+  - name: HabTechRobotics
   - name: Waterfall
-  - name: KIS
+  - name: BreakingGround-DLC
 recommends:
   - name: NewTantares
   - name: BluedogDB
