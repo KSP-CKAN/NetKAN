@@ -1,0 +1,10 @@
+spec_version: v1.18
+identifier: BepInExforKSP2
+$kref: '#/ckan/spacedock/3255'
+license: LGPL
+tags:
+  - plugin
+install:
+  - find: BepInEx
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
