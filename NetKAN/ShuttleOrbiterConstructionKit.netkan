@@ -12,10 +12,9 @@ depends:
   - name: Waterfall
   - name: Benjee10-SharedAssets
   - name: HabTechProps
+  - name: HabTechRobotics
 install:
   - find: Benjee10_shuttleOrbiter
-    install_to: GameData
-  - find: htRobotics
     install_to: GameData
   - find: Manual
     install_to: GameData/Benjee10_shuttleOrbiter
