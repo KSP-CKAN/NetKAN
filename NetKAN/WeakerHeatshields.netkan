@@ -1,0 +1,12 @@
+spec_version: v1.18
+identifier: WeakerHeatshields
+$kref: '#/ckan/spacedock/3271'
+license: CC-BY-NC-SA
+tags:
+  - config
+depends:
+  - name: ModuleManager
+install:
+  - find: Weaker Heatshields
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
