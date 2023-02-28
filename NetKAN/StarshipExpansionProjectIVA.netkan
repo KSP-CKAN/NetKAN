@@ -1,0 +1,32 @@
+spec_version: v1.27
+identifier: StarshipExpansionProjectIVA
+name: Starship Expansion Project IVA
+abstract: >-
+  This is the IVA portion of the Starship Expansion Project mod
+author:
+  - Kari
+  - Sofie
+  - Janus92
+license: restricted
+$kref: '#/ckan/spacedock/2959'
+resources:
+  bugtracker: https://github.com/Kari1407/Starship-Expansion-Project/issues
+  spacedock: https://spacedock.info/mod/2959/Starship%20Expansion%20Project%20-%20SEP
+  homepage: >-
+    https://forum.kerbalspaceprogram.com/index.php?/topic/206555-1101-112x-starship-expansion-project-sep-v101-january-30th-2022/
+  repository: https://github.com/Kari1407/Starship-Expansion-Project
+tags:
+  - parts
+install:
+  - find: Spaces
+    install_to: GameData/StarshipExpansionProject
+ksp_version_min: '1.12'
+depends:
+  - name: StarshipExpansionProject
+  - name: NearFutureProps
+  - name: Reviva
+  - name: FreeIva
+  - name: RasterPropMonitor
+recommends:
+  - name: ASETProps
+  - name: JSIAdvancedTransparentPods
