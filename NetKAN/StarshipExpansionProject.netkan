@@ -1,29 +1,15 @@
 spec_version: v1.27
 identifier: StarshipExpansionProject
 name: Starship Expansion Project
-abstract: >-
-  Starship Expansion Project (SEP) aims to bring our intepretation of the
-  Starship vehicle by SpaceX into Kerbal Space Program. While a lot of the
-  design choices are based on the actual vehicle sitting on Boca Chica, creative
-  freedom is used to expand our mod even further.
 author:
   - Kari
   - Sofie
-license: restricted
 $kref: '#/ckan/spacedock/2959'
-resources:
-  bugtracker: https://github.com/Kari1407/Starship-Expansion-Project/issues
-  spacedock: https://spacedock.info/mod/2959/Starship%20Expansion%20Project%20-%20SEP
-  homepage: >-
-    https://forum.kerbalspaceprogram.com/index.php?/topic/206555-1101-112x-starship-expansion-project-sep-v101-january-30th-2022/
-  repository: https://github.com/Kari1407/Starship-Expansion-Project
+ksp_version_min: '1.12'
+license: restricted
 tags:
   - parts
   - plugin
-install:
-  - find: StarshipExpansionProject
-    install_to: GameData
-ksp_version_min: '1.12'
 depends:
   - name: ModuleManager
   - name: B9PartSwitch
@@ -43,5 +29,6 @@ suggests:
 supports:
   - name: HullcamVDSContinued
   - name: NeptuneCamera
-  
-  
+install:
+  - find: StarshipExpansionProject
+    install_to: GameData
