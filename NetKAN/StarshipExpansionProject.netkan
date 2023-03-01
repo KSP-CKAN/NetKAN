@@ -29,6 +29,3 @@ suggests:
 supports:
   - name: HullcamVDSContinued
   - name: NeptuneCamera
-install:
-  - find: StarshipExpansionProject
-    install_to: GameData
