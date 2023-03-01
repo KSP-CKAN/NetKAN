@@ -10,3 +10,5 @@ depends:
   - name: B9PartSwitch
   - name: Waterfall
   - name: ReStock
+conflicts:
+  - name: StockWaterfallEffects
