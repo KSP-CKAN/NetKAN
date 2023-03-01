@@ -16,7 +16,7 @@ depends:
   - name: NearFutureProps
   - name: Reviva
   - name: FreeIva
-  - name: RasterPropMonitor
+  - name: RasterPropMonitor-Core
 recommends:
   - name: ASETProps
   - name: JSIAdvancedTransparentPods
