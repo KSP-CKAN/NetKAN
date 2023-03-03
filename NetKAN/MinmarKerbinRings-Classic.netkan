@@ -10,5 +10,5 @@ depends:
   - name: ModuleManager
   - name: Kopernicus
 install:
-  - find: MinmarKerbinRings - Classic Texture
+  - find: MinmarKerbinRings - Classic Texture/GameData/MinmarKerbinRings
     install_to: GameData
