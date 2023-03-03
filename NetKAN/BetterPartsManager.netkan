@@ -1,0 +1,10 @@
+spec_version: v1.18
+identifier: BetterPartsManager
+$kref: '#/ckan/spacedock/3292'
+license: CC-BY-NC-ND
+tags:
+  - plugin
+install:
+  - find: kerbal_part_manager
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
