@@ -1,0 +1,14 @@
+spec_version: v1.18
+identifier: WaterfallforShuttleOrbiterConstructionGit
+$kref: '#/ckan/spacedock/3298'
+license: GPL-3.0
+tags:
+  - config
+  - graphics
+depends:
+  - name: ModuleManager
+  - name: Waterfall
+install:
+  - find: SOCKWaterfall
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
