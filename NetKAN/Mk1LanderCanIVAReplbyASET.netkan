@@ -18,8 +18,9 @@ depends:
   - name: RasterPropMonitor-Core
     min_version: 0.28.0
 install:
-  - find: ASET_StockRpl_IVAs
+  - find: ASET
     install_to: GameData
     include_only:
-      - ASET_StckRplc_Mk1_LCan.cfg
-      - RPM_ASET_StckRplc_Mk1_LCan_Patch.cfg
+      - RevIVA_ASET_SRI_Mk1_LCan.cfg
+      - RPM_ASET_SRI_Mk1_LCan.cfg
+      - ASET_SRI_Mk1_LCan.cfg

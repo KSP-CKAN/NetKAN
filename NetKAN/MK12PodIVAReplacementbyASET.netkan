@@ -32,9 +32,11 @@ x_netkan_override:
       ksp_version_min: '1.4'
       ksp_version_max: '1.7'
 install:
-  - find: ASET_StockRpl_IVAs
+  - find: ASET
     install_to: GameData
     include_only:
       - Assets
-      - ASET_StckRplc_Mk1-2_Pod.cfg
-      - RPM_ASET_StckRplc_Mk1-2_Pod_Patch.cfg
+      - FreeIVA_ASET_SRI_Mk1-2.3_Pod.cfg
+      - RevIVA_ASET_SRI_Mk1-2.3_Pod.cfg
+      - RPM_ASET_SRI_Mk1-2.3_Pod.cfg
+      - ASET_SRI_Mk1-2.3_Pod.cfg
