@@ -1,0 +1,12 @@
+spec_version: v1.18
+identifier: ColonyBlocksandPlatforms
+$kref: '#/ckan/spacedock/3302'
+license: MIT
+tags:
+  - config
+  - buildings
+depends:
+  - name: KerbalKonstructs
+install:
+  - find: kk_colony_blocks_and_platforms
+    install_to: GameData
