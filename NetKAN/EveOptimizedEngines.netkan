@@ -1,0 +1,15 @@
+spec_version: v1.4
+identifier: EveOptimizedEngines
+$kref: '#/ckan/github/OhioBob/Eve-Optimized-Engines'
+$vref: '#/ckan/ksp-avc'
+license: CC-BY-NC-ND-4.0
+resources:
+  homepage: https://forum.kerbalspaceprogram.com/index.php?/topic/136342-*
+tags:
+  - parts
+depends:
+  - name: ModuleManager
+  - name: B9PartSwitch
+install:
+  - find: EveEngines
+    install_to: GameData
