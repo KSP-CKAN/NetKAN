@@ -1,0 +1,14 @@
+spec_version: v1.18
+identifier: KerbolarExplorationDivision
+$kref: '#/ckan/spacedock/3313'
+license: CC-BY-SA-3.0
+tags:
+  - parts
+  - crewed
+depends:
+  - name: DMTanks-SphericalTanks
+supports:
+  - name: Snacks
+install:
+  - find: AtomicTech
+    install_to: GameData
