@@ -1,5 +1,5 @@
 spec_version: v1.18
-identifier: ExtraKerbin
+identifier: ExtraKerbinMoons
 $kref: '#/ckan/spacedock/3273'
 license: MIT
 tags:
@@ -8,4 +8,3 @@ tags:
 depends:
   - name: ModuleManager
   - name: Kopernicus
-x_via: Automated SpaceDock CKAN submission
