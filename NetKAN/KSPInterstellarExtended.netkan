@@ -5,8 +5,7 @@
     "$vref": "#/ckan/ksp-avc",
     "x_netkan_allow_out_of_order": true,
     "license": "unknown",
-    "ksp_version_min": "1.12",
-    "ksp_version_max": "1.12.9",
+    "ksp_version": "1.12",
     "tags": [
         "plugin",
         "parts",
