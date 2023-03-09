@@ -26,7 +26,6 @@ install:
   - find: ASET
     install_to: GameData
     include_only:
-      - ASET_StckRplc_Mk1_Cockpit.cfg
       - RevIVA_ASET_SRI_Mk1_Cockpit.cfg
       - RPM_ASET_SRI_Mk1_Cockpit.cfg
       - ASET_SRI_Mk1_Cockpit.cfg
