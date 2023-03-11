@@ -1,0 +1,10 @@
+spec_version: v1.18
+identifier: PAIGEBGone
+$kref: '#/ckan/spacedock/3280'
+license: MIT
+tags:
+  - plugin
+install:
+  - find: paige_b_gone
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
