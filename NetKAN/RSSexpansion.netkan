@@ -9,6 +9,7 @@ depends:
   - name: ModuleManager
   - name: Kopernicus
 install:
-  - find: ''
+  - find: RealExpansion
     install_to: GameData
-x_via: Automated SpaceDock CKAN submission
+  - find: REx-Textures
+    install_to: GameData
