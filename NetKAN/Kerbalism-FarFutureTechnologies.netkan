@@ -1,0 +1,19 @@
+spec_version: v1.4
+identifier: Kerbalism-FarFutureTechnologies
+$kref: '#/ckan/github/judicator/KerbalismFFT'
+ksp_version_min: 1.8
+ksp_version_max: 1.12
+license: MIT
+tags:
+  - plugin
+  - physics
+depends:
+  - name: ModuleManager
+  - name: Kerbalism
+  - name: Kerbalism-SystemHeat
+  - name: FarFutureTechnologies
+supports:
+  - name: Kerbalism
+install:
+  - find: zKerbalismFFT
+    install_to: GameData
