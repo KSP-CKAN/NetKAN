@@ -1,0 +1,16 @@
+spec_version: v1.4
+identifier: PlumeParty
+$kref: '#/ckan/github/JadeOfMaar/PlumeParty'
+$vref: '#/ckan/ksp-avc'
+license: CC-BY-NC-SA
+tags:
+  - config
+  - graphics
+depends:
+  - name: ModuleManager
+suggests:
+  - name: PlumeParty-StockConfigs
+install:
+  - find: PlumeParty
+    install_to: GameData
+    filter: Configs
