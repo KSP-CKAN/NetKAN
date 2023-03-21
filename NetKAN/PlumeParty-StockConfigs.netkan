@@ -1,0 +1,17 @@
+spec_version: v1.4
+identifier: PlumeParty-StockConfigs
+name: Plume Party - Stock Configs
+abstract: Plume Party configs for stock parts
+$kref: '#/ckan/github/JadeOfMaar/PlumeParty'
+$vref: '#/ckan/ksp-avc'
+license: CC-BY-NC-SA
+tags:
+  - config
+conflicts:
+  - name: ReStock
+depends:
+  - name: ModuleManager
+  - name: PlumeParty
+install:
+  - find: PlumeParty/Configs
+    install_to: GameData/PlumeParty
