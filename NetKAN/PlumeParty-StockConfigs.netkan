@@ -7,6 +7,8 @@ $vref: '#/ckan/ksp-avc'
 license: CC-BY-NC-SA
 tags:
   - config
+conflicts:
+  - name: ReStock
 depends:
   - name: ModuleManager
   - name: PlumeParty
