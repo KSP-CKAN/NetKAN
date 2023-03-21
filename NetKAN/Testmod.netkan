@@ -1,0 +1,8 @@
+spec_version: v1.18
+identifier: Testmod
+$kref: '#/ckan/spacedock/4'
+license: MIT
+install:
+  - find: ''
+    install_to: GameData
+x_via: Automated SpaceDock Alpha CKAN submission
