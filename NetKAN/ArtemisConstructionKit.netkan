@@ -20,6 +20,7 @@ recommends:
 install:
   - find: Benjee10_Orion
     install_to: GameData
+    filter: PlumeParty
   - find: Craft Files
     install_to: Ships
     as: VAB
