@@ -1,28 +1,19 @@
-{
-    "spec_version": "v1.4",
-	"identifier":   "VesselView",
-    "$kref":        "#/ckan/spacedock/923",
-    "$vref":        "#/ckan/ksp-avc/VesselView.version",
-    "x_netkan_epoch": 2,
-	"license":      "MIT",
-	"tags": [
-		"plugin",
-		"information"
-	],
-    "depends": [
-        { "name" : "JSIPartUtilities" },
-        { "name" : "VesselView-UI" },
-        { "name" : "ToolbarController" },
-        { "name" : "ClickThroughBlocker" }
-    ],
-    "install": [
-        {
-            "find": "VesselView",
-            "filter": [
-                "VesselViewRPM.dll",
-                "VesselViewPlugin.dll"
-            ],
-            "install_to": "GameData"
-        }
-    ]
-}
+spec_version: v1.4
+identifier: VesselView
+$kref: '#/ckan/spacedock/923'
+$vref: '#/ckan/ksp-avc/VesselView.version'
+x_netkan_epoch: 2
+license: MIT
+tags:
+  - plugin
+  - information
+depends:
+  - name: VesselView-UI
+  - name: ToolbarController
+  - name: ClickThroughBlocker
+install:
+  - find: VesselView
+    filter:
+      - VesselViewRPM.dll
+      - VesselViewPlugin.dll
+    install_to: GameData
