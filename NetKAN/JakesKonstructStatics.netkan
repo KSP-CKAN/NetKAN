@@ -7,4 +7,6 @@ tags:
   - buildings
 depends:
   - name: KerbalKonstructs
-x_via: Automated SpaceDock CKAN submission
+  - name: PlanetaryDomes
+  - name: KSPInterstellarExtended
+  - name: StationPartsExpansionRedux
