@@ -5,7 +5,8 @@ author:
   - Papa_Joe
   - jrodrigv
 $kref: '#/ckan/github/jrodrigv/BDAMultiplayer'
-$vref: '#/ckan/ksp-avc'
+comment: Version file is badly out of date
+ksp_version: 1.12
 license: CC-BY-SA-2.0
 resources:
   homepage: https://forum.kerbalspaceprogram.com/index.php?/topic/184167-*
