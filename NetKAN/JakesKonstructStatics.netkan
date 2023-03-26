@@ -7,3 +7,6 @@ tags:
   - buildings
 depends:
   - name: KerbalKonstructs
+  - name: PlanetaryDomes
+  - name: KSPInterstellarExtended
+  - name: StationPartsExpansionRedux
