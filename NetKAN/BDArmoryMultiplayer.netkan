@@ -1,0 +1,30 @@
+spec_version: v1.18
+identifier: BDArmoryMultiplayer
+author:
+  - BahamutoD
+  - Papa_Joe
+  - jrodrigv
+$kref: '#/ckan/github/jrodrigv/BDAMultiplayer'
+$vref: '#/ckan/ksp-avc'
+license: CC-BY-SA-2.0
+resources:
+  homepage: https://forum.kerbalspaceprogram.com/index.php?/topic/184167-*
+tags:
+  - plugin
+  - parts
+  - sound
+  - combat
+provides:
+  - BDArmory
+conflicts:
+  - name: BDArmory
+depends:
+  - name: ModuleManager
+  - name: LunaMultiplayer
+install:
+  - find: BDArmory
+    install_to: GameData
+    filter: craft
+  - find: BDArmory/craft
+    install_to: Ships
+    as: SPH
