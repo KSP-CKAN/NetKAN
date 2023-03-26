@@ -1,0 +1,10 @@
+spec_version: v1.18
+identifier: MicroEngineer
+$kref: '#/ckan/spacedock/3282'
+license: MIT
+tags:
+  - plugin
+install:
+  - find: BepInEx
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
