@@ -1,0 +1,8 @@
+spec_version: v1.18
+identifier: vStageInfo
+$kref: '#/ckan/spacedock/3272'
+license: (will-change-later)
+install:
+  - find: ''
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
