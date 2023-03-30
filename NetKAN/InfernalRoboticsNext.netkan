@@ -17,20 +17,17 @@
         "plugin"
     ],
     "conflicts"      : [
-        { "name": "InfernalRobotics"         },
-        { "name": "KerbalJointReinforcement" }
+        { "name": "InfernalRobotics" }
     ],
     "depends": [
-        { "name": "ModuleManager"     },
-        { "name": "TweakScale-Redist" }
+        { "name": "ModuleManager" }
     ],
     "recommends"     : [
         { "name": "KerbalJointReinforcementNext" }
     ],
     "install"        : [ {
         "file"       : "GameData/MagicSmokeIndustries",
-        "install_to" : "GameData",
-        "filter"     : "Scale_Redist.dll"
+        "install_to" : "GameData"
     } ],
     "x_netkan_override": [ {
         "version": "v3.0.0",
