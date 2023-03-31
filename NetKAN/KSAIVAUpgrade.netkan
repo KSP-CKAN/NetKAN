@@ -24,11 +24,15 @@ depends:
   - name: ModuleManager
 recommends:
   - name: Reviva
+  - name: FreeIva
 suggests:
   - name: DockingPortAlignmentIndicator
   - name: SCANsat
   - name: Astrogator
   - name: HullcamVDSContinued
+supports:
+  - name: BluedogDB
+  - name: ShuttleOrbiterConstructionKit
 install:
   - find: KSA
     install_to: GameData
