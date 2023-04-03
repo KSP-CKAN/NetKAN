@@ -1,0 +1,13 @@
+spec_version: v1.18
+identifier: KSRe
+$kref: '#/ckan/spacedock/3260'
+license: Other
+tags:
+  - plugin
+  - config
+  - tech-tree
+depends:
+  - name: ModuleManager
+  - name: CustomBarnKit
+  - name: B9PartSwitch
+x_via: Automated SpaceDock CKAN submission
