@@ -1,0 +1,10 @@
+spec_version: v1.18
+identifier: LuxsOABExtensions
+$kref: '#/ckan/spacedock/3354'
+license: GPL-3.0
+$vref: '#/ckan/space-warp'
+tags:
+  - plugin
+depends:
+  - name: SpaceWarp
+x_via: Automated SpaceDock CKAN submission
