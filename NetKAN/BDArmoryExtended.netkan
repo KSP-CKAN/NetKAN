@@ -5,6 +5,7 @@ abstract: >-
   for all features of BDA not already present in the base mod and a
   balanced expansion of weapon options
 $kref: '#/ckan/github/BrettRyland/BDArmory-Extended'
+x_netkan_epoch: 1
 ksp_version_min: '1.9'
 license: CC0
 tags:
