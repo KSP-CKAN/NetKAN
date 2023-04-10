@@ -9,10 +9,10 @@ license: GPL-3.0
 tags:
   - planet-pack
   - plugin
-  - config
 depends:
-  - name: ModuleManager
   - name: Kopernicus
+suggests:
+  - name: KopernicusExpansionContinueder-StockConfigs
 install:
   - find: KopernicusExpansion
     install_to: GameData
