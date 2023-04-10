@@ -8,7 +8,7 @@ tags:
 depends:
   - name: ModuleManager
   - name: Kopernicus
+  - name: KopernicusExpansionContinueder
 install:
-  - find: ''
+  - find: ZivezdaSystem
     install_to: GameData
-x_via: Automated SpaceDock CKAN submission
