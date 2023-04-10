@@ -11,6 +11,7 @@ depends:
   - name: Kopernicus
   - name: Singularity
   - name: KSPCommunityFixes
+  - name: KopernicusExpansionContinueder
 recommends:
   - name: EnvironmentalVisualEnhancements
   - name: Scatterer
