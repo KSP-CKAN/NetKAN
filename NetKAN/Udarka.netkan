@@ -11,6 +11,7 @@ depends:
   - name: EnvironmentalVisualEnhancements
   - name: Scatterer
   - name: Singularity
+  - name: KopernicusExpansionContinueder
 recommends:
   - name: TUFX
   - name: DistantObject
