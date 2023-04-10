@@ -10,6 +10,7 @@ depends:
   - name: Kopernicus
   - name: CommunityTerrainTexturePack
   - name: VertexMitchellNetravaliHeightMap
+  - name: KopernicusExpansionContinueder
 recommends:
   - name: BetterKerbol
   - name: OuterPlanetsMod
