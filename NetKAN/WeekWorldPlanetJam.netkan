@@ -1,0 +1,19 @@
+spec_version: v1.18
+identifier: WeekWorldPlanetJam
+$kref: '#/ckan/spacedock/3124'
+$vref: '#/ckan/ksp-avc'
+license: CC-BY-NC-SA-4.0
+tags:
+  - plugin
+  - config
+  - planet-pack
+depends:
+  - name: ModuleManager
+  - name: Kopernicus
+  - name: TextureReplacer
+  - name: KopernicusExpansionContinueder
+install:
+  - find: GameData/WeekWorldPlanetJam
+    install_to: GameData
+  - find: GameData/SciRev
+    install_to: GameData
