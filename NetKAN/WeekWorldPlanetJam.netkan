@@ -11,9 +11,7 @@ depends:
   - name: ModuleManager
   - name: Kopernicus
   - name: TextureReplacer
-  - name: KopernicusExpansionContinued-Common
-  - name: KopernicusExpansionContinued-RegionalPQSMods
-  - name: KopernicusExpansionContinued-VertexHeightMap
+  - name: KopernicusExpansionContinueder
 install:
   - find: GameData/WeekWorldPlanetJam
     install_to: GameData
