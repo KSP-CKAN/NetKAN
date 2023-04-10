@@ -1,0 +1,21 @@
+spec_version: v1.18
+identifier: QuackPack
+$kref: '#/ckan/spacedock/3136'
+license: CC-BY-NC-ND-3.0
+tags:
+  - config
+  - planet-pack
+depends:
+  - name: ModuleManager
+  - name: Kopernicus
+  - name: CommunityTerrainTexturePack
+  - name: VertexMitchellNetravaliHeightMap
+  - name: KopernicusExpansionContinueder
+recommends:
+  - name: BetterKerbol
+  - name: OuterPlanetsMod
+suggests:
+  - name: Scatterer
+  - name: EnvironmentalVisualEnhancements
+  - name: DistantObject
+  - name: PlanetShine
