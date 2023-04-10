@@ -1,12 +1,13 @@
 spec_version: v1.18
 identifier: KopernicusExpansionContinueder-StockConfigs
-name: Kopernicus Expansion Continueder Stock Configs
-abstact: KopernicusExpansionContinueder configs for the stock solar system
+name: Kopernicus Expansion Continued-er Stock Configs
+abstract: Kopernicus Expansion Continued-er configs for the stock solar system
 author:
   - MrHappyFace
   - StollD
   - Vabien
 $kref: '#/ckan/spacedock/3357'
+ksp_version_min: 1.10
 license: GPL-3.0
 tags:
   - planet-pack
