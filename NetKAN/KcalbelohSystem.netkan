@@ -12,6 +12,7 @@ depends:
   - name: Singularity
   - name: KSPCommunityFixes
   - name: KopernicusExpansionContinueder
+  - name: VertexMitchellNetravaliHeightMap
 recommends:
   - name: EnvironmentalVisualEnhancements
   - name: Scatterer
