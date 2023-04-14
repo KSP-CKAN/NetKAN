@@ -1,0 +1,14 @@
+spec_version: v1.18
+identifier: LaunchSitesAppendedforKerbalKonstructs
+$kref: '#/ckan/spacedock/3361'
+license: CC-BY-NC-SA
+tags:
+  - buildings
+  - config
+depends:
+  - name: ModuleManager
+  - name: KerbalKonstructs
+install:
+  - find: FP_LaunchSitesAppended
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
