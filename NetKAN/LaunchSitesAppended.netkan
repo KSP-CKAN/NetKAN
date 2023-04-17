@@ -1,5 +1,5 @@
 spec_version: v1.18
-identifier: LaunchSitesAppendedforKerbalKonstructs
+identifier: LaunchSitesAppended
 $kref: '#/ckan/spacedock/3361'
 license: CC-BY-NC-SA
 tags:
@@ -8,7 +8,8 @@ tags:
 depends:
   - name: ModuleManager
   - name: KerbalKonstructs
+  - name: StockalikeStructures
+  - name: TundraSpaceCenter
 install:
   - find: FP_LaunchSitesAppended
     install_to: GameData
-x_via: Automated SpaceDock CKAN submission
