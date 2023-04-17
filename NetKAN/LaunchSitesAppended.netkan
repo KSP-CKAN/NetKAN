@@ -10,6 +10,7 @@ depends:
   - name: KerbalKonstructs
   - name: StockalikeStructures
   - name: TundraSpaceCenter
+  - name: KSCPlusPlus
 install:
   - find: FP_LaunchSitesAppended
     install_to: GameData
