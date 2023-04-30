@@ -8,3 +8,8 @@ x_netkan_version_edit:
 license: CC-BY-NC-SA-4.0
 tags:
   - parts
+install:
+  - find: TheKROMBUSProject
+    install_to: GameData
+  - find: TheKROMBUS2Project
+    install_to: GameData
