@@ -1,7 +1,7 @@
 spec_version: v1.18
 identifier: CommunityPlanetEnhancementLaythe
 $kref: '#/ckan/spacedock/3369'
-license: Other
+license: restricted
 tags:
   - planet-pack
   - config
@@ -11,4 +11,3 @@ depends:
 install:
   - find: CEP_Laythe
     install_to: GameData
-x_via: Automated SpaceDock CKAN submission
