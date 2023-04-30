@@ -8,6 +8,8 @@ x_netkan_version_edit:
 license: CC-BY-NC-SA-4.0
 tags:
   - parts
+depends:
+  - name: AtomicTechnologiesIncorporated
 install:
   - find: TheKROMBUSProject
     install_to: GameData
