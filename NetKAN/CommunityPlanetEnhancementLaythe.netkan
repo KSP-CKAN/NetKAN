@@ -8,6 +8,8 @@ tags:
 depends:
   - name: ModuleManager
   - name: Kopernicus
+recommends:
+  - name: Scatterer
 install:
   - find: CEP_Laythe
     install_to: GameData
