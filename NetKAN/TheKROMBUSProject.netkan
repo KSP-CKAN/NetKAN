@@ -1,7 +1,10 @@
 spec_version: v1.18
 identifier: TheKROMBUSProject
 $kref: '#/ckan/spacedock/3360'
+x_netkan_version_edit:
+  find: ' '
+  replace: ''
+  strict: false
 license: CC-BY-NC-SA-4.0
 tags:
   - parts
-x_via: Automated SpaceDock CKAN submission
