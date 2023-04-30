@@ -1,0 +1,15 @@
+spec_version: v1.18
+identifier: CommunityPlanetEnhancementLaythe
+$kref: '#/ckan/spacedock/3369'
+license: restricted
+tags:
+  - planet-pack
+  - config
+depends:
+  - name: ModuleManager
+  - name: Kopernicus
+recommends:
+  - name: Scatterer
+install:
+  - find: CEP_Laythe
+    install_to: GameData
