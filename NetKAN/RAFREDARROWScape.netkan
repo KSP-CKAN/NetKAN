@@ -1,0 +1,13 @@
+spec_version: v1.18
+identifier: RAFREDARROWScape
+$kref: '#/ckan/spacedock/3373'
+license: MIT
+tags:
+  - buildings
+  - config
+depends:
+  - name: KerbalKonstructs
+install:
+  - find: cape canavral
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
