@@ -12,9 +12,6 @@ $vref: '#/ckan/ksp-avc'
 x_netkan_epoch: '1'
 x_netkan_force_v: true
 license: GPL-3.0
-resources:
-  homepage: https://forum.kerbalspaceprogram.com/index.php?/topic/190737-*
-  repository: https://github.com/JonnyOThan/RasterPropMonitor/releases
 tags:
   - plugin
   - crewed
