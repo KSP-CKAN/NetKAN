@@ -4,7 +4,7 @@
     "name"           : "RasterPropMonitor",
     "abstract"       : "Modifies stock and some modded IVAs with functional props",
     "author"         : [ "Mihara", "MOARdV", "JonnyOThan" ],
-    "$kref"          : "#/ckan/github/JonnyOThan/RasterPropMonitor",
+    "$kref"          : "#/ckan/spacedock/2534",
     "$vref"          : "#/ckan/ksp-avc",
     "license"        : "GPL-3.0",
     "x_netkan_epoch" : "1",
@@ -20,6 +20,10 @@
         { "name": "ModuleManager"          },
         { "name": "RasterPropMonitor-Core" }
     ],
+    "recommends": [
+        { "name": "DE-IVAExtension" },
+        { "name": "FreeIva"         }
+    ],
     "suggests": [
         { "name": "JSIAdvancedTransparentPods"       },
         { "name": "Astrogator"                       },
@@ -30,16 +34,16 @@
         { "name": "ProbeControlRoomRecontrolled"     },
         { "name": "kOSPropMonitor"                   },
         { "name": "Chatterer"                        },
-        { "name": "FerramAerospaceResearchContinued" },
+        { "name": "Reviva"                           },
         { "name": "MechJeb2"                         },
-        { "name": "RealChute"                        },
         { "name": "ASETProps"                        },
         { "name": "ASETAvionics"                     },
         { "name": "Mk1LanderCanIVAReplbyASET"        },
         { "name": "MK12PodIVAReplacementbyASET"      },
         { "name": "ALCORIVAPatch"                    },
         { "name": "ThroughTheEyesOfaKerbal"          },
-        { "name": "QuickIVA"                         }
+        { "name": "QuickIVA"                         },
+        { "name": "KSAIVAUpgrade"                    }
     ],
     "install": [ {
         "find"      : "JSI",
