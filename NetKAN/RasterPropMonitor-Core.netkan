@@ -5,7 +5,7 @@
     "abstract"       : "Plugin and props for use in IVAs",
     "comment"        : "This package contains the plugin, and the standard parts library.",
     "author"         : [ "Mihara", "MOARdV", "JonnyOThan" ],
-    "$kref"          : "#/ckan/github/JonnyOThan/RasterPropMonitor",
+    "$kref"          : "#/ckan/spacedock/2534",
     "$vref"          : "#/ckan/ksp-avc",
     "x_netkan_epoch" : "1",
     "license"        : "GPL-3.0",
