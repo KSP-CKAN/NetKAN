@@ -10,6 +10,7 @@ $kref: '#/ckan/spacedock/2534'
 $vref: '#/ckan/ksp-avc'
 license: GPL-3.0
 x_netkan_epoch: '1'
+x_netkan_force_v: true
 resources:
   homepage: https://forum.kerbalspaceprogram.com/index.php?/topic/190737-*
   repository: https://github.com/JonnyOThan/RasterPropMonitor/releases
