@@ -20,6 +20,31 @@
     "depends": [
         { "name": "ModuleManager" }
     ],
+    "recommends": [
+        { "name": "DE-IVAExtension" },
+        { "name": "FreeIva"         }
+    ],
+    "suggests": [
+        { "name": "Astrogator"                       },
+        { "name": "DockingPortAlignmentIndicator"    },
+        { "name": "NavUtilitiesContinued"            },
+        { "name": "SCANsat"                          },
+        { "name": "VesselView"                       },
+        { "name": "ProbeControlRoomRecontrolled"     },
+        { "name": "kOSPropMonitor"                   },
+        { "name": "Chatterer"                        },
+        { "name": "Reviva"                           },
+        { "name": "MechJeb2"                         },
+        { "name": "RealChute"                        },
+        { "name": "ASETProps"                        },
+        { "name": "ASETAvionics"                     },
+        { "name": "Mk1LanderCanIVAReplbyASET"        },
+        { "name": "MK12PodIVAReplacementbyASET"      },
+        { "name": "ALCORIVAPatch"                    },
+        { "name": "ThroughTheEyesOfaKerbal"          },
+        { "name": "QuickIVA"                         },
+        { "name": "KSAIVAUpgrade"                    }
+    ],
     "install": [ {
         "find"      : "JSI/RasterPropMonitor",
         "install_to": "GameData/JSI"
