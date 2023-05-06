@@ -1,0 +1,12 @@
+spec_version: v1.18
+identifier: UJModletsSlimNavballCursorDotonly
+$kref: '#/ckan/spacedock/3381'
+license: MIT
+tags:
+  - config
+depends:
+  - name: ModuleManager
+install:
+  - find: UJModlets
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
