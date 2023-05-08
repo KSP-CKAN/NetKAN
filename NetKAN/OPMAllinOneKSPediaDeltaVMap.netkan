@@ -1,0 +1,12 @@
+spec_version: v1.18
+identifier: OPMAllinOneKSPediaDeltaVMap
+$kref: '#/ckan/spacedock/3384'
+license: CC-BY-NC-SA
+tags:
+  - config
+  - information
+supports:
+  - name: OuterPlanetsMod
+install:
+  - find: GameData/OPM_AIO_DVMAP
+    install_to: GameData
