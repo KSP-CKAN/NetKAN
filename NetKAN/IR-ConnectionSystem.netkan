@@ -11,8 +11,6 @@ license: GPL-3.0
 tags:
   - plugin
   - parts
-  - docking
-  - robotics
 depends:
   - name: DockingFunctions
 install:

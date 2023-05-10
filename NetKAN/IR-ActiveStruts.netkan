@@ -11,7 +11,6 @@ $vref: '#/ckan/ksp-avc'
 license: GPL-3.0
 tags:
   - plugin
-  - struts
 install:
   - file: GameData/IRActiveStruts
     install_to: GameData
