@@ -1,0 +1,22 @@
+spec_version: v1.4
+identifier: IR-ActiveStruts
+name: Infernal Robotics Next - Active Struts
+abstract: Active Struts
+author:
+  - Rudolf Meier
+  - JDP
+$kref: >-
+  #/ckan/github/meirumeiru/IR-Active-Struts/asset_match/IR-ActiveStruts_v[0-9]+\.[0-9]+\.[0-9]+\.zip
+$vref: '#/ckan/ksp-avc'
+x_netkan_allow_out_of_order: true
+license: GPL-3.0
+release_status: stable
+resources:
+  repository: https://github.com/meirumeiru/IR-Active-Struts
+  remote-avc: https://github.com/meirumeiru/IR-Active-Struts/raw/main/Resources/GameData/IRActiveStruts/ActiveStruts.version
+tags:
+  - plugin
+  - struts
+install:
+  - file: GameData/IRActiveStruts
+    install_to: GameData

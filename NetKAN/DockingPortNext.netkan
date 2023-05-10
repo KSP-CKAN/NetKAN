@@ -1,0 +1,25 @@
+spec_version: v1.4
+identifier: DockingPortNext
+name: DockingPort - Next
+abstract: A docking port with soft capture ring.
+author:
+  - Rudolf Meier
+  - nesd
+  - Benjee10
+$kref: >-
+  #/ckan/github/meirumeiru/DockingPort-Next/asset_match/DockingPortNext_v[0-9]+\.[0-9]+\.[0-9]+\.zip
+$vref: '#/ckan/ksp-avc'
+x_netkan_allow_out_of_order: true
+license: GPL-3.0
+release_status: stable
+resources:
+  repository: https://github.com/meirumeiru/DockingPort-Next
+  remote-avc: https://github.com/meirumeiru/DockingPort-Next/raw/main/Resources/GameData/DockingPortNext/DockingPortNext.version
+tags:
+  - plugin
+  - docking
+depends:
+  - name: DockingFunctions
+install:
+  - file: GameData/DockingPortNext
+    install_to: GameData

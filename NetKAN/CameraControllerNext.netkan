@@ -1,0 +1,21 @@
+spec_version: v1.4
+identifier: CameraControllerNext
+name: CameraController - Next
+abstract: Tool to control the camera.
+author:
+  - Rudolf Meier
+$kref: >-
+  #/ckan/github/meirumeiru/CameraController-Next/asset_match/CameraControllerNext_v[0-9]+\.[0-9]+\.[0-9]+\.zip
+$vref: '#/ckan/ksp-avc'
+x_netkan_allow_out_of_order: true
+license: GPL-3.0
+release_status: stable
+resources:
+  repository: https://github.com/meirumeiru/CameraController-Next
+  remote-avc: https://github.com/meirumeiru/CameraController-Next/raw/main/Resources/GameData/CameraControllerNext/CameraControllerNext.version
+tags:
+  - plugin
+  - camera
+install:
+  - file: GameData/CameraControllerNext
+    install_to: GameData
