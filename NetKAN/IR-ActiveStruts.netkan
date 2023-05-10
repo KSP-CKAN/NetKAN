@@ -4,8 +4,7 @@ name: Infernal Robotics Next - Active Struts
 author:
   - Rudolf Meier
   - JDP
-$kref: >-
-  #/ckan/github/meirumeiru/IR-Active-Struts/asset_match/IR-ActiveStruts_v[0-9]+\.[0-9]+\.[0-9]+\.zip
+$kref: '#/ckan/github/meirumeiru/IR-Active-Struts'
 $vref: '#/ckan/ksp-avc'
 license: GPL-3.0
 tags:
