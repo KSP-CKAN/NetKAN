@@ -1,0 +1,14 @@
+spec_version: v1.4
+identifier: ActiveStruts
+name: Active Struts
+author:
+  - Rudolf Meier
+  - JDP
+$kref: '#/ckan/github/meirumeiru/IR-Active-Struts'
+$vref: '#/ckan/ksp-avc'
+license: GPL-3.0
+tags:
+  - plugin
+install:
+  - file: GameData/IRActiveStruts
+    install_to: GameData
