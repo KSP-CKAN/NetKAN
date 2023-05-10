@@ -19,6 +19,3 @@ tags:
   - docking
 depends:
   - name: DockingFunctions
-install:
-  - file: GameData/DockingPortNext
-    install_to: GameData

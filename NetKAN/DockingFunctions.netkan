@@ -14,6 +14,3 @@ resources:
   remote-avc: https://github.com/meirumeiru/DockingFunctions/raw/main/Resources/GameData/DockingFunctions/DockingFunctions.version
 tags:
   - plugin
-install:
-  - file: GameData/DockingFunctions
-    install_to: GameData

@@ -15,6 +15,3 @@ resources:
 tags:
   - plugin
   - camera
-install:
-  - file: GameData/CameraControllerNext
-    install_to: GameData
