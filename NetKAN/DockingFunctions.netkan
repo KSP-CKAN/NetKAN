@@ -2,8 +2,7 @@ spec_version: v1.4
 identifier: DockingFunctions
 name: Docking Functions
 abstract: Toolset for mods that perform docking or coupling of vessels
-author:
-  - Rudolf Meier
+author: Rudolf Meier
 $kref: >-
   #/ckan/github/meirumeiru/DockingFunctions/asset_match/DockingFunctions_v[0-9]+\.[0-9]+\.[0-9]+\.zip
 $vref: '#/ckan/ksp-avc'

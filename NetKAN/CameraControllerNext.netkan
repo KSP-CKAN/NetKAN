@@ -2,8 +2,7 @@ spec_version: v1.4
 identifier: CameraControllerNext
 name: CameraController - Next
 abstract: Tool to control the camera.
-author:
-  - Rudolf Meier
+author: Rudolf Meier
 $kref: >-
   #/ckan/github/meirumeiru/CameraController-Next/asset_match/CameraControllerNext_v[0-9]+\.[0-9]+\.[0-9]+\.zip
 $vref: '#/ckan/ksp-avc'
