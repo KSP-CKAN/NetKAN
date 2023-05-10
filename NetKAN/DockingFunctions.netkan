@@ -8,7 +8,6 @@ $kref: >-
   #/ckan/github/meirumeiru/DockingFunctions/asset_match/DockingFunctions_v[0-9]+\.[0-9]+\.[0-9]+\.zip
 $vref: '#/ckan/ksp-avc'
 license: GPL-3.0
-release_status: stable
 resources:
   repository: https://github.com/meirumeiru/DockingFunctions
   remote-avc: https://github.com/meirumeiru/DockingFunctions/raw/main/Resources/GameData/DockingFunctions/DockingFunctions.version

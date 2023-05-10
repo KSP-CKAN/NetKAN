@@ -8,7 +8,6 @@ $kref: >-
   #/ckan/github/meirumeiru/CameraController-Next/asset_match/CameraControllerNext_v[0-9]+\.[0-9]+\.[0-9]+\.zip
 $vref: '#/ckan/ksp-avc'
 license: GPL-3.0
-release_status: stable
 resources:
   repository: https://github.com/meirumeiru/CameraController-Next
   remote-avc: https://github.com/meirumeiru/CameraController-Next/raw/main/Resources/GameData/CameraControllerNext/CameraControllerNext.version

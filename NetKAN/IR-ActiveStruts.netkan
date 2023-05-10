@@ -9,7 +9,6 @@ $kref: >-
   #/ckan/github/meirumeiru/IR-Active-Struts/asset_match/IR-ActiveStruts_v[0-9]+\.[0-9]+\.[0-9]+\.zip
 $vref: '#/ckan/ksp-avc'
 license: GPL-3.0
-release_status: stable
 resources:
   repository: https://github.com/meirumeiru/IR-Active-Struts
   remote-avc: https://github.com/meirumeiru/IR-Active-Struts/raw/main/Resources/GameData/IRActiveStruts/ActiveStruts.version

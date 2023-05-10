@@ -8,7 +8,6 @@ $kref: >-
   #/ckan/github/meirumeiru/IR-ConnectionSystem/asset_match/IR-ConnectionSystem_v[0-9]+\.[0-9]+\.[0-9]+\.zip
 $vref: '#/ckan/ksp-avc'
 license: GPL-3.0
-release_status: stable
 resources:
   repository: https://github.com/meirumeiru/IR-ConnectionSystem
   remote-avc: https://github.com/meirumeiru/IR-ConnectionSystem/raw/main/Resources/GameData/IRConnectionSystem/ConnectionSystem.version
