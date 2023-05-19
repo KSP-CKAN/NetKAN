@@ -1,0 +1,13 @@
+spec_version: v1.18
+identifier: SRCSStageableRCS
+$kref: '#/ckan/spacedock/1900'
+$vref: '#/ckan/ksp-avc'
+license: CC-BY-SA
+tags:
+  - config
+depends:
+  - name: ModuleManager
+install:
+  - find: SRCS
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
