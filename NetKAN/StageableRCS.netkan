@@ -1,0 +1,19 @@
+spec_version: v1.18
+identifier: StageableRCS
+author:
+  - KSP-RO
+  - Kurgut
+$kref: '#/ckan/spacedock/1900'
+$vref: '#/ckan/ksp-avc'
+license: CC-BY-SA
+tags:
+  - config
+  - control
+  - convenience
+conflicts:
+  - name: RealismOverhaul
+depends:
+  - name: ModuleManager
+install:
+  - find: SRCS
+    install_to: GameData
