@@ -1,0 +1,12 @@
+spec_version: v1.18
+identifier: UJModletsSlimNavballMarkers
+$kref: '#/ckan/spacedock/3394'
+license: MIT
+tags:
+  - config
+depends:
+  - name: ModuleManager
+install:
+  - find: UJModlets
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
