@@ -20,6 +20,7 @@ conflicts:
   - name: InfernalRobotics
 depends:
   - name: ModuleManager
+  - name: IR-ConnectionSystem
 recommends:
   - name: KerbalJointReinforcementNext
 install:
