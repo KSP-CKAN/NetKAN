@@ -1,0 +1,9 @@
+spec_version: v1.18
+identifier: ZTheme
+$kref: '#/ckan/spacedock/3396'
+license: GPL-3.0-Except-for-textures-from-ExampleTexturePackMod
+tags:
+  - config
+depends:
+  - name: ModuleManager
+x_via: Automated SpaceDock CKAN submission
