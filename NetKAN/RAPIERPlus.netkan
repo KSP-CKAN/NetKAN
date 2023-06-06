@@ -1,0 +1,9 @@
+spec_version: v1.18
+identifier: RAPIERPlus
+$kref: '#/ckan/spacedock/3402'
+license: GPL-3.0
+tags:
+  - config
+depends:
+  - name: ModuleManager
+x_via: Automated SpaceDock CKAN submission
