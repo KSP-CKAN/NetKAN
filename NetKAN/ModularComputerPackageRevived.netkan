@@ -13,7 +13,7 @@ tags:
   - control
 depends:
   - name: ModuleManager
-  - name: Firespitter
+  - name: FirespitterCore
 recommends:
   - name: KAS
 supports:
