@@ -1,0 +1,15 @@
+spec_version: v1.18
+identifier: IsaQuestsBlueMoon
+$kref: '#/ckan/spacedock/3403'
+license: All-Rights-Reserved
+tags:
+  - parts
+  - crewed
+  - graphics
+depends:
+  - name: ModuleManager
+  - name: Waterfall
+install:
+  - find: IQ_BlueMoon
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
