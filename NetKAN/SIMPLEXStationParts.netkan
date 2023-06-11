@@ -1,0 +1,9 @@
+spec_version: v1.18
+identifier: SIMPLEXStationParts
+$kref: '#/ckan/spacedock/3406'
+license: CC-BY-NC-SA
+tags:
+  - parts
+depends:
+  - name: ModuleManager
+x_via: Automated SpaceDock CKAN submission
