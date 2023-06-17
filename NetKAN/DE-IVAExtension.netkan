@@ -1,0 +1,23 @@
+spec_version: v1.4
+identifier: DE-IVAExtension
+author:
+  - DemonEin
+  - HonkHogan
+  - JonnyOThan
+$kref: '#/ckan/spacedock/2193'
+$vref: '#/ckan/ksp-avc'
+license: CC-BY-NC-SA-3.0
+tags:
+  - config
+  - crewed
+depends:
+  - name: ModuleManager
+  - name: RasterPropMonitor-Core
+  - name: ASETProps
+  - name: ToolbarController
+  - name: ClickThroughBlocker
+supports:
+  - name: ProbeControlRoom
+install:
+  - find: DE_IVAExtension
+    install_to: GameData

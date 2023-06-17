@@ -1,0 +1,25 @@
+spec_version: v1.27
+identifier: StarshipExpansionProjectIVA
+name: Starship Expansion Project IVA
+abstract: IVA portion of Starship Expansion Project
+author:
+  - Kari
+  - Sofie
+  - Janus92
+$kref: '#/ckan/spacedock/2959'
+ksp_version_min: '1.12'
+license: restricted
+tags:
+  - parts
+depends:
+  - name: StarshipExpansionProject
+  - name: NearFutureProps
+  - name: Reviva
+  - name: FreeIva
+  - name: RasterPropMonitor-Core
+recommends:
+  - name: ASETProps
+  - name: JSIAdvancedTransparentPods
+install:
+  - find: Spaces
+    install_to: GameData/StarshipExpansionProject

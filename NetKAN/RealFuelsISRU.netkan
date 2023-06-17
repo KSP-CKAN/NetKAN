@@ -1,0 +1,17 @@
+spec_version: v1.18
+identifier: RealFuelsISRU
+$kref: '#/ckan/spacedock/3177'
+license: MIT
+tags:
+  - config
+  - parts
+  - resources
+depends:
+  - name: ModuleManager
+  - name: RealFuels
+supports:
+  - name: FelineUtilityRovers
+  - name: RFStockalike
+install:
+  - find: Leonard
+    install_to: GameData

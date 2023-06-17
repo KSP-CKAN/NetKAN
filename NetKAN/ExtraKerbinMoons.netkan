@@ -1,0 +1,13 @@
+spec_version: v1.18
+identifier: ExtraKerbinMoons
+$kref: '#/ckan/spacedock/3273'
+license: MIT
+tags:
+  - config
+  - planet-pack
+depends:
+  - name: ModuleManager
+  - name: Kopernicus
+install:
+  - find: ExtraKerbin
+    install_to: GameData

@@ -1,35 +1,29 @@
-{
-    "spec_version": "v1.16",
-    "identifier":   "IXSWarpshipOS",
-    "$kref":        "#/ckan/spacedock/589",
-    "$vref":        "#/ckan/ksp-avc",
-    "license":      "CC-BY-NC-SA-4.0",
-    "tags": [
-        "parts"
-    ],
-    "depends": [
-        { "name": "CommunityResourcePack" },
-        { "name": "ModuleManager" }
-    ],
-    "recommends": [
-        { "name": "WarpDrive" },
-        { "name": "AlcubierreStandalone" }
-    ],
-    "suggests": [
-        { "name": "SpacedocksRedeployed" },
-        { "name": "CommunityTechTree" }
-    ],
-    "conflicts": [
-        { "name": "WarpShip" },
-        { "name": "KSPInterstellarExtended" }
-    ],
-    "install": [ {
-        "find"       : "IXSWarpShipOS",
-        "install_to" : "GameData",
-        "filter"     : [ ".DS_Store", "Example Craft", "old Spacedocks.zip" ]
-    }, {
-        "find"               : "IXS01 Warpship Prototype.craft",
-        "install_to"         : "Ships/VAB",
-        "find_matches_files" : true
-    } ]
-}
+spec_version: v1.26
+identifier: IXSWarpshipOS
+$kref: '#/ckan/spacedock/589'
+$vref: '#/ckan/ksp-avc'
+license: CC-BY-NC-SA-4.0
+tags:
+  - parts
+depends:
+  - name: CommunityResourcePack
+  - name: ModuleManager
+  - any_of:
+      - name: AlcubierreStandalone
+      - name: WarpDrive
+suggests:
+  - name: SpacedocksRedeployed
+  - name: CommunityTechTree
+conflicts:
+  - name: WarpShip
+  - name: KSPInterstellarExtended
+install:
+  - find: IXSWarpShipOS
+    install_to: GameData
+    filter:
+      - .DS_Store
+      - Example Craft
+      - old Spacedocks.zip
+  - find: IXS01 Warpship Prototype.craft
+    install_to: Ships/VAB
+    find_matches_files: true

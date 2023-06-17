@@ -1,38 +1,42 @@
-{
-    "spec_version": "v1.4",
-    "identifier":   "MK12PodIVAReplacementbyASET",
-    "$kref":        "#/ckan/spacedock/1206",
-    "x_netkan_epoch": 1,
-    "license":      "CC-BY-NC-SA-3.0",
-    "tags": [
-        "config",
-        "crewed"
-    ],
-    "install": [ {
-        "find": "ASET/Mk1-2_IVA_Replacement_by_ASET",
-        "install_to": "GameData/ASET"
-    } ],
-    "depends": [
-        { "name": "ASETAgency" },
-        { "name": "ModuleManager" },
-        { "name": "RasterPropMonitor-Core", "min_version": "0.28.0" },
-        { "name": "ASETProps" , "min_version": "1.4"}
-    ],
-    "recommends": [
-        { "name": "MechJeb2" },
-        { "name": "SCANsat" },
-        { "name": "VesselView" },
-        { "name": "DockingPortAlignmentIndicator" },
-        { "name": "Astrogator" }
-    ],
-    "x_netkan_override": [ {
-        "version": "1:0.3",
-        "delete": [
-            "ksp_version"
-        ],
-        "override": {
-            "ksp_version_min": "1.4",
-            "ksp_version_max": "1.7"
-        }
-    } ]
-}
+spec_version: v1.24
+identifier: MK12PodIVAReplacementbyASET
+name: MK1-2 IVA Replacement by ASET
+author:
+  - alexustas
+  - StoneBlue
+$kref: '#/ckan/spacedock/3241'
+$vref: '#/ckan/ksp-avc'
+x_netkan_epoch: 1
+license: CC-BY-NC-SA-3.0
+tags:
+  - config
+  - crewed
+depends:
+  - name: ASETAgency
+  - name: ModuleManager
+  - name: RasterPropMonitor-Core
+    min_version: 0.28.0
+  - name: ASETProps
+    min_version: '1.4'
+recommends:
+  - name: MechJeb2
+  - name: SCANsat
+  - name: VesselView
+  - name: DockingPortAlignmentIndicator
+  - name: Astrogator
+x_netkan_override:
+  - version: '1:0.3'
+    delete:
+      - ksp_version
+    override:
+      ksp_version_min: '1.4'
+      ksp_version_max: '1.7'
+install:
+  - find: ASET
+    install_to: GameData
+    include_only:
+      - Assets
+      - FreeIVA_ASET_SRI_Mk1-2.3_Pod.cfg
+      - RevIVA_ASET_SRI_Mk1-2.3_Pod.cfg
+      - RPM_ASET_SRI_Mk1-2.3_Pod.cfg
+      - ASET_SRI_Mk1-2.3_Pod.cfg

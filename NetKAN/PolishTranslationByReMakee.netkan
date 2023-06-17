@@ -1,0 +1,10 @@
+spec_version: v1.18
+identifier: PolishTranslationByReMakee
+$kref: '#/ckan/spacedock/3251'
+license: MIT
+tags:
+  - plugin
+  - config
+install:
+  - find: PolishTranslation
+    install_to: GameData

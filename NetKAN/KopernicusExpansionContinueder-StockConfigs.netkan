@@ -1,0 +1,20 @@
+spec_version: v1.18
+identifier: KopernicusExpansionContinueder-StockConfigs
+name: Kopernicus Expansion Continued-er Stock Configs
+abstract: Kopernicus Expansion Continued-er configs for the stock solar system
+author:
+  - MrHappyFace
+  - StollD
+  - Vabien
+$kref: '#/ckan/spacedock/3357'
+ksp_version_min: 1.10
+license: GPL-3.0
+tags:
+  - planet-pack
+  - config
+depends:
+  - name: ModuleManager
+  - name: KopernicusExpansionContinueder
+install:
+  - find: KopernicusExpansionExamples
+    install_to: GameData

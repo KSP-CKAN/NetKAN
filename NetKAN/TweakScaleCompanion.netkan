@@ -1,0 +1,18 @@
+spec_version: v1.8
+identifier: TweakScaleCompanion
+abstract: >-
+  **TweakScale Companion Program** provides on a single package
+  all the (stable) modules adding TweakScale /L support for
+  third parties at once, simplifying the deployment.
+$kref: '#/ckan/spacedock/3202'
+$vref: '#/ckan/ksp-avc/TweakScaleCompanion.version'
+license: restricted
+tags:
+  - plugin
+  - convenience
+depends:
+  - name: TweakScale
+  - name: ModuleManager
+conflicts:
+  - name: TweakScaleCompanion-ReStockPlus
+  - name: AirplanePlusThings

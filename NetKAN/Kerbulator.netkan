@@ -1,16 +1,11 @@
-{
-    "spec_version" : 1,
-    "identifier"   : "Kerbulator",
-    "name"         : "Kerbulator",
-    "abstract"     : "Calculator plugin for Kerbal Space Program",
-    "$kref"        : "#/ckan/github/wmvanvliet/Kerbulator",
-    "ksp_version"  : "1.10",
-    "license"      : "GPL-3.0",
-    "resources": {
-        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/62988-*"
-    },
-    "tags": [
-        "plugin",
-        "control"
-    ]
-}
+spec_version: 1
+identifier: Kerbulator
+abstract: Calculator plugin for Kerbal Space Program
+$kref: '#/ckan/github/wmvanvliet/Kerbulator'
+ksp_version: '1.12'
+license: GPL-3.0
+resources:
+  homepage: https://forum.kerbalspaceprogram.com/index.php?/topic/62988-*
+tags:
+  - plugin
+  - control

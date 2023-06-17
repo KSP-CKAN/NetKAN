@@ -13,6 +13,7 @@
     "depends": [
         { "name": "FirespitterCore" },
         { "name": "KSPWheel" },
+        { "name": "B9-PWings-Fork" },
         { "name": "ModuleManager"   }
     ],
     "recommends": [

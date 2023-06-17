@@ -1,41 +1,32 @@
-{
-    "spec_version"   : "v1.4",
-    "identifier"     : "InfernalRoboticsNext",
-    "name"           : "Infernal Robotics - Next",
-    "abstract"       : "Robotic parts for your constructions",
-    "author"         : [ "Rudolf Meier", "ZodiusInfuser", "Ziw", "sirkut" ],
-    "$kref"          : "#/ckan/github/meirumeiru/InfernalRobotics/asset_match/InfernalRobotics_v[0-9]+\\.[0-9]+\\.[0-9]+\\.zip",
-    "$vref"          : "#/ckan/ksp-avc",
-    "license"        : "GPL-3.0",
-    "release_status" : "stable",
-    "resources"      : {
-        "homepage"   : "https://forum.kerbalspaceprogram.com/index.php?/topic/184787-*",
-        "repository" : "https://github.com/meirumeiru/InfernalRobotics"
-    },
-    "tags"           : [
-        "parts",
-        "plugin"
-    ],
-    "conflicts"      : [
-        { "name": "InfernalRobotics"         },
-        { "name": "KerbalJointReinforcement" }
-    ],
-    "depends": [
-        { "name": "ModuleManager"     },
-        { "name": "TweakScale-Redist" }
-    ],
-    "recommends"     : [
-        { "name": "KerbalJointReinforcementNext" }
-    ],
-    "install"        : [ {
-        "file"       : "GameData/MagicSmokeIndustries",
-        "install_to" : "GameData",
-        "filter"     : "Scale_Redist.dll"
-    } ],
-    "x_netkan_override": [ {
-        "version": "v3.0.0",
-        "override": {
-            "ksp_version_max": "1.7.0"
-        }
-    } ]
-}
+spec_version: v1.4
+identifier: InfernalRoboticsNext
+name: Infernal Robotics - Next
+abstract: Robotic parts for your constructions
+author:
+  - Rudolf Meier
+  - ZodiusInfuser
+  - Ziw
+  - sirkut
+$kref: '#/ckan/github/meirumeiru/InfernalRobotics'
+$vref: '#/ckan/ksp-avc'
+license: GPL-3.0
+release_status: stable
+resources:
+  homepage: https://forum.kerbalspaceprogram.com/index.php?/topic/184787-*
+tags:
+  - parts
+  - plugin
+conflicts:
+  - name: InfernalRobotics
+depends:
+  - name: ModuleManager
+  - name: IR-ConnectionSystem
+recommends:
+  - name: KerbalJointReinforcementNext
+install:
+  - file: GameData/MagicSmokeIndustries
+    install_to: GameData
+x_netkan_override:
+  - version: v3.0.0
+    override:
+      ksp_version_max: 1.7.0

@@ -1,0 +1,16 @@
+spec_version: v1.4
+identifier: DockingPortNext
+name: DockingPort - Next
+abstract: A docking port with soft capture ring
+author:
+  - Rudolf Meier
+  - nesd
+  - Benjee10
+$kref: '#/ckan/github/meirumeiru/DockingPort-Next'
+$vref: '#/ckan/ksp-avc'
+license: GPL-3.0
+tags:
+  - plugin
+  - parts
+depends:
+  - name: DockingFunctions

@@ -1,0 +1,9 @@
+spec_version: v1.18
+identifier: ReasonableScienceReturn
+$kref: '#/ckan/spacedock/3171'
+license: MIT
+tags:
+  - config
+  - science
+depends:
+  - name: ModuleManager

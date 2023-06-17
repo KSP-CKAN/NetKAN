@@ -1,0 +1,17 @@
+spec_version: v1.18
+identifier: HLS-Project
+$kref: '#/ckan/spacedock/3245'
+license: CC-BY-SA
+tags:
+  - parts
+  - crewed
+  - graphics
+depends:
+  - name: ModuleManager
+  - name: B9PartSwitch
+  - name: Waterfall
+recommends:
+  - name: StarshipExpansionProject
+install:
+  - find: HLS_project
+    install_to: GameData

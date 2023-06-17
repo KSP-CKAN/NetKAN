@@ -14,8 +14,10 @@ depends:
   - name: ModuleManager
 recommends:
   - name: ThroughTheEyesOfaKerbal
-suggests:
   - name: Reviva
+  - name: B9PartSwitch
+  - name: CommunityCategoryKit
+suggests:
   - name: RasterPropMonitor
   - name: DE-IVAExtension
   - name: AvionicsSystems
@@ -23,3 +25,28 @@ supports:
   - name: PlanetsideExplorationTechnologies
   - name: StationPartsExpansionRedux-IVAs
   - name: Buffalo2
+  - name: KerbalPlanetaryBaseSystems
+  - name: Kerbalism-Config-Default
+  - name: Mk2Expansion
+  - name: Mk3Expansion
+  - name: NearFutureSpacecraft
+  - name: ArtemisConstructionKit
+  - name: ShuttleOrbiterConstructionKit
+  - name: MarkIVSpaceplaneSystem
+  - name: B9
+  - name: UniversalStorage2
+  - name: ALCORIVAPatch
+  - name: ProbeControlRoomRecontrolled
+  - name: HabTech2
+  - name: FelineUtilityRovers
+  - name: NewTantares
+  - name: Mk3MiniExpansionPack
+  - name: StarilexMk1NeedleIVA
+  - name: NeistAirReupdated
+  - name: AirplanePlus
+  - name: SXTContinued
+  - name: Kerbonov
+  - name: OPTSpacePlaneMain
+  - name: NearFutureConstruction
+  - name: ColdWarAerospace
+  - name: TundraExploration

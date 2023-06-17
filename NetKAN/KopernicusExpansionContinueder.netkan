@@ -1,0 +1,28 @@
+spec_version: v1.18
+identifier: KopernicusExpansionContinueder
+author:
+  - MrHappyFace
+  - StollD
+  - Vabien
+$kref: '#/ckan/spacedock/3357'
+ksp_version_min: 1.10
+license: GPL-3.0
+tags:
+  - planet-pack
+  - plugin
+provides:
+  - KopernicusExpansion
+  - KopernicusExpansionContinued-Common
+  - KopernicusExpansionContinued-EVAFootprints
+  - KopernicusExpansionContinued-EmissiveFX
+  - KopernicusExpansionContinued-RegionalPQSMods
+  - KopernicusExpansionContinued-VertexHeightDeformity
+  - KopernicusExpansionContinued-VertexHeightMap
+  - KopernicusExpansionContinued-Wormholes
+depends:
+  - name: Kopernicus
+suggests:
+  - name: KopernicusExpansionContinueder-StockConfigs
+install:
+  - find: KopernicusExpansion
+    install_to: GameData

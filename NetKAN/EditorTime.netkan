@@ -1,0 +1,16 @@
+spec_version: v1.4
+identifier: EditorTime
+abstract: Makes time pass while in the VAB/SPH
+author:
+  - magico13
+  - linuxgurugamer
+$kref: '#/ckan/spacedock/1973'
+$vref: '#/ckan/ksp-avc'
+license: GPL-3.0
+resources:
+  homepage: https://forum.kerbalspaceprogram.com/index.php?/topic/178484-*
+tags:
+  - plugin
+  - editor
+suggests:
+  - name: KerbalConstructionTime

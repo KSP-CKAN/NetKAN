@@ -1,0 +1,11 @@
+spec_version: v1.18
+identifier: Opic
+$kref: '#/ckan/spacedock/3180'
+license: MIT
+tags:
+  - config
+  - planet-pack
+depends:
+  - name: ModuleManager
+  - name: Kopernicus
+x_via: Automated SpaceDock CKAN submission

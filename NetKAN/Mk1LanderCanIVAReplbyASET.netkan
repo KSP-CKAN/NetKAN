@@ -1,20 +1,26 @@
-{
-    "spec_version": "v1.4",
-    "identifier":   "Mk1LanderCanIVAReplbyASET",
-    "$kref":        "#/ckan/spacedock/1208",
-    "license":      "CC-BY-NC-SA-3.0",
-    "tags": [
-        "config",
-        "crewed"
-    ],
-    "install": [ {
-        "find": "ASET",
-        "install_to": "GameData"
-    } ],
-    "depends": [
-        { "name": "ASETAgency" },
-        { "name": "ModuleManager" },
-        { "name": "ASETProps" , "min_version": "1.4" },
-        { "name": "RasterPropMonitor-Core", "min_version": "0.28.0" }
-    ]
-}
+spec_version: v1.24
+identifier: Mk1LanderCanIVAReplbyASET
+name: Mk1 Lander Can IVA Replacement by ASET
+author:
+  - alexustas
+  - StoneBlue
+$kref: '#/ckan/spacedock/3241'
+$vref: '#/ckan/ksp-avc'
+license: CC-BY-NC-SA-3.0
+tags:
+  - config
+  - crewed
+depends:
+  - name: ASETAgency
+  - name: ModuleManager
+  - name: ASETProps
+    min_version: '1.4'
+  - name: RasterPropMonitor-Core
+    min_version: 0.28.0
+install:
+  - find: ASET
+    install_to: GameData
+    include_only:
+      - RevIVA_ASET_SRI_Mk1_LCan.cfg
+      - RPM_ASET_SRI_Mk1_LCan.cfg
+      - ASET_SRI_Mk1_LCan.cfg

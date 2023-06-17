@@ -1,0 +1,14 @@
+spec_version: v1.18
+identifier: ZiveSystem
+$kref: '#/ckan/spacedock/3191'
+license: MIT
+tags:
+  - config
+  - planet-pack
+depends:
+  - name: ModuleManager
+  - name: Kopernicus
+  - name: KopernicusExpansionContinueder
+install:
+  - find: ZivezdaSystem
+    install_to: GameData

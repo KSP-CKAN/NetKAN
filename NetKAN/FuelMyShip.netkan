@@ -1,0 +1,14 @@
+spec_version: v1.27
+identifier: FuelMyShip
+abstract: >-
+  Allows you to transfer fuel from a station into a docked craft via the docking
+  port.
+$kref: '#/ckan/github/SumGuyTwitches/FuelMyShip'
+ksp_version_min: 1.8
+ksp_version_max: 1.12
+license: GPL-3.0
+tags:
+  - plugin
+  - convenience
+depends:
+  - name: ModuleManager

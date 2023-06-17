@@ -1,0 +1,16 @@
+spec_version: v1.18
+identifier: RSS-Expansion
+$kref: '#/ckan/spacedock/3323'
+license: MIT
+tags:
+  - config
+  - planet-pack
+depends:
+  - name: ModuleManager
+  - name: Kopernicus
+  - name: RealSolarSystem
+install:
+  - find: RealExpansion
+    install_to: GameData
+  - find: REx-Textures
+    install_to: GameData

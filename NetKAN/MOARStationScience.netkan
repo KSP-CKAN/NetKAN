@@ -4,7 +4,7 @@
     "name":         "MOAR Station Science",
     "abstract":     "Station Science mod adds several large parts designed to be integrated into a permanent space station.",
     "description":  "This mod adds several large parts designed to be integrated into a permanent space station: the Science Lab, the Zoology Bay, the Cyclotron, and the Spectrometron. These heavy parts provide facilities for performing experiments. Experiments are held in small, light pods that you can dock with your space station, execute, and bring back to the surface for Science points. The Spectrometron uses the Cyclotron to analyze Surface Samples that you've brought into orbit, and allows you to transmit the data home for full value. In addition, there are tanks for storing Kibbal for the Zoology Bay.",
-    "author":       "tomf",
+    "author":       [ "linuxgurugamer", "tomf"],
     "$kref":        "#/ckan/spacedock/2670",
     "$vref":        "#/ckan/ksp-avc",
     "x_netkan_force_v": true,

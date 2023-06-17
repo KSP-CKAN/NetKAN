@@ -1,24 +1,17 @@
-{
-    "spec_version": "v1.4",
-    "identifier":   "kRPC-MechJeb",
-    "$kref":        "#/ckan/github/Genhis/KRPC.MechJeb",
-    "ksp_version_min": "1.8",
-    "ksp_version_max": "1.11",
-    "license":      "GPL-3.0",
-    "resources": {
-        "homepage": "https://genhis.github.io/KRPC.MechJeb/"
-    },
-    "tags": [
-        "plugin",
-        "app",
-        "control"
-    ],
-    "depends": [
-        { "name": "kRPC"     },
-        { "name": "MechJeb2" }
-    ],
-    "install": [ {
-        "file":       "KRPC.MechJeb.dll",
-        "install_to": "GameData/kRPC"
-    } ]
-}
+spec_version: v1.4
+identifier: kRPC-MechJeb
+$kref: '#/ckan/github/Genhis/KRPC.MechJeb'
+ksp_version: '1.12'
+license: GPL-3.0
+resources:
+  homepage: https://genhis.github.io/KRPC.MechJeb/
+tags:
+  - plugin
+  - app
+  - control
+depends:
+  - name: kRPC
+  - name: MechJeb2
+install:
+  - file: KRPC.MechJeb.dll
+    install_to: GameData/kRPC

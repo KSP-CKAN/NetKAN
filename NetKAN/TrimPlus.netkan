@@ -1,0 +1,17 @@
+spec_version: v1.18
+identifier: TrimPlus
+$kref: '#/ckan/spacedock/3295'
+license: GPL-3.0
+$vref: '#/ckan/ksp-avc'
+tags:
+  - plugin
+  - control
+install:
+  - find: TrimPlus
+    install_to: GameData
+    filter_regexp: \.mdb$
+x_via: Automated SpaceDock CKAN submission
+depends:
+  - name: ClickThroughBlocker
+  - name: ToolbarController
+  - name: SpaceTuxLibrary

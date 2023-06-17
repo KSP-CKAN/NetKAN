@@ -1,0 +1,13 @@
+spec_version: v1.18
+identifier: TrentMoonOfEeloo
+$kref: '#/ckan/spacedock/3169'
+license: MIT
+tags:
+  - config
+  - planet-pack
+depends:
+  - name: ModuleManager
+  - name: Kopernicus
+install:
+  - find: Trent
+    install_to: GameData

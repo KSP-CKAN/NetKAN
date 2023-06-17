@@ -1,0 +1,16 @@
+spec_version: v1.18
+identifier: KerbolsStellarNeighbor
+$kref: '#/ckan/spacedock/3207'
+license: MIT
+tags:
+  - config
+  - planet-pack
+depends:
+  - name: ModuleManager
+  - name: Kopernicus
+  - name: CommunityTerrainTexturePack
+  - name: EnvironmentalVisualEnhancements
+  - name: Scatterer
+install:
+  - find: KSN
+    install_to: GameData

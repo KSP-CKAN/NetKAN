@@ -1,0 +1,15 @@
+spec_version: v1.18
+identifier: SSOUPP
+$kref: '#/ckan/spacedock/3201'
+license: restricted
+tags:
+  - parts
+depends:
+  - name: B9PartSwitch
+recommends:
+  - name: ShuttleOrbiterConstructionKit
+  - name: Waterfall
+  - name: HabTech
+install:
+  - find: SuperModule
+    install_to: GameData

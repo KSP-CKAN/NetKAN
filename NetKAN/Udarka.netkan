@@ -1,0 +1,17 @@
+spec_version: v1.18
+identifier: Udarka
+$kref: '#/ckan/spacedock/3209'
+license: MIT
+tags:
+  - config
+  - planet-pack
+depends:
+  - name: ModuleManager
+  - name: Kopernicus
+  - name: EnvironmentalVisualEnhancements
+  - name: Scatterer
+  - name: Singularity
+  - name: KopernicusExpansionContinueder
+recommends:
+  - name: TUFX
+  - name: DistantObject

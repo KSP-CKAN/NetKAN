@@ -1,19 +1,19 @@
-{
-    "spec_version"   : 1,
-    "identifier"     : "PreciseEditor",
-    "name"           : "Precise Editor",
-    "abstract"       : "Editor mod to set a part's position and angle values with great precision. Also show CoM, CoL and CoT coordinates.",
-    "author"         : [ "jfrouleau", "zolotiyeruki" ],
-    "$kref"          : "#/ckan/github/zolotiyeruki/PreciseEditor",
-    "$vref"          : "#/ckan/ksp-avc",
-    "license"        : "GPL-3.0",
-    "release_status" : "stable",
-    "resources"      : {
-        "homepage"   : "https://forum.kerbalspaceprogram.com/index.php?/topic/184193-*"
-    },
-    "tags": [
-        "plugin",
-        "editor",
-        "information"
-    ]
-}
+spec_version: 1
+identifier: PreciseEditor
+author:
+  - jfrouleau
+  - zolotiyeruki
+  - linuxgurugamer
+$kref: '#/ckan/spacedock/3198'
+$vref: '#/ckan/ksp-avc'
+license: GPL-3.0
+resources:
+  homepage: https://forum.kerbalspaceprogram.com/index.php?/topic/211484-*
+depends:
+  - name: ToolbarController
+  - name: ClickThroughBlocker
+  - name: SpaceTuxLibrary
+tags:
+  - plugin
+  - editor
+  - information

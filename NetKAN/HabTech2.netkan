@@ -1,0 +1,30 @@
+spec_version: v1.18
+identifier: HabTech2
+$kref: '#/ckan/spacedock/2078'
+license: restricted
+tags:
+  - plugin
+  - parts
+  - crewed
+  - graphics
+depends:
+  - name: ModuleManager
+  - name: B9PartSwitch
+  - name: CommunityResourcePack
+  - name: Benjee10-SharedAssets
+  - name: HabTechProps
+  - name: HabTechRobotics
+  - name: Waterfall
+  - name: BreakingGround-DLC
+recommends:
+  - name: NewTantares
+  - name: BluedogDB
+  - name: ShuttleLiftingBodyCormorantAeronology
+  - name: TundraExploration
+  - name: StationPartsExpansionRedux
+install:
+  - find: GameData/HabTech2
+    install_to: GameData
+  - find: Craft Files
+    install_to: Ships
+    as: SPH

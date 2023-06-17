@@ -1,0 +1,13 @@
+spec_version: v1.18
+identifier: StockScaleSeaDragon
+$kref: '#/ckan/spacedock/3183'
+license: MIT
+tags:
+  - parts
+  - graphics
+depends:
+  - name: Waterfall
+install:
+  - find: ImprovedSeaDragon
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
