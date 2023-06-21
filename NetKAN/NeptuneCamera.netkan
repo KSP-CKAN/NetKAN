@@ -1,17 +1,12 @@
-{
-    "spec_version": "v1.4",
-    "identifier":   "NeptuneCamera",
-    "$kref":        "#/ckan/github/Tantares/NeptuneCamera",
-    "ksp_version":  "1.11",
-    "license":      "MIT",
-    "resources": {
-        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/196339-*"
-    },
-    "tags": [
-        "plugin",
-        "uncrewed"
-    ],
-    "supports": [
-        { "name": "TantaresSP" }
-    ]
-}
+spec_version: v1.4
+identifier: NeptuneCamera
+$kref: '#/ckan/github/Tantares/NeptuneCamera'
+$vref: '#/ckan/ksp-avc'
+license: restricted
+resources:
+  homepage: https://forum.kerbalspaceprogram.com/index.php?/topic/196339-*
+tags:
+  - plugin
+  - uncrewed
+supports:
+  - name: TantaresSP
