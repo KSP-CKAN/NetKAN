@@ -26,6 +26,7 @@ supports:
   - name: BDArmory
   - name: KIS
   - name: TarsierSpaceTechnologyWithGalaxies
+  - name: Graphotron
 install:
   - find: ChromaWorks
     install_to: GameData
