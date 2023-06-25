@@ -1,12 +1,14 @@
 spec_version: v1.18
 identifier: RoverPack
 $kref: '#/ckan/spacedock/590'
+$vref: '#/ckan/ksp-avc'
 license: CC-BY-ND-4.0
 tags:
   - parts
   - crewed
 depends:
+  - name: ModuleManager
   - name: FirespitterCore
 install:
-  - find: V2.0Industries
+  - find: NearFutureRovers
     install_to: GameData
