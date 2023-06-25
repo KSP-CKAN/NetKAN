@@ -22,5 +22,5 @@ recommends:
   - name: CRE
   - name: TUFX
 install:
-  - find_regexp: SWE
+  - find: RSMP
     install_to: GameData
