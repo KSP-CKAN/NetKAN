@@ -8,5 +8,5 @@ tags:
 depends:
   - name: FirespitterCore
 install:
-  - find: V2.0Industries
+  - find: NearFutureRovers
     install_to: GameData
