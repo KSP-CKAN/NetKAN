@@ -7,6 +7,7 @@ tags:
   - parts
   - crewed
 depends:
+  - name: ModuleManager
   - name: FirespitterCore
 install:
   - find: NearFutureRovers
