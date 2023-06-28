@@ -1,0 +1,13 @@
+spec_version: v1.18
+identifier: janelliesGimbalTrim
+$kref: '#/ckan/spacedock/3408'
+license: CC-BY
+tags:
+  - plugin
+  - config
+depends:
+  - name: ModuleManager
+install:
+  - find: GimbalTrim
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
