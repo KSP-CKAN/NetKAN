@@ -1,0 +1,10 @@
+spec_version: v1.18
+identifier: Kritzkrieg
+$kref: '#/ckan/spacedock/3413'
+license: CC-BY-NC-ND
+tags:
+  - plugin
+  - config
+depends:
+  - name: ModuleManager
+x_via: Automated SpaceDock CKAN submission
