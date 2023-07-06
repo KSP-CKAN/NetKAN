@@ -1,0 +1,8 @@
+spec_version: v1.18
+identifier: MidweeksfinalTufxpack
+$kref: '#/ckan/spacedock/3414'
+license: MIT
+install:
+  - find: Colorblind_chlids_tufx
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
