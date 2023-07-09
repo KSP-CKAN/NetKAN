@@ -24,9 +24,7 @@ conflicts:
 depends:
   - name: ModuleManager
 install:
-  - file: ModRocketSys
+  - find: NecroBones
     install_to: GameData
-    filter_regexp:
-      - \.craft$
-  - find_regexp: \.craft$
-    install_to: Ships/SPH
+  - find: Ships/SPH
+    install_to: Ships
