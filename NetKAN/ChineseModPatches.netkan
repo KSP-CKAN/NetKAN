@@ -1,0 +1,39 @@
+spec_version: v1.4
+identifier: ChineseModPatches
+name: Chinese Mod Patches
+abstract: >-
+  Module Manager patches for translating KSP mods (mostly parts)
+  to Chinese (Simplified Chinese only)
+$kref: '#/ckan/github/tinygrox/KSP_Chinese_Patches'
+license: CC-BY-4.0
+tags:
+  - config
+depends:
+  - name: ModuleManager
+supports:
+  - name: CommunityResourcePack
+  - name: Benjee10Suits
+  - name: Benjee10-SharedAssets
+  - name: HabTechRobotics
+  - name: PlanetsideExplorationTechnologies
+  - name: HabTech2
+  - name: MoldaviteMachines
+  - name: ExtraPlanetaryLaunchpads
+  - name: SpaceAge
+  - name: NearFutureAeronautics
+  - name: NearFutureSpacecraft
+  - name: CrusoeSpaceIndustriesTechTree
+  - name: BeamedPowerPlugin
+  - name: BeamedPowerPlugin-Realistic
+  - name: JamesWebbForKerbal
+  - name: KerbalWeatherProject
+  - name: KerbalActuators
+  - name: ReStockPlus
+  - name: UnKerballedStart
+  - name: RealSolarSystem
+  - name: RealExoplanets
+  - name: RealFuels
+  - name: AdvancedJetEngine
+install:
+  - find: Tinygrox_CNPatches
+    install_to: GameData
