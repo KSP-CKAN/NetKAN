@@ -8,6 +8,8 @@ tags:
 depends:
   - name: ModuleManager
   - name: HUDReplacer
+recommends:
+  - name: SlimNavballCursor
 install:
   - find: UJModlets
     install_to: GameData

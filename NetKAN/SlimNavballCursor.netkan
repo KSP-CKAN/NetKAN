@@ -7,6 +7,8 @@ tags:
 depends:
   - name: ModuleManager
   - name: HUDReplacer
+recommends:
+  - name: SlimNavballMarkers
 install:
   - find: UJModlets
     install_to: GameData
