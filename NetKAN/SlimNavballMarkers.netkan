@@ -1,12 +1,13 @@
 spec_version: v1.18
-identifier: UJModletsSlimNavballMarkers
+identifier: SlimNavballMarkers
 $kref: '#/ckan/spacedock/3394'
 license: MIT
 tags:
   - config
+  - graphics
 depends:
   - name: ModuleManager
+  - name: HUDReplacer
 install:
   - find: UJModlets
     install_to: GameData
-x_via: Automated SpaceDock CKAN submission
