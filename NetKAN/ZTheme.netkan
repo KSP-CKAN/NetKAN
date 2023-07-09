@@ -1,9 +1,15 @@
 spec_version: v1.18
 identifier: ZTheme
+author:
+  - zapsnh
+  - UltraJohn
 $kref: '#/ckan/spacedock/3396'
-license: GPL-3.0-Except-for-textures-from-ExampleTexturePackMod
+ksp_version: 1.12
+license: restricted
 tags:
   - config
+  - graphics
 depends:
   - name: ModuleManager
-x_via: Automated SpaceDock CKAN submission
+  - name: HUDReplacer
+    min_version: 1.2.6-beta
