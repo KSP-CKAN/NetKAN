@@ -8,6 +8,7 @@ tags:
 depends:
   - name: ModuleManager
   - name: Kopernicus
+  - name: VertexMitchellNetravaliHeightMap
 recommends:
   - name: EnvironmentalVisualEnhancements
   - name: Scatterer
