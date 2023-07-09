@@ -1,0 +1,11 @@
+spec_version: v1.4
+identifier: WaterDrinker
+abstract: Stockalike Propeller Engines
+$kref: '#/ckan/github/Tantares/WaterDrinker'
+$vref: '#/ckan/ksp-avc'
+license: MIT
+resources:
+  homepage: https://forum.kerbalspaceprogram.com/topic/218027-*
+tags:
+  - plugin
+  - parts
