@@ -24,7 +24,7 @@ conflicts:
 depends:
   - name: ModuleManager
 install:
-  - file: NecroBones
+  - find: NecroBones
     install_to: GameData
   - find: Ships/SPH
     install_to: Ships
