@@ -7,3 +7,6 @@ tags:
   - config
 depends:
   - name: ModuleManager
+install:
+  - find: GimbalTrim
+    install_to: GameData
