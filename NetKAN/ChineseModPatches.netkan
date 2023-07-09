@@ -1,7 +1,9 @@
 spec_version: v1.4
 identifier: ChineseModPatches
 name: Chinese Mod Patches
-abstract: Module Manager patches for translating KSP mods (mostly parts) to Chinese (Simplified Chinese only)
+abstract: >-
+  Module Manager patches for translating KSP mods (mostly parts)
+  to Chinese (Simplified Chinese only)
 $kref: '#/ckan/github/tinygrox/KSP_Chinese_Patches'
 license: CC-BY-4.0
 tags:
