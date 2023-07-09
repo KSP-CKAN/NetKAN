@@ -1,19 +1,16 @@
 spec_version: v1.18
-identifier: SlimNavballCursor-StocksizeDotonly
-$kref: '#/ckan/spacedock/3382'
+identifier: SlimNavballMarkers
+$kref: '#/ckan/spacedock/3394'
 ksp_version: 1.12
 license: MIT
 tags:
   - config
-provides:
-  - SlimNavballCursor
-conflicts:
-  - name: SlimNavballCursor
+  - graphics
 depends:
   - name: ModuleManager
   - name: HUDReplacer
 recommends:
-  - name: SlimNavballMarkers
+  - name: SlimNavballCursor
 install:
   - find: UJModlets
     install_to: GameData
