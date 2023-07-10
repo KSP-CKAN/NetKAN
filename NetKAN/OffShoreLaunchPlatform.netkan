@@ -1,0 +1,17 @@
+spec_version: v1.18
+identifier: OffShoreLaunchPlatform
+$kref: '#/ckan/spacedock/3405'
+license: MIT
+tags:
+  - buildings
+  - config
+depends:
+  - name: ModuleManager
+  - name: KerbalKonstructs
+recommends:
+  - name: StockalikeStructures
+  - name: KerbinSide
+  - name: StarshipLaunchExpansion
+install:
+  - find: KKGlobalPH
+    install_to: GameData
