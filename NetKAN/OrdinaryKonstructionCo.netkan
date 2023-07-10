@@ -8,7 +8,9 @@ tags:
 depends:
   - name: ModuleManager
   - name: KerbalKonstructs
+recommends:
+  - name: KerbinSideRemastered
+  - name: StockalikeStructures
 install:
   - find: OrdinaryKonstruction
     install_to: GameData
-x_via: Automated SpaceDock CKAN submission
