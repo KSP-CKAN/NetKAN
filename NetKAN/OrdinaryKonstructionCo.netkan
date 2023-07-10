@@ -1,0 +1,16 @@
+spec_version: v1.18
+identifier: OrdinaryKonstructionCo
+$kref: '#/ckan/spacedock/2926'
+license: CC-BY-NC-SA-4.0
+tags:
+  - buildings
+  - config
+depends:
+  - name: ModuleManager
+  - name: KerbalKonstructs
+recommends:
+  - name: KerbinSideRemastered
+  - name: StockalikeStructures
+install:
+  - find: OrdinaryKonstruction
+    install_to: GameData
