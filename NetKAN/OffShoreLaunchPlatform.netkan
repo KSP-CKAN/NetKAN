@@ -8,7 +8,10 @@ tags:
 depends:
   - name: ModuleManager
   - name: KerbalKonstructs
+recommends:
+  - name: StockalikeStructures
+  - name: KerbinSide
+  - name: StarshipLaunchExpansion
 install:
   - find: KKGlobalPH
     install_to: GameData
-x_via: Automated SpaceDock CKAN submission
