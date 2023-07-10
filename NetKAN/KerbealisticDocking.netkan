@@ -7,4 +7,9 @@ tags:
   - config
 depends:
   - name: ModuleManager
-x_via: Automated SpaceDock CKAN submission
+suggests:
+  - name: DockingPortAlignmentIndicator
+  - name: NavballDockAlignIndCE
+  - name: DockingCamKURS
+  - name: DockingPortDescriptions
+  - name: DockingPortSoundFX
