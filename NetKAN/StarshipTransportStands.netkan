@@ -1,0 +1,12 @@
+spec_version: v1.18
+identifier: StarshipTransportStands
+$kref: '#/ckan/spacedock/3404'
+license: MIT
+tags:
+  - parts
+depends:
+  - name: B9PartSwitch
+install:
+  - find: StarshipStands
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
