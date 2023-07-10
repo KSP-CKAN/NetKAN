@@ -8,6 +8,7 @@ depends:
   - name: ModuleManager
   - name: RealismOverhaul
   - name: TexturesUnlimited
+  - name: RealPlume
 install:
   - find: EDBMods
     install_to: GameData
