@@ -1,0 +1,15 @@
+spec_version: v1.18
+identifier: KerbealisticDocking
+$kref: '#/ckan/spacedock/3392'
+$vref: '#/ckan/ksp-avc'
+license: MIT
+tags:
+  - config
+depends:
+  - name: ModuleManager
+suggests:
+  - name: DockingPortAlignmentIndicator
+  - name: NavballDockAlignIndCE
+  - name: DockingCamKURS
+  - name: DockingPortDescriptions
+  - name: DockingPortSoundFX
