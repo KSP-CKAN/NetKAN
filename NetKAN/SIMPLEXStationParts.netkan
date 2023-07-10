@@ -6,4 +6,7 @@ tags:
   - parts
 depends:
   - name: ModuleManager
-x_via: Automated SpaceDock CKAN submission
+  - name: ReStockPlus
+install:
+  - find: AngleCanMods
+    install_to: GameData
