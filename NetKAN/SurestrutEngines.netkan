@@ -6,7 +6,8 @@ tags:
   - parts
 depends:
   - name: ModuleManager
+  - name: RealismOverhaul
+  - name: TexturesUnlimited
 install:
   - find: EDBMods
     install_to: GameData
-x_via: Automated SpaceDock CKAN submission
