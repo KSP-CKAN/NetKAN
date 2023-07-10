@@ -9,6 +9,8 @@ tags:
 depends:
   - name: ModuleManager
   - name: Waterfall
+recommends:
+  - name: ProvenanceAerospace
 install:
   - find: IQ_BlueMoon
     install_to: GameData
