@@ -1,0 +1,16 @@
+spec_version: v1.18
+identifier: SIMPLEXStationParts
+$kref: '#/ckan/spacedock/3406'
+x_netkan_version_edit:
+  find: ^(?<version>.+)\.(?<date>[0-9]{4,8})$
+  replace: ${version}
+  strict: true
+license: CC-BY-NC-SA
+tags:
+  - parts
+depends:
+  - name: ModuleManager
+  - name: ReStockPlus
+install:
+  - find: AngleCanMods
+    install_to: GameData
