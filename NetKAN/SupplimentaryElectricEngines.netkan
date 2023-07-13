@@ -1,0 +1,14 @@
+spec_version: v1.18
+identifier: SupplimentaryElectricEngines
+$kref: '#/ckan/spacedock/3417'
+license: CC-BY-SA
+tags:
+  - parts
+  - graphics
+depends:
+  - name: ModuleManager
+  - name: Waterfall
+install:
+  - find: SupplementaryElectricEngines
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
