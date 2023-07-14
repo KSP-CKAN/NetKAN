@@ -1,5 +1,5 @@
 spec_version: v1.18
-identifier: SupplimentaryElectricEngines
+identifier: SupplementaryElectricEngines
 $kref: '#/ckan/spacedock/3417'
 license: CC-BY-SA
 tags:
@@ -11,4 +11,3 @@ depends:
 install:
   - find: SupplementaryElectricEngines
     install_to: GameData
-x_via: Automated SpaceDock CKAN submission
