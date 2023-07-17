@@ -1,0 +1,11 @@
+spec_version: v1.18
+identifier: JoolRevamp
+$kref: '#/ckan/spacedock/3421'
+license: MIT
+tags:
+  - planet-pack
+  - config
+depends:
+  - name: ModuleManager
+  - name: Kopernicus
+x_via: Automated SpaceDock CKAN submission
