@@ -1,0 +1,13 @@
+spec_version: v1.18
+identifier: ImpulseParty
+$kref: '#/ckan/spacedock/3424'
+$vref: '#/ckan/ksp-avc'
+license: CC-BY-NC-ND
+tags:
+  - parts
+  - graphics
+depends:
+  - name: ModuleManager
+  - name: B9PartSwitch
+  - name: Waterfall
+x_via: Automated SpaceDock CKAN submission
