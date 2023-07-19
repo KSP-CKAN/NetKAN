@@ -8,6 +8,6 @@ tags:
   - graphics
 depends:
   - name: ModuleManager
+recommends:
   - name: B9PartSwitch
   - name: Waterfall
-x_via: Automated SpaceDock CKAN submission
