@@ -1,7 +1,7 @@
 spec_version: v1.18
 identifier: RealisticStockOPMSystem
 $kref: '#/ckan/spacedock/3426'
-$vref: '#/ckan/ksp-avc'
+comment: Syntax error in version file, no repo to submit fixes
 license: MIT
 tags:
   - planet-pack
@@ -12,4 +12,3 @@ depends:
 install:
   - find: RealisticStockSystem
     install_to: GameData
-x_via: Automated SpaceDock CKAN submission
