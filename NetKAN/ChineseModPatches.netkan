@@ -35,5 +35,5 @@ supports:
   - name: RealFuels
   - name: AdvancedJetEngine
 install:
-  - find: Tinygrox_CNPatches
+  - find: 0000Tinygrox_CNPatches
     install_to: GameData
