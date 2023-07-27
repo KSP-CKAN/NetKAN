@@ -1,0 +1,13 @@
+spec_version: v1.18
+identifier: NoIntakeOcclusion
+$kref: '#/ckan/spacedock/3435'
+license: MIT
+tags:
+  - plugin
+  - config
+depends:
+  - name: ModuleManager
+install:
+  - find: ''
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
