@@ -1,0 +1,14 @@
+spec_version: v1.18
+identifier: KerbalMostlyHarmless
+$kref: '#/ckan/spacedock/3423'
+ksp_version: 1.12
+license: restricted
+tags:
+  - plugin
+  - parts
+  - physics
+depends:
+  - name: ModuleManager
+install:
+  - find: kAerospace
+    install_to: GameData
