@@ -5,6 +5,5 @@ license: MIT
 tags:
   - parts
 install:
-  - find: MunPocketEdition
+  - find: GameData/MunPocketEdition
     install_to: GameData
-x_via: Automated SpaceDock CKAN submission
