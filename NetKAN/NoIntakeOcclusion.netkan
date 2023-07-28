@@ -5,6 +5,7 @@ license: MIT
 tags:
   - plugin
   - config
+  - physics
 depends:
   - name: ModuleManager
 install:
