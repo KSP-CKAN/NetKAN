@@ -1,5 +1,5 @@
 spec_version: v1.18
-identifier: Abadonigalaxy
+identifier: AbadoniGalaxy
 $kref: '#/ckan/spacedock/3432'
 license: MIT
 tags:
@@ -8,7 +8,4 @@ tags:
 depends:
   - name: ModuleManager
   - name: Kopernicus
-install:
-  - find: AbadoniGalaxy
-    install_to: GameData
-x_via: Automated SpaceDock CKAN submission
+  - name: CustomAsteroids
