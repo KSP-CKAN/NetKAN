@@ -9,6 +9,7 @@ tags:
 depends:
   - name: ModuleManager
   - name: Kopernicus
+  - name: OuterPlanetsMod
 install:
   - find: RealisticStockSystem
     install_to: GameData
