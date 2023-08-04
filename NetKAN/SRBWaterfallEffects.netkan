@@ -1,7 +1,7 @@
 spec_version: v1.18
 identifier: SRBWaterfallEffects
 $kref: '#/ckan/spacedock/2992'
-x_netkan_version_edit: ^(?<version>[^ ]+).*$
+x_netkan_version_edit: ^(?<version>[^" ]+).*$
 license: CC-BY-NC-SA
 tags:
   - config
