@@ -1,14 +1,10 @@
-{
-    "spec_version": "v1.4",
-    "identifier":   "kOS-Career",
-    "$kref":        "#/ckan/spacedock/2530",
-    "$vref":        "#/ckan/ksp-avc",
-    "license":      "GPL-3.0",
-    "tags": [
-        "plugin",
-        "career"
-    ],
-    "depends": [
-        { "name": "kOS" }
-    ]
-}
+spec_version: v1.4
+identifier: kOS-Career
+$kref: '#/ckan/spacedock/2530'
+$vref: '#/ckan/ksp-avc'
+license: GPL-3.0
+tags:
+  - plugin
+  - career
+depends:
+  - name: kOS
