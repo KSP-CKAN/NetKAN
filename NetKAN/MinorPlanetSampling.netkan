@@ -1,0 +1,16 @@
+spec_version: v1.4
+identifier: MinorPlanetSampling
+abstract: Allows unkerballed spacecraft to perform surface sampling experiments at comets and asteroids
+$kref: '#/ckan/github/DeltaDizzy/MinorPlanetSampling'
+$vref: '#/ckan/ksp-avc'
+license: MIT
+resources:
+  homepage: https://forum.kerbalspaceprogram.com/topic/218820-*
+tags:
+  - plugin
+  - config
+  - science
+  - uncrewed
+depends:
+  - name: ModuleManager
+  - name: Harmony2
