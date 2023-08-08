@@ -1,6 +1,8 @@
 spec_version: v1.4
 identifier: MinorPlanetSampling
-abstract: Allows unkerballed spacecraft to perform surface sampling experiments at comets and asteroids
+abstract: >-
+  Allows unkerballed spacecraft to perform surface
+  sampling experiments at comets and asteroids
 $kref: '#/ckan/github/DeltaDizzy/MinorPlanetSampling'
 $vref: '#/ckan/ksp-avc'
 license: MIT
