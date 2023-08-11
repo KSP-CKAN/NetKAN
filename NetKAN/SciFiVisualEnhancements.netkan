@@ -1,44 +1,32 @@
-{
-    "spec_version": "v1.4",
-    "identifier":   "SciFiVisualEnhancements",
-    "name":         "Sci-Fi Visual Enhancements",
-    "abstract":     "High performance alternative to StockVisualEnhancements",
-    "author":       "panzer1b",
-    "download":     "https://www.dropbox.com/s/zr7e0gwpesctzho/SiFiVE-1.5.zip?dl=1",
-    "version":      "v1.5",
-    "ksp_version":  "1.6",
-    "license":      "unrestricted",
-    "resources": {
-        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/151190-*"
-    },
-    "tags": [
-        "config",
-        "graphics"
-    ],
-    "provides":  [
-        "EnvironmentalVisualEnhancements-Config",
-        "EnvironmentalVisualEnhancements-Config-stock"
-    ],
-    "conflicts": [
-        { "name" : "EnvironmentalVisualEnhancements-Config" }
-    ],
-    "depends": [
-        { "name": "EnvironmentalVisualEnhancements" }
-    ],
-    "install": [ {
-        "find":       "ScifiVisualEnchancements_Base",
-        "install_to": "GameData"
-    }, {
-        "find":       "ScifiVisualEnchancements_Atmospheres",
-        "install_to": "GameData"
-    }, {
-        "find":       "ScifiVisualEnchancements_Clouds",
-        "install_to": "GameData"
-    }, {
-        "find":       "ScifiVisualEnchancements_Dust",
-        "install_to": "GameData"
-    }, {
-        "find":       "ScifiVisualEnchancements_Glows",
-        "install_to": "GameData"
-    } ]
-}
+spec_version: v1.4
+identifier: SciFiVisualEnhancements
+name: Sci-Fi Visual Enhancements
+abstract: High performance alternative to StockVisualEnhancements
+author: panzer1b
+download: https://www.dropbox.com/s/evu8ihrnj8z4gqu/SciFiVE-1.6.zip?dl=1
+version: v1.6
+ksp_version: 1.12
+license: unrestricted
+resources:
+  homepage: https://forum.kerbalspaceprogram.com/index.php?/topic/151190-*
+tags:
+  - config
+  - graphics
+provides:
+  - EnvironmentalVisualEnhancements-Config
+  - EnvironmentalVisualEnhancements-Config-stock
+conflicts:
+  - name: EnvironmentalVisualEnhancements-Config
+depends:
+  - name: EnvironmentalVisualEnhancements
+install:
+  - find: ScifiVisualEnchancements_Base
+    install_to: GameData
+  - find: ScifiVisualEnchancements_Atmospheres
+    install_to: GameData
+  - find: ScifiVisualEnchancements_Clouds
+    install_to: GameData
+  - find: ScifiVisualEnchancements_Dust
+    install_to: GameData
+  - find: ScifiVisualEnchancements_Glows
+    install_to: GameData
