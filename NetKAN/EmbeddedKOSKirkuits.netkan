@@ -4,7 +4,7 @@ name: Embedded kOS Kirkuits
 abstract: Adds kOS processors to selected probe cores and command modules
 $kref: '#/ckan/github/rkunze/EmbeddedKOSKirkuits'
 x_netkan_github:
-    use_source_archive: true
+  use_source_archive: true
 $vref: '#/ckan/ksp-avc'
 license: CC-BY-NC-4.0
 resources:
