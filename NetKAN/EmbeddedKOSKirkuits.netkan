@@ -1,0 +1,23 @@
+spec_version: v1.27
+identifier: EmbeddedKOSKirkuits
+name: Embedded kOS Kirkuits
+abstract: Adds kOS processors to selected probe cores and command modules
+$kref: '#/ckan/github/rkunze/EmbeddedKOSKirkuits'
+x_netkan_github:
+  use_source_archive: true
+$vref: '#/ckan/ksp-avc'
+license: CC-BY-NC-4.0
+resources:
+  homepage: https://forum.kerbalspaceprogram.com/topic/218872-*
+tags:
+  - config
+  - control
+depends:
+  - name: ModuleManager
+  - name: kOS
+recommends:
+  - name: SkyhawkScienceSystem
+install:
+  - find_regexp: EmbeddedKOSKirkuits-.*
+    install_to: GameData
+    as: EmbeddedKOSKirkuits
