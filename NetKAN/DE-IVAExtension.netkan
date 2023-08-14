@@ -14,8 +14,6 @@ depends:
   - name: ModuleManager
   - name: RasterPropMonitor-Core
   - name: ASETProps
-  - name: ToolbarController
-  - name: ClickThroughBlocker
 supports:
   - name: ProbeControlRoom
 install:
