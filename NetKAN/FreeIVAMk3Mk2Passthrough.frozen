@@ -8,8 +8,6 @@ tags:
 depends:
   - name: ModuleManager
   - name: FreeIva
-supports:
-  - name: FreeIva
 install:
   - find: FreeIVAMkPassthrough
     install_to: GameData
