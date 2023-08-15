@@ -1,11 +1,14 @@
 spec_version: v1.18
-identifier: KerbalFundsforRP2LaunchComplexesandPrograms
+identifier: KerbalFunds-RP1
 $kref: '#/ckan/spacedock/3438'
 license: MIT
 tags:
   - plugin
+depends:
+  - name: RP-1
+suggests:
+  - name: KerbalFunds
 install:
   - find: KerbalFunds_RP0LC
     install_to: GameData
     filter_regexp: \.pdb$
-x_via: Automated SpaceDock CKAN submission
