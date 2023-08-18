@@ -14,9 +14,7 @@
     } ],
     "depends": [
         { "name": "ModuleManager" },
-        { "name": "RasterPropMonitor-Core" },
-        { "name": "ToolbarController" },
-        { "name": "ClickThroughBlocker" }
+        { "name": "RasterPropMonitor-Core" }
     ],
     "conflicts": [
         { "name": "ProbeControlRoom" }
