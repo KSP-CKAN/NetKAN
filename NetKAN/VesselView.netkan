@@ -8,7 +8,7 @@ tags:
   - plugin
   - information
 depends:
-  - name: VesselView-UI
+  - name: VesselView-UI-Toolbar
   - name: ToolbarController
   - name: ClickThroughBlocker
 install:
