@@ -1,0 +1,10 @@
+spec_version: v1.18
+identifier: CorrectifTraductionFrançaise
+$kref: '#/ckan/spacedock/3443'
+license: MIT
+tags:
+  - config
+install:
+  - find: CorrectifTraductionFrancaise
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
