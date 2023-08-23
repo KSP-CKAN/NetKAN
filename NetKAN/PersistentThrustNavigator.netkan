@@ -1,0 +1,16 @@
+spec_version: 1
+identifier: PersistentThrustNavigator
+author:
+  - mrsolarsail
+  - JarredEagley
+$kref: '#/ckan/github/JarredEagley/PersistentThrustNavigator'
+license: LGPL-2.1
+resources:
+  homepage: https://forum.kerbalspaceprogram.com/topic/107676-*/?do=findComment&comment=4152274
+  repository: https://github.com/JarredEagley/PersistentThrustNavigator/tree/PTNavigator
+tags:
+  - plugin
+  - parts
+depends:
+  - name: ModuleManager
+  - name: PersistentThrust
