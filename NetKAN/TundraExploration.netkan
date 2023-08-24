@@ -3,21 +3,20 @@
     "identifier":   "TundraExploration",
     "$kref":        "#/ckan/spacedock/223",
     "$vref":        "#/ckan/ksp-avc/TundraExploration.version",
-    "license":      "CC-BY-NC-ND-4.0",
+    "license":      "All Rights Reserved",
     "tags": [
         "parts"
     ],
     "depends": [
         { "name": "SpaceXLegs"         },
         { "name": "B9PartSwitch"       },
-        { "name": "AnimatedDecouplers" },
-        { "name": "RetractableLiftingSurface" },
         { "name": "ModuleManager"      }
     ],
     "recommends" : [
         { "name": "NearFutureSolar-Core" },
         { "name": "NearFutureProps"      },
         { "name": "SmokeScreen"          },
+        { "name": "Waterfall"            },
         { "name": "FMRS"                 }
     ],
     "install": [
