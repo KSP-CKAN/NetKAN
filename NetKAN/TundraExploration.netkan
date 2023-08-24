@@ -1,36 +1,25 @@
-{
-    "spec_version": "v1.4",
-    "identifier":   "TundraExploration",
-    "$kref":        "#/ckan/spacedock/223",
-    "$vref":        "#/ckan/ksp-avc/TundraExploration.version",
-    "license":      "CC-BY-NC-ND-4.0",
-    "tags": [
-        "parts"
-    ],
-    "depends": [
-        { "name": "SpaceXLegs"         },
-        { "name": "B9PartSwitch"       },
-        { "name": "AnimatedDecouplers" },
-        { "name": "RetractableLiftingSurface" },
-        { "name": "ModuleManager"      }
-    ],
-    "recommends" : [
-        { "name": "NearFutureSolar-Core" },
-        { "name": "NearFutureProps"      },
-        { "name": "SmokeScreen"          },
-        { "name": "FMRS"                 }
-    ],
-    "install": [
-        {
-            "find"       : "TundraExploration",
-            "install_to" : "GameData",
-            "filter"     : "Thumbs.db"
-        },
-        {
-            "find":        "Ships/VAB",
-            "install_to":  "Ships",
-            "optional":    true,
-            "description": "Tundra Exploration example craft"
-        }
-    ]
-}
+spec_version: v1.4
+identifier: TundraExploration
+$kref: '#/ckan/spacedock/223'
+$vref: '#/ckan/ksp-avc/TundraExploration.version'
+license: restricted
+tags:
+  - parts
+depends:
+  - name: SpaceXLegs
+  - name: B9PartSwitch
+  - name: ModuleManager
+recommends:
+  - name: NearFutureSolar-Core
+  - name: NearFutureProps
+  - name: SmokeScreen
+  - name: Waterfall
+  - name: FMRS
+install:
+  - find: TundraExploration
+    install_to: GameData
+    filter: Thumbs.db
+  - find: Ships/VAB
+    install_to: Ships
+    optional: true
+    description: Tundra Exploration example craft
