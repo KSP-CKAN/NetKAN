@@ -1,6 +1,6 @@
 spec_version: v1.4
 identifier: ScrapYard
-name: ScrapYard (SYD)
+name: ScrapYard
 $kref: '#/ckan/spacedock/1746'
 $vref: '#/ckan/ksp-avc/ScrapYard.version'
 license: GPL-2.0
@@ -9,6 +9,7 @@ tags:
   - editor
 depends:
   - name: ModuleManager
+  - name: ContractConfigurator
 recommends:
   - name: OhScrap
 supports:
