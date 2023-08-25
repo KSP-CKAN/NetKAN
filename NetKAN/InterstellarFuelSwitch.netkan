@@ -15,9 +15,9 @@ depends:
     min_version: '1.28'
   - name: CommunityTechTree
   - name: CommunityResourcePack
+  - name: PatchManager
 recommends:
   - name: KSPInterstellarExtended
-  - name: PatchManager
 install:
   - find: InterstellarFuelSwitch
     install_to: GameData
