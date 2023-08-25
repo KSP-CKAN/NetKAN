@@ -15,7 +15,8 @@
     "depends": [
         { "name": "ModuleManager"                                       },
         { "name": "InterstellarFuelSwitch-Core", "min_version" : "1.28" },
-        { "name": "CommunityTechTree"                                   }
+        { "name": "CommunityTechTree"                                   },
+        { "name": "CommunityResourcePack"                               }
     ],
     "recommends": [
         { "name": "KSPInterstellarExtended" },
