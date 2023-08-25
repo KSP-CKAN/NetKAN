@@ -1,0 +1,16 @@
+spec_version: v1.4
+identifier: StockAlarmClockDisabler
+$kref: '#/ckan/github/UltraJohn/StockAlarmClockDisabler'
+ksp_version: 1.12
+license: GPL-3.0
+resources:
+  homepage: https://forum.kerbalspaceprogram.com/topic/219015-*
+tags:
+  - plugin
+  - convenience
+depends:
+  - name: Harmony2
+recommends:
+  - name: KerbalAlarmClock
+supports:
+  - name: KerbalAlarmClock
