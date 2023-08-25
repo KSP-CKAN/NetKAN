@@ -4,6 +4,8 @@ author:
   - mrsolarsail
   - JarredEagley
 $kref: '#/ckan/github/JarredEagley/PersistentThrustNavigator'
+ksp_version_min: 1.12.2
+ksp_version_max: 1.12.5
 license: LGPL-2.1
 resources:
   homepage: https://forum.kerbalspaceprogram.com/topic/107676-*/?do=findComment&comment=4152274
