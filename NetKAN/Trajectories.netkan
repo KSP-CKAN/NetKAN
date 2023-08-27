@@ -1,15 +1,12 @@
-{
-    "spec_version"        : 1,
-    "identifier"          : "Trajectories",
-    "$kref"               : "#/ckan/spacedock/396",
-    "$vref"               : "#/ckan/ksp-avc",
-    "x_netkan_force_v"    : true,
-    "license"             : "GPL-3.0",
-    "tags"                : [
-        "plugin",
-        "information"
-    ],
-    "depends"             : [
-        { "name" : "ModuleManager" }
-    ]
-}
+spec_version: 1
+identifier: Trajectories
+$kref: '#/ckan/spacedock/396'
+$vref: '#/ckan/ksp-avc'
+x_netkan_force_v: true
+license: GPL-3.0
+tags:
+  - plugin
+  - information
+depends:
+  - name: ModuleManager
+  - name: ToolbarController
