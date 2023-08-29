@@ -1,0 +1,13 @@
+spec_version: v1.18
+identifier: MinotaurPack
+$kref: '#/ckan/spacedock/3449'
+license: MIT
+tags:
+  - parts
+install:
+  - find: MinotaurPack
+    install_to: GameData
+    filter_regexp: \.craft$
+  - file: Ships/VAB/Minotaur IV.craft
+    install_to: Ships/VAB
+x_via: Automated SpaceDock CKAN submission
