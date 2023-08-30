@@ -1,0 +1,13 @@
+spec_version: v1.18
+identifier: WarbirdCockpits
+$kref: '#/ckan/spacedock/1375'
+license: CC-BY-NC-SA-3.0
+tags:
+  - parts
+  - crewed
+depends:
+  - name: ModuleManager
+install:
+  - find: Galen
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
