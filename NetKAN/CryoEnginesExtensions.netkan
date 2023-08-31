@@ -1,0 +1,12 @@
+spec_version: v1.18
+identifier: CryoEnginesExtensions
+$kref: '#/ckan/spacedock/3452'
+license: Other
+tags:
+  - parts
+  - graphics
+depends:
+  - name: ModuleManager
+  - name: B9PartSwitch
+  - name: Waterfall
+x_via: Automated SpaceDock CKAN submission
