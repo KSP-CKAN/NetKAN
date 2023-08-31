@@ -4,10 +4,10 @@ $kref: '#/ckan/spacedock/3449'
 license: MIT
 tags:
   - parts
+  - flags
 install:
   - find: MinotaurPack
     install_to: GameData
     filter_regexp: \.craft$
-  - file: Ships/VAB/Minotaur IV.craft
-    install_to: Ships/VAB
-x_via: Automated SpaceDock CKAN submission
+  - find: Ships/VAB
+    install_to: Ships
