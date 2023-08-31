@@ -1,0 +1,18 @@
+spec_version: v1.18
+identifier: CryoEnginesExtensions
+$kref: '#/ckan/spacedock/3452'
+license: restricted
+resources:
+  manual: https://imgur.com/a/vOaGRWF
+tags:
+  - parts
+  - graphics
+depends:
+  - name: ModuleManager
+  - name: CryoEngines
+recommends:
+  - name: Waterfall
+suggests:
+  - name: CommunityTechTree
+  - name: RocketSoundEnhancement
+  - name: RocketSoundEnhancement-Config-Default
