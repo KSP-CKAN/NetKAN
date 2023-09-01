@@ -13,6 +13,6 @@ tags:
   - control
   - convenience
 install:
-  - find_regexp: kraken_console.dll$
+  - find: KrakenConsole.dll
     find_matches_files: true
-    install_to: GameData
+    install_to: GameData/KrakenConsole
