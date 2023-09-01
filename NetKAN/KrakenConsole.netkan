@@ -6,6 +6,10 @@ author:
   - RAT-L
   - RafertyLee
 $kref: '#/ckan/github/RafertyLee/Kraken/asset_match/KrakenConsole\.zip'
+x_netkan_version_edit:
+  find: Kraken_Console_
+  replace: ''
+  strict: false
 ksp_version: any
 license: AGPL-3.0
 tags:
