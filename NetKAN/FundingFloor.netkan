@@ -1,0 +1,18 @@
+spec_version: v1.4
+identifier: FundingFloor
+name: Funding Floor
+abstract: >-
+  Makes funds, calculated directly from reputation, a limit on
+  how much you can spend at one time rather than a pool of money
+$kref: '#/ckan/github/ToxicFrog/kessler/asset_match/FundingFloor'
+x_netkan_version_edit:
+  find: fundingfloor-
+  replace: ''
+  strict: false
+ksp_version: 1.12
+license: MIT
+resources:
+  homepage: https://forum.kerbalspaceprogram.com/topic/219159-*
+tags:
+  - plugin
+  - career
