@@ -1,0 +1,14 @@
+spec_version: v1.18
+identifier: TechosStockPlanetRevamp
+$kref: '#/ckan/spacedock/3455'
+license: CC-BY-NC-SA
+tags:
+  - planet-pack
+  - config
+depends:
+  - name: ModuleManager
+  - name: Kopernicus
+install:
+  - find: TPR
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
