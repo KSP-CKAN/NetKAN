@@ -7,7 +7,18 @@ tags:
   - crewed
 depends:
   - name: ModuleManager
+  - name: RasterPropMonitor-Core
+  - name: ASETProps
+  - name: ASETAvionics
+recommends:
+  - name: Kerbonov
+  - name: FirespitterCore
+  - name: AirplanePlus
+  - name: NearFutureProps
+  - name: TDProps
+  - name: KerbalAircraftExpansion
+  - name: SXTContinued
+  - name: SpeedUnitChanger
 install:
   - find: Galen
     install_to: GameData
-x_via: Automated SpaceDock CKAN submission
