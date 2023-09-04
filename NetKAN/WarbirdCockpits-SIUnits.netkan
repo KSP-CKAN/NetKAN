@@ -1,5 +1,7 @@
 spec_version: v1.18
 identifier: WarbirdCockpits-SIUnits
+name: Warbird Cockpits - SI Units
+abstract: Use SI units in instruments of Warbird Cockpits
 $kref: '#/ckan/spacedock/1375'
 license: CC-BY-NC-SA-3.0
 tags:
