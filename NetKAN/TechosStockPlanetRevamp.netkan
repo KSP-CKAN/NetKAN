@@ -8,7 +8,7 @@ tags:
 depends:
   - name: ModuleManager
   - name: Kopernicus
+  - name: VertexMitchellNetravaliHeightMap
 install:
   - find: TPR
     install_to: GameData
-x_via: Automated SpaceDock CKAN submission
