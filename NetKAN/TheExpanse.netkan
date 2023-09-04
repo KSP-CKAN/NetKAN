@@ -6,6 +6,5 @@ tags:
   - parts
   - crewed
 install:
-  - find: Game
+  - find: Dropship
     install_to: GameData
-x_via: Automated SpaceDock CKAN submission
