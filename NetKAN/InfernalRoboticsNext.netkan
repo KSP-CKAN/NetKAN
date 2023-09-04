@@ -23,6 +23,7 @@ depends:
   - name: IR-ConnectionSystem
 recommends:
   - name: KerbalJointReinforcementNext
+  - name: CameraControllerNext
 install:
   - file: GameData/MagicSmokeIndustries
     install_to: GameData
