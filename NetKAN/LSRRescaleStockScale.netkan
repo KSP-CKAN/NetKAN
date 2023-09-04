@@ -1,0 +1,8 @@
+spec_version: v1.18
+identifier: LSRRescaleStockScale
+$kref: '#/ckan/spacedock/3460'
+license: MIT
+install:
+  - find: ''
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
