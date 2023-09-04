@@ -19,6 +19,9 @@ recommends:
   - name: KerbalAircraftExpansion
   - name: SXTContinued
   - name: SpeedUnitChanger
+suggests:
+  - name: WarbirdCockpits-SIUnits
 install:
   - find: Galen
     install_to: GameData
+    filter: WarbirdSI.txt
