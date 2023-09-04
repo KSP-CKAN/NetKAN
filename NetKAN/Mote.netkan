@@ -1,5 +1,5 @@
 spec_version: v1.18
-identifier: MoteAtmophericPlutowithOceansandRings
+identifier: Mote
 $kref: '#/ckan/spacedock/3454'
 license: MIT
 tags:
@@ -11,4 +11,3 @@ depends:
 install:
   - find: AtmosphericPluto
     install_to: GameData
-x_via: Automated SpaceDock CKAN submission
