@@ -20,7 +20,8 @@ recommends:
   - name: SXTContinued
   - name: SpeedUnitChanger
 suggests:
-  - name: WarbirdCockpits-SIUnitsinstall:
+  - name: WarbirdCockpits-SIUnits
+install:
   - find: Galen
     install_to: GameData
     filter: WarbirdSI.txt
