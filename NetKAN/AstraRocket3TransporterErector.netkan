@@ -7,9 +7,9 @@ tags:
 recommends:
   - name: AstraKodiakAlaskaSpaceport
 install:
-  - find: AstraRocket3StrongBack
+  - find: AstraLaunchEssentials
     install_to: GameData
 x_netkan_override:
-  - version: 1.0
+  - version: <=v1.1.0
     override:
       ksp_version_min: 1.9
