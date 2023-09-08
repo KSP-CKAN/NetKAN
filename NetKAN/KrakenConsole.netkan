@@ -1,7 +1,9 @@
 spec_version: v1.27
 identifier: KrakenConsole
 name: Kraken Console
-abstract: An in-game console for KSP
+abstract: >-
+  An in-game console for KSP provides in-game access to Windows CMD
+  for running kRPC programs in FullScreen mode
 author:
   - RAT-L
   - RafertyLee
