@@ -4,6 +4,8 @@ $kref: '#/ckan/spacedock/3462'
 license: MIT
 tags:
   - config
+depends:
+  - name: ModuleManager
 install:
   - find: LSR_Scatterer
     install_to: GameData
