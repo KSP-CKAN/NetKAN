@@ -8,6 +8,8 @@ tags:
 depends:
   - name: ModuleManager
   - name: Kopernicus
+  - name: KopernicusExpansionContinueder
+  - name: TextureReplacer
 suggests:
   - name: LinbolSystemRebirth-StockScale
   - name: LinbolSystemRebirth-ScattererConfigs
