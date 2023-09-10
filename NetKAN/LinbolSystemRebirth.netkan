@@ -8,7 +8,9 @@ tags:
 depends:
   - name: ModuleManager
   - name: Kopernicus
+suggests:
+  - name: LinbolSystemRebirth-StockScale
+  - name: LinbolSystemRebirth-ScattererConfigs
 install:
   - find: LSR
     install_to: GameData
-x_via: Automated SpaceDock CKAN submission
