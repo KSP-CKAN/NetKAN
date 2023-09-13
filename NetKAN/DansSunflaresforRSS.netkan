@@ -1,0 +1,10 @@
+spec_version: v1.18
+identifier: DansSunflaresforRSS
+$kref: '#/ckan/spacedock/3465'
+license: MIT
+tags:
+  - config
+install:
+  - find: Dan's RSS sunflares
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
