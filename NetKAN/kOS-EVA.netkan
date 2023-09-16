@@ -11,7 +11,8 @@
     ],
     "depends": [
         { "name": "ModuleManager" },
-        { "name": "kOS"           }
+        { "name": "kOS"           },
+        { "name": "Harmony2"      }
     ],
     "suggests": [
         { "name": "KIS" }
