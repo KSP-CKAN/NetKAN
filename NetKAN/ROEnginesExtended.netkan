@@ -1,4 +1,4 @@
-spec_version: v1.4
+spec_version: v1.26
 identifier: ROEnginesExtended
 abstract: >-
   Duplicates and tweaks existing ROEngines parts
@@ -12,6 +12,7 @@ depends:
   - name: ModuleManager
   - name: ROEngines
   - name: Waterfall
+    suppress_recommendations: true
 recommends:
   - name: TexturesUnlimited
   - name: ROCapsules

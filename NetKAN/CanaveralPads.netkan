@@ -1,4 +1,4 @@
-spec_version: v1.16
+spec_version: v1.26
 identifier: CanaveralPads
 name: CanaveralPads
 abstract: Custom Launch sites for Cape Canaveral in RSS
@@ -13,5 +13,8 @@ tags:
 depends:
   - name: RSS-CanaveralHD
   - name: KerbalKonstructs
+    suppress_recommendations: true
   - name: StockalikeStructures
+    suppress_recommendations: true
   - name: TundraSpaceCenter
+    suppress_recommendations: true

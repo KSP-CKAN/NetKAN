@@ -1,43 +1,40 @@
-{
-    "spec_version"   : "v1.10",
-    "identifier"     : "ROTanks",
-    "$kref"          : "#/ckan/github/KSP-RO/ROTanks",
-    "$vref"          : "#/ckan/ksp-avc",
-    "x_netkan_force_v": true,
-    "abstract"       : "ROTanks uses modified code of SSTU by Shadowmage45 to provide modular tanks (and more) for Realism Overhaul.",
-    "license"        : "CC-BY-SA",
-    "author"         : ["pap1723","KSP-RO"],
-    "release_status" : "stable",
-    "resources" : {
-        "bugtracker"   : "https://github.com/KSP-RO/ROTanks/issues",
-        "repository"   : "https://github.com/KSP-RO/ROTanks",
-        "homepage"     : "https://discordapp.com/invite/ZGbR6nv"
-    },
-    "tags": [
-        "parts",
-        "config",
-        "graphics"
-    ],
-    "depends" : [
-        { "name" : "ModuleManager" },
-        { "name" : "ROLib" },
-        { "name" : "TexturesUnlimited" },
-        { "name" : "RealFuels" }
-    ],
-    "recommends" : [
-        { "name" : "RealismOverhaul" },
-        { "name" : "ROSolar" },
-        { "name" : "ROEngines" },
-        { "name" : "ROCapsules" }
-    ],
-    "suggests" : [
-        { "name" : "ProceduralFairings" },
-        { "name" : "ProceduralParts" },
-        { "name" : "MechJeb2" },
-        { "name" : "RealSolarSystem" },
-        { "name" : "RP-0" }
-    ],
-    "conflicts" : [
-        { "name" : "TweakableEverythingCont" }
-    ]
-}
+spec_version: v1.26
+identifier: ROTanks
+$kref: '#/ckan/github/KSP-RO/ROTanks'
+$vref: '#/ckan/ksp-avc'
+x_netkan_force_v: true
+abstract: >-
+  ROTanks uses modified code of SSTU by Shadowmage45 to provide modular tanks
+  (and more) for Realism Overhaul.
+license: CC-BY-SA
+author:
+  - pap1723
+  - KSP-RO
+release_status: stable
+resources:
+  bugtracker: https://github.com/KSP-RO/ROTanks/issues
+  repository: https://github.com/KSP-RO/ROTanks
+  homepage: https://discordapp.com/invite/ZGbR6nv
+tags:
+  - parts
+  - config
+  - graphics
+depends:
+  - name: ModuleManager
+  - name: ROLib
+  - name: TexturesUnlimited
+    suppress_recommendations: true
+  - name: RealFuels
+recommends:
+  - name: RealismOverhaul
+  - name: ROSolar
+  - name: ROEngines
+  - name: ROCapsules
+suggests:
+  - name: ProceduralFairings
+  - name: ProceduralParts
+  - name: MechJeb2
+  - name: RealSolarSystem
+  - name: RP-0
+conflicts:
+  - name: TweakableEverythingCont
