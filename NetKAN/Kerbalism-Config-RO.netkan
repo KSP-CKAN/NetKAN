@@ -1,36 +1,28 @@
-{
-    "spec_version": "v1.18",
-    "identifier":   "Kerbalism-Config-RO",
-    "name":         "Kerbalism - RealismOverhaul Config",
-    "$kref":        "#/ckan/github/KSP-RO/ROKerbalism",
-    "license":      "Unlicense",
-    "tags": [
-        "config",
-        "career",
-        "science",
-        "crewed"
-    ],
-    "provides": [
-        "Kerbalism-Config"
-    ],
-    "conflicts": [
-        { "name": "Kerbalism-Config" },
-        { "name": "TACLS"            },
-        { "name": "Snacks"           },
-        { "name": "USI-LS"           }
-    ],
-    "depends": [
-        { "name": "ModuleManager" },
-        { "name": "Kerbalism"     }
-    ],
-    "recommends": [
-        { "name": "RealismOverhaul" }
-    ],
-    "suggests": [
-        { "name": "RP-0" }
-    ],
-    "install": [ {
-        "find":       "KerbalismConfig",
-        "install_to": "GameData"
-    } ]
-}
+spec_version: v1.26
+identifier: Kerbalism-Config-RO
+name: Kerbalism - RealismOverhaul Config
+$kref: '#/ckan/github/KSP-RO/ROKerbalism'
+license: Unlicense
+tags:
+  - config
+  - career
+  - science
+  - crewed
+provides:
+  - Kerbalism-Config
+conflicts:
+  - name: Kerbalism-Config
+  - name: TACLS
+  - name: Snacks
+  - name: USI-LS
+depends:
+  - name: ModuleManager
+  - name: Kerbalism
+    suppress_recommendations: true
+recommends:
+  - name: RealismOverhaul
+suggests:
+  - name: RP-0
+install:
+  - find: KerbalismConfig
+    install_to: GameData
