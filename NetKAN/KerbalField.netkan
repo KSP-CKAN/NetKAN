@@ -9,7 +9,7 @@
         "combat"
     ],
     "depends": [
-        { "name": "ModuleManager"     },
-        { "name": "BDArmoryContinued" }
+        { "name": "ModuleManager" },
+        { "name": "BDArmory"      }
     ]
 }
