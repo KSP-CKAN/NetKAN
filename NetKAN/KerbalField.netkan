@@ -1,15 +1,11 @@
-{
-    "spec_version": "v1.4",
-    "identifier":   "KerbalField",
-    "$kref":        "#/ckan/spacedock/1646",
-    "x_netkan_epoch": 3,
-    "license":      "CC-BY-SA",
-    "tags": [
-        "parts",
-        "combat"
-    ],
-    "depends": [
-        { "name": "ModuleManager"     },
-        { "name": "BDArmoryContinued" }
-    ]
-}
+spec_version: v1.4
+identifier: KerbalField
+$kref: '#/ckan/spacedock/1646'
+x_netkan_epoch: 3
+license: CC-BY-SA
+tags:
+  - parts
+  - combat
+depends:
+  - name: ModuleManager
+  - name: BDArmory
