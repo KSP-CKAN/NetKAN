@@ -1,6 +1,7 @@
 spec_version: v1.18
 identifier: SSTOProjectLPG
 $kref: '#/ckan/spacedock/3022'
+$vref: '#/ckan/ksp-avc'
 license: MIT
 tags:
   - config
