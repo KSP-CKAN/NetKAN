@@ -14,5 +14,13 @@
     "install": [ {
         "install_to": "GameData",
         "find": "KSPWheel"
-    } ]
+    } ],
+    "x_netkan_override" : [
+        {
+            "version" : "1:0.16.14.33",
+            "override" : {
+                "ksp_version_max": "1.12.99"
+            }
+        }
+    ]
 }
