@@ -1,26 +1,17 @@
-{
-    "spec_version": "v1.4",
-    "identifier":   "KSPWheel",
-    "$kref":        "#/ckan/github/shadowmage45/KSPWheel",
-    "$vref":        "#/ckan/ksp-avc",
-    "license":      "GPL-3.0",
-    "resources": {
-        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/152782-*"
-    },
-    "tags": [
-        "plugin",
-        "library"
-    ],
-    "install": [ {
-        "install_to": "GameData",
-        "find": "KSPWheel"
-    } ],
-    "x_netkan_override" : [
-        {
-            "version" : "1:0.16.14.33",
-            "override" : {
-                "ksp_version_max": "1.12.99"
-            }
-        }
-    ]
-}
+spec_version: v1.4
+identifier: KSPWheel
+$kref: '#/ckan/github/shadowmage45/KSPWheel'
+$vref: '#/ckan/ksp-avc'
+license: GPL-3.0
+resources:
+  homepage: https://forum.kerbalspaceprogram.com/index.php?/topic/152782-*
+tags:
+  - plugin
+  - library
+install:
+  - install_to: GameData
+    find: KSPWheel
+x_netkan_override:
+  - version: 1:0.16.14.33
+    override:
+      ksp_version_max: 1.12
