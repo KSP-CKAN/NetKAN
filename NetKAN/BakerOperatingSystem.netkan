@@ -1,4 +1,4 @@
-spec_version: v1.18
+spec_version: v1.29
 identifier: BakerOperatingSystem
 $kref: '#/ckan/spacedock/3052'
 license: MIT
@@ -8,8 +8,8 @@ tags:
 depends:
   - name: kOS
 install:
-  - find: Baker Operating System
-    install_to: GameData
+  - file: Baker3.ks
+    install_to: Ships/Script
 x_netkan_override:
   - version: '>=2.1.0'
     override:
