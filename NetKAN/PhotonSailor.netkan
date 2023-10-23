@@ -1,30 +1,26 @@
-{
-    "spec_version": "v1.4",
-    "identifier":   "PhotonSailor",
-    "name":         "Photon Sailor",
-    "$kref":        "#/ckan/spacedock/1895",
-    "$vref":        "#/ckan/ksp-avc",
-    "license":      "CC-BY-NC-3.0",
-    "tags": [
-        "plugin",
-        "parts",
-        "physics"
-    ],
-    "install": [ {
-        "find":       "PhotonSail",
-        "install_to": "GameData"
-    } ],
-    "depends": [
-        { "name": "InterstellarRedistributable" },
-        { "name": "ModuleManager" },
-        { "name": "TweakScale-Redist" }
-    ],
-    "recommends": [
-        { "name": "PersistentRotation"      },
-        { "name": "KSPInterstellarExtended", "min_version" : "1.19.3" },
-        { "name": "SolarSailNavigator"      },
-        { "name": "TexturesUnlimited"       },
-        { "name": "TweakScale"              },
-        { "name": "CommunityTechTree", "min_version" : "1:3.3.2" }
-    ]
-}
+spec_version: v1.4
+identifier: PhotonSailor
+name: Photon Sailor
+$kref: '#/ckan/spacedock/1895'
+$vref: '#/ckan/ksp-avc'
+license: CC-BY-NC-3.0
+tags:
+  - plugin
+  - parts
+  - physics
+install:
+  - find: PhotonSail
+    install_to: GameData
+depends:
+  - name: InterstellarRedistributable
+  - name: ModuleManager
+  - name: TweakScale-Redist
+recommends:
+  - name: PersistentRotation
+  - name: KSPInterstellarExtended
+    min_version: 1.19.3
+  - name: SolarSailNavigator
+  - name: TexturesUnlimited
+  - name: TweakScale
+  - name: CommunityTechTree
+    min_version: 1:3.3.2
