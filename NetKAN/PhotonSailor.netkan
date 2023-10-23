@@ -16,7 +16,8 @@
     } ],
     "depends": [
         { "name": "InterstellarRedistributable" },
-        { "name": "ModuleManager" }
+        { "name": "ModuleManager" },
+        { "name": "TweakScale-Redist" }
     ],
     "recommends": [
         { "name": "PersistentRotation"      },
