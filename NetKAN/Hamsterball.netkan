@@ -1,0 +1,10 @@
+spec_version: v1.18
+identifier: Hamsterball
+$kref: '#/ckan/spacedock/3483'
+license: MIT
+tags:
+  - parts
+install:
+  - find: idiot
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
