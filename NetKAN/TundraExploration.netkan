@@ -9,12 +9,12 @@ depends:
   - name: SpaceXLegs
   - name: B9PartSwitch
   - name: ModuleManager
+  - name: TundraTechnologies
 recommends:
-  - name: NearFutureSolar-Core
-  - name: NearFutureProps
   - name: SmokeScreen
   - name: Waterfall
   - name: FMRS
+  - name: FreeIva
 install:
   - find: TundraExploration
     install_to: GameData
@@ -22,4 +22,4 @@ install:
   - find: Ships/VAB
     install_to: Ships
     optional: true
-    description: Tundra Exploration example craft
+    description: Tundra Exploration example crafts
