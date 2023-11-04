@@ -1,0 +1,8 @@
+spec_version: v1.18
+identifier: ReflectiveVisors
+$kref: '#/ckan/spacedock/3496'
+license: MIT
+install:
+  - find: TextureReplacer
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
