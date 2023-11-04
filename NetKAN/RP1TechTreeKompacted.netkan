@@ -1,0 +1,10 @@
+spec_version: v1.18
+identifier: RP1TechTreeKompacted
+$kref: '#/ckan/spacedock/3495'
+license: CC-BY
+tags:
+  - tech-tree
+  - config
+depends:
+  - name: ModuleManager
+x_via: Automated SpaceDock CKAN submission
