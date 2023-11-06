@@ -1,0 +1,12 @@
+spec_version: v1.18
+identifier: KourageousTouristsL
+$kref: '#/ckan/spacedock/3206'
+$vref: '#/ckan/ksp-avc'
+license: Other
+tags:
+  - plugin
+  - config
+install:
+  - find: KourageousTourists
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
