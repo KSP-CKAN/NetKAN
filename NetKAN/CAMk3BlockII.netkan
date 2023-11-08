@@ -11,4 +11,8 @@ depends:
 install:
   - find: Cormorant Aeronology
     install_to: GameData
-    filter: Localizations
+    filter:
+      - Localizations
+      - Ships
+  - find: Ships/VAB
+    install_to: Ships
