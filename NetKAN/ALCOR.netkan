@@ -20,7 +20,7 @@ supports:
   - name: KeepFit
   - name: ConnectedLivingSpace
 conflicts:
-  - ALCORIVAPatch
+  - name: ALCORIVAPatch
 install:
   - find: ASET
     install_to: GameData
