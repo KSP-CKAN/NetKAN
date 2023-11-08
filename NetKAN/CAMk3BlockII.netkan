@@ -8,6 +8,9 @@ tags:
 depends:
   - name: ModuleManager
   - name: ShuttleLiftingBodyCormorantAeronology
+recommends:
+  - name: PersistentRotationUpgraded
+  - name: AtmosphereAutopilot
 install:
   - find: Cormorant Aeronology
     install_to: GameData
