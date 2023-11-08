@@ -1,0 +1,21 @@
+spec_version: v1.4
+identifier: CAMk3BlockII
+$kref: '#/ckan/spacedock/1513'
+x_netkan_epoch: 1
+license: CC-BY-NC-ND-4.0
+tags:
+  - parts
+depends:
+  - name: ModuleManager
+  - name: ShuttleLiftingBodyCormorantAeronology
+recommends:
+  - name: PersistentRotationUpgraded
+  - name: AtmosphereAutopilot
+install:
+  - find: Cormorant Aeronology
+    install_to: GameData
+    filter:
+      - Localizations
+      - Ships
+  - find: Ships/VAB
+    install_to: Ships
