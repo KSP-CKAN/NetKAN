@@ -1,0 +1,26 @@
+spec_version: v1.4
+identifier: ALCOR
+author:
+  - alexustas
+  - JonnyOThan
+$kref: '#/ckan/spacedock/3499'
+$vref: '#/ckan/ksp-avc'
+license: CC-BY-NC-SA-3.0
+tags:
+  - parts
+  - crewed
+depends:
+  - name: ModuleManager
+  - name: ASETAgency
+  - name: ASETProps
+recommends:
+  - name: FreeIva
+supports:
+  - name: KIS
+  - name: KeepFit
+  - name: ConnectedLivingSpace
+conflicts:
+  - name: ALCORIVAPatch
+install:
+  - find: ASET
+    install_to: GameData
