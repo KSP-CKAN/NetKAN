@@ -1,0 +1,12 @@
+spec_version: v1.18
+identifier: NomoreOPs
+$kref: '#/ckan/spacedock/3500'
+license: MIT
+tags:
+  - config
+depends:
+  - name: ModuleManager
+install:
+  - find: NoMoreOPs
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
