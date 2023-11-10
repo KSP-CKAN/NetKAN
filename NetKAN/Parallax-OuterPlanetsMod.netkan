@@ -1,15 +1,19 @@
 spec_version: v1.10
 identifier: Parallax-OuterPlanetsMod
-$kref: '#/ckan/spacedock/2958'
-license: CC-BY
+$kref: '#/ckan/spacedock/3501'
+x_netkan_force_v: true
+license: MIT
 tags:
   - config
+  - planet-pack
+  - graphics
 depends:
   - name: ModuleManager
   - name: Kopernicus
+  - name: OuterPlanetsMod
   - name: Parallax
   - name: Parallax-StockTextures
-  - name: OuterPlanetsMod
+  - name: Parallax-Scatter-Textures
 install:
   - find: OPM_Parallax
     install_to: GameData
