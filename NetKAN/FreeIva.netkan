@@ -35,7 +35,7 @@ supports:
   - name: MarkIVSpaceplaneSystem
   - name: B9
   - name: UniversalStorage2
-  - name: ALCORIVAPatch
+  - name: ALCOR
   - name: ProbeControlRoomRecontrolled
   - name: HabTech2
   - name: FelineUtilityRovers
@@ -58,3 +58,6 @@ supports:
   - name: Heisenberg
   - name: DeepFreeze
   - name: NearFutureLaunchVehicles
+  - name: TheLonesomeRobotsCollection
+  - name: Pathfinder
+  - name: ShuttleLiftingBodyCormorantAeronology
