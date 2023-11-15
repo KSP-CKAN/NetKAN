@@ -1,0 +1,18 @@
+spec_version: v1.18
+identifier: KerbalPublicRadioServiceKPRS
+$kref: '#/ckan/spacedock/3504'
+$vref: '#/ckan/ksp-avc'
+license: CC-BY-SA
+tags:
+  - parts
+  - plugin
+depends:
+  - name: SpaceTuxLibrary
+  - name: ToolbarController
+  - name: ClickThroughBlocker
+  - name: ModuleManager
+install:
+  - find: KPRS
+    install_to: GameData
+    filter_regexp: \.mdb$
+x_via: Automated SpaceDock CKAN submission
