@@ -7,6 +7,9 @@ tags:
   - parts
   - plugin
 depends:
+  - name: SpaceTuxLibrary
+  - name: ToolbarController
+  - name: ClickThroughBlocker
   - name: ModuleManager
 install:
   - find: KPRS
