@@ -1,7 +1,7 @@
 spec_version: v1.18
 identifier: DansSunflaresforRSS
 $kref: '#/ckan/spacedock/3465'
-license: MIT
+license: restricted
 tags:
   - config
 install:
