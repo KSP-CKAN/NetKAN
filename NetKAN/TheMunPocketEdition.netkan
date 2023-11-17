@@ -1,0 +1,9 @@
+spec_version: v1.18
+identifier: TheMunPocketEdition
+$kref: '#/ckan/spacedock/3430'
+license: MIT
+tags:
+  - parts
+install:
+  - find: GameData/MunPocketEdition
+    install_to: GameData
