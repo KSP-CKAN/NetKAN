@@ -1,7 +1,7 @@
 spec_version: v1.18
 identifier: DansSunflareStock
 $kref: '#/ckan/spacedock/3464'
-license: MIT
+license: restricted
 tags:
   - config
 install:
