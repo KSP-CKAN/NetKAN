@@ -4,7 +4,13 @@ $kref: '#/ckan/spacedock/3464'
 license: restricted
 tags:
   - config
+provides:
+  - Scatterer-sunflare
+depends:
+  - name: Scatterer
+conflicts:
+  - name: Scatterer-sunflare
 install:
-  - find: Dan's Sunflares
-    install_to: GameData
+  - find: Sunflares
+    install_to: GameData/Scatterer/config
 x_via: Automated SpaceDock CKAN submission
