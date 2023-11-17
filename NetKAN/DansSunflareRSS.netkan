@@ -1,0 +1,18 @@
+spec_version: v1.18
+identifier: DansSunflareRSS
+$kref: '#/ckan/spacedock/3465'
+license: restricted
+tags:
+  - config
+  - graphics
+provides:
+  - Scatterer-sunflare
+depends:
+  - name: Scatterer
+  - name: RealSolarSystem
+conflicts:
+  - name: Scatterer-sunflare
+install:
+  - find: Sunflares
+    install_to: GameData/Scatterer/config
+x_via: Automated SpaceDock CKAN submission
