@@ -1,0 +1,10 @@
+spec_version: v1.18
+identifier: MoarActionables
+$kref: '#/ckan/spacedock/3508'
+license: MIT
+tags:
+  - parts
+  - plugin
+depends:
+  - name: ModuleManager
+x_via: Automated SpaceDock CKAN submission
