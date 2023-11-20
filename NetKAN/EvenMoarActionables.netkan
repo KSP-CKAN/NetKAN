@@ -9,6 +9,8 @@ tags:
 depends:
   - name: ModuleManager
   - name: MoarActionables
-recommends:
+suggests:
   - name: IndicatorLights
+supports:
+  - name: MoarActionables
 x_via: Automated SpaceDock CKAN submission
