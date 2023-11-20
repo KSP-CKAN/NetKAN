@@ -1,0 +1,13 @@
+spec_version: v1.18
+identifier: DansTUFXProfile
+$kref: '#/ckan/spacedock/3510'
+license: MIT
+tags:
+  - graphics
+  - config
+depends:
+  - name: TUFX
+install:
+  - find: Dan's TUFX
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
