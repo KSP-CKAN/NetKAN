@@ -1,0 +1,12 @@
+spec_version: v1.18
+identifier: Aurorastation
+$kref: '#/ckan/spacedock/3374'
+license: MIT
+tags:
+  - buildings
+depends:
+  - name: KerbalKonstructs
+install:
+  - find: aurora station
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
