@@ -5,6 +5,8 @@ license: MIT
 tags:
   - parts
   - plugin
+  - control
+  - config
 depends:
   - name: ModuleManager
 x_via: Automated SpaceDock CKAN submission
