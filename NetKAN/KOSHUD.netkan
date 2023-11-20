@@ -1,13 +1,16 @@
-spec_version: v1.18
+spec_version: v1.29
 identifier: KOSHUD
 $kref: '#/ckan/spacedock/3497'
 license: MIT
 tags:
-  - config
   - control
 depends:
   - name: kOS
+  - name: kOSPropMonitor
+  - name: RasterPropMonitor
+recommends:
+  - name: kOSforAll
 install:
-  - find: Ships
-    install_to: GameData
+  - find: Script
+    install_to: Ships
 x_via: Automated SpaceDock CKAN submission
