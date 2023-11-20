@@ -6,6 +6,8 @@ tags:
   - config
 depends:
   - name: ModuleManager
+conflicts:
+  - name: RealismOverhaul
 install:
   - find: NoMoreOPs
     install_to: GameData
