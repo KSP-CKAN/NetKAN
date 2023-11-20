@@ -4,7 +4,6 @@ $kref: '#/ckan/spacedock/3374'
 license: MIT
 tags:
   - buildings
-  - config
 depends:
   - name: KerbalKonstructs
 install:
