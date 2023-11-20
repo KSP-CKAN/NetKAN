@@ -7,6 +7,9 @@ tags:
   - config
 depends:
   - name: KerbalKonstructs
+  - name: FossilsMechazilla
+  - name: StockalikeStructures
+  - name: TundraSpaceCenter
 install:
   - find: cape canavral
     install_to: GameData
