@@ -5,6 +5,10 @@ $vref: '#/ckan/ksp-avc'
 license: CC-BY-NC-SA
 tags:
   - parts
+  - control
 depends:
   - name: ModuleManager
+  - name: MoarActionables
+recommends:
+  - name: IndicatorLights
 x_via: Automated SpaceDock CKAN submission
