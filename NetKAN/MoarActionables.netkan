@@ -1,0 +1,14 @@
+spec_version: v1.18
+identifier: MoarActionables
+$kref: '#/ckan/spacedock/3508'
+license: MIT
+tags:
+  - parts
+  - plugin
+  - control
+  - config
+depends:
+  - name: ModuleManager
+suggests:
+  - name: IndicatorLights
+x_via: Automated SpaceDock CKAN submission
