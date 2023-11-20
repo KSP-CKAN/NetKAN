@@ -1,0 +1,13 @@
+spec_version: v1.18
+identifier: vandenburgspaceforcebase
+$kref: '#/ckan/spacedock/3378'
+license: MIT
+tags:
+  - buildings
+depends:
+  - name: KerbalKonstructs
+  - name: StockalikeStructures
+install:
+  - find: vandenburg
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
