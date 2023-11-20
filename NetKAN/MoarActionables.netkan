@@ -9,4 +9,6 @@ tags:
   - config
 depends:
   - name: ModuleManager
+suggests:
+  - name: IndicatorLights
 x_via: Automated SpaceDock CKAN submission
