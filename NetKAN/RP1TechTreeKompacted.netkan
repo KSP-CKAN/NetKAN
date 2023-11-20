@@ -8,4 +8,7 @@ tags:
 depends:
   - name: ModuleManager
   - name: RP-1
+install:
+  - find: RP1KompactedTechTree
+    install_to: GameData
 x_via: Automated SpaceDock CKAN submission
