@@ -4,9 +4,9 @@ $kref: '#/ckan/spacedock/3376'
 license: MIT
 tags:
   - buildings
-  - config
 depends:
   - name: KerbalKonstructs
+  - name: StockalikeStructures
 install:
   - find: soyuz site
     install_to: GameData
