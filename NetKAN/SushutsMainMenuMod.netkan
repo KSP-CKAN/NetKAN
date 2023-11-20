@@ -4,7 +4,7 @@ $kref: '#/ckan/spacedock/3507'
 license: MIT
 tags:
   - plugin
-  - config
+  - graphics
 install:
   - find: SushutsMainMenu
     install_to: GameData
