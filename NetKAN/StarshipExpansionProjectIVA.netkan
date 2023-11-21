@@ -12,6 +12,7 @@ license: restricted
 tags:
   - parts
 depends:
+  - name: ModuleManager
   - name: StarshipExpansionProject
   - name: NearFutureProps
   - name: Reviva
