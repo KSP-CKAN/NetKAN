@@ -9,7 +9,6 @@ depends:
   - name: ModuleManager
   - name: Kopernicus
 suggests:
-  - name: EnvironmentalVisualEnhancements
   - name: Scatterer
 install:
   - find: WaterMun
