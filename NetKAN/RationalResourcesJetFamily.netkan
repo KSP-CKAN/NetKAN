@@ -14,8 +14,8 @@ depends:
   - name: ModuleManager
   - name: B9PartSwitch
   - any_of:
-    - name: ClassicStockResources
-    - name: CommunityResourcePack
+      - name: ClassicStockResources
+      - name: CommunityResourcePack
 suggests:
   - name: CryoEngines
   - name: NearFutureAeronautics
