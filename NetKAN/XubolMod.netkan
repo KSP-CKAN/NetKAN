@@ -1,0 +1,18 @@
+spec_version: v1.18
+identifier: XubolMod
+$kref: '#/ckan/spacedock/3475'
+license: MIT
+tags:
+  - planet-pack
+depends:
+  - name: ModuleManager
+  - name: Kopernicus
+suggests:
+  - name: Scatterer
+  - name: Parallax
+  - name: DistantObject
+  - name: PlanetShine
+install:
+  - find: Xubol
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
