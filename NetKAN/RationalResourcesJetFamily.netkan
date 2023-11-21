@@ -1,0 +1,19 @@
+spec_version: v1.4
+identifier: RationalResourcesJetFamily
+name: Rational Resources Jet Family
+abstract: Enables fuel switching in air-breathing engines. A very welcome companion to cryo rocket systems.
+$kref: '#/ckan/spacedock/2201'
+$vref: '#/ckan/ksp-avc'
+license: MIT
+tags:
+  - config
+  - convenience
+depends:
+  - name: ModuleManager
+suggests:
+  - name: CryoEngines
+  - name: NearFutureAeronautics
+  - name: Mk2Expansion
+  - name: Mk3Expansion
+  - name: SXTContinued
+  - name: WaterDrinker
