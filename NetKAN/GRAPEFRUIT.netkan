@@ -1,0 +1,15 @@
+spec_version: v1.18
+identifier: GRAPEFRUIT
+$kref: '#/ckan/spacedock/3511'
+$vref: '#/ckan/ksp-avc'
+license: CC-BY-NC-SA
+tags:
+  - parts
+  - crewed
+  - plugin
+depends:
+  - name: ModuleManager
+install:
+  - find: GameData/GRAPEFRUIT
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
