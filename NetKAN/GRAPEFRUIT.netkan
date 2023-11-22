@@ -15,8 +15,3 @@ recommends:
 suggests:
   - name: ShuttleOrbiterConstructionKit
   - name: ConnectedLivingSpace
-install:
-  - find: GRAPEFRUIT
-    install_to: GameData
-  - find: SSPXrModuleOnly
-    install_to: GameData
