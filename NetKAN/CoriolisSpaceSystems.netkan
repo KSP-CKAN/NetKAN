@@ -1,0 +1,19 @@
+spec_version: v1.18
+identifier: CoriolisSpaceSystems
+$kref: '#/ckan/spacedock/2706'
+$vref: '#/ckan/ksp-avc'
+license: restricted
+tags:
+  - parts
+  - crewed
+depends:
+  - name: ModuleManager
+  - name: B9PartSwitch
+  - name: Benjee10-SharedAssets
+  - name: HabTechProps
+  - name: BreakingGround-DLC
+recommends:
+  - name: Waterfall
+install:
+  - find: Benjee10_stowaway
+    install_to: GameData
