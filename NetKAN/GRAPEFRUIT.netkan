@@ -10,6 +10,11 @@ tags:
 depends:
   - name: ModuleManager
   - name: NearFutureProps
+recommends:
+  - name: FreeIva
+suggests:
+  - name: ShuttleOrbiterConstructionKit
+  - name: ConnectedLivingSpace
 install:
   - find: GRAPEFRUIT
     install_to: GameData
