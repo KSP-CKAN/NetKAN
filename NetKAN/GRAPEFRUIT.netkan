@@ -9,6 +9,7 @@ tags:
   - plugin
 depends:
   - name: ModuleManager
+  - name: NearFutureProps
 install:
   - find: GRAPEFRUIT
     install_to: GameData
