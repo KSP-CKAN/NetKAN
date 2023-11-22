@@ -10,6 +10,7 @@ tags:
 depends:
   - name: ModuleManager
 install:
-  - find: GameData/GRAPEFRUIT
+  - find: GRAPEFRUIT
     install_to: GameData
-x_via: Automated SpaceDock CKAN submission
+  - find: SSPXrModuleOnly
+    install_to: GameData
