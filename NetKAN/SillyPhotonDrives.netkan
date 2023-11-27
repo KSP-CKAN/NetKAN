@@ -1,0 +1,12 @@
+spec_version: v1.18
+identifier: SillyPhotonDrives
+$kref: '#/ckan/spacedock/3513'
+license: CC-BY-SA
+tags:
+  - parts
+  - graphics
+depends:
+  - name: ModuleManager
+  - name: B9PartSwitch
+  - name: Waterfall
+x_via: Automated SpaceDock CKAN submission
