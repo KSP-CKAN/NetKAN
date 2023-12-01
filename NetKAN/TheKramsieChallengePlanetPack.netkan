@@ -9,6 +9,9 @@ tags:
 provides:
   - Scatterer-config
   - Scatterer-sunflare
+conflicts:
+  - name: Scatterer-config
+  - name: Scatterer-sunflare
 depends:
   - name: ModuleManager
   - name: Kopernicus
