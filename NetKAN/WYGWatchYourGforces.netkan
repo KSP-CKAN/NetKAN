@@ -7,6 +7,8 @@ tags:
   - config
 depends:
   - name: ModuleManager
+suggests:
+  - name: DeadlyReentry
 install:
   - find: WYG
     install_to: GameData
