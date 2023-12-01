@@ -1,7 +1,9 @@
 spec_version: v1.4
 identifier: Scatterer-config
 name: Scatterer Default Config
-abstract: The default configuration files for scatterer
+abstract: >-
+  Scatterer's default configuration.
+  If you're not sure which one to pick, pick this.
 $kref: '#/ckan/spacedock/141'
 x_netkan_force_v: true
 x_netkan_epoch: '3'
