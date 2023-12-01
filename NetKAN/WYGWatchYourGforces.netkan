@@ -5,6 +5,7 @@ $vref: '#/ckan/ksp-avc'
 license: MIT
 tags:
   - config
+  - crewed
 depends:
   - name: ModuleManager
 suggests:
