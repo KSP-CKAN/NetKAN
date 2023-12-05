@@ -1,0 +1,13 @@
+spec_version: v1.18
+identifier: Ev1lVaultBoysHistoricTechTree
+$kref: '#/ckan/spacedock/3518'
+$vref: '#/ckan/ksp-avc'
+license: CC-BY-NC-SA
+tags:
+  - config
+depends:
+  - name: ModuleManager
+install:
+  - find: ZZZ_HistoricTechTree
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
