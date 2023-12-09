@@ -1,0 +1,12 @@
+spec_version: v1.18
+identifier: FuelVentforRealPlume
+$kref: '#/ckan/spacedock/3520'
+license: MIT
+tags:
+  - parts
+depends:
+  - name: ModuleManager
+install:
+  - find: FuelVent-RP
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
