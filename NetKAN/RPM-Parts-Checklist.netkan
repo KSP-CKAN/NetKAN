@@ -1,0 +1,13 @@
+spec_version: v1.4
+identifier: RPM-Parts-Checklist
+$kref: '#/ckan/github/Fedex75/RPM_Parts_Checklist'
+ksp_version: '1.12.5'
+license: GPL-3.0
+tags:
+  - plugin
+  - crewed
+depends:
+  - name: ASETProps
+install:
+  - find: RPM_Parts_Checklist
+    install_to: GameData
