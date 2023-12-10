@@ -2,11 +2,13 @@ spec_version: v1.18
 identifier: Ev1lVaultBoysHistoricTechTree
 $kref: '#/ckan/spacedock/3518'
 $vref: '#/ckan/ksp-avc'
-license: CC-BY-NC-SA
+license: MIT
 tags:
+  - plugin
   - config
 depends:
   - name: ModuleManager
+  - name: CustomBarnKit
 install:
   - find: ZZZ_HistoricTechTree
     install_to: GameData
