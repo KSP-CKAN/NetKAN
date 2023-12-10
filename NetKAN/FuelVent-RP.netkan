@@ -1,0 +1,14 @@
+spec_version: v1.18
+identifier: FuelVent-RP
+$kref: '#/ckan/spacedock/3520'
+license: MIT
+tags:
+  - parts
+depends:
+  - name: ModuleManager
+  - name: SmokeScreen
+  - name: RealPlume
+install:
+  - find: FuelVent-RP
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
