@@ -2,6 +2,8 @@ spec_version: v1.18
 identifier: MattsFlagsAstrosFlags
 $kref: '#/ckan/spacedock/3521'
 license: MIT
+tags:
+  - flags
 install:
   - find: Matt's Flags
     install_to: GameData
