@@ -8,7 +8,7 @@ tags:
   - crewed
 depends:
   - name: ModuleManager
-suggests:
+conflicts:
   - name: DeadlyReentry
 install:
   - find: WYG
