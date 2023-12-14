@@ -11,6 +11,11 @@ depends:
   - name: Scatterer
 conflicts:
   - name: Scatterer-sunflare
+recommends:
+  - name: BetterKerbol
+  - name: BetterKerbolRescale
+suggests:
+  - name: EnvironmentalVisualEnhancements
 install:
   - find: Sunflares
     install_to: GameData/Scatterer/config
