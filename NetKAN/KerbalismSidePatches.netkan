@@ -1,5 +1,16 @@
 spec_version: v1.18
 identifier: KerbalismSidePatches
+$kref: '#/ckan/github/JadeOfMaar/KerbalismSidePatches'
+license: MIT
+tags:
+  - config
+  - convenience
+depends:
+  - name: ModuleManager
+  - name: Kerbalism
+---
+spec_version: v1.18
+identifier: KerbalismSidePatches
 $kref: '#/ckan/spacedock/3525'
 license: MIT
 tags:
