@@ -1,31 +1,25 @@
-{
-    "spec_version": "v1.4",
-    "identifier":   "ProbeControlRoomRecontrolled",
-    "$kref":        "#/ckan/spacedock/1558",
-    "$vref":        "#/ckan/ksp-avc",
-    "license":      "CC-BY-NC-SA-3.0",
-    "tags": [
-        "plugin",
-        "uncrewed"
-    ],
-    "install": [ {
-        "find": "ProbeControlRoom",
-        "install_to": "GameData"
-    } ],
-    "depends": [
-        { "name": "ModuleManager" },
-        { "name": "ToolbarController" },
-        { "name": "RasterPropMonitor-Core" }
-    ],
-    "conflicts": [
-        { "name": "ProbeControlRoom" }
-    ],
-    "suggests"    : [
-        { "name": "SCANSat" },
-        { "name": "VesselViewer" },
-        { "name": "MechJeb2" },
-        { "name": "DockingPortAlignment" },
-        { "name": "kOS" },
-        { "name": "KPS-AVC" }
-    ]
-}
+spec_version: v1.4
+identifier: ProbeControlRoomRecontrolled
+$kref: '#/ckan/spacedock/1558'
+$vref: '#/ckan/ksp-avc'
+license: CC-BY-NC-SA-3.0
+tags:
+  - plugin
+  - uncrewed
+  - first-person
+install:
+  - find: ProbeControlRoom
+    install_to: GameData
+depends:
+  - name: ModuleManager
+  - name: ToolbarController
+  - name: RasterPropMonitor-Core
+conflicts:
+  - name: ProbeControlRoom
+suggests:
+  - name: SCANSat
+  - name: VesselViewer
+  - name: MechJeb2
+  - name: DockingPortAlignment
+  - name: kOS
+  - name: KPS-AVC

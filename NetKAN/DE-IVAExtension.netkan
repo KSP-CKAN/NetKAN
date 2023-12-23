@@ -10,6 +10,7 @@ license: CC-BY-NC-SA-3.0
 tags:
   - config
   - crewed
+  - first-person
 depends:
   - name: ModuleManager
   - name: RasterPropMonitor-Core

@@ -1,32 +1,28 @@
-{
-    "spec_version": "v1.16",
-    "identifier":   "VesselView-UI-RasterPropMonitor",
-    "name":         "VesselView-UI-RasterPropMonitor",
-    "$kref":        "#/ckan/spacedock/923",
-    "$vref":        "#/ckan/ksp-avc/VesselView.version",
-    "x_netkan_epoch": 1,
-    "license":      "MIT",
-    "tags": [
-        "plugin",
-        "information",
-        "crewed"
-    ],
-    "depends": [
-        { "name" : "VesselView" },
-        { "name" : "ToolbarController" },
-        { "name" : "ClickThroughBlocker" },
-        { "name" : "RasterPropMonitor-Core" }
-    ],
-    "recommends": [
-        { "name": "RasterPropMonitor" }
-    ],
-    "provides": [
-        "VesselView-UI"
-    ],
-    "comment": "Providing but not conflicting is deliberate, as both UIs can be installed at the same time.",
-    "install": [ {
-        "find" : "VesselViewRPM.dll",
-        "find_matches_files" : true,
-        "install_to" : "GameData/VesselView/Plugins"
-    } ]
-}
+spec_version: v1.16
+identifier: VesselView-UI-RasterPropMonitor
+name: VesselView-UI-RasterPropMonitor
+$kref: '#/ckan/spacedock/923'
+$vref: '#/ckan/ksp-avc/VesselView.version'
+x_netkan_epoch: 1
+license: MIT
+tags:
+  - plugin
+  - information
+  - crewed
+  - first-person
+depends:
+  - name: VesselView
+  - name: ToolbarController
+  - name: ClickThroughBlocker
+  - name: RasterPropMonitor-Core
+recommends:
+  - name: RasterPropMonitor
+provides:
+  - VesselView-UI
+comment: >-
+  Providing but not conflicting is deliberate, as both UIs can be installed at
+  the same time.
+install:
+  - find: VesselViewRPM.dll
+    find_matches_files: true
+    install_to: GameData/VesselView/Plugins

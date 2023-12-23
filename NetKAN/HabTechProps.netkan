@@ -6,6 +6,7 @@ license: CC-BY-NC-ND-4.0
 tags:
   - config
   - crewed
+  - first-person
 install:
   - find: GameData/HabTechProps
     install_to: GameData

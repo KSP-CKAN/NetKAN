@@ -1,9 +1,8 @@
-{
-    "spec_version": "v1.4",
-    "identifier":   "StationPartsExpansionRedux-IVAs",
-    "$kref":        "#/ckan/netkan/https://github.com/post-kerbin-mining-corporation/StationPartsExpansionRedux/raw/master/CKAN/StationPartsExpansionRedux-IVAs.netkan",
-    "tags": [
-        "parts",
-        "crewed"
-    ]
-}
+spec_version: v1.4
+identifier: StationPartsExpansionRedux-IVAs
+$kref: >-
+  #/ckan/netkan/https://github.com/post-kerbin-mining-corporation/StationPartsExpansionRedux/raw/master/CKAN/StationPartsExpansionRedux-IVAs.netkan
+tags:
+  - parts
+  - crewed
+  - first-person

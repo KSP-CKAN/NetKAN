@@ -12,6 +12,7 @@ resources:
 tags:
   - config
   - crewed
+  - first-person
 depends:
   - name: ModuleManager
   - name: RasterPropMonitor

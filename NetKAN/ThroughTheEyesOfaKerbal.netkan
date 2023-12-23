@@ -1,15 +1,12 @@
-{
-    "spec_version": "v1.4",
-    "identifier":   "ThroughTheEyesOfaKerbal",
-    "$kref":        "#/ckan/spacedock/1560",
-    "$vref":        "#/ckan/ksp-avc",
-    "license":      "GPL-3.0",
-    "tags": [
-        "plugin",
-        "crewed"
-    ],
-    "install": [ {
-        "find": "ThroughTheEyes",
-        "install_to": "GameData"
-    } ]
-}
+spec_version: v1.4
+identifier: ThroughTheEyesOfaKerbal
+$kref: '#/ckan/spacedock/1560'
+$vref: '#/ckan/ksp-avc'
+license: GPL-3.0
+tags:
+  - plugin
+  - crewed
+  - first-person
+install:
+  - find: ThroughTheEyes
+    install_to: GameData

@@ -11,6 +11,7 @@ tags:
   - config
   - library
   - crewed
+  - first-person
 install:
   - find: ASET
     install_to: GameData
