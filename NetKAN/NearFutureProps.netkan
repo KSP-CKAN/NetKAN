@@ -1,10 +1,9 @@
-{
-    "spec_version": "v1.4",
-    "identifier":   "NearFutureProps",
-    "$kref": "#/ckan/netkan/https://raw.githubusercontent.com/post-kerbin-mining-corporation/NearFutureProps/master/CKAN/NearFutureProps.netkan",
-    "tags": [
-        "config",
-        "crewed",
-        "library"
-    ]
-}
+spec_version: v1.4
+identifier: NearFutureProps
+$kref: >-
+  #/ckan/netkan/https://raw.githubusercontent.com/post-kerbin-mining-corporation/NearFutureProps/master/CKAN/NearFutureProps.netkan
+tags:
+  - config
+  - crewed
+  - library
+  - first-person

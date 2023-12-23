@@ -10,6 +10,7 @@ tags:
   - plugin
   - config
   - crewed
+  - first-person
 depends:
   - name: B9PartSwitch
   - name: ModuleManager

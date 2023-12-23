@@ -14,6 +14,7 @@ x_netkan_force_v: true
 tags:
   - config
   - crewed
+  - first-person
 depends:
   - name: ModuleManager
   - name: RasterPropMonitor-Core

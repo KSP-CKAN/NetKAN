@@ -11,6 +11,8 @@ ksp_version_min: '1.12'
 license: restricted
 tags:
   - parts
+  - crewed
+  - first-person
 depends:
   - name: ModuleManager
   - name: StarshipExpansionProject

@@ -5,6 +5,7 @@ license: CC-BY-NC-SA
 tags:
   - config
   - crewed
+  - first-person
 depends:
   - name: ModuleManager
 install:

@@ -5,6 +5,7 @@ license: CC-BY-4.0
 tags:
   - config
   - crewed
+  - first-person
 depends:
   - name: ModuleManager
   - name: ASETAvionics

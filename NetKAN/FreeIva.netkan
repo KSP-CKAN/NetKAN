@@ -10,6 +10,7 @@ license: GPL-2.0
 tags:
   - plugin
   - crewed
+  - first-person
 depends:
   - name: ModuleManager
 recommends:
