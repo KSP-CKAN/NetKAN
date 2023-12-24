@@ -11,6 +11,9 @@ depends:
   - name: AnimatedDecouplers
   - name: Benjee10-SharedAssets
   - name: HabTechProps
+  - name: DeployableEngines
+  - name: CommunityResourcePack
+  - name: SimpleAdjustableFairings
 recommends:
   - name: Shabby
   - name: Shaddy
