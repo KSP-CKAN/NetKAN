@@ -12,15 +12,8 @@ depends:
   - name: RealPlume
   - name: RealPlume-StockConfigs
   - name: SmokeScreen
-recommends:
+suggests:
   - name: AudioMufflerRedux
-  - name: ReStock
-  - name: BluedogDB
-  - name: GemstoneLV
-  - name: NewTantaresLV
-  - name: NewTantares
-  - name: ChrayolDesignOrg
-  - name: CRE
   - name: TUFX
 install:
   - find: RSMP
