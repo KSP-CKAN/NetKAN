@@ -10,3 +10,4 @@ tags:
 depends:
   - name: ModuleManager
   - name: ToolbarController
+  - name: SpaceTuxLibrary
