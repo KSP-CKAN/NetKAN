@@ -17,6 +17,5 @@ recommends:
 suggests:
   - name: EnvironmentalVisualEnhancements
 install:
-  - find: Sunflares
-    install_to: GameData/Scatterer/config
-x_via: Automated SpaceDock CKAN submission
+  - find: "Dan's Sunflares"
+    install_to: GameData
