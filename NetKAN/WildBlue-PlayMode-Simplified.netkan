@@ -23,6 +23,7 @@ provides:
   - KerbalKomets-PlayMode
 conflicts:
   - name: WildBlue-PlayMode
+  - name: CommunityResourcePack
 install:
   - find: 000WildBlueTools/Templates/Simplified/Storage/OmniStorage.txt
     install_to: GameData/WildBlueIndustries/000WildBlueTools/Templates/Simplified/Storage
