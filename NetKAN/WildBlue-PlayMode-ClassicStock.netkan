@@ -23,7 +23,8 @@
         "WildBlue-PlayMode"
     ],
     "conflicts": [
-        { "name": "WildBlue-PlayMode" }
+        { "name": "WildBlue-PlayMode" },
+        { "name": "CommunityResourcePack" }
     ],
     "install": [ {
         "find":       "000WildBlueTools/Templates/ClassicStock",
