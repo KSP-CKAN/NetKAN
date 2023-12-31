@@ -21,6 +21,7 @@ provides:
   - KerbalKomets-PlayMode
 conflicts:
   - name: WildBlue-PlayMode
+  - name: CommunityResourcePack
 install:
   - find: 000WildBlueTools/Templates/Pristine/MM_Pristine.txt
     install_to: GameData/WildBlueIndustries/000WildBlueTools/Templates/Pristine
