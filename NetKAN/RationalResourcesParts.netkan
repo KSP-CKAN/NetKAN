@@ -11,5 +11,5 @@ tags:
   - resources
 depends:
   - name: ModuleManager
+recommends:
   - name: RationalResources
-  - name: RationalResourcesCompanion
