@@ -10,8 +10,8 @@ tags:
 depends:
   - name: ModuleManager
 recommends:
-  - name: CommunityResourcePack
   - name: ClassicStockResources
+  - name: CommunityResourcePack
   - name: RationalResourcesCompanion
   - name: SCANsat
 suggests:
