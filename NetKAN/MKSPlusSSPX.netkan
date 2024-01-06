@@ -1,0 +1,13 @@
+spec_version: v1.18
+identifier: MKSPlusSSPX
+$kref: '#/ckan/spacedock/3539'
+license: GPL-3.0
+tags:
+  - crewed
+  - first-person
+  - parts
+  - plugin
+depends:
+  - name: ModuleManager
+  - name: B9PartSwitch
+x_via: Automated SpaceDock CKAN submission
