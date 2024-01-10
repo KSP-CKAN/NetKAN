@@ -4,6 +4,7 @@ $kref: '#/ckan/spacedock/3343'
 license: MIT
 tags:
   - config
+  - graphics
 depends:
   - name: ModuleManager
 install:
