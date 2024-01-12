@@ -1,0 +1,14 @@
+spec_version: v1.18
+identifier: Distantskies
+$kref: '#/ckan/spacedock/3544'
+license: CC-BY-SA
+tags:
+  - config
+  - planet-pack
+depends:
+  - name: ModuleManager
+  - name: Kopernicus
+install:
+  - find: Distant Skies
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
