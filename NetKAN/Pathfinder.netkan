@@ -19,6 +19,7 @@ depends:
   - name: ModuleManager
   - name: KerbalActuators
   - name: WildBlueTools
+  - name: ClassicStockResources
 recommends:
   - name: KAS
   - name: KIS
@@ -36,5 +37,3 @@ install:
       - Templates
   - find: Pathfinder/Templates/Common
     install_to: GameData/WildBlueIndustries/Pathfinder/Templates
-  - file: GameData/WBIPlayMode.cfg
-    install_to: GameData

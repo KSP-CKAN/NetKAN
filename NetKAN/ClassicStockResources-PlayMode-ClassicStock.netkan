@@ -1,0 +1,28 @@
+spec_version: v1.24
+identifier: ClassicStockResources-PlayMode-ClassicStock
+name: Classic Stock Resources Classic Stock Play Mode
+author: Angel-125
+$kref: '#/ckan/github/Angel-125/ClassicStockResources'
+$vref: '#/ckan/ksp-avc'
+license: GPL-3.0
+resources:
+  homepage: https://github.com/Angel-125/ClassicStockResources
+tags:
+  - library
+  - resources
+provides:
+  - ClassicStockResources-PlayMode
+conflicts:
+  - name: CommunityResourcePack
+  - name: ClassicStockResources-PlayMode
+depends:
+  - name: ModuleManager
+  - name: ClassicStockResources
+  - name: WildBlue-PlayMode-ClassicStock
+install:
+  - find: ClassicStockResources/Templates
+    include_only:
+      - Storage
+      - Utility
+      - Production
+    install_to: GameData/WildBlueIndustries/ClassicStockResources

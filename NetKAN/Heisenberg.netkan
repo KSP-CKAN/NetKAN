@@ -18,6 +18,7 @@ depends:
   - name: Heisenberg-PlayMode
   - name: ModuleManager
   - name: WildBlueTools
+  - name: ClassicStockResources
   - name: HooliganLabsAirships
   - name: KerbalActuators
 recommends:

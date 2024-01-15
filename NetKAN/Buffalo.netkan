@@ -1,49 +1,42 @@
-{
-    "spec_version": "v1.4",
-    "identifier":   "Buffalo",
-    "name":         "Buffalo",
-    "author":       "Angel-125",
-    "$kref":        "#/ckan/github/Angel-125/Buffalo",
-    "$vref":        "#/ckan/ksp-avc",
-    "x_netkan_staging": true,
-    "x_netkan_staging_reason": "Make sure that no new play modes were added to the Templates folder",
-    "license":      "GPL-3.0",
-    "resources": {
-        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/122617-*"
-    },
-    "tags": [
-        "parts",
-        "crewed"
-    ],
-    "depends": [
-        { "name": "Buffalo-PlayMode" },
-        { "name": "ModuleManager"    },
-        { "name": "WildBlueTools"    },
-        { "name": "KerbalActuators"  }
-    ],
-    "supports": [
-        { "name": "ConnectedLivingSpace" },
-        { "name": "TACLS"                },
-        { "name": "USI-LS"               },
-        { "name": "Snacks"               }
-    ],
-    "recommends": [
-        { "name": "Snacks"                   },
-        { "name": "ExtraPlanetaryLaunchpads" },
-        { "name": "KIS"                      },
-        { "name": "KAS"                      },
-        { "name": "ASET"                     },
-        { "name": "ASETAvionics"             }
-    ],
-    "install": [ {
-        "find":       "Buffalo",
-        "install_to": "GameData/WildBlueIndustries",
-        "filter":     [ "Ships", "Templates" ]
-    }, {
-        "find":       "Buffalo/Templates/Common",
-        "install_to": "GameData/WildBlueIndustries/Buffalo/Templates"
-    }, {
-        "find":       "Ships/SPH",
-        "install_to": "Ships"
-    } ]
-}
+spec_version: v1.4
+identifier: Buffalo
+name: Buffalo
+author: Angel-125
+$kref: '#/ckan/github/Angel-125/Buffalo'
+$vref: '#/ckan/ksp-avc'
+x_netkan_staging: true
+x_netkan_staging_reason: Make sure that no new play modes were added to the Templates folder
+license: GPL-3.0
+resources:
+  homepage: http://forum.kerbalspaceprogram.com/index.php?/topic/122617-*
+tags:
+  - parts
+  - crewed
+depends:
+  - name: Buffalo-PlayMode
+  - name: ModuleManager
+  - name: WildBlueTools
+  - name: ClassicStockResources
+  - name: KerbalActuators
+supports:
+  - name: ConnectedLivingSpace
+  - name: TACLS
+  - name: USI-LS
+  - name: Snacks
+recommends:
+  - name: Snacks
+  - name: ExtraPlanetaryLaunchpads
+  - name: KIS
+  - name: KAS
+  - name: ASET
+  - name: ASETAvionics
+install:
+  - find: Buffalo
+    install_to: GameData/WildBlueIndustries
+    filter:
+      - Ships
+      - Templates
+  - find: Buffalo/Templates/Common
+    install_to: GameData/WildBlueIndustries/Buffalo/Templates
+  - find: Ships/SPH
+    install_to: Ships
