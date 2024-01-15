@@ -19,6 +19,7 @@ provides:
   - WildBlue-PlayMode
   - Buffalo-PlayMode
   - KerbalKomets-PlayMode
+  - ClassicStockResources-PlayMode
 conflicts:
   - name: WildBlue-PlayMode
   - name: CommunityResourcePack

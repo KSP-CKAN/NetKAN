@@ -13,7 +13,10 @@ conflicts:
   - name: CommunityResourcePack
 depends:
   - name: ModuleManager
-  - name: WildBlue-PlayMode-ClassicStock
+  - name: ClassicStockResources-PlayMode
 install:
   - find: ClassicStockResources
     install_to: GameData/WildBlueIndustries
+    filter: Templates
+  - find: ClassicStockResources/Templates/Common
+    install_to: GameData/WildBlueIndustries/ClassicStockResources/Templates
