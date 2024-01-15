@@ -9,8 +9,6 @@ resources:
 tags:
   - library
   - resources
-conflicts:
-  - name: CommunityResourcePack
 depends:
   - name: ModuleManager
   - name: ClassicStockResources-PlayMode
