@@ -1,0 +1,19 @@
+spec_version: v1.27
+identifier: XenonISRU
+name: XenonISRU
+abstract: A tiny MM patch that adds Xenon Gas to Vanilla ISRUs in Kerbal space program
+author:
+  - A.T.L.A.S
+license: MIT
+version: '1.0'
+$kref: '#/ckan/github/A-T-L-A-S/XenonGas-ISRU'
+release_status: stable
+resources:
+  homepage: https://github.com/A-T-L-A-S/XenonGas-ISRU/tree/v.1.0
+  repository: https://github.com/A-T-L-A-S/XenonGas-ISRU/tree/v.1.0
+tags:
+  - config
+  - resources
+ksp_version: any
+depends:
+  - name: ModuleManager
