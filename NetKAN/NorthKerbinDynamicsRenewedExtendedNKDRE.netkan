@@ -1,0 +1,18 @@
+spec_version: v1.18
+identifier: NorthKerbinDynamicsRenewedExtendedNKDRE
+$kref: '#/ckan/spacedock/3551'
+license: CC-BY-SA
+tags:
+  - parts
+install:
+  - find: NKDR
+    install_to: GameData
+    filter: .DS_Store
+    filter_regexp: \.craft$
+  - file: GameData/NKDR/Craft/SPH/Kraken 5.craft
+    install_to: Ships/SPH
+  - file: GameData/NKDR/Craft/SPH/Ностра А-7.craft
+    install_to: Ships/SPH
+  - file: GameData/NKDR/Craft/VAB/SICBM.craft
+    install_to: Ships/VAB
+x_via: Automated SpaceDock CKAN submission
