@@ -1,0 +1,10 @@
+spec_version: v1.18
+identifier: VertexHeightOblateAdvanced
+$kref: '#/ckan/spacedock/3543'
+license: MIT
+tags:
+  - plugin
+install:
+  - find: 000_DuckweedUtils
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
