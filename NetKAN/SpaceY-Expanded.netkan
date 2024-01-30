@@ -1,17 +1,16 @@
-{
-    "spec_version" : 1,
-    "identifier"   : "SpaceY-Expanded",
-    "$kref"        : "#/ckan/spacedock/89",
-    "$vref"        : "#/ckan/ksp-avc",
-    "license"      : "CC-BY-NC-SA-4.0",
-    "tags": [
-        "parts"
-    ],
-    "depends": [
-        { "name": "SpaceY-Lifters" },
-        { "name": "ModuleManager" }
-    ],
-    "recommends": [
-        { "name": "InterstellarFuelSwitch-Core" }
-    ]
-}
+spec_version: v1.18
+identifier: SpaceY-Expanded
+$kref: '#/ckan/spacedock/89'
+license: CC-BY-NC-SA
+$vref: '#/ckan/ksp-avc'
+tags:
+  - parts
+  - plugin
+depends:
+  - name: ModuleManager
+  - name: SpaceY-Lifters
+recommends:
+  - name: InterstellarFuelSwitch-Core
+install:
+  - find: SpaceY/SpaceYExpanded
+    install_to: GameData/SpaceY
