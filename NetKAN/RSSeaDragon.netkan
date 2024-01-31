@@ -22,11 +22,13 @@
         { "name": "CommunityTechTree"       }
     ],
     "install": [ {
-        "file"       : "RSSeaDragon",
-        "install_to" : "GameData",
-        "filter"     : "Ships"
+        "file"       : "GameData/NecroBones",
+        "install_to" : "GameData"
     }, {
         "find"       : "VAB",
+        "install_to" : "Ships"
+    }, {
+        "find"       : "SPH",
         "install_to" : "Ships"
     } ]
 }
