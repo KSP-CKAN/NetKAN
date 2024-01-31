@@ -22,7 +22,7 @@
         { "name": "CommunityTechTree"       }
     ],
     "install": [ {
-        "file"       : "NecroBones",
+        "file"       : "GameData/NecroBones",
         "install_to" : "GameData"
     }, {
         "find"       : "VAB",
