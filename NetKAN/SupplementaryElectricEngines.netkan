@@ -8,6 +8,7 @@ tags:
 depends:
   - name: ModuleManager
   - name: Waterfall
+  - name: B9PartSwitch
 install:
   - find: SupplementaryElectricEngines
     install_to: GameData
