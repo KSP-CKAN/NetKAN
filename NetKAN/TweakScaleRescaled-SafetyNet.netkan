@@ -12,5 +12,5 @@ author:
 tags:
   - plugin
 install:
-  - find: GameData/TSSafetyNet
+  - file: GameData/TSSafetyNet
     install_to: GameData
