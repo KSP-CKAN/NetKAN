@@ -16,7 +16,6 @@ depends:
   - name: DSEV-PlayMode
   - name: ModuleManager
   - name: WildBlueTools
-  - name: ClassicStockResources
   - name: NearFutureProps
   - name: KerbalActuators
 recommends:
