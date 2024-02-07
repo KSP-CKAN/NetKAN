@@ -19,7 +19,9 @@ depends:
   - name: ModuleManager
   - name: KerbalActuators
   - name: WildBlueTools
-  - name: ClassicStockResources
+  - any_of:
+      - name: ClassicStockResources
+      - name: CommunityResourcePack
 recommends:
   - name: KAS
   - name: KIS
