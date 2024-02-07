@@ -1,12 +1,14 @@
-{
-    "spec_version": "v1.4",
-    "identifier":   "KourageousTourists",
-    "$kref":        "#/ckan/spacedock/1613",
-    "$vref":        "#/ckan/ksp-avc",
-    "license":      "MIT",
-    "tags": [
-        "plugin",
-        "crewed",
-        "career"
-    ]
-}
+spec_version: v1.18
+identifier: KourageousTourists
+author:
+  - whale_2
+  - Lisias
+$kref: '#/ckan/spacedock/3206'
+$vref: '#/ckan/ksp-avc'
+license:
+  - GPL-2.0
+  - restricted
+tags:
+  - plugin
+  - crewed
+  - career
