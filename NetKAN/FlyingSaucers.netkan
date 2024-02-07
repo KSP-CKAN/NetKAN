@@ -14,6 +14,9 @@ depends:
   - name: NearFutureProps
   - name: WildBlueTools
   - name: KerbalActuators
+  - any_of:
+      - name: ClassicStockResources
+      - name: CommunityResourcePack
 recommends:
   - name: ExtraPlanetaryLaunchpads
 suggests:
