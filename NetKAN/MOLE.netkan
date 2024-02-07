@@ -16,7 +16,6 @@ depends:
   - name: MOLE-PlayMode
   - name: ModuleManager
   - name: WildBlueTools
-  - name: ClassicStockResources
   - name: KerbalActuators
 recommends:
   - name: ASETProps
