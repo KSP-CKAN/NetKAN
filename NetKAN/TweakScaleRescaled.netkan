@@ -1,8 +1,6 @@
 spec_version: v1.18
 identifier: TweakScaleRescaled
 name: TweakScale Rescaled
-abstract: >-
-  Rescale parts in the vessel editor.  More features, fewer bugs.
 $kref: '#/ckan/spacedock/3514'
 $vref: '#/ckan/ksp-avc/GameData/TweakScale/TweakScale.version'
 release_status: testing
