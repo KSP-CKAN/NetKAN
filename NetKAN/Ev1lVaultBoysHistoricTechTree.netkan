@@ -1,11 +1,10 @@
 spec_version: v1.18
 identifier: Ev1lVaultBoysHistoricTechTree
 $kref: '#/ckan/spacedock/3518'
-$vref: '#/ckan/ksp-avc'
 license: MIT
 tags:
-  - plugin
   - config
+  - tech-tree
 depends:
   - name: ModuleManager
   - name: CustomBarnKit
