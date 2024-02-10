@@ -7,7 +7,7 @@ tags:
   - flags
   - combat
 depends:
-  - BDArmoryForRunwayProject
+  - name: BDArmoryForRunwayProject
 install:
   - find: NKDR
     install_to: GameData
