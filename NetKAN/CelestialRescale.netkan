@@ -1,0 +1,11 @@
+spec_version: v1.34
+identifier: CelestialRescale
+$kref: '#/ckan/spacedock/3559'
+license: All-Rights-Reserved
+tags:
+  - plugin
+install:
+  - find: CelestialRescale
+    install_to: GameData
+    filter_regexp: \.pdb$
+x_via: Automated SpaceDock CKAN submission
