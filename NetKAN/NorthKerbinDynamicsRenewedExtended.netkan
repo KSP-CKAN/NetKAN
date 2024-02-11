@@ -1,0 +1,20 @@
+spec_version: v1.18
+identifier: NorthKerbinDynamicsRenewedExtended
+$kref: '#/ckan/spacedock/3551'
+license: CC-BY-SA
+tags:
+  - parts
+  - flags
+  - combat
+depends:
+  - name: BDArmoryForRunwayProject
+install:
+  - find: NKDR
+    install_to: GameData
+    filter:
+      - .DS_Store
+      - Craft
+  - find: Craft/VAB
+    install_to: Ships
+  - find: Craft/SPH
+    install_to: Ships
