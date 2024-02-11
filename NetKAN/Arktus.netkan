@@ -9,4 +9,6 @@ depends:
   - name: ModuleManager
   - name: Kopernicus
   - name: VertexMitchellNetravaliHeightMap
+  - name: EnvironmentalVisualEnhancements
+  - name: Scatterer
 x_via: Automated SpaceDock CKAN submission
