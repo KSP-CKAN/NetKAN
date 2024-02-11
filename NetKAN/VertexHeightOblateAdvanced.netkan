@@ -1,0 +1,14 @@
+spec_version: v1.18
+identifier: VertexHeightOblateAdvanced
+$kref: '#/ckan/spacedock/3543'
+license: MIT
+tags:
+  - plugin
+  - library
+depends:
+  - name: ModuleManager
+  - name: Kopernicus
+install:
+  - find: VertexHeightOblateAdvanced
+    install_to: GameData/000_DuckweedUtils
+x_via: Automated SpaceDock CKAN submission
