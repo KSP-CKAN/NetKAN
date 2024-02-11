@@ -1,5 +1,20 @@
 spec_version: v1.34
 identifier: CelestialRescale
+$kref: '#/ckan/github/SpaceNerd24/Celestial-Rescale'
+license: All-Rights-Reserved
+tags:
+  - plugin
+install:
+  - find: CelestialRescale
+    install_to: GameData
+    filter_regexp: \.pdb$
+x_netkan_version_edit:
+  find: ^v
+  replace: ''
+  strict: 'false'
+---
+spec_version: v1.34
+identifier: CelestialRescale
 $kref: '#/ckan/spacedock/3559'
 license: All-Rights-Reserved
 tags:
