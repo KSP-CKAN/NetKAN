@@ -4,7 +4,11 @@ $kref: '#/ckan/spacedock/3543'
 license: MIT
 tags:
   - plugin
+  - library
+depends:
+  - name: ModuleManager
+  - name: Kopernicus
 install:
-  - find: 000_DuckweedUtils
-    install_to: GameData
+  - find: VertexHeightOblateAdvanced
+    install_to: GameData/000_DuckweedUtils
 x_via: Automated SpaceDock CKAN submission
