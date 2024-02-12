@@ -1,0 +1,14 @@
+spec_version: v1.27
+identifier: BetterRocketDesigns
+$kref: '#/ckan/github/Bloodsucker/ksp-better-rocket-designs'
+ksp_version: '1.12.5'
+license: LGPL-3.0
+resources:
+  x_screenshot: >-
+    https://raw.githubusercontent.com/Bloodsucker/ksp-better-rocket-designs/develop/res/save-as.png
+tags:
+  - plugin
+  - convenience
+  - editor
+depends:
+  - name: ClickThroughBlocker
