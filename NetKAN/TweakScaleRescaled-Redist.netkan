@@ -24,3 +24,5 @@ provides:
 install:
   - file: GameData/999_Scale_Redist.dll
     install_to: GameData
+  - file: GameData/999_Scale_Redist.version
+    install_to: GameData
