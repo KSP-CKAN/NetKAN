@@ -1,0 +1,28 @@
+spec_version: v1.18
+identifier: TweakScaleRescaled-Redist
+name: TweakScale Rescaled Redistributable
+abstract: >-
+  Provides a mechanism for other mods to interact with TweakScaleRescaled.
+  This plugin has no overhead when TweakScaleRescaled is not installed.
+$kref: '#/ckan/spacedock/3514'
+$vref: '#/ckan/ksp-avc/GameData/999_Scale_Redist.version'
+release_status: stable
+license: CC-BY-NC-SA
+author:
+  - Biotronic
+  - pellinor
+  - JonnyOThan
+tags:
+  - plugin
+  - library
+recommends:
+  - name: TweakScaleRescaled
+conflicts:
+  - name: TweakScale-Redist
+provides:
+  - TweakScale-Redist
+install:
+  - file: GameData/999_Scale_Redist.dll
+    install_to: GameData
+  - file: GameData/999_Scale_Redist.version
+    install_to: GameData
