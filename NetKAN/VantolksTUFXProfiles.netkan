@@ -6,7 +6,7 @@ tags:
   - config
   - graphics
 depends:
-  - TUFX
+  - name: TUFX
 install:
   - file: Vant_Experimental_Profiles.cfg
     install_to: GameData/VantolksTUFXProfiles
