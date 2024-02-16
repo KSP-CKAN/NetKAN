@@ -7,6 +7,9 @@ tags:
   - graphics
 depends:
   - name: TUFX
+recommends:
+  - name: Scatterer
+  - name: EnvironmentalVisualEnhancements
 install:
   - file: Vant_Experimental_Profiles.cfg
-    install_to: GameData/VantolksTUFXProfiles
+    install_to: GameData/TUFX/Profiles
