@@ -1,0 +1,8 @@
+spec_version: v1.34
+identifier: vantolkstufxprofiles
+$kref: '#/ckan/spacedock/3561'
+license: MIT
+install:
+  - find: ''
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
