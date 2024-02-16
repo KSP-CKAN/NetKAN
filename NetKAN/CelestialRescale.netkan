@@ -1,0 +1,21 @@
+spec_version: v1.34
+identifier: CelestialRescale
+$kref: '#/ckan/github/SpaceNerd24/Celestial-Rescale'
+license: restricted
+tags:
+  - plugin
+install:
+  - find: CelestialRescale
+    install_to: GameData
+    filter_regexp: \.pdb$
+---
+spec_version: v1.34
+identifier: CelestialRescale
+$kref: '#/ckan/spacedock/3559'
+license: restricted
+tags:
+  - plugin
+install:
+  - find: CelestialRescale
+    install_to: GameData
+    filter_regexp: \.pdb$
