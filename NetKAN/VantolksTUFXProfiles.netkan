@@ -1,0 +1,15 @@
+spec_version: v1.34
+identifier: VantolksTUFXProfiles
+$kref: '#/ckan/spacedock/3561'
+license: MIT
+tags:
+  - config
+  - graphics
+depends:
+  - name: TUFX
+recommends:
+  - name: Scatterer
+  - name: EnvironmentalVisualEnhancements
+install:
+  - file: Vant_Experimental_Profiles.cfg
+    install_to: GameData/TUFX/Profiles
