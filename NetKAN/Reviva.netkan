@@ -2,7 +2,9 @@ spec_version: v1.4
 identifier: Reviva
 name: Reviva
 abstract: Dynamic switching between multiple IVAs in editor and in-flight
-author: 610yesnolovely (Harvey Thompson)
+author: 
+  - 610yesnolovely (Harvey Thompson)
+  - JonnyOThan
 $kref: '#/ckan/github/harveyt/reviva'
 ksp_version: 1.12
 license: MIT
@@ -14,18 +16,25 @@ tags:
 depends:
   - name: B9PartSwitch
   - name: ModuleManager
-  - name: RasterPropMonitor
 recommends:
-  - name: DE-IVAExtension
+  - name: ASETProps
 suggests:
-  - name: AvionicsSystems
   - name: Mk1CockpitIVAReplbyASET
   - name: Mk1LanderCanIVAReplbyASET
   - name: MK12PodIVAReplacementbyASET
-supports:
-  - name: RasterPropMonitor
+  - nmae: AirplanePlus
+  - name: KSAIVAUpgrade
   - name: DE-IVAExtension
   - name: AvionicsSystems
+  - name: RasterPropMonitor
+  - name: StarilexMk1NeedleIVA
+supports:
   - name: Mk1CockpitIVAReplbyASET
   - name: Mk1LanderCanIVAReplbyASET
   - name: MK12PodIVAReplacementbyASET
+  - nmae: AirplanePlus
+  - name: KSAIVAUpgrade
+  - name: DE-IVAExtension
+  - name: AvionicsSystems
+  - name: RasterPropMonitor
+  - name: StarilexMk1NeedleIVA
