@@ -16,6 +16,9 @@ tags:
 depends:
   - name: B9PartSwitch
   - name: ModuleManager
+  - any_of:
+      - name: RasterPropMonitor-Core
+      - name: AvionicsSystems
 recommends:
   - name: ASETProps
 suggests:
