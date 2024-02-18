@@ -1,0 +1,30 @@
+spec_version: v1.34
+identifier: WeatherDrivenSolarPanel
+$kref: '#/ckan/github/Aebestach/WeatherDrivenSolarPanel'
+license: GPL-3.0
+tags:
+  - config
+  - plugin
+depends:
+  - name: ModuleManager
+install:
+  - find: GameData/WeatherDrivenSolarPanel
+    install_to: GameData
+x_netkan_version_edit:
+  find: ^v
+  replace: ''
+  strict: 'false'
+---
+spec_version: v1.34
+identifier: WeatherDrivenSolarPanel
+$kref: '#/ckan/spacedock/3556'
+license: GPL-3.0
+tags:
+  - config
+  - plugin
+depends:
+  - name: ModuleManager
+install:
+  - find: GameData/WeatherDrivenSolarPanel
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
