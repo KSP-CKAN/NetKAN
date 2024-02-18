@@ -1,0 +1,17 @@
+spec_version: v1.4
+identifier: JNSQ-PartRebalancer-10x
+name: JNSQ PartRebalancer 10x
+abstract: Rebalances the mass of parts and the density of propellants to give rockets more life-like mass ratios
+$kref: '#/ckan/netkan/https://raw.githubusercontent.com/Galileo88/JNSQ/master/CKAN/JNSQ.netkan'
+tags:
+  - config
+  - planet-pack
+provides: []
+depends:
+  - name: ModuleManager
+  - name: JNSQ-Rescale-10x
+suggests: []
+conflicts: []
+install:
+  - find: JNSQ_Rescale/PartRebalancer10x/GameData/PartRebalancer10x
+    install_to: GameData
