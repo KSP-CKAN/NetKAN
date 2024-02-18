@@ -8,6 +8,10 @@ install:
   - find: CelestialRescale
     install_to: GameData
     filter_regexp: \.pdb$
+x_netkan_version_edit:
+  find: ^v\.
+  replace: v
+  strict: false
 ---
 spec_version: v1.34
 identifier: CelestialRescale
