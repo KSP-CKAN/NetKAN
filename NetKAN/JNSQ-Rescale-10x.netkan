@@ -1,0 +1,19 @@
+spec_version: v1.4
+identifier: JNSQ-Rescale-10x
+name: JNSQ Rescale 10x
+abstract: JNSQ rescaled to 10 times stock size (approximately real scale)
+$kref: '#/ckan/netkan/https://raw.githubusercontent.com/Galileo88/JNSQ/master/CKAN/JNSQ.netkan'
+tags:
+  - config
+  - planet-pack
+provides: []
+depends:
+  - name: ModuleManager
+  - name: JNSQ
+conflicts:
+  - name: JNSQ-Rescale-1x
+suggests:
+  - name: JNSQ-PartRebalancer-10x
+install:
+  - find: JNSQ_Rescale/Rescale_10X/GameData/JNSQ_Rescale
+    install_to: GameData
