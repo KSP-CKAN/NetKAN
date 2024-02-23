@@ -6,12 +6,21 @@ license: CC-BY-NC-ND
 tags:
   - crewed
   - first-person
-  - graphics
   - parts
 depends:
   - name: ModuleManager
   - name: B9PartSwitch
-  - name: Waterfall
+  - name: WildBlueTools
+  - name: WildBlueCore
+recommends:
+  - name: Buffalo2
+  - name: IndicatorLights
+suggests:
+  - name: ConnectedLivingSpace
+  - name: FreeIva
+supports:
+  - name: ConnectedLivingSpace
+  - name: FreeIva
 ---
 spec_version: v1.34
 identifier: PsiWedge
@@ -21,10 +30,19 @@ license: CC-BY-NC-ND
 tags:
   - crewed
   - first-person
-  - graphics
   - parts
 depends:
   - name: ModuleManager
   - name: B9PartSwitch
-  - name: Waterfall
+  - name: WildBlueTools
+  - name: WildBlueCore
+recommends:
+  - name: Buffalo2
+  - name: IndicatorLights
+suggests:
+  - name: ConnectedLivingSpace
+  - name: FreeIva
+supports:
+  - name: ConnectedLivingSpace
+  - name: FreeIva
 x_via: Automated SpaceDock CKAN submission
