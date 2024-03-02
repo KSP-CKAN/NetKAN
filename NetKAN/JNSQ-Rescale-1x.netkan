@@ -2,17 +2,19 @@ spec_version: v1.4
 identifier: JNSQ-Rescale-1x
 name: JNSQ Rescale 1x
 abstract: JNSQ rescaled to approximately stock size
-$kref: '#/ckan/netkan/https://raw.githubusercontent.com/Galileo88/JNSQ/master/CKAN/JNSQ.netkan'
+$kref: '#/ckan/github/Galileo88/JNSQ'
+$vref: '#/ckan/ksp-avc'
+license: CC-BY-NC-ND-3.0
+resources:
+  homepage: https://forum.kerbalspaceprogram.com/index.php?/topic/184880-*
 tags:
   - config
   - planet-pack
-provides: []
 depends:
   - name: ModuleManager
   - name: JNSQ
 conflicts:
   - name: JNSQ-Rescale-10x
-suggests: []
 install:
   - find: JNSQ_Rescale/Rescale_1X/GameData/JNSQ_Rescale
     install_to: GameData
