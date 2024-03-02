@@ -10,11 +10,13 @@ resources:
 tags:
   - config
   - planet-pack
+conflicts:
+  - name: GrannusExpansionPack-Rescale
 depends:
   - name: ModuleManager
   - name: GrannusExpansionPack
-conflicts:
-  - name: GrannusExpansionPack-Rescale
+suggests:
+  - name: JNSQ-PartRebalancer-10x
 install:
   - find: GEP_Rescale/Rescale_10X/Game Data/GEP_Rescale
     install_to: GameData
