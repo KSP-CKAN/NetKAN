@@ -1,5 +1,5 @@
 spec_version: v1.34
-identifier: BREADBrunosRocketEmporiumAndDesigns
+identifier: BrunosRocketEmporiumAndDesigns
 $kref: '#/ckan/spacedock/3574'
 license: unknown
 tags:
@@ -12,3 +12,6 @@ depends:
   - name: BluedogDB
   - name: StockWaterfallEffects
   - name: SimpleAdjustableFairings
+install:
+  - find: BREAD
+    install_to: GameData
