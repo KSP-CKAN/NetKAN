@@ -6,6 +6,9 @@ tags:
   - parts
 depends:
   - name: ModuleManager
+  - name: RealismOverhaul
+  - name: TexturesUnlimited
+  - name: RealPlume
 install:
   - find: EDBMods
     install_to: GameData
@@ -18,7 +21,9 @@ tags:
   - parts
 depends:
   - name: ModuleManager
+  - name: RealismOverhaul
+  - name: TexturesUnlimited
+  - name: RealPlume
 install:
   - find: EDBMods
     install_to: GameData
-x_via: Automated SpaceDock CKAN submission
