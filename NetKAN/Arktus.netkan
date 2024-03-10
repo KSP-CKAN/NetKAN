@@ -5,8 +5,11 @@ license: MIT
 tags:
   - config
   - planet-pack
+provides:
+  - EnvironmentalVisualEnhancements-Config
 depends:
   - name: ModuleManager
   - name: Kopernicus
   - name: VertexMitchellNetravaliHeightMap
-x_via: Automated SpaceDock CKAN submission
+  - name: EnvironmentalVisualEnhancements
+  - name: Scatterer
