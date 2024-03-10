@@ -1,7 +1,7 @@
 spec_version: v1.34
 identifier: BREADBrunosRocketEmporiumAndDesigns
 $kref: '#/ckan/spacedock/3574'
-license: Other
+license: unknown
 tags:
   - graphics
   - parts
@@ -9,7 +9,6 @@ depends:
   - name: ModuleManager
   - name: B9PartSwitch
   - name: Waterfall
-install:
-  - find: BREAD-main
-    install_to: GameData
-x_via: Automated SpaceDock CKAN submission
+  - name: BluedogDB
+  - name: StockWaterfallEffects
+  - name: SimpleAdjustableFairings
