@@ -1,9 +1,6 @@
 spec_version: v1.4
 identifier: RSS-Adapter
-abstract: >-
-  An easy and cozy game in the RSS mod.
-  You'll fly, leave and orbit Kerbin in the same crafts,
-  which you did in the stock Kerbol system.
+abstract: Adapts your stock KSP for the Real Solar System
 $kref: '#/ckan/github/Globul-Art/RSS_Adapter'
 license: MIT
 tags:
