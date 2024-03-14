@@ -23,7 +23,7 @@ conflicts:
   - name: GPP
   - name: StockVisualEnhancements
   - name: Scatterer
-    min_version: '3:v0.0825b'
+    min_version: '3:v0.0825'
 depends:
   - name: ModuleManager
   - name: Kopernicus
