@@ -9,9 +9,8 @@ tags:
 install:
   - find: CJMP
     install_to: GameData
-    filter_regexp: \.craft$
-  - file: GameData/CJMP/Craft/F16C.craft
-    install_to: Ships/SPH
-  - file: GameData/CJMP/Craft/F16xl.craft
-    install_to: Ships/SPH
+    filter: Craft
+  - find: Craft
+    install_to: Ships
+    as: SPH
 x_via: Automated SpaceDock CKAN submission
