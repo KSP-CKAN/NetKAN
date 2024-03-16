@@ -1,0 +1,17 @@
+spec_version: v1.34
+identifier: ColdJsMilitaryPlanesF16
+$kref: '#/ckan/spacedock/3579'
+license: All-Rights-Reserved
+tags:
+  - crewed
+  - first-person
+  - parts
+install:
+  - find: CJMP
+    install_to: GameData
+    filter_regexp: \.craft$
+  - file: GameData/CJMP/Craft/F16C.craft
+    install_to: Ships/SPH
+  - file: GameData/CJMP/Craft/F16xl.craft
+    install_to: Ships/SPH
+x_via: Automated SpaceDock CKAN submission
