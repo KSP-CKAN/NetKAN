@@ -7,3 +7,6 @@ tags:
   - config
   - agency
   - flags
+install:
+  - find: SpaceY
+    install_to: GameData
