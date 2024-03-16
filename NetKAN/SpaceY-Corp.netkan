@@ -9,4 +9,4 @@ tags:
   - flags
 install:
   - find: SpaceY
-    installto: GameData
+    install_to: GameData
