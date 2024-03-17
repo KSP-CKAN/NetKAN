@@ -9,6 +9,7 @@ tags:
 depends:
   - name: ModuleManager
   - name: SpaceY-Lifters
+  - name: SpaceY-Corp
 recommends:
   - name: InterstellarFuelSwitch-Core
 install:
