@@ -1,0 +1,26 @@
+spec_version: v1.4
+identifier: RSS-Adapter
+abstract: Adapts your stock KSP for the Real Solar System
+$kref: '#/ckan/github/Globul-Art/RSS_Adapter'
+license: MIT
+tags:
+  - config
+  - parts
+depends:
+  - name: ModuleManager
+  - name: RealSolarSystem
+  - name: CustomBarnKit
+  - name: CryoTanks
+recommends:
+  - name: RealEngines
+  - name: NewTantares
+suggests:
+  - name: BluedogDB
+  - name: MandatoryRCS
+  - name: InternalRCS
+install:
+  - find: zzz_RSS_Adapter
+    filter:
+      - .git
+      - .gitattributes
+    install_to: GameData
