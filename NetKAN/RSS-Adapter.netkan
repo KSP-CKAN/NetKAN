@@ -6,6 +6,9 @@ license: MIT
 tags:
   - config
   - parts
+conflicts:
+  - name: RealismOverhaul
+  - name: RealFuels
 depends:
   - name: ModuleManager
   - name: RealSolarSystem
@@ -13,11 +16,11 @@ depends:
   - name: CryoTanks
 recommends:
   - name: RealEngines
-  - name: NewTantares
 suggests:
-  - name: BluedogDB
   - name: MandatoryRCS
   - name: InternalRCS
+supports:
+  - name: NewTantares
 install:
   - find: zzz_RSS_Adapter
     filter:
