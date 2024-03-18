@@ -22,7 +22,8 @@
         "Buffalo-PlayMode",
         "DSEV-PlayMode",
         "MOLE-PlayMode",
-        "Pathfinder-PlayMode"
+        "Pathfinder-PlayMode",
+        "ClassicStockResources-PlayMode"
     ],
     "conflicts": [
         { "name": "WildBlue-PlayMode"   },
