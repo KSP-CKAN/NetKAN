@@ -30,7 +30,8 @@
         { "name": "Buffalo-PlayMode"    },
         { "name": "DSEV-PlayMode"       },
         { "name": "MOLE-PlayMode"       },
-        { "name": "Pathfinder-PlayMode" }
+        { "name": "Pathfinder-PlayMode" },
+        { "name": "ClassicStockResources-PlayMode" }
     ],
     "install": [ {
         "find":       "WildBluePlaymodeUSI",
