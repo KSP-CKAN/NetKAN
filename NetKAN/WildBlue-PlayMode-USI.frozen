@@ -22,14 +22,16 @@
         "Buffalo-PlayMode",
         "DSEV-PlayMode",
         "MOLE-PlayMode",
-        "Pathfinder-PlayMode"
+        "Pathfinder-PlayMode",
+        "ClassicStockResources-PlayMode"
     ],
     "conflicts": [
         { "name": "WildBlue-PlayMode"   },
         { "name": "Buffalo-PlayMode"    },
         { "name": "DSEV-PlayMode"       },
         { "name": "MOLE-PlayMode"       },
-        { "name": "Pathfinder-PlayMode" }
+        { "name": "Pathfinder-PlayMode" },
+        { "name": "ClassicStockResources-PlayMode" }
     ],
     "install": [ {
         "find":       "WildBluePlaymodeUSI",
