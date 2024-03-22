@@ -18,7 +18,7 @@ depends:
   - name: BluedogDB
   - name: CommunityResourcePack
 recommends:
-  - name: CryoTanks-Core
+  - name: CryoTanks
   - name: Kopernicus
   - name: RationalResources
   - name: RationalResourcesNuclearFamily
