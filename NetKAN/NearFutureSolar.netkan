@@ -1,8 +1,25 @@
-{
-    "spec_version"  : "v1.4",
-    "identifier"    : "NearFutureSolar",
-    "$kref"         : "#/ckan/netkan/https://github.com/post-kerbin-mining-corporation/NearFutureSolar/raw/master/CKAN/NearFutureSolar.netkan",
-    "tags": [
-        "parts"
-    ]
-}
+spec_version: v1.4
+identifier: NearFutureSolar
+abstract: New solar panels in a variety of sizes and types
+author: Nertea (Chris Adderley)
+$kref: '#/ckan/spacedock/559'
+$vref: '#/ckan/ksp-avc'
+license: restricted
+resources:
+  homepage: https://forum.kerbalspaceprogram.com/index.php?/topic/155465-*
+tags:
+  - parts
+depends:
+  - name: NearFutureSolar-Core
+  - name: B9PartSwitch
+  - name: ModuleManager
+suggests:
+  - name: CommunityTechTree
+  - name: NearFutureConstruction
+  - name: NearFutureElectrical
+  - name: NearFuturePropulsion
+  - name: NearFutureSpacecraft
+install:
+  - find: NearFutureSolar
+    install_to: GameData
+    filter: NearFutureSolar.dll

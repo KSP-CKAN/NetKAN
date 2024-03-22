@@ -1,8 +1,17 @@
-{
-    "spec_version"  : "v1.4",
-    "identifier"    : "NearFutureSolar-Core",
-    "$kref"         : "#/ckan/netkan/https://github.com/post-kerbin-mining-corporation/NearFutureSolar/raw/master/CKAN/NearFutureSolar-Core.netkan",
-    "tags": [
-        "plugin"
-    ]
-}
+spec_version: v1.4
+identifier: NearFutureSolar-Core
+name: Near Future Solar Core
+abstract: >-
+  Near Future Solar plugin stand-alone, for adding functionality to other mods.
+  Contains no parts and does nothing by itself.
+author: Nertea (Chris Adderley)
+$kref: '#/ckan/spacedock/559'
+$vref: '#/ckan/ksp-avc/NearFutureSolar.version'
+license: MIT
+tags:
+  - plugin
+depends:
+  - name: NearFutureSolar
+install:
+  - file: GameData/NearFutureSolar/Plugins/NearFutureSolar.dll
+    install_to: GameData/NearFutureSolar/Plugins
