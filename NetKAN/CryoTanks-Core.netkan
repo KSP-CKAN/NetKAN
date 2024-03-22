@@ -1,8 +1,19 @@
-{
-    "spec_version"   : "v1.4",
-    "identifier"     : "CryoTanks-Core",
-    "$kref"         : "#/ckan/netkan/https://github.com/post-kerbin-mining-corporation/CryoTanks/raw/master/CKAN/CryoTanks-Core.netkan",
-    "tags": [
-        "plugin"
-    ]
-}
+spec_version: v1.4
+identifier: CryoTanks-Core
+name: Cryo Tanks Core
+abstract: >-
+  Cryo Tanks plugin stand-alone, for adding functionality to other mods.
+  Contains no parts and does nothing by itself.
+author: Nertea (Chris Adderley)
+$kref: '#/ckan/github/post-kerbin-mining-corporation/CryoTanks'
+$vref: '#/ckan/ksp-avc/CryoTanks.version'
+license: MIT
+resources:
+  homepage: https://github.com/post-kerbin-mining-corporation/CryoTanks/wiki
+tags:
+  - plugin
+depends:
+  - name: CryoTanks
+install:
+  - file: GameData/CryoTanks/Plugins/SimpleBoiloff.dll
+    install_to: GameData/CryoTanks/Plugins

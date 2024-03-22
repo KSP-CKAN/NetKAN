@@ -1,8 +1,26 @@
-{
-    "spec_version"   : "v1.4",
-    "identifier"     : "CryoTanks",
-    "$kref"         : "#/ckan/netkan/https://github.com/post-kerbin-mining-corporation/CryoTanks/raw/master/CKAN/CryoTanks.netkan",
-    "tags": [
-        "parts"
-    ]
-}
+spec_version: v1.4
+identifier: CryoTanks
+name: Cryo Tanks
+abstract: >-
+  Liquid Hydrogen fuel tanks and Liquid Hydrogen storage for most stock tanks
+author: Nertea (Chris Adderley)
+$kref: '#/ckan/github/post-kerbin-mining-corporation/CryoTanks'
+$vref: '#/ckan/ksp-avc/CryoTanks.version'
+license: restricted
+resources:
+  homepage: https://github.com/post-kerbin-mining-corporation/CryoTanks/wiki
+tags:
+  - parts
+depends:
+  - name: ModuleManager
+  - name: CryoTanks-Core
+  - name: B9PartSwitch
+  - name: CommunityResourcePack
+  - name: DynamicBatteryStorage
+supports:
+  - name: KerbalAtomics
+  - name: CryoEngines
+install:
+  - find: CryoTanks
+    install_to: GameData
+    filter: SimpleBoiloff.dll
