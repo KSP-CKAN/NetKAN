@@ -6,6 +6,7 @@ license: GPL-3.0
 tags:
   - plugin
   - crewed
+  - first-person
 depends:
   - name: ASETProps
 install:
