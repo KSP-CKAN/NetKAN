@@ -23,6 +23,7 @@ recommends:
 conflicts:
   - name: TweakScale
   - name: TweakScaleCompanion
+  - name: KSP-Recall
 provides:
   - TweakScale
 install:
