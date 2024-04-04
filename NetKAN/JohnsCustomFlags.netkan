@@ -1,0 +1,8 @@
+spec_version: v1.34
+identifier: JohnsCustomFlags
+$kref: '#/ckan/spacedock/3583'
+license: MIT
+install:
+  - find: Johns Custom Flags
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
