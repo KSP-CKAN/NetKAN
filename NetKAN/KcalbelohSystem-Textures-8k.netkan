@@ -1,0 +1,18 @@
+spec_version: v1.4
+identifier: KcalbelohSystem-Textures-8k
+$kref: '#/ckan/github/jcyuan06/Kcalbeloh-System/asset_match/Textures-8k'
+license: CC-BY-NC-ND-4.0
+resources:
+  homepage: https://forum.kerbalspaceprogram.com/index.php?/topic/203753-*
+tags:
+  - planet-pack
+  - graphics
+provides:
+  - KcalbelohSystem-Textures
+conflicts:
+  - name: KcalbelohSystem-Textures
+depends:
+  - name: KcalbelohSystem
+install:
+  - find: KcalbelohTextures
+    install_to: GameData
