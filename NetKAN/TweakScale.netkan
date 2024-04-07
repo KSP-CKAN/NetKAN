@@ -31,3 +31,4 @@ depends:
   - name: KSP-Recall
 conflicts:
     - name: TweakscaleMakingHistoryConfigs
+    - name: TweakScaleRescaled-Redist
