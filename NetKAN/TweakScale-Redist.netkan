@@ -12,6 +12,8 @@ x_netkan_force_v: true
 license:
   - WTFPL
 release_status: stable
+conflicts:
+  - name: TweakScaleRescaled-Redist
 tags:
   - plugin
   - library
