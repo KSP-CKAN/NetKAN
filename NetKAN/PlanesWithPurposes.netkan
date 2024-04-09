@@ -1,0 +1,30 @@
+spec_version: v1.34
+identifier: PlanesWithPurposes
+$kref: '#/ckan/github/TudorAerospace/PWP'
+license: MIT
+tags:
+  - career
+  - flags
+  - agency
+depends:
+  - name: ModuleManager
+  - name: ContractConfigurator
+install:
+  - find: ContractPacks
+    install_to: GameData
+---
+spec_version: v1.34
+identifier: PlanesWithPurposes
+$kref: '#/ckan/spacedock/2601'
+license: MIT
+tags:
+  - career
+  - flags
+  - agency
+depends:
+  - name: ModuleManager
+  - name: ContractConfigurator
+install:
+  - find: ContractPacks
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
