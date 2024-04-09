@@ -4,13 +4,13 @@ $kref: '#/ckan/github/TudorAerospace/PWP'
 license: MIT
 tags:
   - career
-  - config
-  - plugin
+  - flags
+  - agency
 depends:
   - name: ModuleManager
   - name: ContractConfigurator
 install:
-  - find: PWP.1.5.1
+  - find: ContractPacks
     install_to: GameData
 ---
 spec_version: v1.34
@@ -19,12 +19,12 @@ $kref: '#/ckan/spacedock/2601'
 license: MIT
 tags:
   - career
-  - config
-  - plugin
+  - flags
+  - agency
 depends:
   - name: ModuleManager
   - name: ContractConfigurator
 install:
-  - find: PWP.1.5.1
+  - find: ContractPacks
     install_to: GameData
 x_via: Automated SpaceDock CKAN submission
