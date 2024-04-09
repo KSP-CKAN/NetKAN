@@ -6,5 +6,5 @@ tags:
   - parts
 install:
   - find: Parts
-    install_to: GameData
+    install_to: GameData/NuriLaunchExpansion
 x_via: Automated SpaceDock CKAN submission
