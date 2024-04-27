@@ -1,0 +1,12 @@
+spec_version: v1.27
+identifier: FlyByWireSASMode
+abstract: >-
+  Adds a new "fly by wire" SAS mode. When enabled, pitch and yaw inputs don't
+  control the vessel directly anymore, but instead control the position of a
+  custom navball direction marker that the SAS will follow automatically.
+$kref: '#/ckan/github/gotmachine/FlyByWireSASMode'
+$vref: '#/ckan/ksp-avc'
+license: MIT
+tags:
+  - plugin
+  - control
