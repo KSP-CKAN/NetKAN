@@ -7,6 +7,8 @@ abstract: >-
 $kref: '#/ckan/github/gotmachine/FlyByWireSASMode'
 $vref: '#/ckan/ksp-avc'
 license: MIT
+resources:
+  homepage: https://forum.kerbalspaceprogram.com/topic/224632-*
 tags:
   - plugin
   - control
