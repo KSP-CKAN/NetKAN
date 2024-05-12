@@ -1,112 +1,17 @@
-{
-    "spec_version" : "v1.4",
-    "identifier"   : "CommunityPartsTitles",
-    "name"         : "Community Parts Titles",
-    "author"       : "flart",
-    "$kref"        : "#/ckan/github/yalov/CommunityPartsTitles",
-    "$vref"        : "#/ckan/ksp-avc",
-    "license"      : "GPL-3.0",
-    "resources" : {
-        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/174189-*"
-    },
-    "tags": [
-        "config",
-        "convenience",
-        "editor"
-    ],
-    "depends": [
-        { "name": "ModuleManager" }
-    ],
-    "recommends": [
-        { "name": "CommunityPartsTitlesExtrasCategory" },
-        { "name": "CommunityPartsTitlesExtrasNoCCKDup" },
-        { "name": "ModuleManager" },
-        { "name": "SpeedUnitAnnex" },
-        { "name": "CommunityCategoryKit" }
-    ],
-    "suggests": [
-        { "name": "KAS" },
-        { "name": "KIS" },
-
-        { "name": "KerbalEngineerRedux" },
-        { "name": "FuelTanksPlus" },
-        { "name": "SpaceY-Lifters" },
-        { "name": "SpaceY-Expanded" },
-        { "name": "BetterSRBs" },
-
-        { "name": "StationPartsExpansionRedux" },
-
-        { "name": "NearFutureAeronautics" },
-        { "name": "NearFutureElectrical" },
-        { "name": "NearFuturePropulsion" },
-        { "name": "NearFutureSolar" },
-        { "name": "NearFutureSpacecraft" },
-        { "name": "NearFutureLaunchVehicles" },
-        { "name": "NearFutureConstruction" },
-        { "name": "NearFutureExploration" },
-        { "name": "FarFutureTechnologies" },
-        { "name": "KerbalAtomics" },
-        { "name": "CryoEngines" },
-        { "name": "CryoTanks" },
-        { "name": "HeatControl" },
-        { "name": "SystemHeat" },
-
-        { "name": "RecycledPartsAtomicAge" },
-        { "name": "MissingHistory" },
-        { "name": "KerbalPlanetaryBaseSystems" },
-        { "name": "TACLS" },
-        { "name": "Snacks" },
-
-        { "name": "FASALaunchClampsContinued" },
-
-        { "name": "Mk2Expansion" },
-        { "name": "Mk3Expansion" },
-        { "name": "StockalikeMiningExtension" },
-        { "name": "StockishProjectOrion" },
-        { "name": "KerbalAircraftExpansion", "min_version": "2.8.0" },
-        { "name": "AirplanePlus" },
-        { "name": "MK1StkOpenCockpit" },
-        { "name": "Kerbonov" },
-
-        { "name": "CommNetAntennasExtension" },
-        { "name": "JX2Antenna" },
-
-        { "name": "SurfaceExperimentPack" },
-        { "name": "TarsierSpaceTechnologyWithGalaxies" },
-        { "name": "kOS" },
-        { "name": "KerbalFoundriesContinued" },
-        { "name": "MSP3000" },
-        { "name": "DMagicOrbitalScience" },
-
-        { "name": "PicoPort" },
-        { "name": "GlassPanesandEnclosures" },
-        { "name": "SCANsat" },
-        { "name": "ReStockPlus" },
-        { "name": "UniversalStorage2" },
-        { "name": "RLAReborn" },
-        { "name": "MandatoryRCSPartPack" },
-        { "name": "InternalRCS" },
-
-        { "name": "DockRotate" },
-        { "name": "PWBFuelBalancerRestored" },
-        { "name": "Interkosmos" },
-        { "name": "SolidFuelCell" },
-
-        { "name": "TransparentPods" },
-        { "name": "SmartParts" },
-        { "name": "MissingRobotics" },
-        { "name": "KSPSecondaryMotion" },
-        { "name": "Wyvern-5" },
-        { "name": "KiwiTechTree" },
-        { "name": "SpaceXLegs" },
-        { "name": "RationalResources" }
-    ],
-    "install" : [
-        {
-            "file"       : "GameData/002_CommunityPartsTitles",
-            "install_to" : "GameData",
-            "filter"     : "Extras",
-            "comment"    : "Exclude Extras/ folder. There are CommunityPartsTitlesExtrasCategory and CommunityPartsTitlesExtrasNoCCKDup for it"
-        }
-    ]
-}
+spec_version: v1.4
+identifier: CommunityPartsTitles
+author: flart
+$kref: '#/ckan/github/yalov/CommunityPartsTitles'
+$vref: '#/ckan/ksp-avc'
+license: GPL-3.0
+tags:
+  - config
+  - convenience
+  - editor
+install:
+  - file: GameData/002_CommunityPartsTitles
+    install_to: GameData
+    filter: Extras
+    comment: >-
+      Exclude Extras/ folder. There are CommunityPartsTitlesExtrasCategory and
+      CommunityPartsTitlesExtrasNoCCKDup for it
