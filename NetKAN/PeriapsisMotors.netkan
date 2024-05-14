@@ -1,0 +1,10 @@
+spec_version: v1.34
+identifier: PeriapsisMotors
+$kref: '#/ckan/spacedock/3600'
+license: MIT-(code)-+-ARR-(assets)
+tags:
+  - parts
+depends:
+  - name: ModuleManager
+  - name: B9PartSwitch
+x_via: Automated SpaceDock CKAN submission
