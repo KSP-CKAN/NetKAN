@@ -1,0 +1,14 @@
+spec_version: v1.34
+identifier: ContractPackConstellations
+$kref: '#/ckan/spacedock/3601'
+license: MIT
+tags:
+  - career
+  - parts
+depends:
+  - name: ModuleManager
+  - name: ContractConfigurator
+install:
+  - find: ContractPacks
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
