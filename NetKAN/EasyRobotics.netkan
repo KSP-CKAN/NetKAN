@@ -1,0 +1,18 @@
+spec_version: v1.4
+identifier: EasyRobotics
+abstract: >-
+  Inverse kinematics controller for KSP Breaking Ground robotic parts:
+  automatically reach targets with your custom manipulators!
+author: Gotmachine
+$kref: '#/ckan/github/gotmachine/EasyRobotics'
+$vref: '#/ckan/ksp-avc'
+license: MIT
+tags:
+  - plugin
+  - control
+depends:
+  - name: BreakingGround-DLC
+  - name: ModuleManager
+recommends:
+  - name: HabTechRobotics
+  - name: MissingRobotics
