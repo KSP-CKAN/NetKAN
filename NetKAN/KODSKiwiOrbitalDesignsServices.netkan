@@ -1,0 +1,15 @@
+spec_version: v1.34
+identifier: KODSKiwiOrbitalDesignsServices
+$kref: '#/ckan/spacedock/3602'
+license: Other
+tags:
+  - graphics
+  - parts
+depends:
+  - name: ModuleManager
+  - name: B9PartSwitch
+  - name: Waterfall
+install:
+  - find: KODS
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
