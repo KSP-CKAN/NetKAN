@@ -12,3 +12,6 @@ tags:
 depends:
   - name: BreakingGround-DLC
   - name: ModuleManager
+recommends:
+  - name: HabTechRobotics
+  - name: MissingRobotics
