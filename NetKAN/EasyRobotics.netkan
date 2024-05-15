@@ -3,7 +3,8 @@ identifier: EasyRobotics
 abstract: >-
   Inverse kinematics controller for KSP Breaking Ground robotic parts:
   automatically reach targets with your custom manipulators!
-$kref: '#/ckan/github/Gotmachine/EasyRobotics'
+author: Gotmachine
+$kref: '#/ckan/github/gotmachine/EasyRobotics'
 $vref: '#/ckan/ksp-avc'
 license: MIT
 tags:
