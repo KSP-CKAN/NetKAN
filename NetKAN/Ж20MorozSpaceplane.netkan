@@ -1,0 +1,42 @@
+spec_version: v1.34
+identifier: Ж20MorozSpaceplane
+$kref: '#/ckan/github/AstroWell/X-20-Moroz-Spaceplane'
+license: CC-BY-SA-NC-4
+tags:
+  - crewed
+  - first-person
+  - parts
+install:
+  - find: X-20-Moroz
+    install_to: GameData
+    filter_regexp: \.craft$
+  - file: Ships/SPH/Sanger - Crew.craft
+    install_to: Ships/SPH
+  - file: Ships/SPH/X-20 - Crew.craft
+    install_to: Ships/SPH
+  - file: Ships/SPH/X-20 - Payload.craft
+    install_to: Ships/SPH
+  - file: Ships/VAB/X-20 with Adapter.craft
+    install_to: Ships/VAB
+---
+spec_version: v1.34
+identifier: Ж20MorozSpaceplane
+$kref: '#/ckan/spacedock/2149'
+license: CC-BY-SA-NC-4
+tags:
+  - crewed
+  - first-person
+  - parts
+install:
+  - find: X-20-Moroz
+    install_to: GameData
+    filter_regexp: \.craft$
+  - file: Ships/SPH/Sanger - Crew.craft
+    install_to: Ships/SPH
+  - file: Ships/SPH/X-20 - Crew.craft
+    install_to: Ships/SPH
+  - file: Ships/SPH/X-20 - Payload.craft
+    install_to: Ships/SPH
+  - file: Ships/VAB/X-20 with Adapter.craft
+    install_to: Ships/VAB
+x_via: Automated SpaceDock CKAN submission
