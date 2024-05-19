@@ -1,0 +1,280 @@
+spec_version: v1.34
+identifier: Knes
+$kref: '#/ckan/github/AstroWell/Knes'
+$vref: '#/ckan/ksp-avc'
+license: CC-BY-NC-ND-4.0
+tags:
+  - crewed
+  - first-person
+  - graphics
+  - parts
+depends:
+  - name: ModuleManager
+  - name: Waterfall
+install:
+  - find: Knes
+    install_to: GameData
+    filter_regexp: \.craft$
+  - file: Ships/SPH/French Hermes - Dock.craft
+    install_to: Ships/SPH
+  - file: Ships/SPH/French Hermes - Full Crew.craft
+    install_to: Ships/SPH
+  - file: Ships/SPH/French Hermes - Half Crew.craft
+    install_to: Ships/SPH
+  - file: Ships/VAB/Ariane 1.craft
+    install_to: Ships/VAB
+  - file: Ships/VAB/Ariane 2.craft
+    install_to: Ships/VAB
+  - file: Ships/VAB/Ariane 3.craft
+    install_to: Ships/VAB
+  - file: Ships/VAB/Ariane 40.craft
+    install_to: Ships/VAB
+  - file: Ships/VAB/Ariane 42L.craft
+    install_to: Ships/VAB
+  - file: Ships/VAB/Ariane 42P.craft
+    install_to: Ships/VAB
+  - file: Ships/VAB/Ariane 44L - MRK - Rescue.craft
+    install_to: Ships/VAB
+  - file: Ships/VAB/Ariane 44L.craft
+    install_to: Ships/VAB
+  - file: Ships/VAB/Ariane 44LP.craft
+    install_to: Ships/VAB
+  - file: Ships/VAB/Ariane 44P.craft
+    install_to: Ships/VAB
+  - file: Ships/VAB/Ariane 5 - ATV.craft
+    install_to: Ships/VAB
+  - file: Ships/VAB/Ariane 5 - Dual Payload.craft
+    install_to: Ships/VAB
+  - file: Ships/VAB/Ariane 5 - Hermes.craft
+    install_to: Ships/VAB
+  - file: Ships/VAB/Ariane 5 - MRK-Ex + Module.craft
+    install_to: Ships/VAB
+  - file: Ships/VAB/Ariane 5 - MTFF ScienceLab.craft
+    install_to: Ships/VAB
+  - file: Ships/VAB/Ariane 5 ESC-A - Dual Payload.craft
+    install_to: Ships/VAB
+  - file: Ships/VAB/Ariane 541C.craft
+    install_to: Ships/VAB
+  - file: Ships/VAB/Ariane 54L.craft
+    install_to: Ships/VAB
+  - file: Ships/VAB/Ariane 54LH - MRK - Extended.craft
+    install_to: Ships/VAB
+  - file: Ships/VAB/Baccus.craft
+    install_to: Ships/VAB
+  - file: Ships/VAB/Black Diamant.craft
+    install_to: Ships/VAB
+  - file: Ships/VAB/Callisto - L3S.craft
+    install_to: Ships/VAB
+  - file: Ships/VAB/Callisto - L4S.craft
+    install_to: Ships/VAB
+  - file: Ships/VAB/Calypso - MonoProp Vehicle.craft
+    install_to: Ships/VAB
+  - file: Ships/VAB/Calypso - Viking.craft
+    install_to: Ships/VAB
+  - file: Ships/VAB/Calypso Extended.craft
+    install_to: Ships/VAB
+  - file: Ships/VAB/Calypso.craft
+    install_to: Ships/VAB
+  - file: Ships/VAB/Diogene 1.craft
+    install_to: Ships/VAB
+  - file: Ships/VAB/Diogene 2.craft
+    install_to: Ships/VAB
+  - file: Ships/VAB/Diogene.craft
+    install_to: Ships/VAB
+  - file: Ships/VAB/Diomede 2.craft
+    install_to: Ships/VAB
+  - file: Ships/VAB/Diomede A.craft
+    install_to: Ships/VAB
+  - file: Ships/VAB/Diomede B.craft
+    install_to: Ships/VAB
+  - file: Ships/VAB/Diomede BP4.craft
+    install_to: Ships/VAB
+  - file: Ships/VAB/DLA-P - StarRider.craft
+    install_to: Ships/VAB
+  - file: Ships/VAB/DLA-P.craft
+    install_to: Ships/VAB
+  - file: Ships/VAB/DLA-S - StarWatcher.craft
+    install_to: Ships/VAB
+  - file: Ships/VAB/DLA-S.craft
+    install_to: Ships/VAB
+  - file: Ships/VAB/ESL.craft
+    install_to: Ships/VAB
+  - file: Ships/VAB/ESLM.craft
+    install_to: Ships/VAB
+  - file: Ships/VAB/Heracles - ScienceLab.craft
+    install_to: Ships/VAB
+  - file: Ships/VAB/Heracles C.craft
+    install_to: Ships/VAB
+  - file: Ships/VAB/Heracles H.craft
+    install_to: Ships/VAB
+  - file: Ships/VAB/Heracles P.craft
+    install_to: Ships/VAB
+  - file: Ships/VAB/Hyper Diomede.craft
+    install_to: Ships/VAB
+  - file: Ships/VAB/L-433.craft
+    install_to: Ships/VAB
+  - file: Ships/VAB/L3S.craft
+    install_to: Ships/VAB
+  - file: Ships/VAB/MRK - Cargo.craft
+    install_to: Ships/VAB
+  - file: Ships/VAB/MRK - Rescue.craft
+    install_to: Ships/VAB
+  - file: Ships/VAB/Solaris.craft
+    install_to: Ships/VAB
+  - file: Ships/VAB/Super Diomede.craft
+    install_to: Ships/VAB
+  - file: Ships/VAB/Super Heracles.craft
+    install_to: Ships/VAB
+  - file: Ships/VAB/Turquoise C.craft
+    install_to: Ships/VAB
+  - file: Ships/VAB/Turquoise H.craft
+    install_to: Ships/VAB
+  - file: Ships/VAB/Turquoise.craft
+    install_to: Ships/VAB
+  - file: Ships/VAB/Varinka.craft
+    install_to: Ships/VAB
+  - file: Ships/VAB/Viska.craft
+    install_to: Ships/VAB
+x_netkan_version_edit:
+  find: ^v
+  replace: ''
+  strict: 'false'
+---
+spec_version: v1.34
+identifier: Knes
+$kref: '#/ckan/spacedock/1470'
+$vref: '#/ckan/ksp-avc'
+license: CC-BY-NC-ND-4.0
+tags:
+  - crewed
+  - first-person
+  - graphics
+  - parts
+depends:
+  - name: ModuleManager
+  - name: Waterfall
+install:
+  - find: Knes
+    install_to: GameData
+    filter_regexp: \.craft$
+  - file: Ships/SPH/French Hermes - Dock.craft
+    install_to: Ships/SPH
+  - file: Ships/SPH/French Hermes - Full Crew.craft
+    install_to: Ships/SPH
+  - file: Ships/SPH/French Hermes - Half Crew.craft
+    install_to: Ships/SPH
+  - file: Ships/VAB/Ariane 1.craft
+    install_to: Ships/VAB
+  - file: Ships/VAB/Ariane 2.craft
+    install_to: Ships/VAB
+  - file: Ships/VAB/Ariane 3.craft
+    install_to: Ships/VAB
+  - file: Ships/VAB/Ariane 40.craft
+    install_to: Ships/VAB
+  - file: Ships/VAB/Ariane 42L.craft
+    install_to: Ships/VAB
+  - file: Ships/VAB/Ariane 42P.craft
+    install_to: Ships/VAB
+  - file: Ships/VAB/Ariane 44L - MRK - Rescue.craft
+    install_to: Ships/VAB
+  - file: Ships/VAB/Ariane 44L.craft
+    install_to: Ships/VAB
+  - file: Ships/VAB/Ariane 44LP.craft
+    install_to: Ships/VAB
+  - file: Ships/VAB/Ariane 44P.craft
+    install_to: Ships/VAB
+  - file: Ships/VAB/Ariane 5 - ATV.craft
+    install_to: Ships/VAB
+  - file: Ships/VAB/Ariane 5 - Dual Payload.craft
+    install_to: Ships/VAB
+  - file: Ships/VAB/Ariane 5 - Hermes.craft
+    install_to: Ships/VAB
+  - file: Ships/VAB/Ariane 5 - MRK-Ex + Module.craft
+    install_to: Ships/VAB
+  - file: Ships/VAB/Ariane 5 - MTFF ScienceLab.craft
+    install_to: Ships/VAB
+  - file: Ships/VAB/Ariane 5 ESC-A - Dual Payload.craft
+    install_to: Ships/VAB
+  - file: Ships/VAB/Ariane 541C.craft
+    install_to: Ships/VAB
+  - file: Ships/VAB/Ariane 54L.craft
+    install_to: Ships/VAB
+  - file: Ships/VAB/Ariane 54LH - MRK - Extended.craft
+    install_to: Ships/VAB
+  - file: Ships/VAB/Baccus.craft
+    install_to: Ships/VAB
+  - file: Ships/VAB/Black Diamant.craft
+    install_to: Ships/VAB
+  - file: Ships/VAB/Callisto - L3S.craft
+    install_to: Ships/VAB
+  - file: Ships/VAB/Callisto - L4S.craft
+    install_to: Ships/VAB
+  - file: Ships/VAB/Calypso - MonoProp Vehicle.craft
+    install_to: Ships/VAB
+  - file: Ships/VAB/Calypso - Viking.craft
+    install_to: Ships/VAB
+  - file: Ships/VAB/Calypso Extended.craft
+    install_to: Ships/VAB
+  - file: Ships/VAB/Calypso.craft
+    install_to: Ships/VAB
+  - file: Ships/VAB/Diogene 1.craft
+    install_to: Ships/VAB
+  - file: Ships/VAB/Diogene 2.craft
+    install_to: Ships/VAB
+  - file: Ships/VAB/Diogene.craft
+    install_to: Ships/VAB
+  - file: Ships/VAB/Diomede 2.craft
+    install_to: Ships/VAB
+  - file: Ships/VAB/Diomede A.craft
+    install_to: Ships/VAB
+  - file: Ships/VAB/Diomede B.craft
+    install_to: Ships/VAB
+  - file: Ships/VAB/Diomede BP4.craft
+    install_to: Ships/VAB
+  - file: Ships/VAB/DLA-P - StarRider.craft
+    install_to: Ships/VAB
+  - file: Ships/VAB/DLA-P.craft
+    install_to: Ships/VAB
+  - file: Ships/VAB/DLA-S - StarWatcher.craft
+    install_to: Ships/VAB
+  - file: Ships/VAB/DLA-S.craft
+    install_to: Ships/VAB
+  - file: Ships/VAB/ESL.craft
+    install_to: Ships/VAB
+  - file: Ships/VAB/ESLM.craft
+    install_to: Ships/VAB
+  - file: Ships/VAB/Heracles - ScienceLab.craft
+    install_to: Ships/VAB
+  - file: Ships/VAB/Heracles C.craft
+    install_to: Ships/VAB
+  - file: Ships/VAB/Heracles H.craft
+    install_to: Ships/VAB
+  - file: Ships/VAB/Heracles P.craft
+    install_to: Ships/VAB
+  - file: Ships/VAB/Hyper Diomede.craft
+    install_to: Ships/VAB
+  - file: Ships/VAB/L-433.craft
+    install_to: Ships/VAB
+  - file: Ships/VAB/L3S.craft
+    install_to: Ships/VAB
+  - file: Ships/VAB/MRK - Cargo.craft
+    install_to: Ships/VAB
+  - file: Ships/VAB/MRK - Rescue.craft
+    install_to: Ships/VAB
+  - file: Ships/VAB/Solaris.craft
+    install_to: Ships/VAB
+  - file: Ships/VAB/Super Diomede.craft
+    install_to: Ships/VAB
+  - file: Ships/VAB/Super Heracles.craft
+    install_to: Ships/VAB
+  - file: Ships/VAB/Turquoise C.craft
+    install_to: Ships/VAB
+  - file: Ships/VAB/Turquoise H.craft
+    install_to: Ships/VAB
+  - file: Ships/VAB/Turquoise.craft
+    install_to: Ships/VAB
+  - file: Ships/VAB/Varinka.craft
+    install_to: Ships/VAB
+  - file: Ships/VAB/Viska.craft
+    install_to: Ships/VAB
+x_via: Automated SpaceDock CKAN submission
