@@ -1,5 +1,17 @@
 spec_version: v1.34
 identifier: WaterfallExtensions
+$kref: '#/ckan/github/rbeap/WaterfallExtensions'
+license: CC0
+tags:
+  - config
+  - graphics
+depends:
+  - name: ModuleManager
+  - name: B9PartSwitch
+  - name: Waterfall
+---
+spec_version: v1.34
+identifier: WaterfallExtensions
 $kref: '#/ckan/spacedock/3604'
 license: CC0
 tags:
