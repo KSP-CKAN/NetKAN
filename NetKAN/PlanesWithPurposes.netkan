@@ -1,6 +1,7 @@
 spec_version: v1.34
 identifier: PlanesWithPurposes
 $kref: '#/ckan/github/TudorAerospace/PWP'
+x_netkan_version_edit: ^v(?<version>.*)$
 license: MIT
 tags:
   - career
