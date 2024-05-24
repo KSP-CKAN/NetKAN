@@ -1,5 +1,5 @@
 spec_version: v1.34
-identifier: ContractPackConstellations
+identifier: ContractConfigurator-Constellations
 $kref: '#/ckan/spacedock/3601'
 license: MIT
 tags:
@@ -11,4 +11,3 @@ depends:
 install:
   - find: ContractPacks
     install_to: GameData
-x_via: Automated SpaceDock CKAN submission
