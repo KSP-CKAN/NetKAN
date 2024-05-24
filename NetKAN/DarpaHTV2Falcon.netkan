@@ -4,7 +4,8 @@ $kref: '#/ckan/spacedock/3594'
 license: CC-BY
 tags:
   - parts
+recommends:
+  - name: FerramAerospaceResearchContinued
 install:
   - find: HTV-2 Falcon
     install_to: GameData
-x_via: Automated SpaceDock CKAN submission
