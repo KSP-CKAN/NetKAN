@@ -4,6 +4,7 @@ $kref: '#/ckan/github/AstroWell/Interkosmos'
 license: CC-BY-NC-ND-4.0
 tags:
   - parts
+  - science
 depends:
   - name: ModuleManager
 ---
@@ -13,5 +14,6 @@ $kref: '#/ckan/spacedock/2163'
 license: CC-BY-NC-ND-4.0
 tags:
   - parts
+  - science
 depends:
   - name: ModuleManager
