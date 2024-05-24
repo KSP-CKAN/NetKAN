@@ -24,5 +24,6 @@ install:
     filter:
       - .DS_Store
       - Ships
+      - Plugins
   - find: Ships/SPH
     install_to: Ships
