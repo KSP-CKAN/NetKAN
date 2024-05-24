@@ -1,7 +1,7 @@
 spec_version: v1.34
 identifier: CommonwealthAeronauticsBlueSteel
 $kref: '#/ckan/github/AstroWell/BlueSteel'
-license: CC-BY-SA-NC-4
+license: CC-BY-NC-SA-4.0
 tags:
   - crewed
   - first-person
@@ -11,21 +11,8 @@ depends:
 install:
   - find: BlueSteel
     install_to: GameData
-    filter_regexp: \.craft$
-  - file: Ships/SPH/Avro 730.craft
-    install_to: Ships/SPH
-  - file: Ships/SPH/Avro 731.craft
-    install_to: Ships/SPH
-  - file: Ships/SPH/Blue Iron.craft
-    install_to: Ships/SPH
-  - file: Ships/SPH/Blue Rock.craft
-    install_to: Ships/SPH
-  - file: Ships/SPH/Blue Steel - Avro 730.craft
-    install_to: Ships/SPH
-  - file: Ships/SPH/Blue Steel.craft
-    install_to: Ships/SPH
-  - file: Ships/SPH/Skylon.craft
-    install_to: Ships/SPH
+  - file: Ships/SPH
+    install_to: Ships
 x_netkan_version_edit:
   find: ^v
   replace: ''
@@ -34,7 +21,7 @@ x_netkan_version_edit:
 spec_version: v1.34
 identifier: CommonwealthAeronauticsBlueSteel
 $kref: '#/ckan/spacedock/2583'
-license: CC-BY-SA-NC-4
+license: CC-BY-NC-SA-4.0
 tags:
   - crewed
   - first-person
@@ -44,19 +31,5 @@ depends:
 install:
   - find: BlueSteel
     install_to: GameData
-    filter_regexp: \.craft$
-  - file: Ships/SPH/Avro 730.craft
-    install_to: Ships/SPH
-  - file: Ships/SPH/Avro 731.craft
-    install_to: Ships/SPH
-  - file: Ships/SPH/Blue Iron.craft
-    install_to: Ships/SPH
-  - file: Ships/SPH/Blue Rock.craft
-    install_to: Ships/SPH
-  - file: Ships/SPH/Blue Steel - Avro 730.craft
-    install_to: Ships/SPH
-  - file: Ships/SPH/Blue Steel.craft
-    install_to: Ships/SPH
-  - file: Ships/SPH/Skylon.craft
-    install_to: Ships/SPH
-x_via: Automated SpaceDock CKAN submission
+  - file: Ships/SPH
+    install_to: Ships
