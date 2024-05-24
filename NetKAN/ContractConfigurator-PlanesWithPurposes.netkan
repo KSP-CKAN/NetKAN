@@ -1,5 +1,5 @@
 spec_version: v1.34
-identifier: PlanesWithPurposes
+identifier: ContractConfigurator-PlanesWithPurposes
 $kref: '#/ckan/github/TudorAerospace/PWP'
 x_netkan_version_edit: ^v(?<version>.*)$
 license: MIT
@@ -18,7 +18,7 @@ install:
     install_to: GameData
 ---
 spec_version: v1.34
-identifier: PlanesWithPurposes
+identifier: ContractConfigurator-PlanesWithPurposes
 $kref: '#/ckan/spacedock/2601'
 license: MIT
 tags:
