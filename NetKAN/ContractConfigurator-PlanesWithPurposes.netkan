@@ -1,7 +1,10 @@
 spec_version: v1.34
 identifier: ContractConfigurator-PlanesWithPurposes
 $kref: '#/ckan/github/TudorAerospace/PWP'
-x_netkan_version_edit: ^v(?<version>.*)$
+x_netkan_version_edit:
+  find: ^v
+  replace: ''
+  strict: false
 license: MIT
 tags:
   - career
