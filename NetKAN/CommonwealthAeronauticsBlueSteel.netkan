@@ -1,0 +1,35 @@
+spec_version: v1.34
+identifier: CommonwealthAeronauticsBlueSteel
+$kref: '#/ckan/github/AstroWell/BlueSteel'
+license: CC-BY-NC-SA-4.0
+tags:
+  - crewed
+  - first-person
+  - parts
+depends:
+  - name: ModuleManager
+install:
+  - find: BlueSteel
+    install_to: GameData
+  - file: Ships/SPH
+    install_to: Ships
+x_netkan_version_edit:
+  find: ^v
+  replace: ''
+  strict: 'false'
+---
+spec_version: v1.34
+identifier: CommonwealthAeronauticsBlueSteel
+$kref: '#/ckan/spacedock/2583'
+license: CC-BY-NC-SA-4.0
+tags:
+  - crewed
+  - first-person
+  - parts
+depends:
+  - name: ModuleManager
+install:
+  - find: BlueSteel
+    install_to: GameData
+  - file: Ships/SPH
+    install_to: Ships
