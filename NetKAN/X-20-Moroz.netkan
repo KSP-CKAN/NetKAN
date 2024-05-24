@@ -1,7 +1,7 @@
 spec_version: v1.34
 identifier: X-20-Moroz
 $kref: '#/ckan/github/AstroWell/X-20-Moroz-Spaceplane'
-license: CC-BY-SA-NC-4
+license: CC-BY-NC-SA-4.0
 tags:
   - crewed
   - first-person
@@ -17,7 +17,7 @@ install:
 spec_version: v1.34
 identifier: X-20-Moroz
 $kref: '#/ckan/spacedock/2149'
-license: CC-BY-SA-NC-4
+license: CC-BY-NC-SA-4.0
 tags:
   - crewed
   - first-person
