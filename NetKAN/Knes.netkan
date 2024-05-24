@@ -24,10 +24,6 @@ install:
     install_to: Ships
   - file: Ships/VAB
     install_to: Ships
-x_netkan_version_edit:
-  find: ^v
-  replace: ''
-  strict: 'false'
 ---
 spec_version: v1.34
 identifier: Knes
