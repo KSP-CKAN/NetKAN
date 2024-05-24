@@ -13,23 +13,8 @@ depends:
 install:
   - find: Luciole
     install_to: GameData
-    filter_regexp: \.craft$
-  - file: CraftFiles/Ships/VAB/[ Blue Bee ] Luciole Heavy.craft
-    install_to: Ships/VAB
-  - file: CraftFiles/Ships/VAB/[ Luciole Heavy ] Rescue.craft
-    install_to: Ships/VAB
-  - file: CraftFiles/Ships/VAB/[ Luciole Heavy ].craft
-    install_to: Ships/VAB
-  - file: CraftFiles/Ships/VAB/[ Luciole Light ].craft
-    install_to: Ships/VAB
-  - file: CraftFiles/Ships/VAB/[ Luciole ] Cargo Vehicle.craft
-    install_to: Ships/VAB
-  - file: CraftFiles/Ships/VAB/[ Luciole ] Crewed.craft
-    install_to: Ships/VAB
-  - file: CraftFiles/Ships/VAB/[ Luciole ] Target Vehicle.craft
-    install_to: Ships/VAB
-  - file: CraftFiles/Ships/VAB/[ Luciole ].craft
-    install_to: Ships/VAB
+  - file: CraftFiles/Ships/VAB
+    install_to: Ships
 x_netkan_version_edit:
   find: ^v
   replace: ''
@@ -50,21 +35,5 @@ depends:
 install:
   - find: Luciole
     install_to: GameData
-    filter_regexp: \.craft$
-  - file: CraftFiles/Ships/VAB/[ Blue Bee ] Luciole Heavy.craft
-    install_to: Ships/VAB
-  - file: CraftFiles/Ships/VAB/[ Luciole Heavy ] Rescue.craft
-    install_to: Ships/VAB
-  - file: CraftFiles/Ships/VAB/[ Luciole Heavy ].craft
-    install_to: Ships/VAB
-  - file: CraftFiles/Ships/VAB/[ Luciole Light ].craft
-    install_to: Ships/VAB
-  - file: CraftFiles/Ships/VAB/[ Luciole ] Cargo Vehicle.craft
-    install_to: Ships/VAB
-  - file: CraftFiles/Ships/VAB/[ Luciole ] Crewed.craft
-    install_to: Ships/VAB
-  - file: CraftFiles/Ships/VAB/[ Luciole ] Target Vehicle.craft
-    install_to: Ships/VAB
-  - file: CraftFiles/Ships/VAB/[ Luciole ].craft
-    install_to: Ships/VAB
-x_via: Automated SpaceDock CKAN submission
+  - file: CraftFiles/Ships/VAB
+    install_to: Ships
