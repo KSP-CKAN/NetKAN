@@ -1,0 +1,37 @@
+spec_version: v1.34
+identifier: WaterfallExtensions
+$kref: '#/ckan/github/rbeap/WaterfallExtensions'
+license: CC0
+tags:
+  - config
+  - graphics
+  - sound
+depends:
+  - name: ModuleManager
+  - name: B9PartSwitch
+  - name: Waterfall
+recommends:
+  - name: KWRocketryRebalanced
+  - name: NewTantaresLV
+  - name: ReStock
+  - name: ShuttleLiftingBodyCormorantAeronology
+  - name: KWRocketry-LegacyFairings
+---
+spec_version: v1.34
+identifier: WaterfallExtensions
+$kref: '#/ckan/spacedock/3604'
+license: CC0
+tags:
+  - config
+  - graphics
+  - sound
+depends:
+  - name: ModuleManager
+  - name: B9PartSwitch
+  - name: Waterfall
+recommends:
+  - name: KWRocketryRebalanced
+  - name: NewTantaresLV
+  - name: ReStock
+  - name: ShuttleLiftingBodyCormorantAeronology
+  - name: KWRocketry-LegacyFairings
