@@ -1,24 +1,36 @@
-{
-    "spec_version": "v1.18",
-    "identifier":   "ContractConfigurator-PlanesWithPurposes",
-    "$kref":        "#/ckan/spacedock/2601",
-    "license":      "MIT",
-    "tags": [
-        "config",
-        "career"
-    ],
-    "depends": [
-        { "name": "ContractConfigurator" },
-        { "name": "ModuleManager"        }
-    ],
-    "recommends": [
-        { "name": "AirplanePlus"            },
-        { "name": "KerbalAircraftExpansion" }
-    ],
-    "install": [
-        {
-            "find":       "PWP",
-            "install_to": "GameData/ContractPacks"
-        }
-    ]
-}
+spec_version: v1.34
+identifier: ContractConfigurator-PlanesWithPurposes
+$kref: '#/ckan/github/TudorAerospace/PWP'
+x_netkan_version_edit: ^v(?<version>.*)$
+license: MIT
+tags:
+  - career
+  - flags
+  - agency
+depends:
+  - name: ModuleManager
+  - name: ContractConfigurator
+recommends:
+  - name: AirplanePlus
+  - name: KerbalAircraftExpansion
+install:
+  - find: ContractPacks
+    install_to: GameData
+---
+spec_version: v1.34
+identifier: ContractConfigurator-PlanesWithPurposes
+$kref: '#/ckan/spacedock/2601'
+license: MIT
+tags:
+  - career
+  - flags
+  - agency
+depends:
+  - name: ModuleManager
+  - name: ContractConfigurator
+recommends:
+  - name: AirplanePlus
+  - name: KerbalAircraftExpansion
+install:
+  - find: ContractPacks
+    install_to: GameData
