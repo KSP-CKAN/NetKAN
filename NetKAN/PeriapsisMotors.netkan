@@ -1,0 +1,11 @@
+spec_version: v1.34
+identifier: PeriapsisMotors
+$kref: '#/ckan/spacedock/3600'
+license: restricted
+tags:
+  - parts
+depends:
+  - name: ModuleManager
+  - name: B9PartSwitch
+  - name: RealPlume
+  - name: DepthMask
