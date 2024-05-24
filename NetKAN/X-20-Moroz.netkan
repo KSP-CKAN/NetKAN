@@ -1,0 +1,31 @@
+spec_version: v1.34
+identifier: X-20-Moroz
+$kref: '#/ckan/github/AstroWell/X-20-Moroz-Spaceplane'
+license: CC-BY-NC-SA-4.0
+tags:
+  - crewed
+  - first-person
+  - parts
+install:
+  - find: X-20-Moroz
+    install_to: GameData
+  - file: Ships/VAB
+    install_to: Ships
+  - file: Ships/SPH
+    install_to: Ships
+---
+spec_version: v1.34
+identifier: X-20-Moroz
+$kref: '#/ckan/spacedock/2149'
+license: CC-BY-NC-SA-4.0
+tags:
+  - crewed
+  - first-person
+  - parts
+install:
+  - find: X-20-Moroz
+    install_to: GameData
+  - file: Ships/VAB
+    install_to: Ships
+  - file: Ships/SPH
+    install_to: Ships
