@@ -1,0 +1,28 @@
+spec_version: v1.34
+identifier: SciFiShipyardsRedux
+$kref: '#/ckan/spacedock/3593'
+$vref: '#/ckan/ksp-avc'
+license: GPL-3.0
+tags:
+  - crewed
+  - first-person
+  - graphics
+  - parts
+  - plugin
+depends:
+  - name: ModuleManager
+  - name: Waterfall
+  - name: CommunityResourcePack
+  - name: HangarExtender
+recommends:
+  - name: TrekDrive
+  - name: Science-Full-Transmit
+  - name: BDArmory
+install:
+  - find: ScifiShipyardsRedux
+    install_to: GameData
+    filter:
+      - .DS_Store
+      - Ships
+  - find: Ships/SPH
+    install_to: Ships
