@@ -5,6 +5,6 @@ license: MIT
 tags:
   - parts
 install:
-  - find: Parts
-    install_to: GameData/NuriLaunchExpansion
-x_via: Automated SpaceDock CKAN submission
+  - find: NuriLaunchExpansion
+    install_to: GameData
+    filter: .DS_Store
