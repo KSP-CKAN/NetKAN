@@ -1,0 +1,10 @@
+spec_version: v1.34
+identifier: Bumper
+$kref: '#/ckan/spacedock/3607'
+license: MIT
+tags:
+  - config
+  - planet-pack
+depends:
+  - name: ModuleManager
+  - name: Kopernicus
