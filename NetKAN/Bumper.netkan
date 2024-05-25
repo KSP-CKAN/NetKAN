@@ -1,5 +1,5 @@
 spec_version: v1.34
-identifier: Bumperthedistanticyplanet
+identifier: Bumper
 $kref: '#/ckan/spacedock/3607'
 license: MIT
 tags:
@@ -8,7 +8,3 @@ tags:
 depends:
   - name: ModuleManager
   - name: Kopernicus
-install:
-  - find: Bumper
-    install_to: GameData
-x_via: Automated SpaceDock CKAN submission
