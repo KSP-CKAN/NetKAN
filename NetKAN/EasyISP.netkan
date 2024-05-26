@@ -1,0 +1,18 @@
+spec_version: v1.18
+identifier: EasyISP
+abstract: Increase the specific impulse (ISP) of all engines
+$kref: '#/ckan/github/Tempus-superest/EasyISP'
+x_netkan_github:
+  use_source_archive: true
+$vref: '#/ckan/ksp-avc'
+license: Unlicense
+tags:
+  - physics
+  - convenience
+  - resources
+depends:
+  - name: ModuleManager
+install:
+  - find_regexp: .*EasyISP.*
+    install_to: GameData
+    as: EasyISP
