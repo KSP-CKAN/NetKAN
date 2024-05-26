@@ -17,6 +17,10 @@
         "sound"
     ],
     "depends" : [
+        { "name" : "ClickThroughBlocker" },
+        { "name" : "ToolbarController" }
+    ],
+    "recommends" : [
         { "name" : "ModuleManager" }
     ],
     "x_netkan_override": [
