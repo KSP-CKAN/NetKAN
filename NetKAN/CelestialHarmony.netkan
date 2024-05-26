@@ -1,0 +1,24 @@
+spec_version: v1.4
+identifier: CelestialHarmony
+abstract: >-
+  A brand new star system set in the far future where Kerbals
+  have migrated towards a luxurious binary habitable worlds
+$kref: '#/ckan/github/ProximaCentauri-star/Celestial-Harmony'
+license: restricted
+tags:
+  - planet-pack
+provides:
+  - Scatterer-sunflare
+conflicts:
+  - name: KSCSwitcher
+  - name: JNSQ
+  - name: BeyondHome
+depends:
+  - name: ModuleManager
+  - name: Kopernicus
+  - name: VertexMitchellNetravaliHeightMap
+  - name: VertexHeightOblateAdvanced
+suggests:
+  - name: EnvironmentalVisualEnhancements
+  - name: Scatterer
+  - name: Parallax
