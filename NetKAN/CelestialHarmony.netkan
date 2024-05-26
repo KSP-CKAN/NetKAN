@@ -7,6 +7,8 @@ $kref: '#/ckan/github/ProximaCentauri-star/Celestial-Harmony'
 license: restricted
 tags:
   - planet-pack
+provides:
+  - Scatterer-sunflare
 conflicts:
   - name: KSCSwitcher
   - name: JNSQ
