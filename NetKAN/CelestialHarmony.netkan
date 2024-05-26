@@ -1,0 +1,19 @@
+spec_version: v1.4
+identifier: CelestialHarmony
+$kref: '#/ckan/github/ProximaCentauri-star/Celestial-Harmony'
+license: restricted
+tags:
+  - planet-pack
+conflicts:
+  - name: KSCSwitcher
+  - name: JNSQ
+  - name: BeyondHome
+depends:
+  - name: ModuleManager
+  - name: Kopernicus
+  - name: VertexMitchellNetravaliHeightMap
+  - name: VertexHeightOblateAdvanced
+suggests:
+  - name: EnvironmentalVisualEnhancements
+  - name: Scatterer
+  - name: Parallax
