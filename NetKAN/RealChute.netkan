@@ -1,41 +1,36 @@
-{
-    "spec_version"   : 1,
-    "identifier"     : "RealChute",
-    "name"           : "RealChute Parachute Systems",
-    "abstract"       : "RealChute is a complete rework of the stock parachute module to fix a few of it's inconveniences and get more realistic results out of parachutes!",
-    "author"         : [ "stupid_chris", "sumghai" ],
-    "$kref"          : "#/ckan/github/ChrisViral/RealChute",
-    "$vref"          : "#/ckan/ksp-avc",
-    "license"        : "restricted",
-    "resources"      : {
-        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/52931-0"
-    },
-    "tags": [
-        "plugin",
-        "parts",
-        "physics",
-        "sound"
-    ],
-    "depends" : [
-        { "name" : "ClickThroughBlocker" },
-        { "name" : "ToolbarController" }
-    ],
-    "recommends" : [
-        { "name" : "ModuleManager" }
-    ],
-    "x_netkan_override": [
-        {
-            "version": "1.3.2.3",
-            "override": {
-                "ksp_version_min": "1.0.2",
-                "ksp_version_max": "1.0.4"
-            }
-        },
-        {
-            "version": "v1.4",
-            "override": {
-                "ksp_version": "1.1.0"
-            }
-        }
-    ]
-}
+spec_version: v1.4
+identifier: RealChute
+name: RealChute Parachute Systems
+abstract: >-
+  Complete rework of the stock parachute module to fix a few of
+  its inconveniences and get more realistic results out of parachutes!
+author:
+  - stupid_chris
+  - sumghai
+$kref: '#/ckan/github/ChrisViral/RealChute'
+$vref: '#/ckan/ksp-avc'
+license: restricted
+resources:
+  homepage: http://forum.kerbalspaceprogram.com/index.php?/topic/52931-0
+tags:
+  - plugin
+  - parts
+  - physics
+  - sound
+depends:
+  - name: ClickThroughBlocker
+  - name: ToolbarController
+recommends:
+  - name: RealChuteForStock
+install:
+  - find: RealChute
+    install_to: GameData
+    filter: Patches
+x_netkan_override:
+  - version: 1.3.2.3
+    override:
+      ksp_version_min: 1.0.2
+      ksp_version_max: 1.0.4
+  - version: v1.4
+    override:
+      ksp_version: 1.1.0
