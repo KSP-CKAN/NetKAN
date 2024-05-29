@@ -1,0 +1,21 @@
+spec_version: v1.4
+identifier: RealChuteForStock
+name: RealChute for Stock
+abstract: Gives stock/ReStock parachutes RealChute capabilities
+author:
+  - stupid_chris
+  - sumghai
+$kref: '#/ckan/github/ChrisViral/RealChute'
+$vref: '#/ckan/ksp-avc'
+license: restricted
+resources:
+  homepage: http://forum.kerbalspaceprogram.com/index.php?/topic/52931-0
+tags:
+  - config
+  - physics
+depends:
+  - name: ModuleManager
+  - name: RealChute
+install:
+  - find: RealChute/Patches
+    install_to: GameData/RealChute
