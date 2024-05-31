@@ -1,24 +1,18 @@
-{
-    "spec_version": "v1.4",
-    "identifier":   "KerbinSideRemasteredGAP",
-    "$kref":        "#/ckan/spacedock/2573",
-    "license":      "MIT",
-    "tags": [
-        "config",
-        "career"
-    ],
-    "depends": [
-        { "name": "ModuleManager"        },
-        { "name": "KerbinSideRemastered" },
-        { "name": "KerbalKonstructs"     },
-        { "name": "ContractConfigurator" }
-    ],
-    "suggests": [
-        { "name": "NavUtilitiesContinued"    },
-        { "name": "KramaxAutopilotContinued" }
-    ],
-    "install": [ {
-        "find":       "ContractPacks",
-        "install_to": "GameData"
-    } ]
-}
+spec_version: v1.4
+identifier: KerbinSideRemasteredGAP
+$kref: '#/ckan/spacedock/2573'
+license: MIT
+tags:
+  - config
+  - career
+depends:
+  - name: ModuleManager
+  - name: KerbinSideRemastered
+  - name: KerbalKonstructs
+  - name: ContractConfigurator
+suggests:
+  - name: NavUtilities
+  - name: KramaxAutopilotContinued
+install:
+  - find: ContractPacks
+    install_to: GameData
