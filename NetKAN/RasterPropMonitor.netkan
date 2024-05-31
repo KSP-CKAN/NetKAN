@@ -24,7 +24,7 @@ recommends:
 suggests:
   - name: Astrogator
   - name: DockingPortAlignmentIndicator
-  - name: NavUtilitiesContinued
+  - name: NavUtilities
   - name: SCANsat
   - name: VesselView
   - name: ProbeControlRoomRecontrolled
