@@ -1,6 +1,6 @@
 spec_version: v1.18
 identifier: SRBWaterfallEffects
-$kref: '#/ckan/spacedock/2992'
+$kref: '#/ckan/github/dangaffa/RSMP'
 x_netkan_version_edit: ^(?<version>[^" ]+).*$
 license: CC-BY-NC-SA
 tags:
