@@ -3,6 +3,8 @@ identifier: SRBWaterfallEffects
 $kref: '#/ckan/github/dangaffa/RSMP'
 x_netkan_version_edit: ^(?<version>[^" ]+).*$
 license: CC-BY-NC-SA
+resources:
+  homepage: https://forum.kerbalspaceprogram.com/topic/207196-*
 tags:
   - config
   - graphics
