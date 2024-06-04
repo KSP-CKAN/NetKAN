@@ -1,0 +1,9 @@
+spec_version: v1.34
+identifier: BetterShieldedDockingPort
+$kref: '#/ckan/spacedock/3611'
+license: MIT
+tags:
+  - config
+depends:
+  - name: ModuleManager
+x_via: Automated SpaceDock CKAN submission
