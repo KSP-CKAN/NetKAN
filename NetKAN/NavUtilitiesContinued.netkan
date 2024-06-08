@@ -8,6 +8,8 @@ tags:
   - crewed
 provides:
   - NavUtilities
+conflicts:
+  - name: NavUtilities
 depends:
   - name: ModuleManager
 install:
