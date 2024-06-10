@@ -9,6 +9,7 @@ depends:
   - name: ModuleManager
   - name: Kopernicus
   - name: VertexMitchellNetravaliHeightMap
+  - name: KopernicusExpansion
 install:
   - find: TPR
     install_to: GameData
