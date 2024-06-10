@@ -1,0 +1,8 @@
+spec_version: v1.34
+identifier: KerbalStarSystems2
+$kref: '#/ckan/spacedock/3616'
+license: MIT
+install:
+  - find: Kerbal_Star_Systems_2
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
