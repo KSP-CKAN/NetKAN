@@ -1,0 +1,20 @@
+spec_version: v1.34
+identifier: VertexColorMapEmissive
+$kref: '#/ckan/github/jamespglaze/VertexColorMapEmissive'
+license: MIT
+tags:
+  - plugin
+install:
+  - find: 001_DuckweedUtils
+    install_to: GameData
+---
+spec_version: v1.34
+identifier: VertexColorMapEmissive
+$kref: '#/ckan/spacedock/3620'
+license: MIT
+tags:
+  - plugin
+install:
+  - find: 001_DuckweedUtils
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
