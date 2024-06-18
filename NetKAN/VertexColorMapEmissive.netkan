@@ -5,6 +5,9 @@ license: MIT
 tags:
   - plugin
   - library
+depends:
+  - name: ModuleManager
+  - name: Kopernicus
 install:
   - find: 001_DuckweedUtils
     install_to: GameData
@@ -16,6 +19,9 @@ license: MIT
 tags:
   - plugin
   - library
+depends:
+  - name: ModuleManager
+  - name: Kopernicus
 install:
   - find: 001_DuckweedUtils
     install_to: GameData
