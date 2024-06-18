@@ -1,0 +1,14 @@
+spec_version: v1.34
+identifier: EvaporatingPlanetMod
+$kref: '#/ckan/spacedock/3636'
+license: MIT
+tags:
+  - config
+  - planet-pack
+depends:
+  - name: ModuleManager
+  - name: Kopernicus
+install:
+  - find: Nonsense
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
