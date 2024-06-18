@@ -4,6 +4,7 @@ $kref: '#/ckan/github/jamespglaze/VertexColorMapEmissive'
 license: MIT
 tags:
   - plugin
+  - library
 install:
   - find: 001_DuckweedUtils
     install_to: GameData
@@ -14,7 +15,7 @@ $kref: '#/ckan/spacedock/3620'
 license: MIT
 tags:
   - plugin
+  - library
 install:
   - find: 001_DuckweedUtils
     install_to: GameData
-x_via: Automated SpaceDock CKAN submission
