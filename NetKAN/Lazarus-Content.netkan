@@ -1,9 +1,8 @@
 spec_version: v1.18
-identifier: Lazarus
-name: Lazarus Core
-abstract: >-
-  System replacer and interstellar additions mod
-$kref: '#/ckan/github/hmelioo/Lazarus/asset_match/Core'
+identifier: Lazarus-Content
+name: Lazarus Content
+abstract: Additional files for Lazarus beyond GitHub's 2 GiB release asset limit
+$kref: '#/ckan/github/hmelioo/Lazarus/asset_match/Content'
 ksp_version: 1.12
 license: CC-BY-NC-ND
 resources:
@@ -15,7 +14,7 @@ depends:
   - name: ModuleManager
   - name: Kopernicus
   - name: VertexMitchellNetravaliHeightMap
-  - name: Lazarus-Content
+  - name: Lazarus
 recommends:
   - name: EnvironmentalVisualEnhancements
   - name: Scatterer
