@@ -11,6 +11,7 @@ tags:
 depends:
   - name: ModuleManager
   - name: KSPBurst
+  - name: ClickThroughBlocker
 conflicts:
   - name: RemoteTech
   - name: CommNetVisualization
