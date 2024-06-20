@@ -13,7 +13,9 @@ tags:
 depends:
   - name: ModuleManager
   - name: Kopernicus
+  - name: INSTANTIATOR
   - name: VertexMitchellNetravaliHeightMap
+  - name: VertexColorMapEmissive
   - name: Lazarus
 recommends:
   - name: EnvironmentalVisualEnhancements
