@@ -16,7 +16,7 @@ conflicts:
 install:
   - find: Scatterer
     install_to: GameData
-    filter_regexp: config\/.*
+    filter_regexp: StockScattererConfigs\/.*
 x_netkan_override:
   - version:
       - '>=3:v0.0829'

@@ -16,8 +16,8 @@ comment: Does not depend on Scatterer to match Scatterer-sunflare
 conflicts:
   - name: Scatterer-config
 install:
-  - find: Scatterer/config
-    install_to: GameData/Scatterer
+  - find: StockScattererConfigs
+    install_to: GameData
     filter: Sunflares
 x_netkan_override:
   - version:
