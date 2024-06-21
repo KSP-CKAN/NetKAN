@@ -7,6 +7,9 @@ tags:
   - parts
 depends:
   - name: ModuleManager
+  - name: AtomicTechnologiesIncorporated
+  - name: Waterfall
+  - name: StockWaterfallEffects
 install:
   - find: AtomicTech
     install_to: GameData
