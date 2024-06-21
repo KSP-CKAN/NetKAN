@@ -8,7 +8,6 @@ tags:
 depends:
   - name: ModuleManager
 install:
-  - find: AtomicTech (2)
-    as: AtomicTech
+  - find: AtomicTech
     install_to: GameData
     filter: .gitignore
