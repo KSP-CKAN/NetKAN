@@ -1,14 +1,16 @@
 spec_version: v1.18
 identifier: AtomicTechIncJunkyards
 $kref: '#/ckan/spacedock/2891'
-$vref: '#/ckan/ksp-avc/RadioactiveJunkyards.version'
+$vref: '#/ckan/ksp-avc'
 license: BSD-3-clause
 tags:
   - parts
 depends:
   - name: ModuleManager
+  - name: AtomicTechnologiesIncorporated
+  - name: Waterfall
+  - name: StockWaterfallEffects
 install:
-  - find: AtomicTech (2)
-    as: AtomicTech
+  - find: AtomicTech
     install_to: GameData
     filter: .gitignore
