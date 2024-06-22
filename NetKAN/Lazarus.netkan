@@ -20,6 +20,8 @@ depends:
 recommends:
   - name: EnvironmentalVisualEnhancements
   - name: Scatterer
+  - name: Parallax
+  - name: Parallax-StockTextures
 install:
   - find: KIPcore
     install_to: GameData
