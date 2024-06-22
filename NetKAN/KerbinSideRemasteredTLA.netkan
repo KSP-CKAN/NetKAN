@@ -13,7 +13,6 @@ depends:
   - name: KerbinSideRemasteredGapExtras
   - name: KSCHarbor
   - name: WaterLaunchSites
-  - name: CountryDoggosRandomKKBits
 recommends:
   - name: WorkingUnderwaterLite
 suggests:
