@@ -17,10 +17,16 @@ depends:
 recommends:
   - name: RealEngines
 suggests:
+  - name: ReStock
+  - name: ReStockPlus
+supports:
+  - name: Kerbalism
+  - name: BluedogDB
+  - name: NewTantares
+  - name: TantaresSP
+  - name: ProceduralParts
   - name: MandatoryRCS
   - name: InternalRCS
-supports:
-  - name: NewTantares
 install:
   - find: zzz_RSS_Adapter
     filter:
