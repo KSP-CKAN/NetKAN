@@ -3,6 +3,8 @@ identifier: RSS-Adapter
 abstract: Adapts your stock KSP for the Real Solar System
 $kref: '#/ckan/github/Globul-Art/RSS_Adapter'
 license: MIT
+resources:
+  homepage: https://forum.kerbalspaceprogram.com/topic/224480-181-1122-rss-adapter/
 tags:
   - config
   - parts
