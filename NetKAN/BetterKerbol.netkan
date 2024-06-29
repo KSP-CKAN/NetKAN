@@ -10,8 +10,3 @@ depends:
   - name: Kopernicus
 recommends:
   - name: Scatterer
-conflicts:
-  - name: Scatterer
-    max_version: 3:v0.0830
-suggests:
-  - name: BetterKerbolRescale
