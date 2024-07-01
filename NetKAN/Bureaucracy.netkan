@@ -1,7 +1,9 @@
 spec_version: v1.4
 identifier: Bureaucracy
 name: Bureaucracy
-abstract: Replacement for Monthly Budgets, now with Construction and Research Funding!
+abstract: >-
+  Replacement for Monthly Budgets,
+  now with Construction and Research Funding!
 $kref: '#/ckan/github/R-T-B/Bureaucracy'
 $vref: '#/ckan/ksp-avc'
 license: MIT
