@@ -1,0 +1,9 @@
+spec_version: v1.34
+identifier: MasPatches
+$kref: '#/ckan/spacedock/3648'
+license: Other
+tags:
+  - config
+depends:
+  - name: ModuleManager
+x_via: Automated SpaceDock CKAN submission
