@@ -11,3 +11,6 @@ depends:
 install:
   - find_regexp: .*DuckweedUtils
     install_to: GameData
+    filter:
+      - LICENSE
+      - README.md
