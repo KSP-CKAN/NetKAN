@@ -3,11 +3,8 @@ identifier: PerSaveScreenshots
 $kref: '#/ckan/github/DeltaDizzy/PerSaveScreenshots'
 ksp_version: 1.12
 license: MIT
-resources:
-  homepage: https://forum.kerbalspaceprogram.com/topic/219192-*
 tags:
   - plugin
   - convenience
-install:
-  - file: GameData/PerSaveScreenshots.dll
-    install_to: GameData/PerSaveScreenshots
+depends:
+  - name: Shabby
