@@ -1,0 +1,32 @@
+spec_version: v1.34
+identifier: SSAUCE
+$kref: '#/ckan/github/LilBread402/SSAUCE'
+license: Other
+tags:
+  - crewed
+  - first-person
+  - graphics
+  - parts
+depends:
+  - name: ModuleManager
+  - name: B9PartSwitch
+  - name: Waterfall
+x_netkan_version_edit:
+  find: ^v.
+  replace: ''
+  strict: 'false'
+---
+spec_version: v1.34
+identifier: SSAUCE
+$kref: '#/ckan/spacedock/3649'
+license: Other
+tags:
+  - crewed
+  - first-person
+  - graphics
+  - parts
+depends:
+  - name: ModuleManager
+  - name: B9PartSwitch
+  - name: Waterfall
+x_via: Automated SpaceDock CKAN submission
