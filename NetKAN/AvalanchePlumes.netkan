@@ -1,0 +1,15 @@
+spec_version: v1.34
+identifier: AvalanchePlumes
+$kref: '#/ckan/spacedock/3650'
+license: CC-BY-NC-SA
+tags:
+  - config
+  - graphics
+depends:
+  - name: ModuleManager
+  - name: Waterfall
+install:
+  - find: Avalanche
+    install_to: GameData
+    filter: .git
+x_via: Automated SpaceDock CKAN submission
