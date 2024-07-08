@@ -94,6 +94,10 @@ install:
     install_to: GameData/WildBlueIndustries/000WildBlueTools/Templates/CRP/Storage
     as: Organics.cfg
     find_matches_files: true
+  - find: 000WildBlueTools/Templates/CRP/Storage/Omnistorage.txt
+    install_to: GameData/WildBlueIndustries/000WildBlueTools/Templates/CRP/Storage
+    as: Omnistorage.cfg
+    find_matches_files: true
   - find: 000WildBlueTools/Templates/CRP/Storage/RareMetals.txt
     install_to: GameData/WildBlueIndustries/000WildBlueTools/Templates/CRP/Storage
     as: RareMetals.cfg
