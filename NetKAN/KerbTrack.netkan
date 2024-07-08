@@ -7,9 +7,11 @@
     "tags": [
         "plugin",
         "app",
-        "control",
-        "crewed"
+        "first-person"
     ],
+    "depends": [ {
+        "name": "Harmony"
+    } ],
     "install": [ {
         "find": "GameData/KerbTrack",
         "install_to": "GameData"
