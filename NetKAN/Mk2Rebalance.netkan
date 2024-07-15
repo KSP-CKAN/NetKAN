@@ -1,0 +1,12 @@
+spec_version: v1.4
+identifier: Mk2Rebalance
+$kref: '#/ckan/spacedock/3661'
+ksp_version: 1.12
+license: CC-BY-SA-4.0
+description: >-
+  This mod slightly alters the fuel contents and aerodynamic characteristics of
+  the Mk2 spaceplane parts, to bring their performance in line with other parts.
+tags:
+  - config
+depends:
+  - name: ModuleManager
