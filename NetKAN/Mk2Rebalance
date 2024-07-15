@@ -1,0 +1,32 @@
+{
+    "spec_version": "v1.27",
+    "identifier": "Mk2Rebalance",
+    "name": "Mk2 Rebalance",
+    "abstract": "Balance fixes for the Mk2 spaceplane parts",
+    "author": "CensoredUsername <cens.username@gmail.com>",
+    "license": "CC-BY-SA-4.0",
+    "version": "0.0.1",
+    "$kref": "#/ckan/spacedock/3661",
+
+    "install" : [
+        {
+            "file" : "GameData/Mk2Rebalance",
+            "install_to" : "GameData"
+        }
+    ],
+
+    "description": "This mod slightly alters the fuel contents and aerodynamic characteristics of the Mk2 spaceplane parts, to bring their performance in line with other parts.",
+    "release_status": "testing",
+    "ksp_version": "1.12",
+    "tags" : ["config"],
+    "depends": [
+        { "name": "ModuleManager" },
+    ],
+
+    "resources" : {
+        "homepage" : "https://github.com/CensoredUsername/Mk2Rebalance",
+        "repository" : "https://github.com/CensoredUsername/Mk2Rebalance",
+        "license": "https://creativecommons.org/licenses/by-sa/4.0/legalcode",
+        "spacedock": "https://spacedock.info/mod/3661/Mk2%20Rebalance"
+    },
+}
