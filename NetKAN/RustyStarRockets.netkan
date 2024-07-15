@@ -1,4 +1,4 @@
-spec_version: v1.2
+spec_version: v1.4
 identifier: RustyStarRockets
 $kref: '#/ckan/spacedock/207'
 $vref: '#/ckan/ksp-avc'
@@ -29,3 +29,6 @@ suggests:
   - name: SimpleConstruction
   - name: SimpleLogistics
   - name: TweakScale
+install:
+  - find: RustyStar
+    install_to: GameData
