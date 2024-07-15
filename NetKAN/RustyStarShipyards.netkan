@@ -11,14 +11,6 @@ supports:
   - name: ZPEPropulsionSystem
   - name: PiratesoftheKeribbean
   - name: RustyTexturesforProceduralParts
-suggests:
-  - name: SimpleConstruction
-  - name: SimpleLogistics
-  - name: GPOSpeedPump
-  - name: Kaboom
-  - name: Biomatic
-  - name: TweakScale
-  - name: ModuleManager
 install:
   - find: RustyStar
     install_to: GameData
