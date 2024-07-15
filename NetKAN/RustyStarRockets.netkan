@@ -29,3 +29,6 @@ suggests:
   - name: SimpleConstruction
   - name: SimpleLogistics
   - name: TweakScale
+install:
+  - find: RustyStar
+    install_to: GameData
