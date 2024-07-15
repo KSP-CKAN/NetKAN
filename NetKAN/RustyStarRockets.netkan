@@ -9,26 +9,11 @@ tags:
 depends:
   - name: ModuleManager
   - name: RustyStarShipyards
-supports:
-  - name: GPOSpeedPump
-  - name: OnDemandFuelCells
-  - name: CommunityCategoryKit
-  - name: CommunityResourcePack
-  - name: FirespitterCore
-  - name: USI-Core
 suggests:
-  - name: PiratesoftheKeribbean
+  - name: CommunityCategoryKit
   - name: RustyTexturesforProceduralParts
   - name: ZPEPropulsionSystem
-  - name: Biomatic
-  - name: GPOSpeedPump
-  - name: Kaboom
-  - name: Komplexity
-  - name: OhScrap
-  - name: ScrapYard
-  - name: SimpleConstruction
-  - name: SimpleLogistics
-  - name: TweakScale
+  - name: PiratesoftheKeribbean
 install:
   - find: RustyStar
     install_to: GameData
