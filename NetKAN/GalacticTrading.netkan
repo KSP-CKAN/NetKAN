@@ -7,4 +7,11 @@ tags:
   - parts
 depends:
   - name: KerbalKonstructs
+  - name: WaypointManager
+  - name: StockalikeStructures
+suggests:
+  - name: MechJeb2
+  - name: AtmosphereAutopilot
+  - name: KSPCasherCont
+  - name: Trajectories
 x_via: Automated SpaceDock CKAN submission
