@@ -10,3 +10,5 @@ tags:
   - config
 depends:
   - name: ModuleManager
+supports:
+  - name: Mk2Expansion
