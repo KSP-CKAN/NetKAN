@@ -1,0 +1,17 @@
+spec_version: v1.34
+identifier: GalacticTrading
+$kref: '#/ckan/spacedock/3586'
+license: GPL-3.0
+tags:
+  - buildings
+  - parts
+depends:
+  - name: KerbalKonstructs
+  - name: WaypointManager
+  - name: StockalikeStructures
+suggests:
+  - name: MechJeb2
+  - name: AtmosphereAutopilot
+  - name: KSPCasherCont
+  - name: Trajectories
+x_via: Automated SpaceDock CKAN submission
