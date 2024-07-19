@@ -7,7 +7,7 @@ tags:
   - first-person
   - parts
 depends:
-  - KerbalExpeditionaryGroup
+  - name: KerbalExpeditionaryGroup
 install:
   - find: MK3 Science
     install_to: GameData/KerbalExpeditionaryGroup
