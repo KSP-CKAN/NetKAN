@@ -3,5 +3,6 @@ identifier: KerbalExpeditionaryGroup
 $kref: '#/ckan/spacedock/3589'
 license: GPL-3.0
 tags:
-  - config
+  - flags
+  - agency
 x_via: Automated SpaceDock CKAN submission
