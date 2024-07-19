@@ -8,6 +8,9 @@ tags:
 depends:
   - name: ModuleManager
   - name: Waterfall
+conflicts:
+  - name: SRBWaterfallEffects
+  - name: RealPlume
 install:
   - find: Avalanche
     install_to: GameData
