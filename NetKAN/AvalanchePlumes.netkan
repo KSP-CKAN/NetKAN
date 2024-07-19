@@ -11,6 +11,9 @@ depends:
 conflicts:
   - name: SRBWaterfallEffects
   - name: RealPlume
+suggests:
+  - name: StockWaterfallEffects
+  - name: RestockWaterfallExpansion
 install:
   - find: Avalanche
     install_to: GameData
