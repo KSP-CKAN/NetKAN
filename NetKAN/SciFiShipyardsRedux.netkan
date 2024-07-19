@@ -2,6 +2,10 @@ spec_version: v1.34
 identifier: SciFiShipyardsRedux
 name: SciFi Shipyards Redux
 $kref: '#/ckan/spacedock/3593'
+author:
+  - Shammyofwar
+  - StarVision
+  - Boogaman
 comment: The version files are from bundled mods only
 license: GPL-3.0
 tags:
@@ -9,16 +13,17 @@ tags:
   - first-person
   - graphics
   - parts
-  - plugin
+  - flags
 depends:
   - name: ModuleManager
   - name: Waterfall
   - name: CommunityResourcePack
-  - name: HangarExtender
 recommends:
   - name: TrekDrive
   - name: Science-Full-Transmit
+  - name: CommunityTechTree
   - name: BDArmory
+  - name: HangarExtender
 install:
   - find: ScifiShipyardsRedux
     install_to: GameData
