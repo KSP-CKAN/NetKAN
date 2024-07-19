@@ -6,7 +6,9 @@ tags:
   - crewed
   - first-person
   - parts
+depends:
+  - KerbalExpeditionaryGroup
 install:
-  - find: Kerbal expeditionary group
-    install_to: GameData
+  - find: MK3 Science
+    install_to: GameData/KerbalExpeditionaryGroup
 x_via: Automated SpaceDock CKAN submission
