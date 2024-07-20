@@ -10,6 +10,6 @@ recommends:
 install:
   - find: HotAirBalloon
     install_to: GameData
-  - file: Craft/ZeppelinComplete.craft
+  - file: GameData/Craft/ZeppelinComplete.craft
     install_to: Ships/SPH
 x_via: Automated SpaceDock CKAN submission
