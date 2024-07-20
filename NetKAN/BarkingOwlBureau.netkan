@@ -1,0 +1,30 @@
+spec_version: v1.34
+identifier: BarkingOwlBureau
+$kref: '#/ckan/github/Bellabong/Barking-Owl-Bureau'
+license: CC-BY-NC-SA
+tags:
+  - config
+  - graphics
+depends:
+  - name: ModuleManager
+  - name: TUFX
+  - name: B9PartSwitch
+install:
+  - find: BarkingOwl
+    install_to: GameData
+---
+spec_version: v1.34
+identifier: BarkingOwlBureau
+$kref: '#/ckan/spacedock/3665'
+license: CC-BY-NC-SA
+tags:
+  - config
+  - graphics
+depends:
+  - name: ModuleManager
+  - name: TUFX
+  - name: B9PartSwitch
+install:
+  - find: BarkingOwl
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
