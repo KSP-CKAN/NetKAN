@@ -1,10 +1,10 @@
 spec_version: v1.34
-identifier: GEFFECTSREAFFECTED
+identifier: G-Effects
 $kref: '#/ckan/github/AMPW-german/G-Effects-Reaffected'
 license: GPL-3.0
 tags:
-  - config
   - plugin
+  - first-person
 install:
   - find: G-Effects
     install_to: GameData
@@ -14,12 +14,12 @@ x_netkan_version_edit:
   strict: 'false'
 ---
 spec_version: v1.34
-identifier: GEFFECTSREAFFECTED
+identifier: G-Effects
 $kref: '#/ckan/spacedock/3612'
 license: GPL-3.0
 tags:
-  - config
   - plugin
+  - first-person
 install:
   - find: G-Effects
     install_to: GameData
