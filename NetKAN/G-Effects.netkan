@@ -10,13 +10,6 @@ tags:
   - plugin
   - first-person
   - crewed
-install:
-  - find: G-Effects
-    install_to: GameData
-x_netkan_version_edit:
-  find: ^v
-  replace: ''
-  strict: 'false'
 ---
 spec_version: v1.34
 identifier: G-Effects
@@ -30,7 +23,3 @@ tags:
   - plugin
   - first-person
   - crewed
-install:
-  - find: G-Effects
-    install_to: GameData
-x_via: Automated SpaceDock CKAN submission
