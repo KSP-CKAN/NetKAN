@@ -1,10 +1,15 @@
 spec_version: v1.34
-identifier: ColdJHotAirBalloon
+identifier: HotAirBalloon
 $kref: '#/ckan/spacedock/3635'
 license: CC-BY-SA-4.0
 tags:
   - parts
+recommends:
+  - name: WasdEditorCameraContinued
+  - name: PhysicsRangeExtender
 install:
   - find: HotAirBalloon
     install_to: GameData
+  - file: Craft/ZeppelinComplete.craft
+    install_to: Ships/SPH
 x_via: Automated SpaceDock CKAN submission
