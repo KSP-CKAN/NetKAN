@@ -8,7 +8,4 @@ tags:
 depends:
   - name: FinalFrontier
   - name: OuterPlanetsMod
-install:
-  - find: Nereid
-    install_to: GameData
 x_via: Automated SpaceDock CKAN submission
