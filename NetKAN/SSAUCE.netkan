@@ -1,7 +1,7 @@
 spec_version: v1.34
 identifier: SSAUCE
 $kref: '#/ckan/github/LilBread402/SSAUCE'
-license: Other
+license: restricted
 tags:
   - crewed
   - first-person
@@ -19,7 +19,7 @@ x_netkan_version_edit:
 spec_version: v1.34
 identifier: SSAUCE
 $kref: '#/ckan/spacedock/3649'
-license: Other
+license: restricted
 tags:
   - crewed
   - first-person
