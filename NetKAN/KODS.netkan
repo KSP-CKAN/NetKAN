@@ -1,5 +1,5 @@
 spec_version: v1.34
-identifier: KODSKiwiOrbitalDesignsServices
+identifier: KODS
 $kref: '#/ckan/spacedock/3602'
 license: Other
 tags:
@@ -14,6 +14,6 @@ depends:
 conflicts:
   - name: BrunosRocketEmporiumAndDesigns
 install:
-  - find: Kiwi-Orbital-Designs-Systems-main
+  - find: KODS
     install_to: GameData
 x_via: Automated SpaceDock CKAN submission
