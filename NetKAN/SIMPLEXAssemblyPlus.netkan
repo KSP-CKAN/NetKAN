@@ -1,11 +1,18 @@
 spec_version: v1.34
 identifier: SIMPLEXAssemblyPlus
 $kref: '#/ckan/spacedock/3645'
-$vref: '#/ckan/ksp-avc'
+x_netkan_version_edit:
+  find: ^(?<version>.+)\.(?<date>[0-9]{4,8})$
+  replace: ${version}
+  strict: true
 license: GPL-3.0
 tags:
   - config
   - plugin
 depends:
   - name: ModuleManager
+  - name: SIMPLEXAssembly
+install:
+  - find: AngleCanMods
+    install_to: GameData
 x_via: Automated SpaceDock CKAN submission
