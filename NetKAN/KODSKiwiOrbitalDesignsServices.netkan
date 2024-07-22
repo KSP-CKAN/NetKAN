@@ -3,12 +3,16 @@ identifier: KODSKiwiOrbitalDesignsServices
 $kref: '#/ckan/spacedock/3602'
 license: Other
 tags:
-  - graphics
   - parts
 depends:
   - name: ModuleManager
   - name: B9PartSwitch
   - name: Waterfall
+  - name: CommunityResourcePack
+  - name: DeployableEngines
+  - name: SimpleAdjustableFairings
+conflicts:
+  - name: BrunosRocketEmporiumAndDesigns
 install:
   - find: Kiwi-Orbital-Designs-Systems-main
     install_to: GameData
