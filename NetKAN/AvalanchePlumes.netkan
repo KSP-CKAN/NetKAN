@@ -8,6 +8,7 @@ tags:
 depends:
   - name: ModuleManager
   - name: Waterfall
+  - name: SmokeScreen
 conflicts:
   - name: SRBWaterfallEffects
   - name: RealPlume
