@@ -8,4 +8,10 @@ tags:
   - parts
 depends:
   - name: ModuleManager
+  - name: ReStock
+  - name: ReStockPlus
+  - name: SIMPLEXStationParts
+install:
+  - find: AngleCanMods
+    install_to: GameData
 x_via: Automated SpaceDock CKAN submission
