@@ -1,0 +1,11 @@
+spec_version: v1.34
+identifier: OPMFinalFrontierRibbons
+$kref: '#/ckan/spacedock/3610'
+license: CC-BY-NC-ND
+tags:
+  - config
+  - career
+depends:
+  - name: FinalFrontier
+  - name: OuterPlanetsMod
+x_via: Automated SpaceDock CKAN submission
