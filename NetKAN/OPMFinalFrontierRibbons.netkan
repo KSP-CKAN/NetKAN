@@ -1,5 +1,5 @@
 spec_version: v1.34
-identifier: OuterPlanetsModFinalFrontierRibbonPack
+identifier: OPMFinalFrontierRibbons
 $kref: '#/ckan/spacedock/3610'
 license: CC-BY-NC-ND
 tags:
@@ -8,7 +8,4 @@ tags:
 depends:
   - name: FinalFrontier
   - name: OuterPlanetsMod
-install:
-  - find: Nereid
-    install_to: GameData
 x_via: Automated SpaceDock CKAN submission
