@@ -1,0 +1,19 @@
+spec_version: v1.34
+identifier: KODS
+$kref: '#/ckan/spacedock/3602'
+license: restricted
+tags:
+  - parts
+depends:
+  - name: ModuleManager
+  - name: B9PartSwitch
+  - name: Waterfall
+  - name: CommunityResourcePack
+  - name: DeployableEngines
+  - name: SimpleAdjustableFairings
+conflicts:
+  - name: BrunosRocketEmporiumAndDesigns
+install:
+  - find: KODS
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
