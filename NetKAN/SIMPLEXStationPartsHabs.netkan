@@ -1,6 +1,10 @@
 spec_version: v1.34
 identifier: SIMPLEXStationPartsHabs
 $kref: '#/ckan/spacedock/3644'
+x_netkan_version_edit:
+  find: ^(?<version>.+)\.(?<date>[0-9]{4,8})$
+  replace: ${version}
+  strict: true
 license: CC-BY-NC-SA
 tags:
   - crewed
