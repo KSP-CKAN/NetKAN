@@ -19,7 +19,7 @@
 		{ "name": "Corvus125mTwoKerbalPod" },
 		{ "name": "K2CommandPodCont" }
 	],
-	"replaced-by" : { "name": "NehemiahEngineeringOrbitalScience" }
+	"replaced_by" : { "name": "NehemiahEngineeringOrbitalScience" },
 	"install": [
 		{
 			"file": "NehemiahInc/Kemini",

@@ -10,7 +10,7 @@
 	"resources": {
 		"homepage": "http://forum.kerbalspaceprogram.com/index.php?showtopic=149298"
 	},
-	"replaced-by" : { "name": "NehemiahEngineeringOrbitalScience" }
+	"replaced_by" : { "name": "NehemiahEngineeringOrbitalScience" },
 	"install": [
 		{
 			"file": "NehemiahInc/NE_Science_Common",

@@ -15,7 +15,7 @@
 		{ "name": "DockingPortAlignmentIndicator" },
 		{ "name": "UniversalStorage" }
 	],
-	"replaced-by" : { "name": "NehemiahEngineeringOrbitalScience" }
+	"replaced_by" : { "name": "NehemiahEngineeringOrbitalScience" },
 	"install": [
 		{
 			"file": "NehemiahInc/MultiPurposeParts",

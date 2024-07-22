@@ -22,14 +22,14 @@
 		{ "name": "UniversalStorage" }
 	],
 	"provides"          : [
-		{ "name"             : "NehemiahScienceCommon" }
+		{ "name"             : "NehemiahScienceCommon" },
 		{ "name"             : "NehemiahMultiPurposeParts" },
 		{ "name"             : "KeminiResearchProgram" },
 		{ "name"             : "KerbalEnvironmentalEffectsStudy" },
 		{ "name"             : "KerbalLifeScience" },
 		{ "name"             : "OrbitalMaterialScience" }
 	],
-	"replaced-by" : { "name": "NehemiahEngineeringOrbitalScience" }
+	"replaced_by" : { "name": "NehemiahEngineeringOrbitalScience" },
 	"install": [
 		{
 			"file": "NehemiahInc",

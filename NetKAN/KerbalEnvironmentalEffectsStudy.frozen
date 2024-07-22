@@ -20,7 +20,7 @@
 		{ "name": "K2CommandPodCont" },
 		{ "name": "UniversalStorage" }
 	],
-	"replaced-by" : { "name": "NehemiahEngineeringOrbitalScience" }
+	"replaced_by" : { "name": "NehemiahEngineeringOrbitalScience" },
 	"install": [
 		{
 			"file": "NehemiahInc/KEES",
