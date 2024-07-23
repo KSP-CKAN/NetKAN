@@ -1,0 +1,12 @@
+spec_version: v1.34
+identifier: KSCEnhanced
+$kref: '#/ckan/spacedock/3654'
+license: MIT
+tags:
+  - buildings
+depends:
+  - name: KerbalKonstructs
+  - name: StockalikeStructures
+  - name: TundraSpaceCenter
+  - name: ModuleManager
+x_via: Automated SpaceDock CKAN submission
