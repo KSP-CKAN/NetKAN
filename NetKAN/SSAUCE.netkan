@@ -22,6 +22,8 @@ x_netkan_version_edit:
   find: ^v.
   replace: ''
   strict: 'false'
+install:
+  filter: Extras
 ---
 spec_version: v1.34
 identifier: SSAUCE
@@ -43,4 +45,10 @@ suggests:
   - name: Knes
   - name: ShuttleOrbiterConstructionKit
   - name: RocketMotorMenagerie
+x_netkan_version_edit:
+  find: ^v.
+  replace: ''
+  strict: 'false'
+install:
+  filter: Extras
 x_via: Automated SpaceDock CKAN submission
