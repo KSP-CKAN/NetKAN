@@ -14,18 +14,18 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - name: Get NetKAN repo
-              uses: actions/checkout@v2
+              uses: actions/checkout@v4
               with:
                   ref: ${{ github.event.pull_request.head.sha }}
                   fetch-depth: 0
             - name: Get CKAN-meta repo
-              uses: actions/checkout@v2
+              uses: actions/checkout@v4
               with:
                   repository: KSP-CKAN/CKAN-meta
                   path: .CKAN-meta
             - name: Cache downloads
               if: ${{ github.event_name == 'pull_request' }}
-              uses: actions/cache@v2
+              uses: actions/cache@v4
               with:
                   path: .cache
                   key: downloads-${{ github.run_id }}

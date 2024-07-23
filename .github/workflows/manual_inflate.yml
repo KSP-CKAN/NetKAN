@@ -10,11 +10,11 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - name: Get NetKAN repo
-              uses: actions/checkout@v2
+              uses: actions/checkout@v4
               with:
                   path: NetKAN
             - name: Get CKAN-meta repo
-              uses: actions/checkout@v2
+              uses: actions/checkout@v4
               with:
                   repository: KSP-CKAN/CKAN-meta
                   path: CKAN-meta
