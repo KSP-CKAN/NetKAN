@@ -16,10 +16,10 @@ x_netkan_version_edit:
   strict: 'false'
 install:
   - find: ExtraTextures
-  install_to: GameData/SSAUCE/Parts
-  as: MRC
+    install_to: GameData/SSAUCE/Parts
+    as: MRC
   - find: Extras
-  install_to: GameData/SSAUCE
+    install_to: GameData/SSAUCE
 ---
 spec_version: v1.34
 identifier: SSAUCE-Extras
@@ -39,8 +39,8 @@ x_netkan_version_edit:
   strict: 'false'
 install:
   - find: ExtraTextures
-  install_to: GameData/SSAUCE/Parts
-  as: MRC
+    install_to: GameData/SSAUCE/Parts
+    as: MRC
   - find: Extras
-  install_to: GameData/SSAUCE
+    install_to: GameData/SSAUCE
 x_via: Automated SpaceDock CKAN submission
