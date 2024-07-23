@@ -1,0 +1,46 @@
+spec_version: v1.34
+identifier: SSAUCE-Extras
+$kref: '#/ckan/github/LilBread402/SSAUCE'
+name: SSAUCE Extras
+license: restricted
+tags:
+  - config
+  - graphics
+depends:
+  - name: SSAUCE
+  - name: ModuleManager
+  - name: B9PartSwitch
+x_netkan_version_edit:
+  find: ^v.
+  replace: ''
+  strict: 'false'
+install:
+  find: ExtraTextures
+  install_to: GameData/SSAUCE/Parts
+  as: MRC
+  find: Extras
+  install_to: GameData/SSAUCE
+---
+spec_version: v1.34
+identifier: SSAUCE-Extras
+$kref: '#/ckan/spacedock/3649'
+name: SSAUCE Extras
+license: restricted
+tags:
+  - config
+  - graphics
+depends:
+  - name: SSAUCE
+  - name: ModuleManager
+  - name: B9PartSwitch
+x_netkan_version_edit:
+  find: ^v.
+  replace: ''
+  strict: 'false'
+install:
+  find: ExtraTextures
+  install_to: GameData/SSAUCE/Parts
+  as: MRC
+  find: Extras
+  install_to: GameData/SSAUCE
+x_via: Automated SpaceDock CKAN submission
