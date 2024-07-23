@@ -1,34 +1,5 @@
 spec_version: v1.34
 identifier: SSAUCE
-$kref: '#/ckan/github/LilBread402/SSAUCE'
-license: restricted
-tags:
-  - crewed
-  - first-person
-  - parts
-depends:
-  - name: ModuleManager
-  - name: B9PartSwitch
-  - name: Waterfall
-recommends:
-  - name: BluedogDB
-  - name: Shaddy
-  - name: HabTechProps
-suggests:
-  - name: Knes
-  - name: ShuttleOrbiterConstructionKit
-  - name: RocketMotorMenagerie
-x_netkan_version_edit:
-  find: ^v.
-  replace: ''
-  strict: 'false'
-install:
-  - find: SSAUCE
-    install_to: GameData
-    filter: Extras
----
-spec_version: v1.34
-identifier: SSAUCE
 $kref: '#/ckan/spacedock/3649'
 license: restricted
 tags:
@@ -52,7 +23,7 @@ x_netkan_version_edit:
   replace: ''
   strict: 'false'
 install:
-  - find: SSAUCE
+  - find: SSAUCE/SSAUCE
     install_to: GameData
     filter: Extras
 x_via: Automated SpaceDock CKAN submission
