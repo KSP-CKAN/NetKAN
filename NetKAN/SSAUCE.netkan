@@ -5,12 +5,19 @@ license: restricted
 tags:
   - crewed
   - first-person
-  - graphics
   - parts
 depends:
   - name: ModuleManager
   - name: B9PartSwitch
   - name: Waterfall
+recommends:
+  - name: BluedogDB
+  - name: Shaddy
+  - name: HabTechProps
+suggests:
+  - name: Knes
+  - name: ShuttleOrbiterConstructionKit
+  - name: RocketMotorMenagerie
 x_netkan_version_edit:
   find: ^v.
   replace: ''
@@ -23,10 +30,17 @@ license: restricted
 tags:
   - crewed
   - first-person
-  - graphics
   - parts
 depends:
   - name: ModuleManager
   - name: B9PartSwitch
   - name: Waterfall
+recommends:
+  - name: BluedogDB
+  - name: Shaddy
+  - name: HabTechProps
+suggests:
+  - name: Knes
+  - name: ShuttleOrbiterConstructionKit
+  - name: RocketMotorMenagerie
 x_via: Automated SpaceDock CKAN submission
