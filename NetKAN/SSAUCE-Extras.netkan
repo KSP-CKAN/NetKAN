@@ -20,4 +20,5 @@ install:
     as: MRC
   - find: Extras
     install_to: GameData/SSAUCE
+    filter: ExtraTextures
 x_via: Automated SpaceDock CKAN submission
