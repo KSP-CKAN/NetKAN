@@ -5,4 +5,9 @@ license: GPL-2.0
 tags:
   - config
   - plugin
+install:
+  - find: KSP_Data
+    install_to: GameRoot
+  - find: KSP_x64_Data
+    install_to: GameRoot
 x_via: Automated SpaceDock CKAN submission
