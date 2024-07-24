@@ -11,3 +11,9 @@ depends:
   - name: Kopernicus
   - name: OuterPlanetsMod
   - name: VertexMitchellNetravaliHeightMap
+install:
+  - find: OPX-NeidonPlus
+    install_to: GameData
+    filter:
+      - __MACOSX
+      - .DS_Store
