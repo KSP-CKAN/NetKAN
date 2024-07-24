@@ -6,6 +6,10 @@ tags:
   - crewed
   - first-person
   - parts
+suggests:
+  - name: AircraftCarrierAccessories
+  - name: WASDCameraEditor
+  - name: PhysicsRangeExtender
 install:
   - find: HeliCar
     install_to: GameData
