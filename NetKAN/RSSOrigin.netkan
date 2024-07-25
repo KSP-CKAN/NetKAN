@@ -16,3 +16,11 @@ depends:
   - name: VertexMitchellNetravaliHeightMap
 recommends:
   - name: TooManyOrbits
+  - name: RealismOverhaul
+  - name: KSCSwitcher
+  - name: RSSDateTimeFormatter
+suggests:
+  - name: EnvironmentalVisualEnhhancements
+  - name: Scatterer
+  - name: Parallax
+  - name: TUFX
