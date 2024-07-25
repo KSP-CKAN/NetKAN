@@ -13,3 +13,7 @@ tags:
 depends:
   - name: ModuleManager
   - name: Shabby
+  - name: ClickThroughBlocker
+  - name: ToolbarController
+suggests:
+  - name: KerbalChangelog
