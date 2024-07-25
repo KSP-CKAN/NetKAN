@@ -1,0 +1,18 @@
+spec_version: v1.27
+identifier: RSSOrigin
+name: RSS-Origin CelestialsPack Core
+abstract: >-
+  The major part of RSS-Origin, which adds plenty of asteroids, asteroid moons,
+  comets, moons of gas/ice giants, dwarf planets, dwarf planet moons, and
+  interstellar objects into real solar system, currently 198 in total. (dozens
+  more in the future). This is the core pack
+$kref: '#/ckan/github/CharonSSS/RSS-Origin/asset_match/RSS-Origin.CelestialsPack.Core.zip'
+$vref: '#/ckan/ksp-avc'
+tags:
+  - planet-pack
+depends:
+  - name: ModuleManager
+  - name: Kopernicus
+  - name: VertexMitchellNetravaliHeightMap
+recommends:
+  - name: TooManyOrbits
