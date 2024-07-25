@@ -7,8 +7,15 @@ tags:
   - graphics
 depends:
   - name: ModuleManager
-  - name: TUFX
   - name: B9PartSwitch
+  - name: TexturesUnlimited
+  - name: BluedogDB
+recommends:
+  - name: TUFX
+suggests:
+  - name: TantaresAndBDBNowinColors
+supports:
+  - name: BluedogDB
 install:
   - find: BarkingOwl
     install_to: GameData
@@ -22,8 +29,15 @@ tags:
   - graphics
 depends:
   - name: ModuleManager
-  - name: TUFX
   - name: B9PartSwitch
+  - name: TexturesUnlimited
+  - name: BluedogDB
+recommends:
+  - name: TUFX
+suggests:
+  - name: TantaresAndBDBNowinColors
+supports:
+  - name: BluedogDB
 install:
   - find: BarkingOwl
     install_to: GameData
