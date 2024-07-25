@@ -17,14 +17,19 @@ depends:
   - name: KSPCommunityFixes
 recommends:
   - name: TooManyOrbits
-  - name: RealismOverhaul
-  - name: KSCSwitcher
-  - name: RSSDateTimeFormatter
-suggests:
   - name: EnvironmentalVisualEnhhancements
   - name: Scatterer
+suggests:
   - name: Parallax
   - name: TUFX
   - name: KopernicusExpansionContinueder
   - name: PlanetShine
   - name: FinalFrontier
+  - name: DistantObject
+  - name: RealismOverhaul
+  - name: KSCSwitcher
+  - name: RSSDateTimeFormatter
+conflicts:
+  - name: Asteroid-33434-scottmanley-RSS
+  - name: RSS-Expansion
+  - name: RealSolarSystemExpanded
