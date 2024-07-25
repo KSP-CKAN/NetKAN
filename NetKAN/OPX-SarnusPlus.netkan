@@ -1,5 +1,5 @@
 spec_version: v1.34
-identifier: OPXSarnusPlus
+identifier: OPX-SarnusPlus
 $kref: '#/ckan/spacedock/3672'
 license: MIT
 tags:
@@ -9,7 +9,3 @@ depends:
   - name: ModuleManager
   - name: Kopernicus
   - name: VertexMitchellNetravaliHeightMap
-install:
-  - find: OPX-SarnusPlus-main
-    install_to: GameData
-x_via: Automated SpaceDock CKAN submission
