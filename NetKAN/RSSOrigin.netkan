@@ -14,6 +14,7 @@ depends:
   - name: ModuleManager
   - name: Kopernicus
   - name: VertexMitchellNetravaliHeightMap
+  - name: KSPCommunityFixes
 recommends:
   - name: TooManyOrbits
   - name: RealismOverhaul
