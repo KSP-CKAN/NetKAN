@@ -1,0 +1,12 @@
+spec_version: v1.27
+identifier: RSSOrigin-CelesetialsPack-SaturnMoons
+name: RSS-Origin CelestialsPack SaturnMoons
+$kref: '#/ckan/github/CharonSSS/RSS-Origin/asset_match/RSS-Origin.CelestialsPack.SaturnMoons.zip'
+$vref: '#/ckan/ksp-avc'
+tags:
+  - planet-pack
+depends:
+  - name: RSSOrigin
+install:
+  - find: RSSOrigin
+    install_to: GameData

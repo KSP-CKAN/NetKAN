@@ -10,6 +10,13 @@ tags:
   - planet-pack
   - graphics
 depends:
-  - name: RSSOrigin
+  - name: ModuleManager
+  - name: Kopernicus
+# we need to depend on RSS or KSRSS here, but KSRSS isn't on ckan..
 recommends:
   - name: RealSolarSystem
+  - name: Scatterer
+  - name: RSSOrigin
+install:
+  - find: RSSOrigin
+    install_to: GameData

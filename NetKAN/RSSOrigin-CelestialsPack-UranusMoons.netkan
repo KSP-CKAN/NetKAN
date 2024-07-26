@@ -1,0 +1,12 @@
+spec_version: v1.27
+identifier: RSSOrigin-CelesetialsPack-UranusMoons
+name: RSS-Origin CelestialsPack UranusMoons
+$kref: '#/ckan/github/CharonSSS/RSS-Origin/asset_match/RSS-Origin.CelestialsPack.UranusMoons.zip'
+$vref: '#/ckan/ksp-avc'
+tags:
+  - planet-pack
+depends:
+  - name: RSSOrigin
+install:
+  - find: RSSOrigin
+    install_to: GameData

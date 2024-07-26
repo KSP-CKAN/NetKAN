@@ -1,0 +1,12 @@
+spec_version: v1.27
+identifier: RSSOrigin-CelesetialsPack-InterstellarObjects
+name: RSS-Origin CelestialsPack InterstellarObjects
+$kref: '#/ckan/github/CharonSSS/RSS-Origin/asset_match/RSS-Origin.CelestialsPack.InterstellarObjects.zip'
+$vref: '#/ckan/ksp-avc'
+tags:
+  - planet-pack
+depends:
+  - name: RSSOrigin
+install:
+  - find: RSSOrigin
+    install_to: GameData

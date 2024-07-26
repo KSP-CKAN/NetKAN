@@ -1,0 +1,12 @@
+spec_version: v1.27
+identifier: RSSOrigin-CelesetialsPack-JupiterTrojans
+name: RSS-Origin CelestialsPack JupiterTrojans
+$kref: '#/ckan/github/CharonSSS/RSS-Origin/asset_match/RSS-Origin.CelestialsPack.JupiterTrojans.zip'
+$vref: '#/ckan/ksp-avc'
+tags:
+  - planet-pack
+depends:
+  - name: RSSOrigin
+install:
+  - find: RSSOrigin
+    install_to: GameData
