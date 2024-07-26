@@ -1,0 +1,15 @@
+spec_version: v1.34
+identifier: LaythesHome
+$kref: '#/ckan/spacedock/3673'
+license: MIT
+tags:
+  - config
+  - planet-pack
+depends:
+  - name: ModuleManager
+  - name: Kopernicus
+  - name: VertexMitchellNetravaliHeightMap
+install:
+  - find: Laythe'sHome
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
