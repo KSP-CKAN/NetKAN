@@ -8,6 +8,7 @@ abstract: >-
   more in the future). This is the core pack
 $kref: '#/ckan/github/CharonSSS/RSS-Origin/asset_match/RSS-Origin.CelestialsPack.Core.zip'
 $vref: '#/ckan/ksp-avc'
+license: CC-BY-NC-SA-4.0
 tags:
   - planet-pack
 depends:

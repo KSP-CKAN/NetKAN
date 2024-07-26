@@ -3,6 +3,7 @@ identifier: RSSOrigin-CelesetialsPack-PlutoMoons
 name: RSS-Origin CelestialsPack PlutoMoons
 $kref: '#/ckan/github/CharonSSS/RSS-Origin/asset_match/RSS-Origin.CelestialsPack.PlutoMoons.zip'
 $vref: '#/ckan/ksp-avc'
+license: CC-BY-NC-SA-4.0
 tags:
   - planet-pack
 depends:
