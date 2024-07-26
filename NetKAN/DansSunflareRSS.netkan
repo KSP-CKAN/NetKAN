@@ -13,6 +13,6 @@ depends:
 conflicts:
   - name: Scatterer-sunflare
 install:
-  - find: Sunflares
-    install_to: GameData/Scatterer/config
+  - find: Dan's SunflaresRSS
+    install_to: GameData
 x_via: Automated SpaceDock CKAN submission
