@@ -16,3 +16,6 @@ recommends:
   - name: RSSOrigin
 conflicts:
   - name: RSSOrigin-GalaxyTex
+install:
+  - find: RSSOrigin
+    install_to: GameData
