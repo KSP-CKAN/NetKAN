@@ -15,14 +15,28 @@ depends:
   - name: Kopernicus
   - name: VertexMitchellNetravaliHeightMap
   - name: KSPCommunityFixes
+#we need to add RSS or KSRSS as a dependency, but KSRSS isn't on CKAN...
 recommends:
   - name: TooManyOrbits
   - name: EnvironmentalVisualEnhhancements
   - name: Scatterer
-  - bame: RealSolarSystem
+  - name: RealSolarSystem
+  - name: RealismOverhaul
   - name: RSSOrigin-GalaxyTex
   - name: RSSOrigin-JSUNrings
-  - name: RealismOverhaul
+  - name: RSSOrigin-CelestialsPack-Centaurs
+  - name: RSSOrigin-CelestialsPack-Comets
+  - name: RSSOrigin-CelestialsPack-InterstellarObjects
+  - name: RSSOrigin-CelestialsPack-JupiterMoons
+  - name: RSSOrigin-CelestialsPack-JupiterTrojans
+  - name: RSSOrigin-CelestialsPack-MainBeltAsteroids
+  - name: RSSOrigin-CelestialsPack-MarsCrossers
+  - name: RSSOrigin-CelestialsPack-NearEarthObjects
+  - name: RSSOrigin-CelestialsPack-NeptuneMoons
+  - name: RSSOrigin-CelestialsPack-PlutoMoons
+  - name: RSSOrigin-CelestialsPack-SaturnMoons
+  - name: RSSOrigin-CelestialsPack-TransNeptunianObjects
+  - name: RSSOrigin-CelestialsPack-UranusMoons
 suggests:
   - name: Parallax
   - name: TUFX
