@@ -19,6 +19,10 @@ recommends:
   - name: TooManyOrbits
   - name: EnvironmentalVisualEnhhancements
   - name: Scatterer
+  - bame: RealSolarSystem
+  - name: RSSOrigin-GalaxyTex
+  - name: RSSOrigin-JSUNrings
+  - name: RealismOverhaul
 suggests:
   - name: Parallax
   - name: TUFX
@@ -26,7 +30,6 @@ suggests:
   - name: PlanetShine
   - name: FinalFrontier
   - name: DistantObject
-  - name: RealismOverhaul
   - name: KSCSwitcher
   - name: RSSDateTimeFormatter
 conflicts:
