@@ -9,6 +9,6 @@ depends:
   - name: ModuleManager
   - name: Kopernicus
 install:
-  - find: Scylla 1.0
+  - find: Scylla
     install_to: GameData
 x_via: Automated SpaceDock CKAN submission
