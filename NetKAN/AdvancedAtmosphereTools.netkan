@@ -1,0 +1,20 @@
+spec_version: v1.34
+identifier: AdvancedAtmosphereTools
+$kref: '#/ckan/github/CashnipLeaf/AdvancedAtmosphereTools'
+license: MIT
+tags:
+  - config
+  - plugin
+x_netkan_version_edit:
+  find: ^v
+  replace: ''
+  strict: 'false'
+---
+spec_version: v1.34
+identifier: AdvancedAtmosphereTools
+$kref: '#/ckan/spacedock/3597'
+license: MIT
+tags:
+  - config
+  - plugin
+x_via: Automated SpaceDock CKAN submission
