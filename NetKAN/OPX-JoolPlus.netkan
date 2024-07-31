@@ -1,0 +1,21 @@
+spec_version: v1.34
+identifier: OPX-JoolPlus
+$kref: '#/ckan/spacedock/3663'
+license: MIT
+tags:
+  - config
+  - planet-pack
+depends:
+  - name: ModuleManager
+  - name: Kopernicus
+  - name: VertexMitchellNetravaliHeightMap
+suggests:
+  - name: DistantObject
+  - name: ResearchBodies
+  - name: JanetsPlanets
+install:
+  - find: OPX-JoolPlus
+    install_to: GameData
+    filter:
+      - __MACOSX
+      - .DS_Store
