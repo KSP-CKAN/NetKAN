@@ -1,0 +1,15 @@
+spec_version: v1.34
+identifier: KerbalInfinity
+$kref: '#/ckan/spacedock/3664'
+license: MIT
+tags:
+  - planet-pack
+depends:
+  - name: ModuleManager
+  - name: Kopernicus
+recommends:
+  - name: Scatterer
+install:
+  - find: KI
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
