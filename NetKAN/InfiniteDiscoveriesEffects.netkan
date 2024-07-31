@@ -8,4 +8,5 @@ tags:
 depends:
   - name: ModuleManager
   - name: TUFX
+  - name: Scatterer-sunflare-default
 x_via: Automated SpaceDock CKAN submission
