@@ -3,11 +3,12 @@ identifier: KerbalInfinity
 $kref: '#/ckan/spacedock/3664'
 license: MIT
 tags:
-  - config
   - planet-pack
 depends:
   - name: ModuleManager
   - name: Kopernicus
+recommends:
+  - name: Scatterer
 install:
   - find: KI
     install_to: GameData
