@@ -5,11 +5,14 @@ license: MIT
 tags:
   - config
   - planet-pack
-  - plugin
 depends:
   - name: ModuleManager
   - name: Kopernicus
   - name: VertexMitchellNetravaliHeightMap
+suggests:
+  - name: DistantObject
+  - name: ResearchBodies
+  - name: JanetsPlanets
 install:
   - find: OPX-JoolPlus
     install_to: GameData
