@@ -3,9 +3,10 @@ identifier: Escalenia
 $kref: '#/ckan/spacedock/3669'
 license: MIT
 tags:
-  - config
   - planet-pack
 depends:
   - name: ModuleManager
   - name: Kopernicus
+recommends:
+  - name: CustomAsteroids
 x_via: Automated SpaceDock CKAN submission
