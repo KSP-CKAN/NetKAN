@@ -7,23 +7,16 @@ $vref: '#/ckan/ksp-avc'
 license: CC-BY-NC-4.0
 tags:
   - parts
+  - agency
+  - career
+  - flags
+  - stock-inventory
 depends:
   - name: ModuleManager
 recommends:
-  - name: KerbalInventorySystem
+  - name: KIS
   - name: JackOLantern
-  - name: Kaboom
 suggests:
-  - name: Foundations
   - name: KerbalInventorySystemNoFun
-  - name: StackInlineLights
-  - name: StackInlineLightPatches
-  - name: TweakScale
-  - name: KerbalChangelog
-  - name: SimpleLogistics
-  - name: SimpleConstruction
-  - name: SimpleLife
 supports:
-  - name: KerbalChangelog
-  - name: TweakScale
-  - name: KerbalInventorySystem
+  - name: KIS
