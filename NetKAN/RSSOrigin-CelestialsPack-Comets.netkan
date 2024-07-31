@@ -1,0 +1,13 @@
+spec_version: v1.27
+identifier: RSSOrigin-CelestialsPack-Comets
+name: RSS-Origin CelestialsPack Comets
+$kref: '#/ckan/github/CharonSSS/RSS-Origin/asset_match/RSS-Origin.CelestialsPack.Comets.zip'
+$vref: '#/ckan/ksp-avc'
+license: CC-BY-NC-SA-4.0
+tags:
+  - planet-pack
+depends:
+  - name: RSSOrigin
+install:
+  - find: RSSOrigin
+    install_to: GameData

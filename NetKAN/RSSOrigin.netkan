@@ -1,0 +1,53 @@
+spec_version: v1.27
+identifier: RSSOrigin
+name: RSS-Origin CelestialsPack Core
+abstract: >-
+  The major part of RSS-Origin, which adds plenty of asteroids, asteroid moons,
+  comets, moons of gas/ice giants, dwarf planets, dwarf planet moons, and
+  interstellar objects into real solar system, currently 198 in total. (dozens
+  more in the future). This is the core pack
+$kref: '#/ckan/github/CharonSSS/RSS-Origin/asset_match/RSS-Origin.CelestialsPack.Core.zip'
+$vref: '#/ckan/ksp-avc'
+license: CC-BY-NC-SA-4.0
+tags:
+  - planet-pack
+depends:
+  - name: ModuleManager
+  - name: Kopernicus
+  - name: VertexMitchellNetravaliHeightMap
+  - name: KSPCommunityFixes
+#we need to add RSS or KSRSS as a dependency, but KSRSS isn't on CKAN...
+recommends:
+  - name: TooManyOrbits
+  - name: EnvironmentalVisualEnhhancements
+  - name: Scatterer
+  - name: RealSolarSystem
+  - name: RealismOverhaul
+  - name: RSSOrigin-GalaxyTex
+  - name: RSSOrigin-JSUNrings
+  - name: RSSOrigin-CelestialsPack-Centaurs
+  - name: RSSOrigin-CelestialsPack-Comets
+  - name: RSSOrigin-CelestialsPack-InterstellarObjects
+  - name: RSSOrigin-CelestialsPack-JupiterMoons
+  - name: RSSOrigin-CelestialsPack-JupiterTrojans
+  - name: RSSOrigin-CelestialsPack-MainBeltAsteroids
+  - name: RSSOrigin-CelestialsPack-MarsCrossers
+  - name: RSSOrigin-CelestialsPack-NearEarthObjects
+  - name: RSSOrigin-CelestialsPack-NeptuneMoons
+  - name: RSSOrigin-CelestialsPack-PlutoMoons
+  - name: RSSOrigin-CelestialsPack-SaturnMoons
+  - name: RSSOrigin-CelestialsPack-TransNeptunianObjects
+  - name: RSSOrigin-CelestialsPack-UranusMoons
+suggests:
+  - name: Parallax
+  - name: TUFX
+  - name: KopernicusExpansionContinueder
+  - name: PlanetShine
+  - name: FinalFrontier
+  - name: DistantObject
+  - name: KSCSwitcher
+  - name: RSSDateTimeFormatter
+conflicts:
+  - name: Asteroid-33434-scottmanley-RSS
+  - name: RSS-Expansion
+  - name: RealSolarSystemExpanded

@@ -1,0 +1,23 @@
+spec_version: v1.27
+identifier: RSSOrigin-JSUNrings
+name: RSS-Origin JSUNrings
+abstract: >-
+  A part of RSS-Origin, which adds accurate and realistic rings to the 4 gas
+  giants in our solar system.
+$kref: '#/ckan/github/CharonSSS/RSS-Origin/asset_match/RSS-Origin.JSUNrings.zip'
+$vref: '#/ckan/ksp-avc'
+license: CC-BY-NC-SA-4.0
+tags:
+  - planet-pack
+  - graphics
+depends:
+  - name: ModuleManager
+  - name: Kopernicus
+# we need to depend on RSS or KSRSS here, but KSRSS isn't on ckan..
+recommends:
+  - name: RealSolarSystem
+  - name: Scatterer
+  - name: RSSOrigin
+install:
+  - find: RSSOrigin
+    install_to: GameData

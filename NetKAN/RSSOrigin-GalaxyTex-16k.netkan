@@ -1,0 +1,22 @@
+spec_version: v1.27
+identifier: RSSOrigin-GalaxyTex-16k
+name: RSS-Origin GalaxyTex8k
+abstract: >-
+  A part of RSS-Origin, which replaces your skybox with a high-quality Milky Way
+  background. This is the 16k res version
+$kref: '#/ckan/github/CharonSSS/RSS-Origin/asset_match/RSS-Origin.GalaxyTex16k.zip'
+$vref: '#/ckan/ksp-avc'
+license: CC-BY-NC-SA-4.0
+tags:
+  - graphics
+provides:
+  - RSSOrigin-GalaxyTex
+depends:
+  - name: TextureReplacer
+recommends:
+  - name: RSSOrigin
+conflicts:
+  - name: RSSOrigin-GalaxyTex
+install:
+  - find: RSSOrigin
+    install_to: GameData
