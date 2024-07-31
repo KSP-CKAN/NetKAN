@@ -1,0 +1,11 @@
+spec_version: v1.34
+identifier: TheCatsApplePlanetMover
+$kref: '#/ckan/spacedock/3666'
+license: CC-BY
+tags:
+  - config
+  - planet-pack
+depends:
+  - name: ModuleManager
+  - name: Kopernicus
+x_via: Automated SpaceDock CKAN submission
