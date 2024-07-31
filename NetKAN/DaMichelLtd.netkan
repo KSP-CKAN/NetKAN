@@ -6,7 +6,6 @@ $vref: '#/ckan/ksp-avc'
 tags:
   - agency
   - flags
-  - config
 install:
   - find: DaMichel
     install_to: GameData
