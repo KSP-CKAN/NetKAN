@@ -1,0 +1,13 @@
+spec_version: v1.34
+identifier: DansScienceOverhaul
+$kref: '#/ckan/spacedock/3674'
+license: MIT
+tags:
+  - config
+  - science
+depends:
+  - name: ModuleManager
+install:
+  - find: Dan's Science Overhaul
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
