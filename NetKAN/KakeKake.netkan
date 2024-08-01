@@ -3,7 +3,6 @@ identifier: KakeKake
 $kref: '#/ckan/spacedock/3676'
 license: MIT
 tags:
-  - config
   - planet-pack
 depends:
   - name: ModuleManager
