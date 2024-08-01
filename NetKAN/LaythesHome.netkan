@@ -8,7 +8,10 @@ tags:
 depends:
   - name: ModuleManager
   - name: Kopernicus
+  - name: VertexHeightOblateAdvanced
   - name: VertexMitchellNetravaliHeightMap
+recommends:
+  - name: KopernicusExpansionContinueder
 install:
   - find: Laythe'sHome
     install_to: GameData
