@@ -3,7 +3,6 @@ identifier: TheCharridianSystem
 $kref: '#/ckan/spacedock/3670'
 license: MIT
 tags:
-  - config
   - planet-pack
 depends:
   - name: ModuleManager
