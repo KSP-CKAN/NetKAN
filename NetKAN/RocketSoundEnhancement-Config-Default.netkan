@@ -2,7 +2,7 @@ spec_version: v1.4
 identifier: RocketSoundEnhancement-Config-Default
 name: Rocket Sound Enhancement - Default
 abstract: RSE sounds for stock engines, wheels, decouplers, and more
-$kref: '#/ckan/github/ensou04/RocketSoundEnhancementDefault'
+$kref: '#/ckan/github/KSPModStewards/RocketSoundEnhancementDefault'
 $vref: '#/ckan/ksp-avc'
 license: CC-BY-NC-SA-4.0
 tags:
