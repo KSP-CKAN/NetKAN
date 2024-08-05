@@ -1,0 +1,29 @@
+spec_version: v1.27
+identifier: Deferred
+author: Blackrack
+$kref: '#/ckan/github/LGhassen/Deferred'
+ksp_version: 1.12
+license: GPL-3.0
+resources:
+  manual: https://github.com/LGhassen/Deferred/blob/master/Readme.md
+  homepage: https://www.patreon.com/posts/deferred-106557481
+  x_screenshot: https://i.imgur.com/kraUQIz.png
+tags:
+  - plugin
+  - graphics
+conflicts:
+  - name: Parallax
+    max_version: 2.0.6
+  - name: TexturesUnlimited
+    max_version: 1.5.10.25
+  - name: KerbalKonstructs
+    max_version: v1.8.6.1
+  - name: RasterPropMonitor
+    max_version: 1:v0.31.13.4
+  - name: B9-PWings-Fork
+    max_version: 3:0.45.1
+depends:
+  - name: Shabby
+install:
+  - find: zzz_Deferred
+    install_to: GameData
