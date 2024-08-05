@@ -9,3 +9,7 @@ tags:
 install:
   - find: CJMP
     install_to: GameData
+    filter: CraftFolder
+  - find: CraftFolder
+    install_to: Ships
+    as: SPH
