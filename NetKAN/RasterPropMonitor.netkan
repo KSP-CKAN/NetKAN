@@ -14,9 +14,10 @@ tags:
   - config
   - crewed
   - first-person
+provides:
+  - RasterPropMonitor-Core
 depends:
   - name: ModuleManager
-  - name: RasterPropMonitor-Core
 recommends:
   - name: DE-IVAExtension
   - name: FreeIva
@@ -42,8 +43,6 @@ suggests:
 install:
   - find: JSI
     filter:
-      - RasterPropMonitor
-      - BasicMFD
       - README.md
       - LICENSE.md
       - Agencies
