@@ -21,10 +21,10 @@ depends:
   - name: KerbalActuators
 recommends:
   - name: RasterPropMonitor-Core
+  - name: AvionicsSystems
   - name: ASETProps
+  - name: ASETAvionics
   - name: InfernalRobotics
-suggests:
-  - name: ASET
 install:
   - find: WildBlueIndustries/DSEV
     install_to: GameData/WildBlueIndustries
