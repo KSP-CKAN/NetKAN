@@ -16,7 +16,7 @@ tags:
   - crewed
   - first-person
 provides:
-  - name: RasterPropMonitor-Core
+  - RasterPropMonitor-Core
 depends:
   - name: ModuleManager
 recommends:
