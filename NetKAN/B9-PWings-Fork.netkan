@@ -24,6 +24,4 @@ install:
     install_to: GameData
   - file: Ships/SPH
     install_to: Ships
-  - file: Ships/VAB
-    install_to: Ships
 
