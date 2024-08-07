@@ -1,4 +1,4 @@
-spec_version: v1.34
+spec_version: v1.4
 identifier: ColdJsHeliCarrier
 $kref: '#/ckan/spacedock/3652'
 license: CC-BY-SA-4.0
@@ -13,4 +13,3 @@ suggests:
 install:
   - find: HeliCar
     install_to: GameData
-x_via: Automated SpaceDock CKAN submission
