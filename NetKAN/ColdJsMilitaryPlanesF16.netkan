@@ -9,7 +9,18 @@ tags:
 install:
   - find: CJMP
     install_to: GameData
-    filter: Craft
+    filter:
+      - Craft
+      - Readme.txt
+      - License.txt
+  - find: Readme.txt
+    find_matches_files: true
+    install_to: GameData/CJMP
+    as: Readme-F16.txt
+  - find: License.txt
+    find_matches_files: true
+    install_to: GameData/CJMP
+    as: License-F16.txt
   - find: Craft
     install_to: Ships
     as: SPH
