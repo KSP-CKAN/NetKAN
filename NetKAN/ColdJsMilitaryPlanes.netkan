@@ -6,6 +6,10 @@ tags:
   - crewed
   - first-person
   - parts
+suggests:
+  - name: ColdJsHeliCarrier
+  - name: ColdJsMilitaryPlanesF16
+  - name: ColdJsMilitaryPlanesSoviet
 install:
   - find: CJMP
     install_to: GameData
