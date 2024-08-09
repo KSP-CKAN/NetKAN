@@ -9,7 +9,18 @@ tags:
 install:
   - find: CJMP
     install_to: GameData
-    filter: CraftFolder
+    filter:
+      - CraftFolder
+      - ReadMe.txt
+      - License.txt
+  - find: ReadMe.txt
+    find_matches_files: true
+    install_to: GameData/CJMP
+    as: ReadMe-Soviet.txt
+  - find: License.txt
+    find_matches_files: true
+    install_to: GameData/CJMP
+    as: License-Soviet.txt
   - find: CraftFolder
     install_to: Ships
     as: SPH
