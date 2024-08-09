@@ -12,6 +12,8 @@ tags:
 depends:
   - name: ModuleManager
   - name: SIMPLEXAssembly
+conflicts:
+  - name: ExtraPlanetaryLaunchpads
 install:
   - find: AngleCanMods
     install_to: GameData
