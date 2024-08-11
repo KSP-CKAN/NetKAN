@@ -5,7 +5,7 @@ abstract: >-
   A part of RSS-Origin, which replaces your skybox with a high-quality Milky Way
   background. This is the 32k res version
 $kref: '#/ckan/github/CharonSSS/RSS-Origin/asset_match/RSS-Origin.GalaxyTex32k.zip'
-$vref: '#/ckan/ksp-avc'
+ksp_version: 1.12
 license: CC-BY-NC-SA-4.0
 tags:
   - graphics
