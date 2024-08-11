@@ -12,6 +12,7 @@ tags:
 provides:
   - RSSOrigin-GalaxyTex
 depends:
+  - name: ModuleManager
   - name: TextureReplacer
 recommends:
   - name: RSSOrigin
