@@ -2,11 +2,12 @@ spec_version: v1.27
 identifier: RSSOrigin-CelestialsPack-JupiterTrojans
 name: RSS-Origin CelestialsPack JupiterTrojans
 $kref: '#/ckan/github/CharonSSS/RSS-Origin/asset_match/RSS-Origin.CelestialsPack.JupiterTrojans.zip'
-$vref: '#/ckan/ksp-avc'
+ksp_version: 1.12
 license: CC-BY-NC-SA-4.0
 tags:
   - planet-pack
 depends:
+  - name: ModuleManager
   - name: RSSOrigin
 install:
   - find: RSSOrigin
