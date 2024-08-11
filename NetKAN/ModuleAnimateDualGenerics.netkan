@@ -1,0 +1,24 @@
+spec_version: v1.34
+identifier: ModuleAnimateDualGenerics
+$kref: '#/ckan/github/linuxgurugamer/ModuleAnimateDualGenerics'
+$vref: '#/ckan/ksp-avc'
+license: CC-BY-NC-SA
+tags:
+  - plugin
+install:
+  - find: ModuleAnimateDualGenerics
+    install_to: GameData
+    filter_regexp: \.mdb$
+---
+spec_version: v1.34
+identifier: ModuleAnimateDualGenerics
+$kref: '#/ckan/spacedock/3692'
+$vref: '#/ckan/ksp-avc'
+license: CC-BY-NC-SA
+tags:
+  - plugin
+install:
+  - find: ModuleAnimateDualGenerics
+    install_to: GameData
+    filter_regexp: \.mdb$
+x_via: Automated SpaceDock CKAN submission
