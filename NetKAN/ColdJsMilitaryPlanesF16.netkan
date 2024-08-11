@@ -6,6 +6,8 @@ tags:
   - crewed
   - first-person
   - parts
+depends:
+  - name: ColdJsMilitaryPlanes
 install:
   - find: CJMP
     install_to: GameData
