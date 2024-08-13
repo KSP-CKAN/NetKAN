@@ -1,7 +1,25 @@
 identifier: SoundtrackEditorForked
 name: Soundtrack Editor Forked (WINDOWS ONLY!)
+$kref: '#/ckan/github/linuxgurugamer/SoundtrackEditorForked'
+tags:
+  - config
+  - plugin
+install:
+  - find: KSP_x64_Data/Mono/libmpg123-0.dll
+    find_matches_files: true
+    install_to: GameRoot
+  - find: SoundtrackEditorForked
+    install_to: GameData
+  - find: Licenses
+    install_to: GameData/SoundtrackEditorForked
+  - find: Music
+    install_to: GameData/SoundtrackEditorForked/PluginData
+  - find: Playlists
+    install_to: GameData/SoundtrackEditorForked
+---
+identifier: SoundtrackEditorForked
+name: Soundtrack Editor Forked (WINDOWS ONLY!)
 $kref: '#/ckan/spacedock/2322'
-license: GPL-2.0
 tags:
   - config
   - plugin
