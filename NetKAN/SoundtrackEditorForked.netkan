@@ -6,8 +6,14 @@ tags:
   - config
   - plugin
 install:
-  - find: KSP_Data
+  - find: KPS_x64_Data/Mono/libmpg123-0.dll
+    find_matches_files: true
     install_to: GameRoot
-  - find: KSP_x64_Data
-    install_to: GameRoot
-x_via: Automated SpaceDock CKAN submission
+  - find: SoundtrackEditorForked
+    install_to: GameData
+  - find: Licenses
+    install_to: GameData/SoundtrackEditorForked
+  - find: Music
+    install_to: GameData/SoundtrackEditorForked/PluginData
+  - find: Playlists
+    install_to: GameData/SoundtrackEditorForked/PluginData
