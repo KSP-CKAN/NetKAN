@@ -6,7 +6,7 @@ tags:
   - config
   - plugin
 install:
-  - find: KPS_x64_Data/Mono/libmpg123-0.dll
+  - find: KSP_x64_Data/Mono/libmpg123-0.dll
     find_matches_files: true
     install_to: GameRoot
   - find: SoundtrackEditorForked
