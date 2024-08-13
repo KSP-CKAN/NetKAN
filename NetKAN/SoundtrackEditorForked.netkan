@@ -16,4 +16,4 @@ install:
   - find: Music
     install_to: GameData/SoundtrackEditorForked/PluginData
   - find: Playlists
-    install_to: GameData/SoundtrackEditorForked/PluginData
+    install_to: GameData/SoundtrackEditorForked
