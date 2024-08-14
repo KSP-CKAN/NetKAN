@@ -2,8 +2,7 @@ identifier: KSRSS
 $kref: '#/ckan/gitlab/ksrss/KSRSS'
 x_netkan_gitlab:
   use_source_archive: true
-$vref: '#/ckan/ksp-avc'
-license: CC-BY-SA-4.0
+license: restricted
 resources:
   homepage: https://forum.kerbalspaceprogram.com/topic/192818-*
 tags:
