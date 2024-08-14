@@ -20,4 +20,4 @@ recommends:
     - name: Scatterer
     - name: EnvironmentalVisualEnhancements
 
-x_netkan_gitlab.use_source_archive:true
+x_netkan_gitlab.use_source_archive: true
