@@ -1,0 +1,16 @@
+spec_version: v1.4
+identifier: MinimalMainMenu
+name: Minimal Main Menu
+abstract: >-
+  Simplifies the Main Menu by removing animations and less used options
+$kref: '#/ckan/github/coldrifting/MinimalMainMenu'
+ksp_version_min: '1.8'
+ksp_version_max: '1.12'
+license: MIT
+resources:
+  homepage: https://forum.kerbalspaceprogram.com/topic/225747-112x-minimalmainmenu
+tags:
+  - plugin
+  - convenience
+depends:
+  - name: Harmony2
