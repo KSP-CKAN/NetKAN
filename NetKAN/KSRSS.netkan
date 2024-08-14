@@ -8,6 +8,8 @@ resources:
 tags:
   - config
   - planet-pack
+provides:
+  - EnvironmentalVisualEnhancements-Config
 depends:
   - name: ModuleManager
   - name: Kopernicus
