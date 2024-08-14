@@ -7,7 +7,7 @@
         "repository": "https://github.com/Lupinarius/BWA-X/"
     },
     "ksp_version_min": "1.0",
-	"ksp_version_max": "1.1.2",
+    "ksp_version_max": "1.1.2",
     "depends": [
         { "name": "ModuleManager" },
         { "name": "CommunityResourcePack" }

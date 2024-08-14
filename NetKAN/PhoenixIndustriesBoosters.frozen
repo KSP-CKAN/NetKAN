@@ -10,7 +10,7 @@
         {
             "find"       : "CTN",
             "install_to" : "GameData",
-	    "filter": ["Flags", "Agencies" ]
+        "filter": ["Flags", "Agencies" ]
         }
     ]
 }

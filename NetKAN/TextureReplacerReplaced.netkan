@@ -19,10 +19,10 @@
     "provides": [
         "TextureReplacer"
     ],
-	"conflicts": [
+    "conflicts": [
         { "name": "TextureReplacer" }
     ],
-	"install"  : [ {
+    "install"  : [ {
         "find"       : "000_TRR_Config",
         "install_to" : "GameData"
     }, {

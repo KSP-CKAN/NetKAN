@@ -15,8 +15,8 @@
     "depends": [
         { "name": "ModuleManager" }
     ],
-	"conflicts": [
-		{ "name": "ROCapsules" },
-		{ "name": "ROEngines" }
+    "conflicts": [
+        { "name": "ROCapsules" },
+        { "name": "ROEngines" }
     ]
 }

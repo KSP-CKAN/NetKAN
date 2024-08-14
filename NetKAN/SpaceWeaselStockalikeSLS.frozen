@@ -1,12 +1,12 @@
 {
-	"identifier":   "SpaceWeaselStockalikeSLS",
-	"$kref":        "#/ckan/spacedock/1955",
-	"license":      "GPL-3.0",
-	"tags": [
-		"parts"
-	],
-	"install": [ {
-		"find":       "STSpaceLaunchSystem",
-		"install_to": "GameData"
-	} ]
+    "identifier":   "SpaceWeaselStockalikeSLS",
+    "$kref":        "#/ckan/spacedock/1955",
+    "license":      "GPL-3.0",
+    "tags": [
+        "parts"
+    ],
+    "install": [ {
+        "find":       "STSpaceLaunchSystem",
+        "install_to": "GameData"
+    } ]
 }

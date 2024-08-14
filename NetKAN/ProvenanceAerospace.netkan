@@ -22,7 +22,7 @@
         { "name": "BluedogDB"              },
         { "name": "ModularLaunchPads"      }
     ],
-    "install": [ { 
+    "install": [ {
         "find":       "ProvenanceAerospace",
         "install_to": "GameData"
     } ]

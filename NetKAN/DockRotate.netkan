@@ -1,16 +1,16 @@
 {
-	"identifier": "DockRotate",
-	"$kref":      "#/ckan/github/peteletroll/DockRotate",
-	"$vref":      "#/ckan/ksp-avc",
-	"x_netkan_allow_out_of_order": true,
-	"license":    "MIT",
-	"resources": {
-		"homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/170484-*"
-	},
-	"tags": [
-		"plugin"
-	],
-	"depends": [
-		{ "name": "ModuleManager" }
-	]
+    "identifier": "DockRotate",
+    "$kref":      "#/ckan/github/peteletroll/DockRotate",
+    "$vref":      "#/ckan/ksp-avc",
+    "x_netkan_allow_out_of_order": true,
+    "license":    "MIT",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/170484-*"
+    },
+    "tags": [
+        "plugin"
+    ],
+    "depends": [
+        { "name": "ModuleManager" }
+    ]
 }

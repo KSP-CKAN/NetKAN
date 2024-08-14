@@ -13,12 +13,12 @@
         "repository"    : "https://github.com/mwerle/OrbitalMaterialScience",
         "spacedock"     : "https://spacedock.info/mod/1393/Nehemiah%20Engineering%20Orbital%20Science"
     },
-	"tags"              : [
-		"plugin",
-		"parts",
-		"science",
-		"crewed"
-	],
+    "tags"              : [
+        "plugin",
+        "parts",
+        "science",
+        "crewed"
+    ],
     "conflicts"         : [
         { "name"        : "KeminiResearchProgram" },
         { "name"        : "KerbalEnvironmentalEffectsStudy" },

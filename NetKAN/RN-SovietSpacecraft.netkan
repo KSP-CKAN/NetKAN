@@ -29,8 +29,8 @@
         { "name"    : "RN-SalyutStations-SoyuzFerries" }
     ],
     "depends"       : [
-        { "name"	  : "BDAnimationModules" },
-        { "name" 	  : "ModuleManager" },
+        { "name"      : "BDAnimationModules" },
+        { "name"       : "ModuleManager" },
         { "name"      : "TexturesUnlimited" }
     ],
     "recommends"    : [

@@ -18,9 +18,9 @@
         { "name" : "KWRocketry-CommunityFixes" },
         { "name" : "KWRocketry-CommunityFixes-interstage" }
     ],
-    "recommends" : [ 
-        { "name" : "SimpleAdjustableFairings-KWRocketry" }, 
-        { "name" : "JanitorsCloset" } 
+    "recommends" : [
+        { "name" : "SimpleAdjustableFairings-KWRocketry" },
+        { "name" : "JanitorsCloset" }
     ],
     "install" : [
         {

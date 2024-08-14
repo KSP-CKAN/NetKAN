@@ -19,8 +19,8 @@
         "combat"
     ],
     "provides": [
-	    "BDArmory"
-	],
+        "BDArmory"
+    ],
     "conflicts": [
         { "name": "BDArmory" }
     ],

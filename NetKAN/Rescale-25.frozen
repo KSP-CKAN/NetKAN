@@ -23,7 +23,7 @@
         { "name": "SigmaDimensions" }
     ],
     "recommends": [
-		{ "name": "Kronometer" }
+        { "name": "Kronometer" }
     ],
     "conflicts": [
         { "name": "Rescale-32"    },

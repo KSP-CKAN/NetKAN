@@ -5,7 +5,7 @@
     "author"        : "Raidernick",
     "$kref"         : "#/ckan/github/KSP-RO/RNMisc",
     "$vref"         : "#/ckan/ksp-avc",
-	"x_netkan_epoch": 1,
+    "x_netkan_epoch": 1,
     "license"       : "CC-BY-NC-ND-3.0",
     "resources": {
         "homepage"  : "http://forum.kerbalspaceprogram.com/index.php?/topic/132194-*"
@@ -19,7 +19,7 @@
         "install_to": "GameData"
       }
     ],
-	"depends"       : [
+    "depends"       : [
         { "name"      : "BDAnimationModules"  }
     ]
 }

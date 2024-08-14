@@ -1,12 +1,12 @@
 {
-	"license": "CC-BY-NC-SA",
-	"$kref": "#/ckan/spacedock/855",
-	"$vref"       : "#/ckan/ksp-avc",
-	"identifier": "HistoricalProgressionTechTree",
-	"install": [
-	{
-		"find": "HPTechTree",
-		"install_to": "GameData"
-	}
-	]
+    "license": "CC-BY-NC-SA",
+    "$kref": "#/ckan/spacedock/855",
+    "$vref"       : "#/ckan/ksp-avc",
+    "identifier": "HistoricalProgressionTechTree",
+    "install": [
+    {
+        "find": "HPTechTree",
+        "install_to": "GameData"
+    }
+    ]
 }

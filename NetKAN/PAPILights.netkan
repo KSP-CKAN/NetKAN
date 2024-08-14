@@ -13,8 +13,8 @@
         "information"
     ],
     "conflicts" : [
-		{ "name": "PAPIPluginContinued" }
-	],
+        { "name": "PAPIPluginContinued" }
+    ],
     "depends": [
         { "name" : "ToolbarController" },
         { "name" : "ClickThroughBlocker" }

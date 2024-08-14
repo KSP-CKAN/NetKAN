@@ -12,7 +12,7 @@
   "depends": [
     { "name": "AIESAerospace-Unofficial" },
     { "name": "AIES-Antenna-Patches" },
-    { "name": "ModuleManager" }    
+    { "name": "ModuleManager" }
   ],
   "install": [
     {

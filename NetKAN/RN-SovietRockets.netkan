@@ -5,7 +5,7 @@
     "author"        : "Raidernick",
     "$kref"         : "#/ckan/github/KSP-RO/SovietRockets",
     "$vref"         : "#/ckan/ksp-avc",
-	"x_netkan_epoch": 2,
+    "x_netkan_epoch": 2,
     "license"       : "CC-BY-NC-ND-3.0",
     "resources": {
         "homepage"  : "https://forum.kerbalspaceprogram.com/index.php?/topic/79433-*"
@@ -18,8 +18,8 @@
         "install_to": "GameData"
     } ],
     "depends"       : [
-		{ "name"    : "BDAnimationModules" },
-		{ "name"    : "ModuleManager" },
+        { "name"    : "BDAnimationModules" },
+        { "name"    : "ModuleManager" },
         { "name"    : "TexturesUnlimited" }
     ],
     "recommends"    : [

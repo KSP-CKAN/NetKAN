@@ -1,9 +1,9 @@
 {
-	"identifier": "Hangar",
-	"$kref": "#/ckan/netkan/https://raw.githubusercontent.com/allista/hangar/master/Hangar.netkan",
-	"x_netkan_license_ok": true,
-	"tags": [
-		"plugin",
-		"parts"
-	]
+    "identifier": "Hangar",
+    "$kref": "#/ckan/netkan/https://raw.githubusercontent.com/allista/hangar/master/Hangar.netkan",
+    "x_netkan_license_ok": true,
+    "tags": [
+        "plugin",
+        "parts"
+    ]
 }

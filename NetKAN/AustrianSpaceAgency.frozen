@@ -10,11 +10,11 @@
         "homepage": "https://github.com/brama0309/AustrianSpaceAgency"
     },
     "depends"   : [
-        { 
-            "name": "TextureReplacer" 
+        {
+            "name": "TextureReplacer"
         }
     ],
-	"install": [
+    "install": [
     {
         "find":"GameData/AustrianSpaceAgency",
         "install_to": "GameData"

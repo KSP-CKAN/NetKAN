@@ -1,13 +1,13 @@
 {
-	"identifier":   "MADLAD",
-	"$kref":        "#/ckan/github/severedsolo/MADLAD",
-	"$vref":        "#/ckan/ksp-avc",
-	"license":      "MIT",
-	"resources": {
-		"homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/185536-*"
-	},
-	"tags": [
-		"plugin",
-		"information"
-	]
+    "identifier":   "MADLAD",
+    "$kref":        "#/ckan/github/severedsolo/MADLAD",
+    "$vref":        "#/ckan/ksp-avc",
+    "license":      "MIT",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/185536-*"
+    },
+    "tags": [
+        "plugin",
+        "information"
+    ]
 }

@@ -3,16 +3,16 @@
     "license":      "MIT",
     "$kref":        "#/ckan/spacedock/1954",
     "$vref":        "#/ckan/ksp-avc",
-	"tags": [
-		"plugin",
-		"information"
-	],
+    "tags": [
+        "plugin",
+        "information"
+    ],
     "install": [ {
         "find":       "ResonantOrbitCalculator",
         "install_to": "GameData"
     } ],
     "depends": [
         { "name": "ToolbarController"   },
-    	{ "name": "ClickThroughBlocker" }
+        { "name": "ClickThroughBlocker" }
     ]
 }

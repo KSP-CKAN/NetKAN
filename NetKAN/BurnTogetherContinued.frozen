@@ -13,8 +13,8 @@
         "parts"
     ],
     "provides": [
-	    "BurnTogether"
-	],
+        "BurnTogether"
+    ],
     "conflicts": [
         { "name": "BurnTogether" }
     ],

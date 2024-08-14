@@ -6,7 +6,7 @@
     "comment"       : "Ships installed again, updated",
     "$kref"         : "#/ckan/github/KSP-RO/Skylab",
     "$vref"         : "#/ckan/ksp-avc",
-	"x_netkan_epoch": 1,
+    "x_netkan_epoch": 1,
     "license"       : "CC-BY-NC-ND-3.0",
     "resources": {
         "homepage"  : "https://forum.kerbalspaceprogram.com/index.php?/topic/77855-*"
@@ -27,6 +27,6 @@
     ],
     "depends"       : [
         { "name"      : "BDAnimationModules" },
-        { "name" 	  : "ModuleManager" }
+        { "name"       : "ModuleManager" }
     ]
 }

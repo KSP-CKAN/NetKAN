@@ -6,7 +6,7 @@
     "comment"       : "Ships installed again",
     "$kref"         : "#/ckan/github/KSP-RO/USProbesPack",
     "$vref"         : "#/ckan/ksp-avc",
-	"x_netkan_epoch": 1,
+    "x_netkan_epoch": 1,
     "license"       : "CC-BY-NC-ND-3.0",
     "resources": {
         "homepage"  : "https://forum.kerbalspaceprogram.com/index.php?/topic/84250-*"
@@ -28,9 +28,9 @@
     "depends": [
         { "name": "BDAnimationModules" },
         { "name": "TexturesUnlimited" },
-		{ "name": "ModuleManager" }
+        { "name": "ModuleManager" }
     ],
-	"recommends"    : [
+    "recommends"    : [
         { "name"    : "RN-USRockets" }
     ]
 }
