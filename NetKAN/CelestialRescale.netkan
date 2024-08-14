@@ -1,4 +1,3 @@
-spec_version: v1.34
 identifier: CelestialRescale
 $kref: '#/ckan/github/SpaceNerd24/Celestial-Rescale'
 license: restricted
@@ -13,7 +12,6 @@ x_netkan_version_edit:
   replace: v
   strict: false
 ---
-spec_version: v1.34
 identifier: CelestialRescale
 $kref: '#/ckan/spacedock/3559'
 license: restricted

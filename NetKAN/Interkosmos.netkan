@@ -1,4 +1,3 @@
-spec_version: v1.34
 identifier: Interkosmos
 $kref: '#/ckan/github/AstroWell/Interkosmos'
 license: CC-BY-NC-ND-4.0
@@ -8,7 +7,6 @@ tags:
 depends:
   - name: ModuleManager
 ---
-spec_version: v1.34
 identifier: Interkosmos
 $kref: '#/ckan/spacedock/2163'
 license: CC-BY-NC-ND-4.0

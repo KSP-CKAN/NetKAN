@@ -1,5 +1,4 @@
 {
-    "spec_version": 1,
     "identifier":   "CustomBulkheadProfiles",
     "name":         "Custom Bulkhead Profiles (CBH)",
     "abstract":     "Adds support for Custom Bulkhead Profiles via config files.",

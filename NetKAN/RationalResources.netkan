@@ -1,4 +1,3 @@
-spec_version: v1.4
 identifier: RationalResources
 abstract: Makes resource placement no longer random but fit to composition templates. Promotes cryofuel mods and planet pack to life support compatibility.
 $kref: '#/ckan/spacedock/2201'

@@ -1,5 +1,4 @@
 {
-    "spec_version" : "v1.4",
     "identifier"   : "HeapPadder",
     "name"         : "HeapPadder",
     "abstract"     : "This is a simple plugin to allocate extra space on the heap to help minimize the frequency of garbage collection.",

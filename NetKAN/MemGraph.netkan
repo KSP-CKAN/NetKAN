@@ -1,5 +1,4 @@
 {
-    "spec_version" : "v1.4",
     "identifier"   : "MemGraph",
     "name"         : "MemGraph",
     "abstract"     : "This is a simple plugin to display of graph of memory allocation and garbage collection. It is intended as a troubleshooting and development aid rather than for general use.",

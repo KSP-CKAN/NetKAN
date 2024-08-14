@@ -1,4 +1,3 @@
-spec_version: v1.34
 identifier: KrakenScience
 $kref: '#/ckan/github/AstroWell/KrakenScience'
 license: CC-BY-NC-ND-4.0
@@ -14,7 +13,6 @@ x_netkan_version_edit:
   replace: ''
   strict: 'false'
 ---
-spec_version: v1.34
 identifier: KrakenScience
 $kref: '#/ckan/spacedock/905'
 license: CC-BY-NC-ND-4.0

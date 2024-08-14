@@ -1,5 +1,4 @@
 {
-    "spec_version": "v1.4",
     "identifier":   "EngineIgniter",
     "name":         "Engine Igniter",
     "abstract":     "This mod limits the number of times an engine may restart. Configuration is provided for stock/Squad engines and a few popular mods' engines, and may be extended through the use of ModuleManager patches.",

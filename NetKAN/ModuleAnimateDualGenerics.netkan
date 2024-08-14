@@ -1,4 +1,3 @@
-spec_version: v1.34
 identifier: ModuleAnimateDualGenerics
 $kref: '#/ckan/github/linuxgurugamer/ModuleAnimateDualGenerics'
 $vref: '#/ckan/ksp-avc'
@@ -10,7 +9,6 @@ install:
     install_to: GameData
     filter_regexp: \.mdb$
 ---
-spec_version: v1.34
 identifier: ModuleAnimateDualGenerics
 $kref: '#/ckan/spacedock/3692'
 $vref: '#/ckan/ksp-avc'

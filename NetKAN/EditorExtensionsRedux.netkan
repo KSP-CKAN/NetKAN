@@ -1,5 +1,4 @@
 {
-    "spec_version"        : 1,
     "identifier"          : "EditorExtensionsRedux",
     "abstract"            : "Tweaks and features for the in-game vessel editor, e.g. alignment and symmetry aids. Now includes SelectRoot mod",
     "$kref"               : "#/ckan/spacedock/48",

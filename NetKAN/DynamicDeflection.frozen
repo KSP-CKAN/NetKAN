@@ -1,5 +1,4 @@
 {
-    "spec_version" : 1,
     "identifier"   : "DynamicDeflection",
     "name"         : "Dynamic Deflection",
     "abstract"     : "Configure maximum control surface deflection to vary with dynamic pressure",

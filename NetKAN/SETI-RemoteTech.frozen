@@ -1,5 +1,4 @@
 {
-    "spec_version": "v1.4",
     "identifier":   "SETI-RemoteTech",
     "name":         "RemoteTech - SETI Config",
     "abstract":     "This is a SETI config for RemoteTech, adding ground stations, changing the KSC range to cover the whole kerbol system (when not obstructed), setting signal delay to false and tweaking some colors.",

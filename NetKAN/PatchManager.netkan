@@ -1,5 +1,4 @@
 {
-    "spec_version": "v1.4",
     "identifier":   "PatchManager",
     "abstract":     "In-game patch manager, makes adding/removing patches more friendly.",
     "$kref":        "#/ckan/github/linuxgurugamer/PatchManager",

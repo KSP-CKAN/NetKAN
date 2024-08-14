@@ -1,6 +1,5 @@
 {
     "$kref": "#/ckan/kerbalstuff/590",
-    "spec_version": "v1.4",
     "identifier": "TerrestrialPlanetPack",
     "license": "CC-BY-NC-SA-4.0",
     "depends" : [ { "name" : "KopernicusTech" },

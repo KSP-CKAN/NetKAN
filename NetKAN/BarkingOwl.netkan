@@ -1,4 +1,3 @@
-spec_version: v1.34
 identifier: BarkingOwl
 $kref: '#/ckan/github/Bellabong/Barking-Owl-Bureau'
 license: CC-BY-NC-SA
@@ -17,7 +16,6 @@ suggests:
 supports:
   - name: BluedogDB
 ---
-spec_version: v1.34
 identifier: BarkingOwl
 $kref: '#/ckan/spacedock/3665'
 license: CC-BY-NC-SA

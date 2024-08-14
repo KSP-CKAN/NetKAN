@@ -1,7 +1,6 @@
 {
     "identifier": "imkSushisSunToKerbol",
     "$kref": "#/ckan/spacedock/734",
-    "spec_version": 1,
     "license": "MIT",
     "depends": [
         { "name": "Kopernicus" },

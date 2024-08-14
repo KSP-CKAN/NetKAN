@@ -1,5 +1,4 @@
 {
-    "spec_version": "v1.4",
     "identifier":   "PersistentThrust",
     "abstract":     "PersistentThrust is a plugin that allows propulsion systems to operate during timewarp. The plugin includes a new solar sail part and module that allows a spacecraft to be propelled only by sunlight. It also adds a module with a patch to the stock ion engine that allows engines to thrust during timewarp.",
     "author":       [ "mrsolarsail", "FreeThinker" ],

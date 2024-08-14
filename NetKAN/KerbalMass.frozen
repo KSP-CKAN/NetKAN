@@ -3,7 +3,6 @@
     "identifier": "KerbalMass",
     "x_via": "Automated KerbalStuff CKAN submission",
     "$kref": "#/ckan/kerbalstuff/567",
-    "spec_version": "v1.4",
     "install": [
         { "file": "GameData/KerbalMass", "install_to": "GameData" }
     ],
