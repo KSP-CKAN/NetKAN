@@ -18,5 +18,5 @@ recommends:
   - name: Scatterer
   - name: EnvironmentalVisualEnhancements
 install:
-    - find: KSRSS
-      install_to: GameData
+  - find: KSRSS
+    install_to: GameData
