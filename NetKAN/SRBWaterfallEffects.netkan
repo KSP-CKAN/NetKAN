@@ -1,4 +1,3 @@
-spec_version: v1.18
 identifier: SRBWaterfallEffects
 $kref: '#/ckan/github/dangaffa/RSMP'
 x_netkan_version_edit: ^(?<version>[^" ]+).*$

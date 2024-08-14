@@ -1,5 +1,4 @@
 {
-    "spec_version"  : "v1.4",
     "identifier"    : "RN-SovietProbes",
     "name"          : "Soviet Probes",
     "abstract"      : "This pack includes early Soviet probes such as Sputnik, Luna, Molniya and Polyot. Probes are meant to be used with my Soviet Rockets pack.",
@@ -7,7 +6,7 @@
     "comment"       : "Ships installed again",
     "$kref"         : "#/ckan/github/KSP-RO/SovietProbes",
     "$vref"         : "#/ckan/ksp-avc",
-	"x_netkan_epoch": 1,
+    "x_netkan_epoch": 1,
     "license"       : "CC-BY-NC-ND-3.0",
     "resources": {
         "homepage"  : "https://forum.kerbalspaceprogram.com/index.php?/topic/79433-*"
@@ -28,7 +27,7 @@
     ],
     "depends"       : [
         { "name"      : "BDAnimationModules"  },
-		{ "name" 	  : "ModuleManager" },
+        { "name"       : "ModuleManager" },
         { "name"      : "TexturesUnlimited" }
     ],
     "recommends"    : [

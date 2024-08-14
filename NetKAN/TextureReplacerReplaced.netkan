@@ -1,5 +1,4 @@
 {
-    "spec_version": "v1.4",
     "identifier":   "TextureReplacerReplaced",
     "name":         "Texture Replacer Replaced",
     "abstract":     "Kerbal and suits personalisation, texture replacement and reflections",
@@ -20,10 +19,10 @@
     "provides": [
         "TextureReplacer"
     ],
-	"conflicts": [
+    "conflicts": [
         { "name": "TextureReplacer" }
     ],
-	"install"  : [ {
+    "install"  : [ {
         "find"       : "000_TRR_Config",
         "install_to" : "GameData"
     }, {

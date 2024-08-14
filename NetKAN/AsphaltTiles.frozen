@@ -1,5 +1,4 @@
 {
-    "spec_version" : "v1.2",
     "ksp_version": "any",
     "identifier"   : "AsphaltTiles",
     "name"         : "Kerbal Hacks: Asphalt Tiles",
@@ -8,7 +7,7 @@
     "resources" : {
         "homepage" : "http://forum.kerbalspaceprogram.com/index.php?/topic/134889-KerbalHacks"
     },
-    
+
     "suggests": [
         { "name": "KIS",
         "name": "AsphaltTilesWelded" }

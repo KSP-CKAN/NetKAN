@@ -1,15 +1,14 @@
 {
-	"spec_version": "v1.4",
-	"identifier": "KerbalKommander",
-	"license": "MIT",
-	"$kref": "#/ckan/spacedock/781",
-	"depends": [
-		{ "name": "ModuleManager" }
-	],
-	"install": [
-		{
-			"find": "KerbalKommander",
-			"install_to": "GameData"
-		}
-	]
+    "identifier": "KerbalKommander",
+    "license": "MIT",
+    "$kref": "#/ckan/spacedock/781",
+    "depends": [
+        { "name": "ModuleManager" }
+    ],
+    "install": [
+        {
+            "find": "KerbalKommander",
+            "install_to": "GameData"
+        }
+    ]
 }

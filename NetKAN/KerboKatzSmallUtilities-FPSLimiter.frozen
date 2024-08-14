@@ -1,5 +1,4 @@
 {
-    "spec_version"  : "v1.4",
     "identifier"    : "KerboKatzSmallUtilities-FPSLimiter",
     "name"          : "KerboKatz - SmallUtilities - FPSLimiter",
     "abstract"      : "Limits the fps (frames per second) while kerbal is running in the background causing it to use less CPU & GPU cycles.",

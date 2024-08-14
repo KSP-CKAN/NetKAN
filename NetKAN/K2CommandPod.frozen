@@ -1,7 +1,6 @@
 {
     "identifier": "K2CommandPod",
     "$kref": "#/ckan/spacedock/700",
-    "spec_version": "v1.4",
     "license" : "CC-BY-NC-SA-4.0",
     "install": [
         {

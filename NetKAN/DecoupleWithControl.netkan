@@ -1,5 +1,4 @@
 {
-    "spec_version" : 1,
     "identifier"   : "DecoupleWithControl",
     "name"         : "Decouple With Control",
     "abstract"     : "Adds a probe core, electricity, an internal antenna, torque, and SAS capability to all stack decouplers in the game.",

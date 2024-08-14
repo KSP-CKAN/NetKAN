@@ -1,5 +1,4 @@
 {
-    "spec_version" : 1,
     "identifier"   : "PAPILights",
     "name"         : "PAPI Lights",
     "abstract"     : "Adds PAPI arrays to the runway to aid landing",
@@ -14,8 +13,8 @@
         "information"
     ],
     "conflicts" : [
-		{ "name": "PAPIPluginContinued" }
-	],
+        { "name": "PAPIPluginContinued" }
+    ],
     "depends": [
         { "name" : "ToolbarController" },
         { "name" : "ClickThroughBlocker" }

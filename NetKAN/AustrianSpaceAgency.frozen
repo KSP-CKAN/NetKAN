@@ -1,5 +1,4 @@
 {
-    "spec_version": "v1.4",
     "identifier"   : "AustrianSpaceAgency",
     "$kref"        : "#/ckan/github/brama0309/AustrianSpaceAgency",
     "name"         : "Austrian Space Agency",
@@ -11,11 +10,11 @@
         "homepage": "https://github.com/brama0309/AustrianSpaceAgency"
     },
     "depends"   : [
-        { 
-            "name": "TextureReplacer" 
+        {
+            "name": "TextureReplacer"
         }
     ],
-	"install": [
+    "install": [
     {
         "find":"GameData/AustrianSpaceAgency",
         "install_to": "GameData"

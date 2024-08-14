@@ -1,20 +1,19 @@
 {
-	"spec_version": "v1.4",
-	"identifier":   "EarnYourStripes",
-	"name":         "Earn Your Stripes!",
-	"abstract":     "Allows new kerbals to earn their very own 'veteran orange' jumpsuit, according to options you set!",
-	"$kref":        "#/ckan/github/severedsolo/EarnYourStripes",
-	"$vref":        "#/ckan/ksp-avc",
-	"license":      "MIT",
-	"resources": {
-		"homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/161790-*"
-	},
-	"tags": [
-		"plugin",
-		"crewed"
-	],
-	"depends": [
-		{ "name": "KerbalChangelog" },
-		{ "name": "FlightTracker" }
+    "identifier":   "EarnYourStripes",
+    "name":         "Earn Your Stripes!",
+    "abstract":     "Allows new kerbals to earn their very own 'veteran orange' jumpsuit, according to options you set!",
+    "$kref":        "#/ckan/github/severedsolo/EarnYourStripes",
+    "$vref":        "#/ckan/ksp-avc",
+    "license":      "MIT",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/161790-*"
+    },
+    "tags": [
+        "plugin",
+        "crewed"
+    ],
+    "depends": [
+        { "name": "KerbalChangelog" },
+        { "name": "FlightTracker" }
     ]
 }

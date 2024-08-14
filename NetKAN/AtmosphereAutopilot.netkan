@@ -1,5 +1,4 @@
 {
-    "spec_version" : "v1.4",
     "identifier"   : "AtmosphereAutopilot",
     "name"         : "AtmosphereAutopilot (Fly-By-Wire)",
     "abstract"     : "Atmosphere autopilot is a modular atmospheric flight control system library.\nIt features a Fly-By-Wire System that replaces the stock SAS, and cruise control with heading/altitude/velocity setpoints. All without tuning PID parameters!\n\nIf you're using Stock Bug Fix Modules, turn off ModuleControlSurfacePlus and ModuleGimbalPlus modules in its manager.",

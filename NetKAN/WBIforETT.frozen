@@ -1,7 +1,6 @@
 {
     "$kref": "#/ckan/kerbalstuff/1434",
     "identifier": "WBIforETT",
-    "spec_version": "v1.16",
     "license": "MIT",
     "depends": [
         { "name": "ModuleManager" },

@@ -1,5 +1,4 @@
 {
-    "spec_version": "v1.4",
     "identifier": "LightsOut-Fwiffo",
     "name": "LightsOut (Fwiffo's fork)",
     "abstract": "Day and night modes in the VAB/SPH.\n\nBased on RealGecko's May 6, 2016 recompile for KSP 1.1.2, but changes the hangar hotkey from L to P to avoid conflicts with RCS Build Aid and RPM JSI Camera, and also includes a patch to ignore hotkeys when the cursor is in a text field (e.g. parts search).",

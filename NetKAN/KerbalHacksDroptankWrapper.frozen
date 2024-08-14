@@ -1,12 +1,11 @@
 {
-  "spec_version": "v1.4",
   "ksp_version": "any",
-  
+
  "suggests" : [
         { "name" : "TweakScale" }
     ],
-    
-    
+
+
     "install": [
         {
             "file"       : "GameData/KerbalHacks/WrapperTank",

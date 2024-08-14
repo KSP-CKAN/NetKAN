@@ -1,5 +1,4 @@
 {
-    "spec_version": 1,
     "identifier"  : "KerbalConstructionTime-173",
     "$kref"       : "#/ckan/spacedock/2254",
     "$vref"       : "#/ckan/ksp-avc",
@@ -27,7 +26,7 @@
     "suggests" : [
         { "name": "KerbalAlarmClock" }
     ],
-	"conflicts" : [
-		{ "name": "KerbalConstructionTime" }
-	]
+    "conflicts" : [
+        { "name": "KerbalConstructionTime" }
+    ]
 }

@@ -1,8 +1,7 @@
 {
-    "spec_version": 1,
     "identifier"  : "ProbeControlRoom",
     "$kref"       : "#/ckan/github/icedown/KSP-ProbeControlRoom",
-    "$vref" 	  : "#/ckan/ksp-avc",
+    "$vref"       : "#/ckan/ksp-avc",
     "license"     : "CC-BY-NC-SA-3.0",
     "resources": {
         "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/151963-*"
@@ -11,11 +10,11 @@
         "plugin",
         "uncrewed"
     ],
-    "install"	  : [ {
+    "install"      : [ {
         "file"    : "GameData/ProbeControlRoom",
         "install_to": "GameData"
     } ],
-    "depends" 	  : [
+    "depends"       : [
         { "name"  : "ModuleManager" },
         { "name"  : "RasterPropMonitor"}
     ],

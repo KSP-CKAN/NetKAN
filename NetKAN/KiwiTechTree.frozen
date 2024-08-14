@@ -1,10 +1,9 @@
 {
-    "spec_version":     "v1.4",
     "identifier":       "KiwiTechTree",
     "abstract":         "Planes/Probes Before Crew Style Tech Tree which also adds part upgrades using B9PS to many stock and supported mods.",
     "name":             "Kiwi Tech Tree Overhaul",
     "$kref":            "#/ckan/spacedock/2567",
-    "$vref": 			"#/ckan/ksp-avc",
+    "$vref":             "#/ckan/ksp-avc",
     "release_status":   "stable",
     "license":          "MIT",
     "tags": [
@@ -23,7 +22,7 @@
         { "name": "RationalResources"     },
         { "name": "NearFutureSolar"       }
     ],
-    "suggests": [        
+    "suggests": [
         { "name": "Kerbalism"              },
         { "name": "EngineIgnitorReignited" },
         { "name": "KerbalConstructionTime" },
@@ -74,7 +73,7 @@
     "conflicts": [
         { "name": "TweakScale"                             },
         { "name": "RealisticPowerDraw"                     },
-        { "name": "NearFutureSpacecraft-OrbitalLFOEngines" },		 
+        { "name": "NearFutureSpacecraft-OrbitalLFOEngines" },
         { "name": "NearFuturePropulsion-XenonHETs"         },
         { "name": "CryoEngines-LFO"                        }
     ],

@@ -2,7 +2,6 @@
     "license": "CC-BY-SA-4.0",
     "identifier": "WenchangSatelliteLaunchCenter",
     "$kref": "#/ckan/spacedock/1091",
-    "spec_version": "v1.4",
     "depends": [ { "name" : "KerbalKonstructs" } ],
     "install": [ { "find" : "Kerwis",
                   "install_to" : "GameData" } ]

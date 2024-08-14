@@ -1,7 +1,6 @@
 {
     "license": "MIT",
     "$kref": "#/ckan/spacedock/823",
-    "spec_version": 1,
     "identifier": "KerbalOlympics",
     "depends": [
         { "name": "KerbalKonstructs" }

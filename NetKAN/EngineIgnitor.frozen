@@ -1,15 +1,14 @@
 {
-    "spec_version":"v1.4",
     "identifier": "EngineIgnitor",
     "$kref": "#/ckan/spacedock/1015",
     "license": "CC-BY-SA",
     "name"         : "Engine Ignitor (standalone)",
     "abstract"     : "Adding  ignitors service to engines. With additional resources needing to be ignited",
-    "ksp_version"  	: "1.2.1",
+    "ksp_version"      : "1.2.1",
      "author"       : "DennyTX",
      "resources": {
          "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/150673-12-engine-ignitor-continued-23-oct-2016/"
-     },    
+     },
     "install": [
         {
             "find"       : "OLDD",

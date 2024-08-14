@@ -1,12 +1,11 @@
 {
-    "spec_version"  : "v1.4",
     "identifier"    : "RN-SPP",
     "name"          : "US and Soviet Solar Panels Pack",
     "abstract"      : "This mod contains US and Soviet solar panels that have been separated from the main spacecraft from my various mods",
     "author"        : "Raidernick",
     "$kref"         : "#/ckan/github/KSP-RO/USSovietSolarPanelsPack",
     "$vref"         : "#/ckan/ksp-avc",
-	"x_netkan_epoch": 1,
+    "x_netkan_epoch": 1,
     "license"       : "CC-BY-NC-ND-3.0",
     "resources": {
         "homepage"  : "http://forum.kerbalspaceprogram.com/index.php?/topic/103652-*"

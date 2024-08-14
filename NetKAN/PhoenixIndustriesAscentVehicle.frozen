@@ -1,6 +1,5 @@
 {
     "$kref": "#/ckan/spacedock/339",
-    "spec_version": "v1.4",
     "license": "CC-BY-NC-SA-4.0",
     "identifier": "PhoenixIndustriesAscentVehicle",
     "depends": [
@@ -14,7 +13,7 @@
         {
             "find"  :   "CTN",
             "install_to":   "GameData",
-	        "filter": ["Flags" ]
+            "filter": ["Flags" ]
         }
     ]
 }

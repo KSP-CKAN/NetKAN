@@ -1,7 +1,6 @@
 {
     "license": "CC-BY-SA-2.0",
     "$kref": "#/ckan/spacedock/411",
-    "spec_version": "v1.4",
     "identifier": "ModifiedMK22IVAASETAvionics",
     "depends": [
         { "name": "BDynamicsMk22Cockpits" },

@@ -1,6 +1,5 @@
 {
     "$kref": "#/ckan/kerbalstuff/645",
-    "spec_version": "v1.4",
     "identifier": "Insystem",
     "license": "CC-BY-NC-SA-4.0",
     "depends"   :   [ { "name" : "Kopernicus" },

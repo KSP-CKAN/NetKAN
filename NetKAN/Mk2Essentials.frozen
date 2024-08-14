@@ -1,25 +1,24 @@
 {
-	"spec_version" : "v1.20",
-	"identifier" : "Mk2Essentials",
-	"name" : "Mk 2 Essentials",
-	"abstract" : "Some Mk2 parts which I felt were missing from the game",
-	"author" : "JoePatrick1",
-	"license" : "MIT",
-	"version" : "6",
-	"release_status" : "stable",
-	"ksp_version_min" : "0.90",
-	"ksp_version_max" : "1.0.5",
-	"resources" :
-	{
-		"homepage"	: "http://forum.kerbalspaceprogram.com/index.php?/topic/89875-104",
-		"curse"	: "http://kerbal.curseforge.com/ksp-mods/225706-mk2-essentials"
-	},
-	"install" : [
-		{
-			"file" : "Mk2Essentials",
-			"install_to" : "GameData",
-			"filter" : "Thumbs.db"
-		}
-	],
-	"download" : "https://www.curseforge.com/kerbal/ksp-mods/mk2-essentials/download/2255734/file"
+    "identifier" : "Mk2Essentials",
+    "name" : "Mk 2 Essentials",
+    "abstract" : "Some Mk2 parts which I felt were missing from the game",
+    "author" : "JoePatrick1",
+    "license" : "MIT",
+    "version" : "6",
+    "release_status" : "stable",
+    "ksp_version_min" : "0.90",
+    "ksp_version_max" : "1.0.5",
+    "resources" :
+    {
+        "homepage"    : "http://forum.kerbalspaceprogram.com/index.php?/topic/89875-104",
+        "curse"    : "http://kerbal.curseforge.com/ksp-mods/225706-mk2-essentials"
+    },
+    "install" : [
+        {
+            "file" : "Mk2Essentials",
+            "install_to" : "GameData",
+            "filter" : "Thumbs.db"
+        }
+    ],
+    "download" : "https://www.curseforge.com/kerbal/ksp-mods/mk2-essentials/download/2255734/file"
 }

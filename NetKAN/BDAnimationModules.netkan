@@ -1,9 +1,8 @@
 {
-    "spec_version" : "v1.4",
     "identifier"   : "BDAnimationModules",
     "name"         : "BahamutoD Animation Modules",
     "abstract"     : "Animation modules plugin for KSP",
-	"author"       : [ "BahamutoD", "Papa_Joe", "RaiderNick" ],
+    "author"       : [ "BahamutoD", "Papa_Joe", "RaiderNick" ],
     "$kref"        : "#/ckan/github/raidernick/BDAnimationModules",
     "$vref"        : "#/ckan/ksp-avc",
     "x_netkan_epoch" : 1,

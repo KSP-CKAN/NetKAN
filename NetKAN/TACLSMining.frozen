@@ -1,6 +1,5 @@
 {
     "$kref": "#/ckan/kerbalstuff/787",
-    "spec_version": 1,
     "license": "MIT",
     "identifier": "TACLSMining",
     "depends" : [{"name":"TACLS"}],

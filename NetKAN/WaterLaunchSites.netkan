@@ -1,5 +1,4 @@
 {
-    "spec_version" : "v1.26",
     "identifier"   : "WaterLaunchSites",
     "name"         : "Water Launch Sites (Kerbal-Konstructs)",
     "author"       : "flart",
@@ -24,6 +23,6 @@
         { "name": "ModuleManager"    }
     ],
     "recommends": [
-    	{ "name": "MakingHistory-DLC" }
-	]
+        { "name": "MakingHistory-DLC" }
+    ]
 }

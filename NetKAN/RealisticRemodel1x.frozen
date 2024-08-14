@@ -2,7 +2,6 @@
     "license": "MIT",
     "identifier": "RealisticRemodel1x",
     "$kref": "#/ckan/spacedock/637",
-    "spec_version": "v1.4",
     "depends": [
         { "name": "Kopernicus" },
         { "name": "SigmaDimensions" },

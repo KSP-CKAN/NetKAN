@@ -1,5 +1,4 @@
 {
-    "spec_version": 1,
     "identifier"  : "Nuke-TinyParts",
     "name"        : "Nukemod: Tiny Parts",
     "abstract"    : "Adds some parts and Other Useless Crap, some of which are tiny",
@@ -9,7 +8,7 @@
     "ksp_version" : "1.6.1",
     "license"     : "public-domain",
     "resources": {
-    	"homepage": "https://drive.google.com/open?id=1WPu-nxiyoI-xSWWkb_FJ5wDdqelR4jVk"
+        "homepage": "https://drive.google.com/open?id=1WPu-nxiyoI-xSWWkb_FJ5wDdqelR4jVk"
     },
     "tags": [
         "parts"

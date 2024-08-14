@@ -1,12 +1,11 @@
 {
-    "spec_version"  : "v1.4",
     "identifier"    : "RN-SovietRockets",
     "name"          : "Soviet Rockets - R7/Proton/Zenit Rockets and more",
     "abstract"      : "This mod contains various Soviet rockets derived from ICBM designs.",
     "author"        : "Raidernick",
     "$kref"         : "#/ckan/github/KSP-RO/SovietRockets",
     "$vref"         : "#/ckan/ksp-avc",
-	"x_netkan_epoch": 2,
+    "x_netkan_epoch": 2,
     "license"       : "CC-BY-NC-ND-3.0",
     "resources": {
         "homepage"  : "https://forum.kerbalspaceprogram.com/index.php?/topic/79433-*"
@@ -19,8 +18,8 @@
         "install_to": "GameData"
     } ],
     "depends"       : [
-		{ "name"    : "BDAnimationModules" },
-		{ "name"    : "ModuleManager" },
+        { "name"    : "BDAnimationModules" },
+        { "name"    : "ModuleManager" },
         { "name"    : "TexturesUnlimited" }
     ],
     "recommends"    : [

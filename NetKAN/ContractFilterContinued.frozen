@@ -1,5 +1,4 @@
 {
-    "spec_version": "v1.4",
     "identifier":   "ContractFilterContinued",
     "abstract":     "Allows the user to configure which contracts are available",
     "$kref":        "#/ckan/spacedock/820",

@@ -1,37 +1,36 @@
 {
-	"identifier": "Year2200",
-	"$kref": "#/ckan/spacedock/722",
-	"release_status": "testing",
-	"x_netkan_license_ok": true,
-	"depends": [
-		{
-			"name": "CommunityResourcePack"
-		},
-		{
-			"name": "ModuleManager"
-		},
-		{
-			"name": "TweakScale"
-		},
-		{
-			"name": "InterstellarFuelSwitch-Core"
-		}
-	],
-	"recommends": [
-		{
-			"name": "RealSolarSystem"
-		},
-		{
-			"name": "ThermalMonitor"
-		}
-	],
-	"conflicts": [
-		{
-			"name": "SimpleNuclear"
-		},
-		{
-			"name": "SimpleConstruction"
-		}
-	],
-	"spec_version": 1
+    "identifier": "Year2200",
+    "$kref": "#/ckan/spacedock/722",
+    "release_status": "testing",
+    "x_netkan_license_ok": true,
+    "depends": [
+        {
+            "name": "CommunityResourcePack"
+        },
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "TweakScale"
+        },
+        {
+            "name": "InterstellarFuelSwitch-Core"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "RealSolarSystem"
+        },
+        {
+            "name": "ThermalMonitor"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "SimpleNuclear"
+        },
+        {
+            "name": "SimpleConstruction"
+        }
+    ],
 }

@@ -1,5 +1,4 @@
 {
-    "spec_version": "v1.4",
     "identifier": "RPMEnhancedDockingPorts",
     "$kref": "#/ckan/spacedock/888",
     "$vref": "#/ckan/ksp-avc",
@@ -9,7 +8,7 @@
             "name": "ModuleManager"
         },
         {
-            "name": "RasterPropMonitor" 
+            "name": "RasterPropMonitor"
         }
     ],
     "install": [

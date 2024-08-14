@@ -1,5 +1,4 @@
 {
-    "spec_version": "v1.18",
     "identifier":   "BDArmoryContinued",
     "name":         "BD Armory Continued",
     "abstract":     "The original Weapons mod by BahamutoD, continued!",
@@ -20,8 +19,8 @@
         "combat"
     ],
     "provides": [
-	    "BDArmory"
-	],
+        "BDArmory"
+    ],
     "conflicts": [
         { "name": "BDArmory" }
     ],

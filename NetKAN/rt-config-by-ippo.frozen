@@ -1,5 +1,4 @@
 {
-    "spec_version": "v1.2",
     "identifier":   "rt-config-by-ippo",
     "name":         "Ippo's configuration for Remote Tech",
     "abstract":     "This settings file for Remote Tech makes it both more realistic and a bit easier by giving nearly infinite range to the ground stations. Manually delete RemoteTech/RemoteTech_Settings.cfg first or this will not install.",

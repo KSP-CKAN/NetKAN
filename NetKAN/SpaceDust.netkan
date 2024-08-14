@@ -1,11 +1,10 @@
 {
-    "spec_version"   : "v1.4",
     "identifier"     : "SpaceDust",
     "$kref"         : "#/ckan/netkan/https://github.com/post-kerbin-mining-corporation/SpaceDust/raw/master/CKAN/SpaceDust.netkan",
     "tags": [
         "parts",
         "plugin",
         "resources",
-        "science" 
+        "science"
     ]
 }

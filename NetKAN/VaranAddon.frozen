@@ -1,7 +1,6 @@
 {
     "license": "MIT",
     "$kref": "#/ckan/spacedock/868",
-    "spec_version": "v1.4",
     "identifier": "VaranAddon",
     "depends": [
         { "name": "Kopernicus" },

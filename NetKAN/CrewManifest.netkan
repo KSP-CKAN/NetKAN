@@ -1,5 +1,4 @@
 {
-    "spec_version": "v1.16",
     "identifier":   "CrewManifest",
     "name":         "Crew Manifest",
     "abstract":     "This plugin will allow you to add or remove crew from parts while on the launch pad or transfer crew between parts in the same vessel. You can also edit/add custom crew members in your available crew roster provided that they are not part of an active flight (or dead).",
