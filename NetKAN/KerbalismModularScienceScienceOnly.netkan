@@ -1,0 +1,14 @@
+spec_version: v1.34
+identifier: KerbalismModularScienceScienceOnly
+$kref: '#/ckan/spacedock/3691'
+$vref: '#/ckan/ksp-avc'
+license: Unlicense
+tags:
+  - parts
+depends:
+  - name: ModuleManager
+  - name: Kerbalism
+install:
+  - find: KerbalismModularScience
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
