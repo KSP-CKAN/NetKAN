@@ -1,23 +1,22 @@
-spec_version: v1.4
 identifier: KSRSS
+$kref: '#/ckan/gitlab/ksrss/KSRSS'
+x_netkan_gitlab:
+  use_source_archive: true
+$vref: '#/ckan/ksp-avc'
 license: CC-BY-SA-4.0
 resources:
-    homepage: https://forum.kerbalspaceprogram.com/topic/192818-beta-ksrss-07-kerbin-or-x25-sized-rss/
+  homepage: https://forum.kerbalspaceprogram.com/topic/192818-*
 tags:
-    - config
-    - planet-pack
-$kref: '#/ckan/gitlab/ksrss/KSRSS'
-$vref: '#/ckan/ksp-avc'
+  - config
+  - planet-pack
+depends:
+  - name: Kopernicus
+  - name: Kronometer
+  - name: CustomBarnKit
+recommends:
+  - name: CustomAsteroids
+  - name: Scatterer
+  - name: EnvironmentalVisualEnhancements
 install:
     - find: KSRSS
       install_to: GameData
-depends:
-    - name: Kopernicus
-    - name: Kronometer
-    - name: CustomBarnKit
-recommends:
-    - name: CustomAsteroids
-    - name: Scatterer
-    - name: EnvironmentalVisualEnhancements
-
-x_netkan_gitlab.use_source_archive: true
