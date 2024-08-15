@@ -1,0 +1,14 @@
+spec_version: v1.34
+identifier: VectorVacuum
+$kref: '#/ckan/spacedock/3694'
+license: MIT
+tags:
+  - config
+  - graphics
+depends:
+  - name: ModuleManager
+  - name: Waterfall
+install:
+  - find: VectorVac
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
