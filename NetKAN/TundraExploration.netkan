@@ -1,4 +1,8 @@
 identifier: TundraExploration
+$kref: '#/ckan/github/TundraMods/TundraExploration'
+$vref: '#/ckan/ksp-avc/TundraExploration.version'
+---
+identifier: TundraExploration
 $kref: '#/ckan/spacedock/223'
 $vref: '#/ckan/ksp-avc/TundraExploration.version'
 license: restricted
