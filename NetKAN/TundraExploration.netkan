@@ -9,8 +9,8 @@ depends:
   - name: B9PartSwitch
   - name: ModuleManager
   - name: TundraTechnologies
-recommends:
   - name: SmokeScreen
+recommends:
   - name: Waterfall
   - name: FMRS
   - name: FreeIva
