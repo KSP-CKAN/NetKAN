@@ -7,5 +7,5 @@ tags:
 depends:
   - name: ModuleManager
 install:
-  - file: Add a generator to ISRU.config
+  - file: Add a Generator to ISRU.config
     install_to: GameData/ISRUGenerator
