@@ -1,0 +1,13 @@
+identifier: Resurfaced
+author:
+  - al2Me6
+  - Beale
+  - Zorg
+  - Rodger
+$kref: '#/ckan/github/Tantares/Resurfaced/asset_match/resurfaced'
+$vref: '#/ckan/ksp-avc'
+license: GPL-3.0
+tags:
+  - graphics
+depends:
+  - name: Shabby
