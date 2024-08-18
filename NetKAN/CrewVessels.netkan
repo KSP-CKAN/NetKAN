@@ -1,0 +1,14 @@
+spec_version: v1.34
+identifier: CrewVessels
+$kref: '#/ckan/spacedock/3696'
+license: CC-BY
+tags:
+  - crewed
+  - first-person
+  - parts
+depends:
+  - name: ModuleManager
+install:
+  - find: EDBMods
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
