@@ -1,8 +1,6 @@
-{
-    "identifier"     : "VABOrganizer",
-    "$kref"         : "#/ckan/netkan/https://github.com/post-kerbin-mining-corporation/VABOrganizer/raw/master/CKAN/VABOrganizer.netkan",
-    "tags": [
-        "plugin",
-        "convenience"
-    ]
-}
+identifier: VABOrganizer
+$kref: >-
+  #/ckan/netkan/https://github.com/post-kerbin-mining-corporation/VABOrganizer/raw/master/CKAN/VABOrganizer.netkan
+tags:
+  - plugin
+  - convenience
