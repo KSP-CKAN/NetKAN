@@ -1,0 +1,24 @@
+identifier: RecolorCollection-NearFuturePropulsion
+name: Recolor Collection - Near Future Propulsion
+abstract: >-
+  A collection of Textures Unlimited recolours for
+  all of the parts from the Near Future Propulsion mod
+$kref: '#/ckan/github/ZZetho/TU_NearFuturePropulsion'
+x_netkan_github:
+  use_source_archive: true
+ksp_version: 1.12
+license: CC-BY-NC-SA-4.0
+resources:
+  homepage: https://forum.kerbalspaceprogram.com/topic/225485-*
+tags:
+  - config
+  - graphics
+depends:
+  - name: ModuleManager
+  - name: TexturesUnlimited
+  - name: NearFuturePropulsion
+supports:
+  - name: NearFuturePropulsion
+install:
+  - find: TU_NearFuturePropulsion
+    install_to: GameData
