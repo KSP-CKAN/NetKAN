@@ -1,0 +1,30 @@
+identifier: AdvancedAtmosphereTools
+$kref: '#/ckan/github/CashnipLeaf/AdvancedAtmosphereTools'
+x_netkan_version_edit:
+  find: ^v
+  replace: ''
+  strict: 'false'
+---
+identifier: AdvancedAtmosphereTools
+$kref: '#/ckan/spacedock/3597'
+ksp_version: 1.12
+resources:
+  manual: https://github.com/CashnipLeaf/AdvancedAtmosphereTools/wiki
+tags:
+  - plugin
+  - physics
+  - library
+conflicts:
+  - name: KerbalWeatherProject
+  - name: KerbalWeatherProject-Lite
+  - name: KerbalWind
+depends:
+  - name: ModularFlightIntegrator
+  - name: Harmony2
+  - name: ToolbarController
+  - name: ClickThroughBlocker
+recommends:
+  - name: ModuleManager
+  - name: KSPCommunityFixes
+supports:
+  - name: FerramAerospaceResearchContinued
