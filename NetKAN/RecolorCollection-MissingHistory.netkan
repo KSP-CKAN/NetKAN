@@ -1,6 +1,8 @@
 identifier: RecolorCollection-MissingHistory
 name: Recolor Collection - Missing History
-abstract: A collection of Textures Unlimited recolours for all of the parts from the Missing History mod
+abstract: >-
+  A collection of Textures Unlimited recolours for
+  all of the parts from the Missing History mod
 $kref: '#/ckan/github/ZZetho/TU_MissingHistory'
 x_netkan_github:
   use_source_archive: true

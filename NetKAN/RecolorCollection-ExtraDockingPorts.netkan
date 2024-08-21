@@ -1,6 +1,8 @@
 identifier: RecolorCollection-ExtraDockingPorts
 name: Recolor Collection - Extra Docking Ports
-abstract: A collection of Textures Unlimited recolours for all of the parts from the Extra Docking Ports mod
+abstract: >-
+  A collection of Textures Unlimited recolours for
+  all of the parts from the Extra Docking Ports mod
 $kref: '#/ckan/github/ZZetho/TU_ExtraDockingPorts'
 x_netkan_github:
   use_source_archive: true

@@ -1,6 +1,8 @@
 identifier: RecolorCollection-NearFutureSpacecraft
 name: Recolor Collection - Near Future Spacecraft
-abstract: A collection of Textures Unlimited recolours for all of the parts from the Near Future Spacecraft mod
+abstract: >-
+  A collection of Textures Unlimited recolours for
+  all of the parts from the Near Future Spacecraft mod
 $kref: '#/ckan/github/ZZetho/TU_NearFutureSpacecraft'
 x_netkan_github:
   use_source_archive: true
