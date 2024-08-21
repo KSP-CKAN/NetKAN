@@ -1,0 +1,22 @@
+identifier: RecolorCollection-ExtraDockingPorts
+name: Recolor Collection - Extra Docking Ports
+abstract: A collection of Textures Unlimited recolours for all of the parts from the Extra Docking Ports mod
+$kref: '#/ckan/github/ZZetho/TU_ExtraDockingPorts'
+x_netkan_github:
+  use_source_archive: true
+ksp_version: 1.12
+license: CC-BY-NC-SA-4.0
+resources:
+  homepage: https://forum.kerbalspaceprogram.com/topic/225485-*
+tags:
+  - config
+  - graphics
+depends:
+  - name: ModuleManager
+  - name: TexturesUnlimited
+  - name: ExtraDockingPorts
+supports:
+  - name: ExtraDockingPorts
+install:
+  - find: TU_ExtraDockingPorts
+    install_to: GameData

@@ -1,0 +1,22 @@
+identifier: RecolorCollection-MissingHistory
+name: Recolor Collection - Missing History
+abstract: A collection of Textures Unlimited recolours for all of the parts from the Missing History mod
+$kref: '#/ckan/github/ZZetho/TU_MissingHistory'
+x_netkan_github:
+  use_source_archive: true
+ksp_version: 1.12
+license: CC-BY-NC-SA-4.0
+resources:
+  homepage: https://forum.kerbalspaceprogram.com/topic/225485-*
+tags:
+  - config
+  - graphics
+depends:
+  - name: ModuleManager
+  - name: TexturesUnlimited
+  - name: MissingHistory
+supports:
+  - name: MissingHistory
+install:
+  - find: TU_MissingHistory
+    install_to: GameData
