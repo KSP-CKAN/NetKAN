@@ -1,0 +1,9 @@
+identifier: ISRUGenerator
+$kref: '#/ckan/spacedock/3695'
+tags:
+  - config
+depends:
+  - name: ModuleManager
+install:
+  - file: Add a Generator to ISRU.cfg
+    install_to: GameData/ISRUGenerator
