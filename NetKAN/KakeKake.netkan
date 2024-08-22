@@ -1,0 +1,7 @@
+identifier: KakeKake
+$kref: '#/ckan/spacedock/3676'
+tags:
+  - planet-pack
+depends:
+  - name: ModuleManager
+  - name: Kopernicus
