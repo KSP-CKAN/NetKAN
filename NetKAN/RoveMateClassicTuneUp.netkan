@@ -1,7 +1,5 @@
-spec_version: v1.34
 identifier: RoveMateClassicTuneUp
 $kref: '#/ckan/spacedock/3677'
-license: WTFPL
 tags:
   - parts
 depends:
