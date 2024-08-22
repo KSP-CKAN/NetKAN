@@ -1,9 +1,7 @@
 identifier: BeyondJool
 $kref: '#/ckan/spacedock/3682'
 tags:
-  - config
   - planet-pack
-  - plugin
 depends:
   - name: ModuleManager
   - name: Kopernicus
