@@ -1,4 +1,7 @@
 identifier: CrewVessels
+$kref: '#/ckan/github/tylerraiz/CrewVessels'
+---
+identifier: CrewVessels
 $kref: '#/ckan/spacedock/3696'
 tags:
   - parts
