@@ -2,6 +2,7 @@ identifier: RSSOrigin-TopoRevampConfigs
 name: RSS-Origin RSS Texture & Topo Revamp Configs
 abstract: A part of RSS-Origin, which overhauls some RSS celestials with more accurate, more realistic and higher res textures and topography, since some of original RSS textures are unrealistic in color, topo and other stuff. This is the configs pack.
 $kref: '#/ckan/github/CharonSSS/RSS-Origin/asset_match/TopoRevamp.Configs'
+license: CC-BY-NC-SA-4.0
 tags:
   - config
   - planet-pack
