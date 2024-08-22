@@ -1,0 +1,8 @@
+identifier: VectorVac
+$kref: '#/ckan/spacedock/3694'
+tags:
+  - parts
+depends:
+  - name: ModuleManager
+recommends:
+  - name: Waterfall
