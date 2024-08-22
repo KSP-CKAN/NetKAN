@@ -1,18 +1,13 @@
-spec_version: v1.34
 identifier: Realtime
 $kref: '#/ckan/github/markusa380/Realtime'
-license: MIT
-tags:
-  - plugin
 x_netkan_version_edit:
   find: ^v
   replace: ''
-  strict: 'false'
+  strict: false
 ---
-spec_version: v1.34
 identifier: Realtime
 $kref: '#/ckan/spacedock/3679'
-license: MIT
 tags:
   - plugin
-x_via: Automated SpaceDock CKAN submission
+conflicts:
+  - name: Kronometer
