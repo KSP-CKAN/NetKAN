@@ -1,7 +1,5 @@
-spec_version: v1.34
 identifier: BeyondJool
 $kref: '#/ckan/spacedock/3682'
-license: MIT
 tags:
   - config
   - planet-pack
@@ -10,10 +8,10 @@ depends:
   - name: ModuleManager
   - name: Kopernicus
   - name: VertexMitchellNetravaliHeightMap
+  - name: VertexHeightOblateAdvanced
 install:
   - find: BeyondJool
     install_to: GameData
     filter:
       - __MACOSX
       - .DS_Store
-x_via: Automated SpaceDock CKAN submission
