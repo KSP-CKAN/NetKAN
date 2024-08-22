@@ -1,0 +1,16 @@
+identifier: RSSOrigin-TopoRevampTextures4k
+name: RSS-Origin RSS Texture & Topo Revamp Textures 4k
+abstract: The texture pack of RSS-Origin RSSTexture&TopoRevamp. This is the 4k version.
+$kref: '#/ckan/github/CharonSSS/RSS-Origin/asset_match/TopoRevamp.Textures4k'
+tags:
+  - config
+  - planet-pack
+provides:
+  - RSSOrigin-TopoRevampTextures
+conflicts:
+  - name: RSSOrigin-TopoRevampTextures
+depends:
+  - name: RSSOrigin-TopoRevampConfigs
+install:
+  - find: RSSOrigin
+    install_to: GameData
