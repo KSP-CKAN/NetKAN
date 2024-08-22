@@ -1,7 +1,5 @@
-spec_version: v1.18
 identifier: KerbalismStockSciencePatch
 $kref: '#/ckan/spacedock/3127'
-license: GPL-3.0
 tags:
   - config
 depends:
@@ -9,4 +7,3 @@ depends:
 install:
   - find: KerbalismConfig
     install_to: GameData
-x_via: Automated SpaceDock CKAN submission
