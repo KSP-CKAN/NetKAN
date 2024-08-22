@@ -1,0 +1,11 @@
+identifier: RoveMateClassicTuneUp
+$kref: '#/ckan/spacedock/3677'
+tags:
+  - parts
+depends:
+  - name: ModuleManager
+install:
+  - find: DKSalvage
+    install_to: GameData
+  - find: DKSalvageRMCTuneUp
+    install_to: GameData
