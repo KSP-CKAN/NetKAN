@@ -1,0 +1,7 @@
+identifier: MinmusAtmosphere
+$kref: '#/ckan/spacedock/3686'
+tags:
+  - planet-pack
+depends:
+  - name: ModuleManager
+  - name: Kopernicus
