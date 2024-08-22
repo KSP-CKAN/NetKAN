@@ -1,0 +1,13 @@
+identifier: Realtime
+$kref: '#/ckan/github/markusa380/Realtime'
+x_netkan_version_edit:
+  find: ^v
+  replace: ''
+  strict: false
+---
+identifier: Realtime
+$kref: '#/ckan/spacedock/3679'
+tags:
+  - plugin
+conflicts:
+  - name: Kronometer
