@@ -1,0 +1,38 @@
+spec_version: v1.34
+identifier: OPXUrlumPlus
+$kref: '#/ckan/github/TheMinmusDerp/OPX-UrlumPlus'
+license: MIT
+tags:
+  - config
+  - planet-pack
+  - plugin
+depends:
+  - name: ModuleManager
+  - name: Kopernicus
+  - name: VertexMitchellNetravaliHeightMap
+install:
+  - find: ''
+    install_to: GameData
+    filter: __MACOSX
+x_netkan_version_edit:
+  find: ^alpha
+  replace: ''
+  strict: 'false'
+---
+spec_version: v1.34
+identifier: OPXUrlumPlus
+$kref: '#/ckan/spacedock/3675'
+license: MIT
+tags:
+  - config
+  - planet-pack
+  - plugin
+depends:
+  - name: ModuleManager
+  - name: Kopernicus
+  - name: VertexMitchellNetravaliHeightMap
+install:
+  - find: ''
+    install_to: GameData
+    filter: __MACOSX
+x_via: Automated SpaceDock CKAN submission
