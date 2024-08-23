@@ -1,0 +1,17 @@
+identifier: OPX-UrlumPlus
+$kref: '#/ckan/github/TheMinmusDerp/OPX-UrlumPlus'
+x_netkan_version_edit:
+  find: ^alpha
+  replace: ''
+  strict: 'false'
+---
+identifier: OPXUrlumPlus
+$kref: '#/ckan/spacedock/3675'
+tags:
+  - config
+  - planet-pack
+  - plugin
+depends:
+  - name: ModuleManager
+  - name: Kopernicus
+  - name: VertexMitchellNetravaliHeightMap
