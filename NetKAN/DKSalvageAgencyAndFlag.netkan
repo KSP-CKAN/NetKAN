@@ -1,0 +1,12 @@
+identifier: DKSalvageAgencyAndFlag
+name: DKSalvage Agency and Flag
+abstract: The common agency and flag files used by DKSalvage mods
+$kref: '#/ckan/spacedock/3677'
+tags:
+  - agency
+  - flags
+install:
+  - find: DKSalvage/Agencies
+    install_to: GameData/DKSalvage
+  - find: DKSalvage/Flags
+    install_to: GameData/DKSalvage
