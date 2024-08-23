@@ -1,0 +1,8 @@
+identifier: ResolutionKeeper
+$kref: '#/ckan/spacedock/3697'
+tags:
+  - plugin
+install:
+  - find: ResolutionKeeper
+    install_to: GameData
+    filter: Source
