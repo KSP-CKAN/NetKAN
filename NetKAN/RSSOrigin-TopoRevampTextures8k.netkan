@@ -1,0 +1,19 @@
+identifier: RSSOrigin-TopoRevampTextures8k
+name: RSS-Origin RSS Texture & Topo Revamp Textures 8k
+abstract: >-
+  The texture pack of RSS-Origin RSSTexture&TopoRevamp.
+  This is the 8k version.
+$kref: '#/ckan/github/CharonSSS/RSS-Origin/asset_match/TopoRevamp.Textures8k'
+license: CC-BY-NC-SA-4.0
+tags:
+  - config
+  - planet-pack
+provides:
+  - RSSOrigin-TopoRevampTextures
+conflicts:
+  - name: RSSOrigin-TopoRevampTextures
+depends:
+  - name: RSSOrigin-TopoRevampConfigs
+install:
+  - find: RSSOrigin
+    install_to: GameData
