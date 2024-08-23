@@ -1,0 +1,10 @@
+identifier: OPX-UrlumPlus
+$kref: '#/ckan/spacedock/3675'
+tags:
+  - config
+  - planet-pack
+depends:
+  - name: ModuleManager
+  - name: Kopernicus
+  - name: VertexMitchellNetravaliHeightMap
+  - name: OuterPlanetsMod
