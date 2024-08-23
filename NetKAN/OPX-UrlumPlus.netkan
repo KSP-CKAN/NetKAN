@@ -3,8 +3,8 @@ $kref: '#/ckan/spacedock/3675'
 tags:
   - config
   - planet-pack
-  - plugin
 depends:
   - name: ModuleManager
   - name: Kopernicus
   - name: VertexMitchellNetravaliHeightMap
+  - name: OuterPlanetsMod
