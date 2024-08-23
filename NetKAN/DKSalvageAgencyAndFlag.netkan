@@ -1,0 +1,10 @@
+identifier: DKSalvageAgencyAndFlag
+$kref: '#/ckan/spacedock/3677'
+tags:
+  - agency
+  - flags
+install:
+  - find: DKSalvage/Agencies
+    install_to: GameData/DKSalvage
+  - find: DKSalvage/Flags
+    install_to: GameData/DKSalvage

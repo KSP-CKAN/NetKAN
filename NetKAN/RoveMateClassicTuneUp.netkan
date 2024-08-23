@@ -4,8 +4,12 @@ tags:
   - parts
 depends:
   - name: ModuleManager
+  - name: DKSalvageAgencyAndFlag
 install:
   - find: DKSalvage
     install_to: GameData
+    filter:
+      - Agencies
+      - Flags
   - find: DKSalvageRMCTuneUp
     install_to: GameData
