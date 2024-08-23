@@ -1,4 +1,6 @@
-identifier: DKSalvageAgencyAndFlag
+identifier: DKSalvageAgencyAndFlag\
+name: DKSalvage Agency and Flag
+abstract: The common agency and flag files used by DKSalvage mods
 $kref: '#/ckan/spacedock/3677'
 tags:
   - agency
