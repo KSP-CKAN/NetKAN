@@ -1,0 +1,24 @@
+identifier: WildBlueVABO
+$kref: '#/ckan/github/JadeOfMaar/WildBlueVABO'
+abstract: VAB Organizer configs for the Wild Blue Industries mods.
+resources:
+  license: MIT
+  spacedock: https://spacedock.info/mod/3698/Wild%20Blue%20VABO
+  repository: https://github.com/JadeOfMaar/WildBlueVABO/
+tags:
+  - config
+  - convenience
+  - editor
+ksp_version: 1.12.5
+depends:
+  - name: VABOrganizer
+supports:
+  - name: Blueshift
+  - name: Buffalo2
+  - name: DSEV
+  - name: FlyingSaucers
+  - name: Heisenberg
+  - name: Mk-33
+  - name: MOLE
+  - name: Pathfinder
+  - name: Sandcastle
