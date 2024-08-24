@@ -10,6 +10,7 @@ tags:
   - convenience
   - editor
 depends:
+  - name: ModuleManager
   - name: VABOrganizer
 supports:
   - name: Blueshift
