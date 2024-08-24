@@ -2,10 +2,6 @@ identifier: VABOrganizer-Jade
 name: VABOrganizer - Jade's Configs
 $kref: '#/ckan/github/JadeOfMaar/VABOrganizer-Jade'
 $vref: '#/ckan/ksp-avc'
-abstract: VAB Organizer configs for the Wild Blue Industries mods and mods of Maar.
-resources:
-  license: MIT
-  repository: https://github.com/JadeOfMaar/VABOrganizer-Jade/
 tags:
   - config
   - convenience
