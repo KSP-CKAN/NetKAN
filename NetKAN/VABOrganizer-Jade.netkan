@@ -10,7 +10,6 @@ tags:
   - config
   - convenience
   - editor
-ksp_version: 1.12.5
 depends:
   - name: ModuleManager
   - name: VABOrganizer
