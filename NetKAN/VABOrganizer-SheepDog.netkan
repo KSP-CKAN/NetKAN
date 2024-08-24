@@ -1,0 +1,31 @@
+identifier: VABOrganizer-SheepDog
+name: VAB Organizer - SheepDog's Configs
+$kref: '#/ckan/github/Sheepdog2142/SDVABO_Support'
+license: CC-BY-NC-SA-4.0
+resources:
+  homepage: https://forum.kerbalspaceprogram.com/topic/225797-*
+tags:
+  - config
+  - convenience
+  - editor
+depends:
+  - name: ModuleManager
+  - name: VABOrganizer
+supports:
+  - name: UniversalStorage2
+  - name: OPTSpacePlaneParts
+  - name: Mk-33
+  - name: TundraExploration
+  - name: TundraTechnologies
+  - name: ArtemisConstructionKit
+  - name: StarshipExpansionProject
+  - name: ShuttleOrbiterConstructionKit
+  - name: Buffalo2
+  - name: PlanetsideExplorationTechnologies
+  - name: NewTantares
+  - name: NewTantaresLV
+  - name: SCANsat
+  - name: JX2Antenna
+install:
+  - find: SDVBAO
+    install_to: GameData
