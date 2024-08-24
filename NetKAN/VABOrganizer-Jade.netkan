@@ -1,0 +1,35 @@
+identifier: VABOrganizer-Jade
+name: VAB Organizer - Jade's Configs
+$kref: '#/ckan/github/JadeOfMaar/VABOrganizer-Jade'
+$vref: '#/ckan/ksp-avc'
+install:
+  - find: VABOrganizerJade
+    install_to: GameData
+---
+identifier: VABOrganizer-Jade
+name: VAB Organizer - Jade's Configs
+$kref: '#/ckan/spacedock/3699'
+$vref: '#/ckan/ksp-avc'
+tags:
+  - config
+  - convenience
+  - editor
+depends:
+  - name: ModuleManager
+  - name: VABOrganizer
+supports:
+  - name: Blueshift
+  - name: Buffalo2
+  - name: DSEV
+  - name: FlyingSaucers
+  - name: Heisenberg
+  - name: Mk-33
+  - name: MOLE
+  - name: OPTSpacePlaneMain
+  - name: OPTSpacePlaneParts
+  - name: Pathfinder
+  - name: RationalResourcesParts
+  - name: Sandcastle
+install:
+  - find: VABOrganizerJade
+    install_to: GameData
