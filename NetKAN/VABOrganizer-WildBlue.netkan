@@ -22,3 +22,6 @@ supports:
   - name: MOLE
   - name: Pathfinder
   - name: Sandcastle
+install:
+  - find: WildBlueVABO
+    install_to: GameData
