@@ -1,9 +1,5 @@
 identifier: VABOrganizer-WildBlue
-$kref: '#/ckan/github/JadeOfMaar/WildBlueVABO'
-$vref: '#/ckan/ksp-avc'
----
-identifier: VABOrganizer-WildBlue
-$kref: '#/ckan/spacedock/3698'
+$kref: '#/ckan/github/JadeOfMaar/VABOrganizer-Jade'
 $vref: '#/ckan/ksp-avc'
 tags:
   - config
