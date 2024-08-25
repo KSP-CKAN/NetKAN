@@ -1,0 +1,11 @@
+identifier: Labradoodle
+$kref: '#/ckan/github/CharleRoger/Labradoodle'
+$vref: '#/ckan/ksp-avc'
+---
+identifier: Labradoodle
+$kref: '#/ckan/spacedock/3700'
+$vref: '#/ckan/ksp-avc'
+tags:
+  - parts
+depends:
+  - name: ModuleManager
