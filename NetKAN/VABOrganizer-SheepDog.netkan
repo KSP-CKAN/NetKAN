@@ -26,6 +26,9 @@ supports:
   - name: NewTantaresLV
   - name: SCANsat
   - name: JX2Antenna
+  - name: ProceduralParts
+  - name: ModularComputerPackageRevived
+  - name: Taerobee
 install:
   - find: SDVBAO
     install_to: GameData
