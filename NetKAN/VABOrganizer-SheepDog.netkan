@@ -30,5 +30,5 @@ supports:
   - name: ModularComputerPackageRevived
   - name: Taerobee
 install:
-  - find: VABOrganizer-Sheepdog
+  - find: GameData/VABOrganizer-Sheepdog
     install_to: GameData
