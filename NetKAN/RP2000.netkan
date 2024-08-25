@@ -1,0 +1,17 @@
+identifier: RP2000
+$kref: '#/ckan/spacedock/3701'
+license: CC-BY
+tags:
+  - career
+  - parts
+  - planet-pack
+  - tech-tree
+depends:
+  - name: ModuleManager
+  - name: Kopernicus
+  - name: ContractConfigurator
+  - name: CustomBarnKit
+install:
+  - find: GameData/RP2000
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
