@@ -1,18 +1,11 @@
 identifier: Labradoodle
 $kref: '#/ckan/github/CharleRoger/Labradoodle'
 $vref: '#/ckan/ksp-avc'
-license: GPL-3.0
-tags:
-  - config
-depends:
-  - name: ModuleManager
 ---
 identifier: Labradoodle
 $kref: '#/ckan/spacedock/3700'
 $vref: '#/ckan/ksp-avc'
-license: GPL-3.0
 tags:
-  - config
+  - parts
 depends:
   - name: ModuleManager
-x_via: Automated SpaceDock CKAN submission
