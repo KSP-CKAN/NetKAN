@@ -1,0 +1,31 @@
+identifier: RP-2000
+$kref: '#/ckan/github/tylerraiz/RP-2000'
+---
+identifier: RP-2000
+$kref: '#/ckan/spacedock/3701'
+tags:
+  - career
+  - parts
+  - planet-pack
+  - tech-tree
+depends:
+  - name: ModuleManager
+  - name: Kopernicus
+  - name: ContractConfigurator
+  - name: CustomBarnKit
+  - name: RealismOverhaul
+  - name: CommunityTechTree
+  - name: CrewVessels
+  - name: ProceduralParts
+  - name: ProceduralFairings
+  - name: SmallRockets
+  - name: SurestrutEngines
+recommends:
+  - name: B9-PWings-Fork
+  - name: TweakScale
+  - name: TACLS
+  - name: KerbalConstructionTime
+  - name: RSSVE-Textures
+install:
+  - find: GameData/RP2000
+    install_to: GameData
