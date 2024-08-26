@@ -1,0 +1,11 @@
+identifier: KolonyConstructs
+$kref: '#/ckan/spacedock/3704'
+license: GPL-3.0
+tags:
+  - buildings
+  - crewed
+  - first-person
+  - parts
+depends:
+  - name: KerbalKonstructs
+x_via: Automated SpaceDock CKAN submission
