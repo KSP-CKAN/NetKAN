@@ -1,9 +1,10 @@
 identifier: VansKSC
 $kref: '#/ckan/spacedock/3707'
-license: MIT
 tags:
   - buildings
   - config
 depends:
+  - name: ModuleManager
   - name: KerbalKonstructs
-x_via: Automated SpaceDock CKAN submission
+  - name: StockalikeStructures
+  - name: KerbinSideRemastered
