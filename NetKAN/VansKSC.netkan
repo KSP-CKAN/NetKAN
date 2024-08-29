@@ -1,0 +1,9 @@
+identifier: VansKSC
+$kref: '#/ckan/spacedock/3707'
+license: MIT
+tags:
+  - buildings
+  - config
+depends:
+  - name: KerbalKonstructs
+x_via: Automated SpaceDock CKAN submission
