@@ -1,0 +1,13 @@
+identifier: RSSIcons
+$kref: '#/ckan/spacedock/3708'
+license: CC-BY-NC-ND
+tags:
+  - config
+  - planet-pack
+depends:
+  - name: ModuleManager
+  - name: Kopernicus
+install:
+  - find: RSS-Icons
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
