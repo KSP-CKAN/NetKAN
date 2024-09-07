@@ -1,18 +1,20 @@
-{
-    "identifier":   "MinAmbLightUpd",
-    "$kref":        "#/ckan/spacedock/2279",
-    "$vref":        "#/ckan/ksp-avc",
-    "license":      "BSD-2-clause",
-    "tags": [
-        "plugin",
-        "graphics"
-    ],
-    "depends": [
-        { "name": "ToolbarController"   },
-        { "name": "ClickThroughBlocker" }
-    ],
-    "install": [ {
-        "find":       "MinimumAmbientLightingUpdated",
-        "install_to": "GameData"
-    } ]
-}
+identifier: MinAmbLightUpd
+$kref: '#/ckan/github/linuxgurugamer/MinimumAmbientLightingUpdated'
+$vref: '#/ckan/ksp-avc'
+install:
+  - find: MinimumAmbientLightingUpdated
+    install_to: GameData
+---
+identifier: MinAmbLightUpd
+$kref: '#/ckan/spacedock/2279'
+$vref: '#/ckan/ksp-avc'
+license: BSD-2-clause
+tags:
+  - plugin
+  - graphics
+depends:
+  - name: ToolbarController
+  - name: ClickThroughBlocker
+install:
+  - find: MinimumAmbientLightingUpdated
+    install_to: GameData

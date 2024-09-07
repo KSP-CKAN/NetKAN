@@ -1,4 +1,11 @@
 identifier: NavUtilitiesUpdated
+$kref: '#/ckan/github/linuxgurugamer/NavInstruments'
+$vref: '#/ckan/ksp-avc'
+install:
+  - find: NavInstruments
+    install_to: GameData
+---
+identifier: NavUtilitiesUpdated
 $kref: '#/ckan/spacedock/2879'
 $vref: '#/ckan/ksp-avc'
 license: CC-BY-NC-SA-4.0

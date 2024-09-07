@@ -1,14 +1,14 @@
-{
-    "identifier":   "BonVoyage",
-    "$kref":        "#/ckan/spacedock/950",
-    "$vref":        "#/ckan/ksp-avc",
-    "x_netkan_epoch": 1,
-    "license":      "GPL-3.0",
-    "tags": [
-        "plugin",
-        "convenience"
-    ],
-    "depends": [
-        { "name": "ModuleManager" }
-    ]
-}
+identifier: BonVoyage
+$kref: '#/ckan/github/jarosm/KSP-BonVoyage'
+$vref: '#/ckan/ksp-avc'
+---
+identifier: BonVoyage
+$kref: '#/ckan/spacedock/950'
+$vref: '#/ckan/ksp-avc'
+x_netkan_epoch: 1
+license: GPL-3.0
+tags:
+  - plugin
+  - convenience
+depends:
+  - name: ModuleManager

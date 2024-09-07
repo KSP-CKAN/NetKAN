@@ -1,4 +1,8 @@
 identifier: DecouplerShroud
+$kref: '#/ckan/github/linuxgurugamer/DecouplerShroud'
+$vref: '#/ckan/ksp-avc'
+---
+identifier: DecouplerShroud
 $kref: '#/ckan/spacedock/1692'
 $vref: '#/ckan/ksp-avc'
 license: MIT

@@ -1,37 +1,26 @@
-{
-    "identifier":   "PersistentRotation",
-    "$kref":        "#/ckan/spacedock/447",
-    "$vref":        "#/ckan/ksp-avc",
-    "license":      "GPL-3.0",
-    "tags": [
-        "plugin",
-        "physics"
-    ],
-    "suggests": [
-        { "name": "Toolbar" }
-    ],
-    "install": [ {
-        "file":       "GameData/PersistentRotation",
-        "install_to": "GameData"
-    } ],
-    "x_netkan_override": [
-        {
-            "version": "1.8.5",
-            "override": {
-                "ksp_version": "1.4"
-            }
-        },
-        {
-            "version": "1.8.1",
-            "override": {
-                "ksp_version": "1.2"
-            }
-        },
-        {
-            "version": "1.8.4",
-            "override": {
-                "ksp_version": "1.2.2"
-            }
-        }
-    ]
-}
+identifier: PersistentRotation
+$kref: '#/ckan/github/markusa380/PersistentRotation'
+$vref: '#/ckan/ksp-avc'
+---
+identifier: PersistentRotation
+$kref: '#/ckan/spacedock/447'
+$vref: '#/ckan/ksp-avc'
+license: GPL-3.0
+tags:
+  - plugin
+  - physics
+suggests:
+  - name: Toolbar
+install:
+  - file: GameData/PersistentRotation
+    install_to: GameData
+x_netkan_override:
+  - version: 1.8.5
+    override:
+      ksp_version: '1.4'
+  - version: 1.8.1
+    override:
+      ksp_version: '1.2'
+  - version: 1.8.4
+    override:
+      ksp_version: 1.2.2

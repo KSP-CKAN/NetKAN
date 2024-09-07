@@ -1,22 +1,20 @@
-{
-    "identifier"    : "VOID",
-    "$kref"         : "#/ckan/spacedock/1413",
-    "$vref"         : "#/ckan/ksp-avc",
-    "license"       : "BSD-3-clause",
-    "tags": [
-        "plugin",
-        "information"
-    ],
-    "supports": [
-        { "name": "KSP-AVC" }
-    ],
-    "install": [ {
-        "find": "VOID",
-        "install_to": "GameData"
-    } ],
-    "depends": [
-        { "name": "ToadicusToolsContinued" },
-        { "name": "ToolbarController" },
-        { "name": "ClickThroughBlocker" }
-    ]
-}
+identifier: VOID
+$kref: '#/ckan/github/linuxgurugamer/VOID'
+$vref: '#/ckan/ksp-avc'
+---
+identifier: VOID
+$kref: '#/ckan/spacedock/1413'
+$vref: '#/ckan/ksp-avc'
+license: BSD-3-clause
+tags:
+  - plugin
+  - information
+supports:
+  - name: KSP-AVC
+install:
+  - find: VOID
+    install_to: GameData
+depends:
+  - name: ToadicusToolsContinued
+  - name: ToolbarController
+  - name: ClickThroughBlocker

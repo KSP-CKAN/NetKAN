@@ -1,4 +1,15 @@
 identifier: kOSPropMonitor
+$kref: '#/ckan/github/FirstPersonKSP/kOSPropMonitor'
+x_netkan_version_edit:
+  find: ^v
+  replace: ''
+  strict: false
+$vref: '#/ckan/ksp-avc'
+install:
+  - find: kPM
+    install_to: GameData
+---
+identifier: kOSPropMonitor
 $kref: '#/ckan/spacedock/3473'
 $vref: '#/ckan/ksp-avc'
 license: GPL-3.0

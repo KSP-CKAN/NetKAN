@@ -1,6 +1,12 @@
 identifier: RationalResourcesParts
+$kref: '#/ckan/github/JadeOfMaar/RationalResources'
+$vref: '#/ckan/ksp-avc'
+---
+identifier: RationalResourcesParts
 name: Rational Resources Parts
-abstract: Provides dedicated parts. Some are demos for concept tech. Some are niche ISRU parts.
+abstract: >-
+  Provides dedicated parts. Some are demos for concept tech. Some are niche
+  ISRU parts.
 $kref: '#/ckan/spacedock/2201'
 $vref: '#/ckan/ksp-avc'
 license: MIT

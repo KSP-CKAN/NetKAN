@@ -1,17 +1,16 @@
-{
-    "identifier":   "KerbalLaunchFailure",
-    "$kref":        "#/ckan/spacedock/989",
-    "$vref":        "#/ckan/ksp-avc",
-    "license":      "GPL-2.0",
-    "tags": [
-        "plugin"
-    ],
-    "depends": [
-        { "name" : "ToolbarController" },
-        { "name" : "ClickThroughBlocker" }
-    ],
-    "install": [ {
-        "find": "KerbalLaunchFailure",
-        "install_to": "GameData"
-    } ]
-}
+identifier: KerbalLaunchFailure
+$kref: '#/ckan/github/linuxgurugamer/ksp-KerbalLaunchFailure'
+$vref: '#/ckan/ksp-avc'
+---
+identifier: KerbalLaunchFailure
+$kref: '#/ckan/spacedock/989'
+$vref: '#/ckan/ksp-avc'
+license: GPL-2.0
+tags:
+  - plugin
+depends:
+  - name: ToolbarController
+  - name: ClickThroughBlocker
+install:
+  - find: KerbalLaunchFailure
+    install_to: GameData

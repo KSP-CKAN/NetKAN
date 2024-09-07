@@ -1,12 +1,12 @@
-{
-    "identifier":   "ParkingBrake",
-    "$kref":        "#/ckan/spacedock/2018",
-    "$vref":        "#/ckan/ksp-avc",
-    "license":      "GPL-3.0",
-    "tags": [
-        "config"
-    ],
-    "depends": [
-        { "name": "ModuleManager" }
-    ]
-}
+identifier: ParkingBrake
+$kref: '#/ckan/github/jarosm/KSP-ParkingBrake'
+$vref: '#/ckan/ksp-avc'
+---
+identifier: ParkingBrake
+$kref: '#/ckan/spacedock/2018'
+$vref: '#/ckan/ksp-avc'
+license: GPL-3.0
+tags:
+  - config
+depends:
+  - name: ModuleManager

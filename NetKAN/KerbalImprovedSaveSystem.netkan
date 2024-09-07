@@ -1,4 +1,8 @@
 identifier: KerbalImprovedSaveSystem
+$kref: '#/ckan/github/KerbalSpike/KerbalImprovedSaveSystem'
+x_netkan_force_v: true
+---
+identifier: KerbalImprovedSaveSystem
 $kref: '#/ckan/spacedock/583'
 x_netkan_force_v: true
 license: MIT

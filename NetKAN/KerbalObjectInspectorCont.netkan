@@ -1,17 +1,19 @@
-{
-    "identifier":   "KerbalObjectInspectorCont",
-    "$kref":        "#/ckan/spacedock/1040",
-    "$vref":        "#/ckan/ksp-avc",
-    "license":      "GPL-3.0",
-    "tags": [
-        "plugin"
-    ],
-    "install": [ {
-        "find": "KerbalObjectInspector",
-        "install_to": "GameData"
-    } ],
-    "depends": [
-        { "name" : "ToolbarController" },
-        { "name" : "ClickThroughBlocker" }
-    ]
-}
+identifier: KerbalObjectInspectorCont
+$kref: '#/ckan/github/linuxgurugamer/KerbalObjectInspector'
+$vref: '#/ckan/ksp-avc'
+install:
+  - find: KerbalObjectInspector
+    install_to: GameData
+---
+identifier: KerbalObjectInspectorCont
+$kref: '#/ckan/spacedock/1040'
+$vref: '#/ckan/ksp-avc'
+license: GPL-3.0
+tags:
+  - plugin
+depends:
+  - name: ToolbarController
+  - name: ClickThroughBlocker
+install:
+  - find: KerbalObjectInspector
+    install_to: GameData

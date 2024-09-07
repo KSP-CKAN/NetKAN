@@ -1,6 +1,19 @@
 identifier: TweakScale-Redist
+$kref: '#/ckan/github/TweakScale/TweakScale/asset_match/^(?!.*CurseForge)'
+x_netkan_version_edit:
+  find: ^RELEASE/
+  replace: v
+  strict: false
+$vref: '#/ckan/ksp-avc/GameData/TweakScale/TweakScale.version'
+install:
+  - file: GameData/999_Scale_Redist.dll
+    install_to: GameData
+---
+identifier: TweakScale-Redist
 name: TweakScale Redistributable
-abstract: A library for other mods to integrate with TweakScale. Does not provide the actual TweakScale features.
+abstract: >-
+  A library for other mods to integrate with TweakScale. Does not provide
+  the actual TweakScale features.
 author:
   - Biotronic
   - pellinor

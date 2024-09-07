@@ -1,4 +1,8 @@
 identifier: SaveConfirmationSound
+$kref: '#/ckan/github/linuxgurugamer/SaveConfirmationSound'
+$vref: '#/ckan/ksp-avc'
+---
+identifier: SaveConfirmationSound
 $kref: '#/ckan/spacedock/3526'
 $vref: '#/ckan/ksp-avc'
 license: public-domain

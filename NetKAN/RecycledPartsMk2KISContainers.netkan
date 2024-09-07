@@ -1,20 +1,21 @@
-{
-    "identifier":   "RecycledPartsMk2KISContainers",
-    "name":         "Recycled Parts Mk2 KIS Containers",
-    "$kref":        "#/ckan/spacedock/1507",
-    "$vref":        "#/ckan/ksp-avc",
-    "license":      "restricted",
-    "tags": [
-        "parts"
-    ],
-    "install": [ {
-        "find": "Mk2Containers",
-        "install_to": "GameData/SpaceTuxIndustries/RecycledParts"
-    } ],
-    "suggests": [
-        { "name": "JanitorsCloset" }
-    ],
-    "conflicts": [
-        { "name" : "RecycledPartsMk2KISContainers" }
-    ]
-}
+identifier: RecycledPartsMk2KISContainers
+$kref: '#/ckan/github/linuxgurugamer/RecycledParts'
+$vref: '#/ckan/ksp-avc'
+install:
+  - find: Mk2Containers
+    install_to: GameData/SpaceTuxIndustries/RecycledParts
+---
+identifier: RecycledPartsMk2KISContainers
+name: Recycled Parts Mk2 KIS Containers
+$kref: '#/ckan/spacedock/1507'
+$vref: '#/ckan/ksp-avc'
+license: restricted
+tags:
+  - parts
+suggests:
+  - name: JanitorsCloset
+conflicts:
+  - name: RecycledPartsMk2KISContainers
+install:
+  - find: Mk2Containers
+    install_to: GameData/SpaceTuxIndustries/RecycledParts

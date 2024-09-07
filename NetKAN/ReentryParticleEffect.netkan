@@ -1,16 +1,21 @@
-{
-    "identifier":   "ReentryParticleEffect",
-    "$kref":        "#/ckan/spacedock/2373",
-    "$vref":        "#/ckan/ksp-avc",
-    "license":      "GPL-2.0",
-    "tags": [
-        "plugin",
-        "graphics"
-    ],
-    "install": [
-        {
-            "find":       "GameData/ReentryParticleEffectRenewed",
-            "install_to": "GameData"
-        }
-    ]
-}
+identifier: ReentryParticleEffect
+$kref: '#/ckan/github/leatherneck6017/ReentryParticleEffectRenewed'
+x_netkan_version_edit:
+  find: ^v
+  replace: ''
+  strict: false
+$vref: '#/ckan/ksp-avc'
+install:
+  - find: GameData/ReentryParticleEffectRenewed
+    install_to: GameData
+---
+identifier: ReentryParticleEffect
+$kref: '#/ckan/spacedock/2373'
+$vref: '#/ckan/ksp-avc'
+license: GPL-2.0
+tags:
+  - plugin
+  - graphics
+install:
+  - find: GameData/ReentryParticleEffectRenewed
+    install_to: GameData

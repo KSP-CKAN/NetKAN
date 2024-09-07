@@ -1,4 +1,24 @@
 identifier: ShuttleOrbiterConstructionKit
+$kref: '#/ckan/github/benjee10/Shuttle-Orbiter-Construction-Kit'
+x_netkan_version_edit:
+  find: ^v
+  replace: ''
+  strict: false
+install:
+  - find: Benjee10_shuttleOrbiter
+    install_to: GameData
+  - find: Manual
+    install_to: GameData/Benjee10_shuttleOrbiter
+  - find: Extras/ColumbiaWings
+    install_to: GameData/Benjee10_shuttleOrbiter
+  - find: Extras/Custom Shuttle Names
+    install_to: GameData/Benjee10_shuttleOrbiter
+  - find: Craft Files/SPH
+    install_to: Ships
+  - find: Craft Files/VAB
+    install_to: Ships
+---
+identifier: ShuttleOrbiterConstructionKit
 $kref: '#/ckan/spacedock/2176'
 ksp_version_min: 1.11
 license: restricted

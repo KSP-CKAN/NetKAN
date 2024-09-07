@@ -1,4 +1,12 @@
 identifier: AutoRCS
+$kref: '#/ckan/github/todi/AutoRCS'
+x_netkan_version_edit:
+  find: ^v
+  replace: ''
+  strict: false
+$vref: '#/ckan/ksp-avc'
+---
+identifier: AutoRCS
 $kref: '#/ckan/spacedock/3134'
 license: MIT
 $vref: '#/ckan/ksp-avc'

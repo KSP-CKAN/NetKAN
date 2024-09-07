@@ -1,34 +1,29 @@
-{
-    "identifier":   "WhirligigWorld",
-    "$kref":        "#/ckan/spacedock/1805",
-    "license":      "restricted",
-    "tags": [
-        "config",
-        "planet-pack",
-        "parts",
-        "plugin"
-    ],
-    "provides": [
-        "EnvironmentalVisualEnhancements-Config"
-    ],
-    "conflicts": [
-        { "name": "EnvironmentalVisualEnhancements-Config" }
-    ],
-    "depends": [
-        { "name": "ModuleManager"              },
-        { "name": "Kopernicus"                 },
-        { "name": "SciRev"                     },
-        { "name": "Scatterer-sunflare-default" }
-    ],
-    "recommends": [
-        { "name": "EnvironmentalVisualEnhancements" },
-        { "name": "DistantObject"                   },
-        { "name": "PlanetShine"                     },
-        { "name": "PoodsDeepStarMap"                }
-    ],
-    "suggests": [
-        { "name": "ResearchBodies"    },
-        { "name": "Kronometer"        },
-        { "name": "CommunityTechTree" }
-    ]
-}
+identifier: WhirligigWorld
+$kref: '#/ckan/github/WhirligigGirl/Whirligig-World/asset_match/WhirligigWorld'
+---
+identifier: WhirligigWorld
+$kref: '#/ckan/spacedock/1805'
+license: restricted
+tags:
+  - config
+  - planet-pack
+  - parts
+  - plugin
+provides:
+  - EnvironmentalVisualEnhancements-Config
+conflicts:
+  - name: EnvironmentalVisualEnhancements-Config
+depends:
+  - name: ModuleManager
+  - name: Kopernicus
+  - name: SciRev
+  - name: Scatterer-sunflare-default
+recommends:
+  - name: EnvironmentalVisualEnhancements
+  - name: DistantObject
+  - name: PlanetShine
+  - name: PoodsDeepStarMap
+suggests:
+  - name: ResearchBodies
+  - name: Kronometer
+  - name: CommunityTechTree

@@ -1,20 +1,21 @@
-{
-    "identifier":   "RecycledPartsOrgamiFoldableAssets",
-    "name":         "Recycled Parts Orgami Foldable Assets",
-    "$kref":        "#/ckan/spacedock/1507",
-    "$vref":        "#/ckan/ksp-avc",
-    "license":      "restricted",
-    "tags": [
-        "parts"
-    ],
-    "install": [ {
-        "find":       "NAU",
-        "install_to": "GameData/SpaceTuxIndustries/RecycledParts"
-    } ],
-    "conflicts": [
-        { "name" : "RecycledPartsOrgamiFoldableAssets" }
-    ],
-    "depends": [
-        { "name": "ModuleManager" }
-    ]
-}
+identifier: RecycledPartsOrgamiFoldableAssets
+$kref: '#/ckan/github/linuxgurugamer/RecycledParts'
+$vref: '#/ckan/ksp-avc'
+install:
+  - find: NAU
+    install_to: GameData/SpaceTuxIndustries/RecycledParts
+---
+identifier: RecycledPartsOrgamiFoldableAssets
+name: Recycled Parts Orgami Foldable Assets
+$kref: '#/ckan/spacedock/1507'
+$vref: '#/ckan/ksp-avc'
+license: restricted
+tags:
+  - parts
+conflicts:
+  - name: RecycledPartsOrgamiFoldableAssets
+depends:
+  - name: ModuleManager
+install:
+  - find: NAU
+    install_to: GameData/SpaceTuxIndustries/RecycledParts

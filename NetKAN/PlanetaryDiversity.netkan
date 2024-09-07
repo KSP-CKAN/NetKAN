@@ -1,19 +1,21 @@
-{
-    "identifier":   "PlanetaryDiversity",
-    "name":         "Planetary Diversity",
-    "abstract":     "Creates some diversity on the otherwise static planets.",
-    "author":       [ "Thomas P.", "linuxgurugamer" ],
-    "$kref":        "#/ckan/spacedock/2243",
-    "x_netkan_epoch":  "1",
-    "$vref":        "#/ckan/ksp-avc",
-    "release_status": "development",
-    "license":      "MIT",
-    "tags": [
-        "plugin",
-        "planet-pack"
-    ],
-    "install": [ {
-        "find":       "PlanetaryDiversity",
-        "install_to": "GameData"
-    } ]
-}
+identifier: PlanetaryDiversity
+$kref: '#/ckan/github/linuxgurugamer/Planetary-Diversity'
+$vref: '#/ckan/ksp-avc'
+---
+identifier: PlanetaryDiversity
+name: Planetary Diversity
+abstract: Creates some diversity on the otherwise static planets.
+author:
+  - Thomas P.
+  - linuxgurugamer
+$kref: '#/ckan/spacedock/2243'
+x_netkan_epoch: '1'
+$vref: '#/ckan/ksp-avc'
+release_status: development
+license: MIT
+tags:
+  - plugin
+  - planet-pack
+install:
+  - find: PlanetaryDiversity
+    install_to: GameData

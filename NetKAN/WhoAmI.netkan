@@ -1,11 +1,12 @@
-{
-    "identifier":   "WhoAmI",
-    "$kref":        "#/ckan/spacedock/825",
-    "$vref":        "#/ckan/ksp-avc",
-    "license":      "GPL-3.0",
-    "tags": [
-        "plugin",
-        "information",
-        "crewed"
-    ]
-}
+identifier: WhoAmI
+$kref: '#/ckan/github/jarosm/KSP-WhoAmI'
+$vref: '#/ckan/ksp-avc'
+---
+identifier: WhoAmI
+$kref: '#/ckan/spacedock/825'
+$vref: '#/ckan/ksp-avc'
+license: GPL-3.0
+tags:
+  - plugin
+  - information
+  - crewed

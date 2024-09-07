@@ -1,15 +1,15 @@
-{
-    "identifier":   "KipardSkylon",
-    "$kref":        "#/ckan/spacedock/2309",
-    "$vref":        "#/ckan/ksp-avc",
-    "license":      "CC-BY-NC-SA",
-    "tags": [
-        "parts"
-    ],
-    "depends": [
-        { "name": "ModuleManager"         },
-        { "name": "B9PartSwitch"          },
-        { "name": "B9AnimationModules"    },
-        { "name": "CommunityResourcePack" }
-    ]
-}
+identifier: KipardSkylon
+$kref: '#/ckan/github/JadeOfMaar/KipardSkylon'
+$vref: '#/ckan/ksp-avc'
+---
+identifier: KipardSkylon
+$kref: '#/ckan/spacedock/2309'
+$vref: '#/ckan/ksp-avc'
+license: CC-BY-NC-SA
+tags:
+  - parts
+depends:
+  - name: ModuleManager
+  - name: B9PartSwitch
+  - name: B9AnimationModules
+  - name: CommunityResourcePack

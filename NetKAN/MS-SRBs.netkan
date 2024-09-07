@@ -1,22 +1,28 @@
-{
-    "identifier":   "MS-SRBs",
-    "$kref":        "#/ckan/spacedock/2297",
-    "$vref":        "#/ckan/ksp-avc",
-    "license":      "CC-BY-NC-SA-4.0",
-    "tags": [
-        "parts",
-        "plugin"
-    ],
-    "depends": [
-        { "name": "ModuleManager"   },
-        { "name": "SpaceTuxLibrary" }
-    ],
-    "install": [ {
-        "find":       "ModularSegmentedSRBs",
-        "install_to": "GameData",
-        "filter":     [ "Ships" ]
-    }, {
-        "find":       "VAB",
-        "install_to": "Ships"
-    } ]
-}
+identifier: MS-SRBs
+$kref: '#/ckan/github/linuxgurugamer/ModularSegmentedSRBs'
+$vref: '#/ckan/ksp-avc'
+install:
+  - find: ModularSegmentedSRBs
+    install_to: GameData
+    filter:
+      - Ships
+  - find: VAB
+    install_to: Ships
+---
+identifier: MS-SRBs
+$kref: '#/ckan/spacedock/2297'
+$vref: '#/ckan/ksp-avc'
+license: CC-BY-NC-SA-4.0
+tags:
+  - parts
+  - plugin
+depends:
+  - name: ModuleManager
+  - name: SpaceTuxLibrary
+install:
+  - find: ModularSegmentedSRBs
+    install_to: GameData
+    filter:
+      - Ships
+  - find: VAB
+    install_to: Ships

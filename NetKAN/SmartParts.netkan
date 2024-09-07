@@ -1,25 +1,24 @@
-{
-    "identifier"      : "SmartParts",
-    "name"            : "Smart Parts",
-    "abstract"        : "Smart Parts can trigger all 10 action groups, as well as various other functionality such as SAS, lights, stage, or abort.",
-    "$kref"           : "#/ckan/spacedock/614",
-    "$vref"           : "#/ckan/ksp-avc",
-    "license"         : "CC-BY-NC-SA-3.0",
-    "tags": [
-        "plugin",
-        "parts",
-        "control"
-    ],
-    "depends" : [
-        { "name": "ModuleManager" }
-    ],
-    "recommends": [
-        { "name": "PatchManager" }
-    ],
-    "install" : [
-        {
-            "find"          : "SmartParts",
-            "install_to"    : "GameData"
-        }
-    ]
-}
+identifier: SmartParts
+$kref: '#/ckan/github/linuxgurugamer/KerbalSmartParts'
+$vref: '#/ckan/ksp-avc'
+license: CC-BY-NC-SA-3.0
+---
+identifier: SmartParts
+name: Smart Parts
+abstract: >-
+  Smart Parts can trigger all 10 action groups, as well as various other
+  functionality such as SAS, lights, stage, or abort.
+$kref: '#/ckan/spacedock/614'
+$vref: '#/ckan/ksp-avc'
+license: CC-BY-NC-SA-3.0
+tags:
+  - plugin
+  - parts
+  - control
+depends:
+  - name: ModuleManager
+recommends:
+  - name: PatchManager
+install:
+  - find: SmartParts
+    install_to: GameData

@@ -1,4 +1,17 @@
 identifier: MK12PodIVAReplacementbyASET
+$kref: '#/ckan/github/StoneBlue/ASET-Consolidated-IVAs'
+$vref: '#/ckan/ksp-avc'
+install:
+  - find: ASET
+    install_to: GameData
+    include_only:
+      - Assets
+      - FreeIVA_ASET_SRI_Mk1-2.3_Pod.cfg
+      - RevIVA_ASET_SRI_Mk1-2.3_Pod.cfg
+      - RPM_ASET_SRI_Mk1-2.3_Pod.cfg
+      - ASET_SRI_Mk1-2.3_Pod.cfg
+---
+identifier: MK12PodIVAReplacementbyASET
 name: MK1-2 IVA Replacement by ASET
 author:
   - alexustas
@@ -25,7 +38,7 @@ recommends:
   - name: DockingPortAlignmentIndicator
   - name: Astrogator
 x_netkan_override:
-  - version: '1:0.3'
+  - version: 1:0.3
     delete:
       - ksp_version
     override:

@@ -1,25 +1,22 @@
-{
-    "identifier"   : "GPWS",
-    "name"         : "Ground Proximity Warning System",
-    "abstract"     : "Add warning sounds for planes.",
-    "$kref"        : "#/ckan/spacedock/2659",
-    "$vref"        : "#/ckan/ksp-avc",
-    "license"      : "CC-BY-NC-SA-4.0",
-    "tags"         : [
-        "plugin",
-        "information",
-        "sound"
-    ],
-    "depends": [
-        { "name" : "ToolbarController" },
-        { "name" : "ClickThroughBlocker" },
-        { "name": "SpaceTuxLibrary" },
-        { "name": "ModuleManager" }
-    ],
-    "install": [
-        {
-            "file"          : "GameData/GPWS",
-            "install_to"    : "GameData"
-        }
-    ]
-}
+identifier: GPWS
+$kref: '#/ckan/github/linuxgurugamer/KSP_GPWS'
+$vref: '#/ckan/ksp-avc'
+---
+identifier: GPWS
+name: Ground Proximity Warning System
+abstract: Add warning sounds for planes.
+$kref: '#/ckan/spacedock/2659'
+$vref: '#/ckan/ksp-avc'
+license: CC-BY-NC-SA-4.0
+tags:
+  - plugin
+  - information
+  - sound
+depends:
+  - name: ToolbarController
+  - name: ClickThroughBlocker
+  - name: SpaceTuxLibrary
+  - name: ModuleManager
+install:
+  - file: GameData/GPWS
+    install_to: GameData

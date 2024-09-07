@@ -1,19 +1,21 @@
-{
-    "identifier":   "GroundProximity",
-    "$kref":        "#/ckan/spacedock/2056",
-    "$vref":        "#/ckan/ksp-avc",
-    "license":      "GPL-3.0",
-    "tags": [
-        "plugin",
-        "information"
-    ],
-    "depends": [
-        { "name": "ModuleManager"       },
-        { "name": "ToolbarController"   },
-        { "name": "ClickThroughBlocker" }
-    ],
-    "install": [ {
-        "find":       "KSP_Proximity",
-        "install_to": "GameData"
-    } ]
-}
+identifier: GroundProximity
+$kref: '#/ckan/github/linuxgurugamer/KSP_Proximity'
+$vref: '#/ckan/ksp-avc'
+install:
+  - find: KSP_Proximity
+    install_to: GameData
+---
+identifier: GroundProximity
+$kref: '#/ckan/spacedock/2056'
+$vref: '#/ckan/ksp-avc'
+license: GPL-3.0
+tags:
+  - plugin
+  - information
+depends:
+  - name: ModuleManager
+  - name: ToolbarController
+  - name: ClickThroughBlocker
+install:
+  - find: KSP_Proximity
+    install_to: GameData

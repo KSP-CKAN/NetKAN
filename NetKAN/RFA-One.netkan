@@ -1,4 +1,20 @@
 identifier: RFA-One
+$kref: '#/ckan/github/RFA-One/RFA-One'
+install:
+  - file: Kerbal Space Program/GameData/RFA
+    install_to: GameData
+  - file: Kerbal Space Program/Ships/VAB
+    install_to: Ships
+  - file: Kerbal Space Program/Ships/@thumbs
+    install_to: Ships
+  - find_regexp: saves/scenarios/.*\.sfs$
+    find_matches_files: true
+    install_to: Scenarios
+  - find_regexp: Missions/.*\.zip$
+    find_matches_files: true
+    install_to: Missions
+---
+identifier: RFA-One
 author: Rocket Factory Augsburg
 $kref: '#/ckan/spacedock/3044'
 license: CC-BY-NC-SA-4.0

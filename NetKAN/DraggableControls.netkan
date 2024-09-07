@@ -1,4 +1,7 @@
 identifier: DraggableControls
+$kref: '#/ckan/github/andrew-vant/dragctrl'
+---
+identifier: DraggableControls
 $kref: '#/ckan/spacedock/3073'
 $vref: '#/ckan/ksp-avc'
 license: MIT

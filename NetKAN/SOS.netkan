@@ -1,19 +1,18 @@
-{
-    "identifier":   "SOS",
-    "$kref":        "#/ckan/spacedock/2325",
-    "$vref":        "#/ckan/ksp-avc",
-    "license":      "CC-BY-NC-SA-4.0",
-    "tags": [
-        "plugin",
-        "convenience"
-    ],
-    "depends": [
-        { "name": "ToolbarController"   },
-        { "name": "ClickThroughBlocker" },
-        { "name": "SpaceTuxLibrary"     }
-    ],
-    "install": [ {
-        "find":       "SOS",
-        "install_to": "GameData"
-    } ]
-}
+identifier: SOS
+$kref: '#/ckan/github/linuxgurugamer/SOS'
+$vref: '#/ckan/ksp-avc'
+---
+identifier: SOS
+$kref: '#/ckan/spacedock/2325'
+$vref: '#/ckan/ksp-avc'
+license: CC-BY-NC-SA-4.0
+tags:
+  - plugin
+  - convenience
+depends:
+  - name: ToolbarController
+  - name: ClickThroughBlocker
+  - name: SpaceTuxLibrary
+install:
+  - find: SOS
+    install_to: GameData

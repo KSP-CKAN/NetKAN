@@ -1,30 +1,29 @@
-{
-    "identifier": "LTechContinued",
-    "$kref":        "#/ckan/spacedock/227",
-    "$vref":        "#/ckan/ksp-avc",
-    "license":      "MIT",
-    "tags": [
-        "plugin",
-        "parts",
-        "science"
-    ],
-    "depends": [
-        { "name" : "ModuleManager"       },
-        { "name" : "ToolbarController"   },
-        { "name" : "SpaceTuxLibrary"     },
-        { "name" : "ClickThroughBlocker" }
-    ],
-    "x_netkan_override": [
-        {
-            "version": "v4.1",
-            "override": {
-                "conflicts": [ { "name": "KEI" } ]
-            }
-        }
-    ],
-    "install": [ {
-        "find": "LTech",
-        "install_to": "GameData"
-    } ],
-    "x_netkan_epoch": 1
-}
+identifier: LTechContinued
+$kref: '#/ckan/github/linuxgurugamer/L-Tech'
+$vref: '#/ckan/ksp-avc'
+install:
+  - find: LTech
+    install_to: GameData
+---
+identifier: LTechContinued
+$kref: '#/ckan/spacedock/227'
+$vref: '#/ckan/ksp-avc'
+x_netkan_epoch: 1
+license: MIT
+tags:
+  - plugin
+  - parts
+  - science
+depends:
+  - name: ModuleManager
+  - name: ToolbarController
+  - name: SpaceTuxLibrary
+  - name: ClickThroughBlocker
+x_netkan_override:
+  - version: v4.1
+    override:
+      conflicts:
+        - name: KEI
+install:
+  - find: LTech
+    install_to: GameData

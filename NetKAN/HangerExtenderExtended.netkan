@@ -1,21 +1,22 @@
-{
-    "identifier":   "HangerExtenderExtended",
-    "name":         "Hangar Extender",
-    "$kref":        "#/ckan/spacedock/1428",
-    "$vref":        "#/ckan/ksp-avc",
-    "license":      "CC-BY-SA-4.0",
-    "tags": [
-        "plugin",
-        "convenience"
-    ],
-    "provides": [
-        "HangarExtender"
-    ],
-    "install": [ {
-        "find":       "FShangarExtender",
-        "install_to": "GameData"
-    } ],
-    "depends": [
-        { "name": "ToolbarController" }
-    ]
-}
+identifier: HangerExtenderExtended
+$kref: '#/ckan/github/linuxgurugamer/FShangarExtender'
+$vref: '#/ckan/ksp-avc'
+install:
+  - find: FShangarExtender
+    install_to: GameData
+---
+identifier: HangerExtenderExtended
+name: Hangar Extender
+$kref: '#/ckan/spacedock/1428'
+$vref: '#/ckan/ksp-avc'
+license: CC-BY-SA-4.0
+tags:
+  - plugin
+  - convenience
+provides:
+  - HangarExtender
+depends:
+  - name: ToolbarController
+install:
+  - find: FShangarExtender
+    install_to: GameData

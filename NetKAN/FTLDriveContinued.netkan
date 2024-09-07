@@ -1,26 +1,27 @@
-{
-    "identifier":   "FTLDriveContinued",
-    "abstract":     "Ever wished you were somewhere else instantly. With the Kerbin Science Foundry faster than light (FTL) drive you can! Just spin it up to create an instant reality dysfunction that might, just might transport you instantly to another point in space.",
-    "$kref":        "#/ckan/spacedock/835",
-    "$vref":        "#/ckan/ksp-avc",
-    "license":      "CC-BY-NC-SA-3.0",
-    "tags": [
-        "plugin",
-        "parts"
-    ],
-    "depends": [
-        { "name": "ModuleManager"       },
-        { "name": "ToolbarController"   },
-        { "name": "ClickThroughBlocker" }
-    ],
-    "recommends": [
-        { "name": "JanitorsCloset" }
-    ],
-    "conflicts": [
-        { "name": "FTLDrive" }
-    ],
-    "install": [ {
-        "find":       "FTLDriveContinued",
-        "install_to": "GameData"
-    } ]
-}
+identifier: FTLDriveContinued
+$kref: '#/ckan/github/linuxgurugamer/FTLDriveContinued'
+$vref: '#/ckan/ksp-avc'
+---
+identifier: FTLDriveContinued
+abstract: >-
+  Ever wished you were somewhere else instantly.
+  With the Kerbin Science Foundry faster than light (FTL) drive you can!
+  Just spin it up to create an instant reality dysfunction that might,
+  just might transport you instantly to another point in space.
+$kref: '#/ckan/spacedock/835'
+$vref: '#/ckan/ksp-avc'
+license: CC-BY-NC-SA-3.0
+tags:
+  - plugin
+  - parts
+depends:
+  - name: ModuleManager
+  - name: ToolbarController
+  - name: ClickThroughBlocker
+recommends:
+  - name: JanitorsCloset
+conflicts:
+  - name: FTLDrive
+install:
+  - find: FTLDriveContinued
+    install_to: GameData

@@ -1,16 +1,18 @@
-{
-    "identifier":   "SpacedocksRedeployed",
-    "$kref":        "#/ckan/spacedock/1585",
-    "$vref":        "#/ckan/ksp-avc",
-    "license":      "CC-BY-NC-SA-4.0",
-    "tags": [
-        "parts"
-    ],
-    "install": [ {
-        "find":       "SpaceDockReBoxed",
-        "install_to": "GameData"
-    } ],
-    "depends": [
-        { "name": "ModuleManager" }
-    ]
-}
+identifier: SpacedocksRedeployed
+$kref: '#/ckan/github/linuxgurugamer/SpaceDockReBoxed'
+$vref: '#/ckan/ksp-avc'
+install:
+  - find: SpaceDockReBoxed
+    install_to: GameData
+---
+identifier: SpacedocksRedeployed
+$kref: '#/ckan/spacedock/1585'
+$vref: '#/ckan/ksp-avc'
+license: CC-BY-NC-SA-4.0
+tags:
+  - parts
+depends:
+  - name: ModuleManager
+install:
+  - find: SpaceDockReBoxed
+    install_to: GameData

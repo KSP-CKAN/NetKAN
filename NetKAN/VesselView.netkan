@@ -1,4 +1,8 @@
 identifier: VesselView
+$kref: '#/ckan/github/linuxgurugamer/VesselViewer'
+$vref: '#/ckan/ksp-avc'
+---
+identifier: VesselView
 $kref: '#/ckan/spacedock/923'
 $vref: '#/ckan/ksp-avc/VesselView.version'
 x_netkan_epoch: 2

@@ -1,15 +1,18 @@
-{
-    "identifier"   : "Kartographer",
-    "author"       : [ "satnet", "RealGecko", "linuxgurugamer" ],
-    "$kref"        : "#/ckan/spacedock/1575",
-    "$vref"        : "#/ckan/ksp-avc",
-    "license"      : "CC-BY-NC-SA-3.0",
-    "tags"         : [
-        "plugin",
-        "convenience"
-    ],
-    "depends": [
-        { "name" : "ToolbarController" },
-        { "name" : "ClickThroughBlocker" }
-    ]
-}
+identifier: Kartographer
+$kref: '#/ckan/github/linuxgurugamer/Kartographer'
+$vref: '#/ckan/ksp-avc'
+---
+identifier: Kartographer
+author:
+  - satnet
+  - RealGecko
+  - linuxgurugamer
+$kref: '#/ckan/spacedock/1575'
+$vref: '#/ckan/ksp-avc'
+license: CC-BY-NC-SA-3.0
+tags:
+  - plugin
+  - convenience
+depends:
+  - name: ToolbarController
+  - name: ClickThroughBlocker

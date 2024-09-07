@@ -1,25 +1,26 @@
-{
-    "identifier":   "REKT",
-    "$kref":        "#/ckan/spacedock/1021",
-    "$vref":        "#/ckan/ksp-avc",
-    "license":      "CC-BY-NC-SA-4.0",
-    "tags": [
-        "parts",
-        "crewed"
-    ],
-    "install": [ {
-        "find":       "SHED",
-        "install_to": "GameData",
-        "filter":     [ "Agencies", "License", "RetractableLiftingSurface" ]
-    } ],
-    "depends": [
-        { "name": "ModuleManager"             },
-        { "name": "RetractableLiftingSurface" },
-        { "name": "KSPWheel"                  }
-    ],
-    "recommends": [
-        { "name": "IndicatorLights"   },
-        { "name": "Landertron"        },
-        { "name": "RasterPropMonitor" }
-    ]
-}
+identifier: REKT
+$kref: '#/ckan/github/linuxgurugamer/REKT'
+$vref: '#/ckan/ksp-avc'
+---
+identifier: REKT
+$kref: '#/ckan/spacedock/1021'
+$vref: '#/ckan/ksp-avc'
+license: CC-BY-NC-SA-4.0
+tags:
+  - parts
+  - crewed
+install:
+  - find: SHED
+    install_to: GameData
+    filter:
+      - Agencies
+      - License
+      - RetractableLiftingSurface
+depends:
+  - name: ModuleManager
+  - name: RetractableLiftingSurface
+  - name: KSPWheel
+recommends:
+  - name: IndicatorLights
+  - name: Landertron
+  - name: RasterPropMonitor

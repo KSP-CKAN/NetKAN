@@ -1,23 +1,21 @@
-{
-    "identifier"     : "CraftImport",
-    "$kref"          : "#/ckan/spacedock/47",
-    "$vref"          : "#/ckan/ksp-avc",
-    "x_netkan_epoch" : 1,
-    "license"        : "GPL-3.0",
-    "tags": [
-        "plugin",
-        "editor",
-        "convenience"
-    ],
-    "recommends": [
-        { "name": "JanitorsCloset" }
-    ],
-    "depends": [
-        { "name": "ToolbarController" },
-        { "name": "ClickThroughBlocker" }
-    ],
-    "install": [ {
-        "find"       : "CraftImport",
-        "install_to" : "GameData"
-    } ]
-}
+identifier: CraftImport
+$kref: '#/ckan/github/linuxgurugamer/CraftImport'
+$vref: '#/ckan/ksp-avc'
+---
+identifier: CraftImport
+$kref: '#/ckan/spacedock/47'
+$vref: '#/ckan/ksp-avc'
+x_netkan_epoch: 1
+license: GPL-3.0
+tags:
+  - plugin
+  - editor
+  - convenience
+recommends:
+  - name: JanitorsCloset
+depends:
+  - name: ToolbarController
+  - name: ClickThroughBlocker
+install:
+  - find: CraftImport
+    install_to: GameData

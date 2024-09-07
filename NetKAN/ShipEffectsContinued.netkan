@@ -1,14 +1,14 @@
-{
-    "identifier":   "ShipEffectsContinued",
-    "$kref":        "#/ckan/spacedock/2225",
-    "$vref":        "#/ckan/ksp-avc",
-    "license":      "CC-BY-NC-SA-4.0",
-    "tags": [
-        "plugin",
-        "sound"
-    ],
-    "install": [ {
-        "find": "ShipEffectsContinued",
-        "install_to": "GameData"
-    } ]
-}
+identifier: ShipEffectsContinued
+$kref: '#/ckan/github/linuxgurugamer/ShipEffectsContinued'
+$vref: '#/ckan/ksp-avc'
+---
+identifier: ShipEffectsContinued
+$kref: '#/ckan/spacedock/2225'
+$vref: '#/ckan/ksp-avc'
+license: CC-BY-NC-SA-4.0
+tags:
+  - plugin
+  - sound
+install:
+  - find: ShipEffectsContinued
+    install_to: GameData

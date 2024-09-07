@@ -1,27 +1,30 @@
-{
-    "identifier":   "CrewManifest",
-    "name":         "Crew Manifest",
-    "abstract":     "This plugin will allow you to add or remove crew from parts while on the launch pad or transfer crew between parts in the same vessel. You can also edit/add custom crew members in your available crew roster provided that they are not part of an active flight (or dead).",
-    "author":       [ "vXSovereignXv", "Sarbian", "linuxgurugamer" ],
-    "$kref"          : "#/ckan/spacedock/3097",
-    "$vref"          : "#/ckan/ksp-avc",
-    "license":      "MIT",
-    "resources": {
-        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/209418-112x-kerbal-crew-manifest/",
-        "repository": "https://github.com/linuxgurugamer/CrewManifest"
-    },
-    "depends": [
-            { "name": "ToolbarController" },
-            { "name": "ClickThroughBlocker" },
-            { "name": "SpaceTuxLibrary" }
-    ],
-    "tags": [
-        "plugin",
-        "crewed",
-        "convenience"
-    ],
-    "install": [ {
-        "find": "CrewManifest",
-        "install_to": "GameData"
-    } ]
-}
+identifier: CrewManifest
+$kref: '#/ckan/github/linuxgurugamer/CrewManifest'
+---
+identifier: CrewManifest
+name: Crew Manifest
+abstract: >-
+  This plugin will allow you to add or remove crew from parts while on the
+  launch pad or transfer crew between parts in the same vessel.
+  You can also edit/add custom crew members in your available crew roster
+  provided that they are not part of an active flight (or dead).
+author:
+  - vXSovereignXv
+  - Sarbian
+  - linuxgurugamer
+$kref: '#/ckan/spacedock/3097'
+license: MIT
+resources:
+  homepage: https://forum.kerbalspaceprogram.com/index.php?/topic/209418-112x-kerbal-crew-manifest/
+  repository: https://github.com/linuxgurugamer/CrewManifest
+depends:
+  - name: ToolbarController
+  - name: ClickThroughBlocker
+  - name: SpaceTuxLibrary
+tags:
+  - plugin
+  - crewed
+  - convenience
+install:
+  - find: CrewManifest
+    install_to: GameData

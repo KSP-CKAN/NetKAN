@@ -1,4 +1,7 @@
 identifier: EcoRocket
+$kref: '#/ckan/github/cmdrads/kspEcoRocket'
+---
+identifier: EcoRocket
 $kref: '#/ckan/spacedock/3050'
 license: GPL-3.0
 tags:

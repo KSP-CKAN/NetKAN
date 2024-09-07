@@ -1,4 +1,8 @@
 identifier: RationalResourcesJetFamily
+$kref: '#/ckan/github/JadeOfMaar/RationalResources'
+$vref: '#/ckan/ksp-avc'
+---
+identifier: RationalResourcesJetFamily
 name: Rational Resources Jet Family
 abstract: >-
   Enables fuel switching in air-breathing engines.

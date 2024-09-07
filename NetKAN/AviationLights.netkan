@@ -1,4 +1,14 @@
 identifier: AviationLights
+$kref: '#/ckan/github/net-lisias-ksp/AviationLights/asset_match/^(?!.*CurseForge)'
+x_netkan_version_edit:
+  find: ^RELEASE/
+  replace: ''
+  strict: false
+x_netkan_force_v: true
+x_netkan_epoch: 1
+$vref: '#/ckan/ksp-avc'
+---
+identifier: AviationLights
 name: Aviation Lights
 author:
   - LisiasT

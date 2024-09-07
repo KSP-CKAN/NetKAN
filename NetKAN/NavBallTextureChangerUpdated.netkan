@@ -1,4 +1,13 @@
 identifier: NavBallTextureChangerUpdated
+$kref: '#/ckan/github/linuxgurugamer/NavBallTextureChanger'
+$vref: '#/ckan/ksp-avc'
+install:
+  - find: NavBallTextureChanger
+    install_to: GameData
+    filter_regexp:
+      - .*\.pdb$
+---
+identifier: NavBallTextureChangerUpdated
 $kref: '#/ckan/spacedock/2654'
 $vref: '#/ckan/ksp-avc'
 license: MIT

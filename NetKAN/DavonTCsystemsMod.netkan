@@ -1,20 +1,19 @@
-{
-    "identifier"   : "DavonTCsystemsMod",
-    "$kref"        : "#/ckan/spacedock/2516",
-    "$vref":        "#/ckan/ksp-avc",
-    "license"      : "GPL-2.0",
-    "depends": [
-        { "name" : "ToolbarController" },
-        { "name" : "ClickThroughBlocker" },
-        { "name" : "SpaceTuxLibrary" }
-    ],
-    "tags": [
-        "plugin",
-        "control"
-    ],
-    "install": [ {
-        "find"          : "DavonTCsystemsMod",
-        "install_to"    : "GameData"
-    } ],
-    "x_netkan_epoch": 1
-}
+identifier: DavonTCsystemsMod
+$kref: '#/ckan/github/linuxgurugamer/DavonTCsystemsMod'
+$vref: '#/ckan/ksp-avc'
+---
+identifier: DavonTCsystemsMod
+$kref: '#/ckan/spacedock/2516'
+$vref: '#/ckan/ksp-avc'
+license: GPL-2.0
+depends:
+  - name: ToolbarController
+  - name: ClickThroughBlocker
+  - name: SpaceTuxLibrary
+tags:
+  - plugin
+  - control
+install:
+  - find: DavonTCsystemsMod
+    install_to: GameData
+x_netkan_epoch: 1

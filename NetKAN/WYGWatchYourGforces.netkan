@@ -1,4 +1,11 @@
 identifier: WYGWatchYourGforces
+$kref: '#/ckan/github/kurgut/WYG-WatchYourG-Forces-'
+$vref: '#/ckan/ksp-avc'
+install:
+  - find: WYG
+    install_to: GameData
+---
+identifier: WYGWatchYourGforces
 $kref: '#/ckan/spacedock/3515'
 $vref: '#/ckan/ksp-avc'
 license: MIT
@@ -12,4 +19,3 @@ conflicts:
 install:
   - find: WYG
     install_to: GameData
-x_via: Automated SpaceDock CKAN submission

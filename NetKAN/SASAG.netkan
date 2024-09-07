@@ -1,16 +1,18 @@
-{
-    "identifier":   "SASAG",
-    "$kref":        "#/ckan/spacedock/1380",
-    "license":      "public-domain",
-    "tags": [
-        "plugin",
-        "convenience"
-    ],
-    "install": [ {
-        "find":       "XyphosAerospace",
-        "install_to": "GameData"
-    } ],
-    "depends": [
-        { "name": "ModuleManager" }
-    ]
-}
+identifier: SASAG
+$kref: '#/ckan/github/Xyphos/KSP_SASAG'
+x_netkan_version_edit:
+  find: ^v
+  replace: ''
+  strict: false
+---
+identifier: SASAG
+$kref: '#/ckan/spacedock/1380'
+license: public-domain
+tags:
+  - plugin
+  - convenience
+install:
+  - find: XyphosAerospace
+    install_to: GameData
+depends:
+  - name: ModuleManager

@@ -1,4 +1,11 @@
 identifier: ClickThroughBlocker
+$kref: '#/ckan/github/linuxgurugamer/ClickThroughBlocker'
+$vref: '#/ckan/ksp-avc'
+install:
+  - find: 000_ClickThroughBlocker
+    install_to: GameData
+---
+identifier: ClickThroughBlocker
 name: ClickThrough Blocker
 abstract: Helps eliminate the clickthrough problem with mods
 $kref: '#/ckan/spacedock/1689'

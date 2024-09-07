@@ -1,19 +1,21 @@
-{
-    "identifier":   "CrewLight",
-    "name":         "Crew Light",
-    "abstract":     "An automatic light manager",
-    "author":       [ "Li0n", "linuxgurugamer" ],
-    "$kref":        "#/ckan/spacedock/2236",
-    "$vref":        "#/ckan/ksp-avc",
-    "x_netkan_epoch": 1,
-    "license" :     "MIT",
-    "tags": [
-        "plugin",
-        "crewed",
-        "information"
-    ],
-    "depends" : [
-        { "name" : "ModuleManager" },
-        { "name" : "ClickThroughBlocker" }
-    ]
-}
+identifier: CrewLight
+$kref: '#/ckan/github/linuxgurugamer/CrewLight'
+$vref: '#/ckan/ksp-avc'
+---
+identifier: CrewLight
+name: Crew Light
+abstract: An automatic light manager
+author:
+  - Li0n
+  - linuxgurugamer
+$kref: '#/ckan/spacedock/2236'
+$vref: '#/ckan/ksp-avc'
+x_netkan_epoch: 1
+license: MIT
+tags:
+  - plugin
+  - crewed
+  - information
+depends:
+  - name: ModuleManager
+  - name: ClickThroughBlocker

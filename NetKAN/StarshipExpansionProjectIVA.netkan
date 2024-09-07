@@ -1,4 +1,10 @@
 identifier: StarshipExpansionProjectIVA
+$kref: '#/ckan/github/Kari1407/Starship-Expansion-Project'
+install:
+  - find: Spaces
+    install_to: GameData/StarshipExpansionProject
+---
+identifier: StarshipExpansionProjectIVA
 name: Starship Expansion Project IVA
 abstract: IVA portion of Starship Expansion Project
 author:

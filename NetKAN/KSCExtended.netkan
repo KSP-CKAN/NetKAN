@@ -1,4 +1,8 @@
 identifier: KSCExtended
+$kref: '#/ckan/github/JadeOfMaar/KSC_Extended'
+$vref: '#/ckan/ksp-avc'
+---
+identifier: KSCExtended
 $kref: '#/ckan/spacedock/2062'
 $vref: '#/ckan/ksp-avc'
 license: MIT

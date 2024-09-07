@@ -1,19 +1,21 @@
-{
-    "identifier":   "HaystackReContinued",
-    "$kref":        "#/ckan/spacedock/1680",
-    "$vref":        "#/ckan/ksp-avc",
-    "license":      "MIT",
-    "tags": [
-        "plugin",
-        "information",
-        "convenience"
-    ],
-    "install": [ {
-        "find": "HaystackContinued",
-        "install_to": "GameData"
-    } ],
-    "depends": [
-        { "name" : "ToolbarController" },
-        { "name" : "ClickThroughBlocker" }
-    ]
-}
+identifier: HaystackReContinued
+$kref: '#/ckan/github/linuxgurugamer/HaystackContinued'
+$vref: '#/ckan/ksp-avc'
+install:
+  - find: HaystackContinued
+    install_to: GameData
+---
+identifier: HaystackReContinued
+$kref: '#/ckan/spacedock/1680'
+$vref: '#/ckan/ksp-avc'
+license: MIT
+tags:
+  - plugin
+  - information
+  - convenience
+depends:
+  - name: ToolbarController
+  - name: ClickThroughBlocker
+install:
+  - find: HaystackContinued
+    install_to: GameData

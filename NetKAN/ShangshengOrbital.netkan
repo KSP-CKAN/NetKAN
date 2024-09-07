@@ -1,25 +1,22 @@
-{
-    "identifier":   "ShangshengOrbital",
-    "$kref":        "#/ckan/spacedock/2209",
-    "$vref":        "#/ckan/ksp-avc",
-    "x_netkan_force_v": true,
-    "license":      "CC-BY-NC-ND-4.0",
-    "tags": [
-        "parts"
-    ],
-    "install": [ {
-        "find"      : "ShangshengOrbital",
-        "install_to": "GameData"
-    }, {
-        "find"      : "VAB",
-        "install_to": "Ships"
-    } ],
-    "depends": [
-        { "name": "ModuleManager" },
-        { "name": "SpaceXLegs"    }
-    ],
-    "recommends": [
-        { "name": "Smokescreen" },
-        { "name": "CommunityCategoryKit" }
-    ]
-}
+identifier: ShangshengOrbital
+$kref: '#/ckan/github/TundraMods/Shangsheng-Orbital'
+$vref: '#/ckan/ksp-avc'
+---
+identifier: ShangshengOrbital
+$kref: '#/ckan/spacedock/2209'
+$vref: '#/ckan/ksp-avc'
+x_netkan_force_v: true
+license: CC-BY-NC-ND-4.0
+tags:
+  - parts
+install:
+  - find: ShangshengOrbital
+    install_to: GameData
+  - find: VAB
+    install_to: Ships
+depends:
+  - name: ModuleManager
+  - name: SpaceXLegs
+recommends:
+  - name: Smokescreen
+  - name: CommunityCategoryKit

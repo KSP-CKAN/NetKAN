@@ -1,4 +1,17 @@
 identifier: TweakScale
+$kref: '#/ckan/github/TweakScale/TweakScale/asset_match/^(?!.*CurseForge)'
+x_netkan_version_edit:
+  find: ^RELEASE/
+  replace: ''
+  strict: false
+x_netkan_force_v: true
+$vref: '#/ckan/ksp-avc'
+install:
+  - file: GameData/TweakScale
+    install_to: GameData
+    filter: Scale_Redist.dll
+---
+identifier: TweakScale
 name: TweakScale - Rescale Everything!
 abstract: >-
   TweakScale lets you change the size of a part. Not just that, but it will
@@ -19,15 +32,15 @@ release_status: stable
 tags:
   - plugin
   - convenience
-install:
-  - file: GameData/TweakScale
-    install_to: GameData
-    filter: Scale_Redist.dll
 depends:
   - name: TweakScale-Redist
   - name: ModuleManager
     min_version: 2.7.1
   - name: KSP-Recall
 conflicts:
-    - name: TweakscaleMakingHistoryConfigs
-    - name: TweakScaleRescaled-Redist
+  - name: TweakscaleMakingHistoryConfigs
+  - name: TweakScaleRescaled-Redist
+install:
+  - file: GameData/TweakScale
+    install_to: GameData
+    filter: Scale_Redist.dll

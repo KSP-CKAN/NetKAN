@@ -1,11 +1,16 @@
-{
-    "identifier":   "TrackingStationEvolved",
-    "$kref":        "#/ckan/spacedock/1738",
-    "$vref":        "#/ckan/ksp-avc",
-    "license":      "MIT",
-    "tags": [
-        "plugin",
-        "information",
-        "convenience"
-    ]
-}
+identifier: TrackingStationEvolved
+$kref: '#/ckan/github/DMagic1/KSP_BetterTracking'
+x_netkan_version_edit:
+  find: ^v
+  replace: ''
+  strict: false
+$vref: '#/ckan/ksp-avc'
+---
+identifier: TrackingStationEvolved
+$kref: '#/ckan/spacedock/1738'
+$vref: '#/ckan/ksp-avc'
+license: MIT
+tags:
+  - plugin
+  - information
+  - convenience

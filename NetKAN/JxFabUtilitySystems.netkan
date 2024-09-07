@@ -1,4 +1,11 @@
 identifier: JxFabUtilitySystems
+$kref: '#/ckan/github/JackATac98/JxFab_Utility_Systems'
+license: CC-BY-NC-SA
+install:
+  - find: JxFab_UtilitySystems
+    install_to: GameData
+---
+identifier: JxFabUtilitySystems
 $kref: '#/ckan/spacedock/2911'
 license: CC-BY-NC-SA
 tags:

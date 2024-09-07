@@ -1,4 +1,8 @@
 identifier: KerBalloons
+$kref: '#/ckan/github/linuxgurugamer/KerballoonsReinflated'
+$vref: '#/ckan/ksp-avc'
+---
+identifier: KerBalloons
 $kref: '#/ckan/spacedock/2662'
 $vref: '#/ckan/ksp-avc'
 license: MIT

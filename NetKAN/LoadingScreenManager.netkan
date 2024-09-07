@@ -1,13 +1,13 @@
-{
-    "identifier":   "LoadingScreenManager",
-    "$kref":        "#/ckan/spacedock/1422",
-    "$vref":        "#/ckan/ksp-avc",
-    "license":      "CC-BY-NC-SA",
-    "tags": [
-        "plugin"
-    ],
-    "install": [ {
-        "find": "LoadingScreenManager",
-        "install_to": "GameData"
-    } ]
-}
+identifier: LoadingScreenManager
+$kref: '#/ckan/github/linuxgurugamer/KSPLoadingScreenManager'
+$vref: '#/ckan/ksp-avc'
+---
+identifier: LoadingScreenManager
+$kref: '#/ckan/spacedock/1422'
+$vref: '#/ckan/ksp-avc'
+license: CC-BY-NC-SA
+tags:
+  - plugin
+install:
+  - find: LoadingScreenManager
+    install_to: GameData

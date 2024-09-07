@@ -1,4 +1,7 @@
 identifier: RocketMotorMenagerie
+$kref: '#/ckan/github/EStreetRockets/RocketMotorMenagerie'
+---
+identifier: RocketMotorMenagerie
 $kref: '#/ckan/spacedock/2729'
 ksp_version: 1.12
 license: CC-BY-NC-SA-4.0

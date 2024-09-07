@@ -1,28 +1,23 @@
-{
-    "identifier":   "EngineLightRelit",
-    "$kref":        "#/ckan/spacedock/2111",
-    "$vref":        "#/ckan/ksp-avc",
-    "license":      "MIT",
-    "tags": [
-        "plugin",
-        "graphics"
-    ],
-    "depends": [
-        {
-            "name": "ModuleManager",
-            "min_version": "2.6.3"
-        },
-        { "name" : "ToolbarController" },
-        { "name" : "ClickThroughBlocker" }
-    ],
-    "suggests": [
-        { "name": "HotRockets" }
-    ],
-    "conflicts": [
-        { "name": "EngineLighting" }
-    ],
-    "install": [ {
-        "find"      : "EngineLightRelit",
-        "install_to": "GameData"
-    } ]
-}
+identifier: EngineLightRelit
+$kref: '#/ckan/github/linuxgurugamer/EngineLightRelit'
+$vref: '#/ckan/ksp-avc'
+---
+identifier: EngineLightRelit
+$kref: '#/ckan/spacedock/2111'
+$vref: '#/ckan/ksp-avc'
+license: MIT
+tags:
+  - plugin
+  - graphics
+depends:
+  - name: ModuleManager
+    min_version: 2.6.3
+  - name: ToolbarController
+  - name: ClickThroughBlocker
+suggests:
+  - name: HotRockets
+conflicts:
+  - name: EngineLighting
+install:
+  - find: EngineLightRelit
+    install_to: GameData

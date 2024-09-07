@@ -1,4 +1,8 @@
 identifier: RationalResourcesELUtilities
+$kref: '#/ckan/github/JadeOfMaar/RationalResources'
+$vref: '#/ckan/ksp-avc'
+---
+identifier: RationalResourcesELUtilities
 name: Rational Resources EL Utilities
 abstract: Provides integrations for Extraplanetary Launchpads
 $kref: '#/ckan/spacedock/2201'

@@ -1,4 +1,12 @@
 identifier: VesselView-UI-RasterPropMonitor
+$kref: '#/ckan/github/linuxgurugamer/VesselViewer'
+$vref: '#/ckan/ksp-avc/VesselView.version'
+install:
+  - find: VesselViewRPM.dll
+    find_matches_files: true
+    install_to: GameData/VesselView/Plugins
+---
+identifier: VesselView-UI-RasterPropMonitor
 name: VesselView-UI-RasterPropMonitor
 $kref: '#/ckan/spacedock/923'
 $vref: '#/ckan/ksp-avc/VesselView.version'
