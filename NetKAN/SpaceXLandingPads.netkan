@@ -1,12 +1,4 @@
 identifier: SpaceXLandingPads
-$kref: '#/ckan/github/Fossilized4/SpaceX-Landing-Pads'
-x_netkan_github:
-  use_source_archive: true
-install:
-  - find: Fossil Industries
-    install_to: GameData
----
-identifier: SpaceXLandingPads
 $kref: '#/ckan/spacedock/2941'
 license: restricted
 tags:
