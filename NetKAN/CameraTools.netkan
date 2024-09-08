@@ -1,11 +1,15 @@
-{
-    "identifier":   "CameraTools",
-    "author":       [ "BahamutoD", "jrodrigv", "Brett_Ryland" ],
-    "$kref":        "#/ckan/spacedock/2657",
-    "$vref":        "#/ckan/ksp-avc",
-    "x_netkan_force_v": true,
-    "license":      "GPL-3.0",
-    "tags": [
-        "plugin"
-    ]
-}
+identifier: CameraTools
+$kref: '#/ckan/github/BrettRyland/CameraTools'
+$vref: '#/ckan/ksp-avc'
+---
+identifier: CameraTools
+author:
+  - BahamutoD
+  - jrodrigv
+  - Brett_Ryland
+$kref: '#/ckan/spacedock/2657'
+$vref: '#/ckan/ksp-avc'
+x_netkan_force_v: true
+license: GPL-3.0
+tags:
+  - plugin

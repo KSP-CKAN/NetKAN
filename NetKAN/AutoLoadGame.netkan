@@ -1,10 +1,15 @@
-{
-    "identifier":   "AutoLoadGame",
-    "$kref":        "#/ckan/spacedock/832",
-    "$vref":        "#/ckan/ksp-avc",
-    "license":      "MIT",
-    "tags": [
-        "plugin",
-        "convenience"
-    ]
-}
+identifier: AutoLoadGame
+$kref: '#/ckan/github/allista/AutoLoadGame'
+x_netkan_version_edit:
+  find: ^v
+  replace: ''
+  strict: false
+$vref: '#/ckan/ksp-avc'
+---
+identifier: AutoLoadGame
+$kref: '#/ckan/spacedock/832'
+$vref: '#/ckan/ksp-avc'
+license: MIT
+tags:
+  - plugin
+  - convenience

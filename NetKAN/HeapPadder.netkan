@@ -1,11 +1,14 @@
-{
-    "identifier"   : "HeapPadder",
-    "name"         : "HeapPadder",
-    "abstract"     : "This is a simple plugin to allocate extra space on the heap to help minimize the frequency of garbage collection.",
-    "$kref"        : "#/ckan/spacedock/2190",
-    "$vref"        : "#/ckan/ksp-avc",
-    "license"      : "MIT",
-    "tags"         : [
-        "plugin"
-    ]
-}
+identifier: HeapPadder
+$kref: '#/ckan/github/linuxgurugamer/HeapPadder'
+$vref: '#/ckan/ksp-avc'
+---
+identifier: HeapPadder
+name: HeapPadder
+abstract: >-
+  This is a simple plugin to allocate extra space on the heap to help minimize
+  the frequency of garbage collection.
+$kref: '#/ckan/spacedock/2190'
+$vref: '#/ckan/ksp-avc'
+license: MIT
+tags:
+  - plugin

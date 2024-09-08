@@ -1,4 +1,11 @@
 identifier: ModularComputerPackageRevived
+$kref: '#/ckan/github/linuxgurugamer/ChromaWorks'
+$vref: '#/ckan/ksp-avc'
+install:
+  - find: ChromaWorks
+    install_to: GameData
+---
+identifier: ModularComputerPackageRevived
 author:
   - CSVoltage
   - micha030201

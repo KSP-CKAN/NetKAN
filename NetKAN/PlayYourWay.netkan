@@ -1,14 +1,16 @@
-{
-    "identifier":   "PlayYourWay",
-    "abstract":     "Earn funds for doing science! Remember to download Contract Configurator and disable all contracts to truly play your way!",
-    "$kref":        "#/ckan/spacedock/2280",
-    "$vref":        "#/ckan/ksp-avc",
-    "license":      "public-domain",
-    "tags": [
-        "config",
-        "career"
-    ],
-    "recommends": [
-        { "name": "ContractConfigurator" }
-    ]
-}
+identifier: PlayYourWay
+$kref: '#/ckan/github/linuxgurugamer/PlayYourWay'
+$vref: '#/ckan/ksp-avc'
+---
+identifier: PlayYourWay
+abstract: >-
+  Earn funds for doing science! Remember to download Contract Configurator
+  and disable all contracts to truly play your way!
+$kref: '#/ckan/spacedock/2280'
+$vref: '#/ckan/ksp-avc'
+license: public-domain
+tags:
+  - config
+  - career
+recommends:
+  - name: ContractConfigurator

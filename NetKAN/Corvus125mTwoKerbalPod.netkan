@@ -1,40 +1,41 @@
-{
-    "identifier": "Corvus125mTwoKerbalPod",
-    "author": [
-        "OrionKermin",
-        "Micha"
-    ],
-    "$kref": "#/ckan/spacedock/1405",
-    "$vref": "#/ckan/ksp-avc",
-    "x_netkan_epoch": 1,
-    "license": "CC-BY-SA",
-    "tags": [
-        "parts",
-        "crewed"
-    ],
-    "install": [
-        {
-            "find": "HGR",
-            "install_to": "GameData"
-        },
-        {
-            "find": "Corvus",
-            "install_to": "GameData"
-        }
-    ],
-    "depends": [
-        { "name": "ModuleManager" }
-    ],
-    "recommends": [
-        { "name": "AnimatedDecouplers" }
-    ],
-    "supports": [
-        { "name": "ConnectedLivingSpace" },
-        { "name": "DeadlyReentry" },
-        { "name": "RasterPropMonitor" },
-        { "name": "RealChute" },
-        { "name": "Snacks" },
-        { "name": "TACLS" },
-        { "name": "TweakScale" }
-    ]
-}
+identifier: Corvus125mTwoKerbalPod
+$kref: '#/ckan/github/mwerle/Corvus_CF'
+x_netkan_version_edit:
+  find: ^v
+  replace: ''
+  strict: false
+$vref: '#/ckan/ksp-avc'
+install:
+  - find: HGR
+    install_to: GameData
+  - find: Corvus
+    install_to: GameData
+---
+identifier: Corvus125mTwoKerbalPod
+author:
+  - OrionKermin
+  - Micha
+$kref: '#/ckan/spacedock/1405'
+$vref: '#/ckan/ksp-avc'
+x_netkan_epoch: 1
+license: CC-BY-SA
+tags:
+  - parts
+  - crewed
+depends:
+  - name: ModuleManager
+recommends:
+  - name: AnimatedDecouplers
+supports:
+  - name: ConnectedLivingSpace
+  - name: DeadlyReentry
+  - name: RasterPropMonitor
+  - name: RealChute
+  - name: Snacks
+  - name: TACLS
+  - name: TweakScale
+install:
+  - find: HGR
+    install_to: GameData
+  - find: Corvus
+    install_to: GameData

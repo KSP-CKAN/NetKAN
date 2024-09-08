@@ -1,30 +1,35 @@
-{
-    "identifier":   "DistantObject-default",
-    "name":         "Distant Object Enhancement /L default config",
-    "abstract":     "Default planets colors",
-    "$kref":        "#/ckan/spacedock/2274",
-    "$vref":        "#/ckan/ksp-avc",
-    "x_netkan_force_v": true,
-    "license":      "CC-BY-4.0",
-    "resources": {
-        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/205063-*"
-    },
-    "tags": [
-        "config",
-        "graphics"
-    ],
-    "install": [ {
-        "find":       "PlanetColors.cfg",
-        "install_to": "GameData/DistantObject",
-        "find_matches_files": true
-    } ],
-    "depends": [
-        { "name": "DistantObject" }
-    ],
-    "provides": [
-        "DistantObject-config"
-    ],
-    "conflicts": [
-        { "name": "DistantObject-config" }
-    ]
-}
+identifier: DistantObject-default
+$kref: '#/ckan/github/net-lisias-ksp/DistantObject/asset_match/^(?!.*CurseForge)'
+x_netkan_version_edit:
+  find: ^RELEASE/
+  replace: ''
+  strict: false
+x_netkan_force_v: true
+$vref: '#/ckan/ksp-avc'
+install:
+  - find: PlanetColors.cfg
+    install_to: GameData/DistantObject
+    find_matches_files: true
+---
+identifier: DistantObject-default
+name: Distant Object Enhancement /L default config
+abstract: Default planets colors
+$kref: '#/ckan/spacedock/2274'
+$vref: '#/ckan/ksp-avc'
+x_netkan_force_v: true
+license: CC-BY-4.0
+resources:
+  homepage: https://forum.kerbalspaceprogram.com/index.php?/topic/205063-*
+tags:
+  - config
+  - graphics
+depends:
+  - name: DistantObject
+provides:
+  - DistantObject-config
+conflicts:
+  - name: DistantObject-config
+install:
+  - find: PlanetColors.cfg
+    install_to: GameData/DistantObject
+    find_matches_files: true

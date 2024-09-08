@@ -1,4 +1,8 @@
 identifier: SimpleRepaint
+$kref: '#/ckan/github/judicator/SimpleRepaint'
+$vref: '#/ckan/ksp-avc'
+---
+identifier: SimpleRepaint
 author: Alexander Rogov
 $kref: '#/ckan/spacedock/2820'
 $vref: '#/ckan/ksp-avc'

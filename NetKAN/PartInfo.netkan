@@ -1,20 +1,21 @@
-{
-    "identifier":   "PartInfo",
-    "abstract":     "PartInfo is a simple mod to expose the internal part name and path to the part file.",
-    "$kref":        "#/ckan/spacedock/2091",
-    "$vref":        "#/ckan/ksp-avc",
-    "license":      "CC-BY-NC-SA-4.0",
-    "tags": [
-        "plugin",
-        "editor",
-        "information"
-    ],
-    "depends": [
-        { "name": "ClickThroughBlocker" },
-        { "name": "ModuleManager" }
-    ],
-    "install": [ {
-        "find": "PartInfo",
-        "install_to": "GameData"
-    } ]
-}
+identifier: PartInfo
+$kref: '#/ckan/github/linuxgurugamer/PartInfo'
+$vref: '#/ckan/ksp-avc'
+---
+identifier: PartInfo
+abstract: >-
+  PartInfo is a simple mod to expose the internal part name and path to the
+  part file.
+$kref: '#/ckan/spacedock/2091'
+$vref: '#/ckan/ksp-avc'
+license: CC-BY-NC-SA-4.0
+tags:
+  - plugin
+  - editor
+  - information
+depends:
+  - name: ClickThroughBlocker
+  - name: ModuleManager
+install:
+  - find: PartInfo
+    install_to: GameData

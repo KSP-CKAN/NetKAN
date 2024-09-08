@@ -1,24 +1,25 @@
-{
-    "identifier":   "TokamakRefurbishedParts",
-    "$kref":        "#/ckan/spacedock/1444",
-    "$vref":        "#/ckan/ksp-avc",
-    "license":      "CC-BY",
-    "tags": [
-        "parts",
-        "crewed"
-    ],
-    "install": [ {
-        "find": "TokamakIndustries",
-        "install_to": "GameData"
-    } ],
-    "depends": [
-        { "name": "ModuleManager" },
-        { "name": "USITools" }
-    ],
-    "suggests": [
-        { "name": "USI-LS" },
-        { "name": "TACLS" },
-        { "name": "Snacks" },
-        { "name": "Kerbalism" }
-    ]
-}
+identifier: TokamakRefurbishedParts
+$kref: '#/ckan/github/linuxgurugamer/Tokamak-Refurbished-Parts'
+$vref: '#/ckan/ksp-avc'
+install:
+  - find: TokamakIndustries
+    install_to: GameData
+---
+identifier: TokamakRefurbishedParts
+$kref: '#/ckan/spacedock/1444'
+$vref: '#/ckan/ksp-avc'
+license: CC-BY
+tags:
+  - parts
+  - crewed
+depends:
+  - name: ModuleManager
+  - name: USITools
+suggests:
+  - name: USI-LS
+  - name: TACLS
+  - name: Snacks
+  - name: Kerbalism
+install:
+  - find: TokamakIndustries
+    install_to: GameData

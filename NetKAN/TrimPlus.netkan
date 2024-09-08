@@ -1,4 +1,8 @@
 identifier: TrimPlus
+$kref: '#/ckan/github/linuxgurugamer/KSP_TrimPlus'
+$vref: '#/ckan/ksp-avc'
+---
+identifier: TrimPlus
 $kref: '#/ckan/spacedock/3295'
 license: GPL-3.0
 $vref: '#/ckan/ksp-avc'

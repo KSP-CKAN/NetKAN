@@ -1,4 +1,8 @@
 identifier: RationalResourcesTACLS
+$kref: '#/ckan/github/JadeOfMaar/RationalResources'
+$vref: '#/ckan/ksp-avc'
+---
+identifier: RationalResourcesTACLS
 name: Rational Resources TAC LS
 abstract: >-
   Changes TAC converters in supported mods to produce less abstract Waste

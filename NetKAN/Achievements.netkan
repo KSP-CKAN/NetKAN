@@ -1,22 +1,19 @@
-{
-    "identifier"   : "Achievements",
-    "name"         : "KSP Achievements",
-    "abstract"     : "145 Achievements you can get playing Kerbal Space Program.",
-    "$kref"        : "#/ckan/spacedock/2422",
-    "$vref"        : "#/ckan/ksp-avc",
-    "license"      : "GPL-3.0",
-    "tags"         : [
-        "plugin"
-    ],
-    "install"      : [
-        {
-            "find": "Achievements",
-            "install_to": "GameData"
-        }
-    ],
-    "depends": [
-        { "name" : "ToolbarController" },
-        { "name" : "ClickThroughBlocker" },
-        { "name": "SpaceTuxLibrary" }
-    ]
-}
+identifier: Achievements
+$kref: '#/ckan/github/linuxgurugamer/Achievements'
+$vref: '#/ckan/ksp-avc'
+---
+identifier: Achievements
+name: KSP Achievements
+abstract: 145 Achievements you can get playing Kerbal Space Program.
+$kref: '#/ckan/spacedock/2422'
+$vref: '#/ckan/ksp-avc'
+license: GPL-3.0
+tags:
+  - plugin
+install:
+  - find: Achievements
+    install_to: GameData
+depends:
+  - name: ToolbarController
+  - name: ClickThroughBlocker
+  - name: SpaceTuxLibrary

@@ -1,24 +1,23 @@
-{
-    "identifier"    : "ChampagneBottleRedux",
-    "$kref"         : "#/ckan/spacedock/613",
-    "$vref"         : "#/ckan/ksp-avc",
-    "license"       : "CC-BY-NC-SA",
-    "tags": [
-        "plugin",
-        "editor"
-    ],
-    "depends": [
-        { "name": "ToolbarController"   },
-        { "name": "ClickThroughBlocker" }
-    ],
-    "recommends": [
-        { "name": "Toolbar" },
-        { "name": "JanitorsCloset" }
-    ],
-    "install": [
-        {
-            "find": "Champagne",
-            "install_to": "GameData"
-        }
-    ]
-}
+identifier: ChampagneBottleRedux
+$kref: '#/ckan/github/linuxgurugamer/ChampagneBottleRedux'
+$vref: '#/ckan/ksp-avc'
+install:
+  - find: Champagne
+    install_to: GameData
+---
+identifier: ChampagneBottleRedux
+$kref: '#/ckan/spacedock/613'
+$vref: '#/ckan/ksp-avc'
+license: CC-BY-NC-SA
+tags:
+  - plugin
+  - editor
+depends:
+  - name: ToolbarController
+  - name: ClickThroughBlocker
+recommends:
+  - name: Toolbar
+  - name: JanitorsCloset
+install:
+  - find: Champagne
+    install_to: GameData

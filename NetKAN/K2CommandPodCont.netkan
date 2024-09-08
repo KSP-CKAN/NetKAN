@@ -1,24 +1,24 @@
-{
-    "identifier":   "K2CommandPodCont",
-    "$kref":        "#/ckan/spacedock/1163",
-    "$vref":        "#/ckan/ksp-avc",
-    "license":      "CC-BY-NC-SA-4.0",
-    "tags": [
-        "parts",
-        "crewed"
-    ],
-    "install": [ {
-        "file":       "GameData/JFJohnny5",
-        "install_to": "GameData"
-    } ],
-    "conflicts": [
-        { "name": "K2CommandPod" }
-    ],
-    "depends": [
-        { "name": "ModuleManager" }
-    ],
-    "supports": [
-        { "name": "ConnectedLivingSpace" },
-        { "name": "TacLifeSupport"       }
-    ]
-}
+identifier: K2CommandPodCont
+$kref: '#/ckan/github/linuxgurugamer/K2_Command_Pod'
+$vref: '#/ckan/ksp-avc'
+install:
+  - file: GameData/JFJohnny5
+    install_to: GameData
+---
+identifier: K2CommandPodCont
+$kref: '#/ckan/spacedock/1163'
+$vref: '#/ckan/ksp-avc'
+license: CC-BY-NC-SA-4.0
+tags:
+  - parts
+  - crewed
+conflicts:
+  - name: K2CommandPod
+depends:
+  - name: ModuleManager
+supports:
+  - name: ConnectedLivingSpace
+  - name: TacLifeSupport
+install:
+  - file: GameData/JFJohnny5
+    install_to: GameData

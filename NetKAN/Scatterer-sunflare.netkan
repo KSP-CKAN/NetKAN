@@ -1,4 +1,12 @@
 identifier: Scatterer-sunflare
+$kref: '#/ckan/github/LGhassen/Scatterer'
+x_netkan_force_v: true
+x_netkan_epoch: '3'
+install:
+  - find: Sunflares
+    install_to: GameData/StockScattererConfigs
+---
+identifier: Scatterer-sunflare
 name: Scatterer Sunflare
 abstract: >-
   Scatterer's default sunflare.
@@ -18,9 +26,6 @@ provides:
   - Scatterer-sunflare-default
 conflicts:
   - name: Scatterer-sunflare
-install:
-  - find: Sunflares
-    install_to: GameData/StockScattererConfigs
 x_netkan_override:
   - version:
       - '>=3:v0.0829'
@@ -40,3 +45,6 @@ x_netkan_override:
   - version: 2:v0.0329_for_1.4.2
     override:
       ksp_version: 1.4.2
+install:
+  - find: Sunflares
+    install_to: GameData/StockScattererConfigs

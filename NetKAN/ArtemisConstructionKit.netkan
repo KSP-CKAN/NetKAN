@@ -1,4 +1,18 @@
 identifier: ArtemisConstructionKit
+$kref: '#/ckan/github/benjee10/Benjee10_Orion'
+x_netkan_version_edit:
+  find: ^v
+  replace: ''
+  strict: false
+$vref: '#/ckan/ksp-avc'
+install:
+  - find: Benjee10_Orion
+    install_to: GameData
+  - find: Craft Files
+    install_to: Ships
+    as: VAB
+---
+identifier: ArtemisConstructionKit
 $kref: '#/ckan/spacedock/3098'
 license: restricted
 tags:

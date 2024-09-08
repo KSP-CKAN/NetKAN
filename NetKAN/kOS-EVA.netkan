@@ -1,19 +1,22 @@
-{
-    "identifier":   "kOS-EVA",
-    "$kref":        "#/ckan/spacedock/2531",
-    "$vref":        "#/ckan/ksp-avc",
-    "license":      "GPL-3.0",
-    "tags": [
-        "plugin",
-        "parts",
-        "crewed"
-    ],
-    "depends": [
-        { "name": "ModuleManager" },
-        { "name": "kOS"           },
-        { "name": "Harmony2"      }
-    ],
-    "suggests": [
-        { "name": "KIS" }
-    ]
-}
+identifier: kOS-EVA
+$kref: '#/ckan/github/KSP-KOS/kOS-EVA'
+x_netkan_version_edit:
+  find: ^v
+  replace: ''
+  strict: false
+$vref: '#/ckan/ksp-avc'
+---
+identifier: kOS-EVA
+$kref: '#/ckan/spacedock/2531'
+$vref: '#/ckan/ksp-avc'
+license: GPL-3.0
+tags:
+  - plugin
+  - parts
+  - crewed
+depends:
+  - name: ModuleManager
+  - name: kOS
+  - name: Harmony2
+suggests:
+  - name: KIS

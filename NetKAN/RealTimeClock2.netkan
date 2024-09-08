@@ -1,17 +1,20 @@
-{
-    "identifier":   "RealTimeClock2",
-    "name":         "Real Time Clock 2",
-    "abstract":     "In-game clock",
-    "author":       [ "Li0n", "linuxgurugamer" ],
-    "$kref":        "#/ckan/spacedock/2237",
-    "$vref":        "#/ckan/ksp-avc",
-    "x_netkan_force_v": true,
-    "license":      "GPL-3.0",
-    "tags": [
-        "plugin",
-        "information"
-    ],
-    "depends": [
-        { "name": "ClickThroughBlocker" }
-    ]
-}
+identifier: RealTimeClock2
+$kref: '#/ckan/github/linuxgurugamer/Real-Time-Clock-2'
+$vref: '#/ckan/ksp-avc'
+x_netkan_force_v: true
+---
+identifier: RealTimeClock2
+name: Real Time Clock 2
+abstract: In-game clock
+author:
+  - Li0n
+  - linuxgurugamer
+$kref: '#/ckan/spacedock/2237'
+$vref: '#/ckan/ksp-avc'
+x_netkan_force_v: true
+license: GPL-3.0
+tags:
+  - plugin
+  - information
+depends:
+  - name: ClickThroughBlocker

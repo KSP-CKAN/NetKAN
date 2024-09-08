@@ -1,4 +1,11 @@
 identifier: ASETProps
+$kref: '#/ckan/github/StoneBlue/ASET-Consolidated-Props'
+$vref: '#/ckan/ksp-avc'
+install:
+  - find: ASET/ASET_Props
+    install_to: GameData/ASET
+---
+identifier: ASETProps
 author:
   - alexustas
   - Stone Blue

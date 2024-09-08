@@ -1,4 +1,15 @@
 identifier: ResearchAdvancementDivision
+$kref: '#/ckan/github/Morphisor244/Research-Advancement-Division'
+x_netkan_version_edit:
+  find: ^V
+  replace: ''
+  strict: false
+$vref: '#/ckan/ksp-avc'
+install:
+  - find: ContractPacks
+    install_to: GameData
+---
+identifier: ResearchAdvancementDivision
 $kref: '#/ckan/spacedock/2929'
 license: CC-BY-NC-SA
 $vref: '#/ckan/ksp-avc'

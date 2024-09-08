@@ -1,28 +1,23 @@
-{
-    "identifier"     : "StageRecovery",
-    "$kref"          : "#/ckan/spacedock/219",
-    "$vref"          : "#/ckan/ksp-avc",
-    "license"        : "GPL-3.0",
-    "tags": [
-        "plugin",
-        "career"
-    ],
-    "suggests" : [
-        { "name" : "KerbalConstructionTime" },
-        { "name" : "Toolbar" }
-    ],
-    "depends": [
-        { "name": "ToolbarController" },
-        { "name": "ClickThroughBlocker" },
-        { "name": "SpaceTuxLibrary" }
-    ],
-    "conflicts" : [
-        { "name" : "DebRefund" }
-    ],
-    "install" : [
-        {
-            "file"       : "GameData/StageRecovery",
-            "install_to" : "GameData"
-        }
-    ]
-}
+identifier: StageRecovery
+$kref: '#/ckan/github/linuxgurugamer/StageRecovery'
+$vref: '#/ckan/ksp-avc'
+---
+identifier: StageRecovery
+$kref: '#/ckan/spacedock/219'
+$vref: '#/ckan/ksp-avc'
+license: GPL-3.0
+tags:
+  - plugin
+  - career
+suggests:
+  - name: KerbalConstructionTime
+  - name: Toolbar
+depends:
+  - name: ToolbarController
+  - name: ClickThroughBlocker
+  - name: SpaceTuxLibrary
+conflicts:
+  - name: DebRefund
+install:
+  - file: GameData/StageRecovery
+    install_to: GameData

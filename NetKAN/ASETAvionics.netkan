@@ -1,4 +1,11 @@
 identifier: ASETAvionics
+$kref: '#/ckan/github/StoneBlue/ASET-Consolidated-Avionics'
+$vref: '#/ckan/ksp-avc'
+install:
+  - find: ASET
+    install_to: GameData
+---
+identifier: ASETAvionics
 author:
   - alexustas
   - StoneBlue
@@ -11,13 +18,13 @@ tags:
   - library
   - crewed
   - first-person
-install:
-  - find: ASET
-    install_to: GameData
 depends:
   - name: ModuleManager
   - name: ASETAgency
   - name: ASETProps
-    min_version: '2.0.0'
+    min_version: 2.0.0
   - name: RasterPropMonitor-Core
     min_version: 1:v0.30.2
+install:
+  - find: ASET
+    install_to: GameData

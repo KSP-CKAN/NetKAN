@@ -1,4 +1,11 @@
 identifier: DE-IVAExtension
+$kref: '#/ckan/github/FirstPersonKSP/DE_IVAExtension'
+$vref: '#/ckan/ksp-avc'
+install:
+  - find: DE_IVAExtension
+    install_to: GameData
+---
+identifier: DE-IVAExtension
 author:
   - DemonEin
   - HonkHogan

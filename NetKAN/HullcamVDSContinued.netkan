@@ -1,24 +1,24 @@
-{
-    "identifier":   "HullcamVDSContinued",
-    "$kref":        "#/ckan/spacedock/885",
-    "$vref":        "#/ckan/ksp-avc",
-    "license":      "GPL-3.0",
-    "tags": [
-        "plugin",
-        "parts",
-        "crewed"
-    ],
-    "conflicts" : [
-        { "name": "HullcamVDS" }
-    ],
-    "provides": [
-        "HullcamVDS"
-    ],
-    "depends": [
-        { "name": "ModuleManager" }
-    ],
-    "install": [ {
-      "find": "HullCameraVDS",
-      "install_to": "GameData"
-    } ]
-}
+identifier: HullcamVDSContinued
+$kref: '#/ckan/github/linuxgurugamer/HullcamVDSContinued'
+$vref: '#/ckan/ksp-avc'
+install:
+  - find: HullCameraVDS
+    install_to: GameData
+---
+identifier: HullcamVDSContinued
+$kref: '#/ckan/spacedock/885'
+$vref: '#/ckan/ksp-avc'
+license: GPL-3.0
+tags:
+  - plugin
+  - parts
+  - crewed
+conflicts:
+  - name: HullcamVDS
+provides:
+  - HullcamVDS
+depends:
+  - name: ModuleManager
+install:
+  - find: HullCameraVDS
+    install_to: GameData

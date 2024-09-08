@@ -1,4 +1,8 @@
 identifier: KaptainsLog
+$kref: '#/ckan/github/linuxgurugamer/KaptainsLog'
+$vref: '#/ckan/ksp-avc'
+---
+identifier: KaptainsLog
 $kref: '#/ckan/spacedock/1523'
 $vref: '#/ckan/ksp-avc/GameData/KaptainsLog/KaptainsLog.version'
 license: GPL-3.0

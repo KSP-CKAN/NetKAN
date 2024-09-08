@@ -1,4 +1,8 @@
 identifier: KerbealisticDocking
+$kref: '#/ckan/github/kurgut/KerbealisticDocking'
+$vref: '#/ckan/ksp-avc'
+---
+identifier: KerbealisticDocking
 $kref: '#/ckan/spacedock/3392'
 $vref: '#/ckan/ksp-avc'
 license: MIT

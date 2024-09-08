@@ -1,4 +1,17 @@
 identifier: TweakScaleRescaled-Redist
+$kref: '#/ckan/github/JonnyOThan/TweakScale'
+x_netkan_version_edit:
+  find: ^v
+  replace: ''
+  strict: false
+$vref: '#/ckan/ksp-avc/GameData/999_Scale_Redist.version'
+install:
+  - file: GameData/999_Scale_Redist.dll
+    install_to: GameData
+  - file: GameData/999_Scale_Redist.version
+    install_to: GameData
+---
+identifier: TweakScaleRescaled-Redist
 name: TweakScale Rescaled Redistributable
 abstract: >-
   Provides a mechanism for other mods to interact with TweakScaleRescaled.

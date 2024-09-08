@@ -1,4 +1,8 @@
 identifier: IFILS
+$kref: '#/ckan/github/linuxgurugamer/IFI-Life-Support'
+$vref: '#/ckan/ksp-avc'
+---
+identifier: IFILS
 $kref: '#/ckan/spacedock/3145'
 $vref: '#/ckan/ksp-avc'
 license: GPL-3.0

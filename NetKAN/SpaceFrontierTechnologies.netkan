@@ -1,8 +1,8 @@
-{
-    "identifier":   "SpaceFrontierTechnologies",
-    "$kref":        "#/ckan/spacedock/2452",
-    "license":      "MIT",
-    "tags": [
-        "parts"
-    ]
-}
+identifier: SpaceFrontierTechnologies
+$kref: '#/ckan/github/Outsoldier/Space-Frontier-Technologies'
+---
+identifier: SpaceFrontierTechnologies
+$kref: '#/ckan/spacedock/2452'
+license: MIT
+tags:
+  - parts

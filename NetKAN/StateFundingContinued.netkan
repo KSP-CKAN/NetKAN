@@ -1,19 +1,21 @@
-{
-    "identifier":   "StateFundingContinued",
-    "$kref":        "#/ckan/spacedock/1231",
-    "$vref":        "#/ckan/ksp-avc",
-    "license":      "MIT",
-    "tags": [
-        "plugin",
-        "career"
-    ],
-    "install": [ {
-        "find": "StateFunding",
-        "install_to": "GameData"
-    } ],
-    "depends": [
-        { "name": "ModuleManager" },
-        { "name": "ToolbarController" },
-        { "name": "ClickThroughBlocker" }
-    ]
-}
+identifier: StateFundingContinued
+$kref: '#/ckan/github/linuxgurugamer/StateFundingContinued'
+$vref: '#/ckan/ksp-avc'
+install:
+  - find: StateFunding
+    install_to: GameData
+---
+identifier: StateFundingContinued
+$kref: '#/ckan/spacedock/1231'
+$vref: '#/ckan/ksp-avc'
+license: MIT
+tags:
+  - plugin
+  - career
+depends:
+  - name: ModuleManager
+  - name: ToolbarController
+  - name: ClickThroughBlocker
+install:
+  - find: StateFunding
+    install_to: GameData

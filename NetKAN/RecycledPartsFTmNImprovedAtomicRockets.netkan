@@ -1,13 +1,17 @@
 identifier: RecycledPartsFTmNImprovedAtomicRockets
+$kref: '#/ckan/github/linuxgurugamer/RecycledParts'
+$vref: '#/ckan/ksp-avc'
+install:
+  - find: ftmn_new
+    install_to: GameData/SpaceTuxIndustries/RecycledParts
+---
+identifier: RecycledPartsFTmNImprovedAtomicRockets
 name: Recycled Parts FTmN Improved Atomic Rockets
 $kref: '#/ckan/spacedock/1507'
 $vref: '#/ckan/ksp-avc'
 license: CC-BY-NC-SA-3.0
 tags:
   - parts
-install:
-  - find: ftmn_new
-    install_to: GameData/SpaceTuxIndustries/RecycledParts
 depends:
   - name: ModuleManager
   - name: BDAnimationModules
@@ -19,3 +23,6 @@ suggests:
   - name: JanitorsCloset
 conflicts:
   - name: RecycledPartsFTmNImprovedAtomicRockets
+install:
+  - find: ftmn_new
+    install_to: GameData/SpaceTuxIndustries/RecycledParts

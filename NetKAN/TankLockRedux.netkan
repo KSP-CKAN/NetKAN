@@ -1,17 +1,20 @@
-{
-    "identifier"     : "TankLockRedux",
-    "$kref"          : "#/ckan/spacedock/592",
-    "$vref"          : "#/ckan/ksp-avc",
-    "license"        : "BSD-2-clause",
-    "tags"           : [
-        "config",
-        "convenience"
-    ],
-    "depends"        :  [
-        { "name" : "ModuleManager" }
-    ],
-    "install" : [ {
-        "find"       : "TankLock",
-        "install_to" : "GameData"
-    } ]
-}
+identifier: TankLockRedux
+$kref: '#/ckan/github/linuxgurugamer/TankLock'
+$vref: '#/ckan/ksp-avc'
+license: BSD-2-clause
+install:
+  - find: TankLock
+    install_to: GameData
+---
+identifier: TankLockRedux
+$kref: '#/ckan/spacedock/592'
+$vref: '#/ckan/ksp-avc'
+license: BSD-2-clause
+tags:
+  - config
+  - convenience
+depends:
+  - name: ModuleManager
+install:
+  - find: TankLock
+    install_to: GameData

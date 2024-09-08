@@ -1,25 +1,25 @@
-{
-    "identifier":   "PersistentRotationUpgraded",
-    "$kref":        "#/ckan/spacedock/2660",
-    "$vref":        "#/ckan/ksp-avc",
-    "license":      "GPL-3.0",
-    "tags": [
-        "plugin",
-        "physics"
-    ],
-    "provides": [
-        "PersistentRotation"
-    ],
-    "conflicts": [
-        { "name": "PersistentRotation" }
-    ],
-    "depends": [
-        { "name": "ToolbarController"   },
-        { "name": "ClickThroughBlocker" },
-        { "name": "SpaceTuxLibrary"     }
-    ],
-    "install": [ {
-        "file":       "GameData/PersistentRotation",
-        "install_to": "GameData"
-    } ]
-}
+identifier: PersistentRotationUpgraded
+$kref: '#/ckan/github/linuxgurugamer/PersistentRotation'
+$vref: '#/ckan/ksp-avc'
+install:
+  - file: GameData/PersistentRotation
+    install_to: GameData
+---
+identifier: PersistentRotationUpgraded
+$kref: '#/ckan/spacedock/2660'
+$vref: '#/ckan/ksp-avc'
+license: GPL-3.0
+tags:
+  - plugin
+  - physics
+provides:
+  - PersistentRotation
+conflicts:
+  - name: PersistentRotation
+depends:
+  - name: ToolbarController
+  - name: ClickThroughBlocker
+  - name: SpaceTuxLibrary
+install:
+  - file: GameData/PersistentRotation
+    install_to: GameData

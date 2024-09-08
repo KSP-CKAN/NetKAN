@@ -1,4 +1,15 @@
 identifier: TweakScaleRescaled-SafetyNet
+$kref: '#/ckan/github/JonnyOThan/TweakScale'
+x_netkan_version_edit:
+  find: ^v
+  replace: ''
+  strict: false
+$vref: '#/ckan/ksp-avc/GameData/TSSafetyNet/TweakScaleSafetyNet.version'
+install:
+  - file: GameData/TSSafetyNet
+    install_to: GameData
+---
+identifier: TweakScaleRescaled-SafetyNet
 name: TweakScale Rescaled SafetyNet
 abstract: >-
   Attempts to prevent data loss when TweakScale

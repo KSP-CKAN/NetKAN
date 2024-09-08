@@ -1,4 +1,11 @@
 identifier: StockDepthMaskConfig
+$kref: '#/ckan/github/kingnoob1377/Stock_DepthMask_Config'
+x_netkan_version_edit:
+  find: ^v
+  replace: ''
+  strict: false
+---
+identifier: StockDepthMaskConfig
 $kref: '#/ckan/spacedock/2963'
 license: MIT
 tags:

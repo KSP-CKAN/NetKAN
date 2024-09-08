@@ -1,18 +1,17 @@
-{
-    "identifier":   "KSTS",
-    "$kref":        "#/ckan/spacedock/2303",
-    "$vref":        "#/ckan/ksp-avc",
-    "license":      "CC-BY-NC-SA-4.0",
-    "tags": [
-        "plugin"
-    ],
-    "depends": [
-        { "name": "ToolbarController"   },
-        { "name": "ClickThroughBlocker" },
-        { "name": "SpaceTuxLibrary" }
-    ],
-    "install": [ {
-        "find":       "KSTS",
-        "install_to": "GameData"
-    } ]
-}
+identifier: KSTS
+$kref: '#/ckan/github/linuxgurugamer/KSTS'
+$vref: '#/ckan/ksp-avc'
+---
+identifier: KSTS
+$kref: '#/ckan/spacedock/2303'
+$vref: '#/ckan/ksp-avc'
+license: CC-BY-NC-SA-4.0
+tags:
+  - plugin
+depends:
+  - name: ToolbarController
+  - name: ClickThroughBlocker
+  - name: SpaceTuxLibrary
+install:
+  - find: KSTS
+    install_to: GameData

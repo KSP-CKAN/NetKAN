@@ -1,4 +1,8 @@
 identifier: RationalResourcesSquad
+$kref: '#/ckan/github/JadeOfMaar/RationalResources'
+$vref: '#/ckan/ksp-avc'
+---
+identifier: RationalResourcesSquad
 name: Rational Resources Squad
 abstract: >-
   Provides fuel switching in the stock tanks, the stock jet engines, and

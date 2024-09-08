@@ -1,4 +1,8 @@
 identifier: KerbalSports
+$kref: '#/ckan/github/KSPModStewards/KerbalSports'
+$vref: '#/ckan/ksp-avc'
+---
+identifier: KerbalSports
 author:
   - nightingale
   - JonnyOThan

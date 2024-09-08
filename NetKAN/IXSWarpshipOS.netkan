@@ -1,4 +1,8 @@
 identifier: IXSWarpshipOS
+$kref: '#/ckan/github/linuxgurugamer/warpship'
+$vref: '#/ckan/ksp-avc'
+---
+identifier: IXSWarpshipOS
 $kref: '#/ckan/spacedock/589'
 $vref: '#/ckan/ksp-avc'
 license: CC-BY-NC-SA-4.0

@@ -1,21 +1,22 @@
-{
-    "identifier":   "EvaFuelCont",
-    "$kref":        "#/ckan/spacedock/1274",
-    "$vref":        "#/ckan/ksp-avc",
-    "license":      "MIT",
-    "tags": [
-        "plugin",
-        "crewed"
-    ],
-    "install": [ {
-        "find": "EvaFuel",
-        "install_to": "GameData"
-    } ],
-    "conflicts" : [
-        { "name" : "EvaFuel" },
-        { "name" : "Kerbalism" }
-    ],
-    "depends": [
-        { "name": "ModuleManager" }
-    ]
-}
+identifier: EvaFuelCont
+$kref: '#/ckan/github/linuxgurugamer/EvaFuel'
+$vref: '#/ckan/ksp-avc'
+install:
+  - find: EvaFuel
+    install_to: GameData
+---
+identifier: EvaFuelCont
+$kref: '#/ckan/spacedock/1274'
+$vref: '#/ckan/ksp-avc'
+license: MIT
+tags:
+  - plugin
+  - crewed
+conflicts:
+  - name: EvaFuel
+  - name: Kerbalism
+depends:
+  - name: ModuleManager
+install:
+  - find: EvaFuel
+    install_to: GameData

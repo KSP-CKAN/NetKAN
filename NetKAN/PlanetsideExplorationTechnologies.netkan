@@ -1,4 +1,15 @@
 identifier: PlanetsideExplorationTechnologies
+$kref: '#/ckan/github/benjee10/Benjee10_MMSEV'
+x_netkan_version_edit:
+  find: ^v
+  replace: ''
+  strict: false
+$vref: '#/ckan/ksp-avc'
+install:
+  - find: Benjee10_MMSEV
+    install_to: GameData
+---
+identifier: PlanetsideExplorationTechnologies
 $kref: '#/ckan/spacedock/2681'
 $vref: '#/ckan/ksp-avc'
 license: restricted

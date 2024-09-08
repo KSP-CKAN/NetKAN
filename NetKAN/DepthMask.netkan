@@ -1,4 +1,8 @@
 identifier: DepthMask
+$kref: '#/ckan/github/drewcassidy/KSP-DepthMask'
+$vref: '#/ckan/ksp-avc'
+---
+identifier: DepthMask
 $kref: '#/ckan/spacedock/2943'
 $vref: '#/ckan/ksp-avc'
 license: CC-BY-SA

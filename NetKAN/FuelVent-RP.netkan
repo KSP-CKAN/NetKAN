@@ -1,4 +1,11 @@
 identifier: FuelVent-RP
+$kref: '#/ckan/github/1Kion/FuelVent-RP'
+x_netkan_version_edit:
+  find: ^v
+  replace: ''
+  strict: false
+---
+identifier: FuelVent-RP
 $kref: '#/ckan/spacedock/3520'
 license: MIT
 tags:

@@ -1,22 +1,24 @@
-{
-    "identifier"     : "PreciseNode",
-    "name"           : "Precise Node",
-    "abstract"       : "Provides a more precise widget for maneuver node editing",
-    "author"         : ["blizzy78", "linuxgurugamer"],
-    "$kref"          : "#/ckan/spacedock/1691",
-    "$vref"          : "#/ckan/ksp-avc",
-    "license"        : "BSD-2-clause",
-    "release_status" : "stable",
-    "tags": [
-        "plugin",
-        "information",
-        "convenience"
-    ],
-    "depends" : [
-        { "name" : "ClickThroughBlocker" }
-    ],
-    "install" : [ {
-        "find"       : "GameData/PreciseNode",
-        "install_to" : "GameData"
-    } ]
-}
+identifier: PreciseNode
+$kref: '#/ckan/github/linuxgurugamer/ksp-precisenode'
+$vref: '#/ckan/ksp-avc'
+license: BSD-2-clause
+---
+identifier: PreciseNode
+name: Precise Node
+abstract: Provides a more precise widget for maneuver node editing
+author:
+  - blizzy78
+  - linuxgurugamer
+$kref: '#/ckan/spacedock/1691'
+$vref: '#/ckan/ksp-avc'
+license: BSD-2-clause
+release_status: stable
+tags:
+  - plugin
+  - information
+  - convenience
+depends:
+  - name: ClickThroughBlocker
+install:
+  - find: GameData/PreciseNode
+    install_to: GameData

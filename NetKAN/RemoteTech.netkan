@@ -1,26 +1,26 @@
-{
-    "identifier":   "RemoteTech",
-    "author":       "Remote Technologies Group",
-    "$kref":        "#/ckan/spacedock/520",
-    "$vref":        "#/ckan/ksp-avc",
-    "x_netkan_force_v": true,
-    "release_status": "stable",
-    "license":      "GPL-2.0",
-    "tags": [
-        "plugin",
-        "control",
-        "uncrewed",
-        "comms"
-    ],
-    "depends": [
-        {
-            "name": "ModuleManager",
-            "min_version": "2.3.1",
-            "comment": "Earlier versions of MM have forward compatibility problems, according to the MM release notes."
-        }
-    ],
-    "install": [ {
-        "file": "GameData/RemoteTech",
-        "install_to": "GameData"
-    } ]
-}
+identifier: RemoteTech
+$kref: '#/ckan/github/RemoteTechnologiesGroup/RemoteTech'
+$vref: '#/ckan/ksp-avc'
+x_netkan_force_v: true
+---
+identifier: RemoteTech
+author: Remote Technologies Group
+$kref: '#/ckan/spacedock/520'
+$vref: '#/ckan/ksp-avc'
+x_netkan_force_v: true
+release_status: stable
+license: GPL-2.0
+tags:
+  - plugin
+  - control
+  - uncrewed
+  - comms
+depends:
+  - name: ModuleManager
+    min_version: 2.3.1
+    comment: >-
+      Earlier versions of MM have forward compatibility problems, according
+      to the MM release notes.
+install:
+  - file: GameData/RemoteTech
+    install_to: GameData

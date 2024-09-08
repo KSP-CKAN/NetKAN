@@ -1,20 +1,22 @@
-{
-    "identifier":   "RoverScienceCont",
-    "$kref":        "#/ckan/spacedock/1437",
-    "$vref":        "#/ckan/ksp-avc",
-    "license":      "CC-BY-NC-SA",
-    "tags": [
-        "plugin",
-        "science"
-    ],
-    "install": [ {
-        "find": "RoverScience",
-        "install_to": "GameData"
-    } ],
-    "depends": [
-        { "name" : "ToolbarController" },
-        { "name" : "ClickThroughBlocker" },
-        { "name" : "SpaceTuxLibrary" },
-        { "name" : "ModuleManager" }
-    ]
-}
+identifier: RoverScienceCont
+$kref: '#/ckan/github/linuxgurugamer/RoverScience-Continued'
+$vref: '#/ckan/ksp-avc'
+install:
+  - find: RoverScience
+    install_to: GameData
+---
+identifier: RoverScienceCont
+$kref: '#/ckan/spacedock/1437'
+$vref: '#/ckan/ksp-avc'
+license: CC-BY-NC-SA
+tags:
+  - plugin
+  - science
+depends:
+  - name: ToolbarController
+  - name: ClickThroughBlocker
+  - name: SpaceTuxLibrary
+  - name: ModuleManager
+install:
+  - find: RoverScience
+    install_to: GameData

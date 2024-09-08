@@ -1,4 +1,8 @@
 identifier: BoosterGuidance
+$kref: '#/ckan/github/linuxgurugamer/BoosterGuidance'
+$vref: '#/ckan/ksp-avc'
+---
+identifier: BoosterGuidance
 $kref: '#/ckan/spacedock/3018'
 $vref: '#/ckan/ksp-avc'
 license: GPL-3.0

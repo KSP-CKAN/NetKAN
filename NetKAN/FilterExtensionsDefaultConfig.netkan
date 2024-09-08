@@ -1,28 +1,30 @@
-{
-    "name"           : "Filter Extensions - Default Configuration",
-    "identifier"     : "FilterExtensionsDefaultConfig",
-    "abstract"       : "Configuration files using Filter Extensions to create a large array of new part categories in the Editor",
-    "$kref"          : "#/ckan/spacedock/1972",
-    "$vref"          : "#/ckan/ksp-avc",
-    "license"        : "CC-BY-NC-SA-4.0",
-    "release_status" : "stable",
-    "tags": [
-        "config",
-        "convenience",
-        "editor"
-    ],
-    "depends" : [
-        { "name": "ModuleManager"    },
-        { "name": "FilterExtensions" }
-    ],
-    "install" : [
-        {
-            "file"       : "GameData/000_FilterExtensions_Configs/Default",
-            "install_to" : "GameData/000_FilterExtensions_Configs"
-        },
-        {
-            "file"       : "GameData/zFinal_FilterExtensions",
-            "install_to" : "GameData"
-        }
-    ]
-}
+identifier: FilterExtensionsDefaultConfig
+$kref: '#/ckan/github/linuxgurugamer/FilterExtension'
+$vref: '#/ckan/ksp-avc'
+install:
+  - file: GameData/000_FilterExtensions_Configs/Default
+    install_to: GameData/000_FilterExtensions_Configs
+  - file: GameData/zFinal_FilterExtensions
+    install_to: GameData
+---
+name: Filter Extensions - Default Configuration
+identifier: FilterExtensionsDefaultConfig
+abstract: >-
+  Configuration files using Filter Extensions to create a large array of new
+  part categories in the Editor
+$kref: '#/ckan/spacedock/1972'
+$vref: '#/ckan/ksp-avc'
+license: CC-BY-NC-SA-4.0
+release_status: stable
+tags:
+  - config
+  - convenience
+  - editor
+depends:
+  - name: ModuleManager
+  - name: FilterExtensions
+install:
+  - file: GameData/000_FilterExtensions_Configs/Default
+    install_to: GameData/000_FilterExtensions_Configs
+  - file: GameData/zFinal_FilterExtensions
+    install_to: GameData

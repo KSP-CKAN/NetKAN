@@ -1,4 +1,14 @@
 identifier: BuranEnergia
+$kref: '#/ckan/github/MyNameIsBorat/KspBuran'
+x_netkan_github:
+  use_source_archive: true
+install:
+  - find: DECQ_ENERGIA
+    install_to: GameData
+  - find: Alcentar_Add-ons
+    install_to: GameData
+---
+identifier: BuranEnergia
 $kref: '#/ckan/spacedock/2966'
 license: GPL-3.0
 tags:

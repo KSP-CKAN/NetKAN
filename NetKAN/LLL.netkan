@@ -1,29 +1,23 @@
-{
-    "identifier"     : "LLL",
-    "$kref"          : "#/ckan/spacedock/856",
-    "$vref"          : "#/ckan/ksp-avc",
-    "x_netkan_epoch" : 1,
-    "license"        : "CC-BY-NC-SA-4.0",
-    "tags": [
-        "parts"
-    ],
-    "depends": [
-        { "name": "ModuleManager" },
-        { "name": "InterstellarFuelSwitch-Core"}
-    ],
-    "recommends": [
-        { "name": "TweakScale" },
-        { "name": "CrewManifest"}
-    ],
-    "install": [
-        {
-            "find"       : "GameData/LLL",
-            "install_to" : "GameData"
-        },
-        {
-            "find"       : "GameData/LLL-Extra",
-            "install_to" : "GameData/LLL",
-            "filter"     : "Parts"
-        }
-    ]
-}
+identifier: LLL
+$kref: '#/ckan/github/linuxgurugamer/LLL-Continued'
+$vref: '#/ckan/ksp-avc'
+---
+identifier: LLL
+$kref: '#/ckan/spacedock/856'
+$vref: '#/ckan/ksp-avc'
+x_netkan_epoch: 1
+license: CC-BY-NC-SA-4.0
+tags:
+  - parts
+depends:
+  - name: ModuleManager
+  - name: InterstellarFuelSwitch-Core
+recommends:
+  - name: TweakScale
+  - name: CrewManifest
+install:
+  - find: GameData/LLL
+    install_to: GameData
+  - find: GameData/LLL-Extra
+    install_to: GameData/LLL
+    filter: Parts

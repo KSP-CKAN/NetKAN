@@ -1,4 +1,12 @@
 identifier: NoIntakeOcclusion
+$kref: '#/ckan/github/kaerospace/KerbalNoOcclusion'
+install:
+  - file: NoIntakeOcclusion.cfg
+    install_to: GameData/NoIntakeOcclusion
+  - file: NoIntakeOcclusion.dll
+    install_to: GameData/NoIntakeOcclusion
+---
+identifier: NoIntakeOcclusion
 $kref: '#/ckan/spacedock/3435'
 license: MIT
 tags:

@@ -1,4 +1,8 @@
 identifier: Scatterer
+$kref: '#/ckan/github/LGhassen/Scatterer'
+x_netkan_force_v: true
+---
+identifier: Scatterer
 $kref: '#/ckan/spacedock/141'
 x_netkan_force_v: true
 x_netkan_epoch: '3'

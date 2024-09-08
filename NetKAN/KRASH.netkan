@@ -1,23 +1,19 @@
-{
-    "identifier"     : "KRASH",
-    "$kref"          : "#/ckan/spacedock/302",
-    "$vref"          : "#/ckan/ksp-avc",
-    "license"        : "MIT",
-    "tags": [
-        "plugin",
-        "career"
-    ],
-    "depends": [
-        { "name" : "ToolbarController" },
-        { "name" : "ClickThroughBlocker" }
-    ],
-    "recommends": [
-        { "name": "JanitorsCloset" }
-    ],
-    "install" :  [
-        {
-            "find"       : "KRASH",
-            "install_to" : "GameData"
-        }
-    ]
-}
+identifier: KRASH
+$kref: '#/ckan/github/linuxgurugamer/KRASH'
+$vref: '#/ckan/ksp-avc'
+---
+identifier: KRASH
+$kref: '#/ckan/spacedock/302'
+$vref: '#/ckan/ksp-avc'
+license: MIT
+tags:
+  - plugin
+  - career
+depends:
+  - name: ToolbarController
+  - name: ClickThroughBlocker
+recommends:
+  - name: JanitorsCloset
+install:
+  - find: KRASH
+    install_to: GameData

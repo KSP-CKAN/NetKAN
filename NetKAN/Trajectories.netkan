@@ -1,4 +1,9 @@
 identifier: Trajectories
+$kref: '#/ckan/github/linuxgurugamer/KSPTrajectories'
+$vref: '#/ckan/ksp-avc'
+x_netkan_force_v: true
+---
+identifier: Trajectories
 $kref: '#/ckan/spacedock/396'
 $vref: '#/ckan/ksp-avc'
 x_netkan_force_v: true

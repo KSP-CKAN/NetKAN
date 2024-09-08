@@ -1,23 +1,24 @@
-{
-    "identifier"   : "EngineIgnitorReignited",
-    "name"         : "Engine Ignitor (standalone)",
-    "abstract"     : "Adding ignitors service to engines",
-    "author"       : "linuxgurugamer",
-    "$kref"        : "#/ckan/spacedock/1639",
-    "$vref"        : "#/ckan/ksp-avc",
-    "license"      : "CC-BY-SA",
-    "tags": [
-        "plugin"
-    ],
-    "install": [
-        {
-            "find"       : "EngineIgnitor",
-            "install_to" : "GameData",
-            "filter"     : "Thumbs.db"
-        }
-    ],
-    "depends": [
-        { "name" : "ModuleManager" },
-        { "name" : "ToolbarController" }
-    ]
-}
+identifier: EngineIgnitorReignited
+$kref: '#/ckan/github/linuxgurugamer/EngineIgnitor'
+$vref: '#/ckan/ksp-avc'
+install:
+  - find: EngineIgnitor
+    install_to: GameData
+    filter: Thumbs.db
+---
+identifier: EngineIgnitorReignited
+name: Engine Ignitor (standalone)
+abstract: Adding ignitors service to engines
+author: linuxgurugamer
+$kref: '#/ckan/spacedock/1639'
+$vref: '#/ckan/ksp-avc'
+license: CC-BY-SA
+tags:
+  - plugin
+depends:
+  - name: ModuleManager
+  - name: ToolbarController
+install:
+  - find: EngineIgnitor
+    install_to: GameData
+    filter: Thumbs.db

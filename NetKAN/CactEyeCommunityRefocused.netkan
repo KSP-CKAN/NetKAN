@@ -1,4 +1,11 @@
 identifier: CactEyeCommunityRefocused
+$kref: '#/ckan/github/linuxgurugamer/CactEye-2'
+$vref: '#/ckan/ksp-avc'
+install:
+  - file: GameData/CactEye
+    install_to: GameData
+---
+identifier: CactEyeCommunityRefocused
 $kref: '#/ckan/spacedock/2930'
 $vref: '#/ckan/ksp-avc'
 license: CC-BY-4.0
@@ -13,9 +20,6 @@ depends:
   - name: ClickThroughBlocker
   - name: SpaceTuxLibrary
   - name: DistantObject
-#recommends:
-#  - name: CactEyeCommunityDOEPatch
-#  - name: DistantObject
 install:
   - file: GameData/CactEye
     install_to: GameData
