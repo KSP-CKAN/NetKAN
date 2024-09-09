@@ -1,0 +1,20 @@
+identifier: KerbolSystemExpansion
+$kref: '#/ckan/github/pastelmari/KerbolSystemExpansion'
+x_netkan_version_edit:
+  find: ^v
+  replace: ''
+  strict: false
+---
+identifier: KerbolSystemExpansion
+$kref: '#/ckan/spacedock/3714'
+tags:
+  - config
+  - planet-pack
+depends:
+  - name: ModuleManager
+  - name: Kopernicus
+  - name: VertexMitchellNetravaliHeightMap
+install:
+  - find: KerbolExpansion
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
