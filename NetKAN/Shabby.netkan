@@ -1,0 +1,9 @@
+identifier: Shabby
+author: taniwha
+$kref: '#/ckan/github/KSPModdingLibs/Shabby'
+$vref: '#/ckan/ksp-avc'
+tags:
+  - library
+  - plugin
+depends:
+  - name: Harmony2
