@@ -1,7 +1,7 @@
 identifier: Shabby
 abstract: Shader loader and replacer for KSP
 author: taniwha
-$kref: '#/ckan/github/KSPModdingLibs/Shabby/version_from_asset/^Shabby-(?<version>).zip$'
+$kref: '#/ckan/github/KSPModdingLibs/Shabby/version_from_asset/^Shabby-(?<version>.+).zip$'
 $vref: '#/ckan/ksp-avc'
 license: GPL-3.0
 tags:
