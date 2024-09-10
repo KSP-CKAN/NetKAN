@@ -11,3 +11,5 @@ tags:
   - graphics
 depends:
   - name: Shabby
+recommends:
+  - name: Deferred
