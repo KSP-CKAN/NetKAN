@@ -4,6 +4,9 @@ x_netkan_version_edit:
   find: ^v
   replace: ''
   strict: false
+install:
+  - find: KerbolExpansion
+    install_to: GameData
 ---
 identifier: KerbolSystemExpansion
 $kref: '#/ckan/spacedock/3714'
@@ -17,4 +20,3 @@ depends:
 install:
   - find: KerbolExpansion
     install_to: GameData
-x_via: Automated SpaceDock CKAN submission
