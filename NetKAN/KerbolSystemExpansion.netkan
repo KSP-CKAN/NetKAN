@@ -1,9 +1,5 @@
 identifier: KerbolSystemExpansion
 $kref: '#/ckan/github/pastelmari/KerbolSystemExpansion'
-x_netkan_version_edit:
-  find: ^v
-  replace: ''
-  strict: false
 install:
   - find: KerbolExpansion
     install_to: GameData
