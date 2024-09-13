@@ -6,8 +6,15 @@ tags:
   - graphics
 depends:
   - name: ModuleManager
-  - name: Waterfall
   - name: B9PartSwitch
+recommends:
+  - name: Waterfall
+suggests:
+  - name: NearFuturePropulsion
+supports:
+  - name: CommunityTechTree
+  - name: VABOrganizer
+  - name: SystemHeat
 install:
   - find: SupplementaryElectricEngines
     install_to: GameData
