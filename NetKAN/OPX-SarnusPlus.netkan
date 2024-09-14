@@ -9,6 +9,7 @@ depends:
   - name: Kopernicus
   - name: VertexMitchellNetravaliHeightMap
   - name: OuterPlanetsMod
+  - name: VertexHeightOblateAdvanced
 suggests:
   - name: ResearchBodies
   - name: KopernicusExpansionContinueder
