@@ -28,6 +28,7 @@ depends:
     min_version: '1.4'
   - name: RasterPropMonitor-Core
     min_version: 0.28.0
+  - name: ASETAvionics
 install:
   - find: ASET
     install_to: GameData
