@@ -1,13 +1,4 @@
 identifier: DistantObject
-$kref: '#/ckan/github/net-lisias-ksp/DistantObject/asset_match/^(?!.*CurseForge)'
-x_netkan_version_edit:
-  find: ^RELEASE/
-  replace: ''
-  strict: false
-x_netkan_force_v: true
-$vref: '#/ckan/ksp-avc'
----
-identifier: DistantObject
 name: Distant Object Enhancement /L
 abstract: >-
   Visual enhancement mod that makes objects realistically visible over large

@@ -1,15 +1,4 @@
 identifier: KSP-Recall
-$kref: '#/ckan/github/net-lisias-ksp/KSP-Recall/asset_match/^(?!.*CurseForge)'
-x_netkan_version_edit:
-  find: ^RELEASE/
-  replace: v
-  strict: false
-$vref: '#/ckan/ksp-avc'
-install:
-  - file: GameData/999_KSP-Recall
-    install_to: GameData
----
-identifier: KSP-Recall
 name: KSP Recall
 abstract: >-
   KSP Recall - Solves the resource resetting on KSP 1.9.x, the heading drift on

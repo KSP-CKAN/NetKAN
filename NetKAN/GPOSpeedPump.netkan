@@ -1,13 +1,4 @@
 identifier: GPOSpeedPump
-$kref: '#/ckan/github/net-lisias-ksp/GPOSpeedPump/asset_match/^(?!.*CurseForge)'
-x_netkan_version_edit:
-  find: ^RELEASE/
-  replace: ''
-  strict: false
-x_netkan_force_v: true
-$vref: '#/ckan/ksp-avc'
----
-identifier: GPOSpeedPump
 name: Goo Pumps & Oils' Speed Pump
 abstract: Allows you to automatically transfer or balance fuel.
 author:
