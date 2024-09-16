@@ -23,6 +23,8 @@ depends:
   - name: ModuleManager
     min_version: 2.7.1
   - name: KSP-Recall
+recommends:
+  - name: TweakScaleCompanion
 conflicts:
   - name: TweakscaleMakingHistoryConfigs
   - name: TweakScaleRescaled-Redist
