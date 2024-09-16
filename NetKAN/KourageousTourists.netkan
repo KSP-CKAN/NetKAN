@@ -1,12 +1,4 @@
 identifier: KourageousTourists
-$kref: '#/ckan/github/net-lisias-ksp/KourageousTourists/asset_match/^(?!.*CurseForge)'
-x_netkan_version_edit:
-  find: ^RELEASE/
-  replace: ''
-  strict: false
-$vref: '#/ckan/ksp-avc'
----
-identifier: KourageousTourists
 author:
   - whale_2
   - Lisias

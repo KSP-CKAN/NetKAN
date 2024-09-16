@@ -1,17 +1,4 @@
 identifier: HooliganLabsAirships
-$kref: '#/ckan/github/net-lisias-ksp/HLAirshipsCore/asset_match/^(?!.*CurseForge)'
-x_netkan_version_edit:
-  find: ^RELEASE/
-  replace: ''
-  strict: false
-$vref: '#/ckan/ksp-avc'
-install:
-  - find: HLAirshipsCore
-    install_to: GameData
-  - find: Ships/SPH
-    install_to: Ships
----
-identifier: HooliganLabsAirships
 $kref: '#/ckan/spacedock/3040'
 $vref: '#/ckan/ksp-avc'
 license: MIT
