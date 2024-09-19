@@ -1,4 +1,4 @@
-identifier: QuasiPlanets10
+identifier: UniqueSolarSystems
 $kref: '#/ckan/spacedock/3716'
 tags:
   - config
@@ -6,7 +6,3 @@ tags:
 depends:
   - name: ModuleManager
   - name: Kopernicus
-install:
-  - find: ''
-    install_to: GameData
-x_via: Automated SpaceDock CKAN submission
