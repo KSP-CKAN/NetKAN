@@ -10,6 +10,7 @@ recommends:
   - name: Waterfall
 suggests:
   - name: CommunityResourcePack
+  - name: HeatControl
   - name: FarFutureTechnologies
   - name: CryoTanks
   - name: NearFutureElectrical
@@ -17,4 +18,5 @@ suggests:
 supports:
   - name: CommunityTechTree
   - name: VABOrganizer
+  - name: SystemHeat
 x_via: Automated SpaceDock CKAN submission
