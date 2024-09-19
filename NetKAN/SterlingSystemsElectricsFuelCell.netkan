@@ -1,0 +1,16 @@
+identifier: SterlingSystemsElectricsFuelCell
+name: Sterling Electrics - Fuel Cells
+abstract: Fuel cells
+$kref: '#/ckan/github/JadeOfMaar/SterlingSystems/asset_match/Electrics'
+$vref: '#/ckan/ksp-avc'
+license: restricted
+tags:
+  - parts
+depends:
+  - name: ModuleManager
+  - name: B9PartSwitch
+  - name: SterlingSystemsAgency
+  - name: SterlingSystemsElectrics
+install:
+  - find: ElectricsFuelCell
+    install_to: GameData/SterlingSystems

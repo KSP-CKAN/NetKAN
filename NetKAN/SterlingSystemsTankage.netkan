@@ -1,0 +1,22 @@
+identifier: SterlingSystemsTankage
+name: Sterling Tankage
+abstract: Tank you very much. Do come again
+$kref: '#/ckan/github/JadeOfMaar/SterlingSystems/asset_match/Tankage'
+$vref: '#/ckan/ksp-avc'
+license: restricted
+tags:
+  - parts
+  - resources
+depends:
+  - name: ModuleManager
+  - name: B9PartSwitch
+  - name: SterlingSystemsAgency
+  - name: WildBlueTools
+supports:
+  - name: CryoTanks
+  - name: ExtraPlanetaryLaunchpads
+  - name: FarFutureTechnologies
+  - name: RationalResources
+install:
+  - find: Tankage
+    install_to: GameData/SterlingSystems

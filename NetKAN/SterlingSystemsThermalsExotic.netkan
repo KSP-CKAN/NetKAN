@@ -1,0 +1,18 @@
+identifier: SterlingSystemsThermalsExotic
+name: Sterling Thermals - Exotic
+abstract: Radiators that stop caring about keeping their coolant inside them
+$kref: '#/ckan/github/JadeOfMaar/SterlingSystems/asset_match/Thermals'
+$vref: '#/ckan/ksp-avc'
+license: restricted
+tags:
+  - parts
+depends:
+  - name: ModuleManager
+  - name: B9PartSwitch
+  - name: SterlingSystemsAgency
+  - name: SterlingSystemsThermals
+supports:
+  - name: FarFutureTechnologies
+install:
+  - find: ThermalsExotic
+    install_to: GameData/SterlingSystems
