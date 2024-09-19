@@ -1,17 +1,4 @@
 identifier: TweakScale
-$kref: '#/ckan/github/TweakScale/TweakScale/asset_match/^(?!.*CurseForge)'
-x_netkan_version_edit:
-  find: ^RELEASE/
-  replace: ''
-  strict: false
-x_netkan_force_v: true
-$vref: '#/ckan/ksp-avc'
-install:
-  - file: GameData/TweakScale
-    install_to: GameData
-    filter: Scale_Redist.dll
----
-identifier: TweakScale
 name: TweakScale - Rescale Everything!
 abstract: >-
   TweakScale lets you change the size of a part. Not just that, but it will
