@@ -1,0 +1,16 @@
+identifier: SterlingSystemsEnginesAntimatter
+name: Sterling Engines - Antimatter
+abstract: Antimatter rockets. Let's go
+$kref: '#/ckan/github/JadeOfMaar/SterlingSystems/asset_match/Engines'
+$vref: '#/ckan/ksp-avc'
+license: restricted
+tags:
+  - parts
+depends:
+  - name: ModuleManager
+  - name: B9PartSwitch
+  - name: SterlingSystemsAgency
+  - name: SterlingSystemsEngines
+install:
+  - find: EnginesAntimatter
+    install_to: GameData/SterlingSystems
