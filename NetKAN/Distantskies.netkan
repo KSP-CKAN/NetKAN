@@ -7,6 +7,7 @@ tags:
 depends:
   - name: ModuleManager
   - name: Kopernicus
+  - name: KopernicusExpansionContinueder
 install:
   - find: Distant Skies
     install_to: GameData
