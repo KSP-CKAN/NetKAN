@@ -1,0 +1,14 @@
+identifier: PartTips
+$kref: '#/ckan/github/Halbann/PartTips'
+$vref: '#/ckan/ksp-avc'
+---
+identifier: PartTips
+$kref: '#/ckan/spacedock/3719'
+$vref: '#/ckan/ksp-avc'
+tags:
+  - plugin
+install:
+  - find: PartTips
+    install_to: GameData
+    filter_regexp: \.pdb$
+x_via: Automated SpaceDock CKAN submission
