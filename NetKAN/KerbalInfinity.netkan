@@ -6,6 +6,7 @@ tags:
 depends:
   - name: ModuleManager
   - name: Kopernicus
+  - name: VertexMitchellNetravaliHeightMap
 recommends:
   - name: Scatterer
 install:
