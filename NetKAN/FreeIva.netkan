@@ -26,6 +26,7 @@ suggests:
   - name: DE-IVAExtension
   - name: AvionicsSystems
 supports:
+  - name: KerbalChangelog
   - name: PlanetsideExplorationTechnologies
   - name: StationPartsExpansionRedux-IVAs
   - name: Buffalo2
@@ -65,3 +66,4 @@ supports:
   - name: TheLonesomeRobotsCollection
   - name: Pathfinder
   - name: ShuttleLiftingBodyCormorantAeronology
+  - name: StockalikeMiningExtension
