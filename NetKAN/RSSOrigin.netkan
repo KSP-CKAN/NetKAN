@@ -18,7 +18,7 @@ depends:
 #we need to add RSS or KSRSS as a dependency, but KSRSS isn't on CKAN...
 recommends:
   - name: TooManyOrbits
-  - name: EnvironmentalVisualEnhhancements
+  - name: EnvironmentalVisualEnhancements
   - name: Scatterer
   - name: RealSolarSystem
   - name: RealismOverhaul
