@@ -17,6 +17,7 @@ depends:
   - name: PatchManager
 recommends:
   - name: KSPInterstellarExtended
+  - name: TweakScale
 install:
   - find: InterstellarFuelSwitch
     install_to: GameData
