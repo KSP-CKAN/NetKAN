@@ -1,24 +1,14 @@
-{
-    "identifier":   "BetterSRBs",
-    "$kref":        "#/ckan/github/OhioBob/BetterSRBs",
-    "$vref":        "#/ckan/ksp-avc",
-    "license":      "CC-BY-NC-ND",
-    "resources": {
-        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/175316-*",
-        "repository": "https://github.com/OhioBob/BetterSRBs"
-    },
-    "tags": [
-        "plugin",
-        "parts"
-    ],
-    "depends": [
-        { "name": "ModuleManager" }
-    ],
-    "recommends": [
-        { "name": "SmartParts" }
-    ],
-    "install": [ {
-        "find": "BetterSRBs",
-        "install_to": "GameData"
-    } ]
-}
+identifier: BetterSRBs
+name: Better SRBs
+$kref: '#/ckan/github/OhioBob/BetterSRBs'
+$vref: '#/ckan/ksp-avc'
+license: CC-BY-NC-ND
+resources:
+  homepage: https://forum.kerbalspaceprogram.com/index.php?/topic/175316-*
+tags:
+  - plugin
+  - parts
+depends:
+  - name: ModuleManager
+recommends:
+  - name: SmartParts
