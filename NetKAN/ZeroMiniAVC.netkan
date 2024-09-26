@@ -1,6 +1,9 @@
 identifier: ZeroMiniAVC
 name: Zero MiniAVC
-abstract: Delete/Prune/Disable all MiniAVC
+abstract: >-
+  If you only install mods with CKAN, you do not need this.
+  To prevent MiniAVC from being installed, go to Settings→Installation filters
+  and click the Add MiniAVC button
 author:
   - malah
   - linuxgurugamer
