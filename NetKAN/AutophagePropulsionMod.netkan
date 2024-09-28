@@ -4,6 +4,6 @@ tags:
   - parts
   - plugin
 install:
-  - find: AutophageMod0.1
+  - find: AutophageMod0.3
     install_to: GameData
 x_via: Automated SpaceDock CKAN submission
