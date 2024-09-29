@@ -16,6 +16,7 @@ depends:
   - name: DeployableEngines
 recommends:
   - name: ContractConfigurator
+  - name: Resurfaced
 suggests:
   - name: NearFutureProps
   - name: SCANsat
@@ -37,6 +38,8 @@ supports:
   - name: USI-LS
   - name: TACLS
   - name: SpaceDust
+conflicts:
+  - name: MagpieMods
 install:
   - find: Bluedog_DB
     install_to: GameData
