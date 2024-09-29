@@ -1,0 +1,11 @@
+identifier: NightvisionandmoreATUFXprofile
+$kref: '#/ckan/spacedock/3729'
+tags:
+  - config
+  - graphics
+depends:
+  - name: TUFX
+install:
+  - find: Nightvision&more
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
