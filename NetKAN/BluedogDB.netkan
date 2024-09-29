@@ -39,7 +39,7 @@ supports:
   - name: TACLS
   - name: SpaceDust
 conflicts:
-  - MagpieMods
+  - name: MagpieMods
 install:
   - find: Bluedog_DB
     install_to: GameData
