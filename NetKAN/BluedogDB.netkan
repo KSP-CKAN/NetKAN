@@ -39,6 +39,9 @@ supports:
   - name: USI-LS
   - name: TACLS
   - name: SpaceDust
+  - name: BluedogDB-RealNames
+  - name: BluedogDB-Methalox
+  - name: BluedogDB-CommunityCategoryKit
 conflicts:
   - name: MagpieMods
 install:
