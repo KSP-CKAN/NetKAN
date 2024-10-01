@@ -17,6 +17,7 @@ depends:
 recommends:
   - name: ContractConfigurator
   - name: Resurfaced
+  - name: RealChute
 suggests:
   - name: NearFutureProps
   - name: SCANsat
@@ -27,6 +28,7 @@ suggests:
   - name: JNSQ
   - name: RealPlume
   - name: NeptuneCamera
+  - name: VABOrganizer
 supports:
   - name: HullcamVDS
   - name: RemoteTech
@@ -34,7 +36,6 @@ supports:
   - name: HullcamVDSContinued
   - name: KIS
   - name: CommunityTechTree
-  - name: RealChute
   - name: USI-LS
   - name: TACLS
   - name: SpaceDust
