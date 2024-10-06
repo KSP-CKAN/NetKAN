@@ -5,4 +5,5 @@ tags:
   - plugin
 install:
   - find: AutophageMod
+    install_to: GameData
 x_via: Automated SpaceDock CKAN submission
