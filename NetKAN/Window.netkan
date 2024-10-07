@@ -1,0 +1,14 @@
+identifier: Window
+$kref: '#/ckan/github/Halbann/Window'
+$vref: '#/ckan/ksp-avc'
+---
+identifier: Window
+$kref: '#/ckan/spacedock/3722'
+$vref: '#/ckan/ksp-avc'
+tags:
+  - plugin
+install:
+  - find: Window
+    install_to: GameData
+    filter_regexp: \.pdb$
+x_via: Automated SpaceDock CKAN submission
