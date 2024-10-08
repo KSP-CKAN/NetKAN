@@ -1,0 +1,11 @@
+identifier: UniversalResourceTransfer
+$kref: '#/ckan/github/ProgrammerFailure/Universal-Resource-Transfer'
+$vref: '#/ckan/ksp-avc'
+tags:
+  - plugin
+  - parts
+  - physics
+conflicts:
+  - name: BeamedPowerPlugin
+depends:
+  - name: ModuleManager
