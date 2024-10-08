@@ -1,0 +1,11 @@
+identifier: UniversalResourceTransfer
+$kref: '#/ckan/github/ProgrammerFailure/Universal-Resource-Transfer'
+tags:
+  - plugin
+  - parts
+  - physics
+conflicts:
+  - name: BeamedPowerPlugin
+  - name: BeamedPowerPlugin-Realistic
+depends:
+  - name: ModuleManager
