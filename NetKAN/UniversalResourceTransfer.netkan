@@ -7,6 +7,5 @@ tags:
   - physics
 conflicts:
   - name: BeamedPowerPlugin
-  - name: BeamedPowerPlugin-Realistic
 depends:
   - name: ModuleManager
