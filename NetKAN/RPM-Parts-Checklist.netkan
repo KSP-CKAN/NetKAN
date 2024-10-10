@@ -1,0 +1,12 @@
+identifier: RPM-Parts-Checklist
+$kref: '#/ckan/github/Fedex75/RPM_Parts_Checklist'
+ksp_version: '1.12.5'
+tags:
+  - plugin
+  - crewed
+  - first-person
+depends:
+  - name: ASETProps
+install:
+  - find: RPM_Parts_Checklist
+    install_to: GameData
