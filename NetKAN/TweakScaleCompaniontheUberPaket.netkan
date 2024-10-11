@@ -1,0 +1,20 @@
+identifier: TweakScaleCompaniontheUberPaket
+$kref: '#/ckan/github/TweakScale/Companion'
+x_netkan_version_edit:
+  find: ^RELEASE/
+  replace: ''
+  strict: false
+$vref: '#/ckan/ksp-avc'
+---
+identifier: TweakScaleCompaniontheUberPaket
+$kref: '#/ckan/spacedock/3202'
+$vref: '#/ckan/ksp-avc'
+tags:
+  - parts
+  - plugin
+depends:
+  - name: ModuleManager
+install:
+  - find: ''
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
