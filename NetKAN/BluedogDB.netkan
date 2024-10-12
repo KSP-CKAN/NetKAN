@@ -8,6 +8,7 @@ tags:
 depends:
   - name: ModuleManager
   - name: KSPCommunityPartModules
+    min_version: v0.2.0
   - name: CommunityResourcePack
   - name: DMagicScienceAnimate
   - name: B9PartSwitch
