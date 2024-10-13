@@ -1,5 +1,6 @@
-identifier: Dixiesplanetpack
+identifier: DixiesPlanetPack
 $kref: '#/ckan/spacedock/3732'
+license: unknown
 tags:
   - config
   - planet-pack
@@ -9,4 +10,3 @@ depends:
 install:
   - find: Did
     install_to: GameData
-x_via: Automated SpaceDock CKAN submission
