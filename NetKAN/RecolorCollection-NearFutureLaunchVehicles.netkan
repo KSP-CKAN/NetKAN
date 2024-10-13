@@ -1,0 +1,18 @@
+identifier: RecolorCollection-NearFutureLaunchVehicles
+abstract: >-
+  A collection of Textures Unlimited recolours for
+  almost all of the parts from Near Future Launch Vehicles
+$kref: '#/ckan/github/ZZetho/TU_NearFutureLaunchVehicles'
+x_netkan_github:
+  use_source_archive: true
+license: CC-BY-NC-SA-4.0
+tags:
+  - config
+  - graphics
+depends:
+  - name: ModuleManager
+  - name: TexturesUnlimited
+  - name: NearFutureLaunchVehicles
+install:
+  - find: TU_NearFutureLaunchVehicles
+    install_to: GameData

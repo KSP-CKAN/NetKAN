@@ -1,0 +1,18 @@
+identifier: RecolorCollection-NearFutureAeronautics
+abstract: >-
+  A collection of Textures Unlimited recolours for
+  the parts from Near Future Aeronautics
+$kref: '#/ckan/github/ZZetho/TU_NearFutureAero'
+x_netkan_github:
+  use_source_archive: true
+license: CC-BY-NC-SA-4.0
+tags:
+  - config
+  - graphics
+depends:
+  - name: ModuleManager
+  - name: TexturesUnlimited
+  - name: NearFutureAeronautics
+install:
+  - find: TU_NearFutureAero
+    install_to: GameData
