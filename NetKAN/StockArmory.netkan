@@ -3,4 +3,6 @@ $kref: '#/ckan/spacedock/3705'
 license: CC-BY-NC-SA
 tags:
   - parts
-x_via: Automated SpaceDock CKAN submission
+  - combat
+depends:
+  - name: BDArmory
