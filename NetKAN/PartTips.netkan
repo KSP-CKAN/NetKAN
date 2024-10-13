@@ -6,8 +6,9 @@ identifier: PartTips
 $kref: '#/ckan/spacedock/3719'
 $vref: '#/ckan/ksp-avc'
 tags:
-  - config
   - plugin
+  - editor
+  - information
 install:
   - find: PartTips
     install_to: GameData
