@@ -1,0 +1,14 @@
+identifier: KolonyConstructs
+$kref: '#/ckan/spacedock/3704'
+tags:
+  - buildings
+  - crewed
+  - first-person
+  - parts
+depends:
+  - name: ModuleManager
+  - name: KerbalKonstructs
+  - name: StationPartsExpansionRedux
+recommends:
+  - name: PlanetsideExplorationTechnologies
+  - name: StockalikeStructures
