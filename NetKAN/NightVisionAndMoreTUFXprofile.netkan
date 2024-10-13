@@ -1,4 +1,4 @@
-identifier: NightvisionandmoreATUFXprofile
+identifier: NightVisionAndMoreTUFXprofile
 $kref: '#/ckan/spacedock/3729'
 tags:
   - config
@@ -8,4 +8,3 @@ depends:
 install:
   - find: Nightvision&more
     install_to: GameData
-x_via: Automated SpaceDock CKAN submission
