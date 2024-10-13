@@ -7,8 +7,4 @@ $kref: '#/ckan/spacedock/3721'
 $vref: '#/ckan/ksp-avc'
 tags:
   - plugin
-install:
-  - find: Stapler
-    install_to: GameData
-    filter_regexp: \.pdb$
-x_via: Automated SpaceDock CKAN submission
+  - editor
