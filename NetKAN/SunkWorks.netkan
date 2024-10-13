@@ -1,0 +1,18 @@
+identifier: SunkWorks
+$kref: '#/ckan/github/Angel-125/SunkWorks'
+$vref: '#/ckan/ksp-avc/SunkWorks.version'
+license: restricted
+resources:
+  homepage: https://forum.kerbalspaceprogram.com/topic/202746-*
+tags:
+  - plugin
+  - parts
+  - agency
+  - suits
+  - crewed
+depends:
+  - name: ModuleManager
+  - name: WildBlueCore
+install:
+  - find: SunkWorks
+    install_to: GameData/WildBlueIndustries
