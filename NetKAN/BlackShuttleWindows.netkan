@@ -1,6 +1,7 @@
 identifier: BlackShuttleWindows
 $kref: '#/ckan/spacedock/3725'
+depends:
+  - name: ShuttleOrbiterConstructionKit
 install:
   - find: Benjee10_shuttleOrbiter
     install_to: GameData
-x_via: Automated SpaceDock CKAN submission
