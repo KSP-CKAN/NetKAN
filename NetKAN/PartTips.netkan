@@ -9,8 +9,3 @@ tags:
   - plugin
   - editor
   - information
-install:
-  - find: PartTips
-    install_to: GameData
-    filter_regexp: \.pdb$
-x_via: Automated SpaceDock CKAN submission
