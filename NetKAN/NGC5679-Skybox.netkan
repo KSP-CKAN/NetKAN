@@ -1,0 +1,16 @@
+identifier: NGC5679-Skybox
+abstract: >-
+  Makes the skybox look like it would if you were in the galaxy NGC 5679C,
+  the smallest member of a triplet of galaxies known as NGC 5679 or Arp 274
+$kref: '#/ckan/github/LittleBitMoreKSP/NGC-5679-Skybox'
+license: CC-BY-NC-SA-4.0
+resources:
+  homepage: https://forum.kerbalspaceprogram.com/topic/224646-*
+tags:
+  - config
+  - graphics
+depends:
+  - name: TextureReplacer
+install:
+  - find: NGC 5679C Skybox
+    install_to: GameData
