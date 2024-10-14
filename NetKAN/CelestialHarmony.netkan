@@ -4,6 +4,10 @@ abstract: >-
   have migrated towards a luxurious binary habitable worlds
 $kref: '#/ckan/github/ProximaCentauri-star/Celestial-Harmony'
 x_netkan_epoch: 1
+x_netkan_version_edit:
+  find: ^Alpha-
+  replace: ''
+  strict: false
 license: restricted
 tags:
   - planet-pack
