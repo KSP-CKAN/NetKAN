@@ -1,32 +1,26 @@
-{
-    "identifier":   "MOLE-PlayMode-ClassicStock",
-    "name":         "MOLE Classic Stock Play Mode",
-    "$kref":        "#/ckan/github/Angel-125/MOLE",
-    "$vref":        "#/ckan/ksp-avc/GameData/WildBlueIndustries/MOLE/MOLE.version",
-    "x_netkan_staging": true,
-    "x_netkan_staging_reason": "Make sure that all .txt files for this play mode are installed as .cfg",
-    "license":      "restricted",
-    "resources": {
-        "homepage":   "https://forum.kerbalspaceprogram.com/index.php?/topic/154893-*",
-        "repository": "https://github.com/Angel-125/MOLE"
-    },
-    "tags": [
-        "config"
-    ],
-    "provides": [
-        "MOLE-PlayMode"
-    ],
-    "depends": [
-        { "name": "WildBlue-PlayMode-ClassicStock" },
-        { "name": "ModuleManager"                  },
-        { "name": "MOLE"                           }
-    ],
-    "install": [ {
-        "find":       "WildBlueIndustries/MOLE/Templates/ClassicStock",
-        "install_to": "GameData/WildBlueIndustries/MOLE/Templates"
-    }, {
-        "find":       "WildBlueIndustries/MOLE/Templates/ClassicStock.cfg",
-        "install_to": "GameData/WildBlueIndustries/MOLE/Templates",
-        "find_matches_files": true
-    } ]
-}
+identifier: MOLE-PlayMode-ClassicStock
+name: MOLE Classic Stock Play Mode
+$kref: '#/ckan/github/Angel-125/MOLE'
+$vref: '#/ckan/ksp-avc/GameData/WildBlueIndustries/MOLE/MOLE.version'
+x_netkan_staging: true
+x_netkan_staging_reason: Make sure that all .txt files for this play mode are installed as .cfg
+license: restricted
+resources:
+  homepage: https://forum.kerbalspaceprogram.com/index.php?/topic/154893-*
+  repository: https://github.com/Angel-125/MOLE
+tags:
+  - config
+provides:
+  - MOLE-PlayMode
+conflicts:
+  - name: MOLE-PlayMode
+depends:
+  - name: WildBlue-PlayMode-ClassicStock
+  - name: ModuleManager
+  - name: MOLE
+install:
+  - find: WildBlueIndustries/MOLE/Templates/ClassicStock
+    install_to: GameData/WildBlueIndustries/MOLE/Templates
+  - find: WildBlueIndustries/MOLE/Templates/ClassicStock.cfg
+    install_to: GameData/WildBlueIndustries/MOLE/Templates
+    find_matches_files: true

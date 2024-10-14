@@ -1,59 +1,48 @@
-{
-    "identifier":   "MOLE-PlayMode-CRP",
-    "name":         "MOLE CRP Play Mode",
-    "$kref":        "#/ckan/github/Angel-125/MOLE",
-    "$vref":        "#/ckan/ksp-avc/GameData/WildBlueIndustries/MOLE/MOLE.version",
-    "x_netkan_staging": true,
-    "x_netkan_staging_reason": "Make sure that all .txt files for this play mode are installed as .cfg",
-    "license":      "restricted",
-    "resources": {
-        "homepage":   "https://forum.kerbalspaceprogram.com/index.php?/topic/154893-*",
-        "repository": "https://github.com/Angel-125/MOLE"
-    },
-    "tags": [
-        "config"
-    ],
-    "provides": [
-        "MOLE-PlayMode"
-    ],
-    "depends": [
-        { "name": "WildBlue-PlayMode-CRP" },
-        { "name": "ModuleManager"         },
-        { "name": "MOLE"                  }
-    ],
-    "install": [ {
-        "find":       "WildBlueIndustries/MOLE/Templates/CRP.cfg",
-        "install_to": "GameData/WildBlueIndustries/MOLE/Templates",
-        "find_matches_files": true
-    }, {
-        "find":       "MOLE/Templates/CRP/BOW.txt",
-        "install_to": "GameData/WildBlueIndustries/MOLE/Templates/CRP",
-        "as":         "BOW.cfg",
-        "find_matches_files": true
-    }, {
-        "find":       "MOLE/Templates/CRP/Experiments.txt",
-        "install_to": "GameData/WildBlueIndustries/MOLE/Templates/CRP",
-        "as":         "Experiments.cfg",
-        "find_matches_files": true
-    }, {
-        "find":       "MOLE/Templates/CRP/MM_Snacks.txt",
-        "install_to": "GameData/WildBlueIndustries/MOLE/Templates/CRP",
-        "as":         "MM_Snacks.cfg",
-        "find_matches_files": true
-    }, {
-        "find":       "MOLE/Templates/CRP/MOBL18.txt",
-        "install_to": "GameData/WildBlueIndustries/MOLE/Templates/CRP",
-        "as":         "MOBL18.cfg",
-        "find_matches_files": true
-    }, {
-        "find":       "MOLE/Templates/CRP/MOH18.txt",
-        "install_to": "GameData/WildBlueIndustries/MOLE/Templates/CRP",
-        "as":         "MOH18.cfg",
-        "find_matches_files": true
-    }, {
-        "find":       "MOLE/Templates/CRP/MOLE18.txt",
-        "install_to": "GameData/WildBlueIndustries/MOLE/Templates/CRP",
-        "as":         "MOLE18.cfg",
-        "find_matches_files": true
-    } ]
-}
+identifier: MOLE-PlayMode-CRP
+name: MOLE CRP Play Mode
+$kref: '#/ckan/github/Angel-125/MOLE'
+$vref: '#/ckan/ksp-avc/GameData/WildBlueIndustries/MOLE/MOLE.version'
+x_netkan_staging: true
+x_netkan_staging_reason: Make sure that all .txt files for this play mode are installed as .cfg
+license: restricted
+resources:
+  homepage: https://forum.kerbalspaceprogram.com/index.php?/topic/154893-*
+  repository: https://github.com/Angel-125/MOLE
+tags:
+  - config
+provides:
+  - MOLE-PlayMode
+conflicts:
+  - name: MOLE-PlayMode
+depends:
+  - name: WildBlue-PlayMode-CRP
+  - name: ModuleManager
+  - name: MOLE
+install:
+  - find: WildBlueIndustries/MOLE/Templates/CRP.cfg
+    install_to: GameData/WildBlueIndustries/MOLE/Templates
+    find_matches_files: true
+  - find: MOLE/Templates/CRP/BOW.txt
+    install_to: GameData/WildBlueIndustries/MOLE/Templates/CRP
+    as: BOW.cfg
+    find_matches_files: true
+  - find: MOLE/Templates/CRP/Experiments.txt
+    install_to: GameData/WildBlueIndustries/MOLE/Templates/CRP
+    as: Experiments.cfg
+    find_matches_files: true
+  - find: MOLE/Templates/CRP/MM_Snacks.txt
+    install_to: GameData/WildBlueIndustries/MOLE/Templates/CRP
+    as: MM_Snacks.cfg
+    find_matches_files: true
+  - find: MOLE/Templates/CRP/MOBL18.txt
+    install_to: GameData/WildBlueIndustries/MOLE/Templates/CRP
+    as: MOBL18.cfg
+    find_matches_files: true
+  - find: MOLE/Templates/CRP/MOH18.txt
+    install_to: GameData/WildBlueIndustries/MOLE/Templates/CRP
+    as: MOH18.cfg
+    find_matches_files: true
+  - find: MOLE/Templates/CRP/MOLE18.txt
+    install_to: GameData/WildBlueIndustries/MOLE/Templates/CRP
+    as: MOLE18.cfg
+    find_matches_files: true

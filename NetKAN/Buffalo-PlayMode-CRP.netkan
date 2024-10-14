@@ -1,33 +1,27 @@
-{
-    "identifier":   "Buffalo-PlayMode-CRP",
-    "name":         "Buffalo CRP Play Mode",
-    "author":       "Angel-125",
-    "$kref":        "#/ckan/github/Angel-125/Buffalo",
-    "$vref":        "#/ckan/ksp-avc/Buffalo.version",
-    "x_netkan_staging": true,
-    "x_netkan_staging_reason": "Make sure that all .txt files for this play mode are installed as .cfg",
-    "license":      "GPL-3.0",
-    "resources": {
-        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/122617-*"
-    },
-    "tags": [
-        "config"
-    ],
-    "provides": [
-        "Buffalo-PlayMode"
-    ],
-    "depends": [
-        { "name": "WildBlue-PlayMode-CRP" },
-        { "name": "Buffalo"               }
-    ],
-    "install": [ {
-        "find":       "Buffalo/Templates/CRP.cfg",
-        "install_to": "GameData/WildBlueIndustries/Buffalo/Templates",
-        "find_matches_files": true
-    }, {
-        "find":       "Buffalo/Templates/CRP/BuffaloISRU.txt",
-        "install_to": "GameData/WildBlueIndustries/Buffalo/Templates/CRP",
-        "as":         "BuffaloISRU.cfg",
-        "find_matches_files": true
-    } ]
-}
+identifier: Buffalo-PlayMode-CRP
+name: Buffalo CRP Play Mode
+author: Angel-125
+$kref: '#/ckan/github/Angel-125/Buffalo'
+$vref: '#/ckan/ksp-avc/Buffalo.version'
+x_netkan_staging: true
+x_netkan_staging_reason: Make sure that all .txt files for this play mode are installed as .cfg
+license: GPL-3.0
+resources:
+  homepage: http://forum.kerbalspaceprogram.com/index.php?/topic/122617-*
+tags:
+  - config
+provides:
+  - Buffalo-PlayMode
+conflicts:
+  - name: Buffalo-PlayMode
+depends:
+  - name: WildBlue-PlayMode-CRP
+  - name: Buffalo
+install:
+  - find: Buffalo/Templates/CRP.cfg
+    install_to: GameData/WildBlueIndustries/Buffalo/Templates
+    find_matches_files: true
+  - find: Buffalo/Templates/CRP/BuffaloISRU.txt
+    install_to: GameData/WildBlueIndustries/Buffalo/Templates/CRP
+    as: BuffaloISRU.cfg
+    find_matches_files: true
