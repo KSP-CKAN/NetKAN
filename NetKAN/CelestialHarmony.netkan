@@ -22,6 +22,7 @@ depends:
   - name: Kopernicus
   - name: VertexMitchellNetravaliHeightMap
   - name: VertexHeightOblateAdvanced
+  - name: VertexColorMapEmissive
 suggests:
   - name: EnvironmentalVisualEnhancements
   - name: Scatterer
