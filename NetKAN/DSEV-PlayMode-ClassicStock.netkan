@@ -1,32 +1,26 @@
-{
-    "identifier":   "DSEV-PlayMode-ClassicStock",
-    "name":         "DSEV Classic Stock Play Mode",
-    "$kref":        "#/ckan/github/Angel-125/DSEV",
-    "$vref":        "#/ckan/ksp-avc/GameData/WildBlueIndustries/DSEV/DSEV.version",
-    "x_netkan_staging": true,
-    "x_netkan_staging_reason": "Make sure that all .txt files for this play mode are installed as .cfg",
-    "license":      "restricted",
-    "resources": {
-        "homepage":   "https://forum.kerbalspaceprogram.com/index.php?/topic/122162-*",
-        "repository": "https://github.com/Angel-125/DSEV"
-    },
-    "tags": [
-        "config"
-    ],
-    "provides": [
-        "DSEV-PlayMode"
-    ],
-    "depends": [
-        { "name": "WildBlue-PlayMode-ClassicStock" },
-        { "name": "ModuleManager"                  },
-        { "name": "DSEV"                           }
-    ],
-    "install": [ {
-        "find":       "WildBlueIndustries/DSEV/Templates/ClassicStock",
-        "install_to": "GameData/WildBlueIndustries/DSEV/Templates"
-    }, {
-        "find":       "WildBlueIndustries/DSEV/Templates/ClassicStock.cfg",
-        "install_to": "GameData/WildBlueIndustries/DSEV/Templates",
-        "find_matches_files": true
-    } ]
-}
+identifier: DSEV-PlayMode-ClassicStock
+name: DSEV Classic Stock Play Mode
+$kref: '#/ckan/github/Angel-125/DSEV'
+$vref: '#/ckan/ksp-avc/GameData/WildBlueIndustries/DSEV/DSEV.version'
+x_netkan_staging: true
+x_netkan_staging_reason: Make sure that all .txt files for this play mode are installed as .cfg
+license: restricted
+resources:
+  homepage: https://forum.kerbalspaceprogram.com/index.php?/topic/122162-*
+  repository: https://github.com/Angel-125/DSEV
+tags:
+  - config
+provides:
+  - DSEV-PlayMode
+conflicts:
+  - name: DSEV-PlayMode
+depends:
+  - name: WildBlue-PlayMode-ClassicStock
+  - name: ModuleManager
+  - name: DSEV
+install:
+  - find: WildBlueIndustries/DSEV/Templates/ClassicStock
+    install_to: GameData/WildBlueIndustries/DSEV/Templates
+  - find: WildBlueIndustries/DSEV/Templates/ClassicStock.cfg
+    install_to: GameData/WildBlueIndustries/DSEV/Templates
+    find_matches_files: true

@@ -21,6 +21,9 @@ provides:
   - ClassicStockResources-PlayMode
 conflicts:
   - name: WildBlue-PlayMode
+  - name: Buffalo-PlayMode
+  - name: KerbalKomets-PlayMode
+  - name: ClassicStockResources-PlayMode
   - name: CommunityResourcePack
 install:
   - find: 000WildBlueTools/Templates/Pristine/MM_Pristine.txt
