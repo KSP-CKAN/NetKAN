@@ -17,8 +17,8 @@ provides:
 conflicts:
   - name: Heisenberg-PlayMode
 depends:
-  - name: Heisenberg
   - name: WildBlue-PlayMode-ClassicStock
+  - name: Heisenberg
   - name: ModuleManager
 install:
   - find: WildBlueIndustries/Heisenberg/Templates/ClassicStock

@@ -17,9 +17,9 @@ provides:
 conflicts:
   - name: Heisenberg-PlayMode
 depends:
+  - name: WildBlue-PlayMode-CRP
   - name: Heisenberg
   - name: ModuleManager
-  - name: WildBlue-PlayMode-CRP
 install:
   - find: WildBlueIndustries/Heisenberg/Templates/CRP.cfg
     install_to: GameData/WildBlueIndustries/Heisenberg/Templates

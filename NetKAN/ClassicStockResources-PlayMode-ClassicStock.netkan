@@ -15,9 +15,9 @@ conflicts:
   - name: CommunityResourcePack
   - name: ClassicStockResources-PlayMode
 depends:
+  - name: WildBlue-PlayMode-ClassicStock
   - name: ModuleManager
   - name: ClassicStockResources
-  - name: WildBlue-PlayMode-ClassicStock
 install:
   - find: ClassicStockResources/Templates
     include_only:

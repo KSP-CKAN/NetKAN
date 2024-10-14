@@ -17,9 +17,9 @@ provides:
 conflicts:
   - name: Heisenberg-PlayMode
 depends:
+  - name: WildBlue-PlayMode-Pristine
   - name: Heisenberg
   - name: ModuleManager
-  - name: WildBlue-PlayMode-Pristine
 install:
   - find: WildBlueIndustries/Heisenberg/Templates/Pristine.cfg
     install_to: GameData/WildBlueIndustries/Heisenberg/Templates

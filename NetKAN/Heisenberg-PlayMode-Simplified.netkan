@@ -17,9 +17,9 @@ provides:
 conflicts:
   - name: Heisenberg-PlayMode
 depends:
+  - name: WildBlue-PlayMode-Simplified
   - name: Heisenberg
   - name: ModuleManager
-  - name: WildBlue-PlayMode-Simplified
 install:
   - find: WildBlueIndustries/Heisenberg/Templates/Simplified.cfg
     install_to: GameData/WildBlueIndustries/Heisenberg/Templates
