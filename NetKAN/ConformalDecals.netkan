@@ -8,7 +8,7 @@ install:
 identifier: ConformalDecals
 $kref: '#/ckan/spacedock/2451'
 $vref: '#/ckan/ksp-avc'
-license: GPL-3.0
+license: Apache-2.0
 resources:
   manual: https://github.com/drewcassidy/KSP-Conformal-Decals/wiki
 tags:
