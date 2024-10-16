@@ -4,6 +4,8 @@ $vref: '#/ckan/ksp-avc'
 license: Unlicense
 tags:
   - parts
+provides:
+  - Kerbalism-Config
 depends:
   - name: ModuleManager
   - name: Kerbalism
