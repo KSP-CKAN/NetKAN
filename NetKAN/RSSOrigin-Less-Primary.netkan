@@ -26,7 +26,7 @@ conflicts:
   - name: RSSOrigin-CelestialsPack-UranusMoons
 depends:
   - name: ModuleManager
-  - find: RSSOrigin
+  - name: RSSOrigin
 suggests:
   - name: RSSOrigin-Less-Secondary
 install:
