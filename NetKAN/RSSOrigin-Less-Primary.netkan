@@ -30,4 +30,5 @@ depends:
 suggests:
   - name: RSSOrigin-Less-Secondary
 install:
+  - find: RSSOrigin
     install_to: GameData
