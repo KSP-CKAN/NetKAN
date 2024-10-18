@@ -2,7 +2,7 @@ identifier: ExtraPlanetaryLaunchpads
 name: Extraplanetary Launchpads
 abstract: Adds the ability to build crafts in flight mode to your game.
 author: taniwha
-$kref: "#/ckan/ksp-avc/http://taniwha.org/~bill/EL.version"
+$kref: "#/ckan/spacedock/3735"
 $vref: "#/ckan/ksp-avc/ExtraplanetaryLaunchpads/Plugins/ExtraplanetaryLaunchpads.version"
 license: GPL-3.0
 release_status: stable
@@ -30,6 +30,3 @@ install:
   install_to: Ships
 - file: ExtraplanetaryLaunchpads/Ships/VAB
   install_to: Ships
----
-identifier: ExtraPlanetaryLaunchpads
-$kref: "#/ckan/spacedock/3735"
