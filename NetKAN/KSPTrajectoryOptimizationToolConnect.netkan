@@ -1,0 +1,25 @@
+identifier: KSPTrajectoryOptimizationToolConnect
+$kref: '#/ckan/github/Arrowstar/ksptot/asset_match/^(?!.*linux)'
+x_netkan_version_edit:
+  find: ^v
+  replace: ''
+  strict: false
+install:
+  - find: KSPTOTConnect
+    install_to: GameData
+  - find: Ships/Script
+    install_to: Ships
+---
+identifier: KSPTrajectoryOptimizationToolConnect
+$kref: '#/ckan/spacedock/3737'
+tags:
+  - config
+  - control
+  - plugin
+depends:
+  - name: kOS
+install:
+  - find: KSPTOTConnect
+    install_to: GameData
+  - find: Ships/Script
+    install_to: Ships
