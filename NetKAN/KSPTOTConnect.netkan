@@ -7,10 +7,12 @@ x_netkan_version_edit:
 install:
   - find: KSPTOTConnect
     install_to: GameData
+    filter: IPAddressWhitelist.txt
   - find: Ships/Script
     install_to: Ships
 ---
 identifier: KSPTOTConnect
+name: KSP Trajectory Optimization Tool Connect
 $kref: '#/ckan/spacedock/3737'
 tags:
   - config
@@ -21,5 +23,6 @@ depends:
 install:
   - find: KSPTOTConnect
     install_to: GameData
+    filter: IPAddressWhitelist.txt
   - find: Ships/Script
     install_to: Ships
