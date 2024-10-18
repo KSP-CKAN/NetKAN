@@ -31,4 +31,5 @@ install:
 - file: ExtraplanetaryLaunchpads/Ships/VAB
   install_to: Ships
 ---
+identifier: ExtraPlanetaryLaunchpads
 $kref: "#/ckan/spacedock/3735"
