@@ -1,0 +1,19 @@
+identifier: KSPTrajectoryOptimizationTool
+$kref: '#/ckan/github/Arrowstar/ksptot'
+x_netkan_version_edit:
+  find: ^v
+  replace: ''
+  strict: false
+---
+identifier: KSPTrajectoryOptimizationTool
+$kref: '#/ckan/spacedock/3737'
+tags:
+  - config
+  - control
+  - plugin
+depends:
+  - name: kOS
+install:
+  - find: KSPTOTConnect
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
