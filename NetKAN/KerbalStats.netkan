@@ -1,14 +1,11 @@
 identifier: KerbalStats
 name: Kerbal Stats
-$kref: "#/ckan/spacedock/3736"
-abstract: KerbalStats is a KSP mod for keeping track of extra information about the
-  kerbals in your game.
 author: taniwha
-ksp_version: '1.8'
-release_status: stable
+$kref: '#/ckan/spacedock/3736'
+ksp_version_min: '1.8'
 tags:
-- plugin
-- crewed
+  - plugin
+  - crewed
 install:
 - file: KerbalStats
   install_to: GameData
