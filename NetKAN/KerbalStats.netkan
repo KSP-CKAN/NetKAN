@@ -1,0 +1,12 @@
+identifier: KerbalStats
+name: Kerbal Stats
+author: taniwha
+$kref: '#/ckan/spacedock/3736'
+ksp_version_min: '1.8'
+tags:
+  - plugin
+  - crewed
+install:
+- file: KerbalStats
+  install_to: GameData
+  filter: KerbalStatsWrapper.cs
