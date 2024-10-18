@@ -1,4 +1,4 @@
-identifier: KSPTrajectoryOptimizationToolConnect
+identifier: KSPTOTConnect
 $kref: '#/ckan/github/Arrowstar/ksptot/asset_match/^(?!.*linux)'
 x_netkan_version_edit:
   find: ^v
@@ -10,7 +10,7 @@ install:
   - find: Ships/Script
     install_to: Ships
 ---
-identifier: KSPTrajectoryOptimizationToolConnect
+identifier: KSPTOTConnect
 $kref: '#/ckan/spacedock/3737'
 tags:
   - config
