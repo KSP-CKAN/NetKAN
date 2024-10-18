@@ -15,7 +15,7 @@ identifier: KSPTOTConnect
 name: KSP Trajectory Optimization Tool Connect
 $kref: '#/ckan/spacedock/3737'
 tags:
-  - config
+  - app
   - control
   - plugin
 depends:
