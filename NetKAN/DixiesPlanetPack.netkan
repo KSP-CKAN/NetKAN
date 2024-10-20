@@ -1,0 +1,12 @@
+identifier: DixiesPlanetPack
+$kref: '#/ckan/spacedock/3732'
+license: unknown
+tags:
+  - config
+  - planet-pack
+depends:
+  - name: ModuleManager
+  - name: Kopernicus
+install:
+  - find: Did
+    install_to: GameData
