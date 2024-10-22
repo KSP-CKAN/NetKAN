@@ -13,6 +13,7 @@ depends:
   - name: ModuleManager
   - name: Kopernicus
   - name: VertexMitchellNetravaliHeightMap
+  - name: KopernicusExpansion
 install:
   - find: KerbolExpansion
     install_to: GameData
