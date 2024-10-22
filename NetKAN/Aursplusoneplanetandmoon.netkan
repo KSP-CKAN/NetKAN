@@ -1,5 +1,6 @@
 identifier: Aursplusoneplanetandmoon
 $kref: '#/ckan/spacedock/3734'
+license: unknown
 tags:
   - config
   - planet-pack
@@ -9,4 +10,3 @@ depends:
 install:
   - find: aur
     install_to: GameData
-x_via: Automated SpaceDock CKAN submission
