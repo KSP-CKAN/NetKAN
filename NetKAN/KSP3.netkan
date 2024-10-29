@@ -1,0 +1,8 @@
+identifier: KSP3
+$kref: '#/ckan/spacedock/3746'
+tags:
+  - plugin
+install:
+  - find: ksp
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
