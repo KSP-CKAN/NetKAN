@@ -1,0 +1,17 @@
+identifier: RefurbishedArmory
+$kref: '#/ckan/github/Spartwo/Refurbished-Armory'
+x_netkan_version_edit:
+  find: ^v
+  replace: ''
+  strict: false
+---
+identifier: RefurbishedArmory
+$kref: '#/ckan/spacedock/3752'
+tags:
+  - parts
+depends:
+  - name: ModuleManager
+install:
+  - find: BDArmoryRefurbished
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
