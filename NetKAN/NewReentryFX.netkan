@@ -1,0 +1,11 @@
+identifier: NewReentryFX
+$kref: '#/ckan/spacedock/3753'
+tags:
+  - config
+  - plugin
+depends:
+  - name: ModuleManager
+install:
+  - find: AtmosphericFx
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
