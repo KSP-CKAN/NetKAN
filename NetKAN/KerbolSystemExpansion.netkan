@@ -1,11 +1,5 @@
 identifier: KerbolSystemExpansion
 $kref: '#/ckan/github/pastelmari/KerbolSystemExpansion'
-install:
-  - find: KerbolExpansion
-    install_to: GameData
----
-identifier: KerbolSystemExpansion
-$kref: '#/ckan/spacedock/3714'
 tags:
   - config
   - planet-pack
