@@ -1,5 +1,6 @@
 identifier: MilosPlanetPack
 $kref: '#/ckan/spacedock/3751'
+license: unknown
 tags:
   - config
   - planet-pack
@@ -9,4 +10,3 @@ depends:
 install:
   - find: Milo
     install_to: GameData
-x_via: Automated SpaceDock CKAN submission
