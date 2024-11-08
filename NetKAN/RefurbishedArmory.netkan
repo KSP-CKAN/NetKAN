@@ -4,6 +4,9 @@ x_netkan_version_edit:
   find: ^v
   replace: ''
   strict: false
+install:
+  - find: BDArmoryRefurbished
+    install_to: GameData
 ---
 identifier: RefurbishedArmory
 $kref: '#/ckan/spacedock/3752'
@@ -14,4 +17,3 @@ depends:
 install:
   - find: BDArmoryRefurbished
     install_to: GameData
-x_via: Automated SpaceDock CKAN submission
