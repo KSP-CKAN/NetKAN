@@ -1,22 +1,14 @@
-{
-    "identifier"     : "DarkMultiPlayer",
-    "$kref"          : "#/ckan/spacedock/10",
-    "release_status" : "development",
-    "license"        : "MIT",
-    "resources"      : {
-        "manual"     : "https://github.com/godarklight/DarkMultiPlayer/blob/master/README.md"
-    },
-    "tags": [
-        "plugin"
-    ],
-    "install": [ {
-        "file"       : "DMPClient/GameData/DarkMultiPlayer",
-        "install_to" : "GameData"
-    } ],
-    "x_netkan_override": [ {
-        "version": "v0.3.7.1",
-        "override": {
-            "ksp_version_min": "1.11.1"
-        }
-    } ]
-}
+identifier: DarkMultiPlayer
+$kref: '#/ckan/spacedock/10'
+license: MIT
+resources:
+  manual: https://github.com/godarklight/DarkMultiPlayer/blob/master/README.md
+tags:
+  - plugin
+install:
+  - file: DMPClient/GameData/DarkMultiPlayer
+    install_to: GameData
+x_netkan_override:
+  - version: v0.3.7.1
+    override:
+      ksp_version_min: 1.11.1
