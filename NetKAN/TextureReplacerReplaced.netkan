@@ -1,41 +1,35 @@
-{
-    "identifier":   "TextureReplacerReplaced",
-    "name":         "Texture Replacer Replaced",
-    "abstract":     "Kerbal and suits personalisation, texture replacement and reflections",
-    "$kref":        "#/ckan/github/HaArLiNsH/TextureReplacerReplaced",
-    "$vref":        "#/ckan/ksp-avc",
-    "license":      "MIT",
-    "comment":      "Plugin is MIT, but some parts CC-BY-NC-SA, and we always specify most restrictive in metadata.",
-    "author":       [ "shaw", "RangeMachine", "HaArLiNsH" ],
-    "release_status": "testing",
-    "resources": {
-        "homepage":   "https://forum.kerbalspaceprogram.com/index.php?/topic/161898-*",
-        "repository": "https://github.com/HaArLiNsH/TextureReplacerReplaced"
-    },
-    "tags": [
-        "plugin",
-        "graphics"
-    ],
-    "provides": [
-        "TextureReplacer"
-    ],
-    "conflicts": [
-        { "name": "TextureReplacer" }
-    ],
-    "install"  : [ {
-        "find"       : "000_TRR_Config",
-        "install_to" : "GameData"
-    }, {
-        "find"       : "TextureReplacerReplaced",
-        "install_to" : "GameData"
-    } ],
-    "recommends" : [
-        { "name" : "WindowShine" }
-    ],
-    "suggests" : [
-        { "name" : "DiverseKerbalHeads" },
-        { "name" : "TRRGuide"           },
-        { "name" : "TRR-MyTextureMod"   },
-        { "name" : "UKS"                }
-    ]
-}
+identifier: TextureReplacerReplaced
+name: Texture Replacer Replaced
+abstract: Kerbal and suits personalisation, texture replacement and reflections
+$kref: '#/ckan/github/HaArLiNsH/TextureReplacerReplaced'
+$vref: '#/ckan/ksp-avc'
+license: MIT
+comment: >-
+  Plugin is MIT, but some parts CC-BY-NC-SA, and we always specify most
+  restrictive in metadata.
+author:
+  - shaw
+  - RangeMachine
+  - HaArLiNsH
+resources:
+  homepage: https://forum.kerbalspaceprogram.com/index.php?/topic/161898-*
+  repository: https://github.com/HaArLiNsH/TextureReplacerReplaced
+tags:
+  - plugin
+  - graphics
+provides:
+  - TextureReplacer
+conflicts:
+  - name: TextureReplacer
+install:
+  - find: 000_TRR_Config
+    install_to: GameData
+  - find: TextureReplacerReplaced
+    install_to: GameData
+recommends:
+  - name: WindowShine
+suggests:
+  - name: DiverseKerbalHeads
+  - name: TRRGuide
+  - name: TRR-MyTextureMod
+  - name: UKS

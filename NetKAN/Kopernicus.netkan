@@ -9,7 +9,6 @@ x_netkan_version_edit:
   find: ^(?<version>.+)$
   replace: release-${version}
 x_netkan_allow_out_of_order: true
-release_status: development
 license: LGPL-3.0
 author:
   - BryceSchroeder

@@ -17,7 +17,6 @@ abstract: >-
 $kref: '#/ckan/spacedock/141'
 x_netkan_force_v: true
 x_netkan_epoch: '3'
-release_status: development
 license: GPL-3.0
 tags:
   - graphics
