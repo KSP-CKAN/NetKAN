@@ -1,0 +1,12 @@
+identifier: EvaporatingPlanetMod
+$kref: '#/ckan/spacedock/3636'
+tags:
+  - planet-pack
+depends:
+  - name: ModuleManager
+  - name: Kopernicus
+  - name: VertexColorMapEmissive
+  - name: Scatterer
+install:
+  - find: Nonsense
+    install_to: GameData
