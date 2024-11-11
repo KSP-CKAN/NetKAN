@@ -1,0 +1,6 @@
+identifier: OptimizationMod
+$kref: '#/ckan/spacedock/3758'
+install:
+  - find: GameData
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
