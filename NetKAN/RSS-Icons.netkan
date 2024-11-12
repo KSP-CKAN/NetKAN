@@ -7,4 +7,6 @@ tags:
 depends:
   - name: ModuleManager
   - name: Kopernicus
+supports:
+  - name: RealSolarSystem
 x_via: Automated SpaceDock CKAN submission
