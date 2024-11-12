@@ -1,0 +1,12 @@
+identifier: RSS-Icons
+$kref: '#/ckan/spacedock/3708'
+license: CC-BY-NC-ND
+tags:
+  - config
+  - graphics
+depends:
+  - name: ModuleManager
+  - name: Kopernicus
+supports:
+  - name: RealSolarSystem
+x_via: Automated SpaceDock CKAN submission
