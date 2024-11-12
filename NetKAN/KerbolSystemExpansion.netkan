@@ -9,6 +9,13 @@ depends:
   - name: Kopernicus
   - name: VertexMitchellNetravaliHeightMap
   - name: KopernicusExpansion
+recommends:
+  - name: EnvironmentalVisualEnhancements
+  - name: Scatterer
+  - name: DistantObject
 install:
   - find: KerbolExpansion
     install_to: GameData
+    filter:
+      - Parallax
+      - ParallaxContinued
