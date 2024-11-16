@@ -1,0 +1,17 @@
+identifier: ShineFix
+$kref: '#/ckan/github/rockmeowstar/KSP_ShineFix'
+x_netkan_version_edit:
+  find: ^v
+  replace: ''
+  strict: false
+---
+identifier: ShineFix
+$kref: '#/ckan/spacedock/3764'
+tags:
+  - config
+depends:
+  - name: ModuleManager
+install:
+  - find: 000_ShineFix
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
