@@ -8,16 +8,6 @@ $vref: '#/ckan/ksp-avc/TundraExploration.version'
 license: restricted
 tags:
   - parts
-depends:
-  - name: SpaceXLegs
-  - name: B9PartSwitch
-  - name: ModuleManager
-  - name: TundraTechnologies
-  - name: SmokeScreen
-recommends:
-  - name: Waterfall
-  - name: FMRS
-  - name: FreeIva
 install:
   - find: TundraExploration
     install_to: GameData

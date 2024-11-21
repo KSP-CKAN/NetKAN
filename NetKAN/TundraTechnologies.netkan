@@ -12,13 +12,6 @@ $vref: '#/ckan/ksp-avc/TundraTechnologies.version'
 license: restricted
 tags:
   - parts
-depends:
-  - name: B9PartSwitch
-  - name: ModuleManager
-  - name: TundraExploration
-recommends:
-  - name: Waterfall
-  - name: FreeIva
 install:
   - find: TundraTechnologies
     install_to: GameData
