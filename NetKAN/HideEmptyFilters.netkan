@@ -13,3 +13,7 @@ tags:
   - plugin
   - editor
   - convenience
+suggests:
+  - CommunityCategoryKit
+  - FilterExtensions
+  - MoarFEConfigs
