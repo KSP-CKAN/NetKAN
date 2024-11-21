@@ -1,0 +1,59 @@
+identifier: GradualProgressionTechTree
+$kref: '#/ckan/github/hersfeldtn/GPTT'
+x_netkan_version_edit:
+  find: ^v
+  replace: ''
+  strict: false
+install:
+  - find: zzGPTT
+    install_to: GameData
+---
+identifier: GradualProgressionTechTree
+$kref: '#/ckan/spacedock/3768'
+tags:
+  - config
+  - tech-tree
+conflicts:
+  - name: CommunityTechTree
+  - name: SkyhawkScienceSystem
+depends:
+  - name: ModuleManager
+recommends:
+  - name: BluedogDB
+  - name: SoundingRockets
+  - name: NearFuturePropulsion
+  - name: NearFutureElectrical
+  - name: NearFutureSolar
+  - name: NearFutureConstruction
+  - name: NearFutureSpacecraft
+  - name: NearFutureLaunchVehicles
+  - name: NearFutureExploration
+  - name: NearFutureAeronautics
+  - name: FarFutureTechnologies
+  - name: KerbalAtomics
+  - name: CryoEngines
+  - name: ReStock
+  - name: ReStockPlus
+  - name: StationPartsExpansionRedux
+  - name: HeatControl
+  - name: AirplanePlus
+  - name: USI-LS
+suggests:
+  - name: DMagicOrbitalScience
+  - name: SCANsat
+  - name: ProbesPlus
+  - name: FelineUtilityRovers
+  - name: SystemHeat
+  - name: WaterDrinker
+  - name: DeepFreeze
+  - name: Mk2Expansion
+  - name: SupplementaryElectricEngines
+  - name: KerbalPlanetaryBaseSystems
+  - name: MarkIVSpaceplaneSystem
+  - name: CivilianPopulation
+  - name: OSEWorkShopReworked
+  - name: MalemuteRover
+  - name: PlanetsideExplorationTechnologies
+install:
+  - find: zzGPTT
+    install_to: GameData
