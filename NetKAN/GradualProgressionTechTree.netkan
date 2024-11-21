@@ -13,8 +13,37 @@ $kref: '#/ckan/spacedock/3768'
 tags:
   - config
   - tech-tree
+conflicts:
+  - name: CommunityTechTree
+  - name: SkyhawkScienceSystem
 depends:
   - name: ModuleManager
+recommends:
+  - name: BluedogDB
+  - name: SoundingRockets
+  - name: FarFutureTechnologies
+  - name: KerbalAtomics
+  - name: CryoEngines
+  - name: ReStock
+  - name: StationPartsExpansionRedux
+  - name: HeatControl
+  - name: AirplanePlus
+  - name: USI-LS
+suggests:
+  - name: SCANsat
+  - name: ProbesPlus
+  - name: FelineUtilityRovers
+  - name: SystemHeat
+  - name: WaterDrinker
+  - name: DeepFreeze
+  - name: Mk2Expansion
+  - name: SupplementaryElectricEngines
+  - name: KerbalPlanetaryBaseSystems
+  - name: MarkIVSpaceplaneSystem
+  - name: CivilianPopulation
+  - name: OSEWorkShopReworked
+  - name: MalemuteRover
+  - name: PlanetsideExplorationTechnologies
 install:
   - find: zzGPTT
     install_to: GameData
