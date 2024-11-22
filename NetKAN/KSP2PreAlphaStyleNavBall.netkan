@@ -2,7 +2,11 @@ identifier: KSP2PreAlphaStyleNavBall
 $kref: '#/ckan/spacedock/3738'
 tags:
   - config
+  - graphics
+depends:
+  - name: NavBallTextureChangerUpdated
+recommends:
+  - name: ZTheme
 install:
   - find: NavBallTextureChanger
     install_to: GameData
-x_via: Automated SpaceDock CKAN submission
