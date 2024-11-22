@@ -1,6 +1,7 @@
 identifier: BLEAK
 name: BLEAK - TUFX Profiles
 $kref: '#/ckan/github/aspctt/BLEAK'
+$vref: '#/ckan/ksp-avc'
 license: GPL-3.0
 tags:
   - config
