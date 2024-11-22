@@ -13,8 +13,8 @@ provides:
 conflicts:
   - name: RSSOrigin-TopoRevampTextures
 depends:
-  - name: RSSOrigin-TopoRevampConfigs
   - name: RSSOrigin-TopoRevampTextures16kPart2
+  - name: RSSOrigin-TopoRevampConfigs
 install:
   - find: RSSOrigin
     install_to: GameData

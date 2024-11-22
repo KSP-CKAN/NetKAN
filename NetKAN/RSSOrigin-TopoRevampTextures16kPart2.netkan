@@ -9,8 +9,8 @@ tags:
   - config
   - planet-pack
 depends:
-  - name: RSSOrigin-TopoRevampConfigs
   - name: RSSOrigin-TopoRevampTextures16k
+  - name: RSSOrigin-TopoRevampConfigs
 install:
   - find: RSSOrigin
     install_to: GameData
