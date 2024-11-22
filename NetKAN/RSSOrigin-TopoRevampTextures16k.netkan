@@ -1,9 +1,9 @@
 identifier: RSSOrigin-TopoRevampTextures16k
-name: RSS-Origin RSS Texture & Topo Revamp Textures 16k
+name: RSS-Origin RSS Texture & Topo Revamp Textures 16k Part 1
 abstract: >-
   The texture pack of RSS-Origin RSSTexture&TopoRevamp.
-  This is the 16k version.
-$kref: '#/ckan/github/CharonSSS/RSS-Origin/asset_match/TopoRevamp.Textures16k'
+  This is part 1 of the 16k version.
+$kref: '#/ckan/github/CharonSSS/RSS-Origin/asset_match/TopoRevamp.Textures16k.Part1'
 license: CC-BY-NC-SA-4.0
 tags:
   - config
@@ -14,6 +14,7 @@ conflicts:
   - name: RSSOrigin-TopoRevampTextures
 depends:
   - name: RSSOrigin-TopoRevampConfigs
+  - name: RSSOrigin-TopoRevampTextures16kPart2
 install:
   - find: RSSOrigin
     install_to: GameData
