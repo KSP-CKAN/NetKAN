@@ -1,17 +1,12 @@
-{
-    "identifier"   : "PhysicsRangeExtender",
-    "$kref"        : "#/ckan/github/jrodrigv/PhysicsRangeExtender",
-    "$vref"        : "#/ckan/ksp-avc",
-    "name"         : "Physics Range Extender ",
-    "license"      : "Unlicense",
-    "resources": {
-        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/158344-*"
-    },
-    "tags": [
-        "plugin",
-        "physics"
-    ],
-    "suggests"     : [
-        { "name" : "KerbalJointReinforcement" }
-    ]
-}
+identifier: PhysicsRangeExtender
+name: Physics Range Extender
+$kref: '#/ckan/github/jrodrigv/PhysicsRangeExtender'
+$vref: '#/ckan/ksp-avc'
+license: Unlicense
+resources:
+  homepage: http://forum.kerbalspaceprogram.com/index.php?/topic/158344-*
+tags:
+  - plugin
+  - physics
+suggests:
+  - name: KerbalJointReinforcement
