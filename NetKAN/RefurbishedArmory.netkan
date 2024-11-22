@@ -8,8 +8,13 @@ identifier: RefurbishedArmory
 $kref: '#/ckan/spacedock/3752'
 tags:
   - parts
+  - combat
 depends:
   - name: ModuleManager
+  - name: BDArmory
+  - name: PhysicsRangeExtender
+suggests:
+  - name: VABorganizer
 install:
   - find: BDArmoryRefurbished
     install_to: GameData
