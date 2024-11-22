@@ -1,9 +1,5 @@
 identifier: RefurbishedArmory
 $kref: '#/ckan/github/Spartwo/Refurbished-Armory'
-x_netkan_version_edit:
-  find: ^v
-  replace: ''
-  strict: false
 install:
   - find: BDArmoryRefurbished
     install_to: GameData
