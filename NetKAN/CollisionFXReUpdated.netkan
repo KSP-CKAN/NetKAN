@@ -18,5 +18,5 @@ tags:
 depends:
   - name: ModuleManager
 install:
-  - find: GameData/CollisionFXReUpdated
+  - find_regexp: GameData/CollisionFX(ReUpdated)?
     install_to: GameData
