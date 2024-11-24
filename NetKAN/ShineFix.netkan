@@ -4,9 +4,6 @@ x_netkan_version_edit:
   find: ^v
   replace: ''
   strict: false
-install:
-  - find: 000_ShineFix
-    install_to: GameData
 ---
 identifier: ShineFix
 $kref: '#/ckan/spacedock/3764'
@@ -17,3 +14,4 @@ depends:
 install:
   - find: 000_ShineFix
     install_to: GameData
+x_via: Automated SpaceDock CKAN submission
