@@ -1,0 +1,13 @@
+identifier: KargatuaPolyCentauri
+$kref: '#/ckan/spacedock/3770'
+tags:
+  - config
+  - planet-pack
+depends:
+  - name: ModuleManager
+  - name: Kopernicus
+install:
+  - find: ''
+    install_to: GameData
+    filter: __MACOSX
+x_via: Automated SpaceDock CKAN submission
