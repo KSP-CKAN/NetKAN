@@ -7,6 +7,6 @@ depends:
   - name: ModuleManager
   - name: Kopernicus
 install:
-  - find: PolyCentauriSystem/PolyCentauriSystem
+  - find: PolyCenturiSystem/PolyCenturiSystem
     install_to: GameData
     filter: __MACOSX
