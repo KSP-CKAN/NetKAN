@@ -1,4 +1,4 @@
-identifier: KargatuaPolyCentauri
+identifier: PolyCentauriSystem
 $kref: '#/ckan/spacedock/3770'
 tags:
   - config
@@ -7,7 +7,6 @@ depends:
   - name: ModuleManager
   - name: Kopernicus
 install:
-  - find: ''
+  - find: PolyCentauriSystem/PolyCentauriSystem
     install_to: GameData
     filter: __MACOSX
-x_via: Automated SpaceDock CKAN submission
