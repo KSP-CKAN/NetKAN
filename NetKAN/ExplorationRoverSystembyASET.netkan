@@ -1,9 +1,6 @@
 identifier: ExplorationRoverSystembyASET
 $kref: '#/ckan/github/linuxgurugamer/ASET_ERS_Rover'
 $vref: '#/ckan/ksp-avc'
-install:
-  - find: ASET
-    install_to: GameData
 ---
 identifier: ExplorationRoverSystembyASET
 $kref: '#/ckan/spacedock/2979'

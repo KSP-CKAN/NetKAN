@@ -1,11 +1,5 @@
 identifier: HabTech2
 $kref: '#/ckan/github/benjee10/HabTech2'
-install:
-  - find: GameData/HabTech2
-    install_to: GameData
-  - find: Craft Files
-    install_to: Ships
-    as: SPH
 ---
 identifier: HabTech2
 $kref: '#/ckan/spacedock/2078'

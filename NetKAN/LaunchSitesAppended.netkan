@@ -1,8 +1,5 @@
 identifier: LaunchSitesAppended
 $kref: '#/ckan/github/TedThompson/Launch-Sites-Appended'
-install:
-  - find: FP_LaunchSitesAppended
-    install_to: GameData
 ---
 identifier: LaunchSitesAppended
 $kref: '#/ckan/spacedock/3361'

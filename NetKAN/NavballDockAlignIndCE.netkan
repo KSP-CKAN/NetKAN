@@ -1,9 +1,6 @@
 identifier: NavballDockAlignIndCE
 $kref: '#/ckan/github/linuxgurugamer/NavBallDockingAlignmentIndicatorCE'
 $vref: '#/ckan/ksp-avc'
-install:
-  - find: NavBallDockingAlignmentIndicatorCE
-    install_to: GameData
 ---
 identifier: NavballDockAlignIndCE
 $kref: '#/ckan/spacedock/1098'

@@ -4,12 +4,6 @@ x_netkan_version_edit:
   find: ^v
   replace: ''
   strict: false
-install:
-  - find: Benjee10_Orion
-    install_to: GameData
-  - find: Craft Files
-    install_to: Ships
-    as: VAB
 ---
 identifier: ArtemisConstructionKit
 $kref: '#/ckan/spacedock/3098'

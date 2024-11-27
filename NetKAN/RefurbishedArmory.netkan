@@ -1,8 +1,5 @@
 identifier: RefurbishedArmory
 $kref: '#/ckan/github/Spartwo/Refurbished-Armory'
-install:
-  - find: BDArmoryRefurbished
-    install_to: GameData
 ---
 identifier: RefurbishedArmory
 $kref: '#/ckan/spacedock/3752'

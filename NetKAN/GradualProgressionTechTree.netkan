@@ -4,9 +4,6 @@ x_netkan_version_edit:
   find: ^v
   replace: ''
   strict: false
-install:
-  - find: zzGPTT
-    install_to: GameData
 ---
 identifier: GradualProgressionTechTree
 $kref: '#/ckan/spacedock/3768'

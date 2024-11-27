@@ -5,11 +5,6 @@ x_netkan_version_edit:
   replace: ''
   strict: false
 $vref: '#/ckan/ksp-avc/GameData/999_Scale_Redist.version'
-install:
-  - file: GameData/999_Scale_Redist.dll
-    install_to: GameData
-  - file: GameData/999_Scale_Redist.version
-    install_to: GameData
 ---
 identifier: TweakScaleRescaled-Redist
 name: TweakScale Rescaled Redistributable

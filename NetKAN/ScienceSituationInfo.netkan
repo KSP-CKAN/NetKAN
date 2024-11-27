@@ -1,9 +1,6 @@
 identifier: ScienceSituationInfo
 $kref: '#/ckan/github/linuxgurugamer/SituationModuleInfo'
 $vref: '#/ckan/ksp-avc'
-install:
-  - find: SituationModuleInfo
-    install_to: GameData
 ---
 identifier: ScienceSituationInfo
 abstract: Extended information about Scientific Experiments in VAB/SPH

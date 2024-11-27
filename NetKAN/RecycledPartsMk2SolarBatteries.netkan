@@ -1,9 +1,6 @@
 identifier: RecycledPartsMk2SolarBatteries
 $kref: '#/ckan/github/linuxgurugamer/RecycledParts'
 $vref: '#/ckan/ksp-avc'
-install:
-  - find: Mk2SolarBatteries
-    install_to: GameData/SpaceTuxIndustries/RecycledParts
 ---
 identifier: RecycledPartsMk2SolarBatteries
 name: Recycled Parts Mk2 Solar Batteries

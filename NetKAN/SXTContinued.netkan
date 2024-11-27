@@ -1,9 +1,6 @@
 identifier: SXTContinued
 $kref: '#/ckan/github/linuxgurugamer/SXTContinued'
 $vref: '#/ckan/ksp-avc'
-install:
-  - find: SXT
-    install_to: GameData
 ---
 identifier: SXTContinued
 $kref: '#/ckan/spacedock/1030'

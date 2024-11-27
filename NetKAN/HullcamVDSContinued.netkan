@@ -1,9 +1,6 @@
 identifier: HullcamVDSContinued
 $kref: '#/ckan/github/linuxgurugamer/HullcamVDSContinued'
 $vref: '#/ckan/ksp-avc'
-install:
-  - find: HullCameraVDS
-    install_to: GameData
 ---
 identifier: HullcamVDSContinued
 $kref: '#/ckan/spacedock/885'

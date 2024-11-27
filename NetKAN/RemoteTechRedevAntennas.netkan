@@ -1,9 +1,6 @@
 identifier: RemoteTechRedevAntennas
 $kref: '#/ckan/github/RemoteTechnologiesGroup/RemoteTech-Antennas'
 $vref: '#/ckan/ksp-avc'
-install:
-  - file: GameData/RemoteTechRedev
-    install_to: GameData
 ---
 identifier: RemoteTechRedevAntennas
 name: RemoteTech Redev Antennas

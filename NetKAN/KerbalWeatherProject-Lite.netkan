@@ -1,8 +1,5 @@
 identifier: KerbalWeatherProject-Lite
 $kref: '#/ckan/github/cmac994/KerbalWeatherProject/asset_match/Lite'
-install:
-  - find: KerbalWeatherProject_Lite
-    install_to: GameData
 ---
 identifier: KerbalWeatherProject-Lite
 $kref: '#/ckan/spacedock/2611'

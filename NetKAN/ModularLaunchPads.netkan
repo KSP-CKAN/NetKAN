@@ -1,11 +1,5 @@
 identifier: ModularLaunchPads
 $kref: '#/ckan/github/AlphaMensae/Modular-Launch-Pads'
-install:
-  - find: ModularLaunchPads
-    install_to: GameData
-  - find: Bare Assemblies
-    install_to: Ships
-    as: VAB
 ---
 identifier: ModularLaunchPads
 $kref: '#/ckan/spacedock/1767'

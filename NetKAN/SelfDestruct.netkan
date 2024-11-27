@@ -4,13 +4,6 @@ x_netkan_version_edit:
   find: ^v
   replace: ''
   strict: false
-install:
-  - file: Self Destruct Mod.dll
-    install_to: GameData/SelfDestruct
-  - file: LICENSE.txt
-    install_to: GameData/SelfDestruct
-  - file: README.md
-    install_to: GameData/SelfDestruct
 ---
 identifier: SelfDestruct
 $kref: '#/ckan/spacedock/3194'

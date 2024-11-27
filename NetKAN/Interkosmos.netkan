@@ -1,11 +1,5 @@
 identifier: Interkosmos
 $kref: '#/ckan/github/AstroWell/Interkosmos'
-license: CC-BY-NC-ND-4.0
-tags:
-  - parts
-  - science
-depends:
-  - name: ModuleManager
 ---
 identifier: Interkosmos
 $kref: '#/ckan/spacedock/2163'

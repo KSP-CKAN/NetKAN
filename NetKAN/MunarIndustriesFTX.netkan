@@ -1,9 +1,6 @@
 identifier: MunarIndustriesFTX
 $kref: '#/ckan/github/linuxgurugamer/ModularFuelTankExpansion'
 $vref: '#/ckan/ksp-avc'
-install:
-  - find: MunarIndustries
-    install_to: GameData
 ---
 identifier: MunarIndustriesFTX
 $kref: '#/ckan/spacedock/1396'

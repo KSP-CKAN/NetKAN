@@ -1,13 +1,6 @@
 identifier: Mk1CockpitIVAReplbyASET
 $kref: '#/ckan/github/StoneBlue/ASET-Consolidated-IVAs'
 $vref: '#/ckan/ksp-avc'
-install:
-  - find: ASET
-    install_to: GameData
-    include_only:
-      - RevIVA_ASET_SRI_Mk1_Cockpit.cfg
-      - RPM_ASET_SRI_Mk1_Cockpit.cfg
-      - ASET_SRI_Mk1_Cockpit.cfg
 ---
 identifier: Mk1CockpitIVAReplbyASET
 name: Mk1 Cockpit IVA Replacement by ASET

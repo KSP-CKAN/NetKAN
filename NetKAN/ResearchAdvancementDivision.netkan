@@ -5,9 +5,6 @@ x_netkan_version_edit:
   replace: ''
   strict: false
 $vref: '#/ckan/ksp-avc'
-install:
-  - find: ContractPacks
-    install_to: GameData
 ---
 identifier: ResearchAdvancementDivision
 $kref: '#/ckan/spacedock/2929'

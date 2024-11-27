@@ -1,10 +1,6 @@
 identifier: VesselView-UI-Toolbar
 $kref: '#/ckan/github/linuxgurugamer/VesselViewer'
 $vref: '#/ckan/ksp-avc/VesselView.version'
-install:
-  - find: VesselViewPlugin.dll
-    install_to: GameData/VesselView/Plugins
-    find_matches_files: true
 ---
 identifier: VesselView-UI-Toolbar
 name: VesselView-UI-Toolbar

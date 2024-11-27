@@ -1,8 +1,5 @@
 identifier: GenesStarRemaster
 $kref: '#/ckan/github/AR3S-Vega/GenesStar'
-install:
-  - find: GenesStar
-    install_to: GameData
 ---
 identifier: GenesStarRemaster
 $kref: '#/ckan/spacedock/2411'

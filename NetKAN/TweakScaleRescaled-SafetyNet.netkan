@@ -5,9 +5,6 @@ x_netkan_version_edit:
   replace: ''
   strict: false
 $vref: '#/ckan/ksp-avc/GameData/TSSafetyNet/TweakScaleSafetyNet.version'
-install:
-  - file: GameData/TSSafetyNet
-    install_to: GameData
 ---
 identifier: TweakScaleRescaled-SafetyNet
 name: TweakScale Rescaled SafetyNet

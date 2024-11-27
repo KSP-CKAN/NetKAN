@@ -1,9 +1,6 @@
 identifier: DangerAlertsContinued
 $kref: '#/ckan/github/linuxgurugamer/DangerAlerts'
 $vref: '#/ckan/ksp-avc'
-install:
-  - find: DangerAlerts
-    install_to: GameData
 ---
 identifier: DangerAlertsContinued
 $kref: '#/ckan/spacedock/1260'

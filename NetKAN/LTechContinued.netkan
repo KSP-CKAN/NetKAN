@@ -1,9 +1,6 @@
 identifier: LTechContinued
 $kref: '#/ckan/github/linuxgurugamer/L-Tech'
 $vref: '#/ckan/ksp-avc'
-install:
-  - find: LTech
-    install_to: GameData
 ---
 identifier: LTechContinued
 $kref: '#/ckan/spacedock/227'

@@ -1,9 +1,6 @@
 identifier: KerbCam-Continued
 $kref: '#/ckan/github/linuxgurugamer/kerbcam'
 $vref: '#/ckan/ksp-avc'
-install:
-  - find: KerbCam
-    install_to: GameData
 ---
 identifier: KerbCam-Continued
 $kref: '#/ckan/spacedock/2135'

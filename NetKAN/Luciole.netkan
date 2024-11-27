@@ -1,19 +1,5 @@
 identifier: Luciole
 $kref: '#/ckan/github/AstroWell/Luciole'
-license: CC-BY-NC-ND-4.0
-tags:
-  - crewed
-  - first-person
-  - graphics
-  - parts
-depends:
-  - name: ModuleManager
-  - name: Waterfall
-install:
-  - find: Luciole
-    install_to: GameData
-  - file: CraftFiles/Ships/VAB
-    install_to: Ships
 x_netkan_version_edit:
   find: ^v
   replace: ''

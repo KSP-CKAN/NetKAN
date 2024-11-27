@@ -5,9 +5,6 @@ x_netkan_version_edit:
   replace: ''
   strict: false
 $vref: '#/ckan/ksp-avc'
-install:
-  - find: ProbeControlRoom
-    install_to: GameData
 ---
 identifier: ProbeControlRoomRecontrolled
 $kref: '#/ckan/spacedock/1558'

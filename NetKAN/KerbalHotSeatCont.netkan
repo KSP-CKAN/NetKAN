@@ -1,9 +1,6 @@
 identifier: KerbalHotSeatCont
 $kref: '#/ckan/github/linuxgurugamer/KerbalHotSeat'
 $vref: '#/ckan/ksp-avc'
-install:
-  - find: KerbalHotSeat
-    install_to: GameData
 ---
 identifier: KerbalHotSeatCont
 $kref: '#/ckan/spacedock/1272'

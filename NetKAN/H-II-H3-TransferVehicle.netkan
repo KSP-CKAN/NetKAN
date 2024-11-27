@@ -4,13 +4,6 @@ x_netkan_version_edit:
   find: ^v
   replace: ''
   strict: false
-install:
-  - find: Matveich_HTV
-    install_to: GameData
-    filter_regexp: \.craft$
-  - find: Crafts
-    install_to: Ships
-    as: VAB
 ---
 identifier: H-II-H3-TransferVehicle
 $kref: '#/ckan/spacedock/3156'

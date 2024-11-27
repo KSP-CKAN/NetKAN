@@ -1,9 +1,6 @@
 identifier: ClickThroughBlocker
 $kref: '#/ckan/github/linuxgurugamer/ClickThroughBlocker'
 $vref: '#/ckan/ksp-avc'
-install:
-  - find: 000_ClickThroughBlocker
-    install_to: GameData
 ---
 identifier: ClickThroughBlocker
 name: ClickThrough Blocker

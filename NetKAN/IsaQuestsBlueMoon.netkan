@@ -1,8 +1,5 @@
 identifier: IsaQuestsBlueMoon
 $kref: '#/ckan/github/IsaQuest/BlueMoonKSP'
-install:
-  - find: IQ_BlueMoon
-    install_to: GameData
 ---
 identifier: IsaQuestsBlueMoon
 $kref: '#/ckan/spacedock/3403'

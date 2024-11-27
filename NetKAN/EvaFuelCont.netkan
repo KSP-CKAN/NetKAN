@@ -1,9 +1,6 @@
 identifier: EvaFuelCont
 $kref: '#/ckan/github/linuxgurugamer/EvaFuel'
 $vref: '#/ckan/ksp-avc'
-install:
-  - find: EvaFuel
-    install_to: GameData
 ---
 identifier: EvaFuelCont
 $kref: '#/ckan/spacedock/1274'

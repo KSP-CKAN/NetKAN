@@ -1,13 +1,6 @@
 identifier: RecycledPartsFarscape
 $kref: '#/ckan/github/linuxgurugamer/RecycledParts'
 $vref: '#/ckan/ksp-avc'
-install:
-  - find: Mike_NZ_Crafts
-    install_to: GameData/SpaceTuxIndustries/RecycledParts
-  - find: SPH
-    install_to: Ships
-    filter:
-      - A Nuke Cruiser-Skalou-03.craft
 ---
 identifier: RecycledPartsFarscape
 name: Recycled Parts Farscape

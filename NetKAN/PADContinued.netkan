@@ -1,10 +1,6 @@
 identifier: PADContinued
 $kref: '#/ckan/github/linuxgurugamer/PartAngleDisplay'
 $vref: '#/ckan/ksp-avc'
-license: MIT
-install:
-  - find: PartAngleDisplay
-    install_to: GameData
 ---
 identifier: PADContinued
 $kref: '#/ckan/spacedock/1679'

@@ -1,9 +1,6 @@
 identifier: ThroughTheEyesOfaKerbal
 $kref: '#/ckan/github/linuxgurugamer/Through-The-Eyes'
 $vref: '#/ckan/ksp-avc'
-install:
-  - find: ThroughTheEyes
-    install_to: GameData
 ---
 identifier: ThroughTheEyesOfaKerbal
 $kref: '#/ckan/spacedock/1560'

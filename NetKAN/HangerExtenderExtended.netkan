@@ -1,9 +1,6 @@
 identifier: HangerExtenderExtended
 $kref: '#/ckan/github/linuxgurugamer/FShangarExtender'
 $vref: '#/ckan/ksp-avc'
-install:
-  - find: FShangarExtender
-    install_to: GameData
 ---
 identifier: HangerExtenderExtended
 name: Hangar Extender

@@ -5,9 +5,6 @@ x_netkan_version_edit:
   replace: ''
   strict: false
 $vref: '#/ckan/ksp-avc'
-install:
-  - file: GameData/HideEmptyTechTreeNodes
-    install_to: GameData
 ---
 identifier: HideEmptyTechNodes
 $kref: '#/ckan/spacedock/577'

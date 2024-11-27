@@ -1,14 +1,6 @@
 identifier: FilterExtensions
 $kref: '#/ckan/github/linuxgurugamer/FilterExtension'
 $vref: '#/ckan/ksp-avc'
-install:
-  - file: GameData/000_FilterExtensions
-    install_to: GameData
-  - file: GameData/000_FilterExtensions_Configs
-    install_to: GameData
-    filter:
-      - Default
-      - StockRework
 ---
 identifier: FilterExtensions
 name: Filter Extensions - Plugin

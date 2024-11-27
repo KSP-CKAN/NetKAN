@@ -1,9 +1,6 @@
 identifier: PartWizardContinued
 $kref: '#/ckan/github/linuxgurugamer/PartWizard'
 $vref: '#/ckan/ksp-avc'
-install:
-  - find: PartWizard
-    install_to: GameData
 ---
 identifier: PartWizardContinued
 abstract: >-

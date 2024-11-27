@@ -4,9 +4,6 @@ x_netkan_version_edit:
   find: ^Release-
   replace: ''
   strict: false
-install:
-  - find: SushutsMainMenu
-    install_to: GameData
 ---
 identifier: SushutsMainMenuMod
 $kref: '#/ckan/spacedock/3507'

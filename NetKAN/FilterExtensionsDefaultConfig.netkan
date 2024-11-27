@@ -1,11 +1,6 @@
 identifier: FilterExtensionsDefaultConfig
 $kref: '#/ckan/github/linuxgurugamer/FilterExtension'
 $vref: '#/ckan/ksp-avc'
-install:
-  - file: GameData/000_FilterExtensions_Configs/Default
-    install_to: GameData/000_FilterExtensions_Configs
-  - file: GameData/zFinal_FilterExtensions
-    install_to: GameData
 ---
 name: Filter Extensions - Default Configuration
 identifier: FilterExtensionsDefaultConfig

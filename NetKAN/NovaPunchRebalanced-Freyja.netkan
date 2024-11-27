@@ -1,9 +1,6 @@
 identifier: NovaPunchRebalanced-Freyja
 $kref: '#/ckan/github/linuxgurugamer/NovaPunch'
 $vref: '#/ckan/ksp-avc'
-install:
-  - find: NovaPunch/Freyja
-    install_to: GameData/NovaPunch
 ---
 identifier: NovaPunchRebalanced-Freyja
 name: NovaPunchRebalanced Freyja

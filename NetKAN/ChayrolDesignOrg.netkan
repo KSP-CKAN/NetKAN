@@ -1,11 +1,6 @@
 identifier: ChayrolDesignOrg
 $kref: '#/ckan/github/DylanSemrau/Chrayol-Design-Org'
 $vref: '#/ckan/ksp-avc/ChrayolDesignOrg.version'
-install:
-  - find: GameData/Chrayol_Design_Org
-    install_to: GameData
-    filter:
-      - .gitignore
 ---
 identifier: ChayrolDesignOrg
 abstract: >-

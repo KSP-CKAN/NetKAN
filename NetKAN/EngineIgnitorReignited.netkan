@@ -1,10 +1,6 @@
 identifier: EngineIgnitorReignited
 $kref: '#/ckan/github/linuxgurugamer/EngineIgnitor'
 $vref: '#/ckan/ksp-avc'
-install:
-  - find: EngineIgnitor
-    install_to: GameData
-    filter: Thumbs.db
 ---
 identifier: EngineIgnitorReignited
 name: Engine Ignitor (standalone)

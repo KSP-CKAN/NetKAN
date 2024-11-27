@@ -1,9 +1,6 @@
 identifier: StageableRCS
 $kref: '#/ckan/github/kurgut/SRCS-Stageable-RCS'
 $vref: '#/ckan/ksp-avc'
-install:
-  - find: SRCS
-    install_to: GameData
 ---
 identifier: StageableRCS
 author:

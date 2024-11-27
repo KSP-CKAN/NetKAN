@@ -1,9 +1,6 @@
 identifier: xScienceContinued
 $kref: '#/ckan/github/linuxgurugamer/KSP-X-Science'
 $vref: '#/ckan/ksp-avc'
-install:
-  - find: '[x]_Science!'
-    install_to: GameData
 ---
 identifier: xScienceContinued
 name: '[x] Science! Continued'

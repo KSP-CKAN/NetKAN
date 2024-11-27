@@ -1,9 +1,6 @@
 identifier: GroundProximity
 $kref: '#/ckan/github/linuxgurugamer/KSP_Proximity'
 $vref: '#/ckan/ksp-avc'
-install:
-  - find: KSP_Proximity
-    install_to: GameData
 ---
 identifier: GroundProximity
 $kref: '#/ckan/spacedock/2056'

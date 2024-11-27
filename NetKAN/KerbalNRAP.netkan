@@ -1,9 +1,6 @@
 identifier: KerbalNRAP
 $kref: '#/ckan/github/linuxgurugamer/NRAP'
 $vref: '#/ckan/ksp-avc'
-install:
-  - file: GameData/NRAP
-    install_to: GameData
 ---
 identifier: KerbalNRAP
 author:

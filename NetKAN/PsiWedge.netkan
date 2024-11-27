@@ -1,25 +1,6 @@
 identifier: PsiWedge
 $kref: '#/ckan/github/JadeOfMaar/PsiWedge'
 $vref: '#/ckan/ksp-avc'
-license: CC-BY-NC-ND
-tags:
-  - crewed
-  - first-person
-  - parts
-depends:
-  - name: ModuleManager
-  - name: B9PartSwitch
-  - name: WildBlueTools
-  - name: WildBlueCore
-recommends:
-  - name: Buffalo2
-  - name: IndicatorLights
-suggests:
-  - name: ConnectedLivingSpace
-  - name: FreeIva
-supports:
-  - name: ConnectedLivingSpace
-  - name: FreeIva
 ---
 identifier: PsiWedge
 $kref: '#/ckan/spacedock/3567'
@@ -43,4 +24,3 @@ suggests:
 supports:
   - name: ConnectedLivingSpace
   - name: FreeIva
-x_via: Automated SpaceDock CKAN submission

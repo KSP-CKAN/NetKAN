@@ -1,9 +1,6 @@
 identifier: KSPCasherCont
 $kref: '#/ckan/github/linuxgurugamer/kspcasher'
 $vref: '#/ckan/ksp-avc'
-install:
-  - find: KSPCasher
-    install_to: GameData
 ---
 identifier: KSPCasherCont
 $kref: '#/ckan/spacedock/1267'

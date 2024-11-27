@@ -5,9 +5,6 @@ x_netkan_version_edit:
   replace: ''
   strict: false
 $vref: '#/ckan/ksp-avc'
-install:
-  - find: Benjee10_MMSEV
-    install_to: GameData
 ---
 identifier: PlanetsideExplorationTechnologies
 $kref: '#/ckan/spacedock/2681'

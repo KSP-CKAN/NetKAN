@@ -1,9 +1,6 @@
 identifier: AirParkContinued
 $kref: '#/ckan/github/linuxgurugamer/AirPark'
 $vref: '#/ckan/ksp-avc'
-install:
-  - find: AirPark
-    install_to: GameData
 ---
 identifier: AirParkContinued
 $kref: '#/ckan/spacedock/2661'

@@ -1,9 +1,6 @@
 identifier: QuizTechAeroPackContinued
 $kref: '#/ckan/github/linuxgurugamer/QuizTechAeroPackContinued'
 $vref: '#/ckan/ksp-avc'
-install:
-  - find: QuizTechAeroContinued
-    install_to: GameData
 ---
 identifier: QuizTechAeroPackContinued
 name: QuizTech Aero Pack

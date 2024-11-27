@@ -1,9 +1,6 @@
 identifier: TokamakRefurbishedParts
 $kref: '#/ckan/github/linuxgurugamer/Tokamak-Refurbished-Parts'
 $vref: '#/ckan/ksp-avc'
-install:
-  - find: TokamakIndustries
-    install_to: GameData
 ---
 identifier: TokamakRefurbishedParts
 $kref: '#/ckan/spacedock/1444'

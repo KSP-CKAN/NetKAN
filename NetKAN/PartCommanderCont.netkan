@@ -1,9 +1,6 @@
 identifier: PartCommanderCont
 $kref: '#/ckan/github/linuxgurugamer/PartCommander'
 $vref: '#/ckan/ksp-avc'
-install:
-  - find: PartCommanderContinued
-    install_to: GameData
 ---
 identifier: PartCommanderCont
 $kref: '#/ckan/spacedock/1004'

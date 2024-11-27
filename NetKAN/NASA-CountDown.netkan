@@ -1,9 +1,6 @@
 identifier: NASA-CountDown
 $kref: '#/ckan/github/linuxgurugamer/LaunchCountdownEx'
 $vref: '#/ckan/ksp-avc'
-install:
-  - find: NASA_CountDown
-    install_to: GameData
 ---
 identifier: NASA-CountDown
 $kref: '#/ckan/spacedock/1462'

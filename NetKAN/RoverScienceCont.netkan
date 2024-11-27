@@ -1,9 +1,6 @@
 identifier: RoverScienceCont
 $kref: '#/ckan/github/linuxgurugamer/RoverScience-Continued'
 $vref: '#/ckan/ksp-avc'
-install:
-  - find: RoverScience
-    install_to: GameData
 ---
 identifier: RoverScienceCont
 $kref: '#/ckan/spacedock/1437'

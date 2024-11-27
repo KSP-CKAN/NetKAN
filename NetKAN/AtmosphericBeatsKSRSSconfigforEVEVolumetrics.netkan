@@ -4,9 +4,6 @@ x_netkan_version_edit:
   find: ^v
   replace: ''
   strict: false
-install:
-  - find: AtmosphericBeats
-    install_to: GameData
 ---
 identifier: AtmosphericBeatsKSRSSconfigforEVEVolumetrics
 $kref: '#/ckan/spacedock/3343'

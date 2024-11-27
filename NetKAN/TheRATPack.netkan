@@ -1,11 +1,6 @@
 identifier: TheRATPack
 $kref: '#/ckan/github/linuxgurugamer/RATPack'
 $vref: '#/ckan/ksp-avc'
-install:
-  - find: RATPack
-    install_to: GameData
-  - find: Ships
-    install_to: Ships
 ---
 identifier: TheRATPack
 $kref: '#/ckan/spacedock/1963'

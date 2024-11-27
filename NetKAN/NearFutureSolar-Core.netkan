@@ -1,9 +1,6 @@
 identifier: NearFutureSolar-Core
 $kref: '#/ckan/github/post-kerbin-mining-corporation/NearFutureSolar'
 $vref: '#/ckan/ksp-avc/NearFutureSolar.version'
-install:
-  - file: GameData/NearFutureSolar/Plugins/NearFutureSolar.dll
-    install_to: GameData/NearFutureSolar/Plugins
 ---
 identifier: NearFutureSolar-Core
 name: Near Future Solar Core

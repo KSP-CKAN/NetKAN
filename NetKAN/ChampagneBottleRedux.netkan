@@ -1,9 +1,6 @@
 identifier: ChampagneBottleRedux
 $kref: '#/ckan/github/linuxgurugamer/ChampagneBottleRedux'
 $vref: '#/ckan/ksp-avc'
-install:
-  - find: Champagne
-    install_to: GameData
 ---
 identifier: ChampagneBottleRedux
 $kref: '#/ckan/spacedock/613'

@@ -1,9 +1,6 @@
 identifier: NovaPunchRebalanced-Thor
 $kref: '#/ckan/github/linuxgurugamer/NovaPunch'
 $vref: '#/ckan/ksp-avc'
-install:
-  - find: NovaPunch/Thor
-    install_to: GameData/NovaPunch
 ---
 identifier: NovaPunchRebalanced-Thor
 name: NovaPunchRebalanced Thor

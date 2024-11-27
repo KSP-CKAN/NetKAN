@@ -6,12 +6,6 @@ x_netkan_version_edit:
   strict: false
 $vref: '#/ckan/ksp-avc'
 x_netkan_force_v: true
-install:
-  - find: BDArmory
-    install_to: GameData
-  - find: craft
-    install_to: Ships
-    as: SPH
 ---
 identifier: BDArmoryForRunwayProject
 author:

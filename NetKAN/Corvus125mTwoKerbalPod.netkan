@@ -5,11 +5,6 @@ x_netkan_version_edit:
   replace: ''
   strict: false
 $vref: '#/ckan/ksp-avc'
-install:
-  - find: HGR
-    install_to: GameData
-  - find: Corvus
-    install_to: GameData
 ---
 identifier: Corvus125mTwoKerbalPod
 author:

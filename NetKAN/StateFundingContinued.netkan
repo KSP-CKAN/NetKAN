@@ -1,9 +1,6 @@
 identifier: StateFundingContinued
 $kref: '#/ckan/github/linuxgurugamer/StateFundingContinued'
 $vref: '#/ckan/ksp-avc'
-install:
-  - find: StateFunding
-    install_to: GameData
 ---
 identifier: StateFundingContinued
 $kref: '#/ckan/spacedock/1231'

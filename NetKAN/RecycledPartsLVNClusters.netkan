@@ -1,9 +1,6 @@
 identifier: RecycledPartsLVNClusters
 $kref: '#/ckan/github/linuxgurugamer/RecycledParts'
 $vref: '#/ckan/ksp-avc'
-install:
-  - find: LVN_Clusters
-    install_to: GameData/SpaceTuxIndustries/RecycledParts
 ---
 identifier: RecycledPartsLVNClusters
 name: Recycled Parts LVN Clusters
