@@ -1,9 +1,6 @@
 identifier: AQSS
 $kref: '#/ckan/github/linuxgurugamer/AutoQuickSaveSystem'
 $vref: '#/ckan/ksp-avc'
-install:
-  - find: AutoQuickSaveSystem
-    install_to: GameData
 ---
 license: GPL-3.0
 identifier: AQSS

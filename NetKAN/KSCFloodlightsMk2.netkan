@@ -4,9 +4,6 @@ x_netkan_version_edit:
   find: ^FLT02-v
   replace: ''
   strict: false
-install:
-  - find: KSCFloodlight2
-    install_to: GameData
 ---
 identifier: KSCFloodlightsMk2
 $kref: '#/ckan/spacedock/3238'

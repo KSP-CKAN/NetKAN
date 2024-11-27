@@ -1,9 +1,6 @@
 identifier: ToadicusToolsContinued
 $kref: '#/ckan/github/linuxgurugamer/ToadicusTools'
 $vref: '#/ckan/ksp-avc'
-install:
-  - find: ToadicusTools
-    install_to: GameData
 ---
 identifier: ToadicusToolsContinued
 $kref: '#/ckan/spacedock/1069'

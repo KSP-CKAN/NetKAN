@@ -1,9 +1,6 @@
 identifier: SlingShotterReslung
 $kref: '#/ckan/github/linuxgurugamer/KerbalSlingshotter'
 $vref: '#/ckan/ksp-avc'
-install:
-  - find: SlingShotter
-    install_to: GameData
 ---
 identifier: SlingShotterReslung
 $kref: '#/ckan/spacedock/1304'

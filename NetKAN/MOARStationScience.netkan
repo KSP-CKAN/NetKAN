@@ -2,9 +2,6 @@ identifier: MOARStationScience
 $kref: '#/ckan/github/linuxgurugamer/StationScience'
 $vref: '#/ckan/ksp-avc'
 x_netkan_force_v: true
-install:
-  - find: StationScience
-    install_to: GameData
 ---
 identifier: MOARStationScience
 name: MOAR Station Science

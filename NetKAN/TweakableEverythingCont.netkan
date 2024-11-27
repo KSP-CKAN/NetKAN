@@ -1,9 +1,6 @@
 identifier: TweakableEverythingCont
 $kref: '#/ckan/github/linuxgurugamer/TweakableEverything'
 $vref: '#/ckan/ksp-avc'
-install:
-  - file: GameData/TweakableEverything
-    install_to: GameData
 ---
 identifier: TweakableEverythingCont
 $kref: '#/ckan/spacedock/1059'

@@ -1,13 +1,6 @@
 identifier: Mk1LanderCanIVAReplbyASET
 $kref: '#/ckan/github/StoneBlue/ASET-Consolidated-IVAs'
 $vref: '#/ckan/ksp-avc'
-install:
-  - find: ASET
-    install_to: GameData
-    include_only:
-      - RevIVA_ASET_SRI_Mk1_LCan.cfg
-      - RPM_ASET_SRI_Mk1_LCan.cfg
-      - ASET_SRI_Mk1_LCan.cfg
 ---
 identifier: Mk1LanderCanIVAReplbyASET
 name: Mk1 Lander Can IVA Replacement by ASET

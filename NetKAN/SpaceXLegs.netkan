@@ -1,9 +1,6 @@
 identifier: SpaceXLegs
 $kref: '#/ckan/github/TundraMods/Kerbal-Reusability-Expansion'
 $vref: '#/ckan/ksp-avc'
-install:
-  - file: KerbalReusabilityExpansion
-    install_to: GameData
 ---
 identifier: SpaceXLegs
 $kref: '#/ckan/spacedock/841'

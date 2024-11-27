@@ -1,12 +1,6 @@
 identifier: KSP-PartVolume
 $kref: '#/ckan/github/linuxgurugamer/KSP_PartVolume'
 $vref: '#/ckan/ksp-avc'
-install:
-  - find: KSP_PartVolume
-    install_to: GameData
-    filter_regexp:
-      - .*~$
-      - .*\.pdb$
 ---
 identifier: KSP-PartVolume
 $kref: '#/ckan/spacedock/2672'

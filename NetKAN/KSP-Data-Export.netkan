@@ -4,9 +4,6 @@ x_netkan_version_edit:
   find: ^v
   replace: ''
   strict: false
-install:
-  - find: DataExport
-    install_to: GameData
 ---
 identifier: KSP-Data-Export
 $kref: '#/ckan/spacedock/2711'

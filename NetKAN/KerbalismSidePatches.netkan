@@ -1,12 +1,5 @@
 identifier: KerbalismSidePatches
 $kref: '#/ckan/github/JadeOfMaar/KerbalismSidePatches'
-license: MIT
-tags:
-  - config
-  - convenience
-depends:
-  - name: ModuleManager
-  - name: Kerbalism
 ---
 identifier: KerbalismSidePatches
 $kref: '#/ckan/spacedock/3525'

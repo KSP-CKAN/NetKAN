@@ -1,9 +1,6 @@
 identifier: PersistentRotationUpgraded
 $kref: '#/ckan/github/linuxgurugamer/PersistentRotation'
 $vref: '#/ckan/ksp-avc'
-install:
-  - file: GameData/PersistentRotation
-    install_to: GameData
 ---
 identifier: PersistentRotationUpgraded
 $kref: '#/ckan/spacedock/2660'

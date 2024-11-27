@@ -2,12 +2,6 @@ identifier: Scatterer-config
 $kref: '#/ckan/github/LGhassen/Scatterer'
 x_netkan_force_v: true
 x_netkan_epoch: '3'
-install:
-  - find: Scatterer/config
-    install_to: GameData/Scatterer
-  - find: StockScattererConfigs
-    install_to: GameData
-    filter: Sunflares
 ---
 identifier: Scatterer-config
 name: Scatterer Default Config

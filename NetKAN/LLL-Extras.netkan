@@ -2,9 +2,6 @@ identifier: LLL-Extras
 $kref: '#/ckan/github/linuxgurugamer/LLL-Continued'
 x_netkan_epoch: 1
 $vref: '#/ckan/ksp-avc/LLL.version'
-install:
-  - find: GameData/LLL-Extra/Parts
-    install_to: GameData/LLL-Extra
 ---
 identifier: LLL-Extras
 name: LLL Extra Parts

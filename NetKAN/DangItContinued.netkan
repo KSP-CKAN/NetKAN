@@ -1,9 +1,6 @@
 identifier: DangItContinued
 $kref: '#/ckan/github/linuxgurugamer/DangIt'
 $vref: '#/ckan/ksp-avc'
-install:
-  - find: DangIt
-    install_to: GameData
 ---
 identifier: DangItContinued
 $kref: '#/ckan/spacedock/1055'

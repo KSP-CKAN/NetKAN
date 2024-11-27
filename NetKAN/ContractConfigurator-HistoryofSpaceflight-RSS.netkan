@@ -1,13 +1,6 @@
 identifier: ContractConfigurator-HistoryofSpaceflight-RSS
 $kref: '#/ckan/github/Frylovespi/History-of-Spaceflight/asset_match/RSS'
 $vref: '#/ckan/ksp-avc'
-install:
-  - find: ContractPacks
-    install_to: GameData
-  - find: GenericEngines
-    install_to: GameData
-  - find: GenericPlumes
-    install_to: GameData
 ---
 identifier: ContractConfigurator-HistoryofSpaceflight-RSS
 $kref: '#/ckan/spacedock/2385'

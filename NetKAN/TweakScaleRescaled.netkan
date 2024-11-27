@@ -5,9 +5,6 @@ x_netkan_version_edit:
   replace: ''
   strict: false
 $vref: '#/ckan/ksp-avc/GameData/TweakScale/TweakScale.version'
-install:
-  - file: GameData/TweakScale
-    install_to: GameData
 ---
 identifier: TweakScaleRescaled
 name: TweakScale Rescaled

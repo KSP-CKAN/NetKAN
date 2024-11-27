@@ -1,9 +1,6 @@
 identifier: MicroSatRevived
 $kref: '#/ckan/github/linuxgurugamer/MicroSat_0.35m_Probe_Parts'
 $vref: '#/ckan/ksp-avc'
-install:
-  - find: SquiggsySpaceResearch
-    install_to: GameData
 ---
 identifier: MicroSatRevived
 $kref: '#/ckan/spacedock/1795'

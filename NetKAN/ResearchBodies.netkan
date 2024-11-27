@@ -1,11 +1,6 @@
 identifier: ResearchBodies
 $kref: '#/ckan/github/JPLRepo/ResearchBodies'
 $vref: '#/ckan/ksp-avc'
-install:
-  - find: ResearchBodies
-    install_to: GameData/REPOSoftTech
-  - find: ProgressiveCBMaps
-    install_to: GameData/REPOSoftTech
 ---
 identifier: ResearchBodies
 $kref: '#/ckan/spacedock/684'

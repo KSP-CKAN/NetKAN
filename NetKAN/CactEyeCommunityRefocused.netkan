@@ -1,9 +1,6 @@
 identifier: CactEyeCommunityRefocused
 $kref: '#/ckan/github/linuxgurugamer/CactEye-2'
 $vref: '#/ckan/ksp-avc'
-install:
-  - file: GameData/CactEye
-    install_to: GameData
 ---
 identifier: CactEyeCommunityRefocused
 $kref: '#/ckan/spacedock/2930'

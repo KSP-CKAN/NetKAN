@@ -1,9 +1,6 @@
 identifier: KerbalObjectInspectorCont
 $kref: '#/ckan/github/linuxgurugamer/KerbalObjectInspector'
 $vref: '#/ckan/ksp-avc'
-install:
-  - find: KerbalObjectInspector
-    install_to: GameData
 ---
 identifier: KerbalObjectInspectorCont
 $kref: '#/ckan/spacedock/1040'

@@ -1,19 +1,5 @@
 identifier: Fuji
 $kref: '#/ckan/github/AstroWell/Fuji'
-license: CC-BY-NC-ND-4.0
-tags:
-  - crewed
-  - first-person
-  - graphics
-  - parts
-depends:
-  - name: ModuleManager
-  - name: Waterfall
-install:
-  - find: Fuji
-    install_to: GameData
-  - file: CraftFiles/VAB
-    install_to: Ships
 x_netkan_version_edit:
   find: ^v
   replace: ''

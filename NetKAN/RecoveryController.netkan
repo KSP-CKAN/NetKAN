@@ -1,9 +1,6 @@
 identifier: RecoveryController
 $kref: '#/ckan/github/linuxgurugamer/RecoveryController'
 $vref: '#/ckan/ksp-avc'
-install:
-  - find: RecoveryController
-    install_to: GameData
 ---
 identifier: RecoveryController
 $kref: '#/ckan/spacedock/1311'

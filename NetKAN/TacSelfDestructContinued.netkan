@@ -1,9 +1,6 @@
 identifier: TacSelfDestructContinued
 $kref: '#/ckan/github/linuxgurugamer/TacSelfDestruct'
 $vref: '#/ckan/ksp-avc'
-install:
-  - find: TacSelfDestruct
-    install_to: GameData
 ---
 identifier: TacSelfDestructContinued
 $kref: '#/ckan/spacedock/1135'

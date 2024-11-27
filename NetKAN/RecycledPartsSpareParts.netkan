@@ -1,9 +1,6 @@
 identifier: RecycledPartsSpareParts
 $kref: '#/ckan/github/linuxgurugamer/RecycledParts'
 $vref: '#/ckan/ksp-avc'
-install:
-  - find: Clockwork_Industries
-    install_to: GameData/SpaceTuxIndustries/RecycledParts
 ---
 identifier: RecycledPartsSpareParts
 name: Recycled Parts Spare Parts

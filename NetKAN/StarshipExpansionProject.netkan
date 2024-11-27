@@ -1,9 +1,5 @@
 identifier: StarshipExpansionProject
 $kref: '#/ckan/github/Kari1407/Starship-Expansion-Project'
-install:
-  - find: StarshipExpansionProject
-    install_to: GameData
-    filter: Spaces
 ---
 identifier: StarshipExpansionProject
 name: Starship Expansion Project

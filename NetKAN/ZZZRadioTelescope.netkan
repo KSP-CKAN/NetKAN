@@ -1,9 +1,6 @@
 identifier: ZZZRadioTelescope
 $kref: '#/ckan/github/linuxgurugamer/ZZZ-RadioTelescope'
 $vref: '#/ckan/ksp-avc'
-install:
-  - find: MunSeeker
-    install_to: GameData
 ---
 identifier: ZZZRadioTelescope
 $kref: '#/ckan/spacedock/1358'

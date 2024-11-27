@@ -1,13 +1,6 @@
 identifier: NovaPunchRebalanced
 $kref: '#/ckan/github/linuxgurugamer/NovaPunch'
 $vref: '#/ckan/ksp-avc'
-install:
-  - find: NovaPunch
-    install_to: GameData
-    filter:
-      - Freyja
-      - Odin
-      - Thor
 ---
 identifier: NovaPunchRebalanced
 $kref: '#/ckan/spacedock/2003'

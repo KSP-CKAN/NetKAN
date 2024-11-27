@@ -1,9 +1,6 @@
 identifier: RecycledPartskal9000
 $kref: '#/ckan/github/linuxgurugamer/RecycledParts'
 $vref: '#/ckan/ksp-avc'
-install:
-  - find: KAL9000
-    install_to: GameData/SpaceTuxIndustries/RecycledParts
 ---
 identifier: RecycledPartskal9000
 name: Recycled Parts KAL-9000

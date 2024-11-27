@@ -1,9 +1,6 @@
 identifier: KerbalMostlyHarmless
 $kref: '#/ckan/github/kaerospace/KerbalMostlyHarmless'
 x_netkan_version_edit: ^v(?<version>[^-]+)-.*$
-install:
-  - find: kAerospace
-    install_to: GameData
 ---
 identifier: KerbalMostlyHarmless
 $kref: '#/ckan/spacedock/3423'

@@ -1,9 +1,6 @@
 identifier: NodeSplitter
 $kref: '#/ckan/github/linuxgurugamer/ManeuverNodeSplitter'
 $vref: '#/ckan/ksp-avc'
-install:
-  - find: ManeuverNodeSplitter
-    install_to: GameData
 ---
 identifier: NodeSplitter
 $kref: '#/ckan/spacedock/2453'

@@ -1,9 +1,6 @@
 identifier: ContractConfigurator-HistoryofSpaceflight-PocketEdition
 $kref: '#/ckan/github/Frylovespi/History-of-Spaceflight/asset_match/PE'
 $vref: '#/ckan/ksp-avc'
-install:
-  - find: ContractPacks
-    install_to: GameData
 ---
 identifier: ContractConfigurator-HistoryofSpaceflight-PocketEdition
 $kref: '#/ckan/spacedock/2387'

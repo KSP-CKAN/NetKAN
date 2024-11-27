@@ -1,9 +1,6 @@
 identifier: CarnationREDFlexibleParts
 $kref: '#/ckan/github/linuxgurugamer/CarnationREDFlexibleParts'
 $vref: '#/ckan/ksp-avc'
-install:
-  - find: CarnationREDFlexiblePart
-    install_to: GameData
 ---
 identifier: CarnationREDFlexibleParts
 $kref: '#/ckan/spacedock/2380'

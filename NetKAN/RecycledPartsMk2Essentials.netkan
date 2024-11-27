@@ -1,9 +1,6 @@
 identifier: RecycledPartsMk2Essentials
 $kref: '#/ckan/github/linuxgurugamer/RecycledParts'
 $vref: '#/ckan/ksp-avc'
-install:
-  - find: Mk2Essentials
-    install_to: GameData/SpaceTuxIndustries/RecycledParts
 ---
 identifier: RecycledPartsMk2Essentials
 name: Recycled Parts Mk2 Essentials

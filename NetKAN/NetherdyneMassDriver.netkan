@@ -1,9 +1,6 @@
 identifier: NetherdyneMassDriver
 $kref: '#/ckan/github/linuxgurugamer/NeatherdyneMassDriver'
 $vref: '#/ckan/ksp-avc'
-install:
-  - find: NeatherdyneMassDriver
-    install_to: GameData
 ---
 license: CDDL
 identifier: NetherdyneMassDriver

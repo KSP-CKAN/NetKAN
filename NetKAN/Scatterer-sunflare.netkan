@@ -2,9 +2,6 @@ identifier: Scatterer-sunflare
 $kref: '#/ckan/github/LGhassen/Scatterer'
 x_netkan_force_v: true
 x_netkan_epoch: '3'
-install:
-  - find: Sunflares
-    install_to: GameData/StockScattererConfigs
 ---
 identifier: Scatterer-sunflare
 name: Scatterer Sunflare

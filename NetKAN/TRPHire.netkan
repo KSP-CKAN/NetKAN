@@ -1,9 +1,6 @@
 identifier: TRPHire
 $kref: '#/ckan/github/linuxgurugamer/PHS'
 $vref: '#/ckan/ksp-avc'
-install:
-  - find: TRP-Hire
-    install_to: GameData
 ---
 identifier: TRPHire
 $kref: '#/ckan/spacedock/777'

@@ -1,9 +1,6 @@
 identifier: NavUtilitiesUpdated
 $kref: '#/ckan/github/linuxgurugamer/NavInstruments'
 $vref: '#/ckan/ksp-avc'
-install:
-  - find: NavInstruments
-    install_to: GameData
 ---
 identifier: NavUtilitiesUpdated
 $kref: '#/ckan/spacedock/2879'

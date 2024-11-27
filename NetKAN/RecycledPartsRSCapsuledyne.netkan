@@ -1,9 +1,6 @@
 identifier: RecycledPartsRSCapsuledyne
 $kref: '#/ckan/github/linuxgurugamer/RecycledParts'
 $vref: '#/ckan/ksp-avc'
-install:
-  - find: RSCapsuledyne
-    install_to: GameData/SpaceTuxIndustries/RecycledParts
 ---
 identifier: RecycledPartsRSCapsuledyne
 name: Recycled Parts RSCapsuledyne

@@ -5,9 +5,6 @@ x_netkan_version_edit:
   replace: ''
   strict: false
 $vref: '#/ckan/ksp-avc'
-install:
-  - find: GameData/ReentryParticleEffectRenewed
-    install_to: GameData
 ---
 identifier: ReentryParticleEffect
 $kref: '#/ckan/spacedock/2373'

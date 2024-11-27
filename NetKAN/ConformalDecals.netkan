@@ -1,9 +1,6 @@
 identifier: ConformalDecals
 $kref: '#/ckan/github/drewcassidy/KSP-Conformal-Decals'
 $vref: '#/ckan/ksp-avc'
-install:
-  - find: GameData/ConformalDecals
-    install_to: GameData
 ---
 identifier: ConformalDecals
 $kref: '#/ckan/spacedock/2451'

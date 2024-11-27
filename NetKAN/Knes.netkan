@@ -2,27 +2,6 @@ identifier: Knes
 $kref: '#/ckan/github/AstroWell/Knes'
 $vref: '#/ckan/ksp-avc'
 license: CC-BY-NC-ND-4.0
-tags:
-  - crewed
-  - first-person
-  - graphics
-  - parts
-depends:
-  - name: ModuleManager
-  - name: Waterfall
-suggests:
-  - name: RetractableLiftingSurface
-  - name: KIS
-  - name: MechJeb2
-  - name: Pathfinder
-  - name: CryoTanks
-install:
-  - find: Knes
-    install_to: GameData
-  - file: Ships/SPH
-    install_to: Ships
-  - file: Ships/VAB
-    install_to: Ships
 ---
 identifier: Knes
 $kref: '#/ckan/spacedock/1470'

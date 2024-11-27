@@ -2,10 +2,6 @@ identifier: KerbalPlanetaryBaseSystems
 $kref: '#/ckan/github/Nils277/KerbalPlanetaryBaseSystems'
 $vref: '#/ckan/ksp-avc'
 x_netkan_force_v: true
-install:
-  - find: PlanetaryBaseInc
-    install_to: GameData
-    filter: _src.zip
 ---
 identifier: KerbalPlanetaryBaseSystems
 $kref: '#/ckan/spacedock/173'

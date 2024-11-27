@@ -1,10 +1,6 @@
 identifier: RCSBuildAidCont
 $kref: '#/ckan/github/linuxgurugamer/RCSBuildAid'
 $vref: '#/ckan/ksp-avc'
-install:
-  - find: RCSBuildAid
-    install_to: GameData
-    filter: Sources
 ---
 identifier: RCSBuildAidCont
 abstract: >-

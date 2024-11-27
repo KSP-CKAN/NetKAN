@@ -1,9 +1,6 @@
 identifier: KramaxAutopilotContinued
 $kref: '#/ckan/github/linuxgurugamer/KramaxAutoPilot'
 $vref: '#/ckan/ksp-avc'
-install:
-  - find: KramaxAutoPilot
-    install_to: GameData
 ---
 identifier: KramaxAutopilotContinued
 $kref: '#/ckan/spacedock/1019'

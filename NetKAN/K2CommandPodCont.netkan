@@ -1,9 +1,6 @@
 identifier: K2CommandPodCont
 $kref: '#/ckan/github/linuxgurugamer/K2_Command_Pod'
 $vref: '#/ckan/ksp-avc'
-install:
-  - file: GameData/JFJohnny5
-    install_to: GameData
 ---
 identifier: K2CommandPodCont
 $kref: '#/ckan/spacedock/1163'

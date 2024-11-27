@@ -1,9 +1,6 @@
 identifier: MinAmbLightUpd
 $kref: '#/ckan/github/linuxgurugamer/MinimumAmbientLightingUpdated'
 $vref: '#/ckan/ksp-avc'
-install:
-  - find: MinimumAmbientLightingUpdated
-    install_to: GameData
 ---
 identifier: MinAmbLightUpd
 $kref: '#/ckan/spacedock/2279'

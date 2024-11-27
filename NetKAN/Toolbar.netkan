@@ -1,10 +1,6 @@
 identifier: Toolbar
 $kref: '#/ckan/github/linuxgurugamer/ksp_toolbar'
 $vref: '#/ckan/ksp-avc'
-license: BSD-2-clause
-install:
-  - find: GameData/000_Toolbar
-    install_to: GameData
 ---
 identifier: Toolbar
 name: Toolbar

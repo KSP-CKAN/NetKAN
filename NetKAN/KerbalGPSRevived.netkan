@@ -1,9 +1,6 @@
 identifier: KerbalGPSRevived
 $kref: '#/ckan/github/linuxgurugamer/KerbalGPS'
 $vref: '#/ckan/ksp-avc'
-install:
-  - find: KerbalGPS
-    install_to: GameData
 ---
 identifier: KerbalGPSRevived
 name: Kerbal GPS

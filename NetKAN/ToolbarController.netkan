@@ -1,9 +1,6 @@
 identifier: ToolbarController
 $kref: '#/ckan/github/linuxgurugamer/ToolbarControl'
 $vref: '#/ckan/ksp-avc'
-install:
-  - find: 001_ToolbarControl
-    install_to: GameData
 ---
 identifier: ToolbarController
 name: Toolbar Controller

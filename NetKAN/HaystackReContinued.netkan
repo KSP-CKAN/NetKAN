@@ -1,9 +1,6 @@
 identifier: HaystackReContinued
 $kref: '#/ckan/github/linuxgurugamer/HaystackContinued'
 $vref: '#/ckan/ksp-avc'
-install:
-  - find: HaystackContinued
-    install_to: GameData
 ---
 identifier: HaystackReContinued
 $kref: '#/ckan/spacedock/1680'

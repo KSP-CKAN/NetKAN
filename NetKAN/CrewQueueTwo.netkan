@@ -1,9 +1,6 @@
 identifier: CrewQueueTwo
 $kref: '#/ckan/github/linuxgurugamer/CrewRandR'
 $vref: '#/ckan/ksp-avc'
-install:
-  - install_to: GameData
-    find: CrewRandR
 ---
 identifier: CrewQueueTwo
 $vref: '#/ckan/ksp-avc'

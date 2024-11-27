@@ -1,8 +1,5 @@
 identifier: PolishTranslationByReMakee
 $kref: '#/ckan/github/MarcinZboralski/PolishTranslation'
-install:
-  - find: PolishTranslation
-    install_to: GameData
 ---
 identifier: PolishTranslationByReMakee
 $kref: '#/ckan/spacedock/3251'

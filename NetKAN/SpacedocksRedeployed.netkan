@@ -1,9 +1,6 @@
 identifier: SpacedocksRedeployed
 $kref: '#/ckan/github/linuxgurugamer/SpaceDockReBoxed'
 $vref: '#/ckan/ksp-avc'
-install:
-  - find: SpaceDockReBoxed
-    install_to: GameData
 ---
 identifier: SpacedocksRedeployed
 $kref: '#/ckan/spacedock/1585'

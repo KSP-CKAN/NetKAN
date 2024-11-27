@@ -1,9 +1,6 @@
 identifier: RecycledPartsFTmNAtomicRockets
 $kref: '#/ckan/github/linuxgurugamer/RecycledParts'
 $vref: '#/ckan/ksp-avc'
-install:
-  - find: ftmn
-    install_to: GameData/SpaceTuxIndustries/RecycledParts
 ---
 identifier: RecycledPartsFTmNAtomicRockets
 name: Recycled Parts FTmN Atomic Rockets

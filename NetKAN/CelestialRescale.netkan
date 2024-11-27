@@ -1,12 +1,5 @@
 identifier: CelestialRescale
 $kref: '#/ckan/github/SpaceNerd24/Celestial-Rescale'
-license: restricted
-tags:
-  - plugin
-install:
-  - find: CelestialRescale
-    install_to: GameData
-    filter_regexp: \.pdb$
 x_netkan_version_edit:
   find: ^v\.
   replace: v

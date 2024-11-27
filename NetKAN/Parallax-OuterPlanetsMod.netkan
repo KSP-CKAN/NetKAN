@@ -1,10 +1,6 @@
 identifier: Parallax-OuterPlanetsMod
 $kref: '#/ckan/github/OneSaltyPringle/OPM-Parallax'
 x_netkan_force_v: true
-license: MIT
-install:
-  - find: OPM_Parallax
-    install_to: GameData
 ---
 identifier: Parallax-OuterPlanetsMod
 $kref: '#/ckan/spacedock/3501'

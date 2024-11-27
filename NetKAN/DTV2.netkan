@@ -1,9 +1,6 @@
 identifier: DTV2
 $kref: '#/ckan/github/linuxgurugamer/DraftTwitchViewers'
 $vref: '#/ckan/ksp-avc'
-install:
-  - find: DraftTwitchViewers
-    install_to: GameData
 ---
 identifier: DTV2
 abstract: Draft, tour with, or rescue your twitch viewers as in-game Kerbals!

@@ -1,9 +1,6 @@
 identifier: CareerManagerContinued
 $kref: '#/ckan/github/linuxgurugamer/CareerManagerContinued'
 $vref: '#/ckan/ksp-avc'
-install:
-  - find: CareerManager
-    install_to: GameData
 ---
 identifier: CareerManagerContinued
 $kref: '#/ckan/spacedock/1221'

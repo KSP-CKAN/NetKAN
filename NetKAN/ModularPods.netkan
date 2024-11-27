@@ -1,9 +1,6 @@
 identifier: ModularPods
 $kref: '#/ckan/github/linuxgurugamer/ModPods'
 $vref: '#/ckan/ksp-avc'
-install:
-  - find: ModPods
-    install_to: GameData
 ---
 identifier: ModularPods
 $kref: '#/ckan/spacedock/1017'

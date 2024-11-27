@@ -1,9 +1,6 @@
 identifier: ASETAvionics
 $kref: '#/ckan/github/StoneBlue/ASET-Consolidated-Avionics'
 $vref: '#/ckan/ksp-avc'
-install:
-  - find: ASET
-    install_to: GameData
 ---
 identifier: ASETAvionics
 author:

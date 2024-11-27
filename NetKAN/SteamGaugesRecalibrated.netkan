@@ -1,9 +1,6 @@
 identifier: SteamGaugesRecalibrated
 $kref: '#/ckan/github/linuxgurugamer/SteamGaugesRecalibrated'
 $vref: '#/ckan/ksp-avc'
-install:
-  - find: SteamGauges
-    install_to: GameData
 ---
 license: unknown
 identifier: SteamGaugesRecalibrated

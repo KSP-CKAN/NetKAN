@@ -1,17 +1,6 @@
 identifier: AdvancedFlyByWire
 $kref: '#/ckan/github/linuxgurugamer/ksp-advanced-flybywire/asset_match/win'
 $vref: '#/ckan/ksp-avc'
-install:
-  - file: SDL2.dll
-    install_to: GameRoot
-  - file: SDL_LICENSE
-    install_to: GameRoot
-  - file: XINPUTDOTNET_LICENSE
-    install_to: GameRoot
-  - file: XInputInterface.dll
-    install_to: GameRoot
-  - file: GameData/ksp-advanced-flybywire
-    install_to: GameData
 ---
 identifier: AdvancedFlyByWire
 name: Advanced Fly-By-Wire (Windows)

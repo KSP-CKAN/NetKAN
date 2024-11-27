@@ -1,17 +1,5 @@
 identifier: CommonwealthAeronauticsBlueSteel
 $kref: '#/ckan/github/AstroWell/BlueSteel'
-license: CC-BY-NC-SA-4.0
-tags:
-  - crewed
-  - first-person
-  - parts
-depends:
-  - name: ModuleManager
-install:
-  - find: BlueSteel
-    install_to: GameData
-  - file: Ships/SPH
-    install_to: Ships
 x_netkan_version_edit:
   find: ^v
   replace: ''
