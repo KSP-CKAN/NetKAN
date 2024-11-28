@@ -2,6 +2,9 @@ identifier: ContractConfigurator
 $kref: >-
   #/ckan/netkan/https://raw.githubusercontent.com/KSP-RO/ContractConfigurator/master/ContractConfiguratorRO.netkan
 x_netkan_license_ok: true
+depends:
+  - name: Harmony2
+  - name: ModuleManager
 tags:
   - plugin
   - library
