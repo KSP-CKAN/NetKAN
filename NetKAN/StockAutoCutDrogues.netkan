@@ -1,0 +1,11 @@
+identifier: StockAutoCutDrogues
+$kref: '#/ckan/github/SofieBrink/StockAutoCutDrogues'
+---
+identifier: StockAutoCutDrogues
+$kref: '#/ckan/spacedock/3773'
+license: MIT
+tags:
+  - config
+  - convenience
+abstract: >-
+  This mod is a simple ModuleManager patch to add the ModuleAutoCutDrogue module from KSPCommunityPartModules to all the stock parachutes.
