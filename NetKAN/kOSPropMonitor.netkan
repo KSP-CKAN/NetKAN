@@ -5,9 +5,6 @@ x_netkan_version_edit:
   replace: ''
   strict: false
 $vref: '#/ckan/ksp-avc'
-install:
-  - find: kPM
-    install_to: GameData
 ---
 identifier: kOSPropMonitor
 $kref: '#/ckan/spacedock/3473'

@@ -4,20 +4,6 @@ x_netkan_version_edit:
   find: ^v
   replace: ''
   strict: false
-license: MIT
-tags:
-  - career
-  - flags
-  - agency
-depends:
-  - name: ModuleManager
-  - name: ContractConfigurator
-recommends:
-  - name: AirplanePlus
-  - name: KerbalAircraftExpansion
-install:
-  - find: ContractPacks
-    install_to: GameData
 ---
 identifier: ContractConfigurator-PlanesWithPurposes
 $kref: '#/ckan/spacedock/2601'
