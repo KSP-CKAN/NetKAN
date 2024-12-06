@@ -1,11 +1,4 @@
 identifier: KSPTOTConnect
-$kref: '#/ckan/github/Arrowstar/ksptot/asset_match/^(?!.*linux)'
-x_netkan_version_edit:
-  find: ^v
-  replace: ''
-  strict: false
----
-identifier: KSPTOTConnect
 name: KSP Trajectory Optimization Tool Connect
 $kref: '#/ckan/spacedock/3737'
 tags:
