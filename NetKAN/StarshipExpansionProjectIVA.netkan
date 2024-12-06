@@ -1,5 +1,9 @@
 identifier: StarshipExpansionProjectIVA
 $kref: '#/ckan/github/Kari1407/Starship-Expansion-Project'
+x_netkan_version_edit:
+  find: ^v(?<first>[^.])
+  replace: v.${first}
+  strict: false
 ---
 identifier: StarshipExpansionProjectIVA
 name: Starship Expansion Project IVA
