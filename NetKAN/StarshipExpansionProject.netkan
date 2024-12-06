@@ -1,5 +1,10 @@
 identifier: StarshipExpansionProject
 $kref: '#/ckan/github/Kari1407/Starship-Expansion-Project'
+abstract: Starship vehicle by SpaceX
+x_netkan_version_edit:
+  find: ^v(?<first>[^.])
+  replace: v.${first}
+  strict: false
 ---
 identifier: StarshipExpansionProject
 name: Starship Expansion Project
