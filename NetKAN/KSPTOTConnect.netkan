@@ -4,12 +4,6 @@ x_netkan_version_edit:
   find: ^v
   replace: ''
   strict: false
-install:
-  - find: KSPTOTConnect
-    install_to: GameData
-    filter: IPAddressWhitelist.txt
-  - find: Ships/Script
-    install_to: Ships
 ---
 identifier: KSPTOTConnect
 name: KSP Trajectory Optimization Tool Connect
