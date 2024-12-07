@@ -1,0 +1,22 @@
+identifier: LagrangeProjectRSS
+name: Lagrange Project-RSS
+abstract: Adds smalls moons on real life L1-L2 Lagrange Points.
+author:
+  - KopaZ
+license: MIT
+$kref: '#/ckan/github/dongk99/LagrangeProjectRSS'
+$vref: '#/ckan/ksp-avc'
+release_status: stable
+resources:
+  bugtracker: https://github.com/dongk99/LagrangeProjectRSS/issues
+  license: https://github.com/dongk99/LagrangeProjectRSS/blob/main/LICENSE
+  manual: https://github.com/dongk99/LagrangeProjectRSS/blob/main/README.md
+  homepage: https://forum.kerbalspaceprogram.com/topic/226357-lagrangeproject-rss/
+  repository: https://github.com/dongk99/LagrangeProjectRSS
+tags:
+  - physics
+  - config
+  - planet-pack
+ksp_version_min: 1.12.1
+depends:
+  - name: RealSolarSystem
