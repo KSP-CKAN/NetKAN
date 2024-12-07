@@ -2,6 +2,8 @@ identifier: BetterRocketDesigns
 name: Better Rocket Designs
 author: Bloodsucker
 $kref: '#/ckan/github/Bloodsucker/ksp-better-rocket-designs'
+x_netkan_github:
+  prereleases: false
 ksp_version: '1.12.5'
 license: LGPL-3.0
 resources:
