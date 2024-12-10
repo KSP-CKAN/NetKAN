@@ -1,0 +1,17 @@
+identifier: VuhrantiSystem
+$kref: '#/ckan/github/Oprissmian/VuhrantiSystem'
+$vref: '#/ckan/ksp-avc'
+---
+identifier: VuhrantiSystem
+$kref: '#/ckan/spacedock/3774'
+$vref: '#/ckan/ksp-avc'
+tags:
+  - config
+  - planet-pack
+depends:
+  - name: ModuleManager
+  - name: Kopernicus
+install:
+  - find: GameData/VuhrantiSystem
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
