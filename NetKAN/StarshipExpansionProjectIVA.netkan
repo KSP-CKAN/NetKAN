@@ -13,22 +13,15 @@ author:
   - Sofie
   - Janus92
 $kref: '#/ckan/spacedock/2959'
-ksp_version_min: '1.12'
+ksp_version_min: '1.12.3'
+ksp_version_max: '1.12.99'
 license: restricted
 tags:
   - parts
   - crewed
   - first-person
-depends:
-  - name: ModuleManager
-  - name: StarshipExpansionProject
-  - name: NearFutureProps
-  - name: Reviva
-  - name: FreeIva
-  - name: RasterPropMonitor-Core
-recommends:
-  - name: ASETProps
-  - name: JSIAdvancedTransparentPods
 install:
   - find: Spaces
+    install_to: GameData/StarshipExpansionProject
+  - find: Props
     install_to: GameData/StarshipExpansionProject

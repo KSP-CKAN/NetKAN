@@ -12,31 +12,15 @@ author:
   - Kari
   - Sofie
 $kref: '#/ckan/spacedock/2959'
-ksp_version_min: '1.12'
+ksp_version_min: '1.12.3'
+ksp_version_max: '1.12.99'
 license: restricted
 tags:
   - parts
   - plugin
-depends:
-  - name: ModuleManager
-  - name: B9PartSwitch
-  - name: Waterfall
-recommends:
-  - name: StarshipExpansionProjectIVA
-  - name: StarshipLaunchExpansion
-  - name: TundraExploration
-  - name: TexturesUnlimited
-  - name: KerbalJointReinforcementNext
-suggests:
-  - name: CommunityResourcePack
-  - name: ModularLaunchPads
-  - name: FMRS
-  - name: Trajectories
-  - name: JNSQ
-supports:
-  - name: HullcamVDSContinued
-  - name: NeptuneCamera
 install:
   - find: StarshipExpansionProject
     install_to: GameData
-    filter: Spaces
+    filter: 
+      - Spaces
+      - Props
