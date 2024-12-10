@@ -21,6 +21,6 @@ tags:
 install:
   - find: StarshipExpansionProject
     install_to: GameData
-    filter: 
+    filter:
       - Spaces
       - Props
