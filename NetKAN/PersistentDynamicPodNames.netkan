@@ -16,5 +16,11 @@ recommends:
   - name: JanitorsCloset
 x_netkan_override:
   - version: 0.1.8
+    after: avc
+    delete:
+      - ksp_version_min
+      - ksp_version_max
+  - version: 0.1.8
+    before: localizations
     override:
       ksp_version: 1.3.0
