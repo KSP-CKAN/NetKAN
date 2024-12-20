@@ -1,23 +1,14 @@
-{
-    "identifier": "AntennaRangePatches",
-    "$kref": "#/ckan/spacedock/876",
-    "$vref": "#/ckan/ksp-avc",
-    "license": "CC-BY-NC-SA-4.0",
-    "depends": [
-        { "name": "AntennaRange" },
-        { "name": "ModuleManager" }
-    ],
-    "recommends": [
-        { "name": "Antennas" }
-    ],
-    "conflicts": [
-        { "name": "AntennaPatch4AntennaRange"},
-        { "name": "RemoteTech"}
-    ],
-    "install": [
-        {
-            "find"       : "AntennaRangePatches",
-            "install_to" : "GameData"
-        }
-    ]
-}
+identifier: AntennaRangePatches
+$kref: '#/ckan/spacedock/876'
+$vref: '#/ckan/ksp-avc'
+tags:
+  - config
+  - comms
+conflicts:
+  - name: AntennaPatch4AntennaRange
+  - name: RemoteTech
+depends:
+  - name: AntennaRange
+  - name: ModuleManager
+recommends:
+  - name: Antennas
