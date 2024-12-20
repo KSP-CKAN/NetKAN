@@ -3,7 +3,7 @@ $kref: '#/ckan/spacedock/52'
 $vref: '#/ckan/ksp-avc'
 tags:
   - config
-  - Career
+  - career
 depends:
   - name: SpacetuxSA
   - name: ContractConfigurator
