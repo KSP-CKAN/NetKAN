@@ -11,5 +11,5 @@ depends:
   - name: ModuleManager
   - name: ContractConfigurator
 install:
-  - find: ContactPacks
+  - find: ContractPacks
     install_to: GameData
