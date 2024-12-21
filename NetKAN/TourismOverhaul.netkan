@@ -1,4 +1,8 @@
 identifier: TourismOverhaul
+$kref: '#/ckan/github/iLikeGothMommys/TourismOverhaul'
+$vref: '#/ckan/ksp-avc'
+---
+identifier: TourismOverhaul
 name: Tourism Overhaul
 abstract: Completely revamps tourism contracts
 $kref: '#/ckan/spacedock/3788'
