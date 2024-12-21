@@ -1,4 +1,6 @@
-identifier: TourismOverhaulCompletelyRevampsTourismContracts
+identifier: TourismOverhaul
+name: Tourism Overhaul
+abstract: Completely revamps tourism contracts
 $kref: '#/ckan/spacedock/3788'
 $vref: '#/ckan/ksp-avc'
 tags:
@@ -9,6 +11,5 @@ depends:
   - name: ModuleManager
   - name: ContractConfigurator
 install:
-  - find: ''
+  - find: ContactPacks
     install_to: GameData
-x_via: Automated SpaceDock CKAN submission
