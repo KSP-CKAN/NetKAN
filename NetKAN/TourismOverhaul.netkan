@@ -7,7 +7,7 @@ identifier: TourismOverhaul
 name: Tourism Overhaul
 abstract: Completely revamps tourism contracts
 $kref: '#/ckan/spacedock/3788'
-x_netkan_version_edit: '^(?<version>[^ ]+)'
+x_netkan_version_edit: '^(?<version>[^ ]+).*$'
 $vref: '#/ckan/ksp-avc'
 resources:
   remote-avc: https://raw.githubusercontent.com/iLikeGothMommys/TourismOverhaul/refs/heads/main/ContractPack-TourismOverhaul.version
