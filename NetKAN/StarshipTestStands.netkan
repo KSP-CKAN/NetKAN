@@ -1,0 +1,8 @@
+identifier: StarshipTestStands
+$kref: '#/ckan/spacedock/3796'
+tags:
+  - parts
+depends:
+  - name: ModuleManager
+  - name: B9PartSwitch
+x_via: Automated SpaceDock CKAN submission
