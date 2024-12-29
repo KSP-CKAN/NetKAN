@@ -17,6 +17,7 @@ tags:
 depends:
   - name: ModuleManager
   - name: ContractConfigurator
+  - name: Strategia
 install:
   - find: ContractPacks
     install_to: GameData
