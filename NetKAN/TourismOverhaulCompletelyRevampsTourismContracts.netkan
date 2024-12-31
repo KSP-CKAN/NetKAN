@@ -1,0 +1,23 @@
+identifier: TourismOverhaulCompletelyRevampsTourismContracts
+$kref: '#/ckan/github/iLikeGothMommys/TourismOverhaul'
+x_netkan_version_edit:
+  find: ^Release
+  replace: ''
+  strict: false
+$vref: '#/ckan/ksp-avc'
+---
+identifier: TourismOverhaulCompletelyRevampsTourismContracts
+$kref: '#/ckan/spacedock/3788'
+$vref: '#/ckan/ksp-avc'
+tags:
+  - career
+  - config
+  - plugin
+depends:
+  - name: ModuleManager
+  - name: ContractConfigurator
+  - name: CustomBarnKit
+install:
+  - find: ''
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
