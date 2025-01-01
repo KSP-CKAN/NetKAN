@@ -1,0 +1,14 @@
+identifier: CommunityDeltaVMaps-OPM
+name: Community Delta-V Maps - OPM
+abstract: >-
+  KSPedia addition of map displaying delta-V requirements to reach bodies in the
+  Outer Planets Mod.
+$kref: '#/ckan/spacedock/3799'
+ksp_version_min: 1.1
+tags:
+  - config
+  - information
+install:
+  - find_regexp: Delta-V Map.*\.ksp
+    install_to: GameData/CommunityDeltaVMaps
+    find_matches_files: true
