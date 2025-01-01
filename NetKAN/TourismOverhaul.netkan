@@ -17,6 +17,7 @@ tags:
 depends:
   - name: ModuleManager
   - name: ContractConfigurator
+recommends:
   - name: Strategia
 install:
   - find: ContractPacks
