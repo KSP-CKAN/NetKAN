@@ -16,7 +16,6 @@ tags:
 depends:
   - name: ModuleManager
   - name: ContractConfigurator
-  - name: CustomBarnKit
 install:
   - find: ''
     install_to: GameData
