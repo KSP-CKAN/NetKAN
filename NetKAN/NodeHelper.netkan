@@ -6,6 +6,9 @@
     "resources": {
         "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/190144-*"
     },
+    "depends": [
+       { "name":"ToolbarController" }
+    ],
     "tags": [
         "plugin",
         "app"
