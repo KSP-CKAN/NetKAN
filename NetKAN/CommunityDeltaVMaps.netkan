@@ -4,7 +4,7 @@ abstract: >-
   KSPedia addition of map displaying delta-V requirements to reach bodies in the
   stock Kerbol system.
 $kref: '#/ckan/spacedock/3798'
-license: CC-BY-NC-SA-4.0
+ksp_version_min: 1.9
 tags:
   - config
   - information
