@@ -1,9 +1,0 @@
-identifier: DeltavMapStockPlanets
-$kref: '#/ckan/github/Kowgan/ksp_cheat_sheets'
----
-identifier: DeltavMapStockPlanets
-$kref: '#/ckan/spacedock/3798'
-install:
-  - find: ''
-    install_to: GameData
-x_via: Automated SpaceDock CKAN submission
