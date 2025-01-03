@@ -21,6 +21,35 @@ conflicts:
     max_version: 3:0.45.1
 depends:
   - name: Shabby
+supports:
+  - name: TexturesUnlimited
+  min_version: 1.6.0.26
+  - name: Parallax
+  min_version: 2.0.8
+  - name: ConformalDecals
+  min_version: 0.2.14
+  - name: B9-PWings-Fork
+  min_version: 3:0.46.0
+  - name: Scatterer
+  min_version: 3:v0.0878
+  - name: EnvironmentalVisualEnhancements
+  min_version: 3:1.11.7.2
+  - name: TUFX
+  - name: Kopernicus
+  - name: Waterfall
+  - name: SimpleAdjustableFairings
+  - name: KerbalKonstructs
+  min_version: v1.8.9.0
+  - name: EngineLightRelit
+  - name: KVVContinued
+  - name: RealSolarSystem
+  - name: RasterPropMonitor-Core
+  min_version: 1:v1.0.1
+  - name: FreeIva
+  min_version: 0.2.19.0
+  - name: Shaddy
+  - name: NeptuneCamera
+  min_version: v4.3
 install:
   - find: zzz_Deferred
     install_to: GameData
