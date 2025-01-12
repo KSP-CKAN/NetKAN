@@ -1,0 +1,7 @@
+identifier: BDBAntennaPatches
+$kref: '#/ckan/spacedock/3803'
+tags:
+  - config
+depends:
+  - name: ModuleManager
+x_via: Automated SpaceDock CKAN submission
