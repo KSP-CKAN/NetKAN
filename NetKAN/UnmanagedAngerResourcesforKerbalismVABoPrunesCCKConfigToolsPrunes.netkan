@@ -1,0 +1,16 @@
+identifier: UnmanagedAngerResourcesforKerbalismVABoPrunesCCKConfigToolsPrunes
+$kref: '#/ckan/spacedock/3804'
+$vref: '#/ckan/ksp-avc'
+tags:
+  - config
+  - crewed
+  - first-person
+  - plugin
+depends:
+  - name: ModuleManager
+  - name: B9PartSwitch
+install:
+  - find: ''
+    install_to: GameData
+    filter_regexp: \.pdb$
+x_via: Automated SpaceDock CKAN submission
