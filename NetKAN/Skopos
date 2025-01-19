@@ -1,0 +1,20 @@
+$kref: '#/ckan/github/mockingbirdnest/Skopos'
+$vref: '#/ckan/ksp-avc'
+name: Σκοπός
+identifier: Skopos
+abstract: >-
+  ὁ σκοπός, οῦ: goal. KSP contracts that specify goals, and leave mission design to the player. .dll only, requires another mod add contracts utilizing Skopos
+license: MIT
+release_status: stable
+depends:
+  - name: ModuleManager
+  - name: RealAntennas
+suggests:
+  - name: RP-1-ExpressInstall
+resources:
+  homepage: >-
+    https://github.com/mockingbirdnest/Skopos
+  manual: https://github.com/mockingbirdnest/Skopos/wiki
+install:
+  - file: GameData/Skopos
+    install_to: GameData
