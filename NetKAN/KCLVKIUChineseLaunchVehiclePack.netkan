@@ -1,0 +1,70 @@
+identifier: KCLVKIUChineseLaunchVehiclePack
+$kref: '#/ckan/spacedock/3143'
+$vref: '#/ckan/ksp-avc'
+tags:
+  - graphics
+  - parts
+depends:
+  - name: ModuleManager
+  - name: Waterfall
+install:
+  - find: KIU
+    install_to: GameData
+    filter_regexp: \.craft$
+  - file: KIU/CraftFiles/Non-RO/KIU-Yuanzheng-3.craft
+    install_to: Ships/VAB
+  - file: KIU/CraftFiles/Non-RO/KIU-CZ-2F.craft
+    install_to: Ships/VAB
+  - file: KIU/CraftFiles/Non-RO/KIU-CZ-3B.craft
+    install_to: Ships/VAB
+  - file: KIU/CraftFiles/Non-RO/KIU-CZ-3C.craft
+    install_to: Ships/VAB
+  - file: KIU/CraftFiles/Non-RO/KIU-CZ-6.craft
+    install_to: Ships/VAB
+  - file: KIU/CraftFiles/Non-RO/KIU-CZ-6A.craft
+    install_to: Ships/VAB
+  - file: KIU/CraftFiles/Non-RO/KIU-CZ-7.craft
+    install_to: Ships/VAB
+  - file: KIU/CraftFiles/Non-RO/KIU-CZ-7A（双星构型）.craft
+    install_to: Ships/VAB
+  - file: KIU/CraftFiles/Non-RO/KIU-CZ-7A.craft
+    install_to: Ships/VAB
+  - file: KIU/CraftFiles/Non-RO/KIU-CZ-8.craft
+    install_to: Ships/VAB
+  - file: KIU/CraftFiles/Non-RO/KIU-CZ-8Y2.craft
+    install_to: Ships/VAB
+  - file: KIU/CraftFiles/Non-RO/KIU-CZ-10.craft
+    install_to: Ships/VAB
+  - file: KIU/CraftFiles/Non-RO/KIU-YL-1.craft
+    install_to: Ships/VAB
+  - file: KIU/CraftFiles/Non-RO/KIU-CZ-10(Mengzhou).craft
+    install_to: Ships/VAB
+  - file: KIU/CraftFiles/RO/KIU-YL-1.craft
+    install_to: Ships/VAB
+  - file: KIU/CraftFiles/RO/KIU-YuanZheng-3.craft
+    install_to: Ships/VAB
+  - file: KIU/CraftFiles/RO/KIU-CZ-2F.craft
+    install_to: Ships/VAB
+  - file: KIU/CraftFiles/RO/KIU-CZ-3B.craft
+    install_to: Ships/VAB
+  - file: KIU/CraftFiles/RO/KIU-CZ-3C.craft
+    install_to: Ships/VAB
+  - file: KIU/CraftFiles/RO/KIU-CZ-6.craft
+    install_to: Ships/VAB
+  - file: KIU/CraftFiles/RO/KIU-CZ-6A.craft
+    install_to: Ships/VAB
+  - file: KIU/CraftFiles/RO/KIU-CZ-7.craft
+    install_to: Ships/VAB
+  - file: KIU/CraftFiles/RO/KIU-CZ-7A（双星构型）.craft
+    install_to: Ships/VAB
+  - file: KIU/CraftFiles/RO/KIU-CZ-7A.craft
+    install_to: Ships/VAB
+  - file: KIU/CraftFiles/RO/KIU-CZ-8.craft
+    install_to: Ships/VAB
+  - file: KIU/CraftFiles/RO/KIU-CZ-8Y2.craft
+    install_to: Ships/VAB
+  - file: KIU/CraftFiles/RO/KIU-CZ-10.craft
+    install_to: Ships/VAB
+  - file: KIU/CraftFiles/RO/KIU-CZ-10(Mengzhou).craft
+    install_to: Ships/VAB
+x_via: Automated SpaceDock CKAN submission
