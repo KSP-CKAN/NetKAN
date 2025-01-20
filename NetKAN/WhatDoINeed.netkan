@@ -4,6 +4,7 @@ $vref: '#/ckan/ksp-avc'
 ---
 identifier: WhatDoINeed
 $kref: '#/ckan/spacedock/3806'
+$vref: '#/ckan/ksp-avc'
 tags:
   - plugin
   - career
