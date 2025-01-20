@@ -1,0 +1,10 @@
+identifier: WhatDoINeed
+$kref: '#/ckan/github/linuxgurugamer/WhatDoINeed'
+$vref: '#/ckan/ksp-avc'
+---
+identifier: WhatDoINeed
+$kref: '#/ckan/spacedock/3806'
+install:
+  - find: ''
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
