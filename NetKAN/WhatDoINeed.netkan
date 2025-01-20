@@ -10,3 +10,8 @@ tags:
   - career
   - information
   - editor
+depends:
+  - name: ClickThroughBlocker
+  - name: ToolbarController
+  - name: SpaceTuxLibrary
+  - name: ContractParser
