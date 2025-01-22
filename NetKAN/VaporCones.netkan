@@ -1,0 +1,7 @@
+identifier: VaporCones
+$kref: '#/ckan/spacedock/3805'
+tags:
+  - plugin
+  - graphics
+recommends:
+  - name: RocketSoundEnhancement
