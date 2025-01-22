@@ -1,7 +1,5 @@
 identifier: VABOrganizerRP1Configs
 $kref: '#/ckan/github/Cruesoe/VABOrganizer-RP-1-Configs'
-x_netkan_github:
-  use_source_archive: true
 ---
 identifier: VABOrganizerRP1Configs
 $kref: '#/ckan/spacedock/3801'
