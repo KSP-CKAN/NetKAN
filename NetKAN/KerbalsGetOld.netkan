@@ -11,7 +11,7 @@ $kref: '#/ckan/spacedock/3807'
 $vref: '#/ckan/ksp-avc'
 tags:
   - plugin
+  - crewed
 install:
   - find: KerbalAgingMod
     install_to: GameData
-x_via: Automated SpaceDock CKAN submission
