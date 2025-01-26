@@ -12,7 +12,6 @@ $vref: '#/ckan/ksp-avc'
 tags:
   - career
   - config
-  - plugin
 depends:
   - name: ModuleManager
   - name: ContractConfigurator
