@@ -1,6 +1,7 @@
 identifier: RSS-Adapter
 abstract: Adapts your stock KSP for the Real Solar System
 $kref: '#/ckan/github/Globul-Art/RSS_Adapter'
+x_netkan_force_v: true
 license: MIT
 tags:
   - config
