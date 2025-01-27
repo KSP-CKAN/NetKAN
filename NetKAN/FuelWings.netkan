@@ -1,7 +1,7 @@
 identifier: FuelWings
 $kref: '#/ckan/spacedock/1290'
 $vref: '#/ckan/ksp-avc'
-x_netkan_epoch: 1
+x_netkan_force_v: true
 license: restricted
 tags:
   - config
