@@ -1,6 +1,8 @@
+identifier: MinorPlanetsExpansion
+$kref: '#/ckan/github/ExosLab/Minor-Planets-Expansion'
 ---
 identifier: MinorPlanetsExpansion
-"$kref": "#/ckan/spacedock/2383"
+$kref: '#/ckan/spacedock/2383'
 license: MIT
 tags:
 - config
