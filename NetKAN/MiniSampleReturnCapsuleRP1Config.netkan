@@ -1,0 +1,10 @@
+identifier: MiniSampleReturnCapsuleRP1Config
+$kref: '#/ckan/spacedock/3811'
+tags:
+  - config
+depends:
+  - name: ModuleManager
+install:
+  - find: MinISampleReturnCapsule
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
