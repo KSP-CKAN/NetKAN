@@ -9,3 +9,4 @@ depends:
 install:
   - find: MiningExpansion
     install_to: GameData
+    filter: Thumbs.db
