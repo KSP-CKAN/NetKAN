@@ -1,0 +1,12 @@
+identifier: StockalikeMiningExtension
+$kref: '#/ckan/spacedock/354'
+license: CC-BY-NC-SA-4.0
+tags:
+  - parts
+  - resources
+depends:
+  - name: ModuleManager
+install:
+  - find: MiningExpansion
+    install_to: GameData
+    filter: Thumbs.db

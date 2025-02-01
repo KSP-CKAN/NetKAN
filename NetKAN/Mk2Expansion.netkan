@@ -14,6 +14,7 @@ depends:
 install:
   - find: GameData/Mk2Expansion
     install_to: GameData
+    filter: Thumbs.db
   - find: VAB
     install_to: Ships
   - find: SPH
