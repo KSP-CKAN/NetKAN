@@ -4,7 +4,9 @@ resources:
   manual: https://github.com/CharonSSS/AdvancedPQSTools/wiki
 ksp_version: 1.12
 tags:
-  - config
+  - plugin
+  - library
+  - planet-pack
 depends:
   - name: ModuleManager
   - name: Kopernicus
