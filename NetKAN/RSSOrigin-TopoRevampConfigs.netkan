@@ -16,6 +16,10 @@ depends:
   - name: Kopernicus
   - name: KSPCommunityFixes
   - name: RSSOrigin-TopoRevampTextures
+  - name: AdvancedPQSTools
+  - name: VertexMitchellNetravaliHeightMap
+  - name: RSSOrigin
+  - name: VertexColorMapEmissive
 recommends:
   - name: RSSOrigin
 suggests:
