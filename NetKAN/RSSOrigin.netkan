@@ -1,11 +1,11 @@
 identifier: RSSOrigin
-name: RSS-Origin CelestialsPack Core
+name: RSS-Origin Core
 abstract: >-
   The major part of RSS-Origin, which adds plenty of asteroids, asteroid moons,
   comets, moons of gas/ice giants, dwarf planets, dwarf planet moons, and
-  interstellar objects into real solar system, currently 198 in total. (dozens
+  interstellar objects into real solar system, currently 200 in total. (dozens
   more in the future). This is the core pack
-$kref: '#/ckan/github/CharonSSS/RSS-Origin/asset_match/RSS-Origin.CelestialsPack.Core.zip'
+$kref: '#/ckan/github/CharonSSS/RSS-Origin/asset_match/RSS-Origin.Core.zip'
 ksp_version: 1.12
 license: CC-BY-NC-SA-4.0
 tags:
@@ -15,6 +15,7 @@ depends:
   - name: Kopernicus
   - name: VertexMitchellNetravaliHeightMap
   - name: KSPCommunityFixes
+  - name: AdvancedPQSTools
 #we need to add RSS or KSRSS as a dependency, but KSRSS isn't on CKAN...
 recommends:
   - name: TooManyOrbits
@@ -24,6 +25,7 @@ recommends:
   - name: RealismOverhaul
   - name: RSSOrigin-GalaxyTex
   - name: RSSOrigin-JSUNrings
+  - name: RSSOrigin-TopoRevampConfigs
   - name: RSSOrigin-CelestialsPack-Centaurs
   - name: RSSOrigin-CelestialsPack-Comets
   - name: RSSOrigin-CelestialsPack-InterstellarObjects
