@@ -15,3 +15,8 @@ depends:
   - name: ToolbarController
   - name: SpaceTuxLibrary
   - name: ContractParser
+supports:
+  - name: KerbalChangelog
+  - name: SCANsat
+  - name: DMagicOrbitalScience
+  - name: KIS
