@@ -14,7 +14,6 @@ abstract: >-
   This plugin has no overhead when TweakScaleRescaled is not installed.
 $kref: '#/ckan/spacedock/3514'
 $vref: '#/ckan/ksp-avc/GameData/999_Scale_Redist.version'
-release_status: stable
 license: CC-BY-NC-SA
 author:
   - Biotronic
