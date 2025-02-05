@@ -10,13 +10,14 @@ tags:
   - career
   - information
   - editor
+recommends:
+  - name: KerbalChangelog
 depends:
   - name: ClickThroughBlocker
   - name: ToolbarController
   - name: SpaceTuxLibrary
   - name: ContractParser
 supports:
-  - name: KerbalChangelog
   - name: SCANsat
   - name: DMagicOrbitalScience
   - name: KIS
