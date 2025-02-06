@@ -29,6 +29,7 @@ recommends:
 conflicts:
   - name: TweakScale
   - name: TweakScaleCompanion
+  - name: TweakScaleCompanion-ReStockPlus
   - name: KSP-Recall
 provides:
   - TweakScale
