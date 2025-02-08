@@ -4,4 +4,6 @@ tags:
   - config
 depends:
   - name: ModuleManager
-x_via: Automated SpaceDock CKAN submission
+install:
+  - find: GameData/BDBAntennaPatches
+    install_to: GameData
