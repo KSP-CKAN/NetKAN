@@ -12,7 +12,7 @@ depends:
 install:
   - find: KIU
     install_to: GameData
-    filter_regexp: \.craft$
+    filter: CraftFiles
   - file: KIU/CraftFiles/Non-RO
     install_to: Ships
     as: VAB
