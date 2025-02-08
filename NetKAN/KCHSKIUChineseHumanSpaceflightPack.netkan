@@ -13,36 +13,6 @@ install:
   - find: KIU
     install_to: GameData
     filter_regexp: \.craft$
-  - file: KIU/CraftFiles/Non-RO/KIU-Lanyue.craft
-    install_to: Ships/VAB
-  - file: KIU/CraftFiles/Non-RO/KIU-Mengtian.craft
-    install_to: Ships/VAB
-  - file: KIU/CraftFiles/Non-RO/KIU-Mengzhou.craft
-    install_to: Ships/VAB
-  - file: KIU/CraftFiles/Non-RO/KIU-shenzhou.craft
-    install_to: Ships/VAB
-  - file: KIU/CraftFiles/Non-RO/KIU-Tiangong.craft
-    install_to: Ships/VAB
-  - file: KIU/CraftFiles/Non-RO/KIU-Tianhe.craft
-    install_to: Ships/VAB
-  - file: KIU/CraftFiles/Non-RO/KIU-Tianzhou.craft
-    install_to: Ships/VAB
-  - file: KIU/CraftFiles/Non-RO/KIU-Wentian.craft
-    install_to: Ships/VAB
-  - file: KIU/CraftFiles/RO/KIU-Lanyue.craft
-    install_to: Ships/VAB
-  - file: KIU/CraftFiles/RO/KIU-Mengtian.craft
-    install_to: Ships/VAB
-  - file: KIU/CraftFiles/RO/KIU-Mengzhou.craft
-    install_to: Ships/VAB
-  - file: KIU/CraftFiles/RO/KIU-shenzhou.craft
-    install_to: Ships/VAB
-  - file: KIU/CraftFiles/RO/KIU-Tiangong.craft
-    install_to: Ships/VAB
-  - file: KIU/CraftFiles/RO/KIU-Tianhe.craft
-    install_to: Ships/VAB
-  - file: KIU/CraftFiles/RO/KIU-Tianzhou.craft
-    install_to: Ships/VAB
-  - file: KIU/CraftFiles/RO/KIU-Wentian.craft
-    install_to: Ships/VAB
-x_via: Automated SpaceDock CKAN submission
+  - file: KIU/CraftFiles/Non-RO
+    install_to: Ships
+    as: VAB
