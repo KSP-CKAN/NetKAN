@@ -16,6 +16,8 @@ recommends:
   - name: DMTanks-AeroRTG
   - name: DMTanks-CargoBays
   - name: DMTanks-Fuselage
+suggests:
+  - name: B9PartSwitch
 supports:
   - name: TweakScale
   - name: KerbalChangelog
