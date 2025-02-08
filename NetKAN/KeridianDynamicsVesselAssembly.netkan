@@ -24,6 +24,7 @@ suggests:
   - name: KIS
   - name: KerbalInventorySystemNoFun
   - name: TweakScale
+  - name: B9PartSwitch
 supports:
   - name: SimpleConstruction
   - name: SimpleLogistics
@@ -34,7 +35,6 @@ supports:
   - name: TankSwitcher
   - name: InterstellarFuelSwitchCore
   - name: FirespitterCore
-  - name: B9PartSwitch
   - name: SimplexColonies
   - name: TweakScale
   - name: PatchManager
