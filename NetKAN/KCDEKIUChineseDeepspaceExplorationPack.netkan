@@ -9,13 +9,7 @@ depends:
 install:
   - find: KIU
     install_to: GameData
-    filter_regexp: \.craft$
-  - file: KIU/CraftFiles/Non-RO/KIU-Chang'E-2.craft
-    install_to: Ships/VAB
-  - file: KIU/CraftFiles/Non-RO/KIU-Tianwen-1.craft
-    install_to: Ships/VAB
-  - file: KIU/CraftFiles/RO/KIU-Chang'E-2.craft
-    install_to: Ships/VAB
-  - file: KIU/CraftFiles/RO/KIU-Tianwen-1.craft
-    install_to: Ships/VAB
-x_via: Automated SpaceDock CKAN submission
+    filter: CraftFiles
+  - file: KIU/CraftFiles/Non-RO
+    install_to: Ships
+    as: VAB
