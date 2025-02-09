@@ -11,7 +11,7 @@ depends:
   - name: ModuleManager
   - name: RocketSoundEnhancement
 provides:
-  - name: RocketSoundEnhancement-Config
+  - RocketSoundEnhancement-Config
 install:
   - find: RocketSoundEnhancementDefault
     install_to: GameData
