@@ -8,5 +8,5 @@ license: GPL-3.0
 tags:
   - plugin
   - sound
-recommends:
-  - name: RocketSoundEnhancement-Config-Default
+depends:
+  - name: RocketSoundEnhancement-Config
