@@ -1,0 +1,19 @@
+identifier: KerbalPowersInterstellar
+$kref: '#/ckan/github/KerbalPowers/KP-Dynamics'
+x_netkan_version_edit:
+  find: ^v
+  replace: ''
+  strict: false
+---
+identifier: KerbalPowersInterstellar
+$kref: '#/ckan/spacedock/3821'
+tags:
+  - graphics
+  - parts
+depends:
+  - name: ModuleManager
+  - name: Waterfall
+install:
+  - find: ''
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
