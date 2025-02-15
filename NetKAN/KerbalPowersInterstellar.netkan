@@ -1,11 +1,12 @@
 identifier: KerbalPowersInterstellar
 $kref: '#/ckan/spacedock/3821'
 tags:
-  - graphics
   - parts
 depends:
   - name: ModuleManager
   - name: Waterfall
 install:
   - find: KerbalPowers
+    install_to: GameData
+  - find: TURD
     install_to: GameData
