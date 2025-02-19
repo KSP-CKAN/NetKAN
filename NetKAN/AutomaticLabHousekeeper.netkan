@@ -1,6 +1,17 @@
 identifier: AutomaticLabHousekeeper
+$kref: '#/ckan/github/ItWorkedInCAD/AutomaticLabHousekeeper'
+x_netkan_github:
+  use_source_archive: true
+x_netkan_version_edit:
+  find: ^beta-
+  replace: ''
+  strict: false
+---
+identifier: AutomaticLabHousekeeper
 $kref: '#/ckan/spacedock/3820'
 tags:
   - config
   - plugin
+depends:
+  - name: ModuleManager
 x_via: Automated SpaceDock CKAN submission
