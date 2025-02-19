@@ -1,0 +1,8 @@
+identifier: AutomaticLabHousekeeper
+$kref: '#/ckan/spacedock/3820'
+$vref: '#/ckan/ksp-avc'
+tags:
+  - config
+  - plugin
+depends:
+  - name: ModuleManager
