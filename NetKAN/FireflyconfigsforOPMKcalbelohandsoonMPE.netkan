@@ -2,7 +2,16 @@ identifier: FireflyconfigsforOPMKcalbelohandsoonMPE
 $kref: '#/ckan/spacedock/3824'
 tags:
   - config
+  - graphics
 install:
   - find: Firefly
     install_to: GameData
+depends:
+  - name: Firefly
+suggests:
+  - name: KcalbelohSystem
+  - name: OuterPlanetsMod
+supports:
+  - name: KcalbelohSystem
+  - name: OuterPlanetsMod
 x_via: Automated SpaceDock CKAN submission
