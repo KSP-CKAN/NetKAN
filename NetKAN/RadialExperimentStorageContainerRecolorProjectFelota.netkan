@@ -1,0 +1,10 @@
+identifier: RadialExperimentStorageContainerRecolorProjectFelota
+$kref: '#/ckan/spacedock/3754'
+tags:
+  - config
+depends:
+  - name: ModuleManager
+install:
+  - find: TURD
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
