@@ -1,0 +1,12 @@
+identifier: RocketLabNeutronrocket
+$kref: '#/ckan/spacedock/3790'
+tags:
+  - graphics
+  - parts
+depends:
+  - name: ModuleManager
+  - name: Waterfall
+install:
+  - find: JimmyNeutron
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
