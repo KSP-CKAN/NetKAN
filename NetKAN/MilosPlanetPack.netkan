@@ -1,0 +1,12 @@
+identifier: MilosPlanetPack
+$kref: '#/ckan/spacedock/3751'
+license: unknown
+tags:
+  - config
+  - planet-pack
+depends:
+  - name: ModuleManager
+  - name: Kopernicus
+install:
+  - find: Milo
+    install_to: GameData
