@@ -7,8 +7,6 @@ $kref: '#/ckan/spacedock/129'
 $vref: '#/ckan/ksp-avc'
 license: restricted
 x_netkan_force_v: true
-resources:
-  license: https://github.com/KSPModStewards/SCANsat/blob/release/SCANsat/LICENSE.txt
 tags:
   - plugin
   - information
@@ -16,10 +14,10 @@ tags:
 depends:
   - name: ModuleManager
 recommends:
-  - name: Toolbar
   - name: ContractConfigurator
 suggests:
   - name: RasterPropMonitor
+  - name: MechJeb2
 conflicts:
   - name: ContractConfigurator-ScanSatLite
 x_netkan_override:
