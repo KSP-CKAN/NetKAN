@@ -1,0 +1,11 @@
+identifier: OPTIONALFILETourismOverhaulRichBillionaireNoRealNames
+$kref: '#/ckan/spacedock/3795'
+tags:
+  - career
+  - config
+depends:
+  - name: ContractConfigurator
+install:
+  - find: ContractPacks
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
