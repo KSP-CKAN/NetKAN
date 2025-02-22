@@ -7,7 +7,6 @@
     "ksp_version"    : "any",
     "x_netkan_epoch" : 1,
     "comment"        : "flagmod",
-    "release_status" : "stable",
     "install" : [
         {
             "find"       : "Flags",

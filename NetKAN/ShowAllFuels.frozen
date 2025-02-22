@@ -1,7 +1,6 @@
 {
     "identifier": "ShowAllFuels",
     "$kref": "#/ckan/kerbalstuff/354",
-    "release_status": "development",
     "license": "MIT",
     "depends" : [
         { "name" : "ModuleManager", "min_version" : "2.5.1"}

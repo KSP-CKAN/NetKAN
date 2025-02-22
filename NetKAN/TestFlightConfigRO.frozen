@@ -5,7 +5,6 @@
     "$vref" : "#/ckan/ksp-avc",
     "$kref" : "#/ckan/github/KSP-RO/TestFlight/asset_match/TestFlightConfigRO*",
     "license" : "CC-BY-NC-SA-4.0",
-    "release_status" : "stable",
     "resources" : {
         "homepage" : "https://forum.kerbalspaceprogram.com/index.php?/topic/99043-122-testflight-v180-01-may-2017-bring-flight-testing-to-ksp/",
         "repository" : "https://github.com/KSP-RO/TestFlight",

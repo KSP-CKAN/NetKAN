@@ -5,7 +5,6 @@ $kref: '#/ckan/github/Starstrider42/TestFlight-Configs'
 ksp_version_min: '1.4'
 ksp_version_max: '1.9'
 comment: ksp_version_max because each release adds TF-eligible parts
-release_status: testing
 license: MIT
 resources:
   bugtracker: https://github.com/Starstrider42/TestFlight-Configs/issues

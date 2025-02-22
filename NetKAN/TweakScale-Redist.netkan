@@ -12,7 +12,6 @@ $vref: '#/ckan/ksp-avc/GameData/TweakScale/TweakScale.version'
 x_netkan_force_v: true
 license:
   - WTFPL
-release_status: stable
 conflicts:
   - name: TweakScaleRescaled-Redist
 tags:

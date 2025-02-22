@@ -5,7 +5,6 @@
     "$kref"          : "#/ckan/github/Galileo88/StockVisualEnhancements/asset_match/SVE.v.*.zip",
     "$vref"          : "#/ckan/ksp-avc",
     "license"        : "CC-BY-NC-SA",
-    "release_status" : "stable",
     "x_netkan_epoch" : "3",
     "x_netkan_staging": true,
     "x_netkan_staging_reason": "Tricky dependencies, make sure the SVE-Textures providers are indexed",

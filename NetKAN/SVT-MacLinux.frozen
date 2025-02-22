@@ -5,7 +5,6 @@
     "name"           : "Stock Visual Terrain (for Mac & Linux)",
     "abstract"       : "A terrain enhancement pack using Kopernicus for the stock planets.",
     "license"        : "CC-BY-NC-ND",
-    "release_status" : "stable",
     "provides": [ "SVE-Terrain" ],
     "conflicts": [
         { "name": "SVE-Terrain" }
