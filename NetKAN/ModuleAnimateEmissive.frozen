@@ -4,7 +4,6 @@
     "name"          :   "Animate Emissive Module",
     "abstract"      :   "ModuleAnimateEmissive replaces ModuleAnimateHeat with a more flexible, configurable module.",
     "license"       :   "LGPL-2.1",
-    "release_status":   "stable",
     "ksp_version"   :   "1.0.4",
     "install"       :   [ { "find" : "SolverEngines",
                             "install_to" : "GameData",

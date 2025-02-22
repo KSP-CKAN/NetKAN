@@ -1,7 +1,6 @@
 {
     "identifier": "EngineerLevelFixer",
     "abstract": "Small mod that allows Engineers to fix tires and landing gear at any level you want (default 1)",
-    "release_status": "stable",
     "license": "MIT",
     "$kref": "#/ckan/spacedock/205",
     "$vref": "#/ckan/ksp-avc",

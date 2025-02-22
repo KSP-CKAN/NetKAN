@@ -4,7 +4,6 @@
     "author":       "linuxgurugamer",
     "$kref":        "#/ckan/github/linuxgurugamer/SelectableDataTransmitter",
     "$vref":        "#/ckan/ksp-avc",
-    "release_status": "stable",
     "license":      "MIT",
     "install": [ {
         "find": "SelectableDataTransmitter",

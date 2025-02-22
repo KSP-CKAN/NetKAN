@@ -4,7 +4,6 @@
     "$kref"          : "#/ckan/kerbalstuff/347",
     "name"           : "Near Future Propulsion Extras: Hydrogen NTR Configs",
     "abstract"       : "This patch changes most known nuclear thermal rocket engines (stock and modded) to use liquid hydrogen instead of stock liquid fuel. Having a mod that provides matching tanks (like Near Future Propulsion) is recommended.",
-    "release_status" : "stable",
     "license"        : "CC-BY-NC-SA-4.0",
     "ksp_version_max" : "1.0.4",
     "depends" : [

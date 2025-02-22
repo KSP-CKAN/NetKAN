@@ -17,7 +17,6 @@ version: 5.13.1
 ksp_version_min: '1.8'
 ksp_version_max: '1.9'
 license: CC-BY-SA
-release_status: stable
 resources:
   homepage: http://forum.kerbalspaceprogram.com/index.php?/topic/58235-*
   repository: https://github.com/NathanKell/ModularFuelSystem

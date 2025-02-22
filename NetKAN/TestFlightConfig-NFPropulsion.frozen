@@ -4,7 +4,6 @@ abstract: >-
   This config pack adds TestFlight support for Near Future Propulsion parts. It
   does not affect stock parts; install a stock TestFlight config if desired.
 $kref: '#/ckan/github/Starstrider42/TestFlight-Configs'
-release_status: testing
 license: MIT
 resources:
   bugtracker: https://github.com/Starstrider42/TestFlight-Configs/issues

@@ -8,7 +8,6 @@
     "abstract"       : "This is an add-on for BDArmory. It adds new weapons and parts.",
     "author"         : "Shuudoushi",
     "license"        : "MIT",
-    "release_status" : "stable",
     "ksp_version"    : "1.0.5",
     "depends": [
         { "name": "BDArmory" },

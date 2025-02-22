@@ -6,7 +6,6 @@
     "abstract"       : "KJR tightens up the joints between parts and adds some physics-adjusting parameters to make vehicles more stable when loading on the launchpad or coming out of timewarp.",
     "author"         : "ferram4",
     "license"        : "GPL-3.0",
-    "release_status" : "stable",
     "x_netkan_override" : [
         {
             "version" : "v3.1.4",

@@ -4,7 +4,6 @@
     "identifier"     : "CustomBiomes-Data-RSS",
     "abstract"       : "Custom biomes for the Real Solar System",
     "license"        : "CC-BY-NC-SA",
-    "release_status" : "stable",
     "ksp_version"    : "any",
     "depends"        : [
         { "name" : "RealSolarSystem" },
