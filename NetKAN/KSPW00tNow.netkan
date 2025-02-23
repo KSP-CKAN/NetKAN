@@ -1,0 +1,17 @@
+identifier: KSPW00tNow
+$kref: '#/ckan/github/Kristallranke/KSPW00tNow'
+x_netkan_version_edit: ^v?(?<version>.+)$
+---
+identifier: KSPW00tNow
+$kref: '#/ckan/spacedock/2630'
+license: MPL-2.0
+tags:
+  - plugin
+  - control
+depends:
+  - name: Harmony2
+install:
+  - find: KSPW00tNow
+    install_to: GameData
+    filter_regexp:
+      - 0Harmony.*\.dll
