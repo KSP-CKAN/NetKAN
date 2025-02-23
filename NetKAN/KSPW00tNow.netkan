@@ -1,4 +1,8 @@
 identifier: KSPW00tNow
+$kref: '#/ckan/github/Kristallranke/KSPW00tNow'
+x_netkan_version_edit: ^v?(?<version>.+)$
+---
+identifier: KSPW00tNow
 $kref: '#/ckan/spacedock/2630'
 license: MPL-2.0
 tags:
