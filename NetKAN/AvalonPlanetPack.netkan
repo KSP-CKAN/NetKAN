@@ -1,0 +1,13 @@
+identifier: AvalonPlanetPack
+$kref: '#/ckan/spacedock/3353'
+tags:
+  - parts
+  - planet-pack
+  - plugin
+depends:
+  - name: ModuleManager
+  - name: Kopernicus
+install:
+  - find: ''
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
