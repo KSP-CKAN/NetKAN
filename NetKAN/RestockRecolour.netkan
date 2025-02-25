@@ -1,4 +1,7 @@
 identifier: RestockRecolour
+$kref: '#/ckan/github/likeproblem/RestockRecolour'
+---
+identifier: RestockRecolour
 $kref: '#/ckan/spacedock/3748'
 tags:
   - config
