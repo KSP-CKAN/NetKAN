@@ -1,0 +1,12 @@
+license: CC-BY-NC-SA-4.0
+identifier: SimpleFemaleKerbals
+$kref: '#/ckan/spacedock/215'
+tags:
+  - config
+  - graphics
+  - crewed
+depends:
+  - name: TextureReplacer
+install:
+  - find: TextureReplacer
+    install_to: GameData/SimpleFemaleKerbals
