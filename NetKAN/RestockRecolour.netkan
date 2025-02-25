@@ -5,9 +5,14 @@ identifier: RestockRecolour
 $kref: '#/ckan/spacedock/3748'
 tags:
   - config
+  - graphics
 depends:
   - name: ModuleManager
+  - name: ReStock
+  - name: TexturesUnlimited
+    min_version: '1.6.2'
+recommends:
+  - name: ReStockPlus
 install:
   - find: TURD
     install_to: GameData
-x_via: Automated SpaceDock CKAN submission
