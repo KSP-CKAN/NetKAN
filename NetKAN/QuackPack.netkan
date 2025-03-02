@@ -1,9 +1,6 @@
 identifier: QuackPack
-$kref: '#/ckan/github/jamespglaze/QuackPack'
-x_netkan_version_edit:
-  find: ^v
-  replace: ''
-  strict: false
+$kref: '#/ckan/github/jamespglaze/QuackPack/asset_match/^(?!.*Volumetrics)'
+x_netkan_version_edit: ^v?(?<version>.*)$
 ksp_version: '1.12'
 license: CC-BY-NC-ND-3.0
 tags:
