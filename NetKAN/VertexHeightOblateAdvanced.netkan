@@ -1,5 +1,8 @@
 identifier: VertexHeightOblateAdvanced
-abstract: VertexHeightOblateAdvanced is a custom PQS Mod intended for use by planet modders to enable easy creation of oblate bodies via a simple PQS Mod, rather than via a heightmap
+abstract: >-
+  VertexHeightOblateAdvanced is a custom PQS Mod intended for use by planet
+  modders to enable easy creation of oblate bodies via a simple PQS Mod,
+  rather than via a heightmap
 $kref: '#/ckan/github/jamespglaze/VertexHeightOblateAdvanced'
 license: MIT
 tags:
