@@ -1,8 +1,6 @@
 identifier: VertexColorMapEmissive
+abstract: VertexColorMapEmissive is a custom PQS Mod intended for use by planet modders to give more control over planetary emissives than can be achieved with the current alternatives
 $kref: '#/ckan/github/jamespglaze/VertexColorMapEmissive'
----
-identifier: VertexColorMapEmissive
-$kref: '#/ckan/spacedock/3620'
 license: MIT
 tags:
   - plugin
