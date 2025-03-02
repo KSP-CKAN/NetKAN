@@ -4,6 +4,7 @@ x_netkan_version_edit:
   find: ^v
   replace: ''
   strict: false
+ksp_version: '1.12'
 license: CC-BY-NC-ND-3.0
 tags:
   - config
