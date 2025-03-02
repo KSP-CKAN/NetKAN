@@ -1,8 +1,6 @@
 identifier: BetterKerbol
 $kref: '#/ckan/github/jamespglaze/BetterKerbol'
----
-identifier: BetterKerbol
-$kref: '#/ckan/spacedock/3118'
+ksp_version: '1.12'
 license: CC-BY-NC-ND-3.0
 tags:
   - config

@@ -4,9 +4,7 @@ x_netkan_version_edit:
   find: ^v
   replace: ''
   strict: false
----
-identifier: QuackPack
-$kref: '#/ckan/spacedock/3136'
+ksp_version: '1.12'
 license: CC-BY-NC-ND-3.0
 tags:
   - config
