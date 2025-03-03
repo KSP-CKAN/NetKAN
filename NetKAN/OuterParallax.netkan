@@ -1,15 +1,15 @@
-identifier: OuterParallaxMPE
+identifier: OuterParallax
 $kref: '#/ckan/github/jthero3/OuterParallaxContinued/asset_match/MPE'
 ---
-identifier: OuterParallaxMPE
+identifier: OuterParallax
 $kref: '#/ckan/spacedock/3834'
 tags:
   - config
-  - planet-pack
+  - library
 depends:
   - name: ModuleManager
   - name: Kopernicus
-  - name: OuterParallax
 install:
-  - find: MPE
-    install_to: GameData/OuterParallax
+  - find: OuterParallax
+    install_to: GameData
+    filter: MPE
