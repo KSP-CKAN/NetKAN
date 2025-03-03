@@ -9,6 +9,7 @@ tags:
 depends:
   - name: ModuleManager
   - name: Kopernicus
+  - name: OuterParallax
 install:
-  - find: OuterParallax
-    install_to: GameData
+  - find: OPM
+    install_to: GameData/OuterParallax
