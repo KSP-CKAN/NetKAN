@@ -1,5 +1,5 @@
 identifier: OuterParallaxOPM
-$kref: '#/ckan/github/jthero3/OuterParallaxContinued'
+$kref: '#/ckan/github/jthero3/OuterParallaxContinued/asset_match/OPM'
 ---
 identifier: OuterParallaxOPM
 $kref: '#/ckan/spacedock/3833'
@@ -10,6 +10,5 @@ depends:
   - name: ModuleManager
   - name: Kopernicus
 install:
-  - find: ''
+  - find: OuterParallax
     install_to: GameData
-x_via: Automated SpaceDock CKAN submission
