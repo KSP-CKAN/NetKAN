@@ -1,0 +1,6 @@
+identifier: GIROLDcoANTIFURRYandmoreflagsmod
+$kref: '#/ckan/spacedock/3786'
+install:
+  - find: GIROLD.co ANTI FURRY and more flags ksp mod
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
