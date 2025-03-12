@@ -19,6 +19,8 @@ resources:
   repository: https://github.com/KSP-KOS/KOS
 conflicts:
   - name: kOS-Classic
+depends:
+  - name: ModuleManager
 recommends:
   - name: ModuleManager
     min_version: 2.5.6

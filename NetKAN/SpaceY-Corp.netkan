@@ -6,6 +6,8 @@ tags:
   - config
   - agency
   - flags
+depends:
+  - name: ModuleManager
 install:
   - find: SpaceY
     install_to: GameData
