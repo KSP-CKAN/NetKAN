@@ -12,3 +12,5 @@ tags:
   - parts
 recommends:
   - name: RasterPropMonitor
+depends:
+  - name: ModuleManager
