@@ -1,0 +1,13 @@
+identifier: VABOrganizerRP1Configs
+$kref: '#/ckan/github/Cruesoe/VABOrganizer-RP-1-Configs'
+---
+identifier: VABOrganizerRP1Configs
+$kref: '#/ckan/spacedock/3801'
+tags:
+  - config
+depends:
+  - name: ModuleManager
+install:
+  - find: VABOrganizer-RP-1 Configs
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
