@@ -1,0 +1,77 @@
+identifier: TrekDrivebyShadowWorks
+$kref: '#/ckan/spacedock/2626'
+$vref: '#/ckan/ksp-avc'
+tags:
+  - crewed
+  - first-person
+  - graphics
+  - parts
+  - plugin
+depends:
+  - name: ModuleManager
+  - name: B9PartSwitch
+  - name: Waterfall
+install:
+  - find: ''
+    install_to: GameData
+    filter:
+      - __MACOSX
+      - .DS_Store
+    filter_regexp:
+      - \.pdb$
+      - \.craft$
+  - file: TrekDrive_by_ShadowWorks_1_0_5/Craft/SPH/NXClass_C.craft
+    install_to: Ships/SPH
+  - file: __MACOSX/TrekDrive_by_ShadowWorks_1_0_5/Craft/SPH/._NXClass_C.craft
+    install_to: Ships/
+  - file: TrekDrive_by_ShadowWorks_1_0_5/Craft/SPH/NXClass_A.craft
+    install_to: Ships/SPH
+  - file: __MACOSX/TrekDrive_by_ShadowWorks_1_0_5/Craft/SPH/._NXClass_A.craft
+    install_to: Ships/
+  - file: TrekDrive_by_ShadowWorks_1_0_5/Craft/SPH/ConstitutionClass_Flared.craft
+    install_to: Ships/SPH
+  - file: 
+      __MACOSX/TrekDrive_by_ShadowWorks_1_0_5/Craft/SPH/._ConstitutionClass_Flared.craft
+    install_to: Ships/
+  - file: TrekDrive_by_ShadowWorks_1_0_5/Craft/SPH/Type F Shuttlecraft.craft
+    install_to: Ships/SPH
+  - file: __MACOSX/TrekDrive_by_ShadowWorks_1_0_5/Craft/SPH/._Type F Shuttlecraft.craft
+    install_to: Ships/
+  - file: TrekDrive_by_ShadowWorks_1_0_5/Craft/SPH/NXClass_B.craft
+    install_to: Ships/SPH
+  - file: __MACOSX/TrekDrive_by_ShadowWorks_1_0_5/Craft/SPH/._NXClass_B.craft
+    install_to: Ships/
+  - file: TrekDrive_by_ShadowWorks_1_0_5/Craft/SPH/NXClass_Refit_C.craft
+    install_to: Ships/SPH
+  - file: __MACOSX/TrekDrive_by_ShadowWorks_1_0_5/Craft/SPH/._NXClass_Refit_C.craft
+    install_to: Ships/
+  - file: TrekDrive_by_ShadowWorks_1_0_5/Craft/SPH/NXClass_Refit_A.craft
+    install_to: Ships/SPH
+  - file: __MACOSX/TrekDrive_by_ShadowWorks_1_0_5/Craft/SPH/._NXClass_Refit_A.craft
+    install_to: Ships/
+  - file: TrekDrive_by_ShadowWorks_1_0_5/Craft/SPH/Constitution-class Refit.craft
+    install_to: Ships/SPH
+  - file: __MACOSX/TrekDrive_by_ShadowWorks_1_0_5/Craft/SPH/._Constitution-class Refit.craft
+    install_to: Ships/
+  - file: TrekDrive_by_ShadowWorks_1_0_5/Craft/SPH/ConstitutionClass_Uniform.craft
+    install_to: Ships/SPH
+  - file: 
+      __MACOSX/TrekDrive_by_ShadowWorks_1_0_5/Craft/SPH/._ConstitutionClass_Uniform.craft
+    install_to: Ships/
+  - file: TrekDrive_by_ShadowWorks_1_0_5/Craft/SPH/NXClass_Refit_B.craft
+    install_to: Ships/SPH
+  - file: __MACOSX/TrekDrive_by_ShadowWorks_1_0_5/Craft/SPH/._NXClass_Refit_B.craft
+    install_to: Ships/
+  - file: TrekDrive_by_ShadowWorks_1_0_5/Craft/SPH/Type NX Shuttlepod.craft
+    install_to: Ships/SPH
+  - file: __MACOSX/TrekDrive_by_ShadowWorks_1_0_5/Craft/SPH/._Type NX Shuttlepod.craft
+    install_to: Ships/
+  - file: TrekDrive_by_ShadowWorks_1_0_5/Craft/VAB/Falcon Warpship.craft
+    install_to: Ships/VAB
+  - file: __MACOSX/TrekDrive_by_ShadowWorks_1_0_5/Craft/VAB/._Falcon Warpship.craft
+    install_to: Ships/
+  - file: TrekDrive_by_ShadowWorks_1_0_5/Craft/VAB/Phoenix Warp Ship Test.craft
+    install_to: Ships/VAB
+  - file: __MACOSX/TrekDrive_by_ShadowWorks_1_0_5/Craft/VAB/._Phoenix Warp Ship Test.craft
+    install_to: Ships/
+x_via: Automated SpaceDock CKAN submission
