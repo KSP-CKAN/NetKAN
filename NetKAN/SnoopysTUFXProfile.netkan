@@ -1,0 +1,11 @@
+identifier: SnoopysTUFXProfile
+$kref: '#/ckan/spacedock/3760'
+tags:
+  - config
+  - graphics
+depends:
+  - name: TUFX
+install:
+  - find: Snoopy's TUFX Profile
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
