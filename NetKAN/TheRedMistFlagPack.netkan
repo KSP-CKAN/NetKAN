@@ -1,0 +1,6 @@
+identifier: TheRedMistFlagPack
+$kref: '#/ckan/spacedock/3802'
+install:
+  - find: theredmist
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
