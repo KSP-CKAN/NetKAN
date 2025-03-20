@@ -1,0 +1,12 @@
+identifier: JNSQVolumetrics
+$kref: '#/ckan/github/jthero3/JNSQVolumetrics'
+---
+identifier: JNSQVolumetrics
+$kref: '#/ckan/spacedock/3842'
+tags:
+  - config
+  - planet-pack
+depends:
+  - name: ModuleManager
+  - name: Kopernicus
+x_via: Automated SpaceDock CKAN submission
