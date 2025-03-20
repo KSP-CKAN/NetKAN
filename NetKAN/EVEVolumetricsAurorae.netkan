@@ -1,0 +1,10 @@
+identifier: EVEVolumetricsAurorae
+$kref: '#/ckan/spacedock/3843'
+tags:
+  - config
+depends:
+  - name: ModuleManager
+install:
+  - find: StockEVEAurora
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
