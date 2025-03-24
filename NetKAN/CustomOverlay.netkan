@@ -1,0 +1,17 @@
+identifier: CustomOverlay
+$kref: '#/ckan/github/AMPW-german/CustomOverlay'
+x_netkan_version_edit:
+  find: ^v
+  replace: ''
+  strict: false
+---
+identifier: CustomOverlay
+$kref: '#/ckan/spacedock/3847'
+tags:
+  - config
+  - plugin
+install:
+  - find: CustomOverlay
+    install_to: GameData
+    filter_regexp: \.pdb$
+x_via: Automated SpaceDock CKAN submission
