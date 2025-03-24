@@ -1,15 +1,16 @@
 identifier: TrackingStationEvolved
 $kref: '#/ckan/github/linuxgurugamer/KSP_BetterTracking'
-x_netkan_epoch: 2
-x_netkan_version_edit:
+x_netkan_epoch: 2x_netkan_version_edit:
   find: ^v
   replace: ''
   strict: false
 $vref: '#/ckan/ksp-avc'
+x_netkan_epoch: 2
 ---
 identifier: TrackingStationEvolved
 $kref: '#/ckan/spacedock/1738'
 $vref: '#/ckan/ksp-avc'
+x_netkan_epoch: 2
 license: MIT
 tags:
   - plugin
