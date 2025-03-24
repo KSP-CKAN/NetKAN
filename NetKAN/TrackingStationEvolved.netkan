@@ -1,5 +1,6 @@
 identifier: TrackingStationEvolved
 $kref: '#/ckan/github/linuxgurugamer/KSP_BetterTracking'
+x_netkan_epoch: 1
 x_netkan_version_edit:
   find: ^v
   replace: ''
