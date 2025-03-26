@@ -1,0 +1,13 @@
+identifier: VolumetricVaporCones
+$kref: '#/ckan/github/huj31415/VaporCone'
+---
+identifier: VolumetricVaporCones
+$kref: '#/ckan/spacedock/3814'
+tags:
+  - config
+  - parts
+  - graphics
+depends:
+  - name: ModuleManager
+  - name: B9PartSwitch
+  - name: Waterfall
