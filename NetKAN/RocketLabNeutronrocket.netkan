@@ -1,0 +1,12 @@
+identifier: RocketLabNeutronrocket
+$kref: '#/ckan/spacedock/3790'
+tags:
+  - parts
+depends:
+  - name: ModuleManager
+  - name: Waterfall
+recommends:
+  - name: HullcamVDSContinued
+install:
+  - find: JimmyNeutron
+    install_to: GameData
