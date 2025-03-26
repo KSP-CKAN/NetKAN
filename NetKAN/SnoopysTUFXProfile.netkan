@@ -6,6 +6,6 @@ tags:
 depends:
   - name: TUFX
 install:
-  - find: Snoopy's TUFX Profile
+  - find: Snoopy's TUFX Profile/GameData
     install_to: GameData
-x_via: Automated SpaceDock CKAN submission
+    as: Snoopy's TUFX Profile
