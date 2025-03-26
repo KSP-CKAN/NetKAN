@@ -1,0 +1,11 @@
+identifier: JoepsTUFXprofiles
+$kref: '#/ckan/spacedock/3744'
+tags:
+  - config
+  - graphics
+depends:
+  - name: TUFX
+install:
+  - find: Joep's TUFX Profiles
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
