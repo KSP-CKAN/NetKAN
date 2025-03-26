@@ -1,0 +1,8 @@
+identifier: BDBAntennaPatches
+$kref: '#/ckan/spacedock/3803'
+tags:
+  - config
+  - comms
+depends:
+  - name: ModuleManager
+  - name: BluedogDB
