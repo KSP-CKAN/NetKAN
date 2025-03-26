@@ -8,9 +8,8 @@ x_netkan_version_edit:
 identifier: ErisLaunchAndOrbitalServices
 $kref: '#/ckan/spacedock/3837'
 tags:
-  - graphics
   - parts
-  - plugin
+  - flags
 depends:
   - name: ModuleManager
   - name: B9PartSwitch
