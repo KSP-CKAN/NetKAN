@@ -1,0 +1,12 @@
+identifier: AursPlusOne
+$kref: '#/ckan/spacedock/3734'
+license: unknown
+tags:
+  - config
+  - planet-pack
+depends:
+  - name: ModuleManager
+  - name: Kopernicus
+install:
+  - find: aur
+    install_to: GameData
