@@ -10,6 +10,8 @@ depends:
 recommends:
   - name: CommunityTechTree
   - name: FarFutureTechnologies
+  - name: HeatControl
+  - name: VABOrganizer
 install:
   - find_regexp: FutureTechnologiesExpansion.*
     install_to: GameData
