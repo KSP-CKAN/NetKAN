@@ -1,0 +1,17 @@
+identifier: MilosPlanetPack
+$kref: '#/ckan/spacedock/3751'
+license: unknown
+tags:
+  - config
+  - planet-pack
+depends:
+  - name: ModuleManager
+  - name: Kopernicus
+recommends:
+  - name: EnvironmentalVisualEnhancements
+  - name: Scatterer
+install:
+  - find: Milo
+    install_to: GameData
+  - file: LICENSE.txt
+    install_to: GameData/Milo
