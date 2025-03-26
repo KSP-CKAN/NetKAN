@@ -1,0 +1,14 @@
+identifier: KerbalHacksDroptankWrapper
+name: KerbalHacks Droptank Wrapper
+$kref: '#/ckan/spacedock/1127'
+x_netkan_version_edit: ^(?<version>.*?)\.?(-release)?$
+$vref: '#/ckan/ksp-avc'
+tags:
+  - parts
+depends:
+  - name: ModuleManager
+suggests:
+  - name: TweakScaleRescaled
+install:
+  - find: KerbalHacks
+    install_to: GameData

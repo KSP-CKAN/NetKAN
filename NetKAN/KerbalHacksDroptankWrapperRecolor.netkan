@@ -1,0 +1,17 @@
+identifier: KerbalHacksDroptankWrapperRecolor
+$kref: '#/ckan/spacedock/3755'
+tags:
+  - config
+  - graphics
+  - parts
+depends:
+  - name: ModuleManager
+  - name: TexturesUnlimited
+  - name: KerbalHacksDroptankWrapper
+supports:
+  - name: KerbalHacksDroptankWrapper
+suggests:
+  - name: LazyPainter
+install:
+  - find: TURD
+    install_to: GameData
