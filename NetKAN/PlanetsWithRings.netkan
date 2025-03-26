@@ -1,0 +1,9 @@
+identifier: PlanetsWithRings
+$kref: '#/ckan/spacedock/3740'
+license: unknown
+tags:
+  - config
+  - planet-pack
+depends:
+  - name: ModuleManager
+  - name: Kopernicus
