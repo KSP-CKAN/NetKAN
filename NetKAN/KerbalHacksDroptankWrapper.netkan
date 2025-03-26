@@ -5,5 +5,5 @@ ksp_version: any
 suggests:
   - name: TweakScaleRescaled
 install:
-  - file: KerbalHacks
+  - find: KerbalHacks
     install_to: GameData
