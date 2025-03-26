@@ -1,6 +1,5 @@
 identifier: KerbolSystemExpansion
 $kref: '#/ckan/github/pastelmari/KerbolSystemExpansion'
-license: CC-BY-ND
 tags:
   - config
   - planet-pack
@@ -9,6 +8,7 @@ depends:
   - name: Kopernicus
   - name: VertexMitchellNetravaliHeightMap
   - name: KopernicusExpansion
+  - name: Parallax
 recommends:
   - name: EnvironmentalVisualEnhancements
   - name: Scatterer
@@ -16,6 +16,3 @@ recommends:
 install:
   - find: KerbolExpansion
     install_to: GameData
-    filter:
-      - Parallax
-      - ParallaxContinued
