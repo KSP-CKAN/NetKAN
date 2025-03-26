@@ -5,8 +5,10 @@ identifier: JNSQVolumetrics
 $kref: '#/ckan/spacedock/3842'
 tags:
   - config
+  - graphics
   - planet-pack
 depends:
   - name: ModuleManager
-  - name: Kopernicus
-x_via: Automated SpaceDock CKAN submission
+  - name: EnvironmentalVisualEnhancements
+  - name: Scatterer
+  - name: JNSQ
