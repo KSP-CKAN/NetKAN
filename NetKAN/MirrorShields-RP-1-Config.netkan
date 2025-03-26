@@ -1,6 +1,8 @@
-identifier: MirrorShieldsRP1Config
+identifier: MirrorShields-RP-1-Config
 $kref: '#/ckan/spacedock/3808'
+depends:
+  - name: ModuleManager
+  - name: MirrorShields
 install:
   - find: RP1MirrorShieldsConfig
     install_to: GameData
-x_via: Automated SpaceDock CKAN submission
