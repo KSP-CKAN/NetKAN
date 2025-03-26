@@ -6,7 +6,8 @@ tags:
 depends:
   - name: ModuleManager
   - name: Kopernicus
+suggests:
+  - name: Scatterer
 install:
   - find: MPP
     install_to: GameData
-x_via: Automated SpaceDock CKAN submission
