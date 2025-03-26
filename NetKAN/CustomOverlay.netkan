@@ -8,10 +8,9 @@ x_netkan_version_edit:
 identifier: CustomOverlay
 $kref: '#/ckan/spacedock/3847'
 tags:
-  - config
   - plugin
+  - information
 install:
   - find: CustomOverlay
     install_to: GameData
     filter_regexp: \.pdb$
-x_via: Automated SpaceDock CKAN submission
