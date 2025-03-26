@@ -1,0 +1,10 @@
+identifier: Vanilla4KSkybox
+$kref: '#/ckan/spacedock/3823'
+tags:
+  - config
+  - graphics
+depends:
+  - name: TextureReplacer
+install:
+  - find: Default
+    install_to: GameData/Vanilla4KSkybox/TextureReplacer
