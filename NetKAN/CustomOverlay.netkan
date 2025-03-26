@@ -1,0 +1,18 @@
+identifier: CustomOverlay
+$kref: '#/ckan/github/AMPW-german/CustomOverlay'
+x_netkan_version_edit:
+  find: ^v
+  replace: ''
+  strict: false
+---
+identifier: CustomOverlay
+$kref: '#/ckan/spacedock/3847'
+tags:
+  - plugin
+  - information
+depends:
+  - name: ToolbarController
+install:
+  - find: CustomOverlay
+    install_to: GameData
+    filter_regexp: \.pdb$
