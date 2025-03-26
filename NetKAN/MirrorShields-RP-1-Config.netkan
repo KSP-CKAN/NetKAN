@@ -3,6 +3,8 @@ $kref: '#/ckan/spacedock/3808'
 depends:
   - name: ModuleManager
   - name: MirrorShields
+supports:
+  - name: MirrorShields
 install:
   - find: RP1MirrorShieldsConfig
     install_to: GameData
