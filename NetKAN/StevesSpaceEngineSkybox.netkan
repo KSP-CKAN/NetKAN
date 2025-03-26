@@ -8,4 +8,4 @@ depends:
   - name: TextureReplacer
 install:
   - find: TextureReplacer
-    install_to: GameData
+    install_to: GameData/StevesSpaceEngineSkybox
