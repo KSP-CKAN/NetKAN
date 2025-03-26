@@ -1,6 +1,7 @@
 identifier: KerbalHacksDroptankWrapper
 name: KerbalHacks Droptank Wrapper
 $kref: '#/ckan/spacedock/1127'
+x_netkan_version_edit: ^(?<version>.*?)\.?(-release)?$
 ksp_version: any
 suggests:
   - name: TweakScaleRescaled
