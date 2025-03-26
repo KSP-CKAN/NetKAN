@@ -1,0 +1,13 @@
+identifier: SpaceDustNext
+$kref: '#/ckan/github/NerdyBoy709/SpaceDustNext'
+---
+identifier: SpaceDustNext
+$kref: '#/ckan/spacedock/3836'
+tags:
+  - config
+  - resources
+depends:
+  - name: ModuleManager
+  - name: B9PartSwitch
+  - name: CommunityResourcePack
+  - name: SpaceDust
