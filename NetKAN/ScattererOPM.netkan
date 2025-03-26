@@ -1,17 +1,17 @@
 {
   "identifier": "ScattererOPM",
   "name": "Scatterer Config for Outer Planets Mod",
-  "abstract": "This is a scatterer dependancy for the Outer Planet Mod that aims to replace the outdated Pood's OPM-VO which no longer works on the latest KSP versions. It doesn't include EVE configs to improve performance on the lower-end systems.",
+  "abstract": "a scatterer dependency for OPM that aims to replace the outdated Pood's OPM-VO",
   "author": "AnisDjerrab",
   "license": "MIT",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "ksp_version_min": "1.12.1",
   "ksp_version_max": "1.12.5",
   "resources": {
     "homepage": "https://forum.kerbalspaceprogram.com/topic/227158-scatterer-for-opm/",
     "repository": "https://github.com/AnisDjerrab/Scatterer-OPM"
   },
-  "download": "https://github.com/AnisDjerrab/Scatterer-OPM/releases/download/v1.0.0/ScattererOPM-1.0.0.zip",
+  "download": "https://github.com/AnisDjerrab/Scatterer-OPM/releases/download/v1.0.1/ScattererOPM-1.0.1.zip",
   "install": [
     {
       "find": "GameData",
@@ -24,3 +24,6 @@
     { "name": "ModuleManager" }
   ]
 }
+
+
+
