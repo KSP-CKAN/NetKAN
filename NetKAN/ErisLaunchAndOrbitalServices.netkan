@@ -1,0 +1,23 @@
+identifier: ErisLaunchAndOrbitalServices
+$kref: '#/ckan/github/1Kion/Eris-Launch-and-Orbital-Services'
+x_netkan_version_edit:
+  find: ^V
+  replace: ''
+  strict: false
+---
+identifier: ErisLaunchAndOrbitalServices
+$kref: '#/ckan/spacedock/3837'
+tags:
+  - parts
+  - flags
+depends:
+  - name: ModuleManager
+  - name: B9PartSwitch
+  - name: Waterfall
+install:
+  - find: ELOS - Gilmour Space Eris-1
+    install_to: GameData
+  - find: Extras/GameData/ELOS - Gilmour Space Eris-1
+    install_to: GameData
+  - file: Craft Files/Ships/VAB
+    install_to: Ships
