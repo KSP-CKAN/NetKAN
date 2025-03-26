@@ -6,7 +6,13 @@ ksp_version_min: 1.12.1
 ksp_version_max: 1.12.5
 resources:
   homepage: https://forum.kerbalspaceprogram.com/topic/227158-scatterer-for-opm/
+tags:
+  - config
+  - graphics
+  - planet-pack
 depends:
+  - name: ModuleManager
   - name: Scatterer
   - name: OuterPlanetsMod
-  - name: ModuleManager
+supports:
+  - name: OuterPlanetsMod
