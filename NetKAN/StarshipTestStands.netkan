@@ -2,6 +2,7 @@ identifier: StarshipTestStands
 $kref: '#/ckan/spacedock/3796'
 tags:
   - parts
+license: restricted
 depends:
   - name: ModuleManager
   - name: B9PartSwitch
