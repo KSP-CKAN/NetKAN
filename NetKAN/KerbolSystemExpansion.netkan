@@ -1,0 +1,19 @@
+identifier: KerbolSystemExpansion
+$kref: '#/ckan/github/pastelmari/KerbolSystemExpansion'
+license: CC-BY-ND
+tags:
+  - config
+  - planet-pack
+depends:
+  - name: ModuleManager
+  - name: Kopernicus
+  - name: VertexMitchellNetravaliHeightMap
+  - name: KopernicusExpansion
+  - name: Parallax
+recommends:
+  - name: EnvironmentalVisualEnhancements
+  - name: Scatterer
+  - name: DistantObject
+install:
+  - find: KerbolExpansion
+    install_to: GameData
