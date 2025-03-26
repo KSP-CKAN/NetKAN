@@ -13,4 +13,9 @@ tags:
 depends:
   - name: ModuleManager
   - name: Kopernicus
-x_via: Automated SpaceDock CKAN submission
+install:
+  - find: OrbitIconsPack
+    install_to: GameData
+  - find: ConfigFolder
+    install_to: GameData
+    as: OrbitIconsPack
