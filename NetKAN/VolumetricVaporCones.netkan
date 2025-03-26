@@ -5,6 +5,7 @@ identifier: VolumetricVaporCones
 $kref: '#/ckan/spacedock/3814'
 tags:
   - config
+  - parts
   - graphics
 depends:
   - name: ModuleManager
@@ -13,4 +14,3 @@ depends:
 install:
   - find: VaporCones
     install_to: GameData
-x_via: Automated SpaceDock CKAN submission
