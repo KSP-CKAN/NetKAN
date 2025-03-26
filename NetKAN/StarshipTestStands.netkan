@@ -5,4 +5,8 @@ tags:
 depends:
   - name: ModuleManager
   - name: B9PartSwitch
-x_via: Automated SpaceDock CKAN submission
+recommends:
+  - name: StarshipLaunchExpansion
+  - name: StarshipExpansionProject
+  - name: StarshipTransportStands
+  - name: KerbalJointReinforcement
