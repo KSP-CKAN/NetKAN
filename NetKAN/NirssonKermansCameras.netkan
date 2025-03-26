@@ -1,0 +1,15 @@
+identifier: NirssonKermansCameras
+$kref: '#/ckan/github/Oprissmian/NirssonKermansCameras'
+x_netkan_version_edit:
+  find: ^v
+  replace: ''
+  strict: false
+$vref: '#/ckan/ksp-avc'
+---
+identifier: NirssonKermansCameras
+$kref: '#/ckan/spacedock/3791'
+$vref: '#/ckan/ksp-avc'
+tags:
+  - parts
+depends:
+  - name: NeptuneCamera
