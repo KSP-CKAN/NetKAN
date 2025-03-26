@@ -1,0 +1,15 @@
+identifier: Residue
+$kref: '#/ckan/spacedock/3763'
+tags:
+  - config
+  - planet-pack
+depends:
+  - name: ModuleManager
+  - name: Kopernicus
+recommends:
+  - name: Scatterer
+install:
+  - find: Resi
+    install_to: GameData
+  - file: License.txt
+    install_to: GameData/Resi
