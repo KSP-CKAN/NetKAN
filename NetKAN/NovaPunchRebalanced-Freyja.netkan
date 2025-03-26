@@ -1,17 +1,16 @@
-{
-    "identifier":   "NovaPunchRebalanced-Freyja",
-    "name":         "NovaPunchRebalanced Freyja",
-    "$kref":        "#/ckan/spacedock/2003",
-    "$vref":        "#/ckan/ksp-avc",
-    "license":      "CC-BY-SA-4.0",
-    "tags": [
-        "parts"
-    ],
-    "depends": [
-        { "name": "NovaPunchRebalanced" }
-    ],
-    "install": [ {
-        "find":       "NovaPunch/Freyja",
-        "install_to": "GameData/NovaPunch"
-    } ]
-}
+identifier: NovaPunchRebalanced-Freyja
+$kref: '#/ckan/github/linuxgurugamer/NovaPunch'
+$vref: '#/ckan/ksp-avc'
+---
+identifier: NovaPunchRebalanced-Freyja
+name: NovaPunchRebalanced Freyja
+$kref: '#/ckan/spacedock/2003'
+$vref: '#/ckan/ksp-avc'
+license: CC-BY-SA-4.0
+tags:
+  - parts
+depends:
+  - name: NovaPunchRebalanced
+install:
+  - find: NovaPunch/Freyja
+    install_to: GameData/NovaPunch

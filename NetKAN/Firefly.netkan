@@ -1,0 +1,15 @@
+identifier: Firefly
+$kref: '#/ckan/github/M1rageDev/Firefly'
+$vref: '#/ckan/ksp-avc'
+---
+identifier: Firefly
+$kref: '#/ckan/spacedock/3813'
+$vref: '#/ckan/ksp-avc'
+resources:
+  manual: https://github.com/M1rageDev/Firefly/wiki
+tags:
+  - config
+  - plugin
+  - graphics
+depends:
+  - name: ModuleManager

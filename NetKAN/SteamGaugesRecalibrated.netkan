@@ -1,28 +1,19 @@
-{
-  "license": "unknown",
-  "identifier": "SteamGaugesRecalibrated",
-  "x_via": "Automated Linuxgurugamer CKAN script",
-  "$kref": "#/ckan/spacedock/2550",
-  "$vref": "#/ckan/ksp-avc",
-  "depends": [
-    {
-      "name": "ToolbarController"
-    },
-    {
-      "name": "ClickThroughBlocker"
-    },
-    {
-      "name": "SpaceTuxLibrary"
-    }
-  ],
-  "tags": [
-    "plugin",
-    "information"
-  ],
-  "install": [
-    {
-      "find": "SteamGauges",
-      "install_to": "GameData"
-    }
-  ]
-}
+identifier: SteamGaugesRecalibrated
+$kref: '#/ckan/github/linuxgurugamer/SteamGaugesRecalibrated'
+$vref: '#/ckan/ksp-avc'
+---
+license: unknown
+identifier: SteamGaugesRecalibrated
+x_via: Automated Linuxgurugamer CKAN script
+$kref: '#/ckan/spacedock/2550'
+$vref: '#/ckan/ksp-avc'
+depends:
+  - name: ToolbarController
+  - name: ClickThroughBlocker
+  - name: SpaceTuxLibrary
+tags:
+  - plugin
+  - information
+install:
+  - find: SteamGauges
+    install_to: GameData

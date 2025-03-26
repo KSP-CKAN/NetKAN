@@ -1,0 +1,14 @@
+identifier: Skopos
+name: Σκοπός
+$kref: '#/ckan/github/mockingbirdnest/Skopos'
+$vref: '#/ckan/ksp-avc'
+resources:
+  manual: https://github.com/mockingbirdnest/Skopos/wiki
+tags:
+  - plugin
+  - career
+depends:
+  - name: ModuleManager
+  - name: RealAntennas
+suggests:
+  - name: RP-1-ExpressInstall

@@ -1,18 +1,17 @@
-{
-    "identifier":   "KramaxAutopilotContinued",
-    "$kref":        "#/ckan/spacedock/1019",
-    "$vref":        "#/ckan/ksp-avc",
-    "license":      "CC-BY-NC-SA-4.0",
-    "tags": [
-        "plugin",
-        "control"
-    ],
-    "install": [ {
-        "find":       "KramaxAutoPilot",
-        "install_to": "GameData"
-    } ],
-    "depends": [
-        { "name": "ToolbarController"   },
-        { "name": "ClickThroughBlocker" }
-    ]
-}
+identifier: KramaxAutopilotContinued
+$kref: '#/ckan/github/linuxgurugamer/KramaxAutoPilot'
+$vref: '#/ckan/ksp-avc'
+---
+identifier: KramaxAutopilotContinued
+$kref: '#/ckan/spacedock/1019'
+$vref: '#/ckan/ksp-avc'
+license: CC-BY-NC-SA-4.0
+tags:
+  - plugin
+  - control
+depends:
+  - name: ToolbarController
+  - name: ClickThroughBlocker
+install:
+  - find: KramaxAutoPilot
+    install_to: GameData

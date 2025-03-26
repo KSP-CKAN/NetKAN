@@ -1,21 +1,19 @@
-{
-    "identifier":   "CareerManagerContinued",
-    "$kref":        "#/ckan/spacedock/1221",
-    "$vref":        "#/ckan/ksp-avc",
-    "license":      "GPL-3.0",
-    "tags": [
-        "plugin",
-        "career"
-    ],
-    "install": [ {
-        "find": "CareerManager",
-        "install_to": "GameData"
-    } ],
-    "conflicts" : [
-        { "name": "CareerManager" }
-    ],
-    "depends": [
-        { "name" : "ToolbarController" },
-        { "name" : "ClickThroughBlocker" }
-    ]
-}
+identifier: CareerManagerContinued
+$kref: '#/ckan/github/linuxgurugamer/CareerManagerContinued'
+$vref: '#/ckan/ksp-avc'
+---
+identifier: CareerManagerContinued
+$kref: '#/ckan/spacedock/1221'
+$vref: '#/ckan/ksp-avc'
+license: GPL-3.0
+tags:
+  - plugin
+  - career
+conflicts:
+  - name: CareerManager
+depends:
+  - name: ToolbarController
+  - name: ClickThroughBlocker
+install:
+  - find: CareerManager
+    install_to: GameData

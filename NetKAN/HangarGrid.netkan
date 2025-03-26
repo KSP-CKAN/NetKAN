@@ -1,4 +1,8 @@
 identifier: HangarGrid
+$kref: '#/ckan/github/linuxgurugamer/HangarGrid'
+$vref: '#/ckan/ksp-avc'
+---
+identifier: HangarGrid
 $kref: '#/ckan/spacedock/2872'
 $vref: '#/ckan/ksp-avc'
 license: GPL-3.0

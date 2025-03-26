@@ -1,16 +1,15 @@
-{
-    "identifier":   "TooManyOrbits",
-    "$kref":        "#/ckan/spacedock/1340",
-    "$vref":        "#/ckan/ksp-avc",
-    "license":      "MIT",
-    "tags": [
-        "plugin",
-        "information"
-    ],
-    "x_netkan_override": [
-        {
-            "version": "1.1.0",
-            "override": { "ksp_version": "1.2.2" }
-        }
-    ]
-}
+identifier: TooManyOrbits
+$kref: '#/ckan/github/linuxgurugamer/TooManyOrbits'
+$vref: '#/ckan/ksp-avc'
+---
+identifier: TooManyOrbits
+$kref: '#/ckan/spacedock/1340'
+$vref: '#/ckan/ksp-avc'
+license: MIT
+tags:
+  - plugin
+  - information
+x_netkan_override:
+  - version: 1.1.0
+    override:
+      ksp_version: 1.2.2

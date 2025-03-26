@@ -1,17 +1,16 @@
-{
-    "identifier":   "ThrottleLimitExtended",
-    "$kref":        "#/ckan/spacedock/1640",
-    "$vref":        "#/ckan/ksp-avc",
-    "license":      "GPL-3.0",
-    "tags": [
-        "plugin",
-        "convenience"
-    ],
-    "install": [ {
-        "find": "ThrottleLimitExtended",
-        "install_to": "GameData"
-    } ],
-    "depends": [
-        { "name": "ModuleManager" }
-    ]
-}
+identifier: ThrottleLimitExtended
+$kref: '#/ckan/github/linuxgurugamer/ThrottleLimitExtended'
+$vref: '#/ckan/ksp-avc'
+---
+identifier: ThrottleLimitExtended
+$kref: '#/ckan/spacedock/1640'
+$vref: '#/ckan/ksp-avc'
+license: GPL-3.0
+tags:
+  - plugin
+  - convenience
+install:
+  - find: ThrottleLimitExtended
+    install_to: GameData
+depends:
+  - name: ModuleManager

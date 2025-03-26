@@ -1,4 +1,9 @@
 identifier: Targetron
+$kref: '#/ckan/github/linuxgurugamer/Targetron'
+$vref: '#/ckan/ksp-avc'
+x_netkan_force_v: true
+---
+identifier: Targetron
 abstract: Target or command vessel from a list of active flights!
 $kref: '#/ckan/spacedock/3095'
 $vref: '#/ckan/ksp-avc'
@@ -11,4 +16,3 @@ depends:
   - name: ClickThroughBlocker
   - name: ToolbarController
   - name: SpaceTuxLibrary
-

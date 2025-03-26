@@ -1,25 +1,26 @@
-{
-    "identifier"  : "ChayrolDesignOrg",
-    "abstract"    : "Add ISRO rockets and spacecraft. Eventually the plan is to add SLV, GSLV MK1-3, RLV, along with a couple of probes (Ex. Chandrayaan, Mangalyaan etc).",
-    "$kref"       : "#/ckan/spacedock/2337",
-    "$vref"       : "#/ckan/ksp-avc/ChrayolDesignOrg.version",
-    "license"     : "CC-BY-NC-SA-4.0",
-    "tags": [
-        "parts"
-    ],
-    "depends": [
-        { "name": "ModuleManager" },
-        { "name": "B9PartSwitch"  }
-    ],
-    "suggests": [
-        { "name": "JNSQ"                   },
-        { "name": "RealPlume-StockConfigs" },
-        { "name": "BluedogDB"              },
-        { "name": "ModularLaunchPads"      }
-    ],
-    "install": [ {
-        "find":       "GameData/Chrayol_Design_Org",
-        "install_to": "GameData",
-        "filter":     [ ".gitignore" ]
-    } ]
-}
+identifier: ChayrolDesignOrg
+$kref: '#/ckan/github/DylanSemrau/Chrayol-Design-Org'
+$vref: '#/ckan/ksp-avc/ChrayolDesignOrg.version'
+---
+identifier: ChayrolDesignOrg
+abstract: >-
+  Add ISRO rockets and spacecraft. Eventually the plan is to add SLV, GSLV
+  MK1-3, RLV, along with a couple of probes (Ex. Chandrayaan, Mangalyaan etc).
+$kref: '#/ckan/spacedock/2337'
+$vref: '#/ckan/ksp-avc/ChrayolDesignOrg.version'
+license: CC-BY-NC-SA-4.0
+tags:
+  - parts
+depends:
+  - name: ModuleManager
+  - name: B9PartSwitch
+suggests:
+  - name: JNSQ
+  - name: RealPlume-StockConfigs
+  - name: BluedogDB
+  - name: ModularLaunchPads
+install:
+  - find: GameData/Chrayol_Design_Org
+    install_to: GameData
+    filter:
+      - .gitignore

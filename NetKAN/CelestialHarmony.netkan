@@ -3,6 +3,11 @@ abstract: >-
   A brand new star system set in the far future where Kerbals
   have migrated towards a luxurious binary habitable worlds
 $kref: '#/ckan/github/ProximaCentauri-star/Celestial-Harmony'
+x_netkan_epoch: 1
+x_netkan_version_edit:
+  find: ^Alpha-
+  replace: ''
+  strict: false
 license: restricted
 tags:
   - planet-pack
@@ -17,6 +22,7 @@ depends:
   - name: Kopernicus
   - name: VertexMitchellNetravaliHeightMap
   - name: VertexHeightOblateAdvanced
+  - name: VertexColorMapEmissive
 suggests:
   - name: EnvironmentalVisualEnhancements
   - name: Scatterer

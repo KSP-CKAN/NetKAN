@@ -1,0 +1,14 @@
+identifier: AntennaRangePatches
+$kref: '#/ckan/spacedock/876'
+$vref: '#/ckan/ksp-avc'
+tags:
+  - config
+  - comms
+conflicts:
+  - name: AntennaPatch4AntennaRange
+  - name: RemoteTech
+depends:
+  - name: AntennaRange
+  - name: ModuleManager
+recommends:
+  - name: Antennas

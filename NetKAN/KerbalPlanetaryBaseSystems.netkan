@@ -1,23 +1,21 @@
-{
-    "identifier":   "KerbalPlanetaryBaseSystems",
-    "$kref":        "#/ckan/spacedock/173",
-    "$vref":        "#/ckan/ksp-avc",
-    "license":      "CC-BY-NC-4.0",
-    "tags": [
-        "parts",
-        "crewed"
-    ],
-    "install": [
-        {
-            "find"       : "PlanetaryBaseInc",
-            "install_to" : "GameData",
-            "filter"     : "_src.zip"
-        }
-    ],
-    "depends" : [
-        { "name": "ModuleManager"         },
-        { "name": "CommunityCategoryKit"  },
-        { "name": "CommunityResourcePack" }
-    ],
-    "x_netkan_force_v": true
-}
+identifier: KerbalPlanetaryBaseSystems
+$kref: '#/ckan/github/Nils277/KerbalPlanetaryBaseSystems'
+$vref: '#/ckan/ksp-avc'
+x_netkan_force_v: true
+---
+identifier: KerbalPlanetaryBaseSystems
+$kref: '#/ckan/spacedock/173'
+$vref: '#/ckan/ksp-avc'
+x_netkan_force_v: true
+license: CC-BY-NC-4.0
+tags:
+  - parts
+  - crewed
+depends:
+  - name: ModuleManager
+  - name: CommunityCategoryKit
+  - name: CommunityResourcePack
+install:
+  - find: PlanetaryBaseInc
+    install_to: GameData
+    filter: _src.zip

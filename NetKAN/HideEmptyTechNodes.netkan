@@ -1,18 +1,21 @@
-{
-    "identifier":   "HideEmptyTechNodes",
-    "$kref":        "#/ckan/spacedock/577",
-    "$vref":        "#/ckan/ksp-avc",
-    "license":      "CC-BY-NC-4.0",
-    "tags": [
-        "plugin",
-        "tech-tree",
-        "convenience"
-    ],
-    "suggests": [
-        { "name": "CommunityTechTree" }
-    ],
-    "install": [ {
-        "file":       "GameData/HideEmptyTechTreeNodes",
-        "install_to": "GameData"
-    } ]
-}
+identifier: HideEmptyTechNodes
+$kref: '#/ckan/github/Orthethac/HideEmptyTechTreeNodes'
+x_netkan_version_edit:
+  find: ^v
+  replace: ''
+  strict: false
+$vref: '#/ckan/ksp-avc'
+---
+identifier: HideEmptyTechNodes
+$kref: '#/ckan/spacedock/577'
+$vref: '#/ckan/ksp-avc'
+license: CC-BY-NC-4.0
+tags:
+  - plugin
+  - tech-tree
+  - convenience
+suggests:
+  - name: CommunityTechTree
+install:
+  - file: GameData/HideEmptyTechTreeNodes
+    install_to: GameData

@@ -1,35 +1,29 @@
-{
-    "identifier":   "QuizTechAeroPackContinued",
-    "name" :        "QuizTech Aero Pack",
-    "$kref":        "#/ckan/spacedock/836",
-    "$vref":        "#/ckan/ksp-avc",
-    "license":      "CC-BY-4.0",
-    "tags": [
-        "parts"
-    ],
-    "conflicts" : [
-        { "name" : "QuizTechAeroPack-internals" },
-        { "name" : "QuizTechAeroPack" }
-    ],
-    "depends" : [
-        { "name": "ModuleManager" },
-        { "name": "FirespitterCore" },
-        { "name": "BDAnimationModules" }
-    ],
-    "recommends": [
-        { "name": "RasterPropMonitor-Core" }
-    ],
-    "suggests"     : [
-        { "name": "RasterPropMonitor" },
-        { "name": "ThrottleControlledAvionics" },
-        { "name": "B9AerospaceProceduralParts" },
-        { "name": "AdjustableLandingGear" },
-        { "name": "Mk2Essentials" }
-    ],
-    "install": [
-        {
-            "find"       : "QuizTechAeroContinued",
-            "install_to" : "GameData"
-        }
-    ]
-}
+identifier: QuizTechAeroPackContinued
+$kref: '#/ckan/github/linuxgurugamer/QuizTechAeroPackContinued'
+$vref: '#/ckan/ksp-avc'
+---
+identifier: QuizTechAeroPackContinued
+name: QuizTech Aero Pack
+$kref: '#/ckan/spacedock/836'
+$vref: '#/ckan/ksp-avc'
+license: CC-BY-4.0
+tags:
+  - parts
+conflicts:
+  - name: QuizTechAeroPack-internals
+  - name: QuizTechAeroPack
+depends:
+  - name: ModuleManager
+  - name: FirespitterCore
+  - name: BDAnimationModules
+recommends:
+  - name: RasterPropMonitor-Core
+suggests:
+  - name: RasterPropMonitor
+  - name: ThrottleControlledAvionics
+  - name: B9AerospaceProceduralParts
+  - name: AdjustableLandingGear
+  - name: Mk2Essentials
+install:
+  - find: QuizTechAeroContinued
+    install_to: GameData

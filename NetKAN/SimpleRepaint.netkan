@@ -1,4 +1,8 @@
 identifier: SimpleRepaint
+$kref: '#/ckan/github/judicator/SimpleRepaint'
+$vref: '#/ckan/ksp-avc'
+---
+identifier: SimpleRepaint
 author: Alexander Rogov
 $kref: '#/ckan/spacedock/2820'
 $vref: '#/ckan/ksp-avc'
@@ -10,4 +14,4 @@ depends:
   - name: ModuleManager
     min_version: 3.1.3
   - name: B9PartSwitch
-    min_version: 2.16.0
+    min_version: v2.16.0

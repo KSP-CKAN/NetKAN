@@ -11,5 +11,5 @@ recommends:
   - name: CommunityTechTree
   - name: FarFutureTechnologies
 install:
-  - find: FutureTechnologiesExpansion
+  - find_regexp: FutureTechnologiesExpansion.*
     install_to: GameData

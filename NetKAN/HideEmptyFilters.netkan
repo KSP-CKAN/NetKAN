@@ -1,0 +1,19 @@
+identifier: HideEmptyFilters
+$kref: '#/ckan/github/AlexSkylark/HideEmptyFilters'
+x_netkan_version_edit:
+  find: ^v
+  replace: ''
+  strict: false
+$vref: '#/ckan/ksp-avc'
+---
+identifier: HideEmptyFilters
+$kref: '#/ckan/spacedock/3765'
+$vref: '#/ckan/ksp-avc'
+tags:
+  - plugin
+  - editor
+  - convenience
+suggests:
+  - name: CommunityCategoryKit
+  - name: FilterExtensions
+  - name: MoarFEConfigs

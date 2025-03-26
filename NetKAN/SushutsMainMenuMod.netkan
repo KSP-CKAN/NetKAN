@@ -1,4 +1,11 @@
 identifier: SushutsMainMenuMod
+$kref: '#/ckan/github/Sushutt/Sushuts-Main-Menu-Mod'
+x_netkan_version_edit:
+  find: ^Release-
+  replace: ''
+  strict: false
+---
+identifier: SushutsMainMenuMod
 $kref: '#/ckan/spacedock/3507'
 license: MIT
 tags:
@@ -7,4 +14,3 @@ tags:
 install:
   - find: SushutsMainMenu
     install_to: GameData
-x_via: Automated SpaceDock CKAN submission

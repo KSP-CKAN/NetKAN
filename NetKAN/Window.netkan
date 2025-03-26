@@ -1,0 +1,12 @@
+identifier: Window
+$kref: '#/ckan/github/Halbann/Window'
+$vref: '#/ckan/ksp-avc'
+---
+identifier: Window
+$kref: '#/ckan/spacedock/3722'
+$vref: '#/ckan/ksp-avc'
+tags:
+  - plugin
+  - graphics
+depends:
+  - name: Harmony2

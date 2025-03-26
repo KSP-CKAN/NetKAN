@@ -1,4 +1,10 @@
 identifier: RasterPropMonitor
+$kref: '#/ckan/github/FirstPersonKSP/RasterPropMonitor'
+$vref: '#/ckan/ksp-avc'
+x_netkan_epoch: '1'
+x_netkan_force_v: true
+---
+identifier: RasterPropMonitor
 name: RasterPropMonitor
 abstract: Modifies stock and some modded IVAs with functional props
 author:

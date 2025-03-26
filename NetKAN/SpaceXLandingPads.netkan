@@ -7,10 +7,10 @@ tags:
 depends:
   - name: ModuleManager
   - name: KerbalKonstructs
-install:
-  - find: Fossil Industries
-    install_to: GameData
 x_netkan_override:
   - version: 1.0
     override:
-      ksp_version_min: 1.10
+      ksp_version_min: '1.10'
+install:
+  - find: Fossil Industries
+    install_to: GameData

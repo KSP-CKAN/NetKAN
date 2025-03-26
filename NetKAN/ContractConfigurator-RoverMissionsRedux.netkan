@@ -1,0 +1,16 @@
+identifier: ContractConfigurator-RoverMissionsRedux
+$kref: '#/ckan/spacedock/52'
+$vref: '#/ckan/ksp-avc'
+tags:
+  - config
+  - career
+depends:
+  - name: SpacetuxSA
+  - name: ContractConfigurator
+    min_version: 1.9.2.1
+  - name: ModuleManager
+recommends:
+  - name: WaypointManager
+install:
+  - find: RoverMissions
+    install_to: GameData/ContractPacks/Spacetux

@@ -1,19 +1,16 @@
-{
-    "identifier":   "LaunchNumbering",
-    "$kref":        "#/ckan/spacedock/201",
-    "$vref":        "#/ckan/ksp-avc",
-    "license":      "MIT",
-    "tags": [
-        "plugin"
-    ],
-    "depends": [
-        { "name": "ToolbarController" },
-        { "name": "ClickThroughBlocker" }
-    ],
-    "install": [
-        {
-            "find": "LaunchNumbering",
-            "install_to": "GameData"
-        }
-    ]
-}
+identifier: LaunchNumbering
+$kref: '#/ckan/github/linuxgurugamer/KSPLaunchNumbering'
+$vref: '#/ckan/ksp-avc'
+---
+identifier: LaunchNumbering
+$kref: '#/ckan/spacedock/201'
+$vref: '#/ckan/ksp-avc'
+license: MIT
+tags:
+  - plugin
+depends:
+  - name: ToolbarController
+  - name: ClickThroughBlocker
+install:
+  - find: LaunchNumbering
+    install_to: GameData

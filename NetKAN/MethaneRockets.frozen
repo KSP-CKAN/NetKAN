@@ -2,7 +2,6 @@
     "$kref": "#/ckan/spacedock/337",
     "identifier": "MethaneRockets",
     "license": "restricted",
-    "release_status": "stable",
     "depends": [
         { "name": "RealPlume" },
         { "name": "ModuleManager" }

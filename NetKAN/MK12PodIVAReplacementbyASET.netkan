@@ -1,4 +1,8 @@
 identifier: MK12PodIVAReplacementbyASET
+$kref: '#/ckan/github/StoneBlue/ASET-Consolidated-IVAs'
+$vref: '#/ckan/ksp-avc'
+---
+identifier: MK12PodIVAReplacementbyASET
 name: MK1-2 IVA Replacement by ASET
 author:
   - alexustas
@@ -25,7 +29,7 @@ recommends:
   - name: DockingPortAlignmentIndicator
   - name: Astrogator
 x_netkan_override:
-  - version: '1:0.3'
+  - version: 1:0.3
     delete:
       - ksp_version
     override:

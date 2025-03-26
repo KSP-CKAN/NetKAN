@@ -1,0 +1,28 @@
+identifier: FuelWings
+$kref: '#/ckan/spacedock/1290'
+$vref: '#/ckan/ksp-avc'
+x_netkan_force_v: true
+license: restricted
+tags:
+  - config
+depends:
+  - name: ModuleManager
+  - any_of:
+      - name: ConfigurableContainers
+      - name: InterstellarFuelSwitch
+      - name: ModularFuelTanks
+      - name: FirespitterCore
+supports:
+  - name: B9
+install:
+  - find: GameData/FuelWings
+    install_to: GameData
+    filter:
+      - ModularFuelTanks
+x_netkan_override:
+  - version: 1:3.2e
+    delete:
+      - ksp_version
+    override:
+      ksp_version_min: 1.4.0
+      ksp_version_max: 1.4.2

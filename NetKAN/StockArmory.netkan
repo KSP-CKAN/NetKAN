@@ -1,0 +1,8 @@
+identifier: StockArmory
+$kref: '#/ckan/spacedock/3705'
+license: CC-BY-NC-SA
+tags:
+  - parts
+  - combat
+depends:
+  - name: BDArmory

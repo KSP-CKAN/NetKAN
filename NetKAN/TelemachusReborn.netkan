@@ -7,7 +7,6 @@
     "$vref"          : "#/ckan/ksp-avc",
     "x_netkan_version_edit": "^[vV]?(?<version>[\\d\\.]+)(?:-.+)*",
     "license"        : "MIT",
-    "release_status" : "stable",
     "resources"      : {
         "homepage" : "https://forum.kerbalspaceprogram.com/index.php?/topic/179887-*",
         "spacedock" : "https://spacedock.info/mod/2012/Telemachus%20Reborn"

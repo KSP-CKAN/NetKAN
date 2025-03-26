@@ -1,4 +1,8 @@
 identifier: NearFutureSolar-Core
+$kref: '#/ckan/github/post-kerbin-mining-corporation/NearFutureSolar'
+$vref: '#/ckan/ksp-avc/NearFutureSolar.version'
+---
+identifier: NearFutureSolar-Core
 name: Near Future Solar Core
 abstract: >-
   Near Future Solar plugin stand-alone, for adding functionality to other mods.

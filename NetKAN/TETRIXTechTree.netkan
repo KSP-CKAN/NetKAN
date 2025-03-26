@@ -1,27 +1,20 @@
-{
-    "identifier":   "TETRIXTechTree",
-    "$kref":        "#/ckan/spacedock/2299",
-    "license":      "CC-BY-NC-SA",
-    "x_netkan_version_edit": {
-        "find": "^(?<version>.+)\\.(?<date>[0-9]{4,8}.*)$",
-        "replace": "${version}",
-        "strict": true
-    },
-    "x_netkan_epoch": 4,
-    "tags": [
-        "config",
-        "tech-tree"
-    ],
-    "depends": [
-        { "name": "ModuleManager" }
-    ],
-    "conflicts": [
-        { "name": "CommunityTechTree" },
-        { "name": "SimplexTechTree"   },
-        { "name": "ETT"               }
-    ],
-    "install": [ {
-        "find":       "AngleCanMods",
-        "install_to": "GameData"
-    } ]
-}
+identifier: TETRIXTechTree
+$kref: '#/ckan/spacedock/2299'
+license: CC-BY-NC-SA
+x_netkan_version_edit:
+  find: ^(?<version>.+)\.(?<date>[0-9]{4,8}.*)$
+  replace: ${version}
+  strict: false
+x_netkan_epoch: 4
+tags:
+  - config
+  - tech-tree
+depends:
+  - name: ModuleManager
+conflicts:
+  - name: CommunityTechTree
+  - name: SimplexTechTree
+  - name: ETT
+install:
+  - find: AngleCanMods
+    install_to: GameData

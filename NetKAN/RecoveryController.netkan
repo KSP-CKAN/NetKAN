@@ -1,17 +1,16 @@
-{
-    "identifier":   "RecoveryController",
-    "$kref":        "#/ckan/spacedock/1311",
-    "$vref":        "#/ckan/ksp-avc",
-    "license":      "MIT",
-    "tags": [
-        "plugin",
-        "career"
-    ],
-    "install": [ {
-        "find":       "RecoveryController",
-        "install_to": "GameData"
-    } ],
-    "depends": [
-        { "name": "ModuleManager" }
-    ]
-}
+identifier: RecoveryController
+$kref: '#/ckan/github/linuxgurugamer/RecoveryController'
+$vref: '#/ckan/ksp-avc'
+---
+identifier: RecoveryController
+$kref: '#/ckan/spacedock/1311'
+$vref: '#/ckan/ksp-avc'
+license: MIT
+tags:
+  - plugin
+  - career
+depends:
+  - name: ModuleManager
+install:
+  - find: RecoveryController
+    install_to: GameData

@@ -1,0 +1,18 @@
+identifier: SterlingSystemsThermalsPower
+name: Sterling Thermals - Power
+abstract: >-
+  Main power sources that are firstly heat-focused, not electric.
+  Raw nuclear thermal, solar thermal and beamed power are here
+$kref: '#/ckan/github/JadeOfMaar/SterlingSystems/asset_match/Thermals'
+$vref: '#/ckan/ksp-avc'
+license: restricted
+tags:
+  - parts
+depends:
+  - name: ModuleManager
+  - name: B9PartSwitch
+  - name: SterlingSystemsAgency
+  - name: SterlingSystemsThermals
+install:
+  - find: ThermalsPower
+    install_to: GameData/SterlingSystems

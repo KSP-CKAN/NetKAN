@@ -1,4 +1,8 @@
 identifier: ToolbarController
+$kref: '#/ckan/github/linuxgurugamer/ToolbarControl'
+$vref: '#/ckan/ksp-avc'
+---
+identifier: ToolbarController
 name: Toolbar Controller
 abstract: Wrapper mod around the Blizzy and stock toolbars
 $kref: '#/ckan/spacedock/1931'
@@ -8,10 +12,10 @@ license: GPL-3.0
 tags:
   - plugin
   - library
-install:
-  - find: 001_ToolbarControl
-    install_to: GameData
 depends:
   - name: ClickThroughBlocker
 recommends:
   - name: Toolbar
+install:
+  - find: 001_ToolbarControl
+    install_to: GameData

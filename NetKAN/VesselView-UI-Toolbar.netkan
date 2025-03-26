@@ -1,26 +1,26 @@
-{
-    "identifier":   "VesselView-UI-Toolbar",
-    "name":         "VesselView-UI-Toolbar",
-    "$kref":        "#/ckan/spacedock/923",
-    "x_netkan_epoch": 1,
-    "$vref":        "#/ckan/ksp-avc/VesselView.version",
-    "license":      "MIT",
-    "tags": [
-        "plugin",
-        "information"
-    ],
-    "depends": [
-        { "name": "VesselView" },
-        { "name": "ToolbarController" },
-        { "name": "ClickThroughBlocker" }
-    ],
-    "provides": [
-        "VesselView-UI"
-    ],
-    "comment": "Providing but not conflicting is deliberate, as both UIs can be installed at the same time.",
-    "install": [ {
-        "find":       "VesselViewPlugin.dll",
-        "install_to": "GameData/VesselView/Plugins",
-        "find_matches_files": true
-    } ]
-}
+identifier: VesselView-UI-Toolbar
+$kref: '#/ckan/github/linuxgurugamer/VesselViewer'
+$vref: '#/ckan/ksp-avc/VesselView.version'
+---
+identifier: VesselView-UI-Toolbar
+name: VesselView-UI-Toolbar
+$kref: '#/ckan/spacedock/923'
+x_netkan_epoch: 1
+$vref: '#/ckan/ksp-avc/VesselView.version'
+license: MIT
+tags:
+  - plugin
+  - information
+depends:
+  - name: VesselView
+  - name: ToolbarController
+  - name: ClickThroughBlocker
+provides:
+  - VesselView-UI
+comment: >-
+  Providing but not conflicting is deliberate, as both UIs can be installed
+  at the same time.
+install:
+  - find: VesselViewPlugin.dll
+    install_to: GameData/VesselView/Plugins
+    find_matches_files: true

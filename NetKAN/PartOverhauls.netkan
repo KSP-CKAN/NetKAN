@@ -1,24 +1,16 @@
-{
-    "name"           : "Porkjet's Part Overhauls",
-    "abstract"       : "Porkjet's in-progress part overhauls",
-    "identifier"     : "PartOverhauls",
-    "download"       : "https://archive.org/download/PartOverhauls/PartOverhauls.zip",
-    "license"        : "CC-BY-NC-3.0",
-    "version"        : "0.1.0",
-    "author"         : "Porkjet",
-    "release_status" : "development",
-    "ksp_version_min": "1.1.0",
-    "resources" : {
-        "homepage" : "http://forum.kerbalspaceprogram.com/index.php?/topic/147582-*"
-    },
-    "tags": [
-        "parts",
-        "graphics"
-    ],
-    "install" : [
-        {
-            "file"       : "GameData/PartOverhauls",
-            "install_to" : "GameData"
-        }
-    ]
-}
+name: Porkjet's Part Overhauls
+abstract: Porkjet's in-progress part overhauls
+identifier: PartOverhauls
+download: https://archive.org/download/PartOverhauls/PartOverhauls.zip
+license: CC-BY-NC-3.0
+version: 0.1.0
+author: Porkjet
+ksp_version_min: 1.1.0
+resources:
+  homepage: http://forum.kerbalspaceprogram.com/index.php?/topic/147582-*
+tags:
+  - parts
+  - graphics
+install:
+  - file: GameData/PartOverhauls
+    install_to: GameData

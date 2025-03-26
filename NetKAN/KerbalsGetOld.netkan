@@ -1,0 +1,17 @@
+identifier: KerbalsGetOld
+$kref: '#/ckan/github/iLikeGothMommys/KerbalsGetOld'
+x_netkan_version_edit:
+  find: ^Release
+  replace: ''
+  strict: false
+$vref: '#/ckan/ksp-avc'
+---
+identifier: KerbalsGetOld
+$kref: '#/ckan/spacedock/3807'
+$vref: '#/ckan/ksp-avc'
+tags:
+  - plugin
+  - crewed
+install:
+  - find: KerbalAgingMod
+    install_to: GameData

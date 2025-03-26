@@ -1,28 +1,19 @@
-{
-  "license": "GPL-3.0",
-  "identifier": "AQSS",
-  "x_via": "Automated Linuxgurugamer CKAN script",
-  "$kref": "#/ckan/spacedock/2475",
-  "$vref": "#/ckan/ksp-avc",
-  "depends": [
-    {
-      "name": "ToolbarController"
-    },
-    {
-      "name": "ClickThroughBlocker"
-    },
-    {
-      "name": "SpaceTuxLibrary"
-    }
-  ],
-  "tags": [
-    "plugin",
-    "convenience"
-  ],
-  "install": [
-    {
-      "find": "AutoQuickSaveSystem",
-      "install_to": "GameData"
-    }
-  ]
-}
+identifier: AQSS
+$kref: '#/ckan/github/linuxgurugamer/AutoQuickSaveSystem'
+$vref: '#/ckan/ksp-avc'
+---
+license: GPL-3.0
+identifier: AQSS
+x_via: Automated Linuxgurugamer CKAN script
+$kref: '#/ckan/spacedock/2475'
+$vref: '#/ckan/ksp-avc'
+depends:
+  - name: ToolbarController
+  - name: ClickThroughBlocker
+  - name: SpaceTuxLibrary
+tags:
+  - plugin
+  - convenience
+install:
+  - find: AutoQuickSaveSystem
+    install_to: GameData

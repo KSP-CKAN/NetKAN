@@ -1,4 +1,12 @@
 identifier: kOS-Career
+$kref: '#/ckan/github/KSP-KOS/kOS-Career'
+x_netkan_version_edit:
+  find: ^v
+  replace: ''
+  strict: false
+$vref: '#/ckan/ksp-avc'
+---
+identifier: kOS-Career
 $kref: '#/ckan/spacedock/2530'
 $vref: '#/ckan/ksp-avc'
 license: GPL-3.0

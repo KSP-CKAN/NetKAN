@@ -1,19 +1,18 @@
-{
-    "identifier":   "NASA-CountDown",
-    "$kref":        "#/ckan/spacedock/1462",
-    "$vref":        "#/ckan/ksp-avc",
-    "license":      "CC-BY-NC-SA",
-    "tags": [
-        "plugin",
-        "sound"
-    ],
-    "install": [ {
-        "find": "NASA_CountDown",
-        "install_to": "GameData"
-    } ],
-    "depends": [
-        { "name" : "ModuleManager" },
-        { "name" : "ToolbarController" },
-        { "name" : "ClickThroughBlocker" }
-    ]
-}
+identifier: NASA-CountDown
+$kref: '#/ckan/github/linuxgurugamer/LaunchCountdownEx'
+$vref: '#/ckan/ksp-avc'
+---
+identifier: NASA-CountDown
+$kref: '#/ckan/spacedock/1462'
+$vref: '#/ckan/ksp-avc'
+license: CC-BY-NC-SA
+tags:
+  - plugin
+  - sound
+depends:
+  - name: ModuleManager
+  - name: ToolbarController
+  - name: ClickThroughBlocker
+install:
+  - find: NASA_CountDown
+    install_to: GameData

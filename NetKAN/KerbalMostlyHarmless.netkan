@@ -1,4 +1,8 @@
 identifier: KerbalMostlyHarmless
+$kref: '#/ckan/github/kaerospace/KerbalMostlyHarmless'
+x_netkan_version_edit: ^v(?<version>[^-]+)-.*$
+---
+identifier: KerbalMostlyHarmless
 $kref: '#/ckan/spacedock/3423'
 ksp_version: 1.12
 license: restricted

@@ -1,22 +1,20 @@
-{
-    "identifier":   "DangItContinued",
-    "$kref":        "#/ckan/spacedock/1055",
-    "$vref":        "#/ckan/ksp-avc",
-    "license":      "GPL-3.0",
-    "tags": [
-        "plugin"
-    ],
-    "install": [ {
-        "find":       "DangIt",
-        "install_to": "GameData"
-    } ],
-    "recommends": [
-        { "name": "KerbalChangelog" }
-    ],
-    "depends": [
-        { "name": "ModuleManager"       },
-        { "name": "ToolbarController"   },
-        { "name": "ClickThroughBlocker" },
-        { "name": "SpaceTuxLibrary" }
-    ]
-}
+identifier: DangItContinued
+$kref: '#/ckan/github/linuxgurugamer/DangIt'
+$vref: '#/ckan/ksp-avc'
+---
+identifier: DangItContinued
+$kref: '#/ckan/spacedock/1055'
+$vref: '#/ckan/ksp-avc'
+license: GPL-3.0
+tags:
+  - plugin
+recommends:
+  - name: KerbalChangelog
+depends:
+  - name: ModuleManager
+  - name: ToolbarController
+  - name: ClickThroughBlocker
+  - name: SpaceTuxLibrary
+install:
+  - find: DangIt
+    install_to: GameData

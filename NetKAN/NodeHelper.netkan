@@ -11,7 +11,8 @@
         "app"
     ],
     "depends": [
-        { "name": "ModuleManager" }
+        { "name": "ModuleManager" },
+       { "name":"ToolbarController" }
     ],
     "install": [ {
         "find":       "NodeHelper",

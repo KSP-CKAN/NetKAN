@@ -1,5 +1,5 @@
 identifier: Heisenberg-PlayMode-ClassicStock
-name: Heisenberg Classic Stock Play Mode
+name: Airships Classic Stock Play Mode
 $kref: '#/ckan/github/Angel-125/Airships'
 $vref: '#/ckan/ksp-avc/GameData/WildBlueIndustries/Heisenberg/Airships.version'
 x_netkan_staging: true
@@ -17,8 +17,8 @@ provides:
 conflicts:
   - name: Heisenberg-PlayMode
 depends:
-  - name: Heisenberg
   - name: WildBlue-PlayMode-ClassicStock
+  - name: Heisenberg
   - name: ModuleManager
 install:
   - find: WildBlueIndustries/Heisenberg/Templates/ClassicStock

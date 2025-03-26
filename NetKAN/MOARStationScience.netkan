@@ -1,32 +1,41 @@
-{
-    "identifier":   "MOARStationScience",
-    "name":         "MOAR Station Science",
-    "abstract":     "Station Science mod adds several large parts designed to be integrated into a permanent space station.",
-    "description":  "This mod adds several large parts designed to be integrated into a permanent space station: the Science Lab, the Zoology Bay, the Cyclotron, and the Spectrometron. These heavy parts provide facilities for performing experiments. Experiments are held in small, light pods that you can dock with your space station, execute, and bring back to the surface for Science points. The Spectrometron uses the Cyclotron to analyze Surface Samples that you've brought into orbit, and allows you to transmit the data home for full value. In addition, there are tanks for storing Kibbal for the Zoology Bay.",
-    "author":       [ "linuxgurugamer", "tomf"],
-    "$kref":        "#/ckan/spacedock/2670",
-    "$vref":        "#/ckan/ksp-avc",
-    "x_netkan_force_v": true,
-    "release_status": "stable",
-    "license":      "restricted",
-    "resources": {
-        "x_screenshot": "http://i.imgur.com/63DTlDLl.png"
-    },
-    "tags": [
-        "parts",
-        "crewed",
-        "science"
-    ],
-    "conflicts": [
-        { "name": "StationScience" },
-        { "name": "StationScienceContinued" }
-    ],
-    "depends": [
-        { "name": "ModuleManager" },
-        { "name": "SpaceTuxLibrary"     }
-    ],
-    "install": [ {
-        "find":       "StationScience",
-        "install_to": "GameData"
-    } ]
-}
+identifier: MOARStationScience
+$kref: '#/ckan/github/linuxgurugamer/StationScience'
+$vref: '#/ckan/ksp-avc'
+x_netkan_force_v: true
+---
+identifier: MOARStationScience
+name: MOAR Station Science
+abstract: >-
+  Station Science mod adds several large parts designed to be integrated into
+  a permanent space station.
+description: >-
+  This mod adds several large parts designed to be integrated into a permanent
+  space station: the Science Lab, the Zoology Bay, the Cyclotron, and the
+  Spectrometron. These heavy parts provide facilities for performing
+  experiments. Experiments are held in small, light pods that you can dock
+  with your space station, execute, and bring back to the surface for Science
+  points. The Spectrometron uses the Cyclotron to analyze Surface Samples that
+  you've brought into orbit, and allows you to transmit the data home for full
+  value. In addition, there are tanks for storing Kibbal for the Zoology Bay.
+author:
+  - linuxgurugamer
+  - tomf
+$kref: '#/ckan/spacedock/2670'
+$vref: '#/ckan/ksp-avc'
+x_netkan_force_v: true
+license: restricted
+resources:
+  x_screenshot: http://i.imgur.com/63DTlDLl.png
+tags:
+  - parts
+  - crewed
+  - science
+conflicts:
+  - name: StationScience
+  - name: StationScienceContinued
+depends:
+  - name: ModuleManager
+  - name: SpaceTuxLibrary
+install:
+  - find: StationScience
+    install_to: GameData

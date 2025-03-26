@@ -1,4 +1,8 @@
 identifier: KerbalPublicRadioServiceKPRS
+$kref: '#/ckan/github/linuxgurugamer/K.P.R.S'
+$vref: '#/ckan/ksp-avc'
+---
+identifier: KerbalPublicRadioServiceKPRS
 $kref: '#/ckan/spacedock/3504'
 $vref: '#/ckan/ksp-avc'
 license: CC-BY-SA
@@ -14,4 +18,3 @@ install:
   - find: KPRS
     install_to: GameData
     filter_regexp: \.mdb$
-x_via: Automated SpaceDock CKAN submission

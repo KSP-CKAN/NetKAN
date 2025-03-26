@@ -1,38 +1,37 @@
-{
-    "identifier":   "RetroFuture",
-    "author":       [ "LinuxGuruGamer", "NohArk", "amankduffers" ],
-    "$kref":        "#/ckan/spacedock/2153",
-    "$vref":        "#/ckan/ksp-avc",
-    "x_netkan_epoch": "2",
-    "license":      "CC-BY-NC-SA-4.0",
-    "tags": [
-        "parts",
-        "combat"
-    ],
-    "depends": [
-        { "name": "FirespitterCore" },
-        { "name": "KSPWheel" },
-        { "name": "B9-PWings-Fork" },
-        { "name": "ModuleManager"   }
-    ],
-    "recommends": [
-        { "name": "FerramAerospaceResearchContinued" },
-        { "name": "RasterPropMonitor"                },
-        { "name": "PatchManager"                     }
-    ],
-    "suggests": [
-        { "name": "SmokeScreen" },
-        { "name": "TweakScale"  }
-    ],
-    "supports": [
-        { "name": "BDArmory" }
-    ],
-    "install": [ {
-        "find":       "RetroFuture",
-        "install_to": "GameData",
-        "filter":     [ "Ships" ]
-    }, {
-        "find":       "Ships/SPH",
-        "install_to": "Ships"
-    } ]
-}
+identifier: RetroFuture
+$kref: '#/ckan/github/linuxgurugamer/RetroFuture'
+$vref: '#/ckan/ksp-avc'
+---
+identifier: RetroFuture
+author:
+  - LinuxGuruGamer
+  - NohArk
+  - amankduffers
+$kref: '#/ckan/spacedock/2153'
+$vref: '#/ckan/ksp-avc'
+x_netkan_epoch: '2'
+license: CC-BY-NC-SA-4.0
+tags:
+  - parts
+  - combat
+depends:
+  - name: FirespitterCore
+  - name: KSPWheel
+  - name: B9-PWings-Fork
+  - name: ModuleManager
+recommends:
+  - name: FerramAerospaceResearchContinued
+  - name: RasterPropMonitor
+  - name: PatchManager
+suggests:
+  - name: SmokeScreen
+  - name: TweakScale
+supports:
+  - name: BDArmory
+install:
+  - find: RetroFuture
+    install_to: GameData
+    filter:
+      - Ships
+  - find: Ships/SPH
+    install_to: Ships

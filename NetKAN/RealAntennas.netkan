@@ -11,6 +11,8 @@ depends:
   - name: ModuleManager
   - name: KSPBurst
   - name: ClickThroughBlocker
+  - name: KSPCommunityFixes
+    min_version: 1.36.0
 conflicts:
   - name: RemoteTech
   - name: CommNetVisualization

@@ -1,16 +1,14 @@
-{
-    "identifier":   "SAVE",
-    "$kref":        "#/ckan/spacedock/2822",
-    "$vref":        "#/ckan/ksp-avc",
-    "license":      "LGPL-3.0",
-    "tags": [
-        "plugin"
-    ],
-    "install": [
-        {
-            "file": "GameData/Nereid",
-            "install_to": "GameData",
-            "filter": "source"
-        }
-    ]
-}
+identifier: SAVE
+$kref: '#/ckan/github/linuxgurugamer/S.A.V.E'
+$vref: '#/ckan/ksp-avc'
+---
+identifier: SAVE
+$kref: '#/ckan/spacedock/2822'
+$vref: '#/ckan/ksp-avc'
+license: LGPL-3.0
+tags:
+  - plugin
+install:
+  - file: GameData/Nereid
+    install_to: GameData
+    filter: source

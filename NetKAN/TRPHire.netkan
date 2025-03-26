@@ -1,17 +1,16 @@
-{
-    "identifier":   "TRPHire",
-    "$kref":        "#/ckan/spacedock/777",
-    "$vref":        "#/ckan/ksp-avc",
-    "license":      "MIT",
-    "tags": [
-        "plugin",
-        "crewed"
-    ],
-    "install": [ {
-        "find": "TRP-Hire",
-        "install_to": "GameData"
-    } ],
-    "recommends": [
-        { "name": "CommunityTraitIcons" }
-    ]
-}
+identifier: TRPHire
+$kref: '#/ckan/github/linuxgurugamer/PHS'
+$vref: '#/ckan/ksp-avc'
+---
+identifier: TRPHire
+$kref: '#/ckan/spacedock/777'
+$vref: '#/ckan/ksp-avc'
+license: MIT
+tags:
+  - plugin
+  - crewed
+recommends:
+  - name: CommunityTraitIcons
+install:
+  - find: TRP-Hire
+    install_to: GameData

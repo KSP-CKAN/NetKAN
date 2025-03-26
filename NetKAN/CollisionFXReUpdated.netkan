@@ -1,4 +1,8 @@
 identifier: CollisionFXReUpdated
+$kref: '#/ckan/github/VoidCosmo/CollisionFX-ReUpdated'
+$vref: '#/ckan/ksp-avc'
+---
+identifier: CollisionFXReUpdated
 $kref: '#/ckan/spacedock/2426'
 $vref: '#/ckan/ksp-avc'
 author:
@@ -14,5 +18,5 @@ tags:
 depends:
   - name: ModuleManager
 install:
-  - find: GameData/CollisionFXReUpdated
+  - find_regexp: GameData/CollisionFX(ReUpdated)?
     install_to: GameData

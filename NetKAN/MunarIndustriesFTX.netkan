@@ -1,22 +1,19 @@
-{
-    "identifier":   "MunarIndustriesFTX",
-    "$kref":        "#/ckan/spacedock/1396",
-    "$vref":        "#/ckan/ksp-avc",
-    "license":      "CC-BY-NC-SA-4.0",
-    "tags": [
-        "parts"
-    ],
-    "install": [ {
-        "find": "MunarIndustries",
-        "install_to": "GameData"
-    } ],
-    "depends": [
-        { "name": "ModuleManager" }
-    ],
-    "recommends": [
-        { "name": "InterstellarFuelSwitch-Core" }
-    ],
-    "suggests": [
-        { "name": "PatchManager" }
-    ]
-}
+identifier: MunarIndustriesFTX
+$kref: '#/ckan/github/linuxgurugamer/ModularFuelTankExpansion'
+$vref: '#/ckan/ksp-avc'
+---
+identifier: MunarIndustriesFTX
+$kref: '#/ckan/spacedock/1396'
+$vref: '#/ckan/ksp-avc'
+license: CC-BY-NC-SA-4.0
+tags:
+  - parts
+depends:
+  - name: ModuleManager
+recommends:
+  - name: InterstellarFuelSwitch-Core
+suggests:
+  - name: PatchManager
+install:
+  - find: MunarIndustries
+    install_to: GameData

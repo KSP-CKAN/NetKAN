@@ -1,17 +1,16 @@
-{
-    "identifier":   "NovaPunchRebalanced-Thor",
-    "name":         "NovaPunchRebalanced Thor",
-    "$kref":        "#/ckan/spacedock/2003",
-    "$vref":        "#/ckan/ksp-avc",
-    "license":      "CC-BY-SA-4.0",
-    "tags": [
-        "parts"
-    ],
-    "depends": [
-        { "name": "NovaPunchRebalanced" }
-    ],
-    "install": [ {
-        "find":       "NovaPunch/Thor",
-        "install_to": "GameData/NovaPunch"
-    } ]
-}
+identifier: NovaPunchRebalanced-Thor
+$kref: '#/ckan/github/linuxgurugamer/NovaPunch'
+$vref: '#/ckan/ksp-avc'
+---
+identifier: NovaPunchRebalanced-Thor
+name: NovaPunchRebalanced Thor
+$kref: '#/ckan/spacedock/2003'
+$vref: '#/ckan/ksp-avc'
+license: CC-BY-SA-4.0
+tags:
+  - parts
+depends:
+  - name: NovaPunchRebalanced
+install:
+  - find: NovaPunch/Thor
+    install_to: GameData/NovaPunch

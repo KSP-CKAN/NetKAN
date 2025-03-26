@@ -1,4 +1,8 @@
 identifier: VesselView-UI-RasterPropMonitor
+$kref: '#/ckan/github/linuxgurugamer/VesselViewer'
+$vref: '#/ckan/ksp-avc/VesselView.version'
+---
+identifier: VesselView-UI-RasterPropMonitor
 name: VesselView-UI-RasterPropMonitor
 $kref: '#/ckan/spacedock/923'
 $vref: '#/ckan/ksp-avc/VesselView.version'

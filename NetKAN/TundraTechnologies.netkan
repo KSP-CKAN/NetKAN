@@ -1,18 +1,17 @@
 identifier: TundraTechnologies
+$kref: '#/ckan/github/TundraMods/TundraExploration'
+$vref: '#/ckan/ksp-avc'
+---
+identifier: TundraTechnologies
 name: Tundra Techonologies
-abstract: This is a mod that adds satellite parts like New Horizons, Iridium and station parts like Haven-1!
+abstract: >-
+  This is a mod that adds satellite parts like New Horizons, Iridium and
+  station parts like Haven-1!
 $kref: '#/ckan/spacedock/223'
 $vref: '#/ckan/ksp-avc/TundraTechnologies.version'
 license: restricted
 tags:
   - parts
-depends:
-  - name: B9PartSwitch
-  - name: ModuleManager
-  - name: TundraExploration
-recommends:
-  - name: Waterfall
-  - name: FreeIva
 install:
   - find: TundraTechnologies
     install_to: GameData

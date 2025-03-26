@@ -1,32 +1,25 @@
-{
-    "identifier":   "RecycledPartsBDMk22Lightning",
-    "name":         "Recycled Parts BDM Mk22 Lightning",
-    "$kref":        "#/ckan/spacedock/1507",
-    "$vref":        "#/ckan/ksp-avc",
-    "license":      "restricted",
-    "tags": [
-        "parts"
-    ],
-    "install": [
-        {
-            "find": "BDMk22",
-            "install_to": "GameData/SpaceTuxIndustries/RecycledParts"
-        },
-        {
-            "find": "Plugins",
-            "install_to": "GameData/SpaceTuxIndustries"
-        }
-    ],
-    "depends": [
-        { "name": "ModuleManager" },
-        { "name": "ASETProps" },
-        { "name": "RasterPropMonitor-Core" }
-    ],
-    "suggests": [
-        { "name": "JanitorsCloset" }
-    ],
-    "conflicts": [
-        { "name" : "RecycledPartsBDMk22Lightning" },
-        { "name" : "BDynamicsMk22Cockpits" }
-    ]
-}
+identifier: RecycledPartsBDMk22Lightning
+$kref: '#/ckan/github/linuxgurugamer/RecycledParts'
+$vref: '#/ckan/ksp-avc'
+---
+identifier: RecycledPartsBDMk22Lightning
+name: Recycled Parts BDM Mk22 Lightning
+$kref: '#/ckan/spacedock/1507'
+$vref: '#/ckan/ksp-avc'
+license: restricted
+tags:
+  - parts
+depends:
+  - name: ModuleManager
+  - name: ASETProps
+  - name: RasterPropMonitor-Core
+suggests:
+  - name: JanitorsCloset
+conflicts:
+  - name: RecycledPartsBDMk22Lightning
+  - name: BDynamicsMk22Cockpits
+install:
+  - find: BDMk22
+    install_to: GameData/SpaceTuxIndustries/RecycledParts
+  - find: Plugins
+    install_to: GameData/SpaceTuxIndustries

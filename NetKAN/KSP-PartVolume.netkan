@@ -1,4 +1,8 @@
 identifier: KSP-PartVolume
+$kref: '#/ckan/github/linuxgurugamer/KSP_PartVolume'
+$vref: '#/ckan/ksp-avc'
+---
+identifier: KSP-PartVolume
 $kref: '#/ckan/spacedock/2672'
 $vref: '#/ckan/ksp-avc'
 license: CC-BY-NC-SA-4.0

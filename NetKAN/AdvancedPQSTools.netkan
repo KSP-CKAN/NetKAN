@@ -1,0 +1,17 @@
+identifier: AdvancedPQSTools
+author:
+  - KSP-RO Team
+  - ballisticfox
+  - pkmniako
+  - CharonSSS
+$kref: '#/ckan/github/CharonSSS/AdvancedPQSTools/asset_match/AdvancedPQSTools.zip'
+resources:
+  manual: https://github.com/CharonSSS/AdvancedPQSTools/wiki
+ksp_version: 1.12
+tags:
+  - plugin
+  - library
+  - planet-pack
+depends:
+  - name: ModuleManager
+  - name: Kopernicus

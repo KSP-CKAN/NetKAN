@@ -1,11 +1,19 @@
 identifier: TweakScaleRescaled-Redist
+$kref: '#/ckan/github/JonnyOThan/TweakScale'
+x_netkan_version_edit:
+  find: ^v
+  replace: ''
+  strict: false
+$vref: '#/ckan/ksp-avc/GameData/999_Scale_Redist.version'
+---
+identifier: TweakScaleRescaled-Redist
 name: TweakScale Rescaled Redistributable
 abstract: >-
+  Faster, more features, fewer bugs.
   Provides a mechanism for other mods to interact with TweakScaleRescaled.
   This plugin has no overhead when TweakScaleRescaled is not installed.
 $kref: '#/ckan/spacedock/3514'
 $vref: '#/ckan/ksp-avc/GameData/999_Scale_Redist.version'
-release_status: stable
 license: CC-BY-NC-SA
 author:
   - Biotronic

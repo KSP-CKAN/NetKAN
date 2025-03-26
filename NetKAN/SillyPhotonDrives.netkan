@@ -6,16 +6,17 @@ tags:
 depends:
   - name: ModuleManager
   - name: B9PartSwitch
-  - name: CommunityResourcePack
 recommends:
-  - name: NearFutureElectrical
   - name: Waterfall
-  - name: PersistentThrust
 suggests:
-  - name: CommunityTechTree
-  - name: NearFutureSolar
+  - name: CommunityResourcePack
+  - name: HeatControl
   - name: FarFutureTechnologies
   - name: CryoTanks
+  - name: NearFutureElectrical
+  - name: PersistentThrust
 supports:
   - name: CommunityTechTree
+  - name: VABOrganizer
+  - name: SystemHeat
 x_via: Automated SpaceDock CKAN submission

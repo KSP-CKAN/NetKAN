@@ -1,22 +1,22 @@
-{
-    "identifier"    : "Toolbar",
-    "name"          : "Toolbar",
-    "abstract"      : "API for third-party plugins to provide toolbar buttons",
-    "author"        : ["blizzy78", "linuxgurugamer"],
-    "$kref"         : "#/ckan/spacedock/2090",
-    "$vref"         : "#/ckan/ksp-avc",
-    "x_netkan_epoch": "1",
-    "license"       : "BSD-2-clause",
-    "release_status": "stable",
-    "tags": [
-        "plugin",
-        "convenience"
-    ],
-    "install" : [ {
-        "find"       : "GameData/000_Toolbar",
-        "install_to" : "GameData"
-    } ],
-    "depends": [
-        { "name" : "ClickThroughBlocker" }
-    ]
-}
+identifier: Toolbar
+$kref: '#/ckan/github/linuxgurugamer/ksp_toolbar'
+$vref: '#/ckan/ksp-avc'
+---
+identifier: Toolbar
+name: Toolbar
+abstract: API for third-party plugins to provide toolbar buttons
+author:
+  - blizzy78
+  - linuxgurugamer
+$kref: '#/ckan/spacedock/2090'
+$vref: '#/ckan/ksp-avc'
+x_netkan_epoch: '1'
+license: BSD-2-clause
+tags:
+  - plugin
+  - convenience
+depends:
+  - name: ClickThroughBlocker
+install:
+  - find: GameData/000_Toolbar
+    install_to: GameData

@@ -1,22 +1,23 @@
-{
-    "identifier":   "ShowFPS",
-    "name":         "Show FPS",
-    "abstract":     "Simple framerate counter, enable with F8.",
-    "author":       [ "linuxgurugamer", "m4v" ],
-    "$kref":        "#/ckan/spacedock/1757",
-    "$vref":        "#/ckan/ksp-avc",
-    "x_netkan_epoch": 1,
-    "license":      "LGPL-3.0",
-    "tags": [
-        "plugin",
-        "information"
-    ],
-    "depends": [
-        { "name" : "ToolbarController" },
-        { "name" : "ClickThroughBlocker" }
-    ],
-    "install": [ {
-        "find": "ShowFPS",
-        "install_to": "GameData"
-    } ]
-}
+identifier: ShowFPS
+$kref: '#/ckan/github/linuxgurugamer/ShowFPS'
+$vref: '#/ckan/ksp-avc'
+---
+identifier: ShowFPS
+name: Show FPS
+abstract: Simple framerate counter, enable with F8.
+author:
+  - linuxgurugamer
+  - m4v
+$kref: '#/ckan/spacedock/1757'
+$vref: '#/ckan/ksp-avc'
+x_netkan_epoch: 1
+license: LGPL-3.0
+tags:
+  - plugin
+  - information
+depends:
+  - name: ToolbarController
+  - name: ClickThroughBlocker
+install:
+  - find: ShowFPS
+    install_to: GameData

@@ -1,53 +1,46 @@
-{
-    "identifier":   "BDArmoryContinued",
-    "name":         "BD Armory Continued",
-    "abstract":     "The original Weapons mod by BahamutoD, continued!",
-    "author":       [ "BahamutoD", "Papa_Joe", "jrodrigv", "ouloul" ],
-    "$kref":        "#/ckan/github/PapaJoesSoup/BDArmory",
-    "$vref":        "#/ckan/ksp-avc",
-    "x_netkan_epoch": 1,
-    "license":      "CC-BY-SA-2.0",
-    "resources": {
-        "homepage":     "https://forum.kerbalspaceprogram.com/index.php?/topic/184167-*",
-        "repository":   "https://github.com/PapaJoesSoup/BDArmory",
-        "x_screenshot": "https://spacedock.info/content/Papa_Joe_926/BDArmoryContinued/BDArmoryContinued-1470103192.4904277.png"
-    },
-    "tags": [
-        "plugin",
-        "parts",
-        "sound",
-        "combat"
-    ],
-    "provides": [
-        "BDArmory"
-    ],
-    "conflicts": [
-        { "name": "BDArmory" }
-    ],
-    "depends": [
-        { "name": "ModuleManager"        },
-        { "name": "PhysicsRangeExtender" }
-    ],
-    "suggests": [
-        { "name": "BDModularMissileParts" }
-    ],
-    "install": [ {
-        "find":       "BDArmory",
-        "install_to": "GameData",
-        "filter":     [ "craft" ]
-    }, {
-        "find":       "craft",
-        "install_to": "Ships",
-        "as":         "SPH"
-    } ],
-    "x_netkan_override": [
-        {
-            "version": "v0.2.1.0",
-            "delete": [ "ksp_version" ],
-            "override": {
-                "ksp_version_min" : "1.2.0",
-                "ksp_version_max" : "1.2.2"
-            }
-        }
-    ]
-}
+identifier: BDArmoryContinued
+name: BD Armory Continued
+abstract: The original Weapons mod by BahamutoD, continued!
+author:
+  - BahamutoD
+  - Papa_Joe
+  - jrodrigv
+  - ouloul
+$kref: '#/ckan/github/PapaJoesSoup/BDArmory'
+$vref: '#/ckan/ksp-avc'
+x_netkan_epoch: 1
+x_netkan_force_v: true
+license: CC-BY-SA-2.0
+resources:
+  homepage: https://forum.kerbalspaceprogram.com/index.php?/topic/184167-*
+  x_screenshot: >-
+    https://spacedock.info/content/Papa_Joe_926/BDArmoryContinued/BDArmoryContinued-1470103192.4904277.png
+tags:
+  - plugin
+  - parts
+  - sound
+  - combat
+provides:
+  - BDArmory
+conflicts:
+  - name: BDArmory
+depends:
+  - name: ModuleManager
+  - name: PhysicsRangeExtender
+suggests:
+  - name: BDModularMissileParts
+install:
+  - find: BDArmory
+    install_to: GameData
+    filter:
+      - craft
+  - find: craft
+    install_to: Ships
+    as: SPH
+x_netkan_override:
+  - version: v0.2.1.0
+    delete:
+      - ksp_version
+    override:
+      ksp_version_min: 1.2.0
+      ksp_version_max: 1.2.2

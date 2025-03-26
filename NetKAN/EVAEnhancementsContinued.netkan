@@ -1,24 +1,22 @@
-{
-    "identifier":   "EVAEnhancementsContinued",
-    "$kref":        "#/ckan/spacedock/994",
-    "$vref":        "#/ckan/ksp-avc",
-    "license":      "MIT",
-    "tags": [
-        "plugin",
-        "crewed",
-        "information",
-        "control"
-    ],
-    "depends": [
-        { "name": "ModuleManager"       },
-        { "name": "ToolbarController"   },
-        { "name": "ClickThroughBlocker" }
-    ],
-    "suggests": [
-        { "name": "EvaFuelCont" }
-    ],
-    "install": [ {
-        "find":       "EVAEnhancementsContinued",
-        "install_to": "GameData"
-    } ]
-}
+identifier: EVAEnhancementsContinued
+$kref: '#/ckan/github/linuxgurugamer/EVAEnhancementsContinued'
+$vref: '#/ckan/ksp-avc'
+---
+identifier: EVAEnhancementsContinued
+$kref: '#/ckan/spacedock/994'
+$vref: '#/ckan/ksp-avc'
+license: MIT
+tags:
+  - plugin
+  - crewed
+  - information
+  - control
+depends:
+  - name: ModuleManager
+  - name: ToolbarController
+  - name: ClickThroughBlocker
+suggests:
+  - name: EvaFuelCont
+install:
+  - find: EVAEnhancementsContinued
+    install_to: GameData

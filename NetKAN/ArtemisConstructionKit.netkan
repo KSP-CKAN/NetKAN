@@ -1,4 +1,11 @@
 identifier: ArtemisConstructionKit
+$kref: '#/ckan/github/benjee10/Benjee10_Orion'
+x_netkan_version_edit:
+  find: ^v
+  replace: ''
+  strict: false
+---
+identifier: ArtemisConstructionKit
 $kref: '#/ckan/spacedock/3098'
 license: restricted
 tags:

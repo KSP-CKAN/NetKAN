@@ -1,0 +1,18 @@
+identifier: ShuttlePayloadDeliverySystems
+$kref: '#/ckan/github/HakariMatt/ShuttlePayloadDeliverySystems'
+x_netkan_version_edit:
+  find: ^v
+  replace: ''
+  strict: false
+---
+identifier: ShuttlePayloadDeliverySystems
+$kref: '#/ckan/spacedock/3056'
+license: CC-BY
+tags:
+  - parts
+depends:
+  - name: ModuleManager
+  - name: B9PartSwitch
+  - name: BreakingGround-DLC
+  - name: BluedogDB
+  - name: ShuttleOrbiterConstructionKit

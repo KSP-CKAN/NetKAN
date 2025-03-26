@@ -1,20 +1,19 @@
-{
-    "identifier":   "FillitUp",
-    "$kref":        "#/ckan/spacedock/2051",
-    "$vref":        "#/ckan/ksp-avc",
-    "license":      "GPL-3.0",
-    "tags": [
-        "plugin",
-        "editor",
-        "convenience"
-    ],
-    "install": [ {
-        "find": "FillItUp",
-        "install_to": "GameData"
-    } ],
-    "depends": [
-        { "name" : "ToolbarController" },
-        { "name" : "ClickThroughBlocker" },
-        { "name" : "ButtonManager" }
-    ]
-}
+identifier: FillitUp
+$kref: '#/ckan/github/linuxgurugamer/FillItUp'
+$vref: '#/ckan/ksp-avc'
+---
+identifier: FillitUp
+$kref: '#/ckan/spacedock/2051'
+$vref: '#/ckan/ksp-avc'
+license: GPL-3.0
+tags:
+  - plugin
+  - editor
+  - convenience
+install:
+  - find: FillItUp
+    install_to: GameData
+depends:
+  - name: ToolbarController
+  - name: ClickThroughBlocker
+  - name: ButtonManager

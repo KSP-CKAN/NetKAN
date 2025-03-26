@@ -1,4 +1,11 @@
 identifier: AtmosphericBeatsKSRSSconfigforEVEVolumetrics
+$kref: '#/ckan/github/atmosphericbeats/atmosphericbeats_eveconfig_ksrss'
+x_netkan_version_edit:
+  find: ^v
+  replace: ''
+  strict: false
+---
+identifier: AtmosphericBeatsKSRSSconfigforEVEVolumetrics
 $kref: '#/ckan/spacedock/3343'
 license: MIT
 tags:
@@ -9,4 +16,3 @@ depends:
 install:
   - find: AtmosphericBeats
     install_to: GameData
-x_via: Automated SpaceDock CKAN submission

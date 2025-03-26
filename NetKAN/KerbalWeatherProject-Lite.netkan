@@ -1,26 +1,21 @@
-{
-    "identifier":   "KerbalWeatherProject-Lite",
-    "$kref":        "#/ckan/spacedock/2611",
-    "license":      "MIT",
-    "tags": [
-        "plugin"
-    ],
-    "provides": [
-        "KerbalWeatherProject"
-    ],
-    "conflicts": [
-        { "name": "KerbalWeatherProject" }
-    ],
-    "depends": [
-        { "name": "ToolbarController"       },
-        { "name": "ModularFlightIntegrator" }
-    ],
-    "recommends": [
-        { "name": "KerBalloons"          },
-        { "name": "AtmosphereAutopilot"  }
-    ],
-    "install": [ {
-        "find":       "KerbalWeatherProject_Lite",
-        "install_to": "GameData"
-    } ]
-}
+identifier: KerbalWeatherProject-Lite
+$kref: '#/ckan/github/cmac994/KerbalWeatherProject/asset_match/Lite'
+---
+identifier: KerbalWeatherProject-Lite
+$kref: '#/ckan/spacedock/2611'
+license: MIT
+tags:
+  - plugin
+provides:
+  - KerbalWeatherProject
+conflicts:
+  - name: KerbalWeatherProject
+depends:
+  - name: ToolbarController
+  - name: ModularFlightIntegrator
+recommends:
+  - name: KerBalloons
+  - name: AtmosphereAutopilot
+install:
+  - find: KerbalWeatherProject_Lite
+    install_to: GameData

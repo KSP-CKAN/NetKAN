@@ -1,15 +1,15 @@
-{
-    "identifier":   "ScienceAlert",
-    "$kref":        "#/ckan/spacedock/1886",
-    "$vref":        "#/ckan/ksp-avc",
-    "license":      "GPL-3.0",
-    "tags": [
-        "plugin",
-        "science",
-        "information"
-    ],
-    "depends": [
-        { "name" : "ToolbarController" },
-        { "name" : "ClickThroughBlocker" }
-    ]
-}
+identifier: ScienceAlert
+$kref: '#/ckan/github/linuxgurugamer/ScienceAlert'
+$vref: '#/ckan/ksp-avc'
+---
+identifier: ScienceAlert
+$kref: '#/ckan/spacedock/1886'
+$vref: '#/ckan/ksp-avc'
+license: GPL-3.0
+tags:
+  - plugin
+  - science
+  - information
+depends:
+  - name: ToolbarController
+  - name: ClickThroughBlocker

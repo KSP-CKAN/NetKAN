@@ -1,12 +1,13 @@
 identifier: SpaceXLegs
+$kref: '#/ckan/github/TundraMods/Kerbal-Reusability-Expansion'
+$vref: '#/ckan/ksp-avc'
+---
+identifier: SpaceXLegs
 $kref: '#/ckan/spacedock/841'
 $vref: '#/ckan/ksp-avc'
 license: MIT
 tags:
   - parts
-install:
-  - file: KerbalReusabilityExpansion
-    install_to: GameData
 depends:
   - name: ModuleManager
 recommends:
@@ -16,3 +17,6 @@ supports:
   - name: TweakScale
   - name: RealPlume
   - name: FerramAerospaceResearch
+install:
+  - file: KerbalReusabilityExpansion
+    install_to: GameData

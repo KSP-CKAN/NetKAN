@@ -1,21 +1,20 @@
-{
-    "identifier":   "AirParkContinued",
-    "$kref":        "#/ckan/spacedock/2661",
-    "$vref":        "#/ckan/ksp-avc",
-    "license":      "GPL-2.0",
-    "x_netkan_epoch": 1,
-    "tags": [
-        "plugin",
-        "physics"
-    ],
-    "install": [ {
-        "find":       "AirPark",
-        "install_to": "GameData"
-    } ],
-    "depends": [
-        { "name" : "ModuleManager" },
-        { "name" : "ToolbarController" },
-        { "name" : "ClickThroughBlocker" },
-        { "name": "SpaceTuxLibrary" }
-    ]
-}
+identifier: AirParkContinued
+$kref: '#/ckan/github/linuxgurugamer/AirPark'
+$vref: '#/ckan/ksp-avc'
+---
+identifier: AirParkContinued
+$kref: '#/ckan/spacedock/2661'
+$vref: '#/ckan/ksp-avc'
+license: GPL-2.0
+x_netkan_epoch: 1
+tags:
+  - plugin
+  - physics
+depends:
+  - name: ModuleManager
+  - name: ToolbarController
+  - name: ClickThroughBlocker
+  - name: SpaceTuxLibrary
+install:
+  - find: AirPark
+    install_to: GameData

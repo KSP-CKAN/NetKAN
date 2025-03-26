@@ -1,0 +1,10 @@
+identifier: MirrorShields
+$kref: '#/ckan/spacedock/3761'
+tags:
+  - parts
+depends:
+  - name: ModuleManager
+  - name: B9PartSwitch
+  - name: Resurfaced
+recommends:
+  - name: TweakScaleRescaled

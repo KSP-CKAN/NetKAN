@@ -1,10 +1,11 @@
-{
-    "identifier":   "KeepItStraight",
-    "$kref":        "#/ckan/spacedock/824",
-    "$vref":        "#/ckan/ksp-avc",
-    "license":      "GPL-3.0",
-    "tags": [
-        "plugin",
-        "convenience"
-    ]
-}
+identifier: KeepItStraight
+$kref: '#/ckan/github/jarosm/KSP-KeepItStraight'
+$vref: '#/ckan/ksp-avc'
+---
+identifier: KeepItStraight
+$kref: '#/ckan/spacedock/824'
+$vref: '#/ckan/ksp-avc'
+license: GPL-3.0
+tags:
+  - plugin
+  - convenience

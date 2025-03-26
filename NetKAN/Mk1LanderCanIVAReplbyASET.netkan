@@ -1,4 +1,8 @@
 identifier: Mk1LanderCanIVAReplbyASET
+$kref: '#/ckan/github/StoneBlue/ASET-Consolidated-IVAs'
+$vref: '#/ckan/ksp-avc'
+---
+identifier: Mk1LanderCanIVAReplbyASET
 name: Mk1 Lander Can IVA Replacement by ASET
 author:
   - alexustas
@@ -17,6 +21,7 @@ depends:
     min_version: '1.4'
   - name: RasterPropMonitor-Core
     min_version: 0.28.0
+  - name: ASETAvionics
 install:
   - find: ASET
     install_to: GameData

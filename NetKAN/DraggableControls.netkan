@@ -1,7 +1,10 @@
 identifier: DraggableControls
+$kref: '#/ckan/github/andrew-vant/dragctrl'
+$vref: '#/ckan/ksp-avc'
+---
+identifier: DraggableControls
 $kref: '#/ckan/spacedock/3073'
 $vref: '#/ckan/ksp-avc'
-license: MIT
 tags:
   - plugin
   - convenience

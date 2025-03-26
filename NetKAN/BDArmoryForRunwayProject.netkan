@@ -1,4 +1,13 @@
 identifier: BDArmoryForRunwayProject
+$kref: '#/ckan/github/BrettRyland/BDArmory'
+x_netkan_version_edit:
+  find: ^v
+  replace: ''
+  strict: false
+$vref: '#/ckan/ksp-avc'
+x_netkan_force_v: true
+---
+identifier: BDArmoryForRunwayProject
 author:
   - BahamutoD
   - Papa_Joe

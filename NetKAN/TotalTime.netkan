@@ -1,21 +1,19 @@
-{
-    "identifier"     : "TotalTime",
-    "$kref"          : "#/ckan/spacedock/54",
-    "$vref"          : "#/ckan/ksp-avc",
-    "license"        : "MIT",
-    "tags": [
-        "plugin",
-        "information"
-    ],
-    "depends": [
-        { "name" : "ToolbarController" },
-        { "name" : "ClickThroughBlocker" }
-    ],
-    "recommends": [
-        { "name": "JanitorsCloset" }
-    ],
-    "install": [ {
-        "find"       : "TotalTime",
-        "install_to" : "GameData"
-    } ]
-}
+identifier: TotalTime
+$kref: '#/ckan/github/linuxgurugamer/TotalTime'
+$vref: '#/ckan/ksp-avc'
+---
+identifier: TotalTime
+$kref: '#/ckan/spacedock/54'
+$vref: '#/ckan/ksp-avc'
+license: MIT
+tags:
+  - plugin
+  - information
+depends:
+  - name: ToolbarController
+  - name: ClickThroughBlocker
+recommends:
+  - name: JanitorsCloset
+install:
+  - find: TotalTime
+    install_to: GameData

@@ -1,10 +1,6 @@
 identifier: VABOrganizer-Jade
-name: VAB Organizer - Jade's Configs
 $kref: '#/ckan/github/JadeOfMaar/VABOrganizer-Jade'
 $vref: '#/ckan/ksp-avc'
-install:
-  - find: VABOrganizerJade
-    install_to: GameData
 ---
 identifier: VABOrganizer-Jade
 name: VAB Organizer - Jade's Configs

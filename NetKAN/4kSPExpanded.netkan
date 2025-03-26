@@ -1,22 +1,22 @@
-{
-  "license": "MIT",
-  "identifier": "4kSPExpanded",
-  "x_via": "Automated Linuxgurugamer CKAN script",
-  "$kref": "#/ckan/spacedock/2554",
-  "$vref": "#/ckan/ksp-avc",
-  "conflicts": [ { "name": "4kSP" } ],
-  "depends": [
-    { "name": "ToolbarController" },
-    { "name": "ClickThroughBlocker" }
-  ],
-  "tags": [
-    "plugin",
-    "convenience",
-    "information",
-    "graphics"
-  ],
-  "install": [ {
-        "find":"4ksp",
-        "install_to": "GameData"
-    } ]
-}
+identifier: 4kSPExpanded
+$kref: '#/ckan/github/linuxgurugamer/4ksp_Expanded'
+$vref: '#/ckan/ksp-avc'
+---
+license: MIT
+identifier: 4kSPExpanded
+x_via: Automated Linuxgurugamer CKAN script
+$kref: '#/ckan/spacedock/2554'
+$vref: '#/ckan/ksp-avc'
+conflicts:
+  - name: 4kSP
+depends:
+  - name: ToolbarController
+  - name: ClickThroughBlocker
+tags:
+  - plugin
+  - convenience
+  - information
+  - graphics
+install:
+  - find: 4ksp
+    install_to: GameData

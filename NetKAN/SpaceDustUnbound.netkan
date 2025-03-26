@@ -1,4 +1,12 @@
 identifier: SpaceDustUnbound
+$kref: '#/ckan/github/Vexxel/SpaceDustUnbound'
+x_netkan_version_edit:
+  find: ^v
+  replace: ''
+  strict: false
+$vref: '#/ckan/ksp-avc'
+---
+identifier: SpaceDustUnbound
 $kref: '#/ckan/spacedock/2970'
 $vref: '#/ckan/ksp-avc'
 license: MIT

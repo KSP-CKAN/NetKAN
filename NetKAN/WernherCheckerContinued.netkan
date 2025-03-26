@@ -1,4 +1,8 @@
 identifier: WernherCheckerContinued
+$kref: '#/ckan/github/linuxgurugamer/WernherChecker'
+$vref: '#/ckan/ksp-avc'
+---
+identifier: WernherCheckerContinued
 $kref: '#/ckan/spacedock/1237'
 $vref: '#/ckan/ksp-avc'
 license: MIT
@@ -6,12 +10,12 @@ tags:
   - plugin
   - editor
   - information
-install:
-  - filter_regexp:
-      - .*~$
-    find: WernherChecker
-    install_to: GameData
 depends:
   - name: ToolbarController
   - name: ClickThroughBlocker
   - name: SpaceTuxLibrary
+install:
+  - find: WernherChecker
+    filter_regexp:
+      - .*~$
+    install_to: GameData

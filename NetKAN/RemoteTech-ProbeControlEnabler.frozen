@@ -5,7 +5,6 @@
     "identifier"     : "RemoteTech-ProbeControlEnabler",
     "abstract"       : "Optional ModuleManager patch by Felger to re-enable probe control when a link is not present.  You will still need a link to transmit science data.",
     "license"        : "CC-BY-SA",
-    "release_status" : "stable",
     "depends" : [
         { "name" : "ModuleManager" }
     ],

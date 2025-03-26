@@ -1,27 +1,24 @@
-{
-    "identifier":   "MicroSatRevived",
-    "$kref":        "#/ckan/spacedock/1795",
-    "$vref":        "#/ckan/ksp-avc",
-    "license":      "CC-BY-NC-SA-4.0",
-    "tags": [
-        "parts",
-        "uncrewed"
-    ],
-    "install"   :   [ {
-        "find" : "SquiggsySpaceResearch",
-        "install_to" : "GameData"
-    } ],
-    "depends": [
-        { "name": "ModuleManager" }
-    ],
-    "recommends" : [
-        { "name" : "FMRSContinued" },
-        { "name" : "KerbalJointReinforcement" },
-        { "name" : "AntennaRange" },
-        { "name" : "ProceduralFairings" },
-        { "name" : "SimpleAdjustableFairings-KWRocketry" }
-    ],
-    "suggests" : [
-        { "name" : "RemoteTech" }
-    ]
-}
+identifier: MicroSatRevived
+$kref: '#/ckan/github/linuxgurugamer/MicroSat_0.35m_Probe_Parts'
+$vref: '#/ckan/ksp-avc'
+---
+identifier: MicroSatRevived
+$kref: '#/ckan/spacedock/1795'
+$vref: '#/ckan/ksp-avc'
+license: CC-BY-NC-SA-4.0
+tags:
+  - parts
+  - uncrewed
+depends:
+  - name: ModuleManager
+recommends:
+  - name: FMRSContinued
+  - name: KerbalJointReinforcement
+  - name: AntennaRange
+  - name: ProceduralFairings
+  - name: SimpleAdjustableFairings-KWRocketry
+suggests:
+  - name: RemoteTech
+install:
+  - find: SquiggsySpaceResearch
+    install_to: GameData

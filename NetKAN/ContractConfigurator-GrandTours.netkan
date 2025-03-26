@@ -1,0 +1,20 @@
+identifier: ContractConfigurator-GrandTours
+$kref: '#/ckan/spacedock/50'
+$vref: '#/ckan/ksp-avc'
+x_netkan_epoch: '1'
+tags:
+  - config
+  - career
+depends:
+  - name: SpacetuxSA
+  - name: ContractConfigurator
+install:
+  - find: Grandtours
+    install_to: GameData/ContractPacks/Spacetux
+x_netkan_override:
+  - version: 1:0.1.7
+    delete:
+      - ksp_version
+    override:
+      ksp_version_min: 1.0.2
+      ksp_version_max: 1.0.4

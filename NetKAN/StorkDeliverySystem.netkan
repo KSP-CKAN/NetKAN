@@ -1,27 +1,26 @@
-{
-    "identifier"   : "StorkDeliverySystem",
-    "author"       : [ "riocrokite", "zer0Kerbal" ],
-    "$kref"        : "#/ckan/spacedock/2347",
-    "$vref"        : "#/ckan/ksp-avc",
-    "license"      : "CC-BY-NC-SA-4.0",
-    "tags": [
-        "parts"
-    ],
-    "depends": [
-        { "name": "ModuleManager" }
-    ],
-    "suggests": [
-        { "name": "MoarKerbals"             },
-        { "name": "MFS"                     },
-        { "name": "SimpleLogistics"         },
-        { "name": "SimpleConstruction"      },
-        { "name": "NotSoSimpleConstruction" }
-    ],
-    "supports": [
-        { "name": "KerbalChangelog" }
-    ],
-    "install": [ {
-        "find"      : "KermangeddonIndustries",
-        "install_to": "GameData"
-    } ]
-}
+identifier: StorkDeliverySystem
+$kref: '#/ckan/github/zer0Kerbal/StorkDeliverySystem'
+$vref: '#/ckan/ksp-avc'
+---
+identifier: StorkDeliverySystem
+author:
+  - riocrokite
+  - zer0Kerbal
+$kref: '#/ckan/spacedock/2347'
+$vref: '#/ckan/ksp-avc'
+license: CC-BY-NC-SA-4.0
+tags:
+  - parts
+depends:
+  - name: ModuleManager
+suggests:
+  - name: MoarKerbals
+  - name: MFS
+  - name: SimpleLogistics
+  - name: SimpleConstruction
+  - name: NotSoSimpleConstruction
+supports:
+  - name: KerbalChangelog
+install:
+  - find: KermangeddonIndustries
+    install_to: GameData

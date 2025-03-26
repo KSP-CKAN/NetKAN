@@ -1,22 +1,21 @@
-{
-    "identifier":   "SpaceTuxLibrary",
-    "$kref":        "#/ckan/spacedock/2210",
-    "$vref":        "#/ckan/ksp-avc/SpaceTuxLibrary.version",
-    "license":      "GPL-3.0",
-    "provides": [
-        "ButtonManager",
-        "KSPColorPicker",
-        "KSPLog",
-        "KSPPartHighlighter",
-        "SpaceTuxUtility",
-        "VesselModuleSave"
-    ],
-    "tags": [
-        "plugin",
-        "library"
-    ],
-    "install": [ {
-        "find": "SpaceTuxLibrary",
-        "install_to": "GameData"
-    } ]
-}
+identifier: SpaceTuxLibrary
+$kref: '#/ckan/github/linuxgurugamer/SpaceTuxLibrary'
+$vref: '#/ckan/ksp-avc/SpaceTuxLibrary.version'
+---
+identifier: SpaceTuxLibrary
+$kref: '#/ckan/spacedock/2210'
+$vref: '#/ckan/ksp-avc/SpaceTuxLibrary.version'
+license: GPL-3.0
+provides:
+  - ButtonManager
+  - KSPColorPicker
+  - KSPLog
+  - KSPPartHighlighter
+  - SpaceTuxUtility
+  - VesselModuleSave
+tags:
+  - plugin
+  - library
+install:
+  - find: SpaceTuxLibrary
+    install_to: GameData

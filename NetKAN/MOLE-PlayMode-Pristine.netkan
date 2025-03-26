@@ -1,34 +1,28 @@
-{
-    "identifier":   "MOLE-PlayMode-Pristine",
-    "name":         "MOLE Pristine Play Mode",
-    "$kref":        "#/ckan/github/Angel-125/MOLE",
-    "$vref":        "#/ckan/ksp-avc/GameData/WildBlueIndustries/MOLE/MOLE.version",
-    "x_netkan_staging": true,
-    "x_netkan_staging_reason": "Make sure that all .txt files for this play mode are installed as .cfg",
-    "license":      "restricted",
-    "resources": {
-        "homepage":   "https://forum.kerbalspaceprogram.com/index.php?/topic/154893-*",
-        "repository": "https://github.com/Angel-125/MOLE"
-    },
-    "tags": [
-        "config"
-    ],
-    "provides": [
-        "MOLE-PlayMode"
-    ],
-    "depends": [
-        { "name": "WildBlue-PlayMode-Pristine" },
-        { "name": "ModuleManager"              },
-        { "name": "MOLE"                       }
-    ],
-    "install": [ {
-        "find":       "WildBlueIndustries/MOLE/Templates/Pristine.cfg",
-        "install_to": "GameData/WildBlueIndustries/MOLE/Templates",
-        "find_matches_files": true
-    }, {
-        "find":       "MOLE/Templates/Pristine/MM_Pristine.txt",
-        "install_to": "GameData/WildBlueIndustries/MOLE/Templates/Pristine",
-        "as":         "MM_Pristine.cfg",
-        "find_matches_files": true
-    } ]
-}
+identifier: MOLE-PlayMode-Pristine
+name: MOLE Pristine Play Mode
+$kref: '#/ckan/github/Angel-125/MOLE'
+$vref: '#/ckan/ksp-avc/GameData/WildBlueIndustries/MOLE/MOLE.version'
+x_netkan_staging: true
+x_netkan_staging_reason: Make sure that all .txt files for this play mode are installed as .cfg
+license: restricted
+resources:
+  homepage: https://forum.kerbalspaceprogram.com/index.php?/topic/154893-*
+  repository: https://github.com/Angel-125/MOLE
+tags:
+  - config
+provides:
+  - MOLE-PlayMode
+conflicts:
+  - name: MOLE-PlayMode
+depends:
+  - name: WildBlue-PlayMode-Pristine
+  - name: ModuleManager
+  - name: MOLE
+install:
+  - find: WildBlueIndustries/MOLE/Templates/Pristine.cfg
+    install_to: GameData/WildBlueIndustries/MOLE/Templates
+    find_matches_files: true
+  - find: MOLE/Templates/Pristine/MM_Pristine.txt
+    install_to: GameData/WildBlueIndustries/MOLE/Templates/Pristine
+    as: MM_Pristine.cfg
+    find_matches_files: true

@@ -1,0 +1,10 @@
+identifier: MassEffectDrive
+$kref: '#/ckan/github/Lucaspec72/Mass-Effect-Drive-Mod-KSP'
+ksp_version: '1.12'
+license: CC-BY-NC-SA-3.0
+tags:
+  - plugin
+  - parts
+depends:
+  - name: ModuleManager
+  - name: Harmony2

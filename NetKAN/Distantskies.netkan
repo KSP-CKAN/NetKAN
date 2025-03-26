@@ -7,6 +7,8 @@ tags:
 depends:
   - name: ModuleManager
   - name: Kopernicus
+  - name: KopernicusExpansionContinueder
+  - name: VertexMitchellNetravaliHeightMap
 install:
   - find: Distant Skies
     install_to: GameData

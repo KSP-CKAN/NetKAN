@@ -1,10 +1,10 @@
-{
-    "identifier":   "WindTunnel",
-    "$kref":        "#/ckan/spacedock/1927",
-    "license":      "MIT",
-    "tags": [
-        "plugin",
-        "information",
-        "editor"
-    ]
-}
+identifier: WindTunnel
+$kref: '#/ckan/github/DBooots/KerbalWindTunnel'
+---
+identifier: WindTunnel
+$kref: '#/ckan/spacedock/1927'
+license: MIT
+tags:
+  - plugin
+  - information
+  - editor

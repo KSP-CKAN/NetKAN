@@ -1,4 +1,7 @@
 identifier: ModularLaunchPads
+$kref: '#/ckan/github/AlphaMensae/Modular-Launch-Pads'
+---
+identifier: ModularLaunchPads
 $kref: '#/ckan/spacedock/1767'
 license: CC-BY-NC-SA-4.0
 tags:
@@ -11,12 +14,6 @@ depends:
 recommends:
   - name: KSCExtended
   - name: BluedogDB
-install:
-  - find: ModularLaunchPads
-    install_to: GameData
-  - find: Bare Assemblies
-    install_to: Ships
-    as: VAB
 x_netkan_override:
   - version: 2.1.2
     override:
@@ -27,3 +24,9 @@ x_netkan_override:
   - version: 2.2.0.b
     override:
       ksp_version_min: 1.8.1
+install:
+  - find: ModularLaunchPads
+    install_to: GameData
+  - find: Bare Assemblies
+    install_to: Ships
+    as: VAB

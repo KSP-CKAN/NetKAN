@@ -1,4 +1,8 @@
 identifier: RecycledParts
+$kref: '#/ckan/github/linuxgurugamer/RecycledParts'
+$vref: '#/ckan/ksp-avc'
+---
+identifier: RecycledParts
 name: Recycled Parts
 $kref: '#/ckan/spacedock/1507'
 $vref: '#/ckan/ksp-avc'

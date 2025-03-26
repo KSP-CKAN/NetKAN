@@ -4,7 +4,6 @@
     "identifier"     : "RoadToCosmosCore",
     "abstract"       : "Soviet and American-style tech trees",
     "license"        : "CC-BY-NC-SA-4.0",
-    "release_status" : "stable",
     "depends" : [
         { "name" : "DMagicOrbitalScience" },
         { "name" : "ModuleManager" },

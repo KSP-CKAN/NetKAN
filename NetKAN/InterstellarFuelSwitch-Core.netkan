@@ -19,7 +19,7 @@
     ],
     "depends": [
         { "name": "ModuleManager" },
-        { "name": "TweakScale"    }
+        { "name": "TweakScale-Redist"    }
     ],
     "recommends": [
         { "name" : "CommunityResourcePack", "min_version" : "0.7.1" }

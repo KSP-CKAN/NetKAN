@@ -1,18 +1,17 @@
-{
-    "identifier":   "ResonantOrbitCalculator",
-    "license":      "MIT",
-    "$kref":        "#/ckan/spacedock/1954",
-    "$vref":        "#/ckan/ksp-avc",
-    "tags": [
-        "plugin",
-        "information"
-    ],
-    "install": [ {
-        "find":       "ResonantOrbitCalculator",
-        "install_to": "GameData"
-    } ],
-    "depends": [
-        { "name": "ToolbarController"   },
-        { "name": "ClickThroughBlocker" }
-    ]
-}
+identifier: ResonantOrbitCalculator
+$kref: '#/ckan/github/linuxgurugamer/ResonantOrbitCalculator'
+$vref: '#/ckan/ksp-avc'
+---
+identifier: ResonantOrbitCalculator
+license: MIT
+$kref: '#/ckan/spacedock/1954'
+$vref: '#/ckan/ksp-avc'
+tags:
+  - plugin
+  - information
+install:
+  - find: ResonantOrbitCalculator
+    install_to: GameData
+depends:
+  - name: ToolbarController
+  - name: ClickThroughBlocker

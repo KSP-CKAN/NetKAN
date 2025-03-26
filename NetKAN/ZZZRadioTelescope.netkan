@@ -1,21 +1,19 @@
-{
-    "identifier":   "ZZZRadioTelescope",
-    "$kref":        "#/ckan/spacedock/1358",
-    "$vref":        "#/ckan/ksp-avc",
-    "license":      "CC-BY-NC-SA-4.0",
-    "tags": [
-        "parts",
-        "science"
-    ],
-    "depends": [
-        { "name": "ModuleManager" },
-        { "name": "SpacetuxSA"    }
-    ],
-    "suggests": [
-        { "name": "ContractConfigurator" }
-    ],
-    "install": [ {
-        "find":       "MunSeeker",
-        "install_to": "GameData"
-    } ]
-}
+identifier: ZZZRadioTelescope
+$kref: '#/ckan/github/linuxgurugamer/ZZZ-RadioTelescope'
+$vref: '#/ckan/ksp-avc'
+---
+identifier: ZZZRadioTelescope
+$kref: '#/ckan/spacedock/1358'
+$vref: '#/ckan/ksp-avc'
+license: CC-BY-NC-SA-4.0
+tags:
+  - parts
+  - science
+depends:
+  - name: ModuleManager
+  - name: SpacetuxSA
+suggests:
+  - name: ContractConfigurator
+install:
+  - find: MunSeeker
+    install_to: GameData

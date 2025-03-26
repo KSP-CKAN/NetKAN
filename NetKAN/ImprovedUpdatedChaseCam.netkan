@@ -1,16 +1,15 @@
-{
-    "identifier":   "ImprovedUpdatedChaseCam",
-    "$kref":        "#/ckan/spacedock/2249",
-    "$vref":        "#/ckan/ksp-avc",
-    "license":      "GPL-3.0",
-    "tags": [
-        "plugin"
-    ],
-    "conflicts": [
-        { "name": "ImprovedChaseCamera" }
-    ],
-    "install": [ {
-        "find": "ImprovedChaseCamera",
-        "install_to": "GameData"
-    } ]
-}
+identifier: ImprovedUpdatedChaseCam
+$kref: '#/ckan/github/linuxgurugamer/ImprovedChaseCamera'
+$vref: '#/ckan/ksp-avc'
+---
+identifier: ImprovedUpdatedChaseCam
+$kref: '#/ckan/spacedock/2249'
+$vref: '#/ckan/ksp-avc'
+license: GPL-3.0
+tags:
+  - plugin
+conflicts:
+  - name: ImprovedChaseCamera
+install:
+  - find: ImprovedChaseCamera
+    install_to: GameData

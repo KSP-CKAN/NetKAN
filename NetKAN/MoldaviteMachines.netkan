@@ -1,4 +1,8 @@
 identifier: MoldaviteMachines
+$kref: '#/ckan/github/JadeOfMaar/MoldaviteMachines'
+$vref: '#/ckan/ksp-avc'
+---
+identifier: MoldaviteMachines
 $kref: '#/ckan/spacedock/3060'
 $vref: '#/ckan/ksp-avc'
 license: CC-BY-NC-SA
@@ -7,7 +11,6 @@ tags:
   - crewed
   - resources
 supports:
-  - name: B9PartSwitch
   - name: TACLS
   - name: IFILS
   - name: RealFuels
@@ -18,3 +21,4 @@ depends:
   - name: ModuleManager
 suggests:
   - name: MoldaviteMachinesKerbalism
+  - name: B9PartSwitch

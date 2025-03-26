@@ -1,12 +1,15 @@
-{
-    "identifier"  : "KSP-AVC",
-    "name"        : "KSP AVC",
-    "abstract"    : "In-Game GUI for KSP Addon Version Checker",
-    "author"      : [ "cybutek", "linuxgurugamer" ],
-    "$kref"       : "#/ckan/spacedock/2092",
-    "$vref"       : "#/ckan/ksp-avc",
-    "license"     : "GPL-3.0",
-    "tags": [
-        "plugin"
-    ]
-}
+identifier: KSP-AVC
+$kref: '#/ckan/github/linuxgurugamer/KSPAddonVersionChecker'
+$vref: '#/ckan/ksp-avc'
+---
+identifier: KSP-AVC
+name: KSP AVC
+abstract: In-Game GUI for KSP Addon Version Checker
+author:
+  - cybutek
+  - linuxgurugamer
+$kref: '#/ckan/spacedock/2092'
+$vref: '#/ckan/ksp-avc'
+license: GPL-3.0
+tags:
+  - plugin

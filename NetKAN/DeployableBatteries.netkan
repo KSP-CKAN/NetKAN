@@ -1,18 +1,17 @@
-{
-    "identifier":   "DeployableBatteries",
-    "$kref":        "#/ckan/spacedock/2268",
-    "$vref":        "#/ckan/ksp-avc",
-    "x_netkan_allow_out_of_order": true,
-    "license":      "GPL-3.0",
-    "tags": [
-        "parts"
-    ],
-    "depends": [
-        { "name": "SpaceTuxLibrary" }
-    ],
-    "install": [ {
-        "find":       "DeployableBatteries",
-        "install_to": "GameData"
-    } ],
-    "x_via": "Automated Linuxgurugamer CKAN script"
-}
+identifier: DeployableBatteries
+$kref: '#/ckan/github/linuxgurugamer/DeployableBatteries'
+$vref: '#/ckan/ksp-avc'
+---
+identifier: DeployableBatteries
+$kref: '#/ckan/spacedock/2268'
+$vref: '#/ckan/ksp-avc'
+x_netkan_allow_out_of_order: true
+license: GPL-3.0
+tags:
+  - parts
+depends:
+  - name: SpaceTuxLibrary
+install:
+  - find: DeployableBatteries
+    install_to: GameData
+x_via: Automated Linuxgurugamer CKAN script

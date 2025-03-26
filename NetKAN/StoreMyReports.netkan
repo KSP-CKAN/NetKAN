@@ -1,12 +1,15 @@
-{
-    "identifier":   "StoreMyReports",
-    "abstract":     "Fix the inability for Kerbals to find glove-boxes within their vessel or pockets on their EVA suits.",
-    "$kref":        "#/ckan/spacedock/2289",
-    "$vref":        "#/ckan/ksp-avc",
-    "license":      "GPL-3.0",
-    "tags": [
-        "plugin",
-        "convenience",
-        "science"
-    ]
-}
+identifier: StoreMyReports
+$kref: '#/ckan/github/linuxgurugamer/StoreMyReports'
+$vref: '#/ckan/ksp-avc'
+---
+identifier: StoreMyReports
+abstract: >-
+  Fix the inability for Kerbals to find glove-boxes within their vessel or
+  pockets on their EVA suits.
+$kref: '#/ckan/spacedock/2289'
+$vref: '#/ckan/ksp-avc'
+license: GPL-3.0
+tags:
+  - plugin
+  - convenience
+  - science

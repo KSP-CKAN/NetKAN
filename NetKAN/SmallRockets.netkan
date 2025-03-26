@@ -1,16 +1,5 @@
 identifier: SmallRockets
 $kref: '#/ckan/github/tylerraiz/SmallRockets'
-license: CC-BY
-tags:
-  - parts
-depends:
-  - name: ModuleManager
-  - name: RealismOverhaul
-  - name: TexturesUnlimited
-  - name: RealPlume
-install:
-  - find: EDBMods
-    install_to: GameData
 ---
 identifier: SmallRockets
 $kref: '#/ckan/spacedock/3575'

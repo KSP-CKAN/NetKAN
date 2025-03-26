@@ -1,4 +1,8 @@
 identifier: RationalResourcesKerbalismRF
+$kref: '#/ckan/github/JadeOfMaar/RationalResources'
+$vref: '#/ckan/ksp-avc'
+---
+identifier: RationalResourcesKerbalismRF
 name: Rational Resources Kerbalism + RealFuels
 abstract: Kerbalism & RealFuels integration
 $kref: '#/ckan/spacedock/2201'

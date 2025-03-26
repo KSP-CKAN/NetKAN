@@ -1,0 +1,18 @@
+{
+    "identifier":   "SelectableDataTransmitter",
+    "name":         "Selectable Data Transmitter Module",
+    "author":       "linuxgurugamer",
+    "$kref":        "#/ckan/github/linuxgurugamer/SelectableDataTransmitter",
+    "$vref":        "#/ckan/ksp-avc",
+    "license":      "MIT",
+    "install": [ {
+        "find": "SelectableDataTransmitter",
+        "install_to": "GameData"
+    } ],
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/154305-*"
+    },
+    "tags": [
+        "plugin"
+    ]
+}

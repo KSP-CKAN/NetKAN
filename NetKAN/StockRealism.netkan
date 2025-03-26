@@ -1,4 +1,8 @@
 identifier: StockRealism
+$kref: '#/ckan/github/ZombieStriker/StockRealism/asset_match/^(?!.*NoOPM)'
+$vref: '#/ckan/ksp-avc'
+---
+identifier: StockRealism
 $kref: '#/ckan/spacedock/3125'
 $vref: '#/ckan/ksp-avc'
 license: AGPL-3.0

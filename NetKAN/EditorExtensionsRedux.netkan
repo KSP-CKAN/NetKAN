@@ -1,17 +1,18 @@
-{
-    "identifier"          : "EditorExtensionsRedux",
-    "abstract"            : "Tweaks and features for the in-game vessel editor, e.g. alignment and symmetry aids. Now includes SelectRoot mod",
-    "$kref"               : "#/ckan/spacedock/48",
-    "$vref"               : "#/ckan/ksp-avc",
-    "license"             : "MIT",
-    "tags": [
-        "plugin",
-        "convenience"
-    ],
-    "depends": [
-        { "name": "ClickThroughBlocker" }
-    ],
-    "recommends": [
-        { "name": "JanitorsCloset" }
-    ]
-}
+identifier: EditorExtensionsRedux
+$kref: '#/ckan/github/linuxgurugamer/EditorExtensionsRedux'
+$vref: '#/ckan/ksp-avc'
+---
+identifier: EditorExtensionsRedux
+abstract: >-
+  Tweaks and features for the in-game vessel editor, e.g. alignment and symmetry
+  aids. Now includes SelectRoot mod
+$kref: '#/ckan/spacedock/48'
+$vref: '#/ckan/ksp-avc'
+license: MIT
+tags:
+  - plugin
+  - convenience
+depends:
+  - name: ClickThroughBlocker
+recommends:
+  - name: JanitorsCloset

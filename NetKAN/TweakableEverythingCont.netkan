@@ -1,23 +1,19 @@
-{
-    "identifier"   : "TweakableEverythingCont",
-    "$kref"        : "#/ckan/spacedock/1059",
-    "$vref"        : "#/ckan/ksp-avc",
-    "license"      : "BSD-3-clause",
-    "tags": [
-        "plugin",
-        "convenience"
-    ],
-    "install": [
-        {
-            "file": "GameData/TweakableEverything",
-            "install_to": "GameData"
-        }
-    ],
-    "depends": [
-        { "name": "ToadicusToolsContinued" },
-        { "name": "ModuleManager" }
-    ],
-    "conflicts": [
-        { "name": "ToadicusTools" }
-    ]
-}
+identifier: TweakableEverythingCont
+$kref: '#/ckan/github/linuxgurugamer/TweakableEverything'
+$vref: '#/ckan/ksp-avc'
+---
+identifier: TweakableEverythingCont
+$kref: '#/ckan/spacedock/1059'
+$vref: '#/ckan/ksp-avc'
+license: BSD-3-clause
+tags:
+  - plugin
+  - convenience
+depends:
+  - name: ToadicusToolsContinued
+  - name: ModuleManager
+conflicts:
+  - name: ToadicusTools
+install:
+  - file: GameData/TweakableEverything
+    install_to: GameData

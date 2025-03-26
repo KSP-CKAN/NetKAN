@@ -1,32 +1,28 @@
-{
-    "identifier"     : "FilterExtensions",
-    "name"           : "Filter Extensions - Plugin",
-    "abstract"       : "Plugin allowing for configurable filters for the VAB/SPH using .cfg files.",
-    "$kref"          : "#/ckan/spacedock/1972",
-    "$vref"          : "#/ckan/ksp-avc",
-    "license"        : "CC-BY-NC-SA-4.0",
-    "release_status" : "stable",
-    "tags": [
-        "plugin",
-        "convenience",
-        "editor"
-    ],
-    "depends": [
-        { "name" : "ModuleManager" }
-    ],
-    "recommends" : [
-        { "name" : "FilterExtensionsDefaultConfig" },
-        { "name" : "MoarFEConfigs" }
-    ],
-    "install" : [
-        {
-            "file"       : "GameData/000_FilterExtensions",
-            "install_to" : "GameData"
-        },
-        {
-            "file"       : "GameData/000_FilterExtensions_Configs",
-            "install_to" : "GameData",
-            "filter"     : [ "Default", "StockRework" ]
-        }
-    ]
-}
+identifier: FilterExtensions
+$kref: '#/ckan/github/linuxgurugamer/FilterExtension'
+$vref: '#/ckan/ksp-avc'
+---
+identifier: FilterExtensions
+name: Filter Extensions - Plugin
+abstract: >-
+  Plugin allowing for configurable filters for the VAB/SPH using .cfg files.
+$kref: '#/ckan/spacedock/1972'
+$vref: '#/ckan/ksp-avc'
+license: CC-BY-NC-SA-4.0
+tags:
+  - plugin
+  - convenience
+  - editor
+depends:
+  - name: ModuleManager
+recommends:
+  - name: FilterExtensionsDefaultConfig
+  - name: MoarFEConfigs
+install:
+  - file: GameData/000_FilterExtensions
+    install_to: GameData
+  - file: GameData/000_FilterExtensions_Configs
+    install_to: GameData
+    filter:
+      - Default
+      - StockRework

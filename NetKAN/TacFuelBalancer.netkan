@@ -1,24 +1,23 @@
-{
-    "identifier"     : "TacFuelBalancer",
-    "name"           : "TAC Fuel Balancer",
-    "author"         : [ "Z-Key Aerospace", "Taranis Elsu" ],
-    "$kref"          : "#/ckan/spacedock/640",
-    "$vref"          : "#/ckan/ksp-avc",
-    "x_netkan_force_v": true,
-    "license"        : "CC-BY-NC-SA-3.0",
-    "release_status" : "stable",
-    "tags": [
-        "plugin",
-        "convenience"
-    ],
-    "install" : [
-        {
-            "file"          : "GameData/TacFuelBalancer",
-            "install_to"    : "GameData"
-        }
-    ],
-    "depends": [
-        { "name" : "ToolbarController" },
-        { "name" : "ClickThroughBlocker" }
-    ]
-}
+identifier: TacFuelBalancer
+$kref: '#/ckan/github/linuxgurugamer/TacFuelBalancer'
+$vref: '#/ckan/ksp-avc'
+x_netkan_force_v: true
+---
+identifier: TacFuelBalancer
+name: TAC Fuel Balancer
+author:
+  - Z-Key Aerospace
+  - Taranis Elsu
+$kref: '#/ckan/spacedock/640'
+$vref: '#/ckan/ksp-avc'
+x_netkan_force_v: true
+license: CC-BY-NC-SA-3.0
+tags:
+  - plugin
+  - convenience
+install:
+  - file: GameData/TacFuelBalancer
+    install_to: GameData
+depends:
+  - name: ToolbarController
+  - name: ClickThroughBlocker

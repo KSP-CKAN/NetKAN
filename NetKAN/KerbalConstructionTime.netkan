@@ -1,35 +1,31 @@
-{
-    "identifier"     : "KerbalConstructionTime",
-    "$kref"          : "#/ckan/spacedock/222",
-    "$vref"          : "#/ckan/ksp-avc",
-    "x_netkan_epoch" : 1,
-    "license"        : "GPL-3.0",
-    "tags": [
-        "plugin",
-        "career"
-    ],
-    "install": [ {
-        "file":       "GameData/KerbalConstructionTime",
-        "install_to": "GameData"
-    } ],
-    "depends": [
-        { "name": "ModuleManager"       },
-        { "name": "MagiCore"            },
-        { "name": "ClickThroughBlocker" },
-        { "name": "ToolbarController"   },
-        { "name": "SpaceTuxLibrary"     }
-    ],
-    "recommends": [
-        { "name": "ScrapYard"     },
-        { "name": "KRASH"         },
-        { "name": "StageRecovery" },
-        { "name": "CrewQueueTwo"  },
-        { "name": "OhScrap"       }
-    ],
-    "suggests": [
-        { "name": "KerbalAlarmClock" }
-    ],
-    "conflicts": [
-        { "name": "KerbalConstructionTime-173" }
-    ]
-}
+identifier: KerbalConstructionTime
+$kref: '#/ckan/github/linuxgurugamer/KCT'
+$vref: '#/ckan/ksp-avc'
+---
+identifier: KerbalConstructionTime
+$kref: '#/ckan/spacedock/222'
+$vref: '#/ckan/ksp-avc'
+x_netkan_epoch: 1
+license: GPL-3.0
+tags:
+  - plugin
+  - career
+install:
+  - file: GameData/KerbalConstructionTime
+    install_to: GameData
+depends:
+  - name: ModuleManager
+  - name: MagiCore
+  - name: ClickThroughBlocker
+  - name: ToolbarController
+  - name: SpaceTuxLibrary
+recommends:
+  - name: ScrapYard
+  - name: KRASH
+  - name: StageRecovery
+  - name: CrewQueueTwo
+  - name: OhScrap
+suggests:
+  - name: KerbalAlarmClock
+conflicts:
+  - name: KerbalConstructionTime-173

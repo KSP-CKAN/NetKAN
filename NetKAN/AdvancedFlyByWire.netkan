@@ -1,41 +1,32 @@
-{
-    "identifier":   "AdvancedFlyByWire",
-    "name":         "Advanced Fly-By-Wire (Windows)",
-    "$kref":        "#/ckan/spacedock/1869",
-    "$vref":        "#/ckan/ksp-avc",
-    "license":      "MIT",
-    "release_status": "stable",
-    "tags": [
-        "plugin",
-        "control"
-    ],
-    "install": [ {
-        "file":       "SDL2.dll",
-        "install_to": "GameRoot"
-    }, {
-        "file":       "SDL_LICENSE",
-        "install_to": "GameRoot"
-    }, {
-        "file":       "XINPUTDOTNET_LICENSE",
-        "install_to": "GameRoot"
-    }, {
-        "file":       "XInputInterface.dll",
-        "install_to": "GameRoot"
-    }, {
-        "file":       "GameData/ksp-advanced-flybywire",
-        "install_to": "GameData"
-    } ],
-    "provides": [
-        "AdvancedFlyByWireRevived"
-    ],
-    "conflicts": [
-        { "name": "AdvancedFlyByWireRevived" }
-    ],
-    "depends": [
-        { "name": "ToolbarController"   },
-        { "name": "ClickThroughBlocker" }
-    ],
-    "recommends": [
-        { "name": "KSP-AVC" }
-    ]
-}
+identifier: AdvancedFlyByWire
+$kref: '#/ckan/github/linuxgurugamer/ksp-advanced-flybywire/asset_match/win'
+$vref: '#/ckan/ksp-avc'
+---
+identifier: AdvancedFlyByWire
+name: Advanced Fly-By-Wire (Windows)
+$kref: '#/ckan/spacedock/1869'
+$vref: '#/ckan/ksp-avc'
+license: MIT
+tags:
+  - plugin
+  - control
+provides:
+  - AdvancedFlyByWireRevived
+conflicts:
+  - name: AdvancedFlyByWireRevived
+depends:
+  - name: ToolbarController
+  - name: ClickThroughBlocker
+recommends:
+  - name: KSP-AVC
+install:
+  - file: SDL2.dll
+    install_to: GameRoot
+  - file: SDL_LICENSE
+    install_to: GameRoot
+  - file: XINPUTDOTNET_LICENSE
+    install_to: GameRoot
+  - file: XInputInterface.dll
+    install_to: GameRoot
+  - file: GameData/ksp-advanced-flybywire
+    install_to: GameData

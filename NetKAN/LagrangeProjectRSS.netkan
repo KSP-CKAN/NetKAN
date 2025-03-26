@@ -1,0 +1,13 @@
+identifier: LagrangeProjectRSS
+name: Lagrange Project-RSS
+author: KopaZ
+$kref: '#/ckan/github/dongk99/LagrangeProjectRSS'
+$vref: '#/ckan/ksp-avc'
+tags:
+  - physics
+  - config
+  - planet-pack
+depends:
+  - name: ModuleManager
+  - name: Kopernicus
+  - name: RealSolarSystem

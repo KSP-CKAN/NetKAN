@@ -5,7 +5,6 @@
     "identifier"     : "FilterExtensionsStockRework",
     "abstract"       : "Rearrangement of parts in the stock categories",
     "license"        : "CC-BY-NC-SA-4.0",
-    "release_status" : "stable",
     "depends" : [
         { "name" : "FilterExtensions" }
     ],

@@ -1,17 +1,16 @@
-{
-    "identifier":   "ConstantTWR",
-    "$kref":        "#/ckan/spacedock/1429",
-    "$vref":        "#/ckan/ksp-avc",
-    "license":      "LGPL-3.0",
-    "tags": [
-        "plugin",
-        "control"
-    ],
-    "depends": [
-        { "name" : "ClickThroughBlocker" }
-    ],
-    "install": [ {
-        "find": "ConstantTWR",
-        "install_to": "GameData"
-    } ]
-}
+identifier: ConstantTWR
+$kref: '#/ckan/github/linuxgurugamer/ConstantTWR'
+$vref: '#/ckan/ksp-avc'
+---
+identifier: ConstantTWR
+$kref: '#/ckan/spacedock/1429'
+$vref: '#/ckan/ksp-avc'
+license: LGPL-3.0
+tags:
+  - plugin
+  - control
+depends:
+  - name: ClickThroughBlocker
+install:
+  - find: ConstantTWR
+    install_to: GameData

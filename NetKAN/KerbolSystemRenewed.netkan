@@ -1,0 +1,16 @@
+identifier: KerbolSystemRenewed
+$kref: '#/ckan/github/SirNooblyOP/Kerbol-System-Renewed'
+x_netkan_version_edit:
+  find: ^v
+  replace: ''
+  strict: false
+---
+identifier: KerbolSystemRenewed
+$kref: '#/ckan/spacedock/3713'
+tags:
+  - config
+  - planet-pack
+depends:
+  - name: ModuleManager
+  - name: Kopernicus
+x_via: Automated SpaceDock CKAN submission

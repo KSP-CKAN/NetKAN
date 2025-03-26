@@ -1,5 +1,5 @@
 identifier: Heisenberg-PlayMode-Simplified
-name: Heisenberg Simplified Play Mode
+name: Airships Simplified Play Mode
 $kref: '#/ckan/github/Angel-125/Airships'
 $vref: '#/ckan/ksp-avc/GameData/WildBlueIndustries/Heisenberg/Airships.version'
 x_netkan_staging: true
@@ -17,9 +17,9 @@ provides:
 conflicts:
   - name: Heisenberg-PlayMode
 depends:
+  - name: WildBlue-PlayMode-Simplified
   - name: Heisenberg
   - name: ModuleManager
-  - name: WildBlue-PlayMode-Simplified
 install:
   - find: WildBlueIndustries/Heisenberg/Templates/Simplified.cfg
     install_to: GameData/WildBlueIndustries/Heisenberg/Templates

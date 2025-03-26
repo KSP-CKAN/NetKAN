@@ -1,0 +1,15 @@
+identifier: UnmanagedAngerResources
+$kref: '#/ckan/spacedock/3804'
+comment: The version files are only for bundled mods
+tags:
+  - config
+  - resources
+depends:
+  - name: Harmony2
+  - name: ModuleManager
+  - name: B9PartSwitch
+  - name: CommunityCategoryKit
+  - name: VABOrganizer
+install:
+  - find: Prunes
+    install_to: GameData

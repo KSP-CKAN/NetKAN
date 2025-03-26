@@ -1,4 +1,8 @@
 identifier: RationalResourcesRCSFamily
+$kref: '#/ckan/github/JadeOfMaar/RationalResources'
+$vref: '#/ckan/ksp-avc'
+---
+identifier: RationalResourcesRCSFamily
 name: Rational Resources RCS Family
 abstract: Enables fuel switching in supported MonoPropellant or LFO RCS
 $kref: '#/ckan/spacedock/2201'

@@ -1,0 +1,27 @@
+identifier: ExtraPlanetaryLaunchpads
+author: taniwha
+$kref: '#/ckan/spacedock/3735'
+$vref: '#/ckan/ksp-avc/ExtraplanetaryLaunchpads/Plugins/ExtraplanetaryLaunchpads.version'
+resources:
+  homepage: https://forum.kerbalspaceprogram.com/index.php?/topic/54284-*
+tags:
+  - plugin
+  - parts
+  - crewed
+depends:
+  - name: ModuleManager
+recommends:
+  - name: KIS
+  - name: KAS
+  - name: InfernalRobotics
+  - name: KerbalStats
+  - name: Kethane
+  - name: Toolbar
+install:
+  - file: ExtraplanetaryLaunchpads
+    install_to: GameData
+    filter: Ships
+  - file: ExtraplanetaryLaunchpads/Ships/SPH
+    install_to: Ships
+  - file: ExtraplanetaryLaunchpads/Ships/VAB
+    install_to: Ships

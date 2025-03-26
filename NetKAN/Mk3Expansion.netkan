@@ -1,28 +1,20 @@
-{
-    "identifier":   "Mk3Expansion",
-    "$kref":        "#/ckan/spacedock/663",
-    "license":      "CC-BY-NC-SA-4.0",
-    "tags": [
-        "parts",
-        "crewed"
-    ],
-    "depends": [
-        { "name": "ModuleManager" },
-        { "name": "CommunityResourcePack" },
-        { "name": "B9PartSwitch" }
-    ],
-    "install" : [
-        {
-            "find"       : "GameData/Mk3Expansion",
-            "install_to" : "GameData"
-        },
-        {
-            "find"        : "VAB",
-            "install_to"  : "Ships"
-        },
-        {
-            "find"        : "SPH",
-            "install_to"  : "Ships"
-        }
-    ]
-}
+identifier: Mk3Expansion
+$kref: '#/ckan/github/SuicidalInsanity/Mk3Expansion'
+---
+identifier: Mk3Expansion
+$kref: '#/ckan/spacedock/663'
+license: CC-BY-NC-SA-4.0
+tags:
+  - parts
+  - crewed
+depends:
+  - name: ModuleManager
+  - name: CommunityResourcePack
+  - name: B9PartSwitch
+install:
+  - find: GameData/Mk3Expansion
+    install_to: GameData
+  - find: VAB
+    install_to: Ships
+  - find: SPH
+    install_to: Ships

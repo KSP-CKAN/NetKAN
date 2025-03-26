@@ -1,4 +1,7 @@
 identifier: IsaQuestsBlueMoon
+$kref: '#/ckan/github/IsaQuest/BlueMoonKSP'
+---
+identifier: IsaQuestsBlueMoon
 $kref: '#/ckan/spacedock/3403'
 license: restricted
 tags:

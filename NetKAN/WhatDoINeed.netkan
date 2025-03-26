@@ -1,0 +1,23 @@
+identifier: WhatDoINeed
+$kref: '#/ckan/github/linuxgurugamer/WhatDoINeed'
+$vref: '#/ckan/ksp-avc'
+---
+identifier: WhatDoINeed
+$kref: '#/ckan/spacedock/3806'
+$vref: '#/ckan/ksp-avc'
+tags:
+  - plugin
+  - career
+  - information
+  - editor
+recommends:
+  - name: KerbalChangelog
+depends:
+  - name: ClickThroughBlocker
+  - name: ToolbarController
+  - name: SpaceTuxLibrary
+  - name: ContractParser
+supports:
+  - name: SCANsat
+  - name: DMagicOrbitalScience
+  - name: KIS

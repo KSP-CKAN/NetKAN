@@ -1,4 +1,12 @@
 identifier: TweakScaleRescaled
+$kref: '#/ckan/github/JonnyOThan/TweakScale'
+x_netkan_version_edit:
+  find: ^v
+  replace: ''
+  strict: false
+$vref: '#/ckan/ksp-avc/GameData/TweakScale/TweakScale.version'
+---
+identifier: TweakScaleRescaled
 name: TweakScale Rescaled
 $kref: '#/ckan/spacedock/3514'
 $vref: '#/ckan/ksp-avc/GameData/TweakScale/TweakScale.version'
@@ -21,6 +29,7 @@ recommends:
 conflicts:
   - name: TweakScale
   - name: TweakScaleCompanion
+  - name: TweakScaleCompanion-ReStockPlus
   - name: KSP-Recall
 provides:
   - TweakScale

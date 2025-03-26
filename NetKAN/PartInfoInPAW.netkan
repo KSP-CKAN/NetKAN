@@ -1,4 +1,8 @@
 identifier: PartInfoInPAW
+$kref: '#/ckan/github/judicator/PartInfoInPAW'
+$vref: '#/ckan/ksp-avc'
+---
+identifier: PartInfoInPAW
 name: Part info in PAW
 author: Alexander Rogov
 $kref: '#/ckan/spacedock/3148'

@@ -1,4 +1,12 @@
 identifier: CoriolisSpaceSystems
+$kref: '#/ckan/github/benjee10/Benjee10_stowaway'
+x_netkan_version_edit:
+  find: ^v
+  replace: ''
+  strict: false
+$vref: '#/ckan/ksp-avc'
+---
+identifier: CoriolisSpaceSystems
 $kref: '#/ckan/spacedock/2706'
 $vref: '#/ckan/ksp-avc'
 license: restricted

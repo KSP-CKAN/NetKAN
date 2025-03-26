@@ -1,5 +1,9 @@
 identifier: VertexHeightOblateAdvanced
-$kref: '#/ckan/spacedock/3543'
+abstract: >-
+  A custom PQS Mod intended for use by planet modders to enable easy creation
+  of oblate bodies via a simple PQS Mod, rather than via a heightmap
+$kref: '#/ckan/github/jamespglaze/VertexHeightOblateAdvanced'
+ksp_version: '1.12'
 license: MIT
 tags:
   - plugin

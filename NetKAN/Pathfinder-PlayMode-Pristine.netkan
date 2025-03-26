@@ -1,34 +1,28 @@
-{
-    "identifier":   "Pathfinder-PlayMode-Pristine",
-    "name":         "Pathfinder Pristine Play Mode",
-    "author":       "Angel-125",
-    "$kref":        "#/ckan/github/Angel-125/Pathfinder",
-    "$vref":        "#/ckan/ksp-avc/Pathfinder.version",
-    "x_netkan_staging": true,
-    "x_netkan_staging_reason": "Make sure that all .txt files for this play mode are installed as .cfg",
-    "license":      "GPL-3.0",
-    "resources": {
-        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/121397-*"
-    },
-    "tags": [
-        "config"
-    ],
-    "provides": [
-        "Pathfinder-PlayMode"
-    ],
-    "depends": [
-        { "name": "WildBlue-PlayMode-Pristine" },
-        { "name": "ModuleManager"              },
-        { "name": "Pathfinder"                 }
-    ],
-    "install": [ {
-        "find":       "Pathfinder/Templates/Pristine.cfg",
-        "install_to": "GameData/WildBlueIndustries/Pathfinder/Templates",
-        "find_matches_files": true
-    }, {
-        "find":       "Pathfinder/Templates/Pristine/Pristine Mode.txt",
-        "install_to": "GameData/WildBlueIndustries/Pathfinder/Templates/Pristine",
-        "as":         "Pristine Mode.cfg",
-        "find_matches_files": true
-    } ]
-}
+identifier: Pathfinder-PlayMode-Pristine
+name: Pathfinder Pristine Play Mode
+author: Angel-125
+$kref: '#/ckan/github/Angel-125/Pathfinder'
+$vref: '#/ckan/ksp-avc/Pathfinder.version'
+x_netkan_staging: true
+x_netkan_staging_reason: Make sure that all .txt files for this play mode are installed as .cfg
+license: GPL-3.0
+resources:
+  homepage: https://forum.kerbalspaceprogram.com/index.php?/topic/121397-*
+tags:
+  - config
+provides:
+  - Pathfinder-PlayMode
+conflicts:
+  - name: Pathfinder-PlayMode
+depends:
+  - name: WildBlue-PlayMode-Pristine
+  - name: ModuleManager
+  - name: Pathfinder
+install:
+  - find: Pathfinder/Templates/Pristine.cfg
+    install_to: GameData/WildBlueIndustries/Pathfinder/Templates
+    find_matches_files: true
+  - find: Pathfinder/Templates/Pristine/Pristine Mode.txt
+    install_to: GameData/WildBlueIndustries/Pathfinder/Templates/Pristine
+    as: Pristine Mode.cfg
+    find_matches_files: true

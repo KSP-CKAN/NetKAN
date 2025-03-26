@@ -1,14 +1,14 @@
-{
-    "identifier":   "TacSelfDestructContinued",
-    "$kref":        "#/ckan/spacedock/1135",
-    "$vref":        "#/ckan/ksp-avc",
-    "x_netkan_epoch": "1",
-    "license":      "CC-BY-NC-SA-3.0",
-    "tags": [
-        "plugin"
-    ],
-    "install": [ {
-        "find": "TacSelfDestruct",
-        "install_to": "GameData"
-    } ]
-}
+identifier: TacSelfDestructContinued
+$kref: '#/ckan/github/linuxgurugamer/TacSelfDestruct'
+$vref: '#/ckan/ksp-avc'
+---
+identifier: TacSelfDestructContinued
+$kref: '#/ckan/spacedock/1135'
+$vref: '#/ckan/ksp-avc'
+x_netkan_epoch: '1'
+license: CC-BY-NC-SA-3.0
+tags:
+  - plugin
+install:
+  - find: TacSelfDestruct
+    install_to: GameData

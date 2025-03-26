@@ -1,4 +1,11 @@
 identifier: KSCFloodlightsMk2
+$kref: '#/ckan/github/TedThompson/KSC-Floodlights-02'
+x_netkan_version_edit:
+  find: ^FLT02-v
+  replace: ''
+  strict: false
+---
+identifier: KSCFloodlightsMk2
 $kref: '#/ckan/spacedock/3238'
 license: CC-BY-NC-SA
 tags:
@@ -9,4 +16,3 @@ depends:
 install:
   - find: KSCFloodlight2
     install_to: GameData
-x_via: Automated SpaceDock CKAN submission

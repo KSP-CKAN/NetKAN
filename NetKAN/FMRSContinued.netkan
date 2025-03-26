@@ -1,4 +1,8 @@
 identifier: FMRSContinued
+$kref: '#/ckan/github/linuxgurugamer/FMRS'
+$vref: '#/ckan/ksp-avc'
+---
+identifier: FMRSContinued
 $vref: '#/ckan/ksp-avc'
 $kref: '#/ckan/spacedock/1251'
 license: MIT
@@ -8,11 +12,11 @@ provides:
   - FMRS
 conflicts:
   - name: FMRS
-install:
-  - find: FMRS
-    install_to: GameData
 depends:
   - name: ModuleManager
   - name: RecoveryController
   - name: ToolbarController
   - name: ClickThroughBlocker
+install:
+  - find: FMRS
+    install_to: GameData

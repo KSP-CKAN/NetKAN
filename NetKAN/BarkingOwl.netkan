@@ -1,20 +1,5 @@
 identifier: BarkingOwl
 $kref: '#/ckan/github/Bellabong/Barking-Owl-Bureau'
-license: CC-BY-NC-SA
-tags:
-  - config
-  - graphics
-depends:
-  - name: ModuleManager
-  - name: B9PartSwitch
-  - name: TexturesUnlimited
-  - name: BluedogDB
-recommends:
-  - name: TUFX
-suggests:
-  - name: TantaresAndBDBNowinColors
-supports:
-  - name: BluedogDB
 ---
 identifier: BarkingOwl
 $kref: '#/ckan/spacedock/3665'
@@ -33,4 +18,3 @@ suggests:
   - name: TantaresAndBDBNowinColors
 supports:
   - name: BluedogDB
-x_via: Automated SpaceDock CKAN submission

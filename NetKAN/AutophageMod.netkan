@@ -1,0 +1,8 @@
+identifier: AutophageMod
+$kref: '#/ckan/spacedock/3728'
+tags:
+  - parts
+  - plugin
+install:
+  - find: AutophageMod
+    install_to: GameData

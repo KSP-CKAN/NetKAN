@@ -50,4 +50,5 @@ jobs:
               with:
                   name: metadata-${{ github.event.pull_request.number }}
                   path: .ckans
+                  include-hidden-files: true
                   retention-days: 7

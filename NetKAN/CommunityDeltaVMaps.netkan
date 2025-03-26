@@ -1,0 +1,14 @@
+identifier: CommunityDeltaVMaps
+name: Community Delta-V Maps
+abstract: >-
+  KSPedia addition of map displaying delta-V requirements to reach bodies in the
+  stock Kerbol system.
+$kref: '#/ckan/spacedock/3798'
+ksp_version_min: 1.1
+tags:
+  - config
+  - information
+install:
+  - find_regexp: Delta-V Map.*\.ksp
+    install_to: GameData/CommunityDeltaVMaps
+    find_matches_files: true

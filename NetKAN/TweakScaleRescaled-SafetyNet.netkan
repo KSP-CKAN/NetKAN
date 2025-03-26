@@ -1,11 +1,18 @@
 identifier: TweakScaleRescaled-SafetyNet
+$kref: '#/ckan/github/JonnyOThan/TweakScale'
+x_netkan_version_edit:
+  find: ^v
+  replace: ''
+  strict: false
+$vref: '#/ckan/ksp-avc/GameData/TSSafetyNet/TweakScaleSafetyNet.version'
+---
+identifier: TweakScaleRescaled-SafetyNet
 name: TweakScale Rescaled SafetyNet
 abstract: >-
   Attempts to prevent data loss when TweakScale
   has been removed from an install.
 $kref: '#/ckan/spacedock/3514'
 $vref: '#/ckan/ksp-avc/GameData/TSSafetyNet/TweakScaleSafetyNet.version'
-release_status: stable
 license: CC-BY-NC-SA
 tags:
   - plugin

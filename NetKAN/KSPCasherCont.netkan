@@ -1,38 +1,33 @@
-{
-    "identifier":   "KSPCasherCont",
-    "$kref":        "#/ckan/spacedock/1267",
-    "$vref":        "#/ckan/ksp-avc",
-    "license":      "MIT",
-    "tags": [
-        "plugin",
-        "career"
-    ],
-    "install": [ {
-        "find": "KSPCasher",
-        "install_to": "GameData"
-    } ],
-    "depends": [
-        { "name" : "ToolbarController" },
-        { "name" : "ClickThroughBlocker" }
-    ],
-    "recommends": [
-        { "name" : "Karbonite" },
-        { "name" : "KerbinSide" }
-    ],
-    "suggests": [
-        { "name" : "ContractConfigurator-AnomalySurveyor" },
-        { "name" : "ContractConfigurator-KerbinSpaceStation" },
-        { "name" : "ContractConfigurator-CleverSats" },
-        { "name" : "ContractConfigurator-FieldResearch" },
-        { "name" : "ContractConfigurator-KerbalAcademy" },
-        { "name" : "ContractConfigurator-RemoteTech" },
-        { "name" : "ContractConfigurator-Tourism" }
-    ],
-    "supports": [
-        { "name" : "Strategia" },
-        { "name" : "RealSolarSystem" }
-    ],
-    "conflicts": [
-        { "name" : "KerbalConstructionTime" }
-    ]
-}
+identifier: KSPCasherCont
+$kref: '#/ckan/github/linuxgurugamer/kspcasher'
+$vref: '#/ckan/ksp-avc'
+---
+identifier: KSPCasherCont
+$kref: '#/ckan/spacedock/1267'
+$vref: '#/ckan/ksp-avc'
+license: MIT
+tags:
+  - plugin
+  - career
+depends:
+  - name: ToolbarController
+  - name: ClickThroughBlocker
+recommends:
+  - name: Karbonite
+  - name: KerbinSide
+suggests:
+  - name: ContractConfigurator-AnomalySurveyor
+  - name: ContractConfigurator-KerbinSpaceStation
+  - name: ContractConfigurator-CleverSats
+  - name: ContractConfigurator-FieldResearch
+  - name: ContractConfigurator-KerbalAcademy
+  - name: ContractConfigurator-RemoteTech
+  - name: ContractConfigurator-Tourism
+supports:
+  - name: Strategia
+  - name: RealSolarSystem
+conflicts:
+  - name: KerbalConstructionTime
+install:
+  - find: KSPCasher
+    install_to: GameData

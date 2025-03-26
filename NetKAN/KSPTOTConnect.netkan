@@ -1,0 +1,15 @@
+identifier: KSPTOTConnect
+name: KSP Trajectory Optimization Tool Connect
+$kref: '#/ckan/spacedock/3737'
+tags:
+  - app
+  - control
+  - plugin
+depends:
+  - name: kOS
+install:
+  - find: KSPTOTConnect
+    install_to: GameData
+    filter: IPAddressWhitelist.txt
+  - find: Ships/Script
+    install_to: Ships

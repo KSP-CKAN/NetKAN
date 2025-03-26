@@ -1,4 +1,8 @@
 identifier: VaporVent
+$kref: '#/ckan/github/linuxgurugamer/VaporVent'
+$vref: '#/ckan/ksp-avc'
+---
+identifier: VaporVent
 $kref: '#/ckan/spacedock/931'
 $vref: '#/ckan/ksp-avc'
 license: MIT

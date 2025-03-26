@@ -1,4 +1,8 @@
 identifier: SimpleOrbitCalculator
+$kref: '#/ckan/github/linuxgurugamer/ksp-SimpleOrbitCalculator'
+$vref: '#/ckan/ksp-avc'
+---
+identifier: SimpleOrbitCalculator
 $kref: '#/ckan/spacedock/2816'
 $vref: '#/ckan/ksp-avc'
 license: GPL-2.0

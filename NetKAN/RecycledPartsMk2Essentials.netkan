@@ -1,24 +1,21 @@
-{
-    "identifier":   "RecycledPartsMk2Essentials",
-    "name":         "Recycled Parts Mk2 Essentials",
-    "$kref":        "#/ckan/spacedock/1507",
-    "$vref":        "#/ckan/ksp-avc",
-    "license":      "restricted",
-    "tags": [
-        "parts"
-    ],
-    "install": [ {
-        "find": "Mk2Essentials",
-        "install_to": "GameData/SpaceTuxIndustries/RecycledParts"
-    } ],
-    "recommends": [
-        { "name": "CommunityTechTree" }
-    ],
-    "suggests": [
-        { "name": "JanitorsCloset" }
-    ],
-    "conflicts": [
-        { "name" : "Mk2Essentials" },
-        { "name" : "RecycledPartsMk2Essentials" }
-    ]
-}
+identifier: RecycledPartsMk2Essentials
+$kref: '#/ckan/github/linuxgurugamer/RecycledParts'
+$vref: '#/ckan/ksp-avc'
+---
+identifier: RecycledPartsMk2Essentials
+name: Recycled Parts Mk2 Essentials
+$kref: '#/ckan/spacedock/1507'
+$vref: '#/ckan/ksp-avc'
+license: restricted
+tags:
+  - parts
+recommends:
+  - name: CommunityTechTree
+suggests:
+  - name: JanitorsCloset
+conflicts:
+  - name: Mk2Essentials
+  - name: RecycledPartsMk2Essentials
+install:
+  - find: Mk2Essentials
+    install_to: GameData/SpaceTuxIndustries/RecycledParts

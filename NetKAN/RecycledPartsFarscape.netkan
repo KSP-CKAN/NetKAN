@@ -1,32 +1,28 @@
-{
-    "identifier":   "RecycledPartsFarscape",
-    "name":         "Recycled Parts Farscape",
-    "$kref":        "#/ckan/spacedock/1507",
-    "$vref":        "#/ckan/ksp-avc",
-    "license":      "restricted",
-    "tags": [
-        "parts"
-    ],
-    "install": [ {
-        "find":       "Mike_NZ_Crafts",
-        "install_to": "GameData/SpaceTuxIndustries/RecycledParts"
-    }, {
-        "find":       "SPH",
-        "install_to": "Ships",
-        "filter":     [ "A Nuke Cruiser-Skalou-03.craft" ]
-    } ],
-    "depends": [
-        { "name": "ModuleManager" },
-        { "name": "KSPWheel"      },
-        { "name": "PatchManager"  }
-    ],
-    "recommends": [
-        { "name": "CommunityTechTree" }
-    ],
-    "suggests": [
-        { "name": "JanitorsCloset" }
-    ],
-    "conflicts": [
-        { "name" : "RecycledPartsFarscape" }
-    ]
-}
+identifier: RecycledPartsFarscape
+$kref: '#/ckan/github/linuxgurugamer/RecycledParts'
+$vref: '#/ckan/ksp-avc'
+---
+identifier: RecycledPartsFarscape
+name: Recycled Parts Farscape
+$kref: '#/ckan/spacedock/1507'
+$vref: '#/ckan/ksp-avc'
+license: restricted
+tags:
+  - parts
+depends:
+  - name: ModuleManager
+  - name: KSPWheel
+  - name: PatchManager
+recommends:
+  - name: CommunityTechTree
+suggests:
+  - name: JanitorsCloset
+conflicts:
+  - name: RecycledPartsFarscape
+install:
+  - find: Mike_NZ_Crafts
+    install_to: GameData/SpaceTuxIndustries/RecycledParts
+  - find: SPH
+    install_to: Ships
+    filter:
+      - A Nuke Cruiser-Skalou-03.craft

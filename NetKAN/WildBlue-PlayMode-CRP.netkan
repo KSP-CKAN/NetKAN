@@ -20,6 +20,7 @@ provides:
   - ClassicStockResources-PlayMode
 conflicts:
   - name: WildBlue-PlayMode
+  - name: ClassicStockResources-PlayMode
 install:
   - find: 000WildBlueTools/Templates/CRP/Production/MM_SAFER.txt
     install_to: GameData/WildBlueIndustries/000WildBlueTools/Templates/CRP/Production

@@ -1,0 +1,34 @@
+identifier: RSSOrigin-Less-Primary
+name: RSS-Origin Less - Primary
+abstract: The "best" 26 bodies CharonSSS's amazing RSS-Origin Celestial Pack
+author:
+  - CharonSSS
+  - Qazerowl
+$kref: '#/ckan/github/Qazerowl/RSS-Origin-Less/asset_match/Primary'
+ksp_version_min: 1.12
+license: CC-BY-NC-SA
+tags:
+  - config
+  - planet-pack
+conflicts:
+  - name: RSSOrigin-CelestialsPack-Centaurs
+  - name: RSSOrigin-CelestialsPack-Comets
+  - name: RSSOrigin-CelestialsPack-InterstellarObjects
+  - name: RSSOrigin-CelestialsPack-JupiterMoons
+  - name: RSSOrigin-CelestialsPack-JupiterTrojans
+  - name: RSSOrigin-CelestialsPack-MainBeltAsteroids
+  - name: RSSOrigin-CelestialsPack-MarsCrossers
+  - name: RSSOrigin-CelestialsPack-NearEarthObjects
+  - name: RSSOrigin-CelestialsPack-NeptuneMoons
+  - name: RSSOrigin-CelestialsPack-PlutoMoons
+  - name: RSSOrigin-CelestialsPack-SaturnMoons
+  - name: RSSOrigin-CelestialsPack-TransNeptunianObjects
+  - name: RSSOrigin-CelestialsPack-UranusMoons
+depends:
+  - name: ModuleManager
+  - name: RSSOrigin
+suggests:
+  - name: RSSOrigin-Less-Secondary
+install:
+  - find: RSSOrigin
+    install_to: GameData

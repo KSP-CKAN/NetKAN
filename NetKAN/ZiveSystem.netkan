@@ -1,4 +1,11 @@
 identifier: ZiveSystem
+$kref: '#/ckan/github/Sushutt/ZiveSystem'
+x_netkan_version_edit:
+  find: ^v
+  replace: ''
+  strict: false
+---
+identifier: ZiveSystem
 $kref: '#/ckan/spacedock/3191'
 license: MIT
 tags:

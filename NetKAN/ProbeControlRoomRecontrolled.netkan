@@ -1,4 +1,12 @@
 identifier: ProbeControlRoomRecontrolled
+$kref: '#/ckan/github/FirstPersonKSP/KSP-ProbeControlRoom'
+x_netkan_version_edit:
+  find: ^v
+  replace: ''
+  strict: false
+$vref: '#/ckan/ksp-avc'
+---
+identifier: ProbeControlRoomRecontrolled
 $kref: '#/ckan/spacedock/1558'
 $vref: '#/ckan/ksp-avc'
 license: CC-BY-NC-SA-3.0
@@ -6,9 +14,6 @@ tags:
   - plugin
   - uncrewed
   - first-person
-install:
-  - find: ProbeControlRoom
-    install_to: GameData
 depends:
   - name: ModuleManager
   - name: ToolbarController
@@ -22,3 +27,6 @@ suggests:
   - name: DockingPortAlignment
   - name: kOS
   - name: KPS-AVC
+install:
+  - find: ProbeControlRoom
+    install_to: GameData
