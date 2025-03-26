@@ -11,6 +11,3 @@ depends:
   - name: ModuleManager
   - name: B9PartSwitch
   - name: Waterfall
-install:
-  - find: VaporCones
-    install_to: GameData
