@@ -10,6 +10,8 @@ $kref: '#/ckan/spacedock/3847'
 tags:
   - plugin
   - information
+depends:
+  - name: ToolbarController
 install:
   - find: CustomOverlay
     install_to: GameData
