@@ -1,4 +1,4 @@
-identifier: Planetswithrings
+identifier: PlanetsWithRings
 $kref: '#/ckan/spacedock/3740'
 license: unknown
 tags:
@@ -7,6 +7,3 @@ tags:
 depends:
   - name: ModuleManager
   - name: Kopernicus
-install:
-  - find: PlanetsWithRings
-    install_to: GameData
