@@ -5,6 +5,9 @@ identifier: SpaceDustNext
 $kref: '#/ckan/spacedock/3836'
 tags:
   - config
+  - resources
 depends:
   - name: ModuleManager
-x_via: Automated SpaceDock CKAN submission
+  - name: B9PartSwitch
+  - name: CommunityResourcePack
+  - name: SpaceDust
