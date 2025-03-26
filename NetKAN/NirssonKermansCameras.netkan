@@ -11,4 +11,5 @@ $kref: '#/ckan/spacedock/3791'
 $vref: '#/ckan/ksp-avc'
 tags:
   - parts
-x_via: Automated SpaceDock CKAN submission
+depends:
+  - name: NeptuneCamera
