@@ -1,0 +1,11 @@
+identifier: Dlrow
+$kref: '#/ckan/spacedock/3771'
+tags:
+  - config
+  - planet-pack
+depends:
+  - name: ModuleManager
+  - name: Kopernicus
+recommends:
+  - name: EnvironmentalVisualEnhancements
+  - name: Scatterer
