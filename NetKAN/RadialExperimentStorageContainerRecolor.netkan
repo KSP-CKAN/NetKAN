@@ -1,0 +1,17 @@
+identifier: RadialExperimentStorageContainerRecolor
+$kref: '#/ckan/spacedock/3754'
+tags:
+  - config
+  - graphics
+  - parts
+depends:
+  - name: ModuleManager
+  - name: TexturesUnlimited
+  - name: TALRadiallyAttachedExperimentalDataStorageContainer
+supports:
+  - name: TALRadiallyAttachedExperimentalDataStorageContainer
+suggests:
+  - name: LazyPainter
+install:
+  - find: TURD
+    install_to: GameData
