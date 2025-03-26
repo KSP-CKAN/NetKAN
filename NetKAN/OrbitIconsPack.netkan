@@ -1,0 +1,21 @@
+identifier: OrbitIconsPack
+$kref: '#/ckan/github/Oprissmian/OrbitIconsPack'
+x_netkan_version_edit:
+  find: ^v
+  replace: ''
+  strict: false
+---
+identifier: OrbitIconsPack
+$kref: '#/ckan/spacedock/3769'
+tags:
+  - config
+  - planet-pack
+depends:
+  - name: ModuleManager
+  - name: Kopernicus
+install:
+  - find: OrbitIconsPack
+    install_to: GameData
+  - find: ConfigFolder
+    install_to: GameData
+    as: OrbitIconsPack
