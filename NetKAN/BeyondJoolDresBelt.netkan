@@ -3,15 +3,17 @@ $kref: '#/ckan/spacedock/3776'
 tags:
   - config
   - planet-pack
-  - plugin
 depends:
   - name: ModuleManager
   - name: Kopernicus
+  - name: BeyondJool
   - name: VertexMitchellNetravaliHeightMap
+  - name: VertexHeightOblateAdvanced
+supports:
+  - name: BeyondJool
 install:
-  - find: ''
+  - find: BJ-DresRevamp
     install_to: GameData
     filter:
       - __MACOSX
       - .DS_Store
-x_via: Automated SpaceDock CKAN submission
