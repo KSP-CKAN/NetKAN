@@ -1,11 +1,11 @@
-identifier: ErisLaunchandOrbitalServicesELOSStockalikeGilmourSpaceEris1
+identifier: ErisLaunchAndOrbitalServices
 $kref: '#/ckan/github/1Kion/Eris-Launch-and-Orbital-Services'
 x_netkan_version_edit:
   find: ^V
   replace: ''
   strict: false
 ---
-identifier: ErisLaunchandOrbitalServicesELOSStockalikeGilmourSpaceEris1
+identifier: ErisLaunchAndOrbitalServices
 $kref: '#/ckan/spacedock/3837'
 tags:
   - graphics
@@ -18,7 +18,7 @@ depends:
 install:
   - find: ELOS - Gilmour Space Eris-1
     install_to: GameData
-    filter_regexp: \.craft$
-  - file: Craft Files/Ships/VAB/Gilmour Space - Eris-1 (Block 1).craft
-    install_to: Ships/VAB
-x_via: Automated SpaceDock CKAN submission
+  - find: Extras/GameData/ELOS - Gilmour Space Eris-1
+    install_to: GameData
+  - file: Craft Files/Ships/VAB
+    install_to: Ships
