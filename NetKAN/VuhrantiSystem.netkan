@@ -11,7 +11,14 @@ tags:
 depends:
   - name: ModuleManager
   - name: Kopernicus
+  - name: KSPCommunityFixes
+  - name: OrbitIconsPack
+recommends:
+  - name: BetterTimeWarpCont
 install:
   - find: GameData/VuhrantiSystem
     install_to: GameData
-x_via: Automated SpaceDock CKAN submission
+  - find: GameData/VuhrantiSystem-Terrain
+    install_to: GameData
+  - find: GameData/VuhrantiSystem-Textures
+    install_to: GameData
