@@ -1,0 +1,13 @@
+identifier: HTV2Falcon-RP-1
+$kref: '#/ckan/spacedock/3810'
+tags:
+  - config
+depends:
+  - name: ModuleManager
+  - name: RP-1
+  - name: DarpaHTV2Falcon
+supports:
+  - name: DarpaHTV2Falcon
+install:
+  - find: RP1Configs
+    install_to: GameData
