@@ -1,0 +1,13 @@
+identifier: CloseObjectsExpansion
+$kref: '#/ckan/spacedock/3819'
+tags:
+  - config
+  - planet-pack
+depends:
+  - name: ModuleManager
+  - name: Kopernicus
+suggests:
+  - name: Scatterer
+install:
+  - find: MPP
+    install_to: GameData
