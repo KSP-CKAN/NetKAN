@@ -2,8 +2,7 @@ identifier: BDBAntennaPatches
 $kref: '#/ckan/spacedock/3803'
 tags:
   - config
+  - comms
 depends:
   - name: ModuleManager
-install:
-  - find: GameData/BDBAntennaPatches
-    install_to: GameData
+  - name: BluedogDB
