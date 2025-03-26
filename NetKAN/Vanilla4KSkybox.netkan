@@ -4,5 +4,4 @@ depends:
   - name: TextureReplacer
 install:
   - find: Default
-    install_to: GameData/TextureReplacer
-x_via: Automated SpaceDock CKAN submission
+    install_to: GameData/Vanilla4KSkybox/TextureReplacer
