@@ -1,8 +1,7 @@
 identifier: ScattererOPM
 name: Scatterer Config for Outer Planets Mod
 $kref: '#/ckan/github/AnisDjerrab/Scatterer-OPM'
-ksp_version_min: 1.12.1
-ksp_version_max: 1.12.5
+ksp_version: 1.12
 license: MIT
 tags:
   - config
