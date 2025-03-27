@@ -1,0 +1,15 @@
+identifier: OCCULT
+$kref: '#/ckan/github/aspctt/OCCULT'
+$vref: '#/ckan/ksp-avc'
+tags:
+  - config
+  - convenience
+  - planet-pack
+  - graphics
+depends:
+  - name: ModuleManager
+  - name: PatchManager
+supports:
+  - name: JX2Antenna
+  - name: NearFutureLaunchVehicles
+  - name: SystemHeat-FissionEngines
