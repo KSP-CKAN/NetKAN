@@ -1,0 +1,15 @@
+identifier: ScattererOPM
+name: Scatterer Config for Outer Planets Mod
+$kref: '#/ckan/github/AnisDjerrab/Scatterer-OPM'
+ksp_version: 1.12
+license: MIT
+tags:
+  - config
+  - graphics
+  - planet-pack
+depends:
+  - name: ModuleManager
+  - name: Scatterer
+  - name: OuterPlanetsMod
+supports:
+  - name: OuterPlanetsMod

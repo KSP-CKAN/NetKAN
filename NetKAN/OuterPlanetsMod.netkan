@@ -1,4 +1,4 @@
-{
-    "identifier":   "OuterPlanetsMod",
-    "$kref":        "#/ckan/netkan/https://raw.githubusercontent.com/Poodmund/Outer-Planets-Mod/master/CKAN/OPM.netkan"
-}
+identifier: OuterPlanetsMod
+$kref: '#/ckan/netkan/https://raw.githubusercontent.com/Poodmund/Outer-Planets-Mod/master/CKAN/OPM.netkan'
+tags:
+  - planet-pack
