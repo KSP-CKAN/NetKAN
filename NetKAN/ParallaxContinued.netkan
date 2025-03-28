@@ -16,6 +16,7 @@ conflicts:
   - name: Parallax-StockTextures
   - name: Parallax-StockScatterTextures
 depends:
+  - name: ModuleManager
   - name: Kopernicus
   - name: KSPBurst
   - name: ParallaxContinued-Terrain-Textures

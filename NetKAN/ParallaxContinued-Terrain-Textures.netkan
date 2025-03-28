@@ -14,6 +14,7 @@ conflicts:
   - name: Parallax-StockTextures
   - name: Parallax-StockScatterTextures
 depends:
+  - name: ModuleManager
   - name: ParallaxContinued
 install:
   - find: Parallax_StockTerrainTextures
