@@ -1,0 +1,11 @@
+identifier: StarbaseClutter
+$kref: '#/ckan/spacedock/3595'
+tags:
+  - buildings
+  - config
+depends:
+  - name: KerbalKonstructs
+install:
+  - find_regexp: Starbase clutter.*
+    install_to: GameData
+    filter_regexp: \.meta$
