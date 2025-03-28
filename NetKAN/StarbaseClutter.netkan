@@ -6,5 +6,6 @@ tags:
 depends:
   - name: KerbalKonstructs
 install:
-  - find: Starbase clutter V0.1
+  - find_regexp: Starbase clutter.*
     install_to: GameData
+    filter_regexp: \.meta$
