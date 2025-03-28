@@ -1,9 +1,6 @@
 identifier: SIMPLEXAssemblyPlus
 $kref: '#/ckan/spacedock/3645'
-x_netkan_version_edit:
-  find: ^(?<version>.+)\.(?<date>[0-9]{4,8})$
-  replace: ${version}
-  strict: true
+x_netkan_version_edit: ^(?<version>.+)\.(?<date>[0-9]{4,8})$
 tags:
   - config
   - plugin
@@ -12,6 +9,8 @@ depends:
   - name: SIMPLEXAssembly
 conflicts:
   - name: ExtraPlanetaryLaunchpads
+  - name: SimpleConstruction
+  - name: NotSoSimpleConstruction
 install:
   - find: AngleCanMods
     install_to: GameData
