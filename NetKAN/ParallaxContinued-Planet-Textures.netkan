@@ -1,0 +1,21 @@
+identifier: ParallaxContinued-Planet-Textures
+name: Parallax Continued Planet Textures
+abstract: The overhauled planet textures for by Parallax Continued
+author: Linx
+$kref: '#/ckan/github/Gameslinx/Parallax-Continued/asset_match/^ParallaxContinued_StockPlanetTextures-[0-9.]+\.zip$'
+ksp_version: '1.12'
+license: restricted
+tags:
+  - plugin
+  - library
+  - graphics
+conflicts:
+  - name: Parallax
+  - name: Parallax-StockTextures
+  - name: Parallax-StockScatterTextures
+depends:
+  - name: ModuleManager
+  - name: ParallaxContinued
+install:
+  - find: Parallax_StockPlanetTextures
+    install_to: GameData

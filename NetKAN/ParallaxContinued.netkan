@@ -1,0 +1,29 @@
+identifier: ParallaxContinued
+name: Parallax Continued
+abstract: >-
+  A visual mod which overhauls the planet shaders
+  and adds grass, forest, and other types of surface clutter
+author: Linx
+$kref: '#/ckan/github/Gameslinx/Parallax-Continued/asset_match/^ParallaxContinued-[0-9.]+\.zip$'
+ksp_version: '1.12'
+license: restricted
+tags:
+  - plugin
+  - library
+  - graphics
+conflicts:
+  - name: Parallax
+  - name: Parallax-StockTextures
+  - name: Parallax-StockScatterTextures
+depends:
+  - name: ModuleManager
+  - name: Kopernicus
+  - name: KSPBurst
+  - name: ParallaxContinued-Terrain-Textures
+  - name: ParallaxContinued-Scatter-Textures
+  - name: ParallaxContinued-Planet-Textures
+recommends:
+  - name: Deferred
+install:
+  - find: ParallaxContinued
+    install_to: GameData

@@ -1,0 +1,20 @@
+identifier: ParallaxContinued-Scatter-Textures
+name: Parallax Continued Scatter Textures
+abstract: The textures used for the surface clutter added by Parallax Continued
+author: Linx
+$kref: '#/ckan/github/Gameslinx/Parallax-Continued/asset_match/^ParallaxContinued_StockScatterTextures-[0-9.]+\.zip$'
+ksp_version: '1.12'
+license: restricted
+tags:
+  - plugin
+  - library
+  - graphics
+conflicts:
+  - name: Parallax
+  - name: Parallax-StockTextures
+  - name: Parallax-StockScatterTextures
+depends:
+  - name: ParallaxContinued
+install:
+  - find: Parallax_StockScatterTextures
+    install_to: GameData
