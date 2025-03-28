@@ -1,0 +1,17 @@
+identifier: SIMPLEXAssemblyPlus
+$kref: '#/ckan/spacedock/3645'
+x_netkan_version_edit: ^(?<version>.+)\.(?<date>[0-9]{4,8})$
+comment: The version file is for a bundled mod
+tags:
+  - config
+  - plugin
+depends:
+  - name: ModuleManager
+  - name: SIMPLEXAssembly
+conflicts:
+  - name: ExtraPlanetaryLaunchpads
+  - name: SimpleConstruction
+  - name: NotSoSimpleConstruction
+install:
+  - find: AngleCanMods
+    install_to: GameData
