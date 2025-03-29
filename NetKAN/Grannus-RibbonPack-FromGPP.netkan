@@ -1,24 +1,22 @@
-{
-    "name":         "Grannus Ribbons from GPP",
-    "identifier":   "Grannus-RibbonPack-FromGPP",
-    "abstract":     "GPP and GEP both have Grannus ribbons; these are the ones from GPP",
-    "$kref":        "#/ckan/github/Galileo88/Galileos-Planet-Pack/asset_match/Galileo.*?\\.zip",
-    "ksp_version":  "any",
-    "license":      "CC-BY-NC-ND",
-    "resources": {
-        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/152136-*"
-    },
-    "tags": [
-        "config"
-    ],
-    "provides": [
-        "Grannus-RibbonPack"
-    ],
-    "conflicts": [
-        { "name": "Grannus-RibbonPack" }
-    ],
-    "install": [ {
-        "find":       "GameData/Nereid/FinalFrontier/Ribbons/Grannus",
-        "install_to": "GameData/Nereid/FinalFrontier/Ribbons"
-    } ]
-}
+identifier: Grannus-RibbonPack-FromGPP
+name: Grannus Ribbons from GPP
+abstract: GPP and GEP both have Grannus ribbons; these are the ones from GPP
+$kref: '#/ckan/github/Galileo88/Galileos-Planet-Pack/asset_match/Galileo.*?\.zip'
+ksp_version: any
+license: CC-BY-NC-ND
+resources:
+  homepage: https://forum.kerbalspaceprogram.com/index.php?/topic/152136-*
+tags:
+  - config
+  - crewed
+provides:
+  - Grannus-RibbonPack
+conflicts:
+  - name: Grannus-RibbonPack
+depends:
+  - name: FinalFrontier
+supports:
+  - name: FinalFrontier
+install:
+  - find: GameData/Nereid/FinalFrontier/Ribbons/Grannus
+    install_to: GameData/Nereid/FinalFrontier/Ribbons

@@ -1,14 +1,13 @@
-{
-    "license": "CC-BY-NC-SA-4.0",
-    "identifier": "BSGEnlistedRanksRedFinalFrontierAddOn",
-    "$kref": "#/ckan/spacedock/660",
-    "depends": [
-        { "name": "FinalFrontier" }
-    ],
-    "install": [
-        {
-            "find": "GameData/BSGRankRibbons",
-            "install_to": "GameData"
-        }
-    ]
-}
+identifier: BSGEnlistedRanksRedFinalFrontierAddOn
+$kref: '#/ckan/spacedock/660'
+license: CC-BY-NC-SA-4.0
+tags:
+  - config
+  - crewed
+depends:
+  - name: FinalFrontier
+supports:
+  - name: FinalFrontier
+install:
+  - find: GameData/BSGRankRibbons
+    install_to: GameData
