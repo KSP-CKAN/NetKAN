@@ -1,4 +1,4 @@
-identifier: OuterParallaxMPE
+identifier: OuterParallax-MPE
 $kref: '#/ckan/github/jthero3/OuterParallaxContinued/asset_match/MPE'
 ---
 identifier: OuterParallaxMPE
@@ -10,6 +10,7 @@ depends:
   - name: ModuleManager
   - name: Kopernicus
   - name: OuterParallax
+  - name: MinorPlanetsExpansion
 install:
   - find: MPE
     install_to: GameData/OuterParallax

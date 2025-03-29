@@ -10,7 +10,11 @@ tags:
 depends:
   - name: ModuleManager
   - name: Kopernicus
+  - name: VertexMitchellNetravaliHeightMap
+  - name: ParallaxContinued
 install:
   - find: OuterParallax
     install_to: GameData
-    filter: MPE
+    filter:
+      - MPE
+      - OPM

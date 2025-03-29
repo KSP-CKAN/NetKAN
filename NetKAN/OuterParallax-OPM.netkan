@@ -1,4 +1,4 @@
-identifier: OuterParallaxOPM
+identifier: OuterParallax-OPM
 $kref: '#/ckan/github/jthero3/OuterParallaxContinued/asset_match/OPM'
 ---
 identifier: OuterParallaxOPM
@@ -10,6 +10,7 @@ depends:
   - name: ModuleManager
   - name: Kopernicus
   - name: OuterParallax
+  - name: OuterPlanetsMod
 install:
   - find: OPM
     install_to: GameData/OuterParallax
