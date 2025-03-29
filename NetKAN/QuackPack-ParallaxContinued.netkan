@@ -11,5 +11,7 @@ depends:
   - name: Kopernicus
   - name: QuackPack
   - name: ParallaxContinued
+supports:
+  - name: QuackPack
 recommends:
   - name: Deferred
