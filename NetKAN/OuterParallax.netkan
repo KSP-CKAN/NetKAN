@@ -1,0 +1,24 @@
+identifier: OuterParallax
+$kref: '#/ckan/github/jthero3/OuterParallaxContinued/asset_match/OPM'
+---
+identifier: OuterParallax
+name: Outer Parallax Common Files
+abstract: Files common to OuterParallax-OPM and OuterParallax-MPE
+$kref: '#/ckan/spacedock/3833'
+tags:
+  - config
+  - library
+depends:
+  - name: ModuleManager
+  - name: Kopernicus
+  - name: VertexMitchellNetravaliHeightMap
+  - name: ParallaxContinued
+suggests:
+  - name: OuterParallax-OPM
+  - name: OuterParallax-MPE
+install:
+  - find: OuterParallax
+    install_to: GameData
+    filter:
+      - MPE
+      - OPM

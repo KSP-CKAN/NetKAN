@@ -1,0 +1,20 @@
+identifier: OuterParallax-OPM
+$kref: '#/ckan/github/jthero3/OuterParallaxContinued/asset_match/OPM'
+---
+identifier: OuterParallax-OPM
+$kref: '#/ckan/spacedock/3833'
+tags:
+  - config
+  - planet-pack
+depends:
+  - name: ModuleManager
+  - name: Kopernicus
+  - name: OuterParallax
+  - name: OuterPlanetsMod
+supports:
+  - name: OuterPlanetsMod
+suggests:
+  - name: Deferred
+install:
+  - find: OPM
+    install_to: GameData/OuterParallax

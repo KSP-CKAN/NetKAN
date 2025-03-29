@@ -1,0 +1,20 @@
+identifier: OuterParallax-MPE
+$kref: '#/ckan/github/jthero3/OuterParallaxContinued/asset_match/MPE'
+---
+identifier: OuterParallax-MPE
+$kref: '#/ckan/spacedock/3834'
+tags:
+  - config
+  - planet-pack
+depends:
+  - name: ModuleManager
+  - name: Kopernicus
+  - name: OuterParallax
+  - name: MinorPlanetsExpansion
+supports:
+  - name: MinorPlanetsExpansion
+suggests:
+  - name: Deferred
+install:
+  - find: MPE
+    install_to: GameData/OuterParallax
