@@ -1,7 +1,7 @@
-identifier: QuackPackParallaxContinued
+identifier: QuackPack-ParallaxContinued
 $kref: '#/ckan/github/jthero3/QuackPack-ParallaxContinued'
 ---
-identifier: QuackPackParallaxContinued
+identifier: QuackPack-ParallaxContinued
 $kref: '#/ckan/spacedock/3835'
 tags:
   - config
@@ -9,7 +9,7 @@ tags:
 depends:
   - name: ModuleManager
   - name: Kopernicus
-install:
-  - find: ''
-    install_to: GameData
-x_via: Automated SpaceDock CKAN submission
+  - name: QuackPack
+  - name: ParallaxContinued
+recommends:
+  - name: Deferred
