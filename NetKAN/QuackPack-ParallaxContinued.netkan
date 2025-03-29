@@ -15,3 +15,13 @@ supports:
   - name: QuackPack
 recommends:
   - name: Deferred
+  - name: FinalFrontier
+  - name: OrbitIconsPack
+  - name: Firefly
+install:
+  - find: QuackPack-ParallaxContinued
+    install_to: GameData
+  - find: Nereid
+    install_to: GameData
+  - find: FireQuack
+    install_to: GameData
