@@ -1,5 +1,5 @@
-identifier: USAFEnlistedRanksFINALFRONTIERADDON
-$kref: '#/ckan/spacedock/653'
+identifier: BSGOfficerRanksFinalFrontierAddOn
+$kref: '#/ckan/spacedock/662'
 license: CC-BY-NC-SA-4.0
 tags:
   - config
@@ -9,5 +9,5 @@ depends:
 supports:
   - name: FinalFrontier
 install:
-  - find: USRankRibbons
+  - find: GameData/BSGRankRibbons
     install_to: GameData

@@ -1,13 +1,14 @@
-identifier: USAFEnlistedRanksFINALFRONTIERADDON
-$kref: '#/ckan/spacedock/653'
+identifier: STMsFFRibbonPackWarrantOfficerRanks
+$kref: '#/ckan/spacedock/400'
 license: CC-BY-NC-SA-4.0
 tags:
   - config
   - crewed
 depends:
   - name: FinalFrontier
+    min_version: 0.9.1
 supports:
   - name: FinalFrontier
 install:
-  - find: USRankRibbons
+  - find: GameData/STMRibbons
     install_to: GameData

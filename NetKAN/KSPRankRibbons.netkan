@@ -1,5 +1,5 @@
-identifier: USAFEnlistedRanksFINALFRONTIERADDON
-$kref: '#/ckan/spacedock/653'
+identifier: KSPRankRibbons
+$kref: '#/ckan/spacedock/687'
 license: CC-BY-NC-SA-4.0
 tags:
   - config
@@ -9,5 +9,5 @@ depends:
 supports:
   - name: FinalFrontier
 install:
-  - find: USRankRibbons
+  - find: GameData/KSPRanks
     install_to: GameData

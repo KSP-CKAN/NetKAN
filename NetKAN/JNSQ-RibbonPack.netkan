@@ -1,23 +1,19 @@
-{
-    "identifier":   "JNSQ-RibbonPack",
-    "name":         "JNSQ Ribbon Pack",
-    "abstract":     "Final Frontier Ribbons for JNSQ",
-    "$kref":        "#/ckan/github/Galileo88/JNSQ/asset_match/JNSQ_FinalFrontier\\.zip",
-    "ksp_version":  "any",
-    "license":      "CC-BY-NC-ND-3.0",
-    "resources": {
-        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/184880-*"
-    },
-    "tags": [
-        "graphics",
-        "crewed"
-    ],
-    "install": [ {
-        "find":       "Nereid",
-        "install_to": "GameData"
-    } ],
-    "depends": [
-        { "name": "JNSQ"          },
-        { "name": "FinalFrontier" }
-    ]
-}
+identifier: JNSQ-RibbonPack
+name: JNSQ Ribbon Pack
+abstract: Final Frontier Ribbons for JNSQ
+$kref: '#/ckan/github/Galileo88/JNSQ/asset_match/JNSQ_FinalFrontier\.zip'
+ksp_version: any
+license: CC-BY-NC-ND-3.0
+resources:
+  homepage: https://forum.kerbalspaceprogram.com/index.php?/topic/184880-*
+tags:
+  - config
+  - crewed
+depends:
+  - name: JNSQ
+  - name: FinalFrontier
+supports:
+  - name: FinalFrontier
+install:
+  - find: Nereid
+    install_to: GameData
