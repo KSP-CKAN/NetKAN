@@ -11,6 +11,10 @@ depends:
   - name: Kopernicus
   - name: OuterParallax
   - name: MinorPlanetsExpansion
+supports:
+  - name: MinorPlanetsExpansion
+suggests:
+  - name: Deferred
 install:
   - find: MPE
     install_to: GameData/OuterParallax

@@ -11,6 +11,10 @@ depends:
   - name: Kopernicus
   - name: OuterParallax
   - name: OuterPlanetsMod
+supports:
+  - name: OuterPlanetsMod
+suggests:
+  - name: Deferred
 install:
   - find: OPM
     install_to: GameData/OuterParallax
