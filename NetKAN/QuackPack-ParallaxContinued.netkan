@@ -1,0 +1,27 @@
+identifier: QuackPack-ParallaxContinued
+$kref: '#/ckan/github/jthero3/QuackPack-ParallaxContinued'
+---
+identifier: QuackPack-ParallaxContinued
+$kref: '#/ckan/spacedock/3835'
+tags:
+  - config
+  - planet-pack
+depends:
+  - name: ModuleManager
+  - name: Kopernicus
+  - name: QuackPack
+  - name: ParallaxContinued
+supports:
+  - name: QuackPack
+recommends:
+  - name: Deferred
+  - name: FinalFrontier
+  - name: OrbitIconsPack
+  - name: Firefly
+install:
+  - find: QuackPack-ParallaxContinued
+    install_to: GameData
+  - find: Nereid
+    install_to: GameData
+  - find: FireQuack
+    install_to: GameData
