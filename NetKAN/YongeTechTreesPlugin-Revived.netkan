@@ -1,25 +1,31 @@
-{
-    "identifier"   : "YongeTechTreesPlugin-Revived",
-    "name"         : "YongeTech Tech Trees Plugin Revived",
-    "abstract"     : "Provides support to make creating and using custom tech trees easier. Allows part unlocks to be listed in the TechTree ConfigNode rather than having to edit every Part ConfigNode. Adds support for using custom textures to create icons for the tech tree. Adds a tree selection window to let the player select a tree for each new game.",
-    "author"       : [ "yongedevil", "linuxgurugamer" ],
-    "$kref"        : "#/ckan/spacedock/1526",
-    "$vref"        : "#/ckan/ksp-avc",
-    "x_netkan_epoch"   : 1,
-    "license": "MIT",
-    "tags": [
-        "plugin",
-        "tech-tree"
-    ],
-    "provides": [ "YongeTechTreesPlugin" ],
-    "conflicts": [
-        { "name": "YongeTechTreesPlugin" }
-    ],
-    "install": [ {
-        "find"       : "GameData/YongeTech_TechTreesPlugin",
-        "install_to" : "GameData"
-    } ],
-    "suggests":[
-        { "name": "ETT" }
-    ]
-}
+identifier: YongeTechTreesPlugin-Revived
+$kref: '#/ckan/github/linuxgurugamer/YTK_TechTrees'
+$vref: '#/ckan/ksp-avc'
+---
+identifier: YongeTechTreesPlugin-Revived
+name: YongeTech Tech Trees Plugin Revived
+abstract: >-
+  Provides support to make creating and using custom tech trees easier.
+  Allows part unlocks to be listed in the TechTree ConfigNode rather than
+  having to edit every Part ConfigNode. Adds support for using custom textures
+  to create icons for the tech tree. Adds a tree selection window to let the
+  player select a tree for each new game.
+author:
+  - yongedevil
+  - linuxgurugamer
+$kref: '#/ckan/spacedock/1526'
+$vref: '#/ckan/ksp-avc'
+x_netkan_epoch: 1
+license: MIT
+tags:
+  - plugin
+  - tech-tree
+provides:
+  - YongeTechTreesPlugin
+conflicts:
+  - name: YongeTechTreesPlugin
+suggests:
+  - name: ETT
+install:
+  - find: GameData/YongeTech_TechTreesPlugin
+    install_to: GameData

@@ -1,18 +1,20 @@
-identifier: Notes2Log
-$kref: '#/ckan/github/linuxgurugamer/Notes2Log'
+identifier: StockDefaultSettings
+$kref: '#/ckan/github/linuxgurugamer/StockDefaultSettings'
 $vref: '#/ckan/ksp-avc'
 ---
-license: GPL-3.0
-identifier: Notes2Log
+license: LGPL-3.0
+identifier: StockDefaultSettings
 x_via: Automated Linuxgurugamer CKAN script
-$kref: '#/ckan/spacedock/2586'
+$kref: '#/ckan/spacedock/2549'
 $vref: '#/ckan/ksp-avc'
 depends:
   - name: ToolbarController
   - name: ClickThroughBlocker
   - name: SpaceTuxLibrary
 tags:
+  - config
   - plugin
+  - convenience
 install:
-  - find: Notes2Log
+  - find: StockDefaultSettings
     install_to: GameData

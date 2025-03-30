@@ -1,17 +1,16 @@
-{
-    "identifier":   "CritterCrawler",
-    "$kref":        "#/ckan/spacedock/1641",
-    "$vref":        "#/ckan/ksp-avc",
-    "license":      "CC-BY-SA",
-    "tags": [
-        "parts"
-    ],
-    "install": [ {
-        "find": "BahaSP",
-        "install_to": "GameData"
-    } ],
-    "depends": [
-        { "name": "KSPWheel" },
-        { "name": "BDAnimationModules" }
-    ]
-}
+identifier: CritterCrawler
+$kref: '#/ckan/github/linuxgurugamer/CritterCrawlerRetractingVectoringEngines'
+$vref: '#/ckan/ksp-avc'
+---
+identifier: CritterCrawler
+$kref: '#/ckan/spacedock/1641'
+$vref: '#/ckan/ksp-avc'
+license: CC-BY-SA
+tags:
+  - parts
+install:
+  - find: BahaSP
+    install_to: GameData
+depends:
+  - name: KSPWheel
+  - name: BDAnimationModules

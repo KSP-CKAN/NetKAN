@@ -1,0 +1,17 @@
+identifier: MSP3000a
+$kref: '#/ckan/github/linuxgurugamer/Material-Science-Pod'
+---
+identifier: MSP3000a
+$kref: '#/ckan/spacedock/2642'
+$vref: '#/ckan/ksp-avc'
+license: MIT
+tags:
+  - parts
+  - science
+depends:
+  - name: ModuleManager
+conflicts:
+  - name: MSP3000
+install:
+  - find: MSP3000-A
+    install_to: GameData

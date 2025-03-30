@@ -1,0 +1,14 @@
+identifier: FlagRotateCont
+$kref: '#/ckan/github/linuxgurugamer/ksp_flagrotate'
+$vref: '#/ckan/ksp-avc'
+---
+identifier: FlagRotateCont
+$kref: '#/ckan/spacedock/1209'
+$vref: '#/ckan/ksp-avc'
+license: MIT
+tags:
+  - plugin
+  - crewed
+install:
+  - find: FlagRotate
+    install_to: GameData

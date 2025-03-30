@@ -1,0 +1,23 @@
+identifier: LightsOutRelit
+$kref: '#/ckan/github/linuxgurugamer/LightsOut'
+$vref: '#/ckan/ksp-avc'
+x_netkan_force_v: true
+---
+identifier: LightsOutRelit
+author:
+  - nodrog6
+  - RealGecko
+  - Fwiffo
+  - Linuxgurugamer
+$kref: '#/ckan/spacedock/2077'
+$vref: '#/ckan/ksp-avc'
+x_netkan_force_v: true
+license: MIT
+tags:
+  - plugin
+  - editor
+depends:
+  - name: ToolbarController
+install:
+  - find: LightsOut
+    install_to: GameData

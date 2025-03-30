@@ -1,0 +1,16 @@
+identifier: EVAParachutes
+$kref: '#/ckan/github/linuxgurugamer/EVAParachutesAndEjectionSeats'
+$vref: '#/ckan/ksp-avc'
+---
+identifier: EVAParachutes
+$kref: '#/ckan/spacedock/991'
+$vref: '#/ckan/ksp-avc'
+license: CC-BY-3.0
+tags:
+  - plugin
+  - crewed
+depends:
+  - name: ModuleManager
+install:
+  - find: VanguardTechnologies
+    install_to: GameData

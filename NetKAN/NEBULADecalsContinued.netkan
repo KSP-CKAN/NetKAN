@@ -1,23 +1,19 @@
-{
-    "identifier"   : "NEBULADecalsContinued",
-    "$kref"        : "#/ckan/spacedock/1132",
-    "$vref"        : "#/ckan/ksp-avc",
-    "license"      : "CC-BY-SA-4.0",
-    "tags": [
-        "plugin",
-        "graphics"
-    ],
-    "depends": [
-        { "name": "FirespitterCore" }
-    ],
-    "recommends": [
-        { "name": "TweakScale" },
-        { "name": "JanitorsCloset" }
-    ],
-    "install": [
-        {
-            "find": "NEBULA",
-            "install_to": "GameData"
-        }
-    ]
-}
+identifier: NEBULADecalsContinued
+$kref: '#/ckan/github/linuxgurugamer/NEBULA_Decals'
+$vref: '#/ckan/ksp-avc'
+---
+identifier: NEBULADecalsContinued
+$kref: '#/ckan/spacedock/1132'
+$vref: '#/ckan/ksp-avc'
+license: CC-BY-SA-4.0
+tags:
+  - plugin
+  - graphics
+depends:
+  - name: FirespitterCore
+recommends:
+  - name: TweakScale
+  - name: JanitorsCloset
+install:
+  - find: NEBULA
+    install_to: GameData

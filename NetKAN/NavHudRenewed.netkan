@@ -1,0 +1,19 @@
+identifier: NavHudRenewed
+$kref: '#/ckan/github/linuxgurugamer/NavHud'
+$vref: '#/ckan/ksp-avc'
+---
+identifier: NavHudRenewed
+name: NavHud
+abstract: a NavBall inspired Heads Up Display
+$kref: '#/ckan/spacedock/1574'
+$vref: '#/ckan/ksp-avc'
+license: MIT
+tags:
+  - plugin
+  - information
+depends:
+  - name: ToolbarController
+  - name: ClickThroughBlocker
+install:
+  - file: GameData/NavHud
+    install_to: GameData

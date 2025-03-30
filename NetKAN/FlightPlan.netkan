@@ -1,15 +1,15 @@
-{
-    "identifier":   "FlightPlan",
-    "$kref":        "#/ckan/spacedock/1058",
-    "$vref":        "#/ckan/ksp-avc",
-    "license":      "GPL-3.0",
-    "tags": [
-        "plugin",
-        "information"
-    ],
-    "depends": [
-        { "name": "UICore" },
-        { "name": "ToolbarController" },
-        { "name": "ClickThroughBlocker" }
-    ]
-}
+identifier: FlightPlan
+$kref: '#/ckan/github/linuxgurugamer/KSP-FlightPlan'
+$vref: '#/ckan/ksp-avc'
+---
+identifier: FlightPlan
+$kref: '#/ckan/spacedock/1058'
+$vref: '#/ckan/ksp-avc'
+license: GPL-3.0
+tags:
+  - plugin
+  - information
+depends:
+  - name: UICore
+  - name: ToolbarController
+  - name: ClickThroughBlocker

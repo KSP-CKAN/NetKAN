@@ -1,0 +1,25 @@
+identifier: WalkAbout
+$kref: '#/ckan/github/linuxgurugamer/WalkAbout'
+$vref: '#/ckan/ksp-avc'
+x_netkan_force_v: true
+x_netkan_epoch: '1'
+---
+identifier: WalkAbout
+$kref: '#/ckan/spacedock/228'
+$vref: '#/ckan/ksp-avc'
+x_netkan_force_v: true
+x_netkan_epoch: '1'
+license: GPL-3.0
+depends:
+  - name: SpaceTuxLibrary
+  - name: ToolbarController
+  - name: ClickThroughBlocker
+tags:
+  - plugin
+  - crewed
+  - convenience
+install:
+  - find: WalkAbout
+    install_to: GameData
+    filter:
+      - source

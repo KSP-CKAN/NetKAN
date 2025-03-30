@@ -1,0 +1,16 @@
+identifier: ImageViewerCont
+$kref: '#/ckan/github/linuxgurugamer/ksp-img_viewer'
+$vref: '#/ckan/ksp-avc'
+---
+identifier: ImageViewerCont
+$kref: '#/ckan/spacedock/1037'
+$vref: '#/ckan/ksp-avc/GameData/ImageViewer/ImageViewerCont.version'
+license: MIT
+tags:
+  - plugin
+depends:
+  - name: ClickThroughBlocker
+  - name: ToolbarController
+install:
+  - find: ImageViewer
+    install_to: GameData

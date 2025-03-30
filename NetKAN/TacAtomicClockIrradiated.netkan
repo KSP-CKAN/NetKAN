@@ -1,0 +1,17 @@
+identifier: TacAtomicClockIrradiated
+$kref: '#/ckan/github/linuxgurugamer/TacAtomicClock'
+$vref: '#/ckan/ksp-avc'
+---
+identifier: TacAtomicClockIrradiated
+$kref: '#/ckan/spacedock/1483'
+$vref: '#/ckan/ksp-avc'
+license: CC-BY-NC-SA
+tags:
+  - plugin
+  - information
+depends:
+  - name: ToolbarController
+  - name: ClickThroughBlocker
+install:
+  - find: TacAtomicClock
+    install_to: GameData

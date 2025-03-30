@@ -1,21 +1,19 @@
-{
-    "identifier":   "CCTV",
-    "$vref":        "#/ckan/ksp-avc",
-    "$kref":        "#/ckan/spacedock/1414",
-    "license":      "CC-BY-NC-SA-4.0",
-    "tags": [
-        "plugin",
-        "parts"
-    ],
-    "install": [ {
-        "find": "CCTV",
-        "install_to": "GameData"
-    } ],
-    "suggests": [
-        { "name": "HullcamVDSContinued" }
-    ],
-    "depends": [
-        { "name": "JSIPartUtilities" },
-        { "name": "ModuleManager" }
-    ]
-}
+identifier: CCTV
+$kref: '#/ckan/github/linuxgurugamer/CCTV'
+$vref: '#/ckan/ksp-avc'
+---
+identifier: CCTV
+$vref: '#/ckan/ksp-avc'
+$kref: '#/ckan/spacedock/1414'
+license: CC-BY-NC-SA-4.0
+tags:
+  - plugin
+  - parts
+install:
+  - find: CCTV
+    install_to: GameData
+suggests:
+  - name: HullcamVDSContinued
+depends:
+  - name: JSIPartUtilities
+  - name: ModuleManager
