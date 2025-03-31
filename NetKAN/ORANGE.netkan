@@ -1,4 +1,11 @@
 identifier: ORANGE
+$kref: '#/ckan/github/linuxgurugamer/FruitKocktail/version_from_asset/^ORANGE-(?<version>[^-]+)\.zip$'
+$vref: '#/ckan/ksp-avc'
+install:
+  - find: FruitKocktail
+    install_to: GameData
+---
+identifier: ORANGE
 name: Oh Really, Another Name Generating Endeavour?
 abstract: Adds a button to command modules to generate a random name
 author:

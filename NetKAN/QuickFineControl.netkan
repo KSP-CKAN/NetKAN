@@ -1,18 +1,16 @@
-{
-    "identifier":     "QuickFineControl",
-    "license":        "GPL-3.0",
-    "$kref":          "#/ckan/spacedock/784",
-    "$vref":          "#/ckan/ksp-avc",
-    "x_netkan_epoch": 1,
-    "tags": [
-        "plugin",
-        "convenience"
-    ],
-    "install": [
-        {
-            "file"       : "GameData/QuickMods/QuickFineControl",
-            "install_to" : "GameData/QuickMods"
-        }
-    ]
-
-}
+identifier: QuickFineControl
+$kref: '#/ckan/github/linuxgurugamer/QuickMods/version_from_asset/^QuickFineControl.*-(?<version>[^-]+)\.zip$'
+$vref: '#/ckan/ksp-avc'
+x_netkan_epoch: 1
+---
+identifier: QuickFineControl
+license: GPL-3.0
+$kref: '#/ckan/spacedock/784'
+$vref: '#/ckan/ksp-avc'
+x_netkan_epoch: 1
+tags:
+  - plugin
+  - convenience
+install:
+  - file: GameData/QuickMods/QuickFineControl
+    install_to: GameData/QuickMods

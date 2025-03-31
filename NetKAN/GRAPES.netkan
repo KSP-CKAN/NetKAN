@@ -1,4 +1,8 @@
 identifier: GRAPES
+$kref: '#/ckan/github/linuxgurugamer/FruitKocktail/version_from_asset/^GRAPES-(?<version>[^-]+)\.zip$'
+$vref: '#/ckan/ksp-avc'
+---
+identifier: GRAPES
 name: Gas Repairs And Probably Expensive Snacks
 abstract: Provide a means to purchase fuel in orbit
 author:

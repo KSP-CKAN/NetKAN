@@ -1,24 +1,21 @@
-{
-    "identifier"   : "QuickExit",
-    "$kref"        : "#/ckan/spacedock/105",
-    "$vref"        : "#/ckan/ksp-avc",
-    "license"      : "GPL-3.0",
-    "x_netkan_epoch": 1,
-    "tags": [
-        "plugin",
-        "convenience"
-    ],
-    "depends": [
-        { "name" : "ToolbarController" },
-        { "name" : "ClickThroughBlocker" }
-    ],
-    "install": [
-        {
-            "file"       : "GameData/QuickMods/QuickExit",
-            "install_to" : "GameData/QuickMods"
-        }
-    ],
-    "suggests": [
-        { "name": "Toolbar" }
-    ]
-}
+identifier: QuickExit
+$kref: '#/ckan/github/linuxgurugamer/QuickMods/version_from_asset/^QuickExit.*-(?<version>[^-]+)\.zip$'
+$vref: '#/ckan/ksp-avc'
+x_netkan_epoch: 1
+---
+identifier: QuickExit
+$kref: '#/ckan/spacedock/105'
+$vref: '#/ckan/ksp-avc'
+license: GPL-3.0
+x_netkan_epoch: 1
+tags:
+  - plugin
+  - convenience
+depends:
+  - name: ToolbarController
+  - name: ClickThroughBlocker
+suggests:
+  - name: Toolbar
+install:
+  - file: GameData/QuickMods/QuickExit
+    install_to: GameData/QuickMods

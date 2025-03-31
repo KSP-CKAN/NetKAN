@@ -1,24 +1,21 @@
-{
-    "identifier"   : "QuickBrake",
-    "$kref"        : "#/ckan/spacedock/103",
-    "$vref"        : "#/ckan/ksp-avc",
-    "x_netkan_epoch": 1,
-    "license"      : "GPL-3.0",
-    "tags": [
-        "plugin",
-        "convenience"
-    ],
-    "depends": [
-        { "name" : "ToolbarController" },
-        { "name" : "ClickThroughBlocker" }
-    ],
-    "install": [
-        {
-            "file"       : "GameData/QuickMods/QuickBrake",
-            "install_to" : "GameData/QuickMods"
-        }
-    ],
-    "suggests": [
-        { "name": "Toolbar" }
-    ]
-}
+identifier: QuickBrake
+$kref: '#/ckan/github/linuxgurugamer/QuickMods/version_from_asset/^QuickBrake.*-(?<version>[^-]+)\.zip$'
+$vref: '#/ckan/ksp-avc'
+x_netkan_epoch: 1
+---
+identifier: QuickBrake
+$kref: '#/ckan/spacedock/103'
+$vref: '#/ckan/ksp-avc'
+x_netkan_epoch: 1
+license: GPL-3.0
+tags:
+  - plugin
+  - convenience
+depends:
+  - name: ToolbarController
+  - name: ClickThroughBlocker
+suggests:
+  - name: Toolbar
+install:
+  - file: GameData/QuickMods/QuickBrake
+    install_to: GameData/QuickMods

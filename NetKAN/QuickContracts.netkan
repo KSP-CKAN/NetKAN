@@ -1,20 +1,18 @@
-{
-    "identifier"   : "QuickContracts",
-    "$kref"        : "#/ckan/spacedock/104",
-    "$vref"        : "#/ckan/ksp-avc",
-    "license"      : "GPL-3.0",
-    "x_netkan_epoch": 1,
-    "tags": [
-        "plugin",
-        "convenience"
-    ],
-    "depends": [
-        { "name" : "ClickThroughBlocker" }
-    ],
-    "install": [
-        {
-            "file"       : "GameData/QuickMods/QuickContracts",
-            "install_to" : "GameData/QuickMods"
-        }
-    ]
-}
+identifier: QuickContracts
+$kref: '#/ckan/github/linuxgurugamer/QuickMods/version_from_asset/^QuickContracts.*-(?<version>[^-]+)\.zip$'
+$vref: '#/ckan/ksp-avc'
+x_netkan_epoch: 1
+---
+identifier: QuickContracts
+$kref: '#/ckan/spacedock/104'
+$vref: '#/ckan/ksp-avc'
+license: GPL-3.0
+x_netkan_epoch: 1
+tags:
+  - plugin
+  - convenience
+depends:
+  - name: ClickThroughBlocker
+install:
+  - file: GameData/QuickMods/QuickContracts
+    install_to: GameData/QuickMods

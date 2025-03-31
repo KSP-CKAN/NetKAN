@@ -1,4 +1,11 @@
 identifier: FIG
+$kref: '#/ckan/github/linuxgurugamer/FruitKocktail/version_from_asset/^FIGS-(?<version>[^-]+)\.zip$'
+$vref: '#/ckan/ksp-avc'
+install:
+  - find: FruitKocktail
+    install_to: GameData
+---
+identifier: FIG
 name: Filling Inventory Generously
 abstract: Fills any empty inventory slots in Command Pods at launch
 author:
