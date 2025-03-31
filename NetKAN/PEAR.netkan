@@ -1,9 +1,6 @@
 identifier: PEAR
 $kref: '#/ckan/github/linuxgurugamer/FruitKocktail/version_from_asset/^PEAR-(?<version>[^-]+)\.zip$'
 $vref: '#/ckan/ksp-avc'
-install:
-  - find: FruitKocktail
-    install_to: GameData
 ---
 identifier: PEAR
 name: Programatic Extension And Retraction

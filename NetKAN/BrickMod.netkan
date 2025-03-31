@@ -1,4 +1,8 @@
 identifier: BrickMod
+$kref: '#/ckan/github/linuxgurugamer/BrickMod'
+$vref: '#/ckan/ksp-avc'
+---
+identifier: BrickMod
 $kref: '#/ckan/spacedock/2905'
 $vref: '#/ckan/ksp-avc'
 license: CC-BY-NC-SA-3.0

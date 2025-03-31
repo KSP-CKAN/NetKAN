@@ -1,9 +1,6 @@
 identifier: PRUNES
 $kref: '#/ckan/github/linuxgurugamer/FruitKocktail/version_from_asset/^PRUNES-(?<version>[^-]+)\.zip$'
 $vref: '#/ckan/ksp-avc'
-install:
-  - find: FruitKocktail
-    install_to: GameData
 ---
 identifier: PRUNES
 name: Potentially Really Useful New Editor Sorter

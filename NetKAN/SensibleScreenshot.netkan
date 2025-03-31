@@ -1,17 +1,16 @@
-{
-    "identifier":   "SensibleScreenshot",
-    "$kref":        "#/ckan/spacedock/642",
-    "$vref":        "#/ckan/ksp-avc",
-    "license":      "GPL-3.0",
-    "tags": [
-        "plugin",
-        "convenience"
-    ],
-    "install": [ {
-        "find":       "SensibleScreenshot",
-        "install_to": "GameData"
-    } ],
-    "depends": [
-        { "name": "MagiCore" }
-    ]
-}
+identifier: SensibleScreenshot
+$kref: '#/ckan/github/linuxgurugamer/Magico13_Modlets/version_from_asset/^SensibleScreenshot.*-(?<version>[^-]+)\.zip$'
+$vref: '#/ckan/ksp-avc'
+---
+identifier: SensibleScreenshot
+$kref: '#/ckan/spacedock/642'
+$vref: '#/ckan/ksp-avc'
+license: GPL-3.0
+tags:
+  - plugin
+  - convenience
+depends:
+  - name: MagiCore
+install:
+  - find: SensibleScreenshot
+    install_to: GameData
