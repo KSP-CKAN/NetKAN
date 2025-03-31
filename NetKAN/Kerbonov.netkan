@@ -1,19 +1,22 @@
-{
-    "identifier":   "Kerbonov",
-    "author":       [ "linuxgurugamer", "Sam Hall", "aristurtle", "Darkona" ],
-    "$kref":        "#/ckan/spacedock/2007",
-    "$vref":        "#/ckan/ksp-avc",
-    "x_netkan_epoch": "2",
-    "license":      "CC-BY-SA-3.0",
-    "tags": [
-        "parts",
-        "crewed"
-    ],
-    "depends": [
-        { "name": "RetractableLiftingSurface" }
-    ],
-    "install" : [ {
-        "find" : "Kerbonov",
-        "install_to" : "GameData"
-    } ]
-}
+identifier: Kerbonov
+$kref: '#/ckan/github/linuxgurugamer/Kerbonov'
+$vref: '#/ckan/ksp-avc'
+---
+identifier: Kerbonov
+author:
+  - linuxgurugamer
+  - Sam Hall
+  - aristurtle
+  - Darkona
+$kref: '#/ckan/spacedock/2007'
+$vref: '#/ckan/ksp-avc'
+x_netkan_epoch: '2'
+license: CC-BY-SA-3.0
+tags:
+  - parts
+  - crewed
+depends:
+  - name: RetractableLiftingSurface
+install:
+  - find: Kerbonov
+    install_to: GameData

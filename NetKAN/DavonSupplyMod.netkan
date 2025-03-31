@@ -1,4 +1,8 @@
 identifier: DavonSupplyMod
+$kref: '#/ckan/github/linuxgurugamer/DavonSupplyMod'
+$vref: '#/ckan/ksp-avc'
+---
+identifier: DavonSupplyMod
 $kref: '#/ckan/spacedock/364'
 $vref: '#/ckan/ksp-avc'
 x_netkan_epoch: '1'

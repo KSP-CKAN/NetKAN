@@ -1,17 +1,15 @@
-{
-  "license": "GPL-3.0",
-  "identifier": "BatteryActivatorReactivated",
-  "x_via": "Automated Linuxgurugamer CKAN script",
-  "$kref": "#/ckan/spacedock/2553",
-  "$vref": "#/ckan/ksp-avc",
-  "tags": [
-    "plugin",
-    "control"
-  ],
-  "install": [
-    {
-      "find": "BatteryActivator",
-      "install_to": "GameData"
-    }
-  ]
-}
+identifier: BatteryActivatorReactivated
+$kref: '#/ckan/github/linuxgurugamer/BatteryActivator'
+$vref: '#/ckan/ksp-avc'
+---
+license: GPL-3.0
+identifier: BatteryActivatorReactivated
+x_via: Automated Linuxgurugamer CKAN script
+$kref: '#/ckan/spacedock/2553'
+$vref: '#/ckan/ksp-avc'
+tags:
+  - plugin
+  - control
+install:
+  - find: BatteryActivator
+    install_to: GameData

@@ -1,19 +1,17 @@
-{
-    "identifier":   "KerbalTubes",
-    "$kref":        "#/ckan/spacedock/2404",
-    "$vref":        "#/ckan/ksp-avc",
-    "license":      "MIT",
-    "tags": [
-        "parts"
-    ],
-    "depends": [
-        { "name": "ModuleManager" }
-    ],
-    "recommends": [
-        { "name": "HullcamVDS" }
-    ],
-    "install": [ {
-        "find"       : "KerbalTubes",
-        "install_to" : "GameData"
-    } ]
-}
+identifier: KerbalTubes
+$kref: '#/ckan/github/linuxgurugamer/KerbalTubes'
+$vref: '#/ckan/ksp-avc'
+---
+identifier: KerbalTubes
+$kref: '#/ckan/spacedock/2404'
+$vref: '#/ckan/ksp-avc'
+license: MIT
+tags:
+  - parts
+depends:
+  - name: ModuleManager
+recommends:
+  - name: HullcamVDS
+install:
+  - find: KerbalTubes
+    install_to: GameData

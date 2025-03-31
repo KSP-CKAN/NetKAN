@@ -1,21 +1,19 @@
-{
-    "identifier":   "RLAReborn",
-    "$kref":        "#/ckan/spacedock/1880",
-    "$vref":        "#/ckan/ksp-avc",
-    "license":      "CC-BY-SA-4.0",
-    "tags": [
-        "parts"
-    ],
-    "conflicts": [
-        { "name": "RLA-Stockalike" },
-        { "name": "RLARecontinued" },
-        { "name": "RLAContinued" }
-    ],
-    "depends": [
-        { "name": "ModuleManager" }
-    ],
-    "install": [ {
-        "find":       "RLA_Reborn",
-        "install_to": "GameData"
-    } ]
-}
+identifier: RLAReborn
+$kref: '#/ckan/github/linuxgurugamer/RLA_Reborn'
+$vref: '#/ckan/ksp-avc'
+---
+identifier: RLAReborn
+$kref: '#/ckan/spacedock/1880'
+$vref: '#/ckan/ksp-avc'
+license: CC-BY-SA-4.0
+tags:
+  - parts
+conflicts:
+  - name: RLA-Stockalike
+  - name: RLARecontinued
+  - name: RLAContinued
+depends:
+  - name: ModuleManager
+install:
+  - find: RLA_Reborn
+    install_to: GameData

@@ -1,0 +1,21 @@
+identifier: TWR1
+$kref: '#/ckan/github/linuxgurugamer/TWR1'
+$vref: '#/ckan/ksp-avc'
+---
+identifier: TWR1
+name: Vertical Velocity Controller Redux
+abstract: Control your descent speed in discreet increments for soft,
+  controlled skycrane landings.
+$kref: '#/ckan/spacedock/1871'
+$vref: '#/ckan/ksp-avc'
+license: GPL-3.0
+tags:
+  - plugin
+  - control
+depends:
+  - name: ModuleManager
+  - name: ToolbarController
+  - name: ClickThroughBlocker
+install:
+  - file: GameData/Diazo
+    install_to: GameData

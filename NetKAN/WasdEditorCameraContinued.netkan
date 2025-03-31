@@ -1,0 +1,22 @@
+identifier: WasdEditorCameraContinued
+$kref: '#/ckan/github/linuxgurugamer/WasdEditorCameraContinued'
+$vref: '#/ckan/ksp-avc'
+---
+identifier: WasdEditorCameraContinued
+$kref: '#/ckan/spacedock/56'
+$vref: '#/ckan/ksp-avc'
+license: MIT
+tags:
+  - plugin
+  - editor
+  - convenience
+conflicts:
+  - name: WasdEditorCamera
+depends:
+  - name: ToolbarController
+  - name: ClickThroughBlocker
+recommends:
+  - name: JanitorsCloset
+install:
+  - find: WasdEditorCamera
+    install_to: GameData

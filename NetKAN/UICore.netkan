@@ -1,17 +1,16 @@
-{
-    "identifier":   "UICore",
-    "$kref":        "#/ckan/spacedock/1572",
-    "$vref":        "#/ckan/ksp-avc",
-    "license":      "GPL-3.0",
-    "tags": [
-        "plugin",
-        "library"
-    ],
-    "depends": [
-        { "name" : "ClickThroughBlocker" }
-    ],
-    "install": [ {
-        "find":"000_UICore",
-        "install_to": "GameData"
-    } ]
-}
+identifier: UICore
+$kref: '#/ckan/github/linuxgurugamer/KSP-UICore'
+$vref: '#/ckan/ksp-avc'
+---
+identifier: UICore
+$kref: '#/ckan/spacedock/1572'
+$vref: '#/ckan/ksp-avc'
+license: GPL-3.0
+tags:
+  - plugin
+  - library
+depends:
+  - name: ClickThroughBlocker
+install:
+  - find: 000_UICore
+    install_to: GameData

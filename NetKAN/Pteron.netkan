@@ -1,0 +1,22 @@
+identifier: Pteron
+$kref: '#/ckan/github/zer0Kerbal/Pteron'
+$vref: '#/ckan/ksp-avc'
+---
+identifier: Pteron
+$kref: '#/ckan/spacedock/2379'
+$vref: '#/ckan/ksp-avc'
+license: CC-BY-NC-SA-4.0
+tags:
+  - parts
+depends:
+  - name: ModuleManager
+suggests:
+  - name: KerbalChangelog
+  - name: ScrapYard
+  - name: OhScrap
+  - name: StageRecovery
+  - name: TweakScale
+  - name: FirespitterCore
+install:
+  - find: FruitBatIndustries
+    install_to: GameData

@@ -1,21 +1,19 @@
-{
-    "identifier":   "RaginCaucasian",
-    "$kref":        "#/ckan/spacedock/194",
-    "$vref":        "#/ckan/ksp-avc",
-    "license":      "MIT",
-    "tags": [
-        "parts"
-    ],
-    "install": [ {
-        "find":       "GameData/RaginCaucasian",
-        "install_to": "GameData"
-    } ],
-    "depends": [
-        { "name": "ModuleManager"                  },
-        { "name": "B9PartSwitch"                   },
-        { "name": "ModuleSequentialAnimateGeneric" }
-    ],
-    "suggests": [
-        { "name": "PatchManager"  }
-    ]
-}
+identifier: RaginCaucasian
+$kref: '#/ckan/github/linuxgurugamer/Mk2.5_Spaceplane_Parts'
+$vref: '#/ckan/ksp-avc'
+---
+identifier: RaginCaucasian
+$kref: '#/ckan/spacedock/194'
+$vref: '#/ckan/ksp-avc'
+license: MIT
+tags:
+  - parts
+install:
+  - find: GameData/RaginCaucasian
+    install_to: GameData
+depends:
+  - name: ModuleManager
+  - name: B9PartSwitch
+  - name: ModuleSequentialAnimateGeneric
+suggests:
+  - name: PatchManager

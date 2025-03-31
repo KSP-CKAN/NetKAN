@@ -1,20 +1,22 @@
-{
-    "identifier":   "CivilianPopulation",
-    "name":         "Civilian Population",
-    "abstract":     "Turn your Kerbal society into a Type 1 Civilization by adding civilian exploration!",
-    "$kref":        "#/ckan/spacedock/2560",
-    "$vref":        "#/ckan/ksp-avc",
-    "x_netkan_epoch": 1,
-    "license":      "CC-BY-4.0",
-    "tags": [
-        "config",
-        "parts",
-        "crewed"
-    ],
-    "depends": [
-        { "name": "ModuleManager"         },
-        { "name": "CommunityResourcePack" },
-        { "name": "ToolbarController"     },
-        { "name": "ClickThroughBlocker"   }
-    ]
-}
+identifier: CivilianPopulation
+$kref: '#/ckan/github/linuxgurugamer/CivilianPopulation'
+$vref: '#/ckan/ksp-avc'
+---
+identifier: CivilianPopulation
+name: Civilian Population
+abstract: >-
+  Turn your Kerbal society into a Type 1 Civilization
+  by adding civilian exploration!
+$kref: '#/ckan/spacedock/2560'
+$vref: '#/ckan/ksp-avc'
+x_netkan_epoch: 1
+license: CC-BY-4.0
+tags:
+  - config
+  - parts
+  - crewed
+depends:
+  - name: ModuleManager
+  - name: CommunityResourcePack
+  - name: ToolbarController
+  - name: ClickThroughBlocker

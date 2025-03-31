@@ -1,4 +1,8 @@
 identifier: EVAHandrailsPackContinued
+$kref: '#/ckan/github/linuxgurugamer/EVAHandrailsPack'
+$vref: '#/ckan/ksp-avc'
+---
+identifier: EVAHandrailsPackContinued
 $kref: '#/ckan/spacedock/49'
 $vref: '#/ckan/ksp-avc'
 license: CC-BY-SA-3.0
@@ -13,10 +17,6 @@ depends:
     min_version: 2.6.5
 suggests:
   - name: EvaHandrailsKISCompatibility
-install:
-  - find: NEBULA
-    install_to: GameData
-    filter_regexp: ModuleManager.+\.dll
 x_netkan_override:
   - version: 0.2.0
     delete:
@@ -24,3 +24,7 @@ x_netkan_override:
     override:
       ksp_version_min: 1.0.2
       ksp_version_max: 1.0.4
+install:
+  - find: NEBULA
+    install_to: GameData
+    filter_regexp: ModuleManager.+\.dll

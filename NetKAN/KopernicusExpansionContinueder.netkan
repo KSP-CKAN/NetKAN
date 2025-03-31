@@ -1,10 +1,17 @@
 identifier: KopernicusExpansionContinueder
+$kref: '#/ckan/github/VabienArt/KopernicusExpansion-Continueder/asset_match/KEX.zip'
+x_netkan_version_edit:
+  find: beta
+  replace: Beta
+  strict: false
+---
+identifier: KopernicusExpansionContinueder
 author:
   - MrHappyFace
   - StollD
   - Vabien
 $kref: '#/ckan/spacedock/3357'
-ksp_version_min: 1.10
+ksp_version_min: '1.10'
 license: GPL-3.0
 tags:
   - planet-pack

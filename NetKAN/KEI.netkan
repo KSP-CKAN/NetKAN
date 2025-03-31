@@ -1,0 +1,15 @@
+identifier: KEI
+$kref: '#/ckan/github/linuxgurugamer/KSP-KEI'
+$vref: '#/ckan/ksp-avc'
+---
+identifier: KEI
+$kref: '#/ckan/spacedock/834'
+$vref: '#/ckan/ksp-avc'
+license: GPL-3.0
+tags:
+  - plugin
+  - science
+depends:
+  - name: ToolbarController
+  - name: SpaceTuxLibrary
+  - name: ClickThroughBlocker

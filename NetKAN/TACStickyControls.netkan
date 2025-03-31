@@ -1,0 +1,17 @@
+identifier: TACStickyControls
+$kref: '#/ckan/github/linuxgurugamer/TacStickyControls'
+$vref: '#/ckan/ksp-avc'
+---
+identifier: TACStickyControls
+$kref: '#/ckan/spacedock/1473'
+$vref: '#/ckan/ksp-avc'
+license: Apache
+tags:
+  - plugin
+  - control
+install:
+  - find: TacStickyControls
+    install_to: GameData
+depends:
+  - name: ToolbarController
+  - name: ClickThroughBlocker
