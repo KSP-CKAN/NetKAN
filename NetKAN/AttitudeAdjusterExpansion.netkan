@@ -10,3 +10,5 @@ tags:
 depends:
   - name: ModuleManager
   - name: AttitudeAdjuster
+supports:
+  - name: AttitudeAdjuster
