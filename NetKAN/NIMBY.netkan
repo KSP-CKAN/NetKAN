@@ -1,0 +1,15 @@
+identifier: NIMBY
+$kref: '#/ckan/github/linuxgurugamer/Magico13_Modlets/version_from_asset/^NIMBY.*-(?<version>[^-]+)\.zip$'
+$vref: '#/ckan/ksp-avc'
+---
+identifier: NIMBY
+$kref: '#/ckan/spacedock/1286'
+$vref: '#/ckan/ksp-avc'
+license: MIT
+tags:
+  - plugin
+depends:
+  - name: ModuleManager
+install:
+  - find: NIMBY
+    install_to: GameData

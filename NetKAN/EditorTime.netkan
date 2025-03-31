@@ -1,4 +1,8 @@
 identifier: EditorTime
+$kref: '#/ckan/github/linuxgurugamer/Magico13_Modlets/version_from_asset/^EditorTime.*-(?<version>[^-]+)\.zip$'
+$vref: '#/ckan/ksp-avc'
+---
+identifier: EditorTime
 abstract: Makes time pass while in the VAB/SPH
 author:
   - magico13

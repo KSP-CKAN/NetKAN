@@ -1,19 +1,16 @@
-{
-    "identifier":   "DatedQuickSaves",
-    "$kref":        "#/ckan/spacedock/643",
-    "$vref":        "#/ckan/ksp-avc",
-    "license":      "GPL-3.0",
-    "tags": [
-        "plugin",
-        "convenience"
-    ],
-    "install": [
-        {
-            "file"       : "GameData/DatedQuickSaves",
-            "install_to" : "GameData"
-        }
-    ],
-    "depends": [
-        { "name": "MagiCore" }
-    ]
-}
+identifier: DatedQuickSaves
+$kref: '#/ckan/github/linuxgurugamer/Magico13_Modlets/version_from_asset/^DatedQuickSaves.*-(?<version>[^-]+)\.zip$'
+$vref: '#/ckan/ksp-avc'
+---
+identifier: DatedQuickSaves
+$kref: '#/ckan/spacedock/643'
+$vref: '#/ckan/ksp-avc'
+license: GPL-3.0
+tags:
+  - plugin
+  - convenience
+depends:
+  - name: MagiCore
+install:
+  - file: GameData/DatedQuickSaves
+    install_to: GameData

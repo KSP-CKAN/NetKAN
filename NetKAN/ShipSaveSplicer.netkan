@@ -1,9 +1,6 @@
 identifier: ShipSaveSplicer
 $kref: '#/ckan/github/linuxgurugamer/Magico13_Modlets/version_from_asset/^Ship_?Save_?Splicer.*-(?<version>[^-]+)\.zip$'
 $vref: '#/ckan/ksp-avc'
-install:
-  - find: GameData/ShipSaveSplicer
-    install_to: GameData
 ---
 identifier: ShipSaveSplicer
 $kref: '#/ckan/spacedock/644'
