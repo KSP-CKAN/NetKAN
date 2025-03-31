@@ -1,4 +1,9 @@
 identifier: ZeroMiniAVC
+$kref: '#/ckan/github/linuxgurugamer/ZeroMiniAVC'
+$vref: '#/ckan/ksp-avc'
+x_netkan_epoch: '1'
+---
+identifier: ZeroMiniAVC
 name: Zero MiniAVC
 abstract: >-
   If you only install mods with CKAN, you do not need this.
