@@ -1,25 +1,22 @@
-{
-    "identifier"   : "QuickMute",
-    "$kref"        : "#/ckan/spacedock/108",
-    "$vref"        : "#/ckan/ksp-avc",
-    "license"      : "GPL-3.0",
-    "x_netkan_epoch": 1,
-    "tags": [
-        "plugin",
-        "convenience",
-        "sound"
-    ],
-    "depends": [
-        { "name" : "ToolbarController" },
-        { "name" : "ClickThroughBlocker" }
-    ],
-    "install": [
-        {
-            "file"       : "GameData/QuickMods/QuickMute",
-            "install_to" : "GameData/QuickMods"
-        }
-    ],
-    "suggests": [
-        { "name": "Toolbar" }
-    ]
-}
+identifier: QuickMute
+$kref: '#/ckan/github/linuxgurugamer/QuickMods/version_from_asset/^QuickMute.*-(?<version>[^-]+)\.zip$'
+$vref: '#/ckan/ksp-avc'
+x_netkan_epoch: 1
+---
+identifier: QuickMute
+$kref: '#/ckan/spacedock/108'
+$vref: '#/ckan/ksp-avc'
+license: GPL-3.0
+x_netkan_epoch: 1
+tags:
+  - plugin
+  - convenience
+  - sound
+depends:
+  - name: ToolbarController
+  - name: ClickThroughBlocker
+suggests:
+  - name: Toolbar
+install:
+  - file: GameData/QuickMods/QuickMute
+    install_to: GameData/QuickMods

@@ -1,4 +1,9 @@
 identifier: QuickIVA
+$kref: '#/ckan/github/linuxgurugamer/QuickMods/version_from_asset/^QuickIVA.*-(?<version>[^-]+)\.zip$'
+$vref: '#/ckan/ksp-avc'
+x_netkan_epoch: 1
+---
+identifier: QuickIVA
 $kref: '#/ckan/spacedock/107'
 $vref: '#/ckan/ksp-avc'
 license: GPL-3.0
@@ -11,9 +16,9 @@ tags:
 depends:
   - name: ToolbarController
   - name: ClickThroughBlocker
-install:
-  - file: GameData/QuickMods/QuickIVA
-    install_to: GameData/QuickMods
 suggests:
   - name: RasterPropMonitor
   - name: Toolbar
+install:
+  - file: GameData/QuickMods/QuickIVA
+    install_to: GameData/QuickMods

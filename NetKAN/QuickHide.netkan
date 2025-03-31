@@ -1,23 +1,20 @@
-{
-    "identifier"   : "QuickHide",
-    "$kref"        : "#/ckan/spacedock/106",
-    "$vref"        : "#/ckan/ksp-avc",
-    "x_netkan_epoch": 1,
-    "license"      : "GPL-3.0",
-    "tags": [
-        "plugin"
-    ],
-    "depends": [
-        { "name" : "ToolbarController" },
-        { "name" : "ClickThroughBlocker" }
-    ],
-    "install": [
-        {
-            "file"       : "GameData/QuickMods/QuickHide",
-            "install_to" : "GameData/QuickMods"
-        }
-    ],
-    "suggests": [
-        { "name": "Toolbar" }
-    ]
-}
+identifier: QuickHide
+$kref: '#/ckan/github/linuxgurugamer/QuickMods/version_from_asset/^QuickHide.*-(?<version>[^-]+)\.zip$'
+$vref: '#/ckan/ksp-avc'
+x_netkan_epoch: 1
+---
+identifier: QuickHide
+$kref: '#/ckan/spacedock/106'
+$vref: '#/ckan/ksp-avc'
+x_netkan_epoch: 1
+license: GPL-3.0
+tags:
+  - plugin
+depends:
+  - name: ToolbarController
+  - name: ClickThroughBlocker
+suggests:
+  - name: Toolbar
+install:
+  - file: GameData/QuickMods/QuickHide
+    install_to: GameData/QuickMods

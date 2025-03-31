@@ -1,4 +1,8 @@
 identifier: APPLE
+$kref: '#/ckan/github/linuxgurugamer/FruitKocktail/version_from_asset/^APPLE-(?<version>[^-]+)\.zip$'
+$vref: '#/ckan/ksp-avc'
+---
+identifier: APPLE
 name: Approved Popular Pre-Launch Experiment
 abstract: A small mod to automate some of the more monotonous tasks
 author:

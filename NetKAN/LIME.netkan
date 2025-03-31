@@ -1,6 +1,14 @@
 identifier: LIME
+$kref: '#/ckan/github/linuxgurugamer/FruitKocktail/version_from_asset/^LIME-(?<version>[^-]+)\.zip$'
+$vref: '#/ckan/ksp-avc'
+install:
+  - find: FruitKocktail
+    install_to: GameData
+---
+identifier: LIME
 name: Lie In Must Ensue
-abstract: This changes the time that Sunrise is defined (an hour later than stock)
+abstract: >-
+  This changes the time that Sunrise is defined (an hour later than stock)
 author:
   - FruitGoose
   - linuxgurugamer

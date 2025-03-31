@@ -1,24 +1,21 @@
-{
-    "identifier"   : "QuickSAS",
-    "$kref"        : "#/ckan/spacedock/999",
-    "$vref"        : "#/ckan/ksp-avc",
-    "license"      : "GPL-3.0",
-    "x_netkan_epoch": 1,
-    "tags": [
-        "plugin",
-        "convenience"
-    ],
-    "depends": [
-        { "name" : "ToolbarController" },
-        { "name" : "ClickThroughBlocker" }
-    ],
-    "install": [
-        {
-            "file"       : "GameData/QuickMods/QuickSAS",
-            "install_to" : "GameData/QuickMods"
-        }
-    ],
-    "suggests": [
-        { "name": "Toolbar" }
-    ]
-}
+identifier: QuickSAS
+$kref: '#/ckan/github/linuxgurugamer/QuickMods/version_from_asset/^QuickSAS.*-(?<version>[^-]+)\.zip$'
+$vref: '#/ckan/ksp-avc'
+x_netkan_epoch: 1
+---
+identifier: QuickSAS
+$kref: '#/ckan/spacedock/999'
+$vref: '#/ckan/ksp-avc'
+license: GPL-3.0
+x_netkan_epoch: 1
+tags:
+  - plugin
+  - convenience
+depends:
+  - name: ToolbarController
+  - name: ClickThroughBlocker
+suggests:
+  - name: Toolbar
+install:
+  - file: GameData/QuickMods/QuickSAS
+    install_to: GameData/QuickMods

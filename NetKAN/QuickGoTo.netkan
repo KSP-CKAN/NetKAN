@@ -1,23 +1,20 @@
-{
-    "identifier"   : "QuickGoTo",
-    "$kref"        : "#/ckan/spacedock/102",
-    "$vref"        : "#/ckan/ksp-avc",
-    "license"      : "GPL-3.0",
-    "x_netkan_epoch": 1,
-    "tags": [
-        "plugin",
-        "convenience"
-    ],
-    "depends": [
-        { "name" : "ClickThroughBlocker" }
-    ],
-    "install": [
-        {
-            "file"       : "GameData/QuickMods/QuickGoTo",
-            "install_to" : "GameData/QuickMods"
-        }
-    ],
-    "suggests": [
-        { "name": "Toolbar" }
-    ]
-}
+identifier: QuickGoTo
+$kref: '#/ckan/github/linuxgurugamer/QuickMods/version_from_asset/^QuickGoTo.*-(?<version>[^-]+)\.zip$'
+$vref: '#/ckan/ksp-avc'
+x_netkan_epoch: 1
+---
+identifier: QuickGoTo
+$kref: '#/ckan/spacedock/102'
+$vref: '#/ckan/ksp-avc'
+license: GPL-3.0
+x_netkan_epoch: 1
+tags:
+  - plugin
+  - convenience
+depends:
+  - name: ClickThroughBlocker
+suggests:
+  - name: Toolbar
+install:
+  - file: GameData/QuickMods/QuickGoTo
+    install_to: GameData/QuickMods

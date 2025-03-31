@@ -1,5 +1,5 @@
 identifier: Wwwwwwwww
-$kref: '#/ckan/github/linuxgurugamer/Magico13_Modlets/asset_match/Wwwwwwwww'
+$kref: '#/ckan/github/linuxgurugamer/Magico13_Modlets/version_from_asset/^Wwwwwwwww.*-(?<version>[^-]+)\.zip$'
 $vref: '#/ckan/ksp-avc'
 ---
 identifier: Wwwwwwwww

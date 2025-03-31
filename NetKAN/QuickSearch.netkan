@@ -1,22 +1,20 @@
-{
-    "identifier"   : "QuickSearch",
-    "$kref"        : "#/ckan/spacedock/101",
-    "$vref"        : "#/ckan/ksp-avc",
-    "license"      : "GPL-3.0",
-    "x_netkan_epoch": 1,
-    "tags": [
-        "plugin",
-        "convenience",
-        "editor"
-    ],
-    "depends": [
-        { "name" : "ToolbarController" },
-        { "name" : "ClickThroughBlocker" }
-    ],
-    "install": [
-        {
-            "file"       : "GameData/QuickMods/QuickSearch",
-            "install_to" : "GameData/QuickMods"
-        }
-    ]
-}
+identifier: QuickSearch
+$kref: '#/ckan/github/linuxgurugamer/QuickMods/version_from_asset/^QuickSearch.*-(?<version>[^-]+)\.zip$'
+$vref: '#/ckan/ksp-avc'
+x_netkan_epoch: 1
+---
+identifier: QuickSearch
+$kref: '#/ckan/spacedock/101'
+$vref: '#/ckan/ksp-avc'
+license: GPL-3.0
+x_netkan_epoch: 1
+tags:
+  - plugin
+  - convenience
+  - editor
+depends:
+  - name: ToolbarController
+  - name: ClickThroughBlocker
+install:
+  - file: GameData/QuickMods/QuickSearch
+    install_to: GameData/QuickMods
