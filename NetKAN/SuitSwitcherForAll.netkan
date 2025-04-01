@@ -1,0 +1,7 @@
+identifier: SuitSwitcherForAll
+$kref: '#/ckan/spacedock/3852'
+tags:
+  - config
+depends:
+  - name: ModuleManager
+x_via: Automated SpaceDock CKAN submission
