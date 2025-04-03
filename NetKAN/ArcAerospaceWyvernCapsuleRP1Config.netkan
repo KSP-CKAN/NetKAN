@@ -1,0 +1,10 @@
+identifier: ArcAerospaceWyvernCapsuleRP1Config
+$kref: '#/ckan/spacedock/3853'
+tags:
+  - config
+depends:
+  - name: ModuleManager
+install:
+  - find: RP1Configs
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
