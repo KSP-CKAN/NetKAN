@@ -3,7 +3,7 @@ abstract: >-
   Inverse kinematics controller for KSP Breaking Ground robotic parts:
   automatically reach targets with your custom manipulators!
 author: Gotmachine
-$kref: '#/ckan/github/gotmachine/EasyRobotics'
+$kref: '#/ckan/github/KSPModStewards/EasyRobotics'
 $vref: '#/ckan/ksp-avc'
 license: MIT
 tags:
