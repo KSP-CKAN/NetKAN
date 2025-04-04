@@ -5,6 +5,9 @@ abstract: >-
 $kref: '#/ckan/github/KSPModStewards/RocketSoundEnhancement'
 $vref: '#/ckan/ksp-avc'
 license: GPL-3.0
+author:
+  - ensou04
+  - JonnyOThan
 tags:
   - plugin
   - sound
