@@ -13,6 +13,8 @@ tags:
   - library
 provides:
   - KSPBurst-Full
+depends:
+  - KSPBurst-Compiler
 install:
   - find: 000_KSPBurst
     install_to: GameData
