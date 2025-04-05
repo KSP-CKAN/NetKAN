@@ -17,5 +17,6 @@ suggests:
 install:
   - find: ContractPacks
     install_to: GameData
+    filter: Config Replacements
   - find: ForParallaxContinued/GameData
     install_to: ForParallaxContinued/_GameData
