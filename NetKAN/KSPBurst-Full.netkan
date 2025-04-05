@@ -12,7 +12,7 @@ resources:
 tags:
   - library
 provides:
-  - name: KSPBurst
+  - KSPBurst
 depends:
   - name: KSPBurst-Lite
 install:
