@@ -1,3 +1,7 @@
+# note: this package is the burst compiler, while KSPBurst-Lite is the plugins that mods interface with.
+# the conpiler is wrapped in a zip file that the plugins unpack at runtime.
+# The compiler is rather large and doesn't change often, so it's split out.  Further, a user (or automated build system)
+# may choose to install just the plugins to save space (but burst will not be functional).
 identifier: KSPBurst-Full
 name: KSPBurst
 abstract: >-
