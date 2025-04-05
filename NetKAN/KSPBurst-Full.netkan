@@ -1,6 +1,8 @@
-identifier: KSPBurst-Compiler
-name: KSPBurst-Compiler
-abstract: The Unity Burst package
+identifier: KSPBurst-Full
+name: KSPBurst-Full
+abstract: >-
+  Better multithreaded performance for mods that use it.
+  Requires Mono on Linux and macOS (you have it if you're running CKAN).
 author: Unity
 $kref: '#/ckan/github/KSPModdingLibs/KSPBurst/asset_match/^KSPBurst_Compiler\.zip$'
 $vref: '#/ckan/ksp-avc'
@@ -9,8 +11,10 @@ resources:
   homepage: https://forum.kerbalspaceprogram.com/index.php?/topic/201112-*
 tags:
   - library
-depends:
+provides:
   - name: KSPBurst
+depends:
+  - name: KSPBurst-Lite
 install:
   - find: 000_KSPBurst
     install_to: GameData
