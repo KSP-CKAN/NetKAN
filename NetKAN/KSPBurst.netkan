@@ -14,7 +14,7 @@ tags:
 provides:
   - KSPBurst-Full
 depends:
-  - KSPBurst-Compiler
+  - name: KSPBurst-Compiler
 install:
   - find: 000_KSPBurst
     install_to: GameData
