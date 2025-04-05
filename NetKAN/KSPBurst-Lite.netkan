@@ -17,7 +17,7 @@ provides:
 conflicts:
   - name: KSPBurst
 replaced_by:
-  - name: KSPBurst
+  name: KSPBurst
 install:
   - find: 000_KSPBurst
     install_to: GameData
