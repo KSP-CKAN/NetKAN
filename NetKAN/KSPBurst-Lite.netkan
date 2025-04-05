@@ -12,12 +12,6 @@ resources:
   repository: https://github.com/KSPModdingLibs/KSPBurst
 tags:
   - library
-provides:
-  - KSPBurst
-conflicts:
-  - name: KSPBurst
-replaced_by:
-  name: KSPBurst
 install:
   - find: 000_KSPBurst
     install_to: GameData
