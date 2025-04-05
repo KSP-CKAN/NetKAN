@@ -11,7 +11,8 @@ resources:
   homepage: https://forum.kerbalspaceprogram.com/index.php?/topic/201112-*
 tags:
   - library
-replaced_by: KSPBurst-Full
+replaced_by:
+  name: KSPBurst-Full
 install:
   - find: 000_KSPBurst
     install_to: GameData
