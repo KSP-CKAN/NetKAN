@@ -23,5 +23,5 @@ install:
       that mods interface with.
       the compiler is wrapped in a zip file that the plugins unpack at runtime.
       The compiler is rather large and doesn't change often, so it's split out.
-      Further, a user (or automated build system) may choose to install just
-      the plugins to save space (but burst will not be functional).
+      Further, an automated build system may choose to install just
+      the plugins to save space (but Burst will not be functional).
