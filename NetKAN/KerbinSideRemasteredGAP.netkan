@@ -17,3 +17,4 @@ suggests:
 install:
   - find: ContractPacks
     install_to: GameData
+    filter: Config Replacements
