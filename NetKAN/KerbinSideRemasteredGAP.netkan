@@ -9,6 +9,8 @@ depends:
   - name: KerbinSideRemastered
   - name: KerbalKonstructs
   - name: ContractConfigurator
+  - name: StockalikeStructures
+  - name: KerbinSideCore
 suggests:
   - name: NavUtilities
   - name: KramaxAutopilotContinued
