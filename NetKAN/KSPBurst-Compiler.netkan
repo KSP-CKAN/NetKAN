@@ -1,0 +1,16 @@
+identifier: KSPBurst
+name: KSPBurst-Compiler
+abstract: The Unity Burst package
+author: Unity
+$kref: '#/ckan/github/KSPModdingLibs/KSPBurst/asset_match/^KSPBurst_Compiler\.zip$'
+$vref: '#/ckan/ksp-avc'
+license: unknown
+resources:
+  homepage: https://forum.kerbalspaceprogram.com/index.php?/topic/201112-*
+tags:
+  - library
+depends:
+  - KSPBurst
+install:
+  - find: 000_KSPBurst
+    install_to: GameData
