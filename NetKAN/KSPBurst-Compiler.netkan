@@ -10,7 +10,7 @@ resources:
 tags:
   - library
 depends:
-  - KSPBurst
+  - name: KSPBurst
 install:
   - find: 000_KSPBurst
     install_to: GameData
