@@ -5,6 +5,7 @@ abstract: >-
   Requires Mono on Linux and macOS (you have it if you're running CKAN).
 author: Unity
 $kref: '#/ckan/github/KSPModdingLibs/KSPBurst/version_from_asset/^KSPBurst_Compiler_(?<version>.+)\.zip$'
+x_netkan_force_v: true
 license: unknown
 resources:
   homepage: https://forum.kerbalspaceprogram.com/index.php?/topic/201112-*
