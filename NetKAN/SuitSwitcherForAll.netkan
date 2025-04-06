@@ -4,4 +4,7 @@ tags:
   - config
 depends:
   - name: ModuleManager
-x_via: Automated SpaceDock CKAN submission
+  - name: WildBlueCore
+recommends:
+  - name: KerbalizedSuits
+  - name: Benjee10Suits
