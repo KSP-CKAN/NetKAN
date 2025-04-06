@@ -13,7 +13,6 @@ provides:
   - PersistentRotation
 conflicts:
   - name: PersistentRotation
-  - name: KSPCommunityFixes
 depends:
   - name: ToolbarController
   - name: ClickThroughBlocker
