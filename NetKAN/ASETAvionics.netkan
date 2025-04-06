@@ -3,12 +3,13 @@ $kref: '#/ckan/github/FirstPersonKSP/ASET_Avionics'
 $vref: '#/ckan/ksp-avc'
 ---
 identifier: ASETAvionics
+$kref: '#/ckan/spacedock/3239'
+$vref: '#/ckan/ksp-avc'
 author:
   - alexustas
   - StoneBlue
   - JonnyOThan
-$kref: '#/ckan/spacedock/3239'
-$vref: '#/ckan/ksp-avc'
+abstract: IVA props for aircraft
 license: CC-BY-NC-SA-3.0
 tags:
   - config
