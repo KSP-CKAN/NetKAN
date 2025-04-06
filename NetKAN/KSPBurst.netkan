@@ -1,11 +1,11 @@
 identifier: KSPBurst
-name: KSPBurst
+name: KSPBurst Compiler
 abstract: >-
   Better multithreaded performance for mods that use it.
   Requires Mono on Linux and macOS (you have it if you're running CKAN).
-author: dkavolis
-$kref: '#/ckan/github/KSPModdingLibs/KSPBurst/asset_match/^KSPBurst_[0-9.]+\.zip$'
-$vref: '#/ckan/ksp-avc'
+author: Unity
+$kref: '#/ckan/github/KSPModdingLibs/KSPBurst/version_from_asset/^KSPBurst_Compiler_(?<version>.+)\.zip$'
+x_netkan_force_v: true
 license: unknown
 resources:
   homepage: https://forum.kerbalspaceprogram.com/index.php?/topic/201112-*
@@ -13,6 +13,17 @@ tags:
   - library
 provides:
   - KSPBurst-Full
+depends:
+  - name: KSPBurst-Lite
 install:
   - find: 000_KSPBurst
     install_to: GameData
+    comment: >-
+      This package is the burst compiler, while KSPBurst-Lite is the plugins
+      that mods interface with.
+      the compiler is wrapped in a zip file that the plugins unpack at runtime.
+      The compiler is rather large and doesn't change often, so it's split out.
+      Further, an automated build system may choose to install just
+      the plugins to save space (but Burst will not be functional).  A mod
+      author may also choose to depend on KSPBurst-Lite to leave the choice
+      up to the user.

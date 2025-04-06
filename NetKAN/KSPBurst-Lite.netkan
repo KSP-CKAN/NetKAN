@@ -1,20 +1,19 @@
 identifier: KSPBurst-Lite
-name: KSPBurst Lite
+name: KSPBurst Plugins
 abstract: >-
-  Run KSPBurst-dependent mods without the compiler, more slowly but with a smaller download
+  Mods that require KSPBurst can run with this alone, but this does not
+  improve performance unless the burst compiler is also installed.
 $kref: >-
-  #/ckan/github/KSPModdingLibs/KSPBurst/asset_match/^KSPBurst_[0-9.]+_plugins_only\.zip$
+  #/ckan/github/KSPModdingLibs/KSPBurst/asset_match/^KSPBurst_[0-9.]+\.zip$
 $vref: '#/ckan/ksp-avc'
 author: dkavolis
 license: unknown
 resources:
   homepage: https://forum.kerbalspaceprogram.com/index.php?/topic/201112-*
-  repository: https://github.com/KSPModdingLibs/KSPBurst
 tags:
   - library
-provides:
-  - KSPBurst
-conflicts:
+  - plugin
+suggests:
   - name: KSPBurst
 install:
   - find: 000_KSPBurst
