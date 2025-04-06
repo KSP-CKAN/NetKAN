@@ -13,6 +13,8 @@ resources:
 tags:
   - library
   - plugin
+suggests:
+  - name: KSPBurst
 install:
   - find: 000_KSPBurst
     install_to: GameData
