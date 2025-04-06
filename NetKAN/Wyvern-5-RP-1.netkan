@@ -1,0 +1,13 @@
+identifier: Wyvern-5-RP-1
+$kref: '#/ckan/spacedock/3853'
+tags:
+  - config
+depends:
+  - name: ModuleManager
+  - name: RP-1
+  - name: Wyvern-5
+supports:
+  - name: Wyvern-5
+install:
+  - find: RP1Configs
+    install_to: GameData
