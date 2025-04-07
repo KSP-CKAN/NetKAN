@@ -19,7 +19,6 @@ suggests:
   - name: SimpleLogistics
   - name: SimpleConstruction
   - name: NotSoSimpleConstruction
-supports:
   - name: KerbalChangelog
 install:
   - find: KermangeddonIndustries

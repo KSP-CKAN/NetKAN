@@ -11,13 +11,14 @@ depends:
   - name: ModuleManager
 recommends:
   - name: MoarKerbals
-install:
-  - find: KerbthulhuKineticsProgram
-    install_to: GameData
-supports:
+suggests:
   - name: KerbalChangelog
+supports:
   - name: CommunityTechTree
   - name: ConnectedLivingSpace
   - name: TweakScale
   - name: SimpleLife
   - name: USI-LS
+install:
+  - find: KerbthulhuKineticsProgram
+    install_to: GameData

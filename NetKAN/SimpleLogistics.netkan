@@ -1,0 +1,26 @@
+identifier: SimpleLogistics
+author:
+  - RealGecko
+  - zer0Kerbal
+$kref: '#/ckan/spacedock/1079'
+$vref: '#/ckan/ksp-avc'
+license: GPL-3.0
+tags:
+  - plugin
+  - resources
+depends:
+  - name: ModuleManager
+  - name: ToolbarController
+  - name: ClickThroughBlocker
+suggests:
+  - name: ODFC-Refueled
+  - name: SimpleConstruction
+  - name: Komplexity
+  - name: FieldTrainingLaboratory
+  - name: FieldTrainingFacility
+  - name: DockingPortDescriptions
+  - name: PicoPortShielded
+  - name: KerbalChangelog
+  - name: Pteron
+  - name: KerbalChangelog
+  - name: AlternateResourcePanel

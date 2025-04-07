@@ -25,8 +25,8 @@ suggests:
   - name: RasterPropMonitor
   - name: DE-IVAExtension
   - name: AvionicsSystems
-supports:
   - name: KerbalChangelog
+supports:
   - name: PlanetsideExplorationTechnologies
   - name: StationPartsExpansionRedux-IVAs
   - name: Buffalo2
