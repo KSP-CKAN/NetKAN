@@ -19,8 +19,8 @@ recommends:
   - name: KerbalConstructionTime
   - name: StageRecovery
   - name: KerbalKrashSystem
-supports:
   - name: KerbalChangelog
+supports:
   - name: KerbalConstructionTime
   - name: FerramAerospaceResearchContinued
   - name: RemoteTech
