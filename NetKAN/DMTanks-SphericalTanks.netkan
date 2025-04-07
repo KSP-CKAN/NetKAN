@@ -18,9 +18,9 @@ recommends:
   - name: DMTanks-Fuselage
 suggests:
   - name: B9PartSwitch
+  - name: KerbalChangelog
 supports:
   - name: TweakScale
-  - name: KerbalChangelog
   - name: Snacks
   - name: TACLS
   - name: InterstellarFuelSwitch

@@ -12,7 +12,7 @@ tags:
   - crewed
 depends:
   - name: ModuleManager
-supports:
+suggests:
   - name: KerbalChangelog
 install:
   - find: Yarbrough

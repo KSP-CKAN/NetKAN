@@ -22,8 +22,8 @@ suggests:
   - name: CommunityResourcePack
   - name: StockalikeMiningExtension
   - name: InfernalRoboticsNext
-supports:
   - name: KerbalChangelog
+supports:
   - name: Kethane
 install:
   - find: NotSoSimpleConstruction

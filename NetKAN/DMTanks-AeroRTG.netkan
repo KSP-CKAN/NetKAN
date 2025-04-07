@@ -20,9 +20,9 @@ suggests:
   - name: SimpleConstruction
   - name: NotSoSimpleConstruction
   - name: SimpleLogistics
+  - name: KerbalChangelog
 supports:
   - name: TweakScale
-  - name: KerbalChangelog
   - name: ODFC
 install:
   - find: DaMichel

@@ -24,6 +24,7 @@ suggests:
   - name: JNSQ
   - name: RationalResourcesParts
   - name: StockalikeMiningExtension
+  - name: KerbalChangelog
 supports:
   - name: BeyondHome
   - name: CryoTanks
@@ -36,4 +37,3 @@ supports:
   - name: Pathfinder
   - name: StockalikeMiningExtension
   - name: TACLS
-  - name: KerbalChangelog

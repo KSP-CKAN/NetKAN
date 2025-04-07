@@ -10,5 +10,5 @@ resources:
 tags:
   - parts
   - crewed
-supports:
+suggests:
   - name: KerbalChangelog
