@@ -21,13 +21,11 @@ depends:
   - name: ASETAgency
   - name: RasterPropMonitor-Core
     min_version: 1:v0.30.2
-supports:
+suggests:
   - name: MechJeb2
   - name: SCANsat
   - name: VesselView
   - name: DockingPortAlignmentIndicator
-  - name: RealChute
-  - name: TACLS
 install:
   - find: ASET/ASET_Props
     install_to: GameData/ASET
