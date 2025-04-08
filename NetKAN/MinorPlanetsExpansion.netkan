@@ -1,13 +1,15 @@
 identifier: MinorPlanetsExpansion
 $kref: '#/ckan/github/ExosLab/Minor-Planets-Expansion'
 license: MIT
+resources:
+  homepage: https://forum.kerbalspaceprogram.com/topic/192848-
 tags:
-- config
-- planet-pack
+  - config
+  - planet-pack
 depends:
-- name: ModuleManager
-- name: Kopernicus
-- name: OuterPlanetsMod
+  - name: ModuleManager
+  - name: Kopernicus
+  - name: OuterPlanetsMod
 install:
-- find: MPE
-  install_to: GameData
+  - find: MPE
+    install_to: GameData
