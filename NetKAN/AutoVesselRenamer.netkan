@@ -1,0 +1,10 @@
+identifier: AutoVesselRenamer
+author: sparrow
+$kref: "#/ckan/github/matteo-passeri/KSP-1.12.5-MOD___Auto-Vessel-Renamer'
+ksp_version_min: '1.2'
+license: MIT
+resources:
+  homepage: >-
+    https://forum.kerbalspaceprogram.com/topic/227614-1125-auto-vessel-renamer-100-no-more-vessels-with-the-same-name-08-april-2025/
+depends:
+  - name: ModuleManager
