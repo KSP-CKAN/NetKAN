@@ -19,12 +19,15 @@ recommends:
   - name: SimpleLogistics
   - name: Kaboom
   - name: GPOSpeedPump
+  - name: B9PartSwitch
+  - name: FirespitterCore
+  - name: InterstellarFuelSwitch-Core
 suggests:
   - name: JSIAdvancedTransparentPods
   - name: KIS
   - name: KerbalInventorySystemNoFun
   - name: TweakScale
-  - name: B9PartSwitch
+  - name: PatchManager
 supports:
   - name: SimpleConstruction
   - name: SimpleLogistics
@@ -33,11 +36,8 @@ supports:
   - name: ConnectedLivingSpace
   - name: ExtraPlanetaryLaunchpads
   - name: TankSwitcher
-  - name: InterstellarFuelSwitchCore
-  - name: FirespitterCore
   - name: SimplexColonies
   - name: TweakScale
-  - name: PatchManager
 install:
   - find: KeridianDynamics
     install_to: GameData
