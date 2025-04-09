@@ -1,0 +1,13 @@
+identifier: RP-1-Checklists
+$kref: '#/ckan/github/averageksp/RP-1-Checklists'
+---
+identifier: RP-1-Checklists
+$kref: '#/ckan/spacedock/3858'
+tags:
+  - config
+depends:
+  - name: KerbalChecklists
+  - name: RP-1
+install:
+  - find: RP-1 Checklists
+    install_to: GameData
