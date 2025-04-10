@@ -8,6 +8,7 @@ tags:
 depends:
   - name: ModuleManager
   - name: B9PartSwitch
+  - name: BreakingGround-DLC
 suggests:
   - name: Habtech2
   - name: ShuttleOrbiterConstructionKit
