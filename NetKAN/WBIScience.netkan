@@ -1,0 +1,20 @@
+identifier: WBIScience
+name: WBIScience
+abstract: >-
+  An experiment management system & collection of experiments.
+author: Angel-125
+$kref: '#/ckan/github/Angel-125/WBIScience'
+$vref: '#/ckan/ksp-avc'
+license: GPL-3.0
+resources:
+  manual: https://github.com/Angel-125/WBIScience/wiki
+  remote-avc: https://raw.githubusercontent.com/Angel-125/WBIScience/main/ReleaseFolder/GameData/WildBlueIndustries/0WBIScience/WBIScience.version
+tags:
+  - plugin
+  - library
+depends:
+  - name: ModuleManager
+  - name: WBIResources
+install:
+  - find: 0WBIScience
+    install_to: GameData/WildBlueIndustries

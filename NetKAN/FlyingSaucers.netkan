@@ -11,7 +11,7 @@ tags:
 depends:
   - name: ModuleManager
   - name: NearFutureProps
-  - name: WildBlueTools
+  - name: WBIResources
   - name: KerbalActuators
 recommends:
   - name: ExtraPlanetaryLaunchpads

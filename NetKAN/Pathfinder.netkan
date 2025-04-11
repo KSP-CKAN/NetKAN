@@ -14,12 +14,14 @@ tags:
   - resources
   - crewed
 depends:
-  - name: Pathfinder-PlayMode
   - name: ModuleManager
   - name: KerbalActuators
-  - name: WildBlueTools
-  - name: ClassicStockResources
+  - name: WBIProps
+  - name: WBIResources
+  - name: WBIScience
+  - name: WBIWidgets
 recommends:
+  - name: ClassicStockResources
   - name: KAS
   - name: KIS
   - name: Buffalo2
@@ -31,8 +33,3 @@ supports:
 install:
   - find: Pathfinder
     install_to: GameData/WildBlueIndustries
-    filter_regexp:
-      - .*\.pdb$
-      - Templates
-  - find: Pathfinder/Templates/Common
-    install_to: GameData/WildBlueIndustries/Pathfinder/Templates

@@ -12,14 +12,16 @@ tags:
   - plugin
   - crewed
 depends:
-  - name: MOLE-PlayMode
   - name: ModuleManager
-  - name: WildBlueTools
-  - name: ClassicStockResources
+  - name: WBIProps
+  - name: WBIResources
+  - name: WBIScience
+  - name: WBIWidgets
   - name: KerbalActuators
 recommends:
   - name: ASETProps
   - name: ExtraPlanetaryLaunchpads
+  - name: ClassicStockResources
 suggests:
   - name: Pathfinder
   - name: RealChute
@@ -38,7 +40,5 @@ install:
       - .*\.pdb$
       - SampleCraft
       - Templates
-  - find: MOLE/Templates/Common
-    install_to: GameData/WildBlueIndustries/MOLE/Templates
   - find: VAB
     install_to: Ships
