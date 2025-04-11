@@ -5,4 +5,5 @@ identifier: KerbalChecklists
 $kref: '#/ckan/spacedock/3855'
 tags:
   - plugin
-x_via: Automated SpaceDock CKAN submission
+depends:
+  - name: ClickThroughBlocker
