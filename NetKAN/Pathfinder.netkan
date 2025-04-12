@@ -2,8 +2,6 @@ identifier: Pathfinder
 author: Angel-125
 $kref: '#/ckan/github/Angel-125/Pathfinder'
 $vref: '#/ckan/ksp-avc'
-x_netkan_staging: true
-x_netkan_staging_reason: Make sure that no new play modes were added to the Templates folder
 license: GPL-3.0
 resources:
   homepage: https://forum.kerbalspaceprogram.com/index.php?/topic/121397-*
