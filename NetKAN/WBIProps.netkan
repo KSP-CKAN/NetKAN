@@ -8,7 +8,6 @@ $vref: '#/ckan/ksp-avc'
 license: GPL-3.0
 resources:
   manual: https://github.com/Angel-125/WBIProps/wiki
-  remote-avc: https://raw.githubusercontent.com/Angel-125/WBIProps/main/ReleaseFolder/GameData/WildBlueIndustries/0WBIProps/WBIProps.version
 tags:
   - plugin
   - library

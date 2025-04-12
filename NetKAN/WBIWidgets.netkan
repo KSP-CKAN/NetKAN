@@ -8,7 +8,6 @@ $vref: '#/ckan/ksp-avc'
 license: GPL-3.0
 resources:
   manual: https://github.com/Angel-125/WBIWidgets/wiki
-  remote-avc: https://raw.githubusercontent.com/Angel-125/WBIWidgets/main/ReleaseFolder/GameData/WildBlueIndustries/0WBIWidgets/WBIWidgets.version
 tags:
   - plugin
   - library
