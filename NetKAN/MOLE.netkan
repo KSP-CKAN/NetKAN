@@ -36,6 +36,5 @@ install:
     filter_regexp:
       - .*\.pdb$
       - SampleCraft
-      - Templates
   - find: VAB
     install_to: Ships

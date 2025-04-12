@@ -30,7 +30,6 @@ install:
     filter_regexp:
       - .*\.pdb$
       - ReferenceDesigns
-      - Templates
   - find: VAB
     install_to: Ships
   - find: SPH
