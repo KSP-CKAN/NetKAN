@@ -1,38 +1,35 @@
 identifier: DSEV
 $kref: '#/ckan/github/Angel-125/DSEV'
 $vref: '#/ckan/ksp-avc/GameData/WildBlueIndustries/DSEV/DSEV.version'
-x_netkan_staging: true
-x_netkan_staging_reason: Make sure that no new play modes were added to the Templates folder
 license: restricted
 resources:
   homepage: https://forum.kerbalspaceprogram.com/index.php?/topic/122162-*
-  repository: https://github.com/Angel-125/DSEV
 tags:
   - parts
   - plugin
   - crewed
 depends:
-  - name: DSEV-PlayMode
   - name: ModuleManager
-  - name: WildBlueTools
-  - name: ClassicStockResources
+  - name: WBIProps
+  - name: WBIResources
+  - name: WBIScience
+  - name: WBIWidgets
   - name: NearFutureProps
   - name: KerbalActuators
 recommends:
+  - name: ClassicStockResources
   - name: RasterPropMonitor-Core
   - name: AvionicsSystems
   - name: ASETProps
   - name: ASETAvionics
   - name: InfernalRobotics
+  - name: Snacks
 install:
   - find: WildBlueIndustries/DSEV
     install_to: GameData/WildBlueIndustries
     filter_regexp:
       - .*\.pdb$
       - ReferenceDesigns
-      - Templates
-  - find: DSEV/Templates/Common
-    install_to: GameData/WildBlueIndustries/DSEV/Templates
   - find: VAB
     install_to: Ships
   - find: SPH

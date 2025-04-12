@@ -1,0 +1,14 @@
+identifier: WBIWidgets
+name: WBIWidgets
+$kref: '#/ckan/github/Angel-125/WBIWidgets'
+$vref: '#/ckan/ksp-avc'
+resources:
+  manual: https://github.com/Angel-125/WBIWidgets/wiki
+tags:
+  - plugin
+  - library
+depends:
+  - name: ModuleManager
+install:
+  - find: 0WBIWidgets
+    install_to: GameData/WildBlueIndustries

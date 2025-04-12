@@ -1,0 +1,15 @@
+identifier: WBIProps
+name: WBIProps
+$kref: '#/ckan/github/Angel-125/WBIProps'
+$vref: '#/ckan/ksp-avc'
+license: GPL-3.0
+resources:
+  manual: https://github.com/Angel-125/WBIProps/wiki
+tags:
+  - plugin
+  - library
+depends:
+  - name: ModuleManager
+install:
+  - find: 0WBIProps
+    install_to: GameData/WildBlueIndustries

@@ -1,25 +1,24 @@
 identifier: MOLE
 $kref: '#/ckan/github/Angel-125/MOLE'
 $vref: '#/ckan/ksp-avc/GameData/WildBlueIndustries/MOLE/MOLE.version'
-x_netkan_staging: true
-x_netkan_staging_reason: Make sure that no new play modes were added to the Templates folder
 license: restricted
 resources:
   homepage: https://forum.kerbalspaceprogram.com/index.php?/topic/154893-*
-  repository: https://github.com/Angel-125/MOLE
 tags:
   - parts
   - plugin
   - crewed
 depends:
-  - name: MOLE-PlayMode
   - name: ModuleManager
-  - name: WildBlueTools
-  - name: ClassicStockResources
+  - name: WBIProps
+  - name: WBIResources
+  - name: WBIScience
+  - name: WBIWidgets
   - name: KerbalActuators
 recommends:
   - name: ASETProps
   - name: ExtraPlanetaryLaunchpads
+  - name: ClassicStockResources
 suggests:
   - name: Pathfinder
   - name: RealChute
@@ -37,8 +36,5 @@ install:
     filter_regexp:
       - .*\.pdb$
       - SampleCraft
-      - Templates
-  - find: MOLE/Templates/Common
-    install_to: GameData/WildBlueIndustries/MOLE/Templates
   - find: VAB
     install_to: Ships

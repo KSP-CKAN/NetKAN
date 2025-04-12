@@ -1,0 +1,14 @@
+identifier: WBIResources
+name: WBIResources
+$kref: '#/ckan/github/Angel-125/WBIResources'
+$vref: '#/ckan/ksp-avc'
+resources:
+  manual: https://github.com/Angel-125/WBIResources/wiki
+tags:
+  - plugin
+  - library
+depends:
+  - name: ModuleManager
+install:
+  - find: 0WBIResources
+    install_to: GameData/WildBlueIndustries

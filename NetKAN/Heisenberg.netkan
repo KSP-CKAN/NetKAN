@@ -1,26 +1,23 @@
 identifier: Heisenberg
 $kref: '#/ckan/github/Angel-125/Airships'
 $vref: '#/ckan/ksp-avc/GameData/WildBlueIndustries/Heisenberg/Airships.version'
-x_netkan_staging: true
-x_netkan_staging_reason: >-
-  Make sure that no new play modes were added to the Templates folder
 license: restricted
 resources:
   homepage: https://forum.kerbalspaceprogram.com/index.php?/topic/150702-*
-  repository: https://github.com/Angel-125/Airships
-  remote-avc: https://github.com/Angel-125/Airships/raw/master/GameData/WildBlueIndustries/Heisenberg/Airships.version
 tags:
   - parts
   - plugin
   - crewed
 depends:
-  - name: Heisenberg-PlayMode
   - name: ModuleManager
-  - name: WildBlueTools
-  - name: ClassicStockResources
+  - name: WBIProps
+  - name: WBIResources
+  - name: WBIScience
+  - name: WBIWidgets
   - name: HooliganLabsAirships
   - name: KerbalActuators
 recommends:
+  - name: ClassicStockResources
   - name: AirParkContinued
   - name: ASETProps
   - name: AircraftCarrierAccessories
@@ -37,9 +34,6 @@ install:
     filter_regexp:
       - .*\.pdb$
       - SampleCraft
-      - Templates
-  - find: WildBlueIndustries/Heisenberg/Templates/Common
-    install_to: GameData/WildBlueIndustries/Templates
   - find: VAB
     install_to: Ships
   - find: SPH

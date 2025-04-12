@@ -2,8 +2,6 @@ identifier: Pathfinder
 author: Angel-125
 $kref: '#/ckan/github/Angel-125/Pathfinder'
 $vref: '#/ckan/ksp-avc'
-x_netkan_staging: true
-x_netkan_staging_reason: Make sure that no new play modes were added to the Templates folder
 license: GPL-3.0
 resources:
   homepage: https://forum.kerbalspaceprogram.com/index.php?/topic/121397-*
@@ -14,12 +12,14 @@ tags:
   - resources
   - crewed
 depends:
-  - name: Pathfinder-PlayMode
   - name: ModuleManager
   - name: KerbalActuators
-  - name: WildBlueTools
-  - name: ClassicStockResources
+  - name: WBIProps
+  - name: WBIResources
+  - name: WBIScience
+  - name: WBIWidgets
 recommends:
+  - name: ClassicStockResources
   - name: KAS
   - name: KIS
   - name: Buffalo2
@@ -31,8 +31,3 @@ supports:
 install:
   - find: Pathfinder
     install_to: GameData/WildBlueIndustries
-    filter_regexp:
-      - .*\.pdb$
-      - Templates
-  - find: Pathfinder/Templates/Common
-    install_to: GameData/WildBlueIndustries/Pathfinder/Templates

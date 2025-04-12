@@ -1,0 +1,15 @@
+identifier: WBIScience
+name: WBIScience
+$kref: '#/ckan/github/Angel-125/WBIScience'
+$vref: '#/ckan/ksp-avc'
+resources:
+  manual: https://github.com/Angel-125/WBIScience/wiki
+tags:
+  - plugin
+  - library
+depends:
+  - name: ModuleManager
+  - name: WBIResources
+install:
+  - find: 0WBIScience
+    install_to: GameData/WildBlueIndustries
