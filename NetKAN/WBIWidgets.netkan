@@ -1,11 +1,7 @@
 identifier: WBIWidgets
 name: WBIWidgets
-abstract: >-
-  A collection of parts including a nuclear reactor.
-author: Angel-125
 $kref: '#/ckan/github/Angel-125/WBIWidgets'
 $vref: '#/ckan/ksp-avc'
-license: GPL-3.0
 resources:
   manual: https://github.com/Angel-125/WBIWidgets/wiki
 tags:

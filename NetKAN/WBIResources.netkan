@@ -1,11 +1,7 @@
 identifier: WBIResources
 name: WBIResources
-abstract: >-
-  Omni Storage, Omni Converter, & GoldStrike resource management
-author: Angel-125
 $kref: '#/ckan/github/Angel-125/WBIResources'
 $vref: '#/ckan/ksp-avc'
-license: GPL-3.0
 resources:
   manual: https://github.com/Angel-125/WBIResources/wiki
 tags:

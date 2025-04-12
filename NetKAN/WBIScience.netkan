@@ -1,11 +1,7 @@
 identifier: WBIScience
 name: WBIScience
-abstract: >-
-  An experiment management system & collection of experiments.
-author: Angel-125
 $kref: '#/ckan/github/Angel-125/WBIScience'
 $vref: '#/ckan/ksp-avc'
-license: GPL-3.0
 resources:
   manual: https://github.com/Angel-125/WBIScience/wiki
 tags:
