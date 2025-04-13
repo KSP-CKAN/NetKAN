@@ -1,4 +1,4 @@
-identifier: Ursacrewpodandspaceshipparts
+identifier: UrsaPod
 $kref: '#/ckan/spacedock/3860'
 tags:
   - crewed
@@ -6,7 +6,4 @@ tags:
   - parts
 depends:
   - name: ModuleManager
-install:
-  - find: UrsaPod
-    install_to: GameData
 x_via: Automated SpaceDock CKAN submission
