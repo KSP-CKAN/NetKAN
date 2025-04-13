@@ -6,4 +6,7 @@ tags:
   - parts
 depends:
   - name: ModuleManager
-x_via: Automated SpaceDock CKAN submission
+install:
+  - find: UrsaPod
+    install_to: GameData
+    filter: Extra
