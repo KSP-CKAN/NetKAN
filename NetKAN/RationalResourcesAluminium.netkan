@@ -1,13 +1,9 @@
 identifier: RationalResourcesAluminium
-$kref: '#/ckan/github/JadeOfMaar/RationalResources'
-$vref: '#/ckan/ksp-avc'
----
-identifier: RationalResourcesAluminium
 name: Rational Resources Aluminium
 abstract: >-
   Enables Aluminium in RR's Ore tanks, instead of Metal in RR's converters,
   and instead of Metal in the demo hybrid SRBs
-$kref: '#/ckan/spacedock/2201'
+$kref: '#/ckan/github/JadeOfMaar/RationalResources'
 $vref: '#/ckan/ksp-avc'
 license: MIT
 tags:
