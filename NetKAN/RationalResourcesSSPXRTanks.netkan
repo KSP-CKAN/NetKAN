@@ -1,11 +1,7 @@
 identifier: RationalResourcesSSPXRTanks
-$kref: '#/ckan/github/JadeOfMaar/RationalResources'
-$vref: '#/ckan/ksp-avc'
----
-identifier: RationalResourcesSSPXRTanks
 name: Rational Resources SSPXR Tanks
 abstract: Adds RR Ore tank options to SSPXR's payload tanks
-$kref: '#/ckan/spacedock/2201'
+$kref: '#/ckan/github/JadeOfMaar/RationalResources'
 $vref: '#/ckan/ksp-avc'
 license: MIT
 tags:

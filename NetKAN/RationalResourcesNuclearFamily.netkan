@@ -1,14 +1,10 @@
 identifier: RationalResourcesNuclearFamily
-$kref: '#/ckan/github/JadeOfMaar/RationalResources'
-$vref: '#/ckan/ksp-avc'
----
-identifier: RationalResourcesNuclearFamily
 name: Rational Resources Nuclear Family
 abstract: >-
   Enables fuel switching and Kerbalism radioactivity in supported NTRs.
   Enables supported NTJs to have Kerbalism radioactivity and the features
   expected of a nuclear reactor
-$kref: '#/ckan/spacedock/2201'
+$kref: '#/ckan/github/JadeOfMaar/RationalResources'
 $vref: '#/ckan/ksp-avc'
 license: MIT
 tags:

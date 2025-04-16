@@ -1,13 +1,9 @@
 identifier: RationalResourcesCompanion
-$kref: '#/ckan/github/JadeOfMaar/RationalResources'
-$vref: '#/ckan/ksp-avc'
----
-identifier: RationalResourcesCompanion
 name: Rational Resources Companion
 abstract: >-
   Diverse resource chains and easy opt-in systems
   to make ISRU parts compatible
-$kref: '#/ckan/spacedock/2201'
+$kref: '#/ckan/github/JadeOfMaar/RationalResources'
 $vref: '#/ckan/ksp-avc'
 license: MIT
 tags:
