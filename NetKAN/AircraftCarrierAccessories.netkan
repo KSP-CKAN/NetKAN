@@ -1,27 +1,23 @@
-{
-    "identifier":   "AircraftCarrierAccessories",
-    "$kref":        "#/ckan/spacedock/1068",
-    "x_netkan_epoch": 1,
-    "license":      "MIT",
-    "tags": [
-        "parts",
-        "combat"
-    ],
-    "install": [ {
-        "find":       "KFC",
-        "install_to": "GameData",
-        "filter":     [ "Ships" ]
-    }, {
-        "find":       "Ships/SPH",
-        "install_to": "Ships"
-    } ],
-    "recommends": [
-        { "name": "BDArmoryContinued"  },
-        { "name": "Hangar"             },
-        { "name": "LargeBoatPartsPack" },
-        { "name": "HangarEtender"      },
-        { "name": "HyperEdit"          },
-        { "name": "VesselMover"        },
-        { "name": "KerbalKonstructs"   }
-    ]
-}
+identifier: AircraftCarrierAccessories
+$kref: '#/ckan/spacedock/1068'
+x_netkan_epoch: 1
+license: MIT
+tags:
+  - parts
+  - combat
+install:
+  - find: KFC
+    install_to: GameData
+    filter:
+      - Ships
+      - Resource
+  - find: Ships/SPH
+    install_to: Ships
+recommends:
+  - name: BDArmoryContinued
+  - name: Hangar
+  - name: LargeBoatPartsPack
+  - name: HangarExtender
+  - name: HyperEdit
+  - name: VesselMover
+  - name: KerbalKonstructs
