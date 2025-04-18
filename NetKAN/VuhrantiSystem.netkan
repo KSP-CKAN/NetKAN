@@ -16,10 +16,4 @@ depends:
   - name: OrbitIconsPack
 recommends:
   - name: BetterTimeWarpCont
-install:
-  - find: GameData/VuhrantiSystem
-    install_to: GameData
-  - find: GameData/VuhrantiSystem-Terrain
-    install_to: GameData
-  - find: GameData/VuhrantiSystem-Textures
-    install_to: GameData
+  - name: HUDReplacer
