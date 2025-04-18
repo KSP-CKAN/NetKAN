@@ -1,0 +1,9 @@
+identifier: OffShoreLaunchSite
+$kref: '#/ckan/spacedock/3863'
+tags:
+  - buildings
+  - config
+depends:
+  - name: ModuleManager
+  - name: KerbalKonstructs
+x_via: Automated SpaceDock CKAN submission
