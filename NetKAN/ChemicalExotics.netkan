@@ -1,0 +1,12 @@
+identifier: ChemicalExotics
+$kref: '#/ckan/github/CharleRoger/ChemicalExotics'
+$vref: '#/ckan/ksp-avc'
+---
+identifier: ChemicalExotics
+$kref: '#/ckan/spacedock/3867'
+$vref: '#/ckan/ksp-avc'
+tags:
+  - config
+depends:
+  - name: ModuleManager
+x_via: Automated SpaceDock CKAN submission
