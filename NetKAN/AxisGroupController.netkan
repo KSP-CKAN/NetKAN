@@ -1,0 +1,9 @@
+identifier: AxisGroupController
+$kref: '#/ckan/spacedock/3862'
+tags:
+  - plugin
+  - control
+install:
+  - find: 001_AxisGroupController
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
