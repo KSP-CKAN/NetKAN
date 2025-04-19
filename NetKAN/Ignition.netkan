@@ -3,8 +3,12 @@ $kref: '#/ckan/github/CharleRoger/Ignition'
 $vref: '#/ckan/ksp-avc'
 ---
 identifier: Ignition
-$kref: '#/ckan/spacedock/3864'
+$kref: '#/ckan/spacedock/3868'
 $vref: '#/ckan/ksp-avc'
 tags:
   - plugin
+install:
+  - find: Ignition
+    install_to: GameData
+    filter_regexp: \.pdb$
 x_via: Automated SpaceDock CKAN submission
