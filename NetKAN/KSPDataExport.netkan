@@ -1,0 +1,15 @@
+identifier: KSPDataExport
+$kref: '#/ckan/github/kna27/ksp-data-export'
+x_netkan_version_edit:
+  find: ^v
+  replace: ''
+  strict: false
+---
+identifier: KSPDataExport
+$kref: '#/ckan/spacedock/2711'
+tags:
+  - plugin
+install:
+  - find: DataExport
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
