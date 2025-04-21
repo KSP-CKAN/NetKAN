@@ -1,0 +1,14 @@
+identifier: KerbalismCompatibilityOverhaul
+$kref: '#/ckan/github/WiggleArms/KerbalismCompatibilityOverhaul'
+x_netkan_version_edit:
+  find: ^v
+  replace: ''
+  strict: false
+---
+identifier: KerbalismCompatibilityOverhaul
+$kref: '#/ckan/spacedock/3869'
+tags:
+  - config
+depends:
+  - name: ModuleManager
+x_via: Automated SpaceDock CKAN submission
