@@ -1,0 +1,13 @@
+identifier: MinorPlanetsExpansion-RibbonPack
+$kref: '#/ckan/spacedock/3871'
+tags:
+  - config
+  - crewed
+depends:
+  - name: MinorPlanetsExpansion
+  - name: FinalFrontier
+supports:
+  - name: FinalFrontier
+install:
+  - find: MPEFinalFrontierRibbons
+    install_to: GameData
