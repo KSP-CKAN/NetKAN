@@ -12,6 +12,7 @@ tags:
 depends:
   - name: ModuleManager
   - name: Kerbalism
+  - name: Kerbalism-Config-Default
 suggests:
   - name: CryoTanks
   - name: FarFutureTechnologies
@@ -19,8 +20,7 @@ suggests:
   - name: NearFuturePropulsion
   - name: SimpleConstruction
   - name: StationPartsExpansionRedux
+  - name: Kerbalism-FarFutureTechnologies
 supports:
   - name: Kerbalism-Config-Default
-conflicts:
-  - name: Kerbalism-FarFutureTechnologies
 x_via: Automated SpaceDock CKAN submission
