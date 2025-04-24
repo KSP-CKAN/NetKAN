@@ -1,0 +1,6 @@
+identifier: MinorPlanetExpansionAlternativeRibbonPack
+$kref: '#/ckan/spacedock/3871'
+install:
+  - find: MPEFinalFrontierRibbons
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
