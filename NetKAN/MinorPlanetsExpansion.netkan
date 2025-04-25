@@ -9,7 +9,17 @@ tags:
 depends:
   - name: ModuleManager
   - name: Kopernicus
+  - name: KSPCommunityFixes
   - name: OuterPlanetsMod
+suggests:
+  - name: FinalFrontier
+supports:
+  - name: FinalFrontier
 install:
   - find: MPE
+    install_to: GameData
+  - find: Localizations
+    install_to: GameData
+    as: MPE
+  - find: Nereid
     install_to: GameData
