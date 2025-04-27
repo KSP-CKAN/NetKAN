@@ -1,0 +1,13 @@
+identifier: OCRAP
+$kref: '#/ckan/github/CharleRoger/OCRAP'
+$vref: '#/ckan/ksp-avc'
+---
+identifier: OCRAP
+$kref: '#/ckan/spacedock/3874'
+$vref: '#/ckan/ksp-avc'
+tags:
+  - parts
+depends:
+  - name: ModuleManager
+  - name: B9PartSwitch
+x_via: Automated SpaceDock CKAN submission
