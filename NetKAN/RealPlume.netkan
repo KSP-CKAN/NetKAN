@@ -1,0 +1,10 @@
+identifier: RealPlume
+$kref: '#/ckan/netkan/https://raw.githubusercontent.com/KSP-RO/RealPlume/master/RealPlume.netkan'
+tags:
+  - config
+  - graphics
+  - sound
+install:
+  - find: RealPlume
+    install_to: GameData
+    filter: .DS_Store
