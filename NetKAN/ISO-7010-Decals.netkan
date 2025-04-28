@@ -1,0 +1,14 @@
+identifier: ISO-7010-Decals
+$kref: '#/ckan/github/DIYLabsED/ksp-iso-7010-decals'
+---
+identifier: ISO-7010-Decals
+$kref: '#/ckan/spacedock/3875'
+license: public-domain
+tags:
+  - flags
+  - graphics
+recommends:
+  - name: ConformalDecals
+install:
+  - find_regexp: ksp-iso-7010-decals.*
+    install_to: GameData
