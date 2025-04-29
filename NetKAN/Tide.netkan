@@ -1,0 +1,10 @@
+identifier: Tide
+$kref: '#/ckan/spacedock/3876'
+tags:
+  - config
+  - planet-pack
+depends:
+  - name: ModuleManager
+  - name: Kopernicus
+  - name: VertexMitchellNetravaliHeightMap
+x_via: Automated SpaceDock CKAN submission
