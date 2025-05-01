@@ -1,0 +1,9 @@
+identifier: OldServiceBays
+$kref: '#/ckan/spacedock/3878'
+$vref: '#/ckan/ksp-avc'
+tags:
+  - parts
+install:
+  - find: GameData/OldServiceBays
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
