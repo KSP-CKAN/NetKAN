@@ -6,6 +6,7 @@ tags:
   - buildings
   - config
 depends:
+  - name: MakingHistory-DLC
   - name: ModuleManager
   - name: KerbalKonstructs
   - name: OffShoreLaunchPlatform
