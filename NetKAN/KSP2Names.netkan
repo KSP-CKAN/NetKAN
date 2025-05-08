@@ -17,6 +17,6 @@ supports:
   - name: StationPartsExpansionRedux
   - name: CryoEngines
 install:
-  - find: KSP2-Names-main
+  - find_regexp: KSP2-?Names(-main)?
     install_to: GameData
     as: KSP2Names
