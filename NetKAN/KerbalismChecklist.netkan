@@ -1,0 +1,10 @@
+identifier: KerbalismChecklist
+$kref: '#/ckan/github/averageksp/KerbalismChecklist'
+---
+identifier: KerbalismChecklist
+$kref: '#/ckan/spacedock/3881'
+tags:
+  - config
+depends:
+  - name: Kerbalism
+  - name: KerbalChecklists
