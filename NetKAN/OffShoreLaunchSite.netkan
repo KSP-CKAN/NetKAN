@@ -1,0 +1,20 @@
+identifier: OffShoreLaunchSite
+$kref: '#/ckan/spacedock/3863'
+$vref: '#/ckan/ksp-avc'
+x_netkan_version_edit: '^(?<version>[^ ]+) .*$'
+tags:
+  - buildings
+  - config
+depends:
+  - name: MakingHistory-DLC
+  - name: ModuleManager
+  - name: KerbalKonstructs
+  - name: OffShoreLaunchPlatform
+  - name: KerbinSideCore
+  - name: KerbinSideRemastered
+  - name: TundraSpaceCenter
+  - name: AuroraSpaceCenter
+install:
+  - find_regexp: Offshore-?LaunchSite(-main)?
+    install_to: GameData
+    as: OffShoreLaunchSite
