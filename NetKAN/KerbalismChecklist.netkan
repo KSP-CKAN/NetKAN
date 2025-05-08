@@ -6,5 +6,5 @@ $kref: '#/ckan/spacedock/3881'
 tags:
   - config
 depends:
- - name: Kerbalism
- - name: KerbalChecklists
+  - name: Kerbalism
+  - name: KerbalChecklists
