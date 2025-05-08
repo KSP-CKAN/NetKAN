@@ -1,9 +1,13 @@
 identifier: OffShoreLaunchSite
 $kref: '#/ckan/spacedock/3863'
+$vref: '#/ckan/ksp-avc'
+x_netkan_version_edit: '^(?<version>[^ ]+) .*$'
 tags:
   - buildings
   - config
 depends:
   - name: ModuleManager
   - name: KerbalKonstructs
-x_via: Automated SpaceDock CKAN submission
+install:
+  - find_regexp: Offshore-?LaunchSite(-main)?
+    install_to: GameData
