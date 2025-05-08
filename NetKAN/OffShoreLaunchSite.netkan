@@ -8,6 +8,11 @@ tags:
 depends:
   - name: ModuleManager
   - name: KerbalKonstructs
+  - name: OffShoreLaunchPlatform
+  - name: KerbinSideCore
+  - name: KerbinSideRemastered
+  - name: TundrasSpaceCenter
+  - name: AuroraSpaceCenter
 install:
   - find_regexp: Offshore-?LaunchSite(-main)?
     install_to: GameData
