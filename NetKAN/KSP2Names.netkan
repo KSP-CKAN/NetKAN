@@ -6,6 +6,8 @@ tags:
   - config
 depends:
   - name: ModuleManager
+recommends:
+  - name: CommunityPartsTitles
 install:
   - find: KSP2-Names-main
     install_to: GameData
