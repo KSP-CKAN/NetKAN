@@ -11,3 +11,4 @@ depends:
 install:
   - find_regexp: Offshore-?LaunchSite(-main)?
     install_to: GameData
+    as: OffShoreLaunchSite
