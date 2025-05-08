@@ -1,6 +1,6 @@
 identifier: KSP2Names
 $kref: '#/ckan/spacedock/3880'
-x_netkan_version_edit: ^(?<version>[^ ]+)
+x_netkan_version_edit: '^(?<version>[^ ]+) .*$'
 $vref: '#/ckan/ksp-avc'
 tags:
   - config
@@ -8,6 +8,14 @@ depends:
   - name: ModuleManager
 recommends:
   - name: CommunityPartsTitles
+supports:
+  - name: ReStockPlus
+  - name: NearFutureSpacecraft
+  - name: NearFutureLaunchVehicles
+  - name: NearFutureExploration
+  - name: B9ProceduralWings
+  - name: StationPartsExpansionRedux 
+  - name: CryoEngines
 install:
   - find: KSP2-Names-main
     install_to: GameData
