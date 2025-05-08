@@ -1,8 +1,8 @@
 identifier: KSP2Names
 $kref: '#/ckan/spacedock/3880'
+x_netkan_version_edit: ^(?<version>[^ ]+)
 $vref: '#/ckan/ksp-avc'
 tags:
   - config
 depends:
   - name: ModuleManager
-x_via: Automated SpaceDock CKAN submission
