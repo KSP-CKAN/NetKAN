@@ -1,0 +1,11 @@
+identifier: OkemsTUFXProfiles
+$kref: '#/ckan/spacedock/3832'
+tags:
+  - config
+  - graphics
+depends:
+  - name: TUFX
+install:
+  - find: OkemTUFX
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
