@@ -7,8 +7,8 @@ depends:
   - name: ModuleManager
   - name: Kopernicus
   - name: VertexHeightOblateAdvanced
-supports:
-  - name: Scatter
+suggests:
+  - name: Scatterer
   - name: EnvironmentalVisualEnhancements
 install:
   - find: Porp
