@@ -10,3 +10,6 @@ depends:
 suggests:
   - name: EnvironmentalVisualEnhancements
   - name: Scatterer
+install:
+  - find: Tide
+    install_to: GameData
