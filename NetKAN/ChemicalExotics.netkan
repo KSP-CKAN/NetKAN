@@ -12,4 +12,7 @@ depends:
   - name: B9PartSwitch
   - name: ChemicalCore
   - name: CommunityResourcePack
+supports:
+  - name: ChemicalPropulsion
+  - name: ChemicalCore
 x_via: Automated SpaceDock CKAN submission
