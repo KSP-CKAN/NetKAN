@@ -1,0 +1,13 @@
+identifier: ChemicalCore
+$kref: '#/ckan/github/CharleRoger/ChemicalCore'
+$vref: '#/ckan/ksp-avc'
+---
+identifier: ChemicalCore
+$kref: '#/ckan/spacedock/3865'
+$vref: '#/ckan/ksp-avc'
+tags:
+  - parts
+depends:
+  - name: ModuleManager
+  - name: B9PartSwitch
+x_via: Automated SpaceDock CKAN submission
