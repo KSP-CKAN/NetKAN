@@ -2,6 +2,7 @@ identifier: KiwiOrbitalDesignsServices
 $kref: '#/ckan/github/nolifejordan/Kiwi-Orbital-Designs-Systems'
 x_netkan_github:
   use_source_archive: true
+x_netkan_verison_edit: '^v(?<version>.*)$'
 license: restricted
 tags:
   - parts
