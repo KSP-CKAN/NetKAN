@@ -7,6 +7,8 @@ $kref: '#/ckan/spacedock/3868'
 $vref: '#/ckan/ksp-avc'
 tags:
   - plugin
+depends:
+  - name: ModuleManager
 install:
   - find: Ignition
     install_to: GameData
