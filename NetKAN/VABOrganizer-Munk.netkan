@@ -6,6 +6,14 @@ tags:
 depends:
   - name: ModuleManager
   - name: VABOrganizer
+supports:
+  - name: Benjee10-SharedAssets
+  - name: ConformalDecals
+  - name: ExtraPlanetaryLaunchpads
+  - name: KAS
+  - name: KIS
+  - name: KerbalGPS
+  - name: TACLS
 install:
   - find_regexp: Munks-?Fixes(-main)?
     install_to: GameData
