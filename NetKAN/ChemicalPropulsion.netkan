@@ -12,6 +12,7 @@ depends:
   - name: B9PartSwitch
   - name: Ignition
   - name: ChemicalCore
+  - name: CommunityResourcePack
 supports:
   - name: CryoTanks
   - name: CryoEngines
