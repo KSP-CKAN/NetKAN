@@ -10,4 +10,15 @@ tags:
 depends:
   - name: ModuleManager
   - name: B9PartSwitch
+  - name: Ignition
+  - name: ChemicalCore
+supports:
+  - name: CryoTanks
+  - name: CryoEngines
+  - name: KerbalAtomics
+  - name: Labradoodle
+  - name: MissingHistory
+  - name: Mk-33
+  - name: NearFutureAeronautics
+  - name: ReStockPlus
 x_via: Automated SpaceDock CKAN submission
