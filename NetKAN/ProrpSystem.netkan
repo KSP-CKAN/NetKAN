@@ -11,6 +11,6 @@ suggests:
   - name: Scatterer
   - name: EnvironmentalVisualEnhancements
 install:
-  - find: Prorp
+  - find: Porp
     install_to: GameData
 x_via: Automated SpaceDock CKAN submission
