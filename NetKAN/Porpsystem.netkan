@@ -6,6 +6,10 @@ tags:
 depends:
   - name: ModuleManager
   - name: Kopernicus
+  - name: VertexHeightOblateAdvanced
+supports:
+  - name: Scatter
+  - name: EnvironmentalVisualEnhancements
 install:
   - find: Porp
     install_to: GameData
