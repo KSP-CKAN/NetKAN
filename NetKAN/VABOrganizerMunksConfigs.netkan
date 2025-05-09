@@ -1,4 +1,4 @@
-identifier: VABOrganizerMunksConfigs
+identifier: VABOrganizer-Munk
 $kref: '#/ckan/spacedock/3873'
 tags:
   - config
@@ -8,4 +8,3 @@ depends:
 install:
   - find: MunksFixes
     install_to: GameData
-x_via: Automated SpaceDock CKAN submission
