@@ -9,4 +9,5 @@ tags:
   - parts
 depends:
   - name: ModuleManager
+  - name: B9PartSwitch
 x_via: Automated SpaceDock CKAN submission
