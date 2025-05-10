@@ -1,16 +1,9 @@
 identifier: KerbalismLabExperimentsExpandedContinued
 $kref: '#/ckan/github/johnabsher/KerbalismLabExperimentsExpandedContinued'
-x_netkan_version_edit:
-  find: ^v
-  replace: ''
-  strict: false
+x_netkan_version_edit: '^v?(?<version>.*)$'
 ---
 identifier: KerbalismLabExperimentsExpandedContinued
 $kref: '#/ckan/spacedock/3883'
-x_netkan_version_edit:
-  find: ^v
-  replace: ''
-  strict: false
 tags:
   - config
   - plugin
