@@ -13,7 +13,6 @@ tags:
 depends:
   - name: ModuleManager
   - name: Kerbalism
-  - name: Kerbalism-Config-ScienceOnly
 supports:
   - name: StationPartsExpansionRedux
   - name: SpaceDust
