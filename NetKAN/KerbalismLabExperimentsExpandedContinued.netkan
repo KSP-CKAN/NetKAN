@@ -1,8 +1,8 @@
 identifier: KerbalismLabExperimentsExpandedContinued
 $kref: '#/ckan/github/johnabsher/KerbalismLabExperimentsExpandedContinued'
 x_netkan_version_edit:
-  find: ^v
-  replace: ''
+  find: ^[vV]?(?<version>.+)$
+  replace: ${version}
   strict: true
 ---
 identifier: KerbalismLabExperimentsExpandedContinued
