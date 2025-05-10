@@ -13,6 +13,10 @@ tags:
 depends:
   - name: ModuleManager
   - name: Kerbalism
+  - name: Kerbalism-Config-ScienceOnly
+supports:
+  - name: StationPartsExpansionRedux
+  - name: SpaceDust
 install:
   - find: KerbalismLabExperimentsExpandedContinued
     install_to: GameData
