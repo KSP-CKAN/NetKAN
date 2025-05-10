@@ -5,7 +5,6 @@ tags:
   - planet-pack
 depends:
   - name: ModuleManager
-  - name: Kopernicus
 install:
   - find: Avala
     install_to: GameData
