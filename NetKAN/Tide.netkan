@@ -4,7 +4,6 @@ tags:
   - config
   - planet-pack
 depends:
-  - name: ModuleManager
   - name: Kopernicus
   - name: VertexMitchellNetravaliHeightMap
 suggests:
