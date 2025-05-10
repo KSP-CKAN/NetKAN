@@ -12,6 +12,7 @@ tags:
   - plugin
 depends:
   - name: ModuleManager
+  - name: Kerbalism
 install:
   - find: KerbalismLabExperimentsExpandedContinued
     install_to: GameData
