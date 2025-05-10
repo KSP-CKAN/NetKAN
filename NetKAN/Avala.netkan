@@ -1,0 +1,10 @@
+identifier: Avala
+$kref: '#/ckan/spacedock/3872'
+tags:
+  - config
+  - planet-pack
+depends:
+  - name: Kopernicus
+install:
+  - find: Avala
+    install_to: GameData
