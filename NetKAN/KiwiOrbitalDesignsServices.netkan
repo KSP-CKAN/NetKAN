@@ -1,5 +1,8 @@
 identifier: KiwiOrbitalDesignsServices
-$kref: '#/ckan/spacedock/3602'
+$kref: '#/ckan/github/nolifejordan/Kiwi-Orbital-Designs-Systems'
+x_netkan_github:
+  use_source_archive: true
+x_netkan_version_edit: '^v(?<version>.*)$'
 license: restricted
 tags:
   - parts
