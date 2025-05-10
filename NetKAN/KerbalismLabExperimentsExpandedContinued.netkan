@@ -4,8 +4,8 @@ $kref: '#/ckan/github/johnabsher/KerbalismLabExperimentsExpandedContinued'
 identifier: KerbalismLabExperimentsExpandedContinued
 $kref: '#/ckan/spacedock/3883'
 x_netkan_version_edit:
-  find: ^[vV]?(?<version>.+)$
-  replace: ${version}
+  find: ^v
+  replace: ''
   strict: true
 tags:
   - config
