@@ -1,0 +1,16 @@
+identifier: ProrpSystem
+$kref: '#/ckan/spacedock/3879'
+tags:
+  - config
+  - planet-pack
+depends:
+  - name: ModuleManager
+  - name: Kopernicus
+  - name: VertexHeightOblateAdvanced
+suggests:
+  - name: Scatterer
+  - name: EnvironmentalVisualEnhancements
+install:
+  - find: Porp
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
