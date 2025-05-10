@@ -1,0 +1,11 @@
+identifier: HealingSentrysTUFXProfile
+$kref: '#/ckan/spacedock/3882'
+tags:
+  - config
+  - graphics
+depends:
+  - name: TUFX
+install:
+  - find: HealingTUFXProfiles
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
