@@ -1,0 +1,15 @@
+identifier: Tide
+$kref: '#/ckan/spacedock/3876'
+tags:
+  - config
+  - planet-pack
+depends:
+  - name: ModuleManager
+  - name: Kopernicus
+  - name: VertexMitchellNetravaliHeightMap
+suggests:
+  - name: EnvironmentalVisualEnhancements
+  - name: Scatterer
+install:
+  - find: Tide
+    install_to: GameData
