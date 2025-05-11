@@ -16,6 +16,8 @@ depends:
 supports:
   - name: StationPartsExpansionRedux
   - name: SpaceDust
+  - name: ReStock
+  - name: ReStockPlus
 install:
   - find: KerbalismLabExperimentsExpandedContinued
     install_to: GameData
