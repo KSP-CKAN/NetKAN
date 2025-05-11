@@ -18,6 +18,8 @@ supports:
   - name: SpaceDust
   - name: ReStock
   - name: ReStockPlus
+recommends:
+  - name: SCANsat
 install:
   - find: KerbalismLabExperimentsExpandedContinued
     install_to: GameData
