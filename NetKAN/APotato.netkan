@@ -6,6 +6,8 @@ tags:
 depends:
   - name: ModuleManager
   - name: Kopernicus
+  - name: Harmony2
+  - name: AdvancedPQSTools
 install:
   - find: MangoTech
     install_to: GameData
