@@ -1,0 +1,27 @@
+identifier: KerbalismLabExperimentsExpandedContinued
+$kref: '#/ckan/github/johnabsher/KerbalismLabExperimentsExpandedContinued'
+x_netkan_version_edit:
+  find: ^v
+  replace: ''
+  strict: false
+---
+identifier: KerbalismLabExperimentsExpandedContinued
+$kref: '#/ckan/spacedock/3883'
+tags:
+  - config
+  - plugin
+depends:
+  - name: ModuleManager
+  - name: Kerbalism
+supports:
+  - name: StationPartsExpansionRedux
+  - name: SpaceDust
+  - name: ReStock
+  - name: ReStockPlus
+recommends:
+  - name: SCANsat
+install:
+  - find: KerbalismLabExperimentsExpandedContinued
+    install_to: GameData
+    filter_regexp: \.pdb$
+x_via: Automated SpaceDock CKAN submission

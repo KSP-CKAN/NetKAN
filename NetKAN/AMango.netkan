@@ -1,0 +1,15 @@
+identifier: AMango
+$kref: '#/ckan/spacedock/3887'
+tags:
+  - config
+  - planet-pack
+depends:
+  - name: ModuleManager
+  - name: Kopernicus
+  - name: Harmony2
+  - name: AdvancedPQSTools
+  - name: KSPCommunityFixes
+install:
+  - find: MangoTech
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
