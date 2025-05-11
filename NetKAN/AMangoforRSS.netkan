@@ -6,6 +6,10 @@ tags:
 depends:
   - name: ModuleManager
   - name: Kopernicus
+  - name: RealSolarSystem
+  - name: Harmony2
+  - name: AdvancedPQSTools
+  - name: KSPCommunityFixes
 install:
   - find: MangoTech
     install_to: GameData
