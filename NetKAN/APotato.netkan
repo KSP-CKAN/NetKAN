@@ -9,5 +9,5 @@ depends:
   - name: AdvancedPQSTools
   - name: KSPCommunityFixes
 install:
-  - find: APotato
+  - find: MangoTech
     install_to: GameData
