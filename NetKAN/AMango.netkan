@@ -1,0 +1,12 @@
+identifier: AMango
+$kref: '#/ckan/spacedock/3887'
+tags:
+  - config
+  - planet-pack
+depends:
+  - name: ModuleManager
+  - name: Kopernicus
+install:
+  - find: MangoTech
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
