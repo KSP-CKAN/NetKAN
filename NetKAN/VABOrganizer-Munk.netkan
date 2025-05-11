@@ -2,6 +2,7 @@ identifier: VABOrganizer-Munk
 $kref: '#/ckan/github/munktron239/Munks-Fixes'
 x_netkan_github:
   use_source_archive: true
+x_netkan_version_edit: '^v(?<version>.+)$'
 $vref: '#/ckan/ksp-avc'
 ---
 identifier: VABOrganizer-Munk
