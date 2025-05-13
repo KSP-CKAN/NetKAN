@@ -1,15 +1,11 @@
 identifier: VABoPrunes
 $kref: '#/ckan/spacedock/3890'
-$vref: '#/ckan/ksp-avc'
+comment: The .version files are from bundled mods
 tags:
   - config
-  - crewed
-  - first-person
-  - plugin
 depends:
   - name: ModuleManager
 install:
-  - find: ''
+  - find: Prunes
     install_to: GameData
     filter_regexp: \.pdb$
-x_via: Automated SpaceDock CKAN submission
