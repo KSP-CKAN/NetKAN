@@ -6,6 +6,9 @@ tags:
 depends:
   - name: ModuleManager
 install:
-  - find: Prunes
-    install_to: GameData
+  - find: VABoPrunes
+    install_to: GameData/Prunes
     filter_regexp: \.pdb$
+  - find: ABOUT VABoPrunes.txt
+    find_matches_files: true
+    install_to: GameData/Prunes
