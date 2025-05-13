@@ -1,13 +1,11 @@
 identifier: CCKConfigToolsPrunes
 $kref: '#/ckan/spacedock/3891'
-$vref: '#/ckan/ksp-avc'
+comment: The .version file is from a bundled mod
 tags:
   - config
-  - plugin
 depends:
   - name: ModuleManager
 install:
-  - find: ''
+  - find: Prunes
     install_to: GameData
     filter_regexp: \.pdb$
-x_via: Automated SpaceDock CKAN submission
