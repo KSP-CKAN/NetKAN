@@ -1,0 +1,13 @@
+identifier: ISO-7010-Decals
+name: ISO 7010 Decals
+abstract: ISO 7010 signs as flags, to be used with Conformal Decals
+$kref: '#/ckan/github/DIYLabsED/ksp-iso-7010-decals'
+license: public-domain
+tags:
+  - flags
+  - graphics
+recommends:
+  - name: ConformalDecals
+install:
+  - find_regexp: ksp-iso-7010-decals.*
+    install_to: GameData
