@@ -1,0 +1,14 @@
+identifier: DockingModuleStageButtonHider
+name: Docking Module Stage Button Hider
+abstract: >-
+  Hides enable staging option from configured docking ports
+$kref: '#/ckan/github/coldrifting/DockingModuleStageButtonHider'
+ksp_version_min: '1.8'
+ksp_version_max: '1.12'
+license: MIT
+resources:
+  homepage: https://github.com/coldrifting/DockingModuleStageButtonHider
+tags:
+  - plugin
+depends:
+  - name: Harmony2
