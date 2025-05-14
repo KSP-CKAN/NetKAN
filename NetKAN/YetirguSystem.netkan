@@ -1,0 +1,10 @@
+identifier: YetirguSystem
+$kref: '#/ckan/spacedock/3889'
+tags:
+  - planet-pack
+depends:
+  - name: ModuleManager
+  - name: Kopernicus
+install:
+  - find: Yetirgu
+    install_to: GameData
