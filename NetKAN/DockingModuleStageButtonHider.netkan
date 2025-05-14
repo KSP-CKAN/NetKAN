@@ -10,3 +10,5 @@ resources:
   homepage: https://github.com/coldrifting/DockingModuleStageButtonHider
 tags:
   - plugin
+depends:
+  - name: Harmony2
