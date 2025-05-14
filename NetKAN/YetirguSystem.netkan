@@ -1,7 +1,6 @@
 identifier: YetirguSystem
 $kref: '#/ckan/spacedock/3889'
 tags:
-  - config
   - planet-pack
 depends:
   - name: ModuleManager
