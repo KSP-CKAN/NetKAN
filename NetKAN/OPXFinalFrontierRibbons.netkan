@@ -1,0 +1,19 @@
+identifier: OPXFinalFrontierRibbons
+name: OPX Final Frontier Ribbons
+$kref: '#/ckan/github/arbsoup/OPXFinalFrontierRibbons'
+ksp_version: 1.12.5
+license: CC-BY-NC-4.0
+resources:
+  license: https://github.com/arbsoup/OPXFinalFrontierRibbons/blob/main/LICENSE.md
+  manual: https://github.com/arbsoup/OPXFinalFrontierRibbons/blob/main/README.md
+  homepage: https://forum.kerbalspaceprogram.com/topic/227896-*
+tags:
+  - config
+  - crewed
+depends:
+  - name: FinalFrontier
+supports:
+  - name: OPX-JoolPlus
+  - name: OPX-SarnusPlus
+  - name: OPX-UrlumPlus
+  - name: NeidonPlus
