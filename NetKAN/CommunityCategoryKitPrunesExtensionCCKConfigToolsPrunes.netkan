@@ -1,0 +1,13 @@
+identifier: CommunityCategoryKitPrunesExtensionCCKConfigToolsPrunes
+$kref: '#/ckan/spacedock/3891'
+$vref: '#/ckan/ksp-avc'
+tags:
+  - config
+  - plugin
+depends:
+  - name: ModuleManager
+install:
+  - find: ''
+    install_to: GameData
+    filter_regexp: \.pdb$
+x_via: Automated SpaceDock CKAN submission
