@@ -1,6 +1,6 @@
 identifier: VABOrganizer-Munk
 $kref: '#/ckan/spacedock/3873'
-x_netkan_version_edit: '^(?<version>[^ ]+) .*$'
+x_netkan_version_edit: '^(?<version>[^ ]+).*$'
 $vref: '#/ckan/ksp-avc'
 tags:
   - config
