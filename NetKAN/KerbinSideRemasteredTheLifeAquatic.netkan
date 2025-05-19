@@ -1,0 +1,50 @@
+identifier: KerbinSideRemasteredTheLifeAquatic
+$kref: '#/ckan/github/caerfinon/KerbinSideRemasteredTLA'
+x_netkan_version_edit:
+  find: ^v
+  replace: ''
+  strict: false
+---
+identifier: KerbinSideRemasteredTheLifeAquatic
+$kref: '#/ckan/spacedock/2808'
+tags:
+  - buildings
+  - career
+  - crewed
+  - first-person
+  - parts
+depends:
+  - name: ModuleManager
+  - name: KerbalKonstructs
+  - name: ContractConfigurator
+install:
+  - find: ContractPacks
+    install_to: GameData
+    filter: .gitignore
+    filter_regexp: \.craft$
+  - file: 
+      KerbinSideRemasteredTLA-2.0.0/GameData/ContractPacks/KerbinSideRemasteredTLA/Assets/Ships/Bayou
+      Fishing Boat disabled.craft
+    install_to: Ships/SPH
+  - file: 
+      KerbinSideRemasteredTLA-2.0.0/GameData/ContractPacks/KerbinSideRemasteredTLA/Assets/Ships/DaySailer
+      disabled.craft
+    install_to: Ships/SPH
+  - file: 
+      KerbinSideRemasteredTLA-2.0.0/GameData/ContractPacks/KerbinSideRemasteredTLA/Assets/Ships/LargeWreck.craft
+    install_to: Ships/SPH
+  - file: 
+      KerbinSideRemasteredTLA-2.0.0/GameData/ContractPacks/KerbinSideRemasteredTLA/Assets/Ships/MeduimWreck.craft
+    install_to: Ships/SPH
+  - file: 
+      KerbinSideRemasteredTLA-2.0.0/GameData/ContractPacks/KerbinSideRemasteredTLA/Assets/Ships/Pontoon
+      disabled.craft
+    install_to: Ships/SPH
+  - file: 
+      KerbinSideRemasteredTLA-2.0.0/GameData/ContractPacks/KerbinSideRemasteredTLA/Assets/Ships/Powerboat
+      disabled.craft
+    install_to: Ships/SPH
+  - file: 
+      KerbinSideRemasteredTLA-2.0.0/GameData/ContractPacks/KerbinSideRemasteredTLA/Assets/Ships/SmallWreck.craft
+    install_to: Ships/SPH
+x_via: Automated SpaceDock CKAN submission
