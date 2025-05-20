@@ -1,4 +1,7 @@
 identifier: KolonyConstructs
+$kref: '#/ckan/github/Lonelykermit/Kolony-Constructs'
+---
+identifier: KolonyConstructs
 $kref: '#/ckan/spacedock/3704'
 tags:
   - buildings
@@ -8,7 +11,7 @@ tags:
 depends:
   - name: ModuleManager
   - name: KerbalKonstructs
-  - name: StationPartsExpansionRedux
+  - name: B9PartSwitch
 recommends:
   - name: PlanetsideExplorationTechnologies
   - name: StockalikeStructures
