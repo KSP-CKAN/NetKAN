@@ -14,5 +14,5 @@ recommends:
   - name: DMagicOrbitalScience
   - name: SCANsat
 install:
-  - file: CoatlAerospace
+  - find: CoatlAerospace
     install_to: GameData
