@@ -6,6 +6,8 @@ tags:
 depends:
   - name: ModuleManager
   - name: B9PartSwitch
+  - name: FirespitterCore
+  - name: DMagicScienceAnimate
 install:
   - find: Coatl-Aerospace-Redux-0.18.0.0
     install_to: GameData
