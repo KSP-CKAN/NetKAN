@@ -1,20 +1,10 @@
 identifier: Coatl-Aerospace-Redux
-$kref: '#/ckan/github/PadroneSF/Coatl-Aerospace-Redux'
+$kref: '#/ckan/spacedock/3893'
 $vref: '#/ckan/ksp-avc'
-release_status: testing
-resources:
-  bugtracker: https://github.com/PadroneSF/Coatl-Aerospace-Redux/issues
-  homepage: >-
-    https://forum.kerbalspaceprogram.com/topic/227937-coatl-aerospace-redux-v01800-05192025/
-  repository: https://github.com/PadroneSF/Coatl-Aerospace-Redux/releases/
 tags:
   - parts
   - science
   - uncrewed
-install:
-  - file: CoatlAerospace
-    install_to: GameData
-ksp_version: 1.12.5
 depends:
   - name: B9PartSwitch
   - name: FirespitterCore
@@ -23,3 +13,6 @@ depends:
 recommends:
   - name: DMagicOrbitalScience
   - name: SCANsat
+install:
+  - file: CoatlAerospace
+    install_to: GameData
