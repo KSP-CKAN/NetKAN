@@ -21,6 +21,6 @@ install:
   - find: ContractPacks
     install_to: GameData
     filter: .gitignore
-  - find: Ships/Bayou
+  - find: Ships
     install_to: Ships
     as: SPH
