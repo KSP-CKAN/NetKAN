@@ -20,9 +20,7 @@ depends:
 install:
   - find: ContractPacks
     install_to: GameData
-    filter:
-      - .gitignore
-      - Ships
+    filter: .gitignore
   - find: Ships/Bayou
     install_to: Ships
     as: SPH
