@@ -3,6 +3,6 @@ $kref: '#/ckan/spacedock/3895'
 tags:
   - parts
 depends:
-  - B9PartSwitch
-  - ModuleManager
+  - name: B9PartSwitch
+  - name: ModuleManager
 x_via: Automated SpaceDock CKAN submission
