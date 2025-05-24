@@ -1,22 +1,21 @@
-{
-    "identifier":   "KerbalFoundriesContinued",
-    "$kref":        "#/ckan/github/shadowmage45/KerbalFoundries2",
-    "$vref":        "#/ckan/ksp-avc",
-    "license":      "CC-BY-NC-SA-4.0",
-    "depends": [
-        { "name": "KSPWheel"          },
-        { "name": "ModuleManager"     },
-        { "name": "TexturesUnlimited" }
-    ],
-    "resources": {
-        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/155056-*"
-    },
-    "tags": [
-        "plugin",
-        "parts"
-    ],
-    "install": [ {
-        "find":       "KerbalFoundries",
-        "install_to": "GameData"
-    } ]
-}
+identifier: KerbalFoundriesContinued
+name: Kerbal Foundries Continued
+abstract: Better wheels and anti-gravity repulsors
+author:
+  - lo-fi
+  - shadowmage45
+$kref: '#/ckan/github/shadowmage45/KerbalFoundries2'
+$vref: '#/ckan/ksp-avc'
+license: CC-BY-NC-SA-4.0
+resources:
+  homepage: https://forum.kerbalspaceprogram.com/index.php?/topic/155056-*
+tags:
+  - plugin
+  - parts
+depends:
+  - name: KSPWheel
+  - name: ModuleManager
+  - name: TexturesUnlimited
+install:
+  - find: KerbalFoundries
+    install_to: GameData
