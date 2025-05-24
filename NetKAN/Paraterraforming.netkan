@@ -9,3 +9,6 @@ tags:
   - resources
 depends:
   - name: ModuleManager
+  - name: KerbalKonstructs
+  - name: PhysicsRangeExtender
+  - name: B9PartSwitch
