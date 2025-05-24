@@ -10,6 +10,7 @@ depends:
   - name: KerbalKonstructs
   - name: CustomPreLaunchChecks
   - name: ClickThroughBlocker
+  - name: ExtraPlanetaryLaunchpads
 install:
   - find: KerbalColonies
     install_to: GameData
