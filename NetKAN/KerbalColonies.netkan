@@ -8,7 +8,7 @@ tags:
 depends:
   - name: ModuleManager
   - name: KerbalKonstructs
-  - name: CustomPreLaunchCkecks
+  - name: CustomPreLaunchChecks
 install:
   - find: KerbalColonies
     install_to: GameData
