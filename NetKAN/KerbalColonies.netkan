@@ -1,0 +1,15 @@
+identifier: KerbalColonies
+$kref: '#/ckan/spacedock/3896'
+$vref: '#/ckan/ksp-avc'
+tags:
+  - buildings
+  - config
+  - plugin
+depends:
+  - name: ModuleManager
+  - name: KerbalKonstructs
+install:
+  - find: KerbalColonies
+    install_to: GameData
+    filter_regexp: \.pdb$
+x_via: Automated SpaceDock CKAN submission
