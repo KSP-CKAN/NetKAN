@@ -4,6 +4,11 @@ $kref: '#/ckan/kerbalstuff/58'
 author: lo-fi
 x_netkan_epoch: 2
 license: GPL-3.0
+tags:
+  - plugin
+  - parts
+depends:
+  - name: ModuleManager
 recommends:
   - name: TweakScale
 x_netkan_override:
