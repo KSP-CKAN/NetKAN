@@ -12,6 +12,10 @@ resources:
 tags:
   - plugin
   - parts
+provides:
+  - KerbalFoundries
+conflicts:
+  - name: KerbalFoundries
 depends:
   - name: KSPWheel
   - name: ModuleManager
