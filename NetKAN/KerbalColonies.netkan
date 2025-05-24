@@ -1,4 +1,7 @@
 identifier: KerbalColonies
+$kref: '#/ckan/github/AMPW-german/KerbalColonies'
+---
+identifier: KerbalColonies
 $kref: '#/ckan/spacedock/3896'
 $vref: '#/ckan/ksp-avc'
 tags:
@@ -11,8 +14,3 @@ depends:
   - name: CustomPreLaunchChecks
   - name: ClickThroughBlocker
   - name: ExtraPlanetaryLaunchpads
-install:
-  - find: KerbalColonies
-    install_to: GameData
-    filter_regexp: \.pdb$
-x_via: Automated SpaceDock CKAN submission
