@@ -9,6 +9,7 @@ depends:
   - name: ModuleManager
   - name: KerbalKonstructs
   - name: CustomPreLaunchChecks
+  - name: ClickThroughBlocker
 install:
   - find: KerbalColonies
     install_to: GameData
