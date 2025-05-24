@@ -1,5 +1,6 @@
 identifier: KerbalColonies
 $kref: '#/ckan/github/AMPW-german/KerbalColonies'
+$vref: '#/ckan/ksp-avc'
 ---
 identifier: KerbalColonies
 $kref: '#/ckan/spacedock/3896'
@@ -15,3 +16,4 @@ depends:
   - name: ClickThroughBlocker
   - name: ExtraPlanetaryLaunchpads
   - name: StockalikeStructures
+  - name: Paraterraforming
