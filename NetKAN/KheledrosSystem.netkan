@@ -1,0 +1,10 @@
+identifier: KheledrosSystem
+$kref: '#/ckan/spacedock/3898'
+tags:
+  - config
+  - planet-pack
+depends:
+  - name: ModuleManager
+  - name: Kopernicus
+  - name: VertexMitchellNetravaliHeightMap
+  - name: VertexColorMapEmissive
