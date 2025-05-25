@@ -1,0 +1,6 @@
+identifier: GravityIssue
+$kref: '#/ckan/spacedock/3895'
+tags:
+  - parts
+depends:
+  - name: B9PartSwitch
