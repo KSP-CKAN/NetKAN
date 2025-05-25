@@ -3,6 +3,7 @@ $kref: '#/ckan/github/averageksp/KerbalChecklists'
 ---
 identifier: KerbalChecklists
 $kref: '#/ckan/spacedock/3855'
+$vref: '#/ckan/ksp-avc'
 tags:
   - plugin
 depends:
