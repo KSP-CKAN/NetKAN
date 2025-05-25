@@ -2,4 +2,6 @@ identifier: GravityIssue
 $kref: '#/ckan/spacedock/3895'
 tags:
   - parts
-x_via: Automated SpaceDock CKAN submission
+depends:
+  - name: B9PartSwitch
+  - name: ModuleManager
