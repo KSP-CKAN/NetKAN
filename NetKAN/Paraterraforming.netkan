@@ -1,0 +1,14 @@
+identifier: Paraterraforming
+$kref: '#/ckan/github/InfoTheGamer/Paraterraforming'
+x_netkan_version_edit: '^v?(?<version>.*)$'
+---
+identifier: Paraterraforming
+$kref: '#/ckan/spacedock/3066'
+tags:
+  - parts
+  - resources
+depends:
+  - name: ModuleManager
+  - name: KerbalKonstructs
+  - name: PhysicsRangeExtender
+  - name: B9PartSwitch

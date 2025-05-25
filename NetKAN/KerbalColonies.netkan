@@ -1,0 +1,19 @@
+identifier: KerbalColonies
+$kref: '#/ckan/github/AMPW-german/KerbalColonies'
+$vref: '#/ckan/ksp-avc'
+---
+identifier: KerbalColonies
+$kref: '#/ckan/spacedock/3896'
+$vref: '#/ckan/ksp-avc'
+tags:
+  - buildings
+  - config
+  - plugin
+depends:
+  - name: ModuleManager
+  - name: KerbalKonstructs
+  - name: CustomPreLaunchChecks
+  - name: ClickThroughBlocker
+  - name: ExtraPlanetaryLaunchpads
+  - name: StockalikeStructures
+  - name: Paraterraforming
