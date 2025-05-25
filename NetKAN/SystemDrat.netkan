@@ -1,0 +1,13 @@
+identifier: SystemDrat
+$kref: '#/ckan/spacedock/3897'
+tags:
+  - config
+  - planet-pack
+depends:
+  - name: ModuleManager
+  - name: Kopernicus
+  - name: VertexHeightOblateAdvanced
+install:
+  - find: SD
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
