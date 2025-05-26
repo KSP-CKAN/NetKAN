@@ -1,9 +1,5 @@
 identifier: KerbalColoniesExtraplanetaryLaunchpadsConfig
 $kref: '#/ckan/github/AMPW-german/KerbalColonies-ExtraplanetaryLaunchpadsConfig'
-x_netkan_version_edit:
-  find: ^v
-  replace: ''
-  strict: false
 $vref: '#/ckan/ksp-avc'
 ---
 identifier: KerbalColoniesExtraplanetaryLaunchpadsConfig
@@ -20,4 +16,3 @@ depends:
 install:
   - find: KerbalColonies
     install_to: GameData
-x_via: Automated SpaceDock CKAN submission
