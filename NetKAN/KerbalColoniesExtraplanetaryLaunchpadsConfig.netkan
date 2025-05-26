@@ -1,0 +1,18 @@
+identifier: KerbalColoniesExtraplanetaryLaunchpadsConfig
+$kref: '#/ckan/github/AMPW-german/KerbalColonies-ExtraplanetaryLaunchpadsConfig'
+$vref: '#/ckan/ksp-avc'
+---
+identifier: KerbalColoniesExtraplanetaryLaunchpadsConfig
+$kref: '#/ckan/spacedock/3899'
+$vref: '#/ckan/ksp-avc'
+tags:
+  - buildings
+  - config
+depends:
+  - name: KerbalColonies
+  - name: ExtraPlanetaryLaunchpads
+  - name: StockalikeStructures
+  - name: Paraterraforming
+install:
+  - find: KerbalColonies
+    install_to: GameData
