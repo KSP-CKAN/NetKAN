@@ -13,9 +13,10 @@ tags:
   - buildings
   - config
 depends:
-  - name: ModuleManager
-  - name: KerbalKonstructs
   - name: KerbalColonies
+  - name: ExtraPlanetaryLaunchpads
+  - name: StockalikeStructures
+  - name: Paraterraforming
 install:
   - find: KerbalColonies
     install_to: GameData
