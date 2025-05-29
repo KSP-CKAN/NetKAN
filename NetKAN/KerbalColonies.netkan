@@ -18,4 +18,4 @@ depends:
   - name: CustomPreLaunchChecks
   - name: ClickThroughBlocker
 suggests:
-  - name: KerbalColonies-ExtraplanetaryLaunchpadsConfig
+  - name: KerbalColoniesExtraplanetaryLaunchpadsConfig
