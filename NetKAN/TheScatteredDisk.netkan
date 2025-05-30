@@ -10,3 +10,6 @@ tags:
 depends:
   - name: ModuleManager
   - name: Kopernicus
+install:
+  - find: the_scattered_disk
+    install_to: GameData
