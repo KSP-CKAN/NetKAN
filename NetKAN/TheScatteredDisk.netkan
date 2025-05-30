@@ -1,0 +1,15 @@
+identifier: TheScatteredDisk
+abstract: >-
+  An extreme outer solar system for the late game,
+  with a planet nine at the very edge
+$kref: '#/ckan/github/axolliam/the_scattered_disk'
+license: unknown
+tags:
+  - config
+  - planet-pack
+depends:
+  - name: ModuleManager
+  - name: Kopernicus
+install:
+  - find: the_scattered_disk
+    install_to: GameData
