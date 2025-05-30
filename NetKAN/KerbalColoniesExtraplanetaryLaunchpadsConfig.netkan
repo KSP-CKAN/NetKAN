@@ -1,5 +1,5 @@
 identifier: KerbalColoniesExtraplanetaryLaunchpadsConfig
-$kref: '#/ckan/github/AMPW-german/KerbalColonies-ExtraplanetaryLaunchpadsConfig'
+$kref: '#/ckan/github/KerbalColonies/KerbalColonies-ExtraplanetaryLaunchpadsConfig'
 $vref: '#/ckan/ksp-avc'
 ---
 identifier: KerbalColoniesExtraplanetaryLaunchpadsConfig
@@ -9,6 +9,7 @@ tags:
   - buildings
   - config
 depends:
+  - name: ModuleManager
   - name: KerbalColonies
   - name: ExtraPlanetaryLaunchpads
   - name: StockalikeStructures
