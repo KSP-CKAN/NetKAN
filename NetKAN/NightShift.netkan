@@ -14,3 +14,5 @@ tags:
   - graphics
 conflicts:
   - name: LightsOutRelit
+depends:
+  - name: Shabby
