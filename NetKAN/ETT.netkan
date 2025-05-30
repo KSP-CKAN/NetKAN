@@ -1,28 +1,18 @@
-{
-    "identifier":   "ETT",
-    "$kref":        "#/ckan/spacedock/199",
-    "x_netkan_epoch": "3",
-    "license":      "CC-BY-4.0",
-    "install": [ {
-        "find":       "ETT",
-        "install_to": "GameData"
-    } ],
-    "tags": [
-        "config",
-        "tech-tree"
-    ],
-    "depends": [
-        { "name": "ModuleManager" },
-        { "name": "YongeTechTreesPlugin" }
-    ],
-    "recommends":[
-        { "name": "DMagicOrbitalScience" }
-    ],
-    "suggests":[
-        { "name": "KSPInterstellarExtended" },
-        { "name": "FASA" },
-        { "name": "KWRocketry" },
-        { "name": "AIESAerospace-Unofficial" },
-        { "name": "Firespitter" }
-    ]
-}
+identifier: ETT
+$kref: '#/ckan/spacedock/199'
+x_netkan_version_edit: '^[vV]?(?<version>.*)$'
+license: CC-BY-4.0
+tags:
+  - config
+  - tech-tree
+depends:
+  - name: ModuleManager
+  - name: YongeTechTreesPlugin
+recommends:
+  - name: DMagicOrbitalScience
+suggests:
+  - name: KSPInterstellarExtended
+  - name: FASA
+  - name: KWRocketry
+  - name: AIESAerospace-Unofficial
+  - name: Firespitter
