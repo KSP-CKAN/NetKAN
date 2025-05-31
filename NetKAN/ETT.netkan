@@ -5,6 +5,8 @@ license: CC-BY-4.0
 tags:
   - config
   - tech-tree
+conflicts:
+  - name: ImprovedTreeEnginePlacement
 depends:
   - name: ModuleManager
   - name: YongeTechTreesPlugin
