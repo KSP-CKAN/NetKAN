@@ -1,5 +1,5 @@
 identifier: TourismOverhaul
-$kref: '#/ckan/github/iLikeGothMommys/TourismOverhaul'
+$kref: '#/ckan/github/iLikeGothMommys/TourismOverhaul/asset_match/^(?!.*Patch)'
 x_netkan_version_edit: ^Release(?<version>.+)$
 $vref: '#/ckan/ksp-avc'
 ---
