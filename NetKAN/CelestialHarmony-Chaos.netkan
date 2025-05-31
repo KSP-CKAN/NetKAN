@@ -16,6 +16,9 @@ depends:
   - name: ModuleManager
   - name: Kopernicus
   - name: CelestialHarmony
+suggests:
+  - name: Singularity
+  - name: KopernicusExpansion
 install:
   - find: CelestialHarmony
     install_to: GameData
