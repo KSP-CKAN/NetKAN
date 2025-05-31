@@ -20,8 +20,9 @@ depends:
   - name: VertexMitchellNetravaliHeightMap
   - name: VertexHeightOblateAdvanced
   - name: VertexColorMapEmissive
+recommends:
+  - name: CelestialHarmony-Chaos
 suggests:
   - name: EnvironmentalVisualEnhancements
   - name: Scatterer
   - name: Parallax
-  - name: CelestialHarmony-Chaos
