@@ -1,0 +1,21 @@
+identifier: CelestialHarmony-Chaos
+name: Celestial Harmony - Chaos
+abstract: >-
+  a brand new star system that isn't needed for Celestial Harmony to function
+  but strongly recommended if the user wants to profit off the whole mod
+  to please some low end hardware user for RAM usage
+$kref: '#/ckan/github/ProximaCentauri-star/Celestial-Harmony/asset_match/Chaos'
+x_netkan_epoch: 1
+x_netkan_version_edit: '^(Alpha-)?(?<version>.*)$'
+license: restricted
+tags:
+  - planet-pack
+provides:
+  - Scatterer-sunflare
+depends:
+  - name: ModuleManager
+  - name: Kopernicus
+  - name: CelestialHarmony
+install:
+  - find: CelestialHarmony
+    install_to: GameData

@@ -1,13 +1,10 @@
 identifier: CelestialHarmony
 abstract: >-
   A brand new star system set in the far future where Kerbals
-  have migrated towards a luxurious binary habitable worlds
-$kref: '#/ckan/github/ProximaCentauri-star/Celestial-Harmony'
+  have migrated towards luxurious binary habitable worlds
+$kref: '#/ckan/github/ProximaCentauri-star/Celestial-Harmony/asset_match/Harmonia'
 x_netkan_epoch: 1
-x_netkan_version_edit:
-  find: ^Alpha-
-  replace: ''
-  strict: false
+x_netkan_version_edit: '^(Alpha-)?(?<version>.*)$'
 license: restricted
 tags:
   - planet-pack
@@ -23,6 +20,8 @@ depends:
   - name: VertexMitchellNetravaliHeightMap
   - name: VertexHeightOblateAdvanced
   - name: VertexColorMapEmissive
+recommends:
+  - name: CelestialHarmony-Chaos
 suggests:
   - name: EnvironmentalVisualEnhancements
   - name: Scatterer
