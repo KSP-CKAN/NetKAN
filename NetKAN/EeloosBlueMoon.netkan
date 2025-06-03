@@ -4,9 +4,9 @@ tags:
   - config
   - planet-pack
 depends:
-  - name: ModuleManager
   - name: Kopernicus
+supports:
+  - name: Parallax
 install:
   - find: EM
     install_to: GameData
-x_via: Automated SpaceDock CKAN submission
