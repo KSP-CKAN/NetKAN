@@ -5,6 +5,7 @@ tags:
   - planet-pack
 depends:
   - name: Kopernicus
+  - name: ModuleManager
 suggests:
   - name: ParallaxContinued
 install:
