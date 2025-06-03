@@ -6,7 +6,7 @@ tags:
 depends:
   - name: Kopernicus
 supports:
-  - name: Parallax
+  - name: ParallaxContinued
 install:
   - find: EM
     install_to: GameData
