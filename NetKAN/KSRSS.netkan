@@ -1,0 +1,7 @@
+identifier: KSRSS
+$kref: '#/ckan/gitlab/ksrss/KSRSS'
+x_netkan_gitlab:
+  use_source_archive: true
+license: ARR
+depends:
+  - name: Kopernicus
