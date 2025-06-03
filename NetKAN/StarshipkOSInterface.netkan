@@ -1,0 +1,59 @@
+identifier: StarshipkOSInterface
+$kref: '#/ckan/spacedock/3904'
+tags:
+  - config
+  - control
+depends:
+  - name: ModuleManager
+  - name: kOS
+install:
+  - find: StarshipInterface
+    install_to: GameData
+    filter_regexp: \.craft$
+  - file: Starship-kOS-Interface/Kerbal Space Program/Ships/VAB/Starship-Block1-RealSize.craft
+    install_to: Ships/VAB
+  - file: Starship-kOS-Interface/Kerbal Space Program/Ships/VAB/Starship-Block1-StockSize.craft
+    install_to: Ships/VAB
+  - file: Starship-kOS-Interface/Kerbal Space Program/Ships/VAB/Starship-Block1Cargo-RealSize.craft
+    install_to: Ships/VAB
+  - file: Starship-kOS-Interface/Kerbal Space Program/Ships/VAB/Starship-Block1Cargo-StockSize.craft
+    install_to: Ships/VAB
+  - file: Starship-kOS-Interface/Kerbal Space Program/Ships/VAB/Starship-Block1CargoExpendable-RealSize.craft
+    install_to: Ships/VAB
+  - file: Starship-kOS-Interface/Kerbal Space Program/Ships/VAB/Starship-Block1CargoExpendable-StockSize.craft
+    install_to: Ships/VAB
+  - file: Starship-kOS-Interface/Kerbal Space Program/Ships/VAB/Starship-Block1Expendable-RealSize.craft
+    install_to: Ships/VAB
+  - file: Starship-kOS-Interface/Kerbal Space Program/Ships/VAB/Starship-Block1Expendable-StockSize.craft
+    install_to: Ships/VAB
+  - file: Starship-kOS-Interface/Kerbal Space Program/Ships/VAB/Starship-Block1PEZ-RealSize.craft
+    install_to: Ships/VAB
+  - file: Starship-kOS-Interface/Kerbal Space Program/Ships/VAB/Starship-Block1PEZ-StockSize.craft
+    install_to: Ships/VAB
+  - file: Starship-kOS-Interface/Kerbal Space Program/Ships/VAB/Starship-Block1PEZExpendable-StockSize.craft
+    install_to: Ships/VAB
+  - file: Starship-kOS-Interface/Kerbal Space Program/Ships/VAB/Starship-Block1V2-StockSize.craft
+    install_to: Ships/VAB
+  - file: Starship-kOS-Interface/Kerbal Space Program/Ships/VAB/Starship-Cargo-RealSize.craft
+    install_to: Ships/VAB
+  - file: Starship-kOS-Interface/Kerbal Space Program/Ships/VAB/Starship-Cargo-StockSize.craft
+    install_to: Ships/VAB
+  - file: Starship-kOS-Interface/Kerbal Space Program/Ships/VAB/Starship-Crew-RealSize.craft
+    install_to: Ships/VAB
+  - file: Starship-kOS-Interface/Kerbal Space Program/Ships/VAB/Starship-Crew-StockSize.craft
+    install_to: Ships/VAB
+  - file: Starship-kOS-Interface/Kerbal Space Program/Ships/VAB/Starship-Depot-RealSize.craft
+    install_to: Ships/VAB
+  - file: Starship-kOS-Interface/Kerbal Space Program/Ships/VAB/Starship-Depot-StockSize.craft
+    install_to: Ships/VAB
+  - file: Starship-kOS-Interface/Kerbal Space Program/Ships/VAB/Starship-Tanker-RealSize.craft
+    install_to: Ships/VAB
+  - file: Starship-kOS-Interface/Kerbal Space Program/Ships/VAB/Starship-Tanker-StockSize.craft
+    install_to: Ships/VAB
+  - file: Starship-kOS-Interface/Kerbal Space Program/Ships/VAB/Starship_Block1_PEZ-RealSize.craft
+    install_to: Ships/VAB
+  - file: Starship-kOS-Interface/Kerbal Space Program/Ships/VAB/Starship_Block1_PEZ-StockSize.craft
+    install_to: Ships/VAB
+  - file: Starship-kOS-Interface/Kerbal Space Program/Ships/VAB/Starship_Block1_PEZ_SingleEngines-StockSize.craft
+    install_to: Ships/VAB
+x_via: Automated SpaceDock CKAN submission
