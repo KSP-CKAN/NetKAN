@@ -1,0 +1,13 @@
+identifier: EeloosBlueMoon
+$kref: '#/ckan/spacedock/3903'
+tags:
+  - config
+  - planet-pack
+depends:
+  - name: Kopernicus
+  - name: ModuleManager
+suggests:
+  - name: ParallaxContinued
+install:
+  - find: EM
+    install_to: GameData
