@@ -5,7 +5,7 @@ tags:
   - planet-pack
 depends:
   - name: Kopernicus
-supports:
+suggests:
   - name: ParallaxContinued
 install:
   - find: EM
