@@ -16,6 +16,9 @@ depends:
   - name: Trajectories
   - name: StarshipLaunchExpansion
   - name: StarshipExpansionProject
+suggests:
+  - name: HullcamVDSContinued
+  - name: HangarExtender
 install:
   - find: StarshipInterface
     install_to: GameData
