@@ -13,6 +13,9 @@ tags:
 depends:
   - name: ModuleManager
   - name: kOS
+  - name: Trajectories
+  - name: StarshipLaunchExpansion
+  - name: StarshipExpansionProject
 install:
   - find: StarshipInterface
     install_to: GameData
