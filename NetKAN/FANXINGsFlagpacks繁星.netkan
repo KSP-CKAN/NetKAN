@@ -1,0 +1,6 @@
+identifier: FANXINGsFlagpacks繁星
+$kref: '#/ckan/spacedock/3906'
+install:
+  - find: YYN
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
