@@ -19,3 +19,4 @@ suggests:
 install:
   - file: GameData/HideEmptyTechTreeNodes
     install_to: GameData
+    filter: HETTN.TechTree
