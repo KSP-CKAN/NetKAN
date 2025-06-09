@@ -1,5 +1,7 @@
 identifier: FANXINGsFlagpacks
 $kref: '#/ckan/spacedock/3906'
+tags:
+  - flags
 install:
   - find: YYN
     install_to: GameData
