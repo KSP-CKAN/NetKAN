@@ -1,0 +1,8 @@
+identifier: Arpeligi
+$kref: '#/ckan/spacedock/3907'
+tags:
+  - config
+  - planet-pack
+depends:
+  - name: ModuleManager
+  - name: Kopernicus
