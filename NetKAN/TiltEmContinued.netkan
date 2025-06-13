@@ -1,0 +1,10 @@
+identifier: TiltEmContinued
+$kref: '#/ckan/spacedock/3909'
+tags:
+  - config
+  - plugin
+install:
+  - find: TiltEm
+    install_to: GameData
+    filter_regexp: \.pdb$
+x_via: Automated SpaceDock CKAN submission
