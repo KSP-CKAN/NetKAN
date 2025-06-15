@@ -12,3 +12,13 @@ $vref: '#/ckan/ksp-avc'
 license: MIT
 tags:
   - plugin
+x_netkan_override:
+  - version: '>0'
+    after: spacedock
+    delete:
+      - ksp_version_max
+  - version: '>0'
+    after: spacedock
+    override:
+      ksp_version_min: 1.5
+      ksp_version_max: 1.7
