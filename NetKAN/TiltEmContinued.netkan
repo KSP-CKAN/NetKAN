@@ -4,8 +4,8 @@ tags:
   - config
   - plugin
 depends:
-  - Harmony2
-  - Kopernicus
+  name: Harmony2
+  name: Kopernicus
 install:
   - find: TiltEm
     install_to: GameData
