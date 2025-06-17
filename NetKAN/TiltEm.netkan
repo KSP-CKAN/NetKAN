@@ -1,8 +1,8 @@
 identifier: TiltEm
 $kref: '#/ckan/spacedock/3909'
 tags:
-  - config
   - plugin
+  - physics
 depends:
   - name: Harmony2
   - name: Kopernicus
