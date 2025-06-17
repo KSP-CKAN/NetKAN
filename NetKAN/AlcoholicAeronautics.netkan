@@ -1,0 +1,14 @@
+identifier: AlcoholicAeronautics
+$kref: '#/ckan/github/CharleRoger/AlcoholicAeronautics'
+$vref: '#/ckan/ksp-avc'
+---
+identifier: AlcoholicAeronautics
+$kref: '#/ckan/spacedock/3910'
+$vref: '#/ckan/ksp-avc'
+tags:
+  - parts
+depends:
+  - name: ModuleManager
+  - name: B9PartSwitch
+  - name: CommunityResourcePack
+  - name: CryoTanks
