@@ -1,4 +1,4 @@
-identifier: TiltEmContinued
+identifier: TiltEm
 $kref: '#/ckan/spacedock/3909'
 tags:
   - config
@@ -7,7 +7,3 @@ depends:
   - name: Harmony2
   - name: Kopernicus
   - name: ModuleManager
-install:
-  - find: TiltEm
-    install_to: GameData
-    filter_regexp: \.pdb$
