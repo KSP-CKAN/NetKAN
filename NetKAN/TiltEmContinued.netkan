@@ -4,7 +4,7 @@ tags:
   - config
   - plugin
 depends:
-  - Harmony
+  - Harmony2
   - Kopernicus
 install:
   - find: TiltEm
