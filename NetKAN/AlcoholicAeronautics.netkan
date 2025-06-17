@@ -10,4 +10,5 @@ tags:
 depends:
   - name: ModuleManager
   - name: B9PartSwitch
-x_via: Automated SpaceDock CKAN submission
+  - name: CommunityResourcePack
+  - name: CryoTanks
