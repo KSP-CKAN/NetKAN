@@ -6,6 +6,7 @@ tags:
 depends:
   - name: Harmony2
   - name: Kopernicus
+  - name: ModuleManager
 install:
   - find: TiltEm
     install_to: GameData
