@@ -1,0 +1,18 @@
+identifier: BetterDres
+name: Proxmia's Better Dres
+abstract: >-
+  This is a small and simple mod, it replaces the Stock Dres
+  by a new one inspired by KSP 2's Dres.
+  Has more exaggerated mountains and canyons and a set of small,
+  yet beautiful rings!
+$kref: '#/ckan/github/ProximaCentauri-star/Proxima-s-Better-Dres'
+license: restricted
+tags:
+  - planet-pack
+  - config
+depends:
+  - name: ModuleManager
+  - name: Kopernicus
+suggests:
+  - name: ParallaxContinued
+  - name: CelestialHarmony
