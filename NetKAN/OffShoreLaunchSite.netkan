@@ -1,7 +1,7 @@
 identifier: OffShoreLaunchSite
 $kref: '#/ckan/spacedock/3863'
 $vref: '#/ckan/ksp-avc'
-x_netkan_version_edit: '^(?<version>[^ ]+) .*$'
+x_netkan_version_edit: '^(?<version>[^ ]+) ?.*$'
 tags:
   - buildings
   - config
