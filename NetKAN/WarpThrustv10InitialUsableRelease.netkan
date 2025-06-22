@@ -1,0 +1,13 @@
+identifier: WarpThrustv10InitialUsableRelease
+$kref: '#/ckan/spacedock/3913'
+tags:
+  - config
+  - graphics
+depends:
+  - name: ModuleManager
+  - name: B9PartSwitch
+  - name: Waterfall
+install:
+  - find: WarpThrust-main
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
