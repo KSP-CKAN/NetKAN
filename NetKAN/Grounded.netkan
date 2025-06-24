@@ -1,7 +1,10 @@
 identifier: Grounded
-"$kref": "#/ckan/spacedock/1715"
+$kref: '#/ckan/spacedock/1715'
+$vref: '#/ckan/ksp-avc'
 license: CC-BY-NC-ND-4.0
-ksp_version: 1.10
 tags:
-- parts
-
+  - parts
+x_netkan_override:
+  - version: '5.0'
+    override:
+      ksp_version_max: '1.10'

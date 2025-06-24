@@ -1,6 +1,8 @@
 identifier: GRAPEFRUIT
+$kref: '#/ckan/github/KSPModStewards/GRAPEFRUIT'
+---
+identifier: GRAPEFRUIT
 $kref: '#/ckan/spacedock/3511'
-$vref: '#/ckan/ksp-avc'
 license: CC-BY-NC-SA
 tags:
   - parts
