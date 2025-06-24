@@ -1,5 +1,6 @@
 identifier: WarpThrust
 $kref: '#/ckan/github/Jay-NVB/WarpThrust'
+x_netkan_version_edit: '^v?(?<version>.*)$'
 ---
 identifier: WarpThrust
 $kref: '#/ckan/spacedock/3913'
