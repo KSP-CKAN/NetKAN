@@ -1,4 +1,4 @@
-identifier: WarpThrustv10InitialUsableRelease
+identifier: WarpThrust
 $kref: '#/ckan/spacedock/3913'
 tags:
   - config
@@ -10,4 +10,3 @@ depends:
 install:
   - find: WarpThrust-main
     install_to: GameData
-x_via: Automated SpaceDock CKAN submission
