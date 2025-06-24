@@ -3,7 +3,7 @@ $kref: '#/ckan/github/linuxgurugamer/Material-Science-Pod'
 ---
 identifier: MSP3000a
 $kref: '#/ckan/spacedock/2642'
-$vref: '#/ckan/ksp-avc'
+comment: Version file has invalid KSP_VERSION_MIN 1.12.99
 license: MIT
 tags:
   - parts
