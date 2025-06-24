@@ -9,8 +9,7 @@ tags:
   - graphics
 depends:
   - name: ModuleManager
-  - name: B9PartSwitch
-  - name: Waterfall
+  - name: PersistentRotation
 install:
   - find: WarpThrust-main
     install_to: GameData
