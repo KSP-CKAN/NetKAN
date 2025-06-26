@@ -1,14 +1,4 @@
 identifier: FuelWingsRefueled
-$kref: '#/ckan/github/munktron239/FuelWings-Refueled'
-x_netkan_github:
-  use_source_archive: true
-x_netkan_version_edit:
-  find: ^v
-  replace: ''
-  strict: false
-$vref: '#/ckan/ksp-avc'
----
-identifier: FuelWingsRefueled
 $kref: '#/ckan/spacedock/3916'
 $vref: '#/ckan/ksp-avc'
 tags:
@@ -16,4 +6,3 @@ tags:
 depends:
   - name: ModuleManager
   - name: B9PartSwitch
-x_via: Automated SpaceDock CKAN submission
