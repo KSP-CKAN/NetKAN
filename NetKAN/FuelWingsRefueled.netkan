@@ -1,4 +1,8 @@
 identifier: FuelWingsRefueled
+author:
+  - diygary
+  - linuxgurugamer
+  - munktron239
 $kref: '#/ckan/spacedock/3916'
 $vref: '#/ckan/ksp-avc'
 tags:
@@ -6,3 +10,7 @@ tags:
 depends:
   - name: ModuleManager
   - name: B9PartSwitch
+suggests:
+  - name: PatchManager
+  - name: CommunityResourcePack
+  - name: CryoTanks
