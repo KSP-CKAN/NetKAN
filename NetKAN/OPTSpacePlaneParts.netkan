@@ -1,0 +1,24 @@
+identifier: OPTSpacePlaneParts
+$kref: '#/ckan/github/StoneBlue/OPT_Streamlined/asset_match/Legacy'
+$vref: '#/ckan/ksp-avc'
+---
+identifier: OPTSpacePlaneParts
+name: OPT Legacy
+abstract: Retired parts and expansion pack
+$kref: '#/ckan/spacedock/711'
+$vref: '#/ckan/ksp-avc/OPTLegacy.version'
+license: CC-BY-NC-SA-4.0
+tags:
+  - parts
+  - crewed
+depends:
+  - name: ModuleManager
+  - name: OPTReconfig
+recommends:
+  - name: KerbalFoundriesContinued
+  - name: OPTSpacePlaneMain
+  - name: RasterPropMonitor
+  - name: KerbalActuators
+install:
+  - find: OPT_Legacy
+    install_to: GameData

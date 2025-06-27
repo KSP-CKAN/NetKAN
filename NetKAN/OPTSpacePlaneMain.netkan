@@ -1,0 +1,32 @@
+identifier: OPTSpacePlaneMain
+$kref: '#/ckan/github/StoneBlue/OPT_Streamlined/asset_match/Continued'
+$vref: '#/ckan/ksp-avc'
+---
+identifier: OPTSpacePlaneMain
+name: OPT Spaceplane Continued
+abstract: The "Main" pack from OPT without old plugin bundles
+$kref: '#/ckan/spacedock/2494'
+$vref: '#/ckan/ksp-avc'
+license: CC-BY-NC-SA-4.0
+tags:
+  - parts
+  - crewed
+depends:
+  - name: ModuleManager
+  - name: OPTReconfig
+recommends:
+  - name: KerbalFoundriesContinued
+  - name: RasterPropMonitor
+  - name: OPTSpacePlaneParts
+supports:
+  - name: ConnectedLivingSpace
+  - name: ModularFuelTanks
+  - name: RealFuels
+  - name: TacLifeSupport
+install:
+  - find: OPT
+    install_to: GameData
+x_netkan_override:
+  - version: v2.0.1
+    override:
+      ksp_version: '1.3'
