@@ -1,0 +1,31 @@
+name: Inflate Module
+description: Run commands in the NetKAN container to inflate a given module
+
+inputs:
+  AWS_ACCESS_KEY_ID:
+    description: Credentials for AWS
+    required: true
+  AWS_SECRET_ACCESS_KEY:
+    description: Credentials for AWS
+    required: true
+  AWS_DEFAULT_REGION:
+    description: Region for AWS
+    required: true
+  identifier:
+    description: The netkan to inflate
+    required: true
+
+runs:
+  using: docker
+  image: kspckan/netkan
+  env:
+    GAME_ID:               ksp
+    NETKAN_REMOTES:        ksp=https://github.com/KSP-CKAN/NetKAN.git
+    CKANMETA_REMOTES:      ksp=https://github.com/KSP-CKAN/CKAN-meta.git
+    INFLATION_QUEUES:      ksp=Inbound.fifo
+    AWS_ACCESS_KEY_ID:     ${{ inputs.AWS_ACCESS_KEY_ID     }}
+    AWS_SECRET_ACCESS_KEY: ${{ inputs.AWS_SECRET_ACCESS_KEY }}
+    AWS_DEFAULT_REGION:    ${{ inputs.AWS_DEFAULT_REGION    }}
+  args:
+    - inflate-netkan
+    - ${{ inputs.identifier }}
