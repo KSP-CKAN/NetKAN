@@ -1,0 +1,15 @@
+identifier: OlcoSystem
+$kref: '#/ckan/spacedock/3914'
+tags:
+  - config
+  - planet-pack
+depends:
+  - name: ModuleManager
+  - name: Kopernicus
+suggests:
+  - name: EnviromentalVisualEnhancements
+  - name: ParallaxContinued
+  - name: Scatterer
+install:
+  - find: Olco
+    install_to: GameData
