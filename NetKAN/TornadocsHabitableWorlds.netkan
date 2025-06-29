@@ -6,6 +6,8 @@ tags:
 depends:
   - name: ModuleManager
   - name: Kopernicus
+  - name: KopernicusExpansion
+  - name: CommunityTerrainTexturePack
 suggests:
   - name: EnviromentalVisualEnhancements
   - name: Scatterer
