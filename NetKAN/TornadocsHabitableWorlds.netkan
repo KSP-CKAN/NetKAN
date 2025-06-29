@@ -1,0 +1,20 @@
+identifier: TornadocsHabitableWorlds
+$kref: '#/ckan/spacedock/3918'
+tags:
+  - config
+  - planet-pack
+depends:
+  - name: ModuleManager
+  - name: Kopernicus
+  - name: KopernicusExpansion
+  - name: CommunityTerrainTexturePack
+suggests:
+  - name: EnviromentalVisualEnhancements
+  - name: Scatterer
+  - name: ParallaxContinued
+  - name: PlanetShine
+  - name: CommuniyResourcePack
+  - name: DistantObject
+install:
+  - find: HabitableWorlds
+    install_to: GameData
