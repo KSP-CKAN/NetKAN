@@ -6,6 +6,10 @@ tags:
 depends:
   - name: ModuleManager
   - name: Kopernicus
+suggests:
+  - name: EnviromentalVisualEnhancements
+  - name: Scatterer
+  - name: ParallaxContinued
 install:
   - find: HabitableWorlds
     install_to: GameData
