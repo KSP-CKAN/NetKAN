@@ -10,7 +10,9 @@ suggests:
   - name: EnviromentalVisualEnhancements
   - name: Scatterer
   - name: ParallaxContinued
+  - name: PlanetShine
+  - name: CommuniyResourcePack
+  - name: DistantObject
 install:
   - find: HabitableWorlds
     install_to: GameData
-x_via: Automated SpaceDock CKAN submission
