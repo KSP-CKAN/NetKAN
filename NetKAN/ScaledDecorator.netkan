@@ -5,8 +5,8 @@ identifier: ScaledDecorator
 $kref: '#/ckan/spacedock/3917'
 tags:
   - plugin
+  - library
 install:
   - find: ScaledDecorator
     install_to: GameData
     filter_regexp: \.pdb$
-x_via: Automated SpaceDock CKAN submission
