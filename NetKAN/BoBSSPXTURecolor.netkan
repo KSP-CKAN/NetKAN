@@ -1,7 +1,7 @@
 identifier: BoBSSPXTURecolor
-$kref: '#/ckan/spacedock/3915'
 author:
-  - |BoB|
+  - BoB
+$kref: '#/ckan/spacedock/3915'
 tags:
   - config
 depends:
