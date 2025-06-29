@@ -6,7 +6,10 @@ tags:
 depends:
   - name: ModuleManager
   - name: Kopernicus
+suggests:
+  - name: EnviromentalVisualEnhancements
+  - name: ParallaxContinued
+  - name: Scatterer
 install:
   - find: Olco
     install_to: GameData
-x_via: Automated SpaceDock CKAN submission
