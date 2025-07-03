@@ -13,3 +13,4 @@ tags:
   - graphics
 depends:
   - name: ModuleManager
+  - name: FireflyAPI

@@ -1,0 +1,12 @@
+identifier: FireflyAPI
+$kref: '#/ckan/github/M1rageDev/FireflyAPI'
+$vref: '#/ckan/ksp-avc'
+---
+$kref: '#/ckan/spacedock/3919'
+$vref: '#/ckan/ksp-avc'
+tags:
+  - plugin
+  - library
+recommends:
+  - name: Firefly
+x_via: Automated SpaceDock CKAN submission
