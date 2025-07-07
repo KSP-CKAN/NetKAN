@@ -4,6 +4,7 @@ author:
   - blowfish
   - linuxgurugamer
 $kref: '#/ckan/github/KSPModStewards/B9PartSwitch'
+x_netkan_force_v: true
 $vref: '#/ckan/ksp-avc'
 license: LGPL-3.0
 depends:
