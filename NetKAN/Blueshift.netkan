@@ -16,6 +16,7 @@ recommends:
   - name: GrannusExpansionPack
   - name: Kopernicus
   - name: Waterfall
+  - name: Firefly
 install:
   - find: Blueshift
     install_to: GameData/WildBlueIndustries
