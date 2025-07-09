@@ -1,0 +1,16 @@
+identifier: Nibrek
+$kref: '#/ckan/spacedock/3840'
+$vref: '#/ckan/ksp-avc'
+tags:
+  - config
+  - planet-pack
+  - plugin
+depends:
+  - name: ModuleManager
+  - name: Kopernicus
+  - name: VertexMitchellNetravaliHeightMap
+install:
+  - find: GameData/Nibrek
+    install_to: GameData
+    filter_regexp: \.pdb$
+x_via: Automated SpaceDock CKAN submission
