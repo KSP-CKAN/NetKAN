@@ -1,27 +1,22 @@
-{
-    "identifier":   "Blueshift",
-    "name":         "Blueshift",
-    "author":       "Angel-125",
-    "$kref":        "#/ckan/github/Angel-125/Blueshift",
-    "$vref":        "#/ckan/ksp-avc",
-    "license":      "GPL-3.0",
-    "resources": {
-        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/198274-*"
-    },
-    "tags": [
-        "parts",
-        "crewed"
-    ],
-    "depends": [
-        { "name": "ModuleManager" }
-    ],
-    "recommends": [
-        { "name": "GrannusExpansionPack" },
-        { "name": "Kopernicus"           },
-        { "name": "Waterfall"            }
-    ],
-    "install": [ {
-        "find":       "Blueshift",
-        "install_to": "GameData/WildBlueIndustries"
-    } ]
-}
+identifier: Blueshift
+name: Blueshift
+author: Angel-125
+$kref: '#/ckan/github/Angel-125/Blueshift'
+$vref: '#/ckan/ksp-avc'
+license: GPL-3.0
+resources:
+  homepage: http://forum.kerbalspaceprogram.com/index.php?/topic/198274-*
+tags:
+  - parts
+  - crewed
+depends:
+  - name: ModuleManager
+  - name: FireflyAPI
+recommends:
+  - name: GrannusExpansionPack
+  - name: Kopernicus
+  - name: Waterfall
+  - name: Firefly
+install:
+  - find: Blueshift
+    install_to: GameData/WildBlueIndustries
