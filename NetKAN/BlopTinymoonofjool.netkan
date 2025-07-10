@@ -1,0 +1,12 @@
+identifier: BlopTinymoonofjool
+$kref: '#/ckan/spacedock/3921'
+tags:
+  - config
+  - planet-pack
+depends:
+  - name: ModuleManager
+  - name: Kopernicus
+install:
+  - find: Blop
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
