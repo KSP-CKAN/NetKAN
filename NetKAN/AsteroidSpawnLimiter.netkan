@@ -1,0 +1,27 @@
+{
+  "spec_version": "v1.4",
+  "identifier": "AsteroidSpawnLimiter",
+  "name": "AsteroidSpawnLimiter",
+  "abstract": "Asteroid Spawn Limiter is a lightweight plugin for Kerbal Space Program (KSP) that limits the frequency of asteroid spawns in the game.",
+  "author": "Kevin O Keeffe",
+  "version": "1.0.0",
+  "license": "MIT",
+  "ksp_version": "1.12.5",
+  "resources": {
+    "homepage": "https://github.com/kevnokeeffe/AsteroidSpawnLimiter",
+    "repository": "https://github.com/kevnokeeffe/AsteroidSpawnLimiter"
+  },
+  "x_netkan": {
+    "version_strategy": "latest",
+    "github": {
+      "repository": "kevnokeeffe/AsteroidSpawnLimiter"
+    }
+  },
+  "download": "https://github.com/kevnokeeffe/AsteroidSpawnLimiter/releases/download/v1.0.0/AsteroidSpawnLimiter.zip",
+  "install": [
+    {
+      "file": "GameData/AsteroidSpawnLimiter",
+      "install_to": "GameData"
+    }
+  ]
+}
