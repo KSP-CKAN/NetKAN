@@ -1,0 +1,11 @@
+identifier: StarshipPadModernization
+$kref: '#/ckan/spacedock/3924'
+tags:
+  - parts
+depends:
+  - name: ModuleManager
+  - name: B9PartSwitch
+install:
+  - find: PadB
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
