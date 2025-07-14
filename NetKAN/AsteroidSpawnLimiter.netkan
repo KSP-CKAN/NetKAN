@@ -7,3 +7,5 @@ tags:
 depends:
   - name: Harmony2
   - name: Kopernicus
+suggests:
+  - name: AsteroidCleaner
