@@ -1,27 +1,4 @@
-{
-  "spec_version": "v1.4",
-  "identifier": "AsteroidSpawnLimiter",
-  "name": "AsteroidSpawnLimiter",
-  "abstract": "Limits the number of untracked asteroids spawned in the game.",
-  "author": "KevO",
-  "version": "1.0.0",
-  "license": "MIT",
-  "ksp_version": "1.12.5",
-  "resources": {
-    "homepage": "https://github.com/kevnokeeffe/AsteroidSpawnLimiter",
-    "repository": "https://github.com/kevnokeeffe/AsteroidSpawnLimiter"
-  },
-  "x_netkan": {
-    "version_strategy": "latest",
-    "github": {
-      "repository": "kevnokeeffe/AsteroidSpawnLimiter"
-    }
-  },
-  "download": "https://github.com/kevnokeeffe/AsteroidSpawnLimiter/archive/refs/tags/v1.0.0.zip",
-  "install": [
-    {
-      "file": "GameData/AsteroidSpawnLimiter",
-      "install_to": "GameData"
-    }
-  ]
-}
+identifier: AsteroidSpawnLimiter
+author: KevO
+$kref: '#/ckan/github/kevnokeeffe/AsteroidSpawnLimiter'
+ksp_version: 1.12.5
