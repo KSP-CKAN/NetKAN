@@ -4,3 +4,6 @@ $kref: '#/ckan/github/kevnokeeffe/AsteroidSpawnLimiter'
 ksp_version: 1.12.5
 tags:
   - plugin
+depends:
+  - name: Harmony2
+  - name: Kopernicus
