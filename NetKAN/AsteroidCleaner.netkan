@@ -1,21 +1,8 @@
-{
-  "$kref": "#/ckan/github/kevnokeeffe/AsteroidCleaner",
-  "spec_version": "v1.4",
-  "identifier": "AsteroidCleaner",
-  "name": "Asteroid Cleaner",
-  "abstract": "Removes excess untracked asteroids and comets from the game.",
-  "author": "KevO",
-  "version": "1.0.0",
-  "license": "MIT",
-  "ksp_version": "1.12.5",
-  "resources": {
-    "homepage": "https://github.com/kevnokeeffe/AsteroidCleaner",
-    "repository": "https://github.com/kevnokeeffe/AsteroidCleaner"
-  },
-  "install": [
-    {
-      "file": "AsteroidCleaner-v1.0.0/GameData/AsteroidCleaner",
-      "install_to": "GameData"
-    }
-  ]
-}
+identifier: AsteroidCleaner
+author: KevO
+$kref: '#/ckan/github/kevnokeeffe/AsteroidCleaner'
+ksp_version: 1.12.5
+tags:
+  - plugin
+suggests:
+  - name: AsteroidSpawnLimiter
