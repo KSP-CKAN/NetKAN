@@ -1,0 +1,26 @@
+{
+  "spec_version": "v1.4",
+  "identifier": "AsteroidCleaner",
+  "name": "Asteroid Cleaner",
+  "abstract": "Automatically removes excess untracked asteroids and comets from the game.",
+  "author": "KevO",
+  "version": "1.0.0",
+  "license": "MIT",
+  "ksp_version": "1.12.5",
+  "resources": {
+    "homepage": "https://github.com/kevnokeeffe/AsteroidCleaner",
+    "repository": "https://github.com/kevnokeeffe/AsteroidCleaner"
+  },
+  "x_netkan": {
+    "version_strategy": "latest",
+    "github": {
+      "repository": "kevnokeeffe/AsteroidCleaner"
+    }
+  },
+  "install": [
+    {
+      "file": "GameData/AsteroidCleaner",
+      "install_to": "GameData"
+    }
+  ]
+}
