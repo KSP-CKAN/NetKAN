@@ -14,7 +14,7 @@
   },
   "install": [
     {
-      "file": "GameData/AsteroidCleaner",
+      "file": "AsteroidCleaner-v1.0.0/GameData/AsteroidCleaner",
       "install_to": "GameData"
     }
   ]
