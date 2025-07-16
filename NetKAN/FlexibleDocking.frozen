@@ -1,18 +1,15 @@
-{
-    "identifier":   "FlexibleDocking",
-    "$kref":        "#/ckan/spacedock/838",
-    "$vref":        "#/ckan/ksp-avc",
-    "license":      "MIT",
-    "tags": [
-        "plugin",
-        "parts",
-        "crewed"
-    ],
-    "depends": [
-         { "name": "ModuleManager" }
-    ],
-    "install": [ {
-        "find":       "FlexoDocking",
-        "install_to": "GameData"
-    } ]
-}
+identifier: FlexibleDocking
+$kref: '#/ckan/github/linuxgurugamer/KSP_Flexible_Docking'
+---
+identifier: FlexibleDocking
+$kref: '#/ckan/spacedock/838'
+$vref: '#/ckan/ksp-avc'
+tags:
+  - plugin
+  - parts
+  - crewed
+depends:
+  - name: ModuleManager
+install:
+  - find: FlexoDocking
+    install_to: GameData
