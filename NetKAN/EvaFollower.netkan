@@ -5,12 +5,9 @@ $vref: '#/ckan/ksp-avc'
 identifier: EvaFollower
 $kref: '#/ckan/spacedock/1582'
 $vref: '#/ckan/ksp-avc'
-x_netkan_epoch: 1
-license: CC-BY-NC-SA-3.0
 tags:
   - plugin
   - crewed
   - control
-install:
-  - find: EvaFollower
-    install_to: GameData
+depends:
+  - name: SpaceTuxLibrary
