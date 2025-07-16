@@ -1,9 +1,9 @@
 identifier: ChemicalExotics
-$kref: '#/ckan/github/CharleRoger/ChemicalExotics'
+$kref: '#/ckan/github/CharleRoger/ChemicalPropulsion'
 $vref: '#/ckan/ksp-avc'
 ---
 identifier: ChemicalExotics
-$kref: '#/ckan/spacedock/3867'
+$kref: '#/ckan/spacedock/3866'
 $vref: '#/ckan/ksp-avc'
 tags:
   - config
@@ -15,4 +15,6 @@ depends:
 supports:
   - name: ChemicalPropulsion
   - name: ChemicalCore
-x_via: Automated SpaceDock CKAN submission
+install:
+  - find: ChemicalPropulsionExotics
+    install_to: GameData
