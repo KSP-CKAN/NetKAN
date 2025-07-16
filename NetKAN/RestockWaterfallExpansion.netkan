@@ -10,4 +10,12 @@ depends:
   - name: Waterfall
   - name: ReStock
 conflicts:
+  - name: WaterfallRestock
   - name: StockWaterfallEffects
+install:
+  - find: RestockWaterfallExpansion
+    install_to: GameData
+  - find: WaterfallRestock
+    install_to: GameData
+  - find: StockWaterfallEffects
+    install_to: GameData
