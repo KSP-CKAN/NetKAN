@@ -1,10 +1,15 @@
-identifier: AsteroidCleaner
-author: KevO
-$kref: '#/ckan/github/kevnokeeffe/AsteroidCleaner'
-ksp_version: 1.12.5
-tags:
-  - plugin
-depends:
-  - name: Kopernicus
-suggests:
-  - name: AsteroidSpawnLimiter
+{
+  "$kref": "#/ckan/github/YourUsername/AsteroidCleaner",
+  "name": "AsteroidCleaner",
+  "identifier": "AsteroidCleaner",
+  "license": "MIT",
+  "author": "KevO",
+  "version": "1.2.0",
+  "x_netkan_version_edit": true,
+  "install": [
+    {
+      "find": "AsteroidCleaner",
+      "install_to": "GameData"
+    }
+  ]
+}
