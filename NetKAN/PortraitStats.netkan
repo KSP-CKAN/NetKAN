@@ -10,4 +10,4 @@ tags:
   - information
   - crewed
 depends:
-- name: CommunityTraitIcons
+  - name: CommunityTraitIcons
