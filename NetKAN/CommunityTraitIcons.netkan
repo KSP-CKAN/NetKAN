@@ -1,0 +1,16 @@
+identifier: CommunityTraitIcons
+author:
+  - cake-pie
+  - DMagic1
+  - Aelfhe1m
+  - linuxgurugamer
+$kref: '#/ckan/github/linuxgurugamer/CommunityTraitIcons'
+$vref: '#/ckan/ksp-avc'
+tags:
+  - config
+  - graphics
+  - information
+  - library
+suggests:
+  - name: AirlockPlus
+  - name: PortraitStats
