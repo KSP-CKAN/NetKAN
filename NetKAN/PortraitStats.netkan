@@ -1,0 +1,13 @@
+identifier: PortraitStats
+$kref: '#/ckan/github/linuxgurugamer/KSP-Portrait-Stats'
+$vref: '#/ckan/ksp-avc'
+---
+identifier: PortraitStats
+$kref: '#/ckan/spacedock/133'
+$vref: '#/ckan/ksp-avc'
+tags:
+  - plugin
+  - information
+  - crewed
+depends:
+  - name: CommunityTraitIcons
