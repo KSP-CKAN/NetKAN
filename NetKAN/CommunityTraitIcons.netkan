@@ -1,10 +1,14 @@
 identifier: CommunityTraitIcons
+$kref: '#/ckan/github/linuxgurugamer/CommunityTraitIcons'
+$vref: '#/ckan/ksp-avc'
+---
+identifier: CommunityTraitIcons
 author:
   - cake-pie
   - DMagic1
   - Aelfhe1m
   - linuxgurugamer
-$kref: '#/ckan/github/linuxgurugamer/CommunityTraitIcons'
+$kref: '#/ckan/spacedock/3928'
 $vref: '#/ckan/ksp-avc'
 tags:
   - config
