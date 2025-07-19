@@ -8,3 +8,6 @@ depends:
   - name: Kopernicus
 suggests:
   - name: AsteroidSpawnLimiter
+install:
+  - find: GameData/AsteroidCleaner
+    install_to: GameData
