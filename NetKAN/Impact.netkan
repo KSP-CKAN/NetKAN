@@ -1,0 +1,15 @@
+identifier: Impact
+$kref: '#/ckan/github/linuxgurugamer/kerbal-impact'
+x_netkan_force_v: true
+$vref: '#/ckan/ksp-avc'
+---
+identifier: Impact
+name: Impact!
+$kref: '#/ckan/spacedock/3933'
+x_netkan_force_v: true
+$vref: '#/ckan/ksp-avc'
+tags:
+  - plugin
+  - science
+depends:
+  - name: ModuleManager
