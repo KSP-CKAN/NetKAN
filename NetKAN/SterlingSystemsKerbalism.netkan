@@ -3,6 +3,7 @@ name: Sterling Systems Kerbalism
 $kref: '#/ckan/github/JadeOfMaar/SterlingSystems/asset_match/Kerbalism'
 $vref: '#/ckan/ksp-avc'
 abstract: Everything Kerbalism
+license: restricted
 tags:
   - config
 depends:
