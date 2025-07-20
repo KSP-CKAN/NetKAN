@@ -11,3 +11,5 @@ $vref: '#/ckan/ksp-avc'
 tags:
   - plugin
   - science
+depends:
+  - name: ModuleManager
