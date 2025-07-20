@@ -9,7 +9,7 @@ tags:
 depends:
   - name: ModuleManager
   - name: Kerbalism
-  - name: SterlingAgent
+  - name: SterlingSystemsAgency
 install:
   - find: SterlingSystemsKerbalism
     install_to: GameData
