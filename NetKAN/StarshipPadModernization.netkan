@@ -1,0 +1,21 @@
+identifier: StarshipPadModernization
+$kref: '#/ckan/spacedock/3924'
+license: restricted
+ksp_version: 1.12.5
+tags:
+  - parts
+depends:
+  - name: ModuleManager
+  - name: B9PartSwitch
+recommends:
+  - name: VesselMover
+  - name: HangarExtender
+  - name: KerbalJointReinforcementContinued
+  - name: StarshipLaunchExpansion
+  - name: KerbalKonstructs
+suggests:
+  - name: StarshipExpansionProject
+install:
+  - find: PadB
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
