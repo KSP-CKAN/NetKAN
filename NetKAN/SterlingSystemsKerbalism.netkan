@@ -1,0 +1,15 @@
+identifier: SterlingSystemsKerbalism
+name: Sterling Systems Kerbalism
+$kref: '#/ckan/github/JadeOfMaar/SterlingSystems/asset_match/Kerbalism'
+$vref: '#/ckan/ksp-avc'
+abstract: Everything Kerbalism
+license: restricted
+tags:
+  - config
+depends:
+  - name: ModuleManager
+  - name: Kerbalism
+  - name: SterlingSystemsAgency
+install:
+  - find: SterlingSystemsKerbalism
+    install_to: GameData
