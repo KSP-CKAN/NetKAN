@@ -13,13 +13,44 @@ depends:
   - name: Ignition
   - name: ChemicalCore
   - name: CommunityResourcePack
-supports:
-  - name: CryoTanks
+recommends:
+  - name: AlcoholicAeronautics
   - name: CryoEngines
+  - name: CryoTanks
   - name: KerbalAtomics
   - name: Labradoodle
+  - name: NearFutureLaunchVehicles
+  - name: NearFutureSpacecraft
+  - name: ReStock
+  - name: ReStockPlus
+  - name: VABOrganizer
+suggested:
+  - name: CommonwealthAeronauticsBlueSteel
+  - name: CRE
+  - name: CryoEnginesExtensions
+  - name: Knes
+  - name: NearFutureAeronautics
+  - name: NearFutureExploration
+  - name: OCRAP
+  - name: Taerobee
+  - name: NewTantares
+  - name: NewTantaresLV
+  - name: TantaresSP
+  - name: UniversalStorage2
+supports:
+  - name: AirplanePlus
+  - name: ConfigurableContainers
+  - name: FarFutureTechnologies
+  - name: Firespitter
+  - name: Grounded
+  - name: SpaceXLegs
+  - name: Kerbalism
   - name: MissingHistory
   - name: Mk-33
-  - name: NearFutureAeronautics
-  - name: ReStockPlus
-x_via: Automated SpaceDock CKAN submission
+  - name: ModularFuelTanks
+  - name: ProbesBeforeCrew
+  - name: ShuttleOrbiterConstructionKit
+  - name: SillyPhotonDrives
+  - name: SystemHeat
+  - name: TundraExploration
+  - name: UnKerballedStart
