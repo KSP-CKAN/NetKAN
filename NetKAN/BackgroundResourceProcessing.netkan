@@ -1,0 +1,20 @@
+identifier: BackgroundResourceProcessing
+$kref: '#/ckan/github/Phantomical/BackgroundResourceProcessing'
+x_netkan_version_edit:
+  find: ^v
+  replace: ''
+  strict: false
+---
+identifier: BackgroundResourceProcessing
+$kref: '#/ckan/spacedock/3934'
+$vref: '#/ckan/ksp-avc'
+tags:
+  - config
+  - plugin
+depends:
+  - name: ModuleManager
+install:
+  - find: BackgroundResourceProcessing
+    install_to: GameData
+    filter_regexp: \.pdb$
+x_via: Automated SpaceDock CKAN submission
