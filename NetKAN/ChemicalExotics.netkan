@@ -4,7 +4,9 @@ $vref: '#/ckan/ksp-avc'
 ---
 identifier: ChemicalExotics
 name: Chemical Propulsion - Exotics
-abstract: An extension pack for Chemical Propulsion which adds exotic propellant options to various engines
+abstract: >-
+  An extension pack for Chemical Propulsion which
+  adds exotic propellant options to various engines
 $kref: '#/ckan/spacedock/3866'
 $vref: '#/ckan/ksp-avc'
 tags:

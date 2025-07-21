@@ -4,7 +4,9 @@ $vref: '#/ckan/ksp-avc'
 ---
 identifier: ChemicalPropulsionHypergolics
 name: Chemical Propulsion - Hypergolics
-abstract: An extension pack for Chemical Propulsion which adds low-tech hypergolic propellant options
+abstract: >-
+  An extension pack for Chemical Propulsion which
+  adds low-tech hypergolic propellant options
 $kref: '#/ckan/spacedock/3866'
 $vref: '#/ckan/ksp-avc'
 tags:

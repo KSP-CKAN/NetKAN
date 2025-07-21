@@ -4,7 +4,9 @@ $vref: '#/ckan/ksp-avc'
 ---
 identifier: ChemicalPropulsionNuclear
 name: Chemical Propulsion - Nuclear
-abstract: An extension pack for Chemical Propulsion which adds high-thrust, low-isp propellant options to NTRs
+abstract: >-
+  An extension pack for Chemical Propulsion which
+  adds high-thrust, low-isp propellant options to NTRs
 $kref: '#/ckan/spacedock/3866'
 $vref: '#/ckan/ksp-avc'
 tags:

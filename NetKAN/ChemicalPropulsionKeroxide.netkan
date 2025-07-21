@@ -4,7 +4,9 @@ $vref: '#/ckan/ksp-avc'
 ---
 identifier: ChemicalPropulsionKeroxide
 name: Chemical Propulsion - Keroxide
-abstract: An extension pack for Chemical Propulsion which adds an HTP oxidizer option to kerolox engines
+abstract: >-
+  An extension pack for Chemical Propulsion which
+  adds an HTP oxidizer option to kerolox engines
 $kref: '#/ckan/spacedock/3866'
 $vref: '#/ckan/ksp-avc'
 tags:
