@@ -1,10 +1,10 @@
-identifier: ChemicalExotics
+identifier: ChemicalPropulsionHypergolics
 $kref: '#/ckan/github/CharleRoger/ChemicalPropulsion'
 $vref: '#/ckan/ksp-avc'
 ---
-identifier: ChemicalExotics
-name: Chemical Propulsion - Exotics
-abstract: An extension pack for Chemical Propulsion which adds exotic propellant options to various engines
+identifier: ChemicalPropulsionHypergolics
+name: Chemical Propulsion - Hypergolics
+abstract: An extension pack for Chemical Propulsion which adds low-tech hypergolic propellant options
 $kref: '#/ckan/spacedock/3866'
 $vref: '#/ckan/ksp-avc'
 tags:
@@ -16,5 +16,5 @@ depends:
   - name: ChemicalPropulsion
   - name: CommunityResourcePack
 install:
-  - find: ChemicalPropulsionExotics
+  - find: ChemicalPropulsionHypergolics
     install_to: GameData
