@@ -1,12 +1,12 @@
-identifier: ChemicalExotics
+identifier: ChemicalPropulsionNuclear
 $kref: '#/ckan/github/CharleRoger/ChemicalPropulsion'
 $vref: '#/ckan/ksp-avc'
 ---
-identifier: ChemicalExotics
-name: Chemical Propulsion - Exotics
+identifier: ChemicalPropulsionNuclear
+name: Chemical Propulsion - Nuclear
 abstract: >-
   An extension pack for Chemical Propulsion which
-  adds exotic propellant options to various engines
+  adds high-thrust, low-isp propellant options to NTRs
 $kref: '#/ckan/spacedock/3866'
 $vref: '#/ckan/ksp-avc'
 tags:
@@ -18,5 +18,5 @@ depends:
   - name: ChemicalPropulsion
   - name: CommunityResourcePack
 install:
-  - find: ChemicalPropulsionExotics
+  - find: ChemicalPropulsionNuclear
     install_to: GameData
