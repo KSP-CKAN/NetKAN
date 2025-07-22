@@ -1,0 +1,11 @@
+identifier: BackgroundResourceProcessing
+$kref: '#/ckan/github/Phantomical/BackgroundResourceProcessing'
+$vref: '#/ckan/ksp-avc'
+x_netkan_version_edit: '^[vV]?(?<version>.+)$'
+---
+identifier: BackgroundResourceProcessing
+$kref: '#/ckan/spacedock/3934'
+$vref: '#/ckan/ksp-avc'
+tags:
+  - plugin
+  - resources
