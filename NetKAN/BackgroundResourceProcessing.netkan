@@ -9,12 +9,12 @@ identifier: BackgroundResourceProcessing
 $kref: '#/ckan/spacedock/3934'
 $vref: '#/ckan/ksp-avc'
 tags:
-  - config
   - plugin
+  - resources
 depends:
   - name: ModuleManager
+  - name: Harmony2
 install:
   - find: BackgroundResourceProcessing
     install_to: GameData
     filter_regexp: \.pdb$
-x_via: Automated SpaceDock CKAN submission
