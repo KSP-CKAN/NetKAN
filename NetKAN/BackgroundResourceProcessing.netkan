@@ -1,5 +1,6 @@
 identifier: BackgroundResourceProcessing
 $kref: '#/ckan/github/Phantomical/BackgroundResourceProcessing'
+$vref: '#/ckan/ksp-avc'
 x_netkan_version_edit:
   find: ^v
   replace: ''
