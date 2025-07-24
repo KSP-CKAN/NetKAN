@@ -1,0 +1,9 @@
+identifier: KerbalWindTunnel
+$kref: '#/ckan/spacedock/1927'
+tags:
+  - plugin
+install:
+  - find: WindTunnel
+    install_to: GameData
+    filter_regexp: \.pdb$
+x_via: Automated SpaceDock CKAN submission
