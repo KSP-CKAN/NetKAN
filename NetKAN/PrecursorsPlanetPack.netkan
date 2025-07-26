@@ -1,9 +1,9 @@
 identifier: PrecursorsPlanetPack
 $kref: '#/ckan/github/WyattPetula/Precursors/asset_match/^(?!.*Interstellar)'
-x_netkan_version_edit: ^v?(?<version>.+)$
 ---
 identifier: PrecursorsPlanetPack
 $kref: '#/ckan/spacedock/2869'
+x_netkan_force_v: true
 ksp_version_min: 1.9
 license: restricted
 tags:
