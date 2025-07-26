@@ -1,5 +1,5 @@
 identifier: PrecursorsPlanetPack
-$kref: '#/ckan/github/WyattPetula/Precursors'
+$kref: '#/ckan/github/WyattPetula/Precursors/asset_match/^(?!.*Interstellar)'
 x_netkan_version_edit: ^v?(?<version>.+)$
 ---
 identifier: PrecursorsPlanetPack
