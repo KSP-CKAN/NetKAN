@@ -4,3 +4,6 @@ tags:
   - plugin
   - editor
   - information
+install:
+  - find: StagingEngineConfig
+    install_to: GameData
