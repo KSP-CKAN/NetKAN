@@ -1,5 +1,9 @@
 identifier: PrecursorsPlanetPack
 $kref: '#/ckan/github/WyattPetula/Precursors'
+x_netkan_version_edit: ^v?(?<version>.+)$
+---
+identifier: PrecursorsPlanetPack
+$kref: '#/ckan/spacedock/2869'
 ksp_version_min: 1.9
 license: restricted
 tags:
