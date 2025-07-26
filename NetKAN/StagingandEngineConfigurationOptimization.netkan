@@ -1,0 +1,9 @@
+identifier: StagingandEngineConfigurationOptimization
+$kref: '#/ckan/spacedock/3849'
+tags:
+  - config
+  - plugin
+install:
+  - find: StagingEngineConfig
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
