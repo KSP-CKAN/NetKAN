@@ -1,36 +1,26 @@
-{
-    "identifier"        :   "ProceduralParts",
-    "author"            :   [ "Ancient Gammoner", "NathanKell", "Swamp-Ig", "Starwaster", "Tidal-Stream", "jrodrigv", "KSP-RO" ],
-    "$kref"             :   "#/ckan/github/KSP-RO/ProceduralParts",
-    "$vref"             :   "#/ckan/ksp-avc",
-    "x_netkan_allow_out_of_order": true,
-    "name"              :   "Procedural Parts",
-    "abstract"          :   "ProceduralParts allows you to procedurally generate a number of different parts in a range of sizes and shapes.",
-    "license"           :   "CC-BY-SA",
-    "resources" : {
-        "homepage"     : "https://forum.kerbalspaceprogram.com/index.php?/topic/204080-*"
-    },
-    "tags": [
-        "plugin",
-        "parts"
-    ],
-    "depends" : [
-        { "name" : "ModuleManager" },
-        { "name" : "KSPCommunityFixes" }
-    ],
-    "suggests" : [
-        { "name" : "PPTextures" },
-        { "name" : "FreedomTex" },
-        { "name" : "BasicProceduralTextures" }
-    ],
-    "x_netkan_override": [
-        {
-            "version": "v1.2.10",
-            "delete" : [ "ksp_version" ],
-            "override": {
-                "ksp_version_min" : "1.2.0",
-                "ksp_version_max" : "1.2.8"
-            }
-        }
-    ]
-}
+identifier: ProceduralParts
+name: Procedural Parts
+abstract: >-
+  ProceduralParts allows you to procedurally generate a number of different
+  parts in a range of sizes and shapes.
+author:
+  - Ancient Gammoner
+  - NathanKell
+  - Swamp-Ig
+  - Starwaster
+  - Tidal-Stream
+  - jrodrigv
+  - KSP-RO
+$kref: '#/ckan/github/KSP-RO/ProceduralParts'
+$vref: '#/ckan/ksp-avc'
+license: CC-BY-SA
+tags:
+  - plugin
+  - parts
+x_netkan_override:
+  - version: v1.2.10
+    delete:
+      - ksp_version
+    override:
+      ksp_version_min: 1.2.0
+      ksp_version_max: 1.2.8
