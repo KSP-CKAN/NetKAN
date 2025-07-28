@@ -1,0 +1,9 @@
+identifier: Dresremover
+$kref: '#/ckan/spacedock/3938'
+tags:
+  - config
+  - planet-pack
+depends:
+  - name: ModuleManager
+  - name: Kopernicus
+x_via: Automated SpaceDock CKAN submission
