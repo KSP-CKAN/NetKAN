@@ -3,6 +3,7 @@ $kref: '#/ckan/spacedock/3931'
 x_netkan_version_edit: ^(RELEASE )?(?<version>.*)$
 license: restricted
 tags:
+  - config
   - planet-pack
 conflicts:
   - name: RealSolarSystem
