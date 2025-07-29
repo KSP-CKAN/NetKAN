@@ -1,0 +1,28 @@
+identifier: 1ThousandSpecialPlanetPack
+$kref: '#/ckan/spacedock/3931'
+x_netkan_version_edit: ^(RELEASE )?(?<version>.*)$
+license: restricted
+tags:
+  - config
+  - planet-pack
+conflicts:
+  - name: RealSolarSystem
+  - name: JNSQ
+depends:
+  - name: 1ThousandSpecialPlanetPack-Textures
+  - name: ModuleManager
+  - name: Kopernicus
+  - name: ParallaxContinued
+  - name: VertexColorMapEmissive
+  - name: VertexMitchellNetravaliHeightMap
+  - name: ScaledDecorator
+recommends:
+  - name: Deferred
+  - name: DistantObject
+  - name: Scatterer
+  - name: Firefly
+suggests:
+  - name: KSPCommunityFixes
+install:
+  - find: Thousand_Special
+    install_to: GameData

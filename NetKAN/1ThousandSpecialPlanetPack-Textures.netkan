@@ -1,0 +1,16 @@
+identifier: 1ThousandSpecialPlanetPack-Textures
+name: 1 Thousand Special Planet Pack - Textures
+$kref: '#/ckan/github/Kramken/1TS-Textures'
+license: restricted
+tags:
+  - planet-pack
+  - graphics
+provides:
+  - ParallaxContinued-Terrain-Textures
+  - ParallaxContinued-Scatter-Textures
+  - ParallaxContinued-Planet-Textures
+depends:
+  - name: 1ThousandSpecialPlanetPack
+install:
+  - find: Thousand_Special
+    install_to: GameData
