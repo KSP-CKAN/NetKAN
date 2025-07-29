@@ -2,5 +2,5 @@ identifier: 1ThousandSpecialPlanetPack
 $kref: '#/ckan/spacedock/3931'
 license: restricted
 install:
-  - find: ''
+  - find: Thousand_Special
     install_to: GameData
