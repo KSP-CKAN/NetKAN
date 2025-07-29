@@ -4,14 +4,11 @@ x_netkan_version_edit: ^(RELEASE )?(?<version>.*)$
 license: restricted
 tags:
   - planet-pack
-provides:
-  - ParallaxContinued-Terrain-Textures
-  - ParallaxContinued-Scatter-Textures
-  - ParallaxContinued-Planet-Textures
 conflicts:
   - name: RealSolarSystem
   - name: JNSQ
 depends:
+  - name: 1ThousandSpecialPlanetPack-Textures
   - name: ModuleManager
   - name: Kopernicus
   - name: ParallaxContinued
