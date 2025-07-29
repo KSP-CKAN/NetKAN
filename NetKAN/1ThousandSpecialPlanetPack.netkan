@@ -1,5 +1,6 @@
 identifier: 1ThousandSpecialPlanetPack
 $kref: '#/ckan/spacedock/3931'
+x_netkan_version_edit: ^(RELEASE )?(?<version>.*)$
 license: restricted
 tags:
   - planet-pack
@@ -7,6 +8,9 @@ provides:
   - ParallaxContinued-Terrain-Textures
   - ParallaxContinued-Scatter-Textures
   - ParallaxContinued-Planet-Textures
+conflicts:
+  - name: RealSolarSystem
+  - name: JNSQ
 depends:
   - name: ModuleManager
   - name: Kopernicus
@@ -16,6 +20,11 @@ depends:
   - name: ScaledDecorator
 recommends:
   - name: Deferred
+  - name: DistantObject
+  - name: Scatterer
+  - name: Firefly
+suggests:
+  - name: KSPCommunityFixes
 install:
   - find: Thousand_Special
     install_to: GameData
