@@ -1,8 +1,9 @@
-identifier: kOSComputer
+identifier: kOS-Computer
 $kref: '#/ckan/github/sinucep/kOS-Computer'
 license: MIT
 abstract: >-
-  kOS-Computer is a programmable flight management system designed to work with VR.
+  kOS-Computer is a programmable flight management system designed to work
+  with VR.
 description: >-
   kOS-Computer is a programmable flight management system (or guidance computer)
   designed to fully work with VR. But you don't need VR for this mod!
@@ -33,7 +34,7 @@ install:
 depends:
   - name: ModuleManager
   - name: kOSPropMonitor
-  - name: kOS
+  - name: DE-IVAExtension
   - name: Reviva
 recommends:
   - name: kOSforAll
