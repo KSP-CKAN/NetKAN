@@ -33,6 +33,8 @@ install:
     install_to: Ships
 depends:
   - name: ModuleManager
+  - name: kOS
+  - name: RasterPropMonitor-Core
   - name: kOSPropMonitor
   - name: DE-IVAExtension
   - name: Reviva
