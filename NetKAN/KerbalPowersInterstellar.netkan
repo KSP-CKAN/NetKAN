@@ -3,8 +3,12 @@ $kref: '#/ckan/spacedock/3821'
 license: restricted
 tags:
   - parts
+  - isv
+  - interstelllar
 depends:
   - name: ModuleManager
+  - name: KerbalPowersCore
+suggests:
   - name: Waterfall
 install:
   - find: KerbalPowers
