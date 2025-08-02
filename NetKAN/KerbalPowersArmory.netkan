@@ -1,6 +1,5 @@
 identifier: KerbalPowersArmory
 $kref: '#/ckan/github/KerbalPowers/KP-Armory'
-x_netkan_version_edit: ^v?(?<version>.+)$
 ---
 identifier: KerbalPowersArmory
 $kref: '#/ckan/spacedock/3767'
