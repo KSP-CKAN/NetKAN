@@ -1,3 +1,6 @@
+identifier: StockalikeHairstyles
+$kref: '#/ckan/github/Datsk133/Nemesis'
+---
 identifier: Nemesis
 $kref: '#/ckan/spacedock/3926'
 tags:
@@ -6,4 +9,3 @@ tags:
 depends:
   - name: ModuleManager
   - name: Kopernicus
-x_via: Automated SpaceDock CKAN submission
