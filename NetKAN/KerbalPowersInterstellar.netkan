@@ -5,9 +5,11 @@ tags:
   - parts
 depends:
   - name: ModuleManager
+  - name: KerbalPowersCore
+suggests:
   - name: Waterfall
 install:
-  - find: KerbalPowers
-    install_to: GameData
+  - find: KerbalPowers/Interstellar
+    install_to: GameData/KerbalPowers
   - find: TURD
     install_to: GameData

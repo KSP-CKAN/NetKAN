@@ -8,10 +8,11 @@ tags:
   - combat
 depends:
   - name: ModuleManager
+  - name: KerbalPowersCore
   - name: BDArmory
   - name: PhysicsRangeExtender
 suggests:
   - name: VABorganizer
 install:
-  - find: KerbalPowers
-    install_to: GameData
+  - find: KerbalPowers/Armory
+    install_to: GameData/KerbalPowers
