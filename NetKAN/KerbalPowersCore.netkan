@@ -6,6 +6,9 @@ $kref: '#/ckan/spacedock/3943'
 tags:
   - library
   - agency
+suggests:
+  - name: KerbalPowersInterstellar
+  - name: KerbalPowersArmory
 install:
   - find: KerbalPowers
     install_to: GameData
