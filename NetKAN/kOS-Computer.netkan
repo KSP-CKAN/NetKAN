@@ -1,0 +1,30 @@
+identifier: kOS-Computer
+$kref: '#/ckan/github/sinucep/kOS-Computer'
+abstract: >-
+  Programmable flight management system designed to work with VR.
+description: >-
+  Programmable flight management system (or guidance computer)
+  designed to fully work with (or without) VR.
+  100% KerboScript and completely rewritable.
+resources:
+  homepage: https://forum.kerbalspaceprogram.com/topic/228209-kos-computer/
+tags:
+  - config
+  - control
+  - first-person
+install:
+  - find: GameData/kOS-Computer
+    install_to: GameData
+  - find: Craft/Ships
+    install_to: Ships
+  - find: Ships/Script
+    install_to: Ships
+depends:
+  - name: ModuleManager
+  - name: kOS
+  - name: RasterPropMonitor-Core
+  - name: kOSPropMonitor
+  - name: DE-IVAExtension
+  - name: Reviva
+recommends:
+  - name: kOSforAll
