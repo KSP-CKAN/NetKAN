@@ -1,0 +1,17 @@
+identifier: Nibrek
+$kref: '#/ckan/spacedock/3840'
+comment: The version files are from bundled mods
+tags:
+  - config
+  - planet-pack
+  - plugin
+depends:
+  - name: ModuleManager
+  - name: Kopernicus
+  - name: VertexMitchellNetravaliHeightMap
+suggests:
+  - name: Scatterer
+install:
+  - find: GameData/Nibrek
+    install_to: GameData
+    filter_regexp: \.pdb$
