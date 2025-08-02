@@ -9,7 +9,6 @@ install:
   - find: CJMP
     install_to: GameData
     filter_regexp: \.craft$
-  - file: GameData/CJMP/SR71/Craft/BlackBird.craft
-    install_to: Ships/SPH
-  - file: GameData/CJMP/SR71/Craft/BlackBirdCanard.craft
-    install_to: Ships/SPH
+  - find: Craft
+    install_to: Ships
+    as: SPH
