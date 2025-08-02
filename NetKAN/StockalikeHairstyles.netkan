@@ -7,6 +7,6 @@ $kref: '#/ckan/spacedock/3941'
 install:
   - find: SF
     install_to: GameData
-depends
+depends:
   - name: ModuleManager
   - name: TextureReplacer
