@@ -1,6 +1,6 @@
 identifier: Nibrek
 $kref: '#/ckan/spacedock/3840'
-$vref: '#/ckan/ksp-avc'
+comment: The version files are from bundled mods
 tags:
   - config
   - planet-pack
@@ -13,4 +13,3 @@ install:
   - find: GameData/Nibrek
     install_to: GameData
     filter_regexp: \.pdb$
-x_via: Automated SpaceDock CKAN submission
