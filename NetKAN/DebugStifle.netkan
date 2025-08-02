@@ -1,6 +1,5 @@
 identifier: DebugStifle
 $kref: '#/ckan/github/Clayell/DebugStifle'
-x_netkan_version_edit: ^v?(?<version>.+)$
 ---
 identifier: DebugStifle
 $kref: '#/ckan/spacedock/3942'
@@ -11,4 +10,3 @@ install:
   - find: DebugStifle
     install_to: GameData
     filter_regexp: \.pdb$
-x_via: Automated SpaceDock CKAN submission
