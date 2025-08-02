@@ -1,0 +1,11 @@
+identifier: Nemesis
+$kref: '#/ckan/github/Datsk133/Nemesis'
+---
+identifier: Nemesis
+$kref: '#/ckan/spacedock/3926'
+tags:
+  - config
+  - planet-pack
+depends:
+  - name: ModuleManager
+  - name: Kopernicus
