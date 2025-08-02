@@ -4,7 +4,8 @@ $kref: '#/ckan/github/KerbalPowers/KP-Core'
 identifier: KerbalPowersCore
 $kref: '#/ckan/spacedock/3943'
 tags:
-  - dependency
+  - library
+  - agency
 install:
-  - find: KerbalPowers/Agencies
-    install_to: GameData/KerbalPowers
+  - find: KerbalPowers
+    install_to: GameData
