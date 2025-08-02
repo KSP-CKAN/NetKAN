@@ -5,9 +5,13 @@ identifier: KerbalPowersArmory
 $kref: '#/ckan/spacedock/3767'
 tags:
   - parts
+  - combat
 depends:
   - name: ModuleManager
+  - name: BDArmory
+  - name: PhysicsRangeExtender
+suggests:
+  - name: VABorganizer
 install:
   - find: KerbalPowers
     install_to: GameData
-x_via: Automated SpaceDock CKAN submission
