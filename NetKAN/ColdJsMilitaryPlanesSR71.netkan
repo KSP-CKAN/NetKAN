@@ -1,5 +1,6 @@
 identifier: ColdJsMilitaryPlanesSR71
 $kref: '#/ckan/spacedock/3937'
+license: restricted
 tags:
   - crewed
   - first-person
@@ -12,4 +13,3 @@ install:
     install_to: Ships/SPH
   - file: GameData/CJMP/SR71/Craft/BlackBirdCanard.craft
     install_to: Ships/SPH
-x_via: Automated SpaceDock CKAN submission
