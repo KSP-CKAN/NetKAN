@@ -4,9 +4,10 @@ x_netkan_version_edit: ^v?(?<version>.+)$
 ---
 identifier: StockalikeHairstyles
 $kref: '#/ckan/spacedock/3941'
+tags:
+  - config
 install:
   - find: SF
     install_to: GameData
 depends:
-  - name: ModuleManager
   - name: TextureReplacer
