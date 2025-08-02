@@ -8,6 +8,7 @@ tags:
   - combat
 depends:
   - name: ModuleManager
+  - name: KerbalPowersCore
   - name: BDArmory
   - name: PhysicsRangeExtender
 suggests:
