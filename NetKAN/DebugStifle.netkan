@@ -1,0 +1,12 @@
+identifier: DebugStifle
+$kref: '#/ckan/github/Clayell/DebugStifle'
+---
+identifier: DebugStifle
+$kref: '#/ckan/spacedock/3942'
+tags:
+  - config
+  - plugin
+install:
+  - find: DebugStifle
+    install_to: GameData
+    filter_regexp: \.pdb$
