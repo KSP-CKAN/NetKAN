@@ -1,0 +1,10 @@
+identifier: KerbalPowersCore
+$kref: '#/ckan/github/KerbalPowers/KP-Core'
+---
+identifier: KerbalPowersCore
+$kref: '#/ckan/spacedock/3943'
+tags:
+  - dependency
+install:
+  - find: KerbalPowers/Agencies
+    install_to: GameData/KerbalPowers
