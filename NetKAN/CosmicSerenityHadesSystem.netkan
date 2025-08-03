@@ -1,1 +1,15 @@
-comment: Waiting for the Author.
+identifier: CosmicSerenity-Hades
+$kref: '#/ckan/github/ProximaCentauri-star/Cosmic-Serenity/asset_match/Hades'
+tags:
+  - config
+  - planet-pack
+depends:
+  - name: ModuleManager
+  - name: Kopernicus
+  - name: VertexMitchellNetravaliHeightMap
+recommends:
+  - name: KopernicusExpansion
+  - name: Singularity
+install:
+  - find: CosmicSerenity
+    install_to: GameData
