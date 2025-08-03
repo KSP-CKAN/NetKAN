@@ -4,7 +4,6 @@ license: restricted
 tags:
   - config
   - planet-pack
-  - plugin
 depends:
   - name: ModuleManager
   - name: Kopernicus
