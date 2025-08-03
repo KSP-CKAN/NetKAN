@@ -1,0 +1,12 @@
+identifier: TrivarionVolumetricClouds
+$kref: '#/ckan/spacedock/3945'
+tags:
+  - config
+  - planet-pack
+depends:
+  - name: ModuleManager
+  - name: Kopernicus
+install:
+  - find: ''
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
