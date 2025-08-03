@@ -10,7 +10,7 @@ depends:
   - name: Kopernicus
   - name: ScaledDecorator
 suggests:
-  - name CosmicSerenity-Hades
+  - name: CosmicSerenity-Hades
 install:
   - find: CosmicSerenity
     install_to: GameData
