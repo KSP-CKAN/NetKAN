@@ -12,5 +12,5 @@ depends:
 suggests:
   - name CosmicSerenity-Hades
 install:
-  - find: ''
+  - find: CosmicSerenity
     install_to: GameData
