@@ -1,9 +1,12 @@
 identifier: CosmicSerenity-Core
+name: Cosmic Serenity - Core
+abstract: Shared assets for Cosmic Serenity
 $kref: '#/ckan/github/ProximaCentauri-star/Cosmic-Serenity/asset_match/Core'
 license: restricted
 tags:
   - config
   - planet-pack
+  - library
 depends:
   - name: ModuleManager
   - name: Kopernicus
