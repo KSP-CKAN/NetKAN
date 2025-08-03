@@ -9,6 +9,7 @@ depends:
   - name: Kopernicus
   - name: VertexMitchellNetravaliHeightMap
   - name: ScaledDecorator
+  - name: CosmicSerenity-Core
 recommends:
   - name: KopernicusExpansion
   - name: Singularity
