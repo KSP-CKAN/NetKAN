@@ -1,1 +1,15 @@
-comment: Waiting for Author.
+identifier: CosmicSerenity-Core
+$kref: '#/ckan/github/ProximaCentauri-star/Cosmic-Serenity/asset_match/Core'
+tags:
+  - config
+  - planet-pack
+  - plugin
+depends:
+  - name: ModuleManager
+  - name: Kopernicus
+  - name: ScaledDecorator
+suggests:
+  - name CosmicSerenity-Hades
+install:
+  - find: ''
+    install_to: GameData
