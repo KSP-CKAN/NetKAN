@@ -2,10 +2,6 @@ identifier: CosmicSerenity-Core
 name: Cosmic Serenity - Core
 abstract: Shared assets for Cosmic Serenity
 $kref: '#/ckan/github/ProximaCentauri-star/Cosmic-Serenity/asset_match/Core'
-resources:
-  bugtracker: https://github.com/ProximaCentauri-star/Cosmic-Serenity/issues
-  homepage: >-
-    https://forum.kerbalspaceprogram.com/topic/228453-112x-cosmic-serenity-v10-wip/#comment-4473675
 license: restricted
 tags:
   - config
