@@ -2,7 +2,7 @@ identifier: LunaCompat
 $kref: '#/ckan/github/TheXankriegor/LunaCompat'
 $vref: '#/ckan/ksp-avc'
 description: >-
-  Complex mods don't work with Luna Multiplayer.
+  Complex mods are incompatible with Luna Multiplayer.
   LunaCompat adds compatibility patches for various mods
   via LMP part module configurations and Harmony patches.
   Patches are only applied to mods added to the modlist.
