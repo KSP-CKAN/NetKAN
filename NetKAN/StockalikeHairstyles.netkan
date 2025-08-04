@@ -11,3 +11,4 @@ install:
     install_to: GameData/TextureReplacer/Skins
 depends:
   - name: TextureReplacer
+  - name: ModuleManager
