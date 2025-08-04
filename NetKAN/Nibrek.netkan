@@ -14,3 +14,6 @@ install:
   - find: GameData/Nibrek
     install_to: GameData
     filter_regexp: \.pdb$
+  - find: GameData/StockScattererConfigs
+    install_to: GameData
+    filter_regexp: \.pdb$
