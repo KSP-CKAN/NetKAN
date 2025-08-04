@@ -1,0 +1,20 @@
+identifier: CosmicSerenity-Hades
+name: Cosmic Serenity - Hades System
+abstract: A brown dwarf system filled with endearing worlds
+$kref: '#/ckan/github/ProximaCentauri-star/Cosmic-Serenity/asset_match/Hades'
+license: restricted
+tags:
+  - config
+  - planet-pack
+depends:
+  - name: ModuleManager
+  - name: Kopernicus
+  - name: VertexMitchellNetravaliHeightMap
+  - name: ScaledDecorator
+  - name: CosmicSerenity-Core
+recommends:
+  - name: KopernicusExpansion
+  - name: Singularity
+install:
+  - find: CosmicSerenity
+    install_to: GameData
