@@ -6,9 +6,9 @@ tags:
   - plugin
   - config
 install:
-  - file: LunaCompat
+  - find: LunaCompat
     install_to: GameData
-  - file: LunaMultiplayer
+  - find: LunaMultiplayer
     install_to: GameData
 depends:
   - name: ModuleManager
