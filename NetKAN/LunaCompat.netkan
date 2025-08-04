@@ -20,3 +20,5 @@ depends:
   - name: ModuleManager
   - name: Harmony2
   - name: LunaMultiplayer
+supports:
+  - name: LunaMultiplayer
