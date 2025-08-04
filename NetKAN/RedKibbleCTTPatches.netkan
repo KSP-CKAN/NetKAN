@@ -6,6 +6,9 @@ depends:
   - name: ModuleManager
   - name: BetterEarlyTree
   - name: CommunityTechTree
+recommends:
+  - name: HideEmptyTechNodes
+  - name: ImprovedTreeEnginePlacement
 install:
   - find: RedKibble CTT Patches
     install_to: GameData
