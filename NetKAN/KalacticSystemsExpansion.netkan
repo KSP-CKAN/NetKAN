@@ -7,4 +7,7 @@ depends:
   - name: ModuleManager
   - name: Kopernicus
   - name: VertexMitchellNetravaliHeightMap
-x_via: Automated SpaceDock CKAN submission
+recommends:
+  - name: Scatterer
+  - name: EnviromentalVisualEnhancements
+
