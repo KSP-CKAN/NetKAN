@@ -3,7 +3,7 @@ $kref: '#/ckan/github/TheXankriegor/LunaCompat'
 $vref: '#/ckan/ksp-avc'
 abstract: Compatibility patches to make KSP's Luna Multiplayer support other mods.
 description: >-
-  Complex mods are incompatible with Luna Multiplayer.
+  Complex mods don't work with Luna Multiplayer.
   LunaCompat adds compatibility patches for various mods
   via LMP part module configurations and Harmony patches.
   Patches are only applied to mods added to the modlist.
