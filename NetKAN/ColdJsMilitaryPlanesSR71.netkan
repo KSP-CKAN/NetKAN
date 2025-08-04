@@ -5,6 +5,8 @@ tags:
   - crewed
   - first-person
   - parts
+recommends:
+  - name: RasterPropMonitor
 install:
   - find: CJMP
     install_to: GameData
