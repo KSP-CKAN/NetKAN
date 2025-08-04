@@ -9,6 +9,7 @@ tags:
   - planet-pack
 depends:
   - name: ModuleManager
+  - name: ModularFlightIntergrator
   - name: Kopernicus
 install:
   - find: Trivarion
