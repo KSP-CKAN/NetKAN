@@ -1,0 +1,26 @@
+identifier: LunaCompat
+$kref: '#/ckan/github/TheXankriegor/LunaCompat'
+$vref: '#/ckan/ksp-avc'
+release_status: development
+resources:
+  bugtracker: https://github.com/TheXankriegor/LunaCompat/issues
+  license: https://github.com/TheXankriegor/LunaCompat/blob/main/LICENSE
+  homepage: https://github.com/TheXankriegor/LunaCompat
+  repository: https://github.com/TheXankriegor/LunaCompat
+tags:
+  - plugin
+install:
+  - file: GameData/LunaCompat
+    install_to: GameData
+    as: LunaCompat
+  - file: GameData/LunaMultiplayer
+    install_to: GameData
+    as: LunaMultiplayer
+ksp_version: '1.12'
+depends:
+  - name: ModuleManager
+    min_version: 4.2.3
+  - name: Harmony2
+    min_version: 2.2.1.0
+  - name: LunaMultiplayer
+    min_version: 0.29.0-Draft
