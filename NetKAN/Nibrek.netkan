@@ -9,7 +9,6 @@ depends:
   - name: ModuleManager
   - name: Kopernicus
   - name: VertexMitchellNetravaliHeightMap
-suggests:
   - name: Scatterer
 install:
   - find: GameData/Nibrek
