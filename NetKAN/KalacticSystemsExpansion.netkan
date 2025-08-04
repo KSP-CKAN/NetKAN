@@ -1,0 +1,12 @@
+identifier: KalacticSystemsExpansion
+$kref: '#/ckan/spacedock/3923'
+tags:
+  - config
+  - planet-pack
+depends:
+  - name: ModuleManager
+  - name: Kopernicus
+  - name: VertexMitchellNetravaliHeightMap
+recommends:
+  - name: Scatterer
+  - name: EnviromentalVisualEnhancements
