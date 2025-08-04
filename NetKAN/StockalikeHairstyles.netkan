@@ -8,6 +8,6 @@ tags:
   - config
 install:
   - find: SF
-    install_to: GameData
+    install_to: GameData/TextureReplacer/Skins
 depends:
   - name: TextureReplacer
