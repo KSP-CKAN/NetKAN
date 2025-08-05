@@ -1,0 +1,24 @@
+identifier: LunaCompat
+$kref: '#/ckan/github/TheXankriegor/LunaCompat'
+$vref: '#/ckan/ksp-avc'
+description: >-
+  Complex mods are incompatible with Luna Multiplayer.
+  LunaCompat adds compatibility patches for various mods
+  via LMP part module configurations and Harmony patches.
+  Patches are only applied to mods added to the modlist.
+  Check the repository to see the full list of supported mods.
+ksp_version: '1.12'
+tags:
+  - plugin
+  - config
+install:
+  - find: LunaCompat
+    install_to: GameData
+  - find: LunaMultiplayer
+    install_to: GameData
+depends:
+  - name: ModuleManager
+  - name: Harmony2
+  - name: LunaMultiplayer
+supports:
+  - name: LunaMultiplayer
