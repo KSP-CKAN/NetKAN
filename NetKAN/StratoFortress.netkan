@@ -1,5 +1,6 @@
 identifier: StratoFortress
 $kref: '#/ckan/spacedock/3947'
+license: restricted
 tags:
   - crewed
   - first-person
@@ -10,4 +11,3 @@ install:
     filter_regexp: \.craft$
   - file: GameData/StratoFortress/Craft/B52WingsLoad.craft
     install_to: Ships/SPH
-x_via: Automated SpaceDock CKAN submission
