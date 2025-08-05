@@ -1,5 +1,6 @@
 identifier: Space199950thAnniversary
 $kref: '#/ckan/spacedock/3844'
+license: restricted
 tags:
   - crewed
   - first-person
@@ -14,4 +15,3 @@ install:
     install_to: Ships/SPH
   - file: GameData/Space199950/SPH/Hawk50.craft
     install_to: Ships/SPH
-x_via: Automated SpaceDock CKAN submission
