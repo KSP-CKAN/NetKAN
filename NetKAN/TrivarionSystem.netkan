@@ -3,6 +3,7 @@ $kref: '#/ckan/github/Lizard616/Trivarion-System'
 ---
 identifier: TrivarionSystem
 $kref: '#/ckan/spacedock/3944'
+x_netkan_version_edit: ^v?(?<version>.+)$
 license: restricted
 tags:
   - config
