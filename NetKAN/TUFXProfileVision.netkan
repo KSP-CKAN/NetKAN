@@ -1,0 +1,13 @@
+identifier: TUFXProfileVision
+$kref: '#/ckan/github/jongshh/JSIA-Vision'
+---
+identifier: TUFXProfileVision
+$kref: '#/ckan/spacedock/3946'
+tags:
+  - config
+  - graphics
+depends:
+  - name: TUFX
+install:
+  - find: JSIA Vision
+    install_to: GameData
