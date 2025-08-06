@@ -1,6 +1,5 @@
 identifier: TUFXProfileVision
 $kref: '#/ckan/github/jongshh/JSIA-Vision'
-x_netkan_version_edit: ^R?(?<version>.+)$
 ---
 identifier: TUFXProfileVision
 $kref: '#/ckan/spacedock/3946'
