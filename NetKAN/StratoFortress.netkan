@@ -1,0 +1,13 @@
+identifier: StratoFortress
+$kref: '#/ckan/spacedock/3947'
+license: restricted
+tags:
+  - crewed
+  - first-person
+  - parts
+install:
+  - find: StratoFortress
+    install_to: GameData
+    filter_regexp: \.craft$
+  - file: GameData/StratoFortress/Craft/B52WingsLoad.craft
+    install_to: Ships/SPH
