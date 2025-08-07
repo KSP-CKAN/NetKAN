@@ -1,0 +1,14 @@
+identifier: StockalikeHairstyles
+$kref: '#/ckan/github/rockmeowstar/KSP_Stockalike_Hairstyles'
+x_netkan_version_edit: ^v?(?<version>.+)$
+---
+identifier: StockalikeHairstyles
+$kref: '#/ckan/spacedock/3941'
+tags:
+  - config
+install:
+  - find: SF
+    install_to: GameData/TextureReplacer/Skins
+depends:
+  - name: TextureReplacer
+  - name: ModuleManager
