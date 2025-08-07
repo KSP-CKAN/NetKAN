@@ -1,0 +1,9 @@
+identifier: 100special
+$kref: '#/ckan/spacedock/3953'
+tags:
+  - config
+  - planet-pack
+depends:
+  - name: ModuleManager
+  - name: Kopernicus
+x_via: Automated SpaceDock CKAN submission
