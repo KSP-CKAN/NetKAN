@@ -1,0 +1,11 @@
+identifier: MangosCountryLiving
+$kref: '#/ckan/spacedock/3954'
+tags:
+  - buildings
+  - config
+depends:
+  - name: KerbalKonstructs
+install:
+  - find: MangoTech
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
