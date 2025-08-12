@@ -1,0 +1,11 @@
+identifier: mischenTUFX
+$kref: '#/ckan/spacedock/3955'
+tags:
+  - config
+  - graphics
+depends:
+  - name: TUFX
+install:
+  - find: ''
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
