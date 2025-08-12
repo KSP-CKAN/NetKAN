@@ -1,0 +1,26 @@
+identifier: ByXuanDe
+$kref: '#/ckan/spacedock/3957'
+tags:
+  - buildings
+  - crewed
+  - first-person
+  - parts
+depends:
+  - name: KerbalKonstructs
+install:
+  - find: ByXuanDe
+    install_to: GameData
+    filter_regexp: \.craft$
+  - file: ByXuanDe/Car.craft
+    install_to: Ships/SPH
+  - file: ByXuanDe/SubCar.craft
+    install_to: Ships/SPH
+  - file: ByXuanDe/Train(CN)-CR400AF.craft
+    install_to: Ships/SPH
+  - file: ByXuanDe/Train(CN)-CRH2B.craft
+    install_to: Ships/SPH
+  - file: ByXuanDe/Train(CN)-HXD1B.craft
+    install_to: Ships/SPH
+  - file: ByXuanDe/Train(CN)-YZ25.craft
+    install_to: Ships/SPH
+x_via: Automated SpaceDock CKAN submission
