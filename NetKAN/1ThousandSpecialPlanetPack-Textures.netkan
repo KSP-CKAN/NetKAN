@@ -1,5 +1,5 @@
 identifier: 1ThousandSpecialPlanetPack-Textures
-name: 1 Thousand Special Planet Pack - Textures
+name: Eternal - Textures
 $kref: '#/ckan/github/Kramken/1TS-Textures'
 license: restricted
 tags:
@@ -12,5 +12,5 @@ provides:
 depends:
   - name: 1ThousandSpecialPlanetPack
 install:
-  - find: Thousand_Special
+  - find: Texture
     install_to: GameData
