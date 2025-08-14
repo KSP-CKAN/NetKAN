@@ -12,5 +12,5 @@ provides:
 depends:
   - name: 1ThousandSpecialPlanetPack
 install:
-  - find: Texture
+  - find: Eternal
     install_to: GameData
