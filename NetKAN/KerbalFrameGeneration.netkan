@@ -1,0 +1,9 @@
+identifier: KerbalFrameGeneration
+$kref: '#/ckan/spacedock/3965'
+tags:
+  - config
+  - plugin
+install:
+  - find: MangoTech
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
