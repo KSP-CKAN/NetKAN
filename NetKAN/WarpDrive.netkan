@@ -15,3 +15,4 @@ depends:
   - name: ToolbarController
   - name: ClickThroughBlocker
   - name: ModuleManager
+  - name: SpaceTuxLibrary
