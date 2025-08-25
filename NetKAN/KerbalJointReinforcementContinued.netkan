@@ -38,6 +38,7 @@
     ],
     "provides"      : [ "KerbalJointReinforcement" ],
     "conflicts"     : [
-        { "name"    : "KerbalJointReinforcement" }
+        { "name"    : "KerbalJointReinforcement" },
+        { "name"    : "AnimatedAttachment" }
     ]
 }
