@@ -1,0 +1,9 @@
+identifier: KerbalSuperResKSR1
+$kref: '#/ckan/spacedock/3970'
+tags:
+  - config
+  - plugin
+install:
+  - find: KSR
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
