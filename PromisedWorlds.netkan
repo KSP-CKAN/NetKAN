@@ -1,1 +1,13 @@
-comment: Waiting for author
+identifier: PromisedWorlds
+name: Promised Worlds
+abstract: Adds the promised KSP2 Star Systems to KSP1
+author:
+  - PromisedWorlds Dev Team
+$kref: '#/ckan/github/Constructalor/PromisedWorlds'
+tags:
+  - config
+  - planet-pack
+depends:
+  - name: Singularity
+  - name: Kopernicus
+  - name: ScaledDecorator
