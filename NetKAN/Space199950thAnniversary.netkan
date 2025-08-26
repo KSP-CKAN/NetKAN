@@ -1,0 +1,17 @@
+identifier: Space199950thAnniversary
+$kref: '#/ckan/spacedock/3844'
+license: restricted
+tags:
+  - crewed
+  - first-person
+  - parts
+depends:
+  - name: ModuleManager
+install:
+  - find: Space199950
+    install_to: GameData
+    filter_regexp: \.craft$
+  - file: GameData/Space199950/SPH/Eagle rescue.craft
+    install_to: Ships/SPH
+  - file: GameData/Space199950/SPH/Hawk50.craft
+    install_to: Ships/SPH
