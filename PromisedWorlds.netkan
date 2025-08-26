@@ -11,3 +11,4 @@ depends:
   - name: Singularity
   - name: Kopernicus
   - name: ScaledDecorator
+  - name: ModuleManager
