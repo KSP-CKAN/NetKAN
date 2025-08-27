@@ -1,0 +1,7 @@
+identifier: VedalAIFlags
+$kref: '#/ckan/spacedock/3963'
+tags:
+  - flags
+install:
+  - find: Neuro flags
+    install_to: GameData
