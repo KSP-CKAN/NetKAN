@@ -10,5 +10,5 @@ depends:
   - name: HabTechRobotics
   - name: IR-ConnectionSystem
 install:
-  - find: Canadarm-Continued-Canadarm
+  - find: Canadarm
     install_to: GameData
