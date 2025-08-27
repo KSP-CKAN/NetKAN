@@ -6,5 +6,5 @@ tags:
 depends:
   - name: TUFX
 install:
-  - find: 'mischenTUFX'
+  - file: mischenTUFX.cfg
     install_to: GameData
