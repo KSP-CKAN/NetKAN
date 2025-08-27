@@ -1,0 +1,7 @@
+identifier: SubaruFlagPack
+$kref: '#/ckan/spacedock/3966'
+tags:
+  - flags
+install:
+  - find: SubaruFlags
+    install_to: GameData
