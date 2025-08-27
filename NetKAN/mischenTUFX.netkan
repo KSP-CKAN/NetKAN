@@ -6,6 +6,5 @@ tags:
 depends:
   - name: TUFX
 install:
-  - find: ''
+  - find: mischenTUFX
     install_to: GameData
-x_via: Automated SpaceDock CKAN submission
