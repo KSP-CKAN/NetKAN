@@ -4,7 +4,11 @@ tags:
   - parts
 depends:
   - name: ModuleManager
+  - name: InfernalRoboticsNext
+  - name: KerbalJointReinforcementNext
+  - name: NeptuneCamera
+  - name: HabTechRobotics
+  - name: IR-ConnectionSystem
 install:
   - find: Canadarm-Continued-Canadarm
     install_to: GameData
-x_via: Automated SpaceDock CKAN submission
