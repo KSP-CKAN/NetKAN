@@ -6,5 +6,5 @@ tags:
 depends:
   - name: TUFX
 install:
-  - find: mischenTUFX
+  - find: 'mischenTUFX'
     install_to: GameData
