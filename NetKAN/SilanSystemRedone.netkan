@@ -7,7 +7,7 @@ depends:
   - name: ModuleManager
   - name: Kopernicus
   - name: VertexMitchellNetravaliHeightMap
+  - name: VertexHeightOblateAdvanced
 install:
   - find: SilanSystem
     install_to: GameData
-x_via: Automated SpaceDock CKAN submission
