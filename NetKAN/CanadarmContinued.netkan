@@ -1,0 +1,14 @@
+identifier: CanadarmContinued
+$kref: '#/ckan/spacedock/3967'
+tags:
+  - parts
+depends:
+  - name: ModuleManager
+  - name: InfernalRoboticsNext
+  - name: KerbalJointReinforcementNext
+  - name: NeptuneCamera
+  - name: HabTechRobotics
+  - name: IR-ConnectionSystem
+install:
+  - find: Canadarm
+    install_to: GameData
