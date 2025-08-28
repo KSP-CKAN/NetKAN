@@ -12,3 +12,6 @@ tags:
   - parts
 depends:
   - name: ModuleManager
+install:
+  - find: OldPartsRevived
+    install_to: GameData
