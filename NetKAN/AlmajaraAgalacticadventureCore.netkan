@@ -6,7 +6,15 @@ tags:
 depends:
   - name: ModuleManager
   - name: Kopernicus
+  - name: KSPCommunityFixes
+  - name: Kopernicus
+  - name: Harmony2
+  - name: ModularFlightIntegrator
+  - name: VertexHeightOblateAdvanced
+  - name: VertexColorMapEmissive
+  - name: ScaledDecorator
+  - name: Singularity
+  - name: VertexMitchellNetravaliHeightMap
 install:
   - find: Almajara-Core
     install_to: GameData
-x_via: Automated SpaceDock CKAN submission
