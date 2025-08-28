@@ -1,0 +1,17 @@
+identifier: PromisedWorldsCore
+name: Promised Worlds Core
+abstract: The core for Promised Worlds
+author:
+  - Promised Worlds Dev Team
+$kref: '#/ckan/github/Constructalor/PromisedWorlds/asset_match/Core'
+tags:
+  - config
+  - planet-pack
+depends:
+  - name: Singularity
+  - name: Kopernicus
+  - name: ScaledDecorator
+  - name: ModuleManager
+install:
+  - find: PromisedWorlds
+    install_to: GameData

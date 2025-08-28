@@ -1,0 +1,13 @@
+identifier: PromisedWorldsDebdeb
+name: Promised Worlds Core
+author:
+  - Promised Worlds Dev Team
+$kref: '#/ckan/github/Constructalor/PromisedWorlds/asset_match/Debdeb'
+tags:
+  - config
+  - planet-pack
+depends:
+  - name: PromisedWorldsCore
+install:
+  - find: Debdeb
+    install_to: GameData
