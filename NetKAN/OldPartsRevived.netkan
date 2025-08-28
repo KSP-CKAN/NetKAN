@@ -3,15 +3,12 @@ $kref: '#/ckan/github/munktron239/Old-Parts-Revived'
 x_netkan_github:
   use_source_archive: true
 x_netkan_version_edit: ^v?(?<version>.+)$
-$vref: '#/ckan/ksp-avc'
 ---
 identifier: OldPartsRevived
 $kref: '#/ckan/spacedock/3960'
-$vref: '#/ckan/ksp-avc'
 tags:
   - crewed
   - first-person
   - parts
 depends:
   - name: ModuleManager
-x_via: Automated SpaceDock CKAN submission
