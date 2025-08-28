@@ -1,0 +1,17 @@
+identifier: PlanetaryResourceInfrastructureWater
+$kref: '#/ckan/spacedock/3948'
+tags:
+  - config
+depends:
+  - name: ModuleManager
+  - name: B9PartSwitch
+  - name: CommunityResourcePack
+  - name: FarFutureTechnologies
+  - name: CryoEngines
+  - name: StationPartsExpansionRedux
+recommends:
+  - name: StockalikeMiningExtension
+  - name: NearFutureLaunchVehicles
+install:
+  - find: PRI
+    install_to: GameData
