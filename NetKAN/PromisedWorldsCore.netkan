@@ -12,6 +12,10 @@ depends:
   - name: Kopernicus
   - name: ScaledDecorator
   - name: ModuleManager
+  - name: KopernicusExpansion
+  - name: VertexMitchellNetravaliHeightMap
+  - name: VertexColorMapEmissive
+  - name: VertexHeightOblateAdvanced
 install:
   - find: PromisedWorlds
     install_to: GameData
