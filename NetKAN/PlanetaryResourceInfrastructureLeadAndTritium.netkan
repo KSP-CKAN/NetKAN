@@ -1,0 +1,17 @@
+identifier: PlanetaryResourceInfrastructureLeadAndTritium
+$kref: '#/ckan/spacedock/3952'
+tags:
+  - config
+  - graphics
+depends:
+  - name: ModuleManager
+  - name: CustomBarnKit
+  - name: B9PartSwitch
+  - name: Waterfall
+  - name: CommunityResourcePack
+  - name: FarFutureTechnologies
+  - name: NearFutureElectrical
+  - name: SystemHeat
+install:
+  - find: PRI
+    install_to: GameData
