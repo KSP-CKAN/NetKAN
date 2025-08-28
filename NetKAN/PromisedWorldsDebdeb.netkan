@@ -9,5 +9,5 @@ tags:
 depends:
   - name: PromisedWorldsCore
 install:
-  - find: _Systems
-    install_to: PromisedWorlds
+  - find: PromisedWorlds
+    install_to: GameData
