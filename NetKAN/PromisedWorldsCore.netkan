@@ -1,9 +1,9 @@
-identifier: PromisedWorlds
-name: Promised Worlds
-abstract: Adds the promised KSP2 Star Systems to KSP1
+identifier: PromisedWorldsCore
+name: Promised Worlds Core
+abstract: The core for Promised Worlds
 author:
   - Promised Worlds Dev Team
-$kref: '#/ckan/github/Constructalor/PromisedWorlds'
+$kref: '#/ckan/github/Constructalor/PromisedWorlds/asset_match/Core'
 tags:
   - config
   - planet-pack
