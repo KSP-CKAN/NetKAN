@@ -9,5 +9,5 @@ tags:
 depends:
   - name: PromisedWorldsCore
 install:
-  - find: _System
+  - find: _Systems
     install_to: PromisedWorlds
