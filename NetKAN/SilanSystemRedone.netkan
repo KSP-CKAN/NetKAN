@@ -1,0 +1,13 @@
+identifier: SilanSystemRedone
+$kref: '#/ckan/spacedock/3971'
+tags:
+  - config
+  - planet-pack
+depends:
+  - name: ModuleManager
+  - name: Kopernicus
+  - name: VertexMitchellNetravaliHeightMap
+  - name: VertexHeightOblateAdvanced
+install:
+  - find: SilanSystem
+    install_to: GameData
