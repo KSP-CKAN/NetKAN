@@ -8,6 +8,7 @@ tags:
   - agency
 suggests:
   - name: KerbalPowersInterstellar
+  - name: KerbalPowersNaval
   - name: KerbalPowersArmory
 install:
   - find: KerbalPowers
