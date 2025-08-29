@@ -4,6 +4,9 @@ abstract: The core for Promised Worlds
 author:
   - Promised Worlds Dev Team
 $kref: '#/ckan/github/Constructalor/PromisedWorlds/asset_match/Core'
+---
+identifier: PromisedWorldsCore
+$kref: '#/ckan/spacedock/3974'
 tags:
   - config
   - planet-pack
