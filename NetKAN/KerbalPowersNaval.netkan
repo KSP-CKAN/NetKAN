@@ -1,5 +1,5 @@
 identifier: KerbalPowersNaval
-$kref: '#/ckan/github/KerbalPowers/KP-Dynamics'
+$kref: '#/ckan/github/KerbalPowers/KP-Dynamics/asset_match/Naval'
 ---
 identifier: KerbalPowersNaval
 $kref: '#/ckan/spacedock/3977'
@@ -9,6 +9,6 @@ tags:
 depends:
   - name: ModuleManager
 install:
-  - find: ''
+  - find: KerbalPowers
     install_to: GameData
 x_via: Automated SpaceDock CKAN submission
