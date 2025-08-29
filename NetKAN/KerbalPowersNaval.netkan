@@ -1,0 +1,20 @@
+identifier: KerbalPowersNaval
+$kref: '#/ckan/spacedock/3977'
+license: restricted
+tags:
+  - parts
+  - plugin
+depends:
+  - name: ModuleManager
+  - name: KerbalPowersCore
+  - name: FirespitterCore
+suggests:
+  - name: RationalHydroDynamics
+  - name: VABorganizer
+install:
+  - find: KerbalPowers/Naval
+    install_to: GameData/KerbalPowers
+  - find: KerbalPowers/Electrics
+    install_to: GameData/KerbalPowers
+  - find: TURD
+    install_to: GameData
