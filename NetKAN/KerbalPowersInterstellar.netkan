@@ -8,6 +8,7 @@ depends:
   - name: KerbalPowersCore
 suggests:
   - name: Waterfall
+  - name: VABorganizer
 install:
   - find: KerbalPowers/Interstellar
     install_to: GameData/KerbalPowers
