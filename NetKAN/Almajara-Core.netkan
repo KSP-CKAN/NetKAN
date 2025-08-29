@@ -1,4 +1,4 @@
-identifier: AlmajaraAgalacticadventureCore
+identifier: Almajara-Core
 $kref: '#/ckan/spacedock/3968'
 tags:
   - config
@@ -15,6 +15,3 @@ depends:
   - name: ScaledDecorator
   - name: Singularity
   - name: VertexMitchellNetravaliHeightMap
-install:
-  - find: Almajara-Core
-    install_to: GameData
