@@ -1,9 +1,13 @@
 identifier: PromisedWorldsCore
+$kref: '#/ckan/github/PromisedWorlds/PromisedWorlds/asset_match/Core'
+---
+identifier: PromisedWorldsCore
 name: Promised Worlds Core
 abstract: The core for Promised Worlds
 author:
   - Promised Worlds Dev Team
-$kref: '#/ckan/github/Constructalor/PromisedWorlds/asset_match/Core'
+$kref: '#/ckan/spacedock/3974'
+x_netkan_force_v: true
 tags:
   - config
   - planet-pack
