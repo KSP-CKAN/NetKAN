@@ -1,10 +1,4 @@
 identifier: OldPartsRevived
-$kref: '#/ckan/github/munktron239/Old-Parts-Revived'
-x_netkan_github:
-  use_source_archive: true
-x_netkan_version_edit: ^v?(?<version>.+)$
----
-identifier: OldPartsRevived
 $kref: '#/ckan/spacedock/3960'
 tags:
   - crewed
