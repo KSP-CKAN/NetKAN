@@ -12,7 +12,7 @@ depends:
   - name: BDArmory
   - name: PhysicsRangeExtender
 suggests:
-  - name: VABorganizer
+  - name: VABOrganizer
 install:
   - find: KerbalPowers/Armory
     install_to: GameData/KerbalPowers
