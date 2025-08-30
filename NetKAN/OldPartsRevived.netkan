@@ -1,0 +1,11 @@
+identifier: OldPartsRevived
+$kref: '#/ckan/spacedock/3960'
+tags:
+  - crewed
+  - first-person
+  - parts
+depends:
+  - name: ModuleManager
+install:
+  - find: OldPartsRevived
+    install_to: GameData
