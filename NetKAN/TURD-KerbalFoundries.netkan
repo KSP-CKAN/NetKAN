@@ -1,0 +1,19 @@
+identifier: TURD-KerbalFoundries
+name: TURD - Kerbal Foundries
+abstract: >-
+  Collection of Textures Unlimited recolours
+  for Kerbal Foundries Continued
+author: Spartwo
+$kref: '#/ckan/github/KerbalPowers/TURD-KerbalFoundries'
+license: CC-BY-NC-SA-4.0
+tags:
+  - config
+  - graphics
+depends:
+  - name: ModuleManager
+  - name: TexturesUnlimited
+suggests:
+  - name: KerbalFoundriesContinued
+install:
+  - find: TURD
+    install_to: GameData
