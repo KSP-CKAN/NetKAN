@@ -8,6 +8,7 @@ $vref: '#/ckan/ksp-avc'
 tags:
   - buildings
   - config
+"provides"  : [ "KerbalColoniesConfig" ]
 depends:
   - name: ModuleManager
   - name: KerbalColonies
@@ -15,5 +16,5 @@ depends:
   - name: StockalikeStructures
   - name: Paraterraforming
 install:
-  - find: KerbalColonies
+  - find: KC-EL-Default
     install_to: GameData

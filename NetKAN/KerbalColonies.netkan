@@ -15,7 +15,9 @@ tags:
 depends:
   - name: ModuleManager
   - name: KerbalKonstructs
+    min_version: v1.11.0.0
   - name: CustomPreLaunchChecks
   - name: ClickThroughBlocker
-recommends:
-  - name: KerbalColoniesExtraplanetaryLaunchpadsConfig
+  - name: KerbalColoniesConfig
+suggests:
+  - name: KerbalColoniesConfigExpansion
