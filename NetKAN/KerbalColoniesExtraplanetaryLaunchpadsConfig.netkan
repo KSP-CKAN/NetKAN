@@ -15,3 +15,6 @@ depends:
   - name: ExtraPlanetaryLaunchpads
   - name: StockalikeStructures
   - name: Paraterraforming
+install:
+  - find: KC-EL-Default
+    install_to: GameData
