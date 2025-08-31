@@ -6,7 +6,8 @@ $kref: '#/ckan/spacedock/3951'
 tags:
   - buildings
   - config
-"provides" : [ "KerbalColoniesConfigExpansion" ]
+provides:
+  - KerbalColoniesConfigExpansion
 depends:
   - name: ModuleManager
   - name: KerbalKonstructs

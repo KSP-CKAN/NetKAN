@@ -8,7 +8,8 @@ $vref: '#/ckan/ksp-avc'
 tags:
   - buildings
   - config
-"provides"  : [ "KerbalColoniesConfig" ]
+provides:
+  - KerbalColoniesConfig
 depends:
   - name: ModuleManager
   - name: KerbalColonies
