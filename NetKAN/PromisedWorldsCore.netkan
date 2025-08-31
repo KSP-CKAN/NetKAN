@@ -1,8 +1,10 @@
 identifier: PromisedWorldsCore
 $kref: '#/ckan/github/PromisedWorlds/PromisedWorlds/asset_match/Core'
+$vref: '#/ckan/ksp-avc'
 ---
 identifier: PromisedWorldsCore
 $kref: '#/ckan/spacedock/3974'
+$vref: '#/ckan/ksp-avc'
 x_netkan_force_v: true
 tags:
   - config
