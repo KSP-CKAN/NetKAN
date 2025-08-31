@@ -12,6 +12,7 @@ tags:
 depends:
   - name: Singularity
   - name: Kopernicus
+  - name: ScaledDecorator
   - name: ModuleManager
   - name: KopernicusExpansion
   - name: VertexMitchellNetravaliHeightMap
@@ -22,3 +23,4 @@ suggests:
 install:
   - find: PromisedWorlds
     install_to: GameData
+    filter: ScaledDecorator
