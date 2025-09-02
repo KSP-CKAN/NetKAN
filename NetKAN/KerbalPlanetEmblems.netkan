@@ -2,7 +2,10 @@ identifier: KerbalPlanetEmblems
 $kref: '#/ckan/spacedock/3972'
 tags:
   - config
-  - planet-pack
+  - graphics
+supports:
+  - name: OuterPlanetsMod
+  - name: MinorPlanetsExpansion
 depends:
   - name: ModuleManager
   - name: Kopernicus
