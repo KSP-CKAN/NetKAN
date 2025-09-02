@@ -1,6 +1,7 @@
 identifier: BonVoyage
 $kref: '#/ckan/github/net-lisias-ksp/BonVoyage/asset_match/.+?-SpaceDock.+?'
 $vref: '#/ckan/ksp-avc'
+x_netkan_trust_version_file: true
 ---
 identifier: BonVoyage
 $kref: '#/ckan/spacedock/3979'
