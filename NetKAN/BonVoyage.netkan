@@ -1,9 +1,10 @@
 identifier: BonVoyage
-$kref: '#/ckan/github/jarosm/KSP-BonVoyage'
+$kref: '#/ckan/github/net-lisias-ksp/BonVoyage/asset_match/.+?-SpaceDock.+?'
 $vref: '#/ckan/ksp-avc'
+x_netkan_trust_version_file: true
 ---
 identifier: BonVoyage
-$kref: '#/ckan/spacedock/950'
+$kref: '#/ckan/spacedock/3979'
 $vref: '#/ckan/ksp-avc'
 x_netkan_epoch: 1
 license: GPL-3.0
