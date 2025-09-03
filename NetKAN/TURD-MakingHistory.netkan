@@ -1,0 +1,15 @@
+identifier: TURD-MakingHistory
+name: TURD - Making History
+abstract: Collection of Textures Unlimited recolours for the Making History DLC
+author: OnlyLightMatters
+$kref: '#/ckan/github/KerbalPowers/TURD-MH-BG'
+license: CC-BY-NC-SA-4.0
+tags:
+  - config
+  - graphics
+depends:
+  - name: ModuleManager
+  - name: TexturesUnlimited
+install:
+  - find: TURD/TU_MH_AllInOne
+    install_to: GameData/TURD
