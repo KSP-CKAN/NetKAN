@@ -1,0 +1,10 @@
+identifier: Almajara-LastLights
+$kref: '#/ckan/spacedock/3969'
+tags:
+  - config
+  - planet-pack
+depends:
+  - name: Almajara-Core
+install:
+  - find: Almajara-LastLight
+    install_to: GameData

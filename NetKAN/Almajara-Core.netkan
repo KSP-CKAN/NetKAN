@@ -1,0 +1,17 @@
+identifier: Almajara-Core
+$kref: '#/ckan/spacedock/3968'
+tags:
+  - config
+  - planet-pack
+depends:
+  - name: ModuleManager
+  - name: Kopernicus
+  - name: KSPCommunityFixes
+  - name: Kopernicus
+  - name: Harmony2
+  - name: ModularFlightIntegrator
+  - name: VertexHeightOblateAdvanced
+  - name: VertexColorMapEmissive
+  - name: ScaledDecorator
+  - name: Singularity
+  - name: VertexMitchellNetravaliHeightMap
