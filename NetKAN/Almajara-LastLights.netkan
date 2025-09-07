@@ -1,8 +1,8 @@
 identifier: Almajara-LastLights
 $kref: '#/ckan/spacedock/3969'
 tags:
-  - name: config
-  - name: planet-pack
+  - config
+  - planet-pack
 depends:
   - name: Almajara-Core
 install:
