@@ -1,0 +1,16 @@
+identifier: OldPartsRevived
+$kref: '#/ckan/spacedock/3960'
+$vref: '#/ckan/ksp-avc'
+tags:
+  - crewed
+  - first-person
+  - parts
+depends:
+  - name: ModuleManager
+suggests:
+  - name: PartInfoInPAW
+  - name: JanitorsCloset
+  - name: NodeHelper
+install:
+  - find: OldPartsRevived
+    install_to: GameData
