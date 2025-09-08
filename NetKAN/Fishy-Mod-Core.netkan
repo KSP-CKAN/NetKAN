@@ -1,0 +1,9 @@
+---
+identifier: Fishy-Mod-Core
+"$kref": "#/ckan/spacedock/2845"
+license: Restricted
+tags:
+- parts
+- combat
+depends:
+- name: BDArmory
