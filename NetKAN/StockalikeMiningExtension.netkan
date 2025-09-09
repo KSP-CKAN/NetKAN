@@ -6,6 +6,8 @@ tags:
   - resources
 depends:
   - name: ModuleManager
+recommends:
+  - name: PatchManager
 install:
   - find: MiningExpansion
     install_to: GameData
