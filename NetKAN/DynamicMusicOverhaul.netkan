@@ -1,0 +1,8 @@
+identifier: DynamicMusicOverhaul
+$kref: '#/ckan/spacedock/3980'
+tags:
+  - config
+install:
+  - find: Kerbal Space Program
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
