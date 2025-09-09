@@ -15,11 +15,14 @@ tags:
 depends:
   - name: ModuleManager
   - name: Kopernicus
-supports:
+suggests:
   - name: DistantObject
+  - name: PlanetShine
   - name: OuterPlanetsMod
   - name: ResearchBodies
-  - name: PlanetShine
+supports:
+  - name: OuterPlanetsMod
+  - name: ResearchBodies
 install:
   - find: XPCR
     install_to: GameData
