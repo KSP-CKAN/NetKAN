@@ -12,6 +12,7 @@ provides:
   - Tantares
 depends:
   - name: ModuleManager
+  - name: B9PartSwitch
 recommends:
   - name: NewTantaresLV
 conflicts:

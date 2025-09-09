@@ -11,6 +11,8 @@ provides:
   - TantaresLV
 depends:
   - name: ModuleManager
+  - name: Waterfall
+  - name: B9PartSwitch
 recommends:
   - name: NewTantares
 conflicts:

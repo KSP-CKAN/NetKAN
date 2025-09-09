@@ -10,6 +10,7 @@ tags:
   - uncrewed
 depends:
   - name: ModuleManager
+  - name: B9PartSwitch
 recommends:
   - name: NeptuneCamera
 install:
