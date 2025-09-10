@@ -1,0 +1,12 @@
+identifier: KSPProfiler
+abstract: Gathers performance information from the game
+author: Gotmachine
+$kref: '#/ckan/github/KSPModdingLibs/KSPProfiler'
+$vref: '#/ckan/ksp-avc'
+license: MIT
+tags:
+  - plugin
+  - information
+depends:
+  - name: Harmony2
+  - name: KsmUI
