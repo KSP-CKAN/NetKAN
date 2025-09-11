@@ -9,7 +9,7 @@ tags:
 depends:
   - name: ModuleManager
   - name: KerbalPowersCore
-  - name: BDArmory
+  - name: BDArmoryForRunwayProject
   - name: PhysicsRangeExtender
 suggests:
   - name: VABOrganizer

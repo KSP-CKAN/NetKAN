@@ -1,0 +1,15 @@
+identifier: TURD-BreakingGround
+name: TURD - Breaking Ground
+abstract: Collection of Textures Unlimited recolours for the Breaking Ground DLC
+author: OnlyLightMatters
+$kref: '#/ckan/github/KerbalPowers/TURD-MH-BG'
+license: CC-BY-NC-SA-4.0
+tags:
+  - config
+  - graphics
+depends:
+  - name: ModuleManager
+  - name: TexturesUnlimited
+install:
+  - find: TURD/TU_BG_AllInOne
+    install_to: GameData/TURD
