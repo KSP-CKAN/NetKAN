@@ -18,8 +18,15 @@ depends:
   - name: VertexMitchellNetravaliHeightMap
   - name: VertexColorMapEmissive
   - name: VertexHeightOblateAdvanced
+recommends:
+  - name: ParallaxContinued
+  - name: Scatterer
+  - name: EnvironmentalVisualEnhancements
 suggests:
   - name: PromisedWorldsDebdeb
+  - name: Firefly
+  - name: DistantObject
+  - name: PlanetShine
 install:
   - find: PromisedWorlds
     install_to: GameData
