@@ -1,5 +1,5 @@
 identifier: KOSHUD
-$kref: '#/ckan/spacedock/3497'
+$kref: '#/ckan/github/FuzzyMeepTWO/koshud'
 $vref: '#/ckan/ksp-avc'
 license: MIT
 tags:
@@ -13,4 +13,3 @@ recommends:
 install:
   - find: Script
     install_to: Ships
-x_via: Automated SpaceDock CKAN submission
