@@ -7,7 +7,7 @@ depends:
   - name: ModuleManager
   - name: KerbalPowersCore
 suggests:
-  - name: Waterfall  
+  - name: Waterfall
   - name: RecycledPartsAtomicAge
   - name: VABorganizer
 install:
