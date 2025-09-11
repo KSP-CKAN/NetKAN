@@ -9,6 +9,7 @@ tags:
 depends:
   - name: HeatControl
   - name: NearFutureConstruction
+  - name: ModuleManager
 install:
   - find: ISVEmporium
     install_to: GameData
