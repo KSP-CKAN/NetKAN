@@ -1,6 +1,8 @@
 identifier: ISVEmporium
 name: ISVEmporium
-abstract: ISV Emporium is a collection of +part configs to add missing, or otherwise scaled parts to part mods that don't include them.
+abstract: >-
+  A collection of +part configs to add missing,
+  or otherwise scaled parts to part mods that don't include them
 $kref: '#/ckan/github/YagatePRCL/ISVEmporium'
 tags:
   - config
