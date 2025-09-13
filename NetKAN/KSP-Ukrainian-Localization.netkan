@@ -1,0 +1,10 @@
+identifier: KSP-Ukrainian-Localization
+name: Ukrainian localization for KSP
+abstract: Adds Ukrainian language to the base game and Breaking Ground expansion
+$kref: '#/ckan/github/BeardVis/KSP-Ukrainian-Localization'
+$vref: '#/ckan/ksp-avc'
+tags:
+  - plugin
+install:
+  - find: KSPUkrainian
+    install_to: GameData
