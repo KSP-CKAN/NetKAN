@@ -27,4 +27,6 @@ suggests:
 install:
   - find: PromisedWorlds
     install_to: GameData
+  - find: Sigma
+    install_to: GameData
     filter: ScaledDecorator
