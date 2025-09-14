@@ -1,11 +1,7 @@
 identifier: PromisedWorldsDebdeb
 $kref: '#/ckan/github/PromisedWorlds/PromisedWorlds/asset_match/Debdeb'
 $vref: '#/ckan/ksp-avc'
----
-identifier: PromisedWorldsDebdeb
-$kref: '#/ckan/spacedock/3976'
-$vref: '#/ckan/ksp-avc'
-x_netkan_force_v: true
+license: CC-BY-NC-SA
 tags:
   - config
   - planet-pack
