@@ -1,6 +1,7 @@
 identifier: SCANsat
 $kref: '#/ckan/github/KSPModStewards/SCANsat'
 $vref: '#/ckan/ksp-avc'
+x_netkan_force_v: true
 ---
 identifier: SCANsat
 $kref: '#/ckan/spacedock/129'
