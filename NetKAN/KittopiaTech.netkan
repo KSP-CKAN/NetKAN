@@ -1,0 +1,17 @@
+identifier: KittopiaTech
+name: KittopiaTech
+author:
+  - Thomas P.
+  - BorisBee
+  - Kragrathea
+  - KCreator
+  - Gravitasi
+  - joedavis
+$kref: '#/ckan/github/Kopernicus/KittopiaTech'
+ksp_version_min: 1.8
+ksp_version_max: 1.12
+tags:
+  - plugin
+depends:
+  - name: Kopernicus
+    min_version: 2:release-1.2.0-1
