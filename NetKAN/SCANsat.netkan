@@ -4,6 +4,10 @@ $vref: '#/ckan/ksp-avc'
 x_netkan_force_v: true
 ---
 identifier: SCANsat
+name: SCANsat
+author:
+  - DMagic
+  - JonnyOThan
 $kref: '#/ckan/spacedock/129'
 $vref: '#/ckan/ksp-avc'
 license: restricted
