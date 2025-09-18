@@ -1,17 +1,13 @@
 identifier: CatEarNavballFrame
 $kref: '#/ckan/github/levitato5594/CatEarNavballFrame'
+ksp_version: '1.12'
 tags:
   - config
   - graphics
-license: "GPL-3.0"
-install:
-  - find: CatEarNavballFrame
-    install_to: GameData
-ksp_version: '1.12'
 depends:
-  - name: ZTheme
   - name: ModuleManager
   - name: HUDReplacer
     min_version: 1.2.6-beta
+  - name: ZTheme
 supports:
   - name: 1ThousandSpecialPlanetPack
