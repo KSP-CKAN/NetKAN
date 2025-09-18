@@ -1,0 +1,11 @@
+identifier: CatEarNavballFrame
+$kref: '#/ckan/github/levitato5594/CatEarNavballFrame'
+ksp_version: '1.12'
+tags:
+  - config
+  - graphics
+depends:
+  - name: ModuleManager
+  - name: HUDReplacer
+    min_version: 1.2.6-beta
+  - name: ZTheme
