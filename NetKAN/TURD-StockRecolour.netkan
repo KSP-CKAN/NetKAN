@@ -1,0 +1,15 @@
+identifier: TURD-StockRecolour
+name: TURD - Stock Recolour
+abstract: Collection of Textures Unlimited recolours for the vanilla game
+author: Manwith Noname
+$kref: '#/ckan/github/KerbalPowers/TURD-StockRecolour'
+license: CC-BY-NC-SA-1.0
+tags:
+  - config
+  - graphics
+depends:
+  - name: ModuleManager
+  - name: TexturesUnlimited
+install:
+  - find: TURD
+    install_to: GameData

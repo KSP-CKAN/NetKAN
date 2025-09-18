@@ -1,0 +1,24 @@
+identifier: TURD-BDAssociated
+name: TURD - BD Associated
+abstract: >-
+  Collection of Textures Unlimited recolours
+  for BD Armory expansion packs
+author: Spartwo
+$kref: '#/ckan/github/KerbalPowers/TURD-BDArmory/asset_match/TU_BD_Associated_Recolour.zip'
+license: CC-BY-NC-SA-4.0
+tags:
+  - config
+  - graphics
+depends:
+  - name: ModuleManager
+  - name: TexturesUnlimited
+suggests:
+  - name: KerbalPowersArmory
+  - name: RefurbishedArmory
+  - name: NAS
+  - name: BDArmoryExtended
+  - name: Wraithforge
+  - name: AviatorArsenal
+install:
+  - find: TURD
+    install_to: GameData
