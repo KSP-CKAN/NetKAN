@@ -3,6 +3,7 @@ $kref: '#/ckan/github/levitato5594/CatEarNavballFrame'
 tags:
   - config
   - graphics
+license: "GPL-3.0"
 install:
   - find: CatEarNavballFrame
     install_to: GameData
