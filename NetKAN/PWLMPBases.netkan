@@ -8,5 +8,5 @@ depends:
   - name: ColonyBlocksandPlatforms
   - name: StockalikeStructures
 install:
-  find: PromisedWorldsBases
-  install_to: GameData
+  - find: PromisedWorldsBases
+    install_to: GameData
