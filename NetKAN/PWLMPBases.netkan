@@ -4,6 +4,7 @@ tags:
   - config
   - buildings
 depends:
+  - name: KerbalKonstrukts
   - name: ColonyBlocksandPlatforms
   - name: StockalikeStructures
 install:
