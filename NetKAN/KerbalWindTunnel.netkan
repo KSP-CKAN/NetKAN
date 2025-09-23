@@ -1,6 +1,10 @@
 identifier: KerbalWindTunnel
+$kref: '#/ckan/github/DBooots/KerbalWindTunnel-2'
+---
+identifier: KerbalWindTunnel
 $kref: '#/ckan/spacedock/1927'
 tags:
+  - config
   - plugin
 install:
   - find: WindTunnel
