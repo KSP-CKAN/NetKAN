@@ -1,5 +1,5 @@
 identifier: WindTunnel
-$kref: '#/ckan/github/DBooots/KerbalWindTunnel'
+$kref: '#/ckan/github/DBooots/KerbalWindTunnel-2'
 ---
 identifier: WindTunnel
 $kref: '#/ckan/spacedock/1927'
@@ -8,3 +8,5 @@ tags:
   - plugin
   - information
   - editor
+conflicts:
+  - name: FAR
