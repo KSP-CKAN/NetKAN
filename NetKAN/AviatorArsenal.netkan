@@ -1,0 +1,13 @@
+identifier: AviatorArsenal
+$kref: '#/ckan/spacedock/2593'
+license: restricted
+tags:
+  - parts
+  - plugin
+  - combat
+depends:
+  - name: BDArmoryForRunwayProject
+  - name: PhysicsRangeExtender
+install:
+  - find: AviatorArsenal
+    install_to: GameData
