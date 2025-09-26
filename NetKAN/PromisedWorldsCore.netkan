@@ -16,6 +16,7 @@ depends:
   - name: VertexMitchellNetravaliHeightMap
   - name: VertexColorMapEmissive
   - name: VertexHeightOblateAdvanced
+  - name: KSPCommunityFixes
 recommends:
   - name: ParallaxContinued
   - name: Scatterer
