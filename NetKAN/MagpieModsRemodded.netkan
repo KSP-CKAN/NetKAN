@@ -1,0 +1,13 @@
+identifier: MagpieModsRemodded
+$kref: '#/ckan/spacedock/3991'
+tags:
+  - crewed
+  - first-person
+  - parts
+depends:
+  - name: ModuleManager
+install:
+  - find: ''
+    install_to: GameData
+    filter: .git
+x_via: Automated SpaceDock CKAN submission
