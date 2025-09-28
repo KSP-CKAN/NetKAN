@@ -9,7 +9,6 @@ tags:
   - graphics
 depends:
   - name: B9PartSwitch
-
 install:
   - find: Kates_Greebles
     install_to: GameData
