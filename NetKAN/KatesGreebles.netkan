@@ -1,4 +1,4 @@
-identifier: Kates-Greebles
+identifier: KatesGreebles
 $kref: '#/ckan/github/JustDark2/Kates-Greebles'
 ksp_version: 1.12
 resources:
@@ -9,6 +9,3 @@ tags:
   - graphics
 depends:
   - name: B9PartSwitch
-install:
-  - find: Kates_Greebles
-    install_to: GameData
