@@ -14,6 +14,7 @@ depends:
   - name: ClickThroughBlocker
   - name: SpaceTuxLibrary
   - name: ModuleManager
+  - name: SpaceTuxSA
 install:
   - find: RoverScience
     install_to: GameData
