@@ -1,0 +1,16 @@
+identifier: ExtraIcons
+$kref: '#/ckan/github/Ether-x9/Extra-Icons'
+x_netkan_version_edit: ^v?(?<version>.+)$
+---
+identifier: ExtraIcons
+$kref: '#/ckan/spacedock/3973'
+tags:
+  - config
+  - planet-pack
+depends:
+  - name: ModuleManager
+  - name: Kopernicus
+install:
+  - find: z_ExtraIcons
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
