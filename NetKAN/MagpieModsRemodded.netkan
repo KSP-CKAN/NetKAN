@@ -7,7 +7,6 @@ tags:
 depends:
   - name: ModuleManager
 install:
-  - find: ''
+  - find: GameData/MagpieMods
     install_to: GameData
     filter: .git
-x_via: Automated SpaceDock CKAN submission
