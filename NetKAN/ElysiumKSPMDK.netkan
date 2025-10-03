@@ -1,0 +1,9 @@
+identifier: ElysiumKSPMDK
+$kref: '#/ckan/spacedock/3997'
+tags:
+  - plugin
+install:
+  - find: Elysium
+    install_to: GameData
+    filter_regexp: \.pdb$
+x_via: Automated SpaceDock CKAN submission
