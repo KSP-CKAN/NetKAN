@@ -17,7 +17,7 @@
     "depends": [
         { "name": "ModuleManager" },
         { "name": "CommunityTechTree" },
-        { "name": "CelestialBodyScienceEditor" }
+        { "name": "Kopernicus" }
     ],
     "suggests": [
         { "name": "ContractConfigurator" },
