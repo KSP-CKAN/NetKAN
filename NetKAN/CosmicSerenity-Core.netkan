@@ -11,8 +11,10 @@ depends:
   - name: ModuleManager
   - name: Kopernicus
   - name: ScaledDecorator
+  - name: KSPCommunityFixes
 suggests:
   - name: CosmicSerenity-Hades
+  - name: CosmicSerenity-Anubis
 install:
   - find: CosmicSerenity
     install_to: GameData
