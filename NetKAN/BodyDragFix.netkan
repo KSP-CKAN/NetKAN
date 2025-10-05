@@ -2,8 +2,3 @@ identifier: BodyDragFix
 $kref: '#/ckan/spacedock/4000'
 tags:
   - plugin
-install:
-  - find: BodyDragFix
-    install_to: GameData
-    filter_regexp: \.pdb$
-x_via: Automated SpaceDock CKAN submission
