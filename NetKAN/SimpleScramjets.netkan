@@ -1,0 +1,15 @@
+identifier: SimpleScramjets
+$kref: '#/ckan/github/defoma/SimpleScramjets'
+x_netkan_github:
+  use_source_archive: true
+x_netkan_version_edit: ^v?(?<version>.+)$
+---
+identifier: SimpleScramjets
+$kref: '#/ckan/spacedock/4001'
+tags:
+  - graphics
+  - parts
+depends:
+  - name: ModuleManager
+  - name: Waterfall
+x_via: Automated SpaceDock CKAN submission
