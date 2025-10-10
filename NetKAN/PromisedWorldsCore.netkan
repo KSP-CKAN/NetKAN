@@ -1,5 +1,5 @@
 identifier: PromisedWorldsCore
-name: Promised Worlds Core
+name: Promised Worlds - Core
 $kref: '#/ckan/github/PromisedWorlds/PromisedWorlds/asset_match/Core'
 $vref: '#/ckan/ksp-avc'
 author: Promised Worlds Dev Team
@@ -18,11 +18,12 @@ depends:
   - name: VertexHeightOblateAdvanced
   - name: KSPCommunityFixes
 recommends:
+  - name: PromisedWorldsDebdeb
+  - name: PromisedWorldsTuun
   - name: ParallaxContinued
   - name: Scatterer
   - name: EnvironmentalVisualEnhancements
 suggests:
-  - name: PromisedWorldsDebdeb
   - name: Firefly
   - name: DistantObject
   - name: PlanetShine
