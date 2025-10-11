@@ -1,0 +1,27 @@
+identifier: MRKI
+name: MRKI
+author:
+  - KerbalHub
+  - '321321321'
+license:
+  - restricted
+  - CC-BY-NC-ND
+$kref: '#/ckan/github/KerbalHub/MRKI'
+resources:
+  homepage: >-
+    https://forum.kerbalspaceprogram.com/topic/228889-1125-mrki-more-realistic-still-a-little-kerbalized-and-much-more-interesting-than-stock/
+tags:
+  - config
+  - planet-pack
+depends:
+  - name: Kopernicus
+  - name: KopernicusExpansion
+  - name: VertexMitchellNetravaliHeightMap
+  - name: SigmaDimensions
+recommends:
+  - name: ParallaxContinued
+  - name: EnvironmentalVisualEnhancements
+  - name: Firefly
+suggests:
+  - name: Kerbalism
+  - name: Kronometer
