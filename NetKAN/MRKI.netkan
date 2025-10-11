@@ -18,6 +18,7 @@ depends:
   - name: KopernicusExpansion
   - name: VertexMitchellNetravaliHeightMap
   - name: SigmaDimensions
+  - name: ModuleManager
 recommends:
   - name: ParallaxContinued
   - name: EnvironmentalVisualEnhancements
