@@ -1,0 +1,8 @@
+identifier: MassSimulatorCubes
+$kref: '#/ckan/spacedock/4004'
+tags:
+  - parts
+install:
+  - find: Mass Simulator Cubes
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
