@@ -1,5 +1,6 @@
 identifier: KSPPluginLoader
 $kref: '#/ckan/github/Phantomical/KSPPluginLoader'
+$vref: '#/ckan/ksp-avc'
 x_netkan_version_edit: ^v?(?<version>.+)$
 ---
 identifier: KSPPluginLoader
@@ -11,4 +12,3 @@ install:
   - find: 000_PluginLoader
     install_to: GameData
     filter_regexp: \.pdb$
-x_via: Automated SpaceDock CKAN submission
