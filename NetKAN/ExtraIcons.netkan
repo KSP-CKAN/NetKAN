@@ -10,7 +10,7 @@ depends:
   - name: ModuleManager
   - name: Kopernicus
   - name: OrbitIconsPack
-supports
+supports:
   - name: OrbitIconsPack
 install:
   - find: z_ExtraIcons
