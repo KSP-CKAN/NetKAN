@@ -10,6 +10,8 @@ depends:
   - name: ModuleManager
   - name: Kopernicus
   - name: OrbitIconsPack
+supports
+  - name: OrbitIconsPack
 install:
   - find: z_ExtraIcons
     install_to: GameData
