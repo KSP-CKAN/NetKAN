@@ -6,3 +6,6 @@ x_netkan_version_edit: '^[vV]?(?<version>.+)$'
 identifier: BackgroundThrust
 $kref: '#/ckan/spacedock/4009'
 $vref: '#/ckan/ksp-avc'
+tags:
+  - plugin
+  - physics
