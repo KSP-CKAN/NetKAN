@@ -1,0 +1,8 @@
+identifier: SimpleCareerLoans
+$kref: '#/ckan/spacedock/4005'
+tags:
+  - plugin
+install:
+  - find: CareerLoans
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
