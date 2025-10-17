@@ -1,4 +1,8 @@
 identifier: KerbNoteLite
+$kref: '#/ckan/github/garyblu71mods/KerbNoteLite'
+x_netkan_version_edit: ^v?(?<version>.+)$
+---
+identifier: KerbNoteLite
 $kref: '#/ckan/spacedock/4010'
 tags:
   - plugin
