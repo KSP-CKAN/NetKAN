@@ -1,0 +1,12 @@
+identifier: KerbNoteLite
+$kref: '#/ckan/github/garyblu71mods/KerbNoteLite'
+x_netkan_version_edit: ^v?(?<version>.+)$
+---
+identifier: KerbNoteLite
+$kref: '#/ckan/spacedock/4011'
+tags:
+  - plugin
+install:
+  - find: KerbCalcProject
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
