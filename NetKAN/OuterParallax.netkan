@@ -5,6 +5,7 @@ identifier: OuterParallax
 name: Outer Parallax Common Files
 abstract: Files common to OuterParallax-OPM and OuterParallax-MPE
 $kref: '#/ckan/spacedock/3833'
+license: restricted
 tags:
   - config
   - library
