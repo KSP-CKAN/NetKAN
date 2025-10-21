@@ -10,6 +10,7 @@ tags:
   - planet-pack
 provides:
   - Scatterer-sunflare
+  - ParallaxContinued-Planet-Textures
 conflicts:
   - name: KSCSwitcher
   - name: JNSQ
