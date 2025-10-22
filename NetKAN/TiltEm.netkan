@@ -1,0 +1,13 @@
+identifier: TiltEm
+author:
+  - gavazquez
+  - Just-A-Shawn
+  - Kramken
+$kref: '#/ckan/spacedock/3909'
+tags:
+  - plugin
+  - physics
+depends:
+  - name: Harmony2
+  - name: Kopernicus
+  - name: ModuleManager
