@@ -1,0 +1,15 @@
+identifier: GPPVolumetricsHorizons
+$kref: '#/ckan/github/yukkine0704/GPP-Volumetrics'
+---
+identifier: GPPVolumetricsHorizons
+$kref: '#/ckan/spacedock/3827'
+tags:
+  - config
+  - planet-pack
+depends:
+  - name: ModuleManager
+  - name: Kopernicus
+install:
+  - find: ''
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
