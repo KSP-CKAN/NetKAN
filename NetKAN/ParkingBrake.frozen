@@ -1,5 +1,5 @@
 identifier: ParkingBrake
-$kref: '#/ckan/github/jarosm/KSP-ParkingBrake'
+$kref: '#/ckan/github/net-lisias-ksp/ParkingBrake/asset_match/.+?-SpaceDock.+?'
 $vref: '#/ckan/ksp-avc'
 ---
 identifier: ParkingBrake
