@@ -1,0 +1,8 @@
+identifier: DiamondAerospaceExplorationAgencyDAXA
+$kref: '#/ckan/spacedock/4022'
+tags:
+  - parts
+install:
+  - find: DiamondAerospaceExploration
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
