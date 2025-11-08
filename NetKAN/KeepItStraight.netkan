@@ -1,9 +1,10 @@
 identifier: KeepItStraight
-$kref: '#/ckan/github/jarosm/KSP-KeepItStraight'
+$kref: '#/ckan/github/net-lisias-ksp/KeepItStraight/asset_match/.+?-SpaceDock.+?'
 $vref: '#/ckan/ksp-avc'
+x_netkan_trust_version_file: true
 ---
 identifier: KeepItStraight
-$kref: '#/ckan/spacedock/824'
+$kref: '#/ckan/spacedock/4023'
 $vref: '#/ckan/ksp-avc'
 license: GPL-3.0
 tags:
