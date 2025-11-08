@@ -1,5 +1,7 @@
 identifier: HUDReplacer
-author: UltraJohn, steamroller
+author:
+  - UltraJohn
+  - steamroller
 $kref: '#/ckan/github/KSPModStewards/HUDReplacer'
 $vref: '#/ckan/ksp-avc'
 ksp_version: 1.12
