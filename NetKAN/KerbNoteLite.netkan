@@ -1,0 +1,8 @@
+identifier: KerbNoteLite
+$kref: '#/ckan/spacedock/4011'
+tags:
+  - plugin
+install:
+  - find: KerbCalcProject
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
