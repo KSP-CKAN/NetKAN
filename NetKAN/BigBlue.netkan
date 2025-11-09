@@ -1,0 +1,13 @@
+identifier: BigBlue
+$kref: '#/ckan/spacedock/4024'
+tags:
+  - graphics
+  - parts
+depends:
+  - name: ModuleManager
+  - name: B9PartSwitch
+  - name: Waterfall
+install:
+  - find: ''
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
