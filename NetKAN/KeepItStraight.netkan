@@ -4,9 +4,12 @@ $vref: '#/ckan/ksp-avc'
 x_netkan_trust_version_file: true
 ---
 identifier: KeepItStraight
+author:
+  - RealGecko
+  - Maja
+  - Lisias
 $kref: '#/ckan/spacedock/4023'
 $vref: '#/ckan/ksp-avc'
-license: GPL-3.0
 tags:
   - plugin
   - convenience
