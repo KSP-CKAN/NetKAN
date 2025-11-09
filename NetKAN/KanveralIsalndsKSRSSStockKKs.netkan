@@ -1,0 +1,11 @@
+identifier: KanveralIsalndsKSRSSStockKKs
+$kref: '#/ckan/spacedock/4026'
+tags:
+  - buildings
+  - config
+depends:
+  - name: KerbalKonstructs
+install:
+  - find: Kanaveral Islands
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
