@@ -9,3 +9,8 @@ tags:
   - plugin
   - information
   - comms
+conflicts:
+  - name: AntennaHelper
+depends:
+  - name: ToolbarController
+  - name: ClickThroughBlocker
