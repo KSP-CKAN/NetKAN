@@ -1,0 +1,11 @@
+identifier: kOSMechJeb2Addon
+$kref: '#/ckan/spacedock/4031'
+tags:
+  - plugin
+install:
+  - find: kOS.MechJeb.Addon
+    install_to: GameData
+    filter:
+      - __MACOSX
+      - .DS_Store
+x_via: Automated SpaceDock CKAN submission
