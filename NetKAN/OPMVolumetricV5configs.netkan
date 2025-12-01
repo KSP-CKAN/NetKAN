@@ -1,0 +1,10 @@
+identifier: OPMVolumetricV5configs
+$kref: '#/ckan/spacedock/4060'
+tags:
+  - config
+depends:
+  - name: ModuleManager
+install:
+  - find: OPM_Volumetrics_V5
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
