@@ -1,0 +1,11 @@
+identifier: SnacksKSCKKConfig
+$kref: '#/ckan/spacedock/4059'
+tags:
+  - buildings
+  - config
+depends:
+  - name: KerbalKonstructs
+install:
+  - find: Snack's KSC Expansion
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
