@@ -1,0 +1,14 @@
+identifier: kOSsimpleJson
+$kref: '#/ckan/github/Thr0in/kOS-simpleJson'
+x_netkan_version_edit: ^v?(?<version>.+)$
+$vref: '#/ckan/ksp-avc'
+---
+identifier: kOSsimpleJson
+$kref: '#/ckan/spacedock/4064'
+$vref: '#/ckan/ksp-avc'
+tags:
+  - plugin
+install:
+  - find: kOS-simpleJson
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
