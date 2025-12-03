@@ -1,0 +1,15 @@
+identifier: MagpieModsRemodded
+$kref: '#/ckan/github/lukeburton00/Magpie-Mods-Remodded'
+---
+identifier: MagpieModsRemodded
+$kref: '#/ckan/spacedock/3991'
+tags:
+  - crewed
+  - first-person
+  - parts
+depends:
+  - name: ModuleManager
+install:
+  - find: GameData/MagpieMods
+    install_to: GameData
+    filter: .git
