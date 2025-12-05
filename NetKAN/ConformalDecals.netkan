@@ -1,0 +1,24 @@
+identifier: ConformalDecals
+$kref: '#/ckan/ksp-avc/https://git.offworldcolonies.nexus/drewcassidy/KSP-Conformal-Decals/releases/download/latest/ConformalDecals.version'
+$vref: '#/ckan/ksp-avc'
+---
+identifier: ConformalDecals
+$kref: '#/ckan/spacedock/2451'
+$vref: '#/ckan/ksp-avc'
+license: Apache-2.0
+resources:
+  homepage: 'https://forum.kerbalspaceprogram.com/index.php?/topic/194802-*'
+  manual: 'https://git.offworldcolonies.nexus/drewcassidy/KSP-Conformal-Decals/wiki'
+  repository: 'https://git.offworldcolonies.nexus/drewcassidy/KSP-Conformal-Decals'
+tags:
+  - plugin
+  - parts
+depends:
+  - name: ModuleManager
+  - name: B9PartSwitch
+  - name: Shabby
+suggests:
+  - name: WildBlueTools
+install:
+  - find: GameData/ConformalDecals
+    install_to: GameData
