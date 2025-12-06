@@ -1,0 +1,16 @@
+identifier: Mk2Lobes
+name: Mk2 Lobes
+abstract: Mk2 parts, split into left & right, not upper and lower.
+$kref: '#/ckan/github/JadeOfMaar/Mk2Lobes'
+$vref: '#/ckan/ksp-avc'
+license: CC-BY-NC-SA-4.0
+tags:
+  - parts
+depends:
+  - name: ModuleManager
+  - name: B9PartSwitch
+
+supports:
+  - name: FerramAerospaceResearchContinued
+  - name: KerbalActuators
+  - name: ConfigurableContainers
