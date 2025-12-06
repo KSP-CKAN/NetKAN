@@ -9,8 +9,7 @@ tags:
 depends:
   - name: ModuleManager
   - name: B9PartSwitch
-
-supports:
+suggests:
   - name: FerramAerospaceResearchContinued
   - name: KerbalActuators
   - name: ConfigurableContainers
