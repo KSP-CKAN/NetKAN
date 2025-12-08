@@ -1,8 +1,7 @@
 identifier: TheMartian
 $kref: '#/ckan/github/KerballOne/TheMartianKSP'
 ksp_version_min: 1.12.5
-resources:
-  homepage: https://github.com/KerballOne/TheMartianKSP/releases
+license: CC-BY-NC-SA-4.0
 tags:
   - parts
   - config
