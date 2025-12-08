@@ -1,0 +1,37 @@
+{
+  "spec_version": "v1.34",
+  "identifier": "KerbNoteLite",
+  "name": "KerbNoteLite",
+  "abstract": "A comprehensive note-taking and alarm system mod for Kerbal Space Program",
+  "description": "KerbNoteLite is a comprehensive note-taking and alarm system mod for Kerbal Space Program that helps you manage your missions with in-game notes, mini-notes, and location-based alarms. Features include multi-tab notebooks, rich text formatting, location-based alarms, mini-notes, customizable UI with texture support, and per-save data persistence.",
+  "category": "Utility",
+  "version": "$kref: #/ckan/github/garyblu71mods/KerbNoteLite/asset_match/KerbNoteLite.zip/download",
+  "author": [
+    "garyblu71mods"
+  ],
+  "license": [
+    "MIT"
+  ],
+  "resources": {
+    "homepage": "https://github.com/garyblu71mods/KerbNoteLite",
+    "repository": "https://github.com/garyblu71mods/KerbNoteLite",
+    "bugtracker": "https://github.com/garyblu71mods/KerbNoteLite/issues"
+  },
+  "install": [
+    {
+      "file": "KerbNoteLite",
+      "install_to": "GameData"
+    }
+  ],
+  "depends": [
+    {
+      "name": "ModuleManager"
+    }
+  ],
+  "supports": [
+    {
+      "name": "KerbalSpaceProgram",
+      "version_min": "1.12"
+    }
+  ]
+}
