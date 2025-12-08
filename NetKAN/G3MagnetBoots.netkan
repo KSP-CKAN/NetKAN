@@ -1,0 +1,8 @@
+identifier: G3MagnetBoots
+$kref: '#/ckan/spacedock/4069'
+tags:
+  - config
+  - plugin
+depends:
+  - name: ModuleManager
+x_via: Automated SpaceDock CKAN submission
