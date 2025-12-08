@@ -1,0 +1,72 @@
+identifier: TheMartian
+$kref: '#/ckan/github/KerballOne/TheMartianKSP'
+ksp_version_min: 1.12.5
+release_status: testing
+resources:
+  bugtracker: https://github.com/KerballOne/TheMartianKSP/issues
+  homepage: https://github.com/KerballOne/TheMartianKSP/releases
+  repository: https://github.com/KerballOne/TheMartianKSP
+tags:
+  - parts
+  - config
+  - agency
+  - resources
+  - career
+  - comms
+  - crewed
+  - first-person
+conflicts:
+  - name: HyperEdit
+  - name: VesselMover
+depends:
+  - name: BonVoyage
+  - name: ContractConfigurator
+  - name: CryoTanks
+  - name: FreeIva
+  - name: HabTechProps
+  - name: InfernalRoboticsNext ==3.1.10
+  - name: Kaboom
+  - name: Kerbalism
+  - name: KAS
+  - name: KerbalConstructionTime
+  - name: KerbalJointReinforcementContinued
+  - name: KerbalPlanetaryBaseSystems
+  - name: Kopernicus
+  - name: kOS
+  - name: kOS-Career
+  - name: KSPCommunityFixes
+  - name: ModuleManager
+  - name: NearFutureProps
+  - name: ParkingBrake
+  - name: PhoenixIndustriesEVASuit
+  - name: PortraitStats
+  - name: ProceduralParts
+  - name: RationalResourcesKerbalismRF
+  - name: RationalResourcesParts
+  - name: RealFuels
+  - name: RealSolarSystem
+  - name: RemoteTech
+  - name: StationPartsExpansionRedux
+  - name: TheMartianforKSP
+recommends:
+  - name: Scatterer
+  - name: MechJeb2
+  - name: TransferWindowPlannerFork
+  - name: WaypointManager
+suggests:
+  - name: ThroughTheEyesOfaKerbal
+install:
+  - file: GameData/zKB1_TheMartian/
+    install_to: GameData
+  - file: GameData/AresExploration/
+    install_to: GameData
+  - file: saves/scenarios/1_TheMartian.sfs
+    install_to: Scenarios
+  - file: saves/scenarios/1_TheMartian/
+    install_to: Scenarios
+  - file: saves/scenarios/banners/
+    install_to: Scenarios
+  - file: Ships/Script/
+    install_to: Ships
+  - file: Ships/VAB/Resupply Probe.craft
+    install_to: Ships/VAB
