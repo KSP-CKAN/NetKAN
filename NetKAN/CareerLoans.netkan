@@ -1,4 +1,7 @@
 identifier: CareerLoans
+$kref: '#/ckan/github/custardcream99/CareerLoans'
+---
+identifier: CareerLoans
 $kref: '#/ckan/spacedock/4005'
 tags:
   - plugin
