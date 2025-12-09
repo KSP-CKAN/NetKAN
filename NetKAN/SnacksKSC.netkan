@@ -1,4 +1,4 @@
-identifier: SnacksKSCKKConfig
+identifier: SnacksKSC
 $kref: '#/ckan/spacedock/4059'
 tags:
   - buildings
@@ -10,7 +10,6 @@ depends:
   - name: RealLaunchSites
   - name: KerbinSideRemastered
   - name: KerbinSideRemasteredTLA
-  - name: CountryDoggosRandomKKBits
 install:
   - find: Snack's KSC Expansion
     install_to: GameData
