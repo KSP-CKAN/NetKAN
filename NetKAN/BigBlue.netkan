@@ -1,4 +1,7 @@
 identifier: BigBlue
+$kref: '#/ckan/github/Quest-in/Big-Blue'
+---
+identifier: BigBlue
 $kref: '#/ckan/spacedock/4024'
 tags:
   - graphics
@@ -8,6 +11,5 @@ depends:
   - name: B9PartSwitch
   - name: Waterfall
 install:
-  - find: ''
+  - find_regexp: Big Blue.*
     install_to: GameData
-x_via: Automated SpaceDock CKAN submission
