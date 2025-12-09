@@ -1,0 +1,11 @@
+identifier: G3MagnetBoots
+$kref: '#/ckan/github/misterblusky9/G3MagnetBoots'
+---
+identifier: G3MagnetBoots
+$kref: '#/ckan/spacedock/4069'
+tags:
+  - config
+  - plugin
+depends:
+  - name: ModuleManager
+  - name: Harmony2
