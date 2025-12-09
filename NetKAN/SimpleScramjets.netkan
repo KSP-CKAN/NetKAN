@@ -6,3 +6,6 @@ tags:
 depends:
   - name: ModuleManager
   - name: Waterfall
+install:
+  - find: GameData/SimpleScramjets
+    install_to: GameData
