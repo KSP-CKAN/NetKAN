@@ -12,5 +12,5 @@ depends:
   - name: ModuleManager
   - name: PlumeParty
 install:
-  - find: PlumeParty/Configs
-    install_to: GameData/PlumeParty
+  - find: PlumePartyStock
+    install_to: GameData
