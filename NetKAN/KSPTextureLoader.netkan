@@ -1,7 +1,7 @@
 identifier: KSPTextureLoader
-$kref: '#/ckan/github/Phantomical/KSPTextureLoader'
+$kref: '#/ckan/github/Phantomical/KSPTextureLoader/asset_match/KSPTextureLoader.zip'
+x_netkan_version_edit: '^[vV]?(?<version>.+)$'
 $vref: '#/ckan/ksp-avc'
 tags:
   - plugin
   - library
-x_netkan_version_edit: '^[vV]?(?<version>.+)$'
