@@ -1,9 +1,4 @@
 identifier: SimpleScramjets
-$kref: '#/ckan/github/defoma/SimpleScramjets'
-x_netkan_github:
-  use_source_archive: true
----
-identifier: SimpleScramjets
 $kref: '#/ckan/spacedock/4001'
 tags:
   - graphics
