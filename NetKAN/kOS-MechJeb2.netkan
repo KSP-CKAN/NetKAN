@@ -1,0 +1,22 @@
+identifier: kOS-MechJeb2
+$kref: '#/ckan/github/belpyro/kOS.MechJeb2.Addon'
+x_netkan_version_edit: '^[vV]?(?<version>.+)$'
+$vref: '#/ckan/ksp-avc'
+---
+identifier: kOS-MechJeb2
+$kref: '#/ckan/spacedock/4031'
+$vref: '#/ckan/ksp-avc'
+tags:
+  - plugin
+depends:
+  - name: kOS
+  - name: MechJeb2
+supports:
+  - name: kOS
+  - name: MechJeb2
+install:
+  - find: kOS.MechJeb2.Addon
+    install_to: GameData
+    filter:
+      - __MACOSX
+      - .DS_Store
