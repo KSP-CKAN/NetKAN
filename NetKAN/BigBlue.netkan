@@ -3,6 +3,9 @@ $kref: '#/ckan/github/Quest-in/Big-Blue'
 ---
 identifier: BigBlue
 $kref: '#/ckan/spacedock/4024'
+x_netkan_version_edit:
+  find: ' '
+  replace: _
 tags:
   - graphics
   - parts
