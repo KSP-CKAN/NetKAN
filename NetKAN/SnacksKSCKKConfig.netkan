@@ -5,7 +5,12 @@ tags:
   - config
 depends:
   - name: KerbalKonstructs
+  - name: StockalikeStructures
+  - name: KerbalColonies
+  - name: RealLaunchSites
+  - name: KerbinSideRemastered
+  - name: KerbinSideRemasteredTLA
+  - name: CountryDoggosRandomKKBits
 install:
   - find: Snack's KSC Expansion
     install_to: GameData
-x_via: Automated SpaceDock CKAN submission
