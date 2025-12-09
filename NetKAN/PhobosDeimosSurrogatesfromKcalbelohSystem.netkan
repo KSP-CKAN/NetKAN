@@ -7,6 +7,5 @@ depends:
   - name: ModuleManager
   - name: Kopernicus
 install:
-  - find: GameData
+  - file: GameData/MoonSwap-TotNoi for PhobosDeimos.cfg
     install_to: GameData
-x_via: Automated SpaceDock CKAN submission
