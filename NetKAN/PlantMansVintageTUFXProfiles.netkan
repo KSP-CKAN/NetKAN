@@ -1,4 +1,4 @@
-identifier: plantmansvintageTUFX
+identifier: PlantMansVintageTUFXProfiles
 $kref: '#/ckan/spacedock/4066'
 tags:
   - config
@@ -8,4 +8,3 @@ depends:
 install:
   - find: plant_man's Profiles
     install_to: GameData
-x_via: Automated SpaceDock CKAN submission
