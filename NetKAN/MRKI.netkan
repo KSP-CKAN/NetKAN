@@ -1,15 +1,11 @@
 identifier: MRKI
-name: MRKI
 author:
   - KerbalHub
   - '321321321'
-license:
-  - restricted
-  - CC-BY-NC-ND
 $kref: '#/ckan/github/KerbalHub/MRKI'
+license: restricted
 resources:
-  homepage: >-
-    https://forum.kerbalspaceprogram.com/topic/228889-1125-mrki-more-realistic-still-a-little-kerbalized-and-much-more-interesting-than-stock/
+  homepage: https://forum.kerbalspaceprogram.com/topic/228889-*
 tags:
   - config
   - planet-pack
