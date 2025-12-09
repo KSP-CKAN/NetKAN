@@ -1,5 +1,8 @@
 identifier: DarkerVanillaSkybox
 $kref: '#/ckan/spacedock/4002'
+tags:
+  - config
+  - graphics
 depends:
   - name: TextureReplacer
 install:
