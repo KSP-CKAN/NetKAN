@@ -1,8 +1,11 @@
 identifier: kOS-MechJeb2
 $kref: '#/ckan/github/belpyro/kOS.MechJeb2.Addon'
+x_netkan_version_edit: '^[vV]?(?<version>.+)$'
+$vref: '#/ckan/ksp-avc'
 ---
 identifier: kOS-MechJeb2
 $kref: '#/ckan/spacedock/4031'
+$vref: '#/ckan/ksp-avc'
 tags:
   - plugin
 depends:
