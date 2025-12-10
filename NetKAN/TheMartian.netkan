@@ -16,7 +16,7 @@ conflicts:
   - name: VesselMover
 depends:
   - name: RFStockalike
-  - name: Kerbalism-Config-RO
+  - name: Kerbalism-Config-Default
   - name: BonVoyage
   - name: ContractConfigurator
   - name: CryoTanks
