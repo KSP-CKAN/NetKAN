@@ -15,7 +15,7 @@ conflicts:
   - name: HyperEdit
   - name: VesselMover
 depends:
-  - name: RealismOverhaul
+  - name: RFStockalike
   - name: Kerbalism-Config-RO
   - name: BonVoyage
   - name: ContractConfigurator
