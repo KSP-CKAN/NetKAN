@@ -1,11 +1,7 @@
 identifier: TheMartian
 $kref: '#/ckan/github/KerballOne/TheMartianKSP'
 ksp_version_min: 1.12.5
-release_status: testing
-resources:
-  bugtracker: https://github.com/KerballOne/TheMartianKSP/issues
-  homepage: https://github.com/KerballOne/TheMartianKSP/releases
-  repository: https://github.com/KerballOne/TheMartianKSP
+license: CC-BY-NC-SA-4.0
 tags:
   - parts
   - config
@@ -24,7 +20,8 @@ depends:
   - name: CryoTanks
   - name: FreeIva
   - name: HabTechProps
-  - name: InfernalRoboticsNext ==3.1.10
+  - name: InfernalRoboticsNext
+    version: 3.1.10
   - name: Kaboom
   - name: Kerbalism
   - name: KAS
