@@ -1,0 +1,6 @@
+identifier: KcalbelohFinalFrontierRibbonPack
+$kref: '#/ckan/spacedock/4072'
+install:
+  - find: Nereid
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
