@@ -56,17 +56,17 @@ recommends:
 suggests:
   - name: ThroughTheEyesOfaKerbal
 install:
-  - file: GameData/zKB1_TheMartian/
+  - file: GameData/zKB1_TheMartian
     install_to: GameData
-  - file: GameData/AresExploration/
+  - file: GameData/AresExploration
     install_to: GameData
   - file: saves/scenarios/1_TheMartian.sfs
     install_to: Scenarios
-  - file: saves/scenarios/1_TheMartian/
+  - file: saves/scenarios/1_TheMartian
     install_to: Scenarios
-  - file: saves/scenarios/banners/
+  - file: saves/scenarios/banners
     install_to: Scenarios
-  - file: Ships/Script/
+  - file: Ships/Script
     install_to: Ships
   - file: Ships/VAB/Resupply Probe.craft
     install_to: Ships/VAB
