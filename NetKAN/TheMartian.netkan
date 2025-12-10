@@ -24,6 +24,7 @@ depends:
   - name: InfernalRoboticsNext
     version: v3.1.10
   - name: Kaboom
+  - name: RemoteTech
   - name: Kerbalism
   - name: KAS
   - name: KerbalConstructionTime
@@ -42,7 +43,6 @@ depends:
   - name: RationalResourcesParts
   - name: RealFuels
   - name: RealSolarSystem
-  - name: RemoteTech
   - name: StationPartsExpansionRedux
   - name: TheMartianforKSP
 recommends:
