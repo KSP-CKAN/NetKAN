@@ -8,6 +8,7 @@ tags:
 depends:
   - name: ModuleManager
   - name: SpaceY-Lifters
+conflicts:
   - name: SpaceY-Corp
 recommends:
   - name: InterstellarFuelSwitch-Core
