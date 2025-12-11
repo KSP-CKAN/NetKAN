@@ -6,6 +6,8 @@ tags:
   - parts
 depends:
   - name: ModuleManager
+conflicts:
+  - name: SpaceYCorp
 recommends:
   - name: SpaceY-Expanded
 supports:
