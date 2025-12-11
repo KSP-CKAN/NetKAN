@@ -7,7 +7,7 @@ tags:
 depends:
   - name: ModuleManager
 conflicts:
-  - name: SpaceYCorp
+  - name: SpaceY-Corp
 recommends:
   - name: SpaceY-Expanded
 supports:
