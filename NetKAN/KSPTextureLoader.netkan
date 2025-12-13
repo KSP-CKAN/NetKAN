@@ -2,6 +2,7 @@ identifier: KSPTextureLoader
 $kref: '#/ckan/github/Phantomical/KSPTextureLoader/asset_match/KSPTextureLoader.zip'
 x_netkan_version_edit: '^[vV]?(?<version>.+)$'
 $vref: '#/ckan/ksp-avc'
+author: steamroller
 tags:
   - plugin
   - library
