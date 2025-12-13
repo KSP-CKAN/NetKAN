@@ -1,0 +1,9 @@
+identifier: KerbalGenerations
+$kref: '#/ckan/github/BatchMuse/Kerbal-Generations'
+x_netkan_version_edit: ^v?(?<version>.+)$
+---
+identifier: KerbalGenerations
+$kref: '#/ckan/spacedock/4075'
+tags:
+  - plugin
+x_via: Automated SpaceDock CKAN submission
