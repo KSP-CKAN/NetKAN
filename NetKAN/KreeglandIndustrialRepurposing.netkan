@@ -1,0 +1,9 @@
+identifier: KreeglandIndustrialRepurposing
+$kref: '#/ckan/spacedock/4070'
+license: restricted
+tags:
+  - parts
+  - plugin
+depends:
+  - name: ModuleManager
+  - name: B9PartSwitch
