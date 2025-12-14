@@ -3,7 +3,7 @@ $kref: '#/ckan/github/BatchMuse/Kerbal-Generations'
 x_netkan_version_edit: ^v?(?<version>.+)$
 ---
 identifier: KerbalGenerations
-$kref: '#/ckan/spacedock/4075'
+$kref: '#/ckan/spacedock/4078'
 tags:
   - plugin
 x_via: Automated SpaceDock CKAN submission
