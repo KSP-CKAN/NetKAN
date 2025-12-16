@@ -11,6 +11,7 @@ conflicts:
 recommends:
   - name: SpaceY-Expanded
 supports:
+  - name: PatchManager
   - name: ModularRocketSystem
   - name: ModularRocketSystemsLITE
   - name: FuelTanksPlus
