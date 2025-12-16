@@ -13,6 +13,8 @@ tags:
   - crewed
   - first-person
 install:
+  - file: TheMartian.ckan
+    install_to: GameData/zKB1_TheMartian
   - file: GameData/zKB1_TheMartian
     install_to: GameData
   - file: GameData/AresExploration
