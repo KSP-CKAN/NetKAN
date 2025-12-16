@@ -1,13 +1,17 @@
 identifier: HUDReplacer
-$kref: '#/ckan/github/UltraJohn/HUDReplacer/asset_match/HUDReplacer.zip'
+author:
+  - UltraJohn
+  - steamroller
+$kref: '#/ckan/github/KSPModStewards/HUDReplacer'
+$vref: '#/ckan/ksp-avc'
 ksp_version: 1.12
-license: restricted
 resources:
-  manual: https://github.com/UltraJohn/HUDReplacer/blob/master/README.md
-  homepage: https://forum.kerbalspaceprogram.com/index.php?/topic/216056-*
+  manual: https://github.com/KSPModStewards/HUDReplacer/blob/master/README.md
+  homepage: https://forum.kerbalspaceprogram.com/index.php?/topic/229134-*
 tags:
   - plugin
   - graphics
+x_netkan_version_edit: '^[vV]?(?<version>.+)$'
 x_netkan_override:
   - version: '>=1.2.0'
     override:

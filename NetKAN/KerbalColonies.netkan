@@ -19,5 +19,6 @@ depends:
   - name: CustomPreLaunchChecks
   - name: ClickThroughBlocker
   - name: KerbalColoniesConfig
+  - name: BackgroundResourceProcessing
 suggests:
   - name: KerbalColoniesConfigExpansion

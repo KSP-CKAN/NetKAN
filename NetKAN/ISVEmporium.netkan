@@ -12,5 +12,5 @@ depends:
   - name: NearFutureConstruction
   - name: ModuleManager
 install:
-  - find: ISVEmporium
+  - find: zISVEmporium
     install_to: GameData

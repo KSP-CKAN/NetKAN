@@ -12,6 +12,3 @@ depends:
   - name: TexturesUnlimited
 recommends:
   - name: ShuttleOrbiterConstructionKit
-install:
-  - find: StarstroSpaceSystems-main
-    install_to: GameData

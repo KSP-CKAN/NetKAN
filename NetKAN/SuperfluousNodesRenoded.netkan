@@ -1,0 +1,23 @@
+identifier: SuperfluousNodesRenoded
+author:
+  - Geonovast
+  - munktron239
+$kref: '#/ckan/spacedock/4045'
+$vref: '#/ckan/ksp-avc'
+tags:
+  - config
+depends:
+  - name: ModuleManager
+recommends:
+  - name: B9PartSwitch
+  - name: PatchManager
+supports:
+  - name: Interkosmos
+  - name: MissingHistory
+  - name: MoarActionables
+  - name: SCANsat
+  - name: SimpleAdjustableFairings-KWRocketry
+  - name: SmartParts
+  - name: SpaceXLegs
+  - name: StationPartsExpansionRedux
+  - name: TrackingLights
