@@ -7,6 +7,9 @@ $kref: '#/ckan/spacedock/4080'
 $vref: '#/ckan/ksp-avc'
 tags:
   - plugin
+depends:
+  - name: ToolbarController
+  - name: ClickThroughBlocker
 install:
   - find: WheelTunerWindow
     install_to: GameData
