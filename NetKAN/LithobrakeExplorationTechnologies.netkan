@@ -14,6 +14,10 @@ supports:
   - name: ColorCodedCans
   - name: ColorfulFuelLines
   - name: FuelTanksPlus
+  - name: ConnectedLivingSpace
+  - name: RealChute
+  - name: TweakScale
+  - name: TweakScaleRescaled
 install:
   - find: Necrobones
     install_to: GameData
