@@ -1,0 +1,14 @@
+identifier: WheelTuner
+$kref: '#/ckan/github/linuxgurugamer/WheelTunerWindow'
+$vref: '#/ckan/ksp-avc'
+---
+identifier: WheelTuner
+$kref: '#/ckan/spacedock/4080'
+$vref: '#/ckan/ksp-avc'
+tags:
+  - plugin
+install:
+  - find: WheelTunerWindow
+    install_to: GameData
+    filter_regexp: \.pdb$
+x_via: Automated SpaceDock CKAN submission
