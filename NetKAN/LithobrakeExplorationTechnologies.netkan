@@ -19,5 +19,5 @@ supports:
   - name: TweakScale
   - name: TweakScaleRescaled
 install:
-  - find: Necrobones
+  - find: LithobrakeExplorationTechnologies
     install_to: GameData
