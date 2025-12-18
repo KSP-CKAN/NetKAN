@@ -7,6 +7,7 @@ $kref: '#/ckan/spacedock/4080'
 $vref: '#/ckan/ksp-avc'
 tags:
   - plugin
+  - app
 depends:
   - name: ToolbarController
   - name: ClickThroughBlocker
