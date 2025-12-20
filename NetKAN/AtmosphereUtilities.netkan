@@ -1,8 +1,4 @@
 identifier: AtmosphereUtilities
-$kref: '#/ckan/github/plantman-dev/AtmosphereUtilities'
-x_netkan_version_edit: ^v?(?<version>.+)$
----
-identifier: AtmosphereUtilities
 $kref: '#/ckan/spacedock/4047'
 tags:
   - config
@@ -10,4 +6,3 @@ tags:
 install:
   - find: 001_AtmosphereUtilities
     install_to: GameData
-x_via: Automated SpaceDock CKAN submission
