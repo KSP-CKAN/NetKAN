@@ -1,4 +1,8 @@
 identifier: AtmosphereUtilities
+$kref: '#/ckan/github/plantman-dev/AtmosphereUtilities'
+x_netkan_version_edit: ^v?(?<version>.+)$
+---
+identifier: AtmosphereUtilities
 $kref: '#/ckan/spacedock/4047'
 tags:
   - config
