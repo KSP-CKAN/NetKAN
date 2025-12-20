@@ -18,6 +18,7 @@ suggests:
   - name: TexturesUnlimited
   - name: ProceduralParts
   - name: PatchManager
+  - name: ClickThroughBlocker
 install:
   - find: B9_Aerospace_ProceduralWings
     install_to: GameData
