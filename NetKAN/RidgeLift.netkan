@@ -1,0 +1,10 @@
+identifier: RidgeLift
+$kref: '#/ckan/github/Zondulus/RidgeLift'
+x_netkan_version_edit: ^v?(?<version>.+)$
+---
+identifier: RidgeLift
+$kref: '#/ckan/spacedock/4085'
+tags:
+  - config
+  - plugin
+x_via: Automated SpaceDock CKAN submission
