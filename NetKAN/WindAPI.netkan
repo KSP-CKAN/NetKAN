@@ -6,6 +6,7 @@ $vref: '#/ckan/ksp-avc'
 identifier: WindAPI
 $kref: '#/ckan/spacedock/4084'
 $vref: '#/ckan/ksp-avc'
+license: CC0
 tags:
   - plugin
 install:

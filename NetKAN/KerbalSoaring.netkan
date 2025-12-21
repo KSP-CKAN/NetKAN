@@ -5,6 +5,7 @@ x_netkan_version_edit: ^v?(?<version>.+)$
 identifier: KerbalSoaring
 $kref: '#/ckan/spacedock/4076'
 $vref: '#/ckan/ksp-avc'
+license: CC0
 tags:
   - config
   - plugin

@@ -4,6 +4,7 @@ x_netkan_version_edit: ^v?(?<version>.+)$
 ---
 identifier: RidgeLift
 $kref: '#/ckan/spacedock/4085'
+license: CC0
 tags:
   - config
   - plugin

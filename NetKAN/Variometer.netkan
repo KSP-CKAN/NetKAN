@@ -4,6 +4,7 @@ x_netkan_version_edit: ^v?(?<version>.+)$
 ---
 identifier: Variometer
 $kref: '#/ckan/spacedock/4086'
+license: CC0
 tags:
   - config
   - plugin
