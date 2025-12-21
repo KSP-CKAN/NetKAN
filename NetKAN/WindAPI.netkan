@@ -1,0 +1,14 @@
+identifier: WindAPI
+$kref: '#/ckan/github/Zondulus/WindAPI'
+x_netkan_version_edit: ^v?(?<version>.+)$
+$vref: '#/ckan/ksp-avc'
+---
+identifier: WindAPI
+$kref: '#/ckan/spacedock/4084'
+$vref: '#/ckan/ksp-avc'
+tags:
+  - plugin
+install:
+  - find: 000_WindAPI
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
