@@ -1,14 +1,14 @@
 identifier: KerbalSoaring
-$kref: '#/ckan/github/Zondulus/KerbalSoaring'
-$vref: '#/ckan/ksp-avc'
+$kref: '#/ckan/github/Zondulus/RidgeLift'
+x_netkan_version_edit: ^v?(?<version>.+)$
 ---
 identifier: KerbalSoaring
 $kref: '#/ckan/spacedock/4076'
 $vref: '#/ckan/ksp-avc'
-license: CC0
 tags:
   - config
   - plugin
 install:
   - find: GameData/KerbalSoaring
     install_to: GameData
+x_via: Automated SpaceDock CKAN submission
