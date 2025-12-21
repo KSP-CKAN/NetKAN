@@ -1,5 +1,5 @@
 identifier: KerbalSoaring
-$kref: '#/ckan/github/Zondulus/RidgeLift'
+$kref: '#/ckan/github/Zondulus/KerbalSoaring'
 x_netkan_version_edit: ^v?(?<version>.+)$
 ---
 identifier: KerbalSoaring
