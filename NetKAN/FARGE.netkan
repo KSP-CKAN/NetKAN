@@ -1,6 +1,5 @@
 identifier: FARGE
 $kref: '#/ckan/github/Zondulus/FARGE'
-x_netkan_version_edit: ^v?(?<version>.+)$
 $vref: '#/ckan/ksp-avc'
 ---
 identifier: FARGE
