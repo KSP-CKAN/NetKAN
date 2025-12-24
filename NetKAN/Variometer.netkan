@@ -6,6 +6,11 @@ identifier: Variometer
 $kref: '#/ckan/spacedock/4086'
 license: CC0
 tags:
-  - config
   - plugin
-x_via: Automated SpaceDock CKAN submission
+  - physics
+depends:
+  - name: FAR
+  - name: WindAPI
+recommends:
+  - name: KerbalSoaring
+  - name: RidgeLift

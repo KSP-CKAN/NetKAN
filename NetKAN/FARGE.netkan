@@ -7,9 +7,13 @@ identifier: FARGE
 $kref: '#/ckan/spacedock/4077'
 $vref: '#/ckan/ksp-avc'
 tags:
-  - config
   - plugin
+  - physics
+depends:
+  - name: FAR
+recommends:
+  - name: KerbalWind
+  - name: KerbalSoaring
 install:
   - find: GroundEffectFAR
     install_to: GameData
-x_via: Automated SpaceDock CKAN submission

@@ -9,7 +9,12 @@ $vref: '#/ckan/ksp-avc'
 license: CC0
 tags:
   - plugin
+  - physics
+  - library
+conflicts:
+  - name: KerbalWeatherProject
+depends:
+  - name: FAR
 install:
   - find: 000_WindAPI
     install_to: GameData
-x_via: Automated SpaceDock CKAN submission

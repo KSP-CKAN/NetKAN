@@ -6,6 +6,14 @@ identifier: RidgeLift
 $kref: '#/ckan/spacedock/4085'
 license: CC0
 tags:
-  - config
   - plugin
-x_via: Automated SpaceDock CKAN submission
+  - physics
+depends:
+  - name: FAR
+  - name: WindAPI
+  - name: FARWind
+recommends:
+  - name: Variometer
+  - name: KerbalSoaring
+  - name: FARGE
+  - name: KerbalWind
