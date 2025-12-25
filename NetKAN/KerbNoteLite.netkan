@@ -3,11 +3,16 @@
   "identifier": "KerbNoteLite",
   "$kref": "#/ckan/github/garyblu71mods/KerbNoteLite",
   "$vref": "#/ckan/ksp-avc",
+  "x_netkan_version_edit": {
+    "find": "^v",
+    "replace": "",
+    "strict": false
+  },
   "license": "MIT",
   "category": "Utility",
   "install": [
     {
-      "file": "GameData/KerbNoteLite",
+      "find": "KerbNoteLite",
       "install_to": "GameData"
     }
   ]
