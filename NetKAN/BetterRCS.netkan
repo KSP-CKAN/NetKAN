@@ -1,0 +1,13 @@
+identifier: BetterRCS
+$kref: '#/ckan/github/yobeefjerkyYBJ/BetterRCS_KSP'
+---
+identifier: BetterRCS
+$kref: '#/ckan/spacedock/4083'
+tags:
+  - config
+depends:
+  - name: ModuleManager
+install:
+  - find: z_BetterRCS
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
