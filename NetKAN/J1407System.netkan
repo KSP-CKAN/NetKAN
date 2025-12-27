@@ -1,0 +1,9 @@
+identifier: J1407System
+$kref: '#/ckan/spacedock/4089'
+tags:
+  - config
+  - planet-pack
+depends:
+  - name: ModuleManager
+  - name: Kopernicus
+x_via: Automated SpaceDock CKAN submission
