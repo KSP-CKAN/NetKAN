@@ -1,5 +1,9 @@
 identifier: QUARTIXTechTree
 $kref: '#/ckan/spacedock/3152'
+x_netkan_version_edit:
+  find: ^(?<version>.+)\.(?<date>[0-9]{4,8})$
+  replace: ${version}
+  strict: true
 license: CC-BY-NC-SA
 tags:
   - config
