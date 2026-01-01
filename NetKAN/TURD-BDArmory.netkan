@@ -13,5 +13,5 @@ depends:
 suggests:
   - name: BDArmory
 install:
-  - find: TURD
+  - find: TU_BD_Recolour
     install_to: GameData
