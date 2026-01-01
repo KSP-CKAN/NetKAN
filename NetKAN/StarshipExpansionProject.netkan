@@ -1,6 +1,6 @@
 identifier: StarshipExpansionProject
-$kref: '#/ckan/github/Kari1407/Starship-Expansion-Project'
 abstract: Starship vehicle by SpaceX
+$kref: '#/ckan/github/Kari1407/Starship-Expansion-Project'
 x_netkan_version_edit:
   find: ^v(?<first>[^.])
   replace: v.${first}
@@ -12,6 +12,10 @@ author:
   - Kari
   - Sofie
 $kref: '#/ckan/spacedock/2959'
+x_netkan_version_edit:
+  find: ^v(?<first>[^.])
+  replace: v.${first}
+  strict: false
 ksp_version_min: '1.12.3'
 ksp_version_max: '1.12.99'
 license: restricted
