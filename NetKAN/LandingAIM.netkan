@@ -9,7 +9,7 @@
     "install": [ {
         "filter_regexp": [ ".*\\.pdb$" ],
         "install_to": "GameData",
-        "find": "OLDD"
+        "find": "LandingAim"
     } ],
     "depends": [
         { "name": "ModuleManager" }
