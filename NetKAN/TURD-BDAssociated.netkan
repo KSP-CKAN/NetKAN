@@ -20,5 +20,5 @@ suggests:
   - name: Wraithforge
   - name: AviatorArsenal
 install:
-  - find: TURD
+  - find: TU_BD_Associated_Recolour
     install_to: GameData
