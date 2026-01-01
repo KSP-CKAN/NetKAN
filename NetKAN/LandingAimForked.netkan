@@ -1,0 +1,17 @@
+identifier: LandingAimForked
+$kref: '#/ckan/github/linuxgurugamer/Landing-Aim'
+$vref: '#/ckan/ksp-avc'
+---
+identifier: LandingAimForked
+$kref: '#/ckan/spacedock/4096'
+$vref: '#/ckan/ksp-avc'
+tags:
+  - config
+  - plugin
+depends:
+  - name: ModuleManager
+install:
+  - find: LandingAim
+    install_to: GameData
+    filter_regexp: \.pdb$
+x_via: Automated SpaceDock CKAN submission
