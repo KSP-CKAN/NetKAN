@@ -1,7 +1,9 @@
 identifier: MicroMap
 $kref: '#/ckan/github/KerbalMissile/Micro-Map'
+x_netkan_version_edit: ^V?(?<version>.+)$
 ---
 identifier: MicroMap
 $kref: '#/ckan/spacedock/4019'
 tags:
   - plugin
+x_via: Automated SpaceDock CKAN submission
