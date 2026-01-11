@@ -25,5 +25,3 @@ depends:
 install:
   - find: ModularRocketSystems
     install_to: GameData
-  - find: Ships/SPH
-    install_to: Ships
