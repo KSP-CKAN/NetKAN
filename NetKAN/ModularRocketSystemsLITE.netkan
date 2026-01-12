@@ -23,5 +23,5 @@ conflicts:
 depends:
   - name: ModuleManager
 install:
-  - find: ModularRocketSystems
+  - find: ModularRocketSystemsLite
     install_to: GameData
