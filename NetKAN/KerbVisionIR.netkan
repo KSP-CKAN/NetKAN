@@ -1,0 +1,28 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "KerbVisionIR",
+    "$kref": "#/ckan/github/garyblu71mods/KerbVisionIR",
+    "$vref": "#/ckan/ksp-avc",
+    "license": "MIT",
+    "tags": [
+        "plugin",
+        "graphics"
+    ],
+    "install": [
+        {
+            "find": "KerbVisionIR",
+            "install_to": "GameData"
+        }
+    ],
+    "resources": {
+        "homepage": "https://github.com/garyblu71mods/KerbVisionIR",
+        "repository": "https://github.com/garyblu71mods/KerbVisionIR",
+        "bugtracker": "https://github.com/garyblu71mods/KerbVisionIR/issues"
+    },
+    "author": "garyblu71mods",
+    "name": "KerbVision IR - Night Vision",
+    "abstract": "Night Vision mod for Kerbal Space Program with old-school CRT artifacts. Features 3 vision modes, adjustable settings, and authentic CRT effects.",
+    "x_netkan_github": {
+        "use_source_archive": false
+    }
+}
