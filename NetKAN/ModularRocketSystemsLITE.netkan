@@ -28,6 +28,6 @@
         { "name": "ModularRocketSystem" }
     ],
     "install": [
-        { "file": "ModRocketSysLite", "install_to": "GameData" }
+        { "file": "ModularRocketSystemsLite", "install_to": "GameData" }
     ]
 }
