@@ -12,4 +12,3 @@ suggests:
 install:
   - find: PlumeParty
     install_to: GameData
-    filter: Configs

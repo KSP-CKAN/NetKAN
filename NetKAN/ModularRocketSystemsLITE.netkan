@@ -1,7 +1,7 @@
-identifier: ModularRocketSystem
-$kref: '#/ckan/spacedock/86'
+identifier: ModularRocketSystemsLITE
+$kref: '#/ckan/spacedock/87'
 $vref: '#/ckan/ksp-avc'
-license: CC-BY-NC-SA
+license: CC-BY-NC-SA-4.0
 tags:
   - parts
 supports:
@@ -19,9 +19,9 @@ supports:
   - name: HotRockets
   - name: ConnectedLivingSpace
 conflicts:
-  - name: ModularRocketSystemsLITE
+  - name: ModularRocketSystems
 depends:
   - name: ModuleManager
 install:
-  - find: ModularRocketSystems
+  - find: ModularRocketSystemsLite
     install_to: GameData

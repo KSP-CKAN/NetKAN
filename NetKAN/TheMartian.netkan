@@ -1,0 +1,31 @@
+identifier: TheMartian
+name: TheMartian
+$kref: '#/ckan/github/KerballOne/TheMartianKSP'
+ksp_version_min: 1.10
+license: CC-BY-NC-SA-4.0
+tags:
+  - parts
+  - config
+  - agency
+  - resources
+  - career
+  - comms
+  - crewed
+  - first-person
+install:
+  - file: TheMartian.ckan
+    install_to: GameData/zKB1_TheMartian
+  - file: GameData/zKB1_TheMartian
+    install_to: GameData
+  - file: GameData/AresExploration
+    install_to: GameData
+  - file: saves/scenarios/1_TheMartian.sfs
+    install_to: Scenarios
+  - file: saves/scenarios/1_TheMartian
+    install_to: Scenarios
+  - file: saves/scenarios/banners
+    install_to: Scenarios
+  - file: Ships/Script
+    install_to: Ships
+  - file: Ships/VAB/Resupply Probe.craft
+    install_to: Ships/VAB

@@ -1,11 +1,9 @@
 identifier: IXSWarpship-Blueshift
-$kref: '#/ckan/github/Araym-KSP/IXS-Warship-for-Blueshift'
-x_netkan_github:
-  use_source_archive: true
-x_netkan_version_edit:
-  find: ^v\.?(?<version>.+)$
-  replace: v.${version}
+name: IXSWarpship for Blueshift
+$kref: '#/ckan/github/linuxgurugamer/IXS-Warpship-for-Blueshift'
+$vref: '#/ckan/ksp-avc'
 license: GPL-3.0
+x_netkan_epoch: '2'
 tags:
   - config
   - parts

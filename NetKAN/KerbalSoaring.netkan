@@ -1,0 +1,25 @@
+identifier: KerbalSoaring
+$kref: '#/ckan/github/Zondulus/KerbalSoaring'
+x_netkan_version_edit: ^v?(?<version>.+)$
+$vref: '#/ckan/ksp-avc'
+---
+identifier: KerbalSoaring
+$kref: '#/ckan/spacedock/4076'
+$vref: '#/ckan/ksp-avc'
+license: CC0
+tags:
+  - plugin
+  - physics
+depends:
+  - name: FAR
+  - name: WindAPI
+  - name: WaypointManager
+recommends:
+  - name: KerbalWind
+  - name: KerbinSideRemastered
+  - name: FARGE
+install:
+  - find: GameData/KerbalSoaring
+    install_to: GameData
+  - find: GameData/WaypointManager
+    install_to: GameData

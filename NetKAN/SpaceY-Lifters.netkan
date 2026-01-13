@@ -6,9 +6,12 @@ tags:
   - parts
 depends:
   - name: ModuleManager
+conflicts:
+  - name: SpaceY-Corp
 recommends:
   - name: SpaceY-Expanded
 supports:
+  - name: PatchManager
   - name: ModularRocketSystem
   - name: ModularRocketSystemsLITE
   - name: FuelTanksPlus

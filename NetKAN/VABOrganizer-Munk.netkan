@@ -8,20 +8,36 @@ depends:
   - name: ModuleManager
   - name: VABOrganizer
 supports:
+  - name: B9-PWings-Fork
   - name: Benjee10-SharedAssets
   - name: ConformalDecals
+  - name: EnduranceSpaceExplorationSystem
   - name: ExtraPlanetaryLaunchpads
   - name: KAS
   - name: KIS
-  - name: KerbalGPS
-  - name: TACLS
-  - name: PlanetsideExplorationTechnologies
-  - name: HullcamVDSContinued
-  - name: NearFutureExploration
-  - name: NearFutureElectrical
-  - name: KerbalPlanetaryBaseSystems
-  - name: RestockPlus
+  - name: SpaceXLegs
+  - name: KerbalGPSRevived
   - name: StationPartsExpansionRedux
+  - name: TACLS
+  - name: CryoEnginesExtensions
+  - name: CryoTanks
+  - name: DeepFreeze
+  - name: FarFutureTechnologies
+  - name: HullcamVDSContinued
+  - name: JX2Antenna
+  - name: KerbalActuators
+  - name: NearFutureAeronautics
+  - name: NearFutureConstruction
+  - name: NearFutureElectrical
+  - name: NearFutureExploration
+  - name: NearFutureLaunchVehicles
+  - name: NearFuturePropulsion
+  - name: NearFutureSpacecraft
+  - name: KerbalPlanetaryBaseSystems
+  - name: PlanetsideExplorationTechnologies
+  - name: ReStockPlus
+  - name: SpaceDust
+  - name: SystemHeat
 install:
   - find_regexp: Munks-?Fixes(-main)?
     install_to: GameData

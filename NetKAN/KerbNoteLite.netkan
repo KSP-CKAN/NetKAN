@@ -1,19 +1,8 @@
-{
-  "spec_version": "v1.34",
-  "identifier": "KerbNoteLite",
-  "$kref": "#/ckan/github/garyblu71mods/KerbNoteLite",
-  "$vref": "#/ckan/ksp-avc",
-  "x_netkan_version_edit": {
-    "find": "^v",
-    "replace": "",
-    "strict": false
-  },
-  "license": "MIT",
-  "category": "Utility",
-  "install": [
-    {
-      "find": "KerbNoteLite",
-      "install_to": "GameData"
-    }
-  ]
-}
+identifier: KerbNoteLite
+$kref: '#/ckan/github/garyblu71mods/KerbNoteLite'
+---
+identifier: KerbNoteLite
+$kref: '#/ckan/spacedock/4011'
+tags:
+  - plugin
+  - convenience

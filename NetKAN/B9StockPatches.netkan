@@ -11,6 +11,6 @@ tags:
 depends:
   - name: ModuleManager
   - name: B9PartSwitch
+  - name: KGEx
 recommends:
   - name: CommunityResourcePack
-  - name: KGEx

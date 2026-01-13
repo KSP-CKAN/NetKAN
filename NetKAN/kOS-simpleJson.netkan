@@ -1,0 +1,13 @@
+identifier: kOS-simpleJson
+$kref: '#/ckan/github/Thr0in/kOS-simpleJson'
+$vref: '#/ckan/ksp-avc'
+---
+identifier: kOS-simpleJson
+$kref: '#/ckan/spacedock/4064'
+$vref: '#/ckan/ksp-avc'
+tags:
+  - plugin
+depends:
+  - name: kOS
+supports:
+  - name: kOS

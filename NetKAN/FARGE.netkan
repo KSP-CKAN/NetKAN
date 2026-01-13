@@ -1,0 +1,20 @@
+identifier: FARGE
+$kref: '#/ckan/github/Zondulus/FARGE'
+x_netkan_version_edit: ^v?(?<version>.+)$
+$vref: '#/ckan/ksp-avc'
+---
+identifier: FARGE
+$kref: '#/ckan/spacedock/4077'
+$vref: '#/ckan/ksp-avc'
+license: CC0
+tags:
+  - plugin
+  - physics
+depends:
+  - name: FAR
+recommends:
+  - name: KerbalWind
+  - name: KerbalSoaring
+install:
+  - find: GroundEffectFAR
+    install_to: GameData
