@@ -1,6 +1,5 @@
 identifier: KerbVisionIR
 $kref: '#/ckan/github/garyblu71mods/KerbVisionIR'
-x_netkan_version_edit: ^v?(?<version>.+)$
 $vref: '#/ckan/ksp-avc'
 ---
 identifier: KerbVisionIR
@@ -8,9 +7,8 @@ $kref: '#/ckan/spacedock/4105'
 $vref: '#/ckan/ksp-avc'
 tags:
   - config
-  - plugin
+  - graphics
 install:
   - find: KerbVisionIR
     install_to: GameData
     filter_regexp: \.pdb$
-x_via: Automated SpaceDock CKAN submission
