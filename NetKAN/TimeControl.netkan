@@ -12,5 +12,10 @@
     "tags": [
         "plugin",
         "physics"
+    ],
+    "depends": [
+        { "name": "ToolbarController" },
+        { "name": "ClickThroughBlocker" }
     ]
+
 }
