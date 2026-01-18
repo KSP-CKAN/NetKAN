@@ -1,21 +1,17 @@
-{
-    "identifier"  : "TimeControl",
-    "name"        : "Time Control",
-    "abstract"    : "Slow Motion, Hyper Warp, and Rails Warp Controls",
-    "$kref": "#/ckan/spacedock/4107",
-    "$vref"       : "#/ckan/ksp-avc",
-    "x_netkan_epoch": 1,
-    "license"     : "MIT",
-    "resources": {
-        "homepage": "https://forum.kerbalspaceprogram.com/topic/229598-112x-timecontrol-adopted-*"
-    },
-    "tags": [
-        "plugin",
-        "physics"
-    ],
-    "depends": [
-        { "name": "ToolbarController" },
-        { "name": "ClickThroughBlocker" }
-    ]
-
-}
+identifier: TimeControl
+$kref: '#/ckan/github/linuxgurugamer/TimeControl'
+x_netkan_version_edit:
+  find: \.0$
+  replace: ''
+  strict: false
+---
+identifier: TimeControl
+$kref: '#/ckan/spacedock/4107'
+$vref: '#/ckan/ksp-avc'
+x_netkan_epoch: 1
+tags:
+  - plugin
+  - physics
+depends:
+  - name: ToolbarController
+  - name: ClickThroughBlocker
