@@ -1,5 +1,9 @@
 identifier: TimeControl
 $kref: '#/ckan/github/linuxgurugamer/TimeControl'
+x_netkan_version_edit:
+  find: \.0$
+  replace: ''
+  strict: false
 ---
 identifier: TimeControl
 $kref: '#/ckan/spacedock/4107'
