@@ -2,12 +2,12 @@
     "identifier"  : "TimeControl",
     "name"        : "Time Control",
     "abstract"    : "Slow Motion, Hyper Warp, and Rails Warp Controls",
-    "$kref"       : "#/ckan/github/ntwest/TimeControl",
+    "$kref": "#/ckan/spacedock/4107",
     "$vref"       : "#/ckan/ksp-avc",
     "x_netkan_epoch": 1,
     "license"     : "MIT",
     "resources": {
-        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/143763-*"
+        "homepage": "https://forum.kerbalspaceprogram.com/topic/229598-112x-timecontrol-adopted-*"
     },
     "tags": [
         "plugin",
