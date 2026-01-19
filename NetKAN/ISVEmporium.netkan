@@ -1,0 +1,12 @@
+identifier: ISVEmporium
+$kref: '#/ckan/spacedock/4109'
+x_netkan_force_v: true
+tags:
+  - config
+depends:
+  - name: HeatControl
+  - name: NearFutureConstruction
+  - name: ModuleManager
+install:
+  - find: zISVEmporium
+    install_to: GameData
