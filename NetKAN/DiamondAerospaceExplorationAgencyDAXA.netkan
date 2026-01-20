@@ -1,0 +1,10 @@
+identifier: DiamondAerospaceExplorationAgencyDAXA
+$kref: '#/ckan/spacedock/4022'
+tags:
+  - parts
+depends:
+  - name: B9PartSwitch
+install:
+  - find: DiamondAerospaceExploration
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
