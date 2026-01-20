@@ -1,0 +1,9 @@
+identifier: AutoEnableAutoStrutAAS
+$kref: '#/ckan/spacedock/4113'
+tags:
+  - config
+  - plugin
+install:
+  - find: MangoTech
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
