@@ -1,0 +1,13 @@
+identifier: KomUniMunContractualWarfare
+$kref: '#/ckan/github/narni-tchereskov/KomUniMun-Contractual-Warfare'
+---
+identifier: KomUniMunContractualWarfare
+$kref: '#/ckan/spacedock/4018'
+tags:
+  - career
+  - config
+depends:
+  - name: ContractConfigurator
+install:
+  - find: ContractPacks
+    install_to: GameData
