@@ -1,0 +1,11 @@
+identifier: PhobosDeimosSurrogatesfromKcalbelohSystem
+$kref: '#/ckan/spacedock/4012'
+tags:
+  - config
+  - planet-pack
+depends:
+  - name: ModuleManager
+  - name: Kopernicus
+install:
+  - file: GameData/MoonSwap-TotNoi for PhobosDeimos.cfg
+    install_to: GameData
