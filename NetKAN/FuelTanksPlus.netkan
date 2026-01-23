@@ -31,7 +31,7 @@
             "file":       "FuelTanksPlus",
             "install_to": "GameData",
             "filter":     [ "Ships" ]
-        }, 
+        },
         {
             "find":       "Ships/VAB",
             "install_to": "Ships"
