@@ -1,7 +1,13 @@
-license: CC-BY-NC-SA
+identifier: FuelTanksPlus
+$kref: '#/ckan/github/linuxgurugamer/FuelTanksPlus'
+$vref: '#/ckan/ksp-avc'
+---
 identifier: FuelTanksPlus
 $kref: '#/ckan/spacedock/92'
 $vref: '#/ckan/ksp-avc'
+license: CC-BY-NC-SA
+tags:
+  - parts
 depends:
   - name: ModuleManager
 suggests:
@@ -19,12 +25,9 @@ supports:
   - name: DeadlyReentry
   - name: ModularFuelTanks
   - name: InterstellarFuelSwitch
-tags:
-  - parts
 install:
   - find: GameData/FuelTanksPlus
     install_to: GameData
-    filter:
-      - Ships
+    filter: Ships
   - find: VAB
     install_to: Ships
