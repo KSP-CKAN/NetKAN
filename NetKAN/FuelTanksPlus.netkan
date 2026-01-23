@@ -22,7 +22,7 @@ supports:
 tags:
   - parts
 install:
-  - find: FuelTanksPlus
+  - find: GameData/FuelTanksPlus
     install_to: GameData
 	filter:
       - Ships
