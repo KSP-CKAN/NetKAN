@@ -1,0 +1,30 @@
+license: CC-BY-NC-SA
+identifier: FuelTanksPlus
+$kref: '#/ckan/spacedock/92'
+$vref: '#/ckan/ksp-avc'
+depends:
+  - name: ModuleManager
+suggests:
+  - name: ColorCodedCans
+  - name: InterstellarFuelSwitch-Core
+supports:
+  - name: ModularRocketSystem
+  - name: ModularRocketSystemsLITE
+  - name: ColorCodedCans
+  - name: ColorfulFuelLines
+  - name: LithobrakeExplorationTechnologies
+  - name: TweakScale
+  - name: FerramAerospaceResearch
+  - name: KSP-AVC
+  - name: DeadlyReentry
+  - name: ModularFuelTanks
+  - name: InterstellarFuelSwitch
+tags:
+  - parts
+install:
+  - find: GameData/FuelTanksPlus
+    install_to: GameData
+    filter:
+      - Ships
+  - find: VAB
+    install_to: Ships
