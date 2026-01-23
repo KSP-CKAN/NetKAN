@@ -24,8 +24,8 @@ tags:
 install:
   - find: GameData/FuelTanksPlus
     install_to: GameData
-	filter:
+    filter:
       - Ships
   - find: VAB
     install_to:
-	  - Ships
+      - Ships
