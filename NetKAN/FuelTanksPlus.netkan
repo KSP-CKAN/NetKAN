@@ -5,20 +5,20 @@ $vref: '#/ckan/ksp-avc'
 depends:
   - name: ModuleManager
 suggests:
-  - ColorCodedCans
-  - InterstellarFuelSwitch-Core
+  - name: ColorCodedCans
+  - name: InterstellarFuelSwitch-Core
 supports:
-  - ModularRocketSystem
-  - ModularRocketSystemsLITE
-  - ColorCodedCans
-  - ColorfulFuelLines
-  - LithobrakeExplorationTechnologies
-  - TweakScale
-  - FerramAerospaceResearch
-  - KSP-AVC
-  - DeadlyReentry
-  - ModularFuelTanks
-  - InterstellarFuelSwitch
+  - name: ModularRocketSystem
+  - name: ModularRocketSystemsLITE
+  - name: ColorCodedCans
+  - name: ColorfulFuelLines
+  - name: LithobrakeExplorationTechnologies
+  - name: TweakScale
+  - name: FerramAerospaceResearch
+  - name: KSP-AVC
+  - name: DeadlyReentry
+  - name: ModularFuelTanks
+  - name: InterstellarFuelSwitch
 tags:
   - parts
 install:
