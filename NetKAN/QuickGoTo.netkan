@@ -12,7 +12,9 @@ tags:
   - plugin
   - convenience
 depends:
+  - name: ToolbarController
   - name: ClickThroughBlocker
+  - name: SpaceTuxLibrary
 suggests:
   - name: Toolbar
 install:
