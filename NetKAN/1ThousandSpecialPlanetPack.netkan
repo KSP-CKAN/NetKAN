@@ -15,6 +15,7 @@ depends:
   - name: ParallaxContinued
   - name: VertexColorMapEmissive
   - name: VertexMitchellNetravaliHeightMap
+  - name: VertexHeightOblateAdvanced
   - name: ScaledDecorator
 recommends:
   - name: Deferred
