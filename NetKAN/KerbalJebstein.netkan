@@ -1,0 +1,6 @@
+identifier: KerbalJebstein
+$kref: '#/ckan/spacedock/4123'
+install:
+  - find: ''
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
