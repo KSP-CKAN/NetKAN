@@ -1,0 +1,6 @@
+identifier: AustrianPaintingMod
+$kref: '#/ckan/spacedock/4124'
+install:
+  - find: ''
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
