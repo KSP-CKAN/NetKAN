@@ -1,7 +1,7 @@
 identifier: Scatterer-sunflare
 $kref: '#/ckan/github/LGhassen/Scatterer'
 x_netkan_force_v: true
-x_netkan_epoch: '3'
+x_netkan_epoch: 3
 ---
 identifier: Scatterer-sunflare
 name: Scatterer Sunflare
@@ -10,7 +10,7 @@ abstract: >-
   If you're not sure which one to pick, pick this.
 $kref: '#/ckan/spacedock/141'
 x_netkan_force_v: true
-x_netkan_epoch: '3'
+x_netkan_epoch: 3
 license: GPL-3.0
 tags:
   - graphics

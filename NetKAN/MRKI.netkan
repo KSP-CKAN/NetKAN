@@ -1,0 +1,34 @@
+identifier: MRKI
+author:
+  - KerbalHub
+  - '321321321'
+$kref: '#/ckan/github/KerbalHub/MRKI'
+license: restricted
+tags:
+  - config
+  - planet-pack
+provides:
+  - ParallaxContinued-Planet-Textures
+conflicts:
+  - name: ParallaxContinued-Planet-Textures
+depends:
+  - name: ModuleManager
+  - name: Kopernicus
+  - name: KopernicusExpansion
+  - name: VertexMitchellNetravaliHeightMap
+  - name: SigmaDimensions
+recommends:
+  - name: ParallaxContinued
+  - name: EnvironmentalVisualEnhancements
+  - name: Scatterer-config-default
+  - name: Scatterer-sunflare-default
+  - name: Scatterer
+  - name: Firefly
+  - name: Kronometer
+  - name: Deferred
+  - name: Shabby
+suggests:
+  - name: Kerbalism
+  - name: CosmicSerenity-Hades
+  - name: CosmicSerenity-Anubis
+  - name: KcalbelohSystem

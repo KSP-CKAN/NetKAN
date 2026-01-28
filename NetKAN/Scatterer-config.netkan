@@ -1,7 +1,7 @@
 identifier: Scatterer-config
 $kref: '#/ckan/github/LGhassen/Scatterer'
 x_netkan_force_v: true
-x_netkan_epoch: '3'
+x_netkan_epoch: 3
 ---
 identifier: Scatterer-config
 name: Scatterer Default Config
@@ -10,12 +10,14 @@ abstract: >-
   If you're not sure which one to pick, pick this.
 $kref: '#/ckan/spacedock/141'
 x_netkan_force_v: true
-x_netkan_epoch: '3'
+x_netkan_epoch: 3
 license: GPL-3.0
 tags:
   - graphics
   - config
 comment: Does not depend on Scatterer to match Scatterer-sunflare
+provides:
+  - Scatterer-config-default
 conflicts:
   - name: Scatterer-config
 x_netkan_override:
