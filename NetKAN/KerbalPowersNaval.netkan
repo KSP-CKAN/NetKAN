@@ -14,5 +14,7 @@ suggests:
 install:
   - find: KerbalPowers/Naval
     install_to: GameData/KerbalPowers
+  - find: KerbalPowers/Electrics
+    install_to: GameData/KerbalPowers
   - find: TURD
     install_to: GameData
