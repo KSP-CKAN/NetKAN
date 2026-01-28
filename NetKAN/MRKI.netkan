@@ -20,6 +20,7 @@ depends:
 recommends:
   - name: ParallaxContinued
   - name: EnvironmentalVisualEnhancements
+  - name: Scatterer-config-default
   - name: Scatterer-sunflare-default
   - name: Scatterer
   - name: Firefly
