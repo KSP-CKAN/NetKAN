@@ -1,0 +1,14 @@
+identifier: KerbVisionIR
+$kref: '#/ckan/github/garyblu71mods/KerbVisionIR'
+$vref: '#/ckan/ksp-avc'
+---
+identifier: KerbVisionIR
+$kref: '#/ckan/spacedock/4105'
+$vref: '#/ckan/ksp-avc'
+tags:
+  - config
+  - graphics
+install:
+  - find: KerbVisionIR
+    install_to: GameData
+    filter_regexp: \.pdb$

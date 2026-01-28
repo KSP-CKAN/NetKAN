@@ -4,8 +4,8 @@ license: MIT
 tags:
   - buildings
 depends:
+  - name: ModuleManager
   - name: KerbalKonstructs
   - name: StockalikeStructures
   - name: TundraSpaceCenter
-  - name: ModuleManager
-x_via: Automated SpaceDock CKAN submission
+  - name: OrdinaryKonstruction

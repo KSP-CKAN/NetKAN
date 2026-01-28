@@ -1,0 +1,18 @@
+identifier: TimeControl
+$kref: '#/ckan/github/linuxgurugamer/TimeControl'
+$vref: '#/ckan/ksp-avc'
+x_netkan_version_edit:
+  find: \.0$
+  replace: ''
+  strict: false
+---
+identifier: TimeControl
+$kref: '#/ckan/spacedock/4107'
+$vref: '#/ckan/ksp-avc'
+x_netkan_epoch: 1
+tags:
+  - plugin
+  - physics
+depends:
+  - name: ToolbarController
+  - name: ClickThroughBlocker
