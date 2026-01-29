@@ -1,0 +1,16 @@
+identifier: ChrisGNCSuite
+$kref: '#/ckan/github/ChrisInBed/Chris_KSP_Lib'
+x_netkan_version_edit: ^v?(?<version>.+)$
+---
+identifier: ChrisGNCSuite
+$kref: '#/ckan/spacedock/4126'
+tags:
+  - config
+  - control
+  - plugin
+depends:
+  - name: kOS
+install:
+  - find: kOS-Addons
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
