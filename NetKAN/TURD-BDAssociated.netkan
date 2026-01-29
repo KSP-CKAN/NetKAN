@@ -21,4 +21,4 @@ suggests:
   - name: AviatorArsenal
 install:
   - find: TU_BD_Associated_Recolour
-    install_to: GameData
+    install_to: GameData/TURD

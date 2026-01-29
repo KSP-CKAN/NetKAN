@@ -14,4 +14,4 @@ suggests:
   - name: BDArmory
 install:
   - find: TU_BD_Recolour
-    install_to: GameData
+    install_to: GameData/TURD
