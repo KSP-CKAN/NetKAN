@@ -9,7 +9,9 @@ tags:
   - control
   - plugin
 depends:
+  - name: KSPBurst
   - name: kOS
+  - name: FerramAerospaceResearchContinued
 install:
   - find: kOS-Addons
     install_to: GameData
