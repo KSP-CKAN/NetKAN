@@ -5,9 +5,8 @@ x_netkan_version_edit: ^v?(?<version>.+)$
 identifier: ChrisGNCSuite
 $kref: '#/ckan/spacedock/4126'
 tags:
-  - config
-  - control
   - plugin
+  - control
 depends:
   - name: KSPBurst
   - name: kOS
