@@ -13,4 +13,5 @@ depends:
 install:
   - find: kOS-Addons
     install_to: GameData
-x_via: Automated SpaceDock CKAN submission
+  - find: Ships/Script
+    install_to: Ships
