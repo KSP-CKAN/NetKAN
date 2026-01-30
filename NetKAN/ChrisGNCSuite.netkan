@@ -1,0 +1,20 @@
+identifier: ChrisGNCSuite
+$kref: '#/ckan/github/ChrisInBed/Chris_KSP_Lib'
+x_netkan_version_edit: ^v?(?<version>.+)$
+---
+identifier: ChrisGNCSuite
+$kref: '#/ckan/spacedock/4126'
+tags:
+  - plugin
+  - control
+depends:
+  - name: KSPBurst
+  - name: kOS
+  - name: FerramAerospaceResearchContinued
+recommends:
+  - name: WaypointManager
+install:
+  - find: kOS-Addons
+    install_to: GameData
+  - find: Ships/Script
+    install_to: Ships
