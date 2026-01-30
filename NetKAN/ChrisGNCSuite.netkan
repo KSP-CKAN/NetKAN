@@ -12,6 +12,8 @@ depends:
   - name: KSPBurst
   - name: kOS
   - name: FerramAerospaceResearchContinued
+recommends:
+  - name: WaypointManager
 install:
   - find: kOS-Addons
     install_to: GameData
