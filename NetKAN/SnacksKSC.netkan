@@ -1,0 +1,15 @@
+identifier: SnacksKSC
+$kref: '#/ckan/spacedock/4059'
+tags:
+  - buildings
+  - config
+depends:
+  - name: KerbalKonstructs
+  - name: StockalikeStructures
+  - name: KerbalColonies
+  - name: RealLaunchSites
+  - name: KerbinSideRemastered
+  - name: KerbinSideRemasteredTLA
+install:
+  - find: Snack's KSC Expansion
+    install_to: GameData
