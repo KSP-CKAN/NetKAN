@@ -1,0 +1,20 @@
+identifier: FlipNBurn
+$kref: '#/ckan/github/Quest-in/FlipNBurn'
+x_netkan_version_edit: ^Update-?(?<version>.+)$
+---
+identifier: FlipNBurn
+$kref: '#/ckan/spacedock/4118'
+tags:
+  - crewed
+  - first-person
+  - graphics
+  - parts
+  - plugin
+depends:
+  - name: ModuleManager
+  - name: B9PartSwitch
+  - name: Waterfall
+install:
+  - find: GameData/FlipNBurn
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
