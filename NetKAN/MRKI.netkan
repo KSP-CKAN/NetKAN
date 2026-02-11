@@ -9,8 +9,6 @@ tags:
   - planet-pack
 provides:
   - ParallaxContinued-Planet-Textures
-conflicts:
-  - name: ParallaxContinued-Planet-Textures
 depends:
   - name: ModuleManager
   - name: Kopernicus
