@@ -7,8 +7,8 @@ tags:
   - physics
   - convenience
   - resources
+depends:
+  - name: ModuleManager
 install:
   - file: GameData/EasyISP/
     install_to: GameData
-depends:
-  - name: ModuleManager
