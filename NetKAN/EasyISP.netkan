@@ -1,6 +1,9 @@
 identifier: EasyISP
-abstract: Increase the specific impulse (ISP) of all engines
 $kref: '#/ckan/github/Tempus-superest/EasyISP'
+$vref: '#/ckan/ksp-avc'
+---
+identifier: EasyISP
+$kref: '#/ckan/spacedock/4132'
 $vref: '#/ckan/ksp-avc'
 license: Unlicense
 tags:
