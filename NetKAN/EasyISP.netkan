@@ -9,6 +9,3 @@ tags:
   - resources
 depends:
   - name: ModuleManager
-install:
-  - file: GameData/EasyISP
-    install_to: GameData
