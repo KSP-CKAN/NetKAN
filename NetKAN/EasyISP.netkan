@@ -10,5 +10,5 @@ tags:
 depends:
   - name: ModuleManager
 install:
-  - file: GameData/EasyISP/
+  - file: GameData/EasyISP
     install_to: GameData
