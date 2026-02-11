@@ -7,8 +7,6 @@ license: restricted
 tags:
   - config
   - planet-pack
-provides:
-  - ParallaxContinued-Planet-Textures
 depends:
   - name: ModuleManager
   - name: Kopernicus
