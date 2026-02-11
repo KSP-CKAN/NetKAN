@@ -3,6 +3,7 @@ abstract: Increase the specific impulse (ISP) of all engines
 license: Unlicense
 $kref: '#/ckan/github/Tempus-superest/EasyISP'
 resources:
+  bugtracker: https://github.com/Tempus-superest/EasyISP/issues
   license: https://github.com/Tempus-superest/EasyISP/blob/main/LICENSE
   spacedock: https://spacedock.info/mod/4132/EasyISP
   manual: https://github.com/Tempus-superest/EasyISP/blob/main/README.md
