@@ -5,9 +5,10 @@ identifier: BetterRCS
 $kref: '#/ckan/spacedock/4083'
 tags:
   - config
+  - graphics
 depends:
   - name: ModuleManager
+  - name: Waterfall
 install:
   - find: z_BetterRCS
     install_to: GameData
-x_via: Automated SpaceDock CKAN submission
