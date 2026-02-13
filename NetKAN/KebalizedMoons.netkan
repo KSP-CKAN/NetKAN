@@ -1,0 +1,14 @@
+identifier: KebalizedMoons
+$kref: '#/ckan/spacedock/3998'
+tags:
+  - config
+  - planet-pack
+  - plugin
+depends:
+  - name: ModuleManager
+  - name: Kopernicus
+  - name: VertexMitchellNetravaliHeightMap
+install:
+  - find: Oseuq
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
