@@ -1,0 +1,17 @@
+identifier: Mk3HeavyHeli
+$kref: '#/ckan/spacedock/4149'
+tags:
+  - crewed
+  - first-person
+  - parts
+install:
+  - find: Mk3HeavyHeli
+    install_to: GameData
+    filter_regexp: \.craft$
+  - file: GameData/Mk3HeavyHeli/Craft/Cargo Heli.craft
+    install_to: Ships/SPH
+  - file: GameData/Mk3HeavyHeli/Craft/Dual Rotor Cargo.craft
+    install_to: Ships/SPH
+  - file: GameData/Mk3HeavyHeli/Craft/Mi-10.craft
+    install_to: Ships/SPH
+x_via: Automated SpaceDock CKAN submission
