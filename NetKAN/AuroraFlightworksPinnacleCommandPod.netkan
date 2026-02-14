@@ -1,0 +1,10 @@
+identifier: AuroraFlightworksPinnacleCommandPod
+$kref: '#/ckan/spacedock/4148'
+tags:
+  - crewed
+  - first-person
+  - parts
+install:
+  - find: AuroraFlightworks
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
