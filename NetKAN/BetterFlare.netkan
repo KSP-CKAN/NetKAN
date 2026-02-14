@@ -7,6 +7,6 @@ depends:
   - name: ModuleManager
   - name: Kopernicus
 install:
-  - find: zBetterKerbol
+  - find: zBetterFlare
     install_to: GameData
 x_via: Automated SpaceDock CKAN submission
