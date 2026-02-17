@@ -1,0 +1,42 @@
+identifier: RP-1FullThrust
+$kref: '#/ckan/github/KerbalMissile/RP-1-Full-Thrust'
+$vref: '#/ckan/ksp-avc'
+x_netkan_force_v: true
+license: CC-BY-NC-SA-4.0
+tags:
+  - parts
+  - plugin
+  - config
+  - flags
+  - graphics
+  - career
+depends:
+  - name: ModuleManager
+  - name: RP-1
+  - name: RealismOverhaul
+recommends:
+  - name: HabTech2
+  - name: StarshipExpansionProject
+suggests:
+  - name: RN-Skylab
+  - name: SpaceXLegs
+  - name: NearFutureAeronautics
+  - name: NearFutureConstruction
+  - name: NearFutureElectrical
+  - name: NearFutureExploration
+  - name: NearFutureLaunchVehicles
+  - name: NearFuturePropulsion
+  - name: NearFutureSolar
+  - name: NearFutureSpacecraft
+  - name: FarFutureTechnologies
+  - name: PlanetsideExplorationTechnologies
+  - name: SillyPhotonDrives
+  - name: Xingyun2
+  - name: MirrorShields
+  - name: GravityIssue
+  - name: AblativeAirbrake
+  - name: Luciole
+  - name: B9
+  - name: Benjee10Suits
+  - name: RealScaleBoosters
+  - name: KAS
