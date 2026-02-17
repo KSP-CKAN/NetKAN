@@ -8,6 +8,10 @@ $vref: '#/ckan/ksp-avc'
 tags:
   - config
   - plugin
+depends:
+  - name: ToolbarController
+  - name: ClickThroughBlocker
+  - name: SpaceTuxLibrary
 install:
   - find: MissionPlanner
     install_to: GameData
