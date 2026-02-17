@@ -1,0 +1,15 @@
+identifier: MissionPlanner
+$kref: '#/ckan/github/linuxgurugamer/MissionPlanner'
+$vref: '#/ckan/ksp-avc'
+---
+identifier: MissionPlanner
+$kref: '#/ckan/spacedock/4150'
+$vref: '#/ckan/ksp-avc'
+tags:
+  - config
+  - plugin
+install:
+  - find: MissionPlanner
+    install_to: GameData
+    filter_regexp: \.pdb$
+x_via: Automated SpaceDock CKAN submission
