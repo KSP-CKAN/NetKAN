@@ -1,0 +1,27 @@
+identifier: EricAndMack
+$kref: '#/ckan/spacedock/4129'
+tags:
+  - crewed
+  - first-person
+  - parts
+install:
+  - find: EricAndMack
+    install_to: GameData
+    filter_regexp: \.craft$
+  - file: GameData/EricAndMack/Craft/Mack Container.craft
+    install_to: Ships/SPH
+  - file: GameData/EricAndMack/Craft/Mack Pallet.craft
+    install_to: Ships/SPH
+  - file: GameData/EricAndMack/Craft/Mack Tray.craft
+    install_to: Ships/SPH
+  - file: GameData/EricAndMack/Craft/S 64 Carry.craft
+    install_to: Ships/SPH
+  - file: GameData/EricAndMack/Craft/S 64 Fuel.craft
+    install_to: Ships/SPH
+  - file: GameData/EricAndMack/Craft/S 64 Vehicle.craft
+    install_to: Ships/SPH
+  - file: GameData/EricAndMack/Craft/S-64 Mack Load.craft
+    install_to: Ships/SPH
+  - file: GameData/EricAndMack/Craft/Straddler.craft
+    install_to: Ships/SPH
+x_via: Automated SpaceDock CKAN submission
