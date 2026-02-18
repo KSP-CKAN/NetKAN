@@ -1,0 +1,12 @@
+identifier: KerbinRenewalJNSQlaunchsites
+$kref: '#/ckan/spacedock/3680'
+tags:
+  - buildings
+  - config
+depends:
+  - name: ModuleManager
+  - name: KerbalKonstructs
+install:
+  - find: JNSQ Kerbin Renewal
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
