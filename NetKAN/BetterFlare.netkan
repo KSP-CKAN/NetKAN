@@ -1,0 +1,12 @@
+identifier: BetterFlare
+$kref: '#/ckan/spacedock/4145'
+tags:
+  - config
+  - planet-pack
+depends:
+  - name: ModuleManager
+  - name: Kopernicus
+install:
+  - find: zBetterFlare
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
