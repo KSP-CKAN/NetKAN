@@ -1,0 +1,18 @@
+identifier: AMMHighSpeedRailBasicPackage
+$kref: '#/ckan/spacedock/4157'
+tags:
+  - buildings
+  - crewed
+  - first-person
+  - parts
+depends:
+  - name: KerbalKonstructs
+install:
+  - find: 高铁基础包High Rail basic package
+    install_to: GameData
+    filter_regexp: \.craft$
+  - file: 高铁基础包High Rail basic package/列车组预制包 Train prefab/Train(CN)-HXD1B.craft
+    install_to: Ships/SPH
+  - file: 高铁基础包High Rail basic package/列车组预制包 Train prefab/Train(CN)-YZ25.craft
+    install_to: Ships/SPH
+x_via: Automated SpaceDock CKAN submission
