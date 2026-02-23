@@ -1,0 +1,22 @@
+identifier: AMMHighSpeedRailpackage
+$kref: '#/ckan/spacedock/4158'
+tags:
+  - buildings
+  - crewed
+  - first-person
+  - parts
+depends:
+  - name: KerbalKonstructs
+install:
+  - find: AMM
+    install_to: GameData
+    filter_regexp: \.craft$
+  - file: AMM/Train prefab/Train(CN)-CR400AF.craft
+    install_to: Ships/SPH
+  - file: AMM/Train prefab/Train(CN)-CRH2B.craft
+    install_to: Ships/SPH
+  - file: AMM/Train prefab/Train(CN)-HXD1B.craft
+    install_to: Ships/SPH
+  - file: AMM/Train prefab/Train(CN)-YZ25.craft
+    install_to: Ships/SPH
+x_via: Automated SpaceDock CKAN submission
