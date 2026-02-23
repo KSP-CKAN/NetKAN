@@ -10,7 +10,7 @@ depends:
 install:
   - find: AMM
     install_to: GameData
-    filter_regexp: \.craft$
-  - file: AMM/Train prefab
+    filter: Train prefab
+  - find: Train prefab
     install_to: Ships
     as: SPH
