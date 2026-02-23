@@ -11,12 +11,6 @@ install:
   - find: AMM
     install_to: GameData
     filter_regexp: \.craft$
-  - file: AMM/Train prefab/Train(CN)-CR400AF.craft
-    install_to: Ships/SPH
-  - file: AMM/Train prefab/Train(CN)-CRH2B.craft
-    install_to: Ships/SPH
-  - file: AMM/Train prefab/Train(CN)-HXD1B.craft
-    install_to: Ships/SPH
-  - file: AMM/Train prefab/Train(CN)-YZ25.craft
-    install_to: Ships/SPH
-x_via: Automated SpaceDock CKAN submission
+  - file: AMM/Train prefab
+    install_to: Ships
+    as: SPH
