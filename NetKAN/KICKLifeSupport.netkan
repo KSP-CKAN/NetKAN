@@ -1,0 +1,11 @@
+identifier: KICKLifeSupport
+$kref: '#/ckan/spacedock/4079'
+tags:
+  - parts
+  - plugin
+depends:
+  - name: ModuleManager
+install:
+  - find: KickLifeSupport
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
