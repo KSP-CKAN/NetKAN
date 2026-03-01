@@ -1,0 +1,13 @@
+identifier: OrbitalDecayNext
+$kref: '#/ckan/github/superheavybooster/KSP-OrbitalDecay-Next'
+x_netkan_version_edit: ^v?(?<version>.+)$
+---
+identifier: OrbitalDecayNext
+$kref: '#/ckan/spacedock/4021'
+tags:
+  - config
+  - plugin
+install:
+  - find: OrbitalDecay
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
