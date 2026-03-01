@@ -1,0 +1,11 @@
+identifier: RealAirports
+$kref: '#/ckan/spacedock/4156'
+tags:
+  - buildings
+  - config
+depends:
+  - name: KerbalKonstructs
+install:
+  - find: KHRealAirports
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
