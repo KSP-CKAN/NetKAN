@@ -1,5 +1,5 @@
 identifier: RP-1FullThrust
-$kref": '$kref": "#/ckan/github/kerbalmissile/RP-1-Full-Thrust/asset_match/^(?!.*Flagpack)'
+$kref: '#/ckan/github/kerbalmissile/RP-1-Full-Thrust/asset_match/^(?!.*Flagpack)'
 $vref: '#/ckan/ksp-avc'
 x_netkan_force_v: true
 license: CC-BY-NC-SA-4.0
