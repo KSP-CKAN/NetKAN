@@ -1,0 +1,13 @@
+identifier: KHsBetterMun
+$kref: '#/ckan/spacedock/4130'
+tags:
+  - config
+  - planet-pack
+depends:
+  - name: ModuleManager
+  - name: Kopernicus
+  - name: VertexMitchellNetravaliHeightMap
+install:
+  - find: BetterMun
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
