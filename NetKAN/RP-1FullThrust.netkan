@@ -1,4 +1,12 @@
 identifier: RP-1FullThrust
+name: RP-1 Full Thrust
+author:
+  - just that guy
+  - KerbalMissile
+  - Tyrannosaurus Studios
+  - LlamaLlama6
+  - Bob²
+  - Vector
 $kref: '#/ckan/github/kerbalmissile/RP-1-Full-Thrust/asset_match/^(?!.*Flagpack)'
 $vref: '#/ckan/ksp-avc'
 x_netkan_force_v: true
