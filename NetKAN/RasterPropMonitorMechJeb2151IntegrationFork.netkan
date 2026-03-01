@@ -1,0 +1,14 @@
+identifier: RasterPropMonitorMechJeb2151IntegrationFork
+$kref: '#/ckan/spacedock/4111'
+$vref: '#/ckan/ksp-avc'
+tags:
+  - crewed
+  - first-person
+  - parts
+  - plugin
+depends:
+  - name: ModuleManager
+install:
+  - find: JSI
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
