@@ -1,0 +1,7 @@
+identifier: J1407VisualEnhancements
+$kref: '#/ckan/spacedock/4090'
+tags:
+  - config
+depends:
+  - name: ModuleManager
+x_via: Automated SpaceDock CKAN submission
