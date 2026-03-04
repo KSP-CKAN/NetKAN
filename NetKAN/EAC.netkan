@@ -4,7 +4,5 @@ $vref: '#/ckan/ksp-avc'
 tags:
   - plugin
   - crewed
-resources:
-  homepage: https://forum.kerbalspaceprogram.com/topic/229909-enhanced-astronaut-complex-eac
 recommends:
   - name: CrewQueueTwo
