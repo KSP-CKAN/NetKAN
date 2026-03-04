@@ -7,3 +7,6 @@ tags:
   - crewed
 recommends:
   - name: CrewQueueTwo
+install:
+  - find: EAC
+    install_to: GameData
