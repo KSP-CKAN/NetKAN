@@ -1,0 +1,12 @@
+identifier: EnhancedAstronautComplex
+name: Enhanced Astronaut Complex
+$kref: '#/ckan/github/ItchyBrother/EAC'
+$vref: '#/ckan/ksp-avc'
+tags:
+  - plugin
+  - crewed
+recommends:
+  - name: CrewQueueTwo
+install:
+  - find: EAC
+    install_to: GameData
