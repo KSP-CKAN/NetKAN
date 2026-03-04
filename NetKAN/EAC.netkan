@@ -1,12 +1,7 @@
 identifier: EAC
-$kref: "#/ckan/github/ItchyBrother/EAC"
-license: MIT
-
-resources:
-  repository: "https://github.com/ItchyBrother/EAC"
-  bugtracker: "https://github.com/ItchyBrother/EAC/issues"
-
-$vref: "#/ckan/ksp-avc/GameData/EAC/EAC.version"
-
+$kref: '#/ckan/github/ItchyBrother/EAC'
+$vref: '#/ckan/ksp-avc/GameData/EAC/EAC.version'
 tags:
   - plugin
+recommends:
+  - name: CrewQueueTwo
