@@ -1,14 +1,10 @@
 identifier: EAC
 $kref: '#/ckan/github/ItchyBrother/EAC'
-$vref: '#/ckan/ksp-avc/GameData/EAC/EAC.version'
+$vref: '#/ckan/ksp-avc'
 tags:
   - plugin
   - crewed
-
 resources:
-  homepage: 'https://forum.kerbalspaceprogram.com/topic/229909-enhanced-astronaut-complex-eac'
-  repository: 'https://github.com/ItchyBrother/EAC'
-  bugtracker: 'https://github.com/ItchyBrother/EAC/issues'
-
+  homepage: https://forum.kerbalspaceprogram.com/topic/229909-enhanced-astronaut-complex-eac
 recommends:
   - name: CrewQueueTwo
