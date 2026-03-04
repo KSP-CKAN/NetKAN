@@ -3,5 +3,6 @@ $kref: '#/ckan/github/ItchyBrother/EAC'
 $vref: '#/ckan/ksp-avc/GameData/EAC/EAC.version'
 tags:
   - plugin
+  - crewed
 recommends:
   - name: CrewQueueTwo
