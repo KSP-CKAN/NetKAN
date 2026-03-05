@@ -1,0 +1,13 @@
+identifier: SpaceWeatherAtmosphericOrbitalDecay
+$kref: '#/ckan/github/Aebestach/SpaceWeatherAndAtmosphericOrbitalDecay'
+x_netkan_version_edit: ^v?(?<version>.+)$
+---
+identifier: SpaceWeatherAtmosphericOrbitalDecay
+$kref: '#/ckan/spacedock/4116'
+tags:
+  - config
+  - plugin
+install:
+  - find: SpaceWeatherAndAtmosphericOrbitalDecay
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
