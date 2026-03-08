@@ -1,24 +1,4 @@
-{
-  "spec_version": "v1.4",
-  "identifier": "StagingBlocker",
-  "name": "Staging Blocker",
-  "abstract": "Prevents accidental staging by requiring a modifier key with spacebar",
-  "description": "A KSP mod that blocks spacebar staging unless a modifier key is held, preventing accidents during flight. Includes per-vessel configuration, multiplayer support, and optional toolbar integration.",
-  "author": ["AdmiralRadish"],
-  "license": "MIT",
-  "resources": {
-    "homepage": "https://github.com/AdmiralRadish/StagingBlocker,
-    "repository": "https://github.com/AdmiralRadish/StagingBlocker",
-    "bugtracker": "https://github.com/AdmiralRadish/StagingBlocker/issues"
-  },
-  "version": "1.0.0",
-  "ksp_version_min": "1.8",
-  "ksp_version_max": "1.12",
-  "install": [
-    {
-      "find": "StagingBlocker",
-      "install_to": "GameData"
-    }
-  ],
-  "depends": []
-}
+identifier: StagingBlocker
+$kref: '#/ckan/github/AdmiralRadish/StagingBlocker'
+ksp_version_min: '1.8'
+ksp_version_max: '1.12'
