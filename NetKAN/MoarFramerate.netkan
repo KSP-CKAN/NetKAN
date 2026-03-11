@@ -1,0 +1,10 @@
+identifier: MoarFramerate
+$kref: '#/ckan/github/KerbalMissile/Moar-Framerate-'
+x_netkan_version_edit: ^v?(?<version>.+)$
+---
+identifier: MoarFramerate
+$kref: '#/ckan/spacedock/4174'
+tags:
+  - config
+  - plugin
+x_via: Automated SpaceDock CKAN submission
