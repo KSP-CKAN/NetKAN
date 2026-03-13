@@ -19,3 +19,4 @@ depends:
 install:
   - file: GameData/KOSpopupStop
     install_to: GameData
+    
