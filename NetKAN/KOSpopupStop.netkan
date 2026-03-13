@@ -1,0 +1,24 @@
+spec_version: 1
+identifier: KOSpopupStop
+$kref: '#/ckan/github/AdmiralRadish/KOSpopupStop'
+name: KOSpopupStop
+abstract: >-
+  Suppresses repeated kOS connectivity-manager selection popups by stabilizing
+  persisted manager state.
+description: >-
+  Companion KSP plugin for kOS that normalizes known connectivity handlers and
+  preserves the user-selected connectivity manager across loads in modded
+  multiplayer setups.
+author: Nick
+license: MIT
+tags:
+  - plugin
+  - control
+depends:
+  - name: kOS
+resources:
+  repository: https://github.com/AdmiralRadish/KOSpopupStop
+  homepage: https://github.com/AdmiralRadish/KOSpopupStop
+install:
+  - file: GameData/KOSpopupStop
+    install_to: GameData
