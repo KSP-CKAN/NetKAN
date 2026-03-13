@@ -17,5 +17,5 @@ tags:
 depends:
   - name: kOS
 install:
-  - file: GameData/KOSpopupStop
+  - file: KOSpopupStop
     install_to: GameData
