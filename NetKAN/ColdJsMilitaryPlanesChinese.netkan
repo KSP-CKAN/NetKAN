@@ -1,0 +1,13 @@
+identifier: ColdJsMilitaryPlanesChinese
+$kref: '#/ckan/spacedock/4176'
+tags:
+  - crewed
+  - first-person
+  - parts
+install:
+  - find: CJMP
+    install_to: GameData
+    filter_regexp: \.craft$
+  - file: GameData/CJMP/J20/Craft/J 20.craft
+    install_to: Ships/SPH
+x_via: Automated SpaceDock CKAN submission
