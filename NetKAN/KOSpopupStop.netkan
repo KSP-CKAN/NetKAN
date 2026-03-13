@@ -16,9 +16,6 @@ tags:
   - control
 depends:
   - name: kOS
-resources:
-  repository: https://github.com/AdmiralRadish/KOSpopupStop
-  homepage: https://github.com/AdmiralRadish/KOSpopupStop
 install:
   - file: GameData/KOSpopupStop
     install_to: GameData
