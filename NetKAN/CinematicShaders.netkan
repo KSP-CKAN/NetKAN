@@ -1,0 +1,11 @@
+identifier: CinematicShaders
+name: Cinematic Shaders
+$kref: '#/ckan/github/DGerry83/CinematicShaders'
+---
+identifier: CinematicShaders
+$kref: '#/ckan/spacedock/4166'
+tags:
+  - plugin
+  - graphics
+depends:
+  - name: Deferred
