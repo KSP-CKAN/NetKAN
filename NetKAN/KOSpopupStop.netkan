@@ -20,5 +20,5 @@ resources:
   repository: https://github.com/AdmiralRadish/KOSpopupStop
   homepage: https://github.com/AdmiralRadish/KOSpopupStop
 install:
-  - file: GameData/KOSpopupStop
+  - file: KOSpopupStop
     install_to: GameData
