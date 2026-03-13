@@ -1,11 +1,11 @@
 identifier: TelemachusReborn
 $kref: '#/ckan/github/TeleIO/Telemachus-1'
 $vref: '#/ckan/ksp-avc'
+x_netkan_version_edit: ^[vV]?(?<version>[\d\.]+)(?:-.+)*
 ---
 identifier: TelemachusReborn
 $kref: '#/ckan/spacedock/2012'
 $vref: '#/ckan/ksp-avc'
-x_netkan_version_edit: ^[vV]?(?<version>[\d\.]+)(?:-.+)*
 tags:
   - plugin
   - information
