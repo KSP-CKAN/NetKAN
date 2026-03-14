@@ -9,11 +9,11 @@ description: >-
   multiplayer setups.
 author: Nick
 $kref: '#/ckan/github/AdmiralRadish/KOSpopupStop'
+ksp_version_min: '1.8'
+ksp_version_max: '1.12'
 license: MIT
 tags:
   - plugin
   - control
 depends:
   - name: kOS
-ksp_version_min: '1.8'
-ksp_version_max: '1.12'
