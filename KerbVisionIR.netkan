@@ -1,0 +1,19 @@
+{
+  "$kref": "#/ckan/github/garyblu71mods/SimpleNV",
+  "identifier": "KerbVisionIR",
+  "name": "KerbVisionIR",
+  "abstract": "Monochrome-first night vision effect for KSP.",
+  "license": "GPL-3.0",
+  "author": "garyblu71mods",
+  "ksp_version_min": "1.12.3",
+  "depends": [
+    { "name": "ClickThroughBlocker" },
+    { "name": "ToolbarController" }
+  ],
+  "install": [
+    {
+      "find": "GameData/KerbVisionIR",
+      "install_to": "GameData"
+    }
+  ]
+}
