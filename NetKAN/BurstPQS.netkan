@@ -1,6 +1,5 @@
-$kref: '#/ckan/github/Phantomical/BurstPQS'
-$vref: '#/ckan/ksp-avc'
-x_netkan_version_edit: '^[vV]?(?<version>.+)$'
-
 identifier: BurstPQS
 author: steamroller
+$kref: '#/ckan/github/Phantomical/BurstPQS'
+x_netkan_version_edit: '^[vV]?(?<version>.+)$'
+$vref: '#/ckan/ksp-avc'
