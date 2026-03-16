@@ -5,6 +5,6 @@ tags:
 depends:
   - name: ModuleManager
 install:
-  - find: HDSunflare
+  - find: ''
     install_to: GameData
 x_via: Automated SpaceDock CKAN submission
