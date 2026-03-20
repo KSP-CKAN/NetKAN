@@ -6,6 +6,7 @@ install:
   - find: BuoyancyAdjuster
     install_to: GameData
     filter_regexp: \.craft$
-  - file: GameData/BuoyancyAdjuster/Sample Craft/Nuclear Submarine BG.craft
+  - file: BuoyancyAdjuster/GameData/BuoyancyAdjuster/Sample Craft/Nuclear 
+      Submarine BG.craft
     install_to: Ships/SPH
 x_via: Automated SpaceDock CKAN submission
