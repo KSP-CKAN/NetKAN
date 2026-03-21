@@ -4,9 +4,9 @@ tags:
   - config
   - graphics
 conflicts:
-  - HDSunflareRed
-  - HDSunflareWhite
-  - HDSunflareBlue
+  - name: HDSunflareRed
+  - name: HDSunflareWhite
+  - name: HDSunflareBlue
 depends:
   - name: ModuleManager
   - name: Scatterer-sunflare-default
