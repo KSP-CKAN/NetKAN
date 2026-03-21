@@ -1,0 +1,13 @@
+identifier: HDSunflareRed
+$kref: '#/ckan/spacedock/4175'
+tags:
+  - config
+  - graphics
+conflicts:
+  - HDSunflare
+  - HDSunflareWhite
+  - HDSunflareBlue
+depends:
+  - name: ModuleManager
+  - name: Scatterer-sunflare-default
+  - name: Scatterer
