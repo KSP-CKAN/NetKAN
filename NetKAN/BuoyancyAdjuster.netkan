@@ -2,11 +2,11 @@ identifier: BuoyancyAdjuster
 $kref: '#/ckan/spacedock/4171'
 tags:
   - plugin
+  - physics
 install:
   - find: BuoyancyAdjuster
     install_to: GameData
-    filter_regexp: \.craft$
-  - file: BuoyancyAdjuster/GameData/BuoyancyAdjuster/Sample Craft/Nuclear 
-      Submarine BG.craft
-    install_to: Ships/SPH
-x_via: Automated SpaceDock CKAN submission
+    filter: Sample Craft
+  - find: Sample Craft
+    install_to: Ships
+    as: SPH
