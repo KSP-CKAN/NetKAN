@@ -4,7 +4,7 @@ tags:
   - plugin
   - physics
 install:
-  - find: BuoyancyAdjuster
+  - find: GameData/BuoyancyAdjuster
     install_to: GameData
     filter: Sample Craft
   - find: Sample Craft
