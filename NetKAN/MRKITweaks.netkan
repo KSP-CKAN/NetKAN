@@ -1,0 +1,14 @@
+identifier: MRKITweaks
+$kref: '#/ckan/github/CharleRoger/MRKITweaks'
+$vref: '#/ckan/ksp-avc'
+---
+identifier: MRKITweaks
+$kref: '#/ckan/spacedock/4170'
+$vref: '#/ckan/ksp-avc'
+tags:
+  - config
+  - planet-pack
+depends:
+  - name: ModuleManager
+  - name: Kopernicus
+x_via: Automated SpaceDock CKAN submission
