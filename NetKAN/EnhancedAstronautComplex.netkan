@@ -2,6 +2,7 @@ identifier: EnhancedAstronautComplex
 name: Enhanced Astronaut Complex
 $kref: '#/ckan/github/ItchyBrother/EAC'
 $vref: '#/ckan/ksp-avc'
+x_netkan_epoch: '1'
 tags:
   - plugin
   - crewed
