@@ -1,0 +1,10 @@
+identifier: KerbalEyelidsContinued
+$kref: '#/ckan/spacedock/4181'
+tags:
+  - config
+  - plugin
+install:
+  - find: KerbalEyelids
+    install_to: GameData
+    filter_regexp: \.pdb$
+x_via: Automated SpaceDock CKAN submission
