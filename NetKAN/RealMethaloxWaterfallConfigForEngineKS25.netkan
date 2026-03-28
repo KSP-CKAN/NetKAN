@@ -1,0 +1,10 @@
+identifier: RealMethaloxWaterfallConfigForEngineKS25
+$kref: '#/ckan/spacedock/4106'
+tags:
+  - config
+depends:
+  - name: ModuleManager
+install:
+  - find: RealMethalox
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
