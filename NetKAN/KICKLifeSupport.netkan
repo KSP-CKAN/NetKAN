@@ -5,7 +5,7 @@ tags:
   - plugin
 depends:
   - name: ModuleManager
+  - name: CommunityResourcePack
 install:
   - find: KickLifeSupport
     install_to: GameData
-x_via: Automated SpaceDock CKAN submission
