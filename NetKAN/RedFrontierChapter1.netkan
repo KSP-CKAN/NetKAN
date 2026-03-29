@@ -1,0 +1,26 @@
+identifier: RedFrontierChapter1
+$kref: '#/ckan/github/Red-Frontier/RedFrontier'
+x_netkan_version_edit: ^v?(?<version>.+)$
+$vref: '#/ckan/ksp-avc'
+---
+identifier: RedFrontierChapter1
+$kref: '#/ckan/spacedock/4182'
+$vref: '#/ckan/ksp-avc'
+tags:
+  - career
+  - parts
+  - plugin
+depends:
+  - name: ModuleManager
+  - name: ContractConfigurator
+install:
+  - find: ''
+    install_to: GameData
+    filter_regexp: \.craft$
+  - file: Resources/CraftFiles/BulkFuelTank_Standard.craft
+    install_to: Ships/SPH
+  - file: Resources/CraftFiles/F6 drop pod.craft
+    install_to: Ships/VAB
+  - file: Resources/CraftFiles/OreContainer_Standard.craft
+    install_to: Ships/SPH
+x_via: Automated SpaceDock CKAN submission
