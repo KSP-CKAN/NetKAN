@@ -8,6 +8,8 @@ tags:
   - config
 depends:
   - name: ContractConfigurator
+  - name: BDArmoryForRunwayProject
+  - name: FerramAerospaceResearchContinued
 install:
   - find: ContractPacks
     install_to: GameData
