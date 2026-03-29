@@ -11,5 +11,14 @@ tags:
   - parts
   - plugin
 depends:
+  - name: BreakingGround-DLC
   - name: ModuleManager
   - name: ContractConfigurator
+recommends:
+  - name: CommunityTechTree
+  - name: NearFuturePropulsion
+  - name: StationPartsExpansionRedux
+  - name: KerbalPlanetaryBaseSystems
+install:
+  - find: RedFrontier
+    install_to: GameData/ContractPacks
