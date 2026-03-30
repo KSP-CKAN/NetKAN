@@ -1,7 +1,0 @@
-identifier: BlackShuttleWindows
-$kref: '#/ckan/spacedock/3725'
-tags:
-  - config
-depends:
-  - name: ModuleManager
-x_via: Automated SpaceDock CKAN submission
