@@ -1,0 +1,11 @@
+identifier: AMMCity
+$kref: '#/ckan/spacedock/4187'
+tags:
+  - buildings
+  - config
+depends:
+  - name: KerbalKonstructs
+install:
+  - find: AMM(city)
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
