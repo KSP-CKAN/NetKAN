@@ -2,8 +2,9 @@ identifier: ContractConfiguratorExtended
 $kref: '#/ckan/spacedock/4073'
 $vref: '#/ckan/ksp-avc'
 tags:
-  - config
   - plugin
+  - library
+  - career
 provides:
   - ContractConfigurator
 conflicts:
