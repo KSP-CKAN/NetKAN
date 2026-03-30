@@ -4,4 +4,7 @@ tags:
   - config
 depends:
   - name: ModuleManager
-x_via: Automated SpaceDock CKAN submission
+  - name: ShuttleOrbiterConstructionKit
+install:
+  - find: Benjee10_shuttleOrbiter
+    install_to: GameData
