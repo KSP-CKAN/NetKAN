@@ -1,9 +1,9 @@
 identifier: HomeWorldFallback
 $kref: '#/ckan/github/Oprissmian/HomeWorldFallback'
-ksp_version_min: 1.12.0
-ksp_version_max: 1.12.99
-author: Space Fox Oprissmian
-license: MIT
+---
+identifier: HomeWorldFallback
+$kref: '#/ckan/spacedock/3990'
+ksp_version: 1.12
 tags:
   - config
 depends:

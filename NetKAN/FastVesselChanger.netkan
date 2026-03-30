@@ -1,0 +1,8 @@
+identifier: FastVesselChanger
+$kref: '#/ckan/github/AdmiralRadish/FastVesselChanger'
+ksp_version_min: '1.8'
+ksp_version_max: '1.12'
+license: MIT
+tags:
+  - plugin
+  - control
