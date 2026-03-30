@@ -8,3 +8,4 @@ depends:
 install:
   - find: Benjee10_shuttleOrbiter
     install_to: GameData
+    comment: "This mod wants to overwwrite a file from ShuttleOrbiterConstructionKit, which isn't allowed, so we're freezing it. Unfreeze if the author fixes it."
