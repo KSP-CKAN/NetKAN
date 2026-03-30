@@ -4,9 +4,12 @@ $vref: '#/ckan/ksp-avc'
 tags:
   - config
   - plugin
+provides:
+  - ContractConfigurator
+conflicts:
+  - name: ContractConfigurator
 depends:
   - name: ModuleManager
 install:
   - find: ContractConfigurator
     install_to: GameData
-x_via: Automated SpaceDock CKAN submission
