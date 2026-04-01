@@ -9,6 +9,7 @@ license: restricted
 tags:
   - parts
 depends:
+  - name: ModuleManager
   - name: InfernalRoboticsNext
   - name: IR-ConnectionSystem
 install:
