@@ -1,0 +1,10 @@
+identifier: DressConfigsVABOrganizerconfigsforMk3Expansion
+$kref: '#/ckan/spacedock/4115'
+tags:
+  - config
+depends:
+  - name: ModuleManager
+install:
+  - find: ''
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
