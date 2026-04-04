@@ -1,0 +1,12 @@
+identifier: RocketRosBetterPlock
+$kref: '#/ckan/spacedock/4192'
+tags:
+  - config
+  - planet-pack
+depends:
+  - name: ModuleManager
+  - name: Kopernicus
+install:
+  - find: PlockPlus
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
