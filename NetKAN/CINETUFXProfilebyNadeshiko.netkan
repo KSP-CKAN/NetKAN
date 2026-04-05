@@ -1,0 +1,14 @@
+identifier: CINETUFXProfilebyNadeshiko
+$kref: '#/ckan/github/Aeurias/CINE-TUFX'
+---
+identifier: CINETUFXProfilebyNadeshiko
+$kref: '#/ckan/spacedock/4159'
+tags:
+  - config
+  - graphics
+depends:
+  - name: TUFX
+install:
+  - find: Nadeshiko_CINE
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
