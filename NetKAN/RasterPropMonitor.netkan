@@ -49,4 +49,3 @@ install:
     install_to: GameData/JSI
     filter:
       - BasicMFD
-    install_to: GameData
