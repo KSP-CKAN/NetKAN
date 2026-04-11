@@ -45,11 +45,8 @@ suggests:
   - name: QuickIVA
   - name: KSAIVAUpgrade
 install:
-  - find: JSI
+  - find: JSI/RPMPodPatches
+    install_to: GameData/JSI
     filter:
-      - RasterPropMonitor
       - BasicMFD
-      - README.md
-      - LICENSE.md
-      - Agencies
     install_to: GameData
