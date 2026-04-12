@@ -20,4 +20,8 @@ tags:
   - config
   - crewed
   - first-person
-
+install:
+  - find: JSI/RPMPodPatches
+    install_to: GameData/JSI
+    filter:
+      - BasicMFD
