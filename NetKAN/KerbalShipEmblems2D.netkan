@@ -5,3 +5,4 @@ tags:
   - graphics
 depends:
   - name: ModuleManager
+  - name: HUDReplacer
