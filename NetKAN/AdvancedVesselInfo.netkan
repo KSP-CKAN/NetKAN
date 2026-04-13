@@ -1,5 +1,7 @@
 identifier: AdvancedVesselInfo
+$kref: '#/ckan/github/FrittenFritz/AdvancedVesselInfo'
+---
+identifier: AdvancedVesselInfo
 $kref: '#/ckan/spacedock/4208'
 tags:
   - plugin
-x_via: Automated SpaceDock CKAN submission
