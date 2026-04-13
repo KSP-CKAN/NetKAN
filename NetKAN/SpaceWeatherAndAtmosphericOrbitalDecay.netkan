@@ -7,5 +7,5 @@ $kref: '#/ckan/spacedock/4116'
 tags:
   - plugin
   - physics
-recommends:
+depends:
   - name: Kerbalism
