@@ -1,0 +1,7 @@
+identifier: KerbalShipEmblems3D
+$kref: '#/ckan/spacedock/4207'
+tags:
+  - config
+  - graphics
+depends:
+  - name: ModuleManager
