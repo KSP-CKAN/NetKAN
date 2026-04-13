@@ -1,11 +1,9 @@
 identifier: OrbitalPayloadCalculator
 $kref: '#/ckan/github/Aebestach/OrbitalPayloadCalculator'
 x_netkan_version_edit: ^v?(?<version>.+)$
-$vref: '#/ckan/ksp-avc'
 ---
 identifier: OrbitalPayloadCalculator
 $kref: '#/ckan/spacedock/4154'
-$vref: '#/ckan/ksp-avc'
 tags:
   - plugin
   - information
