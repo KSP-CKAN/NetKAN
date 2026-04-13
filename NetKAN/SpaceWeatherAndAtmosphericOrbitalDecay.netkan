@@ -8,4 +8,5 @@ tags:
   - plugin
   - physics
 depends:
+  - name: ClickThroughBlocker
   - name: Kerbalism
