@@ -1,0 +1,14 @@
+identifier: OrbitalKeeper
+$kref: '#/ckan/github/Aebestach/OrbitalKeeper'
+x_netkan_version_edit: ^v?(?<version>.+)$
+---
+identifier: OrbitalKeeper
+$kref: '#/ckan/spacedock/4151'
+tags:
+  - plugin
+  - physics
+  - control
+depends:
+  - name: ClickThroughBlocker
+recommends:
+  - name: SpaceWeatherAndAtmosphericOrbitalDecay
