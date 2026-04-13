@@ -1,0 +1,9 @@
+identifier: KerbalShipEmblems3D
+name: Kerbal Ship Emblems 3D
+$kref: '#/ckan/spacedock/4207'
+tags:
+  - config
+  - graphics
+depends:
+  - name: ModuleManager
+  - name: HUDReplacer
