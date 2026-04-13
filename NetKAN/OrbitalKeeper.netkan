@@ -1,13 +1,12 @@
-identifier: OrbitalKeeperStationKeeping
+identifier: OrbitalKeeper
 $kref: '#/ckan/github/Aebestach/OrbitalKeeper'
 x_netkan_version_edit: ^v?(?<version>.+)$
 ---
 identifier: OrbitalKeeperStationKeeping
 $kref: '#/ckan/spacedock/4151'
 tags:
-  - config
   - plugin
-install:
-  - find: OrbitalKeeper
-    install_to: GameData
-x_via: Automated SpaceDock CKAN submission
+  - physics
+  - control
+depends:
+  - name: ClickThroughBlocker
