@@ -1,0 +1,9 @@
+identifier: EngineAnalyzer
+$kref: '#/ckan/github/Iftn1/KSP-EngineAnalyzer'
+x_netkan_version_edit: ^V?(?<version>.+)$
+---
+identifier: EngineAnalyzer
+$kref: '#/ckan/spacedock/4210'
+tags:
+  - plugin
+x_via: Automated SpaceDock CKAN submission
