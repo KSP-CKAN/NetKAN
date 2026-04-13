@@ -6,5 +6,7 @@ $kref: '#/ckan/spacedock/4193'
 license: AGPL-3.0
 tags:
   - plugin
+  - sound
+  - library
 depends:
   - name: ModuleManager
