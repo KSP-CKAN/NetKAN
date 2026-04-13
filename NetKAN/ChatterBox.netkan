@@ -1,0 +1,15 @@
+identifier: ChatterBox
+$kref: '#/ckan/github/DymndLab/ChatterBox'
+x_netkan_version_edit: ^v?(?<version>.+)$
+$vref: '#/ckan/ksp-avc'
+---
+identifier: ChatterBox
+$kref: '#/ckan/spacedock/4206'
+$vref: '#/ckan/ksp-avc'
+tags:
+  - plugin
+  - career
+  - library
+depends:
+  - name: ContractConfigurator
+    min_version: v2.12.0
