@@ -1,0 +1,12 @@
+identifier: MusicSwitcher
+$kref: '#/ckan/gitea/codeberg.org/xavier2910/MusicSwitcher'
+---
+identifier: MusicSwitcher
+$kref: '#/ckan/spacedock/4193'
+license: AGPL-3.0
+tags:
+  - plugin
+  - sound
+  - library
+depends:
+  - name: ModuleManager
