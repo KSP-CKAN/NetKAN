@@ -10,3 +10,5 @@ tags:
   - control
 depends:
   - name: ClickThroughBlocker
+recommends:
+  - name: SpaceWeatherAndAtmosphericOrbitalDecay
