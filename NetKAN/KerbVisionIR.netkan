@@ -1,27 +1,20 @@
-{
-  "$kref": "#/ckan/spacedock/4105",
-  "identifier": "KerbVisionIR",
-  "name": "KerbVisionIR",
-  "abstract": "Monochrome-first night vision effect for KSP.",
-  "license": "GPL-3.0",
-  "author": "garyblu71mods",
-  "ksp_version_min": "1.12.3",
-  "resources": {
-    "spacedock": "https://spacedock.info/mod/4105/KerbVision%20IR",
-    "repository": "https://github.com/garyblu71mods/SimpleNV"
-  },
-  "depends": [
-    {
-      "name": "ClickThroughBlocker"
-    },
-    {
-      "name": "ToolbarController"
-    }
-  ],
-  "install": [
-    {
-      "find": "GameData/KerbVisionIR",
-      "install_to": "GameData"
-    }
-  ]
-}
+spec_version: v1.4
+identifier: KerbVisionIR
+name: KerbVisionIR
+abstract: Night vision mod for Kerbal Space Program — monochrome/green NV with brightness, vignette, grain and scanline controls
+author:
+  - garyblu71mods
+$kref: '#/ckan/spacedock/4105'
+$vref: '#/ckan/ksp-avc'
+x_netkan_force_v: true
+license: MIT
+tags:
+  - config
+  - graphics
+depends:
+  - name: ClickThroughBlocker
+  - name: ToolbarController
+install:
+  - find: KerbVisionIR
+    install_to: GameData
+    filter_regexp: \.pdb$
