@@ -1,0 +1,17 @@
+identifier: KomUniMunCW
+$kref: '#/ckan/github/narni-tchereskov/KomUniMun-Contractual-Warfare'
+---
+identifier: KomUniMunCW
+$kref: '#/ckan/spacedock/4018'
+tags:
+  - config
+  - career
+  - combat
+depends:
+  - name: ModuleManager
+  - name: ContractConfigurator
+  - name: BDArmoryForRunwayProject
+  - name: FerramAerospaceResearchContinued
+install:
+  - find: FARc_edition/GameData/ContractPacks
+    install_to: GameData
