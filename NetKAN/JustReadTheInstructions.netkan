@@ -3,9 +3,12 @@ $kref: '#/ckan/github/RELMYMathieu/JustReadTheInstructions'
 ---
 identifier: JustReadTheInstructions
 $kref: '#/ckan/spacedock/4212'
+ksp_version: 1.12
 tags:
   - config
   - plugin
+depends:
+  - name: HullcamVDSContinued
 install:
   - find: JustReadTheInstructions
     install_to: GameData
