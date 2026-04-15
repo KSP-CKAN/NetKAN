@@ -1,6 +1,5 @@
 identifier: JustReadTheInstructions
 $kref: '#/ckan/github/RELMYMathieu/JustReadTheInstructions'
-x_netkan_version_edit: ^v?(?<version>.+)$
 ---
 identifier: JustReadTheInstructions
 $kref: '#/ckan/spacedock/4212'
@@ -11,4 +10,3 @@ install:
   - find: JustReadTheInstructions
     install_to: GameData
     filter_regexp: \.pdb$
-x_via: Automated SpaceDock CKAN submission
