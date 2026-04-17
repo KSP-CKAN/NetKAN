@@ -1,0 +1,21 @@
+identifier: KerbalFX-AeroFX
+name: KerbalFX - AeroFX
+abstract: KerbalFX module for atmospheric ribbon condensation trails.
+description: KerbalFX AeroFX adds atmospheric ribbon condensation trails for suitable wing-like aircraft parts, driven by speed, air density, dynamic pressure, and maneuver load. Requires KerbalFX Core.
+author: bimo1d
+license: Unlicense
+release_status: stable
+resources:
+  homepage: https://forum.kerbalspaceprogram.com/topic/230118-wip1125-kerbalfx-lightweight-modular-fx-framework-v062-15042026/
+  repository: https://github.com/bimo1d/KerbalFX
+  bugtracker: https://github.com/bimo1d/KerbalFX/issues
+  spacedock: https://spacedock.info/mod/4190/KerbalFX
+  remote-avc: https://raw.githubusercontent.com/bimo1d/KerbalFX/main/AeroFX/KerbalFX-AeroFX.version
+$kref: '#/ckan/github/bimo1d/KerbalFX/asset_match/^KerbalFX-AeroFX-.*\.zip$'
+x_netkan_version_edit: '^[vV]?(?<version>.+)$'
+$vref: '#/ckan/ksp-avc'
+install:
+  - find: KerbalFX
+    install_to: GameData
+depends:
+  - name: KerbalFX-Core

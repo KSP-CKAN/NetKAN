@@ -1,0 +1,26 @@
+identifier: KerbalFX-Core
+name: KerbalFX Core
+abstract: Shared KerbalFX runtime required by KerbalFX visual modules.
+description: KerbalFX Core provides the shared runtime, settings, and helper code required by KerbalFX visual modules. It does not add a visual effect by itself.
+author: bimo1d
+license: Unlicense
+release_status: stable
+resources:
+  homepage: https://forum.kerbalspaceprogram.com/topic/230118-wip1125-kerbalfx-lightweight-modular-fx-framework-v062-15042026/
+  repository: https://github.com/bimo1d/KerbalFX
+  bugtracker: https://github.com/bimo1d/KerbalFX/issues
+  spacedock: https://spacedock.info/mod/4190/KerbalFX
+  remote-avc: https://raw.githubusercontent.com/bimo1d/KerbalFX/main/Core/KerbalFX-Core.version
+$kref: '#/ckan/github/bimo1d/KerbalFX/asset_match/^KerbalFX-Core-.*\.zip$'
+x_netkan_version_edit: '^[vV]?(?<version>.+)$'
+$vref: '#/ckan/ksp-avc'
+install:
+  - find: KerbalFX
+    install_to: GameData
+depends:
+  - name: ModuleManager
+recommends:
+  - name: KerbalFX-AeroFX
+  - name: KerbalFX-BlastFX
+  - name: KerbalFX-ImpactPuffs
+  - name: KerbalFX-RoverDust

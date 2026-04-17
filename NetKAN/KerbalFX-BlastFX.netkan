@@ -1,0 +1,21 @@
+identifier: KerbalFX-BlastFX
+name: KerbalFX - BlastFX
+abstract: KerbalFX module for separator and decoupler visual effects.
+description: KerbalFX BlastFX adds separator and decoupler visual effects, including sparks, fragments, smoke, and softer ordinary decoupler puffs. Requires KerbalFX Core.
+author: bimo1d
+license: Unlicense
+release_status: stable
+resources:
+  homepage: https://forum.kerbalspaceprogram.com/topic/230118-wip1125-kerbalfx-lightweight-modular-fx-framework-v062-15042026/
+  repository: https://github.com/bimo1d/KerbalFX
+  bugtracker: https://github.com/bimo1d/KerbalFX/issues
+  spacedock: https://spacedock.info/mod/4190/KerbalFX
+  remote-avc: https://raw.githubusercontent.com/bimo1d/KerbalFX/main/BlastFX/KerbalFX-BlastFX.version
+$kref: '#/ckan/github/bimo1d/KerbalFX/asset_match/^KerbalFX-BlastFX-.*\.zip$'
+x_netkan_version_edit: '^[vV]?(?<version>.+)$'
+$vref: '#/ckan/ksp-avc'
+install:
+  - find: KerbalFX
+    install_to: GameData
+depends:
+  - name: KerbalFX-Core
