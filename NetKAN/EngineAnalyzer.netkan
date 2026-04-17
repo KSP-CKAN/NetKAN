@@ -6,5 +6,5 @@ $kref: '#/ckan/spacedock/4210'
 tags:
   - plugin
   - information
-recommends:
+depends:
   - name: RealFuels
