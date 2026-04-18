@@ -1,0 +1,9 @@
+identifier: ChemicalTechTree
+$kref: '#/ckan/spacedock/4214'
+$vref: '#/ckan/ksp-avc'
+tags:
+  - parts
+  - tech-tree
+depends:
+  - name: ModuleManager
+x_via: Automated SpaceDock CKAN submission
