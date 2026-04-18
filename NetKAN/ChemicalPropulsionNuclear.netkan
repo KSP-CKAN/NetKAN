@@ -3,7 +3,7 @@ $kref: '#/ckan/github/CharleRoger/ChemicalPropulsion'
 $vref: '#/ckan/ksp-avc'
 ---
 identifier: ChemicalPropulsionNuclear
-name: Chemical Propulsion - Nuclear
+name: Chemical Propulsion - Thermal
 abstract: >-
   An extension pack for Chemical Propulsion which
   adds high-thrust, low-isp propellant options to NTRs
@@ -18,5 +18,5 @@ depends:
   - name: ChemicalPropulsion
   - name: CommunityResourcePack
 install:
-  - find: ChemicalPropulsionNuclear
+  - find: ChemicalPropulsionThermal
     install_to: GameData
