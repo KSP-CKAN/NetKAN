@@ -1,0 +1,16 @@
+identifier: ChemicalTechTree
+$kref: '#/ckan/github/CharleRoger/ChemicalTechTree'
+$vref: '#/ckan/ksp-avc'
+---
+identifier: ChemicalTechTree
+$kref: '#/ckan/spacedock/4214'
+$vref: '#/ckan/ksp-avc'
+tags:
+  - config
+  - tech-tree
+depends:
+  - name: ModuleManager
+  - name: CommunityResourcePack
+  - name: ChemicalCore
+    min_version: 1.5.0
+  - name: HideEmptyTechNodes
