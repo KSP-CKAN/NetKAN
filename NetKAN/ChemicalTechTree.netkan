@@ -1,4 +1,7 @@
 identifier: ChemicalTechTree
+$kref: '#/ckan/github/CharleRoger/ChemicalTechTree'
+---
+identifier: ChemicalTechTree
 $kref: '#/ckan/spacedock/4214'
 $vref: '#/ckan/ksp-avc'
 tags:
@@ -6,4 +9,3 @@ tags:
   - tech-tree
 depends:
   - name: ModuleManager
-x_via: Automated SpaceDock CKAN submission
