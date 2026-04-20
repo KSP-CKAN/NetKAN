@@ -1,0 +1,14 @@
+identifier: StokeEngine
+$kref: '#/ckan/github/CapC0m/stoke-engine'
+x_netkan_version_edit: ^v?(?<version>.+)$
+---
+identifier: StokeEngine
+$kref: '#/ckan/spacedock/4218'
+tags:
+  - config
+  - graphics
+  - plugin
+depends:
+  - name: ModuleManager
+  - name: Waterfall
+x_via: Automated SpaceDock CKAN submission
