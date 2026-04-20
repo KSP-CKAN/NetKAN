@@ -1,0 +1,17 @@
+spec_version: v1.4
+identifier: IR-Kinematics
+name: Infernal Robotics Next - Kinematics
+abstract: Kinematics base package for robotic arms
+author: Rudolf Meier
+$kref: '#/ckan/github/meirumeiru/IR-Kinematics'
+$vref: '#/ckan/ksp-avc'
+license: GPL-3.0
+tags:
+  - plugin
+depends:
+  - name: InfernalRoboticsNext
+recommends:
+  - name: IR-Canadarm
+install:
+  - file: GameData/IRKinematics
+    install_to: GameData
