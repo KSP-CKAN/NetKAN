@@ -1,12 +1,14 @@
-identifier: StokeEngine
+identifier: AegisDynamics
 $kref: '#/ckan/github/CapC0m/stoke-engine'
 ---
-identifier: StokeEngine
+identifier: AegisDynamics
 $kref: '#/ckan/spacedock/4218'
 tags:
-  - config
-  - graphics
   - plugin
+  - parts
 depends:
   - name: ModuleManager
+  - name: B9PartSwitch
   - name: Waterfall
+recommends:
+  - name: StockWaterfallEffects
