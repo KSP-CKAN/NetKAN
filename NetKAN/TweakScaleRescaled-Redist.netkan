@@ -22,8 +22,6 @@ author:
 tags:
   - plugin
   - library
-recommends:
-  - name: TweakScaleRescaled
 conflicts:
   - name: TweakScale-Redist
 provides:
