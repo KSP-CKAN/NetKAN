@@ -1,0 +1,10 @@
+identifier: AnimationInitialization
+$kref: '#/ckan/spacedock/4222'
+$vref: '#/ckan/ksp-avc'
+tags:
+  - plugin
+install:
+  - find: AnimationInitialization
+    install_to: GameData
+    filter_regexp: \.pdb$
+x_via: Automated SpaceDock CKAN submission
