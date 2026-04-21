@@ -1,4 +1,8 @@
 identifier: AnimationInitialization
+$kref: '#/ckan/github/linuxgurugamer/AnimationInitialization'
+$vref: '#/ckan/ksp-avc'
+---
+identifier: AnimationInitialization
 $kref: '#/ckan/spacedock/4222'
 $vref: '#/ckan/ksp-avc'
 tags:
@@ -7,4 +11,3 @@ install:
   - find: AnimationInitialization
     install_to: GameData
     filter_regexp: \.pdb$
-x_via: Automated SpaceDock CKAN submission
