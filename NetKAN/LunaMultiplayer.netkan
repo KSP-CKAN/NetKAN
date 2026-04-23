@@ -1,12 +1,13 @@
 identifier:   LunaMultiplayer
 name:         Luna Multiplayer Client
 $kref:        '#/ckan/github/LunaMultiplayer/LunaMultiplayer/asset_match/^LunaMultiplayer-Client-Release\.zip$'
-comment:      Version file is outdated
-ksp_version:  '1.12'
+x_netkan_github:
+  prereleases: false
+$vref:        '#/ckan/ksp-avc'
 license:      MIT
 resources:
-  homepage: 'https://lunamultiplayer.com/'
-  manual:   'https://github.com/LunaMultiplayer/LunaMultiplayer/wiki'
+  homepage: https://lunamultiplayer.com/
+  manual:   https://github.com/LunaMultiplayer/LunaMultiplayer/wiki
 tags:
   - plugin
 depends:
