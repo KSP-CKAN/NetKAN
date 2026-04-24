@@ -2,7 +2,6 @@ identifier: LunaMultiplayer
 name:       Luna Multiplayer Client
 $kref:      '#/ckan/github/LunaMultiplayer/LunaMultiplayer/asset_match/^LunaMultiplayer-Client-Release\.zip$'
 $vref:      '#/ckan/ksp-avc'
-license:    MIT
 tags:
   - plugin
 depends:
