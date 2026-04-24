@@ -1,0 +1,15 @@
+identifier: ThrottleMultiplier
+$kref: '#/ckan/github/pudy248/ThrottleMultiplier'
+x_netkan_version_edit: ^v?(?<version>.+)$
+---
+identifier: ThrottleMultiplier
+$kref: '#/ckan/spacedock/4223'
+ksp_version_min: 1.10
+ksp_version_max: 1.12
+tags:
+  - plugin
+  - control
+depends:
+  - name: Harmony2
+  - name: ToolbarController
+  - name: ClickThroughBlocker
