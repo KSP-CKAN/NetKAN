@@ -1,6 +1,7 @@
 identifier: DE-IVAExtension
 $kref: '#/ckan/github/FirstPersonKSP/DE_IVAExtension'
 $vref: '#/ckan/ksp-avc'
+x_netkan_force_v: true
 ---
 identifier: DE-IVAExtension
 author:
