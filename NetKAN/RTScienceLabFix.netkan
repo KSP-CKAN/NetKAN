@@ -1,0 +1,16 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "RTScienceLabFix",
+    "name": "RemoteTech - Science Lab Fix",
+    "abstract": "Fixes Mobile Processing Lab science transmission with RemoteTech",
+    "author": "MADSolar",
+    "license": "MIT",
+    "$kref": "#/ckan/spacedock/4226",
+    "resources": {
+        "repository": "https://github.com/MADSolarV2/RTScienceLabFix"
+    },
+    "depends": [
+        { "name": "RemoteTech" },
+        { "name": "Harmony2" }
+    ]
+}
