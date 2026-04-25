@@ -1,4 +1,9 @@
 identifier: FocusTable
+$kref: '#/ckan/github/operatorsheep/FocusTable'
+x_netkan_github:
+  use_source_archive: true
+---
+identifier: FocusTable
 $kref: '#/ckan/spacedock/4225'
 tags:
   - plugin
