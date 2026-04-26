@@ -1,0 +1,15 @@
+identifier: GeminiTheFrozenMoonofKerbin
+$kref: '#/ckan/github/Genial-lgtm/Gemini-KSP'
+---
+identifier: GeminiTheFrozenMoonofKerbin
+$kref: '#/ckan/spacedock/4160'
+tags:
+  - config
+  - planet-pack
+depends:
+  - name: ModuleManager
+  - name: Kopernicus
+install:
+  - find: GeminiMod
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
