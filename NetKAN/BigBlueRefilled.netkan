@@ -1,6 +1,5 @@
 identifier: BigBlueRefilled
 $kref: '#/ckan/github/Quest-in/Big-Blue-Refilled'
-x_netkan_version_edit: ^v?(?<version>.+)$
 ---
 identifier: BigBlueRefilled
 $kref: '#/ckan/spacedock/4228'
@@ -12,4 +11,3 @@ depends:
   - name: ModuleManager
   - name: B9PartSwitch
   - name: Waterfall
-x_via: Automated SpaceDock CKAN submission
