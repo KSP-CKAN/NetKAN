@@ -1,29 +1,28 @@
 identifier: BigBlue
-$kref: '#/ckan/github/Quest-in/Big-Blue'
+$kref: '#/ckan/github/Quest-in/Big-Blue-Refilled'
 ---
 identifier: BigBlue
-$kref: '#/ckan/spacedock/4024'
-x_netkan_version_edit:
-  find: ' '
-  replace: _
+$kref: '#/ckan/spacedock/4228'
 tags:
   - graphics
   - parts
+  - plugin
 depends:
   - name: ModuleManager
   - name: KSPCommunityFixes
   - name: KSPCommunityPartModules
   - name: B9PartSwitch
   - name: Waterfall
-  - name: ProvenanceAerospace
   - name: SimpleAdjustableFairings
   - name: CommunityResourcePack
-  - name: Shaddy
   - name: Resurfaced
+  - name: AnimatedDecouplers
 recommends:
   - name: Trajectories
   - name: MechJeb2
   - name: KerbalJointReinforcement
+  - name: StarshipExpansionProject
+  - name: GravityIssue
 install:
-  - find_regexp: Big Blue.*
+  - find_regexp: BigBlueRefilled
     install_to: GameData
