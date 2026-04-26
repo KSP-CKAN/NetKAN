@@ -15,5 +15,5 @@ depends:
     min_version: 1.36.0
 conflicts:
   - name: RemoteTech
-  - name: CommNetVisualization
+  - name: CommNetVisualisation
   - name: CommNetConstellation
