@@ -1,0 +1,11 @@
+identifier: AdirisJNSQTUFXProfiles
+$kref: '#/ckan/spacedock/4183'
+tags:
+  - config
+  - graphics
+depends:
+  - name: TUFX
+install:
+  - find: zzAdiri_JNSQ_TUFX
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
