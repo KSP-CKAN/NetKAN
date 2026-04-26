@@ -1,0 +1,19 @@
+identifier: OprissmiansIkeRevamp
+name: Oprissmian's Ike Revamp
+abstract: A planet pack that replaces Ike with a revamped version
+$kref: '#/ckan/github/TheFiveEchoes/OprissmiansIkeRevamp'
+$vref: '#/ckan/ksp-avc'
+license: CC-BY-NC-SA-4.0
+tags:
+  - config
+  - planet-pack
+depends:
+  - name: ModuleManager
+  - name: Kopernicus
+  - name: VertexMitchellNetravaliHeightMap
+suggests:
+  - name: ParallaxContinued
+  - name: BurstPQS
+install:
+  - find: OprissmiansIkeRevamp
+    install_to: GameData
