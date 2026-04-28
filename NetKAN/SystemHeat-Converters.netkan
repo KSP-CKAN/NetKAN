@@ -1,25 +1,22 @@
-spec_version: v1.4
 identifier: SystemHeat-Converters
 name: System Heat - Resource Converter Configuration
-"$kref": "#/ckan/github/KSPModStewards/SystemHeat"
-"$vref": "#/ckan/ksp-avc/SystemHeat.version"
-abstract: 'This System Heat config package changes stock and mod Resource Converters
-  to use the System Heat backend. WARNING: potentially vessel-breaking.'
+abstract: >-
+  This System Heat config package changes stock and mod Resource Converters
+  to use the System Heat backend. WARNING: potentially vessel-breaking.
 author: Nertea (Chris Adderley)
+$kref: '#/ckan/github/KSPModStewards/SystemHeat'
+$vref: '#/ckan/ksp-avc/SystemHeat.version'
 license: CC-BY-NC-SA-4.0
 tags:
-- parts
-- plugin
-resources:
-  homepage: https://forum.kerbalspaceprogram.com/index.php?/topic/193909-1
-  repository: https://github.com/KSPModStewards/SystemHeat
+  - parts
+  - plugin
 depends:
-- name: ModuleManager
-- name: SystemHeat
+  - name: ModuleManager
+  - name: SystemHeat
 suggests:
-- name: SystemHeat-FissionReactors
-- name: SystemHeat-FissionEngines
-- name: SystemHeat-Harvesters
+  - name: SystemHeat-FissionReactors
+  - name: SystemHeat-FissionEngines
+  - name: SystemHeat-Harvesters
 install:
-- find: SystemHeatConverters
-  install_to: GameData
+  - find: SystemHeatConverters
+    install_to: GameData

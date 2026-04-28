@@ -1,29 +1,26 @@
-spec_version: v1.4
 identifier: SystemHeat-FissionReactors
 name: System Heat - Nuclear Reactor Configuration
-"$kref": "#/ckan/github/KSPModStewards/SystemHeat"
-"$vref": "#/ckan/ksp-avc/SystemHeat.version"
-abstract: 'This System Heat configuration pack modifies nuclear reactors to use the
+abstract: >-
+  This System Heat configuration pack modifies nuclear reactors to use the
   SystemHeat backend. This principally applies to Near Future Electrical reactors.
-  WARNING: potentially vessel-breaking.'
+  WARNING: potentially vessel-breaking.
 author: Nertea (Chris Adderley)
+$kref: '#/ckan/github/KSPModStewards/SystemHeat'
+$vref: '#/ckan/ksp-avc/SystemHeat.version'
 license: CC-BY-NC-SA-4.0
 tags:
-- parts
-- config
-resources:
-  homepage: https://forum.kerbalspaceprogram.com/index.php?/topic/193909-1
-  repository: https://github.com/KSPModStewards/SystemHeat
+  - parts
+  - config
 depends:
-- name: ModuleManager
-- name: SystemHeat
-- name: CommunityResourcePack
+  - name: ModuleManager
+  - name: SystemHeat
+  - name: CommunityResourcePack
 recommends:
-- name: NearFutureElectrical
+  - name: NearFutureElectrical
 suggests:
-- name: SystemHeat-Converters
-- name: SystemHeat-FissionEngines
-- name: SystemHeat-Harvesters
+  - name: SystemHeat-Converters
+  - name: SystemHeat-FissionEngines
+  - name: SystemHeat-Harvesters
 install:
-- find: SystemHeatFissionReactors
-  install_to: GameData
+  - find: SystemHeatFissionReactors
+    install_to: GameData
