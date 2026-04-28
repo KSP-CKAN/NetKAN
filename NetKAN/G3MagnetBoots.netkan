@@ -9,3 +9,7 @@ tags:
 depends:
   - name: ModuleManager
   - name: Harmony2
+install:
+  - find: GameData/G3MagnetBoots
+    install_to: GameData
+    filter: 0Harmony.dll
