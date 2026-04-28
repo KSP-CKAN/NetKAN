@@ -24,6 +24,8 @@ suggests:
 - name: SystemHeat-FissionReactors
 - name: SystemHeat-FissionEngines
 - name: SystemHeat-Harvesters
+- name: SystemHeat-IonEngines
+- name: SystemHeat-CryoTanks
 install:
 - find: SystemHeat
   install_to: GameData
