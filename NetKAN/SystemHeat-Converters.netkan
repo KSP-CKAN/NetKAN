@@ -8,8 +8,7 @@ $kref: '#/ckan/github/KSPModStewards/SystemHeat'
 $vref: '#/ckan/ksp-avc/SystemHeat.version'
 license: MIT
 tags:
-  - parts
-  - plugin
+  - config
 depends:
   - name: ModuleManager
   - name: SystemHeat
