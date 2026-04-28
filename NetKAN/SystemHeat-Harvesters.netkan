@@ -1,8 +1,25 @@
-{
-    "identifier"     : "SystemHeat-Harvesters",
-    "$kref"         : "#/ckan/netkan/https://github.com/post-kerbin-mining-corporation/SystemHeat/raw/master/CKAN/SystemHeat-Harvesters.netkan",
-    "tags": [
-        "parts",
-        "plugin"
-    ]
-}
+spec_version: v1.4
+identifier: SystemHeat-Harvesters
+name: System Heat - Resource Harvester Configuration
+"$kref": "#/ckan/github/KSPModStewards/SystemHeat"
+"$vref": "#/ckan/ksp-avc/SystemHeat.version"
+abstract: 'This System Heat config package changes stock and mod Resource Harvesters
+  to use the SystemHeat backend. WARNING: potentially vessel-breaking.'
+author: Nertea (Chris Adderley)
+license: CC-BY-NC-SA-4.0
+tags:
+- parts
+- config
+resources:
+  homepage: https://forum.kerbalspaceprogram.com/index.php?/topic/193909-1
+  repository: https://github.com/KSPModStewards/SystemHeat
+depends:
+- name: ModuleManager
+- name: SystemHeat
+suggests:
+- name: SystemHeat-Converters
+- name: SystemHeat-FissionReactors
+- name: SystemHeat-FissionEngines
+install:
+- find: SystemHeatHarvesters
+  install_to: GameData
