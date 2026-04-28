@@ -2,7 +2,7 @@ identifier: SystemHeat-Harvesters
 name: System Heat - Resource Harvester Configuration
 abstract: >-
   This System Heat config package changes stock and mod Resource Harvesters
-  to use the SystemHeat backend. WARNING: potentially vessel-breaking.
+  to use the System Heat backend. WARNING: potentially vessel-breaking.
 author: Nertea (Chris Adderley)
 $kref: '#/ckan/github/KSPModStewards/SystemHeat'
 $vref: '#/ckan/ksp-avc/SystemHeat.version'

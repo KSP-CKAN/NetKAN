@@ -2,7 +2,8 @@ identifier: SystemHeat-FissionReactors
 name: System Heat - Nuclear Reactor Configuration
 abstract: >-
   This System Heat configuration pack modifies nuclear reactors to use the
-  SystemHeat backend. This principally applies to Near Future Electrical reactors.
+  SystemHeat backend. This principally applies to Near Future Electrical
+  reactors.
   WARNING: potentially vessel-breaking.
 author: Nertea (Chris Adderley)
 $kref: '#/ckan/github/KSPModStewards/SystemHeat'
