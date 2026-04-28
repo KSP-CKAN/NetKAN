@@ -1,8 +1,8 @@
-identifier: SystemHeat-FissionEngines
-name: System Heat - Nuclear Engine Configuration
+identifier: SystemHeat-IonEngines
+name: System Heat - Electric Engine Configuration
 abstract: >-
-  This System Heat config package changes nuclear thermal engines to use
-  the System Heat backend. WARNING: potentially vessel-breaking.
+  This System Heat config package changes ion engines to require some level
+  of cooling. WARNING: potentially vessel-breaking.
 author: Nertea (Chris Adderley)
 $kref: '#/ckan/github/KSPModStewards/SystemHeat'
 $vref: '#/ckan/ksp-avc/SystemHeat.version'
@@ -17,9 +17,7 @@ suggests:
   - name: SystemHeat-Converters
   - name: SystemHeat-FissionReactors
   - name: SystemHeat-Harvesters
-  - name: KerbalAtomics
-conflicts:
-  - name: KerbalAtomics-NFECompatibility
+  - name: NearFuturePropulsion
 install:
-  - find: SystemHeatFissionEngines
+  - find: SystemHeatIonEngines
     install_to: GameData

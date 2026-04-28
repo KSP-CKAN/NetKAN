@@ -1,8 +1,28 @@
-{
-    "identifier"     : "SystemHeat",
-    "$kref"         : "#/ckan/netkan/https://github.com/post-kerbin-mining-corporation/SystemHeat/raw/master/CKAN/SystemHeat.netkan",
-    "tags": [
-        "parts",
-        "plugin"
-    ]
-}
+identifier: SystemHeat
+name: System Heat
+abstract: >-
+  System Heat revamps the Core Heat system used in stock KSP to drive drills
+  and harvesters with a new, more powerful system. This core package does not
+  make changes to the base game - install other SystemHeat packs to change
+  drills, converters and the like to use System Heat
+author: Nertea (Chris Adderley)
+$kref: '#/ckan/github/KSPModStewards/SystemHeat'
+$vref: '#/ckan/ksp-avc/SystemHeat.version'
+license: restricted
+tags:
+  - parts
+  - plugin
+depends:
+  - name: ModuleManager
+recommends:
+  - name: HeatControl
+suggests:
+  - name: SystemHeat-Converters
+  - name: SystemHeat-FissionReactors
+  - name: SystemHeat-FissionEngines
+  - name: SystemHeat-Harvesters
+  - name: SystemHeat-IonEngines
+  - name: SystemHeat-CryoTanks
+install:
+  - find: SystemHeat
+    install_to: GameData

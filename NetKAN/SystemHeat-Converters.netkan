@@ -1,9 +1,21 @@
-{
-    "identifier"     : "SystemHeat-Converters",
-    "$kref"         : "#/ckan/netkan/https://github.com/post-kerbin-mining-corporation/SystemHeat/raw/master/CKAN/SystemHeat-Converters.netkan",
-    "tags": [
-        "parts",
-        "plugin"
-    ]
-}
-
+identifier: SystemHeat-Converters
+name: System Heat - Resource Converter Configuration
+abstract: >-
+  This System Heat config package changes stock and mod Resource Converters
+  to use the System Heat backend. WARNING: potentially vessel-breaking.
+author: Nertea (Chris Adderley)
+$kref: '#/ckan/github/KSPModStewards/SystemHeat'
+$vref: '#/ckan/ksp-avc/SystemHeat.version'
+license: MIT
+tags:
+  - config
+depends:
+  - name: ModuleManager
+  - name: SystemHeat
+suggests:
+  - name: SystemHeat-FissionReactors
+  - name: SystemHeat-FissionEngines
+  - name: SystemHeat-Harvesters
+install:
+  - find: SystemHeatConverters
+    install_to: GameData
