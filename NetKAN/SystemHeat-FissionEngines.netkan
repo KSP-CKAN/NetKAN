@@ -1,8 +1,29 @@
-{
-    "identifier"     : "SystemHeat-FissionEngines",
-    "$kref"         : "#/ckan/netkan/https://github.com/post-kerbin-mining-corporation/SystemHeat/raw/master/CKAN/SystemHeat-FissionEngines.netkan",
-    "tags": [
-        "parts",
-        "plugin"
-    ]
-}
+spec_version: v1.4
+identifier: SystemHeat-FissionEngines
+name: System Heat - Nuclear Engine Configuration
+"$kref": "#/ckan/github/KSPModStewards/SystemHeat"
+"$vref": "#/ckan/ksp-avc/SystemHeat.version"
+abstract: 'This System Heat config package changes nuclear thermal engines to use
+  the System Heat backend. WARNING: potentially vessel-breaking.'
+author: Nertea (Chris Adderley)
+license: CC-BY-NC-SA-4.0
+tags:
+- parts
+- config
+resources:
+  homepage: https://forum.kerbalspaceprogram.com/index.php?/topic/193909-1
+  repository: https://github.com/KSPModStewards/SystemHeat
+depends:
+- name: ModuleManager
+- name: SystemHeat
+- name: CommunityResourcePack
+suggests:
+- name: SystemHeat-Converters
+- name: SystemHeat-FissionReactors
+- name: SystemHeat-Harvesters
+- name: KerbalAtomics
+conflicts:
+- name: KerbalAtomics-NFECompatibility
+install:
+- find: SystemHeatFissionEngines
+  install_to: GameData
