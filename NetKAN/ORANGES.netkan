@@ -1,0 +1,20 @@
+identifier: ORANGES
+author:
+  - EStreetRockets
+  - Invaderchaos
+$kref: '#/ckan/github/EStreetRockets/ORANGES'
+license: CC-BY-NC-SA-4.0
+resources:
+  homepage: https://forum.kerbalspaceprogram.com/topic/211919-*
+tags:
+  - parts
+depends:
+  - name: ModuleManager
+  - name: B9PartSwitch
+  - name: CommunityResourcePack
+  - name: SimpleAdjustableFairings
+recommends:
+  - name: ShuttleOrbiterConstructionKit
+  - name: CryoTanks
+  - name: Waterfall
+  - name: BluedogDB
