@@ -1,4 +1,3 @@
-spec_version: v1.4
 identifier: Waterfall
 name: Waterfall Core
 $kref: '#/ckan/github/KSPModStewards/Waterfall'
@@ -13,6 +12,3 @@ tags:
   - library
 depends:
   - name: ModuleManager
-install:
-  - find: Waterfall
-    install_to: GameData
