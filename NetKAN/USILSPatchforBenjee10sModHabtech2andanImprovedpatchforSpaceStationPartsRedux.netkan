@@ -1,0 +1,11 @@
+identifier: 
+  USILSPatchforBenjee10sModHabtech2andanImprovedpatchforSpaceStationPartsRedux
+$kref: '#/ckan/spacedock/4233'
+tags:
+  - config
+depends:
+  - name: ModuleManager
+install:
+  - find: ZZZ_FINAL_USI
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
