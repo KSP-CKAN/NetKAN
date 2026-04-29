@@ -12,4 +12,6 @@ depends:
 install:
   - find: GameData/G3MagnetBoots
     install_to: GameData
-    filter: 0Harmony.dll
+    filter:
+      - 0Harmony.dll
+      - System.Core.dll
