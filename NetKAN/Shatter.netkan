@@ -1,0 +1,15 @@
+identifier: Shatter
+$kref: '#/ckan/spacedock/4229'
+tags:
+  - config
+  - planet-pack
+depends:
+  - name: ModuleManager
+  - name: Kopernicus
+install:
+  - find: ''
+    install_to: GameData
+    filter:
+      - __MACOSX
+      - .DS_Store
+x_via: Automated SpaceDock CKAN submission
