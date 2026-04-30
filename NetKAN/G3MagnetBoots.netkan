@@ -4,6 +4,7 @@ x_netkan_epoch: 1
 ---
 identifier: G3MagnetBoots
 $kref: '#/ckan/spacedock/4069'
+license:  CC-BY-NC-ND
 tags:
   - config
   - plugin
