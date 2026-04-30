@@ -1,0 +1,10 @@
+identifier: RerunableScience
+$kref: '#/ckan/spacedock/4234'
+tags:
+  - config
+depends:
+  - name: ModuleManager
+install:
+  - find: Rerunable Science
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
