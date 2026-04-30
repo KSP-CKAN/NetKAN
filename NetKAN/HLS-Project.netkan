@@ -12,5 +12,5 @@ depends:
 recommends:
   - name: StarshipExpansionProject
 install:
-  - find: HLS_project
+  - find: 'Game Data/HLS_project'
     install_to: GameData
