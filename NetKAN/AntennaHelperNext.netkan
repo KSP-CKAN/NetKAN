@@ -11,6 +11,7 @@ tags:
   - comms
 conflicts:
   - name: AntennaHelper
+  - name: RemoteTech
 depends:
   - name: ToolbarController
   - name: ClickThroughBlocker
