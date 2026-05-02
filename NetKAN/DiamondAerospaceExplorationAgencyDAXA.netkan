@@ -8,5 +8,5 @@ depends:
   - name: CommunityResourcePack
   - name: DeployableEngines
 install:
-  - find: DiamondAerospaceExploration
+  - find: DAXA
     install_to: GameData
