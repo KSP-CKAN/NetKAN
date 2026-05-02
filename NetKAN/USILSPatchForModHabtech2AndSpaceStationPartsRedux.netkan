@@ -1,5 +1,4 @@
-identifier: 
-  USILSPatchforBenjee10sModHabtech2andanImprovedpatchforSpaceStationPartsRedux
+identifier: USILSPatchForModHabtech2AndSpaceStationPartsRedux
 $kref: '#/ckan/spacedock/4233'
 tags:
   - config
@@ -8,4 +7,3 @@ depends:
 install:
   - find: ZZZ_FINAL_USI
     install_to: GameData
-x_via: Automated SpaceDock CKAN submission
