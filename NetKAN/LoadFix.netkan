@@ -12,4 +12,4 @@ install:
     install_to: GameData
     filter_regexp:
       - \.pdb$
-      - ^0Harmony\.dll$
+      - /0Harmony\.dll$
