@@ -4,3 +4,6 @@ abstract: 'Adds fire ignition, burning and destruction mechanics to KSP.'
 $kref: '#/ckan/github/megazaver/MMsFireOverhaul'
 author: Miha
 ksp_version: 1.12.5
+tags:
+  - plugin
+  - physics
