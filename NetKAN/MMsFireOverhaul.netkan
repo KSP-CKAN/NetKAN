@@ -1,24 +1,10 @@
-{
-  "spec_version": "v1.4",
-  "identifier": "MMsFireOverhaul",
-  "name": "MM's Fire Overhaul",
-  "abstract": "Adds fire ignition, burning, and destruction mechanics to KSP parts.",
-  "author": "megazaver",
-  "license": "MIT",
-
-  "resources": {
-    "repository": "https://github.com/megazaver/MMsFireOverhaul-Source"
-  },
-
-  "version": "1.0",
-  "ksp_version": "1.12.5",
-
-  "download": "https://github.com/megazaver/MMsFireOverhaul/releases/download/version_1.0/MMsFireOverhaul.zip",
-
-  "install": [
-    {
-      "file": "MMsFireOverhaul.dll",
-      "install_to": "GameData/MMsFireOverhaul"
-    }
-  ]
-}
+identifier: MMsFireOverhaul
+name: MM's Fire Overhaul
+abstract: 'Adds fire ignition, burning and destruction mechanics to KSP.'
+author: Miha
+$kref: '#/ckan/github/megazaver/MMsFireOverhaul'
+ksp_version: 1.12.5
+license: MIT
+tags:
+  - plugin
+  - physics
