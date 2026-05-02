@@ -9,3 +9,5 @@ license: MIT
 tags:
   - plugin
   - physics
+depends:
+  - name: ModuleManager
