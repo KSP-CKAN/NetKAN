@@ -1,9 +1,0 @@
-identifier: USILSPatchForModHabtech2AndSpaceStationPartsRedux
-$kref: '#/ckan/spacedock/4233'
-tags:
-  - config
-depends:
-  - name: ModuleManager
-install:
-  - find: ZZZ_FINAL_USI
-    install_to: GameData

@@ -1,0 +1,6 @@
+identifier: USI-LS-DaniepePatches
+$kref: '#/ckan/spacedock/4233'
+tags:
+  - config
+depends:
+  - name: ModuleManager
