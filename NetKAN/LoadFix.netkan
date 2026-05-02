@@ -5,8 +5,11 @@ tags:
   - first-person
   - parts
   - plugin
+depends:
+  - name: Harmony2
 install:
   - find: LoadFix
     install_to: GameData
-    filter_regexp: \.pdb$
-x_via: Automated SpaceDock CKAN submission
+    filter_regexp:
+      - \.pdb$
+      - /0Harmony\.dll$
