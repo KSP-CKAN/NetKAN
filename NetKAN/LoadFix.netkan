@@ -1,0 +1,15 @@
+identifier: LoadFix
+$kref: '#/ckan/spacedock/4239'
+$vref: '#/ckan/ksp-avc'
+tags:
+  - first-person
+  - parts
+  - plugin
+depends:
+  - name: Harmony2
+install:
+  - find: LoadFix
+    install_to: GameData
+    filter_regexp:
+      - \.pdb$
+      - /0Harmony\.dll$
