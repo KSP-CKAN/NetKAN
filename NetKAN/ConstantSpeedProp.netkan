@@ -1,0 +1,14 @@
+identifier: ConstantSpeedProp
+$kref: '#/ckan/github/AAA-driver-Yang/ConstantSpeedProp'
+x_netkan_version_edit: ^v?(?<version>.+)$
+$vref: '#/ckan/ksp-avc'
+---
+identifier: ConstantSpeedProp
+$kref: '#/ckan/spacedock/4246'
+$vref: '#/ckan/ksp-avc'
+tags:
+  - config
+  - plugin
+depends:
+  - name: ModuleManager
+x_via: Automated SpaceDock CKAN submission
