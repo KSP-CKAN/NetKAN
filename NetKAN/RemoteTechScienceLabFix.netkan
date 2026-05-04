@@ -1,0 +1,14 @@
+identifier: RemoteTechScienceLabFix
+$kref: '#/ckan/github/MADSolarV2/RTScienceLabFix'
+x_netkan_version_edit: ^v?(?<version>.+)$
+$vref: '#/ckan/ksp-avc'
+---
+identifier: RemoteTechScienceLabFix
+$kref: '#/ckan/spacedock/4226'
+$vref: '#/ckan/ksp-avc'
+tags:
+  - plugin
+install:
+  - find: RTScienceLabFix
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
