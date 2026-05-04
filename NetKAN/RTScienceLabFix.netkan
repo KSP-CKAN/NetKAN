@@ -5,6 +5,7 @@ x_netkan_version_edit: ^v?(?<version>.+)$
 identifier: RTScienceLabFix
 name: RemoteTech - Science Lab Fix
 $kref: '#/ckan/spacedock/4226'
+$vref: '#/ckan/ksp-avc'
 depends:
   - name: RemoteTech
   - name: Harmony2
