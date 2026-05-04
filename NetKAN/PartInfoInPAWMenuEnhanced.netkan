@@ -1,0 +1,15 @@
+identifier: PartInfoInPAWMenuEnhanced
+$kref: '#/ckan/github/linuxgurugamer/PartInfoInPAW'
+$vref: '#/ckan/ksp-avc'
+---
+identifier: PartInfoInPAWMenuEnhanced
+$kref: '#/ckan/spacedock/4236'
+$vref: '#/ckan/ksp-avc'
+tags:
+  - config
+  - plugin
+install:
+  - find: PartInfoInPAW
+    install_to: GameData
+    filter_regexp: \.pdb$
+x_via: Automated SpaceDock CKAN submission
