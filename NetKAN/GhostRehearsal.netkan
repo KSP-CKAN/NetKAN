@@ -1,0 +1,14 @@
+identifier: GhostRehearsal
+$kref: '#/ckan/github/milo127/Ghost-Rehearsal'
+x_netkan_version_edit: ^v?(?<version>.+)$
+$vref: '#/ckan/ksp-avc'
+---
+identifier: GhostRehearsal
+$kref: '#/ckan/spacedock/4250'
+$vref: '#/ckan/ksp-avc'
+tags:
+  - plugin
+install:
+  - find: ''
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
