@@ -6,3 +6,5 @@ tags:
 install:
   - find: DiscordRPContinued
     install_to: GameData
+depends:
+  - name: ToolbarController
