@@ -4,6 +4,9 @@ $vref: '#/ckan/ksp-avc'
 tags:
   - config
   - plugin
+recommends:
+  - ClickThroughBlocker
+  - ToolbarController
 install:
   - find: ExceptionDetectorEnhanced
     install_to: GameData
