@@ -1,0 +1,11 @@
+identifier: ExceptionDetectorEnhanced
+$kref: '#/ckan/spacedock/4251'
+$vref: '#/ckan/ksp-avc'
+tags:
+  - config
+  - plugin
+install:
+  - find: ExceptionDetectorEnhanced
+    install_to: GameData
+    filter_regexp: \.pdb$
+x_via: Automated SpaceDock CKAN submission
