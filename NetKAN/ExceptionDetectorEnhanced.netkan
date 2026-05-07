@@ -6,8 +6,8 @@ tags:
   - config
   - plugin
 recommends:
-  - ClickThroughBlocker
-  - ToolbarController
+  - name: ClickThroughBlocker
+  - name: ToolbarController
 install:
   - find: ExceptionDetectorEnhanced
     install_to: GameData
