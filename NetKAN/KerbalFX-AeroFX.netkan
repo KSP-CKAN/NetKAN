@@ -5,7 +5,7 @@ description: >-
   KerbalFX AeroFX adds atmospheric ribbon condensation trails for suitable
   wing-like aircraft parts, driven by speed, air density, dynamic pressure,
   and maneuver load.
-  Requires KerbalFX Core.
+  Requires KerbalFX Core and KSPBurst.
 $kref: '#/ckan/github/bimo1d/KerbalFX/asset_match/^KerbalFX-AeroFX-.*\.zip$'
 $vref: '#/ckan/ksp-avc'
 resources:
@@ -15,6 +15,7 @@ tags:
   - graphics
 depends:
   - name: KerbalFX-Core
+  - name: KSPBurst
 install:
   - find: KerbalFX
     install_to: GameData
