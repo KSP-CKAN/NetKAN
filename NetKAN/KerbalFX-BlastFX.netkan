@@ -1,10 +1,11 @@
 identifier: KerbalFX-BlastFX
 name: KerbalFX - BlastFX
-abstract: KerbalFX module for separator and decoupler visual effects.
+abstract: KerbalFX module for separator, decoupler, and vacuum explosion visual effects.
 description: >-
   KerbalFX BlastFX adds separator and decoupler visual effects, including
-  sparks, fragments, smoke, and softer ordinary decoupler puffs.
-  Requires KerbalFX Core.
+  sparks, fragments, smoke, softer ordinary decoupler puffs, docking-port gas
+  venting, lingering debris fields, and vacuum replacement effects for eligible
+  parts destroyed in space. Requires KerbalFX Core and Harmony2.
 $kref: '#/ckan/github/bimo1d/KerbalFX/asset_match/^KerbalFX-BlastFX-.*\.zip$'
 $vref: '#/ckan/ksp-avc'
 resources:
@@ -14,6 +15,7 @@ tags:
   - graphics
 depends:
   - name: KerbalFX-Core
+  - name: Harmony2
 install:
   - find: KerbalFX
     install_to: GameData
