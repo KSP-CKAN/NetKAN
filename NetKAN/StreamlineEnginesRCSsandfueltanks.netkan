@@ -1,6 +1,9 @@
 identifier: StreamlineEnginesRCSsandfueltanks
+$kref: '#/ckan/github/linuxgurugamer/StreamlineEnginesTanks'
+---
+identifier: StreamlineEnginesRCSsandfueltanks
 $kref: '#/ckan/spacedock/4257'
-comment: Version file has a syntax error
+$vref: '#/ckan/ksp-avc'
 license: MIT
 tags:
   - parts
