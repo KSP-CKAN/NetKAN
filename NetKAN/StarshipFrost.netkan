@@ -1,0 +1,6 @@
+identifier: StarshipFrost
+$kref: '#/ckan/spacedock/4258'
+install:
+  - find: ''
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
