@@ -9,6 +9,7 @@ tags:
   - parts
 depends:
   - name: ModuleManager
+  - name: AnimationInitialization
 install:
   - find: StreamlineEnginesTanks
     install_to: GameData
