@@ -5,3 +5,6 @@ tags:
 depends:
   - name: ModuleManager
   - name: Kopernicus
+install:
+  - find: AtmosphericMinmus
+    install_to: GameData
