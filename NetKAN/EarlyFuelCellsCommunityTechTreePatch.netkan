@@ -1,0 +1,9 @@
+identifier: EarlyFuelCellsCommunityTechTreePatch
+$kref: '#/ckan/spacedock/4260'
+tags:
+  - config
+depends:
+  - name: ModuleManager
+install:
+  - file: early-fuel-cells.cfg
+    install_to: GameData/EarlyFuelCells
