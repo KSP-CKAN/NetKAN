@@ -5,6 +5,7 @@ author:
   - _Zee
   - Moonlington
 $kref: '#/ckan/github/Moonlington/ProbesBeforeCrew'
+x_netkan_version_edit: ^v?(?<version>.*)$
 $vref: '#/ckan/ksp-avc'
 license: MIT
 tags:
