@@ -1,0 +1,12 @@
+identifier: ParallaxIcehengeFix
+$kref: '#/ckan/spacedock/4266'
+tags:
+  - config
+  - planet-pack
+depends:
+  - name: ModuleManager
+  - name: Kopernicus
+install:
+  - find: Parallax_IceHenge_Fix
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
