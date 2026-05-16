@@ -1,0 +1,33 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "Archipelago",
+    "name": "KSP Archipelago Randomizer",
+    "abstract": "Client side mod for running Archipelago (archipelago.gg). See https://github.com/nickdavies/Archipelago/releases for the server side",
+    "author": "Nick Davies",
+    "license": "MIT",
+    "$kref": "#/ckan/github/nickdavies/KSP1-Archipelago-client",
+    "ksp_version_min": "1.12.0",
+    "ksp_version_max": "1.12.99",
+    "resources": {
+        "homepage": "https://github.com/nickdavies/KSP1-Archipelago-client",
+        "repository": "https://github.com/nickdavies/KSP1-Archipelago-client",
+        "bugtracker": "https://github.com/nickdavies/Archipelago/issues"
+    },
+    "tags": [
+        "plugin"
+    ],
+    "install": [
+        {
+            "find": "KSPArchipelago",
+            "install_to": "GameData"
+        }
+    ],
+    "x_netkan_version_edit": {
+        "find": "v(?<version>.+)",
+        "replace": "${version}",
+        "strict": true
+    },
+    "x_netkan_github": {
+        "prereleases": false
+    }
+}
