@@ -1,10 +1,11 @@
 identifier: mischenTUFX
-$kref: '#/ckan/spacedock/3955'
+$kref: '#/ckan/spacedock/4152'
+x_netkan_epoch: 2
 tags:
   - config
   - graphics
 depends:
   - name: TUFX
 install:
-  - file: mischenTUFX.cfg
+  - file: mischenTUFX2.0.cfg
     install_to: GameData

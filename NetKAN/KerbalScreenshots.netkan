@@ -1,0 +1,9 @@
+identifier: KerbalScreenshots
+$kref: '#/ckan/github/Baked-Potato-Industries/Kerbal-Screenshots'
+x_netkan_version_edit: ^v?(?<version>.+)$
+---
+identifier: KerbalScreenshots
+$kref: '#/ckan/spacedock/4185'
+tags:
+  - config
+  - convenience

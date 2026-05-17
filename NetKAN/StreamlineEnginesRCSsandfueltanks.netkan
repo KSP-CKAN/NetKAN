@@ -1,11 +1,15 @@
 identifier: StreamlineEnginesRCSsandfueltanks
-$kref: '#/ckan/spacedock/1503'
-comment: Version file has a syntax error
+$kref: '#/ckan/github/linuxgurugamer/StreamlineEnginesTanks'
+---
+identifier: StreamlineEnginesRCSsandfueltanks
+$kref: '#/ckan/spacedock/4257'
+$vref: '#/ckan/ksp-avc'
 license: MIT
 tags:
   - parts
 depends:
   - name: ModuleManager
+  - name: AnimationInitialization
 install:
   - find: StreamlineEnginesTanks
     install_to: GameData

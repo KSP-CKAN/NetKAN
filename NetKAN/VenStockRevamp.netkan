@@ -1,0 +1,25 @@
+identifier: VenStockRevamp
+name: Ven's Stock Part Revamp
+abstract: >-
+  With this part pack, your rockets/planes/racecars will look at least 20%
+  cooler as they tumble into the ground!
+$kref: '#/ckan/github/Kerbas-ad-astra/Stock-Revamp'
+$vref: '#/ckan/ksp-avc'
+license: CC-BY-4.0
+resources:
+  homepage: https://forum.kerbalspaceprogram.com/index.php?/topic/189732-*
+tags:
+  - parts
+  - graphics
+conflicts:
+  - name: ReStock
+depends:
+  - name: ModuleManager
+  - name: VenStockRevamp-Core
+recommends:
+  - name: VenStockRevamp-NewParts
+install:
+  - find: VenStockRevamp/PathPatches
+    install_to: GameData/VenStockRevamp
+  - find: VenStockRevamp/Squad
+    install_to: GameData/VenStockRevamp

@@ -1,0 +1,13 @@
+identifier: AdvancedVesselInfo
+$kref: '#/ckan/github/FrittenFritz/AdvancedVesselInfo'
+---
+identifier: AdvancedVesselInfo
+$kref: '#/ckan/spacedock/4208'
+ksp_version: 1.12
+tags:
+  - plugin
+  - information
+  - editor
+depends:
+  - name: ClickThroughBlocker
+  - name: ToolbarController

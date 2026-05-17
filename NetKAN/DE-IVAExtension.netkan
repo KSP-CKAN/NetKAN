@@ -1,6 +1,7 @@
 identifier: DE-IVAExtension
 $kref: '#/ckan/github/FirstPersonKSP/DE_IVAExtension'
 $vref: '#/ckan/ksp-avc'
+x_netkan_force_v: true
 ---
 identifier: DE-IVAExtension
 author:
@@ -9,6 +10,7 @@ author:
   - JonnyOThan
 $kref: '#/ckan/spacedock/2193'
 $vref: '#/ckan/ksp-avc'
+x_netkan_force_v: true
 license: CC-BY-NC-SA-3.0
 tags:
   - config
@@ -18,8 +20,9 @@ depends:
   - name: ModuleManager
   - name: RasterPropMonitor-Core
   - name: ASETProps
-supports:
-  - name: ProbeControlRoom
+recommends:
+  - name: ProbeControlRoomRecontrolled
+  - name: FreeIva
 install:
   - find: DE_IVAExtension
     install_to: GameData

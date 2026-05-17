@@ -1,0 +1,12 @@
+identifier: KSPBridge
+$kref: '#/ckan/github/johnmknight/KSPBridge'
+x_netkan_version_edit: ^v?(?<version>.+)$
+$vref: '#/ckan/ksp-avc'
+---
+identifier: KSPBridge
+$kref: '#/ckan/spacedock/4242'
+$vref: '#/ckan/ksp-avc'
+tags:
+  - plugin
+  - information
+  - app

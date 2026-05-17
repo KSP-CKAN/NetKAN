@@ -1,0 +1,9 @@
+identifier: PatchedConicFixes
+$kref: '#/ckan/github/lamont-granquist/PatchedConicFixes'
+ksp_version: 1.12
+license: MIT
+tags:
+  - plugin
+depends:
+  - name: Harmony2
+  - name: KSPBurst

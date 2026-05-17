@@ -1,13 +1,18 @@
 identifier: KerbVisionIR
-$kref: '#/ckan/github/garyblu71mods/KerbVisionIR'
-$vref: '#/ckan/ksp-avc'
----
-identifier: KerbVisionIR
+name: KerbVisionIR
+abstract: >-
+  Night vision mod for Kerbal Space Program — monochrome/green NV with
+  brightness, vignette, grain and scanline controls
+author: garyblu71mods
 $kref: '#/ckan/spacedock/4105'
+x_netkan_force_v: true
 $vref: '#/ckan/ksp-avc'
 tags:
   - config
   - graphics
+depends:
+  - name: ClickThroughBlocker
+  - name: ToolbarController
 install:
   - find: KerbVisionIR
     install_to: GameData

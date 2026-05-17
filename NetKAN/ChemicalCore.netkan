@@ -5,6 +5,7 @@ $vref: '#/ckan/ksp-avc'
 identifier: ChemicalCore
 $kref: '#/ckan/spacedock/3865'
 $vref: '#/ckan/ksp-avc'
+x_netkan_version_edit: '^(Chemical Core )?(?<version>.*)$'
 tags:
   - parts
 depends:

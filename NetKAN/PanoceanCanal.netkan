@@ -4,8 +4,6 @@ license: MIT
 tags:
   - config
   - buildings
-conflicts:
-  - name: KerbinSide
 depends:
   - name: KerbalKonstructs
   - name: KerbinSideCore

@@ -1,0 +1,14 @@
+identifier: HomeWorldFallback
+$kref: '#/ckan/github/Oprissmian/HomeWorldFallback'
+---
+identifier: HomeWorldFallback
+$kref: '#/ckan/spacedock/3990'
+ksp_version: 1.12
+tags:
+  - config
+depends:
+  - name: Kopernicus
+  - name: ModuleManager
+install:
+  - find: 002_HomeWorldFallback
+    install_to: GameData

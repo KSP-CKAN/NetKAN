@@ -13,6 +13,7 @@ tags:
 depends:
   - name: ModuleManager
   - name: Kopernicus
+  - name: VertexMitchellNetravaliHeightMap
 suggests:
   - name: ParallaxContinued
   - name: CelestialHarmony

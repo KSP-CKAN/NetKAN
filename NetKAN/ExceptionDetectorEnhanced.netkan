@@ -1,0 +1,15 @@
+identifier: ExceptionDetectorEnhanced
+$kref: '#/ckan/spacedock/4251'
+$vref: '#/ckan/ksp-avc'
+license: BSD-2-clause
+tags:
+  - config
+  - plugin
+recommends:
+  - name: ClickThroughBlocker
+  - name: ToolbarController
+install:
+  - find: ExceptionDetectorEnhanced
+    install_to: GameData
+    filter_regexp: \.pdb$
+x_via: Automated SpaceDock CKAN submission

@@ -1,0 +1,13 @@
+identifier: MMsFireOverhaul
+name: MM's Fire Overhaul
+abstract: 'Adds fire ignition, burning and destruction mechanics to KSP.'
+author: Miha
+$kref: '#/ckan/github/megazaver/MMsFireOverhaul'
+x_netkan_version_edit: ^(version_)?(?<version>.*)$
+ksp_version: 1.12.5
+license: MIT
+tags:
+  - plugin
+  - physics
+depends:
+  - name: ModuleManager

@@ -1,0 +1,25 @@
+identifier: RedFrontier
+$kref: '#/ckan/github/Red-Frontier/RedFrontier'
+x_netkan_version_edit: ^v?\.?(?<version>.+)$
+$vref: '#/ckan/ksp-avc'
+---
+identifier: RedFrontier
+$kref: '#/ckan/spacedock/4182'
+x_netkan_version_edit: ^v?\.?(?<version>.+)$
+$vref: '#/ckan/ksp-avc'
+tags:
+  - career
+  - parts
+  - plugin
+depends:
+  - name: BreakingGround-DLC
+  - name: ModuleManager
+  - name: ContractConfigurator
+recommends:
+  - name: CommunityTechTree
+  - name: NearFuturePropulsion
+  - name: StationPartsExpansionRedux
+  - name: KerbalPlanetaryBaseSystems
+install:
+  - find: RedFrontier
+    install_to: GameData/ContractPacks

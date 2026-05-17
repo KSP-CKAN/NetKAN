@@ -1,0 +1,19 @@
+identifier: ContractConfigurator-CareerEvolution
+$kref: '#/ckan/github/linuxgurugamer/Contract-Pack-Career-Evolution'
+$vref: '#/ckan/ksp-avc'
+---
+identifier: ContractConfigurator-CareerEvolution
+$kref: '#/ckan/spacedock/1418'
+$vref: '#/ckan/ksp-avc'
+license: CC-BY-NC-SA
+resources:
+  homepage: https://forum.kerbalspaceprogram.com/index.php?/topic/162205-*
+tags:
+  - config
+  - career
+install:
+  - find: ContractPacks
+    install_to: GameData
+depends:
+  - name: ModuleManager
+  - name: ContractConfigurator

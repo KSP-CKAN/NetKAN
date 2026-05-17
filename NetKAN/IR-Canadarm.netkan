@@ -1,0 +1,18 @@
+identifier: IR-Canadarm
+name: Infernal Robotics Next - Canadarm
+author:
+  - Rudolf Meier
+  - benjee10
+$kref: '#/ckan/github/meirumeiru/IR-Canadarm'
+$vref: '#/ckan/ksp-avc'
+license: restricted
+tags:
+  - parts
+depends:
+  - name: ModuleManager
+  - name: InfernalRoboticsNext
+  - name: IR-ConnectionSystem
+install:
+  - file: GameData/IRCanadarm
+    install_to: GameData
+    filter: .DS_Store

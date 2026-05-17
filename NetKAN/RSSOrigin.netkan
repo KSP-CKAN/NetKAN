@@ -16,6 +16,7 @@ depends:
   - name: VertexMitchellNetravaliHeightMap
   - name: KSPCommunityFixes
   - name: AdvancedPQSTools
+    version: v1.3
 #we need to add RSS or KSRSS as a dependency, but KSRSS isn't on CKAN...
 recommends:
   - name: TooManyOrbits

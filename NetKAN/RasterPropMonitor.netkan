@@ -20,37 +20,8 @@ tags:
   - config
   - crewed
   - first-person
-depends:
-  - name: ModuleManager
-  - name: RasterPropMonitor-Core
-recommends:
-  - name: DE-IVAExtension
-  - name: FreeIva
-suggests:
-  - name: Astrogator
-  - name: DockingPortAlignmentIndicator
-  - name: NavUtilities
-  - name: SCANsat
-  - name: VesselView
-  - name: ProbeControlRoomRecontrolled
-  - name: kOSPropMonitor
-  - name: Chatterer
-  - name: Reviva
-  - name: MechJeb2
-  - name: ASETProps
-  - name: ASETAvionics
-  - name: Mk1LanderCanIVAReplbyASET
-  - name: MK12PodIVAReplacementbyASET
-  - name: ALCORIVAPatch
-  - name: ThroughTheEyesOfaKerbal
-  - name: QuickIVA
-  - name: KSAIVAUpgrade
 install:
-  - find: JSI
+  - find: JSI/RPMPodPatches
+    install_to: GameData/JSI
     filter:
-      - RasterPropMonitor
       - BasicMFD
-      - README.md
-      - LICENSE.md
-      - Agencies
-    install_to: GameData
