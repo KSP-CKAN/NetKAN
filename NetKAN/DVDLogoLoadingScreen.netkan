@@ -3,6 +3,6 @@ $kref: '#/ckan/spacedock/4267'
 tags:
   - plugin
 install:
-  - find: BouncyDVD
+  - find: ''
     install_to: GameData
 x_via: Automated SpaceDock CKAN submission
