@@ -6,8 +6,11 @@ license: CC-BY-NC-ND-4.0
 tags:
   - plugin
   - crewed
-recommends:
+suggests:
   - name: CrewQueueTwo
+  - name: EarnYourStripes
+  - name: FlightTracker
+  - name: ContractConfigurator
 install:
   - find: EAC
     install_to: GameData
