@@ -1,13 +1,17 @@
 identifier: DeepFreeze
-$kref: '#/ckan/github/JPLRepo/DeepFreeze'
+$kref: '#/ckan/github/linuxgurugamer/DeepFreezeUpdated'
 $vref: '#/ckan/ksp-avc'
 x_netkan_version_edit:
-  find: ^v
+  find: ^
   replace: V
   strict: false
 ---
 identifier: DeepFreeze
-$kref: '#/ckan/spacedock/142'
+$kref: '#/ckan/spacedock/4262'
+x_netkan_version_edit:
+  find: ^
+  replace: V
+  strict: false
 $vref: '#/ckan/ksp-avc'
 license: CC-BY-NC-SA-4.0
 x_via: Author JPLRepo
@@ -20,6 +24,8 @@ depends:
   - name: REPOSoftTech-Agencies
   - name: CommunityResourcePack
   - name: BackgroundResources
+  - name: ClickThroughBlocker
+  - name: ToolbarController
 recommends:
   - name: Toolbar
   - name: RasterPropMonitor
