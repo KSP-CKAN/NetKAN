@@ -1,5 +1,5 @@
 identifier: DeepFreeze
-$kref: '#/ckan/github/JPLRepo/DeepFreeze'
+$kref: '#/ckan/spacedock/4262'
 $vref: '#/ckan/ksp-avc'
 x_netkan_version_edit:
   find: ^v
@@ -20,6 +20,8 @@ depends:
   - name: REPOSoftTech-Agencies
   - name: CommunityResourcePack
   - name: BackgroundResources
+  - name: ClickThroughBlocker
+  - name: ToolbarController
 recommends:
   - name: Toolbar
   - name: RasterPropMonitor
