@@ -1,0 +1,17 @@
+identifier: ASETConsolidatedAvionicsPack
+$kref: '#/ckan/github/FirstPersonKSP/ASET_Avionics'
+x_netkan_version_edit: ^v?(?<version>.+)$
+$vref: '#/ckan/ksp-avc'
+---
+identifier: ASETConsolidatedAvionicsPack
+$kref: '#/ckan/spacedock/3239'
+$vref: '#/ckan/ksp-avc'
+tags:
+  - config
+  - first-person
+depends:
+  - name: ModuleManager
+install:
+  - find: ASET
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
