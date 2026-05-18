@@ -1,0 +1,19 @@
+identifier: ASETConsolidatedPropsPack
+$kref: '#/ckan/github/FirstPersonKSP/ASET_Props'
+x_netkan_version_edit: ^v?(?<version>.+)$
+$vref: '#/ckan/ksp-avc'
+---
+identifier: ASETConsolidatedPropsPack
+$kref: '#/ckan/spacedock/3240'
+$vref: '#/ckan/ksp-avc'
+tags:
+  - config
+  - first-person
+  - plugin
+depends:
+  - name: ModuleManager
+install:
+  - find: ASET
+    install_to: GameData
+    filter_regexp: ~$
+x_via: Automated SpaceDock CKAN submission
