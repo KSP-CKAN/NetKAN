@@ -1,15 +1,27 @@
 identifier: ProceduralAirship-basedonHLairships
 name: Procedural Airship Based on HLairships
 abstract: Procedural Airships based on procedural parts and HLairships
+
 author:
   - tsingshitao
+
 license: MIT
+
 $kref: '#/ckan/spacedock/4270'
 $vref: '#/ckan/ksp-avc'
+
 tags:
   - parts
+
 depends:
   - name: HooliganLabsAirships
   - name: ProceduralParts
+
 recommends:
   - name: B9-PWings-Modified
+
+install:
+  - find: ProceduralAirships
+    install_to: GameData
+
+    
