@@ -1,0 +1,11 @@
+identifier: KortexCPUUIOptimizations
+$kref: '#/ckan/github/MrCrustyToast/Kortex---KSP-optimization-mod'
+---
+identifier: KortexCPUUIOptimizations
+$kref: '#/ckan/spacedock/4272'
+tags:
+  - plugin
+install:
+  - find: Kortex
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
