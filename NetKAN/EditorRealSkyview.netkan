@@ -1,7 +1,7 @@
 identifier: EditorRealSkyview
 name: Editor Real Skyview
 abstract: >-
-  VAB/SPH exterior view of the real sky around the Space Center. Will include real position of the sun, moon and stars. Casts realistic shadows and ambient lighting. Works with hangar extender too.
+  VAB/SPH exterior view of the real sky around the Space Center
 author: Ker Ball One
 $kref: '#/ckan/github/KerballOne/EditorRealSkyview'
 x_netkan_version_edit: ^v?(?<version>.*)$
