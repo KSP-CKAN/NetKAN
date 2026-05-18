@@ -10,6 +10,3 @@ x_netkan_github:
 ksp_version: 1.12
 tags:
   - plugin
-install:
-  - find: EditorRealSkyview
-    install_to: GameData
