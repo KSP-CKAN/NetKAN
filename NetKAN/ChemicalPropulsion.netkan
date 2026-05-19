@@ -5,3 +5,6 @@ identifier: ChemicalPropulsion
 $kref: '#/ckan/spacedock/3866'
 tags:
   - config
+install:
+  - find: ChemicalPropulsion
+    install_to: GameData
