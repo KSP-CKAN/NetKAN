@@ -1,5 +1,5 @@
-identifier: ProceduralAirship-basedonHLairships
-name: Procedural Airship Based on HLairships
+identifier: ProceduralAirships
+name: Procedural Airships
 abstract: Procedural Airships based on procedural parts and HLairships
 
 author:
@@ -20,8 +20,3 @@ depends:
 
 recommends:
   - name: B9-PWings-Modified
-
-install:
-  - find: ProceduralAirships
-    install_to: GameData
-
