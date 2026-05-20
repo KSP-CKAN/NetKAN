@@ -5,7 +5,10 @@ identifier: KortexCPUUIOptimizations
 $kref: '#/ckan/spacedock/4272'
 tags:
   - plugin
+depends:
+  - Harmony2
 install:
   - find: Kortex
     install_to: GameData
+    filter: 0Harmony.dll
 x_via: Automated SpaceDock CKAN submission
