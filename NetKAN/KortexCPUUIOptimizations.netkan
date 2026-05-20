@@ -6,7 +6,7 @@ $kref: '#/ckan/spacedock/4272'
 tags:
   - plugin
 depends:
-  - Harmony2
+  - name: Harmony2
 install:
   - find: Kortex
     install_to: GameData
