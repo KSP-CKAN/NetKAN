@@ -7,6 +7,8 @@ author:
   - Iftn
 
 license: MIT
+resources:
+  homepage: 'https://forum.kerbalspaceprogram.com/topic/230666-*'
 
 $kref: '#/ckan/spacedock/4270'
 $vref: '#/ckan/ksp-avc'
