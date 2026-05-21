@@ -9,6 +9,7 @@ description: >-
   protection for DLC propeller aircraft, including counter-rotating and coaxial
   setups.
 $kref: '#/ckan/github/AAA-driver-Yang/ConstantSpeedProp'
+x_netkan_version_edit: ^v?(?<version>.*)$
 $vref: '#/ckan/ksp-avc'
 tags:
   - plugin
