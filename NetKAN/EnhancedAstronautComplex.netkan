@@ -6,11 +6,15 @@ license: CC-BY-NC-ND-4.0
 tags:
   - plugin
   - crewed
+depends:
+  - name: Harmony2
 suggests:
   - name: CrewQueueTwo
   - name: EarnYourStripes
   - name: FlightTracker
   - name: ContractConfigurator
+  - name: DeepFreeze
+  - name: KerbalChangelog
 install:
   - find: EAC
     install_to: GameData
