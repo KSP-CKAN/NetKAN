@@ -3,6 +3,7 @@ name: ProcAirships
 abstract: Procedural Airships - A ProceduralParts Expansion
 $kref: '#/ckan/github/ItMustBeACamel/ProcAirships'
 $vref: '#/ckan/ksp-avc'
+ksp_version: 0.90.0
 author:
   - RadarManFromTheMoon
   - ItMustBeACamel
@@ -19,5 +20,7 @@ install:
     install_to: GameData
   - file: Ships
     install_to: Ships
-  - file: saves
+  - file: saves/training/airship_flight.sfs
+    install_to: Tutorial
+  - file: saves/training/airship_flight_far.sfs
     install_to: Tutorial
