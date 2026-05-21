@@ -24,4 +24,3 @@ install:
     install_to: Tutorial
   - file: saves/training/airship_flight_far.sfs
     install_to: Tutorial
-
