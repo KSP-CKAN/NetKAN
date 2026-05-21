@@ -14,7 +14,14 @@ depends:
   - name: ModuleManager
   - name: B9PartSwitch
   - name: Waterfall
-install:
-  - find: GameData/FlipNBurn
-    install_to: GameData
-x_via: Automated SpaceDock CKAN submission
+  - name: Resurfaced
+  - name: Shabby
+  - name: CommunityResourcePack
+  - name: CommunityFixes
+  - name: CommunityPartModules
+  - name: Waterfall
+  - name: StarshipExpansionProject
+recommends:
+  - name: FuelVent
+  - name: RealPlume
+  - name: SmokeScreen
