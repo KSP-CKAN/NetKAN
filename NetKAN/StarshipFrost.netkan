@@ -1,6 +1,10 @@
 identifier: StarshipFrost
 $kref: '#/ckan/spacedock/4258'
+tags:
+  - plugin
+  - parts
+depends:
+  - name: ModuleManager
 install:
-  - find: ''
+  - find: frost_mod
     install_to: GameData
-x_via: Automated SpaceDock CKAN submission
