@@ -12,7 +12,7 @@ tags:
   - combat
 depends:
   - name: ModuleManager
-  - name: ProceduralParts
   - name: BDArmory
+  - name: ProceduralParts
 recommends:
   - name: B9-PWings-Fork
