@@ -12,9 +12,12 @@
         "combat"
     ],
     "depends": [
-        { "name": "ModuleManager"     },
-        { "name": "BDArmoryContinued" },
-        { "name": "ProceduralParts"   },
-        { "name": "B9-PWings-Fork"    }
+        { "name": "ModuleManager" },
+        { "name": "ProceduralParts" },
+        { "name": "B9-PWings-Fork" },
+        { "any_of": [
+            { "name": "BDArmoryContinued" },
+            { "name": "BDArmoryForRunwayProject" }
+        ]}
     ]
 }
