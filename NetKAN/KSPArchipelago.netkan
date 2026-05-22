@@ -1,0 +1,25 @@
+identifier: KSPArchipelago
+name: KSP Archipelago Randomizer
+abstract: >-
+  Play a solo or cooperative randomized version of one or more supported games
+description: >-
+  With Archipelago for KSP, you start with a small selection of random parts
+  and must perform missions to unlock additional parts to get closer to
+  your goal. Any time you achieve something for the first time such as
+  orbiting a planet, taking a surface sample, planting a flag, etc., you will
+  unlock new parts for yourself or other players in their games.
+
+  Goals are selected by the player when they generate a new game, and things
+  like flying to Duna and back, planting a flag on all bodies, returning a
+  surface sample from every body are default goals players can chose from.
+author: Nick Davies
+$kref: '#/ckan/github/nickdavies/KSP1-Archipelago-client'
+x_netkan_version_edit: ^v?(?<version>.*)$
+x_netkan_github:
+  prereleases: false
+ksp_version: 1.12
+tags:
+  - plugin
+resources:
+  homepage: https://archipelago.gg/faq/en/
+  manual: https://github.com/nickdavies/Archipelago/blob/ksp1/worlds/ksp1/docs/setup_en.md
