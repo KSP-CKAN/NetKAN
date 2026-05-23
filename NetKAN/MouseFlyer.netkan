@@ -1,0 +1,11 @@
+identifier: MouseFlyer
+$kref: '#/ckan/github/Loki-Lokster/MouseFlyer_ksp1'
+x_netkan_version_edit: ^v?(?<version>.+)$
+$vref: '#/ckan/ksp-avc'
+---
+identifier: MouseFlyer
+$kref: '#/ckan/spacedock/4276'
+$vref: '#/ckan/ksp-avc'
+tags:
+  - plugin
+x_via: Automated SpaceDock CKAN submission
