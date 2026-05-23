@@ -1,0 +1,10 @@
+identifier: ROEnginesRS68KPlumeFix
+$kref: '#/ckan/spacedock/4279'
+tags:
+  - config
+depends:
+  - name: ModuleManager
+install:
+  - find: RS68K-WaterfallFix
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
