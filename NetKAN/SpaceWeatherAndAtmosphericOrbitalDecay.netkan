@@ -9,4 +9,5 @@ tags:
   - physics
 depends:
   - name: ClickThroughBlocker
+recommends:
   - name: Kerbalism
