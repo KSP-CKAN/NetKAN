@@ -11,3 +11,4 @@ depends:
   - name: ClickThroughBlocker
 recommends:
   - name: Kerbalism
+  - name: OrbitalKeeper
