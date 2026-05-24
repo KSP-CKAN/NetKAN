@@ -1,7 +1,7 @@
-identifier: KomUniMunCW
+identifier: KomUniMunCW-Stock
 $kref: '#/ckan/github/narni-tchereskov/KomUniMun-Contractual-Warfare'
 ---
-identifier: KomUniMunCW
+identifier: KomUniMunCW-Stock
 $kref: '#/ckan/spacedock/4018'
 $vref: '#/ckan/ksp-avc'
 tags:
@@ -12,9 +12,8 @@ depends:
   - name: ModuleManager
   - name: ContractConfigurator
   - name: BDArmoryForRunwayProject
-  - name: FerramAerospaceResearchContinued
 conflicts:
-  - name: KomUniMunCW-Stock
+  - name: KomUniMunCW
 install:
-  - find: FARc_edition/GameData/ContractPacks
+  - find: Stock_edition/GameData/ContractPacks
     install_to: GameData
