@@ -1,0 +1,27 @@
+{
+    "spec_version": "v1.34",
+    "identifier": "Minmi",
+    "name": "Minmi Planet Pack",
+    "abstract": "A small asteroid-style moon for Kerbal Space Program.",
+    "author": "You",
+    "license": "MIT",
+    "ksp_version": "1.12.5",
+
+    "resources": {
+        "repository": "https://github.com/michaltanki2014-cringle/Minmi"
+    },
+
+    "download": "https://github.com/michaltanki2014-cringle/Minmi/releases/download/v1.0.0/Minmi.zip",
+
+    "depends": [
+        { "name": "Kopernicus" },
+        { "name": "ModuleManager" }
+    ],
+
+    "install": [
+        {
+            "find": "Minmi",
+            "install_to": "GameData"
+        }
+    ]
+}
