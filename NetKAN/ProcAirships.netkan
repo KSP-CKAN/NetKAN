@@ -1,0 +1,26 @@
+identifier: ProcAirships
+name: ProcAirships
+abstract: Procedural Airships - A ProceduralParts Expansion
+$kref: '#/ckan/github/ItMustBeACamel/ProcAirships'
+$vref: '#/ckan/ksp-avc'
+ksp_version: 0.90.0
+author:
+  - RadarManFromTheMoon
+  - ItMustBeACamel
+license: GPL-3.0
+resources:
+  homepage: 'https://forum.kerbalspaceprogram.com/index.php?/topic/89388-*'
+tags:
+  - plugin
+  - parts
+depends:
+  - name: ProceduralParts
+install:
+  - find: ProcAirships
+    install_to: GameData
+  - file: Ships
+    install_to: Ships
+  - file: saves/training/airship_flight.sfs
+    install_to: Tutorial
+  - file: saves/training/airship_flight_far.sfs
+    install_to: Tutorial

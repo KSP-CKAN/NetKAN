@@ -1,0 +1,14 @@
+identifier: ContractConfiguratorExtended
+$kref: '#/ckan/spacedock/4073'
+$vref: '#/ckan/ksp-avc'
+tags:
+  - plugin
+  - library
+  - career
+conflicts:
+  - name: ContractConfigurator
+depends:
+  - name: ModuleManager
+install:
+  - find: ContractConfigurator
+    install_to: GameData

@@ -1,0 +1,16 @@
+identifier: KICKLifeSupport
+$kref: '#/ckan/spacedock/4079'
+$vref: '#/ckan/ksp-avc'
+tags:
+  - parts
+  - plugin
+depends:
+  - name: ModuleManager
+  - name: CommunityResourcePack
+suggests:
+  - name: RealFuels
+  - name: UniversalStorage2
+  - name: SystemHeat
+install:
+  - find: KickLifeSupport
+    install_to: GameData

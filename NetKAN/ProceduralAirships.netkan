@@ -1,0 +1,27 @@
+identifier: ProceduralAirships
+$kref: '#/ckan/github/tsingshitao-nuke/Procedural-Airships'
+---
+identifier: ProceduralAirships
+$kref: '#/ckan/spacedock/4270'
+name: Procedural Airships
+abstract: Procedural Airships based on procedural parts and HLairships
+
+author:
+  - tsingshitao
+  - Iftn
+
+license: MIT
+resources:
+  homepage: 'https://forum.kerbalspaceprogram.com/topic/230666-*'
+
+$vref: '#/ckan/ksp-avc'
+
+tags:
+  - parts
+
+depends:
+  - name: HooliganLabsAirships
+  - name: ProceduralParts
+
+recommends:
+  - name: B9-PWings-Modified

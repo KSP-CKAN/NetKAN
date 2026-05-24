@@ -1,6 +1,5 @@
 identifier: ChemicalExotics
 $kref: '#/ckan/github/CharleRoger/ChemicalPropulsion'
-$vref: '#/ckan/ksp-avc'
 ---
 identifier: ChemicalExotics
 name: Chemical Propulsion - Exotics
@@ -8,15 +7,8 @@ abstract: >-
   An extension pack for Chemical Propulsion which
   adds exotic propellant options to various engines
 $kref: '#/ckan/spacedock/3866'
-$vref: '#/ckan/ksp-avc'
 tags:
   - config
-depends:
-  - name: ModuleManager
-  - name: B9PartSwitch
-  - name: ChemicalCore
-  - name: ChemicalPropulsion
-  - name: CommunityResourcePack
 install:
   - find: ChemicalPropulsionExotics
     install_to: GameData

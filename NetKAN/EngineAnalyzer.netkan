@@ -1,0 +1,10 @@
+identifier: EngineAnalyzer
+$kref: '#/ckan/github/Iftn1/KSP-EngineAnalyzer'
+---
+identifier: EngineAnalyzer
+$kref: '#/ckan/spacedock/4210'
+tags:
+  - plugin
+  - information
+depends:
+  - name: RealFuels

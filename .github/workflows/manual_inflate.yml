@@ -9,7 +9,7 @@ jobs:
     Inflate_module:
         runs-on: ubuntu-latest
         steps:
-            - uses: actions/checkout@v4
+            - uses: actions/checkout@v6
             - name: Manual inflate
               uses: ./.github/actions/manual_inflate
               with:

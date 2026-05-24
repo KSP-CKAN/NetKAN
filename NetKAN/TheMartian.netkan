@@ -27,5 +27,7 @@ install:
     install_to: Scenarios
   - file: Ships/Script
     install_to: Ships
-  - file: Ships/VAB/Resupply Probe.craft
-    install_to: Ships/VAB
+  - file: Ships/VAB
+    install_to: Ships
+  - file: Ships/SPH
+    install_to: Ships

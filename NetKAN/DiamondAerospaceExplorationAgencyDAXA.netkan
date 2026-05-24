@@ -1,0 +1,12 @@
+identifier: DiamondAerospaceExplorationAgencyDAXA
+$kref: '#/ckan/spacedock/4022'
+tags:
+  - parts
+depends:
+  - name: B9PartSwitch
+  - name: SimpleAdjustableFairings
+  - name: CommunityResourcePack
+  - name: DeployableEngines
+install:
+  - find: DAXA
+    install_to: GameData

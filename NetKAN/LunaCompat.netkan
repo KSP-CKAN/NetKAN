@@ -1,5 +1,5 @@
 identifier: LunaCompat
-$kref: '#/ckan/github/TheXankriegor/LunaCompat'
+$kref: '#/ckan/github/TheXankriegor/LunaCompat/asset_match/^(?!.*ServerPlugin).*\.zip'
 $vref: '#/ckan/ksp-avc'
 description: >-
   Complex mods are incompatible with Luna Multiplayer.

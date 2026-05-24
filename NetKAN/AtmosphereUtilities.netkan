@@ -1,0 +1,8 @@
+identifier: AtmosphereUtilities
+$kref: '#/ckan/spacedock/4047'
+tags:
+  - config
+  - plugin
+install:
+  - find: 001_AtmosphereUtilities
+    install_to: GameData

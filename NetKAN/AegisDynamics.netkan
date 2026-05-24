@@ -1,0 +1,15 @@
+identifier: AegisDynamics
+$kref: '#/ckan/github/CapC0m/aegis-dynamics'
+---
+identifier: AegisDynamics
+$kref: '#/ckan/spacedock/4218'
+$vref: '#/ckan/ksp-avc'
+tags:
+  - plugin
+  - parts
+depends:
+  - name: ModuleManager
+  - name: B9PartSwitch
+  - name: Waterfall
+recommends:
+  - name: StockWaterfallEffects

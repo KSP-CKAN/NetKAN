@@ -1,0 +1,12 @@
+identifier: BuoyancyAdjuster
+$kref: '#/ckan/spacedock/4171'
+tags:
+  - plugin
+  - physics
+install:
+  - find: GameData/BuoyancyAdjuster
+    install_to: GameData
+    filter: Sample Craft
+  - find: Sample Craft
+    install_to: Ships
+    as: SPH

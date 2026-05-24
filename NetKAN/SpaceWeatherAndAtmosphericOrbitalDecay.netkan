@@ -1,0 +1,14 @@
+identifier: SpaceWeatherAndAtmosphericOrbitalDecay
+$kref: '#/ckan/github/Aebestach/SpaceWeatherAndAtmosphericOrbitalDecay'
+x_netkan_version_edit: ^v?(?<version>.+)$
+---
+identifier: SpaceWeatherAndAtmosphericOrbitalDecay
+$kref: '#/ckan/spacedock/4116'
+tags:
+  - plugin
+  - physics
+depends:
+  - name: ClickThroughBlocker
+recommends:
+  - name: Kerbalism
+  - name: OrbitalKeeper

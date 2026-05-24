@@ -1,0 +1,10 @@
+identifier: DiscordRP
+$kref: '#/ckan/spacedock/4241'
+tags:
+  - plugin
+  - app
+install:
+  - find: DiscordRPContinued
+    install_to: GameData
+depends:
+  - name: ToolbarController

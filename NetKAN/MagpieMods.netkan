@@ -1,0 +1,20 @@
+identifier: MagpieMods
+$kref: '#/ckan/github/lukeburton00/Magpie-Mods-Remodded'
+x_netkan_epoch: 1
+---
+identifier: MagpieMods
+$kref: '#/ckan/spacedock/3991'
+x_netkan_epoch: 1
+author:
+  - Spukey123
+  - ilikeduck
+tags:
+  - config
+  - graphics
+depends:
+  - name: ModuleManager
+  - name: TexturesUnlimited
+install:
+  - find: GameData/MagpieMods
+    install_to: GameData
+    filter: .git

@@ -1,32 +1,24 @@
-{
-    "identifier"   : "CommNetAntennasConsumptor",
-    "name"         : "CommNet Antennas Consumptor",
-    "author"       : "flart",
-    "$kref"        : "#/ckan/github/yalov/CommNetAntennasConsumptor",
-    "$vref"        : "#/ckan/ksp-avc",
-    "x_netkan_allow_out_of_order": true,
-    "license"      : "GPL-3.0",
-    "resources" : {
-        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/177292-*"
-    },
-    "tags": [
-        "plugin",
-        "comms"
-    ],
-    "depends": [
-        { "name": "ModuleManager" }
-
-    ],
-    "conflicts": [
-        { "name": "RemoteTech" },
-        { "name": "Kerbalism" }
-    ],
-    "recommends": [
-        { "name": "CommNetAntennasExtension" },
-        { "name": "CommNetAntennasInfo" }
-    ],
-    "supports": [
-        { "name": "DMagicOrbitalScience" },
-        { "name": "NearFutureExploration" }
-    ]
-}
+identifier: CommNetAntennasConsumptor
+name: CommNet Antennas Consumptor
+author: flart
+$kref: '#/ckan/github/yalov/CommNetAntennasConsumptor'
+$vref: '#/ckan/ksp-avc'
+x_netkan_allow_out_of_order: true
+license: GPL-3.0
+resources:
+  homepage: 'https://forum.kerbalspaceprogram.com/index.php?/topic/177292-*'
+tags:
+  - plugin
+  - comms
+depends:
+  - name: ModuleManager
+conflicts:
+  - name: RemoteTech
+  - name: Kerbalism
+  - name: AntennaSleep
+recommends:
+  - name: CommNetAntennasExtension
+  - name: CommNetAntennasInfo
+supports:
+  - name: DMagicOrbitalScience
+  - name: NearFutureExploration

@@ -1,0 +1,11 @@
+identifier: CelestialBodyMover
+$kref: '#/ckan/github/Clayell/CelestialBodyMover'
+---
+identifier: CelestialBodyMover
+$kref: '#/ckan/spacedock/4245'
+license: MIT
+author:
+  - Clayel
+tags:
+  - plugin
+  - physics
