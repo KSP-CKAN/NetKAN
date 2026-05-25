@@ -6,3 +6,6 @@ $vref: '#/ckan/ksp-avc'
 tags:
   - plugin
   - library
+install:
+  - find: 000_SerializationFix
+    install_to: GameData
