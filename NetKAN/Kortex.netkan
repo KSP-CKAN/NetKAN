@@ -1,11 +1,13 @@
-identifier: KortexPerformancesuite
+identifier: Kortex
 $kref: '#/ckan/github/MrCrustyToast/Kortex---KSP-optimization-mod'
 ---
-identifier: KortexPerformancesuite
+identifier: Kortex
 $kref: '#/ckan/spacedock/4272'
 tags:
   - plugin
+depends:
+  - name: Harmony2
 install:
   - find: Kortex
     install_to: GameData
-x_via: Automated SpaceDock CKAN submission
+    filter: 0Harmony.dll
