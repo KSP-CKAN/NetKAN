@@ -1,5 +1,6 @@
 identifier: Kortex
 $kref: '#/ckan/github/MrCrustyToast/Kortex---KSP-optimization-mod'
+x_netkan_version_edit: ^v?(?<version>.*)$
 ---
 identifier: Kortex
 $kref: '#/ckan/spacedock/4272'
