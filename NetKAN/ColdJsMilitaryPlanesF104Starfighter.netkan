@@ -5,9 +5,9 @@ tags:
   - first-person
   - parts
 install:
-  - find: F104
+  - find: CJMP
     install_to: GameData
     filter_regexp: \.craft$
-  - file: GameData/F104/Craft/F-104.craft
+  - file: GameData/CJMP/F104/Craft/F-104.craft
     install_to: Ships/SPH
 x_via: Automated SpaceDock CKAN submission
