@@ -1,0 +1,13 @@
+identifier: ColdJsMilitaryPlanesF104Starfighter
+$kref: '#/ckan/spacedock/4284'
+tags:
+  - crewed
+  - first-person
+  - parts
+install:
+  - find: F104
+    install_to: GameData
+    filter_regexp: \.craft$
+  - file: GameData/F104/Craft/F-104.craft
+    install_to: Ships/SPH
+x_via: Automated SpaceDock CKAN submission
