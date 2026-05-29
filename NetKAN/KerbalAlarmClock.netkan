@@ -1,6 +1,10 @@
 identifier: KerbalAlarmClock
-name: Kerbal Alarm Clock Updated
 $kref: '#/ckan/github/linuxgurugamer/KerbalAlarmClock'
+x_netkan_epoch: 1
+---
+identifier: KerbalAlarmClock
+$kref: '#/ckan/spacedock/4287'
+name: Kerbal Alarm Clock Updated
 x_netkan_epoch: 1
 $vref: '#/ckan/ksp-avc'
 resources:
