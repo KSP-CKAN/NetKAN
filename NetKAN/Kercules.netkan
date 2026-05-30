@@ -1,0 +1,7 @@
+identifier: Kercules
+$kref: '#/ckan/spacedock/4288'
+tags:
+  - config
+depends:
+  - name: ModuleManager
+x_via: Automated SpaceDock CKAN submission
