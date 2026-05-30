@@ -13,6 +13,9 @@ resources:
 tags:
   - plugin
   - information
+depends:
+  - name: ToolbarController
+  - name: ClickThroughBlocker
 recommends:
   - name: TriggerAu-Flags
   - name: StockAlarmClockDisabler
