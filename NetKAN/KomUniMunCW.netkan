@@ -12,7 +12,7 @@ depends:
   - name: ModuleManager
   - name: ContractConfigurator
   - name: BDArmoryForRunwayProject
-supports:
+suggests:
   - name: FerramAerospaceResearchContinued
 install:
   - find: KomUniMunCW/GameData/ContractPacks
