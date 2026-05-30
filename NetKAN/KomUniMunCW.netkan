@@ -12,9 +12,21 @@ depends:
   - name: ModuleManager
   - name: ContractConfigurator
   - name: BDArmoryForRunwayProject
+supports:
   - name: FerramAerospaceResearchContinued
-conflicts:
-  - name: KomUniMunCW-Stock
 install:
-  - find: FARc_edition/GameData/ContractPacks
+  - find: KomUniMunCW/GameData/ContractPacks
     install_to: GameData
+x_netkan_override:
+  - version: [ "< 0.9.0" ]
+    override:
+      depends:
+        - name: ModuleManager
+        - name: ContractConfigurator
+        - name: BDArmoryForRunwayProject
+        - name: FerramAerospaceResearchContinued
+      install:
+        - find: FARc_edition/GameData/ContractPacks
+          install_to: GameData
+    delete:
+      - supports
