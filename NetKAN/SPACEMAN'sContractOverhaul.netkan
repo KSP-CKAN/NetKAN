@@ -1,0 +1,23 @@
+identifier: SPACEMAN'sContractOverhaul
+name: SPACEMAN's Contract Overhaul
+$kref: '#/ckan/github/SPACEMAN9813/SPACEMAN-s-Contract-Overhaul-Public-/asset_match/SM.sCO'
+license: CC0-1.0
+tags:
+  - config
+  - contract
+depends:
+  - name: ContractConfiguratorExtended
+  - name: ModuleManager
+recommends:
+  - name: CommunityTechTree
+  - name: UnKerballedStart
+suggests:
+  - name: KSPCommunityFixes
+  - name: Kerbalism
+  - name: SIMPLEXKerbalism
+  - name: KerbalConstructionTime
+  - name: DMagicOrbitalScience
+  - name: SPACEMAN'sGlobalFlags
+install:
+  - find: SPACEMAN'sContractOverhaul
+    install_to: GameData
