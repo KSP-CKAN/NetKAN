@@ -8,10 +8,9 @@ tags:
 depends:
   - name: ContractConfiguratorExtended
   - name: ModuleManager
-recommends:
+suggests:
   - name: CommunityTechTree
   - name: UnKerballedStart
-suggests:
   - name: KSPCommunityFixes
   - name: Kerbalism
   - name: SIMPLEXKerbalism
