@@ -9,5 +9,5 @@ depends:
   - name: ConformalDecals
   - name: ModuleManager
 install:
-  - find: Flags
+  - find: SGF
     install_to: GameData
