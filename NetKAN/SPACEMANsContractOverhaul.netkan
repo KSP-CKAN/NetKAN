@@ -6,7 +6,7 @@ tags:
   - config
   - contract
 depends:
-  - name: ContractConfiguratorExtended
+  - name: ContractConfigurator
   - name: ModuleManager
 suggests:
   - name: CommunityTechTree
