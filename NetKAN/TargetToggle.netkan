@@ -4,3 +4,6 @@ $vref: '#/ckan/ksp-avc'
 tags:
   - plugin
   - information
+install:
+  - find: GameData/TargetToggle
+    install_to: GameData
