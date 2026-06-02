@@ -1,7 +1,11 @@
 identifier: Beaufort
+$kref: '#/ckan/github/Zondulus/Beaufort'
+---
+identifier: Beaufort
 $kref: '#/ckan/spacedock/4295'
 $vref: '#/ckan/ksp-avc'
 tags:
-  - config
   - plugin
-x_via: Automated SpaceDock CKAN submission
+  - physics
+depends:
+  - name: WindAPI
