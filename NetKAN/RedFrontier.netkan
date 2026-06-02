@@ -5,7 +5,6 @@ x_netkan_version_edit: ^v?\.?(?<version>.+)$
 identifier: RedFrontier
 $kref: '#/ckan/spacedock/4182'
 x_netkan_version_edit: ^v?\.?(?<version>.+)$
-$vref: '#/ckan/ksp-avc'
 tags:
   - career
   - parts
