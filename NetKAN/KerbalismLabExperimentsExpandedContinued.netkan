@@ -7,6 +7,7 @@ x_netkan_version_edit:
 ---
 identifier: KerbalismLabExperimentsExpandedContinued
 $kref: '#/ckan/spacedock/3883'
+license: CC-BY-NC-SA
 tags:
   - config
   - plugin
@@ -24,4 +25,3 @@ install:
   - find: KerbalismLabExperimentsExpandedContinued
     install_to: GameData
     filter_regexp: \.pdb$
-x_via: Automated SpaceDock CKAN submission
