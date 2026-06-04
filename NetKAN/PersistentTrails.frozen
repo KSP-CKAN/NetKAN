@@ -1,9 +1,5 @@
-{
-    "$kref" : "#/ckan/kerbalstuff/796",
-    "license" : "MIT",
-    "identifier" : "PersistentTrails",
-    "depends" : [
-        { "name" : "Toolbar" }
-    ]
-}
-
+$kref: '#/ckan/kerbalstuff/796'
+license: MIT
+identifier: PersistentTrails
+suggests:
+  - name: Toolbar

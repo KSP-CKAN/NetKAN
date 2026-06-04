@@ -1,0 +1,21 @@
+identifier: CosmicSerenity-Yunxiao
+name: Cosmic Serenity - Yunxiao System
+abstract: A young orange dwarf with an almost complete planetary formation.
+$kref: '#/ckan/github/ProximaCentauri-star/Cosmic-Serenity/asset_match/Yunxiao'
+license: restricted
+tags:
+  - config
+  - planet-pack
+depends:
+  - name: ModuleManager
+  - name: Kopernicus
+  - name: VertexMitchellNetravaliHeightMap
+  - name: ScaledDecorator
+  - name: CosmicSerenity-Core
+  - name: VertexColorMapEmissive
+recommends:
+  - name: KopernicusExpansion
+  - name: Singularity
+install:
+  - find: CosmicSerenity
+    install_to: GameData

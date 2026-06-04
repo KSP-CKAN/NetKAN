@@ -22,6 +22,7 @@ depends:
     min_version: 0.28.0
   - name: ASETProps
     min_version: '1.4'
+  - name: ASETAvionics
 recommends:
   - name: MechJeb2
   - name: SCANsat

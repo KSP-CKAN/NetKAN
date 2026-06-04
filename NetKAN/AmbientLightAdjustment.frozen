@@ -1,18 +1,12 @@
-{
-    "$kref": "#/ckan/spacedock/184",
-    "identifier": "AmbientLightAdjustment",
-    "license" : "GPL-3.0",
-    "depends": [
-        { "name": "Toolbar" }
-    ],
-    "x_netkan_override" : [
-        {
-            "version" : "1.4.4.1",
-            "delete" : [ "ksp_version" ],
-            "override" : {
-                "ksp_version_min" : "1.0.2",
-                "ksp_version_max" : "1.0.4"
-            }
-        }
-    ]
-}
+identifier: AmbientLightAdjustment
+$kref: '#/ckan/spacedock/184'
+license: GPL-3.0
+suggests:
+  - name: Toolbar
+x_netkan_override:
+  - version: 1.4.4.1
+    delete:
+      - ksp_version
+    override:
+      ksp_version_min: 1.0.2
+      ksp_version_max: 1.0.4

@@ -1,0 +1,13 @@
+identifier: KcalbelohFinalFrontierRibbonPack
+$kref: '#/ckan/spacedock/4072'
+tags:
+  - config
+  - crewed
+depends:
+  - name: KcalbelohSystem
+  - name: FinalFrontier
+supports:
+  - name: KcalbelohSystem
+install:
+  - find: Nereid
+    install_to: GameData

@@ -14,7 +14,7 @@ tags:
   - library
 depends:
   - name: ClickThroughBlocker
-recommends:
+suggests:
   - name: Toolbar
 install:
   - find: 001_ToolbarControl
