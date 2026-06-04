@@ -14,5 +14,5 @@ depends:
   - name: ToolbarController
   - name: ClickThroughBlocker
   - name: SpaceTuxLibrary
-recommends:
+suggests:
   - name: Toolbar
