@@ -13,11 +13,11 @@ depends:
   - name: ModuleManager
   - name: SimpleConstruction
 recommends:
-  - name: Toolbar
   - name: KerbalStats
   - name: KIS
   - name: KAS
 suggests:
+  - name: Toolbar
   - name: SimpleLogistics
   - name: CommunityResourcePack
   - name: StockalikeMiningExtension

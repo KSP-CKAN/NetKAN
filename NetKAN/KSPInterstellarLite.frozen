@@ -1,35 +1,28 @@
-{
-    "identifier"            : "KSPInterstellarLite",
-    "name"                  : "KSP Interstellar Lite",
-    "abstract"              : "Lite version of KSP Interstellar",
-    "$kref"                 : "#/ckan/github/WaveFunctionP/KSPInterstellar",
-    "license"               : "unrestricted",
-    "ksp_version"           : "0.24.2",
-    "x_netkan_license_ok"   : true,
-    "x_maintained_by"       : "distantcam",
-    "resources": {
-        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/82882-*"
-    },
-    "tags": [
-        "plugin",
-        "parts",
-        "resources",
-        "crewed"
-    ],
-    "provides"              : [ "KSPInterstellar" ],
-    "conflicts"             : [ { "name" : "KSPInterstellar" } ],
-    "depends": [
-        { "name": "OpenResourceSystem" },
-        { "name": "TreeLoader" },
-        { "name": "ModuleManager" },
-        { "name": "Toolbar" },
-        { "name": "TweakScale" },
-        { "name": "CommunityResourcePack" }
-    ],
-    "install": [
-        {
-            "file"       : "GameData/Interstellar",
-            "install_to" : "GameData"
-        }
-    ]
-}
+identifier: KSPInterstellarLite
+name: KSP Interstellar Lite
+abstract: Lite version of KSP Interstellar
+$kref: '#/ckan/github/WaveFunctionP/KSPInterstellar'
+ksp_version: 0.24.2
+license: unrestricted
+resources:
+  homepage: https://forum.kerbalspaceprogram.com/index.php?/topic/82882-*
+tags:
+  - plugin
+  - parts
+  - resources
+  - crewed
+provides:
+  - KSPInterstellar
+conflicts:
+  - name: KSPInterstellar
+depends:
+  - name: OpenResourceSystem
+  - name: TreeLoader
+  - name: ModuleManager
+  - name: TweakScale
+  - name: CommunityResourcePack
+suggests:
+  - name: Toolbar
+install:
+  - file: GameData/Interstellar
+    install_to: GameData

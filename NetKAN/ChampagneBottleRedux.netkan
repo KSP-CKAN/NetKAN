@@ -13,8 +13,9 @@ depends:
   - name: ToolbarController
   - name: ClickThroughBlocker
 recommends:
-  - name: Toolbar
   - name: JanitorsCloset
+suggests:
+  - name: Toolbar
 install:
   - find: Champagne
     install_to: GameData
