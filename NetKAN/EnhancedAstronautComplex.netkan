@@ -8,7 +8,7 @@ tags:
   - crewed
 depends:
   - name: Harmony2
-suggests:
+supports:
   - name: CrewQueueTwo
   - name: EarnYourStripes
   - name: FlightTracker
