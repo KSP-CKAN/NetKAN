@@ -1,0 +1,15 @@
+identifier: KlustellarSystem
+$kref: '#/ckan/spacedock/4306'
+tags:
+  - config
+  - planet-pack
+depends:
+  - name: ModuleManager
+  - name: Kopernicus
+install:
+  - find: KlustellarSystem
+    install_to: GameData
+    filter:
+      - .git
+      - .gitignore
+x_via: Automated SpaceDock CKAN submission
