@@ -8,7 +8,6 @@ name: Kerbal Alarm Clock Updated
 x_netkan_epoch: 1
 $vref: '#/ckan/ksp-avc'
 resources:
-  homepage: https://forum.kerbalspaceprogram.com/topic/230939-112x-kerbal-alarm-clock-updated/
   manual: https://linuxgurugamer.github.io/KerbalAlarmClock/
 tags:
   - plugin
