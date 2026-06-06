@@ -1,4 +1,7 @@
 identifier: RealChinasAstronomySatellitePack
+$kref: '#/ckan/github/adouis-srpn/RCAS_Pack'
+---
+identifier: RealChinasAstronomySatellitePack
 $kref: '#/ckan/spacedock/4216'
 tags:
   - graphics
@@ -6,7 +9,4 @@ tags:
 depends:
   - name: ModuleManager
   - name: Waterfall
-install:
-  - find: RealChinasProbeExplore
-    install_to: GameData
 x_via: Automated SpaceDock CKAN submission
