@@ -1,0 +1,13 @@
+identifier: PulsarnovaSystem
+$kref: '#/ckan/spacedock/4306'
+tags:
+  - config
+  - planet-pack
+depends:
+  - name: ModuleManager
+  - name: Kopernicus
+install:
+  - find: PulsarnovaSystem
+    install_to: GameData
+    filter: .gitignore
+x_via: Automated SpaceDock CKAN submission
