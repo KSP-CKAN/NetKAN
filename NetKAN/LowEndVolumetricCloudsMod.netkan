@@ -1,21 +1,7 @@
-{
-    "spec_version": "v1.0",
-    "identifier":   "LowEndVolumetricCloudsMod",
-    "$kref":        "#/ckan/github/hkha-3/Low-End-Volumetric-Clouds-Mod",
-    "license":      "GPL-3.0",
-    "ksp_version_min": "1.12.0",
-    "ksp_version_max": "1.12.99",
-    "resources": {
-        "homepage": "https://github.com"
-    },
-    "tags": [
-        "plugin",
-        "graphics"
-    ],
-    "install": [
-        {
-            "find":       "LowEndVolumetricCloudsMod",
-            "install_to": "GameData"
-        }
-    ]
-}
+identifier: LowEndVolumetricCloudsMod
+$kref: '#/ckan/github/hkha-3/Low-End-Volumetric-Clouds-Mod'
+$vref: '#/ckan/ksp-avc'
+license: GPL-3.0
+tags:
+  - plugin
+  - graphics
