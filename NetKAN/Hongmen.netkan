@@ -4,4 +4,5 @@ tags:
   - crewed
   - first-person
   - parts
-x_via: Automated SpaceDock CKAN submission
+depends:
+  - NewTantares
