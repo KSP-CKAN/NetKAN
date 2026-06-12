@@ -11,4 +11,6 @@ tags:
 depends:
   - name: ModuleManager
   - name: Kopernicus
-x_via: Automated SpaceDock CKAN submission
+  - name: MRKI
+suggests:
+  - name: Kronometer
