@@ -5,3 +5,6 @@ tags:
   - plugin
 depends:
   - name: ModuleManager
+install:
+  - find: ExplosiveDecouplers
+    install_to: GameData
