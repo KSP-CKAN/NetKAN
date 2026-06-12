@@ -1,0 +1,10 @@
+identifier: ExplosiveDecoupler
+$kref: '#/ckan/spacedock/4299'
+tags:
+  - parts
+  - plugin
+depends:
+  - name: ModuleManager
+install:
+  - find: ExplosiveDecouplers
+    install_to: GameData
