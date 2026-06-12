@@ -1,8 +1,7 @@
-identifier: ExplosiveDecouplers
+identifier: ExplosiveDecoupler
 $kref: '#/ckan/spacedock/4299'
 tags:
   - parts
   - plugin
 depends:
   - name: ModuleManager
-x_via: Automated SpaceDock CKAN submission
