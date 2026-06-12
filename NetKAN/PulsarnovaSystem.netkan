@@ -6,8 +6,13 @@ tags:
 depends:
   - name: ModuleManager
   - name: Kopernicus
+  - name: Scatterer
+  - name: ScaledDecorator
+  - name: KSPCommunityFixes
+  - name: KopernicusExpansionContinueder
+suggests:
+  - name: ParallaxContinued
 install:
   - find: PulsarnovaSystem
     install_to: GameData
     filter: .gitignore
-x_via: Automated SpaceDock CKAN submission
