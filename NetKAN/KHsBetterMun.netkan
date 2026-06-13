@@ -7,7 +7,10 @@ depends:
   - name: ModuleManager
   - name: Kopernicus
   - name: VertexMitchellNetravaliHeightMap
+conflicts:
+  - name: MRKI
+  - name: JNSQ
+  - name: TechosStockPlanetRevamp
 install:
   - find: BetterMun
     install_to: GameData
-x_via: Automated SpaceDock CKAN submission
