@@ -7,6 +7,8 @@ depends:
   - name: ModuleManager
   - name: Kopernicus
   - name: VertexMitchellNetravaliHeightMap
+suggests:
+  - name: ParallaxContinued
 conflicts:
   - name: MRKI
   - name: JNSQ
