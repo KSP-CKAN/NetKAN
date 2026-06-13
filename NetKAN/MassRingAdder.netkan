@@ -10,4 +10,4 @@ tags:
 depends:
   - name: ModuleManager
   - name: Kopernicus
-x_via: Automated SpaceDock CKAN submission
+  - name: KopernicusExpansionContinueder
