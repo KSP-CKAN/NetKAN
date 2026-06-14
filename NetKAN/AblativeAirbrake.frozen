@@ -1,16 +1,11 @@
-{
-    "identifier":   "AblativeAirbrake",
-    "$kref":        "#/ckan/spacedock/1245",
-    "$vref":        "#/ckan/ksp-avc",
-    "license":      "GPL-3.0",
-    "tags": [
-        "parts"
-    ],
-    "install": [ {
-        "find": "Ablative-Airbrake",
-        "install_to": "GameData"
-    } ],
-    "depends": [
-        { "name": "ModuleManager" }
-    ]
-}
+identifier: AblativeAirbrake
+$kref: '#/ckan/spacedock/1245'
+$vref: '#/ckan/ksp-avc'
+license: GPL-3.0
+tags:
+  - parts
+depends:
+  - name: ModuleManager
+install:
+  - find: Ablative-Airbrake
+    install_to: GameData
