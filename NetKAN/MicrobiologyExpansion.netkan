@@ -1,0 +1,12 @@
+identifier: MicrobiologyExpansion
+$kref: '#/ckan/spacedock/4330'
+tags:
+  - config
+  - plugin
+depends:
+  - name: ModuleManager
+install:
+  - find: MicrobiologyExpansion
+    install_to: GameData
+    filter_regexp: \.pdb$
+x_via: Automated SpaceDock CKAN submission
