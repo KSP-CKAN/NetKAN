@@ -1,0 +1,7 @@
+identifier: RocketPartsLogistics
+$kref: '#/ckan/spacedock/4333'
+tags:
+  - config
+depends:
+  - name: ModuleManager
+x_via: Automated SpaceDock CKAN submission
