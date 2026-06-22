@@ -1,0 +1,13 @@
+identifier: WattsLeft
+$kref: '#/ckan/github/jonasfdb/WattsLeft'
+x_netkan_version_edit: ^v?(?<version>.+)$
+---
+identifier: WattsLeft
+$kref: '#/ckan/spacedock/4353'
+tags:
+  - config
+  - plugin
+depends:
+  - name: ModuleManager
+  - name: B9PartSwitch
+x_via: Automated SpaceDock CKAN submission
