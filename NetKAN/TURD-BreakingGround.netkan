@@ -10,6 +10,7 @@ tags:
 depends:
   - name: ModuleManager
   - name: TexturesUnlimited
+  - name: BreakingGround-DLC
 install:
   - find: TURD/TU_BG_AllInOne
     install_to: GameData/TURD
