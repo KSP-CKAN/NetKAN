@@ -1,0 +1,15 @@
+identifier: TURD-OPT
+name: TURD - OPT Continued
+abstract: Collection of Textures Unlimited recolours for Orbit Portal Techologies (OPT) Continued
+author: Manwith Noname, Spartwo
+$kref: '#/ckan/github/KerbalPowers/TURD-OPT'
+license: CC-BY-NC-SA-4.0
+tags:
+  - config
+  - graphics
+depends:
+  - name: ModuleManager
+  - name: TexturesUnlimited
+install:
+  - find: TURD/TU_OPT_Recolour
+    install_to: GameData/TURD
