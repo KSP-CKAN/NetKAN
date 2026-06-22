@@ -1,0 +1,24 @@
+identifier: CustomScienceContracts
+name: Custom Science Contracts
+abstract: "A structured science campaign for KSP's Science Mode: a clear mission path from your first flight to deep-space exploration, run from its own in-game menu."
+description: "Adds a structured campaign on top of Science Mode - first flights, orbit, robotic scouting, crewed missions, stations, bases, supply routes and deep-space exploration - instead of random, disconnected contracts. The default catalog targets the Sol planet pack (a real/quarter/stock-scale recreation of our solar system, with body names like Earth, Moon and Mars). An optional stock-Kerbol catalog and a German catalog are available as config swaps on the GitHub release page. Recommended together with Kerbalism and a probe-first tech tree."
+author: timduebi
+license: GPL-3.0
+$kref: '#/ckan/github/timduebi/ksp-custom-science-contracts/version_from_asset/^CustomScienceContracts-v(?<version>[0-9.]+)\.zip$'
+x_netkan_github:
+  use_source_archive: false
+  prerelease: true
+ksp_version: '1.12'
+tags:
+  - science
+  - career
+recommends:
+  - name: Kerbalism
+  - name: ProbesBeforeCrew
+install:
+  - find: CustomScienceContracts
+    install_to: GameData
+resources:
+  homepage: https://github.com/timduebi/ksp-custom-science-contracts
+  repository: https://github.com/timduebi/ksp-custom-science-contracts
+  bugtracker: https://github.com/timduebi/ksp-custom-science-contracts/issues
