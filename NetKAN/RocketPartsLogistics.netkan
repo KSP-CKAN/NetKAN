@@ -1,4 +1,8 @@
 identifier: RocketPartsLogistics
+$kref: '#/ckan/github/mebiusring7-bit/RocketParts-Logistics'
+x_netkan_version_edit: ^v?(?<version>.+)$
+---
+identifier: RocketPartsLogistics
 $kref: '#/ckan/spacedock/4334'
 tags:
   - config
