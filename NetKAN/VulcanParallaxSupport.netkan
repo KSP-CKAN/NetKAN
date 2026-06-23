@@ -1,0 +1,12 @@
+identifier: VulcanParallaxSupport
+$kref: '#/ckan/spacedock/4354'
+tags:
+  - config
+  - planet-pack
+depends:
+  - name: ModuleManager
+  - name: Kopernicus
+install:
+  - find: Vulcan
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
