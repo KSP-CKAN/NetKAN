@@ -1,0 +1,8 @@
+identifier: Kessleract
+$kref: '#/ckan/spacedock/4016'
+tags:
+  - plugin
+install:
+  - find: ''
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
