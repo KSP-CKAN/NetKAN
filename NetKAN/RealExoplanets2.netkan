@@ -1,0 +1,13 @@
+identifier: RealExoplanets2
+$kref: '#/ckan/spacedock/4298'
+tags:
+  - config
+  - planet-pack
+depends:
+  - name: ModuleManager
+  - name: Kopernicus
+  - name: VertexMitchellNetravaliHeightMap
+install:
+  - find: ''
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
