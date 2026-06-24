@@ -1,0 +1,10 @@
+identifier: MarshallSystem
+$kref: '#/ckan/spacedock/4264'
+tags:
+  - config
+  - planet-pack
+depends:
+  - name: ModuleManager
+  - name: Kopernicus
+  - name: INSTANTIATOR
+  - name: Harmony2
