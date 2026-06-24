@@ -1,0 +1,12 @@
+identifier: KerbalFundingAgencyUPDATEDto032
+$kref: '#/ckan/github/ThatLagGuy/kerbal-funding-agency'
+---
+identifier: KerbalFundingAgencyUPDATEDto032
+$kref: '#/ckan/spacedock/4281'
+tags:
+  - config
+  - plugin
+install:
+  - find: KerbalFundingAgency
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
