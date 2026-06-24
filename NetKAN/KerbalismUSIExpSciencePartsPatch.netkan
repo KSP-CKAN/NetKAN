@@ -1,0 +1,10 @@
+identifier: KerbalismUSIExpSciencePartsPatch
+$kref: '#/ckan/spacedock/4231'
+tags:
+  - config
+depends:
+  - name: ModuleManager
+install:
+  - find: USI_SciencePatch
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
