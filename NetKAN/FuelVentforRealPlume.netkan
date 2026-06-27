@@ -1,0 +1,14 @@
+identifier: FuelVentforRealPlume
+$kref: '#/ckan/github/1Kion/FuelVent-RP'
+x_netkan_version_edit: ^v?(?<version>.+)$
+---
+identifier: FuelVentforRealPlume
+$kref: '#/ckan/spacedock/3520'
+tags:
+  - parts
+depends:
+  - name: ModuleManager
+install:
+  - find: FuelVent-RP
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
