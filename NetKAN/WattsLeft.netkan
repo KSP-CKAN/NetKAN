@@ -1,0 +1,24 @@
+identifier: WattsLeft
+$kref: '#/ckan/github/jonasfdb/WattsLeft'
+x_netkan_version_edit: ^v?(?<version>.+)$
+---
+identifier: WattsLeft
+$kref: '#/ckan/spacedock/4353'
+tags:
+  - parts
+  - plugin
+  - config
+  - editor
+  - resources
+  - uncrewed
+conflicts:
+  - name: JDiminishingRTG
+depends:
+  - name: ModuleManager
+  - name: B9PartSwitch
+recommends:
+  - name: BluedogDB
+  - name: TundraTechnologies
+  - name: NearFutureElectrical
+suggests:
+  - name: SterlingSystemsElectrics
