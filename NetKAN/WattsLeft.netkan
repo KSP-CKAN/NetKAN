@@ -5,9 +5,20 @@ x_netkan_version_edit: ^v?(?<version>.+)$
 identifier: WattsLeft
 $kref: '#/ckan/spacedock/4353'
 tags:
-  - config
+  - parts
   - plugin
+  - config
+  - editor
+  - resources
+  - uncrewed
+conflicts:
+  - name: JDiminishingRTG
 depends:
   - name: ModuleManager
   - name: B9PartSwitch
-x_via: Automated SpaceDock CKAN submission
+recommends:
+  - name: BluedogDB
+  - name: TundraTechnologies
+  - name: NearFutureElectrical
+suggests:
+  - name: SterlingSystemsElectrics
