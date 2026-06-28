@@ -1,0 +1,12 @@
+identifier: Kerbcam
+$kref: '#/ckan/github/jonpepler/kerbcam'
+x_netkan_version_edit: ^v?(?<version>.+)$
+$vref: '#/ckan/ksp-avc'
+---
+identifier: Kerbcam
+$kref: '#/ckan/spacedock/4365'
+$vref: '#/ckan/ksp-avc'
+tags:
+  - config
+  - plugin
+x_via: Automated SpaceDock CKAN submission
