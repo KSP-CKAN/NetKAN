@@ -1,0 +1,10 @@
+identifier: RemoteTechBlackoutFix
+$kref: '#/ckan/spacedock/4362'
+$vref: '#/ckan/ksp-avc'
+tags:
+  - config
+  - plugin
+install:
+  - find: RemoteTech BlackoutFix
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
