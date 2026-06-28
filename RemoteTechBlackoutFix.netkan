@@ -1,0 +1,27 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "RemoteTechBlackoutFix",
+    "name": "RemoteTech BlackoutFix",
+    "abstract": "Plasma blackout for RemoteTech",
+    "author": "NovaSpem",
+    "license": "MIT",
+    "resources": {
+        "homepage": "https://github.com/NovaSpem/RemoteTechBlackoutFix",
+        "repository": "https://github.com/NovaSpem/RemoteTechBlackoutFix"
+    },
+    "version": "1.0.0",
+    "ksp_version": "1.12.5",
+    "ksp_version_min": "1.8.0",
+    "depends": [
+        { "name": "RemoteTech" },
+        { "name": "Firefly" }
+    ],
+    "install": [
+        {
+            "file": "GameData/RemoteTechBlackoutFix",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/NovaSpem/RemoteTechBlackoutFix/releases/download/1.0.0/RemoteTechBlackoutFix-1.0.0.zip",
+    "download_size": 7571
+}
