@@ -9,6 +9,7 @@ $vref: '#/ckan/ksp-avc'
 tags:
   - config
   - plugin
+  - app
 depends:
   - name: HullcamVDSContinued
   - name: Harmony2
