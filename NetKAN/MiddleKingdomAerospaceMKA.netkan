@@ -1,0 +1,19 @@
+identifier: MiddleKingdomAerospaceMKA
+$kref: '#/ckan/github/Kari1407/Middle-Kingdom-Aerospace'
+x_netkan_version_edit: ^v?(?<version>.+)$
+$vref: '#/ckan/ksp-avc'
+---
+identifier: MiddleKingdomAerospaceMKA
+$kref: '#/ckan/spacedock/4317'
+$vref: '#/ckan/ksp-avc'
+tags:
+  - graphics
+  - parts
+depends:
+  - name: ModuleManager
+  - name: B9PartSwitch
+  - name: Waterfall
+install:
+  - find: MiddleKingdomAerospace
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
