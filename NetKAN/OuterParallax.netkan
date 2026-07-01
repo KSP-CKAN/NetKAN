@@ -13,6 +13,7 @@ depends:
   - name: ModuleManager
   - name: Kopernicus
   - name: VertexMitchellNetravaliHeightMap
+  - name: VertexHeightOblateAdvanced
   - name: ParallaxContinued
 suggests:
   - name: OuterParallax-OPM
