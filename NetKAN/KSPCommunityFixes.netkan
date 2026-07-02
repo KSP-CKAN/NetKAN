@@ -2,6 +2,7 @@ identifier: KSPCommunityFixes
 abstract: Fixes for stock bugs, also provides various QoL/UI improvements
 author: Gotmachine
 $kref: '#/ckan/github/KSPModdingLibs/KSPCommunityFixes'
+x_netkan_epoch: 1
 $vref: '#/ckan/ksp-avc'
 license: MIT
 resources:

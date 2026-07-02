@@ -12,8 +12,7 @@ tags:
 depends:
   - name: ModuleManager
   - name: TexturesUnlimited
-suggests:
-  - name: KerbalFoundriesContinued
+  - name: KerbalFoundries
 install:
   - find: TURD
     install_to: GameData

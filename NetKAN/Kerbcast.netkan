@@ -1,0 +1,15 @@
+identifier: Kerbcast
+$kref: '#/ckan/github/jonpepler/kerbcast'
+x_netkan_version_edit: ^v?(?<version>.+)$
+$vref: '#/ckan/ksp-avc'
+---
+identifier: Kerbcast
+$kref: '#/ckan/spacedock/4366'
+$vref: '#/ckan/ksp-avc'
+tags:
+  - config
+  - plugin
+  - app
+depends:
+  - name: HullcamVDSContinued
+  - name: Harmony2
