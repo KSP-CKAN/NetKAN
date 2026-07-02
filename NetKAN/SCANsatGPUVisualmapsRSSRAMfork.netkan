@@ -1,0 +1,21 @@
+identifier: SCANsatGPUVisualmapsRSSRAMfork
+$kref: '#/ckan/github/miskoltrans/SCANsat-GPU'
+x_netkan_github:
+  use_source_archive: true
+x_netkan_version_edit: ^v?(?<version>.+)$
+$vref: '#/ckan/ksp-avc'
+---
+identifier: SCANsatGPUVisualmapsRSSRAMfork
+$kref: '#/ckan/spacedock/4371'
+$vref: '#/ckan/ksp-avc'
+tags:
+  - career
+  - parts
+  - plugin
+depends:
+  - name: ModuleManager
+  - name: ContractConfigurator
+install:
+  - find: SCANsat
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
