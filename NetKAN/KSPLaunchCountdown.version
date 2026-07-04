@@ -1,0 +1,30 @@
+{
+    "NAME"      : "KSP Launch Countdown",
+    "HOMEPAGE"  : "https://github.com/Zhuwenqian/KSP-Launch-Countdown-real-word-version",
+    "DOWNLOAD"  : "https://github.com/Zhuwenqian/KSP-Launch-Countdown-real-word-version/releases",
+    "URL"       : "https://raw.githubusercontent.com/Zhuwenqian/KSP-Launch-Countdown-real-word-version/master/GameData/KSPLaunchCountdown/KSPLaunchCountdown.version",
+    "GITHUB" :
+    {
+        "USERNAME"          : "Zhuwenqian",
+        "REPOSITORY"        : "KSP-Launch-Countdown-real-word-version",
+        "ALLOW_PRE_RELEASE" : false
+    },
+    "VERSION" :
+    {
+        "MAJOR" : 0,
+        "MINOR" : 2,
+        "PATCH" : 4
+    },
+    "KSP_VERSION_MIN" :
+    {
+        "MAJOR" : 1,
+        "MINOR" : 12,
+        "PATCH" : 0
+    },
+    "KSP_VERSION_MAX" :
+    {
+        "MAJOR" : 1,
+        "MINOR" : 12,
+        "PATCH" : 99
+    }
+}
