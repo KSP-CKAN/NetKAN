@@ -1,0 +1,10 @@
+identifier: TURDconfigsforIRrobotics
+$kref: '#/ckan/spacedock/4373'
+tags:
+  - config
+depends:
+  - name: ModuleManager
+install:
+  - find: TU_MagicSmoke
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
