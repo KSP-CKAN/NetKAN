@@ -1,4 +1,8 @@
 identifier: VulcanParallaxSupport
+$kref: '#/ckan/github/idkthreennew-cell/Vulcan'
+x_netkan_version_edit: ^v?(?<version>.+)$
+---
+identifier: VulcanParallaxSupport
 $kref: '#/ckan/spacedock/4354'
 tags:
   - config
