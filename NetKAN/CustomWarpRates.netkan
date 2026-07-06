@@ -1,0 +1,10 @@
+identifier: CustomWarpRates
+$kref: '#/ckan/spacedock/4374'
+$vref: '#/ckan/ksp-avc'
+tags:
+  - config
+  - plugin
+install:
+  - find: CustomWarp
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
