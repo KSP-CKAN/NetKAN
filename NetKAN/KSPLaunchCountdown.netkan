@@ -1,6 +1,7 @@
 identifier: KSPLaunchCountdown
 $kref: '#/ckan/github/Zhuwenqian/KSP-Launch-Countdown-real-word-version'
 x_netkan_version_edit: ^v?(?<version>.+)$
+$vref: '#/ckan/ksp-avc'
 ---
 identifier: KSPLaunchCountdown
 $kref: '#/ckan/spacedock/4359'
