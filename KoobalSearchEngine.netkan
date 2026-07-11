@@ -1,0 +1,37 @@
+# Draft NetKAN metadata for Koobal Search Engine
+# Submit as: NetKAN/KoobalSearchEngine.netkan on https://github.com/KSP-CKAN/NetKAN
+# Spec: https://github.com/KSP-CKAN/CKAN/wiki/Adding-a-mod-to-the-CKAN
+#
+# Prerequisites before this will inflate successfully:
+#   1. Push source + annotated tag to GitHub
+#   2. Create a GitHub Release (not just a repo-root zip commit)
+#   3. Attach a player zip whose asset name matches asset_match below
+#   4. Prefer a non-prerelease Release for the first CKAN index
+#      (or uncomment x_netkan_github.prereleases below)
+
+identifier: KoobalSearchEngine
+name: Koobal Search Engine
+abstract: >-
+  Predictive Google-style suggestions for the stock VAB/SPH parts search bar
+  (parts, filters, mods, and authors).
+author: timbrwolf1121
+# Prefer a dedicated player zip asset. asset_match skips *_SOURCE* zips if both are attached.
+$kref: '#/ckan/github/timbrwolf1121-cpu/Koobal-Search-Engine/asset_match/KoobalSearchEngine(?!.*_SOURCE).*\.zip$'
+$vref: '#/ckan/ksp-avc'
+license: MIT
+# Uncomment ONLY if the GitHub Release is marked Pre-release and you want CKAN to index it:
+# x_netkan_github:
+#   prereleases: true
+resources:
+  homepage: https://github.com/timbrwolf1121-cpu/Koobal-Search-Engine
+  repository: https://github.com/timbrwolf1121-cpu/Koobal-Search-Engine
+  bugtracker: https://github.com/timbrwolf1121-cpu/Koobal-Search-Engine/issues
+tags:
+  - plugin
+  - convenience
+  - editor
+depends:
+  - name: Harmony2
+install:
+  - find: KoobalSearchEngine
+    install_to: GameData
