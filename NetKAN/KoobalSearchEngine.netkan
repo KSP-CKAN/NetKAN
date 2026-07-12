@@ -1,6 +1,5 @@
 identifier: KoobalSearchEngine
 $kref: '#/ckan/github/timbrwolf1121-cpu/Koobal-Search-Engine'
-x_netkan_version_edit: ^v?(?<version>.+)$
 $vref: '#/ckan/ksp-avc'
 ---
 identifier: KoobalSearchEngine
@@ -9,4 +8,3 @@ $vref: '#/ckan/ksp-avc'
 tags:
   - config
   - plugin
-x_via: Automated SpaceDock CKAN submission
