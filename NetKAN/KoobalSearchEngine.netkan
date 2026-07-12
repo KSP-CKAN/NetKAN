@@ -1,10 +1,12 @@
 identifier: KoobalSearchEngine
 $kref: '#/ckan/github/timbrwolf1121-cpu/Koobal-Search-Engine'
 $vref: '#/ckan/ksp-avc'
+x_netkan_version_edit: ^v?(?<version>.+)$
 ---
 identifier: KoobalSearchEngine
 $kref: '#/ckan/spacedock/4394'
 $vref: '#/ckan/ksp-avc'
+x_netkan_version_edit: ^v?(?<version>.+)$
 tags:
   - config
   - plugin
