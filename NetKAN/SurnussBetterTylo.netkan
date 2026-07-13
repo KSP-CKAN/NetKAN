@@ -1,0 +1,13 @@
+identifier: SurnussBetterTylo
+$kref: '#/ckan/spacedock/4313'
+tags:
+  - config
+  - planet-pack
+depends:
+  - name: ModuleManager
+  - name: Kopernicus
+install:
+  - find: BetterTylo
+    install_to: GameData
+    filter: .gitignore
+x_via: Automated SpaceDock CKAN submission
