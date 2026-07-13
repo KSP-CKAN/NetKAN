@@ -1,0 +1,6 @@
+identifier: NeuroverseOrganizationFlags
+$kref: '#/ckan/spacedock/4211'
+install:
+  - find: Neuro flags
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
