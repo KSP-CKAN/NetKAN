@@ -8,6 +8,10 @@ $vref: '#/ckan/ksp-avc'
 tags:
   - config
   - plugin
+depends:
+  - name: SpaceTuxLibrary
+  - name: ToolbarController
+  - name: ClickThroughBlocker
 install:
   - find: Kerbal-3D-Exporter
     install_to: GameData
