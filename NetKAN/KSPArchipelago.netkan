@@ -17,6 +17,7 @@ $kref: '#/ckan/github/nickdavies/KSP1-Archipelago-client'
 x_netkan_version_edit: ^v?(?<version>.*)$
 x_netkan_github:
   prereleases: false
+x_netkan_allow_out_of_order: true
 ksp_version: 1.12
 tags:
   - plugin
@@ -25,3 +26,13 @@ suggests:
 resources:
   homepage: https://archipelago.gg/faq/en/
   manual: https://github.com/nickdavies/Archipelago/blob/ksp1/worlds/ksp1/docs/setup_en.md
+x_netkan_override:
+  # Experimental builds are tagged v999.X.Y-experimental. The 999 major sorts
+  # above any plausible stable version, so the >=999 constraint catches every
+  # experimental without per-release maintenance. release_status is set
+  # explicitly here rather than relying on the GitHub prerelease flag, so
+  # forgetting that checkbox doesn't accidentally publish an experimental
+  # as stable.
+  - version: '>=999'
+    override:
+      release_status: testing
