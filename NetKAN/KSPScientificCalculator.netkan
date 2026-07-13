@@ -7,6 +7,10 @@ $kref: '#/ckan/spacedock/4402'
 $vref: '#/ckan/ksp-avc'
 tags:
   - plugin
+depends:
+  - name: SpaceTuxLibrary
+  - name: ToolbarController
+  - name: ClickThroughBlocker
 install:
   - find: KSPScientificCalculator
     install_to: GameData
