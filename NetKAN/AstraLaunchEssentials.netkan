@@ -1,0 +1,9 @@
+identifier: AstraLaunchEssentials
+$kref: '#/ckan/github/1Kion/Astra-Launch-Essentials'
+x_netkan_version_edit: ^v?(?<version>.+)$
+---
+identifier: AstraLaunchEssentials
+$kref: '#/ckan/spacedock/2896'
+tags:
+  - parts
+x_via: Automated SpaceDock CKAN submission
