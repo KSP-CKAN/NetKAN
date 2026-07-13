@@ -1,0 +1,13 @@
+identifier: BetterVall
+$kref: '#/ckan/github/idkthreennew-cell/Better-Vall'
+x_netkan_version_edit: ^v?(?<version>.+)$
+---
+identifier: BetterVall
+$kref: '#/ckan/spacedock/4320'
+tags:
+  - config
+  - planet-pack
+depends:
+  - name: ModuleManager
+  - name: Kopernicus
+x_via: Automated SpaceDock CKAN submission
