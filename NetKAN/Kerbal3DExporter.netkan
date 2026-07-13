@@ -1,0 +1,19 @@
+identifier: Kerbal3DExporter
+$kref: '#/ckan/github/linuxgurugamer/Kerbal-3D-Exporter'
+$vref: '#/ckan/ksp-avc'
+---
+identifier: Kerbal3DExporter
+$kref: '#/ckan/spacedock/4396'
+$vref: '#/ckan/ksp-avc'
+tags:
+  - config
+  - plugin
+depends:
+  - name: SpaceTuxLibrary
+  - name: ToolbarController
+  - name: ClickThroughBlocker
+install:
+  - find: Kerbal-3D-Exporter
+    install_to: GameData
+    filter_regexp: \.pdb$
+x_via: Automated SpaceDock CKAN submission
