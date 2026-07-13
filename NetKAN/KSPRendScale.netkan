@@ -1,0 +1,15 @@
+identifier: KSPRendScale
+$kref: '#/ckan/github/Dsg2/KSPRendScale'
+x_netkan_version_edit: ^v?(?<version>.+)$
+$vref: '#/ckan/ksp-avc'
+---
+identifier: KSPRendScale
+$kref: '#/ckan/spacedock/4307'
+$vref: '#/ckan/ksp-avc'
+tags:
+  - config
+  - plugin
+install:
+  - find: RenderScale
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
