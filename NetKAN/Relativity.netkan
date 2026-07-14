@@ -1,5 +1,6 @@
 identifier: Relativity
 $kref: '#/ckan/github/Vannadin/Relativity'
+x_netkan_version_edit: ^v?(?<version>.+)$
 ---
 identifier: Relativity
 $kref: '#/ckan/spacedock/4404'
