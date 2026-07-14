@@ -8,6 +8,8 @@ $vref: '#/ckan/ksp-avc'
 tags:
   - config
   - plugin
+suggests:
+  - name: KerbalChangelog
 depends:
   - name: SpaceTuxLibrary
   - name: ToolbarController
