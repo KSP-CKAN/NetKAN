@@ -1,28 +1,16 @@
-{
-    "spec_version": "v1.18",
-    "identifier": "Relativity",
-    "name": "Relativity",
-    "abstract": "A sub-light special-relativity layer: near c, effective thrust falls as 1/gamma^3 while a fast crew ages and consumes supplies slower by 1/gamma, and an optional visual layer shows it (Doppler colour, relativistic beaming, star-bunching aberration). Modulates force and rate only, never the integrator, so it rides alongside Principia and the stock profile.",
-    "$kref": "#/ckan/github/Vannadin/Relativity",
-    "$vref": "#/ckan/ksp-avc",
-    "license": "MIT",
-    "author": "VaNnadin",
-    "tags": [ "physics", "gameplay", "plugin" ],
-    "depends": [
-        { "name": "Harmony2" }
-    ],
-    "suggests": [
-        { "name": "ModuleManager" },
-        { "name": "Kerbalism" },
-        { "name": "FarFutureTechnologies" }
-    ],
-    "resources": {
-        "homepage": "https://github.com/Vannadin/Relativity",
-        "repository": "https://github.com/Vannadin/Relativity",
-        "bugtracker": "https://github.com/Vannadin/Relativity/issues",
-        "spacedock": "https://spacedock.info/mod/4404/Relativity"
-    },
-    "x_netkan_github": {
-        "use_source_archive": false
-    }
-}
+identifier: Relativity
+$kref: '#/ckan/github/Vannadin/Relativity'
+---
+identifier: Relativity
+$kref: '#/ckan/spacedock/4404'
+$vref: '#/ckan/ksp-avc'
+tags:
+  - physics
+  - gameplay
+  - plugin
+depends:
+  - name: Harmony2
+suggests:
+  - name: ModuleManager
+  - name: Kerbalism
+  - name: FarFutureTechnologies
