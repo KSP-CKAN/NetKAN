@@ -1,0 +1,14 @@
+identifier: NewKSC
+$kref: '#/ckan/spacedock/3826'
+tags:
+  - buildings
+  - config
+depends:
+  - name: KerbalKonstructs
+install:
+  - find: NewKSC
+    install_to: GameData
+    filter:
+      - __MACOSX
+      - .DS_Store
+x_via: Automated SpaceDock CKAN submission
