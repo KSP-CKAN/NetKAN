@@ -1,0 +1,14 @@
+identifier: SpeedOfLightReadout
+$kref: '#/ckan/github/safron1111/SpeedOfLightReadout'
+x_netkan_version_edit: ^v?(?<version>.+)$
+---
+identifier: SpeedOfLightReadout
+$kref: '#/ckan/spacedock/4390'
+tags:
+  - plugin
+install:
+  - find: SpeedOfLightReadout
+    install_to: GameData
+    filter: .git
+    filter_regexp: \.pdb$
+x_via: Automated SpaceDock CKAN submission
