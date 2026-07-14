@@ -1,0 +1,17 @@
+identifier: Relativity
+$kref: '#/ckan/github/Vannadin/Relativity'
+x_netkan_version_edit: ^v?(?<version>.+)$
+---
+identifier: Relativity
+$kref: '#/ckan/spacedock/4404'
+$vref: '#/ckan/ksp-avc'
+tags:
+  - physics
+  - gameplay
+  - plugin
+depends:
+  - name: Harmony2
+suggests:
+  - name: ModuleManager
+  - name: Kerbalism
+  - name: FarFutureTechnologies
