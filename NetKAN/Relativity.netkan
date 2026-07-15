@@ -7,7 +7,6 @@ $kref: '#/ckan/spacedock/4404'
 $vref: '#/ckan/ksp-avc'
 tags:
   - physics
-  - gameplay
   - plugin
 depends:
   - name: Harmony2
