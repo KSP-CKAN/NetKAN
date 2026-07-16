@@ -1,0 +1,10 @@
+identifier: NMBRecolour
+$kref: '#/ckan/spacedock/4410'
+tags:
+  - config
+depends:
+  - name: ModuleManager
+install:
+  - find: turd
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
