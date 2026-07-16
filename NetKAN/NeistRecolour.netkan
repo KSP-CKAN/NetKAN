@@ -1,0 +1,10 @@
+identifier: NeistRecolour
+$kref: '#/ckan/spacedock/4415'
+tags:
+  - config
+depends:
+  - name: ModuleManager
+install:
+  - find: turd
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
