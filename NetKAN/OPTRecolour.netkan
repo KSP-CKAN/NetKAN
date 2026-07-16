@@ -1,0 +1,14 @@
+identifier: OPTRecolour
+$kref: '#/ckan/github/KerbalPowers/TURD-OPT'
+x_netkan_version_edit: ^v?(?<version>.+)$
+---
+identifier: OPTRecolour
+$kref: '#/ckan/spacedock/4413'
+tags:
+  - config
+depends:
+  - name: ModuleManager
+install:
+  - find: TURD
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
