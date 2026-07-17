@@ -1,0 +1,22 @@
+identifier: TURD-B9
+$kref: '#/ckan/github/Spartwo/TURD-Sierra/asset_match/TU_B9_Recolour.zip'
+---
+identifier: TURD-B9
+name: TURD - B9 Aerospace
+abstract: >-
+  Textures Unlimited recolours for B9 Aerospace Parts Pack
+author:
+  - Spartwo
+  - SierraDrake
+$kref: '#/ckan/spacedock/4411'
+license: CC-BY-NC-SA-4.0
+tags:
+  - config
+  - graphics
+depends:
+  - name: ModuleManager
+  - name: TexturesUnlimited
+  - name: B9
+install:
+  - find: TURD/TU_B9_Recolour
+    install_to: GameData/TURD
