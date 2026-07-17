@@ -1,0 +1,22 @@
+identifier: TURD-NMB
+$kref: '#/ckan/github/Spartwo/TURD-Sierra/asset_match/TU_NMB_Recolour.zip'
+---
+identifier: TURD-NMB
+name: TURD - Nice MKseries Bodies
+abstract: >-
+  Textures Unlimited recolours for Nice MKSeries Bodies (NMB)
+author:
+  - Spartwo
+  - SierraDrake
+$kref: '#/ckan/spacedock/4410'
+license: CC-BY-NC-SA-4.0
+tags:
+  - config
+  - graphics
+depends:
+  - name: ModuleManager
+  - name: TexturesUnlimited
+  - name: NiceMKseriesBody
+install:
+  - find: TURD/TU_NMB_Recolour
+    install_to: GameData/TURD

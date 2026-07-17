@@ -1,0 +1,22 @@
+identifier: TURD-OPT
+$kref: '#/ckan/github/Spartwo/TURD-Sierra/asset_match/TU_ModeratelyPlaneRelated_Recolour.zip'
+---
+identifier: TURD-MPR
+name: TURD - Moderately Plane Related
+abstract: >-
+  Textures Unlimited recolours for Moderately Plane Related
+author:
+  - Spartwo
+  - SierraDrake
+$kref: '#/ckan/spacedock/4412'
+license: CC-BY-NC-SA-4.0
+tags:
+  - config
+  - graphics
+depends:
+  - name: ModuleManager
+  - name: TexturesUnlimited
+  - name: ModeratelyPlaneRelated
+install:
+  - find: TURD/TU_ModeratelyPlaneRelated_Recolour
+    install_to: GameData/TURD
