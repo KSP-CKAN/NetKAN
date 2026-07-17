@@ -1,0 +1,9 @@
+identifier: UnknownPartSkipper
+$kref: '#/ckan/spacedock/4302'
+$vref: '#/ckan/ksp-avc'
+tags:
+  - plugin
+install:
+  - find: ''
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
