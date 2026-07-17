@@ -1,0 +1,13 @@
+identifier: 3strawberryplanets
+$kref: '#/ckan/spacedock/4418'
+$vref: '#/ckan/ksp-avc'
+tags:
+  - config
+  - planet-pack
+depends:
+  - name: ModuleManager
+  - name: Kopernicus
+install:
+  - find: PearlPlanetPack
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
