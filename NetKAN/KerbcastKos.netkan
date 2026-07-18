@@ -1,0 +1,11 @@
+{
+    "spec_version": "v1.34",
+    "identifier": "KerbcastKos",
+    "$kref": "#/ckan/spacedock/4419",
+    "$vref": "#/ckan/ksp-avc",
+    "license": "GPL-3.0-only",
+    "depends": [
+        { "name": "Kerbcast", "min_version": "1.6.0" },
+        { "name": "kOS" }
+    ]
+}
