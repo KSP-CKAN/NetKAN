@@ -1,11 +1,9 @@
 identifier: AirplanePlusL
-$kref: '#/ckan/github/net-lisias-ksp/AirplanePlus'
-x_netkan_version_edit: ^RELEASE/EXPERIMENTAL/?(?<version>.+)$
-$vref: '#/ckan/ksp-avc'
----
-identifier: AirplanePlusL
 $kref: '#/ckan/spacedock/4420'
 $vref: '#/ckan/ksp-avc'
+author:
+  - blackheart612
+  - Lisias
 tags:
   - crewed
   - first-person
@@ -13,6 +11,12 @@ tags:
   - plugin
 depends:
   - name: ModuleManager
+  - name: FirespitterCore
+  - name: FirespitterResourcesConfig
+conflicts:
+  - name: AirplanePlus
+provides:
+  - AirplanePlus
 install:
   - find: AirplanePlus
     install_to: GameData
