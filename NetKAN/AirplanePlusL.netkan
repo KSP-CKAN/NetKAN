@@ -1,5 +1,4 @@
 identifier: AirplanePlusL
-$kref: '#/ckan/github/net-lisias-ksp/AirplanePlus'
 x_netkan_version_edit: ^RELEASE/EXPERIMENTAL/?(?<version>.+)$
 $vref: '#/ckan/ksp-avc'
 ---
