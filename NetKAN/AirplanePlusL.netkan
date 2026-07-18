@@ -18,7 +18,7 @@ depends:
   - name: FirespitterCore
   - name: FirespitterResourcesConfig
 conflicts:
-	AirplanePlus
+  - name: AirplanePlus
 provides:
   - AirplanePlus
 install:
