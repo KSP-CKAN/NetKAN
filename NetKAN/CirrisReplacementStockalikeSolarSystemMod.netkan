@@ -1,4 +1,7 @@
 identifier: CirrisReplacementStockalikeSolarSystemMod
+$kref: '#/ckan/github/smacksmig/CirrisStarSystemKSP'
+---
+identifier: CirrisReplacementStockalikeSolarSystemMod
 $kref: '#/ckan/spacedock/4401'
 tags:
   - config
