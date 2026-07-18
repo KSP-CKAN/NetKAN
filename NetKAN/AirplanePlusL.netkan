@@ -1,0 +1,19 @@
+identifier: AirplanePlusL
+$kref: '#/ckan/github/net-lisias-ksp/AirplanePlus'
+x_netkan_version_edit: ^RELEASE/EXPERIMENTAL/?(?<version>.+)$
+$vref: '#/ckan/ksp-avc'
+---
+identifier: AirplanePlusL
+$kref: '#/ckan/spacedock/4420'
+$vref: '#/ckan/ksp-avc'
+tags:
+  - crewed
+  - first-person
+  - parts
+  - plugin
+depends:
+  - name: ModuleManager
+install:
+  - find: AirplanePlus
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
