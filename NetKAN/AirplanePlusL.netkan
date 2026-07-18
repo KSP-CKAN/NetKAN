@@ -1,8 +1,4 @@
 identifier: AirplanePlusL
-x_netkan_version_edit: ^RELEASE/EXPERIMENTAL/?(?<version>.+)$
-$vref: '#/ckan/ksp-avc'
----
-identifier: AirplanePlusL
 $kref: '#/ckan/spacedock/4420'
 $vref: '#/ckan/ksp-avc'
 author:
