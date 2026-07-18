@@ -1,29 +1,23 @@
-{
-    "spec_version": "v1.4",
-    "identifier": "ExoInstruments",
-    "$kref": "#/ckan/github/batistitooo/ExoInstruments",
-    "license": "restricted",
-    "author": "batistitooo",
-    "abstract": "A ground-based exoplanet survey mod built on real observational astrophysics: transit photometry, radial velocity, and direct imaging detection pipelines against a real star catalog.",
-    "description": "Replaces KSP's stock science-experiment loop with an actual exoplanet survey program. Select a real star from an exoplanet.eu-derived catalog, choose an instrument appropriate to its brightness and detection method, and extract a signal from simulated, photon-noise-limited data exactly the way an observational astronomer would. Includes transit timing variations (TTV), the Rossiter-McLaughlin effect, and a career-mode instrument-acquisition economy.",
-    "ksp_version_min": "1.8.0",
-    "resources": {
-        "homepage": "https://github.com/batistitooo/ExoInstruments",
-        "repository": "https://github.com/batistitooo/ExoInstruments",
-        "license": "https://github.com/batistitooo/ExoInstruments/blob/main/LICENSE"
-    },
-    "depends": [
-        { "name": "ModuleManager" },
-        { "name": "KerbalKonstructs" }
-    ],
-    "recommends": [
-        { "name": "BetterTimeWarpCont" }
-    ],
-    "install": [
-        {
-            "find": "ExoInstruments",
-            "install_to": "GameData"
-        }
-    ],
-    "tags": ["science", "physics"]
-}
+identifier: ExoInstruments
+$kref: '#/ckan/github/batistitooo/ExoInstruments'
+abstract: >-
+  A ground-based exoplanet survey mod built on real observational astrophysics:
+  transit photometry, radial velocity, and direct imaging detection pipelines
+  against a real star catalog.
+description: >-
+  Replaces KSP's stock science-experiment loop with an actual exoplanet survey
+  program. Select a real star from an exoplanet.eu-derived catalog, choose an
+  instrument appropriate to its brightness and detection method, and extract a
+  signal from simulated, photon-noise-limited data exactly the way an
+  observational astronomer would. Includes transit timing variations (TTV), the
+  Rossiter-McLaughlin effect, and a career-mode instrument-acquisition economy.
+ksp_version_min: 1.8.0
+license: restricted
+tags:
+  - science
+  - physics
+depends:
+  - name: ModuleManager
+  - name: KerbalKonstructs
+recommends:
+  - name: BetterTimeWarpCont
