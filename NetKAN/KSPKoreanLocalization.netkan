@@ -1,0 +1,11 @@
+identifier: KSPKoreanLocalization
+name: KSP Korean Localization
+abstract: Korean localization for KSP and both DLCs (Making History, Breaking Ground). Injects the language at runtime without modifying any stock files.
+$kref: '#/ckan/github/synml/KSP-Korean-Localization'
+$vref: '#/ckan/ksp-avc'
+license: MIT
+tags:
+  - plugin
+install:
+  - find: KSPKorean
+    install_to: GameData
