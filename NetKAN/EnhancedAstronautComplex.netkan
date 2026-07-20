@@ -1,20 +1,24 @@
 identifier: EnhancedAstronautComplex
 name: Enhanced Astronaut Complex
-$kref: '#/ckan/github/ItchyBrother/EAC'
+abstract: Career and crew management enhancements for the Kerbal Space Program Astronaut Complex.
+$kref: '#/ckan/github/ItchyBrother/EAC/asset_match/^EACv.+\.zip$'
 $vref: '#/ckan/ksp-avc'
+x_netkan_github:
+  prereleases: false
 license: CC-BY-NC-ND-4.0
 tags:
   - plugin
   - crewed
+  - career
 depends:
   - name: Harmony2
 suggests:
+  - name: EnhancedAstronautComplexContractConfig
+supports:
   - name: CrewQueueTwo
   - name: EarnYourStripes
   - name: FlightTracker
-  - name: ContractConfigurator
   - name: DeepFreeze
-  - name: KerbalChangelog
 install:
   - find: EAC
     install_to: GameData
