@@ -1,0 +1,8 @@
+identifier: KerbalUI
+$kref: '#/ckan/spacedock/4391'
+$vref: '#/ckan/ksp-avc'
+tags:
+  - config
+depends:
+  - name: ModuleManager
+x_via: Automated SpaceDock CKAN submission
