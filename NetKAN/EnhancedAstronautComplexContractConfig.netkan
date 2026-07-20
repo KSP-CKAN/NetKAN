@@ -1,0 +1,16 @@
+identifier: EnhancedAstronautComplexContractConfig
+name: Enhanced Astronaut Complex - Contract Configurator Integration
+abstract: Optional Contract Configurator final exams, contract content, and integration bridge for Enhanced Astronaut Complex.
+$kref: '#/ckan/github/ItchyBrother/EAC/asset_match/^EAC-CCv.+\.zip$'
+x_netkan_github:
+  prereleases: false
+license: CC-BY-NC-ND-4.0
+tags:
+  - plugin
+  - config
+  - career
+ksp_version_min: 1.12.0
+ksp_version_max: 1.12.5
+install:
+  - find: EAC
+    install_to: GameData
