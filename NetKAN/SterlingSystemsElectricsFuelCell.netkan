@@ -10,7 +10,6 @@ depends:
   - name: ModuleManager
   - name: B9PartSwitch
   - name: SterlingSystemsAgency
-  - name: SterlingSystemsElectrics
 install:
   - find: ElectricsFuelCell
     install_to: GameData/SterlingSystems

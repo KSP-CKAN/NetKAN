@@ -1,0 +1,18 @@
+identifier: KSPScientificCalculator
+$kref: '#/ckan/github/linuxgurugamer/KSPScientificCalculator'
+$vref: '#/ckan/ksp-avc'
+---
+identifier: KSPScientificCalculator
+$kref: '#/ckan/spacedock/4402'
+$vref: '#/ckan/ksp-avc'
+tags:
+  - plugin
+depends:
+  - name: SpaceTuxLibrary
+  - name: ToolbarController
+  - name: ClickThroughBlocker
+install:
+  - find: KSPScientificCalculator
+    install_to: GameData
+    filter_regexp: \.pdb$
+x_via: Automated SpaceDock CKAN submission
