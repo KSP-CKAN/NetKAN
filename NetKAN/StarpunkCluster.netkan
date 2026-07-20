@@ -1,0 +1,10 @@
+identifier: StarpunkCluster
+$kref: '#/ckan/github/plantman-dev/Starpunk-Cluster'
+x_netkan_version_edit: ^v?(?<version>.+)$
+---
+identifier: StarpunkCluster
+$kref: '#/ckan/spacedock/4178'
+install:
+  - find: Starpunk
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
