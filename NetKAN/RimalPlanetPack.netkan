@@ -1,0 +1,17 @@
+identifier: RimalPlanetPack
+$kref: '#/ckan/github/Saad-raptor/Rimal-Planet-Pack'
+x_netkan_version_edit: ^v?(?<version>.+)$
+---
+identifier: RimalPlanetPack
+$kref: '#/ckan/spacedock/4395'
+tags:
+  - config
+  - planet-pack
+depends:
+  - name: ModuleManager
+  - name: Kopernicus
+install:
+  - find: RimalSystem
+    install_to: GameData
+    filter_regexp: ~$
+x_via: Automated SpaceDock CKAN submission
