@@ -1,0 +1,19 @@
+identifier: OPXJoolPlus
+$kref: '#/ckan/github/TheMinmusDerp/OPX-JoolPlus'
+x_netkan_version_edit: ^v?(?<version>.+)$
+---
+identifier: OPXJoolPlus
+$kref: '#/ckan/spacedock/3663'
+tags:
+  - config
+  - planet-pack
+  - plugin
+depends:
+  - name: ModuleManager
+  - name: Kopernicus
+  - name: VertexMitchellNetravaliHeightMap
+install:
+  - find: ''
+    install_to: GameData
+    filter: __MACOSX
+x_via: Automated SpaceDock CKAN submission
