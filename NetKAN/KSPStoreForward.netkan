@@ -1,0 +1,26 @@
+identifier: KSPStoreForward
+$kref: '#/ckan/github/Xordas/KSPStoreForward/asset_match/^KSPStoreForward-[0-9]+\.[0-9]+\.[0-9]+\.zip$'
+abstract: >-
+  Allows qualified CommNet relay vessels to forward through a direct antenna
+  on the same vessel.
+license: MIT
+ksp_version: 1.12.5
+ksp_version_strict: true
+tags:
+  - plugin
+  - information
+  - comms
+  - uncrewed
+depends:
+  - name: Harmony2
+  - name: ModuleManager
+conflicts:
+  - name: RemoteTech
+  - name: RealAntennas
+install:
+  - find: KSPStoreForward
+    install_to: GameData
+x_netkan_staging: true
+x_netkan_staging_reason: >-
+  New CommNet routing plugin. Review dependency, conflict, KSP version, and
+  installation metadata before indexing.
