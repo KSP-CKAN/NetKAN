@@ -1,0 +1,51 @@
+{
+	"spec_version": 1,
+	"identifier": "Invitation",
+	"name": "Invitation",
+	"abstract": "A fully linear, 7-chapter narrative rescue mod: track an unknown body, race a ten-year deadline, and cross to a second star system across ranked worlds. 100% config/content — zero custom C#.",
+	"abstract_localizations": {
+		"ko-kr": "선형 7장 구성의 구조 서사 모드 - 미확인 천체 추적부터 10년의 시한, 그리고 진짜 두 번째 항성계 탐사까지. 100% 설정/콘텐츠 모드 - 커스텀 C# 없음."
+	},
+	"$kref": "#/ckan/github/cy6253/ksp-Invitation",
+	"x_netkan_github": {
+		"use_source_archive": true
+	},
+	"license": "MIT",
+	"author": [
+		"cy6253"
+	],
+	"tags": [
+		"contracts",
+		"exploration",
+		"plugin-free"
+	],
+	"resources": {
+		"homepage": "https://github.com/cy6253/ksp-Invitation",
+		"repository": "https://github.com/cy6253/ksp-Invitation",
+		"x_screenshot": "https://github.com/cy6253/ksp-Invitation/raw/main/docs/prologue.png"
+	},
+	"ksp_version_min": "1.12.2",
+	"ksp_version_max": "1.12.5",
+	"depends": [
+		{ "name": "ModuleManager" },
+		{ "name": "Kopernicus" },
+		{ "name": "GrannusExpansionPack" },
+		{ "name": "ContractConfigurator" },
+		{ "name": "WaypointManager" },
+		{ "name": "SCANsat" },
+		{ "name": "BonVoyage" }
+	],
+	"recommends": [
+		{ "name": "GrannusExpansionPack-CommNet" }
+	],
+	"conflicts": [
+		{ "name": "GrannusExpansionPack-Primary" }
+	],
+	"install": [
+		{
+			"find": "Invitation",
+			"install_to": "GameData"
+		}
+	],
+	"x_netkan_comment": "Not yet submitted to the CKAN metadata repo; users install Invitation manually (see README) while its dependencies come from CKAN. No release_status is set deliberately — with a github $kref it auto-derives from whether the GitHub Release is marked 'pre-release' (leave unchecked for a real release, check it for a testing/beta build). x_netkan_github.use_source_archive is required since releases won't carry a built zip asset — NetKAN pulls the tagged commit's source archive instead, which GitHub wraps in a commit-hash-suffixed folder (e.g. cy6253-ksp-Invitation-a0e9842/GameData/Invitation/...) that changes every release. install uses 'find' (locate the top-most directory named exactly 'Invitation', ignoring the wrapper) rather than 'file' (exact-path match, verified via a real inflate to fail here with 'No files found matching file=\"GameData/Invitation\"'). $kref/homepage/repository point to the real GitHub repo (cy6253/ksp-Invitation); 'author' is the GitHub owner handle — change it to a preferred display name before any CKAN submission. Dependency identifiers verified against public CKAN listings (docs/DEPENDENCIES.md); exact version pins deferred to packaging. GrannusExpansionPack-Primary is a conflict because Invitation requires Kerbin to remain the home system (GEP base variant), not GEP's alternate Grannus-as-home variant. x_screenshot points to the prologue comic (docs/prologue.png)."
+}
