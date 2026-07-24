@@ -4,6 +4,8 @@ abstract: >-
   ten-year deadline, and cross to a second star system across ranked worlds.
   100% config/content — zero custom C#.
 $kref: '#/ckan/github/cy6253/ksp-Invitation'
+x_netkan_github:
+  use_source_archive: true
 $vref: '#/ckan/ksp-avc'
 license: MIT
 tags:
