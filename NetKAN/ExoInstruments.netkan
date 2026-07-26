@@ -19,5 +19,7 @@ tags:
 depends:
   - name: ModuleManager
   - name: KerbalKonstructs
-recommends:
   - name: BetterTimeWarpCont
+recommends:
+  - name: EnvironmentalVisualEnhancements
+  - name: Spectra
