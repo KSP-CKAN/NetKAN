@@ -6,5 +6,5 @@ tags:
   - plugin
   - graphics
 install:
-  - find: LowEndVolumetricCloudsMod
+  - find: LowEndVolumetricClouds
     install_to: GameData
