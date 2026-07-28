@@ -3,6 +3,7 @@ $kref: '#/ckan/spacedock/4391'
 $vref: '#/ckan/ksp-avc'
 tags:
   - config
+  - plugin
 depends:
   - name: ModuleManager
 x_via: Automated SpaceDock CKAN submission
