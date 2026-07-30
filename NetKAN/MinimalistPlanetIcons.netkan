@@ -1,0 +1,12 @@
+identifier: MinimalistPlanetIcons
+$kref: '#/ckan/github/PeteBoi64/MinimalistPlanetIcons'
+---
+identifier: MinimalistPlanetIcons
+$kref: '#/ckan/spacedock/4445'
+tags:
+  - config
+  - planet-pack
+depends:
+  - name: ModuleManager
+  - name: Kopernicus
+x_via: Automated SpaceDock CKAN submission
