@@ -1,8 +1,4 @@
 identifier: RimalPlanetPack
-$kref: '#/ckan/github/Saad-raptor/Rimal-Planet-Pack'
-x_netkan_version_edit: ^v?(?<version>.+)$
----
-identifier: RimalPlanetPack
 $kref: '#/ckan/spacedock/4395'
 tags:
   - config
