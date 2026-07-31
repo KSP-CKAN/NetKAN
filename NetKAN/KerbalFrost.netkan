@@ -1,0 +1,15 @@
+identifier: KerbalFrost
+$kref: '#/ckan/github/Fr3nezy/KerbalFrost'
+x_netkan_version_edit: ^v?(?<version>.+)$
+$vref: '#/ckan/ksp-avc'
+---
+identifier: KerbalFrost
+$kref: '#/ckan/spacedock/4450'
+$vref: '#/ckan/ksp-avc'
+tags:
+  - config
+  - plugin
+install:
+  - find: ''
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
