@@ -1,0 +1,12 @@
+identifier: KSPMissionControl
+$kref: '#/ckan/github/engbman/ksp-mission-control-download'
+x_netkan_version_edit: ^v?(?<version>.+)$
+---
+identifier: KSPMissionControl
+$kref: '#/ckan/spacedock/4378'
+tags:
+  - plugin
+install:
+  - find: ''
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
