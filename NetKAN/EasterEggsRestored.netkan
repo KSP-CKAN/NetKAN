@@ -1,0 +1,13 @@
+identifier: EasterEggsRestored
+$kref: '#/ckan/github/Jaheay/EasterEggsRestored'
+$vref: '#/ckan/ksp-avc'
+---
+identifier: EasterEggsRestored
+$kref: '#/ckan/spacedock/4382'
+$vref: '#/ckan/ksp-avc'
+tags:
+  - config
+  - plugin
+depends:
+  - name: ModuleManager
+x_via: Automated SpaceDock CKAN submission
