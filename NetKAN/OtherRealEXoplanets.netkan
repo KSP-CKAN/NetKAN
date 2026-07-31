@@ -1,0 +1,15 @@
+identifier: OtherRealEXoplanets
+$kref: '#/ckan/github/Datsk133/Other-Real-EXoplanets'
+---
+identifier: OtherRealEXoplanets
+$kref: '#/ckan/spacedock/4324'
+tags:
+  - config
+  - planet-pack
+depends:
+  - name: ModuleManager
+  - name: Kopernicus
+install:
+  - find: Pollux
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
