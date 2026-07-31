@@ -1,0 +1,17 @@
+identifier: OPXStockSystemModifications
+$kref: '#/ckan/github/TheMinmusDerp/OPX-SSM'
+x_netkan_version_edit: ^alpha?(?<version>.+)$
+---
+identifier: OPXStockSystemModifications
+$kref: '#/ckan/spacedock/3683'
+tags:
+  - config
+  - planet-pack
+depends:
+  - name: ModuleManager
+  - name: Kopernicus
+install:
+  - find: OPX-SSM
+    install_to: GameData
+    filter: __MACOSX
+x_via: Automated SpaceDock CKAN submission
