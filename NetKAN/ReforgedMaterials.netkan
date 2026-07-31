@@ -1,0 +1,10 @@
+identifier: ReforgedMaterials
+$kref: '#/ckan/spacedock/4323'
+$vref: '#/ckan/ksp-avc'
+tags:
+  - config
+  - plugin
+depends:
+  - name: ModuleManager
+  - name: B9PartSwitch
+x_via: Automated SpaceDock CKAN submission
