@@ -1,0 +1,13 @@
+identifier: 142857Expansion
+$kref: '#/ckan/spacedock/4006'
+tags:
+  - config
+  - planet-pack
+depends:
+  - name: ModuleManager
+  - name: Kopernicus
+  - name: VertexMitchellNetravaliHeightMap
+install:
+  - find: 142857Ex
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
