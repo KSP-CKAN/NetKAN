@@ -1,0 +1,8 @@
+identifier: BlackWindows
+$kref: '#/ckan/spacedock/4456'
+tags:
+  - config
+  - plugin
+depends:
+  - name: ModuleManager
+x_via: Automated SpaceDock CKAN submission
