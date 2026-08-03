@@ -1,0 +1,13 @@
+identifier: ProjectHailMarySpinDrive
+$kref: '#/ckan/spacedock/4300'
+tags:
+  - graphics
+  - parts
+  - plugin
+depends:
+  - name: ModuleManager
+  - name: Waterfall
+install:
+  - find: SpinDrive
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
