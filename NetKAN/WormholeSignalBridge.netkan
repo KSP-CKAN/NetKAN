@@ -2,7 +2,7 @@
     "identifier":   "WormholeSignalBridge",
     "name":         "Wormhole Signal Bridge",
     "author":       "Aebestach",
-    "abstract":     "Routes RealAntennas CommNet through KEX wormholes: auto-discovers wormhole pairs and injects tunnel hops between mouth relays.",
+    "abstract":     "Get Your Wormhole to Carry Signals Too",
     "$kref":        "#/ckan/github/Aebestach/WormholeSignalBridge",
     "$vref":        "#/ckan/ksp-avc",
     "license":      "MIT",
