@@ -1,0 +1,23 @@
+identifier: DeepFreezeSuitSupport
+name: DeepFreeze Suit Support
+abstract: Keeps stock Vintage and Future suits intact when DeepFreeze thaws Kerbals
+author: javap
+$kref: '#/ckan/github/javapythonsean-rgb/DeepFreezeSuitSupport'
+$vref: '#/ckan/ksp-avc'
+license: MIT
+resources:
+  homepage: https://github.com/javapythonsean-rgb/DeepFreezeSuitSupport
+  repository: https://github.com/javapythonsean-rgb/DeepFreezeSuitSupport
+  bugtracker: https://github.com/javapythonsean-rgb/DeepFreezeSuitSupport/issues
+tags:
+  - plugin
+  - crewed
+  - convenience
+depends:
+  - name: DeepFreeze
+    min_version: V1.32.0
+  - name: Harmony2
+    min_version: 2.2.1.0
+install:
+  - find: DeepFreezeSuitSupport
+    install_to: GameData
