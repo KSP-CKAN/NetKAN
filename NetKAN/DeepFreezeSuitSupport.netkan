@@ -1,0 +1,14 @@
+identifier: DeepFreezeSuitSupport
+$kref: '#/ckan/github/javapythonsean-rgb/DeepFreezeSuitSupport'
+x_netkan_version_edit: ^v?(?<version>.+)$
+$vref: '#/ckan/ksp-avc'
+---
+identifier: DeepFreezeSuitSupport
+$kref: '#/ckan/spacedock/4458'
+$vref: '#/ckan/ksp-avc'
+tags:
+  - plugin
+install:
+  - find: ''
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
