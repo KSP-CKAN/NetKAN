@@ -1,0 +1,27 @@
+identifier: FlipNBurn
+$kref: '#/ckan/github/Quest-in/FlipNBurn'
+x_netkan_version_edit: ^Update-?(?<version>.+)$
+---
+identifier: FlipNBurn
+$kref: '#/ckan/spacedock/4118'
+tags:
+  - crewed
+  - first-person
+  - graphics
+  - parts
+  - plugin
+depends:
+  - name: ModuleManager
+  - name: B9PartSwitch
+  - name: Waterfall
+  - name: Resurfaced
+  - name: Shabby
+  - name: CommunityResourcePack
+  - name: CommunityFixes
+  - name: CommunityPartModules
+  - name: Waterfall
+  - name: StarshipExpansionProject
+recommends:
+  - name: FuelVent
+  - name: RealPlume
+  - name: SmokeScreen
