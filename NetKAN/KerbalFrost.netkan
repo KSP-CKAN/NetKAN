@@ -9,7 +9,3 @@ $vref: '#/ckan/ksp-avc'
 tags:
   - config
   - plugin
-install:
-  - find: 'KerbalFrost'
-    install_to: GameData
-x_via: Automated SpaceDock CKAN submission
