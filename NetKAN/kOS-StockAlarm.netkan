@@ -1,0 +1,23 @@
+spec_version: v1.4
+identifier: kOS-StockAlarm
+$kref: '#/ckan/github/schuyler/kOS-StockAlarm'
+$vref: '#/ckan/ksp-avc'
+name: kOS-StockAlarm
+abstract: Exposes the stock KSP alarm clock to kOS scripts.
+author: schuyler
+license: MIT
+tags:
+  - plugin
+  - control
+resources:
+  repository: https://github.com/schuyler/kOS-StockAlarm
+depends:
+  - name: kOS
+conflicts:
+  # This mod takes over the ADDALARM and LISTALARMS script functions, which kOS
+  # otherwise routes to Kerbal Alarm Clock. Installing both would silently change
+  # what those functions mean, so treat it as a conflict rather than a surprise.
+  - name: KerbalAlarmClock
+install:
+  - file: GameData/kOS-StockAlarm
+    install_to: GameData
