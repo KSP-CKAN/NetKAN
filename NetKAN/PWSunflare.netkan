@@ -1,0 +1,12 @@
+identifier: PWSunflare
+$kref: '#/ckan/spacedock/4465'
+tags:
+  - config
+  - planet-pack
+depends:
+  - name: ModuleManager
+  - name: Kopernicus
+install:
+  - find: PW_sunflare
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
