@@ -1,0 +1,6 @@
+identifier: EnhancedCursor
+$kref: '#/ckan/spacedock/4451'
+tags:
+  - plugin
+depends:
+  - name: Harmony2
