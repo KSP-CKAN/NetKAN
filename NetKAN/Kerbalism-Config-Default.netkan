@@ -20,13 +20,30 @@
         { "name": "CommunityResourcePack" },
         { "name": "Kerbalism" }
     ],
+    "recommends": [
+        { "name": "KerbalismEngineFailures" }
+    ],
+    "suggests": [
+        { "name": "SystemHeat" },
+        { "name": "KerbalismSystemHeatCore" },
+        { "name": "KerbalismSystemHeatCompat" }
+    ],
     "conflicts": [
         { "name": "Kerbalism-Config" },
         { "name": "UKS" },
         { "name": "TACLS" },
         { "name": "Snacks" },
         { "name": "USI-LS" },
-        { "name": "BackgroundProcessing" }
+        { "name": "BackgroundProcessing" },
+        { "name": "Kerbalism-FarFutureTechnologies" },
+        { "name": "SterlingSystemsKerbalism" },
+        { "name": "Kerbalism-SystemHeat" },
+        { "name": "SystemHeat-CryoTanks" },
+        { "name": "SystemHeat-Converters" },
+        { "name": "SystemHeat-FissionEngines" },
+        { "name": "SystemHeat-FissionReactors" },
+        { "name": "SystemHeat-Harvesters" },
+        { "name": "SystemHeat-IonEngines" }
     ],
     "install": [ {
         "find":       "KerbalismConfig",
