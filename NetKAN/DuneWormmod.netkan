@@ -1,0 +1,9 @@
+identifier: DuneWormmod
+$kref: '#/ckan/spacedock/4468'
+tags:
+  - config
+  - plugin
+install:
+  - find: DuneWorm
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
