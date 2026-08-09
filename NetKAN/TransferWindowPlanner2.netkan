@@ -2,8 +2,8 @@ identifier: TransferWindowPlanner2
 name: Transfer Window Planner 2
 abstract: A new transfer window planner mod. Inspired by TriggerAu's TWP, using math routines from MechJeb.
 license: 
-- MIT
-- CC-BY-4.0
+  - MIT
+  - CC-BY-4.0
 $kref: '#/ckan/github/Nazfib/TransferWindowPlanner2/version_from_asset/^TransferWindowPlanner2_(?<version>.+)\.zip$'
 x_netkan_force_v: true
 resources:
