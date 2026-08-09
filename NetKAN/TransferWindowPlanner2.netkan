@@ -16,6 +16,7 @@ tags:
 depends:
   - name: MechJeb2
     min_version: 2.15.0.0
+  - name: ClickThroughBlocker
 conflicts:
   - name: TransferWindowPlanner
   - name: TransferWindowPlannerFork
