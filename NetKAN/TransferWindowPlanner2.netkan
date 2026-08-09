@@ -19,7 +19,6 @@ depends:
 conflicts:
   - name: TransferWindowPlanner
   - name: TransferWindowPlannerFork
-  - name: TransferWindowPlanner2Dev
 install:
   - find: TransferWindowPlanner2
     install_to: GameData
