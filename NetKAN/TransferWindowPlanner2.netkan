@@ -10,6 +10,13 @@ resources:
 tags:
   - plugin
   - information
+depends:
+  - name: MechJeb2
+    min_version: 2.15.0.0
 conflicts:
   - name: TransferWindowPlanner
   - name: TransferWindowPlannerFork
+  - name: TransferWindowPlanner2Dev
+install:
+  - find: TransferWindowPlanner2
+    install_to: GameData
