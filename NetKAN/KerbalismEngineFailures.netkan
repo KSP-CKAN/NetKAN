@@ -3,7 +3,7 @@
     "name":         "Kerbalism - Engine Failures",
     "abstract":     "Optional Kerbalism companion for engine ignition counts, rated burn time, and turn-on failures.",
     "author":       "Kerbalism Contributors",
-    "$kref":        "#/ckan/github/Kerbalism/Kerbalism/asset_match/Kerbalism-EngineFailures*",
+    "$kref":        "#/ckan/github/Kerbalism/Kerbalism/asset_match/KerbalismEngineFailures*",
     "$vref":        "#/ckan/ksp-avc",
     "license":      "Unlicense",
     "tags": [
