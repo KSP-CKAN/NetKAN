@@ -23,11 +23,6 @@
     "recommends": [
         { "name": "KerbalismEngineFailures" }
     ],
-    "suggests": [
-        { "name": "SystemHeat" },
-        { "name": "KerbalismSystemHeatCore" },
-        { "name": "KerbalismSystemHeatCompat" }
-    ],
     "conflicts": [
         { "name": "Kerbalism-Config" },
         { "name": "UKS" },
