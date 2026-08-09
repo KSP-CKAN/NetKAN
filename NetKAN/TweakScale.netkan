@@ -18,6 +18,8 @@ license:
 tags:
   - plugin
   - convenience
+provides:
+  - TweakScale-L
 depends:
   - name: TweakScale-Redist
   - name: ModuleManager
