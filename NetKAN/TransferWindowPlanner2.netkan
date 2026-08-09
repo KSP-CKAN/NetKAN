@@ -1,0 +1,15 @@
+identifier: TransferWindowPlanner2
+name: Transfer Window Planner 2
+license: 
+- MIT
+- CC-BY-4.0
+$kref: '#/ckan/github/Nazfib/TransferWindowPlanner2/version_from_asset/^TransferWindowPlanner2_(?<version>.+)\.zip$'
+x_netkan_force_v: true
+resources:
+  homepage: https://discordapp.com/invite/ZGbR6nv
+tags:
+  - plugin
+  - information
+conflicts:
+  - name: TransferWindowPlanner
+  - name: TransferWindowPlannerFork
