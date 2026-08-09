@@ -4,7 +4,7 @@ abstract: A new transfer window planner mod. Inspired by TriggerAu's TWP, using 
 license:
   - MIT
   - CC-BY-4.0
-$kref: '#/ckan/github/Nazfib/TransferWindowPlanner2/version_from_asset/^TransferWindowPlanner2_(?<version>.+)\.zip$'
+$kref: '#/ckan/github/Nazfib/TransferWindowPlanner2/version_from_asset/^TransferWindowPlanner2_(?<version>v\d+\.\d+\.\d+)\.zip$'
 x_netkan_force_v: true
 resources:
   homepage: https://discordapp.com/invite/ZGbR6nv
