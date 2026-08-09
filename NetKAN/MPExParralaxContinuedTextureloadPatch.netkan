@@ -1,4 +1,4 @@
-identifier: MPExParralaxContinuedTextureloadPatch
+identifier: MPExParallaxContinuedTextureloadPatch
 $kref: '#/ckan/spacedock/4475'
 tags:
   - config
@@ -6,6 +6,10 @@ tags:
 depends:
   - name: ModuleManager
   - name: Kopernicus
+  - name: ParallaxContinued
+  - name: MinorPlanetsExpansion
+  - name: OuterParallax-MPE
+  - name: OuterParallax
 install:
   - find: MPE
     install_to: GameData
