@@ -1,6 +1,8 @@
 identifier: TransferWindowPlanner2
 name: Transfer Window Planner 2
-abstract: A new transfer window planner mod. Inspired by TriggerAu's TWP, using math routines from MechJeb.
+abstract: >-
+  A new transfer window planner mod. 
+  Inspired by TriggerAu's TWP, using math routines from MechJeb.
 license:
   - MIT
   - CC-BY-4.0
