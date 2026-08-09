@@ -1,17 +1,15 @@
-{
-    "identifier":   "KerbalismCompanionCalculator",
-    "$kref":        "#/ckan/spacedock/2580",
-    "$vref":        "#/ckan/ksp-avc",
-    "license":      "CC-BY-SA-4.0",
-    "tags": [
-        "plugin",
-        "information",
-        "comms"
-    ],
-    "depends": [
-        { "name": "Kerbalism" }
-    ],
-    "supports": [
-        { "name": "ResearchBodies" }
-    ]
-}
+identifier: KerbalismCompanionCalculator
+$kref: '#/ckan/github/Aebestach/KerbalismCompanionCalculator'
+$vref: '#/ckan/ksp-avc'
+license: CC-BY-SA-4.0
+tags:
+  - plugin
+  - information
+  - comms
+depends:
+  - name: Kerbalism
+supports:
+  - name: ResearchBodies
+conflicts:
+  - name: RealAntennas
+  - name: RemoteTech
