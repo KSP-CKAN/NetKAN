@@ -2,7 +2,6 @@ identifier: MPExParallaxContinuedTextureloadPatch
 $kref: '#/ckan/spacedock/4475'
 tags:
   - config
-  - planet-pack
 depends:
   - name: ModuleManager
   - name: Kopernicus
@@ -11,6 +10,6 @@ depends:
   - name: OuterParallax-MPE
   - name: OuterParallax
 install:
-  - find: MPE
+  - find: MPE-x-Parallax-Continued-Texture-load-Patch
     install_to: GameData
 x_via: Automated SpaceDock CKAN submission
