@@ -2,7 +2,7 @@ identifier: KerbalismSystemHeatCompat
 name: Kerbalism - SystemHeat Compat
 abstract: Optional Kerbalism SystemHeat support for stock and third-party parts. Requires Kerbalism-SystemHeat.
 author: Kerbalism Contributors
-$kref: '#/ckan/github/Kerbalism/Kerbalism/asset_match/KerbalismSystemHeatExtras*'
+$kref: '#/ckan/github/Kerbalism/Kerbalism/asset_match/KerbalismSystemHeatExtras'
 license: MIT
 tags:
   - config
