@@ -1,0 +1,11 @@
+identifier: ReforgedMaterialsbeingrecodedClickanddragtomoveEditModName
+$kref: '#/ckan/spacedock/4323'
+tags:
+  - config
+  - plugin
+depends:
+  - name: ModuleManager
+install:
+  - find: ReforgedRedux
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
