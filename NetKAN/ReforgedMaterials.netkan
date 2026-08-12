@@ -1,10 +1,11 @@
 identifier: ReforgedMaterials
 $kref: '#/ckan/spacedock/4323'
-$vref: '#/ckan/ksp-avc'
 tags:
   - config
   - plugin
 depends:
   - name: ModuleManager
-  - name: B9PartSwitch
+install:
+  - find: ReforgedRedux
+    install_to: GameData
 x_via: Automated SpaceDock CKAN submission
