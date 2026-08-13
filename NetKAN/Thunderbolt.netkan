@@ -10,9 +10,6 @@ tags:
   - plugin
   - physics
   - graphics
-localizations:
-  - en-us
-  - zh-cn
 install:
   - find: Thunderbolt
     install_to: GameData
