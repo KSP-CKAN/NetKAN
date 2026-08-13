@@ -1,0 +1,20 @@
+identifier: Thunderbolt
+$kref: '#/ckan/github/Aebestach/Thunderbolt'
+$vref: '#/ckan/ksp-avc'
+x_netkan_version_edit: ^v?(?<version>.+)$
+---
+identifier: Thunderbolt
+$kref: '#/ckan/spacedock/4469'
+$vref: '#/ckan/ksp-avc'
+tags:
+  - plugin
+  - physics
+  - graphics
+localizations:
+  - en-us
+  - zh-cn
+install:
+  - find: Thunderbolt
+    install_to: GameData
+  - find: BlastFX
+    install_to: GameData
