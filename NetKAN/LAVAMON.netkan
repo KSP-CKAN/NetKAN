@@ -7,6 +7,6 @@ depends:
   - name: ModuleManager
   - name: Kopernicus
 install:
-  - find: LAVA_MON
+  - find: MON_LAVA
     install_to: GameData
 x_via: Automated SpaceDock CKAN submission
