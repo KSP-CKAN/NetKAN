@@ -1,0 +1,10 @@
+identifier: KabliSys
+$kref: '#/ckan/spacedock/4490'
+tags:
+  - config
+  - planet-pack
+  - plugin
+depends:
+  - name: ModuleManager
+  - name: Kopernicus
+x_via: Automated SpaceDock CKAN submission
