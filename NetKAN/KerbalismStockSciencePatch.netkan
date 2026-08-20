@@ -1,0 +1,9 @@
+identifier: KerbalismStockSciencePatch
+$kref: '#/ckan/spacedock/3127'
+tags:
+  - config
+depends:
+  - name: ModuleManager
+install:
+  - find: KerbalismConfig
+    install_to: GameData
