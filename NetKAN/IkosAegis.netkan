@@ -1,0 +1,45 @@
+{
+    "//_spec": "v1.27 is the oldest version supporting every feature used here - `tags` needs v1.27, `find` needs v1.4, `filter` is ancient. The spec asks for the oldest that works, so this drops to v1.4 if `tags` is ever removed.",
+    "spec_version": "v1.27",
+
+    "//_identifier": "Deliberately identical to the GameData folder name, the ModuleManager :FOR[] token and the assembly filename. CKAN also identifies manual installs by everything before the first dot of a DLL name under GameData, so IkosAegis.dll makes that a fourth place the same string appears.",
+    "identifier": "IkosAegis",
+    "name": "IkosAegis",
+
+    "abstract": "Put a PIN keypad on your ships - lock a craft's controls behind a code.",
+    "description": "Adds a numeric keypad lock to every command part - probe cores and crewed pods alike. Set a code in the VAB, engage the lock, and the craft will not pitch, roll, yaw, throttle, stage or fire an action group until somebody types the code back in. Crew cannot EVA out, nobody can board in, and the vessel cannot be recovered or terminated without the PIN unless it is parked on a launch pad or runway. One craft has one lock and one PIN however many command parts it carries. The two Aegis buttons stay reachable in the part menu while locked, so a craft can always be opened again. Attached by ModuleManager, so it covers modded command parts as well as stock ones.",
+
+    "author": [ "drebsdorf" ],
+    "license": "MIT",
+
+    "$kref": "#/ckan/github/taz00/IkosAegis",
+
+    "//_vref": "Reads the KSP-AVC file the mod already ships, so the KSP compatibility range is declared in one place - GameData/IkosAegis/IkosAegis.version - and maintains itself. No path is given: exactly one .version file is installed, and more than one would be an error anyway, so naming the path only creates something that can drift. The GitHub $kref still supplies `version` from the release tag; $vref here supplies only the KSP range.",
+    "$vref": "#/ckan/ksp-avc",
+
+    "//_no_ksp_version": "Deliberately absent. ksp_version/_min/_max must not be hand-written alongside a ksp-avc $vref - the .version file is the single source for the compatibility range.",
+
+    "//_depends": "ModuleManager is not optional: without it no part ever receives ModuleAegisLock, so the mod installs cleanly, loads cleanly and does nothing whatsoever. Harmony2 is needed only by the recovery block, and is a hard dependency rather than a recommendation because a security feature that is silently absent is worse than an install that refuses. 0Harmony.dll is deliberately NOT redistributed inside our own folder - two copies of one assembly in a single Mono process fight over the same patch database - so Harmony2 provides the shared GameData/000_Harmony copy.",
+    "depends": [
+        { "name": "ModuleManager" },
+        { "name": "Harmony2" }
+    ],
+
+    "resources": {
+        "homepage": "https://github.com/taz00/IkosAegis",
+        "repository": "https://github.com/taz00/IkosAegis",
+        "bugtracker": "https://github.com/taz00/IkosAegis/issues"
+    },
+
+    "//_install": "This is exactly what CKAN would default to if `install` were omitted, and is kept explicit only to carry the filter. `find` rather than `file`, so a release zip that gains or loses a wrapper directory still installs correctly. The filter is where build leftovers get excluded - the zip stays simple and the metadata does the work.",
+    "install": [
+        {
+            "find": "IkosAegis",
+            "install_to": "GameData",
+            "filter": [ "Thumbs.db", ".DS_Store" ],
+            "filter_regexp": [ "\\.pdb$" ]
+        }
+    ],
+
+    "tags": [ "plugin", "career", "sandbox" ]
+}
