@@ -1,0 +1,10 @@
+identifier: KSPSceneEditor
+$kref: '#/ckan/github/Escozoo-raccoon/KSPSceneEditor'
+x_netkan_version_edit: ^v?(?<version>.+)$
+---
+identifier: KSPSceneEditor
+$kref: '#/ckan/spacedock/4495'
+tags:
+  - config
+  - plugin
+x_via: Automated SpaceDock CKAN submission
