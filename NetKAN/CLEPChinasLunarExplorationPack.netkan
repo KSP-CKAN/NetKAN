@@ -1,0 +1,21 @@
+identifier: CLEPChinasLunarExplorationPack
+$kref: '#/ckan/spacedock/4493'
+tags:
+  - graphics
+  - parts
+depends:
+  - name: ModuleManager
+  - name: Waterfall
+install:
+  - find: ''
+    install_to: GameData
+    filter_regexp: \.craft$
+  - file: GameData/Craft/non RO/nonRO_Chang'e 3 or 4 with ladder.craft
+    install_to: Ships/VAB
+  - file: GameData/Craft/non RO/nonRO_Chang'e 3 or 4.craft
+    install_to: Ships/VAB
+  - file: GameData/Craft/RO/Chang'e 3 or 4 with ladder.craft
+    install_to: Ships/VAB
+  - file: GameData/Craft/RO/Chang'e 3 or 4.craft
+    install_to: Ships/VAB
+x_via: Automated SpaceDock CKAN submission
