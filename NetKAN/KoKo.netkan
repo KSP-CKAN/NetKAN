@@ -1,0 +1,26 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "KoKo",
+    "name": "KoKo - Kerbal Orbital Kompany",
+    "abstract": "Story-driven career overhaul: build off-world businesses and logistics networks, then scout and destroy a hostile Syndicate before it completes a fortress on Eeloo.",
+    "author": "timlumnah",
+    "license": "MIT",
+    "resources": {
+        "homepage": "https://github.com/timlumnah/kerbal-orbital-kompany",
+        "repository": "https://github.com/timlumnah/kerbal-orbital-kompany",
+        "bugtracker": "https://github.com/timlumnah/kerbal-orbital-kompany/issues"
+    },
+    "$kref": "#/ckan/github/timlumnah/kerbal-orbital-kompany",
+    "ksp_version_min": "1.8",
+    "ksp_version_max": "1.12.5",
+    "install": [
+        {
+            "find": "KoKo",
+            "install_to": "GameData"
+        }
+    ],
+    "depends": [
+        { "name": "ModuleManager" }
+    ],
+    "tags": [ "career", "logistics", "economy", "story" ]
+}
