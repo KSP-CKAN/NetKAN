@@ -1,0 +1,23 @@
+identifier: AirplanePlusL
+$kref: '#/ckan/spacedock/4420'
+$vref: '#/ckan/ksp-avc'
+author:
+  - blackheart612
+  - Lisias
+tags:
+  - crewed
+  - first-person
+  - parts
+  - plugin
+depends:
+  - name: ModuleManager
+  - name: FirespitterCore
+  - name: FirespitterResourcesConfig
+conflicts:
+  - name: AirplanePlus
+provides:
+  - AirplanePlus
+install:
+  - find: AirplanePlus
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
