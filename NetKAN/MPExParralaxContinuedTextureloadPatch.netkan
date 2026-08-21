@@ -1,0 +1,12 @@
+identifier: MPExParralaxContinuedTextureloadPatch
+$kref: '#/ckan/spacedock/4475'
+tags:
+  - config
+  - planet-pack
+depends:
+  - name: ModuleManager
+  - name: Kopernicus
+install:
+  - find: MPE
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
