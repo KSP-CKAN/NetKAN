@@ -1,0 +1,25 @@
+identifier: TransferWindowPlanner2
+name: Transfer Window Planner 2
+abstract: >-
+  A new transfer window planner mod.
+  Inspired by TriggerAu's TWP, using math routines from MechJeb.
+license:
+  - MIT
+  - CC-BY-4.0
+$kref: '#/ckan/github/Nazfib/TransferWindowPlanner2/version_from_asset/^TransferWindowPlanner2_(?<version>v\d+\.\d+\.\d+)\.zip$'
+x_netkan_force_v: true
+resources:
+  homepage: https://discordapp.com/invite/ZGbR6nv
+tags:
+  - plugin
+  - information
+depends:
+  - name: MechJeb2
+    min_version: 2.15.0.0
+  - name: ClickThroughBlocker
+conflicts:
+  - name: TransferWindowPlanner
+  - name: TransferWindowPlannerFork
+install:
+  - find: TransferWindowPlanner2
+    install_to: GameData
