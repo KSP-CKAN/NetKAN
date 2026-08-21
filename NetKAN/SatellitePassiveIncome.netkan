@@ -1,0 +1,13 @@
+identifier: SatellitePassiveIncome
+$kref: '#/ckan/spacedock/4438'
+$vref: '#/ckan/ksp-avc'
+tags:
+  - config
+  - plugin
+depends:
+  - name: ModuleManager
+install:
+  - find: PassiveIncomeSat
+    install_to: GameData
+    filter_regexp: \.pdb$
+x_via: Automated SpaceDock CKAN submission
