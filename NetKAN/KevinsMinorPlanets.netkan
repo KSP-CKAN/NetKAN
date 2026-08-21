@@ -1,0 +1,10 @@
+identifier: KevinsMinorPlanets
+$kref: '#/ckan/spacedock/4327'
+tags:
+  - config
+  - planet-pack
+depends:
+  - name: ModuleManager
+  - name: Kopernicus
+  - name: VertexMitchellNetravaliHeightMap
+x_via: Automated SpaceDock CKAN submission
