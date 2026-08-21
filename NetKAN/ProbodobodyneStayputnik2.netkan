@@ -1,0 +1,8 @@
+identifier: ProbodobodyneStayputnik2
+$kref: '#/ckan/spacedock/4121'
+tags:
+  - parts
+install:
+  - find: Sputnik
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
