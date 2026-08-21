@@ -1,0 +1,9 @@
+identifier: KLAUDE
+$kref: '#/ckan/spacedock/4199'
+tags:
+  - config
+  - plugin
+install:
+  - find: klaude
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
