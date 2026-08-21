@@ -1,0 +1,14 @@
+identifier: AlmajaraAgalacticadventure
+$kref: '#/ckan/spacedock/4058'
+tags:
+  - config
+  - planet-pack
+  - plugin
+depends:
+  - name: ModuleManager
+  - name: Kopernicus
+  - name: VertexMitchellNetravaliHeightMap
+install:
+  - find: Almajara_A_galactic_adventure-1
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
