@@ -1,0 +1,20 @@
+identifier: LunaQuicksave
+name: Luna Quicksave
+abstract: >-
+  Personal vessel quicksave and quickload for Luna Multiplayer. Press F5
+  to save and F9 to restore while connected to an LMP server.
+author: Monika
+license: MIT
+$kref: '#/ckan/github/iplusplus-nl/LunaQuicksave/asset_match/^LunaQuicksave-\d+\.\d+\.\d+\.zip$/'
+$vref: '#/ckan/ksp-avc'
+resources:
+  repository: https://github.com/iplusplus-nl/LunaQuicksave
+  bugtracker: https://github.com/iplusplus-nl/LunaQuicksave/issues
+tags:
+  - plugin
+  - convenience
+depends:
+  - name: LunaMultiplayer
+install:
+  - find: LunaQuicksave
+    install_to: GameData
