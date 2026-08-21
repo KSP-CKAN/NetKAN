@@ -1,0 +1,25 @@
+identifier: KerbalismCompanionCalculator
+name: Kerbalism Companion Calculator
+author: Aebestach
+abstract: Antenna planner for Kerbalism (stock CommNet).
+$kref: '#/ckan/github/Aebestach/KerbalismCompanionCalculator'
+$vref: '#/ckan/ksp-avc'
+license: CC-BY-SA-4.0
+resources:
+  homepage: https://forum.kerbalspaceprogram.com/topic/231545-112x-kerbalism-companion-calculator-kcc-an-antenna-planner-for-kerbalism-v131/
+  repository: https://github.com/Aebestach/KerbalismCompanionCalculator
+  bugtracker: https://github.com/Aebestach/KerbalismCompanionCalculator/issues
+tags:
+  - plugin
+  - information
+  - comms
+depends:
+  - name: Kerbalism
+supports:
+  - name: ResearchBodies
+conflicts:
+  - name: RealAntennas
+  - name: RemoteTech
+install:
+  - find: KerbalismCompanionCalculator
+    install_to: GameData
