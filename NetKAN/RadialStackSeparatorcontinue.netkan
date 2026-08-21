@@ -1,0 +1,8 @@
+identifier: RadialStackSeparatorcontinue
+$kref: '#/ckan/spacedock/4168'
+tags:
+  - parts
+install:
+  - find: ''
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
