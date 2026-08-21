@@ -5,17 +5,8 @@ author: Pzixel
 $kref: '#/ckan/github/Pzixel/injection-velocity-indicator'
 $vref: '#/ckan/ksp-avc'
 license: MIT
-release_status: stable
 tags:
   - plugin
   - information
 depends:
   - name: Harmony2
-resources:
-  homepage: https://github.com/Pzixel/injection-velocity-indicator
-  repository: https://github.com/Pzixel/injection-velocity-indicator
-  bugtracker: https://github.com/Pzixel/injection-velocity-indicator/issues
-  license: https://raw.githubusercontent.com/Pzixel/injection-velocity-indicator/master/LICENSE
-install:
-  - find: InjectionVelocityIndicator
-    install_to: GameData
