@@ -1,0 +1,19 @@
+identifier: BlueExplorationRocketryDivision
+$kref: '#/ckan/github/nolifejordan/Blue-Exploration-Rocketry-Division'
+x_netkan_github:
+  use_source_archive: true
+x_netkan_version_edit: ^v?(?<version>.+)$
+---
+identifier: BlueExplorationRocketryDivision
+$kref: '#/ckan/spacedock/4103'
+tags:
+  - graphics
+  - parts
+depends:
+  - name: ModuleManager
+  - name: B9PartSwitch
+  - name: Waterfall
+install:
+  - find: Blue-Exploration-Rocketry-Division-1.0
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
