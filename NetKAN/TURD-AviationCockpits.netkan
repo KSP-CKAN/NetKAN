@@ -1,0 +1,21 @@
+identifier: TURD-AviationCockpits
+$kref: '#/ckan/github/Spartwo/SierraWork/asset_match/TU_Aviation_Cockpits_Recolour.zip'
+---
+identifier: TURD-AviationCockpits
+name: TURD - Aviation Cockpits
+abstract: >-
+  Textures Unlimited recolours for Moderately Plane Related
+author:
+  - Spartwo
+  - SierraDrake
+$kref: '#/ckan/spacedock/4503'
+license: CC-BY-NC-SA-4.0
+tags:
+  - config
+  - graphics
+depends:
+  - name: ModuleManager
+  - name: TexturesUnlimited
+install:
+  - find: TURD/TU_AviationCockpits_Recolour
+    install_to: GameData/TURD
