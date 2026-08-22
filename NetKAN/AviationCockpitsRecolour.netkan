@@ -1,8 +1,8 @@
 identifier: AviationCockpitsRecolour
 $kref: '#/ckan/github/Spartwo/SierraWork'
-x_netkan_version_edit: ^v?(?<version>.+)$
 ---
 identifier: AviationCockpitsRecolour
+name: TURD - Aviation Cockpits
 $kref: '#/ckan/spacedock/4503'
 tags:
   - config
@@ -11,4 +11,3 @@ depends:
 install:
   - find: TURD
     install_to: GameData
-x_via: Automated SpaceDock CKAN submission
