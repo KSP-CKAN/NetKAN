@@ -13,6 +13,11 @@
         "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/172663-*",
         "repository": "https://github.com/linuxgurugamer/abcors"
     },
+    "depends": [
+        { name": "ToolbarController" },
+        { name": "ClickThroughBlocker" }
+    ],
+
     "tags": [
         "plugin",
         "information"
