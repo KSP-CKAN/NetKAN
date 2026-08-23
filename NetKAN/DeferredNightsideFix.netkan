@@ -1,0 +1,12 @@
+identifier: DeferredNightsideFix
+$kref: '#/ckan/github/Escozoo-raccoon/DeferredNightsideFix'
+x_netkan_version_edit: ^v?(?<version>.+)$
+$vref: '#/ckan/ksp-avc'
+---
+identifier: DeferredNightsideFix
+$kref: '#/ckan/spacedock/4509'
+$vref: '#/ckan/ksp-avc'
+tags:
+  - config
+  - plugin
+x_via: Automated SpaceDock CKAN submission
