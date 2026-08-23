@@ -14,10 +14,9 @@
         "repository": "https://github.com/linuxgurugamer/abcors"
     },
     "depends": [
-        { name": "ToolbarController" },
-        { name": "ClickThroughBlocker" }
+        { "name": "ToolbarController" },
+        { "name": "ClickThroughBlocker" }
     ],
-
     "tags": [
         "plugin",
         "information"
