@@ -1,5 +1,6 @@
 identifier: KerbalProportions
 $kref: '#/ckan/github/NickDeVeau/Kerbal-Proportions'
+x_netkan_version_edit: ^v?(?<version>.+)$
 ---
 identifier: KerbalProportions
 $kref: '#/ckan/spacedock/4513'
