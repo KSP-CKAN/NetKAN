@@ -1,0 +1,23 @@
+spec_version: v1.4
+identifier: KerbalProportions
+name: Kerbal Proportions
+abstract: Live visual rig and proportion editor for EVA and IVA Kerbals
+author: NickDeVeau
+license: MIT
+$kref: '#/ckan/github/NickDeVeau/Kerbal-Proportions/asset_match/^KerbalProportions-v.+\.zip$'
+$vref: '#/ckan/ksp-avc'
+x_netkan_github:
+  use_source_archive: false
+  prereleases: false
+tags:
+  - plugin
+  - graphics
+  - crewed
+install:
+  - find: KerbalProportions
+    install_to: GameData
+resources:
+  homepage: https://github.com/NickDeVeau/Kerbal-Proportions
+  spacedock: https://spacedock.info/mod/4513
+  repository: https://github.com/NickDeVeau/Kerbal-Proportions
+  bugtracker: https://github.com/NickDeVeau/Kerbal-Proportions/issues
