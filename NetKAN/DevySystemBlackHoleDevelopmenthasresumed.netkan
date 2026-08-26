@@ -5,6 +5,7 @@ tags:
   - planet-pack
 depends:
   - name: ModuleManager
+  - name: Singularity
   - name: Kopernicus
 install:
   - find: DevySystemHole
