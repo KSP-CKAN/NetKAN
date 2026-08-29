@@ -1,0 +1,11 @@
+identifier: KerbalAdvancedDefenseReborn
+$kref: '#/ckan/github/Iftn1/Kerbal-Advanced-Defense-Reborn'
+x_netkan_version_edit: ^V?(?<version>.+)$
+---
+identifier: KerbalAdvancedDefenseReborn
+$kref: '#/ckan/spacedock/4522'
+tags:
+  - parts
+depends:
+  - name: ModuleManager
+x_via: Automated SpaceDock CKAN submission
