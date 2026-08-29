@@ -1,0 +1,13 @@
+identifier: KALvionics
+$kref: '#/ckan/spacedock/4358'
+$vref: '#/ckan/ksp-avc'
+tags:
+  - config
+  - plugin
+depends:
+  - name: ModuleManager
+install:
+  - find: ''
+    install_to: GameData
+    filter_regexp: \.pdb$
+x_via: Automated SpaceDock CKAN submission
