@@ -1,0 +1,13 @@
+identifier: Vulcan
+$kref: '#/ckan/github/idkthreennew-cell/Vulcan'
+x_netkan_version_edit: ^v?(?<version>.+)$
+---
+identifier: Vulcan
+$kref: '#/ckan/spacedock/4354'
+tags:
+  - config
+  - planet-pack
+depends:
+  - name: ModuleManager
+  - name: Kopernicus
+x_via: Automated SpaceDock CKAN submission
