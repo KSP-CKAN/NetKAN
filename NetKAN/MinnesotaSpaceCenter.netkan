@@ -1,0 +1,16 @@
+identifier: MinnesotaSpaceCenter
+$kref: '#/ckan/github/PlutonianEmpire/KSP-MNSC'
+x_netkan_version_edit: ^KSP-MNSC-?(?<version>.+)$
+---
+identifier: MinnesotaSpaceCenter
+$kref: '#/ckan/spacedock/4217'
+tags:
+  - config
+  - planet-pack
+depends:
+  - name: ModuleManager
+  - name: Kopernicus
+install:
+  - find: ''
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
