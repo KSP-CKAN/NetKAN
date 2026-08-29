@@ -1,0 +1,11 @@
+identifier: KerbalFoundriesExpansion
+$kref: '#/ckan/github/awcsorensen/KerbalFoundriesExpansion'
+x_netkan_version_edit: ^V?(?<version>.+)$
+---
+identifier: KerbalFoundriesExpansion
+$kref: '#/ckan/spacedock/4433'
+tags:
+  - parts
+depends:
+  - name: ModuleManager
+x_via: Automated SpaceDock CKAN submission
