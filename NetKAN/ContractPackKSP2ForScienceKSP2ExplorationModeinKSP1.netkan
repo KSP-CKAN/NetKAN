@@ -1,0 +1,16 @@
+identifier: ContractPackKSP2ForScienceKSP2ExplorationModeinKSP1
+$kref: '#/ckan/spacedock/4398'
+tags:
+  - career
+  - config
+depends:
+  - name: ContractConfigurator
+install:
+  - find: ContractPacks
+    install_to: GameData
+    filter_regexp: \.craft$
+  - file: GameData/ContractPacks/KSP2Exploration/Vessels/croissant.craft
+    install_to: Ships/VAB
+  - file: GameData/ContractPacks/KSP2Exploration/Vessels/stargazer.craft
+    install_to: Ships/VAB
+x_via: Automated SpaceDock CKAN submission
