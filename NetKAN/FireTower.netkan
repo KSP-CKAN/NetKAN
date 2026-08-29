@@ -1,0 +1,8 @@
+identifier: FireTower
+$kref: '#/ckan/spacedock/4399'
+tags:
+  - buildings
+  - config
+depends:
+  - name: KerbalKonstructs
+x_via: Automated SpaceDock CKAN submission
