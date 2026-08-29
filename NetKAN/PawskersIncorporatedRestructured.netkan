@@ -1,0 +1,15 @@
+identifier: PawskersIncorporatedRestructured
+$kref: '#/ckan/github/safron1111/PawskersIncorporatedRestructured'
+x_netkan_version_edit: ^v?(?<version>.+)$
+---
+identifier: PawskersIncorporatedRestructured
+$kref: '#/ckan/spacedock/4349'
+tags:
+  - parts
+depends:
+  - name: ModuleManager
+install:
+  - find: PawskersIncorporatedRestructured_v0_3_1
+    install_to: GameData
+    filter: .git
+x_via: Automated SpaceDock CKAN submission
