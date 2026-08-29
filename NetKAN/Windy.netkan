@@ -1,0 +1,10 @@
+identifier: Windy
+$kref: '#/ckan/github/KerbalMissile/Windy'
+x_netkan_version_edit: ^v?(?<version>.+)$
+---
+identifier: Windy
+$kref: '#/ckan/spacedock/4173'
+tags:
+  - config
+  - plugin
+x_via: Automated SpaceDock CKAN submission
