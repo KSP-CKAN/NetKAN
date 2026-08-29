@@ -1,0 +1,12 @@
+identifier: KerbcastKos
+$kref: '#/ckan/spacedock/4419'
+$vref: '#/ckan/ksp-avc'
+license: GPL-3.0
+tags:
+  - plugin
+  - control
+depends:
+  - name: Kerbcast
+    min_version: '1.6.0'
+  - name: kOS
+    min_version: '1.6.0'
