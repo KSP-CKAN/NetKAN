@@ -1,0 +1,12 @@
+identifier: HL20AircraftConstructionKit
+$kref: '#/ckan/spacedock/4263'
+tags:
+  - crewed
+  - first-person
+  - parts
+depends:
+  - name: B9PartSwitch
+install:
+  - find: HL20_ConstructionKit
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
