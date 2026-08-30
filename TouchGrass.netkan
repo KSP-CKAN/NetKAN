@@ -1,0 +1,14 @@
+spec_version: v1.4
+identifier: TouchGrass
+name: Touch Grass
+version: 1.5-Beta
+license: WTFPL
+
+$kref: '#/ckan/spacedock/4523'
+
+install:
+  - find: TouchGrass
+    install_to: GameData
+
+tags:
+  - plugin
