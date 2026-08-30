@@ -1,35 +1,10 @@
 spec_version: v1.4
 identifier: TouchGrass
 name: Touch Grass
+version: 1.5-Beta
 license: WTFPL
 
 $kref: '#/ckan/spacedock/4523'
-
-x_netkan_version_edit:
-  find: '^(?<version>[0-9.]+)[ _-]?Beta$'
-  replace: '${version}-Beta'
-  strict: false
-
-install:
-  - find: TouchGrass
-    install_to: GameData
-
-tags:
-  - plugin
-
----
-
-spec_version: v1.27
-identifier: TouchGrass
-name: Touch Grass
-license: WTFPL
-
-$kref: '#/ckan/github/RomanKermanDevy/TouchGrass/version_from_asset/^TouchGrass_(?<version>.+)\.zip$'
-
-x_netkan_version_edit:
-  find: '^(?<version>[0-9.]+)[ _-]?Beta$'
-  replace: '${version}-Beta'
-  strict: false
 
 install:
   - find: TouchGrass
