@@ -1,0 +1,15 @@
+identifier: KerbalAdvancedDefenseReborn
+$kref: '#/ckan/github/Iftn1/Kerbal-Advanced-Defense-Reborn'
+---
+identifier: KerbalAdvancedDefenseReborn
+$kref: '#/ckan/spacedock/4522'
+$vref: '#/ckan/ksp-avc'
+tags:
+  - parts
+  - combat
+depends:
+  - name: ModuleManager
+  - name: BDArmoryForRunwayProject
+install:
+  - find: GameData
+    install_to: GameData
