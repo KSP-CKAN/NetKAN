@@ -1,0 +1,15 @@
+identifier: ThickerTrajectoryLines
+$kref: '#/ckan/github/murolem/ksp-mod-thicker-trajectory-lines'
+$vref: '#/ckan/ksp-avc'
+---
+identifier: ThickerTrajectoryLines
+$kref: '#/ckan/spacedock/4525'
+$vref: '#/ckan/ksp-avc'
+tags:
+  - config
+  - plugin
+install:
+  - find: ThickerTrajectoryLines
+    install_to: GameData
+    filter_regexp: \.pdb$
+x_via: Automated SpaceDock CKAN submission
