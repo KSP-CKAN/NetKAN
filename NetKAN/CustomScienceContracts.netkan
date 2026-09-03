@@ -1,0 +1,33 @@
+spec_version: v1.31
+identifier: CustomScienceContracts
+name: Custom Science Contracts
+abstract: "A structured science campaign for KSP's Science Mode, from first flight to deep-space exploration."
+description: "Adds a structured campaign on top of Science Mode with an in-game mission menu, campaign atlas, stations, bases, supply routes and deep-space exploration. CKAN installs the plugin separately from its campaign profile and asks whether to use the recommended Stock Kerbol campaign or the optional SOL real-solar-system campaign."
+author: timduebi
+license: GPL-3.0
+$kref: '#/ckan/github/timduebi/ksp-custom-science-contracts/version_from_asset/^CustomScienceContracts-v(?<version>[0-9.]+)\.zip$'
+x_netkan_github:
+  use_source_archive: false
+  prerelease: false
+ksp_version_min: '1.12.0'
+ksp_version_max: '1.12.99'
+tags:
+  - science
+  - career
+depends:
+  - name: Harmony2
+  - any_of:
+      - name: CustomScienceContracts-StockConfig
+      - name: CustomScienceContracts-SOLConfig
+    choice_help_text: "Choose Stock for the normal Kerbol system (recommended). Choose SOL only when the SOL planet pack is installed."
+recommends:
+  - name: Kerbalism
+  - name: ProbesBeforeCrew
+install:
+  - find: CustomScienceContracts
+    install_to: GameData
+    filter: Contracts
+resources:
+  homepage: https://github.com/timduebi/ksp-custom-science-contracts
+  repository: https://github.com/timduebi/ksp-custom-science-contracts
+  bugtracker: https://github.com/timduebi/ksp-custom-science-contracts/issues
