@@ -1,16 +1,13 @@
 identifier: Distantfrontierstriplestarsystem
 $kref: '#/ckan/spacedock/4112'
-$vref: '#/ckan/ksp-avc'
 tags:
   - config
   - planet-pack
-  - plugin
 depends:
   - name: ModuleManager
   - name: Kopernicus
   - name: VertexMitchellNetravaliHeightMap
 install:
-  - find: ''
+  - find: Distantfrontiers
     install_to: GameData
-    filter_regexp: \.pdb$
 x_via: Automated SpaceDock CKAN submission
