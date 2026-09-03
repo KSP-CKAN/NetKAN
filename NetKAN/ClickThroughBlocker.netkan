@@ -10,6 +10,7 @@ $vref: '#/ckan/ksp-avc'
 license: GPL-3.0
 depends:
   - name: ToolbarController
+  - name: Harmony2
 tags:
   - plugin
   - library
