@@ -1,14 +1,20 @@
 identifier: KERRendezvousTools
 $kref: '#/ckan/github/MiG41Flatpack/KER-Rendezvous-Tools'
 $vref: '#/ckan/ksp-avc'
+x_netkan_version_edit: '^(?:KER-RT )?(?<version>.+)$'
 ---
 identifier: KERRendezvousTools
 $kref: '#/ckan/spacedock/4453'
 $vref: '#/ckan/ksp-avc'
+x_netkan_version_edit: '^(?:KER-RT )?(?<version>.+)$'
 tags:
   - plugin
+  - information
 install:
   - find: KERRendezvousTools
     install_to: GameData
     filter_regexp: \.pdb$
+depends:
+  - name: KerbalEngineerRedux
+    min_version: '1.1.9.5'
 x_via: Automated SpaceDock CKAN submission
