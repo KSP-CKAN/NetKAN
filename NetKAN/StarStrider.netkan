@@ -1,0 +1,32 @@
+identifier: StarStrider
+$kref: '#/ckan/github/BobKermanIndustries/Star-Strider'
+license: CC-BY-NC-SA
+---
+identifier: StarStrider
+$kref: '#/ckan/spacedock/4510'
+tags:
+  - crewed
+  - first-person
+  - graphics
+  - parts
+depends:
+  - name: ModuleManager
+  - name: B9PartSwitch
+  - name: Waterfall
+  - name: AnimatedDecouplers
+  - name: Benjee10-SharedAssets
+  - name: CommunityResourcePack
+  - name: DeployableEngines
+  - name: SimpleAdjustableFairings
+  - name: SmokeScreen
+  - name: StagedAnimation
+recommends:
+  - name: RasterPropMonitor-Core
+  - name: FreeIva
+  - name: ASETProps
+  - name: Reviva
+suggests:
+  - name: Shaddy
+install:
+  - find: GameData/StarStrider
+    install_to: GameData
