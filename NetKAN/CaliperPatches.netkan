@@ -8,10 +8,11 @@ tags:
   - graphics
 depends:
   - name: ModuleManager
+  - name: PatchManager
   - name: Waterfall
 install:
-  - find: Caliper
-    install_to: GameData
+  - find: CaliperPatches
+    install_to: GameData/Caliper
     filter:
       - __MACOSX
       - .DS_Store
