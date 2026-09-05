@@ -1,0 +1,12 @@
+identifier: kOS-StockAlarm
+$kref: '#/ckan/github/schuyler/kOS-StockAlarm'
+$vref: '#/ckan/ksp-avc'
+abstract: Exposes the stock KSP alarm clock to kOS scripts.
+license: MIT
+tags:
+  - plugin
+  - control
+depends:
+  - name: kOS
+conflicts:
+  - name: KerbalAlarmClock
