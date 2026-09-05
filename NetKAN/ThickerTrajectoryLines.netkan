@@ -5,9 +5,14 @@ $vref: '#/ckan/ksp-avc'
 identifier: ThickerTrajectoryLines
 $kref: '#/ckan/spacedock/4525'
 $vref: '#/ckan/ksp-avc'
+depends:
+  - name: Harmony2
+  - name: ClickThroughBlocker
+  - name: ToolbarController
 tags:
-  - config
   - plugin
+  - convenience
+  - graphics
 install:
   - find: ThickerTrajectoryLines
     install_to: GameData
