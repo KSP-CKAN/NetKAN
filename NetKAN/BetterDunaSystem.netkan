@@ -6,7 +6,13 @@ tags:
 depends:
   - name: ModuleManager
   - name: Kopernicus
+  - name: KopernicusExpansionContinueder
   - name: VertexMitchellNetravaliHeightMap
+recommends:
+  - name: ParallaxContinued
+  - name: Scatterer
+suggests:
+  - name: CommunityResourcePack
 install:
   - find: Durs
     install_to: GameData
