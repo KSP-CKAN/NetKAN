@@ -1,0 +1,12 @@
+identifier: PHAETONLAVAMOON
+$kref: '#/ckan/spacedock/4487'
+tags:
+  - config
+  - planet-pack
+depends:
+  - name: ModuleManager
+  - name: Kopernicus
+install:
+  - find: MON_LAVA
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
