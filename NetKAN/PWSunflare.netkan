@@ -1,8 +1,11 @@
 identifier: PWSunflare
 $kref: '#/ckan/spacedock/4465'
+author:
+  - Sushut
+  - SlincLincoln
 tags:
   - config
-  - planet-pack
+  - graphics
 depends:
   - name: ModuleManager
   - name: Kopernicus
