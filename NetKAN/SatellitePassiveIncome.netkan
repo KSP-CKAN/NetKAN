@@ -4,6 +4,8 @@ $vref: '#/ckan/ksp-avc'
 tags:
   - config
   - plugin
+  - career
+  - uncrewed
 depends:
   - name: ModuleManager
 install:
