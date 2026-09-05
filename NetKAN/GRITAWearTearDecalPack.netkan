@@ -1,6 +1,0 @@
-identifier: GRITAWearTearDecalPack
-$kref: '#/ckan/spacedock/4440'
-install:
-  - find: GRIT
-    install_to: GameData
-x_via: Automated SpaceDock CKAN submission
