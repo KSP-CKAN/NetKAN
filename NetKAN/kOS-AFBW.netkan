@@ -1,0 +1,10 @@
+identifier: kOS-AFBW
+$kref: '#/ckan/github/schuyler/kOS-AFBW'
+$vref: '#/ckan/ksp-avc'
+abstract: Bridge mod exposing AFBW's enable/disable toggle to kOS scripts.
+tags:
+  - plugin
+  - control
+depends:
+  - name: kOS
+  - name: AdvancedFlyByWire
