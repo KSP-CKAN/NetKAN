@@ -1,12 +1,20 @@
 identifier: KerbalismCompanionCalculator
 $kref: '#/ckan/github/Aebestach/KerbalismCompanionCalculator'
 $vref: '#/ckan/ksp-avc'
-x_netkan_version_edit: '^[vV]?\.?(?<version>.+)$'
+x_netkan_version_edit:
+  find: ^v\.?
+  replace: ''
+  strict: false
+x_netkan_force_v: true
 ---
 identifier: KerbalismCompanionCalculator
 $kref: '#/ckan/spacedock/4463'
 $vref: '#/ckan/ksp-avc'
-x_netkan_version_edit: '^[vV]?\.?(?<version>.+)$'
+x_netkan_version_edit:
+  find: ^v\.?
+  replace: ''
+  strict: false
+x_netkan_force_v: true
 name: Kerbalism Companion Calculator
 author: Aebestach
 abstract: Antenna planner for Kerbalism (stock CommNet).
