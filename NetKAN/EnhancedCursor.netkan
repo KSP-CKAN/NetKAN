@@ -1,11 +1,15 @@
 identifier: EnhancedCursor
 $kref: '#/ckan/github/extraext/EnhancedCursor'
-x_netkan_version_edit: ^v?(?<version>.+)$
 $vref: '#/ckan/ksp-avc'
+x_netkan_version_edit: ^v?(?<version>.+)$
 ---
 identifier: EnhancedCursor
 $kref: '#/ckan/spacedock/4451'
 $vref: '#/ckan/ksp-avc'
+x_netkan_version_edit: ^v?(?<version>.+)$
+depends:
+  - name: Harmony2
 tags:
   - plugin
+  - convenience
 x_via: Automated SpaceDock CKAN submission
