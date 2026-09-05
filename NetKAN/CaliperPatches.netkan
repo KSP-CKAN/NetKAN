@@ -1,0 +1,19 @@
+identifier: CaliperPatches
+$kref: '#/ckan/github/Caliperstorm/KSP-patches'
+---
+identifier: CaliperPatches
+$kref: '#/ckan/spacedock/4529'
+tags:
+  - config
+  - graphics
+depends:
+  - name: ModuleManager
+  - name: PatchManager
+  - name: Waterfall
+install:
+  - find: CaliperPatches
+    install_to: GameData/Caliper
+    filter:
+      - __MACOSX
+      - .DS_Store
+x_via: Automated SpaceDock CKAN submission
