@@ -4,11 +4,14 @@ x_netkan_version_edit: ^v?(?<version>.+)$
 ---
 identifier: BDBExtensionRL10E1
 $kref: '#/ckan/spacedock/4484'
+x_netkan_version_edit: ^v?(?<version>.+)$
 tags:
   - graphics
   - parts
 depends:
   - name: ModuleManager
+  - name: BluedogDB
+  - name: B9PartSwitch
   - name: Waterfall
 install:
   - find: BDBRL10-E-1
