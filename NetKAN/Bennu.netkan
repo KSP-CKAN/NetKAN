@@ -1,0 +1,20 @@
+identifier: Bennu
+name: Bennu
+$kref: '#/ckan/github/CritZitGaming/KSP-Bennu'
+$vref: '#/ckan/ksp-avc/Bennu/Bennu.version'
+x_netkan_version_edit: ^v?(?<version>.+)$
+license: CC-BY-NC-SA-4.0
+tags:
+  - config
+  - planet-pack
+depends:
+  - name: ModuleManager
+  - name: Kopernicus
+recommends:
+  - name: ParallaxContinued
+  - name: PlanetShine
+suggests:
+  - name: CommunityResourcePack
+  - name: SCANsat
+  - name: KerbalFX-RoverDust
+  - name: KerbalFX-ImpactPuffs
