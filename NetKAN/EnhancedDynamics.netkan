@@ -1,7 +1,13 @@
 identifier: EnhancedDynamics
+$kref: '#/ckan/github/extraext/EnhancedDynamics'
+$vref: '#/ckan/ksp-avc'
+---
+identifier: EnhancedDynamics
 $kref: '#/ckan/spacedock/4483'
 $vref: '#/ckan/ksp-avc'
 tags:
-  - config
   - plugin
+  - graphics
+depends:
+  - name: Harmony2
 x_via: Automated SpaceDock CKAN submission
