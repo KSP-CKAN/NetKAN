@@ -1,0 +1,8 @@
+identifier: TWRThrottleMarkerLite
+$kref: '#/ckan/spacedock/4442'
+tags:
+  - plugin
+install:
+  - find: TWRThrottleMarker
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
