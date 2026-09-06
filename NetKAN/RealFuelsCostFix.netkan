@@ -6,13 +6,10 @@ identifier: RealFuelsCostFix
 $kref: '#/ckan/spacedock/4370'
 $vref: '#/ckan/ksp-avc'
 tags:
-  - config
   - plugin
   - career
 depends:
   - name: ModuleManager
   - name: RealFuels
-install:
-  - find: RealFuelsCostFix
-    install_to: GameData
+    min_version: v15.14.0.0
 x_via: Automated SpaceDock CKAN submission
