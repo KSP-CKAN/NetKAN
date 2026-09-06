@@ -6,6 +6,8 @@ tags:
 depends:
   - name: ModuleManager
   - name: Kopernicus
+recommends:
+  - name: Scatterer
 install:
   - find: RimalSystem
     install_to: GameData
