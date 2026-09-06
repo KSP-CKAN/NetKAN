@@ -1,0 +1,19 @@
+identifier: KerbcastKos
+$kref: '#/ckan/github/ksp-gonogo/kerbcast/asset_match/KerbcastKos'
+$vref: '#/ckan/ksp-avc'
+x_netkan_version_edit: '^v?(?<version>.+)$'
+license: GPL-3.0
+---
+identifier: KerbcastKos
+$kref: '#/ckan/spacedock/4419'
+$vref: '#/ckan/ksp-avc'
+x_netkan_version_edit: '^v?(?<version>.+)$'
+license: GPL-3.0
+tags:
+  - plugin
+  - control
+depends:
+  - name: Kerbcast
+    min_version: '1.6.0'
+  - name: kOS
+    min_version: '1.6.0'
