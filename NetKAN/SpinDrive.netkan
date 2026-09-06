@@ -9,5 +9,6 @@ depends:
   - name: ModuleManager
   - name: FarFutureTechnologies
   - name: B9PartSwitch
+recommends:
   - name: Waterfall
 x_via: Automated SpaceDock CKAN submission
