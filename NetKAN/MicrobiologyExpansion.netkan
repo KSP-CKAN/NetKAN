@@ -1,10 +1,18 @@
 identifier: MicrobiologyExpansion
+$kref: '#/ckan/github/GrandAdmiralCrunch/MicrobiologyExpansion'
+x_netkan_version_edit: ^v?(?<version>.+)$
+---
+identifier: MicrobiologyExpansion
 $kref: '#/ckan/spacedock/4330'
+x_netkan_version_edit: ^v?(?<version>.+)$
 tags:
   - config
   - plugin
+  - science
 depends:
   - name: ModuleManager
+suggests:
+  - name: FinalFrontier
 install:
   - find: MicrobiologyExpansion
     install_to: GameData
