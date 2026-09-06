@@ -1,3 +1,9 @@
 identifier: TheUltimateFlagCollection
 $kref: '#/ckan/spacedock/4377'
+tags:
+  - flags
+install:
+  - find_regexp: TheUltimateFlagCollection.*
+    install_to: GameData
+    as: TheUltimateFlagCollection
 x_via: Automated SpaceDock CKAN submission
