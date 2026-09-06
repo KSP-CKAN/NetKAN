@@ -1,4 +1,4 @@
-identifier: PostvertaPorrimaSystemMessier81ACustomPlanetarySystem
+identifier: Messier-81
 $kref: '#/ckan/spacedock/4356'
 $vref: '#/ckan/ksp-avc'
 tags:
@@ -8,7 +8,12 @@ depends:
   - name: ModuleManager
   - name: Kopernicus
   - name: VertexMitchellNetravaliHeightMap
-install:
-  - find: Messier-81
-    install_to: GameData
+recommends:
+  - name: EnvironmentalVisualEnhancements
+  - name: ParallaxContinued
+  - name: Scatterer
+suggests:
+  - name: PlanetShine
+  - name: TextureReplacer
+  - name: PlanetFallEffects
 x_via: Automated SpaceDock CKAN submission
