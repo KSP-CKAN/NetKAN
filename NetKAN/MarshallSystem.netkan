@@ -1,5 +1,7 @@
 identifier: MarshallSystem
 $kref: '#/ckan/spacedock/4264'
+resources:
+  homepage: https://forum.kerbalspaceprogram.com/topic/230615-marshall-system
 tags:
   - config
   - planet-pack
@@ -8,3 +10,5 @@ depends:
   - name: Kopernicus
   - name: INSTANTIATOR
   - name: Harmony2
+recommends:
+  - name: Scatterer
