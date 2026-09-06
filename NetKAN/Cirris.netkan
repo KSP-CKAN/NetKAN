@@ -1,15 +1,15 @@
-identifier: CirrisReplacementStockalikeSolarSystemMod
+identifier: Cirris
 $kref: '#/ckan/github/smacksmig/CirrisStarSystemKSP'
 ---
-identifier: CirrisReplacementStockalikeSolarSystemMod
+identifier: Cirris
 $kref: '#/ckan/spacedock/4401'
+license: GPL-3.0
 tags:
   - config
   - planet-pack
 depends:
   - name: ModuleManager
   - name: Kopernicus
-install:
-  - find: Cirris
-    install_to: GameData
+recommends:
+  - name: Scatterer
 x_via: Automated SpaceDock CKAN submission
