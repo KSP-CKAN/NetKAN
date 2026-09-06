@@ -1,8 +1,7 @@
-identifier: EasyBoarding
+identifier: EzBoarding
 $kref: '#/ckan/spacedock/4329'
 tags:
   - plugin
-install:
-  - find: EzBoarding
-    install_to: GameData
+  - convenience
+  - crewed
 x_via: Automated SpaceDock CKAN submission
