@@ -1,4 +1,4 @@
-identifier: LittleLandsExpansionOPMConfig
+identifier: LittleLandsExpansion-OPMConfig
 $kref: '#/ckan/spacedock/4432'
 tags:
   - config
@@ -6,6 +6,8 @@ tags:
 depends:
   - name: ModuleManager
   - name: Kopernicus
+  - name: OuterPlanetsMod
+  - name: VertexHeightOblateAdvanced
 install:
   - find: LittleLandsExpansion(OPM)
     install_to: GameData
