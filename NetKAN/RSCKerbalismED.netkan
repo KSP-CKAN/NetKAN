@@ -1,0 +1,45 @@
+spec_version: 1
+
+identifier: RSCKerbalismED
+name: Rover Science Continued - Kerbalism Edition
+
+abstract: Compatibility and integration between Rover Science Continued and Kerbalism.
+
+description: Rover Science Continued - Kerbalism Edition is a compatibility mod that brings 
+  RSC experiments to Kerbalism. It preserves the RSC gameplay loop while fully 
+  integrating its Science Experiments and resulting samples with Kerbalism. 
+
+author: kaputzz
+
+license: Unlicense
+
+release_status: development
+
+ksp_version_min: 1.12
+ksp_version_max: 1.12.5
+
+$kref: '#/ckan/github/darco89/RSCKerbalismED'
+
+resources:
+  homepage: https://github.com/darco89/RSCKerbalismED
+  forum: https://forum.kerbalspaceprogram.com/topic/231723-rscked-rover-science-continued-kerbalism-edition/
+  repository: https://github.com/darco89/RSCKerbalismED
+  bugtracker: https://github.com/darco89/RSCKerbalismED/issues
+
+tags:
+  - rscke
+  - rsc
+  - kerbalism
+  - compatibility
+  - rover
+  - science
+
+depends:
+  - name: Kerbalism
+    min_version: 3.42
+  - name: RoverScienceCont
+    min_version: 2.3.5.9
+
+install:
+  - find: RSCKerbalismED
+    install_to: GameData
