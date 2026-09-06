@@ -1,4 +1,4 @@
-identifier: SurnussBetterTylo
+identifier: BetterTylo
 $kref: '#/ckan/spacedock/4313'
 tags:
   - config
@@ -6,8 +6,9 @@ tags:
 depends:
   - name: ModuleManager
   - name: Kopernicus
-install:
-  - find: BetterTylo
-    install_to: GameData
-    filter: .gitignore
+recommends:
+  - name: ParallaxContinued
+  - name: Scatterer
+suggests:
+  - name: KSPCommunityFixes
 x_via: Automated SpaceDock CKAN submission
