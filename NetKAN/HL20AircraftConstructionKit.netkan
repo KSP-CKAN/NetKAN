@@ -6,6 +6,10 @@ tags:
   - parts
 depends:
   - name: B9PartSwitch
+  - name: KSPWheel
+recommends:
+  - name: RasterPropMonitor-Core
+  - name: ASETProps
 install:
   - find: HL20_ConstructionKit
     install_to: GameData
