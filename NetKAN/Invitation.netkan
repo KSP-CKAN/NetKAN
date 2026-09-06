@@ -19,8 +19,8 @@ depends:
   - name: Kopernicus
   - name: GrannusExpansionPack
   - name: ContractConfigurator
-  - name: WaypointManager
   - name: SCANsat
-  - name: BonVoyage
 recommends:
   - name: GrannusExpansionPack-CommNet
+  - name: WaypointManager
+  - name: BonVoyage
