@@ -1,0 +1,28 @@
+{
+    "spec_version": "v1.28",
+    "identifier": "MultiStarRings",
+    "name": "MultiStarRings",
+    "abstract": "Replaces stock ring lighting with a shader that responds correctly to multi-star Kopernicus systems.",
+    "author": "jabaworks",
+    "license": "GPL-3.0",
+    "tags": [
+        "graphics",
+        "planets"
+    ],
+    "resources": {
+        "repository": "https://github.com/jabaworks/MultiStarRings",
+        "homepage": "https://github.com/jabaworks/MultiStarRings",
+        "bugtracker": "https://github.com/jabaworks/MultiStarRings/issues"
+    },
+    "depends": [
+        { "name": "Kopernicus" }
+    ],
+    "install": [
+        {
+            "find": "MultiStarRings",
+            "install_to": "GameData"
+        }
+    ],
+    "$kref": "#/ckan/github/jabaworks/MultiStarRings",
+    "$vref": "#/ckan/ksp-avc"
+}
