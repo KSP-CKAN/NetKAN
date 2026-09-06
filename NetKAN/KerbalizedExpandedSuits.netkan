@@ -2,6 +2,13 @@ identifier: KerbalizedExpandedSuits
 $kref: '#/ckan/spacedock/4243'
 tags:
   - config
+  - suits
+  - crewed
+  - graphics
+depends:
+  - name: MakingHistory-DLC
+recommends:
+  - name: Benjee10Suits
 install:
   - find: KerbalizedSuits_2
     install_to: GameData
