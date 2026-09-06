@@ -1,6 +1,9 @@
 identifier: AirplanePlusL
 $kref: '#/ckan/spacedock/4420'
 $vref: '#/ckan/ksp-avc'
+license:
+  - CC-BY-NC-SA
+  - GPL-2.0
 author:
   - blackheart612
   - Lisias
