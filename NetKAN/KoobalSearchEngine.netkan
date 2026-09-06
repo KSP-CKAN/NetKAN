@@ -6,5 +6,6 @@ identifier: KoobalSearchEngine
 $kref: '#/ckan/spacedock/4394'
 $vref: '#/ckan/ksp-avc'
 tags:
-  - config
   - plugin
+  - convenience
+  - editor
