@@ -8,4 +8,8 @@ $vref: '#/ckan/ksp-avc'
 tags:
   - config
   - plugin
+  - combat
+depends:
+  - name: BDArmory
+  - name: ModuleManager
 x_via: Automated SpaceDock CKAN submission
