@@ -4,7 +4,9 @@ tags:
   - config
 depends:
   - name: ModuleManager
+  - name: StationPartsExpansionRedux
 install:
-  - find: ''
-    install_to: GameData
+  - find_regexp: '.*\.cfg$'
+    find_matches_files: true
+    install_to: GameData/NoCrewtoInflateSSPXrParts
 x_via: Automated SpaceDock CKAN submission
