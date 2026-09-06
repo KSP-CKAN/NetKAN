@@ -1,0 +1,14 @@
+identifier: RealChinasAstronomySatellitePack
+$kref: '#/ckan/github/adouis-srpn/RCAS_Pack'
+license: CC-BY-NC-SA
+---
+identifier: RealChinasAstronomySatellitePack
+$kref: '#/ckan/spacedock/4216'
+tags:
+  - graphics
+  - parts
+depends:
+  - name: ModuleManager
+recommends:
+  - name: Waterfall
+x_via: Automated SpaceDock CKAN submission
