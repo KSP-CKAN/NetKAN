@@ -6,6 +6,6 @@ tags:
 depends:
   - name: TUFX
 install:
-  - find: MangoTech
-    install_to: GameData
+  - find: TUFX
+    install_to: GameData/MangoTech
 x_via: Automated SpaceDock CKAN submission
