@@ -8,6 +8,11 @@ depends:
   - name: ModuleManager
   - name: Kopernicus
   - name: VertexMitchellNetravaliHeightMap
+  - name: VertexColorMapEmissive
+recommends:
+  - name: ParallaxContinued
+  - name: Scatterer
+  - name: ScaledDecorator
 install:
   - find: TKK
     install_to: GameData
