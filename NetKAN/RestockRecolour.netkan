@@ -1,0 +1,21 @@
+identifier: RestockRecolour
+$kref: '#/ckan/github/likeproblem/RestockRecolour'
+---
+identifier: RestockRecolour
+$kref: '#/ckan/spacedock/3748'
+tags:
+  - config
+  - graphics
+depends:
+  - name: ModuleManager
+  - name: TexturesUnlimited
+  - name: ReStock
+  - name: ReStockPlus
+recommends:
+  - name: TURD-StockRecolour
+  - name: TURD-BreakingGround
+  - name: TURD-MakingHistory
+install:
+  - find: TURD/TU_Restock
+    install_to: GameData/TURD
+x_via: Automated SpaceDock CKAN submission
