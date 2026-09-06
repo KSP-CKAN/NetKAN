@@ -1,0 +1,12 @@
+identifier: DeepJeb
+name: DeepJeb - AI Assistant for Kerbal Space Program
+abstract: An in-game AI/LLM chat window that reads, writes, and helps you build.
+$kref: '#/ckan/github/Acea-K/DeepJeb'
+$vref: '#/ckan/ksp-avc'
+license:
+  - MIT
+  - GPL-2.0
+tags:
+  - plugin
+  - information
+  - editor
