@@ -1,0 +1,13 @@
+identifier: SpinDrive
+$kref: '#/ckan/github/NatoKerbal/Spin-Drive'
+---
+identifier: SpinDrive
+$kref: '#/ckan/spacedock/4300'
+tags:
+  - parts
+depends:
+  - name: ModuleManager
+  - name: FarFutureTechnologies
+  - name: B9PartSwitch
+  - name: Waterfall
+x_via: Automated SpaceDock CKAN submission
