@@ -1,0 +1,24 @@
+identifier: CustomScienceContracts-SOLConfig
+name: Custom Science Contracts - SOL Campaign
+abstract: >-
+  The Custom Science Contracts campaign profile for the SOL real-solar-system
+  planet pack.
+description: >-
+  Installs the handcrafted SOL campaign catalog for Custom Science Contracts.
+  Select this profile only for a game using the SOL planet pack; it references
+  bodies such as Earth, Moon, Mars, Jupiter and Saturn.
+author: timduebi
+license: GPL-3.0
+$kref: '#/ckan/github/timduebi/ksp-custom-science-contracts/version_from_asset/^CustomScienceContracts-v(?<version>[0-9.]+)_SOL-Config\.zip$'
+ksp_version_min: '1.12.0'
+ksp_version_max: '1.12.99'
+tags:
+  - config
+  - science
+provides:
+  - CustomScienceContracts-Config
+conflicts:
+  - name: CustomScienceContracts-Config
+install:
+  - find: Contracts
+    install_to: GameData/CustomScienceContracts
