@@ -7,7 +7,13 @@ depends:
   - name: ModuleManager
   - name: Kopernicus
   - name: VertexMitchellNetravaliHeightMap
+recommends:
+  - name: EnvironmentalVisualEnhancements
+  - name: Scatterer
+  - name: ParallaxContinued
 install:
-  - find: ''
+  - find: REX2_Configs
+    install_to: GameData
+  - find: REX2_Textures
     install_to: GameData
 x_via: Automated SpaceDock CKAN submission
