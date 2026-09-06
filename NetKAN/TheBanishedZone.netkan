@@ -1,0 +1,22 @@
+identifier: TheBanishedZone
+$kref: '#/ckan/github/idkthreennew-cell/The-Banished-Zone---TBZ'
+license: CC-BY-SA
+x_netkan_version_edit: ^v?(?<version>.+)$
+---
+identifier: TheBanishedZone
+$kref: '#/ckan/spacedock/4387'
+x_netkan_version_edit: ^v?(?<version>.+)$
+tags:
+  - config
+  - planet-pack
+depends:
+  - name: ModuleManager
+  - name: Kopernicus
+  - name: VertexColorMapEmissive
+recommends:
+  - name: Scatterer
+  - name: KSPCommunityFixes
+install:
+  - find: TBZ
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
