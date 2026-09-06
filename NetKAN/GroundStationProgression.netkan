@@ -2,6 +2,7 @@ identifier: GroundStationProgression
 $kref: '#/ckan/spacedock/4342'
 $vref: '#/ckan/ksp-avc'
 tags:
-  - config
   - plugin
+  - career
+  - comms
 x_via: Automated SpaceDock CKAN submission
