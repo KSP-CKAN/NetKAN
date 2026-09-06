@@ -11,6 +11,3 @@ tags:
 depends:
   - name: ModuleManager
   - name: BDArmoryForRunwayProject
-install:
-  - find: GameData
-    install_to: GameData
