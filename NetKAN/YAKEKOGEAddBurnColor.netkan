@@ -1,7 +1,8 @@
-identifier: YAKEKOGEAddBurnColorMOD
+identifier: YAKEKOGEAddBurnColor
 $kref: '#/ckan/spacedock/4360'
 tags:
   - config
+  - graphics
 depends:
   - name: ModuleManager
 install:
