@@ -7,6 +7,8 @@ depends:
   - name: ModuleManager
   - name: Kopernicus
   - name: VertexHeightOblateAdvanced
+conflicts:
+  - name: LittleLandsExpansion-OPMConfig
 install:
   - find: LittleLandsExpansion
     install_to: GameData
