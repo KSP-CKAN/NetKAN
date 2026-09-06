@@ -1,10 +1,15 @@
-identifier: Pe2845KerbinCity2026Instances
+identifier: KerbinCity2026Instances
 $kref: '#/ckan/spacedock/4232'
 tags:
   - buildings
   - config
 depends:
   - name: KerbalKonstructs
+  - name: KerbinSideRemastered
+  - name: OrdinaryKonstruction
+  - name: StockalikeStructures
+  - name: KSCFloodlightsMk2
+  - name: TundraSpaceCenter
 install:
   - find: KerbinKonstructs
     install_to: GameData
