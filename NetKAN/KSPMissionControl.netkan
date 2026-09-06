@@ -1,5 +1,5 @@
 identifier: KSPMissionControl
-$kref: '#/ckan/github/engbman/ksp-mission-control-download/asset_match/MissionControlMod_v[0-9.]+\.zip'
+$kref: '#/ckan/github/engbman/ksp-mission-control-download'
 x_netkan_version_edit: ^v?(?<version>.+)$
 ---
 identifier: KSPMissionControl
