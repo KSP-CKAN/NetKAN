@@ -3,8 +3,10 @@ $kref: '#/ckan/github/Jaheay/EasterEggsRestored'
 $vref: '#/ckan/ksp-avc'
 ---
 identifier: EasterEggsRestored
+name: Easter Eggs Restored
 $kref: '#/ckan/spacedock/4382'
 $vref: '#/ckan/ksp-avc'
+license: CC-BY-SA-4.0
 tags:
   - config
   - plugin
