@@ -1,4 +1,4 @@
-identifier: LittleLandsExpansionDefaultConfig
+identifier: LittleLandsExpansion-DefaultConfig
 $kref: '#/ckan/spacedock/4431'
 tags:
   - config
@@ -6,6 +6,7 @@ tags:
 depends:
   - name: ModuleManager
   - name: Kopernicus
+  - name: VertexHeightOblateAdvanced
 install:
   - find: LittleLandsExpansion
     install_to: GameData
