@@ -6,6 +6,10 @@ identifier: SpeedOfLightReadout
 $kref: '#/ckan/spacedock/4390'
 tags:
   - plugin
+  - information
+depends:
+  - name: ToolbarController
+  - name: ClickThroughBlocker
 install:
   - find: SpeedOfLightReadout
     install_to: GameData
