@@ -9,6 +9,12 @@ tags:
 depends:
   - name: ModuleManager
   - name: Kopernicus
+recommends:
+  - name: EnvironmentalVisualEnhancements
+  - name: ParallaxContinued
+  - name: Scatterer
+suggests:
+  - name: Firefly
 install:
   - find: Pollux
     install_to: GameData
