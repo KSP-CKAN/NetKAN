@@ -3,9 +3,26 @@ $kref: '#/ckan/spacedock/4247'
 $vref: '#/ckan/ksp-avc'
 tags:
   - config
+  - science
 depends:
   - name: ModuleManager
+  - name: RP-1
+  - name: Kerbalism-Config-RO
+  - name: RealSolarSystem
+suggests:
+  - name: StationPartsExpansionRedux
+  - name: HabTech2
+  - name: CxAerospace
+  - name: RN-SalyutStations
+  - name: RN-Skylab
+  - name: RN-SovietSpacecraft
+  - name: NearFutureConstruction
+  - name: NearFutureElectrical
+  - name: NearFutureSolar
+  - name: ROCapsules
+  - name: ROTanks
+  - name: ROSolar
 install:
-  - find: ''
+  - find: RP-1-Extended Science
     install_to: GameData
 x_via: Automated SpaceDock CKAN submission
