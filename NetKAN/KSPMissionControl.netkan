@@ -1,12 +1,14 @@
 identifier: KSPMissionControl
-$kref: '#/ckan/github/engbman/ksp-mission-control-download'
+$kref: '#/ckan/github/engbman/ksp-mission-control-download/asset_match/MissionControlMod_v[0-9.]+\.zip'
 x_netkan_version_edit: ^v?(?<version>.+)$
 ---
 identifier: KSPMissionControl
 $kref: '#/ckan/spacedock/4378'
 tags:
   - plugin
+depends:
+  - name: kRPC
 install:
-  - find: ''
+  - find: MissionControlMod
     install_to: GameData
 x_via: Automated SpaceDock CKAN submission
