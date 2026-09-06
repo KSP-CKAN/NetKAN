@@ -1,6 +1,9 @@
 identifier: GalacticDisk
 $kref: '#/ckan/spacedock/4384'
 tags:
-  - config
   - plugin
+  - graphics
+depends:
+  - name: ScaledDecorator
+  - name: ModuleManager
 x_via: Automated SpaceDock CKAN submission
