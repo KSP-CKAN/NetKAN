@@ -9,7 +9,6 @@ tags:
 depends:
   - name: ModuleManager
 install:
-  - find: PawskersIncorporatedRestructured_v0_3_1
+  - find: PawskersIncRestructured
     install_to: GameData
-    filter: .git
 x_via: Automated SpaceDock CKAN submission
