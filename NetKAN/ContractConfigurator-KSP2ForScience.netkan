@@ -1,10 +1,13 @@
-identifier: ContractPackKSP2ForScienceKSP2ExplorationModeinKSP1
+identifier: ContractConfigurator-KSP2ForScience
 $kref: '#/ckan/spacedock/4398'
 tags:
+  - agency
   - career
   - config
 depends:
   - name: ContractConfigurator
+suggests:
+  - name: WaypointManager
 install:
   - find: ContractPacks
     install_to: GameData
