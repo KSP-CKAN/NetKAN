@@ -1,0 +1,13 @@
+identifier: RecolorCollection-InfernalRoboticsNext
+$kref: '#/ckan/spacedock/4373'
+tags:
+  - config
+  - graphics
+depends:
+  - name: ModuleManager
+  - name: TexturesUnlimited
+  - name: InfernalRoboticsNext
+install:
+  - find: TU_MagicSmoke
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
