@@ -5,4 +5,6 @@ tags:
   - config
 depends:
   - name: KerbalKonstructs
+suggests:
+  - name: Conifers
 x_via: Automated SpaceDock CKAN submission
