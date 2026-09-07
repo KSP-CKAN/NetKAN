@@ -6,6 +6,7 @@ tags:
 depends:
   - name: ModuleManager
   - name: Kopernicus
+  - name: OuterPlanetsMod
 install:
   - find: PlockPlus
     install_to: GameData
