@@ -1,11 +1,10 @@
 identifier: ArmorControl
-$kref: '#/ckan/github/Armo00/ArmorControl'
-x_netkan_github:
-  use_source_archive: true
----
-identifier: ArmorControl
 $kref: '#/ckan/spacedock/4542'
 tags:
-  - config
   - plugin
+  - app
+  - information
+  - control
+recommends:
+  - name: MechJeb2
 x_via: Automated SpaceDock CKAN submission
