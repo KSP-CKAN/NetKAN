@@ -1,0 +1,9 @@
+identifier: KerbalCivilizationProjectKCP
+$kref: '#/ckan/spacedock/4544'
+tags:
+  - config
+  - plugin
+install:
+  - find: KCP
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
