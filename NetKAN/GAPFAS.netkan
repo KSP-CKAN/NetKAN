@@ -1,22 +1,17 @@
 identifier: GAPFAS
-$kref: '#/ckan/github/caerfinon/GAPFAS'
-x_netkan_github:
-  use_source_archive: true
-x_netkan_version_edit: ^v?(?<version>.+)$
----
-identifier: GAPFAS
 $kref: '#/ckan/spacedock/4540'
+x_netkan_version_edit: ^v?(?<version>.+)$
 tags:
   - career
   - parts
+  - agency
 depends:
   - name: ModuleManager
   - name: ContractConfigurator
-install:
-  - find: GAPFAS
-    install_to: GameData
-    filter: .gitignore
-    filter_regexp: \.craft$
-  - file: GAPFAS-1.0.0/GameData/GAPFAS/Assets/Ships/MissingAircraft.craft
-    install_to: Ships/SPH
+  - name: KerbalKonstructs
+  - name: WaypointManager
+suggests:
+  - name: NavUtilitiesContinued
+  - name: KramaxAutopilotContinued
+  - name: MechJeb2
 x_via: Automated SpaceDock CKAN submission
