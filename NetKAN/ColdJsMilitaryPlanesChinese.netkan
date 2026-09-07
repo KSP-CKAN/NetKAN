@@ -4,12 +4,14 @@ tags:
   - crewed
   - first-person
   - parts
+recommends:
+  - name: BreakingGround-DLC
+  - name: RasterPropMonitor
 install:
   - find: CJMP
     install_to: GameData
     filter_regexp: \.craft$
-  - file: GameData/CJMP/Craft/J-10.craft
-    install_to: Ships/SPH
-  - file: GameData/CJMP/Craft/J-20 New.craft
-    install_to: Ships/SPH
+  - find: Craft
+    install_to: Ships
+    as: SPH
 x_via: Automated SpaceDock CKAN submission
