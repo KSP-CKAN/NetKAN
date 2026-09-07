@@ -1,9 +1,13 @@
 identifier: BetterLaythe
 $kref: '#/ckan/spacedock/4125'
+resources:
+  homepage: https://forum.kerbalspaceprogram.com/topic/229665-better-laythe/
 tags:
   - config
   - planet-pack
 depends:
   - name: ModuleManager
   - name: Kopernicus
+  - name: Scatterer
+  - name: ParallaxContinued
 x_via: Automated SpaceDock CKAN submission
