@@ -1,0 +1,15 @@
+identifier: KerbalCivilizationProject
+$kref: '#/ckan/github/KerbalMissile/Kerbal-Civilization-Project'
+---
+identifier: KerbalCivilizationProject
+$kref: '#/ckan/spacedock/4544'
+license: GPL-3.0
+tags:
+  - plugin
+  - buildings
+depends:
+  - name: RealSolarSystem
+install:
+  - find: KCP
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
