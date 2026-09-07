@@ -1,0 +1,10 @@
+identifier: ArmorControl
+$kref: '#/ckan/spacedock/4542'
+tags:
+  - plugin
+  - app
+  - information
+  - control
+recommends:
+  - name: MechJeb2
+x_via: Automated SpaceDock CKAN submission
