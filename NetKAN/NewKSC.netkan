@@ -5,10 +5,8 @@ tags:
   - config
 depends:
   - name: KerbalKonstructs
-install:
-  - find: NewKSC
-    install_to: GameData
-    filter:
-      - __MACOSX
-      - .DS_Store
+  - name: KerbinSideRemastered
+  - name: TundraSpaceCenter
+  - name: OrdinaryKonstruction
+  - name: StockalikeStructures
 x_via: Automated SpaceDock CKAN submission
