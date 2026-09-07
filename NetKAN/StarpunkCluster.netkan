@@ -1,10 +1,25 @@
 identifier: StarpunkCluster
 $kref: '#/ckan/github/plantman-dev/Starpunk-Cluster'
+license: CC-BY-NC-ND-4.0
+abstract: A path into uncharted space
+ksp_version: '1.12'
 x_netkan_version_edit: ^v?(?<version>.+)$
----
-identifier: StarpunkCluster
-$kref: '#/ckan/spacedock/4178'
+resources:
+  homepage: https://forum.kerbalspaceprogram.com/topic/229135-112x-v121-starpunk-cluster-agaea-release/
+tags:
+  - config
+  - planet-pack
+depends:
+  - name: ModuleManager
+  - name: Kopernicus
+  - name: VertexMitchellNetravaliHeightMap
+  - name: VertexHeightOblateAdvanced
+  - name: VertexColorMapEmissive
+  - name: ScaledDecorator
+recommends:
+  - name: Scatterer
+  - name: EnvironmentalVisualEnhancements
+  - name: ParallaxContinued
 install:
-  - find: Starpunk
+  - find_regexp: ^GameData/SC-[^/]+(/|$)
     install_to: GameData
-x_via: Automated SpaceDock CKAN submission
