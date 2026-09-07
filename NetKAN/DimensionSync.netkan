@@ -1,0 +1,26 @@
+identifier: DimensionSync
+name: Dimension Sync
+abstract: >-
+  Keeps the dimensions of connected parts in step: resize one procedural part
+  and the change travels along the stack, or from one wing segment's tip to the
+  next segment's root.
+author: sparr
+$kref: '#/ckan/github/sparr/ksp-mod-DimensionSync'
+$vref: '#/ckan/ksp-avc'
+license: MIT
+tags:
+  - plugin
+  - editor
+  - convenience
+recommends:
+  - name: ModuleManager
+depends:
+  - Harmony2
+suggests:
+  - name: ProceduralParts
+  - name: ProceduralFairings
+  - name: B9-PWings-Fork
+  - name: ROLib
+install:
+  - find: DimensionSync
+    install_to: GameData
