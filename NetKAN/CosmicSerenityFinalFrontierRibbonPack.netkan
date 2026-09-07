@@ -1,5 +1,13 @@
 identifier: CosmicSerenityFinalFrontierRibbonPack
 $kref: '#/ckan/spacedock/4195'
+tags:
+  - config
+  - crewed
+depends:
+  - name: FinalFrontier
+  - any_of:
+      - name: CosmicSerenity-Anubis
+      - name: CosmicSerenity-Hades
 install:
   - find: Nereid
     install_to: GameData
