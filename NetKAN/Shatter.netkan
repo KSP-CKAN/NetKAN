@@ -6,10 +6,13 @@ tags:
 depends:
   - name: ModuleManager
   - name: Kopernicus
+suggests:
+  - name: Firefly
 install:
-  - find: ''
+  - find: Shatter
     install_to: GameData
     filter:
       - __MACOSX
       - .DS_Store
+      - .vs
 x_via: Automated SpaceDock CKAN submission
