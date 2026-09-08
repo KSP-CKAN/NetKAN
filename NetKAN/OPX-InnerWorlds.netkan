@@ -1,7 +1,7 @@
-identifier: OPXInnerWorlds
+identifier: OPX-InnerWorlds
 $kref: '#/ckan/github/TheMinmusDerp/OPX-InnerWorlds/version_from_asset/^OPXIW-(?<version>.+)\.zip$'
 ---
-identifier: OPXInnerWorlds
+identifier: OPX-InnerWorlds
 $kref: '#/ckan/spacedock/3710'
 tags:
   - config
