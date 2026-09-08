@@ -1,19 +1,17 @@
 identifier: OPXInnerWorlds
-$kref: '#/ckan/github/TheMinmusDerp/OPX-InnerWorlds'
-x_netkan_version_edit: ^alpha?(?<version>.+)$
+$kref: '#/ckan/github/TheMinmusDerp/OPX-InnerWorlds/version_from_asset/^OPXIW-(?<version>.+)\.zip$'
 ---
 identifier: OPXInnerWorlds
 $kref: '#/ckan/spacedock/3710'
 tags:
   - config
   - planet-pack
-  - plugin
 depends:
   - name: ModuleManager
   - name: Kopernicus
   - name: VertexMitchellNetravaliHeightMap
 install:
-  - find: ''
+  - find: OPX-InnerWorlds
     install_to: GameData
     filter:
       - __MACOSX
