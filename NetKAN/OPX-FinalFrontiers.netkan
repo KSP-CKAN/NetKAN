@@ -1,19 +1,18 @@
-identifier: OPXFinalFrontiers
-$kref: '#/ckan/github/TheMinmusDerp/OPX-FinalFrontiers'
-x_netkan_version_edit: ^beta?(?<version>.+)$
+identifier: OPX-FinalFrontiers
+$kref: '#/ckan/github/TheMinmusDerp/OPX-FinalFrontiers/version_from_asset/^OPXFF-(?<version>.+)\.zip$'
 ---
-identifier: OPXFinalFrontiers
+identifier: OPX-FinalFrontiers
 $kref: '#/ckan/spacedock/3925'
 tags:
   - config
   - planet-pack
-  - plugin
 depends:
   - name: ModuleManager
   - name: Kopernicus
   - name: VertexMitchellNetravaliHeightMap
+  - name: VertexHeightOblateAdvanced
 install:
-  - find: ''
+  - find: OPX-FinalFrontiers
     install_to: GameData
     filter:
       - __MACOSX
