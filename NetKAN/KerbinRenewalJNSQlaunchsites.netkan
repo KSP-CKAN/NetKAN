@@ -6,6 +6,17 @@ tags:
 depends:
   - name: ModuleManager
   - name: KerbalKonstructs
+  - name: JNSQ
+  - name: KerbinSideRemastered
+  - name: StockalikeStructures
+  - name: TundraSpaceCenter
+  - name: OrdinaryKonstruction
+recommends:
+  - name: BluedogDB
+  - name: ModularLaunchPads
+suggests:
+  - name: AirplanePlus
+  - name: NavUtilitiesContinued
 install:
   - find: JNSQ Kerbin Renewal
     install_to: GameData
