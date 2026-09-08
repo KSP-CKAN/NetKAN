@@ -1,0 +1,25 @@
+{
+    "spec_version": 1,
+    "identifier": "RuKER",
+    "name": "Kerbal Engineer Redux - Русская версия",
+    "abstract": "Полностью переведённая на русский язык версия мода Kerbal Engineer Redux. Не требует установки оригинального KER.",
+    "author": "sherhan19",
+    "license": "GPL-3.0",
+    "ksp_version": "1.12.5",
+    "depends": [],
+    "conflicts": [
+        { "name": "KerbalEngineerRedux" }
+    ],
+    "provides": [ "KerbalEngineerRedux" ],
+    "install": [
+        {
+            "find": "GameData/RuKER",
+            "install_to": "GameData"
+        }
+    ],
+    "resources": {
+        "homepage": "https://github.com/sherhan19/RuKER",
+        "repository": "https://github.com/sherhan19/RuKER",
+        "bugs": "https://github.com/sherhan19/RuKER/issues"
+    }
+}
