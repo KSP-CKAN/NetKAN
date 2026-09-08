@@ -1,4 +1,4 @@
-identifier: KSRSSSecondary
+identifier: KSRSS-Secondary
 $kref: '#/ckan/spacedock/3996'
 $vref: '#/ckan/ksp-avc'
 tags:
@@ -7,7 +7,7 @@ tags:
 depends:
   - name: ModuleManager
   - name: Kopernicus
-install:
-  - find: KSRSS-Secondary
-    install_to: GameData
+recommends:
+  - name: EnvironmentalVisualEnhancements
+  - name: Scatterer
 x_via: Automated SpaceDock CKAN submission
