@@ -6,6 +6,8 @@ tags:
 depends:
   - name: ModuleManager
   - name: Kopernicus
+supports:
+  - name: OuterPlanetsMod
 install:
   - find: Pilots System Rearranger
     install_to: GameData
