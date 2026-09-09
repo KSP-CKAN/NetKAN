@@ -14,6 +14,7 @@ conflicts:
   - name: TACLS
   - name: Snacks
   - name: USI-LS
+  - name: BluedogDB
 depends:
   - name: ModuleManager
   - name: Kerbalism
