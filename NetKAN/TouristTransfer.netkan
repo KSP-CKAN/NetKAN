@@ -3,7 +3,6 @@ name: Tourist Transfer
 abstract: Transfer tourists between crew compartments by tourism contract.
 author: maddavo
 license: MIT
-release_status: testing
 ksp_version: 1.12.5
 $kref: '#/ckan/github/maddavo/TouristTransfer'
 tags:
