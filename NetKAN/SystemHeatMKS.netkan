@@ -1,0 +1,20 @@
+identifier: SystemHeatMKS
+name: SystemHeat MKS
+abstract: >-
+  Adds SystemHeat support for MKS/USI converters, harvesters, and heat pumps.
+author: maddavo
+license: MIT
+$kref: '#/ckan/github/maddavo/SystemHeatMKS'
+$vref: '#/ckan/ksp-avc/SystemHeatMKS.version'
+resources:
+  repository: https://github.com/maddavo/SystemHeatMKS
+tags:
+  - parts
+  - plugin
+depends:
+  - name: ModuleManager
+  - name: SystemHeat
+  - name: UKS
+install:
+  - find: SystemHeatMKS
+    install_to: GameData
