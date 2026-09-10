@@ -1,0 +1,9 @@
+identifier: KerbalEjection
+$kref: '#/ckan/github/Liam-Adkins/KerbalEjection'
+x_netkan_version_edit: ^v?(?<version>.+)$
+---
+identifier: KerbalEjection
+$kref: '#/ckan/spacedock/4230'
+tags:
+  - plugin
+x_via: Automated SpaceDock CKAN submission
