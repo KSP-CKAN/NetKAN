@@ -11,3 +11,5 @@ suggests:
 install:
   - find: ContractPacks
     install_to: GameData
+  - find: Ships/VAB
+    install_to: Ships
