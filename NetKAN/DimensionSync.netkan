@@ -15,7 +15,7 @@ tags:
 recommends:
   - name: ModuleManager
 depends:
-  - Harmony2
+  - name: Harmony2
 suggests:
   - name: ProceduralParts
   - name: ProceduralFairings
