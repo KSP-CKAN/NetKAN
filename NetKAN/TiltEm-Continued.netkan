@@ -17,6 +17,6 @@ tags:
   - plugin
   - physics
 depends:
-  - ModuleManager
-  - Kopernicus
-  - Harmony2
+  - name: ModuleManager
+  - name: Kopernicus
+  - name: Harmony2
