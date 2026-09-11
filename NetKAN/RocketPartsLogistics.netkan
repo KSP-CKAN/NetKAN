@@ -1,0 +1,14 @@
+identifier: RocketPartsLogistics
+$kref: '#/ckan/github/mebiusring7-bit/RocketParts-Logistics'
+---
+identifier: RocketPartsLogistics
+$kref: '#/ckan/spacedock/4334'
+tags:
+  - parts
+  - resources
+  - config
+depends:
+  - name: ModuleManager
+  - name: UKS
+suggests:
+  - name: ExtraPlanetaryLaunchpads

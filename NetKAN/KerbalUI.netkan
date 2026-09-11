@@ -1,0 +1,13 @@
+identifier: KerbalUI
+$kref: '#/ckan/spacedock/4391'
+$vref: '#/ckan/ksp-avc'
+tags:
+  - config
+  - plugin
+  - graphics
+depends:
+  - name: ModuleManager
+  - name: HUDReplacer
+conflicts:
+  - name: ZTheme
+x_via: Automated SpaceDock CKAN submission

@@ -10,7 +10,7 @@ depends:
   - name: ModuleManager
   - name: Kerbalism-Config
   - name: SystemHeat
-suggests:
+recommends:
   - name: KerbalismSystemHeatCompat
 conflicts:
   - name: Kerbalism-FarFutureTechnologies

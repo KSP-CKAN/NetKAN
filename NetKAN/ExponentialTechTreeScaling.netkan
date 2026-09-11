@@ -1,0 +1,8 @@
+identifier: ExponentialTechTreeScaling
+$kref: '#/ckan/spacedock/4380'
+tags:
+  - config
+  - tech-tree
+depends:
+  - name: ModuleManager
+x_via: Automated SpaceDock CKAN submission

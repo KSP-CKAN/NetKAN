@@ -1,0 +1,20 @@
+identifier: TheWorldOfRocksAndBones
+$kref: '#/ckan/spacedock/4527'
+$vref: '#/ckan/ksp-avc'
+license: restricted
+tags:
+  - config
+  - planet-pack
+depends:
+  - name: ModuleManager
+  - name: Kopernicus
+  - name: Singularity
+recommends:
+  - name: LoadingScreenManager
+  - name: EnvironmentalVisualEnhancements
+  - name: Scatterer
+  - name: ParallaxContinued
+install:
+  - find: EridPHM
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission

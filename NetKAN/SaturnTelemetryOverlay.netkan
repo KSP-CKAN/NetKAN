@@ -1,0 +1,12 @@
+identifier: SaturnTelemetryOverlay
+$kref: '#/ckan/spacedock/4448'
+license: MIT
+install:
+  - find: saturn-telemetry-overlay
+    install_to: GameData
+tags:
+  - app
+  - information
+depends:
+  - name: kRPC
+x_via: Automated SpaceDock CKAN submission

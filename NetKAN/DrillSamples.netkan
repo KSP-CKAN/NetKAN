@@ -1,0 +1,8 @@
+identifier: DrillSamples
+$kref: '#/ckan/spacedock/4328'
+tags:
+  - config
+  - science
+depends:
+  - name: ModuleManager
+x_via: Automated SpaceDock CKAN submission

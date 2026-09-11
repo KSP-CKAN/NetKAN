@@ -1,0 +1,23 @@
+identifier: OverkillPlumes
+$kref: '#/ckan/github/QuantumsHevy/OverkillPlumes'
+$vref: '#/ckan/ksp-avc'
+---
+identifier: OverkillPlumes
+$kref: '#/ckan/spacedock/4447'
+$vref: '#/ckan/ksp-avc'
+tags:
+  - config
+  - graphics
+depends:
+  - name: ModuleManager
+  - name: Waterfall
+  - name: B9PartSwitch
+recommends:
+  - name: FarFutureTechnologies
+  - name: StockWaterfallEffects
+suggests:
+  - name: ReStock
+  - name: ReStockPlus
+conflicts:
+  - name: KerbalAtomics
+x_via: Automated SpaceDock CKAN submission

@@ -1,0 +1,13 @@
+identifier: LunaQuicksave
+abstract: >-
+  Personal vessel quicksave and quickload for Luna Multiplayer. Press F5
+  to save and F9 to restore while connected to an LMP server.
+author: Monika
+$kref: '#/ckan/github/iplusplus-nl/LunaQuicksave'
+$vref: '#/ckan/ksp-avc'
+tags:
+  - plugin
+  - convenience
+depends:
+  - name: LunaMultiplayer
+  - name: Harmony2

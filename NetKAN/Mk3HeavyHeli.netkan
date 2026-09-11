@@ -1,0 +1,18 @@
+identifier: Mk3HeavyHeli
+$kref: '#/ckan/spacedock/4149'
+tags:
+  - crewed
+  - first-person
+  - parts
+depends:
+  - name: BreakingGround-DLC
+suggests:
+  - name: RasterPropMonitor
+install:
+  - find: Mk3HeavyHeli
+    install_to: GameData
+    filter_regexp: \.craft$
+  - find_regexp: .*\.craft$
+    install_to: Ships/SPH
+    find_matches_files: true
+x_via: Automated SpaceDock CKAN submission

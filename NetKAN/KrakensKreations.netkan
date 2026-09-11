@@ -1,0 +1,12 @@
+identifier: KrakensKreations
+$kref: '#/ckan/spacedock/4441'
+tags:
+  - plugin
+  - graphics
+  - sound
+suggests:
+  - name: TUFX
+install:
+  - find: "Kraken's Kreations"
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission

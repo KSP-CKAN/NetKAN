@@ -1,0 +1,13 @@
+identifier: TURD-KerbalReusabilityExpansion
+$kref: '#/ckan/spacedock/4385'
+tags:
+  - config
+  - graphics
+depends:
+  - name: ModuleManager
+  - name: TexturesUnlimited
+  - name: SpaceXLegs
+install:
+  - find: TU_KRE
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission

@@ -1,0 +1,13 @@
+identifier: KSRSS-Secondary
+$kref: '#/ckan/spacedock/3996'
+$vref: '#/ckan/ksp-avc'
+tags:
+  - config
+  - planet-pack
+depends:
+  - name: ModuleManager
+  - name: Kopernicus
+recommends:
+  - name: EnvironmentalVisualEnhancements
+  - name: Scatterer
+x_via: Automated SpaceDock CKAN submission

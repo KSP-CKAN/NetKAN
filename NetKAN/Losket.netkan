@@ -1,0 +1,15 @@
+identifier: Losket
+$kref: '#/ckan/github/Wylgrif/Losket'
+$vref: '#/ckan/ksp-avc'
+x_netkan_version_edit: ^v?(?<version>.+)$
+---
+identifier: Losket
+$kref: '#/ckan/spacedock/4515'
+$vref: '#/ckan/ksp-avc'
+x_netkan_version_edit: ^v?(?<version>.+)$
+tags:
+  - plugin
+  - graphics
+depends:
+  - name: ModuleManager
+x_via: Automated SpaceDock CKAN submission

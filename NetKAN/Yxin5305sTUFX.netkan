@@ -1,0 +1,11 @@
+identifier: Yxin5305sTUFX
+$kref: '#/ckan/spacedock/3920'
+tags:
+  - config
+  - graphics
+depends:
+  - name: TUFX
+install:
+  - find_regexp: \.cfg$
+    find_matches_files: true
+    install_to: GameData/Oxygen5305sTUFX

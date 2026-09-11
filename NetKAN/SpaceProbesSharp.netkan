@@ -1,0 +1,12 @@
+identifier: SpaceProbesSharp
+$kref: '#/ckan/spacedock/4533'
+license: restricted
+tags:
+  - parts
+  - science
+depends:
+  - name: ModuleManager
+  - name: Waterfall
+suggests:
+  - name: BluedogDB
+x_via: Automated SpaceDock CKAN submission

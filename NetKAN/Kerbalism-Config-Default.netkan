@@ -18,6 +18,7 @@ depends:
   - name: Kerbalism
 recommends:
   - name: KerbalismEngineFailures
+  - name: Kerbalism-SystemHeat
 conflicts:
   - name: Kerbalism-Config
   - name: UKS

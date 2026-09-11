@@ -1,0 +1,14 @@
+identifier: Pandopolpus
+$kref: '#/ckan/spacedock/4514'
+tags:
+  - config
+  - planet-pack
+depends:
+  - name: ModuleManager
+  - name: Kopernicus
+recommends:
+  - name: EnvironmentalVisualEnhancements
+  - name: ParallaxContinued
+  - name: Scatterer
+  - name: Firefly
+x_via: Automated SpaceDock CKAN submission

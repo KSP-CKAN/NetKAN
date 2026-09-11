@@ -1,0 +1,22 @@
+identifier: CustomScienceContracts-StockConfig
+name: Custom Science Contracts - Stock Campaign
+abstract: >-
+  The recommended Custom Science Contracts campaign profile for the normal Stock
+  Kerbol system.
+description: >-
+  Installs the Stock Kerbol campaign catalog for Custom Science Contracts. This
+  is the recommended default for games that do not use the SOL planet pack.
+author: timduebi
+license: GPL-3.0
+$kref: '#/ckan/github/timduebi/ksp-custom-science-contracts/version_from_asset/^CustomScienceContracts-v(?<version>[0-9.]+)\.zip$'
+$vref: '#/ckan/ksp-avc'
+tags:
+  - config
+  - science
+provides:
+  - CustomScienceContracts-Config
+conflicts:
+  - name: CustomScienceContracts-Config
+install:
+  - find: Contracts
+    install_to: GameData/CustomScienceContracts

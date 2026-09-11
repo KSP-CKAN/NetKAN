@@ -1,0 +1,17 @@
+identifier: KALvionics
+$kref: '#/ckan/spacedock/4358'
+$vref: '#/ckan/ksp-avc'
+tags:
+  - config
+  - plugin
+depends:
+  - name: ModuleManager
+  - name: BreakingGround-DLC
+install:
+  - find: KALvionics
+    install_to: GameData
+    filter_regexp: (\.pdb|\.craft)$
+  - find_regexp: .*\.craft$
+    install_to: Ships/SPH
+    find_matches_files: true
+x_via: Automated SpaceDock CKAN submission
