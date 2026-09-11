@@ -2,6 +2,8 @@ identifier: TiltEm-Continued
 abstract: >-
   Working axial tilts for KSP!
 $kref: '#/ckan/github/ballisticfox/TiltEm-Continued'
+x_netkan_github:
+  asset_match: '^TiltEm-Continued_v\d+\.\d+\.\d+\.zip$'
 author:
   - ballisticfox
   - dagger
