@@ -4,6 +4,9 @@ abstract: >-
 $kref: '#/ckan/github/ballisticfox/TiltEm-Continued'
 x_netkan_github:
   asset_match: '^TiltEm-Continued_v\d+\.\d+\.\d+\.zip$'
+install:
+  - find: TiltEm
+    install_to: GameData
 author:
   - ballisticfox
   - dagger
