@@ -1,0 +1,9 @@
+identifier: KSP2HeadsHumansKerbals
+$kref: '#/ckan/github/bielbi6/KSP2-Heads'
+---
+identifier: KSP2HeadsHumansKerbals
+$kref: '#/ckan/spacedock/4446'
+install:
+  - find: ''
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
