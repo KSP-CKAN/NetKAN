@@ -1,0 +1,21 @@
+identifier: TouristTransfer
+name: Tourist Transfer
+abstract: Transfer tourists between crew compartments by tourism contract.
+author: maddavo
+license: MIT
+ksp_version: 1.12.5
+$kref: '#/ckan/github/maddavo/TouristTransfer'
+tags:
+  - plugin
+  - convenience
+  - crew
+  - contracts
+depends:
+  - name: ModuleManager
+resources:
+  homepage: https://github.com/maddavo/TouristTransfer
+  repository: https://github.com/maddavo/TouristTransfer
+  bugtracker: https://github.com/maddavo/TouristTransfer/issues
+install:
+  - find: GameData/TouristTransfer
+    install_to: GameData
