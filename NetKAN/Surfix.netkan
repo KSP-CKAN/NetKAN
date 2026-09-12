@@ -1,0 +1,14 @@
+identifier: Surfix
+$kref: '#/ckan/github/Vannadin/SurFix'
+x_netkan_version_edit: ^v?(?<version>.+)$
+$vref: '#/ckan/ksp-avc'
+---
+identifier: Surfix
+$kref: '#/ckan/spacedock/4549'
+$vref: '#/ckan/ksp-avc'
+tags:
+  - plugin
+install:
+  - find: SurFix
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
