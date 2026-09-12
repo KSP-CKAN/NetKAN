@@ -1,0 +1,16 @@
+identifier: KSPLeakReducer
+$kref: '#/ckan/github/appaKappaK/KSPLeakReducer'
+x_netkan_version_edit: ^v?(?<version>.+)$
+$vref: '#/ckan/ksp-avc'
+---
+identifier: KSPLeakReducer
+$kref: '#/ckan/spacedock/4344'
+$vref: '#/ckan/ksp-avc'
+tags:
+  - config
+  - plugin
+install:
+  - find: KSPLeakReducer
+    install_to: GameData
+    filter_regexp: \.mdb$
+x_via: Automated SpaceDock CKAN submission
