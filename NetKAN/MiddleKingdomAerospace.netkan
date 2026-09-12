@@ -1,0 +1,12 @@
+identifier: MiddleKingdomAerospace
+$kref: '#/ckan/github/Kari1407/Middle-Kingdom-Aerospace'
+$vref: '#/ckan/ksp-avc'
+---
+identifier: MiddleKingdomAerospace
+$kref: '#/ckan/spacedock/4317'
+$vref: '#/ckan/ksp-avc'
+tags:
+  - parts
+install:
+  - find: MiddleKingdomAerospace
+    install_to: GameData
