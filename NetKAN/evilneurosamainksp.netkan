@@ -1,6 +1,8 @@
 identifier: evilneurosamainksp
 $kref: '#/ckan/spacedock/4169'
+tags:
+  - parts
 install:
-  - find: evilplush
+  - find: Evilplush
     install_to: GameData
 x_via: Automated SpaceDock CKAN submission
