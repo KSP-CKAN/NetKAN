@@ -1,0 +1,131 @@
+identifier: DLCforFree
+$kref: '#/ckan/spacedock/4554'
+tags:
+  - crewed
+  - first-person
+  - parts
+install:
+  - find: SquadExpansion
+    install_to: GameData
+    filter_regexp: \.craft$
+  - file: GameData/SquadExpansion/MakingHistory/Missions/Acapello 
+      13/Ships/VAB/Apollo 11.craft
+    install_to: Ships/VAB
+  - file: GameData/SquadExpansion/MakingHistory/Missions/Acapello 
+      15/Ships/VAB/AeroEquus.craft
+    install_to: Ships/VAB
+  - file: GameData/SquadExpansion/MakingHistory/Missions/Acapello 
+      15/Ships/VAB/ComSat Lx.craft
+    install_to: Ships/VAB
+  - file: GameData/SquadExpansion/MakingHistory/Missions/Acapello 
+      15/Ships/VAB/Dynawing.craft
+    install_to: Ships/VAB
+  - file: GameData/SquadExpansion/MakingHistory/Missions/Acapello 
+      15/Ships/VAB/GDLV3.craft
+    install_to: Ships/VAB
+  - file: GameData/SquadExpansion/MakingHistory/Missions/Acapello 
+      15/Ships/VAB/Ion-Powered Space Probe.craft
+    install_to: Ships/VAB
+  - file: GameData/SquadExpansion/MakingHistory/Missions/Acapello 
+      15/Ships/VAB/Jumping Flea.craft
+    install_to: Ships/VAB
+  - file: GameData/SquadExpansion/MakingHistory/Missions/Acapello 
+      15/Ships/VAB/Kerbal 1.craft
+    install_to: Ships/VAB
+  - file: GameData/SquadExpansion/MakingHistory/Missions/Acapello 
+      15/Ships/VAB/Kerbal 1-5.craft
+    install_to: Ships/VAB
+  - file: GameData/SquadExpansion/MakingHistory/Missions/Acapello 
+      15/Ships/VAB/Kerbal 2.craft
+    install_to: Ships/VAB
+  - file: GameData/SquadExpansion/MakingHistory/Missions/Acapello 
+      15/Ships/VAB/Kerbal X.craft
+    install_to: Ships/VAB
+  - file: GameData/SquadExpansion/MakingHistory/Missions/Acapello 
+      15/Ships/VAB/Learstar A1.craft
+    install_to: Ships/VAB
+  - file: GameData/SquadExpansion/MakingHistory/Missions/Acapello 
+      15/Ships/VAB/Orbiter 1A.craft
+    install_to: Ships/VAB
+  - file: GameData/SquadExpansion/MakingHistory/Missions/Acapello 
+      15/Ships/VAB/Orbiter One.craft
+    install_to: Ships/VAB
+  - file: GameData/SquadExpansion/MakingHistory/Missions/Acapello 
+      15/Ships/VAB/PT Series Munsplorer.craft
+    install_to: Ships/VAB
+  - file: GameData/SquadExpansion/MakingHistory/Missions/Acapello 
+      15/Ships/VAB/Rover + Skycrane.craft
+    install_to: Ships/VAB
+  - file: GameData/SquadExpansion/MakingHistory/Missions/Acapello 
+      15/Ships/VAB/Science Jr.craft
+    install_to: Ships/VAB
+  - file: GameData/SquadExpansion/MakingHistory/Missions/Acapello 
+      15/Ships/VAB/Slim Shuttle.craft
+    install_to: Ships/VAB
+  - file: GameData/SquadExpansion/MakingHistory/Missions/Acapello 
+      15/Ships/VAB/Space Station Core.craft
+    install_to: Ships/VAB
+  - file: GameData/SquadExpansion/MakingHistory/Missions/Acapello 
+      15/Ships/VAB/Super-Heavy Lander.craft
+    install_to: Ships/VAB
+  - file: GameData/SquadExpansion/MakingHistory/Missions/Acapello 
+      15/Ships/VAB/Two-Stage Lander.craft
+    install_to: Ships/VAB
+  - file: GameData/SquadExpansion/MakingHistory/Missions/Acapello 
+      15/Ships/VAB/Viewmatic Survey Satellite.craft
+    install_to: Ships/VAB
+  - file: GameData/SquadExpansion/MakingHistory/Missions/Acapello 
+      15/Ships/VAB/Z-MAP Satellite Launch Kit.craft
+    install_to: Ships/VAB
+  - file: GameData/SquadExpansion/MakingHistory/Missions/Meet Me in Zero 
+      G/Ships/VAB/Agena 1.craft
+    install_to: Ships/VAB
+  - file: GameData/SquadExpansion/MakingHistory/Missions/Meet Me in Zero 
+      G/Ships/VAB/Titan II GLV.craft
+    install_to: Ships/VAB
+  - file: GameData/SquadExpansion/MakingHistory/Missions/Sally-Hut 
+      1/Ships/VAB/Sally-Hut 1.craft
+    install_to: Ships/VAB
+  - file: GameData/SquadExpansion/MakingHistory/Missions/Sally-Hut 
+      1/Ships/VAB/Soy-Ooze 10.craft
+    install_to: Ships/VAB
+  - file: GameData/SquadExpansion/MakingHistory/Missions/To the Mun Via 
+      Minmus/Ships/VAB/Muna 1.craft
+    install_to: Ships/VAB
+  - file: GameData/SquadExpansion/MakingHistory/Missions/To the Mun Via 
+      Minmus/Ships/VAB/Muna 2.craft
+    install_to: Ships/VAB
+  - file: GameData/SquadExpansion/MakingHistory/Missions/Trouble in the 
+      Void/Ships/VAB/SWM-94 Communications Satellite.craft
+    install_to: Ships/VAB
+  - file: GameData/SquadExpansion/MakingHistory/Missions/Trouble in the 
+      Void/Ships/VAB/Valshkod 2.craft
+    install_to: Ships/VAB
+  - file: GameData/SquadExpansion/MakingHistory/Ships/VAB/Acapello.craft
+    install_to: Ships/VAB
+  - file: GameData/SquadExpansion/MakingHistory/Ships/VAB/Beta Centaurus.craft
+    install_to: Ships/VAB
+  - file: GameData/SquadExpansion/MakingHistory/Ships/VAB/Goliath II HLV.craft
+    install_to: Ships/VAB
+  - file: GameData/SquadExpansion/MakingHistory/Ships/VAB/Muna 1.craft
+    install_to: Ships/VAB
+  - file: GameData/SquadExpansion/MakingHistory/Ships/VAB/Sally-Hut 1.craft
+    install_to: Ships/VAB
+  - file: GameData/SquadExpansion/MakingHistory/Ships/VAB/SWM-94 Communications 
+      Satellite.craft
+    install_to: Ships/VAB
+  - file: GameData/SquadExpansion/MakingHistory/Ships/VAB/Valshkod 2.craft
+    install_to: Ships/VAB
+  - file: GameData/SquadExpansion/Serenity/Ships/SPH/Arrow-E.craft
+    install_to: Ships/SPH
+  - file: GameData/SquadExpansion/Serenity/Ships/SPH/Butterfly Rover.craft
+    install_to: Ships/SPH
+  - file: GameData/SquadExpansion/Serenity/Ships/SPH/Jeb_s Quadtaxi.craft
+    install_to: Ships/SPH
+  - file: GameData/SquadExpansion/Serenity/Ships/SPH/Kerbodyne Rotodyne.craft
+    install_to: Ships/SPH
+  - file: GameData/SquadExpansion/Serenity/Ships/SPH/Seahawk.craft
+    install_to: Ships/SPH
+  - file: GameData/SquadExpansion/Serenity/Ships/SPH/Val-Thopter.craft
+    install_to: Ships/SPH
+x_via: Automated SpaceDock CKAN submission
