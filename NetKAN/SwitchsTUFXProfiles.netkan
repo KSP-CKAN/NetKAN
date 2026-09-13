@@ -1,0 +1,11 @@
+identifier: SwitchsTUFXProfiles
+$kref: '#/ckan/spacedock/4292'
+tags:
+  - config
+  - graphics
+depends:
+  - name: TUFX
+install:
+  - find: Switch's TUFX
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
