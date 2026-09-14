@@ -1,12 +1,9 @@
 identifier: TiltEm-Continued
-abstract: >-
-  Working axial tilts for KSP!
-$kref: '#/ckan/github/ballisticfox/TiltEm-Continued/version_from_asset/^TiltEm-Continued_v(?<version>\d+\.\d+\.\d+)\.zip$'
+abstract: Working axial tilts for KSP!
+$kref: '#/ckan/github/ballisticfox/TiltEm-Continued'
+x_netkan_version_edit: '[vV](?<version>.*)'
 ksp_version_min: '1.12.0'
 ksp_version_max: '1.12.99'
-install:
-  - find: TiltEm
-    install_to: GameData
 author:
   - ballisticfox
   - dagger
@@ -18,3 +15,6 @@ depends:
   - name: ModuleManager
   - name: Kopernicus
   - name: Harmony2
+install:
+  - find: TiltEm
+    install_to: GameData
