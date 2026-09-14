@@ -1,0 +1,23 @@
+identifier: GreenStoneIndustryWaterfall
+$kref: '#/ckan/spacedock/4325'
+$vref: '#/ckan/ksp-avc'
+tags:
+  - config
+  - graphics
+depends:
+  - name: ModuleManager
+  - name: Waterfall
+  - any_of:
+      - name: StockWaterfallEffects
+      - name: RestockWaterfallExpansion
+suggests:
+  - name: Mk2Expansion
+  - name: Mk3Expansion
+  - name: MarkIVSpaceplaneSystem
+  - name: Mk3MiniExpansionPack
+  - name: SXTContinued
+  - name: SpaceXLegs
+install:
+  - find: Waterfall
+    install_to: GameData/GreenStoneIndustry
+x_via: Automated SpaceDock CKAN submission
