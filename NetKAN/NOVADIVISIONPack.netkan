@@ -1,0 +1,8 @@
+identifier: NOVADIVISIONPack
+$kref: '#/ckan/spacedock/4559'
+tags:
+  - parts
+  - plugin
+depends:
+  - name: B9PartSwitch
+x_via: Automated SpaceDock CKAN submission
