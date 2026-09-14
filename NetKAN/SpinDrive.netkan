@@ -10,5 +10,13 @@ depends:
   - name: FarFutureTechnologies
   - name: B9PartSwitch
 recommends:
-  - name: Waterfall
-x_via: Automated SpaceDock CKAN submission
+  - name: NearFutureLaunchVehicles
+  - name: CryoTanks
+  - name: ReStockPlus
+  - name: CommunityTechTree
+  - name: CommunityCategoryKit
+  - name: VABOrganizer
+suggests:
+  - name: ReStock
+  - name: EditorExtensionsRedux
+  - name: KerbalJointReinforcementContinued
