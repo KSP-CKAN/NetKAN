@@ -1,0 +1,11 @@
+identifier: LocalAssistant
+$kref: '#/ckan/github/extraext/LocalAssistant'
+x_netkan_version_edit: ^v?(?<version>.+)$
+$vref: '#/ckan/ksp-avc'
+---
+identifier: LocalAssistant
+$kref: '#/ckan/spacedock/4555'
+$vref: '#/ckan/ksp-avc'
+tags:
+  - plugin
+x_via: Automated SpaceDock CKAN submission
