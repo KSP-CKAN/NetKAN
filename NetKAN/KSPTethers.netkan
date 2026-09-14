@@ -1,0 +1,17 @@
+identifier: KSPTethers
+name: KSP Tethers
+$kref: '#/ckan/github/CritZitGaming/KSP-Tethers'
+$vref: '#/ckan/ksp-avc/KSPTethers/KSPTethers.version'
+x_netkan_version_edit: ^v?(?<version>.+)$
+license: MIT
+tags:
+  - plugin
+  - physics
+  - graphics
+  - crewed
+depends:
+  - name: ModuleManager
+recommends:
+  - name: ToolbarController
+suggests:
+  - name: Toolbar
