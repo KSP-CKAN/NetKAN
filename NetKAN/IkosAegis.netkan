@@ -1,0 +1,32 @@
+identifier: IkosAegis
+name: IkosAegis
+abstract: Put a PIN keypad on your ships - lock a craft's controls behind a code.
+description: >-
+  Adds a numeric keypad lock to every command part - probe cores and crewed pods alike. Set
+  a code in the VAB, engage the lock, and the craft will not pitch, roll, yaw, throttle,
+  stage or fire an action group until somebody types the code back in. Crew cannot EVA out,
+  nobody can board in, and the vessel cannot be recovered or terminated without the PIN
+  unless it is parked on a launch pad or runway. One craft has one lock and one PIN however
+  many command parts it carries. The two Aegis buttons stay reachable in the part menu while
+  locked, so a craft can always be opened again. Attached by ModuleManager, so it covers
+  modded command parts as well as stock ones.
+author:
+  - drebsdorf
+$kref: '#/ckan/github/taz00/IkosAegis'
+$vref: '#/ckan/ksp-avc'
+license: MIT
+resources:
+  homepage: https://github.com/taz00/IkosAegis
+tags:
+  - plugin
+  - control
+depends:
+  - name: ModuleManager
+  - name: Harmony2
+install:
+  - find: IkosAegis
+    install_to: GameData
+    filter:
+      - Thumbs.db
+      - .DS_Store
+    filter_regexp: \.pdb

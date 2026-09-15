@@ -1,0 +1,14 @@
+identifier: BetterTylo
+$kref: '#/ckan/spacedock/4313'
+tags:
+  - config
+  - planet-pack
+depends:
+  - name: ModuleManager
+  - name: Kopernicus
+recommends:
+  - name: ParallaxContinued
+  - name: Scatterer
+suggests:
+  - name: KSPCommunityFixes
+x_via: Automated SpaceDock CKAN submission

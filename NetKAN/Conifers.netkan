@@ -1,0 +1,8 @@
+identifier: Conifers
+$kref: '#/ckan/spacedock/4400'
+tags:
+  - buildings
+  - config
+depends:
+  - name: KerbalKonstructs
+x_via: Automated SpaceDock CKAN submission

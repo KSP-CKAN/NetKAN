@@ -1,0 +1,11 @@
+identifier: J4COBsStockCinematicsTUFX
+$kref: '#/ckan/spacedock/4364'
+tags:
+  - config
+  - graphics
+depends:
+  - name: TUFX
+install:
+  - find: JacobsTUFX
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission

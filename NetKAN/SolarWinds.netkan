@@ -1,0 +1,20 @@
+identifier: SolarWinds
+$kref: '#/ckan/spacedock/4452'
+tags:
+  - config
+  - planet-pack
+  - plugin
+depends:
+  - name: ModuleManager
+  - name: Kopernicus
+  - name: VertexMitchellNetravaliHeightMap
+  - name: Singularity
+recommends:
+  - name: EnvironmentalVisualEnhancements
+  - name: Scatterer
+  - name: ScaledDecorator
+install:
+  - find: SolarWinds
+    install_to: GameData
+    filter_regexp: \.cs(\.bak)?$|Compile-AetherisSupernova\.ps1$|HOW_TO_COMPILE\.txt$
+x_via: Automated SpaceDock CKAN submission

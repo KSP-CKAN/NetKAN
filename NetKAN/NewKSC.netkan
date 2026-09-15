@@ -1,0 +1,12 @@
+identifier: NewKSC
+$kref: '#/ckan/spacedock/3826'
+tags:
+  - buildings
+  - config
+depends:
+  - name: KerbalKonstructs
+  - name: KerbinSideRemastered
+  - name: TundraSpaceCenter
+  - name: OrdinaryKonstruction
+  - name: StockalikeStructures
+x_via: Automated SpaceDock CKAN submission

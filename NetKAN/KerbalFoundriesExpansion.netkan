@@ -1,0 +1,14 @@
+identifier: KerbalFoundriesExpansion
+$kref: '#/ckan/github/awcsorensen/KerbalFoundriesExpansion/asset_match/^KerbalFoundriesExpansion(-.*)?\.zip$'
+x_netkan_version_edit: ^[vV]?(?<version>.+)$
+---
+identifier: KerbalFoundriesExpansion
+$kref: '#/ckan/spacedock/4433'
+x_netkan_version_edit: ^[vV]?(?<version>.+)$
+tags:
+  - parts
+depends:
+  - name: ModuleManager
+  - name: KerbalFoundriesContinued
+  - name: TexturesUnlimited
+x_via: Automated SpaceDock CKAN submission

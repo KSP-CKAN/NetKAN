@@ -1,0 +1,22 @@
+identifier: TURD-SXT
+$kref: '#/ckan/github/Spartwo/TURD-Sierra/asset_match/TU_SXT_Recolour.zip'
+---
+identifier: TURD-SXT
+name: TURD - SXT Continued
+abstract: >-
+  Textures Unlimited recolours for SXT Continued Aviation
+author:
+  - Spartwo
+  - SierraDrake
+$kref: '#/ckan/spacedock/4409'
+license: CC-BY-NC-SA-4.0
+tags:
+  - config
+  - graphics
+depends:
+  - name: ModuleManager
+  - name: TexturesUnlimited
+  - name: SXTContinued
+install:
+  - find: TURD/TU_SXT_Recolour
+    install_to: GameData/TURD

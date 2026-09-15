@@ -1,0 +1,22 @@
+identifier: TURD-NeistAir
+$kref: '#/ckan/github/Spartwo/TURD-Sierra/asset_match/TU_NeistAir_Recolour.zip'
+---
+identifier: TURD-NeistAir
+name: TURD - Neist Air
+abstract: >-
+  Textures Unlimited recolours for Neist Air Reupdated
+author:
+  - Spartwo
+  - SierraDrake
+$kref: '#/ckan/spacedock/4415'
+license: CC-BY-NC-SA-4.0
+tags:
+  - config
+  - graphics
+depends:
+  - name: ModuleManager
+  - name: TexturesUnlimited
+  - name: NeistAirReupdated
+install:
+  - find: TURD/TU_NeistAir_Recolour
+    install_to: GameData/TURD

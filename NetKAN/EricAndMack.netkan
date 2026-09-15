@@ -1,0 +1,20 @@
+identifier: EricAndMack
+$kref: '#/ckan/spacedock/4129'
+license: restricted
+tags:
+  - crewed
+  - first-person
+  - parts
+  - sound
+depends:
+  - name: BreakingGround-DLC
+suggests:
+  - name: RasterPropMonitor
+install:
+  - find_regexp: '.*\.craft$'
+    install_to: Ships/SPH
+    find_matches_files: true
+  - find: EricAndMack
+    install_to: GameData
+    filter_regexp: \.craft$
+x_via: Automated SpaceDock CKAN submission

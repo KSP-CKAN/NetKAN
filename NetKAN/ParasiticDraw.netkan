@@ -1,0 +1,14 @@
+identifier: ParasiticDraw
+$kref: '#/ckan/github/appaKappaK/KSP_ParasiticDraw'
+x_netkan_version_edit: ^v?(?<version>.+)$
+$vref: '#/ckan/ksp-avc'
+---
+identifier: ParasiticDraw
+$kref: '#/ckan/spacedock/4369'
+$vref: '#/ckan/ksp-avc'
+tags:
+  - config
+  - plugin
+depends:
+  - name: ModuleManager
+x_via: Automated SpaceDock CKAN submission

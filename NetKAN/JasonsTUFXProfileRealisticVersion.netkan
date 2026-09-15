@@ -1,0 +1,11 @@
+identifier: JasonsTUFXProfileRealisticVersion
+$kref: '#/ckan/spacedock/4372'
+tags:
+  - config
+  - graphics
+depends:
+  - name: TUFX
+install:
+  - find: TUFX
+    install_to: GameData/MangoTech
+x_via: Automated SpaceDock CKAN submission
