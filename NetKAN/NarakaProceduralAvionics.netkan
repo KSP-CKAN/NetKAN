@@ -1,0 +1,8 @@
+identifier: NarakaProceduralAvionics
+$kref: '#/ckan/spacedock/4561'
+$vref: '#/ckan/ksp-avc'
+tags:
+  - config
+depends:
+  - name: ModuleManager
+x_via: Automated SpaceDock CKAN submission
