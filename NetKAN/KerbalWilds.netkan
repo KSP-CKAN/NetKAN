@@ -3,16 +3,27 @@ $kref: '#/ckan/github/WhirligigGirl/KerbalOuterWilds'
 ---
 identifier: KerbalWilds
 $kref: '#/ckan/spacedock/4566'
+license: restricted
 tags:
-  - config
   - planet-pack
-  - plugin
+  - science
 depends:
   - name: ModuleManager
   - name: Kopernicus
+  - name: KopernicusExpansionContinueder
+  - name: VertexColorMapEmissive
   - name: VertexMitchellNetravaliHeightMap
+  - name: SciRev
+recommends:
+  - name: EnvironmentalVisualEnhancements
+  - name: Scatterer
+suggests:
+  - name: DistantObject
+  - name: KerbalRenamer
+  - name: TextureReplacer
+conflicts:
+  - name: SigmaDimensions
 install:
-  - find: ''
+  - find: TheKerbalWilds
     install_to: GameData
-    filter_regexp: \.pdb$
 x_via: Automated SpaceDock CKAN submission
