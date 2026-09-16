@@ -1,0 +1,18 @@
+identifier: KerbalWilds
+$kref: '#/ckan/github/WhirligigGirl/KerbalOuterWilds'
+---
+identifier: KerbalWilds
+$kref: '#/ckan/spacedock/4566'
+tags:
+  - config
+  - planet-pack
+  - plugin
+depends:
+  - name: ModuleManager
+  - name: Kopernicus
+  - name: VertexMitchellNetravaliHeightMap
+install:
+  - find: ''
+    install_to: GameData
+    filter_regexp: \.pdb$
+x_via: Automated SpaceDock CKAN submission
