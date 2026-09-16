@@ -1,25 +1,39 @@
 identifier: ExoInstruments
 $kref: '#/ckan/github/batistitooo/ExoInstruments'
-abstract: >-
-  A ground-based exoplanet survey mod built on real observational astrophysics:
-  transit photometry, radial velocity, and direct imaging detection pipelines
-  against a real star catalog.
-description: >-
-  Replaces KSP's stock science-experiment loop with an actual exoplanet survey
-  program. Select a real star from an exoplanet.eu-derived catalog, choose an
-  instrument appropriate to its brightness and detection method, and extract a
-  signal from simulated, photon-noise-limited data exactly the way an
-  observational astronomer would. Includes transit timing variations (TTV), the
-  Rossiter-McLaughlin effect, and a career-mode instrument-acquisition economy.
-ksp_version_min: 1.8.0
+$vref: '#/ckan/ksp-avc'
+spec_version: v1.4
 license: restricted
+author: batistitooo
+abstract: >-
+  An observational astronomy mod: real telescopes photographing planets, moons,
+  nebulae and galaxies onto real detector models, plus an exoplanet survey with
+  transit and radial-velocity pipelines against a real star catalog.
+description: >-
+  Adds a working observatory to KSP, alongside the stock science system rather
+  than in place of it. Photograph anything in the sky, from moons to galaxies,
+  through real named telescopes (a PlaneWave astrograph, the VLT, a launchable
+  space telescope) onto real detector models, and get FITS files that calibrate
+  and stack in real astronomy software. Or run an actual exoplanet survey:
+  select a real star from an exoplanet.eu-derived catalog, choose an instrument
+  suited to its brightness and detection method, and extract a signal from
+  simulated, photon-noise-limited data. Includes transit timing variations
+  (TTV), the Rossiter-McLaughlin effect, and a career-mode
+  instrument-acquisition economy. Everything works out of the box; the optional
+  sky data (Gaia star field, dust, galaxies and their images) is downloaded by
+  tools/get_sky_data_compact.py or tools/get_sky_data_complete.py, and is not
+  required.
+resources:
+  homepage: https://github.com/batistitooo/ExoInstruments
+  repository: https://github.com/batistitooo/ExoInstruments
+  license: https://github.com/batistitooo/ExoInstruments/blob/main/LICENSE
 tags:
   - science
   - physics
-depends:
-  - name: ModuleManager
-  - name: KerbalKonstructs
-  - name: BetterTimeWarpCont
 recommends:
+  - name: BetterTimeWarpCont
   - name: EnvironmentalVisualEnhancements
+suggests:
   - name: Spectra
+install:
+  - file: GameData/ExoInstruments
+    install_to: GameData
