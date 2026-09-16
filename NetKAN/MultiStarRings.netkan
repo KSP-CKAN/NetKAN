@@ -5,8 +5,6 @@ name: MultiStarRings
 abstract: >-
   Replaces stock ring lighting with a shader that responds correctly to
   multi-star Kopernicus systems.
-resources:
-  homepage: https://github.com/jabaworks/MultiStarRings
 tags:
   - graphics
   - plugin

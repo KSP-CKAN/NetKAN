@@ -1,8 +1,4 @@
 identifier: ExoInstruments
-$kref: '#/ckan/github/batistitooo/ExoInstruments'
-$vref: '#/ckan/ksp-avc'
-license: restricted
-author: batistitooo
 abstract: >-
   An observational astronomy mod: real telescopes photographing planets, moons,
   nebulae and galaxies onto real detector models, plus an exoplanet survey with
@@ -21,10 +17,9 @@ description: >-
   sky data (Gaia star field, dust, galaxies and their images) is downloaded by
   tools/get_sky_data_compact.py or tools/get_sky_data_complete.py, and is not
   required.
-resources:
-  homepage: https://github.com/batistitooo/ExoInstruments
-  repository: https://github.com/batistitooo/ExoInstruments
-  license: https://github.com/batistitooo/ExoInstruments/blob/main/LICENSE
+$kref: '#/ckan/github/batistitooo/ExoInstruments'
+$vref: '#/ckan/ksp-avc'
+license: restricted
 tags:
   - science
   - physics
@@ -33,6 +28,3 @@ recommends:
   - name: EnvironmentalVisualEnhancements
 suggests:
   - name: Spectra
-install:
-  - file: GameData/ExoInstruments
-    install_to: GameData
