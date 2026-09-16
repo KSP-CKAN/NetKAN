@@ -9,10 +9,6 @@ $kref: '#/ckan/github/timlumnah/kerbal-orbital-kompany'
 ksp_version_min: '1.8'
 ksp_version_max: '1.12.5'
 license: MIT
-resources:
-  homepage: https://github.com/timlumnah/kerbal-orbital-kompany
-  repository: https://github.com/timlumnah/kerbal-orbital-kompany
-  bugtracker: https://github.com/timlumnah/kerbal-orbital-kompany/issues
 tags:
   - plugin
   - parts

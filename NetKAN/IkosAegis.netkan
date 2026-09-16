@@ -10,13 +10,10 @@ description: >-
   many command parts it carries. The two Aegis buttons stay reachable in the part menu while
   locked, so a craft can always be opened again. Attached by ModuleManager, so it covers
   modded command parts as well as stock ones.
-author:
-  - drebsdorf
+author: drebsdorf
 $kref: '#/ckan/github/taz00/IkosAegis'
 $vref: '#/ckan/ksp-avc'
 license: MIT
-resources:
-  homepage: https://github.com/taz00/IkosAegis
 tags:
   - plugin
   - control
