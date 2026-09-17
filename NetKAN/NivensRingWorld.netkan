@@ -1,0 +1,16 @@
+identifier: NivensRingWorld
+$kref: '#/ckan/github/theplatecrafter/Ring-World-KSP-mod'
+x_netkan_version_edit: ^Release-v?(?<version>.+)$
+$vref: '#/ckan/ksp-avc'
+---
+identifier: NivensRingWorld
+$kref: '#/ckan/spacedock/4573'
+$vref: '#/ckan/ksp-avc'
+tags:
+  - parts
+  - plugin
+install:
+  - find: ''
+    install_to: GameData
+    filter_regexp: \.pdb$
+x_via: Automated SpaceDock CKAN submission
