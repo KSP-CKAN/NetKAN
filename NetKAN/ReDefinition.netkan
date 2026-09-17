@@ -1,0 +1,46 @@
+identifier: ReDefinition
+name: ReDefinition
+abstract: >-
+  Brings KSP's mods together in one concept: their settings in one window, shared
+  profiles and compatible settings. Adds FSR and DLSS upscaling, and frame generation
+  through Direct3D 12.
+author: CaptainKeyboard
+$kref: '#/ckan/github/CaptainKeyboard/ReDefinition/asset_match/^ReDefinition_[0-9.]+\.zip$'
+$vref: '#/ckan/ksp-avc'
+x_netkan_trust_version_file: true
+license:
+  - GPL-3.0
+  - unrestricted
+tags:
+  - plugin
+  - graphics
+  - library
+depends:
+  - name: Harmony2
+supports:
+  - name: Scatterer
+  - name: EnvironmentalVisualEnhancements
+  - name: TUFX
+  - name: Deferred
+  - name: ParallaxContinued
+  - name: Waterfall
+  - name: Firefly
+  - name: DistantObject
+  - name: Kopernicus
+  - name: Trajectories
+  - name: Singularity
+  - name: HUDReplacer
+  - name: ZTheme
+install:
+  - file: GameData/ReDefinition
+    install_to: GameData
+  - file: dxgi.dll
+    install_to: GameRoot
+  - file: dxgi_LICENSE-NVIDIA.txt
+    install_to: GameRoot
+  - file: dxgi_LICENSE-FidelityFX.txt
+    install_to: GameRoot
+  - file: amd_fidelityfx_framegeneration_dx12.dll
+    install_to: GameRoot
+  - file: amd_fidelityfx_framegeneration_dx12_LICENSE.md
+    install_to: GameRoot
