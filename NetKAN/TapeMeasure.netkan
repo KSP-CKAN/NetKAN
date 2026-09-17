@@ -1,0 +1,14 @@
+identifier: TapeMeasure
+$kref: '#/ckan/github/linuxgurugamer/TapeMeasure'
+$vref: '#/ckan/ksp-avc'
+---
+identifier: TapeMeasure
+$kref: '#/ckan/spacedock/4570'
+$vref: '#/ckan/ksp-avc'
+tags:
+  - plugin
+install:
+  - find: TapeMeasure
+    install_to: GameData
+    filter_regexp: \.pdb$
+x_via: Automated SpaceDock CKAN submission
