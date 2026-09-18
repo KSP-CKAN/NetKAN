@@ -1,0 +1,51 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "CosmicFrontiers_Core",
+    "name": "CosmicFrontiers_Core",
+    "abstract": "universal asset for cosmic frontiers",
+    "author": "Fir-tree",
+    "version": "1.1",
+    "license": "restricted",
+    "resources": {
+        "homepage": "https://github.com/Fir-tree-s/-1.12.x-Cosmic-Frontiers-V1",
+        "repository": "https://github.com/Fir-tree-s/-1.12.x-Cosmic-Frontiers-V1",
+        "bugtracker": "https://github.com/Fir-tree-s/-1.12.x-Cosmic-Frontiers-V1/issues"
+    },
+    "tags": [
+        "config",
+        "planet-pack",
+        "library"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "Kopernicus"
+        },
+        {
+            "name": "ScaledDecorator"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "CosmicFrontiers_Gigantia"
+        }
+    ],
+    "install": [
+        {
+            "find": "CosmicFrontiers",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/Fir-tree-s/Cosmic-Frontiers/releases/download/New/CosmicFrontiers_Core_1.1.zip".
+    "download_size": 154000,
+    "download_hash": {
+        "sha1": "CCB50B57541F3987D52817512DD2E33239EA87D5",
+        "sha256": "006663dc431540e05d52ac6866e2aedf7b437267ae8f529ba9dce2f9c568bd08"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 187670245,
+    "release_date": "2026-09-17T12:33:28Z",
+    "x_generated_by": "netkan"
+}
