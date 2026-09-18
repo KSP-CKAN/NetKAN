@@ -6,4 +6,11 @@ tags:
 depends:
   - name: ModuleManager
   - name: Kopernicus
+  - name: EnvironmentalVisualEnhancements
+  - name: Scatterer
+  - name: ParallaxContinued
+  - name: Shabby
+suggests:
+  - name: TiltEm-Continued
+  - name: SCANsat
 x_via: Automated SpaceDock CKAN submission
