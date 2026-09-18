@@ -1,0 +1,17 @@
+{
+    "identifier"   : "MultiKerbal",
+    "name"         : "MultiKerbal",
+    "abstract"     : "Multiplayer with a dedicated server and one shared clock: see each other's vessels, dock together and share the controls.",
+    "author"       : "alonso49noob",
+    "license"      : "MIT",
+    "$kref"        : "#/ckan/github/alonso49noob/MultiKerbal/asset_match/^MultiKerbal-[0-9.]+-mod\\.zip$",
+    "$vref"        : "#/ckan/ksp-avc",
+    "resources": {
+        "homepage"   : "https://github.com/alonso49noob/MultiKerbal",
+        "repository" : "https://github.com/alonso49noob/MultiKerbal",
+        "bugtracker" : "https://github.com/alonso49noob/MultiKerbal/issues"
+    },
+    "tags": [
+        "plugin"
+    ]
+}
