@@ -1,0 +1,18 @@
+identifier: NivenRingworld
+$kref: '#/ckan/github/theplatecrafter/Ring-World-KSP-mod'
+$vref: '#/ckan/ksp-avc'
+x_netkan_version_edit: ^Release-v?(?<version>.+)$
+---
+identifier: NivenRingworld
+$kref: '#/ckan/spacedock/4573'
+$vref: '#/ckan/ksp-avc'
+x_netkan_version_edit: ^v?(?<version>.+)$
+tags:
+  - parts
+  - plugin
+  - science
+depends:
+  - name: Harmony2
+    min_version: 2.2.1.0
+  - name: Cyla
+x_via: Automated SpaceDock CKAN submission
