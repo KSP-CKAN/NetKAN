@@ -1,16 +1,17 @@
-identifier: NivensRingWorld
+identifier: NivenRingworld
 $kref: '#/ckan/github/theplatecrafter/Ring-World-KSP-mod'
-x_netkan_version_edit: ^Release-v?(?<version>.+)$
 $vref: '#/ckan/ksp-avc'
+x_netkan_version_edit: ^Release-v?(?<version>.+)$
 ---
-identifier: NivensRingWorld
+identifier: NivenRingworld
 $kref: '#/ckan/spacedock/4573'
 $vref: '#/ckan/ksp-avc'
+x_netkan_version_edit: ^v?(?<version>.+)$
 tags:
   - parts
   - plugin
-install:
-  - find: ''
-    install_to: GameData
-    filter_regexp: \.pdb$
+  - science
+depends:
+  - name: Harmony2
+    min_version: 2.2.1.0
 x_via: Automated SpaceDock CKAN submission
