@@ -1,62 +1,19 @@
-{
-    "spec_version": "v1.4",
-    "identifier": "CosmicFrontiers-Gigantia",
-    "name": "CosmicFrontiers-Gigantia",
-    "abstract": "Massive Hypergiant hostile star system",
-    "author": "Fir-tree",
-    "version": "1.1",
-    "license": "restricted",
-    "resources": {
-        "homepage": "https://github.com/Fir-tree-s/-1.12.x-Cosmic-Frontiers-V1",
-        "repository": "https://github.com/Fir-tree-s/-1.12.x-Cosmic-Frontiers-V1",
-        "bugtracker": "https://github.com/Fir-tree-s/-1.12.x-Cosmic-Frontiers-V1/issues"
-    },
-    "tags": [
-        "config",
-        "planet-pack"
-    ],
-    "depends": [
-        {
-            "name": "ModuleManager"
-        },
-        {
-            "name": "Kopernicus"
-        },
-        {
-            "name": "VertexMitchellNetravaliHeightMap"
-        },
-        {
-            "name": "ScaledDecorator"
-        },
-        {
-            "name": "CosmicFrontiers_Core"
-        },
-        {
-            "name": "VertexColorMapEmissive"
-        }
-    ],
-    "recommends": [
-        {
-            "name": "KopernicusExpansion"
-        },
-        {
-            "name": "Singularity"
-        }
-    ],
-    "install": [
-        {
-            "find": "CosmicFrontiers",
-            "install_to": "GameData"
-        }
-    ],
-    "download": "https://github.com/Fir-tree-s/Cosmic-Frontiers/releases/download/New/CosmicFronties_GigantiaSystem_1.1.zip",
-    "download_size": 206569472,
-    "download_hash": {
-        "sha1": "9DC893D5AA16E3BF405F92ECEDDBAC91AF8CA62A",
-        "sha256": "sha256:41def6303e208d72310ca05dfd6ed82ce8be84b85ed9210ad8b38ed84de92a1b"
-    },
-    "download_content_type": "application/zip",
-    "install_size": 206569472,
-    "release_date": "2026-09-17T12:33:28Z",
-    "x_generated_by": "netkan"
-}
+identifier: CosmicFrontiers-Gigantia
+$kref: '#/ckan/github/Fir-tree-s/Cosmic-Frontiers/releases/download/New/CosmicFrontiers_Gigantia_1.1.zip$'
+name: Cosmic Frontiers - Gigantia
+abstract: universal asset for cosmic frontiers
+author: Fir-tree
+license: restricted
+tags:
+  - config
+  - planet-pack
+  - library
+depends:
+  - name: ModuleManager
+  - name: Kopernicus
+  - name: ScaledDecorator
+suggests:
+  - name: CosmicFrontiers-Core
+install:
+  - find: GigantiaSystem
+    install_to: GameData/Cosmic_Frontiers
