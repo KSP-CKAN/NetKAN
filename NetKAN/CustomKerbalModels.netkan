@@ -1,0 +1,20 @@
+{
+  "spec_version": "v1.4",
+  "identifier": "CustomKerbalModels",
+  "$kref": "#/ckan/github/AycersCSS/CustomKerbalModels",
+  "$vref": "#/ckan/ksp-avc",
+  "name": "Custom Kerbal Models",
+  "abstract": "Four reference-inspired, toggleable Kerbal character models for KSP 1.12.5.",
+  "author": "AycersCSS",
+  "license": "MIT",
+  "tags": ["plugin", "graphics"],
+  "resources": {
+    "repository": "https://github.com/AycersCSS/CustomKerbalModels"
+  },
+  "install": [
+    {
+      "find": "CustomKerbalModels",
+      "install_to": "GameData"
+    }
+  ]
+}
