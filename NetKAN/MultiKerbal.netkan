@@ -1,0 +1,9 @@
+identifier: MultiKerbal
+$kref: '#/ckan/spacedock/4583'
+$vref: '#/ckan/ksp-avc'
+tags:
+  - plugin
+install:
+  - find: ''
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
