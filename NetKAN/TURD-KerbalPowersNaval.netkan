@@ -1,0 +1,19 @@
+identifier: TURD-KerbalPowersNaval
+$kref: '#/ckan/spacedock/3977'
+name: TURD - Kerbal Powers Naval
+abstract: >-
+  Textures Unlimited recolours for Kerbal Powers Naval
+author:
+  - Spartwo
+  - MiffedStarfish
+license: CC-BY-NC-SA-4.0
+tags:
+  - config
+  - graphics
+depends:
+  - name: ModuleManager
+  - name: TexturesUnlimited
+  - name: KerbalPowersNaval
+install:
+  - find: TURD/TU_KP_Naval_Recolour
+    install_to: GameData/TURD

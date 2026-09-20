@@ -1,0 +1,19 @@
+identifier: TURD-KerbalPowersInterstellar
+$kref: '#/ckan/spacedock/3821'
+name: TURD - Kerbal Powers Naval
+abstract: >-
+  Textures Unlimited recolours for Kerbal Powers Interstellar
+author:
+  - Spartwo
+  - MiffedStarfish
+license: CC-BY-NC-SA-4.0
+tags:
+  - config
+  - graphics
+depends:
+  - name: ModuleManager
+  - name: TexturesUnlimited
+  - name: KerbalPowersInterstellar
+install:
+  - find: TURD/TU_KP_Interstellar_Recolour
+    install_to: GameData/TURD

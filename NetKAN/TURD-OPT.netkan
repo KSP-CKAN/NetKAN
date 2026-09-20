@@ -2,13 +2,13 @@ identifier: TURD-OPT
 $kref: '#/ckan/github/KerbalPowers/TURD-OPT'
 ---
 identifier: TURD-OPT
+$kref: '#/ckan/spacedock/4413'
 name: TURD - OPT Continued
 abstract: >-
   Textures Unlimited recolours for Orbit Portal Techologies (OPT) Continued
 author:
   - Manwith Noname
   - Spartwo
-$kref: '#/ckan/spacedock/4413'
 license: CC-BY-NC-SA-4.0
 tags:
   - config
