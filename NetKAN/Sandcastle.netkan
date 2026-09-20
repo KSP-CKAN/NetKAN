@@ -13,6 +13,7 @@ depends:
   - name: ModuleManager
   - name: WildBlueCore
   - name: NearFutureProps
+  - name: Harmony2
 recommends:
   - name: ExtraPlanetaryLaunchpads
   - name: KSP-PartVolume

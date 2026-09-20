@@ -1,0 +1,14 @@
+identifier: DongFangHongSatellitePads
+$kref: '#/ckan/spacedock/4407'
+tags:
+  - parts
+  - plugin
+depends:
+  - name: ModuleManager
+recommends:
+  - name: Waterfall
+suggests:
+  - name: KIUChineseLaunchVehiclePack
+  - name: KIUChineseHumanSpaceflightPack
+  - name: KerwisChinaAerospacePack
+x_via: Automated SpaceDock CKAN submission

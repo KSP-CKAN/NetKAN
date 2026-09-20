@@ -1,0 +1,19 @@
+identifier: Messier-81
+$kref: '#/ckan/spacedock/4356'
+$vref: '#/ckan/ksp-avc'
+tags:
+  - config
+  - planet-pack
+depends:
+  - name: ModuleManager
+  - name: Kopernicus
+  - name: VertexMitchellNetravaliHeightMap
+recommends:
+  - name: EnvironmentalVisualEnhancements
+  - name: ParallaxContinued
+  - name: Scatterer
+suggests:
+  - name: PlanetShine
+  - name: TextureReplacer
+  - name: PlanetFallEffects
+x_via: Automated SpaceDock CKAN submission

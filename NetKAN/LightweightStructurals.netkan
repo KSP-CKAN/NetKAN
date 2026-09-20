@@ -1,0 +1,13 @@
+identifier: LightweightStructurals
+$kref: '#/ckan/github/ostrkrs/KSP-LightweightStructuralsPatch'
+x_netkan_version_edit:
+  find: '^b(?<version>.+)$'
+  replace: 'B${version}'
+---
+identifier: LightweightStructurals
+$kref: '#/ckan/spacedock/4496'
+tags:
+  - config
+depends:
+  - name: ModuleManager
+x_via: Automated SpaceDock CKAN submission

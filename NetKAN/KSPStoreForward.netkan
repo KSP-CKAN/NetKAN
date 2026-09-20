@@ -1,0 +1,18 @@
+identifier: KSPStoreForward
+$kref: '#/ckan/github/Xordas/KSPStoreForward'
+$vref: '#/ckan/ksp-avc'
+name: KSP Store & Forward
+abstract: >-
+  Allows qualified CommNet relay vessels to forward through a direct antenna
+  on the same vessel.
+tags:
+  - plugin
+  - information
+  - comms
+  - uncrewed
+depends:
+  - name: Harmony2
+  - name: ModuleManager
+conflicts:
+  - name: RemoteTech
+  - name: RealAntennas

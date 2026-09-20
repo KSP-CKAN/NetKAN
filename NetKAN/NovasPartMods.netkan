@@ -1,0 +1,14 @@
+identifier: NovasPartMods
+$kref: '#/ckan/spacedock/4563'
+license: CC-BY
+tags:
+  - parts
+  - plugin
+depends:
+  - name: Harmony2
+install:
+  - find: NOVADIVISIONPack
+    install_to: GameData
+    filter:
+      - 0Harmony.dll
+x_via: Automated SpaceDock CKAN submission

@@ -1,0 +1,23 @@
+identifier: MinnesotaSpaceCenter
+$kref: '#/ckan/github/PlutonianEmpire/KSP-MNSC'
+x_netkan_version_edit: ^KSP-MNSC-?(?<version>.+)$
+---
+identifier: MinnesotaSpaceCenter
+$kref: '#/ckan/spacedock/4217'
+tags:
+  - config
+  - buildings
+depends:
+  - name: ModuleManager
+  - name: Kopernicus
+  - name: KSCSwitcher
+suggests:
+  - name: RemoteTech
+install:
+  - file: GameData/CommNet/us_minnesota_space_center.cfg
+    install_to: GameData/MinnesotaSpaceCenter/CommNet
+  - file: GameData/Launchsites/us_minnesota_space_center.cfg
+    install_to: GameData/MinnesotaSpaceCenter/Launchsites
+  - file: GameData/RemoteTech/us_minnesota_space_center.cfg
+    install_to: GameData/MinnesotaSpaceCenter/RemoteTech
+x_via: Automated SpaceDock CKAN submission

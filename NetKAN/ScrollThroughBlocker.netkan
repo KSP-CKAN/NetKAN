@@ -1,0 +1,17 @@
+identifier: ScrollThroughBlocker
+$kref: '#/ckan/github/extraext/ScrollThroughBlocker'
+x_netkan_version_edit: ^v?(?<version>.+)$
+$vref: '#/ckan/ksp-avc'
+---
+identifier: ScrollThroughBlocker
+$kref: '#/ckan/spacedock/4569'
+$vref: '#/ckan/ksp-avc'
+x_netkan_version_edit: ^v?(?<version>.+)$
+tags:
+  - plugin
+depends:
+  - name: Harmony2
+install:
+  - find: 000_ScrollThroughBlocker
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission

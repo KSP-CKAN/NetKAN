@@ -1,0 +1,11 @@
+identifier: KLAUDE
+$kref: '#/ckan/spacedock/4199'
+tags:
+  - config
+  - plugin
+depends:
+  - name: Harmony2
+install:
+  - find: klaude
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission

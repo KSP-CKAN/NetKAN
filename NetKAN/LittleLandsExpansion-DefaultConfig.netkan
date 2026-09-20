@@ -1,0 +1,15 @@
+identifier: LittleLandsExpansion-DefaultConfig
+$kref: '#/ckan/spacedock/4431'
+tags:
+  - config
+  - planet-pack
+depends:
+  - name: ModuleManager
+  - name: Kopernicus
+  - name: VertexHeightOblateAdvanced
+conflicts:
+  - name: LittleLandsExpansion-OPMConfig
+install:
+  - find: LittleLandsExpansion
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
