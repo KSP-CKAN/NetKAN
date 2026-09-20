@@ -1,0 +1,27 @@
+identifier: KerbalPowerplants
+$kref: '#/ckan/github/Halbann/KerbalPowerPlants'
+---
+identifier: KerbalPowerplants
+$kref: '#/ckan/spacedock/4541'
+name: TURD - Moderately Plane Related
+abstract: >-
+  Textures Unlimited recolours for Moderately Plane Related
+author:
+  - Spartwo
+  - SierraDrake
+license: restricted
+tags:
+  - parts
+  - plugin
+depends:
+  - name: ModuleManager
+  - name: KerbalPowersCore
+  - name: FirespitterCore
+suggests:
+  - name: VABorganizer
+  - name: StockWaterfallEffects
+install:
+  - find: KerbalPowerplants
+    install_to: GameData
+  - find: TURD
+    install_to: GameData
