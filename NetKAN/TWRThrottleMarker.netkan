@@ -2,14 +2,14 @@
     "spec_version": "v1.16",
     "identifier": "TWRThrottleMarker",
     "name": "TWR Throttle Marker Lite (Just the Markers!)",
-    "abstract": "Adds a marker to your throttle that shows your current 1.0 TWR",
+    "abstract": 
+"Adds a marker to your throttle that shows your current 1.0 TWR",
     "author": "MCeeSweamy",
     "version": "1.0.0",
     "ksp_version": "1.12.5",
     "license": "MIT",
     "resources": {
         "spacedock": "https://spacedock.info/mod/4442/TWR%20Throttle%20Marker%20Lite%20(Just%20the%20Markers!)",
-        
     },
     "download": "https://spacedock.info/mod/4442/TWR%20Throttle%20Marker%20Lite%20(Just%20the%20Markers!)/download"
 }
