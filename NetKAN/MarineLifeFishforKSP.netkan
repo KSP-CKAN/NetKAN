@@ -1,0 +1,8 @@
+identifier: MarineLifeFishforKSP
+$kref: '#/ckan/spacedock/4591'
+tags:
+  - plugin
+install:
+  - find: Marine Life
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
