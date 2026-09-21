@@ -14,7 +14,7 @@ depends:
   - name: KerbalPowersCore
   - name: FirespitterCore
 suggests:
-  - name: VABorganizer
+  - name: VABOrganizer
   - name: StockWaterfallEffects
   - name: TURD-KerbalPowerplants
 install:
