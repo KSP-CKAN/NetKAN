@@ -10,7 +10,7 @@ depends:
   - name: FirespitterCore
 suggests:
   - name: RationalHydroDynamics
-  - name: VABorganizer
+  - name: VABOrganizer
   - name: KSPCommunityPartModules
   - name: TURD-KerbalPowersNaval
 install:
