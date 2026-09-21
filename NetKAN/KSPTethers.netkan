@@ -13,5 +13,6 @@ depends:
   - name: ModuleManager
 recommends:
   - name: ToolbarController
+  - name: ClickThroughBlocker
 suggests:
   - name: Toolbar
