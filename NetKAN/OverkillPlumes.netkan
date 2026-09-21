@@ -23,3 +23,37 @@ suggests:
   - name: ReStockPlus
   - name: SterlingSystemsThermals
   - name: ZTheme
+
+# Release 0.3.0 has a packaged .ckan file, but is innacurate as-released. This should override that.
+x_netkan_override:
+  - version: "0.3.0"
+    after: internal_ckan
+    override:
+      depends:
+        - name: ModuleManager
+        - name: Waterfall
+        - name: B9PartSwitch
+      recommends:
+        - name: FarFutureTechnologies
+        - name: StockWaterfallEffects
+        - name: SterlingSystemsEnginesFission
+        - name: SterlingSystemsEnginesAntimatter
+      supports:
+        - name: FarFutureTechnologies
+        - name: StockWaterfallEffects
+        - name: SterlingSystemsEnginesFission
+        - name: SterlingSystemsEnginesAntimatter
+      suggests:
+        - name: ReStock
+        - name: ReStockPlus
+        - name: SterlingSystemsThermals
+        - name: ZTheme
+
+# Use whatever packaged .ckan files from any next release onwards as the source of thruth.
+  - version: ">=0.3.1"
+    before: internal_ckan
+    delete:
+      - recommends
+      - supports
+      - suggests
+      - conflicts
