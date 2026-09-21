@@ -5,6 +5,7 @@ $vref: '#/ckan/ksp-avc'
 identifier: OverkillPlumes
 $kref: '#/ckan/spacedock/4447'
 $vref: '#/ckan/ksp-avc'
+
 tags:
   - config
   - graphics
@@ -24,7 +25,7 @@ suggests:
   - name: SterlingSystemsThermals
   - name: ZTheme
 
-# Release 0.3.0 has a packaged .ckan file, but is innacurate as-released. This should override that.
+# Release 0.3.0 has a packaged .ckan file, but that is innacurate as-released. This should override that.
 x_netkan_override:
   - version: "0.3.0"
     after: internal_ckan
@@ -53,6 +54,7 @@ x_netkan_override:
   - version: ">=0.3.1"
     before: internal_ckan
     delete:
+      - depends
       - recommends
       - supports
       - suggests
