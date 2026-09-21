@@ -1,0 +1,13 @@
+identifier: SENTRY
+$kref: '#/ckan/github/oscarholzmanwhite-gif/SENTRY'
+$vref: '#/ckan/ksp-avc'
+---
+identifier: SENTRY
+$kref: '#/ckan/spacedock/4560'
+$vref: '#/ckan/ksp-avc'
+tags:
+  - config
+  - plugin
+depends:
+  - name: ToolbarController
+  - name: ClickThroughBlocker
