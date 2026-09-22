@@ -1,0 +1,8 @@
+identifier: Estrogen3
+$kref: '#/ckan/spacedock/4596'
+tags:
+  - plugin
+install:
+  - find: Estrogen
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
