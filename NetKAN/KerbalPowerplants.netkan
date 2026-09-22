@@ -1,0 +1,22 @@
+identifier: KerbalPowerplants
+$kref: '#/ckan/github/Halbann/KerbalPowerPlants'
+---
+identifier: KerbalPowerplants
+$kref: '#/ckan/spacedock/4541'
+abstract: >-
+  Variety of stockalike jet engines to fill missing niches in the vanilla game.
+license: restricted
+tags:
+  - parts
+  - plugin
+depends:
+  - name: ModuleManager
+  - name: KerbalPowersCore
+  - name: FirespitterCore
+suggests:
+  - name: VABOrganizer
+  - name: StockWaterfallEffects
+  - name: TURD-KerbalPowerplants
+install:
+  - find: KerbalPowerplants
+    install_to: GameData
