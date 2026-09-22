@@ -9,6 +9,8 @@ author:
   - Anatid
   - r4m0n
 $kref: '#/ckan/github/MuMech/MechJeb2'
+x_netkan_github:
+  prereleases: false
 ksp_version: 1.12
 license: GPL-3.0
 resources:
