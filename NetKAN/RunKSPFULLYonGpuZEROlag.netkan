@@ -1,0 +1,8 @@
+identifier: RunKSPFULLYonGpuZEROlag
+$kref: '#/ckan/spacedock/4595'
+tags:
+  - plugin
+install:
+  - find: Lag Fixer
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
