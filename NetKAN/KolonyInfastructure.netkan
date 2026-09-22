@@ -1,0 +1,8 @@
+identifier: KolonyInfastructure
+$kref: '#/ckan/spacedock/4597'
+tags:
+  - buildings
+  - config
+depends:
+  - name: KerbalKonstructs
+x_via: Automated SpaceDock CKAN submission
