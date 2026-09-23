@@ -1,0 +1,15 @@
+identifier: VesselPlanner
+$kref: '#/ckan/github/linuxgurugamer/VesselPlanner'
+$vref: '#/ckan/ksp-avc'
+---
+identifier: VesselPlanner
+$kref: '#/ckan/spacedock/4599'
+$vref: '#/ckan/ksp-avc'
+tags:
+  - config
+  - plugin
+install:
+  - find: VesselPlanner
+    install_to: GameData
+    filter_regexp: \.pdb$
+x_via: Automated SpaceDock CKAN submission
