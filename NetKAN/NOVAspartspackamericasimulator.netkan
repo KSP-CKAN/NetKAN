@@ -1,0 +1,9 @@
+identifier: NOVAspartspackamericasimulator
+$kref: '#/ckan/spacedock/4604'
+tags:
+  - parts
+  - plugin
+install:
+  - find: NOVADIVISIONPackAmerica
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
