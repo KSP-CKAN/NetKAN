@@ -1,0 +1,22 @@
+identifier: BlueExplorationRocketryDivision
+$kref: '#/ckan/github/nolifejordan/Blue-Exploration-Rocketry-Division'
+x_netkan_version_edit: ^v?(?<version>.+)$
+---
+identifier: BlueExplorationRocketryDivision
+$kref: '#/ckan/spacedock/4103'
+tags:
+  - graphics
+  - parts
+depends:
+  - name: ModuleManager
+  - name: B9PartSwitch
+  - name: Waterfall
+  - name: CommunityResourcePack
+  - name: DeployableEngines
+  - name: SimpleAdjustableFairings
+  - name: CryoTanks
+  - name: DepthMask
+install:
+  - find: BERD
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
