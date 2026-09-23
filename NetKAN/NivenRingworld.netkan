@@ -14,5 +14,7 @@ tags:
 depends:
   - name: Harmony2
     min_version: 2.2.1.0
+suggests:
   - name: Cyla
+    min_version: 1.1.0.0
 x_via: Automated SpaceDock CKAN submission
