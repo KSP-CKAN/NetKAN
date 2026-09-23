@@ -1,0 +1,8 @@
+identifier: Evilplush
+$kref: '#/ckan/spacedock/4169'
+tags:
+  - parts
+install:
+  - find: Evilplush
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
