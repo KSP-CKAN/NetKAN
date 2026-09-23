@@ -1,0 +1,14 @@
+identifier: Kortex
+$kref: '#/ckan/github/MrCrustyToast/Kortex---KSP-optimization-mod'
+x_netkan_version_edit: ^v?(?<version>.*)$
+---
+identifier: Kortex
+$kref: '#/ckan/spacedock/4272'
+tags:
+  - plugin
+depends:
+  - name: Harmony2
+install:
+  - find: Kortex
+    install_to: GameData
+    filter: 0Harmony.dll
