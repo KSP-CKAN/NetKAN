@@ -1,0 +1,9 @@
+identifier: NOVAspartspackKrakenandworkforce
+$kref: '#/ckan/spacedock/4605'
+tags:
+  - config
+  - plugin
+install:
+  - find: NOVADIVISIONPackK&KW
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
