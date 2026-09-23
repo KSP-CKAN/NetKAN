@@ -1,8 +1,4 @@
 identifier: KerbolLiquidChangesKLC
-$kref: '#/ckan/github/KerbalMissile/Liquid-Utilities'
-x_netkan_version_edit: ^v?(?<version>.+)$
----
-identifier: KerbolLiquidChangesKLC
 $kref: '#/ckan/spacedock/4602'
 tags:
   - config
@@ -11,4 +7,3 @@ depends:
 install:
   - find: KerbolLiquidChanges
     install_to: GameData
-x_via: Automated SpaceDock CKAN submission
