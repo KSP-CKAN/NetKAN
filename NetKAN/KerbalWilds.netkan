@@ -1,5 +1,6 @@
 identifier: KerbalWilds
 $kref: '#/ckan/github/WhirligigGirl/KerbalOuterWilds'
+license: restricted
 ---
 identifier: KerbalWilds
 $kref: '#/ckan/spacedock/4566'
@@ -18,6 +19,8 @@ recommends:
   - name: EnvironmentalVisualEnhancements
   - name: Scatterer
 suggests:
+  - name: CustomAsteroids
+  - name: Singularity
   - name: DistantObject
   - name: KerbalRenamer
   - name: TextureReplacer
