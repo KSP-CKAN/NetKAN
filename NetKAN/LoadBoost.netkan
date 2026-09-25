@@ -1,0 +1,12 @@
+identifier: LoadBoost
+$kref: '#/ckan/github/zhb1233212025-art/LoadBoost'
+x_netkan_version_edit: ^[vV]?(?<version>.+)$
+---
+identifier: LoadBoost
+$kref: '#/ckan/spacedock/4587'
+ksp_version: 1.12
+tags:
+  - plugin
+  - convenience
+depends:
+  - name: Harmony2
