@@ -1,0 +1,15 @@
+identifier: OPMMPETiltEmContinuedCompatabilityPatch
+$kref: '#/ckan/github/MunDude/OPM-MPE-TiltEmContinued-Patch'
+---
+identifier: OPMMPETiltEmContinuedCompatabilityPatch
+$kref: '#/ckan/spacedock/4345'
+tags:
+  - config
+  - planet-pack
+depends:
+  - name: ModuleManager
+  - name: Kopernicus
+install:
+  - find: OPM_MPE_TiltEm_Continued_Compatability_Patch-0.02
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
