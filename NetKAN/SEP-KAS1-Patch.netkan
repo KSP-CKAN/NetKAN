@@ -1,0 +1,16 @@
+identifier: SEP-KAS1-Patch
+name: SEP KAS 1.x Patch
+abstract: Makes the Surface Experiment Pack power conduit link with KAS 1.x
+author: celino
+$kref: '#/ckan/github/celino/SEP-KAS1-Patch'
+$vref: '#/ckan/ksp-avc'
+license: BSD-2-clause
+tags:
+  - config
+  - science
+depends:
+  - name: ModuleManager
+  - name: SurfaceExperimentPack
+  - name: KAS
+    min_version: '1.0'
+  - name: KIS
