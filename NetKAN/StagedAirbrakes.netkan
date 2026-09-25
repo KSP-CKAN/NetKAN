@@ -1,0 +1,12 @@
+identifier: StagedAirbrakes
+$kref: '#/ckan/github/pluhian/StagedAirbrakes'
+x_netkan_version_edit: ^[vV]?(?<version>.+)$
+---
+identifier: StagedAirbrakes
+$kref: '#/ckan/spacedock/4436'
+x_netkan_version_edit: ^[vV]?(?<version>.+)$
+tags:
+  - config
+depends:
+  - name: ModuleManager
+x_via: Automated SpaceDock CKAN submission
