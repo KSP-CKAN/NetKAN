@@ -5,6 +5,7 @@ $vref: '#/ckan/ksp-avc'
 identifier: OverkillPlumes
 $kref: '#/ckan/spacedock/4447'
 $vref: '#/ckan/ksp-avc'
+
 tags:
   - config
   - graphics
@@ -23,3 +24,38 @@ suggests:
   - name: ReStockPlus
   - name: SterlingSystemsThermals
   - name: ZTheme
+
+# Override bad .ckan that was packaged with release 0.3.0
+x_netkan_override:
+  - version: "0.3.0"
+    after: internal_ckan
+    override:
+      depends:
+        - name: ModuleManager
+        - name: Waterfall
+        - name: B9PartSwitch
+      recommends:
+        - name: FarFutureTechnologies
+        - name: StockWaterfallEffects
+        - name: SterlingSystemsEnginesFission
+        - name: SterlingSystemsEnginesAntimatter
+      supports:
+        - name: FarFutureTechnologies
+        - name: StockWaterfallEffects
+        - name: SterlingSystemsEnginesFission
+        - name: SterlingSystemsEnginesAntimatter
+      suggests:
+        - name: ReStock
+        - name: ReStockPlus
+        - name: SterlingSystemsThermals
+        - name: ZTheme
+
+# Let any future .ckan files override mod relationships
+  - version: ">=0.3.1"
+    before: internal_ckan
+    delete:
+      - depends
+      - recommends
+      - supports
+      - suggests
+      - conflicts
