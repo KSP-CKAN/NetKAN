@@ -1,0 +1,11 @@
+identifier: KeremReentryFX
+$kref: '#/ckan/spacedock/4526'
+$vref: '#/ckan/ksp-avc'
+tags:
+  - config
+  - graphics
+depends:
+  - name: ModuleManager
+  - name: TUFX
+  - name: Waterfall
+x_via: Automated SpaceDock CKAN submission
