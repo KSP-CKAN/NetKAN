@@ -25,7 +25,7 @@ suggests:
   - name: SterlingSystemsThermals
   - name: ZTheme
 
-# Release 0.3.0 has a packaged .ckan file, but that is innacurate as-released. This should override that.
+# Override bad .ckan that was packaged with release 0.3.0
 x_netkan_override:
   - version: "0.3.0"
     after: internal_ckan
@@ -50,7 +50,7 @@ x_netkan_override:
         - name: SterlingSystemsThermals
         - name: ZTheme
 
-# Use whatever packaged .ckan files from any next release onwards as the source of thruth.
+# Let any future .ckan files override mod relationships
   - version: ">=0.3.1"
     before: internal_ckan
     delete:
