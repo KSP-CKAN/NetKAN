@@ -1,0 +1,21 @@
+{
+  "spec_version": "v1.4",
+  "identifier": "KSPAnalyticsShield",
+  "name": "KSP Analytics Shield",
+  "abstract": "Disables Unity Analytics event collection and device statistics in KSP 1.",
+  "author": "Ege55",
+  "$kref": "#/ckan/github/Ege55/KSP-Analytics-Shield/asset_match/^KSP-Analytics-Shield-[0-9].*\\.zip$",
+  "license": "MIT",
+  "ksp_version": "1.12.5",
+  "tags": [
+    "plugin"
+  ],
+  "install": [
+    {
+      "file": "GameData/KSPAnalyticsShield",
+      "install_to": "GameData"
+    }
+  ],
+  "x_netkan_staging": true,
+  "x_netkan_staging_reason": "Experimental mod; manually review the release archive, license, and KSP compatibility before indexing."
+}
