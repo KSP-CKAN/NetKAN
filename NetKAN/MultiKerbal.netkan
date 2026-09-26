@@ -6,10 +6,12 @@
     "license"      : "MIT",
     "$kref"        : "#/ckan/github/alonso49noob/MultiKerbal/asset_match/^MultiKerbal-[0-9.]+-mod\\.zip$",
     "$vref"        : "#/ckan/ksp-avc",
+    "x_netkan_version_edit": "^v?(?<version>.+)$",
     "resources": {
         "homepage"   : "https://github.com/alonso49noob/MultiKerbal",
         "repository" : "https://github.com/alonso49noob/MultiKerbal",
-        "bugtracker" : "https://github.com/alonso49noob/MultiKerbal/issues"
+        "bugtracker" : "https://github.com/alonso49noob/MultiKerbal/issues",
+        "spacedock"  : "https://spacedock.info/mod/4611/MultiKerbal"
     },
     "tags": [
         "plugin"
