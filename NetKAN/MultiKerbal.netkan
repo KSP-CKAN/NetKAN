@@ -1,5 +1,5 @@
 identifier: MultiKerbal
-$kref: '#/ckan/github/alonso49noob/MultiKerbal'
+$kref: '#/ckan/github/alonso49noob/MultiKerbal/asset_match/mod'
 x_netkan_version_edit: ^v?(?<version>.+)$
 $vref: '#/ckan/ksp-avc'
 ---
@@ -8,4 +8,3 @@ $kref: '#/ckan/spacedock/4611'
 $vref: '#/ckan/ksp-avc'
 tags:
   - plugin
-x_via: Automated SpaceDock CKAN submission
