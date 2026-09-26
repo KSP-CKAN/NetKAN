@@ -1,9 +1,11 @@
 identifier: MultiKerbal
-$kref: '#/ckan/spacedock/4583'
+$kref: '#/ckan/github/alonso49noob/MultiKerbal'
+x_netkan_version_edit: ^v?(?<version>.+)$
+$vref: '#/ckan/ksp-avc'
+---
+identifier: MultiKerbal
+$kref: '#/ckan/spacedock/4611'
 $vref: '#/ckan/ksp-avc'
 tags:
   - plugin
-install:
-  - find: ''
-    install_to: GameData
 x_via: Automated SpaceDock CKAN submission
