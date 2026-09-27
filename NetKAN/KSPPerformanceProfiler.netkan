@@ -1,0 +1,10 @@
+identifier: KSPPerformanceProfiler
+$kref: '#/ckan/spacedock/4616'
+$vref: '#/ckan/ksp-avc'
+tags:
+  - plugin
+install:
+  - find: KSPPerformanceProfiler
+    install_to: GameData
+    filter_regexp: \.pdb$
+x_via: Automated SpaceDock CKAN submission
