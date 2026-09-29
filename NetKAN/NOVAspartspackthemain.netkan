@@ -1,0 +1,9 @@
+identifier: NOVAspartspackthemain
+$kref: '#/ckan/spacedock/4603'
+tags:
+  - parts
+  - plugin
+install:
+  - find: NOVADIVISIONPack
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
