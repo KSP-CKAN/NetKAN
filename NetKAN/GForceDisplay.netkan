@@ -1,0 +1,14 @@
+identifier: GForceDisplay
+$kref: '#/ckan/github/linuxgurugamer/GForceDisplay'
+$vref: '#/ckan/ksp-avc'
+---
+identifier: GForceDisplay
+$kref: '#/ckan/spacedock/4624'
+$vref: '#/ckan/ksp-avc'
+tags:
+  - plugin
+install:
+  - find: GForceDisplay
+    install_to: GameData
+    filter_regexp: \.pdb$
+x_via: Automated SpaceDock CKAN submission
