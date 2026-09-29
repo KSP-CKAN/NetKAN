@@ -1,0 +1,9 @@
+identifier: KerbolLiquidChangesKLC
+$kref: '#/ckan/spacedock/4602'
+tags:
+  - config
+depends:
+  - name: ModuleManager
+install:
+  - find: KerbolLiquidChanges
+    install_to: GameData
