@@ -21,5 +21,4 @@ recommends:
 install:
   - find: GameData/KerbalSoaring
     install_to: GameData
-  - find: GameData/WaypointManager
-    install_to: GameData
+
