@@ -33,8 +33,3 @@ install:
     install_to: GameData/WildBlueIndustries
     filter_regexp:
       - .*\.pdb$
-      - SampleCraft
-  - find: VAB
-    install_to: Ships
-  - find: SPH
-    install_to: Ships
