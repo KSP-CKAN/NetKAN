@@ -12,3 +12,6 @@ install:
     install_to: GameData
     filter_regexp: \.pdb$
 x_via: Automated SpaceDock CKAN submission
+depends:
+  - name: ToolbarController
+  - name: ClickThroughBlocker
