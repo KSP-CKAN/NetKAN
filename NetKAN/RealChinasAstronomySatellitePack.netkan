@@ -1,0 +1,18 @@
+identifier: RealChinasAstronomySatellitePack
+$kref: '#/ckan/spacedock/4216'
+tags:
+  - graphics
+  - parts
+depends:
+  - name: ModuleManager
+  - name: FerramAerospaceResearchContinued
+  - name: RealChute
+recommends:
+  - name: KerbalJointReinforcementContinued
+  - name: KerwisChinaAerospacePack
+  - name: KIUChineseLaunchVehiclePack
+supports:
+  - name: RealismOverhaul
+  - name: RealFuels
+  - name: Waterfall
+  - name: TweakScale
