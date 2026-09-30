@@ -14,10 +14,5 @@ depends:
 suggests:
   - name: RemoteTech
 install:
-  - file: GameData/CommNet/us_minnesota_space_center.cfg
-    install_to: GameData/MinnesotaSpaceCenter/CommNet
-  - file: GameData/Launchsites/us_minnesota_space_center.cfg
-    install_to: GameData/MinnesotaSpaceCenter/Launchsites
-  - file: GameData/RemoteTech/us_minnesota_space_center.cfg
-    install_to: GameData/MinnesotaSpaceCenter/RemoteTech
-x_via: Automated SpaceDock CKAN submission
+  - find: MNSC
+    install_to: GameData
