@@ -1,0 +1,24 @@
+identifier: ChinasLunarExplorationPack
+$kref: '#/ckan/spacedock/4493'
+tags:
+  - graphics
+  - parts
+depends:
+  - name: FerramAerospaceResearchContinued
+  - name: RealChute
+  - name: TexturesUnlimited
+recommends:
+  - name: KerbalJointReinforcementContinued
+  - name: KerwisChinaAerospacePack
+  - name: KIUChineseLaunchVehiclePack
+suggests:
+  - name: RealismOverhaul
+  - name: RealFuels
+  - name: Waterfall
+  - name: TweakScale
+install:
+  - find: ChinasLunarExplorationPack
+    install_to: GameData
+    filter: Ships
+  - find: VAB
+    install_to: Ships
