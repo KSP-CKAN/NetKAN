@@ -1,0 +1,14 @@
+identifier: RingworldScattering
+$kref: '#/ckan/github/theplatecrafter/Ringworld-Scattering-KSP'
+x_netkan_version_edit: ^v?(?<version>.+)$
+$vref: '#/ckan/ksp-avc'
+---
+identifier: RingworldScattering
+$kref: '#/ckan/spacedock/4629'
+$vref: '#/ckan/ksp-avc'
+tags:
+  - plugin
+install:
+  - find: ''
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
