@@ -1,13 +1,39 @@
 identifier: CLEPChinasLunarExplorationPack
 $kref: '#/ckan/spacedock/4493'
+license: CC-BY-NC-SA-4.0
+name: CLEP (China's Lunar Exploration Pack)
+abstract: A professional lunar exploration mod for KSP, recreating China's Chang'e lunar exploration missions, including Chang'e-3/4, Chang'e-5/6, Chang'e-7, Queqiao-1/2
+
+author:
+  - adouis_srpn
+
+resources:
+  homepage: https://forum.kerbalspaceprogram.com/topic/231616-clep-chinas-lunar-exploration-pack/
+  repository: https://github.com/adouis-srpn/CLEP_Pack
+  bugtracker: https://github.com/adouis-srpn/CLEP_Pack/issues
+
 tags:
   - graphics
   - parts
+
 depends:
-  - name: ModuleManager
+  - name: FerramAerospaceResearchContinued
+  - name: RealChute
+  - name: TexturesUnlimited
+
+recommends:
+  - name: KerbalJointReinforcementContinued
+  - name: KerwisChinaAerospacePack
+  - name: KIUChineseLaunchVehiclePack
+
+supports:
+  - name: RealismOverhaul
+  - name: RealFuels
   - name: Waterfall
+  - name: TweakScale
+
 install:
-  - find: CLEP
+  - find: ChinasLunarExplorationPack
     install_to: GameData
     filter_regexp: \.craft$
   - file: CLEP/CraftFiles/Ships/VAB/Chang'e-3 or 4 (with ladder).craft
