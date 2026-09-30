@@ -1,0 +1,12 @@
+identifier: SDFScattererDistanceFix
+$kref: '#/ckan/github/AndrewKerbal/SDF-Scatterer-Distance-Fix'
+x_netkan_version_edit: ^V?(?<version>.+)$
+---
+identifier: SDFScattererDistanceFix
+$kref: '#/ckan/spacedock/4585'
+tags:
+  - plugin
+install:
+  - find: ''
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
