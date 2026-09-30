@@ -4,6 +4,7 @@ tags:
   - graphics
   - parts
 depends:
+  - name: ModuleManager
   - name: FerramAerospaceResearchContinued
   - name: RealChute
   - name: TexturesUnlimited
