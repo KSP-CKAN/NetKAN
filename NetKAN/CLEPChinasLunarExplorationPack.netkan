@@ -11,7 +11,7 @@ recommends:
   - name: KerbalJointReinforcementContinued
   - name: KerwisChinaAerospacePack
   - name: KIUChineseLaunchVehiclePack
-supports:
+suggests:
   - name: RealismOverhaul
   - name: RealFuels
   - name: Waterfall
