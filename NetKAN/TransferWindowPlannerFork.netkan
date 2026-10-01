@@ -15,3 +15,5 @@ conflicts:
 install:
   - find: TransferWindowPlanner
     install_to: GameData/TriggerTech
+replaced_by:
+  - name: TransferWindowPlanner2
