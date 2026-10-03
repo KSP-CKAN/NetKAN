@@ -1,0 +1,10 @@
+identifier: SOCKRealAero
+$kref: '#/ckan/spacedock/4606'
+tags:
+  - config
+depends:
+  - name: ModuleManager
+install:
+  - find: SOCK_RealAero
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
