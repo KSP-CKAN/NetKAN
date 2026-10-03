@@ -1,0 +1,11 @@
+identifier: FlightRecorder
+$kref: '#/ckan/github/extraext/FlightRecorder'
+x_netkan_version_edit: ^v?(?<version>.+)$
+$vref: '#/ckan/ksp-avc'
+---
+identifier: FlightRecorder
+$kref: '#/ckan/spacedock/4521'
+install:
+  - find: ''
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
