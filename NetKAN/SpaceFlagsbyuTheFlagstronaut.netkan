@@ -1,0 +1,6 @@
+identifier: SpaceFlagsbyuTheFlagstronaut
+$kref: '#/ckan/spacedock/4594'
+install:
+  - find: SpaceFlagsPack
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
