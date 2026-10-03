@@ -1,0 +1,15 @@
+identifier: StagingSafetyInspector
+$kref: '#/ckan/github/milo127/Staging-Safety-Inspector'
+x_netkan_version_edit: ^v?(?<version>.+)$
+$vref: '#/ckan/ksp-avc'
+---
+identifier: StagingSafetyInspector
+$kref: '#/ckan/spacedock/4252'
+$vref: '#/ckan/ksp-avc'
+tags:
+  - config
+  - plugin
+install:
+  - find: ''
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
