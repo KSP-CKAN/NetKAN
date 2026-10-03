@@ -1,0 +1,8 @@
+identifier: ProjectHailKaryContinued
+$kref: '#/ckan/spacedock/3988'
+$vref: '#/ckan/ksp-avc'
+tags:
+  - parts
+depends:
+  - name: ModuleManager
+x_via: Automated SpaceDock CKAN submission
