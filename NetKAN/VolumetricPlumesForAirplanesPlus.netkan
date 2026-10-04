@@ -5,8 +5,9 @@ tags:
   - graphics
 depends:
   - name: ModuleManager
+  - name: AirplanePlus
   - name: Waterfall
 install:
   - find: Patches
-    install_to: GameData
+    install_to: GameData/VolumetricPlumesForAirplanesPlus
 x_via: Automated SpaceDock CKAN submission
