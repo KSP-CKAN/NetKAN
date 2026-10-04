@@ -4,11 +4,15 @@ x_netkan_version_edit: ^v?(?<version>.+)$
 $vref: '#/ckan/ksp-avc'
 ---
 identifier: RingworldScattering
+x_netkan_version_edit: ^v?(?<version>.+)$
 $kref: '#/ckan/spacedock/4629'
 $vref: '#/ckan/ksp-avc'
 tags:
   - plugin
+depends:
+  - name: NivenRingworld
+    version: 1.1.5
 install:
-  - find: ''
+  - find: RingworldScattering
     install_to: GameData
 x_via: Automated SpaceDock CKAN submission
