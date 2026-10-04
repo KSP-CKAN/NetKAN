@@ -1,0 +1,12 @@
+identifier: GroundBlastFx
+$kref: '#/ckan/github/warnix91/GroundBlastFx'
+x_netkan_version_edit: ^v?(?<version>.+)$
+$vref: '#/ckan/ksp-avc'
+---
+identifier: GroundBlastFx
+$kref: '#/ckan/spacedock/4615'
+$vref: '#/ckan/ksp-avc'
+tags:
+  - config
+  - plugin
+x_via: Automated SpaceDock CKAN submission
