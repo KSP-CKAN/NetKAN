@@ -1,0 +1,17 @@
+identifier: OuterKerbolFrontier
+$kref: '#/ckan/spacedock/4578'
+tags:
+  - config
+  - planet-pack
+depends:
+  - name: ModuleManager
+  - name: Kopernicus
+  - name: VertexMitchellNetravaliHeightMap
+recommends:
+  - name: ParallaxContinued
+  - name: Scatterer
+suggests:
+  - name: EnvironmentalVisualEnhancements
+  - name: TUFX
+  - name: ReStockPlus
+x_via: Automated SpaceDock CKAN submission
