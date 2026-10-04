@@ -3,7 +3,11 @@ $kref: '#/ckan/spacedock/4604'
 tags:
   - parts
   - plugin
+depends:
+  - name: Harmony2
 install:
   - find: NOVADIVISIONPackAmerica
     install_to: GameData
+    filter:
+      - 0Harmony.dll
 x_via: Automated SpaceDock CKAN submission
