@@ -1,12 +1,15 @@
-identifier: WingtipVortexMod
+identifier: WingtipVortex
 $kref: '#/ckan/github/PogKai/ksp-wingtip-vortex'
 x_netkan_version_edit: ^v?(?<version>.+)$
 ---
-identifier: WingtipVortexMod
+identifier: WingtipVortex
 $kref: '#/ckan/spacedock/4209'
+x_netkan_version_edit: ^v?(?<version>.+)$
 tags:
   - plugin
+  - graphics
 install:
   - find: WingtipVortex
     install_to: GameData
+    filter: Source
 x_via: Automated SpaceDock CKAN submission
