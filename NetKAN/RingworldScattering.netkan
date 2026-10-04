@@ -2,6 +2,9 @@ identifier: RingworldScattering
 $kref: '#/ckan/github/theplatecrafter/Ringworld-Scattering-KSP'
 x_netkan_version_edit: ^v?(?<version>.+)$
 $vref: '#/ckan/ksp-avc'
+depends:
+  - name: NivenRingworld
+    min_version: 1.1.5
 ---
 identifier: RingworldScattering
 x_netkan_version_edit: ^v?(?<version>.+)$
@@ -11,7 +14,7 @@ tags:
   - plugin
 depends:
   - name: NivenRingworld
-    version: 1.1.5
+    min_version: 1.1.5
 install:
   - find: RingworldScattering
     install_to: GameData
