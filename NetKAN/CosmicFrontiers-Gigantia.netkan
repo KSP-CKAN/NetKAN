@@ -1,0 +1,19 @@
+identifier: CosmicFrontiers-Gigantia
+$kref: '#/ckan/github/Fir-tree-s/Cosmic-Frontiers/asset_match/Gigantia'
+name: Cosmic Frontiers - Gigantia
+abstract: universal asset for cosmic frontiers
+author: Fir-tree
+license: restricted
+tags:
+  - config
+  - planet-pack
+  - library
+depends:
+  - name: ModuleManager
+  - name: Kopernicus
+  - name: ScaledDecorator
+suggests:
+  - name: CosmicFrontiers-Core
+install:
+  - find: GigantiaSystem
+    install_to: GameData/Cosmic_Frontiers
