@@ -2,6 +2,9 @@ identifier: RingworldClouds
 $kref: '#/ckan/github/theplatecrafter/Ringworld-Clouds-KSP'
 x_netkan_version_edit: ^v?(?<version>.+)$
 $vref: '#/ckan/ksp-avc'
+depends:
+  - name: NivenRingworld
+    min_version: 1.1.5
 ---
 identifier: RingworldClouds
 x_netkan_version_edit: ^v?(?<version>.+)$
@@ -12,7 +15,7 @@ tags:
   - plugin
 depends:
   - name: NivenRingworld
-    version: 1.1.5
+    min_version: 1.1.5
 install:
   - find: RingworldClouds
     install_to: GameData
