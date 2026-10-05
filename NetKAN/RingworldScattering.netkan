@@ -1,9 +1,4 @@
 identifier: RingworldScattering
-$kref: '#/ckan/github/theplatecrafter/Ringworld-Scattering-KSP'
-x_netkan_version_edit: ^v?(?<version>.+)$
-$vref: '#/ckan/ksp-avc'
----
-identifier: RingworldScattering
 x_netkan_version_edit: ^v?(?<version>.+)$
 $kref: '#/ckan/spacedock/4629'
 $vref: '#/ckan/ksp-avc'
