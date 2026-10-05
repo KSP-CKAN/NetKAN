@@ -1,0 +1,12 @@
+identifier: TinyTravelsPlanetPack
+$kref: '#/ckan/spacedock/4640'
+tags:
+  - config
+  - planet-pack
+depends:
+  - name: ModuleManager
+  - name: Kopernicus
+install:
+  - find: 000_TinyTravels
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
