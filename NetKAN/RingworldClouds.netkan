@@ -1,9 +1,4 @@
 identifier: RingworldClouds
-$kref: '#/ckan/github/theplatecrafter/Ringworld-Clouds-KSP'
-x_netkan_version_edit: ^v?(?<version>.+)$
-$vref: '#/ckan/ksp-avc'
----
-identifier: RingworldClouds
 x_netkan_version_edit: ^v?(?<version>.+)$
 $kref: '#/ckan/spacedock/4630'
 $vref: '#/ckan/ksp-avc'
