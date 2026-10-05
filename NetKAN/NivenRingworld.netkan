@@ -8,7 +8,7 @@ $kref: '#/ckan/spacedock/4573'
 $vref: '#/ckan/ksp-avc'
 x_netkan_version_edit: ^v?(?<version>.+)$
 tags:
-  - parts
+  - planet-pack
   - plugin
   - science
 depends:
