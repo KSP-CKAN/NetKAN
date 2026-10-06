@@ -1,0 +1,11 @@
+identifier: LazySpawner
+$kref: '#/ckan/spacedock/4648'
+$vref: '#/ckan/ksp-avc'
+tags:
+  - config
+  - plugin
+install:
+  - find: LazySpawner
+    install_to: GameData
+    filter_regexp: \.pdb$
+x_via: Automated SpaceDock CKAN submission
