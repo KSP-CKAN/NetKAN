@@ -1,0 +1,39 @@
+spec_version: v1.4
+identifier: RealBattery
+name: RealBattery Recharged
+abstract: Realistic battery simulation for KSP - storage (StoredCharge) and power (ElectricCharge), chemistry-based variants, wear, thermal effects and tech progression. Continuation of Blackliner's RealBattery.
+$kref: '#/ckan/github/Rjoande/RealBattery'
+$vref: '#/ckan/ksp-avc'
+x_netkan_github:
+  prereleases: false
+license: MIT
+author:
+  - Blackliner
+  - Rjoande
+resources:
+  homepage: https://forum.kerbalspaceprogram.com/topic/227955-112x-realbattery-recharged-v2-realistic-battery-simulation/
+  repository: https://github.com/Rjoande/RealBattery
+  bugtracker: https://github.com/Rjoande/RealBattery/issues
+tags:
+  - plugin
+  - parts
+  - physics
+  - config
+install:
+  - file: GameData/RealBattery
+    install_to: GameData
+  - file: GameData/RealBatteryExpansion
+    install_to: GameData
+depends:
+  - name: ModuleManager
+  - name: B9PartSwitch
+  - name: CommunityResourcePack
+recommends:
+  - name: LoadingTipsPlus
+  - name: SystemHeat
+suggests:
+  - name: CommunityTechTree
+  - name: DynamicBatteryStorage
+  - name: DangItContinued
+  - name: BonVoyage
+  - name: ConformalDecals
