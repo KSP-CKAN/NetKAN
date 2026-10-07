@@ -1,0 +1,16 @@
+identifier: BetterRCSROConfig
+$kref: '#/ckan/github/gyxx-xc/BetterRCS_RO'
+x_netkan_version_edit: ^v?(?<version>.+)$
+$vref: '#/ckan/ksp-avc'
+---
+identifier: BetterRCSROConfig
+$kref: '#/ckan/spacedock/4641'
+$vref: '#/ckan/ksp-avc'
+tags:
+  - config
+depends:
+  - name: ModuleManager
+install:
+  - find: BetterRCS_RO
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
