@@ -1,0 +1,43 @@
+{
+    "spec_version":  "v1.4",
+    "identifier":  "KSPChatBridge",
+    "name":  "AICS - KSP Chat Bridge",
+    "abstract":  "Chat with your vessel: an in-game chat window + AICS menu that talks to a local Python bridge (kRPC) driving AI copilots, autopilots, crew chatter and a systems dashboard.",
+    "author":  "zernon916",
+    "$kref":  "#/ckan/github/zernon916/KSPChatBridge",
+    "license":  "MIT",
+    "release_status":  "testing",
+    "ksp_version":  "1.12",
+    "resources":  {
+                      "repository":  "https://github.com/zernon916/KSPChatBridge",
+                      "bugtracker":  "https://github.com/zernon916/KSPChatBridge/issues"
+                  },
+    "tags":  [
+                 "plugin",
+                 "control",
+                 "information"
+             ],
+    "depends":  [
+                    {
+                        "name":  "kRPC"
+                    }
+                ],
+    "recommends":  [
+                       {
+                           "name":  "MechJeb2"
+                       },
+                       {
+                           "name":  "kRPC-MechJeb"
+                       }
+                   ],
+    "install":  [
+                    {
+                        "file":  "GameData/KSPChatBridge",
+                        "install_to":  "GameData",
+                        "filter":  [
+                                       "PluginData"
+                                   ]
+                    }
+                ],
+    "$vref":  "#/ckan/ksp-avc"
+}
