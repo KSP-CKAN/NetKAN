@@ -1,0 +1,17 @@
+identifier: OPEnginesMod
+name: KSP OP Engines Mod
+abstract: Overpowered stock-engine replacements for sandbox players
+$kref: '#/ckan/github/S1xinch/KSP-OPEnginesMod'
+license: MIT
+author: S1xinch
+resources:
+  repository: https://github.com/S1xinch/KSP-OPEnginesMod
+depends:
+  - name: ModuleManager
+install:
+  - file: GameData/OPEnginesMod
+    install_to: GameData
+  - file: GameData/000_FilterExtensions
+    install_to: GameData
+  - file: GameData/000_FilterExtensions_Configs
+    install_to: GameData
