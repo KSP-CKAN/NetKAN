@@ -1,6 +1,6 @@
-identifier: RingworldScattering
+identifier: RingworldParallax
 x_netkan_version_edit: ^v?(?<version>.+)$
-$kref: '#/ckan/spacedock/4629'
+$kref: '#/ckan/spacedock/4658'
 $vref: '#/ckan/ksp-avc'
 tags:
 - graphics
@@ -8,7 +8,8 @@ tags:
 depends:
 - name: NivenRingworld
   min_version: 1.1.8
+- name: ParallaxContinued
+  min_version: 1.0.3
 install:
-- find: RingworldScattering
+- find: RingworldParallax
   install_to: GameData
-x_via: Automated SpaceDock CKAN submission
