@@ -1,0 +1,19 @@
+identifier: SmoothPortraits
+name: Smooth Portraits
+abstract: >-
+  The crew's portraits drawn as often as the game itself is, within a set
+  share of each frame.
+author: Ishiaki
+$kref: '#/ckan/github/IshiakiZ/ksp-smooth-portraits'
+$vref: '#/ckan/ksp-avc'
+x_netkan_version_edit: '^[vV]?(?<version>.+)$'
+license: MIT
+tags:
+  - plugin
+  - graphics
+  - crewed
+depends:
+  - name: Keystone
+install:
+  - file: SmoothPortraits/GameData/SmoothPortraits
+    install_to: GameData

@@ -1,0 +1,19 @@
+identifier: KerbalSkins
+name: Kerbal Skins
+abstract: >-
+  The colour of the kerbals' skin: one for everyone, a different one for each
+  kerbal, or your own choice for any one of them.
+author: Ishiaki
+$kref: '#/ckan/github/IshiakiZ/ksp-kerbal-skins'
+$vref: '#/ckan/ksp-avc'
+x_netkan_version_edit: '^[vV]?(?<version>.+)$'
+license: MIT
+tags:
+  - plugin
+  - graphics
+  - crewed
+depends:
+  - name: Keystone
+install:
+  - file: KerbalSkins/GameData/KerbalSkins
+    install_to: GameData
