@@ -1,0 +1,16 @@
+identifier: VolumetricExplosions
+name: Volumetric Explosions
+abstract: >-
+  Explosions as a simulation of fire, smoke and dust, drawn as a true volume
+  that the light falls into.
+author: Ishiaki
+$kref: '#/ckan/github/IshiakiZ/ksp-volumetric-explosions'
+$vref: '#/ckan/ksp-avc'
+x_netkan_version_edit: '^[vV]?(?<version>.+)$'
+license: MIT
+tags:
+  - plugin
+  - graphics
+install:
+  - file: VolumetricExplosions/GameData/VolumetricExplosions
+    install_to: GameData

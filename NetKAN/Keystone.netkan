@@ -1,0 +1,19 @@
+identifier: Keystone
+name: Keystone
+abstract: >-
+  The base a family of small mods stands on: one settings window for all of
+  them, settings that are kept between runs, and a lens of its own (depth of
+  field, motion blur, grain) for the mods that film.
+author: Ishiaki
+$kref: '#/ckan/github/IshiakiZ/ksp-keystone'
+$vref: '#/ckan/ksp-avc'
+x_netkan_version_edit: '^[vV]?(?<version>.+)$'
+license: MIT
+tags:
+  - plugin
+  - library
+suggests:
+  - name: TUFX
+install:
+  - file: Keystone/GameData/Keystone
+    install_to: GameData

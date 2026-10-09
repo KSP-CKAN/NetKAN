@@ -1,0 +1,19 @@
+identifier: WarmStart
+name: Warm Start
+abstract: >-
+  The game starts in less than half the time: what it works out afresh at
+  every start (the expansions' files unpacked, PNG textures converted, what is
+  in its small bundles) is kept from the last one. No game code is patched.
+author: Ishiaki
+$kref: '#/ckan/github/IshiakiZ/ksp-warm-start'
+$vref: '#/ckan/ksp-avc'
+x_netkan_version_edit: '^[vV]?(?<version>.+)$'
+license: MIT
+tags:
+  - plugin
+  - convenience
+depends:
+  - name: Keystone
+install:
+  - file: WarmStart/GameData/WarmStart
+    install_to: GameData
