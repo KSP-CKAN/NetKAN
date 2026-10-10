@@ -1,0 +1,8 @@
+identifier: TechNodeTooltip
+$kref: '#/ckan/spacedock/4663'
+tags:
+  - plugin
+install:
+  - find: TechTreeTooltip
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
