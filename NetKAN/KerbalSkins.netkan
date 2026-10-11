@@ -7,7 +7,7 @@ author: Ishiaki
 $kref: '#/ckan/github/IshiakiZ/ksp-kerbal-skins'
 $vref: '#/ckan/ksp-avc'
 x_netkan_version_edit: '^[vV]?(?<version>.+)$'
-license: MIT
+license: CC-BY-4.0
 tags:
   - plugin
   - graphics
