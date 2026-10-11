@@ -15,5 +15,5 @@ tags:
 suggests:
   - name: TUFX
 install:
-  - file: Keystone/GameData/Keystone
+  - find: Keystone
     install_to: GameData

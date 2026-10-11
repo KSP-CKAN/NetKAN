@@ -12,5 +12,5 @@ tags:
   - plugin
   - graphics
 install:
-  - file: VolumetricExplosions/GameData/VolumetricExplosions
+  - find: VolumetricExplosions
     install_to: GameData

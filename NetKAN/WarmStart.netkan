@@ -15,5 +15,5 @@ tags:
 depends:
   - name: Keystone
 install:
-  - file: WarmStart/GameData/WarmStart
+  - find: WarmStart
     install_to: GameData

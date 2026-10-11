@@ -15,5 +15,5 @@ tags:
 depends:
   - name: Keystone
 install:
-  - file: SmoothPortraits/GameData/SmoothPortraits
+  - find: SmoothPortraits
     install_to: GameData

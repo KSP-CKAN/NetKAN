@@ -15,5 +15,5 @@ tags:
 depends:
   - name: Keystone
 install:
-  - file: KerbalSkins/GameData/KerbalSkins
+  - find: KerbalSkins
     install_to: GameData
