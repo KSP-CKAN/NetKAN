@@ -1,0 +1,19 @@
+identifier: TURD-ColdWarAerospace
+$kref: '#/ckan/spacedock/4664'
+name: TURD - Cold War Aerospace
+abstract: >-
+  Textures Unlimited recolours for Cold War Aerospace
+author:
+  - Spartwo
+  - SierraDrake
+license: CC-BY-NC-SA-4.0
+tags:
+  - config
+  - graphics
+depends:
+  - name: ModuleManager
+  - name: TexturesUnlimited
+  - name: ColdWarAerospace
+install:
+  - find: TURD/TU_ColdWarAerospace_Recolour
+    install_to: GameData/TURD
