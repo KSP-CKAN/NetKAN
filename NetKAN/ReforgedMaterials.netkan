@@ -1,4 +1,8 @@
 identifier: ReforgedMaterials
+$kref: '#/ckan/github/J4COB1534/Reforged-Materials'
+x_netkan_version_edit: ^v?(?<version>.+)$
+---
+identifier: ReforgedMaterials
 $kref: '#/ckan/spacedock/4323'
 tags:
   - config
