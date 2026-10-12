@@ -1,0 +1,22 @@
+identifier: RocketSmoke
+name: Rocket Smoke
+abstract: >-
+  A rocket's smoke as a true volume, made in the air of Volumetric Explosions:
+  it rolls out over the pad, climbs after the rocket in a column, hangs and
+  drifts in the wind, and is lit by the sun and by the flame.
+author: Ishiaki
+$kref: '#/ckan/github/IshiakiZ/ksp-rocket-smoke'
+$vref: '#/ckan/ksp-avc'
+x_netkan_version_edit: '^[vV]?(?<version>.+)$'
+license: CC-BY-4.0
+tags:
+  - plugin
+  - graphics
+depends:
+  - name: Keystone
+  - name: VolumetricExplosions
+recommends:
+  - name: EngineFlames
+install:
+  - find: RocketSmoke
+    install_to: GameData

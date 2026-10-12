@@ -1,0 +1,20 @@
+identifier: PhotoStudio
+name: Photo Studio
+abstract: >-
+  The craft you are building or flying, in a photographer's studio: a white
+  cyclorama, a green screen or a showroom, with a camera that goes round it, a
+  turntable, and pictures larger than the screen.
+author: Ishiaki
+$kref: '#/ckan/github/IshiakiZ/ksp-photo-studio'
+$vref: '#/ckan/ksp-avc'
+x_netkan_version_edit: '^[vV]?(?<version>.+)$'
+license: CC-BY-4.0
+tags:
+  - plugin
+  - graphics
+  - editor
+depends:
+  - name: Keystone
+install:
+  - find: PhotoStudio
+    install_to: GameData

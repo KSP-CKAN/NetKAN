@@ -1,0 +1,21 @@
+identifier: ImpactFrames
+name: Impact Frames
+abstract: >-
+  On the instant of a big hit or explosion the picture becomes a drawing of the
+  blow for a few frames, as hand-drawn animation does it. It flashes, and is off
+  as installed. The frames are drawn through TUFX.
+author: Ishiaki
+$kref: '#/ckan/github/IshiakiZ/ksp-impact-frames'
+$vref: '#/ckan/ksp-avc'
+x_netkan_version_edit: '^[vV]?(?<version>.+)$'
+license: CC-BY-4.0
+tags:
+  - plugin
+  - graphics
+depends:
+  - name: Keystone
+recommends:
+  - name: TUFX
+install:
+  - find: ImpactFrames
+    install_to: GameData

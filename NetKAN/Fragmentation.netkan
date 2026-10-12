@@ -1,0 +1,22 @@
+identifier: Fragmentation
+name: Fragmentation
+abstract: >-
+  Crashes as they are: a craft breaks up from the parts that hit, tanks are
+  crushed, torn open as they slide, split, leak and go up, and a wreck leaves a
+  scar and a trail of its own torn skin.
+author: Ishiaki
+$kref: '#/ckan/github/IshiakiZ/ksp-fragmentation'
+$vref: '#/ckan/ksp-avc'
+x_netkan_version_edit: '^[vV]?(?<version>.+)$'
+license: CC-BY-4.0
+tags:
+  - plugin
+  - physics
+  - graphics
+depends:
+  - name: Keystone
+recommends:
+  - name: VolumetricExplosions
+install:
+  - find: Fragmentation
+    install_to: GameData
