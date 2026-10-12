@@ -17,4 +17,4 @@ depends:
   - name: ToolbarController
   - name: ClickThroughBlocker
 recommends:
-  - KSPPartExplorer
+  - name: KSPPartExplorer
