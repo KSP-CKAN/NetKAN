@@ -1,0 +1,18 @@
+identifier: RealChute-CN
+name: RealChute CN
+abstract: Runtime Chinese localization plugin for RealChute - Harmony patches for UI strings that config patches cannot reach
+$kref: '#/ckan/github/starmatch666-droid/RealChute-CN'
+license: MIT
+author:
+  - Cyber1j1e
+resources:
+  homepage: https://github.com/starmatch666-droid/RealChute-CN
+tags:
+  - plugin
+  - localization
+depends:
+  - name: Harmony2
+  - name: RealChute
+install:
+  - find: RealChute_CN
+    install_to: GameData
