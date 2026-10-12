@@ -1,0 +1,22 @@
+identifier: Endurance-CN
+name: Endurance CN
+abstract: Simplified Chinese localization patch for the Endurance parts pack
+$kref: '#/ckan/github/starmatch666-droid/Endurance-CN'
+license: MIT
+author:
+  - Cyber1j1e
+resources:
+  homepage: https://github.com/starmatch666-droid/Endurance-CN
+tags:
+  - config
+  - localization
+comment: >-
+  Intentionally does not depend on Endurance: that mod is not on CKAN (NetKAN has no
+  Endurance identifier, only EnduranceReconfig and EnduranceSpaceExplorationSystem).
+  This is a text-only ModuleManager patch that activates when Endurance is installed
+  manually, and is a no-op otherwise.
+depends:
+  - name: ModuleManager
+install:
+  - find: Endurance_CN
+    install_to: GameData
