@@ -1,0 +1,23 @@
+identifier: Endurance-Compat
+name: Endurance Compatibility Patch
+abstract: Fits the Endurance parts pack to a USI-based mod list - reactor heat production is zeroed and life support moves to the current USI-LS modules
+$kref: '#/ckan/github/starmatch666-droid/Endurance-Compat'
+license: MIT
+author:
+  - Cyber1j1e
+resources:
+  homepage: https://github.com/starmatch666-droid/Endurance-Compat
+tags:
+  - config
+comment: >-
+  Intentionally does not depend on Endurance: that mod is not on CKAN (NetKAN has no
+  Endurance identifier). ModuleManager, CommunityResourcePack and USI-LS are genuine
+  dependencies. DeepFreeze is optional and only needed for the medical bay's
+  cryo-sleep. The patch is a no-op when Endurance is not installed.
+depends:
+  - name: ModuleManager
+  - name: CommunityResourcePack
+  - name: USI-LS
+install:
+  - find: Endurance_适配
+    install_to: GameData
