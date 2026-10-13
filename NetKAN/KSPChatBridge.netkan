@@ -1,8 +1,8 @@
 {
     "spec_version": "v1.4",
     "identifier": "KSPChatBridge",
-    "name": "AICS - KSP Chat Bridge",
-    "abstract": "AICS - KSP Chat Bridge: an in-mod C# AI copilot and crew for KSP 1.12 (local llama.cpp model or a cloud provider, no Python bridge) with autopilots, crew chatter, maps and a systems dashboard.",
+    "name": "AICS - AI Control System",
+    "abstract": "AICS - AI Control System: an in-mod C# AI copilot, crew and autopilots for KSP 1.12 (local model or a cloud provider, no Python bridge) with autopilots, crew chatter, maps and a systems dashboard.",
     "author": "zernon916",
     "$kref": "#/ckan/github/zernon916/KSPChatBridge",
     "$vref": "#/ckan/ksp-avc",
