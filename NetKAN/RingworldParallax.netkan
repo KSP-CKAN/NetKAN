@@ -10,6 +10,12 @@ depends:
   min_version: 1.1.8
 - name: ParallaxContinued
   min_version: 1.0.3
+# The bridge loads stock scatter assets and calls KSPTextureLoader directly.
+# Do not rely on Kopernicus's lower transitive loader minimum.
+- name: ParallaxContinued-Scatter-Textures
+  min_version: 1.0.0
+- name: KSPTextureLoader
+  min_version: 1.0.36
 install:
 - find: RingworldParallax
   install_to: GameData
