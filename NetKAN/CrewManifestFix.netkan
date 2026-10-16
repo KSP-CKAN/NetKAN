@@ -1,0 +1,15 @@
+identifier: CrewManifestFix
+name: Crew Manifest Fix
+abstract: 'Crew Manifest 6.5.1.1 fixes: no duplicate toolbar button on every flight load, a close button on the window, no log spam'
+author: Geny
+$kref: '#/ckan/github/genyk1p/CrewManifestFix'
+$vref: '#/ckan/ksp-avc'
+license: MIT
+tags:
+  - plugin
+  - convenience
+depends:
+  - name: CrewManifest
+    version: 6.5.1.1
+  - name: Harmony2
+    min_version: 2.2.1.0
