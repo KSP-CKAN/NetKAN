@@ -1,0 +1,18 @@
+identifier: MechJebTweaks
+name: MechJeb Tweaks
+abstract: 'Additions to MechJeb: warp guard, safe rendezvous with offset, step-by-step RCS docking autopilot, auto physics warp for nodes, KSPIE thrust fix'
+author: Geny
+$kref: '#/ckan/github/genyk1p/MechJebTweaks'
+$vref: '#/ckan/ksp-avc'
+license: GPL-3.0
+tags:
+  - plugin
+  - control
+depends:
+  - name: MechJeb2
+    min_version: 2.15.3.1
+  - name: Harmony2
+    min_version: 2.2.1.0
+supports:
+  - name: KSPInterstellarExtended
+  - name: SCANsat
