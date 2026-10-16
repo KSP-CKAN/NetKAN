@@ -1,0 +1,12 @@
+identifier: RealAntennaTrackingStationExtension
+$kref: '#/ckan/spacedock/4697'
+tags:
+  - config
+  - planet-pack
+depends:
+  - name: ModuleManager
+  - name: Kopernicus
+install:
+  - find: RealAntennaTSExtension
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
