@@ -1,0 +1,12 @@
+identifier: UnknownPartSkipperforked
+$kref: '#/ckan/spacedock/4657'
+$vref: '#/ckan/ksp-avc'
+tags:
+  - parts
+  - plugin
+depends:
+  - name: ModuleManager
+install:
+  - find: UnknownPartSkipper
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
