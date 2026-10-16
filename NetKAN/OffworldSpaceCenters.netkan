@@ -1,0 +1,10 @@
+identifier: OffworldSpaceCenters
+$kref: '#/ckan/spacedock/4662'
+$vref: '#/ckan/ksp-avc'
+tags:
+  - parts
+  - plugin
+install:
+  - find: KolonySpaceCenters
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
