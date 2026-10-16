@@ -1,0 +1,12 @@
+identifier: KERBALTHEFTPROGRAMMFULLRELEASE
+$kref: '#/ckan/spacedock/4699'
+tags:
+  - parts
+  - plugin
+install:
+  - find: NOVADIVISIONPackKTP
+    install_to: GameData
+    filter_regexp: \.craft$
+  - file: NOVADIVISIONPackKTP/Plugins/JebsBase/sstation/spacestation.craft
+    install_to: Ships/VAB
+x_via: Automated SpaceDock CKAN submission
