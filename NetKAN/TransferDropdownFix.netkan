@@ -1,0 +1,14 @@
+identifier: TransferDropdownFix
+name: Transfer Dropdown Fix
+abstract: Vessel names in the closed drop-downs of the Konstruction resource transfer window
+author: Geny
+$kref: '#/ckan/github/genyk1p/TransferDropdownFix'
+$vref: '#/ckan/ksp-avc'
+license: GPL-3.0
+tags:
+  - plugin
+  - convenience
+depends:
+  - name: Konstruction
+  - name: Harmony2
+    min_version: 2.2.1.0
