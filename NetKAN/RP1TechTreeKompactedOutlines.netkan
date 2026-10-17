@@ -1,0 +1,16 @@
+identifier: RP1TechTreeKompactedOutlines
+name: RP-1 TechTree Kompacted Outlines
+abstract: Draws colored outlines around each blue sky tech and the techs it unlocks in RP-1 TechTree Kompacted.
+author: sparr
+$kref: '#/ckan/github/sparr/ksp-mod-RP1TechTreeKompactedOutlines'
+$vref: '#/ckan/ksp-avc'
+license: MIT
+tags:
+  - plugin
+  - tech-tree
+depends:
+  - name: ModuleManager
+  - name: RP1TechTreeKompacted
+install:
+  - find: RP1TechTreeKompactedOutlines
+    install_to: GameData
