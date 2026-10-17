@@ -1,0 +1,11 @@
+identifier: ParallaxForRSSPFRNotexturesCominglater
+$kref: '#/ckan/spacedock/4545'
+$vref: '#/ckan/ksp-avc'
+tags:
+  - config
+depends:
+  - name: ModuleManager
+install:
+  - find: PFR
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
