@@ -7,6 +7,13 @@ depends:
   - name: ModuleManager
   - name: Kopernicus
   - name: VertexMitchellNetravaliHeightMap
+recommends:
+  - name: ParallaxContinued
+  - name: Scatterer
+suggests:
+  - name: SpaceDust
+  - name: RationalResources
+  - name: TiltEm-Continued
 install:
   - find: AOP
     install_to: GameData
