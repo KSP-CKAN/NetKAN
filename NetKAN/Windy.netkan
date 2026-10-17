@@ -1,0 +1,16 @@
+identifier: Windy
+$kref: '#/ckan/github/KerbalMissile/Windy'
+x_netkan_version_edit: ^v?(?<version>.+)$
+---
+identifier: Windy
+$kref: '#/ckan/spacedock/4173'
+x_netkan_version_edit: ^v?(?<version>.+)$
+tags:
+  - config
+  - plugin
+  - physics
+conflicts:
+  - name: KerbalWeatherProject
+  - name: KerbalWeatherProject-Lite
+  - name: AdvancedAtmosphereTools
+x_via: Automated SpaceDock CKAN submission
