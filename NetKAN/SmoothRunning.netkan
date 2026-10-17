@@ -2,9 +2,9 @@ identifier: SmoothRunning
 name: Smooth Running
 abstract: >-
   The game made faster where it wastes its time, each fix measured in the game
-  first. First: the terrain's update, which the game starts again at every load
-  and scene change and never stops (after a session of loads, dozens of copies
-  a frame).
+  first: the terrain's update, which the game starts again at every load and
+  never stops; the event handlers left behind at every scene change; and a
+  clean-up of unused assets the game asks for twice at every scene change.
 author: Ishiaki
 $kref: '#/ckan/github/IshiakiZ/ksp-smooth-running'
 $vref: '#/ckan/ksp-avc'

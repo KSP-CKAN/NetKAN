@@ -5,8 +5,8 @@ abstract: >-
   every start (the expansions' files unpacked, PNG textures converted, what is
   in its small bundles, the parts' drag cubes after a change to the mods) is
   kept from the last one. With Harmony installed, the game's look-ups of
-  models, textures and sounds go by a table; without it no game code is
-  patched.
+  models, textures and sounds go by a table and the parts' icons are made
+  without copying what is thrown away; without it no game code is patched.
 author: Ishiaki
 $kref: '#/ckan/github/IshiakiZ/ksp-warm-start'
 $vref: '#/ckan/ksp-avc'
