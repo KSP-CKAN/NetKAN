@@ -1,0 +1,13 @@
+identifier: EVAJetpackWaterfall
+$kref: '#/ckan/spacedock/4685'
+tags:
+  - config
+  - graphics
+  - plugin
+depends:
+  - name: ModuleManager
+  - name: Waterfall
+install:
+  - find: GreenStoneIndustry
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
