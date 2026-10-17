@@ -1,0 +1,12 @@
+identifier: SpacePotatosVolumetricEnhancementsSPVEV3
+$kref: '#/ckan/spacedock/4548'
+tags:
+  - config
+  - planet-pack
+depends:
+  - name: ModuleManager
+  - name: Kopernicus
+install:
+  - find: SPVE
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
