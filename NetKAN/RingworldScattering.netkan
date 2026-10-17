@@ -7,7 +7,7 @@ tags:
 - plugin
 depends:
 - name: NivenRingworld
-  min_version: 1.1.7
+  min_version: 1.1.8
 install:
 - find: RingworldScattering
   install_to: GameData
