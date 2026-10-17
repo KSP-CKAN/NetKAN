@@ -1,0 +1,13 @@
+identifier: RecoloredLargeBoatPartsPack
+$kref: '#/ckan/spacedock/4351'
+tags:
+  - crewed
+  - first-person
+  - parts
+  - plugin
+depends:
+  - name: ModuleManager
+install:
+  - find: ''
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
