@@ -1,11 +1,9 @@
-identifier: Contrailscondensationtrails
+identifier: Contrails
 $kref: '#/ckan/spacedock/4692'
 tags:
   - config
+  - graphics
   - plugin
 depends:
   - name: ModuleManager
-install:
-  - find: Contrails
-    install_to: GameData
 x_via: Automated SpaceDock CKAN submission
