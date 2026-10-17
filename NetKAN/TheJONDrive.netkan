@@ -1,0 +1,8 @@
+identifier: TheJONDrive
+$kref: '#/ckan/spacedock/4567'
+tags:
+  - parts
+install:
+  - find: The John Mod
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
