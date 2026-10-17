@@ -1,0 +1,22 @@
+identifier: EngineFlames
+name: Engine Flames
+abstract: >-
+  A rocket engine's exhaust as burning gas, made in the air of Volumetric
+  Explosions: white-hot at the nozzle, cooling through yellow and orange, wider
+  as the air thins, striking the ground and running out along it.
+author: Ishiaki
+$kref: '#/ckan/github/IshiakiZ/ksp-engine-flames'
+$vref: '#/ckan/ksp-avc'
+x_netkan_version_edit: '^[vV]?(?<version>.+)$'
+license: CC-BY-4.0
+tags:
+  - plugin
+  - graphics
+depends:
+  - name: Keystone
+  - name: VolumetricExplosions
+recommends:
+  - name: RocketSmoke
+install:
+  - find: EngineFlames
+    install_to: GameData
