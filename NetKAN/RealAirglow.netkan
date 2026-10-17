@@ -1,0 +1,10 @@
+identifier: RealAirglow
+$kref: '#/ckan/github/Beullig07/RealAirglow'
+x_netkan_version_edit: ^v?(?<version>.+)$
+---
+identifier: RealAirglow
+$kref: '#/ckan/spacedock/4670'
+tags:
+  - config
+  - plugin
+x_via: Automated SpaceDock CKAN submission
