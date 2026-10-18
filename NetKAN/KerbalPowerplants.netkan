@@ -3,8 +3,7 @@ $kref: '#/ckan/github/Halbann/KerbalPowerPlants'
 ---
 identifier: KerbalPowerplants
 $kref: '#/ckan/spacedock/4541'
-abstract: >-
-  Variety of stockalike jet engines to fill missing niches in the vanilla game.
+$vref: '#/ckan/ksp-avc'
 license: restricted
 tags:
   - parts
