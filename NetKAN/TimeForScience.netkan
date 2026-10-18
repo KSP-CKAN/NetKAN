@@ -4,7 +4,7 @@ abstract: Science experiments take real time to complete, proportional to the sc
 author: Rjoande
 $kref: '#/ckan/github/Rjoande/TimeForScience'
 license: MIT
-ksp_version: '1.12'
+$vref: '#/ckan/ksp-avc'
 resources:
   homepage: https://forum.kerbalspaceprogram.com/topic/231557-*
 tags:

@@ -16,8 +16,7 @@ x_netkan_version_edit:
   find: ^v(?<first>[^.])
   replace: v.${first}
   strict: false
-ksp_version_min: '1.12.3'
-ksp_version_max: '1.12.99'
+$vref: '#/ckan/ksp-avc'
 license: restricted
 tags:
   - parts
