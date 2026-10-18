@@ -1,0 +1,15 @@
+identifier: ReforgedMaterials
+$kref: '#/ckan/github/J4COB1534/Reforged-Materials'
+x_netkan_version_edit: ^v?(?<version>.+)$
+---
+identifier: ReforgedMaterials
+$kref: '#/ckan/spacedock/4323'
+tags:
+  - config
+  - plugin
+depends:
+  - name: ModuleManager
+install:
+  - find: ReforgedRedux
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
