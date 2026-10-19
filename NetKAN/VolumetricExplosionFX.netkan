@@ -1,4 +1,8 @@
 identifier: VolumetricExplosionFX
+$kref: '#/ckan/github/warnix91/Volumetric-Explosion-FX'
+x_netkan_version_edit: ^v?(?<version>.+)$
+---
+identifier: VolumetricExplosionFX
 $kref: '#/ckan/spacedock/4652'
 tags:
   - config
