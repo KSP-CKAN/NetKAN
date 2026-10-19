@@ -1,0 +1,45 @@
+identifier: ParaSoft
+name: ParaSoft Airbraking Technologies
+abstract: >-
+  Softbody parachutes. Canopies leave their pack, stream out, fill with air, breathe,
+  swing in the wind, collapse onto the ground and ride the waves - on the parachutes you
+  already have, with drag left exactly as your parachute mod computes it.
+description: >-
+  ParaSoft Airbraking Technologies turns every round parachute canopy into a softbody.
+  Each canopy is simulated as cloth on its seams, with suspension lines, a pilot chute and
+  ram air filling it, and the part's own canopy mesh follows the simulation - so its
+  textures, RealChute's canopy choices and Custom Parachute Message's encoded canopies all
+  carry over.
+
+
+  Canopies deploy like real ones: the pack leaves the part, lines pay out, the canopy
+  streams and then fills crown first; reefed chutes stay reefed until the module disreefs
+  them. They react to their surroundings - thick air, thin air, supersonic flight and
+  vacuum all look different with nothing special-cased; wind from Kerbal Weather Project
+  (or any wind registered with FAR) moves them; they collapse onto terrain, buildings and
+  craft, float on the sea and ride Scatterer's waves.
+
+
+  Drag is never changed. Stock ModuleParachute, RealChute and FAR's RealChuteLite keep
+  computing and applying all of their own forces; ParaSoft only simulates and draws the
+  canopy and never pushes back on the craft.
+$kref: '#/ckan/github/CritZitGaming/KSP-ParaSoft'
+$vref: '#/ckan/ksp-avc/ParaSoft/ParaSoft.version'
+x_netkan_version_edit: ^v?(?<version>.+)$
+license: MIT
+tags:
+  - plugin
+  - physics
+  - graphics
+depends:
+  - name: ModuleManager
+supports:
+  - name: RealChute
+  - name: FerramAerospaceResearchContinued
+  - name: FerramAerospaceResearch
+  - name: KerbalWeatherProject
+  - name: KerbalWeatherProject-Lite
+  - name: Scatterer
+  - name: CustomParachuteMessage
+  - name: ReStock
+  - name: KerbalFX-AeroFX
