@@ -1,0 +1,14 @@
+identifier: RendererBounds
+name: Renderer Bounds
+abstract: Measures craft size from part mesh geometry instead of inflated axis aligned renderer bounding boxes.
+author: sparr
+$kref: '#/ckan/github/sparr/ksp-mod-RendererBounds'
+$vref: '#/ckan/ksp-avc'
+license: MIT
+tags:
+  - plugin
+depends:
+  - name: Harmony2
+install:
+  - find: RendererBounds
+    install_to: GameData
