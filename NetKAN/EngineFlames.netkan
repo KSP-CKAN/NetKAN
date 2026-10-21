@@ -14,7 +14,9 @@ tags:
   - graphics
 depends:
   - name: Keystone
+    min_version: 0.9.0
   - name: VolumetricExplosions
+    min_version: 0.8.0
 recommends:
   - name: RocketSmoke
 install:
