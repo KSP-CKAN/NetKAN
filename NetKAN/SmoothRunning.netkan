@@ -15,7 +15,7 @@ tags:
   - convenience
 depends:
   - name: Keystone
-    min_version: 0.8.0
+    min_version: 0.9.0
   - name: Harmony2
 install:
   - find: SmoothRunning

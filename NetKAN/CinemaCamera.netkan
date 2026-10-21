@@ -14,6 +14,7 @@ tags:
   - graphics
 depends:
   - name: Keystone
+    min_version: 0.9.0
 install:
   - find: CineCamera
     install_to: GameData
