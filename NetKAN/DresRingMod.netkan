@@ -8,6 +8,6 @@ depends:
   - name: ModuleManager
   - name: Kopernicus
 install:
-  - find: Dres
+  - find: DRM
     install_to: GameData
 x_via: Automated SpaceDock CKAN submission
