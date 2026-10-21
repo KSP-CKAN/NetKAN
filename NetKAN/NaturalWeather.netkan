@@ -15,6 +15,7 @@ tags:
   - physics
 depends:
   - name: Keystone
+    min_version: 0.9.0
 recommends:
   - name: NaturalLight
   - name: VolumetricExplosions
