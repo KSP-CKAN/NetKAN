@@ -1,0 +1,52 @@
+{
+    "identifier": "kOSImproved",
+    "$kref": "#/ckan/github/Jvaxx/kOSIm/asset_match/^kOS-v[0-9]+(\\.[0-9]+){3}\\.zip$",
+    "$vref": "#/ckan/ksp-avc",
+    "x_netkan_github": {
+        "prereleases": false
+    },
+    "x_netkan_version_edit": "^[vV]?(?<version>.+)$",
+    "name": "kOS Improved",
+    "abstract": "Independent fork of the kOS scriptable autopilot with terminal, editor and telnet improvements. Installs in place of kOS.",
+    "author": [
+        "Jvaxx",
+        "kOS team and contributors"
+    ],
+    "license": "GPL-3.0",
+    "tags": [
+        "plugin",
+        "control"
+    ],
+    "resources": {
+        "homepage": "https://github.com/Jvaxx/kOSIm",
+        "repository": "https://github.com/Jvaxx/kOSIm",
+        "bugtracker": "https://github.com/Jvaxx/kOSIm/issues"
+    },
+    "provides": [
+        "kOS"
+    ],
+    "conflicts": [
+        {
+            "name": "kOS"
+        },
+        {
+            "name": "kOS-Classic"
+        }
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "RemoteTech"
+        }
+    ],
+    "install": [
+        {
+            "file": "GameData/kOS",
+            "install_to": "GameData"
+        }
+    ]
+}
