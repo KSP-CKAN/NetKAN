@@ -1,0 +1,9 @@
+identifier: KerbinServices
+$kref: '#/ckan/spacedock/4739'
+$vref: '#/ckan/ksp-avc'
+tags:
+  - buildings
+  - config
+depends:
+  - name: KerbalKonstructs
+x_via: Automated SpaceDock CKAN submission
