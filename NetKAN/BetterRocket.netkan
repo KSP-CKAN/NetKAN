@@ -1,0 +1,10 @@
+identifier: BetterRocket
+$kref: '#/ckan/github/ChrisInBed/BetterRocket'
+x_netkan_version_edit: ^v?(?<version>.+)$
+---
+identifier: BetterRocket
+$kref: '#/ckan/spacedock/4737'
+tags:
+  - config
+  - plugin
+x_via: Automated SpaceDock CKAN submission
