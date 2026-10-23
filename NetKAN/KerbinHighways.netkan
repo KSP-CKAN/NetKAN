@@ -1,0 +1,10 @@
+identifier: KerbinHighways
+$kref: '#/ckan/spacedock/4741'
+$vref: '#/ckan/ksp-avc'
+tags:
+  - buildings
+  - config
+  - plugin
+depends:
+  - name: KerbalKonstructs
+x_via: Automated SpaceDock CKAN submission
