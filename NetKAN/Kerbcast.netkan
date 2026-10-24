@@ -3,6 +3,7 @@ author: jonpepler
 $kref: '#/ckan/github/ksp-gonogo/kerbcast'
 x_netkan_version_edit: ^v?(?<version>.+)$
 $vref: '#/ckan/ksp-avc'
+license: GPL-3.0
 ---
 identifier: Kerbcast
 $kref: '#/ckan/spacedock/4366'
