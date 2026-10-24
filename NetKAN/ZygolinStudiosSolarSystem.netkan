@@ -1,0 +1,10 @@
+identifier: ZygolinStudiosSolarSystem
+$kref: '#/ckan/spacedock/4736'
+tags:
+  - parts
+  - planet-pack
+depends:
+  - name: ModuleManager
+  - name: Kopernicus
+  - name: B9PartSwitch
+x_via: Automated SpaceDock CKAN submission
