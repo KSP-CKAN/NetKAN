@@ -1,0 +1,19 @@
+identifier: KerbinServices
+$kref: '#/ckan/spacedock/4739'
+$vref: '#/ckan/ksp-avc'
+license: unrestricted
+comment: >-
+  Original code and models are MIT; font-derived artwork is OGL v1.0;
+  the source motorway symbol is public domain. OGL v1.0 has no CKAN
+  identifier, so unrestricted represents the mixed permissive licences.
+  The archive retains the applicable per-file notices and attribution.
+tags:
+  - buildings
+  - config
+depends:
+  - name: KerbinHighways
+    min_version: 0.4.14
+install:
+  - find: KerbinServices
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
