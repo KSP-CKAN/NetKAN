@@ -1,0 +1,21 @@
+identifier: ZeusLaunchSystem
+$kref: '#/ckan/spacedock/4744'
+tags:
+  - parts
+depends:
+  - name: ModuleManager
+install:
+  - find: OmnidroidDeploymentBDB
+    install_to: GameData
+    filter_regexp: \.craft$
+  - file: ZeusLaunchSystem_v0.6.6/Ships/VAB/OD10-BDB-Bare-Stage.craft
+    install_to: Ships/VAB
+  - file: ZeusLaunchSystem_v0.6.6/Ships/VAB/OD10-BDB-DCSS-Example.craft
+    install_to: Ships/VAB
+  - file: 
+      ZeusLaunchSystem_v0.6.6/Ships/VAB/OD10-BDB-Matched-Pathfinder-Example.craft
+    install_to: Ships/VAB
+  - file: 
+      ZeusLaunchSystem_v0.6.6/Ships/VAB/OD10-BDB-Matched-Pathfinder-Mount.craft
+    install_to: Ships/VAB
+x_via: Automated SpaceDock CKAN submission
