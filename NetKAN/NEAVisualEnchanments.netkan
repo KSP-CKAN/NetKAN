@@ -1,0 +1,6 @@
+identifier: NEAVisualEnchanments
+$kref: '#/ckan/spacedock/4743'
+install:
+  - find: ''
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
