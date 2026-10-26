@@ -1,0 +1,13 @@
+identifier: bmajusInnerMinmus
+$kref: '#/ckan/spacedock/4748'
+tags:
+  - config
+  - planet-pack
+  - plugin
+depends:
+  - name: ModuleManager
+  - name: Kopernicus
+install:
+  - find: bmaju's InnerMinmus
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
