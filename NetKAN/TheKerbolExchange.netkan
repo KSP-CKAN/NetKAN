@@ -1,4 +1,10 @@
 identifier: TheKerbolExchange
+$kref: '#/ckan/github/Unofficialgz/The-Kerbol-Exchange'
+x_netkan_github:
+  use_source_archive: true
+x_netkan_version_edit: ^v?(?<version>.+)$
+---
+identifier: TheKerbolExchange
 $kref: '#/ckan/spacedock/4754'
 tags:
   - config
