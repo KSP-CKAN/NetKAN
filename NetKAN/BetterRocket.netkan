@@ -7,4 +7,10 @@ $kref: '#/ckan/spacedock/4737'
 tags:
   - config
   - plugin
+suggests:
+  - name: MechJeb2
+  - name: RealFuels
+  - name: ProceduralParts
+  - name: RealismOverhaul
+  - name: RP-1
 x_via: Automated SpaceDock CKAN submission
