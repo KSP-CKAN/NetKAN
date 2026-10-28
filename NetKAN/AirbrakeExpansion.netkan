@@ -1,0 +1,9 @@
+identifier: AirbrakeExpansion
+$kref: '#/ckan/spacedock/4723'
+tags:
+  - parts
+  - plugin
+  - config
+depends:
+  - name: ModuleManager
+x_via: Automated SpaceDock CKAN submission
