@@ -1,0 +1,16 @@
+identifier: OPMMPETiltEmContinuedCompatabilityPatch
+$kref: '#/ckan/spacedock/4345'
+tags:
+  - config
+  - planet-pack
+depends:
+  - name: ModuleManager
+  - name: Kopernicus
+  - name: OuterPlanetsMod
+  - name: TiltEm-Continued
+suggests:
+  - name: MinorPlanetsExpansion
+install:
+  - find: TiltEmCompatabilityPatches
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
