@@ -1,0 +1,16 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "VolumetricExplosionFX",
+    "name": "Volumetric Explosion FX",
+    "abstract": "Real volumetric explosions for KSP",
+    "author": "Warnix",
+    "$kref": "#/ckan/github/warnix91/Volumetric-Explosion-FX/asset_match/\\.zip$",
+    "license": "MIT",
+    "ksp_version": "1.12.5",
+    "tags": [ "plugin", "graphics" ],
+    "resources": {
+        "repository": "https://github.com/warnix91/Volumetric-Explosion-FX",
+        "bugtracker": "https://github.com/warnix91/Volumetric-Explosion-FX/issues"
+    },
+    "install": [ { "find": "VolumetricExplosionFX", "install_to": "GameData" } ]
+}
