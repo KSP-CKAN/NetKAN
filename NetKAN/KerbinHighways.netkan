@@ -1,10 +1,18 @@
 identifier: KerbinHighways
 $kref: '#/ckan/spacedock/4741'
 $vref: '#/ckan/ksp-avc'
+license: open-source
+comment: >-
+  Original code and models are MIT; font-derived artwork is OGL v1.0;
+  the source motorway symbol is public domain. OGL v1.0 has no CKAN
+  identifier, so open-source represents the mixed permissive licences.
+  The archive retains the applicable per-file notices and attribution.
 tags:
   - buildings
   - config
   - plugin
 depends:
   - name: KerbalKonstructs
+    min_version: 1.12.2.0
+  - name: ClickThroughBlocker
 x_via: Automated SpaceDock CKAN submission
