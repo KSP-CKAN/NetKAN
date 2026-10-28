@@ -1,0 +1,8 @@
+identifier: ThrustTuner
+$kref: '#/ckan/spacedock/4760'
+tags:
+  - config
+  - plugin
+depends:
+  - name: ModuleManager
+x_via: Automated SpaceDock CKAN submission
