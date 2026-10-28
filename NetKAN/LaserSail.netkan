@@ -1,0 +1,17 @@
+identifier: LaserSail
+$kref: '#/ckan/spacedock/4729'
+tags:
+  - config
+  - graphics
+  - parts
+  - plugin
+depends:
+  - name: ModuleManager
+  - name: Waterfall
+    min_version: 0.10.5
+suggests:
+  - name: Shabby
+  - name: Resurfaced
+  - name: MirrorShields
+  - name: TweakScale
+x_via: Automated SpaceDock CKAN submission
