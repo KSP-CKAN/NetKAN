@@ -6,8 +6,4 @@ tags:
   - config
 depends:
   - name: ModuleManager
-suggests:
-  - name: ReStock
-  - name: TweakScale
-  - name: CommunityTechTree
 x_via: Automated SpaceDock CKAN submission
