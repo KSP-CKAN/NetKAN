@@ -1,11 +1,21 @@
 identifier: DaringDoLaunchSystem
 $kref: '#/ckan/spacedock/4738'
 $vref: '#/ckan/ksp-avc'
+license:
+  - CC-BY-NC-4.0
+  - CC-BY-NC-SA-4.0
 tags:
   - parts
+  - config
 depends:
   - name: ModuleManager
   - name: B9PartSwitch
+  - name: CommunityResourcePack
+recommends:
+  - name: SimpleAdjustableFairings
+suggests:
+  - name: TexturesUnlimited
+  - name: BluedogDB
 install:
   - find: PegasusTankCore
     install_to: GameData
