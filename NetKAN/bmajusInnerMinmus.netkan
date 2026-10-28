@@ -7,6 +7,10 @@ tags:
 depends:
   - name: ModuleManager
   - name: Kopernicus
+suggests:
+  - name: EnvironmentalVisualEnhancements
+resources:
+  repository: https://github.com/bmaju142/bmaju-s-InnerMinmus-KSP-
 install:
   - find: bmaju's InnerMinmus
     install_to: GameData
