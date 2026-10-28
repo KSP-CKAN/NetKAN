@@ -1,0 +1,17 @@
+spec_version: v1.4
+identifier: ApproachAutopilot
+$kref: '#/ckan/github/Rjoande/ApproachAutopilot'
+$vref: '#/ckan/ksp-avc'
+x_netkan_version_edit: '^[vV]?(?<version>.+)$'
+x_netkan_github:
+  prereleases: false
+license: GPL-3.0
+resources:
+  homepage: https://forum.kerbalspaceprogram.com/topic/231869-1125-approach-autopilot-landing-controller-for-atmosphereautopilot/
+tags:
+  - plugin
+  - control
+depends:
+  - name: AtmosphereAutopilot
+  - name: NavUtilitiesUpdated
+    min_version: 0.8.1
