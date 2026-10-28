@@ -1,7 +1,4 @@
 identifier: OPMMPETiltEmContinuedCompatabilityPatch
-$kref: '#/ckan/github/MunDude/OPM-MPE-TiltEmContinued-Patch'
----
-identifier: OPMMPETiltEmContinuedCompatabilityPatch
 $kref: '#/ckan/spacedock/4345'
 tags:
   - config
@@ -9,7 +6,10 @@ tags:
 depends:
   - name: ModuleManager
   - name: Kopernicus
+  - name: OuterPlanetsMod
+  - name: MinorPlanetsExpansion
+  - name: TiltEm-Continued
 install:
-  - find: OPM_MPE_TiltEm_Continued_Compatability_Patch-0.02
+  - find: TiltEmCompatabilityPatches
     install_to: GameData
 x_via: Automated SpaceDock CKAN submission
