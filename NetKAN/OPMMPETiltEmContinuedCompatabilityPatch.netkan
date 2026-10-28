@@ -7,8 +7,9 @@ depends:
   - name: ModuleManager
   - name: Kopernicus
   - name: OuterPlanetsMod
-  - name: MinorPlanetsExpansion
   - name: TiltEm-Continued
+suggests:
+  - name: MinorPlanetsExpansion
 install:
   - find: TiltEmCompatabilityPatches
     install_to: GameData
