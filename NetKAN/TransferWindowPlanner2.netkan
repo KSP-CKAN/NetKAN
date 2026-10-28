@@ -1,0 +1,6 @@
+identifier: TransferWindowPlanner2
+$kref: '#/ckan/github/Nazfib/TransferWindowPlanner2/version_from_asset/^TransferWindowPlanner2_(?<version>v\d+\.\d+\.\d+)\.zip$'
+x_netkan_force_v: true
+tags:
+  - plugin
+  - information
