@@ -1,0 +1,24 @@
+spec_version: v1.4
+identifier: MFDExtension
+$kref: '#/ckan/github/Rjoande/MFD-Extension'
+$vref: '#/ckan/ksp-avc'
+x_netkan_version_edit: '^[vV]?(?<version>.+)$'
+license: MIT
+resources:
+  homepage: https://forum.kerbalspaceprogram.com/topic/231711-112x-mfd-extension-a-shared-module-bay-for-mas-screens/
+tags:
+  - plugin
+  - information
+depends:
+  - name: ModuleManager
+  - name: AvionicsSystems
+suggests:
+  - name: FerramAerospaceResearchContinued
+  - name: RealBattery
+  - name: NavUtilitiesUpdated
+  - any_of:
+      - name: DangIt
+      - name: DangItContinued
+  - name: SystemHeat
+  - name: DynamicBatteryStorage
+  - name: VesselView
