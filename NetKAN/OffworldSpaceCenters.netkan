@@ -4,7 +4,4 @@ $vref: '#/ckan/ksp-avc'
 tags:
   - parts
   - plugin
-install:
-  - find: KolonySpaceCenters
-    install_to: GameData
 x_via: Automated SpaceDock CKAN submission
