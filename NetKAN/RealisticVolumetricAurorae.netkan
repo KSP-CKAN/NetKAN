@@ -1,0 +1,14 @@
+identifier: RealisticVolumetricAurorae
+$kref: '#/ckan/github/HereComesTheBoom69/KSP-Realistic-Volumetric-Aurorae'
+x_netkan_version_edit: ^v?(?<version>.+)$
+$vref: '#/ckan/ksp-avc'
+---
+identifier: RealisticVolumetricAurorae
+$kref: '#/ckan/spacedock/4689'
+$vref: '#/ckan/ksp-avc'
+tags:
+  - config
+  - plugin
+depends:
+  - name: ModuleManager
+x_via: Automated SpaceDock CKAN submission
