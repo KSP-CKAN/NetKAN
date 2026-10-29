@@ -1,0 +1,40 @@
+identifier: RealisticVolumetricAurorae
+$kref: '#/ckan/github/HereComesTheBoom69/KSP-Realistic-Volumetric-Aurorae'
+x_netkan_version_edit: ^v?(?<version>.+)$
+$vref: '#/ckan/ksp-avc'
+license: CC-BY-NC-SA-4.0
+tags:
+  - graphics
+  - plugin
+  - config
+supports:
+  - name: EnvironmentalVisualEnhancements
+  - name: ModuleManager
+resources:
+  homepage: https://forum.kerbalspaceprogram.com/topic/231944-realistic-volumetric-aurorae-rva-visual-mod/
+  spacedock: https://spacedock.info/mod/4689/Realistic%20Volumetric%20Aurorae
+  repository: https://github.com/HereComesTheBoom69/KSP-Realistic-Volumetric-Aurorae
+  bugtracker: https://github.com/HereComesTheBoom69/KSP-Realistic-Volumetric-Aurorae/issues
+install:
+  - find: RealisticVolumetricAurorae
+    install_to: GameData
+---
+identifier: RealisticVolumetricAurorae
+$kref: '#/ckan/spacedock/4689'
+$vref: '#/ckan/ksp-avc'
+license: CC-BY-NC-SA-4.0
+tags:
+  - graphics
+  - plugin
+  - config
+supports:
+  - name: EnvironmentalVisualEnhancements
+  - name: ModuleManager
+resources:
+  homepage: https://forum.kerbalspaceprogram.com/topic/231944-realistic-volumetric-aurorae-rva-visual-mod/
+  spacedock: https://spacedock.info/mod/4689/Realistic%20Volumetric%20Aurorae
+  repository: https://github.com/HereComesTheBoom69/KSP-Realistic-Volumetric-Aurorae
+  bugtracker: https://github.com/HereComesTheBoom69/KSP-Realistic-Volumetric-Aurorae/issues
+install:
+  - find: RealisticVolumetricAurorae
+    install_to: GameData
