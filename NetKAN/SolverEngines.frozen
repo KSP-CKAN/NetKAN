@@ -1,18 +1,16 @@
-{
-    "$kref"         :   "#/ckan/github/KSP-RO/SolverEngines",
-    "$vref"         :   "#/ckan/ksp-avc",
-    "identifier"    :   "SolverEngines",
-    "name"          :   "Solver Engines plugin",
-    "abstract"      :   "SolverEngines is at its heart a replacement paradigm for how KSP deals with engines",
-    "license"       :   "LGPL-2.1",
-    "install"       :   [ { "find" : "SolverEngines",
-                            "install_to" : "GameData",
-                            "filter" : [ "ModuleAnimateEmissive.dll", "PluginData" ] } ],
-    "resources"     :   {
-        "homepage"  :   "https://forum.kerbalspaceprogram.com/index.php?/topic/110746-*"
-    },
-    "tags"          :   [
-        "plugin",
-        "library"
-    ]
-}
+identifier: SolverEngines
+name: Solver Engines plugin
+$kref: '#/ckan/github/KSP-RO/SolverEngines'
+$vref: '#/ckan/ksp-avc'
+license: LGPL-2.1
+resources:
+  homepage: https://forum.kerbalspaceprogram.com/index.php?/topic/110746-*
+tags:
+  - plugin
+  - library
+install:
+  - find: SolverEngines
+    install_to: GameData
+    filter:
+      - ModuleAnimateEmissive.dll
+      - PluginData
