@@ -1,0 +1,22 @@
+identifier: NaturalOcean
+name: Natural Ocean
+abstract: >-
+  A sea of its own for every world that has one: waves raised by the weather's
+  wind, swell, white water where they break, surf, seaweed, craft that ride the
+  waves, and a camera that can go half under. A first sea, not a finished one.
+author: Ishiaki
+$kref: '#/ckan/github/IshiakiZ/ksp-natural-ocean'
+$vref: '#/ckan/ksp-avc'
+x_netkan_version_edit: '^[vV]?(?<version>.+)$'
+license: CC-BY-4.0
+tags:
+  - plugin
+  - graphics
+depends:
+  - name: Keystone
+    min_version: 0.9.0
+recommends:
+  - name: NaturalWeather
+install:
+  - find: NaturalOcean
+    install_to: GameData

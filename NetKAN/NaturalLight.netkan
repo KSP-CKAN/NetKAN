@@ -1,0 +1,24 @@
+identifier: NaturalLight
+name: Natural Light
+abstract: >-
+  Light as it really falls: from the sky and the ground in their own colours, from
+  the other worlds, from engines, and by night from floodlights, runway lamps and
+  lit windows. With TUFX, the picture developed as film would be.
+author: Ishiaki
+$kref: '#/ckan/github/IshiakiZ/ksp-natural-light'
+$vref: '#/ckan/ksp-avc'
+x_netkan_version_edit: '^[vV]?(?<version>.+)$'
+license: CC-BY-4.0
+tags:
+  - plugin
+  - graphics
+depends:
+  - name: Keystone
+    min_version: 0.9.0
+recommends:
+  - name: TUFX
+conflicts:
+  - name: PlanetShine
+install:
+  - find: NaturalLight
+    install_to: GameData

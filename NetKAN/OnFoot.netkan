@@ -1,0 +1,21 @@
+identifier: OnFoot
+name: On Foot
+abstract: >-
+  Walk the floor of the assembly building and the hangar in first person, at a
+  kerbal's height, among the ground crew; and a baggage tug for the ground crew
+  to drive about the space centre.
+author: Ishiaki
+$kref: '#/ckan/github/IshiakiZ/ksp-on-foot'
+$vref: '#/ckan/ksp-avc'
+x_netkan_version_edit: '^[vV]?(?<version>.+)$'
+license: CC-BY-4.0
+tags:
+  - plugin
+  - editor
+  - convenience
+depends:
+  - name: Keystone
+    min_version: 0.9.0
+install:
+  - find: OnFoot
+    install_to: GameData

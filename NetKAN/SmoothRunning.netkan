@@ -1,0 +1,22 @@
+identifier: SmoothRunning
+name: Smooth Running
+abstract: >-
+  The game made faster where it wastes its time, each fix measured in the game
+  first: the terrain's update, which the game starts again at every load and
+  never stops; the event handlers left behind at every scene change; and a
+  clean-up of unused assets the game asks for twice at every scene change.
+author: Ishiaki
+$kref: '#/ckan/github/IshiakiZ/ksp-smooth-running'
+$vref: '#/ckan/ksp-avc'
+x_netkan_version_edit: '^[vV]?(?<version>.+)$'
+license: CC-BY-4.0
+tags:
+  - plugin
+  - convenience
+depends:
+  - name: Keystone
+    min_version: 0.9.0
+  - name: Harmony2
+install:
+  - find: SmoothRunning
+    install_to: GameData
