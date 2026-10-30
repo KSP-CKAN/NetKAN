@@ -1,0 +1,8 @@
+identifier: PolytriussystemVolumetricClouds
+$kref: '#/ckan/spacedock/4767'
+tags:
+  - config
+install:
+  - find: 000_Polytrius
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
