@@ -2,8 +2,4 @@ identifier: FirstPersonEVA
 $kref: '#/ckan/spacedock/4727'
 tags:
   - plugin
-conflicts:
-  - name: ThroughTheEyesOfaKerbal
-suggests:
-  - name: FreeIva
 x_via: Automated SpaceDock CKAN submission
