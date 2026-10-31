@@ -1,0 +1,16 @@
+identifier: KGSKerbalGalacticSystems
+$kref: '#/ckan/github/AndrewKerbal/KGS-Kerbal-Galactic-Systems'
+x_netkan_version_edit: ^V?(?<version>.+)$
+---
+identifier: KGSKerbalGalacticSystems
+$kref: '#/ckan/spacedock/4584'
+tags:
+  - parts
+  - planet-pack
+depends:
+  - name: ModuleManager
+  - name: Kopernicus
+install:
+  - find: ''
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
