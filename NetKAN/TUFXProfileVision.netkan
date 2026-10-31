@@ -9,5 +9,5 @@ tags:
 depends:
   - name: TUFX
 install:
-  - find: JSIA-Vision
+  - find: JSIE-Vision
     install_to: GameData
