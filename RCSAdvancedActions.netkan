@@ -1,0 +1,19 @@
+spec_version: v1.4
+identifier: RCSAdvancedActions
+$kref: '#/ckan/github/Sapphia15/RCSAdvancedActions'
+name: RCS Advanced Actions
+abstract: Adds RCS attitude control toggle action.
+author: Sapphia15
+license: MIT
+$vref: '#/ckan/ksp-avc'
+resources:
+  homepage: https://github.com/Sapphia15/RCSAdvancedActions
+tags:
+  - plugin
+  - convenience
+  - editor
+depends:
+  - name: ModuleManager
+install:
+  - find: RCSAdvancedActions
+    install_to: GameData
