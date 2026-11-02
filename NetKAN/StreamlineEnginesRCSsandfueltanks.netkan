@@ -12,7 +12,7 @@ depends:
   - name: AnimationInitialization
 recommends:
   - name: B9PartSwitch
-supports:
+suggests:
   - name: TweakScaleRescaled
   - name: TweakScaleCompanion
 install:
