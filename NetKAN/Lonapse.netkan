@@ -1,0 +1,11 @@
+identifier: Lonapse
+$kref: '#/ckan/github/D3rpyy/KSP-Lonapse'
+x_netkan_version_edit: ^v?(?<version>.+)$
+$vref: '#/ckan/ksp-avc'
+---
+identifier: Lonapse
+$kref: '#/ckan/spacedock/4786'
+$vref: '#/ckan/ksp-avc'
+tags:
+  - plugin
+x_via: Automated SpaceDock CKAN submission
