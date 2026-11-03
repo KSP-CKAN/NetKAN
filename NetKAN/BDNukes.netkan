@@ -1,7 +1,7 @@
 spec_version: v1.4
 identifier: BDNukes
 name: BDNukes
-abstract: Cinematic, physically grounded nuclear weapons for BDArmory, including the Tsar Bomba.
+abstract: Cinematic, physically grounded nuclear weapons for BDArmory Plus, including the Tsar Bomba.
 author: Callum
 $kref: '#/ckan/github/CRsquared64/BDNukes'
 $vref: '#/ckan/ksp-avc'
@@ -20,7 +20,8 @@ tags:
 depends:
   - name: ModuleManager
   - name: Harmony2
-  - name: BDArmory
+  - name: BDArmoryForRunwayProject
+    min_version: 2:v1.12.0.0
 suggests:
   - name: BDArmoryExtended
 install:
