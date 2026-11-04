@@ -1,15 +1,11 @@
-spec_version: v1.4
 identifier: BDNukes
 name: BDNukes
-abstract: Cinematic, physically grounded nuclear weapons for BDArmory Plus, including the Tsar Bomba.
 author: Callum
 $kref: '#/ckan/github/CRsquared64/BDNukes'
 $vref: '#/ckan/ksp-avc'
 license: MIT
 resources:
   homepage: https://forum.kerbalspaceprogram.com/topic/232068-112x-bdnukes-v100-cinematic-nuclear-weapons-for-bdarmory-tsar-bomba-icbms-mirvs-fallout
-  repository: https://github.com/CRsquared64/BDNukes
-  bugtracker: https://github.com/CRsquared64/BDNukes/issues
   x_screenshot: https://raw.githubusercontent.com/CRsquared64/BDNukes/main/docs/screenshots/01-ground-burst-mushroom.jpg
 tags:
   - plugin
@@ -24,6 +20,3 @@ depends:
     min_version: 2:v1.12.0.0
 suggests:
   - name: BDArmoryExtended
-install:
-  - find: BDNukes
-    install_to: GameData
