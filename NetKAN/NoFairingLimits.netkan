@@ -1,0 +1,15 @@
+identifier: NoFairingLimits
+$kref: '#/ckan/github/TheCasualLadHere/NoFairingLimits'
+license: MIT
+author: Casual
+resources:
+  homepage: https://github.com/TheCasualLadHere/NoFairingLimits
+x_netkan_version_edit: '^v?(?<version>.+)$'
+ksp_version_min: '1.12'
+install:
+  - file: GameData/NoFairingLimits.cfg
+    install_to: GameData/NoFairingLimits
+depends:
+  - name: ModuleManager
+tags:
+  - config
