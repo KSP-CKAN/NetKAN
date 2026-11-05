@@ -1,4 +1,9 @@
 identifier: RescueSmoke
+$kref: '#/ckan/github/ThreeMACH/RescueSmoke'
+x_netkan_version_edit: ^v?(?<version>.+)$
+$vref: '#/ckan/ksp-avc'
+---
+identifier: RescueSmoke
 $kref: '#/ckan/spacedock/4789'
 $vref: '#/ckan/ksp-avc'
 tags:
