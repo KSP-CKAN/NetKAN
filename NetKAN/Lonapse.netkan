@@ -5,6 +5,8 @@ $vref: '#/ckan/ksp-avc'
 license:
   - MIT
   - CC-BY-4.0
+resources:
+  homepage: https://forum.kerbalspaceprogram.com/topic/232071-lonapse-dynamic-radio-chatter-for-crew-and-probes/
 ---
 identifier: Lonapse
 $kref: '#/ckan/spacedock/4786'
@@ -12,6 +14,8 @@ $vref: '#/ckan/ksp-avc'
 license:
   - MIT
   - CC-BY-4.0
+resources:
+  homepage: https://forum.kerbalspaceprogram.com/topic/232071-lonapse-dynamic-radio-chatter-for-crew-and-probes/
 tags:
   - plugin
   - sound
