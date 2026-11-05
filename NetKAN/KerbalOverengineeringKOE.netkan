@@ -3,6 +3,6 @@ $kref: '#/ckan/spacedock/4787'
 tags:
   - plugin
 install:
-  - find: ''
+  - find: KerbalOverEngineering
     install_to: GameData
 x_via: Automated SpaceDock CKAN submission
