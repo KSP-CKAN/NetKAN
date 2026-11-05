@@ -1,0 +1,12 @@
+identifier: WindUnifier
+$kref: '#/ckan/github/ThreeMACH/WindUnifier'
+x_netkan_version_edit: ^v?(?<version>.+)$
+$vref: '#/ckan/ksp-avc'
+---
+identifier: WindUnifier
+$kref: '#/ckan/spacedock/4790'
+$vref: '#/ckan/ksp-avc'
+tags:
+  - config
+  - plugin
+x_via: Automated SpaceDock CKAN submission
