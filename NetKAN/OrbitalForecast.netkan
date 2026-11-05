@@ -1,7 +1,7 @@
 identifier: OrbitalForecast
 name: Orbital Forecast
 abstract: Projects where every celestial body will be at a future time, snapped to your maneuver nodes, with ghost markers drawn in the map view.
-author: Bart Fynes-Clinton
+author: T2SB
 $kref: '#/ckan/github/T2SB/OrbitalForecast'
 $vref: '#/ckan/ksp-avc'
 license: MIT
