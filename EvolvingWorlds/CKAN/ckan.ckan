@@ -1,0 +1,18 @@
+{
+  "spec_version": "1.156.0",
+  "identifier": "EvolvingWorlds",
+  "name": "Evolving Worlds",
+  "abstract": "Planets evolve over time.",
+  "author": "clouds-123-droid",
+  "version": "1.156.0",
+  "ksp_version": "1.12.5",
+  "license": "MIT",
+  "download": "https://github.com/clouds-123-droid/Evolving-Worlds/releases/download/1.156.0/EvolvingWorlds-1.156.0.zip",
+  "download_size": 34099,
+  "install": [
+    {
+      "find": "GameData",
+      "install_to": "GameData"
+    }
+  ]
+}
