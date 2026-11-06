@@ -1,0 +1,8 @@
+identifier: CommnetBypass
+$kref: '#/ckan/spacedock/4758'
+tags:
+  - plugin
+install:
+  - find: CommNetBypass
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
