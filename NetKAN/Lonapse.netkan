@@ -1,10 +1,6 @@
 identifier: Lonapse
 $kref: '#/ckan/github/D3rpyy/KSP-Lonapse'
 x_netkan_version_edit: ^v?(?<version>.+)$
-$vref: '#/ckan/ksp-avc'
-license:
-  - MIT
-  - CC-BY-4.0
 ---
 identifier: Lonapse
 $kref: '#/ckan/spacedock/4786'
@@ -12,10 +8,10 @@ $vref: '#/ckan/ksp-avc'
 license:
   - MIT
   - CC-BY-4.0
+  - GPL-3.0
 tags:
   - plugin
   - sound
   - crewed
 conflicts:
   - name: Chatterer
-x_via: Automated SpaceDock CKAN submission
