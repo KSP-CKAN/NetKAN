@@ -5,6 +5,7 @@ $vref: '#/ckan/ksp-avc'
 license:
   - MIT
   - CC-BY-4.0
+  - GPL-3.0
 ---
 identifier: Lonapse
 $kref: '#/ckan/spacedock/4786'
@@ -12,6 +13,7 @@ $vref: '#/ckan/ksp-avc'
 license:
   - MIT
   - CC-BY-4.0
+  - GPL-3.0
 tags:
   - plugin
   - sound
