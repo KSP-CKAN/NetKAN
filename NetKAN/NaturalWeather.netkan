@@ -1,0 +1,25 @@
+identifier: NaturalWeather
+name: Natural Weather
+abstract: >-
+  Weather that is seen and felt: wind and gusts on craft and smoke, clouds and
+  their light, rain and snow, storms with lightning and thunder, fog and dust,
+  and a launch go / no go with a forecast.
+author: Ishiaki
+$kref: '#/ckan/github/IshiakiZ/ksp-natural-weather'
+$vref: '#/ckan/ksp-avc'
+x_netkan_version_edit: '^[vV]?(?<version>.+)$'
+license: CC-BY-4.0
+tags:
+  - plugin
+  - graphics
+  - physics
+depends:
+  - name: Keystone
+    min_version: 0.10.0
+recommends:
+  - name: NaturalLight
+  - name: VolumetricExplosions
+  - name: Harmony2
+install:
+  - find: NaturalWeather
+    install_to: GameData

@@ -1,0 +1,24 @@
+identifier: WarmStart
+name: Warm Start
+abstract: >-
+  The game starts in less than half the time: what it works out afresh at
+  every start (the expansions' files unpacked, PNG textures converted, what is
+  in its small bundles, the parts' drag cubes after a change to the mods) is
+  kept from the last one. With Harmony installed, the game's look-ups of
+  models, textures and sounds go by a table and the parts' icons are made
+  without copying what is thrown away; without it no game code is patched.
+author: Ishiaki
+$kref: '#/ckan/github/IshiakiZ/ksp-warm-start'
+$vref: '#/ckan/ksp-avc'
+x_netkan_version_edit: '^[vV]?(?<version>.+)$'
+license: CC-BY-4.0
+tags:
+  - plugin
+  - convenience
+depends:
+  - name: Keystone
+recommends:
+  - name: Harmony2
+install:
+  - find: WarmStart
+    install_to: GameData

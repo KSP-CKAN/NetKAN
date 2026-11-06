@@ -1,0 +1,20 @@
+identifier: FarGround
+name: Far Ground
+abstract: >-
+  Kerbin's ground drawn all the way to the horizon: the far ranges, ridges and
+  coasts as they really are in the game, a point every few pixels, from the
+  game's own heights, decals and land.
+author: Ishiaki
+$kref: '#/ckan/github/IshiakiZ/ksp-far-ground'
+$vref: '#/ckan/ksp-avc'
+x_netkan_version_edit: '^[vV]?(?<version>.+)$'
+license: CC-BY-4.0
+tags:
+  - plugin
+  - graphics
+depends:
+  - name: Keystone
+    min_version: 0.9.0
+install:
+  - find: FarGround
+    install_to: GameData
