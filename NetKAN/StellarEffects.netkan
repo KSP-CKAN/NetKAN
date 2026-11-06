@@ -4,7 +4,7 @@ abstract: Volumetric stellar effects for stars, blackholes, etc.
 author:
   - KerbalMissile
 license: restricted
-$kref: '#/ckan/spacedock/'
+$kref: '#/ckan/github/KerbalMissile/StellarEffects'
 release_status: stable
 resources:
   bugtracker: https://github.com/KerbalMissile/StellarEffects/issues
