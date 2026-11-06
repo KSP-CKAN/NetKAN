@@ -1,0 +1,17 @@
+identifier: TrivarionSystem
+$kref: '#/ckan/github/Lizard616/Trivarion-System'
+---
+identifier: TrivarionSystem
+$kref: '#/ckan/spacedock/3944'
+x_netkan_version_edit: ^v?(?<version>.+)$
+license: restricted
+tags:
+  - config
+  - planet-pack
+depends:
+  - name: ModuleManager
+  - name: ModularFlightIntergrator
+  - name: Kopernicus
+install:
+  - find: Trivarion
+    install_to: GameData
