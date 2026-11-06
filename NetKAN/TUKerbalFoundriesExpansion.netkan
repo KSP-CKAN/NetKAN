@@ -1,8 +1,4 @@
 identifier: TUKerbalFoundriesExpansion
-$kref: '#/ckan/github/awcsorensen/KerbalFoundriesExpansion/asset_match/TUKerbalFoundriesExpansion'
-x_netkan_version_edit: ^V?(?<version>.+)$
----
-identifier: TUKerbalFoundriesExpansion
 $kref: '#/ckan/spacedock/4434'
 tags:
   - config
@@ -12,6 +8,6 @@ depends:
   - name: TexturesUnlimited
   - name: KerbalFoundries
 install:
-  - find: TU_ALG_Recolour
+  - file: GameData/TURD/TU_ALG_Recolour
     install_to: GameData/TURD
 x_via: Automated SpaceDock CKAN submission
