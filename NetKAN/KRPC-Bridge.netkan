@@ -1,0 +1,42 @@
+{
+    "spec_version": "v1.18",
+    "identifier": "KRPC-Bridge",
+    "name": "KRPC.Bridge",
+    "abstract": "kRPC services for flight control, telemetry, FMRS, OCISLY, Trajectories and the stock game - made drivable from Python.",
+    "description": "Adds kRPC services for what kRPC does not reach by itself: per-engine throttle and gimbal control and an attitude controller that runs on the physics step, telemetry at the physics rate, delta-v and staging from a script, and, by reflection, FMRS Continued (fly a dropped booster from a script and read what its recovery earned), OfCourseIStillLoveYou (restore Hullcam camera streams that a flight-scene reload silently drops) and Trajectories (impact prediction and descent profile). Also adds an ordered event log so a script can observe an instant rather than sampling a value. Each integration is a separate plugin assembly and degrades independently: a mod you do not have simply reports available = false. Built against kRPC 0.7.0. The booster catch tower is the separate, optional TowerCatch package.",
+
+    "author": "romsti",
+    "license": "MIT",
+
+    "$kref": "#/ckan/github/romsti/krpc_bridge/version_from_asset/^KRPC\\.Bridge-(?<version>[0-9]+\\.[0-9]+\\.[0-9]+)\\.zip$",
+    "$vref": "#/ckan/ksp-avc",
+
+    "resources": {
+        "homepage": "https://romsti.github.io/krpc_bridge/",
+        "repository": "https://github.com/romsti/krpc_bridge",
+        "bugtracker": "https://github.com/romsti/krpc_bridge/issues"
+    },
+
+    "tags": [ "plugin", "library", "control" ],
+
+    "depends": [
+        { "name": "kRPC", "min_version": "v0.7.0" }
+    ],
+
+    "suggests": [
+        { "name": "FMRSContinued" },
+        { "name": "HullcamVDSContinued" },
+        { "name": "TowerCatch" }
+    ],
+
+    "conflicts": [
+        { "name": "TowerCatch", "max_version": "1.0.0" }
+    ],
+
+    "install": [
+        {
+            "find": "KRPC.Bridge",
+            "install_to": "GameData"
+        }
+    ]
+}
