@@ -1,0 +1,10 @@
+identifier: KcalbelohStellarEffects
+$kref: '#/ckan/spacedock/4785'
+tags:
+  - config
+depends:
+  - name: ModuleManager
+install:
+  - find: Kcalbeloh-StellarEffects
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
