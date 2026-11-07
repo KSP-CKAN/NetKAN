@@ -1,0 +1,13 @@
+identifier: KerbalCivilizationProjectKCPbyKerbalMissilesCommunityOptimizations
+$kref: '#/ckan/github/MangoTechKSP/Kerbal-Civilization-Project-Community-'
+x_netkan_version_edit: ^v?(?<version>.+)$
+---
+identifier: KerbalCivilizationProjectKCPbyKerbalMissilesCommunityOptimizations
+$kref: '#/ckan/spacedock/4805'
+tags:
+  - plugin
+install:
+  - find: ''
+    install_to: GameData
+    filter_regexp: \.pdb$
+x_via: Automated SpaceDock CKAN submission
