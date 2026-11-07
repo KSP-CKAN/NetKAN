@@ -15,6 +15,9 @@ depends:
 suggests:
   - name: FerramAerospaceResearchContinued
   - name: RealBattery
+  - name: KRILL
+  - name: KRAB
+  - name: SituationalAwareness
   - name: NavUtilitiesUpdated
   - any_of:
       - name: DangIt
