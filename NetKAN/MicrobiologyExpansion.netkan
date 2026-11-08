@@ -1,10 +1,10 @@
 identifier: MicrobiologyExpansion
 $kref: '#/ckan/github/GrandAdmiralCrunch/MicrobiologyExpansion'
-x_netkan_version_edit: ^v?(?<version>.+)$
+x_netkan_version_edit: ^[vV]?(?<version>.+)$
 ---
 identifier: MicrobiologyExpansion
 $kref: '#/ckan/spacedock/4330'
-x_netkan_version_edit: ^v?(?<version>.+)$
+x_netkan_version_edit: ^[vV]?(?<version>.+)$
 tags:
   - config
   - plugin
