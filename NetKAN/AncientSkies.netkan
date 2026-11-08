@@ -1,0 +1,13 @@
+identifier: AncientSkies
+$kref: '#/ckan/spacedock/4809'
+tags:
+  - config
+  - planet-pack
+  - plugin
+depends:
+  - name: ModuleManager
+  - name: Kopernicus
+install:
+  - find: Pereni-1System
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
