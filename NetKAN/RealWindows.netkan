@@ -1,0 +1,13 @@
+identifier: RealWindows
+$kref: '#/ckan/github/S4mpsa/ksp-real-windows'
+x_netkan_version_edit: ^v?(?<version>.+)$
+---
+identifier: RealWindows
+$kref: '#/ckan/spacedock/4810'
+tags:
+  - config
+  - plugin
+install:
+  - find: ''
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
