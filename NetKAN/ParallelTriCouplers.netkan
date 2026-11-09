@@ -1,0 +1,7 @@
+identifier: ParallelTriCouplers
+$kref: '#/ckan/spacedock/4721'
+tags:
+  - parts
+depends:
+  - name: ModuleManager
+x_via: Automated SpaceDock CKAN submission
