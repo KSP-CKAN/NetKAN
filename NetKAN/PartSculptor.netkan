@@ -6,6 +6,9 @@ tags:
   - plugin
 depends:
   - name: ModuleManager
+  - name: ClickThroughBlocker
+  - name: ToolbarController
+  - name: SpaceTuxLibrary
 install:
   - find: PartSculptor
     install_to: GameData
