@@ -7,7 +7,3 @@ $kref: '#/ckan/spacedock/4810'
 tags:
   - config
   - plugin
-install:
-  - find: ''
-    install_to: GameData
-x_via: Automated SpaceDock CKAN submission
