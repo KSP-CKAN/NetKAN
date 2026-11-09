@@ -1,0 +1,8 @@
+identifier: VaporCones2
+$kref: '#/ckan/spacedock/4766'
+tags:
+  - plugin
+install:
+  - find: VaporCones
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
