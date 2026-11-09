@@ -5,6 +5,7 @@ x_netkan_version_edit: ^[vV]?(?<version>.+)$
 identifier: MicrobiologyExpansion
 $kref: '#/ckan/spacedock/4330'
 x_netkan_version_edit: ^[vV]?(?<version>.+)$
+$vref: '#/ckan/ksp-avc'
 tags:
   - config
   - plugin
@@ -17,4 +18,3 @@ install:
   - find: MicrobiologyExpansion
     install_to: GameData
     filter_regexp: \.pdb$
-x_via: Automated SpaceDock CKAN submission
