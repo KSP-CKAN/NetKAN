@@ -1,0 +1,14 @@
+identifier: KORAKerbalOnboardRoboticAssistant
+$kref: '#/ckan/spacedock/4811'
+$vref: '#/ckan/ksp-avc'
+tags:
+  - crewed
+  - first-person
+  - parts
+  - plugin
+depends:
+  - name: ModuleManager
+install:
+  - find: KORA
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
