@@ -1,0 +1,15 @@
+identifier: Ruubee
+$kref: '#/ckan/github/Stevu1646/Ruubee'
+x_netkan_version_edit: ^v?(?<version>.+)$
+---
+identifier: Ruubee
+$kref: '#/ckan/spacedock/4172'
+tags:
+  - config
+  - planet-pack
+depends:
+  - name: ModuleManager
+  - name: Kopernicus
+suggests:
+  - name: Scatterer
+  - name: Firefly

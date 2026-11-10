@@ -1,0 +1,15 @@
+identifier: NivenRingworldKerbolFullSize
+$kref: '#/ckan/spacedock/4643'
+x_netkan_version_edit: ^v?(?<version>.+)$
+provides:
+  - NivenRingworldConfig
+tags:
+  - config
+depends:
+  - name: NivenRingworld
+    min_version: 1.1.7
+conflicts:
+  - name: NivenRingworldConfig
+install:
+  - find: GameData/NivenRingworldKerbolFullSize
+    install_to: GameData

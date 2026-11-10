@@ -27,13 +27,13 @@ depends:
   - name: ClickThroughBlocker
   - name: ToolbarController
 recommends:
-  - name: Toolbar
   - name: RasterPropMonitor
   - name: BackgroundProcessing
   - name: ShipManifest
   - name: ConnectedLivingSpace
   - name: AmpYearPowerManager
 suggests:
+  - name: Toolbar
   - name: USI-LS
   - name: TACLS
   - name: Snacks

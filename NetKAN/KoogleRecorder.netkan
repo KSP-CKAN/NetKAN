@@ -1,0 +1,9 @@
+identifier: KoogleRecorder
+$kref: '#/ckan/github/alonso49noob/kooglerecorder'
+x_netkan_version_edit: ^v?(?<version>.+)$
+---
+identifier: KoogleRecorder
+$kref: '#/ckan/spacedock/4696'
+tags:
+  - plugin
+x_via: Automated SpaceDock CKAN submission

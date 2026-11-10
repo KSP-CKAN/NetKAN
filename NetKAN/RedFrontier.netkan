@@ -1,12 +1,10 @@
 identifier: RedFrontier
 $kref: '#/ckan/github/Red-Frontier/RedFrontier'
 x_netkan_version_edit: ^v?\.?(?<version>.+)$
-$vref: '#/ckan/ksp-avc'
 ---
 identifier: RedFrontier
 $kref: '#/ckan/spacedock/4182'
 x_netkan_version_edit: ^v?\.?(?<version>.+)$
-$vref: '#/ckan/ksp-avc'
 tags:
   - career
   - parts
@@ -21,5 +19,5 @@ recommends:
   - name: StationPartsExpansionRedux
   - name: KerbalPlanetaryBaseSystems
 install:
-  - find: RedFrontier
+  - find: Red Frontier
     install_to: GameData/ContractPacks

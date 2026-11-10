@@ -1,0 +1,20 @@
+identifier: Vulcan
+$kref: '#/ckan/github/idkthreennew-cell/Vulcan'
+license: CC-BY-SA-4.0
+x_netkan_version_edit: ^v?(?<version>.+)$
+---
+identifier: Vulcan
+$kref: '#/ckan/spacedock/4354'
+x_netkan_version_edit: ^v?(?<version>.+)$
+tags:
+  - config
+  - planet-pack
+depends:
+  - name: ModuleManager
+  - name: Kopernicus
+  - name: VertexColorMapEmissive
+  - name: KSPCommunityFixes
+recommends:
+  - name: Scatterer
+  - name: ParallaxContinued
+x_via: Automated SpaceDock CKAN submission

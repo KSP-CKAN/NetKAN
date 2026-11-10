@@ -1,0 +1,9 @@
+identifier: KSPPerformanceProfiler
+$kref: '#/ckan/spacedock/4616'
+$vref: '#/ckan/ksp-avc'
+tags:
+  - plugin
+depends:
+  - name: Harmony2
+resources:
+  homepage: https://github.com/DiaoDaiaChan/KSPPerformanceProfiler

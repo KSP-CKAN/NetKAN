@@ -1,29 +1,21 @@
-{
-    "identifier":   "AmpYearPowerManager",
-    "$kref":        "#/ckan/spacedock/144",
-    "$vref":        "#/ckan/ksp-avc",
-    "x_netkan_epoch": "1",
-    "license":      "GPL-3.0",
-    "tags": [
-        "plugin",
-        "parts",
-        "resources"
-    ],
-    "depends" : [
-        { "name": "ModuleManager", "min_version" : "2.3.5" },
-        { "name": "REPOSoftTech-Agencies" }
-    ],
-    "recommends": [
-        { "name": "Toolbar" }
-    ],
-    "install": [
-        {
-            "find": "REPOSoftTech",
-            "install_to": "GameData",
-            "filter": [
-                "Agencies",
-                "RSTKSPUtils"
-            ]
-        }
-    ]
-}
+identifier: AmpYearPowerManager
+$kref: '#/ckan/spacedock/144'
+$vref: '#/ckan/ksp-avc'
+x_netkan_epoch: '1'
+license: GPL-3.0
+tags:
+  - plugin
+  - parts
+  - resources
+depends:
+  - name: ModuleManager
+    min_version: 2.3.5
+  - name: REPOSoftTech-Agencies
+suggests:
+  - name: Toolbar
+install:
+  - find: REPOSoftTech
+    install_to: GameData
+    filter:
+      - Agencies
+      - RSTKSPUtils

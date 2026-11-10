@@ -1,0 +1,25 @@
+identifier: ReStrategia
+$kref: '#/ckan/github/MegaPiggy/ReStrategia'
+---
+identifier: ReStrategia
+author:
+  - nightingale
+  - MegaPiggy
+$kref: '#/ckan/spacedock/4316'
+$vref: '#/ckan/ksp-avc'
+tags:
+  - plugin
+  - career
+conflicts:
+  - name: Strategia
+depends:
+  - name: ModuleManager
+  - name: CustomBarnKit
+  - name: ContractConfigurator
+suggests:
+  - name: ProbesBeforeCrew
+supports:
+  - name: Komplexity
+  - name: Kopernicus
+  - name: KopernicusExpansionContinueder
+  - name: Singularity

@@ -1,0 +1,13 @@
+identifier: ColdJsMilitaryPlanesF104Starfighter
+$kref: '#/ckan/spacedock/4284'
+tags:
+  - crewed
+  - first-person
+  - parts
+install:
+  - find: CJMP
+    install_to: GameData
+    filter: Craft
+  - file: GameData/CJMP/F104/Craft
+    install_to: Ships
+    as: SPH

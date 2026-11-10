@@ -1,0 +1,8 @@
+identifier: SpiralCarPark
+$kref: '#/ckan/spacedock/4386'
+tags:
+  - buildings
+  - config
+depends:
+  - name: KerbalKonstructs
+x_via: Automated SpaceDock CKAN submission

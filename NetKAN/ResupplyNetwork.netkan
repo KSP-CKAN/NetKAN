@@ -1,0 +1,16 @@
+identifier: ResupplyNetwork
+name: Resupply Network
+abstract: Pay funds and wait for deliveries - resupply any of your vessels with any resource, on demand or on a scheduled cadence.
+$kref: '#/ckan/github/starmatch666-droid/ResupplyNetwork'
+$vref: '#/ckan/ksp-avc'
+license: MIT
+author:
+  - Cyber1j1e
+tags:
+  - plugin
+  - convenience
+depends:
+  - name: ToolbarController
+install:
+  - find: ResupplyNetwork
+    install_to: GameData

@@ -13,6 +13,8 @@ depends:
   - name: PhysicsRangeExtender
 suggests:
   - name: VABOrganizer
+  - name: KSPCommunityPartModules
+  - name: TURD-BDAssociated
 install:
   - find: KerbalPowers/Armory
     install_to: GameData/KerbalPowers

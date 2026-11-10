@@ -1,0 +1,9 @@
+identifier: Contrails
+$kref: '#/ckan/spacedock/4692'
+tags:
+  - config
+  - graphics
+  - plugin
+depends:
+  - name: ModuleManager
+x_via: Automated SpaceDock CKAN submission

@@ -8,6 +8,8 @@ $vref: '#/ckan/ksp-avc'
 tags:
   - plugin
   - convenience
+suggests:
+  - name: KerbalChangelog
 depends:
   - name: ClickThroughBlocker
   - name: ToolbarController

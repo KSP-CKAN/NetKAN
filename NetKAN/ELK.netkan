@@ -1,0 +1,24 @@
+spec_version: v1.4
+identifier: ELK
+name: ELK - Extended Logic Keys
+abstract: Configurable hotkeys for stock functions that don't have any (Brakes toggle, direct SAS modes), plus AtmosphereAutopilot, MechJeb2 and NavUtilities shortcuts.
+author: Rjoande
+$kref: '#/ckan/github/Rjoande/ELK/asset_match/^ELK_v[0-9.]+\.zip$'
+$vref: '#/ckan/ksp-avc'
+x_netkan_version_edit: '^[vV]?(?<version>.+)$'
+x_netkan_github:
+  prereleases: false
+license: MIT
+resources:
+  homepage: https://forum.kerbalspaceprogram.com/topic/231826-112x-elk-extended-logical-keys/
+  repository: https://github.com/Rjoande/ELK
+tags:
+  - plugin
+  - control
+  - convenience
+depends:
+  - name: ToolbarController
+suggests:
+  - name: AtmosphereAutopilot
+  - name: MechJeb2
+  - name: NavUtilitiesUpdated

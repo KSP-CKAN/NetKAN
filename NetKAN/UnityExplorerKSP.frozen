@@ -1,0 +1,8 @@
+identifier: UnityExplorerKSP
+$kref: '#/ckan/github/KSPModdingLibs/UnityExplorerKSP'
+license: GPL-3.0
+tags:
+  - plugin
+  - information
+depends:
+  - name: Harmony2

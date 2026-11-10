@@ -1,0 +1,10 @@
+identifier: J1407System
+$kref: '#/ckan/spacedock/4089'
+tags:
+  - config
+  - planet-pack
+depends:
+  - name: ModuleManager
+  - name: Kopernicus
+  - name: KopernicusExpansion
+  - name: Singularity

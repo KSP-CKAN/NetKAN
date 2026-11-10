@@ -1,0 +1,16 @@
+identifier: Veyra
+$kref: '#/ckan/spacedock/4574'
+tags:
+  - config
+  - planet-pack
+depends:
+  - name: ModuleManager
+  - name: Kopernicus
+  - name: EnvironmentalVisualEnhancements
+  - name: Scatterer
+  - name: ParallaxContinued
+  - name: Shabby
+suggests:
+  - name: TiltEm-Continued
+  - name: SCANsat
+x_via: Automated SpaceDock CKAN submission

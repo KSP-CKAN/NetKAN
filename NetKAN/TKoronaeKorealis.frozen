@@ -1,0 +1,19 @@
+identifier: TKoronaeKorealis
+$kref: '#/ckan/spacedock/4318'
+tags:
+  - config
+  - planet-pack
+  - plugin
+depends:
+  - name: ModuleManager
+  - name: Kopernicus
+  - name: VertexMitchellNetravaliHeightMap
+  - name: VertexColorMapEmissive
+recommends:
+  - name: ParallaxContinued
+  - name: Scatterer
+  - name: ScaledDecorator
+install:
+  - find: TKK
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission

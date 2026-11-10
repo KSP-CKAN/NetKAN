@@ -1,0 +1,8 @@
+identifier: IMAXTUFX
+$kref: '#/ckan/spacedock/4556'
+tags:
+  - config
+  - graphics
+depends:
+  - name: TUFX
+x_via: Automated SpaceDock CKAN submission

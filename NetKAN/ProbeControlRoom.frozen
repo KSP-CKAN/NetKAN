@@ -1,38 +1,27 @@
-{
-    "identifier"  : "ProbeControlRoom",
-    "$kref"       : "#/ckan/github/icedown/KSP-ProbeControlRoom",
-    "$vref"       : "#/ckan/ksp-avc",
-    "license"     : "CC-BY-NC-SA-3.0",
-    "resources": {
-        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/151963-*"
-    },
-    "tags": [
-        "plugin",
-        "uncrewed"
-    ],
-    "install"      : [ {
-        "file"    : "GameData/ProbeControlRoom",
-        "install_to": "GameData"
-    } ],
-    "depends"       : [
-        { "name"  : "ModuleManager" },
-        { "name"  : "RasterPropMonitor"}
-    ],
-    "recommends"  : [
-        { "name"  : "Toolbar" }
-    ],
-    "suggests"    : [
-        { "name"  : "SCANSat" },
-        { "name"  : "VesselViewer" },
-        { "name"  : "MechJeb2" },
-        { "name"  : "DockingPortAlignment" },
-        { "name"  : "kOS" },
-        { "name"  : "KPS-AVC" }
-    ],
-    "x_netkan_override": [ {
-        "version": "1.2.2.4",
-        "override": {
-            "ksp_version_max": "1.2.2"
-        }
-    } ]
-}
+identifier: ProbeControlRoom
+$kref: '#/ckan/github/icedown/KSP-ProbeControlRoom'
+$vref: '#/ckan/ksp-avc'
+license: CC-BY-NC-SA-3.0
+resources:
+  homepage: https://forum.kerbalspaceprogram.com/index.php?/topic/151963-*
+tags:
+  - plugin
+  - uncrewed
+install:
+  - file: GameData/ProbeControlRoom
+    install_to: GameData
+depends:
+  - name: ModuleManager
+  - name: RasterPropMonitor
+suggests:
+  - name: Toolbar
+  - name: SCANSat
+  - name: VesselViewer
+  - name: MechJeb2
+  - name: DockingPortAlignment
+  - name: kOS
+  - name: KPS-AVC
+x_netkan_override:
+  - version: 1.2.2.4
+    override:
+      ksp_version_max: 1.2.2

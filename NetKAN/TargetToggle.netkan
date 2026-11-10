@@ -1,0 +1,9 @@
+identifier: TargetToggle
+$kref: '#/ckan/spacedock/4282'
+$vref: '#/ckan/ksp-avc'
+tags:
+  - plugin
+  - information
+install:
+  - find: GameData/TargetToggle
+    install_to: GameData

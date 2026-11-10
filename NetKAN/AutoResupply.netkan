@@ -1,0 +1,16 @@
+identifier: AutoResupply
+$kref: '#/ckan/github/RealPlanet/KSP-AutoResupply'
+x_netkan_version_edit: ^v?(?<version>.+)$
+---
+identifier: AutoResupply
+$kref: '#/ckan/spacedock/4314'
+tags:
+  - config
+  - plugin
+depends:
+  - name: ModuleManager
+install:
+  - find: AutoResupply
+    install_to: GameData
+    filter_regexp: \.pdb$
+x_via: Automated SpaceDock CKAN submission

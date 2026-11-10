@@ -1,0 +1,8 @@
+identifier: RealisticSRBs
+$kref: '#/ckan/spacedock/4724'
+tags:
+  - config
+  - plugin
+depends:
+  - name: ModuleManager
+x_via: Automated SpaceDock CKAN submission

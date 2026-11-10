@@ -1,0 +1,18 @@
+spec_version: v1.4
+identifier: SituationalAwareness
+$kref: '#/ckan/github/Rjoande/SituationalAwareness'
+$vref: '#/ckan/ksp-avc'
+x_netkan_version_edit: '^[vV]?(?<version>.+)$'
+x_netkan_github:
+  prereleases: false
+license: MIT
+tags:
+  - plugin
+  - information
+resources:
+  homepage: https://forum.kerbalspaceprogram.com/topic/231631-1125-situational-awareness-avionics-style-telemetry-panel/
+depends:
+  - name: ModuleManager
+  - name: ToolbarController
+suggests:
+  - name: EnvironmentalVisualEnhancements

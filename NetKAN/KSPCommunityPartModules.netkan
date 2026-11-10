@@ -3,6 +3,7 @@ $kref: '#/ckan/github/KSPModdingLibs/KSPCommunityPartModules'
 ---
 identifier: KSPCommunityPartModules
 $kref: '#/ckan/spacedock/3730'
+license: GPL-3.0
 tags:
   - plugin
   - library

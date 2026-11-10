@@ -9,6 +9,8 @@ license: CC-BY-NC-SA-4.0
 tags:
   - parts
   - uncrewed
+conflicts:
+  - name: SSRMicroSat
 depends:
   - name: ModuleManager
 recommends:

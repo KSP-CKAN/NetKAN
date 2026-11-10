@@ -1,0 +1,8 @@
+identifier: BlazesTUFX
+$kref: '#/ckan/spacedock/4416'
+tags:
+  - config
+  - graphics
+depends:
+  - name: TUFX
+x_via: Automated SpaceDock CKAN submission

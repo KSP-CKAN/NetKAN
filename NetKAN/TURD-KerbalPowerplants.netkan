@@ -1,0 +1,22 @@
+identifier: TURD-KerbalPowerplants
+$kref: '#/ckan/github/Halbann/KerbalPowerPlants'
+---
+identifier: TURD-KerbalPowerplants
+$kref: '#/ckan/spacedock/4541'
+name: TURD - Kerbal Powerplants
+abstract: >-
+  Textures Unlimited recolours for Kerbal Powerplants
+author:
+  - Spartwo
+  - Miffedstarfish
+license: CC-BY-NC-SA-4.0
+tags:
+  - config
+  - graphics
+depends:
+  - name: ModuleManager
+  - name: TexturesUnlimited
+  - name: KerbalPowerplants
+install:
+  - find: TURD/TU_KerbalPowerplants_Recolour
+    install_to: GameData/TURD

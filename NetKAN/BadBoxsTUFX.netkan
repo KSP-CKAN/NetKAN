@@ -1,0 +1,12 @@
+identifier: BadBoxsTUFX
+$kref: '#/ckan/spacedock/4205'
+tags:
+  - config
+  - graphics
+depends:
+  - name: TUFX
+install:
+  - file: BadBox's Blue TUFX.cfg
+    install_to: GameData/BadBoxsTUFX
+  - file: BadBox's Updated TUFX.cfg
+    install_to: GameData/BadBoxsTUFX

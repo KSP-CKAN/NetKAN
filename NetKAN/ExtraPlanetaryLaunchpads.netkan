@@ -15,6 +15,7 @@ recommends:
   - name: KAS
   - name: InfernalRobotics
   - name: KerbalStats
+suggests:
   - name: Toolbar
 install:
   - file: ExtraplanetaryLaunchpads

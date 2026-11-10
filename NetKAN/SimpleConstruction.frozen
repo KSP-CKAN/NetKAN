@@ -10,12 +10,16 @@ license: GPL-3.0
 tags:
   - plugin
   - resources
+provides:
+  - ExtraPlanetaryLaunchpads
+conflicts:
+  - name: ExtraPlanetaryLaunchpads
 depends:
   - name: ModuleManager
 recommends:
   - name: KerbalStats
-  - name: Toolbar
 suggests:
+  - name: Toolbar
   - name: KeridianDynamicsVesselAssembly
   - name: GPOSpeedPump
   - name: NotSoSimpleConstruction
@@ -37,10 +41,6 @@ supports:
   - name: StationPartsExpansionRedux
   - name: TweakScale
   - name: USI-FTT
-conflicts:
-  - name: ExtraPlanetaryLaunchpads
-provides:
-  - ExtraPlanetaryLaunchpads
 install:
   - find: SimpleConstruction
     install_to: GameData

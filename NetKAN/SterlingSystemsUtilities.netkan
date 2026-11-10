@@ -12,8 +12,7 @@ depends:
   - name: ModuleManager
   - name: B9PartSwitch
   - name: SterlingSystemsAgency
-  - name: WildBlueCore
-  - name: WildBlueTools
+  - name: WBIResources
 install:
   - find: Utilities
     install_to: GameData/SterlingSystems

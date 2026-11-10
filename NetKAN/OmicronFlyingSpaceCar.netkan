@@ -1,0 +1,23 @@
+identifier: OmicronFlyingSpaceCar
+$kref: '#/ckan/spacedock/2413'
+$vref: '#/ckan/ksp-avc'
+license: CC-BY-4.0
+tags:
+  - parts
+  - plugin
+depends:
+  - name: ModuleManager
+  - name: KSPWheel
+  - name: FirespitterCore
+  - name: SmokeScreen
+  - name: B9PartSwitch
+recommends:
+  - name: TACLS
+  - name: KIS
+  - name: KAS
+  - name: UniversalStorage2
+suggests:
+  - name: RemoteTech
+install:
+  - find: Omicron
+    install_to: GameData

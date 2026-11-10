@@ -1,0 +1,20 @@
+identifier: WormholeSignalBridge
+$kref: '#/ckan/github/Aebestach/WormholeSignalBridge'
+$vref: '#/ckan/ksp-avc'
+---
+identifier: WormholeSignalBridge
+abstract: >-
+  Routes RealAntennas CommNet through KEX wormholes: auto-discovers wormhole
+  pairs and injects tunnel hops between mouth relays.
+$kref: '#/ckan/spacedock/4296'
+$vref: '#/ckan/ksp-avc'
+tags:
+  - comms
+  - plugin
+depends:
+  - name: ModuleManager
+  - name: RealAntennas
+    min_version: v2.12.0.0
+  - name: KopernicusExpansionContinueder
+suggests:
+  - name: Kerbalism

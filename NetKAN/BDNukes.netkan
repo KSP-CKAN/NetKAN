@@ -1,0 +1,22 @@
+identifier: BDNukes
+name: BDNukes
+author: Callum
+$kref: '#/ckan/github/CRsquared64/BDNukes'
+$vref: '#/ckan/ksp-avc'
+license: MIT
+resources:
+  homepage: https://forum.kerbalspaceprogram.com/topic/232068-112x-bdnukes-v100-cinematic-nuclear-weapons-for-bdarmory-tsar-bomba-icbms-mirvs-fallout
+  x_screenshot: https://raw.githubusercontent.com/CRsquared64/BDNukes/main/docs/screenshots/01-ground-burst-mushroom.jpg
+tags:
+  - plugin
+  - parts
+  - graphics
+  - sound
+  - combat
+depends:
+  - name: ModuleManager
+  - name: Harmony2
+  - name: BDArmoryForRunwayProject
+    min_version: 2:v1.12.0.0
+suggests:
+  - name: BDArmoryExtended

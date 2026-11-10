@@ -1,0 +1,15 @@
+identifier: SaveTimelines
+name: Save Timelines
+abstract: Shows saved games as a tree of timelines in the load dialog.
+author: sparr
+$kref: '#/ckan/github/sparr/ksp-mod-SaveTimelines'
+$vref: '#/ckan/ksp-avc'
+license: MIT
+tags:
+  - plugin
+  - convenience
+depends:
+  - name: Harmony2
+install:
+  - find: SaveTimelines
+    install_to: GameData

@@ -10,8 +10,7 @@ suggests:
   - name: Waterfall
   - name: RecycledPartsAtomicAge
   - name: VABorganizer
+  - name: TURD-KerbalPowersInterstellar
 install:
   - find: KerbalPowers/Interstellar
     install_to: GameData/KerbalPowers
-  - find: TURD
-    install_to: GameData

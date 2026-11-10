@@ -23,6 +23,8 @@ depends:
   - name: ModularFlightIntegrator
   - name: TweakScale-Redist
   - name: KSPBurst
+  - name: KSPCommunityFixes
+    min_version: 1.36.0
 install:
   - file: GameData/FerramAerospaceResearch
     install_to: GameData

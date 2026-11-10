@@ -20,6 +20,8 @@ x_netkan_github:
 ksp_version: 1.12
 tags:
   - plugin
+suggests:
+  - name: KerbalKonstructs
 resources:
   homepage: https://archipelago.gg/faq/en/
   manual: https://github.com/nickdavies/Archipelago/blob/ksp1/worlds/ksp1/docs/setup_en.md

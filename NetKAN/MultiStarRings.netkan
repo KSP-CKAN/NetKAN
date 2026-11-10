@@ -1,0 +1,12 @@
+identifier: MultiStarRings
+$kref: '#/ckan/github/jabaworks/MultiStarRings'
+$vref: '#/ckan/ksp-avc'
+name: MultiStarRings
+abstract: >-
+  Replaces stock ring lighting with a shader that responds correctly to
+  multi-star Kopernicus systems.
+tags:
+  - graphics
+  - plugin
+depends:
+  - name: Kopernicus

@@ -9,6 +9,8 @@ $vref: '#/ckan/ksp-avc'
 tags:
   - plugin
   - information
+suggests:
+  - name: KerbalChangelog
 install:
   - find: ResonantOrbitCalculator
     install_to: GameData

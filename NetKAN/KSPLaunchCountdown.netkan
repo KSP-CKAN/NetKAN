@@ -1,0 +1,13 @@
+identifier: KSPLaunchCountdown
+$kref: '#/ckan/github/Zhuwenqian/KSP-Launch-Countdown-real-word-version'
+$vref: '#/ckan/ksp-avc'
+x_netkan_version_edit: ^v?(?<version>.+)$
+---
+identifier: KSPLaunchCountdown
+$kref: '#/ckan/spacedock/4359'
+$vref: '#/ckan/ksp-avc'
+x_netkan_version_edit: ^v?(?<version>.+)$
+tags:
+  - config
+  - plugin
+x_via: Automated SpaceDock CKAN submission

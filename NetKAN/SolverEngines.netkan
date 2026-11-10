@@ -1,0 +1,16 @@
+identifier: SolverEngines
+name: Solver Engines plugin
+$kref: '#/ckan/github/KSP-RO/SolverEngines'
+$vref: '#/ckan/ksp-avc'
+license: LGPL-2.1
+resources:
+  homepage: https://forum.kerbalspaceprogram.com/index.php?/topic/110746-*
+tags:
+  - plugin
+  - library
+install:
+  - find: SolverEngines
+    install_to: GameData
+    filter:
+      - ModuleAnimateEmissive.dll
+      - PluginData

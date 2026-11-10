@@ -27,6 +27,7 @@ conflicts:
   - name: OrbitalMaterialScience
   - name: Kerbalism
     max_version: '2.99'
+  - name: WildBlueTools
 depends:
   - name: ModuleManager
   - name: KIS

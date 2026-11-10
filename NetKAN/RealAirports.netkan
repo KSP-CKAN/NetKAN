@@ -1,0 +1,12 @@
+identifier: RealAirports
+$kref: '#/ckan/spacedock/4156'
+tags:
+  - buildings
+  - config
+depends:
+  - name: KerbalKonstructs
+  - name: RealSolarSystem
+  - name: KerbinSideRemastered
+install:
+  - find: KHRealAirports
+    install_to: GameData

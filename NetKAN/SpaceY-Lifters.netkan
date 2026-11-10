@@ -10,6 +10,7 @@ conflicts:
   - name: SpaceY-Corp
 recommends:
   - name: SpaceY-Expanded
+  - name: B9PartSwitch
 supports:
   - name: PatchManager
   - name: ModularRocketSystem
