@@ -1,0 +1,14 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "EVAOverhaul",
+    "name": "EVA Overhaul",
+    "abstract": "Small overhaul to KSP's kerbal movement. Adds a sprint feature, 2 more inventory slots and a slightly more responsive Jetpack",
+    "author": "joshuarez",
+    "$kref": "#/ckan/github/YOUR_GITHUB_USERNAME/EVAOverhaul",
+    "$vref": "#/ckan/ksp-avc",
+    "license": "MIT",
+    "tags": [ "plugin", "convenience", "physics" ],
+    "install": [
+        { "find": "EVAOverhaul", "install_to": "GameData" }
+    ]
+}
