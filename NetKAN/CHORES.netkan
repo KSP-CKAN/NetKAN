@@ -1,0 +1,10 @@
+identifier: CHORES
+$kref: '#/ckan/github/lightningstruckkerbonaut/CHORES'
+x_netkan_github:
+  use_source_archive: true
+---
+identifier: CHORES
+$kref: '#/ckan/spacedock/4801'
+tags:
+  - plugin
+x_via: Automated SpaceDock CKAN submission
