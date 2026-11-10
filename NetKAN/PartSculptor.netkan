@@ -1,0 +1,16 @@
+identifier: PartSculptor
+$kref: '#/ckan/spacedock/4812'
+$vref: '#/ckan/ksp-avc'
+tags:
+  - config
+  - plugin
+depends:
+  - name: ModuleManager
+  - name: ClickThroughBlocker
+  - name: ToolbarController
+  - name: SpaceTuxLibrary
+install:
+  - find: PartSculptor
+    install_to: GameData
+    filter_regexp: \.pdb$
+x_via: Automated SpaceDock CKAN submission
