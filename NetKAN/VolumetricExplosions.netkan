@@ -11,6 +11,8 @@ license: CC-BY-4.0
 tags:
   - plugin
   - graphics
+supports:
+  - name: BDArmoryForRunwayProject
 install:
   - find: VolumetricExplosions
     install_to: GameData

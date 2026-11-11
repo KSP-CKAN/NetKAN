@@ -13,6 +13,7 @@ tags:
   - convenience
 depends:
   - name: Keystone
+    min_version: 0.11.0
 install:
   - find: SteadyCamera
     install_to: GameData

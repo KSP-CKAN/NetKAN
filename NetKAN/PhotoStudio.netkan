@@ -15,7 +15,7 @@ tags:
   - editor
 depends:
   - name: Keystone
-    min_version: 0.9.0
+    min_version: 0.11.0
 install:
   - find: PhotoStudio
     install_to: GameData
