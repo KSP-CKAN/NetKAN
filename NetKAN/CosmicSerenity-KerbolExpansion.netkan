@@ -1,0 +1,21 @@
+identifier: CosmicSerenity-KerbolExpansion
+name: Cosmic Serenity - Kerbol Expansion
+abstract: A far ice giant and a mysterious brown dwarf in the edge of the Kerbol system.
+$kref: '#/ckan/github/ProximaCentauri-star/Cosmic-Serenity/asset_match/KerbolExpansion'
+license: restricted
+tags:
+  - config
+  - planet-pack
+depends:
+  - name: ModuleManager
+  - name: Kopernicus
+  - name: VertexMitchellNetravaliHeightMap
+  - name: ScaledDecorator
+  - name: CosmicSerenity-Core
+  - name: VertexColorMapEmissive
+recommends:
+  - name: KopernicusExpansion
+  - name: Singularity
+install:
+  - find: CosmicSerenity
+    install_to: GameData
