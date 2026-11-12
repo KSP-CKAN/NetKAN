@@ -1,0 +1,20 @@
+identifier: Koffee
+$kref: '#/ckan/github/Shodrem/Koffee-KSP-Mod'
+x_netkan_version_edit: ^v?(?<version>.+)$
+---
+identifier: Koffee
+$kref: '#/ckan/spacedock/4819'
+tags:
+  - career
+  - crewed
+  - first-person
+  - parts
+  - plugin
+  - tech-tree
+depends:
+  - name: ModuleManager
+  - name: ContractConfigurator
+install:
+  - find: ShoAerospace
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
