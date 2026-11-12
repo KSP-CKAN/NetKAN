@@ -1,0 +1,11 @@
+identifier: KerbalOverengineeringKOE
+$kref: '#/ckan/github/rockmeowstar/KSP_koe'
+---
+identifier: KerbalOverengineeringKOE
+$kref: '#/ckan/spacedock/4787'
+tags:
+  - plugin
+install:
+  - find: KerbalOverEngineering
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
