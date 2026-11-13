@@ -1,0 +1,28 @@
+identifier: KerbalDriftAgency
+$kref: '#/ckan/github/RodBot9999/Kerbal-Drift-Agency-Release'
+x_netkan_version_edit: ^v?(?<version>.+)$
+---
+identifier: KerbalDriftAgency
+$kref: '#/ckan/spacedock/4784'
+tags:
+  - buildings
+  - crewed
+  - first-person
+  - parts
+  - plugin
+depends:
+  - name: ModuleManager
+  - name: KerbalKonstructs
+install:
+  - find: ''
+    install_to: GameData
+    filter_regexp: \.craft$
+  - file: GameData/KDAVehicles/Prebuilds/Lizard GT.craft
+    install_to: Ships/SPH
+  - file: GameData/KDAVehicles/Prebuilds/Rabbit X.craft
+    install_to: Ships/SPH
+  - file: Ships/SPH/Lizard GT - KDA.craft
+    install_to: Ships/SPH
+  - file: Ships/SPH/Rabbit Rally x KDA(finished).craft
+    install_to: Ships/SPH
+x_via: Automated SpaceDock CKAN submission
