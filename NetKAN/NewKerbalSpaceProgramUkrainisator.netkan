@@ -1,0 +1,10 @@
+identifier: NewKerbalSpaceProgramUkrainisator
+$kref: '#/ckan/spacedock/4806'
+tags:
+  - crewed
+  - first-person
+  - parts
+install:
+  - find: ''
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
