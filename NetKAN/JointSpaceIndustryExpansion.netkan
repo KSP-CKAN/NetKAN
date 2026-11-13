@@ -1,0 +1,12 @@
+identifier: JointSpaceIndustryExpansion
+$kref: '#/ckan/github/jongshh/Joint-Space-Industry-Expansion'
+x_netkan_version_edit: ^v?(?<version>.+)$
+---
+identifier: JointSpaceIndustryExpansion
+$kref: '#/ckan/spacedock/4794'
+tags:
+  - buildings
+  - config
+depends:
+  - name: KerbalKonstructs
+x_via: Automated SpaceDock CKAN submission
