@@ -1,0 +1,18 @@
+identifier: PLANAProxisLaunchersAndAircraft
+$kref: '#/ckan/github/Proxima-Ch2426/PLANA'
+---
+identifier: PLANAProxisLaunchersAndAircraft
+$kref: '#/ckan/spacedock/4099'
+tags:
+  - crewed
+  - first-person
+  - graphics
+  - parts
+depends:
+  - name: ModuleManager
+  - name: B9PartSwitch
+  - name: Waterfall
+install:
+  - find: ''
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
