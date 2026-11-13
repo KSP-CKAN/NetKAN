@@ -1,0 +1,25 @@
+identifier: RealWorlds
+name: Real Worlds
+abstract: >-
+  The real Solar System at its real size, from NASA's and JPL's figures and
+  maps: 22 worlds at their measured sizes and orbits, their ground from
+  spacecraft maps, their air from measured profiles, biomes from the maps, real
+  dates and faster time warp. Replaces every world: start a new save.
+author: Ishiaki
+$kref: '#/ckan/github/IshiakiZ/ksp-real-worlds'
+$vref: '#/ckan/ksp-avc'
+x_netkan_version_edit: '^[vV]?(?<version>.+)$'
+license: CC-BY-4.0
+tags:
+  - planet-pack
+  - config
+  - plugin
+depends:
+  - name: Keystone
+  - name: Kopernicus
+  - name: Harmony2
+conflicts:
+  - name: RealSolarSystem
+install:
+  - find: RealWorlds
+    install_to: GameData
