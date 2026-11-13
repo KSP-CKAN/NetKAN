@@ -2,7 +2,7 @@ identifier: KSP3DRings
 $kref: '#/ckan/spacedock/4818'
 tags:
   - config
-  - planet-pack
+  - graphics
   - plugin
 depends:
   - name: ModuleManager
