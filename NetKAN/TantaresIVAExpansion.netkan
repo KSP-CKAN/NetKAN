@@ -1,0 +1,25 @@
+spec_version: v1.4
+identifier: TantaresIVAExpansion
+name: Tantares IVA Expansion
+$kref: '#/ckan/github/Rjoande/TantaresIVAExpansion'
+$vref: '#/ckan/ksp-avc'
+license:
+  - MIT
+  - CC-BY-NC-SA-3.0
+resources:
+  homepage: https://forum.kerbalspaceprogram.com/topic/228073-112x-tantares-iva-expansion-new-internals-for-soyuz-progress-and-miriss/
+tags:
+  - config
+  - crewed
+depends:
+  - name: ModuleManager
+  - name: Tantares
+  - name: ASETProps
+  - name: AvionicsSystems
+  - name: FreeIva
+  - name: Reviva
+  - name: B9PartSwitch
+suggests:
+  - name: MechJeb2
+  - name: HabTech2
+  - name: StationPartsExpansionRedux-IVAs
