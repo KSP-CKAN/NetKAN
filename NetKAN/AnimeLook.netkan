@@ -1,0 +1,19 @@
+identifier: AnimeLook
+name: Anime Look
+abstract: >-
+  Every craft and kerbal squashed flat toward the camera, as the 3D models of
+  drawn animation are, with ink lines and flat paint over the picture.
+author: Ishiaki
+$kref: '#/ckan/github/IshiakiZ/ksp-anime-look'
+$vref: '#/ckan/ksp-avc'
+x_netkan_version_edit: '^[vV]?(?<version>.+)$'
+license: CC-BY-4.0
+tags:
+  - plugin
+  - graphics
+depends:
+  - name: Keystone
+    min_version: 0.11.0
+install:
+  - find: AnimeLook
+    install_to: GameData
