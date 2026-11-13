@@ -1,0 +1,11 @@
+identifier: KerbalDOOM
+$kref: '#/ckan/spacedock/4808'
+tags:
+  - parts
+  - plugin
+depends:
+  - name: ModuleManager
+install:
+  - find: KerbalDoom
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
