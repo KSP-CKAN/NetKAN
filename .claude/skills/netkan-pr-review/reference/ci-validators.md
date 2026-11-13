@@ -1,45 +1,51 @@
-# What the NetKAN CI ("Inflate netkans" check) does and does not catch
+# NetKAN CI: checks, messages, and limits
 
-## Contents
-- What CI runs for a PR (steps, PR-body directives)
-- Validator matrix (every error and warning message)
-- What CI does NOT check
-- Reading the CI log quickly (commands, log groups)
+Use this reference to interpret the "Inflate netkans" check. CI establishes
+whether metadata can inflate and install in its sandbox; a reviewer still needs
+the ZIP, author evidence, and [Review rules](review-rules.md).
 
-Source: `.github/workflows/inflate.yml` in the NetKAN repo, the `KSP-CKAN/xKAN-meta_testing`
-action (`ckan_meta_tester.py`), and the validators in `KSP-CKAN/CKAN/Netkan/Validators/*.cs`.
+Sources: `.github/workflows/inflate.yml`, `KSP-CKAN/xKAN-meta_testing`
+(`ckan_meta_tester.py`), and `KSP-CKAN/CKAN/Netkan/Validators/*.cs`.
 
-## What CI runs for a PR
+When updating, keep literal messages in the validator matrix. Put exceptions
+beside the affected check. CI message levels are not the skill's finding
+severities; choose the report severity using [SKILL.md](../SKILL.md).
 
-1. `yamllint` (relaxed) on every `.netkan` added/modified between the merge-base and HEAD.
-   New `.netkan` files must live in `NetKAN/`; a `.frozen` twin must not exist.
-2. `netkan.exe --game KSP --highest-version <from CKAN-meta> <file>`: inflates the LATEST release
-   only, running the NetKAN validators (below). Output ends up in the log group
-   `Inflating NetKAN/<id>.netkan`, followed by the generated `.ckan` JSON. "Latest" means the
-   release that was newest when the PR was last pushed: CI does not re-run when the author
-   publishes a new release, so a green check can describe a ZIP that no longer exists upstream
-   (facts.md's "Coverage" line and local inflation show the current one).
-   Validators run once per host document, so a two-host netkan prints the same warning twice
-   (facts.md collapses these to one line with `x2`); count it as one finding.
-3. If CKAN-meta already has a `.ckan` for that identifier+version, a `Diffing <name> <version>`
-   group shows what changed (empty diff -> install step skipped).
-4. `Installing <name> <version>` group: installs the module plus its dependencies into a dummy
-   game instance using the newest compatible game version, then runs `ckan show`, which prints
-   `Showing N installed files:` (the authoritative list of what users will get) and the
-   compatibility table. Failure here (unresolvable dependency, conflict, file collision) fails CI.
-5. Uploads the inflated `.ckan`s as artifact `metadata-<PR>`.
+## CI-PIPELINE: What runs for a PR
 
-PR-body directives the tester honours (put them in the PR description):
-- `ckan compat add 1.10 1.11 1.12`: pretend those game versions are compatible so dependencies
-  with narrower compatibility can be installed in the sandbox.
-- `ckan install ModA ModB=1.2`: extra install tests after the main one.
-- `#overwrite_cache`: re-download the mod if the author replaced the release file.
-- An empty PR body produces a warning on every file.
+| Stage | What happens | Where to inspect it |
+| --- | --- | --- |
+| Lint | Relaxed `yamllint` checks added/modified `.netkan` files between merge-base and HEAD. New files must be in `NetKAN/`, with no same-named `.frozen` twin. | Lint output |
+| Inflate | `netkan.exe --game KSP --highest-version <from CKAN-meta> <file>` inflates the latest release and runs validators. | `Inflating NetKAN/<id>.netkan`, then the generated `.ckan` JSON |
+| Diff | Compare with CKAN-meta when that identifier/version already exists. An empty diff skips the install step. | `Diffing <name> <version>` |
+| Install | Install the mod and dependencies in a dummy game using the newest compatible game version, then run `ckan show`. Unresolvable dependencies, conflicts, and file collisions fail this step. | `Installing <name> <version>`, `Showing N installed files:`, compatibility table |
+| Upload | Save generated metadata. | Artifact `metadata-<PR>` |
 
-Warnings/errors appear as GitHub annotations (`##[warning]`, `##[error]`) at the top of the
-job log and on the PR "Files" tab. Only `ERROR`/`FATAL` lines fail the job.
+"Latest" means the newest release when the PR was last pushed. CI does not rerun
+just because upstream publishes another release. Compare the diagnostic
+`Coverage` line and local inflation with CI before using its ZIP evidence.
 
-## Validator matrix
+Validators run per host document. A two-host file can print the same warning
+twice; `facts.md` may summarize that with `x2`. Count it as one finding.
+
+## CI-DIRECTIVES: PR-body commands understood by the tester
+
+These are proposed changes for a maintainer or PR author. The review skill does
+not edit the PR body.
+
+| Directive | Effect |
+| --- | --- |
+| `ckan compat add 1.10 1.11 1.12` | Simulate user compatibility settings so dependencies with narrower game-version ranges can be installed. |
+| `ckan install ModA ModB=1.2` | Run additional install tests after the main test. |
+| `#overwrite_cache` | Redownload a release asset that upstream replaced. |
+
+An empty PR body generates a warning for every file.
+
+## CI-MESSAGES: Validator matrix
+
+Warnings and errors appear as `##[warning]` / `##[error]` annotations in the job
+log and PR Files tab. Warnings alone do not fail the job; `ERROR` / `FATAL` lines
+do. The messages below are abridged; use the actual log line as report evidence.
 
 | Check | Level | Message (abridged) |
 |---|---|---|
@@ -71,55 +77,61 @@ job log and on the PR "Files" tab. Only `ERROR`/`FATAL` lines fail the job.
 | swinfo.json present/absent vs `$vref` space-warp | warning | ... |
 | empty PR body | warning | Pull requests should have a description |
 
-**"Craft files installed outside Ships folder" is not always a bug.** A `.craft` file bundled
-inside the mod's own `GameData/<Id>/...` can be a contract/mission prop, not a player-launchable
-ship: Contract Configurator's `SpawnVessel` behaviour (and similar wreck/rescue spawners) loads it
-via a `craftURL` that is a GameData-relative path baked into the `.cfg` (e.g. `craftURL =
-GAPFAS/Assets/Ships/MissingAircraft.craft`). Moving that file to `Ships/SPH` or `Ships/VAB` to
-silence the warning breaks the contract (the hardcoded `craftURL` no longer resolves) and also
-wrongly hands the player a "ship" in the editor that was never meant to be launched. Before
-"fixing" this warning, grep the ZIP's `.cfg` files for the craft's filename/`craftURL`; if a
-contract behaviour references it by its GameData path, leave it installed there and treat the
-warning as expected noise for this file. Only relocate to `Ships/...` when the craft is genuinely
-meant for the player to load in the VAB/SPH craft list (see `CST100Starliner.netkan` for that
-case, and the spec cheat-sheet's `install` section).
+## CI-CRAFT: Interpret the craft-location warning before fixing it
 
-## What CI does NOT check (a reviewer must)
+A craft outside Ships is not necessarily misplaced. Determine its purpose:
 
-- Whether the identifier is *good* (core name only, matches the GameData folder or DLL, not a
-  duplicate of an already-indexed mod under a different identifier, not case-colliding).
-- Whether `license` matches the ZIP's LICENSE file / forum thread (only that it is a valid string).
-- Whether tags are the right ones from the Suggested Tags list (only that some exist).
-- Whether relationship targets exist and are the right identifiers. CI installs `depends` in the
-  sandbox, so a non-existent `depends` fails the install step, but wrong `recommends`, `suggests`,
-  `supports`, `conflicts` names pass silently. Missing dependencies (other than MM syntax) pass.
-- Whether a bundled third-party mod is being installed (only file collisions with the sandbox
-  install are caught, and dependencies are only installed if declared).
-- Whether the install stanza installs the RIGHT subset: extra folders (source, docs, Ships,
-  craft files, optional patches, "Extras"), missing sibling folders, `find: ''`, or a `file:`
-  path that breaks on the next release.
-- Whether `homepage` points at the forum thread; whether `name`/`abstract` are sane.
-- Whether the version string is sane (`v` prefix, dates, spaces) and consistent between hosts.
-- Whether a GitHub-hosted mod should also/instead be indexed from GitHub (multi-hosting), whether
-  `use_source_archive` is right, whether `asset_match` is needed (several zips per release).
-- Whether the uploader/PR author is the mod author or has permission; opt-out list.
-- Whether the mod is KSP1 at all (KSP2 mods go to KSP2-NetKAN; SpaceDock `game_id` 3102 = KSP1).
-- Whether a `.ckan`, `.version` or `swinfo.json` inside the ZIP contains metadata that conflicts
-  with the netkan.
-- Older releases: CI inflates only the latest release; previous releases may have a different
-  layout.
-- Anything about a metanetkan's remote file beyond it inflating successfully.
+| Craft purpose | Correct treatment |
+| --- | --- |
+| Player loads it in the VAB/SPH and launches it | Install under `Ships/VAB` or `Ships/SPH`. `CST100Starliner.netkan` is an example. |
+| Contract or mission prop, such as a wreck or rescue target | Keep the GameData path referenced by the CFG. Treat the warning as expected for this file. |
 
-## Reading the CI log quickly
+Search the ZIP's CFGs for the craft filename and `craftURL`. Contract
+Configurator's `SpawnVessel`, for example, resolves
+`craftURL = GAPFAS/Assets/Ships/MissingAircraft.craft` relative to GameData.
+Moving that file to Ships breaks the reference and exposes a prop as a launchable
+ship. See INSTALL-CONTENT and the [install reference](spec-cheatsheet.md#install).
 
+## CI-LIMITS: What the reviewer must establish
+
+CI can catch some failures in each area without proving the overall decision:
+
+| Area | What still needs review |
+| --- | --- |
+| Identifier | Core name, stable folder/DLL match, duplicates, and case collisions. CI checks syntax and filename equality. |
+| License | Agreement with LICENSE, README, or forum evidence. CI validates the license value, not permission or licensing accuracy. |
+| Tags | Correct Suggested Tags. CI warns on absence, not suitability. |
+| Relationships | Exact targets and complete requirements. A nonexistent `depends` can fail the sandbox install; wrong optional relationship names can pass. MM detection does not find every missing dependency. |
+| Bundles | Exclude bundled mods and declare relationships. CI catches only collisions encountered by its sandbox. |
+| Install selection | Intended folders, missing siblings, extras, sources, craft purpose, and paths stable across releases. An empty `find` or unmatched selection can fail CI, but a successful selection can still be wrong. |
+| Display fields | Useful name/abstract and correct forum homepage. |
+| Versions | Appropriate version scheme and future tag handling. Different strings across hosts can fail inflation; a successful merge does not prove the scheme is maintainable. |
+| Hosts | Usable fallback hosts, appropriate source archives, and unambiguous asset selection. |
+| Permission | Author/maintainer consent and opt-out policy. |
+| Game | KSP1 rather than a KSP2 payload. SpaceDock `game_id: 3102` identifies KSP1. |
+| Embedded metadata | Conflicts with internal `.ckan`, `.version`, or `swinfo.json`. |
+| Release history | Other ZIP layouts. CI inflates only its latest release. |
+| Metanetkans | Correctness of the remote file beyond its ability to inflate. |
+
+## CI-LOGS: Find the useful evidence
+
+```bash
+gh pr checks <N> -R KSP-CKAN/NetKAN
+gh run view --job <JOB_ID> -R KSP-CKAN/NetKAN --log
+gh run download <RUN_ID> -R KSP-CKAN/NetKAN -n metadata-<N> -D <dir>
 ```
-gh pr checks <N> -R KSP-CKAN/NetKAN                       # state + link (job id is in the link)
-gh run view --job <JOB_ID> -R KSP-CKAN/NetKAN --log        # full log
-gh run download <RUN_ID> -R KSP-CKAN/NetKAN -n metadata-<N> -D <dir>   # inflated .ckan artifact
-```
-Key groups: `Inflating NetKAN/<id>.netkan` (annotations + generated .ckan), `Diffing ...`,
-`Installing <name> <version>` (`About to install:` = dependency resolution; `Showing N installed
-files:` = final file list; the `Version  Game Versions` table = compatibility).
 
-If there is no check at all, the workflow has not run: first-time contributors need a maintainer
-to click "Approve and run". Inflate locally instead (`netkan.exe`), or ask for approval.
+The check link contains the job ID. Within the log:
+
+| Group or line | Evidence |
+| --- | --- |
+| `Inflating NetKAN/<id>.netkan` | Validator annotations and generated `.ckan` |
+| `Diffing ...` | Changes relative to existing metadata |
+| `Installing <name> <version>` | Sandbox install result |
+| `About to install:` | Dependency resolution |
+| `Showing N installed files:` | Actual installed file list |
+| `Version  Game Versions` table | Compatibility |
+
+If the check is absent, use local inflation. First-time contributors may need a
+maintainer to select "Approve and run"; state that CI is pending. For queued
+checks and infrastructure failures, see [Uncommon cases](uncommon-cases.md#fallback-ci-missing-or-unusable-ci).

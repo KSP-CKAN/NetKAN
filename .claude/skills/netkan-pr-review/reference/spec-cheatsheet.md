@@ -1,255 +1,473 @@
-# CKAN / NetKAN spec cheat-sheet (KSP1)
+# CKAN and NetKAN field reference for KSP1
 
-Condensed from https://github.com/KSP-CKAN/CKAN/blob/master/Spec.md, `CKAN.schema`,
-`NetKAN.schema`, and `Netkan/Transformers/*.cs` in `KSP-CKAN/CKAN`.
-Use this to validate field values and to recognise fields that do not belong in a netkan.
+Use this file for field syntax, allowed values, and inflation behavior. Use
+[Review rules](review-rules.md) for review decisions and exceptions, and
+[SKILL.md](../SKILL.md) for severity and verdicts.
+
+Sources: [CKAN Spec.md](https://github.com/KSP-CKAN/CKAN/blob/master/Spec.md),
+`CKAN.schema`, `NetKAN.schema`, and `Netkan/Transformers/*.cs` in `KSP-CKAN/CKAN`.
+This is a condensed reference, not a copy of the full specification.
+
+When editing, keep syntax separate from house conventions. Keep one license per
+line in the vocabulary block and one generated field or field group per table row.
 
 ## Contents
-- What a `.netkan` is (files, YAML/JSON, multi-document files)
-- Mandatory fields: identifier, version, license (full list), install, compatibility, relationships,
-  resources, tags, other fields
-- Bot-generated fields: computed during inflation, never hand-written
-- NetKAN-only fields: `$kref` hosts, `$vref`, version and staging controls, internal `.ckan` files
 
-## What a `.netkan` is
+- [Templates and file identity](#templates-and-file-identity)
+- [Multiple host documents](#multiple-host-documents)
+- [Required generated metadata](#required-generated-metadata)
+- [Release fields](#release-fields): identifier, version, license, install,
+  compatibility, relationships, resources, tags, other fields
+- [Bot-generated fields](#bot-generated-fields)
+- [NetKAN-only fields](#netkan-only-fields): `$kref`, `$vref`, version and staging
+  controls, internal `.ckan`
 
-A `.netkan` is a *template*. The bot "inflates" it into one `.ckan` per release by filling in
-fields from the host named in `$kref`. Anything set explicitly in the netkan overrides what the
-host would provide, and therefore stops tracking upstream changes. That is why reviewers strip
-fields the host can supply (name, abstract, author, homepage, repository, version, download,
-ksp_version) unless there is a reason to pin them.
+## Templates and file identity
 
-- Files live in `NetKAN/<identifier>.netkan`. The filename stem MUST equal `identifier` (CI error otherwise).
-- `NetKAN/<identifier>.frozen` is a retired netkan (bot ignores it). Adding a `.netkan` while a
-  `.frozen` of the same name exists is a CI error ("is frozen, unfreeze it by renaming or deleting").
-- YAML is preferred for new files; JSON is accepted. Never mix both syntaxes in one file.
-  In YAML, `$kref`/`$vref` values start with `#`, so they must be quoted: `$kref: '#/ckan/spacedock/1234'`.
-- A file may hold several documents (`---` separators in YAML, or consecutive `{}` objects in JSON),
-  one per host. Each document needs its own `identifier` and `$kref`. Each document is inflated
-  and validated independently; results with equal `version` strings are then JSON-merged into one
-  `.ckan` (properties union, later document's arrays replace earlier ones) with a `download`
-  array. Therefore `$vref`, `x_netkan_version_edit`/`epoch`/`force_v`, `license` (when the host
-  cannot supply it) and `install` (when ZIP layouts differ) are applied per document and should
-  be repeated in every document ("Vref in both sections" is a recurring post-merge fix), while
-  tags/relationships/name may sit in one document. A `$vref` in only one document still yields
-  `ksp_version` in the merged result (union of properties) as long as that host's ZIP has the
-  `.version`; CI does not flag the omission, so it is a SHOULD-FIX convention, not an error.
-  Different version strings per host ("Generated 2 modules but only 1 requested") are a FATAL
-  error.
-- Only ONE `$kref` and ONE `$vref` per document.
+A `.netkan` is a template. Inflation creates one `.ckan` per release by filling
+in fields from the `$kref` host. Explicit template values override host values
+and stop tracking their changes. Avoid redundant `name`, `abstract`, `author`,
+homepage, repository, version, download, and compatibility fields unless a pin
+or override is justified.
 
-## Mandatory fields of the inflated `.ckan`
+| Item | Requirement |
+| --- | --- |
+| Location | `NetKAN/<identifier>.netkan` |
+| Filename | Stem equals `identifier`; otherwise CI fails. |
+| Frozen entry | `NetKAN/<identifier>.frozen` is ignored by the bot. A same-named live and frozen entry fails CI: "is frozen, unfreeze it by renaming or deleting". |
+| Format | YAML preferred; JSON accepted. Do not mix syntaxes in one file. |
+| References in YAML | Quote `$kref` / `$vref` values beginning with `#`, e.g. `$kref: '#/ckan/spacedock/1234'`. |
 
-`spec_version`, `identifier`, `name`, `abstract`, `author`, `license`, `version` (+ `download`
-unless `kind` is `metapackage`/`dlc`). In a netkan, only `identifier` is required because the
-`$kref` host provides the rest. A netkan that sets `license` explicitly must use a value from the
-license list below. Metanetkans (`#/ckan/netkan/...`) skip license validation at the outer layer.
+## Multiple host documents
+
+Use `---` between YAML documents, or consecutive JSON objects. Each host
+document needs its own identifier and `$kref`. Allow at most one `$kref` and
+one `$vref` per document.
+
+Inflation proceeds as follows:
+
+1. Inflate and validate each document independently.
+2. Merge results with identical version strings into one `.ckan`.
+3. Union properties; later arrays replace earlier arrays. Collect host downloads
+   in the `download` array.
+
+Different host version strings cause a FATAL such as "Generated 2 modules but
+only 1 requested".
+
+Fields processed before merging must be supplied in every applicable document:
+`$vref`, `x_netkan_version_edit`, `x_netkan_epoch`, `x_netkan_force_v`, `license`
+when the host cannot supply it, and `install` when ZIP layouts differ. Shared
+tags, relationships, and name can live in one document.
+
+A `$vref` in one document can still provide compatibility to the merged result
+when that ZIP contains the version file. Repeating it in both documents is the
+house convention (HOST-FIELDS), not an independent CI requirement.
+
+## Required generated metadata
+
+An inflated `.ckan` needs `spec_version`, `identifier`, `name`, `abstract`,
+`author`, `license`, and `version`. It also needs `download` unless its `kind`
+is `metapackage` or `dlc`.
+
+Do not copy that whole set into a netkan: inflation supplies most of it. The
+netkan identifies the mod and its source, then supplies whatever the host cannot.
+If `license` is explicit, use the vocabulary below. Metanetkans skip license
+validation at the outer layer.
+
+## Release fields
 
 ### identifier
-- Pattern `^[A-Za-z0-9][A-Za-z0-9-]+$` (letters, digits, dashes; no underscores, spaces, dots).
-- Case-sensitive for machines but MUST be unique case-insensitively across the whole repo.
-- Should match the folder installed into `GameData` (then the default install stanza works and
-  CKAN can detect manual installs), or for plugins the DLL name minus version/`.dll`. Prefer
-  whichever is less likely to change. Strip version numbers, "KSP", "1.12", "[WIP]", release
-  status, acronym suffixes, host names, and author names.
-- The SpaceDock bot derives it from the SpaceDock mod *name* with all non-alphanumerics removed
-  (`re.sub(r'[\W_]+', '', name)`), e.g. "Almajara: A galactic adventure: Core" ->
-  `AlmajaraAgalacticadventureCore`. These almost always need pruning to the core name.
+
+| Aspect | Rule |
+| --- | --- |
+| Syntax | `^[A-Za-z0-9][A-Za-z0-9-]+$`; letters, digits, dashes; no underscores, spaces, or dots. |
+| Uniqueness | Case-sensitive in metadata; unique case-insensitively across the repository. |
+| Preferred name | Stable GameData folder or plugin DLL base name, without `.dll` or version text. This supports default installs and manual-install detection. |
+| Title cleanup | Remove versions, KSP/game-version text, WIP/release status, extraneous acronym suffixes, host/author names, and subtitles. Apply ID-NAME and ID-INSTALL, including documented reasons for a mismatch. |
+
+The SpaceDock bot uses `re.sub(r'[\W_]+', '', name)`. For example,
+"Almajara: A galactic adventure: Core" becomes
+`AlmajaraAgalacticadventureCore`; review the result rather than accepting the
+whole title as the identifier.
 
 ### version
-- Format `[epoch:]mod_version`. Debian-style comparison, digit runs compared numerically,
-  letters sort before non-letters. `1.10` > `1.9`. Epoch (`x_netkan_epoch`) resets ordering when
-  the scheme changes; the bot auto-increments epoch when a release sorts below the previous one
-  unless `x_netkan_allow_out_of_order: true`.
-- Convention: version strings should NOT carry a leading `v`. GitHub tags like `v1.2.3` are cleaned
-  with `x_netkan_version_edit: ^v?(?<version>.+)$` (regex must have a named group `version`; C#
-  syntax `(?<name>...)`). Once a mod has been indexed WITH a `v`, keep it consistent
-  (`x_netkan_force_v: true`) rather than switching, because `v1.2` sorts above `1.3`.
-- SpaceDock versions are the uploader's free-text "friendly_version"; watch for `v`, spaces,
-  dates, or words like "beta" that will sort wrongly.
+
+The format is `[epoch:]mod_version`. Comparison is Debian-style: digit runs
+compare numerically (`1.10` > `1.9`), and letters sort before non-letters.
+
+| Situation | Behavior or control |
+| --- | --- |
+| Version scheme changes | Epoch resets ordering. The bot automatically increments it for a release sorting below the previous one, unless `x_netkan_allow_out_of_order: true`. |
+| Explicit epoch floor | `x_netkan_epoch` |
+| Host strings differ | Normalize consistently with `x_netkan_version_edit`; the regex needs C# named capture `(?<version>...)`. |
+| Already indexed with `v` | Preserve it with `x_netkan_force_v: true`; `v1.2` sorts above `1.3`. |
+| SpaceDock friendly version | Free text; check prefixes, spaces, dates, and words such as beta for unintended ordering. |
+
+Stripping `v` with `^v?(?<version>.+)$` is a common convention, not a reason on
+its own to request a correction. VERSION-MATCH accepts a prefix shared by every
+host. Do not normalize an already-consistent release merely for style.
 
 ### license
-Must be one of (from `CKAN.schema`):
-`public-domain, AFL-3.0, AGPL-3.0, Apache, Apache-1.0, Apache-2.0, APSL-2.0, Artistic, Artistic-1.0, Artistic-2.0, BSD-2-clause, BSD-3-clause, BSD-4-clause, ISC, CC-BY, CC-BY-1.0, CC-BY-2.0, CC-BY-2.5, CC-BY-3.0, CC-BY-4.0, CC-BY-SA, CC-BY-SA-1.0, CC-BY-SA-2.0, CC-BY-SA-2.5, CC-BY-SA-3.0, CC-BY-SA-4.0, CC-BY-NC, CC-BY-NC-1.0, CC-BY-NC-2.0, CC-BY-NC-2.5, CC-BY-NC-3.0, CC-BY-NC-4.0, CC-BY-NC-SA, CC-BY-NC-SA-1.0, CC-BY-NC-SA-2.0, CC-BY-NC-SA-2.5, CC-BY-NC-SA-3.0, CC-BY-NC-SA-4.0, CC-BY-NC-ND, CC-BY-NC-ND-1.0, CC-BY-NC-ND-2.0, CC-BY-NC-ND-2.5, CC-BY-NC-ND-3.0, CC-BY-NC-ND-4.0, CC-BY-ND, CC-BY-ND-1.0, CC-BY-ND-2.0, CC-BY-ND-2.5, CC-BY-ND-3.0, CC-BY-ND-4.0, CC0, CDDL, CPL, EFL-1.0, EFL-2.0, Expat, MIT, GPL-1.0, GPL-2.0, GPL-3.0, LGPL-2.0, LGPL-2.1, LGPL-3.0, GFDL-1.0, GFDL-1.1, GFDL-1.2, GFDL-1.3, GFDL-NIV-1.0, GFDL-NIV-1.1, GFDL-NIV-1.2, GFDL-NIV-1.3, LPPL-1.0, LPPL-1.1, LPPL-1.2, LPPL-1.3c, MPL-1.0, MPL-1.1, MPL-2.0, Ms-PL, Ms-RL, Perl, Python-2.0, QPL-1.0, Unlicense, W3C, WTFPL, Zlib, Zope, open-source, restricted, unrestricted, unknown`
-- May be an array when the user may choose (`[MIT, GPL-3.0]`). If different assets have different
-  licenses, use the MOST restrictive one (often `restricted`). "All rights reserved" -> `restricted`.
-- SpaceDock supplies a free-text license (e.g. `CC BY-NC-ND 4.0`, `MIT (configs)/ARR (assets)`);
-  the bot normalises spaces to dashes, which frequently produces an invalid string and a CI FATAL
-  "The licence X is invalid". Fix by setting a valid `license` in the netkan.
-- GitHub `$kref` fills `license` from the repo's detected license (spec v1.26+). `x_netkan_license_ok: true`
-  is an internal marker used on some metanetkans; it is not in the spec and should not be added casually.
-- The license must match what is actually in the ZIP / forum thread, not just what the host says.
+
+Use an exact value from this `CKAN.schema` vocabulary:
+
+```text
+public-domain
+AFL-3.0
+AGPL-3.0
+Apache
+Apache-1.0
+Apache-2.0
+APSL-2.0
+Artistic
+Artistic-1.0
+Artistic-2.0
+BSD-2-clause
+BSD-3-clause
+BSD-4-clause
+ISC
+CC-BY
+CC-BY-1.0
+CC-BY-2.0
+CC-BY-2.5
+CC-BY-3.0
+CC-BY-4.0
+CC-BY-SA
+CC-BY-SA-1.0
+CC-BY-SA-2.0
+CC-BY-SA-2.5
+CC-BY-SA-3.0
+CC-BY-SA-4.0
+CC-BY-NC
+CC-BY-NC-1.0
+CC-BY-NC-2.0
+CC-BY-NC-2.5
+CC-BY-NC-3.0
+CC-BY-NC-4.0
+CC-BY-NC-SA
+CC-BY-NC-SA-1.0
+CC-BY-NC-SA-2.0
+CC-BY-NC-SA-2.5
+CC-BY-NC-SA-3.0
+CC-BY-NC-SA-4.0
+CC-BY-NC-ND
+CC-BY-NC-ND-1.0
+CC-BY-NC-ND-2.0
+CC-BY-NC-ND-2.5
+CC-BY-NC-ND-3.0
+CC-BY-NC-ND-4.0
+CC-BY-ND
+CC-BY-ND-1.0
+CC-BY-ND-2.0
+CC-BY-ND-2.5
+CC-BY-ND-3.0
+CC-BY-ND-4.0
+CC0
+CDDL
+CPL
+EFL-1.0
+EFL-2.0
+Expat
+MIT
+GPL-1.0
+GPL-2.0
+GPL-3.0
+LGPL-2.0
+LGPL-2.1
+LGPL-3.0
+GFDL-1.0
+GFDL-1.1
+GFDL-1.2
+GFDL-1.3
+GFDL-NIV-1.0
+GFDL-NIV-1.1
+GFDL-NIV-1.2
+GFDL-NIV-1.3
+LPPL-1.0
+LPPL-1.1
+LPPL-1.2
+LPPL-1.3c
+MPL-1.0
+MPL-1.1
+MPL-2.0
+Ms-PL
+Ms-RL
+Perl
+Python-2.0
+QPL-1.0
+Unlicense
+W3C
+WTFPL
+Zlib
+Zope
+open-source
+restricted
+unrestricted
+unknown
+```
+
+| Licensing situation | Metadata treatment |
+| --- | --- |
+| User may choose between licenses | An array is allowed, e.g. `[MIT, GPL-3.0]`. |
+| Different assets have different licenses | Use the most restrictive applicable value, often `restricted`. |
+| All rights reserved | `restricted` |
+| Genuinely unknown | `unknown` |
+
+Compare the ZIP and forum evidence with the host's declared license. A valid
+host string does not prove that it matches the distributed content.
+
+SpaceDock supplies free text and the bot normalizes spaces to dashes. Values
+such as `CC BY-NC-ND 4.0` or `MIT (configs)/ARR (assets)` may still be invalid and
+produce "The licence X is invalid". Supply a valid override where needed.
+
+GitHub supplies its detected repository license (spec v1.26+). Avoid a redundant
+override when detection is correct. `x_netkan_license_ok: true` is an internal
+marker on some metanetkans, not a spec field to add casually.
 
 ### install
-Each stanza has exactly one source (`file`, `find`, `find_regexp`) and an `install_to`.
-- `find: Foo` locates the top-most directory named `Foo` anywhere in the ZIP (preferred; robust to
-  the author changing the wrapper folder). `file: path/in/zip` is an exact path (fragile).
-  `find_regexp` is a C# regex over normalised paths (use sparingly).
-- `install_to` for KSP1: `GameData`, `GameData/<subpath>`, `Ships`, `Ships/SPH`, `Ships/VAB`,
-  `Ships/@thumbs/VAB`, `Ships/@thumbs/SPH`, `Ships/Script`, `Missions`, `Tutorial`, `Scenarios`,
-  `GameRoot` (avoid). Craft files meant for the player to fly belong under `Ships/...`, not
-  `GameData` (CI warns otherwise) - see `CST100Starliner.netkan`'s `find_regexp: ".*\\.craft$"` +
-  `find_matches_files: true` pattern. **Exception:** a craft that is a contract/mission prop (a
-  wreck, a rescue target) rather than something the player launches must stay inside the mod's own
-  `GameData/<Id>/...`, at whatever path the mod's `.cfg` hardcodes - e.g. Contract Configurator's
-  `SpawnVessel` behaviour reads `craftURL = <Id>/Assets/Ships/Foo.craft` relative to `GameData`.
-  Moving such a craft into `Ships/` to quiet the "Craft files installed outside Ships folder"
-  warning breaks the contract and wrongly exposes the prop as a launchable design. Check the ZIP's
-  `.cfg` files for a `craftURL`/similar reference to the craft's filename before relocating it.
-- Modifiers: `as` (rename), `filter` / `filter_regexp` (exclude), `include_only` /
-  `include_only_regexp` (whitelist; cannot be combined with `filter*`), `find_matches_files: true`
-  (let `find`/`find_regexp` match files too).
-- **Default stanza** when `install` is omitted: `find: <identifier>` -> `GameData`. If the ZIP's
-  GameData folder is named exactly like the identifier, DELETE the explicit stanza (reviewers do
-  this routinely: "Use default install stanza").
-- `find: ''` (empty) is the SpaceDock bot's signal that it could not pick a folder (several folders
-  under GameData, none named like the identifier). It is never correct; a human must decide.
-- Never install a bundled third-party mod (ModuleManager, Kopernicus, B9PartSwitch, MiniAVC folder
-  copies, ...). Use `depends` and let CKAN install the real thing; installing copies causes file
-  conflicts for users. Filter them out if the stanza would otherwise sweep them in.
-- Installing this mod's OWN files into another indexed mod's folder (`find: TUFX`, `install_to:
-  GameData/Kopernicus/...`) is a different case from bundling a copy, but still needs scrutiny:
-  any path the target mod itself ships is a BLOCKER, since CKAN cannot overwrite another mod's
-  files (wiki "Help! I need to overwrite another mod's files"). A uniquely-named add-on file
-  (profile, patch) that cannot collide is survivable, but check real precedent before calling it
-  OK — most frameworks that load drop-in configs (TUFX profiles, MM patches) scan all of
-  `GameData`, so the file usually does not need to live inside the target's own directory at all;
-  prefer the mod's own folder unless sibling netkans that install into that same folder (not just
-  `depends` on the mod) show it is the accepted pattern.
-- CI errors on: nothing matched, `GameData` nested inside `GameData`, two stanzas writing the same
-  destination, `include_only` with no matches (warning), path traversal.
+
+Each stanza has exactly one source and an `install_to`:
+
+| Source | Meaning |
+| --- | --- |
+| `find: Foo` | Find the topmost directory named Foo anywhere in the ZIP. Preferred for resilience to wrapper-folder changes. |
+| `file: path/in/zip` | Exact path; vulnerable to release-specific layout changes. |
+| `find_regexp` | C# regex over normalized ZIP paths; use sparingly. |
+
+| Modifier | Meaning |
+| --- | --- |
+| `as` | Rename the selected content. |
+| `filter` / `filter_regexp` | Exclude content. |
+| `include_only` / `include_only_regexp` | Include only matching content; cannot combine with `filter*`. |
+| `find_matches_files: true` | Permit `find` / `find_regexp` to select files as well as directories. |
+
+Allowed KSP1 destinations:
+
+```text
+GameData
+GameData/<subpath>
+Ships
+Ships/SPH
+Ships/VAB
+Ships/@thumbs/VAB
+Ships/@thumbs/SPH
+Ships/Script
+Missions
+Tutorial
+Scenarios
+GameRoot
+```
+
+Avoid GameRoot unless justified. Apply these selection and ownership checks:
+
+- **Default install:** omitting `install` means `find: <identifier>` to GameData.
+  Remove an explicit copy of the default when the identifier matches the sole
+  GameData folder and no additional selection is needed.
+- **Empty selection:** `find: ''` means the bot could not choose a folder. It is
+  never a correct final selection; choose the intended content.
+- **Bundled dependencies:** exclude their folders/DLLs and declare relationships
+  so CKAN supplies the real mods. This includes ModuleManager, Kopernicus,
+  B9PartSwitch, and separate MiniAVC folders.
+- **Other mods' folders:** a path colliding with a file owned by another indexed
+  mod is a BLOCKER. A uniquely named profile/patch still needs matching sibling
+  precedent before acceptance. TUFX/MM drop-in files generally work from the
+  add-on's own GameData folder. Check actual install paths, not just shared
+  dependency declarations (INSTALL-OTHER-MOD).
+- **Shared author namespace:** preserve its on-disk layout while selecting only
+  this mod's inner folder; put the namespace in `install_to` (INSTALL-NAMESPACE).
+
+Craft files require a purpose check:
+
+| Craft purpose | Install treatment |
+| --- | --- |
+| Player-launchable design | Ships destination. `CST100Starliner.netkan` demonstrates `find_regexp: ".*\\.craft$"` plus `find_matches_files: true`. |
+| Contract/mission prop | Keep its referenced GameData path. `SpawnVessel` can use `craftURL = <Id>/Assets/Ships/Foo.craft` relative to GameData. |
+
+Search CFGs for the filename and `craftURL` before moving a craft. Moving a prop
+to Ships breaks its reference and exposes a design the player was not meant to
+launch. The CI craft-location warning does not override this exception.
+
+CI rejects unmatched sources, GameData nested inside GameData, duplicate
+destinations, and path traversal. An unmatched `include_only` produces a warning.
 
 ### Compatibility
-- `ksp_version` (exact or 2-part prefix) XOR (`ksp_version_min` / `ksp_version_max`). `any` = unbounded.
-- `ksp_version_strict: true` disables the client's "generally recognised as compatible" fuzzing.
-- SpaceDock supplies `ksp_version` from the uploader's chosen game version; a `.version` file
-  (`$vref: '#/ckan/ksp-avc'`) supplies min/max and wins for the range. Hard-coding compatibility
-  in the netkan freezes it forever; prefer the host or the `.version` file.
-- CI errors if the module matches no known game version; CI warns when a plugin mod has unbounded
-  future compatibility (no `$vref`, `ksp_version`, or `ksp_version_max`).
+
+Use either `ksp_version` (an exact version or two-part prefix) or a range using
+`ksp_version_min` / `ksp_version_max`, not both forms. `any` means unbounded.
+`ksp_version_strict: true` disables the client's generally-recognized-compatible
+version fuzzing.
+
+SpaceDock supplies the uploader's selected game version. An installed `.version`
+selected by `$vref: '#/ckan/ksp-avc'` supplies compatibility and takes precedence
+for the range. Avoid a static override when either source supplies it.
+
+CI errors when no known game version matches. It warns on unbounded future
+compatibility for plugin mods without `$vref`, `ksp_version`, or `ksp_version_max`.
 
 ### Relationships
-`depends`, `recommends`, `suggests`, `supports`, `conflicts`; each an array of `{name: <identifier>}`
-with optional `min_version`/`max_version` or `version` (not both). `any_of: [...]` for alternatives.
-`replaced_by` is a single object, not an array. `provides: [ids]` declares virtual identifiers.
-- `name` must be an existing CKAN identifier (exact case). Wrong case, a display name, or a folder
-  name are CI errors only if syntactically invalid; a non-existent but valid-looking identifier
-  passes CI and breaks installs. Verify against `NetKAN/` (+ `provides`) or CKAN-meta.
-- `depends` = required to function. Debian-style semantics for the rest, and default to
-  `suggests`: `recommends` = "you would not normally install this without also installing the
-  target" (near-mandatory, resolver installs it by default); `suggests` = "consider also
-  installing the target" (optional enhancement/integration — where most companion mods belong);
-  `supports` = reverse of `suggests`; `conflicts` = cannot coexist. Use relationships only for a
-  real gameplay/technical relationship, not promotion.
-- Common must-haves: `ModuleManager` when any `.cfg` uses MM syntax (`@`, `+`, `!`, `%`, `$`, `-`,
-  `NODE:NEEDS[...]`); `Kopernicus` for `@Kopernicus` planet packs; `Waterfall`, `B9PartSwitch`,
-  `TUFX`, `ContractConfigurator`, `KerbalKonstructs` when their nodes/modules appear;
-  `Harmony2` when a plugin references `0Harmony`; `Scatterer`/`EnvironmentalVisualEnhancements`
-  for visual packs. Textures-only variants normally `depends` on the core mod.
-- A `.version` file with `KSP_VERSION`, a `README` "requires X", or forum-thread text are the
-  usual sources of truth for dependencies.
-- If the mod overwrites files of another mod, it must instead be split or use MM; CKAN cannot
-  overwrite (see wiki "Help! I need to overwrite another mod's files").
+
+`depends`, `recommends`, `suggests`, `supports`, and `conflicts` are arrays of
+objects containing `name: <identifier>`. An entry can constrain
+`min_version` / `max_version` or use `version`, but not both forms.
+Use `any_of: [...]` for alternatives. `replaced_by` is a single object;
+`provides: [ids]` declares virtual identifiers.
+
+| Relationship | Meaning |
+| --- | --- |
+| `depends` | Required for this mod to function or have a purpose. |
+| `recommends` | Near-mandatory in normal use; resolver installs it by default. |
+| `suggests` | Optional enhancement/integration. Default for optional companions. |
+| `supports` | Offer this mod when the target is installed; reverse of suggests. |
+| `conflicts` | Cannot coexist. |
+
+Use relationships for actual technical or gameplay connections, not promotion.
+Apply REL-REQUIRED and REL-OPTIONAL to distinguish them.
+
+Check names against exact CKAN identifiers in `NetKAN/`, `provides`, or CKAN-meta.
+Display names, folder names, and wrong case may be syntactically valid and escape
+inflation checks; required targets can then fail the sandbox install, while
+optional names can silently do nothing.
+
+Dependency clues include MM syntax (`@`, `+`, `!`, `%`, `$`, `-`,
+`NODE:NEEDS[...]`), `@Kopernicus`, framework modules for Waterfall/B9PartSwitch/
+TUFX/ContractConfigurator/KerbalKonstructs, plugin references to `0Harmony`
+(`Harmony2`), and Scatterer/EVE visual content. Textures-only variants normally
+need their core mod. Read the README, forum, and version-file context too.
+Interpret optional patches and bridge DLLs under 3h rather than treating every
+framework mention as mandatory.
+
+CKAN cannot overwrite another mod's files. Propose patches or a module split
+instead of trying to impose an install order.
 
 ### resources
-`homepage` (forum thread preferred), `bugtracker`, `discussions`, `license`, `repository`, `ci`,
-`spacedock`, `curse`, `manual`, `metanetkan`, `remote-avc`, `remote-swinfo`, `store`, `steamstore`,
-`gogstore`, `epicstore`, plus any `x_*`. SpaceDock and GitHub fill most of these; only set
-`homepage` when the host's value is wrong or missing.
+
+Supported names include:
+
+```text
+homepage
+bugtracker
+discussions
+license
+repository
+ci
+spacedock
+curse
+manual
+metanetkan
+remote-avc
+remote-swinfo
+store
+steamstore
+gogstore
+epicstore
+x_*
+```
+
+Hosts fill most resources. Prefer the forum thread for homepage; set an override
+when the host value is missing or wrong.
 
 ### tags
-Lowercase `[a-z0-9-]+`. Use only the Suggested Tags vocabulary. Types: `parts`, `physics`,
-`plugin`, `app`, `config`, `library`, `flags`, `agency`, `suits`. Descriptors: `control`,
-`convenience`, `information`, `editor`, `planet-pack`, `graphics`, `sound`, `resources`,
-`science`, `tech-tree`, `career`, `combat`, `comms`, `buildings`, `crewed`, `uncrewed`,
-`stock-inventory`, `first-person`. CI only warns when tags are missing entirely; wrong or
-made-up tags pass CI.
+
+Syntax is lowercase `[a-z0-9-]+`. Use the Suggested Tags vocabulary in
+[Wiki guidance](doc-checklist.md#doc-tags-accepted-vocabulary), which separates
+types from descriptors. CI warns on absent tags, not invented or unsuitable ones.
 
 ### Other fields
-- `kind`: `package` (default) | `metapackage` (no download; relationships only) | `dlc`.
-- `comment`: ignored, human notes. `x_*`: ignored extension fields.
-- `localizations`: list of locale codes shipped; the bot fills this in from the ZIP's
-  `Localization { ... }` cfg blocks (`LocalizationsTransformer`) whenever the property is absent,
-  so hand-writing it only makes sense to override a bad auto-detection.
 
-### Bot-generated fields (flag these if hand-written in a netkan)
-Source: `KSP-CKAN/CKAN` `Netkan/Transformers/*.cs`, the pipeline `NetkanTransformer` runs in order
-for every inflation. These are computed from the host response or the downloaded ZIP itself, not
-from anything specific to one `$kref` host, so they don't belong in a netkan regardless of which
-host it uses. A value found in a netkan is either silently discarded (unconditional overwrite) or
-sticks and quietly stops tracking upstream (the transformer only fills a gap):
-- `spec_version`: recomputed on every inflation from whichever spec features the merged metadata
-  actually uses (`SpecVersionTransformer`, unconditional `json["spec_version"] = ...`). A
-  hand-written value is simply replaced; harmless but always dead weight.
-- `download_size`, `download_hash`, `download_content_type`, `install_size`: measured from the
-  downloaded ZIP every inflation (`DownloadAttributeTransformer`, `InstallSizeTransformer`).
-- `release_date`: taken from the host's API response for the matched release/asset (every host
-  transformer sets it the same way).
-- `release_status`: `stable` (default, i.e. absent) | `testing` | `development`. Only the GitHub
-  and Gitea transformers ever set this automatically, to `testing`, and only for a release flagged
-  as a prerelease on the host (`json.SafeAdd("release_status", "testing")` - `SafeAdd` means a
-  value already in the netkan wins and is never touched again). Hand-writing `stable` is a no-op;
-  hand-writing `testing` freezes that status even after the mod leaves prerelease; `development` is
-  never set by the bot at all, so a netkan with `$kref` should not carry it either - drop it and
-  let prerelease detection do its job (or ask the author to mark the GitHub release as a
-  prerelease). The one legitimate use is a fully hand-authored file with no `$kref`, e.g.
-  `Backports/Kopernicus.frozen`.
-- `x_generated_by`: always unconditionally set to `"netkan"` (`GeneratedByTransformer`); any other
-  value is discarded on the next inflation.
-- `x_netkan_version_pieces`: internal bookkeeping the GitHub/Gitea transformers attach to the
-  matched release tag (`{tag: <tag>}`); not meant to be hand-authored.
+| Field | Meaning |
+| --- | --- |
+| `kind` | `package` by default; `metapackage` for relationships without a download; `dlc` for DLC. |
+| `comment` | Human notes, ignored by processing. |
+| `x_*` | Extension fields, ignored unless a transformer recognizes them. |
+| `localizations` | Shipped locale codes. `LocalizationsTransformer` detects these from `Localization { ... }` CFG blocks when absent; override only to correct detection. |
 
-A netkan carrying any of these almost always means a hand-written file was copied from an already
-inflated `.ckan` (or from another mod's netkan) instead of started fresh - point at the source
-transformer above and say to delete the field.
+## Bot-generated fields
+
+These come from host responses or ZIP analysis during inflation. A handwritten
+value is either replaced or prevents future updates when a transformer only
+fills missing values. Remove them from ordinary `$kref` templates
+(META-GENERATED).
+
+| Field | Producer and behavior |
+| --- | --- |
+| `spec_version` | `SpecVersionTransformer` recomputes it from the features used; unconditionally replaces a handwritten value. |
+| `download_size`, `download_hash`, `download_content_type` | `DownloadAttributeTransformer` measures the downloaded archive each inflation. |
+| `install_size` | `InstallSizeTransformer` measures installed content. |
+| `release_date` | Host transformer supplies the matched release/asset date. |
+| `release_status` | Default stable is represented by absence. GitHub/Gitea use `SafeAdd` to set testing for prereleases; an existing template value wins and can become stale. |
+| `x_generated_by` | `GeneratedByTransformer` unconditionally sets netkan. |
+| `x_netkan_version_pieces` | GitHub/Gitea bookkeeping for the matched tag, such as `{tag: <tag>}`. |
+
+For `release_status`, writing stable adds nothing; writing testing keeps it even
+after prerelease ends. The bot never generates development. Prefer host
+prerelease flags to a fixed status. A fully hand-authored file without `$kref`,
+such as `Backports/Kopernicus.frozen`, is the documented exception.
+
+These fields often indicate a copied inflated `.ckan`. Explain the relevant
+producer and propose deleting the field rather than maintaining a stale copy.
 
 ## NetKAN-only fields
 
 ### `$kref`
-- `#/ckan/spacedock/<id>`: fills name, license, abstract, author, version, download, homepage,
-  spacedock, repository, bugtracker, x_screenshot, ksp_version, release_date, release_status.
-- `#/ckan/github/<user>/<repo>[/asset_match/<regex>|/version_from_asset/<regex>]`: fills name,
-  license, abstract, author, version (from tag), download (first asset by default), repository,
-  bugtracker, release_date, release_status (prerelease -> testing). `x_netkan_github:
-  {use_source_archive: true}` downloads GitHub's automatic source zip instead of an asset; that
-  zip is a repository snapshot wrapped in `<repo>-<sha>/`, which normally does not have a mod
-  install layout, so it only works when the repo root holds the mod folder and the install
-  stanza uses `find`. Precedent (2026-09): 11 of 1456 live netkans use it (6 are one author's
-  `RecolorCollection-*` packs); 10 of the 11 `find` the inner folder (`find: TU_MissingHistory`,
-  `find_regexp: EmbeddedKOSKirkuits-.*`) and one relies on the default `find: <identifier>`.
-  Accept it on that pattern; a release without assets and without it crashes inflation.
-  `prereleases: true|false` filters releases.
-  `asset_match` is needed when a release ships several assets (e.g. separate zips per game or a
-  `.sha256` alongside the zip is fine because only `.zip`-like assets are considered, but two zips
-  are ambiguous).
-- `#/ckan/gitlab/<user>/<repo>` (needs `x_netkan_gitlab: {use_source_archive: true}`),
-  `#/ckan/gitea/<host>/<user>/<repo>`, `#/ckan/sourceforge/<repo>`, `#/ckan/jenkins/<joburl>`
-  (+`x_netkan_jenkins`), `#/ckan/http/<url>` (needs a `.version` file for the version),
-  `#/ckan/ksp-avc/<url to .version>` (download from the file's `DOWNLOAD`).
-- `#/ckan/netkan/<url>`: metanetkan; the remote file is authoritative and may not itself be a
-  metanetkan. Fields in the local file override the remote. Used when authors want to own their
-  metadata; for a single mod an internal `.ckan` inside the ZIP is the simpler alternative.
-- A netkan with both `$kref` and `download` is a CI error; a netkan with neither is a CI error.
+
+| Reference | Source and options |
+| --- | --- |
+| `#/ckan/spacedock/<id>` | Supplies display fields, license, version, download, homepage, SpaceDock/repository/bugtracker links, `x_screenshot`, compatibility, release date, and applicable status metadata. |
+| `#/ckan/github/<user>/<repo>[/asset_match/<regex>\|/version_from_asset/<regex>]` | Supplies display fields, detected license, tag version, download, repository/bugtracker, release date, and prerelease status. |
+| `#/ckan/gitlab/<user>/<repo>` | Requires `x_netkan_gitlab: {use_source_archive: true}`. |
+| `#/ckan/gitea/<host>/<user>/<repo>` | Gitea/Forgejo host. |
+| `#/ckan/sourceforge/<repo>` | SourceForge. |
+| `#/ckan/jenkins/<joburl>` | Jenkins; configure `x_netkan_jenkins` as needed. |
+| `#/ckan/http/<url>` | Plain HTTP download; requires a `.version` file to supply the version. |
+| `#/ckan/ksp-avc/<url to .version>` | Uses the version file's `DOWNLOAD`. |
+| `#/ckan/netkan/<url>` | Remote authoritative template; local fields override it. Remote template must not itself be a metanetkan. |
+
+For GitHub releases:
+
+- Default selection takes the first eligible asset. Use `asset_match` when
+  several ZIP-like assets are ambiguous; a `.sha256` alongside one ZIP is fine.
+- `prereleases: true|false` filters release selection.
+- `x_netkan_github: {use_source_archive: true}` selects the automatic source
+  archive wrapped in `<repo>-<sha>/`. Accept it only when it contains the mod's
+  folder and a stable `find` selects that content. Without a usable asset or
+  this option, a release with no assets fails inflation.
+- In the September 2026 sample, 11 of 1456 live netkans used source archives;
+  six were one author's `RecolorCollection-*` packs. Ten explicitly selected
+  inner content (such as `find: TU_MissingHistory` or
+  `find_regexp: EmbeddedKOSKirkuits-.*`), and one used default identifier matching.
+  This is historical precedent, not a requirement to mimic those files.
+
+A document with both `$kref` and `download`, or neither, fails CI. Fully manual
+metadata is a distinct workflow; do not copy its fields into a host template.
+For one mod, an internal `.ckan` can be simpler than a remote metanetkan.
 
 ### `$vref`
-- `#/ckan/ksp-avc[/path/to/file.version]`: read min/max game version (and `version` only when the
-  host gave none, or when `x_netkan_trust_version_file: true`) from the `.version` file that would
-  be installed. More than one candidate `.version` file is an error ("Too many .version files");
-  disambiguate with the path suffix. CI warns if `$vref` is set but no `.version` exists, and if
-  a `.version` exists but `$vref` is missing.
-- `#/ckan/space-warp[/path]`: KSP2 only (`swinfo.json`); a KSP1 netkan with swinfo is wrong repo.
+
+| Reference | Behavior |
+| --- | --- |
+| `#/ckan/ksp-avc[/path/to/file.version]` | Reads game compatibility from the installed version file. Supplies the mod version only when the host has none, or `x_netkan_trust_version_file: true`. |
+| `#/ckan/space-warp[/path]` | KSP2 `swinfo.json`; outside this KSP1 review. |
+
+More than one candidate AVC file causes "Too many .version files"; use a path
+suffix to disambiguate. CI warns both when `$vref` selects no version file and
+when a version file exists without `$vref`.
 
 ### Version and staging controls
-- `x_netkan_version_edit`: string regex (must contain `(?<version>...)`) or
-  `{find, replace: '${version}', strict: true}`. Strip `v`, dates, suffixes; `strict: false` if
-  some tags will not match.
-- `x_netkan_epoch: <int>`, `x_netkan_force_v: true`, `x_netkan_allow_out_of_order: true`,
-  `x_netkan_trust_version_file: true`.
-- `x_netkan_override: [{version: '>=1.0', override: {...}, delete: [...]}]` for version-specific
-  metadata (preferred over editing old `.ckan`s). Needs `version` and one of `override`/`delete`.
-- `x_netkan_staging: true` + `x_netkan_staging_reason: '...'` routes bot updates through a PR.
+
+| Field | Syntax or purpose |
+| --- | --- |
+| `x_netkan_version_edit` | A regex containing `(?<version>...)`, or `{find, replace: '${version}', strict: true}`. Use `strict: false` when some tags may not match. |
+| `x_netkan_epoch` | Integer epoch floor. |
+| `x_netkan_force_v` | `true` preserves a required v prefix. |
+| `x_netkan_allow_out_of_order` | `true` for intentional out-of-order releases. |
+| `x_netkan_trust_version_file` | `true` to prefer the version file's mod version. |
+| `x_netkan_override` | `[{version: '>=1.0', override: {...}, delete: [...]}]`; requires version and at least override or delete. Prefer this to editing old generated `.ckan` files. |
+| `x_netkan_staging` / `x_netkan_staging_reason` | `true` plus an explanation routes bot updates through a PR. |
 
 ### Internal `.ckan` files
-A `.ckan` (JSON or YAML) inside the ZIP is merged into that version's metadata. It can only ADD
-properties, not override the netkan. Good for per-version dependencies; the netkan should then
-omit those fields. More than one `.ckan` in a ZIP is an error.
+
+An installed JSON or YAML `.ckan` contributes release-specific properties but
+does not override template values. Leave its fields out of the netkan when it
+should supply them. More than one selected internal `.ckan` is an error; for
+multi-module archives, separate install selections. See
+[Uncommon cases](uncommon-cases.md#internal-ckan-metadata-shipped-in-the-zip).
