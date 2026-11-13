@@ -1,0 +1,12 @@
+identifier: RealMilkyWayCore
+$kref: '#/ckan/spacedock/4820'
+tags:
+  - config
+  - planet-pack
+depends:
+  - name: ModuleManager
+  - name: Kopernicus
+install:
+  - find: RMWCore
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
