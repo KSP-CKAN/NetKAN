@@ -1,0 +1,31 @@
+{
+        "spec_version": "v1.4",
+        "identifier": "FARc-Unkerbalized",
+        "$kref": "#/ckan/github/RealSteel99-codes/FARc-continued",
+        "name": "FARc Unkerbalized (Ferram Aerospace Research Continued)",
+        "abstract": "Aerodynamics unkerbalized: real-world Polhamus LERX vortex lift, Whitcomb winglets,
+        aeroelastic hinge blowback, hypersonic waverider compression lift, and Unity Burst threading.",
+        "author": [ "ferram4", "dkavolis", "RealSteel99" ],
+        "license": "GPL-3.0",
+        "resources": {
+            "homepage": "https://github.com/RealSteel99-codes/FARc-continued"
+        },
+        "provides": [ "FAR" ],
+        "conflicts": [
+            { "name": "FerramAerospaceResearch" },
+            { "name": "FerramAerospaceResearchContinued" }
+        ],
+        "depends": [
+            { "name": "ModuleManager" },
+            { "name": "ModularFlightIntegrator" }
+        ],
+        "recommends": [
+            { "name": "KSPBurst" }
+        ],
+        "install": [
+            {
+                "find": "FerramAerospaceResearch",
+                "install_to": "GameData"
+            }
+        ]
+	}
