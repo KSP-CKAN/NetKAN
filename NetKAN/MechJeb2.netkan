@@ -1,86 +1,53 @@
-{
-    "identifier": "MechJeb2",
-    "$kref": "#/ckan/jenkins/https://ksp.sarbian.com/jenkins/job/MechJeb2-Release/",
-    "x_netkan_jenkins": {
-        "use_filename_version": true
-    },
-    "x_netkan_version_edit": "^MechJeb2-(?<version>\\d+\\.\\d+\\.\\d+\\.\\d+)\\.zip$",
-    "name": "MechJeb 2",
-    "abstract": "Anatid Robotics and Multiversal Mechatronics proudly presents the first flight assistant autopilot: MechJeb",
-    "author": "Sarbian",
-    "license": "GPL-3.0",
-    "resources": {
-        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/154834-*",
-        "repository": "https://github.com/MuMech/MechJeb2"
-    },
-    "tags": [
-        "plugin",
-        "information",
-        "control"
-    ],
-    "ksp_version": "1.12",
-    "install": [
-        {
-            "find": "MechJeb2",
-            "install_to": "GameData"
-        }
-    ],
-    "depends": [
-        { "name": "ModuleManager" }
-    ],
-    "x_netkan_override": [
-        {
-            "version": "2.14.0.0",
-            "override": {
-                "ksp_version_min": "1.12.0",
-                "ksp_version_max": "1.12.90"
-            }
-        },
-        {
-            "version": "2.12.3.0",
-            "override": {
-                "ksp_version_min": "1.8.0",
-                "ksp_version_max": "1.12.90"
-            }
-        },
-        {
-            "version": "2.9.2.0",
-            "override": {
-                "ksp_version_min": "1.8.0",
-                "ksp_version_max": "1.9.90"
-            }
-        },
-        {
-            "version": "2.8.4.0",
-            "override": {
-                "ksp_version_min": "1.7.0",
-                "ksp_version_max": "1.7.90"
-            }
-        },
-        {
-            "version": "2.8.3.0",
-            "override": {
-                "ksp_version_min": "1.4.0",
-                "ksp_version_max": "1.6.90"
-            }
-        },
-        {
-            "version": "2.7.0.0",
-            "override": {
-                "ksp_version" : "1.3"
-            }
-        },
-        {
-            "version": "2.6.0.0",
-            "override": {
-                "ksp_version" : "1.2"
-            }
-        },
-        {
-            "version": "2.5.8.0",
-            "override": {
-                "ksp_version" : "1.1"
-            }
-        }
-    ]
-}
+identifier: MechJeb2
+name: MechJeb 2
+abstract: >-
+  Anatid Robotics and Multiversal Mechatronics proudly presents the first flight
+  assistant autopilot: MechJeb
+author:
+  - Sarbian
+  - lamont-granquist
+  - Anatid
+  - r4m0n
+$kref: '#/ckan/github/MuMech/MechJeb2'
+x_netkan_github:
+  prereleases: false
+ksp_version: 1.12
+license: GPL-3.0
+resources:
+  homepage: http://forum.kerbalspaceprogram.com/index.php?/topic/154834-*
+tags:
+  - plugin
+  - information
+  - control
+depends:
+  - name: ModuleManager
+x_netkan_override:
+  - version: 2.14.0.0
+    override:
+      ksp_version_min: 1.12.0
+      ksp_version_max: 1.12.90
+  - version: 2.12.3.0
+    override:
+      ksp_version_min: 1.8.0
+      ksp_version_max: 1.12.90
+  - version: 2.9.2.0
+    override:
+      ksp_version_min: 1.8.0
+      ksp_version_max: 1.9.90
+  - version: 2.8.4.0
+    override:
+      ksp_version_min: 1.7.0
+      ksp_version_max: 1.7.90
+  - version: 2.8.3.0
+    override:
+      ksp_version_min: 1.4.0
+      ksp_version_max: 1.6.90
+  - version: 2.7.0.0
+    override:
+      ksp_version: '1.3'
+  - version: 2.6.0.0
+    override:
+      ksp_version: '1.2'
+  - version: 2.5.8.0
+    override:
+      ksp_version: '1.1'

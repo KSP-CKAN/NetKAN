@@ -1,0 +1,13 @@
+identifier: MassRingAdder
+$kref: '#/ckan/github/Chitak985/mass-ring-adder'
+x_netkan_version_edit: ^v?(?<version>.+)$
+---
+identifier: MassRingAdder
+$kref: '#/ckan/spacedock/4322'
+tags:
+  - config
+  - planet-pack
+depends:
+  - name: ModuleManager
+  - name: Kopernicus
+  - name: KopernicusExpansionContinueder

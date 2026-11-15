@@ -1,0 +1,20 @@
+identifier: KerbalFX-ImpactPuffs
+name: KerbalFX - Impact Puffs
+abstract: >-
+  KerbalFX module for engine plume-ground dust puffs and touchdown bursts.
+description: >-
+  KerbalFX Impact Puffs adds engine plume-ground dust puffs for launch and
+  landing, plus one-shot touchdown bursts on harder landings.
+$kref: '#/ckan/github/bimo1d/KerbalFX/asset_match/^KerbalFX-ImpactPuffs-.*\.zip$'
+$vref: '#/ckan/ksp-avc'
+resources:
+  spacedock: https://spacedock.info/mod/4190/KerbalFX
+tags:
+  - plugin
+  - graphics
+depends:
+  - name: KerbalFX-Core
+  - name: KSPBurst
+install:
+  - find: KerbalFX
+    install_to: GameData

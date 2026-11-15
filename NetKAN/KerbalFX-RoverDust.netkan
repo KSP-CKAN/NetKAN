@@ -1,0 +1,18 @@
+identifier: KerbalFX-RoverDust
+name: KerbalFX - Rover Dust
+abstract: KerbalFX module for wheel-ground dust on rovers and wheeled craft.
+description: >-
+  KerbalFX Rover Dust adds wheel-ground dust effects driven by wheel contact,
+  speed, slip, lighting, and surface tint.
+$kref: '#/ckan/github/bimo1d/KerbalFX/asset_match/^KerbalFX-RoverDust-.*\.zip$'
+$vref: '#/ckan/ksp-avc'
+resources:
+  spacedock: https://spacedock.info/mod/4190/KerbalFX
+tags:
+  - plugin
+  - graphics
+depends:
+  - name: KerbalFX-Core
+install:
+  - find: KerbalFX
+    install_to: GameData

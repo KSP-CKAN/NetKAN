@@ -1,0 +1,30 @@
+identifier: ExoInstruments
+abstract: >-
+  An observational astronomy mod: real telescopes photographing planets, moons,
+  nebulae and galaxies onto real detector models, plus an exoplanet survey with
+  transit and radial-velocity pipelines against a real star catalog.
+description: >-
+  Adds a working observatory to KSP, alongside the stock science system rather
+  than in place of it. Photograph anything in the sky, from moons to galaxies,
+  through real named telescopes (a PlaneWave astrograph, the VLT, a launchable
+  space telescope) onto real detector models, and get FITS files that calibrate
+  and stack in real astronomy software. Or run an actual exoplanet survey:
+  select a real star from an exoplanet.eu-derived catalog, choose an instrument
+  suited to its brightness and detection method, and extract a signal from
+  simulated, photon-noise-limited data. Includes transit timing variations
+  (TTV), the Rossiter-McLaughlin effect, and a career-mode
+  instrument-acquisition economy. Everything works out of the box; the optional
+  sky data (Gaia star field, dust, galaxies and their images) is downloaded by
+  tools/get_sky_data_compact.py or tools/get_sky_data_complete.py, and is not
+  required.
+$kref: '#/ckan/github/batistitooo/ExoInstruments'
+$vref: '#/ckan/ksp-avc'
+license: restricted
+tags:
+  - science
+  - physics
+recommends:
+  - name: BetterTimeWarpCont
+  - name: EnvironmentalVisualEnhancements
+suggests:
+  - name: Spectra

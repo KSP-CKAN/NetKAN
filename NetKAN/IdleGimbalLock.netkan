@@ -1,0 +1,16 @@
+identifier: IdleGimbalLock
+name: Idle Gimbal Lock
+abstract: Engine gimbals stay neutral while their engine gives no thrust (no nozzle shaking under physics warp)
+author: Geny
+$kref: '#/ckan/github/genyk1p/IdleGimbalLock'
+$vref: '#/ckan/ksp-avc'
+license: MIT
+resources:
+  homepage: https://forum.kerbalspaceprogram.com/topic/231949-*
+tags:
+  - plugin
+  - physics
+  - control
+depends:
+  - name: Harmony2
+    min_version: 2.2.1.0

@@ -1,0 +1,12 @@
+identifier: LittlePrincePlanet
+$kref: '#/ckan/spacedock/4449'
+tags:
+  - config
+  - planet-pack
+depends:
+  - name: ModuleManager
+  - name: Kopernicus
+install:
+  - find: LittlePrince
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission

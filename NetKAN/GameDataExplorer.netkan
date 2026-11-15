@@ -1,0 +1,14 @@
+identifier: GameDataExplorer
+$kref: '#/ckan/github/linuxgurugamer/GameDataExplorer'
+$vref: '#/ckan/ksp-avc'
+---
+identifier: GameDataExplorer
+$kref: '#/ckan/spacedock/4654'
+$vref: '#/ckan/ksp-avc'
+tags:
+  - plugin
+install:
+  - find: GameDataExplorer
+    install_to: GameData
+    filter_regexp: \.pdb$
+x_via: Automated SpaceDock CKAN submission

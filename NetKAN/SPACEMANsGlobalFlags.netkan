@@ -1,0 +1,14 @@
+identifier: SPACEMANsGlobalFlags
+name: SPACEMAN's Global Flags
+$kref: '#/ckan/github/SPACEMAN9813/Spaceman-s-Global-Flags/asset_match/SPACEMAN.s-Global-Flags'
+license: Unlicense
+resources:
+  homepage: https://forum.kerbalspaceprogram.com/topic/230396-spaceman-s-global-flags/
+tags:
+  - flags
+  - graphics
+depends:
+  - name: ConformalDecals
+install:
+  - find: SGF
+    install_to: GameData

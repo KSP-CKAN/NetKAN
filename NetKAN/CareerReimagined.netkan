@@ -1,0 +1,15 @@
+identifier: CareerReimagined
+$kref: '#/ckan/spacedock/4249'
+x_netkan_force_v: true
+tags:
+  - career
+  - config
+  - plugin
+  - tech-tree
+depends:
+  - name: ModuleManager
+  - name: ContractConfigurator
+  - name: CustomBarnKit
+install:
+  - find: CareerR
+    install_to: GameData

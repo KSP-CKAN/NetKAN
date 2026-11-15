@@ -1,0 +1,14 @@
+identifier: ChemicalPropulsionSolids
+$kref: '#/ckan/github/CharleRoger/ChemicalPropulsion'
+---
+identifier: ChemicalPropulsionSolids
+name: Chemical Propulsion - Solids
+abstract: >-
+  An extension pack for Chemical Propulsion which
+  adds extra propellant options to solid rockets
+$kref: '#/ckan/spacedock/3866'
+tags:
+  - config
+install:
+  - find: ChemicalPropulsionSolids
+    install_to: GameData

@@ -1,0 +1,24 @@
+identifier: LTechContinued
+$kref: '#/ckan/github/linuxgurugamer/L-Tech'
+---
+identifier: LTechContinued
+$kref: '#/ckan/spacedock/227'
+$vref: '#/ckan/ksp-avc'
+x_netkan_epoch: 1
+tags:
+  - plugin
+  - parts
+  - science
+depends:
+  - name: ModuleManager
+  - name: ToolbarController
+  - name: SpaceTuxLibrary
+  - name: ClickThroughBlocker
+install:
+  - find: LTech
+    install_to: GameData
+x_netkan_override:
+  - version: v4.1
+    override:
+      conflicts:
+        - name: KEI

@@ -1,0 +1,12 @@
+identifier: JoolianKerbin
+$kref: '#/ckan/github/Stevu1646/JoolianKerbin'
+---
+identifier: JoolianKerbin
+$kref: '#/ckan/spacedock/4153'
+tags:
+  - config
+  - planet-pack
+depends:
+  - name: ModuleManager
+  - name: Kopernicus
+x_via: Automated SpaceDock CKAN submission

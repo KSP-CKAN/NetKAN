@@ -22,7 +22,7 @@ depends:
     min_version: '1.4'
   - name: ASETAvionics
     min_version: '2.0'
-recommends:
+suggests:
   - name: FAR
     min_version: 0.15.7.2
 install:

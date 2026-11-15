@@ -1,0 +1,15 @@
+identifier: GlowStripsUpdated
+$kref: '#/ckan/github/linuxgurugamer/GlowStrips'
+$vref: '#/ckan/ksp-avc'
+---
+identifier: GlowStripsUpdated
+$kref: '#/ckan/spacedock/4687'
+$vref: '#/ckan/ksp-avc'
+tags:
+  - parts
+  - plugin
+install:
+  - find: GlowStrips
+    install_to: GameData
+    filter_regexp: \.pdb$
+x_via: Automated SpaceDock CKAN submission

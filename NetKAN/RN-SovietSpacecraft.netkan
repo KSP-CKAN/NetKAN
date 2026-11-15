@@ -19,10 +19,6 @@
         {
             "find"      : "RN_Soyuz",
             "install_to": "GameData"
-        },
-        {
-            "file"      : "Ships/VAB",
-            "install_to": "Ships"
         }
     ],
     "conflicts"     : [

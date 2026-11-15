@@ -13,6 +13,7 @@ depends:
   - name: FerramAerospaceResearchContinued
 recommends:
   - name: WaypointManager
+  - name: Trajectories
 install:
   - find: kOS-Addons
     install_to: GameData

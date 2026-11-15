@@ -1,0 +1,18 @@
+identifier: KHsBetterMun
+$kref: '#/ckan/spacedock/4130'
+tags:
+  - config
+  - planet-pack
+depends:
+  - name: ModuleManager
+  - name: Kopernicus
+  - name: VertexMitchellNetravaliHeightMap
+suggests:
+  - name: ParallaxContinued
+conflicts:
+  - name: MRKI
+  - name: JNSQ
+  - name: TechosStockPlanetRevamp
+install:
+  - find: BetterMun
+    install_to: GameData

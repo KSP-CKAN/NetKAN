@@ -1,24 +1,18 @@
-{
-    "identifier":   "ControlLock",
-    "name":         "Control Lock",
-    "abstract":     "Lock KSP so that when entering text in a text field, you do not pass commands to your vessel.",
-    "author":       "Diazo",
-    "$kref":        "#/ckan/github/SirDiazo/ControlLock",
-    "license":      "Unlicense",
-    "ksp_version":  "1.1",
-    "resources": {
-        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/97829-*"
-    },
-    "tags": [
-        "plugin"
-    ],
-    "recommends": [
-        { "name": "Toolbar" }
-    ],
-    "install": [
-        {
-            "file":       "GameData/001ControlLock",
-            "install_to": "GameData"
-        }
-    ]
-}
+identifier: ControlLock
+name: Control Lock
+abstract: >-
+  Lock KSP so that when entering text in a text field, you do not pass commands
+  to your vessel.
+author: Diazo
+$kref: '#/ckan/github/SirDiazo/ControlLock'
+license: Unlicense
+ksp_version: '1.1'
+resources:
+  homepage: https://forum.kerbalspaceprogram.com/index.php?/topic/97829-*
+tags:
+  - plugin
+suggests:
+  - name: Toolbar
+install:
+  - file: GameData/001ControlLock
+    install_to: GameData

@@ -11,7 +11,6 @@ depends:
   - name: ModuleManager
   - name: B9PartSwitch
   - name: SterlingSystemsAgency
-  - name: WildBlueTools
 supports:
   - name: CryoTanks
   - name: ExtraPlanetaryLaunchpads

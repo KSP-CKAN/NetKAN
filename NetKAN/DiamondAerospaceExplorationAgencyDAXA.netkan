@@ -1,5 +1,6 @@
 identifier: DiamondAerospaceExplorationAgencyDAXA
 $kref: '#/ckan/spacedock/4022'
+license: restricted
 tags:
   - parts
 depends:
@@ -8,5 +9,5 @@ depends:
   - name: CommunityResourcePack
   - name: DeployableEngines
 install:
-  - find: DiamondAerospaceExploration
+  - find: DAXA
     install_to: GameData

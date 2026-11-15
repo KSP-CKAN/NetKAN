@@ -1,0 +1,11 @@
+identifier: OutbackPub
+$kref: '#/ckan/spacedock/4304'
+tags:
+  - buildings
+  - config
+depends:
+  - name: KerbalKonstructs
+install:
+  - find: Outback Pub
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission

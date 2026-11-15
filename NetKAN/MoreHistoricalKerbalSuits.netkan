@@ -1,0 +1,13 @@
+identifier: MoreHistoricalKerbalSuits
+$kref: '#/ckan/spacedock/4269'
+tags:
+  - parts
+  - suits
+  - crewed
+  - graphics
+license: restricted
+depends:
+  - name: Benjee10Suits
+install:
+  - find: KH759_Suits
+    install_to: GameData

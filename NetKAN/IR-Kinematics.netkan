@@ -1,0 +1,14 @@
+identifier: IR-Kinematics
+name: Infernal Robotics Next - Kinematics
+author: Rudolf Meier
+$kref: '#/ckan/github/meirumeiru/IR-Kinematics'
+$vref: '#/ckan/ksp-avc'
+tags:
+  - plugin
+depends:
+  - name: InfernalRoboticsNext
+recommends:
+  - name: IR-Canadarm
+install:
+  - file: GameData/IRKinematics
+    install_to: GameData

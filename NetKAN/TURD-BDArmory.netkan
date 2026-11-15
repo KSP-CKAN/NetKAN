@@ -10,7 +10,6 @@ tags:
 depends:
   - name: ModuleManager
   - name: TexturesUnlimited
-suggests:
   - name: BDArmory
 install:
   - find: TU_BD_Recolour

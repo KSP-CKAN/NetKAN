@@ -1,0 +1,8 @@
+identifier: HotReloadKSP
+author: steamroller
+$kref: '#/ckan/github/Phantomical/HotReloadKSP'
+x_netkan_version_edit: '^[vV]?(?<version>.+)$'
+$vref: '#/ckan/ksp-avc'
+tags:
+  - plugin
+  - convenience

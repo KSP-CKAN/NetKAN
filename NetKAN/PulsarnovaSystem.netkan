@@ -1,0 +1,18 @@
+identifier: PulsarnovaSystem
+$kref: '#/ckan/spacedock/4306'
+tags:
+  - config
+  - planet-pack
+depends:
+  - name: ModuleManager
+  - name: Kopernicus
+  - name: Scatterer
+  - name: ScaledDecorator
+  - name: KSPCommunityFixes
+  - name: KopernicusExpansionContinueder
+suggests:
+  - name: ParallaxContinued
+install:
+  - find: PulsarnovaSystem
+    install_to: GameData
+    filter: .gitignore

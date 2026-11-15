@@ -15,6 +15,7 @@ depends:
 recommends:
   - name: TweakScale
   - name: CrewManifest
+  - name: PatchManager
 install:
   - find: GameData/LLL
     install_to: GameData

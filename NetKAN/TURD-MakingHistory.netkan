@@ -10,6 +10,7 @@ tags:
 depends:
   - name: ModuleManager
   - name: TexturesUnlimited
+  - name: MakingHistory-DLC
 install:
   - find: TURD/TU_MH_AllInOne
     install_to: GameData/TURD

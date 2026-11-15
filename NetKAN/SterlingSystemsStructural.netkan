@@ -1,0 +1,14 @@
+identifier: SterlingSystemsStructural
+name: Sterling Structural
+abstract: The pieces that hold everything else up.
+$kref: '#/ckan/github/JadeOfMaar/SterlingSystems/asset_match/Structural'
+$vref: '#/ckan/ksp-avc'
+license: restricted
+tags:
+  - parts
+depends:
+  - name: ModuleManager
+  - name: SterlingSystemsAgency
+install:
+  - find: Structural
+    install_to: GameData/SterlingSystems

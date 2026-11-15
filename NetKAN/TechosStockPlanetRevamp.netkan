@@ -1,5 +1,9 @@
 identifier: TechosStockPlanetRevamp
-$kref: '#/ckan/spacedock/3455'
+$kref: '#/ckan/github/TechoTheSequel/Techos-stock-Planet-Revamp'
+x_netkan_version_edit: ^v?(?<version>.+)$
+x_netkan_epoch: 1
+x_netkan_github:
+  use_source_archive: true
 license: CC-BY-NC-SA
 tags:
   - planet-pack

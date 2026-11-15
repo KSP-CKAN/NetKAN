@@ -1,0 +1,8 @@
+identifier: DVDLogoLoadingScreen
+$kref: '#/ckan/spacedock/4267'
+tags:
+  - plugin
+  - graphics
+install:
+  - find: BouncyDVD
+    install_to: GameData

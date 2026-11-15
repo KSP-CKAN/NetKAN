@@ -1,0 +1,20 @@
+identifier: KerbalFX-AeroFX
+name: KerbalFX - AeroFX
+abstract: KerbalFX module for atmospheric ribbon condensation trails.
+description: >-
+  KerbalFX AeroFX adds atmospheric ribbon condensation trails for suitable
+  wing-like aircraft parts, driven by speed, air density, dynamic pressure,
+  and maneuver load.
+$kref: '#/ckan/github/bimo1d/KerbalFX/asset_match/^KerbalFX-AeroFX-.*\.zip$'
+$vref: '#/ckan/ksp-avc'
+resources:
+  spacedock: https://spacedock.info/mod/4190/KerbalFX
+tags:
+  - plugin
+  - graphics
+depends:
+  - name: KerbalFX-Core
+  - name: KSPBurst
+install:
+  - find: KerbalFX
+    install_to: GameData

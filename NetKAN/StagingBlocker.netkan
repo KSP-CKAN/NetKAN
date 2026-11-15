@@ -1,7 +1,6 @@
 identifier: StagingBlocker
 $kref: '#/ckan/github/AdmiralRadish/StagingBlocker'
-ksp_version_min: '1.8'
-ksp_version_max: '1.12'
+$vref: '#/ckan/ksp-avc'
 tags:
   - plugin
   - control

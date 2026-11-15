@@ -1,0 +1,21 @@
+identifier: CosmicSerenity-Atlas
+name: Cosmic Serenity - Atlas System
+abstract: A triple star system harboring mysterious planets and a strange object.
+$kref: '#/ckan/github/ProximaCentauri-star/Cosmic-Serenity/asset_match/Atlas'
+license: restricted
+tags:
+  - config
+  - planet-pack
+depends:
+  - name: ModuleManager
+  - name: Kopernicus
+  - name: VertexMitchellNetravaliHeightMap
+  - name: ScaledDecorator
+  - name: CosmicSerenity-Core
+  - name: VertexColorMapEmissive
+recommends:
+  - name: KopernicusExpansion
+  - name: Singularity
+install:
+  - find: CosmicSerenity
+    install_to: GameData

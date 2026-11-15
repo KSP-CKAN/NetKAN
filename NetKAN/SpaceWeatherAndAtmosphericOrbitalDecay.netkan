@@ -4,9 +4,12 @@ x_netkan_version_edit: ^v?(?<version>.+)$
 ---
 identifier: SpaceWeatherAndAtmosphericOrbitalDecay
 $kref: '#/ckan/spacedock/4116'
+$vref: '#/ckan/ksp-avc'
 tags:
   - plugin
   - physics
 depends:
   - name: ClickThroughBlocker
+recommends:
   - name: Kerbalism
+  - name: OrbitalKeeper

@@ -10,5 +10,9 @@ conflicts:
   - name: HDSunflareBlue
 depends:
   - name: ModuleManager
+  - name: Kopernicus
   - name: Scatterer-sunflare-default
   - name: Scatterer
+supports:
+  - name: CosmicSerenity-Core
+  - name: PromisedWorldsCore

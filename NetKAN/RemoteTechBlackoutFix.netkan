@@ -1,0 +1,16 @@
+identifier: RemoteTechBlackoutFix
+$kref: '#/ckan/github/NovaSpem/RemoteTechBlackoutFix'
+---
+identifier: RemoteTechBlackoutFix
+$kref: '#/ckan/spacedock/4362'
+$vref: '#/ckan/ksp-avc'
+tags:
+  - config
+  - plugin
+  - comms
+depends:
+  - name: RemoteTech
+  - name: Firefly
+install:
+  - find: RemoteTech BlackoutFix
+    install_to: GameData

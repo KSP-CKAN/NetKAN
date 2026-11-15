@@ -10,3 +10,4 @@ tags:
   - editor
 depends:
   - name: ClickThroughBlocker
+  - name: ToolbarController

@@ -1,0 +1,19 @@
+identifier: RingworldParallax
+x_netkan_version_edit: ^v?(?<version>.+)$
+$kref: '#/ckan/spacedock/4658'
+$vref: '#/ckan/ksp-avc'
+tags:
+- graphics
+- plugin
+depends:
+- name: NivenRingworld
+  min_version: 1.1.8
+- name: ParallaxContinued
+  min_version: 1.0.3
+- name: ParallaxContinued-Scatter-Textures
+  min_version: 1.0.0
+- name: KSPTextureLoader
+  min_version: 1.0.36
+install:
+- find: RingworldParallax
+  install_to: GameData

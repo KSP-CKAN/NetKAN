@@ -1,0 +1,11 @@
+identifier: SerializationFix
+author: steamroller
+$kref: '#/ckan/github/Phantomical/KSPSerializationFix'
+x_netkan_version_edit: '^[vV]?(?<version>.+)$'
+$vref: '#/ckan/ksp-avc'
+tags:
+  - plugin
+  - library
+install:
+  - find: 000_SerializationFix
+    install_to: GameData

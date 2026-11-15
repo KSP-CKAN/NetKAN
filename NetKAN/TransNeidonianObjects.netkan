@@ -1,0 +1,14 @@
+identifier: TransNeidonianObjects
+$kref: '#/ckan/spacedock/3446'
+tags:
+  - config
+  - planet-pack
+depends:
+  - name: ModuleManager
+  - name: Kopernicus
+  - name: VertexMitchellNetravaliHeightMap
+  - name: VertexHeightOblateAdvanced
+install:
+  - find: TransNeidonian
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission

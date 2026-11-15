@@ -1,0 +1,19 @@
+identifier: ConstantSpeedProp
+abstract: >-
+  Automatic constant-speed variable-pitch propeller governor for
+  Breaking Ground rotors
+description: >-
+  Adds an automatic constant-speed variable-pitch propeller
+  governor to KSP1 Breaking Ground robotic rotors. It adjusts propeller blade
+  pitch to maintain a target RPM while providing fast response and anti-stall
+  protection for DLC propeller aircraft, including counter-rotating and coaxial
+  setups.
+$kref: '#/ckan/github/AAA-driver-Yang/ConstantSpeedProp'
+x_netkan_version_edit: ^v?(?<version>.*)$
+$vref: '#/ckan/ksp-avc'
+tags:
+  - plugin
+  - control
+depends:
+  - name: ModuleManager
+  - name: BreakingGround-DLC

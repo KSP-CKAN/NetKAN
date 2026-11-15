@@ -1,0 +1,9 @@
+identifier: AutoScience
+$kref: '#/ckan/github/ef314159/AutoScience'
+x_netkan_version_edit: ^v?(?<version>.+)$
+---
+identifier: AutoScience
+$kref: '#/ckan/spacedock/4274'
+tags:
+  - plugin
+  - science

@@ -1,0 +1,26 @@
+identifier: Invitation
+name: Invitation
+abstract: >-
+  A fully linear, 7-chapter narrative rescue mod: track an unknown body, race a
+  ten-year deadline, and cross to a second star system across ranked worlds.
+  100% config/content — zero custom C#.
+$kref: '#/ckan/github/cy6253/ksp-Invitation'
+x_netkan_github:
+  use_source_archive: true
+$vref: '#/ckan/ksp-avc'
+license: MIT
+tags:
+  - config
+  - career
+conflicts:
+  - name: GrannusExpansionPack-Primary
+depends:
+  - name: ModuleManager
+  - name: Kopernicus
+  - name: GrannusExpansionPack
+  - name: ContractConfigurator
+  - name: SCANsat
+recommends:
+  - name: GrannusExpansionPack-CommNet
+  - name: WaypointManager
+  - name: BonVoyage

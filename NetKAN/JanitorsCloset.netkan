@@ -9,6 +9,8 @@ license: CC-BY-NC-4.0
 tags:
   - plugin
   - convenience
+suggests:
+  - name: KerbalChangelog
 recommends:
   - name: FilterExtensions
 depends:

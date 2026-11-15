@@ -1,0 +1,17 @@
+identifier: NivenRingworldInterstellarStandard
+$kref: '#/ckan/spacedock/4644'
+x_netkan_version_edit: ^v?(?<version>.+)$
+provides:
+  - NivenRingworldConfig
+tags:
+  - config
+depends:
+  - name: NivenRingworld
+    min_version: 1.1.7
+  - name: Kopernicus
+  - name: ModuleManager
+conflicts:
+  - name: NivenRingworldConfig
+install:
+  - find: GameData/NivenRingworldInterstellarStandard
+    install_to: GameData

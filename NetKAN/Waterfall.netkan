@@ -1,8 +1,14 @@
-{
-    "identifier"     : "Waterfall",
-    "$kref"         : "#/ckan/netkan/https://github.com/post-kerbin-mining-corporation/Waterfall/raw/master/CKAN/Waterfall.netkan",
-    "tags": [
-        "plugin",
-        "library"
-    ]
-}
+identifier: Waterfall
+name: Waterfall Core
+$kref: '#/ckan/github/KSPModStewards/Waterfall'
+$vref: '#/ckan/ksp-avc'
+abstract: >-
+  Core Waterfall plugin to drive engine effects, plus default effect templates.
+  Does nothing on its own, other mods supply compatibility.
+author: Chris Adderley (Nertea)
+license: CC-BY-NC-SA-4.0
+tags:
+  - plugin
+  - library
+depends:
+  - name: ModuleManager
