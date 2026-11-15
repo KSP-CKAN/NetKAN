@@ -1,0 +1,21 @@
+identifier: Parsek
+name: Parsek
+abstract: >-
+  Time-rewind mission recording and logistics. Record missions, return to an earlier time,
+  and watch them play out alongside you while you fly new ones.
+description: >-
+  Parsek changes a lot of KSP's internal systems (career, contracts, crew, saves, time warp,
+  vessels). Most other mods are not supported; see the Supported Mods list on GitHub.
+license: MIT
+$kref: '#/ckan/github/vl3c/Parsek/asset_match/^Parsek-v.+\.zip$'
+$vref: '#/ckan/ksp-avc'
+resources:
+  homepage: https://forum.kerbalspaceprogram.com/topic/229943-1125-parsek-public-beta-time-rewind-mission-recording-logistics/
+  repository: https://github.com/vl3c/Parsek
+tags:
+  - plugin
+  - convenience
+depends:
+  - name: Harmony2
+  - name: ClickThroughBlocker
+  - name: ToolbarController
