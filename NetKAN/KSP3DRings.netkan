@@ -1,0 +1,10 @@
+identifier: KSP3DRings
+$kref: '#/ckan/spacedock/4818'
+tags:
+  - config
+  - graphics
+  - plugin
+depends:
+  - name: ModuleManager
+  - name: Kopernicus
+x_via: Automated SpaceDock CKAN submission
