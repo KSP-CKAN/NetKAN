@@ -1,0 +1,22 @@
+identifier: WenchangSatelliteLaunchCenterContinued
+$kref: '#/ckan/spacedock/4827'
+license: CC-BY-SA-4.0
+author:
+  - IcecoveryStudio
+  - ladeng
+  - LJT0908
+tags:
+  - buildings
+  - config
+  - plugin
+depends:
+  - name: KerbalKonstructs
+conflicts:
+  - name: WenchangSatelliteLaunchCenter
+install:
+  - find: Kerwis
+    install_to: GameData
+  - find: WenchangFix
+    install_to: GameData
+    filter_regexp: \.cs$
+x_via: Automated SpaceDock CKAN submission
