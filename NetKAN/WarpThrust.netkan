@@ -1,0 +1,15 @@
+identifier: WarpThrust
+$kref: '#/ckan/github/Jay-NVB/WarpThrust'
+x_netkan_version_edit: '^[vV]?(?<version>.*)$'
+---
+identifier: WarpThrust
+$kref: '#/ckan/spacedock/3913'
+tags:
+  - config
+  - graphics
+depends:
+  - name: ModuleManager
+  - name: PersistentRotation
+install:
+  - find: WarpThrust-main
+    install_to: GameData
