@@ -1,0 +1,35 @@
+{
+  "spec_version": "v1.34",
+  "identifier": "GonogoKosUplink",
+  "$kref": "#/ckan/github/ksp-gonogo/gonogo-uplinks/asset_match/^GonogoKosUplink\\.zip$",
+  "x_netkan_github": {
+    "prereleases": false
+  },
+  "x_netkan_version_edit": {
+    "find": "^kos-[vV]?(?<version>.+)$",
+    "replace": "${version}"
+  },
+  "name": "Gonogo kOS Uplink",
+  "abstract": "Gonogo integration for kOS.",
+  "author": "jpeps",
+  "license": "GPL-3.0",
+  "release_status": "stable",
+  "ksp_version": "1.12",
+  "tags": [
+    "plugin",
+    "telemetry",
+    "control"
+  ],
+  "resources": {
+    "homepage": "https://ksp-gonogo.github.io/",
+    "repository": "https://github.com/ksp-gonogo/gonogo-uplinks",
+    "bugtracker": "https://github.com/ksp-gonogo/gonogo-uplinks/issues",
+    "manual": "https://github.com/ksp-gonogo/gonogo-uplinks/blob/main/uplinks/kos/README.md"
+  },
+  "install": [
+    {
+      "file": "GameData/GonogoKosUplink",
+      "install_to": "GameData"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "spec_version": "v1.34",
+  "identifier": "GonogoRealFuelsUplink",
+  "$kref": "#/ckan/github/ksp-gonogo/gonogo-uplinks/asset_match/^GonogoRealFuelsUplink\\.zip$",
+  "x_netkan_github": {
+    "prereleases": false
+  },
+  "x_netkan_version_edit": {
+    "find": "^realfuels-[vV]?(?<version>.+)$",
+    "replace": "${version}"
+  },
+  "name": "Gonogo RealFuels Uplink",
+  "abstract": "Gonogo integration for RealFuels.",
+  "author": "jpeps",
+  "license": "MIT",
+  "release_status": "stable",
+  "ksp_version": "1.12",
+  "tags": [
+    "plugin",
+    "telemetry",
+    "control"
+  ],
+  "resources": {
+    "homepage": "https://ksp-gonogo.github.io/",
+    "repository": "https://github.com/ksp-gonogo/gonogo-uplinks",
+    "bugtracker": "https://github.com/ksp-gonogo/gonogo-uplinks/issues",
+    "manual": "https://github.com/ksp-gonogo/gonogo-uplinks/blob/main/uplinks/realfuels/README.md"
+  },
+  "install": [
+    {
+      "file": "GameData/GonogoRealFuelsUplink",
+      "install_to": "GameData"
+    }
+  ]
+}

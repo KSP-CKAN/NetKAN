@@ -1,0 +1,35 @@
+{
+  "spec_version": "v1.34",
+  "identifier": "GonogoRp1Uplink",
+  "$kref": "#/ckan/github/ksp-gonogo/gonogo-uplinks/asset_match/^GonogoRp1Uplink\\.zip$",
+  "x_netkan_github": {
+    "prereleases": false
+  },
+  "x_netkan_version_edit": {
+    "find": "^rp1-[vV]?(?<version>.+)$",
+    "replace": "${version}"
+  },
+  "name": "Gonogo RP-1 Uplink",
+  "abstract": "Gonogo integration for RP-1.",
+  "author": "jpeps",
+  "license": "MIT",
+  "release_status": "stable",
+  "ksp_version": "1.12",
+  "tags": [
+    "plugin",
+    "telemetry",
+    "control"
+  ],
+  "resources": {
+    "homepage": "https://ksp-gonogo.github.io/",
+    "repository": "https://github.com/ksp-gonogo/gonogo-uplinks",
+    "bugtracker": "https://github.com/ksp-gonogo/gonogo-uplinks/issues",
+    "manual": "https://github.com/ksp-gonogo/gonogo-uplinks/blob/main/uplinks/rp1/README.md"
+  },
+  "install": [
+    {
+      "file": "GameData/GonogoRp1Uplink",
+      "install_to": "GameData"
+    }
+  ]
+}
