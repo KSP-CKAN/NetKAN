@@ -1,0 +1,12 @@
+identifier: JingtingLi
+$kref: '#/ckan/spacedock/4827'
+tags:
+  - buildings
+  - config
+  - plugin
+depends:
+  - name: KerbalKonstructs
+install:
+  - find: Optional
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
