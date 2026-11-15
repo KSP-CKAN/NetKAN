@@ -1,0 +1,33 @@
+identifier: GargantuaSystem
+name: Gargantua System
+abstract: >-
+  Interstellar-inspired planet pack: Gargantua black hole, Miller's giant waves,
+  Mann, Edmunds, Pantagruel and a pulsar.
+author: XiruTheRealBoss
+$kref: '#/ckan/github/XiruTheRealBoss/GargantuaSystem-KSP'
+$vref: '#/ckan/ksp-avc'
+license:
+  - MIT
+  - CC-BY-4.0
+resources:
+  homepage: https://github.com/XiruTheRealBoss/GargantuaSystem-KSP
+  repository: https://github.com/XiruTheRealBoss/GargantuaSystem-KSP
+  bugtracker: https://github.com/XiruTheRealBoss/GargantuaSystem-KSP/issues
+tags:
+  - planet-pack
+  - graphics
+depends:
+  - name: Kopernicus
+  - name: ModuleManager
+  - name: Singularity
+  - name: KopernicusExpansionContinueder
+  - name: Scatterer
+  - name: EnvironmentalVisualEnhancements
+  - name: ParallaxContinued
+  - name: ParallaxContinued-Terrain-Textures
+  - name: ParallaxContinued-Scatter-Textures
+  - name: SigmaReplacements-SkyBox
+install:
+  - find: GargantuaSystem
+    install_to: GameData
+    filter: Cache
