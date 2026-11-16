@@ -1,0 +1,8 @@
+identifier: DistantfrontiersVolumetricCloudsV5
+$kref: '#/ckan/spacedock/4698'
+tags:
+  - config
+install:
+  - find: Distantfrontiers_VolumetricClouds
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
