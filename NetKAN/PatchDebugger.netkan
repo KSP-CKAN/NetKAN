@@ -7,9 +7,7 @@ license: MIT
 $kref: '#/ckan/github/infradmin4KSP/PatchDebugger'
 $vref: '#/ckan/ksp-avc'
 resources:
-  bugtracker: https://github.com/infradmin4KSP/PatchDebugger/issues
   homepage: https://github.com/infradmin4KSP/PatchDebugger
-  repository: https://github.com/infradmin4KSP/PatchDebugger
 tags:
   - plugin
   - convenience
