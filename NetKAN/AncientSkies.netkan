@@ -7,6 +7,13 @@ tags:
 depends:
   - name: ModuleManager
   - name: Kopernicus
+  - name: Singularity
+  - name: TiltEm-Continued
+  - name: VertexHeightOblateAdvanced
+recommends:
+  - name: Scatterer
+  - name: ParallaxContinued
+  - name: Deferred
 install:
   - find: Pereni-1System
     install_to: GameData
