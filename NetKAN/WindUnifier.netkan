@@ -7,6 +7,11 @@ identifier: WindUnifier
 $kref: '#/ckan/spacedock/4790'
 $vref: '#/ckan/ksp-avc'
 tags:
-  - config
   - plugin
-x_via: Automated SpaceDock CKAN submission
+  - physics
+depends:
+  - name: Harmony2
+suggests:
+  - name: FerramAerospaceResearchContinued
+  - name: KerbalWeatherProject
+  - name: EnvironmentalVisualEnhancements
