@@ -1,0 +1,23 @@
+identifier: MinutemanIIILGM30CustomGUICustomExplosion
+$kref: '#/ckan/spacedock/4719'
+$vref: '#/ckan/ksp-avc'
+tags:
+  - buildings
+  - parts
+  - plugin
+depends:
+  - name: ModuleManager
+  - name: KerbalKonstructs
+install:
+  - find: ''
+    install_to: GameData
+    filter_regexp: \.craft$
+  - file: MinutemanIII_v1.0/Ships/VAB/Minuteman III MIRV.craft
+    install_to: Ships/VAB
+  - file: MinutemanIII_v1.0/Ships/VAB/Minuteman III RO MIRV.craft
+    install_to: Ships/VAB
+  - file: MinutemanIII_v1.0/Ships/VAB/Minuteman III RO Single RV.craft
+    install_to: Ships/VAB
+  - file: MinutemanIII_v1.0/Ships/VAB/Minuteman III Single RV.craft
+    install_to: Ships/VAB
+x_via: Automated SpaceDock CKAN submission
