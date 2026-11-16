@@ -1,5 +1,6 @@
 identifier: RealWindows
 $kref: '#/ckan/github/S4mpsa/ksp-real-windows'
+$vref: '#/ckan/ksp-avc'
 x_netkan_version_edit: ^v?(?<version>.+)$
 ---
 identifier: RealWindows
@@ -8,3 +9,6 @@ $vref: '#/ckan/ksp-avc'
 tags:
   - config
   - plugin
+  - graphics
+depends:
+  - name: ModuleManager
