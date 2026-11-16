@@ -1,11 +1,12 @@
 identifier: BetterRCSROConfig
 $kref: '#/ckan/github/gyxx-xc/BetterRCS_RO'
-x_netkan_version_edit: ^v?(?<version>.+)$
 $vref: '#/ckan/ksp-avc'
+x_netkan_version_edit: ^v?(?<version>.+)$
 ---
 identifier: BetterRCSROConfig
 $kref: '#/ckan/spacedock/4641'
 $vref: '#/ckan/ksp-avc'
+x_netkan_version_edit: ^v?(?<version>.+)$
 tags:
   - config
   - graphics
