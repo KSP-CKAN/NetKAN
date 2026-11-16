@@ -1,0 +1,18 @@
+identifier: ModularLaunchPads-CN
+name: Modular Launch Pads CN
+abstract: Simplified Chinese localization patch for Modular Launch Pads
+$kref: '#/ckan/github/starmatch666-droid/ModularLaunchPads-CN'
+license: MIT
+author:
+  - Cyber1j1e
+resources:
+  homepage: https://github.com/starmatch666-droid/ModularLaunchPads-CN
+tags:
+  - config
+  - localization
+depends:
+  - name: ModularLaunchPads
+  - name: ModuleManager
+install:
+  - find: MLP_CN
+    install_to: GameData

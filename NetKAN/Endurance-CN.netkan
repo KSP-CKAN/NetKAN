@@ -1,0 +1,18 @@
+identifier: Endurance-CN
+name: Endurance CN
+abstract: Simplified Chinese localization patch for the Endurance parts pack
+$kref: '#/ckan/github/starmatch666-droid/Endurance-CN'
+license: MIT
+author:
+  - Cyber1j1e
+resources:
+  homepage: https://github.com/starmatch666-droid/Endurance-CN
+tags:
+  - config
+  - localization
+depends:
+  - name: EnduranceSpaceExplorationSystem
+  - name: ModuleManager
+install:
+  - find: Endurance_CN
+    install_to: GameData
