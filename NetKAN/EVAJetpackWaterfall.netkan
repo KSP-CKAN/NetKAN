@@ -8,6 +8,6 @@ depends:
   - name: ModuleManager
   - name: Waterfall
 install:
-  - find: GreenStoneIndustry
-    install_to: GameData
+  - find: EVAJetpackWaterfall
+    install_to: GameData/GreenStoneIndustry
 x_via: Automated SpaceDock CKAN submission
