@@ -1,9 +1,11 @@
 identifier: KerbalDriftAgency
-$kref: '#/ckan/github/RodBot9999/Kerbal-Drift-Agency-Release'
+$kref: '#/ckan/github/RodBot9999/Kerbal-Drift-Agency-Release/asset_match/GameData'
 x_netkan_version_edit: ^v?(?<version>.+)$
 ---
 identifier: KerbalDriftAgency
 $kref: '#/ckan/spacedock/4784'
+x_netkan_version_edit: ^v?(?<version>.+)$
+license: restricted
 tags:
   - buildings
   - crewed
@@ -12,17 +14,16 @@ tags:
   - plugin
 depends:
   - name: ModuleManager
+  - name: Harmony2
+  - name: Shabby
+  - name: Resurfaced
+suggests:
   - name: KerbalKonstructs
 install:
-  - find: ''
+  - find: KDAVehicles
     install_to: GameData
-    filter_regexp: \.craft$
-  - file: GameData/KDAVehicles/Prebuilds/Lizard GT.craft
-    install_to: Ships/SPH
-  - file: GameData/KDAVehicles/Prebuilds/Rabbit X.craft
-    install_to: Ships/SPH
-  - file: Ships/SPH/Lizard GT - KDA.craft
-    install_to: Ships/SPH
-  - file: Ships/SPH/Rabbit Rally x KDA(finished).craft
-    install_to: Ships/SPH
+  - find: KDAGarageBuilding
+    install_to: GameData
+  - find: Ships/SPH
+    install_to: Ships
 x_via: Automated SpaceDock CKAN submission
