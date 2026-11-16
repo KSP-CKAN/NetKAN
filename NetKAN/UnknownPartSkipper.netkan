@@ -5,6 +5,4 @@ tags:
   - plugin
 depends:
   - name: Harmony2
-conflicts:
-  - name: UnknownPartSkipperForked
 x_via: Automated SpaceDock CKAN submission
