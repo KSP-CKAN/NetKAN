@@ -10,12 +10,8 @@ resources:
 tags:
   - config
   - localization
-comment: >-
-  Intentionally does not depend on Endurance: that mod is not on CKAN (NetKAN has no
-  Endurance identifier, only EnduranceReconfig and EnduranceSpaceExplorationSystem).
-  This is a text-only ModuleManager patch that activates when Endurance is installed
-  manually, and is a no-op otherwise.
 depends:
+  - name: EnduranceSpaceExplorationSystem
   - name: ModuleManager
 install:
   - find: Endurance_CN
