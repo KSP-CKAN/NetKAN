@@ -1,5 +1,4 @@
 {
-  "spec_version": "v1.34",
   "identifier": "GonogoActionGroupsExtendedUplink",
   "$kref": "#/ckan/github/ksp-gonogo/gonogo-uplinks/asset_match/^GonogoActionGroupsExtendedUplink\\.zip$",
   "x_netkan_github": {
@@ -13,22 +12,15 @@
   "abstract": "Gonogo integration for Action Groups Extended.",
   "author": "jpeps",
   "license": "MIT",
-  "release_status": "stable",
   "ksp_version": "1.12",
   "tags": [
     "plugin",
-    "telemetry",
+    "information",
     "control"
   ],
   "resources": {
     "homepage": "https://ksp-gonogo.github.io/",
     "repository": "https://github.com/ksp-gonogo/gonogo-uplinks",
     "bugtracker": "https://github.com/ksp-gonogo/gonogo-uplinks/issues"
-  },
-  "install": [
-    {
-      "file": "GameData/GonogoActionGroupsExtendedUplink",
-      "install_to": "GameData"
-    }
-  ]
+  }
 }

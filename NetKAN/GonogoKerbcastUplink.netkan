@@ -1,5 +1,4 @@
 {
-  "spec_version": "v1.34",
   "identifier": "GonogoKerbcastUplink",
   "$kref": "#/ckan/github/ksp-gonogo/gonogo-uplinks/asset_match/^GonogoKerbcastUplink\\.zip$",
   "x_netkan_github": {
@@ -13,11 +12,10 @@
   "abstract": "Gonogo integration for Kerbcast.",
   "author": "jpeps",
   "license": "MIT",
-  "release_status": "stable",
   "ksp_version": "1.12",
   "tags": [
     "plugin",
-    "telemetry",
+    "information",
     "control"
   ],
   "resources": {
@@ -25,11 +23,5 @@
     "repository": "https://github.com/ksp-gonogo/gonogo-uplinks",
     "bugtracker": "https://github.com/ksp-gonogo/gonogo-uplinks/issues",
     "manual": "https://github.com/ksp-gonogo/gonogo-uplinks/blob/main/uplinks/kerbcast/README.md"
-  },
-  "install": [
-    {
-      "file": "GameData/GonogoKerbcastUplink",
-      "install_to": "GameData"
-    }
-  ]
+  }
 }

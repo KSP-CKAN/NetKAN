@@ -1,5 +1,4 @@
 {
-  "spec_version": "v1.34",
   "identifier": "GonogoScansatUplink",
   "$kref": "#/ckan/github/ksp-gonogo/gonogo-uplinks/asset_match/^GonogoScansatUplink\\.zip$",
   "x_netkan_github": {
@@ -13,11 +12,10 @@
   "abstract": "Gonogo integration for SCANsat.",
   "author": "jpeps",
   "license": "GPL-3.0",
-  "release_status": "stable",
   "ksp_version": "1.12",
   "tags": [
     "plugin",
-    "telemetry",
+    "information",
     "control"
   ],
   "resources": {
@@ -25,11 +23,5 @@
     "repository": "https://github.com/ksp-gonogo/gonogo-uplinks",
     "bugtracker": "https://github.com/ksp-gonogo/gonogo-uplinks/issues",
     "manual": "https://github.com/ksp-gonogo/gonogo-uplinks/blob/main/uplinks/scansat/README.md"
-  },
-  "install": [
-    {
-      "file": "GameData/GonogoScansatUplink",
-      "install_to": "GameData"
-    }
-  ]
+  }
 }

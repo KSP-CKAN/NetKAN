@@ -1,5 +1,4 @@
 {
-  "spec_version": "v1.34",
   "identifier": "Gonogo",
   "$kref": "#/ckan/github/ksp-gonogo/gonogo/asset_match/^Gonogo-v.+\\.zip$",
   "$vref": "#/ckan/ksp-avc",
@@ -14,10 +13,9 @@
   "abstract": "Get rich telemetry from the API, or use the mission control app that supports multiplayer-focused station screens. Supports real light delay. Expansive mod support provided through the Uplink framework.",
   "author": "jpeps",
   "license": "MIT",
-  "release_status": "stable",
   "tags": [
     "plugin",
-    "telemetry",
+    "information",
     "control"
   ],
   "resources": {
@@ -29,10 +27,19 @@
   "depends": [
     { "name": "Harmony2" }
   ],
-  "install": [
-    {
-      "file": "GameData/Gonogo",
-      "install_to": "GameData"
-    }
+  "suggests": [
+    { "name": "GonogoActionGroupsExtendedUplink" },
+    { "name": "GonogoContractConfiguratorUplink" },
+    { "name": "GonogoFerramAerospaceResearchUplink" },
+    { "name": "GonogoKerbalismUplink" },
+    { "name": "GonogoKerbcastUplink" },
+    { "name": "GonogoKosUplink" },
+    { "name": "GonogoMechJebUplink" },
+    { "name": "GonogoPrincipiaUplink" },
+    { "name": "GonogoRealAntennasUplink" },
+    { "name": "GonogoRealFuelsUplink" },
+    { "name": "GonogoRp1Uplink" },
+    { "name": "GonogoScansatUplink" },
+    { "name": "GonogoTestFlightUplink" }
   ]
 }
