@@ -1,0 +1,19 @@
+identifier: VolumetricStellarFXForKSP
+$kref: '#/ckan/github/Vihaan2012-cmyk/Volumetric-Blackhole-Fx'
+x_netkan_version_edit: ^v?(?<version>.+)$
+$vref: '#/ckan/ksp-avc'
+---
+identifier: VolumetricStellarFXForKSP
+$kref: '#/ckan/spacedock/4713'
+$vref: '#/ckan/ksp-avc'
+tags:
+  - config
+  - planet-pack
+  - plugin
+depends:
+  - name: ModuleManager
+  - name: Kopernicus
+install:
+  - find: KSPVE
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
