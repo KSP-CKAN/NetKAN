@@ -3,10 +3,10 @@ $kref: '#/ckan/spacedock/4809'
 tags:
   - config
   - planet-pack
-  - plugin
 depends:
   - name: ModuleManager
   - name: Kopernicus
+  - name: KopernicusExpansion
   - name: Singularity
   - name: TiltEm-Continued
   - name: VertexHeightOblateAdvanced
@@ -17,4 +17,5 @@ recommends:
 install:
   - find: Pereni-1System
     install_to: GameData
+    filter_regexp: Patches/LoadingScreens/Sigma88LoadingScreens\.dll$
 x_via: Automated SpaceDock CKAN submission
