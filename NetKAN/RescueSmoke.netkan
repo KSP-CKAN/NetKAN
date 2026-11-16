@@ -9,6 +9,7 @@ $vref: '#/ckan/ksp-avc'
 tags:
   - config
   - plugin
+  - graphics
 depends:
   - name: ModuleManager
 x_via: Automated SpaceDock CKAN submission
