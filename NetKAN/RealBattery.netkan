@@ -1,4 +1,3 @@
-spec_version: v1.4
 identifier: RealBattery
 name: RealBattery Recharged
 abstract: Realistic battery simulation for KSP - storage (StoredCharge) and power (ElectricCharge), chemistry-based variants, wear, thermal effects and tech progression. Continuation of Blackliner's RealBattery.
@@ -12,8 +11,6 @@ author:
   - Rjoande
 resources:
   homepage: https://forum.kerbalspaceprogram.com/topic/227955-112x-realbattery-recharged-v2-realistic-battery-simulation/
-  repository: https://github.com/Rjoande/RealBattery
-  bugtracker: https://github.com/Rjoande/RealBattery/issues
 tags:
   - plugin
   - parts
