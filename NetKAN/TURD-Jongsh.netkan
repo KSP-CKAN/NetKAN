@@ -1,0 +1,17 @@
+identifier: TURD-Jongsh
+$kref: '#/ckan/github/jongshh/Jongsh-s-TURD-Misc-Patch'
+x_netkan_version_edit: ^v?(?<version>.+)$
+---
+identifier: TURD-Jongsh
+$kref: '#/ckan/spacedock/4776'
+x_netkan_version_edit: ^v?(?<version>.+)$
+tags:
+  - config
+  - graphics
+depends:
+  - name: ModuleManager
+  - name: TexturesUnlimited
+install:
+  - find: TURD/TU_Jongsh_Recolour
+    install_to: GameData/TURD
+x_via: Automated SpaceDock CKAN submission
