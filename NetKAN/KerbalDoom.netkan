@@ -1,11 +1,11 @@
-identifier: KerbalDOOM
+identifier: KerbalDoom
 $kref: '#/ckan/spacedock/4808'
 tags:
   - parts
   - plugin
+  - first-person
+  - stock-inventory
+  - combat
 depends:
   - name: ModuleManager
-install:
-  - find: KerbalDoom
-    install_to: GameData
 x_via: Automated SpaceDock CKAN submission
