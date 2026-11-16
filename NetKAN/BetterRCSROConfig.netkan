@@ -8,8 +8,14 @@ $kref: '#/ckan/spacedock/4641'
 $vref: '#/ckan/ksp-avc'
 tags:
   - config
+  - graphics
 depends:
   - name: ModuleManager
+  - name: RealismOverhaul
+  - name: BetterRCS
+  - name: Waterfall
+recommends:
+  - name: B9PartSwitch
 install:
   - find: BetterRCS_RO
     install_to: GameData
