@@ -1,0 +1,17 @@
+identifier: XenobiologyMod
+$kref: '#/ckan/github/GrandAdmiralCrunch/XenobiologyMod'
+x_netkan_version_edit: ^v?(?<version>.+)$
+$vref: '#/ckan/ksp-avc'
+---
+identifier: XenobiologyMod
+$kref: '#/ckan/spacedock/4765'
+$vref: '#/ckan/ksp-avc'
+tags:
+  - parts
+  - plugin
+depends:
+  - name: ModuleManager
+install:
+  - find: Xenobiology
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
