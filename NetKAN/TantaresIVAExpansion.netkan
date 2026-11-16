@@ -6,14 +6,13 @@ $vref: '#/ckan/ksp-avc'
 license:
   - MIT
   - CC-BY-NC-SA-3.0
-resources:
-  homepage: https://forum.kerbalspaceprogram.com/topic/228073-112x-tantares-iva-expansion-new-internals-for-soyuz-progress-and-miriss/
 tags:
   - config
   - crewed
+  - first-person
 depends:
   - name: ModuleManager
-  - name: Tantares
+  - name: NewTantares
   - name: ASETProps
   - name: AvionicsSystems
   - name: FreeIva
