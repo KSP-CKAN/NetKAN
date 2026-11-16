@@ -13,15 +13,7 @@ license:
 $kref: "#/ckan/github/adamhuston/kerbalspacenecoarc"
 $vref: "#/ckan/ksp-avc"
 
-resources:
-  homepage: https://github.com/adamhuston/kerbalspacenecoarc
-  repository: https://github.com/adamhuston/kerbalspacenecoarc
-  bugtracker: https://github.com/adamhuston/kerbalspacenecoarc/issues
-
 tags:
-  - parts
+  - plugin
+  - graphics
   - crewed
-
-install:
-  - file: GameData/KerbalSpaceNecoArc
-    install_to: GameData
