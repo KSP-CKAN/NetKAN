@@ -12,4 +12,6 @@ tags:
   - graphics
 depends:
   - name: ModuleManager
+suggests:
+  - name: FerramAerospaceResearchContinued
 x_via: Automated SpaceDock CKAN submission
