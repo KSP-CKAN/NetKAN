@@ -2,10 +2,12 @@ identifier: RealAntennaTrackingStationExtension
 $kref: '#/ckan/spacedock/4697'
 tags:
   - config
-  - planet-pack
+  - comms
 depends:
   - name: ModuleManager
   - name: Kopernicus
+  - name: RealismOverhaul
+  - name: RealAntennas
 install:
   - find: RealAntennaTSExtension
     install_to: GameData
