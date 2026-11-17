@@ -1,0 +1,9 @@
+identifier: RAMTRIM
+$kref: '#/ckan/spacedock/4816'
+tags:
+  - config
+  - plugin
+install:
+  - find: RamTrim
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
