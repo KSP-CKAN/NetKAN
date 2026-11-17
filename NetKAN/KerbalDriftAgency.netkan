@@ -1,0 +1,29 @@
+identifier: KerbalDriftAgency
+$kref: '#/ckan/github/RodBot9999/Kerbal-Drift-Agency-Release/asset_match/GameData'
+x_netkan_version_edit: ^v?(?<version>.+)$
+---
+identifier: KerbalDriftAgency
+$kref: '#/ckan/spacedock/4784'
+x_netkan_version_edit: ^v?(?<version>.+)$
+license: restricted
+tags:
+  - buildings
+  - crewed
+  - first-person
+  - parts
+  - plugin
+depends:
+  - name: ModuleManager
+  - name: Harmony2
+  - name: Shabby
+  - name: Resurfaced
+suggests:
+  - name: KerbalKonstructs
+install:
+  - find: KDAVehicles
+    install_to: GameData
+  - find: KDAGarageBuilding
+    install_to: GameData
+  - find: Ships/SPH
+    install_to: Ships
+x_via: Automated SpaceDock CKAN submission
