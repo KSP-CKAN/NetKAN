@@ -1,5 +1,6 @@
 identifier: KAESAStarCraft
 $kref: '#/ckan/github/spaceedavzz/KAESA-StarCraft'
+x_netkan_version_edit: ^Beta-?(?<version>.+)$
 ---
 identifier: KAESAStarCraft
 $kref: '#/ckan/spacedock/4848'
