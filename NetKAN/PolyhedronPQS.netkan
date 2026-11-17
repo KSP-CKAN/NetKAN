@@ -2,7 +2,13 @@ identifier: PolyhedronPQS
 $kref: '#/ckan/spacedock/4793'
 tags:
   - plugin
+  - config
+resources:
+  homepage: https://spacedock.info/mod/4793/PolyhedronPQS
+  spacedock: https://spacedock.info/mod/4793/PolyhedronPQS
+  repository: https://github.com/HoustonsProblem/PolyhedronPQS
 depends:
   - name: Kopernicus
   - name: Harmony2
+  - name: ModuleManager
 x_via: Automated SpaceDock CKAN submission
