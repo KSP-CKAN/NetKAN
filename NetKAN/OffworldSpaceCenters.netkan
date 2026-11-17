@@ -1,0 +1,12 @@
+identifier: OffworldSpaceCenters
+$kref: '#/ckan/spacedock/4662'
+$vref: '#/ckan/ksp-avc'
+tags:
+  - plugin
+  - buildings
+depends:
+  - name: ModuleManager
+  - name: KerbalKonstructs
+    min_version: v1.12.3.0
+  - name: Harmony2
+x_via: Automated SpaceDock CKAN submission

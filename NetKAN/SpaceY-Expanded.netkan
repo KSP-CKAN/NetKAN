@@ -12,6 +12,7 @@ conflicts:
   - name: SpaceY-Corp
 recommends:
   - name: InterstellarFuelSwitch-Core
+  - name: B9PartSwitch
 install:
   - find: SpaceY/SpaceYExpanded
     install_to: GameData/SpaceY

@@ -1,0 +1,9 @@
+identifier: QuestionableEngineering
+$kref: '#/ckan/spacedock/4814'
+tags:
+  - plugin
+  - editor
+install:
+  - find: Questionable Engineering
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission

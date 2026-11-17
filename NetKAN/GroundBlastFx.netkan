@@ -9,4 +9,7 @@ $vref: '#/ckan/ksp-avc'
 tags:
   - config
   - plugin
+install:
+  - find: Volumetric Ground FX
+    install_to: GameData
 x_via: Automated SpaceDock CKAN submission

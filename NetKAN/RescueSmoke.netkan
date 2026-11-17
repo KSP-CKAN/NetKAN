@@ -1,0 +1,17 @@
+identifier: RescueSmoke
+$kref: '#/ckan/github/ThreeMACH/RescueSmoke'
+x_netkan_version_edit: ^v?(?<version>.+)$
+$vref: '#/ckan/ksp-avc'
+---
+identifier: RescueSmoke
+$kref: '#/ckan/spacedock/4789'
+$vref: '#/ckan/ksp-avc'
+tags:
+  - config
+  - plugin
+  - graphics
+depends:
+  - name: ModuleManager
+suggests:
+  - name: FerramAerospaceResearchContinued
+x_via: Automated SpaceDock CKAN submission

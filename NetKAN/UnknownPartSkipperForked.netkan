@@ -1,0 +1,18 @@
+identifier: UnknownPartSkipperForked
+name: Unknown Part Skipper Forked
+$kref: '#/ckan/spacedock/4657'
+$vref: '#/ckan/ksp-avc'
+tags:
+  - parts
+  - plugin
+resources:
+  repository: https://github.com/javapythonsean-rgb/UnknownPartSkipper
+depends:
+  - name: ModuleManager
+  - name: Harmony2
+conflicts:
+  - name: UnknownPartSkipper
+install:
+  - find: UnknownPartSkipper
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission

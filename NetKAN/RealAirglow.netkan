@@ -1,0 +1,17 @@
+identifier: RealAirglow
+$kref: '#/ckan/github/Beullig07/RealAirglow'
+x_netkan_version_edit: ^v?(?<version>.+)$
+---
+identifier: RealAirglow
+$kref: '#/ckan/spacedock/4670'
+x_netkan_version_edit: ^v?(?<version>.+)$
+license:
+  - MIT
+  - CC-BY-NC-SA-4.0
+tags:
+  - config
+  - plugin
+  - graphics
+recommends:
+  - name: RealSolarSystem
+x_via: Automated SpaceDock CKAN submission

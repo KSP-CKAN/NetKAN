@@ -1,0 +1,13 @@
+identifier: ParallelTriCouplers
+$kref: '#/ckan/spacedock/4721'
+license:
+  - MIT
+  - CC-BY-SA-4.0
+tags:
+  - parts
+depends:
+  - name: ModuleManager
+install:
+  - file: AcelAerospatiale
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
