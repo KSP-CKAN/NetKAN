@@ -5,7 +5,4 @@ tags:
   - config
 depends:
   - name: KerbalKonstructs
-install:
-  - find: KolonyInfrastructure v-3
-    install_to: GameData
 x_via: Automated SpaceDock CKAN submission
