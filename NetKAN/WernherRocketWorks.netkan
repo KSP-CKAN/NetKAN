@@ -1,0 +1,12 @@
+identifier: WernherRocketWorks
+$kref: '#/ckan/spacedock/4788'
+tags:
+  - parts
+  - plugin
+depends:
+  - name: ModuleManager
+install:
+  - find: Wernher
+    install_to: GameData
+    filter_regexp: \.pdb$
+x_via: Automated SpaceDock CKAN submission
