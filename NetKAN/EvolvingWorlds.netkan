@@ -1,0 +1,11 @@
+spec_version: v1.34
+identifier: EvolvingWorlds
+$kref: '#/ckan/github/clouds-123-droid/Evolving-Worlds'
+ksp_version: '1.12.5'
+license: MIT
+tags:
+  - plugin
+install:
+  - find: EvolvingWorlds
+    install_to: GameData
+    filter: CKAN
