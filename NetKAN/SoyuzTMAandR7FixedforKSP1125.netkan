@@ -1,0 +1,18 @@
+identifier: SoyuzTMAandR7FixedforKSP1125
+$kref: '#/ckan/spacedock/4846'
+$vref: '#/ckan/ksp-avc'
+tags:
+  - crewed
+  - first-person
+  - parts
+depends:
+  - name: ModuleManager
+install:
+  - find: ''
+    install_to: GameData
+    filter_regexp: \.craft$
+  - file: VAB\PROGRESS.craft
+    install_to: Ships/VAB
+  - file: VAB\SOYUZ.craft
+    install_to: Ships/VAB
+x_via: Automated SpaceDock CKAN submission
