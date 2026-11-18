@@ -1,0 +1,25 @@
+identifier: MarsScienceLab
+name: Mars Science Lab
+abstract: >-
+  The 2012 Mars Science Laboratory at 1:1 - cruise stage, aeroshell, Sky Crane
+  and the Curiosity rover, with automatic EDL, rover science and career contracts.
+$kref: '#/ckan/github/Polsct/MarsScienceLab'
+$vref: '#/ckan/ksp-avc'
+license: MIT
+tags:
+  - parts
+  - plugin
+  - science
+depends:
+  - name: ModuleManager
+  - name: TexturesUnlimited
+suggests:
+  - name: RealChute
+  - name: FerramAerospaceResearchContinued
+  - name: Waterfall
+  - name: ContractConfigurator
+install:
+  - file: GameData/MarsScienceLab
+    install_to: GameData
+  - file: Ships/VAB
+    install_to: Ships
