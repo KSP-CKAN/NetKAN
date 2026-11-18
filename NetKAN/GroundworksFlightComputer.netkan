@@ -1,0 +1,24 @@
+{
+  "identifier": "GroundworksFlightComputer",
+  "name": "Groundworks Flight Computer",
+  "abstract": "Standalone attitude, launch, maneuver and powered-landing guidance with flight tools.",
+  "author": "Groundworks contributors",
+  "$kref": "#/ckan/github/harry-davison-bulven/groundworks-flight-computer/asset_match/^GroundworksFlightComputer-[0-9].*\\.zip$",
+  "license": "MIT",
+  "ksp_version": "1.12.5",
+  "release_status": "development",
+  "resources": {
+    "homepage": "https://github.com/harry-davison-bulven/groundworks-flight-computer",
+    "repository": "https://github.com/harry-davison-bulven/groundworks-flight-computer",
+    "bugtracker": "https://github.com/harry-davison-bulven/groundworks-flight-computer/issues"
+  },
+  "tags": [
+    "plugin"
+  ],
+  "install": [
+    {
+      "file": "GameData/GroundworksFlightComputer",
+      "install_to": "GameData"
+    }
+  ]
+}
