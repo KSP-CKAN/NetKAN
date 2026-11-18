@@ -1,27 +1,21 @@
-{
-  "identifier": "GonogoFerramAerospaceResearchUplink",
-  "$kref": "#/ckan/github/ksp-gonogo/gonogo-uplinks/asset_match/^GonogoFerramAerospaceResearchUplink\\.zip$",
-  "x_netkan_github": {
-    "prereleases": false
-  },
-  "x_netkan_version_edit": {
-    "find": "^aero-[vV]?(?<version>.+)$",
-    "replace": "${version}"
-  },
-  "name": "Gonogo Ferram Aerospace Research Uplink",
-  "abstract": "Gonogo integration for Ferram Aerospace Research.",
-  "author": "jpeps",
-  "license": "MIT",
-  "ksp_version": "1.12",
-  "tags": [
-    "plugin",
-    "information",
-    "control"
-  ],
-  "resources": {
-    "homepage": "https://ksp-gonogo.github.io/",
-    "repository": "https://github.com/ksp-gonogo/gonogo-uplinks",
-    "bugtracker": "https://github.com/ksp-gonogo/gonogo-uplinks/issues",
-    "manual": "https://github.com/ksp-gonogo/gonogo-uplinks/blob/main/uplinks/ferramaerospaceresearch/README.md"
-  }
-}
+identifier: GonogoFerramAerospaceResearchUplink
+$kref: '#/ckan/github/ksp-gonogo/gonogo-uplinks/asset_match/^GonogoFerramAerospaceResearchUplink\.zip$'
+x_netkan_github:
+  prereleases: false
+x_netkan_version_edit:
+  find: ^aero-[vV]?(?<version>.+)$
+  replace: ${version}
+name: Gonogo Ferram Aerospace Research Uplink
+abstract: Gonogo integration for Ferram Aerospace Research.
+author: jpeps
+license: MIT
+ksp_version: '1.12'
+tags:
+  - plugin
+  - information
+  - control
+resources:
+  homepage: https://ksp-gonogo.github.io/
+  repository: https://github.com/ksp-gonogo/gonogo-uplinks
+  bugtracker: https://github.com/ksp-gonogo/gonogo-uplinks/issues
+  manual: https://github.com/ksp-gonogo/gonogo-uplinks/blob/main/uplinks/ferramaerospaceresearch/README.md

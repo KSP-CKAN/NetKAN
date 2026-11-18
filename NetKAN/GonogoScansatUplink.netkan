@@ -1,27 +1,21 @@
-{
-  "identifier": "GonogoScansatUplink",
-  "$kref": "#/ckan/github/ksp-gonogo/gonogo-uplinks/asset_match/^GonogoScansatUplink\\.zip$",
-  "x_netkan_github": {
-    "prereleases": false
-  },
-  "x_netkan_version_edit": {
-    "find": "^scansat-[vV]?(?<version>.+)$",
-    "replace": "${version}"
-  },
-  "name": "Gonogo SCANsat Uplink",
-  "abstract": "Gonogo integration for SCANsat.",
-  "author": "jpeps",
-  "license": "GPL-3.0",
-  "ksp_version": "1.12",
-  "tags": [
-    "plugin",
-    "information",
-    "control"
-  ],
-  "resources": {
-    "homepage": "https://ksp-gonogo.github.io/",
-    "repository": "https://github.com/ksp-gonogo/gonogo-uplinks",
-    "bugtracker": "https://github.com/ksp-gonogo/gonogo-uplinks/issues",
-    "manual": "https://github.com/ksp-gonogo/gonogo-uplinks/blob/main/uplinks/scansat/README.md"
-  }
-}
+identifier: GonogoScansatUplink
+$kref: '#/ckan/github/ksp-gonogo/gonogo-uplinks/asset_match/^GonogoScansatUplink\.zip$'
+x_netkan_github:
+  prereleases: false
+x_netkan_version_edit:
+  find: ^scansat-[vV]?(?<version>.+)$
+  replace: ${version}
+name: Gonogo SCANsat Uplink
+abstract: Gonogo integration for SCANsat.
+author: jpeps
+license: GPL-3.0
+ksp_version: '1.12'
+tags:
+  - plugin
+  - information
+  - control
+resources:
+  homepage: https://ksp-gonogo.github.io/
+  repository: https://github.com/ksp-gonogo/gonogo-uplinks
+  bugtracker: https://github.com/ksp-gonogo/gonogo-uplinks/issues
+  manual: https://github.com/ksp-gonogo/gonogo-uplinks/blob/main/uplinks/scansat/README.md

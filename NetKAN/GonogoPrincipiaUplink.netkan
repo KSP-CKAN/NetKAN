@@ -1,27 +1,21 @@
-{
-  "identifier": "GonogoPrincipiaUplink",
-  "$kref": "#/ckan/github/ksp-gonogo/gonogo-uplinks/asset_match/^GonogoPrincipiaUplink\\.zip$",
-  "x_netkan_github": {
-    "prereleases": false
-  },
-  "x_netkan_version_edit": {
-    "find": "^principia-[vV]?(?<version>.+)$",
-    "replace": "${version}"
-  },
-  "name": "Gonogo Principia Uplink",
-  "abstract": "Gonogo integration for Principia. Principia is not on CKAN, so install it yourself from its own releases.",
-  "author": "jpeps",
-  "license": "MIT",
-  "ksp_version": "1.12",
-  "tags": [
-    "plugin",
-    "information",
-    "control"
-  ],
-  "resources": {
-    "homepage": "https://ksp-gonogo.github.io/",
-    "repository": "https://github.com/ksp-gonogo/gonogo-uplinks",
-    "bugtracker": "https://github.com/ksp-gonogo/gonogo-uplinks/issues",
-    "manual": "https://github.com/ksp-gonogo/gonogo-uplinks/blob/main/uplinks/principia/README.md"
-  }
-}
+identifier: GonogoPrincipiaUplink
+$kref: '#/ckan/github/ksp-gonogo/gonogo-uplinks/asset_match/^GonogoPrincipiaUplink\.zip$'
+x_netkan_github:
+  prereleases: false
+x_netkan_version_edit:
+  find: ^principia-[vV]?(?<version>.+)$
+  replace: ${version}
+name: Gonogo Principia Uplink
+abstract: Gonogo integration for Principia. Principia is not on CKAN, so install it yourself from its own releases.
+author: jpeps
+license: MIT
+ksp_version: '1.12'
+tags:
+  - plugin
+  - information
+  - control
+resources:
+  homepage: https://ksp-gonogo.github.io/
+  repository: https://github.com/ksp-gonogo/gonogo-uplinks
+  bugtracker: https://github.com/ksp-gonogo/gonogo-uplinks/issues
+  manual: https://github.com/ksp-gonogo/gonogo-uplinks/blob/main/uplinks/principia/README.md

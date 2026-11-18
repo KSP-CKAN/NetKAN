@@ -1,45 +1,37 @@
-{
-  "identifier": "Gonogo",
-  "$kref": "#/ckan/github/ksp-gonogo/gonogo/asset_match/^Gonogo-v.+\\.zip$",
-  "$vref": "#/ckan/ksp-avc",
-  "x_netkan_github": {
-    "prereleases": false
-  },
-  "x_netkan_version_edit": {
-    "find": "^[vV]?(?<version>.+)$",
-    "replace": "${version}"
-  },
-  "name": "Gonogo",
-  "abstract": "Get rich telemetry from the API, or use the mission control app that supports multiplayer-focused station screens. Supports real light delay. Expansive mod support provided through the Uplink framework.",
-  "author": "jpeps",
-  "license": "MIT",
-  "tags": [
-    "plugin",
-    "information",
-    "control"
-  ],
-  "resources": {
-    "homepage": "https://ksp-gonogo.github.io/",
-    "repository": "https://github.com/ksp-gonogo/gonogo",
-    "bugtracker": "https://github.com/ksp-gonogo/gonogo/issues",
-    "manual": "https://github.com/ksp-gonogo/gonogo/blob/main/docs/KSP-SETUP.md"
-  },
-  "depends": [
-    { "name": "Harmony2" }
-  ],
-  "suggests": [
-    { "name": "GonogoActionGroupsExtendedUplink" },
-    { "name": "GonogoContractConfiguratorUplink" },
-    { "name": "GonogoFerramAerospaceResearchUplink" },
-    { "name": "GonogoKerbalismUplink" },
-    { "name": "GonogoKerbcastUplink" },
-    { "name": "GonogoKosUplink" },
-    { "name": "GonogoMechJebUplink" },
-    { "name": "GonogoPrincipiaUplink" },
-    { "name": "GonogoRealAntennasUplink" },
-    { "name": "GonogoRealFuelsUplink" },
-    { "name": "GonogoRp1Uplink" },
-    { "name": "GonogoScansatUplink" },
-    { "name": "GonogoTestFlightUplink" }
-  ]
-}
+identifier: Gonogo
+$kref: '#/ckan/github/ksp-gonogo/gonogo/asset_match/^Gonogo-v.+\.zip$'
+$vref: '#/ckan/ksp-avc'
+x_netkan_github:
+  prereleases: false
+x_netkan_version_edit:
+  find: ^[vV]?(?<version>.+)$
+  replace: ${version}
+name: Gonogo
+abstract: Get rich telemetry from the API, or use the mission control app that supports multiplayer-focused station screens. Supports real light delay. Expansive mod support provided through the Uplink framework.
+author: jpeps
+license: MIT
+tags:
+  - plugin
+  - information
+  - control
+resources:
+  homepage: https://ksp-gonogo.github.io/
+  repository: https://github.com/ksp-gonogo/gonogo
+  bugtracker: https://github.com/ksp-gonogo/gonogo/issues
+  manual: https://github.com/ksp-gonogo/gonogo/blob/main/docs/KSP-SETUP.md
+depends:
+  - name: Harmony2
+suggests:
+  - name: GonogoActionGroupsExtendedUplink
+  - name: GonogoContractConfiguratorUplink
+  - name: GonogoFerramAerospaceResearchUplink
+  - name: GonogoKerbalismUplink
+  - name: GonogoKerbcastUplink
+  - name: GonogoKosUplink
+  - name: GonogoMechJebUplink
+  - name: GonogoPrincipiaUplink
+  - name: GonogoRealAntennasUplink
+  - name: GonogoRealFuelsUplink
+  - name: GonogoRp1Uplink
+  - name: GonogoScansatUplink
+  - name: GonogoTestFlightUplink
