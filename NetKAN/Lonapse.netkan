@@ -13,5 +13,7 @@ tags:
   - plugin
   - sound
   - crewed
+depends:
+  - name: ModuleManager
 conflicts:
   - name: Chatterer
