@@ -1,0 +1,48 @@
+# Unfreeze of Asclepius for the KSP 1.12.x / v5.1.0 release.
+# Leave Asclepius-clouds and ContractConfigurator-Asclepius frozen — those
+# optional packs are not in the KSP 1.12 zip (no BoulderCo/ or ContractPacks/).
+#
+# Visual-stack note:
+#   The sandstorm/atmosphere configs are :NEEDS-gated and work with EVE-Redux
+#   (CKAN identifier EnvironmentalVisualEnhancements) and Scatterer.
+#   They are also written for Blackrack's paid True Volumetric Clouds V5, which
+#   is NOT on CKAN and bundles its own EVE-Redux + Scatterer. Recommending or
+#   even suggesting the CKAN EVE/Scatterer modules would auto-offer (or, for
+#   recommends, auto-install) copies that conflict with a V5 install.
+#   Those identifiers are intentionally omitted. Deferred and Shabby are free
+#   and on CKAN; Deferred already depends on Shabby, so only Deferred is
+#   suggested (not recommended). Parallax / ParallaxContinued is not part of
+#   this release.
+#
+# Keep x_netkan_epoch: 2 so the new release versions as 2:v5.1.0 (> 2:v5.0).
+# $vref reads GameData/Asclepius/Asclepius.version from the v5.1.0 GitHub
+# release zip (KSP 1.12.0–1.12.99).
+identifier: Asclepius
+name: Asclepius
+abstract: >-
+  A Kopernicus planet and its moon Kruel — an SSTO playground for KSP 1.12.x.
+  Optional volumetric sandstorms and atmosphere are included as configs only;
+  Blackrack V5 (paid, not on CKAN) or EVE-Redux and Scatterer are not bundled.
+author: MrChumley
+$kref: '#/ckan/github/MrChumley/Asclepius/asset_match/^Asclepius.*\.zip$'
+$vref: '#/ckan/ksp-avc'
+x_netkan_epoch: 2
+license: CC0
+resources:
+  homepage: https://forum.kerbalspaceprogram.com/index.php?/topic/113949-*
+  repository: https://github.com/MrChumley/Asclepius
+tags:
+  - config
+  - planet-pack
+depends:
+  - name: ModuleManager
+  - name: Kopernicus
+    min_version: '2:release-1.12.0-46'
+# Intentionally not recommending ContractConfigurator-FarOutContracts
+# (frozen, last indexed for KSP 1.3).
+suggests:
+  - name: Deferred
+  - name: DistantObject
+install:
+  - find: Asclepius
+    install_to: GameData
