@@ -13,8 +13,12 @@ tags:
   - plugin
 depends:
   - name: ModuleManager
+  - name: TexturesUnlimited
+suggests:
   - name: ContractConfigurator
   - name: Waterfall
+  - name: RealChute
+  - name: FerramAerospaceResearchContinued
 install:
   - find: MarsScienceLab
     install_to: GameData
