@@ -1,0 +1,12 @@
+identifier: StarlinkV3andpezdispenser
+$kref: '#/ckan/spacedock/4712'
+$vref: '#/ckan/ksp-avc'
+tags:
+  - parts
+  - plugin
+depends:
+  - name: ModuleManager
+install:
+  - find: StarshipPEZ
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
