@@ -1,3 +1,18 @@
 identifier: GalacticNeighborsKerboltis1system
 $kref: '#/ckan/spacedock/4825'
+$vref: '#/ckan/ksp-avc'
 x_via: Automated SpaceDock CKAN submission
+tags:
+  - planet-pack
+  - config
+install:
+  - find: GalacticNeighbors
+    install_to: GameData
+depends:
+  - name: ModuleManager
+  - name: Kopernicus
+  - name: Scatterer
+  - name: VertexMitchellNetravaliHeightMap
+suggests:
+  - name: Singularity
+  - name: EnvironmentalVisualEnhancements
