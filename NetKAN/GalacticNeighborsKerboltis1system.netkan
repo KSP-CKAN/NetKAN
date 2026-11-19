@@ -13,6 +13,8 @@ depends:
   - name: Kopernicus
   - name: Scatterer
   - name: VertexMitchellNetravaliHeightMap
+recommends:
+  - name: ParallaxContinued
 suggests:
   - name: Singularity
   - name: EnvironmentalVisualEnhancements
