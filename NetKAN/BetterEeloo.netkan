@@ -1,0 +1,13 @@
+identifier: BetterEeloo
+$kref: '#/ckan/github/KrForge/BetterEeloo'
+x_netkan_version_edit: ^KSP?(?<version>.+)$
+---
+identifier: BetterEeloo
+$kref: '#/ckan/spacedock/4690'
+tags:
+  - config
+  - planet-pack
+depends:
+  - name: ModuleManager
+  - name: Kopernicus
+x_via: Automated SpaceDock CKAN submission
