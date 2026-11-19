@@ -6,6 +6,10 @@ tags:
   - plugin
   - physics
   - graphics
+depends:
+  - name: Harmony2
+suggests:
+  - name: EnvironmentalVisualEnhancements
 install:
   - find: Thunderbolt
     install_to: GameData
