@@ -5,6 +5,8 @@ x_netkan_version_edit: ^v?(?<version>.+)$
 identifier: Windy
 $kref: '#/ckan/spacedock/4173'
 x_netkan_version_edit: ^v?(?<version>.+)$
+depends:
+  - name: ModuleManager
 tags:
   - config
   - plugin
