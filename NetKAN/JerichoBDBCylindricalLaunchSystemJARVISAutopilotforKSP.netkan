@@ -1,0 +1,17 @@
+identifier: JerichoBDBCylindricalLaunchSystemJARVISAutopilotforKSP
+$kref: '#/ckan/spacedock/4850'
+$vref: '#/ckan/ksp-avc'
+tags:
+  - parts
+  - plugin
+depends:
+  - name: ModuleManager
+install:
+  - find: ''
+    install_to: GameData
+    filter_regexp: \.craft$
+  - file: Ships/VAB/Jericho_Cylindrical_Demonstrator.craft
+    install_to: Ships/VAB
+  - file: Ships/VAB/Jericho_Payload_Adapter_Demonstrator.craft
+    install_to: Ships/VAB
+x_via: Automated SpaceDock CKAN submission
