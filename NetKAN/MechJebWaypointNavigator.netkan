@@ -4,6 +4,7 @@ x_netkan_version_edit: ^v?(?<version>.+)$
 ---
 identifier: MechJebWaypointNavigator
 $kref: '#/ckan/spacedock/4859'
+x_netkan_version_edit: ^v?(?<version>.+)$
 tags:
   - config
   - plugin
@@ -13,4 +14,3 @@ install:
     filter:
       - __MACOSX
       - .DS_Store
-x_via: Automated SpaceDock CKAN submission
