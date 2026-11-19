@@ -1,0 +1,16 @@
+identifier: MechJebWaypointNavigator
+$kref: '#/ckan/github/siyang03/MechJeb-Waypoint-Navigator'
+x_netkan_version_edit: ^v?(?<version>.+)$
+---
+identifier: MechJebWaypointNavigator
+$kref: '#/ckan/spacedock/4859'
+tags:
+  - config
+  - plugin
+install:
+  - find: MechJebWaypointNavigator
+    install_to: GameData
+    filter:
+      - __MACOSX
+      - .DS_Store
+x_via: Automated SpaceDock CKAN submission
