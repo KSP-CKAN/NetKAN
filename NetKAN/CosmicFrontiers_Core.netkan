@@ -16,6 +16,7 @@ depends:
 suggests:
   - name: Singularity
   - name: KopernicusExpansion
+  - name: ParallaxContinued
 install:
   - find: Cosmic_Frontiers
     install_to: GameData
