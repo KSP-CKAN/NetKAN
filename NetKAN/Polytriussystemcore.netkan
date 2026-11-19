@@ -1,0 +1,19 @@
+identifier: Polytriussystemcore
+$kref: '#/ckan/spacedock/4769'
+tags:
+  - buildings
+  - config
+  - planet-pack
+  - plugin
+depends:
+  - name: ModuleManager
+  - name: Kopernicus
+  - name: Harmony2
+  - name: KerbalKonstructs
+  - name: VertexMitchellNetravaliHeightMap
+install:
+  - find: 000_Polytrius
+    install_to: GameData
+  - find: PolyhedronPQS
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
