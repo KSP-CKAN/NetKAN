@@ -5,7 +5,11 @@ $vref: '#/ckan/ksp-avc'
 ---
 identifier: FlightRecorder
 $kref: '#/ckan/spacedock/4521'
-install:
-  - find: ''
-    install_to: GameData
+x_netkan_version_edit: ^v?(?<version>.+)$
+$vref: '#/ckan/ksp-avc'
+tags:
+  - plugin
+  - convenience
+depends:
+  - name: Harmony2
 x_via: Automated SpaceDock CKAN submission
