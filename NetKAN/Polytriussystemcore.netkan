@@ -11,6 +11,8 @@ depends:
   - name: KerbalKonstructs
   - name: VertexMitchellNetravaliHeightMap
 install:
-  - find: ''
+  - find: 000_Polytrius
+    install_to: GameData
+  - find: PolyhedronPQS
     install_to: GameData
 x_via: Automated SpaceDock CKAN submission
