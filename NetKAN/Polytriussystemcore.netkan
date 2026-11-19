@@ -8,6 +8,7 @@ tags:
 depends:
   - name: ModuleManager
   - name: Kopernicus
+  - name: Harmony2
   - name: KerbalKonstructs
   - name: VertexMitchellNetravaliHeightMap
 install:
