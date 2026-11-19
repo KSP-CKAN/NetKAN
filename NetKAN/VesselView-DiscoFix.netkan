@@ -1,0 +1,29 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "VesselView-DiscoFix",
+    "$kref": "#/ckan/github/noem1s/VesselView-Disco-mode-Fix",
+    "name": "VesselView Disco Display Fix",
+    "abstract": "Restores dormant 2015 Disco Mode in modern VesselView",
+    "author": "noem1s",
+    "license": "MIT",
+    "resources": {
+        "homepage": "https://github.com/noem1s/VesselView-Disco-mode-Fix",
+        "repository": "https://github.com/noem1s/VesselView-Disco-mode-Fix"
+    },
+    "tags": [
+        "plugin",
+        "graphics"
+    ],
+    "ksp_version_min": "1.8.0",
+    "ksp_version_max": "1.12.5",
+    "depends": [
+        { "name": "VesselView" },
+        { "name": "VesselView-UI-RasterPropMonitor" }
+    ],
+    "install": [
+        {
+            "find": "VesselViewDiscoFix",
+            "install_to": "GameData"
+        }
+    ]
+}
