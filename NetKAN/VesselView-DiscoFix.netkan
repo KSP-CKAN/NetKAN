@@ -3,7 +3,7 @@
     "identifier": "VesselView-DiscoFix",
     "$kref": "#/ckan/github/noem1s/VesselView-Disco-mode-Fix",
     "name": "VesselView Disco Display Fix",
-    "abstract": "Restores the dormant 2015 Disco Mode in modern VesselView by providing the missing VesselViewPlugin.dll bridge assembly.",
+    "abstract": "Restores dormant 2015 Disco Mode in modern VesselView",
     "author": "noem1s",
     "license": "MIT",
     "resources": {
@@ -22,7 +22,7 @@
     ],
     "install": [
         {
-            "find": "VesselView",
+            "find": "VesselViewDiscoFix",
             "install_to": "GameData"
         }
     ]
