@@ -15,5 +15,5 @@ depends:
 suggests:
   - name: CosmicFrontiers-Gigantia
 install:
-  - find: Core
-    install_to: GameData/Cosmic_Frontiers
+  - find: Cosmic_Frontiers
+    install_to: GameData
