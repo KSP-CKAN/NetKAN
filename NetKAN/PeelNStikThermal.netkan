@@ -1,16 +1,4 @@
-# CKAN metadata for PeelNStikThermal (KSP 1)
-#
-# Public listing route:
-#   1. URLs and $kref already point at the public repository.
-#   2. The release ZIP is attached to the GitHub Release (see README.md).
-#   3. Validate with netkan.exe --verbose PeelNStikThermal.netkan
-#   4. Open a PR adding this file as NetKAN/PeelNStikThermal.netkan
-#      in https://github.com/KSP-CKAN/NetKAN
-#
-# license: restricted = "All Rights Reserved" (official CKAN license string)
-
 identifier: PeelNStikThermal
-$kref: '#/ckan/github/ehemaliger56-debug/PeelNStikThermal'
 name: Peel-N-Stik Thermal
 abstract: Ablative stick-on heat shields and active heat sinks for KSP 1.12.
 description: |-
@@ -26,17 +14,14 @@ description: |-
   Firefly integration is optional; enhanced Firefly effects are still a
   work in progress.
 author: Liam
+$kref: '#/ckan/github/ehemaliger56-debug/PeelNStikThermal'
+ksp_version: 1.12
 license: restricted
-resources:
-  homepage: https://github.com/ehemaliger56-debug/PeelNStikThermal
-  repository: https://github.com/ehemaliger56-debug/PeelNStikThermal
-  bugtracker: https://github.com/ehemaliger56-debug/PeelNStikThermal/issues
 tags:
   - parts
   - physics
   - plugin
   - graphics
-ksp_version: 1.12
 depends:
   - name: ModuleManager
   - name: ConformalDecals
