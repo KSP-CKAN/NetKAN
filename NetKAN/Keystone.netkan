@@ -14,6 +14,7 @@ tags:
   - library
 suggests:
   - name: TUFX
+  - name: Harmony2
 install:
   - find: Keystone
     install_to: GameData
