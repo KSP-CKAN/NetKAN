@@ -1,0 +1,16 @@
+identifier: Hyperdrive
+$kref: '#/ckan/github/warnix91/HYPERDRIVE'
+x_netkan_version_edit: ^v?(?<version>.+)$
+$vref: '#/ckan/ksp-avc'
+---
+identifier: Hyperdrive
+$kref: '#/ckan/spacedock/4780'
+$vref: '#/ckan/ksp-avc'
+tags:
+  - config
+  - plugin
+install:
+  - find: Hyperdrive
+    install_to: GameData
+    filter_regexp: \.pdb$
+x_via: Automated SpaceDock CKAN submission
