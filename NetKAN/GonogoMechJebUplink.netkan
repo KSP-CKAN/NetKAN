@@ -1,0 +1,21 @@
+identifier: GonogoMechJebUplink
+$kref: '#/ckan/github/ksp-gonogo/gonogo-uplinks/asset_match/^GonogoMechJebUplink\.zip$'
+x_netkan_github:
+  prereleases: false
+x_netkan_version_edit:
+  find: ^mechjeb-[vV]?(?<version>.+)$
+  replace: ${version}
+name: Gonogo MechJeb2 Uplink
+abstract: Gonogo integration for MechJeb2.
+author: jpeps
+license: GPL-3.0
+ksp_version: '1.12'
+tags:
+  - plugin
+  - information
+  - control
+resources:
+  homepage: https://ksp-gonogo.github.io/
+  repository: https://github.com/ksp-gonogo/gonogo-uplinks
+  bugtracker: https://github.com/ksp-gonogo/gonogo-uplinks/issues
+  manual: https://github.com/ksp-gonogo/gonogo-uplinks/blob/main/uplinks/mechjeb/README.md
