@@ -15,12 +15,18 @@ depends:
     min_version: 2:release-1.12.1-253
     suppress_recommendations: true
   - name: AdvancedPQSTools
+  - name: VertexHeightOblateAdvanced
   - name: TheFiveEchoesCore
 recommends:
   - name: TheFiveEchoesRSA
 conflicts:
   - name: CelestialHarmony
   - name: RealSolarSystem
+suggests:
+  - name: ParallaxContinued
+  - name: Scatterer
+  - name: Scatterer-config
+  - name: TiltEm-Continued
 install:
-  - find: TheFiveEchoes
-    install_to: GameData
+  - file: GameData/TheFiveEchoes/_Systems/Rhakuutra
+    install_to: GameData/TheFiveEchoes/_Systems
