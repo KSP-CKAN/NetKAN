@@ -1,0 +1,16 @@
+identifier: MouseintoSpaceModularMultiStageLaunchSystemforKSP
+$kref: '#/ckan/spacedock/4858'
+$vref: '#/ckan/ksp-avc'
+tags:
+  - parts
+install:
+  - find: MouseIntoSpace
+    install_to: GameData
+    filter_regexp: \.craft$
+  - file: Ships/VAB/MIS_Four_Stage_Assembly.craft
+    install_to: Ships/VAB
+  - file: Ships/VAB/MIS_Open_Top_Stage_Swap.craft
+    install_to: Ships/VAB
+  - file: Ships/VAB/MIS_Repeated_Stage_Assembly.craft
+    install_to: Ships/VAB
+x_via: Automated SpaceDock CKAN submission
