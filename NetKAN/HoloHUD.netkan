@@ -1,0 +1,13 @@
+identifier: HoloHUD
+$kref: '#/ckan/spacedock/4867'
+$vref: '#/ckan/ksp-avc'
+tags:
+  - config
+  - control
+  - plugin
+depends:
+  - name: kOS
+install:
+  - find: GameData/HoloHUD
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
