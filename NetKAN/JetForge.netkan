@@ -1,0 +1,15 @@
+identifier: JetForge
+$kref: '#/ckan/github/AAA-driver-Yang/JetForge'
+$vref: '#/ckan/ksp-avc'
+---
+identifier: JetForge
+$kref: '#/ckan/spacedock/4872'
+$vref: '#/ckan/ksp-avc'
+tags:
+  - graphics
+  - parts
+  - plugin
+depends:
+  - name: ModuleManager
+  - name: Waterfall
+x_via: Automated SpaceDock CKAN submission
