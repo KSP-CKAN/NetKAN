@@ -22,5 +22,6 @@ supports:
   - name: CommunityTechTree
   - name: OuterPlanetsMod
   - name: RealSolarSystem
+  - name: ReStock
 conflicts:
   - name: DeadlyReentry
