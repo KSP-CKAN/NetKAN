@@ -1,0 +1,34 @@
+identifier: MarsScienceLab
+$kref: '#/ckan/github/Polsct/MarsScienceLab'
+x_netkan_version_edit: ^v?(?<version>.+)$
+$vref: '#/ckan/ksp-avc'
+---
+identifier: MarsScienceLab
+$kref: '#/ckan/spacedock/4849'
+$vref: '#/ckan/ksp-avc'
+tags:
+  - career
+  - graphics
+  - parts
+  - plugin
+depends:
+  - name: ModuleManager
+  - name: TexturesUnlimited
+suggests:
+  - name: ContractConfigurator
+  - name: Waterfall
+  - name: RealChute
+  - name: FerramAerospaceResearchContinued
+install:
+  - find: MarsScienceLab
+    install_to: GameData
+    filter_regexp: \.craft$
+  - file: Ships/VAB/MSL_Guided_Entry_Stock.craft
+    install_to: Ships/VAB
+  - file: Ships/VAB/MSL_Curiosity_2012_Stock.craft
+    install_to: Ships/VAB
+  - file: Ships/VAB/MSL_Guided_Entry.craft
+    install_to: Ships/VAB
+  - file: Ships/VAB/MSL_Curiosity_2012.craft
+    install_to: Ships/VAB
+x_via: Automated SpaceDock CKAN submission
