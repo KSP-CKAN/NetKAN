@@ -1,0 +1,13 @@
+identifier: UniversalIVAEditor
+$kref: '#/ckan/github/jongshh/Universal-IVA-Editor'
+---
+identifier: UniversalIVAEditor
+$kref: '#/ckan/spacedock/4869'
+$vref: '#/ckan/ksp-avc'
+tags:
+  - config
+  - first-person
+  - plugin
+depends:
+  - name: ModuleManager
+x_via: Automated SpaceDock CKAN submission
