@@ -1,0 +1,10 @@
+identifier: Prismaris
+$kref: '#/ckan/spacedock/4637'
+tags:
+  - config
+  - planet-pack
+  - plugin
+depends:
+  - name: ModuleManager
+  - name: Kopernicus
+x_via: Automated SpaceDock CKAN submission
