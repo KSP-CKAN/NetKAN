@@ -1,0 +1,28 @@
+identifier: StarshipkOSInterface
+author:
+  - Nubro
+  - Janus92
+  - Vista
+$kref: '#/ckan/spacedock/3904'
+license: restricted
+resources:
+  manual: https://github.com/Janus1992/KSP_Starship-kOS-Interface/wiki
+tags:
+  - config
+  - control
+depends:
+  - name: ModuleManager
+  - name: kOS
+  - name: Trajectories
+  - name: StarshipLaunchExpansion
+  - name: StarshipExpansionProject
+suggests:
+  - name: HullcamVDSContinued
+  - name: HangarExtender
+install:
+  - find: StarshipInterface
+    install_to: GameData
+  - find: Ships/Script
+    install_to: Ships
+  - find: Ships/VAB
+    install_to: Ships
