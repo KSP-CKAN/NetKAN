@@ -1,0 +1,18 @@
+identifier: KRASHSimFX
+$kref: '#/ckan/github/AlexSkylark/KRASH-SimFX'
+x_netkan_version_edit: ^v?(?<version>.+)$
+$vref: '#/ckan/ksp-avc'
+---
+identifier: KRASHSimFX
+$kref: '#/ckan/spacedock/4878'
+$vref: '#/ckan/ksp-avc'
+tags:
+  - config
+  - graphics
+  - plugin
+depends:
+  - name: TUFX
+install:
+  - find: KRASH-SimFX
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
