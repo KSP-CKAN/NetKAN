@@ -1,0 +1,16 @@
+identifier: DejaVuKerbin
+$kref: '#/ckan/spacedock/4879'
+$vref: '#/ckan/ksp-avc'
+tags:
+  - config
+  - planet-pack
+depends:
+  - name: ModuleManager
+  - name: Kopernicus
+install:
+  - find: DejaVuKerbin
+    install_to: GameData
+    filter:
+      - __MACOSX
+      - .DS_Store
+x_via: Automated SpaceDock CKAN submission
