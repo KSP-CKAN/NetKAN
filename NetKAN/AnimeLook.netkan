@@ -1,13 +1,13 @@
 identifier: AnimeLook
-name: Anime Look
-abstract: >-
-  Every craft and kerbal squashed flat toward the camera, as the 3D models of
-  drawn animation are, with ink lines and flat paint over the picture.
-author: Ishiaki
 $kref: '#/ckan/github/IshiakiZ/ksp-anime-look'
 $vref: '#/ckan/ksp-avc'
 x_netkan_version_edit: '^[vV]?(?<version>.+)$'
 license: CC-BY-4.0
+---
+identifier: AnimeLook
+$kref: '#/ckan/spacedock/4821'
+$vref: '#/ckan/ksp-avc'
+x_netkan_version_edit: '^[vV]?(?<version>.+)$'
 tags:
   - plugin
   - graphics

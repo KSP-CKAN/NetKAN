@@ -1,13 +1,13 @@
 identifier: SteadyCamera
-name: Steady Camera
-abstract: >-
-  The flight camera held steady while your craft spins: the game's camera wobble
-  in a fast spin held back, all of it or as much as you like.
-author: Ishiaki
 $kref: '#/ckan/github/IshiakiZ/ksp-steady-camera'
 $vref: '#/ckan/ksp-avc'
 x_netkan_version_edit: '^[vV]?(?<version>.+)$'
 license: CC-BY-4.0
+---
+identifier: SteadyCamera
+$kref: '#/ckan/spacedock/4701'
+$vref: '#/ckan/ksp-avc'
+x_netkan_version_edit: '^[vV]?(?<version>.+)$'
 tags:
   - plugin
   - convenience

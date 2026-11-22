@@ -1,14 +1,13 @@
-identifier: CinemaCamera
-name: Cinema Camera
-abstract: >-
-  The flight camera worked like a real one: lens, sensor, aperture, focus,
-  shutter and film speed, moves and paths to fly, and a viewfinder with a
-  light meter.
-author: Ishiaki
+identifier: CineCamera
 $kref: '#/ckan/github/IshiakiZ/ksp-cinema-camera'
 $vref: '#/ckan/ksp-avc'
 x_netkan_version_edit: '^[vV]?(?<version>.+)$'
 license: CC-BY-4.0
+---
+identifier: CineCamera
+$kref: '#/ckan/spacedock/4675'
+$vref: '#/ckan/ksp-avc'
+x_netkan_version_edit: '^[vV]?(?<version>.+)$'
 tags:
   - plugin
   - graphics
