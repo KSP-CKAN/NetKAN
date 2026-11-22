@@ -1,0 +1,40 @@
+# CKAN metadata for KKBlocks (KSP 1)
+#
+# Public listing route:
+#   1. URLs and $kref point at the public GitHub repository.
+#   2. The release ZIP is attached to the GitHub Release (see README.md).
+#   3. Validate with netkan.exe --verbose KKBlocks.netkan
+#   4. Open a PR adding this file as NetKAN/KKBlocks.netkan
+#      in https://github.com/KSP-CKAN/NetKAN
+#
+# license: restricted = "All Rights Reserved" (official CKAN license string)
+# No plugin is shipped; Kerbal Konstructs is the only dependency.
+
+identifier: KKBlocks
+$kref: '#/ckan/github/ehemaliger56-debug/KKBlocks'
+name: KKBlocks
+abstract: Static building blocks for Kerbal Konstructs in six shapes and twelve colours.
+description: |-
+  KKBlocks adds 42 static meshes for Kerbal Konstructs: cubes, ramps,
+  pyramids, cylinders, domes and spheres in seven sizes each. Every static
+  offers twelve colour variants through the stock TextureSet system, giving
+  504 combinations for scenery, bases and launch-site decoration.
+
+  All meshes share one stock-like KSP/Diffuse material, keep the original
+  cube mesh names and save-compatible dimensions, and need no plugin.
+  Ramps and the other angular shapes use solid mesh colliders so they can be
+  driven on; spheres use a sphere collider. The models are generated offline
+  with the included MuTool source, so there is no runtime mesh generation.
+author: Lynx
+license: restricted
+resources:
+  homepage: https://github.com/ehemaliger56-debug/KKBlocks
+  repository: https://github.com/ehemaliger56-debug/KKBlocks
+  bugtracker: https://github.com/ehemaliger56-debug/KKBlocks/issues
+tags:
+  - parts
+  - graphics
+  - config
+ksp_version: 1.12
+depends:
+  - name: KerbalKonstructs
