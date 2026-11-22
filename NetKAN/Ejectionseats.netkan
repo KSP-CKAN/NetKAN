@@ -1,0 +1,16 @@
+identifier: Ejectionseats
+$kref: '#/ckan/github/smirkcat1/KSP-EjectionSeats'
+$vref: '#/ckan/ksp-avc'
+---
+identifier: Ejectionseats
+$kref: '#/ckan/spacedock/4877'
+$vref: '#/ckan/ksp-avc'
+tags:
+  - parts
+  - plugin
+depends:
+  - name: ModuleManager
+install:
+  - find: EjectionSeats
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
