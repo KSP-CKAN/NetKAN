@@ -1,0 +1,29 @@
+{
+    "spec_version": "v1.18",
+    "identifier": "KerbalSpaceDirectorate",
+    "name": "Kerbal Space Directorate",
+    "abstract": "Run a space agency: hire kerbals, set the budget, and let AI engineers design and your crews fly the missions.",
+    "author": "Blackbox Entertainment",
+    "$kref": "#/ckan/github/blackbox-entertainment/Kerbal-Space-Directorate",
+    "$vref": "#/ckan/ksp-avc",
+    "license": "MIT",
+    "release_status": "testing",
+    "resources": {
+        "homepage": "https://github.com/blackbox-entertainment/Kerbal-Space-Directorate",
+        "bugtracker": "https://github.com/blackbox-entertainment/Kerbal-Space-Directorate/issues",
+        "repository": "https://github.com/blackbox-entertainment/Kerbal-Space-Directorate"
+    },
+    "tags": [ "plugin", "career", "crewed", "config" ],
+    "depends": [
+        { "name": "ModuleManager" }
+    ],
+    "suggests": [
+        { "name": "Kerbalism" },
+        { "name": "HooliganLabsAirships" },
+        { "name": "KerbalPlanetaryBaseSystems" },
+        { "name": "StationPartsExpansionRedux" }
+    ],
+    "install": [
+        { "find": "KSA", "install_to": "GameData" }
+    ]
+}
