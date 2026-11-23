@@ -1,0 +1,33 @@
+identifier: NowhereDaringDoCrossover
+$kref: '#/ckan/spacedock/4752'
+$vref: '#/ckan/ksp-avc'
+tags:
+  - crewed
+  - first-person
+  - parts
+depends:
+  - name: ModuleManager
+  - name: B9PartSwitch
+install:
+  - find: ''
+    install_to: GameData
+    filter_regexp: \.craft$
+  - file: 
+      Nowhere_DaringDo_Crossover-v0.1.0/Ships/VAB/Nowhere_DaringDo_Crossover.craft
+    install_to: Ships/VAB
+  - file: 
+      Nowhere_DaringDo_Crossover-v0.1.0/Source/Upstream/DaringDoLaunchSystem-v0.15.7/CraftFiles/DaringDo_Dry_Orbital_Separation.craft
+    install_to: Ships/VAB
+  - file: 
+      Nowhere_DaringDo_Crossover-v0.1.0/Source/Upstream/DaringDoLaunchSystem-v0.15.7/CraftFiles/DaringDo_Dry_Pathfinder_Direct.craft
+    install_to: Ships/VAB
+  - file: 
+      Nowhere_DaringDo_Crossover-v0.1.0/Source/Upstream/DaringDoLaunchSystem-v0.15.7/CraftFiles/DaringDo_Dry_Pathfinder_TwoStage.craft
+    install_to: Ships/VAB
+  - file: 
+      Nowhere_DaringDo_Crossover-v0.1.0/Source/Upstream/NowhereRocket_v0.3.0/Ships/VAB/Nowhere_Rocket.craft
+    install_to: Ships/VAB
+  - file: 
+      Nowhere_DaringDo_Crossover-v0.1.0/Source/Upstream/NowhereRocket_v0.3.0/Ships/VAB/Nowhere_Rocket_Modular.craft
+    install_to: Ships/VAB
+x_via: Automated SpaceDock CKAN submission
