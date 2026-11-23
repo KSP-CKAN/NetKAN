@@ -1,0 +1,38 @@
+{
+    "spec_version": "v1.18",
+    "identifier": "TowerCatch",
+    "name": "TowerCatch",
+    "abstract": "The booster catch tower of KRPC.Bridge, complete: its parts, its craft and its kRPC services (conn.tower, conn.tower_site).",
+    "description": "Everything of the booster catch tower, in one optional package: TowerCatch.cfg, a ModuleManager patch that makes TG.* copies of parts of Modular Launch Pads, HullCamera VDS and the two Kerbal Space Program expansions; the craft 'Tour Catch v5' that tower_spawn_v1 puts on the ground; and the plugin KRPC.Bridge.Tower.dll, which declares the kRPC services that place, read and test the tower. It needs KRPC.Bridge (its Core loads first) and kRPC, and adds nothing to the game when it is not installed. REQUIRES TWO PAID EXPANSIONS: Breaking Ground (the hinges of the arms) and Making History (the tubes around the hinges). CKAN can only check that they are installed, not install them; without either of them KSP cannot load the tower, and a tower already in a save is removed by the game at load. Nothing of the mods or of the game is redistributed: the patch only names the parts installed on your machine. Do not keep a second copy of the patch, or of KRPC.Bridge.Tower.dll, in GameData/KRPC.Bridge: a copy left there by KRPC.Bridge 2.0.0 makes every part twice, and the duplicate kRPC service takes the whole server down.",
+
+    "author": "romsti",
+    "license": "MIT",
+
+    "$kref": "#/ckan/github/romsti/krpc_bridge/version_from_asset/^TowerCatch-(?<version>[0-9]+\\.[0-9]+\\.[0-9]+)\\.zip$",
+    "$vref": "#/ckan/ksp-avc",
+
+    "resources": {
+        "homepage": "https://romsti.github.io/krpc_bridge/",
+        "repository": "https://github.com/romsti/krpc_bridge",
+        "bugtracker": "https://github.com/romsti/krpc_bridge/issues"
+    },
+
+    "tags": [ "parts", "config", "plugin" ],
+
+    "depends": [
+        { "name": "ModuleManager" },
+        { "name": "kRPC", "min_version": "v0.7.0" },
+        { "name": "KRPC-Bridge", "min_version": "2.1.0" },
+        { "name": "ModularLaunchPads" },
+        { "name": "HullcamVDSContinued" },
+        { "name": "MakingHistory-DLC" },
+        { "name": "BreakingGround-DLC" }
+    ],
+
+    "install": [
+        {
+            "find": "TowerCatch",
+            "install_to": "GameData"
+        }
+    ]
+}
