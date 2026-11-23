@@ -1,0 +1,17 @@
+identifier: TrufiadoksIKRCmodInverseKinematicsRobotController
+$kref: '#/ckan/spacedock/4297'
+$vref: '#/ckan/ksp-avc'
+tags:
+  - parts
+  - plugin
+  - tech-tree
+depends:
+  - name: ModuleManager
+install:
+  - find: IKRC-for-Kerbal-master
+    install_to: GameData
+    filter_regexp:
+      - \.mdb$
+      - \.pdb$
+      - \.craft$
+x_via: Automated SpaceDock CKAN submission
