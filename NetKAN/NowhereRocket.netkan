@@ -1,0 +1,16 @@
+identifier: NowhereRocketModularDomes
+$kref: '#/ckan/spacedock/4751'
+$vref: '#/ckan/ksp-avc'
+tags:
+  - crewed
+  - first-person
+  - parts
+install:
+  - find: NowhereRocket
+    install_to: GameData
+    filter_regexp: \.craft$
+  - file: NowhereRocket_v0.4.0/Ships/VAB/Nowhere_Rocket.craft
+    install_to: Ships/VAB
+  - file: NowhereRocket_v0.4.0/Ships/VAB/Nowhere_Rocket_Modular.craft
+    install_to: Ships/VAB
+x_via: Automated SpaceDock CKAN submission
