@@ -1,0 +1,14 @@
+identifier: VandenbergSLC4E
+$kref: '#/ckan/spacedock/4715'
+tags:
+  - buildings
+  - config
+  - planet-pack
+depends:
+  - name: ModuleManager
+  - name: Kopernicus
+  - name: KerbalKonstructs
+install:
+  - find: SLC4E_Vandenberg
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
