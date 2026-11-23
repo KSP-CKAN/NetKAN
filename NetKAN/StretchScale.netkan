@@ -1,0 +1,8 @@
+identifier: StretchScale
+$kref: '#/ckan/spacedock/4718'
+tags:
+  - config
+  - plugin
+depends:
+  - name: ModuleManager
+x_via: Automated SpaceDock CKAN submission
