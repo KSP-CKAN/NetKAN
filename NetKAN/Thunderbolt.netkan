@@ -1,0 +1,17 @@
+identifier: Thunderbolt
+$kref: '#/ckan/github/Aebestach/Thunderbolt'
+$vref: '#/ckan/ksp-avc/GameData/Thunderbolt/Thunderbolt.version'
+x_netkan_version_edit: ^v?(?<version>.+)$
+tags:
+  - plugin
+  - physics
+  - graphics
+depends:
+  - name: Harmony2
+suggests:
+  - name: EnvironmentalVisualEnhancements
+install:
+  - find: Thunderbolt
+    install_to: GameData
+  - find: BlastFX
+    install_to: GameData
