@@ -1,0 +1,14 @@
+identifier: StarshipFrost
+$kref: '#/ckan/spacedock/4258'
+tags:
+  - parts
+  - plugin
+depends:
+  - name: ModuleManager
+  - name: B9PartSwitch
+  - name: Deferred
+  - name: StarshipExpansionProject
+  - name: FlipNBurn
+install:
+  - find: frost_mod
+    install_to: GameData
