@@ -1,5 +1,6 @@
 identifier: Ejectionseats
 $kref: '#/ckan/github/smirkcat1/KSP-EjectionSeats'
+x_netkan_version_edit: ^v?(?<version>.+)$
 $vref: '#/ckan/ksp-avc'
 ---
 identifier: Ejectionseats
