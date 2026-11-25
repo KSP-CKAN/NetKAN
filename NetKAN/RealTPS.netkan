@@ -14,11 +14,14 @@ tags:
 depends:
   - name: ModuleManager
   - name: B9PartSwitch
+recommends:
+  - name: KSPCommunityFixes
 suggests:
   - name: Firefly
 supports:
   - name: CommunityTechTree
   - name: OuterPlanetsMod
   - name: RealSolarSystem
+  - name: ReStock
 conflicts:
   - name: DeadlyReentry
