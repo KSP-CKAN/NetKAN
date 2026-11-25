@@ -22,3 +22,12 @@ supports:
 install:
   - find: EAC
     install_to: GameData
+x_netkan_override:
+  - version: ">=v1.7.0"
+    override:
+      suggests:
+        - name: ContractConfigurator
+      provides:
+        - EnhancedAstronautComplexContractConfig
+      conflicts:
+        - name: EnhancedAstronautComplexContractConfig
