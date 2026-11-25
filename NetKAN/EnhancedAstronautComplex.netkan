@@ -19,6 +19,7 @@ supports:
   - name: EarnYourStripes
   - name: FlightTracker
   - name: DeepFreeze
+  - name: Kronometer
 install:
   - find: EAC
     install_to: GameData
