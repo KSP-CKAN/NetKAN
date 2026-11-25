@@ -1,0 +1,24 @@
+identifier: RealTPS
+name: RealTPS
+abstract: Completely reworks how heat shields work, aiming at greater realism.
+author: Edinilson
+$kref: '#/ckan/github/Edinilson1/RealTPS'
+$vref: '#/ckan/ksp-avc'
+resources:
+  homepage: https://forum.kerbalspaceprogram.com/topic/232155-112x-realtps-real-thermal-protection-systems
+  manual: https://github.com/Edinilson1/RealTPS/blob/master/docs/wiki/Home.md
+tags:
+  - plugin
+  - physics
+  - config
+depends:
+  - name: ModuleManager
+  - name: B9PartSwitch
+suggests:
+  - name: Firefly
+supports:
+  - name: CommunityTechTree
+  - name: OuterPlanetsMod
+  - name: RealSolarSystem
+conflicts:
+  - name: DeadlyReentry

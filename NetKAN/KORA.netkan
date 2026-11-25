@@ -1,0 +1,11 @@
+identifier: KORA
+$kref: '#/ckan/spacedock/4811'
+$vref: '#/ckan/ksp-avc'
+tags:
+  - crewed
+  - first-person
+  - parts
+  - plugin
+depends:
+  - name: ModuleManager
+x_via: Automated SpaceDock CKAN submission

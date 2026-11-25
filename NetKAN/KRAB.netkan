@@ -1,0 +1,21 @@
+spec_version: v1.4
+identifier: KRAB
+name: KRAB-9000
+$kref: '#/ckan/github/Rjoande/KRAB'
+$vref: '#/ckan/ksp-avc'
+x_netkan_version_edit: '^[vV]?(?<version>.+)$'
+license: MIT
+resources:
+  homepage: https://forum.kerbalspaceprogram.com/topic/231467-112x-krab-9000-kerbal-routing-axis-blender/
+tags:
+  - plugin
+  - parts
+  - control
+depends:
+  - name: BreakingGround-DLC
+  - name: Harmony2
+  - name: ModuleManager
+suggests:
+  - name: KRILL
+supports:
+  - name: LoadingTipsPlus

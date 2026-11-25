@@ -1,0 +1,31 @@
+identifier: PLANAProxisLaunchersAndAircraft
+$kref: '#/ckan/github/Proxima-Ch2426/PLANA'
+---
+identifier: PLANAProxisLaunchersAndAircraft
+$kref: '#/ckan/spacedock/4099'
+tags:
+  - crewed
+  - parts
+  - flags
+depends:
+  - name: ModuleManager
+  - name: B9PartSwitch
+  - name: DeployableEngines
+  - name: KSPWheel
+  - name: DepthMask
+recommends:
+  - name: Waterfall
+  - name: Resurfaced
+suggests:
+  - name: CryoTanks
+  - name: CommunityTechTree
+  - name: Deferred
+  - name: FerramAerospaceResearchContinued
+  - name: ASETProps
+  - name: VABOrganizer
+install:
+  - find: PROXI_Launchers
+    install_to: GameData
+  - find: PROXI_Flags
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission

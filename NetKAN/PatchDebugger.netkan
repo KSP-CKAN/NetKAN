@@ -1,0 +1,19 @@
+identifier: PatchDebugger
+name: Patch Debugger
+abstract: In-game, read-only ModuleManager patch debugger
+author:
+  - infradmin4KSP
+license: MIT
+$kref: '#/ckan/github/infradmin4KSP/PatchDebugger'
+$vref: '#/ckan/ksp-avc'
+resources:
+  homepage: https://github.com/infradmin4KSP/PatchDebugger
+tags:
+  - plugin
+  - convenience
+depends:
+  - name: ModuleManager
+  - name: ClickThroughBlocker
+  - name: ToolbarController
+suggests:
+  - name: PatchManager

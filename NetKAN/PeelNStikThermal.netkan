@@ -1,0 +1,33 @@
+identifier: PeelNStikThermal
+name: Peel-N-Stik Thermal
+description: |-
+  Adds four radial peel-and-stik ablative heat shields (0.625 m to 3.75 m),
+  scalable conformal decal coatings with four tile patterns, and four active
+  heat sinks (CDH-4..7). The sinks pull interior and skin heat from every
+  part in radius, store mild heat for free and bill the overflow to
+  ElectricCharge. They brown out when power runs dry and blow like a
+  sacrificial fuse at 1800 K, with an early warning in the part menu.
+  CDH-7 projects a visible energy bubble, bills a flat EC/s per metre of
+  radius and suppresses Firefly reentry FX inside the field. All sinks can
+  be switched on/off in flight via the right-click menu or action groups.
+  Firefly integration is optional; enhanced Firefly effects are still a
+  work in progress.
+author: Liam
+$kref: '#/ckan/github/ehemaliger56-debug/PeelNStikThermal'
+ksp_version: 1.12
+license: restricted
+tags:
+  - parts
+  - physics
+  - plugin
+  - graphics
+depends:
+  - name: ModuleManager
+  - name: ConformalDecals
+  - name: B9PartSwitch
+  - name: ReStock
+recommends:
+  - name: Firefly
+suggests:
+  - name: SystemHeat
+  - name: HeatControl

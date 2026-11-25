@@ -1,0 +1,20 @@
+identifier: AlternateOuterPlanetsAOP
+$kref: '#/ckan/spacedock/4649'
+tags:
+  - config
+  - planet-pack
+depends:
+  - name: ModuleManager
+  - name: Kopernicus
+  - name: VertexMitchellNetravaliHeightMap
+recommends:
+  - name: ParallaxContinued
+  - name: Scatterer
+suggests:
+  - name: SpaceDust
+  - name: RationalResources
+  - name: TiltEm-Continued
+install:
+  - find: AOP
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission

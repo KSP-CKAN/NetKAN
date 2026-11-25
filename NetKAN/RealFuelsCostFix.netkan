@@ -1,0 +1,15 @@
+identifier: RealFuelsCostFix
+$kref: '#/ckan/github/NovaSpem/RealFuelsCostFix'
+$vref: '#/ckan/ksp-avc'
+---
+identifier: RealFuelsCostFix
+$kref: '#/ckan/spacedock/4370'
+$vref: '#/ckan/ksp-avc'
+tags:
+  - plugin
+  - career
+depends:
+  - name: ModuleManager
+  - name: RealFuels
+    min_version: v15.14.0.0
+x_via: Automated SpaceDock CKAN submission

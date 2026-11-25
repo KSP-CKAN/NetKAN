@@ -6,6 +6,7 @@ tags:
 depends:
   - name: TUFX
 install:
-  - find: New folder
-    install_to: GameData
-x_via: Automated SpaceDock CKAN submission
+  - file: BadBox's Blue TUFX.cfg
+    install_to: GameData/BadBoxsTUFX
+  - file: BadBox's Updated TUFX.cfg
+    install_to: GameData/BadBoxsTUFX

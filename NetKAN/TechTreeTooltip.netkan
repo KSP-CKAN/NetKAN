@@ -1,0 +1,21 @@
+identifier: TechTreeTooltip
+$kref: '#/ckan/github/Turbolious/Tech-Tree-Tooltip'
+x_netkan_version_edit: ^Update_V?(?<version>.+)$
+tags:
+  - plugin
+  - information
+  - tech-tree
+install:
+  - find: Tech Tree Tooltip
+    install_to: GameData
+---
+identifier: TechTreeTooltip
+$kref: '#/ckan/spacedock/4663'
+tags:
+  - plugin
+  - information
+  - tech-tree
+install:
+  - find: Tech Tree Tooltip
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission

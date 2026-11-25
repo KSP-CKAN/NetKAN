@@ -1,0 +1,17 @@
+identifier: GAPFAS
+$kref: '#/ckan/spacedock/4540'
+x_netkan_version_edit: ^v?(?<version>.+)$
+tags:
+  - career
+  - parts
+  - agency
+depends:
+  - name: ModuleManager
+  - name: ContractConfigurator
+  - name: KerbalKonstructs
+  - name: WaypointManager
+suggests:
+  - name: NavUtilitiesContinued
+  - name: KramaxAutopilotContinued
+  - name: MechJeb2
+x_via: Automated SpaceDock CKAN submission

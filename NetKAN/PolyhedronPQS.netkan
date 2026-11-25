@@ -1,0 +1,10 @@
+identifier: PolyhedronPQS
+$kref: '#/ckan/spacedock/4793'
+tags:
+  - plugin
+  - config
+depends:
+  - name: Kopernicus
+  - name: Harmony2
+  - name: ModuleManager
+x_via: Automated SpaceDock CKAN submission

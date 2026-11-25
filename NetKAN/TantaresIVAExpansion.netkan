@@ -1,0 +1,27 @@
+spec_version: v1.4
+identifier: TantaresIVAExpansion
+name: Tantares IVA Expansion
+$kref: '#/ckan/github/Rjoande/TantaresIVAExpansion'
+$vref: '#/ckan/ksp-avc'
+x_netkan_github:
+  prereleases: false
+license:
+  - MIT
+  - CC-BY-NC-SA-3.0
+tags:
+  - config
+  - crewed
+  - first-person
+depends:
+  - name: ModuleManager
+  - name: NewTantares
+  - name: ASETProps
+  - name: AvionicsSystems
+  - name: FreeIva
+  - name: Reviva
+  - name: B9PartSwitch
+suggests:
+  - name: MechJeb2
+  - name: HabTech2
+  - name: StationPartsExpansionRedux-IVAs
+  - name: HullcamVDSContinued

@@ -1,0 +1,18 @@
+identifier: KSPPartExplorer
+$kref: '#/ckan/github/linuxgurugamer/PartExplorer'
+$vref: '#/ckan/ksp-avc'
+---
+identifier: KSPPartExplorer
+$kref: '#/ckan/spacedock/4651'
+$vref: '#/ckan/ksp-avc'
+tags:
+  - config
+  - plugin
+install:
+  - find: PartExplorer
+    install_to: GameData
+    filter_regexp: \.pdb$
+x_via: Automated SpaceDock CKAN submission
+depends:
+  - name: ToolbarController
+  - name: ClickThroughBlocker

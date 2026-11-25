@@ -1,0 +1,10 @@
+identifier: NarakaProceduralAvionics
+$kref: '#/ckan/spacedock/4561'
+$vref: '#/ckan/ksp-avc'
+tags:
+  - parts
+  - science
+depends:
+  - name: ModuleManager
+  - name: ProceduralParts
+x_via: Automated SpaceDock CKAN submission

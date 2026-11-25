@@ -1,10 +1,6 @@
 identifier: TimeControl
 $kref: '#/ckan/github/linuxgurugamer/TimeControl'
 $vref: '#/ckan/ksp-avc'
-x_netkan_version_edit:
-  find: \.0$
-  replace: ''
-  strict: false
 ---
 identifier: TimeControl
 $kref: '#/ckan/spacedock/4107'

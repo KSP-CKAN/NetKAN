@@ -10,6 +10,11 @@ tags:
 depends:
   - name: ModuleManager
   - name: AnimationInitialization
+recommends:
+  - name: B9PartSwitch
+suggests:
+  - name: TweakScaleRescaled
+  - name: TweakScaleCompanion
 install:
   - find: StreamlineEnginesTanks
     install_to: GameData

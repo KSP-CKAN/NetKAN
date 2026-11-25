@@ -1,0 +1,10 @@
+identifier: FireTower
+$kref: '#/ckan/spacedock/4399'
+tags:
+  - buildings
+  - config
+depends:
+  - name: KerbalKonstructs
+suggests:
+  - name: Conifers
+x_via: Automated SpaceDock CKAN submission

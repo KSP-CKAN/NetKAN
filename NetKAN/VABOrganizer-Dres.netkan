@@ -1,0 +1,16 @@
+identifier: VABOrganizer-Dres
+$kref: '#/ckan/spacedock/4115'
+license: open-source
+tags:
+  - config
+  - convenience
+  - editor
+depends:
+  - name: ModuleManager
+  - name: VABOrganizer
+  - name: Mk3Expansion
+install:
+  - find_regexp: '.*\.cfg$'
+    install_to: GameData/VABOrganizer-Dres
+    find_matches_files: true
+x_via: Automated SpaceDock CKAN submission

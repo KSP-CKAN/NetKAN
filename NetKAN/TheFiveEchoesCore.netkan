@@ -1,0 +1,27 @@
+identifier: TheFiveEchoesCore
+name: The Five Echoes - Core
+author:
+  - Space Fox Oprissmian
+  - CharonSSS
+abstract: Core textures and configs for The Five Echoes planet pack
+$kref: '#/ckan/github/TheFiveEchoes/TheFiveEchoes/asset_match/TheFiveEchoes-Core.zip'
+$vref: '#/ckan/ksp-avc'
+license: CC-BY-NC-SA-4.0
+tags:
+  - config
+  - plugin
+depends:
+  - name: ModuleManager
+  - name: Kopernicus
+    min_version: 2:release-1.12.1-253
+  - name: AdvancedPQSTools
+  - name: TheFiveEchoesRhakuutra
+recommends:
+  - name: TheFiveEchoesRSA
+suggests:
+  - name: TiltEm-Continued
+install:
+  - find: _Core
+    install_to: GameData/TheFiveEchoes
+  - file: GameData/TheFiveEchoes/TheFiveEchoesSettings.cfg
+    install_to: GameData/TheFiveEchoes

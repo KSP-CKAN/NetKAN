@@ -1,0 +1,12 @@
+identifier: BilaAndZarn
+$kref: '#/ckan/spacedock/4568'
+tags:
+  - config
+  - planet-pack
+depends:
+  - name: ModuleManager
+  - name: Kopernicus
+install:
+  - find: bila
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission

@@ -1,0 +1,10 @@
+identifier: KerbolExchange
+$kref: '#/ckan/spacedock/4754'
+tags:
+  - career
+  - config
+  - plugin
+depends:
+  - name: Harmony2
+  - name: ClickThroughBlocker
+x_via: Automated SpaceDock CKAN submission

@@ -2,11 +2,11 @@ identifier: TURD-KerbalFoundries
 $kref: '#/ckan/github/KerbalPowers/TURD-KerbalFoundries'
 ---
 identifier: TURD-KerbalFoundries
+$kref: '#/ckan/spacedock/4414'
 name: TURD - Kerbal Foundries
 abstract: >-
   Collection of Textures Unlimited recolours for Kerbal Foundries Continued
 author: Spartwo
-$kref: '#/ckan/spacedock/4414'
 license: CC-BY-NC-SA-4.0
 tags:
   - config

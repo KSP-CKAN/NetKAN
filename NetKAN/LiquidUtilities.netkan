@@ -1,0 +1,8 @@
+identifier: LiquidUtilities
+$kref: '#/ckan/spacedock/4600'
+tags:
+  - plugin
+install:
+  - find: 001_LiquidUtilities
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission

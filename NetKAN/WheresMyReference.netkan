@@ -1,0 +1,12 @@
+identifier: WheresMyReference
+$kref: '#/ckan/spacedock/4686'
+tags:
+  - plugin
+  - editor
+  - convenience
+install:
+  - find: WMR
+    install_to: GameData
+    filter:
+      - PluginData
+x_via: Automated SpaceDock CKAN submission

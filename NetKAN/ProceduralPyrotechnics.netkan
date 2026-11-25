@@ -1,0 +1,13 @@
+spec_version: v1.4
+identifier: ProceduralPyrotechnics
+$kref: '#/ckan/spacedock/4653'
+$vref: '#/ckan/ksp-avc'
+license: restricted
+tags:
+  - plugin
+  - graphics
+  - sound
+depends:
+  - name: Harmony2
+  - name: Shabby
+  - name: ModuleManager

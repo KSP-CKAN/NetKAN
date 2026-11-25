@@ -1,0 +1,17 @@
+identifier: ColdJsMilitaryPlanesChinese
+$kref: '#/ckan/spacedock/4176'
+tags:
+  - crewed
+  - first-person
+  - parts
+recommends:
+  - name: BreakingGround-DLC
+  - name: RasterPropMonitor
+install:
+  - find: CJMP
+    install_to: GameData
+    filter_regexp: \.craft$
+  - find: Craft
+    install_to: Ships
+    as: SPH
+x_via: Automated SpaceDock CKAN submission

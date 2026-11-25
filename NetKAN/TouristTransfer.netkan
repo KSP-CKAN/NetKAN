@@ -1,0 +1,14 @@
+identifier: TouristTransfer
+$kref: '#/ckan/github/maddavo/TouristTransfer'
+x_netkan_version_edit: '^v?(?<version>.+)$'
+ksp_version_min: '1.12'
+ksp_version_max: '1.12.99'
+tags:
+  - plugin
+  - crewed
+  - career
+  - convenience
+depends:
+  - name: ModuleManager
+suggests:
+  - name: ContractConfigurator

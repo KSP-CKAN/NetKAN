@@ -1,0 +1,31 @@
+identifier: TheFiveEchoesRhakuutra
+name: The Five Echoes - Rhakuutra
+author:
+  - Space Fox Oprissmian
+abstract: Configs and textures for the Rhakuutra System, the system replacer part of The Five Echoes
+$kref: '#/ckan/github/TheFiveEchoes/TheFiveEchoes/asset_match/TheFiveEchoes-Rhakuutra.zip'
+$vref: '#/ckan/ksp-avc'
+license: CC-BY-NC-SA-4.0
+tags:
+  - config
+  - planet-pack
+depends:
+  - name: ModuleManager
+  - name: Kopernicus
+    min_version: 2:release-1.12.1-253
+  - name: AdvancedPQSTools
+  - name: VertexHeightOblateAdvanced
+  - name: TheFiveEchoesCore
+recommends:
+  - name: TheFiveEchoesRSA
+conflicts:
+  - name: CelestialHarmony
+  - name: RealSolarSystem
+suggests:
+  - name: ParallaxContinued
+  - name: Scatterer
+  - name: Scatterer-config
+  - name: TiltEm-Continued
+install:
+  - file: GameData/TheFiveEchoes/_Systems/Rhakuutra
+    install_to: GameData/TheFiveEchoes/_Systems

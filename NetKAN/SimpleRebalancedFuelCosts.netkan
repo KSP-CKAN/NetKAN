@@ -1,0 +1,12 @@
+identifier: SimpleRebalancedFuelCosts
+$kref: '#/ckan/spacedock/4520'
+tags:
+  - config
+  - resources
+depends:
+  - name: ModuleManager
+  - name: CommunityResourcePack
+install:
+  - find: RebalancedFuelCost
+    install_to: GameData/AnaAerospace
+x_via: Automated SpaceDock CKAN submission

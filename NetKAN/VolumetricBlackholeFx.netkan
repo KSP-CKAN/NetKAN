@@ -1,0 +1,19 @@
+identifier: VolumetricBlackholeFx
+name: Volumetric Blackhole Fx (KSPVE)
+abstract: >-
+  KSPVE: ray-marched relativistic black holes with volumetric accretion disks and jets,
+  tidal disruption events, and HDR camera post-processing, all tweakable live in game (Ctrl+Alt+V).
+$kref: '#/ckan/github/Vihaan2012-cmyk/Volumetric-Blackhole-Fx'
+$vref: '#/ckan/ksp-avc'
+tags:
+  - plugin
+  - graphics
+  - config
+depends:
+  - name: ModuleManager
+suggests:
+  - name: Singularity
+  - name: KcalbelohSystem
+install:
+  - find: KSPVE
+    install_to: GameData
