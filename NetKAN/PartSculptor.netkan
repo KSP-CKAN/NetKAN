@@ -1,4 +1,7 @@
 identifier: PartSculptor
+$kref: '#/ckan/github/linuxgurugamer/PartSculptor'
+---
+identifier: PartSculptor
 $kref: '#/ckan/spacedock/4812'
 $vref: '#/ckan/ksp-avc'
 tags:
@@ -13,4 +16,3 @@ install:
   - find: PartSculptor
     install_to: GameData
     filter_regexp: \.pdb$
-x_via: Automated SpaceDock CKAN submission
