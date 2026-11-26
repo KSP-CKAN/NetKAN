@@ -1,5 +1,5 @@
 identifier: ShineFix
-$kref: '#/ckan/github/rockmeowstar/KSP_ShineFix/asset_match/^(?!.*Source)'
+$kref: '#/ckan/github/rockmeowstar/KSP_ShineFix'
 x_netkan_version_edit:
   find: ^v
   replace: ''
