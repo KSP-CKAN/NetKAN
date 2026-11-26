@@ -1,0 +1,19 @@
+identifier: TMMP
+$kref: '#/ckan/spacedock/4890'
+tags:
+  - config
+  - planet-pack
+depends:
+  - name: ModuleManager
+  - name: Kopernicus
+  - name: KopernicusExpansionContinueder
+  - name: VertexMitchellNetravaliHeightMap
+  - name: VertexHeightOblateAdvanced
+recommends:
+  - name: OuterPlanetsMod
+  - name: MinorPlanetsExpansion
+suggests:
+  - name: ParallaxContinued
+  - name: TiltEm-Continued
+  - name: RocketRosBetterPlock
+x_via: Automated SpaceDock CKAN submission
