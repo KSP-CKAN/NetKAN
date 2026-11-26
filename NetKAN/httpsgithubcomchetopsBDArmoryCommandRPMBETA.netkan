@@ -1,0 +1,11 @@
+identifier: httpsgithubcomchetopsBDArmoryCommandRPMBETA
+$kref: '#/ckan/spacedock/4862'
+tags:
+  - config
+  - plugin
+depends:
+  - name: ModuleManager
+install:
+  - find: BDArmoryCommandRPM
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
