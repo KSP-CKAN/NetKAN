@@ -1,15 +1,16 @@
-identifier: JerichoBDBCylindricalLaunchSystemJARVISAutopilotforKSP
+identifier: JerichoBDB
 $kref: '#/ckan/spacedock/4850'
-$vref: '#/ckan/ksp-avc'
+$vref: '#/ckan/ksp-avc/GameData/JerichoBDB/JerichoBDB.version'
+license: restricted
 tags:
   - parts
-  - plugin
-depends:
-  - name: ModuleManager
+  - resources
+suggests:
+  - name: kRPC
+  - name: BluedogDB
 install:
-  - find: ''
+  - find: JerichoBDB
     install_to: GameData
-    filter_regexp: \.craft$
   - file: Ships/VAB/Jericho_Cylindrical_Demonstrator.craft
     install_to: Ships/VAB
   - file: Ships/VAB/Jericho_Payload_Adapter_Demonstrator.craft
