@@ -1,0 +1,14 @@
+identifier: solarwinds
+$kref: '#/ckan/spacedock/4452'
+tags:
+  - config
+  - planet-pack
+  - plugin
+depends:
+  - name: ModuleManager
+  - name: Kopernicus
+  - name: VertexMitchellNetravaliHeightMap
+install:
+  - find: SolarWinds
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
