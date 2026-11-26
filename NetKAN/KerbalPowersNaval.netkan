@@ -8,6 +8,7 @@ depends:
   - name: ModuleManager
   - name: KerbalPowersCore
   - name: FirespitterCore
+  - name: KSPCommunityFixes
 suggests:
   - name: RationalHydroDynamics
   - name: VABOrganizer

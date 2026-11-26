@@ -11,6 +11,7 @@ tags:
 depends:
   - name: ModuleManager
   - name: KerbalPowersCore
+  - name: KSPCommunityFixes
   - name: FirespitterCore
 suggests:
   - name: VABOrganizer
