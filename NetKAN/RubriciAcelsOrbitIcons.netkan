@@ -1,0 +1,17 @@
+identifier: RubriciAcelsOrbitIcons
+$kref: '#/ckan/spacedock/4866'
+license: restricted
+tags:
+  - config
+  - planet-pack
+depends:
+  - name: ModuleManager
+  - name: Kopernicus
+conflicts:
+  - name: OrbitIconsPack
+install:
+  - find: AcelOrbitIcons
+    install_to: GameData
+  - find: OrbitIconsPack
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
