@@ -1,0 +1,18 @@
+identifier: JerichoBDB
+$kref: '#/ckan/spacedock/4850'
+$vref: '#/ckan/ksp-avc/GameData/JerichoBDB/JerichoBDB.version'
+license: restricted
+tags:
+  - parts
+  - resources
+suggests:
+  - name: kRPC
+  - name: BluedogDB
+install:
+  - find: JerichoBDB
+    install_to: GameData
+  - file: Ships/VAB/Jericho_Cylindrical_Demonstrator.craft
+    install_to: Ships/VAB
+  - file: Ships/VAB/Jericho_Payload_Adapter_Demonstrator.craft
+    install_to: Ships/VAB
+x_via: Automated SpaceDock CKAN submission
