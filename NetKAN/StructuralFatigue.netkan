@@ -1,0 +1,9 @@
+identifier: StructuralFatigue
+name: StructuralFatigue
+$kref: '#/ckan/spacedock/4860'
+tags:
+  - config
+  - plugin
+depends:
+  - name: ModuleManager
+x_via: Automated SpaceDock CKAN submission
