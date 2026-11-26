@@ -1,0 +1,12 @@
+identifier: KSP2VolumetricKalaxyMod
+$kref: '#/ckan/spacedock/4895'
+tags:
+  - config
+  - planet-pack
+depends:
+  - name: ModuleManager
+  - name: Kopernicus
+install:
+  - find: KSP2-VolumetricKalaxy
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
