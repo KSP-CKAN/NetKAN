@@ -1,10 +1,15 @@
-spec_version: v1.4
 identifier: RealBalloons
 name: RealBalloons
 abstract: >-
-  Realistic zero-pressure balloons, blimps and cloud-city cushions for RO / RP-1 / RSS,
-  from small research balloons to NASA's Big 60 and Venus airships.
-author: tristanmccarthy55
+  Realistic zero-pressure balloons, blimps and cloud-city cushions
+  for RO / RP-1 / RSS, from small research balloons to NASA's Big 60
+  and Venus airships.
+author:
+  - tristanmccarthy55
+  - JoePatrick1
+  - linuxgurugamer
+  - Fengist
+  - DataInterlock
 license: MIT
 $kref: '#/ckan/github/tristanmccarthy55/RealBalloons'
 $vref: '#/ckan/ksp-avc'
@@ -15,11 +20,10 @@ tags:
 depends:
   - name: ModuleManager
   - name: B9PartSwitch
-recommends:
+suggests:
   - name: TexturesUnlimited
+  - name: RealFuels
 supports:
   - name: RP-1
   - name: RealismOverhaul
   - name: RealSolarSystem
-  - name: FerramAerospaceResearchContinued
-  - name: RealFuels
