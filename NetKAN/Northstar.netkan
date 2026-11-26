@@ -1,0 +1,13 @@
+identifier: Northstar
+$kref: '#/ckan/github/KerbalMissile/Northstar'
+x_netkan_version_edit: ^v?(?<version>.+)$
+---
+identifier: Northstar
+$kref: '#/ckan/spacedock/4873'
+tags:
+  - config
+  - planet-pack
+depends:
+  - name: ModuleManager
+  - name: Kopernicus
+x_via: Automated SpaceDock CKAN submission
