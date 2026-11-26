@@ -1,0 +1,19 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "Scribe",
+    "name": "Scribe",
+    "abstract": "A ledger inside your save: when funds, science and reputation changed, by how much, and the reason KSP gave.",
+    "author": "celino",
+    "$kref": "#/ckan/github/celino/Scribe",
+    "$vref": "#/ckan/ksp-avc",
+    "license": "MIT",
+    "tags": [ "plugin", "career" ],
+    "install": [
+        { "find": "Scribe", "install_to": "GameData" }
+    ],
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/topic/232203-112x-scribe-a-ledger-in-your-save-of-every-funds-science-and-reputation-change-with-the-reason-ksp-gave-work-in-progress-010/",
+        "bugtracker": "https://github.com/celino/Scribe/issues",
+        "repository": "https://github.com/celino/Scribe"
+    }
+}
