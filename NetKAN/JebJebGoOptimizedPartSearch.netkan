@@ -1,0 +1,10 @@
+identifier: JebJebGoOptimizedPartSearch
+$kref: '#/ckan/spacedock/4881'
+$vref: '#/ckan/ksp-avc'
+tags:
+  - plugin
+install:
+  - find: JebJebGo
+    install_to: GameData
+    filter_regexp: \.pdb$
+x_via: Automated SpaceDock CKAN submission
