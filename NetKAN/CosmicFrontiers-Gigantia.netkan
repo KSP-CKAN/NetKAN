@@ -13,10 +13,13 @@ depends:
   - name: Kopernicus
   - name: ScaledDecorator
   - name: CosmicFrontiers-Core
+  - name: VertexMitchellNetravaliHeightMap
 suggests:
   - name: Singularity
   - name: KopernicusExpansion
   - name: ParallaxContinued
+  - name: Scatterer
+  - name: EnvironmentalVisualEnhancements
 install:
-  - find: Cosmic_Frontiers
-    install_to: GameData
+  - find: GigantiaSystem
+    install_to: GameData/Cosmic_Frontiers
