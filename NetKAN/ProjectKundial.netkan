@@ -1,0 +1,9 @@
+identifier: ProjectKundial
+$kref: '#/ckan/spacedock/4876'
+tags:
+  - parts
+  - plugin
+install:
+  - find: ProjectSundial
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
