@@ -1,0 +1,16 @@
+identifier: Seamless
+$kref: '#/ckan/github/S4mpsa/ksp-seamless'
+$vref: '#/ckan/ksp-avc'
+x_netkan_version_edit: ^v?(?<version>.+)$
+license: GPL-3.0
+---
+identifier: Seamless
+$kref: '#/ckan/spacedock/4893'
+$vref: '#/ckan/ksp-avc'
+x_netkan_version_edit: ^v?(?<version>.+)$
+tags:
+  - plugin
+  - graphics
+depends:
+  - name: Harmony2
+x_via: Automated SpaceDock CKAN submission
