@@ -1,0 +1,26 @@
+identifier: MechJebWaypointNavigator
+$kref: '#/ckan/github/siyang03/MechJeb-Waypoint-Navigator'
+x_netkan_version_edit: ^v?(?<version>.+)$
+license:
+  - MIT
+  - CC-BY-NC-SA-4.0
+---
+identifier: MechJebWaypointNavigator
+$kref: '#/ckan/spacedock/4859'
+x_netkan_version_edit: ^v?(?<version>.+)$
+license:
+  - MIT
+  - CC-BY-NC-SA-4.0
+tags:
+  - plugin
+  - config
+  - control
+depends:
+  - name: MechJeb2
+  - name: Harmony2
+install:
+  - find: MechJebWaypointNavigator
+    install_to: GameData
+    filter:
+      - __MACOSX
+      - .DS_Store
