@@ -1,0 +1,19 @@
+identifier: KSPChatBridge
+$kref: '#/ckan/github/zernon916/KSPChatBridge'
+$vref: '#/ckan/ksp-avc'
+name: AICS - AI Control System
+abstract: >-
+  AICS - AI Control System: an in-mod C# AI copilot, crew and autopilots for KSP
+  1.12 (local model or a cloud provider, no Python bridge) with autopilots, crew
+  chatter, maps and a systems dashboard.
+tags:
+  - plugin
+  - control
+  - information
+depends:
+  - name: ModuleManager
+recommends:
+  - name: MechJeb2
+suggests:
+  - name: SCANsat
+  - name: RasterPropMonitor
