@@ -1,0 +1,13 @@
+identifier: AircraftAutopilotContinued
+$kref: '#/ckan/github/siyang03/Aircraft-Autopilot-Continued'
+x_netkan_version_edit: ^v?(?<version>.+)$
+---
+identifier: AircraftAutopilotContinued
+$kref: '#/ckan/spacedock/4896'
+tags:
+  - plugin
+install:
+  - find: AircraftAutopilotContinued
+    install_to: GameData
+    filter: __MACOSX
+x_via: Automated SpaceDock CKAN submission
