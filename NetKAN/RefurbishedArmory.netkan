@@ -10,6 +10,7 @@ depends:
   - name: ModuleManager
   - name: BDArmory
   - name: PhysicsRangeExtender
+  - name: KSPCommunityFixes
 suggests:
   - name: VABorganizer
 install:
