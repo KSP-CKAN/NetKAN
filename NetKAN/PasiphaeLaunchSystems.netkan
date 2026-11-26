@@ -1,6 +1,5 @@
 identifier: PasiphaeLaunchSystems
 $kref: '#/ckan/github/Adiri-KSP/Pasiphae-Launch-Systems'
-x_netkan_version_edit: ^v?(?<version>.+)$
 ---
 identifier: PasiphaeLaunchSystems
 $kref: '#/ckan/spacedock/4887'
@@ -11,4 +10,3 @@ depends:
   - name: ModuleManager
   - name: B9PartSwitch
   - name: Waterfall
-x_via: Automated SpaceDock CKAN submission
