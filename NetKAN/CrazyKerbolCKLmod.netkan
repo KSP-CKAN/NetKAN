@@ -1,0 +1,12 @@
+identifier: CrazyKerbolCKLmod
+$kref: '#/ckan/spacedock/4871'
+tags:
+  - config
+  - planet-pack
+depends:
+  - name: ModuleManager
+  - name: Kopernicus
+install:
+  - find: CrazyKerbol
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
