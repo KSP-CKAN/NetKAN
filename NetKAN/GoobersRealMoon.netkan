@@ -1,9 +1,14 @@
 identifier: GoobersRealMoon
 $kref: '#/ckan/spacedock/4823'
+license:
+  - restricted
+  - CC-BY-NC-SA-4.0
 tags:
   - config
   - planet-pack
 depends:
   - name: ModuleManager
   - name: Kopernicus
+recommends:
+  - name: ParallaxContinued
 x_via: Automated SpaceDock CKAN submission
