@@ -1,0 +1,7 @@
+identifier: Easynator
+$kref: '#/ckan/spacedock/4892'
+tags:
+  - config
+depends:
+  - name: ModuleManager
+x_via: Automated SpaceDock CKAN submission
