@@ -12,6 +12,7 @@ depends:
   - name: SpaceTuxLibrary
   - name: ToolbarController
   - name: ClickThroughBlocker
+  - name: ModuleManager
 install:
   - find: KerbalMemorial
     install_to: GameData
