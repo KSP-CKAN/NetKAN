@@ -1,0 +1,17 @@
+identifier: AblatorDecals
+$kref: '#/ckan/github/timduebi/Procedural-Tiled-Heatshields'
+$vref: '#/ckan/ksp-avc'
+x_netkan_version_edit: ^v?(?<version>.+)$
+---
+identifier: AblatorDecals
+$kref: '#/ckan/spacedock/4884'
+$vref: '#/ckan/ksp-avc'
+x_netkan_version_edit: ^v?(?<version>.+)$
+tags:
+  - parts
+  - plugin
+depends:
+  - name: ModuleManager
+recommends:
+  - name: B9PartSwitch
+x_via: Automated SpaceDock CKAN submission
