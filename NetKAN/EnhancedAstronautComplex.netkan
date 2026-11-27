@@ -1,6 +1,6 @@
 identifier: EnhancedAstronautComplex
 name: Enhanced Astronaut Complex
-abstract: Career and crew management for the KSP Astronaut Complex.
+abstract: Career and crew management enhancements for the Kerbal Space Program Astronaut Complex.
 $kref: '#/ckan/github/ItchyBrother/EAC/asset_match/^EACv.+\.zip$'
 $vref: '#/ckan/ksp-avc'
 x_netkan_github:
@@ -13,6 +13,10 @@ tags:
 depends:
   - name: Harmony2
 suggests:
+  - name: ContractConfigurator
+provides:
+  - EnhancedAstronautComplexContractConfig
+conflicts:
   - name: EnhancedAstronautComplexContractConfig
 supports:
   - name: CrewQueueTwo
