@@ -1,0 +1,20 @@
+identifier: KerbalMemorial
+$kref: '#/ckan/github/linuxgurugamer/KerbalMemorial'
+$vref: '#/ckan/ksp-avc'
+---
+identifier: KerbalMemorial
+$kref: '#/ckan/spacedock/4897'
+$vref: '#/ckan/ksp-avc'
+tags:
+  - config
+  - plugin
+depends:
+  - name: SpaceTuxLibrary
+  - name: ToolbarController
+  - name: ClickThroughBlocker
+  - name: ModuleManager
+install:
+  - find: KerbalMemorial
+    install_to: GameData
+    filter_regexp: \.pdb$
+x_via: Automated SpaceDock CKAN submission
