@@ -1,0 +1,25 @@
+identifier: CosmicFrontiers-Gigantia
+$kref: '#/ckan/github/Fir-tree-s/Cosmic-Frontiers/asset_match/Gigantia'
+name: Cosmic Frontiers - Gigantia
+abstract: Red hypergiant star system
+author: Fir-tree
+license: restricted
+tags:
+  - config
+  - planet-pack
+  - library
+depends:
+  - name: ModuleManager
+  - name: Kopernicus
+  - name: ScaledDecorator
+  - name: CosmicFrontiers-Core
+  - name: VertexMitchellNetravaliHeightMap
+suggests:
+  - name: Singularity
+  - name: KopernicusExpansion
+  - name: ParallaxContinued
+  - name: Scatterer
+  - name: EnvironmentalVisualEnhancements
+install:
+  - find: GigantiaSystem
+    install_to: GameData/Cosmic_Frontiers
