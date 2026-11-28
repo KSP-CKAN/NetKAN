@@ -1,0 +1,20 @@
+identifier: GonogoContractConfiguratorUplink
+$kref: '#/ckan/github/ksp-gonogo/gonogo-uplinks/asset_match/^GonogoContractConfiguratorUplink\.zip$'
+x_netkan_github:
+  prereleases: false
+x_netkan_version_edit:
+  find: ^contractConfigurator-[vV]?(?<version>.+)$
+  replace: ${version}
+name: Gonogo Contract Configurator Uplink
+abstract: Gonogo integration for Contract Configurator.
+author: jpeps
+license: MIT
+ksp_version: '1.12'
+tags:
+  - plugin
+  - information
+  - control
+resources:
+  homepage: https://ksp-gonogo.github.io/
+  repository: https://github.com/ksp-gonogo/gonogo-uplinks
+  bugtracker: https://github.com/ksp-gonogo/gonogo-uplinks/issues

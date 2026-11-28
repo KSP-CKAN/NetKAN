@@ -1,0 +1,21 @@
+identifier: GonogoRealAntennasUplink
+$kref: '#/ckan/github/ksp-gonogo/gonogo-uplinks/asset_match/^GonogoRealAntennasUplink\.zip$'
+x_netkan_github:
+  prereleases: false
+x_netkan_version_edit:
+  find: ^realantennas-[vV]?(?<version>.+)$
+  replace: ${version}
+name: Gonogo RealAntennas Uplink
+abstract: Gonogo integration for RealAntennas.
+author: jpeps
+license: MIT
+ksp_version: '1.12'
+tags:
+  - plugin
+  - information
+  - control
+resources:
+  homepage: https://ksp-gonogo.github.io/
+  repository: https://github.com/ksp-gonogo/gonogo-uplinks
+  bugtracker: https://github.com/ksp-gonogo/gonogo-uplinks/issues
+  manual: https://github.com/ksp-gonogo/gonogo-uplinks/blob/main/uplinks/realantennas/README.md
