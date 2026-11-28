@@ -1,0 +1,14 @@
+identifier: ROPlanes
+$kref: '#/ckan/spacedock/4863'
+tags:
+  - crewed
+  - first-person
+  - parts
+  - plugin
+depends:
+  - name: ModuleManager
+  - name: B9PartSwitch
+install:
+  - find: ROPlanesPlus
+    install_to: GameData
+x_via: Automated SpaceDock CKAN submission
