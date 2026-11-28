@@ -1,0 +1,12 @@
+identifier: PasiphaeLaunchSystems
+$kref: '#/ckan/github/Adiri-KSP/Pasiphae-Launch-Systems'
+---
+identifier: PasiphaeLaunchSystems
+$kref: '#/ckan/spacedock/4887'
+tags:
+  - graphics
+  - parts
+depends:
+  - name: ModuleManager
+  - name: B9PartSwitch
+  - name: Waterfall
