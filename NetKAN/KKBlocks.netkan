@@ -1,0 +1,46 @@
+identifier: KKBlocks
+name: KKBlocks
+abstract: Six shapes, seven sizes and twelve colours of save-compatible static building blocks for Kerbal Konstructs.
+description: |-
+  KKBlocks adds 42 ready-to-place static objects for Kerbal Konstructs, so
+  you can build bases, launch-site scenery, ramps and decorative structures
+  without importing models. It covers six shapes (cube, 45-degree ramp,
+  pyramid, cylinder, dome and sphere) in seven sizes (0.5, 1, 2, 4, 8, 16
+  and 32 m). Each static ships twelve colours through the stock TextureSet
+  system, giving 504 combinations that can be switched at any time in the
+  Kerbal Konstructs instance editor.
+
+  The original cube statics keep their exact names and mesh files, so
+  existing saves and placed instances keep working. Every mesh uses one
+  stock-like KSP/Diffuse material and a single submesh; the origin sits at
+  the bottom centre, so objects scale upward from the ground. Ramps,
+  pyramids, cylinders and domes have solid convex mesh colliders, cubes have
+  a box collider and spheres have a sphere collider, making ramps drivable
+  and spheres able to roll. There is no plugin, no ModuleManager patch and
+  no runtime model generation: the .mu files are produced offline by the
+  included MuTool source.
+
+  Requirements: Kerbal Space Program 1.12.0 through 1.12.5 (tested on
+  1.12.5) and Kerbal Konstructs 1.12.3 or newer. Those are the only hard
+  dependencies - no texture packs, no plugins and no other mods are needed.
+  Visual mods such as Scatterer, EVE, TUFX or Deferred are optional.
+  KKBlocks is save-compatible and can be installed or removed at any time;
+  placed instances remain in the Kerbal Konstructs save data.
+
+  Need help or want to share a build? Join the Discord:
+  https://discord.gg/GEjdeqJE6g
+
+  Licensed under MIT: you may use, modify and redistribute it, including in
+  mod packs, as long as the copyright and license notice are kept.
+author: Lynx
+$kref: '#/ckan/github/ehemaliger56-debug/KKBlocks'
+ksp_version_min: 1.12.0
+ksp_version_max: 1.12.5
+license: MIT
+tags:
+  - parts
+  - graphics
+  - config
+depends:
+  - name: KerbalKonstructs
+    min_version: 1.12.3
