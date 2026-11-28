@@ -18,5 +18,5 @@ depends:
   - name: Deferred
   - name: Shabby
 install:
-  - find: 000_ShineFix
+  - find: 000_ShineFixDynamic
     install_to: GameData
