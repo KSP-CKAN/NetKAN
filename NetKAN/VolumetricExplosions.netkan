@@ -1,0 +1,19 @@
+identifier: VolumetricExplosions
+$kref: '#/ckan/github/IshiakiZ/ksp-volumetric-explosions'
+$vref: '#/ckan/ksp-avc'
+x_netkan_version_edit: '^[vV]?(?<version>.+)$'
+license: CC-BY-4.0
+---
+identifier: VolumetricExplosions
+$kref: '#/ckan/spacedock/4669'
+$vref: '#/ckan/ksp-avc'
+x_netkan_version_edit: '^[vV]?(?<version>.+)$'
+tags:
+  - plugin
+  - graphics
+supports:
+  - name: BDArmoryForRunwayProject
+  - name: RealBattery
+install:
+  - find: VolumetricExplosions
+    install_to: GameData

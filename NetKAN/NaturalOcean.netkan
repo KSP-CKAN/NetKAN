@@ -1,0 +1,21 @@
+identifier: NaturalOcean
+$kref: '#/ckan/github/IshiakiZ/ksp-natural-ocean'
+$vref: '#/ckan/ksp-avc'
+x_netkan_version_edit: '^[vV]?(?<version>.+)$'
+license: CC-BY-4.0
+---
+identifier: NaturalOcean
+$kref: '#/ckan/spacedock/4684'
+$vref: '#/ckan/ksp-avc'
+x_netkan_version_edit: '^[vV]?(?<version>.+)$'
+tags:
+  - plugin
+  - graphics
+depends:
+  - name: Keystone
+    min_version: 0.11.0
+recommends:
+  - name: NaturalWeather
+install:
+  - find: NaturalOcean
+    install_to: GameData

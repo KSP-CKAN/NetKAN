@@ -1,0 +1,21 @@
+identifier: WarmStart
+$kref: '#/ckan/github/IshiakiZ/ksp-warm-start'
+$vref: '#/ckan/ksp-avc'
+x_netkan_version_edit: '^[vV]?(?<version>.+)$'
+license: CC-BY-4.0
+---
+identifier: WarmStart
+$kref: '#/ckan/spacedock/4668'
+$vref: '#/ckan/ksp-avc'
+x_netkan_version_edit: '^[vV]?(?<version>.+)$'
+tags:
+  - plugin
+  - convenience
+depends:
+  - name: Keystone
+    min_version: 0.11.0
+recommends:
+  - name: Harmony2
+install:
+  - find: WarmStart
+    install_to: GameData

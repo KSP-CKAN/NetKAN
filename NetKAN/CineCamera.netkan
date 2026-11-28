@@ -1,0 +1,19 @@
+identifier: CineCamera
+$kref: '#/ckan/github/IshiakiZ/ksp-cinema-camera'
+$vref: '#/ckan/ksp-avc'
+x_netkan_version_edit: '^[vV]?(?<version>.+)$'
+license: CC-BY-4.0
+---
+identifier: CineCamera
+$kref: '#/ckan/spacedock/4675'
+$vref: '#/ckan/ksp-avc'
+x_netkan_version_edit: '^[vV]?(?<version>.+)$'
+tags:
+  - plugin
+  - graphics
+depends:
+  - name: Keystone
+    min_version: 0.11.0
+install:
+  - find: CineCamera
+    install_to: GameData

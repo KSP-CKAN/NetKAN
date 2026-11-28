@@ -1,0 +1,20 @@
+identifier: PhotoStudio
+$kref: '#/ckan/github/IshiakiZ/ksp-photo-studio'
+$vref: '#/ckan/ksp-avc'
+x_netkan_version_edit: '^[vV]?(?<version>.+)$'
+license: CC-BY-4.0
+---
+identifier: PhotoStudio
+$kref: '#/ckan/spacedock/4676'
+$vref: '#/ckan/ksp-avc'
+x_netkan_version_edit: '^[vV]?(?<version>.+)$'
+tags:
+  - plugin
+  - graphics
+  - editor
+depends:
+  - name: Keystone
+    min_version: 0.11.0
+install:
+  - find: PhotoStudio
+    install_to: GameData

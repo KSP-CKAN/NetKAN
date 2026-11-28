@@ -1,0 +1,27 @@
+identifier: RealWorlds
+$kref: '#/ckan/github/IshiakiZ/ksp-real-worlds'
+$vref: '#/ckan/ksp-avc'
+x_netkan_version_edit: '^[vV]?(?<version>.+)$'
+license: CC-BY-4.0
+---
+identifier: RealWorlds
+$kref: '#/ckan/spacedock/4700'
+$vref: '#/ckan/ksp-avc'
+x_netkan_version_edit: '^[vV]?(?<version>.+)$'
+tags:
+  - planet-pack
+  - config
+  - plugin
+depends:
+  - name: Keystone
+  - name: Kopernicus
+  - name: Harmony2
+  - name: ModuleManager
+suggests:
+  - name: EnvironmentalVisualEnhancements
+  - name: Scatterer
+conflicts:
+  - name: RealSolarSystem
+install:
+  - find: RealWorlds
+    install_to: GameData

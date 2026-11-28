@@ -1,0 +1,23 @@
+identifier: EngineFlames
+$kref: '#/ckan/github/IshiakiZ/ksp-engine-flames'
+$vref: '#/ckan/ksp-avc'
+x_netkan_version_edit: '^[vV]?(?<version>.+)$'
+license: CC-BY-4.0
+---
+identifier: EngineFlames
+$kref: '#/ckan/spacedock/4680'
+$vref: '#/ckan/ksp-avc'
+x_netkan_version_edit: '^[vV]?(?<version>.+)$'
+tags:
+  - plugin
+  - graphics
+depends:
+  - name: Keystone
+    min_version: 0.11.0
+  - name: VolumetricExplosions
+    min_version: 0.8.0
+recommends:
+  - name: RocketSmoke
+install:
+  - find: EngineFlames
+    install_to: GameData

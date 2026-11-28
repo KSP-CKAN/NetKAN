@@ -1,0 +1,22 @@
+identifier: Fragmentation
+$kref: '#/ckan/github/IshiakiZ/ksp-fragmentation'
+$vref: '#/ckan/ksp-avc'
+x_netkan_version_edit: '^[vV]?(?<version>.+)$'
+license: CC-BY-4.0
+---
+identifier: Fragmentation
+$kref: '#/ckan/spacedock/4682'
+$vref: '#/ckan/ksp-avc'
+x_netkan_version_edit: '^[vV]?(?<version>.+)$'
+tags:
+  - plugin
+  - physics
+  - graphics
+depends:
+  - name: Keystone
+    min_version: 0.11.0
+recommends:
+  - name: VolumetricExplosions
+install:
+  - find: Fragmentation
+    install_to: GameData
