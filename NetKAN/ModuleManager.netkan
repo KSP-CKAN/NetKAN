@@ -5,9 +5,7 @@ author:
   - ialdabaoth
   - Sarbian
   - Blowfish
-$kref: '#/ckan/jenkins/https://ksp.sarbian.com/jenkins/job/ModuleManager/'
-x_netkan_jenkins:
-  use_filename_version: true
+$kref: '#/ckan/github/sarbian/ModuleManager'
 x_netkan_version_edit: ^ModuleManager-(?<version>\d+\.\d+\.\d+)\.zip$
 ksp_version_min: 1.8
 ksp_version_max: 1.12
