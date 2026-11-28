@@ -1,0 +1,24 @@
+identifier: ASDSManager
+$kref: '#/ckan/github/tthirteenttt/ASDS-Manager/asset_match/ASDS-Manager-.*\.zip'
+$vref: '#/ckan/ksp-avc'
+name: ASDS-Manager
+abstract: Remote ASDS barge deployment and kinematic attitude locking for KSP, paired with kOS booster recovery.
+author: tthirteenttt
+license: MIT
+tags:
+  - plugin
+  - convenience
+  - config
+resources:
+  homepage: https://github.com/tthirteenttt/ASDS-Manager
+depends:
+  - name: ModuleManager
+  - name: GravityIssue
+suggests:
+  - name: kOS
+supports:
+  - name: RealismOverhaul
+  - name: RealAntennas
+install:
+  - find: ASDSManager
+    install_to: GameData

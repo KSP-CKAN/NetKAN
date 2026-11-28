@@ -1,0 +1,37 @@
+spec_version: v1.4
+identifier: kOS-Falcon-GNC
+name: kOS-Falcon-GNC
+abstract: Autonomous Falcon 9 Block 5 launch, UPEG orbital insertion, and ASDS/RTLS booster recovery GNC suite for RSS/RO/FAR, bundled with clean-room RO/FAR/Waterfall patches for Tundra Exploration and KRE.
+author: tthirteenttt
+$kref: '#/ckan/github/tthirteenttt/kOS-Falcon-GNC'
+$vref: '#/ckan/ksp-avc'
+license: MIT
+tags:
+  - config
+  - control
+  - library
+depends:
+  - name: ModuleManager
+  - name: kOS
+  - name: RealismOverhaul
+  - name: FerramAerospaceResearchContinued
+  - name: TundraExploration
+  - name: SpaceXLegs
+  - name: FMRSContinued
+recommends:
+  - name: RealSolarSystem
+  - name: Waterfall
+  - name: RealChute
+  - name: RealAntennas
+  - name: Trajectories
+  - name: BetterTimeWarpCont
+suggests:
+  - name: TundraTechnologies
+  - name: PhysicsRangeExtender
+install:
+  - find: kOS-Falcon-GNC
+    install_to: GameData
+  - find: Script
+    install_to: Ships
+  - find: VAB
+    install_to: Ships
